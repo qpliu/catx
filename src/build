@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-if test -f "../build1"
+if test '!' -f "../build1"
 then
     echo "Wrong directory"
     exit 1

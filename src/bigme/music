@@ -1,5 +1,4 @@
-% drs
-% system1
+% drs system1
 % midi
 % roland
 % PARTS midi
@@ -36,12 +35,16 @@
 \include "markup"
 \include "drs"
 
+drsStaff = \new DrumStaff \with { drumStyleTable = #(alist->hash-table myDrumStyleTable) instrumentName = \markup { \rotate #90 "Dr" } } \drsPart
+
 layoutmusic = <<
-    \tag #'(systemOnePart drsPart) \new DrumStaff \with {
-	drumStyleTable = #(alist->hash-table myDrumStyleTable)
-    } <<
+    \tag #'(systemOnePart) <<
 	\markupStuff
 	\drsPart
+    >>
+    \tag #'(drsPart) <<
+	\markupStuff
+	\drsStaff
     >>
 >>
 

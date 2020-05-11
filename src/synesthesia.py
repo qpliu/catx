@@ -4,7 +4,7 @@ import re,sys
 
 a = sys.stdin.read()
 
-a = re.sub(r'^drsPart =',r'drscolorPart =',a)
+a = re.sub(r'Part =',r'colorsPart =',a)
 
 a = re.sub(r'\b(sn)(?=[\s123468->~()])',r'\\tweak color #red \1',a)
 # a = re.sub(r'\b(hh|hho|hhho|hhc)(?=[\s123468->~()])',r'\\tweak color #yellow \1',a)

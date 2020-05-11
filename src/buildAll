@@ -9,11 +9,15 @@ fi
 for a in */music
 do
     name=`dirname "$a"`
-    PARTS=`grep '^% BIN ' "$a"|cut -c 7-`
-    if -n "$PARTS"
+    if test "x$name" '!=' "xbin"
     then
-	cd "$name"
-	../build1 $PARTS
-	cd ..
+	PARTS=`grep '^% BIN ' "$a"|cut -c 7-`
+	if test -n "$PARTS"
+	then
+	    cd "$name"
+	    echo "$name"
+	    ../build1 $PARTS
+	    cd ..
+	fi
     fi
 done

@@ -3,7 +3,7 @@
 % midi
 % roland
 % PARTS midi
-% BIN midi simplesystem1 simplevodrs vodrscolorsunfolded simplevo
+% BIN midi system1 vodrs vodrscolorsunfolded vo
 % MIDIS midiVo midiEg midiEb midiDr midiOthers
 % ROLAND HaveYouEver
 % ROBOT preview=8.2,countat=5
@@ -48,45 +48,51 @@ drumPitchNames.slash = #'slash
 \include "simplelyricsunfolded"
 
 layoutmusic = <<
-    \tag #'(systemOnePart voPart) \new Staff <<
-	\markupStuff
-	\voPart
-	\voLyrics
-    >>
-    \tag #'(simplesystemOnePart simplevoPart simplevodrsPart) \new Staff <<
+    \tag #'(systemOnePart voPart vodrsPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vocals" }
+	shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
 	\markupStuff
 	\simplevoPart
 	\simplevoLyrics
     >>
-    \tag #'(systemOnePart simplesystemOnePart egPart) \new Staff \with {
-	instrumentName = \markup { \rotate #90 "Eg" }
+    \tag #'(systemOnePart egPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr" }
     } <<
 	\markupStuff
 	\egPart
     >>
-    \tag #'(systemOnePart simplesystemOnePart bassPart) \new Staff \with {
+    \tag #'(systemOnePart bassPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }
+	shortInstrumentName = \markup { \rotate #90 "Ba" }
     } <<
 	\markupStuff
 	\bassPart
     >>
-    \tag #'(systemOnePart simplesystemOnePart simplevodrsPart drsPart) \new DrumStaff \with {
+    \tag #'(systemOnePart drsPart vodrsPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\drsPart
     >>
-    \tag #'(vodrscolorsunfolded) \unfoldRepeats <<
+    \tag #'(vodrscolorsunfoldedPart) \removeWithTag #'(removeWithUnfold) \unfoldRepeats \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vocals" }
+	shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
 	\markupStuff
-	\new Staff <<
-	    \simplevoPart
-	    \simplevoLyricsunfolded
-	>>
-	\new DrumStaff \with {
-	    drumStyleTable = #(alist->hash-table myDrumStyleTable)
-	} <<
-	    \drscolorsPart
-	>>
+	\simplevoPart
+	\simplevoLyricsunfolded
+    >>
+    \tag #'(vodrscolorsunfoldedPart) \removeWithTag #'(removeWithUnfold) \unfoldRepeats \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drscolorsPart
     >>
 >>
 

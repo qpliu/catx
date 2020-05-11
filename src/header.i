@@ -112,9 +112,7 @@ midiDrumPitches.counta = f,, % 29
     (bassdrum       default  #f          -3)
 ))
 
-mybarNumberCheck = #(define-music-function (parser location nn) (number?) #{ \barNumberCheck #nn #})
-% IF midi mybarNumberCheck = #(define-music-function (parser location nn) (number?) #{ #})
-% IF roland mybarNumberCheck = #(define-music-function (parser location nn) (number?) #{ #})
+mybarNumberCheck = #(define-music-function (parser location nn) (number?) #{ \tag #'(removeWithUnfold) \barNumberCheck #nn #})
 
 mymark = #(define-music-function (parser location what nn) (markup? number?) #{ \mybarNumberCheck #nn \mark \markup { \with-color #green \box \bold #what } #})
 % IF drs mymark = #(define-music-function (parser location what nn) (markup? number?) #{ \mybarNumberCheck #nn \mark \markup { \box \bold #what } #})

@@ -72,7 +72,7 @@ do
 \include "header.i-if"
 \include "music-if"
 \score {
-\unfoldRepeats \articulate \keepWithTag #'($midi keep) \midimusic
+\unfoldRepeats \articulate \keepWithTag #'($midi keep) \removeWithTag #'(removeWithUnfold) \midimusic
 \midi { }
 }
 EOF
@@ -86,8 +86,9 @@ EOF
 	    TIMIDITY_EXTRA_CFG="-c timidity_extra.cfg"
 	fi
 	timidity $TIMIDITY_EXTRA_CFG -OF -o "$name.flac" -A400 "$name$ROBOT.midi"
-	cp "$name$ROBOT.midi" ../../bin
-	ffmpeg -i "$name.flac" ../../bin/"$name.mp3"
+	ffmpeg -loglevel 16 -i "$name.flac" "$name.mp3"
+	cp "$name.mp3" "$name$ROBOT.midi" ../../bin
+	cp "$name.mp3" "$name$ROBOT.midi" /share/music
     elif test "x$part" = "xroland"
     then
 	merge=
@@ -98,7 +99,7 @@ EOF
 \include "header.i-if"
 \include "music-if"
 \score {
-\unfoldRepeats \articulate \keepWithTag #'($roland keep) \rolandmusic
+\unfoldRepeats \articulate \keepWithTag #'($roland keep) \removeWithTag #'(removeWithUnfold) \rolandmusic
 \midi { }
 }
 EOF
@@ -107,6 +108,7 @@ EOF
 	done
 	java -jar ../../rolandPattern/1.jar "$ROLAND" $merge >"$name.TD0"
 	cp "$name.TD0" ../../bin
+	cp "$name.TD0" /share/music
     else
 	n="${name}_$part"
 	part1=`echo $part|sed 's/1/One/g;s/2/Two/g;s/3/Three/g;s/4/Four/g;s/5/Five/g;s/6/Six/g;s/7/Seven/g;s/8/Eight/g'`
@@ -120,5 +122,6 @@ EOF
 EOF
 	lilypond -l WARN -o "$n" "$n.ly"
 	cp "$n.pdf" ../../bin
+	cp "$n.pdf" /share/music
     fi
 done
