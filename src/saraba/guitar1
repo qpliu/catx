@@ -1,0 +1,377 @@
+guitarOnePart = {
+% page 106 Intro.1
+    \barNumberCheck #1
+   \repeat percent 3 {
+	\relative {
+	    e8 e e' e ais, ais b b |
+	    e,8 e e' ais,~ ais b ais b |
+	}
+    }
+% page 107+2
+    \relative {
+	e8 e e' e ais, a b b |
+	r8 <bes f'> r <a e'> r <g d'>4. |
+    }
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat
+    \barNumberCheck #9
+    \repeat percent 3 {
+	\relative {
+	    e8 e e' e ais, ais b b |
+	    e,8 e e' ais,~ ais b ais b |
+	}
+    }
+% page 108+2
+    \relative {
+	e8 e e' e ais, ais b b |
+    }
+    \relative {
+	r8 <bes f'> r <a e'> r <g d'>4. |
+    }
+% page 108.1 A
+    \barNumberCheck #17
+    \repeat percent 4 {
+	\relative {
+	    <e b'>8 <e b'> \repeat unfold 6 \deadNote <e b'> |
+	    \repeat unfold 8 \deadNote <e b'>8 |
+	}
+    }
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-2x
+    \barNumberCheck #25
+    \repeat percent 3 {
+	\relative {
+	    e8 e e' e ais, ais b b |
+	    e,8 e e' ais,~ ais b ais b |
+	}
+    }
+% page 108+2-2x
+    \relative {
+	e8 e e' e ais, ais b b |
+    }
+% to Coda2
+    \relative {
+	r8 <bes f'> r <a e'> r <g d'>4. |
+    }
+% to Coda3
+% page 108.1 A-2x
+    \barNumberCheck #33
+    \repeat percent 3 {
+	\relative {
+	    \repeat unfold 8 <e b'>8 |
+	    \repeat unfold 8 <e b'>8 |
+	}
+    }
+% page 109.1
+    \relative {
+	<e b'>8 <e b'> r4 r8 <e b'> r <e b'> |
+	r1 |
+    }
+% page 110 B Stegno1
+    \barNumberCheck #41
+    \relative {
+	<g d'>1 |
+	<b fis'>4 b8^"M" b^"M" b^"M" b^"M" <b fis'>4 |
+	<e b'>4 \deadNote <e b'>8 <e b'> r \deadNote <e b'> <e b'>4 |
+    }
+    \relative {
+	c''8\startInstrument "with Octaver"\bendBeforeG #-2 b a d~ d e fis d\stopInstrument "with Octaver" |
+    }
+% page 110.1
+    \relative {
+	<g d'>1 |
+	<b fis'>4 b8^"M" <b fis'>~ <b fis'> b^"M" <b fis'>4 |
+	<e b'>4 e8^"M" e^"M" e^"M" e^"M" <e b'>4 |
+    }
+    \relative {
+	c''4\startInstrument "with Octaver"\bendBeforeG #-2 r8 d r d4.\stopInstrument "with Octaver" |
+    }
+% page 111
+    \relative {
+	<c' g'>2. c8^"M" c16^"M" c^"M" |
+	<c g'>1 |
+	<g d' g b d g>8 \deadNote <g d' g b d g>16 \deadNote <g d' g b d g> <g d' g b d g>8 \deadNote <g d' g b d g>16 \deadNote <g d' g b d g> <g d' g b d g>8\staccato <g d' g b d g>\staccato <g d' g b d g> \deadNote <g d' g b d g>16 \deadNote <g d' g b d g> |
+	<b fis' b dis fis>8 \deadNote <b fis' b dis fis>16 \deadNote <b fis' b dis fis> <b fis' b dis fis>8 <b fis' b dis fis>16 \deadNote <b fis' b dis fis> <b fis' b dis fis>8\staccato <b fis' b dis fis>\staccato <b fis' b dis fis> \deadNote <b fis' b dis fis>16 \deadNote <b fis' b dis fis> |
+    }
+% page 111.1 C
+    \barNumberCheck #53
+    \repeat percent 2 {
+	\relative {
+	    \repeat percent 3 {
+		<b'' e>8 r <a dis> r <b e> r <a dis> r |
+	    }
+	    <b e>8 r <c fis> r <b e>4~ <b e>\chordBendAfterG #-4 |
+	}
+    }
+% page 112.1 D
+    \barNumberCheck #61
+    \relative {
+	\repeat unfold 2 { <e' b' e g b>8 <e b' e g b> \deadNote <e b' e g b> <e b' e g b> } |
+	\repeat unfold 2 { <a, e' a c e a>8 <a e' a c e a> \deadNote <a e' a c e a> <a e' a c e a> } |
+	\repeat unfold 2 { <d a' d fis a>8 <d a' d fis a> \deadNote <d a' d fis a> <d a' d fis a> } |
+	\repeat unfold 2 { <g, d' g b d g>8 <g d' g b d g> \deadNote <g d' g b d g> <g d' g b d g> } |
+    }
+% page 113
+    \relative {
+	\repeat unfold 2 { <c' g' c e g>8 <c g' c e g> \deadNote <c g' c e g> <c g' c e g> } |
+	\repeat unfold 2 { <fis c' e a>8 <fis c' e a> \deadNote <fis c' e a> <fis c' e a> } |
+	\repeat unfold 2 { <b, fis' b e fis>8 <b fis' b e fis> \deadNote <b fis' b e fis> <b fis' b e fis> } |
+	\deadNote <b fis' b e fis>8 <b fis' b dis fis> \deadNote <b fis' b dis fis> \repeat unfold 3 <b fis' b dis fis> <b fis' b dis fis>4 |
+    }
+% page 113.1
+    \relative {
+	\repeat unfold 2 { <e' b' e g b>8 <e b' e g b> \deadNote <e b' e g b> <e b' e g b> } |
+	\repeat unfold 2 { <a, e' a c e a>8 <a e' a c e a> \deadNote <a e' a c e a> <a e' a c e a> } |
+	\repeat unfold 2 { <d a' d fis a>8 <d a' d fis a> \deadNote <d a' d fis a> <d a' d fis a> } |
+	\repeat unfold 2 { <g, d' g b d g>8 <g d' g b d g> \deadNote <g d' g b d g> <g d' g b d g> } |
+    }
+% page 114
+    \relative {
+	\repeat unfold 2 { <c' g' c e g>8 <c g' c e g> \deadNote <c g' c e g> <c g' c e g> } |
+	\repeat unfold 2 { <fis c' e a>8 <fis c' e a> \deadNote <fis c' e a> <fis c' e a> } |
+	\repeat unfold 2 { <b, fis' b e fis>8 <b fis' b e fis> \deadNote <b fis' b e fis> <b fis' b e fis> } |
+	<b fis' b e fis>8 <b fis' b dis fis> \deadNote <b fis' b dis fis> \repeat unfold 3 <b fis' b dis fis>8 <b fis' b dis fis>4 |
+    }
+% page 114.1
+    \relative {
+	\repeat unfold 2 { <c' g' c e g>8 <c g' c e g> \deadNote <c g' c e g> <c g' c e g> } |
+	\repeat unfold 2 { <d a' d fis a>8 <d a' d fis a> \deadNote <d a' d fis a> <d a' d fis a> } |
+	<e b' e a b>8 <e b' e a b> \repeat unfold 2 { \deadNote <e b' e a b> <e b' e a b> } <e b' e a b>4 |
+    }
+% to Coda1
+    \relative {
+	<e' b' e a b>4\chordBendAfterG #-4 r4 r2 |
+    }
+% page 115 E
+    \barNumberCheck #81
+    r1 | r1 | r1 | r1 |
+% page 115.1 F
+    \barNumberCheck #85
+    \repeat percent 3 {
+	\relative {
+	    <e b'>8 \repeat unfold 7 \deadNote <e b'>8 |
+	    \repeat unfold 8 \deadNote <e b'>8 |
+	}
+    }
+% page 116+2
+    \relative {
+	<e b'>8 <e b'> r4 r8 <e b'> r <e b'> |
+	r1 |
+    }
+% page 116.1 G
+    \barNumberCheck #93
+    \repeat percent 3 {
+	\relative {
+	    <c' g'>1~ |
+	    <c g'>1 |
+	    <b fis'>1 |
+	    <e b'>1 |
+	}
+    }
+% page 118
+    \relative {
+	<f' c'>1~ |
+	<f c'>1 |
+	<d a'>4 \repeat unfold 6 d8^"M" |
+	d8^"M" \repeat unfold 7 <d a'> |
+    }
+% page 118.1 H
+    \barNumberCheck #109
+    \relative {
+% Dumb Lilypond bug
+%	\acciaccatura a''8^"C" b2\startInstrument "with Octaver" \acciaccatura a8^"C" b(^\markup { \hspace #2 "D" } a) g d'~ |
+	b''2\startInstrument "with Octaver" \acciaccatura a8^"C" b(^\markup { \hspace #2 "D" } a) g d'~ |
+	d2~ d8 c(^\markup { \hspace #2 "P" } b) c(^\markup { \hspace #2 "P" } |
+	b8) g e2.~\startTrillSpan |
+	e4~ e\stopTrillSpan\bendAfterG #-4 r d |
+    }
+% page 119
+    \relative {
+% Dumb Lilypond bug
+%	\acciaccatura a''8^"C" b2 \acciaccatura a8^"C" b(^\markup { \hspace #2 "D" } a) g \acciaccatura fis'^"H.C" g~ |
+	b2 \acciaccatura a8^"C" b(^\markup { \hspace #2 "D" } a) g \acciaccatura fis'^"H.C" g~ |
+	g2~ g8 fis(^\markup { \hspace #2 P } e) d |
+	\acciaccatura d8^"C" e1~ |
+	e2~ e\stopInstrument "with Octaver"\bendAfterG #-6 |
+    }
+% page 119.1
+    \relative {
+	\ottava #1 r8 d'' e fis g a b c |
+	d8 d, \tuplet 3/2 { e fis g } \tuplet 3/2 { a b c } \tuplet 3/2 { d e fis } |
+	g2. r8 \acciaccatura a^"C" b~ |
+    }
+% page 120
+    \relative {
+	b'''8 a g e g4\bendAfterG #-2 r \ottava #0 |
+	g,16(^\markup { \hspace #1 "P" } e) g(^\markup { \hspace #1 "P" } e) c8 g'16(^\markup { \hspace #1 "P" } e) g(^\markup { \hspace #1 "P" } e) c8 g'16(^\markup { \hspace #1 "P" } e) c8 |
+	a'16(^\markup { \hspace #1 "P" } fis) a(^\markup { \hspace #1 "P" } fis) d8 a'16(^\markup { \hspace #1 "P" } fis) a(^\markup { \hspace #1 "P" } fis) d8 a'16(^\markup { \hspace #1 "P" } fis) d8 |
+    }
+% page 120.1
+    \relative {
+	b''16(^\markup { \hspace #1 "P" } gis) b(^\markup { \hspace #1 "P" } gis) e8 b'16(^\markup { \hspace #1 "P" } gis) b(^\markup { \hspace #1 "P" } gis) e8 b'16(^\markup { \hspace #1 "P" } gis) e8 |
+	b'16(^\markup { \hspace #1 "P" } gis) b(^\markup { \hspace #1 "P" } gis) b(^\markup { \hspace #1 "P" } gis) e gis e2\trill \ottava #0 |
+    }
+% I
+    \barNumberCheck #125
+    \repeat percent 2 {
+	\relative {
+	    <f bes f'>4.\stopTrillSpan <e bes'>8~ <e bes'>2~ |
+	}
+% page 121
+	\relative {
+	    <e bes'>1~ |
+	    <e bes'>1~ |
+	    <e bes'>1 |
+	}
+    }
+% page 122
+    \relative {
+	<f bes f'>4. <e bes'>8~ <e bes'>2~ |
+	<e bes'>1 |
+	<e bes'>8 <e bes'> r4 <e bes'>8 <e bes'> r4 |
+	<e bes'>8 <e bes'> r <e bes'> <e bes'> <e bes'> r4 |
+    }
+% page 122.1 J
+    \barNumberCheck #137
+    \repeat percent 3 {
+	\relative {
+	    e8 e e' e ais, ais b b |
+	    e, e e' ais,~ ais b ais b |
+	}
+    }
+% page 123+2
+    \relative {
+	e8 e e' e ais, ais b b |
+	r8 <bes f'> r <a e'> r <g d'>4. |
+    }
+% page 123.1
+    \relative {
+	<g d'>8\startInstrument "S.E." \ottava #1 \acciaccatura <f''' bes>^"C" <g c>4 \ottava #0 <g, c>8 <g c>16 <g c> r8 f,,4^"Arm."\bendAfter #-6 |
+	r8 f4^"Arm."\bendAfter #-6 r8 r f\staccato f4^"Arm."\stopInstrument "S.E."\bendAfter #-6 |
+    }
+% D.S.1
+% page 110 B Stegno1-2x
+    \barNumberCheck #147
+    \relative {
+	<g d'>1 |
+	<b fis'>4 b8^"M" b^"M" b^"M" b^"M" <b fis'>4 |
+	<e b'>4 <e b'>8 <e b'> r <e b'> <e b'>4 |
+    }
+    \relative {
+	c''8\startInstrument "with Octaver"\bendBeforeG #-2 b a d~ d e fis d\stopInstrument "with Octaver" |
+    }
+% page 110.1-2x
+    \relative {
+	<g d'>1 |
+	<b fis'>4 b8^"M" <b fis'>~ <b fis'> b^"M" <b fis'>4 |
+	<e b'>4 e8^"M" e^"M" e^"M" e^"M" <e b'>4 |
+    }
+    \relative {
+	c''4\startInstrument "with Octaver"\bendBeforeG #-2 r8 d r d4.\stopInstrument "with Octaver" |
+    }
+% page 111-2x
+    \relative {
+	<c' g'>2. c8^"M" c16^"M" c^"M" |
+	<c g'>1 |
+	<g d' g b d g>8 \deadNote <g d' g b d g>16 \deadNote <g d' g b d g> <g d' g b d g>8 \deadNote <g d' g b d g>16 \deadNote <g d' g b d g> <g d' g b d g>8\staccato <g d' g b d g>\staccato <g d' g b d g> \deadNote <g d' g b d g>16 \deadNote <g d' g b d g> |
+	<b fis' b dis fis>8 \deadNote <b fis' b dis fis>16 \deadNote <b fis' b dis fis> <b fis' b dis fis>8 <b fis' b dis fis>16 \deadNote <b fis' b dis fis> <b fis' b dis fis>8\staccato <b fis' b dis fis>\staccato <b fis' b dis fis> \deadNote <b fis' b dis fis>16 \deadNote <b fis' b dis fis> |
+    }
+% page 111.1 C-2x
+    \barNumberCheck #159
+    \repeat percent 2 {
+	\relative {
+	    \repeat percent 3 {
+		<b'' e>8 r <a dis> r <b e> r <a dis> r |
+	    }
+	    <b e>8 r <c fis> r <b e>4~ <b e>\chordBendAfterG #-4 |
+	}
+    }
+% page 112.1 D-2x
+    \barNumberCheck #167
+    \relative {
+	\repeat unfold 2 { <e' b' e g b>8 <e b' e g b> \deadNote <e b' e g b> <e b' e g b> } |
+	\repeat unfold 2 { <a, e' a c e a>8 <a e' a c e a> \deadNote <a e' a c e a> <a e' a c e a> } |
+	\repeat unfold 2 { <d a' d fis a>8 <d a' d fis a> \deadNote <d a' d fis a> <d a' d fis a> } |
+	\repeat unfold 2 { <g, d' g b d g>8 <g d' g b d g> \deadNote <g d' g b d g> <g d' g b d g> } |
+    }
+% page 113-2x
+    \relative {
+	\repeat unfold 2 { <c' g' c e g>8 <c g' c e g> \deadNote <c g' c e g> <c g' c e g> } |
+	\repeat unfold 2 { <fis c' e a>8 <fis c' e a> \deadNote <fis c' e a> <fis c' e a> } |
+	\repeat unfold 2 { <b, fis' b e fis>8 <b fis' b e fis> \deadNote <b fis' b e fis> <b fis' b e fis> } |
+	\deadNote <b fis' b e fis>8 <b fis' b dis fis> \deadNote <b fis' b dis fis> \repeat unfold 3 <b fis' b dis fis> <b fis' b dis fis>4 |
+    }
+% page 113.1-2x
+    \relative {
+	\repeat unfold 2 { <e' b' e g b>8 <e b' e g b> \deadNote <e b' e g b> <e b' e g b> } |
+	\repeat unfold 2 { <a, e' a c e a>8 <a e' a c e a> \deadNote <a e' a c e a> <a e' a c e a> } |
+	\repeat unfold 2 { <d a' d fis a>8 <d a' d fis a> \deadNote <d a' d fis a> <d a' d fis a> } |
+	\repeat unfold 2 { <g, d' g b d g>8 <g d' g b d g> \deadNote <g d' g b d g> <g d' g b d g> } |
+    }
+% page 114-2x
+    \relative {
+	\repeat unfold 2 { <c' g' c e g>8 <c g' c e g> \deadNote <c g' c e g> <c g' c e g> } |
+	\repeat unfold 2 { <fis c' e a>8 <fis c' e a> \deadNote <fis c' e a> <fis c' e a> } |
+	\repeat unfold 2 { <b, fis' b e fis>8 <b fis' b e fis> \deadNote <b fis' b e fis> <b fis' b e fis> } |
+	<b fis' b e fis>8 <b fis' b dis fis> \deadNote <b fis' b dis fis> \repeat unfold 3 <b fis' b dis fis>8 <b fis' b dis fis>4 |
+    }
+% page 114.1-2x
+    \relative {
+	\repeat unfold 2 { <c' g' c e g>8 <c g' c e g> \deadNote <c g' c e g> <c g' c e g> } |
+	\repeat unfold 2 { <d a' d fis a>8 <d a' d fis a> \deadNote <d a' d fis a> <d a' d fis a> } |
+	<e b' e a b>8 <e b' e a b> \repeat unfold 2 { \deadNote <e b' e a b> <e b' e a b> } <e b' e a b>4 |
+    }
+% to Coda1
+% page 123 Coda1
+    \barNumberCheck #186
+    \relative {
+	<e' b' e a b>4\chordBendAfterG #-4 r4 r2 |
+    }
+% D.S.2
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-3x
+    \barNumberCheck #187
+    \repeat percent 3 {
+	\relative {
+	    e8 e e' e ais, ais b b |
+	    e,8 e e' ais,~ ais b ais b |
+	}
+    }
+% page 108+2-3x
+    \relative {
+	e8 e e' e ais, ais b b |
+    }
+% to Coda2
+% page 124 Coda2
+    \barNumberCheck #194
+    \relative {
+	r8 <bes f'> r <a e'> r <g d'>4. |
+    }
+% D.S.3
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-4x
+    \barNumberCheck #195
+    \repeat percent 3 {
+	\relative {
+	    e8 e e' e ais, ais b b |
+	    e,8 e e' ais,~ ais b ais b |
+	}
+    }
+% page 108+2-4x
+    \relative {
+	e8 e e' e ais, ais b b |
+    }
+    \relative {
+	r8 <bes f'> r <a e'> r <g d'>4. |
+    }
+% to Coda3
+% page 124 Coda3
+    \barNumberCheck #203
+    \relative {
+	r8 <bes f'> r <a e'> r <g d'>4. |
+	r8 <bes f'> r <a e'> r <g d'>4.~ |
+    }
+% page 124.1
+    \relative {
+	<g d'>1 |
+	e8 e e' e ais, ais b b |
+	<e, b'>8 <e b'> r4 r2 |
+    }
+    \barNumberCheck #208
+}

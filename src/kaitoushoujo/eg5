@@ -1,0 +1,177 @@
+egFivePart = {
+    \compressFullBarRests
+% page 16
+    r1 |
+% A
+    \barNumberCheck #2
+    R1*3 |
+    r1 |
+    R1*2 |
+    r1 | r1 |
+% page 16.1 B
+    \barNumberCheck #10
+    \relative {
+	r8_"<Clean>" <c'' e a>\staccato \deadNote <c e a>16 <e a> \deadNote <e a> <c e> <b dis>(^\markup { \hspace #1 "S" } <c e>) <c e> <c e a> r4 |
+	<c e a>16 <c e a> <c e a> <c e a> <c e a>8\staccato <c e a>\staccato <b dis gis>16(^\markup { \hspace #1 "S" } <c e a>) <c e a> <c e a> r4 |
+	r8 <c e a>\staccato \deadNote <c e a>16 <c e a> r \deadNote <c e a> <b dis>(^\markup { \hspace #1 "S" } <c e>8) <c e>16 r4 |
+	\repeat unfold 16 <c e a>16 |
+    }
+    R1*2 |
+% page 16.2
+    \relative {
+	r8 <c'' e a>\staccato \deadNote <c e a>16 <e a> \deadNote <e a> <c e> <b dis>(^\markup { \hspace #1 "S" } <c e>) <c e> <c e a> r4 |
+    }
+    r1 |
+% C
+    \barNumberCheck #18
+    R1*2 |
+    \repeat percent 2 {
+	\relative {
+	    r8 <c'' e a>\staccato \deadNote <c e a>16 <e a> \deadNote <e a> <c e> <b dis>(^\markup { \hspace #1 "S" } <c e>) <c e> <c e a> r4 |
+	    <c e a>16 <c e a> <c e a> <c e a> <c e a>8\staccato <c e a>\staccato <b dis gis>16(^\markup { \hspace #1 "S" } <c e a>) <c e a> <c e a> r4 |
+	}
+    }
+% page 16.3+2
+    \relative {
+	r8 <c'' e a>\staccato \deadNote <c e a>16 <e a> \deadNote <e a> <c e> <b dis>(^\markup { \hspace #1 "S" } <c e>) <c e> <c e a> r4 |
+    }
+    r1 |
+% D Stegno1
+    \barNumberCheck #26
+    R1*9 |
+% E Stegno2
+    \barNumberCheck #35
+    \relative {
+	r2_"<Dist.>" r4 r8 bes'' |
+    }
+% page 16.4
+    \relative {
+	ees'''2\trill\bendBeforeG #-2 des\trill |
+	ces1\trill |
+	f2\trill\bendBeforeG #-2 ees\trill |
+	des1~\trill |
+	des4 r4 r2 |
+    }
+    R1*2 |
+    \relative {
+	r2 r4 r8 bes'' |
+    }
+% page 17
+    \relative {
+	ees'''2\trill\bendBeforeG #-2 des\trill |
+	ces1\trill |
+	f2\trill\bendBeforeG #-2 ees\trill |
+	des1~\trill |
+	des4 r4 r2 |
+    }
+% page 17.1
+    r1 |
+% to Coda1,2
+    r1 |
+% F
+    \barNumberCheck #51
+    R1*4 |
+% G
+    \barNumberCheck #55
+    \relative {
+	r8_"<Clean>" <c'' e a>\staccato \deadNote <c e a>16 <e a> \deadNote <e a> <c e> <b dis>(^\markup { \hspace #1 "S" } <c e>) <c e> <c e a> r4 |
+	<c e a>16 <c e a> <c e a> <c e a> <c e a>8\staccato <c e a>\staccato <b dis gis>16(^\markup { \hspace #1 "S" } <c e a>) <c e a> <c e a> r4 |
+    }
+% page 17.2
+    \relative {
+	r8 <c'' e a>\staccato \deadNote <c e a>16 <c e a> r \deadNote <c e a> <b dis>(^\markup { \hspace #1 "S" } <c e>8) <c e>16 r4 |
+	\repeat unfold 16 <c e a>16 |
+    }
+    R1*4 |
+% D.S.1
+% D Stegno1-2x
+    \barNumberCheck #63
+    R1*9 |
+% E Stegno2-2x
+    \barNumberCheck #72
+    \relative {
+	r2_"<Dist.>" r4 r8 bes'' |
+    }
+% page 16.4-2x
+    \relative {
+	ees'''2\trill\bendBeforeG #-2 des\trill |
+	ces1\trill |
+	f2\trill\bendBeforeG #-2 ees\trill |
+	des1~\trill |
+	des4 r4 r2 |
+    }
+    R1*2 |
+    \relative {
+	r2 r4 r8 bes'' |
+    }
+% page 17-2x
+    \relative {
+	ees'''2\trill\bendBeforeG #-2 des\trill |
+	ces1\trill |
+	f2\trill\bendBeforeG #-2 ees\trill |
+	des1~\trill |
+	des4 r4 r2 |
+    }
+% page 17.1-2x
+    r1 |
+% to Coda1,2
+% page 17.2 Coda1
+    \barNumberCheck #87
+    r1 |
+% H
+    \barNumberCheck #88
+    R1*4 |
+% page 17.3 I
+    \barNumberCheck #92
+    R1*16 |
+% J repeat
+    \barNumberCheck #108
+    R1*6 |
+% ending 1
+    R1*2 |
+% end repeat
+% J repeat-2x
+    \barNumberCheck #116
+    R1*6 |
+% ending 2
+    R1*3 |
+% D.S.2
+% E Stegno2-3x
+    \barNumberCheck #125
+    \relative {
+	r2_"<Dist.>" r4 r8 bes'' |
+    }
+% page 16.4-3x
+    \relative {
+	ees'''2\trill\bendBeforeG #-2 des\trill |
+	ces1\trill |
+	f2\trill\bendBeforeG #-2 ees\trill |
+	des1~\trill |
+	des4 r4 r2 |
+    }
+    R1*2 |
+    \relative {
+	r2 r4 r8 bes'' |
+    }
+% page 17-3x
+    \relative {
+	ees'''2\trill\bendBeforeG #-2 des\trill |
+	ces1\trill |
+	f2\trill\bendBeforeG #-2 ees\trill |
+	des1~\trill |
+	des4 r4 r2 |
+    }
+% page 17.1-3x
+    r1 |
+% to Coda1,2
+% page 17.3 Coda2
+    \barNumberCheck #140
+    r1 |
+% page 17.4 K
+    \barNumberCheck #141
+    R1*3 |
+    r1 |
+    R1*2 |
+    r1 | r1 | r1 |
+    \barNumberCheck #150
+}

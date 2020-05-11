@@ -1,0 +1,223 @@
+keyOnePart = {
+% page 2 Intro
+    \barNumberCheck #1
+    \relative {
+	\repeat percent 2 {
+	    d'''4_"<Analog Synth.1>" g,8 d'8~ d8 g,4 a8~ |
+	    a8 b8 c4 b4 a4 |
+	}
+	d4 f,8 d'8~ d8 f,4 g8~ |
+	g8 a8 bes4 c4 e4 |
+    }
+% page 3 A
+    \barNumberCheck #7
+    r1 | r1 |
+    \clef bass
+    \relative {
+	r2_"<Analog Synth.2>" a,16 c16 e16 g16 e16 g16 c16 e16 |
+	\clef treble
+	d16 f16 a16 d16 a16 d16 f16 a16 \ottava #1 f16 a16 d16 f16 d16 f16 a16 d16 \ottava #0 |
+% B
+	\barNumberCheck #11
+	r1 |
+    }
+% page 3.1
+    r1 | r1 | r1 | r1 | r1 |
+% page 4
+    r1 |
+    \relative {
+	r8_"<Analog Synth.1>" \ottava #1 bes''8 a8 d8 des8 g8 f8 bes8 |
+% C
+	\barNumberCheck #19
+	a4 r4 r2 \ottava #0 |
+	r1 |
+% page 4.1
+	r1 | r1 | r1 | r1 |
+    }
+% page 5
+    r1 | r1 |
+% D
+    \barNumberCheck #27
+    \relative {
+	g'1_"<Tubular Bells 1>" |
+	r1 |
+% page 5.1
+	a1 |
+	r1 | r1 | r1 |
+    }
+% page 6
+    r1 | r1 |
+% E
+    \barNumberCheck #35
+    r1 |
+    \relative {
+	r2_"<Pizz. Strings>" r8 <d'' f>8\staccato <e g>8\staccato <c e>8\staccato |
+% page 6.1
+	<e g>4\staccato r8 <g, c>8\staccato r8 <g c>8\staccato <c g'>8\staccato r8 |
+	<f bes>4\staccato <f a>4\staccato <e a>4\staccato <e a>4\staccato |
+	<d f bes>4\staccato r4 r4 r8 <c f a>8\staccato |
+	r4 c4\staccato a'4\staccato r8 c,8\staccato |
+    }
+% page 7
+    \relative {
+	<d'' g>4 r4 r2 |
+	r1 |
+	r1 |
+% page 7.1 F
+	\barNumberCheck #44
+    }
+    \relative {
+	f''4._"<Synth.2>" c'8~ c8 f,4 g8~ |
+	g8 a8 bes4 a4 g4 |
+	f4. a8 g4. g8~ |
+	g8 a8 bes4 a4 r4 |
+    }
+% page 8
+    \relative {
+	c'''4 f,8 c'8~ c8 f,4 g8~ |
+	g8 a8 bes4 a4 g4 |
+	f4 f8 a8 g4. g8~ |
+% page 8.1
+	g8 a8 g4 fis2 |
+% 1x ending
+	r1 | r1 | r1 |
+    }
+% page 9
+    r1 | r1 | r1 | r1 |
+    \relative {
+	\ottava #1 r8_"<Analog Synth.1>" bes''8 a8 d8 des8 g8 f8 bes8 |
+    }
+% C-2x
+    \barNumberCheck #60
+    \relative {
+	a'''4 r4 r2 \ottava #0 |
+	r1 |
+% page 4.1-2x
+	r1 | r1 | r1 | r1 |
+    }
+% page 5-2x
+    r1 |
+    \relative {
+	bes'4_"<Tubular Bells 1>" a4 fis4 a4 |
+% D-2x
+	\barNumberCheck #68
+	g1 |
+	c1 |
+% page 5.1-2x
+	a1 |
+	f2. a4 |
+	g1 |
+	gis1 |
+    }
+% page 6-2x
+    \relative {
+	a'1~ |
+	a1 |
+% E-2x
+	\barNumberCheck #76
+	r1 |
+    }
+    \relative {
+	r2_"<Pizz. Strings>" r8 <d'' f>8\staccato <e g>8\staccato <c e>8\staccato |
+% page 6.1-2x
+	<e g>4\staccato r8 <g, c>8\staccato r8 <g c>8\staccato <c g'>8\staccato r8 |
+	<f bes>4\staccato <f a>4\staccato <e a>4\staccato <e a>4\staccato |
+	<d f bes>4\staccato r4 r4 r8 <c f a>8\staccato |
+	r4 c4\staccato a'4\staccato r8 c,8\staccato |
+    }
+% page 7-2x
+    \relative {
+	<d'' g>4 r4 r2 |
+	r1 |
+	r1 |
+% page 7.1-2x F-2x
+	\barNumberCheck #85
+    }
+    \relative {
+	f''4._"<Synth.2>" c'8~ c8 f,4 g8~ |
+	g8 a8 bes4 a4 g4 |
+	f4. a8 g4. g8~ |
+	g8 a8 bes4 a4 r4 |
+    }
+% page 8-2x
+    \relative {
+	c'''4 f,8 c'8~ c8 f,4 g8~ |
+	g8 a8 bes4 a4 g4 |
+	f4 f8 a8 g4. g8~ |
+% page 8.1-2x
+	g8 a8 g4 fis2 |
+    }
+% page 9.1
+    r1 | r1 |
+% G
+    \barNumberCheck #95
+    r1 | r1 | r1 |
+% page 10
+    r1 | r1 | r1 | r1 | r1 |
+% page 10.1 H
+    \barNumberCheck #103
+    r1 | r1 | r1 | r1 |
+% page 11
+    r1 | r1 | r1 | r1 |
+% I
+    \barNumberCheck #111
+    \relative {
+	bes'4\staccato_"<Pizz. Strings>" r4 r2 |
+% page 11.1
+	r8 c8\staccato e8\staccato g8\staccato r8 c,8\staccato e8\staccato g8\staccato |
+	r1 |
+	r8 d8\staccato f8\staccato f8\staccato r8 c8\staccato c4\staccato |
+	bes4\staccato r4 r2 |
+	r8 c8\staccato e8\staccato c'8\staccato r8 c,8\staccato e8\staccato c'8\staccato |
+    }
+% page 12
+    r1 |
+    \relative {
+	r8 a'8\staccato d8\staccato d'8\staccato c,8\staccato c8\staccato c8\staccato c'8\staccato |
+% J
+	\barNumberCheck #119
+	r1 | r1 | r1 |
+% page 12.1
+	r1 | r1 | r1 |
+% K
+	\barNumberCheck #125
+    }
+    \relative {
+	c'''4_"<Synth.2>" f,8 c'8~ c8 f,4 g8~ |
+	g8 a8 bes4 a4 g4 |
+    }
+% page 13
+    \relative {
+	f''2 g4. g8~ |
+	g8 a8 bes4 a2 |
+	c4 f,8 c'8~ c8 f,4 g8~ |
+	g8 a8 bes4 a4 g4 |
+	f4 f8 a8 g4. g8~ |
+% page 13.1
+	g8 a8 g4 fis2 |
+% L
+	\barNumberCheck #133
+	g2 d'4 g,8 a8~ |
+	a8 b8 c4 b4 a4 |
+	g4 g8 b8 a4 g8 a8~ |
+	a8 b8 c4 b4 r4 |
+    }
+% page 14
+    \relative {
+	d'''4 g,8 d'8~ d8 g,4 a8~ |
+	a8 b8 c4 b4 a4 |
+	g4 g8 b8 a4. a8~ |
+	a8 b8 a4 gis2 |
+	r1 |
+% page 14.1
+	r1 | r1 | r1 |
+% M
+	\barNumberCheck #145
+	r1 | r1 |
+    }
+% page 15
+    r1 | r1 | r1 | r1 |
+% page 15.1
+    r1 | r1 | r1 | r1 | r1 |
+    \barNumberCheck #156
+}

@@ -1,0 +1,82 @@
+voPart = \new Voice = "vo" {
+% Intro
+%1
+    r1 r1 r1 r1 |
+%5
+    r1 r1 r1 r1 |
+% Verse 1
+    \relative {
+% 9
+	d'8 e e d e4 e8 d |
+	e4 e d8 e e d |
+	e4 e8 d e d e4 |
+	a4 g g8 d e4 |
+% 13
+	e8 e4 d8 e4 r8 d |
+	e4 e e r |
+	d8 d d4 d b |
+	a8 g e e~ e4 b'8 d |
+    }
+% Chorus 1
+    \relative {
+% 17
+	g'2 fis |
+	e2 d |
+	e4 e r2 |
+	r1 |
+    }
+% Verse 2
+    \relative {
+% 21
+	d'8 e e d e4 e4 |
+	e4 e d8 e e d |
+	e4 e8 d e e4 e8 |
+	a4 g g8 d e4 |
+% 25
+	d8 e4 d8 e4 r8 d |
+	e4 e e r |
+	d8 d d d d4 b |
+	a8 g e e~ e4 r |
+    }
+% Chorus 2
+    \relative {
+% 29
+	g'2 fis |
+	e2 d |
+	e4 e r2 |
+	r1 |
+    }
+% Verse 3
+    \relative {
+% 33
+	d'8 e e d e4 e4 |
+	e4 e d8 e e d |
+	e4 e8 d e d e4 |
+	a4 g g8 b, d4 |
+% 37
+	d8 e4 d8 e4 r |
+	e4 e e d |
+	d8 d d d d d b4 |
+	a8 g e e~ e4 r |
+    }
+% Chorus 3
+    \relative {
+% 41
+	g'2 fis |
+	e2 d |
+	e4 e r2 |
+	r1 |
+% 45
+	g2 fis |
+	e2 d |
+	e4 e r2 |
+	r1 |
+    }
+% Outro
+% 49
+    r1 r1 r1 r1 |
+% 53
+    r1 r1 r1 r1 |
+% 67
+    r1 r1 |
+}

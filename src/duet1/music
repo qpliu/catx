@@ -1,0 +1,63 @@
+% drs1 drs2
+% system1
+% midi
+% roland
+% PARTS midi
+% MIDIS midiOne
+
+\header {
+    title = "Duet1"
+}
+
+drumPitchNames.rim = #'sidestick
+
+#(define myDrumStyleTable '(
+    (sidestick        cross    #f          3)
+))
+
+\include "markup"
+\include "drs1"
+\include "drs2"
+
+layoutmusic = <<
+    \tag #'(systemOnePart drsOnePart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drs.1" }
+	shortInstrumentName = \markup { \rotate #90 "Drs.1" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drsOnePart
+    >>
+    \tag #'(systemOnePart drsTwoPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drs.1" }
+	shortInstrumentName = \markup { \rotate #90 "Drs.1" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drsTwoPart
+    >>
+>>
+
+midimusicAll = <<
+    \markupStuff
+    \tag #'(midiOne drsOnePart) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+	midiMinimumVolume = #0
+	midiMaximumVolume = #1
+    } \drsOnePart
+    \tag #'(midiOne drsTwoPart) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+	midiMinimumVolume = #0
+	midiMaximumVolume = #1
+    } \drsTwoPart
+>>
+
+midimusic = <<
+    \keepWithTag #'(drsOnePart keep) \midimusicAll
+    \keepWithTag #'(drsTwoPart keep) \midimusicAll
+>>
+
+rolandmusic = <<
+%    \keepWithTag #'(drsOnePart keep) \midimusicAll
+    \keepWithTag #'(drsTwoPart keep) \midimusicAll
+>>

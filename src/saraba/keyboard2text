@@ -1,0 +1,159 @@
+[TEXT_PREFIX]keyboardTwoText = {
+% page 106 Intro.1
+    \barNumberCheck #1
+    r1 | r1 | r1 | r1 |
+% page 107
+    `>brass=program56;volume.5`1 | % Brass
+    r1 | r1 | r1 |
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat
+    \barNumberCheck #9
+    r1 | r1 | r1 | r1 |
+% page 108
+    r1 | r1 | r1 | r1 |
+% page 108.1 A
+    \barNumberCheck #17
+    \repeat unfold 4 {
+        r1 | r1 |
+    }
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-2x
+    \barNumberCheck #25
+    r1 | r1 | r1 | r1 |
+% page 108-2x
+    r1 | r1 | r1 |
+% to Coda2
+    r1 |
+% to Coda3
+% page 108.1 A-2x
+    \barNumberCheck #33
+    \repeat unfold 3 {
+        r1 | r1 |
+    }
+% page 109.1
+    r1 | r1 |
+% page 110 B Stegno1
+    \barNumberCheck #41
+    r1 | r1 | r1 | r1 |
+% page 110.1
+    r1 | r1 | r1 | r1 |
+% page 111
+    r1 | r1 | r1 | r1 |
+% page 111.1 C
+    \barNumberCheck #53
+    r1 | r1 | r1 | r1 |
+% page 112
+    r1 | r1 | r1 | r1 |
+% page 112.1 D
+    \barNumberCheck #61
+    `>pad=program88;volume.4`1 | % Pad
+    r1 | r1 | r1 |
+% page 113
+    r1 | r1 | r1 | r1 |
+% page 113.1
+    r1 | r1 | r1 | r1 |
+% page 114
+    r1 | r1 | r1 | r1 |
+% page 114.1
+    r1 | r1 | r1 |
+% to Coda1
+    r1 |
+% page 115 E
+    \barNumberCheck #81
+    `>pizzicato=program45;volume1`1 | % Pizzicato
+    r1 | r1 | r1 |
+% page 115.1 F
+    \barNumberCheck #85
+    r1 | r1 | r1 | r1 |
+% page 116
+    r1 | r1 | r1 | r1 |
+% page 116.1 G
+    \barNumberCheck #93
+    `>piano=program0;volume.7`1 | % Piano
+    r1 | r1 | r1 |
+% page 117
+    r1 | r1 | r1 | r1 |
+% page 117.1
+    r1 | r1 | r1 | r1 |
+% page 118
+    r1 | r1 | r1 | r1 |
+% page 118.1 H
+    \barNumberCheck #109
+    r1 | r1 | r1 | r1 |
+% page 119
+    \repeat unfold 2 {
+        r1 | r1 | r1 | r1 |
+    }
+% page 120+1
+    r1 | r1 |
+% page 120.1
+    r1 | r1 |
+% I
+    \barNumberCheck #125
+    \repeat unfold 2 {
+        r1 |
+% page 121
+        r1 | r1 | r1 |
+    }
+% page 122
+    r1 | r1 | r1 | r1 |
+% page 122.1 J
+    \barNumberCheck #137
+    r1 | r1 | r1 |
+    `>brass`1 | % Brass
+% page 123
+    r1 | r1 | r1 | r1 |
+% page 123.1
+    r1 | r1 |
+% D.S.1
+% page 110 B Stegno1-2x
+    \barNumberCheck #147
+    r1 | r1 | r1 | r1 |
+% page 110.1-2x
+    r1 | r1 | r1 | r1 |
+% page 111-2x
+    r1 | r1 | r1 | r1 |
+% page 111.1 C-2x
+    \barNumberCheck #159
+    r1 | r1 | r1 | r1 |
+% page 112-2x
+    r1 | r1 | r1 | r1 |
+% page 112.1 D-2x
+    \barNumberCheck #167
+    `>pad`1\startInstrument "Pad" | % Pad
+    r1 | r1 | r1 |
+% page 113-2x
+    r1 | r1 | r1 | r1 |
+% page 113.1-2x
+    r1 | r1 | r1 | r1 |
+% page 114-2x
+    r1 | r1 | r1 | r1 |
+% page 114.1-2x
+    r1 | r1 | r1 |
+% to Coda1
+% page 123 Coda1
+    \barNumberCheck #186
+    r1 |
+% D.S.2
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-3x
+    \barNumberCheck #187
+    r1 | r1 | r1 |
+    r2 r4 r16 `>brass`16 r r | % Brass
+% page 108-3x
+    r1 | r1 | r1 |
+% to Coda2
+% page 124 Coda2
+    \barNumberCheck #194
+    r1 |
+% D.S.3
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-4x
+    \barNumberCheck #195
+    r1 | r1 | r1 | r1 |
+% page 108-4x
+    r1 | r1 | r1 | r1 |
+% to Coda3
+% page 124 Coda3
+    \barNumberCheck #203
+    r1 | r1 |
+% page 124.1
+    r1 | r1 | r1 |
+    \barNumberCheck #208
+}

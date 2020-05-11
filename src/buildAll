@@ -1,0 +1,19 @@
+#!/bin/sh
+set -e
+pwd=`pwd`
+if test '!' -f "build1"
+then
+    echo "Wrong directory"
+    exit 1
+fi
+for a in */music
+do
+    name=`dirname "$a"`
+    PARTS=`grep '^% BIN ' "$a"|cut -c 7-`
+    if -n "$PARTS"
+    then
+	cd "$name"
+	../build1 $PARTS
+	cd ..
+    fi
+done

@@ -1,0 +1,145 @@
+egThreePart = {
+    \compressFullBarRests
+% page 16 Intro
+    \barNumberCheck #1
+    R1*4 |
+    R1*2 |
+% A
+    \barNumberCheck #7
+    R1*4 |
+% B
+    \barNumberCheck #11
+    \relative {
+	\ottava #1 f'''8_"<Dist.>" \tuplet 3/2 { e16^"H"( f)( e^"P") } a,8 f'8 e8 \tuplet 3/2 { d16^"H"( e)( d^"P") } c8 e8 |
+	d8 \tuplet 3/2 { c16^"H"( d)( c^"P") } bes8 d8 c8 \tuplet 3/2 { bes16^"H"( c)( bes^"P") } a4 |
+% page 16.1
+	bes8 c8 d8 f8 \tuplet 3/2 { e16^"H"( f)( e^"P") } d8 c8 g8 |
+	a2\prall a8 b16^\markup { \hspace #1 "H" }( cis16) e8 g8 |
+	f8 \tuplet 3/2 { e16^"H"( f)( e^"P") } a,8 f'8 e8 \tuplet 3/2 { d16^"H"( e)( d^"P") } c8 e8 |
+% page 16.2
+	d8 \tuplet 3/2 { c16^"H"( d)( c^"P") } bes8 d8 c8 \tuplet 3/2 { bes16^"H"( c)( bes^"P") } a4 |
+	bes8 c8 d8 f8 \tuplet 3/2 { e16^"H"( f)( e^"P") } d8 c8 a8 |
+	a4 r4 r2 \ottava #0 |
+% C
+	\barNumberCheck #19
+	R1*8 |
+% page 16.3 D
+	\barNumberCheck #27
+	R1*6 |
+	\ottava #1 e16 f16 g8\staccato r8 g16 a16 bes8\staccato r8 bes16 c16 cis8\staccato |
+	r8 cis16 d16 e8\staccato r8 f4 g4 |
+% E
+	\barNumberCheck #35
+	a2.\prall^"Arm. g"\bendAfter #-2 r4 |
+    }
+% page 17
+    R1*3 |
+    r1 | r1 | r1 |
+% page 17.1
+    R1*2 |
+% F
+    \barNumberCheck #44
+    R1*7 |
+    r1 |
+% 1x ending
+    R1*8 |
+% C-2x
+    \barNumberCheck #60
+    R1*8 |
+% page 16.3-2x D-2x
+    \barNumberCheck #68
+    R1*6 |
+    \relative {
+	\ottava #1 e''16 f16 g8\staccato r8 g16 a16 bes8\staccato r8 bes16 c16 cis8\staccato |
+	r8 cis16 d16 e8\staccato r8 f4 g4 |
+% E-2x
+	\barNumberCheck #76
+	a2.\prall^"Arm. g"\bendAfter #-2 r4 |
+    }
+% page 17-2x
+    R1*3 |
+    r1 | r1 | r1 |
+% page 17.1-2x
+    R1*2 |
+% F-2x
+    \barNumberCheck #85
+    R1*7 |
+    \relative {
+	r2 r4 r8 \deadNote bes'''8^\markup { \hspace #1 "g" }\bendAfter #5 |
+    }
+    r1 |
+% page 17.2-2x
+    r1 |
+% G
+    \barNumberCheck #95
+    r1 |
+    \relative {
+	\ottava #1 r2 \tuplet 3/2 { r4 d'''4\bendBeforeG #-4 f4 } |
+	g8^"UD"( \grace f8^"C")( g4) g8 \tuplet 3/2 { a8^\markup { \hspace #1 "P" }( g8) f8 } \tuplet 3/2 { d'8^\markup { \hspace #1 "P" }( c8) a8 } |
+% page 17.3
+	\tuplet 3/2 { g8 f8 d8 } \tuplet 3/2 { c8 a4~\startTrillSpan } a4 e8\stopTrillSpan a8 |
+	\tuplet 3/2 { f4 a8 } \tuplet 3/2 { d8 e8 f8 } a16^\markup { \hspace #1 "P" }( f16) e16^\markup { \hspace #1 "P" }( d16) e16 f16 g16^\markup { \hspace #1 "P" }( f16) |
+	e16^\markup { \hspace #1 "P" }( d16) e16 f16 a16^\markup { \hspace #1 "P" }( f16) a16^\markup { \hspace #1 "P" }( f16) e16 f16 g16^\markup { \hspace #1 "P" }( f16) g16^\markup { \hspace #1 "P" }( f16) e16 d16 |
+    }
+% page 18
+    \relative {
+	e'''16 f16 g16 a16 \tuplet 5/4 { g16^\markup { \hspace #1 "P" }( f) e f a^\markup { \hspace #1 "S" }( } c8) a8 c8^"C"( d8) |
+	e4.^"U"\startTrillSpan d16\stopTrillSpan cis16 d2~ |
+% H
+	\barNumberCheck #103
+	d1^"Arm."~\startTrillSpan |
+% page 18.1
+	d1 \ottava #0 |
+	r1\stopTrillSpan |
+	r2 r4 \deadNote f,,4^\markup { \hspace #1 "g" }\bendAfter #5 |
+% page 18.2
+	a16^"HP"( f^\markup { \hspace #1 "P" })( d^\markup { \hspace #1 "H" })( f^\markup { \hspace #1 "H" })(
+	bes^\markup { \hspace #1 "P" })( f^\markup { \hspace #1 "P" })( d^\markup { \hspace #1 "H" })( f^\markup { \hspace #1 "P" })(
+	\tuplet 6/4 { e8^\markup { \hspace #1 "H" })( f16^\markup { \hspace #1 "H" })( g^\markup { \hspace #1 "P" })( f^\markup { \hspace #1 "P" })( e^\markup { \hspace #1 "H" })( }
+	f4)
+	|
+	\tuplet 6/4 { d8^\markup { \hspace #1 "H" }( ees16^\markup { \hspace #1 "H" })( f^\markup { \hspace #1 "P" })( ees^\markup { \hspace #1 "P" })( d^\markup { \hspace #1 "H" })( }
+	ees4^\markup { \hspace #2 "H" })(
+	e16^\markup { \hspace #1 "P"})( a,^\markup { \hspace #1 "H" })( cis^\markup { \hspace #1 "H" })( e^\markup { \hspace #1 "H" })(
+	g^\markup { \hspace #1 "P"})( e^\markup { \hspace #1 "P" })( cis^\markup { \hspace #1 "P" })( a^\markup { \hspace #1 "H" })(
+	|
+	a'16^\markup { \hspace #1 "P" })( f^\markup { \hspace #1 "P" })( d^\markup { \hspace #1 "H" })( f^\markup { \hspace #1 "H" })(
+	bes^\markup { \hspace #1 "P" })( f^\markup { \hspace #1 "P" })( d^\markup { \hspace #1 "H" })( f^\markup { \hspace #1 "H" })(
+	c'8^\markup { \hspace #1 "P" })( \tuplet 3/2 { bes16^"H")( c)( bes^"P")( } a4)
+	|
+% page 18.3
+	a16 bes a g f e d cis d4^\markup { \hspace #2 "g" }\trill\bendAfter #-3 r4 |
+% I
+	\barNumberCheck #111
+	R1*8 |
+% J
+	\barNumberCheck #119
+	R1*6 |
+    }
+% page 19 K
+    \barNumberCheck #125
+    R1*8 |
+% L
+    \barNumberCheck #133
+    R1*12 |
+% M
+    \barNumberCheck #145
+    \relative {
+	\ottava #1 g'''8 \tuplet 3/2 { fis16^"H"( g)( fis16^"P") } e8 g8 fis8 \tuplet 3/2 { e16^"H"( fis)( e^"P") } d8 fis8 |
+% page 19.1
+	e8 \tuplet 3/2 { d16^"H"( e)( d^"P") } c8 e8 d8 \tuplet 3/2 { c16^"H"( d)( c^"P") } b4 |
+	c8 d8 e8 fis8 \tuplet 3/2 { fis16^"H"( g)( fis^"P") } e8 d8 c8 |
+	b2\trill dis8 e8 fis8 a8 |
+% page 19.2
+	g8 \tuplet 3/2 { fis16^"H"( g)( fis^"P") } e8 g8 fis8 \tuplet 3/2 { e16^"H"( fis)( e^"P") } d8 fis8 |
+	e8 \tuplet 3/2 { d16^"H"( e)( d^"P") } c8 e8 d8 \tuplet 3/2 { c16^"H"( d)( c^"P") } b4 |
+	c8 d8 e8 g8 \tuplet 3/2 { fis16^"H"( g)( fis^"P") } e8 d8 b8 |
+% page 19.3
+	\repeat percent 2 {
+	    b8 c8 b8 e8 dis8 a'8 g8 c8 |
+	}
+	b,8 c8 b8 e8 dis8 fis8 e8 a8 |
+	g2\trill^\markup { \hspace #2 "g" }\bendAfter #-2 r2 \ottava #0 |
+    }
+    \barNumberCheck #156
+}

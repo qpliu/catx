@@ -1,0 +1,42 @@
+voLyrics = \new Lyrics = "lyricsa" \lyricsto "vo" \new Lyrics = "lyricsb" \lyricsto "vo" \context Lyrics = "lyricsa" \lyricmode {
+    Well, I won't back down
+    No, I won't back down
+    You can stand me up at the gates of hell
+    But I won't back down
+
+    No, I'll stand my ground
+    Won't be turned a -- round
+    And I'll keep this world from drag -- gin' me down
+    Gon -- na stand my ground
+    And I won't back down
+
+    Hey, ba -- by
+    There ain't no ea -- sy way out
+    Hey, I
+    Will stand my ground
+    And I won't back down
+
+    Well, I know what's right
+    I got just one life
+    In a world that keeps on push -- in' me around
+    But I'll stand my ground
+    And I won't back down
+
+    Hey, ba -- by
+    There ain't no ea -- sy way out
+    Hey, I
+    Will stand my ground
+    And I won't back down
+
+    Hey, ba -- by
+    There ain't no ea -- sy way out
+    Hey, I
+    Won't back down
+
+    Hey, ba -- by
+    There ain't no ea -- sy way out
+    Hey, I
+    Will stand my ground
+    And I won't back down
+    No, I won't back down 
+}

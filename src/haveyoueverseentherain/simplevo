@@ -1,0 +1,60 @@
+simplevoPart = \new Voice = "simplevo" {
+\mymark "Intro" #1
+    s1 |
+    r1 r1 r1 r1 r1 r1 |
+    \repeat volta 2 {
+\mymark "Verse" #8 % or 36
+	\relative {
+	    r4 g'8 a c4 a8 e'~ | % 8
+	    e8 c c4 r2 |
+	    r4 g8 a c4 a8 e'8~ |
+	    e8 c c4 r g' |
+	    g4 r r2 | % 12
+	    g8 g4 g f f8~ |
+	    f8 e4 e r4. |
+	    r1 |
+	}
+	\relative {
+	    r4 g'8 a c4 a8 e'~ | % 16
+	    e8 c c4 r2 |
+	    r4 g8 a c4 a8 e'8~ |
+	    e8 c c4 r g' |
+	    g4 r r2 | % 20
+	    g8 g4 g f f8~ |
+	    f8 e4 r8 r2 |
+	    r1 |
+	}
+\mymark "Chorus" #24 % or 52
+	\relative {
+	    r2 a''4 g8 e | % 24
+	    g2 r4 e8 f |
+	    g8 g~ g4 g4. c,8 |
+	    c1 |
+	    r2 a'4 g8 e | % 28
+	    g2 r4 e8 f |
+	    g8 g~ g4 g4. c,8 |
+	    c1 |
+	    r2 a8 c4 c8~ | % 32
+	    c4 g8 g e'4 c8 c8~ |
+	    c2 r |
+	    r1 |
+	}
+    }
+\mymark "Outro" #36 % or 64
+    \relative {
+	r2 a''4 g8 e | % 36
+	g2 r4 e8 f |
+	g8 g~ g4 g4. c,8 |
+	c1 |
+	r2 a'4 g8 e | % 40
+	g2 r4 e8 f |
+	g8 g~ g4 g4. c,8 |
+	c1 |
+	r2 a8 c4 c8~ | % 44
+	c4 g8 g e'4 c8 c8~ |
+	c2 r |
+	r1 |
+\mybarNumberCheck #48 % or 76
+	r1 |
+    }
+}

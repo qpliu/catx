@@ -1,0 +1,62 @@
+% drs
+% system1
+% midi
+% roland
+% PARTS midi
+% MIDIS midiOne
+
+\header {
+    title = "Last Dance"
+    composer = "The Raveonettes"
+}
+
+\paper {
+    system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
+}
+
+#(set-global-staff-size 18)
+#(set-default-paper-size "letter" 'portrait)
+
+drumPitchNames.hx = #'hx
+midiDrumPitches.hx = fis
+
+#(define myDrumStyleTable '(
+    (ridecymbal     cross    #f          7)
+    (crashcymbal    cross    #f          6)
+    (hihat          cross    #f          5)
+    (openhihat      cross    "open"      5)
+    (closedhihat    cross    "stopped"   5)
+    (hx             cross    "halfopen"  5)
+    (hightom        default  #f          3)
+    (himidtom       default  #f          2)
+    (snare          default  #f          1)
+    (lowtom         default  #f          0)
+    (bassdrum       default  #f          -4)
+))
+
+\include "markup"
+\include "drs"
+
+layoutmusic = <<
+    \tag #'(systemOnePart drsPart) \new DrumStaff \with {
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drsPart
+    >>
+>>
+
+midimusicAll = <<
+    \markupStuff
+    \tag #'(midiOne drsPart) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drsPart
+>>
+
+midimusic = <<
+    \keepWithTag #'(drsPart keep) \midimusicAll
+>>
+
+rolandmusic = <<
+    \keepWithTag #'(drsPart keep) \midimusicAll
+>>

@@ -1,0 +1,194 @@
+keyFivePart = {
+    \compressFullBarRests
+% page 20
+    r1 |
+% A
+    \barNumberCheck #2
+    R1*3 | 
+    r1 | r1 | r1 | r1 |
+    \relative {
+	e'16_"<Synth.1>" gis b d f gis b d r2 |
+    }
+% page 20.1 B
+    \barNumberCheck #10
+    R1*8 | 
+% C
+    \barNumberCheck #18
+    R1*7 | 
+    r1 |
+% D Stegno1
+    \barNumberCheck #26
+    r1 | r1 | r1 | r1 |
+% page 20.2
+    r1 | r1 | r1 | r1 | r1 |
+% page 20.3 E Stegno2
+    \barNumberCheck #35
+    r1 | r1 | r1 |
+% page 20.4
+    r1 | r1 |
+    \relative {
+	ces''4_"<Tubular Bells>" des ges2 |
+    }
+% page 20.5
+    \relative {
+	f''1 |
+    }
+    r1 | r1 |
+% page 20.6
+    r1 | r1 | r1 |
+% page 21
+    r1 |
+    \relative {
+	des''4_"<Tubular Bells>" c ges'2 |
+	f1 |
+    }
+% to Coda1,2
+    r1 |
+% page 21.1 F
+    \barNumberCheck #51
+    R1*4 | 
+% G
+    \barNumberCheck #55
+    R1*7 | 
+    r1 |
+% D.S.1
+% D Stegno1-2x
+    \barNumberCheck #63
+    r1 | r1 | r1 | r1 |
+% page 20.2-2x
+    r1 | r1 | r1 | r1 | r1 |
+% page 20.3 E Stegno2-2x
+    \barNumberCheck #72
+    r1 | r1 | r1 |
+% page 20.4-2x
+    r1 | r1 |
+    \relative {
+	ces''4_"<Tubular Bells>" des ges2 |
+    }
+% page 20.5-2x
+    \relative {
+	f''1 |
+    }
+    r1 | r1 |
+% page 20.6-2x
+    r1 | r1 | r1 |
+% page 21-2x
+    r1 |
+    \relative {
+	des''4_"<Tubular Bells>" c ges'2 |
+	f1 |
+    }
+% to Coda1,2
+% page 21.1 Coda1
+    \barNumberCheck #87
+    r1 |
+% H
+    \barNumberCheck #88
+    R1*3 | 
+% page 21.2
+    r1 |
+% I
+    \barNumberCheck #92
+    r1 | r1 | r1 |
+    \relative {
+	a'4_"<Tubular Bells>" b cis e |
+    }
+% page 21.3
+    \relative {
+	fis''2 r |
+    }
+    r1 | r1 | r1 | r1 |
+% page 21.4
+    r1 | r1 |
+    \relative {
+	a'4 b cis e |
+	fis2 r |
+    }
+    r1 |
+% page 21.5
+    r1 | r1 |
+% J repeat
+    \barNumberCheck #108
+    \relative {
+	\ottava #1 fis'''2_"<Synth.Bell>" gis8. a16~ a8 b |
+	e,8. fis16~ fis8 gis a2 |
+    }
+% page 21.6
+    \relative {
+	d'''2 cis4. cis8 |
+	e4 d cis2 |
+	fis2 gis8. a16~ a8 b |
+    }
+% page 22
+    \relative {
+	e'''8. fis16~ fis8 gis a2 |
+    }
+% ending 1
+    \relative {
+	d'''8. cis16~ cis8 d cis8. a'16~ a8 gis |
+	a1 |
+    }
+% end repeat
+% J repeat
+    \barNumberCheck #116
+    \relative {
+	\ottava #1 fis'''2_"<Synth.Bell>" gis8. a16~ a8 b |
+	e,8. fis16~ fis8 gis a2 |
+    }
+% page 21.6
+    \relative {
+	d'''2 cis8. b16~ b8 cis |
+	a4 b cis2 |
+	fis2 gis8. a16~ a8 b |
+    }
+% page 22
+    \relative {
+	e'''8. fis16~ fis8 gis a8. fis16~ fis8 gis |
+    }
+% ending 2
+    \relative {
+	a'''8. fis16~ fis8 gis a8. fis16~ fis8 gis |
+    }
+% page 22.1
+    \relative {
+	a'''1 \ottava #0 |
+	r1 |
+    }
+% D.S.2
+% page 20.3 E Stegno2-3x
+    \barNumberCheck #125
+    r1 | r1 | r1 |
+% page 20.4-3x
+    r1 | r1 |
+    \relative {
+	ces''4_"<Tubular Bells>" des ges2 |
+    }
+% page 20.5-3x
+    \relative {
+	f''1 |
+    }
+    r1 | r1 |
+% page 20.6-3x
+    r1 | r1 | r1 |
+% page 21-3x
+    r1 |
+    \relative {
+	des''4_"<Tubular Bells>" c ges'2 |
+	f1 |
+    }
+% to Coda1,2
+% page 14.1 Coda2
+    \barNumberCheck #140
+    r1 |
+% K
+    \barNumberCheck #141
+    R1*3 | 
+    r1 |
+% page 22.2
+    r1 | r1 | r1 |
+    \relative {
+	cis'16_"<Synth.1>" eis gis b d eis gis b r2 |
+    }
+    r1 |
+    \barNumberCheck #150
+}

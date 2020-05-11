@@ -1,0 +1,415 @@
+guitarPart = {
+% page 10
+    \barNumberCheck #1
+    r1 | r1 | r1 | r1 |
+% page 11 Intro Segno3
+    \barNumberCheck #5
+    r1 |
+    \relative {
+	r2 r8 \acciaccatura f''8^"C" g4(^\markup { \hspace #2 "D" } f16)(^\markup { \hspace #1 "P" } ees16) |
+	c4~\startTrillSpan c4\stopTrillSpan\bendAfterG #-3 r2 |
+	r2 r4 \tuplet 3/2 { ees8^"H"( f8)( ees8)^"P" } |
+    }
+% page 11.1
+    \relative {
+	\acciaccatura f''8^"C" g4~\startTrillSpan g4\stopTrillSpan\bendAfter #-3 r2 |
+	r1 |
+	g,8 bes4 g8 bes4 g8 bes8~ |
+	bes8 g8 bes4 g8 bes4 ces8 |
+    }
+% page 12
+    \relative {
+	g''8 bes4 g8 bes4 g8 bes8~ |
+	bes8 g8 bes4 g8 bes4 ces8 |
+	\ottava #1 g'8 bes4 g8 bes4 g8 bes8~ |
+    }
+% to Coda 3
+    \relative {
+	bes'''8 g8 bes4 g8 bes4 b8 |
+    }
+% page 12.1 A
+    \barNumberCheck #17
+    \relative {
+	c''''4^\bendAfterG #-3 r4 \ottava #0 r2 |
+	r1 |
+	<c,,, g'>4\staccato r4 r2 |
+	r4 r2 \deadNote ees4\bendAfterG #-3 |
+    }
+% page 13
+    \relative {
+	r4 \acciaccatura f''8^"C" g2.~\startTrillSpan |
+	g8\stopTrillSpan g8(^"U" f8)^"D" ees8 f8(^\markup { \hspace #2 "P" } ees8) c8 bes8 |
+	c2~\startTrillSpan c4\stopTrillSpan\bendAfterG #-4 r4 |
+	r4 <f,, c'>4\staccato <g d'>4\staccato r4 |
+    }
+% page 13.1
+    \relative {
+	<c' g'>4\staccato r4 r2 |
+	r1 |
+	<c g'>4\staccato r4 r2 |
+	<c g'>4\staccato <c g'>4\staccato <c g'>4\staccato r4 |
+    }
+% page 14
+    \relative {
+	\acciaccatura bes'8^"C" c4 c8 \acciaccatura bes8^"C" c8~ c8 c8 \acciaccatura bes8^"C" c8 c8 |
+	\acciaccatura bes8^"C" c8 c8 \acciaccatura bes8^"C" c8 c8 ees4 c8 bes8 |
+	\acciaccatura bes8^"C" c4 c8 \acciaccatura bes8^"C" c8~ c8 c8 \acciaccatura bes8^"C" c8 bes8 |
+	r4 <f, c'>4\staccato <g d'>4\staccato r4 |
+    }
+% page 14.1 B
+    \barNumberCheck #33
+    r1 | r1 | r1 | r1 |
+% page 15
+    \relative {
+	\repeat unfold 4 { \acciaccatura f''8^"C" g16 g16 bes16(^\markup { \hspace #1 "P" } g16) } |
+	\repeat unfold 3 { \acciaccatura f8^"C" g16 g16 bes16(^\markup { \hspace #1 "P" } g16) } bes8 \acciaccatura bes8^"C" c8~ |
+	c8(^\markup { \hspace #2 "D" } bes8) g8 \acciaccatura f8^"C" g8(^\markup { \hspace #1 "D" } f8)(^\markup { \hspace #1 "P" } ees8) f8 ees8~\startTrillSpan |
+	ees8 r8\stopTrillSpan <f,, c'>4\staccato <g d'>4\staccato r4 |
+    }
+% page 15.1
+    r1 | r1 | r1 | r1 |
+% page 16
+    \relative {
+	\ottava #1 \acciaccatura bes'''8^"C" c2 r8 \acciaccatura f,8^"C" g8(^\markup { \hspace #2 "D" } f8) ees8  |
+	f8 f8(^\markup { \hspace #2 "P" } ees8) \acciaccatura f8^"C" g8~ g8(^\markup { \hspace #2 "D" } f16)(^\markup { \hspace #1 "P" } ees16) f8 f8(^\markup { \hspace #3 "C" } |
+	g8) g8 \acciaccatura f8^"C" g8 g8 \acciaccatura f8^"C" g8(^\markup { \hspace #2 "D" } f16)(^\markup { \hspace #1 "P" } ees16) f8 ees8~ |
+	ees4\bendAfterG #-4 \ottava #0 <f,,, c'>4\staccato <g d'>4\staccato r4 |
+    }
+% page 16.1
+    \relative {
+	<d' aes'>4\staccato r4 r2 |
+	r1 |
+	\ottava #1 g'8 g'4 g,8 g'4 g,8 g'8~ |
+	g8 g,8 g'4 g,4 g'4 |
+    }
+% page 17
+    \relative {
+	c''''2 bes2 |
+	aes2 g2 |
+	f4 g4 f8 ees8 d8 c8~ |
+	c2~ c4\bendAfterG #-4 r4 |
+    }
+    \ottava #0 % assume writer forgot
+% page 17.1 C Stegno1
+    \barNumberCheck #57
+    r1 | r1 | r1 | r1 |
+% page 18
+    r1 | r1 | r1 | r1 |
+% page 18.1
+    r1 | r1 | r1 |
+% page 19 D Stegno2
+    \barNumberCheck #68
+    \relative {
+	<e' b'>4 r8 <a, e'>8~ <a e'>8 <a e'>8 <a e'>4 |
+	<d a'>4 r8 <g, d'>8 <g d'>8 <g d'>8 <g d'>4 |
+	<c g'>4 r8 <d a'>8 <d a'>8 <d a'>8 <d a'>4 |
+    }
+% page 19.1
+    \relative {
+	<g d'>4 r8 <g d'>8~ <g d'>8 <g d'>8 <g d'>4 |
+	<fis cis'>1 |
+	<b fis'>1 |
+    }
+% page 20
+    \relative {
+	<e' b'>2.. <e b'>8~ |
+	<e b'>4 <e b'>4 <e b'>4 <e b'>4 |
+	<a, e'>2.. <d a'>8~ |
+    }
+% page 20.1
+    \relative {
+	<d' a'>1 |
+	<g, d'>2 <b fis'>4. <c g'>8~ |
+	<c g'>1 |
+    }
+% page 21
+    \relative {
+	<fis fis'>4. <fis fis'>8~ <fis fis'>4 <fis fis'>4~ |
+	<fis fis'>8 <fis fis'>4. <fis fis'>4 <fis fis'>4 |
+	<b fis'>2.. <b fis'>8~ |
+	<b fis'>1 |
+    }
+% page 21.1 E
+    \barNumberCheck #84
+    \relative {
+	<c' g'>8 <c g'>8 <c g'>4 r2 |
+	<b g'>8 <b g'>8 <b g'>4 r2 |
+	<a e'>8 <a e'>8 <a e'>4 r2 |
+	<g d'>8 <g d'>8 <g d'>4 r2 |
+    }
+% page 22
+    \relative {
+	<fis c'>1~ |
+	<fis c'>1 |
+	<b fis' b e>1 |
+	<b fis' b dis>1 |
+    }
+% page 22.1
+    \relative {
+	r2 <e b' e>2~ |
+    }
+% to Coda 1,2
+    \relative {
+	<e b' e>1 |
+	r1 | r1 |
+    }
+% page 23 F
+    \barNumberCheck #96
+    \relative {
+	c''1:32(\glissando |
+	\deadNote f1:32)(\glissando |
+	c'1:32)(\glissando |
+	\deadNote f,1:32)(\glissando |
+    }
+% page 23.1
+    \relative {
+	c''1:32)(\glissando |
+	\deadNote f1:32)(\glissando |
+	c'1:32)(\glissando |
+	\deadNote f,2)\bendAfterG #-8 r2 |
+    }
+% page 24
+    \relative {
+	\ottava #1 c'''1:32(\glissando |
+	\deadNote f1:32)(\glissando |
+	c'1:32)(\glissando |
+	\deadNote f,1:32)(\glissando |
+	c1:32)(\glissando |
+    }
+% page 24.1
+    \relative {
+	\deadNote f'''1:32) |
+    }
+    r1 | r1 |
+    \relative {
+	g'''8 bes4 g8 bes4 g8 bes8~ |
+	bes8 g8 bes4 g8. bes16~ bes8 b8 |
+    }
+% page 25 G
+    \barNumberCheck #114
+    \relative {
+	c''''4 \ottava #0 r4 r2 |
+	r1 |
+	\acciaccatura f,,8^"C" g8 g16 g16 g16 g16 \acciaccatura f8^"C" g8 g16 g16 g16 g16 \acciaccatura f8^"C" g8 g16 g16 |
+	r1 |
+    }
+% page 25.1
+    r1 | r1 |
+    \relative {
+	\ottava #1 \acciaccatura f'''8^"C" g8(^\markup { \hspace #1 "D" } f8) ees16 ees16 \acciaccatura f8^"C" g8(^\markup { \hspace #1 "D" } f8) ees16 ees16 f8 ees8 \ottava #0 |
+	r1 | r1 |
+    }
+% page 26 H
+    \barNumberCheck #123
+	r1 | r1 |
+    \relative {
+	\acciaccatura f''8^"C" g8(^\markup { \hspace #1 "D" } f8) ees16 ees16 \acciaccatura f8^"C" g8(^\markup { \hspace #1 "D" } f8) ees16 ees16 f8 ees8~\startTrillSpan  |
+	ees4 r4\stopTrillSpan r2 |
+    }
+% page 26.1
+    r1 | r1 |
+    \relative {
+	\ottava #1 \acciaccatura f'''8^"C" g4 bes8 \acciaccatura f8^"C" g8~ g8 bes8 \acciaccatura f8^"C" g8 bes8 \ottava #0 |
+	r1 |
+    }
+% page 27
+    r1 | r1 |
+    \relative {
+	\ottava #1 g''8 g'4 g,8 g'4 g,8 g'8~ |
+	g8 g,8 g'4 g,4 g'4 |
+    }
+% page 27.1
+    \relative {
+	c''''2 bes2 |
+	aes2 g2 |
+	f4 g4 f8 ees8 d8 c8~ |
+	c2~ c4\bendAfterG #-5 \ottava #0 r4 |
+    }
+% D.S.1
+% page 17.1 C Stegno1-2x
+    \barNumberCheck #139
+    r1 | r1 | r1 | r1 |
+% page 18-2x
+    r1 | r1 | r1 | r1 |
+% page 18.1-2x
+    r1 | r1 | r1 |
+% page 19 D Stegno2-2x
+    \barNumberCheck #150
+    \relative {
+	<e' b'>4. <a, e'>8 r2 |
+	<d a'>4. <g, d'>8 r2 |
+	<c g'>4. <d a'>8 r2 |
+    }
+% page 19.1-2x
+    \relative {
+	<g d'>4. <g d'>8 r2 |
+	<fis cis'>1 |
+	<b fis'>1 |
+    }
+% page 20-2x
+    \relative {
+	<e' b'>2.. <e b'>8~ |
+	<e b'>4 <e b'>4 <e b'>4 <e b'>4 |
+	<a, e'>2.. <d a'>8~ |
+    }
+% page 20.1-2x
+    \relative {
+	<d' a'>1 |
+	<g, d'>2 <b fis'>4. <c g'>8~ |
+	<c g'>1 |
+    }
+% page 21-2x
+    \relative {
+	<fis fis'>4. <fis fis'>8~ <fis fis'>4 <fis fis'>4~ |
+	<fis fis'>8 <fis fis'>4. <fis fis'>4 <fis fis'>4 |
+	<b fis'>2.. <b fis'>8~ |
+	<b fis'>1 |
+    }
+% page 21.1 E-2x
+    \barNumberCheck #166
+    \relative {
+	<c' g'>8 <c g'>8 <c g'>4 r2 |
+	<b g'>8 <b g'>8 <b g'>4 r2 |
+	<a e'>8 <a e'>8 <a e'>4 r2 |
+	<g d'>8 <g d'>8 <g d'>4 r2 |
+    }
+% page 22-2x
+    \relative {
+	<fis c'>1~ |
+	<fis c'>1 |
+	<b fis' b e>1 |
+	<b fis' b dis>1 |
+    }
+% page 22.1-2x
+    \relative {
+	r2 <e b' e>2~ |
+    }
+% page28 Coda 1
+    \barNumberCheck #175
+    \relative {
+	<e b' e>1 |
+    }
+% I
+    \barNumberCheck #176
+    \relative {
+	\ottava #1 e'''8 d8 e8 f8~ f4 r4 |
+	d8 c8 d8 e8~ e4 r4 |
+	c8 b8 c8 b8~ b8 c8 d8 g8 |
+	f4. e8~ e4 r4 |
+    }
+% page28.1
+    \relative {
+	e'''8 d8 e8 d8 e8 d8 r8 e8~ |
+	e4 d4 c4 d4 |
+	e4 e8 e8 r8 f8 r8 e8~ |
+	e1 |
+    }
+% page29
+    \relative {
+	\acciaccatura g'''8^"C" a4\startTrillSpan \tuplet 3/2 { a8\stopTrillSpan g8(^\markup { \hspace #2 "P" } e8) } \tuplet 3/2 { c'8(^\markup { \hspace #2 "P" } a8) g8 } \tuplet 3/2 { a8 g8(^\markup { \hspace #2 "P" } e8) } |
+	\tuplet 3/2 { g8(^\markup { \hspace #2 "P" } e8) d8 } \tuplet 3/2 { e8 d8(^\markup { \hspace #2 "P" } c8) } \tuplet 3/2 { d8(^\markup { \hspace #2 "P" } c8) a8 } \tuplet 3/2 { c8 d8(^\markup { \hspace #2 "P" } c8) } |
+	\acciaccatura d8^"C" e4\startTrillSpan g8\stopTrillSpan e8~^"U" e8(^\markup { \hspace #2 "D" } d16)(^\markup { \hspace #1 "P" } c16) \acciaccatura d8^"C" e8 c8~ |
+	c4~\startTrillSpan c4\stopTrillSpan\bendAfterG #-4 r8 a8\bendBeforeG #-2 b8(^\markup { \hspace #2 "H" } c8) |
+    }
+% page29.1
+    \relative {
+	a''8 b8 c8 a8 b8 c8 a8 b8 |
+	c8 a8 b8 c8 a8 b8 c8 d8 |
+	e4 e16 e16 e16 e16 e8 <f a>8 r8 <e gis>8~ |
+	<e gis>2.~ <e gis>4\chordBendAfterG #-4 \ottava #0 |
+    }
+% page30 J
+    \barNumberCheck #192
+    r1 | r1 | r1 | r1 | r1 |
+% page30.1
+    r1 |
+% D.S.2
+% page 19 D Stegno2-3x
+    \barNumberCheck #198
+    \relative {
+	<e' b'>4 r8 <a, e'>8~ <a e'>8 <a e'>8 <a e'>4 |
+	<d a'>4 r8 <g, d'>8 <g d'>8 <g d'>8 <g d'>4 |
+	<c g'>4 r8 <d a'>8 <d a'>8 <d a'>8 <d a'>4 |
+    }
+% page 19.1-3x
+    \relative {
+	<g d'>4 r8 <g d'>8~ <g d'>8 <g d'>8 <g d'>4 |
+	<fis cis'>1 |
+	<b fis'>1 |
+    }
+% page 20-3x
+    \relative {
+	<e' b'>2.. <e b'>8~ |
+	<e b'>4 <e b'>4 <e b'>4 <e b'>4 |
+	<a, e'>2.. <d a'>8~ |
+    }
+% page 20.1-3x
+    \relative {
+	<d' a'>1 |
+	<g, d'>2 <b fis'>4. <c g'>8~ |
+	<c g'>1 |
+    }
+% page 21-3x
+    \relative {
+	<fis fis'>4. <fis fis'>8~ <fis fis'>4 <fis fis'>4~ |
+	<fis fis'>8 <fis fis'>4. <fis fis'>4 <fis fis'>4 |
+	<b fis'>2.. <b fis'>8~ |
+	<b fis'>1 |
+    }
+% page 21.1 E-3x
+    \barNumberCheck #214
+    \relative {
+	<c' g'>8 <c g'>8 <c g'>4 r2 |
+	<b g'>8 <b g'>8 <b g'>4 r2 |
+	<a e'>8 <a e'>8 <a e'>4 r2 |
+	<g d'>8 <g d'>8 <g d'>4 r2 |
+    }
+% page 22-3x
+    \relative {
+	<fis c'>1~ |
+	<fis c'>1 |
+	<b fis' b e>1 |
+	<b fis' b dis>1 |
+    }
+% page 22.1-3x
+    \relative {
+	r2 <e b' e>2~ |
+    }
+% to Coda 1,2
+% page30 Coda 2
+    \barNumberCheck #223
+    \relative {
+	<e b' e>1 |
+    }
+% D.S.3
+% page 11 Intro Segno3-2x
+    \barNumberCheck #224
+    \relative {
+	r2 \ottava #1 \acciaccatura bes'''8^"C" c2~ |
+	c2~ c8 d8^"U"( c8)^"D" r8 |
+	f,16(^\markup { \hspace #1 "C" } g16)(^\markup { \hspace #1 "D" } f16)(^\markup { \hspace #1 "P" } ees16) f8 ees8~ ees2 |
+	r1 |
+    }
+% page 11.1-2x
+    \relative {
+	\acciaccatura f''8^"C" g4~\startTrillSpan g4\stopTrillSpan\bendAfter #-3 r2 |
+	r1 |
+	g,8 bes4 g8 bes4 g8 bes8~ |
+	bes8 g8 bes4 g8 bes4 ces8 |
+    }
+% page 12-2x
+    \relative {
+	g''8 bes4 g8 bes4 g8 bes8~ |
+	bes8 g8 bes4 g8 bes4 ces8 |
+	\ottava #1 g'8 bes4 g8 bes4 g8 bes8~ |
+    }
+    \barNumberCheck #235
+% to Coda 3
+% page30 Coda 3
+    \barNumberCheck #235
+    \relative {
+	bes'''8 g8 bes4 \tuplet 3/2 { g4 bes4 b4 } |
+	c2 \ottava #0 r2 |
+    }
+    \barNumberCheck #237
+}

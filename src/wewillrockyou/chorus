@@ -1,0 +1,58 @@
+chorusPart = \new Voice = "chorus" {
+% Intro
+%1
+    r1 r1 r1 r1 |
+%5
+    r1 r1 r1 r1 |
+% Verse 1
+% 9
+    r1 r1 r1 r1 |
+% 13
+    r1 r1 r1 r1 |
+% Chorus 1
+    \relative {
+% 17
+	g'2 fis |
+	e2 d |
+	e4 e r2 |
+	r1 |
+    }
+% Verse 2
+% 21
+    r1 r1 r1 r1 |
+% 25
+    r1 r1 r1 r1 |
+% Chorus 2
+    \relative {
+% 29
+	g'2 fis |
+	e2 d |
+	e4 e r2 |
+	r1 |
+    }
+% Verse 3
+% 33
+    r1 r1 r1 r1 |
+% 37
+    r1 r1 r1 r1 |
+% Chorus 3
+    \relative {
+% 41
+	g'2 fis |
+	e2 d |
+	e4 e r2 |
+	r1 |
+% 45
+	g2 fis |
+	e2 d |
+	e4 e r2 |
+	r1 |
+    }
+% Outro
+% 49
+    r1 r1 r1 r1 |
+% 53
+    r1 r1 r1 r1 |
+% 67
+    r1 r1 |
+}

@@ -1,0 +1,241 @@
+egOnePart = {
+% page 2 Intro.
+    \barNumberCheck #1
+    r1 | r1 | r1 |
+    \relative {
+	r2_"<Dist.>" \deadNote g'2\bendAfterG #-5 |
+	<f, bes f' bes>1 |
+	<g c g' c>1 |
+    }
+% page 3
+    \relative {
+	<a d a' d>4\chordBendAfterG #-2 r4 r2 |
+	r1 | r1 |
+	r2 r4 \deadNote \tweak font-size #10 a'4\bendAfterG #-2 |
+% B
+	\barNumberCheck #11
+	\override TextSpanner.bound-details.left.text = \markup { \upright "M" }
+	<d, a'>8\startTextSpan <d a'>8 <d a'>8 <d a'>8 <c g'>8 <c g'>8 <c g'>8 <c g'>8 |
+% page 3.1
+	<bes f'>8 <bes f'>8 <bes f'>8 <bes f'>8 <a f'>8 <a f'>8 <a f'>8 <a f'>8 |
+	<g d'>8 <g d'>8 <g d'>8 <g d'>8 <c g'>8 <c g'>8 <c g'>8 <c g'>8 |
+	<f, c'>8 <f c'>8 <f c'>8 <f c'>8 <a e'>8 <a e'>8 <a e'>8 <a e'>8 |
+	<d a'>8 <d a'>8 <d a'>8 <d a'>8 <c g'>8 <c g'>8 <c g'>8 <c g'>8 |
+	<bes f'>8 <bes f'>8 <bes f'>8 <bes f'>8 <a e'>8 <a e'>8 <a e'>8 <a e'>8 |
+    }
+% page 4
+    \relative {
+	<g d'>8 <g d'>8 <g d'>8 <g d'>8 <a e'>8 <a e'>8 <a e'>8 <a e'>8\stopTextSpan |
+	<d a'>4\staccato r4 r2 |
+% C
+	\barNumberCheck #19
+	r1 | r1 |
+% page 4.1
+	r1 | r1 | r1 | r1 |
+    }
+% page 5
+    r1 | r1 |
+% D
+    \barNumberCheck #27
+    r1 | r1 |
+% page 5.1
+    r1 |
+    \relative {
+	r2 r4 \deadNote g'4\bendAfterG #-3 |
+	e4 bes'8 d8~ d4 e,8 bes' |
+	e,4 b'8 d8~ d2 |
+    }
+% page 6
+    \relative {
+	a8\startTextSpan a8 a8 a8 a8 a8 a8 a8 |
+	a8 cis8 cis16 cis16 cis8\stopTextSpan d4 e4 |
+% E
+	\barNumberCheck #35
+	<d a'>8 <d a'>8^"M" <d a'>8^"M" <d a'>8 <d a'>8^"M" <d a'>8^"M" <d a'>8 <d a'>8^"M" |
+	<bes f'>8 <bes f'>8^"M" <bes f'>8^"M" <bes f'>8 <bes f'>8^"M" <bes f'>8^"M" <bes f'>8 <bes f'>8^"M" |
+% page 6.1
+	<c g'>8 <c g'>8^"M" <c g'>8^"M" <c g'>8 <c g'>8^"M" <c g'>8^"M" <c g'>8 <c g'>8^"M" |
+	<f, c'>4 <f c'>4 <a e'>4 cis8 a8 |
+	<bes f'>8 <bes f'>8^"M" <bes f'>8^"M" <bes f'>8 <bes f'>8^"M" <bes f'>8 <bes f'>8 <f c'>8~ |
+	<f c'>8 <f c'>8 <f c'>4 a8 c4 a8 |
+    }
+% page 7
+    \relative {
+	<g d'>8 <g d'>8^"M" <g d'>8^"M" <g d'>8 <g d'>8^"M" <g d'>8^"M" g8 e8 |
+	<a e'>4 <a e'>4 <a e'>4 <a e'>4 |
+	r1 |
+% page 7.1 F
+	\barNumberCheck #44
+	d8^"M" e8^"M" f8^"M" g8~ g8 d8^"M" des8^"M" <c g'>8~ |
+	<c g'>8 <c g'>8 <c g'>4 <f c'>4\staccato <c g'>4\staccato |
+	<bes f'>8 <bes f'>8 f'8 <bes, f'>8 <c g'>8 <c g'>8 <c g'>8 <f c'>8~ |
+	<f c'>8 <f c'>8 <f c'>4 <f c'>4 <c g'>4\staccato |
+    }
+% page 8
+    \relative {
+	d'8^"M" e8^"M" f8^"M" g8~ g8 d8^"M" des8^"M" <c g'>8 |
+	<c g'>8 <c g'>8 <c g'>4 <f c'>4\staccato <c g'>4\staccato |
+	<bes f'>4 <bes f'>4 <c g'>8 <c g'>8 r8 <d a'>8~ |
+% page 8.1
+	<d a'>8 <d a'>8 <d a'>4\staccato <d a'>4\staccato <d a'>4 |
+% 1x ending
+	<d a'>8^"M" <d a'>8^"M" <d a'>8 <d a'>8^"M" <c g'>8^"M" <c g'>8^"M" <c g'>8 <c g'>8^"M" |
+	<bes f'>8^"M" <bes f'>8^"M" <bes f'>8 <bes f'>8^"M" <a f'>8^"M" <a f'>8^"M" <a f'>8 <a f'>8^"M" |
+	<g d'>8^"M" <g d'>8^"M" <g d'>8 <g d'>8^"M" <c g'>8^"M" <c g'>8^"M" <c g'>8 <c g'>8^"M" |
+    }
+% page 9
+    \relative {
+	<f c'>8^"M" <f c'>8^"M" <f c'>8 <f c'>8^"M" <a e'>8^"M" <a e'>8^"M" <a e'>8 <a e'>8^"M" |
+	<d a'>8^"M" <d a'>8^"M" <d a'>8 <d a'>8^"M" <c g'>8^"M" <c g'>8^"M" <c g'>8 <c g'>8^"M" |
+	<bes f'>8^"M" <bes f'>8^"M" <bes f'>8 <bes f'>8^"M" <a e'>8^"M" <a e'>8^"M" <a e'>8 <a e'>8^"M" |
+	<g d'>8^"M" <g d'>8^"M" <g d'>8 <g d'>8^"M" <a e'>8^"M" <a e'>8^"M" <a e'>8 <a e'>8^"M" |
+	<d a'>4\staccato r4 r2 |
+    }
+% C-2x
+    \barNumberCheck #60
+    r1 | r1 |
+% page 4.1-2x
+    r1 | r1 | r1 | r1 |
+% page 5-2x
+    r1 |
+    \relative {
+	<f c'>4 <f c'>4 <fis d'>4 <fis d'>4 |
+% D-2x
+	\barNumberCheck #68
+	g4^"M" g8^"M" bes8~ bes8 c8 d8 des8 |
+	c4. e,8~ e8 f8 g8 e8 |
+% page 5.1-2x
+	f4^"M" f8^"M" a8~ a8 c8 f8 c8 |
+	bes2~ bes8 a8 g8 f8 |
+	e4 bes''8 g'8~ g2 |
+	e,4 d'8 e8~ e4 d4 |
+    }
+% page 6-2x
+    \relative {
+	a8\startTextSpan a8 a8 a16 a16 a16 a16 a8 a16 a16 a16 a16 |
+	a16 a16 c16 c16 c16 c16 c8\stopTextSpan d4 e4 |
+% E-2x
+	\barNumberCheck #76
+	<d a'>8 <d a'>8^"M" <d a'>8^"M" <d a'>8 <d a'>8^"M" <d a'>8^"M" <d a'>8 <d a'>8^"M" |
+	<bes f'>8 <bes f'>8^"M" <bes f'>8^"M" <bes f'>8 <bes f'>8^"M" <bes f'>8^"M" <bes f'>8 <bes f'>8^"M" |
+% page 6.1-2x
+	<c g'>8 <c g'>8^"M" <c g'>8^"M" <c g'>8 <c g'>8^"M" <c g'>8^"M" <c g'>8 <c g'>8^"M" |
+	<f, c'>4 <f c'>4 <a e'>4 cis8 a8 |
+	<bes f'>8 <bes f'>8^"M" <bes f'>8^"M" <bes f'>8 <bes f'>8^"M" <bes f'>8 <bes f'>8 <f c'>8~ |
+	<f c'>8 <f c'>8 <f c'>4 a8 c4 a8 |
+    }
+% page 7-2x
+    \relative {
+	<g d'>8 <g d'>8^"M" <g d'>8^"M" <g d'>8 <g d'>8^"M" <g d'>8^"M" g8 e8 |
+	<a e'>4 <a e'>4 <a e'>4 <a e'>4 |
+	r1 |
+% page 7.1-2x F-2x
+	\barNumberCheck #85
+	d8^"M" e8^"M" f8^"M" g8~ g8 d8^"M" des8^"M" <c g'>8~ |
+	<c g'>8 <c g'>8 <c g'>4 <f c'>4\staccato <c g'>4\staccato |
+	<bes f'>8 <bes f'>8 f'8 <bes, f'>8 <c g'>8 <c g'>8 <c g'>8 <f c'>8~ |
+	<f c'>8 <f c'>8 <f c'>4 <f c'>4 <c g'>4\staccato |
+    }
+% page 8-2x
+    \relative {
+	d'8^"M" e8^"M" f8^"M" g8~ g8 d8^"M" des8^"M" <c g'>8 |
+	<c g'>8 <c g'>8 <c g'>4 <f c'>4\staccato <c g'>4\staccato |
+	<bes f'>4 <bes f'>4 <c g'>8 <c g'>8 r8 <d a'>8~ |
+% page 8.1-2x
+	<d a'>8 <d a'>8 <d a'>4\staccato <d a'>4\staccato <d a'>4 |
+    }
+% page 9.1
+    \relative {
+	e''8 a,8 b8 d8 g,8 a8 c8 f,8 |
+	g8 bes8 ees,8 f8 a,8 cis8 e8 g8 |
+% G
+	\barNumberCheck #95
+	<d a'>8\startTextSpan <d a'>8 <d a'>8 <d a'>8 <c g'>8 <c g'>8 <c g'>8 <c g'>8 |
+	<bes f'>8 <bes f'>8 <bes f'>8 <bes f'>8 <a f'>8 <a f'>8 <a f'>8 <a f'>8 |
+	<g d'>8 <g d'>8 <g d'>8 <g d'>8 <c g'>8 <c g'>8 <c g'>8 <c g'>8 |
+    }
+% page 10
+    \relative {
+	<f c'>8 <f c'>8 <f c'>8 <f c'>8 <a e'>8 <a e'>8 cis8 a8 |
+	<d a'>8 <d a'>8 <d a'>8 <d a'>8 <c g'>8 <c g'>8 <c g'>8 <c g'>8 |
+	<bes f'>8 <bes f'>8 <bes f'>8 <bes f'>8 <a f'>8 <a f'>8 <a f'>8 <a f'>8 |
+	<g d'>8 <g d'>8 <g d'>8 <g d'>8 <a e'>8 <a e'>8 <a e'>8 <a e'>8\stopTextSpan |
+	<d a'>4 <c g'>4 <bes f'>4 <a e'>4 |
+% page 10.1 H
+	\barNumberCheck #103
+	\repeat percent 3 {
+	    <d a'>4 <g d'>4 <c, g'>4 <f c'>4 |
+	    <bes, f'>4 <ees bes'>4 <a, e'>2 |
+	}
+	<d a'>4 <g d'>4 <c, g'>4 <f c'>4 |
+	<bes, f'>4 <a e'>4 <d a'>4 \deadNote g4\bendAfterG #-5 |
+% I
+	\barNumberCheck #111
+	\repeat percent 2 {
+	    <bes, f'>4 r8 <bes f'>8 r8 <bes f'>8 r8 <bes f'>8 |
+	    <c g'>4 r8 <c g'>8 r8 <c g'>8 r8 <a e'>8^"M" |
+	    <a e'>4 r8 <a e'>8 r8 <a e'>8 r8 <a e'>8 |
+	    <d a'>8^"M" <d a'>8^"M" <d a'>4 <c g'>8^"M" <c g'>8^"M" <c g'>4 |
+	}
+    }
+% J
+    \barNumberCheck #119
+    \relative {
+	<bes f'>4 <bes f'>8\startTextSpan <bes f'>8 <bes f'>8 <bes f'>8 <bes f'>8\stopTextSpan <c g'>8~ |
+	<c g'>8 <c g'>8\startTextSpan <c g'>8 <c g'>8 <c g'>8 <c g'>8 <c g'>8\stopTextSpan e,8 |
+	<f c'>4 <f c'>8 <e c'>8~ <e c'>8 <e c'>8 <e c'>8 <d' a'>8~ |
+% page 12.1
+	<d a'>8 d8 d8 cis8~ cis8 a8 a8 a8 |
+	<bes f'>8 <bes f'>8 <bes f'>8 <bes f'>8 r4 <bes f'>8 <c g'>8 |
+	r1 |
+% K
+	\barNumberCheck #125
+	r1 | r1 |
+    }
+% page 13
+    \relative {
+	r2 r4 r8 <f' c'>8~ |
+	<f c'>8 <f c'>8 <f c'>4\staccato <f c'>4\staccato <c g'>4\staccato |
+	d8^"M" e8^"M" f8^"M" g8~ g8 d8^"M" des8^"M" <c g'>8~ |
+	<c g'>8 <c g'>8 <c g'>4 <f c'>4\staccato <c g'>4\staccato |
+	<bes f'>8\startTextSpan <bes f'>8 <bes f'>8 <bes f'>8 <c g'>8 <c g'>8 <c g'>8\stopTextSpan <d a'>8~ |
+% page 13.1
+	<d a'>8 <d a'>8 <d a'>4\staccato <d a'>4\staccato <d a'>4\staccato |
+% L
+	\barNumberCheck #133
+	e,8\startTextSpan e8 fis8 g8 a8 a8 e'8\stopTextSpan <d a'>8~ |
+	<d a'>8 <d a'>8 <d a'>4 <g d'>4\staccato <d a>4\staccato |
+	<c g'>4 <c g'>4 <d a'>8 <d a'>8 r8 <g, d'>8~ |
+	<g d'>8 <g d'>8 <g d'>4\staccato <g d'>4\staccato <d' a'>4\staccato |
+    }
+% page 14
+    \relative {
+	e8\startTextSpan e8 fis8 g8 a8 a8 e'8\stopTextSpan <d a'>8~ |
+	<d a'>8 <d a'>8 <d a'>4 <g d'>4\staccato <d a'>4\staccato |
+	<c g'>4 <c g'>4 <d a'>8 <d a'>8 r8 <e b'>8~ |
+	<e b'>8 <e b'>8 <e b'>4 <e b'>2 |
+	<f, c'>8 <f c'>8 <f c'>8 <f c'>8 <f c'>8 <f c'>8 <f c'>8 <f c'>8 |
+% page 14.1
+	<g d'>8 <g d'>8 <g d'>8 <g d'>8 <g d'>8 <g d'>8 <g d'>8 <g d'>8 |
+	r1 |
+	<b fis' b e>4 <b fis' b dis>4~ <b fis' b dis>8 \deadNote g'4.\bendAfterG #-5 |
+% M
+	\barNumberCheck #145
+	<e b'>8\startTextSpan <e b'>8 <e b'>8 <e b'>8 <d a'>8 <d a'>8 <d a'>8 <d a'>8 |
+	<c g'>8 <c g'>8 <c g'>8 <c g'>8 <b g'>8 <b g'>8 <b g'>8 <b g'>8 |
+    }
+% page 15
+    \relative {
+	<a e'>8 <a e'>8 <a e'>8 <a e'>8 <d a'>8 <d a'>8 <d a'>8 <d a'>8 |
+	<g, d'>8 <g d'>8 <g d'>8 <g d'>8 <b fis'>8 <b fis'>8 <b fis'>8 <b fis'>8 |
+	<e b'>8 <e b'>8 <e b'>8 <e b'>8 <d a'>8 <d a'>8 <d a'>8 <d a'>8 |
+	<c g'>8 <c g'>8 <c g'>8 <c g'>8 <b fis'>8 <b fis'>8 <b fis'>8 <b fis'>8 |
+% page 15.1
+	<a e'>8 <a e'>8 <a e'>8 <a e'>8 <b fis'>8 <b fis'>8 <b fis'>8 <b fis'>8\stopTextSpan |
+	\repeat percent 3 {
+	    <e b'>8 e,8^"M" e8^"M" <e' b'>8 e,8^"M" e8^"M" <dis' b'>4 |
+	}
+	<e b'>2\chordBendAfterG #-2 r2 |
+    }
+    \barNumberCheck #156
+}

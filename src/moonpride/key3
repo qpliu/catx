@@ -1,0 +1,187 @@
+keyThreePart = {
+    \compressFullBarRests
+% page 20 Intro
+    \barNumberCheck #1
+    R1*4 |
+    r1 | r1 |
+% A
+    \barNumberCheck #7
+    r1 | r1 | r1 |
+% page 20.1
+    r1 |
+% B
+    \barNumberCheck #11
+    \relative {
+	<f' a d>2_"<Organ>" <e g c>2 |
+	<d f bes>2 <c f a>2 |
+	<d g bes>2 <e g c>2 |
+	<c f a>2 <cis e a>2 |
+	<f a d>2 <e g c>2 |
+% page 20.2
+	<d f bes>2 <c e a>2 |
+	<d g bes>2 <e a c>2 |
+	<f a d>4\staccato r4 r2 |
+% C
+	\barNumberCheck #19
+	r1 |
+	r1 |
+    }
+% page 20.3
+    R1*5 |
+    \clef bass
+    \relative {
+	\ottava #1 r2_"<Timpani>" r4 a16 a16 a8 |
+% D
+	\barNumberCheck #27
+	g1 \ottava #0 |
+    }
+    R1*2 |
+    \relative {
+	r2_"<Timpani>" r8 f,16 f16 f4 |
+% page 20.4
+	e2. e8 e16 e16 |
+	e1 |
+	a4. a8~ a4 a4 |
+	r8 a4. a4 a4 |
+% E
+	\barNumberCheck #35
+	d1 |
+    }
+% page 21
+    r1 | r1 | r1 | r1 | r1 |
+% page 21.1
+    r1 | r1 | r1 |
+% F
+    \barNumberCheck #44
+    r1 | r1 |
+% page 21.2
+    r1 | r1 | r1 | r1 | r1 |
+% page 21.3
+    r1 |
+% 1x ending
+    r1 | r1 | r1 | r1 |
+% page 21.4
+    \clef treble
+    \relative {
+	<d' f a>2_"<Organ>" <c e g>2 |
+	<bes d f>2 <a c e>2 |
+	<bes d f>2 <c e g>2 |
+	<d f a>4\staccato r4 r2 |
+    }
+% C-2x
+    \barNumberCheck #60
+    r1 | r1 |
+% page 20.3-2x
+    R1*5 |
+    \clef bass
+    \relative {
+	\ottava #1 r2_"<Timpani>" r4 a16 a16 a8 |
+% D-2x
+	\barNumberCheck #68
+	g1 \ottava #0 |
+    }
+    R1*2 |
+    \relative {
+	r2_"<Timpani>" r8 f,16 f16 f4 |
+% page 20.4-2x
+	e2. e8 e16 e16 |
+	e1 |
+	a4. a8~ a4 a4 |
+	r8 a4. a4 a4 |
+% E-2x
+	\barNumberCheck #76
+	d1 |
+    }
+% page 21-2x
+    r1 | r1 | r1 | r1 | r1 |
+% page 21.1-2x
+    r1 | r1 | r1 |
+% F-2x
+    \barNumberCheck #85
+    r1 | r1 |
+% page 21.2-2x
+    r1 | r1 | r1 | r1 | r1 |
+% page 21.3-2x
+    r1 |
+% page 21.4-2x
+    \clef treble
+    \relative {
+	e'''8_"<Organ>" a,8 b8 d8 g,8 a8 c8 f,8 |
+    }
+% page 22
+    \relative {
+	g''8 bes8 ees,8 f8 a,8 cis8 e8 g8 |
+% G
+	\barNumberCheck #95
+	<f a d>2 <e g c>2 |
+	<d f bes>2 <c f a>2 |
+	<bes d g>2 <c e g>2 |
+	<c f a>2 <cis e a>2 |
+% page 22.1
+	<f a d>2 <e g c>2 |
+	<d f bes>2 <c f a>2 |
+	<bes d g>2 <c e a>2 |
+	<f a d>4 <e g c>4 <d f bes>4 <cis e a>4 |
+% H
+	\barNumberCheck #103
+	\repeat percent 3 {
+	    a'16 f16 d16 f16 bes16 f16 d16 f16 g16 e16 c16 e16 a16 e16 c16 e16 |
+% page 22.2
+	    f16 d16 bes16 d16 g16 d16 bes16 d16 e16 a,16 cis16 e16 g16 e16 cis16 a16 |
+	}
+% page 22.3
+	\ottava #1 a''16 f16 d16 f16 g4\staccato f8 \tuplet 3/2 { e16 f16 e16 } c4 |
+	e16 f16 e16 d16 c16 bes16 a16 g16 a4 r4 \ottava #0 |
+% I
+	\barNumberCheck #111
+	r1 | r1 | r1 | r1 |
+% page 22.4
+	r1 | r1 | r1 | r1 |
+% J
+	\barNumberCheck #119
+	r1 | r1 |
+    }
+% page 23
+    r1 | r1 | r1 | r1 |
+% K
+    \barNumberCheck #125
+    \clef bass
+    r1 |
+% page 23.1
+    \relative {
+	r2 r8 c,16 c16 c4 |
+	r2 r4 r8 f8 |
+	r8 f8 f4 f4 c4 |
+	r1 | r1 |
+% page 23.2
+	r1 | r1 |
+% L
+	\barNumberCheck #133
+	r1 | r1 | r1 |
+% page 23.3
+	r1 | r1 | r1 | r1 | r1 |
+% page 23.4
+	r1 | r1 | r1 | r1 |
+% M
+	\barNumberCheck #145
+    }
+    \clef treble
+    \relative {
+	<g' b e>2_"<Organ>" <fis a d>2 |
+    }
+% page 24
+    \relative {
+	<e' g c>2 <d g b>2 |
+	<e a c>2 <fis a d>2 |
+	<d g b>2 <dis fis b>2 |
+	<g b e>2 <fis a d>2 |
+	<e g c>2 <d fis b>2 |
+% page 24.1
+	<e a c>2 <fis b d>2 |
+	\repeat percent 3 {
+	    <g b e>4 r8 <g b e>8~ <g b e>4 <fis b dis>4 |
+	}
+	<g b e>2 r2 |
+    }
+    \barNumberCheck #156
+}

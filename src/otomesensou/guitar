@@ -1,0 +1,467 @@
+guitarPart = {
+% page 82 A
+    \barNumberCheck #1
+    \relative {
+	<e' b'>4\chordBendAfterG #-2 r4 r4 r8 d'8 |
+	e4\staccato g4^"Q.C" r8 d8 |
+	e4\staccato a4 ais4 |
+	\acciaccatura b8 c1\startTrillSpan( |
+	b2.\stopTrillSpan) r4 |
+    }
+% page 83 B
+    \barNumberCheck #6
+    \relative {
+	<e b'>1 |
+	<g d'>1 |
+	<a e'>1 |
+	b8^"M" b8^"M" <b fis'>4 b8^"M" b8^"M" <b fis'>4 |
+    }
+% page 83.1
+    \relative {
+	<e b'>1 |
+	<g d'>1 |
+	<a e'>1 |
+    }
+% 1x ending
+    \relative {
+	<d' a'>4\staccato <g, d'>4\staccato <e b'>4\staccato \deadNote e'4\bendAfterG #-3 |
+    }
+% page 83 B-2x
+    \barNumberCheck #14
+    \relative {
+	<e b'>1 |
+	<g d'>1 |
+	<a e'>1 |
+	b8^"M" b8^"M" <b fis'>4 b8^"M" b8^"M" <b fis'>4 |
+    }
+% page 83.1-2x
+    \relative {
+	<e b'>1 |
+	<g d'>1 |
+	<a e'>1 |
+    }
+% page 84
+    \relative {
+	b4\bendAfterG #-3 r4 r4 r8 a8 |
+	b2\bendAfterG #-3 r4 r8 a'8 |
+	b4~\startTrillSpan b4\bendAfter #-3 \stopTrillSpan r2 |
+	<e, b'>4~ <e b'>4\chordBendAfterG #-2 r4 r8 b8~ |
+	b8 d8 b8 d8 bes8 a8 g4 |
+    }
+% page 84.1 C
+    \barNumberCheck #26
+    \relative {
+	e8 r8 r4 r2 |
+	r1 |
+	e'8 b8 d8 e8~ e8 b8 d8 e8 |
+	r8 e8 r8 <g, d'>8 r8 <g d'>8 r8 <gis dis'>8 |
+    }
+% page 85
+    \relative {
+	<a e'>8 <g d'>8 <a g'>4\staccato r2 |
+	a'8 g8 a8 cis8 r8 a8 r8 \deadNote e8 |
+	<a, e'>4\chordBendAfterG #-2 r8 \deadNote \tweak font-size #6 g'8 \deadNote \tweak font-size #6 g8 <a, e'>8 r8 a8^"M" |
+	<a e'>4\chordBendAfterG #-2 r8 \deadNote \tweak font-size #6 g'8 \deadNote \tweak font-size #6 g8 a8^\markup \ellipse "Ph" a,8^"M" a8^"M" |
+    }
+% page 85.1
+    \relative {
+	<a e'>4\chordBendAfterG #-2 r8 \deadNote \tweak font-size #6 g'8 \deadNote \tweak font-size #6 g8 <a, e'>8 r4 |
+	<b fis'>4\staccato <b fis'>4\staccato <b fis'>4\staccato <b fis'>4\staccato |
+	<b fis'>4 r4 r2 |
+    }
+% page 86 D Segno
+    \barNumberCheck #37
+    \relative {
+	<b' d fis>1\arpeggio |
+	\repeat percent 2 {
+	    <a cis e>1\arpeggio |
+	}
+	<a d fis>1\arpeggio |
+    }
+% page 86.1
+    \relative {
+	<b' d fis>1\arpeggio |
+	<a cis e>1\arpeggio |
+	<a d fis>2.\arpeggio g'4\bendBeforeG #-2 |
+	fis4. d8~ d2 |
+    }
+% page 87
+    \relative {
+	g'8^"┌─Arp.→" b8 d8 fis8~ fis2 |
+	<g, cis e>1\arpeggio |
+	fis8 a8 cis8 e8~ e2 |
+	<a, d fis>1\arpeggio |
+    }
+% page 87.1
+    \relative {
+	g'8 b8 d8 fis8~ fis2 |
+	<g, cis e>1\arpeggio |
+	<d a' d g>1\arpeggio |
+	<d a' d fis>1 |
+    }
+% page 88 E
+    \barNumberCheck #53
+    \relative {
+	\repeat percent 2 {
+	    c'1~ |
+	    c2. b4 |
+	    a1 |
+	    g1 |
+	}
+    }
+% page 89
+    \relative {
+	g1~ |
+	g1 |
+    }
+% F
+    \barNumberCheck #63
+    \relative {
+	\repeat percent 2 {
+	    a8^"M" a8^"M" <a e'>8 a8^"M" a8^"M" <a e'>8 a^"M" a^"M" |
+	}
+    }
+% page 89.1
+    \relative {
+	\repeat percent 2 {
+	    e'8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" |
+	}
+	fis8 fis8 a8 a8 fis8 fis8 a8 a8 |
+	fis8 fis8 a8 a8 fis8 fis8 a8 fis8 |
+    }
+% page 90
+    \relative {
+	<fis' cis'>4\chordBendAfterG #-3 r8 <fis, cis'>8\staccato r4 <fis cis'>4\staccato |
+	r8 <fis cis'>8\staccato r4 <fis cis'>4\staccato g8 a8 |
+	<b fis'>2 r4 <c g'>8 <b fis'>8 |
+	r1 |
+    }
+% page 90.1 G
+    \barNumberCheck #73
+    \relative {
+	e'8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" |
+	e8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" <e b'>4.\chordBendAfterG #-3 |
+	a,8^"M" a8^"M" <a e'>8 a8^"M" a8^"M" <a e'>8 a8^"M" a8^"M" |
+	a8^"M" a8^"M" <a e'>8 a8^"M" a8^"M" <a e'>4.\chordBendAfterG #-3 |
+    }
+% page 91
+    \relative {
+	d'8^"M" d8^"M" <d a'>8 d8^"M" d8^"M" <d a'>8 d8^"M" d8^"M" |
+	d8^"M" d8^"M" <d a'>8 d8^"M" d8^"M" <d a'>4. |
+	g,8^"M" g8^"M" <g d'>8 g8^"M" r8 d'4.^\markup \ellipse "Ph" |
+	b8^"M" b8^"M" <b fis'>8 d8^"M" b'8 d,8^"M" b'8 d,8^"M" |
+    }
+% page 91.1
+    \relative {
+	e'8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" |
+	e8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" <e b'>4.\chordBendAfterG #-2 |
+	a,8^"M" a8^"M" <a e'>8 a8^"M" a8^"M" <a e'>8 a8^"M" a8^"M" |
+	a8^"M" a8^"M" <a e'>8 a8^"M" a8^"M" <a e'>4.\chordBendAfterG #-2 |
+	r8 c8 b4\staccato r8 e8 dis4\staccato |
+    }
+% page 92
+    \relative {
+	r8 g'8 fis4\staccato r2 |
+    }
+% H
+    \barNumberCheck #87
+    \relative {
+	<e b'>1 |
+	<g d'>1 |
+	<a e'>1 |
+    }
+% page 92.1
+    \relative {
+	b8^"M" b8^"M" b'4 b,8^"M" b8^"M" b'4 |
+	<e,, b'>1 |
+	<g d'>1 |
+	<a e'>2. <a e'>8 <ais eis'>8 |
+    }
+% page 93
+    \relative {
+	<b fis'>4\chordBendAfterG #-2 r4 r4 r8 a8 |
+	b2\bendAfterG #-3 r4 r8 a'8 |
+	b4\startTrillSpan~ b4\stopTrillSpan\bendAfterG #-3 r2 |
+	<e, b'>2 r4 r8 b'8~\bendBeforeG #-2 |
+	b8 d8 b8 d8 bes8 a8 g4 |
+    }
+% page 93.1 I
+    \barNumberCheck #99
+    \relative {
+	<e' b'>4\chordBendAfterG #-2 r4 r2 |
+	r1 | r1 |
+	r4 r8 g8^"M" r8 g8^"M" r8 gis8^"M" |
+    }
+% page 94
+    \relative {
+	a'8^"M" g8^"M" a4^"M" <dis gis>16(^\markup { \hspace #1 "S" } <e a>8) <e a>16 r4 |
+	cis8^"M" a8^"M" aes8^"M" g8^"M" r8 a8^"M" r4 |
+	<a, e'>4\chordBendAfterG #-2 r4 r8 \deadNote g'8 r8 a,8^"M" |
+	a4^"M" a4^"M" a4^"M" a8^"M" a8^"M" |
+    }
+% page 94.1
+    \relative {
+	a4^"M" a4^"M" r4 a8^"M" ais8^"M" |
+	\repeat unfold 4 <b fis'>4\staccato |
+	<b fis'>4\chordBendAfterG #-2 r4 r2 |
+    }
+% page 86 D Segno-2x
+    \barNumberCheck #110
+    \relative {
+	<b' d fis>1\arpeggio |
+	\repeat percent 2 {
+	    <a cis e>1\arpeggio |
+	}
+	<a d fis>1\arpeggio |
+    }
+% page 86.1-2x
+    \relative {
+	g'8^"┌─Arp.→" b8 d8 fis8~ fis2^"─┐" |
+	<a, cis e>1\arpeggio |
+	<d, a' d>1\arpeggio~ |
+	<d a' d>1 |
+    }
+% page 87-2x
+    \relative {
+	g'8^"┌─Arp.→" b8 d8 fis8~ fis2 |
+	<g, cis e>1\arpeggio |
+	fis8 cis'8 e8 c'8~ c4 a4 |
+	b2 a2 |
+    }
+% page 87.1-2x
+    \relative {
+	g'8 b8 d8 fis8~ fis4 d4 |
+	<g, cis e>4.\arpeggio a'8~ a4 g4 |
+	<d, a' d g>1\arpeggio |
+	<d a' d fis>1 |
+    }
+% page 88 E-2x
+    \barNumberCheck #126
+    \relative {
+	\repeat percent 2 {
+	    c'1~ |
+	    c2. b4 |
+	    a1 |
+	    g1 |
+	}
+    }
+% page 89-2x
+    \relative {
+	g1~ |
+	g1 |
+    }
+% F
+    \barNumberCheck #136
+    \relative {
+	\repeat percent 2 {
+	    a8^"M" a8^"M" <a e'>8 a8^"M" a8^"M" <a e'>8 a^"M" a^"M" |
+	}
+    }
+% page 89.1-2x
+    \relative {
+	\repeat percent 2 {
+	    e'8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" |
+	}
+	fis8 fis8 a8 a8 fis8 fis8 a8 a8 |
+	fis8 fis8 a8 a8 fis8 fis8 a8 fis8 |
+    }
+% page 90-2x
+    \relative {
+	<fis' cis'>4\chordBendAfterG #-3 r8 <fis, cis'>8\staccato r4 <fis cis'>4\staccato |
+	r8 <fis cis'>8\staccato r4 <fis cis'>4\staccato g8 a8 |
+	<b fis'>2 r4 <c g'>8 <b fis'>8 |
+	r1 |
+    }
+% page 90.1 G-2x
+    \barNumberCheck #146
+    \relative {
+	e'8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" |
+	e8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" <e b'>4.\chordBendAfterG #-3 |
+	a,8^"M" a8^"M" <a e'>8 a8^"M" a8^"M" <a e'>8 a8^"M" a8^"M" |
+	a8^"M" a8^"M" <a e'>8 a8^"M" a8^"M" <a e'>4.\chordBendAfterG #-3 |
+    }
+% page 91-2x
+    \relative {
+	d'8^"M" d8^"M" <d a'>8 d8^"M" d8^"M" <d a'>8 d8^"M" d8^"M" |
+	d8^"M" d8^"M" <d a'>8 d8^"M" d8^"M" <d a'>4. |
+	g,8^"M" g8^"M" <g d'>8 g8^"M" r8 d'4.^\markup \ellipse "Ph" |
+	\deadNote \tweak font-size #6 d'8 \deadNote \tweak font-size #6 d8 dis4\startTrillSpan b2\stopTrillSpan\bendAfterG #-4 |
+    }
+% page 91.1-2x
+    \relative {
+	e'8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" |
+	e8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" <e b'>4.\chordBendAfterG #-2 |
+	a,8^"M" a8^"M" <a e'>8 a8^"M" a8^"M" <a e'>8 a8^"M" a8^"M" |
+	a8^"M" a8^"M" <a e'>8 a8^"M" a8^"M" <a e'>4.\chordBendAfterG #-2 |
+	r8 c'8 b4\staccato r8 e8 dis4\staccato |
+    }
+% coda
+    \barNumberCheck #159
+    \relative {
+	r8 g''8 fis4\staccato r2 |
+    }
+% page 95 J
+    \barNumberCheck #160
+    \relative {
+	e''4. gis8\startTrillSpan~ gis2 |
+	fis4.\stopTrillSpan dis8\startTrillSpan~ dis2 |
+	b'2.\stopTrillSpan\startTrillSpan\bendBeforeG #-2 a4\stopTrillSpan  |
+	gis4 fis8 e8~\startTrillSpan e2 |
+    }
+% page 95.1
+    \relative {
+	cis''4.\stopTrillSpan a8~\bendBeforeG #2 a4 e'4 |
+	dis4. b'8~\startTrillSpan b2 |
+	gis4.\stopTrillSpan dis8~ dis4 e4 |
+	cis2~\startTrillSpan^\markup \ellipse "Ph" cis2\stopTrillSpan\bendAfterG #-8 |
+    }
+% page 96
+    \relative {
+	<a' e'>4. <cis gis'>8~\startTrillSpan <cis gis'>4. <cis e>8\stopTrillSpan |
+	<dis fis>4. <b dis>8~\startTrillSpan <b dis>2 |
+	<gis' b>2.\stopTrillSpan\startTrillSpan <fis a>4\stopTrillSpan |
+	<e gis>4 <dis fis>8 <cis e>8~\startTrillSpan <cis e>2 |
+    }
+% page 96.1
+    \relative {
+	<a' cis>4.\stopTrillSpan <e' gis>8~ <e gis>4 <cis e>4 |
+	<dis fis>4. <fis b>8~\startTrillSpan <fis b>2 |
+	gis4.\stopTrillSpan <gis dis'>8~ <gis dis'>4 <fis e'>4 |
+	<eis cis'>1~\startTrillSpan |
+	<eis cis'>1 |
+    }
+% page 97 K
+    \barNumberCheck #177
+    r1\stopTrillSpan | r1 | r1 | r1 |
+% page 97.1
+    r1 | r1 | r1 | r1 |
+% page 98
+    r1 | r1 | r1 | r1 |
+% page 98.1
+    r1 | r1 | r1 | r1 | r1 |
+% page 99 L
+    \barNumberCheck #194
+    \relative {
+	c'1~ |
+	c2. b4 |
+	a1 |
+	g1 |
+    }
+% page 99.1
+    \relative {
+	c'1~ |
+	c2. b4 |
+	a1 |
+	g1 |
+    }
+% start 1x
+% page 100
+    \relative {
+	g1 |
+    }
+% page 99 L-2x
+    \barNumberCheck #203
+    \relative {
+	c'1~ |
+	c2. b4 |
+	a1 |
+	g1 |
+    }
+% page 99.1-2x
+    \relative {
+	c'1~ |
+	c2. b4 |
+	a1 |
+	d'2.\startTrillSpan~ d4\stopTrillSpan\bendAfterG #-3 |
+    }
+% page 100-2x
+    \relative {
+	fis''4. g8~ g4 d4 |
+	fis4. g8~\startTrillSpan g4~ g4\stopTrillSpan\bendAfterG #-3 |
+    }
+% page 100.1 M
+    \barNumberCheck #213
+    \relative {
+	\repeat percent 2 {
+	    a8^"M" a8^"M" <a e'>8 a8^"M" a8^"M" <a e'>8 a8^"M" a8^"M" |
+	}
+	\repeat percent 2 {
+	    e'8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" |
+	}
+    }
+% page 101
+    \relative {
+	fis'8 fis8 a8 a8 fis8 fis8 a8 a8 |
+	fis8 fis8 a8 a8 fis8 fis8 a8 fis8 |
+	<fis cis'>4\chordBendAfterG #-2 r8 <fis, cis'>8\staccato r4 <fis cis'>4\staccato |
+	r8 <fis cis'>8\staccato r4 <fis cis'>4\staccato g8 a8 |
+    }
+% page 101.1
+    \relative {
+	<b fis'>2 r4 <c g'>8 <b fis'>8 |
+	r1 |
+	dis''8 dis4\bendAfterG #-3 r8 r8 b8\bendBeforeG #-2 e8 dis8~ |
+	dis4\bendAfterG #-3 r4 r2 |
+    }
+% page 102 N
+    \barNumberCheck #225
+    \relative {
+	e'8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" |
+	e8^"M" e8^"M" <e b'>8 e8^"M" e8^"M" <e b'>4.\chordBendAfterG #-2 |
+	a,8^"M" a8^"M" <a e'>8 a8^"M" a8^"M" <a e'>8 a8^"M" a8^"M" |
+	a8^"M" a8^"M" <a e'>8 a8^"M" a8^"M" <a e'>4.\chordBendAfterG #-2 |
+    }
+% page 102.1
+    \relative {
+	d'8^"M" d8^"M" <d a'>8 d8^"M" d8^"M" <d a'>8 d8^"M" d8^"M" |
+	d8^"M" d8^"M" <d a'>8 d8^"M" d8^"M" <d a'>4. |
+	b''2.\startTrillSpan b8\stopTrillSpan g8 |
+	dis'2\startTrillSpan~\bendBeforeG #-2 dis8 b8\stopTrillSpan dis4 |
+	e2.\startTrillSpan~ e4\stopTrillSpan\bendAfterG #-3 |
+    }
+% page 103
+    \relative {
+	e'''4.\startTrillSpan a,16\stopTrillSpan^\markup { \hspace #1 "S" }( g16) a16(^\markup { \hspace #1 "P" } g16) e8 g8 a8 |
+	\acciaccatura g8^"H" a2\startTrillSpan~ a8\stopTrillSpan g8 e16^\markup { \hspace #1 "S" }( d16) c8 |
+	a8 c8 a2~\startTrillSpan a4\stopTrillSpan\bendAfterG #-3 |
+	r8 c8 b4\staccato r8 e8 dis4\staccato |
+	r8 g8 fis4\staccato r2 |
+    }
+% page 103.1 O
+    \barNumberCheck #239
+    \relative {
+	<b'' e>1~\startTrillSpan |
+	<b e>1~ |
+	<b e>1 |
+	dis1\stopTrillSpan |
+    }
+% page 104
+    \relative {
+	e''1\startTrillSpan |
+	d4\stopTrillSpan b4~ b8 d4. |
+	cis4. a8~ a2 |
+	<d, a'>4\staccato <g, d'>4\staccato <e b'>4\staccato \deadNote e'4\bendAfterG #-3 |
+    }
+% page 104.1
+    \relative {
+	e'''1\startTrillSpan |
+	\ottava #1 b8\stopTrillSpan\bendBeforeG #-2 d8 g8 e8~ e8 d8 b8 d8 |
+	\acciaccatura b8^\markup { \hspace #1 "S" } cis4. a'8~\startTrillSpan a2 |
+	b4\stopTrillSpan \tuplet 3/2 { b8 a8 fis8 } \tuplet 3/2 { a8^"P"( fis8) dis8 } \tuplet 3/2 { b8 dis8( b)^"P" } |
+    }
+% page 105
+    \relative {
+	e'''2.\startTrillSpan~\bendBeforeG #-2 e4\stopTrillSpan\bendAfterG #-3 \ottava #0 |
+	d,4 b4~ b8(^\markup { \hspace #2 "S" } d8) d4 |
+	e4. a8\startTrillSpan~ a4~ a4\stopTrillSpan\bendAfterG #-3 |
+	b4^\markup \ellipse "Ph"\startTrillSpan~ b4\stopTrillSpan\bendAfterG #-3 r2 |
+    }
+% page 105.1
+    \relative {
+	\acciaccatura a''8^"C" b4\startTrillSpan r4\stopTrillSpan r2 |
+	dis4~\startTrillSpan dis4\stopTrillSpan\bendAfterG #-3 r2 |
+	\acciaccatura d8^"C" e4\startTrillSpan~ e4\stopTrillSpan\bendAfterG #-3 r2 |
+	r1 |
+    }
+    \barNumberCheck #259
+}

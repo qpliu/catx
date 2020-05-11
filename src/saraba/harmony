@@ -1,0 +1,236 @@
+harmonyPart = {
+% page 106 Intro.1
+    \barNumberCheck #1
+    r1 | r1 | r1 | r1 |
+% page 107
+    r1 | r1 | r1 | r1 |
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat
+    \barNumberCheck #9
+    r1 | r1 | r1 | r1 |
+% page 108
+    r1 | r1 | r1 |
+    r1 |
+% page 108.1 A
+    \barNumberCheck #17
+    r1 | r1 | r1 | r1 |
+% page 109
+    r1 | r1 |
+% ending1
+    r1 |
+% page 109.1
+    r1 |
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-2x
+    \barNumberCheck #25
+    r1 | r1 | r1 | r1 |
+% page 108-2x
+    r1 | r1 | r1 |
+% to Coda2
+    r1 |
+% to Coda3
+% page 108.1 A-2x
+    \barNumberCheck #33
+    r1 | r1 | r1 | r1 |
+% page 109-2x
+    r1 | r1 |
+% page 109.1
+    r1 | r1 |
+% page 110 B Stegno1
+    \barNumberCheck #41
+    r1 | r1 | r1 | r1 |
+% page 110.1
+    r1 | r1 | r1 | r1 |
+% page 111
+    r1 | r1 | r1 | r1 |
+% page 111.1 C
+    \barNumberCheck #53
+    r1 | r1 | r1 | r1 |
+% page 112
+    r1 | r1 | r1 | r1 |
+% page 112.1 D
+    \barNumberCheck #61
+    \relative {
+	r4 e' e8 fis g e |
+	a4 a a8 g fis e |
+	fis8 r d4 d8 e fis a, |
+	g'4 g g8 fis e dis |
+    }
+% page 113
+    \relative {
+	e'8 r c4 c8 d e c |
+	fis4 fis fis8 e d c |
+	e4 g fis e |
+	dis2. r4 |
+    }
+% page 113.1
+    \relative {
+	r4 e'4 e8 fis g e |
+	a4 a a8 g fis e |
+	fis8 r d4 d8 e fis a, |
+	g'4 g g8 fis e dis |
+    }
+% page 114
+    \relative {
+	e'8 r c4 c8 d e c |
+	fis8 r fis4 fis8 e d c |
+	e4 g fis e |
+	fis2 r4 e8 fis |
+    }
+% page 114.1
+    \relative {
+	g'4. fis8~ fis4 g |
+	fis4. g8~ g4 fis |
+	e1 |
+    }
+% to Coda1
+    r1 |
+% page 115 E
+    \barNumberCheck #81
+    r1 | r1 | r1 | r1 |
+% page 115.1 F
+    \barNumberCheck #85
+    r1 | r1 | r1 | r1 |
+% page 116
+    r1 | r1 | r1 | r1 |
+% page 116.1 G
+    \barNumberCheck #93
+    r1 |
+    \relative {
+	r8 c' e fis g g fis e |
+	fis1 |
+	r1 |
+    }
+% page 117
+    \relative {
+	c'1 |
+	r8 c e fis g g fis e |
+	fis2~ fis8 fis4 fis8 |
+	g1 |
+    }
+% page 117.1
+    r1 |
+    \relative {
+	r8 c' e fis g g fis e |
+	fis1 |
+	r8 b, e fis g g fis e |
+    }
+% page 118
+    \relative {
+	a'4. a8~ a2 |
+	r4 r8 g a g fis e |
+	fis2. a8 a~ |
+	a1 |
+    }
+% page 118.1 H
+    \barNumberCheck #109
+    r1 | r1 | r1 | r1 |
+% page 119
+    r1 | r1 | r1 | r1 |
+% page 119.1
+    r1 | r1 | r1 |
+% page 120
+    r1 | r1 | r1 |
+% page 120.1
+    r1 | r1 |
+% I
+    \barNumberCheck #125
+    r1 |
+% page 121
+    r1 | r1 | r1 |
+% page 121.1
+    r1 | r1 | r1 | r1 |
+% page 122
+    r1 | r1 | r1 | r1 |
+% page 122.1 J
+    \barNumberCheck #137
+    r1 | r1 | r1 | r1 |
+% page 123
+    r1 | r1 | r1 | r1 |
+% page 123.1
+    r1 | r1 |
+% D.S.1
+% page 110 B Stegno1-2x
+    \barNumberCheck #147
+    r1 | r1 | r1 | r1 |
+% page 110.1-2x
+    r1 | r1 | r1 | r1 |
+% page 111-2x
+    r1 | r1 | r1 | r1 |
+% page 111.1 C-2x
+    \barNumberCheck #159
+    r1 | r1 | r1 | r1 |
+% page 112-2x
+    r1 | r1 | r1 | r1 |
+% page 112.1 D-2x
+    \barNumberCheck #167
+    \relative {
+	r4 e' e8 fis g e |
+	a4 a a8 g fis e |
+	fis8 r d4 d8 e fis a, |
+	g'4 g g8 fis e dis |
+    }
+% page 113-2x
+    \relative {
+	e'8 r c4 c8 d e c |
+	fis4 fis fis8 e d c |
+	e4 g fis e |
+	dis2. r4 |
+    }
+% page 113.1-2x
+    \relative {
+	r4 e'4 e8 fis g e |
+	a4 a a8 g fis e |
+	fis8 r d4 d8 e fis a, |
+	g'4 g g8 fis e dis |
+    }
+% page 114-2x
+    \relative {
+	e'8 r c4 c8 d e c |
+	fis8 r fis4 fis8 e d c |
+	e4 g fis e |
+	fis2 r4 e8 fis |
+    }
+% page 114.1-2x
+    \relative {
+	g'4. fis8~ fis4 g |
+	fis4. g8~ g4 fis |
+	e1 |
+    }
+% to Coda1
+% page 123 Coda1
+    \barNumberCheck #186
+    r1 |
+% D.S.2
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-3x
+    \barNumberCheck #187
+    r1 | r1 | r1 | r1 |
+% page 108-3x
+    r1 | r1 | r1 |
+% to Coda2
+    \barNumberCheck #194
+% page 124 Coda2
+    \barNumberCheck #194
+    r1 |
+% D.S.3
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-4x
+    \barNumberCheck #195
+    \relative {
+	r2 fis'4 g |
+	r4 r8 fis~ fis g fis g |
+	r2 fis4 g |
+	r4 r8 fis8~ fis g fis g |
+    }
+% page 108-4x
+    \relative {
+	r2 fis'4 g |
+	r4 r8 fis~ fis g fis g |
+	r2 fis4 g |
+    }
+    r1 |
+% to Coda3
+% page 124 Coda3
+    \barNumberCheck #203
+    r1 | r1 |
+% page 124.1
+    r1 | r1 | r1 |
+    \barNumberCheck #208
+}

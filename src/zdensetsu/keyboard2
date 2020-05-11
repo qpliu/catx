@@ -1,0 +1,346 @@
+keyboardTwoPart = {
+% page 10
+    \barNumberCheck #1
+    r1 | r1 | r1 | r1 |
+% page 11 Intro Segno3
+    \barNumberCheck #5
+    \relative {
+	\repeat percent 3 {
+	    c'4\startInstrument "Brass" r8 c8~ c8 c8\staccato c8\staccato c8\staccato |
+	    ees4 d8 c8~ c4 r4 |
+	}
+    }
+% page 11.1+2
+    \relative {
+	\repeat percent 3 {
+	    <g g'>8 <bes bes'>4 <g g'>8 <bes bes'>4 <g g'>8 <bes bes'>8~ |
+	    <bes bes'>8 <g g'>8 <bes bes'>4 <g g'>8 <bes bes'>4 <b b'>8 |
+	}
+    }
+% to Coda 3+1
+% page 12.1 A
+    \barNumberCheck #17
+    \relative {
+	c''4 r4 r2 |
+    }
+    r1 | r1 | r1 |
+% page 13
+    \relative {
+	\ottava #-1 <c c'>4. <ees ees'>8~ <ees ees'>2 |
+	<f f'>4. <g g'>8~ <g g'>2 |
+	<c, c'>4. <ees ees'>8~ <ees ees'>2 |
+	r4 <f f'>4\staccato <g g'>4\staccato r4 |
+    }
+% page 13.1
+    \relative {
+	<c c'>4\staccato r4 r2 |
+	r1 |
+	<c c'>4\staccato r4 r2 |
+	<c c'>4\staccato <c c'>4\staccato <c c'>4\staccato r4 |
+    }
+% page 14
+    \relative {
+	<c c'>4. <ees ees'>8~ <ees ees'>2 |
+	<f f'>4. <g g'>8~ <g g'>2 |
+	<c, c'>4. <ees ees'>8~ <ees ees'>2 |
+	\ottava #0 r4 <f f'>4\staccato <g g'>4\staccato r4 |
+    }
+% page 14.1 B
+    \barNumberCheck #33
+    r1 | r1 | r1 | r1 |
+% page 15
+    \relative {
+	<c' c'>4\staccato <c c'>8 <ees ees'>8 r8 <ees ees'>8 <ees ees'>8 <ees ees'>8 |
+	<f f'>4\staccato <f f'>8 <g g'>8 r8 <g g'>8 <g g'>8 <g g'>8 |
+	<c, c'>4\staccato <c c'>8 <ees ees'>8 r8 <ees ees'>8 <ees ees'>8 <ees ees'>8 |
+	r4 <f f'>4\staccato <g g'>4\staccato r4 |
+    }
+% page 15.1
+    r1 | r1 | r1 | r1 |
+% page 16
+    \relative {
+	<c' c'>4\staccato <c c'>8 <ees ees'>8 r8 <ees ees'>8 <ees ees'>8 <ees ees'>8 |
+	<f f'>4\staccato <f f'>8 <g g'>8 r8 <g g'>8 <g g'>8 <g g'>8 |
+	<c, c'>4\staccato <c c'>8 <ees ees'>8 r8 <ees ees'>8 <ees ees'>8 <ees ees'>8 |
+	r4 <f f'>4\staccato <g g'>4\staccato r4 |
+    }
+% page 16.1
+    \relative {
+	<d' d'>4\staccato r4 r2 |
+	r1 |
+	g,8 g'4 g,8 g'4 g,8 g'8~ |
+	g8 g,8 g'4 g,4 g'4 |
+    }
+% page 17
+    \relative {
+	\ottava #-1 <c c'>2 <bes bes'>2 |
+	<aes aes'>2 <g g'>2 |
+	<f f'>4 <g g'>4 <g g'>4 <g g'>8 <c c'>8~ |
+	<c c'>2 \ottava #0 r2 |
+    }
+% page 17.1 C Stegno1
+    \barNumberCheck #57
+    \relative {
+	aes4. bes8 c8 d8 ees8 f8 |
+	g2. r4 |
+	f,4. g8 aes8 bes8 c8 d8 |
+	ees2. r4 |
+    }
+% page 18
+    \relative {
+	aes4. bes8 c8 d8 ees8 f8 |
+	g2. r4 |
+	\ottava #-1 <d, d'>4. <fis fis'>8~ <fis fis'>4 <a, a'>4~ |
+	<a a'>8 <d d'>4. <a a'>4 <fis' fis'>4 |
+    }
+% page 18.1
+    \relative {
+	<g, g'>2. <g g'>8 <g g'>8~ |
+	<g g'>2. \ottava #0 r4 |
+	r1 |
+    }
+% page 19 D Stegno2
+    \barNumberCheck #68
+    \relative {
+	\ottava #-1 <e e'>4. <a, a'>8~ <a a'>4 r4 |
+	<d d'>4. <g, g'>8~ <g g'>4 r4 |
+	<c c'>4. <d d'>8~ <d d'>4 r4 |
+    }
+% page 19.1
+    \relative {
+	<g, g'>4. <g g'>8~ <g g'>8 <g g'>8 <g g'>4 \ottava #0 |
+	<b' e>2.. <b dis>8~ |
+	<b dis>1 |
+    }
+% page 20
+    \relative {
+	<b e g>2.. <b e gis>8~ |
+	<b e gis>4 <b e a>4 <b e b'>4 <b e gis>4 |
+	\ottava #-1 <a, a'>2.. <d d'>8~ |
+    }
+% page 20.1
+    \relative {
+	<d d'>1 |
+	<g, g'>2 <b b'>4. <c c'>8~ |
+	<c c'>1 |
+    }
+    \ottava #0 % assume writer forgot
+% page 21
+    r1 | r1 | r1 | r1 |
+% page 21.1 E
+    \barNumberCheck #84
+    r1 | r1 | r1 | r1 |
+% page 22
+    \relative {
+	<a' cis fis>4. <cis fis a>8~ <cis fis a>4\staccato <a cis fis>4~ |
+	<a cis fis>8 <cis fis a>4. <a cis fis>4 <cis fis a>4 |
+	<e fis b>1 |
+	<dis fis b>1 |
+    }
+% page 22.1
+    \relative {
+	r2 <b' d g>2~ |
+    }
+% to Coda 1,2
+    \relative {
+	<b' d g>1 |
+	r1 | r1 |
+    }
+% page 23 F
+    \barNumberCheck #96
+    r1 | r1 | r1 | r1 |
+% page 23.1
+    r1 | r1 | r1 | r1 |
+% page 24
+    r1 | r1 | r1 | r1 | r1 |
+% page 24.1
+    r1 | r1 | r1 | r1 | r1 |
+% page 25 G
+    \barNumberCheck #114
+    r1 | r1 | r1 | r1 |
+% page 25.1
+    r1 | r1 | r1 | r1 | r1 |
+% page 26 H
+    \barNumberCheck #123
+    r1 | r1 | r1 | r1 |
+% page 26.1
+    r1 | r1 | r1 | r1 |
+% page 27
+    r1 | r1 | r1 | r1 |
+% page 27.1
+    r1 | r1 | r1 | r1 |
+% D.S.1
+% page 17.1 C Stegno1-2x
+    \barNumberCheck #139
+    \relative {
+	aes4. bes8 c8 d8 ees8 f8 |
+	g2. r4 |
+	f,4. g8 aes8 bes8 c8 d8 |
+	ees2. r4 |
+    }
+% page 18-2x
+    \relative {
+	aes4. bes8 c8 d8 ees8 f8 |
+	g2. r4 |
+	\ottava #-1 <d, d'>4. <fis fis'>8~ <fis fis'>4 <a, a'>4~ |
+	<a a'>8 <d d'>4. <a a'>4 <fis' fis'>4 |
+    }
+% page 18.1-2x
+    \relative {
+	<g, g'>2. <g g'>8 <g g'>8~ |
+	<g g'>2. \ottava #0 r4 |
+	r1 |
+    }
+% page 19 D Stegno2-2x
+    \barNumberCheck #150
+    \relative {
+	<b d g>4. <a c e>8 r2 |
+	<a d fis>4. <b d g>8 r2 |
+	<c e g>4. <d fis a>8 r2 |
+    }
+% page 19.1-2x
+    \relative {
+	<b d g>4. <b d g>8 r2 |
+	<b e>2.. <b dis>8~ |
+	<b dis>1 |
+    }
+% page 20-2x
+    \relative {
+	<b e g>2.. <b e gis>8~ |
+	<b e gis>4 <b e a>4 <b e b'>4 <b e gis>4 |
+	\ottava #-1 <a, a'>2.. <d d'>8~ |
+    }
+% page 20.1-2x
+    \relative {
+	<d d'>1 |
+	<g, g'>2 <b b'>4. <c c'>8~ |
+	<c c'>1 |
+    }
+    \ottava #0 % assume writer forgot
+% page 21-2x
+    r1 | r1 | r1 | r1 |
+% page 21.1 E-2x
+    \barNumberCheck #166
+    r1 | r1 | r1 | r1 |
+% page 22-2x
+    \relative {
+	<a' cis fis>4. <cis fis a>8~ <cis fis a>4\staccato <a cis fis>4~ |
+	<a cis fis>8 <cis fis a>4. <a cis fis>4 <cis fis a>4 |
+	<e fis b>1 |
+	<dis fis b>1 |
+    }
+% page 22.1-2x
+    \relative {
+	r2 <b' d g>2 |
+    }
+% page28 Coda 1
+    \barNumberCheck #175
+    r1 |
+% I
+    \barNumberCheck #176
+    \relative {
+	e'8 d8 e8 d8~ d4 r4 |
+	d8 c8 d8 c8~ c4 r4 |
+	c8 b8 c8 b8~ b8 c8 d8 g8 |
+	b,4. b8~ b4 r4 |
+    }
+% page28.1
+    \relative {
+	e'8 d8 e8 d8 e8 d8 r8 e8~ |
+	e4 d4 c4 d4 |
+	e4 e8 e8 r8 f8 r8 <e a>8~ |
+	<e a>1 |
+    }
+% page29
+    \relative {
+	<d d'>2.. <g g'>8~ |
+	<g g'>1 |
+	<c, c'>2 <e e'>4. <f f'>8~ |
+	<f f'>1 |
+    }
+% page29.1
+    r1 | r1 |
+    \relative {
+	<b a'>2.. <b g'>8~ |
+	<b g'>1 |
+    }
+% page30 J
+    \barNumberCheck #192
+    r1 | r1 | r1 | r1 | r1 |
+% page30.1
+    r1 |
+% D.S.2
+% page 19 D Stegno2-3x
+    \barNumberCheck #198
+    \relative {
+	\ottava #-1 <e e'>4. <a, a'>8~ <a a'>4 r4 |
+	<d d'>4. <g, g'>8~ <g g'>4 r4 |
+	<c c'>4. <d d'>8~ <d d'>4 r4 |
+    }
+% page 19.1-3x
+    \relative {
+	<g, g'>4. <g g'>8~ <g g'>8 <g g'>8 <g g'>4 \ottava #0 |
+	<b' e>2.. <b dis>8~ |
+	<b dis>1 |
+    }
+% page 20-3x
+    \relative {
+	<b e g>2.. <b e gis>8~ |
+	<b e gis>4 <b e a>4 <b e b'>4 <b e gis>4 |
+	\ottava #-1 <a, a'>2.. <d d'>8~ |
+    }
+% page 20.1-3x
+    \relative {
+	<d d'>1 |
+	<g, g'>2 <b b'>4. <c c'>8~ |
+	<c c'>1 |
+    }
+    \ottava #0 % assume writer forgot
+% page 21-3x
+    r1 | r1 | r1 | r1 |
+% page 21.1 E-3x
+    \barNumberCheck #214
+    r1 | r1 | r1 | r1 |
+% page 22-3x
+    \relative {
+	<a' cis fis>4. <cis fis a>8~ <cis fis a>4\staccato <a cis fis>4~ |
+	<a cis fis>8 <cis fis a>4. <a cis fis>4 <cis fis a>4 |
+	<e fis b>1 |
+	<dis fis b>1 |
+    }
+% page 22.1-3x
+    \relative {
+	r2 <b' d g>2~ |
+    }
+% page30 Coda 2
+    \barNumberCheck #223
+    \relative {
+	<b' d g>1 |
+    }
+% D.S.3
+% page 11 Intro Segno3-2x
+    \barNumberCheck #224
+    \relative {
+	\repeat percent 3 {
+	    c'4 r8 c8~ c8 c8\staccato c8\staccato c8\staccato |
+	    ees4 d8 c8~ c4 r4 |
+	}
+    }
+% page 11.1+2-2x
+    \relative {
+	\repeat percent 2 {
+	    <g g'>8 <bes bes'>4 <g g'>8 <bes bes'>4 <g g'>8 <bes bes'>8~ |
+	    <bes bes'>8 <g g'>8 <bes bes'>4 <g g'>8 <bes bes'>4 <b b'>8 |
+	}
+	<g g'>8 <bes bes'>4 <g g'>8 <bes bes'>4 <g g'>8 <bes bes'>8~ |
+    }
+    \barNumberCheck #235
+% to Coda 3
+% page30 Coda 3
+    \barNumberCheck #235
+    \relative {
+	<bes bes'>8 <g g'>8 <bes bes'>4 \tuplet 3/2 { <g g'>4 <bes bes'>4 <b bes'>4 } |
+	<c c'>2 r2 |
+    }
+    \barNumberCheck #237
+}

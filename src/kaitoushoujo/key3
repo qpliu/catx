@@ -1,0 +1,281 @@
+keyThreePart = {
+    \compressFullBarRests
+    \override Glissando.style = #'zigzag
+% page 20
+    r1 |
+% A
+    \barNumberCheck #2
+    R1*3 |
+    r1 | r1 | r1 |
+    \clef bass
+    \relative {
+	f,8._"<Brass Sect.2>" f'16 r8 bes,~ bes16 bes' r8 e,4~ |
+	e2 d16 ees r e r g r a |
+    }
+    \clef treble
+% page 20.1 B
+    \barNumberCheck #10
+    R1*8 |
+% C
+    \barNumberCheck #18
+    R1*7 |
+    \relative {
+	\afterGrace f1_"<Harp>"\glissando { \hideNotes cis'''128 \unHideNotes } |
+    }
+% D Stegno1
+    \barNumberCheck #26
+    \relative {
+	d'8_"<Harp>" f a d g,, d' g b |
+	c,8 e g c f,, c' f a |
+	b,8 d f a e gis b e |
+	r1 |
+    }
+% page 20.2
+    \relative {
+	d'8 f a d g,, g' b d |
+	c,8 e g c f,, f' a c |
+	b,8 d f a d f a f |
+	e8 gis, b e gis b d f |
+	e4 r r2 |
+    }
+% page 20.3 E Stegno2
+    \barNumberCheck #35
+    \relative {
+	<bes ees>16_"<Seq.>" <bes ees> <ees ges> <bes ees> \repeat unfold 3 { <bes ees>16 <bes ees> <ees ges> <bes ees> } |
+	\repeat unfold 4 { <ces ees>16 <ces ees> <ees ges> <ces ees> } |
+	\repeat unfold 4 { <aes des>16 <aes des> <des f> <aes des> } |
+    }
+% page 20.4
+    \relative {
+	\repeat unfold 2 { <des' ges>16 <des ges> <ges bes> <des ges> } \repeat unfold 2 { <des f> <des f> <f aes> <des f> } |
+	\repeat unfold 4 { <bes ees>16 <bes ees> <ees ges> <bes ees> } |
+	\repeat unfold 4 { <ces ees>16 <ces ees> <ees ges> <ces ees> } |
+    }
+% page 20.5
+    \relative {
+	\repeat unfold 4 { <aes des>16 <aes des> <des f> <aes des> } |
+    }
+    \relative {
+	<bes bes'>8\staccato_"<Pizzicato Strings>" <d d'>\staccato <f f'>\staccato <bes bes'>\staccato \ottava #1 <d d'>\staccato <f f'>\staccato <bes bes'>\staccato <d d'>\staccato \ottava #0 |
+    }
+    \relative {
+	r2_"<Seq.>" \repeat unfold 8 <ees' ges>16 |
+    }
+% page 20.6
+    \relative {
+	\repeat unfold 4 { <ces' ees>16 <ces ees> <ees ges> <ces ees> } |
+	\repeat unfold 4 { <aes des>16 <aes des> <des f> <aes des> } |
+	\repeat unfold 2 { <des ges>16 <des ges> <ges bes> <des ges> } \repeat unfold 2 { <des f>16 <des f> <f aes> <des f> } |
+    }
+% page 21
+    \relative {
+	\repeat unfold 4 { <bes ees>16 <bes ees> <ees ges> <bes ees> } |
+	\repeat unfold 4 { <ces ees>16 <ces ees> <ees ges> <ces ees> } |
+	\repeat unfold 4 { <aes des>16 <aes des> <des f> <aes des> } |
+    }
+% to Coda1,2
+    \relative {
+	r8 \deadNote aes4._"<Harp>"\glissando( \afterGrace { \deadNote aes'2)\glissando } { \hideNotes cis'128 \unHideNotes } |
+    }
+% page 21.1 F
+    \barNumberCheck #51
+    R1*4 |
+% G
+    \barNumberCheck #55
+    R1*7 |
+    \relative {
+	\afterGrace f1_"<Harp>"\glissando { \hideNotes cis'''128 \unHideNotes } |
+    }
+% D.S.1
+% D Stegno1-2x
+    \barNumberCheck #63
+    \relative {
+	d'8_"<Harp>" f a d g,, d' g b |
+	c,8 e g c f,, c' f a |
+	b,8 d f a e gis b e |
+	r1 |
+    }
+% page 20.2-2x
+    \relative {
+	d'8 f a d g,, g' b d |
+	c,8 e g c f,, f' a c |
+	b,8 d f a d f a f |
+	e8 gis, b e gis b d f |
+	e4 r r2 |
+    }
+% page 20.3 E Stegno2-2x
+    \barNumberCheck #72
+    \relative {
+	<bes ees>16_"<Seq.>" <bes ees> <ees ges> <bes ees> \repeat unfold 3 { <bes ees>16 <bes ees> <ees ges> <bes ees> } |
+	\repeat unfold 4 { <ces ees>16 <ces ees> <ees ges> <ces ees> } |
+	\repeat unfold 4 { <aes des>16 <aes des> <des f> <aes des> } |
+    }
+% page 20.4-2x
+    \relative {
+	\repeat unfold 2 { <des' ges>16 <des ges> <ges bes> <des ges> } \repeat unfold 2 { <des f> <des f> <f aes> <des f> } |
+	\repeat unfold 4 { <bes ees>16 <bes ees> <ees ges> <bes ees> } |
+	\repeat unfold 4 { <ces ees>16 <ces ees> <ees ges> <ces ees> } |
+    }
+% page 20.5-2x
+    \relative {
+	\repeat unfold 4 { <aes des>16 <aes des> <des f> <aes des> } |
+    }
+    \relative {
+	<bes bes'>8\staccato_"<Pizzicato Strings>" <d d'>\staccato <f f'>\staccato <bes bes'>\staccato \ottava #1 <d d'>\staccato <f f'>\staccato <bes bes'>\staccato <d d'>\staccato \ottava #0 |
+    }
+    \relative {
+	r2_"<Seq.>" \repeat unfold 8 <ees' ges>16 |
+    }
+% page 20.6-2x
+    \relative {
+	\repeat unfold 4 { <ces' ees>16 <ces ees> <ees ges> <ces ees> } |
+	\repeat unfold 4 { <aes des>16 <aes des> <des f> <aes des> } |
+	\repeat unfold 2 { <des ges>16 <des ges> <ges bes> <des ges> } \repeat unfold 2 { <des f>16 <des f> <f aes> <des f> } |
+    }
+% page 21-2x
+    \relative {
+	\repeat unfold 4 { <bes ees>16 <bes ees> <ees ges> <bes ees> } |
+	\repeat unfold 4 { <ces ees>16 <ces ees> <ees ges> <ces ees> } |
+	\repeat unfold 4 { <aes des>16 <aes des> <des f> <aes des> } |
+    }
+% to Coda1,2
+% page 21.1 Coda1
+    \barNumberCheck #87
+    \relative {
+	r8 \deadNote aes4._"<Harp>"\glissando( \afterGrace { \deadNote aes'2)\glissando } { \hideNotes cis'128 \unHideNotes } |
+    }
+% H
+    \barNumberCheck #88
+    R1*3 |
+% page 21.2
+    \relative {
+	fis'16_"<Poly Synth.2>" gis a b gis a b cis d b cis d e cis d e |
+    }
+% I
+    \barNumberCheck #92
+    \relative {
+	fis''2 r |
+    }
+    r1 | r1 | r1 |
+% page 21.3
+    r1 | r1 | r1 |
+    \relative {
+	a16_"<Synth.Organ>" b cis d b cis d e cis d e fis d e fis gis |
+	a2 b~ |
+    }
+% page 21.4
+    \relative {
+	b'8. a16~ a8 gis a2 |
+	fis8. gis16~ gis8 a gis8. a16~ a8 b |
+	d4. cis16 b cis2 |
+	d8\staccato d\staccato d\staccato b~ b cis d b |
+	eis2 a,8. b16~ b8 cis |
+    }
+% page 21.5
+    \relative {
+	d''8. cis16~ cis8 b a8. gis16~ gis8 a |
+	a1 |
+    }
+% J repeat
+    \barNumberCheck #108
+    \relative {
+	b8_"<Harp>" fis' a d e, gis b e |
+	cis, d gis b fis a cis fis |
+    }
+% page 21.6
+    \relative {
+	gis'8 b d fis cis, eis gis b |
+	fis8 a gis b ais cis fis ais |
+	b,8 d fis b e,, gis b e |
+    }
+% page 22
+    \relative {
+	cis'8 eis gis cis fis, a cis fis |
+    }
+% ending 1
+    \relative {
+	b8 fis' a d e, gis b e |
+	a,,8 b cis e a b cis e |
+    }
+% end repeat
+% J repeat
+    \barNumberCheck #116
+    \relative {
+	b8_"<Harp>" fis' a d e, gis b e |
+	cis, d gis b fis a cis fis |
+    }
+% page 21.6
+    \relative {
+	gis'8 b d fis cis, eis gis b |
+	fis8 a gis b ais cis fis ais |
+	b,8 d fis b e,, gis b e |
+    }
+% page 22
+    \relative {
+	cis'8 eis gis cis fis, a cis fis |
+    }
+% ending 2
+    \relative {
+	b8 fis' a d e, gis b e |
+    }
+% page 22.1
+    \relative {
+	a8 b cis e a b cis e |
+	\ottava #1 <a, a'>8 <b b'> <cis cis'> <e e'> <a a'>4 \ottava #0 r |
+    }
+% D.S.2
+% page 20.3 E Stegno2-3x
+    \barNumberCheck #125
+    \relative {
+	<bes ees>16_"<Seq.>" <bes ees> <ees ges> <bes ees> \repeat unfold 3 { <bes ees>16 <bes ees> <ees ges> <bes ees> } |
+	\repeat unfold 4 { <ces ees>16 <ces ees> <ees ges> <ces ees> } |
+	\repeat unfold 4 { <aes des>16 <aes des> <des f> <aes des> } |
+    }
+% page 20.4-3x
+    \relative {
+	\repeat unfold 2 { <des' ges>16 <des ges> <ges bes> <des ges> } \repeat unfold 2 { <des f> <des f> <f aes> <des f> } |
+	\repeat unfold 4 { <bes ees>16 <bes ees> <ees ges> <bes ees> } |
+	\repeat unfold 4 { <ces ees>16 <ces ees> <ees ges> <ces ees> } |
+    }
+% page 20.5-3x
+    \relative {
+	\repeat unfold 4 { <aes des>16 <aes des> <des f> <aes des> } |
+    }
+    \relative {
+	<bes bes'>8\staccato_"<Pizzicato Strings>" <d d'>\staccato <f f'>\staccato <bes bes'>\staccato \ottava #1 <d d'>\staccato <f f'>\staccato <bes bes'>\staccato <d d'>\staccato \ottava #0 |
+    }
+    \relative {
+	r2_"<Seq.>" \repeat unfold 8 <ees' ges>16 |
+    }
+% page 20.6-3x
+    \relative {
+	\repeat unfold 4 { <ces' ees>16 <ces ees> <ees ges> <ces ees> } |
+	\repeat unfold 4 { <aes des>16 <aes des> <des f> <aes des> } |
+	\repeat unfold 2 { <des ges>16 <des ges> <ges bes> <des ges> } \repeat unfold 2 { <des f>16 <des f> <f aes> <des f> } |
+    }
+% page 21-3x
+    \relative {
+	\repeat unfold 4 { <bes ees>16 <bes ees> <ees ges> <bes ees> } |
+	\repeat unfold 4 { <ces ees>16 <ces ees> <ees ges> <ces ees> } |
+	\repeat unfold 4 { <aes des>16 <aes des> <des f> <aes des> } |
+    }
+% to Coda1,2
+% page 14.1 Coda2
+    \barNumberCheck #140
+    \relative {
+	r8 \deadNote aes4._"<Harp>"\glissando( \afterGrace { \deadNote aes'2)\glissando } { \hideNotes cis'128 \unHideNotes } |
+    }
+% K
+    \barNumberCheck #141
+    R1*3 |
+    r1 |
+% page 22.2
+    r1 | r1 |
+    \clef bass
+    \relative {
+	d,8._"<Brass Sect.2>" d'16 r8 g,8~ g16 g' r8 cis,4~ |
+	cis2 b16 c r cis r e r fis |
+	\deadNote cis4\glissando fis,4~ fis r |
+    }
+    \barNumberCheck #150
+}

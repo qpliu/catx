@@ -1,0 +1,6 @@
+\layout {
+    indent = 2\cm
+    short-indent = 1\cm
+    \context { \Score \omit BarNumber }
+    \context { \Score \override SpacingSpanner.base-shortest-duration = #(ly:make-moment 1/16) }
+}

@@ -1,0 +1,14 @@
+voLyrics = \new Lyrics = "lyricsa" \lyricsto "vo" \new Lyrics = "lyricsb" \lyricsto "vo" \context Lyrics = "lyricsa" \lyricmode {
+    << { Some -- one told me long a -- go } \context Lyrics = "lyricsb" { Yes -- ter -- day, and days be -- fore, } >>
+    << { There's a calm be -- fore the storm. I know, } \context Lyrics = "lyricsb" { Sun is cold and rain is hard. I know, } >>
+    << { and it's been com -- in' for some time } \context Lyrics = "lyricsb" { - been that way for all my time. } >>
+    << { When it's o -- ver, so they say } \context Lyrics = "lyricsb" { 'Till for -- ev -- er, on it goes } >>
+    << { It' ll rain a sun -- ny day. I know } \context Lyrics = "lyricsb" { Through the cir -- cle, fast and slow. I know } >>
+    << { shin -- in' down like wat -- er } \context Lyrics = "lyricsb" { It can't stop. I won -- der. } >>
+    I want to know, have you ev -- er seen the rain?
+    I want to know, have you ev -- er seen the rain
+    com -- in' down on a sun -- ny day?
+    I want to know, have you ev -- er seen the rain?
+    I want to know, have you ev -- er seen the rain
+    com -- in' down on a sun -- ny day?
+}    

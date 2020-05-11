@@ -1,0 +1,136 @@
+[TEXT_PREFIX]keyThreeText = {
+% page 20
+    r1 |
+% A
+    \barNumberCheck #2
+    \repeat unfold 3 r1 |
+    r1 | r1 | r1 |
+    `>brasssect=program61;volume.5`1 | % Brass Sect.2
+    r1 |
+% page 20.1 B
+    \barNumberCheck #10
+    \repeat unfold 8 r1 |
+% C
+    \barNumberCheck #18
+    \repeat unfold 7 r1 |
+    `>harp=program46;volume.4 glissando24`1 | % Harp
+% D Stegno1
+    \barNumberCheck #26
+    r1 | r1 | r1 | r1 |
+% page 20.2
+    r1 | r1 | r1 | r1 | r1 |
+% page 20.3 E Stegno2
+    \barNumberCheck #35
+    `>seq=program83;volume.5`1 | % Seq
+    r1 | r1 |
+% page 20.4
+    r1 | r1 | r1 |
+% page 20.5
+    r1 |
+    `>pizzicatostrings=program45;volume.4`1 | % Pizzicato Strings
+    `>seq`1 | % Seq
+% page 20.6
+    r1 | r1 | r1 |
+% page 21
+    r1 | r1 | r1 |
+% to Coda1,2
+    r8 `>harp glissando12`4. `glissando12`2 | % Harp
+% page 21.1 F
+    \barNumberCheck #51
+    \repeat unfold 4 r1 |
+% G
+    \barNumberCheck #55
+    \repeat unfold 7 r1 |
+    `glissando24`1 |
+% D.S.1
+% D Stegno1-2x
+    \barNumberCheck #63
+    r1 | r1 | r1 | r1 |
+% page 20.2-2x
+    r1 | r1 | r1 | r1 | r1 |
+% page 20.3 E Stegno2-2x
+    \barNumberCheck #72
+    `>seq`1 | % Seq
+    r1 | r1 |
+% page 20.4-2x
+    r1 | r1 | r1 |
+% page 20.5-2x
+    r1 |
+    `>pizzicatostrings`1 | % Pizzicato Strings
+    `>seq`1 | % Seq
+% page 20.6-2x
+    r1 | r1 | r1 |
+% page 21-2x
+    r1 | r1 | r1 |
+% to Coda1,2
+% page 21.1 Coda1
+    \barNumberCheck #87
+    r8 `>harp glissando12`4. `glissando12`2 | % Harp
+% H
+    \barNumberCheck #88
+    \repeat unfold 3 r1 |
+% page 21.2
+    `>polysynthtwo=program90;volume1`1 | % Poly Synth.2
+% I
+    \barNumberCheck #92
+    r1 | r1 | r1 | r1 |
+% page 21.3
+    r1 | r1 | r1 |
+    `>synthorgan=program18;volume.5`1 | % Synth.Organ
+    r1 |
+% page 21.4
+    r1 | r1 | r1 | r1 | r1 |
+% page 21.5
+    r1 | r1 |
+% J repeat
+    \barNumberCheck #108
+    `>harp`1 | % Harp
+    r1 |
+% page 21.6
+    r1 | r1 | r1 |
+% page 22
+    r1 |
+% ending 1
+    r1 | r1 |
+% end repeat
+% J repeat
+    \barNumberCheck #116
+    r1 | r1 |
+% page 21.6
+    r1 | r1 | r1 |
+% page 22
+    r1 |
+% ending 2
+    r1 |
+% page 22.1
+    r1 | r1 |
+% D.S.2
+% page 20.3 E Stegno2-3x
+    \barNumberCheck #125
+    `>seq`1 | % Seq
+    r1 | r1 |
+% page 20.4-3x
+    r1 | r1 | r1 |
+% page 20.5-3x
+    r1 |
+    `>pizzicatostrings`1 | % Pizzicato Strings
+    `>seq`1 | % Seq
+% page 20.6-3x
+    r1 | r1 | r1 |
+% page 21-3x
+    r1 | r1 | r1 |
+% to Coda1,2
+% page 14.1 Coda2
+    \barNumberCheck #140
+    r8 `>harp glissando12`4. `glissando12`2 | % Harp
+% K
+    \barNumberCheck #141
+    \repeat unfold 3 r1 |
+    r1 |
+% page 22.2
+    r1 | r1 |
+    `>brasssect`1 | % Brass Sect.2
+    r1 |
+    `glissando-4`4 r4 r2 |
+    \barNumberCheck #150
+}

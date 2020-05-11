@@ -1,0 +1,218 @@
+keyFourPart = \new Voice = "key4b" \new Voice = "key4a" {
+    \context Voice = "key4b" \voiceTwo
+    \compressFullBarRests
+% page 20
+    r1 |
+% A
+    \barNumberCheck #2
+    R1*3 |
+    \relative {
+	r2_"<Piano>" \acciaccatura d''8 ees8. d16~ d8 c |
+	a2 r |
+	\ottava #1 << { \voiceOne <c' e g b>4.\arpeggio g'8~ g4 e | } \context Voice = "key4b" { a,1 } | >> \ottava #0
+	<< { <f, a c>4 r8 <f bes d>~ <f bes d> r e'4~ | } \context Voice = "key4b" { f,,4 r8 bes~ bes r <e gis b>4~ | } >>
+	<< { e'2 } \context Voice = "key4b" { <e, gis b>2 } >> r2 |
+	\oneVoice
+    }
+% page 20.1 B
+    \barNumberCheck #10
+    R1*8 |
+% C
+    \barNumberCheck #18
+    R1*7 |
+    r1 |
+% D Stegno1
+    \barNumberCheck #26
+    \relative {
+	<< { \voiceOne <c'' f a>2 <d g b> | } \context Voice = "key4b" { d,,2 g | } >>
+	<< { <c' e g>2 <a c e>4 d8 c | } \context Voice = "key4b" { c,2 f, | } >>
+	<< { <f' a d>4 a8 d e2 | } \context Voice = "key4b" { b,2 <e gis b>2 | } >>
+	<< { <e a c>2 a4\staccato r | } \context Voice = "key4b" { a,2 a4\staccato r | } >>
+	\oneVoice
+    }
+% page 20.2
+    \relative {
+	<< { \voiceOne <c' f a>2 <d g b> | } \context Voice = "key4b" { d,2 g | } >>
+	<< { <c e g>2 <c e g> | } \context Voice = "key4b" { c,2 f | } >>
+	\ottava #1 << { <d'' f a>2\arpeggio <d' f a>\arpeggio | } \context Voice = "key4b" { b,,1 | } >>
+	<< { <gis'' b d e>2 <gis b d e> | } \context Voice = "key4b" { e,1 | } >>
+	<< { <gis' b d e>4 <gis b d e> <gis b d e>\staccato r | } \context Voice = "key4b" { e,4 e e\staccato r | } >>
+	\ottava #0 \oneVoice
+    }
+% page 20.3 E Stegno2
+    \barNumberCheck #35
+    r1 | r1 | r1 |
+% page 20.4
+    r1 | r1 | r1 |
+% page 20.5
+    r1 | r1 |
+    \relative {
+	\ottava #1 r4_"<Synth.Piano>" <ees' ees'>16 <f f'> <ges ges'> <aes aes'> <bes bes'> <ces ces'> <d d'> <ees ees'> <f f'> <ges ges'> <a a'> <bes bes'> \ottava #0 |
+    }
+% page 20.6
+    r1 | r1 | r1 |
+% page 21
+    r1 | r1 | r1 |
+% to Coda1,2
+    r1 |
+% page 21.1 F
+    \barNumberCheck #51
+    R1*4 |
+% G
+    \barNumberCheck #55
+    R1*7 |
+    r1 |
+% D.S.1
+% D Stegno1-2x
+    \barNumberCheck #63
+    \relative {
+	<< { \voiceOne <c'' f a>2_"<Piano>" <d g b> | } \context Voice = "key4b" { d,,2 g | } >>
+	<< { <c' e g>2 <a c e>4 d8 c | } \context Voice = "key4b" { c,2 f, | } >>
+	<< { <f' a d>4 a8 d e2 | } \context Voice = "key4b" { b,2 <e gis b>2 | } >>
+	<< { <e a c>2 a4\staccato r | } \context Voice = "key4b" { a,2 a4\staccato r | } >>
+	\oneVoice
+    }
+% page 20.2-2x
+    \relative {
+	<< { \voiceOne <c' f a>2 <d g b> | } \context Voice = "key4b" { d,2 g | } >>
+	<< { <c e g>2 <c e g> | } \context Voice = "key4b" { c,2 f | } >>
+	\ottava #1 << { <d'' f a>2\arpeggio <d' f a>\arpeggio | } \context Voice = "key4b" { b,,1 | } >>
+	<< { <gis'' b d e>2 <gis b d e> | } \context Voice = "key4b" { e,1 | } >>
+	<< { <gis' b d e>4 <gis b d e> <gis b d e>\staccato r | } \context Voice = "key4b" { e,4 e e\staccato r | } >>
+	\ottava #0 \oneVoice
+    }
+% page 20.3 E Stegno2-2x
+    \barNumberCheck #72
+    r1 | r1 | r1 |
+% page 20.4-2x
+    r1 | r1 | r1 |
+% page 20.5-2x
+    r1 | r1 |
+    \relative {
+	\ottava #1 r4_"<Synth.Piano>" <ees' ees'>16 <f f'> <ges ges'> <aes aes'> <bes bes'> <ces ces'> <d d'> <ees ees'> <f f'> <ges ges'> <a a'> <bes bes'> \ottava #0 |
+    }
+% page 20.6-2x
+    r1 | r1 | r1 |
+% page 21-2x
+    r1 | r1 | r1 |
+% to Coda1,2
+% page 21.1 Coda1
+    \barNumberCheck #87
+    r1 |
+% H
+    \barNumberCheck #88
+    R1*3 |
+% page 21.2
+    r1 |
+% I
+    \barNumberCheck #92
+    \relative {
+	<fis' a d>2_"<Piano>" <gis b e> |
+	<gis b e>2 <fis a cis> |
+	<fis b d>2 <eis gis b cis> |
+	<cis fis a>4 <d fis b> <fis ais cis> <ais cis e> |
+    }
+% page 21.3
+    \relative {
+	<fis' a d>2 <gis b e> |
+	<cis eis gis>2\arpeggio <a cis fis> |
+	<a d fis>2 <gis b e> |
+	<e a cis>1 |
+	<fis a d>2 <gis b e> |
+    }
+% page 21.4
+    \relative {
+	<gis' b e>2 <fis a cis> |
+	<fis b d>2 <eis gis b cis> |
+	<cis fis a>4 <d fis b> <fis ais cis> <ais cis e> |
+	<fis a d>2 <gis b e> |
+	<cis eis gis>2 <a cis fis> |
+    }
+% page 21.5
+    \relative {
+	<a' d fis>2 <gis b>4. e'8 |
+	<e, a cis>1 |
+    }
+% J repeat
+    \barNumberCheck #108
+    \relative {
+	<fis' a d>2 <e gis b> |
+	<gis b e>2 <fis a cis> |
+    }
+% page 21.6
+    \relative {
+	<fis' b d>2 <eis gis cis> |
+	<cis fis a>4 <d fis b> <fis ais cis>2 |
+	<fis a d>2 <gis b e> |
+    }
+% page 22
+    \relative {
+	<eis' a e'>2 <cis fis a> |
+    }
+% ending 1
+    \relative {
+	<fis' a d>2 <e gis b> |
+	<e a cis>1 |
+    }
+% end repeat
+% J repeat
+    \barNumberCheck #116
+    \relative {
+	<fis' a d>2 <e gis b> |
+	<gis b e>2 <fis a cis> |
+    }
+% page 21.6
+    \relative {
+	<fis' b d>2 <eis gis cis> |
+	<cis fis a>4 <d fis b> <fis ais cis>2 |
+	<fis a d>2 <gis b e> |
+    }
+% page 22
+    \relative {
+	<eis' gis b>2 <fis a cis> |
+    }
+% ending 2
+    \relative {
+	<fis' a d>2 <e gis b> |
+    }
+% page 22.1
+    \relative {
+	<cis' e a>1 |
+	r1 |
+    }
+% D.S.2
+% page 20.3 E Stegno2-3x
+    \barNumberCheck #125
+    r1 | r1 | r1 |
+% page 20.4-3x
+    r1 | r1 | r1 |
+% page 20.5-3x
+    r1 | r1 |
+    \relative {
+	\ottava #1 r4_"<Synth.Piano>" <ees' ees'>16 <f f'> <ges ges'> <aes aes'> <bes bes'> <ces ces'> <d d'> <ees ees'> <f f'> <ges ges'> <a a'> <bes bes'> \ottava #0 |
+    }
+% page 20.6-3x
+    r1 | r1 | r1 |
+% page 21-3x
+    r1 | r1 | r1 |
+% to Coda1,2
+% page 14.1 Coda2
+    \barNumberCheck #140
+    r1 |
+% K
+    \barNumberCheck #141
+    R1*3 |
+    \relative {
+	r2_"<Piano>" \grace b'8( <a cis>8.) b16~ b8 a |
+    }
+% page 22.2
+    r1 |
+    \relative {
+	\ottava #1 << { \voiceOne <a'' cis e gis>4.\arpeggio e'8~ e4 cis | } \context Voice = "key4b" { fis,1 } | >> \ottava #0
+	<< { <fis, a d>4 r8 <g b d>~ <g b d> r <eis gis cis>4~ | } \context Voice = "key4b" { d,4 r8 g~ g r cis4~ | } >>
+	<< { <eis gis cis>2 } \context Voice = "key4b" { cis2 } >> r2 |
+	\oneVoice
+	r1 |
+    }
+    \barNumberCheck #150
+}

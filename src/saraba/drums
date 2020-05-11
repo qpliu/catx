@@ -1,0 +1,286 @@
+drumsPart = \new DrumVoice = "drumsb" \new DrumVoice = "drumsa" \drummode {
+    \context DrumVoice = "drumsb" \voiceTwo
+    \voiceOne
+% page 106 Intro.1
+    \barNumberCheck #1
+    r1 | r1 | r1 | r1 |
+% page 107
+    \repeat percent 3 {
+	<< { sn4:16 sn:16 sn:16 sn:16 | } \context DrumVoice = "drumsb" { r1 | } >>
+    }
+    << { r8 hho~ hhc hho~ hhc cymc4.-> | } \context DrumVoice = "drumsb" { r8 bd r bd r bd r4 | } >>
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat
+    \barNumberCheck #9
+    << { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    \repeat percent 2 {
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    }
+% page 108+2
+    << { hh8 hh <sn hh> hh hh hh sn16 sn sn sn | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    << { r8 cymc-> sn16 sn cymc8->~ cymc cymc-> sn sn16 sn | } \context DrumVoice = "drumsb" { r8 bd r bd r bd r4 | } >>
+% page 108.1 A
+    \barNumberCheck #17
+    << { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r r8 bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r r8 bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+% page 109
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r r8 bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+% ending1
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r r8 bd r bd | } >>
+% page 109.1
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-2x
+    \barNumberCheck #25
+    << { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    \repeat percent 2 {
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    }
+% page 108+2-2x
+    << { hh8 hh <sn hh> hh hh hh sn16 sn sn sn | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+% to Coda2
+    << { r8 cymc-> sn16 sn cymc8->~ cymc cymc-> sn sn16 sn | } \context DrumVoice = "drumsb" { r8 bd r bd r bd r4 | } >>
+% to Coda3
+% page 108.1 A-2x
+    \barNumberCheck #33
+    << { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r r8 bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r r8 bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+% page 109-2x
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r r8 bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+% page 109.1
+    << { sn8 sn r4 r8 sn r sn | } \context DrumVoice = "drumsb" { bd8 bd r4 r8 bd r bd | } >>
+    << { r2 <toml sn>4 sn8 sn16 sn | } \context DrumVoice = "drumsb" { r1 | } >>
+% page 110 B Stegno1
+    \barNumberCheck #41
+    \repeat percent 2 {
+	<< { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh16 sn | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+	<< { hh8 hh <sn hh> cymc~-> cymc hh <sn hh> sn16 sn | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    }
+% page 111
+    << { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh16 sn | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+    << { cymc8-> toml <toml sn> toml16 toml toml8 toml <toml sn> toml16 toml | } \context DrumVoice = "drumsb" { bd4 r4 bd8 bd r4 | } >>
+    << { toml8 toml <toml sn> toml16 toml toml8 toml <toml sn>4 | } \context DrumVoice = "drumsb" { bd4 r bd8 bd r4 | } >>
+% page 111.1 C
+    \barNumberCheck #53
+    << { cymc4-> <sn cymc>8 cymc cymc cymc <sn cymc> cymc | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+    << { cymc8 cymc <sn cymc> cymc cymc cymc <sn cymc> cymc | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    \repeat percent 5 {
+	<< { cymc8 cymc <sn cymc> cymc cymc cymc <sn cymc> cymc | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+    }
+% page 112+3
+    << { cymc8 cymc <sn cymc> cymc cymc cymc <sn cymc> sn16 sn | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+% page 112.1 D
+    \barNumberCheck #61
+    << { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+    \repeat percent 2 {
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r bd | } >>
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+    }
+% page 113+2
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { r8 bd r bd r bd r4 | } >>
+% page 113.1
+    << { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+    \repeat percent 2 {
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r bd | } >>
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+    }
+% page 114+2
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { r8 bd r bd r bd r4 | } >>
+% page 114.1
+    << { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+    << { hh8 hh <sn hh> hh <sn hh> hh <sn hh> hh | } \context DrumVoice = "drumsb" { r8 bd r bd bd bd r bd | } >>
+% to Coda1
+    << { <sn hh>4 r4 r2 | } \context DrumVoice = "drumsb" { bd4 r4 r2 | } >>
+% page 115 E
+    \barNumberCheck #81
+    << { toml4:16\< toml:16 toml:16 toml:16\! | } \context DrumVoice = "drumsb" { r1 | } >>
+    \repeat percent 3 {
+	<< { toml4:16 toml:16 toml:16 toml:16 | } \context DrumVoice = "drumsb" { r1 | } >>
+    }
+% page 115.1 F
+    \barNumberCheck #85
+    << { toml4:16\< toml:16 toml:16 toml:16\! | } \context DrumVoice = "drumsb" { r1 | } >>
+    \repeat percent 2 {
+	<< { toml4:16 toml:16 toml:16 toml:16 | } \context DrumVoice = "drumsb" { r1 | } >>
+    }
+    r1 |
+% page 116
+    << { toml4:16\< toml:16 toml:16 toml:16\! | } \context DrumVoice = "drumsb" { r1 | } >>
+    << { toml4:16 toml:16 toml:16 toml:16 | } \context DrumVoice = "drumsb" { r1 | } >>
+    << { sn8 sn r4 r8 sn r sn | } \context DrumVoice = "drumsb" { bd8 bd r4 r8 bd r bd | } >>
+    << { r2 <toml sn>4 r | } \context DrumVoice = "drumsb" { r1 | } >>
+% page 116.1 G
+    \barNumberCheck #93
+    << { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    \repeat percent 7 {
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    }
+% page 117.1
+    << { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    \repeat percent 3 {
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    }
+% page 118
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+    \repeat percent 2 {
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    }
+    << { hh8 hh <sn hh> hh hh hh16 sn sn sn sn sn | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+% page 118.1 H
+    \barNumberCheck #109
+    << { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+    \repeat percent 2 {
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r bd | } >>
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+    }
+% page 119+2
+    \repeat percent 2 {
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+    }
+% page 119.1
+    << { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r bd | } >>
+% page 120
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+    << { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+% page 120.1
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> sn16 sn | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+% I
+    \barNumberCheck #125
+    << { cymc4-> <ss hh>8 ss <sn hh>4 hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r4 bd | } >>
+% page 121
+    << { hh4 hh <sn hh> hh8 hh | } \context DrumVoice = "drumsb" { r8 bd bd4 r2 | } >>
+    << { hh4 <ss hh>8 ss <sn hh>4 hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r4 bd | } >>
+    << { hh4 hh <sn hh> hho | } \context DrumVoice = "drumsb" { r4 bd r2 | } >>
+% page 121.1
+    << { hh4 <ss hh>8 ss <sn hh>4 hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r4 bd | } >>
+    << { hh4 hh <sn hh> hh8 hh | } \context DrumVoice = "drumsb" { r8 bd bd4 r2 | } >>
+    << { hh4 <ss hh>8 ss <sn hh>4 hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r4 bd | } >>
+    << { hh4 hh <sn hh> hho | } \context DrumVoice = "drumsb" { r4 bd r2 | } >>
+% page 122
+    << { cymc4-> <ss hh>8 ss <sn hh>4 hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r4 bd | } >>
+    << { hh4 hh <sn hh> hh8 hh | } \context DrumVoice = "drumsb" { bd4 bd r2 | } >>
+    << { hh8 hh <sn hh> <sn hh> hh hh <sn hh> <sn hh> | } \context DrumVoice = "drumsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { hh8 hh <sn hh> hh hh hh r4 | } \context DrumVoice = "drumsb" { bd8 bd r bd r bd r4 | } >>
+% page 122.1 J
+    \barNumberCheck #137
+    r1 | r1 | r1 | r1 |
+% page 123
+    \repeat percent 2 {
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    }
+    << { hh8 hh <sn hh> hh hh hh sn16 sn sn sn | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    << { r8 cymc-> sn cymc->~ cymc cymc-> sn sn16 sn | } \context DrumVoice = "drumsb" { r8 bd r bd r bd r4 | } >>
+% page 123.1
+    << { hho4~\startInstrument "S.E." hhc8 <sn hho>~ hho4~ hhc | } \context DrumVoice = "drumsb" { bd8 bd r4 r bd | } >>
+    << { hho8 tomh sn4 <toml sn> r8 sn16 sn\stopInstrument "S.E." | } \context DrumVoice = "drumsb" { r2 bd8 bd r4 | } >>
+% D.S.1
+% page 110 B Stegno1-2x
+    \barNumberCheck #147
+    \repeat percent 2 {
+	<< { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh16 sn | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+	<< { hh8 hh <sn hh> cymc~-> cymc hh <sn hh> sn16 sn | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    }
+% page 111-2x
+    << { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh16 sn | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+    << { cymc8-> toml <toml sn> toml16 toml toml8 toml <toml sn> toml16 toml | } \context DrumVoice = "drumsb" { bd4 r4 bd8 bd r4 | } >>
+    << { toml8 toml <toml sn> toml16 toml toml8 toml <toml sn>4 | } \context DrumVoice = "drumsb" { bd4 r bd8 bd r4 | } >>
+% page 111.1 C-2x
+    \barNumberCheck #159
+    << { cymc4-> <sn cymc>8 cymc cymc cymc <sn cymc> cymc | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+    << { cymc8 cymc <sn cymc> cymc cymc cymc <sn cymc> cymc | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    \repeat percent 5 {
+	<< { cymc8 cymc <sn cymc> cymc cymc cymc <sn cymc> cymc | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+    }
+% page 112+3-2x
+    << { cymc8 cymc <sn cymc> cymc cymc cymc <sn cymc> sn16 sn | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+% page 112.1 D-2x
+    \barNumberCheck #167
+    << { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+    \repeat percent 2 {
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r bd | } >>
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+    }
+% page 113+2-2x
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { r8 bd r bd r bd r4 | } >>
+% page 113.1-2x
+    << { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+    \repeat percent 2 {
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r bd | } >>
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+    }
+% page 114+2-2x
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { r8 bd r bd r bd r4 | } >>
+% page 114.1-2x
+    << { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd bd bd r4 | } >>
+    << { hh8 hh <sn hh> hh <sn hh> hh <sn hh> hh | } \context DrumVoice = "drumsb" { r8 bd r bd bd bd r bd | } >>
+% to Coda1
+% page 123 Coda1
+    \barNumberCheck #186
+    << { <sn hh>4 r4 r2 | } \context DrumVoice = "drumsb" { bd4 r4 r2 | } >>
+% D.S.2
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-3x
+    \barNumberCheck #187
+    << { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    \repeat percent 2 {
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    }
+% page 108+2-3x
+    << { hh8 hh <sn hh> hh hh hh sn16 sn sn sn | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+% to Coda2
+% page 124 Coda2
+    \barNumberCheck #194
+    << { r8 cymc-> sn cymc->~ cymc cymc-> sn sn16 sn | } \context DrumVoice = "drumsb" { r8 bd r bd r bd r4 | } >>
+% D.S.3
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-4x
+    \barNumberCheck #195
+    << { cymc4-> <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+    << { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    \repeat percent 2 {
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r bd | } >>
+	<< { hh8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    }
+% page 108+2-4x
+    << { hh8 hh <sn hh> hh hh hh sn16 sn sn sn | } \context DrumVoice = "drumsb" { bd4 r8 bd r bd r4 | } >>
+    << { r8 cymc-> sn16 sn cymc8->~ cymc cymc-> sn sn16 sn | } \context DrumVoice = "drumsb" { r8 bd r bd r bd r4 | } >>
+% to Coda3
+% page 124 Coda3
+    \barNumberCheck #203
+    << { r8 cymc-> sn cymc->~ cymc cymc-> sn16 sn sn8 | } \context DrumVoice = "drumsb" { r8 bd r bd r bd r4 | } >>
+    << { r8 cymc-> sn cymc->~ cymc cymc4.->~ | } \context DrumVoice = "drumsb" { r8 bd r bd r bd r4 | } >>
+% page 124.1
+    << { cymc1 | } \context DrumVoice = "drumsb" { r1 | } >>
+    r1 |
+    << { sn8 sn r4 r2 | } \context DrumVoice = "drumsb" { bd8 bd r4 r2 | } >>
+    \barNumberCheck #208
+}

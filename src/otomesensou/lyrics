@@ -1,0 +1,184 @@
+vocalLyrics = \new Lyrics = "lyricsa" \lyricsto "vocal" \new Lyrics = "lyricsb" \lyricsto "vocal" \new Lyrics = "lyricsc" \lyricsto "vocal" \new Lyrics = "lyricsd" \lyricsto "vocal" \context Lyrics = "lyricsa" \lyricmode {
+% page 82 A
+    \black "3" ji no ho u ko u ni te ki ki ha k ken desuto roi
+    o to me no i no
+% page 83 B
+    ri rin rin ri rin rin rin ri rin rin rin ri
+    \ayaka 「be ru ga na ru! shu u ra i da!」
+    << { \shiori 「ee」 } \context Lyrics = "lyricsb" { \reni 「ee」 } >>
+% page 83.1
+    \black wan wan wan wa wan wan wan wa wan wan wan
+    << { wa } \context Lyrics = "lyricsb" { \kanako 「cho t to so ko! a bu na i yo」 \shiori 「do i te!」 } >>
+% page 83 B-2x
+    do do do do do do do do do do do do
+    \momoka 「do ko ka ra de mo ka kat te koi」
+    \reni 「koi!」
+% page 83.1-2x
+    \kanako sai jou kyuu no hap -- pi -- est _ to do ke ru
+% page 84
+    \black ha na za ka ri yu me mi ga chi o to me no i no ri
+% page 84.1
+    \momoka zen kou sei to no hi na n wa kin kyuu
+    zen men sen tou su taa to
+    \shiori ken kou ran do no
+    \kanako jii -- chan
+    \ayaka baa -- chan
+    \shiori o ma ta se shi ma shi ta dai ran tou
+% page 85
+    \reni shou ta i fu me i no mi ka ku ni n se i
+% page 85.1
+    mei ta i so ret te ma sa ka no
+    \black shuu matsu hi ro in desu
+    \ayaka ne e
+% page 86
+    i in chou so u ji sa bo ru no mi no gashi te mo u
+% page 86.1
+    ya bai no ho u ki ga so ra wo to bu
+    \kanako ne e
+% page 87
+    shi han dai bu ka tsu sa bo ru no mi no gashi te
+    mo u
+% page 87.1
+    ya bai no do u gi mo shu ni so ma ru
+    \black uh ma
+% page 88
+    ki o ko se mi ra ku ru sei gi no o to me the Pray -- er na
+% page 88.1
+    gi ta o se _ i ma su gu sen sei ko u ge ki de his shou de
+% page 89
+    mo...
+    \shiori a wa ku i ro zu ku I F
+% page 89.1
+    no ko ko ro
+    \black i ya zet tai ka na wa nu yu me na do na i n da
+% page 90
+    \momoka yap pa
+    \ayaka sou da
+    \shiori kit to
+    \reni mot to
+    \kanako ka na ra zu
+    \black te ni i re ru do ko ka
+% page 90.1
+    de a no ko wo mi te i tai ho u ka go yo bi da shi te masu to dai
+    \kanako chot to
+% page 91
+    do ki do ki shi cha u
+    \black ga ku e n se i ka tsu bu chi ko
+% page 91.1
+    wa su nan te yu ru sa nai mot to se i shu n shi te tai aku shon! haku shon! da
+% page 92
+    re mo shi ra nai myuu zu zun zun zun zu zun zun zun zu zun zun zun
+% page 92.1
+    \reni 「dek kai ya tsu ga a ra wa re ta!」
+    << { \shiori 「waa」 } \context Lyrics = "lyricsb" { \kanako 「waa」 } >>
+    \momoka sai jou kyuu no hap -- pi -- est to do ke ru
+% page 93
+    \black ka na ri mu ri de mo ma ke nai o to me no i no ri
+% page 93.1
+    \kanako don den gae shi ma sa ka no jou kyou mon gen byou yo mi su taa to
+    \ayaka kou tei juu shuu? ma sa ka no sen sei mou ten dat ta mi no ga shi te
+% page 94
+    \momoka shou ta i fu me i no mi ka ku ni n se i 
+% page 94.1
+    mei ta i i wa yu ru hi to tsu no
+    \black shuu matsu hi ro in desu
+    \reni ne e
+% page 86-2x
+    e rin ton su wi n gu shi na kya i mi nai ne mo u
+% page 86.1-2x
+    hi doi no pi -- a -- no mo so ra wo ma u
+    \shiori ne e
+% page 87-2x
+    de rin jaa a ka i do re su ni wa go you jin mo u
+% page 87.1-2x
+    hi doi no se i fu ku wa bo ro bo ro
+    \black uh ta
+% page 88-2x
+    chi a ga re sho u jo wa sei gi no o to me the Pray -- er ko
+% page 88.1-2x
+    e te yu ke shi ka ba ne wo me ni shi mi ru no wa it tai na
+% page 89-2x
+    ni...?
+    \reni ki zu ku yo wa i o no
+% page 89.1-2x
+    ga ko ko ro
+    \black de mo zet tai yuzu re na i i ji na ra papa yu zu ri
+% page 90-2x
+    \momoka yap pa
+    \ayaka sou da
+    \shiori kit to
+    \reni mot to
+    \kanako ka na ra zu
+    \black te ni i re ru zu t to
+% page 90.1-2x
+    mi n na to ha sha i de tai ta ku sa n sha shi n mo _ to ri tai
+    \shiori kit to
+% page 91-2x
+    wa ku wa ku shi cha u
+    \black ri n ka n ga k ko u bu chi ko
+% page 91.1-2x
+    wa su na ra yo u sha shi nai dat te se i shu n shi te tai aku shon! fiku shon? ki
+% coda
+    zu da ra ke no te n shi
+% page 95
+    tachi
+% page 97
+    \kanako de a i to wa ka re ku ri ka e su a o ki wa ka ba no hi bi ni shi o ri wo ha sa n de
+% page 97.1
+    a shi do ri ka ru ku ya ku so ku no ba sho he o mo mu ko u o mo mu ko u hi ka ri ta re
+% page 98
+    << { \kanako tsu ba sa wo ya su me } \context Lyrics = "lyricsb" { \momoka tsu ba sa wo ya su me } >>
+    << { \kanako o o zo ra a o gu } \context Lyrics = "lyricsb" { \momoka o o zo ra a o gu } \context Lyrics = "lyricsc" { \ayaka o o zo ra a o gu } >>
+    << { \kanako wa re ra ga to mo no } \context Lyrics = "lyricsb" { \momoka wa re ra ga to mo no } \context Lyrics = "lyricsc" { \ayaka wa re ra ga to mo no } \context Lyrics = "lyricsd" { \shiori wa re ra ga to mo no } >>
+    \black i no ri ni ko ta e te
+% page 98.1
+    na ya me ru to ki mo ma yo e ru to ki mo a i wo mot te mi chi bi ko u hi ka ri ta re da
+% page 99
+    ki o ko se do u shi yo sei gi no o to me the Pray -- er na
+% page 99.1
+    mi da fu ke te wo to ri sai go ki me ru na ra is sho ni sa
+% page 100
+    a...  ma
+% page 99-2x
+    ki o ko se mi ra ku ru sei gi no o to me the Pray -- er na
+% page 99.1-2x
+    gi ta o se i ma su gu sai shuu hi o u gi de his sa tsu ho
+% page 100-2x
+    ra...
+    \kanako me za me
+% page 100.1
+    yo ne mu ru shi shi no ko ko ro
+% page 101
+    \black zet tai ka na wa nu yu me na do na i n da
+    \momoka yap pa
+    \ayaka sou da
+    \shiori kit to
+    \reni mot to
+    \kanako ka na ra zu
+% page 101.1
+    \black te ni i re ru ho n tou
+% page 102
+    wa da re ka ni a ma e tai sot to ya sa shi ku sa re tai
+    \ayaka chot to
+% page 102.1
+    ku ra ku ra shi cha u
+    \black go ku ra ku te n go ku de mo ne mi n na wo ma
+% page 103
+    mo ri tai mot to tsu yo ku tsu yo ku na ri tai aku shon! ha kushon! de n se tsu no ha ji ma
+% page 103.1
+    ri rin rin ri rin rin rin ri rin rin rin ri
+    \context Lyrics = "lyricsb" { \momoka 「be ru ga na ru! ma ta shu u ra i da!」 \kanako 「yos }
+% page 104
+    << { wan wan wan wa wan wan wan wa wan wan wan wa } \context Lyrics = "lyricsb" { sha」 } >>
+    \shiori 「chot to so ko! a bu na i yo」
+    \reni 「do i te!」
+% page 104.1
+    \black do do do do do do do do do do do do
+    \ayaka 「do ko ka ra de mo ka kat te koi」
+    \momoka 「koi!」
+% page 105
+    \kanako sai jou kyuu no hap -- pi -- est to do ke ru
+    \black ha na za ka ri
+% page 105.1
+    yu me mi ga chi o to me no i no ri 
+}    

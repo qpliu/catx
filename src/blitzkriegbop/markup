@@ -1,0 +1,42 @@
+markupStuff = {
+    \tempo 4 = 176
+    \key a \major
+    \mymark "Intro"
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    \bar "||"
+    \mymark "Verse 1"
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    \bar "||"
+    \mymark "Chorus 1"
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    \bar "||"
+    \mymark "Verse 2"
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    \bar "||"
+    \mymark "Chorus 2"
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    \bar "||"
+    \mymark "Verse 3"
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    \bar "||"
+    \mymark "Outro"
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    \bar "|."
+}

@@ -1,0 +1,97 @@
+voPart = \new Voice = "vo"
+\transpose c c'
+{
+\mymark "Intro" #1
+    s1 s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Verse 1" #10
+    5-2t4 r 5t 2t8 t~ |
+    5-2t8 r4. 5t4 2t8 t~ |
+    5-2t4 r 5t8 6-2t4 t8( |
+    6-4t4.) 2t8( 5-5t4) t8 2t~ |
+    5-2t8 r4. 5t4 6-2t8 5-2t~ |
+    5-2t8 r4. 5t4 6-2t8 5-2t~ |
+    5-2t8 r4. 5t8 6-2t4 t8( |
+    6-4t4.) 2t8( 5-5t4) t8 2t~ |
+    5-2t8 r4. 5t4 2t8 t~ |
+    5-2t8 r4. 5t4 2t8 t~ |
+    5-2t8 r4 4-1t8( 5-5t) 6-2t4 t8( |
+    6-4t4.) 2t8( 5-5t4) t8 2t~ |
+    5-2t8 r4. 5t4 2t8 t~ |
+    5-2t8 r4. 5t4 6-2t8 5-2t~ |
+    5-2t8 r4. 5t8 6-2t4 t8( |
+    6-4t4.) 2t8( 5-5t4) t8 2t~ |
+\mymark "Pre-Chorus 1" #26
+    5-2t2~ t8 4-4t( 2t4~ |
+    4-2t4) r 5-2t 5t8 2t~ |
+    5-2t2~ t8 4-4t( 2t4~ |
+    4-2t4) r 5-2t 5t8 2t~ |
+    5-2t2~ t8 4-4t( 2t4~ |
+    4-2t4) r 5-2t 5t8 2t~ |
+    5-2t2~ t8 4-4t( 2t4~ |
+    4-2t4) r2. |
+\mymark "Verse 2" #34
+    5-2t4 r 5t 2t8 t~ |
+    5-2t8 r4. 5t4 2t8 t~ |
+    5-2t4 r 5t8 6-2t4 t8( |
+    6-4t4.) 2t8( 5-5t4) t8 2t~ |
+    5-2t8 r4. 5t4 2t8 t~ |
+    5-2t8 r4. 5t4 2t8 t~ |
+    5-2t8 r4. 5t8 6-2t4 t8( |
+    6-4t4.) 2t8( 5-5t4) t8 2t~ |
+\mymark "Pre-Chorus 2" #42
+    5-2t2~ t8 4-4t( 2t4~ |
+    4-2t4) r 5-2t 5t8 2t~ |
+    5-2t2~ t8 4-4t( 2t4~ |
+    4-2t4) r 5-2t 5t8 2t~ |
+    5-2t2~ t8 4-4t( 2t4~ |
+    4-2t4) r 5-2t 5t8 2t~ |
+    5-2t2~ t8 4-4t( 2t4~ |
+    4-2t4) r2. |
+\mymark "Chorus 1" #50
+    r2 4-4t8 t4. |
+    5-3t4. t4 t4. |
+    4-5t8( 4t4) 2t8 3-4t8 4-2t( 3-4t4) |
+    r2 4-4t8 t4( 5t8) |
+    4-4t4. 2t8 3-4t8 4-2t( 3-4t4) |
+    r2 4-4t8 t4( 5t8) |
+    4-4t4. 2t8 3-4t8 4-2t( 3-4t4) |
+    s1 |
+\mymark "Interlude" #58
+    s1 s1 s1 s1 |
+\mymark "Guitar Solo" #62
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 s1 |
+    r2 5-2t4 5t8 2t~ |
+\mymark "Pre-Chorus 3" #78
+    5-2t2~ t8 4-4t( 2t4~ |
+    4-2t4) r 5-2t 5t8 2t~ |
+    5-2t2~ t8 4-4t( 2t4~ |
+    4-2t4) r 5-2t 5t8 2t~ |
+    5-2t2~ t8 4-4t( 2t4~ |
+    4-2t4) r 5-2t 5t8 2t~ |
+    5-2t2~ t8 4-4t( 2t4~ |
+    4-2t4) r2. |
+\mymark "Chorus 2" #86
+    r2 4-4t8 t4. |
+    5-3t4. t4 t4. |
+    4-5t8( 4t4) 2t8 3-4t8 4-2t( 3-4t4) |
+    r2 4-4t8 t4( 5t8) |
+    4-4t4. 2t8 3-4t8 4-2t( 3-4t4) |
+    r2 4-4t8 t4( 5t8) |
+    4-4t4. 2t8 3-4t8 4-2t( 3-4t4) |
+    r2 4-4t8 t4( 5t8) |
+    4-4t4. 2t8 3-4t8 4-2t( 3-4t4) |
+    r2 4-4t8 t4( 5t8) |
+    4-4t4. 2t8 3-4t8 4-2t( 3-4t4) |
+    r1 |
+\mymark "Outro" #98
+    r1 |
+    r2 5-2t4 5t8 2t~ |
+    5-2t2~ t8 4-4t( 2t4~ |
+    4-2t2.) r4 |
+    r1 |
+    r2 5-2t4 5t8 2t~ |
+    5-2t2~ t8 4-4t( 2t4~ |
+\barNumberCheck #105
+    4-2t2.) r4 |
+}

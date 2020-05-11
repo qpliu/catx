@@ -1,0 +1,312 @@
+vocalLyrics = \new Lyrics = "lyricsa" \new Lyrics = "lyricsb" \new Lyrics = "lyricsc" \new Lyrics = "lyricsd" \context Lyrics = "lyricsa" \lyricmode {
+% page 10
+    \barNumberCheck #1
+    \mc Momoiro2 kuroobaa2 |
+    Z1 |
+    \skip1 | \skip1 |
+% page 11 Intro Segno3
+    \barNumberCheck #5
+    \skip1 |
+    "Ikuta no konnan wo nori koe"1 |
+    "Gonin to natta momoiro kuroobaa"1 |
+    \skip1 |
+% page 11.1
+    "Totsuzen watasareta henshin beruto ni"\breve |
+    "shoujotachi wa nani wo omou"1 |
+    \skip1 |
+% page 12
+    Daiyonwa1 |
+    "「Z densetsu"1 |
+    "～Owari naki kakumei～」"1 |
+% to Coda 3
+    \skip1 |
+% page 12.1 A
+    \barNumberCheck #17
+    RED!!!4 \skip8 \kanako Ha8 - chi ha chi |
+    de8 - ko de - kop pa chi |
+    E8 - ku e - ku bo wa |
+    ko8 i no o - to shi a |
+% page 13
+    na8 \skip2.. |
+    \skip1 | \skip1 | \skip1 |
+% page 13.1
+    \mc YEL8 -- LOW!!! \skip8 \shiori Na - ki mu shi |
+    a4 ma8 e - n bou4 |
+    Ku4 i8 shi - n bou4 |
+    min4 na no8 i mou4 |
+% page 14
+    to4. desu!!4. \skip4 |
+    \skip1 | \skip1 | \skip1 |
+% page 14.1 B
+    \barNumberCheck #33
+    \mc PINK!!!4 \skip8 \ayaka Aa8 -4 rin☆ |
+    Yes!!4 \skip8 Aa8 - - rin☆4 |
+    Mo8 mo ku ro cha n no4 |
+    a8 i do ru na - no - |
+% page 15
+    da4 \skip 2. |
+    \skip1 | \skip1 | \skip1 |
+% page 15.1
+    \mc GREEN!!!4 \skip8 \momoka Chi8 bi4 da8 ka |
+    -8 rat4 te8 na men4 na!8 |
+    U8. ta16 -8 mo dan8. su16 -8 mo |
+    da8. re16 -8 ni mo8. ma16 -8 ke |
+% page 16
+    nai4. ze!8 -2 |
+    -4 \skip 4. yeah4. |
+    yeah1 |
+    \skip1 |
+% page 16.1
+    \mc PUR4 -- PLE!!!8 \reni Pi po - pu po |
+    -8 pe po - pa4 po8 - |
+    pi8 - po pa - po pi po |
+    bi ri bi ri kan4 den!! |
+% page 17
+    \skip1 | \skip1 | \skip1 | \skip1 |
+% page 17.1 C Stegno1
+    \barNumberCheck #57
+    \shiori Wa4 ta shi ta |
+    chi4 \ayaka na i te |
+    i4 ru hi to |
+    ni4 \momoka Na ni ga |
+% page 18
+    de4 ki ru da |
+    rou4 \reni so re wa |
+    \black Chi8 ka4 ra8 ip4 pa8 i |
+    - u tat4 te o |
+% page 18.1
+    do2 -8 ru ko to! |
+    -2. \skip8 \kanako "Yossha yanze!!"8 |
+    \skip1 |
+% page 19 D Stegno2
+    \barNumberCheck #68
+    \black Wa8 re ra wa -4 \skip4 |
+    a8 i do ru! -4 \skip4 |
+    Shuu8 ma tsu hi - ro i n |
+% page 19.1
+    mo8 mo ku ro!! -4 \skip4 |
+    Ko8 bu shi ni gi re!4 Na8 |
+    -4 mi da bu |
+% page 20
+    chi4 no8 me - su4 ze8 |
+    -4 \skip4 \kanako Ya8 ma nai4 |
+    a4 me8 nan - ka4 nai8 |
+% page 20.1
+    \skip4 Hi4 ka ri |
+    wo2 shin4 ji8 te |
+    -2 \skip8 \shiori Tsu8 yo ku |
+% page 21
+    \ayaka ke8 da ka ku \momoka ta no shi ku |
+    \reni u8 ru wa shi ku \black U ta i |
+    tsu4 zu8 ke - yo4 u!!8 |
+    -2. \skip4 |
+% page 21.1 E
+    \barNumberCheck #84
+    \reni "Makenai yo!"1 |
+    \momoka "Tachi agare!"1 |
+    \ayaka "Daijoubu!"1 |
+    \shiori "Yowakunai!"1 |
+% page 22
+    \skip4 \kanako Zet4 ta8 i a ki |
+    ra8 me nai4 WE ARE |
+    \black Mo2 mo |
+    i2 ro |
+% page 22.1
+    kuro-2 baa2 |
+% to Coda 1,2
+    -1 |
+    \mc Z!!!!!!!!!!1 |
+    \skip1 |
+% page 23 F
+    \barNumberCheck #96
+    "Setsumei shiyou"1 |
+    "momoiro kuroobaa Z to wa"1 |
+    \skip2 "Momota Kanako"2 |
+    "Tamai Shiori"2 "Sasaki Ayaka"2 |
+% page 23.1
+    \skip2 "Ariyasu Momoka"2 |
+    "Takagi Reni no"2 "5nin ni yoru"2 |
+    "shuumatsu hiroin de a-ru"1 |
+    \skip2. "Kyou mo"4 |
+% page 24
+    "chiisana otomodachi"1 |
+    "ookina otomodachi no tame"1 |
+    "Pafoomansu ni ase wo nagasu!"1 |
+    "Isoge, momoiro kuroobaa Z!"1 |
+    "2ban ga hajimaru zo!-"1 |
+% page 24.1
+    \skip1 | \skip1 | \skip1 | \skip1 | \skip1 |
+% page 25 G
+    \barNumberCheck #114
+    PUR8 PLE!!! \skip8 \reni Ya8 - ri ki re |
+    nai4. to8 - ki ni wa |
+    \skip1 | \skip1 |
+% page 25.1
+    \mc GREEN!!!4 \skip8 \momoka Wa8 - ta shi ta |
+    chi4 ni8 ma - ka se te |
+    ne8 -4. -4 \skip4 |
+    \skip 1 |
+    \mc BLUE!!4 \skip4 \kanako Aa...8 \skip4. |
+% page 26 H
+    \barNumberCheck #123
+    \mc PINK!!!4 \skip8 \ayaka O8 - ba ka na |
+    ko4 to8 ba k ka da ke |
+    do4 \skip2. |
+    \skip1 |
+% page 26.1
+    \mc YEL8 LOW!!!8 \skip8 \shiori E8 - ga o wo |
+    ki4 mi8 ni - a ge ru |
+    yo4 \skip2. |
+    \skip1 |
+% page 27
+    \mc RED!!!4 \skip4 \kanako "Ai ni kite ne"2 |
+    "ai ni iku yo"1 |
+    "Itsudatte"1 |
+    "mikata dakara"1 |
+% page 27.1
+    \skip1 | \skip1 | \skip1 | \skip1 |
+% D.S.1
+% page 17.1 C Stegno1-2x
+    \barNumberCheck #139
+    \kanako Hi4 to ri de |
+    mo4 \shiori hi to ri |
+    boc4 chi ja na |
+    i4 \ayaka Wa su re |
+% page 18-2x
+    na4 i de i |
+    te4 \momoka i tsu mo |
+    \black Ki8 mi4 no8 ko4 to8 wo |
+    -8 o mot4 te u |
+% page 18.1-2x
+    ta2 -8 u ka ra |
+    -2. \skip 4 |
+    \reni Wacha?1 |
+% page 19 D Stegno2-2x
+    \barNumberCheck #150
+    \black Do8 n na ni -4 \skip4 |
+    tsu8 ra ku te -4 \skip4 |
+    Na8 ga i ta - ta ka i |
+% page 19.1-2x
+    to8 shi te mo -4 \skip4 |
+    Shi8 n ji tsu zu ke4 rya8 |
+    -4 i tsu ka |
+% page 20-2x
+    ka4 na8 u - n4 da8 |
+    -4 \skip4 \momoka A8 ke nai4 |
+    yo4 ru8 nan8 - ka4 nai8 |
+% page 20.1-2x
+    \skip4 A4 sa hi |
+    wa2 no4 bo8 ru!!8 |
+    -2 \skip8 \reni Mi8 ra i |
+% page 21-2x
+    \kanako shi8 n ji te \shiori hi ta su ra |
+    \ayaka a8 ki ra me zu \black I ma wo |
+    ka4 ke8 nu - ke4 ro!!8 |
+    -2. \skip4 |
+% page 21.1 E-2x
+    \barNumberCheck #166
+    \reni "Daisuki da yo"1 |
+    \momoka "honto da yo"1 |
+    \ayaka "shinjite yo ne"1 |
+    \shiori "harahetta-"1 |
+% page 22-2x
+    \kanako \skip4 Mot4 to8 tsu yo ku |
+    na8 re ru4 WE ARE |
+    \black Mo2 mo |
+    i2 ro |
+% page 22.1-2x
+    kuroo2 baa2 |
+% page28 Coda 1
+    \barNumberCheck #175
+    \mc (Z!!!!!!!!!!)1 |
+% I
+    \barNumberCheck #176
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+% page28.1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+% page29
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+% page29.1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+% page30 J
+    \barNumberCheck #192
+    \shiori Ka8 na shi i -4 \skip4 |
+    ko8 to na do -4 \skip4 |
+    Is4 sho8 u - tsu zu ka |
+    na8 i ka ra!! \skip2 |
+    \skip1 |
+% page30.1
+    \skip1 |
+    \barNumberCheck #198
+% D.S.2
+% page 19 D Stegno2-3x
+    \barNumberCheck #198
+    \kanako Wa8 re ra wa -4 \skip4 |
+    a8 i do ru! -4 \skip4 |
+    \black Shuu8 ma tsu hi - ro i n |
+% page 19.1-3x
+    mo8 mo ku ro!! -4 \skip4 |
+    Ko8 bu shi ni gi re!4 Na8 |
+    -4 mi da bu |
+% page 20-3x
+    chi4 no8 me - su4 ze8 |
+    -4 \skip4 \ayaka Ya8 ma nai4 |
+    a4 me8 nan - ka4 nai8 |
+% page 20.1-3x
+    \skip4 Hi4 ka ri |
+    wo2 shin4 ji8 te |
+    -2 \skip8 \momoka Tsu8 yo ku |
+% page 21-3x
+    \reni ke8 da ka ku \kanako ta no shi ku |
+    \shiori u8 ru wa shi ku \black U ta i |
+    tsu4 zu8 ke - yo4 u!!8 |
+    -2. \skip4 |
+% page 21.1 E-3x
+    \barNumberCheck #214
+    \reni "Makenai shi!"1 |
+    \momoka "STAND UP!"1 |
+    \ayaka "Daijoubu!"1 |
+    \shiori "Yowakunai!"1 |
+% page 22-3x
+    \skip4 \kanako Zet4 ta8 i a ki |
+    ra8 me nai4 WE ARE |
+    \black Mo2 mo |
+    i2 ro |
+% page 22.1-3x
+    kuro-2 baa2 |
+% to Coda 1,2
+% page30 Coda 2
+    \barNumberCheck #223
+    \mc (Z!!!!!!!!!!)1 |
+% D.S.3
+% page 11 Intro Segno3-2x
+    \barNumberCheck #224
+    \mc "Kyou mo koushite egao wa mamorareta"\breve |
+    "Motto motto minna wo egao ni suru tame ni"\breve |
+% page 11.1-2x
+    "Ashita mo utae!"1 |
+    "Soshite odoru no da!"1 |
+    "Yuke!"2 "Momoiro kuroobaa Z"1 \skip2 |
+% page 12-2x
+    "Hatarake!"2 "Momoiro kuroobaa Z"2 |
+    \skip1 |
+    "Ganbare!"2 "Momoiro"2 |
+% to Coda 3
+% page30 Coda 3
+    \barNumberCheck #235
+    "kuroobaa Z"1 |
+    \skip1 |
+    \barNumberCheck #237
+}

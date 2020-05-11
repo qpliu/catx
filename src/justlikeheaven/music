@@ -1,0 +1,144 @@
+% drs vo bass
+% system1 vodrs
+% midi
+% roland
+% PARTS midi
+% MIDIS midiVo midiEg midiEb midiDr midiOthers
+% ROLAND JustLikeHea
+% ROBOT preview=33.3,countat=5
+
+\header {
+    title = "Just Like Heaven"
+}
+
+\paper {
+%    system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
+}
+
+#(set-global-staff-size 16)
+#(set-default-paper-size "letter" 'portrait)
+
+\include "markup"
+\include "drs"
+\include "vo"
+\include "steelpan"
+\include "eg1"
+\include "eg2"
+\include "synth"
+\include "piano"
+\include "bass"
+\include "lyrics"
+
+layoutmusic = <<
+    \tag #'(systemOnePart voPart vodrsPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+	\markupStuff
+	\steelpanPart
+	\voPart
+	\voLyrics
+    >>
+    \tag #'(systemOnePart synthPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Synth" }
+    } <<
+	\markupStuff
+	\synthPart
+    >>
+    \tag #'(systemOnePart pianoPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Piano" }
+    } <<
+	\markupStuff
+	\pianoPart
+    >>
+    \tag #'(systemOnePart egOnePart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Eg1" }
+    } <<
+	\markupStuff
+	\egOnePart
+    >>
+    \tag #'(systemOnePart egTwoPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Eg2" }
+    } <<
+	\markupStuff
+	\egTwoPart
+    >>
+    \tag #'(systemOnePart bassPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Bass" }
+    } <<
+	\markupStuff
+	\bassPart
+    >>
+    \tag #'(systemOnePart drsPart vodrsPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drsPart
+    >>
+>>
+
+midimusicAll = <<
+    \markupStuff
+    \tag #'(midiDr drsPart) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drsPart
+    \tag #'(midiVo voPart) \new Staff \with {
+	midiInstrument = #"steel drums"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #1
+    } \voPart
+    \tag #'(midiOthers synthPart) \new Staff \with {
+	midiInstrument = #"synthstrings 1"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.5
+    } \synthPart
+    \tag #'(midiVo pianoPart) \new Staff \with {
+	midiInstrument = #"electric grand"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.5
+    } \pianoPart
+    \tag #'(midiEb bassPart) \new Staff \with {
+	midiInstrument = #"electric bass (pick)"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.5
+    } \bassPart
+    \tag #'(midiEg egOnePart) \new Staff \with {
+	midiInstrument = #"overdriven guitar"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #1
+    } \egOnePart
+    \tag #'(midiEg egTwoPart) \new Staff \with {
+	midiInstrument = #"electric guitar (clean)"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #1
+    } \egTwoPart
+>>
+
+midimusic = <<
+    \midimusicAll
+>>
+
+rolandmusic = <<
+    \markupStuff
+    \tag #'(rolandMelody) \new Staff \with {
+	midiInstrument = #"steel drums" % 114
+    } <<
+	\voPart
+	\pianoPart
+    >>
+    \tag #'(rolandBass) \new Staff \with {
+	midiInstrument = #"electric bass (pick)"
+    } \bassPart
+    \tag #'(rolandBackOne) \new Staff \with {
+	midiInstrument = #"synthstrings 2" % 51
+    } \synthPart
+    \tag #'(rolandBackTwo) \new Staff \with {
+	midiInstrument = #"overdriven guitar"
+    } <<
+	\egOnePart
+	\egTwoPart
+    >>
+    \tag #'(rolandDrums) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drsPart
+>>

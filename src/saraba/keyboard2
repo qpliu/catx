@@ -1,0 +1,334 @@
+keyboardTwoPart = \new Voice = "key2b" \new Voice = "key2a" {
+    \context Voice = "key2b" \voiceTwo
+% page 106 Intro.1
+    \barNumberCheck #1
+    r1 | r1 | r1 | r1 |
+% page 107
+    \relative {
+	<e e'>1\startInstrument "Brass"~ |
+	<e e'>1 |
+	<e e'>1 |
+	r8 <bes'' bes'> r <a a'> r <g g'>4. |
+    }
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat
+    \barNumberCheck #9
+    r1 | r1 | r1 |
+    \relative {
+	r2 r4 r16 <e' e'>16 <g g'> <b b'> |
+    }
+% page 108
+    \relative {
+	<ais' ais'>1~ |
+	<ais ais'>2~ <ais ais'>8 <b b'> <g g'> <e e'>~ |
+	<e e'>1 |
+    }
+    \relative {
+	r8 <bes' bes'> r <a a'> r <g g'>4. |
+    }
+% page 108.1 A
+    \barNumberCheck #17
+    \repeat percent 4 {
+	\relative {
+	    <e' e'>8\staccato <e e'>\staccato r4 r2 |
+	    r1 |
+	}
+    }
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-2x
+    \barNumberCheck #25
+    r1 | r1 | r1 |
+    \relative {
+	r2 r4 r16 <e' e'>16 <g g'> <b b'> |
+    }
+% page 108-2x
+    \relative {
+	<ais' ais'>1~ |
+	<ais ais'>2~ <ais ais'>8 <b b'> <g g'> <e e'>~ |
+	<e e'>1 |
+    }
+% to Coda2
+    \relative {
+	r8 <bes' bes'> r <a a'> r <g g'>4. |
+    }
+% to Coda3
+% page 108.1 A-2x
+    \barNumberCheck #33
+    \repeat percent 3 {
+	\relative {
+	    <e' e'>8\staccato <e e'>\staccato r4 r2 |
+	    r1 |
+	}
+    }
+% page 109.1
+    \relative {
+	<e' e'>8 <e e'> r4 r8 <e e'> r <e e'>\stopInstrument "Brass" |
+	r1 |
+    }
+% page 110 B Stegno1
+    \barNumberCheck #41
+    r1 | r1 | r1 | r1 |
+% page 110.1
+    r1 | r1 | r1 | r1 |
+% page 111
+    r1 | r1 | r1 | r1 |
+% page 111.1 C
+    \barNumberCheck #53
+    r1 | r1 | r1 | r1 |
+% page 112
+    r1 | r1 | r1 | r1 |
+% page 112.1 D
+    \barNumberCheck #61
+    \relative {
+	<e' g b>1\startInstrument "Pad" |
+	<e a c>1 |
+	<d fis a>1 |
+	<d g b>1 |
+    }
+% page 113
+    \relative {
+	<c' e g>1 |
+	<c e a>1 |
+	<e fis b>1 |
+	<dis fis b>1 |
+    }
+% page 113.1
+    \relative {
+	<e' g b>1 |
+	<e a c>1 |
+	<d fis a>1 |
+	<d g b>1 |
+    }
+% page 114
+    \relative {
+	<c' e g>1 |
+	<c e a>1 |
+	<e fis b>1 |
+	<dis fis b>1 |
+    }
+% page 114.1
+    \relative {
+	<c' e g>1 |
+	<d fis a>1 |
+	<e a b>1 |
+    }
+% to Coda1
+    \relative {
+	<e' a b>4\staccato r4 r2\stopInstrument "Pad" |
+    }
+% page 115 E
+    \barNumberCheck #81
+    \relative {
+	r8\startInstrument "Pizzicato" e' r e r dis r dis |
+	r8 d r d r dis r dis |
+	r8 d r d r dis r dis |
+	r8 d r d r cis r cis |
+    }
+% page 115.1 F
+    \barNumberCheck #85
+    \relative {
+	r8 e' r e r dis r dis |
+	r8 d r d r dis r dis |
+	r8 d r d r dis r dis |
+	r8 d r d r cis r cis |
+    }
+% page 116
+    \relative {
+	r8 e' r e r dis r dis |
+	r8 d r d r dis r dis |
+	<e e'>8 <e e'> r4 r8 <e e'> r <e e'>\stopInstrument "Pizzicato" |
+	r1 |
+    }
+% page 116.1 G
+    \barNumberCheck #93
+    \relative {
+	<e' g b>4\startInstrument "Piano" <c e a> <e g b>8 <e g b>4 <c fis a>8~ |
+	<c fis a>1 |
+	<d fis a>4 <b d fis> <d fis a>8 <d fis a>4 <d g b>8~ |
+	<d g b>1 |
+    }
+% page 117
+    \relative {
+	<e' g b>4 <c e a> <e g b>8 <e g b>4 <c fis a>8~ |
+	<c fis a>1 |
+	<d fis a>2~ <d fis a>8 <fis a d>4 <fis a c>8 |
+	<e g b>2~ <e g b>8 e4. |
+    }
+% page 117.1
+    \relative {
+	<e' g b>4 <c e a> <e g b>8 <e g b>4 <c fis a>8~ |
+	<c fis a>1 |
+	<d fis a>4 <b d fis> <d fis a>8 <d fis a>4 <g b d>8~ |
+	<g b d>1 |
+    }
+% page 118
+    \relative {
+	<f' b d>4. <f a c>8~ <f a c>2~ |
+	<f a c>2~ <f a c>8 f c'4 |
+	<d, fis a>2.. a8 |
+	<fis' a d>4 <fis a d> <fis a d> <fis a d> |
+    }
+% page 118.1 H
+    \barNumberCheck #109
+    \relative {
+	<b d g>2 <b d g>4. <d f a>8~ |
+	<d f a>8 <d f a>4. <d f a>4 <d f a> |
+	<c e g>4 <c e g> <c e g>8 <c e g>4 <c e g>8~ |
+	<c e g>8 <c e g>4 <c e g>8 <c e g>4 <b d fis> |
+    }
+% page 119
+    \repeat percent 2 {
+	\relative {
+	    <d' g b>4 <d g b> <d g b> <d g b>8 <d f a>8~ |
+	    <d f a>8 <d f a>4. <d f a>4 <d f a> |
+	    <c e g>4 <c e g> <c e g>8 <c e g>4 <c e g>8~ |
+	    <c e g>8 <c e g>4 <c e g>8 <c e g>4 <d fis a> |
+	}
+    }
+% page 120+1
+    \relative {
+	<e' g c>4 <e g c> <e g c>8 <e g c>4 <fis a d>8~ |
+	<fis a d>8 <fis a d>4 <fis a d>8 <fis a d>4 <fis a d> |
+    }
+% page 120.1
+    \relative {
+	<gis' b e>4 <gis b e> <gis b e>8 <gis b e>4 <gis b e>8~ |
+	<gis b e>8 <gis b e>4 <gis b e>8 <gis b e> <gis b e> <gis b e>4 |
+    }
+% I
+    \barNumberCheck #125
+    \repeat percent 2 {
+	\relative {
+	    \ottava #-1 <bes, bes'>4. <e e'>8~ <e e'>2~ |
+	}
+% page 121
+	\relative {
+	    <e e'>1~ |
+	    <e e'>1~ |
+	    <e e'>1 |
+	}
+    }
+% page 122
+    \relative {
+	<bes, bes'>4. <e e'>8~ <e e'>2~ |
+	<e e'>1 |
+	<e e'>8 <e e'> r4 <e e'>8 <e e'> r4 |
+	<e e'>8 <e e'> r <e e'> <e e'> <e e'> r4\stopInstrument "Piano" \ottava #0 |
+    }
+% page 122.1 J
+    \barNumberCheck #137
+    r1 | r1 | r1 |
+    \relative {
+	r2\startInstrument "Brass" r4 r16 <e' e'>16 <g g'> <b b'> |
+    }
+% page 123
+    \relative {
+	<ais' ais'>1~ |
+	<ais ais'>2~ <ais ais'>8 <b b'> <g g'> <e e'>~ |
+	<e e'>1 |
+	r8 <bes' bes'> r <a a'> r <g g'>4.\stopInstrument "Brass" |
+    }
+% page 123.1
+    r1 | r1 |
+% D.S.1
+% page 110 B Stegno1-2x
+    \barNumberCheck #147
+    r1 | r1 | r1 | r1 |
+% page 110.1-2x
+    r1 | r1 | r1 | r1 |
+% page 111-2x
+    r1 | r1 | r1 | r1 |
+% page 111.1 C-2x
+    \barNumberCheck #159
+    r1 | r1 | r1 | r1 |
+% page 112-2x
+    r1 | r1 | r1 | r1 |
+% page 112.1 D-2x
+    \barNumberCheck #167
+    \relative {
+	<e' g b>1\startInstrument "Pad" |
+	<e a c>1 |
+	<d fis a>1 |
+	<d g b>1 |
+    }
+% page 113-2x
+    \relative {
+	<c' e g>1 |
+	<c e a>1 |
+	<e fis b>1 |
+	<dis fis b>1 |
+    }
+% page 113.1-2x
+    \relative {
+	<e' g b>1 |
+	<e a c>1 |
+	<d fis a>1 |
+	<d g b>1 |
+    }
+% page 114-2x
+    \relative {
+	<c' e g>1 |
+	<c e a>1 |
+	<e fis b>1 |
+	<dis fis b>1 |
+    }
+% page 114.1-2x
+    \relative {
+	<c' e g>1 |
+	<d fis a>1 |
+	<e a b>1 |
+    }
+% to Coda1
+% page 123 Coda1
+    \barNumberCheck #186
+    \relative {
+	<e' a b>4\staccato\stopInstrument "Pad" r4 r2 |
+    }
+% D.S.2
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-3x
+    \barNumberCheck #187
+    r1 | r1 | r1 |
+    \relative {
+	r2 r4 r16 <e' e'>16\startInstrument "Brass" <g g'> <b b'> |
+    }
+% page 108-3x
+    \relative {
+	<ais' ais'>1~ |
+	<ais ais'>2~ <ais ais'>8 <b b'> <g g'> <e e'>~ |
+	<e e'>1 |
+    }
+% to Coda2
+% page 124 Coda2
+    \barNumberCheck #194
+    \relative {
+	r8 <bes' bes'> r <a a'> r <g g'>4. |
+    }
+% D.S.3
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-4x
+    \barNumberCheck #195
+    r1 | r1 | r1 |
+    \relative {
+	r2 r4 r16 <e' e'>16 <g g'> <b b'> |
+    }
+% page 108-4x
+    \relative {
+	<ais' ais'>1~ |
+	<ais ais'>2~ <ais ais'>8 <b b'> <g g'> <e e'>~ |
+	<e e'>1 |
+    }
+    \relative {
+	r8 <bes' bes'> r <a a'> r <g g'>4. |
+    }
+% to Coda3
+% page 124 Coda3
+    \barNumberCheck #203
+    \relative {
+	r8 <bes' bes'> r <a a'> r <g g'>4. |
+	r8 <bes bes'> r <a a'> r <g g'>4.~ |
+    }
+% page 124.1
+    \relative {
+	<g' g'>1 |
+	r1 |
+	<e e'>8 <e e'> r4 r2 |
+    }
+    \barNumberCheck #208
+}

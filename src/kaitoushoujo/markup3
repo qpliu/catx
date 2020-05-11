@@ -1,0 +1,174 @@
+markupThreeStuff = {
+    \tempo 4 = 160
+% page 18
+    \tag #'(pageNumber keep) \mark "p18"
+    s1 |
+% A
+    \mark \markup { \box \bold A }
+    \bar "||"
+    \barNumberCheck #2
+    s1 | s1 | s1 | s1 |
+% page 18.1
+    \tag #'(pageNumber keep) \mark "p18.1"
+    s1 | s1 | s1 | s1 |
+% B
+    \mark \markup { \box \bold B }
+    \bar "||"
+    \barNumberCheck #10
+    s1 |
+% page 18.2
+    \tag #'(pageNumber keep) \mark "p18.2"
+    s1 | s1 | s1 | s1 | s1 |
+% page 18.3
+    \tag #'(pageNumber keep) \mark "p18.3"
+    s1 | s1 |
+% C
+    \mark \markup { \box \bold C }
+    \bar "||"
+    \barNumberCheck #18
+    s1 | s1 | s1 |
+% page 18.4
+    \tag #'(pageNumber keep) \mark "p18.4"
+    s1 | s1 | s1 | s1 | s1 |
+% page 18.5 D Stegno1
+    \mark \markup { \box \bold D }
+    \bar "||"
+    \barNumberCheck #26
+    s1 | s1 | s1 | s1 | s1 |
+% page 18.6
+    \tag #'(pageNumber keep) \mark "p18.6"
+    s1 | s1 | s1 | s1 |
+% page 18.7 E Stegno2
+    \mark \markup { \box \bold E }
+    \bar "||"
+    \key ges \major
+    \barNumberCheck #35
+    s1 | s1 | s1 | s1 |
+% page 18.8
+    \tag #'(pageNumber keep) \mark "p18.8"
+    s1 | s1 | s1 | s1 |
+% page 18.9
+    \tag #'(pageNumber keep) \mark "p18.9"
+    s1 | s1 | s1 | s1 |
+% page 19
+    \tag #'(pageNumber keep) \mark "p19"
+    s1 | s1 | s1 |
+% to Coda1,2
+    s1 |
+% F
+    \mark \markup { \box \bold F }
+    \bar "||"
+    \key c \major
+    \barNumberCheck #51
+    s1 |
+% page 19.1
+    \tag #'(pageNumber keep) \mark "p19.1"
+    s1 | s1 | s1 |
+% G
+    \mark \markup { \box \bold G }
+    \bar "||"
+    \barNumberCheck #55
+    s1 | s1 |
+% page 19.2
+    \tag #'(pageNumber keep) \mark "p19.2"
+    s1 | s1 | s1 | s1 | s1 | s1 |
+% D.S.1
+% page 18.5 D Stegno1-2x
+    \mark \markup { \box \bold D-2x }
+    \bar "||"
+    \barNumberCheck #63
+    s1 | s1 | s1 | s1 | s1 |
+% page 18.6-2x
+    \tag #'(pageNumber keep) \mark "p18.6-2x"
+    s1 | s1 | s1 | s1 |
+% page 18.7 E Stegno2-2x
+    \mark \markup { \box \bold E-2x }
+    \bar "||"
+    \key ges \major
+    \barNumberCheck #72
+    s1 | s1 | s1 | s1 |
+% page 18.8-2x
+    \tag #'(pageNumber keep) \mark "p18.8-2x"
+    s1 | s1 | s1 | s1 |
+% page 18.9-2x
+    \tag #'(pageNumber keep) \mark "p18.9-2x"
+    s1 | s1 | s1 | s1 |
+% page 19-2x
+    \tag #'(pageNumber keep) \mark "p19-2x"
+    s1 | s1 | s1 |
+% to Coda1,2
+% page 19.3 Coda1
+    \mark \markup { \musicglyph #"scripts.coda" 1 }
+    \bar "||"
+    \barNumberCheck #87
+    s1 |
+% H
+    \mark \markup { \box \bold H }
+    \bar "||"
+    \key a \major
+    \barNumberCheck #88
+    s1 | s1 | s1 | s1 |
+% page 19.4 I
+    \mark \markup { \box \bold I }
+    \bar "||"
+    \barNumberCheck #92
+    s1 | s1 | s1 | s1 | s1 |
+% page 19.5
+    \tag #'(pageNumber keep) \mark "p19.5"
+    s1 | s1 | s1 | s1 | s1 |
+% page 19.6
+    \tag #'(pageNumber keep) \mark "p19.6"
+    s1 | s1 | s1 | s1 | s1 |
+% page 19.7
+    \tag #'(pageNumber keep) \mark "p19.7"
+    s1 |
+% J repeat
+    \mark \markup { \box \bold J }
+    \bar "||"
+    \barNumberCheck #108
+    s1*6 |
+% ending 1
+    s1*2 |
+% end repeat
+% J repeat-2x
+    \mark \markup { \box \bold J-2x }
+    \bar "||"
+    \barNumberCheck #116
+    s1*6 |
+% ending 2
+    s1*2 |
+    s1 |
+% D.S.2
+% page 18.7 E Stegno2-3x
+    \mark \markup { \box \bold E-3x }
+    \bar "||"
+    \key ges \major
+    \barNumberCheck #125
+    s1 | s1 | s1 | s1 |
+% page 18.8-3x
+    \tag #'(pageNumber keep) \mark "p18.8-3x"
+    s1 | s1 | s1 | s1 |
+% page 18.9-3x
+    \tag #'(pageNumber keep) \mark "p18.9-3x"
+    s1 | s1 | s1 | s1 |
+% page 19-3x
+    \tag #'(pageNumber keep) \mark "p19-3x"
+    s1 | s1 | s1 |
+% to Coda1,2
+% page 19.8 Coda2
+    \mark \markup { \musicglyph #"scripts.coda" 2 }
+    \bar "||"
+    \barNumberCheck #140
+    s1 |
+% page 17.4 K
+    \mark \markup { \box \bold K }
+    \bar "||"
+    \key a \major
+    \barNumberCheck #141
+    s1 | s1 | s1 | s1 |
+% page 19.9-3x
+    \tag #'(pageNumber keep) \mark "p19.9-3x"
+    s1 | s1 | s1 | s1 | s1 |
+    \bar "|."
+    \barNumberCheck #150
+}

@@ -1,0 +1,45 @@
+[TEXT_PREFIX]egText = {
+\mymark "Intro 1" #1
+    `>over=program29;volume.4`2. `bendAfter-7`4~ |
+    `bendAfter-7`4 r2. |
+    r1 |
+\mymark "Intro 2" #4
+    r1 |
+    `bendAfter3`2 r |
+    r1 |
+    `bendAfter4`2 r |
+    r1 r1 r1 r1 |
+\mymark "A" #12
+    r1 r1 r1 r1 r1 r1 r1 r1 |
+\mymark "B" #20
+    r1 r1 r1 r1 r1 r1 r1 r1 |
+\mymark "C" #28
+    r1 r1 r1 r1 r1 r1 r1 |
+    r2 r8 `bendAfter-2`4. |
+\mymark "D" #36
+    r1 r1 r1 r1 r1 r1 r1 r1 |
+\mymark "E" #44
+    r1 r1 r1 |
+    r2 r8 `bendAfter-2`4. |
+\mymark "B-2" #48
+    r1 r1 r1 r1 r1 r1 r1 r1 |
+\mymark "C-2" #56
+    r1 r1 r1 r1 r1 r1 r1 |
+    r2 r8 `bendAfter-2`4. |
+\mymark "D-2" #64
+    r1 r1 r1 r1 r1 r1 r1 r1 |
+\mymark "F" #72
+    r1 r1 r1 r1 r1 r1 r1 r1 |
+\mymark "G" #80
+    `bend4:0:-1:180`1 |
+    r1 |
+    `bend4:90:-1:90`1 |
+    r1 r1 r1 r1 |
+    r2 r8 `bendAfter-2`4. |
+\mymark "D-3" #88
+    r1 r1 r1 r1 r1 r1 r1 r1 |
+\mymark "Ending" #96
+    r1 r1 r1 |
+    r4 `bendAfter-2`2. |
+    r1 |
+}

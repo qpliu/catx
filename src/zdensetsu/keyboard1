@@ -1,0 +1,380 @@
+keyboardOnePart = \new Voice = "key1b" \new Voice = "key1a" {
+    \context Voice = "key1b" \voiceTwo
+% page 10
+    \barNumberCheck #1
+    r1 | r1 |
+    \relative {
+	<g b d f bes>4\startInstrument "Organ"\staccato <g b d f bes>2.~ |
+	<g b d f bes>1\stopInstrument "Organ" |
+    }
+% page 11 Intro Segno3
+    \barNumberCheck #5
+    \relative {
+	\repeat percent 3 {
+	    c'''4\startInstrument "Synth" r8 c16 c16 r8 c8\staccato c8\staccato c8\staccato |
+	    r8 c16 c16 r8 c16 c16 r8 c8\staccato c8\staccato c8\staccato |
+	}
+    }
+% page 11.1+2
+    r1\stopInstrument "Synth" |
+    \relative {
+	r2 r4\startInstrument "Recorder" c'''16 d16 ees16 f16 |
+    }
+% page 12
+    \relative {
+	\repeat percent 2 {
+	    \ottava #1 g'''8 bes4 g8 bes4 g8 bes8~ |
+	    bes8 g8 bes4 g8 bes4 b8 |
+	}
+    }
+% to Coda 3+1
+% page 12.1 A
+    \barNumberCheck #17
+    \relative {
+	c'''4 r4 r2\stopInstrument "Recorder" \ottava #0 |
+    }
+    r1 | r1 | r1 |
+% page 13
+    r1 | r1 | r1 | r1 |
+% page 13.1
+    r1 | r1 | r1 | r1 |
+% page 14
+    r1 | r1 | r1 | r1 |
+% page 14.1 B
+    \barNumberCheck #33
+    r1 | r1 | r1 | r1 |
+% page 15
+    r1 | r1 | r1 | r1 |
+% page 15.1
+    r1 | r1 | r1 | r1 |
+% page 16
+    r1 | r1 | r1 | r1 |
+% page 16.1
+    r1 | r1 | r1 | r1 |
+% page 17
+    r1 | r1 | r1 | r1 |
+% page 17.1 C Stegno1
+    \barNumberCheck #57
+    r1 |
+    \relative {
+	r8\startInstrument "Recorder" \ottava #1 bes''8 c8 d8 ees8 f8 g8 bes8 |
+	aes2 r2 |
+	r8 c8 bes8 g8 c8 bes8 g8 bes8 |
+    }
+% page 18
+    \relative {
+	aes'''2 r2 |
+	r8 g8 bes8 g8 aes8 g8 f8 ees8 \ottava #0 |
+	d2. r4\stopInstrument "Recorder" |
+	r1 |
+    }
+% page 18.1
+    r1 |
+    \relative {
+	\deadNote c''1^\markup { \hspace #-1 "┌S.E.┐" } |
+	g,16\startInstrument "Synth." a16 b16 d16 g16 a16 b16 d16 b16 c16 d16 g16 b16 c16 d16 g16\stopInstrument "Synth." |
+    }
+% page 19 D Stegno2
+    \barNumberCheck #68
+    r1 | r1 | r1 |
+% page 19.1
+    r1 |
+    \relative {
+	b''8\startInstrument "Glocken" a8 b8 a8 b8 a4 b8~ |
+	b4 a4 g4 a4 |
+    }
+% page 20
+    \relative {
+	b''4 b8 b8~ b8 c4 b8~ |
+	b1\stopInstrument "Glocken" |
+	r1 |
+    }
+% page 20.1
+    r1 | r1 |
+    \relative {
+	g16\startInstrument "Synth" a16 b16 d16 g16 a16 b16 d16 b16 c16 d16 g16 b16 c16 d16 g16 |
+    }
+% page 21
+    \relative {
+	c'4. c8~ c4 c4~ |
+	c8 c4. c4 c4 |
+	<b e>2.. <b dis>8 |
+	<b dis>1 |
+    }
+% page 21.1 E
+    \barNumberCheck #84
+    \relative {
+	<c'' c'>8 <c c'>8 <c c'>4\staccato r2 |
+	<b b'>8 <b b'>8 <b b'>4\staccato r2 |
+	<a a'>8 <a a'>8 <a a'>4\staccato r2 |
+	<g g'>8 <g g'>8 <g g'>4\staccato r2 |
+    }
+% page 22
+    \relative {
+	<a fis' c'>4. <a fis' c'>8~ <a fis' c'>4 <a fis' c'>4~ |
+	<a fis' c'>8 <a fis' c'>4. <a fis' c'>4 <a fis' c'>4 |
+	<b fis' e'>1 |
+	<b fis' dis'>1 |
+    }
+% page 22.1
+    \relative {
+	r2 <e b' d g>2~ |
+    }
+% to Coda 1,2
+    \relative {
+	<e b' d g>1 |
+    }
+    r1 | r1 |
+% page 23 F
+    \barNumberCheck #96
+    \relative {
+	\repeat percent 14 {
+	    c'''8\staccato c8\staccato c8 c16 c16 r16 c16 r16 c16 c8\staccato c8 |
+	}
+    }
+% page 24.1+1
+    \relative {
+	<g b d f bes>4\staccato <g b d f bes>2.~ |
+	<g b d f bes>1 |
+	<g g'>8 <bes bes'>4 <g g'>8 <bes bes'>4 <g g'>8 <bes bes'>8~ |
+	<bes bes'>8 <g g'>8 <bes bes'>4 <g g'>8. <bes bes'>16~ <bes bes'>8 <b b'>8 |
+    }
+% page 25 G
+    \barNumberCheck #114
+    \relative {
+	<c' c'>4 r4 r2 |
+	r1 |
+	\ottava #-1 <c, c'>4 r8 <c c'>8 r4 <c c'>8 <c c'>8 |
+	r4 <bes bes'>4\staccato <c c'>2 |
+    }
+% page 25.1
+    r1 | r1 |
+    \relative {
+	<c c'>4 r8 <c c'>8 r4 <c c'>8 <c c'>8 |
+	r4 <bes bes'>4\staccato <c c'>2 |
+	r1 |
+    }
+% page 26 H
+    \barNumberCheck #123
+    \relative {
+	<c c'>4 r4 r2 |
+	r1 |
+	<c c'>4 r8 <c c'>8 r4 <c c'>8 <c c'>8 |
+	r4 <bes bes'>4\staccato <c c'>2 |
+    }
+% page 26.1
+    r1 | r1 |
+    \relative {
+	<c c'>4 r8 <c c'>8 r4 <c c'>8 <c c'>8 |
+	r4 <bes bes'>4\staccato <c c'>2 |
+    }
+% page 27
+    \relative {
+	<d d'>4\staccato \ottava #0 r4 r2 |
+	r1 |
+	g8 g'4 g,8 g'4 g,8 g'8~ |
+	g8 g,8 g'4 g,4 g'4 |
+    }
+% page 27.1
+    \relative {
+	\ottava #-1 <c c'>2 <bes bes'>2 |
+	<aes aes'>2 <bes bes'>2 |
+	<f f'>4 <g g'>4 <g g'>4 <g g'>8 <c c'>8~ |
+	<c c'>2 \ottava #0 r2 |
+    }
+% D.S.1
+% page 17.1 C Stegno1-2x
+    \barNumberCheck #139
+    r1 |
+    \relative {
+	r8\startInstrument "Recorder" \ottava #1 bes''8 c8 d8 ees8 f8 g8 bes8 |
+	aes2 r2 |
+	r8 c8 bes8 g8 c8 bes8 g8 bes8 |
+    }
+% page 18-2x
+    \relative {
+	aes'''2 r2 |
+	r8 g8 bes8 g8 aes8 g8 f8 ees8 \ottava #0 |
+	d2. r4\stopInstrument "Recorder" |
+	r1 |
+    }
+% page 18.1-2x
+    r1 |
+    \relative {
+	\deadNote c''1^\markup { \hspace #-1 "┌S.E.┐" } |
+	g,16\startInstrument "Synth." a16 b16 d16 g16 a16 b16 d16 b16 c16 d16 g16 b16 c16 d16 g16\stopInstrument "Synth." |
+    }
+% page 19 D Stegno2-2x
+    \barNumberCheck #150
+    r1 | r1 | r1 |
+% page 19.1-2x
+    r1 |
+    \relative {
+	b''8\startInstrument "Glocken" a8 b8 a8 b8 a4 b8~ |
+	b4 a4 g4 a4 |
+    }
+% page 20-2x
+    \relative {
+	b''4 b8 b8~ b8 c4 b8~ |
+	b1\stopInstrument "Glocken" |
+	r1 |
+    }
+% page 20.1-2x
+    r1 | r1 |
+    \relative {
+	g16\startInstrument "Synth" a16 b16 d16 g16 a16 b16 d16 b16 c16 d16 g16 b16 c16 d16 g16 |
+    }
+% page 21-2x
+    \relative {
+	c'4. c8~ c4 c4~ |
+	c8 c4. c4 c4 |
+	<b e>2.. <b dis>8 |
+	<b dis>1 |
+    }
+% page 21.1 E-2x
+    \barNumberCheck #166
+    \relative {
+	<c'' c'>8 <c c'>8 <c c'>4\staccato r2 |
+	<b b'>8 <b b'>8 <b b'>4\staccato r2 |
+	<a a'>8 <a a'>8 <a a'>4\staccato r2 |
+	<g g'>8 <g g'>8 <g g'>4\staccato r2 |
+    }
+% page 22-2x
+    \relative {
+	<a fis' c'>4. <a fis' c'>8~ <a fis' c'>4 <a fis' c'>4~ |
+	<a fis' c'>8 <a fis' c'>4. <a fis' c'>4 <a fis' c'>4 |
+	<b fis' e'>1 |
+	<b fis' dis'>1 |
+    }
+% page 22.1-2x
+    \relative {
+	r2 <e b' d g>2~ |
+    }
+% page28 Coda 1
+    \barNumberCheck #175
+    \relative {
+	<e b' d g>1 |
+    }
+% I
+    \barNumberCheck #176
+    \relative {
+	a'4. f8~ f4 r4 |
+	g4. e8~ e4 r4 |
+	f4. g8~ g4 r4 |
+	f8 e8 f8 e8~ e4 r4 |
+    }
+% page28.1
+    \relative {
+	<f' a>2.. <gis b>8~ |
+	<gis b>1 |
+	<a c>2.. cis8~ |
+	cis4 d2 e4 |
+    }
+% page29
+    \relative {
+	f''1 |
+	r2 r4 a4 |
+	g2 e4 d8 c8~ |
+	<< { \voiceOne c1 } \context Voice = "key1b" { c,16 d16 e16 g16 c16 d16 e16 g16 \ottava #2 c16 f16 a16 c16 f16 g16 a16 c16 \ottava #0 } >> |
+	\oneVoice
+    }
+% page29.1
+    \relative {
+	<b fis' dis'>4. <b fis' dis'>8~ <b fis' dis'>4 <b fis' dis'>4~ |
+	<b fis' dis'>8 <b fis' dis'>4. <b fis' dis'>4 <b fis' dis'>4 |
+	e'4 e8 e8 e8 f8 r8 e8~ |
+	e1 |
+    }
+% page30 J
+    \barNumberCheck #192
+    r1 | r1 | r1 | r1 |
+    \relative {
+	g'16\startInstrument "Glocken" c16 e16 g16 \ottava #1 c16 e16 g16 c16~ c2\stopInstrument "Glocken" \ottava #0 |
+    }
+% page30.1
+    \relative {
+	g8\startInstrument "Harp" d'8 g8 b8 a,8 e'8 a8 cis8\stopInstrument "Harp" |
+    }
+% D.S.2
+% page 19 D Stegno2-3x
+    \barNumberCheck #198
+    r1 | r1 | r1 |
+% page 19.1-3x
+    r1 |
+    \relative {
+	b''8\startInstrument "Glocken" a8 b8 a8 b8 a4 b8~ |
+	b4 a4 g4 a4 |
+    }
+% page 20-3x
+    \relative {
+	b''4 b8 b8~ b8 c4 b8~ |
+	b1\stopInstrument "Glocken" |
+	r1 |
+    }
+% page 20.1-3x
+    r1 | r1 |
+    \relative {
+	g16\startInstrument "Synth" a16 b16 d16 g16 a16 b16 d16 b16 c16 d16 g16 b16 c16 d16 g16 |
+    }
+% page 21-3x
+    \relative {
+	c'4. c8~ c4 c4~ |
+	c8 c4. c4 c4 |
+	<b e>2.. <b dis>8 |
+	<b dis>1 |
+    }
+% page 21.1 E-3x
+    \barNumberCheck #214
+    \relative {
+	<c'' c'>8 <c c'>8 <c c'>4\staccato r2 |
+	<b b'>8 <b b'>8 <b b'>4\staccato r2 |
+	<a a'>8 <a a'>8 <a a'>4\staccato r2 |
+	<g g'>8 <g g'>8 <g g'>4\staccato r2 |
+    }
+% page 22-3x
+    \relative {
+	<a fis' c'>4. <a fis' c'>8~ <a fis' c'>4 <a fis' c'>4~ |
+	<a fis' c'>8 <a fis' c'>4. <a fis' c'>4 <a fis' c'>4 |
+	<b fis' e'>1 |
+	<b fis' dis'>1 |
+    }
+% page 22.1-3x
+    \relative {
+	r2 <e b' d g>2~ |
+    }
+% to Coda 1,2
+% page30 Coda 2
+    \barNumberCheck #223
+    \relative {
+	<e b' d g>1 |
+    }
+% D.S.3
+% page 11 Intro Segno3-2x
+    \barNumberCheck #224
+    \relative {
+	\repeat percent 3 {
+	    c'''4 r8 c16 c16 r8 c8\staccato c8\staccato c8\staccato |
+	    r8 c16 c16 r8 c16 c16 r8 c8\staccato c8\staccato c8\staccato |
+	}
+    }
+% page 11.1+2-2x
+    r1\stopInstrument "Synth" |
+    \relative {
+	r2 r4\startInstrument "Recorder" c'''16 d16 ees16 f16 |
+    }
+% page 12-2x
+    \relative {
+	\ottava #1 g'''8 bes4 g8 bes4 g8 bes8~ |
+	bes8 g8 bes4 g8 bes4 b8 |
+	g8 bes4 g8 bes4 g8 bes8~ |
+    }
+    \barNumberCheck #235
+% to Coda 3
+% page30 Coda 3
+    \barNumberCheck #235
+    \relative {
+	bes'''8 g8 bes4 \tuplet 3/2 { g4 bes4 b4 } |
+	c2 r2 |
+    }
+    \barNumberCheck #237
+}

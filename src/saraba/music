@@ -1,0 +1,180 @@
+% vocal harmony guitar1 guitar2 keyboard1 keyboard2 bass drums
+% all
+% midi
+% roland
+% PARTS midi
+% MIDIS midiOne midiTwo
+
+\header {
+    title = "サラバ、愛しき悲しみたちよ"
+    composer = "Lyrics:岩里 祐穂  Composition:布袋 寅泰"
+}
+
+#(define myDrumStyleTable '(
+    (crashcymbal    cross    #f          7)
+    (hihat          cross    #f          5)
+    (openhihat      cross    "open"      5)
+    (closedhihat    cross    "stopped"   5)
+    (hightom        default  #f          3)
+    (snare          default  #f          1)
+    (sidestick      cross    #f          1)
+    (lowtom         default  #f          -1)
+    (bassdrum       default  #f          -3)
+))
+
+\include "markup"
+\include "chords"
+\include "vocal"
+\include "vocaltext_lyrics"
+\include "vocaltext_midi"
+\include "harmony"
+\include "lyrics"
+\include "guitar1"
+\include "guitar1text_lyrics"
+\include "guitar1text_midi"
+\addQuote "guitar1" \guitarOnePart
+\addQuote "lyricsguitar1" \lyricsguitarOneText
+\addQuote "midiguitar1" \midiguitarOneText
+\include "guitar2"
+\include "guitar2text_lyrics"
+\include "guitar2text_midi"
+\include "keyboard1"
+\include "keyboard1text_lyrics"
+\include "keyboard1text_midi"
+\include "keyboard2"
+\include "keyboard2text_lyrics"
+\include "keyboard2text_midi"
+\include "bass"
+\include "drums"
+\include "drumstext_lyrics"
+\include "drumstext_midi"
+
+layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
+    \new ChordNames \mychords
+    \tag #'(allPart vocalPart) \new Staff \with {
+	instrumentName = "Vocal"
+	shortInstrumentName = "Vo"
+    } <<
+	\markupStuff
+	\vocalPart
+	\vocalLyrics
+	\tag #'(textLyrics keep) \lyricsvocalText
+    >>
+    \tag #'(allPart harmonyPart) \new Staff \with {
+	instrumentName = "Harmony"
+	shortInstrumentName = "Ha"
+    } <<
+	\markupStuff
+	\harmonyPart
+    >>
+    \tag #'(allPart guitarOnePart) \new Staff \with {
+	instrumentName = "Guitar 1"
+	shortInstrumentName = "Gt.1"
+    } <<
+	\markupStuff
+	\guitarOnePart
+	\tag #'(textLyrics keep) \lyricsguitarOneText
+    >>
+    \tag #'(allPart guitarTwoPart) \new Staff \with {
+	instrumentName = "Guitar 2"
+	shortInstrumentName = "Gt.2"
+    } <<
+	\markupStuff
+	\guitarTwoPart
+	\tag #'(textLyrics keep) \lyricsguitarTwoText
+    >>
+    \tag #'(allPart keyboardOnePart) \new Staff \with {
+	instrumentName = "Keyboard 1"
+	shortInstrumentName = "Keyb.1"
+    } <<
+	\markupStuff
+	\keyboardOnePart
+	\tag #'(textLyrics keep) \lyricskeyboardOneText
+    >>
+    \tag #'(allPart keyboardTwoPart) \new Staff \with {
+	instrumentName = "Keyboard 2"
+	shortInstrumentName = "Keyb.2"
+    } <<
+	\markupStuff
+	\keyboardTwoPart
+	\tag #'(textLyrics keep) \lyricskeyboardTwoText
+    >>
+    \tag #'(allPart bassPart) \new Staff \with {
+	instrumentName = "Bass"
+	shortInstrumentName = "Ba"
+    } <<
+	\markupStuff
+	\bassPart
+    >>
+    \tag #'(allPart drumsPart) \new DrumStaff \with {
+	instrumentName = "Drums"
+	shortInstrumentName = "Dr"
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drumsPart
+	\tag #'(textLyrics keep) \lyricsdrumsText
+    >>
+>>
+
+midimusicAll = <<
+    \markupStuff
+    \tag #'(midiOne vocalPart) \new Staff = "vocaltext" \midivocalText
+    \tag #'(midiOne vocalPart) \new Staff = "vocal" \vocalPart
+    \tag #'(midiOne harmonyPart) \new Staff \with {
+	midiInstrument = #"choir aahs"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #1
+    } \harmonyPart
+    \tag #'(midiOne guitarOnePart) \new Staff = "guitar1text" \midiguitarOneText
+    \tag #'(midiOne guitarOnePart) \new Staff = "guitar1" \guitarOnePart
+    \tag #'(midiOne guitarTwoPart) \new Staff = "guitar2text" \midiguitarTwoText
+    \tag #'(midiOne guitarTwoPart) \new Staff = "guitar2" \guitarTwoPart
+    \tag #'(midiOne keyboardOnePart) \new Staff = "keyboard1text" \midikeyboardOneText
+    \tag #'(midiOne keyboardOnePart) \new Staff = "keyboard1" \keyboardOnePart
+    \tag #'(midiOne keyboardTwoPart) \new Staff = "keyboard2text" \midikeyboardTwoText
+    \tag #'(midiOne keyboardTwoPart) \new Staff = "keyboard2" \keyboardTwoPart
+    \tag #'(midiTwo bassPart) \new Staff \with {
+	midiInstrument = #"electric bass (finger)"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.6
+    } \bassPart
+    \tag #'(midiTwo drumsPart) \new Staff = "drumstext" \mididrumsText
+    \tag #'(midiTwo drumsPart) \new DrumStaff = "drums" \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drumsPart
+>>
+
+midimusic = <<
+%    \keepWithTag #'(vocalPart keep) \midimusicAll
+%    \keepWithTag #'(harmonyPart keep) \midimusicAll
+%    \keepWithTag #'(guitarOnePart keep) \midimusicAll
+%    \keepWithTag #'(guitarTwoPart keep) \midimusicAll
+%    \keepWithTag #'(keyboardOnePart keep) \midimusicAll
+%    \keepWithTag #'(keyboardTwoPart keep) \midimusicAll
+%    \keepWithTag #'(bassPart keep) \midimusicAll
+%    \keepWithTag #'(drumsPart keep) \midimusicAll
+    \midimusicAll
+>>
+
+rolandmusic = <<
+    \markupStuff
+    \new Staff \with {
+	midiInstrument = #"acoustic grand"
+    } \vocalPart
+    \new Staff \with {
+	midiInstrument = #"acoustic grand"
+    } \harmonyPart
+    \new Staff \with {
+	midiInstrument = #"acoustic bass"
+    } \bassPart
+    \new Staff \with {
+	midiInstrument = #"electric guitar (clean)"
+    } \guitarOnePart
+    \new Staff \with {
+	midiInstrument = #"tremolo strings"
+    } \keyboardOnePart
+    \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drumsPart
+>>

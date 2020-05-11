@@ -1,0 +1,300 @@
+keyTwoPart = \new Voice = "key2b" \new Voice = "key2a" {
+% page 2
+    r1 |
+% A
+    \barNumberCheck #2
+    r1 | r1 | r1 |
+% page 3
+    r1 | r1 | r1 |
+    \relative {
+	<f f'>8._"<Brass Sect.1>" <f' f'>16 r8 <bes, bes'>8~ <bes bes'>16 <bes' bes'> r8 <e, e'>4~ |
+    }
+% page 3.1
+    \relative {
+	<e' e'>2 <d d'>16 <ees ees'> r <e e'> r <g g'> r <a a'> |
+    }
+% B
+    \barNumberCheck #10
+    \relative {
+	e''4_"<Tubular Bells>" c d g, |
+	g4 d' e c |
+	r1 |
+    }
+% page 4
+    r1 | r1 | r1 | r1 |
+% page 4.1
+    \relative {
+	<bes bes'>4_"<Strings Sect.>" <d d'>8 <f f'> <e e'>4 <gis gis'> |
+    }
+% C
+    \barNumberCheck #18
+    \relative {
+	<a' a'>4 r4 r2 |
+	r1 | r1 |
+    }
+% page 5
+    r1 | r1 | r1 | r1 |
+% page 5.1
+    r1 |
+% D Stegno1
+    \barNumberCheck #26
+    r1 | r1 |
+    \relative {
+	<b b' d>2_"<Strings Sect.>" <e gis b>2 |
+    }
+% page 6
+    r1 | r1 | r1 |
+    \relative {
+	<< { \voiceOne b'2~ <b d>4~ <b~ d~ f> | } \context Voice = "key2b" { \voiceTwo b,1 | } >>
+    }
+% page 6.1
+    \relative {
+	<< { <b'~ d~ e>1 | } \context Voice = "key2b" { e,1~ | } >>
+	<< { <b' d gis>2. r4 | } \context Voice = "key2b" { e,2. r4 | } >>
+    }
+    \oneVoice
+% E Stegno2
+    \barNumberCheck #35
+    \relative {
+	<bes' ees ges>1_"<Strings Sect.>" |
+	<ees~ aes ces>2 <ees ges bes>2 |
+    }
+% page 7
+    \relative {
+	<des'' f aes>1 |
+	<ges bes des>2 <f aes ces> |
+	<ees ges bes>1 |
+	<ces ees~ aes>2 <ees ges bes> |
+    }
+% page 7.1
+    \relative {
+	<des'' f aes>1 |
+	r1 | r1 |
+	<ees~ aes ces>2 <ees ges bes> |
+    }
+% page 8
+    \relative {
+	<des'' f aes>1 |
+	<ges bes des>2 <f aes ces> |
+	<ees ges bes>1 |
+	<ces ees~ aes>2 <ees ges bes> |
+    }
+% page 8.1
+    \relative {
+	<des'' f aes>1 |
+    }
+% to Coda1,2
+    \relative {
+	<des'' aes' des>1 |
+    }
+% F
+    \barNumberCheck #51
+    r1 | r1 |
+% page 9
+    r1 | r1 |
+% G
+    \barNumberCheck #55
+    r1 | r1 |
+% page 9.1
+    r1 | r1 | r1 | r1 |
+% page 10
+    r1 |
+    \relative {
+	\repeat unfold 8 <a' a'>8\staccato |
+    }
+% D.S.1
+% D Stegno1-2x
+    \barNumberCheck #63
+    r1 | r1 |
+    \relative {
+	<b b' d>2_"<Strings Sect.>" <e gis b>2 |
+    }
+% page 6-2x
+    r1 | r1 | r1 |
+    \relative {
+	<< { \voiceOne b'2~ <b d>4~ <b~ d~ f> | } \context Voice = "key2b" { \voiceTwo b,1 | } >>
+    }
+% page 6.1-2x
+    \relative {
+	<< { <b'~ d~ e>1 | } \context Voice = "key2b" { e,1~ | } >>
+	<< { <b' d gis>2. r4 | } \context Voice = "key2b" { e,2. r4 | } >>
+    }
+    \oneVoice
+% E Stegno2-2x
+    \barNumberCheck #72
+    \relative {
+	<bes' ees ges>1_"<Strings Sect.>" |
+	<ees~ aes ces>2 <ees ges bes>2 |
+    }
+% page 7-2x
+    \relative {
+	<des'' f aes>1 |
+	<ges bes des>2 <f aes ces> |
+	<ees ges bes>1 |
+	<ces ees~ aes>2 <ees ges bes> |
+    }
+% page 7.1-2x
+    \relative {
+	<des'' f aes>1 |
+	r1 | r1 |
+	<ees~ aes ces>2 <ees ges bes> |
+    }
+% page 8-2x
+    \relative {
+	<des'' f aes>1 |
+	<ges bes des>2 <f aes ces> |
+	<ees ges bes>1 |
+	<ces ees~ aes>2 <ees ges bes> |
+    }
+% page 8.1-2x
+    \relative {
+	<des'' f aes>1 |
+    }
+% to Coda1,2
+% page 10 Coda1
+    \barNumberCheck #87
+    \relative {
+	<des'' aes' des>1 |
+    }
+% H
+    \barNumberCheck #88
+    r1 | r1 |
+% page 10.1
+    r1 |
+    \relative {
+	fis4_"<Synth.Strings 2>" cis' fis2 |
+    }
+% I
+    \barNumberCheck #92
+    \relative {
+	b2\startInstrumentDown "Coll'8va bassa" e |
+	cis2 fis |
+    }
+% page 11
+    \relative {
+	gis2 cis |
+	fis,4 gis ais cis |
+	b2 e |
+	cis2 fis |
+    }
+% page 11.1
+    \relative {
+	b2 e |
+	a,1 |
+	b2 e |
+	cis2 fis |
+    }
+% page 12
+    \relative {
+	gis2 cis |
+	fis,4 gis ais cis |
+	b2 e |
+	cis2 fis |
+    }
+% page 12.1
+    \relative {
+	b2 e |
+	a,2 cis'16 d dis e eis fis g gis\stopInstrumentDown "Coll'8va bassa" |
+    }
+% J repeat
+    \barNumberCheck #108
+    \relative {
+	<< { \voiceOne <a' a'>4 r r2 } \\ { \voiceTwo b,2^"<Strings Sect.>"\startInstrumentDown "Coll'8va bassa" e4\staccato r | } >>
+	\oneVoice
+    }
+% page 13
+    \relative {
+	cis'2 fis4\staccato r |
+	gis2 cis,4\staccato r |
+	fis4 gis ais cis |
+    }
+% page 13.1
+    \relative {
+	b'2 e,4\staccato r |
+	cis'2 fis,4\staccato r |
+    }
+% ending 1
+    \relative {
+	b'2 e,4\staccato r |
+    }
+% page 14
+    \relative {
+	a'4 gis a cis |
+    }
+% end repeat
+% J repeat-2x
+    \barNumberCheck #116
+    \relative {
+	b,2^"<Strings Sect.>"\startInstrumentDown "Coll'8va bassa" e4\staccato r |
+    }
+% page 13-2x
+    \relative {
+	cis'2 fis4\staccato r |
+	gis2 cis,4\staccato r |
+	fis4 gis ais cis |
+    }
+% page 13.1-2x
+    \relative {
+	b'2 e,4\staccato r |
+	cis'2 fis,4\staccato r |
+    }
+% page 14
+    \relative {
+	b'2 e,4\staccato r |
+	a4 gis a cis |
+	r1 |
+    }
+% E Stegno2-3x
+    \barNumberCheck #125
+    \relative {
+	<bes' ees ges>1_"<Strings Sect.>" |
+	<ees~ aes ces>2 <ees ges bes>2 |
+    }
+% page 7-3x
+    \relative {
+	<des'' f aes>1 |
+	<ges bes des>2 <f aes ces> |
+	<ees ges bes>1 |
+	<ces ees~ aes>2 <ees ges bes> |
+    }
+% page 7.1-3x
+    \relative {
+	<des'' f aes>1 |
+	r1 | r1 |
+	<ees~ aes ces>2 <ees ges bes> |
+    }
+% page 8-3x
+    \relative {
+	<des'' f aes>1 |
+	<ges bes des>2 <f aes ces> |
+	<ees ges bes>1 |
+	<ces ees~ aes>2 <ees ges bes> |
+    }
+% page 8.1-3x
+    \relative {
+	<des'' f aes>1 |
+    }
+% to Coda1,2
+% page 14.1 Coda2
+    \barNumberCheck #140
+    \relative {
+	<des'' aes' des>1 |
+    }
+% K
+    \barNumberCheck #141
+    r1 | r1 |
+% page 15
+    r1 |
+    \relative {
+	r4_"<Synth.2>" <fis' fis'>2.\< |
+	r1\! |
+    }
+% page 15.1
+    r1 |
+    \relative {
+	<d d'>8._"<Brass Sect.1>" <d' d'>16 r8 <g, g'>~ <g g'>16 <g' g'> r8 <cis, cis'>4~ |
+	<cis cis'>2 <b b'>16 <c c'> r <cis cis'> r <e e'> r <fis fis'> |
+	\deadNote <cis cis'>4\glissando <fis, fis'>4~ <fis fis'> r |
+    }
+    \barNumberCheck #150
+}

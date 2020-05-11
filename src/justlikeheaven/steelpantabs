@@ -1,0 +1,65 @@
+steelpanPart = \new Voice
+{
+\mymark "Intro" #1
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    r1 r1 r1 r1 r1 |
+    6-17t1 |
+    6-16t4. 5-17t 5-15t4~ |
+    5-15t1 |
+    6-9t4. 6-10t 6-12t4 |
+    5-10t1 |
+    5-9t4. 4-9t 4-7t4~ |
+    4-7t1 |
+    6-9t4. 6-10t 6-12t4 |
+    6-17t1 |
+    6-16t4. 5-17t 5-15t4~ |
+    5-15t1 |
+    6-9t4. 6-10t 6-12t4 |
+    5-10t1 |
+    5-9t4. 4-9t 4-7t4~ |
+    4-7t1 |
+    6-9t4. 6-10t 6-12t4 |
+    6-17t1 |
+    6-16t4. 5-17t 5-15t4~ |
+    5-15t1 |
+    s1 |
+\mymark "Verse 1" #34
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Interlude" #50
+    6-17t1 |
+    6-16t4. 5-17t 5-15t4~ |
+    5-15t1 |
+    6-9t4. 6-10t 6-12t4 |
+    5-10t1 |
+    5-9t4. 4-9t 4-7t4~ |
+    4-7t1 |
+    6-9t4. 6-10t 6-12t4 |
+\mymark "Verse 2" #58
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Chorus 1" #74
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 |
+\mymark "Piano Solo" #84
+    s1 s1 s1 |
+    r2 r8 6-12t 6-12t 6-12t |
+    6-12t4 6-9t 5-10t4. 6-7t8~ |
+    6-7t8 6-7t r 6-5t 6-7t4 6-9t |
+    6-10t8 6-9t4 6-10t4. 6-12t8 6-10t~ |
+    6-10t2 r8 6-17t 6-17t 6-17t |
+    6-17t4 6-19t 6-21t4. 5-22t8 |
+    6-19t4 6-17t8 6-19t4 6-17t8 6-19t4~ |
+    6-19t1 |
+    r2 r8 6-10t 6-9t 6-10t |
+    6-9t4 5-10t8 5-10t8~ 5-10t2~ |
+    5-10t2~ 5-10t8 6-10t 6-9t 6-10t |
+    6-9t4 5-10t8 5-10t2~ 5-10t8 |
+    r1 |
+\mymark "Verse 3" #100
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Chorus 2" #116
+    s1 s1 s1 s1 s1 s1 s1 |
+\mybarNumberCheck #123
+}

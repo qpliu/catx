@@ -1,0 +1,357 @@
+bassPart = {
+    \clef bass
+% page 106 Intro.1
+    \barNumberCheck #1
+    r1 | r1 | r1 | r1 |
+% page 107
+    r1 | r1 | r1 |
+    \relative {
+	r8 bes, r a r g4. |
+    }
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat
+    \barNumberCheck #9
+    \repeat percent 3 {
+	\relative {
+	    e,8 e e' e ais, ais b b |
+	    e,8 e e' ais,~ ais b ais b |
+	}
+    }
+% page 108+2
+    \relative {
+	e,8 e e' e ais, ais b b |
+    }
+    \relative {
+	r8 bes, r a r g4. |
+    }
+% page 108.1 A
+    \barNumberCheck #17
+    \repeat percent 2 {
+	\relative {
+	    e,8 e r4 r2 |
+	    r2 r8 g4. |
+	    e8 e r4 r2 |
+	    r1 |
+	}
+    }
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-2x
+    \barNumberCheck #25
+    \repeat percent 3 {
+	\relative {
+	    e,8 e e' e ais, ais b b |
+	    e,8 e e' ais,~ ais b ais b |
+	}
+    }
+% page 108+2-2x
+    \relative {
+	e,8 e e' e ais, ais b b |
+    }
+% to Coda2
+    \relative {
+	r8 bes, r a r g4. |
+    }
+% to Coda3
+% page 108.1 A-2x
+    \barNumberCheck #33
+    \relative {
+	e,8 e r4 r2 |
+	r2 r8 g4. |
+	e8 e r4 r2 |
+	r1 |
+    }
+    \relative {
+	e,8 e r4 r2 |
+	r2 r8 g4. |
+    }
+% page 109
+    \relative {
+	e,8 e r4 r8 e r e |
+	r1 |
+    }
+% page 110 B Stegno1
+    \barNumberCheck #41
+    \relative {
+	g,8 d' g g, d' g g, d' |
+	fis,8 dis' fis fis, dis' fis fis, dis' |
+	e,8 b' e e, b' e e, b' |
+	c8 b a d~ d e fis d |
+    }
+% page 110.1
+    \relative {
+	g,8 d' g g, d' g g, d' |
+	b8 fis' b b, fis' b b, fis' |
+	e,8 b' e e, b' e e, b' |
+	c4 r8 d r d4. |
+    }
+% page 111
+    \relative {
+	c8 c c c c c c c |
+	ees8 ees ees ees ees ees ees ees |
+	g,4\staccato g\staccato g8 g g4\staccato |
+	b4\staccato b\staccato b8 b b4\staccato |
+    }
+% page 111.1 C
+    \barNumberCheck #53
+    \repeat percent 3 {
+	\relative {
+	    e,8 e r e r e r e |
+	    r8 e r e r e r e |
+	}
+    }
+% page 112+2
+    \relative {
+	e,8 e r e r e r e |
+	r8 e r e r e\staccato e\staccato e\staccato |
+    }
+% page 112.1 D
+    \barNumberCheck #61
+    \relative {
+	e,8 e r e e e r e |
+	a8 a r a a a r a |
+	d8 d r d d d r d |
+	g,8 g r g g g r g |
+    }
+% page 113
+    \relative {
+	c8 c r c c c r c |
+	fis,8 fis r fis fis fis r fis |
+	b8 b r b b b r b |
+	r8 b r b r b b4 |
+    }
+% page 113.1
+    \relative {
+	e,8 e r e e e r e |
+	a8 a r a a a r a |
+	d8 d r d d d r d |
+	g,8 g r g g g r g |
+    }
+% page 114
+    \relative {
+	c8 c r c c c r c |
+	fis,8 fis r fis fis fis r fis |
+	b8 b r b b b r b |
+	r8 b r b r b b4 |
+    }
+% page 114.1
+    \relative {
+	c8 c r c c c r c |
+	d8 d r d d d r d |
+	r8 e r e e e e4 |
+    }
+% to Coda1
+    \relative {
+	e,4\staccato r4 r2 |
+    }
+% page 115 E
+    \barNumberCheck #81
+    r1 | r1 | r1 | r1 |
+% page 115.1 F
+    \barNumberCheck #85
+    \relative {
+	e,8 e r4 r2 |
+	r2 r8 g4. |
+	e8 e r4 r2 |
+	r1 |
+    }
+% page 116
+    \relative {
+	e,8 e r4 r2 |
+	r2 r8 g4. |
+	e8 e r4 r8 e r e |
+	r1 |
+    }
+% page 116.1 G
+    \barNumberCheck #93
+    \repeat percent 3 {
+	\relative {
+	    c1~ |
+	    c1 |
+	    b1 |
+	    e1 |
+	}
+    }
+% page 118
+    \relative {
+	f1~ |
+	f1 |
+	d2. d8 a |
+	d8 a d a d4 d |
+    }
+% page 118.1 H
+    \barNumberCheck #109
+    \repeat percent 3 {
+	\relative {
+	    g,4 g8 g g g g g~ |
+	    g8 g4 g8 g g g4 |
+	    c4 c8 c c c c c~ |
+	    c8 c4 a8 c4 d |
+	}
+    }
+% page 120+1
+    \relative {
+	c4 c8 c c c4 d8~ |
+	d8 d d d d d d4 |
+    }
+% page 120.1
+    \relative {
+	e4 e8 e e8 e4 b8 |
+	e,8 e b' e~ e e b4 |
+    }
+% I
+    \barNumberCheck #125
+    \repeat percent 2 {
+	\relative {
+	    bes,4. e,8~ e2~ |
+	}
+% page 121
+	\relative {
+	    e,1~ |
+	    e1~ |
+	    e1 |
+	}
+    }
+% page 122
+    \relative {
+	bes,4. e,8~ e2~ |
+	e1 |
+	e8 e r e' e, e r e' |
+	e,8 e r e r e r4 |
+    }
+% page 122.1 J
+    \barNumberCheck #137
+    r1 | r1 | r1 | r1 |
+% page 123
+    \relative {
+	e,8 e e' e ais, ais b b |
+	e,8 e e' ais,~ ais b ais b |
+	e,8 e e' e ais, ais b b |
+	r8 bes r a r g4. |
+    }
+% page 123.1
+    r1 | r1 |
+% D.S.1
+% page 110 B Stegno1-2x
+    \barNumberCheck #147
+    \relative {
+	g,8 d' g g, d' g g, d' |
+	fis,8 dis' fis fis, dis' fis fis, dis' |
+	e,8 b' e e, b' e e, b' |
+	c8 b a d~ d e fis d |
+    }
+% page 110.1-2x
+    \relative {
+	g,8 d' g g, d' g g, d' |
+	b8 fis' b b, fis' b b, fis' |
+	e,8 b' e e, b' e e, b' |
+	c4 r8 d r d4. |
+    }
+% page 111-2x
+    \relative {
+	c8 c c c c c c c |
+	ees8 ees ees ees ees ees ees ees |
+	g,4\staccato g\staccato g8 g g4\staccato |
+	b4\staccato b\staccato b8 b b4\staccato |
+    }
+% page 111.1 C-2x
+    \barNumberCheck #159
+    \repeat percent 3 {
+	\relative {
+	    e,8 e r e r e r e |
+	    r8 e r e r e r e |
+	}
+    }
+% page 112+2-2x
+    \relative {
+	e,8 e r e r e r e |
+	r8 e r e r e\staccato e\staccato e\staccato |
+    }
+% page 112.1 D-2x
+    \barNumberCheck #167
+    \relative {
+	e,8 e r e e e r e |
+	a8 a r a a a r a |
+	d8 d r d d d r d |
+	g,8 g r g g g r g |
+    }
+% page 113-2x
+    \relative {
+	c8 c r c c c r c |
+	fis,8 fis r fis fis fis r fis |
+	b8 b r b b b r b |
+	r8 b r b r b b4 |
+    }
+% page 113.1-2x
+    \relative {
+	e,8 e r e e e r e |
+	a8 a r a a a r a |
+	d8 d r d d d r d |
+	g,8 g r g g g r g |
+    }
+% page 114-2x
+    \relative {
+	c8 c r c c c r c |
+	fis,8 fis r fis fis fis r fis |
+	b8 b r b b b r b |
+	r8 b r b r b b4 |
+    }
+% page 114.1-2x
+    \relative {
+	c8 c r c c c r c |
+	d8 d r d d d r d |
+	r8 e r e e e e4 |
+    }
+% to Coda1
+% page 123 Coda1
+    \barNumberCheck #186
+    \relative {
+	e,4\staccato r4 r2 |
+    }
+% D.S.2
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-3x
+    \barNumberCheck #187
+    \repeat percent 3 {
+	\relative {
+	    e,8 e e' e ais, ais b b |
+	    e,8 e e' ais,~ ais b ais b |
+	}
+    }
+% page 108+2-3x
+    \relative {
+	e,8 e e' e ais, ais b b |
+    }
+% to Coda2
+% page 124 Coda2
+    \barNumberCheck #194
+    \relative {
+	r8 bes, r a r g4. |
+    }
+% D.S.3
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-4x
+    \barNumberCheck #195
+    \repeat percent 3 {
+	\relative {
+	    e,8 e e' e ais, ais b b |
+	    e,8 e e' ais,~ ais b ais b |
+	}
+    }
+% page 108+2-4x
+    \relative {
+	e,8 e e' e ais, ais b b |
+    }
+    \relative {
+	r8 bes, r a r g4. |
+    }
+% to Coda3
+% page 124 Coda3
+    \barNumberCheck #203
+    \relative {
+	r8 bes, r a r g4. |
+	r8 bes r a r g4.~ |
+    }
+% page 124.1
+    \relative {
+	g,1 |
+	r1 |
+	e8 e r4 r2 |
+    }
+    \barNumberCheck #208
+}

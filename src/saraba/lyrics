@@ -1,0 +1,113 @@
+vocalLyrics = \new Lyrics = "lyricsa" \lyricsto "vocal" \new Lyrics = "lyricsb" \lyricsto "vocal" \new Lyrics = "lyricsc" \lyricsto "vocal" \new Lyrics = "lyricsd" \lyricsto "vocal" \context Lyrics = "lyricsa" \lyricmode {
+% page 108.1 A
+    \kanako I ku no?
+    \momoka i ka nai no?
+    \shiori i ccha e ba i i ja n
+    \reni I e yo
+    \ayaka i i tai yo
+    \momoka V \skip1 S \skip1 i e nai
+% page 109
+    \shiori U ra ka
+    \reni o mo te ka
+    \ayaka so ko na shi no KUE SU CHON
+    \kanako Da ke do do u shi te
+% page 109.1
+    dou nimo kou nimo dai tai
+% page 107.1-2x
+    \black Ah -- Ha Dig __ it, Dig it
+    Ah -- Ha Dig __ it, Dig it
+% page 108-2x
+    Ah -- Ha Dig __ it, Dig it
+    Ah -- Ha Dig it __ up
+% page 108.1-2x
+    \ayaka Mi za ru
+    \kanako i wa za ru
+    \reni ki ka za ru de go za ru
+    \shiori Ku n shi, a ya u ki ni chi ka yo ra zu desu
+% page 109-2x
+    \momoka O ne gai sa re ta ra, \skip1 ya me ta ku na ri masu
+% page 109.1-2x
+    \ayaka Dat ta ra, yu ru su dat ta ra, wa ra e
+% page 110
+    \kanako Ko ko ro no ko e -- ga ko da ma su ru
+% page 110.1
+    Na mi da to ki -- bo u -- no KA A NI BARU
+% page 111
+    Na ma i ki na -- ku ra i no yo -- -- a ke ni
+% page 111.1
+    \black I ka nai de… i ka nai de…
+% page 112
+    na ka nai de… na ka nai de…
+% page 112.1
+    Sa ra ba, ki no u wo nu gi su te te Yu u ki no ko e wo fu ri shi bo
+% page 113
+    re 「Ji bu n」 to i u na no a i wo shi ru ta me ni
+% page 113.1
+    Ne mu re na i hi tsu ji no mu re yo Ma yo e ru ko ko ro no sa ke bi
+% page 114
+    wo Fu ri ka e ru na wa re ra no se ka i wa ma da ha ji
+% page 114.1
+    ma t -- ta bak ka -- ri da
+% page 115.1
+    \reni Sa bi shii o mo i sa se te n ja nee yo
+    \kanako Ya ru no?
+    \ayaka sa bo n no?
+    \momoka sa bo re ba ii jan!
+% page 116
+    \shiori Sou nan shi sou de ma sa ka no gou kyuu
+    \ayaka Ho me te ma su ka ra, zen ryoku de.
+% page 116.1
+    \momoka So shi te do ko ma de mo tsu zu ku yu me wo mi
+% page 117
+    ta Te n shi ga ma i o ri -- te ki ta
+% page 117.1
+    \kanako So shi te do ko ma de mo tsu zu ku so ra no mo
+% page 118
+    to de -- Ji yu u ni na ri ta i
+% page 120.1
+    \black "1," "2" and
+% page 121
+    "3," "4," "5" Get Up, Stand Up Free Your Soul
+% page 121.1
+    "1," "2" and "3," "4," "5" Get Up, Stand Up Free Your Soul
+% page 122
+    "1," "2" and "3," "4," "5" Stand Up And Make Some Noise!
+% page 122.1
+    Oh -- Ho Do __ it, Do it Oh -- Ho Do __ it, Do it
+% page 123
+    Oh -- Ho Do __ it, Do it Oh -- Ho Do it __ now,
+% page 110-2x
+    \shiori Ko ko ro no ko e -- ga ko da ma su ru
+% page 110.1-2x
+    Na mi da to ki -- bo u -- no KA A NI BARU
+% page 111-2x
+    Na ma i ki na -- ku ra i no yo -- -- a ke ni
+% page 111.1-2x
+    \black Yu ra sun da… yu ra sun da…
+% page 112-2x
+    su su mun da… su su mun da…
+% page 112.1-2x
+    Sa ra ba, ki no u wo nu gi su te te Yu u ki no ko e wo fu ri shi bo
+% page 113-2x
+    re 「Ji bu n」 to i u na no a i wo shi ru ta me ni
+% page 113.1-2x
+    Ne mu re na i hi tsu ji no mu re yo Ma yo e ru ko ko ro no sa ke bi
+% page 114-2x
+    wo Fu ri ka e ru na wa re ra no se ka i wa ma da ha ji
+% page 114.1-2x
+    ma t -- ta bak ka -- ri da
+% page 107.1-3x
+    \black Ah -- Ha Dig __ it, Dig it
+    Ah -- Ha Dig __ it, Dig it
+% page 108-3x
+    Ah -- Ha Dig __ it, Dig it
+    Ah -- Ha
+% page 124 Coda2
+    Dig it __ up
+% page 107.1-4x
+    Oh -- Ho Do __ it, Do it Oh -- Ho Do __ it, Do it
+% page 108-4x
+    Oh -- Ho Do __ it, Do it Oh -- Ho Do it __ now,
+% page 124 Coda3
+    Do it __ now, Do it __ now __
+}

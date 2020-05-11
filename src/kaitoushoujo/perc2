@@ -1,0 +1,129 @@
+percTwoPart = {
+    \compressFullBarRests
+    \clef bass
+% page 18
+    r1 |
+% A
+    \barNumberCheck #2
+    r1 | r1 | r1 | r1 |
+% page 18.1
+    r1 | r1 | r1 | r1 |
+% B
+    \barNumberCheck #10
+    r1 |
+% page 18.2
+    r1 | r1 |
+    \relative {
+	c4_"<Timpani>" a c a |
+    }
+    r1 | r1 |
+% page 18.3
+    r1 |
+    \relative {
+	bes,4 d e e, |
+    }
+% C
+    \barNumberCheck #18
+    r1 | r1 | r1 |
+% page 18.4
+    \relative {
+	c4 a c a |
+    }
+    r1 | r1 | r1 |
+    \relative {
+	bes,4 d e e, |
+    }
+% page 18.5 D Stegno1
+    \barNumberCheck #26
+    r1 | r1 | r1 | r1 | r1 |
+% page 18.6
+    r1 | r1 | r1 | r1 |
+% page 18.7 E Stegno2
+    \barNumberCheck #35
+    r1 | r1 | r1 | r1 |
+% page 18.8
+    r1 | r1 | r1 | r1 |
+% page 18.9
+    r1 | r1 | r1 | r1 |
+% page 19
+    r1 | r1 | r1 |
+% to Coda1,2
+    r1 |
+% F
+    \barNumberCheck #51
+    r1 |
+% page 19.1
+    r1 | r1 | r1 |
+% G
+    \barNumberCheck #55
+    r1 | r1 |
+% page 19.2
+    r1 |
+    \relative {
+	c4 a c a |
+    }
+    r1 | r1 | r1 | r1 |
+% D.S.1
+% page 18.5 D Stegno1-2x
+    \barNumberCheck #63
+    r1 | r1 | r1 | r1 | r1 |
+% page 18.6-2x
+    r1 | r1 | r1 | r1 |
+% page 18.7 E Stegno2-2x
+    \barNumberCheck #72
+    r1 | r1 | r1 | r1 |
+% page 18.8-2x
+    r1 | r1 | r1 | r1 |
+% page 18.9-2x
+    r1 | r1 | r1 | r1 |
+% page 19-2x
+    r1 | r1 | r1 |
+% to Coda1,2
+% page 19.3 Coda1
+    \barNumberCheck #87
+    r1 |
+% H
+    \barNumberCheck #88
+    r1 | r1 | r1 | r1 |
+% page 19.4 I
+    \barNumberCheck #92
+    r1 | r1 | r1 | r1 | r1 |
+% page 19.5
+    r1 | r1 | r1 | r1 | r1 |
+% page 19.6
+    r1 | r1 | r1 | r1 | r1 |
+% page 19.7
+    r1 |
+% J repeat
+    \barNumberCheck #108
+    R1*6 |
+% ending 1
+    R1*2 |
+% end repeat
+% J repeat-2x
+    \barNumberCheck #116
+    R1*6 |
+% ending 2
+    R1*2 |
+    r1 |
+% D.S.2
+% page 18.7 E Stegno2-3x
+    \barNumberCheck #125
+    r1 | r1 | r1 | r1 |
+% page 18.8-3x
+    r1 | r1 | r1 | r1 |
+% page 18.9-3x
+    r1 | r1 | r1 | r1 |
+% page 19-3x
+    r1 | r1 | r1 |
+% to Coda1,2
+% page 19.8 Coda2
+    \barNumberCheck #140
+    r1 |
+% K
+    \barNumberCheck #141
+    r1 | r1 | r1 | r1 |
+% page 19.9
+    r1 | r1 | r1 | r1 | r1 |
+    \barNumberCheck #150
+}

@@ -1,0 +1,157 @@
+egTwoPart = {
+% page 2 Intro
+    \barNumberCheck #1
+    r1 | r1 | r1 |
+    \quoteDuring #"eg1" {
+	s1 | s1 | s1 |
+% page 3 A
+	\barNumberCheck #7
+	s1 | s1 | s1 | s1 |
+% B
+	\barNumberCheck #11
+	s1 |
+% page 3.1
+	s1 | s1 | s1 | s1 | s1 |
+% page 4
+	s1 | s1 |
+    }
+% C
+    \barNumberCheck #19
+    r1 | r1 |
+% page 4.1
+    r1 | r1 | r1 | r1 |
+% page 5
+    r1 | r1 |
+% D
+    \barNumberCheck #27
+    \relative {
+	g'4_"<Clean>" bes8 g'8~ g8 d8 bes4 |
+	e,4\bendBeforeG #-2 g8 e'8~ e8 c8 g4 |
+% page 5.1
+	a4\bendBeforeG #-2 c8 a'8~ a8 f8 c4\bendAfter #-2 |
+	d,4 f8 d'8~ d8 bes8 f8 d8 |
+	e4. g'8~ g8 d8 bes4 |
+	e,4 d'8 e8~ e4 d4 |
+    }
+% page 6
+    \relative {
+	a8\startTextSpan_"<Dist.>" a8 a8 a8 a8 a8 a8 a8 |
+	a8 cis8 cis16 cis16 cis8 d4 e4\stopTextSpan |
+    }
+    \quoteDuring #"eg1" {
+% E
+	\barNumberCheck #35
+	s1 | s1 |
+% page 6.1
+	s1 |
+    }
+    \relative {
+	f'4 f,4 <a e'>4 cis8 a8 |
+    }
+    \quoteDuring #"eg1" {
+	s1 | s1 |
+% page 7
+	s1 | s1 | s1 |
+% page 7.1 F
+	\barNumberCheck #44
+	s1 | s1 | s1 | s1 |
+% page 8
+	s1 | s1 | s1 |
+% page 8.1
+	s1 |
+% 1x ending
+	s1 | s1 | s1 |
+% page 9
+	s1 | s1 | s1 | s1 | s1 |
+    }
+% C-2x
+    \barNumberCheck #60
+    \repeat percent 7 {
+	s1_"<Clean>" |
+    }
+    \relative {
+	bes'4 a4 fis4 a4 |
+% D-2x
+	\barNumberCheck #68
+	g4 bes8 g'8~ g8 d8 bes8 d,8 |
+	e4 g8 e'8~ e8 c8 g8 e8 |
+% page 5.1-2x
+	a4 c8 a'8~ a8 f8 c4\staccato |
+	d,4 f8 d'8~ d8 bes8 f8 d8 |
+	e4. g'8~ g8 d8 bes4 |
+	e,4 d'8 e8~ e4 d4 |
+    }
+% page 6-2x
+    \relative {
+	a8\startTextSpan_"<Dist.>" a8 a8 a8 a8 a8 a8 a8 |
+	a8 cis8 cis16 cis16 cis8 d4 e4\stopTextSpan |
+    }
+    \quoteDuring #"eg1" {
+% E-2x
+	\barNumberCheck #76
+	s1 | s1 |
+% page 6.1-2x
+	s1 |
+    }
+    \relative {
+	f'4 f,4 <a e'>4 cis8 a8 |
+    }
+    \quoteDuring #"eg1" {
+	s1 | s1 |
+% page 7-2x
+	s1 | s1 | s1 |
+% page 7.1-2x F-2x
+	\barNumberCheck #85
+	s1 | s1 | s1 | s1 |
+% page 8-2x
+	s1 | s1 | s1 |
+% page 8.1-2x
+	s1 |
+% page 9.1
+	s1 | s1 |
+% G
+	\barNumberCheck #95
+	s1 | s1 | s1 |
+% page 10
+	s1 | s1 | s1 | s1 | s1 |
+% page 10.1 H
+	\barNumberCheck #103
+	s1 | s1 | s1 | s1 |
+% page 11
+	s1 | s1 | s1 | s1 |
+% I
+	\barNumberCheck #111
+	s1 |
+% page 11.1
+	s1 | s1 | s1 | s1 | s1 |
+% page 12
+	s1 | s1 |
+% J
+	\barNumberCheck #119
+	s1 | s1 | s1 |
+% page 12.1
+	s1 | s1 | s1 |
+% K
+	\barNumberCheck #125
+	s1 | s1 |
+% page 13
+	s1 | s1 | s1 | s1 | s1 |
+% page 13.1
+	s1 |
+% L
+	\barNumberCheck #133
+	s1 | s1 | s1 | s1 |
+% page 14
+	s1 | s1 | s1 | s1 | s1 |
+% page 14.1
+	s1 | s1 | s1 |
+% M
+	\barNumberCheck #145
+	s1 | s1 |
+% page 15
+	s1 | s1 | s1 | s1 |
+% page 15.1
+	s1 | s1 | s1 | s1 | s1 |
+    }
+    \barNumberCheck #156
+}

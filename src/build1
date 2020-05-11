@@ -1,0 +1,124 @@
+#!/bin/sh
+set -e
+exec 2>&1
+pwd=`pwd`
+name=`basename "$pwd"`
+cd ..
+if test '!' -f build1
+then
+    echo 'Wrong directory'
+    exit 1
+fi
+PARTS="$*"
+rm -rf bin
+mkdir bin
+cd bin
+cp ../java/* .
+javac -Xlint *.java
+cd ..
+cp *.i bin
+cp "$name"/* bin
+cd bin
+for a in *tabs
+do
+    if test -f "$a"
+    then
+	echo "$a"
+	aa=`basename "$a" tabs`
+	../tabsToLy.py <"$a" >"$aa"
+    fi
+done
+for a in *colors
+do
+    if test -f "$a"
+    then
+	aa=`basename "$a" colors`
+	../synesthesia.py <"$a" >"$aa"
+    fi
+done
+for a in *text
+do
+    if test -f "$a"
+    then
+	../dotext.py <"$a" "${a}_"
+    fi
+done
+for a in *.mp3
+do
+    if test -f "$a"
+    then
+	b=`basename "$a" .mp3`
+	ffmpeg -loglevel 16 -i "$a" "$b".wav
+    fi
+done
+MIDIS=`grep '^% MIDIS ' music|cut -c 9-`
+ROLAND=`grep '^% ROLAND ' music|cut -c 10-`
+ROBOT=`grep '^% ROBOT ' music|cut -c 9-`
+if test -n "$ROBOT"
+then
+    ROBOT=",$ROBOT"
+fi
+for part in $PARTS
+do
+    sed "s/^% IF $part //"  <header.i >header.i-if
+    sed "s/^% IF $part //"  <music >music-if
+    if test "x$part" = "xmidi"
+    then
+	merge=
+	for midi in $MIDIS
+	do
+	    cat <<EOF >"$name-$midi.ly"
+\include "articulate.ly"
+\include "header.i-if"
+\include "music-if"
+\score {
+\unfoldRepeats \articulate \keepWithTag #'($midi keep) \midimusic
+\midi { }
+}
+EOF
+	    lilypond -l WARN -o "$name-$midi" "$name-$midi.ly"
+	    merge="$merge $name-$midi.midi"
+	done
+	java -cp . MergeMidi $merge >"$name$ROBOT.midi"
+	TIMIDITY_EXTRA_CFG=
+	if test -f timidity_extra.cfg
+	then
+	    TIMIDITY_EXTRA_CFG="-c timidity_extra.cfg"
+	fi
+	timidity $TIMIDITY_EXTRA_CFG -OF -o "$name.flac" -A400 "$name$ROBOT.midi"
+	cp "$name$ROBOT.midi" ../../bin
+	ffmpeg -i "$name.flac" ../../bin/"$name.mp3"
+    elif test "x$part" = "xroland"
+    then
+	merge=
+	for roland in rolandMelody rolandBass rolandBackOne rolandBackTwo rolandPerc rolandDrums
+	do
+	    cat <<EOF >"$name-$roland.ly"
+\include "articulate.ly"
+\include "header.i-if"
+\include "music-if"
+\score {
+\unfoldRepeats \articulate \keepWithTag #'($roland keep) \rolandmusic
+\midi { }
+}
+EOF
+	    lilypond -l WARN -o "$name-$roland" "$name-$roland.ly"
+	    merge="$merge $name-$roland.midi"
+	done
+	java -jar ../../rolandPattern/1.jar "$ROLAND" $merge >"$name.TD0"
+	cp "$name.TD0" ../../bin
+    else
+	n="${name}_$part"
+	part1=`echo $part|sed 's/1/One/g;s/2/Two/g;s/3/Three/g;s/4/Four/g;s/5/Five/g;s/6/Six/g;s/7/Seven/g;s/8/Eight/g'`
+	cat <<EOF >"$n.ly"
+\include "header.i-if"
+\include "music-if"
+\score {
+\keepWithTag #'(${part1}Part keep) \layoutmusic
+\include "layout"
+}
+EOF
+	lilypond -l WARN -o "$n" "$n.ly"
+	cp "$n.pdf" ../../bin
+    fi
+done

@@ -1,0 +1,169 @@
+percPart = \new DrumVoice = "percb" \with { \consists "Balloon_engraver" } \new DrumVoice = "perca" \with { \consists "Balloon_engraver" } \drummode {
+    \context DrumVoice = "perca" \voiceOne
+    \context DrumVoice = "percb" \voiceTwo
+% page 2
+    r1 |
+% A
+    \barNumberCheck #2
+    << { \balloonGrobText #'NoteHead #'(3 . 3) "<E.Rim Shot>" ss4 r4 r2 | } \context DrumVoice = "percb" { r1 | } >>
+    r1 | r1 |
+% page 3
+    << { r2 \balloonGrobText #'NoteHead #'(-3 . 1) "<Rev.Cymbal>" revcymbal2\< | } \context DrumVoice = "percb" { r1 | } >>
+    r1\! |
+    r1 |
+    << { \balloonGrobText #'NoteHead #'(-1 . 3) "<Synth.Snare 1>" ssna16 \repeat unfold 15 ssna | } \context DrumVoice = "percb" { r1 | } >>
+% page 3.1
+    << { \repeat unfold 10 ssna16 r8 \balloonGrobText #'NoteHead #'(-3 . 4) "<Slap>" slap4 | } \context DrumVoice = "percb" { r1 | } >>
+% B
+    \barNumberCheck #10
+    \repeat percent 7 {
+	<< { \balloonGrobText #'NoteHead #'(-1 . 3) "<Tambourine>" tamb16 \repeat unfold 15 tamb | } \context DrumVoice = "percb" { r1 | } >>
+    }
+% page 4.1
+    << { r2 r8 \balloonGrobText #'NoteHead #'(-3 . 1) "<Crash Cymbal>" cym8-> cym8-> cym8-> | } \context DrumVoice = "percb" { r1 | } >>
+% C
+    \barNumberCheck #18
+    \repeat percent 7 {
+	<< { r1 | } \context DrumVoice = "percb" { bda8_"<Flanging Perc.>" bda16 bda \repeat unfold 3 { bda8 bda16 bda } | } >>
+    }
+% page 5
+    << { r2 r8 stomh^"<Synth.Toms>" stomm stoml | } \context DrumVoice = "percb" { \repeat unfold 4 { bda8 bda16 bda } | } >>
+% D
+    \barNumberCheck #26
+    \repeat percent 8 {
+	<< { r1 | } \context DrumVoice = "percb" { \repeat unfold 4 { bda8 bda16 bda } | } >>
+    }
+% E
+    \barNumberCheck #34
+    \repeat percent 8 {
+	<< { r1 | } \context DrumVoice = "percb" { \repeat unfold 4 { bda8 bda16 bda } | } >>
+    }
+% page 7+2
+    << { revcymbal2.\< slap4\! | } \context DrumVoice = "percb" { r1 | } >>
+    \repeat volta 2 {
+% F
+	\mybarNumberCheck #43
+	\repeat percent 3 {
+	    << { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb-\balloonText #'(4 . -4) "<Synth.Snare 2>" bda>8 bda16 bda bda8 bda16 bda <ssnb bda>8 bda16 bda | } >>
+% page 7.1
+	    << { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 <bda ssnb>16 bda <ssnb bda>8 bda16 bda | } >>
+	}
+% page 8+1
+	<< { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 bda16 bda <ssnb bda>8 bda16 bda | } >>
+	<< { \repeat unfold 10 tamb16 <tamb cym>-> tamb <tamb cym>-> tamb <tamb cym>-> tamb | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 <ssnb bda>16 bda <ssnb bda>8 bda16 bda | } >>
+% G
+	\mybarNumberCheck #51
+	\repeat percent 3 {
+	    << { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 bda16 bda <ssnb bda>8 bda16 bda | } >>
+% page 8.1
+	    << { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 <ssnb bda>16 bda <ssnb bda>8 bda16 bda | } >>
+	}
+% page 9+1
+	<< { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 bda16 bda <ssnb bda>8 bda16 bda | } >>
+    } \alternative { {
+	<< { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 <ssnb bda>16 bda <ssnb bda>8 bda16 bda | } >>
+% H
+	\mybarNumberCheck #59
+	\repeat percent 3 {
+	    << { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 bda16 bda <ssnb bda>8 bda16 bda | } >>
+	}
+% page 9.1+2
+	<< { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 <ssnb bda>16 bda <ssnb bda>8 bda16 bda | } >>
+	\repeat percent 3 {
+	    << { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 bda16 bda <ssnb bda>8 bda16 bda | } >>
+	}
+% page 10+2
+	<< { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 <ssnb bda>16 bda <ssnb bda>8 bda16 bda | } >>
+% I
+	\mybarNumberCheck #67
+	r1 |
+% page 10.1
+	r1 |
+	\repeat percent 5 {
+	    << { r1 | } \context DrumVoice = "percb" { \repeat unfold 4 { bda8 bda16 bda } | } >>
+	}
+% page 11+2
+	<< { r2 r8 stomh stomm stoml | } \context DrumVoice = "percb" { \repeat unfold 4 { bda8 bda16 bda } | } >>
+% J
+	\mybarNumberCheck #75
+	\repeat percent 3 {
+	    << { r1 | } \context DrumVoice = "percb" { \repeat unfold 4 { bda8 bda16 bda } | } >>
+	}
+% page 11.1+1
+	<< { r2 r8 cym-> cym-> cym-> | } \context DrumVoice = "percb" { \repeat unfold 4 { bda8 bda16 bda } | } >>
+	\repeat percent 4 {
+	    << { r1 | } \context DrumVoice = "percb" { \repeat unfold 4 { bda8 bda16 bda } | } >>
+	}
+% page 12+1
+	<< { r2 r4 slap | } \context DrumVoice = "percb" { \repeat unfold 4 { bda8 bda16 bda } | } >>
+    } {
+	<< { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda16 bda8 <ssnb bda>16 bda16 <ssnb bda>8 <ssnb bda>16 bda16 | } >>
+    } }
+% K
+    \mybarNumberCheck #85
+    \repeat percent 3 {
+	<< { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 bda16 bda <ssnb bda>8 bda16 bda | } >>
+    }
+% page 12.1+2
+    << { \repeat unfold 12 tamb16 <tamb revcymbal> tamb tamb tamb | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 <ssnb bda>16 bda <ssnb bda>8 bda16 bda | } >>
+% page 13
+    \repeat percent 3 {
+	<< { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 bda16 bda <ssnb bda>8 bda16 bda | } >>
+    }
+    << { \repeat unfold 12 tamb16 <tamb revcymbal> tamb tamb tamb | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 <ssnb bda>16 bda bda8 <ssnb bda>16 bda | } >>
+% page 13.1
+    \repeat percent 3 {
+	<< { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 bda16 bda <ssnb bda>8 bda16 bda | } >>
+    }
+    << { \repeat unfold 12 tamb16 <tamb revcymbal> tamb tamb tamb | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 <ssnb bda>16 bda <ssnb bda>8 bda16 bda | } >>
+% page 14
+    \repeat percent 3 {
+	<< { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 bda16 bda <ssnb bda>8 bda16 bda | } >>
+    }
+    << { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 <ssnb bda>16 bda bda8 <ssnb bda>16 bda | } >>
+% page 14.1
+    r1 | r1 |
+% L
+    \mybarNumberCheck #103
+    \repeat percent 4 {
+	<< { r1 | } \context DrumVoice = "percb" { r4 \balloonGrobText #'NoteHead #'(-4 . -4) "<Synth.Snare 3>" ssnc r ssnc | } >>
+    }
+% page 15+2
+    r1 | r1 |
+% page 15.1
+    r1 | r1 | r1 |
+% M
+    \mybarNumberCheck #112
+    \repeat percent 3 {
+	<< { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 bda16 bda <ssnb bda>8 bda16 bda | } >>
+% page 16
+	<< { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 <ssnb bda>16 bda <ssnb bda>8 bda16 bda | } >>
+    }
+% page 16.1+1
+    << { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 bda16 bda <ssnb bda>8 bda16 bda | } >>
+    << { \repeat unfold 10 tamb16 <tamb cym>-> tamb <tamb cym>-> tamb <tamb cym>-> tamb | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 <ssnb bda>16 bda <ssnb bda>8 bda16 bda | } >>
+% N
+    \mybarNumberCheck #120
+    \repeat percent 3 {
+	<< { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 bda16 bda <ssnb bda>8 bda16 bda | } >>
+% page 17
+	<< { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 <ssnb bda>16 bda <ssnb bda>8 bda16 bda | } >>
+    }
+% page 17.1+1
+    << { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 bda16 bda <ssnb bda>8 bda16 bda | } >>
+    << { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 <ssnb bda>16 bda <ssnb bda>8 bda16 bda | } >>
+% O
+    \mybarNumberCheck #128
+    \repeat percent 3 {
+	<< { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 bda16 bda <ssnb bda>8 bda16 bda | } >>
+    }
+% page 18+2
+    << { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 <ssnb bda>16 bda <ssnb bda>8 bda16 bda | } >>
+    \repeat percent 3 {
+	<< { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 bda16 bda <ssnb bda>8 bda16 bda | } >>
+    }
+% page 18.1+2
+    << { \repeat unfold 16 tamb16 | } \context DrumVoice = "percb" { bda8 bda16 bda <ssnb bda>8 bda16 bda bda8 <ssnb bda>16 bda <ssnb bda>8 bda16 bda | } >>
+    r1 | r1 |
+    \mybarNumberCheck #138
+}

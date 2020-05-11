@@ -1,0 +1,59 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \tempo 4 = 132
+    \key c \minor
+\mymark "Intro 1" #1
+    s1 |
+    s1 s1 | \break
+    \bar "||"
+\mymark "Intro 2" #4
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    \bar "||"
+\mymark "A" #12
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    \bar "||"
+\mymark "B" #20
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    \bar "||"
+\mymark "C" #28
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    \bar "||"
+\mymark "D" #36
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    \bar "||"
+\mymark "E" #44
+    s1 s1 s1 s1 | \break
+    \bar "||"
+\mymark "B-2" #48
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    \bar "||"
+\mymark "C-2" #56
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    \bar "||"
+\mymark "D-2" #64
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    \bar "||"
+\mymark "F" #72
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    \bar "||"
+\mymark "G" #80
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    \bar "||"
+\mymark "D-3" #88
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    \bar "||"
+\mymark "Ending" #96
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \noBreak s1 |
+    \bar "|."
+}

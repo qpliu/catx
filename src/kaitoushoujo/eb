@@ -1,0 +1,322 @@
+ebPart = {
+    \clef bass
+% page 2
+    \relative {
+	r1_"<5 Strings> On 4 string bass, if you can't play them, omit notes in ()." |
+    }
+% A
+    \barNumberCheck #2
+    \relative {
+	a,8 a c a ees'8. e16 r8 a,8~ |
+	a8 a c a ees' d c a |
+	a8 a c a ees'8. e16 r8 a, |
+    }
+% page 3
+    \relative {
+	r8 a g(^\markup { \hspace #2 "H" } a) ees8. d16~ d8 c |
+	a8 a c a ees'8. e16 r8 a,8~ |
+	a8 a c a ees' d c a |
+	f8. f'16 r8 bes,8~ bes bes' e,4~ |
+    }
+% page 3.1
+    \relative {
+	e2 e16 r d c r b r a |
+    }
+% B
+    \barNumberCheck #10
+    \relative {
+	r8 a,\staccato a\staccato g\staccato a r16 a r8 a |
+	r8 a\staccato a\staccato g\staccato a r16 a r8 c |
+	r8 a\staccato a\staccato g\staccato a r16 a r8 a |
+    }
+% page 4
+    \relative {
+	c8\staccato a\staccato a\staccato a\staccato c\staccato e\staccato e\staccato e\staccato |
+	r4 a,8 g\staccato r4 a8 g\staccato |
+	r4 a8 g\staccato r4 r8 a\staccato |
+	a\staccato a\staccato a\staccato g\staccato a8. c16 r8 a |
+    }
+% page 4.1
+    \relative {
+	bes,4 d e e, |
+    }
+% C
+    \barNumberCheck #18
+    \relative {
+	a,8\staccato a\staccato a\staccato g\staccato a r16 c r8 a |
+	r8 a\staccato a\staccato g\staccato a a\staccato a\staccato a\staccato |
+	a\staccato a\staccato a\staccato g\staccato a r16 c r8 a |
+    }
+% page 5
+    \relative {
+	r8 a,\staccato a\staccato a\staccato c e, g e |
+	a\staccato a\staccato a\staccato g\staccato a r16 c r8 a |
+	r8 a\staccato a\staccato g\staccato a r16 c r8 a |
+	a\staccato a\staccato a\staccato g\staccato a r16 c r8 a |
+    }
+% page 5.1
+    \relative {
+	bes,8 r d r e, r g4 |
+    }
+% D Stegno1
+    \barNumberCheck #26
+    \relative {
+	d8\staccato r16 d r8 f\staccato g4\staccato r |
+	c,8\staccato r16 c r8 e\staccato f4\staccato r |
+	b,8\staccato r16 b r8 d e4\staccato r |
+    }
+% page 6
+    \relative {
+	a,8 a' b,4 a\staccato r |
+	d8\staccato r16 d r8 f\staccato g4\staccato r |
+	c,8\staccato r16 c r8 e\staccato f4\staccato r |
+	b,8 r d r f r a r |
+    }
+% page 6.1
+    \relative {
+	e8 r e r e r e r |
+	e8 f e f e4\staccato r |
+    }
+% E Stegno2
+    \barNumberCheck #35
+    \relative {
+	\repeat unfold 4 { <ees, \parenthesize ees'>8 ees'\staccato } |
+	\repeat unfold 4 { aes,8 aes'\staccato } |
+    }
+% page 7
+    \relative {
+	\repeat unfold 4 { des8 des'\staccato } |
+	ges,,8 ges'\staccato ges,\staccato ges'\staccato f, f'\staccato f, f'\staccato |
+	\repeat unfold 4 { <ees, \parenthesize ees'>8 ees'\staccato } |
+	\repeat unfold 4 { aes,8 aes'\staccato } |
+    }
+% page 7.1
+    \relative {
+	\repeat unfold 4 { des8 des'\staccato } |
+	r8 bes, r bes bes4\staccato bes\staccato |
+	ees4\staccato \repeat unfold 3 { <ees, \parenthesize ees'>8 ees'\staccato } |
+	\repeat unfold 4 { aes,8 aes'\staccato } |
+    }
+% page 8
+    \relative {
+	\repeat unfold 4 { des8 des'\staccato } |
+	ges,,8 ges'\staccato r ges\staccato f, f'\staccato f, f'\staccato |
+	ees16 bes r ees r8 ees\staccato r bes ees aes, |
+	r8 aes' r16 ges8. ees8 c aes <ees \parenthesize ees'>
+    }
+% page 8.1
+    \relative {
+	des8 r des r des r des r |
+    }
+% to Coda1,2
+    \relative {
+	des8 ces r ces des r des r |
+    }
+% F
+    \barNumberCheck #51
+    \relative {
+	a,8 a c a ees'8. e16 r8 a,8~ |
+	a8 a c a ees' d c a |
+    }
+% page 9
+    \relative {
+	a,8 a c a ees'8. e16 r8 a, |
+	r1 |
+    }
+% G
+    \barNumberCheck #55
+    \relative {
+	r8 a,\staccato a\staccato g\staccato a r16 a r8 a |
+	r8 a\staccato a\staccato g\staccato a r16 a r8 c |
+    }
+% page 9.1
+    \relative {
+	r8 a,\staccato a\staccato g\staccato a r16 a r8 a |
+	c8\staccato a\staccato a\staccato a\staccato c\staccato e\staccato e\staccato e\staccato |
+	r4 a,8 g\staccato r4 a8 g\staccato |
+	r4 a8 g\staccato r2 |
+    }
+% page 10
+    r1 |
+    \relative {
+	\repeat unfold 8 a,8\staccato |
+    }
+% D.S.1
+% D Stegno1-2x
+    \barNumberCheck #63
+    \relative {
+	d8\staccato r16 d r8 f\staccato g4\staccato r |
+	c,8\staccato r16 c r8 e\staccato f4\staccato r |
+	b,8\staccato r16 b r8 d e4\staccato r |
+    }
+% page 6-2x
+    \relative {
+	a,8 a' b,4 a\staccato r |
+	d8\staccato r16 d r8 f\staccato g4\staccato r |
+	c,8\staccato r16 c r8 e\staccato f4\staccato r |
+	b,8 r d r f r a r |
+    }
+% page 6.1-2x
+    \relative {
+	e8 r e r e r e r |
+	e8 f e f e4\staccato r |
+    }
+% E Stegno2-2x
+    \barNumberCheck #72
+    \relative {
+	\repeat unfold 4 { <ees, \parenthesize ees'>8 ees'\staccato } |
+	\repeat unfold 4 { aes,8 aes'\staccato } |
+    }
+% page 7-2x
+    \relative {
+	\repeat unfold 4 { des8 des'\staccato } |
+	ges,,8 ges'\staccato ges,\staccato ges'\staccato f, f'\staccato f, f'\staccato |
+	\repeat unfold 4 { <ees, \parenthesize ees'>8 ees'\staccato } |
+	\repeat unfold 4 { aes,8 aes'\staccato } |
+    }
+% page 7.1-2x
+    \relative {
+	\repeat unfold 4 { des8 des'\staccato } |
+	r8 bes, r bes bes4\staccato bes\staccato |
+	ees4\staccato \repeat unfold 3 { <ees, \parenthesize ees'>8 ees'\staccato } |
+	\repeat unfold 4 { aes,8 aes'\staccato } |
+    }
+% page 8-2x
+    \relative {
+	\repeat unfold 4 { des8 des'\staccato } |
+	ges,,8 ges'\staccato r ges\staccato f, f'\staccato f, f'\staccato |
+	ees16 bes r ees r8 ees\staccato r bes ees aes, |
+	r8 aes' r16 ges8. ees8 c aes <ees \parenthesize ees'>
+    }
+% page 8.1-2x
+    \relative {
+	des8 r des r des r des r |
+    }
+% to Coda1,2
+% page 10 Coda1
+    \barNumberCheck #87
+    \relative {
+	des8 ces r ces des r des r |
+    }
+% H
+    \barNumberCheck #88
+    \relative {
+	fis,8 fis a fis b16 bis8 cis16 r8 fis, |
+	r8 fis a fis \acciaccatura b^\markup { \hspace #1 "H" } bis b a fis |
+    }
+% page 10.1
+    \relative {
+	fis,8 fis a fis b16 bis8 cis16 r8 fis, |
+    }
+    r1 |
+% I
+    \barNumberCheck #92
+    \relative {
+	b,8 b' b, b' e, e' e, e' |
+	cis8 cis cis r fis, fis fis r |
+    }
+% page 11
+    \relative {
+	gis8 gis gis gis cis cis cis cis |
+	fis,8 fis gis gis ais ais cis cis |
+	b8 b b16 b r b e,8 e' e, e' |
+	cis8 cis cis cis fis, fis' fis, fis' |
+    }
+% page 11.1
+    \relative {
+	b8 b b b e, e' e, e' |
+	a,8 e'~ e16 cis8 a16 a8 e a cis |
+	b8 b b b16 b e,8 e' e, e' |
+	cis8 cis cis cis fis, fis' fis, fis' |
+    }
+% page 12
+    \relative {
+	gis8 gis gis gis cis cis cis cis |
+	fis,8 fis gis gis ais ais cis cis |
+	b8 b b16 b r b e,8 e' e, e' |
+	eis,8 gis cis eis, fis r16 cis' fis,8 cis' |
+    }
+% page 12.1
+    \relative {
+	b8 b b fis e8. b'16~ b8 e, |
+	a,4 e' a, r |
+    }
+% J repeat
+    \barNumberCheck #108
+    r1 |
+% page 13
+    r1 | r1 | r1 |
+% page 13.1
+    r1 | r1 |
+% ending 1
+    r1 |
+% page 14
+    r1 |
+% end repeat
+% J repeat-2x
+    \barNumberCheck #116
+    r1 |
+% page 13-2x
+    r1 | r1 | r1 |
+% page 13.1-2x
+    r1 | r1 |
+% page 14
+    r1 | r1 | r1 |
+% E Stegno2-3x
+    \barNumberCheck #125
+    \relative {
+	\repeat unfold 4 { <ees, \parenthesize ees'>8 ees'\staccato } |
+	\repeat unfold 4 { aes,8 aes'\staccato } |
+    }
+% page 7-3x
+    \relative {
+	\repeat unfold 4 { des8 des'\staccato } |
+	ges,,8 ges'\staccato ges,\staccato ges'\staccato f, f'\staccato f, f'\staccato |
+	\repeat unfold 4 { <ees, \parenthesize ees'>8 ees'\staccato } |
+	\repeat unfold 4 { aes,8 aes'\staccato } |
+    }
+% page 7.1-3x
+    \relative {
+	\repeat unfold 4 { des8 des'\staccato } |
+	r8 bes, r bes bes4\staccato bes\staccato |
+	ees4\staccato \repeat unfold 3 { <ees, \parenthesize ees'>8 ees'\staccato } |
+	\repeat unfold 4 { aes,8 aes'\staccato } |
+    }
+% page 8-3x
+    \relative {
+	\repeat unfold 4 { des8 des'\staccato } |
+	ges,,8 ges'\staccato r ges\staccato f, f'\staccato f, f'\staccato |
+	ees16 bes r ees r8 ees\staccato r bes ees aes, |
+	r8 aes' r16 ges8. ees8 c aes <ees \parenthesize ees'>
+    }
+% page 8.1-3x
+    \relative {
+	des8 r des r des r des r |
+    }
+% to Coda1,2
+% page 14.1 Coda2
+    \barNumberCheck #140
+    \relative {
+	des8 ces r ces des r des r |
+    }
+% K
+    \barNumberCheck #141
+    \relative {
+	fis,8 fis a fis c'8. cis16 r8 fis,~ |
+	fis8 fis a fis c' b a fis |
+    }
+% page 15
+    \relative {
+	fis,8 fis a fis c'8. cis16 r8 fis, |
+	r8 fis' e(^\markup { \hspace #1 "H" } fis) c8. b16~ b8 a |
+	r4 a8 fis c'8. cis16 r8 fis,8~ |
+    }
+% page 15.1
+    \relative {
+	fis,8 fis a fis c' b a fis |
+	<d \parenthesize d'>8. d'16 r8 g,~ g g'\staccato cis,4~ |
+	cis2 r2 |
+	fis4 fis, r2 |
+    }
+    \barNumberCheck #150
+}

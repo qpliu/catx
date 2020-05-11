@@ -1,0 +1,77 @@
+voLyrics = \new Lyrics = "lyricsa" \lyricsto "vo" \new Lyrics = "lyricsb" \lyricsto "vo" \context Lyrics = "lyricsa" \lyricmode {
+% page 2
+    E ga o ga to ma ra na i! O do ru ko ko ro to ma
+% page 3
+    ra na i! U go ki da su yo ki mi no mo to he ha shi re! ha shi re! ha shi re!
+% page 4.1
+    \reni Zu t to ki mi wo o na ji de n sha de mi ru ta bi ni I tsu ka ra da
+% page 5
+    rou? Bo ku no ko ko ro no na ka de o o ki ku nat te i ta o mo i
+    \ayaka Ha na shi
+% page 5.1
+    ka ke ru ko to mo de ki na ku te i tsu mo To mo da chi to i s sho ni sha bet te ru fu ri de
+% page 6
+    yo ko me de mi te ta bo ku da ke do
+    \kanako Ki zu i ta ko no kan jou ni mou ko u kai nan te shi ta ku nai Bo ku
+% page 6.1
+    wa bo ku ni u so tsui te ni ge ta ku mo na i A fu re da shi so u na ki mo chi wo hi to tsu no ko ra zu ko
+% page 7
+    to ba ni ze n bu tsu me ko mo u -
+    \black E ga o ga to ma
+% page 7.1
+    ra na i! O do ru ko ko ro to ma ra na i! U go ki da su yo ki mi no
+% page 8
+    mo to he ha shi re! ha shi re! ha shi re! I ma wa ma da yu u ki ga ta
+% page 8.1
+    ri na i! Su ko shi no kik ka - ke ga ta ri nai! U go ki da shi te bo ku no
+% page 9
+    ka ra da ha shi re! ha shi re! ha shi re!
+% page 10
+    \momoka I tsu dat te fu mi da su ma e ni i i
+% page 10.1
+    wa ke bak ka ri ka n ga e te
+    \kanako Kek kyo ku na n ni mo de ki na ku te ji kan ga su gi te 
+    \reni Wa su re te i ku
+% page 11
+    ko to ni na re te ta bo ku no ko ko ro ga ha shi ri da shi ta
+    \shiori Ko n na ni hi ro i se ka i ka ra su re ba
+% page 11.1
+    bo ku na n te chip po ke da ro u na
+    \ayaka De mo ki mi he no bo ku no o mo i wa ko no so ra yo ri mo
+% page 12
+    o o ki i ka ra
+    \black E
+% ending 2
+    -
+    \momoka Mat te i te mo ha ji man nai
+    \akari ki mi
+% page 12.1
+    to ze n ryo ku de mu ki ai tai
+    \ayaka O na ji ko no ho shi ni u ma re te
+    \reni on na ji ko no ji da i ni u ma re te ko re te
+% page 13
+    \shiori Gu u ze n na n te ka n ta n na ko to ba de su re chi ga i ha na re te shi ma u nan te
+    \akari Kan gae ru da ke de mu ne no o ku ga i ta ku te
+% page 13.1
+    \momoka Jun sui ni ki mi to tsu na gat te i ta i yo i ma mo
+    \reni nan nen mo nan juu nen mo ko no sa ki no mi rai mo
+% page 14
+    \ayaka I chi do ki ri no
+    \akari ji n se i da ka ra
+    \black Ki mi no ma e ja su na o de i ta i n da
+% page 14.1
+    \kanako So re de mo ko ta e wa da se na i yo su ko shi
+% page 15
+    no ko to ba da se na i yo 「Ki mi ga su ki」 so re da ke de se ka i wo
+% page 15.1
+    ka e ru? ka wa ru?
+    \black E ga o ga to ma
+% page 16
+    ra na i! O do ru ko ko ro to ma ra na i! U go ki da su yo ki mi no
+% page 16.1
+    mo to he ha shi re! ha shi re! ha shi re! I ma wa ma da yu u ki ga ta
+% page 17
+    ri na i! Su ko shi no kik ka - ke ga ta ri nai! U go ki da shi te bo ku no
+% page 17.1
+    ka ra da ha shi re! ha shi re! ha shi re!
+}

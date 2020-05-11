@@ -1,0 +1,205 @@
+egTwoPart = {
+% page 2
+    r1 |
+% A
+    \barNumberCheck #2
+    r1 | r1 | r1 |
+% page 3
+    r1 | r1 | r1 | r1 |
+% page 3.1
+    r1 |
+% B
+    \barNumberCheck #10
+    r1 | r1 | r1 |
+% page 4
+    r1 | r1 | r1 | r1 |
+% page 4.1
+    r1 |
+% C
+    \barNumberCheck #18
+    r1 | r1 | r1 | r1 |
+% page 5
+    r1 | r1 | r1 | r1 |
+% D
+    \barNumberCheck #26
+    r1 |
+% page 5.1
+    r1 | r1 | r1 | r1 | r1 |
+% page 6
+    r1 | r1 |
+% E
+    \barNumberCheck #34
+    r1 | r1 |
+% page 6.1
+    r1 | r1 | r1 | r1 |
+% page 7
+    r1 | r1 | r1 |
+    \repeat volta 2 {
+% F
+	\mybarNumberCheck #43
+	\relative {
+	    <a' cis e>8_"<Dist>" <a cis e> r <b dis fis> r <b e> \deadNote <b e>16 \deadNote <b e> <gis b e>8 |
+	}
+% page 7.1
+	\relative {
+	    r4 r8 <gis' b dis> r <gis b dis> <gis b dis> <gis b dis> |
+	    <a cis e>8 <a cis e> r <b dis fis> r <b e> \deadNote <b e>16 \deadNote <b e> <gis b e>8 |
+	    r8 \deadNote <gis b e> <gis b e> <gis b e> r <gis b e> r <gis b e> |
+	    <a cis e>8 <a cis e> r <b dis fis> r <b e> \deadNote <b e>16 \deadNote <b e> <gis b e>8 |
+	}
+% page 8
+	\relative {
+	    r4 r8 <gis' b dis> r <gis b dis> <gis b dis> <gis b dis> |
+	    <a cis e>8 <a cis e> r <b dis fis> r <b e> r <gis b e> |
+	    r8 <gis b e> <gis b e> <gis b e> r <gis b e> <gis b e>4 |
+	}
+% G
+	\mybarNumberCheck #51
+	\relative {
+	    <a' cis e>8 <a cis e> r <b dis fis> r <b e> \deadNote <b e>16 \deadNote <b e>16 <gis b e>8 |
+	}
+% page 8.1
+	\relative {
+	    r4 r8 <gis' b dis> r <gis b dis> <gis b dis> <gis b dis> |
+	    <a cis e>8 <a cis e> r <b dis fis> r <b e> r <gis b e> |
+	    r8 \deadNote <gis b e> <gis b e> <gis b e> r <gis b e> r <gis b e> |
+	    <a cis e>8 <a cis e> r <b dis fis> r <b e> r <gis b e> |
+	}
+% page 9
+	\relative {
+	    r8 \deadNote <gis' b e> \deadNote <gis b e> <gis b dis> r <gis b dis> <gis b dis> <gis b dis> |
+	    <a cis e>8 <a cis e> r <b dis fis> r <b e> r <gis b e> |
+	}
+    } \alternative { {
+	\relative {
+	    r8 <gis' b e> <gis b e> <gis b e> r <gis b e> <gis b e>4 |
+	}
+% H
+	\mybarNumberCheck #59
+	\relative {
+	    <a' cis e>8 <a cis e> r <b dis fis> r <b e> r <gis b e> |
+	}
+% page 9.1
+	\relative {
+	    r8 <gis' b e> <gis b e> <gis b dis> r <gis b dis> <gis b dis> <gis b dis> |
+	    <a cis e>8 <a cis e> r <b dis fis> r <b e> r <gis b e> |
+	    r8 <gis b e> <gis b e> <gis b e> r <gis b e> r <gis b e> |
+	    <a cis e>8 <a cis e> r <b dis fis> r <b e> r <gis b e> |
+	}
+% page 10
+	\relative {
+	    r8 <gis' b e> <gis b e> <gis b dis> r <gis b dis> <gis b dis> <gis b dis> |
+	    <a cis e>8 <a cis e> r <b dis fis> r <b e> r <gis b e> |
+	    r8 <gis b e> <gis b e> <gis b e> r <gis b e> <gis b e> <gis b e> |
+	}
+% I
+	\mybarNumberCheck #67
+	\override TextSpanner.bound-details.left.text = \markup { \upright "M" }
+	\relative {
+	    a8\startTextSpan a a a a a a a16 a |
+	}
+% page 10.1
+	\relative {
+	    a8 a a a a\stopTextSpan <e'' a> r e,,\startTextSpan |
+	    e8 e e e e e e e16 e |
+	    e8 e e e e\stopTextSpan gis' e,\startTextSpan e |
+	    a8 a a a a a a a16 a |
+	}
+% page 11
+	\relative {
+	    a8 a a a16 a a8\stopTextSpan <e'' a> r e,,\startTextSpan |
+	    e8 e e e e e e e16 e |
+	    e8 e e e16 e e8 e e e\stopTextSpan |
+	}
+% J
+	\mybarNumberCheck #75
+	r1 | r1 |
+% page 11.1
+	r1 | r1 | r1 | r1 | r1 |
+% page 12
+	r1 | r1 |
+    } {
+	\mybarNumberCheck #84
+	\relative {
+	    r8 <gis' b e> <gis b e> <gis b e> r <gis b e> <gis b e> <gis b e> |
+	}
+    } }
+% K
+    \mybarNumberCheck #85
+    r1 |
+% page 12.1
+    r1 | r1 | r1 |
+% page 13
+    r1 | r1 | r1 | r1 |
+% page 13.1
+    r1 | r1 | r1 | r1 |
+% page 14
+    r1 | r1 | r1 | r1 |
+% page 14.1
+    r1 | r1 |
+% L
+    \mybarNumberCheck #103
+    r1 | r1 |
+% page 15
+    r1 | r1 | r1 | r1 |
+% page 15.1
+    r1 | r1 | r1 |
+% M
+    \mybarNumberCheck #112
+    \relative {
+	<b' dis fis>8 <b dis fis> r <cis eis gis> r <cis fis> r <ais cis fis> |
+    }
+% page 16
+    \relative {
+	r8 <ais' cis fis> r <ais cis fis> r <ais cis fis> <ais cis fis> <ais cis fis> |
+	<b dis fis>8 <b dis fis> r <cis eis gis> r <cis fis> r <ais cis fis> |
+	r8 <ais cis fis> <ais cis fis> <b e> r <b e> r <cis fis> |
+	<b dis fis>8 <b dis fis> r <cis eis gis> r <cis fis> r <ais cis fis> |
+    }
+% page 16.1
+    \relative {
+	r8 <ais' cis fis> r <ais cis fis> r <ais cis fis> r <ais cis fis> |
+	<b dis fis>8 <b dis fis> r <cis eis gis> r <cis fis> r <ais cis fis> |
+	r8 <ais cis fis> r <ais cis fis> r <ais cis fis> <ais cis fis> <ais cis fis> |
+    }
+% N
+    \mybarNumberCheck #120
+    \relative {
+	<b' dis fis>8 <b dis fis> r <gis cis fis> r <gis cis fis> r <ais cis fis> |
+    }
+% page 17
+    \relative {
+	r8 <ais' cis fis> r <ais cis fis> r <ais cis fis> <ais cis fis> <ais cis fis> |
+	<b dis fis>8 <b dis fis> r <gis cis fis> r <gis cis fis> r <ais cis fis> |
+	r8 <ais cis fis> <ais cis fis> <ais cis fis> r <ais cis fis> r <ais cis fis> |
+    }
+    \repeat percent 2 {
+	\relative {
+	    <b' dis fis>8 <b dis fis> r <gis cis fis> r <gis cis fis> r <ais cis fis> |
+	}
+% page 17.1
+	\relative {
+	    r8 <ais' cis fis> r <ais cis fis> r <ais cis fis> <ais cis fis> <ais cis fis> |
+	}
+    }
+% O
+    \mybarNumberCheck #128
+    \relative {
+	<b' dis fis>8 <b dis fis> r <gis cis fis> r <gis cis fis> <gis cis eis> <ais cis fis> |
+    }
+% page 18
+    \relative {
+	r8 <ais' cis fis> r <ais cis fis> r <ais cis fis> <gis cis eis> <ais cis fis> |
+	<b dis fis>8 <b dis fis> r <gis cis fis> r <gis cis fis> <gis cis eis> <ais cis fis> |
+	r8 <ais cis fis> r <ais cis fis> r <gis cis eis> <ais cis fis> <ais cis fis> |
+	<b dis fis>8 <b dis fis> r <gis cis fis> r <gis cis fis> <gis cis eis> <ais cis fis> |
+    }
+% page 18.1
+    \relative {
+	r8 <ais' cis fis> <ais cis gis'> <ais cis fis> r <ais cis fis> <gis cis eis> <ais cis fis> |
+	<b dis fis>8 <b dis fis> r <gis cis fis> r <gis cis fis> <gis cis eis> <ais cis fis> |
+	r8 <ais cis fis> <gis cis eis> <ais cis fis> r <gis cis eis> <ais cis gis'> <ais cis fis> |
+    }
+    r1 | r1 |
+    \mybarNumberCheck #138
+}

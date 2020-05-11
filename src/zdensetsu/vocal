@@ -1,0 +1,403 @@
+vocalPart = \new Voice = "vocal" \new Voice = "vocalb" \context Voice = "vocal" {
+    \context Voice = "vocalb" \voiceTwo
+% page 10
+    \barNumberCheck #1
+    r1 | r1 | r1 | r1 |
+% page 11 Intro Segno3
+    \barNumberCheck #5
+    r1 | r1 | r1 | r1 |
+% page 11.1
+    r1 | r1 | r1 | r1 |
+% page 12
+    r1 |
+    \relative {
+	r4 r8 \deadNote bes'8~^"Z____" \deadNote bes4 r4 |
+    }
+    r1 |
+% to Coda 3
+    r1 |
+% page 12.1 A
+    \barNumberCheck #17
+    \relative {
+	\deadNote bes'4 r8 c,8~ c8 c8 c8 c8 |
+	ees4 c8 c8~ c8 c8 c8 c8 |
+	f4 ees8 f8~ f8 ees8 f8 f8 |
+	f8 f8 f8 ges8~ ges8 f8 ees8 c8 |
+    }
+% page 13
+    \relative {
+	c'4 r4 r2 |
+    }
+    r1 | r1 | r1 |
+% page 13.1
+    \relative {
+	\deadNote g'8 \deadNote ees8 r8 c8~ c8 c8 c8 c8 |
+	ees4 c8 c8~ c8 c8 c4 |
+	f4 ees8 f8~ f8 f8 f4 |
+	c'4 bes4 g8 f8 ees4 |
+    }
+% page 14
+    \relative {
+	c'4. c'8~ c4 r4 |
+    }
+    r1 | r1 | r1 |
+% page 14.1 B
+    \barNumberCheck #33
+    \relative {
+	\deadNote c''4 r8 c8~ c4 c,4 |
+	\deadNote c'4 r8 ees,8~ ees8( c8) g'4 |
+	g8 f8 g8 f8 g8 f8 g4 |
+	c8 bes8 g8 f8 ees8( c8) c8( bes8) |
+    }
+% page 15
+    \relative {
+	c''4 r4 r2 |
+    }
+    r1 | r1 | r1 |
+% page 15.1
+    \relative {
+	\deadNote g'4 r8 c8 c4 bes8 c8~ |
+	c8 c4 c8 bes8 c4 bes8 |
+	c8. ces16~ ces8 bes8 a8. aes16~ aes8 g8 |
+	ges8. f16~ f8 fes8 ees8. d16~ d8 des8 |
+    }
+% page 16
+    \relative {
+	c'4. c'8~ c2~ |
+	c4\bendAfter #-4 r4 r8 bes4. |
+	c1 |
+	r1 |
+    }
+% page 16.1
+    \relative {
+	\deadNote bes'4 \deadNote c,8 \deadNote c'8 \deadNote g4 \deadNote bes8 \deadNote g8~ |
+	\deadNote g8 \deadNote bes8 \deadNote g4 \deadNote bes4 \deadNote g4 |
+    }
+    \relative {
+	c''4 g8 bes8~ bes8 g8 bes8 g8 |
+	c8 c8 c8 c8 d4 d4 |
+    }
+% page 17
+    r1 | r1 | r1 | r1 |
+% page 17.1 C Stegno1
+    \barNumberCheck #57
+    \relative {
+	c''4 aes4 f4 bes4 |
+	<< { \voiceOne r4 bes4 aes4 g4 | } \context Voice = "vocalb" { g2. r4 | } >>
+	\oneVoice
+	f4 g4 ees4 d4 |
+	<< { \voiceOne r4 ees4 f4 g4 | } \context Voice = "vocalb" { ees2. r4 | } >>
+	\oneVoice
+    }
+% page 18
+    \relative {
+	aes'4 bes4 g4 f4 |
+	<< { \voiceOne r4 ees4 f4 g4 | } \context Voice = "vocalb" { g2. r4 | } >>
+	\oneVoice
+	a8 a4 a8 a4 a8 a8~ |
+	a8 a8 a4 a4 b4 |
+    }
+% page 18.1
+    \relative {
+	c''2~ c8 a8 c8 b8~ |
+	b2. r4 |
+	r1 |
+    }
+% page 19 D Stegno2
+    \barNumberCheck #68
+    \relative {
+	b'8 a8 b8 c8~ c4 r4 |
+	a8 g8 a8 b8~ b4 r4 |
+	g8 fis8 g8 fis8~ fis8 g8 a8 d8 |
+    }
+% page 19.1
+    \relative {
+	c''8 b8 c8 b8~ b4 r4 |
+	b8 a8 b8 a8 b8 a4 b8~ |
+	b4 a4 g4 a4 |
+    }
+% page 20
+    \relative {
+	b'4 b8 b8~ b8 c4 b8~ |
+	b4 r4 gis8 a8 b4 |
+	<< { \voiceOne \teeny <a c>2.. <a d>8~ \normalsize | } \context Voice = "vocalb" { c4 c8 c8~ c8 e,4 fis8 | } >>
+    }
+% page 20.1
+    \relative {
+	<< { \teeny <a' d>2. r4 \normalsize | } \context Voice = "vocalb" { r4 fis4 fis4 e'4 | } >>
+	<< { \teeny <b d>2.. <c e>8~ \normalsize | } \context Voice = "vocalb" { d2 b4 a8 g8~ | } >>
+	<< { \teeny <c e>1 \normalsize | } \context Voice = "vocalb" { g2 r8 e8 fis8 g8 | } >>
+    }
+% page 21
+    \relative {
+	<< { e'8 fis8 g8 e8 e8 fis8 g8 e8~ | } \context Voice = "vocalb" { e8 fis8 g8 e8~ e4 r4 | } >>
+	<< { e2 e8 e8 fis8 a8 | } \context Voice = "vocalb" { e8 fis8 g8 a8 e8 e8 fis8 a8 | } >>
+	\oneVoice
+	b4 b8 b8~ b8 c4 b8~ |
+	b2. r4 |
+    }
+% page 21.1 E
+    \barNumberCheck #84
+    r1 | r1 | r1 | r1 |
+% page 22
+    \relative {
+	r4 \deadNote a'4 \deadNote c8 \deadNote c8 \deadNote c8 \deadNote c8 |
+	\deadNote c8 \deadNote c8 \deadNote c4 \deadNote c4 \deadNote c4 |
+    }
+    \relative {
+	b'2 b2 |
+	b2 b2 |
+    }
+% page 22.1
+    \relative {
+	b'2 e,2~ |
+    }
+% to Coda 1,2
+    \relative {
+	e'1 |
+    }
+    \relative {
+	\deadNote b'1 |
+    }
+    r1 |
+% page 23 F
+    \barNumberCheck #96
+    r1 | r1 | r1 | r1 |
+% page 23.1
+    r1 | r1 | r1 | r1 |
+% page 24
+    r1 | r1 | r1 | r1 | r1 |
+% page 24.1
+    r1 | r1 | r1 | r1 | r1 |
+% page 25 G
+    \barNumberCheck #114
+    \relative {
+	\deadNote bes'8 \deadNote c,8 r8 c8~ c8 c8 c8 c8 |
+	ees4. c8~ c8 c8 c8 c8 |
+    }
+    r1 | r1 |
+% page 25.1
+    \relative {
+	\deadNote bes'4 r8 bes8~ bes8 bes8 bes8 bes8 |
+	bes4 bes8 bes8~ bes8 bes8 bes8 b8 |
+	c8~ c4.~ c4 r4 |
+	r1 |
+    }
+    \relative {
+	\deadNote bes'4 r4 \deadNote ees,8 r8 r4 |
+    }
+% page 26 H
+    \barNumberCheck #123
+    \relative {
+	\deadNote bes'4 r8 c,8~ c8 c8 c8 c8 |
+	g'4 c,8 \deadNote ees'8~ \deadNote ees8 \deadNote g,8 c,8 c8 |
+	g'4 r4 r2 |
+	r1 |
+    }
+% page 26.1
+    \relative {
+	\deadNote bes'8 \deadNote c,8 r8 bes'8~ bes8 bes8 bes8 bes8 |
+	bes4 bes8 bes8~ bes8 bes8 bes8 b8 |
+	c4 r4 r2 |
+	r1 |
+    }
+% page 27
+    \relative {
+	\deadNote bes'4 r4 r2 |
+    }
+    r1 | r1 | r1 |
+% page 27.1
+    \relative {
+	<< { \teeny <c'' c'>2 <bes bes'>2 \normalsize | } \context Voice = "vocalb" { r1 } >>
+	<< { \teeny <aes aes'>2 <g g'>2 \normalsize | } \context Voice = "vocalb" { r1 } >>
+	<< { \teeny <f f'>4 <g g'>4 <f f'>8 <ees ees'>8 <d d'>8 <c c'>8~ \normalsize | } \context Voice = "vocalb" { r1 } >>
+	<< { \teeny <c c'>2. r4 \normalsize | } \context Voice = "vocalb" { r1 } >>
+    }
+    \oneVoice
+% D.S.1
+% page 17.1 C Stegno1-2x
+    \barNumberCheck #139
+    \relative {
+	c''4 aes4 f4 bes4 |
+	<< { \voiceOne r4 bes4 aes4 g4 | } \context Voice = "vocalb" { g2. r4 | } >>
+	\oneVoice
+	f4 g4 ees4 d4 |
+	<< { \voiceOne r4 ees4 f4 g4 | } \context Voice = "vocalb" { ees2. r4 | } >>
+	\oneVoice
+    }
+% page 18-2x
+    \relative {
+	aes'4 bes4 g4 f4 |
+	<< { \voiceOne r4 ees4 f4 g4 | } \context Voice = "vocalb" { g2. r4 | } >>
+	\oneVoice
+	a8 a4 a8 a4 a8 a8~ |
+	a8 a8 a4 a4 b4 |
+    }
+% page 18.1-2x
+    \relative {
+	c''2~ c8 a8 c8 b8~ |
+	b2. r4 |
+	r1 |
+    }
+% page 19 D Stegno2-2x
+    \barNumberCheck #150
+    \relative {
+	b'8 a8 b8 c8~ c4 r4 |
+	a8 g8 a8 b8~ b4 r4 |
+	g8 fis8 g8 fis8~ fis8 g8 a8 d8 |
+    }
+% page 19.1-2x
+    \relative {
+	c''8 b8 c8 b8~ b4 r4 |
+	b8 a8 b8 a8 b8 a4 b8~ |
+	b4 a4 g4 a4 |
+    }
+% page 20-2x
+    \relative {
+	b'4 b8 b8~ b8 c4 b8~ |
+	b4 r4 gis8 a8 b4 |
+	<< { \voiceOne \teeny <a c>2.. <a d>8~ \normalsize | } \context Voice = "vocalb" { c4 c8 c8~ c8 e,4 fis8 | } >>
+    }
+% page 20.1-2x
+    \relative {
+	<< { \teeny <a' d>2. r4 \normalsize | } \context Voice = "vocalb" { r4 fis4 fis4 e'4 | } >>
+	<< { d2 fis4 fis8 g8~ | } \context Voice = "vocalb" { \teeny <b, d>2.. <c e>8~ \normalsize | } >>
+	<< { g'2 r8 e,8 fis8 g8 | } \context Voice = "vocalb" { \teeny <c e>1 \normalsize | } >>
+    }
+% page 21-2x
+    \relative {
+	<< { e'8 fis8 g8 e8 e8 fis8 g8 e8~ | } \context Voice = "vocalb" { e8 fis8 g8 e8~ e4 r4 | } >>
+	<< { e2 e8 e8 fis8 a8 | } \context Voice = "vocalb" { e8 fis8 g8 a8 e8 e8 fis8 a8 | } >>
+	\oneVoice
+	b4 b8 b8~ b8 c4 b8~ |
+	b2. r4 |
+    }
+% page 21.1 E-2x
+    \barNumberCheck #166
+    r1 | r1 | r1 | r1 |
+% page 22-2x
+    \relative {
+	r4 \deadNote a'4 \deadNote c8 \deadNote c8 \deadNote c8 \deadNote c8 |
+	\deadNote c8 \deadNote c8 \deadNote c4 \deadNote c4 \deadNote c4 |
+    }
+    \relative {
+	b'2 b2 |
+	b2 b2 |
+    }
+% page 22.1-2x
+    \relative {
+	b'2 e,2~ |
+    }
+% page28 Coda 1
+    \barNumberCheck #175
+    \relative {
+	<< { e'1 | } \context Voice = "vocalb" { \deadNote b'1 | } >>
+    }
+% I
+    \barNumberCheck #176
+    r1 | r1 | r1 | r1 |
+% page28.1
+    r1 | r1 | r1 | r1 |
+% page29
+    \relative {
+	<< { \voiceOne \teeny <c'' f>1 \normalsize | } \context Voice = "vocalb" { r1 | } >>
+	<< { \teeny <b d>2. r4 \normalsize | } \context Voice = "vocalb" { r1 | } >>
+	<< { \teeny <b e>2 <b e>4 <b e>8 <b f'>8~ \normalsize | } \context Voice = "vocalb" { r1 | } >>
+	<< { \teeny <b f'>2. r4 \normalsize | } \context Voice = "vocalb" { r1 | } >>
+    }
+    \oneVoice
+% page29.1
+    r1 | r1 | r1 | r1 |
+% page30 J
+    \barNumberCheck #192
+    \relative {
+	e'8 d8 e8 f8~ f4 r4 |
+	d8 c8 d8 e8~ e4 r4 |
+	c4 c8 b8~ b8 c8 d8 g8 |
+	f8 e8 f8 e8~ << { \voiceTwo e2 | } \context Voice = "vocalb" { \voiceOne \teeny f8 e8 f8 e8~ \normalsize | } >>
+	<< { \teeny f8 e8 f8 e8~ e2 \normalsize | } \context Voice = "vocalb" { \teeny e2 r2 \normalsize \voiceTwo | } >>
+	\oneVoice
+    }
+% page30.1
+    r1 |
+% D.S.2
+% page 19 D Stegno2-3x
+    \barNumberCheck #198
+    \relative {
+	b'8 a8 b8 c8~ c4 r4 |
+	a8 g8 a8 b8~ b4 r4 |
+	g8 fis8 g8 fis8~ fis8 g8 a8 d8 |
+    }
+% page 19.1-3x
+    \relative {
+	c''8 b8 c8 b8~ b4 r4 |
+	b8 a8 b8 a8 b8 a4 b8~ |
+	b4 a4 g4 a4 |
+    }
+% page 20-3x
+    \relative {
+	b'4 b8 b8~ b8 c4 b8~ |
+	b4 r4 gis8 a8 b4 |
+	<< { \voiceOne \teeny <a c>2.. <a d>8~ \normalsize | } \context Voice = "vocalb" { c4 c8 c8~ c8 e,4 fis8 | } >>
+    }
+% page 20.1-3x
+    \relative {
+	<< { \teeny <a' d>2. r4 \normalsize | } \context Voice = "vocalb" { r4 fis4 fis4 e'4 | } >>
+	<< { \teeny <b d>2.. <c e>8~ \normalsize | } \context Voice = "vocalb" { d2 b4 a8 g8~ | } >>
+	<< { \teeny <c e>1 \normalsize | } \context Voice = "vocalb" { g2 r8 e8 fis8 g8 | } >>
+    }
+% page 21-3x
+    \relative {
+	<< { e'8 fis8 g8 e8 e8 fis8 g8 e8~ | } \context Voice = "vocalb" { e8 fis8 g8 e8~ e4 r4 | } >>
+	<< { e2 e8 e8 fis8 a8 | } \context Voice = "vocalb" { e8 fis8 g8 a8 e8 e8 fis8 a8 | } >>
+	\oneVoice
+	b4 b8 b8~ b8 c4 b8~ |
+	b2. r4 |
+    }
+% page 21.1 E-3x
+    \barNumberCheck #214
+    r1 | r1 | r1 | r1 |
+% page 22-3x
+    \relative {
+	r4 \deadNote a'4 \deadNote c8 \deadNote c8 \deadNote c8 \deadNote c8 |
+	\deadNote c8 \deadNote c8 \deadNote c4 \deadNote c4 \deadNote c4 |
+    }
+    \relative {
+	b'2 b2 |
+	b2 b2 |
+    }
+% page 22.1-3x
+    \relative {
+	b'2 e,2~ |
+    }
+% to Coda 1,2
+% page30 Coda 2
+    \barNumberCheck #223
+    \relative {
+	<< { e'1 | } \context Voice = "vocalb" { \deadNote b'1 | } >>
+    }
+% D.S.3
+% page 11 Intro Segno3-2x
+    \barNumberCheck #224
+    r1 | r1 | r1 | r1 |
+% page 11.1-2x
+    r1 | r1 | r1 |
+    \relative {
+	r4 \deadNote aes'4^"Z" r2 |
+    }
+% page 12-2x
+    r1 |
+    \relative {
+	r4 r8 \deadNote bes'8~^"Z____" \deadNote bes4 r4 |
+    }
+    r1 |
+% to Coda 3
+% page30 Coda 3
+    \barNumberCheck #235
+    \relative {
+	<< { \voiceOne \teeny r2 r8 \deadNote c''4.~^"Z______" \normalsize | } \context Voice = "vocalb" { r1 | } >>
+	<< { \deadNote c2\bendAfter #-4 r2 | } \context Voice = "vocalb" { r1 | } >>
+	\oneVoice
+    }
+    \barNumberCheck #237
+}

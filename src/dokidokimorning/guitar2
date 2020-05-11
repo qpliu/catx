@@ -1,0 +1,221 @@
+guitarTwoPart = {
+% page 120 A
+    \barNumberCheck #1
+    r1_\markup { \fontsize #-2 "(Arranged for 7 Strings Guitar with Irregular Tuning: 7th String = Drop A)" } |
+    r1 | r1 | r1 |
+% page 121
+    r1 | r1 | r1 | r1 |
+% page 121.1 B
+    \barNumberCheck #9
+    r1 | r1 | r1 | r1 |
+% page 122
+    \relative {
+	\acciaccatura d'''8^"C" e1~ |
+	e1~ |
+	e1~ |
+	e2\startTrillSpan_"Edit"~ e2\stopTrillSpan\bendAfter #-5 |
+    }
+% page 122.1 C
+    \barNumberCheck #17
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 123
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 123.1 D
+    \barNumberCheck #25
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 124
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 124.1 E
+    \barNumberCheck #33
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 125
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 125.1 F Stegno
+    \barNumberCheck #41
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 |
+    }
+% page 126
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 |
+    }
+% page 126.1
+    \quoteDuring #"guitar1" {
+	s1 | s1 |
+    }
+% G
+    \barNumberCheck #49
+    \quoteDuring #"guitar1" {
+	s1 |
+    }
+% page 127
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 |
+    }
+% page 127.1
+    \quoteDuring #"guitar1" {
+	s1 | s1 |
+    }
+    \relative {
+	<d' d'>8 <d d'>8 <e e'>8 <e e'>8 <f f'>8 <f f'>8 <g g'>8 <g g'>8 |
+	<a a'>8 <a a'>8 <gis gis'>8 <gis gis'>8 <fis fis'>8 <fis fis'>8 <e e'>8 <e e'>8 |
+    }
+% page 128 H
+    \barNumberCheck #57
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 128.1
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 129
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 129.1
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 |
+    }
+% to Coda
+    \quoteDuring #"guitar1" {
+	s1 |
+    }
+% page 130 I
+    \barNumberCheck #73
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 130.1
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% D.S.
+% page 125.1 F Stegno-2x
+    \barNumberCheck #81
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 |
+    }
+% page 126-2x
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 |
+    }
+% page 126.1-2x
+    \quoteDuring #"guitar1" {
+	s1 | s1 |
+    }
+% G-2x
+    \barNumberCheck #89
+    \quoteDuring #"guitar1" {
+	s1 |
+    }
+% page 127-2x
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 |
+    }
+% page 127.1-2x
+    \quoteDuring #"guitar1" {
+	s1 | s1 |
+    }
+    \relative {
+	<d' d'>8 <d d'>8 <e e'>8 <e e'>8 <f f'>8 <f f'>8 <g g'>8 <g g'>8 |
+	<a a'>8 <a a'>8 <gis gis'>8 <gis gis'>8 <fis fis'>8 <fis fis'>8 <e e'>8 <e e'>8 |
+    }
+% page 128 H-2x
+    \barNumberCheck #97
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 128.1-2x
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 129-2x
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 129.1-2x
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 |
+    }
+% to Coda
+% page 131
+    \barNumberCheck #112
+    \quoteDuring #"guitar1" {
+	s1 |
+    }
+% J
+    \barNumberCheck #113
+    \quoteDuring #"guitar1" {
+	s1 | s1 |
+    }
+% page 131.1
+    \quoteDuring #"guitar1" {
+	s1 | s1 |
+    }
+    \relative {
+	\acciaccatura d'''8^"C" e1~ |
+    }
+% page 132
+    \relative {
+	e'''1~ |
+	e1~ |
+	e2\startTrillSpan_"Edit"~ e2\stopTrillSpan\bendAfter #-6 |
+    }
+% page 132.1 K
+    \barNumberCheck #121
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 133
+    \quoteDuring #"guitar1" {
+	s1 | s1 |
+    }
+    \relative {
+	<a' a'>8 <a a'>8 <a a'>8 <a a'>8 <gis gis'>8 <gis gis'>8 <gis gis'>8 <fis fis'>8~ |
+	<fis fis'>8 <fis fis'>8 <fis fis'>8 <e e'>8 r2 |
+    }
+% page 133.1 L
+    \barNumberCheck #129
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 134
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 134.1 M
+    \barNumberCheck #137
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 135
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 |
+    }
+% page 135.1
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 |
+    }
+% page 136
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 |
+    }
+% page 136.1
+    \quoteDuring #"guitar1" {
+	s1 | s1 | s1 |
+    }
+    \barNumberCheck #153
+}

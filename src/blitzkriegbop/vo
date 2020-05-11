@@ -1,0 +1,107 @@
+voPart = \new Voice = "vo" {
+% Intro
+    r1 r1 r1 r1 |
+    r1 r1 r1 r1 |
+    r1 r1 r1 r1 |
+    r1 r1 r1 r1 |
+    \relative {
+	\deadNote d''4 r \deadNote d r |
+	r4 \deadNote d \deadNote d r |
+	\deadNote d4 r \deadNote d r |
+	r4 \deadNote d \deadNote d r |
+	\deadNote d4 r \deadNote d r |
+	r4 \deadNote d \deadNote d r |
+	\deadNote d4 r \deadNote d r |
+	r4 \deadNote d \deadNote d r8 cis |
+    }
+% Verse 1
+    \relative {
+	e''8 e e d cis4 e |
+	r2 r4. cis8 |
+	e8 e e d cis4 e |
+	r2 r4. cis8 |
+	e8 e e d cis4 a |
+	r4. b8 e4 e |
+	cis4 r2. |
+	r2 r4. cis8 |
+	e8 e e d cis4 e |
+	r2 r4. cis8 |
+	e8 e e4 cis e |
+	r2 r4. cis8 |
+	e8 e e d cis4 a |
+	r4. b8 e4 e |
+	cis4 r2. |
+	r1 |
+    }
+% Chorus 1
+    \relative {
+	d''4 r d r |
+	r4 d d r |
+	e8 e e d cis4 a |
+	r1 |
+	d4 d d r |
+	d8 d4 d r4 a8 |
+	b4 b b b |
+	d8 d d e4 r cis8 |
+    }
+% Verse 2
+    \relative {
+	e''8 e e d cis4 e |
+	r2 r4. cis8 |
+	e8 e e d cis4 e |
+	r2 r4. cis8 |
+	e8 e e d cis4 a |
+	r4. b8 e4 e |
+	cis4 r2. |
+	r2 r4. cis8 |
+	e8 e e d cis4 e |
+	r2 r4. cis8 |
+	e8 e e4 cis e |
+	r2 r4. cis8 |
+	e8 e e d cis4 a |
+	r4. b8 e4 e |
+	cis4 r2. |
+	r1 |
+    }
+% Chorus 2
+    \relative {
+	d''4 r d r |
+	r4 d d r |
+	e8 e e d cis4 a |
+	r1 |
+	d4 d d r |
+	d8 d4 d r4 a8 |
+	b4 b b b |
+	d8 d d e4 r cis8 |
+    }
+% Verse 3
+    \relative {
+	e''8 e e d cis4 e |
+	r2 r4. cis8 |
+	e8 e e d cis4 e |
+	r2 r4. cis8 |
+	e8 e e d cis4 a |
+	r4. b8 e4 e |
+	cis4 r2. |
+	r2 r4. cis8 |
+	e8 e e d cis4 e |
+	r2 r4. cis8 |
+	e8 e e4 cis e |
+	r2 r4. cis8 |
+	e8 e e d cis4 a |
+	r4. b8 e4 e |
+	cis4 r2. |
+	r1 |
+    }
+% Outro
+    \relative {
+	\deadNote d''4 r \deadNote d r |
+	r4 \deadNote d \deadNote d r |
+	\deadNote d4 r \deadNote d r |
+	r4 \deadNote d \deadNote d r |
+	\deadNote d4 r \deadNote d r |
+	r4 \deadNote d \deadNote d r |
+	\deadNote d4 r \deadNote d r |
+	r4 \deadNote d \deadNote d r |
+    }
+}

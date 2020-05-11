@@ -1,0 +1,167 @@
+keyTwoPart = {
+    \compressFullBarRests
+% page 20 Intro
+    \barNumberCheck #1
+    R1*4 |
+    \relative {
+	<bes d f>1_"<Voice>" |
+	<c e g>1 |
+% A
+	\barNumberCheck #7
+	<d f a>2 <d g bes>2 |
+	<c e g>2 <c f a>2 |
+	<d g bes>2 <e g c>2 |
+% page 20.1
+	<f a d>1 |
+% B
+	\barNumberCheck #11
+	r1 | r1 | r1 | r1 | r1 |
+% page 20.2
+	r1 | r1 |
+    }
+    \relative {
+	\ottava #1 r8 bes''8_"<Synth.1>" a8 d8 des8 g8 f8 bes8 |
+% C
+	\barNumberCheck #19
+	a1~ |
+	a1 \ottava #0 |
+    }
+% page 20.3
+    R1*5 |
+    r1 |
+% D
+    \barNumberCheck #27
+    r1 |
+    R1*2 |
+    r1 |
+% page 20.4
+    \relative {
+	<e' g>1_"<Organ>" |
+	<e gis>1 |
+	<e a>1~ |
+	<e a>1 |
+% E
+	\barNumberCheck #35
+	r1 |
+    }
+% page 21
+    r1 | r1 | r1 | r1 | r1 |
+% page 21.1
+    r1 | r1 | r1 |
+% F
+    \barNumberCheck #44
+    r1 | r1 |
+% page 21.2
+    r1 | r1 | r1 | r1 | r1 |
+% page 21.3
+    r1 |
+% 1x ending
+    r1 | r1 | r1 | r1 |
+% page 21.4
+    r1 | r1 | r1 |
+    \relative {
+	\ottava #1 r8 bes''8 a8 d8 des8 g8 f8 bes8 |
+    }
+% C-2x
+    \barNumberCheck #60
+    \relative {
+	a'''1~ |
+	a1 \ottava #0 |
+    }
+% page 20.3-2x
+    R1*5 |
+    r1 |
+% D-2x
+    \barNumberCheck #68
+    r1 |
+    R1*2 |
+    r1 |
+% page 20.4-2x
+    \relative {
+	<e' g>1_"<Organ>" |
+	<e gis>1 |
+	<e a>1~ |
+	<e a>1 |
+% E-2x
+	\barNumberCheck #76
+	r1 |
+    }
+% page 21-2x
+    r1 | r1 | r1 | r1 | r1 |
+% page 21.1-2x
+    r1 | r1 | r1 |
+% F-2x
+    \barNumberCheck #85
+    r1 | r1 |
+% page 21.2-2x
+    r1 | r1 | r1 | r1 | r1 |
+% page 21.3-2x
+    r1 |
+% page 21.4-2x
+    r1 |
+% page 22
+    r1 |
+% G
+    \barNumberCheck #95
+    r1 | r1 | r1 | r1 |
+% page 22.1
+    r1 | r1 | r1 | r1 |
+% H
+    \barNumberCheck #103
+    r1 |
+% page 22.2
+    r1 | r1 | r1 | r1 | r1 |
+% page 22.3
+    r1 | r1 |
+% I
+    \barNumberCheck #111
+    \relative {
+	\repeat percent 2 {
+	    bes'1_"<Tubular Bells 2>" |
+	    c1 |
+	    a1 |
+	    d4. c8~ c2 |
+	}
+% J
+	\barNumberCheck #119
+	r1 |
+	r1 |
+    }
+% page 23
+    r1 | r1 |
+    \relative {
+	bes'8 bes8 bes8 bes8 r4 bes8 c8~ |
+	c1 |
+% K
+	\barNumberCheck #125
+	r1 |
+% page 23.1
+	r1 | r1 | r1 | r1 | r1 |
+% page 23.2
+	r1 | r1 |
+% L
+	\barNumberCheck #133
+	r1 | r1 |
+    }
+    \relative {
+	r2_"<Synth.3>" r4 r8 a''8~ |
+% page 23.3
+	a8 b8 c4 b4 r4 |
+	r1 | r1 | r1 | r1 |
+    }
+% page 23.4
+    \relative {
+	f'1_"<Tubular Bells 2>" |
+	g2. g8 g8~ |
+	g1 |
+	r1 |
+% M
+	\barNumberCheck #145
+	r1 |
+    }
+% page 24
+    r1 | r1 | r1 | r1 | r1 |
+% page 24.1
+    r1 | r1 | r1 | r1 | r1 |
+    \barNumberCheck #156
+}

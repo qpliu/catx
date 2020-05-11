@@ -1,0 +1,271 @@
+egThreePart = {
+% page 2
+    r1 |
+% A
+    \barNumberCheck #2
+    \override NoteHead.style = #'cross
+    \relative {
+	a'8\startInstrument "Wah Pedal" \repeat unfold 10 a16 a8 a |
+	r16 \repeat unfold 15 a |
+	\repeat unfold 16 a16 |
+    }
+% page 3
+    \relative {
+	a'4 a16 a a a a2\bendAfterG #-6 |
+	\repeat unfold 12 a16 a8 a |
+	\repeat unfold 16 a16 |
+	r1 |
+    }
+% page 3.1
+    r1 |
+% B
+    \barNumberCheck #10
+    \repeat percent 2 {
+	\relative {
+	    a'8 \repeat unfold 14 a16 |
+	    \repeat unfold 16 a16 |
+	}
+    }
+% page 4+1
+    r1 | r1 |
+    \relative {
+	a'8 \repeat unfold 14 a16 |
+    }
+% page 4.1
+    \relative {
+	\repeat unfold 16 a'16 |
+    }
+% C
+    \barNumberCheck #18
+    r1 | r1 |
+    \relative {
+	\repeat unfold 16 a'16 |
+    }
+% page 5
+    \relative {
+	\repeat unfold 8 a'16 a4\bendAfterG #-6 a16 a a a |
+	a8 a \repeat unfold 12 a16 |
+	\repeat unfold 16 a16 |
+	\repeat unfold 12 a16 a8 a |
+    }
+% page 5.1
+    \relative {
+	a'16 a a a a a a8 \repeat unfold 8 a16 |
+    }
+% D Stegno1
+    \barNumberCheck #26
+    r1 | r1 | r1 |
+% page 6
+    r1 | r1 | r1 | r1 |
+% page 6.1
+    r1 | r1 |
+% E Stegno2
+    \barNumberCheck #35
+    \relative {
+	aes'8 \repeat unfold 14 aes16 |
+	\repeat percent 3 {
+	    \repeat unfold 16 aes16 |
+	}
+    }
+% page 7+2
+    \relative {
+	aes'8 \repeat unfold 14 aes16 |
+	\repeat percent 2 {
+	    \repeat unfold 16 aes16 |
+	}
+    }
+% page 7.1+1
+    r1 |
+    \relative {
+	aes'4 aes8 \repeat unfold 10 aes16 |
+	\repeat percent 5 {
+	    \repeat unfold 16 aes16 |
+	}
+    }
+% page 8.1
+    \relative {
+	aes'8 \repeat unfold 14 aes16 |
+    }
+% to Coda1,2
+    \relative {
+	r4 r16 aes' r8 r aes16 aes aes aes aes aes |
+    }
+% F
+    \barNumberCheck #51
+    \relative {
+	\repeat unfold 12 a'16 a8 a |
+	\repeat percent 2 {
+	    \repeat unfold 16 a16 |
+	}
+    }
+% page 9+1
+	r1 |
+% G
+    \barNumberCheck #55
+    \relative {
+	\repeat unfold 12 a'16 a8 a16 a |
+	\repeat percent 2 {
+	    \repeat unfold 16 a16 |
+	}
+    }
+% page 9.1+1
+    \relative {
+	a'8 a16 a a a a a a2\bendAfterG #-6 |
+	r1 | r1 |
+    }
+% page 10
+    r1 | r1 |
+% D.S.1
+% D Stegno1-2x
+    \barNumberCheck #63
+    r1 | r1 | r1 |
+% page 6-2x
+    r1 | r1 | r1 | r1 |
+% page 6.1-2x
+    r1 | r1 |
+% E Stegno2-2x
+    \barNumberCheck #72
+    \relative {
+	aes'8 \repeat unfold 14 aes16 |
+	\repeat percent 3 {
+	    \repeat unfold 16 aes16 |
+	}
+    }
+% page 7+2-2x
+    \relative {
+	aes'8 \repeat unfold 14 aes16 |
+	\repeat percent 2 {
+	    \repeat unfold 16 aes16 |
+	}
+    }
+% page 7.1+1-2x
+    r1 |
+    \relative {
+	aes'4 aes8 \repeat unfold 10 aes16 |
+	\repeat percent 5 {
+	    \repeat unfold 16 aes16 |
+	}
+    }
+% page 8.1-2x
+    \relative {
+	aes'8 \repeat unfold 14 aes16 |
+    }
+% to Coda1,2
+% page 10 Coda1
+    \barNumberCheck #87
+    \relative {
+	r4 r8. aes'16 r8 \repeat unfold 6 aes16 |
+    }
+% H
+    \barNumberCheck #88
+    r1 | r1 |
+% page 10.1
+    r1 | r1 |
+% I
+    \barNumberCheck #92
+    \relative {
+	a'8 \repeat unfold 14 a16 |
+	\repeat unfold 10 a16 a8 a a16 a |
+    }
+% page 11
+    \relative {
+	\repeat percent 2 {
+	    a'8 \repeat unfold 14 a16 |
+	    \repeat unfold 16 a16 |
+	}
+    }
+% page 11.1
+    \relative {
+	\repeat percent 2 {
+	    \repeat unfold 16 a'16 |
+	}
+	a8 \repeat unfold 14 a16 |
+	\repeat unfold 10 a16 a8 a a16 a |
+    }
+% page 12
+    \relative {
+	\repeat percent 2 {
+	    a'8 \repeat unfold 14 a16 |
+	    \repeat unfold 16 a16 |
+	}
+    }
+% page 12.1
+    \relative {
+	\repeat percent 2 {
+	    \repeat unfold 16 a'16 |
+	}
+    }
+% J repeat
+    \barNumberCheck #108
+    r1 |
+% page 13
+    r1 | r1 | r1 |
+% page 13.1
+    r1 | r1 |
+% ending 1
+    r1 |
+% page 14
+    r1 |
+% end repeat
+% J repeat-2x
+    \barNumberCheck #116
+    r1 |
+% page 13-2x
+    r1 | r1 | r1 |
+% page 13.1-2x
+    r1 | r1 |
+% page 14
+    r1 | r1 | r1 |
+% E Stegno2-3x
+    \barNumberCheck #125
+    \relative {
+	aes'8 \repeat unfold 14 aes16 |
+	\repeat percent 3 {
+	    \repeat unfold 16 aes16 |
+	}
+    }
+% page 7-3x+2
+    \relative {
+	aes'8 \repeat unfold 14 aes16 |
+	\repeat percent 2 {
+	    \repeat unfold 16 aes16 |
+	}
+    }
+% page 7.1-3x+1
+    r1 |
+    \relative {
+	aes'4 aes8 \repeat unfold 10 aes16 |
+	\repeat percent 5 {
+	    \repeat unfold 16 aes16 |
+	}
+    }
+% page 8.1-3x
+    \relative {
+	aes'8 \repeat unfold 14 aes16 |
+    }
+% to Coda1,2
+% page 14.1 Coda2
+    \barNumberCheck #140
+    \relative {
+	r4 r8. aes'16 r8 \repeat unfold 6 aes16 |
+    }
+% K
+    \barNumberCheck #141
+    \relative {
+	a'8 \repeat unfold 10 a16 a8 a |
+	\repeat percent 2 {
+	    \repeat unfold 16 a16 |
+	}
+    }
+% page 15+1
+    \relative {
+	\repeat unfold 8 a'16 a2\bendAfterG #-6 |
+	r4 a4 a16 a a a a8 a |
+    }
+% page 15.1
+    \relative {
+	\repeat unfold 15 a'16 a\stopInstrument "Wah Pedal" |
+    }
+    r1 | r1 | r1 |
+    \barNumberCheck #150
+}

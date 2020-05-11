@@ -1,0 +1,219 @@
+keyFivePart = \new Voice = "key5b" \new Voice ="key5a" {
+    \context Voice = "key5b" \voiceTwo
+    \compressFullBarRests
+% page 19
+    r1 |
+% A
+    \barNumberCheck #2
+    R1*6 |
+    r1 | r1 |
+% B
+    \barNumberCheck #10
+    r1 | r1 | r1 | r1 |
+% page 19.1
+    r1 | r1 | r1 | r1 |
+% C
+    \barNumberCheck #18
+    \repeat percent 8 {
+	\relative {
+	    r8_"<Synth.Recorder>" e'' r e r dis b e |
+	}
+    }
+% D
+    \barNumberCheck #26
+    \repeat percent 8 {
+	\relative {
+	    \ottava #1 r8 e''' r e r dis r e |
+	}
+    }
+    \ottava #0
+% E
+    \barNumberCheck #34
+    r1 | r1 |
+% page 19.4
+    r1 | r1 |
+    \relative {
+	r4_"<Piano 3>" r8 fis''~ fis4 r8 e~ |
+	e8 e r dis~ dis e fis gis |
+	<cis, e a>4 r8 <dis fis b>~ <dis fis b> e fis <e g c>~ |
+	<e g c>8 g e <fis a d>~ <fis a d> <fis a d>4 <dis fis b>8~ |
+    }
+% page 19.5
+    \relative {
+	<dis'' fis b>2 r |
+    }
+    \repeat volta 2 {
+% F
+	\mybarNumberCheck #43
+	\relative {
+	    e''4 e8 fis~ fis gis fis e~ |
+	    e8 gis fis e dis\staccato e dis b |
+	    e4 e8 fis~ fis a b e,~ |
+	    e8 b' a gis~ gis e fis gis |
+	    e4 e8 fis~ fis gis fis e~ |
+	}
+% page 20
+	\relative {
+	    e''8 gis fis e dis\staccato e dis b |
+	    e4 e8 fis~ fis gis fis e~ |
+	    e1 |
+	}
+% G
+	\mybarNumberCheck #51
+	\relative {
+	    e''4 e8 fis~ fis gis fis e~ |
+	    e8 gis fis e dis\staccato e dis b |
+	    e4 e8 fis~ fis a b e,~ |
+	}
+% page 20.1
+	\relative {
+	    e''8 b' a gis~ gis e fis gis |
+	    e4 e8 fis~ fis gis fis e~ |
+	    e8 gis fis e dis\staccato e dis b |
+	    e4 e8 fis~ fis gis fis e~ |
+	}
+    } \alternative { {
+	\relative {
+	    e''1 |
+	}
+% H
+	\mybarNumberCheck #59
+	\relative {
+	    e''4 e8 fis~ fis gis fis e~ |
+	}
+% page 20.2
+	\relative {
+	    e''8 gis fis e dis\staccato e dis b |
+	    e4 e8 fis~ fis a b e,~ |
+	    e8 b' a gis~ gis e fis gis |
+	    e4 e8 fis~ fis gis fis e~ |
+	    e8 gis fis e dis\staccato e dis b |
+	    e4 e8 fis~ fis gis fis e~ |
+	}
+% page 20.3
+	\relative {
+	    e''1 |
+	}
+% I
+	\mybarNumberCheck #67
+	r1 |
+	\relative {
+	    e''8_"<Synth.3>" e e4\staccato r8 e r b |
+	    r8 e e dis r2 |
+	    r8 e e dis dis dis r e |
+	    r4 e r r8 e |
+	    r4 e r r8 b |
+	}
+% page 20.4
+	\relative {
+	    r4 e''8 dis r2 |
+	    r4 e8 dis dis dis b dis |
+	}
+% J
+	\mybarNumberCheck #75
+	r1 | r1 | r1 | r1 |
+	\relative {
+	    r4_"<Piano 3>" r8 fis''~ fis4 r8 e~ |
+	}
+% page 20.5
+	\relative {
+	    e''8 e r dis~ dis e fis gis |
+	    <cis, e a>4 r8 <dis fis b>~ <dis fis b> e fis <e g c>~ |
+	    <e g c>8 g e <fis a d>~ <fis a d> <fis a d>4 <dis fis b>8~ |
+	    <dis fis b>2 \ottava #1 b'16 dis fis b dis4 \ottava #0 |
+	}
+    } {
+	\relative {
+	    e''1\repeatTie |
+	}
+    } }
+% K
+    \mybarNumberCheck #85
+    r1 |
+% page 21
+    r1 | r1 | r1 |
+    \relative {
+	r4_"<Piano 3>" r8 a''~ a4. a8~ |
+	a8 g4 fis8~ fis a4 fis8~ |
+	fis2.. e8~ |
+    }
+% page 21.1
+    \relative {
+	e''8 e4 dis8~ dis2 |
+	r1 | r1 | r1 | r1 |
+	r2 cis8 fis4 dis8~ |
+    }
+% page 21.2
+    \relative {
+	dis''8 e dis b fis b4 dis8 |
+	g4. c,8 e g4 fis8~ |
+	fis8 g fis d e fis g b~ |
+	b1~ |
+	b1 |
+    }
+% L
+    \mybarNumberCheck #103
+    \relative {
+	<< { \voiceOne \ottava #1 e'''8 dis b gis~ gis dis' b e~ | } \context Voice = "key5b" { r2 r4 r8 gis,~ | } >>
+	<< { e'8 e4 e8~ e dis b e | } \context Voice = "key5b" { gis,8 a4 gis8~ gis2 | } >>
+	\oneVoice
+    }
+% page 21.3
+    \relative {
+	e'''8 dis b gis~ gis dis' b e~ |
+	e8 fis4 gis8~ gis dis d e |
+	cis8 a cis dis b dis dis b~ |
+	b8 cis4 b8~ b dis dis b |
+	cis8 a cis e gis e dis e~ |
+	e8 gis b4 gis8 b dis e \ottava #0 |
+    }
+% page 21.4
+    r1 |
+% M
+    \mybarNumberCheck #112
+    \relative {
+	fis''4 fis8 gis~ gis ais gis fis~ |
+	fis8 ais gis fis eis\staccato fis eis cis |
+	fis4 fis8 gis~ gis b cis fis,~ |
+	fis8 cis' b ais~ ais fis gis ais |
+	b,8 fis' dis b'~ b cis, b' ais~ |
+    }
+% page 21.5
+    \relative {
+	ais''8 ais gis fis cis fis cis fis |
+	fis4 fis8 gis~ gis ais gis fis~ |
+	fis1 |
+    }
+% N
+    \mybarNumberCheck #120
+    \relative {
+	b''4. ais8~ ais cis,4 ais'8~ |
+	ais8 ais gis fis eis\staccato fis eis cis |
+	fis4 fis8 gis~ gis b cis fis,~ |
+    }
+% page 22
+    \relative {
+	fis''8 cis' b ais~ ais fis gis cis |
+	b4. ais8~ ais cis, b' ais~ |
+	ais8 ais gis fis eis\staccato fis eis cis |
+	fis4 fis8 fis~ fis cis gis' fis~ |
+	fis4 ais,16 b cis dis eis fis gis ais b cis dis eis |
+    }
+% page 22.1 O
+    \mybarNumberCheck #128
+    \relative {
+	b''4. ais8~ ais cis,4 ais'8~ |
+	ais8 ais gis fis eis\staccato fis eis cis |
+	fis4 fis8 gis~ gis b cis fis,~ |
+	fis8 cis' b ais~ ais fis gis cis |
+	fis,4. eis8~ eis cis4 ais8~ |
+    }
+% page 22.2
+    \relative {
+	ais'8 ais' b ais~ ais ais gis cis, |
+	fis8 fis4 gis8~ gis cis,4 fis8~ |
+	fis2~ fis8 gis ais cis |
+    }
+    r1 | r1 |
+    \mybarNumberCheck #138
+}

@@ -1,0 +1,142 @@
+egFivePart = {
+    \compressFullBarRests
+% page 16 Intro
+    \barNumberCheck #1
+    R1*4 |
+    R1*2 |
+% A
+    \barNumberCheck #7
+    R1*4 |
+% B
+    \barNumberCheck #11
+    r1 | r1 |
+% page 16.1
+    r1 |
+    \relative {
+	\ottava #1 r2_"<Dist.>" cis'''8 d16(^\markup { \hspace #1 "H" } e16) g8 bes8 |
+	a8 \tuplet 3/2 { g16^"H"( a16)( g16^"P") } f8 a8 g8 \tuplet 3/2 { f16^"H"( g16)( f16^"P") } e8 g8 |
+% page 16.2
+	f8 \tuplet 3/2 { e16^"H"( f16)( e16^"P") } d8 f8 e8 \tuplet 3/2 { d16^"H"( e16)( d16^"P") } c4 |
+	d8 e8 f8 a8 \tuplet 3/2 { g16^"H"( a16)( g16^"P") } f8 e8 c8 |
+	d4 r4 r2 \ottava #0 |
+% C
+	\barNumberCheck #19
+	R1*8 |
+% page 16.3 D
+	\barNumberCheck #27
+	R1*6 |
+	r1 | r1 |
+% E
+	\barNumberCheck #35
+	r1 |
+    }
+% page 17
+    R1*3 |
+    r1 | r1 | r1 |
+% page 17.1
+    R1*2 |
+% F
+    \barNumberCheck #44
+    R1*7 |
+    r1 |
+% 1x ending
+    R1*8 |
+% C-2x
+    \barNumberCheck #60
+    R1*8 |
+% page 16.3-2x D-2x
+    \barNumberCheck #68
+    R1*6 |
+    r1 | r1 |
+% E-2x
+    \barNumberCheck #76
+    r1 |
+% page 17-2x
+    R1*3 |
+    r1 | r1 | r1 |
+% page 17.1-2x
+    R1*2 |
+% F-2x
+    \barNumberCheck #85
+    R1*7 |
+    r1 |
+    \relative {
+	\ottava #1 e'''8 a8 b8 d8 g,8 a8 c8 f,8 |
+% page 17.2-2x
+	g8 bes8 ees,8 f8 a,8 c16 cis16 d16 e16 f16 g16 |
+% G
+	\barNumberCheck #95
+	\tuplet 3/2 { gis4\staccato a4\staccato c4\staccato } \tuplet 3/2 { b8 e,8 a4\staccato g4\staccato } |
+	a4^"U"( gis8^"HU")( a8^"U")( a2)\startTrillSpan |
+	r1\stopTrillSpan |
+% page 17.3
+	r1 | r1 | r1 |
+    }
+% page 18
+    r1 | r1 |
+% H
+    \barNumberCheck #103
+    \relative {
+	\ottava #1 a'''16^"HP"( f^\markup { \hspace #1 "P" })( d^\markup { \hspace #1 "H" })( f^\markup { \hspace #1 "H" })(
+	bes^\markup { \hspace #1 "P" })( f^\markup { \hspace #1 "P" })( d^\markup { \hspace #1 "H" })( f^\markup { \hspace #1 "H" })(
+	g^\markup { \hspace #1 "P" })( e^\markup { \hspace #1 "P" })( c^\markup { \hspace #1 "H" })( e^\markup { \hspace #1 "H" })(
+	a^\markup { \hspace #1 "P" })( e^\markup { \hspace #1 "P" })( c^\markup { \hspace #1 "H" })( e^\markup { \hspace #1 "H" })(
+	|
+% page 18.1
+	f16^\markup { \hspace #1 "P" })( d^\markup { \hspace #1 "P" })( bes^\markup { \hspace #1 "H" })( d^\markup { \hspace #1 "H" })(
+	g^\markup { \hspace #1 "P" })( d^\markup { \hspace #1 "P" })( bes^\markup { \hspace #1 "H" })( d^\markup { \hspace #1 "H" })(
+	e^\markup { \hspace #1 "P" })( a,^\markup { \hspace #1 "H" })( cis^\markup { \hspace #1 "H" })( e^\markup { \hspace #1 "H" })(
+	g^\markup { \hspace #1 "P" })( e^\markup { \hspace #1 "P" })( cis^\markup { \hspace #1 "P" })( a^\markup { \hspace #1 "H" })(
+	|
+	\repeat percent 2 {
+	    a'^\markup { \hspace #1 "P" })( f^\markup { \hspace #1 "P" })( d^\markup { \hspace #1 "H" })( f^\markup { \hspace #1 "H" })(
+	    bes^\markup { \hspace #1 "P" })( f^\markup { \hspace #1 "P" })( d^\markup { \hspace #1 "H" })( f^\markup { \hspace #1 "H" })(
+	    g^\markup { \hspace #1 "P" })( e^\markup { \hspace #1 "P" })( c^\markup { \hspace #1 "H" })( e^\markup { \hspace #1 "H" })(
+	    a^\markup { \hspace #1 "P" })( e^\markup { \hspace #1 "P" })( c^\markup { \hspace #1 "H" })( e^\markup { \hspace #1 "H" })(
+	    |
+	    f^\markup { \hspace #1 "P" })( d^\markup { \hspace #1 "P" })( bes^\markup { \hspace #1 "H" })( d^\markup { \hspace #1 "H" })(
+	    g^\markup { \hspace #1 "P" })( d^\markup { \hspace #1 "P" })( bes^\markup { \hspace #1 "H" })( d^\markup { \hspace #1 "H" })(
+	    e^\markup { \hspace #1 "P" })( a,^\markup { \hspace #1 "H" })( cis^\markup { \hspace #1 "H" })( e^\markup { \hspace #1 "H" })(
+	    g^\markup { \hspace #1 "P" })( e^\markup { \hspace #1 "P" })( cis^\markup { \hspace #1 "P" })( a^\markup { \hspace #1 "H" })(
+	    |
+% page 18.2
+	}
+	f'^\markup { \hspace #1 "P" })( d^\markup { \hspace #1 "P" })( a^\markup { \hspace #1 "H" })( d^\markup { \hspace #1 "H" })(
+	g^\markup { \hspace #1 "P" })( d^\markup { \hspace #1 "P" })( bes^\markup { \hspace #1 "H" })( d^\markup { \hspace #1 "H" })(
+	f8^\markup { \hspace #1 "P" })( \tuplet 3/2 { e16^"H")( f)( e^"PP") }
+	c4
+	|
+% page 18.3
+	e16 f e d c bes a g a4\trill^\markup { \hspace #1 "g" }\bendAfter #-2 r4 \ottava #0 |
+% I
+	\barNumberCheck #111
+	R1*8 |
+% J
+	\barNumberCheck #119
+	R1*6 |
+    }
+% page 19 K
+    \barNumberCheck #125
+    R1*8 |
+% L
+    \barNumberCheck #133
+    R1*12 |
+% M
+    \barNumberCheck #145
+    r1 |
+% page 19.1
+    r1 | r1 |
+    \relative {
+	\ottava #1 r2 fis'''8 g8 a8 c8 |
+% page 19.2
+	b8 \tuplet 3/2 { a16^"H"( b)( a^"P") } g8 b8 a8 \tuplet 3/2 { g16^"H"( a)( g^"P") } fis8 a8 |
+	g8 \tuplet 3/2 { fis16^"H"( g)( fis^"P") } e8 g8 fis8 \tuplet 3/2 { e16^"H"( fis)( e^"P") } d4 |
+	e8 fis8 g8 b8 \tuplet 3/2 { a16^"H"( b)( a^"P") } g8 fis8 d8 |
+% page 19.3
+	e4\trill r4 r2 |
+	r1 |
+	b8 e8 dis8 g8 fis8 a8 g8 c8 |
+	b2\trill^\markup { \hspace #2 "g" }\bendAfter #-3 r2 \ottava #0 |
+    }
+    \barNumberCheck #156
+}

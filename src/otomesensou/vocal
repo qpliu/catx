@@ -1,0 +1,485 @@
+vocalPart = \new Voice = "vocal" {
+% page 82 A
+    \barNumberCheck #1
+    \relative {
+	b'8 e,16 e16~ e16 e16 e16 d16 e8 e8 r8 d8 |
+	e4 g4 r8 d8 |
+	e4 a4 ais4 |
+	b2. r4 |
+	r8 b8 ais8 b8 ais8 b8 d,4 |
+    }
+% page 83 B
+    \barNumberCheck #6
+    \relative {
+	e'4 r8 e8~ e8 e4 e8 |
+	g4 r8 g8~ g8 g4 g8 |
+	a4 r8 a8~ a8 a4 a8 |
+    }
+    \relative {
+	\deadNote d''16 \deadNote d16 \deadNote b16 \deadNote b16 \deadNote b8 r8 \deadNote c16 \deadNote c16 \deadNote c16 \deadNote c16 \deadNote d8 \deadNote b8 |
+    }
+% page 83.1
+    \relative {
+	e'4 r8 e8~ e8 e4 e8 |
+	g4 r8 g8~ g8 g4 g8 |
+	a4 r8 a8~ a8 a4 a8 |
+    }
+% 1x ending
+    \relative {
+	\deadNote a'16 \deadNote d,16 \deadNote d16 \deadNote d16 \deadNote d16 \deadNote d16 \deadNote b'16 \deadNote b16 \deadNote a8 \deadNote a16 \deadNote a16 \deadNote b4 |
+    }
+% page 83 B-2x
+    \barNumberCheck #14
+    \relative {
+	e'4 r8 e8~ e8 e4 e8 |
+	g4 r8 g8~ g8 g4 g8 |
+	a4 r8 a8~ a8 a4 a8 |
+    }
+    \relative {
+	\deadNote d'16 \deadNote d16 \deadNote b'16 \deadNote b16 \deadNote b8 \deadNote b8 \deadNote c16 \deadNote c8 \deadNote c16 \deadNote d8 \deadNote b8 |
+    }
+% page 83.1-2x
+    \relative {
+	e'4 r8 e8~ e8 e4 e8 |
+	g4 r8 g8~ g8 g4 g8 |
+	a4 r8 a8~ a8 a4 a8 |
+    }
+% page 84
+    \relative {
+	r8 b'8 ais8 b8 ais8 b8 r4 |
+	r8 b8 ais8 b8 ais8 b8 r4 |
+	r8 b8 ais8 b8 ais8 b8 d,4 |
+	e4 r4 r2 |
+	r1 |
+    }
+% page 84.1 C
+    \barNumberCheck #26
+    \relative {
+	e'8 e8 e8 \deadNote c16 \deadNote c16 \deadNote d16 \deadNote d16 \deadNote b16 \deadNote b16 d8 g8 |
+	e8 e8 e8 e8~ e16 e16 g8 e8 r8 |
+	e8 e8 e8 b16 \deadNote b'16 \deadNote b8 \deadNote b8 \deadNote d8 \deadNote b8 |
+	\deadNote c,16 \deadNote b'16 \deadNote b16 \deadNote b16 \deadNote b16 \deadNote b16 \deadNote b16 \deadNote c,16 \deadNote c8 \deadNote c'8 \deadNote b4 |
+    }
+% page 85
+    r1 | r1 |
+    \relative {
+	a'8 g16 a16 r4 a16 a16 g16 a16 r4 |
+	r8 a8 a8 g8 a8 g8 a8 g8 |
+    }
+% page 85.1
+    \relative {
+	a'8 g16 a16 r4 a16 a8 g16 a16 a16 g16 g16 |
+	b4 b4 b8 b8 b4 |
+	b4 r4 r4 e,8 d8 |
+    }
+% page 86 D Segno
+    \barNumberCheck #37
+    \relative {
+	e'8 fis4 b,8~ b4 r8 e8~ |
+	e8 e8 e8 fis8 a8 fis8 e8 d8 |
+	e8 fis4 fis8~ fis2~ |
+	fis4 r4 r4 e8 d8 |
+    }
+% page 86.1
+    \relative {
+	e'8 fis4 b,8~ b4 r8 e8~ |
+	e8 e8 e8 fis8 a8 fis8 e8 d8 |
+	d1 |
+	r2 r4 e8 d8 |
+    }
+% page 87
+    \relative {
+	e'8 fis4 b,8~ b4 r8 e8~ |
+	e8 e8 e8 fis8 a8 fis8 e8 d8 |
+	e8 fis4 fis8~ fis2~ |
+	fis2 r4 e8 d8 |
+    }
+% page 87.1
+    \relative {
+	e'8 fis4 b,8~ b4 r8 e8~ |
+	e8 e8 e8 fis8 a8 fis8 e8 d8 |
+	d1 |
+	\deadNote d2.\bendAfter #6 r8 b8 |
+    }
+% page 88 E
+    \barNumberCheck #53
+    \relative {
+	g'8. fis16~ fis8 d8 e4 r4 |
+	g8. fis16~ fis8 d8 b4 r4 |
+	g'8. fis16~ fis8 d8 b8 b8 a8 b8 |
+	a'4. b8~ b4 r8 b,8 |
+    }
+% page 88.1
+    \relative {
+	g'8. fis16~ fis8 d8 e4 r8 b8 |
+	g'8. fis16~ fis8 d8 b4 r4 |
+	g'8. fis16~ fis8 d8 b8 b8 a8 b8 |
+	a'4. b8~ b4 c4 |
+    }
+% page 89
+    \relative {
+	b'1 |
+	r2 r4 b8 b8 |
+    }
+% F
+    \barNumberCheck #63
+    \relative {
+	a'2 r8 a8 a8 b8 |
+	c2 r4 b8 a8 |
+    }
+% page 89.1
+    \relative {
+	g'2 r4 g8 a8 |
+	b2 r4 g8 fis8 |
+	fis4 g4 fis8 fis8 g8 fis8 |
+	fis8 fis8 g8 fis8 fis8 fis8 g8 fis8 |
+    }
+% page 90
+    \relative {
+	fis'4 e8 fis8~ fis8 e8 fis4 |
+	e8 fis4 e8 fis8 fis8 g8 a8 |
+	b8 b4. r8 fis8 c'8 b8 |
+	r2 r8 g8 g8 a8 |
+    }
+% page 90.1 G
+    \barNumberCheck #73
+    \relative {
+	b'4 b8 b8 a4 a8 a8 |
+	g4 a8 b8 r8 a8 a8 b8 |
+	c4 c8 c8 b4 b8 b8 |
+	a4 b8 c8 r8 fis,4 g8 |
+    }
+% page 91
+    \relative {
+	a'4 a4 g4 g4 |
+	fis4 g8 a8 r8 d,8 d'8 c8 |
+	b2 b8 a8 g8 a8( |
+	b2) r8 g8 g8 a8 |
+    }
+% page 91.1
+    \relative {
+	b'4 b4 a4 a8 a8 |
+	g4 a8 b8 r8 a4 b8 |
+	c4 c4 b4 b4 |
+	a4 b8 c8 r4 r8 c8 |
+	b4 r8 c8 b4 r8 c8 |
+    }
+% page 92
+    \relative {
+	b'8 c8 b8 c8 b4 d,4 |
+    }
+% H
+    \barNumberCheck #87
+    \relative {
+	e'4 r8 e8~ e8 e4 e8 |
+	g4 r8 g8~ g8 g4 g8 |
+	a4 r8 a8~ a8 a4 a8 |
+    }
+% page 92.1
+    \relative {
+	\deadNote a'8 \deadNote b8 \deadNote b16 \deadNote g16 \deadNote e8 \deadNote e16 \deadNote a16 \deadNote d16 \deadNote a16 \deadNote e8 \deadNote d'8 |
+    }
+    \relative {
+	e'4 r8 e8~ e8 e4 e8 |
+	g4 r8 g8~ g8 g4. |
+	a4 r8 a8~ a8 a4 a8 |
+    }
+% page 93
+    \relative {
+	r8 b'8 ais8 b8 ais8 b8 r4 |
+	r8 b8 ais8 b8 ais8 b8 r4 |
+	r8 b8 ais8 b8 ais8 b8 d,4 |
+	e4 r4 r2 |
+	r1 |
+    }
+% page 93.1 I
+    \barNumberCheck #99
+    \relative {
+	e'8 e8 e8 b16 e16~ e16 e16 e16 e16 e8 g8 |
+	e8 e8 e8 d16 e16~ e16 e16 g8 e4 |
+    }
+    \relative {
+	\deadNote g'8 \deadNote b8 \deadNote b8 \deadNote c8 \deadNote d16 \deadNote c16 \deadNote b16 \deadNote b16 \deadNote c8 \deadNote c8 |
+	\deadNote g8 \deadNote e8 \deadNote e8 \deadNote c16 \deadNote c16~ \deadNote c16 \deadNote c16 \deadNote b'16 \deadNote b16 \deadNote c4 |
+    }
+% page 94
+    r1 | r1 |
+    \relative {
+	a'8 g16 a16 r4 a16 a16 g16 a16 r4 |
+	r8 a8 a8 g8 a8 g8 a8 g8 |
+    }
+% page 94.1
+    \relative {
+	a'8 g16 a16 r4 a16 a16 g16 g16 a16 a16 g16 g16 |
+	b4 b4 b8 b8 b4 |
+	b4 r4 r4 e,8 d8 |
+    }
+% page 86 D Segno-2x
+    \barNumberCheck #110
+    \relative {
+	e'8 fis4 b,8~ b4 r8 e8~ |
+	e8 e8 e8 fis8 a8 fis8 e8 d8 |
+	e8 fis4 fis8~ fis2~ |
+	fis4 r4 r4 e8 d8 |
+    }
+% page 86.1-2x
+    \relative {
+	e'8 fis4 b,8~ b4 r8 e8~ |
+	e8 e8 e8 fis8 a8 fis8 e8 d8 |
+	d1 |
+	r2 r4 e8 d8 |
+    }
+% page 87-2x
+    \relative {
+	e'8 fis4 b,8~ b4 r8 e8~ |
+	e8 e8 e8 fis8 a8 fis8 e8 d8 |
+	e8 fis4 fis8~ fis2~ |
+	fis2 r4 e8 d8 |
+    }
+% page 87.1-2x
+    \relative {
+	e'8 fis4 b,8~ b4 r8 e8~ |
+	e8 e8 e8 fis8 a8 fis8 e8 d8 |
+	d1 |
+	\deadNote d2.\bendAfter #6 r8 b8 |
+    }
+% page 88 E-2x
+    \barNumberCheck #126
+    \relative {
+	g'8. fis16~ fis8 d8 e4 r4 |
+	g8. fis16~ fis8 d8 b4 r4 |
+	g'8. fis16~ fis8 d8 b8 b8 a8 b8 |
+	a'4. b8~ b4 r8 b,8 |
+    }
+% page 88.1-2x
+    \relative {
+	g'8. fis16~ fis8 d8 e4 r8 b8 |
+	g'8. fis16~ fis8 d8 b4 r4 |
+	g'8. fis16~ fis8 d8 b8 b8 a8 b8 |
+	a'4. b8~ b4 c4 |
+    }
+% page 89-2x
+    \relative {
+	b'1 |
+	r2 r4 b8 b8 |
+    }
+% F-2x
+    \barNumberCheck #136
+    \relative {
+	a'2 r4 a8 b8 |
+	c2 r4 b8 a8 |
+    }
+% page 89.1-2x
+    \relative {
+	g'2 r4 g8 a8 |
+	b2 r4 g8 fis8 |
+	fis4 g4 fis8 fis8 g8 fis8 |
+	fis8 fis8 g8 fis8 fis8 fis8 g8 fis8 |
+    }
+% page 90-2x
+    \relative {
+	fis'4 e8 fis8~ fis8 e8 fis4 |
+	e8 fis4 e8 fis8 fis8 g8 a8 |
+	b8 b4. r8 fis8 c'8 b8 |
+	r2 r8 g8 g8 a8 |
+    }
+% page 90.1 G-2x
+    \barNumberCheck #146
+    \relative {
+	b'4 b4 a4 a8 a8 |
+	g8 g8 a8 b8 r8 a8 a8 b8 |
+	c4 c8 c8 b4 b8 b8 |
+	a4 b8 c8 r8 fis,4 g8 |
+    }
+% page 91-2x
+    \relative {
+	a'4 a4 g4 g4 |
+	fis4 g8 a8 r8 d,8 d'8 c8 |
+	b2 b8 a8 g8 a8( |
+	b2) r8 g8 g8 a8 |
+    }
+% page 91.1-2x
+    \relative {
+	b'4 b4 a4 a8 a8 |
+	g8 g8 a8 b8 r8 a4 b8 |
+	c4 c4 b4 b4 |
+	a4 b8 c8 r4 r8 c8 |
+	b4 r8 c8 b4 r8 c8 |
+    }
+% coda
+    \barNumberCheck #159
+    \relative {
+	b'8 c8 b8 c8 b8 d,8 d8 d8 |
+    }
+% page 95 J
+    \barNumberCheck #160
+    \relative {
+	e'4 r4 r2 |
+	r1 | r1 | r1 |
+    }
+% page 95.1
+    r1 | r1 | r1 | r1 |
+% page 96
+    r1 | r1 | r1 | r1 |
+% page 96.1
+    r1 | r1 | r1 | r1 | r1 |
+% page 97 K
+    \barNumberCheck #177
+    \relative {
+	gis'8 gis8 gis8 e8 a8 a8 gis8 r8 |
+	fis8 fis16 fis16 fis8 dis8 gis8 gis8 fis8 r8 |
+	e8 e8 e8 cis8 fis8 fis8 e8 r8 |
+	dis8 dis8 dis8 cis8 bis8 cis8 dis8 bis8 |
+    }
+% page 97.1
+    \relative {
+	gis'8 gis8 gis8 e8 a8 a8 gis8 r8 |
+	fis8 fis16 fis16 fis8 dis8 gis8 gis8 fis8 r8 |
+	e8 fis16 e16 dis8 cis8 e8 fis16 e16 dis8 e8 |
+	fis8 gis8 fis8 dis8 e4 r4 |
+    }
+% page 98
+    \relative {
+	gis'8 gis8 gis8 e8 a8 a8 gis8 r8 |
+	fis8 fis8 fis8 dis8 gis8 gis8 fis8 r8 |
+	e8 e8 e8 cis8 fis8 fis8 e8 r8 |
+	dis8 dis8 dis8 cis8 bis8 cis8 dis8 bis8 |
+    }
+% page 98.1
+    \relative {
+	gis'8 gis8 gis8 e8 a8 a8 gis8 r8 |
+	fis8 fis8 fis8 dis8 gis8 gis8 fis8 r8 |
+	e8 fis16 e16 dis8 cis8 e8 fis16 e16 dis8 e8 |
+	fis8 gis8 fis8 dis8 e2 |
+	r2 r4 r8 b8 |
+    }
+% page 99 L
+    \barNumberCheck #194
+    \relative {
+	g'8. fis16~ fis8 d8 e4 r4 |
+	g8. fis16~ fis8 d8 b4 r4 |
+	g'8. fis16~ fis8 d8 b8 b8 a8 b8 |
+	a'4. b8~ b4 r8 b,8 |
+    }
+% page 99.1
+    \relative {
+	g'8. fis16~ fis8 d8 e4 r4 |
+	g8. fis16~ fis8 d8 b4 r4 |
+	g'8. fis16~ fis8 d8 b8 b8 a8 b8 |
+	a'4. b8~ b8 b8 c4 |
+    }
+% start 1x
+% page 100
+    \relative {
+	b'2. r8 b,8 |
+    }
+% page 99 L-2x
+    \barNumberCheck #203
+    \relative {
+	g'8. fis16~ fis8 d8 e4 r4 |
+	g8. fis16~ fis8 d8 b4 r4 |
+	g'8. fis16~ fis8 d8 b8 b8 a8 b8 |
+	a'4. b8~ b4 r8 b,8 |
+    }
+% page 99.1-2x
+    \relative {
+	g'8. fis16~ fis8 d8 e4 r4 |
+	g8. fis16~ fis8 d8 b4 r4 |
+	g'8. fis16~ fis8 d8 b8 b8 a8 b8 |
+	a'4. b8~ b8 b8 c4 |
+    }
+% page 100-2x
+    \relative {
+	b'1 |
+	r2 r8 b8 b8 b8 |
+    }
+% page 100.1 M
+    \barNumberCheck #213
+    \relative {
+	a'4 r4 r4 a8 b8 |
+	c4 r4 r4 b8 a8 |
+	g2 r4 g8 a8 |
+	b4 r4 r2 |
+    }
+% page 101
+    \relative {
+	fis'4 g4 fis8 fis8 g8 fis8 |
+	fis8 fis8 g8 fis8 fis8 fis8 g8 fis8 |
+	fis4 e8 fis8~ fis8 e8 fis4 |
+	e8 fis4 e8 fis8 fis8 g8 a8 |
+    }
+% page 101.1
+    \relative {
+	b'8 b4. r8 fis8 c'8 b8~ |
+	b4 r4 r2 |
+	r1 |
+	r2 r8 g8 g8 a8 |
+    }
+% page 102 N
+    \barNumberCheck #225
+    \relative {
+	b'4 b8 b8 a4 a8 a8 |
+	g4 a8 b8 r8 a4 b8 |
+	c4 c4 b4 b4 |
+	a4 b8 c8 r8 fis,4 g8 |
+    }
+% page 102.1
+    \relative {
+	a'4 a4 g4 g4 |
+	fis4 g8 a8 r8 d,8 d'8 c8 |
+	b2 b8 a8 g8 a8( |
+	b2) r8 g8 g8 a8 |
+	b4 b4 a4 a8 a8 |
+    }
+% page 103
+    \relative {
+	g'4 a8 b8 r8 a4 b8 |
+	c8. c16~ c8 c8 b8. b16~ b8 b8 |
+	a4 b8 c8~ c4 r8 c8 |
+	b4 r8 c8 b4 r8 c8 |
+	b8 c8 b8 c8 b8 d,8 d4 |
+    }
+% page 103.1 O
+    \barNumberCheck #239
+    \relative {
+	e'4 r8 e8~ e8 e4 e8 |
+	g4 r8 g8~ g8 g4 g8 |
+	a4 r8 a8~ a8 a4 a8 |
+    }
+    \relative {
+	\deadNote d''16 \deadNote d16 \deadNote c16 \deadNote c16 \deadNote b8 \deadNote b16 \deadNote b16 \deadNote d16 \deadNote d16 \deadNote d16 \deadNote d16 \deadNote d8 \deadNote e,8 |
+    }
+% page 104
+    \relative {
+	e'4 r8 e8~ e8 e4 e8 |
+	g4 r8 g8~ g8 g4 g8 |
+	a4 r8 a8~ a8 a4 a8 |
+    }
+    \relative {
+	\deadNote a'8 \deadNote d,16 \deadNote d16 \deadNote d16 \deadNote d16 \deadNote d16 \deadNote b'16 \deadNote b16 \deadNote a8. \deadNote c16 \deadNote c16 \deadNote c8 |
+    }
+% page 104.1
+    \relative {
+	e'4 r8 e8~ e8 e4 e8 |
+	g4 r8 g8~ g8 g4 g8 |
+	a4 r8 a8~ a8 a4 a8 |
+    }
+    \relative {
+	\deadNote d'16 \deadNote d16 \deadNote b'16 \deadNote b16 \deadNote b16 \deadNote b16 \deadNote c16 \deadNote c16~ \deadNote c16 \deadNote c16 \deadNote d8~ \deadNote d8 \deadNote b8 |
+    }
+% page 105
+    \relative {
+	e'4 r8 e8~ e8 e4 e8 |
+	g4 r8 g8~ g8 g4. |
+	a4 r8 a8~ a8 a4 a8 |
+	r8 b8 ais8 b8 ais8 b8 r4 |
+    }
+% page 105.1
+    \relative {
+	r8 b'8 ais8 b8 ais8 b8 r4 |
+	r8 b8 ais8 b8 ais8 b8 d,4 |
+	e4 r4 r2 |
+	r1 |
+    }
+    \barNumberCheck #259
+}

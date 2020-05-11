@@ -1,0 +1,118 @@
+guitarThreePart = {
+% page 120 A
+    \barNumberCheck #1
+    r1_\markup { \fontsize #-2 "(Arranged for 7 Strings Guitar with Irregular Tuning: 7th String = Drop A)" } |
+    r1 | r1 | r1 |
+% page 121
+    r1 | r1 | r1 | r1 |
+% page 121.1 B
+    \barNumberCheck #9
+    r1 | r1 | r1 | r1 |
+% page 122
+    r1 | r1 | r1 | r1 |
+% page 122.1 C
+    \barNumberCheck #17
+    r1 | r1 | r1 | r1 |
+% page 123
+    r1 | r1 | r1 | r1 |
+% page 123.1 D
+    \barNumberCheck #25
+    r1 | r1 | r1 | r1 |
+% page 124
+    r1 | r1 | r1 | r1 |
+% page 124.1 E
+    \barNumberCheck #33
+    r1 | r1 | r1 | r1 |
+% page 125
+    r1 | r1 | r1 | r1 |
+% page 125.1 F Stegno
+    \barNumberCheck #41
+    r1 | r1 | r1 |
+% page 126
+    r1 | r1 | r1 |
+% page 126.1
+    r1 | r1 |
+% G
+    \barNumberCheck #49
+    r1 |
+% page 127
+    r1 | r1 | r1 |
+% page 127.1
+    r1 | r1 | r1 | r1 |
+% page 128 H
+    \barNumberCheck #57
+    r1 | r1 | r1 | r1 |
+% page 128.1
+    r1 | r1 | r1 | r1 |
+% page 129
+    r1 | r1 | r1 | r1 |
+% page 129.1
+    r1 | r1 | r1 |
+% to Coda
+    r1 |
+% page 130 I
+    \barNumberCheck #73
+    r1 | r1 | r1 | r1 |
+% page 130.1
+    r1 | r1 | r1 | r1 |
+% D.S.
+% page 125.1 F Stegno-2x
+    \barNumberCheck #81
+    r1 | r1 | r1 |
+% page 126-2x
+    r1 | r1 | r1 |
+% page 126.1-2x
+    r1 | r1 |
+% G-2x
+    \barNumberCheck #89
+    r1 |
+% page 127-2x
+    r1 | r1 | r1 |
+% page 127.1-2x
+    r1 | r1 | r1 | r1 |
+% page 128 H-2x
+    \barNumberCheck #97
+    r1 | r1 | r1 | r1 |
+% page 128.1-2x
+    r1 | r1 | r1 | r1 |
+% page 129-2x
+    r1 | r1 | r1 | r1 |
+% page 129.1-2x
+    r1 | r1 | r1 |
+% to Coda
+% page 131
+    \barNumberCheck #112
+    r1 |
+% J
+    \barNumberCheck #113
+    r1 | r1 |
+% page 131.1
+    r1 | r1 |
+    \repeat percent 4 {
+	\relative {
+	    \repeat unfold 4 g''16 \repeat unfold 4 e16 \repeat unfold 4 bes'16 \repeat unfold 4 a16 |
+	}
+    }
+% page 132.1 K
+    \barNumberCheck #121
+    r1 | r1 | r1 | r1 |
+% page 133
+    r1 | r1 | r1 | r1 |
+% page 133.1 L
+    \barNumberCheck #129
+    r1 | r1 | r1 | r1 |
+% page 134
+    r1 | r1 | r1 | r1 |
+% page 134.1 M
+    \barNumberCheck #137
+    r1 | r1 | r1 | r1 |
+% page 135
+    r1 | r1 | r1 |
+% page 135.1
+    r1 | r1 | r1 |
+% page 136
+    r1 | r1 | r1 |
+% page 136.1
+    r1 | r1 | r1 |
+    \barNumberCheck #153
+}

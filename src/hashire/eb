@@ -1,0 +1,305 @@
+ebPart = {
+   \clef bass
+% page 2
+    r1_"Original used Synth. Bass.  This arrangement uses four string bass." |
+% A
+    \barNumberCheck #2
+    r1 | r1 | r1 |
+% page 3
+    r1 |
+    \relative {
+	a,4. b8~ b4. e8~ |
+	e4. gis8~ gis2 |
+	a4. b8~ b4. e,8~ |
+    }
+% page 3.1
+    \relative {
+	e2~ e8 r r4 |
+    }
+% B
+    \barNumberCheck #10
+    \relative {
+	a,8 a' a, b' b, b' b, e |
+	e,8 e' e, gis' gis, gis' gis, gis' |
+	a,8 a' a, b' b, b' b, e |
+    }
+% page 4
+    \relative {
+	e,8 e' e, d'' d, d' d, d' |
+	a,8 a' a, b' b, b' b, e |
+	e,8 e' e, gis' gis, gis' gis, gis' |
+	a,8 a' a, b' b, b' b, e |
+    }
+% page 4.1
+    \relative {
+	e,8 e' e, e'' e, e' dis gis, |
+    }
+% C
+    \barNumberCheck #18
+    \relative {
+	a,8 a a a a a a a |
+	a8 a a a a a a e |
+	e8 e e e e e e e |
+	e8 e e gis gis gis gis a |
+    }
+% page 5
+    \relative {
+	a,8 a a a a a a a |
+	a8 a a a a a a e |
+	e8 e e e e e e e |
+	e8 e e gis gis gis gis gis |
+    }
+% D
+    \barNumberCheck #26
+    \relative {
+	a,8 a a a a a a a16 a |
+    }
+% page 5.1
+    \relative {
+	a,8 a a a a a a e16 e |
+	e8 e e e e e e e16 e |
+	e8 e e gis16 gis gis8 gis gis a16 a |
+	a8 a a a a a a a16 a |
+	a8 a a a a a a e16 e |
+    }
+% page 6
+    \relative {
+	e,8 e e e e e e e16 e |
+	e8 e e gis16 gis gis8 gis gis gis |
+    }
+% E
+    \barNumberCheck #34
+    \relative {
+	a,8 a' a, b' b, b' b, e |
+	e,8 e' e, gis' gis, gis' gis, gis' |
+    }
+% page 6.1
+    \relative {
+	a,8 a' a, b' b, b' b, e |
+	e,8 e' e, gis' e, e' gis, b |
+	a8 a' a, b' b, b' b, e |
+	e,8 e' e, gis' gis, gis' gis, gis' |
+    }
+% page 7
+    \relative {
+	a,8 a' a, b' b, b' b, c' |
+	c,8 c' c, d' d, d' d, b'~ |
+	b2 r4 b |
+    }
+    \repeat volta 2 {
+% F
+	\mybarNumberCheck #43
+	\relative {
+	    a,8 a' a, b' b, b' b, e |
+	}
+% page 7.1
+	\relative {
+	    e,8 e' e, gis' gis, gis' gis, gis' |
+	    a,8 a' a, b' b, b' b, e |
+	    e,8 e' e, d'' d, d' d, d' |
+	    a,8 a' a, b' b, b' b, e |
+	}
+% page 8
+	\relative {
+	    e,8 e' e, gis' gis, gis' gis, gis' |
+	    a,8 a' a, b' b, b' b, e |
+	    e,8 e' e, e'' e, e' dis gis, |
+	}
+% G
+	\mybarNumberCheck #51
+	\relative {
+	    a,8 a' a, b' b, b' b, e |
+	}
+% page 8.1
+	\relative {
+	    e,8 e' e, gis' gis, gis' gis, gis' |
+	    a,8 a' a, b' b, b' b, e |
+	    e,8 e' e, d'' d, d' d, d' |
+	    a,8 a' a, b' b, b' b, e |
+	}
+% page 9
+	\relative {
+	    e,8 e' e, gis' gis, gis' gis, gis' |
+	    a,8 a' a, b' b, b' b, e |
+	}
+    } \alternative { {
+	\relative {
+	    e,8 e' e, e'' e, e' dis gis, |
+	}
+% H
+	\mybarNumberCheck #59
+	\relative {
+	    a,8 a' a, b' b, b' b, e |
+	}
+% page 9.1
+	\relative {
+	    e,8 e' e, gis' gis, gis' gis, gis' |
+	    a,8 a' a, b' b, b' b, e |
+	    e,8 e' e, d'' d, d' d, d' |
+	    a,8 a' a, b' b, b' b, e |
+	}
+% page 10
+	\relative {
+	    e,8 e' e, gis' gis, gis' gis, gis' |
+	    a,8 a' a, b' b, b' b, e |
+	    e,8 e' e, e'' e, e' dis gis, |
+	}
+% I
+	\mybarNumberCheck #67
+	\relative {
+	    a,8 a a a a a a a |
+	}
+% page 10.1
+	\relative {
+	    a,8 a a a a a a e |
+	    e8 e e e e e e e |
+	    e8 e e gis gis gis gis a |
+	    a8 a a a a a a a |
+	}
+% page 11
+	\relative {
+	    a,8 a a a a a a e |
+	    e8 e e e e e e e |
+	    e8 e e gis gis gis gis gis |
+	}
+% J
+	\mybarNumberCheck #75
+	\relative {
+	    a,8 a' a, b' b, b' b, e |
+	    e,8 e' e, gis' gis, gis' gis, gis' |
+	}
+% page 11.1
+	\relative {
+	    a,8 a' a, b' b, b' b, e |
+	    e,8 e' e, e' e, e' gis, b |
+	    a8 a' a, b' b, b' b, e |
+	    e,8 e' e, gis' gis, gis' gis, gis' |
+	    a,8 a' a, b' b, b' b, c' |
+	}
+% page 12
+	\relative {
+	    c8 c' c, d' d, d' d, b'~ |
+	    b2 r4 b |
+	}
+    } {
+	\mybarNumberCheck #84
+	\relative {
+	    e,8 e' e, e'' e, e' dis gis, |
+	}
+    } }
+% K
+    \mybarNumberCheck #85
+    \repeat percent 2 {
+	\relative {
+	    c8 c' c, c' c, c' c, c' |
+	}
+    }
+% page 12.1+1
+    \repeat percent 2 {
+	\relative {
+	    b,8 b' b, b' b, b' b, b' |
+	}
+    }
+% page 13
+    \relative {
+	\repeat percent 2 {
+	    c8 c' c, c' c, c' c, c' |
+	}
+	\repeat percent 2 {
+	    b,8 b' b, b' b, b' b, b' |
+	}
+    }
+% page 13.1
+    \relative {
+	\repeat percent 2 {
+	    c8 c' c, c' c, c' c, c' |
+	}
+	\repeat percent 2 {
+	    b,8 b' b, b' b, b' b, b' |
+	}
+    }
+% page 14
+    \relative {
+	a,8 a' a, a' a, a' a, b' |
+	b,8 b' b, b' b, b' b, b' |
+	c,8 c' c, c' c, c' c, d' |
+	d,8 d' d, d' d, d' d, b~ |
+    }
+% page 14.1
+    \relative {
+	b,1~ |
+	b1 |
+    }
+% L
+    \mybarNumberCheck #103
+    r1 | r1 |
+% page 15
+    r1 | r1 |
+    \relative {
+	a,4. b8~ b4. e8~ |
+	e4. gis8~ gis2 |
+    }
+% page 15.1
+    \relative {
+	a4. b8~ b4. e,8~ |
+	e1 |
+    }
+    r1 |
+% M
+    \mybarNumberCheck #112
+    \relative {
+	b,8 b' b, cis' cis, cis' cis, fis |
+    }
+% page 16
+    \relative {
+	fis,8 fis' fis, ais' ais, ais' ais, ais' |
+	b,8 b' b, cis' cis, cis' cis, fis |
+	fis,8 fis' fis, e'' e, e' e, e' |
+	b,8 b' b, cis' cis, cis' cis, fis |
+    }
+% page 16.1
+    \relative {
+	fis,8 fis' fis, ais' ais, ais' ais, ais' |
+	b,8 b' b, cis' cis, cis' cis, fis |
+	fis,8 fis' fis, fis'' fis, fis' eis ais, |
+    }
+% N
+    \mybarNumberCheck #120
+    \relative {
+	b,8 b' b, cis' cis, cis' cis, fis |
+    }
+% page 17
+    \relative {
+	fis,8 fis' fis, ais' ais, ais' ais, ais' |
+	b,8 b' b, cis' cis, cis' cis, fis |
+	fis,8 fis' fis, e'' e, e' e, e' |
+	b,8 b' b, cis' cis, cis' cis, fis |
+    }
+% page 17.1
+    \relative {
+	fis,8 fis' fis, ais' ais, ais' ais, ais' |
+	b,8 b' b, cis' cis, cis' cis, fis |
+	fis,8 fis' fis, fis'' fis, fis' eis ais, |
+    }
+% O
+    \mybarNumberCheck #128
+    \relative {
+	b,8 b' b, cis' cis, cis' cis, fis |
+    }
+% page 18
+    \relative {
+	fis,8 fis' fis, ais' ais, ais' ais, ais' |
+	b,8 b' b, cis' cis, cis' cis, fis |
+	fis,8 fis' fis, e'' e, e' e, e' |
+	b,8 b' b, cis' cis, cis' cis, fis |
+    }
+% page 18.1
+    \relative {
+	fis,8 fis' fis, ais' ais, ais' ais, ais' |
+	b,8 b' b, cis' cis, cis' cis, fis |
+	fis,8 fis' fis, fis'' fis, fis' eis ais, |
+	b,1~ |
+	b1 |
+    }
+    \mybarNumberCheck #138
+}

@@ -1,0 +1,245 @@
+egTwoPart = {
+% page 2
+    \quoteDuring #"eg1" {
+	s1 |
+    }
+% A
+    \barNumberCheck #2
+    \quoteDuring #"eg1" {
+	s1 | s1 | s1 |
+    }
+% page 3
+    \quoteDuring #"eg1" {
+	s1 | s1 | s1 |
+    }
+    \relative {
+	f'8. f'16 r8 bes,~ bes16 bes' r8 e,4~ |
+    }
+% page 3.1
+    \relative {
+	e''2\startTrillSpan r2\stopTrillSpan |
+    }
+% B
+    \barNumberCheck #10
+    \relative {
+	r1 | r1 | r1 |
+    }
+% page 4
+    \quoteDuring #"eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 4.1
+    \quoteDuring #"eg1" {
+	s1 |
+    }
+% C
+    \barNumberCheck #18
+    \relative {
+	\ottava #1 \tuplet 3/2 { r4 \deadNote g'''8 } g(^\markup { \hspace #2 "C" } a)~ a2~\startTrillSpan |
+	a2 a8\stopTrillSpan \ottava #0 <a,,, e' a> r <a e' a> |
+    }
+    \quoteDuring #"eg1" {
+	s1 |
+    }
+% page 5
+    \quoteDuring #"eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 5.1
+    \quoteDuring #"eg1" {
+	s1 |
+    }
+% D Stegno1
+    \barNumberCheck #26
+    \quoteDuring #"eg1" {
+	s1 | s1 | s1 |
+    }
+% page 6
+    r1 | r1 | r1 | r1 |
+% page 6.1
+    r1 | r1 |
+% E Stegno2
+    \barNumberCheck #35
+    \quoteDuring #"eg1" {
+	s1 | s1 |
+    }
+% page 7
+    \quoteDuring #"eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 7.1
+    \quoteDuring #"eg1" {
+	s1 | s1 |
+    }
+    \relative {
+	<ees' bes' ees>4\staccato <ees bes' ees> \deadNote <ees bes' ees>8 <ees bes' ees> r <ees bes' ees> |
+    }
+    \quoteDuring #"eg1" {
+	s1 |
+    }
+% page 8
+    \quoteDuring #"eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 8.1
+    \quoteDuring #"eg1" {
+	s1 |
+    }
+% to Coda1,2
+    \quoteDuring #"eg1" {
+	s1 |
+    }
+% F
+    \barNumberCheck #51
+    \quoteDuring #"eg1" {
+	s1 | s1 |
+    }
+% page 9
+    \quoteDuring #"eg1" {
+	s1 | s1 |
+    }
+% G
+    \barNumberCheck #55
+    r1 | r1 |
+% page 9.1
+    \quoteDuring #"eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 10
+    r1 | r1 |
+% D.S.1
+% D Stegno1-2x
+    \barNumberCheck #63
+    \quoteDuring #"eg1" {
+	s1 | s1 | s1 |
+    }
+% page 6-2x
+    r1 | r1 | r1 | r1 |
+% page 6.1-2x
+    r1 | r1 |
+% E Stegno2-2x
+    \barNumberCheck #72
+    \quoteDuring #"eg1" {
+	s1 | s1 |
+    }
+% page 7-2x
+    \quoteDuring #"eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 7.1-2x
+    \quoteDuring #"eg1" {
+	s1 | s1 |
+    }
+    \relative {
+	<ees' bes' ees>4\staccato <ees bes' ees> \deadNote <ees bes' ees>8 <ees bes' ees> r <ees bes' ees> |
+    }
+    \quoteDuring #"eg1" {
+	s1 |
+    }
+% page 8-2x
+    \quoteDuring #"eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 8.1-2x
+    \quoteDuring #"eg1" {
+	s1 |
+    }
+% to Coda1,2
+% page 10 Coda1
+    \barNumberCheck #87
+    r1 |
+% H
+    \barNumberCheck #88
+    r1 | r1 |
+% page 10.1
+    \quoteDuring #"eg1" {
+	s1 | s1 |
+    }
+% I
+    \barNumberCheck #92
+    \quoteDuring #"eg1" {
+	s1 | s1 |
+    }
+% page 11
+    \quoteDuring #"eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 11.1
+    \quoteDuring #"eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 12
+    \quoteDuring #"eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 12.1
+    \quoteDuring #"eg1" {
+	s1 | s1 |
+    }
+% J repeat
+    \barNumberCheck #108
+    r1 |
+% page 13
+    r1 | r1 | r1 |
+% page 13.1
+    r1 | r1 |
+% ending 1
+    r1 |
+% page 14
+    r1 |
+% end repeat
+% J repeat-2x
+    \barNumberCheck #116
+    r1 |
+% page 13-2x
+    r1 | r1 | r1 |
+% page 13.1-2x
+    r1 | r1 |
+% page 14
+    r1 | r1 | r1 |
+% E Stegno2-3x
+    \barNumberCheck #125
+    \quoteDuring #"eg1" {
+	s1 | s1 |
+    }
+% page 7-3x
+    \quoteDuring #"eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 7.1-3x
+    \quoteDuring #"eg1" {
+	s1 | s1 |
+    }
+    \relative {
+	<ees' bes' ees>4\staccato <ees bes' ees> \deadNote <ees bes' ees>8 <ees bes' ees> r <ees bes' ees> |
+    }
+    \quoteDuring #"eg1" {
+	s1 |
+    }
+% page 8-3x
+    \quoteDuring #"eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 8.1-3x
+    \quoteDuring #"eg1" {
+	s1 |
+    }
+% to Coda1,2
+% page 14.1 Coda2
+    \barNumberCheck #140
+    r1 |
+% K
+    \barNumberCheck #141
+    \quoteDuring #"eg1" {
+	s1 | s1 |
+    }
+% page 15
+    \quoteDuring #"eg1" {
+	s1 | s1 | s1 |
+    }
+% page 15.1
+    \quoteDuring #"eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+    \barNumberCheck #150
+}

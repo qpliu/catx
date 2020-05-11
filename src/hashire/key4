@@ -1,0 +1,215 @@
+keyFourPart = {
+% page 2
+    r1 |
+% A
+    \barNumberCheck #2
+    \relative {
+	\ottava #1 r8_"<Analog Synth.1>" gis''16 b e b gis e gis' e b e b e, gis e |
+	gis16 b gis b e b e gis e b e b gis b gis e |
+	r16 e gis b e b gis e gis' e b e b e, gis e |
+    }
+% page 3
+    \relative {
+	gis''16 b gis b e b gis gis' e b b' gis e gis e b |
+	gis16 e gis b e b gis e gis' e b e b e, gis e |
+	gis16 b gis b e b gis gis' e b e b gis b gis e |
+	r16 e gis b e b gis e gis' e b e b e, gis e |
+    }
+% page 3.1
+    \relative {
+	gis''16 b gis b e b gis gis' e b gis e r4 |
+    }
+% B
+    \barNumberCheck #10
+    \relative {
+	r8 gis''16 b e b gis e gis' e b e b e, gis e |
+	gis16 b gis b e b e gis e b e b gis b gis e |
+	r16 e gis b e b gis e gis' e b e b e, gis e |
+    }
+% page 4
+    \relative {
+	gis'' b gis b e b gis gis' e b b' gis e gis e b |
+	gis16 e gis b e b gis e gis' e b e b e, gis e |
+	gis16 b gis b e b gis gis' e b e b gis b gis e |
+	r16 e gis b e b gis e gis' e b e b e, gis e |
+    }
+% page 4.1
+    \relative {
+	gis''16 b gis b e b gis gis' e b gis e gis b e gis \ottava #0 |
+    }
+% C
+    \barNumberCheck #18
+    \relative {
+	\repeat percent 2 {
+	    \ottava #1 r8_"<Synth.Xylophone>" e''' r e r dis b e |
+	}
+	\repeat percent 2 {
+	    r8 e r dis r dis b e |
+	}
+    }
+% page 5
+    \relative {
+	\repeat percent 2 {
+	    r8 e''' r e r dis b e |
+	}
+	r8 e r dis r dis b e |
+	b4_"These notes are fours without stems." a gis b |
+    }
+% D
+    \barNumberCheck #26
+    \repeat percent 8 {
+	\relative {
+	    r8 e''' r e r dis b e |
+	}
+    }
+% E
+    \barNumberCheck #34
+    r1 \ottava #0 | r1 |
+% page 6.1
+    r1 | r1 | r1 | r1 |
+% page 7
+    r1 | r1 | r1 |
+    \repeat volta 2 {
+% F
+	\mybarNumberCheck #43
+	r1 |
+% page 7.1
+	r1 | r1 | r1 | r1 |
+% page 8
+	r1 | r1 | r1 |
+% G
+	\mybarNumberCheck #51
+	\relative {
+	    \ottava #1 r8_"<Analog Synth.1>" gis''16 b e b gis e gis' e b e b e, gis e |
+	}
+% page 8.1
+	\relative {
+	    gis''16 b gis b e b e gis e b e b gis b gis e |
+	    r16 e gis b e b gis e gis' e b e b e, gis e |
+	    gis16 b gis b e b gis gis' e b b' gis e gis e b |
+	    gis16 e gis b e b gis e gis' e b e b e, gis e |
+	}
+% page 9
+	\relative {
+	    gis''16 b gis b e b gis gis' e b e b gis b gis e |
+	    r16 e gis b e b gis e gis' e b e b e, gis e |
+	}
+    } \alternative { {
+	\relative {
+	    gis''16 b gis b e b gis gis' e b gis e gis b e gis |
+	}
+% H
+	\mybarNumberCheck #59
+	\relative {
+	    r8 gis''16 b e b gis e gis' e b e b e, gis e |
+	}
+% page 9.1
+	\relative {
+	    gis''16 b gis b e b e gis e b e b gis b gis e |
+	    r16 e gis b e b gis e gis' e b e b e, gis e |
+	    gis16 b gis b e b gis gis' e b b' gis e gis e b |
+	    gis e gis b e b gis e gis' e b e b e, gis e |
+	}
+% page 10
+	\relative {
+	    gis''16 b gis b e b gis gis' e b e b gis b gis e |
+	    r16 e gis b e b gis e gis' e b e b e, gis e |
+	    gis16 b gis b e b gis gis' e b gis e gis b e gis \ottava #0 |
+	}
+% I
+	\mybarNumberCheck #67
+	\repeat percent 8 {
+	    \relative {
+		\ottava #1 r8_"<Synth.Xylophone>" e''' r e r dis b e |
+	    }
+	}
+% J
+	\mybarNumberCheck #75
+	r1 \ottava #0 | r1 |
+% page 11.1
+	r1 | r1 | r1 | r1 | r1 |
+% page 12
+	r1 | r1 |
+    } {
+	\relative {
+	    \ottava #1 gis''16 b gis b e b gis gis' e b gis e gis b e gis \ottava #0 |
+	}
+    } }
+% K
+    \mybarNumberCheck #85
+    \repeat percent 3 {
+	\relative {
+	    <e' g c>1~_"<Synth.Organ>" |
+	}
+% page 12.1
+	\relative {
+	    <e' g c>1 |
+	    <dis fis b>1~ |
+	    <dis fis b>1 |
+	}
+    }
+% page 14
+    \relative {
+	<cis' e a>2.. <dis fis b>8~ |
+	<dis fis b>1 |
+	<e g c>2.. <fis a d>8~ |
+	<fis a d>2.. <b dis fis>8~\startInstrument "Flanger" |
+    }
+% page 14.1
+    \relative {
+	<b' dis fis>1~ |
+	<b dis fis>1\stopInstrument "Flanger" |
+    }
+% L
+    \mybarNumberCheck #103
+    \relative {
+	\ottava #1 r8_"<Analog Synth.1>" gis''16 b e b gis e gis' e b e b e, gis e |
+	gis16 b gis b e b e gis e b e b gis b gis e |
+    }
+% page 15
+    \relative {
+	r16 e'' gis b e b gis e gis' e b e b e, gis e |
+	gis16 b gis b e b gis gis' e b b' gis e gis e b |
+	gis16 e gis b e b gis e gis' e b e b e, gis e |
+	gis16 b gis b e b gis gis' e b e b gis b gis e |
+    }
+% page 15.1
+    \relative {
+	r16 e'' gis b e b gis e gis' e b e b e, gis e |
+	gis16 b gis b e b gis gis' e b gis e b'8 e |
+    }
+    r1 |
+% M
+    \mybarNumberCheck #112
+    r1 |
+% page 16
+    r1 | r1 | r1 | r1 |
+% page 16.1
+    r1 | r1 | r1 |
+% N
+    \mybarNumberCheck #120
+    \relative {
+	r8 ais''16 cis fis cis ais fis ais' fis cis fis cis fis, ais fis |
+    }
+% page 17
+    \relative {
+	ais''16 cis ais cis fis cis fis ais fis cis fis cis ais cis ais fis |
+	r16 fis ais cis fis cis ais fis ais' fis cis fis cis fis, ais fis |
+	ais16 cis ais cis fis cis ais ais' fis cis cis' ais fis ais fis cis |
+	ais16 fis ais cis fis cis ais fis ais' fis cis fis cis fis, ais fis |
+    }
+% page 17.1
+    \relative {
+	ais''16 cis ais cis fis cis ais ais' fis cis fis cis ais cis ais fis |
+	r16 fis ais cis fis cis ais fis ais' fis cis fis cis fis, ais fis |
+	ais16 cis ais cis fis cis ais ais' fis cis ais fis ais cis fis ais \ottava #0 |
+    }
+% O
+    \mybarNumberCheck #128
+    r1 |
+% page 18
+    r1 | r1 | r1 | r1 |
+% page 18.1
+    r1 | r1 | r1 | r1 | r1 |
+    \mybarNumberCheck #138
+}

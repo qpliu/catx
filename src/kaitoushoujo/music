@@ -1,0 +1,391 @@
+% vo1 cho1 vo2 key1 key2 eg1 eg2 eg3 eb drs eg4 eg5 perc1 perc2 se key3 key4 key5
+% system1 system2 system3 system4
+% midi
+% roland
+% PARTS midi
+% MIDIS midiOne midiTwo midiThree
+
+\header {
+    title = "行くぜっ!怪盗少女"
+    composer = "作詞・作曲:前山田健一"
+}
+
+drumPitchNames.tomm = #'himidtom
+
+drumPitchNames.revnoise = #'revnoise
+midiDrumPitches.revnoise = c,,,, % 0
+drumPitchNames.explosionOne = #'explosionOne
+midiDrumPitches.explosionOne = cis,,,, % 1
+drumPitchNames.scratchOne = #'scratchOne
+midiDrumPitches.scratchOne = d,,,, % 2
+drumPitchNames.glasscrash = #'glasscrash
+midiDrumPitches.glasscrash = dis,,,, % 3
+drumPitchNames.sirenThreeSecs = #'sirenThreeSecs
+midiDrumPitches.sirenThreeSecs = e,,,, % 4
+drumPitchNames.sirenSixSecs = #'sirenSixSecs
+midiDrumPitches.sirenSixSecs = f,,,, % 5
+drumPitchNames.noise = #'noise
+midiDrumPitches.noise = fis,,,, % 6
+drumPitchNames.explosionTwo = #'explosionTwo
+midiDrumPitches.explosionTwo = g,,,, % 7
+drumPitchNames.explosionThree = #'explosionThree
+midiDrumPitches.explosionThree = g,,,, % 7
+drumPitchNames.percussivenoise = #'percussivenoise
+midiDrumPitches.percussivenoise = gis,,,, % 8
+drumPitchNames.slap = #'slap
+midiDrumPitches.slap = e,, % 28
+drumPitchNames.scratchTwo = #'scratchTwo
+midiDrumPitches.scratchTwo = f,, % 29
+drumPitchNames.scratchThree = #'scratchThree
+midiDrumPitches.scratchThree = fis,, % 30
+drumPitchNames.handclapOne = #'handclapOne
+midiDrumPitches.handclapOne = dis, % 39
+drumPitchNames.handclapTwo = #'handclapTwo
+midiDrumPitches.handclapTwo = dis, % 39
+drumPitchNames.shaker = #'shaker
+midiDrumPitches.shaker = ais'' % 82
+drumPitchNames.revcymbal = #'revcymbal
+midiDrumPitches.revcymbal = d'
+drumPitchNames.rhhho = #'rhhho
+midiDrumPitches.rhhho = d'''
+
+#(define myDrumStyleTable '(
+    (revcymbal       cross    #f          7)
+    (crashcymbal     cross    #f          7)
+    (explosionOne    cross    #f          6)
+    (explosionTwo    cross    #f          6)
+    (explosionThree  cross    #f          6)
+    (noise           cross    #f          5)
+    (hihat           cross    #f          5)
+    (shaker          cross    #f          5)
+    (openhihat       cross    "open"      5)
+    (closedhihat     cross    "stopped"   5)
+    (halfopenhihat   cross    "halfopen"  5)
+    (rhhho           cross    "halfopen"  4)
+    (slap            cross    #f          4)
+    (handclapOne     cross    #f          3)
+    (hightom         default  #f          3)
+    (sirenThreeSecs  cross    #f          3)
+    (sirenSixSecs    cross    #f          3)
+    (glasscrash      cross    #f          2)
+    (scratchOne      cross    #f          2)
+    (handclapTwo     cross    #f          1)
+    (percussivenoise cross    #f          1)
+    (snare           default  #f          1)
+    (sidestick       cross    #f          1)
+    (scratchThree    cross    #f          0)
+    (lowtom          default  #f          -1)
+    (hibongo         cross    #f          -1)
+    (revnoise        cross    #f          -2)
+    (bassdrum        default  #f          -3)
+    (scratchTwo      cross    #f          -3)
+    (lobongo         cross    #f          -3)
+))
+
+\include "markup"
+\include "chords"
+\include "vo1"
+\include "vo1text_lyrics"
+\include "vo1text_midi"
+\include "cho1"
+\include "lyrics1"
+\include "vo2"
+\include "vo2text_lyrics"
+\include "vo2text_midi"
+\include "lyrics2"
+\include "key1"
+\include "key1text_lyrics"
+\include "key1text_midi"
+\include "key2"
+\include "key2text_lyrics"
+\include "key2text_midi"
+\include "eg1"
+\include "eg1text_lyrics"
+\include "eg1text_midi"
+\addQuote "eg1" \egOnePart
+\addQuote "lyricseg1" \lyricsegOneText
+\addQuote "midieg1" \midiegOneText
+\include "eg2"
+\include "eg2text_lyrics"
+\include "eg2text_midi"
+\include "eg3"
+\include "eb"
+\include "drs"
+\include "drstext_lyrics"
+\include "drstext_midi"
+\include "markup2"
+\include "eg4"
+\include "eg4text_lyrics"
+\include "eg4text_midi"
+\include "eg5"
+\include "eg5text_lyrics"
+\include "eg5text_midi"
+\include "markup3"
+\include "perc1"
+\include "perc1text_lyrics"
+\include "perc1text_midi"
+\include "perc2"
+\include "se"
+\include "setext_lyrics"
+\include "setext_midi"
+\include "markup4"
+\include "key3"
+\include "key3text_lyrics"
+\include "key3text_midi"
+\include "key4"
+\include "key4text_lyrics"
+\include "key4text_midi"
+\include "key5"
+\include "key5text_lyrics"
+\include "key5text_midi"
+
+layoutmusic = \removeWithTag #'(xpageNumber xtextLyrics) <<
+    \tag #'systemOnePart \new ChordNames \mychords
+    \tag #'(systemOnePart voOnePart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vo.1" }
+	shortInstrumentName = \markup { \rotate #90 "Vo.1" }
+    } <<
+	\markupStuff
+	\voOnePart
+	\voOneLyrics
+	\tag #'(textLyrics keep) \lyricsvoOneText
+    >>
+    \tag #'(systemOnePart choOnePart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Cho.1" }
+	shortInstrumentName = \markup { \rotate #90 "Cho.1" }
+    } <<
+	\markupStuff
+	\choOnePart
+    >>
+    \tag #'(systemOnePart voTwoPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vo.2" }
+	shortInstrumentName = \markup { \rotate #90 "Vo.2" }
+    } <<
+	\markupStuff
+	\voTwoPart
+	\voTwoLyrics
+	\tag #'(textLyrics keep) \lyricsvoTwoText
+    >>
+    \tag #'(systemOnePart keyOnePart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Key.1" }
+	shortInstrumentName = \markup { \rotate #90 "Key.1" }
+    } <<
+	\markupStuff
+	\keyOnePart
+	\tag #'(textLyrics keep) \lyricskeyOneText
+    >>
+    \tag #'(systemOnePart keyTwoPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Key.2" }
+	shortInstrumentName = \markup { \rotate #90 "Key.2" }
+    } <<
+	\markupStuff
+	\keyTwoPart
+	\tag #'(textLyrics keep) \lyricskeyTwoText
+    >>
+    \tag #'(systemOnePart egOnePart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "E.G.1" }
+	shortInstrumentName = \markup { \rotate #90 "E.G.1" }
+    } <<
+	\markupStuff
+	\egOnePart
+	\tag #'(textLyrics keep) \lyricsegOneText
+    >>
+    \tag #'(systemOnePart egTwoPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "E.G.2" }
+	shortInstrumentName = \markup { \rotate #90 "E.G.2" }
+    } <<
+	\markupStuff
+	\egTwoPart
+	\tag #'(textLyrics keep) \lyricsegTwoText
+    >>
+    \tag #'(systemOnePart egThreePart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "E.G.3" }
+	shortInstrumentName = \markup { \rotate #90 "E.G.3" }
+    } <<
+	\markupStuff
+	\egThreePart
+    >>
+    \tag #'(systemOnePart ebPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "E.B." }
+	shortInstrumentName = \markup { \rotate #90 "E.B." }
+    } <<
+	\markupStuff
+	\ebPart
+    >>
+    \tag #'(systemOnePart drsPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drs." }
+	shortInstrumentName = \markup { \rotate #90 "Drs." }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drsPart
+	\tag #'(textLyrics keep) \lyricsdrsText
+    >>
+    \tag #'(systemTwoPart egFourPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "E.G.4" }
+	shortInstrumentName = \markup { \rotate #90 "E.G.4" }
+    } <<
+	\markupTwoStuff
+	\egFourPart
+	\tag #'(textLyrics keep) \lyricsegFourText
+    >>
+    \tag #'(systemTwoPart egFivePart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "E.G.5" }
+	shortInstrumentName = \markup { \rotate #90 "E.G.5" }
+    } <<
+	\markupTwoStuff
+	\egFivePart
+	\tag #'(textLyrics keep) \lyricsegFiveText
+    >>
+    \tag #'(systemThreePart percOnePart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Perc.1" }
+	shortInstrumentName = \markup { \rotate #90 "Perc.1" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupThreeStuff
+	\percOnePart
+	\tag #'(textLyrics keep) \lyricspercOneText
+    >>
+    \tag #'(systemThreePart percTwoPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Perc.2" }
+	shortInstrumentName = \markup { \rotate #90 "Perc.2" }
+    } <<
+	\markupThreeStuff
+	\percTwoPart
+    >>
+    \tag #'(systemThreePart sePart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "S.E." }
+	shortInstrumentName = \markup { \rotate #90 "S.E." }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupThreeStuff
+	\sePart
+	\tag #'(textLyrics keep) \lyricsseText
+    >>
+    \tag #'(systemFourPart keyThreePart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Key.3" }
+	shortInstrumentName = \markup { \rotate #90 "Key.3" }
+    } <<
+	\markupFourStuff
+	\keyThreePart
+	\tag #'(textLyrics keep) \lyricskeyThreeText
+    >>
+    \tag #'(systemFourPart keyFourPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Key.4" }
+	shortInstrumentName = \markup { \rotate #90 "Key.4" }
+    } <<
+	\markupFourStuff
+	\keyFourPart
+	\tag #'(textLyrics keep) \lyricskeyFourText
+    >>
+    \tag #'(systemFourPart keyFivePart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Key.5" }
+	shortInstrumentName = \markup { \rotate #90 "Key.5" }
+    } <<
+	\markupFourStuff
+	\keyFivePart
+	\tag #'(textLyrics keep) \lyricskeyFiveText
+    >>
+>>
+
+midimusicAll = <<
+    \markupStuff
+    \tag #'(midiOne voOnePart) \new Staff = "vo1text" \midivoOneText
+    \tag #'(midiOne voOnePart) \new Staff = "vo1" \voOnePart
+    \tag #'(midiOne voTwoPart) \new Staff = "vo2text" \midivoTwoText
+    \tag #'(midiOne voTwoPart) \new Staff = "vo2" \voTwoPart
+    \tag #'(midiOne keyOnePart) \new Staff = "key1text" \midikeyOneText
+    \tag #'(midiOne keyOnePart) \new Staff = "key1" \keyOnePart
+    \tag #'(midiOne keyTwoPart) \new Staff = "key2text" \midikeyTwoText
+    \tag #'(midiOne keyTwoPart) \new Staff = "key2" \keyTwoPart
+    \tag #'(midiOne keyThreePart) \new Staff = "key3text" \midikeyThreeText
+    \tag #'(midiOne keyThreePart) \new Staff = "key3" \keyThreePart
+    \tag #'(midiTwo keyFourPart) \new Staff = "key4text" \midikeyFourText
+    \tag #'(midiTwo keyFourPart) \new Staff = "key4" \keyFourPart
+    \tag #'(midiTwo keyFivePart) \new Staff = "key5text" \midikeyFiveText
+    \tag #'(midiTwo keyFivePart) \new Staff = "key5" \keyFivePart
+    \tag #'(midiTwo egOnePart) \new Staff = "eg1text" \midiegOneText
+    \tag #'(midiTwo egOnePart) \new Staff = "eg1" \egOnePart
+    \tag #'(midiTwo egTwoPart) \new Staff = "eg2text" \midiegTwoText
+    \tag #'(midiTwo egTwoPart) \new Staff = "eg2" \egTwoPart
+    \tag #'(midiTwo egFourPart) \new Staff = "eg4text" \midiegFourText
+    \tag #'(midiTwo egFourPart) \new Staff = "eg4" \egFourPart
+    \tag #'(midiThree egFivePart) \new Staff = "eg5text" \midiegFiveText
+    \tag #'(midiThree egFivePart) \new Staff = "eg5" \egFivePart
+    \tag #'(midiThree choOnePart) \new Staff \with {
+	midiInstrument = #"choir aahs"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.5
+    } \choOnePart
+    \tag #'(midiThree ebPart) \new Staff \with {
+	midiInstrument = #"electric bass (finger)"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.7
+    } \ebPart
+    \tag #'(midiThree timpaniPart) \new Staff \with {
+	midiInstrument = #"timpani"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.8
+    } \percTwoPart
+    \tag #'(midiThree drsPart) \new Staff = "drstext" \mididrsText
+    \tag #'(midiThree drsPart) \new DrumStaff = "drs" \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drsPart
+    \tag #'(midiThree percOnePart) \new Staff = "perc1text" \midipercOneText
+    \tag #'(midiThree percOnePart) \new DrumStaff = "perc1" \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \percOnePart
+    \tag #'(midiThree sePart) \new Staff = "setext" \midiseText
+    \tag #'(midiThree sePart) \new DrumStaff = "se" \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \sePart
+>>
+
+midimusic = <<
+%    \keepWithTag #'(voOnePart keep) \midimusicAll
+%    \keepWithTag #'(voTwoPart keep) \midimusicAll
+%    \keepWithTag #'(choOnePart keep) \midimusicAll
+%    \keepWithTag #'(keyOnePart keep) \midimusicAll
+%    \keepWithTag #'(keyTwoPart keep) \midimusicAll
+%    \keepWithTag #'(keyThreePart keep) \midimusicAll
+%    \keepWithTag #'(keyFourPart keep) \midimusicAll
+%    \keepWithTag #'(keyFivePart keep) \midimusicAll
+%    \keepWithTag #'(sePart keep) \midimusicAll
+%    \keepWithTag #'(egOnePart keep) \midimusicAll
+%    \keepWithTag #'(egTwoPart keep) \midimusicAll
+%    \keepWithTag #'(egFourPart keep) \midimusicAll
+%    \keepWithTag #'(egFivePart keep) \midimusicAll
+%    \keepWithTag #'(ebPart keep) \midimusicAll
+%    \keepWithTag #'(timpaniPart keep) \midimusicAll
+%    \keepWithTag #'(drsPart keep) \midimusicAll
+%    \keepWithTag #'(percOnePart keep) \midimusicAll
+    \midimusicAll
+>>
+
+rolandmusic = <<
+    \markupStuff
+    \new Staff \with {
+	midiInstrument = #"acoustic grand"
+    } \voOnePart
+    \new Staff \with {
+	midiInstrument = #"acoustic grand"
+    } \voTwoPart
+    \new Staff \with {
+	midiInstrument = #"acoustic grand"
+    } \choOnePart
+    \new Staff \with {
+	midiInstrument = #"acoustic bass"
+    } \ebPart
+    \new Staff \with {
+	midiInstrument = #"electric guitar (clean)"
+    } \egOnePart
+    \new Staff \with {
+	midiInstrument = #"tremolo strings"
+    } \keyOnePart
+    \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \percOnePart
+    \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drsPart
+>>

@@ -1,0 +1,260 @@
+mychords = \chordmode {
+% page 106 Intro.1
+    \barNumberCheck #1
+    e1:m |
+    s1 | s1 | s1 |
+% page 107
+    e1:m |
+    s1 | s1 |
+    s8 bes4 a4 g4. |
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat
+    \barNumberCheck #9
+    e1:m |
+    s1 | s1 | s1 |
+% page 108
+    e1:m |
+    s1 | s1 |
+% to Coda2
+    s8 bes4 a4 g4. |
+% to Coda3
+% page 108.1 A
+    \barNumberCheck #17
+    e1:m |
+    s1 | s1 | s1 |
+% page 109
+    e1:m |
+    s1 |
+% ending1
+    s1 |
+% page 109.1
+    e1:m |
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-2x
+    \barNumberCheck #25
+    e1:m |
+    s1 | s1 | s1 |
+% page 108-2x
+    e1:m |
+    s1 | s1 |
+    s8 bes4 a4 g4. |
+% page 108.1 A-2x
+    \barNumberCheck #33
+    e1:m |
+    s1 | s1 | s1 |
+% page 109-2x
+    e1:m |
+    s1 |
+% page 109.1
+    e1:m |
+    s1 |
+% page 110 B Stegno1
+    \barNumberCheck #41
+    g1 |
+    b1/fis |
+    e1:m |
+    a4.:m d8 s2 |
+% page 110.1
+    g1 |
+    b1 |
+    e1:m |
+    c4. d8 s2 |
+% page 111
+    c1 |
+    c1:m/ees |
+    g1 |
+    b1 |
+% page 111.1 C
+    \barNumberCheck #53
+    e1:m |
+    s1 | s1 | s1 |
+% page 112
+    e1:m |
+    s1 | s1 | s1 |
+% page 112.1 D
+    \barNumberCheck #61
+    e1:m |
+    a1:m |
+    d1 |
+    g1 |
+% page 113
+    c1:m |
+    fis1:m7.5- |
+    b1:sus4 |
+    b1 |
+% page 113.1
+    e1:m |
+    a1:m |
+    d1 |
+    g1 |
+% page 114
+    c1 |
+    fis1:m7.5- |
+    b1:sus4 |
+    b1 |
+% page 114.1
+    c1 |
+    d1 |
+    e1:sus4 |
+% to Coda1
+    s1 |
+% page 115 E
+    \barNumberCheck #81
+    e1:m |
+    s1 | s1 | s1 |
+% page 115.1 F
+    \barNumberCheck #85
+    e1:m |
+    s1 | s1 | s1 |
+% page 116
+    e1:m |
+    s1 | s1 | s1 |
+% page 116.1 G
+    \barNumberCheck #93
+    c1 |
+    s1 |
+    b1:m |
+    e1:m |
+% page 117
+    c1 |
+    s1 |
+    b1:m |
+    e1:m |
+% page 117.1
+    c1 |
+    s1 |
+    b1:m |
+    e1:m |
+% page 118
+    f1 |
+    s1 |
+    d1 |
+    s1 |
+% page 118.1 H
+    \barNumberCheck #109
+    g2.. g8:7.9 |
+    s1 |
+    c1 |
+    s2. d4 |
+% page 119
+    g2.. g8:7.9|
+    s1 |
+    c1 |
+    s2. d4 |
+% page 119.1
+    g2.. g8:7.9 |
+    s1 |
+    c1 |
+% page 120
+    c2. d4 |
+    c2.. d8 |
+    s1 |
+% page 120.1
+    e1 |
+    s1 |
+% I
+    \barNumberCheck #125
+    bes4. e8:m s2 |
+% page 121
+    e1:m |
+    s1 | s1 |
+% page 121.1
+    bes4. e8:m s2 |
+    s1 | s1 | s1 |
+% page 122
+    bes4. e8:m s2 |
+    s1 | s1 | s1 |
+% page 122.1 J
+    \barNumberCheck #137
+    e1:m |
+    s1 | s1 | s1 |
+% page 123
+    e1:m |
+    s1 | s1 |
+    s8 bes4 a4 g4. |
+% page 123.1
+    r1 |
+    s1 |
+% D.S.1
+% page 110 B Stegno1-2x
+    \barNumberCheck #147
+    g1 |
+    b1/fis |
+    e1:m |
+    a4.:m d8 s2 |
+% page 110.1-2x
+    g1 |
+    b1 |
+    e1:m |
+    c4. d8 s2 |
+% page 111-2x
+    c1 |
+    c1:m/ees |
+    g1 |
+    b1 |
+% page 111.1 C-2x
+    \barNumberCheck #159
+    e1:m |
+    s1 | s1 | s1 |
+% page 112-2x
+    e1:m |
+    s1 | s1 | s1 |
+% page 112.1 D-2x
+    \barNumberCheck #167
+    e1:m |
+    a1:m |
+    d1 |
+    g1 |
+% page 113-2x
+    c1:m |
+    fis1:m7.5- |
+    b1:sus4 |
+    b1 |
+% page 113.1-2x
+    e1:m |
+    a1:m |
+    d1 |
+    g1 |
+% page 114-2x
+    c1 |
+    fis1:m7.5- |
+    b1:sus4 |
+    b1 |
+% page 114.1-2x
+    c1 |
+    d1 |
+    e1:sus4 |
+% to Coda1
+% page 123 Coda1
+    \barNumberCheck #186
+    e1:sus4 |
+% D.S.2
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-3x
+    \barNumberCheck #187
+    e1:m |
+    s1 | s1 | s1 |
+% page 108-3x
+    e1:m |
+    s1 | s1 |
+% to Coda2
+% page 124 Coda2
+    \barNumberCheck #194
+    s8 bes4 a g4. |
+% D.S.3
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-4x
+    \barNumberCheck #195
+    e1:m |
+    s1 | s1 | s1 |
+% page 108-4x
+    e1:m |
+    s1 | s1 |
+    s8 bes4 a4 g4. |
+% to Coda3
+% page 124 Coda3
+    \barNumberCheck #203
+    s8 bes4 a4 g4. |
+    s8 bes4 a4 g4. |
+% page 124.1
+    g1 |
+    e1:m |
+    s1 |
+    \barNumberCheck #208
+}

@@ -1,0 +1,252 @@
+egOnePart = {
+% page 2
+    r1 |
+% A
+    \barNumberCheck #2
+    r1 | r1 | r1 |
+% page 3
+    r1 | r1 | r1 |
+    \relative {
+	<b' e>1~\<_"<Dist>"\startInstrument "DAW Edit" |
+    }
+% page 3.1
+    \relative {
+	<b' e>2.\stopInstrument "DAW Edit" r4\! |
+    }
+% B
+    \barNumberCheck #10
+    \relative {
+	<a e' a>4. <b fis' b>8 r <b fis' b>4 <e b' e>8 |
+	r8 <e b' e>4 <e b' e>8 r <e b' e>4 <e b' e>8 |
+	<a, e' a>4. <b fis' b>8 r <b fis' b>4 <e b' e>8 |
+    }
+% page 4
+    \relative {
+	r8 <e' b' e>4 <d b' e>8 r <d b' e>4 <d b' e>8 |
+	<a e' a>4. <b fis' b>8 r <b fis' b>4 <e b' e>8 |
+	r8 <e b' e>4 <e b' e>8 r <e b' e>4 <e b' e>8 |
+	<a, e' a>4. <b fis' b>8 r <b fis' b>4 <e b' e>8 |
+    }
+% page 4.1
+    \relative {
+	r8 <e' b' e>4 <e b' e>8 r <e b' e> <e b' e> <e b' e> |
+    }
+% C
+    \barNumberCheck #18
+    r1 | r1 | r1 | r1 |
+% page 5
+    r1 | r1 | r1 | r1 |
+% D
+    \barNumberCheck #26
+    r1 |
+% page 5.1
+    r1 | r1 | r1 | r1 | r1 |
+% page 6
+    r1 |
+    \relative {
+	r2 r8 \tweak font-size #8 \deadNote cis''4.^"Pick Scratch"\bendAfter #-12 |
+    }
+% E
+    \barNumberCheck #34
+    \relative {
+	<a e' a>4 r8 <b fis' b>~ <b fis' b> <b fis' b>4 <e b' e>8~ |
+	<e b' e>8 <e b' e> r <gis, dis' gis>~ <gis dis' gis> <gis dis' gis> <gis dis' gis> \deadNote <gis dis' gis>16 \deadNote <gis dis' gis> |
+    }
+% page 6.1
+    \relative {
+	<a e' a>4 r8 <b fis' b>~ <b fis' b> <b fis' b>4 <e b' e>8~ |
+	<e b' e>8 <e b' e> r <e b' d>~ <e b' d> <e b' d> r \deadNote <e b' d>16 <e b' d> |
+	<a, e' a>4 r8 <b fis' b>~ <b fis' b> <b fis' b>4 <e b' e>8~ |
+	<e b' e>8 <e b' e> r <gis, dis' gis>~ <gis dis' gis> <gis dis' gis> <gis dis' gis>4 |
+    }
+% page 7
+    \relative {
+	<a e' a>8 <a e' a>4 <b fis' b>8~ <b fis' b> <b fis' b>4 <c g' c>8~ |
+	<c g' c>8 <c g' c> r <d a' d>~ <d a' d>4 <d a' d>8 <b fis' b>~ |
+	<b fis' b>2 r2 |
+    }
+    \repeat volta 2 {
+% F
+	\mybarNumberCheck #43
+	\relative {
+	    <a e' a>8 <a e' a> r <b fis' b> r <b fis' b> \deadNote <b fis' b>16 \deadNote <b fis' b>16 <e b' e>8 |
+	}
+% page 7.1
+	\relative {
+	    r8 \deadNote <e' b' e> \deadNote <e b' e> <gis, dis' gis> r <gis dis' gis> <gis dis' gis> <gis dis' gis> |
+	    <a e' a>8 <a e' a> r <b fis' b> r <b fis' b> \deadNote <b fis' b>16 \deadNote <b fis' b> <e b' e>8 |
+	    r8 \deadNote <e b' e> <e b' e> <d a' d> r <d a' d> <d a' d> <d a' d> |
+	    <a e' a>8 <a e' a> r <b fis' b> r <b fis' b> \deadNote <b fis' b>16 \deadNote <b fis' b> <e b' e>8 |
+	}
+% page 8
+	\relative {
+	    r8 \deadNote <e' b' e> \deadNote <e b' e> <gis, dis' gis> r <gis dis' gis> <gis dis' gis> <gis dis' gis> |
+	    <a e' a>8 <a e' a> r <b fis' b> r <b fis' b> r <e b' e> |
+	    r8 <e b' e> <e b' e> <e b' e> r <e b' e> <e b' e>4 |
+	}
+% G
+	\mybarNumberCheck #51
+	\relative {
+	    <a e' a>8 <a e' a> r <b fis' b> r <b fis' b> \deadNote <b fis' b>16 \deadNote <b fis' b> <e b' e>8 |
+	}
+% page 8.1
+	\relative {
+	    r8 \deadNote <e' b' e> \deadNote <e b' e> <gis, dis' gis> r <gis dis' gis> <gis dis' gis> <gis dis' gis> |
+	    <a e' a>8 <a e' a> r <b fis' b> r <b fis' b> r <e b' e> |
+	    r8 \deadNote <e b' e> <e b' e> <d a' d> r <d a' d> <d a' d> <d a' d> |
+	    <a e' a>8 <a e' a> r <b fis' b> r <b fis' b> r <e b' e> |
+	}
+% page 9
+	\relative {
+	    r8 \deadNote <e' b' e> \deadNote <e b' e> <gis, dis' gis> r <gis dis' gis> <gis dis' gis> <gis dis' gis> |
+	    <a e' a>8 <a e' a> r <b fis' b> r <b fis' b> r <e b' e> |
+	}
+    } \alternative { {
+	\relative {
+	    r8 <e' b' e> r <e b' e> r <e b' e> <e b' e>4 |
+	}
+% H
+	\mybarNumberCheck #59
+	\relative {
+	    <a e' a>8 <a e' a>4 <b fis' b>8 r <b fis' b> r <e b' e> |
+	}
+% page 9.1
+	\relative {
+	    r8 \deadNote <e' b' e> \deadNote <e b' e> <gis, dis' gis> r <gis dis' gis> <gis dis' gis> <gis dis' gis> |
+	    <a e' a>8 <a e' a>4 <b fis' b>8 r <b fis' b>4 <e b' e>8 |
+	    r8 <e b' e> <e b' e> <e b' e> r <e b' e> r <e b' e> |
+	    <a, e' a>8 <a e' a>4 <b fis' b>8 r <b fis' b>4 <e b' e>8 |
+	}
+% page 10
+	\relative {
+	    r8 \deadNote <e' b' e> \deadNote <e b' e> <gis, dis' gis> r <gis dis' gis> <gis dis' gis> <gis dis' gis> |
+	    <a e' a>8 <a e' a>4 <b fis' b>8 r <b fis' b>4 <e b' e>8 |
+	    r8 <e b' e> <e b' e> <e b' e> r <e b' e> <e b' e> <e b' e> |
+	}
+% I
+	\mybarNumberCheck #67
+	r1 |
+% page 10.1
+	r1 | r1 | r1 | r1 |
+% page 11
+	r1 | r1 |
+	\relative {
+	    r2 r4 \deadNote \tweak font-size #8 cis'\bendAfterG #4 |
+	}
+% J
+	\mybarNumberCheck #75
+	\relative {
+	    <a e' a>8 <a e' a> r <b fis' b> r <b fis' b> r <e b' e> |
+	    r8 <e b' e> r <gis, dis' gis> r <gis dis' gis> <gis dis' gis> <gis dis' gis> |
+	}
+% page 11.1
+	\relative {
+	    <a e' a>8 <a e' a> r <b fis' b> r <b fis' b> r <e b' e> |
+	    r8 <e b' e> r <e b' d> r <e b' d> <e b' d> <e b' d> |
+	    <a, e' a>8 <a e' a> r <b fis' b> r <b fis' b> r <e b' e> |
+	    r8 <e b' e> r <gis, dis' gis> r <gis dis' gis> <gis dis' gis> <gis dis' gis> |
+	    <a e' a>8 <a e' a> r <b fis' b> r <b fis' b> r <c g' c> |
+	}
+% page 12
+	\relative {
+	    r8 <c' g' c>r <d a' d> r <d a' d> r <b fis' b>~ |
+	    <b fis' b>2 r4 <b fis' b>4 |
+	}
+    } {
+	\mybarNumberCheck #84
+	\relative {
+	    r8 <e' b' e> r <e b' e> r <e b' e> <e b' e> <e b' e> |
+	}
+    } }
+% K
+    \mybarNumberCheck #85
+    \repeat percent 3 {
+	\relative {
+	    <c' g' c>8^"M" <c g' c>^"M" <c g' c> \repeat unfold 4 \deadNote <c g' c>16 <c g' c>8 r <c g' c> |
+	}
+% page 12.1
+	\relative {
+	    <c' g' c>8^"M" <c g' c>^"M" <c g' c> \repeat unfold 4 \deadNote <c g' c>16 <c g' c>8 \deadNote <c g' c>16 \deadNote <c g' c> <c g' c>8 |
+	    <b fis' b>8^"M" <b fis' b>^"M" <b fis' b> \repeat unfold 4 \deadNote <b fis' b>16 <b fis' b>8 r <b fis' b> |
+	    <b fis' b>8^"M" <b fis' b>^"M" <b fis' b> \repeat unfold 4 \deadNote <b fis' b>16 <b fis' b>8 \deadNote <b fis' b>16 \deadNote <b fis' b> <b fis' b>8 |
+	}
+    }
+% page 14
+    \relative {
+	<a e' a>8^"M" <a e' a>^"M" <a e' a> \repeat unfold 4 \deadNote <a e' a>16 <a e' a>8 <a e' a>^"M" <b fis' b> |
+	<b fis' b>8^"M" <b fis' b>^"M" <b fis' b> \repeat unfold 4 \deadNote <b fis' b>16 <b fis' b>8 \deadNote <b fis' b>16 \deadNote <b fis' b> <b fis' b>8 |
+	<c g' c>8^"M" <c g' c>^"M" <c g' c> \repeat unfold 4 \deadNote <c g' c>16 <c g' c>8 <c g' c>^"M" <dis a' dis> |
+	<dis a' dis>8^"M" <dis a' dis>^"M" <dis a' dis> \repeat unfold 4 \deadNote <dis a' dis>16 <dis a' dis>8 r <b fis' b>~ |
+    }
+% page 14.1
+    \relative {
+	<b fis' b>1~ |
+	<b fis' b>1 |
+    }
+% L
+    \mybarNumberCheck #103
+    r1 | r1 |
+% page 15
+    r1 | r1 | r1 | r1 |
+% page 15.1
+    r1 | r1 |
+    \relative {
+	<fis' cis' fis>2.\<_\markup { \hspace #-2 "└─DAW Edit─┘" } r4\! |
+    }
+% M
+    \mybarNumberCheck #112
+    \relative {
+	<b fis' b>8 <b fis' b> r <cis gis' cis> r <cis gis' cis> r <fis cis' fis> |
+    }
+% page 16
+    \relative {
+	r8 <fis' cis' fis> r <ais, eis' ais> r <ais eis' ais> <ais eis' ais> <ais eis' ais> |
+	<b fis' b>8 <b fis' b> r <cis gis' cis> r <cis gis' cis> r <fis cis' fis> |
+	r8 <fis cis' fis> <fis cis' fis> <e b' e> r <e b' e> <e b' e> <e b' e> |
+	<b fis' b>8 <b fis' b> r <cis gis' cis> r <cis gis' cis> r <fis cis' fis> |
+    }
+% page 16.1
+    \relative {
+	r8 <fis' cis' fis> r <ais, eis' ais> r <ais eis' ais> <ais eis' ais> <ais eis' ais> |
+	<b fis' b>8 <b fis' b> r <cis gis' cis> r <cis gis' cis> r <fis cis' fis> |
+	r8 <fis cis' fis> r <fis cis' fis> r <fis cis' fis> <fis cis' fis> <fis cis' fis> |
+    }
+% N
+    \mybarNumberCheck #120
+    \relative {
+	<b fis' b>8 <b fis' b> r <cis gis' cis> r <cis gis' cis> r <fis cis' fis> |
+    }
+% page 17
+    \relative {
+	r8 <fis' cis' fis> r <ais, eis' ais> r <ais eis' ais> <ais eis' ais> <ais eis' ais> |
+	<b fis' b>8 <b fis' b> r <cis gis' cis> r <cis gis' cis> r <fis cis' fis> |
+	r8 <fis cis' fis> <fis cis' fis> <e b' e> r <e b' e> r <e b' e> |
+	<b fis' b>8 <b fis' b> r <cis gis' cis> r <cis gis' cis> r <fis cis' fis> |
+    }
+% page 17.1
+    \relative {
+	r8 <fis' cis' fis> r <ais, eis' ais> r <ais eis' ais> <ais eis' ais> <ais eis' ais> |
+	<b fis' b>8 <b fis' b> r <cis gis' cis> r <cis gis' cis> r <fis cis' fis> |
+	r8 <fis cis' fis> r <fis cis' fis> r <fis cis' fis> <fis cis' fis> <fis cis' fis> |
+    }
+% O
+    \mybarNumberCheck #128
+    \relative {
+	<b fis' b>8 <b fis' b> r <cis gis' cis> r <cis gis' cis> r <fis cis' fis> |
+    }
+% page 18
+    \relative {
+	r8 <fis' cis' fis> r <ais, eis' ais> r <ais eis' ais> <ais eis' ais> <ais eis' ais> |
+	<b fis' b>8 <b fis' b> r <cis gis' cis> r <cis gis' cis> r <fis cis' fis> |
+	r8 <fis cis' fis> r <fis cis' fis> r <fis cis' fis> <fis cis' fis> <fis cis' fis> |
+	<b, fis' b>8 <b fis' b> r <cis gis' cis> r <cis gis' cis> r <fis cis' fis> |
+    }
+% page 18.1
+    \relative {
+	r8 <fis' cis' fis> r <ais, eis' ais> r <ais eis' ais> <ais eis' ais> <ais eis' ais> |
+	<b fis' b>8 <b fis' b> r <cis gis' cis> r <cis gis' cis> r <fis cis' fis> |
+	r8 <fis cis' fis> r <fis cis' fis> r <fis cis' fis> <fis cis' fis> <fis cis' fis> |
+    }
+    r1 | r1 |
+    \mybarNumberCheck #138
+}

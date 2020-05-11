@@ -1,0 +1,190 @@
+markupThreeStuff = {
+    \tempo 4 = 172
+    \barNumberCheck #1
+% page 20 Intro
+    \mark \markup { \box \bold "Intro." }
+    \key g \major
+    s1*4 |
+    \bar "||"
+    \key f \major
+    s1 | s1 |
+% A
+    \barNumberCheck #7
+    \mark \markup { \box \bold A }
+    \bar "||"
+    s1 | s1 | s1 |
+% page 20.1
+    \tag #'(pageNumber keep) \mark "p20.1"
+    s1 |
+% B
+    \barNumberCheck #11
+    \mark \markup { \box \bold B }
+    \bar "||"
+    s1 | s1 | s1 | s1 | s1 |
+% page 20.2
+    \tag #'(pageNumber keep) \mark "p20.2"
+    s1 | s1 | s1 |
+% C
+    \barNumberCheck #19
+    \mark \markup { \box \bold C }
+    \bar "||"
+    s1 | s1 |
+% page 20.3
+    \tag #'(pageNumber keep) \mark "p20.3"
+    s1*5 |
+    s1 |
+% D
+    \barNumberCheck #27
+    \mark \markup { \box \bold D }
+    \bar "||"
+    s1 |
+    s1*2 |
+    s1 |
+% page 20.4
+    \tag #'(pageNumber keep) \mark "p20.4"
+    s1 | s1 | s1 | s1 |
+% E
+    \barNumberCheck #35
+    \mark \markup { \box \bold E }
+    \bar "||"
+    s1 |
+% page 21
+    \tag #'(pageNumber keep) \mark "p21"
+    s1 | s1 | s1 | s1 | s1 |
+% page 21.1
+    \tag #'(pageNumber keep) \mark "p21.1"
+    s1 | s1 | s1 |
+% F
+    \barNumberCheck #44
+    \mark \markup { \box \bold F }
+    \bar "||"
+    s1 | s1 |
+% page 21.2
+    \tag #'(pageNumber keep) \mark "p21.2"
+    s1 | s1 | s1 | s1 | s1 |
+% page 21.3
+    \tag #'(pageNumber keep) \mark "p21.3"
+    s1 |
+% 1x ending
+    s1 | s1 | s1 | s1 |
+% page 21.4
+    \tag #'(pageNumber keep) \mark "p21.4"
+    s1 | s1 | s1 | s1 |
+% C-2x
+    \barNumberCheck #60
+    \mark \markup { \box \bold C-2x }
+    \bar "||"
+    s1 | s1 |
+% page 20.3-2x
+    \tag #'(pageNumber keep) \mark "p20.3-2x"
+    s1*5 |
+    s1 |
+% D-2x
+    \barNumberCheck #68
+    \mark \markup { \box \bold D-2x }
+    \bar "||"
+    s1 |
+    s1*2 |
+    s1 |
+% page 20.4-2x
+    \tag #'(pageNumber keep) \mark "p20.4-2x"
+    s1 | s1 | s1 | s1 |
+% E-2x
+    \barNumberCheck #76
+    \mark \markup { \box \bold E-2x }
+    \bar "||"
+    s1 |
+% page 21-2x
+    \tag #'(pageNumber keep) \mark "p21-2x"
+    s1 | s1 | s1 | s1 | s1 |
+% page 21.1-2x
+    \tag #'(pageNumber keep) \mark "p21.1-2x"
+    s1 | s1 | s1 |
+% F-2x
+    \barNumberCheck #85
+    \mark \markup { \box \bold F-2x }
+    \bar "||"
+    s1 | s1 |
+% page 21.2-2x
+    \tag #'(pageNumber keep) \mark "p21.2-2x"
+    s1 | s1 | s1 | s1 | s1 |
+% page 21.3-2x
+    \tag #'(pageNumber keep) \mark "p21.3-2x"
+    s1 |
+% page 21.4-2x
+    \tag #'(pageNumber keep) \mark "p21.4-2x"
+    s1 |
+% page 22
+    \tag #'(pageNumber keep) \mark "p22"
+    s1 |
+% G
+    \barNumberCheck #95
+    \mark \markup { \box \bold G }
+    \bar "||"
+    s1 | s1 | s1 | s1 |
+% page 22.1
+    \tag #'(pageNumber keep) \mark "p22.1"
+    s1 | s1 | s1 | s1 |
+% H
+    \barNumberCheck #103
+    \mark \markup { \box \bold H }
+    \bar "||"
+    s1 |
+% page 22.2
+    \tag #'(pageNumber keep) \mark "p22.2"
+    s1 | s1 | s1 | s1 | s1 |
+% page 22.3
+    \tag #'(pageNumber keep) \mark "p22.3"
+    s1 | s1 |
+% I
+    \barNumberCheck #111
+    \mark \markup { \box \bold I }
+    \bar "||"
+    s1 | s1 | s1 | s1 |
+% page 22.4
+    \tag #'(pageNumber keep) \mark "p22.4"
+    s1 | s1 | s1 | s1 |
+% J
+    \barNumberCheck #119
+    \mark \markup { \box \bold J }
+    \bar "||"
+    s1 | s1 |
+% page 23
+    \tag #'(pageNumber keep) \mark "p23"
+    s1 | s1 | s1 | s1 |
+% K
+    \barNumberCheck #125
+    \mark \markup { \box \bold K }
+    \bar "||"
+    s1 |
+% page 23.1
+    \tag #'(pageNumber keep) \mark "p23.1"
+    s1 | s1 | s1 | s1 | s1 |
+% page 23.2
+    \tag #'(pageNumber keep) \mark "p23.2"
+    s1 | s1 |
+% L
+    \barNumberCheck #133
+    \mark \markup { \box \bold L }
+    \bar "||"
+    \key g \major
+    s1 | s1 | s1 |
+% page 23.3
+    \tag #'(pageNumber keep) \mark "p23.3"
+    s1 | s1 | s1 | s1 | s1 |
+% page 23.4
+    \tag #'(pageNumber keep) \mark "p23.4"
+    s1 | s1 | s1 | s1 |
+% M
+    \barNumberCheck #145
+    \mark \markup { \box \bold M }
+    \bar "||"
+    s1 |
+% page 24
+    \tag #'(pageNumber keep) \mark "p24"
+    s1 | s1 | s1 | s1 | s1 |
+% page 24.1
+    \tag #'(pageNumber keep) \mark "p24.1"
+    s1 | s1 | s1 | s1 | s1 |
+    \bar "|."
+}

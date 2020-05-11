@@ -1,0 +1,334 @@
+keyOnePart = {
+% page 2
+    r1 |
+% A
+    \barNumberCheck #2
+% MANGLE polysynthone
+    \relative {
+	<a a'>4_"<Poly Synth.1>" <a a'> <g g'>8 <a a'> r <a a'> |
+	r8 <a a'> r <a a'> <g g'>4 <a a'> |
+	<a a'>4 <a a'> <g g'>8 <a a'> r <a a'> |
+    }
+% page 3
+    \relative {
+	r8 <a a'> r <a a'> <c c'>4 <d d'> |
+	<a a'>4 <a a'> <g g'>8 <a a'> r <a a'> |
+	r8 <a a'> r <a a'> <g g'>4 <a a'> |
+	r1 |
+    }
+% page 3.1
+% MANGLE stringshit
+    \relative {
+	r2_"<Strings Hit>" \ottava #1 <d'' d'>16 <ees ees'> r <e e'> r <g g'> r <a a'> \ottava #0 |
+    }
+% B
+    \barNumberCheck #10
+% MANGLE polysynthone
+    \relative {
+	<a a'>4 <a a'> <g g'>8 <a a'> r <a a'> |
+	r8 <a a'> r <a a'> <g g'>4 <a a'> |
+	<a a'>4 <a a'> <g g'>8 <a a'> r <a a'> |
+    }
+% page 4
+    \relative {
+	r8 <a a'> r <a a'> <c c'>4 <d d'> |
+	r4 <a a'> r <a a'> |
+	r4 <a a'> r2 |
+	<a a'>4 <a a'> <g g'>8 <a a'> r <a a'> |
+    }
+% page 4.1
+    \relative {
+	<bes bes'>4 <d d'> <e e'> <e, e'> |
+    }
+% C
+    \barNumberCheck #18
+    r1 |
+    \relative {
+	r2 r8 <a a'>\staccato <a a'>\staccato <a a'>\staccato |
+	<a a'>4 <a a'> <g g'>8 <a a'> r <a a'> |
+    }
+% page 5
+    \relative {
+	r8 <a a'> r <a a'> <c c'>4 <d d'> |
+	<a a'>4 <a a'> <g g'>8 <a a'> r <a a'> |
+	r8 <a a'> r <a a'> <g g'>4 <a a'> |
+	<a a'>4 <a a'> <g g'>8 <a a'> r <a a'> |
+    }
+% page 5.1
+    \relative {
+	<bes bes'>4 <d d'> <e e'> <e, e'> |
+    }
+% D Stegno1
+    \barNumberCheck #26
+% MANGLE orchehit
+    \relative {
+	r4_"<Orche.Hit>" <d'' d'>4\staccato r2 |
+    }
+% MANGLE pizzicatostrings
+    \relative {
+	\ottava #1 <c'' c'>8_"<Pizzicato Strings>"\staccato <d d'>\staccato <e e'>\staccato <f f'>\staccato <g g'>\staccato <a a'>\staccato <b b'>\staccato <c c'>\staccato \ottava #0 |
+	r1 |
+    }
+% page 6
+    r1 |
+% MANGLE orchehit
+    \relative {
+	r4 <d'' d'>4\staccato r2 |
+    }
+% MANGLE pizzicatostrings
+    \relative {
+	\ottava #1 <c'' c'>8_"<Pizzicato Strings>"\staccato <d d'>\staccato <e e'>\staccato <f f'>\staccato <g g'>\staccato <a a'>\staccato <b b'>\staccato <c c'>\staccato \ottava #0 |
+	r1 |
+    }
+% page 6.1
+    r1 |
+% MANGLE toypiano
+    \relative {
+	e''8_"<Toy Piano>" f e f e4\staccato r4 |
+    }
+% E Stegno2
+    \barNumberCheck #35
+% MANGLE synthstringsone
+    \relative {
+	<ees' ees'>1_"<Synth.Strings 1>" |
+	<ges ges'>1 |
+    }
+% page 7
+    \relative {
+	<f' f'>1 |
+	r8 <bes bes'>\staccato r <bes bes'>\staccato r <aes aes'>\staccato r <aes aes'>\staccato |
+	<ges ges'>1 |
+	<ces, ces'>2 <ges' ges'>2 |
+    }
+% page 7.1
+    \relative {
+	<f' f'>1 |
+	<d d'>8 <d d'> r <d d'> <d d'>4\staccato <d d'>\staccato |
+	<ees ees'>4\staccato <ees ees'> r8 <ees ees'> r <ees ees'> |
+	<ges ges'>1 |
+    }
+% page 8
+    \relative {
+	<f' f'>1 |
+	r8 <bes bes'>8\staccato r <bes bes'>\staccato r <aes aes'>\staccato r <aes aes'>\staccato |
+	<ges ges'>1 |
+	<c, c'>2 <ges' ges'>2 |
+    }
+% page 8.1
+    \relative {
+	<f' f'>1 |
+    }
+% to Coda1,2
+    r1 |
+% F
+    \barNumberCheck #51
+% MANGLE polysynthone
+    \relative {
+	<a a'>4_"<Poly Synth.1>" <a a'> <g g'>8 <a a'> r <a a'> |
+	r8 <a a'> r <a a'> <g g'>4 <a a'> |
+    }
+% page 9
+    \relative {
+	<a a'>4 <a a'> <g g'>8 <a a'> r <a a'> |
+	r1 |
+    }
+% G
+    \barNumberCheck #55
+    r1 | r1 |
+% page 9.1
+    r1 | r1 |
+    \relative {
+	r4 <a a'> r <a a'> |
+	r4 <a a'> r2 |
+    }
+% page 10
+    r1 |
+    \relative {
+	\repeat unfold 8 <a' a'>8\staccato |
+    }
+% D.S.1
+% D Stegno1-2x
+    \barNumberCheck #63
+% MANGLE orchehit
+    \relative {
+	r4_"<Orche.Hit>" <d'' d'>4\staccato r2 |
+    }
+% MANGLE pizzicatostrings
+    \relative {
+	\ottava #1 <c'' c'>8_"<Pizzicato Strings>"\staccato <d d'>\staccato <e e'>\staccato <f f'>\staccato <g g'>\staccato <a a'>\staccato <b b'>\staccato <c c'>\staccato \ottava #0 |
+	r1 |
+    }
+% page 6-2x
+    r1 |
+% MANGLE orchehit
+    \relative {
+	r4 <d'' d'>4\staccato r2 |
+    }
+% MANGLE pizzicatostrings
+    \relative {
+	\ottava #1 <c'' c'>8_"<Pizzicato Strings>"\staccato <d d'>\staccato <e e'>\staccato <f f'>\staccato <g g'>\staccato <a a'>\staccato <b b'>\staccato <c c'>\staccato \ottava #0 |
+	r1 |
+    }
+% page 6.1-2x
+    r1 |
+% MANGLE toypiano
+    \relative {
+	e''8_"<Toy Piano>" f e f e4\staccato r4 |
+    }
+% E Stegno2-2x
+    \barNumberCheck #72
+% MANGLE synthstringsone
+    \relative {
+	<ees' ees'>1_"<Synth.Strings 1>" |
+	<ges ges'>1 |
+    }
+% page 7-2x
+    \relative {
+	<f' f'>1 |
+	r8 <bes bes'>\staccato r <bes bes'>\staccato r <aes aes'>\staccato r <aes aes'>\staccato |
+	<ges ges'>1 |
+	<ces, ces'>2 <ges' ges'>2 |
+    }
+% page 7.1-2x
+    \relative {
+	<f' f'>1 |
+	<d d'>8 <d d'> r <d d'> <d d'>4\staccato <d d'>\staccato |
+	<ees ees'>4\staccato <ees ees'> r8 <ees ees'> r <ees ees'> |
+	<ges ges'>1 |
+    }
+% page 8-2x
+    \relative {
+	<f' f'>1 |
+	r8 <bes bes'>8\staccato r <bes bes'>\staccato r <aes aes'>\staccato r <aes aes'>\staccato |
+	<ges ges'>1 |
+	<c, c'>2 <ges' ges'>2 |
+    }
+% page 8.1-2x
+    \relative {
+	<f' f'>1 |
+    }
+% to Coda1,2
+% page 10 Coda1
+    \barNumberCheck #87
+    r1 |
+% H
+    \barNumberCheck #88
+    r1 | r1 |
+% page 10.1
+    r1 | r1 |
+% I
+    \barNumberCheck #92
+% MANGLE polysynththree
+    \relative {
+	fis'2_"<Poly Synth.3>" gis8. a16~ a8 b |
+	e,8. fis16~ fis8 gis a2 |
+    }
+% page 11
+    \relative {
+	d'2 cis8. b16~ b8 cis |
+	a8 r b r cis r e r |
+	fis2 gis8. a16~ a8 b |
+	d8. cis16~ cis8 b a8. b16~ b8 cis |
+    }
+% page 11.1
+    \relative {
+	b'8. a16~ a8 b a8. gis16~ gis8 a |
+	a1 |
+	fis2 gis8. a16~ a8 b |
+	e,8. fis16~ fis8 gis a2 |
+    }
+% page 12
+    \relative {
+	d'2 cis8. b16~ b8 cis |
+	a8 r b r cis r e r |
+	fis2 gis8. a16~ a8 b |
+	d8. cis16~ cis8 b a8. b16~ b8 cis |
+    }
+% page 12.1
+    \relative {
+	b'8. a16~ a8 b a8. gis16~ gis8 a |
+	a1 |
+    }
+% J repeat
+    \barNumberCheck #108
+    r1 |
+% page 13
+    r1 | r1 | r1 |
+% page 13.1
+    r1 | r1 |
+% ending 1
+    r1 |
+% page 14
+    r1 |
+% end repeat
+% J repeat-2x
+    \barNumberCheck #116
+    r1 |
+% page 13-2x
+    r1 | r1 | r1 |
+% page 13.1-2x
+    r1 | r1 |
+% page 14
+    r1 | r1 | r1 |
+% E Stegno2-3x
+    \barNumberCheck #125
+% MANGLE synthstringsone
+    \relative {
+	<ees' ees'>1_"<Synth.Strings 1>" |
+	<ges ges'>1 |
+    }
+% page 7-3x
+    \relative {
+	<f' f'>1 |
+	r8 <bes bes'>\staccato r <bes bes'>\staccato r <aes aes'>\staccato r <aes aes'>\staccato |
+	<ges ges'>1 |
+	<ces, ces'>2 <ges' ges'>2 |
+    }
+% page 7.1-3x
+    \relative {
+	<f' f'>1 |
+	<d d'>8 <d d'> r <d d'> <d d'>4\staccato <d d'>\staccato |
+	<ees ees'>4\staccato <ees ees'> r8 <ees ees'> r <ees ees'> |
+	<ges ges'>1 |
+    }
+% page 8-3x
+    \relative {
+	<f' f'>1 |
+	r8 <bes bes'>8\staccato r <bes bes'>\staccato r <aes aes'>\staccato r <aes aes'>\staccato |
+	<ges ges'>1 |
+	<c, c'>2 <ges' ges'>2 |
+    }
+% page 8.1-3x
+    \relative {
+	<f' f'>1 |
+    }
+% to Coda1,2
+% page 14.1 Coda2
+    \barNumberCheck #140
+    r1 |
+% K
+    \barNumberCheck #141
+% MANGLE polysynthone
+    \relative {
+	<fis fis'>4_"<Poly Synth.1>" <fis fis'> <e e'>8 <fis fis'> r <fis fis'> |
+	r8 <fis fis'> r <fis fis'> <e e'>4 <fis fis'> |
+    }
+% page 15
+    \relative {
+	<fis fis'>4 <fis fis'> <e e'>8 <fis fis'> r <fis fis'> |
+	r8 <fis fis'> r <fis fis'> <a a'>4 <b b'> |
+	r4 <fis fis'>4 <e e'>8 <fis fis'> r <fis fis'> |
+    }
+% page 15.1
+    \relative {
+	r8 <fis fis'> r <fis fis'> <e e'>4 <fis fis'> |
+    }
+    r1 |
+% MANGLE stringshit
+    \relative {
+	r2_"<Strings Hit>" \ottava #1 <b' b'>16 <c c'> r <cis cis'> r <e e'> r <fis fis'> \ottava #0 |
+	r4 <fis, fis'>~ <fis fis'> r |
+    }
+% MANGLE
+    \barNumberCheck #150
+}

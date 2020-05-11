@@ -1,0 +1,207 @@
+mychords = \chordmode {
+% page 2
+    s1 |
+% A
+    \barNumberCheck #2
+    a4. b2 e8 |
+    s4. gis2:m s8 |
+    a4. b2 e8 |
+% page 3
+    e4. e2:7/d s8 |
+    a4. b2 e8 |
+    s4. gis2:m s8 |
+    a4. b2 e8 |
+% page 3.1
+    e1 |
+% B
+    \barNumberCheck #10
+    a4. b2 e8 |
+    s4. gis2:m s8 |
+    a4. b2 e8 |
+% page 4
+    e4. e2:7/d s8 |
+    a4. b2 e8 |
+    s4. gis2:m s8 |
+    a4. b2 e8 |
+% page 4.1
+    e1 |
+% C
+    \barNumberCheck #18
+    a1 |
+    s2.. e8 |
+    s1 |
+    s2.. e8 |
+% page 5
+    a1 |
+    s2.. e8 |
+    s1 |
+    s4. e2/gis s8 |
+% D
+    \barNumberCheck #26
+    a1 |
+% page 5.1
+    a2.. e8 |
+    s1 |
+    s4. e2/gis a8 |
+    s1 |
+    s2.. e8 |
+% page 6
+    e1 |
+    s4. e2/gis s8 |
+% E
+    \barNumberCheck #34
+    a4.:maj7 b2 e8 |
+    s4. gis2:m7 s8 |
+% page 6.1
+    a4.:maj7 b2 e8 |
+    s4. e2:7 s8 |
+    a4.:maj7 b2 e8 |
+    s4. gis2:m s8 |
+% page 7
+    a4. b2 c8 |
+    s4. d2 b8 |
+    s1 |
+    \repeat volta 2 {
+% F
+	\mybarNumberCheck #43
+	a4. b2 e8 |
+% page 7.1
+	e4. gis2:m s8 |
+	a4. b2 e8 |
+	s4. e2:7/d s8 |
+	a4. b2 e8 |
+% page 8
+	e4. gis2:m s8 |
+	a4. b2 e8 |
+	s1 |
+% G
+	\mybarNumberCheck #51
+	a4. b2 e8 |
+% page 8.1
+	e4. gis2:m s8 |
+	a4. b2 e8 |
+	s4. e2:7/d s8 |
+	a4. b2 e8 |
+% page 9
+	e4. gis2:m s8 |
+	a4. b2 e8 |
+    } \alternative { {
+	s1 |
+% H
+	\mybarNumberCheck #59
+	a4. b2 e8 |
+% page 9.1
+	e4. gis2:m s8 |
+	a4. b2 e8 |
+	s4. e2/d s8 |
+	a4. b2 e8 |
+% page 10
+	e4. gis2:m s8 |
+	a4. b2 e8 |
+	s1 |
+% I
+	\mybarNumberCheck #67
+	a1 |
+% page 10.1
+	a2.. e8 |
+	s1 |
+	s4. e2/gis a8 |
+	s1 |
+% page 11
+	a2.. e8 |
+	s1 |
+	s4. e2/gis s8 |
+% J
+	\mybarNumberCheck #75
+	a4. b2 e8 |
+	s4. e2/gis s8 |
+% page 11.1
+	a4. b2 e8 |
+	s4. e2:7 s8 |
+	a4. b2 e8 |
+	s4. e2/gis s8 |
+	a4. b2 c8 |
+% page 12
+	c4. d2 b8 |
+	s1 |
+    } {
+	e1 |
+    } }
+% K
+    \mybarNumberCheck #85
+    c1 |
+% page 12.1
+    c1 |
+    b1 |
+    s1 |
+% page 13
+    c1 |
+    s1 |
+    b1 |
+    s1 |
+% page 13.1
+    c1 |
+    s1 |
+    b1 |
+    s1 |
+% page 14
+    a2.. b8 |
+    s1 |
+    c2.. d8 |
+    s2.. b8 |
+% page 14.1
+    b1 |
+    s1 |
+% L
+    \mybarNumberCheck #103
+    a4. b2 e8 |
+    s4. gis2:m s8 |
+% page 15
+    a4. b2 e8 |
+    s4. e2:7/d s8 |
+    a4. b2 e8 |
+    s4. gis2:m s8 |
+% page 15.1
+    a4. b2 e8 |
+    s1 |
+    fis1 |
+% M
+    \mybarNumberCheck #112
+    b4. cis2 fis8 |
+% page 16
+    fis4. fis2/ais s8 |
+    b4. cis2 fis8 |
+    s4. fis2:7/e s8 |
+    b4. cis2 fis8 |
+% page 16.1
+    fis4. fis2/ais s8 |
+    b4. cis2 fis8 |
+    s1 |
+% N
+    \mybarNumberCheck #120
+    b4. cis2:11 fis8 |
+% page 17
+    fis4. fis2/ais s8 |
+    b4. cis2:11 fis8 |
+    s4. fis2/e s8 |
+    b4. cis2:11 fis8 |
+% page 17.1
+    fis4. fis2/ais s8 |
+    b4. cis2:11 fis8 |
+    s1 |
+% O
+    \mybarNumberCheck #128
+    b4. cis2:11 fis8 |
+% page 18
+    fis4. fis2/ais s8 |
+    b4. cis2:11 fis8 |
+    s4. fis2:7/e s8 |
+    b4. cis2:11 fis8 |
+% page 18.1
+    fis4. fis2:7/e s8 |
+    b4. cis2:11 fis8 |
+    s1 |
+    b1:6 |
+    s1 |
+    \mybarNumberCheck #138
+}

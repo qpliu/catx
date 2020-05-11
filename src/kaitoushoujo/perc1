@@ -1,0 +1,207 @@
+percOnePart = \new DrumVoice = "perc1b" \with { \consists "Balloon_engraver" } \new DrumVoice = "perc1a" \with { \consists "Balloon_engraver" } \drummode {
+    \compressFullBarRests
+    \context DrumVoice = "perc1a" \voiceOne
+    \context DrumVoice = "perc1b" \voiceTwo
+% page 18
+    r1 |
+% A
+    \barNumberCheck #2
+    << { r1 | } \context DrumVoice = "perc1b" { bol8_"<Bongo>" boh r bol16 bol bol bol boh bol bol8 bol | } >>
+    << { r2 r8 \balloonGrobText #'NoteHead #'(-3 . 1) "<Handclap 1>" handclapOne8 \balloonGrobText #'NoteHead #'(-2 . 5) "<Handclap 2>" handclapTwo handclapOne | } \context DrumVoice = "perc1b" { bol8 bol r16 \repeat unfold 5 bol boh bol bol bol boh boh | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol bol boh bol bol8 bol | } >>
+    << { r2 \balloonGrobText #'NoteHead #'(-3 . 3) "<Shaker>" shaker16 shaker8 shaker16 shaker8 shaker | } \context DrumVoice = "perc1b" { bol8 bol r16 bol bol bol bol bol boh bol bol bol boh boh | } >>
+% page 18.1
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol bol boh bol bol8 bol | } >>
+    << { r2 r8 handclapOne handclapTwo handclapOne | } \context DrumVoice = "perc1b" { bol8 bol r16 bol bol bol bol bol boh bol bol bol boh boh | } >>
+    r1 |
+    << { r4 r16 shaker shaker shaker r2 | } \context DrumVoice = "perc1b" { r1 | } >>
+% B
+    \barNumberCheck #10
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 boh r boh bol boh16 bol r bol bol bol | } >>
+% page 18.2
+    << { r2 r8 handclapOne handclapTwo handclapOne | } \context DrumVoice = "perc1b" { bol16 bol bol8 bol16 bol bol8 bol16 bol boh bol bol bol boh boh | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 boh r bol bol16 bol boh bol bol bol boh boh | } >>
+    << { r2 shaker16 shaker8 shaker16 r4 | } \context DrumVoice = "perc1b" { bol8 boh r bol bol boh boh boh | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { r4 bol8 boh r4 bol8 boh | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { r4 bol8 boh r2 | } >>
+% page 18.3
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 boh r bol bol16 bol boh bol bol boh boh boh | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { \repeat unfold 8 bol16 \repeat unfold 8 boh16 | } >>
+% C
+    \barNumberCheck #18
+    << { r1 | } \context DrumVoice = "perc1b" { r8 bol bol boh bol8. boh16 r8 bol | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { r8 bol bol16 boh bol8 bol16 boh bol8 bol bol | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 boh r bol bol boh16 bol bol bol boh bol | } >>
+% page 18.4
+    << { r2 shaker16 shaker8 shaker16 r4 | } \context DrumVoice = "perc1b" { boh16 boh boh8 boh boh boh boh boh boh | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { boh8 boh boh16 boh bol bol bol bol boh bol bol bol boh bol | } >>
+    << { r2 r8 handclapOne handclapTwo handclapOne | } \context DrumVoice = "perc1b" { bol16 bol boh8 bol16 bol boh bol bol bol boh bol bol bol boh bol | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 boh16 bol bol bol boh bol bol bol boh bol bol8 boh | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { bol16 bol boh bol bol bol boh bol <bol boh>8. <bol boh>16 r8 <bol boh> | } >>
+% page 18.5 D Stegno1
+    \barNumberCheck #26
+    << { r2 \balloonGrobText #'NoteHead #'(-3 . 1) "<Scratch 1>" scratchOne8 scratchOne16 scratchOne scratchOne8 scratchOne | } \context DrumVoice = "perc1b" { bol8 boh r16 boh bol8 bol boh r boh16 bol | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { boh8. bol16 bol bol boh8 bol boh bol boh16 boh | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { boh8 bol bol16 bol boh8 bol boh16 bol bol bol boh8 | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 bol bol16 bol bol8 bol4 r4 | } >>
+    << { r2 scratchOne8 scratchOne16 scratchOne scratchOne8 scratchOne | } \context DrumVoice = "perc1b" { bol8. bol16 bol4 boh8 bol bol boh16 boh | } >>
+% page 18.6
+    << { r1 | } \context DrumVoice = "perc1b" { bol8. bol16 bol bol boh bol boh8 bol bol boh16 boh | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 boh r boh16 boh r8 boh4 boh8 | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { r8 bol4 bol8 r bol4 bol8 | } >>
+    r1 |
+% page 18.7 E Stegno2
+    \barNumberCheck #35
+    << { r4 \balloonGrobText #'NoteHead #'(3 . 3) "<Slap>" slap4 r2 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol8 boh r bol16 bol } >>
+    << { r2 r8 handclapTwo8 handclapTwo4 | } \context DrumVoice = "perc1b" { bol8 boh16 bol bol8 boh16 bol bol bol boh8 bol16 bol boh bol | } >>
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol16 bol boh bol bol bol boh bol bol bol boh8 bol16 bol boh boh | } >>
+    << { r2 r8 handclapTwo8 handclapTwo4 | } \context DrumVoice = "perc1b" { bol8 boh boh bol16 bol bol bol boh8 bol16 bol boh bol | } >>
+% page 18.8
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol boh boh8 r bol16 bol | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol boh boh8 r bol16 bol | } >>
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol16 bol bol8 bol16 bol bol8 bol16 bol bol8 bol16 bol bol8 | } >>
+    << { r2 r8 handclapTwo8 handclapTwo4 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol bol bol8 bol16 bol bol8 | } >>
+% page 18.9
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { boh4 <bol boh>8 boh16 boh bol8 boh r bol16 bol | } >>
+    << { r2 r8 handclapTwo8 handclapTwo4 | } \context DrumVoice = "perc1b" { bol8 boh16 bol bol8 boh16 bol bol bol boh8 bol16 bol boh bol | } >>
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol16 bol boh bol bol bol boh bol bol bol boh8 bol16 bol boh boh | } >>
+    << { r2 r8 handclapTwo8 handclapTwo4 | } \context DrumVoice = "perc1b" { bol8 boh boh bol16 bol bol bol boh8 bol16 bol boh bol | } >>
+% page 19
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol boh boh8 r bol16 bol | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol boh boh8 r bol16 bol | } >>
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol16 bol boh bol bol bol boh bol bol bol boh bol bol bol boh boh | } >>
+% to Coda1,2
+    << { r1 | } \context DrumVoice = "perc1b" { r2 r8 boh16 bol bol bol boh8 | } >>
+% F
+    \barNumberCheck #51
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 boh \repeat unfold 8 boh16 boh8 bol | } >>
+% page 19.1
+    << { r2 r8 handclapOne handclapTwo handclapOne | } \context DrumVoice = "perc1b" { boh16 boh bol8 boh16 boh bol8 bol16 bol bol bol boh8 bol | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 boh bol16 boh bol bol boh boh bol bol bol8 boh | } >>
+    r1 |
+% G
+    \barNumberCheck #55
+    << { r1 | } \context DrumVoice = "perc1b" { r8 bol boh bol bol16 bol boh bol bol boh bol bol | } >>
+    << { r2 r8 handclapOne handclapTwo handclapOne | } \context DrumVoice = "perc1b" { bol8 bol boh bol boh8. boh16 r boh bol bol | } >>
+% page 19.2
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 bol boh bol bol boh16 bol bol bol boh bol | } >>
+    << { r2 shaker16 shaker8 shaker16 r4 | } \context DrumVoice = "perc1b" { bol8 bol boh bol r <bol boh> <bol boh> <bol boh> | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { r4 bol8 boh r4 bol8 boh16 bol | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { r4 bol8 boh r2 | } >>
+    r1 |
+    << { r1 | } \context DrumVoice = "perc1b" { \repeat unfold 8 <bol boh>8 | } >>
+% D.S.1
+% page 18.5 D Stegno1-2x
+    \barNumberCheck #63
+    << { r2 \balloonGrobText #'NoteHead #'(-3 . 1) "<Scratch 1>" scratchOne8 scratchOne16 scratchOne scratchOne8 scratchOne | } \context DrumVoice = "perc1b" { bol8 boh r16 boh bol8 bol boh r boh16 bol | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { boh8. bol16 bol bol boh8 bol boh bol boh16 boh | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { boh8 bol bol16 bol boh8 bol boh16 bol bol bol boh8 | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 bol bol16 bol bol8 bol4 r4 | } >>
+    << { r2 scratchOne8 scratchOne16 scratchOne scratchOne8 scratchOne | } \context DrumVoice = "perc1b" { bol8. bol16 bol4 boh8 bol bol boh16 boh | } >>
+% page 18.6-2x
+    << { r1 | } \context DrumVoice = "perc1b" { bol8. bol16 bol bol boh bol boh8 bol bol boh16 boh | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 boh r boh16 boh r8 boh4 boh8 | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { r8 bol4 bol8 r bol4 bol8 | } >>
+    r1 |
+% page 18.7 E Stegno2-2x
+    \barNumberCheck #72
+    << { r4 \balloonGrobText #'NoteHead #'(3 . 3) "<Slap>" slap4 r2 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol8 boh r bol16 bol } >>
+    << { r2 r8 handclapTwo8 handclapTwo4 | } \context DrumVoice = "perc1b" { bol8 boh16 bol bol8 boh16 bol bol bol boh8 bol16 bol boh bol | } >>
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol16 bol boh bol bol bol boh bol bol bol boh8 bol16 bol boh boh | } >>
+    << { r2 r8 handclapTwo8 handclapTwo4 | } \context DrumVoice = "perc1b" { bol8 boh boh bol16 bol bol bol boh8 bol16 bol boh bol | } >>
+% page 18.8-2x
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol boh boh8 r bol16 bol | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol boh boh8 r bol16 bol | } >>
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol16 bol bol8 bol16 bol bol8 bol16 bol bol8 bol16 bol bol8 | } >>
+    << { r2 r8 handclapTwo8 handclapTwo4 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol bol bol8 bol16 bol bol8 | } >>
+% page 18.9-2x
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { boh4 <bol boh>8 boh16 boh bol8 boh r bol16 bol | } >>
+    << { r2 r8 handclapTwo8 handclapTwo4 | } \context DrumVoice = "perc1b" { bol8 boh16 bol bol8 boh16 bol bol bol boh8 bol16 bol boh bol | } >>
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol16 bol boh bol bol bol boh bol bol bol boh8 bol16 bol boh boh | } >>
+    << { r2 r8 handclapTwo8 handclapTwo4 | } \context DrumVoice = "perc1b" { bol8 boh boh bol16 bol bol bol boh8 bol16 bol boh bol | } >>
+% page 19-2x
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol boh boh8 r bol16 bol | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol boh boh8 r bol16 bol | } >>
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol16 bol boh bol bol bol boh bol bol bol boh bol bol bol boh boh | } >>
+% to Coda1,2
+% page 19.3 Coda1
+    \barNumberCheck #87
+    << { r1 | } \context DrumVoice = "perc1b" { r2 r8 boh16 bol bol bol boh8 | } >>
+% H
+    \barNumberCheck #88
+    << { r1 | } \context DrumVoice = "perc1b" { r8 bol r16 boh8 boh16 r bol8. r8 bol | } >>
+    << { r2 r8 handclapOne handclapTwo handclapOne | } \context DrumVoice = "perc1b" { r8 bol boh bol r16 bol bol8 r bol | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { r8 bol boh16 bol bol8 bol4 r8 bol | } >>
+    r1 |
+% page 19.4 I
+    \barNumberCheck #92
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { r8 bol boh bol bol8. bol16 r8 bol16 bol | } >>
+    << { r2 r8 handclapTwo handclapTwo4 | } \context DrumVoice = "perc1b" { r8 bol boh bol bol boh r16 bol bol8 | } >>
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol8 boh16 boh r bol bol8 bol boh r bol16 bol | } >>
+    << { r2 r8 handclapTwo handclapTwo4 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol8 boh r16 bol bol8 | } >>
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { r8 bol boh bol bol8. bol16 r8 bol16 bol | } >>
+% page 19.5
+    << { r1 | } \context DrumVoice = "perc1b" { r8 bol boh bol bol boh r bol16 bol | } >>
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol8 bol16 boh boh8 bol bol16 bol boh8 bol16 bol boh bol | } >>
+    r2 r8 handclapTwo handclapTwo4 |
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { r8 bol boh bol16 bol bol8. bol16 r8 bol | } >>
+    << { r2 r8 handclapTwo handclapTwo4 | } \context DrumVoice = "perc1b" { r8 boh boh bol bol8. boh16 r bol bol8 | } >>
+% page 19.6
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol bol boh8 bol16 bol boh8 | } >>
+    << { r2 r8 handclapTwo handclapTwo4 | } \context DrumVoice = "perc1b" { bol8 boh boh bol bol boh r16 bol bol8 | } >>
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { r8 bol boh bol16 bol bol8. bol16 r8 bol | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol8 boh r16 bol bol8 | } >>
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol8 boh boh16 boh bol8 bol boh16 bol r bol boh8 | } >>
+% page 19.7
+    << { r1 | } \context DrumVoice = "perc1b" { r8 <bol boh> <bol boh> <bol boh> <bol boh>4 r | } >>
+% J repeat
+    \barNumberCheck #108
+    R1*6 |
+% ending 1
+    R1*2 |
+% end repeat
+% J repeat-2x
+    \barNumberCheck #116
+    R1*6 |
+% ending 2
+    R1*2 |
+    r1 |
+% D.S.2
+% page 18.7 E Stegno2-3x
+    \barNumberCheck #125
+    << { r4 \balloonGrobText #'NoteHead #'(3 . 3) "<Slap>" slap4 r2 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol8 boh r bol16 bol } >>
+    << { r2 r8 handclapTwo8 handclapTwo4 | } \context DrumVoice = "perc1b" { bol8 boh16 bol bol8 boh16 bol bol bol boh8 bol16 bol boh bol | } >>
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol16 bol boh bol bol bol boh bol bol bol boh8 bol16 bol boh boh | } >>
+    << { r2 r8 handclapTwo8 handclapTwo4 | } \context DrumVoice = "perc1b" { bol8 boh boh bol16 bol bol bol boh8 bol16 bol boh bol | } >>
+% page 18.8-3x
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol boh boh8 r bol16 bol | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol boh boh8 r bol16 bol | } >>
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol16 bol bol8 bol16 bol bol8 bol16 bol bol8 bol16 bol bol8 | } >>
+    << { r2 r8 handclapTwo8 handclapTwo4 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol bol bol8 bol16 bol bol8 | } >>
+% page 18.9-3x
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { boh4 <bol boh>8 boh16 boh bol8 boh r bol16 bol | } >>
+    << { r2 r8 handclapTwo8 handclapTwo4 | } \context DrumVoice = "perc1b" { bol8 boh16 bol bol8 boh16 bol bol bol boh8 bol16 bol boh bol | } >>
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol16 bol boh bol bol bol boh bol bol bol boh8 bol16 bol boh boh | } >>
+    << { r2 r8 handclapTwo8 handclapTwo4 | } \context DrumVoice = "perc1b" { bol8 boh boh bol16 bol bol bol boh8 bol16 bol boh bol | } >>
+% page 19-3x
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol boh boh8 r bol16 bol | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { bol8 boh r bol16 bol bol boh boh8 r bol16 bol | } >>
+    << { r4 slap r2 | } \context DrumVoice = "perc1b" { bol16 bol boh bol bol bol boh bol bol bol boh bol bol bol boh boh | } >>
+% to Coda1,2
+% page 19.8 Coda2
+    \barNumberCheck #140
+    << { r1 | } \context DrumVoice = "perc1b" { r2 r8 boh16 bol bol bol boh8 | } >>
+% K
+    \barNumberCheck #141
+    << { r1 | } \context DrumVoice = "perc1b" { bol16 boh boh boh boh boh boh boh boh boh bol8 boh bol | } >>
+    << { r2 r8 handclapOne handclapTwo handclapOne | } \context DrumVoice = "perc1b" { r8 boh boh bol bol16 bol boh8 bol16 bol boh8 | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { bol16 boh boh boh boh boh bol boh r8 boh16 boh boh8 bol | } >>
+    << { r2 shaker16 shaker8 shaker16 shaker8 shaker | } \context DrumVoice = "perc1b" { r8 boh boh16 boh bol bol bol bol boh boh boh8 bol | } >>
+% page 19.9
+    << { r1 | } \context DrumVoice = "perc1b" { r4 <bol boh> bol8 bol16 boh boh8 bol | } >>
+    << { r2 r8 handclapOne handclapTwo handclapOne | } \context DrumVoice = "perc1b" { r8 bol bol16 bol bol bol bol bol boh bol bol bol bol bol | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { bol8. boh16 r8 bol r16 boh8. bol boh16 | } >>
+    << { r4 r8 shaker16 shaker r2 | } \context DrumVoice = "perc1b" { r2 bol16 bol8 boh16 r boh8 boh16 | } >>
+    << { r1 | } \context DrumVoice = "perc1b" { r4 <bol boh> r2 | } >>
+    \barNumberCheck #150
+}

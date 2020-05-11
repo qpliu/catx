@@ -1,0 +1,261 @@
+ebPart = {
+    \clef bass
+% page 2 Intro
+    \barNumberCheck #1
+    r1 | r1 | r1 |
+    \relative {
+	r4 r8 \deadNote fes,8\bendAfterG #5 e'2\bendAfterG #-5 |
+	bes2. \grace c8( d4^"S") |
+	c4. g'8~ g4 c,4 |
+    }
+% page 3 A
+    \barNumberCheck #7
+    \relative {
+	d4\staccato r4 r2 |
+	r1 | r1 |
+	r2 r8 \deadNote a4.\bendAfterG #-3 |
+% B
+	\barNumberCheck #11
+	d8 d8 d8 d8 c8 c8 c8 c8 |
+% page 3.1
+	bes8 bes8 bes8 bes8 a8 a8 a8 a8 |
+	g8 g8 a8 bes8 c8 c8 g8 e8 |
+	f8 f8 g8 gis8 a8 a8 cis8 a8 |
+	d8 d8 d8 d8 c8 c8 c8 c8 |
+	bes8 bes8 bes8 bes8 a8 a8 a8 a8 |
+    }
+% page 4
+    \relative {
+	g,8 g8 a8 g8 a8 a8 c8 c8 |
+	d4\staccato r4 r8 \deadNote a4.\bendAfterG #-3 |
+% C
+	\barNumberCheck #19
+	d4 r8 a8~ a4 f4 |
+	g4 bes4 \grace c8( d4^"S") des4 |
+% page 4.1
+	c4 r8 g8~ g4 e4 |
+	f4 \grace bes8( c4^"S") \grace e8( f4^"S") e4 |
+	d4 \deadNote a8 a8~ a4 f4 |
+	g4 bes4 \grace c8( d4^"S") des4 |
+    }
+% page 5
+    \relative {
+	c4 \deadNote g8 g8~ g8. e16 e4 |
+	f4 a4 fis4 a4 |
+% D
+	\barNumberCheck #27
+	g4 r8 g8~ g8 bes8 d8 des8 |
+	c4 r8 g8~ g8 e8 f8 g8 |
+% page 5.1
+	f4 r8 f8~ f8 c'8 f8 c8 |
+	bes4 r8 bes8~ bes8 a8 g8 f8 |
+	e4 e8 g8~ g8 g8 bes4 |
+	e,4 e8 gis8~ gis8 gis8 b8 gis8 |
+    }
+% page 6
+    \relative {
+	a,4 a8 e8~ e8 e8 a4 |
+	a8 cis4 cis8 d4 e4 |
+% E
+	\barNumberCheck #35
+	d8 d8 d8 d8 d8 d8 c8 a8 |
+	bes8 bes8 bes8 bes8 bes8 a8 bes8 b8 |
+% page 6.1
+	c8 c8 c8 c8 c8 c8 g8 e8 |
+	f8 f8 g8 gis8 a8 a8 cis8 a8 |
+	bes8 bes8 bes8 bes8~ bes8 a8 g8 f8~ |
+	f8 e8 f4 f8 g8 a8 f8 |
+    }
+% page 7
+    \relative {
+	g,4 g8 g8~ g8 g8 fis8 g8 |
+	a8 a8 d8 e8 a8 e8 a,8 a8 |
+	r1 |
+% page 7.1 F
+	\barNumberCheck #44
+	d8 e8 f8 g8~ g8 d8 des8 c8~ |
+	c8 c8 d8 e8 f8 f8 c4 |
+	bes8 bes8 d8 f8 c8 c8 e8 f8~ |
+	f8 f8 c8 e8 f8 f8 c8 e8|
+    }
+% page 8
+    \relative {
+	d8 e8 f8 g8~ g8 d8 des8 c8~ |
+	c8 c8 d8 e8 f8 e8 c4 |
+	bes8 bes8 d8 f8~ f8 c8 g'8 d8~ |
+% page 8.1
+	d8 d8 fis8 a8 d8 d8 a8 fis8 |
+% 1x ending
+	d8 d8 d8 d8 c8 c8 c8 c8 |
+	bes8 bes8 bes8 bes8 a8 a8 a8 a8 |
+	g8 g8 a8 bes8 c8 c8 g8 g8 |
+    }
+% page 9
+    \relative {
+	f,8 f8 g8 gis8 a8 a8 b8 cis8 |
+	d8 d8 d8 d8 c8 c8 c8 c8 |
+	bes8 bes8 bes8 bes8 a8 a8 a8 a8 |
+	g8 g8 bes8 g8 a8 a8 c8 c8 |
+	d4\staccato r4 r8 \deadNote a4.\bendAfterG #-3 |
+    }
+% C-2x
+    \barNumberCheck #60
+    \relative {
+	d4 r8 a8~ a8 a8 f4 |
+	g4 bes4 d4 des4 |
+% page 4.1-2x
+	c4 r8 g8~ g4 e4 |
+	f4 \grace bes8( c4^"S") \grace e8( f4^"S") e4 |
+	d4 \deadNote a8 a8~ a4 f4 |
+	g4 bes4 d4 des4 |
+    }
+% page 5-2x
+    \relative {
+	c4 r8 g8~ g4 e4 |
+	f4 a4 fis4 a4 |
+% D-2x
+	\barNumberCheck #68
+	g4 r8 g8~ g8 bes8 d8 des8 |
+	c4 c8 e,8~ e8 f8 g8 e8 |
+% page 5.1-2x
+	f4 f8 a8~ a8 c8 f8 c8 |
+	bes4 a8 bes8~ bes8 a8 g8 f8 |
+	e4 e8 g8~ g8 g8 bes4 |
+	e,4 e8 gis8~ gis8 gis8 b8 gis8 |
+    }
+% page 6-2x
+    \relative {
+	a,4 a8 e8~ e8 e8 a4 |
+	a8 cis4 cis8 d4 e4 |
+% E-2x
+	\barNumberCheck #76
+	d8 d8 d8 d8 d8 d8 c8 a8 |
+	bes8 bes8 bes8 bes8 bes8 a8 bes8 b8 |
+% page 6.1-2x
+	c8 c8 c8 c8 c8 c8 g8 e8 |
+	f8 f8 g8 gis8 a8 a8 cis8 a8 |
+	bes8 bes8 bes8 bes8~ bes8 a8 g8 f8~ |
+	f8 e8 f4 f8 g8 a8 f8 |
+    }
+% page 7-2x
+    \relative {
+	g,4 g8 g8 \grace f8( g8^"S") g8 g8 g8 |
+	a8 a8 \grace d8( e8^"S") e8 \grace g8( a8^"S") e8 g,8 a8 |
+	r1 |
+% page 7.1-2x F-2x
+	\barNumberCheck #85
+	d8 e8 f8 g8~ g8 d8 des8 c8~ |
+	c8 c8 d8 e8 f8 f8 c4 |
+	bes8 bes8 d8 f8 c8 c8 e8 f8~ |
+	f8 f8 c8 e8 f8 f8 c8 e8|
+    }
+% page 8-2x
+    \relative {
+	d8 e8 f8 g8~ g8 d8 des8 c8~ |
+	c8 c8 d8 e8 f8 e8 c4 |
+	bes8 bes8 f8 bes8 c8 c8 e8 d8~ |
+% page 8.1-2x
+	d8 d8 fis8 a8 d8 a8 fis8 d8 |
+    }
+% page 9.1
+    \relative {
+	e'8 a,8 b8 d8 g,8 a8 c8 f,8 |
+	g8 bes8 ees,8 f8 a,8 cis8 e8 g8 |
+% G
+	\barNumberCheck #95
+	d8 d8 d8 d8 c8 c8 c8 c8 |
+	bes8 bes8 bes8 bes8 a8 a8 a8 a8 |
+	g8 g8 a8 bes8 c8 c8 g8 e8 |
+    }
+% page 10
+    \relative {
+	f,8 f8 g8 gis8 a8 a8 b8 cis8 |
+	d8 d8 d8 d8 c8 c8 c8 c8 |
+	bes8 bes8 bes8 bes8 a8 a8 a8 a8 |
+	g8 g8 bes8 g8 a8 a8 c8 cis8 |
+	d4 c4 bes4 a4 |
+% page 10.1 H
+	\barNumberCheck #103
+	\repeat percent 3 {
+	    d8 d8 g8 g8 c,8 c8 f8 f8 |
+	    bes,8 bes8 ees8 ees8 a,8 a8 c8 cis8 |
+	}
+	d8 d8 g8 g8 c,8 c8 f8 f8 |
+	bes,8 bes8 a8 cis8 d4 \deadNote e4\bendAfterG #-5 |
+    }
+% I
+    \barNumberCheck #111
+    \relative {
+	bes,4 r8 bes8 r8 a8 bes8 b8 |
+% page 11.1
+	c4 r8 c8 r8 e,8 g8 gis8 |
+	a4 r8 a8 r8 a4 a8 |
+	d8 d8 r8 a8 c8 c8 r8 g8 |
+	bes4 r8 bes8 r8 a8 bes8 b8 |
+	c4 r8 c8 r8 e,8 g8 gis8 |
+    }
+% page 12
+    \relative {
+	a,4 \grace d8( e8^"S") a8 r8 e4. |
+	d8 d8 r8 a8 c8 c8 r8 g8 |
+% J
+	\barNumberCheck #119
+	bes4 bes8 bes'8 r8 bes,8 r8 c8~ |
+	c8 c8 c8 \grace f8( g8^"S")~ g8 c,4 c8 |
+	f8 f8 f8 e8~ e8 e8 r8 d8 |
+% page 12.1
+	r8 d8 r8 cis8 r8 a8 a8 a8 |
+	bes8 bes8 bes8 bes8 r4 bes8 c8 |
+	r2 r8 \deadNote a4.\bendAfterG #-5 |
+% K
+	\barNumberCheck #125
+	d8 e8 f8 g8~ g8 d8 des8 c8~ |
+	c8 c8 d8 e8 f8 f8 c4 |
+    }
+% page 13
+    \relative {
+	bes,8 bes8 d8 f8 c8 c8 e8 f8~ |
+	f8 f8 f4\staccato f4\staccato c4\staccato |
+	d8 e8 f8 g8~ g8 d8 des8 c8~ |
+	c8 c8 d8 e8 f8 f8 c4 |
+	bes8 bes8 d8 bes8 c8 c8 e8 d8~ |
+% page 13.1
+	d8 d8 fis8 a8 d8 a8 fis8 d8 |
+% L
+	\barNumberCheck #133
+	e8 e8 fis8 g8 a8 a8 e8 d8~ |
+	d8 d8 e8 fis8 g8 g8 d4 |
+	c8 c8 e8 c8 d8 d8 fis8 g8~ |
+	g8 g8 d8 fis8 g8 g8 d4 |
+    }
+% page 14
+    \relative {
+	e8 e8 fis8 g8 a8 a8 e8 d8~ |
+	d8 d8 e8 fis8 g8 g8 d4 |
+	c8 c8 e8 c8 d8 d8 fis8 e8~ |
+	e8 e'8 b8 a8 gis8 e8 b8 e,8 |
+	f8 f8 f8 f8 f'8\bendBeforeG #-2 f8 f8 f8 |
+% page 14.1
+	g,8 g8 g8 g8 g'8\bendBeforeG #-2 g8 d'8 g,8|
+	r1 |
+	b,4\staccato b4 b8 \deadNote b4.\bendAfterG #-5 |
+% M
+	\barNumberCheck #145
+	e8 e8 e8 e8 d8 d8 d8 d8 |
+	c8 c8 c8 c8 b8 b8 b8 b8 |
+    }
+% page 15
+    \relative {
+	a,8 a8 b8 c8 d8 d8 a8 fis8 |
+	g8 g8 g8 a8 b8 b8 d8 dis8 |
+	e8 e8 e8 e8 d8 d8 d8 d8 |
+	c8 c8 c8 c8 b8 b8 b8 b8 |
+% page 15.1
+	a8 a8 c8 a8 b8 b8 g8 b8 |
+	e8 e,8 e8 e'8 e,8 e8 dis'4 |
+	e,8 e8 e8 e'8 e,8 e8 dis'4 |
+	e8 e,8 e8 e'8 e,8 e8 dis'4 |
+	e4\bendAfterG #-5 r4 r2 |
+    }
+    \barNumberCheck #156
+}

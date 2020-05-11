@@ -1,0 +1,263 @@
+[TEXT_PREFIX]guitarText = {
+% page 82 A
+    \barNumberCheck #1
+    `>clean=program27;volume.5 bendAfter-2`4 r4 r2 | % Electric Guitar (clean)
+    r2. | r2. |
+    r1 | r1 |
+% page 83 B
+    \barNumberCheck #6
+    r1 | r1 | r1 |
+    `M=program28`8 `M`8 r4 `M`8 `M`8 r4 |
+% page 83.1
+    r1 | r1 | r1 |
+% 1x ending
+    r2 r4 `deadNote=vol.5 bendAfter-3`4 |
+% page 83 B-2x
+    \barNumberCheck #14
+    r1 | r1 | r1 |
+    `M`8 `M`8 r4 `M`8 `M`8 r4 |
+% page 83.1-2x
+    r1 | r1 | r1 |
+% page 84
+    `bendAfter-3`4 r4 r2 |
+    `bendAfter-3`2 r2 |
+    r4 `bendAfter-3`4 r2 |
+    r4 `bendAfter-2`4 r2 |
+    r1 |
+% page 84.1 C
+    \barNumberCheck #26
+    r1 | r1 | r1 | r1 |
+% page 85
+    r1 |
+    r2 r4 r8 `deadNote`8 |
+    `bendAfter-2`4 r8 `deadNote`8 `deadNote`8 r4 `M`8 |
+    `bendAfter-2`4 r8 `deadNote`8 `deadNote`8 r8 `M`8 `M`8 |
+% page 85.1
+    `bendAfter-2`4 r8 `deadNote`8 `deadNote`8 r8 r4 |
+    r1 | r1 |
+% page 86 D Segno
+    \barNumberCheck #37
+    r1 |
+    \repeat unfold 2 {
+        r1 |
+    }
+    r1 |
+% page 86.1
+    r1 | r1 |
+    r2. `bendBefore-2`4 |
+    r1 |
+% page 87
+    r1 | r1 | r1 | r1 |
+% page 87.1
+    r1 | r1 | r1 | r1 |
+% page 88 E
+    \barNumberCheck #53
+    \repeat unfold 2 {
+        r1 | r1 | r1 | r1 |
+    }
+% page 89
+    r1 | r1 |
+% F
+    \barNumberCheck #63
+    \repeat unfold 2 {
+        `M`8 `M`8 r8 `M`8 `M`8 r8 `M` `M` |
+    }
+% page 89.1
+    \repeat unfold 2 {
+        `M`8 `M`8 r8 `M`8 `M`8 r8 `M`8 `M`8 |
+    }
+    r1 | r1 |
+% page 90
+    `bendAfter-3`4 r4 r2 |
+    r1 | r1 | r1 |
+% page 90.1 G
+    \barNumberCheck #73
+    `M`8 `M`8 r8 `M`8 `M`8 r8 `M`8 `M`8 |
+    `M`8 `M`8 r8 `M`8 `M`8 `bendAfter-3`4. |
+    `M`8 `M`8 r8 `M`8 `M`8 r8 `M`8 `M`8 |
+    `M`8 `M`8 r8 `M`8 `M`8 `bendAfter-3`4. |
+% page 91
+    `M`8 `M`8 r8 `M`8 `M`8 c8 `M`8 `M`8 |
+    `M`8 `M`8 r8 `M`8 `M`8 r4. |
+    `M`8 `M`8 r8 `M`8 r8 r4. |
+    `M`8 `M`8 r8 `M`8 r8 `M`8 r8 `M`8 |
+% page 91.1
+    `M`8 `M`8 r8 `M`8 `M`8 r8 `M`8 `M`8 |
+    `M`8 `M`8 r8 `M`8 `M`8 `bendAfter-2`4. |
+    `M`8 `M`8 r8 `M`8 `M`8 r8 `M`8 `M`8 |
+    `M`8 `M`8 r8 `M`8 `M`8 `bendAfter-2`4. |
+    r1 |
+% page 92
+    r1 |
+% H
+    \barNumberCheck #87
+    r1 | r1 | r1 |
+% page 92.1
+    `M`8 `M`8 r4 `M`8 `M`8 r4 |
+    r1 | r1 | r1 |
+% page 93
+    `bendAfter-2`4 r4 r2 |
+    `bendAfter-3`2 r2 |
+    r4 `bendAfter-3`4 r2 |
+    r2 r4 r8 `bendBefore-2`8 |
+    r1 |
+% page 93.1 I
+    \barNumberCheck #99
+    `bendAfter-2`4 r4 r2 |
+    r1 | r1 |
+    r4 r8 `M`8 r8 `M`8 r8 `M`8 |
+% page 94
+    `M`8 `M`8 `M`4 r2 |
+    `M`8 `M`8 `M`8 `M`8 r8 `M`8 r4 |
+    `bendAfter-2`4 r4 r8 `deadNote`8 r8 `M`8 |
+    `M`4 `M`4 `M`4 `M`8 `M`8 |
+% page 94.1
+    `M`4 `M`4 r4 `M`8 `M`8 |
+    r1 |
+    `bendAfter-2`4 r4 r2 |
+% page 86 D Segno-2x
+    \barNumberCheck #110
+    r1 |
+    \repeat unfold 2 {
+        r1 |
+    }
+    r1 |
+% page 86.1-2x
+    r1 | r1 | r1 | r1 |
+% page 87-2x
+    r1 | r1 | r1 | r1 |
+% page 87.1-2x
+    r1 | r1 | r1 | r1 |
+% page 88 E-2x
+    \barNumberCheck #126
+    \repeat unfold 2 {
+        r1 | r1 | r1 | r1 |
+    }
+% page 89-2x
+    r1 | r1 |
+% F
+    \barNumberCheck #136
+    \repeat unfold 2 {
+        `M`8 `M`8 r8 `M`8 `M`8 r8 `M` `M` |
+    }
+% page 89.1-2x
+    \repeat unfold 2 {
+        `M`8 `M`8 r8 `M`8 `M`8 r8 `M`8 `M`8 |
+    }
+    r1 | r1 |
+% page 90-2x
+    `bendAfter-3`4 r4 r2 |
+    r1 | r1 | r1 |
+% page 90.1 G-2x
+    \barNumberCheck #146
+    `M`8 `M`8 r8 `M`8 `M`8 r8 `M`8 `M`8 |
+    `M`8 `M`8 r8 `M`8 `M`8 `bendAfter-3`4. |
+    `M`8 `M`8 r8 `M`8 `M`8 r8 `M`8 `M`8 |
+    `M`8 `M`8 r8 `M`8 `M`8 `bendAfter-3`4. |
+% page 91-2x
+    `M`8 `M`8 r8 `M`8 `M`8 r8 `M`8 `M`8 |
+    `M`8 `M`8 r8 `M`8 `M`8 r4. |
+    `M`8 `M`8 r8 `M`8 r2 |
+    `deadNote`8 `deadNote`8 r4 `bendAfter-4`2 |
+% page 91.1-2x
+    `M`8 `M`8 r8 `M`8 `M`8 r8 `M`8 `M`8 |
+    `M`8 `M`8 r8 `M`8 `M`8 `bendAfter-2`4. |
+    `M`8 `M`8 r8 `M`8 `M`8 r8 `M`8 `M`8 |
+    `M`8 `M`8 r8 `M`8 `M`8 `bendAfter-2`4. |
+    r1 |
+% coda
+    \barNumberCheck #159
+    r1 |
+% page 95 J
+    \barNumberCheck #160
+    r1 | r1 |
+    `bendBefore-2`2. r4  |
+    r1 |
+% page 95.1
+    r4. `bendBefore2`8 r2 |
+    r1 | r1 |
+    r2 `bendAfter-8`2 |
+% page 96
+    r1 | r1 | r1 | r1 |
+% page 96.1
+    r1 | r1 | r1 | r1 | r1 |
+% page 97 K
+    \barNumberCheck #177
+    r1 | r1 | r1 | r1 |
+% page 97.1
+    r1 | r1 | r1 | r1 |
+% page 98
+    r1 | r1 | r1 | r1 |
+% page 98.1
+    r1 | r1 | r1 | r1 | r1 |
+% page 99 L
+    \barNumberCheck #194
+    r1 | r1 | r1 | r1 |
+% page 99.1
+    r1 | r1 | r1 | r1 |
+% start 1x
+% page 100
+    r1 |
+% page 99 L-2x
+    \barNumberCheck #203
+    r1 | r1 | r1 | r1 |
+% page 99.1-2x
+    r1 | r1 | r1 |
+    r2. `bendAfter-3`4 |
+% page 100-2x
+    r1 |
+    r2 r4 `bendAfter-3`4 |
+% page 100.1 M
+    \barNumberCheck #213
+    \repeat unfold 2 {
+        `M`8 `M`8 r8 `M`8 `M`8 r8 `M`8 `M`8 |
+    }
+    \repeat unfold 2 {
+        `M`8 `M`8 r8 `M`8 `M`8 r8 `M`8 `M`8 |
+    }
+% page 101
+    r1 | r1 |
+    `bendAfter-2`4 r4 r2 |
+    r1 |
+% page 101.1
+    r1 | r1 |
+    r8 `bendAfter-3`4 r4 `bendBefore-2`8 r4 |
+    `bendAfter-3`4 r4 r2 |
+% page 102 N
+    \barNumberCheck #225
+    `M`8 `M`8 r8 `M`8 `M`8 r8 `M`8 `M`8 |
+    `M`8 `M`8 r8 `M`8 `M`8 `bendAfter-2`4. |
+    `M`8 `M`8 r8 `M`8 `M`8 r8 `M`8 `M`8 |
+    `M`8 `M`8 r8 `M`8 `M`8 `bendAfter-2`4. |
+% page 102.1
+    `M`8 `M`8 r8 `M`8 `M`8 r8 `M`8 `M`8 |
+    `M`8 `M`8 r8 `M`8 `M`8 r4. |
+    r1 |
+    `bendBefore-2`2 r2 |
+    r2. `bendAfter-3`4 |
+% page 103
+    r1 | r1 |
+    r2 r4 `bendAfter-3`4 |
+    r1 | r1 |
+% page 103.1 O
+    \barNumberCheck #239
+    r1 | r1 | r1 | r1 |
+% page 104
+    r1 | r1 | r1 |
+    r2 r4 \deadNote `bendAfter-3`4 |
+% page 104.1
+    r1 |
+    `bendBefore-2`8 r8 r4 r2 |
+    r1 | r1 |
+% page 105
+    `bendBefore-2`2. `bendAfter-3`4  |
+    r1 |
+    r2 r4 `bendAfter-3`4 |
+    r4 `bendAfter-3`4 r2 |
+% page 105.1
+    r1 |
+    r4 `bendAfter-3`4 r2 |
+    r4 `bendAfter-3`4 r2 |
+    r1 |
+    \barNumberCheck #259
+}

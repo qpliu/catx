@@ -1,0 +1,95 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \tempo 4 = 80
+    \barNumberCheck #1
+    \mark "Intro"
+    s1
+    \repeat volta 5 {
+	s2 s4 s8 s^"x5"
+    }
+    \barNumberCheck #3
+    \mark \markup { \musicglyph #"scripts.segno" "Verses 1&3" }
+    \repeat volta 12 {
+	s2 s4 s8 s^"x12"
+    }
+    \break
+    \barNumberCheck #4
+    \mark "Riff"
+    \repeat volta 6 {
+	s2 s4 s8 s^"x6"
+    }
+    \barNumberCheck #5
+    \mark "Verses 2&4"
+    s1
+    \repeat volta 11 {
+	s2 s4 s8 s^"x11"
+    }
+    \break
+    \barNumberCheck #7
+    \mark "Riff"
+    \repeat volta 7 {
+	s2 s4 s8 s^"x7"
+    }
+    \barNumberCheck #8
+    \time 9/8
+    s1 s8
+    \break
+    \barNumberCheck #9
+    \mark "Interlude"
+    \time 4/4
+    \repeat volta 2 {
+	s1 s1 s1 \break
+	s1 s1 s1 \break
+	s1 s1
+    }
+    s1 \break
+    s1 s1 s1
+    \break
+    \barNumberCheck #21
+    \bar "||"
+    \mark "Riff"
+    s1
+    \repeat volta 2 {
+	s1
+    }
+    s1 \break
+    \barNumberCheck #24
+    \bar "||"
+    \mark "Bridge"
+    s1 s1 s1
+    s1 s1 s1
+    s1 s1 s1
+    \pageBreak
+    s1 s1 s1
+    s1 s1 s1
+    s1 s1 s1 \break
+    s1 s1
+    \barNumberCheck #44
+    \bar "||"
+    \mark "Interlude"
+    \break
+    s1
+    \repeat volta 4 {
+	s2 s4 s8 s^"x4"
+    }
+    s2 s4 s^\markup \right-align \italic { "D.S." \musicglyph #"scripts.segno" "al Coda" }
+    \barNumberCheck #47
+    \mark \markup { \musicglyph #"scripts.coda" }
+    \break
+    s1
+    \repeat volta 2 {
+	s1
+    }
+    s1
+    \barNumberCheck #50
+    \mark "Outro"
+    \break
+    \repeat volta 5 {
+	s1 s1 s1 s1
+	s1 s1 s1 s2 s4 s8 s^"x5"
+    }
+    \barNumberCheck #58
+    s1 s1 s1 s1
+    s1 s1 s1
+    \bar "|."
+}

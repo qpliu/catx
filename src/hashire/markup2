@@ -1,0 +1,148 @@
+markupTwoStuff = {
+    \tempo 4 = 135
+% page 19
+    \tag #'(pageNumber keep) \mark "p19"
+    \key e \major
+    s1 |
+% A
+    \mark \markup { \box \bold A }
+    \bar "||"
+    \barNumberCheck #2
+    s1*6 |
+    s1 | s1 |
+% B
+    \mark \markup { \box \bold B }
+    \bar "||"
+    \barNumberCheck #10
+    s1 | s1 | s1 | s1 |
+% page 19.1
+    \tag #'(pageNumber keep) \mark "p19.1"
+    s1 | s1 | s1 | s1 |
+% C
+    \mark \markup { \box \bold C }
+    \bar "||"
+    \barNumberCheck #18
+    s1 | s1 | s1 | s1 |
+% page 19.2
+    \tag #'(pageNumber keep) \mark "p19.2"
+    s1 | s1 | s1 | s1 |
+% D
+    \mark \markup { \box \bold D }
+    \bar "||"
+    \barNumberCheck #26
+    s1 | s1 | s1 |
+% page 19.3
+    \tag #'(pageNumber keep) \mark "p19.3"
+    s1 | s1 | s1 | s1 | s1 |
+% E
+    \mark \markup { \box \bold E }
+    \bar "||"
+    \barNumberCheck #34
+    s1 | s1 |
+% page 19.4
+    \tag #'(pageNumber keep) \mark "p19.4"
+    s1 | s1 | s1 | s1 | s1 | s1 |
+% page 19.5
+    \tag #'(pageNumber keep) \mark "p19.5"
+    s1 |
+    \repeat volta 2 {
+% F
+	\mark \markup { \box \bold F }
+	\mybarNumberCheck #43
+	s1 | s1 | s1 | s1 | s1 |
+% page 20
+	\tag #'(pageNumber keep) \mark "p20"
+	s1 | s1 | s1 |
+% G
+	\mark \markup { \box \bold G }
+	\bar "||"
+	\mybarNumberCheck #51
+	s1 | s1 | s1 |
+% page 20.1
+	\tag #'(pageNumber keep) \mark "p20.1"
+	s1 | s1 | s1 | s1 |
+    } \alternative { {
+	s1 |
+% H
+	\mark \markup { \box \bold H }
+	\bar "||"
+	\mybarNumberCheck #59
+	s1 |
+% page 20.2
+	\tag #'(pageNumber keep) \mark "p20.2"
+	s1 | s1 | s1 | s1 | s1 | s1 |
+% page 20.3
+	\tag #'(pageNumber keep) \mark "p20.3"
+	s1 |
+% I
+	\mark \markup { \box \bold I }
+	\bar "||"
+	\mybarNumberCheck #67
+	s1 | s1 | s1 | s1 | s1 | s1 |
+% page 20.4
+	\tag #'(pageNumber keep) \mark "p20.4"
+	s1 | s1 |
+% J
+	\mark \markup { \box \bold J }
+	\bar "||"
+	\mybarNumberCheck #75
+	s1 | s1 | s1 | s1 | s1 |
+% page 20.5
+	\tag #'(pageNumber keep) \mark "p20.5"
+	s1 | s1 | s1 | s1 |
+    } {
+	s1 |
+    } }
+% K
+    \mark \markup { \box \bold K }
+    \bar "||"
+    \mybarNumberCheck #85
+    s1 |
+% page 21
+    \tag #'(pageNumber keep) \mark "p21"
+    s1 | s1 | s1 | s1 | s1 | s1 |
+% page 21.1
+    \tag #'(pageNumber keep) \mark "p21.1"
+    s1 | s1 | s1 | s1 | s1 | s1 |
+% page 21.2
+    \tag #'(pageNumber keep) \mark "p21.2"
+    s1 | s1 | s1 | s1 | s1 |
+% L
+    \mark \markup { \box \bold L }
+    \bar "||"
+    \mybarNumberCheck #103
+    s1 | s1 |
+% page 21.3
+    \tag #'(pageNumber keep) \mark "p21.3"
+    s1 | s1 | s1 | s1 | s1 | s1 |
+% page 21.4
+    \tag #'(pageNumber keep) \mark "p21.4"
+    s1 |
+% M
+    \mark \markup { \box \bold M }
+    \bar "||"
+    \key fis \major
+    \mybarNumberCheck #112
+    s1 | s1 | s1 | s1 | s1 |
+% page 21.5
+    \tag #'(pageNumber keep) \mark "p21.5"
+    s1 | s1 | s1 |
+% N
+    \mark \markup { \box \bold N }
+    \bar "||"
+    \mybarNumberCheck #120
+    s1 | s1 | s1 |
+% page 22
+    \tag #'(pageNumber keep) \mark "p22"
+    s1 | s1 | s1 | s1 | s1 |
+% page 22.1 O
+    \mark \markup { \box \bold O }
+    \bar "||"
+    \mybarNumberCheck #128
+    s1 | s1 | s1 | s1 | s1 |
+% page 22.2
+    \tag #'(pageNumber keep) \mark "p22.2"
+    s1 | s1 | s1 | s1 | s1 |
+    \bar "|."
+    \mybarNumberCheck #138
+}

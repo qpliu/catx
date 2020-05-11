@@ -1,0 +1,10 @@
+voLyrics = \new Lyrics = "lyrics" \lyricsto "vo" \context Lyrics = "lyricsa" \lyricmode {
+    Row row
+    row your boat
+    gent- ly down the
+    stream,
+    Mer- ri- ly, mer- ri- ly,
+    mer- ri- ly, mer- ri- ly,
+    Life is but a
+    dream.
+}    

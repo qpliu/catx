@@ -1,0 +1,267 @@
+markupStuff = {
+    \tempo 4 = 160
+% page 82 A
+    \mark \markup { \box \bold "A" }
+    \barNumberCheck #1
+    \key g \major
+    s1 |
+    \bar "||"
+    \time 3/4
+    s2. | s2. |
+    \bar "||"
+    \time 4/4
+    s1 |
+    s1 |
+% page 83 B
+    \mark \markup { \box \bold "B" }
+    \bar "||"
+    \barNumberCheck #6
+    s1 | s1 | s1 | s1 |
+% page 83.1
+    \tag #'(pageNumber keep) \mark "p83.1"
+    s1 | s1 | s1 |
+% 1x ending
+    s1 |
+% page 83 B-2x
+    \mark \markup { \box \bold "B-2x" }
+    \bar "||"
+    \barNumberCheck #14
+    s1 | s1 | s1 | s1 |
+% page 83.1-2x
+    \tag #'(pageNumber keep) \mark "p83.1-2x"
+    s1 | s1 | s1 |
+% page 84
+    \tag #'(pageNumber keep) \mark "p84"
+    s1 | s1 | s1 | s1 | s1 |
+% page 84.1 C
+    \mark \markup { \box \bold "C" }
+    \bar "||"
+    \barNumberCheck #26
+    s1 | s1 | s1 | s1 |
+% page 85
+    \tag #'(pageNumber keep) \mark "p85"
+    s1 | s1 | s1 | s1 |
+% page 85.1
+    \tag #'(pageNumber keep) \mark "p85.1"
+    s1 | s1 | s1 |
+% page 86 D Segno
+    \mark \markup { \box \bold "D" \musicglyph #"scripts.segno" }
+    \bar "||"
+    \barNumberCheck #37
+    s1 | s1 | s1 | s1 |
+% page 86.1
+    \tag #'(pageNumber keep) \mark "p86.1"
+    s1 | s1 | s1 | s1 |
+% page 87
+    \tag #'(pageNumber keep) \mark "p87"
+    s1 | s1 | s1 | s1 |
+% page 87.1
+    \tag #'(pageNumber keep) \mark "p87.1"
+    s1 | s1 | s1 | s1 |
+% page 88 E
+    \mark \markup { \box \bold "E" }
+    \bar "||"
+    \barNumberCheck #53
+    s1 | s1 | s1 | s1 |
+% page 88.1
+    \tag #'(pageNumber keep) \mark "p88.1"
+    s1 | s1 | s1 | s1 |
+% page 89
+    \tag #'(pageNumber keep) \mark "p89"
+    s1 | s1 |
+% F
+    \mark \markup { \box \bold "F" }
+    \bar "||"
+    \barNumberCheck #63
+    s1 | s1 |
+% page 89.1
+    \tag #'(pageNumber keep) \mark "p89.1"
+    s1 | s1 | s1 | s1 |
+% page 90
+    \tag #'(pageNumber keep) \mark "p90"
+    s1 | s1 | s1 | s1 |
+% page 90.1 G
+    \mark \markup { \box \bold "G" }
+    \bar "||"
+    \barNumberCheck #73
+    s1 | s1 | s1 | s1 |
+% page 91
+    \tag #'(pageNumber keep) \mark "p91"
+    s1 | s1 | s1 | s1 |
+% page 91.1
+    \tag #'(pageNumber keep) \mark "p91.1"
+    s1 | s1 | s1 | s1 | s1 |
+% page 92
+    \tag #'(pageNumber keep) \mark "p92"
+    s1 |
+% H
+    \mark \markup { \box \bold "H" }
+    \bar "||"
+    \barNumberCheck #87
+    s1 | s1 | s1 |
+% page 92.1
+    \tag #'(pageNumber keep) \mark "p92.1"
+    s1 | s1 | s1 | s1 |
+% page 93
+    \tag #'(pageNumber keep) \mark "p93"
+    s1 | s1 | s1 | s1 | s1 |
+% page 93.1 I
+    \mark \markup { \box \bold "I" }
+    \bar "||"
+    \barNumberCheck #99
+    s1 | s1 | s1 | s1 |
+% page 94
+    \tag #'(pageNumber keep) \mark "p94"
+    s1 | s1 | s1 | s1 |
+% page 94.1
+    \tag #'(pageNumber keep) \mark "p94.1"
+    s1 | s1 | s1 |
+% page 86 D Segno-2x
+    \mark \markup { \box \bold "D-2x" \musicglyph #"scripts.segno" }
+    \bar "||"
+    \barNumberCheck #110
+    s1 | s1 | s1 | s1 |
+% page 86.1-2x
+    \tag #'(pageNumber keep) \mark "p86.1-2x"
+    s1 | s1 | s1 | s1 |
+% page 87-2x
+    \tag #'(pageNumber keep) \mark "p87-2x"
+    s1 | s1 | s1 | s1 |
+% page 87.1-2x
+    \tag #'(pageNumber keep) \mark "p87.1-2x"
+    s1 | s1 | s1 | s1 |
+% page 88 E-2x
+    \mark \markup { \box \bold "E-2x" }
+    \bar "||"
+    \barNumberCheck #126
+    s1 | s1 | s1 | s1 |
+% page 88.1-2x
+    \tag #'(pageNumber keep) \mark "p88.1-2x"
+    s1 | s1 | s1 | s1 |
+% page 89-2x
+    \tag #'(pageNumber keep) \mark "p89-2x"
+    s1 | s1 |
+% F-2x
+    \mark \markup { \box \bold "F-2x" }
+    \bar "||"
+    \barNumberCheck #136
+    s1 | s1 |
+% page 89.1-2x
+    \tag #'(pageNumber keep) \mark "p89.1-2x"
+    s1 | s1 | s1 | s1 |
+% page 90-2x
+    \tag #'(pageNumber keep) \mark "p90-2x"
+    s1 | s1 | s1 | s1 |
+% page 90.1 G-2x
+    \mark \markup { \box \bold "G-2x" }
+    \bar "||"
+    \barNumberCheck #146
+    s1 | s1 | s1 | s1 |
+% page 91-2x
+    \tag #'(pageNumber keep) \mark "p91-2x"
+    s1 | s1 | s1 | s1 |
+% page 91.1-2x
+    \tag #'(pageNumber keep) \mark "p91.1-2x"
+    s1 | s1 | s1 | s1 | s1 |
+% coda
+    \mark \markup { \musicglyph #"scripts.coda" }
+    \barNumberCheck #159
+    s1 |
+% page 95 J
+    \mark \markup { \box \bold "J" }
+    \bar "||"
+    \barNumberCheck #160
+    \key e \major
+    s1 | s1 | s1 | s1 |
+% page 95.1
+    \tag #'(pageNumber keep) \mark "p95.1"
+    s1 | s1 | s1 | s1 |
+% page 96
+    \tag #'(pageNumber keep) \mark "p96"
+    s1 | s1 | s1 | s1 |
+% page 96.1
+    \tag #'(pageNumber keep) \mark "p96.1"
+    s1 | s1 | s1 | s1 | s1 |
+% page 97 K
+    \mark \markup { \box \bold "K" }
+    \bar "||"
+    \tempo 4 = 80
+    \barNumberCheck #177
+    s1 | s1 | s1 | s1 |
+% page 97.1
+    \tag #'(pageNumber keep) \mark "p97.1"
+    s1 | s1 | s1 | s1 |
+% page 98
+    \tag #'(pageNumber keep) \mark "p98"
+    s1 | s1 | s1 | s1 |
+% page 98.1
+    \tag #'(pageNumber keep) \mark "p98.1"
+    s1 | s1 | s1 | s1 |
+    \tempo 4 = 160
+    s1 |
+% page 99 L
+    \mark \markup { \box \bold "L" }
+    \bar "||"
+    \barNumberCheck #194
+    \key g \major
+    s1 | s1 | s1 | s1 |
+% page 99.1
+    \tag #'(pageNumber keep) \mark "p99.1"
+    s1 | s1 | s1 | s1 |
+% start 1x
+% page 100
+    \tag #'(pageNumber keep) \mark "p100"
+    s1 |
+% page 99 L-2x
+    \mark \markup { \box \bold "L-2x" }
+    \bar "||"
+    \barNumberCheck #203
+    s1 | s1 | s1 | s1 |
+% page 99.1-2x
+    \tag #'(pageNumber keep) \mark "p99.1-2x"
+    s1 | s1 | s1 | s1 |
+% page 100-2x
+    \tag #'(pageNumber keep) \mark "p100-2x"
+    s1 | s1 |
+% page 100.1 M
+    \mark \markup { \box \bold "M" }
+    \bar "||"
+    \barNumberCheck #213
+    s1 | s1 | s1 | s1 |
+% page 101
+    \tag #'(pageNumber keep) \mark "p101"
+    s1 | s1 | s1 | s1 |
+% page 101.1
+    \tag #'(pageNumber keep) \mark "p101.1"
+    s1 | s1 | s1 | s1 |
+% page 102 N
+    \mark \markup { \box \bold "N" }
+    \bar "||"
+    \barNumberCheck #225
+    s1 | s1 | s1 | s1 |
+% page 102.1
+    \tag #'(pageNumber keep) \mark "p102.1"
+    s1 | s1 | s1 | s1 | s1 |
+% page 103
+    \tag #'(pageNumber keep) \mark "p103"
+    s1 | s1 | s1 | s1 | s1 |
+% page 103.1 O
+    \mark \markup { \box \bold "O" }
+    \bar "||"
+    \barNumberCheck #239
+    s1 | s1 | s1 | s1 |
+% page 104
+    \tag #'(pageNumber keep) \mark "p104"
+    s1 | s1 | s1 | s1 |
+% page 104.1
+    \tag #'(pageNumber keep) \mark "p104.1"
+    s1 | s1 | s1 | s1 |
+% page 105
+    \tag #'(pageNumber keep) \mark "p105"
+    s1 | s1 | s1 | s1 |
+% page 105.1
+    \tag #'(pageNumber keep) \mark "p105.1"
+    s1 | s1 | s1 | s1 |
+    \bar "|."
+    \barNumberCheck #259
+}

@@ -1,0 +1,13 @@
+voTwoLyrics = \new Lyrics = "lyrics2a" \lyricsto "vo2" \new Lyrics = "lyrics2b" \lyricsto "vo2" \context Lyrics = "lyrics2a" \lyricmode {
+% D
+    << { \ayaka ku ra ya mi de } \context Lyrics = "lyrics2b" { \shiori ku ra ya mi de } >>
+% page 5.1
+    << { \ayaka mo \momoka Wa ta shi ta chi wo } \context Lyrics = "lyrics2b" { \shiori mo \reni Wa ta shi ta chi wo } >>
+% D-2x
+    << { \momoka ha na re te te } \context Lyrics = "lyrics2b" { \reni ha na re te te } >>
+% page 5.1-2x
+    << { \momoka mo \shiori Wa ta shi ta chi wo } \context Lyrics = "lyrics2b" { \reni mo \ayaka Wa ta shi ta chi wo } >>
+% page 11.1
+    \shiori se tsu na ku te
+    \reni sa mi shi ku te
+}

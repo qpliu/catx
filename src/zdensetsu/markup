@@ -1,0 +1,264 @@
+markupStuff = {
+% page 10
+    \tag #'(pageNumber keep) \mark "p10"
+    \barNumberCheck #1
+    \key ees \major
+    s1 | s1 |
+    \tempo 4 = 190
+    s1 | s1 |
+% page 11 Intro Segno3
+    \mark \markup { \box \bold "Intro." }
+    \bar "||"
+    \barNumberCheck #5
+    s1 | s1 | s1 | s1 |
+% page 11.1
+    \tag #'(pageNumber keep) \mark "p11.1"
+    s1 | s1 | s1 | s1 |
+% page 12
+    \tag #'(pageNumber keep) \mark "p12"
+    s1 | s1 | s1 |
+% to Coda 3
+    s1 |
+% page 12.1 A
+    \mark \markup { \box \bold "A" }
+    \bar "||"
+    \barNumberCheck #17
+    s1 | s1 | s1 | s1 |
+% page 13
+    \tag #'(pageNumber keep) \mark "p13"
+    s1 | s1 | s1 | s1 |
+% page 13.1
+    \tag #'(pageNumber keep) \mark "p13.1"
+    s1 | s1 | s1 | s1 |
+% page 14
+    \tag #'(pageNumber keep) \mark "p14"
+    s1 | s1 | s1 | s1 |
+% page 14.1 B
+    \mark \markup { \box \bold "B" }
+    \bar "||"
+    \barNumberCheck #33
+    s1 | s1 | s1 | s1 |
+% page 15
+    \tag #'(pageNumber keep) \mark "p15"
+    s1 | s1 | s1 | s1 |
+% page 15.1
+    \tag #'(pageNumber keep) \mark "p15.1"
+    s1 | s1 | s1 | s1 |
+% page 16
+    \tag #'(pageNumber keep) \mark "p16"
+    s1 | s1 | s1 | s1 |
+% page 16.1
+    \tag #'(pageNumber keep) \mark "p16.1"
+    s1 | s1 | s1 | s1 |
+% page 17
+    \tag #'(pageNumber keep) \mark "p17"
+    s1 | s1 | s1 | s1 |
+% page 17.1 C Stegno1
+    \mark \markup { \box \bold "C" }
+    \bar "||"
+    \barNumberCheck #57
+    s1 | s1 | s1 | s1 |
+% page 18
+    \tag #'(pageNumber keep) \mark "p18"
+    s1 | s1 |
+    \key g \major
+    s1 | s1 |
+% page 18.1
+    \tag #'(pageNumber keep) \mark "p18.1"
+    s1 | s1 | s1 |
+% page 19 D Stegno2
+    \mark \markup { \box \bold "D" }
+    \bar "||"
+    \barNumberCheck #68
+    s1 | s1 | s1 |
+% page 19.1
+    \tag #'(pageNumber keep) \mark "p19.1"
+    s1 | s1 | s1 |
+% page 20
+    \tag #'(pageNumber keep) \mark "p20"
+    s1 | s1 | s1 |
+% page 20.1
+    \tag #'(pageNumber keep) \mark "p20.1"
+    s1 | s1 | s1 |
+% page 21
+    \tag #'(pageNumber keep) \mark "p21"
+    s1 | s1 | s1 | s1 |
+% page 21.1 E
+    \mark \markup { \box \bold "E" }
+    \bar "||"
+    \barNumberCheck #84
+    s1 | s1 | s1 | s1 |
+% page 22
+    \tag #'(pageNumber keep) \mark "p22"
+    s1 | s1 | s1 | s1 |
+% page 22.1
+    \tag #'(pageNumber keep) \mark "p22.1"
+    s1 |
+% to Coda 1,2
+    s1 | s1 | s1 |
+% page 23 F
+    \mark \markup { \box \bold "F" }
+    \bar "||"
+    \barNumberCheck #96
+    \key ees \major
+    s1 | s1 | s1 | s1 |
+% page 23.1
+    \tag #'(pageNumber keep) \mark "p23.1"
+    s1 | s1 | s1 | s1 |
+% page 24
+    \tag #'(pageNumber keep) \mark "p24"
+    s1 | s1 | s1 | s1 | s1 |
+% page 24.1
+    \tag #'(pageNumber keep) \mark "p24.1"
+    s1 | s1 | s1 | s1 | s1 |
+% page 25 G
+    \mark \markup { \box \bold "G" }
+    \bar "||"
+    \barNumberCheck #114
+    s1 | s1 | s1 | s1 |
+% page 25.1
+    \tag #'(pageNumber keep) \mark "p25.1"
+    s1 | s1 | s1 | s1 | s1 |
+% page 26 H
+    \mark \markup { \box \bold "H" }
+    \bar "||"
+    \barNumberCheck #123
+    s1 | s1 | s1 | s1 |
+% page 26.1
+    \tag #'(pageNumber keep) \mark "p26.1"
+    s1 | s1 | s1 | s1 |
+% page 27
+    \tag #'(pageNumber keep) \mark "p27"
+    s1 | s1 | s1 | s1 |
+% page 27.1
+    \tag #'(pageNumber keep) \mark "p27.1"
+    s1 | s1 | s1 | s1 |
+% D.S.1
+% page 17.1 C Stegno1-2x
+    \mark \markup { \box \bold "C-2x" }
+    \bar "||"
+    \barNumberCheck #139
+    s1 | s1 | s1 | s1 |
+% page 18-2x
+    \tag #'(pageNumber keep) \mark "p18-2x"
+    s1 | s1 |
+    \key g \major
+    s1 | s1 |
+% page 18.1-2x
+    \tag #'(pageNumber keep) \mark "p18.1-2x"
+    s1 | s1 | s1 |
+% page 19 D Stegno2-2x
+    \mark \markup { \box \bold "D-2x" }
+    \bar "||"
+    \barNumberCheck #150
+    s1 | s1 | s1 |
+% page 19.1-2x
+    \tag #'(pageNumber keep) \mark "p19.1-2x"
+    s1 | s1 | s1 |
+% page 20-2x
+    \tag #'(pageNumber keep) \mark "p20-2x"
+    s1 | s1 | s1 |
+% page 20.1-2x
+    \tag #'(pageNumber keep) \mark "p20.1-2x"
+    s1 | s1 | s1 |
+% page 21-2x
+    \tag #'(pageNumber keep) \mark "p21-2x"
+    s1 | s1 | s1 | s1 |
+% page 21.1 E-2x
+    \mark \markup { \box \bold "E-2x" }
+    \bar "||"
+    \barNumberCheck #166
+    s1 | s1 | s1 | s1 |
+% page 22-2x
+    \tag #'(pageNumber keep) \mark "p22-2x"
+    s1 | s1 | s1 | s1 |
+% page 22.1-2x
+    \tag #'(pageNumber keep) \mark "p22.1-2x"
+    s1 |
+% to Coda 1
+% page28 Coda 1
+    \mark \markup { \musicglyph #"scripts.coda" "1" }
+    \bar "||"
+    \barNumberCheck #175
+    s1 |
+% I
+    \mark \markup { \box \bold "I" }
+    \bar "||"
+    \barNumberCheck #176
+    \key c \major
+    s1 | s1 | s1 | s1 |
+% page28.1
+    \tag #'(pageNumber keep) \mark "p28.1"
+    s1 | s1 | s1 | s1 |
+% page29
+    \tag #'(pageNumber keep) \mark "p29"
+    s1 | s1 | s1 | s1 |
+% page29.1
+    \tag #'(pageNumber keep) \mark "p29.1"
+    s1 | s1 | s1 | s1 |
+% page30 J
+    \mark \markup { \box \bold "J" }
+    \bar "||"
+    \barNumberCheck #192
+    s1 | s1 | s1 | s1 | s1 |
+% page30.1
+    \tag #'(pageNumber keep) \mark "p30.1"
+    s1 |
+% D.S.2
+% page 19 D Stegno2-3x
+    \mark \markup { \box \bold "D-3x" }
+    \bar "||"
+    \barNumberCheck #198
+    \key g \major
+    s1 | s1 | s1 |
+% page 19.1-3x
+    \tag #'(pageNumber keep) \mark "p19.1-3x"
+    s1 | s1 | s1 |
+% page 20-3x
+    \tag #'(pageNumber keep) \mark "p20-3x"
+    s1 | s1 | s1 |
+% page 20.1-3x
+    \tag #'(pageNumber keep) \mark "p20.1-3x"
+    s1 | s1 | s1 |
+% page 21-3x
+    \tag #'(pageNumber keep) \mark "p21-3x"
+    s1 | s1 | s1 | s1 |
+% page 21.1 E-3x
+    \mark \markup { \box \bold "E-3x" }
+    \bar "||"
+    \barNumberCheck #214
+    s1 | s1 | s1 | s1 |
+% page 22-3x
+    \tag #'(pageNumber keep) \mark "p22-3x"
+    s1 | s1 | s1 | s1 |
+% page 22.1-3x
+    \tag #'(pageNumber keep) \mark "p22.1-3x"
+    s1 |
+% to Coda 1,2
+% page30 Coda 2
+    \mark \markup { \musicglyph #"scripts.coda" "2" }
+    \bar "||"
+    \barNumberCheck #223
+    s1 |
+% D.S.3
+% page 11 Intro Segno3-2x
+    \mark \markup { \box \bold "Intro.-2x" }
+    \bar "||"
+    \barNumberCheck #224
+    \key ees \major
+    s1 | s1 | s1 | s1 |
+% page 11.1-2x
+    \tag #'(pageNumber keep) \mark "p11.1-2x"
+    s1 | s1 | s1 | s1 |
+% page 12-2x
+    \tag #'(pageNumber keep) \mark "p12-2x"
+    s1 | s1 | s1 |
+% to Coda 3
+% page30 Coda 3
+    \mark \markup { \musicglyph #"scripts.coda" "3" }
+    \bar "||"
+    \barNumberCheck #235
+    s1 | s1 |
+    \bar "|."
+    \barNumberCheck #237
+}

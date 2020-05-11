@@ -1,0 +1,352 @@
+mychords = \chordmode {
+% page 82 A
+    \barNumberCheck #1
+    e1:m |
+    s4 g4 s4 |
+    e4:m a4 ais4 |
+    b1 |
+    s1 |
+% page 83 B
+    \barNumberCheck #6
+    e1:m |
+    g1 |
+    a1 |
+    b1 |
+% page 83.1
+    e1:m |
+    g1 |
+    a1 |
+% 1x ending
+    d4 g4 e2:m |
+% page 83 B-2x
+    \barNumberCheck #14
+    e1:m |
+    g1 |
+    a1 |
+    b1 |
+% page 83.1-2x
+    e1:m |
+    g1 |
+    a1 |
+% page 84
+    b8 s2. a8 |
+    b8 s2. a8 |
+    b8 s2.. |
+    e4:m s2. |
+    s1 |
+% page 84.1 C
+    \barNumberCheck #26
+    e1:m |
+    s1 |
+    s1 |
+    s4. g2 gis8 |
+% page 85
+    a1 |
+    s1 |
+    a1:m |
+    s1 |
+% page 85.1
+    a8:m s2. ais8 |
+    b1 |
+    s1 |
+% page 86 D Segno
+    \barNumberCheck #37
+    g1:maj7 |
+    a1 |
+    fis1:m7 |
+    b2:m7 d2/a |
+% page 86.1
+    g1:maj7 |
+    a1 |
+    d1 |
+    s1 |
+% page 87
+    g1:maj7 |
+    a1:7/g |
+    fis:m7 |
+    b2:m7 d2/a |
+% page 87.1
+    g1:maj7 |
+    a1:7 |
+    d1:sus4 |
+    d1 |
+% page 88 E
+    \barNumberCheck #53
+    c1:maj7 |
+    s2. c4:maj7/b |
+    a1:m7 |
+    g1 |
+% page 88.1
+    c1:maj7 |
+    s2. c4:maj7/b |
+    a1:m7 |
+    g1 |
+% page 89
+    g1:maj7 |
+    s1 |
+% F
+    \barNumberCheck #63
+    a1:m |
+    s1 |
+% page 89.1
+    e1:m |
+    s1 |
+    fis1 |
+    s1 |
+% page 90
+    fis1 |
+    s1 |
+    b2. c8 b8 |
+    s1 |
+% page 90.1 G
+    \barNumberCheck #73
+    e1:m |
+    s1 |
+    a1:m |
+    s1 |
+% page 91
+    d1 |
+    s1 |
+    g1 |
+    b1 |
+% page 91.1
+    e1:m |
+    s1 |
+    a1:m |
+    s1 |
+    b:7 |
+% page 92
+    b1:7 |
+% H
+    \barNumberCheck #87
+    e1:m |
+    g1 |
+    a1 |
+% page 92.1
+    b1 |
+    e1:m |
+    g1 |
+    a1 |
+% page 93
+    b8 s2. a8 |
+    b8 s2. a8 |
+    b8 s2.. |
+    e1:m |
+    s1 |
+% page 93.1 I
+    \barNumberCheck #99
+    e1:m |
+    s1 |
+    s1 |
+    s4. g2 gis8 |
+% page 94
+    a1 |
+    s1 |
+    a1:m |
+    s1 |
+% page 94.1
+    a2..:m ais8 |
+    b1 |
+    s1 |
+% page 86 D Segno-2x
+    \barNumberCheck #110
+    g1:maj7 |
+    a1 |
+    fis1:m7 |
+    b2:m7 d2/a |
+% page 86.1-2x
+    g1:maj7 |
+    a1 |
+    d1 |
+    s1 |
+% page 87-2x
+    g1:maj7 |
+    a1:7/g |
+    fis:m7 |
+    b2:m7 d2/a |
+% page 87.1-2x
+    g1:maj7 |
+    a1:7 |
+    d1:sus4 |
+    d1 |
+% page 88 E-2x
+    \barNumberCheck #126
+    c1:maj7 |
+    s2. c4:maj7/b |
+    a1:m7 |
+    g1 |
+% page 88.1-2x
+    c1:maj7 |
+    s2. c4:maj7/b |
+    a1:m7 |
+    g1 |
+% page 89-2x
+    g1:maj7 |
+    s1 |
+% F-2x
+    \barNumberCheck #136
+    a1:m |
+    s1 |
+% page 89.1-2x
+    e1:m |
+    s1 |
+    fis1 |
+    s1 |
+% page 90-2x
+    fis1 |
+    s1 |
+    b2. c8 b8 |
+    s1 |
+% page 90.1 G-2x
+    \barNumberCheck #146
+    e1:m |
+    s1 |
+    a1:m |
+    s1 |
+% page 91-2x
+    d1 |
+    s1 |
+    g1 |
+    b1 |
+% page 91.1-2x
+    e1:m |
+    s1 |
+    a1:m |
+    s1 |
+    b1:7 |
+% coda
+    \barNumberCheck #159
+    b1:7
+% page 95 J
+    \barNumberCheck #160
+    a1 |
+    b1 |
+    gis1:m7 |
+    cis1:m |
+% page 95.1
+    a1 |
+    b1 |
+    gis1:m7 |
+    cis2:m e2/b |
+% page 96
+    a1 |
+    b1 |
+    gis1:m7 |
+    cis1:m |
+% page 96.1
+    a1 |
+    b1 |
+    gis1:m7 |
+    cis1 |
+    s1 |
+% page 97 K
+    \barNumberCheck #177
+    e1 |
+    b1 |
+    cis1:m |
+    gis1 |
+% page 97.1
+    cis1:m |
+    b4 s2 gis4 |
+    cis2:m a2 |
+    b2 e2 |
+% page 98
+    e1 |
+    b1 |
+    cis1:m |
+    gis1 |
+% page 98.1
+    cis1:m |
+    b4 s2 gis4 |
+    cis2:m a2 |
+    b2 e2 |
+    s1 |
+% page 99 L
+    \barNumberCheck #194
+% \key g \major
+    c1:maj7 |
+    s2. c4:maj7/b |
+    a1:m7 |
+    g1 |
+% page 99.1
+    c1:maj7 |
+    s2. c4:maj7/b |
+    a1:m7 |
+    g1 |
+% start 1x
+% page 100
+    g1:maj7 |
+% page 99 L-2x
+    \barNumberCheck #203
+    c1:maj7 |
+    s2. c4:maj7/b |
+    a1:m7 |
+    g1 |
+% page 99.1-2x
+    c1:maj7 |
+    s2. c4:maj7/b |
+    a1:m7 |
+    g1 |
+% page 100-2x
+    g1:maj7 |
+    s1 |
+% page 100.1 M
+    \barNumberCheck #213
+    a1:m |
+    s1 |
+    e1:m |
+    s1 |
+% page 101
+    fis1 |
+    s1 | s1 | s1 |
+% page 101.1
+    b4 s2 c8 b8 |
+    s1 |
+    s2. c8 b8 |
+    s1 |
+% page 102 N
+    \barNumberCheck #225
+    e1:m |
+    s1 |
+    a1:m |
+    s1 |
+% page 102.1
+    d1 |
+    s1 |
+    g1 |
+    b1 |
+    e1:m |
+% page 103
+    e1:m |
+    a1:m |
+    s1 |
+    b1:7 |
+    s1 |
+% page 103.1 O
+    \barNumberCheck #239
+    e1:m |
+    g1 |
+    a1 |
+    b1 |
+% page 104
+    e1:m |
+    g1 |
+    a1 |
+    d4 g4 e2:m |
+% page 104.1
+    e1:m |
+    g1 |
+    a1 |
+    b1 |
+% page 105
+    e1:m |
+    g1 |
+    a1 |
+    b8 s2. a8 |
+% page 105.1
+    b8 s2. a8 |
+    b1 |
+    e1:m |
+    s1 |
+    \barNumberCheck #259
+}

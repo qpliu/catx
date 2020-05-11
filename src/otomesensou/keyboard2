@@ -1,0 +1,395 @@
+keyboardTwoPart = \new Voice = "key2b" \new Voice = "key2a" {
+    \context Voice = "key2b" { \voiceTwo }
+% page 82 A
+    \barNumberCheck #1
+    r1 |
+    r2. | r2. |
+    r1 |
+    r1 |
+% page 83 B
+    \barNumberCheck #6
+    \relative {
+	b'8\staccato\startInstrument "Piano" b16 g16 b8\staccato b8\staccato b16 g16 b8\staccato b8\staccato b8\staccato |
+	d8\staccato d16 b16 d8\staccato d8\staccato d16 b16 d8\staccato d8\staccato d8\staccato |
+	e8\staccato e16 cis16 e8\staccato e8\staccato e16 cis16 e8\staccato e8\staccato e8\staccato |
+	fis,16 b16 dis16 fis16 b16 dis16 fis,,16 b16 dis16 fis16 b16 dis16 fis,,16 b16 dis16 fis16 |
+    }
+% page 83.1
+    \relative {
+	b'8\staccato b16 g16 b8\staccato b8\staccato b16 g16 b8\staccato b8\staccato b8\staccato |
+	d8\staccato d16 b16 d8\staccato d8\staccato d16 b16 d8\staccato d8\staccato d8\staccato |
+	e8\staccato e16 cis16 e8\staccato e8\staccato e16 cis16 e8\staccato e8\staccato e8\staccato |
+    }
+% 1x ending
+    \relative {
+	<d' d'>4\staccato <g g'>4\staccato <e e'>4\staccato r4 |
+    }
+% page 83 B-2x
+    \barNumberCheck #14
+    \relative {
+	b'8\staccato b16 g16 b8\staccato b8\staccato b16 g16 b8\staccato b8\staccato b8\staccato |
+	d8\staccato d16 b16 d8\staccato d8\staccato d16 b16 d8\staccato d8\staccato d8\staccato |
+	e8\staccato e16 cis16 e8\staccato e8\staccato e16 cis16 e8\staccato e8\staccato e8\staccato |
+	fis,16 b16 dis16 fis16 b16 dis16 fis,,16 b16 dis16 fis16 b16 dis16 fis,,16 b16 dis16 fis16 |
+    }
+% page 83.1-2x
+    \relative {
+	b'8\staccato b16 g16 b8\staccato b8\staccato b16 g16 b8\staccato b8\staccato b8\staccato |
+	d8\staccato d16 b16 d8\staccato d8\staccato d16 b16 d8\staccato d8\staccato d8\staccato |
+	e8\staccato e16 cis16 e8\staccato e8\staccato e16 cis16 e8\staccato e8\staccato e8\staccato |
+    }
+% page 84
+    \relative {
+	\repeat percent 2 {
+	    <dis'' fis b>4\staccato r4 r4 r8 <cis e a>8 |
+	}
+	<dis fis b>4\staccato r4 r2 |
+	b'8\staccato e,16 e16 r16 e16 r16 d16 e8\staccato e8\staccato r8 b8~ |
+	b8 d8 b8 d8 bes8 a8 g4 |
+    }
+% page 84.1 C
+    \barNumberCheck #26
+    r1 | r1 | r1 |
+    \relative {
+	r4 r8 <g' b>8 r8 <g b>8 r8 <gis bis>8 |
+    }
+% page 85
+    \relative {
+	<a' cis>8 <g b>8 <a cis>4\staccato r2 |
+	<a cis>8 <g b>8 <a cis>8 <cis e>8 r8 <a cis>8 r4 |
+	<a c e>4\staccato r4 r4 r8 c8 |
+	<a c e>4\staccato r4 r2 |
+    }
+% page 85.1
+    \relative {
+	<a' c e>4\staccato r4 r4 <a e'>8 <ais eis'>8 |
+	<b dis fis>4\staccato <b dis fis>4\staccato <b dis fis>4\staccato <b dis fis>4\staccato |
+	<b dis fis>4\staccato r4 r2 |
+    }
+% page 86 D Segno
+    \barNumberCheck #37
+    r1 | r1 | r1 | r1 |
+% page 86.1
+    r1 | r1 | r1 | r1 |
+% page 87
+    r1 | r1 | r1 | r1 |
+% page 87.1
+    r1 | r1 | r1 | r1 |
+% page 88 E
+    \barNumberCheck #53
+    r1 | r1 | r1 | r1 |
+% page 88.1
+    r1 | r1 | r1 | r1 |
+% page 89
+    r1 | r1 |
+% F
+    \barNumberCheck #63
+    r1 | r1 |
+% page 89.1
+    r1 | r1 | r1 | r1 |
+% page 90
+    r1 | r1 | r1 | r1 |
+% page 90.1 G
+    \barNumberCheck #73
+    r1 | r1 | r1 | r1 |
+% page 91
+    r1 | r1 | r1 | r1 |
+% page 91.1
+    r1 | r1 | r1 | r1 | r1 |
+% page 92
+    r1 |
+% H
+    \barNumberCheck #87
+    r1 | r1 | r1 |
+% page 92.1
+    r1 | r1 | r1 | r1 |
+% page 93
+    r1 | r1 | r1 | r1 | r1 |
+% page 93.1 I
+    \barNumberCheck #99
+    r1 | r1 | r1 | r1 |
+% page 94
+    r1 | r1 | r1 | r1 |
+% page 94.1
+    r1 | r1 | r1 |
+% page 86 D Segno-2x
+    \barNumberCheck #110
+    r1 | r1 |
+    \relative {
+	r4 r8 fis'8 \acciaccatura a'8 <b d>8 r16 <a c e>16 r8 fis8 |
+	b16 a16 fis8 d16 b16 fis8 \acciaccatura d8 dis8\staccato r16 \acciaccatura d8 dis16 a4 |
+    }
+% page 86.1-2x
+    \relative {
+	g4 r4 r2 |
+	r1 |
+	r4 r8 \ottava #-1 <a, a'>8 <d d'>8 <g g'>8 <a a'>8 <d d'>8 |
+	\ottava #0 <fis fis'>8 <g g'>8 <a a'>8 <d d'>8 <e e'>8 <fis fis'>4. |
+    }
+% page 87-2x
+    r1 | r1 | r1 | r1 |
+% page 87.1-2x
+    r1 | r1 | r1 | r1 |
+% page 88 E-2x
+    \barNumberCheck #126
+    \relative {
+	\repeat percent 2 {
+	    <e'' g b>1~ |
+	    <e g b>1 |
+	    <c e g b>1 |
+	    <b d g>4. <b d g>8~ <b d g>2 |
+	}
+    }
+% page 89-2x
+    \relative {
+	<b' d fis>1~ |
+	<b d fis>1 |
+    }
+% F-2x
+    \barNumberCheck #136
+    \relative {
+	\repeat percent 2 {
+	    r4 <a' c e>4\staccato <a c e>8 <a c e>8 r8 <a c e>8 |
+	}
+    }
+% page 89.1-2x
+    \relative {
+	\repeat percent 2 {
+	    r4 <g' b e>4\staccato <g b e>8 <g b e>8 r8 <g b e>8 |
+	}
+	\repeat percent 2 {
+	    r4 <fis ais cis>4\staccato <fis ais cis>8 <fis ais cis>8 r8 <fis ais cis>8 |
+	}
+    }
+% page 90-2x
+    \relative {
+	<fis' ais cis>4\staccato r8 <fis ais cis>8\staccato r4 <fis ais cis>4\staccato |
+	r8 <fis ais cis>8\staccato r4 <fis ais cis>4\staccato <d g b>4 |
+	<dis fis b>2. <e g c>8 <dis fis b>8 |
+	r1 |
+    }
+% page 90.1 G-2x
+    \barNumberCheck #146
+    \relative {
+	\repeat percent 2 {
+	    r4 <g' b e>4\staccato <g b e>8 <g b e>8 r8 <g b e>8 |
+	}
+	\repeat percent 2 {
+	    r4 <a c e>4\staccato <a c e>8 <a c e>8 r8 <a c e>8 |
+	}
+    }
+% page 91-2x
+    \relative {
+	\repeat percent 2 {
+	    r4 <fis' a d>4\staccato <fis a d>8 <fis a d>8 r8 <fis a d>8 |
+	}
+	r4 <g b d>4\staccato <g b d>8 <g b d>8 r8 <g b d>8 |
+	r4 <fis b dis>4\staccato <fis b dis>8 <fis b dis>8 r8 <fis b dis>8 |
+    }
+% page 91.1-2x
+    \relative {
+	\repeat percent 2 {
+	    r4 <g' b e>4\staccato <g b e>8 <g b e>8 r8 <g b e>8 |
+	}
+	\repeat percent 2 {
+	    r4 <a c e>4\staccato <a c e>8 <a c e>8 r8 <a c e>8 |
+	}
+	r8 <g c e>8 <fis b dis>4\staccato r8 <g c e>8 <fis b dis>4\staccato |
+    }
+% coda
+    \barNumberCheck #159
+    \relative {
+	r8 <b dis fis>8 <b dis fis>4\staccato r2 |
+    }
+% page 95 J
+    \barNumberCheck #160
+    \relative {
+	<a cis e>1 |
+	\repeat percent 2 {
+	    <b dis fis>1 |
+	}
+	<cis e gis>1 |
+    }
+% page 95.1
+    \relative {
+	<a cis e>1 |
+	<b dis fis>1 |
+	\voiceOne
+	<< { r2 r4 r8 <cis' cis'>16 <cis cis'>16 | } \context Voice = "key2b" { <b, dis fis>1 | } >>
+	<< { <cis' cis'>4 <gis gis'>4 e'2 | } \context Voice = "key2b" { <cis, e gis>2 <gis b e>2 | } >>
+	\oneVoice
+    }
+% page 96
+    \relative {
+	<a cis e>1 |
+	\repeat percent 2 {
+	    <b dis fis>1 |
+	}
+	<cis e gis>1 |
+    }
+% page 96.1
+    \relative {
+	<a cis e>1 |
+	\repeat percent 2 {
+	    <b dis fis>1 |
+	}
+	\ottava #1
+	\voiceOne
+	<< { \repeat unfold 4 { cis''16 cis'16 gis16 eis16 } | } \context Voice = "key2b" { <cis,, eis gis>1 | } >>
+	<< { \repeat unfold 4 { cis''16 cis'16 gis16 eis16 } | } \context Voice = "key2b" { <cis, eis gis>1 | } >>
+	\oneVoice
+	\ottava #0
+    }
+% page 97 K
+    \barNumberCheck #177
+    r1 | r1 | r1 | r1 |
+% page 97.1
+    \relative {
+	r2\startInstrument "Glocken" r4 e''16 fis16 gis16 a16 |
+	b2. bis,16 dis16 e16 fis16 |
+	e1 |
+	r2 b'16 e,16 gis16 b16 e16 gis,16 b16 e16 |
+    }
+% page 98
+    \relative {
+	\ottava #1 gis'''2 r8 gis16 a16 b8 gis8 |
+	fis2 r8 fis16 gis16 a8 fis8 |
+	e2 r8 e16 fis16 gis8 e8 |
+	dis4. cis8 bis8 gis16 cis16 dis16 e16 fis16 dis16 |
+    }
+% page 98.1
+    \relative {
+	cis'''1 |
+    }
+    r1 | r1 | r1 | r1 |
+% page 99 L
+    \barNumberCheck #194
+    \relative {
+	<e''' g b>1~ |
+	<e g b>1 |
+	<c e g b>1 |
+	<a d fis>4. <b d g>8~ <b d g>2 |
+    }
+% page 99.1
+    \relative {
+	<e''' g b>1~ |
+	<e g b>1 |
+	<c e g b>1 |
+	<a d fis>4. <b d g>8~ <b d g>4 <c e a>4 |
+    }
+% start 1x
+% page 100
+    \relative {
+	<b'' d g>1 |
+    }
+% page 99 L-2x
+    \barNumberCheck #203
+    \relative {
+	<e''' g b>1~ |
+	<e g b>1 |
+	<c e g b>1 |
+	<a d fis>4. <b d g>8~ <b d g>2 |
+    }
+% page 99.1-2x
+    \relative {
+	<e''' g b>1~ |
+	<e g b>1 |
+	<c e g b>1 |
+	<a d fis>4. <b d g>8~ <b d g>4 <c e a>4 |
+    }
+% page 100-2x
+    \relative {
+	<b'' d g>1~ |
+	<b d g>1 |
+    }
+% page 100.1 M
+    \barNumberCheck #213
+    \relative {
+	\repeat percent 2 {
+	    r4 <a'' c e>4\staccato <a c e>8 <a c e>8 r8 <a c e>8 |
+	}
+	\repeat percent 2 {
+	    r4 <g b e>4\staccato <g b e>8 <g b e>8 r8 <g b e>8 |
+	}
+    }
+% page 101
+    \relative {
+	\repeat percent 2 {
+	    r4 <fis'' ais cis>4\staccato <fis ais cis>8 <fis ais cis>8 r8 <fis ais cis>8 |
+	}
+	<fis ais cis>4\staccato r8 <fis ais cis>8\staccato r4 <fis ais cis>4\staccato |
+	r8 <fis ais cis>8\staccato r4 <fis ais cis>4\staccato <fis ais cis>4\staccato |
+    }
+% page 101.1
+    \relative {
+	<dis'' fis b>2. <e g c>8 <dis fis b>8 |
+	r1 |
+	<dis fis b>8 <dis fis b>8 r4 r8 <dis fis b>8 <e g c>8 <dis fis b>8 |
+	r1 |
+    }
+% page 102 N
+    \barNumberCheck #225
+    \relative {
+	\repeat percent 2 {
+	    r4 <g'' b e>4\staccato <g b e>8 <g b e>8 r8 <g b e>8 |
+	}
+	\repeat percent 2 {
+	    r4 <a c e>4\staccato <a c e>8 <a c e>8 r8 <a c e>8 |
+	}
+    }
+% page 102.1
+    \relative {
+	\repeat percent 2 {
+	    r4 <fis'' a d>4\staccato <fis a d>8 <fis a d>8 r8 <fis a d>8 |
+	}
+	r4 <g b d>4\staccato <g b d>8 <g b d>8 r8 <g b d>8 |
+	r4 <fis b dis>4\staccato <fis b dis>8 <fis b dis>8 r8 <fis b dis>8 |
+	\repeat percent 2 {
+	    r4 <g b e>4\staccato <g b e>8 <g b e>8 r8 <g b e>8 |
+	}
+    }
+    \relative {
+	\repeat percent 2 {
+	    r4 <a'' c e>4\staccato <a c e>8 <a c e>8 r8 <a c e>8 |
+	}
+	r8 <g c e>8 <fis b dis>4\staccato r8 <g c e>8 <fis b dis>4\staccato |
+	r8 <g c e>8 <fis b dis>4\staccato r2 |
+    }
+% page 103.1 O
+    \barNumberCheck #239
+    \relative {
+	b''8\staccato b16 g16 b8\staccato b8\staccato b16 g16 b8\staccato b8\staccato b8\staccato |
+	d8\staccato d16 b16 d8\staccato d8\staccato d16 b16 d8\staccato d8\staccato d8\staccato |
+	e8\staccato e16 cis16 e8\staccato e8\staccato e16 cis16 e8\staccato e8\staccato e8\staccato |
+	fis,16 b16 dis16 fis16 b16 dis16 fis,,16 b16 dis16 fis16 b16 dis16 fis,,16 b16 dis16 fis16 |
+    }
+% page 104
+    \relative {
+	b''8\staccato b16 g16 b8\staccato b8\staccato b16 g16 b8\staccato b8\staccato b8\staccato |
+	d8\staccato d16 b16 d8\staccato d8\staccato d16 b16 d8\staccato d8\staccato d8\staccato |
+	e8\staccato e16 cis16 e8\staccato e8\staccato e16 cis16 e8\staccato e8\staccato e8\staccato |
+	<d, d'>4\staccato <g g'>4\staccato <e e'>4\staccato r4 |
+    }
+% page 104.1
+    \relative {
+	b''8\staccato b16 g16 b8\staccato b8\staccato b16 g16 b8\staccato b8\staccato b8\staccato |
+	d8\staccato d16 b16 d8\staccato d8\staccato d16 b16 d8\staccato d8\staccato d8\staccato |
+	e8\staccato e16 cis16 e8\staccato e8\staccato e16 cis16 e8\staccato e8\staccato e8\staccato |
+	fis,16 b16 dis16 fis16 b16 dis16 fis,,16 b16 dis16 fis16 b16 dis16 fis,,16 b16 dis16 fis16 |
+    }
+% page 105
+    \relative {
+	b''8\staccato b16 g16 b8\staccato b8\staccato b16 g16 b8\staccato b8\staccato b8\staccato |
+	d8\staccato d16 b16 d8\staccato d8\staccato d16 b16 d8\staccato d8\staccato d8\staccato |
+	e8\staccato e16 cis16 e8\staccato e8\staccato e16 cis16 e8\staccato e8\staccato e8\staccato |
+	\repeat percent 2 {
+	    <dis fis b>4\staccato r4 r4 r8 <cis e a>8 |
+	}
+    }
+    \relative {
+	<dis''' fis b>4\staccato r4 r2 |
+	<e g b>4 r4 r2 |
+	r1 |
+    }
+    \barNumberCheck #259
+}

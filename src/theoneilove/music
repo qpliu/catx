@@ -1,0 +1,72 @@
+% drs vo
+% system1 chorus
+% midi
+% roland
+% PARTS midi
+% MIDIS midiOne
+
+\header {
+    title = "The One I Love"
+    composer = "R.E.M."
+}
+
+\paper {
+%    system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
+}
+
+#(set-global-staff-size 18)
+#(set-default-paper-size "letter" 'portrait)
+
+#(define myDrumStyleTable '(
+    (ridecymbal     cross    #f          5)
+    (crashcymbal    cross    #f          6)
+    (openhihat      cross    "open"      4)
+    (hihat          cross    #f          4)
+    (hightom        default  #f          3)
+    (snare          default  #f          1)
+    (lowmidtom      default  #f          0)
+    (lowtom         default  #f          -1)
+    (bassdrum       default  #f          -3)
+    (pedalhihat     cross    #f          -5)
+))
+
+\include "markup"
+\include "drs"
+\include "vo"
+\include "lyrics"
+\include "chorus"
+\include "choruslyrics"
+
+layoutmusic = <<
+    \tag #'(systemOnePart voPart) \new Staff \with { \RemoveEmptyStaves } <<
+	\markupStuff
+	\voPart
+	\voLyrics
+    >>
+    \tag #'(chorusPart) \new Staff \with { \RemoveEmptyStaves } <<
+	\markupStuff
+	\chorusPart
+	\chorusLyrics
+    >>
+    \tag #'(systemOnePart drsPart chorusPart) \new DrumStaff \with {
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drsPart
+    >>
+>>
+
+midimusicAll = <<
+    \markupStuff
+    \tag #'(midiOne drsPart) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drsPart
+>>
+
+midimusic = <<
+    \keepWithTag #'(drsPart keep) \midimusicAll
+>>
+
+rolandmusic = <<
+    \keepWithTag #'(drsPart keep) \midimusicAll
+>>

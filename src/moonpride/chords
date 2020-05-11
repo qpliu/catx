@@ -1,0 +1,243 @@
+mychords = \chordmode {
+% page 2 Intro
+    \barNumberCheck #1
+    c2..:maj7 d8 |
+    s1 |
+    e2..:m7 f8 |
+    s1 |
+    bes1 |
+    c1 |
+% page 3 A
+    \barNumberCheck #7
+    d4.:m s8 g4:m/d s4 |
+    c4. s8 f4/c s4 |
+    g4:m/d s4 c8/e s4. |
+    d1:m |
+% B
+    d2:m c2 |
+% page 3.1
+    \barNumberCheck #12
+    bes2 f2/a |
+    g2:m c2 |
+    f2 a2 |
+    d2:m c2 |
+    bes2 a2:m |
+% page 4
+    \barNumberCheck #17
+    g2:m a2:m |
+    d1:m |
+% C
+    d1:m |
+    g1:m |
+% page 4.1
+    \barNumberCheck #21
+    c1 |
+    f1 |
+    d1:m |
+    g1:m |
+% page 5
+    \barNumberCheck #25
+    c1 |
+    f2 d2/fis |
+% D
+    g1:m |
+    c1 |
+% page 5.1
+    \barNumberCheck #29
+    f1 |
+    bes1 |
+    e1:m7.5- |
+    e1:7 |
+% page 6
+    \barNumberCheck #33
+    a1 |
+    s1 |
+% E
+    d1:m |
+    bes1 |
+% page 6.1
+    \barNumberCheck #37
+    c1 |
+    f2 a2 |
+    bes8 s2 s4 f8 |
+    s1 |
+% page 7
+    \barNumberCheck #41
+    g1 |
+    a1 |
+    r1 |
+% page 7.1 F
+    \barNumberCheck #44
+    d4.:m g2:m7.11 c8 |
+    s2 f4 c4 |
+    bes2 c4. f8 |
+    s2. c4 |
+% page 8
+    \barNumberCheck #48
+    d4.:m g2:m7.11 c8 |
+    s2 f4 c4 |
+    bes2 c4. d8:sus4 |
+% page 8.1
+    \barNumberCheck #51
+    d2:sus4 d2 |
+% end 1x
+    d2:m c2 |
+    bes2 f2/a |
+    g2:m c2 |
+% page 9
+    \barNumberCheck #55
+    f2 a2 |
+    d2:m c2 |
+    bes2 a2:m |
+    g2:m a2:m |
+    d1:m |
+% C-2x
+    d1:m |
+    g1:m |
+% page 4.1-2x
+    \barNumberCheck #62
+    c1 |
+    f1 |
+    d1:m |
+    g1:m |
+% page 5-2x
+    \barNumberCheck #66
+    c1 |
+    f2 d2/fis |
+% D-2x
+    g1:m |
+    c1 |
+% page 5.1-2x
+    \barNumberCheck #70
+    f1 |
+    bes1 |
+    e1:m7.5- |
+    e1:7 |
+% page 6-2x
+    \barNumberCheck #74
+    a1 |
+    s1 |
+% E-2x
+    d1:m |
+    bes1 |
+% page 6.1-2x
+    \barNumberCheck #78
+    c1 |
+    f2 a2 |
+    bes8 s2 s4 f8 |
+    s1 |
+% page 7-2x
+    \barNumberCheck #82
+    g1 |
+    a1 |
+    r1 |
+% page 7.1 F-2x
+    \barNumberCheck #85
+    d4.:m g2:m7.11 c8 |
+    s2 f4 c4 |
+    bes2 c4. f8 |
+    s2. c4 |
+% page 8-2x
+    \barNumberCheck #89
+    d4.:m g2:m7.11 c8 |
+    s2 f4 c4 |
+    bes2 c4. d8:sus4 |
+% page 8.1-2x
+    \barNumberCheck #92
+    d2:sus4 d2 |
+% page 9.1
+    \barNumberCheck #93
+    r1 | s1 |
+% G
+    d2:m c2 |
+    bes2 f2/a |
+    g2:m c2 |
+% page 10
+    \barNumberCheck #98
+    f2 a2 |
+    d2:m c2 |
+    bes2 f2/a |
+    g2:m a2:m |
+    d4:m c4 bes4 a4 |
+% page 10.1 H
+    \barNumberCheck #103
+    d4:m g4:m c4 f4 |
+    bes4 ees4 a2 |
+    d4:m g4:m c4 f4 |
+    bes4 ees4 a2 |
+% page 11
+    \barNumberCheck #107
+    d4:m g4:m c4 f4 |
+    bes4 ees4 a2 |
+    d4:m g4:m c4 f4 |
+    bes4 a4 d2:m |
+% I
+    bes1 |
+% page 11.1
+    \barNumberCheck #112
+    c1 |
+    a1:m |
+    d2:m c2 |
+    bes1 |
+    c1 |
+% page 12
+    \barNumberCheck #117
+    a1:m |
+    d2:m c2 |
+% J
+    bes8 s2 s4 c8 |
+    s1 |
+    f4. c2/e d8:m7 |
+% page 12.1
+    \barNumberCheck #122
+    d4.:m7 a4/cis a4. |
+    bes8 s2 s4 c8 |
+    s1 |
+% K
+    d4.:m g2:m c8 |
+    s2 f4 c4 |
+% page 13
+    \barNumberCheck #127
+    bes2 c4. f8 |
+    s2. c4 |
+    d4.:m g2:m7.11 c8 |
+    s2 f4 c4 |
+    bes2 c4. d8:sus4 |
+% page 13.1
+    \barNumberCheck #132
+    d2:sus4 d2 |
+% L
+    e4.:m7 a2:m7 d8 |
+    s2 g4 d4 |
+    c2 d4. g8 |
+    s2. d4 |
+% page 14
+    \barNumberCheck #137
+    e4.:m7 a2:m7 d8 |
+    s2 g4 d4 |
+    c2 d4. e8:sus4 |
+    s2 e2 |
+    f1 |
+% page 14.1
+    \barNumberCheck #142
+    g1 |
+    r1 |
+    b4:sus4 b2. |
+% M
+    e2:m d2:6 |
+    c2 g2/b |
+% page 15
+    \barNumberCheck #147
+    a2:m d2 |
+    g2 b2 |
+    e2:m d2 |
+    c2 b2:m |
+% page 15.1
+    \barNumberCheck #151
+    a2:m b2:m |
+    e2.:m b4/dis |
+    e2.:m b4/dis |
+    e2.:m b4/dis |
+    e1:m |
+    \barNumberCheck #156
+}

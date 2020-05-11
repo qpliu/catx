@@ -1,0 +1,169 @@
+keyEightPart = {
+    \compressFullBarRests
+% page 19
+    \override NoteHead.style = #'cross
+    \relative {
+% Lilypond bug.
+%	e''2.\<_"<S.E.1>" r4\! |
+	e''2._"<S.E.1>" r4 |
+    }
+% A
+    \barNumberCheck #2
+    R1*6 |
+    \relative {
+	r2 r4 r8 cis''~\<_"<S.E.2>" |
+	cis2. r4\! |
+    }
+    \revert NoteHead.style
+% B
+    \barNumberCheck #10
+    \relative {
+	\repeat percent 3 {
+	    r8_"<Synth.1>" b' b' e, r e dis e |
+	}
+	r8 b b' e, r dis fis e |
+    }
+% page 19.1
+    \relative {
+	\repeat percent 3 {
+	    r8 b' b' e, r e dis e |
+	}
+	r8 b b' e, r dis fis e |
+    }
+% C
+    \barNumberCheck #18
+    r1 | r1 | r1 | r1 |
+% page 19.2
+    r1 | r1 | r1 | r1 |
+% D
+    \barNumberCheck #26
+    r1 | r1 | r1 |
+% page 19.3
+    r1 | r1 | r1 | r1 | r1 |
+% E
+    \barNumberCheck #34
+    r1 | r1 |
+% page 19.4
+    r1 | r1 | r1 | r1 | r1 | r1 |
+% page 19.5
+    \override NoteHead.style = #'cross
+    \relative {
+	e''2.\<_"<S.E.1>" r4\! |
+    }
+    \revert NoteHead.style
+    \repeat volta 2 {
+% F
+	\mybarNumberCheck #43
+	r1 | r1 | r1 | r1 | r1 |
+% page 20
+	r1 | r1 | r1 |
+% G
+	\mybarNumberCheck #51
+	r1 | r1 | r1 |
+% page 20.1
+	r1 | r1 | r1 | r1 |
+    } \alternative { {
+	r1 |
+% H
+	\mybarNumberCheck #59
+	\repeat percent 3 {
+	    \relative {
+		r8_"<Synth.1>" b' b' e, r e dis e |
+	    }
+	}
+% page 20.2+2
+	\relative {
+	    r8 b' b' e, r dis fis e |
+	    \repeat percent 3 {
+		r8 b b' e, r e dis e |
+	    }
+	}
+% page 20.3
+	\relative {
+	    r8 b' b' e, r dis fis e |
+	}
+% I
+	\mybarNumberCheck #67
+	r1 | r1 | r1 | r1 | r1 | r1 |
+% page 20.4
+	r1 | r1 |
+% J
+	\mybarNumberCheck #75
+	r1 | r1 | r1 | r1 | r1 |
+% page 20.5
+	r1 | r1 | r1 | r1 |
+    } {
+	\override NoteHead.style = #'cross
+	\relative {
+	    r2_"<S.E.3>" r4 fis'\< |
+	}
+	\revert NoteHead.style
+    } }
+% K
+    \mybarNumberCheck #85
+    r1\! |
+% page 21
+    \override NoteHead.style = #'cross
+    \relative {
+	r4_"<Scratch>" r8 gis'16 gis gis gis8. r4 |
+	gis16 gis gis gis r4 r r16 gis gis gis |
+	r2 cis16 b a gis fis4 |
+	r1 |
+	r4 r8 gis16 gis gis gis8. r4 |
+	gis16 gis gis gis r4 r r16 gis gis gis |
+    }
+% page 21.1
+    \relative {
+	r2 cis''16 b a gis fis4 |
+	r1 |
+	r4 r8 gis16 gis gis gis8. r4 |
+	gis16 gis gis gis r4 r r16 gis gis gis |
+	r2 cis16 b a gis fis4 |
+	r1 |
+    }
+% page 21.2
+    r1 | r1 |
+    \relative {
+	r2_"<S.E.4>" r4 r8 b''~ |
+	b1~ |
+	b1 |
+    }
+% L
+    \mybarNumberCheck #103
+    r1 | r1 |
+% page 21.3
+    r1 | r1 | r1 | r1 | r1 |
+    \relative {
+	r4_"<S.E.1>" e''2.\< |
+    }
+    \revert NoteHead.style
+% page 21.4
+    r1\! |
+% M
+    \mybarNumberCheck #112
+    r1 | r1 | r1 | r1 | r1 |
+% page 21.5
+    r1 | r1 | r1 |
+% N
+    \mybarNumberCheck #120
+    r1 | r1 | r1 |
+% page 22
+    r1 | r1 | r1 | r1 | r1 |
+% page 22.1 O
+    \mybarNumberCheck #128
+    \relative {
+	fis'4._"<Synth.1>" fis'8~ fis4 eis8 cis~ |
+	cis8 dis4 cis8~ cis ais b cis~ |
+	cis8 b ais gis~ gis cis b ais~ |
+	ais8 b4 cis8~ cis eis, fis4 |
+	fis'4. eis8~ eis fis gis fis~ |
+    }
+% page 22.2
+    \relative {
+	fis''8 ais b ais~ ais ais gis fis~ |
+	fis fis cis' fis, gis fis eis fis~ |
+	fis4. fis'8~ fis2 |
+    }
+    r1 | r1 |
+    \mybarNumberCheck #138
+}

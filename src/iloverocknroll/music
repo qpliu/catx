@@ -1,0 +1,70 @@
+% drs vo
+% system1
+% midi
+% roland
+% PARTS midi
+% MIDIS midiOne
+% ROBOT preview=19
+
+\header {
+    title = "I Love Rock 'N Roll"
+    composer = "Joan Jett & the Blackhearts"
+}
+
+\paper {
+%    system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
+}
+
+#(set-global-staff-size 20)
+#(set-default-paper-size "letter" 'portrait)
+
+\include "markup"
+\include "drs"
+\include "vo"
+\include "lyrics"
+\include "chorus"
+\include "choruslyrics"
+
+layoutmusic = <<
+    \tag #'(systemOnePart voPart) \new Staff \with { \RemoveEmptyStaves } <<
+	\markupStuff
+	\voPart
+	\voLyrics
+%	\chorusPart
+%	\chorusLyrics
+    >>
+    \tag #'(systemOnePart drsPart) \new DrumStaff \with {
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drsPart
+    >>
+>>
+
+midimusicAll = <<
+    \markupStuff
+    \tag #'(midiOne voPart) \new Staff \with {
+	midiInstrument = #"steel drums"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #1
+    } \voPart
+    \tag #'(midiOne drsPart) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drsPart
+>>
+
+midimusic = <<
+    \midimusicAll
+>>
+
+rolandmusic = <<
+    \markupStuff
+    \tag #'(rolandMelody) \new Staff \with {
+	midiInstrument = #"steel drums" % 114
+    } <<
+	\voPart
+    >>
+    \tag #'(rolandDrums) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drsPart
+>>

@@ -1,0 +1,38 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \tempo 4 = 160
+    \key g \major
+    \mark "Intro"
+    s1 s1 s1 s1 \break |
+    s1 s1 s1 s1 \break |
+    \mark "Verse 1"
+    \bar "||"
+    s1 s1 s1 s1 \break |
+    s1 s1 s1 s1 \break |
+    \mark "Chorus 1"
+    \repeat volta 2 {
+	s1 s1 s1 s1 \break |
+    }
+    \mark "Verse 2"
+    s1 s1 s1 s1 \break |
+    s1 s1 s1 s1 \break |
+    \mark "Chorus 2"
+    \repeat volta 2 {
+	s1 s1 s1 s1 \break |
+    }
+    \mark "Verse 3"
+    s1 s1 s1 s1 \break |
+    s1 s1 s1 s1 \break |
+    \mark "Chorus 3"
+    \repeat volta 2 {
+	s1 s1 s1 s1 \break |
+	s1 s1 s1 s1 \break |
+    }
+    \mark "Guitar Solo"
+    \repeat volta 2 {
+	s1 s1 s1 s1 \break |
+	s1 s1 s1 s1 \break |
+    }
+    s1 s1 |
+    \bar "|."
+}

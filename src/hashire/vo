@@ -1,0 +1,272 @@
+voPart = \new Voice = "vo" {
+% page 2
+    \relative {
+	r2 r4 r8 fis' |
+    }
+% A
+    \mybarNumberCheck #2
+    \relative {
+	gis'4 e8 e~ e b4 fis'8~ |
+	fis8 e dis e r b e fis |
+	gis4 e8 e~ e b4 b'8~ |
+    }
+% page 3
+    \relative {
+	b'8 a gis gis r gis a b |
+	r8 b cis b r e, fis gis |
+	r8 gis a gis r gis fis e |
+	r8 e b' e, r e dis e~ |
+    }
+% page 3.1
+    \relative {
+	e'2. r4 |
+    }
+% B
+    \mybarNumberCheck #10
+    r1 | r1 | r1 |
+% page 4
+    r1 | r1 | r1 | r1 |
+% page 4.1
+    r1 |
+% C
+    \mybarNumberCheck #18
+    \relative {
+	fis'8 gis4. r8 e e dis~ |
+	dis8 e r b cis b e fis |
+	gis4 e8 e~ e e e dis~ |
+	dis8 e r b e b e fis |
+    }
+% page 5
+    \relative {
+	gis'8 r e e~ e e e dis~ |
+	dis8 e r b e dis e fis |
+	gis4 e8 e e4 e8 e |
+	fis8 e dis e r2 |
+    }
+% D
+    \mybarNumberCheck #26
+    \relative {
+	e'2~ e8 dis4 e8 |
+    }
+% page 5.1
+    \relative {
+	b4. e8~ e fis4 e8 |
+	gis8 e r e e e dis e |
+	r8 e fis e r b e fis |
+	gis8 gis e e e e dis e~ |
+	e4 r8 e8 fis e dis e |
+    }
+% page 6
+    \relative {
+	fis'8 e fis e fis fis dis e |
+	fis8 e dis e~ e4 r |
+    }
+% E
+    \mybarNumberCheck #34
+    \relative {
+	e'16 e e e e e e8 cis e r e |
+	fis16 e e8 fis gis16 gis fis fis e8 r b16 b |
+    }
+% page 6.1
+    \relative {
+	e'16 e e e e8 e fis fis r e |
+	b'8 e, fis gis a e r b16 b |
+	gis'16 gis gis gis fis8 gis16 gis fis fis e8 r e |
+	fis8 e fis gis a e r e |
+    }
+% page 7
+    \relative {
+	fis'4 e8 fis~ fis b fis g~ |
+	g8 r g a~ a g a e |
+	fis2. r8 fis |
+    }
+    \repeat volta 2 {
+% F
+	\mybarNumberCheck #43
+	\relative {
+	    gis'4 e8 e~ e b4 fis'8~ |
+	}
+% page 7.1
+	\relative {
+	    fis'8 e dis e r b e fis |
+	    gis4 e8 e~ e b4 b'8~ |
+	    b8 a gis gis r gis a b |
+	    r8 b cis b r e, fis gis |
+	}
+% page 8
+	\relative {
+	    r8 gis' a gis r gis fis e |
+	    r8 e b' e, r e dis e~ |
+	    e4 r8 b cis b e fis |
+	}
+% G
+	\mybarNumberCheck #51
+	\relative {
+	    gis'4 e8 e~ e b4 fis'8~ |
+	}
+% page 8.1
+	\relative {
+	    fis'8 e dis e r b e fis |
+	    gis4 e e8 b b b'~ |
+	    b8 a gis gis r gis a b |
+	    r8 b cis b r e, fis gis |
+	}
+% page 9
+	\relative {
+	    r8 gis'8 a gis r gis fis e |
+	    r8 e b' e, r e dis e~ |
+	}
+    } \alternative { {
+	\relative {
+	    e'2. r4 |
+	}
+% H
+	\mybarNumberCheck #59
+	r1 |
+% page 9.1
+	r1 | r1 | r1 | r1 |
+% page 10
+	r1 | r1 | r1 |
+% I
+	\mybarNumberCheck #67
+	\relative {
+	    e'16 e e8 e e16 e e e fis fis e8 b16 b |
+	}
+% page 10.1
+	\relative {
+	    e'16 e e8 e16 e e e fis fis e8 r b |
+	    e16 e e e e e e e b b e8 r b |
+	    e4 fis8 e fis e r e |
+	    e4 b8 e~ e b e4 |
+	}
+% page 11
+	\relative {
+	    b8 e4 e8 e e dis e |
+	    r8 e e e e e e e |
+	    e8 e fis e fis e4 r8 |
+	}
+% J
+	\mybarNumberCheck #75
+	\relative {
+	    gis'4 e8 e~ e e4 e8 |
+	    dis8 e r e16 e e e e e dis8 e |
+	}
+% page 11.1
+	\relative {
+	    r8 e' e e e e e4 |
+	    e8 e fis e fis e r e |
+	    e4 cis8 e~ e cis e4 |
+	    cis8 e4 e8 fis e fis e |
+	    r8 e e e fis fis fis g |
+	}
+% page 12
+	\relative {
+	    r8 fis' g a~ a a g fis~ |
+	    fis2. r8 fis |
+	}
+    } {
+	\relative {
+	    e'2.\repeatTie r4 |
+	}
+    } }
+% K
+    \mybarNumberCheck #85
+    \relative {
+	c''8 g16 g c c g g c8 c r c,16 c |
+    }
+% page 12.1
+    \relative {
+	c'16 c c c c c c c b8 c r fis |
+	b16 b b b b b b b fis fis b8 r b, |
+	b16 b b b b b b b b b b b b a b8 |
+    }
+% page 13
+    \relative {
+	\repeat unfold 16 c''16 |
+	\repeat unfold 12 c16 g8 c |
+	dis, dis b dis b dis b dis |
+	b8 dis b b dis b b dis |
+    }
+% page 13.1
+    \relative {
+	c''8 c b c b c c c |
+	b8 c16 c c8 c c c b c |
+	r8 b, dis b b b dis b |
+	b8 b b dis b b dis b |
+    }
+% page 14
+    \relative {
+	r8 a' a a a a a4 |
+	b,8 b b b~ b b a b |
+	r8 c' c c c c c c |
+	d8 d d b d b d b~ |
+    }
+% page 14.1
+    \relative {
+	b'1~ |
+	b4 r8 b, e b e fis |
+    }
+% L
+    \mybarNumberCheck #103
+    \relative {
+	gis'4 e8 e~ e b4 fis'8~ |
+	fis8 e dis e r b e fis |
+    }
+% page 15
+    \relative {
+	gis'4 e8 e~ e b b b'~ |
+	b8 a gis gis r gis a b |
+	r4 cis8 b r e, fis gis~ |
+	gis8 gis a gis~ gis gis fis e |
+    }
+% page 15.1
+    \relative {
+	r8 e' b' e,~ e e dis e~ |
+	e1 |
+	r2 r4 r8 gis |
+    }
+% M
+    \mybarNumberCheck #112
+    \relative {
+	ais'4 fis8 fis~ fis cis4 gis'8~ |
+    }
+% page 16
+    \relative {
+	gis'8 fis eis fis r cis fis gis |
+	ais4 fis8 fis~ fis cis4 cis'8~ |
+	cis8 b ais ais r ais b cis |
+	r8 cis dis cis r fis, gis ais |
+    }
+% page 16.1
+    \relative {
+	r8 ais' b ais r ais gis fis |
+	r8 fis cis' fis, r fis eis fis~ |
+	fis4 r8 cis8 dis cis fis gis |
+    }
+% N
+    \mybarNumberCheck #120
+    \relative {
+	ais'4 fis8 fis~ fis cis4 gis'8~ |
+    }
+% page 17
+    \relative {
+	gis'8 fis eis fis r cis fis gis |
+	ais4 fis fis8 cis cis cis'~ |
+	cis8 b ais ais r ais b cis |
+	r8 cis dis cis r fis, gis ais |
+    }
+% page 17.1
+    \relative {
+	r8 ais' b ais r ais gis fis |
+	r8 fis cis' fis, r fis eis fis~ |
+	fis2. r4 |
+    }
+% O
+    \mybarNumberCheck #128
+    r1 |
+% page 18
+    r1 | r1 | r1 | r1 |
+% page 18.1
+    r1 | r1 | r1 | r1 | r1 |
+    \mybarNumberCheck #138
+}

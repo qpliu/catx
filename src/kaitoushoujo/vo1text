@@ -1,0 +1,148 @@
+[TEXT_PREFIX]voOneText = {
+% page 2
+    `>synthvoice=program54;volume1`1 |
+% A
+    \barNumberCheck #2
+    r1 | r1 | r1 |
+% page 3
+    r1 | r1 | r1 | r1 |
+% page 3.1
+    r1 |
+% B
+    \barNumberCheck #10
+    r1 | r1 | r1 |
+% page 4
+    r1 | r1 |
+    r2 `deadNote=vol.2`8 `deadNote`4. |
+    r1 |
+% page 4.1
+    r1 |
+% C
+    \barNumberCheck #18
+    r1 | r1 | r1 |
+% page 5
+    r1 | r1 | r1 | r1 |
+% page 5.1
+    r1 |
+% D Stegno1
+    \barNumberCheck #26
+    r1 | r1 | r1 |
+% page 6
+    r1 | r1 | r1 | r1 |
+% page 6.1
+    r1 | r1 |
+% E Stegno2
+    \barNumberCheck #35
+    r1 | r1 |
+% page 7
+    r1 | r1 | r1 | r1 |
+% page 7.1
+    r1 | r1 | r1 | r1 |
+% page 8
+    r1 | r1 | r1 | r1 |
+% page 8.1
+    r1 |
+% to Coda1,2
+    r1 |
+% F
+    \barNumberCheck #51
+    r1 | r1 |
+% page 9
+    r1 | r1 |
+% G
+    \barNumberCheck #55
+    r1 | r1 |
+% page 9.1
+    r1 | r1 |
+    r2 `deadNote`8 `deadNote` `deadNote`4 |
+    `deadNote`8 `deadNote` `deadNote` `deadNote` `deadNote`4 `deadNote` |
+% page 10
+    `deadNote`4 `deadNote` `deadNote` `deadNote` |
+    `deadNote`4 `deadNote` `deadNote` `deadNote`~ |
+% D.S.1
+% D Stegno1-2x
+    \barNumberCheck #63
+    `deadNote`2 r2 |
+    r1 | r1 |
+% page 6-2x
+    r1 | r1 | r1 | r1 |
+% page 6.1-2x
+    r1 | r1 |
+% E Stegno2-2x
+    \barNumberCheck #72
+    r1 | r1 |
+% page 7-2x
+    r1 | r1 | r1 | r1 |
+% page 7.1-2x
+    r1 | r1 | r1 | r1 |
+% page 8-2x
+    r1 | r1 | r1 | r1 |
+% page 8.1-2x
+    r1 |
+% to Coda1,2
+% page 10 Coda1
+    \barNumberCheck #87
+    r1 |
+% H
+    \barNumberCheck #88
+    r1 | r1 |
+% page 10.1
+    r1 |
+    `deadNote`4 `deadNote` `deadNote` `deadNote`~ |
+% I
+    \barNumberCheck #92
+    `deadNote`4 r r2 |
+    r1 |
+% page 11
+    r1 | r1 | r1 | r1 |
+% page 11.1
+    r1 | r1 | r1 | r1 |
+% page 12
+    r1 | r1 | r1 | r1 |
+% page 12.1
+    r1 | r1 |
+% J repeat
+    \barNumberCheck #108
+    r1 |
+% page 13
+    r1 | r1 | r1 |
+% page 13.1
+    r1 | r1 |
+% ending 1
+    r1 |
+% page 14
+    r1 |
+% end repeat
+% J repeat-2x
+    \barNumberCheck #116
+    r1 |
+% page 13-2x
+    r1 | r1 | r1 |
+% page 13.1-2x
+    r1 | r1 |
+% page 14
+    r1 | r1 | r1 |
+% E Stegno2-3x
+    \barNumberCheck #125
+    r1 | r1 |
+% page 7-3x
+    r1 | r1 | r1 | r1 |
+% page 7.1-3x
+    r1 | r1 | r1 | r1 |
+% page 8-3x
+    r1 | r1 | r1 | r1 |
+% page 8.1-3x
+    r1 |
+% to Coda1,2
+% page 14.1 Coda2
+    \barNumberCheck #140
+    r1 |
+% K
+    \barNumberCheck #141
+    r1 | r1 |
+% page 15
+    r1 | r1 | r1 |
+% page 15.1
+    r1 | r1 | r1 | r1 |
+    \barNumberCheck #150
+}

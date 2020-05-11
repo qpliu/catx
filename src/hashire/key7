@@ -1,0 +1,119 @@
+keySevenPart = {
+    \compressFullBarRests
+% page 19
+    r1 |
+% A
+    \barNumberCheck #2
+    R1*6 |
+    r1 | r1 |
+% B
+    \barNumberCheck #10
+    r1 | r1 | r1 | r1 |
+% page 19.1
+    r1 | r1 | r1 |
+    \relative {
+	r8_"<Synth.1>" e''\staccato r e\staccato gis\staccato a\staccato fis\staccato gis\staccato |
+    }
+% C
+    \barNumberCheck #18
+    r1 | r1 | r1 | r1 |
+% page 19.2
+    r1 | r1 | r1 |
+    \relative {
+	r8 <e' e'>\staccato <dis dis'>\staccato <e e'>\staccato <e' e'>\staccato <dis dis'>\staccato <b b'>\staccato <gis gis'>\staccato |
+    }
+% D
+    \barNumberCheck #26
+    r1 | r1 | r1 |
+% page 19.3
+    r1 | r1 | r1 | r1 | r1 |
+% E
+    \barNumberCheck #34
+    r1 | r1 |
+% page 19.4
+    r1 | r1 | r1 | r1 | r1 | r1 |
+% page 19.5
+    r1 |
+    \repeat volta 2 {
+% F
+	\mybarNumberCheck #43
+	r1 | r1 | r1 | r1 | r1 |
+% page 20
+	r1 | r1 |
+	\relative {
+	    e'8\staccato_"<Synth.1>" e'\staccato dis\staccato b\staccato gis\staccato e\staccato gis\staccato b\staccato |
+	}
+% G
+	\mybarNumberCheck #51
+	r1 | r1 | r1 |
+% page 20.1
+	r1 | r1 | r1 | r1 |
+    } \alternative { {
+	\relative {
+	    e'8\staccato e'\staccato dis\staccato e\staccato fis\staccato e\staccato dis\staccato fis\staccato |
+	}
+% H
+	\mybarNumberCheck #59
+	\relative {
+	    e''4\staccato r r2 |
+	}
+% page 20.2
+	r1 | r1 | r1 | r1 | r1 | r1 |
+% page 20.3
+	\relative {
+	    r8_"<Synth.1>" e''\staccato r e\staccato gis\staccato a\staccato fis\staccato gis\staccato |
+	}
+% I
+	\mybarNumberCheck #67
+	r1 | r1 | r1 | r1 | r1 | r1 |
+% page 20.4
+	r1 | r1 |
+% J
+	\mybarNumberCheck #75
+	r1 | r1 | r1 | r1 | r1 |
+% page 20.5
+	r1 | r1 | r1 | r1 |
+    } {
+	\relative {
+	    e'8\staccato e'\staccato dis\staccato e\staccato fis\staccato e\staccato dis\staccato fis\staccato |
+	}
+    } }
+% K
+    \mybarNumberCheck #85
+    r1 |
+% page 21
+    r1 | r1 | r1 | r1 | r1 | r1 |
+% page 21.1
+    r1 | r1 | r1 | r1 | r1 | r1 |
+% page 21.2
+    r1 | r1 | r1 | r1 | r1 |
+% L
+    \mybarNumberCheck #103
+    r1 | r1 |
+% page 21.3
+    r1 | r1 | r1 | r1 | r1 | r1 |
+% page 21.4
+    r1 |
+% M
+    \mybarNumberCheck #112
+    r1 | r1 | r1 | r1 | r1 |
+% page 21.5
+    r1 | r1 |
+    \relative {
+	fis'8\staccato_"<Synth.1>" fis'\staccato eis\staccato cis\staccato ais\staccato gis\staccato ais\staccato cis\staccato |
+    }
+% N
+    \mybarNumberCheck #120
+    r1 | r1 | r1 |
+% page 22
+    r1 | r1 | r1 | r1 |
+    \relative {
+	fis'8\staccato fis'\staccato eis\staccato fis\staccato gis\staccato fis\staccato eis\staccato dis\staccato |
+    }
+% page 22.1 O
+    \mybarNumberCheck #128
+    r1 | r1 | r1 | r1 | r1 |
+% page 22.2
+    r1 | r1 | r1 | r1 | r1 |
+    \mybarNumberCheck #138
+}

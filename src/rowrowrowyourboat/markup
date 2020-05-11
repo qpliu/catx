@@ -1,0 +1,15 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \time 6/8
+    \tempo 8 = 150
+    \repeat volta 2{
+	s2. |
+	s2. |
+	s2. |
+	s2. |
+	s2. |
+	s2. |
+	s2. |
+	s2. |
+    }
+}

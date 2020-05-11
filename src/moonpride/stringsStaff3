@@ -1,0 +1,190 @@
+stringsPartStaffThree = {
+    \compressFullBarRests
+    \clef bass
+% page 20 Intro
+    \barNumberCheck #1
+    R1*4 |
+    r1 | r1 |
+% A
+    \barNumberCheck #7
+    r1 | r1 | r1 |
+% page 20.1
+    r1 |
+% B
+    \barNumberCheck #11
+    \relative {
+	d2 c2 |
+	bes2 a2 |
+	g2 c2 |
+	f,2 a2 |
+	d2 c2 |
+% page 20.2
+	bes2 a2 |
+	g2 a2 |
+	d8\staccato d8 cis8 f8 e8 bes'8 a8 g8 |
+% C
+	\barNumberCheck #19
+	f4\staccato r4 r2 |
+	r1 |
+% page 20.3
+	R1*5 |
+	r1 |
+% D
+	\barNumberCheck #27
+	r1 |
+	R1*2 |
+	r1 |
+% page 20.4
+	r1 | r1 | r1 | r1 |
+% E
+	\barNumberCheck #35
+	r1 |
+    }
+% page 21
+    r1 | r1 | r1 | r1 | r1 |
+% page 21.1
+    r1 | r1 | r1 |
+% F
+    \barNumberCheck #44
+    \relative {
+	d4. g,8~ g4. c8~ |
+	c2 f4 c4 |
+% page 21.2
+	bes2 c4. f8~ |
+	f2 f4\staccato c4\staccato |
+	d4. g,8~ g4. c8~ |
+	c2 f4 c4 |
+	bes2 c4. d8~ |
+% page 21.3
+	d2 d2 |
+% 1x ending
+	r1 |
+	r1 |
+	r1 |
+	r1 |
+% page 21.4
+	r1 |
+	r1 |
+	r1 |
+	r8 d8:32 cis8:32 f8:32 e8:32 bes'8:32 a8:32 cis8:32 |
+    }
+% C-2x
+    \barNumberCheck #60
+    \relative {
+	d'4\staccato r4 r2 |
+    }
+    r1 |
+% page 20.3-2x
+    R1*5 |
+    r1 |
+% D-2x
+    \barNumberCheck #68
+    r1 |
+    R1*2 |
+    r1 |
+% page 20.4-2x
+    r1 | r1 | r1 | r1 |
+% E-2x
+    \barNumberCheck #76
+    r1 |
+% page 21-2x
+    r1 | r1 | r1 | r1 | r1 |
+% page 21.1-2x
+    r1 | r1 | r1 |
+% F-2x
+    \barNumberCheck #85
+    \relative {
+	d4. g,8~ g4. c8~ |
+	c2 f4 c4 |
+% page 21.2
+	bes2 c4. f8~ |
+	f2 f4\staccato c4\staccato |
+	d4. g,8~ g4. c8~ |
+	c2 f4 c4 |
+	bes2 c4. d8~ |
+% page 21.3
+	d2 d2 |
+% page 21.4-2x
+	e'8 a,8 b8 d8 g,8 a8 c8 f,8 |
+    }
+% page 22
+    \relative {
+	g8 bes8 ees,8 f8 a,8 c16 cis16 d16 e16 f16 g16 |
+% G
+	\barNumberCheck #95
+	a4\staccato r4 r2 |
+	r1 | r1 | r1 |
+% page 22.1
+	d,4\staccato r4 r2 |
+	r1 | r1 |
+	d4 c4 bes4 a4 |
+% H
+	\barNumberCheck #103
+	\repeat percent 3 {
+	    d4 g4 c,4 f4 |
+% page 22.2
+	    bes,4 ees4 a,2 |
+	}
+% page 22.3
+	d4 g4 c,4 f4 |
+	bes,4 a4 d4 r4 |
+% I
+	\barNumberCheck #111
+	r1 | r1 | r1 | r1 |
+% page 22.4
+	r1 | r1 | r1 | r1 |
+% J
+	\barNumberCheck #119
+	r1 | r1 |
+    }
+% page 23
+    r1 | r1 | r1 | r1 |
+% K
+    \barNumberCheck #125
+    \relative {
+	d4. a'8~ a4. g8~ |
+% page 23.1
+	g2 f4 g4 |
+	f4. bes8 g4. f8~ |
+	f8 f8 f4\staccato f4\staccato c4\staccato |
+	d4. g,8~ g4. c8~ |
+	c2 f4 c4 |
+% page 23.2
+	bes2 c4. d8~ |
+	d2 d2 |
+% L
+	\barNumberCheck #133
+	e4. a,8~ a4. d8~ |
+	d2 g4 d4 |
+	c2 d4. g8~ |
+% page 23.3
+	g2 g4\staccato d4\staccato |
+	e4. a,8~ a4. d8~ |
+	d2 g4 d4 |
+	c2 d4. e8~ |
+	e2 e2 |
+% page 23.4
+	f4\staccato f4\staccato f4\staccato f4\staccato |
+	g4\staccato g4\staccato g4\staccato g8 g8 |
+	r1 |
+	b,4 b2. |
+% M
+	\barNumberCheck #145
+	e2 d2 |
+    }
+% page 24
+    \relative {
+	c2 b2 |
+	a2 d2 |
+	g,2 b2 |
+	e2 d2 |
+	c2 b2 |
+% page 24.1
+	a2 b2 |
+	\repeat percent 3 {
+	    e,4\staccato r8 e8 r4 dis4 |
+	}
+	e'2 r2 |
+    }
+    \barNumberCheck #156
+}

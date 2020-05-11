@@ -1,0 +1,43 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \tempo 4 = 130
+    \mark "Intro"
+    \repeat volta 4 {
+	s2. s4^"4x" |
+    }
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    \mark "Verse 1"
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    \mark "Chorus 1"
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    \repeat volta 4 {
+	s2. s4^"4x" |
+    }
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    \mark "Verse 2"
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    \mark "Chorus 2"
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    \mark "Outro"
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    \bar "|."
+}

@@ -1,0 +1,239 @@
+markupStuff = {
+% page 106 Intro.1
+    \mark \markup { \box \bold "Intro.1" }
+    \bar "||"
+    \key g \major
+    \tempo 4 = 168
+    \barNumberCheck #1
+    s1 | s1 | s1 | s1 |
+% page 107
+    \tag #'(pageNumber keep) \mark "p107"
+    s1 | s1 | s1 | s1 |
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat
+    \mark \markup { \box \bold "Intro.2" }
+    \bar "||"
+    \barNumberCheck #9
+    s1 | s1 | s1 | s1 |
+% page 108
+    \tag #'(pageNumber keep) \mark "p108"
+    s1 | s1 | s1 |
+% to Coda2
+    s1 |
+% to Coda3
+% page 108.1 A
+    \mark \markup { \box \bold "A" }
+    \bar "||"
+    \barNumberCheck #17
+    s1 | s1 | s1 | s1 |
+% page 109
+    \tag #'(pageNumber keep) \mark "p109"
+    s1 | s1 |
+% ending1
+    s1 |
+% page 109.1
+    \tag #'(pageNumber keep) \mark "p109.1"
+    s1 |
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-2x
+    \mark \markup { \box \bold "Intro.2-2x" }
+    \bar "||"
+    \barNumberCheck #25
+    s1 | s1 | s1 | s1 |
+% page 108-2x
+    \tag #'(pageNumber keep) \mark "p108-2x"
+    s1 | s1 | s1 | s1 |
+% page 108.1 A-2x
+    \mark \markup { \box \bold "A-2X" }
+    \bar "||"
+    \barNumberCheck #33
+    s1 | s1 | s1 | s1 |
+% page 109-2x
+    \tag #'(pageNumber keep) \mark "p109-2x"
+    s1 | s1 |
+% ending2
+    s1 | s1 |
+% page 110 B Stegno1
+    \mark \markup { \box \bold "B" }
+    \bar "||"
+    \barNumberCheck #41
+    s1 | s1 | s1 | s1 |
+% page 110.1
+    \tag #'(pageNumber keep) \mark "p110.1"
+    s1 | s1 | s1 | s1 |
+% page 111
+    \tag #'(pageNumber keep) \mark "p111"
+    s1 | s1 | s1 | s1 |
+% page 111.1 C
+    \mark \markup { \box \bold "C" }
+    \bar "||"
+    \barNumberCheck #53
+    s1 | s1 | s1 | s1 |
+% page 112
+    \tag #'(pageNumber keep) \mark "p112"
+    s1 | s1 | s1 | s1 |
+% page 112.1 D
+    \mark \markup { \box \bold "D" }
+    \bar "||"
+    \barNumberCheck #61
+    s1 | s1 | s1 | s1 |
+% page 113
+    \tag #'(pageNumber keep) \mark "p113"
+    s1 | s1 | s1 | s1 |
+% page 113.1
+    \tag #'(pageNumber keep) \mark "p113.1"
+    s1 | s1 | s1 | s1 |
+% page 114
+    \tag #'(pageNumber keep) \mark "p114"
+    s1 | s1 | s1 | s1 |
+% page 114.1
+    \tag #'(pageNumber keep) \mark "p114.1"
+    s1 | s1 | s1 |
+% to Coda1
+    s1 |
+% page 115 E
+    \mark \markup { \box \bold "E" }
+    \bar "||"
+    \barNumberCheck #81
+    s1 | s1 | s1 | s1 |
+% page 115.1 F
+    \mark \markup { \box \bold "F" }
+    \bar "||"
+    \barNumberCheck #85
+    s1 | s1 | s1 | s1 |
+% page 116
+    \tag #'(pageNumber keep) \mark "p116"
+    s1 | s1 | s1 | s1 |
+% page 116.1 G
+    \mark \markup { \box \bold "G" }
+    \bar "||"
+    \barNumberCheck #93
+    s1 | s1 | s1 | s1 |
+% page 117
+    \tag #'(pageNumber keep) \mark "p117"
+    s1 | s1 | s1 | s1 |
+% page 117.1
+    \tag #'(pageNumber keep) \mark "p117.1"
+    s1 | s1 | s1 | s1 |
+% page 118
+    \tag #'(pageNumber keep) \mark "p118"
+    s1 | s1 | s1 | s1 |
+% page 118.1 H
+    \mark \markup { \box \bold "H" }
+    \bar "||"
+    \barNumberCheck #109
+    s1 | s1 | s1 | s1 |
+% page 119
+    \tag #'(pageNumber keep) \mark "p119"
+    s1 | s1 | s1 | s1 |
+% page 119.1
+    \tag #'(pageNumber keep) \mark "p119.1"
+    s1 | s1 | s1 |
+% page 120
+    \tag #'(pageNumber keep) \mark "p120"
+    s1 | s1 | s1 |
+% page 120.1
+    \tag #'(pageNumber keep) \mark "p120.1"
+    s1 | s1 |
+% I
+    \mark \markup { \box \bold "I" }
+    \bar "||"
+    \barNumberCheck #125
+    s1 |
+% page 121
+    \tag #'(pageNumber keep) \mark "p121"
+    s1 | s1 | s1 |
+% page 121.1
+    \tag #'(pageNumber keep) \mark "p121.1"
+    s1 | s1 | s1 | s1 |
+% page 122
+    \tag #'(pageNumber keep) \mark "p122"
+    s1 | s1 | s1 | s1 |
+% page 122.1 J
+    \mark \markup { \box \bold "J" }
+    \bar "||"
+    \barNumberCheck #137
+    s1 | s1 | s1 | s1 |
+% page 123
+    \tag #'(pageNumber keep) \mark "p123"
+    s1 | s1 | s1 | s1 |
+% page 123.1
+    \tag #'(pageNumber keep) \mark "p123.1"
+    s1 | s1 |
+% D.S.1
+% page 110 B Stegno1-2x
+    \mark \markup { \box \bold "B-2x" }
+    \bar "||"
+    \barNumberCheck #147
+    s1 | s1 | s1 | s1 |
+% page 110.1-2x
+    \tag #'(pageNumber keep) \mark "p110.1-2x"
+    s1 | s1 | s1 | s1 |
+% page 111-2x
+    \tag #'(pageNumber keep) \mark "p111-2x"
+    s1 | s1 | s1 | s1 |
+% page 111.1 C-2x
+    \mark \markup { \box \bold "C-2x" }
+    \bar "||"
+    \barNumberCheck #159
+    s1 | s1 | s1 | s1 |
+% page 112-2x
+    \tag #'(pageNumber keep) \mark "p112-2x"
+    s1 | s1 | s1 | s1 |
+% page 112.1 D-2x
+    \mark \markup { \box \bold "D-2x" }
+    \bar "||"
+    \barNumberCheck #167
+    s1 | s1 | s1 | s1 |
+% page 113-2x
+    \tag #'(pageNumber keep) \mark "p113-2x"
+    s1 | s1 | s1 | s1 |
+% page 113.1-2x
+    \tag #'(pageNumber keep) \mark "p113.1-2x"
+    s1 | s1 | s1 | s1 |
+% page 114-2x
+    \tag #'(pageNumber keep) \mark "p114-2x"
+    s1 | s1 | s1 | s1 |
+% page 114.1-2x
+    \tag #'(pageNumber keep) \mark "p114.1-2x"
+    s1 | s1 | s1 |
+% to Coda1
+% page 123 Coda1
+    \mark \markup { \musicglyph #"scripts.coda" 1 }
+    \bar "||"
+    \barNumberCheck #186
+    s1 |
+% D.S.2
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-3x
+    \mark \markup { \box \bold "Intro.2-3x" }
+    \bar "||"
+    \barNumberCheck #187
+    s1 | s1 | s1 | s1 |
+% page 108-3x
+    \tag #'(pageNumber keep) \mark "p108-3x"
+    s1 | s1 | s1 |
+% to Coda2
+% page 124 Coda2
+    \mark \markup { \musicglyph #"scripts.coda" 2 }
+    \bar "||"
+    \barNumberCheck #194
+    s1 |
+% D.S.3
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-4x
+    \mark \markup { \box \bold "Intro.2-4x" }
+    \bar "||"
+    \barNumberCheck #195
+    s1 | s1 | s1 | s1 |
+% page 108-4x
+    \tag #'(pageNumber keep) \mark "p108-4x"
+    s1 | s1 | s1 | s1 |
+% to Coda3
+% page 124 Coda3
+    \mark \markup { \musicglyph #"scripts.coda" 3 }
+    \bar "||"
+    \barNumberCheck #203
+    s1 | s1 |
+% page 124.1
+    \tag #'(pageNumber keep) \mark "p124.1"
+    s1 | s1 | s1 |
+    \bar "|."
+    \barNumberCheck #208
+}

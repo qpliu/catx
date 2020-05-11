@@ -1,0 +1,146 @@
+voOneLyrics = \new Lyrics = "lyrics1a" \lyricsto "vo1" \new Lyrics = "lyrics1b" \lyricsto "vo1" \context Lyrics = "lyrics1a" \lyricmode {
+% page 3
+% A
+    \black Moon Pride _ A na ta no chi ka ra ni na ri ta i
+% page 4
+% B
+    \reni Na mi da
+% C
+    wa ho ho wo tsu ta i
+    \ayaka hi to mi
+% page 4.1
+    wa a ka ku mo e ru
+    \momoka I na zu ma no you ni ha ge shi ku
+    \shiori da re ka
+% page 5
+    ga a i wo sa ke bu
+    \kanako Ta to e
+% D
+    do n na hi to ri
+% page 5.1
+    ja na i yo ne? Te ra su Moon _
+    \black light _
+% page 6
+    A a
+% E
+    \ayaka O n na no ko ni mo yu zu
+% page 6.1
+    re nu kyo u ji ga a ru
+    \momoka So re wa o u ji sa ma ni u n me i na ge zu
+% page 7
+    \black Mi zu ka ra ta ta ka u i shi
+% page 7.1
+% F
+    Shin -- y Make -- Up ka ga ya ku yo ho shi zo ra wo a tsu me te Ta da
+% page 8
+    ma mo ra re ru da ke no ka yo wa i so n za i
+% page 8.1
+    ja nai wa
+% page 9
+    \reni Ka na shi
+% C-2x
+    mi no na mi ni yu ra re
+    \ayaka i ka ri
+% page 4.1-2x
+    no hi ni ya ka re te mo
+    \momoka i na zu ma no you ni ma ba yu ku
+    \shiori to wa no
+% page 5-2x
+    a i wo chi ka u
+    \kanako ta to e
+% D-2x
+    i ma wa hi to ri
+% page 5.1-2x
+    ja na i yo ne? tsu na gu Moon _
+    \black light _
+% page 6-2x
+    A a
+% E-2x
+    \shiori o n na no ko ni wa mu te
+% page 6.1-2x
+    ki no bu ki ga a ru
+    \reni so re ha yo wa sa ni yo ri so u ma na za shi to
+% page 7-2x
+    \black su be te u ke i re ru tsu yo sa
+% F-2x page 7.1-2x 
+    Shin -- y Make -- Up ki ra me ku yo ho shi zo ra ni da ka re te To ki
+% page 8-2x
+    o ko e ta ki zu na ga wa ta shi ni yu u ki o
+% page 8.1-2x
+    ku re ru
+% page 11 I
+    \ayaka ko i shi ku te
+% page 11.1
+    na ki ta ku
+    << { \ayaka na _ ru yo } \context Lyrics = "lyrics1b" { \shiori na _ ru yo } >>
+    \momoka a i ta ku te _
+% page 12
+    na ki da shi
+    << { \momoka so u na ha-to } \context Lyrics = "lyrics1b" { \reni so u na ha-to } >>
+% J
+    \kanako ko no hi ro i u chu u de na n do u ma re ka wa
+% page 12.1
+    t te mo a na ta ni ko i o su ru
+% K
+    << { \shiori Shin -- y Make -- Up ha ba ta ku yo } \context Lyrics = "lyrics1b" { \ayaka Shin -- y Make -- Up ha ba ta ku yo } >>
+% page 13
+    << { \shiori ho shi so ra no ka na ta he } \context Lyrics = "lyrics1b" { \ayaka ho shi so ra no ka na ta he } >>
+    \black tsu mi ga ma wa ru se ka i de mo mi ra i o shi n ji
+% page 13.1
+    ra re ru -- da ka ra
+% L
+    Shin -- y Make -- Up ha ba ta ku yo ho shi zo ra o ma to t te a ta
+% page 14
+    ra shi i de n se tsu ga I ma ko ko ka ra ha ji ma ru La La Pret -- ty
+% page 14.1
+    Guard -- i -- an SAIL -- OR MOON
+}    
+%{
+[All] MOON Pride
+Anata no chikara ni naritai
+
+[Reni] Namida wa hoho wo tsutai [Aarin] hitomi wa akaku moeru
+[Momoka] Inazuma no you ni hageshiku [Shiori] dareka ga ai wo sakebu
+
+[Kanako] Tatoe donna [Aa/Shi] kurayami demo [Kanako] hitori ja nai yo ne?
+[Re/Mo] Watashitachi wo [Kanako] terasu Moonlight
+
+Aa
+
+[Aarin] Onna no ko ni mo yuzurenu kyouji ga aru
+[Momoka] Sore wa ouji-sama ni unmei nagezu
+[All] Mizukara tatakau ishi
+
+[All] Shiny Make-up kagayaku yo hoshizora wo atsumete
+Tada mamorareru dake no ka yowai sonzai ja nai wa
+
+[Reni] Kanashimi no nami ni yura re [Aarin] ikari no hiniyakarete mo
+[Momoka] inazuma no yō ni mabayuku [Shiori] towa no ai o chikau
+
+[Kanako] tatoe ima wa [Re/Mo] hanare tete mo [Kanako] hitori janai yo ne?
+[Shi/Aa] Watashitachi o [Kanako] tsunagu Moonlight
+
+Aa
+
+[Shiori] on’nanoko ni wa muteki no buki ga aru
+[Reni] soreha yowa-sa ni yorisou manazashi to
+[All] subete ukeireru tsuyo-sa
+
+[All] Shiny Make-upkirameku yo hoshizora ni daka rete
+Toki o koeta kizuna ga watashi ni yūki o kureru
+
+[Aarin] koishikute [Shiori] setsunakute [Aarin] nakitaku [Shi/Aa] naru yo
+
+[Momoka] aitakute [Reni] samishikute [Momoka] kakedashi-[Mo/Re]sōna hāto
+
+[Kanako] kono hiroi uchū de nando umarekawatte mo anata ni koi o suru
+
+[Shi/Aa] Shiny Make-up habataku yo hoshi soranokanatahe
+[All] tsuki ga mawaru sekai demo mirai o shinji rareru ――dakara
+
+[All] Shiny Make-uptatakau yo hoshizora o matotte atarashī densetsu ga
+Ima koko kara hajimaru
+
+[All] La La Pretty Guardian SAILOR MOON~
+
+%}

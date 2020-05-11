@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+if test -f "../build1"
+then
+    echo "Wrong directory"
+    exit 1
+fi
+PARTS=`grep '^% PARTS ' music|cut -c 9-`
+exec ../build1 $PARTS

@@ -1,0 +1,221 @@
+mychords = \chordmode {
+% page 2
+    r1 |
+% A
+    \barNumberCheck #2
+    a1:m |
+    s1 | s1 |
+% page 3
+    a1:m |
+    s1 | s1 |
+    f4. bes8 s4 e4 |
+% page 3.1
+    e1 |
+% B
+    \barNumberCheck #10
+    a1:m |
+    s1 | s1 |
+% page 4
+    a1:m |
+    s1 | s1 | s1 |
+% page 4.1
+    bes2 e2 |
+% C
+    \barNumberCheck #18
+    a1:m |
+    s1 | s1 |
+% page 5
+    a1:m |
+    s1 | s1 | s1 |
+% page 5.1
+    bes2 e4 e4:1.5/g |
+% D Stegno1
+    \barNumberCheck #26
+    d2:m7 g2 |
+    c2 f2:maj7 |
+    b2:m7.5- e2 |
+% page 6
+    a1:m |
+    b2:m7 g2 |
+    c2 f2:maj9 |
+    b1:m7.5- |
+% page 6.1
+    e1:7 |
+    s1 |
+% E Stegno2
+    \barNumberCheck #35
+    ees1:m |
+    aes1:m |
+% page 7
+    des1 |
+    ges2 des2:7/f |
+    ees1:m |
+    aes1:m |
+% page 7.1
+    des1 |
+    bes1 |
+    ees1:m |
+    aes1:m |
+% page 8
+    des1 |
+    ges2 des2:7/f |
+    ees1:m |
+    aes1:m |
+% page 8.1
+    des1 |
+% to Coda1,2
+    s8 des4./ces des2 |
+% F
+    \barNumberCheck #51
+    a1:m |
+    a1:m |
+% page 9
+    a1:m |
+    s1 |
+% G
+    \barNumberCheck #55
+    a1:m |
+    s1 |
+% page 9.1
+    a1:m |
+    s1 | s1 | s1 |
+% page 10
+    r1 |
+    a1:m |
+% D.S.1
+% D Stegno1-2x
+    \barNumberCheck #63
+    d2:m7 g2 |
+    c2 f2:maj7 |
+    b2:m7.5- e2 |
+% page 6-2x
+    a1:m |
+    b2:m7 g2 |
+    c2 f2:maj9 |
+    b1:m7.5- |
+% page 6.1-2x
+    e1:7 |
+    s1 |
+% E Stegno2-2x
+    \barNumberCheck #72
+    ees1:m |
+    aes1:m |
+% page 7-2x
+    des1 |
+    ges2 des2:7/f |
+    ees1:m |
+    aes1:m |
+% page 7.1-2x
+    des1 |
+    bes1 |
+    ees1:m |
+    aes1:m |
+% page 8-2x
+    des1 |
+    ges2 des2:7/f |
+    ees1:m |
+    aes1:m |
+% page 8.1-2x
+    des1 |
+% to Coda1,2
+% page 10 Coda1
+    \barNumberCheck #87
+    des8 des4./ces des2 |
+% H
+    \barNumberCheck #88
+    fis1:m |
+    s1 |
+% page 10.1
+    fis1:m |
+    s1 |
+% I
+    \barNumberCheck #92
+    b2:m7 e |
+    cis2:m fis:m |
+% page 11
+    gis2:m7.5- cis:7|
+    fis4:m gis:m7.5- fis/ais fis/cis |
+    b2:m e |
+    cis2 fis:m |
+% page 11.1
+    b2:m e |
+    a1 |
+    b2:m e |
+    cis2:m fis:m |
+% page 12
+    gis2:m7.5- cis:7 |
+    fis4:m gis:m7.5- fis/ais fis/cis |
+    b2:m e |
+    cis2/eis fis:m |
+% page 12.1
+    b2:m e |
+    a1 |
+% J repeat
+    \barNumberCheck #108
+    b2:m7 e |
+% page 13
+    cis2:m7 fis:m |
+    gis2:m7.5- cis:7 |
+    fis4:m gis:m7.5- fis/ais fis/cis |
+% page 13.1
+    b2:m7 e |
+    cis2:7.9+ fis:m |
+% ending 1
+    b2:m7 e |
+% page 14
+    a1 |
+% end repeat
+% J repeat-2x
+    \barNumberCheck #116
+    b2:m7 e |
+% page 13-2x
+    cis2:m7 fis:m |
+    gis2:m7.5- cis:7 |
+    fis4:m gis:m7.5- fis/ais fis/cis |
+% page 13.1-2x
+    b2:m7 e |
+    cis2:7.9+ fis:m |
+% page 14
+    b2:m7 e |
+    a1 |
+    s1 |
+% D.S.2
+% E Stegno2-3x
+    \barNumberCheck #125
+    ees1:m |
+    aes1:m |
+% page 7-3x
+    des1 |
+    ges2 des2:7/f |
+    ees1:m |
+    aes1:m |
+% page 7.1-3x
+    des1 |
+    bes1 |
+    ees1:m |
+    aes1:m |
+% page 8-3x
+    des1 |
+    ges2 des2:7/f |
+    ees1:m |
+    aes1:m |
+% page 8.1-3x
+    des1 |
+% to Coda1,2
+% page 14.1 Coda2
+    \barNumberCheck #140
+    des8 des4./ces des2 |
+% K
+    \barNumberCheck #141
+    fis1:m |
+    s1 |
+% page 15
+    fis1:m |
+    s1 | s1 |
+% page 15.1
+    fis1:m |
+    d4. g4. cis4 |
+    s1 |
+    s4 fis2.:m |
+    \barNumberCheck #150
+}

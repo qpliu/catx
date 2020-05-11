@@ -1,0 +1,35 @@
+notesPart = {
+    \relative {
+	c,,,,4 cis d dis e f fis g gis a ais b
+    }
+    \relative {
+	c,,,4 cis d dis e f fis g gis a ais b
+    }
+    \relative {
+	c,,4 cis d dis e f fis g gis a ais b
+    }
+    \relative {
+	c,4 cis d dis e f fis g gis a ais b
+    }
+    \relative {
+	c4 cis d dis e f fis g gis a ais b
+    }
+    \relative {
+	c'4 cis d dis e f fis g gis a ais b
+    }
+    \relative {
+	c''4 cis d dis e f fis g gis a ais b
+    }
+    \relative {
+	c'''4 cis d dis e f fis g gis a ais b
+    }
+    \relative {
+	c''''4 cis d dis e f fis g gis a ais b
+    }
+    \relative {
+	c'''''4 cis d dis e f fis g gis a ais b
+    }
+    \relative {
+	c''''''4 cis d dis e f fis g
+    }
+}

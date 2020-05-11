@@ -1,0 +1,119 @@
+bassPart = \new Voice {
+% tuning e,, a,, d, g,
+% scale c des d ees e f fis g aes a bes b
+    \clef bass
+    \ottava #-1
+\mymark "Intro 1" #1
+    r1 |
+    2-9t8 10t r2 3-13t8 12t |
+    2-13t8 14t 4-13t 12t r2 |
+\mymark "Intro 2" #4
+    2-3t8 3t 3t 3t 3t 3t 3t 1-3t |
+    2-5t8 5t 5t 5t 5t 5t 2t 5t |
+    2-5t8 5t 5t 5t 5t 5t 1t 2t |
+    2-3t8 3t 3t 3t 1-3t 2-3t 3t 3t |
+    2-3t4. 3t8 3t4. 3-1t8 |
+    3-3t8 3t 3t r2 1-1t8 |
+    1-3t8 3t 4t 4t 5t 2-2t 2t 3t |
+    r4 1-3t2. |
+\mymark "A" #12
+    2-3t8 3t 3t 3t 3t 1-3t 2-1t 1-3t |
+    1-3t8 3t 3t 3t 3t 3t 2-2t 1-3t |
+    1-3t8 3t 3t 3t 3t 3t 5t 2-2t |
+    2-3t8 3t 3t 3t 3t 3t 1t 1-3t |
+    2-3t8 3t 3t 3t 3t 1-3t 2-1t 1-3t |
+    1-3t8 3t 3t 3t 3t 3t 2-2t 1-3t |
+    1-3t8 3t 3t 3t 3t 3t 5t 2-2t |
+    2-3t8 3t 3t 3t 3t 3t 2t 1-3t |
+\mymark "B" #20
+    2-3t8 3t 3t 3t 3t 1-3t 2-1t 1-3t |
+    1-3t8 3t 3t 3t 3t 3t 2-2t 1-3t |
+    1-3t8 3t 3t 3t 3t 4t 5t 2-2t |
+    2-3t8 3t 3t 3t 3t 3t 1t 1-3t |
+    2-3t8 3t 3t 3t 3t 1-3t 2-3t 3-1t |
+    3-3t8 3t 3t 3t 3t 3t 2-1t 1-4t |
+    1-3t8 3t 4t 4t 5t 2-2t r 3t |
+    r8 2-3t 3t 3t 3t4 3t |
+\mymark "C" #28
+    3-3t8. 3t16 3t8 2-3t16 3-1t 3t8. 3t16 3t8 2-3t16 3-1t |
+    3-3t8. 3t16 3t8 2-3t16 3-1t 3t8 4-1t 3t 5t |
+    2-3t8. 3t16 3t8 1-3t 2-3t 3-1t 3t 5t |
+    2-3t8. 3t16 3t8 1-3t 2-3t 3-1t 3t 5t |
+    3-3t8. 3t16 3t8 2-3t16 3-1t 3t8. 3t16 3t8 3t16 5t |
+    3-6t4 1-4t 2-5t2 |
+    1-3t8 3t 3t 3t 3t 3t 3t 3t |
+    1-3t8 3t 3t 3t r4 1-3t |
+\mymark "D" #36
+    2-3t8 3t 3t 3t 3t 1-3t 2-1t 1-3t |
+    1-3t8 3t 3t 3t 3t 3t 2-2t 1-3t |
+    1-3t8 3t 3t 3t 3t 4t 5t 2-2t |
+    2-3t8 3t 3t 3t 3t 3t 1t 1-3t |
+    2-3t8 3t 3t 3t 3t 1-3t 2-3t 3-1t |
+    3-3t8 3t 3t 3t 3t 3t 2-1t 1-4t |
+    1-3t8 3t 4t 4t 5t 2-2t r 3t |
+    r8 2-3t 3t 3t 3t4 3t8 3-1t |
+\mymark "E" #44
+    r1 r1 |
+    2-9t8 10t r2 3-13t8 12t |
+    2-13t8 14t 4-13t 12t r2 |
+\mymark "B-2" #48
+    2-3t8 3t 3t 3t 3t 1-3t 2-1t 1-3t |
+    1-3t8 3t 3t 3t 3t 3t 2-2t 1-3t |
+    1-3t8 3t 3t 3t 3t 4t 5t 2-2t |
+    2-3t8 3t 3t 3t 3t 3t 1t 1-3t |
+    2-3t8 3t 3t 3t 3t 1-3t 2-3t 3-1t |
+    3-3t8 3t 3t 3t 3t 3t 2-1t 1-4t |
+    1-3t8 3t 4t 4t 5t 2-2t r 3t |
+    r8 2-3t 3t 3t 3t4 3t |
+\mymark "C-2" #56
+    3-3t8. 3t16 3t8 2-3t16 3-1t 3t8. 3t16 3t8 2-3t16 3-1t |
+    3-3t8. 3t16 3t8 2-3t16 3-1t 3t8 4-1t 3t 5t |
+    2-3t8. 3t16 3t8 1-3t 2-3t 3-1t 3t 5t |
+    2-3t8. 3t16 3t8 1-3t 2-3t 3-1t 3t 5t |
+    3-3t8. 3t16 3t8 2-3t16 3-1t 3t8. 3t16 3t8 3t16 5t |
+    3-6t4 1-4t 2-5t2 |
+    1-3t8 3t 3t 3t 3t 3t 3t 3t |
+    1-3t8 3t 3t 3t r4 3t |
+\mymark "D-2" #64
+    2-3t8 3t 3t 3t 3t 1-3t 2-1t 1-3t |
+    1-3t8 3t 3t 3t 3t 3t 2-2t 1-3t |
+    1-3t8 3t 3t 3t 3t 4t 5t 2-2t |
+    2-3t8 3t 3t 3t 3t 3t 1t 1-3t |
+    2-3t8 3t 3t 3t 3t 1-3t 2-3t 3-1t |
+    3-3t8 3t 3t 3t 3t 3t 2-1t 1-4t |
+    1-3t8 3t 4t 4t 5t 2-2t r 3t |
+    r8 2-3t 3t 3t 3t4 3t8 1-3t |
+\mymark "F" #72
+    2-3t8 3t 3t 1-3t 3t 2-1t 3t 1-3t |
+    1-3t8 3t 3t 3t 2-2t 5t 2t 1-4t |
+    1-3t8 3t 3t 3t 3t 2-5t 3-3t 5t |
+    2-3t8 3t 3t 1-3t 2-3t 3t 3t 3t |
+    2-3t8 3t 3t 3t 3t 3-1t 3t 5t |
+    3-3t8 3t 3t 2-3t 3-3t4 1-4t8 4t |
+    1-3t8 3t 4t 4t 5t 2-2t r 3t |
+    r8 2-3t 3t 3t 3t4 3t |
+\mymark "G" #80
+    3-3t1~ |
+    3-3t1 |
+    2-3t1~ |
+    2-3t1 |
+    3-3t2. 3t8 3t16 5t |
+    3-6t8 r 1-4t4 2-5t2 |
+    1-3t8 3t 3t 3t 3t 3t 3t 3t |
+    1-3t8 3t 3t 3t r4 3t |
+\mymark "D-3" #88
+    2-3t8 3t 3t 3t 3t 1-3t 2-1t 1-3t |
+    1-3t8 3t 3t 3t 3t 3t 2-2t 1-3t |
+    1-3t8 3t 3t 3t 3t 4t 5t 2-2t |
+    2-3t8 3t 3t 3t 3t 3t 1t 1-3t |
+    2-3t8 3t 3t 3t 3t 1-3t 2-3t 3-1t |
+    3-3t8 3t 3t 3t 3t 3t 2-1t 1-4t |
+    1-3t8 3t 4t 4t 5t 2-2t r 3t |
+    r8 2-3t 3t 3t 3t4 1-3t8 4t |
+\mymark "Ending" #96
+    1-3t8 3t 4t 4t 5t 2-2t r 3t |
+    r8 2-3t 3t 3t 3t4 3t |
+    1-3t8 r2 2-1t8 2t 3t |
+    r4 2-3t2. |
+    r1 |
+}

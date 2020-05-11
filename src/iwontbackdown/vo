@@ -1,0 +1,86 @@
+voPart = \new Voice = "vo" {
+\mymark "Intro" #1
+    r1 r1 r1 |
+    \relative {
+	r2 r4 b'8 d |
+\mymark "Verse 1" #5
+	r4 e4. d4 b8~ |
+	b2. g8 a |
+	r4 b4. a4 g8~ |
+	g2. b8 d |
+	e4 d d b8 a |
+	a4 g g g8 g |
+	r4 b4. a4 g8~ |
+	g2. b8 d |
+	r4 e4. d4 b8~ |
+	b2. g8 a |
+	r4 b4. a4 g8~ |
+	g2. b8 d |
+	e4 d d b |
+	a8 g g4 g g8 g |
+	r4 b4. a4 g8~ |
+	g2. g8 e |
+	r4 b'4. a4 g8~ |
+	g2 r4. g'8~ |
+\mymark "Chorus 1" #23
+	g2~ g8 d4 d8( |
+	d8 e) r2. |
+	r8 e e e e d d d16( b |
+	a4) r4 r4. g'8( |
+	g2 g8 d4) d8( |
+	d8 e) r4 r4. d,8 |
+	b'4 r a r8 g~ |
+	g2. g8 a |
+	b4 r a r8 g8~ |
+	g2. b8 d8 |
+\mymark "Verse 2" #33
+	r4 e4. d4 b8~ |
+	b2. g8 a |
+	r4 b4. a4 g8~ |
+	g2. b8 d |
+	e4 d d b4 |
+	a8 g g4 g g8 g |
+	r4 b4. a4 g8~ |
+	g2. g8 e |
+	r4 b'4. a4 g8~ |
+	g2 r4. g'8~ |
+\mymark "Chorus 2" #43
+	g2~ g8 d4 d8( |
+	d8 e) r2. |
+	r8 e e e e d d d16( b |
+	a4) r4 r4. g'8( |
+	g2 g8 d4) d8( |
+	d8 e) r4 r4. d,8 |
+	b'4 r a r8 g~ |
+	g2. g8 a |
+	g2~ g8 d4 d8~ |
+        d2 r2 |
+\mymark "Guitar Solo" #53
+	r1 r1 r1 r1 |
+	r1 r1 r1 r1 |
+	r1 |
+	r2 r4. g'8~ |
+\mymark "Outro" #63
+	g2~ g8 d4 d8( |
+	d8 e) r2. |
+	r8 e e e e d d d16( b |
+	a4) r4 r4. g'8( |
+	g2 g8 d4) d8( |
+	d8 e) r2. |
+	b4 r a r8 g~ |
+	g2 r4. g'8~ |
+	g2~ g8 d4 d8( |
+	d8 e) r2. |
+	r8 e e e e d d d16( b |
+	a4) r4 r4. g'8( |
+	g2 g8 d4) d8( |
+	d8 e) r4 r4. d,8 |
+	b'4 r a r8 g~ |
+	g2. g8 a |
+	g2~ g8 d4 d8~ |
+        d2 r4 g8 a |
+	b4 r a r8 g8~ |
+\mybarNumberCheck #82
+	g2. r4 |
+    }
+}

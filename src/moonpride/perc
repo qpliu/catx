@@ -1,0 +1,168 @@
+percPart = \new DrumVoice = "percb" \with { \consists "Balloon_engraver" } \new DrumVoice = "perca" \with { \consists "Balloon_engraver" } \drummode {
+    \context DrumVoice = "perca" \voiceOne
+    \context DrumVoice = "percb" \voiceTwo
+% page 2 Intro
+    \barNumberCheck #1
+    << { \balloonGrobText #'NoteHead #'(3 . 3) "<Bar Chimes>" barchimes1 | } \context DrumVoice = "percb" { r1 | } >>
+    << { r2 barchimes2~ | } \context DrumVoice = "percb" { r1 | } >>
+    << { barchimes1~ | } \context DrumVoice = "percb" { r1 | } >>
+    << { barchimes1 | } \context DrumVoice = "percb" { r1 | } >>
+    << { barchimes1 | } \context DrumVoice = "percb" { r1 | } >>
+    << { r2 \balloonGrobText #'NoteHead #'(3 . 6) "<Noise>" noise2\< | } \context DrumVoice = "percb" { r1 | } >>
+% page 3 A
+    \barNumberCheck #7
+    << { barchimes1~\! | } \context DrumVoice = "percb" { r1 | } >>
+    << { barchimes1 | } \context DrumVoice = "percb" { r1 | } >>
+    << { barchimes1~ | } \context DrumVoice = "percb" { r1 | } >>
+    << { barchimes1 | } \context DrumVoice = "percb" { r1 | } >>
+% B
+    \barNumberCheck #11
+    r1 |
+% page 3.1
+    r1 | r1 | r1 | r1 | r1 |
+% page 4
+    r1 |
+    << { r2 r4 r8 noise8\< | } \context DrumVoice = "percb" { r1 | } >>
+% C
+    \barNumberCheck #19
+    << { barchimes1\! | } \context DrumVoice = "percb" { r1 | } >>
+    r1 |
+% page 4.1
+    r1 | r1 | r1 | r1 |
+% page 5
+    r1 | r1 |
+% D
+    \barNumberCheck #27
+    r1 | r1 |
+% page 5.1
+    r1 | r1 | r1 | r1 |
+% page 6
+    r1 |
+    << { r1 | } \context DrumVoice = "percb" { r2 noise4\< noise4\!\< | } >>
+% E
+    \barNumberCheck #35
+    << { barchimes1 | } \context DrumVoice = "percb" { r1\! | } >>
+    r1 |
+% page 6.1
+    r1 | r1 | r1 | r1 |
+% page 7
+    << { r1 | } \context DrumVoice = "percb" { r2 r4 noise4\< | } >>
+    << { r1 | } \context DrumVoice = "percb" { r4\! noise8\< r8\! r4 noise4\< | } >>
+    << { \balloonGrobText #'NoteHead #'(3 . 6) "<E.Perc.>" eperc16 eperc16 eperc8 eperc8 eperc16 eperc16 eperc16 eperc16 eperc8 eperc16 eperc16 eperc16 eperc16 | } \context DrumVoice = "percb" { r2\! noise2\< | } >>
+% page 7.1 F
+    \barNumberCheck #44
+    << { barchimes1 | } \context DrumVoice = "percb" { r1\! | } >>
+    r1 | r1 | r1 |
+% page 8
+    r1 | r1 | r1 |
+% page 8.1
+    << { r1 | } \context DrumVoice = "percb" { r2 noise2\< | } >>
+% 1x ending
+    << { barchimes1 | } \context DrumVoice = "percb" { r1\! | } >>
+    r1 | r1 |
+% page 9
+    r1 | r1 | r1 | r1 |
+    << { r2 r4 r8 noise8\< | } \context DrumVoice = "percb" { r1 | } >>
+% C-2x
+    \barNumberCheck #60
+    << { barchimes1\! | } \context DrumVoice = "percb" { r1 | } >>
+    r1 |
+% page 4.1-2x
+    r1 | r1 | r1 | r1 |
+% page 5-2x
+    r1 | r1 |
+% D-2x
+    \barNumberCheck #68
+    r1 | r1 |
+% page 5.1-2x
+    r1 | r1 | r1 | r1 |
+% page 6-2x
+    r1 |
+    << { r1 | } \context DrumVoice = "percb" { r2 noise4\< noise4\!\< | } >>
+% E-2x
+    \barNumberCheck #76
+    << { barchimes1 | } \context DrumVoice = "percb" { r1\! | } >>
+    r1 |
+% page 6.1-2x
+    r1 | r1 | r1 | r1 |
+% page 7-2x
+    << { r1 | } \context DrumVoice = "percb" { r2 r4 noise4\< | } >>
+    << { r1 | } \context DrumVoice = "percb" { r4\! noise8\< r8\! r4 noise4\< | } >>
+    << { eperc16 eperc16 eperc8 eperc8 eperc16 eperc16 eperc16 eperc16 eperc8 eperc16 eperc16 eperc16 eperc16 | } \context DrumVoice = "percb" { r2\! noise2\< | } >>
+% page 7.1-2x F-2x
+    \barNumberCheck #85
+    << { barchimes1 | } \context DrumVoice = "percb" { r1\! | } >>
+    r1 | r1 | r1 |
+% page 8-2x
+    r1 | r1 | r1 |
+% page 8.1-2x
+    << { r1 | } \context DrumVoice = "percb" { r2 noise2\< | } >>
+% page 9.1
+    << { barchimes1 | } \context DrumVoice = "percb" { r1\! | } >>
+    << { r1 | } \context DrumVoice = "percb" { r2 noise2\< | } >>
+% G
+    \barNumberCheck #95
+    << { barchimes1 | } \context DrumVoice = "percb" { r1\! | } >>
+    r1 | r1 |
+% page 10
+    r1 | r1 | r1 | r1 | r1 |
+% page 10.1 H
+    << { barchimes1 | } \context DrumVoice = "percb" { r1 | } >>
+    r1 | r1 | r1 |
+% page 11
+    << { barchimes1 | } \context DrumVoice = "percb" { r1 | } >>
+    r1 | r1 |
+    << { r2 r4 r8 noise8\< | } \context DrumVoice = "percb" { r1 | } >>
+% I
+    \barNumberCheck #111
+    << { barchimes1\! | } \context DrumVoice = "percb" { r1 | } >>
+% page 11.1
+    r1 | r1 | r1 | r1 | r1 |
+% page 12
+    r1 | r1 |
+% J
+    \barNumberCheck #119
+    r1 | r1 | r1 |
+% page 12.1
+    r1 |
+    << { barchimes1 | } \context DrumVoice = "percb" { r1 | } >>
+    r1 |
+% K
+    \barNumberCheck #125
+    << { barchimes1 | } \context DrumVoice = "percb" { r1 | } >>
+    r1 |
+% page 13
+    << { r2 barchimes2 | } \context DrumVoice = "percb" { r2 r4 r8 noise8\< | } >>
+    << { barchimes1 | } \context DrumVoice = "percb" { r2\! r4 r8 noise8\< | } >>
+    << { barchimes1 | } \context DrumVoice = "percb" { r1\! | } >>
+    r1 | r1 |
+% page 13.1
+    << { r1 | } \context DrumVoice = "percb" { r2 noise2\< | } >>
+% L
+    \barNumberCheck #133
+    << { barchimes1 | } \context DrumVoice = "percb" { r1\! | } >>
+    r1 | r1 | r1 |
+% page 14
+    r1 | r1 | r1 | r1 |
+    << { barchimes1 | } \context DrumVoice = "percb" { r1 | } >>
+% page 14.1
+    << { r2 r4 r8 noise8\< | } \context DrumVoice = "percb" { r1 | } >>
+    r1\! |
+    << { r1 | } \context DrumVoice = "percb" { r2 r4 r8 noise8\< | } >>
+% M
+    \barNumberCheck #145
+    << { barchimes1 | } \context DrumVoice = "percb" { r1\! | } >>
+    r1 |
+% page 15
+    r1 |
+    << { r2 noise4\< noise4\!\< | } \context DrumVoice = "percb" { r1 | } >>
+    r1\! |
+    r1 |
+% page 15.1
+    << { r1 | } \context DrumVoice = "percb" { r2 r4 r8 noise8\< | } >>
+    \repeat percent 3 {
+	<< { r1 | } \context DrumVoice = "percb" { r2\! r4 r8 noise8\< | } >>
+    }
+    << { barchimes1\fermata | } \context DrumVoice = "percb" { r1\! | } >>
+    \barNumberCheck #156
+}

@@ -1,0 +1,47 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \tempo 4 = 132
+    \mark "Intro"
+    s1 |
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    \mark "Verse 1"
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    \mark "Bridge 1"
+    s1 s1 s1 s1 | \break
+    \mark "Verse 1A"
+    s1 s1 s1 s1 | \break
+    \mark "Chorus 1"
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    \mark "Verse 2"
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    \mark "Bridge 2"
+    s1 s1 s1 s1 | \break
+    \mark "Verse 2A"
+    s1 s1 s1 s1 | \break \pageBreak
+    \mark "Chorus 2"
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    \mark "Solo"
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    \mark "Verse 3"
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    \mark "Bridge 3"
+    s1 s1 s1 s1 | \break
+    \mark "Verse 3A"
+    s1 s1 s1 s1 | \break
+    \mark "Chorus 3"
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 | \break
+    \mark "Ending"
+    s1 s1 |
+    s4
+    \bar "|."
+}

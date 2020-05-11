@@ -1,0 +1,279 @@
+[TEXT_PREFIX]guitarTwoText = {
+% page 106 Intro.1
+    \barNumberCheck #1
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 107
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat
+    \barNumberCheck #9
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 108
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 108.1 A
+    \barNumberCheck #17
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 109
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 |
+    }
+% ending1
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 |
+    }
+% page 109.1
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 |
+    }
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-2x
+    \barNumberCheck #25
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 108-2x
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 |
+    }
+% to Coda2
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 |
+    }
+% to Coda3
+% page 108.1 A-2x
+    \barNumberCheck #33
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 109-2x
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 |
+    }
+% page 109.1
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 |
+    }
+% page 110 B Stegno1
+    \barNumberCheck #41
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 110.1
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 111
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 111.1 C
+    \barNumberCheck #53
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 112
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 112.1 D
+    \barNumberCheck #61
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 113
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 113.1
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 114
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 114.1
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 |
+    }
+% to Coda1
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 |
+    }
+% page 115 E
+    \barNumberCheck #81
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 115.1 F
+    \barNumberCheck #85
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 116
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 116.1 G
+    \barNumberCheck #93
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 117
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 117.1
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 118
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 118.1 H
+    \barNumberCheck #109
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 119
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 119.1
+    `>clean=program27;volume.6`1 | % clean
+    r1 | r1 |
+% page 120
+    r2 `bendAfter-2`4 r |
+    r1 | r1 |
+% page 120.1
+    r1 | r1 |
+% I
+    \barNumberCheck #125
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 |
+    }
+% page 121
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 |
+    }
+% page 121.1
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 122
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 122.1 J
+    \barNumberCheck #137
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 123
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 123.1
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 |
+    }
+% D.S.1
+% page 110 B Stegno1-2x
+    \barNumberCheck #147
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 110.1-2x
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 111-2x
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 111.1 C-2x
+    \barNumberCheck #159
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 112-2x
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 112.1 D-2x
+    \barNumberCheck #167
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 113-2x
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 113.1-2x
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 114-2x
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 114.1-2x
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 |
+    }
+% to Coda1
+% page 123 Coda1
+    \barNumberCheck #186
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 |
+    }
+% D.S.2
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-3x
+    \barNumberCheck #187
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 108-3x
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 |
+    }
+% to Coda2
+% page 124 Coda2
+    \barNumberCheck #194
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 |
+    }
+% D.S.3
+% page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-4x
+    \barNumberCheck #195
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 108-4x
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 |
+    }
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 |
+    }
+% to Coda3
+% page 124 Coda3
+    \barNumberCheck #203
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 |
+    }
+% page 124.1
+    \quoteDuring #"[TEXT_PREFIX]guitar1" {
+	s1 | s1 | s1 |
+    }
+    \barNumberCheck #208
+}

@@ -1,0 +1,308 @@
+voOnePart = \new Voice = "vo1" {
+% page 2
+    r1 |
+% A
+    \barNumberCheck #2
+    r1 | r1 | r1 |
+% page 3
+    r1 | r1 | r1 | r1 |
+% page 3.1
+    r1 |
+% B
+    \barNumberCheck #10
+    \relative {
+	d'8 c d c d c d c |
+	d8 c d c d c d c |
+	d8 c d c d c d c |
+    }
+% page 4
+    \relative {
+	e'8 g e g e g e g |
+	d8 c d c d c d c |
+    }
+    \relative {
+	d'8 c d c \deadNote c'8 \deadNote c4. |
+    }
+    \relative {
+	d'8 c d c d c d c |
+    }
+% page 4.1
+    \relative {
+	e'8 g e g a4 d,8 c~ |
+    }
+% C
+    \barNumberCheck #18
+    \relative {
+	c'4 r r2 |
+	r1 |
+	d8 c d c d c c d |
+    }
+% page 5
+    \relative {
+	e'4 g g a |
+	b8 a b a b a b a |
+	b8 a b a b ees, d c |
+	r8 d d c d c r c |
+    }
+% page 5.1
+    \relative {
+	e'4 e g c |
+    }
+% D Stegno1
+    \barNumberCheck #26
+    \relative {
+	a'2. r4 |
+	r1 | r1 |
+    }
+% page 6
+    r1 |
+    \relative {
+	c''4 a g8 e d c |
+	d8 c d g e4 d8 c |
+	d4 d8 c d8. e16~ e8 f |
+    }
+% page 6.1
+    \relative {
+	e'2 r8 e4 fis8 |
+	gis8 gis4.~ gis4 r |
+    }
+% E Stegno2
+    \barNumberCheck #35
+    \relative {
+	ges'4 f8 ges~ ges f4 ges8~ |
+	ges8 f ges aes ges4 r |
+    }
+% page 7
+    \relative {
+	aes'4 ges8 aes~ aes ges4 aes8~ |
+	aes8 bes bes ces bes4 des |
+	ges,2. des'4 |
+	ges,2. r8 ees |
+    }
+% page 7.1
+    \relative {
+	f'8 ees f ees f ees f ges |
+	r8 aes aes bes ces4 bes |
+	ges4 f8 ges~ ges f4 ges8~ |
+	ges8 f ges aes ges4 r |
+    }
+% page 8
+    \relative {
+	aes'4 ges8 aes~ aes ges4 aes8~ |
+	aes8 bes bes ces bes4 des |
+	ges,2 r8 ges des'4 |
+	ges,2. r8 ees |
+    }
+% page 8.1
+    \relative {
+	f'8 ees f ees f ees f ges |
+    }
+% to Coda1,2
+    \relative {
+	r8 ges'4 ges8 a4 aes |
+    }
+% F
+    \barNumberCheck #51
+    \relative {
+	ges'4 r4 r2 |
+	r1 |
+    }
+% page 9
+    r1 | r1 |
+% G
+    \barNumberCheck #55
+    \relative {
+	d'8 c d c d c d c |
+	d8 c d c d4 d |
+    }
+% page 9.1
+    \relative {
+	d'8 c d c d c d c |
+	e8 g e g e g e g |
+    }
+    \relative {
+	d'4 d \deadNote e8 \deadNote g \deadNote c4 |
+	\deadNote d,8 \deadNote e \deadNote g \deadNote a \deadNote c4 \deadNote e |
+    }
+% page 10
+    \relative {
+	\deadNote c''4 \deadNote c \deadNote c \deadNote c |
+	\deadNote c4 \deadNote c \deadNote <a c> \deadNote <c e>~ |
+    }
+% D.S.1
+% D Stegno1-2x
+    \barNumberCheck #63
+    \relative {
+	\deadNote <c'' e>2 r2 |
+	r1 | r1 |
+    }
+% page 6-2x
+    r1 |
+    \relative {
+	c''4 a g8 e d c |
+	d8 c d g e4 d8 c |
+	d8. d16~ d8 c d8. e16~ e8 f |
+    }
+% page 6.1-2x
+    \relative {
+	e'2 r8 gis8~ gis16 a8. |
+	b2. r4 |
+    }
+% E Stegno2-2x
+    \barNumberCheck #72
+    \relative {
+	ges'4 f8 ges~ ges f4 ges8~ |
+	ges8 f ges aes ges4 r |
+    }
+% page 7-2x
+    \relative {
+	aes'4 ges8 aes~ aes ges4 aes8~ |
+	aes8 bes bes ces bes4 des |
+	ges,2. des'4 |
+	ges,2. r8 ees |
+    }
+% page 7.1-2x
+    \relative {
+	f'8 ees f ees f ees f ges |
+	r8 aes aes bes ces4 bes |
+	ges4 f8 ges~ ges f4 ges8~ |
+	ges8 f ges aes ges4 r |
+    }
+% page 8-2x
+    \relative {
+	aes'4 ges8 aes~ aes ges4 aes8~ |
+	aes8 bes bes ces bes4 des |
+	ges,2 r8 ges des'4 |
+	ges,2. r8 ees |
+    }
+% page 8.1-2x
+    \relative {
+	f'8 ees f ees f ees f ges |
+    }
+% to Coda1,2
+% page 10 Coda1
+    \barNumberCheck #87
+    \relative {
+	r8 ges'4 ges8 a4 aes |
+    }
+% H
+    \barNumberCheck #88
+    \relative {
+	fis'4 r r2 |
+	r1 |
+    }
+% page 10.1
+    r1 |
+    \relative {
+	\deadNote c''4 \deadNote c \deadNote c \deadNote e~ |
+    }
+% I
+    \barNumberCheck #92
+    \relative {
+	\deadNote e''4 r r2 |
+    }
+    r1 |
+% page 11
+    r1 | r1 | r1 | r1 |
+% page 11.1
+    r1 | r1 | r1 | r1 |
+% page 12
+    r1 | r1 | r1 | r1 |
+% page 12.1
+    r1 | r1 |
+% J repeat
+    \barNumberCheck #108
+    \relative {
+	fis'2 \tuplet 3/2 { gis4 a b } |
+    }
+% page 13
+    \relative {
+	\tuplet 3/2 { e'4 fis gis } a r |
+	d,2 \tuplet 3/2 { cis4 b cis } |
+	e4 d cis r |
+    }
+% page 13.1
+    \relative {
+	fis'2 \tuplet 3/2 { gis4 a b } |
+	\tuplet 3/2 { e,4 fis gis } a4 r |
+    }
+% ending 1
+    \relative {
+	\tuplet 3/2 { d'4 d d } \tuplet 3/2 { cis a' gis } |
+    }
+% page 14
+    \relative {
+	a'2. r4 |
+    }
+% end repeat
+% J repeat-2x
+    \barNumberCheck #116
+    \relative {
+	fis'2 \tuplet 3/2 { gis4 a b } |
+    }
+% page 13-2x
+    \relative {
+	\tuplet 3/2 { e'4 fis gis } a r |
+	d,2 \tuplet 3/2 { cis4 b cis } |
+	a8 d e d cis4 r |
+    }
+% page 13.1-2x
+    \relative {
+	fis'2 \tuplet 3/2 { gis4 a b } |
+	\tuplet 3/2 { e,4 fis gis } \tuplet 3/2 { a fis gis } |
+    }
+% page 14
+    \relative {
+	a'8 fis4 gis8 a fis4 gis8 |
+	a1~ |
+	a4 r4 r2 |
+    }
+% E Stegno2-3x
+    \barNumberCheck #125
+    \relative {
+	ges'4 f8 ges~ ges f4 ges8~ |
+	ges8 f ges aes ges4 r |
+    }
+% page 7-3x
+    \relative {
+	aes'4 ges8 aes~ aes ges4 aes8~ |
+	aes8 bes bes ces bes4 des |
+	ges,2. des'4 |
+	ges,2. r8 ees |
+    }
+% page 7.1-3x
+    \relative {
+	f'8 ees f ees f ees f ges |
+	r8 aes aes bes ces4 bes |
+	ges4 f8 ges~ ges f4 ges8~ |
+	ges8 f ges aes ges4 r |
+    }
+% page 8-3x
+    \relative {
+	aes'4 ges8 aes~ aes ges4 aes8~ |
+	aes8 bes bes ces bes4 des |
+	ges,2 r8 ges des'4 |
+	ges,2. r8 ees |
+    }
+% page 8.1-3x
+    \relative {
+	f'8 ees f ees f ees f ges |
+    }
+% to Coda1,2
+% page 14.1 Coda2
+    \barNumberCheck #140
+    \relative {
+	r8 ges'4 ges8 a4 aes |
+    }
+% K
+    \barNumberCheck #141
+    \relative {
+	fis'4 r r2 |
+	r1 |
+    }
+% page 15
+    r1 | r1 | r1 |
+% page 15.1
+    r1 | r1 | r1 | r1 |
+    \barNumberCheck #150
+}

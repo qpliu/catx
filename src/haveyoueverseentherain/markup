@@ -1,0 +1,25 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \tempo 4 = 117
+\mymark "Intro" #1
+    s1 s1 s1 s1 \break
+    s1 s1 s1 \break
+    \repeat volta 2 {
+\mymark "Verse" #8 % or 36
+	s1 s1 s1 s1 \break
+	s1 s1 s1 s1 \break
+	s1 s1 s1 s1 \break
+	s1 s1 s1 s1 \break
+\mymark "Chorus" #24 % or 52
+	s1 s1 s1 s1 \break
+	s1 s1 s1 s1 \break
+	s1 s1 s1 s1 \break
+    }
+\mymark "Outro" #36 % or 64
+    s1 s1 s1 s1 \break
+    s1 s1 s1 s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \noBreak
+\mybarNumberCheck #48 % or 76
+    s1
+    \bar "|."
+}

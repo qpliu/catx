@@ -1,0 +1,215 @@
+% vocal chorus guitar1 guitar2 guitar3 keyboard bass drums percussion
+% all
+% midi
+% PARTS midi
+% MIDIS midiOne midiTwo
+% ROLAND DokiDokiMor
+
+\header {
+    title = "ド・キ・ド・キ☆モーニング"
+    composer = "Lyric:ナカメタル Music:のりぞー,村カワ基成"
+}
+
+drumPitchNames.noise = #'noise
+midiDrumPitches.noise = a' % 69
+drumPitchNames.tomm = #'himidtom
+
+#(define myDrumStyleTable '(
+    (ridecymbal     cross    #f          7)
+    (crashcymbal    cross    #f          6)
+    (hihat          cross    #f          5)
+    (openhihat      cross    "open"      5)
+    (closedhihat    cross    "stopped"   5)
+    (halfopenhihat  cross    "halfopen"  5)
+    (himidtom       default  #f          2)
+    (snare          default  #f          1)
+    (handclap       cross    #f          0)
+    (noise          default  #f          0)
+    (lowtom         default  #f          -1)
+    (bassdrum       default  #f          -3)
+))
+
+\include "markup"
+\include "chords"
+\include "vocal"
+\include "vocaltext_lyrics"
+\include "vocaltext_midi"
+\include "chorus"
+\include "vocallyrics"
+\include "choruslyrics"
+\include "guitar1"
+\include "guitar1text_lyrics"
+\include "guitar1text_midi"
+\addQuote "guitar1" \guitarOnePart
+\addQuote "lyricsguitar1" \lyricsguitarOneText
+\addQuote "midiguitar1" \midiguitarOneText
+\include "guitar2"
+\include "guitar2text_lyrics"
+\include "guitar2text_midi"
+\include "guitar3"
+\include "keyboard"
+\include "bass"
+\include "basstext_lyrics"
+\include "basstext_midi"
+\include "drums"
+\include "drumstext_lyrics"
+\include "drumstext_midi"
+\include "percussion"
+\include "percussiontext_lyrics"
+\include "percussiontext_midi"
+
+layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
+    \new ChordNames \mychords
+    \tag #'(allPart chorusPart) \new Staff \with {
+	instrumentName = "Chorus"
+	shortInstrumentName = "Ch"
+    } <<
+	\markupStuff
+	\chorusPart
+	\chorusLyrics
+    >>
+    \tag #'(allPart vocalPart) \new Staff \with {
+	instrumentName = "Vocal"
+	shortInstrumentName = "Vo"
+    } <<
+	\markupStuff
+	\vocalPart
+	\vocalLyrics
+	\tag #'(textLyrics keep) \lyricsvocalText
+    >>
+    \tag #'(allPart guitarOnePart) \new Staff \with {
+	instrumentName = "Guitar1"
+	shortInstrumentName = "Gt.1"
+    } <<
+	\markupStuff
+	\guitarOnePart
+	\tag #'(textLyrics keep) \lyricsguitarOneText
+    >>
+    \tag #'(allPart guitarTwoPart) \new Staff \with {
+	instrumentName = "Guitar2"
+	shortInstrumentName = "Gt.2"
+    } <<
+	\markupStuff
+	\guitarTwoPart
+	\tag #'(textLyrics keep) \lyricsguitarTwoText
+    >>
+    \tag #'(allPart guitarThreePart) \new Staff \with {
+	instrumentName = "Guitar3"
+	shortInstrumentName = "Gt.3"
+    } <<
+	\markupStuff
+	\guitarThreePart
+    >>
+    \tag #'(allPart keyboardPart) \new Staff \with {
+	instrumentName = "Keyboard"
+	shortInstrumentName = "Keyb"
+    } <<
+	\markupStuff
+	\keyboardPart
+    >>
+    \tag #'(allPart bassPart) \new Staff \with {
+	instrumentName = "Bass"
+	shortInstrumentName = "Ba"
+    } <<
+	\markupStuff
+	\bassPart
+	\tag #'(textLyrics keep) \lyricsbassText
+    >>
+    \tag #'(allPart drumsPart) \new DrumStaff \with {
+	instrumentName = "Drums"
+	shortInstrumentName = "Dr"
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drumsPart
+	\tag #'(textLyrics keep) \lyricsdrumsText
+    >>
+    \tag #'(allPart percussionPart) \new DrumStaff \with {
+	instrumentName = "Percussion"
+	shortInstrumentName = "Perc"
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\override Staff.StaffSymbol.line-positions = #'( 0 )
+	\override Staff.BarLine.bar-extent = #'(-1.5 . 1.5)
+	\markupStuff
+	\percussionPart
+	\tag #'(textLyrics keep) \lyricspercussionText
+    >>
+>>
+
+midimusicAll = <<
+    \markupStuff
+    \tag #'(midiOne chorusPart) \new Staff \with {
+	midiInstrument = #"choir aahs"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.6
+    } \chorusPart
+    \tag #'(midiOne vocalPart) \new Staff = "vocaltext" \midivocalText
+    \tag #'(midiOne vocalPart) \new Staff = "vocal" \vocalPart
+    \tag #'(midiOne guitarOnePart) \new Staff = "guitar1text" \midiguitarOneText
+    \tag #'(midiOne guitarOnePart) \new Staff = "guitar1" \guitarOnePart
+    \tag #'(midiOne guitarTwoPart) \new Staff = "guitar2text" \midiguitarTwoText
+    \tag #'(midiOne guitarTwoPart) \new Staff = "guitar2" \guitarTwoPart
+    \tag #'(midiOne guitarThreePart) \new Staff \with {
+	midiInstrument = #"electric guitar (clean)"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.5
+    } \guitarThreePart
+    \tag #'(midiTwo keyboardPart) \new Staff \with {
+	midiInstrument = #"pad 3 (polysynth)"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.7
+    } \keyboardPart
+    \tag #'(midiTwo bassPart) \new Staff = "basstext" \midibassText
+    \tag #'(midiTwo bassPart) \new Staff = "bass" \bassPart
+    \tag #'(midiTwo drumsPart) \new Staff = "drumstext" \mididrumsText
+    \tag #'(midiTwo drumsPart) \new DrumStaff = "drums" \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drumsPart
+    \tag #'(midiTwo percussionPart) \new Staff = "percussiontext" \midipercussionText
+    \tag #'(midiTwo percussionPart) \new DrumStaff = "percussion" \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \percussionPart
+>>
+
+midimusic = <<
+%    \keepWithTag #'(chorusPart keep) \midimusicAll
+%    \keepWithTag #'(vocalPart keep) \midimusicAll
+%    \keepWithTag #'(guitarOnePart keep) \midimusicAll
+%    \keepWithTag #'(guitarTwoPart keep) \midimusicAll
+%    \keepWithTag #'(guitarThreePart keep) \midimusicAll
+%    \keepWithTag #'(keyboardPart keep) \midimusicAll
+%    \keepWithTag #'(bassPart keep) \midimusicAll
+%    \keepWithTag #'(drumsPart keep) \midimusicAll
+%    \keepWithTag #'(percussionPart keep) \midimusicAll
+    \midimusicAll
+>>
+
+rolandmusic = <<
+    \markupStuff
+    \tag #'(rolandMelody) \new Staff \with {
+	midiInstrument = #"choir aahs"
+    } <<
+	\vocalPart
+	\chorusPart
+    >>
+    \tag #'(rolandBass) \new Staff \with {
+	midiInstrument = #"acoustic bass"
+    } \bassPart
+    \tag #'(rolandBackOne) \new Staff \with {
+	midiInstrument = #"electric guitar (clean)"
+    } <<
+	\guitarOnePart
+	\guitarTwoPart
+	\guitarThreePart
+    >>
+    \tag #'(rolandBackTwo) \new Staff \with {
+	midiInstrument = #"pad 3 (polysynth)"
+    } \keyboardPart
+    \tag #'(rolandDrums) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } <<
+	\percussionPart
+	\drumsPart
+    >>
+>>

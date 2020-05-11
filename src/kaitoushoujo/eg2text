@@ -1,0 +1,231 @@
+[TEXT_PREFIX]egTwoText = {
+% page 2
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 |
+    }
+% A
+    \barNumberCheck #2
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 | s1 |
+    }
+% page 3
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 | s1 |
+    }
+    `>dist=program30;volume.2`1 |
+% page 3.1
+    r1 |
+% B
+    \barNumberCheck #10
+    r1 | r1 | r1 |
+% page 4
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 4.1
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 |
+    }
+% C
+    \barNumberCheck #18
+    \tuplet 3/2 { r4 `deadNote=vol.3`8 } r4 r2 |
+    r1 |
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 |
+    }
+% page 5
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 5.1
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 |
+    }
+% D Stegno1
+    \barNumberCheck #26
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 | s1 |
+    }
+% page 6
+    r1 | r1 | r1 | r1 |
+% page 6.1
+    r1 | r1 |
+% E Stegno2
+    \barNumberCheck #35
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 |
+    }
+% page 7
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 7.1
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 |
+    }
+    r2 `deadNote`8 r r r |
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 |
+    }
+% page 8
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 8.1
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 |
+    }
+% to Coda1,2
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 |
+    }
+% F
+    \barNumberCheck #51
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 |
+    }
+% page 9
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 |
+    }
+% G
+    \barNumberCheck #55
+    r1 | r1 |
+% page 9.1
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 10
+    r1 | r1 |
+% D.S.1
+% D Stegno1-2x
+    \barNumberCheck #63
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 | s1 |
+    }
+% page 6-2x
+    r1 | r1 | r1 | r1 |
+% page 6.1-2x
+    r1 | r1 |
+% E Stegno2-2x
+    \barNumberCheck #72
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 |
+    }
+% page 7-2x
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 7.1-2x
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 |
+    }
+    r2 `deadNote`8 r r r |
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 |
+    }
+% page 8-2x
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 8.1-2x
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 |
+    }
+% to Coda1,2
+% page 10 Coda1
+    \barNumberCheck #87
+    r1 |
+% H
+    \barNumberCheck #88
+    r1 | r1 |
+% page 10.1
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 |
+    }
+% I
+    \barNumberCheck #92
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 |
+    }
+% page 11
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 11.1
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 12
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 12.1
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 |
+    }
+% J repeat
+    \barNumberCheck #108
+    r1 |
+% page 13
+    r1 | r1 | r1 |
+% page 13.1
+    r1 | r1 |
+% ending 1
+    r1 |
+% page 14
+    r1 |
+% end repeat
+% J repeat-2x
+    \barNumberCheck #116
+    r1 |
+% page 13-2x
+    r1 | r1 | r1 |
+% page 13.1-2x
+    r1 | r1 |
+% page 14
+    r1 | r1 | r1 |
+% E Stegno2-3x
+    \barNumberCheck #125
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 |
+    }
+% page 7-3x
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 7.1-3x
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 |
+    }
+    r2 `deadNote`8 r r r |
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 |
+    }
+% page 8-3x
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+% page 8.1-3x
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 |
+    }
+% to Coda1,2
+% page 14.1 Coda2
+    \barNumberCheck #140
+    r1 |
+% K
+    \barNumberCheck #141
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 |
+    }
+% page 15
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 | s1 |
+    }
+% page 15.1
+    \quoteDuring #"[TEXT_PREFIX]eg1" {
+	s1 | s1 | s1 | s1 |
+    }
+    \barNumberCheck #150
+}

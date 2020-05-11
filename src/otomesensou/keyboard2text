@@ -1,0 +1,227 @@
+[TEXT_PREFIX]keyboardTwoText = {
+% page 82 A
+    \barNumberCheck #1
+    r1 |
+    r2. | r2. |
+    r1 | r1 |
+% page 83 B
+    \barNumberCheck #6
+    `>piano=program0;volume.7`8 r8 r4 r2 | % Piano
+    r1 | r1 | r1 |
+% page 83.1
+    r1 | r1 | r1 |
+% 1x ending
+    r1 |
+% page 83 B-2x
+    \barNumberCheck #14
+    r1 | r1 | r1 | r1 |
+% page 83.1-2x
+    r1 | r1 | r1 |
+% page 84
+    \repeat unfold 2 {
+        r1 |
+    }
+    r1 | r1 | r1 |
+% page 84.1 C
+    \barNumberCheck #26
+    r1 | r1 | r1 | r1 |
+% page 85
+    r1 | r1 | r1 | r1 |
+% page 85.1
+    r1 | r1 | r1 |
+% page 86 D Segno
+    \barNumberCheck #37
+    r1 | r1 | r1 | r1 |
+% page 86.1
+    r1 | r1 | r1 | r1 |
+% page 87
+    r1 | r1 | r1 | r1 |
+% page 87.1
+    r1 | r1 | r1 | r1 |
+% page 88 E
+    \barNumberCheck #53
+    r1 | r1 | r1 | r1 |
+% page 88.1
+    r1 | r1 | r1 | r1 |
+% page 89
+    r1 | r1 |
+% F
+    \barNumberCheck #63
+    r1 | r1 |
+% page 89.1
+    r1 | r1 | r1 | r1 |
+% page 90
+    r1 | r1 | r1 | r1 |
+% page 90.1 G
+    \barNumberCheck #73
+    r1 | r1 | r1 | r1 |
+% page 91
+    r1 | r1 | r1 | r1 |
+% page 91.1
+    r1 | r1 | r1 | r1 | r1 |
+% page 92
+    r1 |
+% H
+    \barNumberCheck #87
+    r1 | r1 | r1 |
+% page 92.1
+    r1 | r1 | r1 | r1 |
+% page 93
+    r1 | r1 | r1 | r1 | r1 |
+% page 93.1 I
+    \barNumberCheck #99
+    r1 | r1 | r1 | r1 |
+% page 94
+    r1 | r1 | r1 | r1 |
+% page 94.1
+    r1 | r1 | r1 |
+% page 86 D Segno-2x
+    \barNumberCheck #110
+    r1 | r1 | r1 | r1 |
+% page 86.1-2x
+    r1 | r1 | r1 | r1 |
+% page 87-2x
+    r1 | r1 | r1 | r1 |
+% page 87.1-2x
+    r1 | r1 | r1 | r1 |
+% page 88 E-2x
+    \barNumberCheck #126
+    \repeat unfold 2 {
+        r1 | r1 | r1 | r1 |
+    }
+% page 89-2x
+    r1 | r1 |
+% F-2x
+    \barNumberCheck #136
+    \repeat unfold 2 {
+        r1 |
+    }
+% page 89.1-2x
+    \repeat unfold 2 {
+        r1 |
+    }
+    \repeat unfold 2 {
+        r1 |
+    }
+% page 90-2x
+    r1 | r1 | r1 | r1 |
+% page 90.1 G-2x
+    \barNumberCheck #146
+    \repeat unfold 2 {
+        r1 |
+    }
+    \repeat unfold 2 {
+        r1 |
+    }
+% page 91-2x
+    \repeat unfold 2 {
+        r1 |
+    }
+    r1 | r1 |
+% page 91.1-2x
+    \repeat unfold 2 {
+        r1 |
+    }
+    \repeat unfold 2 {
+        r1 |
+    }
+    r1 |
+% coda
+    \barNumberCheck #159
+    r1 |
+% page 95 J
+    \barNumberCheck #160
+    r1 |
+    \repeat unfold 2 {
+        r1 |
+    }
+    r1 |
+% page 95.1
+    r1 | r1 | r1 | r1 |
+% page 96
+    r1 |
+    \repeat unfold 2 {
+        r1 |
+    }
+    r1 |
+% page 96.1
+    r1 |
+    \repeat unfold 2 {
+        r1 |
+    }
+    r1 | r1 |
+% page 97 K
+    \barNumberCheck #177
+    r1 | r1 | r1 | r1 |
+% page 97.1
+    `>glocken=program9;volume.3`2 r2 | % Glocken
+    r1 | r1 | r1 |
+% page 98
+    r1 | r1 | r1 | r1 |
+% page 98.1
+    r1 | r1 | r1 | r1 | r1 |
+% page 99 L
+    \barNumberCheck #194
+    r1 | r1 | r1 | r1 |
+% page 99.1
+    r1 | r1 | r1 | r1 |
+% start 1x
+% page 100
+    r1 |
+% page 99 L-2x
+    \barNumberCheck #203
+    r1 | r1 | r1 | r1 |
+% page 99.1-2x
+    r1 | r1 | r1 | r1 |
+% page 100-2x
+    r1 | r1 |
+% page 100.1 M
+    \barNumberCheck #213
+    \repeat unfold 2 {
+        r1 |
+    }
+    \repeat unfold 2 {
+        r1 |
+    }
+% page 101
+    \repeat unfold 2 {
+        r1 |
+    }
+    r1 | r1 |
+% page 101.1
+    r1 | r1 | r1 | r1 |
+% page 102 N
+    \barNumberCheck #225
+    \repeat unfold 2 {
+        r1 |
+    }
+    \repeat unfold 2 {
+        r1 |
+    }
+% page 102.1
+    \repeat unfold 2 {
+        r1 |
+    }
+    r1 | r1 |
+    \repeat unfold 2 {
+        r1 |
+    }
+    \repeat unfold 2 {
+        r1 |
+    }
+    r1 | r1 |
+% page 103.1 O
+    \barNumberCheck #239
+    r1 | r1 | r1 | r1 |
+% page 104
+    r1 | r1 | r1 | r1 |
+% page 104.1
+    r1 | r1 | r1 | r1 |
+% page 105
+    r1 | r1 | r1 |
+    \repeat unfold 2 {
+        r1 |
+    }
+    r1 | r1 | r1 |
+    \barNumberCheck #259
+}

@@ -1,0 +1,547 @@
+keyboardOnePart = \new Voice = "key1b" \new Voice = "key1a" {
+    \context Voice = "key1b" { \voiceTwo }
+% page 82 A
+    \barNumberCheck #1
+    \relative {
+	<b' b'>8\staccato\startInstrument "Strings" <e, e'>16 <e e'>16 r16 <e e'>16 r16 <d d'>16 <e e'>8\staccato <e e'>8\staccato r8 <e e'>8\staccato |
+    }
+    \relative {
+	<e' e'>4\staccato <g g'>4 r8 <d d'>8\staccato |
+	<e e'>4\staccato <a a'>4 <ais ais'>4 |
+    }
+    \relative {
+	<b' b'>1~ |
+	<b b'>2. r4 |
+    }
+% page 83 B
+    \barNumberCheck #6
+    r1 | r1 | r1 | r1 |
+% page 83.1
+    r1 | r1 | r1 |
+% 1x ending
+    \relative {
+	\ottava #1 <d'' d'>4\staccato <g g'>4\staccato <e e'>4\staccato <e' e'>4\staccato \ottava #0 |
+    }
+% page 83 B-2x
+    \barNumberCheck #14
+    r1 | r1 | r1 | r1 |
+% page 83.1-2x
+    r1 | r1 | r1 |
+% page 84
+    \relative {
+	\repeat percent 2 {
+	    <b' b'>4\staccato r4 r4 r8 <a a'>8 |
+	}
+	<b b'>4\staccato r4 r2 |
+	b'8\staccato e,16 e16 r16 e16 r16 d16 e8\staccato e8\staccato r8 b8~ |
+	b8 d8 b8 d8 bes8 a8 g4 |
+    }
+% page 84.1 C
+    \barNumberCheck #26
+    \relative {
+	e'8\staccato b8\staccato d8\staccato e8~ e8 b8\staccato d8\staccato e8~ |
+	e8 b8\staccato d8\staccato e8~ e8 b8\staccato b4\staccato |
+	e8\staccato b8\staccato d8\staccato e8~ e8 b8\staccato d8\staccato e8 |
+	r8 e8 r8 <g b>8 r8 <g b>8 r8 <gis bis>8 |
+    }
+% page 85
+    \relative {
+	<a' cis>8 <g b>8 <a cis>4\staccato r2 |
+	<a cis>8 <g b>8 <a cis>8 <cis e>8 r8 <a cis>8 r4 |
+	r1 | r1 |
+    }
+% page 85.1
+    r1 | r1 |
+    \relative {
+	<fis' b>8 <e a>8 r8 <fis b>8 r2 |
+    }
+% page 86 D Segno
+    \barNumberCheck #37
+    \voiceOne
+    \relative {
+	<< { fis''1 | } \context Voice = "key1b" { <b,, d fis>1 | } >>
+	<< { e'1 | } \context Voice = "key1b" { <a,, cis e>1 | } >>
+	<< { e''2 d4 a'4 | } \context Voice = "key1b" { <a,, cis e>1 | } >>
+	<< { fis''2 d2 | } \context Voice = "key1b" { <a, d fis>1 | } >>
+    }
+% page 86.1
+    \relative {
+	<< { b'4. fis'8~ fis2 | } \context Voice = "key1b" { <b,, d fis>1 | } >>
+	<< { e'1 | } \context Voice = "key1b" { <a,, cis e>1 | } >>
+	<< { r1 | } \context Voice = "key1b" { <a d>1~ | } >>
+	<< { r1 | } \context Voice = "key1b" { <a d>1 | } >>
+    }
+% page 87
+    \relative {
+	<< { r4 b8 <b d fis>8~ <b d fis>2 | } \context Voice = "key1b" { g1 | } >>
+	<< { e''1 | } \context Voice = "key1b" { <a,, cis e>1 | } >>
+	<< { a'4 cis8 g'8~ g4 a4 | } \context Voice = "key1b" { <a,, cis e>1 | } >>
+	<< { fis''1 | } \context Voice = "key1b" { <b,, d fis>1 | } >>
+    }
+% page 87.1
+    \relative {
+	<< { fis''1 | } \context Voice = "key1b" { <b,, d fis>1 | } >>
+	<< { e'1\stopInstrument "Strings" | } \context Voice = "key1b" { <a,, cis e>1 | } >>
+    }
+    \oneVoice
+    \relative {
+	<d' d'>1\startInstrument "Brass" |
+	<d d'>8. <a a'>16~ <a a'>8 <g' g'>8 <fis fis'>8. <d d'>16~ <d d'>8 <a a'>8 |
+   }
+% page 88 E
+    \barNumberCheck #53
+    \relative {
+	<e' b'>1 |
+	r4 <g b>4\chordBendAfter #-2 r2 |
+	r1 |
+	r2 r8 <g g'>8 <fis fis'>8 <d d'>8 |
+   }
+% page 88.1
+    \relative {
+	<e' b'>2. <b' e g>4 |
+	r4 <e, g b>4 r8 <g b d>8 r4 |
+	<c e>2.\stopInstrument "Brass" r4 |
+    }
+    \relative {
+	<fis' fis'>4.\startInstrument "Strings" <g g'>8~ <g g'>4 <a a'>4 |
+    }
+% page 89
+    \voiceOne
+    \relative {
+	<< { b''1~ | } \context Voice = "key1b" { a,4. b8~ b4 d,4 | } >>
+	<< { b''1 | } \context Voice = "key1b" { a,4. b8~ b2 | } >>
+    }
+    \oneVoice
+% F
+    \barNumberCheck #63
+    \relative {
+	\ottava #-1 <a, a'>4\staccato <c c'>4\staccato <e e'>4\staccato <c c'>4\staccato |
+	\ottava #0 a'4 c8 a'8~ a8 e'8 a4 |
+    }
+% page 89.1
+    \relative {
+	\ottava #-1 <g, g'>4\staccato <b b'>4\staccato <e e'>4\staccato <b b'>4\staccato |
+	\voiceOne
+	\ottava #0 << { r4 b''8 e8~ e8 g4. | } \context Voice = "key1b" { g,2. r4 | } >>
+	\oneVoice
+	r1 |
+	<fis fis'>8 <fis fis'>8 <g g'>4\staccato <fis fis'>8 <fis fis'>8 <g g'>4\staccato |
+    }
+% page 90
+    \relative {
+	<g' g'>4\staccato r8 <g g'>8\staccato r4 <g g'>4\staccato |
+	r8 <g g'>8\staccato r4 <g g'>4\staccato <g g'>8 <a a'>8 |
+	<b b'>2. <c c'>8 <b b'>8 |
+	r2 r8 <b, b'>4.\stopInstrument "Strings" |
+    }
+% page 90.1 G
+    \barNumberCheck #73
+    \relative {
+	<e' g b>1~\startInstrumentDown "Strings" |
+	<e g b>1 |
+	<e a c>1~ |
+	<e a c>1 |
+    }
+% page 91
+    \relative {
+	<fis' a d>1~ |
+	<fis a d>1 |
+	<g b d>1 |
+	<fis b dis>1 |
+    }
+% page 91.1
+    \relative {
+	<e' g b>1~ |
+	<e g b>1 |
+	<e a c>1~ |
+	<e a c>1 |
+	r8 <c' c'>8 <b b'>4\staccato r8 <e e'>8 <dis dis'>4\staccato |
+    }
+% page 92
+    \relative {
+	r8 <g'' g'>8 <fis fis'>4\staccato r2 |
+    }
+% H
+    \barNumberCheck #87
+    r1 | r1 | r1 |
+% page 92.1
+    r1 |
+    \relative {
+	<e' e'>1 |
+	<d d'>4 <b b'>2 <d d'>4 |
+	<e e'>2. <a a'>8 <ais ais'>8 |
+    }
+% page 93
+    \relative {
+	\repeat percent 2 {
+	    <b' b'>4\staccato r4 r4 r8 <a a'>8 |
+	}
+	<b b'>4\staccato r4 r2 |
+	b'8\staccato e,16 e16 r16 e16 r16 d16 e8\staccato e8\staccato r8 b8~ |
+	b8 d8 b8 d8 bes8 a8 g4 |
+    }
+% page 93.1 I
+    \barNumberCheck #99
+    \relative {
+	e'8\staccato b8\staccato d8\staccato e8~ e8 b8\staccato d8\staccato e8~ |
+	e8 b8\staccato d8\staccato e8~ e8 b8\staccato b8\staccato d8\staccato |
+	e8\staccato b8\staccato d8\staccato e8~ e8 b8\staccato d8\staccato e8\staccato |
+	r8 e8 r8 <g b>8 r8 <g b>8 r8 <gis bis>8 |
+    }
+% page 94
+    \relative {
+	<cis'' a'>8 <b g'>8 <cis a'>4\staccato r2 |
+	<e cis'>8 <cis a'>8 <c aes'>8 <b g'>8 r8 <cis a'>8 r4 |
+	r1 | r1 |
+    }
+% page 94.1
+    r1 | r1 |
+    \relative {
+	<dis' fis b'>8 <a fis' a'>8 r8 <dis fis b'>8 r2 |
+    }
+% page 86 D Segno-2x
+    \barNumberCheck #110
+    \voiceOne
+    \relative {
+	<< { fis''1 | } \context Voice = "key1b" { <b,, d fis>1 | } >>
+	<< { e'1 | } \context Voice = "key1b" { <a,, cis e>1 | } >>
+	<< { e''2 d4 a'4 | } \context Voice = "key1b" { <a,, cis e>1 | } >>
+	<< { fis''2 d2 | } \context Voice = "key1b" { <a, d fis>1 | } >>
+    }
+% page 86.1-2x
+    \relative {
+	<< { b'4. fis'8~ fis2 | } \context Voice = "key1b" { <b,, d fis>1 | } >>
+	<< { e'1 | } \context Voice = "key1b" { <a,, cis e>1 | } >>
+	<< { r2 r4 g''4 | } \context Voice = "key1b" { <a,, d>1~ | } >>
+	<< { fis''4. d8~ d2 | } \context Voice = "key1b" { <a, d>1 | } >>
+    }
+% page 87-2x
+    \relative {
+	<< { r4 b8 <b d fis>8~ <b d fis>2 | } \context Voice = "key1b" { g1 | } >>
+	<< { e''1 | } \context Voice = "key1b" { <a,, cis e>1 | } >>
+	<< { a'4 cis8 g'8~ g4 a4 | } \context Voice = "key1b" { <a,, cis e>1 | } >>
+	<< { fis''1 | } \context Voice = "key1b" { <b,, d fis>1 | } >>
+    }
+% page 87.1-2x
+    \relative {
+	<< { fis''1 | } \context Voice = "key1b" { <b,, d fis>1 | } >>
+	<< { e'1\stopInstrument "Strings" | } \context Voice = "key1b" { <a,, cis e>1 | } >>
+    }
+    \oneVoice
+    \relative {
+	<d' d'>1\startInstrument "Brass" |
+	<d d'>8. <a a'>16~ <a a'>8 <g' g'>8 <fis fis'>8. <d d'>16~ <d d'>8 <a a'>8 |
+   }
+% page 88 E-2x
+    \barNumberCheck #126
+    \relative {
+	<e' b'>1 |
+	r4 <g b>4\chordBendAfter #-2 r2 |
+	r1 |
+	r2 r8 <g g'>8 <fis fis'>8 <d d'>8 |
+    }
+% page 88.1-2x
+    \relative {
+	<e' b'>2. <b' e g>4 |
+	r4 <e, g b>4 r8 <g b d>8 r4 |
+	<c e>2.\stopInstrument "Brass" r4 |
+    }
+    \relative {
+	<fis' fis'>4.\startInstrument "Strings" <g g'>8~ <g g'>4 <a a'>4 |
+    }
+% page 89-2x
+    \voiceOne
+    \relative {
+	<< { b''1~ | } \context Voice = "key1b" { a,4. b8~ b4 d,4 | } >>
+	<< { b''1 | } \context Voice = "key1b" { a,4. b8~ b2 | } >>
+    }
+    \oneVoice
+% F-2x
+    \barNumberCheck #136
+    \relative {
+	\ottava #-1 <a, a'>4\staccato <c c'>4\staccato <e e'>4\staccato <c c'>4\staccato |
+	\ottava #0 a'4 c8 a'8~ a8 e'8 a4 |
+    }
+% page 89.1-2x
+    \relative {
+	\ottava #-1 <g, g'>4\staccato <b b'>4\staccato <e e'>4\staccato <b b'>4\staccato |
+	\voiceOne
+	\ottava #0 << { r4 b''8 e8~ e8 g4. | } \context Voice = "key1b" { g,2. r4 | } >>
+	\oneVoice
+	r1 |
+	<fis fis'>8 <fis fis'>8 <g g'>4\staccato <fis fis'>8 <fis fis'>8 <g g'>4\staccato |
+    }
+% page 90-2x
+    \relative {
+	<g' g'>4\staccato r8 <g g'>8\staccato r4 <g g'>4\staccato |
+	r8 <g g'>8\staccato r4 <g g'>4\staccato <g g'>8 <a a'>8 |
+	<b b'>2. <c c'>8 <b b'>8 |
+	r2 r8 <b, b'>4.\stopInstrument "Strings" |
+    }
+% page 90.1 G-2x
+    \barNumberCheck #146
+    \voiceOne
+    << \relative {
+	r4\startInstrument "Brass" <b' e>4 r2 |
+	r4 <b e>4\staccato <b e>8 <b e>8 r4 |
+	r4 <c e>4 r2 |
+	r4 <c e>4\staccato <c e>8 <c e>8 r4 |
+    } \context Voice = "key1b" \relative {
+	<e' g b>1~\startInstrumentDown "Strings" |
+	<e g b>1 |
+	<e a c>1~ |
+	<e a c>1 |
+    } >>
+% page 91-2x
+    << \relative {
+	r4 <d'' fis>4 r2 |
+	r1 |
+	r4 <b d>4 r2 |
+	r1 |
+    } \context Voice = "key1b" \relative {
+	<fis' a d>1~ |
+	<fis a d>1 |
+	<g b d>1 |
+	<fis b dis>1 |
+    } >>
+% page 91.1-2x
+    << \relative {
+	r4 <b' e>4 r4 <b e>4 |
+	r1 |
+	r4 <b e>4 r4 <b e>4\stopInstrument "Brass" |
+	s1 |
+    } \context Voice = "key1b" \relative {
+	<e' g b>1~ |
+	<e g b>1 |
+	<e a c>1~ |
+        <e a c>1 |
+    } >>
+    \oneVoice
+    \relative {
+	r8 <c'' c'>8 <b b'>4\staccato r8 <e e'>8 <dis dis'>4\staccato |
+    }
+% coda
+    \barNumberCheck #159
+    \relative {
+	r8 <g'' g'>8 <fis fis'>4\staccato r2 |
+    }
+% page 95 J
+    \barNumberCheck #160
+    \relative {
+	<e' e'>4. <gis gis'>8~ <gis gis'>2 |
+	<fis fis'>4. <dis dis'>8~ <dis dis'>2 |
+	<b' b'>2. <a a'>4 |
+	<gis gis'>4 <fis fis'>8 <e e'>8~ <e e'>2 |
+    }
+% page 95.1
+    \relative {
+	<cis' cis'>4. <a a'>8~ <a a'>4 <e' e'>4 |
+	<dis dis'>4. <b' b'>8~ <b b'>2 |
+	<gis gis'>4. <dis dis'>8~ <dis dis'>4 <e e'>4 |
+	<cis cis'>1 |
+    }
+% page 96
+    \relative {
+	<a a'>4. <gis' gis'>8~ <gis gis'>4. <e e'>8 |
+	<fis fis'>4. <dis dis'>8~ <dis dis'>2 |
+	<b' b'>2. <a a'>4 |
+	<gis gis'>4 <fis fis'>8 <e e'>8~ <e e'>2 |
+    }
+% page 96.1
+    \relative {
+	<cis' cis'>4. <gis' gis'>8~ <gis gis'>4 <e e'>4 |
+	<fis fis'>4. <b b'>8~ <b b'>2 |
+	<gis gis'>4. <dis' dis'>8~ <dis dis'>4 <e e'>4 |
+	<cis cis'>1~ |
+	<cis cis'>1 |
+    }
+% page 97 K
+    \barNumberCheck #177
+    r1 | r1 | r1 | r1 |
+% page 97.1
+    r1 | r1 | r1 | r1 |
+% page 98
+    r1 | r1 | r1 |
+    \relative {
+	dis''4. cis8 bis8 gis16 cis16 dis16 e16 fis16 dis16 |
+    }
+% page 98.1
+    \relative {
+	cis''4 gis'4~ gis8 cis,8 gis'8 cis8 |
+	b2 r8 b16 cis16 dis8 bis8 |
+	cis1 |
+	b4 dis4 e2 |
+	<e,, e'>16 <b b'>16 <a a'>16 <fis' fis'>16 <gis gis'>16 <fis fis'>16 <gis gis'>16 <a a'>16 <b b'>16 <fis fis'>16 <gis gis'>16 <a a'>16 <b b'>16 <cis cis'>16 <d d'>16 <e e'>16 |
+    }
+% page 99 L
+    \barNumberCheck #194
+    \voiceOne
+    << \relative {
+	<b'' e>1~\startInstrument "Strings" |
+	<b e>1 |
+	<c e>1 |
+	<a d>4. <b d>8~ <b d>2 |
+    } \context Voice = "key1b" \relative {
+	r4\startInstrumentDown "Brass" <e' g>4 r4 <e g>4 |
+	r4 <e g>4 r4 <d fis>4 |
+	r1 |
+	r2 r8 <g g'>8 <fis fis'>8 <d d'>8 |
+    } >>
+% page 99.1
+    << \relative {
+	<b'' e>1~ |
+	<b e>1 |
+	<c e>1 |
+	\ottava #1 <fis, fis'>4. <g g'>8~ <g g'>4 <a a'>4 \ottava #0 |
+    } \context Voice = "key1b" \relative {
+	<g' b>4 <e g>4 r4 <e g>4 |
+	r4 <e g>4 r8 <g b>4. |
+	<a c>1 |
+	r1 |
+    } >>
+% start 1x
+% page 100
+    << \relative {
+	<g'' g'>8 <fis fis'>8 <d d'>8 <b b'>8 <g g'>8 <fis fis'>16 <g g'>16 <a a'>16 <b b'>16 <c c'>16 <d d'>16 |
+    } \context Voice = "key1b" \relative {
+	r1 |
+    } >>
+% page 99 L-2x
+    \barNumberCheck #203
+    << \relative {
+	<b'' e>1~ |
+	<b e>1 |
+	<c e>1 |
+	<a d>4. <b d>8~ <b d>2 |
+    } \context Voice = "key1b" \relative {
+	r4 <e' g>4 r4 <e g>4 |
+	r4 <e g>4 r4 <d fis>4 |
+	r1 |
+	r2 r8 <g g'>8 <fis fis'>8 <d d'>8 |
+    } >>
+% page 99.1-2x
+    << \relative {
+	<b'' e>1~ |
+	<b e>1 |
+	<c e>1 |
+	\ottava #1 <fis, fis'>4. <g g'>8~ <g g'>4 <a a'>4 \ottava #0 |
+    } \context Voice = "key1b" \relative {
+	<g' b>4 <e g>4 r4 <e g>4 |
+	r4 <e g>4 r8 <g b>4. |
+	<a c>1 |
+	r1 |
+    } >>
+% page 100-2x
+    \ottava #1
+    << \relative {
+	<fis'' fis'>4. <g g'>8~ <g g'>4 <d d'>4 |
+	<a' a'>4. <b b'>8~ <b b'>2 |
+    } \context Voice = "key1b" \relative {
+	r1 |
+	r1\stopInstrumentDown "Brass" |
+    } >>
+    \oneVoice
+    \ottava #-1
+% page 100.1 M
+    \barNumberCheck #213
+    \relative {
+	<a, a'>4\staccato <c c'>4\staccato <e e'>4\staccato <c c'>4\staccato |
+	<a' a'>2 r2 |
+	<g, g'>4\staccato <b b'>4\staccato <e e'>4\staccato <b b'>4\staccato |
+	<g' g'>2 r2 |
+    }
+    \ottava #0
+% page 101
+    r1 | r1 |
+    \relative {
+	fis''4\staccato e8 fis8 r8 e8 fis4\staccato |
+	e8 fis8 r8 e8 fis4\staccato g8 a8 |
+    }
+% page 101.1
+    \relative {
+	<b' b'>2 r4 <c c'>8 <b b'>8 |
+	r1 |
+	<b b'>8 <b b'>8 r4 r8 <fis fis'>8 <c' c'>8 <b b'>8 |
+	r1 |
+    }
+% page 102 N
+    \barNumberCheck #225
+    \voiceOne
+    << \relative {
+	\repeat unfold 4 { e'''16 b16 g16 b16 } |
+	\repeat unfold 4 { e16 b16 g16 b16 } |
+	\repeat unfold 4 { e16 c16 a16 c16 } |
+	\repeat unfold 4 { e16 c16 a16 c16 } |
+    } \context Voice = "key1b" \relative {
+	<e' g b>1~ |
+	<e g b>1 |
+	<e a c>1~ |
+	<e a c>1 |
+    } >>
+% page 102.1
+    << \relative {
+	\repeat unfold 4 { fis'''16 d16 a16 d16 } |
+	\repeat unfold 4 { fis16 d16 a16 d16 } |
+	\repeat unfold 4 { g16 d16 b16 d16 } |
+	\repeat unfold 4 { fis16 dis16 b16 dis16 } |
+	\repeat unfold 4 { e16 b16 g16 b16 } |
+    } \context Voice = "key1b" \relative {
+	<fis' a d>1~ |
+	<fis a d>1 |
+	<g b d>1 |
+	<fis b dis>1 |
+	<e g b>1~ |
+    } >>
+% page 103
+    << \relative {
+	\repeat unfold 4 { e'''16 b16 g16 b16 } |
+	\repeat unfold 4 { e16 c16 a16 c16 } |
+	\repeat unfold 4 { e16 c16 a16 c16 } |
+    } \context Voice = "key1b" \relative {
+	<e' g b>1 |
+	<e a c>1~ |
+	<e a c>1 |
+    } >>
+    \oneVoice
+    \relative {
+	r8 <c'' c'>8 <b b'>4\staccato r8 <e e'>8 <dis dis'>4\staccato |
+	r8 <g g'>8 <fis fis'>4\staccato r2 |
+    }
+% page 103.1 O
+    \barNumberCheck #239
+    \relative {
+	<b e g>1 |
+	<b d g>1 |
+	<cis e a>1 |
+	<dis fis b>1 |
+    }
+% page 104
+    \relative {
+	<b e g>1 |
+	<b d g>1 |
+	<cis e a>1 |
+	\ottava #1 <d' d'>4\staccato <g g'>4\staccato <e e'>4\staccato <e' e'>4\staccato \ottava #0 |
+    }
+% page 104.1
+    \relative {
+	<b e g>1 |
+	<b d g>1 |
+	<cis e a>1 |
+	<dis fis b>1 |
+    }
+% page 105
+    \relative {
+	<b e g>1 |
+	<b d g>1 |
+	<cis e a>1 |
+	\repeat percent 2 {
+	    <b' b'>4\staccato r4 r4 r8 <a a'>8 |
+	}
+    }
+    \relative {
+	<b' b'>4\staccato r4 r2 |
+	<e e'>4\staccato r4 r2 |
+	e'2\< r2\! |
+    }
+    \barNumberCheck #259
+}

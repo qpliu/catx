@@ -1,0 +1,234 @@
+voTwoPart = \new Voice = "vo2b" \new Voice = "vo2" {
+% page 2
+    r1 |
+% A
+    \barNumberCheck #2
+    \override NoteHead.style = #'cross
+    \relative {
+	<f' a>4 <f a> <f a>8 <f a>4 <f a>8 |
+	<f a>8 <f a> <f a> <f a> <f a>16 <f a>8 <f a>16~ <f a>8 <f a>8 |
+	\repeat unfold 8 <f a>8 |
+    }
+% page 3
+    \relative {
+	\repeat unfold 8 <f' a>8 |
+	<f a>4 <f a> <f a>8 <f a>16 <f a>~ <f a> <f a>8 <f a>16 |
+	<f a>8 <f a> <f a> <f a> <f a>4 <f a> |
+	<f a>4 r r2 |
+    }
+% page 3.1
+    r1 |
+% B
+    \barNumberCheck #10
+    r1 | r1 | r1 |
+% page 4
+    r1 | r1 | r1 | r1 |
+% page 4.1
+    r1 |
+% C
+    \barNumberCheck #18
+    \relative {
+	\repeat unfold 11 d'16 d16~ d8 d|
+	\repeat unfold 12 d16 d8 g |
+	r1 |
+    }
+% page 5
+    r1 | r1 | r1 | r1 |
+% page 5.1
+    r1 |
+% D Stegno1
+    \barNumberCheck #26
+    \revert NoteHead.style
+    \relative {
+	c''4 a g8 e d c |
+	d c d g e4 d8 c |
+	d4 d8 c d4 d8 c |
+    }
+% page 6
+    \relative {
+	d'8 c e4 a, r |
+	r1 | r1 | r1 |
+    }
+% page 6.1
+    r1 | r1 |
+% E Stegno2
+    \barNumberCheck #35
+    r1 | r1 |
+% page 7
+    r1 | r1 |
+    \relative {
+	r4 des'' ges,2~ |
+    }
+    \relative {
+	<< { \voiceTwo ges'4 des' ges,2 | } \context Voice = "vo2b" { \voiceOne r2 r4 \deadNote f'~ | } >>
+    }
+    \oneVoice
+% page 7.1
+    \relative {
+	<< { \voiceTwo r1 | } \context Voice = "vo2b" { \voiceOne \deadNote f''2 r2 | } >>
+    }
+    \oneVoice
+    r1 | r1 | r1 |
+% page 8
+    r1 | r1 |
+    \relative {
+	r4 des'' ges,2 |
+	r8 ges des'4 ges,2 |
+    }
+% page 8.1
+    r1 |
+% to Coda1,2
+    r1 |
+% F
+    \barNumberCheck #51
+    \override NoteHead.style = #'cross
+    \relative {
+	<f' a>4 <f a> <f a>8 <f a>4 <f a>8 |
+	<f a>8 <f a> <f a> <f a> <f a>16 <f a>8 <f a>16~ <f a>8 <f a>16 <f a> |
+    }
+% page 9
+    \relative {
+	<f' a>4 <f a> <f a>8 <f a>16 <f a>~ <f a>8 <f a> |
+	<f a>8 <f a> <f a> <f a> a a a4 |
+    }
+% G
+    \barNumberCheck #55
+    r1 | r1 |
+% page 9.1
+    r1 | r1 | r1 | r1 |
+% page 10
+    r1 | r1 |
+% D.S.1
+% D Stegno1-2x
+    \barNumberCheck #63
+    \revert NoteHead.style
+    \relative {
+	c''4 a g8 e d c |
+	d c d g e4 d8 c |
+	d4 d8 c d4 d8 c |
+    }
+% page 6-2x
+    \relative {
+	d'8 c d e a,4 r |
+	r1 | r1 | r1 |
+    }
+% page 6.1-2x
+    r1 | r1 |
+% E Stegno2-2x
+    \barNumberCheck #72
+    r1 | r1 |
+% page 7-2x
+    r1 | r1 |
+    \relative {
+	r4 des'' ges,2~ |
+    }
+    \relative {
+	<< { \voiceTwo ges'4 des' ges,2 | } \context Voice = "vo2b" { \voiceOne r2 r4 \deadNote f'~ | } >>
+	\oneVoice
+    }
+% page 7.1-2x
+    \relative {
+	<< { \voiceTwo r1 | } \context Voice = "vo2b" { \voiceOne \deadNote f''2 r2 | } >>
+    }
+    \oneVoice
+    r1 | r1 | r1 |
+% page 8-2x
+    r1 | r1 |
+    \relative {
+	r4 des'' ges,2 |
+	r8 ges des'4 ges,2 |
+    }
+% page 8.1-2x
+    r1 |
+% to Coda1,2
+% page 10 Coda1
+    \barNumberCheck #87
+    r1 |
+% H
+    \barNumberCheck #88
+    r1 | r1 |
+% page 10.1
+    r1 | r1 |
+% I
+    \barNumberCheck #92
+    r1 | r1 |
+% page 11
+    r1 | r1 | r1 | r1 |
+% page 11.1
+    r1 | r1 | r1 | r1 |
+% page 12
+    r1 | r1 | r1 | r1 |
+% page 12.1
+    r1 | r1 |
+% J repeat
+    \barNumberCheck #108
+    r1 |
+% page 13
+    r1 | r1 | r1 |
+% page 13.1
+    r1 | r1 |
+% ending 1
+    r1 |
+% page 14
+    r1 |
+% end repeat
+% J repeat-2x
+    \barNumberCheck #116
+    r1 |
+% page 13-2x
+    r1 | r1 | r1 |
+% page 13.1-2x
+    r1 | r1 |
+% page 14
+    r1 | r1 | r1 |
+% E Stegno2-3x
+    \barNumberCheck #125
+    r1 | r1 |
+% page 7-3x
+    r1 | r1 |
+    \relative {
+	r4 des'' ges,2~ |
+    }
+    \relative {
+	<< { \voiceTwo ges'4 des' ges,2 | } \context Voice = "vo2b" { \voiceOne r2 r4 \deadNote f'~ | } >>
+    }
+    \oneVoice
+% page 7.1-3x
+    \relative {
+	<< { \voiceTwo r1 | } \context Voice = "vo2b" { \voiceOne \deadNote f''2 r2 | } >>
+    }
+    \oneVoice
+    r1 | r1 | r1 |
+% page 8-3x
+    r1 | r1 |
+    \relative {
+	r4 des'' ges,2 |
+	r8 ges des'4 ges,2 |
+    }
+% page 8.1-3x
+    r1 |
+% to Coda1,2
+% page 14.1 Coda2
+    \barNumberCheck #140
+    r1 |
+% K
+    \barNumberCheck #141
+    \override NoteHead.style = #'cross
+    \relative {
+	<fis' a>4 <fis a> <fis a>8 <fis a>4 <fis a>8 |
+	<fis a>8 <fis a> <fis a> <fis a> <fis a>16 <fis a>8 <fis a>16~ <fis a>8 <fis a> |
+    }
+% page 15
+    \relative {
+	<fis' a>8 <fis a> <fis a> <fis a> <fis a> <fis a> <fis a> <fis a> |
+	<fis a>8 <fis a> <fis a> <fis a> <fis a> <fis a> <fis a> <fis a> |
+	<fis a>4 <fis a> <fis a>8 <fis a>16 <fis a>~ <fis a> <fis a>8 <fis a>16 |
+    }
+% page 15.1
+    \relative {
+	<fis' a>8 <fis a> <fis a> <fis a> <fis a>4 <fis a> |
+	<fis a>4 r r2 |
+    }
+    r1 | r1 |
+    \barNumberCheck #150
+}

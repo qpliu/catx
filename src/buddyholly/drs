@@ -1,0 +1,134 @@
+drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+% 1.1
+    \barNumberCheck #1
+% Verse 1
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd2 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd2 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd2 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd8 bd r4 | } >>
+% 1.2
+    \barNumberCheck #5
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd2 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd2 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd2 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd2 | } >>
+% 1.3
+    \barNumberCheck #9
+% Pre Chorus
+    << { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd2 bd8 bd r4 | } >>
+    << { cymr8 cymr <cymr sn> cymc cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd r bd r bd r4 | } >>
+    << { cymr8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { cymr8 cymr <cymr sn> cymc cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd r bd r bd r4 | } >>
+% 1.4
+    \barNumberCheck #13
+    << { cymr8 cymr cymr cymr cymc cymc cymc cymc | } \context DrumVoice = "drsb" { bd8 bd bd bd bd bd bd bd | } >>
+    << { \repeat unfold 8 <cymc sn>8 | } \context DrumVoice = "drsb" { bd8 bd bd bd bd bd bd bd | } >>
+% Chorus 1
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+% 1.5
+    \barNumberCheck #17
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+% 1.6
+    \barNumberCheck #21
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> hh hh hh sn4 | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+% Bridge
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+% 1.7
+    \barNumberCheck #25
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd8 bd r4 | } >>
+% Verse 2
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+% 1.8
+    \barNumberCheck #29
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+% 1.9
+    \barNumberCheck #33
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd8 bd r bd | } >>
+% Pre Chorus
+    << { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd2 bd8 bd r4 | } >>
+    << { cymr8 cymr <cymr sn> cymc cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd r bd r bd r4 | } >>
+% 1.10
+    \barNumberCheck #37
+    << { cymr8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { cymr8 cymr <cymr sn> cymc cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd r bd r bd r4 | } >>
+    << { cymr8 cymr cymr cymr cymc cymc cymc cymc | } \context DrumVoice = "drsb" { bd8 bd bd bd bd bd bd bd | } >>
+    << { \repeat unfold 8 <cymc sn>8 | } \context DrumVoice = "drsb" { bd8 bd bd bd bd bd bd bd | } >>
+% 2.1
+    \barNumberCheck #41
+% Chorus 2
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+% 2.2
+    \barNumberCheck #45
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> hh hh hh <cymc sn> hh | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> <hh sn> hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+% 2.3
+    \barNumberCheck #49
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> <hh sn> hh hh sn4 | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+% Breakdown
+    << { hh8 hh <hh sn> hh hh hh <hh sn> <hh sn> | } \context DrumVoice = "drsb" { bd2 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { r8 bd r4 bd8 bd r bd | } >>
+% 2.4
+    \barNumberCheck #53
+    << { hh8 hh <hh sn> hh hh hh <hh sn> <hh sn> | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { r8 bd r4 bd8 bd r bd | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> <hh sn> | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { r8 bd r4 bd8 bd r bd | } >>
+% 2.5
+    \barNumberCheck #57
+    << { hh8 hh <hh sn> hh hh hh <hh sn> <hh sn> | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+% Solo
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { r8 bd r4 bd8 bd r bd | } >>
+    << { cymc4 <hh sn> hh8 hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd2 | } >>
+    << { hh8 hh <hh sn> cymc hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4 r8 bd r bd r4 | } >>
+% 2.6
+    \barNumberCheck #61
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> cymc hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd r bd r bd r4 | } >>
+    << { cymc8 cymc cymc cymc cymc cymc cymc cymc | } \context DrumVoice = "drsb" { bd8 bd bd bd bd bd bd bd | } >>
+    << { \repeat unfold 8 <cymc sn>8 | } \context DrumVoice = "drsb" { bd8 bd bd bd bd bd bd bd | } >>
+% 2.7
+    \barNumberCheck #65
+    << { \repeat unfold 8 <cymc sn>8 | } \context DrumVoice = "drsb" { bd8 bd bd bd bd bd bd bd | } >>
+    << { r1 | } \context DrumVoice = "drsb" { r1 | } >>
+% Chorus 3 / Outro
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd2 | } >>
+% 2.8
+    \barNumberCheck #70
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd8 bd r4 | } >>
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd2 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd2 | } >>
+% 2.9
+    \barNumberCheck #74
+    << { hh8 hh <hh sn> <hh sn> hh hh <hh sn> <hh sn> | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd2 | } >>
+    << { hh8 hh <hh sn> <hh sn> hh hh <hh sn> <hh sn> | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd2 | } >>
+% 2.10
+    \barNumberCheck #78
+    << { hh8 hh <hh sn> <hh sn> hh hh <hh sn> <hh sn> | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh16 sn | } \context DrumVoice = "drsb" { bd2 bd2 | } >>
+    << { sn8 sn sn sn16 sn sn sn r8 sn4 | } \context DrumVoice = "drsb" { r2 r8 bd r4 | } >>
+}

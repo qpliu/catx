@@ -1,0 +1,129 @@
+% drs vo bass
+% system1
+% vodrs
+% midi
+% roland
+% PARTS drs
+% MIDIS midiVo midiEg midiEb midiDr midiOthers
+% ROLAND MoonlightDe
+% ROBOT preview=1.4,countat=5
+
+\header {
+    title = "Moonlight Densetsu"
+}
+
+\paper {
+    system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
+}
+
+#(set-global-staff-size 19)
+#(set-default-paper-size "letter" 'portrait)
+
+#(define myDrumStyleTable '(
+    (ridecymbal     cross    #f          5)
+    (crashcymbal    cross    #f          6)
+    (openhihat      cross    "open"      4)
+    (hihat          cross    #f          4)
+    (hightom        default  #f          3)
+    (snare          default  #f          1)
+    (lowmidtom      default  #f          0)
+    (lowtom         default  #f          -1)
+    (bassdrum       default  #f          -3)
+))
+
+\include "markup"
+%\include "drs"
+%\include "simpledrs"
+\include "simpledrscolors"
+\include "vo"
+\include "lyrics"
+\include "bass"
+\include "eg"
+\include "egtext_lyrics"
+\include "egtext_midi"
+\include "piano"
+
+layoutmusic = \removeWithTag #'(xpageNumber textLyrics) <<
+    \tag #'(systemOnePart voPart vodrsPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+	\markupStuff
+	\voPart
+	\voLyrics
+    >>
+    \tag #'(systemOnePart pianoPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Piano" }
+    } <<
+	\markupStuff
+	\pianoPart
+    >>
+    \tag #'(systemOnePart egPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar" }
+    } <<
+	\markupStuff
+	\egPart
+	\tag #'(textLyrics keep) \lyricsegText
+    >>
+    \tag #'(systemOnePart bassPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Bass" }
+    } <<
+	\markupStuff
+	\bassPart
+    >>
+    \tag #'(systemOnePart drsPart vodrsPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drsPart
+    >>
+>>
+
+midimusicAll = <<
+    \markupStuff
+    \tag #'(midiVo voPart) \new Staff \with {
+	midiInstrument = #"steel drums"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #1
+    } \voPart
+    \tag #'(midiEb bassPart) \new Staff \with {
+	midiInstrument = #"electric bass (finger)"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.5
+    } \bassPart
+    \tag #'(midiOthers pianoPart) \new Staff \with {
+	midiInstrument = #"fx 5 (brightness)"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.5
+    } \pianoPart
+    \tag #'(midiEg egPart) \new Staff = "egtext" \midiegText
+    \tag #'(midiEg egPart) \new Staff = "eg" \egPart
+    \tag #'(midiDr drsPart) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drsPart
+>>
+
+midimusic = <<
+    \midimusicAll
+>>
+
+rolandmusic = <<
+    \markupStuff
+    \tag #'(rolandMelody) \new Staff \with {
+	midiInstrument = #"steel drums" % 114
+    } <<
+	\voPart
+    >>
+    \tag #'(rolandBass) \new Staff \with {
+	midiInstrument = #"electric bass (finger)" % 33
+    } \bassPart
+    \tag #'(rolandBackOne) \new Staff \with {
+	midiInstrument = #"overdriven guitar" % 29
+    } \egPart
+    \tag #'(rolandBackTwo) \new Staff \with {
+	midiInstrument = #"fx 5 (brightness)" % 100
+    } \pianoPart
+    \tag #'(rolandDrums) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drsPart
+>>

@@ -1,0 +1,200 @@
+choOnePart = \new Voice = "cho1" {
+% page 2
+    r1 |
+% A
+    \barNumberCheck #2
+    r1 | r1 | r1 |
+% page 3
+    r1 | r1 | r1 | r1 |
+% page 3.1
+    r1 |
+% B
+    \barNumberCheck #10
+    r1 | r1 | r1 |
+% page 4
+    r1 | r1 | r1 | r1 |
+% page 4.1
+    r1 |
+% C
+    \barNumberCheck #18
+    r1 | r1 | r1 |
+% page 5
+    r1 | r1 | r1 | r1 |
+% page 5.1
+    r1 |
+% D Stegno1
+    \barNumberCheck #26
+    r1 | r1 | r1 |
+% page 6
+    r1 | r1 | r1 | r1 |
+% page 6.1
+    r1 | r1 |
+% E Stegno2
+    \barNumberCheck #35
+    \relative {
+	<ees' bes'>4 <des aes'>8 <ees bes'>~ <ees bes'> <des aes'>4 <ees bes'>8~ |
+	<ees bes'>8 <des aes'> <ees bes'> <f ces'> <ees bes'>4 r |
+    }
+% page 7
+    \relative {
+	<f' ces'>4 <ees bes'>8 <f ces'>~ <f ces'> <ees bes'>4 <f ces'>8~ |
+	<f ces'>8 <ges des'> <ges des'> <aes ees'> <ges des'>4 r |
+	r1 |
+	r2. r8 <ces, ges'> |
+    }
+% page 7.1
+    \relative {
+	<des' aes'>8 <des aes'> <des aes'> <des aes'> <des aes'> <des aes'> <des aes'> <des bes'> |
+	r1 |
+	<ees bes'>4 <des aes'>8 <ees bes'>~ <ees bes'> <des aes'>4 <ees bes'>8~ |
+	<ees bes'>8 <des aes'> <ees bes'> <f ces'> <ees bes'>4 r |
+    }
+% page 8
+    \relative {
+	<f' ces'>4 <ees bes'>8 <f ces'>~ <f ces'> <ees bes'>4 <f ces'>8~ |
+	<f ces'>8 <ges des'> <ges des'> <aes ees'> <ges des'>4 r |
+	r1 |
+	r2. r8 <ces, ges'> |
+    }
+% page 8.1
+    \relative {
+	<des' aes'>8 <des aes'> <des aes'> <des aes'> <des aes'> <des aes'> <des aes'> <des bes'> |
+    }
+% to Coda1,2
+    r1 |
+% F
+    \barNumberCheck #51
+    r1 | r1 |
+% page 9
+    r1 | r1 |
+% G
+    \barNumberCheck #55
+    r1 | r1 |
+% page 9.1
+    r1 | r1 | r1 | r1 |
+% page 10
+    r1 | r1 |
+% D.S.1
+% D Stegno1-2x
+    \barNumberCheck #63
+    r1 | r1 | r1 |
+% page 6-2x
+    r1 | r1 | r1 | r1 |
+% page 6.1-2x
+    r1 | r1 |
+% E Stegno2-2x
+    \barNumberCheck #72
+    \relative {
+	<ees' bes'>4 <des aes'>8 <ees bes'>~ <ees bes'> <des aes'>4 <ees bes'>8~ |
+	<ees bes'>8 <des aes'> <ees bes'> <f ces'> <ees bes'>4 r |
+    }
+% page 7-2x
+    \relative {
+	<f' ces'>4 <ees bes'>8 <f ces'>~ <f ces'> <ees bes'>4 <f ces'>8~ |
+	<f ces'>8 <ges des'> <ges des'> <aes ees'> <ges des'>4 r |
+	r1 |
+	r2. r8 <ces, ges'> |
+    }
+% page 7.1-2x
+    \relative {
+	<des' aes'>8 <des aes'> <des aes'> <des aes'> <des aes'> <des aes'> <des aes'> <des bes'> |
+	r1 |
+	<ees bes'>4 <des aes'>8 <ees bes'>~ <ees bes'> <des aes'>4 <ees bes'>8~ |
+	<ees bes'>8 <des aes'> <ees bes'> <f ces'> <ees bes'>4 r |
+    }
+% page 8-2x
+    \relative {
+	<f' ces'>4 <ees bes'>8 <f ces'>~ <f ces'> <ees bes'>4 <f ces'>8~ |
+	<f ces'>8 <ges des'> <ges des'> <aes ees'> <ges des'>4 r |
+	r1 |
+	r2. r8 <ces, ges'> |
+    }
+% page 8.1-2x
+    \relative {
+	<des' aes'>8 <des aes'> <des aes'> <des aes'> <des aes'> <des aes'> <des aes'> <des bes'> |
+    }
+% to Coda1,2
+% page 10 Coda1
+    \barNumberCheck #87
+    r1 |
+% H
+    \barNumberCheck #88
+    r1 | r1 |
+% page 10.1
+    r1 | r1 |
+% I
+    \barNumberCheck #92
+    r1 | r1 |
+% page 11
+    r1 | r1 | r1 | r1 |
+% page 11.1
+    r1 | r1 | r1 | r1 |
+% page 12
+    r1 | r1 | r1 | r1 |
+% page 12.1
+    r1 | r1 |
+% J repeat
+    \barNumberCheck #108
+    r1 |
+% page 13
+    r1 | r1 | r1 |
+% page 13.1
+    r1 | r1 |
+% ending 1
+    r1 |
+% page 14
+    r1 |
+% end repeat
+% J repeat-2x
+    \barNumberCheck #116
+    r1 |
+% page 13-2x
+    r1 | r1 | r1 |
+% page 13.1-2x
+    r1 | r1 |
+% page 14
+    r1 | r1 | r1 |
+% E Stegno2-3x
+    \barNumberCheck #125
+    \relative {
+	<ees' bes'>4 <des aes'>8 <ees bes'>~ <ees bes'> <des aes'>4 <ees bes'>8~ |
+	<ees bes'>8 <des aes'> <ees bes'> <f ces'> <ees bes'>4 r |
+    }
+% page 7-3x
+    \relative {
+	<f' ces'>4 <ees bes'>8 <f ces'>~ <f ces'> <ees bes'>4 <f ces'>8~ |
+	<f ces'>8 <ges des'> <ges des'> <aes ees'> <ges des'>4 r |
+	r1 |
+	r2. r8 <ces, ges'> |
+    }
+% page 7.1-3x
+    \relative {
+	<des' aes'>8 <des aes'> <des aes'> <des aes'> <des aes'> <des aes'> <des aes'> <des bes'> |
+	r1 |
+	<ees bes'>4 <des aes'>8 <ees bes'>~ <ees bes'> <des aes'>4 <ees bes'>8~ |
+	<ees bes'>8 <des aes'> <ees bes'> <f ces'> <ees bes'>4 r |
+    }
+% page 8-3x
+    \relative {
+	<f' ces'>4 <ees bes'>8 <f ces'>~ <f ces'> <ees bes'>4 <f ces'>8~ |
+	<f ces'>8 <ges des'> <ges des'> <aes ees'> <ges des'>4 r |
+	r1 |
+	r2. r8 <ces, ges'> |
+    }
+% page 8.1-3x
+    \relative {
+	<des' aes'>8 <des aes'> <des aes'> <des aes'> <des aes'> <des aes'> <des aes'> <des bes'> |
+    }
+% to Coda1,2
+% page 14.1 Coda2
+    \barNumberCheck #140
+    r1 |
+% K
+    \barNumberCheck #141
+    r1 | r1 |
+% page 15
+    r1 | r1 | r1 |
+% page 15.1
+    r1 | r1 | r1 | r1 |
+    \barNumberCheck #150
+}

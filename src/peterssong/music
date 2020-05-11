@@ -1,0 +1,59 @@
+% drs
+% system1
+% midi
+% roland
+% PARTS midi
+% MIDIS midiOne
+
+\header {
+    title = "Peter's Song"
+}
+
+\paper {
+%    system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
+}
+
+%#(set! paper-alist (cons '("my size" . (cons (* 6 in) (* 11 in))) paper-alist))
+
+%#(set-global-staff-size 24)
+%#(set-default-paper-size "my size" 'landscape)
+
+%#(set-global-staff-size 20)
+%#(set-default-paper-size "letter" 'portrait)
+
+#(define myDrumStyleTable '(
+    (ridecymbal     cross    #f          5)
+    (crashcymbal    cross    #f          6)
+    (openhihat      cross    "open"      4)
+    (hihat          cross    #f          4)
+    (snare          default  #f          1)
+    (lowtom         default  #f          -1)
+    (bassdrum       default  #f          -3)
+))
+
+\include "markup"
+\include "drs"
+
+layoutmusic = <<
+    \tag #'(systemOnePart drsPart) \new DrumStaff \with {
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drsPart
+    >>
+>>
+
+midimusicAll = <<
+    \markupStuff
+    \tag #'(midiOne drsPart) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drsPart
+>>
+
+midimusic = <<
+    \keepWithTag #'(drsPart keep) \midimusicAll
+>>
+
+rolandmusic = <<
+    \keepWithTag #'(drsPart keep) \midimusicAll
+>>

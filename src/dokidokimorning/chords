@@ -1,0 +1,214 @@
+mychords = \chordmode {
+% page 120 A
+    \barNumberCheck #1
+    a1 |
+    s1 | s1 | s1 |
+% page 121
+    a1 |
+    s1 | s1 | s1 |
+% page 121.1 B
+    \barNumberCheck #9
+    c8:1.5 b8:1.5 a4:1.5 ees8:1.5 d4:1.5 c8:1.5 |
+    s8 a8:1.5 ees8:1.5 d4:1.5 a8:1.5 bes4:1.5 |
+    c8:1.5 b8:1.5 a4:1.5 ees8:1.5 d4:1.5 c8:1.5 |
+    s8 a8:1.5 ees8:1.5 d4:1.5 a8:1.5 bes4:1.5 |
+% page 122
+    c8:1.5 b8:1.5 a4:1.5 ees8:1.5 d4:1.5 c8:1.5 |
+    s8 a8:1.5 ees8:1.5 d4:1.5 a8:1.5 bes4:1.5 |
+    c8:1.5 b8:1.5 a4:1.5 ees8:1.5 d4:1.5 c8:1.5 |
+    s8 a8:1.5 ees8:1.5 d4:1.5 a8:1.5 bes4:1.5 |
+% page 122.1 C
+    \barNumberCheck #17
+    c8:1.5 b8:1.5 a4:1.5 ees8:1.5 d4:1.5 c8:1.5 |
+    s8 a8:1.5 ees8:1.5 d4:1.5 a8:1.5 bes4:1.5 |
+    c8:1.5 b8:1.5 a4:1.5 ees8:1.5 d4:1.5 c8:1.5 |
+    s8 a8:1.5 ees8:1.5 d4:1.5 a8:1.5 bes4:1.5 |
+% page 123
+    c8:1.5 b8:1.5 a4:1.5 ees8:1.5 d4:1.5 c8:1.5 |
+    s8 a8:1.5 ees8:1.5 d4:1.5 a8:1.5 bes4:1.5 |
+    c8:1.5 b8:1.5 a4:1.5 ees8:1.5 d4:1.5 c8:1.5 |
+    s8 a8:1.5 bes8:1.5 s8 s2 |
+% page 123.1 D
+    \barNumberCheck #25
+    a1:1.5 |
+    s4. c8:1.5 ees8:1.5 d8:1.5 c4:1.5 |
+    a1:1.5 |
+    s2. c4 |
+% page 124
+    a4.:1.5 d8:1.5 ees8:1.5 d8:1.5 c8:1.5 a8:1.5 |
+    s4. d8:1.5 ees8:1.5 d8:1.5 c4:1.5 |
+    a4.:1.5 d8:1.5 ees8:1.5 d8:1.5 c8:1.5 a8:1.5 |
+    s1 |
+% page 124.1 E
+    \barNumberCheck #33
+    c8:1.5 b8:1.5 a4:1.5 ees8:1.5 d4:1.5 c8:1.5 |
+    s8 a8:1.5 ees8:1.5 d4:1.5 a8:1.5 bes4:1.5 |
+    c8:1.5 b8:1.5 a4:1.5 ees8:1.5 d4:1.5 c8:1.5 |
+    s8 a8:1.5 ees8:1.5 d4:1.5 a8:1.5 bes4:1.5 |
+% page 125
+    c8:1.5 b8:1.5 a4:1.5 ees8:1.5 d4:1.5 c8:1.5 |
+    s8 a8:1.5 ees8:1.5 d4:1.5 a8:1.5 bes4:1.5 |
+    c8:1.5 b8:1.5 a4:1.5 ees8:1.5 d4:1.5 c8:1.5 |
+    s1 |
+% page 125.1 F Stegno
+    \barNumberCheck #41
+    a4.:1.5 d8:1.5 ees8:1.5 d8:1.5 c8:1.5 a8:1.5 |
+    s4. d8:1.5 ees8:1.5 d8:1.5 c4:1.5 |
+    a4.:1.5 d8:1.5 ees8:1.5 d8:1.5 c8:1.5 a8:1.5 |
+% page 126
+    a2:1.5 d4:1.5 e4:1.5 |
+    a4.:1.5 d8:1.5 ees8:1.5 d8:1.5 c8:1.5 a8:1.5 |
+    s4. d8:1.5 ees8:1.5 d8:1.5 c4:1.5 |
+% page 126.1
+    a4.:1.5 d8:1.5 ees8:1.5 d8:1.5 c8:1.5 a8:1.5 |
+    s4. a8:1.5 d4:1.5 e4:1.5 |
+% G
+    \barNumberCheck #49
+    a1:m |
+% page 127
+    f1 |
+    d1:m |
+    e1:m |
+% page 127.1
+    a1:m |
+    f1 |
+    d1:m |
+    e1 |
+% page 128 H
+    \barNumberCheck #57
+    a2 fis2:m |
+    d2 e2 |
+    a2 fis2:m |
+    d2 e2 |
+% page 128.1
+    a2 fis2:m |
+    d2 e2 |
+    a2 fis4.:m b8:m |
+    s4 e4 a2 |
+% page 129
+    s2 fis2:m |
+    d2 e2 |
+    a2 fis2:m |
+    d2 e2 |
+% page 129.1
+    a2 fis2:m |
+    d2 d2 |
+    a2 fis4.:m b8:m |
+% to Coda
+    s4 e4 a2 |
+% page 130 I
+    \barNumberCheck #73
+    c8:1.5 b8:1.5 a4:1.5 ees8:1.5 d4:1.5 c8:1.5 |
+    s8 a8:1.5 ees8:1.5 d4:1.5 a8:1.5 bes4:1.5 |
+    c8:1.5 b8:1.5 a4:1.5 ees8:1.5 d4:1.5 c8:1.5 |
+    s8 a8:1.5 ees8:1.5 d4.:1.5 bes4:1.5 |
+% page 130.1
+    c8:1.5 b8:1.5 a4:1.5 ees8:1.5 d4:1.5 c8:1.5 |
+    s8 a8:1.5 ees8:1.5 d4:1.5 a8:1.5 bes4:1.5 |
+    c8:1.5 b8:1.5 a4:1.5 ees8:1.5 d4:1.5 c8:1.5 |
+    s8 a8:1.5 bes2.:1.5 |
+% D.S.
+% page 125.1 F Stegno-2x
+    \barNumberCheck #81
+    a4.:1.5 d8:1.5 ees8:1.5 d8:1.5 c8:1.5 a8:1.5 |
+    s4. d8:1.5 ees8:1.5 d8:1.5 c4:1.5 |
+    a4.:1.5 d8:1.5 ees8:1.5 d8:1.5 c8:1.5 a8:1.5 |
+% page 126-2x
+    a2:1.5 d4:1.5 e4:1.5 |
+    a4.:1.5 d8:1.5 ees8:1.5 d8:1.5 c8:1.5 a8:1.5 |
+    s4. d8:1.5 ees8:1.5 d8:1.5 c4:1.5 |
+% page 126.1-2x
+    a4.:1.5 d8:1.5 ees8:1.5 d8:1.5 c8:1.5 a8:1.5 |
+    s4. a8:1.5 d4:1.5 e4:1.5 |
+% G-2x
+    \barNumberCheck #89
+    a1:m |
+% page 127-2x
+    f1 |
+    d1:m |
+    e1:m |
+% page 127.1-2x
+    a1:m |
+    f1 |
+    d1:m |
+    e1 |
+% page 128 H-2x
+    \barNumberCheck #97
+    a2 fis2:m |
+    d2 e2 |
+    a2 fis2:m |
+    d2 e2 |
+% page 128.1-2x
+    a2 fis2:m |
+    d2 e2 |
+    a2 fis4.:m b8:m |
+    s4 e4 a2 |
+% page 129-2x
+    s2 fis2:m |
+    d2 e2 |
+    a2 fis2:m |
+    d2 e2 |
+% page 129.1-2x
+    a2 fis2:m |
+    d2 d2 |
+    a2 fis4.:m b8:m |
+% to Coda
+% page 131
+    \barNumberCheck #112
+    b4:m e4 a2 |
+% J
+    \barNumberCheck #113
+    c8:1.5 b8:1.5 a4:1.5 ees8:1.5 d4:1.5 c8:1.5 |
+    s8 a8:1.5 e8:1.5 d4:1.5 a8:1.5 bes4:1.5 |
+% page 131.1
+    c8:1.5 b8:1.5 a4:1.5 ees8:1.5 d4:1.5 c8:1.5 |
+    s8 a8:1.5 ees8:1.5 d4:1.5 a8:1.5 bes4:1.5 |
+    c4:1.5 a4:1.5 ees4:1.5 d4:1.5 |
+% page 132
+    c4:1.5 a4:1.5 ees4:1.5 d4:1.5 |
+    c4:1.5 a4:1.5 ees4:1.5 d4:1.5 |
+    c4:1.5 a4:1.5 ees4:1.5 d4:1.5 |
+% page 132.1 K
+    \barNumberCheck #121
+    r1 |
+    s1 | s1 | s1 |
+% page 133
+    a2 e2:7/gis |
+    fis2:m e2 |
+    d2 cis4.:m b8:m |
+    s4. e8 s2 |
+% page 133.1 L
+    \barNumberCheck #129
+    a2 fis2:m |
+    d2 e2 |
+    a2 fis2:m |
+    d2 e2 |
+% page 134
+    a2 fis2:m |
+    d2 e2 |
+    a2 fis4.:m b8:m |
+    s4 e4 a2 |
+% page 134.1 M
+    \barNumberCheck #137
+    a2 fis2:m |
+    d2 e2 |
+    a2 fis2:m |
+    d2 e2 |
+% page 135
+    a2 fis2:m |
+    d2 e2 |
+    a2 fis4.:m b8:m |
+% page 135.1
+    b4:m e4 a2 |
+    s2 fis2:m |
+    d2 e2 |
+% page 136
+    a2 fis2:m |
+    d2 e2 |
+    a2 fis2:m |
+% page 136.1
+    d2 e2 |
+    a2 fis4.:m b8:m |
+    s4 e4 a2 |
+    \barNumberCheck #153
+}

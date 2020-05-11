@@ -1,0 +1,284 @@
+egOnePart = {
+% page 2
+    \relative {
+	r2 r4 \tweak font-size #8 \deadNote c''4\bendAfterG #-2 |
+    }
+% A
+    \barNumberCheck #2
+    \relative {
+	<a e' a>4 <a e' a> <g d' g>8 <a e' a> r <a e' a> |
+	r8 <a e' a> r <a e' a> <g d' g>4 <a e' a> |
+	<a e' a>4 <a e' a> <g d' g>8 <a e' a> r <a e' a> |
+    }
+% page 3
+    \relative {
+	r8 <a e' a> r <a e' a> <c g' c>4 <d a' d> |
+	<a e' a>4 <a e' a> <g d' g>8 <a e' a> r <a e' a> |
+	r8 <a e' a> r <a e' a> <g d' g>4 <a e' a> |
+	f8. f'16 r8 bes,8~ bes16 bes' r8 e,4~ |
+    }
+% page 3.1
+    \relative {
+	e'2\startTrillSpan r2\stopTrillSpan |
+    }
+% B
+    \barNumberCheck #10
+    r1 | r1 | r1 |
+% page 4
+    r1 |
+    \relative {
+	r4 <a e' a> r <a e' a> |
+	r4 <a e' a> r2 |
+	<a e' a>4 <a e' a> <g d' g>8 <a e' a> r <a e' a> |
+    }
+% page 4.1
+    \relative {
+	<bes f' bes>4 <d a' d> <e b' e> <e, b' e> |
+    }
+% C
+    \barNumberCheck #18
+    \relative {
+	r2 \tuplet 3/2 { r4 \tweak font-size #8 \deadNote g'8_"Noise"( } \tuplet 3/2 { \tweak font-size #8 \deadNote e')( \tweak font-size #8 \deadNote c4) } |
+    }
+    \relative {
+	e'2.\startTrillSpan\bendBeforeG #-2 <a, e' a>8\stopTrillSpan r8 |
+	<a e' a>4 <a e' a> <g d' g>8 <a e' a> r <a e' a> |
+    }
+% page 5
+    \relative {
+	r8 <a e' a> r <a e' a> <c g' c>4 <d a' d> |
+	<a e' a>4 <a e' a> <g d' g>8 <a e' a> r <a e' a> |
+	r8 <a e' a> r <a e' a> <g d' g>4 <a e' a> |
+	<a e' a>4 <a e' a> <g d' g>8 <a e' a> r <a e' a> |
+    }
+% page 5.1
+    \relative {
+	<bes f' bes>4 <d a' d> <e b' e> <e, b' e> |
+    }
+% D Stegno1
+    \barNumberCheck #26
+    r1 | r1 | r1 |
+% page 6
+    r1 | r1 | r1 | r1 |
+% page 6.1
+    r1 | r1 |
+% E Stegno2
+    \barNumberCheck #35
+    \relative {
+	<ees' bes' ees>4 <ees bes' ees> \deadNote <ees bes' ees>8 <ees bes' ees> r <ees bes' ees> |
+	<aes, ees' aes>4 <aes ees' aes> \deadNote <aes ees' aes>8 <aes ees' aes> r <aes ees' aes> |
+    }
+% page 7
+    \relative {
+	<des' aes' des>4 <des aes' des> \deadNote <des aes' des>8 <des aes' des> r <des aes' des> |
+	<ges des' ges>4 <ges des' ges> <f des' f> <f des' f> |
+	<ees bes' ees>4 <ees bes' ees> \deadNote <ees bes' ees>8 <ees bes' ees> r <ees bes' ees> |
+	<aes, ees' aes>4 <aes ees' aes> \deadNote <aes ees' aes>8 <aes ees' aes> r <aes ees' aes> |
+    }
+% page 7.1
+    \relative {
+	<des' aes' des>4 <des aes' des> \deadNote <des aes' des>8 <des aes' des> r <des aes' des> |
+	r1 |
+	<ees bes' ees>4\staccato <ees bes' ees> \deadNote <ees bes' ees>8 <ees bes' ees>4 <ees bes' ees>8 |
+	<aes, ees' aes>4 <aes ees' aes> \deadNote <aes ees' aes>8 <aes ees' aes> r <aes ees' aes> |
+    }
+% page 8
+    \relative {
+	<des' aes' des>4 <des aes' des> \deadNote <des aes' des>8 <des aes' des> r <des aes' des> |
+	<ges des' ges>4 <ges des' ges> <f des' f> <f des' f> |
+	<ees bes' ees>4 <ees bes' ees> \deadNote <ees bes' ees>8 <ees bes' ees>4 <ees bes' ees>8 |
+	<aes, ees' aes>4 <aes ees' aes> \deadNote <aes ees' aes>8 <aes ees' aes> r <aes ees' aes> |
+    }
+% page 8.1
+    \relative {
+	<des' aes' des>4 <des aes' des> \deadNote <des aes' des>8 <des aes' des> r <des aes' des> |
+    }
+% to Coda1,2
+    \relative {
+	r1 |
+    }
+% F
+    \barNumberCheck #51
+    \relative {
+	<a e' a>4 <a e' a> <g d' g>8 <a e' a> r <a e' a> |
+	r8 <a e' a> r <a e' a> <g d' g>4 <a e' a> |
+    }
+% page 9
+    \relative {
+	<a e' a>4 <a e' a> <g d' g>8 <a e' a> r <a e' a> |
+	r1 |
+    }
+% G
+    \barNumberCheck #55
+    r1 | r1 |
+% page 9.1
+    r1 | r1 |
+    \relative {
+	r4 <a e' a>4 r <a e' a> |
+	r4 <a e' a> r2 |
+    }
+% page 10
+    r1 |
+    \relative {
+	<c'' e a>8\staccato_"DAW Edit" \repeat unfold 7 <c e a>8\staccato |
+    }
+% D.S.1
+% D Stegno1-2x
+    \barNumberCheck #63
+    r1 | r1 | r1 |
+% page 6-2x
+    r1 | r1 | r1 | r1 |
+% page 6.1-2x
+    r1 | r1 |
+% E Stegno2-2x
+    \barNumberCheck #72
+    \relative {
+	<ees' bes' ees>4 <ees bes' ees> \deadNote <ees bes' ees>8 <ees bes' ees> r <ees bes' ees> |
+	<aes, ees' aes>4 <aes ees' aes> \deadNote <aes ees' aes>8 <aes ees' aes> r <aes ees' aes> |
+    }
+% page 7-2x
+    \relative {
+	<des' aes' des>4 <des aes' des> \deadNote <des aes' des>8 <des aes' des> r <des aes' des> |
+	<ges des' ges>4 <ges des' ges> <f des' f> <f des' f> |
+	<ees bes' ees>4 <ees bes' ees> \deadNote <ees bes' ees>8 <ees bes' ees> r <ees bes' ees> |
+	<aes, ees' aes>4 <aes ees' aes> \deadNote <aes ees' aes>8 <aes ees' aes> r <aes ees' aes> |
+    }
+% page 7.1-2x
+    \relative {
+	<des' aes' des>4 <des aes' des> \deadNote <des aes' des>8 <des aes' des> r <des aes' des> |
+	r1 |
+	<ees bes' ees>4\staccato <ees bes' ees> \deadNote <ees bes' ees>8 <ees bes' ees>4 <ees bes' ees>8 |
+	<aes, ees' aes>4 <aes ees' aes> \deadNote <aes ees' aes>8 <aes ees' aes> r <aes ees' aes> |
+    }
+% page 8-2x
+    \relative {
+	<des' aes' des>4 <des aes' des> \deadNote <des aes' des>8 <des aes' des> r <des aes' des> |
+	<ges des' ges>4 <ges des' ges> <f des' f> <f des' f> |
+	<ees bes' ees>4 <ees bes' ees> \deadNote <ees bes' ees>8 <ees bes' ees>4 <ees bes' ees>8 |
+	<aes, ees' aes>4 <aes ees' aes> \deadNote <aes ees' aes>8 <aes ees' aes> r <aes ees' aes> |
+    }
+% page 8.1-2x
+    \relative {
+	<des' aes' des>4 <des aes' des> \deadNote <des aes' des>8 <des aes' des> r <des aes' des> |
+    }
+% to Coda1,2
+% page 10 Coda1
+    \barNumberCheck #87
+    r1 |
+% H
+    \barNumberCheck #88
+    r1 | r1 |
+% page 10.1
+    \relative {
+	r2 r4 \tweak font-size #8 \deadNote a'4\bendAfterG #-2 |
+    }
+    r1 |
+% I
+    \barNumberCheck #92
+    \relative {
+	<b fis' b>8^"M" <b fis' b>^"M" <b fis' b>4 e,8^"M" <b' e> e,^"M" <b' e> |
+	<cis gis'>8^"M" <cis gis'>^"M" <cis gis' cis> <cis gis' cis> <fis, cis' fis>^"M" <fis cis' fis> <fis cis' fis> <fis cis' fis> |
+    }
+% page 11
+    \relative {
+	<gis d'>8^"M" <gis d'>^"M" <gis d'> d' <cis gis'>^"M" <cis gis'> <cis gis'>^"M" <cis gis'> |
+	fis,8^"M" fis^"M" gis gis ais ais cis cis |
+	<b fis' b>8^"M" <b fis' b>^"M" <b fis' b>4 e,8^"M" <b' e> e,^"M" <b' e> |
+	<cis gis'>8^"M" <cis gis'>^"M" <cis gis' cis> <cis gis' cis> <fis, cis' fis>^"M" <fis cis' fis> <fis cis' fis>^"M" <fis cis' fis> |
+    }
+% page 11.1
+    \relative {
+	<b fis' b>8^"M" <b fis' b>^"M" <b fis' b> <b fis' b> e,^"M" <e b' e> <e b' e> <e b' e> |
+	a8^"M" a^"M" <a e' a> a^"M" a^"M" <a e' a> <a e' a> <a e' a> |
+	<b fis' b>8^"M" <b fis' b>^"M" <b fis' b>4 e,8^"M" <b' e> e,^"M" <b' e> |
+	<cis gis'>8^"M" <cis gis'>^"M" <cis gis' cis> <cis gis' cis> <fis, cis' fis>^"M" <fis cis' fis> <fis cis' fis> <fis cis' fis> |
+    }
+% page 12
+    \relative {
+	<gis d'>8^"M" <gis d'>^"M" <gis d'> d' <cis gis'>^"M" <cis gis'> <cis gis'>^"M" <cis gis'> |
+	fis,8^"M" fis^"M" gis gis ais ais cis cis |
+	<b fis' b>8^"M" <b fis' b>^"M" <b fis' b>4 e,8^"M" <b' e> e,^"M" <b' e> |
+	<cis gis'>8^"M" <cis gis'>^"M" <cis gis' cis> <cis gis' cis> <fis, cis' fis>^"M" <fis cis' fis> <fis cis' fis>^"M" <fis cis' fis> |
+    }
+% page 12.1
+    \relative {
+	<b fis' b>8^"M" <b fis' b>^"M" <b fis' b>4 <e, b' e>8^"M" <e b' e>^"M" <e b' e>^"M" <e b' e>^"M" |
+	a^"M" a^"M" <a e' a> a^"M" a^"M" <a e' a> a^"M" a^"M" |
+    }
+% J repeat
+    \barNumberCheck #108
+    r1 |
+% page 13
+    r1 | r1 | r1 |
+% page 13.1
+    r1 | r1 |
+% ending 1
+    r1 |
+% page 14
+    r1 |
+% end repeat
+% J repeat-2x
+    \barNumberCheck #116
+    r1 |
+% page 13-2x
+    r1 | r1 | r1 |
+% page 13.1-2x
+    r1 | r1 |
+% page 14
+    r1 | r1 | r1 |
+% E Stegno2-3x
+    \barNumberCheck #125
+    \relative {
+	<ees' bes' ees>4 <ees bes' ees> \deadNote <ees bes' ees>8 <ees bes' ees> r <ees bes' ees> |
+	<aes, ees' aes>4 <aes ees' aes> \deadNote <aes ees' aes>8 <aes ees' aes> r <aes ees' aes> |
+    }
+% page 7-3x
+    \relative {
+	<des' aes' des>4 <des aes' des> \deadNote <des aes' des>8 <des aes' des> r <des aes' des> |
+	<ges des' ges>4 <ges des' ges> <f des' f> <f des' f> |
+	<ees bes' ees>4 <ees bes' ees> \deadNote <ees bes' ees>8 <ees bes' ees> r <ees bes' ees> |
+	<aes, ees' aes>4 <aes ees' aes> \deadNote <aes ees' aes>8 <aes ees' aes> r <aes ees' aes> |
+    }
+% page 7.1-3x
+    \relative {
+	<des' aes' des>4 <des aes' des> \deadNote <des aes' des>8 <des aes' des> r <des aes' des> |
+	r1 |
+	<ees bes' ees>4\staccato <ees bes' ees> \deadNote <ees bes' ees>8 <ees bes' ees>4 <ees bes' ees>8 |
+	<aes, ees' aes>4 <aes ees' aes> \deadNote <aes ees' aes>8 <aes ees' aes> r <aes ees' aes> |
+    }
+% page 8-3x
+    \relative {
+	<des' aes' des>4 <des aes' des> \deadNote <des aes' des>8 <des aes' des> r <des aes' des> |
+	<ges des' ges>4 <ges des' ges> <f des' f> <f des' f> |
+	<ees bes' ees>4 <ees bes' ees> \deadNote <ees bes' ees>8 <ees bes' ees>4 <ees bes' ees>8 |
+	<aes, ees' aes>4 <aes ees' aes> \deadNote <aes ees' aes>8 <aes ees' aes> r <aes ees' aes> |
+    }
+% page 8.1-3x
+    \relative {
+	<des' aes' des>4 <des aes' des> \deadNote <des aes' des>8 <des aes' des> r <des aes' des> |
+    }
+% to Coda1,2
+% page 14.1 Coda2
+    \barNumberCheck #140
+    r1 |
+% K
+    \barNumberCheck #141
+    \relative {
+	<fis cis' fis>4 <fis cis' fis>8. \deadNote <fis cis' fis>16 <e b' e>8 <fis cis' fis> r <fis cis' fis> |
+	r8 <fis cis' fis> r <fis cis' fis> <e b' e>4 <fis cis' fis> |
+    }
+% page 15
+    \relative {
+	<fis cis' fis>4 <fis cis' fis> <e b' e>8 <fis cis' fis> r <fis cis' fis> |
+	r8 <fis cis' fis> r <fis cis' fis> <a e' a>4 <b fis' b> |
+	r4 <fis cis' fis> <e b' e>8 <fis cis' fis> r <fis cis' fis> |
+    }
+% page 15.1
+    \relative {
+	r8 <fis cis' fis> r <fis cis' fis> <e b' e>4 <fis cis' fis> |
+	d'8. d'16 r8 g,8~ g16 g' r8 cis,4~ |
+	cis2\startTrillSpan r\stopTrillSpan |
+	r1 |
+    }
+    \barNumberCheck #150
+}

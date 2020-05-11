@@ -1,0 +1,197 @@
+keySixPart = {
+    \compressFullBarRests
+% page 19
+    r1 |
+% A
+    \barNumberCheck #2
+    R1*6 |
+    r1 | r1 |
+% B
+    \barNumberCheck #10
+    \repeat percent 8 {
+	\relative {
+	    <e'' gis>8_"<Synth.Piano 2>" <e gis> <e gis> <e gis> r <e gis> <dis fis> <e gis> |
+	}
+    }
+% C
+    \barNumberCheck #18
+    r1 | r1 | r1 | r1 |
+% page 19.2
+    r1 | r1 | r1 | r1 |
+% D
+    \barNumberCheck #26
+    \relative {
+	r2_"<Piano 2>" r8 b'4 b'8~ |
+	b8 a4 gis8~ gis a b gis~ |
+	gis2~ gis8 fis b e,~ |
+    }
+% page 19.3
+    \relative {
+	e''2~ e8 b b' e,~ |
+	e2~ e8 cis4 b'8~ |
+	b8 a4 gis8~ gis a b gis~ |
+	gis2~ gis8 fis b e,~ |
+	e1 |
+    }
+% E
+    \barNumberCheck #34
+    \relative {
+	r2 gis'8 e b e~ |
+	e2 gis8 b gis b |
+    }
+% page 19.4
+    \relative {
+	r2 gis'8 e b e~ |
+	e8 e gis b e b gis b |
+	r2 gis8 e b e~ |
+	e4. dis8~ dis e b e |
+	gis4 r gis8 e b g'~ |
+	g8 e c a' g e4 fis8~ |
+    }
+% page 19.5
+    \relative {
+	fis'2 r |
+    }
+    \repeat volta 2 {
+% F
+	\mybarNumberCheck #43
+	\relative {
+	    <e' e'>8_"<Brass Sect.>" <a a'> <b b'>4\staccato r2 |
+	    r1 |
+	    <e, e'>8 <a a'> <b b'>4\staccato r2 |
+	    r2 r8 <gis gis'> <fis fis'> <e e'> |
+	    <fis fis'>8 <a a'> <b b'>4\staccato r2 |
+	}
+% page 20
+	r1 |
+	\relative {
+	    <e' e'>8 <a a'> <b b'>4\staccato r2 |
+	    r1 |
+	}
+% G
+	\mybarNumberCheck #51
+	\relative {
+	    <e' e'>8 <a a'> <b b'>4\staccato r2 |
+	    r1 |
+	    <e, e'>8 <a a'> <b b'>4\staccato r2 |
+	}
+% page 20.1
+	\relative {
+	    r2 r8 <gis' gis'> <fis fis'> <e e'> |
+	    <e e'> <a a'> <b b'>4\staccato r2 |
+	    r1 |
+	    <e, e'>8 <a a'> <b b'>4\staccato r2 |
+	}
+    } \alternative { {
+	r1 |
+% H
+	\mybarNumberCheck #59
+	\repeat percent 8 {
+	    \relative {
+		<e'' gis>8_"<Synth.Piano 2>" <e gis> <e gis> <e gis> r <e gis> <dis fis> <e gis> |
+	    }
+	}
+% I
+	\mybarNumberCheck #67
+	r1 | r1 | r1 | r1 | r1 | r1 |
+% page 20.4
+	r1 | r1 |
+% J
+	\mybarNumberCheck #75
+	\relative {
+	    r2_"<Piano 2>" gis'8 e b e~ |
+	    e2 gis8 b gis b |
+	    r2 gis8 e b e~ |
+	    e8 e gis b e b gis b |
+	    r2 gis8 e b e~ |
+	}
+% page 20.5
+	\relative {
+	    e'4. dis8~ dis e b e |
+	    gis4 r gis8 e b g'~ |
+	    g8 e c a' g e4 fis8~ |
+	    fis2 r |
+	}
+    } {
+	r1 |
+    } }
+% K
+    \mybarNumberCheck #85
+    \repeat percent 3 {
+	\relative {
+	    e''2~_"<Synth.4>" e8 d4 e8~ |
+	}
+% page 21
+	\relative {
+	    e''4. fis8~ fis a4 fis8~ |
+	    fis4. e8~ e dis4 e8~ |
+	    e8 e4 dis8~ dis e16 dis cis8 b |
+	}
+    }
+% page 21.1+5
+    \relative {
+	r4 r8 dis'' r fis r dis |
+    }
+% page 21.2
+    \relative {
+	r8 e'' r dis r b4. |
+	r4 r8 fis' r fis r fis |
+	r8 g r fis r d r b~ |
+	b1~ |
+	b1 |
+    }
+% L
+    \mybarNumberCheck #103
+    r1 | r1 |
+% page 21.3
+    r1 | r1 | r1 | r1 | r1 | r1 |
+% page 21.4
+    r1 |
+% M
+    \mybarNumberCheck #112
+    \relative {
+	<fis' fis'>4._"<Brass Sect.>" <gis gis'>8 r <gis gis'> r <fis fis'> |
+	r8 <fis fis'> r <fis fis'> r <fis fis'> <eis eis'> <fis fis'> |
+	<fis fis'>4. <gis gis'>8 r <gis gis'> r <fis fis'> |
+	r8 <fis fis'> r <fis fis'> r <ais ais'> <gis gis'> <fis fis'> |
+	<fis fis'>4. <gis gis'>8 r <fis fis'> r <fis fis'> |
+    }
+% page 21.5
+    \relative {
+	r8 <fis' fis'> r <fis fis'> r <fis fis'> <eis eis'> <fis fis'> |
+	<fis fis'>4. <gis gis'>8 r <gis gis'> r <fis fis'> |
+	r8 <fis fis'> r <fis fis'> r <fis fis'> <gis gis'>4 |
+    }
+% N
+    \mybarNumberCheck #120
+    \relative {
+	<fis' fis'>4. <gis gis'>8 r <gis gis'> r <fis fis'> |
+	r8 <fis fis'> r <fis fis'> r <fis fis'> <eis eis'> <fis fis'> |
+	<fis fis'>4. <gis gis'>8 r <gis gis'> r <fis fis'> |
+    }
+% page 22
+    \relative {
+	r8 <fis' fis'> r <fis fis'> r <ais ais'> <gis gis'> <fis fis'> |
+	<fis fis'>4. <gis gis'>8 r <fis fis'> r <fis fis'> |
+	r8 <fis fis'> r <fis fis'> r <fis fis'> <eis eis'> <fis fis'> |
+	<fis fis'>4. <gis gis'>8 r <gis gis'> r <fis fis'> |
+	r8 <fis fis'> r <fis fis'> r <fis fis'> <gis gis'>4 |
+    }
+% page 22.1 O
+    \mybarNumberCheck #128
+    \relative {
+	fis'8_"<Synth.Brass>" cis fis cis' r fis, eis fis |
+	r8 fis r fis r fis eis fis |
+	fis8 cis fis cis' r fis, eis fis |
+	r8 fis r fis r eis fis4 |
+	fis8 cis fis cis' r fis, eis fis |
+    }
+% page 22.2
+    \relative {
+	r8 fis' r fis r fis eis fis |
+	fis8 cis fis cis' r fis, eis fis |
+	r8 fis r fis r eis gis fis |
+    }
+    r1 | r1 |
+    \mybarNumberCheck #138
+}

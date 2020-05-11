@@ -1,0 +1,485 @@
+bassPart = {
+% page 82 A
+    \barNumberCheck #1
+    \clef bass
+    \relative {
+	e4_"(5 Strings Bass)" r4 r4 r8 d8 |
+	e4\staccato g4 r8 d8 |
+	e4\staccato a4 ais4 |
+	b2 r2 |
+	b1\< |
+    }
+% page 83 B
+    \barNumberCheck #6
+    \relative {
+	e,8\! e8 r8 e8 e8 e8 r8 e8 |
+	g8 g8 r8 g8 g8 g8 r8 g8 |
+	a8 a8 r8 a8 a8 a8 r8 a8 |
+	b8 b8 r8 b8 b8 b8 r8 b8 |
+    }
+% page 83.1
+    \relative {
+	e,8 e8 r8 e8 e8 e8 r8 e8 |
+	g8 g8 r8 g8 g8 g8 r8 g8 |
+	a8 a8 r8 a8 a8 a8 r8 a8 |
+    }
+% 1x ending
+    \relative {
+	d,4\staccato g4\staccato e4\staccato e4\staccato |
+    }
+% page 83 B-2x
+    \barNumberCheck #14
+    \relative {
+	e,8\! e8 r8 e8 e8 e8 r8 e8 |
+	g8 g8 r8 g8 g8 g8 r8 g8 |
+	a8 a8 r8 a8 a8 a8 r8 a8 |
+	b8 b8 r8 b8 b8 b8 r8 b8 |
+    }
+% page 83.1-2x
+    \relative {
+	e,8 e8 r8 e8 e8 e8 r8 e8 |
+	g8 g8 r8 g8 g8 g8 r8 g8 |
+	a8 a8 r8 a8 a8 a8 r8 a8 |
+    }
+% page 84
+    \relative {
+	\repeat percent 2 {
+	    b,4\staccato r4 r4 r8 a8 |
+	}
+	b4\staccato r4 r2 |
+	e,4 r8 e8 e4 r8 b'8~ |
+	b8 d8 b8 d8 bes8 a8 g4 |
+    }
+% page 84.1 C
+    \barNumberCheck #26
+    \relative {
+	e,2 r2 |
+	r2 r8 e8 r4 |
+	e2 r2 |
+	r4 r8 g8 r8 g8 r8 gis8 |
+    }
+% page 85
+    \relative {
+	a,8 g8 a4\staccato r2 |
+	r1 |
+	\repeat percent 2 {
+	    a4\staccato r4 r4 r8 a8\staccato |
+	}
+    }
+% page 85.1
+    \relative {
+	a,4\staccato r4 r4 a8\staccato ais8\staccato |
+	b4\staccato b4\staccato b4\staccato b4\staccato |
+	b4\staccato r4 r2 |
+    }
+% page 86 D Segno
+    \barNumberCheck #37
+    \relative {
+	g,8 g8 r8 g8 r2 |
+	a8 a8 r8 a8 r2 |
+	fis8 fis8 r8 fis8 r2 |
+	b8 b8 r4 a8 a8 r4 |
+    }
+% page 86.1
+    \relative {
+	g,8 g8 r8 g8 r2 |
+	a8 a8 r8 a8 r2 |
+	\repeat percent 2 {
+	    d,8 d8 r8 d8 r2 |
+	}
+    }
+% page 87
+    \relative {
+	\repeat percent 2 {
+	    g,8 g8 r8 g8 r2 |
+	}
+	fis8 fis8 r8 fis8 r2 |
+	b8 b8 r4 a8 a8 r4 |
+    }
+% page 87.1
+    \relative {
+	g,8 g8 r8 g8 r2 |
+	a8 a8 r8 a8 r2 |
+	\repeat percent 2 {
+	    d8 d8 r8 d8 r2 |
+	}
+    }
+% page 88 E
+    \barNumberCheck #53
+    \relative {
+	\repeat percent 2 {
+	    c8 c'8 c,8 c'8 c,8 c'8 c,8 c'8 |
+	    c,8 c'8 c,8 c'8 c,8 c'8 b,8 b'8 |
+	    a,8 a'8 a,8 a'8 a,8 a'8 a,8 a'8 |
+	    g,8 g'8 g,8 g'8 g,8 g'8 g,8 g'8 |
+	}
+    }
+% page 89
+    \relative {
+	g,8 g'8 g,8 g'8 g,8 g'8 g,8 g'8 |
+	g,8 g'8 g,8 g'8 g,8 g'8 gis,8 gis'8 |
+    }
+% F
+    \barNumberCheck #63
+    \relative {
+	\repeat percent 2 {
+	    a,8 a'8 a,8 a'8 a,8 a'8 a,8 a'8 |
+	}
+    }
+% page 89.1
+    \relative {
+	e,8 e'8 e,8 e'8 e,8 e'8 e,8 e'8 |
+	e,8 e'8 e,8 e'8 e,8 e'8 eis,8 eis'8 |
+	\repeat percent 2 {
+	    fis,8 fis'8 fis,8 fis'8 fis,8 fis'8 fis,8 fis'8 |
+	}
+    }
+% page 90
+    \relative {
+	fis,4\staccato r8 fis8\staccato r4 fis4\staccato |
+	r8 fis8\staccato r4 fis4\staccato g8 a8 |
+	b2 r4 c8 b8 |
+	r1 |
+    }
+% page 90.1 G
+    \barNumberCheck #73
+    \relative {
+	\repeat percent 2 {
+	    e,8 e8 r8 e8 r8 e8 d8(^\markup { \hspace #2 "H" } e8) |
+	}
+	\repeat percent 2 {
+	    a8 a8 r8 a8 r8 a8 g8(^\markup { \hspace #2 "H" } a8) |
+	}
+    }
+% page 91
+    \relative {
+	\repeat percent 2 {
+	    d8 d8 r8 d8 r8 d8 c8(^\markup { \hspace #2 "H" } d8) |
+	}
+	g,8 g8 r8 g8 r8 g8 g4 |
+	b8 b8 r8 b8 r8 b8 b4 |
+    }
+% page 91.1
+    \relative {
+	\repeat percent 2 {
+	    e,8 e8 r8 e8 r8 e8 d8(^\markup { \hspace #2 "H" } e8) |
+	}
+	\repeat percent 2 {
+	    a8 a8 r8 a8 r8 a8 g8(^\markup { \hspace #2 "H" } a8) |
+	}
+	b4\staccato r8 c8 b4\staccato r8 c8 |
+    }
+% to coda
+% page 92
+    \relative {
+	b,4\staccato r4 r2 |
+    }
+% H
+    \barNumberCheck #87
+    \relative {
+	e,8 e8 r8 e8 e8 e8 r8 e8 |
+	g8 g8 r8 g8 g8 g8 r8 g8 |
+	a8 a8 r8 a8 a8 a8 r8 a8 |
+    }
+% page 92.1
+    \relative {
+	b,8 b8 r8 b8 b8 b8 r8 b8 |
+	e,8 e8 r8 e8 e8 e8 r8 e8 |
+	g8 g8 r8 g8 g8 g8 r8 g8 |
+	a8 a8 r8 a8 a8 a8 a8 ais8 |
+    }
+% page 93
+    \relative {
+	\repeat percent 2 {
+	    b,4\staccato r4 r4 r8 a8 |
+	}
+	b4\staccato r4 r2 |
+	e,4 r8 e8 e4 r8 b'8~ |
+	b8 d8 b8 d8 bes8 a8 g4 |
+    }
+% page 93.1 I
+    \barNumberCheck #99
+    \relative {
+	e,2 r2 |
+	r1 |
+	e2 r2 |
+	r2 r4 r8 gis8 |
+    }
+% page 94
+    \relative {
+	a,8 g8 a4\staccato r2 |
+	r1 | r1 | r1 |
+    }
+% page 94.1
+    r1 |
+    \relative {
+	b,4\staccato b4\staccato b4\staccato b4\staccato |
+	b4\staccato r4 r2 |
+    }
+% page 86 D Segno-2x
+    \barNumberCheck #110
+    \relative {
+	g,8 g8 r8 g8 r2 |
+	a8 a8 r8 a8 r2 |
+	fis8 fis8 r8 fis8 r2 |
+	b8 b8 r4 a8 a8 r4 |
+    }
+% page 86.1-2x
+    \relative {
+	g,8 g8 r8 g8 r2 |
+	a8 a8 r8 a8 r2 |
+	\repeat percent 2 {
+	    d,8 d8 r8 d8 r2 |
+	}
+    }
+% page 87-2x
+    \relative {
+	\repeat percent 2 {
+	    g,8 g8 r8 g8 r2 |
+	}
+	fis8 fis8 r8 fis8 r2 |
+	b8 b8 r4 a8 a8 r4 |
+    }
+% page 87.1-2x
+    \relative {
+	g,8 g8 r8 g8 r2 |
+	a8 a8 r8 a8 r2 |
+	\repeat percent 2 {
+	    d8 d8 r8 d8 r2 |
+	}
+    }
+% page 88 E-2x
+    \barNumberCheck #126
+    \relative {
+	\repeat percent 2 {
+	    c8 c'8 c,8 c'8 c,8 c'8 c,8 c'8 |
+	    c,8 c'8 c,8 c'8 c,8 c'8 b,8 b'8 |
+	    a,8 a'8 a,8 a'8 a,8 a'8 a,8 a'8 |
+	    g,8 g'8 g,8 g'8 g,8 g'8 g,8 g'8 |
+	}
+    }
+% page 89-2x
+    \relative {
+	g,8 g'8 g,8 g'8 g,8 g'8 g,8 g'8 |
+	g,8 g'8 g,8 g'8 g,8 g'8 gis,8 gis'8 |
+    }
+% F-2x
+    \barNumberCheck #136
+    \relative {
+	\repeat percent 2 {
+	    a,8 a'8 a,8 a'8 a,8 a'8 a,8 a'8 |
+	}
+    }
+% page 89.1-2x
+    \relative {
+	e,8 e'8 e,8 e'8 e,8 e'8 e,8 e'8 |
+	e,8 e'8 e,8 e'8 e,8 e'8 eis,8 eis'8 |
+	\repeat percent 2 {
+	    fis,8 fis'8 fis,8 fis'8 fis,8 fis'8 fis,8 fis'8 |
+	}
+    }
+% page 90-2x
+    \relative {
+	fis,4\staccato r8 fis8\staccato r4 fis4\staccato |
+	r8 fis8\staccato r4 fis4\staccato g8 a8 |
+	b2 r4 c8 b8 |
+	r1 |
+    }
+% page 90.1 G-2x
+    \barNumberCheck #146
+    \relative {
+	\repeat percent 2 {
+	    e,8 e8 r8 e8 r8 e8 d8(^\markup { \hspace #2 "H" } e8) |
+	}
+	\repeat percent 2 {
+	    a8 a8 r8 a8 r8 a8 g8(^\markup { \hspace #2 "H" } a8) |
+	}
+    }
+% page 91-2x
+    \relative {
+	\repeat percent 2 {
+	    d8 d8 r8 d8 r8 d8 c8(^\markup { \hspace #2 "H" } d8) |
+	}
+	g,8 g8 r8 g8 r8 g8 g4 |
+	b8 b8 r8 b8 r8 b8 b4 |
+    }
+% page 91.1-2x
+    \relative {
+	\repeat percent 2 {
+	    e,8 e8 r8 e8 r8 e8 d8(^\markup { \hspace #2 "H" } e8) |
+	}
+	\repeat percent 2 {
+	    a8 a8 r8 a8 r8 a8 g8(^\markup { \hspace #2 "H" } a8) |
+	}
+	b4\staccato r8 c8 b4\staccato r8 c8 |
+    }
+% coda
+    \barNumberCheck #159
+    \relative {
+	b,4\staccato r4 r2 |
+    }
+% page 95 J
+    \barNumberCheck #160
+    \relative {
+	a,8 a8 a8 a8 a8 a8 a8 a8 |
+	b8 b8 b8 b8 b8 b8 b8 b8 |
+	gis8 gis8 gis8 gis8 gis8 gis8 gis8 gis8 |
+	cis8 cis8 cis8 cis8 cis8 cis8 cis8 cis8 |
+    }
+% page 95.1
+    \relative {
+	a,8 a8 a8 a8 a8 a8 a8 a8 |
+	b8 b8 b8 b8 b8 b8 b8 b8 |
+	gis8 gis8 gis8 gis8 gis8 gis8 gis8 gis8 |
+	cis8 cis8 cis8 cis8 b8 b8 b8 b8 |
+    }
+% page 96
+    \relative {
+	\repeat percent 2 {
+	    a,8 a8 a8 a8 a8 a8 a8 a8 |
+	    b8 b8 b8 b8 b8 b8 b8 b8 |
+	    gis8 gis8 gis8 gis8 gis8 gis8 gis8 gis8 |
+	    cis8 cis8 cis8 cis8 cis8 cis8 cis8 cis8 |
+	}
+    }
+    \relative {
+	cis8 cis8 cis8 cis8 cis8 cis8 cis4 |
+    }
+% page 97 K
+    \barNumberCheck #177
+    r1 | r1 | r1 | r1 |
+% page 97.1
+    r1 | r1 | r1 | r1 |
+% page 98
+    \relative {
+	e'8\startInstrument "Synth." r8 e8 r8 e8 r8 e8 r8\stopInstrument "Synth." |
+    }
+    r1 | r1 | r1 |
+% page 98.1
+    \relative {
+	r4 cis'4 r2 |
+	r4 b2 bis4 |
+	r4 cis4 r4 a4 |
+	r4 b4 e,2~ |
+	e1 |
+    }
+% page 99 L
+    \barNumberCheck #194
+    \repeat percent 2 {
+	\relative {
+	    c8 c'8 c,8 c'8 c,8 c'8 c,8 c'8 |
+	    c,8 c'8 c,8 c'8 c,8 c'8 c,8 b'8 |
+	    a,8 a'8 a,8 a'8 a,8 a'8 a,8 a'8 |
+	    g,8 g'8 g,8 g'8 g,8 g'8 g,8 g'8 |
+	}
+    }
+% start 1x
+% page 100
+    \relative {
+	g,8 g'8 g,8 g'8 g,8 g'8 g,8 g'8 |
+    }
+% page 99 L-2x
+    \barNumberCheck #203
+    \repeat percent 2 {
+	\relative {
+	    c8 c'8 c,8 c'8 c,8 c'8 c,8 c'8 |
+	    c,8 c'8 c,8 c'8 c,8 c'8 c,8 b'8 |
+	    a,8 a'8 a,8 a'8 a,8 a'8 a,8 a'8 |
+	    g,8 g'8 g,8 g'8 g,8 g'8 g,8 g'8 |
+	}
+    }
+% page 100-2x
+    \relative {
+	g,8 g'8 g,8 g'8 g,8 g'8 g,8 g'8 |
+	g,8 g'8 g,8 g'8 g,8 g'8 gis,8 gis'8 |
+    }
+% page 100.1 M
+    \barNumberCheck #213
+    \relative {
+	\repeat percent 2 {
+	    a,8 a'8 a,8 a'8 a,8 a'8 a,8 a'8 |
+	}
+	e,8 e'8 e,8 e'8 e,8 e'8 e,8 e'8 |
+	e,8 e'8 e,8 e'8 e,8 e'8 eis,8 eis'8 |
+    }
+% page 101
+    \relative {
+	\repeat percent 2 {
+	    fis,8 fis'8 fis,8 fis'8 fis,8 fis'8 fis,8 fis'8 |
+	}
+	fis,4\staccato r8 fis8\staccato r4 fis4\staccato |
+	r8 fis8\staccato r4 fis4\staccato g8 a8 |
+    }
+% page 101.1
+    \relative {
+	b,2 r4 c8 b8 |
+	r1 |
+	b8 b8 r4 r8 fis8 c'8 b8 |
+	r1 |
+    }
+% page 102 N
+    \barNumberCheck #225
+    \relative {
+	\repeat percent 2 {
+	    e,8 e8 r8 e8 r8 e8 d8(^\markup { \hspace #1 "H" } e8) |
+	}
+	\repeat percent 2 {
+	    a8 a8 r8 a8 r8 a8 g8(^\markup { \hspace #1 "H" } a8) |
+	}
+    }
+% page 102.1
+    \relative {
+	\repeat percent 2 {
+	    d8 d8 r8 d8 r8 d8 c8(^\markup { \hspace #1 "H" } d8) |
+	}
+	g,8 g8 r8 g8 r8 g8 g4 |
+	b8 b8 r8 b8 r8 b8 b4 |
+	\repeat percent 2 {
+	    e,8 e8 r8 e8 r8 e8 d8(^\markup { \hspace #1 "H" } e8) |
+	}
+    }
+    \relative {
+	\repeat percent 2 {
+	    a,8 a8 r8 a8 r8 a8 g8(^\markup { \hspace #1 "H" } a8) |
+	}
+	b4\staccato r8 c8 b4\staccato r8 c8 |
+	b4\staccato r4 r2 |
+    }
+% page 103.1 O
+    \barNumberCheck #239
+    \relative {
+	e,8 e8 r8 e8 e8 e8 r8 e8 |
+	g8 g8 r8 g8 g8 g8 r8 g8 |
+	a8 a8 r8 a8 a8 a8 r8 a8 |
+	b8 b8 r8 b8 b8 b8 r8 b8 |
+    }
+% page 104
+    \relative {
+	e,8 e8 r8 e8 e8 e8 r8 e8 |
+	g8 g8 r8 g8 g8 g8 r8 g8 |
+	a8 a8 r8 a8 a8 a8 r8 a8 |
+	d,4\staccato g4\staccato e4\staccato e4\staccato |
+    }
+% page 104.1
+    \relative {
+	e,8 e8 r8 e8 e8 e8 r8 e8 |
+	g8 g8 r8 g8 g8 g8 r8 g8 |
+	a8 a8 r8 a8 a8 a8 r8 a8 |
+	b8 b8 r8 b8 b8 b8 r8 b8 |
+    }
+% page 105
+    \relative {
+	e,8 e8 r8 e8 e8 e8 r8 e8 |
+	g8 g8 r8 g8 g8 g8 r8 g8 |
+	a8 a8 r8 a8 a8 a8 r8 a8 |
+	\repeat percent 2 {
+	    b4\staccato r4 r4 r8 a8 |
+	}
+    }
+    \relative {
+	b,4\staccato r4 r2 |
+	e,4 r4 r2 |
+	r1 |
+    }
+    \barNumberCheck #259
+}

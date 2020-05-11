@@ -1,0 +1,12 @@
+voPart = \new Voice = "vo" {
+    \relative {
+	c'4. c |
+	c4 d8 e4. |
+	e4 d8 e4 f8 |
+	g2. |
+	c8 c c g g g |
+	e8 e e c c c |
+	g'4 f8 e4 d8 |
+	c2. |
+    }
+}

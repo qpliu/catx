@@ -1,0 +1,151 @@
+[TEXT_PREFIX]keyTwoText = {
+% page 2
+    r1 |
+% A
+    \barNumberCheck #2
+    r1 | r1 | r1 |
+% page 3
+    r1 | r1 | r1 |
+    `>brasssect=program61;volume.5`1 | % Brass Sect.1
+% page 3.1
+    r1 |
+% B
+    \barNumberCheck #10
+    `>tubularbells=program14;volume.5`1 | % Tubular Bells
+    r1 | r1 |
+% page 4
+    r1 | r1 | r1 | r1 |
+% page 4.1
+    `>stringssect=program48;volume.4`1 | % Strings Sect.
+% C
+    \barNumberCheck #18
+    r1 | r1 | r1 |
+% page 5
+    r1 | r1 | r1 | r1 |
+% page 5.1
+    r1 |
+% D Stegno1
+    \barNumberCheck #26
+    r1 | r1 | r1 |
+% page 6
+    r1 | r1 | r1 | r1 |
+% page 6.1
+    r1 | r1 |
+% E Stegno2
+    \barNumberCheck #35
+    r1 | r1 |
+% page 7
+    r1 | r1 | r1 | r1 |
+% page 7.1
+    r1 | r1 | r1 | r1 |
+% page 8
+    r1 | r1 | r1 | r1 |
+% page 8.1
+    r1 |
+% to Coda1,2
+    r1 |
+% F
+    \barNumberCheck #51
+    r1 | r1 |
+% page 9
+    r1 | r1 |
+% G
+    \barNumberCheck #55
+    r1 | r1 |
+% page 9.1
+    r1 | r1 | r1 | r1 |
+% page 10
+    r1 | r1 |
+% D.S.1
+% D Stegno1-2x
+    \barNumberCheck #63
+    r1 | r1 | r1 |
+% page 6-2x
+    r1 | r1 | r1 | r1 |
+% page 6.1-2x
+    r1 | r1 |
+% E Stegno2-2x
+    \barNumberCheck #72
+    r1 | r1 |
+% page 7-2x
+    r1 | r1 | r1 | r1 |
+% page 7.1-2x
+    r1 | r1 | r1 | r1 |
+% page 8-2x
+    r1 | r1 | r1 | r1 |
+% page 8.1-2x
+    r1 |
+% to Coda1,2
+% page 10 Coda1
+    \barNumberCheck #87
+    r1 |
+% H
+    \barNumberCheck #88
+    r1 | r1 |
+% page 10.1
+    r1 |
+    `>synthstringstwo=program51;volume.4`1 | % Synth.Strings 2
+% I
+    \barNumberCheck #92
+    `>collottava-12`1 |
+    r1 |
+% page 11
+    r1 | r1 | r1 | r1 |
+% page 11.1
+    r1 | r1 | r1 | r1 |
+% page 12
+    r1 | r1 | r1 | r1 |
+% page 12.1
+    r1 |
+    `-!collottava`1 |
+% J repeat
+    \barNumberCheck #108
+    `(a'|a'')synthstringstwo (b|e')collottava-12 ->collottava-12 >stringssect`1 | % Synth.Strings 2, Strings Sect.
+% page 13
+    r1 | r1 | r1 |
+% page 13.1
+    r1 | r1 |
+% ending 1
+    r1 |
+% page 14
+    r1 |
+% end repeat
+% J repeat-2x
+    \barNumberCheck #116
+    r1 |
+% page 13-2x
+    r1 | r1 | r1 |
+% page 13.1-2x
+    r1 | r1 |
+% page 14
+    r1 | r1 | r1 |
+% E Stegno2-3x
+    \barNumberCheck #125
+    `!collottava >stringssect`1 | % Strings Sect.
+    r1 |
+% page 7-3x
+    r1 | r1 | r1 | r1 |
+% page 7.1-3x
+    r1 | r1 | r1 | r1 |
+% page 8-3x
+    r1 | r1 | r1 | r1 |
+% page 8.1-3x
+    r1 |
+% to Coda1,2
+% page 14.1 Coda2
+    \barNumberCheck #140
+    r1 |
+% K
+    \barNumberCheck #141
+    r1 | r1 |
+% page 15
+    r1 |
+    `>synthtwo=program81;volume.4`1 | % Synth.2
+    r1 |
+% page 15.1
+    r1 |
+    `>brasssect`1 | % Brass Sect.1
+    r1 |
+    `glissando-7`4 r4 r2 |
+    \barNumberCheck #150
+}

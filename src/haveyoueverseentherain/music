@@ -1,0 +1,140 @@
+% drs vo simplevo vodrs
+% system1 simplesystem1
+% midi
+% roland
+% PARTS midi
+% BIN midi simplesystem1 simplevodrs vodrscolorsunfolded simplevo
+% MIDIS midiVo midiEg midiEb midiDr midiOthers
+% ROLAND HaveYouEver
+% ROBOT preview=8.2,countat=5
+
+\header {
+    title = "Have You Ever Seen The Rain"
+    composer = "Creedence Clearwater Revival"
+}
+
+\paper {
+    system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
+}
+
+#(set-global-staff-size 18)
+#(set-default-paper-size "letter" 'portrait)
+
+drumPitchNames.slash = #'slash
+
+#(define myDrumStyleTable '(
+    (slash          slash    #f          6)
+    (ridecymbal     cross    #f          5)
+    (crashcymbal    cross    #f          6)
+    (openhihat      harmonic #f          4)
+    (hihat          cross    #f          4)
+    (snare          default  #f          1)
+    (hightom        default  #f          1)
+    (lowmidtom      default  #f          0)
+    (lowtom         default  #f          -1)
+    (bassdrum       default  #f          -3)
+))
+
+\include "markup"
+\include "drs"
+\include "drscolors"
+\include "vo"
+\include "lyrics"
+\include "lyricsunfolded"
+\include "bass"
+\include "eg"
+\include "simplevo"
+\include "simplelyrics"
+\include "simplelyricsunfolded"
+
+layoutmusic = <<
+    \tag #'(systemOnePart voPart) \new Staff <<
+	\markupStuff
+	\voPart
+	\voLyrics
+    >>
+    \tag #'(simplesystemOnePart simplevoPart simplevodrsPart) \new Staff <<
+	\markupStuff
+	\simplevoPart
+	\simplevoLyrics
+    >>
+    \tag #'(systemOnePart simplesystemOnePart egPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Eg" }
+    } <<
+	\markupStuff
+	\egPart
+    >>
+    \tag #'(systemOnePart simplesystemOnePart bassPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Bass" }
+    } <<
+	\markupStuff
+	\bassPart
+    >>
+    \tag #'(systemOnePart simplesystemOnePart simplevodrsPart drsPart) \new DrumStaff \with {
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drsPart
+    >>
+    \tag #'(vodrscolorsunfolded) \unfoldRepeats <<
+	\markupStuff
+	\new Staff <<
+	    \simplevoPart
+	    \simplevoLyricsunfolded
+	>>
+	\new DrumStaff \with {
+	    drumStyleTable = #(alist->hash-table myDrumStyleTable)
+	} <<
+	    \drscolorsPart
+	>>
+    >>
+>>
+
+midimusicAll = <<
+    \markupStuff
+    \tag #'(midiVo voPart) \new Staff \with {
+	midiInstrument = #"steel drums"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #1
+    } \voPart
+    \tag #'(midiEb bassPart) \new Staff \with {
+	midiInstrument = #"electric bass (pick)"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.5
+    } \bassPart
+    \tag #'(midiEg bassPart) \new Staff \with {
+        midiInstrument = #"electric guitar (clean)" % 27
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.5
+    } \egPart
+    \tag #'(midiDr drsPart) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drsPart
+>>
+
+midimusic = <<
+    \midimusicAll
+>>
+
+rolandmusic = <<
+    \markupStuff
+    \tag #'(rolandMelody) \new Staff \with {
+	midiInstrument = #"steel drums" % 114
+    } <<
+	\voPart
+    >>
+    \tag #'(rolandBass) \new Staff \with {
+	midiInstrument = #"electric bass (pick)"
+    } \bassPart
+    \tag #'(rolandBackOne) \new Staff \with {
+	midiInstrument = #"synthstrings 2" % 51
+    } <<
+    >>
+    \tag #'(rolandBackTwo) \new Staff \with {
+	midiInstrument = #"overdriven guitar"
+    } <<
+    >>
+    \tag #'(rolandDrums) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drsPart
+>>

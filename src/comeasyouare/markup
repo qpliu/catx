@@ -1,0 +1,33 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \tempo 4 = 120
+    \key fis \minor
+\mymark "Intro" #1
+    s1 s1 s1 s1 \break s1 s1 s1 s1 s1 \break |
+\mymark "Verse 1" #10
+    s1 s1 s1 s1 \break s1 s1 s1 s1 \break |
+    s1 s1 s1 s1 \break s1 s1 s1 s1 \break |
+\mymark "Pre-Chorus 1" #26
+    s1 s1 s1 s1 \break s1 s1 s1 s1 \break |
+\mymark "Verse 2" #34
+    s1 s1 s1 s1 \break s1 s1 s1 s1 \break |
+\mymark "Pre-Chorus 2" #42
+    s1 s1 s1 s1 \break s1 s1 s1 s1 \break |
+\mymark "Chorus 1" #50
+    s1 s1 s1 s1 \break s1 s1 s1 s1 \break |
+\mymark "Interlude" #58
+    s1 s1 s1 s1 \break |
+\mymark "Guitar Solo" #62
+    s1 s1 s1 s1 \break s1 s1 s1 s1 \break |
+    s1 s1 s1 s1 \break s1 s1 s1 s1 \break |
+\mymark "Pre-Chorus 3" #78
+    s1 s1 s1 s1 \break s1 s1 s1 s1 \break |
+\mymark "Chorus 2" #86
+    s1 s1 s1 s1 \break s1 s1 s1 s1 \break |
+    s1 s1 s1 s1 \break |
+\mymark "Outro" #98
+    s1 s1 s1 s1 \break s1 s1 s1 s1 |
+\mybarNumberCheck #106
+    s1 \break |
+    \bar "|."
+}
