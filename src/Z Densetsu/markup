@@ -3,8 +3,8 @@ markupStuff = {
     \tag #'(pageNumber keep) \mark "p10"
     \barNumberCheck #1
     \key ees \major
-    s1 | s1 |
     \tempo 4 = 190
+    s1 | s1 |
     s1 | s1 |
 % page 11 Intro Segno3
     \mark \markup { \box \bold "Intro." }
