@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 exec 2>&1
 pwd=`pwd`
@@ -76,9 +76,9 @@ do
 }
 EOF
 	    lilypond -l WARN -o "$name-$midi" "$name-$midi.ly"
-	    merge="$merge $name-$midi.midi"
+	    merge="$merge ${name@Q}-$midi.midi"
 	done
-	java -cp . MergeMidi $merge >"$name$ROBOT.midi"
+	eval "java -cp . MergeMidi $merge >${name@Q}${ROBOT@Q}.midi"
 	TIMIDITY_EXTRA_CFG=
 	if test -f timidity_extra.cfg
 	then
@@ -106,7 +106,7 @@ EOF
 	    lilypond -l WARN -o "$name-$roland" "$name-$roland.ly"
 	    merge="$merge $name-$roland.midi"
 	done
-	java -jar ../../rolandPattern/1.jar "$ROLAND" $merge >"$name.TD0"
+	java -jar ~/git/rolandPattern/1.jar "$ROLAND" $merge >"$name.TD0"
 	cp "$name.TD0" /share/music/roland
     else
 	n="${name}_$part"

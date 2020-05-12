@@ -1,0 +1,60 @@
+% system1 vo vodrscolors drs midi roland
+% PARTS midi
+% BIN midi system1 vo vodrscolors drs
+% ROLAND BlitzkriegB
+% ROBOT preview=24.3
+
+\header {
+    title = "Blitzkrieg Bop"
+    composer = "Ramones"
+}
+
+\paper {
+%    system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
+}
+
+#(set-global-staff-size 20)
+#(set-default-paper-size "letter" 'portrait)
+
+\include "markup"
+\include "drs"
+\include "drscolors"
+\include "vo"
+\include "lyrics"
+
+layoutmusic = <<
+    \tag #'(systemOnePart voPart vodrscolorsPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vocals" }
+	shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+	\markupStuff
+	\voPart
+	\voLyrics
+    >>
+    \tag #'(systemOnePart drsPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drsPart
+    >>
+    \tag #'(vodrscolorsPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drscolorsPart
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiVo rolandMelody) \new Staff \with {
+	midiInstrument = #"steel drums"
+    } \voPart
+    \tag #'(midiDr rolandDrums) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drsPart
+>>

@@ -1,0 +1,134 @@
+% vocal guitar keyboard1 keyboard2 keyboard3 bass drums
+% all
+% midi
+% roland
+% PARTS midi
+% BIN midi all
+% ROLAND Z Densetsu
+% ROBOT preview=5
+
+\header {
+    title = "Ｚ伝説～終わりなき革命～"
+    composer = "前山田健"
+}
+
+drumPitchNames.tomm = #'himidtom
+
+#(define myDrumStyleTable '(
+    (crashcymbal    cross    #f          7)
+    (hihat          cross    #f          5)
+    (openhihat      cross    "open"      5)
+    (closedhihat    cross    "stopped"   5)
+    (hightom        default  #f          3)
+    (himidtom       default  #f          2)
+    (snare          default  #f          1)
+    (lowtom         default  #f          -1)
+    (bassdrum       default  #f          -3)
+))
+
+mc = \colorLyrics #(rgb-color .5 .5 .5)
+
+\include "markup"
+\include "chords"
+\include "vocal"
+\include "vocaltext_lyrics"
+\include "vocaltext_midi"
+\include "lyrics"
+\include "guitar"
+\include "guitartext_lyrics"
+\include "guitartext_midi"
+\include "keyboard1"
+\include "keyboard1text_lyrics"
+\include "keyboard1text_midi"
+\include "keyboard2"
+\include "keyboard3"
+\include "keyboard3text_lyrics"
+\include "keyboard3text_midi"
+\include "bass"
+\include "drums"
+
+layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
+    \new ChordNames \mychords
+    \tag #'(allPart vocalPart) \new Staff \with {
+	instrumentName = "Vocal"
+	shortInstrumentName = "Vo"
+    } <<
+	\markupStuff
+	\vocalPart
+	\vocalLyrics
+	\tag #'(textLyrics keep) \lyricsvocalText
+    >>
+    \tag #'(allPart guitarPart) \new Staff \with {
+	instrumentName = "Guitar"
+	shortInstrumentName = "Gt"
+    } <<
+	\markupStuff
+	\guitarPart
+	\tag #'(textLyrics keep) \lyricsguitarText
+    >>
+    \tag #'(allPart keyboardOnePart) \new Staff \with {
+	instrumentName = "Keyboard 1"
+	shortInstrumentName = "Keyb.1"
+    } <<
+	\markupStuff
+	\keyboardOnePart
+	\tag #'(textLyrics keep) \lyricskeyboardOneText
+    >>
+    \tag #'(allPart keyboardTwoPart) \new Staff \with {
+	instrumentName = "Keyboard 2"
+	shortInstrumentName = "Keyb.2"
+    } <<
+	\markupStuff
+	\keyboardTwoPart
+    >>
+    \tag #'(allPart keyboardThreePart) \new Staff \with {
+	instrumentName = "Keyboard 3"
+	shortInstrumentName = "Keyb.3"
+    } <<
+	\markupStuff
+	\keyboardThreePart
+	\tag #'(textLyrics keep) \lyricskeyboardThreeText
+    >>
+    \tag #'(allPart bassPart) \new Staff \with {
+	instrumentName = "Bass"
+	shortInstrumentName = "Ba"
+    } <<
+	\markupStuff
+	\bassPart
+    >>
+    \tag #'(allPart drumsPart) \new DrumStaff \with {
+	instrumentName = "Drums"
+	shortInstrumentName = "Dr"
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drumsPart
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiVo rolandMelody) \new Staff = "vocaltext" \midivocalText
+    \tag #'(midiVo rolandMelody) \new Staff = "vocal" \vocalPart
+    \tag #'(midiEg rolandBackOne) \new Staff = "guitartext" \midiguitarText
+    \tag #'(midiEg rolandBackOne) \new Staff = "guitar" \guitarPart
+    \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard1text" \midikeyboardOneText
+    \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard1" \keyboardOnePart
+    \tag #'(midiOne rolandBackTwo) \new Staff \with {
+	midiInstrument = #"trumpet"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.5
+    } \keyboardTwoPart
+    \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard3text" \midikeyboardThreeText
+    \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard3" \keyboardThreePart
+    \tag #'(midiEb rolandBass) \new Staff \with {
+	midiInstrument = #"electric bass (finger)"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.6
+    } \bassPart
+    \tag #'(midiDr rolandDrums) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+	midiMinimumVolume = #0
+	midiMaximumVolume = #1
+    } \drumsPart
+>>
