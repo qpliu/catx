@@ -1,9 +1,5 @@
-% drs vo
-% system1 chorus
-% midi
-% roland
 % PARTS midi
-% BIN midi system1
+% BIN midi all gg kav susan
 % ROLAND WeWillRockY
 % ROBOT preview=17
 
@@ -35,27 +31,34 @@ drumPitchNames.slash = #'slash
 
 \include "markup"
 \include "drs"
+\include "drscolors"
 \include "vo"
 \include "lyrics"
 \include "chorus"
 \include "choruslyrics"
 
 layoutmusic = <<
-    \tag #'(systemOnePart voPart) \new Staff \with { \RemoveEmptyStaves } <<
+    \tag #'(allPart kavPart susanPart) \new Staff \with { \RemoveEmptyStaves } <<
 	\markupStuff
 	\voPart
 	\voLyrics
     >>
-    \tag #'(chorusPart) \new Staff \with { \RemoveEmptyStaves } <<
+    \tag #'(ggPart) \new Staff \with { \RemoveEmptyStaves } <<
 	\markupStuff
 	\chorusPart
 	\chorusLyrics
     >>
-    \tag #'(systemOnePart drsPart chorusPart) \new DrumStaff \with {
+    \tag #'(allPart ggPart) \new DrumStaff \with {
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\drsPart
+    >>
+    \tag #'(kavPart) \new DrumStaff \with {
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drscolorsPart
     >>
 >>
 

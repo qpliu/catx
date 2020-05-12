@@ -1,7 +1,3 @@
-% vocal harmony guitar1 guitar2 keyboard1 keyboard2 bass drums
-% all
-% midi
-% roland
 % PARTS midi
 % BIN midi all
 % ROLAND JustLikeHea
@@ -41,7 +37,7 @@
 
 layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     \new ChordNames \mychords
-    \tag #'(allPart vocalPart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = "Vocal"
 	shortInstrumentName = "Vo"
     } <<
@@ -50,14 +46,14 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\vocalLyrics
 	\tag #'(textLyrics keep) \lyricsvocalText
     >>
-    \tag #'(allPart harmonyPart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = "Harmony"
 	shortInstrumentName = "Ha"
     } <<
 	\markupStuff
 	\harmonyPart
     >>
-    \tag #'(allPart guitarOnePart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = "Guitar 1"
 	shortInstrumentName = "Gt.1"
     } <<
@@ -65,7 +61,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\guitarOnePart
 	\tag #'(textLyrics keep) \lyricsguitarOneText
     >>
-    \tag #'(allPart guitarTwoPart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = "Guitar 2"
 	shortInstrumentName = "Gt.2"
     } <<
@@ -73,7 +69,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\guitarTwoPart
 	\tag #'(textLyrics keep) \lyricsguitarTwoText
     >>
-    \tag #'(allPart keyboardOnePart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = "Keyboard 1"
 	shortInstrumentName = "Keyb.1"
     } <<
@@ -81,7 +77,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\keyboardOnePart
 	\tag #'(textLyrics keep) \lyricskeyboardOneText
     >>
-    \tag #'(allPart keyboardTwoPart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = "Keyboard 2"
 	shortInstrumentName = "Keyb.2"
     } <<
@@ -89,14 +85,14 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\keyboardTwoPart
 	\tag #'(textLyrics keep) \lyricskeyboardTwoText
     >>
-    \tag #'(allPart bassPart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = "Bass"
 	shortInstrumentName = "Ba"
     } <<
 	\markupStuff
 	\bassPart
     >>
-    \tag #'(allPart drumsPart) \new DrumStaff \with {
+    \tag #'(allPart) \new DrumStaff \with {
 	instrumentName = "Drums"
 	shortInstrumentName = "Dr"
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)

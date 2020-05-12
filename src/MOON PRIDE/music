@@ -1,6 +1,3 @@
-% vo1 vo2 piano key1 eg1 eg2 eb perc drs eg3 eg4 eg5 strings key2 key3
-% system1 system2 system3
-% midi
 % PARTS system1
 % BIN midi system1 system2 system3
 % ROLAND MOON PRIDE
@@ -95,7 +92,7 @@ drumPitchNames.eperc = #'ridebell
 
 layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     \tag #'systemOnePart \new ChordNames \mychords
-    \tag #'(systemOnePart voOnePart) \new Staff \with {
+    \tag #'(systemOnePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vo.1" }
 	shortInstrumentName = \markup { \rotate #90 "Vo.1" }
     } <<
@@ -103,14 +100,14 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\voOnePart
 	\voOneLyrics
     >>
-    \tag #'(systemOnePart choOnePart) \new Staff \with {
+    \tag #'(systemOnePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Cho.1" }
 	shortInstrumentName = \markup { \rotate #90 "Cho.1" }
     } <<
 	\markupStuff
 	\choOnePart
     >>
-    \tag #'(systemOnePart voTwoPart) \new Staff \with {
+    \tag #'(systemOnePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vo.2" }
 	shortInstrumentName = \markup { \rotate #90 "Vo.2" }
     } <<
@@ -118,7 +115,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\voTwoPart
 	\voTwoLyrics
     >>
-    \tag #'(systemOnePart pianoPart) \new Staff \with {
+    \tag #'(systemOnePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Piano" }
 	shortInstrumentName = \markup { \rotate #90 "Piano" }
     } <<
@@ -126,14 +123,14 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\pianoPartStaffOne
 	\tag #'(textLyrics keep) \lyricspianoTextStaffOne
     >>
-    \tag #'(systemOnePart pianoPart) \new Staff \with {
+    \tag #'(systemOnePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Piano" }
 	shortInstrumentName = \markup { \rotate #90 "Piano" }
     } <<
 	\markupStuff
 	\pianoPartStaffTwo
     >>
-    \tag #'(systemOnePart keyOnePart) \new Staff \with {
+    \tag #'(systemOnePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Key.1" }
 	shortInstrumentName = \markup { \rotate #90 "Key.1" }
     } <<
@@ -141,7 +138,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\keyOnePart
 	\tag #'(textLyrics keep) \lyricskeyOneText
     >>
-    \tag #'(systemOnePart egOnePart) \new Staff \with {
+    \tag #'(systemOnePart) \new Staff \with {
 	\consists "Balloon_engraver"
 	instrumentName = \markup { \rotate #90 "E.G.1" }
 	shortInstrumentName = \markup { \rotate #90 "E.G.1" }
@@ -150,7 +147,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\egOnePart
 	\tag #'(textLyrics keep) \lyricsegOneText
     >>
-    \tag #'(systemOnePart egTwoPart) \new Staff \with {
+    \tag #'(systemOnePart) \new Staff \with {
 	\consists "Balloon_engraver"
 	instrumentName = \markup { \rotate #90 "E.G.2" }
 	shortInstrumentName = \markup { \rotate #90 "E.G.2" }
@@ -159,7 +156,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\egTwoPart
 	\tag #'(textLyrics keep) \lyricsegTwoText
     >>
-    \tag #'(systemOnePart ebPart) \new Staff \with {
+    \tag #'(systemOnePart) \new Staff \with {
 	\consists "Balloon_engraver"
 	instrumentName = \markup { \rotate #90 "E.B." }
 	shortInstrumentName = \markup { \rotate #90 "E.B." }
@@ -168,7 +165,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\ebPart
 	\tag #'(textLyrics keep) \lyricsebText
     >>
-    \tag #'(systemOnePart percPart) \new DrumStaff \with {
+    \tag #'(systemOnePart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Perc." }
 	shortInstrumentName = \markup { \rotate #90 "Perc." }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
@@ -177,7 +174,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\percPart
 	\tag #'(textLyrics keep) \lyricspercText
     >>
-    \tag #'(systemOnePart drsPart) \new DrumStaff \with {
+    \tag #'(systemOnePart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drs." }
 	shortInstrumentName = \markup { \rotate #90 "Drs." }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
@@ -186,7 +183,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\drsPart
 	\tag #'(textLyrics keep) \lyricsdrsText
     >>
-    \tag #'(systemTwoPart egThreePart) \new Staff \with {
+    \tag #'(systemTwoPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "E.G.3" }
 	shortInstrumentName = \markup { \rotate #90 "E.G.3" }
     } <<
@@ -194,7 +191,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\egThreePart
 	\tag #'(textLyrics keep) \lyricsegThreeText
     >>
-    \tag #'(systemTwoPart egFourPart) \new Staff \with {
+    \tag #'(systemTwoPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "E.G.4" }
 	shortInstrumentName = \markup { \rotate #90 "E.G.4" }
     } <<
@@ -202,7 +199,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\egFourPart
 	\tag #'(textLyrics keep) \lyricsegFourText
     >>
-    \tag #'(systemTwoPart egFivePart) \new Staff \with {
+    \tag #'(systemTwoPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "E.G.5" }
 	shortInstrumentName = \markup { \rotate #90 "E.G.5" }
     } <<
@@ -210,28 +207,28 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\egFivePart
 	\tag #'(textLyrics keep) \lyricsegFiveText
     >>
-    \tag #'(systemThreePart stringsPart) \new Staff \with {
+    \tag #'(systemThreePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Strings" }
 	shortInstrumentName = \markup { \rotate #90 "Strings" }
     } <<
 	\markupThreeStuff
 	\stringsPartStaffOne
     >>
-    \tag #'(systemThreePart stringsPart) \new Staff \with {
+    \tag #'(systemThreePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Strings" }
 	shortInstrumentName = \markup { \rotate #90 "Strings" }
     } <<
 	\markupThreeStuff
 	\stringsPartStaffTwo
     >>
-    \tag #'(systemThreePart stringsPart) \new Staff \with {
+    \tag #'(systemThreePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Strings" }
 	shortInstrumentName = \markup { \rotate #90 "Strings" }
     } <<
 	\markupThreeStuff
 	\stringsPartStaffThree
     >>
-    \tag #'(systemThreePart keyTwoPart) \new Staff \with {
+    \tag #'(systemThreePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Key.2" }
 	shortInstrumentName = \markup { \rotate #90 "Key.2" }
     } <<
@@ -239,7 +236,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\keyTwoPart
 	\tag #'(textLyrics keep) \lyricskeyTwoText
     >>
-    \tag #'(systemThreePart keyThreePart) \new Staff \with {
+    \tag #'(systemThreePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Key.3" }
 	shortInstrumentName = \markup { \rotate #90 "Key.3" }
     } <<

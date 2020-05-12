@@ -1,9 +1,5 @@
-% drs vo
-% system1
-% midi
-% roland
 % PARTS midi
-% BIN midi system1 vo vodrscolors drs
+% BIN midi all kav gg susan
 % ROBOT preview=19
 % ROLAND ILoveRockNR
 
@@ -28,20 +24,23 @@
 \include "choruslyrics"
 
 layoutmusic = <<
-    \tag #'(systemOnePart voPart vodrscolorsPart) \new Staff \with { \RemoveEmptyStaves } <<
+    \tag #'(allPart kavPart susanPart) \new Staff <<
 	\markupStuff
 	\voPart
 	\voLyrics
-%	\chorusPart
-%	\chorusLyrics
     >>
-    \tag #'(systemOnePart drsPart) \new DrumStaff \with {
+    \tag #'(ggPart) \new Staff \with { \RemoveEmptyStaves } <<
+	\markupStuff
+	\chorusPart
+	\chorusLyrics
+    >>
+    \tag #'(ggPart) \new DrumStaff \with {
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\drsPart
     >>
-    \tag #'(vodrscolorsPart) \new DrumStaff \with {
+    \tag #'(kavPart) \new DrumStaff \with {
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff

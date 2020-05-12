@@ -1,184 +1,121 @@
 markupStuff = {
     \tempo 4 = 165
-% page 120 A
-    \mark \markup { \box \bold "A" }
-    \barNumberCheck #1
+\mymark "A" #1
     \key a \major
     s1 | s1 | s1 | s1 |
-% page 121
-    \tag #'(pageNumber keep) \mark "p121"
+\markpage "p121"
     s1 | s1 | s1 | s1 |
-% page 121.1 B
-    \mark \markup { \box \bold "B" }
+\mymark "B" #9
     \bar "||"
     \key c \major
-    \barNumberCheck #9
     s1 | s1 | s1 | s1 |
-% page 122
-    \tag #'(pageNumber keep) \mark "p122"
+\markpage "p122"
     s1 | s1 | s1 | s1 |
-% page 122.1 C
-    \mark \markup { \box \bold "C" }
+\mymark "C" #17
     \bar "||"
-    \barNumberCheck #17
     s1 | s1 | s1 | s1 |
-% page 123
-    \tag #'(pageNumber keep) \mark "p123"
+\markpage "p123"
     s1 | s1 | s1 | s1 |
-% page 123.1 D
-    \mark \markup { \box \bold "D" }
+\mymark "D" #25
     \bar "||"
-    \barNumberCheck #25
     s1 | s1 | s1 | s1 |
-% page 124
-    \tag #'(pageNumber keep) \mark "p124"
+\markpage "p124"
     s1 | s1 | s1 | s1 |
-% page 124.1 E
-    \mark \markup { \box \bold "E" }
+\mymark "E" #33
     \bar "||"
-    \barNumberCheck #33
     s1 | s1 | s1 | s1 |
-% page 125
-    \tag #'(pageNumber keep) \mark "p125"
+\markpage "p125"
     s1 | s1 | s1 | s1 |
-% page 125.1 F Stegno
-    \mark \markup { \box \bold "F" }
+\mymark "F" #41
     \bar "||"
-    \barNumberCheck #41
     s1 | s1 | s1 |
-% page 126
-    \tag #'(pageNumber keep) \mark "p126"
+\markpage "p126"
     s1 | s1 | s1 |
-% page 126.1
-    \tag #'(pageNumber keep) \mark "p126.1"
+\markpage "p126.1"
     s1 | s1 |
-% G
-    \mark \markup { \box \bold "G" }
+\mymark "G" #49
     \bar "||"
-    \barNumberCheck #49
     s1 |
-% page 127
-    \tag #'(pageNumber keep) \mark "p127"
+\markpage "p127"
     s1 | s1 | s1 |
-% page 127.1
-    \tag #'(pageNumber keep) \mark "p127.1"
+\markpage "p127.1"
     s1 | s1 | s1 | s1 |
-% page 128 H
-    \mark \markup { \box \bold "H" }
+\mymark "H" #57
     \bar "||"
     \key a \major
-    \barNumberCheck #57
     s1 | s1 | s1 | s1 |
-% page 128.1
-    \tag #'(pageNumber keep) \mark "p128.1"
+\markpage "p128.1"
     s1 | s1 | s1 | s1 |
-% page 129
-    \tag #'(pageNumber keep) \mark "p129"
+\markpage "p129"
     s1 | s1 | s1 | s1 |
-% page 129.1
-    \tag #'(pageNumber keep) \mark "p129.1"
+\markpage "p129.1"
     s1 | s1 | s1 |
-% to Coda
     s1 |
-% page 130 I
-    \mark \markup { \box \bold "I" }
+\mymark "I" #73
     \bar "||"
     \key c \major
-    \barNumberCheck #73
     s1 | s1 | s1 | s1 |
-% page 130.1
-    \tag #'(pageNumber keep) \mark "p130.1"
+\markpage "p130.1"
     s1 | s1 | s1 | s1 |
-% D.S.
-% page 125.1 F Stegno-2x
-    \mark \markup { \box \bold "F-2x" }
+\mymark "F-2x" #81
     \bar "||"
-    \barNumberCheck #81
     s1 | s1 | s1 |
-% page 126-2x
-    \tag #'(pageNumber keep) \mark "p126-2x"
+\markpage "p126-2x"
     s1 | s1 | s1 |
-% page 126.1-2x
-    \tag #'(pageNumber keep) \mark "p126.1-2x"
+\markpage "p126.1-2x"
     s1 | s1 |
-% G-2x
-    \mark \markup { \box \bold "G-2x" }
+\mymark "G-2x" #89
     \bar "||"
-    \barNumberCheck #89
+\barNumberCheck #89
     s1 |
-% page 127-2x
-    \tag #'(pageNumber keep) \mark "p127-2x"
+\markpage "p127-2x"
     s1 | s1 | s1 |
-% page 127.1-2x
-    \tag #'(pageNumber keep) \mark "p127.1-2x"
+\markpage "p127.1-2x"
     s1 | s1 | s1 | s1 |
-% page 128 H-2x
-    \mark \markup { \box \bold "H-2x" }
+\mymark "H-2x" #97
     \bar "||"
     \key a \major
-    \barNumberCheck #97
     s1 | s1 | s1 | s1 |
-% page 128.1-2x
-    \tag #'(pageNumber keep) \mark "p128.1-2x"
+\markpage "p128.1-2x"
     s1 | s1 | s1 | s1 |
-% page 129-2x
-    \tag #'(pageNumber keep) \mark "p129-2x"
+\markpage "p129-2x"
     s1 | s1 | s1 | s1 |
-% page 129.1-2x
-    \tag #'(pageNumber keep) \mark "p129.1-2x"
+\markpage "p129.1-2x"
     s1 | s1 | s1 |
-% to Coda
-% page 131
-    \mark \markup { \musicglyph #"scripts.coda"}
+\mark \markup { \musicglyph #"scripts.coda"}
+\mybarNumberCheck #112
     \bar "||"
-    \barNumberCheck #112
     s1 |
-% J
-    \mark \markup { \box \bold "J" }
+\mymark "J" #113
     \bar "||"
     \key c \major
-    \barNumberCheck #113
     s1 | s1 |
-% page 131.1
-    \tag #'(pageNumber keep) \mark "p131.1"
+\markpage "p131.1"
     s1 | s1 | s1 |
-% page 132
-    \tag #'(pageNumber keep) \mark "p132"
+\markpage "p132"
     s1 | s1 | s1 |
-% page 132.1 K
-    \mark \markup { \box \bold "K" }
+\mymark "K" #121
     \bar "||"
     \key a \major
-    \barNumberCheck #121
     s1 | s1 | s1 | s1 |
-% page 133
-    \tag #'(pageNumber keep) \mark "p133"
+\markpage "p133"
     s1 | s1 | s1 | s1 |
-% page 133.1 L
-    \mark \markup { \box \bold "L" }
+\mymark "L" #129
     \bar "||"
-    \barNumberCheck #129
     s1 | s1 | s1 | s1 |
-% page 134
-    \tag #'(pageNumber keep) \mark "p134"
+\markpage "p134"
     s1 | s1 | s1 | s1 |
-% page 134.1 M
-    \mark \markup { \box \bold "M" }
+\mymark "M" #137
     \bar "||"
-    \barNumberCheck #137
     s1 | s1 | s1 | s1 |
-% page 135
-    \tag #'(pageNumber keep) \mark "p135"
+\markpage "p135"
     s1 | s1 | s1 |
-% page 135.1
-    \tag #'(pageNumber keep) \mark "p135.1"
+\markpage "p135.1"
     s1 | s1 | s1 |
-% page 136
-    \tag #'(pageNumber keep) \mark "p136"
+\markpage "p136"
     s1 | s1 | s1 |
-% page 136.1
-    \tag #'(pageNumber keep) \mark "p136.1"
+\markpage "p136.1"
     s1 | s1 | s1 |
     \bar "|."
-    \barNumberCheck #153
+\mybarNumberCheck #153
 }

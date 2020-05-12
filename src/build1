@@ -78,17 +78,18 @@ EOF
 	    lilypond -l WARN -o "$name-$midi" "$name-$midi.ly"
 	    merge="$merge ${name@Q}-$midi.midi"
 	done
-	eval "java -cp . MergeMidi $merge >${name@Q}${ROBOT@Q}.midi"
+	eval "java -cp . MergeMidi $merge >${name@Q}.midi"
 	TIMIDITY_EXTRA_CFG=
 	if test -f timidity_extra.cfg
 	then
 	    TIMIDITY_EXTRA_CFG="-c timidity_extra.cfg"
 	fi
-	timidity $TIMIDITY_EXTRA_CFG -OF -o "$name.flac" -A400 "$name$ROBOT.midi"
+	timidity $TIMIDITY_EXTRA_CFG -OF -o "$name.flac" -A400 "$name.midi"
 	ffmpeg -loglevel 16 -i "$name.flac" "$name.mp3"
 	cp "$name.mp3" ../../bin
 	cp "$name.mp3" /share/music
-	cp "$name$ROBOT.midi" /share/music/robot
+	cp "$name.midi" /share/music/robot/"$name$ROBOT.midi"
+	cp "$name.midi" ../../bin
     elif test "x$part" = "xroland"
     then
 	merge=

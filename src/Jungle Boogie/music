@@ -1,6 +1,5 @@
-% midi roland system1 susan
-% PARTS susan
-% BIN midi system1 susan vodrscolors drs
+% PARTS midi
+% BIN midi all susan kav gg
 % ROLAND JungleBoogi
 % ROBOT preview=17.3;division=+
 
@@ -15,17 +14,6 @@
 #(set-global-staff-size 16)
 #(set-default-paper-size "letter" 'portrait)
 
-#(define myDrumStyleTable '(
-    (ridecymbal     cross    #f          5)
-    (crashcymbal    cross    #f          6)
-    (openhihat      cross    "open"      4)
-    (hihat          cross    #f          4)
-    (snare          default  #f          1)
-    (lowmidtom      default  #f          0)
-    (lowtom         default  #f          -1)
-    (bassdrum       default  #f          -3)
-))
-
 \include "markup"
 \include "drs"
 \include "drscolors"
@@ -39,7 +27,7 @@
 \include "lyrics"
 
 layoutmusic = <<
-    \tag #'(systemOnePart susanPart voPart vodrsPart vodrscolorsPart) \new Staff \with {
+    \tag #'(allPart susanPart kavPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vocals" }
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
@@ -47,49 +35,49 @@ layoutmusic = <<
 	\voPart
 	\voLyrics
     >>
-    \tag #'(systemOnePart egPart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Guitar" }
 	shortInstrumentName = \markup { \rotate #90 "Gtr" }
     } <<
 	\markupStuff
 	\egPart
     >>
-    \tag #'(systemOnePart ebOnePart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass 1" }
 	shortInstrumentName = \markup { \rotate #90 "Ba1" }
     } <<
 	\markupStuff
 	\ebOnePart
     >>
-    \tag #'(systemOnePart ebTwoPart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass 2" }
 	shortInstrumentName = \markup { \rotate #90 "Ba2" }
     } <<
 	\markupStuff
 	\ebTwoPart
     >>
-    \tag #'(systemOnePart trumpetPart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Trumpet" }
 	shortInstrumentName = \markup { \rotate #90 "Tpt" }
     } <<
 	\markupStuff
 	\trumpetPart
     >>
-    \tag #'(systemOnePart susanPart altosaxPart) \new Staff \with {
+    \tag #'(allPart susanPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Alto Sax" }
 	shortInstrumentName = \markup { \rotate #90 "As" }
     } <<
 	\markupStuff
 	\altosaxPart
     >>
-    \tag #'(systemOnePart tenorsaxPart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Tenor Sax" }
 	shortInstrumentName = \markup { \rotate #90 "Ts" }
     } <<
 	\markupStuff
 	\tenorsaxPart
     >>
-    \tag #'(systemOnePart drsPart vodrsPart) \new DrumStaff \with {
+    \tag #'(allPart ggPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
@@ -97,7 +85,7 @@ layoutmusic = <<
 	\markupStuff
 	\drsPart
     >>
-    \tag #'(vodrscolorsPart) \new DrumStaff \with {
+    \tag #'(kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)

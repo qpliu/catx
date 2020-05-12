@@ -1,7 +1,3 @@
-% vocal guitar keyboard1 keyboard2 keyboard3 bass drums
-% all
-% midi
-% roland
 % PARTS midi
 % BIN midi all
 % ROLAND Z Densetsu
@@ -49,7 +45,7 @@ mc = \colorLyrics #(rgb-color .5 .5 .5)
 
 layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     \new ChordNames \mychords
-    \tag #'(allPart vocalPart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = "Vocal"
 	shortInstrumentName = "Vo"
     } <<
@@ -58,7 +54,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\vocalLyrics
 	\tag #'(textLyrics keep) \lyricsvocalText
     >>
-    \tag #'(allPart guitarPart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = "Guitar"
 	shortInstrumentName = "Gt"
     } <<
@@ -66,7 +62,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\guitarPart
 	\tag #'(textLyrics keep) \lyricsguitarText
     >>
-    \tag #'(allPart keyboardOnePart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = "Keyboard 1"
 	shortInstrumentName = "Keyb.1"
     } <<
@@ -74,14 +70,14 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\keyboardOnePart
 	\tag #'(textLyrics keep) \lyricskeyboardOneText
     >>
-    \tag #'(allPart keyboardTwoPart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = "Keyboard 2"
 	shortInstrumentName = "Keyb.2"
     } <<
 	\markupStuff
 	\keyboardTwoPart
     >>
-    \tag #'(allPart keyboardThreePart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = "Keyboard 3"
 	shortInstrumentName = "Keyb.3"
     } <<
@@ -89,14 +85,14 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\keyboardThreePart
 	\tag #'(textLyrics keep) \lyricskeyboardThreeText
     >>
-    \tag #'(allPart bassPart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = "Bass"
 	shortInstrumentName = "Ba"
     } <<
 	\markupStuff
 	\bassPart
     >>
-    \tag #'(allPart drumsPart) \new DrumStaff \with {
+    \tag #'(allPart) \new DrumStaff \with {
 	instrumentName = "Drums"
 	shortInstrumentName = "Dr"
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)

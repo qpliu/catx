@@ -60,7 +60,8 @@ voPart = \new Voice = "vo"
     s1 s1 s1 s1 |
 \mymark "Guitar Solo" #62
     s1 s1 s1 s1 s1 s1 s1 s1 |
-    s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 |
+    s1_\markup { \with-color #(rgb-color 1 .5 .5) "Shake Tambourine!" } |
     r2 5-2t4 5t8 2t~ |
 \mymark "Pre-Chorus 3" #78
     5-2t2~ t8 4-4t( 2t4~ |

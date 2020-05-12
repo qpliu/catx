@@ -3,7 +3,8 @@ voPart = \new Voice = "vo"
 {
 \mymark "Intro" #1
     r1 r1 r1 r1 r1 r1 r1 r1 |
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1_\markup { \with-color #(rgb-color 1 .5 .5) "Start Tambourine" } |
+    s1 s1 s1 s1 s1 s1 |
     s1 s1 s1 s1 s1 s1 s1 s1 |
     s1 s1 s1 s1 s1 s1 s1 s1 |
     r2 6-5t8 6-4t 6-2t 6-4t |

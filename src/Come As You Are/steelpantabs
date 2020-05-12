@@ -41,8 +41,7 @@ steelpanPart = \new Voice
     2-7t8( 3-9t 2-7t t4 3-9t8) 2-7t 8t |
     2-9t4( 3-7t8 2-9t 3-7t 2-9t) t 8t |
     2-7t8( 3-9t 2-7t t4 3-9t8) 2-7t 8t |
-    2-9t4( 3-7t8 2-9t 3-7t 2-9t) t 8t |
-    s1 |
+    r1 s1 |
 \mymark "Pre-Chorus 3" #78
     s1 s1 s1 s1 s1 s1 s1 s1 |
 \mymark "Chorus 2" #86

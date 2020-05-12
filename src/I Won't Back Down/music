@@ -1,9 +1,5 @@
-% drs vo
-% system1
-% midi
-% roland
 % PARTS midi
-% BIN midi system1 vo vodrscolors drs vodrs
+% BIN midi all kav susan gg
 % ROLAND IWontBackDo
 % ROBOT preview=4.4
 
@@ -43,7 +39,7 @@ drumPitchNames.slash = #'slash
 \include "lyrics"
 
 layoutmusic = <<
-    \tag #'(systemOnePart voPart vodrsPart vodrscolorsPart) \new Staff \with {
+    \tag #'(allPart kavPart susanPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vocals" }
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
@@ -51,21 +47,21 @@ layoutmusic = <<
 	\voPart
 	\voLyrics
     >>
-    \tag #'(systemOnePart egPart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Guitar" }
 	shortInstrumentName = \markup { \rotate #90 "Gtr" }
     } <<
 	\markupStuff
 	\egOnePart
     >>
-    \tag #'(systemOnePart bassPart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }
 	shortInstrumentName = \markup { \rotate #90 "Ba" }
     } <<
 	\markupStuff
 	\bassPart
     >>
-    \tag #'(systemOnePart vodrsPart drsPart) \new DrumStaff \with {
+    \tag #'(allPart ggPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
@@ -73,7 +69,7 @@ layoutmusic = <<
 	\markupStuff
 	\drsPart
     >>
-    \tag #'(vodrscolorsPart) \new DrumStaff \with {
+    \tag #'(kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)

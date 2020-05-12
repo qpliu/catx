@@ -1,9 +1,5 @@
-% drs vo bass
-% system1 vodrs
-% midi
-% roland
-% PARTS midi
-% BIN midi system1 vo vodrscolors drs
+% PARTS kav
+% BIN midi all kav susan gg
 % ROLAND JustLikeHea
 % ROBOT preview=33.3;countat=5
 
@@ -31,7 +27,7 @@
 \include "lyrics"
 
 layoutmusic = <<
-    \tag #'(systemOnePart voPart vodrscolorsPart) \new Staff \with {
+    \tag #'(allPart kavPart susanPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vocals" }
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
@@ -40,42 +36,42 @@ layoutmusic = <<
 	\voPart
 	\voLyrics
     >>
-    \tag #'(systemOnePart synthPart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Synth" }
 	shortInstrumentName = \markup { \rotate #90 "Sy" }
     } <<
 	\markupStuff
 	\synthPart
     >>
-    \tag #'(systemOnePart pianoPart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Piano" }
 	shortInstrumentName = \markup { \rotate #90 "Pi" }
     } <<
 	\markupStuff
 	\pianoPart
     >>
-    \tag #'(systemOnePart egOnePart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Guitar 1" }
 	shortInstrumentName = \markup { \rotate #90 "Gtr1" }
     } <<
 	\markupStuff
 	\egOnePart
     >>
-    \tag #'(systemOnePart egTwoPart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Guitar 2" }
 	shortInstrumentName = \markup { \rotate #90 "Gtr2" }
     } <<
 	\markupStuff
 	\egTwoPart
     >>
-    \tag #'(systemOnePart bassPart) \new Staff \with {
+    \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }
 	shortInstrumentName = \markup { \rotate #90 "Ba" }
     } <<
 	\markupStuff
 	\bassPart
     >>
-    \tag #'(systemOnePart drsPart) \new DrumStaff \with {
+    \tag #'(allPart ggPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
@@ -83,7 +79,7 @@ layoutmusic = <<
 	\markupStuff
 	\drsPart
     >>
-    \tag #'(vodrscolorsPart) \new DrumStaff \with {
+    \tag #'(kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)

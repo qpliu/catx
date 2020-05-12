@@ -116,6 +116,7 @@ midiDrumPitches.counta = f,, % 29
 
 mybarNumberCheck = #(define-music-function (parser location nn) (number?) #{ \tag #'(removeWithUnfold) \barNumberCheck #nn #})
 
-mymark = #(define-music-function (parser location what nn) (markup? number?) #{ \mybarNumberCheck #nn \mark \markup { \with-color #green \box \bold #what } #})
-% IF drs mymark = #(define-music-function (parser location what nn) (markup? number?) #{ \mybarNumberCheck #nn \mark \markup { \box \bold #what } #})
-% IF vodrs mymark = #(define-music-function (parser location what nn) (markup? number?) #{ \mybarNumberCheck #nn \mark \markup { \box \bold #what } #})
+mymark = #(define-music-function (parser location what nn) (markup? number?) #{ \mybarNumberCheck #nn \mark \markup { \box \bold #what } #})
+% IF kav mymark = #(define-music-function (parser location what nn) (markup? number?) #{ \mybarNumberCheck #nn \mark \markup { \with-color #green \box \bold #what } #})
+
+markpage = #(define-music-function (parser location what) (markup?) #{ \tag #'(pageNumber keep) \mark #what #})
