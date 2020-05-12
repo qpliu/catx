@@ -3,7 +3,6 @@
 % midi
 % roland
 % PARTS midi
-% MIDIS midiOne
 
 \header {
     title = "Last Dance"
@@ -46,17 +45,9 @@ layoutmusic = <<
     >>
 >>
 
-midimusicAll = <<
+midimusic = <<
     \markupStuff
-    \tag #'(midiOne drsPart) \new DrumStaff \with {
+    \tag #'(midiDr rolandDrums) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
->>
-
-midimusic = <<
-    \keepWithTag #'(drsPart keep) \midimusicAll
->>
-
-rolandmusic = <<
-    \keepWithTag #'(drsPart keep) \midimusicAll
 >>

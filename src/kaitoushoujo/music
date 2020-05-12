@@ -3,7 +3,8 @@
 % midi
 % roland
 % PARTS midi
-% MIDIS midiOne midiTwo midiThree
+% BIN midi system1 system2 system3 system4
+% ROLAND KaitouShouj
 
 \header {
     title = "行くぜっ!怪盗少女"
@@ -139,7 +140,7 @@ midiDrumPitches.rhhho = d'''
 \include "key5text_lyrics"
 \include "key5text_midi"
 
-layoutmusic = \removeWithTag #'(xpageNumber xtextLyrics) <<
+layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     \tag #'systemOnePart \new ChordNames \mychords
     \tag #'(systemOnePart voOnePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vo.1" }
@@ -288,104 +289,55 @@ layoutmusic = \removeWithTag #'(xpageNumber xtextLyrics) <<
     >>
 >>
 
-midimusicAll = <<
+midimusic = <<
     \markupStuff
-    \tag #'(midiOne voOnePart) \new Staff = "vo1text" \midivoOneText
-    \tag #'(midiOne voOnePart) \new Staff = "vo1" \voOnePart
-    \tag #'(midiOne voTwoPart) \new Staff = "vo2text" \midivoTwoText
-    \tag #'(midiOne voTwoPart) \new Staff = "vo2" \voTwoPart
-    \tag #'(midiOne keyOnePart) \new Staff = "key1text" \midikeyOneText
-    \tag #'(midiOne keyOnePart) \new Staff = "key1" \keyOnePart
-    \tag #'(midiOne keyTwoPart) \new Staff = "key2text" \midikeyTwoText
-    \tag #'(midiOne keyTwoPart) \new Staff = "key2" \keyTwoPart
-    \tag #'(midiOne keyThreePart) \new Staff = "key3text" \midikeyThreeText
-    \tag #'(midiOne keyThreePart) \new Staff = "key3" \keyThreePart
-    \tag #'(midiTwo keyFourPart) \new Staff = "key4text" \midikeyFourText
-    \tag #'(midiTwo keyFourPart) \new Staff = "key4" \keyFourPart
-    \tag #'(midiTwo keyFivePart) \new Staff = "key5text" \midikeyFiveText
-    \tag #'(midiTwo keyFivePart) \new Staff = "key5" \keyFivePart
-    \tag #'(midiTwo egOnePart) \new Staff = "eg1text" \midiegOneText
-    \tag #'(midiTwo egOnePart) \new Staff = "eg1" \egOnePart
-    \tag #'(midiTwo egTwoPart) \new Staff = "eg2text" \midiegTwoText
-    \tag #'(midiTwo egTwoPart) \new Staff = "eg2" \egTwoPart
-    \tag #'(midiTwo egFourPart) \new Staff = "eg4text" \midiegFourText
-    \tag #'(midiTwo egFourPart) \new Staff = "eg4" \egFourPart
-    \tag #'(midiThree egFivePart) \new Staff = "eg5text" \midiegFiveText
-    \tag #'(midiThree egFivePart) \new Staff = "eg5" \egFivePart
-    \tag #'(midiThree choOnePart) \new Staff \with {
+    \tag #'(midiVo rolandMelody) \new Staff = "vo1text" \midivoOneText
+    \tag #'(midiVo rolandMelody) \new Staff = "vo1" \voOnePart
+    \tag #'(midiVo rolandMelody) \new Staff = "vo2text" \midivoTwoText
+    \tag #'(midiVo rolandMelody) \new Staff = "vo2" \voTwoPart
+    \tag #'(midiOne rolandBackTwo) \new Staff = "key1text" \midikeyOneText
+    \tag #'(midiOne rolandBackTwo) \new Staff = "key1" \keyOnePart
+    \tag #'(midiOne rolandBackTwo) \new Staff = "key2text" \midikeyTwoText
+    \tag #'(midiOne rolandBackTwo) \new Staff = "key2" \keyTwoPart
+    \tag #'(midiOne rolandBackTwo) \new Staff = "key3text" \midikeyThreeText
+    \tag #'(midiOne rolandBackTwo) \new Staff = "key3" \keyThreePart
+    \tag #'(midiTwo rolandBackTwo) \new Staff = "key4text" \midikeyFourText
+    \tag #'(midiTwo rolandBackTwo) \new Staff = "key4" \keyFourPart
+    \tag #'(midiTwo rolandBackTwo) \new Staff = "key5text" \midikeyFiveText
+    \tag #'(midiTwo rolandBackTwo) \new Staff = "key5" \keyFivePart
+    \tag #'(midiEg rolandBackOne) \new Staff = "eg1text" \midiegOneText
+    \tag #'(midiEg rolandBackOne) \new Staff = "eg1" \egOnePart
+    \tag #'(midiEg rolandBackOne) \new Staff = "eg2text" \midiegTwoText
+    \tag #'(midiEg rolandBackOne) \new Staff = "eg2" \egTwoPart
+    \tag #'(midiEg rolandBackOne) \new Staff = "eg4text" \midiegFourText
+    \tag #'(midiEg rolandBackOne) \new Staff = "eg4" \egFourPart
+    \tag #'(midiEg rolandBackOne) \new Staff = "eg5text" \midiegFiveText
+    \tag #'(midiEg rolandBackOne) \new Staff = "eg5" \egFivePart
+    \tag #'(midiVo rolandMelody) \new Staff \with {
 	midiInstrument = #"choir aahs"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \choOnePart
-    \tag #'(midiThree ebPart) \new Staff \with {
+    \tag #'(midiEb rolandBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.7
     } \ebPart
-    \tag #'(midiThree timpaniPart) \new Staff \with {
+    \tag #'(midiThree) \new Staff \with {
 	midiInstrument = #"timpani"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.8
     } \percTwoPart
-    \tag #'(midiThree drsPart) \new Staff = "drstext" \mididrsText
-    \tag #'(midiThree drsPart) \new DrumStaff = "drs" \with {
+    \tag #'(midiDr rolandDrums) \new Staff = "drstext" \mididrsText
+    \tag #'(midiDr rolandDrums) \new DrumStaff = "drs" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
-    \tag #'(midiThree percOnePart) \new Staff = "perc1text" \midipercOneText
-    \tag #'(midiThree percOnePart) \new DrumStaff = "perc1" \with {
+    \tag #'(midiOne rolandPerc) \new Staff = "perc1text" \midipercOneText
+    \tag #'(midiOne rolandPerc) \new DrumStaff = "perc1" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \percOnePart
-    \tag #'(midiThree sePart) \new Staff = "setext" \midiseText
-    \tag #'(midiThree sePart) \new DrumStaff = "se" \with {
+    \tag #'(midiOne rolandPerc) \new Staff = "setext" \midiseText
+    \tag #'(midiOne rolandPerc) \new DrumStaff = "se" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \sePart
->>
-
-midimusic = <<
-%    \keepWithTag #'(voOnePart keep) \midimusicAll
-%    \keepWithTag #'(voTwoPart keep) \midimusicAll
-%    \keepWithTag #'(choOnePart keep) \midimusicAll
-%    \keepWithTag #'(keyOnePart keep) \midimusicAll
-%    \keepWithTag #'(keyTwoPart keep) \midimusicAll
-%    \keepWithTag #'(keyThreePart keep) \midimusicAll
-%    \keepWithTag #'(keyFourPart keep) \midimusicAll
-%    \keepWithTag #'(keyFivePart keep) \midimusicAll
-%    \keepWithTag #'(sePart keep) \midimusicAll
-%    \keepWithTag #'(egOnePart keep) \midimusicAll
-%    \keepWithTag #'(egTwoPart keep) \midimusicAll
-%    \keepWithTag #'(egFourPart keep) \midimusicAll
-%    \keepWithTag #'(egFivePart keep) \midimusicAll
-%    \keepWithTag #'(ebPart keep) \midimusicAll
-%    \keepWithTag #'(timpaniPart keep) \midimusicAll
-%    \keepWithTag #'(drsPart keep) \midimusicAll
-%    \keepWithTag #'(percOnePart keep) \midimusicAll
-    \midimusicAll
->>
-
-rolandmusic = <<
-    \markupStuff
-    \new Staff \with {
-	midiInstrument = #"acoustic grand"
-    } \voOnePart
-    \new Staff \with {
-	midiInstrument = #"acoustic grand"
-    } \voTwoPart
-    \new Staff \with {
-	midiInstrument = #"acoustic grand"
-    } \choOnePart
-    \new Staff \with {
-	midiInstrument = #"acoustic bass"
-    } \ebPart
-    \new Staff \with {
-	midiInstrument = #"electric guitar (clean)"
-    } \egOnePart
-    \new Staff \with {
-	midiInstrument = #"tremolo strings"
-    } \keyOnePart
-    \new DrumStaff \with {
-	drumPitchTable = #(alist->hash-table midiDrumPitches)
-    } \percOnePart
-    \new DrumStaff \with {
-	drumPitchTable = #(alist->hash-table midiDrumPitches)
-    } \drsPart
 >>

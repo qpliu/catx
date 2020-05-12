@@ -1,7 +1,7 @@
 markupStuff = {
     \tempo 4 = 176
     \key a \major
-    \mymark "Intro"
+\mymark "Intro" #1
     s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
     s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
     s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
@@ -9,34 +9,35 @@ markupStuff = {
     s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
     s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
     \bar "||"
-    \mymark "Verse 1"
+\mymark "Verse 1" #25
     s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
     s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
     s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
     s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
     \bar "||"
-    \mymark "Chorus 1"
+\mymark "Chorus 1" #41
     s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
     s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
     \bar "||"
-    \mymark "Verse 2"
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
-    \bar "||"
-    \mymark "Chorus 2"
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
-    \bar "||"
-    \mymark "Verse 3"
+\mymark "Verse 2" #49
     s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
     s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
     s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
     s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
     \bar "||"
-    \mymark "Outro"
+\mymark "Chorus 2" #65
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    \bar "||"
+\mymark "Verse 3" #73
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    \bar "||"
+\mymark "Outro" #89
     s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
     s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
     \bar "|."
+\mymark "Outro" #97
 }

@@ -5,7 +5,6 @@
 % roland
 % PARTS drs
 % BIN midi system1 vo vodrscolors drs
-% MIDIS midiVo midiEg midiEb midiDr midiOthers
 % ROLAND MoonlightDe
 % ROBOT preview=1.4,countat=5
 
@@ -94,51 +93,26 @@ layoutmusic = \removeWithTag #'(xpageNumber textLyrics) <<
     >>
 >>
 
-midimusicAll = <<
+midimusic = <<
     \markupStuff
-    \tag #'(midiVo voPart) \new Staff \with {
+    \tag #'(midiVo rolandMelody) \new Staff \with {
 	midiInstrument = #"steel drums"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \voPart
-    \tag #'(midiEb bassPart) \new Staff \with {
+    \tag #'(midiEb rolandBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \bassPart
-    \tag #'(midiOthers pianoPart) \new Staff \with {
+    \tag #'(midiOne rolandBackTwo) \new Staff \with {
 	midiInstrument = #"fx 5 (brightness)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \pianoPart
-    \tag #'(midiEg egPart) \new Staff = "egtext" \midiegText
-    \tag #'(midiEg egPart) \new Staff = "eg" \egPart
-    \tag #'(midiDr drsPart) \new DrumStaff \with {
-	drumPitchTable = #(alist->hash-table midiDrumPitches)
-    } \drsPart
->>
-
-midimusic = <<
-    \midimusicAll
->>
-
-rolandmusic = <<
-    \markupStuff
-    \tag #'(rolandMelody) \new Staff \with {
-	midiInstrument = #"steel drums" % 114
-    } <<
-	\voPart
-    >>
-    \tag #'(rolandBass) \new Staff \with {
-	midiInstrument = #"electric bass (finger)" % 33
-    } \bassPart
-    \tag #'(rolandBackOne) \new Staff \with {
-	midiInstrument = #"overdriven guitar" % 29
-    } \egPart
-    \tag #'(rolandBackTwo) \new Staff \with {
-	midiInstrument = #"fx 5 (brightness)" % 100
-    } \pianoPart
-    \tag #'(rolandDrums) \new DrumStaff \with {
+    \tag #'(midiEg rolandBackOne) \new Staff = "egtext" \midiegText
+    \tag #'(midiEg rolandBackOne) \new Staff = "eg" \egPart
+    \tag #'(midiDr rolandDrums) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
 >>

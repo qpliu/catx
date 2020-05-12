@@ -4,7 +4,6 @@
 % roland
 % PARTS midi
 % BIN midi system1 vodrs vodrscolorsunfolded vo
-% MIDIS midiVo midiEg midiEb midiDr midiOthers
 % ROLAND HaveYouEver
 % ROBOT preview=8.2,countat=5
 
@@ -38,11 +37,11 @@ drumPitchNames.slash = #'slash
 \include "markup"
 \include "drs"
 \include "drscolors"
+\include "bass"
+\include "eg"
 \include "vo"
 \include "lyrics"
 \include "lyricsunfolded"
-\include "bass"
-\include "eg"
 \include "simplevo"
 \include "simplelyrics"
 \include "simplelyricsunfolded"
@@ -96,51 +95,24 @@ layoutmusic = <<
     >>
 >>
 
-midimusicAll = <<
+midimusic = <<
     \markupStuff
-    \tag #'(midiVo voPart) \new Staff \with {
+    \tag #'(midiVo rolandMelody) \new Staff \with {
 	midiInstrument = #"steel drums"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \voPart
-    \tag #'(midiEb bassPart) \new Staff \with {
+    \tag #'(midiEb rolandBass) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \bassPart
-    \tag #'(midiEg bassPart) \new Staff \with {
+    \tag #'(midiEg rolandBackOne) \new Staff \with {
         midiInstrument = #"electric guitar (clean)" % 27
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \egPart
-    \tag #'(midiDr drsPart) \new DrumStaff \with {
-	drumPitchTable = #(alist->hash-table midiDrumPitches)
-    } \drsPart
->>
-
-midimusic = <<
-    \midimusicAll
->>
-
-rolandmusic = <<
-    \markupStuff
-    \tag #'(rolandMelody) \new Staff \with {
-	midiInstrument = #"steel drums" % 114
-    } <<
-	\voPart
-    >>
-    \tag #'(rolandBass) \new Staff \with {
-	midiInstrument = #"electric bass (pick)"
-    } \bassPart
-    \tag #'(rolandBackOne) \new Staff \with {
-	midiInstrument = #"synthstrings 2" % 51
-    } <<
-    >>
-    \tag #'(rolandBackTwo) \new Staff \with {
-	midiInstrument = #"overdriven guitar"
-    } <<
-    >>
-    \tag #'(rolandDrums) \new DrumStaff \with {
+    \tag #'(midiDr rolandDrums) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
 >>

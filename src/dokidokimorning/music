@@ -1,8 +1,8 @@
 % vocal chorus guitar1 guitar2 guitar3 keyboard bass drums percussion
 % all
-% midi
+% midi roland
 % PARTS midi
-% MIDIS midiOne midiTwo
+% BIN midi all
 % ROLAND DokiDokiMor
 
 \header {
@@ -137,79 +137,37 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     >>
 >>
 
-midimusicAll = <<
+midimusic = <<
     \markupStuff
-    \tag #'(midiOne chorusPart) \new Staff \with {
+    \tag #'(midiVo rolandMelody) \new Staff \with {
 	midiInstrument = #"choir aahs"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.6
     } \chorusPart
-    \tag #'(midiOne vocalPart) \new Staff = "vocaltext" \midivocalText
-    \tag #'(midiOne vocalPart) \new Staff = "vocal" \vocalPart
-    \tag #'(midiOne guitarOnePart) \new Staff = "guitar1text" \midiguitarOneText
-    \tag #'(midiOne guitarOnePart) \new Staff = "guitar1" \guitarOnePart
-    \tag #'(midiOne guitarTwoPart) \new Staff = "guitar2text" \midiguitarTwoText
-    \tag #'(midiOne guitarTwoPart) \new Staff = "guitar2" \guitarTwoPart
-    \tag #'(midiOne guitarThreePart) \new Staff \with {
+    \tag #'(midiVo rolandMelody) \new Staff = "vocaltext" \midivocalText
+    \tag #'(midiVo rolandMelody) \new Staff = "vocal" \vocalPart
+    \tag #'(midiEg rolandBackOne) \new Staff = "guitar1text" \midiguitarOneText
+    \tag #'(midiEg rolandBackOne) \new Staff = "guitar1" \guitarOnePart
+    \tag #'(midiEg rolandBackOne) \new Staff = "guitar2text" \midiguitarTwoText
+    \tag #'(midiEg rolandBackOne) \new Staff = "guitar2" \guitarTwoPart
+    \tag #'(midiEg rolandBackOne) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \guitarThreePart
-    \tag #'(midiTwo keyboardPart) \new Staff \with {
+    \tag #'(midiOne rolandBackTwo) \new Staff \with {
 	midiInstrument = #"pad 3 (polysynth)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.7
     } \keyboardPart
-    \tag #'(midiTwo bassPart) \new Staff = "basstext" \midibassText
-    \tag #'(midiTwo bassPart) \new Staff = "bass" \bassPart
-    \tag #'(midiTwo drumsPart) \new Staff = "drumstext" \mididrumsText
-    \tag #'(midiTwo drumsPart) \new DrumStaff = "drums" \with {
+    \tag #'(midiEb rolandBass) \new Staff = "basstext" \midibassText
+    \tag #'(midiEb rolandBass) \new Staff = "bass" \bassPart
+    \tag #'(midiDr rolandDrums) \new Staff = "drumstext" \mididrumsText
+    \tag #'(midiDr rolandDrums) \new DrumStaff = "drums" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drumsPart
-    \tag #'(midiTwo percussionPart) \new Staff = "percussiontext" \midipercussionText
-    \tag #'(midiTwo percussionPart) \new DrumStaff = "percussion" \with {
+    \tag #'(midiOne rolandPerc) \new Staff = "percussiontext" \midipercussionText
+    \tag #'(midiOne rolandPerc) \new DrumStaff = "percussion" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \percussionPart
->>
-
-midimusic = <<
-%    \keepWithTag #'(chorusPart keep) \midimusicAll
-%    \keepWithTag #'(vocalPart keep) \midimusicAll
-%    \keepWithTag #'(guitarOnePart keep) \midimusicAll
-%    \keepWithTag #'(guitarTwoPart keep) \midimusicAll
-%    \keepWithTag #'(guitarThreePart keep) \midimusicAll
-%    \keepWithTag #'(keyboardPart keep) \midimusicAll
-%    \keepWithTag #'(bassPart keep) \midimusicAll
-%    \keepWithTag #'(drumsPart keep) \midimusicAll
-%    \keepWithTag #'(percussionPart keep) \midimusicAll
-    \midimusicAll
->>
-
-rolandmusic = <<
-    \markupStuff
-    \tag #'(rolandMelody) \new Staff \with {
-	midiInstrument = #"choir aahs"
-    } <<
-	\vocalPart
-	\chorusPart
-    >>
-    \tag #'(rolandBass) \new Staff \with {
-	midiInstrument = #"acoustic bass"
-    } \bassPart
-    \tag #'(rolandBackOne) \new Staff \with {
-	midiInstrument = #"electric guitar (clean)"
-    } <<
-	\guitarOnePart
-	\guitarTwoPart
-	\guitarThreePart
-    >>
-    \tag #'(rolandBackTwo) \new Staff \with {
-	midiInstrument = #"pad 3 (polysynth)"
-    } \keyboardPart
-    \tag #'(rolandDrums) \new DrumStaff \with {
-	drumPitchTable = #(alist->hash-table midiDrumPitches)
-    } <<
-	\percussionPart
-	\drumsPart
-    >>
 >>

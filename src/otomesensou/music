@@ -3,7 +3,8 @@
 % midi
 % roland
 % PARTS vocal
-% MIDIS midiOne
+% BIN midi all
+% ROLAND OtomeSensou
 % ROBOT preview=36.4
 
 \header {
@@ -53,7 +54,7 @@ drumPitchNames.fingersnap = #'handclap
 \include "drumstext_lyrics"
 \include "drumstext_midi"
 
-layoutmusic = \removeWithTag #'(xpageNumber textLyrics) <<
+layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     \new ChordNames \mychords
     \tag #'(allPart vocalPart) \new Staff \with {
 	instrumentName = "Chorus"
@@ -121,64 +122,30 @@ layoutmusic = \removeWithTag #'(xpageNumber textLyrics) <<
     >>
 >>
 
-midimusicAll = <<
+midimusic = <<
     \markupStuff
-    \tag #'(midiOne vocalPart) \new Staff = "vocaltext" \midivocalText
-    \tag #'(midiOne vocalPart) \new Staff = "vocal" \vocalPart
-    \tag #'(midiOne chorusPart) \new Staff \with {
+    \tag #'(midiVo rolandMelody) \new Staff = "vocaltext" \midivocalText
+    \tag #'(midiVo rolandMelody) \new Staff = "vocal" \vocalPart
+    \tag #'(midiVo rolandMelody) \new Staff \with {
 	midiInstrument = #"choir aahs"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \chorusPart
-    \tag #'(midiOne guitarPart) \new Staff = "guitartext" \midiguitarText
-    \tag #'(midiOne guitarPart) \new Staff = "guitar" \guitarPart
-    \tag #'(midiOne keyboardOnePart) \new Staff = "keyboard1text" \midikeyboardOneText
-    \tag #'(midiOne keyboardOnePart) \new Staff = "keyboard1" \keyboardOnePart
-    \tag #'(midiOne keyboardTwoPart) \new Staff = "keyboard2text" \midikeyboardTwoText
-    \tag #'(midiOne keyboardTwoPart) \new Staff = "keyboard2" \keyboardTwoPart
-    \tag #'(midiOne keyboardThreePart) \new Staff = "keyboard3text" \midikeyboardThreeText
-    \tag #'(midiOne keyboardThreePart) \new Staff = "keyboard3" \keyboardThreePart
-    \tag #'(midiOne bassPart) \new Staff \with {
+    \tag #'(midiEg rolandBackOne) \new Staff = "guitartext" \midiguitarText
+    \tag #'(midiEg rolandBackOne) \new Staff = "guitar" \guitarPart
+    \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard1text" \midikeyboardOneText
+    \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard1" \keyboardOnePart
+    \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard2text" \midikeyboardTwoText
+    \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard2" \keyboardTwoPart
+    \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard3text" \midikeyboardThreeText
+    \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard3" \keyboardThreePart
+    \tag #'(midiEb rolandBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.7
     } \bassPart
-    \tag #'(midiOne drumsPart) \new Staff = "drumstext" \mididrumsText
-    \tag #'(midiOne drumsPart) \new DrumStaff = "drums" \with {
-	drumPitchTable = #(alist->hash-table midiDrumPitches)
-    } \drumsPart
->>
-
-midimusic = <<
-%    \keepWithTag #'(vocalPart keep) \midimusicAll
-%    \keepWithTag #'(chorusPart keep) \midimusicAll
-%    \keepWithTag #'(guitarPart keep) \midimusicAll
-%    \keepWithTag #'(keyboardOnePart keep) \midimusicAll
-%    \keepWithTag #'(keyboardTwoPart keep) \midimusicAll
-%    \keepWithTag #'(keyboardThreePart keep) \midimusicAll
-%    \keepWithTag #'(bassPart keep) \midimusicAll
-%    \keepWithTag #'(drumsPart keep) \midimusicAll
-    \midimusicAll
->>
-
-rolandmusic = <<
-    \markupStuff
-    \new Staff \with {
-	midiInstrument = #"acoustic grand"
-    } \vocalPart
-    \new Staff \with {
-	midiInstrument = #"acoustic grand"
-    } \chorusPart
-    \new Staff \with {
-	midiInstrument = #"acoustic bass"
-    } \bassPart
-    \new Staff \with {
-	midiInstrument = #"electric guitar (clean)"
-    } \guitarPart
-    \new Staff \with {
-	midiInstrument = #"tremolo strings"
-    } \keyboardOnePart
-    \new DrumStaff \with {
+    \tag #'(midiDr rolandDrums) \new Staff = "drumstext" \mididrumsText
+    \tag #'(midiDr rolandDrums) \new DrumStaff = "drums" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drumsPart
 >>

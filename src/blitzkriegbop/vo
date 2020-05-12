@@ -1,5 +1,5 @@
 voPart = \new Voice = "vo" {
-% Intro
+\mymark "Intro" #1
     r1 r1 r1 r1 |
     r1 r1 r1 r1 |
     r1 r1 r1 r1 |
@@ -14,7 +14,7 @@ voPart = \new Voice = "vo" {
 	\deadNote d4 r \deadNote d r |
 	r4 \deadNote d \deadNote d r8 cis |
     }
-% Verse 1
+\mymark "Verse 1" #25
     \relative {
 	e''8 e e d cis4 e |
 	r2 r4. cis8 |
@@ -33,7 +33,7 @@ voPart = \new Voice = "vo" {
 	cis4 r2. |
 	r1 |
     }
-% Chorus 1
+\mymark "Chorus 1" #41
     \relative {
 	d''4 r d r |
 	r4 d d r |
@@ -44,7 +44,7 @@ voPart = \new Voice = "vo" {
 	b4 b b b |
 	d8 d d e4 r cis8 |
     }
-% Verse 2
+\mymark "Verse 2" #49
     \relative {
 	e''8 e e d cis4 e |
 	r2 r4. cis8 |
@@ -63,7 +63,7 @@ voPart = \new Voice = "vo" {
 	cis4 r2. |
 	r1 |
     }
-% Chorus 2
+\mymark "Chorus 2" #65
     \relative {
 	d''4 r d r |
 	r4 d d r |
@@ -74,7 +74,7 @@ voPart = \new Voice = "vo" {
 	b4 b b b |
 	d8 d d e4 r cis8 |
     }
-% Verse 3
+\mymark "Verse 3" #73
     \relative {
 	e''8 e e d cis4 e |
 	r2 r4. cis8 |
@@ -93,7 +93,7 @@ voPart = \new Voice = "vo" {
 	cis4 r2. |
 	r1 |
     }
-% Outro
+\mymark "Outro" #89
     \relative {
 	\deadNote d''4 r \deadNote d r |
 	r4 \deadNote d \deadNote d r |
@@ -104,4 +104,5 @@ voPart = \new Voice = "vo" {
 	\deadNote d4 r \deadNote d r |
 	r4 \deadNote d \deadNote d r |
     }
+\mymark "Outro" #97
 }

@@ -4,7 +4,6 @@
 % roland
 % PARTS drs
 % BIN midi system1 vo vodrscolors drs
-% MIDIS midiVo midiEg midiEb midiDr midiOthers
 % ROLAND JungleBoogi
 % ROBOT preview=17.3,division=+
 
@@ -111,62 +110,30 @@ layoutmusic = <<
     >>
 >>
 
-midimusicAll = <<
+midimusic = <<
     \markupStuff
-    \tag #'(midiDr drsPart) \new DrumStaff \with {
+    \tag #'(midiDr rolandDrums) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
-    \tag #'(midiVo voPart) \new Staff \with {
+    \tag #'(midiVo rolandMelody) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \voPart
-    \tag #'(midiEg egPart) \new Staff \with {
+    \tag #'(midiEg rolandBackOne) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
     } \egPart
-    \tag #'(midiEb ebOnePart) \new Staff \with {
+    \tag #'(midiEb rolandBass) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
     } \ebOnePart
-    \tag #'(midiEb ebTwoPart) \new Staff \with {
+    \tag #'(midiEb rolandBass) \new Staff \with {
 	midiInstrument = #"synth bass 2" % 39
     } \ebTwoPart
-    \tag #'(midiOthers trumpetPart) \new Staff \with {
+    \tag #'(midiOne rolandBackTwo) \new Staff \with {
 	midiInstrument = #"trumpet" % 56
     } \trumpetPart
-    \tag #'(midiOthers tenorsaxPart) \new Staff \with {
+    \tag #'(midiOne rolandBackTwo) \new Staff \with {
 	midiInstrument = #"tenor sax" % 66
     } \tenorsaxPart
-    \tag #'(midiOthers altosaxPart) \new Staff \with {
+    \tag #'(midiOne rolandBackTwo) \new Staff \with {
 	midiInstrument = #"alto sax" % 65
     } \altosaxPart
->>
-
-midimusic = <<
-    \midimusicAll
->>
-
-rolandmusic = <<
-    \markupStuff
-    \tag #'(rolandMelody) \new Staff \with {
-	midiInstrument = #"steel drums" % 114
-    } <<
-	\voPart
-    >>
-    \tag #'(rolandBass) \new Staff \with {
-	midiInstrument = #"electric guitar (clean)" % 27
-    } <<
-	\ebOnePart
-	\ebTwoPart
-	\egPart
-    >>
-    \tag #'(rolandBackOne) \new Staff \with {
-	midiInstrument = #"alto sax" % 65
-    } <<
-	\tenorsaxPart
-	\altosaxPart
-    >>
-    \tag #'(rolandBackTwo) \new Staff \with {
-	midiInstrument = #"trumpet" % 56
-    } \trumpetPart
-    \tag #'(rolandDrums) \new DrumStaff \with {
-	drumPitchTable = #(alist->hash-table midiDrumPitches)
-    } \drsPart
 >>

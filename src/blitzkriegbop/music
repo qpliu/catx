@@ -1,8 +1,7 @@
-% drs vo system1
-% midi
-% roland
+% system1 vo vodrscolors drs midi roland
 % PARTS midi
-% MIDIS midiOne
+% BIN midi system1 vo vodrscolors drs
+% ROLAND BlitzkriegB
 
 \header {
     title = "Blitzkrieg Bop"
@@ -13,59 +12,48 @@
 %    system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
 }
 
-#(set! paper-alist (cons '("my size" . (cons (* 6 in) (* 11 in))) paper-alist))
-
-%#(set-global-staff-size 24)
-%#(set-default-paper-size "my size" 'landscape)
-
 #(set-global-staff-size 20)
 #(set-default-paper-size "letter" 'portrait)
 
-#(define myDrumStyleTable '(
-    (ridecymbal     cross    #f          5)
-    (crashcymbal    cross    #f          6)
-    (openhihat      cross    "open"      4)
-    (hihat          cross    #f          4)
-    (snare          default  #f          1)
-    (lowtom         default  #f          -1)
-    (bassdrum       default  #f          -3)
-))
-
 \include "markup"
 \include "drs"
+\include "drscolors"
 \include "vo"
 \include "lyrics"
 
-drsStaff = \new DrumStaff \with { drumStyleTable = #(alist->hash-table myDrumStyleTable) instrumentName = \markup { \rotate #90 "Dr" } } \drsPart
-
 layoutmusic = <<
-    \tag #'(systemOnePart) <<
+    \tag #'(systemOnePart voPart vodrscolorsPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vocals" }
+	shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
 	\markupStuff
 	\voPart
 	\voLyrics
-	\drsStaff
     >>
-    \tag #'(drsPart) <<
+    \tag #'(systemOnePart drsPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
 	\markupStuff
-	\drsStaff
+	\drsPart
     >>
-    \tag #'(voPart) <<
+    \tag #'(vodrscolorsPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
 	\markupStuff
-	\drsStaff
+	\drscolorsPart
     >>
->>
-
-midimusicAll = <<
-    \markupStuff
-    \tag #'(midiOne drsPart) \new DrumStaff \with {
-	drumPitchTable = #(alist->hash-table midiDrumPitches)
-    } \drsPart
 >>
 
 midimusic = <<
-    \keepWithTag #'(drsPart keep) \midimusicAll
->>
-
-rolandmusic = <<
-    \keepWithTag #'(drsPart keep) \midimusicAll
+    \markupStuff
+    \tag #'(midiVo rolandMelody) \new Staff \with {
+	midiInstrument = #"steel drums"
+    } \voPart
+    \tag #'(midiDr rolandDrums) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drsPart
 >>

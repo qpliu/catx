@@ -3,7 +3,8 @@
 % midi
 % roland
 % PARTS midi
-% MIDIS midiOne
+% BIN midi system1
+% ROLAND WeWillRockY
 
 \header {
     title = "We Will Rock You"
@@ -57,17 +58,12 @@ layoutmusic = <<
     >>
 >>
 
-midimusicAll = <<
+midimusic = <<
     \markupStuff
-    \tag #'(midiOne drsPart) \new DrumStaff \with {
+    \tag #'(midiVo rolandMelody) \new Staff \with {
+	midiInstrument = #"steel drums"
+    } \voPart
+    \tag #'(midiDr rolandDrums) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
->>
-
-midimusic = <<
-    \keepWithTag #'(drsPart keep) \midimusicAll
->>
-
-rolandmusic = <<
-    \keepWithTag #'(drsPart keep) \midimusicAll
 >>

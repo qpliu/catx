@@ -107,12 +107,15 @@ midiDrumPitches.counta = f,, % 29
     (hihat          cross    #f          4)
     (hightom        default  #f          2)
     (snare          default  #f          1)
+    (sidestick      cross    #f          1)
     (lowmidtom      default  #f          0)
     (lowtom         default  #f          -1)
     (bassdrum       default  #f          -3)
+    (pedalhihat     cross    #f          -5)
 ))
 
 mybarNumberCheck = #(define-music-function (parser location nn) (number?) #{ \tag #'(removeWithUnfold) \barNumberCheck #nn #})
 
 mymark = #(define-music-function (parser location what nn) (markup? number?) #{ \mybarNumberCheck #nn \mark \markup { \with-color #green \box \bold #what } #})
 % IF drs mymark = #(define-music-function (parser location what nn) (markup? number?) #{ \mybarNumberCheck #nn \mark \markup { \box \bold #what } #})
+% IF vodrs mymark = #(define-music-function (parser location what nn) (markup? number?) #{ \mybarNumberCheck #nn \mark \markup { \box \bold #what } #})

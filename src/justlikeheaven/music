@@ -4,7 +4,6 @@
 % roland
 % PARTS midi
 % BIN midi system1 vo vodrscolors drs
-% MIDIS midiVo midiEg midiEb midiDr midiOthers
 % ROLAND JustLikeHea
 % ROBOT preview=33.3,countat=5
 
@@ -94,68 +93,39 @@ layoutmusic = <<
     >>
 >>
 
-midimusicAll = <<
+midimusic = <<
     \markupStuff
-    \tag #'(midiDr drsPart) \new DrumStaff \with {
+    \tag #'(midiDr rolandDrums) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
-    \tag #'(midiVo voPart) \new Staff \with {
+    \tag #'(midiVo rolandMelody) \new Staff \with {
 	midiInstrument = #"steel drums"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \voPart
-    \tag #'(midiOthers synthPart) \new Staff \with {
+    \tag #'(midiOne rolandBackTwo) \new Staff \with {
 	midiInstrument = #"synthstrings 1"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \synthPart
-    \tag #'(midiVo pianoPart) \new Staff \with {
+    \tag #'(midiVo rolandMelody) \new Staff \with {
 	midiInstrument = #"electric grand"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \pianoPart
-    \tag #'(midiEb bassPart) \new Staff \with {
+    \tag #'(midiEb rolandBass) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \bassPart
-    \tag #'(midiEg egOnePart) \new Staff \with {
+    \tag #'(midiEg rolandBackOne) \new Staff \with {
 	midiInstrument = #"overdriven guitar"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \egOnePart
-    \tag #'(midiEg egTwoPart) \new Staff \with {
+    \tag #'(midiEg rolandBackOne) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \egTwoPart
->>
-
-midimusic = <<
-    \midimusicAll
->>
-
-rolandmusic = <<
-    \markupStuff
-    \tag #'(rolandMelody) \new Staff \with {
-	midiInstrument = #"steel drums" % 114
-    } <<
-	\voPart
-	\pianoPart
-    >>
-    \tag #'(rolandBass) \new Staff \with {
-	midiInstrument = #"electric bass (pick)"
-    } \bassPart
-    \tag #'(rolandBackOne) \new Staff \with {
-	midiInstrument = #"synthstrings 2" % 51
-    } \synthPart
-    \tag #'(rolandBackTwo) \new Staff \with {
-	midiInstrument = #"overdriven guitar"
-    } <<
-	\egOnePart
-	\egTwoPart
-    >>
-    \tag #'(rolandDrums) \new DrumStaff \with {
-	drumPitchTable = #(alist->hash-table midiDrumPitches)
-    } \drsPart
 >>

@@ -3,8 +3,9 @@
 % midi
 % roland
 % PARTS midi
-% MIDIS midiOne
+% BIN midi system1 vo vodrscolors drs
 % ROBOT preview=19
+% ROLAND ILoveRockNR
 
 \header {
     title = "I Love Rock 'N Roll"
@@ -20,13 +21,14 @@
 
 \include "markup"
 \include "drs"
+\include "drscolors"
 \include "vo"
 \include "lyrics"
 \include "chorus"
 \include "choruslyrics"
 
 layoutmusic = <<
-    \tag #'(systemOnePart voPart) \new Staff \with { \RemoveEmptyStaves } <<
+    \tag #'(systemOnePart voPart vodrscolorsPart) \new Staff \with { \RemoveEmptyStaves } <<
 	\markupStuff
 	\voPart
 	\voLyrics
@@ -39,32 +41,22 @@ layoutmusic = <<
 	\markupStuff
 	\drsPart
     >>
+    \tag #'(vodrscolorsPart) \new DrumStaff \with {
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drscolorsPart
+    >>
 >>
 
-midimusicAll = <<
+midimusic = <<
     \markupStuff
-    \tag #'(midiOne voPart) \new Staff \with {
+    \tag #'(midiVo rolandMelody) \new Staff \with {
 	midiInstrument = #"steel drums"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \voPart
-    \tag #'(midiOne drsPart) \new DrumStaff \with {
-	drumPitchTable = #(alist->hash-table midiDrumPitches)
-    } \drsPart
->>
-
-midimusic = <<
-    \midimusicAll
->>
-
-rolandmusic = <<
-    \markupStuff
-    \tag #'(rolandMelody) \new Staff \with {
-	midiInstrument = #"steel drums" % 114
-    } <<
-	\voPart
-    >>
-    \tag #'(rolandDrums) \new DrumStaff \with {
+    \tag #'(midiDr rolandDrums) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
 >>

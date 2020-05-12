@@ -1,9 +1,6 @@
-% system1 vo vodrscolors drs
-% midi
-% roland
+% system1 vo vodrscolors drs midi roland
 % PARTS midi
 % BIN midi system1 vo vodrscolors drs
-% MIDIS midiVo midiEg midiEb midiDr midiOthers
 % ROLAND ComeAsYouAr
 % ROBOT preview=10
 
@@ -71,40 +68,18 @@ layoutmusic = <<
     >>
 >>
 
-midimusicAll = <<
+midimusic = <<
     \markupStuff
-    \tag #'(midiDr drsPart) \new DrumStaff \with {
+    \tag #'(midiDr rolandDrums) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
-    \tag #'(midiVo voPart) \new Staff \with {
+    \tag #'(midiVo rolandMelody) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \voPart
-    \tag #'(midiEb bassPart) \new Staff \with {
+    \tag #'(midiEb rolandBass) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
     } \bassPart
-    \tag #'(midiEg egPart) \new Staff \with {
+    \tag #'(midiEg rolandBackOne) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
     } \egPart
->>
-
-midimusic = <<
-    \midimusicAll
->>
-
-rolandmusic = <<
-    \markupStuff
-    \tag #'(rolandMelody) \new Staff \with {
-	midiInstrument = #"steel drums" % 114
-    } <<
-	\voPart
-    >>
-    \tag #'(rolandBass) \new Staff \with {
-	midiInstrument = #"electric bass (pick)"
-    } \bassPart
-    \tag #'(rolandBackOne) \new Staff \with {
-	midiInstrument = #"electric guitar (clean)" % 27
-    } \egPart
-    \tag #'(rolandDrums) \new DrumStaff \with {
-	drumPitchTable = #(alist->hash-table midiDrumPitches)
-    } \drsPart
 >>

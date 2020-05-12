@@ -1,21 +1,15 @@
 markupStuff = {
     \tempo 4 = 172
-% page 2 Intro
-    \mymark "Intro."
-    \barNumberCheck #1
+\mymark "Intro." #1
     \key g \major
     s1 | s1 | s1 | s1 |
     \bar "||"
     \key f \major
     s1 | s1 |
-% page 3 A
-    \mymark "A"
-    \barNumberCheck #7
+\mymark "A" #7
     \bar "||"
     s1 | s1 | s1 | s1 |
-% B
-    \mymark "B"
-    \barNumberCheck #11
+\mymark "B" #11
     \bar "||"
     s1 |
 % page 3.1
@@ -24,9 +18,7 @@ markupStuff = {
 % page 4
     \tag #'(pageNumber keep) \mark "p4"
     s1 | s1 |
-% C
-    \mymark "C"
-    \barNumberCheck #19
+\mymark "C" #19
     \bar "||"
     s1 | s1 |
 % page 4.1
@@ -35,9 +27,7 @@ markupStuff = {
 % page 5
     \tag #'(pageNumber keep) \mark "p5"
     s1 | s1 |
-% D
-    \mymark "D"
-    \barNumberCheck #27
+\mymark "D" #27
     \bar "||"
     s1 | s1 |
 % page 5.1
@@ -46,9 +36,7 @@ markupStuff = {
 % page 6
     \tag #'(pageNumber keep) \mark "p6"
     s1 | s1 |
-% E
-    \mymark "E"
-    \barNumberCheck #35
+\mymark "E" #35
     \bar "||"
     s1 | s1 |
 % page 6.1
@@ -57,9 +45,7 @@ markupStuff = {
 % page 7
     \tag #'(pageNumber keep) \mark "p7"
     s1 | s1 | s1 |
-% page 7.1 F
-    \mymark "F"
-    \barNumberCheck #44
+\mymark "F" #44
     \bar "||"
     s1 | s1 | s1 | s1 |
 % page 8
@@ -73,9 +59,7 @@ markupStuff = {
 % page 9
     \tag #'(pageNumber keep) \mark "p9"
     s1 | s1 | s1 | s1 | s1 |
-% C-2x
-    \mymark "C-2x"
-    \barNumberCheck #60
+\mymark "C-2x" #60
     \bar "||"
     s1 | s1 |
 % page 4.1-2x
@@ -84,9 +68,7 @@ markupStuff = {
 % page 5-2x
     \tag #'(pageNumber keep) \mark "p5-2x"
     s1 | s1 |
-% D-2x
-    \mymark "D-2x"
-    \barNumberCheck #68
+\mymark "D-2x" #68
     \bar "||"
     s1 | s1 |
 % page 5.1-2x
@@ -95,9 +77,7 @@ markupStuff = {
 % page 6-2x
     \tag #'(pageNumber keep) \mark "p6-2x"
     s1 | s1 |
-% E-2x
-    \mymark "E-2x"
-    \barNumberCheck #76
+\mymark "E-2x" #76
     s1 | s1 |
     \bar "||"
 % page 6.1-2x
@@ -106,9 +86,7 @@ markupStuff = {
 % page 7-2x
     \tag #'(pageNumber keep) \mark "p7-2x"
     s1 | s1 | s1 |
-% page 7.1-2x F-2x
-    \mymark "F-2x"
-    \barNumberCheck #85
+\mymark "F-2x" #85
     \bar "||"
     s1 | s1 | s1 | s1 |
 % page 8-2x
@@ -120,25 +98,19 @@ markupStuff = {
 % page 9.1
     \tag #'(pageNumber keep) \mark "p9.1"
     s1 | s1 |
-% G
-    \mymark "G"
-    \barNumberCheck #95
+\mymark "G" #95
     \bar "||"
     s1 | s1 | s1 |
 % page 10
     \tag #'(pageNumber keep) \mark "p10"
     s1 | s1 | s1 | s1 | s1 |
-% page 10.1 H
-    \mymark "H"
-    \barNumberCheck #103
+\mymark "H" #103
     \bar "||"
     s1 | s1 | s1 | s1 |
 % page 11
     \tag #'(pageNumber keep) \mark "p11"
     s1 | s1 | s1 | s1 |
-% I
-    \mymark "I"
-    \barNumberCheck #111
+\mymark "I" #111
     \bar "||"
     s1 |
 % page 11.1
@@ -147,17 +119,13 @@ markupStuff = {
 % page 12
     \tag #'(pageNumber keep) \mark "p12"
     s1 | s1 |
-% J
-    \barNumberCheck #119
-    \mymark "J"
+\mymark "J" #119
     \bar "||"
     s1 | s1 | s1 |
 % page 12.1
     \tag #'(pageNumber keep) \mark "p12.1"
     s1 | s1 | s1 |
-% K
-    \barNumberCheck #125
-    \mymark "K"
+\mymark "K" #125
     \bar "||"
     s1 | s1 |
 % page 13
@@ -166,9 +134,7 @@ markupStuff = {
 % page 13.1
     \tag #'(pageNumber keep) \mark "p13.1"
     s1 |
-% L
-    \barNumberCheck #133
-    \mymark "L"
+\mymark "L" #133
     \bar "||"
     \key g \major
     s1 | s1 | s1 | s1 |
@@ -178,9 +144,7 @@ markupStuff = {
 % page 14.1
     \tag #'(pageNumber keep) \mark "p14.1"
     s1 | s1 | s1 |
-% M
-    \barNumberCheck #145
-    \mymark "M"
+\mymark "M" #145
     \bar "||"
     s1 | s1 |
 % page 15
@@ -190,5 +154,5 @@ markupStuff = {
     \tag #'(pageNumber keep) \mark "p15.1"
     s1 | s1 | s1 | s1 | s1 |
     \bar "|."
-    \barNumberCheck #156
+\mybarNumberCheck #156
 }

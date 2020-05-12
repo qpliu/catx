@@ -3,7 +3,7 @@
 % midi
 % roland
 % PARTS midi
-% MIDIS midiOne
+% ROLAND Duet1
 
 \header {
     title = "Duet1"
@@ -38,26 +38,16 @@ layoutmusic = <<
     >>
 >>
 
-midimusicAll = <<
+midimusic = <<
     \markupStuff
-    \tag #'(midiOne drsOnePart) \new DrumStaff \with {
+    \tag #'(midiDr rolandDrums) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \drsOnePart
-    \tag #'(midiOne drsTwoPart) \new DrumStaff \with {
+    \tag #'(midiOne rolandPerc) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \drsTwoPart
->>
-
-midimusic = <<
-    \keepWithTag #'(drsOnePart keep) \midimusicAll
-    \keepWithTag #'(drsTwoPart keep) \midimusicAll
->>
-
-rolandmusic = <<
-%    \keepWithTag #'(drsOnePart keep) \midimusicAll
-    \keepWithTag #'(drsTwoPart keep) \midimusicAll
 >>
