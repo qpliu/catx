@@ -1,9 +1,6 @@
-% drs vo eb1 eb2 trumpet
-% system1 vodrs
-% midi
-% roland
-% PARTS drs
-% BIN midi system1 vo vodrscolors drs
+% midi roland system1 susan
+% PARTS susan
+% BIN midi system1 susan vodrscolors drs
 % ROLAND JungleBoogi
 % ROBOT preview=17.3;division=+
 
@@ -42,7 +39,7 @@
 \include "lyrics"
 
 layoutmusic = <<
-    \tag #'(systemOnePart voPart vodrsPart vodrscolorsPart) \new Staff \with {
+    \tag #'(systemOnePart susanPart voPart vodrsPart vodrscolorsPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vocals" }
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
@@ -78,7 +75,7 @@ layoutmusic = <<
 	\markupStuff
 	\trumpetPart
     >>
-    \tag #'(systemOnePart altosaxPart) \new Staff \with {
+    \tag #'(systemOnePart susanPart altosaxPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Alto Sax" }
 	shortInstrumentName = \markup { \rotate #90 "As" }
     } <<
