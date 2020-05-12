@@ -55,7 +55,7 @@ ROLAND=`grep '^% ROLAND ' music|cut -c 10-`
 ROBOT=`grep '^% ROBOT ' music|cut -c 9-`
 if test -n "$ROBOT"
 then
-    ROBOT=",$ROBOT"
+    ROBOT=";$ROBOT"
 fi
 for part in $PARTS
 do

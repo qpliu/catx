@@ -5,7 +5,7 @@
 % PARTS midi
 % BIN midi system1 system2 system3 system4
 % ROLAND KaitouShouj
-% ROBOT preview=10,countat=5
+% ROBOT preview=10;countat=5
 
 \header {
     title = "行くぜっ!怪盗少女"
