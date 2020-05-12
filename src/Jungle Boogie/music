@@ -16,7 +16,6 @@
 
 \include "markup"
 \include "drs"
-\include "drscolors"
 \include "vo"
 \include "eg"
 \include "eb1"
@@ -77,21 +76,13 @@ layoutmusic = <<
 	\markupStuff
 	\tenorsaxPart
     >>
-    \tag #'(allPart ggPart) \new DrumStaff \with {
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\drsPart
-    >>
-    \tag #'(kavPart) \new DrumStaff \with {
-	instrumentName = \markup { \rotate #90 "Drums" }
-	shortInstrumentName = \markup { \rotate #90 "Dr" }
-	drumStyleTable = #(alist->hash-table myDrumStyleTable)
-    } <<
-	\markupStuff
-	\drscolorsPart
     >>
 >>
 

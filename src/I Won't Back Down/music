@@ -32,7 +32,6 @@ drumPitchNames.slash = #'slash
 
 \include "markup"
 \include "drs"
-\include "drscolors"
 \include "eg1"
 \include "bass"
 \include "vo"
@@ -61,21 +60,13 @@ layoutmusic = <<
 	\markupStuff
 	\bassPart
     >>
-    \tag #'(allPart ggPart) \new DrumStaff \with {
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\drsPart
-    >>
-    \tag #'(kavPart) \new DrumStaff \with {
-	instrumentName = \markup { \rotate #90 "Drums" }
-	shortInstrumentName = \markup { \rotate #90 "Dr" }
-	drumStyleTable = #(alist->hash-table myDrumStyleTable)
-    } <<
-	\markupStuff
-	\drscolorsPart
     >>
 >>
 

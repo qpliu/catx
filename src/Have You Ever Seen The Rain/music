@@ -32,7 +32,6 @@ drumPitchNames.slash = #'slash
 
 \include "markup"
 \include "drs"
-\include "drscolors"
 \include "bass"
 \include "eg"
 \include "vo"
@@ -87,7 +86,7 @@ layoutmusic = <<
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
-	\drscolorsPart
+	\drsPart
     >>
 >>
 

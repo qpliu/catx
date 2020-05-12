@@ -17,7 +17,6 @@
 
 \include "markup"
 \include "drs"
-\include "drscolors"
 \include "vo"
 \include "lyrics"
 \include "chorus"
@@ -34,17 +33,11 @@ layoutmusic = <<
 	\chorusPart
 	\chorusLyrics
     >>
-    \tag #'(ggPart) \new DrumStaff \with {
+    \tag #'(allPart kavPart ggPart) \new DrumStaff \with {
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\drsPart
-    >>
-    \tag #'(kavPart) \new DrumStaff \with {
-	drumStyleTable = #(alist->hash-table myDrumStyleTable)
-    } <<
-	\markupStuff
-	\drscolorsPart
     >>
 >>
 

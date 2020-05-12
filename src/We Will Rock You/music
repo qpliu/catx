@@ -31,7 +31,6 @@ drumPitchNames.slash = #'slash
 
 \include "markup"
 \include "drs"
-\include "drscolors"
 \include "vo"
 \include "lyrics"
 \include "chorus"
@@ -48,17 +47,11 @@ layoutmusic = <<
 	\chorusPart
 	\chorusLyrics
     >>
-    \tag #'(allPart ggPart) \new DrumStaff \with {
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\drsPart
-    >>
-    \tag #'(kavPart) \new DrumStaff \with {
-	drumStyleTable = #(alist->hash-table myDrumStyleTable)
-    } <<
-	\markupStuff
-	\drscolorsPart
     >>
 >>
 

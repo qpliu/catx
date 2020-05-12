@@ -16,7 +16,6 @@
 
 \include "markup"
 \include "drs"
-\include "drscolors"
 
 layoutmusic = <<
     \tag #'(systemOnePart drsPart) \new DrumStaff \with {

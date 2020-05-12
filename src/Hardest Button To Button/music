@@ -1,7 +1,3 @@
-% drs vo chorus
-% system1 chorussystem
-% midi
-% roland
 % PARTS midi
 % ROLAND HardestButt
 
@@ -19,34 +15,27 @@
 
 \include "markup"
 \include "drs"
-\include "drscolors"
 \include "vo"
 \include "lyrics"
 \include "chorus"
 \include "choruslyrics"
 
 layoutmusic = <<
-    \tag #'(systemOnePart voPart vodrscolorsPart) \new Staff \with { \RemoveEmptyStaves } <<
+    \tag #'(allPart) \new Staff \with { \RemoveEmptyStaves } <<
 	\markupStuff
 	\voPart
 	\voLyrics
     >>
-    \tag #'(chorussystemPart chorusPart) \new Staff \with { \RemoveEmptyStaves } <<
+    \tag #'(allPart) \new Staff \with { \RemoveEmptyStaves } <<
 	\markupStuff
 	\chorusPart
 	\chorusLyrics
     >>
-    \tag #'(systemOnePart chorussystemPart drsPart) \new DrumStaff \with {
+    \tag #'(allPart) \new DrumStaff \with {
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\drsPart
-    >>
-    \tag #'(vodrscolorsPart) \new DrumStaff \with {
-	drumStyleTable = #(alist->hash-table myDrumStyleTable)
-    } <<
-	\markupStuff
-	\drscolorsPart
     >>
 >>
 

@@ -27,10 +27,8 @@
 ))
 
 \include "markup"
-%\include "drs"
-%\include "drscolors"
+\include "drs"
 \include "simpledrs"
-\include "simpledrscolors"
 \include "vo"
 \include "lyrics"
 \include "bass"
@@ -70,21 +68,13 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\bassPart
     >>
-    \tag #'(allPart ggPart) \new DrumStaff \with {
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
-	\drsPart
-    >>
-    \tag #'(kavPart) \new DrumStaff \with {
-	instrumentName = \markup { \rotate #90 "Drums" }
-	shortInstrumentName = \markup { \rotate #90 "Dr" }
-	drumStyleTable = #(alist->hash-table myDrumStyleTable)
-    } <<
-	\markupStuff
-	\drscolorsPart
+	\simpledrsPart
     >>
 >>
 
@@ -109,5 +99,5 @@ midimusic = <<
     \tag #'(midiEg rolandBackOne) \new Staff = "eg" \egPart
     \tag #'(midiDr rolandDrums) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
-    } \drsPart
+    } \simpledrsPart
 >>

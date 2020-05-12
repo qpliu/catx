@@ -39,5 +39,5 @@ markupStuff = {
     s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
     s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
     \bar "|."
-\mymark "Outro" #97
+\mybarNumberCheck #97
 }

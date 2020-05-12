@@ -104,5 +104,5 @@ voPart = \new Voice = "vo" {
 	\deadNote d4 r \deadNote d r |
 	r4 \deadNote d \deadNote d r |
     }
-\mymark "Outro" #97
+\mybarNumberCheck #97
 }

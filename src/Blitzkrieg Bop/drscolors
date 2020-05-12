@@ -104,5 +104,5 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { toml8 toml <toml sn> toml toml toml <toml sn> toml | } \context DrumVoice = "drsb" { bd2 bd8 bd8 r4 | } >>
     << { toml8 toml <toml sn> toml toml toml <toml sn> toml | } \context DrumVoice = "drsb" { bd2 bd8 bd8 r4 | } >>
     << { toml8 toml <toml sn> r <toml sn> r8 r4 | } \context DrumVoice = "drsb" { bd2 bd2 | } >>
-\mymark "Outro" #97
+\mybarNumberCheck #97
 }
