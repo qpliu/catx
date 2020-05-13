@@ -3,7 +3,7 @@ bassPart = \new Voice {
     \clef bass
 \mymark "Intro" #1
     s1 r1 r1 r1 |
-    3-5t8 4t4 2-7t 5t8 1-3t4 |
+    4-2t8 0t4 3-2t 2t8 1-3t4 |
     2-3t4. 3t8 3t4. r8 |
     4-5t8 4t4 3-7t 5t 5t8 |
     \repeat volta 2 {
@@ -50,7 +50,7 @@ bassPart = \new Voice {
     3-3t4. 3t8 3t 3t4 3t8 |
     3-5t4. 5t8 5t 5t4 5t8 |
     2-3t4. 3t8 3-3t16( 5t8.) 3t16( 5t8.) |
-    3-5t8 4t4 2-7t 5t8 1-3t4 |
+    4-2t8 0t4 3-2t 2t8 1-3t4 |
 \mybarNumberCheck #48 % or 76
     2-3t1 |
 }

@@ -2,66 +2,66 @@ egPart = \new Voice {
 % scale c cis d ees e f ges g aes a bes b
     \ottava #-1
 % 1-16
-    r2 3-5t16 r 3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
+    r2 3-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t16 |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
 % 29-36
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
 % 41-48
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
 % 29-36
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
 % 1-8
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
 % 5-12
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
-    4-0t16 t t r t r 3-3t32 r t r 4-0t16 r 3-3t32 r t r 4-0t16 r 3-3t32 r t r |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
+    3-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |
 \mybarNumberCheck #57
 }
