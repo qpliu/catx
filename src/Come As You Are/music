@@ -1,5 +1,5 @@
-% PARTS all gg susan kav
-% BIN midi all gg susan kav
+% PARTS peter
+% BIN midi all gg susan kav peter
 % ROLAND ComeAsYouAr
 % ROBOT preview=10
 
@@ -34,17 +34,26 @@ layoutmusic = <<
 	\voLyrics
 	\steelpanPart
     >>
-    \tag #'(allPart) \new Staff \with {
+    \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Guitar" }
 	shortInstrumentName = \markup { \rotate #90 "Gtr" }
     } <<
 	\markupStuff
 	\egPart
     >>
-    \tag #'(allPart) \new Staff \with {
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\egPart
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }
 	shortInstrumentName = \markup { \rotate #90 "Ba" }
     } <<
+	\markupStuff
+	\clef bass
+	\bassPart
+    >>
+    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
 	\markupStuff
 	\bassPart
     >>
