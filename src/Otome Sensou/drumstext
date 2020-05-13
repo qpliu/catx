@@ -1,4 +1,5 @@
-[TEXT_PREFIX]drumsText = {
+drumsText =
+{
 % page 82 A
     \barNumberCheck #1
     `>drums=program0;volume.5`1 |

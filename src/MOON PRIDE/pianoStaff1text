@@ -1,4 +1,5 @@
-[TEXT_PREFIX]pianoTextStaffOne = {
+pianoTextStaffOne =
+{
     \override Glissando.style = #'zigzag
 % page 2 Intro
     \barNumberCheck #1

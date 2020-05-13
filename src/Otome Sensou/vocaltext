@@ -1,4 +1,5 @@
-[TEXT_PREFIX]vocalText = \new Voice = "vocal" {
+vocalText = \new Voice = "vocal"
+{
 % page 82 A
     \barNumberCheck #1
     `>synthvoice=program54;volume1`1 |

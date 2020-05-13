@@ -1,4 +1,5 @@
-[TEXT_PREFIX]keyOneText = {
+keyOneText =
+{
 % page 2 Intro
     \barNumberCheck #1
     \repeat unfold 2 {

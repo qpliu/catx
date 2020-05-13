@@ -1,4 +1,5 @@
-[TEXT_PREFIX]guitarText = {
+guitarText =
+{
 % page 10
     \barNumberCheck #1
     `>clean=program27;volume.6`1 |

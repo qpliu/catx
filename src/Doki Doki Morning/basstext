@@ -1,4 +1,5 @@
-[TEXT_PREFIX]bassText = {
+bassText =
+{
 % page 120 A
     \barNumberCheck #1
     `>bass=program33;volume1`1 |

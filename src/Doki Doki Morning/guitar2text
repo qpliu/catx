@@ -1,4 +1,5 @@
-[TEXT_PREFIX]guitarTwoText = {
+guitarTwoText =
+{
 % page 120 A
     \barNumberCheck #1
     `>dist=program29;volume.3`1 |

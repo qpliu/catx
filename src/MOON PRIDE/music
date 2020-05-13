@@ -121,7 +121,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\pianoPartStaffOne
-	\tag #'(textLyrics keep) \lyricspianoTextStaffOne
+	\lyricspianoTextStaffOne
     >>
     \tag #'(systemOnePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Piano" }
@@ -136,7 +136,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\keyOnePart
-	\tag #'(textLyrics keep) \lyricskeyOneText
+	\lyricskeyOneText
     >>
     \tag #'(systemOnePart) \new Staff \with {
 	\consists "Balloon_engraver"
@@ -145,7 +145,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\egOnePart
-	\tag #'(textLyrics keep) \lyricsegOneText
+	\lyricsegOneText
     >>
     \tag #'(systemOnePart) \new Staff \with {
 	\consists "Balloon_engraver"
@@ -154,7 +154,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\egTwoPart
-	\tag #'(textLyrics keep) \lyricsegTwoText
+	\lyricsegTwoText
     >>
     \tag #'(systemOnePart) \new Staff \with {
 	\consists "Balloon_engraver"
@@ -163,7 +163,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\ebPart
-	\tag #'(textLyrics keep) \lyricsebText
+	\lyricsebText
     >>
     \tag #'(systemOnePart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Perc." }
@@ -172,7 +172,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\percPart
-	\tag #'(textLyrics keep) \lyricspercText
+	\lyricspercText
     >>
     \tag #'(systemOnePart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drs." }
@@ -181,7 +181,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\drsPart
-	\tag #'(textLyrics keep) \lyricsdrsText
+	\lyricsdrsText
     >>
     \tag #'(systemTwoPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "E.G.3" }
@@ -189,7 +189,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupTwoStuff
 	\egThreePart
-	\tag #'(textLyrics keep) \lyricsegThreeText
+	\lyricsegThreeText
     >>
     \tag #'(systemTwoPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "E.G.4" }
@@ -197,7 +197,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupTwoStuff
 	\egFourPart
-	\tag #'(textLyrics keep) \lyricsegFourText
+	\lyricsegFourText
     >>
     \tag #'(systemTwoPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "E.G.5" }
@@ -205,7 +205,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupTwoStuff
 	\egFivePart
-	\tag #'(textLyrics keep) \lyricsegFiveText
+	\lyricsegFiveText
     >>
     \tag #'(systemThreePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Strings" }
@@ -234,7 +234,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupThreeStuff
 	\keyTwoPart
-	\tag #'(textLyrics keep) \lyricskeyTwoText
+	\lyricskeyTwoText
     >>
     \tag #'(systemThreePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Key.3" }
@@ -242,7 +242,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupThreeStuff
 	\keyThreePart
-	\tag #'(textLyrics keep) \lyricskeyThreeText
+	\lyricskeyThreeText
     >>
 >>
 

@@ -44,7 +44,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\vocalPart
 	\vocalLyrics
-	\tag #'(textLyrics keep) \lyricsvocalText
+	\lyricsvocalText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Harmony"
@@ -59,7 +59,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\guitarOnePart
-	\tag #'(textLyrics keep) \lyricsguitarOneText
+	\lyricsguitarOneText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Guitar 2"
@@ -67,7 +67,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\guitarTwoPart
-	\tag #'(textLyrics keep) \lyricsguitarTwoText
+	\lyricsguitarTwoText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Keyboard 1"
@@ -75,7 +75,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\keyboardOnePart
-	\tag #'(textLyrics keep) \lyricskeyboardOneText
+	\lyricskeyboardOneText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Keyboard 2"
@@ -83,7 +83,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\keyboardTwoPart
-	\tag #'(textLyrics keep) \lyricskeyboardTwoText
+	\lyricskeyboardTwoText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Bass"
@@ -99,7 +99,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\drumsPart
-	\tag #'(textLyrics keep) \lyricsdrumsText
+	\lyricsdrumsText
     >>
 >>
 

@@ -59,7 +59,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\egPart
-	\tag #'(textLyrics keep) \lyricsegText
+	\lyricsegText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }

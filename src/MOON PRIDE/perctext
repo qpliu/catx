@@ -1,4 +1,5 @@
-[TEXT_PREFIX]percText = {
+percText =
+{
 % page 2 Intro
     \barNumberCheck #1
     `>perc=program0;volume.7 >(d,,)noise=melodic;program119;volume1`1 |

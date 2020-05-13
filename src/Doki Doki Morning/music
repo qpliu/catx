@@ -73,7 +73,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\vocalPart
 	\vocalLyrics
-	\tag #'(textLyrics keep) \lyricsvocalText
+	\lyricsvocalText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Guitar1"

@@ -1,4 +1,5 @@
-[TEXT_PREFIX]guitarOneText = {
+guitarOneText =
+{
 % page 106 Intro.1
    \barNumberCheck #1
    \repeat unfold 3 {

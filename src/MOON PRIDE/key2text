@@ -1,4 +1,5 @@
-[TEXT_PREFIX]keyTwoText = {
+keyTwoText =
+{
     \compressFullBarRests
 % page 20 Intro
     \barNumberCheck #1

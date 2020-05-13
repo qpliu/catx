@@ -1,4 +1,4 @@
-% PARTS midi
+% PARTS all
 % BIN midi all
 % ROLAND OtomeSensou
 % ROBOT preview=36.4
@@ -65,7 +65,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\vocalPart
-	\tag #'(textLyrics keep) \lyricsvocalText
+	\lyricsvocalText
 	\vocalLyrics
     >>
     \tag #'(allPart) \new Staff \with {
@@ -74,7 +74,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\guitarPart
-	\tag #'(textLyrics keep) \lyricsguitarText
+	\lyricsguitarText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Keyboard 1"
@@ -82,7 +82,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\keyboardOnePart
-	\tag #'(textLyrics keep) \lyricskeyboardOneText
+	\lyricskeyboardOneText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Keyboard 2"
@@ -90,7 +90,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\keyboardTwoPart
-	\tag #'(textLyrics keep) \lyricskeyboardTwoText
+	\lyricskeyboardTwoText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Keyboard 3"
@@ -98,7 +98,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\keyboardThreePart
-	\tag #'(textLyrics keep) \lyricskeyboardThreeText
+	\lyricskeyboardThreeText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Bass"
@@ -114,7 +114,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\drumsPart
-	\tag #'(textLyrics keep) \lyricsdrumsText
+	\lyricsdrumsText
     >>
 >>
 

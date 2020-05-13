@@ -1,4 +1,5 @@
-[TEXT_PREFIX]keyboardOneText = {
+keyboardOneText =
+{
 % page 82 A
     \barNumberCheck #1
     `>strings=program48;volume.5`8 r8 r4 r2 | % Strings

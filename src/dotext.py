@@ -38,9 +38,13 @@ def dotext(prefix,isLyrics):
     duration = None
     for line in lines:
 	lineno += 1
-	line = line.replace('[TEXT_PREFIX]',prefix)
-	if lineno==1 and isLyrics:
-	    line = re.sub(r'([a-zA-Z]+)\s*=.*{(\s*)$',r'\1 = \\new Lyrics \\lyricmode {\2',line)
+	if lineno==1:
+	    if isLyrics:
+		line = prefix+line+r"\tag #'(textLyrics keep) \new Lyrics \lyricmode"
+	    else:
+		line = prefix+line
+	    fd.write(line)
+	    continue
 	i = 0
 	while i<len(line):
 	    if line[i]=='%':
