@@ -6,6 +6,7 @@ then
     echo "Wrong directory"
     exit 1
 fi
+rm -rf /share/music/mp3/*.mp3 /share/music/pdf/*.pdf /share/music/robot/*.midi
 for a in */music
 do
     name=`dirname "$a"`
@@ -18,6 +19,7 @@ do
 	    echo "$name"
 	    ../build1 $PARTS
 	    cd ..
+	    cp bin/bin/* ../bin/
 	fi
     fi
 done

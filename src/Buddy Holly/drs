@@ -37,7 +37,7 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
 % 1.6
     \barNumberCheck #21
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
-    << { hh8 hh <hh sn> hh hh hh sn4 | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { hh8 hh <hh sn> hh hh hh <sn sn>4 | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
 % Bridge
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
@@ -130,5 +130,5 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     \barNumberCheck #78
     << { hh8 hh <hh sn> <hh sn> hh hh <hh sn> <hh sn> | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh16 sn | } \context DrumVoice = "drsb" { bd2 bd2 | } >>
-    << { sn8 sn sn sn16 sn sn sn r8 sn4 | } \context DrumVoice = "drsb" { r2 r8 bd r4 | } >>
+    << { sn8 sn sn sn16 sn sn sn r8 <sn sn>4 | } \context DrumVoice = "drsb" { r2 r8 bd r4 | } >>
 }

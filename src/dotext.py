@@ -45,6 +45,7 @@ def dotext(prefix,isLyrics):
 		line = prefix+line
 	    fd.write(line)
 	    continue
+	line = line.replace('[TEXT_PREFIX]',prefix)
 	i = 0
 	while i<len(line):
 	    if line[i]=='%':

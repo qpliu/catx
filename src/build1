@@ -11,7 +11,7 @@ then
 fi
 PARTS="$*"
 rm -rf bin
-mkdir bin
+mkdir -p bin/bin
 cd bin
 cp ../java/* .
 javac -Xlint *.java
@@ -86,10 +86,9 @@ EOF
 	fi
 	timidity $TIMIDITY_EXTRA_CFG -OF -o "$name.flac" -A400 "$name.midi"
 	ffmpeg -loglevel 16 -i "$name.flac" "$name.mp3"
-	cp "$name.mp3" ../../bin
-	cp "$name.mp3" /share/music
+	cp "$name.mp3" "$name.midi" bin
+	cp "$name.mp3" /share/music/mp3
 	cp "$name.midi" /share/music/robot/"$name$ROBOT.midi"
-	cp "$name.midi" ../../bin
     elif test "x$part" = "xroland"
     then
 	merge=
@@ -121,7 +120,7 @@ EOF
 }
 EOF
 	lilypond -l WARN -o "$n" "$n.ly"
-	cp "$n.pdf" ../../bin
-	cp "$n.pdf" /share/music
+	cp "$n.pdf" bin
+	cp "$n.pdf" /share/music/pdf
     fi
 done

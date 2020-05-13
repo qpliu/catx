@@ -60,10 +60,10 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh8 hh <hh sn>4 hh8 hh <hh sn>4 | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
     << { hh4 <hh sn> hh8 hh <hh sn>4 | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
 % Chorus
-    << { r4 \slashedGrace sn8 sn4 r4 \slashedGrace sn8 sn4 | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
-    << { r4 \slashedGrace sn8 sn4 r4 \slashedGrace sn8 sn4 | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
-    << { r4 \slashedGrace sn8 sn4 r4 \slashedGrace sn8 sn4 | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
-    << { r4 \slashedGrace sn8 sn4 r4 sn16 sn sn8 | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { r4 <sn sn> r <sn sn> | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { r4 <sn sn> r <sn sn> | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { r4 <sn sn> r <sn sn> | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
+    << { r4 <sn sn> r sn16 sn sn8 | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
 % Outro
     \repeat volta 2 {
 	<< { hh8 hh <hh sn>4 hh8 hh <hh sn>4 | } \context DrumVoice = "drsb" { bd8 bd r4 bd8 bd r4 | } >>
