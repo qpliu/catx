@@ -1,4 +1,4 @@
-egPart = \new Voice {
+egPart = {
 % scale c cis d ees e f ges g aes a bes b
     \ottava #-1
 % 1-16

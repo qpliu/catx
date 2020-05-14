@@ -1,4 +1,4 @@
-egOnePart = \new Voice {
+egOnePart = {
     \ottava #-1
 \mymark "Intro" #1
     2-7.9.9t8 t t t 5.7.7t t t 1-3.5t |

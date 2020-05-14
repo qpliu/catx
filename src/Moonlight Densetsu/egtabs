@@ -1,4 +1,4 @@
-egPart = \new Voice {
+egPart = {
 % scale c des d ees e f fis g aes a bes b
     \ottava #-1
 \mymark "Intro 1" #1

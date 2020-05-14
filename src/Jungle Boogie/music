@@ -1,5 +1,5 @@
-% PARTS midi
-% BIN midi all susan kav gg
+% PARTS peter
+% BIN midi all susan kav gg peter
 % ROLAND JungleBoogi
 % ROBOT preview=17.3;division=+
 
@@ -34,24 +34,38 @@ layoutmusic = <<
 	\voPart
 	\voLyrics
     >>
-    \tag #'(allPart) \new Staff \with {
+    \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Guitar" }
 	shortInstrumentName = \markup { \rotate #90 "Gtr" }
     } <<
 	\markupStuff
 	\egPart
     >>
-    \tag #'(allPart) \new Staff \with {
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\egPart
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass 1" }
 	shortInstrumentName = \markup { \rotate #90 "Ba1" }
     } <<
 	\markupStuff
+	\clef bass
 	\ebOnePart
     >>
-    \tag #'(allPart) \new Staff \with {
+    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+	\markupStuff
+	\ebOnePart
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass 2" }
 	shortInstrumentName = \markup { \rotate #90 "Ba2" }
     } <<
+	\markupStuff
+	\clef bass
+	\ebTwoPart
+    >>
+    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
 	\markupStuff
 	\ebTwoPart
     >>

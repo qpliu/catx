@@ -1,7 +1,6 @@
-bassPart = \new Voice {
+bassPart = {
 % tuning e,, a,, d, g,
 % scale c des d ees e f fis g aes a bes b
-    \clef bass
     \ottava #-1
 \mymark "Intro 1" #1
     r1 |
