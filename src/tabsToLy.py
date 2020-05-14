@@ -44,6 +44,7 @@ def setScale(a):
 def setTuning(a):
     global tuning
     tuning = a.split()
+    tuning.reverse()
     for i in xrange(1,len(tuning)):
 	if (ly2int(tuning[i])>=ly2int(tuning[i-1])):
 	    raise Exception('Non decreasing tuning '+a)
@@ -63,7 +64,7 @@ def addly(a,b):
     histogram[i%12] += 1
     return int2ly(i)
 
-setTuning("e' b g d a, e,")
+setTuning("e, a, d g b e'")
 
 s = None
 

@@ -1,18 +1,15 @@
 #!/usr/bin/env python
 
-import sys
+import re,sys
 
-for a in sys.stdin:
-    if a.startswith('/ID [') and a.endswith(']\n'):
-	continue
-    if a.startswith('/CreationDate(') and a.endswith(')\n'):
-	continue
-    if a.startswith('/ModDate(') and a.endswith(')\n'):
-	continue
-    if a.startswith('<rdf:Description') and a.endswith('>\n'):
-	continue
-    if a.startswith('<xmp:CreateDate') and a.endswith('>\n'):
-	continue
-    if a.startswith('/URI(') and a.endswith(')>>\n'):
-	a = '>>\n'
-    sys.stdout.write(a)
+a = sys.stdin.read()
+
+a = re.sub(r'/ID \[[^][]*\]',r'',a)
+a = re.sub(r'/CreationDate\([^()]*\)',r'',a)
+a = re.sub(r'/ModDate\([^()]*\)',r'',a)
+a = re.sub(r'<xmp:CreateDate>[^<>]*</xmp:CreateDate>',r'',a)
+a = re.sub(r'<xmp:ModifyDate>[^<>]*</xmp:ModifyDate>',r'',a)
+a = re.sub(r'/URI\([^()]*\)',r'',a)
+a = re.sub(r"rdf:about='[^']*'",r'',a)
+
+sys.stdout.write(a)
