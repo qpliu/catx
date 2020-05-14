@@ -1,6 +1,5 @@
 bassPart = {
 % tuning e,, a,, d, g,
-    \ottava #-1
 \mymark "Intro" #1
     s2 s4 s8 4-5t16 t |
     4-5t8 t t4 t8 t t 0t~ |
