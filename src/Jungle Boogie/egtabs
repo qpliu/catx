@@ -1,6 +1,5 @@
 egPart = {
 % scale c cis d ees e f ges g aes a bes b
-    \ottava #-1
 % 1-16
     r2 4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t16 |
     4-5t16 t t8 t \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t |

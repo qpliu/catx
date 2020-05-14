@@ -39,6 +39,7 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Gtr" }
     } <<
 	\markupStuff
+	\clef treble_8
 	\egPart
     >>
     \tag #'(peterPart) \new TabStaff <<
@@ -50,7 +51,7 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Ba" }
     } <<
 	\markupStuff
-	\clef bass
+	\clef bass_8
 	\bassPart
     >>
     \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<

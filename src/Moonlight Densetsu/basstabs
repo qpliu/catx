@@ -1,7 +1,6 @@
 bassPart = {
 % tuning g, d, a,, e,,
 % scale c des d ees e f fis g aes a bes b
-    \ottava #-1
 \mymark "Intro 1" #1
     r1 |
     3-9t8 10t r2 2-13t8 12t |
