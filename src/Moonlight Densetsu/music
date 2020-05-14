@@ -1,5 +1,5 @@
 % PARTS midi
-% BIN midi all kav gg susan
+% BIN midi all kav gg susan peter
 % ROLAND MoonlightDe
 % ROBOT preview=1.4;countat=5
 
@@ -53,7 +53,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\pianoPart
     >>
-    \tag #'(allPart) \new Staff \with {
+    \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Guitar" }
 	shortInstrumentName = \markup { \rotate #90 "Gtr" }
     } <<
@@ -61,10 +61,19 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\egPart
 	\lyricsegText
     >>
-    \tag #'(allPart) \new Staff \with {
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\egPart
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }
 	shortInstrumentName = \markup { \rotate #90 "Ba" }
     } <<
+	\markupStuff
+	\clef bass
+	\bassPart
+    >>
+    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
 	\markupStuff
 	\bassPart
     >>

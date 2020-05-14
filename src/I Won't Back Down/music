@@ -1,5 +1,5 @@
-% PARTS midi
-% BIN midi all kav susan gg
+% PARTS peter
+% BIN midi all kav susan gg peter
 % ROLAND IWontBackDo
 % ROBOT preview=4.4
 
@@ -46,17 +46,26 @@ layoutmusic = <<
 	\voPart
 	\voLyrics
     >>
-    \tag #'(allPart) \new Staff \with {
+    \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Guitar" }
 	shortInstrumentName = \markup { \rotate #90 "Gtr" }
     } <<
 	\markupStuff
 	\egOnePart
     >>
-    \tag #'(allPart) \new Staff \with {
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\egOnePart
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }
 	shortInstrumentName = \markup { \rotate #90 "Ba" }
     } <<
+	\markupStuff
+	\clef bass
+	\bassPart
+    >>
+    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
 	\markupStuff
 	\bassPart
     >>

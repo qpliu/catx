@@ -1,4 +1,4 @@
-egOnePart = \new Voice {
+egOnePart = {
 \mymark "Intro" #1
     r1 r1 r1 r1 r1 r1 r1 r1 |
     r1 r1 r1 r1 r1 r1 r1 r1 |

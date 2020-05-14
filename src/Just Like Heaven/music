@@ -1,5 +1,5 @@
-% PARTS kav
-% BIN midi all kav susan gg
+% PARTS peter
+% BIN midi all kav susan gg peter
 % ROLAND JustLikeHea
 % ROBOT preview=33.3;countat=5
 
@@ -49,24 +49,37 @@ layoutmusic = <<
 	\markupStuff
 	\pianoPart
     >>
-    \tag #'(allPart) \new Staff \with {
+    \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Guitar 1" }
 	shortInstrumentName = \markup { \rotate #90 "Gtr1" }
     } <<
 	\markupStuff
 	\egOnePart
     >>
-    \tag #'(allPart) \new Staff \with {
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\egOnePart
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Guitar 2" }
 	shortInstrumentName = \markup { \rotate #90 "Gtr2" }
     } <<
 	\markupStuff
 	\egTwoPart
     >>
-    \tag #'(allPart) \new Staff \with {
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\egTwoPart
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }
 	shortInstrumentName = \markup { \rotate #90 "Ba" }
     } <<
+	\markupStuff
+	\clef bass
+	\bassPart
+    >>
+    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
 	\markupStuff
 	\bassPart
     >>

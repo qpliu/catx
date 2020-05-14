@@ -1,8 +1,7 @@
-ebTwoPart = \new Voice {
+ebTwoPart = {
 % scale c cis d ees e f ges g aes a bes b
 % tuning e,, a,, d, g,
     \ottava #1
-    \clef bass
 % 1-16
     r1 r1 r1 r1 r1 r1 r1 r1 |
     r2 4-12t8 t16 15t8 t16 3-15t8~ |
