@@ -58,7 +58,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	shortInstrumentName = \markup { \rotate #90 "Gtr" }
     } <<
 	\markupStuff
-	\clef treble_8
+	\clef "treble_8"
 	\egPart
 	\lyricsegText
     >>
@@ -71,7 +71,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	shortInstrumentName = \markup { \rotate #90 "Ba" }
     } <<
 	\markupStuff
-	\clef bass_8
+	\clef "bass_8"
 	\bassPart
     >>
     \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
