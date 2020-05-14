@@ -120,7 +120,7 @@ EOF
 }
 EOF
 	lilypond -l WARN -o "$n" "$n.ly"
-	../get_rid_of_id_in_pdf.py <"$n.pdf" >bin/"$n.pdf"
-	cp bin/"$n.pdf" /share/music/pdf
+	cp "$n.pdf" bin
+	cp "$n.pdf" /share/music/pdf
     fi
 done
