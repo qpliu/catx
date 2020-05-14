@@ -114,5 +114,5 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { r8 <sn toml> <sn toml> <sn toml> sn16 sn tomh tomh tomml tomml toml toml | } \context DrumVoice = "drsb" { r8 bd bd bd bd2 | } >>
     << { <hh sn>8 r2 <hh sn>8 <hh sn> <hh sn> | } \context DrumVoice = "drsb" { bd2 bd8 bd bd bd | } >>
     << { r4 <cymc sn>8 r2 \tuplet 3/2 { r16 tomh tomml } | } \context DrumVoice = "drsb" { r4 bd2. | } >>
-    << { <sn sn>1 | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { sn1 | } \context DrumVoice = "drsb" { bd1 | } >>
 }

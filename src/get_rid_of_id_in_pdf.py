@@ -13,4 +13,6 @@ for a in sys.stdin:
 	continue
     if a.startswith('<xmp:CreateDate') and a.endswith('>\n'):
 	continue
+    if a.startswith('/URI(') and a.endswith(')>>\n'):
+	a = '>>\n'
     sys.stdout.write(a)

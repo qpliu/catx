@@ -45,8 +45,8 @@ def setTuning(a):
     global tuning
     tuning = a.split()
     for i in xrange(1,len(tuning)):
-	if (ly2int(tuning[i])<=ly2int(tuning[i-1])):
-	    raise Exception('Non increasing tuning '+a)
+	if (ly2int(tuning[i])>=ly2int(tuning[i-1])):
+	    raise Exception('Non decreasing tuning '+a)
 
 def int2ly(a):
     ly = ''
@@ -63,7 +63,9 @@ def addly(a,b):
     histogram[i%12] += 1
     return int2ly(i)
 
-setTuning("e, a, d g b e'")
+setTuning("e' b g d a, e,")
+
+s = None
 
 for line in sys.stdin:
     if line.startswith('% tuning'):
@@ -72,7 +74,6 @@ for line in sys.stdin:
 	setScale(line[7:])
     out = []
     last = 0
-    s = 1
     prev = ''
     for m in re.finditer(r'(?<=\s)((?:(?:(?:[0-9]+-[0-9]+~?|[0-9]+~?)?\.)*(?:[0-9]+-)?[0-9]+~?)?)t(?=[\s123468->~()])',line):
 	out.append(line[last:m.start(0)])
@@ -94,8 +95,8 @@ for line in sys.stdin:
 		if a.endswith('~'):
 		    a = a[:-1]
 		    tie = '~'
-		out.append(addly(tuning[ss-1],int(a))+tie+' ')
-	    ss += 1
+		out.append(addly(tuning[ss-1],int(a))+'\\%d'%ss+tie+' ')
+	    ss -= 1
 	out.append('>')
     out.append(line[last:])
     sys.stdout.write(''.join(out))
