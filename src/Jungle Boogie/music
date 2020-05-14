@@ -1,4 +1,4 @@
-% PARTS peter
+% PARTS all
 % BIN midi all susan kav gg peter
 % ROLAND JungleBoogi
 % ROBOT preview=17.3;division=+
@@ -73,21 +73,21 @@ layoutmusic = <<
     \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Trumpet" }
 	shortInstrumentName = \markup { \rotate #90 "Tpt" }
-    } <<
+    } \transpose c d <<
 	\markupStuff
 	\trumpetPart
     >>
     \tag #'(allPart susanPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Alto Sax" }
 	shortInstrumentName = \markup { \rotate #90 "As" }
-    } <<
+    } \transpose c a <<
 	\markupStuff
 	\altosaxPart
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Tenor Sax" }
 	shortInstrumentName = \markup { \rotate #90 "Ts" }
-    } <<
+    } \transpose c d' <<
 	\markupStuff
 	\tenorsaxPart
     >>

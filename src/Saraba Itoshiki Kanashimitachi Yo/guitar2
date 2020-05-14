@@ -1,4 +1,4 @@
-guitarTwoPart = {
+guitarTwoPart = \transpose c c, {
 % page 106 Intro.1
     \barNumberCheck #1
     \quoteDuring #"guitar1" {

@@ -1,7 +1,6 @@
-bassPart = {
+bassPart = \transpose c c, {
 % page 82 A
     \barNumberCheck #1
-    \clef bass
     \relative {
 	e4_"(5 Strings Bass)" r4 r4 r8 d8 |
 	e4\staccato g4 r8 d8 |

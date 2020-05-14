@@ -1,4 +1,4 @@
-% PARTS midi
+% PARTS midi all
 % BIN midi all
 % ROLAND DokiDokiMor
 % ROBOT preview=7
@@ -80,6 +80,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	shortInstrumentName = "Gt.1"
     } <<
 	\markupStuff
+	\clef "treble_8"
 	\guitarOnePart
 	\tag #'(textLyrics keep) \lyricsguitarOneText
     >>
@@ -88,6 +89,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	shortInstrumentName = "Gt.2"
     } <<
 	\markupStuff
+	\clef "treble_8"
 	\guitarTwoPart
 	\tag #'(textLyrics keep) \lyricsguitarTwoText
     >>
@@ -96,6 +98,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	shortInstrumentName = "Gt.3"
     } <<
 	\markupStuff
+	\clef "treble_8"
 	\guitarThreePart
     >>
     \tag #'(allPart) \new Staff \with {
@@ -110,6 +113,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	shortInstrumentName = "Ba"
     } <<
 	\markupStuff
+	\clef "bass_8"
 	\bassPart
 	\tag #'(textLyrics keep) \lyricsbassText
     >>

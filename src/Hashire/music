@@ -147,6 +147,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	shortInstrumentName = \markup { \rotate #90 "E.G.1" }
     } <<
 	\markupStuff
+	\clef "treble_8"
 	\egOnePart
 	\lyricsegOneText
     >>
@@ -155,6 +156,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	shortInstrumentName = \markup { \rotate #90 "E.G.2" }
     } <<
 	\markupStuff
+	\clef "treble_8"
 	\egTwoPart
 	\lyricsegTwoText
     >>
@@ -163,6 +165,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	shortInstrumentName = \markup { \rotate #90 "E.B." }
     } <<
 	\markupStuff
+	\clef "bass_8"
 	\ebPart
     >>
     \tag #'(systemOnePart) \new DrumStaff \with {

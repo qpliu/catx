@@ -1,4 +1,4 @@
-egTwoPart = {
+egTwoPart = \transpose c c, {
 % page 2
     \quoteDuring #"eg1" {
 	s1 |

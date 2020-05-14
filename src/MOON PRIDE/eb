@@ -1,5 +1,4 @@
-ebPart = {
-    \clef bass
+ebPart = \transpose c c, {
 % page 2 Intro
     \barNumberCheck #1
     r1 | r1 | r1 |

@@ -1,5 +1,4 @@
-bassPart = {
-    \clef bass
+bassPart = \transpose c c, {
 % page 120 A
     \barNumberCheck #1
     r1_\markup { \fontsize #-2 "(Arranged for 6 Strings Bass with Irregular Tuning: 6th String = Drop A)" } |

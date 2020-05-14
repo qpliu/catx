@@ -1,4 +1,4 @@
-guitarPart = {
+guitarPart = \transpose c c, {
 % page 10
     \barNumberCheck #1
     r1 | r1 | r1 | r1 |

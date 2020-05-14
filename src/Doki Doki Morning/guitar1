@@ -1,4 +1,4 @@
-guitarOnePart = {
+guitarOnePart = \transpose c c, {
 % page 120 A
     \barNumberCheck #1
     r1_\markup { \fontsize #-2 "(Arranged for 7 Strings Guitar with Irregular Tuning: 7th String = Drop A)" } |

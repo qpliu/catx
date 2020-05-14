@@ -1,6 +1,6 @@
 trumpetPart = \new Voice {
 % scale c cis d ees e f ges g aes a bes ces'
-    \ottava #1
+%    \ottava #1
 % 1-16
     r2. r8. 2-8t32 11t64 1-10t |
     1-15t16 r8 3-12t32 2-11t64 1-10t 1-15t16 r8. r2 |

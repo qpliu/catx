@@ -1,4 +1,4 @@
-% PARTS system1
+% PARTS midi
 % BIN midi system1 system2 system3
 % ROLAND MOON PRIDE
 
@@ -137,6 +137,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	shortInstrumentName = \markup { \rotate #90 "E.G.1" }
     } <<
 	\markupStuff
+	\clef "treble_8"
 	\egOnePart
 	\lyricsegOneText
     >>
@@ -146,6 +147,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	shortInstrumentName = \markup { \rotate #90 "E.G.2" }
     } <<
 	\markupStuff
+	\clef "treble_8"
 	\egTwoPart
 	\lyricsegTwoText
     >>
@@ -155,6 +157,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	shortInstrumentName = \markup { \rotate #90 "E.B." }
     } <<
 	\markupStuff
+	\clef "bass_8"
 	\ebPart
 	\lyricsebText
     >>
@@ -181,6 +184,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	shortInstrumentName = \markup { \rotate #90 "E.G.3" }
     } <<
 	\markupTwoStuff
+	\clef "treble_8"
 	\egThreePart
 	\lyricsegThreeText
     >>
@@ -189,6 +193,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	shortInstrumentName = \markup { \rotate #90 "E.G.4" }
     } <<
 	\markupTwoStuff
+	\clef "treble_8"
 	\egFourPart
 	\lyricsegFourText
     >>
@@ -197,6 +202,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	shortInstrumentName = \markup { \rotate #90 "E.G.5" }
     } <<
 	\markupTwoStuff
+	\clef "treble_8"
 	\egFivePart
 	\lyricsegFiveText
     >>

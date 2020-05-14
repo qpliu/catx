@@ -1,4 +1,4 @@
-guitarOnePart = {
+guitarOnePart = \transpose c c, {
 % page 106 Intro.1
     \barNumberCheck #1
    \repeat percent 3 {

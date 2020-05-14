@@ -1,4 +1,4 @@
-egOnePart = {
+egOnePart = \transpose c c, {
 % page 2
     \relative {
 	r2 r4 \tweak font-size #8 \deadNote c''4\bendAfterG #-2 |

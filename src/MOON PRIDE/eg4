@@ -1,4 +1,4 @@
-egFourPart = {
+egFourPart = \transpose c c, {
     \compressFullBarRests
 % page 16 Intro
     \barNumberCheck #1

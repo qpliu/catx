@@ -59,6 +59,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	shortInstrumentName = "Gt"
     } <<
 	\markupStuff
+	\clef "treble_8"
 	\guitarPart
 	\lyricsguitarText
     >>
@@ -90,6 +91,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	shortInstrumentName = "Ba"
     } <<
 	\markupStuff
+	\clef "bass_8"
 	\bassPart
     >>
     \tag #'(allPart) \new DrumStaff \with {

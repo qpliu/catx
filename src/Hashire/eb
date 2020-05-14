@@ -1,5 +1,4 @@
-ebPart = {
-   \clef bass
+ebPart = \transpose c c, {
 % page 2
     r1_"Original used Synth. Bass.  This arrangement uses four string bass." |
 % A

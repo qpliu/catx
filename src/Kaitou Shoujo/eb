@@ -1,5 +1,4 @@
-ebPart = {
-    \clef bass
+ebPart = \transpose c c, {
 % page 2
     \relative {
 	r1_"<5 Strings> On 4 string bass, if you can't play them, omit notes in ()." |
