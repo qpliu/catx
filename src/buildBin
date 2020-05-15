@@ -1,0 +1,37 @@
+#!/bin/sh
+set -e
+if test '!' -f "../buildBin"
+then
+    echo "Wrong directory"
+    exit 1
+fi
+pwd=`pwd`
+name=`basename "$pwd"`
+PARTS=`grep '^% BIN ' music|cut -c 7-`
+if test -n "$PARTS"
+then
+    echo "$name"
+    ../build1 $PARTS
+    cd ..
+    for a in bin/bin/*
+    do
+	b=`basename "$a"`
+	case "$a" in
+	    *.pdf)
+		if test -f "../bin/$b"
+		then
+		    ./get_rid_of_id_in_pdf.py <"$a" >bin/1
+		    ./get_rid_of_id_in_pdf.py <"../bin/$b" >bin/2
+		    if cmp -s bin/1 bin/2
+		    then
+			continue
+		    fi
+		fi
+		cp "$a" ../bin/
+		;;
+	    *)
+		cp "$a" ../bin/
+		;;
+	esac
+    done
+fi
