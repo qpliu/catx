@@ -51,7 +51,6 @@ do
 	ffmpeg -loglevel 16 -i "$a" "$b".wav
     fi
 done
-ROLAND=`grep '^% ROLAND ' music|cut -c 10-`
 ROBOT=`grep '^% ROBOT ' music|cut -c 9-`
 if test -n "$ROBOT"
 then
@@ -106,7 +105,7 @@ EOF
 	    lilypond -l WARN -o "$name-$roland" "$name-$roland.ly"
 	    merge="$merge $name-$roland.midi"
 	done
-	java -jar ~/git/rolandPattern/1.jar "$ROLAND" $merge >"$name.TD0"
+	java -jar ~/git/rolandPattern/1.jar "$name" $merge >"$name.TD0"
 	cp "$name.TD0" /share/music/roland
     else
 	n="${name}_$part"
