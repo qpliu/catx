@@ -4,10 +4,10 @@ voPart = \new Voice = "vo"
 % tuning b,, e, a, d g b e'
 % scale c des d ees e f fis g aes a bes b
 \mymark "Intro 1" #1
-    r1 r1 r1 |
+    s1 s1 s1 |
 \mymark "Intro 2" #4
-    r1 r1 r1 r1 r1 r1 r1 |
-    r2 r8 6-3t 5-3t 4-1t |
+    s1 s1 s1 s1 s1 s1 s1 |
+    s4 r4. 6-3t8 5-3t 4-1t |
 \mymark "A" #12
     3-0t4 0t8 4-3t4 3t8 1t~ 1t |
     4-0t4 3t r8 6-3t 5-2t 4-0t |
@@ -45,8 +45,8 @@ voPart = \new Voice = "vo"
     3-0t4 4-3t 1t8 0t4 5-3t8~ |
     5-3t4 r2. |
 \mymark "E" #44
-    r1 r1 r1 |
-    r2 r8 6-3t 5-3t 4-1t |
+    s1 s1 s1 |
+    s2 r8 6-3t 5-3t 4-1t |
 \mymark "B-2" #48
     3-0t4 0t8 4-3t4 3t8 1t4 |
     4-0t4 3t r8 6-3t 5-2t 4-0t |
@@ -75,8 +75,8 @@ voPart = \new Voice = "vo"
     3-0t4 4-3t 1t8 0t4 5-3t8~ |
     5-3t4 r2. |
 \mymark "F" #72
-    r1 r1 r1 r1 r1 r1 r1 |
-    r2. 5-3t4 |
+    s1 s1 s1 s1 s1 s1 s1 |
+    s4 r2 5-3t4 |
 \mymark "G" #80
     3-1t2. 3t8 2-1t~ |
     2-1t4 1t 3-3t8 1t4. |

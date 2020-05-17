@@ -29,6 +29,7 @@
 \include "drs"
 \include "simpledrs"
 \include "vo"
+\include "steelpan"
 \include "lyrics"
 \include "bass"
 \include "eg"
@@ -44,6 +45,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\voPart
 	\voLyrics
+	\steelpanPart
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Piano" }
@@ -94,6 +96,8 @@ midimusic = <<
     } \voPart
     \tag #'(midiEb rolandBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
+	midiMinimumVolume = #1
+	midiMaximumVolume = #1
     } \bassPart
     \tag #'(midiOne rolandBackTwo) \new Staff \with {
 	midiInstrument = #"fx 5 (brightness)"
