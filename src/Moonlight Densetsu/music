@@ -1,5 +1,5 @@
 % PARTS midi
-% BIN midi all kav gg susan peter
+% BIN midi all kav gg susan peter danimetal
 % ROBOT preview=1.4;countat=5
 
 \header {
@@ -29,8 +29,10 @@
 \include "drs"
 \include "simpledrs"
 \include "vo"
+\include "vorests"
 \include "steelpan"
 \include "lyrics"
+\include "lyricsj"
 \include "bass"
 \include "eg"
 \include "egtext_lyrics"
@@ -46,6 +48,15 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\voPart
 	\voLyrics
 	\steelpanPart
+    >>
+    \tag #'(danimetalPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vocals" }
+	shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+	\markupStuff
+	\voPart
+	\voLyricsj
+	\vorestsPart
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Piano" }

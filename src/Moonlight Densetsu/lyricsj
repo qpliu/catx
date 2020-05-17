@@ -1,0 +1,162 @@
+voLyricsj = \new Lyrics = "lyricsj" \lyricsto "vo" \new Lyrics = "lyricsr" \lyricsto "vo" \new Lyrics = "lyricse" \lyricsto "vo" \context Lyrics = "lyricsj" \lyricmode {
+    <<
+	\context Lyrics = "lyricsj" { ご めん ね す な お じゃ な く て }
+	\context Lyrics = "lyricsr" { Go men ne su na o ja na ku te }
+	\context Lyrics = "lyricse" { Why can't I tell you all of these feel -- ings }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { ゆ め の な か な ら い え る }
+	\context Lyrics = "lyricsr" { Yu me no na ka na ra i e ru }
+	\context Lyrics = "lyricse" { It's so much ea -- si -- er when I'm dream -- ing }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { し こう か い ろ は しょー と すん ぜん }
+	\context Lyrics = "lyricsr" { Shi kou ka i ro wa shoo to sun zen }
+	\context Lyrics = "lyricse" { I think my brain's a -- bout to short cir -- cuit }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { い ま す ぐ あ い た い よ }
+	\context Lyrics = "lyricsr" { I ma su gu a i ta i yo }
+	\context Lyrics = "lyricse" { I real -- ly wish I could find the words }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { な き た く な る よう な ムーン ライト }
+	\context Lyrics = "lyricsr" { Na ki ta ku na ru you na moon -- light }
+	\context Lyrics = "lyricse" { And now I'm cry -- ing un -- der the moon -- light }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { で ん わ も で き な い ミッド ナイト }
+	\context Lyrics = "lyricsr" { De n wa mo de ki na i mid -- night }
+	\context Lyrics = "lyricse" { I wan -- na call you up, but it's mid -- night }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { だ っ て じゅん じょ う ど う し よう }
+	\context Lyrics = "lyricsr" { Da t te jun jo u do u shi you }
+	\context Lyrics = "lyricse" { What should I do with all of these feel -- ings }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { は ー と は まん げ きょ う }
+	\context Lyrics = "lyricsr" { Ha a to wa man ge kyo u }
+	\context Lyrics = "lyricse" { Like a Ka -- lei -- do sco -- pic heart }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { つ き の ひ か り に み ち び か れ }
+	\context Lyrics = "lyricsr" { Tsu ki no hi ka ri ni mi chi bi ka re }
+	\context Lyrics = "lyricse" { The light that shines down from the moon will guide the way }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { な ん ど も め ぐ り あ う }
+	\context Lyrics = "lyricsr" { Na n do mo me gu ri a u }
+	\context Lyrics = "lyricse" { And once a -- gain, it leads me to you }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { せ い ざ の ま ば た き か すう え }
+	\context Lyrics = "lyricsr" { Se i za no ma ba ta ki ka zo e }
+	\context Lyrics = "lyricse" { The con -- stel -- la -- tions spar -- kle in - my dreams }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { う ら な う こ い の ゆ く え }
+	\context Lyrics = "lyricsr" { U ra na u ko i no yu ku e }
+	\context Lyrics = "lyricse" { And so I won -- der if it's a bless -- ing }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { お な じ く に に う ま れ た の }
+	\context Lyrics = "lyricsr" { O na ji ku ni ni u ma re ta no }
+	\context Lyrics = "lyricse" { As if by fate we're born on the same pla -- net }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { ミ ラ ク ル ロ マ ン ス }
+	\context Lyrics = "lyricsr" { Mi ra ku ru ro ma n su }
+	\context Lyrics = "lyricse" { Just like a mi -- ra -- cle ro -- mance }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { もう い ち ど ふ た り で ウィーク エンド }
+	\context Lyrics = "lyricsr" { Mo i chi do fu ta ri de week -- end }
+	\context Lyrics = "lyricse" { So let us have a -- no -- ther great week -- end }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { か み さ ま か な え て ハッピー エンド }
+	\context Lyrics = "lyricsr" { Ka mi sa ma ka na e te hap -- py end }
+	\context Lyrics = "lyricse" { And I will pray it has - a hap -- py end }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { げ ん ざ い か こ み ら い も }
+	\context Lyrics = "lyricsr" { Ge n za i ka ko mi ra i mo }
+	\context Lyrics = "lyricse" { I'll still be here past, pre -- sent, and fu -- ture }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { あ な た に く びっ た け }
+	\context Lyrics = "lyricsr" { A na ta ni ku bit ta ke }
+	\context Lyrics = "lyricse" { Head o -- ver heels in love with you }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { で あ っ た と き の な つ か し い }
+	\context Lyrics = "lyricsr" { De a t ta to ki no na tsu ka shi i }
+	\context Lyrics = "lyricse" { I can't for -- get the way you looked at me that day }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { ま な ざ し わ す れ な い }
+	\context Lyrics = "lyricsr" { Ma na za shi wa su re na i }
+	\context Lyrics = "lyricse" { When I met you the ve -- ry first time }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { い く せ ん ま ん の ほ し か ら }
+	\context Lyrics = "lyricsr" { I ku se n ma n no ho shi ka ra }
+	\context Lyrics = "lyricse" { With -- in the sea of stars un -- der the night sky }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { あ な た を み つ け ら れ る }
+	\context Lyrics = "lyricsr" { A na ta wo mi tsu ke ra re ru }
+	\context Lyrics = "lyricse" { I could still find you if I closed my eyes }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { ぐ う ぜん も チャン ス に か え る }
+	\context Lyrics = "lyricsr" { Gu u zen mo chan su ni ka e ru }
+	\context Lyrics = "lyricse" { I love the way the world gives us mo -- ments }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { い き か た が す き よ }
+	\context Lyrics = "lyricsr" { I ki ka ta ga su ki yo }
+	\context Lyrics = "lyricse" { That we make our own des -- ti -- ny }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { ふ し ぎ な き せ き ク ロ ス し て }
+	\context Lyrics = "lyricsr" { Fu shi gi na ki se ki ku ro su shi te }
+	\context Lyrics = "lyricse" { This mi -- ra -- cle will al -- ways re -- main a mys -- tery }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { な ん ど も め ぐ り あ う }
+	\context Lyrics = "lyricsr" { Na n do mo me gu ri a u }
+	\context Lyrics = "lyricse" { Cause once a -- gain, it leads me to you }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { せ い ざ の ま ば た き す う え }
+	\context Lyrics = "lyricsr" { Se i za no ma ba ta ki ka zo e }
+	\context Lyrics = "lyricse" { The con -- stel -- la -- tions spar -- kle in - my dreams }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { う ら な う こ い の ゆ く え }
+	\context Lyrics = "lyricsr" { U ra na u ko i no yu ku e }
+	\context Lyrics = "lyricse" { And so I won -- der if it's a bless -- ing }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { お な じ く に に う ま れ た の }
+	\context Lyrics = "lyricsr" { O na ji ku ni ni u ma re ta no }
+	\context Lyrics = "lyricse" { As if by fate we're born on the same pla -- net }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { ミ ラ ク ル ロ マ ン ス }
+	\context Lyrics = "lyricsr" { Mi ra ku ru ro ma n su }
+	\context Lyrics = "lyricse" { Just like a mi -- ra -- cle ro -- mance }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { し ん じ て い る の }
+	\context Lyrics = "lyricsr" { Shi n ji te i ru no }
+	\context Lyrics = "lyricse" { She's the one named Sai -- lor Moon }
+    >>
+    <<
+	\context Lyrics = "lyricsj" { ミ ラ ク ル ロ マ ン ス }
+	\context Lyrics = "lyricsr" { Mi ra ku ru ro ma n su }
+	\context Lyrics = "lyricse" { She is the one named Sai -- lor Moon }
+    >>
+}    
