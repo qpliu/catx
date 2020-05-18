@@ -1,6 +1,6 @@
-% PARTS midi all susan kav gg peter
+% PARTS susan
 % BIN midi all susan kav gg peter
-% ROBOT preview=17.3;division=+
+% ROBOT preview=17.3;division=+;countat=5
 
 \header {
     title = "Jungle Boogie"
@@ -76,7 +76,7 @@ layoutmusic = <<
 	\markupStuff
 	\trumpetPart
     >>
-    \tag #'(allPart susanPart) \new Staff \with {
+    \tag #'(asPart allPart susanPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Alto Sax" }
 	shortInstrumentName = \markup { \rotate #90 "As" }
     } \transpose c a <<

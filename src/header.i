@@ -121,7 +121,7 @@ midiDrumPitches.counta = f,, % 29
 mytweakcolor = #(define-music-function (parser location col x) (color? scheme?) #{ #x #})
 % IF kav mytweakcolor = #(define-music-function (parser location col x) (color? scheme?) #{ \tweak color #col #x #})
 
-mybarNumberCheck = #(define-music-function (parser location nn) (number?) #{ \tag #'(removeWithUnfold) \barNumberCheck #nn #})
+mybarNumberCheck = #(define-music-function (parser location nn) (number?) #{ \tag #'(removeWithUnfold keep) \barNumberCheck #nn #})
 
 mymark = #(define-music-function (parser location what nn) (markup? number?) #{ \mybarNumberCheck #nn \mytweakcolor #green \mark \markup { \box \bold #what } #})
 
