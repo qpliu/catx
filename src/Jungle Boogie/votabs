@@ -2,7 +2,7 @@ voPart = \new Voice = "vo"
 \transpose c c'
 {
 % scale c cis d ees e f ges g aes a bes b
-    s2 r2 |
+    s2 r |
 % 1-16
     4-5.3t8 t4 t8 3-2.1t2 |
     4-5.3t8 t4 t8 3-2.1t2 |
