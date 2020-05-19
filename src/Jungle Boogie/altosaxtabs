@@ -49,9 +49,9 @@ altosaxPart = \new Voice {
     r2 1-6t16 5t 3t r 6t 5t 3t 1t~ |
     1-1t8 3t16 r4 3-0t32 3t64 2-3t 1-3t16 r8 3-0t32 3t64 2-3t 1-3t16 r8. |
     r2 1-6t16 5t 3t r 6t 5t 3t r |
-    r2 4-11t32 12t 5-13t 10t r8 4-11t32 12t 5-13t 10t r8 |
-    r1 |
-    r2 2-2t32 3t 3-3t 0t r8 2-2t32 3t 3-3t 0t r8 |
-    r1 |
+    0t16 r t 3t r t 4-3t8. 3-0t8. 3t 2-1t16~ |
+    2-1t8 2t8. 3t 1-1t4 2t8. 2-8t64 1-5t 3-15t 2-12t |
+    2-11t16 r t 3-10t r t 2-10t8. 11t8. 3-12t 11t16~ |
+    3-11t8 10t8. 4-12t8. r2 |
 \mybarNumberCheck #54
 }

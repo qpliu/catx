@@ -50,9 +50,9 @@ tenorsaxPart = \new Voice {
     r2 3-3t16 2t 0t r 3t 2t 0t 4-3t16~ |
     4-3t8 3-0t16 r4 6-3t32 5-1t64 4-0t 3-0t16 r8 6-3t32 5-1t64 4-0t 3-0t16 r8. |
     r2 3-3t16 2t 0t r 3t 2t 0t r |
-    r2 5-4t32 4-0t 5-1t 6-3t r8 5-4t32 4-0t 5-1t 6-3t r8 |
-    r1 |
-    r2 5-4t32 4-0t 5-1t 6-3t r8 5-4t32 4-0t 5-1t 6-3t r8 |
-    r1 |
+    6-3t16 r t 5-1t r t 6-1t8. 3t 5-1t 3t16~ |
+    5-3t8 4t8. 4-0t 4-3t4 4t |
+    3-3t8 t16 4-3t8 t16 3-2t8. 3t 0t 4-4t16~ |
+    4-4t8 3t8. 0t r2 |
 \mybarNumberCheck #54
 }

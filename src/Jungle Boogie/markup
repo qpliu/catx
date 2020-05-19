@@ -2,14 +2,19 @@ markupStuff = {
     \override Score.RehearsalMark.self-alignment-X = #LEFT
     \tempo 4 = 109
     \key g \minor
-    s1
-    s1 s1 s1 s1 s1 s1 s1 s1 
-    s1 s1 s1 s1 s1 s1 s1 s1 
-    s1 s1 s1 s1 s1 s1 s1 s1 
-    s1 s1 s1 s1 s1 s1 s1 s1 
-    s1 s1 s1 s1 s1 s1 s1 s1 
-    s1 s1 s1 s1 s1 s1 s1 s1 
-    s1 s1 s1 s1
+    s1 s1 s1 s1 s1 \break
+    s1 s1 s1 s1 \break
+    s1 s1 s1 s1 \break
+    s1 s1 s1 s1 \break
+    s1 s1 s1 s1 \break
+    s1 s1 s1 s1 \break
+    s1 s1 s1 s1 \break
+    s1 s1 s1 s1 \break
+    s1 s1 s1 s1 \break
+    s1 s1 s1 s1 \break
+    s1 s1 s1 s1 \break
+    s1 s1 s1 s1 \break
+    s1 s1 s1 s1 \break
 \mybarNumberCheck #54
     \bar "."
 }
