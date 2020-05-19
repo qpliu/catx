@@ -1,5 +1,6 @@
 bassPart = {
 % tuning e,, a,, d, g,
+% scale bes
 \mymark "Intro" #1
     s1 s1 s1 s1 s1 s1 s1 s1 |
 \mymark "Verse 1" #9
@@ -9,19 +10,19 @@ bassPart = {
     4-3t2 t |
     4-1t2 t |
     3-3t2 t |
-    3-1ft2 t8\glissando 3-2t4 t8 |
+    3-1t2 t8\glissando 3-2t4 t8 |
     4-3t2 t |
     4-1t2 t |
     3-3t2 t |
-    3-1ft2 t8\glissando 3-2t4 t8 |
+    3-1t2 t8\glissando 3-2t4 t8 |
     4-3t8 t t t t t t t |
     4-1t8 t t t t t t t |
     3-3t8 t t t t t t t |
-    3-1ft8 t t t t 3-2t t t |
+    3-1t8 t t t t 3-2t t t |
     4-3t8 t t t t t t t |
     4-1t8 t t t t t t t |
     3-3t8 t t t t t t t |
-    3-1ft8 t t t t 3-2t t t |
+    3-1t8 t t t t 3-2t t t |
 \mymark "Interlude" #41
     4-3t1 s1 s1 s1 s1 s1 s1 s1 |
 \mymark "Verse 2" #49
@@ -31,72 +32,72 @@ bassPart = {
     4-3t2 t |
     4-1t2 t |
     3-3t2 t |
-    3-1ft2 t8\glissando 3-2t4 t8 |
+    3-1t2 t8\glissando 3-2t4 t8 |
     4-3t2 t |
     4-1t2 t |
     3-3t2 t |
-    3-1ft2 t8\glissando 3-2t4 t8 |
+    3-1t2 t8\glissando 3-2t4 t8 |
     4-3t2 t |
     4-1t2 t |
     3-3t2 t |
-    3-1ft2 t8\glissando 3-2t4 t8 |
+    3-1t2 t8\glissando 3-2t4 t8 |
     4-3t2 t |
     4-1t2 t |
     3-3t2 t |
-    3-1ft2 t8\glissando 3-2t4 t8 |
+    3-1t2 t8\glissando 3-2t4 t8 |
 \mymark "Chorus Lead-out" #81
     4-3t8 t t t t t t t |
     4-1t8 t t t t t t t |
     3-3t8 t t t t t t t |
-    3-1ft8 t t t t 3-2t t t |
+    3-1t8 t t t t 3-2t t t |
     4-3t8 t t t t t t t |
     4-1t8 t t t t t t t |
     3-3t8 t t t t t t t |
-    3-1ft8 t t t t 3-2t t t |
+    3-1t8 t t t t 3-2t t t |
 \mymark "Interlude" #89
     s1 s1 s1 s1 s1 s1 s1 s1 |
 \mymark "Prechorus" #97
     4-3t2. 2-5t4 |
     2-3t2. 2-5t4 |
     2-2t2. r4 |
-    3-1ft2. 3-2t4 |
+    3-1t2. 3-2t4 |
     4-3t2. 2-5t4 |
     2-3t2. 2-5t4 |
     2-2t2. r4 |
-    3-1ft4 t 2-3t8 2-2t 2-0t 3-3t |
+    3-1t4 t 2-3t8 2-2t 2-0t 3-3t |
 \mymark "Bridge" #105
     4-3t8 t t t t t t t |
     4-1t8 t t t t t t t |
     3-3t8 t t t t t t t |
-    3-1ft8 t t t t 3-2t t t |
+    3-1t8 t t t t 3-2t t t |
     4-3t8 t t t t t t t |
     4-1t8 t t t t t t t |
     3-3t8 t t t t t t t |
-    3-1ft8 t t t t 3-2t t t |
+    3-1t8 t t t t 3-2t t t |
     4-3t8 t t t t t t t |
     4-1t8 t t t t t t t |
     3-3t8 t t t t t t t |
-    3-1ft8 t t t t 3-2t t t |
+    3-1t8 t t t t 3-2t t t |
     4-3t8 t t t t t t t |
     4-1t8 t t t t t t t |
     3-3t8 t t t t t t t |
-    3-1ft8 t t t t 3-2t t t |
+    3-1t8 t t t t 3-2t t t |
     4-3t8 t t t t t t t |
     4-1t8 t t t t t t t |
     3-3t8 t t t t t t t |
-    3-1ft8 t t t t 3-2t t t |
+    3-1t8 t t t t 3-2t t t |
     4-3t8 t t t t t t t |
     4-1t8 t t t t t t t |
     3-3t8 t t t t t t t |
-    3-1ft8 t t t t 3-2t t t |
+    3-1t8 t t t t 3-2t t t |
     4-3t8 t t t t t t t |
     4-1t8 t t t t t t t |
     3-3t8 t t t t t t t |
-    3-1ft8 t t t t 3-2t t t |
+    3-1t8 t t t t 3-2t t t |
     4-3t8 t t t t t t t |
     4-1t8 t t t t t t t |
     3-3t8 t t t t t t t |
-    3-1ft8 t t t t 3-2t t t |
+    3-1t8 t t t t 3-2t t t |
 \mymark "Outro" #137
     4-3t1~ t s1 s1 |
 \barNumberCheck #141
