@@ -36,6 +36,7 @@ def ly2int(aa):
     return ly
 
 scale = "c cis d dis e f fis g gis a ais b".split()
+flatscale = "c des d ees e f ges g aes a bes b".split()
 
 def setScale(a):
     for s in a.split():
@@ -49,7 +50,7 @@ def setTuning(a):
 	if (ly2int(tuning[i])>=ly2int(tuning[i-1])):
 	    raise Exception('Non decreasing tuning '+a)
 
-def int2ly(a):
+def int2ly(a,flat):
     ly = ''
     while a<48:
 	a += 12
@@ -57,12 +58,14 @@ def int2ly(a):
     while a>=60:
 	a -= 12
 	ly += "'"
+    if flat:
+        return flatscale[a-48]+ly
     return scale[a-48]+ly
 
-def addly(a,b):
+def addly(a,b,flat):
     i = ly2int(a)+b
     histogram[i%12] += 1
-    return int2ly(i)
+    return int2ly(i,flat)
 
 setTuning("e, a, d g b e'")
 
@@ -76,7 +79,7 @@ for line in sys.stdin:
     out = []
     last = 0
     prev = ''
-    for m in re.finditer(r'(?<=\s)((?:(?:(?:[0-9]+-[0-9]+~?|[0-9]+~?)?\.)*(?:[0-9]+-)?[0-9]+~?)?)t(?=[\s123468->~()])',line):
+    for m in re.finditer(r'(?<=\s)((?:(?:(?:[0-9]+-[0-9]+f?~?|[0-9]+f?~?)?\.)*(?:[0-9]+-)?[0-9]+f?~?)?)t(?=[\s123468->~()])',line):
 	out.append(line[last:m.start(0)])
 	last = m.end(0)
 	out.append('<')
@@ -96,7 +99,11 @@ for line in sys.stdin:
 		if a.endswith('~'):
 		    a = a[:-1]
 		    tie = '~'
-		out.append(addly(tuning[ss-1],int(a))+'\\%d'%ss+tie+' ')
+                flat = False
+                if a.endswith('f'):
+                    a = a[:-1]
+                    flat = True
+		out.append(addly(tuning[ss-1],int(a),flat)+'\\%d'%ss+tie+' ')
 	    ss -= 1
 	out.append('>')
     out.append(line[last:])
@@ -107,7 +114,7 @@ bestKeyName = None
 
 def checkKey(note,minor):
     global bestKeyScore,bestKeyName
-    name = '%s '%int2ly(note+48)
+    name = '%s '%int2ly(note+48,False)
     if minor:
 	notes = (0,2,3,5,7,8,10)
 	name += 'minor'
