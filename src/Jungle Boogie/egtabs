@@ -1,6 +1,5 @@
 egPart = {
 % scale c cis d ees e f ges g aes a bes b
-% 1-16
     s2 r |
     4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
     4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
@@ -10,10 +9,26 @@ egPart = {
     4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
     4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
     4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
+    5-5t8 t16 8t8 t16 6-8t8. 5-5t 8t 4-5t16~ |
+    4-5t8 6t8. 7t 3-5t4 6t |
+    2-6t8 t16 3-5t8 t16 2-5t8. 6t 3-7t 6t16~ |
+    3-6t8 5t8. 4-7t 6t4 5t |
+    5-5t8 t16 8t8 t16 6-8t8. 5-5t 8t 4-5t16~ |
+    4-5t8 6t8. 7t 3-5t4 6t |
+    2-6t8 t16 3-5t8 t16 2-5t8. 6t 3-7t 6t16~ |
+    3-6t8 5t8. 4-7t 6t4 5t |
     4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
     4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
     4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
-    4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t r |
+    4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
+    4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
+    4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
+    4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
+    4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
+    5-5t8 t16 8t8 t16 6-8t8. 5-5t 8t 4-5t16~ |
+    4-5t8 6t8. 7t 3-5t4 6t |
+    2-6t8 t16 3-5t8 t16 2-5t8. 6t 3-7t 6t16~ |
+    3-6t8 5t8. 4-7t 6t4 5t |
     5-5t8 t16 8t8 t16 6-8t8. 5-5t 8t 4-5t16~ |
     4-5t8 6t8. 7t 3-5t4 6t |
     2-6t8 t16 3-5t8 t16 2-5t8. 6t 3-7t 6t16~ |
@@ -29,11 +44,6 @@ egPart = {
     4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
     4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
     4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
-    4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t r |
-    5-5t8 t16 8t8 t16 6-8t8. 5-5t 8t 4-5t16~ |
-    4-5t8 6t8. 7t 3-5t4 6t |
-    2-6t8 t16 3-5t8 t16 2-5t8. 6t 3-7t 6t16~ |
-    3-6t8 5t8. 4-7t 4-6t4 5t |
     4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
     4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
     4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
@@ -42,21 +52,6 @@ egPart = {
     4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
     4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
     4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
-    4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
-    4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
-    4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
-    4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
-    4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
-    4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
-    4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
-    4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
-    4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
-    4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
-    4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t \deadNote t16 \deadNote t |
-    4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t t t t8 t r |
-    5-5t8 t16 8t8 t16 6-8t8. 5-5t 8t 4-5t16~ |
-    4-5t8 6t8. 7t 3-5t4 6t |
-    2-6t8 t16 3-5t8 t16 2-5t8. 6t 3-7t 6t16~ |
-    3-6t8 5t8. 4-7t r2 |
-\mybarNumberCheck #58
+    4-5t8 \deadNote t16 \deadNote t t8 \deadNote t16 \deadNote t r2 |
+\mybarNumberCheck #54
 }
