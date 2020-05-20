@@ -160,7 +160,7 @@ final class MergeMidi{
 	final Set<Double>matchKey;
 	final boolean matchTimeAndStop;
 	boolean done;
-	Object object;
+	final Map<String,Object>map=new HashMap<String,Object>();
 	TextEvent(TextEvent parent,long start,String id,int outTrackIndex,long stop,String trackName,boolean matchTimeAndStop,Set<Double>matchKey,String what,String[]param)throws IOException{
 	    super(start,0,id,outTrackIndex);
 	    this.parent = parent==null?this:parent;
@@ -531,16 +531,30 @@ final class MergeMidi{
 		p = p<<7|Integer.parseInt(param[i]);
 	    return p;
 	}
-	private void addSlide(OutputChannel oc,NoteEvent from,NoteEvent to,int program)throws IOException{
-	    NoteEvent n=new NoteEvent(from.time,from.id,from.outTrackIndex,to.stop,from.trackName,from.key,from.velocity,from.percussion);
+	private void addSlide(TextEvent te,OutputChannel oc,NoteEvent note,int program)throws IOException{
+	    int count=te.param.length>=1?Integer.parseInt(te.param[0]):2;
+	    int[]index=(int[])te.map.computeIfAbsent("index",x->new int[1]);
+	    NoteEvent last=(NoteEvent)te.map.get("note");
+	    if (index[0]==0){
+		te.map.put("note",note);
+		index[0]++;
+		return;
+	    }
+	    long startTime=index[0]==1?last.time:(last.time+last.stop)/2;
+	    long endTime=index[0]==count?note.stop:(note.time+note.stop)/2;
+	    NoteEvent n=new NoteEvent(startTime,last.id,last.outTrackIndex,endTime,last.trackName,last.key,last.velocity,last.percussion);
 	    double y0=0x2000;
-	    double y1=0x2000+0x1fff/BEND_RANGE*(to.key-from.key);
+	    double y1=0x2000+0x1fff/BEND_RANGE*(note.key-last.key);
 	    for (int j=0; j<BEND_MAX_SIZE; j++){
 		int bend=(int)(y0+j*(y1-y0)/(BEND_MAX_SIZE-1)+.5);
 		oc.add(n.time+j*(n.stop-n.time)/(BEND_MAX_SIZE-1),n.outTrackIndex,0xe0,bend&127,bend>>7);
 	    }
 	    oc.addNote(program,n);
-	    oc.add(n.stop,n.outTrackIndex,0xe0,0,0x40);
+	    if (index[0]==count){
+		index[0] = 0;
+		oc.add(n.stop,n.outTrackIndex,0xe0,0,0x40);
+	    }
+	    te.map.put("note",note);
 	}
 	private void addBend(OutputChannel oc,NoteEvent note,double amplitude,double phase,double offset,double wl,long start,long stop){
 	    phase *= Math.PI/180;
@@ -636,12 +650,7 @@ final class MergeMidi{
 			te.done = true;
 		    }
 		    if ((te=temap.remove("slide"))!=null){
-			if (te.object==null)
-			    te.object = note;
-			else{
-			    addSlide(oc,(NoteEvent)te.object,note,program);
-			    te.object = null;
-			}
+			addSlide(te,oc,note,program);
 			continue;
 		    }
 		    if ((te=temap.remove("bendPL"))!=null && !te.done){
