@@ -39,8 +39,8 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
-	\vo2Part
-	\vo2Lyrics
+	\voTwoPart
+	\voTwoLyrics
     >>
     \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Guitar" }
