@@ -29,6 +29,12 @@
 # A note matches the keys of a TextEvent if [keys] is empty or if the note is one of the notes in [keys].
 
 # For a note to match a TextEvent, it must match the keys and the time.
+# If more than one TextEvent of a given command note, only the narrower one applies.
+# If some has . in scope and other doesn't, one with . is narrower.
+# Otherwise if one starts before the other, the one that starts later is narrower.
+# Otherwise if one ends before the other, the one that ends earlier is narrower.
+# Otherwise if one has [keys] and other doesn't, the one with [keys] is narrower.
+# Otherwise, who knows?
 
 import os,re,sys
 
