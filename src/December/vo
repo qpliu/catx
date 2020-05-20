@@ -70,16 +70,24 @@ voPart = \new Voice = "vo"
     d'4 c8 b g4 g8   g | bes4 bes    b2 |
     d4  c8 b g4 bes8 c | d4   c8 b   g2 |
     d'4 c8 b g4 g      | bes4 bes8 g b2 |
-    d4  c8 b g4 bes8 c | d4   c8 b   g2 |
-    d'4 c8 b g4 g8   g | bes4 bes    b2 |
-    d4  c8 b g4 bes8 c | d4   c8 b   g2 |
-    d'4 c8 b g4 g      | bes4 bes8 g b2 |
-    d4  c8 b g4 bes8 c | d4   c8 b   g2 |
-    d'4 c8 b g4 g8   g | bes4 bes    b2 |
-    d4  c8 b g4 bes8 c | d4   c8 b   g2 |
-    d'4 c8 b g4 g      | bes4 bes8 g b2 |
+    r4 e g,8 g g4 |
+    r4 f' g,8 g g4 |
+    r4 bes8 g bes4 g8 bes~ |
+    bes bes bes4 bes8 b4 b8( |
+    g4) e' g,8 g g4 |
+    r4 f' g,8 g g4 |
+    r4 bes8 g bes4 g8 bes~ |
+    bes bes bes4 bes8 b4 b8( |
+    g4) e' g,8 g g4 |
+    r4 f' g,8 g g4 |
+    r4 bes8 g bes4 g8 bes~ |
+    bes bes bes4 bes8 b4 b8( |
+    g4) e' g,8 g g4 |
+    r4 f' g,8 g g4 |
+    r4 bes8 g bes4 g8 bes~ |
+    bes bes bes4 bes8 b4 b8( |
 \mymark "Outro" #137
-    s1 s1 s1 s1 |
+    g4) r4 r2 | s1 s1 s1 |
 \barNumberCheck #141
     s1
 }
