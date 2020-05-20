@@ -1,5 +1,35 @@
 #!/usr/bin/env python
 
+# What I remember about how this works.  Probably I forgot some features.
+# This splits *text files into *text_midi and *text_lyrics files.
+# *text_lyrics file is only for putting the texts into lyrics for human to check on PDF.
+# *text_midi is the one that actually does stuff.
+# You make TextEvents with something like `(some string)`8 to indicate a TextEvent with duration of 1/8th note.
+
+# (some string) has this syntax:
+# ([>!.-]*)(\\([^ ()]*\\))?(?:([a-zA-Z]+)=)?([a-zA-Z]+.*)
+# group1 is [scope].
+# group2 is [keys].
+# group3 is [name].
+# group4 is [commands].
+
+# [keys] is list of lilypond notes separated by |.  For example (aes|b'|c,)
+# [commands] is semi delimimited list of commands.
+# If name is present, I can use something like `>name` as abreviation for `>[commands]`.
+
+# The scope is an interval of time, typically from the start of a note to the end of a note.  Notes typically end slightly before their duration.
+# [scope] determines scope of command like this:
+# -> means scope is from the end of this note until the next `!name` or the end of the song.
+# > means the scope is from the start of this note until the next `!name` or the end of the song.
+# . means TextEvent only matches notes with the same start and end.
+
+# A note matches the time of a TextEvent with . in scope if start and end times of note exactly match start and end times of TextEvent.
+# Otherwise, it matches the time of the TextEvent as long as it has positive overlap in time.
+
+# A note matches the keys of a TextEvent if [keys] is empty or if the note is one of the notes in [keys].
+
+# For a note to match a TextEvent, it must match the keys and the time.
+
 import os,re,sys
 
 if len(sys.argv)!=2:

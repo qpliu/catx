@@ -160,6 +160,7 @@ final class MergeMidi{
 	final Set<Double>matchKey;
 	final boolean matchTimeAndStop;
 	boolean done;
+	Object object;
 	TextEvent(TextEvent parent,long start,String id,int outTrackIndex,long stop,String trackName,boolean matchTimeAndStop,Set<Double>matchKey,String what,String[]param)throws IOException{
 	    super(start,0,id,outTrackIndex);
 	    this.parent = parent==null?this:parent;
@@ -530,6 +531,17 @@ final class MergeMidi{
 		p = p<<7|Integer.parseInt(param[i]);
 	    return p;
 	}
+	private void addSlide(OutputChannel oc,NoteEvent from,NoteEvent to,int program)throws IOException{
+	    NoteEvent n=new NoteEvent(from.time,from.id,from.outTrackIndex,to.stop,from.trackName,from.key,from.velocity,from.percussion);
+	    double y0=0x2000;
+	    double y1=0x2000+0x1fff/BEND_RANGE*(to.key-from.key);
+	    for (int j=0; j<BEND_MAX_SIZE; j++){
+		int bend=(int)(y0+j*(y1-y0)/(BEND_MAX_SIZE-1)+.5);
+		oc.add(n.time+j*(n.stop-n.time)/(BEND_MAX_SIZE-1),n.outTrackIndex,0xe0,bend&127,bend>>7);
+	    }
+	    oc.addNote(program,n);
+	    oc.add(n.stop,n.outTrackIndex,0xe0,0,0x40);
+	}
 	private void addBend(OutputChannel oc,NoteEvent note,double amplitude,double phase,double offset,double wl,long start,long stop){
 	    phase *= Math.PI/180;
 	    wl *= Math.PI/180;
@@ -622,6 +634,15 @@ final class MergeMidi{
 			double wl=Double.parseDouble(te.param[3]);
 			addBend(oc,note,amplitude/BEND_RANGE,phase,offset,wl,te.time,te.stop);
 			te.done = true;
+		    }
+		    if ((te=temap.remove("slide"))!=null){
+			if (te.object==null)
+			    te.object = note;
+			else{
+			    addSlide(oc,(NoteEvent)te.object,note,program);
+			    te.object = null;
+			}
+			continue;
 		    }
 		    if ((te=temap.remove("bendPL"))!=null && !te.done){
 			long x0=te.time;
