@@ -1,4 +1,4 @@
-% PARTS gg
+% PARTS midi
 % BIN midi all gg susan kav peter
 % ROBOT preview=25
 
@@ -96,5 +96,7 @@ midimusic = <<
     } \egTwoPart
     \tag #'(midiCue) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
+	midiMinimumVolume = #1
+	midiMaximumVolume = #1
     } \cuePart
 >>
