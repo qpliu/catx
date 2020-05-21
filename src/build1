@@ -63,7 +63,7 @@ do
     if test "x$part" = "xmidi"
     then
 	merge=
-	for midi in midiVo midiEg midiEb midiDr midiOne midiTwo midiThree midiFour
+	for midi in midiGg midiPeter midiKav midiSusan midiOne midiTwo midiThree midiFour
 	do
 	    cat <<EOF >"$name-$midi.ly"
 \include "articulate.ly"

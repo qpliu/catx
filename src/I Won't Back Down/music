@@ -79,52 +79,24 @@ layoutmusic = <<
     >>
 >>
 
-midimusicAll = <<
+midimusic = <<
     \markupStuff
-    \tag #'(midiVo voPart) \new Staff \with {
+    \tag #'(midiSusan rolandMelody) \new Staff \with {
 	midiInstrument = #"steel drums"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \voPart
-    \tag #'(midiEg egOnePart) \new Staff \with {
+    \tag #'(midiPeter rolandBackOne) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \egOnePart
-    \tag #'(midiEb bassPart) \new Staff \with {
+    \tag #'(midiOne rolandBass) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \bassPart
-    \tag #'(midiDr drsPart) \new DrumStaff \with {
-	drumPitchTable = #(alist->hash-table midiDrumPitches)
-    } \drsPart
->>
-
-midimusic = <<
-    \midimusicAll
->>
-
-rolandmusic = <<
-    \markupStuff
-    \tag #'(rolandMelody) \new Staff \with {
-	midiInstrument = #"steel drums" % 114
-    } <<
-	\voPart
-    >>
-    \tag #'(rolandBass) \new Staff \with {
-	midiInstrument = #"electric bass (pick)"
-    } \bassPart
-    \tag #'(rolandBackOne) \new Staff \with {
-	midiInstrument = #"electric guitar (clean)" % 27
-    } <<
-	\egOnePart
-    >>
-    \tag #'(rolandBackTwo) \new Staff \with {
-	midiInstrument = #"overdriven guitar"
-    } <<
-    >>
-    \tag #'(rolandDrums) \new DrumStaff \with {
+    \tag #'(midiGg rolandDrums) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
 >>

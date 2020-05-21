@@ -40,10 +40,10 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiVo rolandMelody) \new Staff \with {
+    \tag #'(midiSusan rolandMelody) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \voPart
-    \tag #'(midiDr rolandDrums) \new DrumStaff \with {
+    \tag #'(midiGg rolandDrums) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
 >>

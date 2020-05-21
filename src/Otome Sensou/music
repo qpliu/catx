@@ -121,28 +121,28 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiVo rolandMelody) \new Staff = "vocaltext" \midivocalText
-    \tag #'(midiVo rolandMelody) \new Staff = "vocal" \vocalPart
-    \tag #'(midiVo rolandMelody) \new Staff \with {
+    \tag #'(midiSusan rolandMelody) \new Staff = "vocaltext" \midivocalText
+    \tag #'(midiSusan rolandMelody) \new Staff = "vocal" \vocalPart
+    \tag #'(midiSusan rolandMelody) \new Staff \with {
 	midiInstrument = #"choir aahs"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \chorusPart
-    \tag #'(midiEg rolandBackOne) \new Staff = "guitartext" \midiguitarText
-    \tag #'(midiEg rolandBackOne) \new Staff = "guitar" \guitarPart
+    \tag #'(midiPeter rolandBackOne) \new Staff = "guitartext" \midiguitarText
+    \tag #'(midiPeter rolandBackOne) \new Staff = "guitar" \guitarPart
     \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard1text" \midikeyboardOneText
     \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard1" \keyboardOnePart
     \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard2text" \midikeyboardTwoText
     \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard2" \keyboardTwoPart
     \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard3text" \midikeyboardThreeText
     \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard3" \keyboardThreePart
-    \tag #'(midiEb rolandBass) \new Staff \with {
+    \tag #'(midiOne rolandBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.7
     } \bassPart
-    \tag #'(midiDr rolandDrums) \new Staff = "drumstext" \mididrumsText
-    \tag #'(midiDr rolandDrums) \new DrumStaff = "drums" \with {
+    \tag #'(midiGg rolandDrums) \new Staff = "drumstext" \mididrumsText
+    \tag #'(midiGg rolandDrums) \new DrumStaff = "drums" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drumsPart
 >>

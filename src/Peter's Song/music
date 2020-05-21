@@ -1,9 +1,4 @@
-% drs
-% system1
-% midi
-% roland
 % PARTS midi
-% MIDIS midiOne
 
 \header {
     title = "Peter's Song"
@@ -43,17 +38,9 @@ layoutmusic = <<
     >>
 >>
 
-midimusicAll = <<
+midimusic = <<
     \markupStuff
-    \tag #'(midiOne drsPart) \new DrumStaff \with {
+    \tag #'(midiGg rolandDrums) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
->>
-
-midimusic = <<
-    \keepWithTag #'(drsPart keep) \midimusicAll
->>
-
-rolandmusic = <<
-    \keepWithTag #'(drsPart keep) \midimusicAll
 >>

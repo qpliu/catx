@@ -24,6 +24,7 @@ then
 		    ./get_rid_of_id_in_pdf.py <"../bin/$b" >bin/2
 		    if cmp -s bin/1 bin/2
 		    then
+			touch ../bin/"$b"
 			continue
 		    fi
 		fi

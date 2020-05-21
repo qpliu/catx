@@ -29,7 +29,7 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiDr rolandDrums) \new DrumStaff \with {
+    \tag #'(midiGg rolandDrums) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
 >>

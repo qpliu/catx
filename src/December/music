@@ -78,16 +78,16 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiDr rolandDrums) \new DrumStaff \with {
+    \tag #'(midiGg rolandDrums) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
-    \tag #'(midiVo rolandMelody) \new Staff \with {
+    \tag #'(midiSusan rolandMelody) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \voPart
-    \tag #'(midiEb rolandBass) \new Staff \with {
+    \tag #'(midiOne rolandBass) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
     } \bassPart
-    \tag #'(midiEg rolandBackOne) \new Staff \with {
+    \tag #'(midiPeter rolandBackOne) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
     } \egPart
 >>
