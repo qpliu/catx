@@ -1,10 +1,14 @@
 drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
     \context DrumVoice = "drsa" \voiceOne
     \context DrumVoice = "drsb" \voiceTwo
+    \compressFullBarRests
+    \tempo 4 = 120
 \mymark "Intro" #1
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    R1*8 |
 \mymark "Verse 1" #9
-    s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 r2 r4 <hh sn> |
+    R1*15 |
+    r4_"1" r_"2" r_"3" <hh sn> |
 \mymark "Chorus 1" #25
     << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
@@ -23,9 +27,12 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
     << { hh8 hh <hh sn> hh hh hh sn16 sn sn8 | } \context DrumVoice = "drsb" { bd2 bd | } >>
 \mymark "Interlude" #41
-    cymc4 r4 r2 s1 s1 s1 s1 s1 s1 s1 |
+    cymc1 |
+    R1*7 |
 \mymark "Verse 2" #49
-    s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 bd4 bd4 sn16 sn sn8 sn16 sn sn8 |
+    R1*14 |
+    r4_"1" r_"2" r_"3" r_"4" |
+    bd4 bd4 sn16 sn sn8 sn16 sn sn8 |
 \mymark "Chorus 2" #65
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
@@ -53,7 +60,8 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
     << { hh8 hh <hh sn> hh hh hh sn16 sn sn8 | } \context DrumVoice = "drsb" { bd2 bd | } >>
 \mymark "Interlude" #89
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    R1*7 |
+    r4_"1" r_"2" r_"3" r_"4" |
 \mymark "Prechorus" #97
     << { hho4 hh hh hh | } \context DrumVoice = "drsb" { bd8 hhp4 hhp hhp <hhp bd>8 | } >>
     << { hho4 hh hh <hh sn> | } \context DrumVoice = "drsb" { bd8 hhp4 hhp hhp <hhp bd>8 | } >>
@@ -97,7 +105,8 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>
 \mymark "Outro" #137
-    cymc1 s1 s1 s1 |
+    cymc1 R1*3 |
 \barNumberCheck #141
-    s1
+    r1
+    \bar "|."
 }

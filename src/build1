@@ -17,6 +17,7 @@ cp ../java/* .
 javac -Xlint *.java
 cd ..
 cp *.i bin
+cp silence.wav timidity_extra_silence.cfg bin
 cp "$name"/* bin
 cd bin
 for a in *tabs
@@ -63,7 +64,7 @@ do
     if test "x$part" = "xmidi"
     then
 	merge=
-	for midi in midiGg midiPeter midiKav midiSusan midiOne midiTwo midiThree midiFour
+	for midi in midiCue midiGg midiPeter midiKav midiSusan midiOne midiTwo midiThree midiFour
 	do
 	    cat <<EOF >"$name-$midi.ly"
 \include "articulate.ly"
@@ -78,10 +79,10 @@ EOF
 	    merge="$merge ${name@Q}-$midi.midi"
 	done
 	eval "java -cp . MergeMidi $merge >${name@Q}.midi"
-	TIMIDITY_EXTRA_CFG=
+	TIMIDITY_EXTRA_CFG="-c timidity_extra_silence.cfg"
 	if test -f timidity_extra.cfg
 	then
-	    TIMIDITY_EXTRA_CFG="-c timidity_extra.cfg"
+	    TIMIDITY_EXTRA_CFG="$TIMIDITY_EXTRA_CFG -c timidity_extra.cfg"
 	fi
 	timidity $TIMIDITY_EXTRA_CFG -OF -o "$name.flac" -A400 "$name.midi"
 	ffmpeg -loglevel 16 -i "$name.flac" "$name.mp3"

@@ -1,0 +1,41 @@
+egTwoPart = {
+\mymark "Intro" #1
+    \quoteDuring #"eg" {
+	R1*8 |
+\mymark "Verse 1" #9
+	R1*15 |
+	s1 |
+    }
+\mymark "Chorus 1" #25
+    s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Interlude" #41
+    \quoteDuring #"eg" {
+	s1 |
+	R1*7 |
+    }
+\mymark "Verse 2" #49
+    \quoteDuring #"eg" {
+	R1*14 |
+	s1 s1 |
+    }
+\mymark "Chorus 2" #65
+    s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Chorus Lead-out" #81
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Interlude" #89
+    \quoteDuring #"eg" {
+	R1*7 |
+	s1 |
+    }
+\mymark "Prechorus" #97
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Bridge" #105
+    s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Outro" #137
+    \quoteDuring #"eg" {
+	s1 |
+	R1*3 |
+\barNumberCheck #141
+	r1
+    }
+}

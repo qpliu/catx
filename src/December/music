@@ -1,4 +1,4 @@
-% PARTS midi
+% PARTS gg
 % BIN midi all gg susan kav peter
 % ROBOT preview=25
 
@@ -11,17 +11,17 @@
 %    system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
 }
 
-#(set-global-staff-size 18)
-% IF vo #(set-global-staff-size 17)
+#(set-global-staff-size 19)
 
 #(set-default-paper-size "letter" 'portrait)
 
 \include "markup"
 \include "drs"
-\include "drstwopages"
 \include "cue"
 \include "vo"
 \include "eg"
+\addQuote "eg" \egPart
+\include "eg2"
 \include "bass"
 \include "lyrics"
 \include "vo2"
@@ -68,20 +68,12 @@ layoutmusic = <<
 	\markupStuff
 	\bassPart
     >>
-    \tag #'(allPart kavPart) \new DrumStaff \with {
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
-	\markupStuff
 	\drsPart
-    >>
-    \tag #'(ggPart) \new DrumStaff \with {
-	instrumentName = \markup { \rotate #90 "Drums" }
-	shortInstrumentName = \markup { \rotate #90 "Dr" }
-	drumStyleTable = #(alist->hash-table myDrumStyleTable)
-    } <<
-	\drstwopagesPart
     >>
 >>
 
@@ -99,7 +91,10 @@ midimusic = <<
     \tag #'(midiPeter rolandBackOne) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
     } \egPart
-    \tag #'(midiOne) \new DrumStaff \with {
+    \tag #'(midiOne rolandBackOne) \new Staff \with {
+	midiInstrument = #"electric guitar (clean)" % 27
+    } \egTwoPart
+    \tag #'(midiCue) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \cuePart
 >>
