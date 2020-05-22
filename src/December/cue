@@ -3,14 +3,14 @@ cuePart = \drummode {
     s1 s1 s1 s1 s1 s1 s1 s1 |
 \mymark "Verse 1" #9
     s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 |
-    countone4 counttwo countthree r |
+    cueone4 cuetwo cuethree r |
 \mymark "Chorus 1" #25
     s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 |
 \mymark "Interlude" #41
     s1 s1 s1 s1 s1 s1 s1 s1 |
 \mymark "Verse 2" #49
     s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 |
-    countone4 counttwo countthree countfour |
+    cueone4 cuetwo cuethree cuefour |
     s1 |
 \mymark "Chorus 2" #65
     s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 |
@@ -18,7 +18,7 @@ cuePart = \drummode {
     s1 s1 s1 s1 s1 s1 s1 s1 |
 \mymark "Interlude" #89
     s1 s1 s1 s1 s1 s1 s1 |
-    countone4 counttwo countthree countfour |
+    cueone4 cuetwo cuethree cuefour |
 \mymark "Prechorus" #97
     s1 s1 s1 s1 s1 s1 s1 s1 |
 \mymark "Bridge" #105
