@@ -4,34 +4,41 @@
 <meta charset=UTF-8>
 <title>Aarin Robo's catx recordings</title>
 <meta name=description content="Aarin Robo's catx recordings">
+<style>
+    th{background-color:#080;color:#fbb;font-size:150%;text-align:center;}
+    td{background-color:#0f0;font-size:150%;text-align:center;}
+</style>
 </head>
 <body style='background:url(/catx.jpg);background-size:cover'>
 <script>
-  function addControls(id) {
-      elt = document.getElementById(id);
-      elt.removeChild(elt.childNodes[0]);
-      a = document.createElement("audio");
-      a.setAttribute("controls", "");
-      elt.appendChild(a);
-      s = document.createElement("source");
-      s.setAttribute("src", elt.getAttribute("catxsrc"));
-      s.setAttribute("type", "audio/mpeg");
-      a.appendChild(s);
-  }
+    function addControls(id) {
+	elt = document.getElementById(id);
+	elt.removeChild(elt.childNodes[0]);
+	a = document.createElement("audio");
+	a.setAttribute("controls", "");
+	elt.appendChild(a);
+	s = document.createElement("source");
+	s.setAttribute("src", elt.getAttribute("catxsrc"));
+	s.setAttribute("type", "audio/mpeg");
+	a.appendChild(s);
+    }
 </script>
 <div style=font-size:200%;color:#000;background-color:#fbb;text-align:center;>Aarin Robo's <a href=/>catx</a> recordings</div>
 [CATX_PWD_START]
 <div style=font-size:150%;color:#fbb;background-color:#080;text-align:center;>[CATX_HTML_FILENAME]</div>
 [CATX_PWD_END]
+<br>
+<table style=margin-left:auto;margin-right:auto;>
 [CATX_LIST_START]
-<div style=text-align:center;>
-  <span style=font-size:150%;background-color:#0f0>
-    <a href="[CATX_URL_FILENAME]" download>[CATX_HTML_FILENAME]</a>
-    <span id="[CATX_ID]" catxsrc="[CATX_URL_FILENAME]"><a href="javascript:addControls('[CATX_ID]');">▶</a></span>
-</span>
-</div>
+<tr>
+    <td><a href="[CATX_URL_FILENAME]" download>[CATX_HTML_FILENAME]</a></td>
+    <td id="[CATX_ID]" catxsrc="[CATX_URL_FILENAME]"><a href="javascript:addControls('[CATX_ID]');">▶</a></td>
+</tr>
 [CATX_LIST_END]
 [CATX_DIR_START]
-<div style=text-align:center;><span style=font-size:150%;background-color:#0f0><a href="[CATX_URL_FILENAME]">[CATX_HTML_FILENAME]</a></span></div>
+<tr>
+    <td colspan=2><a href="[CATX_URL_FILENAME]">[CATX_HTML_FILENAME]/</a></td>
+</tr>
 [CATX_DIR_END]
+</table>
 </html>
