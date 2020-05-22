@@ -14,7 +14,7 @@
       a.setAttribute("controls", "");
       elt.appendChild(a);
       s = document.createElement("source");
-      s.setAttribute("src", id);
+      s.setAttribute("src", elt.getAttribute("catxsrc"));
       s.setAttribute("type", "audio/mpeg");
       a.appendChild(s);
   }
@@ -24,7 +24,7 @@
 <div style=text-align:center;>
   <span style=font-size:150%;background-color:#0f0>
     <a href="[CATX_LIST_URL_FILENAME]" download>[CATX_LIST_HTML_FILENAME]</a>
-    <span id="[CATX_LIST_HTML_FILENAME]"><a href="javascript:addControls('[CATX_LIST_HTML_FILENAME]');">▶</a></span>
+    <span id="[CATX_LIST_ID]" catxsrc="[CATX_LIST_URL_FILENAME]"><a href="javascript:addControls('[CATX_LIST_ID]');">▶</a></span>
 </span>
 </div>
 [CATX_LIST_END]
