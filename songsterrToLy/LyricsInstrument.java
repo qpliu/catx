@@ -34,7 +34,7 @@ final class LyricsInstrument extends Instrument{
 	for (int i=0; i<list.size();){
 	    int start=list.get(i).time;
 	    if (start!=time)
-		sb.append(appendTime("\\skip ",start-time)).append(' ');
+		sb.append(appendTime("\\skip ","",start-time)).append(' ');
 	    int j=i;
 	    int duration=list.get(i).duration;
 	    while (++i<list.size()&&list.get(i).time==start)
@@ -45,21 +45,19 @@ final class LyricsInstrument extends Instrument{
 		for (int k=j; k<i; k++){
 		    sb.append(" { ");
 		    Event e=list.get(k);
-		    sb.append(appendTime(e.toString(),duration));
-		    sb.append(e.getLySuffix());
+		    sb.append(appendTime(e.toString(),e.getLySuffix(),duration));
 		    sb.append(" } ");
 		}
 		sb.append(">>");
 	    }else{
 		Event e=list.get(j);
-		sb.append(appendTime(e.toString(),duration));
-		sb.append(e.getLySuffix());
+		sb.append(appendTime(e.toString(),e.getLySuffix(),duration));
 	    }
 	    sb.append(' ');
 	    time = start+duration;
 	}
 	if (time!=state.timen*DIVISION)
-	    sb.append(appendTime("\\skip ",state.timen*DIVISION-time)).append(' ');
+	    sb.append(appendTime("\\skip ","",state.timen*DIVISION-time)).append(' ');
 	sb.append('|');
 	return sb.toString();
     }

@@ -188,7 +188,7 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 r8 bd8 r8 bd8 r8 bd8 r8 | } >>
     << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 r8 bd8 r8 bd8 r8 bd8 r8 | } >>
     << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 <\parenthesize cyms \parenthesize sne>8 | } \context DrumVoice = "drsb" { bd8 r8 bd8 r8 bd8 r8 bd8 r8 | } >>
-    << { <cyms~ cyms~ sne>8 <cyms hho>8 r2. | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+    << { <cyms~ cyms~ sne>8 <cyms hho>8 r2. | } \context DrumVoice = "drsb" { bd8 r2.r8 | } >>
 \mymark "Chorus" #169
     << { cymc8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd8 r8 bd8 | } >>
     << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>

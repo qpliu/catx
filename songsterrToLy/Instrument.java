@@ -82,11 +82,11 @@ abstract class Instrument extends Engraver{
 	}
     }
     abstract Note getNote(Json note);
-    String appendTime(String what,int time){
+    String appendTime(String what,String suffix,int time){
 	StringBuilder sb=new StringBuilder();
 	if (time%3!=0){
 	    sb.append("\\tuplet 3/2 { ");
-	    sb.append(appendTime(what,time*3/2));
+	    sb.append(appendTime(what,suffix,time*3/2));
 	    sb.append(" }");
 	}else if (time!=0){
 	    int d=DIVISION*state.timed;
@@ -102,8 +102,12 @@ abstract class Instrument extends Engraver{
 		sb.append('.');
 		time -= d/2;
 	    }
-	    if (time!=0)
-		sb.append(what.equals("r")?" ":"~ ").append(appendTime(what,time));
+	    sb.append(suffix);
+	    if (time!=0){
+		if (!what.equals("r") && suffix.indexOf('~')==-1)
+		    sb.append('~');
+		sb.append(appendTime(what,suffix,time));
+	    }
 	}
 	return sb.toString();
     }
@@ -113,7 +117,7 @@ abstract class Instrument extends Engraver{
 	for (int i=0; i<list.size();){
 	    int start=list.get(i).time;
 	    if (start!=time)
-		sb.append(appendTime("r",start-time)).append(' ');
+		sb.append(appendTime("r","",start-time)).append(' ');
 	    int j=i;
 	    int duration=list.get(i).duration;
 	    while (++i<list.size()&&list.get(i).time==start)
@@ -130,17 +134,16 @@ abstract class Instrument extends Engraver{
 		    sb2.append(e.getLySuffix());
 		}
 		sb2.append('>');
-		sb.append(appendTime(sb2.toString(),duration));
+		sb.append(appendTime(sb2.toString(),"",duration));
 	    }else{
 		Event e=list.get(j);
-		sb.append(appendTime(e.toString(),duration));
-		sb.append(e.getLySuffix());
+		sb.append(appendTime(e.toString(),e.getLySuffix(),duration));
 	    }
 	    sb.append(' ');
 	    time = start+duration;
 	}
 	if (time!=state.timen*DIVISION)
-	    sb.append(appendTime("r",state.timen*DIVISION-time)).append(' ');
+	    sb.append(appendTime("r","",state.timen*DIVISION-time)).append(' ');
 	sb.append('|');
 	return sb.toString();
     }

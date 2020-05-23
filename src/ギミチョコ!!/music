@@ -17,8 +17,8 @@
 \include "generated-drs"
 \include "generated-guitar1"
 \include "generated-guitar2"
-%\include "generated-guitar3"
-%\include "generated-guitar4"
+\include "generated-guitar3"
+\include "generated-guitar4"
 \include "generated-synth"
 \include "generated-vocals"
 
@@ -61,30 +61,30 @@ layoutmusic = <<
 	\markupStuff
 	\guitarTwoPart
     >>
-%    \tag #'(allPart peterPart) \new Staff \with {
-%	instrumentName = \markup { \rotate #90 "Guitar 3" }
-%	shortInstrumentName = \markup { \rotate #90 "Gtr3" }
-%    } <<
-%	\markupStuff
-%	\clef "treble_8"
-%	\guitarThreePart
-%    >>
-%    \tag #'(peterPart) \new TabStaff <<
-%	\markupStuff
-%	\guitarThreePart
-%    >>
-%    \tag #'(allPart peterPart) \new Staff \with {
-%	instrumentName = \markup { \rotate #90 "Guitar 4" }
-%	shortInstrumentName = \markup { \rotate #90 "Gtr4" }
-%    } <<
-%	\markupStuff
-%	\clef "treble_8"
-%	\guitarFourPart
-%    >>
-%    \tag #'(peterPart) \new TabStaff <<
-%	\markupStuff
-%	\guitarFourPart
-%    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar 3" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr3" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\guitarThreePart
+    >>
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\guitarThreePart
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar 4" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr4" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\guitarFourPart
+    >>
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\guitarFourPart
+    >>
     \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }
 	shortInstrumentName = \markup { \rotate #90 "Ba" }
@@ -127,10 +127,10 @@ midimusic = <<
     \tag #'(midiPeter rolandBackOne) \new Staff \with {
 	midiInstrument = #"overdriven guitar" % 29
     } \guitarTwoPart
-%    \tag #'(midiPeter rolandBackOne) \new Staff \with {
-%	midiInstrument = #"distorted guitar" % 30
-%    } \guitarThreePart
-%    \tag #'(midiPeter rolandBackOne) \new Staff \with {
-%	midiInstrument = #"overdriven guitar" % 29
-%    } \guitarFourPart
+    \tag #'(midiPeter rolandBackOne) \new Staff \with {
+	midiInstrument = #"distorted guitar" % 30
+    } \guitarThreePart
+    \tag #'(midiPeter rolandBackOne) \new Staff \with {
+	midiInstrument = #"overdriven guitar" % 29
+    } \guitarFourPart
 >>
