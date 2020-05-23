@@ -1,8 +1,4 @@
-% drs
-% system1
-% midi
-% roland
-% PARTS midi
+% PARTS gg
 
 \header {
     title = "Last Dance"
@@ -37,7 +33,7 @@ midiDrumPitches.hx = fis
 \include "drs"
 
 layoutmusic = <<
-    \tag #'(systemOnePart drsPart) \new DrumStaff \with {
+    \tag #'(allPart ggPart) \new DrumStaff \with {
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff

@@ -1,7 +1,7 @@
 import java.util.*;
 
 abstract class Instrument extends Engraver{
-    private static final int DIVISION=384;
+    static final int DIVISION=384;
     abstract boolean matches(State state);
     abstract void printHead();
     void printFoot(){
@@ -34,9 +34,6 @@ abstract class Instrument extends Engraver{
 		ly += '\'';
 	    }
 	    return scale[n-48]+ly;
-	}
-	@Override public String getLySuffix(){
-	    return "";
 	}
     }
     class Event implements Comparable<Event>{
@@ -85,7 +82,7 @@ abstract class Instrument extends Engraver{
 	}
     }
     abstract Note getNote(Json note);
-    private String appendTime(String what,int time){
+    String appendTime(String what,int time){
 	StringBuilder sb=new StringBuilder();
 	if (time%3!=0){
 	    sb.append("\\tuplet 3/2 { ");
@@ -147,20 +144,22 @@ abstract class Instrument extends Engraver{
 	sb.append('|');
 	return sb.toString();
     }
+    int getDuration(Json j){
+	int duration_n=j.get(0).intValue();
+	int duration_d=j.get(1).intValue();
+	if (DIVISION*state.timed*duration_n%duration_d!=0)
+	    throw new RuntimeException("Bad duration "+j.unparse());
+	return DIVISION*state.timed*duration_n/duration_d;
+    }
     private List<Event>getEvents(Json measure,int start){
 	List<Event>list=new ArrayList<Event>();
 	for (Json voice:measure.get("voices").list){
 	    int time=0;
 	    for (Json beat:voice.get("beats").list){
-		Json duration=beat.get("duration");
-		int duration_n=duration.get(0).intValue();
-		int duration_d=duration.get(1).intValue();
-		if (DIVISION*state.timed*duration_n%duration_d!=0)
-		    throw new RuntimeException("Bad duration "+duration.unparse());
-		int dura=DIVISION*state.timed*duration_n/duration_d;
+		int duration=getDuration(beat.get("duration"));
 		for (Json note:beat.get("notes").list)
-		    list.add(new Event(start+time,dura,note));
-		time += dura;
+		    list.add(new Event(start+time,duration,note));
+		time += duration;
 	    }
 	    if (start==0 && time!=state.timen*DIVISION)
 		throw new RuntimeException(time+" != "+state.timen+"*"+DIVISION);

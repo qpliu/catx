@@ -5,5 +5,10 @@ for a in test/*.html
 do
     b=`basename "$a" .html`
     d=`dirname "$a"`
-    java -jar 1.jar - <"$a" >"$d/$b.ly"
+    lyrics=
+    if test "x$b" = "xlyrics"
+    then
+	lyrics="--lyrics"
+    fi
+    java -jar 1.jar $lyrics - <"$a" >"$d/$b.ly"
 done

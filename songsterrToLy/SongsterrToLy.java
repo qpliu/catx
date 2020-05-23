@@ -5,6 +5,7 @@ import java.util.regex.*;
 
 final class SongsterrToLy{
     private static final Instrument[]instruments={
+	new LyricsInstrument(),
 	new DrumsInstrument(),
 	new GuitarInstrument(),
     };
@@ -14,13 +15,23 @@ final class SongsterrToLy{
 	new TempoEngraver(),
 	new MarkerEngraver(),
     };
+    private static void usage(){
+	System.err.println("Usage: java SongsterrToLy [--lyrics] url");
+	System.err.println("    or java SongsterrToLy [--lyrics] - <filename");
+	System.exit(1);
+    }
     public static void main(String[]argv)throws IOException{
-	if (argv.length!=1){
-	    System.err.println("Usage: java SongsterrToLy url");
-	    System.err.println("    or java SongsterrToLy - <filename");
-	    System.exit(1);
-	}
-	String url=argv[0];
+	boolean lyrics=false;
+	String url=null;
+	for (int i=0; i<argv.length; i++)
+	    if (argv[i].equals("--lyrics"))
+		lyrics = true;
+	    else if (url!=null)
+		usage();
+	    else
+		url = argv[i];
+	if (url==null)
+	    usage();
 	InputStream is;
 	if (url.equals("-"))
 	    is = System.in;
@@ -31,7 +42,7 @@ final class SongsterrToLy{
 	Matcher m=Pattern.compile("(?s).*<script id=\"state\" type=\"application/json\">(.*?)</script>.*").matcher(baos.toString());
 	if (!m.matches())
 	    throw new IOException("State pattern did not match.");
-	State state=new State(Json.parse(m.group(1)));
+	State state=new State(Json.parse(m.group(1)),lyrics);
 	System.out.println("% url: "+url);
 	System.out.println("% artist: "+state.meta.get("artist").stringValue());
 	System.out.println("% title: "+state.meta.get("title").stringValue());
