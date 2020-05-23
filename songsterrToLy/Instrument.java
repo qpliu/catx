@@ -13,7 +13,6 @@ abstract class Instrument extends Engraver{
 	    return "";
 	}
     }
-    private static String[]scale={"c","cis","d","dis","e","f","fis","g","gis","a","ais","b"};
     static class MidiNote implements Note{
 	private final int note;
 	MidiNote(int note){
@@ -23,17 +22,7 @@ abstract class Instrument extends Engraver{
 	    return Integer.compare(note,((MidiNote)n).note);
 	}
 	@Override public String getLyNote(){
-	    String ly="";
-	    int n=note;
-	    while (n<48){
-		n += 12;
-		ly += ',';
-	    }
-	    while (n>=60){
-		n -= 12;
-		ly += '\'';
-	    }
-	    return scale[n-48]+ly;
+	    return Stuff.midi2ly(note);
 	}
     }
     class Event implements Comparable<Event>{
