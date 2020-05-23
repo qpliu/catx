@@ -1,5 +1,5 @@
 % PARTS kav
-% BIN midi all gg susan kav
+% BIN midi all gg susan kav peter
 % ROBOT preview=24.3
 
 \header {
@@ -17,6 +17,8 @@
 \include "markup"
 \include "drs"
 \include "vo"
+\include "eg"
+\include "bass"
 \include "lyrics"
 
 layoutmusic = <<
@@ -36,6 +38,30 @@ layoutmusic = <<
 	\markupStuff
 	\drsPart
     >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\egPart
+    >>
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\egPart
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Bass" }
+	shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } <<
+	\markupStuff
+	\clef "bass_8"
+	\bassPart
+    >>
+    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+	\markupStuff
+	\bassPart
+    >>
 >>
 
 midimusic = <<
@@ -46,4 +72,10 @@ midimusic = <<
     \tag #'(midiGg rolandDrums) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
+    \tag #'(midiOne rolandBass) \new Staff \with {
+	midiInstrument = #"electric bass (pick)"
+    } \bassPart
+    \tag #'(midiPeter rolandBackOne) \new Staff \with {
+	midiInstrument = #"distorted guitar" % 30
+    } \egPart
 >>

@@ -1,0 +1,54 @@
+egPart = {
+\mymark "Intro" #1
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t4 t8 t 5-5.7t4 t8 t | 6-5.7t4 t8 t t t t t |
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t4 t8 t 5-5.7t4 t8 t | 6-5.7t4 t8 t t t t4 |
+  r1 r1 r1 r1 r1 r1 |
+  6-5.7t8 t t t t t t t | t t t t t t t t |
+\mymark "Verse 1" #25
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t4 t8 t 5-5.7t4 t8 t | 6-5.7t4 t8 t t t t t |
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t4 t8 t 5-5.7t4 t8 t | 6-5.7t4 t8 t t t t t |
+\mymark "Chorus 1" #41
+  5-5.7t8 t t t t t t t | t t t t t t t t |
+  6-5.7t8 t t t4 t8 t t | 5-5.7t4 t8 6-5.7t4 t8 t t |
+  5-5.7t8 t t t t t t t | t t t t t t t t |
+  5-2.4t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+\mymark "Verse 2" #49
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t4 t8 t 5-5.7t4 t8 t | 6-5.7t4 t8 t t t t t |
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t4 t8 t 5-5.7t4 t8 t | 6-5.7t4 t8 t t t t t |
+\mymark "Chorus 2" #65
+  5-5.7t8 t t t t t t t | t t t t t t t t |
+  6-5.7t8 t t t4 t8 t t | 5-5.7t4 t8 6-5.7t4 t8 t t |
+  5-5.7t8 t t t t t t t | t t t t t t t t |
+  5-2.4t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+\mymark "Verse 3" #73
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t4 t8 t 5-5.7t4 t8 t | 6-5.7t4 t8 t t t t t |
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t8 t t t t t t t | 5-5.7t4 t8 5-7.9t4 t8 t t |
+  6-5.7t4 t8 t 5-5.7t4 t8 t | 6-5.7t4 t8 t t t t4 |
+\mymark "Outro" #89
+  r1 r1 r1 r1 r1 r1 |
+  6-5.7t8 t t t t t t t | t t t t t4 r4 |
+\mybarNumberCheck #97
+}

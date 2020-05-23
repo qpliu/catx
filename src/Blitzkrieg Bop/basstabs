@@ -1,0 +1,57 @@
+bassPart = {
+% tuning e,, a,, d, g,
+\mymark "Intro" #1
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t4 t8 t 3-5t4 t8 t | 4-5t4 t8 t t t t t |
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t4 t8 t 3-5t4 t8 t | 4-5t4 t8 t t t t4 |
+  r1 r1 r1 r1 |
+  4-5t8 t t t t t t t | t t t t t t t t | 
+  4-5t8 t t t t t t t | t t t t t t t t | 
+\mymark "Verse 1" #25
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t4 t8 t 3-5t4 t8 t | 4-5t4 t8 t t t t t |
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t4 t8 t 3-5t4 t8 t | 4-5t4 t8 t t t t t |
+\mymark "Chorus 1" #41
+  3-5t8 t t t t t t t | t t t t t t t t |
+  4-5t8 t t t4 t8 t t | 3-5t4 t8 4-5t4 t8 t t |
+  3-5t8 t t t t t t t | t t t t t t t t |
+  4-7t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+\mymark "Verse 2" #49
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t4 t8 t 3-5t4 t8 t | 4-5t4 t8 t t t t t |
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t4 t8 t 3-5t4 t8 t | 4-5t4 t8 t t t t t |
+\mymark "Chorus 2" #65
+  3-5t8 t t t t t t t | t t t t t t t t |
+  4-5t8 t t t4 t8 t t | 3-5t4 t8 4-5t4 t8 t t |
+  3-5t8 t t t t t t t | t t t t t t t t |
+  4-7t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+\mymark "Verse 3" #73
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t4 t8 t 3-5t4 t8 t | 4-5t4 t8 t t t t t |
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t8 t t t t t t t | 3-5t4 t8 3-7t4 t8 t t |
+  4-5t4 t8 t 3-5t4 t8 t | 4-5t4 t8 t t t t4 |
+\mymark "Outro" #89
+  r1 r1 r1 r1 |
+  4-5t8 t t t t t t t | t t t t t t t t | 
+  4-5t8 t t t t t t t | t t t t t4 r4 | 
+\mybarNumberCheck #97
+}
