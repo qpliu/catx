@@ -2,10 +2,10 @@ import java.util.*;
 
 final class LyricsInstrument extends Instrument{
     @Override boolean matches(State state){
-	return state.lyrics;
+	return state.argv_lyrics;
     }
     @Override void printHead(){
-	indent(state.partName+" = \\lyricmode {"); //}
+	indent(state.argv_partName+" = \\lyricmode {"/*}*/);
     }
     static class LyricNote implements Note{
 	private final String text;
@@ -28,50 +28,21 @@ final class LyricsInstrument extends Instrument{
     @Override Note getNote(Json note){
 	return new LyricNote(note.get("text").stringValue());
     }
-    @Override String notesToString(List<Event>list){
-	StringBuilder sb=new StringBuilder();
-	int time=0;
-	for (int i=0; i<list.size();){
-	    int start=list.get(i).time;
-	    if (start!=time)
-		sb.append(appendTime("\\skip ","",start-time)).append(' ');
-	    int j=i;
-	    int duration=list.get(i).duration;
-	    while (++i<list.size()&&list.get(i).time==start)
-		if (list.get(i).duration!=duration)
-		    throw new RuntimeException();
-	    if (i>j+1){
-		sb.append("<<");
-		for (int k=j; k<i; k++){
-		    sb.append(" { ");
-		    Event e=list.get(k);
-		    sb.append(appendTime(e.toString(),e.getLySuffix(),duration));
-		    sb.append(" } ");
-		}
-		sb.append(">>");
-	    }else{
-		Event e=list.get(j);
-		sb.append(appendTime(e.toString(),e.getLySuffix(),duration));
-	    }
-	    sb.append(' ');
-	    time = start+duration;
-	}
-	if (time!=state.timen*DIVISION)
-	    sb.append(appendTime("\\skip ","",state.timen*DIVISION-time)).append(' ');
-	sb.append('|');
-	return sb.toString();
+    @Override String notesToString(PriorityQueue<Event>q){
+	return notesToString(q,"\\skip ","<< { "," } >>"," } { ");
     }
-    @Override void engrave(Json measure,Json nextMeasure){
-	Json index=measure.get("index");
-	Json lyrics=state.data.get("lyrics").get(index.intValue()-1);
-	List<Event>list=new ArrayList<Event>();
-	int time=0;
-	for (Json beat:lyrics.get("beats").list){
-	    int duration=getDuration(beat.get("duration"));
-	    for (Json note:beat.get("lyrics").list)
-		list.add(new Event(time,duration,note));
-	    time += duration;
-	}
-	print(notesToString(list));
+    @Override void engrave(Json measure){
+	if (state.pass==0){
+	    Json index=measure.get("index");
+	    Json lyrics=state.data.get("lyrics").get(index.intValue()-1);
+	    int time=0;
+	    for (Json beat:lyrics.get("beats").list){
+		int duration=getDuration(beat.get("duration"));
+		for (Json note:beat.get("lyrics").list)
+		    events.add(new Event(state.measureStartTime+time,duration,note));
+		time += duration;
+	    }
+	}else
+	    super.engrave(measure);
     }
 }

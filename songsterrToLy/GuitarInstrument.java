@@ -11,6 +11,9 @@ final class GuitarInstrument extends Instrument{
 	@Override public String getLySuffix(){
 	    return "\\"+(string+1);
 	}
+	@Override public String tieString(){
+	    return getLySuffix();
+	}
     }
     @Override void setState(State state){
 	super.setState(state);
@@ -32,8 +35,5 @@ final class GuitarInstrument extends Instrument{
     }
     @Override boolean matches(State state){
 	return true;
-    }
-    @Override void printHead(){
-	indent(state.partName+" = {"); //}
     }
 }

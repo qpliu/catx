@@ -76,7 +76,7 @@ final class DrumsInstrument extends Instrument{
 	"81 tri 0";
     @Override void setState(State state){
 	super.setState(state);
-	for (StringTokenizer st=new StringTokenizer(state.drumMap==null?DEFAULT_DRUM_MAP:state.drumMap,","); st.hasMoreTokens();){
+	for (StringTokenizer st=new StringTokenizer(state.argv_drumMap==null?DEFAULT_DRUM_MAP:state.argv_drumMap,","); st.hasMoreTokens();){
 	    StringTokenizer st2=new StringTokenizer(st.nextToken());
 	    int key=Integer.parseInt(st2.nextToken());
 	    String name=st2.nextToken();
@@ -95,29 +95,29 @@ final class DrumsInstrument extends Instrument{
 	return (j=state.track.get("isDrums"))!=null && j.booleanValue();
     }
     @Override void printHead(){
-	indent(state.partName+" = \\new DrumVoice = \"drsb\" \\new DrumVoice = \"drsa\" \\drummode {"); //}
+	indent(state.argv_partName+" = \\new DrumVoice = \"drsb\" \\new DrumVoice = \"drsa\" \\drummode {"); //}
 	print("\\context DrumVoice = \"drsa\" \\voiceOne");
 	print("\\context DrumVoice = \"drsb\" \\voiceTwo");
     }
-    @Override String notesToString(List<Event>list){
-	List<Event>list0=new ArrayList<Event>();
-	List<Event>list1=new ArrayList<Event>();
-	for (Event e:list){
+    @Override String notesToString(PriorityQueue<Event>q){
+	PriorityQueue<Event>q0=new PriorityQueue<Event>();
+	PriorityQueue<Event>q1=new PriorityQueue<Event>();
+	for (Event e:q){
 	    if (e.note!=null && ((Drum)e.note).voice==0)
-		list0.add(e);
+		q0.add(e);
 	    if (e.note!=null && ((Drum)e.note).voice==1)
-		list1.add(e);
+		q1.add(e);
 	}
 	StringBuilder sb=new StringBuilder();
-	if (list0.size()==0)
-	    sb.append(super.notesToString(list1));
-	else if (list1.size()==0)
-	    sb.append(super.notesToString(list0));
+	if (q0.size()==0)
+	    sb.append(super.notesToString(q1));
+	else if (q1.size()==0)
+	    sb.append(super.notesToString(q0));
 	else{
 	    sb.append("<< { ");
-	    sb.append(super.notesToString(list0));
+	    sb.append(super.notesToString(q0));
 	    sb.append(" } \\context DrumVoice = \"drsb\" { ");
-	    sb.append(super.notesToString(list1));
+	    sb.append(super.notesToString(q1));
 	    sb.append(" } >>");
 	}
 	return sb.toString();

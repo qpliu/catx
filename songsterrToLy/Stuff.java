@@ -24,7 +24,7 @@ final class Stuff{
 	    else
 		ly += '\'';
 	}
-	return scale[key-48]+ly;
+	return ly;
     }
     static int ly2midi(String ly){
 	int key=48;

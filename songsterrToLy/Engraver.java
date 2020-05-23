@@ -4,7 +4,8 @@ abstract class Engraver{
 	this.state = state;
     }
     final void noindent(String s){
-	System.out.println(s);
+	if (state.pass==1)
+	    System.out.println(s);
     }
     final void print(String s){
 	for (int i=0; i<state.indent; i++)
@@ -19,5 +20,5 @@ abstract class Engraver{
 	--state.indent;
 	print(s);
     }
-    abstract void engrave(Json measure,Json nextMeasure);
+    abstract void engrave(Json measure);
 }

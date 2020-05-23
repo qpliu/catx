@@ -1,5 +1,5 @@
 final class TempoEngraver extends Engraver{
-    @Override void engrave(Json measure,Json nextMeasure){
+    @Override void engrave(Json measure){
 	Json index=measure.get("index");
 	for (Json t:state.part.get("automations").get("tempo").list)
 	    if (t.get("measure").equals(index)){
