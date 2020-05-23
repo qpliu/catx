@@ -10,8 +10,8 @@ final class SongsterrToLy{
     };
     private static final Engraver[]engravers={
 	new MeasureNumberEngraver(),
-	new TempoEngraver(),
 	new TimeSignatureEngraver(),
+	new TempoEngraver(),
 	new MarkerEngraver(),
     };
     public static void main(String[]argv)throws IOException{
