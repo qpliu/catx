@@ -10,6 +10,7 @@ final class SongsterrToLy{
 	new GuitarInstrument(),
     };
     private static final Engraver[]engravers={
+	new MetadataEngraver(),
 	new MeasureNumberEngraver(),
 	new TimeSignatureEngraver(),
 	new TempoEngraver(),
@@ -21,36 +22,33 @@ final class SongsterrToLy{
 	System.exit(1);
     }
     public static void main(String[]argv)throws IOException{
-	boolean lyrics=false;
-	String partName="part";
-	String url=null;
+	State state=new State();
 	for (int i=0; i<argv.length; i++)
 	    if (argv[i].equals("--lyrics"))
-		lyrics = true;
+		state.lyrics = true;
 	    else if (argv[i].equals("--name"))
-		partName = argv[++i];
-	    else if (url!=null)
+		state.partName = argv[++i];
+	    else if (state.url!=null)
 		usage();
 	    else
-		url = argv[i];
-	if (url==null)
+		state.url = argv[i];
+	if (state.url==null)
 	    usage();
 	InputStream is;
-	if (url.equals("-"))
+	if (state.url.equals("-"))
 	    is = System.in;
 	else
-	    is = new URL(argv[0]).openConnection().getInputStream();
+	    is = new URL(state.url).openConnection().getInputStream();
 	ByteArrayOutputStream baos=new ByteArrayOutputStream();
 	for (int i; (i=is.read())!=-1; baos.write(i));
 	Matcher m=Pattern.compile("(?s).*<script id=\"state\" type=\"application/json\">(.*?)</script>.*").matcher(baos.toString());
 	if (!m.matches())
 	    throw new IOException("State pattern did not match.");
-	State state=new State(Json.parse(m.group(1)),lyrics,partName);
-	System.out.println("% url: "+url);
-	System.out.println("% artist: "+state.meta.get("artist").stringValue());
-	System.out.println("% title: "+state.meta.get("title").stringValue());
-	System.out.println("% instrument: "+state.track.get("instrument").stringValue());
-	System.out.println("% name: "+state.track.get("name").stringValue());
+	state.json = Json.parse(m.group(1));
+	state.data = state.json.get("data");
+	state.part = state.data.get("part");
+	state.meta = state.json.get("meta");
+	state.track = state.json.get("track");
 	Instrument instrument=null;
 	for (Instrument i:instruments)
 	    if (i.matches(state)){
