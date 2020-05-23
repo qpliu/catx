@@ -1,6 +1,6 @@
 abstract class Engraver{
     State state;
-    final void setState(State state){
+    void setState(State state){
 	this.state = state;
     }
     final void noindent(String s){

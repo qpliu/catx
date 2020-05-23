@@ -2,13 +2,42 @@ import java.util.*;
 
 abstract class Instrument extends Engraver{
     private static final int DIVISION=384;
-    abstract boolean matches(Json track);
+    abstract boolean matches(State state);
     abstract void printHead();
     void printFoot(){
 	/*{*/ unindent("}");
     }
-    static abstract class Note implements Comparable<Note>{
-	abstract String getLy();
+    interface Note extends Comparable<Note>{
+	String getLyNote();
+	default String getLySuffix(){
+	    return "";
+	}
+    }
+    private static String[]scale={"c","cis","d","dis","e","f","fis","g","gis","a","ais","b"};
+    static class MidiNote implements Note{
+	private final int note;
+	MidiNote(int note){
+	    this.note = note;
+	}
+	public int compareTo(Note n){
+	    return Integer.compare(note,((MidiNote)n).note);
+	}
+	@Override public String getLyNote(){
+	    String ly="";
+	    int n=note;
+	    while (n<48){
+		n += 12;
+		ly += ',';
+	    }
+	    while (n>=60){
+		n -= 12;
+		ly += '\'';
+	    }
+	    return scale[n-48]+ly;
+	}
+	@Override public String getLySuffix(){
+	    return "";
+	}
     }
     class Event implements Comparable<Event>{
 	final int time;
@@ -43,7 +72,15 @@ abstract class Instrument extends Engraver{
 	    if (rest)
 		sb.append('r');
 	    else
-		sb.append(note.getLy());
+		sb.append(note.getLyNote());
+	    return sb.toString();
+	}
+	String getLySuffix(){
+	    StringBuilder sb=new StringBuilder();
+	    if (note!=null)
+		sb.append(note.getLySuffix());
+	    if (tie_from)
+		sb.append('~');
 	    return sb.toString();
 	}
     }
@@ -93,16 +130,14 @@ abstract class Instrument extends Engraver{
 			sb2.append(' ');
 		    Event e=list.get(k);
 		    sb2.append(e);
-		    if (e.tie_from)
-			sb2.append('~');
+		    sb2.append(e.getLySuffix());
 		}
 		sb2.append('>');
 		sb.append(appendTime(sb2.toString(),duration));
 	    }else{
 		Event e=list.get(j);
 		sb.append(appendTime(e.toString(),duration));
-		if (e.tie_from)
-		    sb.append('~');
+		sb.append(e.getLySuffix());
 	    }
 	    sb.append(' ');
 	    time = start+duration;

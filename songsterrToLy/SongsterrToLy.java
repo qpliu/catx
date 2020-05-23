@@ -6,6 +6,7 @@ import java.util.regex.*;
 final class SongsterrToLy{
     private static final Instrument[]instruments={
 	new DrumsInstrument(),
+	new GuitarInstrument(),
     };
     private static final Engraver[]engravers={
 	new MeasureNumberEngraver(),
@@ -29,31 +30,20 @@ final class SongsterrToLy{
 	Matcher m=Pattern.compile("(?s).*<script id=\"state\" type=\"application/json\">(.*?)</script>.*").matcher(baos.toString());
 	if (!m.matches())
 	    throw new IOException("State pattern did not match.");
-	Json json=Json.parse(m.group(1));
-	Json meta=json.get("meta");
-	Json data=json.get("data");
-	Json part=data.get("part");
-	System.out.println("% artist: "+meta.get("artist").stringValue());
-	System.out.println("% title: "+meta.get("title").stringValue());
-	Json partId=data.get("partId");
-	Json track=null;
-	for (Json t:meta.get("tracks").list)
-	    if (t.get("partId").equals(partId))
-		track = t;
-	if (track==null)
-	    throw new IOException("Did not find partId in data.meta.tracks.");
+	State state=new State(Json.parse(m.group(1)));
+	System.out.println("% artist: "+state.meta.get("artist").stringValue());
+	System.out.println("% title: "+state.meta.get("title").stringValue());
 	Instrument instrument=null;
 	for (Instrument i:instruments)
-	    if (i.matches(track))
+	    if (i.matches(state))
 		instrument = i;
 	if (instrument==null)
 	    throw new IOException("No Instrument matches.");
-	State state=new State(json);
 	for (Engraver e:engravers)
 	    e.setState(state);
 	instrument.setState(state);
 	instrument.printHead();
-	List<Json>measures=part.get("measures").list;
+	List<Json>measures=state.part.get("measures").list;
 	for (int i=0; i<measures.size(); i++){
 	    Json measure=measures.get(i);
 	    Json nextMeasure=i+1<measures.size()?measures.get(i+1):null;

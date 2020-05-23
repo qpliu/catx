@@ -2,7 +2,7 @@ import java.util.*;
 
 final class DrumsInstrument extends Instrument{
     private static Map<Integer,Drum>drumMap=new HashMap<Integer,Drum>();
-    private static class Drum extends Note{
+    private static class Drum implements Note{
 	final int note;
 	final String name;
 	final int voice;
@@ -23,7 +23,7 @@ final class DrumsInstrument extends Instrument{
 	@Override public String toString(){
 	    return note+','+name+','+voice;
 	}
-	@Override String getLy(){
+	@Override public String getLyNote(){
 	    return name;
 	}
     }
@@ -82,9 +82,9 @@ final class DrumsInstrument extends Instrument{
 	    return null;
 	return drumMap.get(fret.intValue());
     }
-    @Override boolean matches(Json track){
+    @Override boolean matches(State state){
 	Json j;
-	return (j=track.get("isDrums"))!=null && j.booleanValue();
+	return (j=state.track.get("isDrums"))!=null && j.booleanValue();
     }
     @Override void printHead(){
 	indent("drsPart = \\new DrumVoice = \"drsb\" \\new DrumVoice = \"drsa\" \\drummode {"); //}

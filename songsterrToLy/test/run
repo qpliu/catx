@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+./build
+for a in test/*.html
+do
+    b=`basename "$a" .html`
+    d=`dirname "$a"`
+    java -jar 1.jar - <"$a" >"$d/$b.ly"
+done
