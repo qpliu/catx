@@ -87,7 +87,7 @@ final class DrumsInstrument extends Instrument{
 	return (j=state.track.get("isDrums"))!=null && j.booleanValue();
     }
     @Override void printHead(){
-	indent("drsPart = \\new DrumVoice = \"drsb\" \\new DrumVoice = \"drsa\" \\drummode {"); //}
+	indent(state.partName+" = \\new DrumVoice = \"drsb\" \\new DrumVoice = \"drsa\" \\drummode {"); //}
 	print("\\context DrumVoice = \"drsa\" \\voiceOne");
 	print("\\context DrumVoice = \"drsb\" \\voiceTwo");
     }

@@ -30,6 +30,6 @@ final class GuitarInstrument extends Instrument{
 	return true;
     }
     @Override void printHead(){
-	indent("guitarPart = {"); //}
+	indent(state.partName+" = {"); //}
     }
 }

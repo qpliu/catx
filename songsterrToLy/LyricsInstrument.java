@@ -5,7 +5,7 @@ final class LyricsInstrument extends Instrument{
 	return state.lyrics;
     }
     @Override void printHead(){
-	indent("lyricsPart = \\lyricmode {"); //}
+	indent(state.partName+" = \\lyricmode {"); //}
     }
     static class LyricNote implements Note{
 	private final String text;

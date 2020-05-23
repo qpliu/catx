@@ -16,16 +16,19 @@ final class SongsterrToLy{
 	new MarkerEngraver(),
     };
     private static void usage(){
-	System.err.println("Usage: java SongsterrToLy [--lyrics] url");
-	System.err.println("    or java SongsterrToLy [--lyrics] - <filename");
+	System.err.println("Usage: java SongsterrToLy [--lyrics] [--name partName] url");
+	System.err.println("url is something like \"https://www.songsterr.com/a/wsa/momoiro-clover-z-moon-pride-tab-s456232t0\" or \"-\" for stdin");
 	System.exit(1);
     }
     public static void main(String[]argv)throws IOException{
 	boolean lyrics=false;
+	String partName="part";
 	String url=null;
 	for (int i=0; i<argv.length; i++)
 	    if (argv[i].equals("--lyrics"))
 		lyrics = true;
+	    else if (argv[i].equals("--name"))
+		partName = argv[++i];
 	    else if (url!=null)
 		usage();
 	    else
@@ -42,7 +45,7 @@ final class SongsterrToLy{
 	Matcher m=Pattern.compile("(?s).*<script id=\"state\" type=\"application/json\">(.*?)</script>.*").matcher(baos.toString());
 	if (!m.matches())
 	    throw new IOException("State pattern did not match.");
-	State state=new State(Json.parse(m.group(1)),lyrics);
+	State state=new State(Json.parse(m.group(1)),lyrics,partName);
 	System.out.println("% url: "+url);
 	System.out.println("% artist: "+state.meta.get("artist").stringValue());
 	System.out.println("% title: "+state.meta.get("title").stringValue());

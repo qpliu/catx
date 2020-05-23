@@ -1,14 +1,7 @@
 #!/bin/sh
 set -e
 ./build
-for a in test/*.html
-do
-    b=`basename "$a" .html`
-    d=`dirname "$a"`
-    lyrics=
-    if test "x$b" = "xlyrics"
-    then
-	lyrics="--lyrics"
-    fi
-    java -jar 1.jar $lyrics - <"$a" >"$d/$b.ly"
-done
+java -jar 1.jar --name bassPart - <test/bass.html >test/bass.ly
+java -jar 1.jar --name drsPart - <test/drs.html >test/drs.ly
+java -jar 1.jar --name voLyrics --lyrics - <test/lyrics.html >test/lyrics.ly
+java -jar 1.jar --name synthPart - <test/synth.html >test/synth.ly

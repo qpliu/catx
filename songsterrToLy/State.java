@@ -1,4 +1,5 @@
 final class State{
+    final String partName;
     final boolean lyrics;
     final Json json;
     final Json meta;
@@ -9,9 +10,10 @@ final class State{
     int indent;
     int tempo;
     int timen,timed;
-    State(Json json,boolean lyrics){
+    State(Json json,boolean lyrics,String partName){
 	this.json = json;
 	this.lyrics = lyrics;
+	this.partName = partName;
 	data = json.get("data");
 	part = data.get("part");
 	meta = json.get("meta");
