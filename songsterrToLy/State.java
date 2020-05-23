@@ -1,5 +1,6 @@
 final class State{
     String partName="partName";
+    String drumMap=null;
     String url;
     boolean lyrics;
     Json json;

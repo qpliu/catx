@@ -1,18 +1,17 @@
 import java.util.*;
 
 final class DrumsInstrument extends Instrument{
-    private static Map<Integer,Drum>drumMap=new HashMap<Integer,Drum>();
+    private final Map<Integer,Drum>drumMap=new HashMap<Integer,Drum>();
     private static class Drum implements Note{
 	final int note;
 	final String name;
 	final int voice;
 	final int sort;
-	Drum(int note,String name,int voice){
+	Drum(int note,String name,int voice,int sort){
 	    this.note = note;
 	    this.name = name;
 	    this.voice = voice;
-	    this.sort = drumMap.size();
-	    drumMap.put(note,this);
+	    this.sort = sort;
 	}
 	@Override public int compareTo(Note n){
 	    Drum d=(Drum)n;
@@ -27,54 +26,63 @@ final class DrumsInstrument extends Instrument{
 	    return name;
 	}
     }
-    static{
-	new Drum(49,"cymc",0);
-	new Drum(51,"cymr",0);
-	new Drum(52,"cymch",0);
-	new Drum(55,"cyms",0);
-	new Drum(57,"cymcb",0);
-	new Drum(59,"cymrb",0);
-	new Drum(38,"sn",0);
-	new Drum(40,"sne",0);
-	new Drum(50,"tomh",0);
-	new Drum(48,"tommh",0);
-	new Drum(47,"tomml",0);
-	new Drum(45,"toml",0);
-	new Drum(43,"tomfh",0);
-	new Drum(41,"tomfl",0);
-	new Drum(42,"hh",0);
-	new Drum(46,"hho",0);
-	new Drum(35,"bda",1);
-	new Drum(36,"bd",1);
-	new Drum(37,"ss",0);
-	new Drum(39,"hc",0);
-	new Drum(44,"hhp",1);
-	new Drum(53,"rb",0);
-	new Drum(54,"tamb",0);
-	new Drum(56,"cb",0);
-	new Drum(58,"vibs",0);
-	new Drum(60,"boh",0);
-	new Drum(61,"bol",0);
-	new Drum(62,"cghm",0);
-	new Drum(63,"cgh",0);
-	new Drum(64,"cgl",0);
-	new Drum(65,"timh",0);
-	new Drum(66,"timl",0);
-	new Drum(67,"agh",0);
-	new Drum(68,"agl",0);
-	new Drum(69,"cab",0);
-	new Drum(70,"mar",0);
-	new Drum(71,"whs",0);
-	new Drum(72,"whl",0);
-	new Drum(73,"guis",0);
-	new Drum(74,"guil",0);
-	new Drum(75,"cl",0);
-	new Drum(76,"wbh",0);
-	new Drum(77,"wbl",0);
-	new Drum(78,"cuim",0);
-	new Drum(79,"cuio",0);
-	new Drum(80,"trim",0);
-	new Drum(81,"tri",0);
+    private static final String DEFAULT_DRUM_MAP=
+	"49 cymc 0,"+
+	"51 cymr 0,"+
+	"52 cymch 0,"+
+	"55 cyms 0,"+
+	"57 cymcb 0,"+
+	"59 cymrb 0,"+
+	"38 sn 0,"+
+	"40 sne 0,"+
+	"50 tomh 0,"+
+	"48 tommh 0,"+
+	"47 tomml 0,"+
+	"45 toml 0,"+
+	"43 tomfh 0,"+
+	"41 tomfl 0,"+
+	"42 hh 0,"+
+	"46 hho 0,"+
+	"35 bda 1,"+
+	"36 bd 1,"+
+	"37 ss 0,"+
+	"39 hc 0,"+
+	"44 hhp 1,"+
+	"53 rb 0,"+
+	"54 tamb 0,"+
+	"56 cb 0,"+
+	"58 vibs 0,"+
+	"60 boh 0,"+
+	"61 bol 0,"+
+	"62 cghm 0,"+
+	"63 cgh 0,"+
+	"64 cgl 0,"+
+	"65 timh 0,"+
+	"66 timl 0,"+
+	"67 agh 0,"+
+	"68 agl 0,"+
+	"69 cab 0,"+
+	"70 mar 0,"+
+	"71 whs 0,"+
+	"72 whl 0,"+
+	"73 guis 0,"+
+	"74 guil 0,"+
+	"75 cl 0,"+
+	"76 wbh 0,"+
+	"77 wbl 0,"+
+	"78 cuim 0,"+
+	"79 cuio 0,"+
+	"80 trim 0,"+
+	"81 tri 0";
+    @Override void setState(State state){
+	super.setState(state);
+	for (StringTokenizer st=new StringTokenizer(state.drumMap==null?DEFAULT_DRUM_MAP:state.drumMap,","); st.hasMoreTokens();){
+	    StringTokenizer st2=new StringTokenizer(st.nextToken());
+	    int key=Integer.parseInt(st2.nextToken());
+	    String name=st2.nextToken();
+	    int voice=Integer.parseInt(st2.nextToken());
+	    drumMap.put(key,new Drum(key,name,voice,drumMap.size()));
+	}
     }
     @Override Note getNote(Json note){
 	Json fret=note.get("fret");

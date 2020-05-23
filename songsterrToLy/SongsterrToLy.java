@@ -17,7 +17,7 @@ final class SongsterrToLy{
 	new MarkerEngraver(),
     };
     private static void usage(){
-	System.err.println("Usage: java SongsterrToLy [--lyrics] [--name partName] url");
+	System.err.println("Usage: java SongsterrToLy [--lyrics] [--name partName] [--drumMap map] url");
 	System.err.println("url is something like \"https://www.songsterr.com/a/wsa/momoiro-clover-z-moon-pride-tab-s456232t0\" or \"-\" for stdin");
 	System.exit(1);
     }
@@ -28,6 +28,8 @@ final class SongsterrToLy{
 		state.lyrics = true;
 	    else if (argv[i].equals("--name"))
 		state.partName = argv[++i];
+	    else if (argv[i].equals("--drumMap"))
+		state.drumMap = argv[++i];
 	    else if (state.url!=null)
 		usage();
 	    else
