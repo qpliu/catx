@@ -1,0 +1,225 @@
+guitarFourPart = {
+% url: -
+% artist: Babymetal
+% title: Gimme Choco
+% instrument: Overdriven Guitar
+% name: Guitar Solo 2
+    \time 4/4
+    \tempo 4 = 220
+\mymark "Riff 1" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Riff 2" #25
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #33
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #41
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Riff 1" #57
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Riff 2" #65
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #73
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #81
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Post-Chorus" #97
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Riff 1" #105
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Solo" #121
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    b16\4 a16\4 gis16\4 f16\5 gis16\4 a16\4 b16\4 c'16\4 d'16\3 e'16\3 d'16\3 c'16\4 dis'16\3 e'16\3 f'16\3 fis'16\3 |
+    gis'16\2 a'16\2 gis'16\2 fis'16\3 gis'16\2 a'16\2 ais'16\2 b'16\2 d''16\1 dis''16\1 d''16\1 b'16\2 d''16\1 dis''16\1 e''16\1 f''16\1 |
+    e''16\1 f''16\1 e''16\1 d''16\2 e''4\1 c'4\1 e''16\1 f''16\1 e''16\1 d''16\2 |
+    e''4\1 c'8\1 e''8\1 f''8\1 gis''8\1 gis''8\1 f''8\1 |
+    e''16\1 f''16\1 e''16\1 d''16\2 f''16\1 dis''16\1 d''16\2 c''16\2 e''16\1 d''16\2 c''16\2 b'16\2 d''16\2 c''16\2 b'16\2 a'16\3 |
+    gis'4\3 dis4\3~ dis4\3~ dis8\3 gis'16\3 a'16\3 |
+    b'16\3 b'16\3 b'16\3 \tuplet 3/2 { b'8 }\3 \tuplet 3/2 { a'8 }\3 \tuplet 3/2 { gis'8 }\3 b'16\3 b'16\3 b'16\3 a'16\3 gis'16\3 b'16\3 b'16\3 a'16\3 gis'16\3 |
+    c''16\3 c''16\3 c''16\3 c''16\3 b'16\3 a'16\3 c''16\3 c''16\3 c''16\3 b'16\3 a'16\3 c''16\3 b'16\3 a'16\3 dis8\3 |
+    d''4\2 e''4\2 f''4\2 gis''8\1 a''8\1 |
+    b''2\1 r2 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 3" #145
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge" #153
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #169
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Post-Chorus" #185
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Outro" #193
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

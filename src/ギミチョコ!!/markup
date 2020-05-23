@@ -1,0 +1,47 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \key b \major
+    \time 4/4
+    \tempo 4 = 220
+\mymark "Riff 1" #1
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Riff 2" #25
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Verse 1" #33
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Chorus" #41
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Riff 1" #57
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Riff 2" #65
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Verse 2" #73
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Chorus" #81
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Post-Chorus" #97
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Riff 1" #105
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Solo" #121
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Verse 3" #145
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Bridge" #153
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Chorus" #169
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Post-Chorus" #185
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Outro" #193
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+}
