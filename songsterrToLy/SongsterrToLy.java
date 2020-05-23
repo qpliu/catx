@@ -33,10 +33,14 @@ final class SongsterrToLy{
 	State state=new State(Json.parse(m.group(1)));
 	System.out.println("% artist: "+state.meta.get("artist").stringValue());
 	System.out.println("% title: "+state.meta.get("title").stringValue());
+	System.out.println("% instrument: "+state.track.get("instrument").stringValue());
+	System.out.println("% name: "+state.track.get("name").stringValue());
 	Instrument instrument=null;
 	for (Instrument i:instruments)
-	    if (i.matches(state))
+	    if (i.matches(state)){
 		instrument = i;
+		break;
+	    }
 	if (instrument==null)
 	    throw new IOException("No Instrument matches.");
 	for (Engraver e:engravers)

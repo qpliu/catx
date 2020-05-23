@@ -5,11 +5,11 @@ final class GuitarInstrument extends Instrument{
     private class GuitarNote extends MidiNote{
 	final int string;
 	GuitarNote(int string,int fret){
-	    super(tuning[string-1]+fret);
+	    super(tuning[string]+fret);
 	    this.string = string;
 	}
 	@Override public String getLySuffix(){
-	    return "\\"+string;
+	    return "\\"+(string+1);
 	}
     }
     @Override void setState(State state){
@@ -27,12 +27,7 @@ final class GuitarInstrument extends Instrument{
 	return new GuitarNote(string.intValue(),fret.intValue());
     }
     @Override boolean matches(State state){
-	Json j;
-	if ((j=state.track.get("isGuitar"))!=null && j.booleanValue())
-	    return true;
-	if ((j=state.track.get("isBassGuitar"))!=null && j.booleanValue())
-	    return true;
-	return false;
+	return true;
     }
     @Override void printHead(){
 	indent("guitarPart = {"); //}
