@@ -8,8 +8,9 @@ abstract class Engraver{
 	    System.out.println(s);
     }
     final void print(String s){
-	for (int i=0; i<state.indent; i++)
-	    System.out.print("    ");
+	if (state.pass==1)
+	    for (int i=0; i<state.indent; i++)
+		System.out.print("    ");
 	noindent(s);
     }
     final void indent(String s){

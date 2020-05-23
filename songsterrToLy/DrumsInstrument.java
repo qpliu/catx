@@ -17,10 +17,7 @@ final class DrumsInstrument extends Instrument{
 	    Drum d=(Drum)n;
 	    if (sort!=d.sort)
 		return Integer.compare(sort,d.sort);
-	    return toString().compareTo(d.toString());
-	}
-	@Override public String toString(){
-	    return note+','+name+','+voice;
+	    return name.compareTo(d.name);
 	}
 	@Override public String getLyNote(){
 	    return name;
@@ -76,13 +73,14 @@ final class DrumsInstrument extends Instrument{
 	"81 tri 0";
     @Override void setState(State state){
 	super.setState(state);
-	for (StringTokenizer st=new StringTokenizer(state.argv_drumMap==null?DEFAULT_DRUM_MAP:state.argv_drumMap,","); st.hasMoreTokens();){
-	    StringTokenizer st2=new StringTokenizer(st.nextToken());
-	    int key=Integer.parseInt(st2.nextToken());
-	    String name=st2.nextToken();
-	    int voice=Integer.parseInt(st2.nextToken());
-	    drumMap.put(key,new Drum(key,name,voice,drumMap.size()));
-	}
+	if (state.pass==0)
+	    for (StringTokenizer st=new StringTokenizer(state.argv_drumMap==null?DEFAULT_DRUM_MAP:state.argv_drumMap,","); st.hasMoreTokens();){
+		StringTokenizer st2=new StringTokenizer(st.nextToken());
+		int key=Integer.parseInt(st2.nextToken());
+		String name=st2.nextToken();
+		int voice=Integer.parseInt(st2.nextToken());
+		drumMap.put(key,new Drum(key,name,voice,drumMap.size()));
+	    }
     }
     @Override Note getNote(Json note){
 	Json fret=note.get("fret");

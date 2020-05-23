@@ -7,6 +7,7 @@ synthPart = {
     \time 4/4
     \tempo 4 = 220
 \mymark "Riff 1" #1
+% tuning e, a, d g b e'
     r1 |
     r1 |
     r1 |
@@ -15,22 +16,22 @@ synthPart = {
     r1 |
     r1 |
     r1 |
-    <e'\2~ e''\1>1 |
-    <b\2~ e'\1~>2 <b\2 e'\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 |
-    <e'\2 e''\1>4. <dis'\2 dis''\1>4. <d'\2 d''\1>4 |
-    <b\2 e'\1>8 <c'\2 c''\1>4. r2 |
-    <e'\2~ e''\1>1 |
-    <b\2~ e'\1~>2 <b\2 e'\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 |
-    <e'\2 e''\1>4. <dis'\2 dis''\1>4. <d'\2 d''\1>4 |
-    <b\2 e'\1>8 <c'\2 c''\1>4. r2 |
-    <e'\2~ e''\1>1 |
-    <b\2~ e'\1~>2 <b\2 e'\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 |
-    <e'\2 e''\1>4. <dis'\2 dis''\1>4. <d'\2 d''\1>4 |
-    <b\2 e'\1>8 <c'\2 c''\1>4. r2 |
-    <e'\2~ e''\1>1 |
-    <b\2~ e'\1~>2 <b\2 e'\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 |
-    <e'\2 e''\1>4. <dis'\2 dis''\1>4. <d'\2 d''\1>4 |
-    <b\2 e'\1>8 <c'\2 c''\1>4. r2 |
+    <e'\2~ e''\1~>1 |
+    <e'\2 e''\1>2~ <e'\2 e''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 |
+    <e'\2 e''\1>4. <dis'\2 dis''\1>4. <d'\2~ d''\1~>4 |
+    <d'\2 d''\1>8 <c'\2 c''\1>4. r2 |
+    <e'\2~ e''\1~>1 |
+    <e'\2 e''\1>2~ <e'\2 e''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 |
+    <e'\2 e''\1>4. <dis'\2 dis''\1>4. <d'\2~ d''\1~>4 |
+    <d'\2 d''\1>8 <c'\2 c''\1>4. r2 |
+    <e'\2~ e''\1~>1 |
+    <e'\2 e''\1>2~ <e'\2 e''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 |
+    <e'\2 e''\1>4. <dis'\2 dis''\1>4. <d'\2~ d''\1~>4 |
+    <d'\2 d''\1>8 <c'\2 c''\1>4. r2 |
+    <e'\2~ e''\1~>1 |
+    <e'\2 e''\1>2~ <e'\2 e''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 |
+    <e'\2 e''\1>4. <dis'\2 dis''\1>4. <d'\2~ d''\1~>4 |
+    <d'\2 d''\1>8 <c'\2 c''\1>4. r2 |
 \mymark "Riff 2" #25
     r1 |
     r1 |
@@ -50,22 +51,22 @@ synthPart = {
     r1 |
     r1 |
 \mymark "Chorus" #41
-    <e\5 b\4 e'\3>2 <a,\5 d\4 g\3>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 b'\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 c''\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 cis''\1>8 |
-    <a,\5 d\4 g\3 b\2 e'\1>1 |
-    <e\5 b\4 e'\3>2 <a,\5 d\4 g\3>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 b'\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 c''\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 cis''\1>8 |
-    <a,\5 d\4 g\3 b\2 e'\1>1 |
-    <e\5 b\4 e'\3>2 <a,\5 d\4 g\3>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 b'\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 c''\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 cis''\1>8 |
-    <a,\5 d\4 g\3 b\2 e'\1>1 |
-    <e\5 b\4 e'\3>2 <a,\5 d\4 g\3>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 b'\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 c''\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 cis''\1>8 |
-    <a,\5 d\4 g\3 b\2 e'\1>2 r2 |
+    <e\5 b\4 e'\3>2.~ <e\5 b\4 e'\3>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ b'\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ c''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ cis''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 cis''\1>1 |
+    <e\5 b\4 e'\3>2.~ <e\5 b\4 e'\3>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ b'\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ c''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ cis''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 cis''\1>1 |
+    <e\5 b\4 e'\3>2.~ <e\5 b\4 e'\3>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ b'\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ c''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ cis''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 cis''\1>1 |
+    <e\5 b\4 e'\3>2.~ <e\5 b\4 e'\3>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ b'\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ c''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ cis''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 cis''\1>2 r2 |
 \mymark "Riff 1" #57
     r1 |
     r1 |
@@ -94,48 +95,48 @@ synthPart = {
     r1 |
     r1 |
 \mymark "Chorus" #81
-    <e\5 b\4 e'\3>2 <a,\5 d\4 g\3>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 b'\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 c''\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 cis''\1>8 |
-    <a,\5 d\4 g\3 b\2 e'\1>1 |
-    <e\5 b\4 e'\3>2 <a,\5 d\4 g\3>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 b'\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 c''\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 cis''\1>8 |
-    <a,\5 d\4 g\3 b\2 e'\1>1 |
-    <e\5 b\4 e'\3>2 <a,\5 d\4 g\3>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 b'\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 c''\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 cis''\1>8 |
-    <a,\5 d\4 g\3 b\2 e'\1>1 |
-    <e\5 b\4 e'\3>2 <a,\5 d\4 g\3>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 b'\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 c''\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 cis''\1>8 |
-    <a,\5 d\4 g\3 b\2 e'\1>2 r2 |
+    <e\5 b\4 e'\3>2.~ <e\5 b\4 e'\3>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ b'\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ c''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ cis''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 cis''\1>1 |
+    <e\5 b\4 e'\3>2.~ <e\5 b\4 e'\3>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ b'\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ c''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ cis''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 cis''\1>1 |
+    <e\5 b\4 e'\3>2.~ <e\5 b\4 e'\3>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ b'\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ c''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ cis''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 cis''\1>1 |
+    <e\5 b\4 e'\3>2.~ <e\5 b\4 e'\3>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ b'\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ c''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ cis''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 cis''\1>2 r2 |
 \mymark "Post-Chorus" #97
-    <\parenthesize b,\6 \parenthesize e\5 \parenthesize b\4 \parenthesize e'\3>1 |
-    <e,\6~ a,\5~ d\4~ g\3~>1 |
-    <e,\6~ a,\5~ d\4~ g\3~>1 |
-    <e,\6 a,\5 d\4 g\3>2 <\parenthesize ais,\6 \parenthesize dis\5 \parenthesize ais\4 \parenthesize dis'\3>4. <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>8 |
-    <b,\6 e\5 b\4 e'\3>1 |
-    <e,\6~ a,\5~ d\4~ g\3~>1 |
-    <e,\6~ a,\5~ d\4~ g\3~>1 |
-    <e,\6 a,\5 d\4 g\3>2 <\parenthesize ais,\6 \parenthesize dis\5 \parenthesize ais\4 \parenthesize dis'\3>2 |
+    <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>1 |
+    <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>1 |
+    <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>1 |
+    <\parenthesize b,\6 \parenthesize e\5 \parenthesize b\4 \parenthesize e'\3>2 <\parenthesize ais,\6 \parenthesize dis\5 \parenthesize ais\4 \parenthesize dis'\3>4. <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>8 |
+    <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>1 |
+    <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>1 |
+    <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>1 |
+    <\parenthesize b,\6 \parenthesize e\5 \parenthesize b\4 \parenthesize e'\3>2 <\parenthesize ais,\6 \parenthesize dis\5 \parenthesize ais\4 \parenthesize dis'\3>2 |
 \mymark "Riff 1" #105
-    <e'\2~ e''\1>1 |
-    <b\2~ e'\1~>2 <b\2 e'\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 |
-    <e'\2 e''\1>4. <dis'\2 dis''\1>4. <d'\2 d''\1>4 |
-    <b\2 e'\1>8 <c'\2 c''\1>4. r2 |
-    <e'\2~ e''\1>1 |
-    <b\2~ e'\1~>2 <b\2 e'\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 |
-    <e'\2 e''\1>4. <dis'\2 dis''\1>4. <d'\2 d''\1>4 |
-    <b\2 e'\1>8 <c'\2 c''\1>4. r2 |
-    <e'\2~ e''\1>1 |
-    <b\2~ e'\1~>2 <b\2 e'\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 |
-    <e'\2 e''\1>4. <dis'\2 dis''\1>4. <d'\2 d''\1>4 |
-    <b\2 e'\1>8 <c'\2 c''\1>4. r2 |
-    <e'\2~ e''\1>1 |
-    <b\2~ e'\1~>2 <b\2 e'\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 |
-    <e'\2 e''\1>4. <dis'\2 dis''\1>4. <d'\2 d''\1>4 |
-    <b\2 e'\1>8 <c'\2 c''\1>4. r2 |
+    <e'\2~ e''\1~>1 |
+    <e'\2 e''\1>2~ <e'\2 e''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 |
+    <e'\2 e''\1>4. <dis'\2 dis''\1>4. <d'\2~ d''\1~>4 |
+    <d'\2 d''\1>8 <c'\2 c''\1>4. r2 |
+    <e'\2~ e''\1~>1 |
+    <e'\2 e''\1>2~ <e'\2 e''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 |
+    <e'\2 e''\1>4. <dis'\2 dis''\1>4. <d'\2~ d''\1~>4 |
+    <d'\2 d''\1>8 <c'\2 c''\1>4. r2 |
+    <e'\2~ e''\1~>1 |
+    <e'\2 e''\1>2~ <e'\2 e''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 |
+    <e'\2 e''\1>4. <dis'\2 dis''\1>4. <d'\2~ d''\1~>4 |
+    <d'\2 d''\1>8 <c'\2 c''\1>4. r2 |
+    <e'\2~ e''\1~>1 |
+    <e'\2 e''\1>2~ <e'\2 e''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 <fis'\2 fis''\1>8 |
+    <e'\2 e''\1>4. <dis'\2 dis''\1>4. <d'\2~ d''\1~>4 |
+    <d'\2 d''\1>8 <c'\2 c''\1>4. r2 |
 \mymark "Solo" #121
     r1 |
     r1 |
@@ -171,55 +172,55 @@ synthPart = {
     r1 |
     r1 |
 \mymark "Bridge" #153
-    <e\5 b\4 e'\3>2 <a,\5 d\4 g\3>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 b'\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 c''\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 cis''\1>8 |
-    <a,\5 d\4 g\3 b\2 e'\1>1 |
-    <e\5 b\4 e'\3>2 <a,\5 d\4 g\3>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 b'\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 c''\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 cis''\1>8 |
-    <a,\5 d\4 g\3 b\2 e'\1>1 |
-    <e\5 b\4 e'\3>2 <a,\5 d\4 g\3>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 b'\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 c''\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 cis''\1>8 |
-    <a,\5 d\4 g\3 b\2 e'\1>1 |
-    <e\5 b\4 e'\3>2 <a,\5 d\4 g\3>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 b'\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 c''\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 cis''\1>8 |
-    <a,\5 d\4 g\3 b\2 e'\1>1 |
+    <e\5 b\4 e'\3>2.~ <e\5 b\4 e'\3>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ b'\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ c''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ cis''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 cis''\1>1 |
+    <e\5 b\4 e'\3>2.~ <e\5 b\4 e'\3>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ b'\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ c''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ cis''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 cis''\1>1 |
+    <e\5 b\4 e'\3>2.~ <e\5 b\4 e'\3>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ b'\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ c''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ cis''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 cis''\1>1 |
+    <e\5 b\4 e'\3>2.~ <e\5 b\4 e'\3>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ b'\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ c''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ cis''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 cis''\1>1 |
 \mymark "Chorus" #169
-    <e\5 b\4 e'\3>2 <a,\5 d\4 g\3>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 b'\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 c''\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 cis''\1>8 |
-    <a,\5 d\4 g\3 b\2 e'\1>1 |
-    <e\5 b\4 e'\3>2 <a,\5 d\4 g\3>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 b'\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 c''\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 cis''\1>8 |
-    <a,\5 d\4 g\3 b\2 e'\1>1 |
-    <e\5 b\4 e'\3>2 <a,\5 d\4 g\3>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 b'\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 c''\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 cis''\1>8 |
-    <a,\5 d\4 g\3 b\2 e'\1>1 |
-    <e\5 b\4 e'\3>2 <a,\5 d\4 g\3>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 b'\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 c''\1>8 |
-    <a,\5~ d\4~ g\3~ b\2~ e'\1~>2 <a,\5 d\4 g\3 b\2 e'\1>4. <\parenthesize e\5 \parenthesize b\4~ e'\3~ gis'\2 cis''\1>8 |
-    <a,\5 d\4 g\3 b\2 e'\1>1 |
+    <e\5 b\4 e'\3>2.~ <e\5 b\4 e'\3>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ b'\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ c''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ cis''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 cis''\1>1 |
+    <e\5 b\4 e'\3>2.~ <e\5 b\4 e'\3>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ b'\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ c''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ cis''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 cis''\1>1 |
+    <e\5 b\4 e'\3>2.~ <e\5 b\4 e'\3>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ b'\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ c''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ cis''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 cis''\1>1 |
+    <e\5 b\4 e'\3>2.~ <e\5 b\4 e'\3>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ b'\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 b'\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ c''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>2.~ <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 c''\1>8 <\parenthesize e\5~ \parenthesize b\4~ e'\3~ gis'\2~ cis''\1~>8 |
+    <\parenthesize e\5 \parenthesize b\4 e'\3 gis'\2 cis''\1>1 |
 \mymark "Post-Chorus" #185
-    <\parenthesize b,\6 \parenthesize e\5 \parenthesize b\4 \parenthesize e'\3>1 |
-    <e,\6~ a,\5~ d\4~ g\3~>1 |
-    <e,\6~ a,\5~ d\4~ g\3~>1 |
-    <e,\6 a,\5 d\4 g\3>2 <\parenthesize ais,\6 \parenthesize dis\5 \parenthesize ais\4 \parenthesize dis'\3>4. <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>8 |
-    <b,\6 e\5 b\4 e'\3>1 |
-    <e,\6~ a,\5~ d\4~ g\3~>1 |
-    <e,\6~ a,\5~ d\4~ g\3~>1 |
-    <e,\6 a,\5 d\4 g\3>2 <\parenthesize ais,\6 \parenthesize dis\5 \parenthesize ais\4 \parenthesize dis'\3>4. <\parenthesize b,\6 \parenthesize e\5 \parenthesize b\4 \parenthesize e'\3>8 |
+    <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>1 |
+    <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>1 |
+    <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>1 |
+    <\parenthesize b,\6 \parenthesize e\5 \parenthesize b\4 \parenthesize e'\3>2 <\parenthesize ais,\6 \parenthesize dis\5 \parenthesize ais\4 \parenthesize dis'\3>4. <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>8 |
+    <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>1 |
+    <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>1 |
+    <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>1 |
+    <\parenthesize b,\6 \parenthesize e\5 \parenthesize b\4 \parenthesize e'\3>2 <\parenthesize ais,\6 \parenthesize dis\5 \parenthesize ais\4 \parenthesize dis'\3>4. <\parenthesize b,\6 \parenthesize e\5 \parenthesize b\4 \parenthesize e'\3>8 |
 \mymark "Outro" #193
-    <\parenthesize b,\6 \parenthesize e\5 \parenthesize b\4 \parenthesize e'\3>1 |
-    <e,\6~ a,\5~ d\4~ g\3~>1 |
-    <e,\6~ a,\5~ d\4~ g\3~>1 |
-    <e,\6 a,\5 d\4 g\3>2 <\parenthesize ais,\6 \parenthesize dis\5 \parenthesize ais\4 \parenthesize dis'\3>4. <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>8 |
-    <b,\6 e\5 b\4 e'\3>1 |
-    <e,\6~ a,\5~ d\4~ g\3~>1 |
-    <e,\6~ a,\5~ d\4~ g\3~>1 |
-    <e,\6 a,\5 d\4 g\3>2 <\parenthesize ais,\6 \parenthesize dis\5 \parenthesize ais\4 \parenthesize dis'\3>4. <b,\6 e\5 b\4 e'\3>8 |
+    <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>1 |
+    <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>1 |
+    <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>1 |
+    <\parenthesize b,\6 \parenthesize e\5 \parenthesize b\4 \parenthesize e'\3>2 <\parenthesize ais,\6 \parenthesize dis\5 \parenthesize ais\4 \parenthesize dis'\3>4. <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>8 |
+    <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>1 |
+    <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>1 |
+    <\parenthesize b,\6~ \parenthesize e\5~ \parenthesize b\4~ \parenthesize e'\3~>1 |
+    <\parenthesize b,\6 \parenthesize e\5 \parenthesize b\4 \parenthesize e'\3>2 <\parenthesize ais,\6 \parenthesize dis\5 \parenthesize ais\4 \parenthesize dis'\3>4. <b,\6 e\5 b\4 e'\3>8 |
 }

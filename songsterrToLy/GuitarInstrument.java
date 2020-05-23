@@ -19,12 +19,17 @@ final class GuitarInstrument extends Instrument{
 	super.setState(state);
 	List<Json>l=state.track.get("tuning").list;
 	tuning = new int[l.size()];
-	StringBuilder sb=new StringBuilder();
-	for (int i=tuning.length; --i>=0;){
+	for (int i=0; i<tuning.length; i++)
 	    tuning[i] = l.get(i).intValue();
-	    sb.append(' ').append(Stuff.midi2ly(tuning[i]));
+    }
+    @Override void engrave(Json measure){
+	if (state.measureNumber==1){
+	    StringBuilder sb=new StringBuilder();
+	    for (int i=tuning.length; --i>=0;)
+		sb.append(' ').append(Stuff.midi2ly(tuning[i]));
+	    noindent("% tuning"+sb);
 	}
-	noindent("% tuning"+sb);
+	super.engrave(measure);
     }
     @Override Note getNote(Json note){
 	Json string=note.get("string");
