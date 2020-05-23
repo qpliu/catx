@@ -3,7 +3,7 @@ final class TimeSignatureEngraver extends Engraver{
 	Json ts=measure.get("signature");
 	if (ts!=null){
 	    int timen=ts.get(0).intValue();
-	    int timed=ts.get(0).intValue();
+	    int timed=ts.get(1).intValue();
 	    if (timen!=state.timen || timed!=state.timed)
 		print("\\time "+timen+"/"+timed);
 	    state.timen = timen;

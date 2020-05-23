@@ -20,8 +20,9 @@ final class SongsterrToLy{
 	    System.err.println("    or java SongsterrToLy - <filename");
 	    System.exit(1);
 	}
+	String url=argv[0];
 	InputStream is;
-	if (argv[0].equals("-"))
+	if (url.equals("-"))
 	    is = System.in;
 	else
 	    is = new URL(argv[0]).openConnection().getInputStream();
@@ -31,6 +32,7 @@ final class SongsterrToLy{
 	if (!m.matches())
 	    throw new IOException("State pattern did not match.");
 	State state=new State(Json.parse(m.group(1)));
+	System.out.println("% url: "+url);
 	System.out.println("% artist: "+state.meta.get("artist").stringValue());
 	System.out.println("% title: "+state.meta.get("title").stringValue());
 	System.out.println("% instrument: "+state.track.get("instrument").stringValue());
