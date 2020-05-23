@@ -1,0 +1,7 @@
+#!/bin/sh
+set -e
+exec 2>&1
+rm -f *.class 1.jar
+javac *.java
+jar cef SongsterrToLy 1.jar *.class
+rm -f *.class
