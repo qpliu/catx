@@ -1,0 +1,227 @@
+drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+% url: -
+% artist: Babymetal
+% title: Gimme Choco
+% instrument: Drums
+% name: Drums
+    \time 4/4
+    \tempo 4 = 220
+\mymark "Riff 1" #1
+    << { <cymc \parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>16 sne16 \parenthesize cyms16 r16 <cyms sne>8 <cymc~ cyms~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd16 bd16 r8 bd8~ | } >>
+    << { <cymc cyms>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 <cyms sne>8 <\parenthesize cyms sne>8 <cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd16 bd16 r4. bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cymc \parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>16 sne16 \parenthesize cyms16 r16 <cyms sne>8 <cymc~ cyms~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd16 bd16 r8 bd8~ | } >>
+    << { <cymc cyms>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 <cyms sne>8 <\parenthesize cyms sne>8 <cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd16 bd16 r4. bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cymc \parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>16 sne16 \parenthesize cyms16 r16 <cyms sne>8 <cymc~ cyms~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd16 bd16 r8 bd8~ | } >>
+    << { <cymc cyms>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 <cyms sne>8 <\parenthesize cyms sne>8 <cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd16 bd16 r4. bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cymc \parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>16 sne16 \parenthesize cyms16 r16 <cyms sne>8 <cymc~ cyms~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd16 bd16 r8 bd8~ | } >>
+    << { <cymc cyms>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 <cyms sne>8 <\parenthesize cyms sne>8 <cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd16 bd16 r4. bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cymc \parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>16 sne16 \parenthesize cyms16 r16 <cyms sne>8 <cymc~ cyms~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd16 bd16 r8 bd8~ | } >>
+    << { <cymc cyms>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 <cyms sne>8 <\parenthesize cyms sne>8 <cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd16 bd16 r4. bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cymc \parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>16 sne16 \parenthesize cyms16 r16 <cyms sne>8 <cymc~ cyms~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd16 bd16 r8 bd8~ | } >>
+    << { <cymc cyms>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 <cyms sne>8 <\parenthesize cyms sne>8 <cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd16 bd16 r4. bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+\mymark "Riff 2" #25
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd16 bd16 | } >>
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd16 bd16 | } >>
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 sne8 sne8 sne8 sne8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r2 | } >>
+\mymark "Verse 1" #33
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd16 bd16 | } >>
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd16 bd16 | } >>
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 sne8 r4 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r2 | } >>
+\mymark "Chorus" #41
+    << { cymc8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r4 | } >>
+    << { cymc8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r4 | } >>
+    << { cymc8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r4 | } >>
+    << { cymc8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 r4. | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 r4. | } >>
+\mymark "Riff 1" #57
+    << { <cymc \parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>16 sne16 \parenthesize cyms16 r16 <cyms sne>8 <cymc~ cyms~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd16 bd16 r8 bd8~ | } >>
+    << { <cymc cyms>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 <cyms sne>8 <\parenthesize cyms sne>8 <cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd16 bd16 r4. bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cymc \parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>16 sne16 \parenthesize cyms16 r16 <cyms sne>8 <cymc~ cyms~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd16 bd16 r8 bd8~ | } >>
+    << { <cymc cyms>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 <cyms sne>8 <\parenthesize cyms sne>8 <cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd16 bd16 r4. bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+\mymark "Riff 2" #65
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd16 bd16 | } >>
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd16 bd16 | } >>
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 sne8 sne8 sne8 sne8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r2 | } >>
+\mymark "Verse 2" #73
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd16 bd16 | } >>
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd16 bd16 | } >>
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 sne8 r4 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r2 | } >>
+\mymark "Chorus" #81
+    << { cymc8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r4 | } >>
+    << { cymc8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r4 | } >>
+    << { cymc8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r4 | } >>
+    << { cymc8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 r8 sne8 sne8 r8 | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 r4. | } >>
+\mymark "Post-Chorus" #97
+    << { cymcb8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 cyms8 \parenthesize cyms8 <cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd8 bd8 bd8~ | } >>
+    << { cyms4 <cyms sne>8 \parenthesize cyms8 cyms8 \parenthesize cyms8 <cyms sne>8 cymcb8~ | } \context DrumVoice = "drsb" { bd4 r4 bd8 bd8 r8 bd8~ | } >>
+    << { cymcb4 <cyms sne>8 \parenthesize cyms8 cyms8 \parenthesize cyms8 <cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd4 r4 bd8 bd8 r8 bd8~ | } >>
+    << { cyms4 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 cymcb8~ | } \context DrumVoice = "drsb" { bd4 r4. bd8 r8 bd8~ | } >>
+    << { cymcb4 <cyms sne>8 \parenthesize cyms8 cyms8 \parenthesize cyms8 <cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd4 r4 bd8 bd8 r8 bd8~ | } >>
+    << { cyms4 <cyms sne>8 \parenthesize cyms8 cyms8 \parenthesize cyms8 <cyms sne>8 cymcb8~ | } \context DrumVoice = "drsb" { bd4 r4 bd8 bd8 r8 bd8~ | } >>
+    << { cymcb4 <cyms sne>8 \parenthesize cyms8 cyms8 \parenthesize cyms8 <cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd4 r4 bd8 bd8 r8 bd8~ | } >>
+    << { cyms8 r8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 r8 | } \context DrumVoice = "drsb" { bd8 r4 bd8 r8 bd8 r4 | } >>
+\mymark "Riff 1" #105
+    << { <cymc \parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>16 sne16 \parenthesize cyms16 r16 <cyms sne>8 <cymc~ cyms~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd16 bd16 r8 bd8~ | } >>
+    << { <cymc cyms>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 <cyms sne>8 <\parenthesize cyms sne>8 <cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd16 bd16 r4. bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cymc \parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>16 sne16 \parenthesize cyms16 r16 <cyms sne>8 <cymc~ cyms~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd16 bd16 r8 bd8~ | } >>
+    << { <cymc cyms>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 <cyms sne>8 <\parenthesize cyms sne>8 <cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd16 bd16 r4. bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cymc \parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>16 sne16 \parenthesize cyms16 r16 <cyms sne>8 <cymc~ cyms~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd16 bd16 r8 bd8~ | } >>
+    << { <cymc cyms>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 <cyms sne>8 <\parenthesize cyms sne>8 <cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd16 bd16 r4. bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cymc \parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 cyms8 <\parenthesize cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>16 sne16 \parenthesize cyms16 r16 <cyms sne>8 <cymc~ cyms~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd16 bd16 r8 bd8~ | } >>
+    << { <cymc cyms>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 <cyms sne>8 <\parenthesize cyms sne>8 <cyms sne>8 <cyms~ cymcb~>8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd16 bd16 r4. bd8~ | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 sne8 sne8 sne8 sne8 sne8 sne8 | } \context DrumVoice = "drsb" { bd8 bd8 r2. | } >>
+\mymark "Solo" #121
+    << { <cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd16 bd16 | } >>
+    << { <cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd16 bd16 | } >>
+    << { <cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd16 bd16 | } >>
+    << { <cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd16 bd16 | } >>
+    << { <cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 <\parenthesize cyms sne>8 r4 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r2 | } >>
+    << { <cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd16 bd16 | } >>
+    << { <cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd16 bd16 | } >>
+    << { <cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+\mymark "Verse 3" #145
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd16 bd16 | } >>
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd16 bd16 | } >>
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 sne8 r4 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r2 | } >>
+\mymark "Bridge" #153
+    << { <cyms cymcb>8 \parenthesize cyms8 cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 r8 bd8 r8 bd8 r8 bd8 r8 | } >>
+    << { cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 r8 bd8 r8 bd8 r8 bd8 r8 | } >>
+    << { cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 r8 bd8 r8 bd8 r8 bd8 r8 | } >>
+    << { cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 r8 bd8 r8 bd8 r8 bd8 r8 | } >>
+    << { <cyms cymcb>8 \parenthesize cyms8 cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 r8 bd8 r8 bd8 r8 bd8 r8 | } >>
+    << { cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 r8 bd8 r8 bd8 r8 bd8 r8 | } >>
+    << { cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 r8 bd8 r8 bd8 r8 bd8 r8 | } >>
+    << { cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 cyms8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 r8 bd8 r8 bd8 r8 bd8 r8 | } >>
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 r8 bd8 r8 bd8 r8 bd8 r8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 r8 bd8 r8 bd8 r8 bd8 r8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 r8 bd8 r8 bd8 r8 bd8 r8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 <\parenthesize cyms \parenthesize sne>8 | } \context DrumVoice = "drsb" { bd8 r8 bd8 r8 bd8 r8 bd8 r8 | } >>
+    << { <cyms cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 r8 bd8 r8 bd8 r8 bd8 r8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { bd8 r8 bd8 r8 bd8 r8 bd8 r8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 <\parenthesize cyms \parenthesize sne>8 | } \context DrumVoice = "drsb" { bd8 r8 bd8 r8 bd8 r8 bd8 r8 | } >>
+    << { <cyms~ cyms sne>8 <cyms hho>8 r2. | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+\mymark "Chorus" #169
+    << { cymc8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r4 | } >>
+    << { cymc8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r4 | } >>
+    << { cymc8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r4 | } >>
+    << { cymc8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r8 bd8 | } >>
+    << { cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 \parenthesize cyms8 cyms8 <\parenthesize cyms sne>8 cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r4 bd8 bd8 r4 | } >>
+\mymark "Post-Chorus" #185
+    << { cymcb8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 cyms8 \parenthesize cyms8 <cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd8 bd8 bd8~ | } >>
+    << { cyms4 <cyms sne>8 \parenthesize cyms8 cyms8 \parenthesize cyms8 <cyms sne>8 cymcb8~ | } \context DrumVoice = "drsb" { bd4 r4 bd8 bd8 r8 bd8~ | } >>
+    << { cymcb4 <cyms sne>8 \parenthesize cyms8 cyms8 \parenthesize cyms8 <cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd4 r4 bd8 bd8 r8 bd8~ | } >>
+    << { cyms4 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 cymcb8~ | } \context DrumVoice = "drsb" { bd4 r4. bd8 r8 bd8~ | } >>
+    << { cymcb4 <cyms sne>8 \parenthesize cyms8 cyms8 \parenthesize cyms8 <cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd4 r4 bd8 bd8 r8 bd8~ | } >>
+    << { cyms4 <cyms sne>8 \parenthesize cyms8 cyms8 \parenthesize cyms8 <cyms sne>8 cymcb8~ | } \context DrumVoice = "drsb" { bd4 r4 bd8 bd8 r8 bd8~ | } >>
+    << { cymcb4 <cyms sne>8 \parenthesize cyms8 cyms8 \parenthesize cyms8 <cyms sne>8 cyms8~ | } \context DrumVoice = "drsb" { bd4 r4 bd8 bd8 r8 bd8~ | } >>
+    << { cyms8 r8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 r8 | } \context DrumVoice = "drsb" { bd8 r4 bd8 r8 bd8 r4 | } >>
+\mymark "Outro" #193
+    << { <cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd16 bd16 | } >>
+    << { <cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms16 r16 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd16 bd16 | } >>
+    << { <cymcb sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r8 bd8 r8 bd8 | } >>
+    << { <cyms sne>8 \parenthesize cyms8 <cyms sne>8 \parenthesize cyms8 sne8 sne8 sne8 cyms8 | } \context DrumVoice = "drsb" { r8 bd8 r8 bd8 r4. bd8 | } >>
+}
