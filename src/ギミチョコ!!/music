@@ -47,6 +47,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\clef "treble_8"
 	\guitarOnePart
+	{ s1_\markup { "Tuning: C F A"\teeny\sharp" D"\teeny\sharp" G C" } }
     >>
     \tag #'(peterPart) \new TabStaff \with { stringTunings = \stringTuning <c, f, ais, dis g c'> } <<
 	\markupStuff
@@ -59,6 +60,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\clef "treble_8"
 	\guitarTwoPart
+	{ s1_\markup { "Tuning: C F A"\teeny\sharp" D"\teeny\sharp" G C" } }
     >>
     \tag #'(peterPart) \new TabStaff \with { stringTunings = \stringTuning <c, f, ais, dis g c'> } <<
 	\markupStuff
@@ -71,6 +73,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\clef "treble_8"
 	\guitarThreePart
+	{ s1_\markup { "Tuning: C F A"\teeny\sharp" D"\teeny\sharp" G C" } }
     >>
     \tag #'(peterPart) \new TabStaff \with { stringTunings = \stringTuning <c, f, ais, dis g c'> } <<
 	\markupStuff
@@ -83,6 +86,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\clef "treble_8"
 	\guitarFourPart
+	{ s1_\markup { "Tuning: C F A"\teeny\sharp" D"\teeny\sharp" G C" } }
     >>
     \tag #'(peterPart) \new TabStaff \with { stringTunings = \stringTuning <c, f, ais, dis g c'> } <<
 	\markupStuff
@@ -95,6 +99,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\clef "bass_8"
 	\bassPart
+	{ s1_\markup { "Tuning: C F A"\teeny\sharp" D"\teeny\sharp } }
     >>
     \tag #'(peterPart) \new TabStaff \with { stringTunings = \stringTuning <c,, f,, ais,, dis,> } <<
 	\markupStuff
