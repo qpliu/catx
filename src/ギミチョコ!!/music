@@ -21,8 +21,10 @@
 \include "generated-guitar4"
 \include "generated-synth"
 \include "generated-vocals"
+\include "synthtext_lyrics"
+\include "synthtext_midi"
 
-layoutmusic = <<
+layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vocals" }
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
@@ -36,6 +38,7 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\synthPart
+	\lyricssynthText
     >>
     \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Guitar 1" }
@@ -115,9 +118,8 @@ midimusic = <<
     \tag #'(midiSusan rolandMelody) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \vocalsPart
-    \tag #'(midiOne rolandBackTwo) \new Staff \with {
-	midiInstrument = #"lead 2 (sawtooth)" % 81
-    } \synthPart
+    \tag #'(midiOne rolandBackTwo) \new Staff = "synthtext" \midisynthText
+    \tag #'(midiOne rolandBackTwo) \new Staff = "synth" \synthPart
     \tag #'(midiOne rolandBass) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
     } \bassPart

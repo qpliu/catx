@@ -9,10 +9,12 @@ final class GuitarInstrument extends Instrument{
 	    this.string = string;
 	}
 	@Override public String getLySuffix(){
+	    if (state.argv_no_string_numbers)
+		return "";
 	    return "\\"+(string+1);
 	}
 	@Override public String tieString(){
-	    return getLySuffix();
+	    return String.valueOf(string);
 	}
     }
     @Override void setState(State state){

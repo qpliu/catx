@@ -3,6 +3,7 @@ final class State{
     String argv_drumMap=null;
     String argv_url;
     boolean argv_lyrics;
+    boolean argv_no_string_numbers;
     Rational argv_shift=Rational.ZERO;
     Json json;
     Json meta;

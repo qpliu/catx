@@ -7,5 +7,5 @@ gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-tab-s39259
 gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-tab-s392595/z-t3|$GET --name guitarFourPart - >generated-guitar4
 gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-bass-tab-s392595/z-t4|$GET --name bassPart - >generated-bass
 gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-drum-tab-s392595/z-t5|$GET --name drsPart - >generated-drscolors
-gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-tab-s392595/z-t6|$GET --name synthPart - >generated-synth
-gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-tab-s392595/z-t7|$GET --name vocalsPart - >generated-vocals
+gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-tab-s392595/z-t6|$GET --no-string-numbers --name synthPart - >generated-synth
+gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-tab-s392595/z-t7|$GET --no-string-numbers --name vocalsPart - >generated-vocals

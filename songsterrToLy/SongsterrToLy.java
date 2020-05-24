@@ -18,8 +18,15 @@ final class SongsterrToLy{
 	new MarkerEngraver(),
     };
     private static void usage(){
-	System.err.println("Usage: java SongsterrToLy [--lyrics] [--name partName] [--drumMap map] [--scale scale] [--shift n/d] url");
+	System.err.println("Usage: java SongsterrToLy [options] url");
 	System.err.println("url is something like \"https://www.songsterr.com/a/wsa/momoiro-clover-z-moon-pride-tab-s456232t0\" or \"-\" for stdin");
+	System.err.println("options:");
+	System.err.println("[--lyrics]  Extract lyrics instead of notes.");
+	System.err.println("[--name partName]  Specify partName.");
+	System.err.println("[--no-string-numbers]  Don't include string numbers.");
+	System.err.println("[--drumMap map]  Specify drum map.  Something like --drumMap \"49 cymc 0,38 sn 0,36 bd 1\"");
+	System.err.println("[--scale scale]  Specify note spelling.  Something like --scale \"c des eisis\"");
+	System.err.println("[--shift n/d]  Shift notes forward n/d beats.  Something like --shift 21/5");
 	System.exit(1);
     }
     public static void main(String[]argv)throws IOException{
@@ -27,6 +34,8 @@ final class SongsterrToLy{
 	for (int i=0; i<argv.length; i++)
 	    if (argv[i].equals("--lyrics"))
 		state.argv_lyrics = true;
+	    else if (argv[i].equals("--no-string-numbers"))
+		state.argv_no_string_numbers = true;
 	    else if (argv[i].equals("--shift")){
 		int j=argv[++i].indexOf('/');
 		if (j==-1)
