@@ -35,12 +35,12 @@ final class LyricsInstrument extends Instrument{
 	if (state.pass==0){
 	    Json index=measure.get("index");
 	    Json lyrics=state.data.get("lyrics").get(index.intValue()-1);
-	    int time=0;
+	    Rational time=Rational.ZERO;
 	    for (Json beat:lyrics.get("beats").list){
-		int duration=getDuration(beat.get("duration"));
+		Rational duration=getDuration(beat.get("duration"));
 		for (Json note:beat.get("lyrics").list)
-		    events.add(new Event(state.measureStartTime+time,duration,note));
-		time += duration;
+		    events.add(new Event(state.measureStartTime.add(time),duration,note));
+		time = time.add(duration);
 	    }
 	}else
 	    super.engrave(measure);

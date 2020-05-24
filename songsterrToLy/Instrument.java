@@ -1,7 +1,7 @@
+import java.math.*;
 import java.util.*;
 
 abstract class Instrument extends Engraver{
-    static final int DIVISION=384;
     abstract boolean matches(State state);
     final PriorityQueue<Event>events=new PriorityQueue<Event>();
     void printHead(){
@@ -33,8 +33,8 @@ abstract class Instrument extends Engraver{
     }
     private int eventIdCounter;
     class Event implements Comparable<Event>{
-	final int time;
-	int duration;
+	final Rational time;
+	Rational duration;
 	final int id;
 	final Json json;
 	final Note note;
@@ -42,7 +42,7 @@ abstract class Instrument extends Engraver{
 	final boolean tieRhs;
 	boolean tieLhs;
 	final boolean rest;
-	Event(int time,int duration,Json json){
+	Event(Rational time,Rational duration,Json json){
 	    this.time = time;
 	    this.duration = duration;
 	    this.json = json;
@@ -59,8 +59,9 @@ abstract class Instrument extends Engraver{
 	    return String.valueOf(id);
 	}
 	@Override public int compareTo(Event e){
-	    if (time!=e.time)
-		return Integer.compare(time,e.time);
+	    int i;
+	    if ((i=time.compareTo(e.time))!=0)
+		return i;
 	    if (note==null || e.note==null)
 		return (note==null?0:1)-(e.note==null?0:1);
 	    return note.compareTo(e.note);
@@ -85,30 +86,36 @@ abstract class Instrument extends Engraver{
 	}
     }
     abstract Note getNote(Json note);
-    String appendTime(String what,String suffix,int time){
-	if (time<0)
+    String appendTime(String what,String suffix,Rational time){
+	if (time.signum()<0)
 	    throw new RuntimeException();
 	StringBuilder sb=new StringBuilder();
-	if (time%3!=0){
-	    sb.append("\\tuplet 3/2 { ");
-	    sb.append(appendTime(what,suffix,time*3/2));
+	BigInteger tuplet_d=time.d;
+	while (!tuplet_d.testBit(0))
+	    tuplet_d = tuplet_d.shiftRight(1);
+	if (!tuplet_d.equals(BigInteger.ONE)){
+	    Rational tuplet=new Rational(tuplet_d,BigInteger.ONE);
+	    while (tuplet.compareTo(Rational.TWO)>0)
+		tuplet = tuplet.divide(2);
+	    sb.append("\\tuplet "+tuplet+" { ");
+	    sb.append(appendTime(what,suffix,time.multiply(tuplet)));
 	    sb.append(" }");
-	}else if (time!=0){
-	    int d=DIVISION*state.time_d;
-	    int n=1;
-	    while (d>time){
-		n <<= 1;
-		d >>= 1;
+	}else if (time.signum()!=0){
+	    Rational d=new Rational(state.time_d);
+	    BigInteger n=BigInteger.ONE;
+	    while (d.compareTo(time)>0){
+		n = n.shiftLeft(1);
+		d = d.divide(2);
 	    }
 	    sb.append(what);
 	    sb.append(n);
-	    time -= d;
-	    if (time>=d/2){
+	    time = time.subtract(d);
+	    if (time.compareTo(d.divide(2))>=0){
 		sb.append('.');
-		time -= d/2;
+		time = time.subtract(d.divide(2));
 	    }
 	    sb.append(suffix);
-	    if (time!=0){
+	    if (time.signum()!=0){
 		if (!what.equals("r") && suffix.indexOf('~')==-1)
 		    sb.append('~');
 		sb.append(' ').append(appendTime(what,suffix,time));
@@ -117,23 +124,24 @@ abstract class Instrument extends Engraver{
 	return sb.toString();
     }
     String notesToString(PriorityQueue<Event>q,String rest,String lt,String gt,String between){
-	int measureEndTime=state.measureStartTime+state.time_n*DIVISION;
+	Rational measureEndTime=state.measureStartTime.add(state.time_n);
 	StringBuilder sb=new StringBuilder();
-	int time=state.measureStartTime;
+	Rational time=state.measureStartTime;
 	while (q.size()!=0){
 	    Event e=q.poll();
-	    if (e.time!=time)
-		sb.append(appendTime(rest,"",e.time-time)).append(' ');
+	    if (!e.time.equals(time))
+		sb.append(appendTime(rest,"",e.time.subtract(time))).append(' ');
 	    List<Event>l=new ArrayList<Event>();
-	    int duration=e.duration;
+	    Rational duration=e.duration;
 	    l.add(e);
-	    while (q.size()!=0 && q.peek().time==e.time){
-		duration = Math.min(q.peek().duration,duration);
+	    while (q.size()!=0 && q.peek().time.equals(e.time)){
+		if (q.peek().duration.compareTo(duration)<0)
+		    duration = q.peek().duration;
 		l.add(q.poll());
 	    }
 	    for (Event f:l)
-		if (f.duration!=duration){
-		    q.add(new Event(f.time+duration,f.duration-duration,f.json));
+		if (!f.duration.equals(duration)){
+		    q.add(new Event(f.time.add(duration),f.duration.subtract(duration),f.json));
 		    f.tieLhs = true;
 		}
 	    if (l.size()==1)
@@ -150,38 +158,34 @@ abstract class Instrument extends Engraver{
 		sb.append(appendTime(sb2.toString(),"",duration));
 	    }
 	    sb.append(' ');
-	    time = e.time+duration;
+	    time = e.time.add(duration);
 	}
-	if (time!=measureEndTime)
-	    sb.append(appendTime(rest,"",measureEndTime-time)).append(' ');
+	if (!time.equals(measureEndTime))
+	    sb.append(appendTime(rest,"",measureEndTime.subtract(time))).append(' ');
 	sb.append('|');
 	return sb.toString();
     }
     String notesToString(PriorityQueue<Event>q){
 	return notesToString(q,"r","<",">"," ");
     }
-    int getDuration(Json j){
-	int duration_n=j.get(0).intValue();
-	int duration_d=j.get(1).intValue();
-	if (DIVISION*state.time_d*duration_n%duration_d!=0)
-	    throw new RuntimeException("Bad duration "+j.unparse());
-	return DIVISION*state.time_d*duration_n/duration_d;
+    Rational getDuration(Json j){
+	return new Rational(j.get(0).intValue()*state.time_d,j.get(1).intValue());
     }
     PriorityQueue<Event>getEvents(){
 	PriorityQueue<Event>q=new PriorityQueue<Event>();
 	while (events.size()!=0){
 	    Event e=events.peek();
-	    if (e.time<state.measureStartTime){
+	    if (e.time.compareTo(state.measureStartTime)<0){
 		events.poll();
 		continue;
 	    }
-	    int measureEndTime=state.measureStartTime+state.time_n*DIVISION;
-	    if (e.time>=measureEndTime)
+	    Rational measureEndTime=state.measureStartTime.add(new Rational(state.time_n));
+	    if (e.time.compareTo(measureEndTime)>=0)
 		break;
 	    events.poll();
-	    if (e.time+e.duration>measureEndTime){
-		events.add(new Event(measureEndTime,e.time+e.duration-measureEndTime,e.json));
-		e.duration = measureEndTime-e.time;
+	    if (e.time.add(e.duration).compareTo(measureEndTime)>0){
+		events.add(new Event(measureEndTime,e.time.add(e.duration).subtract(measureEndTime),e.json));
+		e.duration = measureEndTime.subtract(e.time);
 		e.tieLhs = true;
 	    }
 	    q.add(e);
@@ -191,15 +195,15 @@ abstract class Instrument extends Engraver{
     @Override void engrave(Json measure){
 	if (state.pass==0){
 	    for (Json voice:measure.get("voices").list){
-		int time=0;
+		Rational time=Rational.ZERO;
 		for (Json beat:voice.get("beats").list){
-		    int duration=getDuration(beat.get("duration"));
+		    Rational duration=getDuration(beat.get("duration"));
 		    for (Json note:beat.get("notes").list)
-			events.add(new Event(state.measureStartTime+time+state.argv_shift,duration,note));
-		    time += duration;
+			events.add(new Event(state.measureStartTime.add(time).add(state.argv_shift),duration,note));
+		    time = time.add(duration);
 		}
-		if (time!=state.time_n*DIVISION)
-		    throw new RuntimeException(time+" != "+state.time_n+"*"+DIVISION);
+		if (time.compareTo(new Rational(state.time_n))!=0)
+		    throw new RuntimeException(time+" != "+state.time_n);
 	    }
 	}else
 	    print(notesToString(getEvents()));
@@ -212,7 +216,7 @@ abstract class Instrument extends Engraver{
     private void joinTies(){
 	Map<String,Event>map=new HashMap<String,Event>();
 	for (Event e:events)
-	    map.put(e.tieString()+','+(e.time+e.duration),e);
+	    map.put(e.tieString()+','+e.time.add(e.duration),e);
 	for (Iterator<Event>i=events.iterator(); i.hasNext();){
 	    Event e=i.next();
 	    if (e.tieRhs){
@@ -220,8 +224,8 @@ abstract class Instrument extends Engraver{
 		if (lhs==null)
 		    System.err.println("Strange tie "+e.tieString());
 		else{
-		    lhs.duration += e.duration;
-		    map.put(lhs.tieString()+','+(lhs.time+lhs.duration),lhs);
+		    lhs.duration = lhs.duration.add(e.duration);
+		    map.put(lhs.tieString()+','+lhs.time.add(lhs.duration),lhs);
 		    i.remove();
 		}
 	    }

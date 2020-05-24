@@ -3,7 +3,7 @@ final class State{
     String argv_drumMap=null;
     String argv_url;
     boolean argv_lyrics;
-    int argv_shift;
+    Rational argv_shift=Rational.ZERO;
     Json json;
     Json meta;
     Json data;
@@ -14,7 +14,7 @@ final class State{
     int indent;
     int tempo;
     int time_n,time_d;
-    int measureStartTime;
+    Rational measureStartTime;
     void startPass(int pass){
 	this.pass = pass;
 	measureNumber = 0;
@@ -22,6 +22,6 @@ final class State{
 	tempo = 0;
 	time_n = 0;
 	time_d = 0;
-	measureStartTime = 0;
+	measureStartTime = Rational.ZERO;
     }
 }

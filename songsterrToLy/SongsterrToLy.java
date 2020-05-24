@@ -37,7 +37,7 @@ final class SongsterrToLy{
 		    shift_n = Integer.parseInt(argv[i].substring(0,j));
 		    shift_d = Integer.parseInt(argv[i].substring(j+1));
 		}
-		state.argv_shift = Instrument.DIVISION*shift_n/shift_d;
+		state.argv_shift = new Rational(shift_n,shift_d);
 	    }else if (argv[i].equals("--name"))
 		state.argv_partName = argv[++i];
 	    else if (argv[i].equals("--scale"))

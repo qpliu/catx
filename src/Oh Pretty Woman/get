@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e -o pipefail
+GET="java -jar ../../songsterrToLy/1.jar"
+gzip -d </share/mirror/songsterr/stuff/d-keep/d-roy-orbison-oh-pretty-woman-tab-s15568/z-t4|$GET --name vocalsPart - >generated-vocals
+gzip -d </share/mirror/songsterr/stuff/d-keep/d-roy-orbison-oh-pretty-woman-tab-s15568/z-t4|$GET --name vocalsLyrics --lyrics - >generated-lyrics
