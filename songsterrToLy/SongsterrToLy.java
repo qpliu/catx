@@ -29,15 +29,10 @@ final class SongsterrToLy{
 		state.argv_lyrics = true;
 	    else if (argv[i].equals("--shift")){
 		int j=argv[++i].indexOf('/');
-		int shift_n;
-		int shift_d=1;
 		if (j==-1)
-		    shift_n = Integer.parseInt(argv[i]);
-		else{
-		    shift_n = Integer.parseInt(argv[i].substring(0,j));
-		    shift_d = Integer.parseInt(argv[i].substring(j+1));
-		}
-		state.argv_shift = new Rational(shift_n,shift_d);
+		    state.argv_shift = new Rational(Long.parseLong(argv[i]));
+		else
+		    state.argv_shift = new Rational(Long.parseLong(argv[i].substring(0,j)),Long.parseLong(argv[i].substring(j+1)));
 	    }else if (argv[i].equals("--name"))
 		state.argv_partName = argv[++i];
 	    else if (argv[i].equals("--scale"))

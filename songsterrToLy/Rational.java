@@ -1,7 +1,7 @@
 import java.math.*;
 
 final class Rational implements Comparable<Rational>{
-    static final Rational ZERO=new Rational(0,1);
+    static final Rational ZERO=new Rational(0);
     static final Rational TWO=new Rational(2);
     final BigInteger n,d;
     Rational(long n){
