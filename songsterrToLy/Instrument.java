@@ -185,7 +185,7 @@ abstract class Instrument extends Engraver{
 	PriorityQueue<Event>q=new PriorityQueue<Event>();
 	while (events.size()!=0){
 	    Event e=events.peek();
-	    if (e.time.compareTo(state.measureStartTime)<0){
+	    if (e.time.compareTo(state.measureStartTime)<0 || e.rest || e.ghost&&state.argv_omit_ghost_notes){
 		events.poll();
 		continue;
 	    }

@@ -4,6 +4,7 @@ final class State{
     String argv_url;
     boolean argv_lyrics;
     boolean argv_no_string_numbers;
+    boolean argv_omit_ghost_notes;
     Rational argv_shift=Rational.ZERO;
     Json json;
     Json meta;
