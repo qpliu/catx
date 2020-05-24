@@ -1,0 +1,190 @@
+voLyrics = \new Lyrics \lyricmode {
+% url: -
+% artist: Led Zeppelin
+% title: Stairway To Heaven
+% instrument: Flute
+% name: Vocals - R. Plant
+    \time 4/4
+    \tempo 4 = 72
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. "There's"8 "a"8 |
+\mymark "Verse 1" #17
+    "la-"4 "dy"8 "who's"8 "sure"4. "all"16 "that"16 |
+    "glit-"8 "ters"4 "is"8 "gold"4 "and"8 "she's"8 |
+    "buy-"8. "ing"8. "a"8 "stair"8 "way"4 \skip16 "to"16 |
+    "hea-"4 "ven."2 "When"8 "she"8 |
+    "gets"4 "there"8 "she"16 "knows,"4. \skip16 "if"16 "the"16 |
+    "stores"4 "are"8 "all"8 \tuplet 3/2 { "closed,"2 } \tuplet 3/2 { "with"8 } \tuplet 3/2 { "a"8 } |
+    "word"8. "she"8. "can"8 "get"4 "what"8 "she"8 |
+    "came"4 "for."2. |
+    \skip4 "Ooh,"2. |
+    "ooo,"2 "ooo,"4 "and"8 "she's"8 |
+    "buy-"4 "ing"8 "a"8 "stair-"4 "way"8. "to"16 |
+    "heav-"4 "en."2 "There's"8 "a"8 |
+    "sign"4 "on"8 "the"8 "wall,"4. "but"16 "she"16 |
+    "wants"4 "to"16 "be"8 "sure,"4 \skip16 "'cause"8 "you"8 |
+    "know"8. "some-"8. "times"8 "words"8 "have"4 "two"8 |
+    "mean-"4 "ings."2 "In"8 "a"8 |
+    "tree"4 \skip16 "by"8 "the"16 "brook,"4. "there's"16 "a"16 |
+    "song-"8. "bird"8. "who"8 "sings,"4 "some-"8 "tmes"8 |
+    "all"8. "of"8 "our"8. "thoughts"4 "are"8 "mis"8 |
+    "giv-"4 "en."2. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Interlude" #41
+    \skip4 "Ooh,"2. |
+    \skip2 \skip8. "it"16 "makes"8 "me"16 "won-"16 |
+    \skip8 "der."2. \skip8 |
+    \skip1 |
+    "Ooh,"1 |
+    \skip4 "it"16 "makes"8 "me"16 "won"8. "der."4 \skip16 |
+    \skip1 |
+    \skip2. "There's"8 "a"8 |
+    \tempo 4 = 83
+\mymark "Verse 2" #49
+    "feel-"4 "ing"16 "I"8 "get,"4. "when"16 "I"8 |
+    "look"4 "to"8 "the"16 "west,"4 \skip16 "and"8 "my"8 |
+    "spir-"4 "it"8 "is"8 "cry-"8 "ing"8 "for"8 "leav-"8 |
+    \skip8 "ing."2 \skip8 "In"8 "my"8 |
+    "thoughts"4 "I"8 "have"8 \tuplet 3/2 { "seen,"2 } \tuplet 3/2 { "rings"8 } \tuplet 3/2 { "of"8 } |
+    "smoke"4 "through"8 "the"16 "trees,"4 \skip16 "and"8 "the"8 |
+    "voic-"4 "es"8 "of"8 "those"8 "who"8 "stand"8 "look-"8 |
+    \skip8 "ing."2. \skip8 |
+    \skip1 |
+    \skip2 "Ooh,"2 |
+    \skip8. "it"16 "makes"8 "me"16 "won-"8 "der."4. \skip16 |
+    \skip1 |
+    \skip1 |
+    "Ooh,"1 |
+    \skip16 "it"16 "real-"16 "ly"16 "makes"8 "me"16 "won-"8 "der."4. \skip16 |
+    \skip1 |
+    \skip2. "And"8 "it's"8 |
+\mymark "Verse 3" #66
+    "whis-"4 "pered"8 "that"8 "soon"4 "if"8 "we"8 |
+    "all"4 "call"8. "the"16 "tune,"4 "then"8 "the"8 |
+    "pi-"4 "per"8 "will"8 "lead"8 "us"8 "to"8 "reas-"8 |
+    \skip8 "on."2 \skip8 "And"8 "a"8 |
+    "new"4 "day"8. "will"16 "dawn,"4. \skip16 "for"16 |
+    "those"4 "who"8 "stand"8 "long,"4 "and"8 "the"8 |
+    "for-"4 "ests"8 "will"8 "ec-"8 "ho"8 "with"8 "laugh-"8 |
+    \skip8 "ter."2. \skip8 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    "Ooh,"1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 4" #83
+    \skip8 "If"8 "there's"8 "a"8 "bus-"8 "tle"8 "in"8 "your"8 |
+    "hedge-"8 "row,"8. "don't"16 "be"16 "a-"16 "larmed"8 "now,"4. |
+    \skip8 "it's"8 "just"8 "a"8 "spring"8 "clean"8 "for"8 "the"16 "May"16 |
+    \skip8 "Queen."2. \skip8 |
+    \skip8 "Yes,"8 "there"8 "are"8 "two"8 "paths"8 "you"8 "can"8 |
+    "go"8 "by,"8. "but"16 "in"16 "the"16 "long"8 "run,"4. |
+    \skip4 "there's"8 "still"8 "time"8 "to"16 "change"8 "the"16 "road"8 |
+    \skip16 "you're"16 "on."2. \skip8 |
+    \skip1 |
+    \skip1 |
+    \skip2 \skip8 "And"16 "it"16 "makes"8 "me"16 "won-"16 |
+    \skip8 "der."2. \skip8 |
+    \skip1 |
+    \skip1 |
+    "Ah,"1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 5" #100
+    \skip8 "Your"8 "head"8 "is"8 "hum-"8 "ming"8 "and"8 "it"8 |
+    "won't"8 "go,"8. "in"16 "case"16 "you"16 "don't"8 "know,"4. |
+    \skip8 "the"8 "pi-"8 "per's"8 "call-"8 "ing"16 "you"8 "to"16 "join"8 |
+    \skip8 "him."2. \skip8 |
+    \skip8 "Dear"8 "la-"8 "dy"8 "can"8 "you"8 "hear"8 "the"8 |
+    "wind"8 "blow,"4 "and"16 "did"16 "you"8 "know,"4. |
+    \skip8 "Your"8 "stair-"8 "way"8 "lies"8 "on"8 "the"8 "whis-"8 |
+    \skip8 "pering"8 "wind."2. |
+    "Ah"2 "ah"2 |
+    \tempo 4 = 85
+\mymark "Interlude" #109
+    "ah"1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \tempo 4 = 93
+\mymark "Guitar Solo" #118
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \tempo 4 = 102
+\mymark "Bridge" #138
+    \skip8 "And"8 "as"8 "we"16 "wind"8. "on"8 "down"8 "the"16 "road,"16 |
+    \skip1 |
+    \skip8 "our"8 "sha-"16 "dows"8. "tall-"8 "er"8 "than"16 "our"8 "souls."16 |
+    \skip1 |
+    \skip8 "There"8 "walks"8 "a"16 "la-"8. "dy"8 "we"16 "all"8. |
+    "know,"1 |
+    \skip8 "who"8 "shines"8 "white"8 "light"8 "and"8 "wants"8 "to"8 |
+    "show,"1 |
+    \skip8 "how"8 "ev-"8 "'ry-"16 "thing"8. "still"8 "turns"8. "to"16 |
+    "gold."1 |
+    \skip8 "And"8 "if"8 "you"8 "lis-"8 "ten"8 "ver-"16 "y"8 "hard,"16 |
+    \skip1 |
+    \skip8 "the"8 "tune"8 "will"8 "come"8 "to"16 "you"4 "at"16 |
+    "last."1 |
+    \skip8 "When"8 "all"16 "are"8 "one"8. "and"8 "one"16 "is"8 "all,"16 |
+    \skip1 |
+    \skip8 "to"8 "be"16 "a"8 "rock"4 "and"16 "not"8 "to"16 "roll."16 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \tempo 4 = 78
+    \skip1 |
+    \skip2 "And"4 "she's"4 |
+    "buy-"2 "ing"4 "a"4 |
+    "stair-"2 "way"4. "to"8 |
+    "hea-"8. "ven."2. \skip16 |
+}

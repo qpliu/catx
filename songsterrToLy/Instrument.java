@@ -39,6 +39,7 @@ abstract class Instrument extends Engraver{
 	final Json json;
 	final Note note;
 	final boolean ghost;
+	final boolean dead;
 	final boolean tieRhs;
 	boolean tieLhs;
 	final boolean rest;
@@ -50,8 +51,9 @@ abstract class Instrument extends Engraver{
 	    Json j;
 	    tieRhs = (j=json.get("tie"))!=null && j.booleanValue();
 	    ghost = (j=json.get("ghost"))!=null && j.booleanValue();
-	    rest = (j=json.get("rest"))!=null && j.booleanValue();
+	    dead = (j=json.get("dead"))!=null && j.booleanValue();
 	    note = getNote(json);
+	    rest = (j=json.get("rest"))!=null && j.booleanValue() || note==null;
 	}
 	String tieString(){
 	    if (note!=null)
@@ -68,25 +70,31 @@ abstract class Instrument extends Engraver{
 	}
 	@Override public String toString(){
 	    StringBuilder sb=new StringBuilder();
-	    if (ghost)
-		sb.append("\\parenthesize ");
 	    if (rest)
 		sb.append('r');
-	    else
+	    else{
+		if (ghost)
+		    sb.append("\\parenthesize ");
+		if (dead)
+		    sb.append("\\deadNote ");
 		sb.append(note.getLyNote());
+	    }
 	    return sb.toString();
 	}
 	String getLySuffix(){
 	    StringBuilder sb=new StringBuilder();
-	    if (note!=null)
+	    if (!rest){
 		sb.append(note.getLySuffix());
-	    if (tieLhs)
-		sb.append('~');
+		if (tieLhs)
+		    sb.append('~');
+	    }
 	    return sb.toString();
 	}
     }
     abstract Note getNote(Json note);
     String appendTime(String what,String suffix,Rational time){
+	if (state.argv_lyrics)
+	    suffix = suffix.replace("~","");
 	if (time.signum()<0)
 	    throw new RuntimeException();
 	StringBuilder sb=new StringBuilder();
@@ -116,7 +124,9 @@ abstract class Instrument extends Engraver{
 	    }
 	    sb.append(suffix);
 	    if (time.signum()!=0){
-		if (!what.equals("r") && suffix.indexOf('~')==-1)
+		if (state.argv_lyrics)
+		    what = "\\skip";
+		if (!what.equals("r") && !what.equals("\\skip") && suffix.indexOf('~')==-1)
 		    sb.append('~');
 		sb.append(' ').append(appendTime(what,suffix,time));
 	    }

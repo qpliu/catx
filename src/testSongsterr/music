@@ -1,0 +1,44 @@
+% PARTS vo
+
+\include "generated-bass"
+\include "generated-bass-shift"
+\include "generated-deadnote"
+\include "generated-drs"
+\include "generated-lyrics"
+\include "generated-vo"
+
+layoutmusic = <<
+    \tag #'bassPart \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Bass" }
+	shortInstrumentName = \markup { \rotate #90 "Bass" }
+    } <<
+	\clef "bass_8"
+	\bassPart
+    >>
+    \tag #'bassPart \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Bass-Shift" }
+	shortInstrumentName = \markup { \rotate #90 "Bass-Shift" }
+    } <<
+	\clef "bass_8"
+	\bassShiftPart
+    >>
+    \tag #'deadnotePart \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Deadnote" }
+	shortInstrumentName = \markup { \rotate #90 "Deadnote" }
+    } <<
+	\clef "treble_8"
+	\deadnotePart
+    >>
+    \tag #'deadnotePart \new TabStaff \deadnotePart
+    \tag #'drsPart \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drs" }
+	shortInstrumentName = \markup { \rotate #90 "Drs" }
+    } \drsPart
+    \tag #'voPart \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vo" }
+	shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+	\voPart
+	\voLyrics
+    >>
+>>

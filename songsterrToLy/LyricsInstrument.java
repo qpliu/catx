@@ -5,7 +5,7 @@ final class LyricsInstrument extends Instrument{
 	return state.argv_lyrics;
     }
     @Override void printHead(){
-	indent(state.argv_partName+" = \\lyricmode {"/*}*/);
+	indent(state.argv_partName+" = \\new Lyrics \\lyricmode {"/*}*/);
     }
     static class LyricNote implements Note{
 	private final String text;
@@ -29,7 +29,7 @@ final class LyricsInstrument extends Instrument{
 	return new LyricNote(note.get("text").stringValue());
     }
     @Override String notesToString(PriorityQueue<Event>q){
-	return notesToString(q,"\\skip ","<< { "," } >>"," } { ");
+	return notesToString(q,"\\skip","<< { "," } >>"," } { ");
     }
     @Override void engrave(Json measure){
 	if (state.pass==0){
