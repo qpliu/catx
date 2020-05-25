@@ -21,7 +21,7 @@ abstract class Instrument extends Engraver{
 	PriorityQueue<Event>q=new PriorityQueue<Event>();
 	while (events.size()!=0){
 	    Event e=events.peek();
-	    if (e.time.compareTo(state.measureStartTime)<0 || e.ghost&&state.argv_omit_ghost_notes){
+	    if (e.time.compareTo(state.measureStartTime)<0 || e.ghost&&state.argv_no_ghost_notes){
 		events.poll();
 		continue;
 	    }
@@ -39,6 +39,7 @@ abstract class Instrument extends Engraver{
 	return q;
     }
     @Override void engrave(Json measure){
+	state.startRelative(this);
 	if (state.pass==0){
 	    for (Json voice:measure.get("voices").list){
 		Rational time=Rational.ZERO;

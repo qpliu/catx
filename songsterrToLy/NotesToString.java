@@ -11,7 +11,7 @@ final class NotesToString{
     NotesToString(State state){
 	this.state = state;
     }
-    private void appendDuration(String what,String suffix,Rational duration,boolean tieLhs,boolean isTab){
+    private Rational appendDuration(String what,String suffix,Rational duration,boolean tieLhs,boolean isTab,boolean isRest){
 	if (duration.signum()<0)
 	    throw new RuntimeException();
 	BigInteger tuplet_d=duration.d;
@@ -26,7 +26,7 @@ final class NotesToString{
 	    if (!tuplet.equals(last_tuplet))
 		sb.append("\\tuplet "+tuplet+" { "); //}
 	    last_tuplet = null;
-	    appendDuration(what,suffix,duration.multiply(tuplet),tieLhs,isTab);
+	    duration = appendDuration(what,suffix,duration.multiply(tuplet),tieLhs,isTab,isRest).divide(tuplet);
 	    last_tuplet = tuplet;
 	}else if (duration.signum()!=0){
 	    if (last_tuplet!=null)
@@ -52,26 +52,29 @@ final class NotesToString{
 		sb.append(s);
 	    }
 	    sb.append(suffix);
-	    if (duration.signum()!=0){
-		if (state.argv_lyrics)
-		    what = "\\skip";
-		if (!what.equals("r") && !what.equals("\\skip"))
-		    sb.append('~');
-		sb.append(' ');
-		appendDuration(isTab?"t":what,suffix,duration,tieLhs,isTab);
-	    }else if (tieLhs)
+	    if (tieLhs || duration.signum()!=0 && !state.argv_lyrics && !isRest)
 		sb.append('~');
 	}
+	return duration;
+    }
+    private void appendRest(String what,Rational duration){
+	while (duration.signum()!=0){
+	    duration = appendDuration(what,"",duration,false,false,true);
+	    sb.append(' ');
+	}
+    }
+    private String getRelativeNote(Note note){
+	if (note instanceof MidiNote)
+	    return Stuff.midi2ly(((MidiNote)note).note,state);
+	return note.getLyNote();
     }
     String notesToString(PriorityQueue<Event>q,String rest,String lt,String gt,String between){
 	Rational measureEndTime=state.measureStartTime.add(state.time_n);
 	Rational time=state.measureStartTime;
 	while (q.size()!=0){
 	    Event e=q.poll();
-	    if (!e.time.equals(time)){
-		appendDuration(rest,"",e.time.subtract(time),false,false);
-		sb.append(' ');
-	    }
+	    if (!e.time.equals(time))
+		appendRest(rest,e.time.subtract(time));
 	    List<Event>l=new ArrayList<Event>();
 	    Rational duration=e.duration;
 	    l.add(e);
@@ -88,8 +91,9 @@ final class NotesToString{
 		}
 		outputTabs &= f.note instanceof GuitarInstrument.GuitarNote;
 	    }
+	    Rational remaining;
 	    if (l.size()==1 && !outputTabs)
-		appendDuration(e.getAdjectives()+e.note.getLyNote(),e.note.getLySuffix(),duration,e.tieLhs,false);
+		remaining = appendDuration(e.getAdjectives()+getRelativeNote(e.note),e.note.getLySuffix(),duration,e.tieLhs,false,false);
 	    else{
 		boolean allTies=true;
 		for (Event f:l)
@@ -127,30 +131,38 @@ final class NotesToString{
 			    what = firstString+what;
 			}
 		    }
-		    appendDuration(what,"",duration,allTies,true);
+		    remaining = appendDuration(what,"",duration,allTies,true,false);
 		}else{
 		    StringBuilder sb2=new StringBuilder();
 		    sb2.append(lt);
+		    int lastRelative=0;
 		    for (int i=0; i<l.size(); i++){
 			if (i!=0)
 			    sb2.append(between);
 			Event f=l.get(i);
-			sb2.append(f.getAdjectives()).append(f.note.getLyNote()).append(f.note.getLySuffix());
+			sb2.append(f.getAdjectives()).append(getRelativeNote(f.note)).append(f.note.getLySuffix());
 			if (f.tieLhs && !allTies)
 			    sb2.append('~');
+			if (i==0)
+			    lastRelative = state.lastRelative;
 		    }
+		    state.lastRelative = lastRelative;
 		    sb2.append(gt);
 		    what = sb2.toString();
-		    appendDuration(what,"",duration,allTies,false);
+		    remaining = appendDuration(what,"",duration,allTies,false,false);
 		}
+	    }
+	    if (remaining.signum()!=0){
+		duration = duration.subtract(remaining);
+		if (!state.argv_lyrics)
+		    for (Event f:l)
+			q.add(new Event(f,f.time.add(duration),remaining));
 	    }
 	    sb.append(' ');
 	    time = e.time.add(duration);
 	}
-	if (!time.equals(measureEndTime)){
-	    appendDuration(rest,"",measureEndTime.subtract(time),false,false);
-	    sb.append(' ');
-	}
+	if (!time.equals(measureEndTime))
+	    appendRest(rest,measureEndTime.subtract(time));
 	if (last_tuplet!=null)
 	    sb.append(/*{*/"} ");
 	sb.append('|');

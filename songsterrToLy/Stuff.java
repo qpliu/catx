@@ -9,21 +9,36 @@ final class Stuff{
 	}
     }
     static String midi2ly(int key){
+	return midi2ly(key,null);
+    }
+    static String midi2ly(int key,State state){
+	int last=0;
+	if (state!=null && state.isRelative)
+	    last = state.lastRelative;
 	String ly=scale[key%12];
+	int next=(ly.charAt(0)-'a'+5)%7-3;
+	if (ly.endsWith("'")){
+	    ly = ly.substring(0,ly.length()-1);
+	    next += 7;
+	}
+	if (ly.endsWith(",")){
+	    ly = ly.substring(0,ly.length()-1);
+	    next -= 7;
+	}
 	while (key<48){
 	    key += 12;
-	    if (ly.endsWith("'"))
-		ly = ly.substring(0,ly.length()-1);
-	    else
-		ly += ',';
+	    next -= 7;
 	}
 	while (key>=60){
 	    key -= 12;
-	    if (ly.endsWith(","))
-		ly = ly.substring(0,ly.length()-1);
-	    else
-		ly += '\'';
+	    next += 7;
 	}
+	for (; last<next-3; last+=7)
+	    ly += '\'';
+	for (; last>next+3; last-=7)
+	    ly += ',';
+	if (state!=null && state.isRelative)
+	    state.lastRelative = next;
 	return ly;
     }
     static int ly2midi(String ly){

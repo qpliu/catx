@@ -24,8 +24,9 @@ final class SongsterrToLy{
 	System.err.println("[--drumMap map]  Specify drum map.  Something like --drumMap \"49 cymc 0,38 sn 0,36 bd 1\"");
 	System.err.println("[--lyrics]  Extract lyrics instead of notes.");
 	System.err.println("[--name partName]  Specify partName.");
+	System.err.println("[--no-ghost-notes]  Don't include ghost notes.");
 	System.err.println("[--no-string-numbers]  Don't include string numbers.");
-	System.err.println("[--omit-ghost-notes]  Don't include ghost notes.");
+	System.err.println("[--output-relative]  Output \\relative notes.");
 	System.err.println("[--output-tabs]  Output tabs instead of notes.");
 	System.err.println("[--scale scale]  Specify note spelling.  Something like --scale \"c des eisis\"");
 	System.err.println("[--shift n/d]  Shift notes right n/d beats.  Use --shift -21/5 to shift notes left 4 1/5th beat.");
@@ -38,10 +39,12 @@ final class SongsterrToLy{
 		state.argv_lyrics = true;
 	    else if (argv[i].equals("--no-string-numbers"))
 		state.argv_no_string_numbers = true;
-	    else if (argv[i].equals("--omit-ghost-notes"))
-		state.argv_omit_ghost_notes = true;
+	    else if (argv[i].equals("--no-ghost-notes"))
+		state.argv_no_ghost_notes = true;
 	    else if (argv[i].equals("--output-tabs"))
 		state.argv_output_tabs = true;
+	    else if (argv[i].equals("--output-relative"))
+		state.argv_output_relative = true;
 	    else if (argv[i].equals("--shift")){
 		int j=argv[++i].indexOf('/');
 		if (j==-1)
@@ -100,6 +103,7 @@ final class SongsterrToLy{
 		measureNumberEngraver.engrave(null);
 		instrument.engrave(null);
 	    }
+	    state.endRelative(instrument);
 	    instrument.printFoot();
 	}
     }

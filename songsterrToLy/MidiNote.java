@@ -1,5 +1,5 @@
 class MidiNote implements Note{
-    private final int note;
+    final int note;
     MidiNote(int note){
 	this.note = note;
     }

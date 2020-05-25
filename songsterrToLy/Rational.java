@@ -21,23 +21,26 @@ final class Rational implements Comparable<Rational>{
 	this.n = n.divide(gcd);
 	this.d = d.divide(gcd);
     }
-    Rational multiply(Rational r){
-	return new Rational(n.multiply(r.n),d.multiply(r.d));
-    }
-    Rational multiply(long l){
-	return multiply(new Rational(l));
-    }
-    Rational divide(long l){
-	return new Rational(n,d.multiply(BigInteger.valueOf(l)));
-    }
-    Rational add(long l){
-	return add(new Rational(l));
-    }
     Rational add(Rational r){
 	return new Rational(n.multiply(r.d).add(r.n.multiply(d)),d.multiply(r.d));
     }
     Rational subtract(Rational r){
 	return add(r.multiply(-1));
+    }
+    Rational multiply(Rational r){
+	return new Rational(n.multiply(r.n),d.multiply(r.d));
+    }
+    Rational divide(Rational r){
+	return new Rational(n.multiply(r.d),d.multiply(r.n));
+    }
+    Rational add(long l){
+	return add(new Rational(l));
+    }
+    Rational multiply(long l){
+	return multiply(new Rational(l));
+    }
+    Rational divide(long l){
+	return divide(new Rational(l));
     }
     int signum(){
 	return n.signum();
