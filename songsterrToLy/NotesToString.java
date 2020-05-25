@@ -36,11 +36,18 @@ final class NotesToString{
 		n = n.shiftLeft(1);
 		d = d.divide(2);
 	    }
-	    sb.append(what).append(n);
+	    String s=n.toString();
 	    duration = duration.subtract(d);
 	    if (duration.compareTo(d.divide(2))>=0){
-		sb.append('.');
+		s += '.';
 		duration = duration.subtract(d.divide(2));
+	    }
+	    sb.append(what);
+	    if (what.equals("\\skip"))
+		sb.append(s);
+	    else if (!s.equals(lastDuration)){
+		lastDuration = s;
+		sb.append(s);
 	    }
 	    sb.append(suffix);
 	    if (duration.signum()!=0){
