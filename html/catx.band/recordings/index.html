@@ -19,26 +19,32 @@
 	elt.appendChild(a);
 	s = document.createElement("source");
 	s.setAttribute("src", elt.getAttribute("catxsrc"));
-	s.setAttribute("type", "audio/mpeg");
 	a.appendChild(s);
     }
 </script>
 <div style=font-size:200%;color:#000;background-color:#fbb;text-align:center;>Aarin Robo's <a href=/>catx</a> recordings</div>
+<div style=font-size:60%;color:#000;background-color:#0f0;text-align:center;>The WAV files may be uncompressed 5 track files.  My server does not have enough bandwidth to stream them.  Please download them to listen.</div>
 [CATX_PWD_START]
 <div style=font-size:150%;color:#fbb;background-color:#080;text-align:center;>[CATX_HTML_FILENAME]</div>
 [CATX_PWD_END]
 <br>
 <table style=margin-left:auto;margin-right:auto;>
-[CATX_LIST_START]
+[CATX_AUDIO_START]
 <tr>
     <td><a href="[CATX_URL_FILENAME]" download>[CATX_HTML_FILENAME]</a></td>
-    <td id="[CATX_ID]" catxsrc="[CATX_URL_FILENAME]"><a href="javascript:addControls('[CATX_ID]');">▶</a></td>
+    <td id="[CATX_ID]" catxsrc="[CATX_URL_FILENAME]"><a href="javascript:addControls('[CATX_ID]');"><img src=/headphones.jpg width=30></a></td>
 </tr>
-[CATX_LIST_END]
+[CATX_AUDIO_END]
 [CATX_DIR_START]
 <tr>
-    <td colspan=2><a href="[CATX_URL_FILENAME]">[CATX_HTML_FILENAME]/</a></td>
+    <td><a href="[CATX_URL_FILENAME]/index.html">[CATX_HTML_FILENAME]</a></td>
+    <td><a href="[CATX_URL_FILENAME]/index.html"><img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Schnellhefter_Kunststoff.jpg/2880px-Schnellhefter_Kunststoff.jpg width=60></a></td>
 </tr>
 [CATX_DIR_END]
+[CATX_FILE_START]
+<tr>
+    <td colspan=2><a href="[CATX_URL_FILENAME]" download>[CATX_HTML_FILENAME]</a></td>
+</tr>
+[CATX_FILE_END]
 </table>
 </html>
