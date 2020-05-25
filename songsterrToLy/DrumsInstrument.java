@@ -98,24 +98,21 @@ final class DrumsInstrument extends Instrument{
 	print("\\context DrumVoice = \"drsb\" \\voiceTwo");
     }
     @Override String notesToString(PriorityQueue<Event>q){
-	PriorityQueue<Event>q0=new PriorityQueue<Event>();
-	PriorityQueue<Event>q1=new PriorityQueue<Event>();
-	for (Event e:q){
-	    if (e.note!=null && ((Drum)e.note).voice==0)
-		q0.add(e);
-	    if (e.note!=null && ((Drum)e.note).voice==1)
-		q1.add(e);
-	}
+	List<PriorityQueue<Event>>qq=new ArrayList<PriorityQueue<Event>>();
+	qq.add(new PriorityQueue<Event>());
+	qq.add(new PriorityQueue<Event>());
+	for (Event e:q)
+	    qq.get(((Drum)e.note).voice).add(e);
 	StringBuilder sb=new StringBuilder();
-	if (q0.size()==0)
-	    sb.append(super.notesToString(q1));
-	else if (q1.size()==0)
-	    sb.append(super.notesToString(q0));
+	if (qq.get(0).size()==0)
+	    sb.append(super.notesToString(qq.get(1)));
+	else if (qq.get(1).size()==0)
+	    sb.append(super.notesToString(qq.get(0)));
 	else{
 	    sb.append("<< { ");
-	    sb.append(super.notesToString(q0));
+	    sb.append(super.notesToString(qq.get(0)));
 	    sb.append(" } \\context DrumVoice = \"drsb\" { ");
-	    sb.append(super.notesToString(q1));
+	    sb.append(super.notesToString(qq.get(1)));
 	    sb.append(" } >>");
 	}
 	return sb.toString();

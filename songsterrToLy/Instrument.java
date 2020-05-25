@@ -49,8 +49,8 @@ abstract class Instrument extends Engraver{
 	    tieRhs = (j=json.get("tie"))!=null && j.booleanValue();
 	    ghost = (j=json.get("ghost"))!=null && j.booleanValue();
 	    dead = (j=json.get("dead"))!=null && j.booleanValue();
+	    rest = (j=json.get("rest"))!=null && j.booleanValue();
 	    note = getNote(json);
-	    rest = (j=json.get("rest"))!=null && j.booleanValue() || note==null;
 	}
 	@Override public int compareTo(Event e){
 	    int i;
@@ -196,7 +196,7 @@ abstract class Instrument extends Engraver{
 		    Rational duration=getDuration(beat.get("duration"));
 		    for (Json note:beat.get("notes").list){
 			Event e=new Event(state.measureStartTime.add(time).add(state.argv_shift),duration,note);
-			if (!e.rest)
+			if (!e.rest && e.note!=null)
 			    events.add(e);
 		    }
 		    time = time.add(duration);

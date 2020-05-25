@@ -19,7 +19,7 @@ final class SongsterrToLy{
     };
     private static void usage(){
 	System.err.println("Usage: java SongsterrToLy [options] url");
-	System.err.println("url is something like \"https://www.songsterr.com/a/wsa/momoiro-clover-z-moon-pride-tab-s456232t0\" or \"-\" for stdin");
+	System.err.println("url is something like https://www.songsterr.com/a/wsa/momoiro-clover-z-moon-pride-tab-s456232t0 or - for stdin.");
 	System.err.println("options:");
 	System.err.println("[--drumMap map]  Specify drum map.  Something like --drumMap \"49 cymc 0,38 sn 0,36 bd 1\"");
 	System.err.println("[--lyrics]  Extract lyrics instead of notes.");
@@ -27,7 +27,7 @@ final class SongsterrToLy{
 	System.err.println("[--no-string-numbers]  Don't include string numbers.");
 	System.err.println("[--omit-ghost-notes]  Don't include ghost notes.");
 	System.err.println("[--scale scale]  Specify note spelling.  Something like --scale \"c des eisis\"");
-	System.err.println("[--shift n/d]  Shift notes forward n/d beats.  Something like --shift 21/5");
+	System.err.println("[--shift n/d]  Shift notes right n/d beats.  Use --shift -21/5 to shift notes left 4 1/5th beat.");
 	System.exit(1);
     }
     public static void main(String[]argv)throws IOException{
