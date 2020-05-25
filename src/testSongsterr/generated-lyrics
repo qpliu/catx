@@ -29,7 +29,7 @@ voLyrics = \new Lyrics \lyricmode {
     "buy-"8. "ing"8. "a"8 "stair"8 "way"4 \skip16 "to"16 |
     "hea-"4 "ven."2 "When"8 "she"8 |
     "gets"4 "there"8 "she"16 "knows,"4. \skip16 "if"16 "the"16 |
-    "stores"4 "are"8 "all"8 \tuplet 3/2 { "closed,"2 } \tuplet 3/2 { "with"8 } \tuplet 3/2 { "a"8 } |
+    "stores"4 "are"8 "all"8 \tuplet 3/2 { "closed,"2 "with"8 "a"8 } |
     "word"8. "she"8. "can"8 "get"4 "what"8 "she"8 |
     "came"4 "for."2. |
     \skip4 "Ooh,"2. |
@@ -63,7 +63,7 @@ voLyrics = \new Lyrics \lyricmode {
     "look"4 "to"8 "the"16 "west,"4 \skip16 "and"8 "my"8 |
     "spir-"4 "it"8 "is"8 "cry-"8 "ing"8 "for"8 "leav-"8 |
     \skip8 "ing."2 \skip8 "In"8 "my"8 |
-    "thoughts"4 "I"8 "have"8 \tuplet 3/2 { "seen,"2 } \tuplet 3/2 { "rings"8 } \tuplet 3/2 { "of"8 } |
+    "thoughts"4 "I"8 "have"8 \tuplet 3/2 { "seen,"2 "rings"8 "of"8 } |
     "smoke"4 "through"8 "the"16 "trees,"4 \skip16 "and"8 "the"8 |
     "voic-"4 "es"8 "of"8 "those"8 "who"8 "stand"8 "look-"8 |
     \skip8 "ing."2. \skip8 |

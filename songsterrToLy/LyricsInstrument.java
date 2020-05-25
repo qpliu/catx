@@ -23,7 +23,7 @@ final class LyricsInstrument extends Instrument{
 	return new LyricNote(note.get("text").stringValue());
     }
     @Override String notesToString(PriorityQueue<Event>q){
-	return notesToString(q,"\\skip","<< { "," } >>"," } { ");
+	return new NotesToString(state).notesToString(q,"\\skip","<< { "," } >>"," } { ");
     }
     @Override void engrave(Json measure){
 	if (state.pass==0){
@@ -32,7 +32,7 @@ final class LyricsInstrument extends Instrument{
 	    for (Json beat:lyrics.get("beats").list){
 		Rational duration=getDuration(beat.get("duration"));
 		for (Json note:beat.get("lyrics").list)
-		    events.add(new Event(time,duration,note));
+		    events.add(new Event(time,duration,note,getNote(note)));
 		time = time.add(duration);
 	    }
 	}else

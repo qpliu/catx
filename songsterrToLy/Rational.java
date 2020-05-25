@@ -54,6 +54,6 @@ final class Rational implements Comparable<Rational>{
 	return toString().hashCode();
     }
     @Override public boolean equals(Object o){
-	return toString().equals(o.toString());
+	return o!=null&&toString().equals(o.toString());
     }
 }
