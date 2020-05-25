@@ -68,8 +68,8 @@ bassShiftPart = {
     \tuplet 5/4 { e,,32\4 } e,,4\4 e,,4\4 e,,8\4 e,,8\4 e,,8\4 \tuplet 5/4 { e,,8\4~ } |
     \tuplet 5/4 { e,,32\4 } e,,4\4 e,,4\4 e,,8\4 e,,8\4 e,,8\4 \tuplet 5/4 { e,,8\4~ } |
 \mymark "Riff 1" #57
-    \tuplet 5/4 { e,,32\4 } cis,4\3 cis,8\3 cis,8\3 cis,8\3 cis,8\3 r8 \tuplet 5/4 { r8 } |
-    \tuplet 5/4 { r32 } r8 e,,4\4 dis,,8\4 c,,8\4 d,,8\4 cis,,8\4 \tuplet 5/4 { c,,8\4~ } |
+    \tuplet 5/4 { e,,32\4 } cis,4\3 cis,8\3 cis,8\3 cis,8\3 cis,8\3 \tuplet 5/4 { r4 r32 } |
+    \tuplet 5/4 { r8. } e,,4\4 dis,,8\4 c,,8\4 d,,8\4 cis,,8\4 \tuplet 5/4 { c,,8\4~ } |
     \tuplet 5/4 { c,,32\4 } e,,4\4 c,,8\4 dis,,8\4 c,,8\4 d,,8\4 cis,,8\4 \tuplet 5/4 { c,,8\4~ } |
     \tuplet 5/4 { c,,32\4 } e,,4\4 c,,8\4 dis,,8\4 c,,8\4 d,,8\4 cis,,8\4 \tuplet 5/4 { c,,8\4~ } |
     \tuplet 5/4 { c,,32\4 } e,,4\4 c,,8\4 dis,,8\4 c,,8\4 d,,8\4 cis,,8\4 \tuplet 5/4 { c,,8\4~ } |

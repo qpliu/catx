@@ -16,21 +16,21 @@ synthPart = {
     r1 |
     r1 |
     r1 |
-    <e'~ e''~>1 |
+    <e' e''>1~ |
     <e' e''>2~ <e' e''>8 <fis' fis''>8 <fis' fis''>8 <fis' fis''>8 |
-    <e' e''>4. <dis' dis''>4. <d'~ d''~>4 |
+    <e' e''>4. <dis' dis''>4. <d' d''>4~ |
     <d' d''>8 <c' c''>4. r2 |
-    <e'~ e''~>1 |
+    <e' e''>1~ |
     <e' e''>2~ <e' e''>8 <fis' fis''>8 <fis' fis''>8 <fis' fis''>8 |
-    <e' e''>4. <dis' dis''>4. <d'~ d''~>4 |
+    <e' e''>4. <dis' dis''>4. <d' d''>4~ |
     <d' d''>8 <c' c''>4. r2 |
-    <e'~ e''~>1 |
+    <e' e''>1~ |
     <e' e''>2~ <e' e''>8 <fis' fis''>8 <fis' fis''>8 <fis' fis''>8 |
-    <e' e''>4. <dis' dis''>4. <d'~ d''~>4 |
+    <e' e''>4. <dis' dis''>4. <d' d''>4~ |
     <d' d''>8 <c' c''>4. r2 |
-    <e'~ e''~>1 |
+    <e' e''>1~ |
     <e' e''>2~ <e' e''>8 <fis' fis''>8 <fis' fis''>8 <fis' fis''>8 |
-    <e' e''>4. <dis' dis''>4. <d'~ d''~>4 |
+    <e' e''>4. <dis' dis''>4. <d' d''>4~ |
     <d' d''>8 <c' c''>4. r2 |
 \mymark "Riff 2" #25
     r1 |
@@ -51,21 +51,21 @@ synthPart = {
     r1 |
     r1 |
 \mymark "Chorus" #41
-    <e b e'>2.~ <e b e'>8 <e'~ gis'~ b'~>8 |
-    <e' gis' b'>2.~ <e' gis' b'>8 <e'~ gis'~ c''~>8 |
-    <e' gis' c''>2.~ <e' gis' c''>8 <e'~ gis'~ cis''~>8 |
+    <e b e'>2.~ <e b e'>8 <e' gis' b'>8~ |
+    <e' gis' b'>2.~ <e' gis' b'>8 <e' gis' c''>8~ |
+    <e' gis' c''>2.~ <e' gis' c''>8 <e' gis' cis''>8~ |
     <e' gis' cis''>1 |
-    <e b e'>2.~ <e b e'>8 <e'~ gis'~ b'~>8 |
-    <e' gis' b'>2.~ <e' gis' b'>8 <e'~ gis'~ c''~>8 |
-    <e' gis' c''>2.~ <e' gis' c''>8 <e'~ gis'~ cis''~>8 |
+    <e b e'>2.~ <e b e'>8 <e' gis' b'>8~ |
+    <e' gis' b'>2.~ <e' gis' b'>8 <e' gis' c''>8~ |
+    <e' gis' c''>2.~ <e' gis' c''>8 <e' gis' cis''>8~ |
     <e' gis' cis''>1 |
-    <e b e'>2.~ <e b e'>8 <e'~ gis'~ b'~>8 |
-    <e' gis' b'>2.~ <e' gis' b'>8 <e'~ gis'~ c''~>8 |
-    <e' gis' c''>2.~ <e' gis' c''>8 <e'~ gis'~ cis''~>8 |
+    <e b e'>2.~ <e b e'>8 <e' gis' b'>8~ |
+    <e' gis' b'>2.~ <e' gis' b'>8 <e' gis' c''>8~ |
+    <e' gis' c''>2.~ <e' gis' c''>8 <e' gis' cis''>8~ |
     <e' gis' cis''>1 |
-    <e b e'>2.~ <e b e'>8 <e'~ gis'~ b'~>8 |
-    <e' gis' b'>2.~ <e' gis' b'>8 <e'~ gis'~ c''~>8 |
-    <e' gis' c''>2.~ <e' gis' c''>8 <e'~ gis'~ cis''~>8 |
+    <e b e'>2.~ <e b e'>8 <e' gis' b'>8~ |
+    <e' gis' b'>2.~ <e' gis' b'>8 <e' gis' c''>8~ |
+    <e' gis' c''>2.~ <e' gis' c''>8 <e' gis' cis''>8~ |
     <e' gis' cis''>2 r2 |
 \mymark "Riff 1" #57
     r1 |
@@ -95,21 +95,21 @@ synthPart = {
     r1 |
     r1 |
 \mymark "Chorus" #81
-    <e b e'>2.~ <e b e'>8 <e'~ gis'~ b'~>8 |
-    <e' gis' b'>2.~ <e' gis' b'>8 <e'~ gis'~ c''~>8 |
-    <e' gis' c''>2.~ <e' gis' c''>8 <e'~ gis'~ cis''~>8 |
+    <e b e'>2.~ <e b e'>8 <e' gis' b'>8~ |
+    <e' gis' b'>2.~ <e' gis' b'>8 <e' gis' c''>8~ |
+    <e' gis' c''>2.~ <e' gis' c''>8 <e' gis' cis''>8~ |
     <e' gis' cis''>1 |
-    <e b e'>2.~ <e b e'>8 <e'~ gis'~ b'~>8 |
-    <e' gis' b'>2.~ <e' gis' b'>8 <e'~ gis'~ c''~>8 |
-    <e' gis' c''>2.~ <e' gis' c''>8 <e'~ gis'~ cis''~>8 |
+    <e b e'>2.~ <e b e'>8 <e' gis' b'>8~ |
+    <e' gis' b'>2.~ <e' gis' b'>8 <e' gis' c''>8~ |
+    <e' gis' c''>2.~ <e' gis' c''>8 <e' gis' cis''>8~ |
     <e' gis' cis''>1 |
-    <e b e'>2.~ <e b e'>8 <e'~ gis'~ b'~>8 |
-    <e' gis' b'>2.~ <e' gis' b'>8 <e'~ gis'~ c''~>8 |
-    <e' gis' c''>2.~ <e' gis' c''>8 <e'~ gis'~ cis''~>8 |
+    <e b e'>2.~ <e b e'>8 <e' gis' b'>8~ |
+    <e' gis' b'>2.~ <e' gis' b'>8 <e' gis' c''>8~ |
+    <e' gis' c''>2.~ <e' gis' c''>8 <e' gis' cis''>8~ |
     <e' gis' cis''>1 |
-    <e b e'>2.~ <e b e'>8 <e'~ gis'~ b'~>8 |
-    <e' gis' b'>2.~ <e' gis' b'>8 <e'~ gis'~ c''~>8 |
-    <e' gis' c''>2.~ <e' gis' c''>8 <e'~ gis'~ cis''~>8 |
+    <e b e'>2.~ <e b e'>8 <e' gis' b'>8~ |
+    <e' gis' b'>2.~ <e' gis' b'>8 <e' gis' c''>8~ |
+    <e' gis' c''>2.~ <e' gis' c''>8 <e' gis' cis''>8~ |
     <e' gis' cis''>2 r2 |
 \mymark "Post-Chorus" #97
     r1 |
@@ -121,21 +121,21 @@ synthPart = {
     r1 |
     r1 |
 \mymark "Riff 1" #105
-    <e'~ e''~>1 |
+    <e' e''>1~ |
     <e' e''>2~ <e' e''>8 <fis' fis''>8 <fis' fis''>8 <fis' fis''>8 |
-    <e' e''>4. <dis' dis''>4. <d'~ d''~>4 |
+    <e' e''>4. <dis' dis''>4. <d' d''>4~ |
     <d' d''>8 <c' c''>4. r2 |
-    <e'~ e''~>1 |
+    <e' e''>1~ |
     <e' e''>2~ <e' e''>8 <fis' fis''>8 <fis' fis''>8 <fis' fis''>8 |
-    <e' e''>4. <dis' dis''>4. <d'~ d''~>4 |
+    <e' e''>4. <dis' dis''>4. <d' d''>4~ |
     <d' d''>8 <c' c''>4. r2 |
-    <e'~ e''~>1 |
+    <e' e''>1~ |
     <e' e''>2~ <e' e''>8 <fis' fis''>8 <fis' fis''>8 <fis' fis''>8 |
-    <e' e''>4. <dis' dis''>4. <d'~ d''~>4 |
+    <e' e''>4. <dis' dis''>4. <d' d''>4~ |
     <d' d''>8 <c' c''>4. r2 |
-    <e'~ e''~>1 |
+    <e' e''>1~ |
     <e' e''>2~ <e' e''>8 <fis' fis''>8 <fis' fis''>8 <fis' fis''>8 |
-    <e' e''>4. <dis' dis''>4. <d'~ d''~>4 |
+    <e' e''>4. <dis' dis''>4. <d' d''>4~ |
     <d' d''>8 <c' c''>4. r2 |
 \mymark "Solo" #121
     r1 |
@@ -172,38 +172,38 @@ synthPart = {
     r1 |
     r1 |
 \mymark "Bridge" #153
-    <e b e'>2.~ <e b e'>8 <e'~ gis'~ b'~>8 |
-    <e' gis' b'>2.~ <e' gis' b'>8 <e'~ gis'~ c''~>8 |
-    <e' gis' c''>2.~ <e' gis' c''>8 <e'~ gis'~ cis''~>8 |
+    <e b e'>2.~ <e b e'>8 <e' gis' b'>8~ |
+    <e' gis' b'>2.~ <e' gis' b'>8 <e' gis' c''>8~ |
+    <e' gis' c''>2.~ <e' gis' c''>8 <e' gis' cis''>8~ |
     <e' gis' cis''>1 |
-    <e b e'>2.~ <e b e'>8 <e'~ gis'~ b'~>8 |
-    <e' gis' b'>2.~ <e' gis' b'>8 <e'~ gis'~ c''~>8 |
-    <e' gis' c''>2.~ <e' gis' c''>8 <e'~ gis'~ cis''~>8 |
+    <e b e'>2.~ <e b e'>8 <e' gis' b'>8~ |
+    <e' gis' b'>2.~ <e' gis' b'>8 <e' gis' c''>8~ |
+    <e' gis' c''>2.~ <e' gis' c''>8 <e' gis' cis''>8~ |
     <e' gis' cis''>1 |
-    <e b e'>2.~ <e b e'>8 <e'~ gis'~ b'~>8 |
-    <e' gis' b'>2.~ <e' gis' b'>8 <e'~ gis'~ c''~>8 |
-    <e' gis' c''>2.~ <e' gis' c''>8 <e'~ gis'~ cis''~>8 |
+    <e b e'>2.~ <e b e'>8 <e' gis' b'>8~ |
+    <e' gis' b'>2.~ <e' gis' b'>8 <e' gis' c''>8~ |
+    <e' gis' c''>2.~ <e' gis' c''>8 <e' gis' cis''>8~ |
     <e' gis' cis''>1 |
-    <e b e'>2.~ <e b e'>8 <e'~ gis'~ b'~>8 |
-    <e' gis' b'>2.~ <e' gis' b'>8 <e'~ gis'~ c''~>8 |
-    <e' gis' c''>2.~ <e' gis' c''>8 <e'~ gis'~ cis''~>8 |
+    <e b e'>2.~ <e b e'>8 <e' gis' b'>8~ |
+    <e' gis' b'>2.~ <e' gis' b'>8 <e' gis' c''>8~ |
+    <e' gis' c''>2.~ <e' gis' c''>8 <e' gis' cis''>8~ |
     <e' gis' cis''>1 |
 \mymark "Chorus" #169
-    <e b e'>2.~ <e b e'>8 <e'~ gis'~ b'~>8 |
-    <e' gis' b'>2.~ <e' gis' b'>8 <e'~ gis'~ c''~>8 |
-    <e' gis' c''>2.~ <e' gis' c''>8 <e'~ gis'~ cis''~>8 |
+    <e b e'>2.~ <e b e'>8 <e' gis' b'>8~ |
+    <e' gis' b'>2.~ <e' gis' b'>8 <e' gis' c''>8~ |
+    <e' gis' c''>2.~ <e' gis' c''>8 <e' gis' cis''>8~ |
     <e' gis' cis''>1 |
-    <e b e'>2.~ <e b e'>8 <e'~ gis'~ b'~>8 |
-    <e' gis' b'>2.~ <e' gis' b'>8 <e'~ gis'~ c''~>8 |
-    <e' gis' c''>2.~ <e' gis' c''>8 <e'~ gis'~ cis''~>8 |
+    <e b e'>2.~ <e b e'>8 <e' gis' b'>8~ |
+    <e' gis' b'>2.~ <e' gis' b'>8 <e' gis' c''>8~ |
+    <e' gis' c''>2.~ <e' gis' c''>8 <e' gis' cis''>8~ |
     <e' gis' cis''>1 |
-    <e b e'>2.~ <e b e'>8 <e'~ gis'~ b'~>8 |
-    <e' gis' b'>2.~ <e' gis' b'>8 <e'~ gis'~ c''~>8 |
-    <e' gis' c''>2.~ <e' gis' c''>8 <e'~ gis'~ cis''~>8 |
+    <e b e'>2.~ <e b e'>8 <e' gis' b'>8~ |
+    <e' gis' b'>2.~ <e' gis' b'>8 <e' gis' c''>8~ |
+    <e' gis' c''>2.~ <e' gis' c''>8 <e' gis' cis''>8~ |
     <e' gis' cis''>1 |
-    <e b e'>2.~ <e b e'>8 <e'~ gis'~ b'~>8 |
-    <e' gis' b'>2.~ <e' gis' b'>8 <e'~ gis'~ c''~>8 |
-    <e' gis' c''>2.~ <e' gis' c''>8 <e'~ gis'~ cis''~>8 |
+    <e b e'>2.~ <e b e'>8 <e' gis' b'>8~ |
+    <e' gis' b'>2.~ <e' gis' b'>8 <e' gis' c''>8~ |
+    <e' gis' c''>2.~ <e' gis' c''>8 <e' gis' cis''>8~ |
     <e' gis' cis''>1 |
 \mymark "Post-Chorus" #185
     r1 |

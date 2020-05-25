@@ -12,17 +12,11 @@ final class LyricsInstrument extends Instrument{
 	LyricNote(String text){
 	    this.text = text;
 	}
-	public int compareTo(Note n){
+	@Override public int compareTo(Note n){
 	    return text.compareTo(((LyricNote)n).text);
 	}
 	@Override public String getLyNote(){
-	    StringBuilder sb=new StringBuilder("\"");
-	    for (char c:text.toCharArray()){
-		if (c=='"' || c=='\\')
-		    sb.append('\\');
-		sb.append(c);
-	    }
-	    return sb.append('"').toString();
+	    return '"'+text.replace("\\","\\\\").replace("\"","\\\"")+'"';
 	}
     }
     @Override Note getNote(Json note){
@@ -33,13 +27,12 @@ final class LyricsInstrument extends Instrument{
     }
     @Override void engrave(Json measure){
 	if (state.pass==0){
-	    Json index=measure.get("index");
-	    Json lyrics=state.data.get("lyrics").get(index.intValue()-1);
-	    Rational time=Rational.ZERO;
+	    Json lyrics=state.data.get("lyrics").get(measure.get("index").intValue()-1);
+	    Rational time=state.measureStartTime;
 	    for (Json beat:lyrics.get("beats").list){
 		Rational duration=getDuration(beat.get("duration"));
 		for (Json note:beat.get("lyrics").list)
-		    events.add(new Event(state.measureStartTime.add(time),duration,note));
+		    events.add(new Event(time,duration,note));
 		time = time.add(duration);
 	    }
 	}else

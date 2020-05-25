@@ -116,9 +116,9 @@ vocalsPart = {
     e'8 b8 r8 fis'8 r8 e'8 r8 e'8~ |
     e'8 b8 r8 fis'8 r8 e'8 r8 e'8~ |
     e'8 r8 e'8 r8 dis'8 dis'8 dis'8 e'8~ |
-    e'8 r4 <cis' fis' a'>8 r8 <b e' gis'>8 r8 <b~ e'~ gis'~>8 |
-    <b e' gis'>8 r4 <cis' fis' a'>8 r8 <b e' gis'>8 r8 <b~ e'~ gis'~>8 |
-    <b e' gis'>8 r4 <cis' fis' a'>8 r8 <b e' gis'>8 r8 <b~ e'~ gis'~>8 |
+    e'8 r4 <cis' fis' a'>8 r8 <b e' gis'>8 r8 <b e' gis'>8~ |
+    <b e' gis'>8 r4 <cis' fis' a'>8 r8 <b e' gis'>8 r8 <b e' gis'>8~ |
+    <b e' gis'>8 r4 <cis' fis' a'>8 r8 <b e' gis'>8 r8 <b e' gis'>8~ |
     <b e' gis'>8 r8 <b e' gis'>8 r8 <ais dis' fis'>8 r8 <ais dis' fis'>8 <b e' gis'>8 |
 \mymark "Riff 1" #105
     r1 |
@@ -210,17 +210,17 @@ vocalsPart = {
     e'8 b8 r8 fis'8 r8 e'8 r8 e'8~ |
     e'8 b8 r8 fis'8 r8 e'8 r8 e'8~ |
     e'8 r8 e'8 r8 dis'8 dis'8 dis'8 e'8~ |
-    e'8 r4 <cis' fis' a'>8 r8 <b e' gis'>8 r8 <b~ e'~ gis'~>8 |
-    <b e' gis'>8 r4 <cis' fis' a'>8 r8 <b e' gis'>8 r8 <b~ e'~ gis'~>8 |
-    <b e' gis'>8 r4 <cis' fis' a'>8 r8 <b e' gis'>8 r8 <b~ e'~ gis'~>8 |
+    e'8 r4 <cis' fis' a'>8 r8 <b e' gis'>8 r8 <b e' gis'>8~ |
+    <b e' gis'>8 r4 <cis' fis' a'>8 r8 <b e' gis'>8 r8 <b e' gis'>8~ |
+    <b e' gis'>8 r4 <cis' fis' a'>8 r8 <b e' gis'>8 r8 <b e' gis'>8~ |
     <b e' gis'>8 r8 <b e' gis'>8 r8 <ais dis' fis'>8 r8 <ais dis' fis'>8 <b e' gis'>8 |
 \mymark "Outro" #193
-    <e' gis'>8 <b e'>8 r8 <fis' a'>8 r8 <e' gis'>8 r8 <e'~ gis'~>8 |
-    <e' gis'>8 <b e'>8 r8 <fis' a'>8 r8 <e' gis'>8 r8 <e'~ gis'~>8 |
-    <e' gis'>8 <b e'>8 r8 <fis' a'>8 r8 <e' gis'>8 r8 <e'~ gis'~>8 |
-    <e' gis'>8 r8 <e' gis'>8 r8 <dis' fis'>8 <dis' fis'>8 <dis' fis'>8 <e'~ gis'~>8 |
-    <e' gis'>8 r4 <fis' fis' a'>8 r8 <e' e' gis'>8 r8 <e'~ e'~ gis'~>8 |
-    <e' e' gis'>8 r4 <fis' fis' a'>8 r8 <e' e' gis'>8 r8 <e'~ e'~ gis'~>8 |
-    <e' e' gis'>8 r4 <fis' fis' a'>8 r8 <e' e' gis'>8 r8 <e'~ e'~ gis'~>8 |
+    <e' gis'>8 <b e'>8 r8 <fis' a'>8 r8 <e' gis'>8 r8 <e' gis'>8~ |
+    <e' gis'>8 <b e'>8 r8 <fis' a'>8 r8 <e' gis'>8 r8 <e' gis'>8~ |
+    <e' gis'>8 <b e'>8 r8 <fis' a'>8 r8 <e' gis'>8 r8 <e' gis'>8~ |
+    <e' gis'>8 r8 <e' gis'>8 r8 <dis' fis'>8 <dis' fis'>8 <dis' fis'>8 <e' gis'>8~ |
+    <e' gis'>8 r4 <fis' fis' a'>8 r8 <e' e' gis'>8 r8 <e' e' gis'>8~ |
+    <e' e' gis'>8 r4 <fis' fis' a'>8 r8 <e' e' gis'>8 r8 <e' e' gis'>8~ |
+    <e' e' gis'>8 r4 <fis' fis' a'>8 r8 <e' e' gis'>8 r8 <e' e' gis'>8~ |
     <e' e' gis'>8 r8 <e' e' gis'>8 r8 <dis' dis' fis'>8 <dis' dis' fis'>8 <dis' dis' fis'>8 <e' e' gis'>8 |
 }

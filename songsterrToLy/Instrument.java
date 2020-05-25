@@ -31,11 +31,9 @@ abstract class Instrument extends Engraver{
 	    return Stuff.midi2ly(note);
 	}
     }
-    private int eventIdCounter;
     class Event implements Comparable<Event>{
 	final Rational time;
 	Rational duration;
-	final int id;
 	final Json json;
 	final Note note;
 	final boolean ghost;
@@ -47,7 +45,6 @@ abstract class Instrument extends Engraver{
 	    this.time = time;
 	    this.duration = duration;
 	    this.json = json;
-	    this.id = eventIdCounter++;
 	    Json j;
 	    tieRhs = (j=json.get("tie"))!=null && j.booleanValue();
 	    ghost = (j=json.get("ghost"))!=null && j.booleanValue();
@@ -55,46 +52,32 @@ abstract class Instrument extends Engraver{
 	    note = getNote(json);
 	    rest = (j=json.get("rest"))!=null && j.booleanValue() || note==null;
 	}
-	String tieString(){
-	    if (note!=null)
-		return note.tieString();
-	    return String.valueOf(id);
-	}
 	@Override public int compareTo(Event e){
 	    int i;
 	    if ((i=time.compareTo(e.time))!=0)
 		return i;
-	    if (note==null || e.note==null)
-		return (note==null?0:1)-(e.note==null?0:1);
-	    return note.compareTo(e.note);
+	    if ((i=note.compareTo(e.note))!=0)
+		return i;
+	    if ((i=duration.compareTo(e.duration))!=0)
+		return i;
+	    if ((i=(tieLhs?1:0)-(e.tieLhs?1:0))!=0)
+		return i;
+	    if ((i=(ghost?1:0)-(e.ghost?1:0))!=0)
+		return i;
+	    return (dead?1:0)-(e.dead?1:0);
 	}
 	@Override public String toString(){
 	    StringBuilder sb=new StringBuilder();
-	    if (rest)
-		sb.append('r');
-	    else{
-		if (ghost)
-		    sb.append("\\parenthesize ");
-		if (dead)
-		    sb.append("\\deadNote ");
-		sb.append(note.getLyNote());
-	    }
-	    return sb.toString();
-	}
-	String getLySuffix(){
-	    StringBuilder sb=new StringBuilder();
-	    if (!rest){
-		sb.append(note.getLySuffix());
-		if (tieLhs)
-		    sb.append('~');
-	    }
+	    if (ghost)
+		sb.append("\\parenthesize ");
+	    if (dead)
+		sb.append("\\deadNote ");
+	    sb.append(note.getLyNote());
 	    return sb.toString();
 	}
     }
     abstract Note getNote(Json note);
-    String appendTime(String what,String suffix,Rational time){
-	if (state.argv_lyrics)
-	    suffix = suffix.replace("~","");
+    String appendTime(String what,String suffix,Rational time,boolean tieLhs){
 	if (time.signum()<0)
 	    throw new RuntimeException();
 	StringBuilder sb=new StringBuilder();
@@ -106,7 +89,7 @@ abstract class Instrument extends Engraver{
 	    while (tuplet.compareTo(Rational.TWO)>0)
 		tuplet = tuplet.divide(2);
 	    sb.append("\\tuplet "+tuplet+" { ");
-	    sb.append(appendTime(what,suffix,time.multiply(tuplet)));
+	    sb.append(appendTime(what,suffix,time.multiply(tuplet),tieLhs));
 	    sb.append(" }");
 	}else if (time.signum()!=0){
 	    Rational d=new Rational(state.time_d);
@@ -126,10 +109,11 @@ abstract class Instrument extends Engraver{
 	    if (time.signum()!=0){
 		if (state.argv_lyrics)
 		    what = "\\skip";
-		if (!what.equals("r") && !what.equals("\\skip") && suffix.indexOf('~')==-1)
+		if (!what.equals("r") && !what.equals("\\skip"))
 		    sb.append('~');
-		sb.append(' ').append(appendTime(what,suffix,time));
-	    }
+		sb.append(' ').append(appendTime(what,suffix,time,tieLhs));
+	    }else if (tieLhs)
+		sb.append('~');
 	}
 	return sb.toString();
     }
@@ -140,7 +124,7 @@ abstract class Instrument extends Engraver{
 	while (q.size()!=0){
 	    Event e=q.poll();
 	    if (!e.time.equals(time))
-		sb.append(appendTime(rest,"",e.time.subtract(time))).append(' ');
+		sb.append(appendTime(rest,"",e.time.subtract(time),false)).append(' ');
 	    List<Event>l=new ArrayList<Event>();
 	    Rational duration=e.duration;
 	    l.add(e);
@@ -155,23 +139,29 @@ abstract class Instrument extends Engraver{
 		    f.tieLhs = true;
 		}
 	    if (l.size()==1)
-		sb.append(appendTime(e.toString(),e.getLySuffix(),duration));
+		sb.append(appendTime(e.toString(),e.note.getLySuffix(),duration,e.tieLhs));
 	    else{
+		boolean allTies=true;
+		for (Event f:l)
+		    allTies &= f.tieLhs;
 		StringBuilder sb2=new StringBuilder();
 		sb2.append(lt);
 		for (int i=0; i<l.size(); i++){
 		    if (i!=0)
 			sb2.append(between);
-		    sb2.append(l.get(i)).append(l.get(i).getLySuffix());
+		    Event f=l.get(i);
+		    sb2.append(f).append(f.note.getLySuffix());
+		    if (f.tieLhs && !allTies)
+			sb2.append('~');
 		}
 		sb2.append(gt);
-		sb.append(appendTime(sb2.toString(),"",duration));
+		sb.append(appendTime(sb2.toString(),"",duration,allTies));
 	    }
 	    sb.append(' ');
 	    time = e.time.add(duration);
 	}
 	if (!time.equals(measureEndTime))
-	    sb.append(appendTime(rest,"",measureEndTime.subtract(time))).append(' ');
+	    sb.append(appendTime(rest,"",measureEndTime.subtract(time),false)).append(' ');
 	sb.append('|');
 	return sb.toString();
     }
@@ -185,7 +175,7 @@ abstract class Instrument extends Engraver{
 	PriorityQueue<Event>q=new PriorityQueue<Event>();
 	while (events.size()!=0){
 	    Event e=events.peek();
-	    if (e.time.compareTo(state.measureStartTime)<0 || e.rest || e.ghost&&state.argv_omit_ghost_notes){
+	    if (e.time.compareTo(state.measureStartTime)<0 || e.ghost&&state.argv_omit_ghost_notes){
 		events.poll();
 		continue;
 	    }
@@ -208,8 +198,11 @@ abstract class Instrument extends Engraver{
 		Rational time=Rational.ZERO;
 		for (Json beat:voice.get("beats").list){
 		    Rational duration=getDuration(beat.get("duration"));
-		    for (Json note:beat.get("notes").list)
-			events.add(new Event(state.measureStartTime.add(time).add(state.argv_shift),duration,note));
+		    for (Json note:beat.get("notes").list){
+			Event e=new Event(state.measureStartTime.add(time).add(state.argv_shift),duration,note);
+			if (!e.rest)
+			    events.add(e);
+		    }
 		    time = time.add(duration);
 		}
 		if (time.compareTo(new Rational(state.time_n))!=0)
@@ -226,16 +219,16 @@ abstract class Instrument extends Engraver{
     private void joinTies(){
 	Map<String,Event>map=new HashMap<String,Event>();
 	for (Event e:events)
-	    map.put(e.tieString()+','+e.time.add(e.duration),e);
+	    map.put(e.note.tieString()+','+e.time.add(e.duration),e);
 	for (Iterator<Event>i=events.iterator(); i.hasNext();){
 	    Event e=i.next();
 	    if (e.tieRhs){
-		Event lhs=map.remove(e.tieString()+','+e.time);
+		Event lhs=map.remove(e.note.tieString()+','+e.time);
 		if (lhs==null)
-		    System.err.println("Strange tie "+e.tieString());
+		    System.err.println("Strange tie "+e.note.tieString());
 		else{
 		    lhs.duration = lhs.duration.add(e.duration);
-		    map.put(lhs.tieString()+','+lhs.time.add(lhs.duration),lhs);
+		    map.put(lhs.note.tieString()+','+lhs.time.add(lhs.duration),lhs);
 		    i.remove();
 		}
 	    }
