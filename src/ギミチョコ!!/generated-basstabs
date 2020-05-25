@@ -1,0 +1,226 @@
+bassPart = {
+% url: -
+% artist: Babymetal
+% title: Gimme Choco
+% instrument: Electric Bass (pick)
+% name: Bass
+    \time 4/4
+    \tempo 4 = 220
+\mymark "Riff 1" #1
+% tuning c,, f,, ais,, dis,
+    4-4t4 3t8 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t |
+    4-4t4 3t8 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t |
+    4-4t4 3t8 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t |
+    4-4t4 3t8 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t |
+    4-4t4 3t8 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t |
+    4-4t4 3t8 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t |
+\mymark "Riff 2" #25
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+\mymark "Verse 1" #33
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t r4 |
+\mymark "Chorus" #41
+    4-4t4 t t8 t t t~ |
+    4-4t8 t4 t8 t t t t~ |
+    4-4t8 t4 t8 t t t 3-8t~ |
+    3-8t8 t t t t t t4 |
+    4-4t4 t t8 t t t~ |
+    4-4t8 t4 t8 t t t t~ |
+    4-4t8 t4 t8 t t t 3-8t~ |
+    3-8t8 t t t t t t4 |
+    4-4t4 t t8 t t t~ |
+    4-4t8 t4 t8 t t t t~ |
+    4-4t8 t4 t8 t t t 3-8t~ |
+    3-8t8 t t t t t t4 |
+    4-4t4 t t8 t t t~ |
+    4-4t8 t4 t8 t t t t~ |
+    4-4t8 t4 t8 t t t 3-8t~ |
+    3-8t8 t t t t r4. |
+\mymark "Riff 1" #57
+    4-4t4 3t8 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t |
+    4-4t4 3t8 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t |
+\mymark "Riff 2" #65
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+\mymark "Verse 2" #73
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t r4 |
+\mymark "Chorus" #81
+    4-4t4 t t8 t t t~ |
+    4-4t8 t4 t8 t t t t~ |
+    4-4t8 t4 t8 t t t 3-8t~ |
+    3-8t8 t t t t t t4 |
+    4-4t4 t t8 t t t~ |
+    4-4t8 t4 t8 t t t t~ |
+    4-4t8 t4 t8 t t t 3-8t~ |
+    3-8t8 t t t t t t4 |
+    4-4t4 t t8 t t t~ |
+    4-4t8 t4 t8 t t t t~ |
+    4-4t8 t4 t8 t t t 3-8t~ |
+    3-8t8 t t t t t t4 |
+    4-4t4 t t8 t t t~ |
+    4-4t8 t4 t8 t t t t~ |
+    4-4t8 t4 t8 t t t 3-8t~ |
+    3-8t8 t t t t t t4 |
+\mymark "Post-Chorus" #97
+    4-4t4 t t8 t t t~ |
+    4-4t4 t t8 t t t~ |
+    4-4t4 t t8 t t t~ |
+    4-4t4 t 3t8 t t 4t~ |
+    4-4t4 t t8 t t t~ |
+    4-4t4 t t8 t t t~ |
+    4-4t4 t t8 t t t~ |
+    4-4t4 t 3t8 t t 4t |
+\mymark "Riff 1" #105
+    4-4t4 3t8 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t |
+    4-4t4 3t8 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t |
+    4-4t4 3t8 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t |
+    4-4t4 3t8 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t~ |
+    4-4t8 0t 3t 0t 2t 1t 0t 4t |
+\mymark "Solo" #121
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t r4 |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+\mymark "Verse 3" #145
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t t t |
+    4-4t8 t t t t t r4 |
+\mymark "Bridge" #153
+    4-4t4 t t t |
+    4-4t4 t t t |
+    4-4t4 t t t |
+    3-8t4 t t t |
+    4-4t4 t t t |
+    4-4t4 t t t |
+    4-4t4 t t t |
+    3-8t4 t t t |
+    4-4t4 t t t |
+    4-4t4 t t t |
+    4-4t4 t t t |
+    3-8t4 t t t |
+    4-4t4 t t t |
+    4-4t4 t t t |
+    4-4t4 t t t |
+    3-8t1 |
+\mymark "Chorus" #169
+    4-4t4 t t8 t t t~ |
+    4-4t8 t4 t8 t t t t~ |
+    4-4t8 t4 t8 t t t 3-8t~ |
+    3-8t8 t t t t t t4 |
+    4-4t4 t t8 t t t~ |
+    4-4t8 t4 t8 t t t t~ |
+    4-4t8 t4 t8 t t t 3-8t~ |
+    3-8t8 t t t t t t4 |
+    4-4t4 t t8 t t t~ |
+    4-4t8 t4 t8 t t t t~ |
+    4-4t8 t4 t8 t t t 3-8t~ |
+    3-8t8 t t t t t t4 |
+    4-4t4 t t8 t t t~ |
+    4-4t8 t4 t8 t t t t~ |
+    4-4t8 t4 t8 t t t 3-8t~ |
+    3-8t8 t t t t t t4 |
+\mymark "Post-Chorus" #185
+    4-4t4 t t8 t t t~ |
+    4-4t4 t t8 t t t~ |
+    4-4t4 t t8 t t t~ |
+    4-4t4 t 3t8 t t 4t~ |
+    4-4t4 t t8 t t t~ |
+    4-4t4 t t8 t t t~ |
+    4-4t4 t t8 t t t~ |
+    4-4t4 t 3t8 t t 4t |
+\mymark "Outro" #193
+    4-4t4 t t8 t t t~ |
+    4-4t4 t t8 t t t~ |
+    4-4t4 t t8 t t t~ |
+    4-4t4 t 3t8 t t 4t~ |
+    4-4t4 t t8 t t t~ |
+    4-4t4 t t8 t t t~ |
+    4-4t4 t t8 t t t~ |
+    4-4t4 t 3t8 t t 4t |
+}

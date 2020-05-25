@@ -2,16 +2,18 @@ import java.util.*;
 
 final class GuitarInstrument extends Instrument{
     int[]tuning;
-    private class GuitarNote extends MidiNote{
+    class GuitarNote extends MidiNote{
 	final int string;
+	final int fret;
 	GuitarNote(int string,int fret){
-	    super(tuning[string]+fret);
+	    super(tuning[string-1]+fret);
 	    this.string = string;
+	    this.fret = fret;
 	}
 	@Override public String getLySuffix(){
 	    if (state.argv_no_string_numbers)
 		return "";
-	    return "\\"+(string+1);
+	    return "\\"+string;
 	}
 	@Override public String tieString(){
 	    return String.valueOf(string);
@@ -38,7 +40,7 @@ final class GuitarInstrument extends Instrument{
 	Json fret=note.get("fret");
 	if (string==null || fret==null)
 	    return null;
-	return new GuitarNote(string.intValue(),fret.intValue());
+	return new GuitarNote(string.intValue()+1,fret.intValue());
     }
     @Override boolean matches(State state){
 	return true;

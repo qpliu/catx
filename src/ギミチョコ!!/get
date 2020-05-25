@@ -1,11 +1,11 @@
 #!/bin/bash
 set -e -o pipefail
 GET="java -jar ../../songsterrToLy/1.jar"
-gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-tab-s392595/z-t0|$GET --name guitarOnePart - >generated-guitar1
-gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-tab-s392595/z-t1|$GET --name guitarTwoPart - >generated-guitar2
-gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-tab-s392595/z-t2|$GET --name guitarThreePart - >generated-guitar3
-gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-tab-s392595/z-t3|$GET --name guitarFourPart - >generated-guitar4
-gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-bass-tab-s392595/z-t4|$GET --name bassPart - >generated-bass
+gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-tab-s392595/z-t0|$GET --name guitarOnePart --output-tabs - >generated-guitar1tabs
+gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-tab-s392595/z-t1|$GET --name guitarTwoPart --output-tabs - >generated-guitar2tabs
+gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-tab-s392595/z-t2|$GET --name guitarThreePart --output-tabs - >generated-guitar3tabs
+gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-tab-s392595/z-t3|$GET --name guitarFourPart --output-tabs - >generated-guitar4tabs
+gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-bass-tab-s392595/z-t4|$GET --name bassPart --output-tabs - >generated-basstabs
 gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-drum-tab-s392595/z-t5|$GET --name drsPart - >generated-drscolors
 gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-tab-s392595/z-t6|$GET --no-string-numbers --omit-ghost-notes --name synthPart - >generated-synth
 gzip -d </share/mirror/songsterr/stuff/d-keep/d-babymetal-gimme-choco-tab-s392595/z-t7|$GET --no-string-numbers --omit-ghost-notes --name vocalsPart - >generated-vocals

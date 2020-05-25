@@ -68,6 +68,26 @@ setTuning("e, a, d g b e'")
 
 s = None
 
+def find(a,b):
+    quote = False
+    for i,c in enumerate(a):
+	if c=='"':
+	    quote = not quote
+	if not quote and c==b:
+	    return i
+    return -1
+
+def split(a,b):
+    z = []
+    while 1:
+	i = find(a,b)
+	if i==-1:
+	    break
+	z.append(a[:i])
+	a = a[i+1:]
+    z.append(a)
+    return z
+
 for line in sys.stdin:
     if line.startswith('% tuning'):
 	setTuning(line[8:])
@@ -76,7 +96,7 @@ for line in sys.stdin:
     out = []
     last = 0
     prev = ''
-    for m in re.finditer(r'(?<=\s)((?:(?:(?:[0-9]+-[0-9]+~?|[0-9]+~?)?\.)*(?:[0-9]+-)?[0-9]+~?)?)t(?=[\s123468->~()])',line):
+    for m in re.finditer(r'(?<=\s)((?:(?:(?:[0-9]+-(?:"[^"]*")?g?x?[0-9]+~?(?:"[^"]*")?|(?:"[^"]*")?g?x?[0-9]+~?(?:"[^"]*")?)?\.)*(?:[0-9]+-)?(?:"[^"]*")?g?x?[0-9]+~?(?:"[^"]*")?)?)t(?=[\s123468->~()])',line):
 	out.append(line[last:m.start(0)])
 	last = m.end(0)
 	out.append('<')
@@ -86,17 +106,32 @@ for line in sys.stdin:
 	else:
 	    prev = tab
 	ss = s
-	for a in tab.split('.'):
-	    i = a.find('-')
+	for a in split(tab,'.'):
+	    i = find(a,'-')
 	    if i!=-1:
 		ss = s = int(a[:i])
 		a = a[i+1:]
 	    if a:
+		if a[0]=='"':
+		    i = a.index('"',1)
+		    out.append(a[1:i])
+		    a = a[i+1:]
+		after = ''
+		if a[-1]=='"':
+		    i = a.index('"')
+		    after = a[i+1:-1]
+		    a = a[:i]
+		if a.startswith('g'):
+		    a = a[1:]
+		    out.append(r'\parenthesize ')
+		if a.startswith('x'):
+		    a = a[1:]
+		    out.append(r'\deadNote ')
 		tie = ''
 		if a.endswith('~'):
 		    a = a[:-1]
 		    tie = '~'
-		out.append(addly(tuning[ss-1],int(a))+'\\%d'%ss+tie+' ')
+		out.append(addly(tuning[ss-1],int(a))+'\\%d'%ss+tie+after+' ')
 	    ss -= 1
 	out.append('>')
     out.append(line[last:])

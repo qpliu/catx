@@ -40,13 +40,12 @@ final class Event implements Comparable<Event>{
 	    return i;
 	return (tieLhs?4:0)-(e.tieLhs?4:0)+(ghost?2:0)-(e.ghost?2:0)+(dead?1:0)-(e.dead?1:0);
     }
-    @Override public String toString(){
+    String getAdjectives(){
 	StringBuilder sb=new StringBuilder();
 	if (ghost)
 	    sb.append("\\parenthesize ");
 	if (dead)
 	    sb.append("\\deadNote ");
-	sb.append(note.getLyNote());
 	return sb.toString();
     }
 }

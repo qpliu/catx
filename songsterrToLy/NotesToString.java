@@ -6,10 +6,12 @@ final class NotesToString{
     private final StringBuilder sb=new StringBuilder();
     private Rational last_tuplet;
     private String lastDuration;
+    private String lastTab;
+    private String lastString;
     NotesToString(State state){
 	this.state = state;
     }
-    private void appendDuration(String what,String suffix,Rational duration,boolean tieLhs){
+    private void appendDuration(String what,String suffix,Rational duration,boolean tieLhs,boolean isTab){
 	if (duration.signum()<0)
 	    throw new RuntimeException();
 	BigInteger tuplet_d=duration.d;
@@ -24,7 +26,7 @@ final class NotesToString{
 	    if (!tuplet.equals(last_tuplet))
 		sb.append("\\tuplet "+tuplet+" { "); //}
 	    last_tuplet = null;
-	    appendDuration(what,suffix,duration.multiply(tuplet),tieLhs);
+	    appendDuration(what,suffix,duration.multiply(tuplet),tieLhs,isTab);
 	    last_tuplet = tuplet;
 	}else if (duration.signum()!=0){
 	    if (last_tuplet!=null)
@@ -56,7 +58,7 @@ final class NotesToString{
 		if (!what.equals("r") && !what.equals("\\skip"))
 		    sb.append('~');
 		sb.append(' ');
-		appendDuration(what,suffix,duration,tieLhs);
+		appendDuration(isTab?"t":what,suffix,duration,tieLhs,isTab);
 	    }else if (tieLhs)
 		sb.append('~');
 	}
@@ -67,7 +69,7 @@ final class NotesToString{
 	while (q.size()!=0){
 	    Event e=q.poll();
 	    if (!e.time.equals(time)){
-		appendDuration(rest,"",e.time.subtract(time),false);
+		appendDuration(rest,"",e.time.subtract(time),false,false);
 		sb.append(' ');
 	    }
 	    List<Event>l=new ArrayList<Event>();
@@ -78,35 +80,75 @@ final class NotesToString{
 		    duration = q.peek().duration;
 		l.add(q.poll());
 	    }
-	    for (Event f:l)
+	    boolean outputTabs=state.argv_output_tabs;
+	    for (Event f:l){
 		if (!f.duration.equals(duration)){
 		    q.add(new Event(f,f.time.add(duration),f.duration.subtract(duration)));
 		    f.tieLhs = true;
 		}
-	    if (l.size()==1)
-		appendDuration(e.toString(),e.note.getLySuffix(),duration,e.tieLhs);
+		outputTabs &= f.note instanceof GuitarInstrument.GuitarNote;
+	    }
+	    if (l.size()==1 && !outputTabs)
+		appendDuration(e.getAdjectives()+e.note.getLyNote(),e.note.getLySuffix(),duration,e.tieLhs,false);
 	    else{
 		boolean allTies=true;
 		for (Event f:l)
 		    allTies &= f.tieLhs;
-		StringBuilder sb2=new StringBuilder();
-		sb2.append(lt);
-		for (int i=0; i<l.size(); i++){
-		    if (i!=0)
-			sb2.append(between);
-		    Event f=l.get(i);
-		    sb2.append(f).append(f.note.getLySuffix());
-		    if (f.tieLhs && !allTies)
-			sb2.append('~');
+		String what;
+		if (outputTabs){
+		    StringBuilder sb2=new StringBuilder();
+		    Collections.sort(l,(a,b)->((GuitarInstrument.GuitarNote)b.note).string-((GuitarInstrument.GuitarNote)a.note).string);
+		    int string=((GuitarInstrument.GuitarNote)l.get(0).note).string;
+		    String firstString=string+"-";
+		    for (int i=0; i<l.size(); i++){
+			Event f=l.get(i);
+			GuitarInstrument.GuitarNote gn=(GuitarInstrument.GuitarNote)f.note;
+			if (gn.string==string-1 && i!=0)
+			    sb2.append('.');
+			else if (gn.string!=string)
+			    sb2.append(gn.string).append('-');
+			string = gn.string-1;
+			if (f.ghost)
+			    sb2.append('g');
+			if (f.dead)
+			    sb2.append('x');
+			sb2.append(gn.fret);
+			if (f.tieLhs && !allTies)
+			    sb2.append('~');
+			sb2.append(i==l.size()-1?'t':'.');
+		    }
+		    what = sb2.toString();
+		    if ((firstString+what).equals(lastTab))
+			what = "t";
+		    else{
+			lastTab = firstString+what;
+			if (!firstString.equals(lastString)){
+			    lastString = firstString;
+			    what = firstString+what;
+			}
+		    }
+		    appendDuration(what,"",duration,allTies,true);
+		}else{
+		    StringBuilder sb2=new StringBuilder();
+		    sb2.append(lt);
+		    for (int i=0; i<l.size(); i++){
+			if (i!=0)
+			    sb2.append(between);
+			Event f=l.get(i);
+			sb2.append(f.getAdjectives()).append(f.note.getLyNote()).append(f.note.getLySuffix());
+			if (f.tieLhs && !allTies)
+			    sb2.append('~');
+		    }
+		    sb2.append(gt);
+		    what = sb2.toString();
+		    appendDuration(what,"",duration,allTies,false);
 		}
-		sb2.append(gt);
-		appendDuration(sb2.toString(),"",duration,allTies);
 	    }
 	    sb.append(' ');
 	    time = e.time.add(duration);
 	}
 	if (!time.equals(measureEndTime)){
-	    appendDuration(rest,"",measureEndTime.subtract(time),false);
+	    appendDuration(rest,"",measureEndTime.subtract(time),false,false);
 	    sb.append(' ');
 	}
 	if (last_tuplet!=null)

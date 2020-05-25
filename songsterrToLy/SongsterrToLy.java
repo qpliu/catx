@@ -26,6 +26,7 @@ final class SongsterrToLy{
 	System.err.println("[--name partName]  Specify partName.");
 	System.err.println("[--no-string-numbers]  Don't include string numbers.");
 	System.err.println("[--omit-ghost-notes]  Don't include ghost notes.");
+	System.err.println("[--output-tabs]  Output tabs instead of notes.");
 	System.err.println("[--scale scale]  Specify note spelling.  Something like --scale \"c des eisis\"");
 	System.err.println("[--shift n/d]  Shift notes right n/d beats.  Use --shift -21/5 to shift notes left 4 1/5th beat.");
 	System.exit(1);
@@ -39,6 +40,8 @@ final class SongsterrToLy{
 		state.argv_no_string_numbers = true;
 	    else if (argv[i].equals("--omit-ghost-notes"))
 		state.argv_omit_ghost_notes = true;
+	    else if (argv[i].equals("--output-tabs"))
+		state.argv_output_tabs = true;
 	    else if (argv[i].equals("--shift")){
 		int j=argv[++i].indexOf('/');
 		if (j==-1)
