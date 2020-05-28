@@ -23,8 +23,26 @@ final class GuitarInstrument extends Instrument{
 	@Override public String getAfterAdjectives(){
 	    StringBuilder sb=new StringBuilder();
 	    sb.append(super.getAfterAdjectives());
-	    if (bend!=null)
-		sb.append("\\bendAfter #"+bend.get("tone").intValue()*.01);
+	    if (bend!=null){
+		int tone=bend.get("tone").intValue();
+		if (tone<0){
+		    tone = -tone;
+		    sb.append("\\bendAfter #-6 _");
+		}else
+		    sb.append("\\bendAfter #6 ^");
+		if (tone==100)
+		    sb.append("\"full\"");
+		else if (tone%100==0)
+		    sb.append('"').append(tone/100).append('"');
+		else if (tone==50)
+		    sb.append("\"\u00bd\"");
+		else if (tone%100==50)
+		    sb.append('"').append(tone/100).append("\u00bd\"");
+		else if (tone%10==0)
+		    sb.append(String.format("\"%.1f\"",tone*.01));
+		else
+		    sb.append(String.format("\"%.2f\"",tone*.01));
+	    }
 	    return sb.toString();
 	}
     }
