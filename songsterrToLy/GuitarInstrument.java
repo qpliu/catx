@@ -2,6 +2,7 @@ import java.util.*;
 
 final class GuitarInstrument extends Instrument{
     int[]tuning;
+    int offset_tuning;
     class GuitarNote extends MidiNote{
 	final int string;
 	final int fret;
@@ -44,7 +45,13 @@ final class GuitarInstrument extends Instrument{
 	List<Json>l=state.track.get("tuning").list;
 	tuning = new int[l.size()];
 	for (int i=0; i<tuning.length; i++)
-	    tuning[i] = l.get(i).intValue();
+	    tuning[i] = l.get(i).intValue()+offset_tuning;
+	offset_tuning = -12;
+	Json j;
+	if ((j=state.track.get("isBassGuitar"))!=null && j.booleanValue())
+	    offset_tuning = 0;
+	if ((j=state.track.get("isGuitar"))!=null && j.booleanValue())
+	    offset_tuning = 0;
     }
     @Override void engrave(Json measure){
 	if (state.measureNumber==1){

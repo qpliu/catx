@@ -18,7 +18,7 @@
 \include "generated-guitar1"
 \include "generated-guitar2"
 \include "generated-guitar3"
-\include "generated-guitar4"
+%\include "generated-guitar4"
 \include "generated-synth"
 \include "generated-vocals"
 \include "generated-synthtext_lyrics"
@@ -79,19 +79,19 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\guitarThreePart
     >>
-    \tag #'(allPart peterPart) \new Staff \with {
-	instrumentName = \markup { \rotate #90 "Guitar 4" }
-	shortInstrumentName = \markup { \rotate #90 "Gtr4" }
-    } <<
-	\markupStuff
-	\clef "treble_8"
-	\guitarFourPart
-	{ s1_\markup { "Tuning: C F A"\teeny\sharp" D"\teeny\sharp" G C" } }
-    >>
-    \tag #'(peterPart) \new TabStaff \with { stringTunings = \stringTuning <c, f, ais, dis g c'> } <<
-	\markupStuff
-	\guitarFourPart
-    >>
+%    \tag #'(allPart peterPart) \new Staff \with {
+%	instrumentName = \markup { \rotate #90 "Guitar 4" }
+%	shortInstrumentName = \markup { \rotate #90 "Gtr4" }
+%    } <<
+%	\markupStuff
+%	\clef "treble_8"
+%	\guitarFourPart
+%	{ s1_\markup { "Tuning: C F A"\teeny\sharp" D"\teeny\sharp" G C" } }
+%    >>
+%    \tag #'(peterPart) \new TabStaff \with { stringTunings = \stringTuning <c, f, ais, dis g c'> } <<
+%	\markupStuff
+%	\guitarFourPart
+%    >>
     \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }
 	shortInstrumentName = \markup { \rotate #90 "Ba" }
@@ -139,7 +139,7 @@ midimusic = <<
     \tag #'(midiPeter rolandBackOne) \new Staff \with {
 	midiInstrument = #"distorted guitar" % 30
     } \guitarThreePart
-    \tag #'(midiPeter rolandBackOne) \new Staff \with {
-	midiInstrument = #"overdriven guitar" % 29
-    } \guitarFourPart
+%    \tag #'(midiPeter rolandBackOne) \new Staff \with {
+%	midiInstrument = #"overdriven guitar" % 29
+%    } \guitarFourPart
 >>
