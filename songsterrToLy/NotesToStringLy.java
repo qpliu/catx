@@ -16,30 +16,38 @@ final class NotesToStringLy extends NotesToString{
 	    return Stuff.midi2ly(((MidiNote)note).note,state);
 	return note.getLyNote();
     }
-    @Override Rational notesToString(List<Event>l,Rational duration){
+    @Override void notesToString(List<Event>l,String duration){
 	if (l.size()==1){
 	    Event e=l.get(0);
-	    return appendDuration(e.getAdjectives()+getRelativeNote(e.note),e.note.getLySuffix(),duration,e.tieLhs,false);
+	    sb.append(e.getAdjectives());
+	    sb.append(getRelativeNote(e.note));
+	    sb.append(duration);
+	    sb.append(e.note.getLySuffix());
+	    if (e.tieRhs)
+		sb.append('~');
+	}else{
+	    boolean allTies=true;
+	    for (Event e:l)
+		allTies &= e.tieRhs;
+	    sb.append(lt);
+	    int lastRelative=0;
+	    for (int i=0; i<l.size(); i++){
+		if (i!=0)
+		    sb.append(between);
+		Event e=l.get(i);
+		sb.append(e.getAdjectives());
+		sb.append(getRelativeNote(e.note));
+		sb.append(e.note.getLySuffix());
+		if (e.tieRhs && !allTies)
+		    sb.append('~');
+		if (i==0)
+		    lastRelative = state.lastRelative;
+	    }
+	    state.lastRelative = lastRelative;
+	    sb.append(gt);
+	    sb.append(duration);
+	    if (allTies)
+		sb.append('~');
 	}
-	boolean allTies=true;
-	for (Event e:l)
-	    allTies &= e.tieLhs;
-	StringBuilder sb2=new StringBuilder();
-	sb2.append(lt);
-	int lastRelative=0;
-	for (int i=0; i<l.size(); i++){
-	    if (i!=0)
-		sb2.append(between);
-	    Event e=l.get(i);
-	    sb2.append(e.getAdjectives()).append(getRelativeNote(e.note)).append(e.note.getLySuffix());
-	    if (e.tieLhs && !allTies)
-		sb2.append('~');
-	    if (i==0)
-		lastRelative = state.lastRelative;
-	}
-	state.lastRelative = lastRelative;
-	sb2.append(gt);
-	Rational remaining=appendDuration(sb2.toString(),"",duration,allTies,false);
-	return state.argv_lyrics?Rational.ZERO:remaining;
     }
 }

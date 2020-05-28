@@ -1,12 +1,13 @@
 #!/bin/bash
 set -e -o pipefail
 GET="java -jar ../../songsterrToLy/1.jar"
-gzip -d </share/mirror/songsterr/junk/d-keep/d-392595/d-babymetal-gimme-choco-tab-s392595/z-t0|$GET --name guitarOnePart --output-tabs - >generated-guitar1tabs
-gzip -d </share/mirror/songsterr/junk/d-keep/d-392595/d-babymetal-gimme-choco-tab-s392595/z-t1|$GET --name guitarTwoPart --output-tabs - >generated-guitar2tabs
-gzip -d </share/mirror/songsterr/junk/d-keep/d-392595/d-babymetal-gimme-choco-tab-s392595/z-t2|$GET --name guitarThreePart --output-tabs - >generated-guitar3tabs
-gzip -d </share/mirror/songsterr/junk/d-keep/d-392595/d-babymetal-gimme-choco-tab-s392595/z-t3|$GET --name guitarFourPart --output-tabs - >generated-guitar4tabs
-gzip -d </share/mirror/songsterr/junk/d-keep/d-392595/z-t4|$GET --name bassPart --output-tabs - >generated-basstabs
-gzip -d </share/mirror/songsterr/junk/d-keep/d-392595/d-babymetal-gimme-choco-drum-tab-s392595/z-t5|$GET --name drsPart - >generated-drscolors
-gzip -d </share/mirror/songsterr/junk/d-keep/d-392595/d-babymetal-gimme-choco-tab-s392595/z-t6|$GET --no-string-numbers --output-relative --no-ghost-notes --name synthPart - >generated-synth
-gzip -d </share/mirror/songsterr/junk/d-keep/d-392595/d-babymetal-gimme-choco-tab-s392595/z-t6|$GET --output-text --name synthText - >generated-synthtext
-gzip -d </share/mirror/songsterr/junk/d-keep/d-392595/d-babymetal-gimme-choco-tab-s392595/z-t7|$GET --no-string-numbers --output-relative --no-ghost-notes --name vocalsPart - >generated-vocals
+DIR="/share/mirror/songsterr/stuff/d-keep/d-Babymetal/d-Gimme Choco-s392595/d-r397111"
+gzip -d <"$DIR"/z-t0|$GET --name guitarOnePart --output-tabs - >generated-guitar1tabs
+gzip -d <"$DIR"/z-t1|$GET --name guitarTwoPart --output-tabs - >generated-guitar2tabs
+gzip -d <"$DIR"/z-t2|$GET --name guitarThreePart --output-tabs - >generated-guitar3tabs
+#gzip -d <"$DIR"/z-t3|$GET --name guitarFourPart --output-tabs - >generated-guitar4tabs
+gzip -d <"$DIR"/z-t4|$GET --name bassPart --output-tabs - >generated-basstabs
+gzip -d <"$DIR"/z-t5|$GET --name drsPart - >generated-drscolors
+gzip -d <"$DIR"/z-t6|$GET --no-string-numbers --output-relative --no-ghost-notes --name synthPart - >generated-synth
+gzip -d <"$DIR"/z-t6|$GET --output-text --name synthText - >generated-synthtext
+gzip -d <"$DIR"/z-t7|$GET --no-string-numbers --output-relative --no-ghost-notes --name vocalsPart - >generated-vocals

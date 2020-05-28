@@ -18,6 +18,9 @@ final class LyricsInstrument extends Instrument{
 	@Override public String getLyNote(){
 	    return '"'+text.replace("\\","\\\\").replace("\"","\\\"")+'"';
 	}
+	@Override public Note[]split(){
+	    return new Note[]{this,null};
+	}
     }
     @Override Note getNote(Json note){
 	return new LyricNote(note.get("text").stringValue());

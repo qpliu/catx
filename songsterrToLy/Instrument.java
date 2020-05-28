@@ -29,12 +29,10 @@ abstract class Instrument extends Engraver{
 	    if (e.time.compareTo(measureEndTime)>=0)
 		break;
 	    events.poll();
-	    if (e.time.add(e.duration).compareTo(measureEndTime)>0){
-		events.add(new Event(e,measureEndTime,e.time.add(e.duration).subtract(measureEndTime)));
-		e.duration = measureEndTime.subtract(e.time);
-		e.tieLhs = true;
-	    }
-	    q.add(e);
+	    Event[]lr=e.split(measureEndTime.subtract(e.time));
+	    if (lr[1]!=null)
+		events.add(lr[1]);
+	    q.add(lr[0]);
 	}
 	return q;
     }
@@ -64,21 +62,22 @@ abstract class Instrument extends Engraver{
 	    joinTies();
     }
     private void joinTies(){
-	Map<String,Event>map=new HashMap<String,Event>();
-	for (Event e:events)
-	    map.put(e.note.tieString()+','+e.time.add(e.duration),e);
-	for (Iterator<Event>i=events.iterator(); i.hasNext();){
-	    Event e=i.next();
-	    if (e.tieRhs){
-		Event lhs=map.remove(e.note.tieString()+','+e.time);
-		if (lhs==null)
+	Map<String,List<Event>>map=new HashMap<String,List<Event>>();
+	while (events.size()!=0){
+	    Event e=events.poll();
+	    if (e.tieLhs){
+		List<Event>l=map.get(e.note.tieString()+','+e.time);
+		if (l==null || l.size()==0)
 		    System.err.println("Strange tie "+e.note.tieString());
 		else{
-		    lhs.duration = lhs.duration.add(e.duration);
-		    map.put(lhs.note.tieString()+','+lhs.time.add(lhs.duration),lhs);
-		    i.remove();
+		    events.add(l.remove(l.size()-1).tie(e));
+		    continue;
 		}
 	    }
+	    map.computeIfAbsent(e.tieString(),x->new ArrayList<Event>()).add(e);
 	}
+	for (List<Event>l:map.values())
+	    for (Event e:l)
+		events.add(e);
     }
 }

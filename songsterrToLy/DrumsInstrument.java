@@ -22,6 +22,9 @@ final class DrumsInstrument extends Instrument{
 	@Override public String getLyNote(){
 	    return name;
 	}
+	@Override public Note[]split(){
+	    return new Note[]{this,null};
+	}
     }
     private static final String DEFAULT_DRUM_MAP=
 	"49 cymc 0,"+

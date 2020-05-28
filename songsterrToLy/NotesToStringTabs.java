@@ -7,10 +7,10 @@ final class NotesToStringTabs extends NotesToString{
     NotesToStringTabs(State state){
 	super(state,"r");
     }
-    @Override Rational notesToString(List<Event>l,Rational duration){
+    @Override void notesToString(List<Event>l,String duration){
 	boolean allTies=true;
 	for (Event f:l)
-	    allTies &= f.tieLhs;
+	    allTies &= f.tieRhs;
 	StringBuilder sb2=new StringBuilder();
 	Collections.sort(l,(a,b)->((GuitarInstrument.GuitarNote)b.note).string-((GuitarInstrument.GuitarNote)a.note).string);
 	int string=((GuitarInstrument.GuitarNote)l.get(0).note).string;
@@ -28,7 +28,7 @@ final class NotesToStringTabs extends NotesToString{
 	    if (f.dead)
 		sb2.append('x');
 	    sb2.append(gn.fret);
-	    if (f.tieLhs && !allTies)
+	    if (f.tieRhs && !allTies)
 		sb2.append('~');
 	    sb2.append(i==l.size()-1?'t':'.');
 	}
@@ -42,6 +42,8 @@ final class NotesToStringTabs extends NotesToString{
 		what = firstString+what;
 	    }
 	}
-	return appendDuration(what,"",duration,allTies,false);
+	sb.append(what).append(duration);
+	if (allTies)
+	    sb.append('~');
     }
 }

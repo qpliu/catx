@@ -5,8 +5,7 @@ final class NotesToStringText extends NotesToString{
     NotesToStringText(State state){
 	super(state,"s");
     }
-    @Override Rational notesToString(List<Event>l,Rational duration){
-	appendRest(duration);
-	return Rational.ZERO;
+    @Override void notesToString(List<Event>l,String duration){
+	sb.append(rest).append(duration);
     }
 }
