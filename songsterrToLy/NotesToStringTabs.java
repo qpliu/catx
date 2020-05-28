@@ -15,7 +15,7 @@ final class NotesToStringTabs extends NotesToString{
 	Collections.sort(l,(a,b)->((GuitarInstrument.GuitarNote)b.note).string-((GuitarInstrument.GuitarNote)a.note).string);
 	int string=((GuitarInstrument.GuitarNote)l.get(0).note).string;
 	String firstString=string+"-";
-	boolean slideLegato=false;
+	String afterAdjectives="";
 	for (int i=0; i<l.size(); i++){
 	    Event f=l.get(i);
 	    GuitarInstrument.GuitarNote gn=(GuitarInstrument.GuitarNote)f.note;
@@ -24,14 +24,22 @@ final class NotesToStringTabs extends NotesToString{
 	    else if (gn.string!=string)
 		sb2.append(gn.string).append('-');
 	    string = gn.string-1;
-	    if (f.ghost)
+	    String ba=f.getAdjectives();
+	    if (ba.startsWith("\\parenthesize ")){
+		ba = ba.substring(14);
 		sb2.append('g');
-	    if (f.dead)
+	    }
+	    if (ba.startsWith("\\deadNote ")){
+		ba = ba.substring(10);
 		sb2.append('x');
+	    }
+	    if (ba.length()!=0)
+		sb2.append('"').append(ba).append('"');
 	    sb2.append(gn.fret);
-	    slideLegato |= "legato".equals(f.slide);
 	    if (f.tieRhs && !allTies)
 		sb2.append('~');
+	    else
+		afterAdjectives = f.getAfterAdjectives();
 	    sb2.append(i==l.size()-1?'t':'.');
 	}
 	String what=sb2.toString();
@@ -47,7 +55,7 @@ final class NotesToStringTabs extends NotesToString{
 	sb.append(what).append(duration);
 	if (allTies)
 	    sb.append('~');
-	if (slideLegato)
-	    sb.append("\\glissando");
+	else
+	    sb.append(afterAdjectives);
     }
 }

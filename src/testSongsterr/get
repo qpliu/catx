@@ -8,3 +8,5 @@ java -jar ../../songsterrToLy/1.jar --name voPart --output-relative --no-string-
 java -jar ../../songsterrToLy/1.jar --name deadnotePart --output-tabs - <deadnote.html >generated-deadnotetabs
 java -jar ../../songsterrToLy/1.jar --name slidePart --output-tabs - <slide.html >generated-slidetabs
 java -jar ../../songsterrToLy/1.jar --name slideText --output-text - <slide.html >generated-slidetext
+java -jar ../../songsterrToLy/1.jar --name bendPart --output-tabs - <bend.html >generated-bendtabs
+java -jar ../../songsterrToLy/1.jar --name bendText --output-text - <bend.html >generated-bendtext

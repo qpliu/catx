@@ -18,21 +18,21 @@ synthPart =
         r1 |
         r1 |
         r1 |
-        <e' e'>1~ |
-        <e e'>2~ <e e'>8 <fis fis'> <fis fis'> <fis fis'> |
-        <e e'>4. <dis dis'> <d d'>4~ |
+        <e' e'>1~\bendAfter #3.0 |
+        <e e'>2~\bendAfter #3.0 <e e'>8\bendAfter #3.0 <fis fis'> <fis fis'> <fis fis'> |
+        <e e'>4.\bendAfter #3.0 <dis dis'> <d d'>4~ |
         <d d'>8 <c c'>4. r2 |
-        <e e'>1~ |
-        <e e'>2~ <e e'>8 <fis fis'> <fis fis'> <fis fis'> |
-        <e e'>4. <dis dis'> <d d'>4~ |
+        <e e'>1~\bendAfter #3.0 |
+        <e e'>2~\bendAfter #3.0 <e e'>8\bendAfter #3.0 <fis fis'> <fis fis'> <fis fis'> |
+        <e e'>4.\bendAfter #3.0 <dis dis'> <d d'>4~ |
         <d d'>8 <c c'>4. r2 |
-        <e e'>1~ |
-        <e e'>2~ <e e'>8 <fis fis'> <fis fis'> <fis fis'> |
-        <e e'>4. <dis dis'> <d d'>4~ |
+        <e e'>1~\bendAfter #3.0 |
+        <e e'>2~\bendAfter #3.0 <e e'>8\bendAfter #3.0 <fis fis'> <fis fis'> <fis fis'> |
+        <e e'>4.\bendAfter #3.0 <dis dis'> <d d'>4~ |
         <d d'>8 <c c'>4. r2 |
-        <e e'>1~ |
-        <e e'>2~ <e e'>8 <fis fis'> <fis fis'> <fis fis'> |
-        <e e'>4. <dis dis'> <d d'>4~ |
+        <e e'>1~\bendAfter #3.0 |
+        <e e'>2~\bendAfter #3.0 <e e'>8\bendAfter #3.0 <fis fis'> <fis fis'> <fis fis'> |
+        <e e'>4.\bendAfter #3.0 <dis dis'> <d d'>4~ |
         <d d'>8 <c c'>4. r2 |
     }
 \mymark "Riff 2" #25
@@ -141,21 +141,21 @@ synthPart =
     }
 \mymark "Riff 1" #105
     \relative {
-        <e' e'>1~ |
-        <e e'>2~ <e e'>8 <fis fis'> <fis fis'> <fis fis'> |
-        <e e'>4. <dis dis'> <d d'>4~ |
+        <e' e'>1~\bendAfter #3.0 |
+        <e e'>2~\bendAfter #3.0 <e e'>8\bendAfter #3.0 <fis fis'> <fis fis'> <fis fis'> |
+        <e e'>4.\bendAfter #3.0 <dis dis'> <d d'>4~ |
         <d d'>8 <c c'>4. r2 |
-        <e e'>1~ |
-        <e e'>2~ <e e'>8 <fis fis'> <fis fis'> <fis fis'> |
-        <e e'>4. <dis dis'> <d d'>4~ |
+        <e e'>1~\bendAfter #3.0 |
+        <e e'>2~\bendAfter #3.0 <e e'>8\bendAfter #3.0 <fis fis'> <fis fis'> <fis fis'> |
+        <e e'>4.\bendAfter #3.0 <dis dis'> <d d'>4~ |
         <d d'>8 <c c'>4. r2 |
-        <e e'>1~ |
-        <e e'>2~ <e e'>8 <fis fis'> <fis fis'> <fis fis'> |
-        <e e'>4. <dis dis'> <d d'>4~ |
+        <e e'>1~\bendAfter #3.0 |
+        <e e'>2~\bendAfter #3.0 <e e'>8\bendAfter #3.0 <fis fis'> <fis fis'> <fis fis'> |
+        <e e'>4.\bendAfter #3.0 <dis dis'> <d d'>4~ |
         <d d'>8 <c c'>4. r2 |
-        <e e'>1~ |
-        <e e'>2~ <e e'>8 <fis fis'> <fis fis'> <fis fis'> |
-        <e e'>4. <dis dis'> <d d'>4~ |
+        <e e'>1~\bendAfter #3.0 |
+        <e e'>2~\bendAfter #3.0 <e e'>8\bendAfter #3.0 <fis fis'> <fis fis'> <fis fis'> |
+        <e e'>4.\bendAfter #3.0 <dis dis'> <d d'>4~ |
         <d d'>8 <c c'>4. r2 |
     }
 \mymark "Solo" #121

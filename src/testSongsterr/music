@@ -1,4 +1,4 @@
-% PARTS slide
+% PARTS bend
 
 \include "generated-bass"
 \include "generated-bass-shift"
@@ -9,6 +9,9 @@
 \include "generated-slide"
 \include "generated-slidetext_lyrics"
 \include "generated-slidetext_midi"
+\include "generated-bend"
+\include "generated-bendtext_lyrics"
+\include "generated-bendtext_midi"
 
 layoutmusic = <<
     \tag #'bassPart \new Staff \with {
@@ -51,9 +54,18 @@ layoutmusic = <<
 	\slidePart
 	\lyricsslideText
     >>
+    \tag #'bendPart \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Bend" }
+	shortInstrumentName = \markup { \rotate #90 "Bend" }
+    } <<
+	\bendPart
+%	\lyricsbendText
+    >>
 >>
 
 midimusic = <<
     \tag #'midiOne \new Staff = "generated-slidetext" \midislideText
     \tag #'midiOne \new Staff = "generated-slide" \slidePart
+    \tag #'midiOne \new Staff = "generated-bendtext" \midibendText
+    \tag #'midiOne \new Staff = "generated-bend" \bendPart
 >>

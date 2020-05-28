@@ -68,10 +68,17 @@ abstract class NotesToString{
 	    List<Event>ll=new ArrayList<Event>();
 	    Rational duration=e.duration;
 	    ll.add(e);
-	    while (q.size()!=0 && q.peek().time.equals(e.time)){
-		if (q.peek().duration.compareTo(duration)<0)
-		    duration = q.peek().duration;
-		ll.add(q.poll());
+	    while (q.size()!=0){
+		Event f=q.poll();
+		if (!f.time.equals(e.time)){
+		    if (f.time.subtract(e.time).compareTo(duration)<0)
+			duration = f.time.subtract(e.time);
+		    q.add(f);
+		    break;
+		}
+		if (f.duration.compareTo(duration)<0)
+		    duration = f.duration;
+		ll.add(f);
 	    }
 	    Rational[]dd=new Rational[]{duration};
 	    String ds=getDuration(dd,false);
