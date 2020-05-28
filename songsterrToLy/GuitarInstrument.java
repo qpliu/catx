@@ -20,24 +20,6 @@ final class GuitarInstrument extends Instrument{
 	@Override public String tieString(){
 	    return String.valueOf(string);
 	}
-	@Override public String getLyNote(){
-	    if (state.argv_output_text){
-		StringBuilder sb=new StringBuilder();
-		sb.append("`.(").append(Stuff.midi2ly(note)).append(")bendSongsterr");
-		List<Json>l=bend.get("points").list;
-		for (int i=0; i<l.size(); i++){
-		    if (i!=0)
-			sb.append(':');
-		    sb.append(l.get(i).get("position").intValue()).append(':').append(l.get(i).get("tone").intValue());
-		}
-		sb.append('`');
-		return sb.toString();
-	    }
-	    return super.getLyNote();
-	}
-	@Override public boolean isJunk(){
-	    return state.argv_output_text && bend==null;
-	}
     }
     @Override void setState(State state){
 	super.setState(state);

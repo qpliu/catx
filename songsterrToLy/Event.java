@@ -30,12 +30,12 @@ final class Event implements Comparable<Event>{
 	this.duration = duration;
 	this.note = note;
 	Json j;
-	tieLhs = (j=json.get("tie"))!=null && j.booleanValue();
+	tieLhs = json!=null && (j=json.get("tie"))!=null && j.booleanValue();
 	tieRhs = false;
-	slide = (j=json.get("slide"))!=null?j.stringValue():null;
-	ghost = (j=json.get("ghost"))!=null && j.booleanValue();
-	dead = (j=json.get("dead"))!=null && j.booleanValue();
-	rest = (j=json.get("rest"))!=null && j.booleanValue();
+	slide = json!=null&&(j=json.get("slide"))!=null?j.stringValue():null;
+	ghost = json!=null && (j=json.get("ghost"))!=null && j.booleanValue();
+	dead = json!=null && (j=json.get("dead"))!=null && j.booleanValue();
+	rest = json!=null && (j=json.get("rest"))!=null && j.booleanValue();
     }
     @Override public int compareTo(Event e){
 	int i;
@@ -78,6 +78,6 @@ final class Event implements Comparable<Event>{
 	return note.tieString()+','+time.add(duration);
     }
     boolean isJunk(){
-	return ghost&&state.argv_no_ghost_notes||note.isJunk();
+	return state.argv_no_ghost_notes&&ghost || state.argv_output_text&&!(note instanceof TextNote);
     }
 }

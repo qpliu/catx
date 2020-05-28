@@ -6,13 +6,13 @@ slideText =
 % instrument: Overdriven Guitar
 % name: E. Guitar
 % tuning e, a, d g b e'
-    r2 |
+    r4 `slide2`~ |
+    `slide2`4 r2. |
     r1 |
     r1 |
+    `slide2`2 r |
     r1 |
-    r1 |
-    r1 |
-    r1 |
+    `slide2`2 r |
     r1 |
     r1 |
     r1 |

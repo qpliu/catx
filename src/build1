@@ -49,7 +49,7 @@ do
     if test -f "$a"
     then
 	b=`basename "$a" .mp3`
-	ffmpeg -loglevel 16 -i "$a" "$b".wav
+	ffmpeg </dev/null -loglevel 16 -i "$a" "$b".wav
     fi
 done
 ROBOT=`grep '^% ROBOT ' music|cut -c 9-`
@@ -85,7 +85,7 @@ EOF
 	    TIMIDITY_EXTRA_CFG="$TIMIDITY_EXTRA_CFG -c timidity_extra.cfg"
 	fi
 	timidity $TIMIDITY_EXTRA_CFG -OF -o "$name.flac" -A400 "$name.midi"
-	ffmpeg -loglevel 16 -i "$name.flac" "$name.mp3"
+	ffmpeg </dev/null -loglevel 16 -i "$name.flac" "$name.mp3"
 	cp "$name.mp3" "$name.midi" bin
 	cp "$name.mp3" /share/music/mp3
 	cp "$name.midi" /share/music/robot/"$name$ROBOT.midi"

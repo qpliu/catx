@@ -12,7 +12,4 @@ interface Note extends Comparable<Note>{
     default Note[]split(){
 	return new Note[]{this,this};
     }
-    default boolean isJunk(){
-	return false;
-    }
 }

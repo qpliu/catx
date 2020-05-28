@@ -59,8 +59,11 @@ abstract class Instrument extends Engraver{
     }
     @Override void setState(State state){
 	super.setState(state);
-	if (state.pass==1)
+	if (state.pass==1){
 	    joinTies();
+	    if (state.argv_output_text)
+		TextEventMaker.makeTextEvents(state,events);
+	}
     }
     private void joinTies(){
 	Map<String,List<Event>>map=new HashMap<String,List<Event>>();
