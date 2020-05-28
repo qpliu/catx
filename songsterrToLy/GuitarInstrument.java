@@ -20,10 +20,10 @@ final class GuitarInstrument extends Instrument{
 	@Override public String tieString(){
 	    return String.valueOf(string);
 	}
-	@Override public String getAfterAdjectives(){
-	    StringBuilder sb=new StringBuilder();
-	    sb.append(super.getAfterAdjectives());
+	@Override public void getAfterAdjectives(Set<String>afterAdjectives){
+	    super.getAfterAdjectives(afterAdjectives);
 	    if (bend!=null){
+		StringBuilder sb=new StringBuilder();
 		int tone=bend.get("tone").intValue();
 		if (tone<0){
 		    tone = -tone;
@@ -42,8 +42,8 @@ final class GuitarInstrument extends Instrument{
 		    sb.append(String.format("\"%.1f\"",tone*.01));
 		else
 		    sb.append(String.format("\"%.2f\"",tone*.01));
+		afterAdjectives.add(sb.toString());
 	    }
-	    return sb.toString();
 	}
     }
     @Override void setState(State state){

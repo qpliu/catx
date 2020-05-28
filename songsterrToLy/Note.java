@@ -1,3 +1,5 @@
+import java.util.*;
+
 interface Note extends Comparable<Note>{
     String getLyNote();
     default String getLySuffix(){
@@ -12,7 +14,5 @@ interface Note extends Comparable<Note>{
     default Note[]split(){
 	return new Note[]{this,this};
     }
-    default String getAfterAdjectives(){
-	return "";
-    }
+    default void getAfterAdjectives(Set<String>afterAdjectives){}
 }

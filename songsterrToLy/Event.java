@@ -47,20 +47,16 @@ final class Event implements Comparable<Event>{
 	    return i;
 	return (tieRhs?8:0)-(e.tieRhs?8:0)+(tieLhs?4:0)-(e.tieLhs?4:0)+(ghost?2:0)-(e.ghost?2:0)+(dead?1:0)-(e.dead?1:0);
     }
-    String getAdjectives(){
-	StringBuilder sb=new StringBuilder();
+    void getAdjectives(Set<String>adjectives){
 	if (ghost)
-	    sb.append("\\parenthesize ");
+	    adjectives.add("\\parenthesize");
 	if (dead)
-	    sb.append("\\deadNote ");
-	return sb.toString();
+	    adjectives.add("\\deadNote");
     }
-    String getAfterAdjectives(){
-	StringBuilder sb=new StringBuilder();
+    void getAfterAdjectives(Set<String>afterAdjectives){
 	if ("legato".equals(slide))
-	    sb.append("\\glissando");
-	sb.append(note.getAfterAdjectives());
-	return sb.toString();
+	    afterAdjectives.add("\\glissando");
+	note.getAfterAdjectives(afterAdjectives);
     }
     Event tie(Event rhs){
 	return new Event(this,time,rhs.time.add(rhs.duration).subtract(time),tieLhs,rhs.tieRhs,note.tie(rhs.note));

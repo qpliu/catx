@@ -12,30 +12,34 @@ final class NotesToStringLy extends NotesToString{
 	this.gt = gt;
     }
     @Override void notesToString(List<Event>l,String duration){
+	boolean allTies=true;
+	for (Event e:l)
+	    allTies &= e.tieRhs;
+	Set<String>afterAdjectives=new TreeSet<String>();
 	if (l.size()==1){
 	    Event e=l.get(0);
-	    sb.append(e.getAdjectives());
+	    Set<String>adjectives=new TreeSet<String>();
+	    e.getAdjectives(adjectives);
+	    for (String a:adjectives)
+		sb.append(a).append(' ');
 	    sb.append(e.note.getLyNote());
 	    sb.append(duration);
 	    sb.append(e.note.getLySuffix());
-	    sb.append(e.getAfterAdjectives());
-	    if (e.tieRhs)
-		sb.append('~');
+	    e.getAfterAdjectives(afterAdjectives);
 	}else{
-	    boolean allTies=true;
-	    for (Event e:l)
-		allTies &= e.tieRhs;
 	    sb.append(lt);
 	    int lastRelative=0;
-	    String afterAdjectives="";
 	    for (int i=0; i<l.size(); i++){
 		if (i!=0)
 		    sb.append(between);
 		Event e=l.get(i);
-		sb.append(e.getAdjectives());
+		Set<String>adjectives=new TreeSet<String>();
+		e.getAdjectives(adjectives);
+		for (String a:adjectives)
+		    sb.append(a).append(' ');
+		e.getAfterAdjectives(afterAdjectives);
 		sb.append(e.note.getLyNote());
 		sb.append(e.note.getLySuffix());
-		afterAdjectives = e.getAfterAdjectives();
 		if (e.tieRhs && !allTies)
 		    sb.append('~');
 		if (i==0)
@@ -44,9 +48,11 @@ final class NotesToStringLy extends NotesToString{
 	    state.lastRelative = lastRelative;
 	    sb.append(gt);
 	    sb.append(duration);
-	    if (allTies)
-		sb.append('~');
-	    sb.append(afterAdjectives);
 	}
+	if (allTies)
+	    sb.append('~');
+	else
+	    for (String a:afterAdjectives)
+		sb.append(' ').append(a);
     }
 }

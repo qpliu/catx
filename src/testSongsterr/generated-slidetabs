@@ -9,15 +9,15 @@ slidePart =
     \tempo 4 = 140
 \mymark "Intro 1" #1
 % tuning e, a, d g b e'
-    r4 3-g10t\glissando |
+    r4 3-g10t \glissando |
     \time 4/4
     3-g3t4 r2 5-6t8 5t |
     6-6t8 7t 4-6t 5t r2 |
 \mymark "Intro 2" #4
     r1 |
-    2-3t4\glissando 6t r2 |
+    2-3t4 \glissando 6t r2 |
     r1 |
-    2-4t4\glissando 8t r2 |
+    2-4t4 \glissando 8t r2 |
     r1 |
     r1 |
     r1 |
