@@ -7,7 +7,7 @@ final class Event implements Comparable<Event>{
     final Note note;
     final boolean ghost;
     final boolean dead;
-    final boolean tieRhs;
+    boolean tieRhs;
     boolean tieLhs;
     final boolean rest;
     Event(Event e,Rational time,Rational duration){

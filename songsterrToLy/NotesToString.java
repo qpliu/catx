@@ -1,17 +1,26 @@
 import java.math.*;
 import java.util.*;
 
-final class NotesToString{
-    private final State state;
-    private final StringBuilder sb=new StringBuilder();
-    private Rational last_tuplet;
-    private String lastDuration;
-    private String lastTab;
-    private String lastString;
-    NotesToString(State state){
+abstract class NotesToString{
+    final State state;
+    final String rest;
+    final StringBuilder sb=new StringBuilder();
+    Rational last_tuplet;
+    String lastDuration;
+    NotesToString(State state,String rest){
 	this.state = state;
+	this.rest = rest;
     }
-    private Rational appendDuration(String what,String suffix,Rational duration,boolean tieLhs,boolean isTab,boolean isRest){
+    static NotesToString get(State state){
+	if (state.argv_output_text)
+	    return new NotesToStringText(state);
+	if (state.argv_output_tabs)
+	    return new NotesToStringTabs(state);
+	if (state.argv_lyrics)
+	    return new NotesToStringLy(state,"\\skip","<< { "," } { "," } >>");
+	return new NotesToStringLy(state,"r","<"," ",">");
+    }
+    final Rational appendDuration(String what,String suffix,Rational duration,boolean tieLhs,boolean isRest){
 	if (duration.signum()<0)
 	    throw new RuntimeException();
 	BigInteger tuplet_d=duration.d;
@@ -26,7 +35,7 @@ final class NotesToString{
 	    if (!tuplet.equals(last_tuplet))
 		sb.append("\\tuplet "+tuplet+" { "); //}
 	    last_tuplet = null;
-	    duration = appendDuration(what,suffix,duration.multiply(tuplet),tieLhs,isTab,isRest).divide(tuplet);
+	    duration = appendDuration(what,suffix,duration.multiply(tuplet),tieLhs,isRest).divide(tuplet);
 	    last_tuplet = tuplet;
 	}else if (duration.signum()!=0){
 	    if (last_tuplet!=null)
@@ -57,112 +66,46 @@ final class NotesToString{
 	}
 	return duration;
     }
-    private void appendRest(String what,Rational duration){
+    final void appendRest(Rational duration){
 	while (duration.signum()!=0){
-	    duration = appendDuration(what,"",duration,false,false,true);
+	    duration = appendDuration(rest,"",duration,false,true);
 	    sb.append(' ');
 	}
     }
-    private String getRelativeNote(Note note){
-	if (note instanceof MidiNote)
-	    return Stuff.midi2ly(((MidiNote)note).note,state);
-	return note.getLyNote();
-    }
-    String notesToString(PriorityQueue<Event>q,String rest,String lt,String gt,String between){
+    abstract Rational notesToString(List<Event>l,Rational duration);
+    final String notesToString(PriorityQueue<Event>q){
 	Rational measureEndTime=state.measureStartTime.add(state.time_n);
 	Rational time=state.measureStartTime;
 	while (q.size()!=0){
 	    Event e=q.poll();
 	    if (!e.time.equals(time))
-		appendRest(rest,e.time.subtract(time));
-	    List<Event>l=new ArrayList<Event>();
+		appendRest(e.time.subtract(time));
+	    List<Event>ll=new ArrayList<Event>();
 	    Rational duration=e.duration;
-	    l.add(e);
+	    ll.add(e);
 	    while (q.size()!=0 && q.peek().time.equals(e.time)){
 		if (q.peek().duration.compareTo(duration)<0)
 		    duration = q.peek().duration;
-		l.add(q.poll());
+		ll.add(q.poll());
 	    }
-	    boolean outputTabs=state.argv_output_tabs;
-	    for (Event f:l){
+	    List<Event>l=new ArrayList<Event>();
+	    for (Event f:ll){
+		Event g=new Event(f,f.time,duration);
+		g.tieLhs |= !f.duration.equals(duration);
+		l.add(g);
+	    }
+	    duration = duration.subtract(notesToString(l,duration));
+	    for (Event f:ll)
 		if (!f.duration.equals(duration)){
-		    q.add(new Event(f,f.time.add(duration),f.duration.subtract(duration)));
-		    f.tieLhs = true;
+		    Event g=new Event(f,f.time.add(duration),f.duration.subtract(duration));
+		    g.tieRhs = true;
+		    q.add(g);
 		}
-		outputTabs &= f.note instanceof GuitarInstrument.GuitarNote;
-	    }
-	    Rational remaining;
-	    if (l.size()==1 && !outputTabs)
-		remaining = appendDuration(e.getAdjectives()+getRelativeNote(e.note),e.note.getLySuffix(),duration,e.tieLhs,false,false);
-	    else{
-		boolean allTies=true;
-		for (Event f:l)
-		    allTies &= f.tieLhs;
-		String what;
-		if (outputTabs){
-		    StringBuilder sb2=new StringBuilder();
-		    Collections.sort(l,(a,b)->((GuitarInstrument.GuitarNote)b.note).string-((GuitarInstrument.GuitarNote)a.note).string);
-		    int string=((GuitarInstrument.GuitarNote)l.get(0).note).string;
-		    String firstString=string+"-";
-		    for (int i=0; i<l.size(); i++){
-			Event f=l.get(i);
-			GuitarInstrument.GuitarNote gn=(GuitarInstrument.GuitarNote)f.note;
-			if (gn.string==string-1 && i!=0)
-			    sb2.append('.');
-			else if (gn.string!=string)
-			    sb2.append(gn.string).append('-');
-			string = gn.string-1;
-			if (f.ghost)
-			    sb2.append('g');
-			if (f.dead)
-			    sb2.append('x');
-			sb2.append(gn.fret);
-			if (f.tieLhs && !allTies)
-			    sb2.append('~');
-			sb2.append(i==l.size()-1?'t':'.');
-		    }
-		    what = sb2.toString();
-		    if ((firstString+what).equals(lastTab))
-			what = "t";
-		    else{
-			lastTab = firstString+what;
-			if (!firstString.equals(lastString)){
-			    lastString = firstString;
-			    what = firstString+what;
-			}
-		    }
-		    remaining = appendDuration(what,"",duration,allTies,true,false);
-		}else{
-		    StringBuilder sb2=new StringBuilder();
-		    sb2.append(lt);
-		    int lastRelative=0;
-		    for (int i=0; i<l.size(); i++){
-			if (i!=0)
-			    sb2.append(between);
-			Event f=l.get(i);
-			sb2.append(f.getAdjectives()).append(getRelativeNote(f.note)).append(f.note.getLySuffix());
-			if (f.tieLhs && !allTies)
-			    sb2.append('~');
-			if (i==0)
-			    lastRelative = state.lastRelative;
-		    }
-		    state.lastRelative = lastRelative;
-		    sb2.append(gt);
-		    what = sb2.toString();
-		    remaining = appendDuration(what,"",duration,allTies,false,false);
-		}
-	    }
-	    if (remaining.signum()!=0){
-		duration = duration.subtract(remaining);
-		if (!state.argv_lyrics)
-		    for (Event f:l)
-			q.add(new Event(f,f.time.add(duration),remaining));
-	    }
 	    sb.append(' ');
 	    time = e.time.add(duration);
 	}
 	if (!time.equals(measureEndTime))
-	    appendRest(rest,measureEndTime.subtract(time));
+	    appendRest(measureEndTime.subtract(time));
 	if (last_tuplet!=null)
 	    sb.append(/*{*/"} ");
 	sb.append('|');

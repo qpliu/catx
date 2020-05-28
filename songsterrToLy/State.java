@@ -5,6 +5,7 @@ final class State{
     boolean argv_lyrics;
     boolean argv_no_string_numbers;
     boolean argv_output_relative;
+    boolean argv_output_text;
     boolean argv_output_tabs;
     boolean argv_no_ghost_notes;
     Rational argv_shift=Rational.ZERO;

@@ -12,7 +12,7 @@ abstract class Instrument extends Engraver{
     }
     abstract Note getNote(Json note);
     String notesToString(PriorityQueue<Event>q){
-	return new NotesToString(state).notesToString(q,"r","<",">"," ");
+	return NotesToString.get(state).notesToString(q);
     }
     Rational getDuration(Json j){
 	return new Rational(j.get(0).intValue()*state.time_d,j.get(1).intValue());

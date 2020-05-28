@@ -22,9 +22,6 @@ final class LyricsInstrument extends Instrument{
     @Override Note getNote(Json note){
 	return new LyricNote(note.get("text").stringValue());
     }
-    @Override String notesToString(PriorityQueue<Event>q){
-	return new NotesToString(state).notesToString(q,"\\skip","<< { "," } >>"," } { ");
-    }
     @Override void engrave(Json measure){
 	if (state.pass==0){
 	    Json lyrics=state.data.get("lyrics").get(measure.get("index").intValue()-1);
