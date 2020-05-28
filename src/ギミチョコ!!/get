@@ -9,5 +9,5 @@ gzip -d <"$DIR"/z-t2|$GET --name guitarThreePart --output-tabs - >generated-guit
 gzip -d <"$DIR"/z-t4|$GET --name bassPart --output-tabs - >generated-basstabs
 gzip -d <"$DIR"/z-t5|$GET --name drsPart - >generated-drscolors
 gzip -d <"$DIR"/z-t6|$GET --no-string-numbers --output-relative --no-ghost-notes --name synthPart - >generated-synth
-gzip -d <"$DIR"/z-t6|$GET --output-text --name synthText - >generated-synthtext
+gzip -d <"$DIR"/z-t6|$GET --no-string-numbers --output-text --name synthText - >generated-synthtext
 gzip -d <"$DIR"/z-t7|$GET --no-string-numbers --output-relative --no-ghost-notes --name vocalsPart - >generated-vocals

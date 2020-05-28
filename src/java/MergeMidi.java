@@ -653,6 +653,23 @@ final class MergeMidi{
 			addSlide(te,oc,note,program);
 			continue;
 		    }
+		    if ((te=temap.remove("bendSongsterr"))!=null && !te.done){
+			long x0=te.time;
+			double y0=0x2000;
+			for (int i=0; i<te.param.length; i+=2){
+			    long x1=te.time+(long)(Double.parseDouble(te.param[i])*DIVISION/10+.5);
+			    double y1=0x2000+0x1fff/BEND_RANGE*Double.parseDouble(te.param[i+1])/50;
+			    int size=Math.min(BEND_MAX_SIZE,(int)(x1-x0));
+			    for (int j=0; j<size; j++){
+				int bend=(int)(y0+j*(y1-y0)/size+.5);
+				oc.add(x0+j*(x1-x0)/size,note.outTrackIndex,0xe0,bend&127,bend>>7);
+			    }
+			    x0 = x1;
+			    y0 = y1;
+			}
+			oc.add(x0,note.outTrackIndex,0xe0,0,0x40);
+			te.done = true;
+		    }
 		    if ((te=temap.remove("bendPL"))!=null && !te.done){
 			long x0=te.time;
 			double y0=0x2000;

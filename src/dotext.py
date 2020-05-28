@@ -83,6 +83,7 @@ def dotext(prefix,isLyrics):
 	    continue
 	line = line.replace('[TEXT_PREFIX]',prefix)
 	i = 0
+	in_lt_gt = 0
 	while i<len(line):
 	    if line[i]=='%':
 		fd.write(line[i:])
@@ -92,6 +93,14 @@ def dotext(prefix,isLyrics):
 		i = line.index('`',j+1)
 		word = line[j:i]
 		i += 1
+	    elif line[i]=='<' or line[i]=='>':
+		if line[i]=='<':
+		    in_lt_gt += 1
+		else:
+		    in_lt_gt -= 1
+		fd.write(line[i])
+		i += 1
+		continue
 	    else:
 		while line[i]>='a' and line[i]<='z' or line[i]>='A' and line[i]<='Z':
 		    i += 1
@@ -116,9 +125,14 @@ def dotext(prefix,isLyrics):
 	    if word[0]!='`':
 		fd.write(r'\skip'+duration)
 	    elif isLyrics:
-		fd.write('"'+word[1:]+'"'+duration)
+		fd.write('"'+word[1:]+'"')
+		if not in_lt_gt:
+		    fd.write(duration)
 	    else:
-		fd.write(lookup(word[1:])+duration+extra)
+		fd.write(lookup(word[1:]))
+		if not in_lt_gt:
+		    fd.write(duration)
+		fd.write(extra)
     fd.close()
 
 dotext('lyrics',True)

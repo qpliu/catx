@@ -5,10 +5,12 @@ final class GuitarInstrument extends Instrument{
     class GuitarNote extends MidiNote{
 	final int string;
 	final int fret;
-	GuitarNote(int string,int fret){
-	    super(tuning[string-1]+fret);
+	final Json bend;
+	GuitarNote(int string,int fret,Json bend){
+	    super(GuitarInstrument.this.state,tuning[string-1]+fret);
 	    this.string = string;
 	    this.fret = fret;
+	    this.bend = bend;
 	}
 	@Override public String getLySuffix(){
 	    if (state.argv_no_string_numbers)
@@ -17,6 +19,24 @@ final class GuitarInstrument extends Instrument{
 	}
 	@Override public String tieString(){
 	    return String.valueOf(string);
+	}
+	@Override public String getLyNote(){
+	    if (state.argv_output_text){
+		StringBuilder sb=new StringBuilder();
+		sb.append("`.(").append(Stuff.midi2ly(note)).append(")bendSongsterr");
+		List<Json>l=bend.get("points").list;
+		for (int i=0; i<l.size(); i++){
+		    if (i!=0)
+			sb.append(':');
+		    sb.append(l.get(i).get("position").intValue()).append(':').append(l.get(i).get("tone").intValue());
+		}
+		sb.append('`');
+		return sb.toString();
+	    }
+	    return super.getLyNote();
+	}
+	@Override public boolean isJunk(){
+	    return state.argv_output_text && bend==null;
 	}
     }
     @Override void setState(State state){
@@ -40,7 +60,7 @@ final class GuitarInstrument extends Instrument{
 	Json fret=note.get("fret");
 	if (string==null || fret==null)
 	    return null;
-	return new GuitarNote(string.intValue()+1,fret.intValue());
+	return new GuitarNote(string.intValue()+1,fret.intValue(),note.get("bend"));
     }
     @Override boolean matches(State state){
 	return true;

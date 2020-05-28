@@ -2,6 +2,7 @@ import java.math.*;
 import java.util.*;
 
 final class Event implements Comparable<Event>{
+    final State state;
     final Rational time;
     final Rational duration;
     final Note note;
@@ -11,6 +12,7 @@ final class Event implements Comparable<Event>{
     final boolean tieRhs;
     final boolean rest;
     private Event(Event e,Rational time,Rational duration,boolean tieLhs,boolean tieRhs,Note note){
+	state = e.state;
 	this.time = time;
 	this.duration = duration;
 	this.note = note;
@@ -20,7 +22,8 @@ final class Event implements Comparable<Event>{
 	this.tieRhs = tieRhs;
 	rest = e.rest;
     }
-    Event(Rational time,Rational duration,Json json,Note note){
+    Event(State state,Rational time,Rational duration,Json json,Note note){
+	this.state = state;
 	this.time = time;
 	this.duration = duration;
 	this.note = note;
@@ -64,5 +67,8 @@ final class Event implements Comparable<Event>{
     }
     String tieString(){
 	return note.tieString()+','+time.add(duration);
+    }
+    boolean isJunk(){
+	return ghost&&state.argv_no_ghost_notes||note.isJunk();
     }
 }

@@ -12,8 +12,6 @@ abstract class NotesToString{
 	this.rest = rest;
     }
     static NotesToString get(State state){
-	if (state.argv_output_text)
-	    return new NotesToStringText(state);
 	if (state.argv_output_tabs)
 	    return new NotesToStringTabs(state);
 	if (state.argv_lyrics)

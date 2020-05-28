@@ -5,7 +5,8 @@ abstract class Instrument extends Engraver{
     abstract boolean matches(State state);
     final PriorityQueue<Event>events=new PriorityQueue<Event>();
     void printHead(){
-	indent(state.argv_partName+" = {");
+	print(state.argv_partName+" =");
+	indent("{");
     }
     void printFoot(){
 	unindent("}");
@@ -21,7 +22,7 @@ abstract class Instrument extends Engraver{
 	PriorityQueue<Event>q=new PriorityQueue<Event>();
 	while (events.size()!=0){
 	    Event e=events.peek();
-	    if (e.time.compareTo(state.measureStartTime)<0 || e.ghost&&state.argv_no_ghost_notes){
+	    if (e.isJunk() || e.time.compareTo(state.measureStartTime)<0){
 		events.poll();
 		continue;
 	    }
@@ -44,7 +45,7 @@ abstract class Instrument extends Engraver{
 		for (Json beat:voice.get("beats").list){
 		    Rational duration=getDuration(beat.get("duration"));
 		    for (Json note:beat.get("notes").list){
-			Event e=new Event(state.measureStartTime.add(time).add(state.argv_shift),duration,note,getNote(note));
+			Event e=new Event(state,state.measureStartTime.add(time).add(state.argv_shift),duration,note,getNote(note));
 			if (!e.rest && e.note!=null)
 			    events.add(e);
 		    }

@@ -3,7 +3,8 @@ final class MarkerEngraver extends Engraver{
 	Json m=measure.get("marker");
 	if (m!=null){
 	    state.endRelative(this);
-	    noindent("\\mymark \""+m.get("text").stringValue()+"\" #"+state.measureNumber);
+	    if (!state.argv_output_text)
+		noindent("\\mymark \""+m.get("text").stringValue()+"\" #"+state.measureNumber);
 	}
     }
 }

@@ -32,7 +32,7 @@ final class LyricsInstrument extends Instrument{
 	    for (Json beat:lyrics.get("beats").list){
 		Rational duration=getDuration(beat.get("duration"));
 		for (Json note:beat.get("lyrics").list)
-		    events.add(new Event(time,duration,note,getNote(note)));
+		    events.add(new Event(state,time,duration,note,getNote(note)));
 		time = time.add(duration);
 	    }
 	}else

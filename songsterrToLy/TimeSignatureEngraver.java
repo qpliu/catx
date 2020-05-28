@@ -4,7 +4,8 @@ final class TimeSignatureEngraver extends Engraver{
 	if (ts!=null){
 	    state.time_n = ts.get(0).intValue();
 	    state.time_d = ts.get(1).intValue();
-	    print("\\time "+state.time_n+"/"+state.time_d);
+	    if (!state.argv_output_text)
+		print("\\time "+state.time_n+"/"+state.time_d);
 	}
     }
 }

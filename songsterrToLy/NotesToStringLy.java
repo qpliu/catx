@@ -11,16 +11,11 @@ final class NotesToStringLy extends NotesToString{
 	this.between = between;
 	this.gt = gt;
     }
-    private String getRelativeNote(Note note){
-	if (note instanceof MidiNote)
-	    return Stuff.midi2ly(((MidiNote)note).note,state);
-	return note.getLyNote();
-    }
     @Override void notesToString(List<Event>l,String duration){
 	if (l.size()==1){
 	    Event e=l.get(0);
 	    sb.append(e.getAdjectives());
-	    sb.append(getRelativeNote(e.note));
+	    sb.append(e.note.getLyNote());
 	    sb.append(duration);
 	    sb.append(e.note.getLySuffix());
 	    if (e.tieRhs)
@@ -36,7 +31,7 @@ final class NotesToStringLy extends NotesToString{
 		    sb.append(between);
 		Event e=l.get(i);
 		sb.append(e.getAdjectives());
-		sb.append(getRelativeNote(e.note));
+		sb.append(e.note.getLyNote());
 		sb.append(e.note.getLySuffix());
 		if (e.tieRhs && !allTies)
 		    sb.append('~');
