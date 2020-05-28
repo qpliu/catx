@@ -96,7 +96,7 @@ for line in sys.stdin:
     out = []
     last = 0
     prev = ''
-    for m in re.finditer(r'(?<=\s)((?:(?:(?:[0-9]+-(?:"[^"]*")?g?x?[0-9]+~?(?:"[^"]*")?|(?:"[^"]*")?g?x?[0-9]+~?(?:"[^"]*")?)?\.)*(?:[0-9]+-)?(?:"[^"]*")?g?x?[0-9]+~?(?:"[^"]*")?)?)t(?=[\s123468->~()])',line):
+    for m in re.finditer(r'(?<=\s)((?:(?:(?:[0-9]+-g?x?(?:"[^"]*")?[0-9]+(?:"[^"]*")?~?|g?x?(?:"[^"]*")?[0-9]+(?:"[^"]*")?~?)?\.)*(?:[0-9]+-)?g?x?(?:"[^"]*")?[0-9]+(?:"[^"]*")?~?)?)t(?=[\s123468->~()\\])',line):
 	out.append(line[last:m.start(0)])
 	last = m.end(0)
 	out.append('<')
@@ -112,25 +112,25 @@ for line in sys.stdin:
 		ss = s = int(a[:i])
 		a = a[i+1:]
 	    if a:
-		if a[0]=='"':
-		    i = a.index('"',1)
-		    out.append(a[1:i])
-		    a = a[i+1:]
-		after = ''
-		if a[-1]=='"':
-		    i = a.index('"')
-		    after = a[i+1:-1]
-		    a = a[:i]
 		if a.startswith('g'):
 		    a = a[1:]
 		    out.append(r'\parenthesize ')
 		if a.startswith('x'):
 		    a = a[1:]
 		    out.append(r'\deadNote ')
+		if a[0]=='"':
+		    i = a.index('"',1)
+		    out.append(a[1:i])
+		    a = a[i+1:]
 		tie = ''
 		if a.endswith('~'):
 		    a = a[:-1]
 		    tie = '~'
+		after = ''
+		if a[-1]=='"':
+		    i = a.index('"')
+		    after = a[i+1:-1]
+		    a = a[:i]
 		out.append(addly(tuning[ss-1],int(a))+'\\%d'%ss+tie+after+' ')
 	    ss -= 1
 	out.append('>')

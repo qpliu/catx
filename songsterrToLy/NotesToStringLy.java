@@ -18,6 +18,7 @@ final class NotesToStringLy extends NotesToString{
 	    sb.append(e.note.getLyNote());
 	    sb.append(duration);
 	    sb.append(e.note.getLySuffix());
+	    sb.append(e.getAfterAdjectives());
 	    if (e.tieRhs)
 		sb.append('~');
 	}else{
@@ -33,6 +34,7 @@ final class NotesToStringLy extends NotesToString{
 		sb.append(e.getAdjectives());
 		sb.append(e.note.getLyNote());
 		sb.append(e.note.getLySuffix());
+		sb.append(e.getAfterAdjectives());
 		if (e.tieRhs && !allTies)
 		    sb.append('~');
 		if (i==0)

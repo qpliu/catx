@@ -1,4 +1,4 @@
-% PARTS vo
+% PARTS slide
 
 \include "generated-bass"
 \include "generated-bass-shift"
@@ -6,6 +6,9 @@
 \include "generated-drs"
 \include "generated-lyrics"
 \include "generated-vo"
+\include "generated-slide"
+\include "generated-slidetext_lyrics"
+\include "generated-slidetext_midi"
 
 layoutmusic = <<
     \tag #'bassPart \new Staff \with {
@@ -41,4 +44,16 @@ layoutmusic = <<
 	\voPart
 	\voLyrics
     >>
+    \tag #'slidePart \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Slide" }
+	shortInstrumentName = \markup { \rotate #90 "Slide" }
+    } <<
+	\slidePart
+	\lyricsslideText
+    >>
+>>
+
+midimusic = <<
+    \tag #'midiOne \new Staff = "generated-slidetext" \midislideText
+    \tag #'midiOne \new Staff = "generated-slide" \slidePart
 >>

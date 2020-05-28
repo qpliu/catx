@@ -7,6 +7,7 @@ final class Event implements Comparable<Event>{
     final Rational duration;
     final Note note;
     final boolean ghost;
+    final String slide;
     final boolean dead;
     final boolean tieLhs;
     final boolean tieRhs;
@@ -17,6 +18,7 @@ final class Event implements Comparable<Event>{
 	this.duration = duration;
 	this.note = note;
 	ghost = e.ghost;
+	slide = e.slide;
 	dead = e.dead;
 	this.tieLhs = tieLhs;
 	this.tieRhs = tieRhs;
@@ -30,6 +32,7 @@ final class Event implements Comparable<Event>{
 	Json j;
 	tieLhs = (j=json.get("tie"))!=null && j.booleanValue();
 	tieRhs = false;
+	slide = (j=json.get("slide"))!=null?j.stringValue():null;
 	ghost = (j=json.get("ghost"))!=null && j.booleanValue();
 	dead = (j=json.get("dead"))!=null && j.booleanValue();
 	rest = (j=json.get("rest"))!=null && j.booleanValue();
@@ -50,6 +53,12 @@ final class Event implements Comparable<Event>{
 	    sb.append("\\parenthesize ");
 	if (dead)
 	    sb.append("\\deadNote ");
+	return sb.toString();
+    }
+    String getAfterAdjectives(){
+	StringBuilder sb=new StringBuilder();
+	if (slide!=null)
+	    sb.append("\\glissando");
 	return sb.toString();
     }
     Event tie(Event rhs){

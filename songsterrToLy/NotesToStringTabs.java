@@ -15,6 +15,7 @@ final class NotesToStringTabs extends NotesToString{
 	Collections.sort(l,(a,b)->((GuitarInstrument.GuitarNote)b.note).string-((GuitarInstrument.GuitarNote)a.note).string);
 	int string=((GuitarInstrument.GuitarNote)l.get(0).note).string;
 	String firstString=string+"-";
+	boolean slide=false;
 	for (int i=0; i<l.size(); i++){
 	    Event f=l.get(i);
 	    GuitarInstrument.GuitarNote gn=(GuitarInstrument.GuitarNote)f.note;
@@ -28,6 +29,8 @@ final class NotesToStringTabs extends NotesToString{
 	    if (f.dead)
 		sb2.append('x');
 	    sb2.append(gn.fret);
+	    if (f.slide!=null)
+		slide = true;
 	    if (f.tieRhs && !allTies)
 		sb2.append('~');
 	    sb2.append(i==l.size()-1?'t':'.');
@@ -45,5 +48,7 @@ final class NotesToStringTabs extends NotesToString{
 	sb.append(what).append(duration);
 	if (allTies)
 	    sb.append('~');
+	if (slide)
+	    sb.append("\\glissando");
     }
 }

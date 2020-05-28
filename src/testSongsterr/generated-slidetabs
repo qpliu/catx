@@ -1,0 +1,126 @@
+slidePart =
+{
+% url: -
+% artist: Dali
+% title: Moonlight Densetsu
+% instrument: Overdriven Guitar
+% name: E. Guitar
+    \time 2/4
+    \tempo 4 = 140
+\mymark "Intro 1" #1
+% tuning e, a, d g b e'
+    r4 3-g10t\glissando |
+    \time 4/4
+    3-g3t4 r2 5-6t8 5t |
+    6-6t8 7t 4-6t 5t r2 |
+\mymark "Intro 2" #4
+    r1 |
+    2-3t4\glissando 6t r2 |
+    r1 |
+    2-4t4\glissando 8t r2 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "A" #12
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "B" #20
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    6-3t4 4t 5-0t8 2t4 3t8~ |
+    5-3t4 r2. |
+\mymark "C" #28
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r8 6-2t 3t r 5-6t 5t r 6-6t |
+    6-7t8 5-5t 4-6t 5t r 3-g7t4.\glissando |
+\mymark "D" #36
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "E" #44
+    4-3t2 1t |
+    5-5t2 3t |
+    6-2t8 3t r2 5-6t8 5t |
+    6-6t8 7t 4-6t 5t r 3-g7t4.\glissando |
+\mymark "B-2" #48
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    6-3t4 4t 5-0t8 2t4 3t8~ |
+    5-3t4 r2. |
+\mymark "C-2" #56
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r8 6-2t 3t r 5-6t 5t r 6-6t |
+    6-7t8 5-5t 4-6t 5t r 3-g7t4.\glissando |
+\mymark "D-2" #64
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "F" #72
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "G" #80
+    4-3t1\glissando |
+    r1 |
+    5-3t1 |
+    r1 |
+    r1 |
+    r1 |
+    r8 6-2t 3t r 5-6t 5t r 6-6t |
+    6-7t8 5-5t 4-6t 5t r 3-g7t4.\glissando |
+\mymark "D-3" #88
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Ending" #96
+    r1 |
+    r1 |
+    r1 |
+    r4 3-5t2.\glissando |
+    5-3t4 r2. |
+}
