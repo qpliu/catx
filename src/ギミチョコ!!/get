@@ -5,7 +5,9 @@ DIR="/share/mirror/songsterr/stuff/d-keep/d-Babymetal/d-Gimme Choco-s392595/d-r3
 gzip -d <"$DIR"/z-t0|$GET --name guitarOnePart --output-tabs - >generated-guitar1tabs
 gzip -d <"$DIR"/z-t1|$GET --name guitarTwoPart --output-tabs - >generated-guitar2tabs
 gzip -d <"$DIR"/z-t2|$GET --name guitarThreePart --output-tabs - >generated-guitar3tabs
+gzip -d <"$DIR"/z-t2|$GET --no-string-numbers --name guitarThreeText --output-text - >generated-guitar3text
 #gzip -d <"$DIR"/z-t3|$GET --name guitarFourPart --output-tabs - >generated-guitar4tabs
+#gzip -d <"$DIR"/z-t3|$GET --no-string-numbers --name guitarFourText --output-text - >generated-guitar4text
 gzip -d <"$DIR"/z-t4|$GET --name bassPart --output-tabs - >generated-basstabs
 gzip -d <"$DIR"/z-t5|$GET --name drsPart - >generated-drscolors
 gzip -d <"$DIR"/z-t6|$GET --no-string-numbers --output-relative --no-ghost-notes --name synthPart - >generated-synth

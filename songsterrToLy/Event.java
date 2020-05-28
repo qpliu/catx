@@ -57,7 +57,7 @@ final class Event implements Comparable<Event>{
     }
     String getAfterAdjectives(){
 	StringBuilder sb=new StringBuilder();
-	if (slide!=null)
+	if ("legato".equals(slide))
 	    sb.append("\\glissando");
 	return sb.toString();
     }
