@@ -21,6 +21,8 @@
 \include "generated-guitar3text_lyrics"
 \include "generated-guitar3text_midi"
 \include "generated-guitar4"
+\include "generated-guitar4text_lyrics"
+\include "generated-guitar4text_midi"
 \include "generated-synth"
 \include "generated-vocals"
 \include "generated-synthtext_lyrics"
@@ -90,6 +92,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\clef "treble_8"
 	\guitarFourPart
 	{ s1_\markup { "Tuning: C F A"\teeny\sharp" D"\teeny\sharp" G C" } }
+	\lyricsguitarFourText
     >>
     \tag #'(peterPart) \new TabStaff \with { stringTunings = \stringTuning <c, f, ais, dis g c'> } <<
 	\markupStuff
@@ -143,7 +146,8 @@ midimusic = <<
     \tag #'(midiPeter rolandBackOne) \new Staff = "generated-guitar3" \with {
 	midiInstrument = #"distorted guitar" % 30
     } \guitarThreePart
-    \tag #'(midiPeter rolandBackOne) \new Staff \with {
+    \tag #'(midiPeter rolandBackOne) \new Staff = "generated-guitar4text" \midiguitarFourText
+    \tag #'(midiPeter rolandBackOne) \new Staff = "generated-guitar4" \with {
 	midiInstrument = #"overdriven guitar" % 29
     } \guitarFourPart
 >>

@@ -1,13 +1,10 @@
-guitarFourPart =
+guitarFourText =
 {
 % url: -
 % artist: Babymetal
 % title: Gimme Choco
 % instrument: Overdriven Guitar
 % name: Guitar Solo 2
-    \time 4/4
-    \tempo 4 = 220
-\mymark "Riff 1" #1
 % tuning c, f, ais, dis g c'
     r1 |
     r1 |
@@ -33,7 +30,6 @@ guitarFourPart =
     r1 |
     r1 |
     r1 |
-\mymark "Riff 2" #25
     r1 |
     r1 |
     r1 |
@@ -42,7 +38,6 @@ guitarFourPart =
     r1 |
     r1 |
     r1 |
-\mymark "Verse 1" #33
     r1 |
     r1 |
     r1 |
@@ -51,7 +46,6 @@ guitarFourPart =
     r1 |
     r1 |
     r1 |
-\mymark "Chorus" #41
     r1 |
     r1 |
     r1 |
@@ -68,7 +62,6 @@ guitarFourPart =
     r1 |
     r1 |
     r1 |
-\mymark "Riff 1" #57
     r1 |
     r1 |
     r1 |
@@ -77,7 +70,6 @@ guitarFourPart =
     r1 |
     r1 |
     r1 |
-\mymark "Riff 2" #65
     r1 |
     r1 |
     r1 |
@@ -86,7 +78,6 @@ guitarFourPart =
     r1 |
     r1 |
     r1 |
-\mymark "Verse 2" #73
     r1 |
     r1 |
     r1 |
@@ -95,7 +86,6 @@ guitarFourPart =
     r1 |
     r1 |
     r1 |
-\mymark "Chorus" #81
     r1 |
     r1 |
     r1 |
@@ -112,7 +102,6 @@ guitarFourPart =
     r1 |
     r1 |
     r1 |
-\mymark "Post-Chorus" #97
     r1 |
     r1 |
     r1 |
@@ -121,7 +110,6 @@ guitarFourPart =
     r1 |
     r1 |
     r1 |
-\mymark "Riff 1" #105
     r1 |
     r1 |
     r1 |
@@ -138,32 +126,24 @@ guitarFourPart =
     r1 |
     r1 |
     r1 |
-\mymark "Solo" #121
     r1 |
     r1 |
     r1 |
     r1 |
     r1 |
     r1 |
-    4-13t16 11t 10t 5-12t 4-10t 11t 13t 14t 3-11t 13t 11t 4-14t 3-12t 13t 14t 15t |
-    2-13t16 14t 13t 3-15t 2-13t 14t 15t 16t 1-14t 15t 14t 2-16t 1-14t 15t 16t 17t |
-    1-16t16 17t 16t 2-19t 1-16t2\bendAfter #1.0 t16 17t 16t 2-19t |
-    1-16t4.\bendAfter #1.0 t8 17t 20t t 17t |
-    1-16t16 17t 16t 2-19t 1-17t 15t 2-19t 17t 1-16t 2-19t 17t 16t 19t 17t 16t 3-18t |
-    3-17t2.~ t8\bendAfter #1.25 t16 18t |
-    3-20t16 t t \tuplet 3/2 { t8 18t 17t } 20t16 t t 18t 17t 20t t 18t 17t |
-    3-21t16 t t t 20t 18t 21t t t 20t 18t 21t 20t 18t8. |
-    2-19t4 21t 22t 1-20t8 21t |
-    1-23t2\bendAfter #0.75 r |
     r1 |
     r1 |
+    r4 `.(e'')bendSongsterr0:0:30:100:60:0`2 r4 |
+    `.(e'')bendSongsterr0:0:30:100:60:0`4. r2 r8 |
     r1 |
+    `.(gis')bendSongsterr0:0:6:125:12:0:18:125:24:0:30:125:36:0:42:125:48:0:54:125:60:25`2.~ `.(gis')bendSongsterr0:0:6:125:12:0:18:125:24:0:30:125:36:0:42:125:48:0:54:125:60:25`8 r |
     r1 |
     r1 |
     r1 |
+    `.(b'')bendSongsterr0:0:7:75:15:0:22:75:30:25:37:75:45:25:52:75:60:0`2 r |
     r1 |
     r1 |
-\mymark "Verse 3" #145
     r1 |
     r1 |
     r1 |
@@ -172,7 +152,6 @@ guitarFourPart =
     r1 |
     r1 |
     r1 |
-\mymark "Bridge" #153
     r1 |
     r1 |
     r1 |
@@ -189,7 +168,6 @@ guitarFourPart =
     r1 |
     r1 |
     r1 |
-\mymark "Chorus" #169
     r1 |
     r1 |
     r1 |
@@ -206,7 +184,6 @@ guitarFourPart =
     r1 |
     r1 |
     r1 |
-\mymark "Post-Chorus" #185
     r1 |
     r1 |
     r1 |
@@ -215,7 +192,12 @@ guitarFourPart =
     r1 |
     r1 |
     r1 |
-\mymark "Outro" #193
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
     r1 |
     r1 |
     r1 |
