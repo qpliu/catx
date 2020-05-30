@@ -19,6 +19,7 @@
 \include "bass"
 \include "vo"
 \include "lyrics"
+\include "eg"
 
 layoutmusic = <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
@@ -28,6 +29,18 @@ layoutmusic = <<
 	\markupStuff
 	\voPart
 	\voLyrics
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\egPart
+    >>
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\egPart
     >>
     \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }
@@ -59,6 +72,9 @@ midimusic = <<
     \tag #'(midiSusan rolandMelody) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \voPart
+    \tag #'(midiPeter rolandBackOne) \new Staff \with {
+	midiInstrument = #"electric guitar (clean)" % 27
+    } \egPart
     \tag #'(midiOne rolandBass) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
     } \bassPart
