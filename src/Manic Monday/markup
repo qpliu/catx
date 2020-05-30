@@ -3,32 +3,37 @@ markupStuff = {
     \tempo 4 = 116
     \key d \major
 \mymark "Intro" #1
-    s1 s1 s1 s1 s1 |
     s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 |
 \mymark "Verse 1" #10
     \bar "||"
-    s1 s1 s1 s1 s1 s1 s1 s1 |
-    s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 |
 \mymark "Chorus 1" #25
     \bar "||"
-    s1 s1 s1 s1 s1 s1 s1 s1 |
-    s1 s1 |
+    s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 |
 \mymark "Verse 2" #35
     \bar "||"
-    s1 s1 s1 s1 s1 s1 s1 s1 |
-    s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 |
 \mymark "Chorus 2" #50
     \bar "||"
-    s1 s1 s1 s1 s1 s1 s1 s1 |
-    s1 s1 |
+    s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 |
 \mymark "Bridge" #60
     \bar "||"
-    s1 s1 s1 s1 s1 s1 s1 s1 |
-    s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
 \mymark "Outro" #74
     \bar "||"
-    s1 s1 s1 s1 s1 s1 s1 s1 |
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 |
+\mybarNumberCheck #89
+    s2
     \bar "|."
-\mybarNumberCheck #90
 }
