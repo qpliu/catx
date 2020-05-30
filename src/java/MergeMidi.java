@@ -657,7 +657,7 @@ final class MergeMidi{
 			long x0=te.time;
 			double y0=0x2000;
 			for (int i=0; i<te.param.length; i+=2){
-			    long x1=te.time+(long)(Double.parseDouble(te.param[i])/100*(te.stop-te.time)+.5);
+			    long x1=te.time+(long)(Double.parseDouble(te.param[i])/60*(te.stop-te.time)+.5);
 			    double y1=0x2000+0x1fff/BEND_RANGE*Double.parseDouble(te.param[i+1])/50;
 			    int size=Math.min(BEND_MAX_SIZE,(int)(x1-x0));
 			    for (int j=0; j<size; j++){
