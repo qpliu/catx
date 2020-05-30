@@ -30,13 +30,16 @@ layoutmusic = <<
 	\voPart
 	\voLyrics
     >>
-    \tag #'(allPart peterPart) \new Staff \with {
-	instrumentName = \markup { \rotate #90 "Guitar" }
-	shortInstrumentName = \markup { \rotate #90 "Gtr" }
-    } <<
-	\markupStuff
-	\clef "treble_8"
-	\egPart
+    \tag #'(allPart peterPart) <<
+	\new ChordNames { \egChords }
+	\new Staff \with {
+	    instrumentName = \markup { \rotate #90 "Guitar" }
+	    shortInstrumentName = \markup { \rotate #90 "Gtr" }
+	} <<
+	    \markupStuff
+	    \clef "treble_8"
+	    \egPart
+	>>
     >>
     \tag #'(peterPart) \new TabStaff <<
 	\markupStuff

@@ -84,3 +84,67 @@ egPart = {
 \mybarNumberCheck #89
     4-0.2.3.2t2
 }
+
+egChords = \chordmode {
+\mymark "Intro" #1
+    r1 s1 |
+    d1:maj7 |
+    e1:min7 |
+    r1 s1 |
+    d1:maj7 |
+    e1:min7 |
+    d1 |
+\mymark "Verse 1" #10
+    d2 s8 d4.:sus4 |
+    e2:min s8 e4.:min7
+    r1 s1 |
+    d2 s8 d4.:sus4 |
+    e2:min s8 e4.:min7
+    r1 s1 |
+    d2 s8 d4.:sus4 |
+    e2:min s8 e4.:min7
+    r1 s1 |
+    d2 d2:sus4 |
+    a2. s8 d8 |
+    s1 |
+\mymark "Chorus 1" #25
+    a1 |
+    d1 | g2 g2:/e |
+    d1 | g2 g2:/e |
+    d1 | g2 g2:/e |
+    d1 | g2 a2 |
+    d1 |
+\mymark "Verse 2" #35
+    d2 s8 d4.:sus4 |
+    e2:min s8 e4.:min7
+    r1 s1 |
+    d2 s8 d4.:sus4 |
+    e2:min s8 e4.:min7
+    r1 s1 |
+    d2 s8 d4.:sus4 |
+    e2:min s8 e4.:min7
+    r1 s1 |
+    d2 d2:sus4 |
+    a2. s8 d8 |
+    s1 |
+\mymark "Chorus 2" #50
+    a1 |
+    d1 | g2 g2:/e |
+    d1 | g2 g2:/e |
+    d1 | g2 g2:/e |
+    d1 | g2 a2 |
+    d1 |
+\mymark "Bridge" #60
+    s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Outro" #74
+    a1 |
+    d1 | g2 g2:/e |
+    d1 | g2 g2:/e |
+    d1 | g2 g2:/e |
+    d1 | a1 |
+    d1 | g2 g2:/e |
+    d1 | g2 g2:/e |
+    d1 | a1 |
+\mybarNumberCheck #89
+    d2
+}
