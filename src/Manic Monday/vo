@@ -1,0 +1,90 @@
+voPart = {
+    \relative {
+\mymark "Intro" #1
+        d'8 a' d a' <d, g> fis e fis |
+        <g, b e>16 fis' e d cis8 e <e, g d'> cis' b <d, fis a cis>~ |
+        <d fis a cis>2.~ <d fis a cis>8 r |
+        <e g b d>1 |
+        d8 a' d a' <d, g> fis e fis |
+        <g, b e>16 fis' e d cis8 e <e, g d'> cis' b <d, fis a cis>~ |
+        <d fis a cis>2.~ <d fis a cis>8 r |
+        <e g b d>1 |
+        <fis a d>1 |
+\mymark "Verse 1" #10
+        <a d e>8 fis' fis fis <a, d fis> g' g g |
+        <g, b e>4 e'8 e <g, b e>16 e' e8 d <a d fis>~ |
+        <a d fis>8 d fis a g fis e d |
+        <g, b e>8 d' e fis e4 <g, b d>8 e' |
+        <a, d e>8 fis' fis fis <a, d fis> g' g g |
+        <g, b e>8 e' e e <g, b e> d' d d |
+        <a d fis>8 d fis a g fis e d |
+        <g, b e>8 d' e fis e16 fis e r <g, b d>8 e' |
+        <a, d fis>4 fis'8 <a, d fis>4 g'8 g g |
+        <g, b e>8 e' e4 <g, b e>8 e'4 <a, d fis>8~ |
+        <a d fis>8 d fis a g fis e d |
+        <g, b e>8 d' e fis e4 d |
+        <a d fis>4 fis'8 fis <a, d g>4 g'8 g |
+        <a, cis e>8 e' e e <a, cis e> e' d <fis, a d>~ |
+        <fis a d>8 d' a d <fis, a d>4. r8 |
+\mymark "Chorus 1" #25
+        <fis a g'>8 g' fis fis e4 fis |
+        <fis, a e'>4 d' <d, fis a>4. b'8 |
+        <b, d g>4. a'8 <b d g> g' fis4 |
+        <a, d e>4 fis' <d, fis a>4. b'8 |
+        <b, d g>4. a'8 <b d g>4 fis' |
+        <fis, a e'>4 d' <a d fis>4. g'8 |
+        <b, d g>4 fis'8 g <b, d g> g' fis fis |
+        <a, d e>4 fis' <d, fis a>4. <a a'>8 |
+        <b' d g>8 g' fis fis <a, cis e>4 fis' |
+        <fis, a e'>4 d'2. |
+        <a d e>8 fis' fis fis <a, d fis> g' g g |
+        <g, b e>4 e'8 e <g, b e>16 e' e8 d <a d fis>~ |
+        <a d fis>8 d fis a g fis e d |
+        <g, b e>8 d' e fis e4 <g, b d>8 e' |
+\mymark "Verse 2" #39
+        <a, d e>8 fis' fis fis <a, d fis> g' g g |
+        <g, b e>8 e' e e <g, b e> d' d d |
+        <a d fis>8 d fis a g fis e d |
+        <g, b e>8 d' e fis e16 fis e r <g, b d>8 e' |
+        <a, d fis>4 fis'8 <a, d fis>4 g'8 g g |
+        <g, b e>8 e' e4 <g, b e>8 e'4 <a, d fis>8~ |
+        <a d fis>8 d fis a g fis e d |
+        <g, b e>8 d' e fis e4 d |
+        <a d fis>4 fis'8 fis <a, d g>4 g'8 g |
+        <a, cis e>8 e' e e <a, cis e> e' d <fis, a d>~ |
+        <fis a d>8 d' a d <fis, a d>4. r8 |
+        <fis a g'>8 g' fis fis e4 fis |
+        <fis, a e'>4 d' <d, fis a>4. b'8 |
+        <b, d g>4. a'8 <b d g> g' fis4 |
+        <a, d e>4 fis' <d, fis a>4. b'8 |
+        <b, d g>4. a'8 <b d g>4 fis' |
+        <fis, a e'>4 d' <a d fis>4. g'8 |
+        <b, d g>4 fis'8 g <b, d g> g' fis fis |
+        <a, d e>4 fis' <d, fis a>4. <a a'>8 |
+        <b' d g>8 g' fis fis <a, cis e>4 fis' |
+        <fis, a e'>4 d'2. |
+        <d fis b>8 a' fis <d fis b>4 fis8 fis a |
+        <d, fis b>8 a' fis a <d, fis b>4 b' |
+        <b, e gis>8 gis' gis4 <b, e gis>8. fis'16 e4 |
+        <gis, b d>4 e' d e |
+        <b d a'>8 a' a <b, d a'>4 a'8 a a |
+        <cis, e a>8 a' a4 <cis, e a>8 a' a a |
+        <b, d fis>4 fis'8 <b, d fis>4 e8 d4 |
+        <fis, b d>4 e' d e8 b |
+        <g b d>8 d' d d <g, b d>4 d'8 e |
+        <gis, b e>2.~ <gis b e>16 b, b8 |
+        <b cis e a>8 b r <b d e a> d d <b e e a> d~ |
+        d8 a cis e <cis e g>4 <cis e g> |
+        ais4 cis e g |
+        ais2. r8 a, |
+        <fis' a g'>8 g' fis fis e4 fis |
+        <fis, a e'>4 d' <d, fis a>4. b'8 |
+        <b, d g>4. a'8 <b d g> g' fis4 |
+        <a, d e>4 fis' <d, fis a>4. b'8 |
+        <b, d g>4. a'8 <b d g>4 fis' |
+        <fis, a e'>4 d' <d, fis a>4. a'8 |
+        <b d g>8 g' fis fis <a, cis e>4 fis' |
+        <fis, a e'>4 <fis a d>2.~ |
+        <fis a d>2. r4 |
+    }
+}

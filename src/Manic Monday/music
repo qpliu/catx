@@ -1,0 +1,65 @@
+% PARTS all
+% BIN midi all kav susan gg peter
+% ROBOT preview=25
+
+\header {
+    title = "Manic Monday"
+    composer = "Prince"
+}
+
+\paper {
+%    system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
+}
+
+#(set-global-staff-size 20)
+#(set-default-paper-size "letter" 'portrait)
+
+\include "markup"
+\include "drs"
+\include "bass"
+\include "vo"
+\include "lyrics"
+
+layoutmusic = <<
+    \tag #'(allPart kavPart susanPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vocals" }
+	shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+	\markupStuff
+	\voPart
+	\voLyrics
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Bass" }
+	shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } <<
+	\markupStuff
+	\clef "bass_8"
+	\bassPart
+    >>
+    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+	\markupStuff
+	\bassPart
+    >>
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drsPart
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiGg rolandDrums) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drsPart
+    \tag #'(midiSusan rolandMelody) \new Staff \with {
+	midiInstrument = #"steel drums"
+    } \voPart
+    \tag #'(midiOne rolandBass) \new Staff \with {
+	midiInstrument = #"electric bass (pick)"
+    } \bassPart
+>>

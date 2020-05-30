@@ -1,4 +1,4 @@
-% PARTS gg
+% PARTS midi
 % BIN midi all gg susan kav peter
 % ROBOT preview=25
 
@@ -20,7 +20,6 @@
 \include "cue"
 \include "vo"
 \include "eg"
-\addQuote "eg" \egPart
 \include "eg2"
 \include "bass"
 \include "lyrics"

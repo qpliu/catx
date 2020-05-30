@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e -o pipefail
+GET="java -jar ../../songsterrToLy/1.jar"
+WHERE="/share/mirror/songsterr/stuff/d-keep/d-The Bangles/d-Manic Monday-s31748/d-r167285"
+gzip -d <"$WHERE/z-t0"|$GET --name voPart --output-relative --no-string-numbers - >generated-vocals
+gzip -d <"$WHERE/z-t1"|$GET --name bassPart --output-tabs - >generated-basstabs
