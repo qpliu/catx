@@ -23,17 +23,17 @@ voLyrics = \new Lyrics \lyricmode {
     Mon4 -- day \skip2 |
     \skip2 wish8 it were4 |
     Sun4 -- day \skip2 |
-    \skip2 that's4 my |
+    \skip4. 'cause8 that's4 my |
     fun4 day \skip2 |
     \skip4. My8 I don't have to |
     run4 day \skip4. It's8 |
     just8 a -- no -- ther ma4 -- nic |
     Mon4 -- day \skip2 |
+\mymark "Verse 2" #35
     Have8 to catch an ear -- ly train4 |
     Got8 to be to work by4 nine8 |
     \skip1 |
     \skip2. \skip8 And8 |
-\mymark "Verse 2" #39
     if8 I had an ae -- ro -- plane I |
     still4 could8 -- n't make it on time |
     \skip1 |
@@ -42,32 +42,51 @@ voLyrics = \new Lyrics \lyricmode {
     fi8 -- gure out what I'm gon -- na wear |
     \skip1 |
     \skip1 |
-    Blame it on the train
-But the boss is al -- rea -- dy there
-
-It's just a -- no -- ther ma -- nic Mon -- day
-I wish it were a Sun -- day
-'Cause that's my fun day
-My I don't have to run day
-It's just a -- no -- ther ma -- nic Mon -- day
-
-Of all of my nights
-Why did my lo -- ver have to pick last night to get down?
-Does -- n't it mat -- ter that I have to feed the both of us
-Em -- ploy -- ment's down
-
-He tells me in his bed -- room voice
-"C' -- mon ho -- ney, let's go make some noise."
-Time it goes so fast
-
-It's just a -- no -- ther ma -- nic Mon -- day
-I wish it were a Sun -- day
-'Cause that's my fun day
-My I don't have to run day
-
-It's just a -- no -- ther ma -- nic Mon -- day
-I wish it was a Sun -- day
-'Cause that's my fun day
-It's just a -- no -- ther ma -- nic Mon -- day
-
+    Blame8 it on the train4 But8 the |
+    boss8 is al4 -- rea8 -- dy4 there8 |
+    \skip2. \skip8 It's8 |
+\mymark "Chorus 2" #50
+    just8 a -- no -- ther ma4 -- nic |
+    Mon4 -- day \skip2 |
+    \skip2 wish8 it were4 |
+    Sun4 -- day \skip2 |
+    \skip4. 'cause8 that's4 my |
+    fun4 day \skip2 |
+    \skip4. My8 I don't have to |
+    run4 day \skip4. It's8 |
+    just8 a -- no -- ther ma4 -- nic |
+    Mon4 -- day \skip4. Of8 |
+\mymark "Verse 3" #60
+    all8 of my nights4 Why8 did my |
+    lo8 -- ver have to pick4 last |
+    night8 to get4 down? \skip4 |
+    \skip1 |
+    Does8 -- n't it mat4 -- ter8 that I |
+    have8 to feed the both of us Em -- |
+    ploy4 -- ment's8 down4. \skip4 |
+    \skip2. \skip8 He8 |
+    tells8 me in his bed4 -- room |
+    voice4 \skip2 C'8 -- mon |
+    ho8 -- ney, \skip8 let's go make some noise. |
+    \skip1 |
+    Time4 it8 goes so4 fast |
+    \skip2. \skip8 It's8 |
+\mymark "Chorus 3" #74
+    just8 a -- no -- ther ma4 -- nic |
+    Mon4 -- day \skip2 |
+    \skip2 wish8 it were4 |
+    Sun4 -- day \skip2 |
+    \skip4. 'Cause8 that's4 my |
+    fun4 day \skip2 |
+    \skip4. My8 I don't have to |
+    run4 day \skip4. It's8 |
+    just8 a -- no -- ther ma4 -- nic |
+    Mon4 -- day \skip2 |
+    \skip2 wish8 it were4 |
+    Sun4 -- day \skip2 |
+    \skip4. 'Cause8 that's4 my |
+    fun4 day \skip4. It's8 |
+    just8 a -- no -- ther ma4 -- nic |
+    Mon4 -- day \skip 2 |
+\mybarNumberCheck #90
 }

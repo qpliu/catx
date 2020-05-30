@@ -6,18 +6,29 @@ markupStuff = {
     s1 s1 s1 s1 s1 |
     s1 s1 s1 s1 |
 \mymark "Verse 1" #10
+    \bar "||"
     s1 s1 s1 s1 s1 s1 s1 s1 |
     s1 s1 s1 s1 s1 s1 s1 |
 \mymark "Chorus 1" #25
+    \bar "||"
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 |
+\mymark "Verse 2" #35
+    \bar "||"
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Chorus 2" #50
+    \bar "||"
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 |
+\mymark "Verse 3" #60
+    \bar "||"
     s1 s1 s1 s1 s1 s1 s1 s1 |
     s1 s1 s1 s1 s1 s1 |
-\mymark "Verse 2" #39
-    s1 s1 |
-    s1 |
+\mymark "Chorus 3" #74
+    \bar "||"
     s1 s1 s1 s1 s1 s1 s1 s1 |
     s1 s1 s1 s1 s1 s1 s1 s1 |
-    s1 s1 s1 s1 s1 s1 s1 s1 |
-    s1 s1 s1 s1 s1 s1 s1 s1 |
-    s1 s1 s1 s1 s1 s1 s1 s1 |
-    s1 s1 |
+    \bar "|."
+\mybarNumberCheck #90
 }
