@@ -1,4 +1,4 @@
-% PARTS midi
+% PARTS susan
 % BIN midi all kav susan gg peter
 % ROBOT preview=25
 
@@ -12,6 +12,7 @@
 }
 
 #(set-global-staff-size 18.5)
+% IF susan #(set-global-staff-size 26)
 #(set-default-paper-size "letter" 'portrait)
 
 \include "markup"
