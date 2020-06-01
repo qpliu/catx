@@ -1,4 +1,4 @@
-% PARTS susan
+% PARTS gg
 % BIN midi all kav susan gg peter
 % ROBOT preview=25
 
@@ -13,6 +13,7 @@
 
 #(set-global-staff-size 18.5)
 % IF susan #(set-global-staff-size 26)
+% IF gg #(set-global-staff-size 17.5)
 #(set-default-paper-size "letter" 'portrait)
 
 \include "markup"
@@ -58,13 +59,22 @@ layoutmusic = <<
 	\markupStuff
 	\bassPart
     >>
-    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
+    \tag #'(allPart kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\drsPart
+    >>
+    \tag #'(ggPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drsPart
+	\voLyrics
     >>
 >>
 

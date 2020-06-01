@@ -77,7 +77,7 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
     << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
     << { <sn sn>4_"1" r8_"2" <sn sn>8_"+" r4_"3" <sn sn>4_"4" | } \context DrumVoice = "drsb" { bd4. bd bd4 | } >>
-    << { r8_"1" toml tomml_"2" toml tomml4_"3" <sn sn>_"4" | } \context DrumVoice = "drsb" { r2. bd4 | } >>
+    << { r8_"1" tomml tomh_"2" tomml tomh4_"3" <sn sn>_"4" | } \context DrumVoice = "drsb" { r2. bd4 | } >>
     << { cymc1 | } \context DrumVoice = "drsb" { bd1 | } >>
     r1 |
 \mymark "Outro" #74
