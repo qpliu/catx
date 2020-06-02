@@ -77,29 +77,32 @@ stopInstrumentDown = #(define-event-function (parser location name) (scheme?)
     #}
 )
 
-drumPitchNames.metronomeclick = #'metronomeclick
-midiDrumPitches.metronomeclick = f,,, % 17
-drumPitchNames.metronomebell = #'metronomebell
-midiDrumPitches.metronomebell = fis,,, % 18
-drumPitchNames.metronomedivision = #'metronomedivision
-midiDrumPitches.metronomedivision = g,,, % 19
 
 drumPitchNames.countone = #'countone
-midiDrumPitches.countone = gis,,, % 20
+midiDrumPitches.countone = f,,, % 17
 drumPitchNames.counttwo = #'counttwo
-midiDrumPitches.counttwo = a,,, % 21
+midiDrumPitches.counttwo = fis,,, % 18
 drumPitchNames.countthree = #'countthree
-midiDrumPitches.countthree = ais,,, % 22
+midiDrumPitches.countthree = g,,, % 19
 drumPitchNames.countfour = #'countfour
-midiDrumPitches.countfour = b,,, % 23
+midiDrumPitches.countfour = gis,,, % 20
 drumPitchNames.countfive = #'countfive
-midiDrumPitches.countfive = c,, % 24
+midiDrumPitches.countfive = a,,, % 21
 drumPitchNames.countsix = #'countsix
-midiDrumPitches.countsix = cis,, % 25
+midiDrumPitches.countsix = ais,,, % 22
 drumPitchNames.countseven = #'countseven
-midiDrumPitches.countseven = d,, % 26
+midiDrumPitches.countseven = b,,, % 23
 drumPitchNames.counteight = #'counteight
-midiDrumPitches.counteight = e''' % 88
+midiDrumPitches.counteight = c,, % 24
+
+drumPitchNames.metronomeclick = #'metronomeclick
+midiDrumPitches.metronomeclick = cis,, % 25
+drumPitchNames.metronomebell = #'metronomebell
+midiDrumPitches.metronomebell = d,, % 26
+drumPitchNames.metronomedivision = #'metronomedivision
+midiDrumPitches.metronomedivision = e''' % 88
+
+
 drumPitchNames.counte = #'counte
 midiDrumPitches.counte = f''' % 89
 drumPitchNames.countand = #'countand
