@@ -90,7 +90,7 @@ midimusic = <<
     \tag #'(midiPeter rolandBackOne) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
     } \egPart
-    \tag #'(midiOne rolandBackOne) \new Staff \with {
+    \tag #'(midiTwo rolandBackOne) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
     } \egTwoPart
     \tag #'(midiCue) \new DrumStaff \with {
