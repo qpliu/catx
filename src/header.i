@@ -78,60 +78,67 @@ stopInstrumentDown = #(define-event-function (parser location name) (scheme?)
 )
 
 
-drumPitchNames.countone = #'countone
-midiDrumPitches.countone = f,,, % 17
-drumPitchNames.counttwo = #'counttwo
-midiDrumPitches.counttwo = fis,,, % 18
-drumPitchNames.countthree = #'countthree
-midiDrumPitches.countthree = g,,, % 19
-drumPitchNames.countfour = #'countfour
-midiDrumPitches.countfour = gis,,, % 20
-drumPitchNames.countfive = #'countfive
-midiDrumPitches.countfive = a,,, % 21
-drumPitchNames.countsix = #'countsix
-midiDrumPitches.countsix = ais,,, % 22
-drumPitchNames.countseven = #'countseven
-midiDrumPitches.countseven = b,,, % 23
-drumPitchNames.counteight = #'counteight
-midiDrumPitches.counteight = c,, % 24
+drumPitchNames.ggone = #'ggone
+midiDrumPitches.ggone = f,,, % 17
+drumPitchNames.ggtwo = #'ggtwo
+midiDrumPitches.ggtwo = fis,,, % 18
+drumPitchNames.ggthree = #'ggthree
+midiDrumPitches.ggthree = g,,, % 19
+drumPitchNames.ggfour = #'ggfour
+midiDrumPitches.ggfour = gis,,, % 20
+drumPitchNames.ggfive = #'ggfive
+midiDrumPitches.ggfive = a,,, % 21
+drumPitchNames.ggsix = #'ggsix
+midiDrumPitches.ggsix = ais,,, % 22
+drumPitchNames.ggseven = #'ggseven
+midiDrumPitches.ggseven = b,,, % 23
+drumPitchNames.ggeight = #'ggeight
+midiDrumPitches.ggeight = c,, % 24
 
-drumPitchNames.metronomeclick = #'metronomeclick
-midiDrumPitches.metronomeclick = cis,, % 25
-drumPitchNames.metronomebell = #'metronomebell
-midiDrumPitches.metronomebell = d,, % 26
-drumPitchNames.metronomedivision = #'metronomedivision
-midiDrumPitches.metronomedivision = e''' % 88
+drumPitchNames.ggclick = #'ggclick
+midiDrumPitches.ggclick = cis,, % 25
+drumPitchNames.ggbell = #'ggbell
+midiDrumPitches.ggbell = d,, % 26
+drumPitchNames.ggdivision = #'ggdivision
+midiDrumPitches.ggdivision = e''' % 88
 
+drumPitchNames.gge = #'gge
+midiDrumPitches.gge = f''' % 89
+drumPitchNames.ggand = #'ggand
+midiDrumPitches.ggand = fis''' % 90
+drumPitchNames.gga = #'gga
+midiDrumPitches.gga = g''' % 91
 
-drumPitchNames.counte = #'counte
-midiDrumPitches.counte = f''' % 89
-drumPitchNames.countand = #'countand
-midiDrumPitches.countand = fis''' % 90
-drumPitchNames.counta = #'counta
-midiDrumPitches.counta = g''' % 91
+drumPitchNames.allone = #'allone
+midiDrumPitches.allone = gis''' % 92
+drumPitchNames.alltwo = #'alltwo
+midiDrumPitches.alltwo = a''' % 93
+drumPitchNames.allthree = #'allthree
+midiDrumPitches.allthree = ais''' % 94
+drumPitchNames.allfour = #'allfour
+midiDrumPitches.allfour = b''' % 95
+drumPitchNames.allfive = #'allfive
+midiDrumPitches.allfive = c'''' % 96
+drumPitchNames.allsix = #'allsix
+midiDrumPitches.allsix = cis'''' % 97
+drumPitchNames.allseven = #'allseven
+midiDrumPitches.allseven = d'''' % 98
+drumPitchNames.alleight = #'alleight
+midiDrumPitches.alleight = dis'''' % 99
 
-drumPitchNames.cueone = #'cueone
-midiDrumPitches.cueone = gis''' % 92
-drumPitchNames.cuetwo = #'cuetwo
-midiDrumPitches.cuetwo = a''' % 93
-drumPitchNames.cuethree = #'cuethree
-midiDrumPitches.cuethree = ais''' % 94
-drumPitchNames.cuefour = #'cuefour
-midiDrumPitches.cuefour = b''' % 95
-drumPitchNames.cuefive = #'cuefive
-midiDrumPitches.cuefive = c'''' % 96
-drumPitchNames.cuesix = #'cuesix
-midiDrumPitches.cuesix = cis'''' % 97
-drumPitchNames.cueseven = #'cueseven
-midiDrumPitches.cueseven = d'''' % 98
-drumPitchNames.cueeight = #'cueeight
-midiDrumPitches.cueeight = dis'''' % 99
-drumPitchNames.cuee = #'cuee
-midiDrumPitches.cuee = e'''' % 100
-drumPitchNames.cueand = #'cueand
-midiDrumPitches.cueand = f'''' % 101
-drumPitchNames.cuea = #'cuea
-midiDrumPitches.cuea = fis'''' % 102
+drumPitchNames.allclick = #'allclick
+midiDrumPitches.allclick = e'''' % 100
+drumPitchNames.allbell = #'allbell
+midiDrumPitches.allbell = f'''' % 101
+drumPitchNames.alldivision = #'alldivision
+midiDrumPitches.alldivision = fis'''' % 102
+
+drumPitchNames.alle = #'alle
+midiDrumPitches.alle = g'''' % 103
+drumPitchNames.alland = #'alland
+midiDrumPitches.alland = gis'''' % 104
+drumPitchNames.alla = #'alla
+midiDrumPitches.alla = a'''' % 105
 
 #(define myDrumStyleTable '(
     (crashcymbal    cross    #f          6)
