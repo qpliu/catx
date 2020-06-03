@@ -140,6 +140,8 @@ midiDrumPitches.alland = gis'''' % 104
 drumPitchNames.alla = #'alla
 midiDrumPitches.alla = a'''' % 105
 
+drumPitchNames.cymcgreen = #'crashcymbal
+
 #(define myDrumStyleTable '(
     (crashcymbal    cross    #f          6)
     (ridecymbal     cross    #f          5)
@@ -154,11 +156,14 @@ midiDrumPitches.alla = a'''' % 105
     (pedalhihat     cross    #f          -5)
 ))
 
-mytweakcolor = #(define-music-function (parser location col x) (color? scheme?) #{ #x #})
-% IF kav mytweakcolor = #(define-music-function (parser location col x) (color? scheme?) #{ \tweak color #col #x #})
+
+mytweakcolor = #(define-music-function (parser location col x) (color? scheme?) #{ \tweak color #col #x #})
+
+mykavtweakcolor = #(define-music-function (parser location col x) (color? scheme?) #{ #x #})
+% IF kav mykavtweakcolor = #(define-music-function (parser location col x) (color? scheme?) #{ \tweak color #col #x #})
 
 mybarNumberCheck = #(define-music-function (parser location nn) (number?) #{ \tag #'(removeWithUnfold keep) \barNumberCheck #nn #})
 
-mymark = #(define-music-function (parser location what nn) (markup? number?) #{ \mybarNumberCheck #nn \mytweakcolor #green \mark \markup { \box \bold #what } #})
+mymark = #(define-music-function (parser location what nn) (markup? number?) #{ \mybarNumberCheck #nn \mykavtweakcolor #green \mark \markup { \box \bold #what } #})
 
 markpage = #(define-music-function (parser location what) (markup?) #{ \tag #'(pageNumber keep) \mark #what #})
