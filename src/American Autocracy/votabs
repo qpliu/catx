@@ -1,0 +1,26 @@
+voPart = \new Voice = "vo"
+\transpose c c'
+{
+% scale c des d ees e f ges g aes a bes b
+\mymark "Intro" #1
+    s1 s1 s1 s1 |
+\mymark "Verse" #5
+    r8 2-4t4 t8 t4 t8 6t~ |
+    2-6t8 4t4. 3-5t8 t 2-4t4 |
+    s1 s1 |
+    r8 3-5t8 t t t t t 6t~ |
+    3-6t8 5t4 t8 3t8 1t 1t4 |
+    s1 s1 |
+    r8 2-4t8 t t4 t 6t8~ |
+    2-6t8 4t4 t8 3-5t8 t 2-4t4 |
+    s1 s1 |
+    r8 3-5t4 t8 t t t 6t8~ |
+    3-6t8 t 5t t 3t 1t 1t4 |
+    s1 s1 |
+\mymark "Chorus" #21
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Outro" #29
+    s1 s1 s1 s1
+    \bar "|."
+\mybarNumberCheck #33
+}
