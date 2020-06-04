@@ -1,6 +1,7 @@
 % PARTS kav
 % BIN midi all susan kav gg peter
-% ROBOT preview=18;pickup_measures=1
+% ROBOT preview=18
+% ROBOT pickup_measures=1
 
 \header {
     title = "Jungle Boogie"

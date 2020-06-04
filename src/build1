@@ -52,11 +52,11 @@ do
 	ffmpeg </dev/null -loglevel 16 -i "$a" "$b".wav
     fi
 done
-ROBOT=`grep '^% ROBOT ' music|cut -c 9-`
+sed <music -n -e 's/^% ROBOT \(.*\)$/\1/p' >"bin/$name.robot"
+ROBOT=`tr '
+' ';' <"bin/$name.robot"|sed -e 's/;$//'`
 if test -n "$ROBOT"
 then
-    echo $ROBOT|tr ';' '
-' >"bin/$name.robot"
     ROBOT=";$ROBOT"
 fi
 for part in $PARTS
@@ -90,7 +90,8 @@ EOF
 	ffmpeg </dev/null -loglevel 16 -i "$name.flac" "$name.mp3"
 	cp "$name.midi" bin
 	cp "$name.mp3" /share/music/mp3
-	cp "$name.midi" /share/music/robot/"$name$ROBOT.midi"
+	cp "$name.midi" "/share/music/robot/$name$ROBOT.midi"
+	cp "$name.midi" "/share/music/midi/$name.midi"
     elif test "x$part" = "xroland"
     then
 	merge=

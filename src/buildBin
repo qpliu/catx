@@ -13,7 +13,7 @@ then
     echo "$name"
     ../build1 $PARTS
     cd ..
-    echo "name=$name" >temp.aarin
+    echo "name=$name" >bin/temp.aarin
     for a in bin/bin/*
     do
 	b=`basename "$a"`
@@ -21,10 +21,10 @@ then
 	    *.pdf)
 		case "$b" in
 		    *_gg.pdf)
-			echo "default_pdf_file=../pdf/$b" >>temp.aarin
+			echo "default_pdf_file=../pdf/$b" >>bin/temp.aarin
 			;;
 		esac
-		echo "pdf_file=../pdf/$b" >>temp.aarin
+		echo "pdf_file=../pdf/$b" >>bin/temp.aarin
 		if test -f "../bin/$b"
 		then
 		    ./get_rid_of_id_in_pdf.py <"$a" >bin/1
@@ -38,19 +38,19 @@ then
 		cp "$a" ../bin/
 		;;
 	    *.midi)
-		echo "midi_file=../robot/$b" >>temp.aarin
+		echo "midi_file=../midi/$b" >>bin/temp.aarin
 		cp "$a" ../bin/
 		;;
 	    *.robot)
-		cat "$a" >>temp.aarin
+		cat "$a" >>bin/temp.aarin
 		;;
 	    *)
 		cp "$a" ../bin/
 		;;
 	esac
     done
-    if grep -q '^name=' temp.aarin
+    if grep -q '^name=' bin/temp.aarin
     then
-	cp temp.aarin "/share/music/aarin/$name.aarin"
+	cp bin/temp.aarin "/share/music/aarin/$name.aarin"
     fi
 fi
