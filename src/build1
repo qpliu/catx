@@ -55,6 +55,8 @@ done
 ROBOT=`grep '^% ROBOT ' music|cut -c 9-`
 if test -n "$ROBOT"
 then
+    echo $ROBOT|tr ';' '
+' >"bin/$name.robot"
     ROBOT=";$ROBOT"
 fi
 for part in $PARTS
