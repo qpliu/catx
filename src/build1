@@ -13,12 +13,12 @@ PARTS="$*"
 rm -rf bin
 mkdir -p bin/bin
 cd bin
-cp ../java/* .
+cp -l ../java/* .
 javac -Xlint *.java
 cd ..
-cp *.i bin
-cp silence.wav timidity_extra_silence.cfg bin
-cp "$name"/* bin
+cp -l *.i bin
+cp -l *.wav timidity_extra_silence.cfg bin
+cp -l "$name"/* bin
 cd bin
 for a in *tabs
 do
