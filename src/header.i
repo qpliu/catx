@@ -8,6 +8,7 @@
 
 \paper {
 % Default is system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
+    first-page-number = 0
 }
 
 \layout {

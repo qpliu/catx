@@ -13,9 +13,7 @@ then
     echo "$name"
     ../build1 $PARTS
     cd ..
-    GGPDF_FILE=
-    MIDI_FILE=
-    ROBOT_FILE=
+    echo "name=$name" >temp.aarin
     for a in bin/bin/*
     do
 	b=`basename "$a"`
@@ -23,9 +21,10 @@ then
 	    *.pdf)
 		case "$b" in
 		    *_gg.pdf)
-			GGPDF_FILE="$a"
+			echo "default_pdf_file=../pdf/$b" >>temp.aarin
 			;;
 		esac
+		echo "pdf_file=../pdf/$b" >>temp.aarin
 		if test -f "../bin/$b"
 		then
 		    ./get_rid_of_id_in_pdf.py <"$a" >bin/1
@@ -39,24 +38,19 @@ then
 		cp "$a" ../bin/
 		;;
 	    *.midi)
-		MIDI_FILE="../robot/$b"
+		echo "midi_file=../robot/$b" >>temp.aarin
 		cp "$a" ../bin/
 		;;
 	    *.robot)
-		ROBOT_FILE="$a"
+		cat "$a" >>temp.aarin
 		;;
 	    *)
 		cp "$a" ../bin/
 		;;
 	esac
     done
-    if test -n "$GGPDF_FILE"
+    if grep -q '^name=' temp.aarin
     then
-	b=`basename "$GGPDF_FILE" _gg.pdf`
-	(
-	    test -n "$ROBOT_FILE"&&cat "$ROBOT_FILE"
-	    echo "pdf_file=../pdf/${b}_gg.pdf"
-	    echo "midi_file=$MIDI_FILE"
-	)>"/share/music/aarin/$b.aarin"
+	cp temp.aarin "/share/music/aarin/$name.aarin"
     fi
 fi
