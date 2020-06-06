@@ -3,7 +3,7 @@ markupStuff = {
     \key a \major
     \tempo 4 = 153
 \mymark "Intro" #1
-    s1 s1 s1 s1 s1 | \break
+    s1 s1 s1 s1 s1 |
     s1 s1 s1 s1 | 
     s1 |
     s1 s1 s1 s1 s1 s1 |

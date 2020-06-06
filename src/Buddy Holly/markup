@@ -2,51 +2,50 @@ markupStuff = {
     \override Score.RehearsalMark.self-alignment-X = #LEFT
     \tempo 4 = 120
     \mark "Verse 1"
-    s1 s1 s1 s1 \break
-    s1 s1 s1 s1 \break
+    s1 s1 s1 s1
+    s1 s1 s1 s1
     \bar "||"
     \mark "Pre Chorus"
-    s1 s1 s1 s1 \break
+    s1 s1 s1 s1
     s1 s1
     \bar "||"
     \mark "Chorus 1"
-    s1 s1 \break
-    s1 s1 s1 s1 \break
+    s1 s1
+    s1 s1 s1 s1
     s1 s1
     \bar "||"
     \mark "Bridge"
-    s1 s1 \break
+    s1 s1
     s1 s1
     \bar "||"
     \mark "Verse 2"
-    s1 s1 \break
-    s1 s1 s1 s1 \break
+    s1 s1
+    s1 s1 s1 s1
     s1 s1
     \bar "||"
     \mark "Pre Chorus"
-    s1 s1 \break
-    s1 s1 s1 s1 \break
+    s1 s1
+    s1 s1 s1 s1
     \bar "||"
-    \pageBreak
     \mark "Chorus 2"
-    s1 s1 s1 s1 \break
-    s1 s1 s1 s1 \break
+    s1 s1 s1 s1
+    s1 s1 s1 s1
     s1 s1
     \bar "||"
     \mark "Breakdown"
-    s1 s1 \break
-    s1 s1 s1 s1 \break
+    s1 s1
+    s1 s1 s1 s1
     s1 s1
     \bar "||"
     \mark "Solo"
-    s1 s1 \break
-    s1 s1 s1 s1 \break
+    s1 s1
+    s1 s1 s1 s1
     s1 s1
     \bar "||"
     \mark "Chorus 3 / Outro"
-    s1 s1 \break
-    s1 s1 s1 s1 \break
-    s1 s1 s1 s1 \break
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 \break
+    s1 s1
+    s1 s1 s1 s1
+    s1 s1 s1 s1
+    s1 s1 s1 s1
     \bar "|."
 }

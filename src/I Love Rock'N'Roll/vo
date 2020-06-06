@@ -1,4 +1,4 @@
-voPart = \new Voice = "vo" {
+voPart = {
 % Intro
     s2 r2 |
     r1 |

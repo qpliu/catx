@@ -9,7 +9,6 @@ markupStuff = {
     s2.
     \time 4/4
     s1 s1 
-    \break
     \mark "Verse"
     s1 s1 s1 s1 s1 s1
     \time 2/4
@@ -17,14 +16,12 @@ markupStuff = {
     \time 4/4
     s1 s1 s1
     s1
-    \break
     \mark "Chorus"
     s1 s1 s1
     \time 3/4
     s2.
     \time 4/4
     s1 s1
-    \break
     \mark "Verse"
     s1 s1 s1 s1 s1 s1
     \time 2/4
@@ -32,14 +29,12 @@ markupStuff = {
     \time 4/4
     s1 s1 s1
     s1
-    \break
     \mark "Chorus"
     s1 s1 s1
     \time 3/4
     s2.
     \time 4/4
     s1 s1
-    \break
     \mark "Guitar Solo"
     s1 s1 s1 s1 s1 s1
     \time 2/4
@@ -47,11 +42,9 @@ markupStuff = {
     \time 4/4
     s1 s1 s1
     s1
-    \break
     \mark "Chorus"
     s1 s1 s1
     s1
-    \break
     \mark "Outro"
     \repeat volta 2 {
 	\time 4/4

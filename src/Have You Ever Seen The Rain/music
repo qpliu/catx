@@ -1,4 +1,4 @@
-% PARTS peter
+% PARTS all
 % BIN midi all susan kav gg peter
 % ROBOT preview=8.2
 % ROBOT pickup_measures=1
@@ -8,27 +8,7 @@
     composer = "Creedence Clearwater Revival"
 }
 
-\paper {
-    system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
-}
-
-#(set-global-staff-size 18)
-#(set-default-paper-size "letter" 'portrait)
-
-drumPitchNames.slash = #'slash
-
-#(define myDrumStyleTable '(
-    (slash          slash    #f          6)
-    (ridecymbal     cross    #f          5)
-    (crashcymbal    cross    #f          6)
-    (openhihat      harmonic #f          4)
-    (hihat          cross    #f          4)
-    (snare          default  #f          1)
-    (hightom        default  #f          1)
-    (lowmidtom      default  #f          0)
-    (lowtom         default  #f          -1)
-    (bassdrum       default  #f          -3)
-))
+#(set-global-staff-size 20)
 
 \include "markup"
 \include "drs"
@@ -41,6 +21,9 @@ drumPitchNames.slash = #'slash
 \include "simplelyrics"
 \include "simplelyricsunfolded"
 
+voAligner = \new NullVoice = "vo" \voPart
+simplevoAligner = \new NullVoice = "simplevo" \simplevoPart
+
 layoutmusic = <<
     \tag #'(allPart susanPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vocals" }
@@ -48,6 +31,7 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\simplevoPart
+	\simplevoAligner
 	\simplevoLyrics
     >>
     \tag #'(allPart peterPart) \new Staff \with {
@@ -74,13 +58,15 @@ layoutmusic = <<
 	\markupStuff
 	\bassPart
     >>
-    \tag #'(allPart ggPart) \new DrumStaff \with {
+    \tag #'(ggPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\drsPart
+	\simplevoAligner
+	\simplevoLyrics
     >>
     \tag #'(kavPart) \removeWithTag #'(removeWithUnfold) \unfoldRepeats \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vocals" }
@@ -88,6 +74,7 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\simplevoPart
+	\simplevoAligner
 	\simplevoLyricsunfolded
     >>
     \tag #'(kavPart) \removeWithTag #'(removeWithUnfold) \unfoldRepeats \new DrumStaff \with {
@@ -102,22 +89,22 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiSusan rolandMelody) \new Staff \with {
+    \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \voPart
-    \tag #'(midiOne rolandBass) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \bassPart
-    \tag #'(midiPeter rolandBackOne) \new Staff \with {
+    \tag #'(midiPeter) \new Staff \with {
         midiInstrument = #"electric guitar (clean)" % 27
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \egPart
-    \tag #'(midiGg rolandDrums) \new DrumStaff \with {
+    \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
 >>

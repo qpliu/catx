@@ -1,4 +1,3 @@
-% system1 drs midi roland
 % PARTS drs
 
 \header {
@@ -6,12 +5,7 @@
     composer = "Foo Fighters"
 }
 
-\paper {
-    system-system-spacing = #'((basic-distance . 18) (minimum-distance . 12) (padding . 1) (stretchability . 90))
-}
-
 #(set-global-staff-size 20)
-#(set-default-paper-size "letter" 'portrait)
 
 \include "markup"
 \include "drs"
@@ -29,7 +23,7 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiGg rolandDrums) \new DrumStaff \with {
+    \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
 >>

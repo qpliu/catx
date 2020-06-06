@@ -5,7 +5,7 @@ then
     echo "Wrong directory"
     exit 1
 fi
-rm -rf /share/music/mp3/*.mp3 /share/music/pdf/*.pdf /share/music/robot/*.midi /share/music/aarin/*.aarin
+rm -rf /share/music/mp3/*.mp3 /share/music/pdf/*.pdf /share/music/midi/*.midi /share/music/aarin/*.aarin
 for a in */music
 do
     name=`dirname "$a"`

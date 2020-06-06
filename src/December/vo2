@@ -1,4 +1,4 @@
-voTwoPart = \new Voice = "vo2"
+voTwoPart =
 \relative c''
 {
 \mymark "Intro" #1

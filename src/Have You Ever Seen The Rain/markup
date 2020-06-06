@@ -2,23 +2,23 @@ markupStuff = {
     \override Score.RehearsalMark.self-alignment-X = #LEFT
     \tempo 4 = 117
 \mymark "Intro" #1
-    s1 s1 s1 s1 \break
-    s1 s1 s1 \break
+    s1 s1 s1 s1
+    s1 s1 s1
     \repeat volta 2 {
 \mymark "Verse" #8 % or 36
-	s1 s1 s1 s1 \break
-	s1 s1 s1 s1 \break
-	s1 s1 s1 s1 \break
-	s1 s1 s1 s1 \break
+	s1 s1 s1 s1
+	s1 s1 s1 s1
+	s1 s1 s1 s1
+	s1 s1 s1 s1
 \mymark "Chorus" #24 % or 52
-	s1 s1 s1 s1 \break
-	s1 s1 s1 s1 \break
-	s1 s1 s1 s1 \break
+	s1 s1 s1 s1
+	s1 s1 s1 s1
+	s1 s1 s1 s1
     }
 \mymark "Outro" #36 % or 64
-    s1 s1 s1 s1 \break
-    s1 s1 s1 s1 \break
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 \noBreak
+    s1 s1 s1 s1
+    s1 s1 s1 s1
+    s1 s1 s1 s1
 \mybarNumberCheck #48 % or 76
     s1
     \bar "|."

@@ -4,56 +4,56 @@ markupStuff = {
     \key c \minor
 \mymark "Intro 1" #1
     s1 |
-    s1 s1 | \break
+    s1 s1 |
     \bar "||"
 \mymark "Intro 2" #4
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
     \bar "||"
 \mymark "A" #12
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
     \bar "||"
 \mymark "B" #20
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
     \bar "||"
 \mymark "C" #28
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
     \bar "||"
 \mymark "D" #36
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
     \bar "||"
 \mymark "E" #44
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
+    s1 s1 s1 s1 |
     \bar "||"
 \mymark "B-2" #48
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
     \bar "||"
 \mymark "C-2" #56
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
     \bar "||"
 \mymark "D-2" #64
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
     \bar "||"
 \mymark "F" #72
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
     \bar "||"
 \mymark "G" #80
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
     \bar "||"
 \mymark "D-3" #88
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 | \break
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
     \bar "||"
 \mymark "Ending" #96
-    s1 \noBreak s1 \noBreak s1 \noBreak s1 \noBreak s1 |
+    s1 s1 s1 s1 s1 |
     \bar "|."
 }

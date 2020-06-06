@@ -105,25 +105,25 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiSusan rolandMelody) \new Staff = "vocaltext" \midivocalText
-    \tag #'(midiSusan rolandMelody) \new Staff = "vocal" \vocalPart
-    \tag #'(midiPeter rolandBackOne) \new Staff = "guitartext" \midiguitarText
-    \tag #'(midiPeter rolandBackOne) \new Staff = "guitar" \guitarPart
-    \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard1text" \midikeyboardOneText
-    \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard1" \keyboardOnePart
-    \tag #'(midiOne rolandBackTwo) \new Staff \with {
+    \tag #'(midiSusan) \new Staff = "vocaltext" \midivocalText
+    \tag #'(midiSusan) \new Staff = "vocal" \vocalPart
+    \tag #'(midiPeter) \new Staff = "guitartext" \midiguitarText
+    \tag #'(midiPeter) \new Staff = "guitar" \guitarPart
+    \tag #'(midiOne) \new Staff = "keyboard1text" \midikeyboardOneText
+    \tag #'(midiOne) \new Staff = "keyboard1" \keyboardOnePart
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"trumpet"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \keyboardTwoPart
-    \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard3text" \midikeyboardThreeText
-    \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard3" \keyboardThreePart
-    \tag #'(midiOne rolandBass) \new Staff \with {
+    \tag #'(midiOne) \new Staff = "keyboard3text" \midikeyboardThreeText
+    \tag #'(midiOne) \new Staff = "keyboard3" \keyboardThreePart
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.6
     } \bassPart
-    \tag #'(midiGg rolandDrums) \new DrumStaff \with {
+    \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1

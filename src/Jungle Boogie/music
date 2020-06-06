@@ -7,12 +7,7 @@
     title = "Jungle Boogie"
 }
 
-\paper {
-%    system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
-}
-
-#(set-global-staff-size 16)
-#(set-default-paper-size "letter" 'portrait)
+#(set-global-staff-size 20)
 
 \include "markup"
 \include "drs"
@@ -103,28 +98,28 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiGg rolandDrums) \new DrumStaff \with {
+    \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
-    \tag #'(midiSusan rolandMelody) \new Staff \with {
+    \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \voPart
-    \tag #'(midiPeter rolandBackOne) \new Staff \with {
+    \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
     } \egPart
-    \tag #'(midiOne rolandBass) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
     } \ebOnePart
-    \tag #'(midiOne rolandBass) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"synth bass 2" % 39
     } \ebTwoPart
-    \tag #'(midiOne rolandBackTwo) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"trumpet" % 56
     } \trumpetPart
-    \tag #'(midiOne rolandBackTwo) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"tenor sax" % 66
     } \tenorsaxPart
-    \tag #'(midiOne rolandBackTwo) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"alto sax" % 65
     } \altosaxPart
 >>

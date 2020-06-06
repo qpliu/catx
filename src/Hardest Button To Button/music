@@ -5,12 +5,7 @@
     composer = "The White Stripes"
 }
 
-\paper {
-%    system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
-}
-
 #(set-global-staff-size 20)
-#(set-default-paper-size "letter" 'portrait)
 
 \include "markup"
 \include "drs"
@@ -40,13 +35,13 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiSusan rolandMelody) \new Staff \with {
+    \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums" % 114
     } <<
 	\voPart
 	\chorusPart
     >>
-    \tag #'(midiGg rolandDrums) \new DrumStaff \with {
+    \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
 >>

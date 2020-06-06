@@ -294,34 +294,34 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiSusan rolandMelody) \new Staff = "vo1text" \midivoOneText
-    \tag #'(midiSusan rolandMelody) \new Staff = "vo1" \voOnePart
-    \tag #'(midiSusan rolandMelody) \new Staff = "vo2text" \midivoTwoText
-    \tag #'(midiSusan rolandMelody) \new Staff = "vo2" \voTwoPart
-    \tag #'(midiOne rolandBackTwo) \new Staff = "key1text" \midikeyOneText
-    \tag #'(midiOne rolandBackTwo) \new Staff = "key1" \keyOnePart
-    \tag #'(midiOne rolandBackTwo) \new Staff = "key2text" \midikeyTwoText
-    \tag #'(midiOne rolandBackTwo) \new Staff = "key2" \keyTwoPart
-    \tag #'(midiOne rolandBackTwo) \new Staff = "key3text" \midikeyThreeText
-    \tag #'(midiOne rolandBackTwo) \new Staff = "key3" \keyThreePart
-    \tag #'(midiOne rolandBackTwo) \new Staff = "key4text" \midikeyFourText
-    \tag #'(midiOne rolandBackTwo) \new Staff = "key4" \keyFourPart
-    \tag #'(midiOne rolandBackTwo) \new Staff = "key5text" \midikeyFiveText
-    \tag #'(midiOne rolandBackTwo) \new Staff = "key5" \keyFivePart
-    \tag #'(midiPeter rolandBackOne) \new Staff = "eg1text" \midiegOneText
-    \tag #'(midiPeter rolandBackOne) \new Staff = "eg1" \egOnePart
-    \tag #'(midiPeter rolandBackOne) \new Staff = "eg2text" \midiegTwoText
-    \tag #'(midiPeter rolandBackOne) \new Staff = "eg2" \egTwoPart
-    \tag #'(midiPeter rolandBackOne) \new Staff = "eg4text" \midiegFourText
-    \tag #'(midiPeter rolandBackOne) \new Staff = "eg4" \egFourPart
-    \tag #'(midiPeter rolandBackOne) \new Staff = "eg5text" \midiegFiveText
-    \tag #'(midiPeter rolandBackOne) \new Staff = "eg5" \egFivePart
-    \tag #'(midiSusan rolandMelody) \new Staff \with {
+    \tag #'(midiSusan) \new Staff = "vo1text" \midivoOneText
+    \tag #'(midiSusan) \new Staff = "vo1" \voOnePart
+    \tag #'(midiSusan) \new Staff = "vo2text" \midivoTwoText
+    \tag #'(midiSusan) \new Staff = "vo2" \voTwoPart
+    \tag #'(midiOne) \new Staff = "key1text" \midikeyOneText
+    \tag #'(midiOne) \new Staff = "key1" \keyOnePart
+    \tag #'(midiOne) \new Staff = "key2text" \midikeyTwoText
+    \tag #'(midiOne) \new Staff = "key2" \keyTwoPart
+    \tag #'(midiOne) \new Staff = "key3text" \midikeyThreeText
+    \tag #'(midiOne) \new Staff = "key3" \keyThreePart
+    \tag #'(midiOne) \new Staff = "key4text" \midikeyFourText
+    \tag #'(midiOne) \new Staff = "key4" \keyFourPart
+    \tag #'(midiOne) \new Staff = "key5text" \midikeyFiveText
+    \tag #'(midiOne) \new Staff = "key5" \keyFivePart
+    \tag #'(midiPeter) \new Staff = "eg1text" \midiegOneText
+    \tag #'(midiPeter) \new Staff = "eg1" \egOnePart
+    \tag #'(midiPeter) \new Staff = "eg2text" \midiegTwoText
+    \tag #'(midiPeter) \new Staff = "eg2" \egTwoPart
+    \tag #'(midiPeter) \new Staff = "eg4text" \midiegFourText
+    \tag #'(midiPeter) \new Staff = "eg4" \egFourPart
+    \tag #'(midiPeter) \new Staff = "eg5text" \midiegFiveText
+    \tag #'(midiPeter) \new Staff = "eg5" \egFivePart
+    \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"choir aahs"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \choOnePart
-    \tag #'(midiTwo rolandBass) \new Staff \with {
+    \tag #'(midiTwo) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.7
@@ -331,16 +331,16 @@ midimusic = <<
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.8
     } \percTwoPart
-    \tag #'(midiGg rolandDrums) \new Staff = "drstext" \mididrsText
-    \tag #'(midiGg rolandDrums) \new DrumStaff = "drs" \with {
+    \tag #'(midiGg) \new Staff = "drstext" \mididrsText
+    \tag #'(midiGg) \new DrumStaff = "drs" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
-    \tag #'(midiTwo rolandPerc) \new Staff = "perc1text" \midipercOneText
-    \tag #'(midiTwo rolandPerc) \new DrumStaff = "perc1" \with {
+    \tag #'(midiTwo) \new Staff = "perc1text" \midipercOneText
+    \tag #'(midiTwo) \new DrumStaff = "perc1" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \percOnePart
-    \tag #'(midiTwo rolandPerc) \new Staff = "setext" \midiseText
-    \tag #'(midiTwo rolandPerc) \new DrumStaff = "se" \with {
+    \tag #'(midiTwo) \new Staff = "setext" \midiseText
+    \tag #'(midiTwo) \new DrumStaff = "se" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \sePart
 >>

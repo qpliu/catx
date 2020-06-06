@@ -7,27 +7,7 @@
     composer = "Tom Petty"
 }
 
-\paper {
-%    system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
-}
-
-#(set-global-staff-size 14)
-#(set-default-paper-size "letter" 'portrait)
-
-drumPitchNames.slash = #'slash
-
-#(define myDrumStyleTable '(
-    (slash          slash    #f          6)
-    (ridecymbal     cross    #f          5)
-    (crashcymbal    cross    #f          6)
-    (openhihat      harmonic #f          4)
-    (hihat          cross    #f          4)
-    (snare          default  #f          1)
-    (hightom        default  #f          1)
-    (lowmidtom      default  #f          0)
-    (lowtom         default  #f          -1)
-    (bassdrum       default  #f          -3)
-))
+#(set-global-staff-size 20)
 
 \include "markup"
 \include "drs"
@@ -36,6 +16,8 @@ drumPitchNames.slash = #'slash
 \include "vo"
 \include "lyrics"
 
+voAligner = \new NullVoice = "vo" \voPart
+
 layoutmusic = <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vocals" }
@@ -43,6 +25,7 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\voPart
+	\voAligner
 	\voLyrics
     >>
     \tag #'(allPart peterPart) \new Staff \with {
@@ -69,7 +52,7 @@ layoutmusic = <<
 	\markupStuff
 	\bassPart
     >>
-    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
+    \tag #'(allPart kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
@@ -77,26 +60,36 @@ layoutmusic = <<
 	\markupStuff
 	\drsPart
     >>
+    \tag #'(ggPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drsPart
+	\voAligner
+	\voLyrics
+    >>
 >>
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiSusan rolandMelody) \new Staff \with {
+    \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \voPart
-    \tag #'(midiPeter rolandBackOne) \new Staff \with {
+    \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \egOnePart
-    \tag #'(midiOne rolandBass) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \bassPart
-    \tag #'(midiGg rolandDrums) \new DrumStaff \with {
+    \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
 >>

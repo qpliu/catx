@@ -7,13 +7,7 @@
     title = "ムーンライト伝説"
 }
 
-\paper {
-    system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
-}
-
-#(set-global-staff-size 18)
-% IF gg #(set-global-staff-size 19)
-#(set-default-paper-size "letter" 'portrait)
+#(set-global-staff-size 20)
 
 #(define myDrumStyleTable '(
     (ridecymbal     cross    #f          5)
@@ -95,20 +89,20 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiSusan rolandMelody) \new Staff \with {
+    \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \voPart
-    \tag #'(midiOne rolandBass) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
 	midiMinimumVolume = #1
 	midiMaximumVolume = #1
     } \bassPart
-    \tag #'(midiOne rolandBackTwo) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"fx 5 (brightness)"
     } \pianoPart
-    \tag #'(midiPeter rolandBackOne) \new Staff = "egtext" \midiegText
-    \tag #'(midiPeter rolandBackOne) \new Staff = "eg" \egPart
-    \tag #'(midiGg rolandDrums) \new DrumStaff \with {
+    \tag #'(midiPeter) \new Staff = "egtext" \midiegText
+    \tag #'(midiPeter) \new Staff = "eg" \egPart
+    \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \simpledrsPart
 >>

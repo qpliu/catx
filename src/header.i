@@ -142,8 +142,10 @@ drumPitchNames.alla = #'alla
 midiDrumPitches.alla = a'''' % 105
 
 drumPitchNames.cymcgreen = #'crashcymbal
+drumPitchNames.slash = #'slash
 
 #(define myDrumStyleTable '(
+    (slash          slash    #f          6)
     (crashcymbal    cross    #f          6)
     (ridecymbal     cross    #f          5)
     (openhihat      cross    "open"      4)

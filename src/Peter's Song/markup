@@ -1,13 +1,13 @@
 markupStuff = {
     \override Score.RehearsalMark.self-alignment-X = #LEFT
     \tempo 4 = 110
-    s1 s1 s1 s1 \break s1 s1 s1 s1 \break
-    s1 s1 s1 s1 \break s1 s1 s1 s1 \break
+    s1 s1 s1 s1 s1 s1 s1 s1
+    s1 s1 s1 s1 s1 s1 s1 s1
     s1
     s1 s1 s1 s1 s1 s1 s1 s1
-    s1 \break
-    s1 s1 s1 s1 \break s1 s1 s1 s1 \break
-    s1 s1 s1 s1 \break s1 s1 s1 s1 \break
+    s1
+    s1 s1 s1 s1 s1 s1 s1 s1
+    s1 s1 s1 s1 s1 s1 s1 s1
     s1
     \bar "|."
 }

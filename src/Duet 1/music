@@ -1,7 +1,3 @@
-% drs1 drs2
-% system1
-% midi
-% roland
 % PARTS midi
 
 \header {
@@ -39,12 +35,12 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiGg rolandDrums) \new DrumStaff \with {
+    \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \drsOnePart
-    \tag #'(midiOne rolandPerc) \new DrumStaff \with {
+    \tag #'(midiOne) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1

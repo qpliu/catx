@@ -4,17 +4,7 @@
     title = "Peter's Song"
 }
 
-\paper {
-%    system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
-}
-
-%#(set! paper-alist (cons '("my size" . (cons (* 6 in) (* 11 in))) paper-alist))
-
-%#(set-global-staff-size 24)
-%#(set-default-paper-size "my size" 'landscape)
-
-%#(set-global-staff-size 20)
-%#(set-default-paper-size "letter" 'portrait)
+#(set-global-staff-size 20)
 
 #(define myDrumStyleTable '(
     (ridecymbal     cross    #f          5)
@@ -40,7 +30,7 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiGg rolandDrums) \new DrumStaff \with {
+    \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
 >>

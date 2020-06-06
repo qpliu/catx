@@ -1,7 +1,3 @@
-% drs vo
-% system1 chorus
-% midi
-% roland
 % PARTS midi
 
 \header {
@@ -9,12 +5,7 @@
     composer = "R.E.M."
 }
 
-\paper {
-%    system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
-}
-
-#(set-global-staff-size 18)
-#(set-default-paper-size "letter" 'portrait)
+#(set-global-staff-size 20)
 
 #(define myDrumStyleTable '(
     (ridecymbal     cross    #f          5)
@@ -57,10 +48,10 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiSusan rolandMelody) \new Staff \with {
+    \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \voPart
-    \tag #'(midiGg rolandDrums) \new DrumStaff \with {
+    \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
 >>

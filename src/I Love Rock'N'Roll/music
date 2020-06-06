@@ -7,47 +7,46 @@
     composer = "Joan Jett & the Blackhearts"
 }
 
-\paper {
-%    system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
-}
-
 #(set-global-staff-size 20)
-#(set-default-paper-size "letter" 'portrait)
 
 \include "markup"
 \include "drs"
 \include "vo"
 \include "lyrics"
-\include "chorus"
-\include "choruslyrics"
+
+voAligner = \new NullVoice = "vo" \voPart
 
 layoutmusic = <<
     \tag #'(allPart kavPart susanPart) \new Staff <<
 	\markupStuff
 	\voPart
+	\voAligner
 	\voLyrics
     >>
-    \tag #'(ggPart) \new Staff \with { \RemoveEmptyStaves } <<
-	\markupStuff
-	\chorusPart
-	\chorusLyrics
-    >>
-    \tag #'(allPart kavPart ggPart) \new DrumStaff \with {
+    \tag #'(allPart kavPart) \new DrumStaff \with {
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\drsPart
     >>
+    \tag #'(ggPart) \new DrumStaff \with {
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drsPart
+	\voAligner
+	\voLyrics
+    >>
 >>
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiSusan rolandMelody) \new Staff \with {
+    \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \voPart
-    \tag #'(midiGg rolandDrums) \new DrumStaff \with {
+    \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
 >>

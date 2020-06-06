@@ -7,12 +7,7 @@
     title = "Just Like Heaven"
 }
 
-\paper {
-%    system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))
-}
-
-#(set-global-staff-size 16)
-#(set-default-paper-size "letter" 'portrait)
+#(set-global-staff-size 20)
 
 \include "markup"
 \include "drs"
@@ -25,6 +20,8 @@
 \include "bass"
 \include "lyrics"
 
+voAligner = \new NullVoice = "vo" \voPart
+
 layoutmusic = <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vocals" }
@@ -33,6 +30,7 @@ layoutmusic = <<
 	\markupStuff
 	\steelpanPart
 	\voPart
+	\voAligner
 	\voLyrics
     >>
     \tag #'(allPart) \new Staff \with {
@@ -85,7 +83,7 @@ layoutmusic = <<
 	\markupStuff
 	\bassPart
     >>
-    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
+    \tag #'(allPart kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
@@ -93,39 +91,49 @@ layoutmusic = <<
 	\markupStuff
 	\drsPart
     >>
+    \tag #'(ggPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drsPart
+	\voAligner
+	\voLyrics
+    >>
 >>
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiGg rolandDrums) \new DrumStaff \with {
+    \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
-    \tag #'(midiSusan rolandMelody) \new Staff \with {
+    \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \voPart
-    \tag #'(midiOne rolandBackTwo) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"synthstrings 1"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \synthPart
-    \tag #'(midiSusan rolandMelody) \new Staff \with {
+    \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"electric grand"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \pianoPart
-    \tag #'(midiOne rolandBass) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \bassPart
-    \tag #'(midiPeter rolandBackOne) \new Staff \with {
+    \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"overdriven guitar"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \egOnePart
-    \tag #'(midiPeter rolandBackOne) \new Staff \with {
+    \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1

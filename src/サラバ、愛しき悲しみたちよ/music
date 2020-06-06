@@ -106,28 +106,28 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiSusan rolandMelody) \new Staff = "vocaltext" \midivocalText
-    \tag #'(midiSusan rolandMelody) \new Staff = "vocal" \vocalPart
-    \tag #'(midiSusan rolandMelody) \new Staff \with {
+    \tag #'(midiSusan) \new Staff = "vocaltext" \midivocalText
+    \tag #'(midiSusan) \new Staff = "vocal" \vocalPart
+    \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"choir aahs"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \harmonyPart
-    \tag #'(midiPeter rolandBackOne) \new Staff = "guitar1text" \midiguitarOneText
-    \tag #'(midiPeter rolandBackOne) \new Staff = "guitar1" \guitarOnePart
-    \tag #'(midiPeter rolandBackOne) \new Staff = "guitar2text" \midiguitarTwoText
-    \tag #'(midiPeter rolandBackOne) \new Staff = "guitar2" \guitarTwoPart
-    \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard1text" \midikeyboardOneText
-    \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard1" \keyboardOnePart
-    \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard2text" \midikeyboardTwoText
-    \tag #'(midiOne rolandBackTwo) \new Staff = "keyboard2" \keyboardTwoPart
-    \tag #'(midiOne rolandBass) \new Staff \with {
+    \tag #'(midiPeter) \new Staff = "guitar1text" \midiguitarOneText
+    \tag #'(midiPeter) \new Staff = "guitar1" \guitarOnePart
+    \tag #'(midiPeter) \new Staff = "guitar2text" \midiguitarTwoText
+    \tag #'(midiPeter) \new Staff = "guitar2" \guitarTwoPart
+    \tag #'(midiOne) \new Staff = "keyboard1text" \midikeyboardOneText
+    \tag #'(midiOne) \new Staff = "keyboard1" \keyboardOnePart
+    \tag #'(midiOne) \new Staff = "keyboard2text" \midikeyboardTwoText
+    \tag #'(midiOne) \new Staff = "keyboard2" \keyboardTwoPart
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.6
     } \bassPart
-    \tag #'(midiGg rolandDrums) \new Staff = "drumstext" \mididrumsText
-    \tag #'(midiGg rolandDrums) \new DrumStaff = "drums" \with {
+    \tag #'(midiGg) \new Staff = "drumstext" \mididrumsText
+    \tag #'(midiGg) \new DrumStaff = "drums" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drumsPart
 >>

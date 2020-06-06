@@ -3,35 +3,35 @@ markupStuff = {
     \tempo 4 = 160
     \key g \major
     \mark "Intro"
-    s1 s1 s1 s1 \break |
-    s1 s1 s1 s1 \break |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
     \mark "Verse 1"
     \bar "||"
-    s1 s1 s1 s1 \break |
-    s1 s1 s1 s1 \break |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
     \mark "Chorus 1"
     \repeat volta 2 {
-	s1 s1 s1 s1 \break |
+	s1 s1 s1 s1 |
     }
     \mark "Verse 2"
-    s1 s1 s1 s1 \break |
-    s1 s1 s1 s1 \break |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
     \mark "Chorus 2"
     \repeat volta 2 {
-	s1 s1 s1 s1 \break |
+	s1 s1 s1 s1 |
     }
     \mark "Verse 3"
-    s1 s1 s1 s1 \break |
-    s1 s1 s1 s1 \break |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
     \mark "Chorus 3"
     \repeat volta 2 {
-	s1 s1 s1 s1 \break |
-	s1 s1 s1 s1 \break |
+	s1 s1 s1 s1 |
+	s1 s1 s1 s1 |
     }
     \mark "Guitar Solo"
     \repeat volta 2 {
-	s1 s1 s1 s1 \break |
-	s1 s1 s1 s1 \break |
+	s1 s1 s1 s1 |
+	s1 s1 s1 s1 |
     }
     s1 s1 |
     \bar "|."
