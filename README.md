@@ -2,7 +2,8 @@
 Catx's music and web site.
 
 PDF and MIDI files are in [bin](bin).
-Lilypond source files are in [src](src).
+Lilypond source is in [src](src).
+Web site is in [html/catx.band](html/catx.band).
 
 ### Building PDF and MIDI files the easy way
 
