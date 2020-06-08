@@ -20,7 +20,7 @@ Build scripts have references to /share/music embedded all over the place.  You 
 Try something like this
 
 ```
-sudo apt install lilypond bash python default-jdk timidity ffmpeg
+sudo apt install lilypond bash python openjdk-11-jdk timidity ffmpeg
 cd src
 for a in src/build1 src/buildBin
 do
@@ -33,3 +33,4 @@ done
 ### Here is a cat
 
 ![catx cat](http://catx.band/catx.jpg)
+
