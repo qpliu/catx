@@ -104,6 +104,8 @@ midimusic = <<
     } \egPart
     \tag #'(midiTwo) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
+	midiMinimumVolume = #1
+	midiMaximumVolume = #1
     } \egTwoPart
     \tag #'(midiCue) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
