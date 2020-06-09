@@ -2,13 +2,14 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     \override Score.RehearsalMark.self-alignment-X = #LEFT
     \context DrumVoice = "drsa" \voiceOne
     \context DrumVoice = "drsb" \voiceTwo
-    \compressFullBarRests
+% IF gg \compressFullBarRests
     \tempo 4 = 120
 \mymark "Intro" #1
     R1*8 |
 \mymark "Verse 1" #9
-    R1*15 |
-    r4_"1" r_"2" r_"3" <sn sn> |
+    R1*14 |
+    r4_"1" r_"2" r_"3" r_"4" |
+    r2. <sn sn>4 |
 \mymark "Chorus 1" #25
     << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
@@ -28,10 +29,11 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh8 hh <hh sn> hh hh hh sn16 sn sn8 | } \context DrumVoice = "drsb" { bd2 bd | } >>
 \mymark "Interlude" #41
     << { cymc1 | } \context DrumVoice = "drsb" { bd1 | } >>
-    R1*7 |
+    R1*7^\markup \with-color #red "Turn Page" |
 \mymark "Verse 2" #49
-    R1*14 |
+    R1*13 |
     r4_"1" r_"2" r_"3" r_"4" |
+    r1 |
     r4 bd sn16 sn sn8 sn16 sn sn8 |
 \mymark "Chorus 2" #65
     << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
@@ -61,8 +63,9 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh8 hh <hh sn> hh hh hh sn16 sn sn8 | } \context DrumVoice = "drsb" { bd2 bd | } >>
 \mymark "Interlude" #89
     << { cymc1 | } \context DrumVoice = "drsb" { bd1 | } >>
-    R1*6 |
+    R1*5^\markup \with-color #red "Turn Page" |
     r4_"1" r_"2" r_"3" r_"4" |
+    r1 |
 \mymark "Prechorus" #97
     << { hho8 hh hh hh hh hh hh hh | } \context DrumVoice = "drsb" { bd2 r4. bd8 | } >>
     << { hho8 hh hh hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 r4. bd8 | } >>

@@ -21,7 +21,7 @@
 \include "lyrics2"
 
 voAligner = \new NullVoice = "vo" \voPart
-voTwoAligner = \new NullVoice = "vo2" \voPart
+voTwoAligner = \new NullVoice = "vo2" \voTwoPart
 
 layoutmusic = <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
@@ -66,12 +66,25 @@ layoutmusic = <<
 	\markupStuff
 	\bassPart
     >>
-    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
+    \tag #'(allPart kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
+	\markupStuff
 	\drsPart
+    >>
+    \tag #'(ggPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drsPart
+	\voAligner
+	\voLyrics
+	\voTwoAligner
+	\voTwoLyrics
     >>
 >>
 

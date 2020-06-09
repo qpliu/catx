@@ -2,18 +2,18 @@ voPart =
 \relative c''
 {
 \mymark "Intro" #1
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    R1*8 |
 \mymark "Verse 1" #9
     r4 b b8 b4 a8( |
     g4) g a8 b4 a8~( |
     a8 g4.) r4 bes,8 g'~ |
     g g g g g, bes(b) g~ |
-    g4 r4 r2 | s1 s1 s1 |
+    g4 r4 r2 | R1*3 |
     r4 b' b8 b4 a8( |
     g4) g a8 b4 a8~( |
     a g4.) r4 bes,8 g'~ |
     g4 g8 g a, bes b g~ |
-    g4 r4 r2 | s1 s1 s1 |
+    g4 r4 r2 | R1*3 |
 \mymark "Chorus 1" #25
     r4 e'' g,8 g g4 |
     r4 f' g,8 g g4 |
@@ -23,21 +23,20 @@ voPart =
     r4 f' g,8 g g4 |
     r4 bes8 g bes4 g8 bes~ |
     bes bes bes4 bes8 b4 b8( |
-    g4) r4 r2 | s1 s1 s1 |
-    s1 s1 s1 s1 |
+    g4) r4 r2 | R1*7 |
 \mymark "Interlude" #41
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    R1*8 |
 \mymark "Verse 2" #49
     r4 b b8 b4 a8( |
     g4) g a8 b4 a8~( |
     a8 g4.) r4. g8~ |
     g4 g8 g g, bes(b) g~ |
-    g4 r4 r2 | s1 s1 s1 |
+    g4 r4 r2 | R1*3 |
     r4 b' b8 b4 a8( |
     g4) g a8 b4 a8~( |
     a g4.) r4. g8~ |
     g4 g8 g a, bes b g~ |
-    g4 r4 r2 | s1 s1 s1 |
+    g4 r4 r2 | R1*3 |
 \mymark "Chorus 2" #65
     r4 e'' g,8 g g4 |
     r4 f' g,8 g g4 |
@@ -56,11 +55,11 @@ voPart =
     r4 bes8 g bes4 g8 bes~ |
     bes bes bes4 bes8 b4 b8( |
 \mymark "Chorus Lead-out" #81
-    g4) r r2 s1 s1 s1 s1 s1 s1 s1 |
+    g4) r r2 R1*7 |
 \mymark "Interlude" #89
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    R1*8 |
 \mymark "Prechorus" #97
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    R1*8 |
 \mymark "Bridge" #105
     d'4 c8 b g4 bes8 c | d4   c8 b   g2 |
     d'4 c8 b g4 g8   g | bes4 bes    b2 |
@@ -87,7 +86,7 @@ voPart =
     r4 bes8 g bes4 g8 bes~ |
     bes bes bes4 bes8 b4 b8( |
 \mymark "Outro" #137
-    g4) r4 r2 | s1 s1 s1 |
+    g4) r4 r2 | R1*3 |
 \barNumberCheck #141
-    s1
+    R1
 }

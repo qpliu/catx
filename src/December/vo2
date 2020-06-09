@@ -2,30 +2,25 @@ voTwoPart =
 \relative c''
 {
 \mymark "Intro" #1
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    R1*8 |
 \mymark "Verse 1" #9
-    s1 s1 s1 s1 s1 s1 s1 s1 |
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    R1*16 |
 \mymark "Chorus 1" #25
-    s1 s1 s1 s1 s1 s1 s1 s1 |
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    R1*16 |
 \mymark "Interlude" #41
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    R1*8 |
 \mymark "Verse 2" #49
-    s1 s1 s1 s1 s1 s1 s1 s1 |
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    R1*16 |
 \mymark "Chorus 2" #65
-    s1 s1 s1 s1 s1 s1 s1 s1 |
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    R1*16 |
 \mymark "Chorus Lead-out" #81
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    R1*8 |
 \mymark "Interlude" #89
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    R1*8 |
 \mymark "Prechorus" #97
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    R1*8 |
 \mymark "Bridge" #105
-    s1 s1 s1 s1 s1 s1 s1 s1 |
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    R1*16 |
     d4  c8 b g4 bes8 c | d4   c8 b   g2 |
     d'4 c8 b g4 g8   g | bes4 bes    b2 |
     d4  c8 b g4 bes8 c | d4   c8 b   g2 |
@@ -35,7 +30,7 @@ voTwoPart =
     d4  c8 b g4 bes8 c | d4   c8 b   g2 |
     d'4 c8 b g4 g      | bes4 bes8 g b2 |
 \mymark "Outro" #137
-    s1 s1 s1 s1 |
+    R1*4 |
 \barNumberCheck #141
-    s1
+    R1
 }
