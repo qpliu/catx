@@ -75,8 +75,6 @@ layoutmusic = <<
 	\drsPart
     >>
     \tag #'(ggPart) \new DrumStaff \with {
-	instrumentName = \markup { \rotate #90 "Drums" }
-	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff

@@ -9,18 +9,6 @@
 
 drumPitchNames.tomm = #'himidtom
 
-#(define myDrumStyleTable '(
-    (crashcymbal    cross    #f          7)
-    (hihat          cross    #f          5)
-    (openhihat      cross    "open"      5)
-    (closedhihat    cross    "stopped"   5)
-    (hightom        default  #f          3)
-    (himidtom       default  #f          2)
-    (snare          default  #f          1)
-    (lowtom         default  #f          -1)
-    (bassdrum       default  #f          -3)
-))
-
 mc = \colorLyrics #(rgb-color .5 .5 .5)
 
 \include "markup"

@@ -7,23 +7,6 @@
 
 #(set-global-staff-size 20)
 
-drumPitchNames.hx = #'hx
-midiDrumPitches.hx = fis
-
-#(define myDrumStyleTable '(
-    (ridecymbal     cross    #f          7)
-    (crashcymbal    cross    #f          6)
-    (hihat          cross    #f          5)
-    (openhihat      cross    "open"      5)
-    (closedhihat    cross    "stopped"   5)
-    (hx             cross    "halfopen"  5)
-    (hightom        default  #f          3)
-    (himidtom       default  #f          2)
-    (snare          default  #f          1)
-    (lowtom         default  #f          0)
-    (bassdrum       default  #f          -4)
-))
-
 \include "markup"
 \include "drs"
 

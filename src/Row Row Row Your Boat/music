@@ -6,18 +6,6 @@
 
 #(set-global-staff-size 20)
 
-#(define myDrumStyleTable '(
-    (ridecymbal     cross    #f          5)
-    (crashcymbal    cross    #f          6)
-    (openhihat      cross    "open"      4)
-    (hihat          cross    #f          4)
-    (snare          default  #f          1)
-    (hightom        default  #f          2)
-    (lowmidtom      default  #f          0)
-    (lowtom         default  #f          -1)
-    (bassdrum       default  #f          -3)
-))
-
 \include "markup"
 \include "drs"
 \include "vo"
