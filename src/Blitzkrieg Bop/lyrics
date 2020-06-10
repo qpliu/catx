@@ -1,4 +1,4 @@
-voLyrics = \new Lyrics = "lyricsa" \lyricsto "vo" \new Lyrics = "lyricsb" \lyricsto "vo" \context Lyrics = "lyricsa" \lyricmode {
+voLyrics = \new Lyrics \lyricsto "vo" {
     Hey ho, let's go
     Hey ho, let's go
     Hey ho, let's go

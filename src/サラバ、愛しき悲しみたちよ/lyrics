@@ -1,4 +1,4 @@
-vocalLyrics = \new Lyrics = "lyricsa" \lyricsto "vocal" \new Lyrics = "lyricsb" \lyricsto "vocal" \new Lyrics = "lyricsc" \lyricsto "vocal" \new Lyrics = "lyricsd" \lyricsto "vocal" \context Lyrics = "lyricsa" \lyricmode {
+vocalLyrics = \new Lyrics \lyricsto "vocal" {
 % page 108.1 A
     \kanako I ku no?
     \momoka i ka nai no?

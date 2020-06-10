@@ -1,4 +1,4 @@
-voLyrics = \new Lyrics = "lyricsa" \lyricsto "vo" \new Lyrics = "lyricsb" \lyricsto "vo" \context Lyrics = "lyricsa" \lyricmode {
+voLyrics = \new Lyrics \lyricsto "vo" {
 % page 2
     E ga o ga to ma ra na i! O do ru ko ko ro to ma
 % page 3

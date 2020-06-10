@@ -1,4 +1,4 @@
-voTwoLyrics = \new Lyrics = "lyrics2" \lyricmode {
+voTwoLyrics = \new Lyrics \lyricmode {
 % page 2
     \skip1 |
     \black Yes!4 Yes! We’re4. the8 |

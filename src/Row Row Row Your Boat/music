@@ -11,10 +11,13 @@
 \include "vo"
 \include "lyrics"
 
+voAligner = \new NullVoice = "vo" \voPart
+
 layoutmusic = <<
     \tag #'(systemOnePart voPart) \new Staff <<
 	\markupStuff
 	\voPart
+	\voAligner
 	\voLyrics
     >>
     \tag #'(systemOnePart drsPart) \new DrumStaff \with {
@@ -33,4 +36,8 @@ midimusic = <<
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
+    \tag #'(midiKaraoke) <<
+	\voAligner
+	\voLyrics
+    >>
 >>

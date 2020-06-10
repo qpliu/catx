@@ -23,6 +23,8 @@
 \include "egtext_midi"
 \include "piano"
 
+voAligner = \new NullVoice = "vo" \voPart
+
 layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vocals" }
@@ -30,6 +32,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\voPart
+	\voAligner
 	\voLyrics
 	\steelpanPart
     >>
@@ -65,13 +68,21 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\bassPart
     >>
-    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
+    \tag #'(allPart kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\simpledrsPart
+    >>
+    \tag #'(ggPart) \new DrumStaff \with {
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\simpledrsPart
+	\voAligner
+	\voLyrics
     >>
 >>
 
@@ -93,4 +104,8 @@ midimusic = <<
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \simpledrsPart
+    \tag #'(midiKaraoke) <<
+	\voAligner
+	\voLyrics
+    >>
 >>

@@ -1,4 +1,4 @@
-voLyrics = \new Lyrics = "lyricsa" \lyricsto "vo" \new Lyrics = "lyricsb" \lyricsto "vo" \context Lyrics = "lyricsa" \lyricmode {
+voLyrics = \new Lyrics = "lyricsa" \lyricsto "vo" { \new Lyrics = "lyricsb" \lyricsto "vo" { \context Lyrics = "lyricsa" {
     << { Some -- one told me long a -- go } \context Lyrics = "lyricsb" { Yes -- ter -- day, and days be -- fore, } >>
     << { There's a calm be -- fore the storm. I know, } \context Lyrics = "lyricsb" { Sun is cold and rain is hard. I know, } >>
     << { and it's been com -- in' for some time } \context Lyrics = "lyricsb" { - been that way for all my time. } >>
@@ -11,4 +11,4 @@ voLyrics = \new Lyrics = "lyricsa" \lyricsto "vo" \new Lyrics = "lyricsb" \lyric
     I want to know, have you ev -- er seen the rain?
     I want to know, have you ev -- er seen the rain
     com -- in' down on a sun -- ny day?
-}    
+} } }

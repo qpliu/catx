@@ -80,8 +80,7 @@ final class MergeMidi{
 			measure *= nn/numerator;
 			denominator = nn/n<<((TimeSignatureEvent)me).getLogDenominator();
 			numerator = nn;
-		    }else
-			throw new RuntimeException();
+		    }
 		}
 	    }
 	}
@@ -217,18 +216,23 @@ final class MergeMidi{
 	    this.data = data.clone();
 	}
     }
-    private class TempoEvent extends MetaEvent{
-	TempoEvent(long time,String id,int outTrackIndex,int what,byte[]data){
+    private class LyricEvent extends MetaEvent{
+	LyricEvent(long time,String id,int outTrackIndex,int what,byte[]data){
 	    super(time,id,outTrackIndex,what,data);
-//	    System.err.println("Tempo="+60e6/getMicrosecondsPerQuarterNote()+" time="+time);
+//System.err.println("measure="+(1+time/(384*4))+" beat="+(1+time%(384*4)/384)+" div="+time%384+" lyric="+new String(data));
+	}
+    }
+    private class TempoEvent extends MetaEvent{
+	TempoEvent(long time,String id,int what,byte[]data){
+	    super(time,id,-1,what,data);
 	}
 	int getMicrosecondsPerQuarterNote(){
 	    return (data[0]&255)<<16|(data[1]&255)<<8|data[2]&255;
 	}
     }
     private class TimeSignatureEvent extends MetaEvent{
-	TimeSignatureEvent(long time,String id,int outTrackIndex,int what,byte[]data){
-	    super(time,id,outTrackIndex,what,data);
+	TimeSignatureEvent(long time,String id,int what,byte[]data){
+	    super(time,id,-1,what,data);
 	}
 	int getNumerator(){
 	    return data[0]&255;
@@ -276,6 +280,7 @@ final class MergeMidi{
 	private final long[]keyTime=new long[128];
 	private final int[]keyVelocity=new int[128];
 	private Map<Integer,String>textMap;
+	private int lyricEventTimeFudge=0;
 	TrackReader(DataInputStream dis,String id,int outTrackIndex){
 	    this.dis = dis;
 	    this.id = id;
@@ -317,7 +322,9 @@ final class MergeMidi{
 	    }else if (what==4){
 //		System.err.println("instrument name="+new String(data));
 	    }else if (what==5){
-		System.err.println("lyric="+new String(data));
+		metaEvents.add(new LyricEvent(time+lyricEventTimeFudge,id,outTrackIndex,what,data));
+// WTF?  Lilypond adds an extra 1/8th beat after each Lyric meta event?
+		lyricEventTimeFudge -= DIVISION/8;
 	    }else if (what==6){
 		System.err.println("marker="+new String(data));
 	    }else if (what==7){
@@ -327,11 +334,11 @@ final class MergeMidi{
 	    }else if (what==0x2f)
 		return true;
 	    else if (what==0x51)
-		metaEvents.add(new TempoEvent(time,id,outTrackIndex,what,data));
+		metaEvents.add(new TempoEvent(time,id,what,data));
 	    else if (what==0x54)
 		System.err.println("SMTPE Offset");
 	    else if (what==0x58)
-		metaEvents.add(new TimeSignatureEvent(time,id,outTrackIndex,what,data));
+		metaEvents.add(new TimeSignatureEvent(time,id,what,data));
 	    else if (what==0x59){
 //		System.err.println("Key Signature");
 	    }else if (what==0x7f)
@@ -586,7 +593,7 @@ final class MergeMidi{
 		    bytes[1] = me.data.length;
 		    for (int i=0; i<me.data.length; i++)
 			bytes[2+i] = me.data[i];
-		    outputEvents.add(new OutputEvent(me.time,-1,0xff,bytes));
+		    outputEvents.add(new OutputEvent(me.time,me.outTrackIndex,0xff,bytes));
 		}
 	    }
 	}

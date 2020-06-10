@@ -1,4 +1,4 @@
-voLyricsj = \new Lyrics = "lyricsj" \lyricsto "vo" \new Lyrics = "lyricsr" \lyricsto "vo" \new Lyrics = "lyricse" \lyricsto "vo" \context Lyrics = "lyricsj" \lyricmode {
+voLyricsj = \new Lyrics = "lyricsj" \lyricsto "vo" { \new Lyrics = "lyricsr" \lyricsto "vo" { \new Lyrics = "lyricse" \lyricsto "vo" { \context Lyrics = "lyricsj" \lyricmode {
     <<
 	\context Lyrics = "lyricsj" { ご めん ね す な お じゃ な く て }
 	\context Lyrics = "lyricsr" { Go men ne su na o ja na ku te }
@@ -159,4 +159,4 @@ voLyricsj = \new Lyrics = "lyricsj" \lyricsto "vo" \new Lyrics = "lyricsr" \lyri
 	\context Lyrics = "lyricsr" { Mi ra ku ru ro ma n su }
 	\context Lyrics = "lyricse" { She is the one named Sai -- lor Moon }
     >>
-}    
+} } } }

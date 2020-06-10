@@ -1,4 +1,4 @@
-voLyrics = \new Lyrics = "lyrics" \lyricsto "vo" \lyricmode {
+voLyrics = \new Lyrics \lyricsto "vo" {
 Don't want this dis -- ho -- nest Pre -- si -- dent
 More than twen -- ty thou -- sand false -- hoods are e -- vi -- dent
 Can we save our dy -- ing de -- mo -- cra -- cy

@@ -1,4 +1,4 @@
-voLyrics = \new Lyrics = "lyrics" \lyricsto "vo" \lyricmode {
+voLyrics = \new Lyrics \lyricsto "vo" {
 Show me, show me, show me how you do that trick
 The one that makes me scream, she said
 The one that makes me laugh, she said

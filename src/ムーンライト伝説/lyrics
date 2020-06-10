@@ -1,4 +1,4 @@
-voLyrics = \new Lyrics = "lyrics" \lyricsto "vo" \lyricmode {
+voLyrics = \new Lyrics \lyricsto "vo" {
 
 Why can't I tell you all of these feel -- ings
 It's so much ea -- si -- er when I'm dream -- ing

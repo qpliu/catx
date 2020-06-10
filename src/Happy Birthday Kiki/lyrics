@@ -1,4 +1,4 @@
-voLyrics = \new Lyrics = "lyrics" \lyricsto "vo" \lyricmode {
+voLyrics = \new Lyrics \lyricsto "vo" {
 Hap -- py birth -- day to you
 Hap -- py birth -- day to you
 Hap -- py birth -- day dear Ki -- ki

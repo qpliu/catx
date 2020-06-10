@@ -110,4 +110,8 @@ midimusic = <<
 	midiMinimumVolume = #1
 	midiMaximumVolume = #1
     } \cuePart
+    \tag #'(midiKaraoke) <<
+	\voAligner
+	\voLyrics
+    >>
 >>

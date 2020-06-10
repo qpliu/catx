@@ -1,4 +1,4 @@
-vocalLyrics = \new Lyrics = "lyricsa" \new Lyrics = "lyricsb" \new Lyrics = "lyricsc" \new Lyrics = "lyricsd" \context Lyrics = "lyricsa" \lyricmode {
+vocalLyrics = \new Lyrics \lyricmode {
 % page 10
     \barNumberCheck #1
     \mc Momoiro2 kuroobaa2 |

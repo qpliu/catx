@@ -1,4 +1,4 @@
-voTwoLyrics = \new Lyrics = "lyrics" \lyricsto "vo2" \lyricmode {
+voTwoLyrics = \new Lyrics \lyricsto "vo2" {
 De -- cem -- ber pro -- mise you gave un -- to me
 De -- cem -- ber whis -- pers of trea -- che -- ry
 De -- cem -- ber clouds are now co -- ver -- ing me

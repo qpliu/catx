@@ -136,4 +136,8 @@ midimusic = <<
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \egTwoPart
+    \tag #'(midiKaraoke) <<
+	\voAligner
+	\voLyrics
+    >>
 >>

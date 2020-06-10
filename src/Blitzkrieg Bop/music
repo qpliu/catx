@@ -16,6 +16,8 @@
 \include "bass"
 \include "lyrics"
 
+voAligner = \new NullVoice = "vo" \voPart
+
 layoutmusic = <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vocals" }
@@ -23,15 +25,24 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\voPart
+	\voAligner
 	\voLyrics
     >>
-    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
+    \tag #'(allPart kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\drsPart
+    >>
+    \tag #'(ggPart) \new DrumStaff \with {
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drsPart
+	\voAligner
+	\voLyrics
     >>
     \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Guitar" }
@@ -73,4 +84,8 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"distorted guitar" % 30
     } \egPart
+    \tag #'(midiKaraoke) <<
+	\voAligner
+	\voLyrics
+    >>
 >>

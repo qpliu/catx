@@ -1,4 +1,4 @@
-vocalLyrics = \new Lyrics = "lyricsa" \lyricsto "vocal" \new Lyrics = "lyricsb" \lyricsto "vocal" \new Lyrics = "lyricsc" \lyricsto "vocal" \new Lyrics = "lyricsd" \lyricsto "vocal" \context Lyrics = "lyricsa" \lyricmode {
+vocalLyrics = \new Lyrics = "lyricsa" \lyricsto "vocal" { \new Lyrics = "lyricsb" \lyricsto "vocal" { \new Lyrics = "lyricsc" \lyricsto "vocal" { \new Lyrics = "lyricsd" \lyricsto "vocal" { \context Lyrics = "lyricsa" {
 % page 82 A
     \black "3" ji no ho u ko u ni te ki ki ha k ken desuto roi
     o to me no i no
@@ -181,4 +181,4 @@ vocalLyrics = \new Lyrics = "lyricsa" \lyricsto "vocal" \new Lyrics = "lyricsb" 
     \black ha na za ka ri
 % page 105.1
     yu me mi ga chi o to me no i no ri 
-}    
+} } } } }

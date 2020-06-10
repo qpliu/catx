@@ -134,4 +134,8 @@ midimusic = <<
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"alto sax" % 65
     } \altosaxPart
+    \tag #'(midiKaraoke) <<
+	\voAligner
+	\voLyrics
+    >>
 >>
