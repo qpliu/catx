@@ -1,0 +1,15 @@
+bassPart = {
+% tuning e,, a,, d, g,
+% scale c des d ees e f fis g aes a bes b
+    s2. |
+    4-3t2. |
+    3-5t2. |
+    3-5t2. |
+    4-3t2. |
+    4-3t2. |
+    3-3t2.~ |
+    3-3t2. |
+    4-3t2. |
+    4-3t2. |
+\barNumberCheck #11
+}

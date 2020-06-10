@@ -1,0 +1,13 @@
+egPart = {
+% scale c cis d dis e f fis g gis a ais b
+    s2. |
+    6-3.5t8 t t t t t |
+    5-5.7t8 t t t t t |
+    5-5.7t8 t t t t t |
+    6-3.5t8 t t t t t |
+    6-3.5t8 t t t t t |
+    5-3.5t8 t t2~ |
+    5-3.5t2 s4 |
+    s2. s2.
+\mybarNumberCheck #11
+}

@@ -1,0 +1,15 @@
+voPart = \new Voice = "vo" {
+\relative c' {
+    s2 d8 d |
+    e4 d g |
+    fis2 d8 d |
+    e4 d a' |
+    g2 d8 d |
+    d'4 b g |
+    fis e2~ |
+    e2 c'8 c |
+    b4 g a |
+    g2. |
+\barNumberCheck #11
+}
+}
