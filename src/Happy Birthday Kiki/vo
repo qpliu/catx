@@ -1,4 +1,4 @@
-voPart = \new Voice = "vo" {
+voPart = {
 \relative c' {
     s2 d8 d |
     e4 d g |
