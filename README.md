@@ -22,7 +22,7 @@ Try something like this
 ```
 sudo apt install lilypond bash python openjdk-11-jdk timidity ffmpeg
 cd src
-for a in src/build1 src/buildBin
+for a in build1 buildBin
 do
 mv "$a" "$a-orig"
 sed <"$a-orig" >"$a" -e 's/^.*\/share\/music.*$/:/'
