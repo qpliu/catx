@@ -1,10 +1,38 @@
 karaokeLyrics = \new Lyrics \lyricmode {
 \mymark "Intro" #1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 |
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 |
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 |
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 |
-    \skip2 ">Show"8 "me," "show" "me," |
+    ">@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "Show"8 "me," "show" "me," |
 \mymark "Verse 1" #34
     "show"4 "me" "how" "you"8 "do"4
     "that"4 "trick."4. \skip8 ">The"8 |
@@ -21,11 +49,18 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "-way"4 "with"8 "you."2 \skip8 |
     \skip2 \skip8 ">I'll"8 "run" "a" |
     "-way"4 "with"8 "you."2 \skip8 |
-    \skip1 |
+    ">@"2 "@" |
 \mymark "Interlude" #50
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
 \mymark "Verse 2" #58
-    ">Spin"4 "-ning"8 "on"4 "that" "diz"4
+    "Spin"4 "-ning"8 "on"4 "that" "diz"4
     "-zy"4 "edge"4. \skip8 "Kissed"8 |
     "her"8 "face"4 "and" "kissed" "her"2
     "head."4. \skip8 ">Dreamed"4.
@@ -81,6 +116,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     \skip8 "lost"4 "and"8 "lone"4 "-ly" |
     "You,"1 |
     \skip8 "just"4 "like"8 "hea"4 "-ven."4 |
-    \skip1
+    \skip1 |
 \mybarNumberCheck #123
+    "@@"1
 }    

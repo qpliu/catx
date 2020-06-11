@@ -581,29 +581,24 @@ System.err.println("measure="+(1+time/(384*4))+" beat="+(1+time%(384*4)/384)+" d
 		    break;
 		}
 	}
-	void makeMetaEvents()throws IOException{
+	void makeMetaEvents(long[]maxTime)throws IOException{
 	    Collections.sort(metaEvents);
-	    Map<Integer,byte[]>metaMap=new HashMap<Integer,byte[]>();
 	    for (MetaEvent me:metaEvents){
-		byte[]old=metaMap.get(me.what);
-		if (old==null || !Arrays.equals(old,me.data)){
-		    metaMap.put(me.what,me.data);
-		    int[]bytes=new int[me.data.length+2];
-		    bytes[0] = me.what;
-		    bytes[1] = me.data.length;
-		    for (int i=0; i<me.data.length; i++)
-			bytes[2+i] = me.data[i];
-		    outputEvents.add(new OutputEvent(me.time,me.outTrackIndex,0xff,bytes));
-		}
+		int[]bytes=new int[me.data.length+2];
+		bytes[0] = me.what;
+		bytes[1] = me.data.length;
+		for (int i=0; i<me.data.length; i++)
+		    bytes[2+i] = me.data[i];
+		outputEvents.add(new OutputEvent(me.time,me.outTrackIndex,0xff,bytes));
+		maxTime[0] = Math.max(maxTime[0],me.time);
 	    }
 	}
-	void makeEvents()throws IOException{
+	void makeEvents(long[]maxTime)throws IOException{
 	    Collections.sort(events);
 	    for (int i=0; i<outputChannels.length; i++)
 		outputChannels[i] = new OutputChannel(i);
-	    long maxTime=0;
 	    for (Event e:events){
-		maxTime = Math.max(maxTime,e.time);
+		maxTime[0] = Math.max(maxTime[0],e.time);
 		if (e instanceof ProgramChangeEvent)
 		    idToProgram.put(e.id,((ProgramChangeEvent)e).program);
 		else if (e instanceof BendEvent){
@@ -611,7 +606,7 @@ System.err.println("measure="+(1+time/(384*4))+" beat="+(1+time%(384*4)/384)+" d
 		    sendToOc(e.id,e.time,e.outTrackIndex,0xe0,amount&127,amount>>7);
 		}else{
 		    NoteEvent note=(NoteEvent)e;
-		    maxTime = Math.max(maxTime,note.stop);
+		    maxTime[0] = Math.max(maxTime[0],note.stop);
 		    Map<String,TextEvent>temap=new HashMap<String,TextEvent>();
 		    List<TextEvent>tes=textEvents.get(note.trackName);
 		    if (tes!=null)
@@ -723,9 +718,8 @@ System.err.println("measure="+(1+time/(384*4))+" beat="+(1+time%(384*4)/384)+" d
 		    oc.addNote(program,note);
 		}
 	    }
-	    outputEvents.add(new OutputEvent(maxTime,-1,0xff,0x2f,0));
 	    try (PrintStream ps=new PrintStream(new FileOutputStream("measureToTime"))){
-		printMeasureToTime(ps,maxTime);
+		printMeasureToTime(ps,maxTime[0]);
 	    }
 	    System.err.println("WorstAge="+worstAge);
 	    for (TextEvent te:unused)
@@ -734,8 +728,10 @@ System.err.println("measure="+(1+time/(384*4))+" beat="+(1+time%(384*4)/384)+" d
     }
     private void makeOutputEvents()throws IOException{
 	OutputEventMaker oem=new OutputEventMaker();
-	oem.makeMetaEvents();
-	oem.makeEvents();
+	long[]maxTime=new long[1];
+	oem.makeMetaEvents(maxTime);
+	oem.makeEvents(maxTime);
+	outputEvents.add(new OutputEvent(maxTime[0],-1,0xff,0x2f,0));
     }
     private void output(DataOutputStream dos,int outTrackIndex)throws IOException{
 	Collections.sort(outputEvents);

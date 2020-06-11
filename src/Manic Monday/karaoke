@@ -1,21 +1,28 @@
 karaokeLyrics = \new Lyrics \lyricmode {
 \mymark "Intro" #1
-    \skip1 \skip1 \skip1 \skip1 \skip1 |
-    \skip1 \skip1 \skip1 \skip1 |
+    ">@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
+    "@"2 "@" |
 \mymark "Verse 1" #10
-    ">Six"8 "o'" "-clock" "al" "-rea" "-dy" "I" "was" |
+    "Six"8 "o'" "-clock" "al" "-rea" "-dy" "I" "was" |
     "just"4 "in"8 "the" "mid"16 "-dle"16 "of"8 "a" "dream." |
     \skip1 |
-    \skip2. ">I"8 "was" |
+    ">@"2. "I"8 "was" |
     "kiss"8 "-in'" "Va" "-len" "-ti" "-no" "by" "a" |
     "crys"8 "-tal" "blue" "I" "-ta" "-li" "-an" "stream." |
     \skip1 |
-    \skip2. ">But"8 "I" |
+    ">@"2. "But"8 "I" |
     "can't"4 "be"8 "late"4 "'Cause"8 "then" "I" |
     guess8 "I" "just"4 "won't"8 "get"4 "paid."8 |
     \skip1 |
-    \skip1 |
-    ">These"4 "are"8 "the" "days"4 "when"8 "you" |
+    ">@"2 "@" |
+    "These"4 "are"8 "the" "days"4 "when"8 "you" |
     "wish"8 "your" "bed" "was" "al" "-rea" "-dy" "made." |
     \skip2. \skip8 ">It's"8 |
 \mymark "Chorus 1" #25
@@ -33,16 +40,16 @@ karaokeLyrics = \new Lyrics \lyricmode {
     ">Have"8 "to" "catch" "an" "ear" "-ly" "train."4 |
     "Got"8 "to" "be" "to" "work" "by"4 "nine."8 |
     \skip1 |
-    \skip2. \skip8 ">And"8 |
+    ">@"2. \skip8 "And"8 |
     "if"8 "I" "had" "an" "ae" "-ro" "-plane" "I" |
     "still"4 "could"8 "-n't" "make" "it" "on" "time." |
     \skip1 |
-    \skip2. ">'Cause"8 "it" |
+    ">@"2. "'Cause"8 "it" |
     "takes"8 "me" "so"4 "long" "just"8 "to" |
     "fi"8 "-gure" "out" "what" "I'm" "gon" "-na" "wear." |
     \skip1 |
-    \skip1 |
-    ">Blame"8 "it" "on" "the" "train."4 "But"8 "the" |
+    ">@"1 |
+    "Blame"8 "it" "on" "the" "train."4 "But"8 "the" |
     "boss"8 "is" "al"4 "-rea"8 "-dy"4 "there."8 |
     \skip2. \skip8 ">It's"8 |
 \mymark "Chorus 2" #50
@@ -88,5 +95,6 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "fun"4 "day." \skip4. ">It's"8 |
     "just"8 "a" "-no" "-ther" "ma"4 "-nic" |
 \mybarNumberCheck #89
-    "Mon"4 "-day."
+    "Mon"4 "-day." \skip2 |
+    "@@"8
 }

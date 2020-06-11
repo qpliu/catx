@@ -7,14 +7,13 @@
 <div style=text-align:center;><span id=name style=font-size:300%;color:#0f0;background-color:#000;>Start playing a song with Aarin Robo to sing karaoke!</span></div>
 <div style=text-align:center;><span id=beat_counter style=font-size:400%;color:#000;background-color:#0f0;>1</span></div>
 <br>
+<span id=line1at style=display:inline-block;margin-top:10%;margin-left:5%;></span><span id=line1 style=display:inline-block;margin-top:10%;margin-left:5%;font-size:150%;></span>
 <br>
+<span id=line0at style=display:inline-block;margin-top:10%;margin-left:15%;></span><span id=line0 style=display:inline-block;margin-top:10%;margin-left:5%;font-size:150%;></span>
 <br>
-<span id=line1 style=margin-left:48px;font-size:150%;></span>
+<div style=text-align:right;><span id=lineatat style=display:inline-block;margin-top:10%;></span></div>
 <br>
-<br>
-<br>
-<span id=line2 style=margin-left:144px;font-size:150%;></span>
-<img style=position:absolute; id=ball src=../ball.png width=100 />
+<img style=position:absolute; id=ball src=../ball.png width=50 />
 <script>
     var DELAY=200;
     var HZ=30;
@@ -29,7 +28,8 @@
     var ball=document.getElementById("ball");
     var beat_counter=document.getElementById("beat_counter");
     var nname=document.getElementById("name");
-    var lines=[document.getElementById("line2"),document.getElementById("line1")];
+    var lines=[document.getElementById("line0"),document.getElementById("line1")];
+    var bounce_height=lines[0].getBoundingClientRect().top-lines[1].getBoundingClientRect().top;
     var which_line;
     var timeout=4;
     var send_ntp_count=0;
@@ -55,6 +55,7 @@
 		nname.innerHTML = json.name;
 		title.innerHTML = json.name;
 		karaoke = json.karaoke;
+		console.log(event.data.slice(1));
 	    }
 	    if (json.what=="start"){
 		start_time = json.time+ntp_offset;
@@ -62,9 +63,7 @@
 		next_line_start = 0;
 		beat_index = 0;
 		which_line = 0;
-		ball_x0 = 0;
-		ball_y0 = lines[0].getBoundingClientRect().top;
-		ball_t0 = start_time;
+		ball_x0 = undefined;
 		ball_x1 = undefined;
 		line_events = [];
 		lines[0].innerHTML = "";
@@ -97,28 +96,46 @@
 			    k = k.slice(1);
 			}
 			this_line_end = t;
-			if (k.slice(0,1)=="-")
-			    k = k.slice(1);
+			if (k=="@@"){
+			    line_events.push([t,"lineatat"]);
+			}else if (k!="@"){
+			    if (k.slice(0,1)=="-")
+				k = k.slice(1);
+			    else
+				k = " "+k;
+			    lines[which_line].innerHTML += "<slice id=id"+id_counter+" style=color:#000;>"+k+"</slice>";
+			    line_events.push([t,"id"+id_counter]);
+			    id_counter++;
+			}else if (which_line==0)
+			    line_events.push([t,"line0at"]);
 			else
-			    k = " "+k;
-			lines[which_line].innerHTML += "<slice id=id"+id_counter+" style=color:#000;>"+k+"</slice>";
-			line_events.push([t,"id"+id_counter]);
-			id_counter++;
+			    line_events.push([t,"line1at"]);
 		    }
 		    karaoke_index++;
 		}
 	    }
-	    if (ball_x1==undefined && line_events.length!=0){
-		ball_t1 = start_time+line_events[0][0];
-		var rect=document.getElementById(line_events[0][1]).getBoundingClientRect();
-		console.log("rect left="+rect.left+" right="+rect.right+" top="+rect.top);
-		ball_x1 = (rect.left+rect.right)/2;
-		ball_y1 = rect.top;
+	    if (line_events.length!=0){
+		if (ball_x0==undefined){
+		    ball_t0 = start_time;
+		    var rect=document.getElementById(line_events[0][1]).getBoundingClientRect();
+		    ball_x0 = 0;
+		    ball_y0 = rect.top;
+		}
+		if (ball_x1==undefined){
+		    ball_t1 = start_time+line_events[0][0];
+		    var rect=document.getElementById(line_events[0][1]).getBoundingClientRect();
+		    ball_x1 = (rect.left+rect.right)/2;
+		    ball_y1 = rect.top;
+		}
 	    }
 	    if (ball_x1!=undefined){
-		var t=(now-ball_t0)/(ball_t1-ball_t0);
-		ball.style.left = (ball_x0+t*(ball_x1-ball_x0))+"px";
-		ball.style.top = (ball_y0+t*(ball_y1-ball_y0))+"px";
+		var tt=ball_t1-ball_t0;
+		var t=(now-ball_t0)/tt;
+		var rect=ball.getBoundingClientRect();
+		ball.style.left = (ball_x0+t*(ball_x1-ball_x0)+(rect.left-rect.right)/2)+"px";
+		if (tt>2000)
+		    tt = 2000;
+		ball.style.top = (ball_y0+t*(ball_y1-ball_y0)-rect.bottom+rect.top-(1-4*(t-.5)*(t-.5))*bounce_height*tt/2000)+"px";
 	    }
 	    while (line_events.length!=0 && start_time+line_events[0][0]<now){
 		document.getElementById(line_events[0][1]).style.color = '#f00';
