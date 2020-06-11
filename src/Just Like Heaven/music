@@ -1,4 +1,4 @@
-% PARTS kav
+% PARTS gg
 % BIN midi all kav susan gg peter
 % ROBOT preview=33.3
 % ROBOT pickup_measures=1
@@ -8,6 +8,7 @@
 }
 
 #(set-global-staff-size 20)
+% IF gg #(set-global-staff-size 17)
 
 \include "markup"
 \include "drs"
@@ -81,20 +82,11 @@ layoutmusic = <<
 	\markupStuff
 	\bassPart
     >>
-    \tag #'(allPart kavPart) \new DrumStaff \with {
-	instrumentName = \markup { \rotate #90 "Drums" }
-	shortInstrumentName = \markup { \rotate #90 "Dr" }
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\drsPart
-    >>
-    \tag #'(ggPart) \new DrumStaff \with {
-	drumStyleTable = #(alist->hash-table myDrumStyleTable)
-    } <<
-	\markupStuff
-	\drsPart
-	\voLyrics
     >>
 >>
 
