@@ -33,7 +33,7 @@
     var send_ntp_count=0;
     var id_counter=0;
     var line_events;
-    var line_events_index;
+    var next_line_start;
     websocket.onopen = function(){
 	websocket.send("");
     };
@@ -55,10 +55,10 @@
 	    if (json.what=="start"){
 		start_time = json.time+ntp_offset;
 		karaoke_index = 0;
+		next_line_start = 0;
 		beat_index = 0;
 		which_line = 0;
 		line_events = [];
-		line_events_index = 0;
 		lines[0].innerHTML = "";
 		lines[1].innerHTML = "";
 		console.log("Got start "+start_time+" now="+now);
@@ -69,33 +69,41 @@
     }
     window.setInterval(function(){
 	if (start_time!=undefined){
-	    if (line_events_index==line_events.length){
-		line_events = [];
-		line_events_index = 0;
+	    var now=new Date().getTime();
+	    if (next_line_start<now){
 		which_line ^= 1;
 		lines[which_line].innerHTML = "";
+		var this_line_start;
+		var this_line_end;
 		while (karaoke_index<karaoke.length){
 		    k = karaoke[karaoke_index].k;
+		    t = karaoke[karaoke_index].t;
 		    if (k.slice(0,1)!="^"){
+			if (lines[which_line].innerHTML.length==0)
+			    this_line_start = t;
 			if (k.slice(0,1)==">"){
-			    if (line_events.length!=0)
+			    if (lines[which_line].innerHTML.length!=0){
+				next_line_start = start_time+(2*this_line_start+this_line_end)/3;
 				break;
+			    }
 			    k = k.slice(1);
 			}
+			this_line_end = t;
 			if (k.slice(0,1)=="-")
 			    k = k.slice(1);
 			else
 			    k = " "+k;
 			lines[which_line].innerHTML += "<slice id=id"+id_counter+" style=color:#000;>"+k+"</slice>";
-			line_events.push([karaoke[karaoke_index].t,"id"+id_counter]);
+			line_events.push([t,"id"+id_counter]);
 			id_counter++;
 		    }
 		    karaoke_index++;
 		}
 	    }
-	    var now=new Date().getTime();
-	    while (line_events_index<line_events.length && start_time+line_events[line_events_index][0]<now)
-		document.getElementById(line_events[line_events_index++][1]).style.color = '#f00';
+	    while (line_events.length!=0 && start_time+line_events[0][0]<now){
+		document.getElementById(line_events[0][1]).style.color = '#f00';
+		line_events = line_events.slice(1);
+	    }
 	    while (beat_index<karaoke.length){
 		k = karaoke[beat_index].k;
 		if (k.slice(0,1)=="^"){
