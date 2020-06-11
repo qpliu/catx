@@ -1,4 +1,4 @@
-% PARTS midi
+% PARTS kav
 % BIN midi all kav susan gg peter
 % ROBOT preview=33.3
 % ROBOT pickup_measures=1
@@ -19,8 +19,7 @@
 \include "piano"
 \include "bass"
 \include "lyrics"
-
-voAligner = \new NullVoice = "vo" \voPart
+\include "karaoke"
 
 layoutmusic = <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
@@ -30,7 +29,6 @@ layoutmusic = <<
 	\markupStuff
 	\steelpanPart
 	\voPart
-	\voAligner
 	\voLyrics
     >>
     \tag #'(allPart) \new Staff \with {
@@ -96,7 +94,6 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\drsPart
-	\voAligner
 	\voLyrics
     >>
 >>
@@ -136,8 +133,5 @@ midimusic = <<
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \egTwoPart
-    \tag #'(midiKaraoke) <<
-	\voAligner
-	\voLyrics
-    >>
+    \tag #'(midiKaraoke) \karaokeLyrics
 >>

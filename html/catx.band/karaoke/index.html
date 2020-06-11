@@ -40,7 +40,6 @@
 	    console.log("ntp_offset="+ntp_offset);
 	}
 	if (event.data.slice(0,1)=="k"){
-	    console.log("got json "+event.data.slice(1));
 	    var json=JSON.parse(event.data.slice(1));
 	    if (json.what=="karaoke"){
 		nname.innerHTML = json.name;
@@ -51,10 +50,16 @@
 		start_time = json.time+ntp_offset;
 		index = 0;
 		line_index = 0;
+		lines[0].innerHTML = "";
+		lines[1].innerHTML = "";
 		console.log("Got start "+start_time+" now="+now);
 	    }
 	}
     }
+    window.setTimeout(function(){
+	if (ntp_offset==undefined)
+	    location.reload();
+    },3000);
     window.setInterval(function(){
 	if (start_time==undefined)
 	    return;
