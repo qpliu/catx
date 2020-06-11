@@ -54,6 +54,8 @@
 		lines[1].innerHTML = "";
 		console.log("Got start "+start_time+" now="+now);
 	    }
+	    if (json.what=="stop")
+		start_time = undefined;
 	}
     }
     window.setTimeout(function(){
