@@ -1,0 +1,37 @@
+<!doctype html> 
+<html>
+<head>
+<meta charset=UTF-8>
+<title>Karaoke</title>
+</head>
+<script>
+    var websocket=new WebSocket("wss://catx.band/karaoke_websocket");
+    var ntp_t0;
+    var ntp_offset;
+    websocket.onopen = function(){
+	ntp_t0 = new Date().getTime();
+	websocket.send("");
+    };
+    websocket.onmessage = function(event){
+	var now=new Date().getTime();
+	if (event.data.slice(0,1)=="t"){
+	    var ntp_t1=parseInt(event.data.slice(1));
+	    ntp_offset = (now+ntp_t0)/2-ntp_t1;
+	    console.log("ntp_offset="+ntp_offset);
+	}
+	if (event.data.slice(0,1)=="k"){
+	    console.log("got json "+event.data.slice(1));
+	    var json=JSON.parse(event.data.slice(1));
+	    if (json.what=="karaoke"){
+		json.karaoke.forEach(function(item,index,array){
+		    console.log("Got t="+item.t+" k="+item.k);
+		});
+	    }
+	    if (json.what=="start"){
+		var start_time=json.time+ntp_offset;
+		console.log("Got start "+start_time+" now="+now);
+	    }
+	}
+    }
+</script>
+</html>

@@ -219,7 +219,7 @@ final class MergeMidi{
     private class LyricEvent extends MetaEvent{
 	LyricEvent(long time,String id,int outTrackIndex,int what,byte[]data){
 	    super(time,id,outTrackIndex,what,data);
-//System.err.println("measure="+(1+time/(384*4))+" beat="+(1+time%(384*4)/384)+" div="+time%384+" lyric="+new String(data));
+System.err.println("measure="+(1+time/(384*4))+" beat="+(1+time%(384*4)/384)+" div="+time%384+" lyric="+new String(data));
 	}
     }
     private class TempoEvent extends MetaEvent{

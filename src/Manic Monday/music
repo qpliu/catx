@@ -15,6 +15,7 @@
 \include "bass"
 \include "vo"
 \include "lyrics"
+\include "karaoke"
 \include "eg"
 
 layoutmusic = <<
@@ -84,5 +85,5 @@ midimusic = <<
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
     } \bassPart
-    \tag #'(midiKaraoke) \voLyrics
+    \tag #'(midiKaraoke) \karaokeLyrics
 >>
