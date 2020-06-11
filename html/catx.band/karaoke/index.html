@@ -70,7 +70,7 @@
     window.setInterval(function(){
 	if (start_time!=undefined){
 	    var now=new Date().getTime();
-	    if (next_line_start<now){
+	    if (next_line_start<now && karaoke_index<karaoke.length){
 		which_line ^= 1;
 		lines[which_line].innerHTML = "";
 		var this_line_start;

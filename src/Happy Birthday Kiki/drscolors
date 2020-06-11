@@ -2,14 +2,14 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     \override Score.RehearsalMark.self-alignment-X = #LEFT
     \context DrumVoice = "drsa" \voiceOne
     \context DrumVoice = "drsb" \voiceTwo
+    hh4 hh cymc |
     hh4 hh hh |
+    hh4 hh cymc |
     hh4 hh hh |
+    hh4 hh cymc |
     hh4 hh hh |
-    hh4 hh hh |
-    hh4 hh hh |
-    hh4 hh hh |
-    hh4 hh hh |
-    hh4 hh hh |
+    sn4 sn hh |
+    hh4 hh cymc |
     hh4 hh hh |
     hh2. |
 \barNumberCheck #11
