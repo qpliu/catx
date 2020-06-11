@@ -6,7 +6,7 @@
 </head>
 <body style=overflow:hidden;>
 <div style=text-align:center;><span id=name style=font-size:300%;color:#0f0;background-color:#000;>Start playing a song with Aarin Robo to sing karaoke!</span></div>
-<div style=text-align:center;><span id=beat_counter style=font-size:400%;color:#000;background-color:#0f0;>1</span></div>
+<div style=text-align:center;><span id=beat_counter style=font-family:monospace;font-size:400%;color:#000;background-color:#0f0;>1</span></div>
 <br>
 <div style=display:inline-block;margin-top:10%;width:10%;text-align:center;font-size:150%;><span id=line1at style=color:#0f0;background-color:#000;></span></div><span id=line1 style=display:inline-block;margin-top:10%;font-size:150%;></span>
 <br>
@@ -17,25 +17,25 @@
 <img style=position:absolute; id=ball src=../ball.png width=50 />
 <script>
     const DELAY=200;
+    const TOO_BIG=100;
     const websocket=new WebSocket("wss://catx.band/karaoke_websocket");
     var ntp_t0;
     var ntp_offset;
     var karaoke;
-    var beat_index;
     var karaoke_index;
     var start_time;
+    var repeat_time;
     const title=document.getElementById("title");
     const ball=document.getElementById("ball");
     const beat_counter=document.getElementById("beat_counter");
     const nname=document.getElementById("name");
-    const line0at=document.getElementById("line0at");
-    const line1at=document.getElementById("line1at");
     const lines=[document.getElementById("line0"),document.getElementById("line1")];
     const bounce_height=lines[0].getBoundingClientRect().top-lines[1].getBoundingClientRect().top;
     var which_line;
     var timeout=4;
     var id_counter=0;
     var line_events;
+    var beat_events;
     var next_line_start;
     var ball_x0,ball_y0,ball_t0;
     var ball_x1,ball_y1,ball_t1;
@@ -54,17 +54,22 @@
 	    lines[which_line].innerHTML = "";
 	    let this_line_start;
 	    let this_line_end;
-	    while (karaoke_index<karaoke.length){
-		k = karaoke[karaoke_index].k;
-		t = karaoke[karaoke_index].t;
-		if (k.slice(0,1)!="^"){
+	    for (; karaoke_index<karaoke.length; karaoke_index++){
+		if ("repeat" in karaoke[karaoke_index]){
+		    repeat_time += karaoke[karaoke_index].repeat;
+		    karaoke_index = 0;
+		    break;
+		}
+		let k=karaoke[karaoke_index].k;
+		const t=karaoke[karaoke_index].t+repeat_time;
+		if (k.slice(0,1)=="^")
+		    beat_events.push([t,k.slice(1)]);
+		else{
 		    if (lines[which_line].innerHTML.length==0)
 			this_line_start = t;
 		    if (k.slice(0,1)==">"){
-			if (lines[which_line].innerHTML.length!=0){
-			    next_line_start = start_time+(2*this_line_start+this_line_end)/3;
+			if (lines[which_line].innerHTML.length!=0)
 			    break;
-			}
 			k = k.slice(1);
 		    }
 		    this_line_end = t;
@@ -85,19 +90,18 @@
 			id_counter++;
 		    }
 		}
-		karaoke_index++;
 	    }
+	    next_line_start = start_time+(2*this_line_start+this_line_end)/3;
 	}
 	if (line_events.length!=0){
+	    const rect=document.getElementById(line_events[0][1]).getBoundingClientRect();
 	    if (ball_x0==undefined){
 		ball_t0 = start_time;
-		const rect=document.getElementById(line_events[0][1]).getBoundingClientRect();
 		ball_x0 = 0;
 		ball_y0 = rect.top;
 	    }
 	    if (ball_x1==undefined){
 		ball_t1 = start_time+line_events[0][0];
-		const rect=document.getElementById(line_events[0][1]).getBoundingClientRect();
 		ball_x1 = (rect.left+rect.right)/2;
 		ball_y1 = rect.top;
 	    }
@@ -111,13 +115,12 @@
 		tt = 2000;
 	    ball.style.top = (ball_y0+t*(ball_y1-ball_y0)-rect.bottom+rect.top-(1-4*(t-.5)*(t-.5))*bounce_height*tt/2000)+"px";
 	}
-	while (line_events.length!=0 && start_time+line_events[0][0]<now){
+	for (; line_events.length!=0&&start_time+line_events[0][0]<now; line_events=line_events.slice(1)){
 	    const element=document.getElementById(line_events[0][1]);
 	    if (line_events[0].length==3)
 		element.innerHTML = line_events[0][2];
 	    else
 		element.style.color = '#f00';
-	    line_events = line_events.slice(1);
 	    if (ball_x1!=undefined){
 		ball_t0 = ball_t1;
 		ball_x0 = ball_x1;
@@ -125,15 +128,8 @@
 		ball_x1 = undefined;
 	    }
 	}
-	while (beat_index<karaoke.length){
-	    k = karaoke[beat_index].k;
-	    if (k.slice(0,1)=="^"){
-		if (start_time+karaoke[beat_index].t>now)
-		    break;
-		beat_counter.innerHTML = k.slice(1);
-	    }
-	    beat_index++;
-	}
+	for (; beat_events.length!=0&&start_time+beat_events[0][0]<now; beat_events=beat_events.slice(1))
+	    beat_counter.innerHTML = beat_events[0][1]
 	window.requestAnimationFrame(animate);
     }
     websocket.onopen = function(){
@@ -156,13 +152,14 @@
 	    }
 	    if (json.what=="start"){
 		start_time = json.time+ntp_offset;
+		repeat_time = 0;
 		karaoke_index = 0;
 		next_line_start = 0;
-		beat_index = 0;
 		which_line = 0;
 		ball_x0 = undefined;
 		ball_x1 = undefined;
 		line_events = [];
+		beat_events = [];
 		lines[0].innerHTML = "";
 		lines[1].innerHTML = "";
 		window.requestAnimationFrame(animate);
