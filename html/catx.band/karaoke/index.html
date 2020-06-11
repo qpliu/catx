@@ -5,7 +5,7 @@
 <title id=title>Karaoke</title>
 </head>
 <body style=overflow:hidden;>
-<img id=cat src=../cat/cat-0.png width=300 style=position:absolute;left:0px;top:0px;z-index:-1;><div style=text-align:center;><span id=name style=font-size:300%;color:#0f0;background-color:#000;>Start playing a song with Aarin Robo to sing karaoke!</span></div>
+<img id=cat src=../cat/cat-0.png width=300 style=position:absolute;left:0px;top:0px;z-index:-1;><img id=fatcat src=../fatcat/fatcat-0.png width=300 style=position:absolute;right:0px;top:0px;z-index:-1;><div style=text-align:center;><span id=name style=font-size:300%;color:#0f0;background-color:#000;>Start playing a song with Aarin Robo to sing karaoke!</span></div>
 <div style=text-align:center;><span id=beat_counter style=font-family:monospace;font-size:400%;color:#000;background-color:#0f0;>1</span></div>
 <br>
 <div style=display:inline-block;margin-top:10%;width:10%;text-align:center;font-size:150%;><span id=line1at style=color:#0f0;background-color:#000;></span></div><span id=line1 style=display:inline-block;margin-top:10%;font-size:150%;></span>
@@ -17,10 +17,8 @@
 <img style=position:absolute; id=ball src=../ball.png width=50>
 <script>
     const DELAY=200;
-    const NUMBER_OF_CAT_FRAMES=42;
-    const NUMBER_OF_CAT_BEATS=8;
+    const cats=[["cat","../cat/cat-",42,8,0],["fatcat","../fatcat/fatcat-",8,2,0]];
     const websocket=new WebSocket("wss://catx.band/karaoke_websocket");
-    var last_cat;
     var last_beat_time;
     var ntp_t0;
     var ntp_offset;
@@ -28,7 +26,6 @@
     var karaoke_index;
     var start_time;
     var repeat_time;
-    const cat=document.getElementById("cat");
     const title=document.getElementById("title");
     const ball=document.getElementById("ball");
     const beat_counter=document.getElementById("beat_counter");
@@ -134,12 +131,16 @@
 	}
 	for (; beat_events.length!=0&&start_time+beat_events[0][0]<now; beat_events=beat_events.slice(1)){
 	    last_beat_time = beat_events[0][0];
-	    last_cat = (last_cat+1)%NUMBER_OF_CAT_BEATS;
+	    cats.forEach(function(cat){
+		cat[4] = (cat[4]+1)%cat[3];
+	    });
 	    beat_counter.innerHTML = beat_events[0][1]
 	}
 	if (beat_events.length!=0 && last_beat_time!=undefined){
-	    const cat_frame=Math.floor((last_cat+(now-start_time-last_beat_time)/(beat_events[0][0]-last_beat_time))*NUMBER_OF_CAT_FRAMES/NUMBER_OF_CAT_BEATS);
-	    cat.src = "../cat/cat-"+cat_frame+".png"
+	    const t=(now-start_time-last_beat_time)/(beat_events[0][0]-last_beat_time);
+	    cats.forEach(function(cat){
+		document.getElementById(cat[0]).src = cat[1]+Math.floor((cat[4]+t)*cat[2]/cat[3])+".png";
+	    });
 	}
 	window.requestAnimationFrame(animate);
     }
@@ -167,7 +168,11 @@
 		karaoke_index = 0;
 		next_line_start = 0;
 		which_line = 0;
+		cats.forEach(function(cat){
+		    cat[4]=0;
+		});
 		last_cat = 0;
+		last_fatcat = 0;
 		last_beat_time = undefined;
 		ball_x0 = undefined;
 		ball_x1 = undefined;
