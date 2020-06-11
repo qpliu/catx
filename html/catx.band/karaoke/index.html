@@ -9,11 +9,12 @@
 <br>
 <br>
 <br>
-<span id=line1 style=font-size:150%;></span>
+<span id=line1 style=margin-left:48px;font-size:150%;></span>
 <br>
 <br>
 <br>
-<span id=line2 style=margin-left:96px;font-size:150%;></span>
+<span id=line2 style=margin-left:144px;font-size:150%;></span>
+<img style=position:absolute; id=ball src=../ball.png width=100 />
 <script>
     var DELAY=200;
     var HZ=30;
@@ -25,6 +26,7 @@
     var karaoke_index;
     var start_time;
     var title=document.getElementById("title");
+    var ball=document.getElementById("ball");
     var beat_counter=document.getElementById("beat_counter");
     var nname=document.getElementById("name");
     var lines=[document.getElementById("line2"),document.getElementById("line1")];
@@ -34,6 +36,8 @@
     var id_counter=0;
     var line_events;
     var next_line_start;
+    var ball_x0,ball_y0,ball_t0;
+    var ball_x1,ball_y1,ball_t1;
     websocket.onopen = function(){
 	websocket.send("");
     };
@@ -58,6 +62,10 @@
 		next_line_start = 0;
 		beat_index = 0;
 		which_line = 0;
+		ball_x0 = 0;
+		ball_y0 = lines[0].getBoundingClientRect().top;
+		ball_t0 = start_time;
+		ball_x1 = undefined;
 		line_events = [];
 		lines[0].innerHTML = "";
 		lines[1].innerHTML = "";
@@ -100,9 +108,27 @@
 		    karaoke_index++;
 		}
 	    }
+	    if (ball_x1==undefined && line_events.length!=0){
+		ball_t1 = start_time+line_events[0][0];
+		var rect=document.getElementById(line_events[0][1]).getBoundingClientRect();
+		console.log("rect left="+rect.left+" right="+rect.right+" top="+rect.top);
+		ball_x1 = (rect.left+rect.right)/2;
+		ball_y1 = rect.top;
+	    }
+	    if (ball_x1!=undefined){
+		var t=(now-ball_t0)/(ball_t1-ball_t0);
+		ball.style.left = (ball_x0+t*(ball_x1-ball_x0))+"px";
+		ball.style.top = (ball_y0+t*(ball_y1-ball_y0))+"px";
+	    }
 	    while (line_events.length!=0 && start_time+line_events[0][0]<now){
 		document.getElementById(line_events[0][1]).style.color = '#f00';
 		line_events = line_events.slice(1);
+		if (ball_x1!=undefined){
+		    ball_t0 = ball_t1;
+		    ball_x0 = ball_x1;
+		    ball_y0 = ball_y1;
+		    ball_x1 = undefined;
+		}
 	    }
 	    while (beat_index<karaoke.length){
 		k = karaoke[beat_index].k;
