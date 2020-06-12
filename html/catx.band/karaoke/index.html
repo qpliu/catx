@@ -55,7 +55,7 @@
 	if (--timeout<0)
 	    location.reload();
 	ntp_t0 = new Date().getTime();
-	websocket.send("");
+	websocket.send("ntp");
     }
     function animate(time){
 	if (start_time==undefined)
@@ -163,6 +163,8 @@
 	const now=new Date().getTime();
 	if (event.data.slice(0,1)=="t"){
 	    timeout = 4;
+	    if (ntp_offset==undefined)
+		websocket.send("middle");
 	    const ntp_t1=parseInt(event.data.slice(1));
 	    ntp_offset = (now+ntp_t0)/2-ntp_t1+DELAY;
 	}
