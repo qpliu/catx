@@ -5,8 +5,12 @@
 <title id=title>Karaoke</title>
 </head>
 <body>
-<img id=cat src=../cat/cat-0.png style=position:absolute;left:0;top:0;height:40vh;z-index:-1;>
-<img id=fatcat src=../fatcat/fatcat-0.png style=position:absolute;right:0;top:0;height:40vh;z-index:-1;>
+<img id=cat src=../cat/cat-0.png style=position:absolute;left:0;top:0;height:45vh;z-index:-1;>
+<img id=graycat src=../cat/graycat-0.png style=position:absolute;left:20vw;top:5vh;height:30vh;z-index:-1;>
+<img id=spin src=../cat/spin-0.png style=position:absolute;left:35vw;top:10vh;height:30vh;z-index:-1;>
+<img id=pink src=../cat/pink-0.png style=position:absolute;left:50vw;top:6vh;height:30vh;z-index:-1;>
+<img id=jump src=../cat/jump-0.png style=position:absolute;left:65vw;top:6vh;height:30vh;z-index:-1;>
+<img id=fatcat src=../cat/fatcat-0.png style=position:absolute;right:0;top:0;height:40vh;z-index:-1;>
 <div style=position:absolute;top:0;left:0;width:100vw;height:10vh;text-align:center;><span id=name style=font-size:6vh;white-space:nowrap;color:#0f0;background-color:#000;>Play a song with Aarin Robo to sing karaoke!</span></div>
 <div style=position:absolute;top:10vh;left:0;width:100vw;height:10vh;text-align:center;><span id=beat_counter style=font-family:monospace;font-size:8vh;color:#000;background-color:#0f0;>1</span></div>
 <div style=position:absolute;top:60vh;left:0;width:10vw;height:2vw;text-align:center;><span id=line1at style=position:absolute;font-size:2vw;color:#000;background-color:#0f0;></span></div>
@@ -17,7 +21,14 @@
 <img style=position:absolute;bottom:100vh;width:10vh id=ball src=../ball.png>
 <script>
     const DELAY=200;
-    const cats=[["cat","../cat/cat-",42,8,0],["fatcat","../fatcat/fatcat-",8,2,0]];
+    const cats=[
+	["cat","../cat/cat-",40,8,0],
+	["fatcat","../cat/fatcat-",8,2,0],
+	["graycat","../cat/graycat-",4,1,0],
+	["spin","../cat/spin-",18,2,0],
+	["pink","../cat/pink-",8,2,0],
+	["jump","../cat/jump-",8,4,0],
+    ];
     const websocket=new WebSocket("wss://catx.band/karaoke_websocket");
     var last_beat_time;
     var ntp_t0;
