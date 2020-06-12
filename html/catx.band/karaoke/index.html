@@ -5,12 +5,22 @@
 <title id=title>Karaoke</title>
 </head>
 <body style=overflow:hidden>
-<img id=cat src=../cat/cat-0.png style=position:absolute;left:0;top:0;height:45vh;z-index:-1;>
-<img id=graycat src=../cat/graycat-0.png style=position:absolute;left:20vw;top:5vh;height:30vh;z-index:-1;>
-<img id=spin src=../cat/spin-0.png style=position:absolute;left:35vw;top:10vh;height:30vh;z-index:-1;>
-<img id=pink src=../cat/pink-0.png style=position:absolute;left:50vw;top:6vh;height:30vh;z-index:-1;>
-<img id=jump src=../cat/jump-0.png style=position:absolute;left:65vw;top:6vh;height:30vh;z-index:-1;>
-<img id=fatcat src=../cat/fatcat-0.png style=position:absolute;right:0;top:0;height:40vh;z-index:-1;>
+<img id=cat src=../cat/cat-0.png style=position:absolute;left:0;top:10vh;width:15vw;z-index:-1;>
+<img id=graycat src=../cat/graycat-0.png style=position:absolute;left:15vw;top:10vh;width:15vw;z-index:-1;>
+<img id=spin src=../cat/spin-0.png style=position:absolute;left:30vw;top:10vh;width:16vw;z-index:-1;>
+<img id=pink src=../cat/pink-0.png style=position:absolute;left:55vw;top:10vh;width:18vw;z-index:-1;>
+<img id=jump src=../cat/jump-0.png style=position:absolute;left:70vw;top:10vh;width:15vw;z-index:-1;>
+<img id=fatcat src=../cat/fatcat-0.png style=position:absolute;right:0;top:10vh;width:18vw;z-index:-1;>
+<img id=tree0 src=../cat/tree-0.png style=position:absolute;right:0;top:10vh;width:15vw;z-index:-2;>
+<img id=tree1 src=../cat/tree-0.png style=position:absolute;right:10vw;top:10vh;width:15vw;z-index:-2;>
+<img id=tree2 src=../cat/tree-0.png style=position:absolute;right:20vw;top:10vh;width:15vw;z-index:-2;>
+<img id=tree3 src=../cat/tree-0.png style=position:absolute;right:30vw;top:10vh;width:15vw;z-index:-2;>
+<img id=tree4 src=../cat/tree-0.png style=position:absolute;right:40vw;top:10vh;width:15vw;z-index:-2;>
+<img id=tree5 src=../cat/tree-0.png style=position:absolute;right:50vw;top:10vh;width:15vw;z-index:-2;>
+<img id=tree6 src=../cat/tree-0.png style=position:absolute;right:60vw;top:10vh;width:15vw;z-index:-2;>
+<img id=tree7 src=../cat/tree-0.png style=position:absolute;right:70vw;top:10vh;width:15vw;z-index:-2;>
+<img id=tree8 src=../cat/tree-0.png style=position:absolute;right:80vw;top:10vh;width:15vw;z-index:-2;>
+<img id=tree9 src=../cat/tree-0.png style=position:absolute;right:90vw;top:10vh;width:15vw;z-index:-2;>
 <div style=position:absolute;top:0;left:0;width:100vw;height:10vh;text-align:center;><span id=name style=font-size:6vh;white-space:nowrap;color:#0f0;background-color:#000;>Play a song with Aarin Robo to sing karaoke!</span></div>
 <div style=position:absolute;top:10vh;left:0;width:100vw;height:10vh;text-align:center;><span id=beat_counter style=font-family:monospace;font-size:8vh;color:#000;background-color:#0f0;>1</span></div>
 <div style=position:absolute;top:60vh;left:0;width:10vw;height:2vw;text-align:center;><span id=line1at style=position:absolute;font-size:2vw;color:#000;background-color:#0f0;></span></div>
@@ -28,6 +38,16 @@
 	["spin","../cat/spin-",18,2,0],
 	["pink","../cat/pink-",8,2,0],
 	["jump","../cat/jump-",8,4,0],
+	["tree0","../cat/tree-",52,4,0],
+	["tree1","../cat/tree-",52,4,0],
+	["tree2","../cat/tree-",52,4,0],
+	["tree3","../cat/tree-",52,4,0],
+	["tree4","../cat/tree-",52,4,0],
+	["tree5","../cat/tree-",52,4,0],
+	["tree6","../cat/tree-",52,4,0],
+	["tree7","../cat/tree-",52,4,0],
+	["tree8","../cat/tree-",52,4,0],
+	["tree9","../cat/tree-",52,4,0],
     ];
     const websocket=new WebSocket("wss://catx.band/karaoke_websocket");
     var last_beat_time;
