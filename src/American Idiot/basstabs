@@ -1,0 +1,73 @@
+bassPart = {
+% tuning e,, a,, d, g,
+% scale c des d ees e f ges g aes a bes b
+\mymark "Intro" #1
+    s1 s1 |
+    4-4t8 t 0t 3-4t4 t8 4-0t8 2t8~ | t t 3-4t4 4-4t4 r |
+    4-4t8 t 0t 3-4t4 t8 4-0t8 2t8~ | t t 3-4t4 4-4t4 2t |
+    4-4t8 t 0t 3-4t4 t8 4-0t8 2t8~ | t t 3-4t4 4-4t4 r |
+\mymark "Verse 1" #9
+    s1 s1 | 4-4t8 t 0t 3-4t4 t8 4-0t8 2t8~ | t t 3-4t4 4-4t4 2t |
+    s1 s1 | 4-4t8 t 0t 3-4t4 t8 4-0t8 2t8~ | t t 3-4t4 4-4t4 r |
+    s1 s1 | 4-4t8 t 0t 3-4t4 t8 4-0t8 2t8~ | t t 3-4t4 4-4t4 2t |
+    s1 s1 | 4-4t8 t 0t 3-4t4 t8 4-0t8 2t8~ | t t 3-4t4 4-4t4 9t |
+\mymark "Chorus 1" #25
+    3-4t4 t t8 t t t~ | t t t4 t t8 4-0t |
+    4-4t4 t t8 t t t~ | t t t4 t t8 4-0t |
+    3-6t4 t t8 t t t~ | t t t4 t t8 4-0t |
+    4-4t4 t t8 t t t~ | t t t4 t 9t |
+    3-4t4 t t8 t t t~ | t t t4 t t8 4-0t |
+    4-4t4 t t8 t t t~ | t t t4 t t8 4-0t |
+    3-6t4 t t8 t t t~ | t t t4 t t8 t |
+    s1 s1 |
+\mymark "Bridge 1" #41
+    4-4t8 t 0t 3-4t4 t8 4-0t8 2t8~ | t t 3-4t4 4-4t4 2t |
+    4-4t8 t 0t 3-4t4 t8 4-0t8 2t8~ | t t 3-4t4 4-4t4 r |
+\mymark "Verse 2" #45
+    s1 s1 | 4-4t8 t 0t 3-4t4 t8 4-0t8 2t8~ | t t 3-4t4 4-4t4 2t |
+    s1 s1 | 4-4t8 t 0t 3-4t4 t8 4-0t8 2t8~ | t t 3-4t4 4-4t4 r |
+    s1 s1 | 4-4t8 t 0t 3-4t4 t8 4-0t8 2t8~ | t t 3-4t4 4-4t4 2t |
+    s1 s1 | 4-4t8 t 0t 3-4t4 t8 4-0t8 2t8~ | t t 3-4t4 4-4t4 9t |
+\mymark "Chorus 2" #61
+    3-4t4 t t8 t t t~ | t t t4 t t8 4-0t |
+    4-4t4 t t8 t t t~ | t t t4 t t8 4-0t |
+    3-6t4 t t8 t t t~ | t t t4 t t8 4-0t |
+    4-4t4 t t8 t t t~ | t t t4 t 9t |
+    3-4t4 t t8 t t t~ | t t t4 t t8 4-0t |
+    4-4t4 t t8 t t t~ | t t t4 t t8 4-0t |
+    3-6t4 t t8 t t t~ | t t t4 t t8 t |
+    s1 s1 |
+\mymark "Bridge 2" #77
+    4-4t8 t 0t 3-4t4 t8 4-0t8 2t8~ | t t 3-4t4 4-4t4 2t |
+    4-4t8 t 0t 3-4t4 t8 4-0t8 2t8~ | t t 3-4t4 4-4t4 r |
+    4-4t8 t 0t 3-4t4 t8 4-0t8 2t8~ | t t 3-4t4 4-4t4 2t |
+    4-4t8 t 0t 3-4t4 t8 4-0t8 2t8~ | t t 3-4t4 4-4t4 r |
+\mymark "Solo" #85
+    3-4t4 t t8 t t t~ | t t t4 t t8 4-0t |
+    4-4t4 t t8 t t t~ | t t t4 t t8 4-0t |
+    3-6t4 t t8 t t t~ | t t t4 t t8 4-0t |
+    4-4t4 t t8 t t t~ | t t t4 t 9t |
+    3-4t4 t t8 t t t~ | t t t4 t t8 4-0t |
+    4-4t4 t t8 t t t~ | t t t4 t t8 4-0t |
+    3-6t4 t t8 t t t~ | t t t4 t t8 t |
+\mymark "Bridge 3" #99
+    s1 s1 s1 s1 |
+\mymark "Verse 3" #103
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Chorus 3" #111
+    3-4t4 t t8 t t t~ | t t t4 t t8 4-0t |
+    4-4t4 t t8 t t t~ | t t t4 t t8 4-0t |
+    3-6t4 t t8 t t t~ | t t t4 t t8 4-0t |
+    4-4t4 t t8 t t t~ | t t t4 t 9t |
+    3-4t4 t t8 t t t~ | t t t4 t t8 4-0t |
+    4-4t4 t t8 t t t~ | t t t4 t t8 4-0t |
+    3-6t4 t t8 t t t~ | t t t4 t t8 t |
+\mymark "Outro" #125
+    s1 s1 |
+    4-4t8 t 0t 3-4t4 t8 4-0t8 2t8~ | t t 3-4t4 4-4t4 2t |
+    4-4t8 t 0t 3-4t4 t8 4-0t8 2t8~ | t t 3-4t4 4-4t4 r |
+    4-4t8 t 0t 3-4t4 t8 4-0t8 2t8~ | t t 3-4t4 4-4t4 2t |
+    s1 |
+    r8 4-2t8 3-4t t 4-4t4 r4 |
+\mybarNumberCheck #135
+}

@@ -1,0 +1,38 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \tempo 4 = 190
+    \key aes \major
+\mymark "Intro" #1
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Verse 1" #9
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Chorus 1" #25
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Bridge 1" #41
+    s1 s1 s1 s1 |
+\mymark "Verse 2" #45
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Chorus 2" #61
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Bridge 2" #77
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Solo" #85
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 |
+\mymark "Bridge 3" #99
+    s1 s1 s1 s1 |
+\mymark "Verse 3" #103
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Chorus 3" #111
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 |
+\mymark "Outro" #125
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 |
+    \bar "|."
+\mybarNumberCheck #135
+}

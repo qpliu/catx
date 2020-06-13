@@ -1,0 +1,102 @@
+voPart =
+\transpose c c'
+{
+% scale c des d ees e f ges g aes a bes b
+\mymark "Intro" #1
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Verse 1" #9
+    r8 2-4t8 t t t t t 6t8~ |
+    2-6t8 t 4t4 3-5t8 t 2-4t4 |
+    s1 s1 |
+    r8 3-5t8 t t t t t 6t8~ |
+    3-6t8 t 5t4 3t8 1t 1t4 |
+    s1 s1 |
+    r8 2-4t8 t t t t4 6t8~ |
+    2-6t8 4t4 t8 3-5t8 t 2-4t4 |
+    s1 s1 |
+    r8 3-5t8 t4 t8 t t 6t8~ |
+    3-6t8 t4 5t8 3t 1t t4 |
+    s1 s1 |
+\mymark "Chorus 1" #25
+    r4 2-6t8 t t t4 t8~ |
+    2-6t8 t4 t8 4t4 2t |
+    r4 2-4t8 t t4 t8 6t8~ |
+    2-6t8 t 4t4 3-6t8 5t4.( |
+    3-3t4) t8 t t t 5t 6t8~ |
+    3-6t8 5t4 3t 2-6t 3-8t8~ |
+    3-8t4.( 6t8 5t4) r4 |
+    s1 |
+    r4 2-6t8 t t t4 t8~ |
+    2-6t8 t4 t8 4t4 2t |
+    r4 2-4t4 t t8 6t8~ |
+    2-6t8 t16 t 4t8 t 3-6t8 5t4.( |
+    3-3t4) t t8 5t4 6t8~ |
+    3-6t8 5t4 3t 2-4t r8 |
+    s1 s1 |
+\mymark "Bridge 1" #41
+    s1 s1 s1 s1 |
+\mymark "Verse 2" #45
+    r8 2-4t4 t8 t t t 6t8~ |
+    2-6t8 4t4 t8 3-5t8 t 2-4t4 |
+    s1 s1 |
+    r8 3-5t8 t t t t t 6t8~ |
+    3-6t8 5t4 t8 3t4 1t |
+    s1 s1 |
+    r8 2-4t4 t8 t t t 6t8~ |
+    2-6t8 t8 4t8 t 3-5t4 2-4t4 |
+    s1 s1 |
+    r8 3-5t8 t t t t t 6t8~ |
+    3-6t8 t 5t t 3t4 1t4 |
+    s1 s1 |
+\mymark "Chorus 2" #61
+    r4 2-6t8 t t t4 t8~ |
+    2-6t8 t4 t8 4t4 2t |
+    r4 2-4t8 t t4 t8 6t8~ |
+    2-6t8 t 4t4 3-6t8 5t4.( |
+    3-3t4) t8 t t t 5t 6t8~ |
+    3-6t8 5t4 3t 2-6t 3-8t8~ |
+    3-8t4.( 6t8 5t4) r4 |
+    s1 |
+    r4 2-6t8 t t t4 t8~ |
+    2-6t8 t4 t8 4t4 2t |
+    r4 2-4t4 t t8 6t8~ |
+    2-6t8 t16 t 4t8 t 3-6t8 5t4.( |
+    3-3t4) t t8 5t4 6t8~ |
+    3-6t8 5t4 3t 2-4t r8 |
+    s1 s1 |
+\mymark "Bridge 2" #77
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Solo" #85
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 s1 s1 s1 s1 |
+\mymark "Bridge 3" #99
+    s1 s1 s1 s1 |
+\mymark "Verse 3" #103
+    r8 2-4t8 t t t t t 6t8~ |
+    2-6t8 t 4t4 3-5t8 t 2-4t4 |
+    r4 3-5t4 t8 t t 6t8~ |
+    3-6t8 5t t 3t4 1t8 1t4 |
+    r4 2-4t8 t t4 t8 6t8~ |
+    2-6t8 4t4 t8 3-5t8 t 2-4t4 |
+    r8 3-5t8 t t t4 t8 6t8~ |
+    3-6t8 t 5t t 3t 1t t4 |
+\mymark "Chorus 3" #111
+    r4 2-6t8 t t t4 t8~ |
+    2-6t8 t4 t8 4t4 2t |
+    r4 2-4t8 t t4 t8 6t8~ |
+    2-6t8 t 4t4 3-6t8 5t4.( |
+    3-3t4) t8 t t t 5t 6t8~ |
+    3-6t8 5t4 3t 2-6t 3-8t8~ |
+    3-8t4.( 6t8 5t4) r4 |
+    s1 |
+    r4 2-6t8 t t t4 t8~ |
+    2-6t8 t4 t8 4t4 2t |
+    r4 2-4t4 t t8 6t8~ |
+    2-6t8 t16 t 4t8 t 3-6t8 5t4.( |
+    3-3t4) t t8 5t4 6t8~ |
+    3-6t8 5t4 3t 2-4t r8 |
+\mymark "Outro" #125
+    s1 s1 s1 s1 s1 s1 s1 s1 |
+    s1 s1 |
+\mybarNumberCheck #135
+}
