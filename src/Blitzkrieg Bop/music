@@ -83,8 +83,4 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"distorted guitar" % 30
     } \egPart
-    \tag #'(midiKaraoke) <<
-	\voAligner
-	\voLyrics
-    >>
 >>
