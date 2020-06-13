@@ -196,9 +196,11 @@
 	}
 	if (event.data.slice(0,1)=="k" && ntp_offset!=undefined){
 	    const json=JSON.parse(event.data.slice(1));
-	    if (json.what=="karaoke"){
+	    if ("name" in json){
 		nname.innerHTML = json.name;
 		title.innerHTML = json.name;
+	    }
+	    if ("karaoke" in json){
 		karaoke = json.karaoke;
 		start_time = json.start_time+ntp_offset;
 		repeat_time = 0;
@@ -219,7 +221,7 @@
 		lines[1].innerHTML = "";
 		window.requestAnimationFrame(animate);
 	    }
-	    if (json.what=="stop")
+	    if ("stop" in json)
 		start_time = undefined;
 	}
     }
