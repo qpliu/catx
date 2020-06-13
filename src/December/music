@@ -1,4 +1,4 @@
-% PARTS midi
+% PARTS kav
 % BIN midi all gg susan kav peter
 % ROBOT preview=25
 
@@ -19,8 +19,8 @@
 \include "lyrics"
 \include "vo2"
 \include "lyrics2"
+\include "karaoke"
 
-voAligner = \new NullVoice = "vo" \voPart
 voTwoAligner = \new NullVoice = "vo2" \voTwoPart
 
 layoutmusic = <<
@@ -30,7 +30,6 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\voPart
-	\voAligner
 	\voLyrics
     >>
     \tag #'(allPart kavPart susanPart) \new Staff \with {
@@ -79,7 +78,6 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\drsPart
-	\voAligner
 	\voLyrics
 	\voTwoAligner
 	\voTwoLyrics
@@ -111,7 +109,6 @@ midimusic = <<
 	midiMaximumVolume = #1
     } \cuePart
     \tag #'(midiKaraoke) <<
-	\voAligner
-	\voLyrics
+	\karaokeLyrics
     >>
 >>
