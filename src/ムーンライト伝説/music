@@ -1,4 +1,4 @@
-% PARTS midi
+% PARTS kav
 % BIN midi all kav gg susan peter
 % ROBOT pickup_measures=1
 
@@ -21,6 +21,7 @@
 \include "egtext_lyrics"
 \include "egtext_midi"
 \include "piano"
+\include "karaoke"
 
 voAligner = \new NullVoice = "vo" \voPart
 
@@ -31,7 +32,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\voPart
-	\voAligner
 	\voLyrics
 	\steelpanPart
     >>
@@ -80,7 +80,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\simpledrsPart
-	\voAligner
 	\voLyrics
     >>
 >>
@@ -104,7 +103,6 @@ midimusic = <<
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \simpledrsPart
     \tag #'(midiKaraoke) <<
-	\voAligner
-	\voLyrics
+	\karaokeLyrics
     >>
 >>
