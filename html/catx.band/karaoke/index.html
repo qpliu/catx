@@ -5,32 +5,11 @@
 <title id=title>Karaoke</title>
 </head>
 <body style=overflow:hidden>
-<div style=position:absolute;left:0;top:10vh;width:100vw;z-index:-2;>
-<img src=../cat/wave.jpg style=position:absolute;left:0;top:-5vw;width:30vw;>
-<img src=../cat/wave.jpg style=position:absolute;left:30vw;top:-5vw;width:30vw;>
-<img src=../cat/wave.jpg style=position:absolute;left:60vw;top:-5vw;width:30vw;>
-<img src=../cat/wave.jpg style=position:absolute;left:90vw;top:-5vw;width:30vw;>
-</div>
-<img id=cat src=../cat/cat-0.png style=position:absolute;left:0;top:10vh;width:15vw;z-index:-1;>
-<img id=graycat src=../cat/graycat-0.png style=position:absolute;left:15vw;top:10vh;width:15vw;z-index:-1;>
-<img id=spin src=../cat/spin-0.png style=position:absolute;left:30vw;top:10vh;width:15vw;z-index:-1;>
-<img id=pink src=../cat/pink-0.png style=position:absolute;left:55vw;top:10vh;width:18vw;z-index:-1;>
-<img id=jump src=../cat/jump-0.png style=position:absolute;left:70vw;top:10vh;width:15vw;z-index:-1;>
-<img id=fatcat src=../cat/fatcat-0.png style=position:absolute;right:0;top:10vh;width:18vw;z-index:-1;>
-<img id=tree0 src=../cat/tree-0.png style=position:absolute;right:0;top:10vh;width:15vw;z-index:-2;>
-<img id=tree1 src=../cat/tree-0.png style=position:absolute;right:10vw;top:10vh;width:15vw;z-index:-2;>
-<img id=tree2 src=../cat/tree-0.png style=position:absolute;right:20vw;top:10vh;width:15vw;z-index:-2;>
-<img id=tree3 src=../cat/tree-0.png style=position:absolute;right:30vw;top:10vh;width:15vw;z-index:-2;>
-<img id=tree4 src=../cat/tree-0.png style=position:absolute;right:40vw;top:10vh;width:15vw;z-index:-2;>
-<img id=tree5 src=../cat/tree-0.png style=position:absolute;right:50vw;top:10vh;width:15vw;z-index:-2;>
-<img id=tree6 src=../cat/tree-0.png style=position:absolute;right:60vw;top:10vh;width:15vw;z-index:-2;>
-<img id=tree7 src=../cat/tree-0.png style=position:absolute;right:70vw;top:10vh;width:15vw;z-index:-2;>
-<img id=tree8 src=../cat/tree-0.png style=position:absolute;right:80vw;top:10vh;width:15vw;z-index:-2;>
-<img id=tree9 src=../cat/tree-0.png style=position:absolute;right:90vw;top:10vh;width:15vw;z-index:-2;>
+<div id=div style=position:absolute;left:0;top:10vh;width:100vw;></div>
 <div style=position:absolute;top:0;left:0;width:100vw;height:10vh;text-align:center;><span id=name style=font-size:6vh;white-space:nowrap;color:#0f0;background-color:#000;>Play a song with Aarin Robo to sing karaoke!</span></div>
 <div style=position:absolute;top:10vh;left:0;width:100vw;height:10vh;text-align:center;><span id=beat_counter style=font-family:monospace;font-size:8vh;color:#000;background-color:#0f0;>1</span></div>
-<div style=position:absolute;top:60vh;left:0;width:10vw;height:2vw;text-align:center;><span id=line1at style=position:absolute;font-size:2vw;color:#000;background-color:#0f0;></span></div>
-<div style=position:absolute;top:60vh;left:10vw;width:90vw;height:2vw;><span id=line1 style=font-size:2vw;white-space:nowrap></span></div>
+<div style=position:absolute;top:64vh;left:0;width:10vw;height:2vw;text-align:center;><span id=line1at style=position:absolute;font-size:2vw;color:#000;background-color:#0f0;></span></div>
+<div style=position:absolute;top:64vh;left:10vw;width:90vw;height:2vw;><span id=line1 style=font-size:2vw;white-space:nowrap></span></div>
 <div style=position:absolute;top:85vh;left:10vw;width:10vw;height:2vw;text-align:center;><span id=line0at style=position:absolute;font-size:2vw;color:#000;background-color:#0f0;></span></div>
 <div style=position:absolute;top:85vh;left:20vw;width:80vw;height:2vw;><span id=line0 style=font-size:2vw;white-space:nowrap></span></div>
 <div id=lineatat style=position:absolute;top:110vh;left:110vw;></div>
@@ -38,22 +17,24 @@
 <script>
     const DELAY=200;
     const cats=[
-	["cat","../cat/cat-",40,8,0],
-	["fatcat","../cat/fatcat-",8,2,0],
-	["graycat","../cat/graycat-",4,1,0],
-	["spin","../cat/spin-",18,2,0],
-	["pink","../cat/pink-",8,2,0],
-	["jump","../cat/jump-",8,4,0],
-	["tree0","../cat/tree-",52,4,0],
-	["tree1","../cat/tree-",52,4,0],
-	["tree2","../cat/tree-",52,4,0],
-	["tree3","../cat/tree-",52,4,0],
-	["tree4","../cat/tree-",52,4,0],
-	["tree5","../cat/tree-",52,4,0],
-	["tree6","../cat/tree-",52,4,0],
-	["tree7","../cat/tree-",52,4,0],
-	["tree8","../cat/tree-",52,4,0],
-	["tree9","../cat/tree-",52,4,0],
+	["../cat/cat-${frame}.png",40,8,"position:absolute;left:0;top:0;width:15vw;z-index:-1;"],
+	["../cat/fatcat-${frame}.png",8,2,"position:absolute;left:82vw;top:0;width:18vw;z-index:-1;"],
+	["../cat/graycat-${frame}.png",4,1,"position:absolute;left:15vw;top:0;width:15vw;z-index:-1;"],
+	["../cat/spin-${frame}.png",18,2,"position:absolute;left:30vw;top:0;width:15vw;z-index:-1;"],
+	["../cat/pink-${frame}.png",8,2,"position:absolute;left:55vw;top:0;width:18vw;z-index:-1;"],
+	["../cat/jump-${frame}.png",8,4,"position:absolute;left:70vw;top:0;width:15vw;z-index:-1;"],
+	["../cat/tree-${frame}.png",52,4,"position:absolute;left:2vw;top:-5vw;width:20vw;z-index:-3;"],
+	["../cat/tree-${frame}.png",52,4,"position:absolute;left:13vw;top:-5vw;width:20vw;z-index:-3;"],
+	["../cat/tree-${frame}.png",52,4,"position:absolute;left:24vw;top:-5vw;width:20vw;z-index:-2;"],
+	["../cat/tree-${frame}.png",52,4,"position:absolute;left:35vw;top:-5vw;width:20vw;z-index:-3;"],
+	["../cat/tree-${frame}.png",52,4,"position:absolute;left:46vw;top:-5vw;width:20vw;z-index:-2;"],
+	["../cat/tree-${frame}.png",52,4,"position:absolute;left:58vw;top:-5vw;width:20vw;z-index:-3;"],
+	["../cat/tree-${frame}.png",52,4,"position:absolute;left:69vw;top:-5vw;width:20vw;z-index:-2;"],
+	["../cat/tree-${frame}.png",52,4,"position:absolute;left:80vw;top:-5vw;width:20vw;z-index:-3;"],
+	["../cat/tree-${frame}.png",52,4,"position:absolute;left:91vw;top:-5vw;width:20vw;z-index:-2;"],
+	["../cat/wave-${frame}.jpg",15,4,"position:absolute;left:0;top:-10vw;width:34vw;z-index:-4;"],
+	["../cat/wave-${frame}.jpg",15,4,"position:absolute;left:34vw;top:-10vw;width:34vw;z-index:-4;"],
+	["../cat/wave-${frame}.jpg",15,4,"position:absolute;left:68vw;top:-10vw;width:34vw;z-index:-4;"],
     ];
     const websocket=new WebSocket("wss://catx.band/karaoke_websocket");
     var last_beat_time;
@@ -63,10 +44,8 @@
     var karaoke_index;
     var start_time;
     var repeat_time;
-    const title=document.getElementById("title");
     const ball=document.getElementById("ball");
     const beat_counter=document.getElementById("beat_counter");
-    const nname=document.getElementById("name");
     const lines=[document.getElementById("line0"),document.getElementById("line1")];
     const bounce_height=lines[0].getBoundingClientRect().top-lines[1].getBoundingClientRect().top;
     var which_line;
@@ -77,6 +56,22 @@
     var next_line_start;
     var ball_x0,ball_y0,ball_t0;
     var ball_x1,ball_y1,ball_t1;
+    cats.forEach(function(cat){
+	const div=document.getElementById("div");
+	l = [];
+	for (let frame=0; frame<cat[1]; frame++){
+	    const img=document.createElement("img");
+	    img.src = eval("`"+cat[0]+"`");
+	    img.style = cat[3];
+	    div.appendChild(img);
+	    l.push(img);
+	    if (frame!=0)
+		img.style.visibility = "hidden";
+	}
+	cat.push(0);
+	cat.push(l);
+	cat.push(0);
+    });
     function do_ntp(){
 	if (--timeout<0)
 	    location.reload();
@@ -175,14 +170,16 @@
 	for (; beat_events.length!=0&&start_time+beat_events[0][0]<now; beat_events=beat_events.slice(1)){
 	    last_beat_time = beat_events[0][0];
 	    cats.forEach(function(cat){
-		cat[4] = (cat[4]+1)%cat[3];
+		cat[4] = (cat[4]+1)%cat[2];
 	    });
 	    beat_counter.innerHTML = beat_events[0][1]
 	}
 	if (beat_events.length!=0 && last_beat_time!=undefined){
 	    const t=(now-start_time-last_beat_time)/(beat_events[0][0]-last_beat_time);
 	    cats.forEach(function(cat){
-		document.getElementById(cat[0]).src = cat[1]+Math.floor((cat[4]+t)*cat[2]/cat[3])+".png";
+		cat[5][cat[6]].style.visibility = "hidden";
+		cat[6] = Math.floor((cat[4]+t)*cat[1]/cat[2])%cat[1];
+		cat[5][cat[6]].style.visibility = "visible";
 	    });
 	}
 	window.requestAnimationFrame(animate);
@@ -203,8 +200,8 @@
 	if (event.data.slice(0,1)=="k" && ntp_offset!=undefined){
 	    const json=JSON.parse(event.data.slice(1));
 	    if ("name" in json){
-		nname.innerHTML = json.name;
-		title.innerHTML = json.name;
+		document.getElementById("name").innerHTML = json.name;
+		document.getElementById("title").innerHTML = json.name;
 	    }
 	    if ("karaoke" in json){
 		karaoke = json.karaoke;
