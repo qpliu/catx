@@ -1,0 +1,118 @@
+% PARTS midi
+% BIN midi all gg susan kav peter
+
+\header {
+    title = "The World I Know"
+    composer = "Collective Soul"
+}
+
+#(set-global-staff-size 20)
+
+\include "markup"
+\include "generated-drs"
+\include "generated-bass"
+\include "generated-clarinet"
+\include "generated-conga"
+\include "generated-guitar1"
+\include "generated-guitar2"
+\include "generated-strings"
+\include "lyrics"
+
+voAligner = \new NullVoice = "vo" \clarinetPart
+
+layoutmusic = <<
+    \tag #'(allPart kavPart susanPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vocals" }
+	shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+	\markupStuff
+	\clarinetPart
+	\voAligner
+	\voLyrics
+    >>
+    \tag #'(allPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Strings" }
+	shortInstrumentName = \markup { \rotate #90 "Str" }
+    } <<
+	\markupStuff
+	\clef bass
+	\stringsPart
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar1" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr1" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\guitarOnePart
+    >>
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\guitarOnePart
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar2" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr2" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\guitarTwoPart
+    >>
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\guitarTwoPart
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Bass" }
+	shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } <<
+	\markupStuff
+	\clef "bass_8"
+	\bassPart
+    >>
+    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+	\markupStuff
+	\bassPart
+    >>
+    \tag #'(allPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Conga" }
+	shortInstrumentName = \markup { \rotate #90 "Con" }
+    } <<
+	\override DrumStaff.StaffSymbol.line-count = #1
+	\markupStuff
+	\congaPart
+    >>
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drsPart
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiGg) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drsPart
+    \tag #'(midiSusan) \new Staff \with {
+	midiInstrument = #"steel drums"
+    } \clarinetPart
+    \tag #'(midiOne) \new Staff \with {
+	midiInstrument = #"string ensemble 1" % 48
+    } \stringsPart
+    \tag #'(midiOne) \new Staff \with {
+	midiInstrument = #"electric bass (pick)"
+    } \bassPart
+    \tag #'(midiPeter) \new Staff \with {
+	midiInstrument = #"acoustic guitar (steel)" % 25
+    } \guitarOnePart
+    \tag #'(midiTwo) \new Staff \with {
+	midiInstrument = #"acoustic guitar (nylon)" % 24
+    } \guitarTwoPart
+    \tag #'(midiOne) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \congaPart
+>>

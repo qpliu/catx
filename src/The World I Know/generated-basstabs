@@ -1,0 +1,91 @@
+bassPart =
+{
+% url: -
+% artist: Collective Soul
+% title: The World I Know
+% instrument: Electric Bass (pick)
+% name: Track 3
+    \time 4/4
+    \tempo 4 = 78
+% tuning e,, a,, d, g,
+    r1 |
+    r1 |
+    r1 |
+    r2 3-10t16 9t8 7t8. 4-10t8 |
+    4-7t2 3-5t16 7t 5t4. |
+    4-2t16 3t t8 t t16 t8 t16 5t8. t8 t16 |
+    4-5t16 7t4.~ t16 3-5t 7t 5t4. |
+    4-2t16 3t t8 t t16 t8 t16 5t8. t8 t16 |
+    4-5t16 7t4.~ t16 3-5t 7t 5t4. |
+    4-2t16 3t t8 t t16 t8 t16 5t8. t8 t16 |
+    4-5t16 7t4.~ t16 3-5t 7t 5t4. |
+    4-2t16 3t t8 t t16 t8 t16 5t8. t8 t16 |
+    4-5t16 7t4.~ t16 3-5t 7t 5t4. |
+    4-2t16 3t t8 t t16 t8 t16 5t8. t8 t16 |
+    4-5t16 7t4.~ t16 3-5t 7t 5t4. |
+    4-2t16 3t t8 t4 t16 3-5t 4-3t4 t8 |
+    4-5t8 t t t t t t t |
+    4-5t8 t t t t t t t |
+    4-3t8 t t t t t t t |
+    4-3t8 t t t t t 5t16 t t t |
+    4-7t2 3-5t16 7t 5t4. |
+    4-2t16 3t t8 t t16 t8 t16 5t8. t8 t16 |
+    4-5t16 7t4.~ t16 3-5t 7t 5t4. |
+    4-2t16 3t t8 t t16 t8 t16 5t8. t8 t16 |
+    4-5t16 7t4.~ t16 3-5t 7t 5t4. |
+    4-2t16 3t t8 t t16 t8 t16 5t8. t8 t16 |
+    4-5t16 7t4.~ t16 3-5t 7t 5t4. |
+    4-2t16 3t t8 t t16 t8 t16 5t8. t8 t16 |
+    4-5t16 7t4.~ t16 3-5t 7t 5t4. |
+    4-2t16 3t t8 t t16 t8 t16 5t8. t8 t16 |
+    4-5t16 7t4.~ t16 3-5t 7t 5t4. |
+    4-2t16 3t t8 t4 t16 3-5t 4-3t4 t8 |
+    4-5t8 t t t t t t t |
+    4-5t8 t t t t t t t |
+    4-3t8 t t t t t t t |
+    4-3t8 t t t t 2-5t 4t16 5t 4t 3-5t |
+    3-5t8 t4~ t16 t t8 t4~ t16 t |
+    3-7t8 t4~ t16 t t8 t4~ t16 t |
+    4-3t8 t4~ t16 t t8 t4~ t16 t |
+    3-5t8 t4~ t16 t t8 t4~ t16 t |
+    3-5t8 t4~ t16 t t8 t4~ t16 t |
+    3-7t8 t4~ t16 t t8 t4~ t16 t |
+    4-3t8 t4~ t16 t t8 t4~ t16 t |
+    3-5t8 t4~ t16 t t8 t4~ t16 t |
+    4-7t2 3-5t16 7t 5t4. |
+    4-2t16 3t t8 t t16 t8 t16 5t8. t8 t16 |
+    4-5t16 7t4.~ t16 3-5t 7t 5t4. |
+    4-2t16 3t t8 t t16 t8 t16 5t8. t8 t16 |
+    4-7t2 3-5t16 7t 5t4. |
+    4-2t16 3t t8 t t16 t8 t16 5t8. t8 t16 |
+    4-7t2 3-5t16 7t 5t4. |
+    4-2t16 3t t8 t4 t16 3-5t 4-3t4 t8 |
+    4-5t8 t t t t t t t |
+    4-5t8 t t t t t t t |
+    4-3t8 t t t t t t t |
+    4-3t8 t t t t 2-5t 4t16 5t 4t 3-5t |
+    3-5t8 t4~ t16 t t8 t4~ t16 t |
+    3-7t8 t4~ t16 t t8 t4~ t16 t |
+    4-3t8 t4~ t16 t t8 t4~ t16 t |
+    3-5t8 t4~ t16 t t8 t4~ t16 t |
+    3-5t8 t4~ t16 t t8 t4~ t16 t |
+    3-7t8 t4~ t16 t t8 t4~ t16 t |
+    4-3t8 t4~ t16 t t8 t4~ t16 t |
+    3-5t8 t4~ t16 t t8 t4~ t16 t |
+    3-5t8 t4~ t16 t t8 t4~ t16 t |
+    3-7t8 t4~ t16 t t8 t4~ t16 t |
+    4-3t8 t4~ t16 t t8 t4~ t16 t |
+    3-5t8 t4~ t16 t t8 t4~ t16 t |
+    3-5t8 t4~ t16 t t8 t4~ t16 t |
+    3-7t8 t4~ t16 t t8 t4~ t16 t |
+    4-3t8 t4~ t16 t t8 t4~ t16 t |
+    3-5t8 t4~ t16 t t8 t 2-7t 5t |
+    3-5t4 t t16 t 4-2t4 t8 |
+    4-2t16 3t t8 t t16 t8 t16 t8. t8 t16 |
+    3-5t4 t t16 t 4-2t4 t8 |
+    4-2t16 3t t8 t t16 t8 t16 t8. t8 t16 |
+    3-5t4 t t16 t 4-2t4 t8 |
+    4-2t16 3t t8 t t16 t8 t16 t8. t8 t16 |
+    3-5t4 t t16 t 4-2t4 t8 |
+    4-3t1 |
+}

@@ -1,0 +1,13 @@
+#!/bin/bash
+set -e -o pipefail
+GET="java -jar ../../songsterrToLy/1.jar"
+DIR="/share/mirror/songsterr/stuff/d-keep/d-Collective Soul/d-The World I Know-s28505/d-r38622"
+gzip -d <"$DIR"/z-t0|$GET --name guitarOnePart --output-tabs - >generated-guitar1tabs
+gzip -d <"$DIR"/z-t1|$GET --name guitarTwoPart --output-tabs - >generated-guitar2tabs
+gzip -d <"$DIR"/z-t2|$GET --name bassPart --output-tabs - >generated-basstabs
+gzip -d <"$DIR"/z-t3|$GET --name stringsPart --output-relative --no-string-numbers - >generated-strings
+gzip -d <"$DIR"/z-t4|$GET --name clarinetPart --output-relative --no-string-numbers - >generated-clarinet
+gzip -d <"$DIR"/z-t5|$GET --name drsPart --no-string-numbers - >generated-drscolors
+gzip -d <"$DIR"/z-t6|$GET --name congaPart --no-string-numbers - >generated-conga
+
+

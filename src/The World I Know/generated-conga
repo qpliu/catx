@@ -1,0 +1,91 @@
+congaPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+% url: -
+% artist: Collective Soul
+% title: The World I Know
+% instrument: Drums
+% name: Percussion
+    \time 4/4
+    \tempo 4 = 78
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    cgh8 cgh r4 cgh16 r cgh8 r4 |
+    cgh8 cgh r4 r16 cgh cgh8 r cgh |
+    cgh8 cgh r4 cgh16 r cgh8 r4 |
+    cgh8 cgh r4 r16 cgh cgh8 r cgh |
+    cgh8 cgh r4 cgh16 r cgh8 r4 |
+    cgh8 cgh r4 r16 cgh cgh8 r cgh |
+    cgh8 cgh r4 cgh16 r cgh8 r4 |
+    cgh8 cgh r4 r16 cgh cgh8 r cgh |
+    cgh8 cgh r4 cgh16 r cgh8 r4 |
+    cgh8 cgh r4 r16 cgh cgh8 r cgh |
+    cgh8 cgh r4 cgh16 r cgh8 r4 |
+    cgh8 cgh r4 r16 cgh cgh8 r cgh |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    cgh8 cgh r4 cgh16 r cgh8 r4 |
+    cgh8 cgh r4 r16 cgh cgh8 r cgh |
+    cgh8 cgh r4 cgh16 r cgh8 r4 |
+    cgh8 cgh r4 r16 cgh cgh8 r cgh |
+    cgh8 cgh r4 cgh16 r cgh8 r4 |
+    cgh8 cgh r4 r16 cgh cgh8 r cgh |
+    cgh8 cgh r4 cgh16 r cgh8 r4 |
+    cgh8 cgh r4 r16 cgh cgh8 r cgh |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

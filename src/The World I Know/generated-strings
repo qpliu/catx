@@ -1,0 +1,93 @@
+stringsPart =
+{
+% url: -
+% artist: Collective Soul
+% title: The World I Know
+% instrument: String Ensemble 1
+% name: Track 4
+    \time 4/4
+    \tempo 4 = 78
+% tuning e,, a,, d, g,
+    \relative {
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        b,2 d |
+        b2. a4 |
+        b2 d |
+        b2. <a cis>4 |
+        <b d>2 r |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        <cis cis'>1~ |
+        <cis cis'>1 |
+        <b b'>1~ |
+        <b b'>1 |
+        <b b'>2 <d d'> |
+        <b b'>2. <a a'>4 |
+        <b b'>2 <d d'> |
+        <b b'>2. <cis cis'>4 |
+        <d d'>2 r |
+        r1 |
+        <d d'>2 r |
+        r1 |
+        <d d'>2 r |
+        r1 |
+        <d d'>2 r |
+        r1 |
+        <cis cis'>1~ |
+        <cis cis'>1 |
+        <b b'>1~ |
+        <b b'>1 |
+        <fis' fis'>1 |
+        <e e'>1 |
+        <g, g''>1 |
+        <fis' fis'>2~ <fis fis'>16 fis'32 r g16 r fis r e8 |
+        <fis, fis'>1 |
+        <e e'>1 |
+        <g, g''>1 |
+        <fis' fis'>2~ <fis fis'>16 fis'32 r g16 r fis r e8 |
+        <b, b'>2 <d d'> |
+        <b b'>2. <a a'>4 |
+        <b b'>2 <d d'> |
+        <b b'>2. <cis cis'>4 |
+        d'4. e8 fis2 |
+        fis16 g32 r g16. r32 g2 fis,16 g fis e |
+        d'4. e8 fis2 |
+        fis16 g32 r g16. r32 g4 d8 cis b a |
+        <cis, cis'>1~ |
+        <cis cis'>1 |
+        <b b'>1~ |
+        <b b'>1 |
+        <fis' fis'>1 |
+        <e e'>1 |
+        <g, g''>1 |
+        <fis' fis'>2~ <fis fis'>16 fis'32 r g16 r fis r e8 |
+        <fis, fis'>1 |
+        <e e'>1 |
+        <g, g''>1 |
+        <fis' fis'>2~ <fis fis'>16 fis'32 r g16 r fis r e8 |
+        <fis, fis'>1 |
+        <e e'>1 |
+        <g, g''>1 |
+        <fis' fis'>2~ <fis fis'>16 fis'32 r g16 r fis r e8 |
+        <fis, fis'>1 |
+        <e e'>1 |
+        <g, g''>1 |
+        <fis' fis'>2~ <fis fis'>16 fis'32 r g16 r fis r e8 |
+        g32 r fis r a r fis r g r fis r a r fis r g r fis r a r fis r g r fis r a r fis r |
+        g32 r fis r a r fis r g r fis r a r fis r g r fis r a r fis r g r fis r a r fis r |
+        g32 r fis r a r fis r g r fis r a r fis r g r fis r a r fis r g r fis r a r fis r |
+        g32 r fis r a r fis r g r fis r a r fis r g r fis r a r fis r g r fis r a r fis r |
+        g32 r fis r a r fis r g r fis r a r fis r g r fis r a r fis r g r fis r a r fis r |
+        g32 r fis r a r fis r g r fis r a r fis r g r fis r a r fis r g r fis r a r fis r |
+        g32 r fis r a r fis r g r fis r a r fis r g r fis r a r fis r g r fis r a r fis r |
+        g1 |
+    }
+}
