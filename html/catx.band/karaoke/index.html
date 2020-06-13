@@ -56,7 +56,6 @@
     var beat_events;
     var next_line_start;
     var ball_x0,ball_y0,ball_t0;
-    var ball_x1,ball_y1,ball_t1;
     cats.forEach(function(cat){
 	const div=document.getElementById("div");
 	l = [];
@@ -128,45 +127,19 @@
 	    lines[which_line].innerHTML = sb;
 	    next_line_start = start_time+(2*this_line_start+this_line_end)/3;
 	}
-	if (line_events.length!=0){
-	    const element=document.getElementById(line_events[0][1]);
-	    if (element!=null){
-		const rect=element.getBoundingClientRect();
-		if (ball_x0==undefined){
-		    ball_t0 = start_time;
-		    ball_x0 = 0;
-		    ball_y0 = rect.top;
-		}
-		if (ball_x1==undefined){
-		    ball_t1 = start_time+line_events[0][0];
-		    ball_x1 = (rect.left+rect.right)/2;
-		    ball_y1 = rect.top;
-		}
-	    }
-	}
-	if (ball_x1!=undefined){
-	    let tt=ball_t1-ball_t0;
-	    const t=(now-ball_t0)/tt;
-	    const rect=ball.getBoundingClientRect();
-	    ball.style.left = (ball_x0+t*(ball_x1-ball_x0)+(rect.left-rect.right)/2)+"px";
-	    if (tt>2000)
-		tt = 2000;
-	    ball.style.top = (ball_y0+t*(ball_y1-ball_y0)-rect.bottom+rect.top-(1-4*(t-.5)*(t-.5))*bounce_height*tt/2000)+"px";
-	}
 	for (; line_events.length!=0&&start_time+line_events[0][0]<now; line_events=line_events.slice(1)){
-	    const element=document.getElementById(line_events[0][1]);
+	    let element=document.getElementById(line_events[0][1]);
 	    if (element==null)
 		continue;
-	    if (line_events[0].length==3)
+	    if (line_events[0].length==3){
 		element.innerHTML = line_events[0][2];
-	    else
+		element = element.parentElement;
+	    }else
 		element.style.color = '#f00';
-	    if (ball_x1!=undefined){
-		ball_t0 = ball_t1;
-		ball_x0 = ball_x1;
-		ball_y0 = ball_y1;
-		ball_x1 = undefined;
-	    }
+	    const rect=element.getBoundingClientRect();
+	    ball_t0 = start_time+line_events[0][0];
+	    ball_x0 = (rect.left+rect.right)/2;
+	    ball_y0 = rect.top;
 	}
 	for (; beat_events.length!=0&&start_time+beat_events[0][0]<now; beat_events=beat_events.slice(1)){
 	    last_beat_time = beat_events[0][0];
@@ -174,6 +147,24 @@
 		cat[4] = (cat[4]+1)%cat[2];
 	    });
 	    beat_counter.innerHTML = beat_events[0][1]
+	}
+	if (line_events.length!=0 && ball_x0!=undefined){
+	    let element=document.getElementById(line_events[0][1]);
+	    if (element!=null){
+		if (line_events[0].length==3)
+		    element = element.parentElement;
+		const rect=element.getBoundingClientRect();
+		const ball_t1=start_time+line_events[0][0];
+		const ball_x1=(rect.left+rect.right)/2;
+		const ball_y1=rect.top;
+		let tt=ball_t1-ball_t0;
+		const t=(now-ball_t0)/tt;
+		const r=ball.getBoundingClientRect();
+		ball.style.left = (ball_x0+t*(ball_x1-ball_x0)+(r.left-r.right)/2)+"px";
+		if (tt>2000)
+		    tt = 2000;
+		ball.style.top = (ball_y0+t*(ball_y1-ball_y0)-r.bottom+r.top-(1-4*(t-.5)*(t-.5))*bounce_height*tt/2000)+"px";
+	    }
 	}
 	if (beat_events.length!=0 && last_beat_time!=undefined){
 	    const t=(now-start_time-last_beat_time)/(beat_events[0][0]-last_beat_time);
@@ -218,7 +209,6 @@
 		last_fatcat = 0;
 		last_beat_time = undefined;
 		ball_x0 = undefined;
-		ball_x1 = undefined;
 		line_events = [];
 		beat_events = [];
 		lines[0].innerHTML = "";
