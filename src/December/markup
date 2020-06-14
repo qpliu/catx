@@ -23,7 +23,7 @@ markupStuff = {
 \mymark "Bridge" #105
     s1*32 |
 \mymark "Outro" #137
-    s1*4 |
-\mybarNumberCheck #141
-    s1 \bar "|."
+    s1*5 |
+    \bar "|."
+\mybarNumberCheck #142
 }

@@ -30,7 +30,6 @@ voTwoPart =
     d4  c8 b g4 bes8 c | d4   c8 b   g2 |
     d'4 c8 b g4 g      | bes4 bes8 g b2 |
 \mymark "Outro" #137
-    R1*4 |
-\barNumberCheck #141
-    R1
+    R1*5 |
+\mybarNumberCheck #142
 }

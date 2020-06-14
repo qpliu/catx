@@ -110,8 +110,6 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh8 hh <hh sn> hh hh hh sn16 sn sn8 | } \context DrumVoice = "drsb" { bd2 bd | } >>
 \mymark "Outro" #137
     << { cymc1 | } \context DrumVoice = "drsb" { bd1 | } >>
-    R1*3 |
-\barNumberCheck #141
-    r1
-    \bar "|."
+    R1*4 |
+\mybarNumberCheck #142
 }
