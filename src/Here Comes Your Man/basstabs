@@ -1,0 +1,67 @@
+bassPart = {
+% tuning e,, a,, d, g,
+    s1 |
+    r4    3-5t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+    3-5t4 3-5t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+    3-5t4 3-5t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+\mymark "Verse 1" 8
+    3-5t4. t4 0t8 5t t | 4-5t4. t8 3-4t t 5t 4-5t |
+    4-0t4. t4 t8 2t4 | 4-3t8 t4 t8 3-2t t 4t t |
+    3-5t4. t4 0t8 5t t | 4-5t4. t8 3-4t t 5t 4-5t |
+    4-0t4. t4 t8 2t4 | 4-3t8 t4 t8 3-2t t 4t t |
+    3-5t4. t4 0t8 5t t | 4-5t4. t8 3-4t t 5t 4-5t |
+    4-0t4. t4 t8 2t4 | 4-3t8 t4 t8 3-2t t 4t t |
+    3-5t4. t4 0t8 5t t | 4-5t4. t8 3-4t t 5t 4-5t |
+    4-0t4. t4 t8 2t4 | 4-3t8 t4 t8 3-2t t 4t t |
+\mymark "Pre-Chorus 1" #24
+    3-2t4. t8 t2 | 4-3t4. t8 t2 | 4-5t4. t8 t t t t |
+    3-5t8 t t  t 2-4t t 5t 4-5t |
+\mymark "Chorus 1" #28
+    3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+    3-5t4   t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+    3-5t4   t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+\mymark "Riff 1" #33
+    3-5t4. t4 0t8 5t t | 4-5t4. t8 3-4t t 5t 4-5t |
+    4-0t4. t4 t8 2t4 | 4-3t8 t4 t8 3-2t t 4t t |
+\mymark "Verse 2" #37
+    3-5t4. t4 0t8 5t t | 4-5t4. t8 3-4t t 5t 4-5t |
+    4-0t4. t4 t8 2t4 | 4-3t8 t4 t8 3-2t t 4t t |
+    3-5t4. t4 0t8 5t t | 4-5t4. t8 3-4t t 5t 4-5t |
+    4-0t4. t4 t8 2t4 | 4-3t8 t4 t8 3-2t t 4t t |
+\mymark "Pre-Chorus 2" #45
+    3-2t4. t8 t2 | 4-3t4. t8 t2 | 4-5t4. t8 t t t t |
+    3-5t8 t t  t 2-4t t 5t 4-5t |
+\mymark "Chorus 2" #49
+    3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+    3-5t4   t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+    3-5t4   t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+    3-5t4   t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+\mymark "Riff 2" #56
+    3-5t8 t t 0t     5t t t t | 4-5t8 t t 0t 5t t t t |
+    2-2t8 t t 3-2t 2-2t t t t | 2-5t8 t t 0t 5t 4t 2t 0t |
+    3-5t8 t t 0t     5t t t t | 4-5t8 t t 0t 5t t t t |
+    2-2t8 t t 3-2t 2-2t t t t | 2-5t8 t t 0t 5t t t 7t |
+    3-5t8 t t 0t     5t t t t | 4-5t8 t t 0t 5t t t t |
+    2-2t8 t t t       t t t t | 2-5t8 t t t   t t t t |
+    3-5t8 t t t       t t t t | 4-5t8 t t t   t t t t |
+    2-2t8 t t t       t t t t | 2-5t8 t t t   t t t t |
+\mymark "Pre-Chorus 3" #72
+    3-2t4. t8 t2 | 3-3t4. t8 t2 | 4-5t4. t8 t t t t |
+    3-5t8 t t t t t t t |
+\mymark "Chorus 3" #76
+    3-5t4   t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+    3-5t4   t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+    3-5t4   t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+    3-5t4   t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+    3-5t4   t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+    3-5t4   t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+    3-5t4   t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+    3-5t4   t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+    3-5t4   t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+    3-5t4   t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+    3-5t4   t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+    3-5t4   t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+    3-5t4   t8 t 2-4t t 5t 4-5t | 3t4 3-2t8 0t 4-5t8 3-4t 5t 7t |
+    3-5t1 |
+\mybarNumberCheck #103
+}
