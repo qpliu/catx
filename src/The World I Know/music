@@ -100,7 +100,7 @@ midimusic = <<
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \clarinetPart
-    \tag #'(midiOne) \new Staff \with {
+    \tag #'(midiThree) \new Staff \with {
 	midiInstrument = #"string ensemble 1" % 48
     } \stringsPart
     \tag #'(midiOne) \new Staff \with {
@@ -112,7 +112,8 @@ midimusic = <<
     \tag #'(midiTwo) \new Staff \with {
 	midiInstrument = #"acoustic guitar (nylon)" % 24
     } \guitarTwoPart
-    \tag #'(midiOne) \new DrumStaff \with {
+    \tag #'(midiFour) \new DrumStaff \with {
+	midiInstrument = #"melodic tom"
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \congaPart
 >>
