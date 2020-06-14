@@ -1,7 +1,7 @@
 drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     \context DrumVoice = "drsa" \voiceOne
     \context DrumVoice = "drsb" \voiceTwo
-    s1 r2. r8 sn |
+    s1 r2. r8 sidestick |
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd8 bd4. | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd8 bd4. | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd8 bd4. | } >>
@@ -85,7 +85,7 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd2 | } >>
     << { hh8 hh <hh sn> hh <hho sn>4 sn8 sn16 sn | } \context DrumVoice = "drsb" { bd8 bd4 bd4 bd4. | } >>
 \mymark "Chorus 3" #76
-    << { sn2. r8 sn | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { sn2. r8 sidestick | } \context DrumVoice = "drsb" { bd1 | } >>
     << { <cymc hh>8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd8 bd4 bd8 | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd8 bd4 bd8 | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd8 bd4 bd8 | } >>

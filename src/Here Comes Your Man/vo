@@ -34,7 +34,7 @@ voPart = \relative {
     g8) r4. d8 b4 b8  | b( a4.) r2 |
     r2 d8 b4 b8    | b( a4.) r2 |
     r2 g'8 e4 e8   | e2.~( e8 fis |
-    g2) d8 b4 b8 |
+    g8) r4. d8 b4 b8 |
 \mymark "Riff 2" #56
     b8( a4.) r2 | s1 s1 s1 |
     s1 s1 s1   | r2. a4 |
@@ -50,15 +50,15 @@ voPart = \relative {
     r2 d8 b4 b8  | b( a4.) r2 |
     r2 d8 b4 b8  | b( a4.) r2 |
     r2 g'8 e4 e8  | e2.~( e8 fis |
-    g2) d8 b4 b8 | b( a4.) r2 |
+    g8) r4. d8 b4 b8 | b( a4.) r2 |
     r2 d8 b4 b8  | b( a4.) r2 |
     r2 d8 b4 b8  | b( a4.) r2 |
     r2 g'8 e4 e8  | e2.~( e8 fis |
-    g2) g8 e4 e8 | e2.~( e8 fis |
-    g2) d8 b4 b8 | b( a4.) r2 |
+    g8) r4. g8 e4 e8 | e2.~( e8 fis |
+    g8) r4. d8 b4 b8 | b( a4.) r2 |
     r2 d8 b4 b8  | b( a4.) r2 |
     r2 g'8 e4 e8  | e2.~( e8 fis |
-    g2) g8 e4 e8 | e2.~( e8 fis |
-    g2) cis,8 d4 e8 | d4 r4 r2 |
+    g8) r4. g8 e4 e8 | e2.~( e8 fis |
+    g8) r4. d8 d4 e8 | d4 r4 r2 |
 \mybarNumberCheck #103
 }

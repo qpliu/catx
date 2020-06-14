@@ -1,8 +1,8 @@
 egPart = {
-    5-5.4.5.6t1 |
-    r4 5-5t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
-    5-5t4 t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
-    5-5t4 t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    6-0.5.4.5.6t1 |
+    r4 5-5t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    5-5t4 t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    5-5t4 t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
 \mymark "Verse 1" 8
     3-2t8 2-3t  3-2t 1-2t4 2-3t8  3-2t4 |
     3-9t8 2-10t 3-9t 1-9t4 2-10t8 3-9t4 |
@@ -25,8 +25,8 @@ egPart = {
     3-6.5.5t8 t t t t t t t | 2-10.10t8 t t t t t t4  |
 \mymark "Chorus 1" #28
     6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
-    5-5t4 t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
-    5-5t4 t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    5-5t4 t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    5-5t4 t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
 \mymark "Riff 1" #33
     r4 3-11t8 9t r 4-12t r t | 11t t r t 12t r 3-9t8 r |
     r4 3-11t8 9t r 4-12t r t | 3-11t t 9t r 4-12t 3-9t4. |
@@ -40,9 +40,9 @@ egPart = {
     3-6.5.5t8 t t t t t t t | 2-10.10t8 t t t t t t4  |
 \mymark "Chorus 2" #49
     6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
-    5-5t4 t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
-    5-5t4 t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
-    5-5t4 t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    5-5t4 t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    5-5t4 t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    5-5t4 t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
 \mymark "Riff 2" #56
     r8 3-11.10.10t8 t t t t t t |
     r8 2-5t 1-5t 2-5t 2-5.7t 2-5.5t 2-5.7t 2-5t |
@@ -64,19 +64,19 @@ egPart = {
     3-7.7.7t8 t t t t t t t | 3-7.7.7t8 t t t t t t t |
     3-6.5.5t8 t t t t t t t | 2-10.10t8 t t t t t t4  |
 \mymark "Chorus 3" #76
-    5-5t4 t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
-    5-5t4 t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
-    5-5t4 t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
-    5-5t4 t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
-    5-5t4 t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
-    5-5t4 t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
-    5-5t4 t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
-    5-5t4 t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
-    5-5t4 t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
-    5-5t4 t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
-    5-5t4 t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
-    5-5t4 t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
-    5-5t4 t8 t 4-4t t 5t 6-5t | 3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    5-5t4 t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    5-5t4 t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    5-5t4 t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    5-5t4 t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    5-5t4 t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    5-5t4 t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    5-5t4 t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    5-5t4 t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    5-5t4 t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    5-5t4 t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    5-5t4 t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    5-5t4 t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
+    5-5t4 t8 t 4-4t t 5t 5-0t | 6-3t4 5-2t8 0t 6-5t 5-4t 5t 7t |
     5-5t1
 \mybarNumberCheck #103
 }
