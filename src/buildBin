@@ -49,8 +49,5 @@ then
 		;;
 	esac
     done
-    if grep -q '^name=' bin/temp.aarin
-    then
-	cp bin/temp.aarin "/share/music/aarin/$name.aarin"
-    fi
+    test -d /share/music && cp bin/temp.aarin "/share/music/aarin/$name.aarin"
 fi

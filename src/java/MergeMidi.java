@@ -387,6 +387,8 @@ System.err.println("measure="+(1+time/(384*4))+" beat="+(1+time%(384*4)/384)+" d
 			    long start=keyTime[kk];
 			    long stop=time;
 			    String text=textMap.get(kk);
+			    if (text==null)
+				throw new RuntimeException("text==null kk="+kk+" trackName="+trackName+" time="+start);
 			    Matcher m=textPattern.matcher(text);
 			    if (!m.matches())
 				throw new IOException("Bad text="+text);

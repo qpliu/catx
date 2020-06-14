@@ -1,4 +1,5 @@
 % PARTS midi
+% BIN midi all
 
 \header {
     title = "Hardest Button To Button"
@@ -9,23 +10,9 @@
 
 \include "markup"
 \include "drs"
-\include "vo"
-\include "lyrics"
-\include "chorus"
-\include "choruslyrics"
 
 layoutmusic = <<
-    \tag #'(allPart) \new Staff \with { \RemoveEmptyStaves } <<
-	\markupStuff
-	\voPart
-	\voLyrics
-    >>
-    \tag #'(allPart) \new Staff \with { \RemoveEmptyStaves } <<
-	\markupStuff
-	\chorusPart
-	\chorusLyrics
-    >>
-    \tag #'(allPart) \new DrumStaff \with {
+    \tag #'(allPart ggPart) \new DrumStaff \with {
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
@@ -35,12 +22,6 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiSusan) \new Staff \with {
-	midiInstrument = #"steel drums" % 114
-    } <<
-	\voPart
-	\chorusPart
-    >>
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart

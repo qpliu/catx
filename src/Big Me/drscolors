@@ -2,7 +2,7 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     \context DrumVoice = "drsa" \voiceOne
     \context DrumVoice = "drsb" \voiceTwo
 % 1.1 
-    \barNumberCheck #1
+    \mybarNumberCheck #1
     \repeat volta 2{
 	<< { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd4 r8 bd8 r8 bd8 r4 | } >>
 	<< { cymr8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r4 | } >>
@@ -10,7 +10,7 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
 	<< { cymr8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r4 | } >>
     }
 % 1.2
-    \barNumberCheck #5
+    \mybarNumberCheck #5
     \repeat volta 2{
 	<< { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd4 r8 bd8 r8 bd8 r4 | } >>
 	<< { cymr8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r4 | } >>
@@ -18,31 +18,31 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
 	<< { cymr8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r4 | } >>
     }
 % 1.3
-    \barNumberCheck #9
+    \mybarNumberCheck #9
     << { <sn toml>4 <sn toml>8 <sn toml> <sn toml> <sn toml> <sn toml> <sn toml> | } \context DrumVoice = "drsb" { bd4 bd8 bd bd bd bd bd | } >>
     << { <sn toml>8 <sn toml> <sn toml> <sn toml> <sn toml>4 <sn sn> | } \context DrumVoice = "drsb" { bd8 bd bd bd bd bd r4 | } >>
     << { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd4 r8 bd8 r8 bd8 r4 | } >>
     << { cymr8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r4 | } >>
 % 1.4
-    \barNumberCheck #13
+    \mybarNumberCheck #13
     << { <sn toml>4 <sn toml>8 <sn toml> <sn toml> <sn toml> <sn toml> <sn toml> | } \context DrumVoice = "drsb" { bd4 bd8 bd bd bd bd bd | } >>
     << { <sn toml>8 <sn toml> <sn toml> <sn toml> <sn toml>4 <sn sn> | } \context DrumVoice = "drsb" { bd8 bd bd bd bd bd r4 | } >>
     << { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd4 r8 bd8 r8 bd8 r4 | } >>
     << { cymr8 cymr <cymr sn> cymr <cymr sn> cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r4 | } >>
 % 1.5
-    \barNumberCheck #17
+    \mybarNumberCheck #17
     << { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd4 r8 bd8 r8 bd8 r4 | } >>
     << { cymr8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r4 | } >>
     << { cymr8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd4 r8 bd8 r8 bd8 r4 | } >>
     << { cymr8 cymr <cymr sn> cymr cymr <cymr sn> <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r2 | } >>
 % 1.6
-    \barNumberCheck #21
+    \mybarNumberCheck #21
     << { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd4 r8 bd8 r8 bd8 r4 | } >>
     << { cymc4 sn cymc <cymr sn> | } \context DrumVoice = "drsb" { bd4 r8 bd8 bd4 r8 bd8 | } >>
     << { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr16 sn | } \context DrumVoice = "drsb" { bd4 r8 bd8 bd8 r8 r4 | } >>
     << { sn8 hh\startInstrument "o" hh hh hh hh hh hh | } \context DrumVoice = "drsb" { r8 bd bd bd bd bd bd bd | } >>
 % 1.7
-    \barNumberCheck #25
+    \mybarNumberCheck #25
     \repeat volta 2{
 	<< { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd4 r8 bd8 r8 bd8 r4 | } >>
 	<< { cymr8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r4 | } >>
@@ -50,42 +50,42 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
 	<< { cymr8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r4 | } >>
     }
 % 1.8
-    \barNumberCheck #29
+    \mybarNumberCheck #29
     << { <sn toml>4 <sn toml>8 <sn toml> <sn toml> <sn toml> <sn toml> <sn toml> | } \context DrumVoice = "drsb" { bd4 bd8 bd bd bd bd bd | } >>
     << { <sn toml>8 <sn toml> <sn toml> <sn toml> <sn toml>4 <sn sn> | } \context DrumVoice = "drsb" { bd8 bd bd bd bd bd r4 | } >>
     << { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd4 r8 bd8 r8 bd8 r4 | } >>
     << { cymr8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r4 | } >>
 % 1.9
-    \barNumberCheck #33
+    \mybarNumberCheck #33
     << { <sn toml>4 <sn toml>8 <sn toml> <sn toml> <sn toml> <sn toml> <sn toml> | } \context DrumVoice = "drsb" { bd4 bd8 bd bd bd bd bd | } >>
     << { <sn toml>8 <sn toml> <sn toml> <sn toml> <sn toml>4 <sn sn> | } \context DrumVoice = "drsb" { bd8 bd bd bd bd bd r4 | } >>
     << { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd4 r8 bd8 r8 bd8 r4 | } >>
     << { cymr8 cymr <cymr sn> cymr <cymr sn> cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r4 | } >>
 % 1.10
-    \barNumberCheck #37
+    \mybarNumberCheck #37
     << { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd4 r8 bd8 r8 bd8 r4 | } >>
     << { cymr8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r4 | } >>
     << { cymr8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd4 r8 bd8 r8 bd8 r4 | } >>
     << { cymr8 cymr <cymr sn> cymr cymr <cymr sn> <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r2 | } >>
 % 1.10
-    \barNumberCheck #41
+    \mybarNumberCheck #41
     << { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd4 r8 bd8 r8 bd8 r4 | } >>
     << { cymc4 sn cymc <cymr sn> | } \context DrumVoice = "drsb" { bd4 r8 bd8 bd4 r8 bd8 | } >>
     << { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr16 sn | } \context DrumVoice = "drsb" { bd4 r8 bd8 bd8 r8 r4 | } >>
 % 1.11
-    \barNumberCheck #44
+    \mybarNumberCheck #44
     << { sn8 hh\startInstrument "o" hh hh hh hh hh hh | } \context DrumVoice = "drsb" { r8 bd bd bd bd bd bd bd | } >>
     << { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd4 r8 bd8 r8 bd8 r4 | } >>
     << { cymr8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd8 r8 bd8 r8 bd8 r4 | } >>
     << { cymr8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd4 r8 bd8 r8 bd8 r4 | } >>
 % 2.1
-    \barNumberCheck #48
+    \mybarNumberCheck #48
     << { cymr8 cymr <cymr sn> cymr cymr <cymr sn> <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd r bd r2 | } >>
     << { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd4 r8 bd8 r8 bd8 r4 | } >>
     << { cymc4 sn cymc <cymr sn> | } \context DrumVoice = "drsb" { bd4 r8 bd8 bd4 r8 bd8 | } >>
     << { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd4 r8 bd8 r8 bd8 r4 | } >>
 % 2.2
-    \barNumberCheck #52
+    \mybarNumberCheck #52
     << { cymc4 sn cymc <cymr sn> | } \context DrumVoice = "drsb" { bd4 r8 bd8 bd4 r8 bd8 | } >>
     << { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd4_"Slow down" r8 bd8 r8 bd8 r4 | } >>
     << { cymc4 sn cymc <cymr sn> | } \context DrumVoice = "drsb" { bd4 r8 bd8 bd4 r8 bd8 | } >>

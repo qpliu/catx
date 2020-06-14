@@ -113,7 +113,6 @@ midimusic = <<
 	midiInstrument = #"acoustic guitar (nylon)" % 24
     } \guitarTwoPart
     \tag #'(midiFour) \new DrumStaff \with {
-	midiInstrument = #"melodic tom"
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \congaPart
 >>

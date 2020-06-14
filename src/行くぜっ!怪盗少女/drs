@@ -31,7 +31,7 @@ drsPart = \new DrumVoice = "drsb" \with { \consists "Balloon_engraver" } \new Dr
     << { r2 r4 r8 \balloonGrobText #'NoteHead #'(-3 . 3) "<Rev.Hi-hat>" rhhho-> | } \context DrumVoice = "drsb" { r2 r8 bd bd bd | } >>
     << { r8 hhho sn hho r hho sn hhho | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
 % page 5
-    << { r8 hhho sn hho r <sn tomh hhho>_"Three drum sticks?" <sn tomh> <sn tomm hhho> | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    << { r8 hhho sn hho r <sn tomh hhho>_"Three drum sticks?" <sn tomh> <sn tomml hhho> | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
     \repeat percent 3 {
 	<< { r8 hhho sn hhho r hhho sn hhho | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
     }
@@ -224,7 +224,7 @@ drsPart = \new DrumVoice = "drsb" \with { \consists "Balloon_engraver" } \new Dr
 	<< { r8 hhho r hhho r hhho r hhho | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
     }
 % page 15+1
-    << { r8 hhho r hhho tomh16 tomh hhho tomh r8 <tomm hhho> | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    << { r8 hhho r hhho tomh16 tomh hhho tomh r8 <tomml hhho> | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
     << { r4 r8 hhho r hhho r hhho | } \context DrumVoice = "drsb" { r4 bd bd bd | } >>
 % page 15.1
     << { r8 hhho r hhho r hhho r hhho | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>

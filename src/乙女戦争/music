@@ -1,14 +1,13 @@
 % PARTS midi
-%% BIN midi all
+% BIN midi all
 
 \header {
-    title = "Otome Sensou"
+    title = "乙女戦争"
     composer = "Tika α"
 }
 
 drumPitchNames.treechime = #'treechime
 midiDrumPitches.treechime = c'''
-drumPitchNames.tomm = #'himidtom
 drumPitchNames.fingersnap = #'handclap
 
 #(define myDrumStyleTable '(
@@ -16,7 +15,7 @@ drumPitchNames.fingersnap = #'handclap
     (hihat          cross    #f          5)
     (openhihat      cross    "open"      5)
     (hightom        default  #f          3)
-    (himidtom       default  #f          2)
+    (lowmidtom      default  #f          2)
     (handclap       cross    #f          2)
     (snare          default  #f          1)
     (treechime      xcircle  #f          0)

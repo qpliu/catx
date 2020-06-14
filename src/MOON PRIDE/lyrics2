@@ -1,4 +1,4 @@
-voTwoLyrics = \new Lyrics = "lyrics2a" \lyricsto "vo2" \new Lyrics = "lyrics2b" \lyricsto "vo2" \context Lyrics = "lyrics2a" \lyricmode {
+voTwoLyrics = \new Lyrics = "lyrics2a" \lyricsto "vo2" { \new Lyrics = "lyrics2b" \lyricsto "vo2" { \context Lyrics = "lyrics2a" { \lyricmode {
 % D
     << { \ayaka ku ra ya mi de } \context Lyrics = "lyrics2b" { \shiori ku ra ya mi de } >>
 % page 5.1
@@ -10,4 +10,4 @@ voTwoLyrics = \new Lyrics = "lyrics2a" \lyricsto "vo2" \new Lyrics = "lyrics2b" 
 % page 11.1
     \shiori se tsu na ku te
     \reni sa mi shi ku te
-}
+} } } }

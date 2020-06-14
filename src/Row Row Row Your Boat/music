@@ -1,4 +1,5 @@
 % PARTS midi
+% BIN midi all
 
 \header {
     title = "Row, Row, Row Your Boat"
@@ -14,13 +15,13 @@
 voAligner = \new NullVoice = "vo" \voPart
 
 layoutmusic = <<
-    \tag #'(systemOnePart voPart) \new Staff <<
+    \tag #'(allPart) \new Staff <<
 	\markupStuff
 	\voPart
 	\voAligner
 	\voLyrics
     >>
-    \tag #'(systemOnePart drsPart) \new DrumStaff \with {
+    \tag #'(allPart) \new DrumStaff \with {
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff

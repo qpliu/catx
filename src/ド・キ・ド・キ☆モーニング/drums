@@ -28,7 +28,7 @@ drumsPart = \new DrumVoice = "drumsb" \new DrumVoice = "drumsa" \drummode {
     << { cymc8 hho8 <sn hho>8 hho8 hho8 hho8 <sn hho>8 hho8 | } \context DrumVoice = "drumsb" { bd8 bd8 r4 bd8 bd8 r8 bd8 | } >>
     << { hho8 hho8 <sn hho>8 hho8 hho8 hho8 <sn hho>8 hho8 | } \context DrumVoice = "drumsb" { r8 bd8 r8 bd8 r8 bd8 r4 | } >>
     << { cymc8 hho8 <sn hho>8 hho8 hho8 hho8 <sn hho>8 cymc8~ | } \context DrumVoice = "drumsb" { bd8 bd8 r4 bd8 bd8 r8 bd8 | } >>
-    << { cymc8 sn16 sn16 sn8 cymc8 sn16 sn16 tomm8 sn16 sn16 sn16 sn16 | } \context DrumVoice = "drumsb" { r8 bd8 r8 bd8 bd4 bd4 | } >>
+    << { cymc8 sn16 sn16 sn8 cymc8 sn16 sn16 tomml8 sn16 sn16 sn16 sn16 | } \context DrumVoice = "drumsb" { r8 bd8 r8 bd8 bd4 bd4 | } >>
 % page 123.1 D
     \barNumberCheck #25
     << { cymc8 hh8 <sn hh>8 hh8 hh8 hho8~ hhc8 <sn hho~>8 | } \context DrumVoice = "drumsb" { bd8 bd8 r4 bd4 bd4 | } >>
@@ -50,7 +50,7 @@ drumsPart = \new DrumVoice = "drumsb" \new DrumVoice = "drumsa" \drummode {
     << { cymc8 hho8 hho8 hho8 <sn hho>8 hho8 hho8 hho8 | } \context DrumVoice = "drumsb" { bd16 bd16 bd16 bd16 bd4 r8 bd8 r8 bd8 | } >>
     << { hho8 hho8 <sn hho>8 hho8 hho8 hho8 <sn hho>8 sn16 sn16 | } \context DrumVoice = "drumsb" { r8 bd8 r8 bd8 r8 bd8 r4 | } >>
     << { cymc8 hho8 <sn hho>8 hho8 hho8 hho8 <sn hho>8 cymc8~ | } \context DrumVoice = "drumsb" { bd8 bd8 r4 bd8 bd8 r8 bd8 | } >>
-    << { cymc8 sn16 sn16 sn8 cymc8 sn16 sn16 tomm8 sn16 sn16 sn16 sn16 | } \context DrumVoice = "drumsb" { r8 bd8 r8 bd8 bd4 bd4 | } >>
+    << { cymc8 sn16 sn16 sn8 cymc8 sn16 sn16 tomml8 sn16 sn16 sn16 sn16 | } \context DrumVoice = "drumsb" { r8 bd8 r8 bd8 bd4 bd4 | } >>
 % page 125.1 F Stegno
     \barNumberCheck #41
     << { cymc8 hh8 <sn hh>8 hh8 hh8 hh8 hh8 <sn hho~>8 | } \context DrumVoice = "drumsb" { bd8 bd16 bd16 r4 bd4 bd4 | } >>
@@ -111,7 +111,7 @@ drumsPart = \new DrumVoice = "drumsb" \new DrumVoice = "drumsa" \drummode {
     << { cymc8 hho8 <sn hho>8 hho8 hho8 hho8 <sn hho>8 hho8 | } \context DrumVoice = "drumsb" { bd8 bd8 r4 bd8 bd8 r8 bd8 | } >>
     << { hho8 hho8 <sn hho>8 hho8 hho8 hho8 <sn hho>8 hho8 | } \context DrumVoice = "drumsb" { r8 bd8 r8 bd8 r8 bd8 r4 | } >>
     << { cymc8 hho8 <sn hho>8 hho8 hho8 hho8 <sn hho>8 cymc8~ | } \context DrumVoice = "drumsb" { bd8 bd8 r4 bd8 bd8 r8 bd8 | } >>
-    << { cymc8 sn16 sn16 sn8 cymc8 sn16 sn16 tomm8 sn16 sn16 sn16 sn16 | } \context DrumVoice = "drumsb" { r8 bd8 r8 bd8 bd4 bd4 | } >>
+    << { cymc8 sn16 sn16 sn8 cymc8 sn16 sn16 tomml8 sn16 sn16 sn16 sn16 | } \context DrumVoice = "drumsb" { r8 bd8 r8 bd8 bd4 bd4 | } >>
 % D.S.
 % page 125.1 F Stegno-2x
     \barNumberCheck #81

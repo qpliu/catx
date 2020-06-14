@@ -1,12 +1,10 @@
 % PARTS midi
-%% BIN midi all
+% BIN midi all
 
 \header {
     title = "Ｚ伝説～終わりなき革命～"
     composer = "前山田健"
 }
-
-drumPitchNames.tomm = #'himidtom
 
 mc = \colorLyrics #(rgb-color .5 .5 .5)
 

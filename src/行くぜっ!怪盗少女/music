@@ -1,13 +1,11 @@
 % PARTS midi
-%% BIN midi system1 system2 system3 system4
+% BIN midi system1 system2 system3 system4
 % ROBOT pickup_measures=1
 
 \header {
     title = "行くぜっ!怪盗少女"
     composer = "作詞・作曲:前山田健一"
 }
-
-drumPitchNames.tomm = #'himidtom
 
 drumPitchNames.revnoise = #'revnoise
 midiDrumPitches.revnoise = c,,,, % 0
@@ -64,6 +62,7 @@ midiDrumPitches.rhhho = d'''
     (hightom         default  #f          3)
     (sirenThreeSecs  cross    #f          3)
     (sirenSixSecs    cross    #f          3)
+    (lowmidtom       default  #f          2)
     (glasscrash      cross    #f          2)
     (scratchOne      cross    #f          2)
     (handclapTwo     cross    #f          1)

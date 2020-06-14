@@ -5,6 +5,7 @@
 # *text_lyrics file is only for putting the texts into lyrics for human to check on PDF.
 # *text_midi is the one that actually does stuff.
 # You make TextEvents with something like `(some string)`8 to indicate a TextEvent with duration of 1/8th note.
+# You can use `(some_string) (another_string)` for two simultaneous TextEvents.
 
 # (some string) has this syntax:
 # ([>!.-]*)(\\([^ ()]*\\))?(?:([a-zA-Z]+)=)?([a-zA-Z]+.*)
@@ -81,7 +82,6 @@ def dotext(prefix,isLyrics):
 		line = prefix+line
 	    fd.write(line)
 	    continue
-	line = line.replace('[TEXT_PREFIX]',prefix)
 	i = 0
 	in_lt_gt = 0
 	while i<len(line):

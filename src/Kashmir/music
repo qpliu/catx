@@ -1,4 +1,5 @@
 % PARTS midi
+% BIN midi all
 
 \header {
     title = "Kashmir"
@@ -10,7 +11,7 @@
 \include "drs"
 
 layoutmusic = <<
-    \tag #'(systemOnePart drsPart) \new DrumStaff \with {
+    \tag #'(allPart ggPart) \new DrumStaff \with {
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff

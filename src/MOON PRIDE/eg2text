@@ -3,7 +3,7 @@ egTwoText =
 % page 2 Intro
     \barNumberCheck #1
     r1 | r1 | r1 |
-    \quoteDuring #"[TEXT_PREFIX]eg1" {
+    {
 	s1 | s1 | s1 |
 % page 3 A
 	\barNumberCheck #7
@@ -33,7 +33,7 @@ egTwoText =
 % page 6
     `>dist=program30;volume.4 M=program28`8 `M`8 `M`8 `M`8 `M`8 `M`8 `M`8 `M`8 | % <Dist>
     `M`8 `M`8 `M`16 `M`16 `M`8 `M`4 `M`4 |
-    \quoteDuring #"[TEXT_PREFIX]eg1" {
+    {
 % E
 	\barNumberCheck #35
 	s1 | s1 |
@@ -41,7 +41,7 @@ egTwoText =
 	s1 |
     }
     r4 r4 r4 r8 r8 |
-    \quoteDuring #"[TEXT_PREFIX]eg1" {
+    {
 	s1 | s1 |
 % page 7
 	s1 | s1 | s1 |
@@ -72,7 +72,7 @@ egTwoText =
 % page 6-2x
     `>dist M`8 `M`8 `M`8 `M`8 `M`8 `M`8 `M`8 `M`8 | % <Dist.>
     `M`8 `M`8 `M`16 `M`16 `M`8 `M`4 `M`4 |
-    \quoteDuring #"[TEXT_PREFIX]eg1" {
+    {
 % E-2x
 	\barNumberCheck #76
 	s1 | s1 |
@@ -80,7 +80,7 @@ egTwoText =
 	s1 |
     }
     r4 r4 r4 r8 r8 |
-    \quoteDuring #"[TEXT_PREFIX]eg1" {
+    {
 	s1 | s1 |
 % page 7-2x
 	s1 | s1 | s1 |

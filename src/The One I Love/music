@@ -1,4 +1,5 @@
 % PARTS midi
+% BIN midi all
 
 \header {
     title = "The One I Love"
@@ -9,23 +10,9 @@
 
 \include "markup"
 \include "drs"
-\include "vo"
-\include "lyrics"
-\include "chorus"
-\include "choruslyrics"
 
 layoutmusic = <<
-    \tag #'(systemOnePart voPart) \new Staff \with { \RemoveEmptyStaves } <<
-	\markupStuff
-	\voPart
-	\voLyrics
-    >>
-    \tag #'(chorusPart) \new Staff \with { \RemoveEmptyStaves } <<
-	\markupStuff
-	\chorusPart
-	\chorusLyrics
-    >>
-    \tag #'(systemOnePart drsPart chorusPart) \new DrumStaff \with {
+    \tag #'(allPart) \new DrumStaff \with {
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
@@ -35,9 +22,6 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiSusan) \new Staff \with {
-	midiInstrument = #"steel drums"
-    } \voPart
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart

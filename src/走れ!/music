@@ -1,12 +1,11 @@
 % PARTS midi
-%% BIN midi system1 system2
+% BIN midi system1 system2
 
 \header {
     title = "走れ!"
     composer = "作詞:INFLAVA 作曲:Koji Oba・michitomo"
 }
 
-drumPitchNames.tomm = #'himidtom
 drumPitchNames.revcymbal = #'revcymbal
 midiDrumPitches.revcymbal = d'
 drumPitchNames.ssna = #'ssna
@@ -38,7 +37,7 @@ midiDrumPitches.cym = dis % 51
     (sidestick        cross    #f          4)
     (ssna             cross    #f          3)
     (hightom          default  #f          3)
-    (himidtom         default  #f          2)
+    (lowmidtom        default  #f          2)
     (stomh            cross    #f          2)
     (snare            default  #f          1)
     (slap             cross    #f          1)

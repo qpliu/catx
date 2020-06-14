@@ -1,4 +1,5 @@
-% PARTS drs
+% PARTS midi
+% BIN midi all
 
 \header {
     title = "Buddy Holly"
@@ -12,7 +13,7 @@
 \include "drs"
 
 layoutmusic = <<
-    \tag #'(systemOnePart drsPart) \new DrumStaff \with {
+    \tag #'(allPart ggPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)

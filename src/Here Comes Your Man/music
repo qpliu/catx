@@ -66,6 +66,7 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\drsPart
+	\voAligner
 	\voLyrics
     >>
 >>

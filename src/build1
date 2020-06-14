@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 set -e
 exec 2>&1
 pwd=`pwd`
@@ -13,13 +13,11 @@ PARTS="$*"
 rm -rf bin
 mkdir -p bin/bin
 cd bin
-LINK="cp -l"
-if ! cp --help 2>&1 | grep -qe --link; then LINK=ln; fi
-$LINK ../java/* .
+ln ../java/* .
 javac -Xlint *.java
 cd ..
-$LINK *.i *.wav timidity_extra_silence.cfg bin
-$LINK "$name"/* bin
+ln *.i *.wav timidity_extra_silence.cfg bin
+ln "$name"/* bin
 cd bin
 mv music music-if
 mv header.i header.i-if
@@ -63,7 +61,6 @@ do
 	b=`basename "$a" -if`
 	sed "s/^% IF $part //"  <"$a" >"$b"
     done
-    nameq=$((echo ${name@Q}) 2>/dev/null || echo "'$name'")
     if test "x$part" = "xmidi"
     then
 	merge=
@@ -79,22 +76,22 @@ do
 \midi { }
 }
 EOF
-	    lilypond -l WARN -o "$name-$midi" "$name-$midi.ly"
-	    merge="$merge $nameq-$midi.midi"
+	    lilypond -l WARN -o "$midi" "$name-$midi.ly"
+	    merge="$merge $midi.midi"
 	done
-	eval "java -cp . MergeMidi $merge >$nameq.midi"
+	java -cp . MergeMidi $merge >"$name.midi"
         if type timidity >/dev/null 2>&1
 	then
-	TIMIDITY_EXTRA_CFG="-c timidity_extra_silence.cfg"
-	if test -f timidity_extra.cfg
-	then
-	    TIMIDITY_EXTRA_CFG="$TIMIDITY_EXTRA_CFG -c timidity_extra.cfg"
-	fi
-	timidity $TIMIDITY_EXTRA_CFG -OF -o "$name.flac" -A400 "$name.midi"
-	ffmpeg </dev/null -loglevel 16 -i "$name.flac" "$name.mp3"
-	cp "$name.midi" bin
-	test -d /share/music && cp "$name.mp3" /share/music/mp3
-	test -d /share/music cp "$name.midi" "/share/music/midi/$name.midi"
+	    TIMIDITY_EXTRA_CFG="-c timidity_extra_silence.cfg"
+	    if test -f timidity_extra.cfg
+	    then
+		TIMIDITY_EXTRA_CFG="$TIMIDITY_EXTRA_CFG -c timidity_extra.cfg"
+	    fi
+	    timidity $TIMIDITY_EXTRA_CFG -OF -o "$name.flac" -A400 "$name.midi"
+	    ffmpeg </dev/null -loglevel 16 -i "$name.flac" "$name.mp3"
+	    cp "$name.midi" bin
+	    test -d /share/music && cp "$name.mp3" /share/music/mp3
+	    test -d /share/music && cp "$name.midi" "/share/music/midi/$name.midi"
         fi
     else
 	n="${name}_$part"

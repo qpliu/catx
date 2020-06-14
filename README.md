@@ -11,22 +11,17 @@ Push your changes and wait for me to build.  Don't worry about minor errors.  As
 
 ### Prerequisites to build source the hard way
 
-Lilypond, bash, python, java, timidity, ffmpeg.
+Lilypond, sh, python, java.
 
 ### Building PDF and MIDI files the hard way
 
-Build scripts have references to /share/music embedded all over the place.  You need to get rid of them.
+If you have a directory called /share/music, the build scripts will crap all over it.  You can either put up with it, rename your /share/music directory or modify the scripts.
 
 Try something like this
 
 ```
 sudo apt install lilypond bash python openjdk-11-jdk timidity ffmpeg
 cd src
-for a in build1 buildBin
-do
-mv "$a" "$a-orig"
-sed <"$a-orig" >"$a" -e 's/^.*\/share\/music.*$/:/'
-done
 ./buildAll
 ```
 

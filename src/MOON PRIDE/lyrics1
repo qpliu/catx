@@ -1,4 +1,4 @@
-voOneLyrics = \new Lyrics = "lyrics1a" \lyricsto "vo1" \new Lyrics = "lyrics1b" \lyricsto "vo1" \context Lyrics = "lyrics1a" \lyricmode {
+voOneLyrics = \new Lyrics = "lyrics1a" \lyricsto "vo1" { \new Lyrics = "lyrics1b" \lyricsto "vo1" { \context Lyrics = "lyrics1a" { \lyricmode {
 % page 3
 % A
     \black Moon Pride _ A na ta no chi ka ra ni na ri ta i
@@ -94,7 +94,7 @@ voOneLyrics = \new Lyrics = "lyrics1a" \lyricsto "vo1" \new Lyrics = "lyrics1b" 
     ra shi i de n se tsu ga I ma ko ko ka ra ha ji ma ru La La Pret -- ty
 % page 14.1
     Guard -- i -- an SAIL -- OR MOON
-}    
+} } } }
 %{
 [All] MOON Pride
 Anata no chikara ni naritai

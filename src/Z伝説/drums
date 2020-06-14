@@ -4,7 +4,7 @@ drumsPart = \new DrumVoice = "drumsb" \with { \consists "Balloon_engraver" } \ne
 % page 10
     \barNumberCheck #1
     r1 | r1 | r1 |
-    << { <toml sn>4 tomh16 tomh16 tomh16 tomh16 tomm16 tomm16 tomm16 tomm16 tomm16 tomm16 tomm16 tomm16 | } \context DrumVoice = "drumsb" { r1 | } >>
+    << { <toml sn>4 tomh16 tomh16 tomh16 tomh16 tomml16 tomml16 tomml16 tomml16 tomml16 tomml16 tomml16 tomml16 | } \context DrumVoice = "drumsb" { r1 | } >>
 % page 11 Intro Segno3
     \barNumberCheck #5
     \repeat percent 2 {
@@ -13,10 +13,10 @@ drumsPart = \new DrumVoice = "drumsb" \with { \consists "Balloon_engraver" } \ne
     }
 % page 11.1
     << { cymc4-> <hh sn>8 hho8 hh8 hho8 <hh sn>8 hho8 | } \context DrumVoice = "drumsb" { bd4 bd4 bd4 bd4 | } >>
-    << { hh8 hho8 <hh sn>8 hho8 tomh16 tomh16 tomh16 tomh16 tomm16 tomm16 tomm16 tomm16 | } \context DrumVoice = "drumsb" { bd4 bd4 bd4 bd4 | } >>
+    << { hh8 hho8 <hh sn>8 hho8 tomh16 tomh16 tomh16 tomh16 tomml16 tomml16 tomml16 tomml16 | } \context DrumVoice = "drumsb" { bd4 bd4 bd4 bd4 | } >>
     \repeat percent 3 {
-	<< { <toml sn>4 tomm16 tomm16 toml8 r8 tomm16 tomm16 toml4 | } \context DrumVoice = "drumsb" { r8 bd8 r4 bd4 r8 bd8 | } >>
-	<< { tomm16 tomm16 toml8 r8 tomm16 tomm16 toml4 tomm16 tomm8. | } \context DrumVoice = "drumsb" { r4 bd4 r8 bd8 r8 bd8 | } >>
+	<< { <toml sn>4 tomml16 tomml16 toml8 r8 tomml16 tomml16 toml4 | } \context DrumVoice = "drumsb" { r8 bd8 r4 bd4 r8 bd8 | } >>
+	<< { tomml16 tomml16 toml8 r8 tomml16 tomml16 toml4 tomml16 tomml8. | } \context DrumVoice = "drumsb" { r4 bd4 r8 bd8 r8 bd8 | } >>
     }
 % to Coda 3+1
 % page 12.1 A
@@ -71,7 +71,7 @@ drumsPart = \new DrumVoice = "drumsb" \with { \consists "Balloon_engraver" } \ne
     << { cymc4-> hh8 sn8:32 <hh sn>4 hh8 sn8:32 | } \context DrumVoice = "drumsb" { r4 bd4 r4 bd4 | } >>
     << { <hh sn>4 hh8 sn8:32 <hh sn>4 hh16 sn16 sn8 | } \context DrumVoice = "drumsb" { r4 bd4 bd4 bd4 | } >>
     << { hh8 sn8 <hh sn>8 sn8 <hh sn>4 <hh sn>8 cymc8->~ | } \context DrumVoice = "drumsb" { bd4 bd4 bd4 bd4 | } >>
-    << { cymc8 hh8 <hh sn>4 tomh16 tomh16 tomh16 tomh16 tomm16 tomm16 tomm16 tomm16 | } \context DrumVoice = "drumsb" { r8 bd8 r8 bd8 r2 | } >>
+    << { cymc8 hh8 <hh sn>4 tomh16 tomh16 tomh16 tomh16 tomml16 tomml16 tomml16 tomml16 | } \context DrumVoice = "drumsb" { r8 bd8 r8 bd8 r2 | } >>
 % page 17.1 C Stegno1
     \barNumberCheck #57
     << { cymc4-> hh8 hh8 hh8 hh8 <hh sn>8 hh8 | } \context DrumVoice = "drumsb" { bd4 r8 bd8 bd4 r4 | } >>
@@ -114,7 +114,7 @@ drumsPart = \new DrumVoice = "drumsb" \with { \consists "Balloon_engraver" } \ne
     \repeat percent 3 {
 	<< { cymc8-> cymc8-> cymc8-> r8 r2 | } \context DrumVoice = "drumsb" { bd8 bd8 bd4 r2 | } >>
     }
-    << { cymc8-> cymc8-> cymc8-> r8 tomh16 tomh16 tomh16 tomh16 tomm16 tomm16 tomm16 tomm16 | } \context DrumVoice = "drumsb" { bd8 bd8 bd4 r2 | } >>
+    << { cymc8-> cymc8-> cymc8-> r8 tomh16 tomh16 tomh16 tomh16 tomml16 tomml16 tomml16 tomml16 | } \context DrumVoice = "drumsb" { bd8 bd8 bd4 r2 | } >>
 % page 22
     << { <cymc sn>4-> hh8 sn8 hh4 <hh sn>4 | } \context DrumVoice = "drumsb" { r4 bd4 r8 bd8 r4 | } >>
     << { hh8 sn8 hh4 <hh sn>4 hh4 | } \context DrumVoice = "drumsb" { bd4 r8 bd8 r4 bd4 | } >>
@@ -126,7 +126,7 @@ drumsPart = \new DrumVoice = "drumsb" \with { \consists "Balloon_engraver" } \ne
 % to Coda 1,2
     << { cymc1 | } \context DrumVoice = "drumsb" { r1 | } >>
     r1 |
-    << { sn16 tomm8. r8 sn16 tomm16 r4 <toml sn>4 | } \context DrumVoice = "drumsb" { r8 bd8 bd4 bd8 bd8 r4 | } >>
+    << { sn16 tomml8. r8 sn16 tomml16 r4 <toml sn>4 | } \context DrumVoice = "drumsb" { r8 bd8 bd4 bd8 bd8 r4 | } >>
 % page 23 F
     \barNumberCheck #96
     \repeat percent 3 {
@@ -147,9 +147,9 @@ drumsPart = \new DrumVoice = "drumsb" \with { \consists "Balloon_engraver" } \ne
 % page 24.1
     << { hh8 hh8 hh8 hh16 hh16 hh8 hh8 <hh sn>8 hho8 | } \context DrumVoice = "drumsb" { bd4 bd4 bd8 bd8 bd8 bd8 | } >>
     r1 |
-    << { <toml sn>4 tomh16 tomh16 tomh16 tomh16 \repeat unfold 8 tomm16 | } \context DrumVoice = "drumsb" { r1 | } >>
-    << { <toml sn>4 tomm16 tomm16 toml8 r8 tomm16 tomm16 toml4 | } \context DrumVoice = "drumsb" { r8 bd8 r4 bd4 r8 bd8 | } >>
-    << { tomm16 tomm16 toml8 r8 toml16 toml16 cymc8.-> cymc16->~ cymc8-> cymc8-> | } \context DrumVoice = "drumsb" { r4 bd4 bd8. bd16 r8 bd8 | } >>
+    << { <toml sn>4 tomh16 tomh16 tomh16 tomh16 \repeat unfold 8 tomml16 | } \context DrumVoice = "drumsb" { r1 | } >>
+    << { <toml sn>4 tomml16 tomml16 toml8 r8 tomml16 tomml16 toml4 | } \context DrumVoice = "drumsb" { r8 bd8 r4 bd4 r8 bd8 | } >>
+    << { tomml16 tomml16 toml8 r8 toml16 toml16 cymc8.-> cymc16->~ cymc8-> cymc8-> | } \context DrumVoice = "drumsb" { r4 bd4 bd8. bd16 r8 bd8 | } >>
 % page 25 G
     \barNumberCheck #114
     << { cymc4-> <hh sn>8 hh8 hh8 hh8 <hh sn>8 hh8 | } \context DrumVoice = "drumsb" { bd4 bd4 bd4 bd4 | } >>
@@ -183,7 +183,7 @@ drumsPart = \new DrumVoice = "drumsb" \with { \consists "Balloon_engraver" } \ne
     << { <cymc sn>4-> hh8 sn8:32 <hh sn>4 hh8 sn8:32 | } \context DrumVoice = "drumsb" { r4 bd4 r4 bd4 | } >>
     << { <hh sn>4 hh8 sn8:32 <hh sn>4 hh16 sn16 sn8 | } \context DrumVoice = "drumsb" { r4 bd4 r4 bd4 | } >>
     << { <hh sn>8 sn8 <hh sn>8 sn8 <hh sn>4 hh8 cymc8->~ | } \context DrumVoice = "drumsb" { bd4 bd4 bd4 bd4 | } >>
-    << { cymc4 <hh sn>4 tomh16 tomh16 tomh16 tomh16 tomm16 tomm16 tomm16 tomm16 | } \context DrumVoice = "drumsb" { r8 bd8 r8 bd8 r2 | } >>
+    << { cymc4 <hh sn>4 tomh16 tomh16 tomh16 tomh16 tomml16 tomml16 tomml16 tomml16 | } \context DrumVoice = "drumsb" { r8 bd8 r8 bd8 r2 | } >>
 % D.S.1
 % page 17.1 C Stegno1-2x
     \barNumberCheck #139
@@ -227,7 +227,7 @@ drumsPart = \new DrumVoice = "drumsb" \with { \consists "Balloon_engraver" } \ne
     \repeat percent 3 {
 	<< { cymc8-> cymc8-> cymc8-> r8 r2 | } \context DrumVoice = "drumsb" { bd8 bd8 bd4 r2 | } >>
     }
-    << { cymc8-> cymc8-> cymc8-> r8 tomh16 tomh16 tomh16 tomh16 tomm16 tomm16 tomm16 tomm16 | } \context DrumVoice = "drumsb" { bd8 bd8 bd4 r2 | } >>
+    << { cymc8-> cymc8-> cymc8-> r8 tomh16 tomh16 tomh16 tomh16 tomml16 tomml16 tomml16 tomml16 | } \context DrumVoice = "drumsb" { bd8 bd8 bd4 r2 | } >>
 % page 22-2x
     << { <cymc sn>4-> hh8 sn8 hh4 <hh sn>4 | } \context DrumVoice = "drumsb" { r4 bd4 r8 bd8 r4 | } >>
     << { hh8 sn8 hh4 <hh sn>4 hh4 | } \context DrumVoice = "drumsb" { bd4 r8 bd8 r4 bd4 | } >>
@@ -255,7 +255,7 @@ drumsPart = \new DrumVoice = "drumsb" \with { \consists "Balloon_engraver" } \ne
     << { cymc4-> <hh sn>8 hh8 hh8 hh8 <hh sn>8 hh8 | } \context DrumVoice = "drumsb" { bd4 bd4 bd4 bd4 | } >>
     << { hh8 hh8 <hh sn>8 hh8 hh8 hh8 <hh sn>8 hh8 | } \context DrumVoice = "drumsb" { bd4 bd4 bd4 bd4 | } >>
     << { cymc4-> <hh sn>4 cymc4-> sn8 cymc8->~ | } \context DrumVoice = "drumsb" { bd4 r4 bd4 r8 bd8 | } >>
-    << { cymc4 <toml tomm>4 r8 tomh8 sn4 | } \context DrumVoice = "drumsb" { r8 bd8 r8 bd8 bd4 r4 | } >>
+    << { cymc4 <toml tomml>4 r8 tomh8 sn4 | } \context DrumVoice = "drumsb" { r8 bd8 r8 bd8 bd4 r4 | } >>
 % page29.1
     << { <cymc sn>4-> hh8 sn8 hh4 <cymc sn>4-> | } \context DrumVoice = "drumsb" { r4 bd4 bd4 r8 bd8 | } >>
     << { hh8 sn8 hh4 <cymc sn>4-> cymc4-> | } \context DrumVoice = "drumsb" { r4 bd4 r4 bd4 | } >>
@@ -298,7 +298,7 @@ drumsPart = \new DrumVoice = "drumsb" \with { \consists "Balloon_engraver" } \ne
     \repeat percent 3 {
 	<< { cymc8-> cymc8-> cymc8-> r8 r2 | } \context DrumVoice = "drumsb" { bd8 bd8 bd4 r2 | } >>
     }
-    << { cymc8-> cymc8-> cymc8-> r8 tomh16 tomh16 tomh16 tomh16 tomm16 tomm16 tomm16 tomm16 | } \context DrumVoice = "drumsb" { bd8 bd8 bd4 r2 | } >>
+    << { cymc8-> cymc8-> cymc8-> r8 tomh16 tomh16 tomh16 tomh16 tomml16 tomml16 tomml16 tomml16 | } \context DrumVoice = "drumsb" { bd8 bd8 bd4 r2 | } >>
 % page 22-3x
     << { <cymc sn>4-> hh8 sn8 hh4 <hh sn>4 | } \context DrumVoice = "drumsb" { r4 bd4 r8 bd8 r4 | } >>
     << { hh8 sn8 hh4 <hh sn>4 hh4 | } \context DrumVoice = "drumsb" { bd4 r8 bd8 r4 bd4 | } >>
@@ -320,17 +320,17 @@ drumsPart = \new DrumVoice = "drumsb" \with { \consists "Balloon_engraver" } \ne
     }
 % page 11.1-2x
     << { cymc4-> <hh sn>8 hho8 hh8 hho8 <hh sn>8 hho8 | } \context DrumVoice = "drumsb" { bd4 bd4 bd4 bd4 | } >>
-    << { hh8 hho8 <hh sn>8 hho8 tomh16 tomh16 tomh16 tomh16 tomm16 tomm16 tomm16 tomm16 | } \context DrumVoice = "drumsb" { bd4 bd4 bd4 bd4 | } >>
+    << { hh8 hho8 <hh sn>8 hho8 tomh16 tomh16 tomh16 tomh16 tomml16 tomml16 tomml16 tomml16 | } \context DrumVoice = "drumsb" { bd4 bd4 bd4 bd4 | } >>
     \repeat percent 2 {
-	<< { <toml sn>4 tomm16 tomm16 toml8 r8 tomm16 tomm16 toml4 | } \context DrumVoice = "drumsb" { r8 bd8 r4 bd4 r8 bd8 | } >>
-	<< { tomm16 tomm16 toml8 r8 tomm16 tomm16 toml4 tomm16 tomm8. | } \context DrumVoice = "drumsb" { r4 bd4 r8 bd8 r8 bd8 | } >>
+	<< { <toml sn>4 tomml16 tomml16 toml8 r8 tomml16 tomml16 toml4 | } \context DrumVoice = "drumsb" { r8 bd8 r4 bd4 r8 bd8 | } >>
+	<< { tomml16 tomml16 toml8 r8 tomml16 tomml16 toml4 tomml16 tomml8. | } \context DrumVoice = "drumsb" { r4 bd4 r8 bd8 r8 bd8 | } >>
     }
-    << { <toml sn>4 tomm16 tomm16 toml8 r8 tomm16 tomm16 toml4 | } \context DrumVoice = "drumsb" { r8 bd8 r4 bd4 r8 bd8 | } >>
+    << { <toml sn>4 tomml16 tomml16 toml8 r8 tomml16 tomml16 toml4 | } \context DrumVoice = "drumsb" { r8 bd8 r4 bd4 r8 bd8 | } >>
     \barNumberCheck #235
 % to Coda 3
 % page30 Coda 3
     \barNumberCheck #235
-    << { tomm16 tomm16 toml8 r4 \tuplet 3/2 { cymc4-> cymc4-> cymc4-> } | } \context DrumVoice = "drumsb" { r4 bd4 \tuplet 3/2 { bd4 bd4 bd4 } | } >>
+    << { tomml16 tomml16 toml8 r4 \tuplet 3/2 { cymc4-> cymc4-> cymc4-> } | } \context DrumVoice = "drumsb" { r4 bd4 \tuplet 3/2 { bd4 bd4 bd4 } | } >>
     << { <cymc~ sn>4-> cymc2. | } \context DrumVoice = "drumsb" { bd4 r4 r2 | } >>
     \barNumberCheck #237
 }

@@ -1,5 +1,5 @@
 % PARTS midi all
-%% BIN midi all
+% BIN midi all
 
 \header {
     title = "ド・キ・ド・キ☆モーニング"
@@ -8,7 +8,6 @@
 
 drumPitchNames.noise = #'noise
 midiDrumPitches.noise = a' % 69
-drumPitchNames.tomm = #'himidtom
 
 #(define myDrumStyleTable '(
     (ridecymbal     cross    #f          7)
@@ -17,7 +16,7 @@ drumPitchNames.tomm = #'himidtom
     (openhihat      cross    "open"      5)
     (closedhihat    cross    "stopped"   5)
     (halfopenhihat  cross    "halfopen"  5)
-    (himidtom       default  #f          2)
+    (lowmidtom      default  #f          2)
     (snare          default  #f          1)
     (handclap       cross    #f          0)
     (noise          default  #f          0)
