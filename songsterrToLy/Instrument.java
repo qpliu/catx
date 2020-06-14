@@ -72,7 +72,7 @@ abstract class Instrument extends Engraver{
 	    if (e.tieLhs){
 		List<Event>l=map.get(e.note.tieString()+','+e.time);
 		if (l==null || l.size()==0)
-		    System.err.println("Strange tie "+e.note.tieString());
+		    System.err.println("Strange tie "+e.note.tieString()+" "+state.argv_partName+" time="+e.time+" beats");
 		else{
 		    events.add(l.remove(l.size()-1).tie(e));
 		    continue;
