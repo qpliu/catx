@@ -1,4 +1,4 @@
-% PARTS kav
+% PARTS gg
 % BIN midi all kav susan gg peter
 
 \header {
@@ -6,7 +6,6 @@
     composer = "Prince"
 }
 
-#(set-global-staff-size 20)
 % IF susan #(set-global-staff-size 26)
 
 \include "markup"

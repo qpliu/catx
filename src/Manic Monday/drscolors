@@ -55,7 +55,7 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
 \mymark "Chorus 2" #50
-    << { <sn sn>1^\markup { \with-color #red "Turn Page" } | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { <sn sn>1 | } \context DrumVoice = "drsb" { bd1 | } >>
     << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>

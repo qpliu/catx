@@ -6,8 +6,6 @@
     composer = "Foo Fighters"
 }
 
-#(set-global-staff-size 20)
-
 \include "markup"
 \include "drs"
 

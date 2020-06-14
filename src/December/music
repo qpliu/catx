@@ -1,12 +1,10 @@
-% PARTS kav
+% PARTS gg
 % BIN midi all gg susan kav peter
 
 \header {
     title = "December"
     composer = "Collective Soul"
 }
-
-#(set-global-staff-size 20)
 
 \include "markup"
 \include "drs"

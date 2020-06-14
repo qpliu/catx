@@ -1,6 +1,8 @@
 #!/bin/sh
 set -e
 exec 2>&1
+HAVE_TIMIDITY=`type timidity >/dev/null 2>&1;echo $?`
+HAVE_FFMPEG=`type ffmpeg >/dev/null 2>&1;echo $?`
 pwd=`pwd`
 name=`basename "$pwd"`
 cd ..
@@ -47,7 +49,7 @@ do
 done
 for a in *.mp3
 do
-    if test -f "$a"
+    if test -f "$a" -a "$HAVE_FFMPEG" = 0
     then
 	b=`basename "$a" .mp3`
 	ffmpeg </dev/null -loglevel 16 -i "$a" "$b".wav
@@ -80,7 +82,7 @@ EOF
 	    merge="$merge $midi.midi"
 	done
 	java -cp . MergeMidi $merge >"$name.midi"
-        if type timidity >/dev/null 2>&1
+        if test "$HAVE_TIMIDITY" = 0 -a "$HAVE_FFMPEG" = 0
 	then
 	    TIMIDITY_EXTRA_CFG="-c timidity_extra_silence.cfg"
 	    if test -f timidity_extra.cfg
@@ -102,7 +104,11 @@ EOF
 \include "music"
 \score {
 \keepWithTag #'(${part1}Part keep) \layoutmusic
-\include "layout"
+\layout {
+    indent = 0\cm
+    short-indent = 0\cm
+    ragged-last = ##t
+}
 }
 EOF
 	lilypond -l WARN -o "$n" "$n.ly"

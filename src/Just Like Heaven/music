@@ -6,9 +6,6 @@
     title = "Just Like Heaven"
 }
 
-#(set-global-staff-size 20)
-% IF gg #(set-global-staff-size 17)
-
 \include "markup"
 \include "drs"
 \include "vo"

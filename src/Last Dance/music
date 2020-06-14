@@ -6,8 +6,6 @@
     composer = "The Raveonettes"
 }
 
-#(set-global-staff-size 20)
-
 \include "markup"
 \include "drs"
 

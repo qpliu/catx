@@ -5,8 +5,6 @@
     title = "ギミチョコ!!"
 }
 
-#(set-global-staff-size 20)
-
 \include "markup"
 \include "generated-bass"
 \include "generated-drs"

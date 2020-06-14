@@ -6,8 +6,6 @@
     title = "ムーンライト伝説"
 }
 
-#(set-global-staff-size 20)
-
 \include "markup"
 \include "drs"
 \include "simpledrs"

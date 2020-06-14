@@ -7,8 +7,6 @@
     composer = "Creedence Clearwater Revival"
 }
 
-#(set-global-staff-size 20)
-
 \include "markup"
 \include "drs"
 \include "bass"

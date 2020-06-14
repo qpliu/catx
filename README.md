@@ -20,7 +20,7 @@ If you have a directory called /share/music, the build scripts will crap all ove
 Try something like this
 
 ```
-sudo apt install lilypond bash python openjdk-11-jdk timidity ffmpeg
+sudo apt install lilypond python openjdk-11-jdk
 cd src
 ./buildAll
 ```

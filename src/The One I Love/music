@@ -6,8 +6,6 @@
     composer = "R.E.M."
 }
 
-#(set-global-staff-size 20)
-
 \include "markup"
 \include "drs"
 

@@ -6,8 +6,6 @@
     composer = "Collective Soul"
 }
 
-#(set-global-staff-size 20)
-
 \include "markup"
 \include "generated-drs"
 \include "generated-bass"
