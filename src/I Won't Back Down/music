@@ -1,4 +1,4 @@
-% PARTS peter
+% PARTS kav
 % BIN midi all kav susan gg peter
 
 \header {
@@ -12,8 +12,7 @@
 \include "bass"
 \include "vo"
 \include "lyrics"
-
-voAligner = \new NullVoice = "vo" \voPart
+\include "karaoke"
 
 layoutmusic = <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
@@ -22,7 +21,6 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\voPart
-	\voAligner
 	\voLyrics
     >>
     \tag #'(allPart peterPart) \new Staff \with {
@@ -62,7 +60,6 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\drsPart
-	\voAligner
 	\voLyrics
     >>
 >>
@@ -87,4 +84,5 @@ midimusic = <<
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
+    \tag #'(midiKaraoke) \karaokeLyrics
 >>
