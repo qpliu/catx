@@ -1,43 +1,49 @@
-voLyrics = \new Lyrics \lyricsto "vo" {
+voLyrics = \new Lyrics \lyricmode {
 
-Come as you are, as you were
-As I want you to be
-As a friend, as a friend
-As an old e -- ne -- my
-Take your time, hur -- ry up
-Choice is yours, don't be late
-Take a rest as a friend
-As an old me -- mo -- ri -- a
+\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 |
 
-Me -- mo -- ri -- a
-Me -- mo -- ri -- a
-Me -- mo -- ri -- a
+Come4 \skip4 as you8 are,4
+\skip4. as4 you8 were4.
+\skip4 As8 I4 want2 you4. to8 be4
+\skip4. As4 a8 friend,4 \skip4. as a8 friend4
+\skip4. As8 an4 old2 e4. -- ne8 -- my4
+\skip4. Take4 your8 time,4 \skip4. hur4 -- ry8 up4
+\skip4 Choice4 is yours,2 don't4. be8 late4
+\skip4. Take4 a8 rest4 \skip4. as4 a8 friend4
+\skip4. As8 an4 old2 me4. -- mo8 -- ri2. -- a2 \skip4.
 
-Come doused in mud, soaked in bleach
-As I want you to be
-As a trend, as a friend
-As an old me -- mo -- ri -- a
+Me4 -- mo8 -- ri2. -- a2 \skip4.
+Me4 -- mo8 -- ri2. -- a2 \skip4.
+Me4 -- mo8 -- ri2. -- a2 \skip8 \skip2. |
 
-Me -- mo -- ri -- a
-Me -- mo -- ri -- a
-Me -- mo -- ri -- a
+Come4 \skip4 doused4 in8 mud,4 \skip4. soaked4 in8 bleach4.
+\skip4 As8 I4 want2 you4. to8 be4 \skip4.
+As4 a8 trend,4 \skip4. as4 a8 friend4 \skip4.
+As8 an4 old2 me4. -- mo8 -- ri2. -- a2 \skip4.
 
-And I swear that I don't have a gun
-No, I don't have a gun
-No, I don't have a gun
+Me4 -- mo8 -- ri2. -- a2 \skip4.
+Me4 -- mo8 -- ri2. -- a2 \skip4.
+Me4 -- mo8 -- ri2. -- a2 \skip8 \skip2. |
 
-Me -- mo -- ri -- a
-Me -- mo -- ri -- a
-Me -- mo -- ri -- a
-Me -- mo -- ri -- a
+\skip2 And8 I4. swear that4 I4. don't have8 a gun4. |
+\skip2 No,8 I4. don't have8 a gun4. |
+\skip2 No,8 I4. don't have8 a gun4. |
+\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
+\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
+\skip1 \skip1 \skip1 \skip1 |
+\skip2
+Me4 -- mo8 -- ri2. -- a2 \skip4.
+Me4 -- mo8 -- ri2. -- a2 \skip4.
+Me4 -- mo8 -- ri2. -- a2 \skip4.
+Me4 -- mo8 -- ri2. -- a2 \skip8 \skip2. |
 
-And I swear that I don't have a gun
-No, I don't have a gun
-No, I don't have a gun
-No, I don't have a gun
-No, I don't have a gun
-
-Me -- mo -- ri -- a
-Me -- mo -- ri -- a
+\skip2 And8 I4. swear that4 I4. don't have8a gun4. |
+\skip2 No,8 I4. don't have8 a gun4. |
+\skip2 No,8 I4. don't have8 a gun4. |
+\skip2 No,8 I4. don't have8 a gun4. |
+\skip2 No,8 I4. don't have8 a gun4. |
+\skip1 \skip1 \skip2
+Me4 -- mo8 -- ri2. -- a1 \skip4. \skip1.
+Me4 -- mo8 -- ri2. -- a1 \skip4. \skip1 |
 
 }    
