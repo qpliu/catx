@@ -1,46 +1,46 @@
 karaokeLyrics = \new Lyrics \lyricmode {
     \skip4 >@2
-    @ @ "@4" "@3" "@2" @
-    Well,8 I \skip4 won't4. back4 down.2. \skip8
-    No,8 I \skip4 won't4. back4 down.2. \skip8
+    @ @ "@|!bg=4" "@|!bg=3" "@|!bg=2" "@|!bg=1"
+    "Well,|!bg="8 I -4 won't4. back4 down.2. \skip8
+    No,8 I -4 won't4. back4 down.2. \skip8
     >You8 can stand4 me up at8 the gates4 of hell.
-    But8 I \skip4 won't4. back4 down.2. \skip8
+    But8 I -4 won't4. back4 down.2. \skip8
 
-    >No,8 I'll \skip4 stand4. my4 ground.2. \skip8
-    Won't8 be \skip4 turned4. a4 -round.2. \skip8
+    >No,8 I'll -4 stand4. my4 ground.2. \skip8
+    Won't8 be -4 turned4. a4 -round.2. \skip8
     >And8 I'll keep4 this world from drag8 -gin' me4 down.
-    Gon8 -na \skip4 stand4. my4 ground.2. \skip8
-    >And8 I \skip4 won't4. back4 down.2 \skip2
+    Gon8 -na -4 stand4. my4 ground.2. \skip8
+    >And8 I -4 won't4. back4 down.2 \skip8 -4.
 
-    >Hey,2. ba4 -by.4. \skip2.
-    \skip8 There8 ain't no ea -sy way out.4. \skip4 \skip4.
-    >Hey,1 I4. \skip4 \skip4.
-    will8 stand4 \skip4 my \skip8 ground.2. \skip8
-    And8 I won't4 \skip4 back \skip8 down.2. \skip8
+    >Hey,2. ba4 -by.4. -2.
+    -8 There8 ain't no ea -sy way out.4. -4 -4.
+    >Hey,1 I4. -4 -4.
+    will8 stand4 -4 my -8 ground.2. \skip8
+    And8 I won't4 -4 back -8 down.2. \skip8
 
-    >Well,8 I \skip4 know4. what's4 right.2. \skip8
-    I8 got \skip4 just4. one4 life.2. \skip8
+    >Well,8 I -4 know4. what's4 right.2. \skip8
+    I8 got -4 just4. one4 life.2. \skip8
     >In8 a world4 that keeps on push8 -in' me4 a8 -round
-    but8 I'll \skip4 stand4. my4 ground.2. \skip8
-    >And8 I \skip4 won't4. back4 down.2 \skip2
+    but8 I'll -4 stand4. my4 ground.2. \skip8
+    >And8 I -4 won't4. back4 down.2 \skip8 -4.
 
-    >Hey,2. ba4 -by.4. \skip2.
-    \skip8 There8 ain't no ea -sy way out.4. \skip4 \skip4.
-    >Hey,1 I4. \skip4 \skip4.
-    will8 stand4 \skip4 my \skip8 ground.2. \skip8
-    And8 I won't2 \skip8 back4 down.2 \skip1
+    >Hey,2. ba4 -by.4. -2.
+    -8 There8 ain't no ea -sy way out.4. -4 -4.
+    >Hey,1 I4. -4 -4.
+    will8 stand4 -4 my -8 ground.2. \skip8
+    And8 I won't2 -8 back4 down.2 \skip8 -8 -2.
     >@2
-    @ @ @ @ @ @ @ @ @ @ @ @ @ @ "@4" "@3"
-    "@2" @
-    Hey,2. ba4 -by.4. \skip2.
-    \skip8 There8 ain't no ea -sy way out.4. \skip4 \skip4.
-    >Hey,1 I4. \skip2.
-    won't4 \skip4 back4 \skip8 down.2 \skip2
+    @ @ @ @ @ @ @ @ @ @ @ @ @ @ "@|!bg=4" "@|!bg=3"
+    "@|!bg=2" "@|!bg=1"
+    "Hey,|!bg="2. ba4 -by.4. -2.
+    -8 There8 ain't no ea -sy way out.4. -4 -4.
+    >Hey,1 I4. -2.
+    won't4 -4 back4 -8 down.2 \skip8 -4.
 
-    >Hey,2. ba4 -by.4. \skip2.
-    \skip8 There8 ain't no ea -sy way out.4. \skip4 \skip4.
-    >Hey,1 I4. \skip4 \skip4.
-    will8 stand4 \skip4 my \skip8 ground.2. \skip8
-    >And8 I won't2 \skip8 back4 down.2 \skip4.
-    No,8 I won't4 \skip4 back \skip8 down.2. \skip4 @@8
+    >Hey,2. ba4 -by.4. -2.
+    -8 There8 ain't no ea -sy way out.4. -4 -4.
+    >Hey,1 I4. -4 -4.
+    will8 stand4 -4 my -8 ground.2. \skip8
+    >And8 I won't2 -8 back4 down.2 \skip8 -4
+    No,8 I won't4 -4 back -8 down.2. \skip8 -8 @@8
 }

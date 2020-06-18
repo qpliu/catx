@@ -7,94 +7,93 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
-    "@4"2 "@3"
-    "@2"2 "@"
+    "@|!bg=4"2 "@|!bg=3"
+    "@|!bg=2"2 "@|!bg=1"
 \mymark "Verse 1" #10
-    "Six"8 "o'" "-clock" "al" "-rea" "-dy" "I" "was"
-    "just"4 "in"8 "the" "mid"16 "-dle"16 "of"8 "a" "dream."
-    \skip1
+    "Six|!bg="8 "o'" "-clock" "al" "-rea" "-dy" "I" "was"
+    "just"4 "in"8 "the" "mid"16 "-dle"16 "of"8 "a" "dream."4
+    -2. -8
     ">@"2. "I"8 "was"
     "kiss"8 "-in'" "Va" "-len" "-ti" "-no" "by" "a"
     "crys"8 "-tal" "blue" "I" "-ta" "-li" "-an" "stream."
-    \skip1
+    -1
     ">@"2. "But"8 "I"
     "can't"4 "be"8 "late"4 "'Cause"8 "then" "I"
-    guess8 "I" "just"4 "won't"8 "get"4 "paid."8
-    \skip1
+    guess8 "I" "just"4 "won't"8 "get"4 "paid."4
+    -2. -8
     ">@"2 "@"
     "These"4 "are"8 "the" "days"4 "when"8 "you"
-    "wish"8 "your" "bed" "was" "al" "-rea" "-dy" "made."
-    \skip2. \skip8 ">It's"8
+    "wish"8 "your" "bed" "was" "al" "-rea" "-dy" "made."4
+    -2. ">It's"8
 \mymark "Chorus 1" #25
     "just"8 "a" "-no" "-ther" "ma"4 "-nic"
-    "Mon"4 "-day." \skip2
-    \skip2 ">Wish"8 "it" "was"4
-    "Sun"4 "-day." \skip2
-    \skip4. ">'Cause"8 "that's"4 "my"
-    "fun"4 "day." \skip2
-    \skip4. ">My"8 "I" "don't" "have" "to"
-    "run"4 "day." \skip4. ">It's"8
+    "Mon"4 "-day." -2
+    -2 ">Wish"8 "it" "was"4
+    "Sun"4 "-day." -2
+    -4. ">'Cause"8 "that's"4 "my"
+    "fun"4 "day." -2
+    -4. ">My"8 "I" "don't" "have" "to"
+    "run"4 "day." -4. ">It's"8
     "just"8 "a" "-no" "-ther" "ma"4 "-nic"
-    "Mon"4 "-day." \skip2
+    "Mon"4 "-day."2.
 \mymark "Verse 2" #35
     ">Have"8 "to" "catch" "an" "ear" "-ly" "train."4
-    "Got"8 "to" "be" "to" "work" "by"4 "nine."8
-    \skip1
-    ">@"2. \skip8 "And"8
+    "Got"8 "to" "be" "to" "work" "by"4 "nine."4
+    -2. -8
+    ">@"2. -8 "And"8
     "if"8 "I" "had" "an" "ae" "-ro" "-plane" "I"
     "still"4 "could"8 "-n't" "make" "it" "on" "time."
-    \skip1
+    -1
     ">@"2. "'Cause"8 "it"
     "takes"8 "me" "so"4 "long" "just"8 "to"
-    "fi"8 "-gure" "out" "what" "I'm" "gon" "-na" "wear."
-    \skip1
+    "fi"8 "-gure" "out" "what" "I'm" "gon" "-na" "wear."4
+    -2. -8
     ">@"1
     "Blame"8 "it" "on" "the" "train."4 "But"8 "the"
-    "boss"8 "is" "al"4 "-rea"8 "-dy"4 "there."8
-    \skip2. \skip8 ">It's"8
+    "boss"8 "is" "al"4 "-rea"8 "-dy"4 "there."4
+    -2. ">It's"8
 \mymark "Chorus 2" #50
     "just"8 "a" "-no" "-ther" "ma"4 "-nic"
-    "Mon"4 "-day." \skip2
-    \skip2 ">Wish"8 "it" "was"4
-    "Sun"4 "-day." \skip2
-    \skip4. ">'Cause"8 "that's"4 "my"
-    "fun"4 "day." \skip2
-    \skip4. ">My"8 "I" "don't" "have" "to"
-    "run"4 "day." \skip4. ">It's"8
+    "Mon"4 "-day." -2
+    -2 ">Wish"8 "it" "was"4
+    "Sun"4 "-day." -2
+    -4. ">'Cause"8 "that's"4 "my"
+    "fun"4 "day." -2
+    -4. ">My"8 "I" "don't" "have" "to"
+    "run"4 "day." -4. ">It's"8
     "just"8 "a" "-no" "-ther" "ma"4 "-nic"
-    "Mon"4 "-day." \skip2
+    "Mon"4 "-day."2.
 \mymark "Bridge" #60
     ">All"8 "of" "my" "nights"4 "why"8 "did" "my"
     "lo"8 "-ver" "have" "to" "pick"4 "last"
-    "night"8 "to" "get"4 "down?" \skip4
-    \skip1
+    "night"8 "to" "get"4 "down?" -4
+    -1
     ">Does"8 "-n't" "it" "mat"4 "-ter"8 "that" "I"
     "have"8 "to" "feed" "the" "both" "of" "us?" "Em"
-    "-ploy"4 "-ment's"8 "down."4. \skip4
-    \skip2. \skip8 ">He"8
+    "-ploy"4 "-ment's"8 "down."4. -4
+    -2. -8 ">He"8
     "tells"8 "me" "in" "his" "bed"4 "-room"
-    "voice."4 \skip2 ">C'"8 "-mon"
-    "ho"8 "-ney," \skip8 "let's" "go" "make" "some" "noise."
-    \skip1
+    "voice."2. ">C'"8 "-mon"
+    "ho"8 "-ney," -8 "let's" "go" "make" "some" "noise."4
+    -2. -8
     ">Time"4 "it"8 "goes" "so"4 "fast."
-    \skip2. \skip8 ">It's"8
+    -2. -8 ">It's"8
 \mymark "Outro" #74
     "just"8 "a" "-no" "-ther" "ma"4 "-nic"
-    "Mon"4 "-day." \skip2
-    \skip2 ">Wish"8 "it" "was"4
-    "Sun"4 "-day." \skip2
-    \skip4. ">'Cause"8 "that's"4 "my"
-    "fun"4 "day." \skip2
-    \skip4. ">My"8 "I" "don't" "have" "to"
-    "run"4 "day." \skip4. ">It's"8
+    "Mon"4 "-day." -2
+    -2 ">Wish"8 "it" "was"4
+    "Sun"4 "-day." -2
+    -4. ">'Cause"8 "that's"4 "my"
+    "fun"4 "day." -2
+    -4. ">My"8 "I" "don't" "have" "to"
+    "run"4 "day." -4. ">It's"8
     "just"8 "a" "-no" "-ther" "ma"4 "-nic"
-    "Mon"4 "-day." \skip2
-    \skip2 ">Wish"8 "it" "was"4
-    "Sun"4 "-day." \skip2
-    \skip4. ">'Cause"8 "that's"4 "my"
-    "fun"4 "day." \skip4. ">It's"8
+    "Mon"4 "-day." -2
+    -2 ">Wish"8 "it" "was"4
+    "Sun"4 "-day." -2
+    -4. ">'Cause"8 "that's"4 "my"
+    "fun"4 "day." -4. ">It's"8
     "just"8 "a" "-no" "-ther" "ma"4 "-nic"
 \mybarNumberCheck #89
-    "Mon"4 "-day." \skip2
-    "@@"8
+    "Mon"4 "-day." -4. @@8
 }

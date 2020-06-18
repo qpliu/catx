@@ -4,7 +4,7 @@
 <meta charset=UTF-8>
 <title id=title>Karaoke</title>
 </head>
-<body style=overflow:hidden>
+<body style=overflow:hidden;>
 <div id=div style=position:absolute;left:0;top:10vh;width:100vw;></div>
 <div style=position:absolute;top:0;left:0;width:100vw;height:10vh;text-align:center;><span id=name style=font-size:6vh;white-space:nowrap;color:#0f0;background-color:#000;></span></div>
 <div style=position:absolute;top:10vh;left:0;width:100vw;height:10vh;text-align:center;><span id=beat_counter style=font-family:monospace;font-size:8vh;color:#000;background-color:#0f0;>1</span></div>
@@ -13,7 +13,11 @@
 <div style=position:absolute;top:85vh;left:10vw;width:10vw;height:2vw;text-align:center;><span id=line0at style=position:absolute;font-size:2vw;color:#000;background-color:#0f0;></span></div>
 <div style=position:absolute;top:85vh;left:20vw;width:80vw;height:2vw;><span id=line0 style=font-size:2vw;white-space:nowrap></span></div>
 <div id=lineatat style=position:absolute;top:110vh;left:110vw;></div>
-<img style=position:absolute;bottom:100vh;width:5vw id=ball src=../ball.png>
+<img style=position:absolute;bottom:100vh;width:5vw;z-index:2; id=ball src=../ball.png>
+<div style=position:absolute;left:0;top:35vh;width:100vw;height:65vh;z-index:-9;text-align:center;>
+<span id=bgtext style=font-size:45vh;margin-top:10vh;color:#0f0;opacity:.5;display:none;></span>
+<img id=bgimg style=opacity:.25;margin-left:auto;margin-right:auto;height:65vh;display:none;>
+</div>
 <script>
     const DELAY=200;
     const cats=[
@@ -45,6 +49,8 @@
     let karaoke_index;
     let start_time;
     let repeat_time;
+    const bgimg=document.getElementById("bgimg");
+    const bgtext=document.getElementById("bgtext");
     const ball=document.getElementById("ball");
     const beat_counter=document.getElementById("beat_counter");
     const lines=[document.getElementById("line0"),document.getElementById("line1")];
@@ -52,10 +58,16 @@
     let timeout=4;
     let id_counter=0;
     let line_events;
+    let word_element;
+    let word_t0;
+    let word_t1;
+    let ball_events;
     let beat_events;
+    let bg_events;
     let next_line_start;
     let ball_x0,ball_y0,ball_t0;
-    cats.forEach(function(cat){
+    let ball_x1,ball_y1,ball_t1;
+    for (const cat of cats){
 	const div=document.getElementById("div");
 	l = [];
 	for (let frame=0; frame<cat[1]; frame++){
@@ -70,7 +82,7 @@
 	cat.push(0);
 	cat.push(l);
 	cat.push(0);
-    });
+    }
     function do_ntp(){
 	if (--timeout<0)
 	    location.reload();
@@ -86,40 +98,48 @@
 	    let this_line_start;
 	    let this_line_end;
 	    sb = ""
+oo:
 	    for (; karaoke_index<karaoke.length; karaoke_index++){
 		if ("repeat" in karaoke[karaoke_index]){
 		    repeat_time += karaoke[karaoke_index].repeat;
 		    karaoke_index = 0;
 		    break;
 		}
-		let k=karaoke[karaoke_index].k;
 		const t=karaoke[karaoke_index].t+repeat_time;
-		if (k.slice(0,1)=="^")
-		    beat_events.push([t,k.slice(1)]);
-		else{
-		    if (sb.length==0)
-			this_line_start = t;
-		    if (k.slice(0,1)==">"){
-			if (sb.length!=0)
-			    break;
-			k = k.slice(1);
-		    }
-		    this_line_end = t;
-		    if (k=="@@")
-			line_events.push([t,"lineatat"]);
-		    else if (k.slice(0,1)=="@"){
-			if (which_line==0)
-			    line_events.push([t,"line0at",k.slice(1)]);
-			else
-			    line_events.push([t,"line1at",k.slice(1)]);
-		    }else{
-			if (k.slice(0,1)=="-")
+		for (let k of karaoke[karaoke_index].k.split("|")){
+		    if (k.slice(0,6)=="!beat=")
+			beat_events.push([t,k.slice(6)]);
+		    else if (k.slice(0,4)=="!bg=")
+			bg_events.push([t,k.slice(4)]);
+		    else{
+			if (sb.length==0)
+			    this_line_start = t;
+			if (k.slice(0,1)==">"){
+			    if (sb.length!=0)
+				break oo;
 			    k = k.slice(1);
-			else
-			    k = " "+k;
-			sb += "<span id=id"+id_counter+" style=color:#000;>"+k+"</span>";
-			line_events.push([t,"id"+id_counter]);
-			id_counter++;
+			}
+			this_line_end = t;
+			if (k=="@@")
+			    ball_events.push([t,"lineatat"]);
+			else if (k=="@"){
+			    if (which_line==0)
+				ball_events.push([t,"line0at"]);
+			    else
+				ball_events.push([t,"line1at"]);
+			}else{
+			    if (k.slice(0,1)=="-")
+				k = k.slice(1);
+			    else
+				sb += "&nbsp;";
+			    sb += "<span id=id"+id_counter+"a style=position:relative;color:#000;>"+k;
+			    sb += "<div id=id"+id_counter+"b style=display:inline-block;overflow:hidden;position:absolute;left:0;top:0;width:0;z-index:1;color:#f00;>"+k+"</div>";
+			    sb += "</span>";
+			    if (k.length!=0)
+				ball_events.push([t,"id"+id_counter+"a"]);
+			    line_events.push([t,"id"+id_counter+"b"]);
+			    id_counter++;
+			}
 		    }
 		}
 	    }
@@ -127,52 +147,67 @@
 	    next_line_start = start_time+(2*this_line_start+this_line_end)/3;
 	}
 	for (; line_events.length!=0&&start_time+line_events[0][0]<now; line_events=line_events.slice(1)){
+	    if (word_element!=null)
+		word_element.style.width = "100%";
+	    word_element = document.getElementById(line_events[0][1]);
+	    if (word_element!=null){
+		word_t0 = start_time+line_events[0][0];
+		word_t1 = line_events.length>1?start_time+line_events[1][0]:now;
+	    }
+	}
+	if (word_element!=null)
+	    word_element.style.width = (now-word_t0)/(word_t1-word_t0)*100+"%";
+	for (; line_events.length!=0&&start_time+line_events[0][0]<now; line_events=line_events.slice(1)){
 	    let element=document.getElementById(line_events[0][1]);
 	    if (element==null)
 		continue;
-	    if (line_events[0].length==3){
-		element.innerHTML = line_events[0][2];
-		element = element.parentElement;
-	    }else
-		element.style.color = '#f00';
+	    element.style.color = '#f00';
+	}
+	for (; ball_t1<now&&ball_events.length!=0; ball_events=ball_events.slice(1)){
+	    let element=document.getElementById(ball_events[0][1]);
+	    if (element==null)
+		continue;
 	    const rect=element.getBoundingClientRect();
-	    ball_t0 = start_time+line_events[0][0];
-	    ball_x0 = (rect.left+rect.right)/2;
-	    ball_y0 = rect.top;
+	    ball_t0 = ball_t1;
+	    ball_x0 = ball_x1;
+	    ball_y0 = ball_y1;
+	    ball_t1 = start_time+ball_events[0][0];
+	    ball_x1 = rect.left;
+	    ball_y1 = rect.top;
+	}
+	if (ball_t0!=undefined){
+	    const tt=ball_t1-ball_t0;
+	    const t=(now-ball_t0)/tt;
+	    const r=ball.getBoundingClientRect();
+	    ball.style.left = (ball_x0+t*(ball_x1-ball_x0)+(r.left-r.right)/2)+"px";
+	    const bounce_height=2*(r.bottom-r.top);
+	    ball.style.top = (ball_y0+t*(ball_y1-ball_y0)-r.bottom+r.top-(1-4*(t-.5)*(t-.5))*bounce_height*(tt>2000?2000:tt)/2000)+"px";
+	}
+	for (; bg_events.length!=0&&start_time+bg_events[0][0]<now; bg_events=bg_events.slice(1)){
+	    const k=bg_events[0][1];
+	    bgimg.style.display = "none";
+	    bgtext.style.display = "none";
+	    if (k.slice(0,4)=="img="){
+		bgimg.src = k.slice(4);
+		bgimg.style.display = "block";
+	    }else{
+		bgtext.innerHTML = k;
+		bgtext.style.display = "block";
+	    }
 	}
 	for (; beat_events.length!=0&&start_time+beat_events[0][0]<now; beat_events=beat_events.slice(1)){
 	    last_beat_time = beat_events[0][0];
-	    cats.forEach(function(cat){
+	    for (const cat of cats)
 		cat[4] = (cat[4]+1)%cat[2];
-	    });
 	    beat_counter.innerHTML = beat_events[0][1]
-	}
-	if (line_events.length!=0 && ball_x0!=undefined){
-	    let element=document.getElementById(line_events[0][1]);
-	    if (element!=null){
-		if (line_events[0].length==3)
-		    element = element.parentElement;
-		const rect=element.getBoundingClientRect();
-		const ball_t1=start_time+line_events[0][0];
-		const ball_x1=(rect.left+rect.right)/2;
-		const ball_y1=rect.top;
-		let tt=ball_t1-ball_t0;
-		const t=(now-ball_t0)/tt;
-		const r=ball.getBoundingClientRect();
-		ball.style.left = (ball_x0+t*(ball_x1-ball_x0)+(r.left-r.right)/2)+"px";
-		if (tt>2000)
-		    tt = 2000;
-		const bounce_height=2*(r.bottom-r.top);
-		ball.style.top = (ball_y0+t*(ball_y1-ball_y0)-r.bottom+r.top-(1-4*(t-.5)*(t-.5))*bounce_height*tt/2000)+"px";
-	    }
 	}
 	if (beat_events.length!=0 && last_beat_time!=undefined){
 	    const t=(now-start_time-last_beat_time)/(beat_events[0][0]-last_beat_time);
-	    cats.forEach(function(cat){
+	    for (const cat of cats){
 		cat[5][cat[6]].style.visibility = "hidden";
 		cat[6] = Math.floor((cat[4]+t)*cat[1]/cat[2])%cat[1];
 		cat[5][cat[6]].style.visibility = "visible";
-	    });
+	    }
 	}
 	window.requestAnimationFrame(animate);
     }
@@ -202,15 +237,18 @@
 		karaoke_index = 0;
 		next_line_start = 0;
 		which_line = 0;
-		cats.forEach(function(cat){
-		    cat[4]=0;
-		});
+		for (const cat of cats)
+		    cat[4] = 0;
 		last_cat = 0;
 		last_fatcat = 0;
 		last_beat_time = undefined;
-		ball_x0 = undefined;
+		ball_t0 = undefined;
+		ball_t1 = start_time;
+		word_element = null;
 		line_events = [];
+		ball_events = [];
 		beat_events = [];
+		bg_events = [];
 		lines[0].innerHTML = "";
 		lines[1].innerHTML = "";
 		window.requestAnimationFrame(animate);

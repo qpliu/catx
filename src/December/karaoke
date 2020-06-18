@@ -5,26 +5,26 @@ karaokeLyrics = \new Lyrics \lyricmode {
 @2 @
 @2 @
 @2 @
-"@4"2 "@3"
-"@2"2 @
+"@|!bg=4"2 "@|!bg=3"
+"@|!bg=2"2 "@|!bg=1"
 % Verse 1
-Why4 drink8 the4 wa4. -ter4 from8 my4 hand?2
-\skip4. Con8 -ta4 -gious8 as you think I4 am.4.
+"Why|!bg="4 drink8 the4 wa4. -ter4 from8 my4 hand?2 \skip8
+-4 Con8 -ta4 -gious8 as you think I4 am.4.
 >@2 @
 @2 @
 @2 @
 @2 @
-Just4 tilt8 my4 sun4. towards4 your8 do4 -main.2
-\skip4. Your8 cup4. run8 -neth8 o8 -ver8 a8 -gain.4.
+Just4 tilt8 my4 sun4. towards4 your8 do4 -main.2 \skip8
+-4 Your8 cup4. run8 -neth8 o8 -ver8 a8 -gain.4.
 >@2 @
 @2 @
 @2 @
 @2 @
 % Chorus 1
-Don't4 scream8 a -bout,4 \skip4 don't4 think8 a -loud.4
-\skip4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4.
->Don't4 wor8 -ry about,4 \skip4 don't4 speak8 of doubt.4
-\skip4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4.
+Don't4 scream8 a -bout,4 -4 don't4 think8 a -loud.4
+-4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4.
+>Don't4 wor8 -ry about,4 -4 don't4 speak8 of doubt.4
+-4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4.
 >@2 @
 @2 @
 @2 @
@@ -40,29 +40,29 @@ Don't4 scream8 a -bout,4 \skip4 don't4 think8 a -loud.4
 @2 @
 @2 @
 @2 @
-"@4"2 "@3"
-"@2"2 @
-Why4 fol8 -low4 me4. to4 high8 -er4 ground?2 \skip2
+"@|!bg=4"2 "@|!bg=3"
+"@|!bg=2"2 "@|!bg=1"
+"Why|!bg="4 fol8 -low4 me4. to4 high8 -er4 ground?2 \skip8 -4.
 Lost4. as8 you swear I4 am.4.
 >@2 @
 @2 @
 @2 @
 @2 @
-Don't4 throw8 a4 -way4. your4 ba8 -sic4 needs2 \skip2
+Don't4 throw8 a4 -way4. your4 ba8 -sic4 needs2 \skip8 -4.
 am4. -bi8 -ance and va -ni -ty.4.
 >@2 @
 @2 @
 @2 @
 @2 @
 % Chorus 2
-Don't4 scream8 a -bout,4 \skip4 don't4 think8 a -loud.4
-\skip4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4.
->Don't4 wor8 -ry about,4 \skip4 don't4 speak8 of doubt.4
-\skip4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4. 
->Don't4 scream8 a -bout,4 \skip4 don't4 think8 a -loud.4
-\skip4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4.
->Don't4 wor8 -ry about,4 \skip4 don't4 speak8 of doubt.4
-\skip4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4. \skip2.
+Don't4 scream8 a -bout,4 -4 don't4 think8 a -loud.4
+-4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4.
+>Don't4 wor8 -ry about,4 -4 don't4 speak8 of doubt.4
+-4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4. 
+>Don't4 scream8 a -bout,4 -4 don't4 think8 a -loud.4
+-4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4.
+>Don't4 wor8 -ry about,4 -4 don't4 speak8 of doubt.4
+-4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4. -2.
 >@2 @
 @2 @
 @2 @
@@ -84,10 +84,10 @@ Don't4 scream8 a -bout,4 \skip4 don't4 think8 a -loud.4
 @2 @
 @2 @
 @2 @
-"@4"2 "@3"
-"@2"2 @
+"@|!bg=4"2 "@|!bg=3"
+"@|!bg=2"2 "@|!bg=1"
 % Bridge
-De4 -cem8 -ber pro4 -mise8 you gave4 un8 -to me.2
+"De|!bg="4 -cem8 -ber pro4 -mise8 you gave4 un8 -to me.2
 De4 -cem8 -ber whis4 -pers8 of trea4 -che -ry.2
 >De4 -cem8 -ber clouds4 are8 now co4 -ver8 -ing me.2
 De4 -cem8 -ber songs4 no lon4 -ger8 I sing.2
@@ -97,14 +97,13 @@ De4 -cem8 -ber whis4 -pers8 of trea4 -che -ry.2
 >De4 -cem8 -ber clouds4 are8 now co4 -ver8 -ing me.2
 De4 -cem8 -ber songs4 no lon4 -ger8 I sing.2
 
-\skip4 >Don't4 scream8 a -bout,4 \skip4 don't4 think8 a -loud.4
-\skip4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4.
->Don't4 wor8 -ry about,4 \skip4 don't speak8 of doubt.4
-\skip4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4.
+-4 >Don't4 scream8 a -bout,4 -4 don't4 think8 a -loud.4
+-4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4.
+>Don't4 wor8 -ry about,4 -4 don't speak8 of doubt.4
+-4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4.
 
->Don't4 scream8 a -bout,4 \skip4 don't4 think8 a -loud.4
-\skip4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4.
->Don't4 wor8 -ry about,4 \skip4 don't speak8 of doubt.4
-\skip4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4. \skip2.
-@@1
+>Don't4 scream8 a -bout,4 -4 don't4 think8 a -loud.4
+-4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4.
+>Don't4 wor8 -ry about,4 -4 don't speak8 of doubt.4
+-4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4. -2 -8 @@8
 }
