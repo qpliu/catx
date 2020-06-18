@@ -139,7 +139,7 @@ oo:
 				this_line_start = t;
 			}
 			sb += "<span id=id"+id_counter+"a style=position:relative;color:#000;>"+k;
-			sb += "<div id=id"+id_counter+"b style=display:inline-block;overflow:hidden;position:absolute;left:0;top:0;width:0;z-index:1;color:#f00;>"+k+"</div>";
+			sb += "<span id=id"+id_counter+"b style=overflow:hidden;position:absolute;left:0;top:0;width:0;z-index:1;color:#f00;>"+k+"</span>";
 			sb += "</span>";
 			if (k.length!=0)
 			    ball_events.push([t,"id"+id_counter+"a"]);
