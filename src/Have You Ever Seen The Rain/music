@@ -1,4 +1,4 @@
-% PARTS all
+% PARTS midi
 % BIN midi all susan kav gg peter
 % ROBOT pickup_measures=1
 
@@ -17,6 +17,7 @@
 \include "simplevo"
 \include "simplelyrics"
 \include "simplelyricsunfolded"
+\include "karaoke"
 
 voAligner = \new NullVoice = "vo" \voPart
 simplevoAligner = \new NullVoice = "simplevo" \simplevoPart
@@ -69,7 +70,6 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\simplevoPart
-	\simplevoAligner
 	\simplevoLyricsunfolded
     >>
     \tag #'(kavPart) \removeWithTag #'(removeWithUnfold) \unfoldRepeats \new DrumStaff \with {
@@ -88,7 +88,7 @@ midimusic = <<
 	midiInstrument = #"steel drums"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
-    } \voPart
+    } \simplevoPart
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
 	midiMinimumVolume = #0
@@ -102,4 +102,5 @@ midimusic = <<
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
+    \tag #'(midiKaraoke) \karaokePart
 >>
