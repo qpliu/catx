@@ -31,8 +31,8 @@ karaokePart = \new Lyrics \lyricmode {
     ev8 -er4. seen the8 "rain?|!bg=img=../umbrella.svg"1
     "-|!bg="2 >I4 want8 to know,2 -4 have8 you
     ev8 -er4. seen the8 "rain|!bg=img=../umbrella.svg"1
-    "-|!bg="2 >com8 -in'4 down4. on8 a "sun|!bg=img=../sun.svg"4 -ny8 "day?|!bg="2 \skip8 -2
-    -1
+    "-|!bg="2 >com8 -in'4 down4. on8 a "sun|!bg=img=../sun.svg"4 -ny8 "day?|!bg="2 \skip8 "!hskip=MMMM"2
+    "Yeah!|!bg=img=../yeah.png"2 "-|!bg="2
     -2 >I4 want8 to know,2 -4 have8 you
     ev8 -er4. seen the8 "rain?|!bg=img=../umbrella.svg"1
     "-|!bg="2 >I4 want8 to know,2 -4 have8 you
