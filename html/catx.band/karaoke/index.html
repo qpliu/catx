@@ -112,34 +112,35 @@ oo:
 		    else if (k.slice(0,4)=="!bg=")
 			bg_events.push([t,k.slice(4)]);
 		    else{
-			if (sb.length==0)
-			    this_line_start = t;
 			if (k.slice(0,1)==">"){
 			    if (sb.length!=0)
 				break oo;
 			    k = k.slice(1);
 			}
 			this_line_end = t;
-			if (k=="@@")
+			if (k=="@@"){
 			    ball_events.push([t,"lineatat"]);
-			else if (k=="@"){
+			    k = "-";
+			}else if (k=="@"){
 			    if (which_line==0)
 				ball_events.push([t,"line0at"]);
 			    else
 				ball_events.push([t,"line1at"]);
-			}else{
-			    if (k.slice(0,1)=="-")
-				k = k.slice(1);
-			    else
-				sb += "&nbsp;";
-			    sb += "<span id=id"+id_counter+"a style=position:relative;color:#000;>"+k;
-			    sb += "<div id=id"+id_counter+"b style=display:inline-block;overflow:hidden;position:absolute;left:0;top:0;width:0;z-index:1;color:#f00;>"+k+"</div>";
-			    sb += "</span>";
-			    if (k.length!=0)
-				ball_events.push([t,"id"+id_counter+"a"]);
-			    line_events.push([t,"id"+id_counter+"b"]);
-			    id_counter++;
+			    k = "-";
 			}
+			if (k.slice(0,1)=="-")
+			    k = k.slice(1);
+			else if (sb.length!=0)
+			    sb += " ";
+			if (k.length!=0 && this_line_start==undefined)
+			    this_line_start = t;
+			sb += "<span id=id"+id_counter+"a style=position:relative;color:#000;>"+k;
+			sb += "<div id=id"+id_counter+"b style=display:inline-block;overflow:hidden;position:absolute;left:0;top:0;width:0;z-index:1;color:#f00;>"+k+"</div>";
+			sb += "</span>";
+			if (k.length!=0)
+			    ball_events.push([t,"id"+id_counter+"a"]);
+			line_events.push([t,"id"+id_counter+"b"]);
+			id_counter++;
 		    }
 		}
 	    }
@@ -251,6 +252,8 @@ oo:
 		bg_events = [];
 		lines[0].innerHTML = "";
 		lines[1].innerHTML = "";
+		bgimg.style.display = "none";
+		bgtext.style.display = "none";
 		window.requestAnimationFrame(animate);
 	    }
 	    if ("stop" in json)
