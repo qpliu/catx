@@ -2,7 +2,7 @@ karaokePart = \new Lyrics \lyricmode {
     \skip4
     >@2 @ @ @ @ @ @ @ @ @ "@|!bg=4" "@|!bg=3" "@|!bg=2" "@|!bg=1"
     "Some|!bg="8 -one told4 me8 long4 a8 -go.4 -2
-    -4 >There's8 a calm4 be8 -fore4 the8 "storm.|!bg=img=../storm.svg"4 "!bg="4 I
+    -4 >There's8 a calm4 be8 -fore4 the8 "storm.|!bg=img=../storm.svg"4 "-|!bg="4 I
     know.4 -2.
     >It's8 been4 com -in' for some time. -4.
     -1
@@ -13,9 +13,9 @@ karaokePart = \new Lyrics \lyricmode {
     -1
     -2 >I4 want8 to know,2 -4 have8 you
     ev8 -er4. seen the8 "rain?|!bg=img=../umbrella.svg"1
-    "!bg="2 >I4 want8 to know,2 -4 have8 you
+    "-|!bg="2 >I4 want8 to know,2 -4 have8 you
     ev8 -er4. seen the8 "rain|!bg=img=../umbrella.svg"1
-    "!bg="2 >com8 -in'4 down4. on8 a "sun|!bg=img=../sun.svg"4 -ny8 "day?|!bg="2 \skip8 -2
+    "-|!bg="2 >com8 -in'4 down4. on8 a "sun|!bg=img=../sun.svg"4 -ny8 "day?|!bg="2 \skip8 -2
     -1
     -4 >Yes8 -ter -day,4 and8 days4 be8 -fore,4 -2
     -4 ">sun|!bg=img=../sun.svg"8 is cold4 and8 "rain|!bg=img=../umbrella.svg"4 "is|!bg="8 hard.4 -4 I
@@ -29,13 +29,13 @@ karaokePart = \new Lyrics \lyricmode {
     -1
     -2 >I4 want8 to know,2 -4 have8 you
     ev8 -er4. seen the8 "rain?|!bg=img=../umbrella.svg"1
-    "!bg="2 >I4 want8 to know,2 -4 have8 you
+    "-|!bg="2 >I4 want8 to know,2 -4 have8 you
     ev8 -er4. seen the8 "rain|!bg=img=../umbrella.svg"1
-    "!bg="2 >com8 -in'4 down4. on8 a "sun|!bg=img=../sun.svg"4 -ny8 "day?|!bg="2 \skip8 -2
+    "-|!bg="2 >com8 -in'4 down4. on8 a "sun|!bg=img=../sun.svg"4 -ny8 "day?|!bg="2 \skip8 -2
     -1
     -2 >I4 want8 to know,2 -4 have8 you
     ev8 -er4. seen the8 "rain?|!bg=img=../umbrella.svg"1
-    "!bg="2 >I4 want8 to know,2 -4 have8 you
+    "-|!bg="2 >I4 want8 to know,2 -4 have8 you
     ev8 -er4. seen the8 "rain|!bg=img=../umbrella.svg"1
-    "!bg="2 >com8 -in'4 down4. on8 a "sun|!bg=img=../sun.svg"4 -ny8 "day?|!bg="2 \skip8 -4. @@8
+    "-|!bg="2 >com8 -in'4 down4. on8 a "sun|!bg=img=../sun.svg"4 -ny8 "day?|!bg="2 \skip8 -4. @@8
 }
