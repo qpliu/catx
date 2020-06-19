@@ -111,13 +111,21 @@ oo:
 			beat_events.push([t,k.slice(6)]);
 		    else if (k.slice(0,4)=="!bg=")
 			bg_events.push([t,k.slice(4)]);
-		    else if (k.slice(0,7)=="!hskip=")
-			sb += "<span style=visibility:hidden;>"+k.slice(7)+"</span>";
 		    else{
 			if (k.slice(0,1)==">"){
 			    if (this_line_start!=undefined)
 				break oo;
 			    k = k.slice(1);
+			}
+			let style="";
+			for (;;){
+			    let m;
+			    if ((m=k.match('!stretch=([^=]*)=(.*)$'))!=null){
+				stretch = Number(m[1]);
+				style += "font-size:"+100*stretch+"%;transform:scale(1,"+1/stretch+")translate(0,"+100*stretch+"%);line-height:"+100/stretch+"%;display:inline-block;";
+				k = m[2];
+			    }else
+				break;
 			}
 			if (k=="@@"){
 			    ball_events.push([t,"lineatat"]);
@@ -138,8 +146,8 @@ oo:
 			    if (this_line_start==undefined)
 				this_line_start = t;
 			}
-			sb += "<span id=id"+id_counter+"a style=position:relative;color:#000;>"+k;
-			sb += "<span id=id"+id_counter+"b style=overflow:hidden;position:absolute;left:0;top:0;width:0;z-index:1;color:#f00;>"+k+"</span>";
+			sb += "<span id=id"+id_counter+"a style=position:relative;color:#000;"+style+">"+k;
+			sb += "<span id=id"+id_counter+"b style=position:absolute;left:0;top:0;clip:rect(-100vh,0,100vh,0);z-index:1;color:#f00;>"+k+"</span>";
 			sb += "</span>";
 			if (k.length!=0)
 			    ball_events.push([t,"id"+id_counter+"a"]);
@@ -153,15 +161,17 @@ oo:
 	}
 	for (; line_events.length!=0&&start_time+line_events[0][0]<now; line_events=line_events.slice(1)){
 	    if (word_element!=null)
-		word_element.style.width = "100%";
+		word_element.style.clip = "";
 	    word_element = document.getElementById(line_events[0][1]);
 	    if (word_element!=null){
 		word_t0 = start_time+line_events[0][0];
 		word_t1 = line_events.length>1?start_time+line_events[1][0]:now;
 	    }
 	}
-	if (word_element!=null)
-	    word_element.style.width = (now-word_t0)/(word_t1-word_t0)*100+"%";
+	if (word_element!=null){
+	    const rect=word_element.getBoundingClientRect();
+	    word_element.style.clip = "rect(-100vh,"+(now-word_t0)/(word_t1-word_t0)*(rect.right-rect.left)+"px,100vh,0)";
+	}
 	for (; line_events.length!=0&&start_time+line_events[0][0]<now; line_events=line_events.slice(1)){
 	    let element=document.getElementById(line_events[0][1]);
 	    if (element==null)
