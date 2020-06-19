@@ -20,8 +20,8 @@ final class MergeMidi{
 	final long time;
 	final int outTrackIndex;
 	final int one;
-	final int[]bytes;
-	OutputEvent(long time,int outTrackIndex,int one,int...bytes){
+	final byte[]bytes;
+	OutputEvent(long time,int outTrackIndex,int one,byte...bytes){
 	    this.time = time;
 	    this.outTrackIndex = outTrackIndex;
 	    this.one = one;
@@ -270,6 +270,14 @@ final class MergeMidi{
 	    this.percussion = percussion;
 	}
     }
+    private void writeVlen(OutputStream os,int len)throws IOException{
+	writeVlen(os,len,0);
+    }
+    private void writeVlen(OutputStream os,int len,int bit)throws IOException{
+	if (len>127)
+	    writeVlen(os,len>>7,128);
+	os.write(len&127|bit);
+    }
     private class TrackReader{
 	private final DataInputStream dis;
 	private final String id;
@@ -491,7 +499,10 @@ final class MergeMidi{
 		setRpn(0,0,(int)(BEND_RANGE*128+.5));
 	    }
 	    void add(long time,int outTrackIndex,int one,int...bytes){
-		outputEvents.add(new OutputEvent(time,outTrackIndex,one|number,bytes));
+		byte[]b=new byte[bytes.length];
+		for (int i=0; i<bytes.length; i++)
+		    b[i] = (byte)bytes[i];
+		outputEvents.add(new OutputEvent(time,outTrackIndex,one|number,b));
 	    }
 	    void setRpn(long time,int n,int v){
 		add(time,-1,0xb0,101,n>>7);
@@ -586,12 +597,11 @@ final class MergeMidi{
 	void makeMetaEvents(long[]maxTime)throws IOException{
 	    Collections.sort(metaEvents);
 	    for (MetaEvent me:metaEvents){
-		int[]bytes=new int[me.data.length+2];
-		bytes[0] = me.what;
-		bytes[1] = me.data.length;
-		for (int i=0; i<me.data.length; i++)
-		    bytes[2+i] = me.data[i];
-		outputEvents.add(new OutputEvent(me.time,me.outTrackIndex,0xff,bytes));
+		ByteArrayOutputStream baos=new ByteArrayOutputStream();
+		baos.write(me.what);
+		writeVlen(baos,me.data.length);
+		baos.write(me.data);
+		outputEvents.add(new OutputEvent(me.time,me.outTrackIndex,0xff,baos.toByteArray()));
 		maxTime[0] = Math.max(maxTime[0],me.time);
 	    }
 	}
@@ -733,7 +743,7 @@ final class MergeMidi{
 	long[]maxTime=new long[1];
 	oem.makeMetaEvents(maxTime);
 	oem.makeEvents(maxTime);
-	outputEvents.add(new OutputEvent(maxTime[0],-1,0xff,0x2f,0));
+	outputEvents.add(new OutputEvent(maxTime[0],-1,0xff,(byte)0x2f,(byte)0));
     }
     private void output(DataOutputStream dos,int outTrackIndex)throws IOException{
 	Collections.sort(outputEvents);

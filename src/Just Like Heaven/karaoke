@@ -77,12 +77,12 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "love"4 "with"8 "you?"2 -8
     -1
 \mymark "Chorus 1" #74
-    ">You,"2. \skip8 -8
-    -8 "||||soft"4 "and"8 "on"4 "-ly."
-    "You,"2. \skip8 -8
-    -8 "||||lost"4 "and"8 "lone"4 "-ly."
-    ">You,"2. \skip8 -8
-    -8 "||||strange"4 "as"8 "an"4 "-gels"
+    "><span style='display:inline-block;font-size:400%;transform:scaleY(.25);transform-origin:0 0;margin-bottom:-75%;vertical-align:top;'>You,</span>"2. \skip8 -8
+    -8 "soft"4 "and"8 "on"4 "-ly."
+    "<span style='display:inline-block;font-size:400%;transform:scaleY(.25);transform-origin:0 0;margin-bottom:-75%;vertical-align:top;'>You,</span>"2. \skip8 -8
+    -8 "lost"4 "and"8 "lone"4 "-ly."
+    "><span style='display:inline-block;font-size:400%;transform:scaleY(.25);transform-origin:0 0;margin-bottom:-75%;vertical-align:top;'>You,</span>"2. \skip8 -8
+    -8 "strange"4 "as"8 "an"4 "-gels"
     "dan"8 "-cing"4 "in" "the" "deep"4
     "-est"4 "o" "-ceans"4.
     ">twis"8 "-ting"4 "in" "the" "wa"4
@@ -122,12 +122,12 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "drowned"4 "her" "deep"8 "in"4 "-side"4
     "of"4 "me."2 -8
 \mymark "Chorus 2" #116
-    ">You,"2. \skip8 -8
-    -8 "||||soft"4 "and"8 "on"4 "-ly"
-    "You,"2. \skip8 -8
-    -8 "||||lost"4 "and"8 "lone"4 "-ly"
-    ">You,"2. \skip8 -8
-    -8 "||||just"4 "like"8 "hea"4 "-ven."4
+    "><span style='display:inline-block;font-size:400%;transform:scaleY(.25);transform-origin:0 0;margin-bottom:-75%;vertical-align:top;'>You,</span>"2. \skip8 -8
+    -8 "soft"4 "and"8 "on"4 "-ly"
+    "<span style='display:inline-block;font-size:400%;transform:scaleY(.25);transform-origin:0 0;margin-bottom:-75%;vertical-align:top;'>You,</span>"2. \skip8 -8
+    -8 "lost"4 "and"8 "lone"4 "-ly"
+    "><span style='display:inline-block;font-size:400%;transform:scaleY(.25);transform-origin:0 0;margin-bottom:-75%;vertical-align:top;'>You,</span>"2. \skip8 -8
+    -8 "just"4 "like"8 "hea"4 "-ven."4
     -2. -8 @@8
 \mybarNumberCheck #123
 }
