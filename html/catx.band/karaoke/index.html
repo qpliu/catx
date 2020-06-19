@@ -111,8 +111,6 @@ oo:
 			beat_events.push([t,k.slice(6)]);
 		    else if (k.slice(0,4)=="!bg=")
 			bg_events.push([t,k.slice(4)]);
-		    else if (k.slice(0,7)=="!hskip=")
-			sb += "<span style=visibility:hidden;>"+k.slice(7)+"</span>";
 		    else{
 			if (k.slice(0,1)==">"){
 			    if (this_line_start!=undefined)
@@ -132,17 +130,16 @@ oo:
 			if (k.slice(0,1)=="-")
 			    k = k.slice(1);
 			else if (sb.length!=0)
-			    sb += " ";
+			    sb += "&nbsp;";
+			sb += "<span id=id"+id_counter+"a style=position:relative;color:#000;>"+k;
+			sb += "<span id=id"+id_counter+"b style=overflow:hidden;position:absolute;left:0;top:0;width:0;z-index:1;color:#f00;>"+k+"</span>";
+			sb += "</span>";
 			if (k.length!=0){
 			    this_line_end = t;
 			    if (this_line_start==undefined)
 				this_line_start = t;
-			}
-			sb += "<span id=id"+id_counter+"a style=position:relative;color:#000;>"+k;
-			sb += "<span id=id"+id_counter+"b style=overflow:hidden;position:absolute;left:0;top:0;width:0;z-index:1;color:#f00;>"+k+"</span>";
-			sb += "</span>";
-			if (k.length!=0)
 			    ball_events.push([t,"id"+id_counter+"a"]);
+			}
 			line_events.push([t,"id"+id_counter+"b"]);
 			id_counter++;
 		    }

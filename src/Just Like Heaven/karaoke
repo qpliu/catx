@@ -65,7 +65,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "her"8 "face"4 "and" "kissed" "her"2
     "head."4. -8 ">Dreamed"4.
     "of"8 "all"4 "the" "diffe"4
-    "-rent"4 "ways"2 "!hskip=M|I"8
+    "-rent"4 "ways"2 "||I"8
     "had"8 "to"4 "make" "her" "glow."2
     -2 -8
     ">Why"4 "are"8 "you"4 "so" "far"4
@@ -78,11 +78,11 @@ karaokeLyrics = \new Lyrics \lyricmode {
     -1
 \mymark "Chorus 1" #74
     ">You,"2. \skip8 -8
-    -8 "!hskip=MMM|soft"4 "and"8 "on"4 "-ly."
+    -8 "||||soft"4 "and"8 "on"4 "-ly."
     "You,"2. \skip8 -8
-    -8 "!hskip=MMM|lost"4 "and"8 "lone"4 "-ly."
+    -8 "||||lost"4 "and"8 "lone"4 "-ly."
     ">You,"2. \skip8 -8
-    -8 "!hskip=MMM|strange"4 "as"8 "an"4 "-gels"
+    -8 "||||strange"4 "as"8 "an"4 "-gels"
     "dan"8 "-cing"4 "in" "the" "deep"4
     "-est"4 "o" "-ceans"4.
     ">twis"8 "-ting"4 "in" "the" "wa"4
@@ -123,11 +123,11 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "of"4 "me."2 -8
 \mymark "Chorus 2" #116
     ">You,"2. \skip8 -8
-    -8 "!hskip=MMM|soft"4 "and"8 "on"4 "-ly"
+    -8 "||||soft"4 "and"8 "on"4 "-ly"
     "You,"2. \skip8 -8
-    -8 "!hskip=MMM|lost"4 "and"8 "lone"4 "-ly"
+    -8 "||||lost"4 "and"8 "lone"4 "-ly"
     ">You,"2. \skip8 -8
-    -8 "!hskip=MMM|just"4 "like"8 "hea"4 "-ven."4
+    -8 "||||just"4 "like"8 "hea"4 "-ven."4
     -2. -8 @@8
 \mybarNumberCheck #123
 }
