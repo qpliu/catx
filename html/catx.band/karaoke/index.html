@@ -8,10 +8,10 @@
 <div id=div style=position:absolute;left:0;top:10vh;width:100vw;></div>
 <div style=position:absolute;top:0;left:0;width:100vw;height:10vh;text-align:center;><span id=name style=font-size:6vh;white-space:nowrap;color:#0f0;background-color:#000;></span></div>
 <div style=position:absolute;top:10vh;left:0;width:100vw;height:10vh;text-align:center;><span id=beat_counter style=font-family:monospace;font-size:8vh;color:#000;background-color:#0f0;>1</span></div>
-<div style=position:absolute;top:64vh;left:0;width:10vw;height:2vw;text-align:center;><span id=line1at style=position:absolute;font-size:2vw;color:#000;background-color:#0f0;></span></div>
-<div style=position:absolute;top:64vh;left:10vw;width:90vw;height:2vw;><span id=line1 style=font-size:2vw;white-space:nowrap></span></div>
-<div style=position:absolute;top:85vh;left:10vw;width:10vw;height:2vw;text-align:center;><span id=line0at style=position:absolute;font-size:2vw;color:#000;background-color:#0f0;></span></div>
-<div style=position:absolute;top:85vh;left:20vw;width:80vw;height:2vw;><span id=line0 style=font-size:2vw;white-space:nowrap></span></div>
+<div id=line1at style=position:absolute;top:64vh;left:5vw;width:5vw;font-size:2vw;></div>
+<div id=line1 style=position:absolute;top:64vh;left:10vw;width:90vw;font-size:2vw;></div>
+<div id=line0at style=position:absolute;top:85vh;left:15vw;width:5vw;font-size:2vw;></div>
+<div id=line0 style=position:absolute;top:85vh;left:20vw;width:80vw;font-size:2vw;></div>
 <div id=lineatat style=position:absolute;top:110vh;left:110vw;></div>
 <img style=position:absolute;bottom:100vh;width:5vw;z-index:2; id=ball src=../ball.png>
 <div style=position:absolute;left:0;top:35vh;width:100vw;height:65vh;z-index:-9;text-align:center;>
@@ -111,21 +111,13 @@ oo:
 			beat_events.push([t,k.slice(6)]);
 		    else if (k.slice(0,4)=="!bg=")
 			bg_events.push([t,k.slice(4)]);
+		    else if (k.slice(0,7)=="!hskip=")
+			sb += "<span style=visibility:hidden;>"+k.slice(7)+"</span>";
 		    else{
 			if (k.slice(0,1)==">"){
 			    if (this_line_start!=undefined)
 				break oo;
 			    k = k.slice(1);
-			}
-			let style="";
-			for (;;){
-			    let m;
-			    if ((m=k.match('!stretch=([^=]*)=(.*)$'))!=null){
-				stretch = Number(m[1]);
-				style += "font-size:"+100*stretch+"%;transform:scale(1,"+1/stretch+")translate(0,"+100*stretch+"%);line-height:"+100/stretch+"%;display:inline-block;";
-				k = m[2];
-			    }else
-				break;
 			}
 			if (k=="@@"){
 			    ball_events.push([t,"lineatat"]);
@@ -146,8 +138,8 @@ oo:
 			    if (this_line_start==undefined)
 				this_line_start = t;
 			}
-			sb += "<span id=id"+id_counter+"a style=position:relative;color:#000;"+style+">"+k;
-			sb += "<span id=id"+id_counter+"b style=position:absolute;left:0;top:0;clip:rect(-100vh,0,100vh,0);z-index:1;color:#f00;>"+k+"</span>";
+			sb += "<span id=id"+id_counter+"a style=position:relative;color:#000;>"+k;
+			sb += "<span id=id"+id_counter+"b style=overflow:hidden;position:absolute;left:0;top:0;width:0;z-index:1;color:#f00;>"+k+"</span>";
 			sb += "</span>";
 			if (k.length!=0)
 			    ball_events.push([t,"id"+id_counter+"a"]);
@@ -161,17 +153,15 @@ oo:
 	}
 	for (; line_events.length!=0&&start_time+line_events[0][0]<now; line_events=line_events.slice(1)){
 	    if (word_element!=null)
-		word_element.style.clip = "";
+		word_element.style.width = "100%";
 	    word_element = document.getElementById(line_events[0][1]);
 	    if (word_element!=null){
 		word_t0 = start_time+line_events[0][0];
 		word_t1 = line_events.length>1?start_time+line_events[1][0]:now;
 	    }
 	}
-	if (word_element!=null){
-	    const rect=word_element.getBoundingClientRect();
-	    word_element.style.clip = "rect(-100vh,"+(now-word_t0)/(word_t1-word_t0)*(rect.right-rect.left)+"px,100vh,0)";
-	}
+	if (word_element!=null)
+	    word_element.style.width = (now-word_t0)/(word_t1-word_t0)*100+"%";
 	for (; line_events.length!=0&&start_time+line_events[0][0]<now; line_events=line_events.slice(1)){
 	    let element=document.getElementById(line_events[0][1]);
 	    if (element==null)
