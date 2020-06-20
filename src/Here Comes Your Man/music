@@ -1,4 +1,4 @@
-% PARTS gg
+% PARTS midi
 % BIN midi all kav susan gg peter
 
 \header {
@@ -14,8 +14,7 @@
 \include "vo"
 \include "lyrics"
 \include "eg"
-
-voAligner = \new NullVoice = "vo" \voPart
+\include "karaoke"
 
 layoutmusic = <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
@@ -24,7 +23,6 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\voPart
-	\voAligner
 	\voLyrics
     >>
     \tag #'(allPart peterPart) <<
@@ -66,7 +64,6 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\drsPart
-	\voAligner
 	\voLyrics
     >>
 >>
@@ -85,4 +82,5 @@ midimusic = <<
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
     } \bassPart
+    \tag #'(midiKaraoke) \karaokeLyrics
 >>

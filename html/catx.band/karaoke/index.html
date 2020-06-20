@@ -9,10 +9,10 @@
 <div style=position:absolute;top:0;left:0;width:100vw;height:10vh;text-align:center;><span id=name style=font-size:6vh;white-space:nowrap;color:#0f0;background-color:#000;></span></div>
 <div style=position:absolute;top:10vh;left:0;width:100vw;height:10vh;text-align:center;><span id=beat_counter style=font-family:monospace;font-size:8vh;color:#000;background-color:#0f0;>1</span></div>
 <div id=line1at style=position:absolute;top:64vh;left:5vw;width:5vw;font-size:2vw;></div>
-<div id=line1 style=position:absolute;top:64vh;left:10vw;width:90vw;font-size:2vw;></div>
+<div id=line1 style=position:absolute;top:64vh;left:10vw;width:90vw;font-size:2vw;white-space:nowrap;></div>
 <div id=line0at style=position:absolute;top:85vh;left:15vw;width:5vw;font-size:2vw;></div>
-<div id=line0 style=position:absolute;top:85vh;left:20vw;width:80vw;font-size:2vw;></div>
-<div id=lineatat style=position:absolute;top:100vh;left:95vw;height=0;></div>
+<div id=line0 style=position:absolute;top:85vh;left:20vw;width:80vw;font-size:2vw;white-space:nowrap;></div>
+<div id=lineatat style=position:absolute;top:100vh;left:97.5vw;height=0;></div>
 <img id=ball style=position:absolute;bottom:100vh;width:5vw;z-index:2; src=../ball.png>
 <div style=position:absolute;left:0;top:35vh;width:100vw;height:65vh;z-index:-9;text-align:center;>
 <span id=bgtext style=font-size:45vh;margin-top:10vh;color:#0f0;opacity:.5;display:none;></span>
@@ -180,11 +180,11 @@ oo:
 	}
 	if (ball_t0!=undefined){
 	    const tt=ball_t1-ball_t0;
-	    const t=(now-ball_t0)/tt;
+	    const t=Math.min((now-ball_t0)/tt,1);
 	    const r=ball.getBoundingClientRect();
 	    ball.style.left = (ball_x0+t*(ball_x1-ball_x0)+(r.left-r.right)/2)+"px";
 	    const bounce_height=2*(r.bottom-r.top);
-	    ball.style.top = (ball_y0+t*(ball_y1-ball_y0)-r.bottom+r.top-(1-4*(t-.5)*(t-.5))*bounce_height*(tt>2000?2000:tt)/2000)+"px";
+	    ball.style.top = (ball_y0+t*(ball_y1-ball_y0)-r.bottom+r.top-(1-4*(t-.5)*(t-.5))*bounce_height*Math.min(tt/2000,1))+"px";
 	}
 	for (; bg_events.length!=0&&start_time+bg_events[0][0]<now; bg_events=bg_events.slice(1)){
 	    const k=bg_events[0][1];

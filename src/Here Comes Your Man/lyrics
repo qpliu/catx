@@ -1,48 +1,62 @@
-voLyrics = \new Lyrics \lyricsto "vo" {
+voLyrics = \new Lyrics \lyricmode {
+    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
 % Verse 1
-Out -- side there's a box -- car wait -- ing
-Out -- side the fam -- ily stew
-Out by the fi -- re brea -- thing
-Out -- side we wait 'til face turns blue
-I know the ner -- vous wal -- king
-I know the dir -- ty beard hangs
-Out by the box -- car wait -- ing
-Take me way to no -- where plains
-There is a wait so long (so long so long)
-You'll ne -- ver wait so long
+    \skip4 Out8 -- side4 there's a8 |
+    box4 -- car wait8 -- ing4. |
+    \skip4 Out8 -- side4 the fam -- ily stew1
+    Out4 by the8 |
+    fi4 -- re breath8 -- ing4. |
+    \skip8 Out4 -- side we wait 'til face turns4. |
+    blue4.  I4 know the8 |
+    ner8 -- vous4 walk -- ing4. |
+    \skip8 I4 know the dir -- ty beard hangs2.
+    Out4 by8 the box4 -- car wait -- ing4. |
+    \skip8 Take4 me8 way to4. |
+    no4 -- where plains2 |
+    \skip8 There8 is a wait4 so |
+    long4 (so long so |
+    long)8 You'll ne -- ver wait4 so2 long2. \skip8 \skip4.
 % Chorus 1
-Here comes your man
-Here comes your man
-Here comes your man
+    Here8 comes4 your8 man2 \skip2 |
+    \skip2 Here8 comes4 your8 man2 \skip2 |
+    \skip2 Here8 comes4 your8 man2 \skip2 |
+    \skip1 \skip1 \skip1 |
 % Verse 2
-Big shake on the box -- car mo -- ving
-Big shake to the land that's fal -- ling down
-Is a wind makes a palm stop blow -- ing
-A big, big stone fall and break my crown
-There is a wait so long (so long so long)
-You'll ne -- ver wait so long
+    \skip4 Big8 shake4 on the8 |
+    box4 -- car mov8 -- ing4. |
+    \skip8 Big4 shake to8 the land4. that's4 fall8 -- ing4. |
+    down4 Is8 a wind4 makes8 a |
+    palm4 stop blow8 -- ing4 A8 |
+    big,4 big stone fall8 and |
+    break4 my crown2 |
+    \skip8 There8 is a wait4 so |
+    long4 (so long so |
+    long)8 You'll ne -- ver wait4 so2 long2. \skip8 \skip4.
 % Chorus 2
-Here comes your man
-Here comes your man
-Here comes your man
-Here comes your man
+    Here8 comes4 your8 man2 \skip2 |
+    \skip2 Here8 comes4 your8 man2 \skip2 |
+    \skip2 Here8 comes4 your8 man1 \skip8
+    \skip4. Here8 comes4 your8 man2 \skip2 |
 % Riff 2
-Ah ooh
-Ah ooh
-There is a wait so long (so long so long)
-You'll ne -- ver wait so long
+    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 |
+    \skip2. Ah4 ooh1 \skip1 \skip1 \skip2.
+    Ah4 ooh1 \skip1 \skip1 \skip1 |
+    \skip8 There8 is a wait4 so |
+    long4 (so long so |
+    long)8 You'll ne -- ver wait4 so2 long2. |
 % Chorus 3
-Here comes your man
-Here comes your man
-Here comes your man
-Here comes your man
-Here comes your man
-Here comes your man
-Here comes your man
-Here comes your man
-Here comes your man
-Here comes your man
-Here comes your man
-Here comes your man
-Here comes your man
+    \skip1 |
+    \skip2 Here8 comes4 your8 man2 \skip2 |
+    \skip2 Here8 comes4 your8 man2 \skip2 |
+    \skip2 Here8 comes4 your8 man1 \skip8
+    \skip4. Here8 comes4 your8 man2 \skip2 |
+    \skip2 Here8 comes4 your8 man2 \skip2 |
+    \skip2 Here8 comes4 your8 man2 \skip2 |
+    \skip2 Here8 comes4 your8 man1 \skip8
+    \skip4. Here8 comes4 your8 man1 \skip8
+    \skip4. Here8 comes4 your8 man2 \skip2 |
+    \skip2 Here8 comes4 your8 man2 \skip2 |
+    \skip2 Here8 comes4 your8 man1 \skip8
+    \skip4. Here8 comes4 your8 man1 \skip8
+    \skip4. Here8 comes4 your8 man4
 }
