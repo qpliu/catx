@@ -6,6 +6,8 @@
     composer = "Pixies"
 }
 
+% IF gg #(set-global-staff-size 19)
+
 \include "markup"
 \include "drs"
 \include "bass"
