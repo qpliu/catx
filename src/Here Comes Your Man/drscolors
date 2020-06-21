@@ -48,7 +48,7 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd4 bd4 bd4 bd8 | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
-    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd4 bd8 bd db4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd4 bd8 bd bd4. | } >>
 \mymark "Pre-Chorus 2" #45
     << { cymc4. hh8 hh4 sn8 \tuplet 3/2 { tomh16 tomh tomh } | } \context DrumVoice = "drsb" { bd4. bd8 bd2 | } >>
     << { tomh8 hh hh hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd8 bd2 | } >>
