@@ -101,7 +101,7 @@
 oo:
 	    for (; karaoke_index<karaoke.length; karaoke_index++){
 		if ("repeat" in karaoke[karaoke_index]){
-		    repeat_time += karaoke[karaoke_index].repeat;
+		    repeat_time = Math.ceil((now-start_time)/karaoke[karaoke_index].repeat)*karaoke[karaoke_index].repeat;
 		    karaoke_index = 0;
 		    break;
 		}
@@ -147,7 +147,10 @@ oo:
 		}
 	    }
 	    lines[which_line].innerHTML = sb;
-	    next_line_start = start_time+(2*this_line_start+this_line_end)/3;
+	    if (this_line_start==undefined)
+		next_line_start = now;
+	    else
+		next_line_start = start_time+(2*this_line_start+this_line_end)/3;
 	}
 	for (; line_events.length!=0&&start_time+line_events[0][0]<now; line_events=line_events.slice(1)){
 	    if (word_element!=null)
