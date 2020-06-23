@@ -1,4 +1,4 @@
-% PARTS midi
+% PARTS gg
 % BIN midi all kav susan gg peter
 
 \header {
@@ -6,7 +6,7 @@
     composer = "Pixies"
 }
 
-% IF gg #(set-global-staff-size 19)
+% IF gg #(set-global-staff-size 19.5)
 
 \include "markup"
 \include "drs"
