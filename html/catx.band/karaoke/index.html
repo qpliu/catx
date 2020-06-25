@@ -274,20 +274,6 @@
 	    context.globalCompositeOperation = "source-over";
 	    context.fillStyle = "#404040";
 	    context.fillRect(0,0,CANVAS_WIDTH,CANVAS_HEIGHT);
-	    for (const e of tone_events){
-		const y0=(MAX_NOTE-e[2]-TRANSPOSE-.5)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT;
-		const y1=(MAX_NOTE-e[2]-TRANSPOSE+.5)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT;
-		const r0=repeat?Math.ceil((snake_time-(e[0]+e[1]))/repeat):0;
-		const r1=repeat?Math.ceil((snake_time-e[0])/repeat):0;
-		for (let r=r0; r<=r1; r++){
-		    const x0=Math.max((e[0]+repeat*r-snake_time)/TIME_PER_SNAKE,0)*CANVAS_WIDTH;
-		    const x1=Math.min(((e[0]+e[1])+repeat*r-snake_time)/TIME_PER_SNAKE,1)*CANVAS_WIDTH;
-		    if (x1>x0){
-			context.fillStyle = "#ff40ff";
-			context.fillRect(x0,y0,x1-x0,y1-y0);
-		    }
-		}
-	    }
 	    for (const e of lyric_events){
 		const r0=repeat?Math.ceil((snake_time-TIME_PER_SNAKE-e[0])/repeat):0;
 		const r1=repeat?Math.ceil((snake_time+TIME_PER_SNAKE-e[0])/repeat):1;
@@ -320,6 +306,19 @@
 			const x0=(t-snake_time)/TIME_PER_SNAKE*CANVAS_WIDTH;
 			context.fillRect(x0,0,1,CANVAS_HEIGHT);
 		    }
+		}
+	    }
+	    context.fillStyle = "#ff40ff";
+	    for (const e of tone_events){
+		const y0=(MAX_NOTE-e[2]-TRANSPOSE-.5)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT;
+		const y1=(MAX_NOTE-e[2]-TRANSPOSE+.5)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT;
+		const r0=repeat?Math.ceil((snake_time-(e[0]+e[1]))/repeat):0;
+		const r1=repeat?Math.ceil((snake_time-e[0])/repeat):0;
+		for (let r=r0; r<=r1; r++){
+		    const x0=Math.max((e[0]+repeat*r-snake_time)/TIME_PER_SNAKE,0)*CANVAS_WIDTH;
+		    const x1=Math.min(((e[0]+e[1])+repeat*r-snake_time)/TIME_PER_SNAKE,1)*CANVAS_WIDTH;
+		    if (x1>x0)
+			context.fillRect(x0,y0,x1-x0,y1-y0);
 		}
 	    }
 	    snakesw[which_line].innerHTML = sb;
