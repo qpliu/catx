@@ -16,6 +16,15 @@ Settings for Snakes:
 <br>
 <input type=submit>
 </form>
+<br>
+<form id=chatForm style=visibility:hidden;>
+Private Chat With Aarin Robo:
+<br>
+<div id=chatDiv style=width:90vw;height:70vh;overflow-y:scroll;></div>
+<br>
+<input id=chatInput style=width:90%; type=text>
+<input type=submit>
+<form>
 <script>
     function make(where,lab,what){
 	const whe=document.getElementById(where);
@@ -43,5 +52,25 @@ Settings for Snakes:
     make("span1","FFT Size:","fftSize");
     make("span1","minDecibels:","minDecibels");
     make("span1","maxDecibels:","maxDecibels");
+    const websocket=new WebSocket("wss://catx.band/karaoke_websocket");
+    const chatForm=document.getElementById("chatForm");
+    const chatDiv=document.getElementById("chatDiv");
+    chatForm.onsubmit = function(event){
+	const chatInput=document.getElementById("chatInput");
+	websocket.send("chat"+chatInput.value);
+	chatDiv.innerHTML += "<font color=pink><b>You</b></font> "+chatInput.value+"<br>";
+	chatDiv.scrollTop = chatDiv.scrollHeight;
+	chatInput.value = "";
+	event.preventDefault();
+    };
+    websocket.onopen = function(){
+	chatForm.style.visibility = "visible";
+    };
+    websocket.onmessage = function(event){
+	if (event.data.slice(0,4)=="chat"){
+	    chatDiv.innerHTML += event.data.slice(4)+"<br>";
+	    chatDiv.scrollTop = chatDiv.scrollHeight;
+	}
+    };
 </script>
 </html>
