@@ -223,7 +223,7 @@
 				    if (k.slice(0,6)=="!beat="){
 					if (t>=snake_time && t<snake_time+TIME_PER_SNAKE)
 					    beat_events.push([t,k.slice(6)]);
-					if (k.slice(-2)==':1')
+					if (k.slice(-2)==':1' || k.slice(-2)=='=1')
 					    context.fillStyle = "#ff4040";
 					else
 					    context.fillStyle = "#4040ff";
