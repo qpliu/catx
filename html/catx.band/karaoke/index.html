@@ -374,6 +374,8 @@
 		if (repeat && lyric_index==lyric_events.length-1){
 		    lyric_repeat = Math.max(Math.ceil((now-start_time-e[0])/repeat)*repeat,lyric_repeat+repeat);
 		    lyric_index = 0;
+		    if (this_line_start!=undefined)
+			break;
 		}else
 		    lyric_index++;
 	    }
