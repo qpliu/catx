@@ -1,7 +1,7 @@
 voPart = {
     \relative {
 \mymark "Intro" #1
-        d'8 a' d a' g fis e fis |
+        d8 a' d a' g fis e fis |
         e16 fis e d cis8 e d cis b cis~ |
         cis2.~ cis8 r |
         d1 |
