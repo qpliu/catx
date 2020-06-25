@@ -1,5 +1,6 @@
-% PARTS midi
+% PARTS all
 % BIN midi all
+% ROBOT metronome=1
 
 \header {
     title = "Row, Row, Row Your Boat"
@@ -9,14 +10,12 @@
 \include "drs"
 \include "vo"
 \include "lyrics"
-
-voAligner = \new NullVoice = "vo" \voPart
+\include "karaoke"
 
 layoutmusic = <<
     \tag #'(allPart) \new Staff <<
 	\markupStuff
 	\voPart
-	\voAligner
 	\voLyrics
     >>
     \tag #'(allPart) \new DrumStaff \with {
@@ -35,4 +34,8 @@ midimusic = <<
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
+    \tag #'(midiKaraoke) <<
+	\karaokeLyrics
+	\voPart
+    >>
 >>
