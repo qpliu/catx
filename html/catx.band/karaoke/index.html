@@ -5,7 +5,7 @@
 <title id=title>Karaoke</title>
 </head>
 <body style=overflow:hidden;>
-<a href=setup.html><img style=position:absolute;right:0;top:0;width:5vw;z-index:9;color:#0f0; src=../settings.svg></a>
+<a id=setup href=setup.html><img style=position:absolute;right:0;top:0;width:5vw;z-index:9;color:#0f0; src=../settings.svg></a>
 <div id=div style=position:absolute;left:0;top:10vh;width:100vw;></div>
 <div style=position:absolute;top:0;left:0;width:100vw;height:10vh;text-align:center;><span id=name style=font-size:6vh;white-space:nowrap;color:#0f0;background-color:#000;></span></div>
 <div style=position:absolute;top:10vh;left:0;width:100vw;height:10vh;text-align:center;><span id=beat_counter style=font-family:monospace;font-size:8vh;color:#000;background-color:#0f0;>1</span></div>
@@ -26,17 +26,21 @@
 <script>
     const audioContext=new AudioContext();
     const DELAY=200;
-    const FFT_SIZE=8192;
+    const HARMONICS_TO_CHECK=3;
+    const FFT_SIZE=16384;
     const TIME_PER_SNAKE=4000;
-    let match=window.location.search.match("[?&]lowestNote=([0-9]+)");
+    let match=window.location.search.match("[?&]lowestNote=([^?&]+)");
     const MIN_NOTE=match?Number(match[1]):48;
-    match = window.location.search.match("[?&]highestNote=([0-9]+)");
+    match = window.location.search.match("[?&]highestNote=([^?&]+)");
     const MAX_NOTE=match?Number(match[1]):72;
-    match = window.location.search.match("[?&]minDecibels=([0-9]+)");
+    match = window.location.search.match("[?&]minDecibels=([^?&]+)");
     const MIN_DECIBELS=match?Number(match[1]):-100;
-    match = window.location.search.match("[?&]maxDecibels=([0-9]+)");
+    match = window.location.search.match("[?&]maxDecibels=([^?&]+)");
     const MAX_DECIBELS=match?Number(match[1]):-50;
-    const SNAKES=window.location.search.indexOf("snakes")!=-1;
+    match = window.location.search.match("[?&]transpose=([^?&]+)");
+    const TRANSPOSE=match?Number(match[1]):60;
+    match = window.location.search.match("[?&]snakes=([^?&]+)");
+    const SNAKES=match?Number(match[1]):0;
     const CANVAS_WIDTH=1024;
     const CANVAS_HEIGHT=(MAX_NOTE-MIN_NOTE)*10;
     const cats=[
@@ -73,6 +77,7 @@
     let repeat;
     let repeat_time;
     const bgimg=document.getElementById("bgimg");
+    document.getElementById("setup").href += window.location.search;
     const bgtext=document.getElementById("bgtext");
     const ball=document.getElementById("ball");
     const beat_counter=document.getElementById("beat_counter");
@@ -177,7 +182,10 @@
 		const n1=69+Math.log((i+1)*audioContext.sampleRate/FFT_SIZE/440)/Math.log(2)*12;
 		const y0=Math.floor((MAX_NOTE-n0)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT);
 		const y1=Math.floor((MAX_NOTE-n1)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT);
-		context.fillStyle = "rgb("+fft_data[i]+","+fft_data[i]+","+0+")";
+		let d=fft_data[i];
+		for (let j=2; i*j<fft_data.length&&j<=HARMONICS_TO_CHECK; j++)
+		    d = Math.min(d,fft_data[i*j]);
+		context.fillStyle = "rgb("+d+","+d+","+0+")";
 		context.fillRect(x0,y0,x1-x0,y1-y0);
 	    }
 	}
@@ -199,8 +207,8 @@
 			const t0=keys[a.off];
 			delete keys[a.off];
 			const t1=a.t;
-			const y0=(MAX_NOTE-a.off-.5)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT;
-			const y1=(MAX_NOTE-a.off+.5)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT;
+			const y0=(MAX_NOTE-a.off-TRANSPOSE-.5)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT;
+			const y1=(MAX_NOTE-a.off-TRANSPOSE+.5)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT;
 			let r0=0;
 			let r1=1;
 			if (repeat!=0){

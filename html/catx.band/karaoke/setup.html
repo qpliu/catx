@@ -4,41 +4,38 @@
 <meta charset=UTF-8>
 <title id=title>Karaoke</title>
 </head>
-<form action=index.html>
-<input type=submit value="Start Bouncing Ball">
-</form>
-<br>
 </head>
 <form action=index.html>
 <label for=lowestNote>Lowest Note:</label>
-<select id=lowestNote name=lowestNote>
-<option value="36">C2</option>
-<option value="41">F2</option>
-<option value="48" selected>C3</option>
-<option value="53">F3</option>
-<option value="60">C4</option>
-<option value="65">F4</option>
-<option value="72">C5</option>
-</select>
+<input type=text id=lowestNote name=lowestNote value=48>
 <br>
 <label for=highestNote>Highest Note:</label>
-<select id=highestNote name=highestNote>
-<option value="48">C3</option>
-<option value="53">F3</option>
-<option value="60">C4</option>
-<option value="65">F4</option>
-<option value="72" selected>C5</option>
-<option value="77">F5</option>
-<option value="84">C6</option>
-</select>
+<input type=text id=highestNote name=highestNote value=72>
+<br>
+<label for=transpose>Transpose:</label>
+<input type=text id=transpose name=transpose value=0>
+<label for=transpose>half steps</label>
 <br>
 <label for=maxDecibels>maxDecibels:</label>
 <input type=text id=maxDecibels name=maxDecibels value=-50>
 <br>
 <label for=minDecibels>minDecibels:</label>
 <input type=text id=minDecibels name=minDecibels value=-100>
-<input type=hidden name=snakes value=1>
+<input type=hidden id=snakes name=snakes value=1>
 <br>
-<input type=submit value="Start Snakes">
+<input type=submit onclick="document.getElementById('snakes').value=0;" value="Start Bouncing Ball">
+<input type=submit onclick="document.getElementById('snakes').value=1;" value="Start Snakes">
 </form>
+<script>
+    function get(what){
+	let match=window.location.search.match("[?&]"+what+"=([^?&]+)");
+	if (match)
+	    document.getElementById(what).value = match[1];
+    }
+    get("lowestNote");
+    get("highestNote");
+    get("minDecibels");
+    get("maxDecibels");
+    get("transpose");
+</script>
 </html>
