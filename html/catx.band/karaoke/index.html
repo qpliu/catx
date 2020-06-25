@@ -58,6 +58,7 @@
     let karaoke;
     let karaoke_index;
     let start_time;
+    let repeat;
     let repeat_time;
     const bgimg=document.getElementById("bgimg");
     const bgtext=document.getElementById("bgtext");
@@ -89,6 +90,7 @@
 	    snakes[i].height = CANVAS_HEIGHT;
 	    snakesw[i].style.display = "block";
 	}
+	cats.length = 0;
     }else
 	for (const cat of cats){
 	    const div=document.getElementById("div");
@@ -119,7 +121,7 @@
 		cat[4] = (cat[4]+1)%cat[2];
 	    beat_counter.innerHTML = beat_events[0][1]
 	}
-	if (!SNAKES && beat_events.length!=0 && last_beat_time!=undefined){
+	if (beat_events.length!=0 && last_beat_time!=undefined){
 	    const t=(now-start_time-last_beat_time)/(beat_events[0][0]-last_beat_time);
 	    for (const cat of cats){
 		cat[5][cat[6]].style.visibility = "hidden";
@@ -133,9 +135,9 @@
 	    return;
 	const now=new Date().getTime();
 	while (next_line_start<now){
+	    snake_time += Math.max(Math.floor((now-start_time-snake_time)/(TIME_PER_SNAKE*2)),0)*TIME_PER_SNAKE*2;
 	    which_line ^= 1;
 	    sb = ""
-	    repeat = karaoke.length>0 && "repeat" in karaoke[karaoke.length-1]?karaoke[karaoke.length-1].repeat:0;
 	    keys = {}
 	    const canvas=snakes[which_line];
 	    const context=canvas.getContext("2d");
@@ -151,8 +153,8 @@
 			const t1=a.t;
 			const y0=(MAX_NOTE-a.off-.5)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT;
 			const y1=(MAX_NOTE-a.off+.5)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT;
-			r0 = 0;
-			r1 = 1;
+			let r0=0;
+			let r1=1;
 			if (repeat!=0){
 			    r0 = Math.floor((snake_time-t1)/repeat);
 			    r1 = Math.ceil((snake_time+TIME_PER_SNAKE-t0)/repeat);
@@ -160,24 +162,27 @@
 			for (let r=r0; r<r1; r++){
 			    const x0=Math.max((t0+repeat*r-snake_time)/TIME_PER_SNAKE,0)*CANVAS_WIDTH;
 			    const x1=Math.min((t1+repeat*r-snake_time)/TIME_PER_SNAKE,1)*CANVAS_WIDTH;
-			    context.fillStyle = "#ff00ff";
-			    context.fillRect(x0,y0,x1-x0,y1-y0);
+			    if (x1>x0){
+				context.fillStyle = "#ff00ff";
+				context.fillRect(x0,y0,x1-x0,y1-y0);
+			    }
 			}
 		    }
 		    if ("k" in a){
-			r0 = 0;
-			r1 = 1;
+			let r0=0;
+			let r1=1;
 			if (repeat!=0){
-			    r0 = Math.floor((snake_time-a.t)/repeat);
+			    r0 = Math.ceil((snake_time-TIME_PER_SNAKE-a.t)/repeat);
 			    r1 = Math.ceil((snake_time+TIME_PER_SNAKE-a.t)/repeat);
 			}
 			for (let r=r0; r<r1; r++){
 			    const t=a.t+repeat*r;
 			    if (t>snake_time-TIME_PER_SNAKE && t<snake_time+TIME_PER_SNAKE)
 				for (let k of a.k.split("|")){
-				    if (k.slice(0,6)=="!beat=")
-					beat_events.push([t,k.slice(6)]);
-				    else if (k.slice(0,4)=="!bg=")
+				    if (k.slice(0,6)=="!beat="){
+					if (t>=snake_time && t<snake_time+TIME_PER_SNAKE)
+					    beat_events.push([t,k.slice(6)]);
+				    }else if (k.slice(0,4)=="!bg=")
 					continue;
 				    else{
 					if (k.slice(0,1)==">")
@@ -186,16 +191,18 @@
 					    continue;
 					if (k.slice(0,1)=="-")
 					    k = k.slice(1);
-					sb += "<span style=position:absolute;left:"+(t-snake_time)*100/TIME_PER_SNAKE+"vw;top:0>"+k+"</span>"
+					if (k.length!=0)
+					    sb += "<span style=position:absolute;left:"+(t-snake_time)*100/TIME_PER_SNAKE+"vw;bottom:0>"+k+"</span>"
 				    }
 				}
 			}
 		    }
 		}
 	    snakesw[which_line].innerHTML = sb;
-	    snake_time += TIME_PER_SNAKE;
 	    next_line_start = start_time+snake_time+TIME_PER_SNAKE/2;
+	    snake_time += TIME_PER_SNAKE;
 	}
+	beat_events.sort();
 	animateBeatEvents(now);
 	window.requestAnimationFrame(animateSnakes);
     }
@@ -209,12 +216,13 @@
 	    let this_line_end;
 	    sb = ""
 oo:
-	    for (; karaoke_index<karaoke.length; karaoke_index++){
-		if ("repeat" in karaoke[karaoke_index]){
-		    repeat_time = Math.ceil((now-start_time)/karaoke[karaoke_index].repeat)*karaoke[karaoke_index].repeat;
-		    karaoke_index = 0;
-		    break;
-		}
+	    for (;; karaoke_index++){
+		if (karaoke_index>=karaoke.length)
+		    if (repeat!=0){
+			repeat_time = Math.ceil((now-start_time)/repeat)*repeat;
+			karaoke_index = 0;
+		    }else
+			break;
 		const t=karaoke[karaoke_index].t+repeat_time;
 		if ("k" in karaoke[karaoke_index])
 		    for (let k of karaoke[karaoke_index].k.split("|")){
@@ -341,7 +349,8 @@ oo:
 		start_time = json.start_time+ntp_offset;
 		snake_time = 0;
 		snake_key = undefined;
-		repeat_time = 0;
+		repeat = karaoke.length>0 && "repeat" in karaoke[karaoke.length-1]?karaoke[karaoke.length-1].repeat:0;
+		repeat_time = repeat==0?0:Math.max(Math.floor((now-start_time)/repeat)*repeat,0);
 		karaoke_index = 0;
 		next_line_start = 0;
 		which_line = 0;
