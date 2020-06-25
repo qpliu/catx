@@ -27,7 +27,7 @@
     const audioContext=new AudioContext();
     const DELAY=200;
     const HARMONICS_TO_CHECK=3;
-    const FFT_SIZE=16384;
+    const FFT_SIZE=8192;
     const TIME_PER_SNAKE=4000;
     let match=window.location.search.match("[?&]lowestNote=([^?&]+)");
     const MIN_NOTE=match?Number(match[1]):48;
