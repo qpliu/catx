@@ -1,0 +1,101 @@
+snakesPart = {
+    \relative {
+\mymark "Intro" #1
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+\mymark "Verse 1" #10
+        e''8 fis fis fis fis g g g |
+        e4 e8 e e16 e e8 d fis~ |
+        fis8 r8 r2. |
+        r2. d8 e |
+        e8 fis fis fis fis g g g |
+        e8 e e e e d d d |
+        r1 |
+        r2. d8 e |
+        fis4 fis8 fis4 g8 g g |
+        e8 e e4 e8 e4 fis8~ |
+        fis8 r8 r2. |
+        r1 |
+        fis4 fis8 fis g4 g8 g |
+        e8 e e e e e d d~ |
+        d8 r2. a8 |
+\mymark "Chorus 1" #25
+        g'8 g fis fis e4 fis |
+        e4 d r2 |
+        r2 g8 g fis4 |
+        e4 fis r2 |
+        r4. a,8 g'4 fis |
+        e4 d r2 |
+        r4. g8 g g fis fis |
+        e4 fis r4. a,8 |
+        g'8 g fis fis e4 fis |
+        e4 d2. |
+\mymark "Verse 2" #35
+        e8 fis fis fis fis g g g |
+        e8 e e e e e d fis~ |
+        fis8 r8 r2. |
+        r2. r8 e |
+        e8 fis fis fis fis g g g |
+        e8 e e e e d d d |
+        r1 |
+        r2. d8 e |
+        fis8 fis fis4 g g8 g |
+        e8 e e e e8 e e fis~ |
+        fis8 r8 r2. |
+        r1 |
+        fis8 fis fis fis g4 g8 g |
+        e8 e e4 e8 d4 d8~ |
+        d8 r2. a8 |
+\mymark "Chorus 2" #50
+        g'8 g fis fis e4 fis |
+        e4 d r2 |
+        r2 g8 g fis4 |
+        e4 fis r2 |
+        r4. a,8 g'4 fis |
+        e4 d r2 |
+        r4. g8 g g fis fis |
+        e4 fis r4. a,8 |
+        g'8 g fis fis e4 fis |
+        e4 d2. |
+\mymark "Bridge" #60
+        b'8 a fis b4 fis8 fis a |
+        b8 a fis a b4 b |
+        gis8 gis gis4 gis8.( fis16) r4 |
+        r1 |
+        a8 a a a4 a8 a a |
+        a8 a a a a8 a a a |
+        fis4 fis8 fis4( e8) r4 |
+        r2. r8 b |
+        d8 d d d d4 d8 e |
+        e2. b,8 b |
+        b8 b r b d d b d~ |
+        d8 r8 r2. |
+	r1 |
+        r2. r8 a' |
+\mymark "Outro" #74
+        g'8 g fis fis e4 fis |
+        e4 d r2 |
+        r2 g8 g fis4 |
+        e4 fis r2 |
+        r4. a,8 g'4 fis |
+        e4 d r2 |
+        r4. g8 g g fis fis |
+        e4 fis r4. a,8 |
+        g'8 g fis fis e4 fis |
+        e4 d r2 |
+        r2 g8 g fis4 |
+        e4 fis r2 |
+        r4. a,8 g'4 fis |
+        e4 d r4. a8 |
+        g'8 g fis fis e4 fis |
+\mybarNumberCheck #89
+        e4 d
+    }
+}

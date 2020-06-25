@@ -1,4 +1,4 @@
-% PARTS gg
+% PARTS kav
 % BIN midi all kav susan gg peter
 
 \header {
@@ -14,6 +14,7 @@
 \include "vo"
 \include "lyrics"
 \include "karaoke"
+\include "snakes"
 \include "eg"
 
 layoutmusic = <<
@@ -83,5 +84,8 @@ midimusic = <<
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
     } \bassPart
-    \tag #'(midiKaraoke) \karaokeLyrics
+    \tag #'(midiKaraoke) <<
+	\karaokeLyrics
+	\snakesPart
+    >>
 >>
