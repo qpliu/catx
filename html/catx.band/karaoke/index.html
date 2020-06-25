@@ -24,20 +24,24 @@
 <canvas id=snakes0 style=position:absolute;top:60vh;left:0;width:100vw;height:40vh;background-color:#000;display:none;></canvas>
 <div id=snakes0w style=position:absolute;bottom:0vh;left:0;width:100vw;height:5vh;font-size:1vw;white-space:nowrap;color:#0f0;background-color:#000;display:none;z-index:1;></div>
 <script>
+    let windowLocationSearch=window.location.search;
     function getSearch(what,defaul){
-	let match=window.location.search.match("[?&]"+what+"=([^?&]+)");
-	return match?match[1]:defaul;
+	let match=windowLocationSearch.match("[?&]"+what+"=([^?&]*)");
+	if (match)
+	    return match[1];
+	windowLocationSearch += (windowLocationSearch?"&":"?")+what+"="+defaul;
+	return defaul;
     }
     const audioContext=new AudioContext();
-    const DELAY=200;
-    const TIME_PER_SNAKE=4000;
+    const DELAY=Number(getSearch("delay","200"));
+    const TIME_PER_SNAKE=Number(getSearch("timePerSnake","4000"));
     const MIN_NOTE=Number(getSearch("lowestNote","48"));
     const MAX_NOTE=Number(getSearch("highestNote","72"));
     const MIN_DECIBELS=Number(getSearch("minDecibels","-100"));
     const MAX_DECIBELS=Number(getSearch("maxDecibels","-50"));
     const TRANSPOSE=Number(getSearch("transpose","0"));
     const HARMONICS_TO_CHECK=Number(getSearch("harmonicsToCheck","3"));
-    const CINOMRAHS_TO_CHECK=Number(getSearch("cinomrahsToCheck","3"));
+    const SUBHARMONICS_TO_CHECK=Number(getSearch("subharmonicsToCheck","3"));
     const FFT_SIZE=Number(getSearch("fftSize","8192"));
     const SNAKES=Number(getSearch("snakes","0"));
     const CANVAS_WIDTH=1024;
@@ -76,7 +80,7 @@
     let repeat;
     let repeat_time;
     const bgimg=document.getElementById("bgimg");
-    document.getElementById("setup").href += window.location.search;
+    document.getElementById("setup").href += windowLocationSearch;
     const bgtext=document.getElementById("bgtext");
     const ball=document.getElementById("ball");
     const beat_counter=document.getElementById("beat_counter");
@@ -184,7 +188,7 @@
 		let d=fft_data[i];
 		for (let j=2; i*j<fft_data.length&&j<=HARMONICS_TO_CHECK; j++)
 		    d = Math.min(d,fft_data[i*j]);
-		for (let j=2; j<=CINOMRAHS_TO_CHECK; j++){
+		for (let j=2; j<=SUBHARMONICS_TO_CHECK; j++){
 		    let f=i/j;
 		    let ff=Math.floor(f);
 		    f -= ff;
