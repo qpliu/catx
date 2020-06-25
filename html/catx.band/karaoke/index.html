@@ -29,7 +29,7 @@
     const TIME_PER_SNAKE=4000;
     const MIN_NOTE=60-12;
     const MAX_NOTE=MIN_NOTE+48;
-    const SNAKES=window.location.search=="?snakes";
+    const SNAKES=window.location.search.indexOf("snakes")!=-1;
     const CANVAS_WIDTH=1024;
     const CANVAS_HEIGHT=(MAX_NOTE-MIN_NOTE)*10;
     const cats=[
@@ -55,6 +55,7 @@
     ];
     const websocket=new WebSocket("wss://catx.band/karaoke_websocket");
     let fft;
+    let fft_data;
     let last_fft_time;
     let last_beat_time;
     let ntp_t0;
@@ -153,20 +154,23 @@
 		canvas_start = start_time+snake_time-TIME_PER_SNAKE;
 	    }
 	    const context=canvas.getContext("2d");
-	    context.globalAlpha = .5;
-	    const x0=Math.max((last_fft_time-canvas_start)*CANVAS_WIDTH/TIME_PER_SNAKE,0);
-	    const x1=(now-canvas_start)*CANVAS_WIDTH/TIME_PER_SNAKE;
+	    context.globalCompositeOperation = "lighter";
+	    const x0=Math.floor(Math.max((last_fft_time-canvas_start)*CANVAS_WIDTH/TIME_PER_SNAKE,0));
+	    const x1=Math.floor((now-canvas_start)*CANVAS_WIDTH/TIME_PER_SNAKE);
 	    last_fft_time = now;
-	    const data=new Uint8Array(fft.frequencyBinCount);
-	    fft.getByteFrequencyData(data);
+	    context.globalCompositeOperation = "difference";
+	    context.fillStyle = "#404040";
+	    context.fillRect(x0,0,x1-x0,CANVAS_HEIGHT);
+	    context.globalCompositeOperation = "lighten";
+	    fft.getByteFrequencyData(fft_data);
 	    const i0=Math.floor(Math.exp((MIN_NOTE-69)/12*Math.log(2))*440*FFT_SIZE/audioContext.sampleRate);
 	    const i1=Math.floor(Math.exp((MAX_NOTE-69)/12*Math.log(2))*440*FFT_SIZE/audioContext.sampleRate);
 	    for (let i=i0; i<i1; i++){
 		const n0=69+Math.log(i*audioContext.sampleRate/FFT_SIZE/440)/Math.log(2)*12;
 		const n1=69+Math.log((i+1)*audioContext.sampleRate/FFT_SIZE/440)/Math.log(2)*12;
-		const y0=(MAX_NOTE-n0)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT;
-		const y1=(MAX_NOTE-n1)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT;
-		context.fillStyle = "rgb("+data[i]+","+data[i]+","+0+")";
+		const y0=Math.floor((MAX_NOTE-n0)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT);
+		const y1=Math.floor((MAX_NOTE-n1)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT);
+		context.fillStyle = "rgb("+fft_data[i]+","+fft_data[i]+","+0+")";
 		context.fillRect(x0,y0,x1-x0,y1-y0);
 	    }
 	}
@@ -177,8 +181,8 @@
 	    keys = {}
 	    const canvas=snakes[which_line];
 	    const context=canvas.getContext("2d");
-	    context.globalAlpha = 1;
-	    context.fillStyle = "#000000";
+	    context.globalCompositeOperation = "source-over";
+	    context.fillStyle = "#404040";
 	    context.fillRect(0,0,CANVAS_WIDTH,CANVAS_HEIGHT);
 	    for (const a of karaoke)
 		if ("t" in a){
@@ -200,7 +204,7 @@
 			    const x0=Math.max((t0+repeat*r-snake_time)/TIME_PER_SNAKE,0)*CANVAS_WIDTH;
 			    const x1=Math.min((t1+repeat*r-snake_time)/TIME_PER_SNAKE,1)*CANVAS_WIDTH;
 			    if (x1>x0){
-				context.fillStyle = "#ff00ff";
+				context.fillStyle = "#ff40ff";
 				context.fillRect(x0,y0,x1-x0,y1-y0);
 			    }
 			}
@@ -422,6 +426,7 @@ oo:
 	fft.maxDecibels = -50;
 	fft.minDecibels = -100;
 	microphone.connect(fft);
+	fft_data = new Uint8Array(fft.frequencyBinCount);
     }
     if (SNAKES)
 	navigator.mediaDevices.getUserMedia({audio:true}).then(gotUserMedia).catch(function(err){alert(err);});
