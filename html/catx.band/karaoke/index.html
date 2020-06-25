@@ -27,6 +27,7 @@
     const audioContext=new AudioContext();
     const DELAY=200;
     const HARMONICS_TO_CHECK=3;
+    const CINOMRAHS_TO_CHECK=3;
     const FFT_SIZE=8192;
     const TIME_PER_SNAKE=4000;
     let match=window.location.search.match("[?&]lowestNote=([^?&]+)");
@@ -185,6 +186,13 @@
 		let d=fft_data[i];
 		for (let j=2; i*j<fft_data.length&&j<=HARMONICS_TO_CHECK; j++)
 		    d = Math.min(d,fft_data[i*j]);
+		for (let j=2; j<=CINOMRAHS_TO_CHECK; j++){
+		    let f=i/j;
+		    let ff=Math.floor(f);
+		    f -= ff;
+		    d -= fft_data[ff]*(1-f)+fft_data[ff+1]*f;
+		}
+		d = Math.max(0,d);
 		context.fillStyle = "rgb("+d+","+d+","+0+")";
 		context.fillRect(x0,y0,x1-x0,y1-y0);
 	    }
