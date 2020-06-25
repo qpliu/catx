@@ -5,37 +5,36 @@
 <title id=title>Karaoke</title>
 </head>
 </head>
-<form action=index.html>
-<label for=lowestNote>Lowest Note:</label>
-<input type=text id=lowestNote name=lowestNote value=48>
-<br>
-<label for=highestNote>Highest Note:</label>
-<input type=text id=highestNote name=highestNote value=72>
-<br>
-<label for=transpose>Transpose:</label>
-<input type=text id=transpose name=transpose value=0>
-<label for=transpose>half steps</label>
-<br>
-<label for=maxDecibels>maxDecibels:</label>
-<input type=text id=maxDecibels name=maxDecibels value=-50>
-<br>
-<label for=minDecibels>minDecibels:</label>
-<input type=text id=minDecibels name=minDecibels value=-100>
-<input type=hidden id=snakes name=snakes value=1>
-<br>
+<form id=form action=index.html>
+<input type=hidden id=snakes name=snakes value=0>
 <input type=submit onclick="document.getElementById('snakes').value=0;" value="Start Bouncing Ball">
 <input type=submit onclick="document.getElementById('snakes').value=1;" value="Start Snakes">
 </form>
 <script>
-    function get(what){
+    const form=document.getElementById("form");
+    function make(lab,what,defaul){
+	const label=document.createElement("label");
+	form.appendChild(label);
+	label.innerHTML = lab;
+	label.for = what;
+	const input=document.createElement("input");
+	input.type = "text";
+	input.name = what;
+	input.value = defaul;
 	let match=window.location.search.match("[?&]"+what+"=([^?&]+)");
 	if (match)
-	    document.getElementById(what).value = match[1];
+	    input.value = match[1];
+	form.appendChild(document.createElement("br"));
+	form.appendChild(label);
+	form.appendChild(input);
     }
-    get("lowestNote");
-    get("highestNote");
-    get("minDecibels");
-    get("maxDecibels");
-    get("transpose");
+    make("Lowest Note:","lowestNote","48");
+    make("Highest Note:","highestNote","72");
+    make("Transpose:","transpose","0");
+    make("Harmonics To Check:","harmonicsToCheck","3");
+    make("Cinomrahs To Check:","cinomrahsToCheck","3");
+    make("FFT Size:","fftSize","8192");
+    make("minDecibels:","minDecibels","-100");
+    make("maxDecibels:","maxDecibels","-50");
 </script>
 </html>
