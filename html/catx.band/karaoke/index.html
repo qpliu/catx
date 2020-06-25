@@ -23,10 +23,12 @@
 <canvas id=snakes0 style=position:absolute;top:60vh;left:0;width:100vw;height:40vh;background-color:#000;display:none;></canvas>
 <div id=snakes0w style=position:absolute;bottom:0vh;left:0;width:100vw;height:5vh;font-size:1vw;white-space:nowrap;color:#0f0;background-color:#000;display:none;z-index:1;></div>
 <script>
+    const audioContext=new AudioContext();
     const DELAY=200;
+    const FFT_SIZE=8192;
     const TIME_PER_SNAKE=4000;
-    const MIN_NOTE=60;
-    const MAX_NOTE=MIN_NOTE+24;
+    const MIN_NOTE=60-12;
+    const MAX_NOTE=MIN_NOTE+48;
     const SNAKES=window.location.search=="?snakes";
     const CANVAS_WIDTH=1024;
     const CANVAS_HEIGHT=(MAX_NOTE-MIN_NOTE)*10;
@@ -52,6 +54,8 @@
 	["../cat/wave-${frame}.jpg",15,4,"position:absolute;left:68vw;top:-10vw;width:34vw;z-index:-4;"],
     ];
     const websocket=new WebSocket("wss://catx.band/karaoke_websocket");
+    let fft;
+    let last_fft_time;
     let last_beat_time;
     let ntp_t0;
     let ntp_offset;
@@ -130,10 +134,42 @@
 	    }
 	}
     }
+    function gotAudio(e){
+	const now=new Date().getTime();
+	console.log(e.inputBuffer.length);
+    }
     function animateSnakes(time){
 	if (start_time==undefined)
 	    return;
 	const now=new Date().getTime();
+	if (fft!=undefined){
+	    let canvas;
+	    let canvas_start;
+	    if (now<start_time+snake_time-TIME_PER_SNAKE){
+		canvas = snakes[which_line^1];
+		canvas_start = start_time+snake_time-2*TIME_PER_SNAKE;
+	    }else{
+		canvas = snakes[which_line];
+		canvas_start = start_time+snake_time-TIME_PER_SNAKE;
+	    }
+	    const context=canvas.getContext("2d");
+	    context.globalAlpha = .5;
+	    const x0=Math.max((last_fft_time-canvas_start)*CANVAS_WIDTH/TIME_PER_SNAKE,0);
+	    const x1=(now-canvas_start)*CANVAS_WIDTH/TIME_PER_SNAKE;
+	    last_fft_time = now;
+	    const data=new Uint8Array(fft.frequencyBinCount);
+	    fft.getByteFrequencyData(data);
+	    const i0=Math.floor(Math.exp((MIN_NOTE-69)/12*Math.log(2))*440*FFT_SIZE/audioContext.sampleRate);
+	    const i1=Math.floor(Math.exp((MAX_NOTE-69)/12*Math.log(2))*440*FFT_SIZE/audioContext.sampleRate);
+	    for (let i=i0; i<i1; i++){
+		const n0=69+Math.log(i*audioContext.sampleRate/FFT_SIZE/440)/Math.log(2)*12;
+		const n1=69+Math.log((i+1)*audioContext.sampleRate/FFT_SIZE/440)/Math.log(2)*12;
+		const y0=(MAX_NOTE-n0)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT;
+		const y1=(MAX_NOTE-n1)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT;
+		context.fillStyle = "rgb("+data[i]+","+data[i]+","+0+")";
+		context.fillRect(x0,y0,x1-x0,y1-y0);
+	    }
+	}
 	while (next_line_start<now){
 	    snake_time += Math.max(Math.floor((now-start_time-snake_time)/(TIME_PER_SNAKE*2)),0)*TIME_PER_SNAKE*2;
 	    which_line ^= 1;
@@ -141,6 +177,7 @@
 	    keys = {}
 	    const canvas=snakes[which_line];
 	    const context=canvas.getContext("2d");
+	    context.globalAlpha = 1;
 	    context.fillStyle = "#000000";
 	    context.fillRect(0,0,CANVAS_WIDTH,CANVAS_HEIGHT);
 	    for (const a of karaoke)
@@ -348,6 +385,7 @@ oo:
 		karaoke = json.karaoke;
 		start_time = json.start_time+ntp_offset;
 		snake_time = 0;
+		last_fft_time = start_time;
 		snake_key = undefined;
 		repeat = karaoke.length>0 && "repeat" in karaoke[karaoke.length-1]?karaoke[karaoke.length-1].repeat:0;
 		repeat_time = repeat==0?0:Math.max(Math.floor((now-start_time)/repeat)*repeat,0);
@@ -376,5 +414,16 @@ oo:
 		start_time = undefined;
 	}
     }
+    async function gotUserMedia(stream){
+	const microphone=audioContext.createMediaStreamSource(stream);
+	fft = audioContext.createAnalyser();
+	fft.smoothingTimeConstant = 0;
+	fft.fftSize = FFT_SIZE;
+	fft.maxDecibels = -50;
+	fft.minDecibels = -100;
+	microphone.connect(fft);
+    }
+    if (SNAKES)
+	navigator.mediaDevices.getUserMedia({audio:true}).then(gotUserMedia).catch(function(err){alert(err);});
 </script>
 </html>
