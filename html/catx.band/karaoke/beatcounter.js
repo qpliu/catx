@@ -10,6 +10,7 @@ class BeatCounter{
 	this.repeat = repeat;
 	this.index = 0;
 	this.events = [];
+	this.lastTime = startTime;
     }
     addEvent(time,what){
 	this.events.push({time:time,what:what});
@@ -19,10 +20,10 @@ class BeatCounter{
 	    const e=this.events[this.index];
 	    const t=this.startTime+e.time;
 	    if (t>=now){
-		if (this.index!=0)
-		    this.cats.animate(1-(t-now)/(this.events[this.index].time-this.events[this.index-1].time));
+		this.cats.animate((now-this.lastTime)/(t-this.lastTime));
 		break;
 	    }
+	    this.lastTime = t;
 	    this.cats.increment();
 	    this.span.innerHTML = this.events[this.index].what;
 	    if (this.repeat && this.index==this.events.length-1){
