@@ -37,8 +37,8 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "just"8 "a" "-no" "-ther" "ma"4 "-nic"
     "Mon"4 "-day."2.
 \mymark "Verse 2" #35
-    ">Have"8 "to" "catch" "an" "ear" "-ly" "train."4
-    "Got"8 "to" "be" "to" "work" "by"4 "nine."4
+    ">Have"8 "to" "catch" "an" "ear" "-ly" "train.|!bg=img=../train.png"4
+    "Got|!bg="8 "to" "be" "to" "work" "by"4 "nine."4
     -2. -8
     ">@"2. -8 "And"8
     "if"8 "I" "had" "an" "ae" "-ro" "-plane" "I"
@@ -49,7 +49,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "fi"8 "-gure" "out" "what" "I'm" "gon" "-na" "wear."4
     -2. -8
     ">@"1
-    "Blame"8 "it" "on" "the" "train."4 "But"8 "the"
+    "Blame"8 "it" "on" "the" "train.|!bg=img=../train.png"4 "But|!bg="8 "the"
     "boss"8 "is" "al"4 "-rea"8 "-dy"4 "there."4
     -2. ">It's"8
 \mymark "Chorus 2" #50
