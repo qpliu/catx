@@ -1,8 +1,10 @@
 class Snakes{
-    constructor(audioContext,where){
+    constructor(audioContext){
+	this.audioContext = audioContext;
 	this.canvasWidth = 1024;
 	this.canvasHeight = (settings.maxNote-settings.minNote)*10;
-	this.audioContext = audioContext;
+    }
+    enable(where){
 	this.snakes = [];
 	this.snakesw = [];
 	for (let i=0; i<2; i++){
@@ -50,6 +52,8 @@ class Snakes{
 	this.lyricEvents.push({time:time,what:what});
     }
     animate(now){
+	if (this.snakes==undefined)
+	    return;
 	if (this.fft!=undefined){
 	    let canvas;
 	    let canvas_start;

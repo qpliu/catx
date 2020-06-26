@@ -1,5 +1,5 @@
 class Background{
-    constructor(where){
+    enable(where){
 	this.bgtext = document.createElement("span");
 	this.bgtext.style = "font-size:45vh;margin-top:10vh;color:#0f0;opacity:.5;display:none;";
 	where.appendChild(this.bgtext);
@@ -8,6 +8,8 @@ class Background{
 	where.appendChild(this.bgimg);
     }
     reset(startTime,repeat){
+	if (this.bgtext==undefined)
+	    return;
 	this.startTime = startTime;
 	this.repeat = repeat;
 	this.index = 0;
@@ -19,6 +21,8 @@ class Background{
 	this.events.push({time:time,what:what});
     }
     animate(now){
+	if (this.bgtext==undefined)
+	    return;
 	while (this.index<this.events.length){
 	    const e=this.events[this.index];
 	    const t=this.startTime+e.time;
@@ -36,7 +40,7 @@ class Background{
 		this.bgtext.style.display = "block";
 	    }
 	    if (this.repeat && this.index==this.events.length-1){
-		this.startTime += Math.ceil((now-t)/this.repeat)*this.repeat;
+		this.startTime += (Math.floor((now-t)/this.repeat)+1)*this.repeat;
 		this.index = 0;
 	    }else
 		this.index++;

@@ -15,7 +15,7 @@ class Cats{
 	}
 	this.cats.push({frames:frames,beats:beats,currentFrame:0,beat:0});
     }
-    makeCats(where){
+    enable(where){
 	this.makeCat(where,"../cat/cat-${frame}.png",40,8,"position:absolute;left:0;top:0;width:15vw;z-index:-1;");
 	this.makeCat(where,"../cat/fatcat-${frame}.png",8,2,"position:absolute;left:82vw;top:0;width:18vw;z-index:-1;");
 	this.makeCat(where,"../cat/graycat-${frame}.png",4,1,"position:absolute;left:15vw;top:0;width:15vw;z-index:-1;");

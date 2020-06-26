@@ -11,16 +11,10 @@
 <img style=position:absolute;left:0;top:0;width:5vw;z-index:9; onclick=websocketStuff.sendChat("stop") src=../stop.svg></a>
 <img style=position:absolute;left:6vw;top:0;width:5vw;z-index:9; onclick=websocketStuff.sendChat("play") src=../play.svg></a>
 </span>
-<div id=div style=position:absolute;left:0;top:10vh;width:100vw;></div>
+<div id=cat_div style=position:absolute;left:0;top:10vh;width:100vw;></div>
 <div style=position:absolute;top:0;left:0;width:100vw;height:10vh;text-align:center;><span id=name style=font-size:6vh;white-space:nowrap;color:#0f0;background-color:#000;></span></div>
 <div id=beat_div style=position:absolute;top:10vh;left:0;width:100vw;height:10vh;text-align:center;></div>
-<div id=line1at style=position:absolute;top:64vh;left:5vw;width:5vw;font-size:2vw;></div>
-<div id=line1 style=position:absolute;top:64vh;left:10vw;width:90vw;font-size:2vw;white-space:nowrap;></div>
-<div id=line0at style=position:absolute;top:85vh;left:15vw;width:5vw;font-size:2vw;></div>
-<div id=line0 style=position:absolute;top:85vh;left:20vw;width:80vw;font-size:2vw;white-space:nowrap;></div>
-<div id=lineatat style=position:absolute;top:100vh;left:97.5vw;height:0;></div>
-<img id=ball style=position:absolute;bottom:100vh;width:5vw;z-index:2; src=../ball.png>
-<div id=bgdiv style=position:absolute;left:0;top:35vh;width:100vw;height:65vh;z-index:-9;text-align:center;></div>
+<div id=bg_div style=position:absolute;left:0;top:35vh;width:100vw;height:65vh;z-index:-9;text-align:center;></div>
 <script src=settings.js></script>
 <script src=websocketstuff.js></script>
 <script src=cats.js></script>
@@ -28,36 +22,25 @@
 <script src=tones.js></script>
 <script src=beatcounter.js></script>
 <script src=snakes.js></script>
+<script src=球球.js></script>
 <script>
     const audioContext=new AudioContext();
     const settings=new Settings();
+    document.getElementById("setup").href += settings.locationSearch;
     const cats=new Cats();
-    const background=new Background(document.getElementById("bgdiv"));
+    const background=new Background();
     const tones=new Tones(audioContext,document.getElementById("span"));
     const beatCounter=new BeatCounter(cats,document.getElementById("beat_div"));
-    let snakes;
-    let start_time;
-    let repeat;
-    document.getElementById("setup").href += settings.locationSearch;
-    const ball=document.getElementById("ball");
-    const lines=[document.getElementById("line0"),document.getElementById("line1")];
-    let which_line;
-    let id_counter=0;
-    let line_events;
-    let word_element;
-    let word_t0;
-    let word_t1;
-    let ball_events;
-    let lyric_index;
-    let lyric_repeat;
-    let lyric_events;
-    let next_line_start;
-    let ball_x0,ball_y0,ball_t0;
-    let ball_x1,ball_y1,ball_t1;
+    const qiuqius=new 球球();
+    const snakes=new Snakes(audioContext);
+    let startTime;
     if (settings.snakes)
-	snakes = new Snakes(audioContext,document.getElementById("span"));
-    else
-	cats.makeCats(document.getElementById("div"));
+	snakes.enable(document.getElementById("span"));
+    else{
+	qiuqius.enable(document.getElementById("span"));
+	cats.enable(document.getElementById("cat_div"));
+	background.enable(document.getElementById("bg_div"));
+    }
     websocketStuff = new class extends WebsocketStuff{
 	onopen(){
 	    super.onopen();
@@ -72,161 +55,52 @@
 		    document.getElementById("title").innerHTML = json.name;
 		}
 		if ("karaoke" in json){
-		    start_time = json.start_time+this.ntp_offset+settings.delay;
-		    repeat = "repeat" in json?json.repeat:0;
+		    startTime = json.start_time+this.ntp_offset+settings.delay;
+		    const repeat="repeat" in json?json.repeat:0;
 		    cats.reset();
-		    background.reset(start_time,repeat);
-		    tones.reset(start_time,repeat);
-		    beatCounter.reset(start_time,repeat);
-		    if (snakes!=undefined)
-			snakes.reset(start_time,repeat);
-		    next_line_start = 0;
-		    which_line = 0;
-		    ball_t0 = undefined;
-		    ball_t1 = start_time;
-		    word_element = null;
-		    line_events = [];
-		    lyric_repeat = 0;
-		    lyric_index = 0;
-		    lyric_events = [];
+		    background.reset(startTime,repeat);
+		    tones.reset(startTime,repeat);
+		    beatCounter.reset(startTime,repeat);
+		    snakes.reset(startTime,repeat);
+		    qiuqius.reset(startTime,repeat);
 		    let last_tone=undefined;
 		    for (const e of json.karaoke){
 			if ("k" in e)
 			    for (let k of e.k.split("|")){
 				if (k.slice(0,6)=="!beat="){
 				    beatCounter.addEvent(e.t,k.slice(6));
-				    if (snakes!=undefined)
-					snakes.addBeatEvent(e.t,k.slice(6));
+				    snakes.addBeatEvent(e.t,k.slice(6));
 				}else if (k.slice(0,4)=="!bg=")
 				    background.addEvent(e.t,k.slice(4));
 				else{
-				    lyric_events.push([e.t,k]);
-				    if (snakes!=undefined)
-					snakes.addLyricEvent(e.t,k);
+				    qiuqius.addEvent(e.t,k);
+				    snakes.addLyricEvent(e.t,k);
 				}
 			    }
 			if ("on" in e)
 			    last_tone = e;
 			if ("off" in e && last_tone!=undefined){
 			    tones.addEvent(last_tone.t,e.t-last_tone.t,last_tone.on+settings.transpose);
-			    if (snakes!=undefined)
-				snakes.addToneEvent(last_tone.t,e.t-last_tone.t,last_tone.on+settings.transpose);
+			    snakes.addToneEvent(last_tone.t,e.t-last_tone.t,last_tone.on+settings.transpose);
 			}
 		    }
-		    ball_events = [];
-		    lines[0].innerHTML = "";
-		    lines[1].innerHTML = "";
-		    window.requestAnimationFrame(settings.snakes?animateSnakes:animateBall);
+		    window.requestAnimationFrame(animate);
 		}
 		if ("stop" in json)
-		    start_time = undefined;
+		    startTime = undefined;
 	    }
 	}
     }();
-    function animateSnakes(time){
-	if (start_time==undefined)
+    function animate(time){
+	if (startTime==undefined)
 	    return;
 	const now=new Date().getTime();
 	snakes.animate(now);
-	tones.animate(now);
-	beatCounter.animate(now);
-	window.requestAnimationFrame(animateSnakes);
-    }
-    function animateBall(time){
-	if (start_time==undefined)
-	    return;
-	const now=new Date().getTime();
-	while (next_line_start<now && lyric_index<lyric_events.length){
-	    which_line ^= 1;
-	    let this_line_start;
-	    let this_line_end;
-	    sb = ""
-	    while (lyric_index<lyric_events.length){
-		const e=lyric_events[lyric_index];
-		const t=start_time+e[0]+lyric_repeat;
-		let k=e[1];
-		if (k.slice(0,1)==">"){
-		    if (this_line_start!=undefined)
-			break;
-		    k = k.slice(1);
-		}
-		if (k=="@@"){
-		    ball_events.push([t,"lineatat"]);
-		    k = "-";
-		}else if (k=="@"){
-		    ball_events.push([t,which_line?"line1at":"line0at"]);
-		    k = "-";
-		}
-		if (k.slice(0,1)=="-")
-		    k = k.slice(1);
-		else if (sb.length!=0)
-		    sb += "&nbsp;";
-		sb += "<span style=position:relative;>";
-		sb += "<span style=color:#000;>"+k+"</span>";
-		sb += "<span id=id"+id_counter+" style=overflow:hidden;position:absolute;left:0;width:0;z-index:1;color:#f00;>"+k+"</span>";
-		sb += "</span>";
-		if (k.length!=0){
-		    this_line_end = t;
-		    if (this_line_start==undefined)
-			this_line_start = t;
-		    ball_events.push([t,"id"+id_counter]);
-		}
-		line_events.push([t,"id"+id_counter]);
-		id_counter++;
-		if (repeat && lyric_index==lyric_events.length-1){
-		    lyric_repeat = Math.max(Math.ceil((now-start_time-e[0])/repeat)*repeat,lyric_repeat+repeat);
-		    lyric_index = 0;
-		    break;
-		}
-		lyric_index++;
-	    }
-	    lines[which_line].innerHTML = sb;
-	    if (this_line_start==undefined)
-		next_line_start = now;
-	    else
-		next_line_start = (2*this_line_start+this_line_end)/3;
-	}
-	for (; line_events.length!=0&&line_events[0][0]<now; line_events=line_events.slice(1)){
-	    if (word_element!=null)
-		word_element.style.overflow = "visible";
-	    word_element = document.getElementById(line_events[0][1]);
-	    if (word_element!=null){
-		word_t0 = line_events[0][0];
-		word_t1 = line_events.length>1?line_events[1][0]:now;
-	    }
-	}
-	if (word_element!=null)
-	    word_element.style.width = (now-word_t0)/(word_t1-word_t0)*100+"%";
-	for (; line_events.length!=0&&line_events[0][0]<now; line_events=line_events.slice(1)){
-	    let element=document.getElementById(line_events[0][1]);
-	    if (element==null)
-		continue;
-	    element.style.color = '#f00';
-	}
-	for (; ball_t1<now&&ball_events.length!=0; ball_events=ball_events.slice(1)){
-	    let element=document.getElementById(ball_events[0][1]);
-	    if (element==null)
-		continue;
-	    const rect=element.getBoundingClientRect();
-	    ball_t0 = ball_t1;
-	    ball_x0 = ball_x1;
-	    ball_y0 = ball_y1;
-	    ball_t1 = ball_events[0][0];
-	    ball_x1 = rect.left;
-	    ball_y1 = rect.top;
-	}
-	if (ball_t0!=undefined){
-	    const tt=ball_t1-ball_t0;
-	    const t=Math.min((now-ball_t0)/tt,1);
-	    const r=ball.getBoundingClientRect();
-	    ball.style.left = (ball_x0+t*(ball_x1-ball_x0)+(r.left-r.right)/2)+"px";
-	    const bounce_height=2*(r.bottom-r.top);
-	    ball.style.top = (ball_y0+t*(ball_y1-ball_y0)-r.bottom+r.top-(1-4*(t-.5)*(t-.5))*bounce_height*Math.min(tt/2000,1))+"px";
-	}
+	qiuqius.animate(now);
 	background.animate(now);
 	tones.animate(now);
 	beatCounter.animate(now);
-	window.requestAnimationFrame(animateBall);
+	window.requestAnimationFrame(animate);
     }
     websocketStuff.start();
 </script>

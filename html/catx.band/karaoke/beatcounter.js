@@ -26,7 +26,7 @@ class BeatCounter{
 	    this.cats.increment();
 	    this.span.innerHTML = this.events[this.index].what;
 	    if (this.repeat && this.index==this.events.length-1){
-		this.startTime += Math.ceil((now-t)/this.repeat)*this.repeat;
+		this.startTime += (Math.floor((now-t)/this.repeat)+1)*this.repeat;
 		this.index = 0;
 	    }else
 		this.index++;
