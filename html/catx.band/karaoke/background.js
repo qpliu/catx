@@ -16,27 +16,27 @@ class Background{
 	this.bgtext.style.display = "none";
     }
     addEvent(time,what){
-	this.events.push([time,what]);
+	this.events.push({time:time,what:what});
     }
     animate(now){
 	while (this.index<this.events.length){
 	    const e=this.events[this.index];
-	    const t=this.startTime+e[0];
+	    const t=this.startTime+e.time;
 	    if (t>now)
 		break;
 	    this.bgimg.style.display = "none";
 	    this.bgtext.style.display = "none";
 	    this.bgimg.src = "";
 	    this.bgtext.innerHTML = "";
-	    if (e[1].slice(0,4)=="img="){
-		this.bgimg.src = e[1].slice(4);
+	    if (e.what.slice(0,4)=="img="){
+		this.bgimg.src = e.what.slice(4);
 		this.bgimg.style.display = "block";
 	    }else{
-		this.bgtext.innerHTML = e[1];
+		this.bgtext.innerHTML = e.what;
 		this.bgtext.style.display = "block";
 	    }
 	    if (this.repeat && this.index==this.events.length-1){
-		this.startTime += Math.ceil((now-this.startTime-e[0])/this.repeat)*this.repeat;
+		this.startTime += Math.max(Math.ceil((now-this.startTime-e.time)/this.repeat),1)*this.repeat;
 		this.index = 0;
 	    }else
 		this.index++;

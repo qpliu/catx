@@ -6,8 +6,7 @@
 </head>
 <body style=overflow:hidden;>
 <a id=setup href=setup.html><img style=position:absolute;right:0;top:0;width:5vw;z-index:9;color:#0f0; src=../settings.svg></a>
-<img id=speakerOn style=visibility:hidden;position:absolute;right:6vw;top:0;width:5vw;z-index:9; onclick=toggleSpeaker() src=../speaker.svg></a>
-<img id=speakerOff style=position:absolute;right:6vw;top:0;width:5vw;z-index:9; onclick=toggleSpeaker() src=../speaker_off.svg></a>
+<span id=toneControls></span>
 <span id=websocketControls style=visibility:hidden;>
 <img style=position:absolute;left:0;top:0;width:5vw;z-index:9; onclick=websocketStuff.sendChat("stop") src=../stop.svg></a>
 <img style=position:absolute;left:6vw;top:0;width:5vw;z-index:9; onclick=websocketStuff.sendChat("play") src=../play.svg></a>
@@ -30,20 +29,15 @@
 <script src=websocketstuff.js></script>
 <script src=cats.js></script>
 <script src=background.js></script>
+<script src=tones.js></script>
 <script>
+    const audioContext=new AudioContext();
     const settings=new Settings();
     const cats=new Cats();
     const background=new Background(document.getElementById("bgdiv"));
-    let speakerOn=0;
-    const audioContext=new AudioContext();
+    const tones=new Tones(audioContext,document.getElementById("toneControls"));
     const CANVAS_WIDTH=1024;
     const CANVAS_HEIGHT=(settings.maxNote-settings.minNote)*10;
-    const toneOscillator=audioContext.createOscillator();
-    const toneGain=audioContext.createGain();
-    toneGain.gain.value = 0;
-    toneGain.connect(audioContext.destination);
-    toneOscillator.connect(toneGain);
-    toneOscillator.start();
     let fft;
     let fft_data;
     let last_fft_time;
@@ -57,6 +51,7 @@
     const snakesw=[document.getElementById("snakes0w"),document.getElementById("snakes1w")];
     let which_line;
     let id_counter=0;
+    let tone_events;
     let line_events;
     let word_element;
     let word_t0;
@@ -65,9 +60,6 @@
     let beat_index;
     let beat_repeat;
     let beat_events;
-    let tone_index;
-    let tone_repeat;
-    let tone_events;
     let lyric_index;
     let lyric_repeat;
     let lyric_events;
@@ -102,6 +94,7 @@
 		    repeat = "repeat" in json?json.repeat:0;
 		    cats.reset();
 		    background.reset(start_time,repeat);
+		    tones.reset(start_time,repeat);
 		    last_fft_time = start_time;
 		    next_line_start = 0;
 		    which_line = 0;
@@ -115,8 +108,6 @@
 		    beat_index = 0;
 		    beat_repeat = 0;
 		    beat_events = [];
-		    tone_index = 0;
-		    tone_repeat = 0;
 		    tone_events = [];
 		    snake_time = 0;
 		    let last_tone=undefined;
@@ -132,8 +123,10 @@
 			    }
 			if ("on" in e)
 			    last_tone = e;
-			if ("off" in e && last_tone!=undefined)
+			if ("off" in e && last_tone!=undefined){
+			    tones.addEvent(last_tone.t,e.t-last_tone.t,last_tone.on+settings.transpose);
 			    tone_events.push([last_tone.t,e.t-last_tone.t,last_tone.on+settings.transpose]);
+			}
 		    }
 		    ball_events = [];
 		    lines[0].innerHTML = "";
@@ -162,30 +155,6 @@
 		beat_index = 0;
 	    }else
 		beat_index++;
-	}
-    }
-    function gotAudio(e){
-	const now=new Date().getTime();
-	console.log(e.inputBuffer.length);
-    }
-    function animateToneEvents(now){
-	while (tone_index<tone_events.length){
-	    const e=tone_events[tone_index];
-	    const t=start_time+e[0]+tone_repeat;
-	    if (t>now)
-		break;
-	    if (speakerOn && t+e[1]>now){
-		toneOscillator.frequency.value = Math.exp((e[2]-69)/12*Math.log(2))*440;
-		toneGain.gain.setValueAtTime(.001,audioContext.currentTime);
-		toneGain.gain.exponentialRampToValueAtTime(1,audioContext.currentTime+Math.min(e[1]/2500,.05));
-		toneGain.gain.setValueAtTime(1,audioContext.currentTime+e[1]/1000-Math.min(e[1]/2500,.05));
-		toneGain.gain.exponentialRampToValueAtTime(.001,audioContext.currentTime+e[1]/1000);
-	    }
-	    if (repeat && tone_index==tone_events.length-1){
-		tone_repeat = Math.ceil((now-start_time-e[0])/repeat)*repeat;
-		tone_index = 0;
-	    }else
-		tone_index++;
 	}
     }
     function animateSnakes(time){
@@ -293,7 +262,7 @@
 	    next_line_start = start_time+snake_time+settings.timePerSnake/2;
 	    snake_time += settings.timePerSnake;
 	}
-	animateToneEvents(now);
+	tones.animate(now);
 	animateBeatEvents(now);
 	window.requestAnimationFrame(animateSnakes);
     }
@@ -390,7 +359,7 @@
 	    ball.style.top = (ball_y0+t*(ball_y1-ball_y0)-r.bottom+r.top-(1-4*(t-.5)*(t-.5))*bounce_height*Math.min(tt/2000,1))+"px";
 	}
 	background.animate(now);
-	animateToneEvents(now);
+	tones.animate(now);
 	animateBeatEvents(now);
 	window.requestAnimationFrame(animateBall);
     }
@@ -403,13 +372,6 @@
 	fft.minDecibels = settings.minDecibels;
 	microphone.connect(fft);
 	fft_data = new Uint8Array(fft.frequencyBinCount);
-    }
-    function toggleSpeaker(){
-	speakerOn ^= 1;
-	if (!speakerOn)
-	    toneGain.gain.setValueAtTime(0,audioContext.currentTime);
-	document.getElementById("speakerOn").style.visibility = speakerOn?"visible":"hidden";
-	document.getElementById("speakerOff").style.visibility = speakerOn?"hidden":"visible";
     }
     if (settings.snakes)
 	navigator.mediaDevices.getUserMedia({audio:true}).then(gotUserMedia).catch(function(err){alert(err);});
