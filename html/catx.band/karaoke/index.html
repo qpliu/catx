@@ -310,8 +310,8 @@
 	    }
 	    context.fillStyle = "#ff40ff";
 	    for (const e of tone_events){
-		const y0=(MAX_NOTE-e[2]-TRANSPOSE-.5)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT;
-		const y1=(MAX_NOTE-e[2]-TRANSPOSE+.5)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT;
+		const y0=(MAX_NOTE-e[2]-.5)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT;
+		const y1=(MAX_NOTE-e[2]+.5)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT;
 		const r0=repeat?Math.ceil((snake_time-(e[0]+e[1]))/repeat):0;
 		const r1=repeat?Math.ceil((snake_time-e[0])/repeat):0;
 		for (let r=r0; r<=r1; r++){
@@ -486,7 +486,7 @@
 		    if ("on" in e)
 			last_tone = e;
 		    if ("off" in e && last_tone!=undefined)
-			tone_events.push([last_tone.t,e.t-last_tone.t,last_tone.on]);
+			tone_events.push([last_tone.t,e.t-last_tone.t,last_tone.on+TRANSPOSE]);
 		}
 		ball_events = [];
 		lines[0].innerHTML = "";
