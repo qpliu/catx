@@ -22,7 +22,7 @@ class Background{
 	while (this.index<this.events.length){
 	    const e=this.events[this.index];
 	    const t=this.startTime+e.time;
-	    if (t>now)
+	    if (t>=now)
 		break;
 	    this.bgimg.style.display = "none";
 	    this.bgtext.style.display = "none";
@@ -36,7 +36,7 @@ class Background{
 		this.bgtext.style.display = "block";
 	    }
 	    if (this.repeat && this.index==this.events.length-1){
-		this.startTime += Math.max(Math.ceil((now-this.startTime-e.time)/this.repeat),1)*this.repeat;
+		this.startTime += Math.ceil((now-t)/this.repeat)*this.repeat;
 		this.index = 0;
 	    }else
 		this.index++;

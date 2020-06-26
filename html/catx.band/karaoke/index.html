@@ -13,7 +13,7 @@
 </span>
 <div id=div style=position:absolute;left:0;top:10vh;width:100vw;></div>
 <div style=position:absolute;top:0;left:0;width:100vw;height:10vh;text-align:center;><span id=name style=font-size:6vh;white-space:nowrap;color:#0f0;background-color:#000;></span></div>
-<div style=position:absolute;top:10vh;left:0;width:100vw;height:10vh;text-align:center;><span id=beat_counter style=font-family:monospace;font-size:8vh;color:#000;background-color:#0f0;>1</span></div>
+<div id=beat_div style=position:absolute;top:10vh;left:0;width:100vw;height:10vh;text-align:center;></div>
 <div id=line1at style=position:absolute;top:64vh;left:5vw;width:5vw;font-size:2vw;></div>
 <div id=line1 style=position:absolute;top:64vh;left:10vw;width:90vw;font-size:2vw;white-space:nowrap;></div>
 <div id=line0at style=position:absolute;top:85vh;left:15vw;width:5vw;font-size:2vw;></div>
@@ -30,12 +30,14 @@
 <script src=cats.js></script>
 <script src=background.js></script>
 <script src=tones.js></script>
+<script src=beatcounter.js></script>
 <script>
     const audioContext=new AudioContext();
     const settings=new Settings();
     const cats=new Cats();
     const background=new Background(document.getElementById("bgdiv"));
     const tones=new Tones(audioContext,document.getElementById("toneControls"));
+    const beatCounter=new BeatCounter(cats,document.getElementById("beat_div"));
     const CANVAS_WIDTH=1024;
     const CANVAS_HEIGHT=(settings.maxNote-settings.minNote)*10;
     let fft;
@@ -45,7 +47,6 @@
     let repeat;
     document.getElementById("setup").href += settings.locationSearch;
     const ball=document.getElementById("ball");
-    const beat_counter=document.getElementById("beat_counter");
     const lines=[document.getElementById("line0"),document.getElementById("line1")];
     const snakes=[document.getElementById("snakes0"),document.getElementById("snakes1")];
     const snakesw=[document.getElementById("snakes0w"),document.getElementById("snakes1w")];
@@ -57,8 +58,6 @@
     let word_t0;
     let word_t1;
     let ball_events;
-    let beat_index;
-    let beat_repeat;
     let beat_events;
     let lyric_index;
     let lyric_repeat;
@@ -95,6 +94,7 @@
 		    cats.reset();
 		    background.reset(start_time,repeat);
 		    tones.reset(start_time,repeat);
+		    beatCounter.reset(start_time,repeat);
 		    last_fft_time = start_time;
 		    next_line_start = 0;
 		    which_line = 0;
@@ -105,8 +105,6 @@
 		    lyric_repeat = 0;
 		    lyric_index = 0;
 		    lyric_events = [];
-		    beat_index = 0;
-		    beat_repeat = 0;
 		    beat_events = [];
 		    tone_events = [];
 		    snake_time = 0;
@@ -114,9 +112,10 @@
 		    for (const e of json.karaoke){
 			if ("k" in e)
 			    for (let k of e.k.split("|")){
-				if (k.slice(0,6)=="!beat=")
+				if (k.slice(0,6)=="!beat="){
+				    beatCounter.addEvent(e.t,k.slice(6));
 				    beat_events.push([e.t,k.slice(6)]);
-				else if (k.slice(0,4)=="!bg=")
+				}else if (k.slice(0,4)=="!bg=")
 				    background.addEvent(e.t,k.slice(4));
 				else
 				    lyric_events.push([e.t,k]);
@@ -131,7 +130,6 @@
 		    ball_events = [];
 		    lines[0].innerHTML = "";
 		    lines[1].innerHTML = "";
-
 		    window.requestAnimationFrame(settings.snakes?animateSnakes:animateBall);
 		}
 		if ("stop" in json)
@@ -139,24 +137,6 @@
 	    }
 	}
     }();
-    function animateBeatEvents(now){
-	while (beat_index<beat_events.length){
-	    const e=beat_events[beat_index];
-	    const t=start_time+e[0]+beat_repeat;
-	    if (t>now){
-		if (beat_index!=0)
-		    cats.animate(1-(t-now)/(beat_events[beat_index][0]-beat_events[beat_index-1][0]));
-		break;
-	    }
-	    cats.increment();
-	    beat_counter.innerHTML = beat_events[beat_index][1]
-	    if (repeat && beat_index==beat_events.length-1){
-		beat_repeat = Math.ceil((now-start_time-e[0])/repeat)*repeat;
-		beat_index = 0;
-	    }else
-		beat_index++;
-	}
-    }
     function animateSnakes(time){
 	if (start_time==undefined)
 	    return;
@@ -263,7 +243,7 @@
 	    snake_time += settings.timePerSnake;
 	}
 	tones.animate(now);
-	animateBeatEvents(now);
+	beatCounter.animate(now);
 	window.requestAnimationFrame(animateSnakes);
     }
     function animateBall(time){
@@ -360,7 +340,7 @@
 	}
 	background.animate(now);
 	tones.animate(now);
-	animateBeatEvents(now);
+	beatCounter.animate(now);
 	window.requestAnimationFrame(animateBall);
     }
     async function gotUserMedia(stream){

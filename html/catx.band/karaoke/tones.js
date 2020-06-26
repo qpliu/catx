@@ -40,7 +40,7 @@ class Tones{
 	while (this.index<this.events.length){
 	    const e=this.events[this.index];
 	    const t=this.startTime+e.time;
-	    if (t>now)
+	    if (t>=now)
 		break;
 	    if (this.speakerIsOn && t+e.duration>now){
 		this.toneOscillator.frequency.value = Math.exp((e.note-69)/12*Math.log(2))*440;
@@ -50,7 +50,7 @@ class Tones{
 		this.toneGain.gain.exponentialRampToValueAtTime(.001,this.audioContext.currentTime+e.duration/1000);
 	    }
 	    if (this.repeat && this.index==this.events.length-1){
-		this.startTime += Math.max(Math.ceil((now-this.startTime-e.time)/this.repeat),1)*this.repeat;
+		this.startTime += Math.ceil((now-t)/this.repeat)*this.repeat;
 		this.index = 0;
 	    }else
 		this.index++;
