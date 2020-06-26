@@ -8,14 +8,14 @@ class Background{
 	where.appendChild(this.bgimg);
     }
     reset(startTime,repeat){
-	if (this.bgtext==undefined)
-	    return;
 	this.startTime = startTime;
 	this.repeat = repeat;
 	this.index = 0;
 	this.events = [];
-	this.bgimg.style.display = "none";
-	this.bgtext.style.display = "none";
+	if (this.bgtext!=undefined){
+	    this.bgimg.style.display = "none";
+	    this.bgtext.style.display = "none";
+	}
     }
     addEvent(time,what){
 	this.events.push({time:time,what:what});
