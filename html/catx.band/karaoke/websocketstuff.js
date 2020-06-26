@@ -15,11 +15,12 @@ class WebsocketStuff{
     }
     onmessage(event){
 	if (event.data.slice(0,1)=="t"){
-	    if (this.ntp_t0!=undefined)
+	    if (this.ntp_t0!=undefined){
+		if (this.ntp_offset==undefined)
+		    this.websocket.send("middle");
 		this.ntp_offset = (new Date().getTime()+this.ntp_t0)/2-parseInt(event.data.slice(1));
+	    }
 	    this.timeout_count = 4;
-	    if (this.ntp_offset==undefined)
-		this.websocket.send("middle");
 	}
     }
     start(){

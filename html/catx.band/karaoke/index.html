@@ -21,10 +21,7 @@
 <div id=line0 style=position:absolute;top:85vh;left:20vw;width:80vw;font-size:2vw;white-space:nowrap;></div>
 <div id=lineatat style=position:absolute;top:100vh;left:97.5vw;height:0;></div>
 <img id=ball style=position:absolute;bottom:100vh;width:5vw;z-index:2; src=../ball.png>
-<div style=position:absolute;left:0;top:35vh;width:100vw;height:65vh;z-index:-9;text-align:center;>
-<span id=bgtext style=font-size:45vh;margin-top:10vh;color:#0f0;opacity:.5;display:none;></span>
-<img id=bgimg style=opacity:.25;margin-left:auto;margin-right:auto;height:65vh;display:none;>
-</div>
+<div id=bgdiv style=position:absolute;left:0;top:35vh;width:100vw;height:65vh;z-index:-9;text-align:center;></div>
 <canvas id=snakes1 style=position:absolute;top:20vh;left:0;width:100vw;height:40vh;background-color:#000;display:none;></canvas>
 <div id=snakes1w style=position:absolute;bottom:40vh;left:0;width:100vw;height:5vh;font-size:1vw;white-space:nowrap;color:#0f0;background-color:#000;display:none;z-index:1;></div>
 <canvas id=snakes0 style=position:absolute;top:60vh;left:0;width:100vw;height:40vh;background-color:#000;display:none;></canvas>
@@ -32,9 +29,11 @@
 <script src=settings.js></script>
 <script src=websocketstuff.js></script>
 <script src=cats.js></script>
+<script src=background.js></script>
 <script>
     const settings=new Settings();
     const cats=new Cats();
+    const background=new Background(document.getElementById("bgdiv"));
     let speakerOn=0;
     const audioContext=new AudioContext();
     const CANVAS_WIDTH=1024;
@@ -50,9 +49,7 @@
     let last_fft_time;
     let start_time;
     let repeat;
-    const bgimg=document.getElementById("bgimg");
     document.getElementById("setup").href += settings.locationSearch;
-    const bgtext=document.getElementById("bgtext");
     const ball=document.getElementById("ball");
     const beat_counter=document.getElementById("beat_counter");
     const lines=[document.getElementById("line0"),document.getElementById("line1")];
@@ -68,9 +65,6 @@
     let beat_index;
     let beat_repeat;
     let beat_events;
-    let bg_index;
-    let bg_repeat;
-    let bg_events;
     let tone_index;
     let tone_repeat;
     let tone_events;
@@ -105,11 +99,12 @@
 		}
 		if ("karaoke" in json){
 		    start_time = json.start_time+this.ntp_offset+settings.delay;
-		    last_fft_time = start_time;
 		    repeat = "repeat" in json?json.repeat:0;
+		    cats.reset();
+		    background.reset(start_time,repeat);
+		    last_fft_time = start_time;
 		    next_line_start = 0;
 		    which_line = 0;
-		    cats.reset();
 		    ball_t0 = undefined;
 		    ball_t1 = start_time;
 		    word_element = null;
@@ -120,9 +115,6 @@
 		    beat_index = 0;
 		    beat_repeat = 0;
 		    beat_events = [];
-		    bg_index = 0;
-		    bg_repeat = 0;
-		    bg_events = [];
 		    tone_index = 0;
 		    tone_repeat = 0;
 		    tone_events = [];
@@ -134,7 +126,7 @@
 				if (k.slice(0,6)=="!beat=")
 				    beat_events.push([e.t,k.slice(6)]);
 				else if (k.slice(0,4)=="!bg=")
-				    bg_events.push([e.t,k.slice(4)]);
+				    background.addEvent(e.t,k.slice(4));
 				else
 				    lyric_events.push([e.t,k]);
 			    }
@@ -146,8 +138,7 @@
 		    ball_events = [];
 		    lines[0].innerHTML = "";
 		    lines[1].innerHTML = "";
-		    bgimg.style.display = "none";
-		    bgtext.style.display = "none";
+
 		    window.requestAnimationFrame(settings.snakes?animateSnakes:animateBall);
 		}
 		if ("stop" in json)
@@ -171,30 +162,6 @@
 		beat_index = 0;
 	    }else
 		beat_index++;
-	}
-    }
-    function animateBgEvents(now){
-	while (bg_index<bg_events.length){
-	    const e=bg_events[bg_index];
-	    const t=start_time+e[0]+bg_repeat;
-	    if (t>now)
-		break;
-	    bgimg.style.display = "none";
-	    bgtext.style.display = "none";
-	    bgimg.src = "";
-	    bgtext.innerHTML = "";
-	    if (e[1].slice(0,4)=="img="){
-		bgimg.src = e[1].slice(4);
-		bgimg.style.display = "block";
-	    }else{
-		bgtext.innerHTML = e[1];
-		bgtext.style.display = "block";
-	    }
-	    if (repeat && bg_index==bg_events.length-1){
-		bg_repeat = Math.ceil((now-start_time-e[0])/repeat)*repeat;
-		bg_index = 0;
-	    }else
-		bg_index++;
 	}
     }
     function gotAudio(e){
@@ -422,7 +389,7 @@
 	    const bounce_height=2*(r.bottom-r.top);
 	    ball.style.top = (ball_y0+t*(ball_y1-ball_y0)-r.bottom+r.top-(1-4*(t-.5)*(t-.5))*bounce_height*Math.min(tt/2000,1))+"px";
 	}
-	animateBgEvents(now);
+	background.animate(now);
 	animateToneEvents(now);
 	animateBeatEvents(now);
 	window.requestAnimationFrame(animateBall);
