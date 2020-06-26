@@ -31,33 +31,14 @@
 <div id=snakes0w style=position:absolute;bottom:0vh;left:0;width:100vw;height:5vh;font-size:1vw;white-space:nowrap;color:#0f0;background-color:#000;display:none;z-index:1;></div>
 <script src=settings.js></script>
 <script src=websocketstuff.js></script>
+<script src=cats.js></script>
 <script>
     const settings=new Settings();
+    const cats=new Cats();
     let speakerOn=0;
     const audioContext=new AudioContext();
     const CANVAS_WIDTH=1024;
     const CANVAS_HEIGHT=(settings.maxNote-settings.minNote)*10;
-    const cats=[
-	["../cat/cat-${frame}.png",40,8,"position:absolute;left:0;top:0;width:15vw;z-index:-1;"],
-	["../cat/fatcat-${frame}.png",8,2,"position:absolute;left:82vw;top:0;width:18vw;z-index:-1;"],
-	["../cat/graycat-${frame}.png",4,1,"position:absolute;left:15vw;top:0;width:15vw;z-index:-1;"],
-	["../cat/spin-${frame}.png",18,2,"position:absolute;left:30vw;top:0;width:15vw;z-index:-1;"],
-	["../cat/pink-${frame}.png",8,2,"position:absolute;left:55vw;top:0;width:18vw;z-index:-1;"],
-	["../cat/jump-${frame}.png",8,4,"position:absolute;left:70vw;top:0;width:15vw;z-index:-1;"],
-	["../cat/tree-${frame}.png",52,4,"position:absolute;left:-9vw;top:-5vw;width:20vw;z-index:-3;"],
-	["../cat/tree-${frame}.png",52,4,"position:absolute;left:2vw;top:-5vw;width:20vw;z-index:-2;"],
-	["../cat/tree-${frame}.png",52,4,"position:absolute;left:13vw;top:-5vw;width:20vw;z-index:-3;"],
-	["../cat/tree-${frame}.png",52,4,"position:absolute;left:24vw;top:-5vw;width:20vw;z-index:-2;"],
-	["../cat/tree-${frame}.png",52,4,"position:absolute;left:35vw;top:-5vw;width:20vw;z-index:-3;"],
-	["../cat/tree-${frame}.png",52,4,"position:absolute;left:46vw;top:-5vw;width:20vw;z-index:-2;"],
-	["../cat/tree-${frame}.png",52,4,"position:absolute;left:58vw;top:-5vw;width:20vw;z-index:-3;"],
-	["../cat/tree-${frame}.png",52,4,"position:absolute;left:69vw;top:-5vw;width:20vw;z-index:-2;"],
-	["../cat/tree-${frame}.png",52,4,"position:absolute;left:80vw;top:-5vw;width:20vw;z-index:-3;"],
-	["../cat/tree-${frame}.png",52,4,"position:absolute;left:91vw;top:-5vw;width:20vw;z-index:-2;"],
-	["../cat/wave-${frame}.jpg",15,4,"position:absolute;left:0;top:-10vw;width:34vw;z-index:-4;"],
-	["../cat/wave-${frame}.jpg",15,4,"position:absolute;left:34vw;top:-10vw;width:34vw;z-index:-4;"],
-	["../cat/wave-${frame}.jpg",15,4,"position:absolute;left:68vw;top:-10vw;width:34vw;z-index:-4;"],
-    ];
     const toneOscillator=audioContext.createOscillator();
     const toneGain=audioContext.createGain();
     toneGain.gain.value = 0;
@@ -107,24 +88,8 @@
 	    snakes[i].height = CANVAS_HEIGHT;
 	    snakesw[i].style.display = "block";
 	}
-	cats.length = 0;
     }else
-	for (const cat of cats){
-	    const div=document.getElementById("div");
-	    l = [];
-	    for (let frame=0; frame<cat[1]; frame++){
-		const img=document.createElement("img");
-		img.src = eval("`"+cat[0]+"`");
-		img.style = cat[3];
-		div.appendChild(img);
-		l.push(img);
-		if (frame!=0)
-		    img.style.visibility = "hidden";
-	    }
-	    cat.push(0);
-	    cat.push(l);
-	    cat.push(0);
-	}
+	cats.makeCats(document.getElementById("div"));
     websocketStuff = new class extends WebsocketStuff{
 	onopen(){
 	    super.onopen();
@@ -144,8 +109,7 @@
 		    repeat = "repeat" in json?json.repeat:0;
 		    next_line_start = 0;
 		    which_line = 0;
-		    for (const cat of cats)
-			cat[4] = 0;
+		    cats.reset();
 		    ball_t0 = undefined;
 		    ball_t1 = start_time;
 		    word_element = null;
@@ -196,18 +160,11 @@
 	    const e=beat_events[beat_index];
 	    const t=start_time+e[0]+beat_repeat;
 	    if (t>now){
-		if (beat_index!=0){
-		    const x=1-(t-now)/(beat_events[beat_index][0]-beat_events[beat_index-1][0]);
-		    for (const cat of cats){
-			cat[5][cat[6]].style.visibility = "hidden";
-			cat[6] = Math.floor((cat[4]+x)*cat[1]/cat[2])%cat[1];
-			cat[5][cat[6]].style.visibility = "visible";
-		    }
-		}
+		if (beat_index!=0)
+		    cats.animate(1-(t-now)/(beat_events[beat_index][0]-beat_events[beat_index-1][0]));
 		break;
 	    }
-	    for (const cat of cats)
-		cat[4] = (cat[4]+1)%cat[2];
+	    cats.increment();
 	    beat_counter.innerHTML = beat_events[beat_index][1]
 	    if (repeat && beat_index==beat_events.length-1){
 		beat_repeat = Math.ceil((now-start_time-e[0])/repeat)*repeat;
