@@ -65,6 +65,7 @@ Private Chat With Aarin Robo:
     };
     websocket.onopen = function(){
 	chatForm.style.visibility = "visible";
+	window.setInterval(function(){websocket.send("ntp");},1000);
     };
     websocket.onmessage = function(event){
 	if (event.data.slice(0,4)=="chat"){
