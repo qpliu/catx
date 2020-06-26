@@ -8,8 +8,10 @@
 <a id=setup href=setup.html><img style=position:absolute;right:0;top:0;width:5vw;z-index:9;color:#0f0; src=../settings.svg></a>
 <img id=speakerOn style=visibility:hidden;position:absolute;right:6vw;top:0;width:5vw;z-index:9; onclick=toggleSpeaker() src=../speaker.svg></a>
 <img id=speakerOff style=position:absolute;right:6vw;top:0;width:5vw;z-index:9; onclick=toggleSpeaker() src=../speaker_off.svg></a>
-<img style=position:absolute;left:0;top:0;width:5vw;z-index:9; onclick=websocket.send("chatstop") src=../stop.svg></a>
-<img style=position:absolute;left:6vw;top:0;width:5vw;z-index:9; onclick=websocket.send("chatplay") src=../play.svg></a>
+<span id=websocketControls style=visibility:hidden;>
+<img style=position:absolute;left:0;top:0;width:5vw;z-index:9; onclick=websocketStuff.sendChat("stop") src=../stop.svg></a>
+<img style=position:absolute;left:6vw;top:0;width:5vw;z-index:9; onclick=websocketStuff.sendChat("play") src=../play.svg></a>
+</span>
 <div id=div style=position:absolute;left:0;top:10vh;width:100vw;></div>
 <div style=position:absolute;top:0;left:0;width:100vw;height:10vh;text-align:center;><span id=name style=font-size:6vh;white-space:nowrap;color:#0f0;background-color:#000;></span></div>
 <div style=position:absolute;top:10vh;left:0;width:100vw;height:10vh;text-align:center;><span id=beat_counter style=font-family:monospace;font-size:8vh;color:#000;background-color:#0f0;>1</span></div>
@@ -27,30 +29,14 @@
 <div id=snakes1w style=position:absolute;bottom:40vh;left:0;width:100vw;height:5vh;font-size:1vw;white-space:nowrap;color:#0f0;background-color:#000;display:none;z-index:1;></div>
 <canvas id=snakes0 style=position:absolute;top:60vh;left:0;width:100vw;height:40vh;background-color:#000;display:none;></canvas>
 <div id=snakes0w style=position:absolute;bottom:0vh;left:0;width:100vw;height:5vh;font-size:1vw;white-space:nowrap;color:#0f0;background-color:#000;display:none;z-index:1;></div>
+<script src=settings.js></script>
+<script src=websocketstuff.js></script>
 <script>
-    let windowLocationSearch=window.location.search;
-    function getSearch(what,defaul){
-	let match=windowLocationSearch.match("[?&]"+what+"=([^?&]*)");
-	if (match && match[1])
-	    return match[1];
-	windowLocationSearch += (windowLocationSearch?"&":"?")+what+"="+defaul;
-	return defaul;
-    }
+    const settings=new Settings();
     let speakerOn=0;
     const audioContext=new AudioContext();
-    const DELAY=Number(getSearch("delay","200"));
-    const TIME_PER_SNAKE=Number(getSearch("timePerSnake","4000"));
-    const MIN_NOTE=Number(getSearch("lowestNote","48"));
-    const MAX_NOTE=Number(getSearch("highestNote","72"));
-    const MIN_DECIBELS=Number(getSearch("minDecibels","-100"));
-    const MAX_DECIBELS=Number(getSearch("maxDecibels","-50"));
-    const TRANSPOSE=Number(getSearch("transpose","0"));
-    const HARMONICS_TO_CHECK=Number(getSearch("harmonicsToCheck","3"));
-    const SUBHARMONICS_TO_CHECK=Number(getSearch("subharmonicsToCheck","3"));
-    const FFT_SIZE=Number(getSearch("fftSize","8192"));
-    const SNAKES=Number(getSearch("snakes","0"));
     const CANVAS_WIDTH=1024;
-    const CANVAS_HEIGHT=(MAX_NOTE-MIN_NOTE)*10;
+    const CANVAS_HEIGHT=(settings.maxNote-settings.minNote)*10;
     const cats=[
 	["../cat/cat-${frame}.png",40,8,"position:absolute;left:0;top:0;width:15vw;z-index:-1;"],
 	["../cat/fatcat-${frame}.png",8,2,"position:absolute;left:82vw;top:0;width:18vw;z-index:-1;"],
@@ -72,7 +58,6 @@
 	["../cat/wave-${frame}.jpg",15,4,"position:absolute;left:34vw;top:-10vw;width:34vw;z-index:-4;"],
 	["../cat/wave-${frame}.jpg",15,4,"position:absolute;left:68vw;top:-10vw;width:34vw;z-index:-4;"],
     ];
-    const websocket=new WebSocket("wss://catx.band/karaoke_websocket");
     const toneOscillator=audioContext.createOscillator();
     const toneGain=audioContext.createGain();
     toneGain.gain.value = 0;
@@ -82,12 +67,10 @@
     let fft;
     let fft_data;
     let last_fft_time;
-    let ntp_t0;
-    let ntp_offset;
     let start_time;
     let repeat;
     const bgimg=document.getElementById("bgimg");
-    document.getElementById("setup").href += windowLocationSearch;
+    document.getElementById("setup").href += settings.locationSearch;
     const bgtext=document.getElementById("bgtext");
     const ball=document.getElementById("ball");
     const beat_counter=document.getElementById("beat_counter");
@@ -95,7 +78,6 @@
     const snakes=[document.getElementById("snakes0"),document.getElementById("snakes1")];
     const snakesw=[document.getElementById("snakes0w"),document.getElementById("snakes1w")];
     let which_line;
-    let timeout=4;
     let id_counter=0;
     let line_events;
     let word_element;
@@ -118,7 +100,7 @@
     let snake_time;
     let ball_x0,ball_y0,ball_t0;
     let ball_x1,ball_y1,ball_t1;
-    if (SNAKES){
+    if (settings.snakes){
 	for (const i in snakes){
 	    snakes[i].style.display = "block";
 	    snakes[i].width = CANVAS_WIDTH;
@@ -143,12 +125,72 @@
 	    cat.push(l);
 	    cat.push(0);
 	}
-    function do_ntp(){
-	if (--timeout<0)
-	    location.reload();
-	ntp_t0 = new Date().getTime();
-	websocket.send("ntp");
-    }
+    websocketStuff = new class extends WebsocketStuff{
+	onopen(){
+	    super.onopen();
+	    document.getElementById("websocketControls").style.visibility = "visible";
+	}
+	onmessage(event){
+	    super.onmessage(event);
+	    if (event.data.slice(0,1)=="k" && this.ntp_offset!=undefined){
+		const json=JSON.parse(event.data.slice(1));
+		if ("name" in json){
+		    document.getElementById("name").innerHTML = json.name;
+		    document.getElementById("title").innerHTML = json.name;
+		}
+		if ("karaoke" in json){
+		    start_time = json.start_time+this.ntp_offset+settings.delay;
+		    last_fft_time = start_time;
+		    repeat = "repeat" in json?json.repeat:0;
+		    next_line_start = 0;
+		    which_line = 0;
+		    for (const cat of cats)
+			cat[4] = 0;
+		    ball_t0 = undefined;
+		    ball_t1 = start_time;
+		    word_element = null;
+		    line_events = [];
+		    lyric_repeat = 0;
+		    lyric_index = 0;
+		    lyric_events = [];
+		    beat_index = 0;
+		    beat_repeat = 0;
+		    beat_events = [];
+		    bg_index = 0;
+		    bg_repeat = 0;
+		    bg_events = [];
+		    tone_index = 0;
+		    tone_repeat = 0;
+		    tone_events = [];
+		    snake_time = 0;
+		    let last_tone=undefined;
+		    for (const e of json.karaoke){
+			if ("k" in e)
+			    for (let k of e.k.split("|")){
+				if (k.slice(0,6)=="!beat=")
+				    beat_events.push([e.t,k.slice(6)]);
+				else if (k.slice(0,4)=="!bg=")
+				    bg_events.push([e.t,k.slice(4)]);
+				else
+				    lyric_events.push([e.t,k]);
+			    }
+			if ("on" in e)
+			    last_tone = e;
+			if ("off" in e && last_tone!=undefined)
+			    tone_events.push([last_tone.t,e.t-last_tone.t,last_tone.on+settings.transpose]);
+		    }
+		    ball_events = [];
+		    lines[0].innerHTML = "";
+		    lines[1].innerHTML = "";
+		    bgimg.style.display = "none";
+		    bgtext.style.display = "none";
+		    window.requestAnimationFrame(settings.snakes?animateSnakes:animateBall);
+		}
+		if ("stop" in json)
+		    start_time = undefined;
+	    }
+	}
+    }();
     function animateBeatEvents(now){
 	while (beat_index<beat_events.length){
 	    const e=beat_events[beat_index];
@@ -229,34 +271,34 @@
 	if (fft!=undefined){
 	    let canvas;
 	    let canvas_start;
-	    if (now<start_time+snake_time-TIME_PER_SNAKE){
+	    if (now<start_time+snake_time-settings.timePerSnake){
 		canvas = snakes[which_line^1];
-		canvas_start = start_time+snake_time-2*TIME_PER_SNAKE;
+		canvas_start = start_time+snake_time-2*settings.timePerSnake;
 	    }else{
 		canvas = snakes[which_line];
-		canvas_start = start_time+snake_time-TIME_PER_SNAKE;
+		canvas_start = start_time+snake_time-settings.timePerSnake;
 	    }
 	    const context=canvas.getContext("2d");
 	    context.globalCompositeOperation = "lighter";
-	    const x0=Math.floor(Math.max((last_fft_time-canvas_start)*CANVAS_WIDTH/TIME_PER_SNAKE,0));
-	    const x1=Math.floor((now-canvas_start)*CANVAS_WIDTH/TIME_PER_SNAKE);
+	    const x0=Math.floor(Math.max((last_fft_time-canvas_start)*CANVAS_WIDTH/settings.timePerSnake,0));
+	    const x1=Math.floor((now-canvas_start)*CANVAS_WIDTH/settings.timePerSnake);
 	    last_fft_time = now;
 	    context.globalCompositeOperation = "difference";
 	    context.fillStyle = "#404040";
 	    context.fillRect(x0,0,x1-x0,CANVAS_HEIGHT);
 	    context.globalCompositeOperation = "lighten";
 	    fft.getByteFrequencyData(fft_data);
-	    const i0=Math.floor(Math.exp((MIN_NOTE-69)/12*Math.log(2))*440*FFT_SIZE/audioContext.sampleRate);
-	    const i1=Math.floor(Math.exp((MAX_NOTE-69)/12*Math.log(2))*440*FFT_SIZE/audioContext.sampleRate);
+	    const i0=Math.floor(Math.exp((settings.minNote-69)/12*Math.log(2))*440*settings.fftSize/audioContext.sampleRate);
+	    const i1=Math.floor(Math.exp((settings.maxNote-69)/12*Math.log(2))*440*settings.fftSize/audioContext.sampleRate);
 	    for (let i=i0; i<i1; i++){
-		const n0=69+Math.log(i*audioContext.sampleRate/FFT_SIZE/440)/Math.log(2)*12;
-		const n1=69+Math.log((i+1)*audioContext.sampleRate/FFT_SIZE/440)/Math.log(2)*12;
-		const y0=Math.floor((MAX_NOTE-n0)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT);
-		const y1=Math.floor((MAX_NOTE-n1)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT);
+		const n0=69+Math.log(i*audioContext.sampleRate/settings.fftSize/440)/Math.log(2)*12;
+		const n1=69+Math.log((i+1)*audioContext.sampleRate/settings.fftSize/440)/Math.log(2)*12;
+		const y0=Math.floor((settings.maxNote-n0)/(settings.maxNote-settings.minNote)*CANVAS_HEIGHT);
+		const y1=Math.floor((settings.maxNote-n1)/(settings.maxNote-settings.minNote)*CANVAS_HEIGHT);
 		let d=fft_data[i];
-		for (let j=2; i*j<fft_data.length&&j<=HARMONICS_TO_CHECK; j++)
+		for (let j=2; i*j<fft_data.length&&j<=settings.harmonics; j++)
 		    d = Math.min(d,fft_data[i*j]);
-		for (let j=2; j<=SUBHARMONICS_TO_CHECK; j++){
+		for (let j=2; j<=settings.subharmonics; j++){
 		    let f=i/j;
 		    let ff=Math.floor(f);
 		    f -= ff;
@@ -268,7 +310,7 @@
 	    }
 	}
 	while (next_line_start<now){
-	    snake_time += Math.max(Math.floor((now-start_time-snake_time)/(TIME_PER_SNAKE*2)),0)*TIME_PER_SNAKE*2;
+	    snake_time += Math.max(Math.floor((now-start_time-snake_time)/(settings.timePerSnake*2)),0)*settings.timePerSnake*2;
 	    which_line ^= 1;
 	    sb = ""
 	    const canvas=snakes[which_line];
@@ -277,11 +319,11 @@
 	    context.fillStyle = "#404040";
 	    context.fillRect(0,0,CANVAS_WIDTH,CANVAS_HEIGHT);
 	    for (const e of lyric_events){
-		const r0=repeat?Math.ceil((snake_time-TIME_PER_SNAKE-e[0])/repeat):0;
-		const r1=repeat?Math.ceil((snake_time+TIME_PER_SNAKE-e[0])/repeat):1;
+		const r0=repeat?Math.ceil((snake_time-settings.timePerSnake-e[0])/repeat):0;
+		const r1=repeat?Math.ceil((snake_time+settings.timePerSnake-e[0])/repeat):1;
 		for (let r=r0; r<r1; r++){
 		    const t=e[0]+repeat*r;
-		    if (t>snake_time-TIME_PER_SNAKE && t<snake_time+TIME_PER_SNAKE){
+		    if (t>snake_time-settings.timePerSnake && t<snake_time+settings.timePerSnake){
 			let k=e[1];
 			if (k.slice(0,1)==">")
 			    k = k.slice(1);
@@ -290,42 +332,42 @@
 			if (k.slice(0,1)=="-")
 			    k = k.slice(1);
 			if (k.length!=0)
-			    sb += "<span style=position:absolute;left:"+(t-snake_time)*100/TIME_PER_SNAKE+"vw;bottom:0>"+k+"</span>"
+			    sb += "<span style=position:absolute;left:"+(t-snake_time)*100/settings.timePerSnake+"vw;bottom:0>"+k+"</span>"
 		    }
 		}
 	    }
 	    for (const e of beat_events){
-		const r0=repeat?Math.ceil((snake_time-TIME_PER_SNAKE-e[0])/repeat):0;
-		const r1=repeat?Math.ceil((snake_time+TIME_PER_SNAKE-e[0])/repeat):1;
+		const r0=repeat?Math.ceil((snake_time-settings.timePerSnake-e[0])/repeat):0;
+		const r1=repeat?Math.ceil((snake_time+settings.timePerSnake-e[0])/repeat):1;
 		for (let r=r0; r<r1; r++){
 		    const t=e[0]+repeat*r;
-		    if (t>snake_time-TIME_PER_SNAKE && t<snake_time+TIME_PER_SNAKE){
+		    if (t>snake_time-settings.timePerSnake && t<snake_time+settings.timePerSnake){
 			let k=e[1];
 			if (k.slice(-2)==':1' || k.slice(-2)=='=1')
 			    context.fillStyle = "#ff4040";
 			else
 			    context.fillStyle = "#4040ff";
-			const x0=(t-snake_time)/TIME_PER_SNAKE*CANVAS_WIDTH;
+			const x0=(t-snake_time)/settings.timePerSnake*CANVAS_WIDTH;
 			context.fillRect(x0,0,1,CANVAS_HEIGHT);
 		    }
 		}
 	    }
 	    context.fillStyle = "#ff40ff";
 	    for (const e of tone_events){
-		const y0=(MAX_NOTE-e[2]-.5)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT;
-		const y1=(MAX_NOTE-e[2]+.5)/(MAX_NOTE-MIN_NOTE)*CANVAS_HEIGHT;
+		const y0=(settings.maxNote-e[2]-.5)/(settings.maxNote-settings.minNote)*CANVAS_HEIGHT;
+		const y1=(settings.maxNote-e[2]+.5)/(settings.maxNote-settings.minNote)*CANVAS_HEIGHT;
 		const r0=repeat?Math.ceil((snake_time-(e[0]+e[1]))/repeat):0;
 		const r1=repeat?Math.ceil((snake_time-e[0])/repeat):0;
 		for (let r=r0; r<=r1; r++){
-		    const x0=Math.max((e[0]+repeat*r-snake_time)/TIME_PER_SNAKE,0)*CANVAS_WIDTH;
-		    const x1=Math.min(((e[0]+e[1])+repeat*r-snake_time)/TIME_PER_SNAKE,1)*CANVAS_WIDTH;
+		    const x0=Math.max((e[0]+repeat*r-snake_time)/settings.timePerSnake,0)*CANVAS_WIDTH;
+		    const x1=Math.min(((e[0]+e[1])+repeat*r-snake_time)/settings.timePerSnake,1)*CANVAS_WIDTH;
 		    if (x1>x0)
 			context.fillRect(x0,y0,x1-x0,y1-y0);
 		}
 	    }
 	    snakesw[which_line].innerHTML = sb;
-	    next_line_start = start_time+snake_time+TIME_PER_SNAKE/2;
-	    snake_time += TIME_PER_SNAKE;
+	    next_line_start = start_time+snake_time+settings.timePerSnake/2;
+	    snake_time += settings.timePerSnake;
 	}
 	animateToneEvents(now);
 	animateBeatEvents(now);
@@ -428,86 +470,13 @@
 	animateBeatEvents(now);
 	window.requestAnimationFrame(animateBall);
     }
-    websocket.onopen = function(){
-	window.setInterval(do_ntp,1000);
-	do_ntp();
-    };
-    websocket.onmessage = function(event){
-	const now=new Date().getTime();
-	if (event.data.slice(0,1)=="t"){
-	    timeout = 4;
-	    if (ntp_offset==undefined)
-		websocket.send("middle");
-	    const ntp_t1=parseInt(event.data.slice(1));
-	    ntp_offset = (now+ntp_t0)/2-ntp_t1+DELAY;
-	}
-	if (event.data.slice(0,1)=="k" && ntp_offset!=undefined){
-	    const json=JSON.parse(event.data.slice(1));
-	    if ("name" in json){
-		document.getElementById("name").innerHTML = json.name;
-		document.getElementById("title").innerHTML = json.name;
-	    }
-	    if ("karaoke" in json){
-		start_time = json.start_time+ntp_offset;
-		last_fft_time = start_time;
-		repeat = "repeat" in json?json.repeat:0;
-		next_line_start = 0;
-		which_line = 0;
-		for (const cat of cats)
-		    cat[4] = 0;
-		last_cat = 0;
-		last_fatcat = 0;
-		ball_t0 = undefined;
-		ball_t1 = start_time;
-		word_element = null;
-		line_events = [];
-		lyric_repeat = 0;
-		lyric_index = 0;
-		lyric_events = [];
-		beat_index = 0;
-		beat_repeat = 0;
-		beat_events = [];
-		bg_index = 0;
-		bg_repeat = 0;
-		bg_events = [];
-		tone_index = 0;
-		tone_repeat = 0;
-		tone_events = [];
-		snake_time = 0;
-		let last_tone=undefined;
-		for (const e of json.karaoke){
-		    if ("k" in e)
-			for (let k of e.k.split("|")){
-			    if (k.slice(0,6)=="!beat=")
-				beat_events.push([e.t,k.slice(6)]);
-			    else if (k.slice(0,4)=="!bg=")
-				bg_events.push([e.t,k.slice(4)]);
-			    else
-				lyric_events.push([e.t,k]);
-			}
-		    if ("on" in e)
-			last_tone = e;
-		    if ("off" in e && last_tone!=undefined)
-			tone_events.push([last_tone.t,e.t-last_tone.t,last_tone.on+TRANSPOSE]);
-		}
-		ball_events = [];
-		lines[0].innerHTML = "";
-		lines[1].innerHTML = "";
-		bgimg.style.display = "none";
-		bgtext.style.display = "none";
-		window.requestAnimationFrame(SNAKES?animateSnakes:animateBall);
-	    }
-	    if ("stop" in json)
-		start_time = undefined;
-	}
-    }
     async function gotUserMedia(stream){
 	const microphone=audioContext.createMediaStreamSource(stream);
 	fft = audioContext.createAnalyser();
 	fft.smoothingTimeConstant = 0;
-	fft.fftSize = FFT_SIZE;
-	fft.maxDecibels = MAX_DECIBELS;
-	fft.minDecibels = MIN_DECIBELS;
+	fft.fftSize = settings.fftSize;
+	fft.maxDecibels = settings.maxDecibels;
+	fft.minDecibels = settings.minDecibels;
 	microphone.connect(fft);
 	fft_data = new Uint8Array(fft.frequencyBinCount);
     }
@@ -518,7 +487,8 @@
 	document.getElementById("speakerOn").style.visibility = speakerOn?"visible":"hidden";
 	document.getElementById("speakerOff").style.visibility = speakerOn?"hidden":"visible";
     }
-    if (SNAKES)
+    if (settings.snakes)
 	navigator.mediaDevices.getUserMedia({audio:true}).then(gotUserMedia).catch(function(err){alert(err);});
+    websocketStuff.start();
 </script>
 </html>

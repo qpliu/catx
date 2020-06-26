@@ -2,76 +2,51 @@
 <html>
 <head>
 <meta charset=UTF-8>
-<title id=title>Karaoke</title>
-</head>
+<title id=title>Karaoke Setup</title>
 </head>
 <form action=index.html>
-Common Settings for Snakes or Bouncing Ball:
-<br><br>
-<span id=span0></span>
-<br>
-Settings for Snakes:
-<br><br>
-<span id=span1></span>
-<br>
+<span id=settingsInputs></span>
 <input type=submit>
 </form>
 <br>
 <form id=chatForm style=visibility:hidden;>
 Private Chat With Aarin Robo:
 <br>
-<div id=chatDiv style=width:90vw;height:70vh;overflow-y:scroll;></div>
-<br>
-<input id=chatInput style=width:90%; type=text>
-<input type=submit>
-<form>
+<div id=chatDiv style=width:100%;height:70vh;overflow-y:scroll;background-color:#ccc;></div>
+<div style=width:100%;display:table;>
+    <label for=chatInput style=display:table-cell;width:1px;>Chat:</label>
+    <input id=chatInput style=display:table-cell;width:100%; type=text>
+</div>
+</form>
+<script src=websocketstuff.js></script>
+<script src=settings.js></script>
 <script>
-    function make(where,lab,what){
-	const whe=document.getElementById(where);
-	const label=document.createElement("label");
-	label.innerHTML = lab;
-	whe.appendChild(label);
-	label.for = what;
-	const input=document.createElement("input");
-	input.type = "text";
-	input.name = what;
-	let match=window.location.search.match("[?&]"+what+"=([^?&]+)");
-	if (match)
-	    input.value = match[1];
-	whe.appendChild(input);
-	whe.appendChild(document.createElement("br"));
-    }
-    make("span0","Snakes:","snakes");
-    make("span0","Delay:","delay");
-    make("span1","Time Per Snake:","timePerSnake");
-    make("span1","Lowest Note:","lowestNote");
-    make("span1","Highest Note:","highestNote");
-    make("span1","Transpose:","transpose");
-    make("span1","Harmonics To Check:","harmonicsToCheck");
-    make("span1","Subharmonics To Check:","subharmonicsToCheck");
-    make("span1","FFT Size:","fftSize");
-    make("span1","minDecibels:","minDecibels");
-    make("span1","maxDecibels:","maxDecibels");
-    const websocket=new WebSocket("wss://catx.band/karaoke_websocket");
+    const settings=new Settings();
+    settings.makeInputs(document.getElementById("settingsInputs"));
     const chatForm=document.getElementById("chatForm");
     const chatDiv=document.getElementById("chatDiv");
+    const websocketStuff=new class extends WebsocketStuff{
+	onopen(){
+	    super.onopen();
+	    chatForm.style.visibility = "visible";
+	    websocketStuff.sendChat("help");
+	}
+	onmessage(event){
+	    super.onmessage(event);
+	    if (event.data.slice(0,4)=="chat"){
+		chatDiv.innerHTML += event.data.slice(4)+"<br>";
+		chatDiv.scrollTop = chatDiv.scrollHeight;
+	    }
+	}
+    }();
     chatForm.onsubmit = function(event){
 	const chatInput=document.getElementById("chatInput");
-	websocket.send("chat"+chatInput.value);
 	chatDiv.innerHTML += "<font color=pink><b>You</b></font> "+chatInput.value+"<br>";
 	chatDiv.scrollTop = chatDiv.scrollHeight;
+	websocketStuff.sendChat(chatInput.value);
 	chatInput.value = "";
 	event.preventDefault();
     };
-    websocket.onopen = function(){
-	chatForm.style.visibility = "visible";
-	window.setInterval(function(){websocket.send("ntp");},1000);
-    };
-    websocket.onmessage = function(event){
-	if (event.data.slice(0,4)=="chat"){
-	    chatDiv.innerHTML += event.data.slice(4)+"<br>";
-	    chatDiv.scrollTop = chatDiv.scrollHeight;
-	}
-    };
+    websocketStuff.start();
 </script>
 </html>
