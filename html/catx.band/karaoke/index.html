@@ -6,7 +6,7 @@
 </head>
 <body style=overflow:hidden;>
 <a id=setup href=setup.html><img style=position:absolute;right:0;top:0;width:5vw;z-index:9;color:#0f0; src=../settings.svg></a>
-<span id=toneControls></span>
+<span id=span></span>
 <span id=websocketControls style=visibility:hidden;>
 <img style=position:absolute;left:0;top:0;width:5vw;z-index:9; onclick=websocketStuff.sendChat("stop") src=../stop.svg></a>
 <img style=position:absolute;left:6vw;top:0;width:5vw;z-index:9; onclick=websocketStuff.sendChat("play") src=../play.svg></a>
@@ -21,59 +21,42 @@
 <div id=lineatat style=position:absolute;top:100vh;left:97.5vw;height:0;></div>
 <img id=ball style=position:absolute;bottom:100vh;width:5vw;z-index:2; src=../ball.png>
 <div id=bgdiv style=position:absolute;left:0;top:35vh;width:100vw;height:65vh;z-index:-9;text-align:center;></div>
-<canvas id=snakes1 style=position:absolute;top:20vh;left:0;width:100vw;height:40vh;background-color:#000;display:none;></canvas>
-<div id=snakes1w style=position:absolute;bottom:40vh;left:0;width:100vw;height:5vh;font-size:1vw;white-space:nowrap;color:#0f0;background-color:#000;display:none;z-index:1;></div>
-<canvas id=snakes0 style=position:absolute;top:60vh;left:0;width:100vw;height:40vh;background-color:#000;display:none;></canvas>
-<div id=snakes0w style=position:absolute;bottom:0vh;left:0;width:100vw;height:5vh;font-size:1vw;white-space:nowrap;color:#0f0;background-color:#000;display:none;z-index:1;></div>
 <script src=settings.js></script>
 <script src=websocketstuff.js></script>
 <script src=cats.js></script>
 <script src=background.js></script>
 <script src=tones.js></script>
 <script src=beatcounter.js></script>
+<script src=snakes.js></script>
 <script>
     const audioContext=new AudioContext();
     const settings=new Settings();
     const cats=new Cats();
     const background=new Background(document.getElementById("bgdiv"));
-    const tones=new Tones(audioContext,document.getElementById("toneControls"));
+    const tones=new Tones(audioContext,document.getElementById("span"));
     const beatCounter=new BeatCounter(cats,document.getElementById("beat_div"));
-    const CANVAS_WIDTH=1024;
-    const CANVAS_HEIGHT=(settings.maxNote-settings.minNote)*10;
-    let fft;
-    let fft_data;
-    let last_fft_time;
+    let snakes;
     let start_time;
     let repeat;
     document.getElementById("setup").href += settings.locationSearch;
     const ball=document.getElementById("ball");
     const lines=[document.getElementById("line0"),document.getElementById("line1")];
-    const snakes=[document.getElementById("snakes0"),document.getElementById("snakes1")];
-    const snakesw=[document.getElementById("snakes0w"),document.getElementById("snakes1w")];
     let which_line;
     let id_counter=0;
-    let tone_events;
     let line_events;
     let word_element;
     let word_t0;
     let word_t1;
     let ball_events;
-    let beat_events;
     let lyric_index;
     let lyric_repeat;
     let lyric_events;
     let next_line_start;
-    let snake_time;
     let ball_x0,ball_y0,ball_t0;
     let ball_x1,ball_y1,ball_t1;
-    if (settings.snakes){
-	for (const i in snakes){
-	    snakes[i].style.display = "block";
-	    snakes[i].width = CANVAS_WIDTH;
-	    snakes[i].height = CANVAS_HEIGHT;
-	    snakesw[i].style.display = "block";
-	}
-    }else
+    if (settings.snakes)
+	snakes = new Snakes(audioContext,document.getElementById("span"));
+    else
 	cats.makeCats(document.getElementById("div"));
     websocketStuff = new class extends WebsocketStuff{
 	onopen(){
@@ -95,7 +78,8 @@
 		    background.reset(start_time,repeat);
 		    tones.reset(start_time,repeat);
 		    beatCounter.reset(start_time,repeat);
-		    last_fft_time = start_time;
+		    if (snakes!=undefined)
+			snakes.reset(start_time,repeat);
 		    next_line_start = 0;
 		    which_line = 0;
 		    ball_t0 = undefined;
@@ -105,26 +89,28 @@
 		    lyric_repeat = 0;
 		    lyric_index = 0;
 		    lyric_events = [];
-		    beat_events = [];
-		    tone_events = [];
-		    snake_time = 0;
 		    let last_tone=undefined;
 		    for (const e of json.karaoke){
 			if ("k" in e)
 			    for (let k of e.k.split("|")){
 				if (k.slice(0,6)=="!beat="){
 				    beatCounter.addEvent(e.t,k.slice(6));
-				    beat_events.push([e.t,k.slice(6)]);
+				    if (snakes!=undefined)
+					snakes.addBeatEvent(e.t,k.slice(6));
 				}else if (k.slice(0,4)=="!bg=")
 				    background.addEvent(e.t,k.slice(4));
-				else
+				else{
 				    lyric_events.push([e.t,k]);
+				    if (snakes!=undefined)
+					snakes.addLyricEvent(e.t,k);
+				}
 			    }
 			if ("on" in e)
 			    last_tone = e;
 			if ("off" in e && last_tone!=undefined){
 			    tones.addEvent(last_tone.t,e.t-last_tone.t,last_tone.on+settings.transpose);
-			    tone_events.push([last_tone.t,e.t-last_tone.t,last_tone.on+settings.transpose]);
+			    if (snakes!=undefined)
+				snakes.addToneEvent(last_tone.t,e.t-last_tone.t,last_tone.on+settings.transpose);
 			}
 		    }
 		    ball_events = [];
@@ -141,107 +127,7 @@
 	if (start_time==undefined)
 	    return;
 	const now=new Date().getTime();
-	if (fft!=undefined){
-	    let canvas;
-	    let canvas_start;
-	    if (now<start_time+snake_time-settings.timePerSnake){
-		canvas = snakes[which_line^1];
-		canvas_start = start_time+snake_time-2*settings.timePerSnake;
-	    }else{
-		canvas = snakes[which_line];
-		canvas_start = start_time+snake_time-settings.timePerSnake;
-	    }
-	    const context=canvas.getContext("2d");
-	    context.globalCompositeOperation = "lighter";
-	    const x0=Math.floor(Math.max((last_fft_time-canvas_start)*CANVAS_WIDTH/settings.timePerSnake,0));
-	    const x1=Math.floor((now-canvas_start)*CANVAS_WIDTH/settings.timePerSnake);
-	    last_fft_time = now;
-	    context.globalCompositeOperation = "difference";
-	    context.fillStyle = "#404040";
-	    context.fillRect(x0,0,x1-x0,CANVAS_HEIGHT);
-	    context.globalCompositeOperation = "lighten";
-	    fft.getByteFrequencyData(fft_data);
-	    const i0=Math.floor(Math.exp((settings.minNote-69)/12*Math.log(2))*440*settings.fftSize/audioContext.sampleRate);
-	    const i1=Math.floor(Math.exp((settings.maxNote-69)/12*Math.log(2))*440*settings.fftSize/audioContext.sampleRate);
-	    for (let i=i0; i<i1; i++){
-		const n0=69+Math.log(i*audioContext.sampleRate/settings.fftSize/440)/Math.log(2)*12;
-		const n1=69+Math.log((i+1)*audioContext.sampleRate/settings.fftSize/440)/Math.log(2)*12;
-		const y0=Math.floor((settings.maxNote-n0)/(settings.maxNote-settings.minNote)*CANVAS_HEIGHT);
-		const y1=Math.floor((settings.maxNote-n1)/(settings.maxNote-settings.minNote)*CANVAS_HEIGHT);
-		let d=fft_data[i];
-		for (let j=2; i*j<fft_data.length&&j<=settings.harmonics; j++)
-		    d = Math.min(d,fft_data[i*j]);
-		for (let j=2; j<=settings.subharmonics; j++){
-		    let f=i/j;
-		    let ff=Math.floor(f);
-		    f -= ff;
-		    d -= fft_data[ff]*(1-f)+fft_data[ff+1]*f;
-		}
-		d = Math.max(0,d);
-		context.fillStyle = "rgb("+d+","+d+","+0+")";
-		context.fillRect(x0,y0,x1-x0,y1-y0);
-	    }
-	}
-	while (next_line_start<now){
-	    snake_time += Math.max(Math.floor((now-start_time-snake_time)/(settings.timePerSnake*2)),0)*settings.timePerSnake*2;
-	    which_line ^= 1;
-	    sb = ""
-	    const canvas=snakes[which_line];
-	    const context=canvas.getContext("2d");
-	    context.globalCompositeOperation = "source-over";
-	    context.fillStyle = "#404040";
-	    context.fillRect(0,0,CANVAS_WIDTH,CANVAS_HEIGHT);
-	    for (const e of lyric_events){
-		const r0=repeat?Math.ceil((snake_time-settings.timePerSnake-e[0])/repeat):0;
-		const r1=repeat?Math.ceil((snake_time+settings.timePerSnake-e[0])/repeat):1;
-		for (let r=r0; r<r1; r++){
-		    const t=e[0]+repeat*r;
-		    if (t>snake_time-settings.timePerSnake && t<snake_time+settings.timePerSnake){
-			let k=e[1];
-			if (k.slice(0,1)==">")
-			    k = k.slice(1);
-			if (k=="@" || k=="@@")
-			    continue;
-			if (k.slice(0,1)=="-")
-			    k = k.slice(1);
-			if (k.length!=0)
-			    sb += "<span style=position:absolute;left:"+(t-snake_time)*100/settings.timePerSnake+"vw;bottom:0>"+k+"</span>"
-		    }
-		}
-	    }
-	    for (const e of beat_events){
-		const r0=repeat?Math.ceil((snake_time-settings.timePerSnake-e[0])/repeat):0;
-		const r1=repeat?Math.ceil((snake_time+settings.timePerSnake-e[0])/repeat):1;
-		for (let r=r0; r<r1; r++){
-		    const t=e[0]+repeat*r;
-		    if (t>snake_time-settings.timePerSnake && t<snake_time+settings.timePerSnake){
-			let k=e[1];
-			if (k.slice(-2)==':1' || k.slice(-2)=='=1')
-			    context.fillStyle = "#ff4040";
-			else
-			    context.fillStyle = "#4040ff";
-			const x0=(t-snake_time)/settings.timePerSnake*CANVAS_WIDTH;
-			context.fillRect(x0,0,1,CANVAS_HEIGHT);
-		    }
-		}
-	    }
-	    context.fillStyle = "#ff40ff";
-	    for (const e of tone_events){
-		const y0=(settings.maxNote-e[2]-.5)/(settings.maxNote-settings.minNote)*CANVAS_HEIGHT;
-		const y1=(settings.maxNote-e[2]+.5)/(settings.maxNote-settings.minNote)*CANVAS_HEIGHT;
-		const r0=repeat?Math.ceil((snake_time-(e[0]+e[1]))/repeat):0;
-		const r1=repeat?Math.ceil((snake_time-e[0])/repeat):0;
-		for (let r=r0; r<=r1; r++){
-		    const x0=Math.max((e[0]+repeat*r-snake_time)/settings.timePerSnake,0)*CANVAS_WIDTH;
-		    const x1=Math.min(((e[0]+e[1])+repeat*r-snake_time)/settings.timePerSnake,1)*CANVAS_WIDTH;
-		    if (x1>x0)
-			context.fillRect(x0,y0,x1-x0,y1-y0);
-		}
-	    }
-	    snakesw[which_line].innerHTML = sb;
-	    next_line_start = start_time+snake_time+settings.timePerSnake/2;
-	    snake_time += settings.timePerSnake;
-	}
+	snakes.animate(now);
 	tones.animate(now);
 	beatCounter.animate(now);
 	window.requestAnimationFrame(animateSnakes);
@@ -343,18 +229,6 @@
 	beatCounter.animate(now);
 	window.requestAnimationFrame(animateBall);
     }
-    async function gotUserMedia(stream){
-	const microphone=audioContext.createMediaStreamSource(stream);
-	fft = audioContext.createAnalyser();
-	fft.smoothingTimeConstant = 0;
-	fft.fftSize = settings.fftSize;
-	fft.maxDecibels = settings.maxDecibels;
-	fft.minDecibels = settings.minDecibels;
-	microphone.connect(fft);
-	fft_data = new Uint8Array(fft.frequencyBinCount);
-    }
-    if (settings.snakes)
-	navigator.mediaDevices.getUserMedia({audio:true}).then(gotUserMedia).catch(function(err){alert(err);});
     websocketStuff.start();
 </script>
 </html>
