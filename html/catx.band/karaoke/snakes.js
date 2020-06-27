@@ -19,17 +19,16 @@ class Snakes{
 	    this.snakesw.push(div);
 	    where.appendChild(div);
 	}
-	const thiz=this;
 	navigator.mediaDevices.getUserMedia({audio:true}).then(function(stream){
-	    const microphone=thiz.audioContext.createMediaStreamSource(stream);
-	    thiz.fft = thiz.audioContext.createAnalyser();
-	    thiz.fft.smoothingTimeConstant = 0;
-	    thiz.fft.fftSize = settings.fftSize;
-	    thiz.fft.maxDecibels = settings.maxDecibels;
-	    thiz.fft.minDecibels = settings.minDecibels;
-	    microphone.connect(thiz.fft);
-	    thiz.fft_data = new Uint8Array(thiz.fft.frequencyBinCount);
-	}).catch(function(err){alert(err);});
+	    const microphone=this.audioContext.createMediaStreamSource(stream);
+	    this.fft = this.audioContext.createAnalyser();
+	    this.fft.smoothingTimeConstant = 0;
+	    this.fft.fftSize = settings.fftSize;
+	    this.fft.maxDecibels = settings.maxDecibels;
+	    this.fft.minDecibels = settings.minDecibels;
+	    microphone.connect(this.fft);
+	    this.fft_data = new Uint8Array(this.fft.frequencyBinCount);
+	}.bind(this)).catch(function(err){alert(err);});
     }
     reset(startTime,repeat){
 	this.startTime = startTime;

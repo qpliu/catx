@@ -5,8 +5,7 @@ class WebsocketStuff{
 	else{
 	    this.ntp_t0 = new Date().getTime();
 	    this.websocket.send("ntp");
-	    const thiz=this;
-	    setTimeout(function(){thiz.do_ntp()},1000);
+	    setTimeout(this.do_ntp.bind(this),1000);
 	}
     }
     onopen(){
@@ -26,9 +25,8 @@ class WebsocketStuff{
     start(){
 	this.ntp_t0 = undefined;
 	this.websocket = new WebSocket("wss://catx.band/karaoke_websocket");
-	const thiz=this;
-	this.websocket.onopen = function(){thiz.onopen();};
-	this.websocket.onmessage = function(event){thiz.onmessage(event);};
+	this.websocket.onopen = this.onopen.bind(this);
+	this.websocket.onmessage = this.onmessage.bind(this);
     }
     sendChat(chat){
 	this.websocket.send("chat"+chat);

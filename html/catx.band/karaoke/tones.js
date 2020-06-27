@@ -3,13 +3,12 @@ class Tones{
 	this.audioContext = audioContext;
 	this.speakerOn = document.createElement("img");
 	this.speakerOn.style = "visibility:hidden;position:absolute;right:6vw;top:0;width:5vw;z-index:9;"
-	const thiz=this;
-	this.speakerOn.onclick = function(){thiz.setSpeaker(0);};
+	this.speakerOn.onclick = function(){this.setSpeaker(0);}.bind(this);
 	this.speakerOn.src = "../speaker.svg";
 	where.appendChild(this.speakerOn);
 	this.speakerOff = document.createElement("img");
 	this.speakerOff.style = "position:absolute;right:6vw;top:0;width:5vw;z-index:9;";
-	this.speakerOff.onclick = function(){thiz.setSpeaker(1);};
+	this.speakerOff.onclick = function(){this.setSpeaker(1);}.bind(this);
 	this.speakerOff.src = "../speaker_off.svg";
 	where.appendChild(this.speakerOff);
 	this.toneOscillator = audioContext.createOscillator();
