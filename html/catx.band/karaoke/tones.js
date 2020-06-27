@@ -24,6 +24,8 @@ class Tones{
 	settings.makeEverythingAgree();
 	if (!settings.speaker)
 	    this.toneGain.gain.setValueAtTime(0,this.audioContext.currentTime);
+	else
+	    this.audioContext.resume();
 	this.speakerOn.style.visibility = settings.speaker?"visible":"hidden";
 	this.speakerOff.style.visibility = settings.speaker?"hidden":"visible";
     }
