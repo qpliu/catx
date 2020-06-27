@@ -29,7 +29,7 @@
 <script src=snakes.js></script>
 <script src=球球.js></script>
 <script>
-    const audioContext=new AudioContext();
+    const audioContext=new (window.AudioContext||window.webkitAudioContext)();
     const settings=new Settings(document.getElementById("setup"));
     const cats=new Cats();
     const background=new Background();
@@ -88,7 +88,7 @@
 			    snakes.addToneEvent(last_tone.t,e.t-last_tone.t,last_tone.on+settings.transpose);
 			}
 		    }
-		    window.requestAnimationFrame(animate);
+		    requestAnimationFrame(animate);
 		}
 		if ("stop" in json)
 		    startTime = undefined;
@@ -110,7 +110,7 @@
 	background.animate(now);
 	tones.animate(now);
 	beatCounter.animate(now);
-	window.requestAnimationFrame(animate);
+	requestAnimationFrame(animate);
     }
     websocketStuff.start();
 </script>

@@ -19,7 +19,7 @@ class Snakes{
 	    this.snakesw.push(div);
 	    where.appendChild(div);
 	}
-	navigator.mediaDevices.getUserMedia({audio:true}).then(function(stream){
+	navigator.mediaDevices.getUserMedia({audio:true}).then(stream=>{
 	    const microphone=this.audioContext.createMediaStreamSource(stream);
 	    this.fft = this.audioContext.createAnalyser();
 	    this.fft.smoothingTimeConstant = 0;
@@ -28,7 +28,7 @@ class Snakes{
 	    this.fft.minDecibels = settings.minDecibels;
 	    microphone.connect(this.fft);
 	    this.fft_data = new Uint8Array(this.fft.frequencyBinCount);
-	}.bind(this)).catch(function(err){alert(err);});
+	},err=>alert(err));
     }
     reset(startTime,repeat){
 	this.startTime = startTime;
