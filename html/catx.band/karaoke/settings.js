@@ -7,7 +7,7 @@ class Settings{
 	    ["Delay","delay","200",Number,
 		"Delay in milliseconds to synchronize sound with Jamulus.  Increase if the 球球 bounces too early."],
 	    ["Speaker","speaker","0",Number,
-		"0 turns off speaker.  1 turns on speaker.  You might need to turn off speaker if you are singing."],
+		"0 turns off speaker.  1 turns on speaker.  Your computer might do echo cancellation on your microphone if your speaker is on.  This will make it hard to control the yellow snakes.  If this is happening, turn off speaker."],
 	    ["Time Per Snake","timePerSnake","4000",Number,
 		"Number of milliseconds for each row of snakes."],
 	    ["Lowest Note","minNote","48",Number,
