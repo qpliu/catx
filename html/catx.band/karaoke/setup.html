@@ -4,10 +4,35 @@
 <meta charset=UTF-8>
 <title id=title>Karaoke Setup</title>
 </head>
+<style>
+    .tooltip{
+	position:relative;
+	display:inline-block;
+    }
+    .tooltip .tooltiptext{
+	position:absolute;
+	visibility:hidden;
+	width:50vw;
+	background-color:#000;
+	color:#0f0;
+	z-index:1;
+	top:125%;
+	left:75%;
+    }
+    .tooltip:hover .tooltiptext{
+	visibility:visible;
+    }
+</style>
 <form action=index.html>
 <span id=settingsInputs></span>
-<input type=submit>
-<button type=button onclick=settings.resetToDefault()>Reset</button>
+<div class=tooltip>
+    <input type=submit value=Start!>
+    <span class=tooltiptext>Click Start! to start Snakes or 球球!</span>
+</div>
+<div class=tooltip>
+    <button type=button onclick=settings.resetToDefault()>Reset</button>
+    <span class=tooltiptext>Click Reset to reset these settings to default.</span>
+</div>
 </form>
 <br>
 <form id=chatForm style=visibility:hidden;>
