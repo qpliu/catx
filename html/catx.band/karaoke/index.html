@@ -93,6 +93,12 @@
 		if ("stop" in json)
 		    startTime = undefined;
 	    }
+	    if (event.data.slice(0,4)=="chat"){
+		let chat=event.data.slice(4).replace(/<[^<>]*>/g,"");
+		chat = chat.replace(/^Aarin Robo /,"");
+		if (chat!="Stop." && chat!="Play song.")
+		    alert("Aarin Robo says:\n"+chat);
+	    }
 	}
     }();
     function animate(time){
