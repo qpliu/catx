@@ -1,50 +1,49 @@
 class Settings{
-    constructor(){
-	this.locationSearch = location.search;
-	this.delay = Number(this.getSearch("delay","200"));
-	this.timePerSnake = Number(this.getSearch("timePerSnake","4000"));
-	this.minNote = Number(this.getSearch("lowestNote","48"));
-	this.maxNote = Number(this.getSearch("highestNote","72"));
-	this.minDecibels = Number(this.getSearch("minDecibels","-100"));
-	this.maxDecibels = Number(this.getSearch("maxDecibels","-50"));
-	this.transpose = Number(this.getSearch("transpose","0"));
-	this.harmonics = Number(this.getSearch("harmonics","3"));
-	this.subharmonics = Number(this.getSearch("subharmonics","3"));
-	this.fftSize = Number(this.getSearch("fftSize","8192"));
-	this.snakes = Number(this.getSearch("snakes","0"));
+    constructor(settings_a){
+	this.settings_a = settings_a;
+	this.settings = [
+	    ["Snakes","snakes","0",Number],
+	    ["Delay","delay","200",Number],
+	    ["Speaker","speaker","0",Number],
+	    ["Time Per Snake","timePerSnake","4000",Number],
+	    ["Lowest Note","minNote","48",Number],
+	    ["Highest Note","maxNote","72",Number],
+	    ["minDecibels","minDecibels","-100",Number],
+	    ["maxDecibels","maxDecibels","-50",Number],
+	    ["Transpose","transpose","0",Number],
+	    ["Harmonics","harmonics","3",Number],
+	    ["Subharmonics","subharmonics","3",Number],
+	    ["fftSize","fftSize","8192",Number],
+	];
+	for (const s of this.settings){
+	    let match=location.search.match("[?&]"+s[1]+"=([^?&]*)");
+	    let value=match && match[1] || s[2];
+	    this[s[1]] = s[3](value);
+	}
+	this.setHref();
     }
-    getSearch(what,defaul){
-	let match=this.locationSearch.match("[?&]"+what+"=([^?&]*)");
-	if (match && match[1])
-	    return match[1];
-	this.locationSearch += (this.locationSearch?"&":"?")+what+"="+defaul;
-	return defaul;
-    }
-    make(where,label,what){
-	const lab=document.createElement("label");
-	lab.innerHTML = label;
-	where.appendChild(lab);
-	lab.for = what;
-	const input=document.createElement("input");
-	input.type = "text";
-	input.name = what;
-	let match=this.locationSearch.match("[?&]"+what+"=([^?&]+)");
-	if (match)
-	    input.value = match[1];
-	where.appendChild(input);
-	where.appendChild(document.createElement("br"));
+    setHref(){
+	let sb="setup.html";
+	let sep="?";
+	for (const s of this.settings){
+	    sb += sep+s[1]+"="+this[s[1]];
+	    sep = "&";
+	}
+	if (this.settings_a!=undefined)
+	    this.settings_a.href = sb;
     }
     makeInputs(where){
-	this.make(where,"Snakes:","snakes");
-	this.make(where,"Delay:","delay");
-	this.make(where,"Transpose:","transpose");
-	this.make(where,"Time Per Snake:","timePerSnake");
-	this.make(where,"Lowest Note:","lowestNote");
-	this.make(where,"Highest Note:","highestNote");
-	this.make(where,"Harmonics:","harmonics");
-	this.make(where,"Subharmonics:","subharmonics");
-	this.make(where,"FFT Size:","fftSize");
-	this.make(where,"minDecibels:","minDecibels");
-	this.make(where,"maxDecibels:","maxDecibels");
+	for (const s of this.settings){
+	    const label=document.createElement("label");
+	    label.innerHTML = s[0]+": ";
+	    where.appendChild(label);
+	    label.for = s[1];
+	    const input=document.createElement("input");
+	    input.type = "text";
+	    input.name = s[1];
+	    input.value = String(this[s[1]]);
+	    where.appendChild(input);
+	    where.appendChild(document.createElement("br"));
+	}
     }
 }

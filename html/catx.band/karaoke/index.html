@@ -4,17 +4,22 @@
 <meta charset=UTF-8>
 <title id=title>Karaoke</title>
 </head>
-<body style=overflow:hidden;>
-<a id=setup href=setup.html><img style=position:absolute;right:0;top:0;width:5vw;z-index:9;color:#0f0; src=../settings.svg></a>
-<span id=span></span>
-<span id=websocketControls style=visibility:hidden;>
-<img style=position:absolute;left:0;top:0;width:5vw;z-index:9; onclick=websocketStuff.sendChat("stop") src=../stop.svg></a>
-<img style=position:absolute;left:6vw;top:0;width:5vw;z-index:9; onclick=websocketStuff.sendChat("play") src=../play.svg></a>
+<body>
+<span id=span style=position:absolute;left:0;top:0;width:100vw;height:100vh;overflow:hidden;>
+    <span id=websocketControls style=visibility:hidden;>
+	<img style=position:absolute;left:0;top:0;width:5vw;z-index:9; onclick=websocketStuff.sendChat("stop") src=../stop.svg></a>
+	<img style=position:absolute;left:6vw;top:0;width:5vw;z-index:9; onclick=websocketStuff.sendChat("play") src=../play.svg></a>
+    </span>
+    <a id=setup><img style=position:absolute;right:0;top:0;width:5vw;z-index:9;color:#0f0; src=../settings.svg></a>
+    <div id=cat_div style=position:absolute;left:0;top:10vh;width:100vw;></div>
+    <div style=position:absolute;top:0;left:0;width:100vw;height:10vh;text-align:center;>
+	<span id=name style=font-size:3vw;white-space:nowrap;color:#0f0;background-color:#000;></span>
+    </div>
+    <div style=position:absolute;top:10vh;left:0;width:100vw;text-align:center;>
+	<span id=beat_span style=font-family:monospace;font-size:8vh;color:#000;background-color:#0f0;></span>
+    </div>
+    <div id=bg_div style=position:absolute;left:0;top:35vh;width:100vw;height:65vh;z-index:-9;text-align:center;></div>
 </span>
-<div id=cat_div style=position:absolute;left:0;top:10vh;width:100vw;></div>
-<div style=position:absolute;top:0;left:0;width:100vw;height:10vh;text-align:center;><span id=name style=font-size:6vh;white-space:nowrap;color:#0f0;background-color:#000;></span></div>
-<div id=beat_div style=position:absolute;top:10vh;left:0;width:100vw;height:10vh;text-align:center;></div>
-<div id=bg_div style=position:absolute;left:0;top:35vh;width:100vw;height:65vh;z-index:-9;text-align:center;></div>
 <script src=settings.js></script>
 <script src=websocketstuff.js></script>
 <script src=cats.js></script>
@@ -25,12 +30,11 @@
 <script src=球球.js></script>
 <script>
     const audioContext=new AudioContext();
-    const settings=new Settings();
-    document.getElementById("setup").href += settings.locationSearch;
+    const settings=new Settings(document.getElementById("setup"));
     const cats=new Cats();
     const background=new Background();
     const tones=new Tones(audioContext,document.getElementById("span"));
-    const beatCounter=new BeatCounter(cats,document.getElementById("beat_div"));
+    const beatCounter=new BeatCounter(cats,document.getElementById("beat_span"));
     const qiuqius=new 球球();
     const snakes=new Snakes(audioContext);
     let startTime;

@@ -1,9 +1,7 @@
 class BeatCounter{
     constructor(cats,where){
 	this.cats = cats;
-	this.span = document.createElement("span");
-	this.span.style = "font-family:monospace;font-size:8vh;color:#000;background-color:#0f0;";
-	where.appendChild(this.span);
+	this.span = where;
     }
     reset(startTime,repeat){
 	this.startTime = startTime;

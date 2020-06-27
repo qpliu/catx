@@ -18,14 +18,15 @@ class Tones{
 	this.toneGain.connect(audioContext.destination);
 	this.toneOscillator.connect(this.toneGain);
 	this.toneOscillator.start();
-	this.setSpeaker(0);
+	this.setSpeaker(settings.speaker);
     }
-    setSpeaker(speakerIsOn){
-	this.speakerIsOn = speakerIsOn;
-	if (!speakerIsOn)
+    setSpeaker(value){
+	settings.speaker = value;
+	settings.setHref();
+	if (!settings.speaker)
 	    this.toneGain.gain.setValueAtTime(0,this.audioContext.currentTime);
-	this.speakerOn.style.visibility = speakerIsOn?"visible":"hidden";
-	this.speakerOff.style.visibility = speakerIsOn?"hidden":"visible";
+	this.speakerOn.style.visibility = settings.speaker?"visible":"hidden";
+	this.speakerOff.style.visibility = settings.speaker?"hidden":"visible";
     }
     reset(startTime,repeat){
 	this.startTime = startTime;
@@ -42,7 +43,7 @@ class Tones{
 	    const t=this.startTime+e.time;
 	    if (t>=now)
 		break;
-	    if (this.speakerIsOn && t+e.duration>now){
+	    if (settings.speaker && t+e.duration>now){
 		this.toneOscillator.frequency.value = Math.exp((e.note-69)/12*Math.log(2))*440;
 		this.toneGain.gain.setValueAtTime(.001,this.audioContext.currentTime);
 		this.toneGain.gain.exponentialRampToValueAtTime(1,this.audioContext.currentTime+Math.min(e.duration/2500,.05));
