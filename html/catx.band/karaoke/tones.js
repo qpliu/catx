@@ -22,7 +22,7 @@ class Tones{
     }
     setSpeaker(value){
 	settings.speaker = value;
-	settings.setHref();
+	settings.makeEverythingAgree();
 	if (!settings.speaker)
 	    this.toneGain.gain.setValueAtTime(0,this.audioContext.currentTime);
 	this.speakerOn.style.visibility = settings.speaker?"visible":"hidden";

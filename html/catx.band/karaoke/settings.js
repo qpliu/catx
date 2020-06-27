@@ -20,14 +20,21 @@ class Settings{
 	    let value=match && match[1] || s[2];
 	    this[s[1]] = s[3](value);
 	}
-	this.setHref();
+	this.makeEverythingAgree();
     }
-    setHref(){
+    resetToDefault(){
+	for (const s of this.settings)
+	    this[s[1]] = s[3](s[2]);
+	this.makeEverythingAgree();
+    }
+    makeEverythingAgree(){
 	let sb="setup.html";
 	let sep="?";
 	for (const s of this.settings){
 	    sb += sep+s[1]+"="+this[s[1]];
 	    sep = "&";
+	    if (s.length==5)
+		s[4].value = String(this[s[1]]);
 	}
 	if (this.settings_a!=undefined)
 	    this.settings_a.href = sb;
@@ -44,6 +51,7 @@ class Settings{
 	    input.value = String(this[s[1]]);
 	    where.appendChild(input);
 	    where.appendChild(document.createElement("br"));
+	    s.push(input);
 	}
     }
 }
