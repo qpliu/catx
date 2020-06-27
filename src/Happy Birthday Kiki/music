@@ -81,5 +81,8 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
     } \egPart
-    \tag #'(midiKaraoke) \karaokeLyrics
+    \tag #'(midiKaraoke) <<
+	\karaokeLyrics
+	\voPart
+    >>
 >>

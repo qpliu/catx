@@ -24,8 +24,8 @@ class Snakes{
 	    this.fft = this.audioContext.createAnalyser();
 	    this.fft.smoothingTimeConstant = 0;
 	    this.fft.fftSize = settings.fftSize;
-	    this.fft.maxDecibels = settings.maxDecibels;
-	    this.fft.minDecibels = settings.minDecibels;
+	    this.fft.minDecibels = -settings.microphoneSensitivity;
+	    this.fft.maxDecibels = this.fft.minDecibels+20;
 	    microphone.connect(this.fft);
 	    this.fft_data = new Uint8Array(this.fft.frequencyBinCount);
 	},err=>alert(err));
