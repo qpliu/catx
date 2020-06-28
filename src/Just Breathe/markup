@@ -1,0 +1,34 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \tempo 4 = 110
+    \key c \major
+\mymark "Intro" #1
+    s1 s1 s1 s1 s1 s1 s1 s1
+\mymark "Verse 1" #9
+    s1 s1 s1 s1 s1 s1 s1 s1
+\mymark "Verse 1A" #17
+    s1 s1 s1 s1 s1 s1 s1 s1
+\mymark "Pre-Chorus 1" #25
+    s1 s1 s1 s1
+\mymark "Main Riff 1" #29
+    s1 s1 s1 s1
+\mymark "Verse 2" #33
+    s1 s1 s1 s1 s1 s1 s1 s1
+\mymark "Verse 2A" #41
+    s1 s1 s1 s1
+\mymark "Pre-Chorus 2" #45
+    s1 s1 s1 s1
+\mymark "Chorus 1" #49
+    s1 s1 s1 s1 s1 s1 s1 s1 s1
+\mymark "Verse 3" #58
+    s1 s1 s1 s1 s1 s1 s1 s1
+\mymark "Pre-Chorus 3" #66
+    s1 s1 s1 s1
+\mymark "Chorus 2" #70
+    s1 s1 s1 s1 s1 s1 s1 s1 s1
+\mymark "Main Riff 2" #79
+    s1 s1 s1 s1 s1 s1 s1 s1
+\mymark "Outro" #87
+    s1 s1 s1 s1 s1 s1 s1 s1
+    \bar "|."
+}

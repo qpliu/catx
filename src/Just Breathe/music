@@ -1,0 +1,87 @@
+% PARTS
+% BIN
+
+\header {
+    title = "Just Breathe"
+    composer = "Pearl Jam"
+}
+
+\include "markup"
+\include "acoustic"
+\include "bass"
+\include "organ"
+\include "tambourine"
+\include "vocals"
+\include "lyrics"
+
+voAligner = \new NullVoice = "vo" \vocals
+
+layoutmusic = <<
+    \tag #'(allPart kavPart susanPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vocals" }
+	shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+	\markupStuff
+	\vocals
+	\voAligner
+	\voLyrics
+    >>
+    \tag #'(allPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Organ" }
+	shortInstrumentName = \markup { \rotate #90 "Or" }
+    } <<
+	\markupStuff
+	\organ
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\acoustic
+    >>
+    \tag #'(allPart peterPart) \new TabStaff <<
+	\markupStuff
+	\acoustic
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Bass" }
+	shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } <<
+	\markupStuff
+	\clef "bass_8"
+	\bass
+    >>
+    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+	\markupStuff
+	\bass
+    >>
+    \tag #'(allPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Tambourine" }
+	shortInstrumentName = \markup { \rotate #90 "Tam" }
+    } <<
+	\override DrumStaff.StaffSymbol.line-count = #1
+	\markupStuff
+	\tambourine
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiGg) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \tambourine
+    \tag #'(midiSusan) \new Staff \with {
+	midiInstrument = #"steel drums"
+    } \vocals
+    \tag #'(midiThree) \new Staff \with {
+	midiInstrument = #"rock organ"
+    } \organ
+    \tag #'(midiOne) \new Staff \with {
+	midiInstrument = #"electric bass (finger)"
+    } \bass
+    \tag #'(midiPeter) \new Staff \with {
+	midiInstrument = #"acoustic guitar (steel)"
+    } \acoustic
+>>

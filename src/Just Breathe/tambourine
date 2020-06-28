@@ -1,0 +1,119 @@
+tambourine = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+% url: https://www.songsterr.com/a/wsa/pearl-jam-just-breathe-drum-tab-s58904t8
+% artist: Pearl Jam
+% title: Just Breathe
+% instrument: Drums
+% name: Tambourine
+    \time 4/4
+    \tempo 4 = 110
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #9
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1A" #17
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus 1" #25
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Main Riff 1" #29
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #33
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2A" #41
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus 2" #45
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 1" #49
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+\mymark "Verse 3" #58
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+\mymark "Pre-Chorus 3" #66
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+\mymark "Chorus 2" #70
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+\mymark "Main Riff 2" #79
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+\mymark "Outro" #87
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb16 tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb tamb |
+    tamb1
+}

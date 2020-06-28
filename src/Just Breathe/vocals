@@ -1,0 +1,119 @@
+vocals =
+{
+% url: https://www.songsterr.com/a/wsa/pearl-jam-just-breathe-tab-s58904t0
+% artist: Pearl Jam
+% title: Just Breathe
+% instrument: Voice Oohs
+% name: Eddie Vedder (Voice)
+    \time 4/4
+    \tempo 4 = 110
+\mymark "Intro" #1
+% tuning b,, e, a, d g b e'
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #9
+    c'8 c'8 c'16 g8. g'4~ g'16 f' e' d' |
+    c'8. g f'8( g'4.) e'8~ |
+    e'8 d'2.~ d'8 |
+    r1 |
+    c'8 c' c'16 g8. g'4 e'8 d' |
+    c'8 c' c'16 g8. g'4. e'8~ |
+    e'8 d'2~ d'8 r4 |
+    r2. r8 g' |
+\mymark "Verse 1A" #17
+    g'8 e'16 e'8 d'16 d'8( e'4~ e'16) g'8. |
+    g'16 e'8 e'( d'8.) e' e'16 e'8 f'( |
+    e'8) d'2~ d'8 r4 |
+    r1 |
+    c'8 c' c'16 g8. g'4. e'16( d') |
+    c'16 c'8. c'16 g8. g'4. e'8~ |
+    e'8 d'2~ d'8 r4 |
+    r1 |
+\mymark "Pre-Chorus 1" #25
+    r8. c'8 g8. g'2~( |
+    g'2 a'4) e'8( d') |
+    r8 c'8. g g'2( |
+    f'2.) r4 |
+\mymark "Main Riff 1" #29
+    r1 |
+    r2 a''~( |
+    a''4. b''16 a'' g''2~ |
+    g''2) r |
+\mymark "Verse 2" #33
+    c'8 c' c'16 g8. g'4 e'8 d' |
+    c'8 c' c'16 g8. g'4. e'8~ |
+    e'8 d'2~ d'8 r4 |
+    r1
+    c'8 c' c'16 g8. g'4 e'8 d' |
+    c'8 c' c'16 g8. g'4. e'8~ |
+    e'8 d'2~ d'8 r4 |
+    r2. r8 g' |
+\mymark "Verse 2A" #41
+    g'8 e'8 e'16 d'8. e'4~ e'16 g'8. |
+    g'16 e'8 e' d'8. e' e'16 e'8 f'( |
+    e'8) d'2~ d'8 r4 |
+    r1 |
+\mymark "Pre-Chorus 2" #45
+    r8. c'8 g8. g'2~ |
+    g'2( a'4) e'8( d') |
+    r8 c'8. g g'2( |
+    f'2.) r4 |
+\mymark "Chorus 1" #49
+    r4 b'16 b'8. b'4 a'16 b'8. |
+    c''4 a'2 r4 |
+    r4 b'16 b'8. b'4 a'16 b'8. |
+    c''2 a'2 |
+    a'4 a'8 a'4 a' g'8 |
+    a'4 g'4. c'8 c'4~ |
+    c'4 f'8 f'4 f' f'8 |
+    e'4 f'8( e') d'4. e8 |
+    d'4 e' f' e'8( d') |
+\mymark "Verse 3" #58
+    c'8 c' c'16 g8. g'4 e'8 d' |
+    c'8 c' c'16 g8. g'4. e'8~ |
+    e'8 d'2~ d'8 r4 |
+    r1
+    c'8 c' c'16 g8. g'4 e'8( d') |
+    c'8 c' c'16 g8. g'4. e'8~ |
+    e'8 d'2~ d'8 r4 |
+    r1 |
+\mymark "Pre-Chorus 3" #66
+    c'8 c' c'16 g8. g'2~( |
+    g'2 a'4) ees'8 d'8~ |
+    d'8 c'8. g g'4.( a'16 g'16 |
+    f'2.) r4 |
+\mymark "Chorus 2" #70
+    r4 b'16 b'8. b'4 a'16 b'8. |
+    c''4 a'2 d''8( b'8~ |
+    b'4) b'16 b'8. b'4 a'16 b'8. |
+    c''2 a'2 |
+    a'4 a'8 a'4 a' g'8 |
+    a'4 g'4. a'8 c'4~ |
+    c'4 f'8 f'4 f' f'8 |
+    e'4 f'8( e') d'2 |
+    d'4 e' f' e'8( d') |
+\mymark "Main Riff 2" #79
+    c'1~ |
+    c'1 |
+    d'1 |
+    r1 |
+    c'1~( |
+    c'1 |
+    b1) |
+    r1 |
+\mymark "Outro" #87
+    c'8 c' c'16 g8. g'2~( |
+    g'2 a'4) ees'8 d'8~ |
+    d'8 c'8. g g'4.( a'16 g'16 |
+    f'2.) e'4 |
+    c'8 c' c'16 g8. g'4.( a'16 g'16 |
+    e'2) r4 c'8 c'8~ |
+    c'8 c'8 c' c'16 g8. g'4.(  |
+    f'2.) r4 |
+}

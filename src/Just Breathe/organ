@@ -1,0 +1,96 @@
+organ =
+{
+% url: https://www.songsterr.com/a/wsa/pearl-jam-just-breathe-tab-s58904t5
+% artist: Pearl Jam
+% title: Just Breathe
+% instrument: Drawbar Organ
+% name: Organ (Staff 1)
+    \time 4/4
+    \tempo 4 = 110
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    << { \voiceOne
+        e''2.~ e''8 f'' |
+        g''2. f''8 e'' |
+        d''2.~ d''16 c'' d'' c'' |
+        b'1 |
+        }
+       \new Voice { \voiceTwo g'1~ g'1~ g'1~ g'1 }
+    >>
+    \oneVoice
+\mymark "Verse 1" #9
+    c''1~ | c''1 | d''1~ | d''1 |
+    c''1~ | c''1 | d''1~ | d''1 |
+\mymark "Verse 1A" #17
+    c''1~ | c''2 d''4 e'' |
+    d''1 | g'1 |
+    e''2.~ e''8 f'' | <c'' g''>1 |
+    <b' d''>1 | <g' d''>1 |
+\mymark "Pre-Chorus 1" #25
+    <a' c''>2 <b' c''> | <c'' d''>2 e'' |
+    f''1~ | f''1 |
+\mymark "Main Riff 1" #29
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+\mymark "Verse 2" #33
+    << { \voiceOne c''1~ c'' d''~ d'' c''~ c'' d''~ d'' }
+       \new Voice { \voiceTwo
+                s1 s1 s1 s1 |
+		r2 g'2 r2 g'2 | s1 s1
+           }
+       \new Voice { \voiceThree
+                s1 g''2. e''4 | s1 s1 |
+		s1 s1 s1 g''1 |
+           }
+    >>
+    \oneVoice
+\mymark "Verse 2A" #41
+    << { \voiceOne c''1 c'' d''2.~ d''8 e'' f''1 }
+       \new Voice { \voiceTwo
+		r2 g'2 r2 g'2 | s1 s1
+           }
+    >>
+    \oneVoice
+\mymark "Pre-Chorus 2" #45
+    <a' c''>2 <b' c''> | <c'' d''>2 e'' |
+    f''1~ | f''1 |
+\mymark "Chorus 1" #49
+    r1 r1 r1 r1 r1 r1 r1 r1 r1
+\mymark "Verse 3" #58
+    << { \voiceOne c''1~ c'' d''~ d'' c''~ c'' d''~ d'' }
+       \new Voice { \voiceTwo
+                s1 s1 s1 s1 |
+		r2 g'2 r2 g'2 | s1 s1
+           }
+       \new Voice { \voiceThree
+                s1 g''2. e''4 | s1 s1 |
+		s1 s1 s1 g''1 |
+           }
+    >>
+    \oneVoice
+\mymark "Pre-Chorus 3" #66
+    <a' c''>2 <b' c''> | <c'' d''>2 e'' |
+    f''1~ | f''1 |
+\mymark "Chorus 2" #70
+    r1 r1 r1 r1 r1 r1 r1 r1 r1
+\mymark "Main Riff 2" #79
+    << { \voiceOne c''1 c'' d''2.~ d''8 e'' f''1 }
+       \new Voice { \voiceTwo
+		r2 g'2 r2 g'2 | s1 s1
+           }
+    >>
+    \oneVoice
+    << { \voiceOne c''1 c'' d''2.~ d''8 e'' f''1 }
+       \new Voice { \voiceTwo
+		r2 g'2 r2 g'2 | s1 s1
+           }
+    >>
+    \oneVoice
+\mymark "Outro" #87
+    r1 r1 r1 r1 r1 r1 r1 r1
+}
