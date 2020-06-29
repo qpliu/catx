@@ -9,13 +9,13 @@ class Snakes{
 	this.snakesw = [];
 	for (let i=0; i<2; i++){
 	    const canvas=document.createElement("canvas");
-	    canvas.style = "position:absolute;top:"+(60-i*40)+"vh;left:0;width:100vw;height:40vh;background-color:#000;display:block;";
+	    canvas.style = "position:absolute;top:"+(60-i*40)+"vh;left:0;width:100vw;height:35vh;background-color:#000;display:block;";
 	    canvas.width = this.canvasWidth;
 	    canvas.height = this.canvasHeight;
 	    this.snakes.push(canvas);
 	    where.appendChild(canvas);
 	    const div=document.createElement("div");
-	    div.style = "position:absolute;bottom:"+i*40+"vh;left:0;width:100vw;height:5vh;font-size:1vw;white-space:nowrap;color:#0f0;background-color:#000;display:block;z-index:1;";
+	    div.style = "position:absolute;top:"+(95-i*40)+"vh;left:0;width:100vw;height:5vh;font-size:1vw;white-space:nowrap;color:#0f0;background-color:#000;display:block;z-index:1;";
 	    this.snakesw.push(div);
 	    where.appendChild(div);
 	}
@@ -81,15 +81,6 @@ class Snakes{
 		const y0=Math.floor((settings.maxNote-n0)/(settings.maxNote-settings.minNote)*this.canvasHeight);
 		const y1=Math.floor((settings.maxNote-n1)/(settings.maxNote-settings.minNote)*this.canvasHeight);
 		let d=this.fft_data[i];
-		for (let j=2; i*j<this.fft_data.length&&j<=settings.harmonics; j++)
-		    d = Math.min(d,this.fft_data[i*j]);
-		for (let j=2; j<=settings.subharmonics; j++){
-		    let f=i/j;
-		    let ff=Math.floor(f);
-		    f -= ff;
-		    d -= this.fft_data[ff]*(1-f)+this.fft_data[ff+1]*f;
-		}
-		d = Math.max(0,d);
 		context.fillStyle = "rgb("+d+","+d+","+0+")";
 		context.fillRect(x0,y0,x1-x0,y1-y0);
 	    }
