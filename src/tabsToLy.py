@@ -57,12 +57,11 @@ def int2ly(a):
     while a>=60:
 	a -= 12
 	ly += "'"
-    if scale[a-48] != 'ces':
-	return scale[a-48]+ly
-    if ly.startswith(','):
-	return scale[a-48]+ly[1:]
-    else:
-	return scale[a-48]+ly+"'"
+    note = scale[a-48]
+    while note.endswith(',') and ly.startswith("'") or note.endswith("'") and ly.startswith(','):
+        note = note[:-1]
+        ly = ly[1:]
+    return note+ly
 
 def addly(a,b):
     i = ly2int(a)+b
