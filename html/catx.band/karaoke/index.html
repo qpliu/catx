@@ -168,7 +168,7 @@
     function start(snakeMode){
 	settingsVisible = false;
 	if (audioContext==undefined)
-	    audioContext = new window.AudioContext();
+	    audioContext = new (window.AudioContext||window.webkitAudioContext)();
 	document.getElementById("bigSettings").style.display = "none";
 	document.getElementById("bigSpan").style.display = "block";
 	tones.setEnabled(true);
