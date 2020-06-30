@@ -8,12 +8,12 @@ class Snakes{
 	    where.appendChild(canvas);
 	    this.canvases[i] = canvas;
 	    let div=document.createElement("div");
-	    div.style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;font-size:1vw;white-space:nowrap;color:#0f0;z-index:1;";
+	    div.style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;font-size:4vh;white-space:nowrap;color:#0f0;z-index:1;";
 	    where.appendChild(div);
 	    this.divs[i] = div;
 	}
 	this.staticDiv = document.createElement("div");
-	this.staticDiv.style = "position:absolute;top:19vh;left:0;width:100vw;height:80vh;font-size:2vh;color:#0ff;z-index:2;";
+	this.staticDiv.style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;font-size:2vh;color:#0ff;z-index:2;";
 	where.appendChild(this.staticDiv);
     }
     reset(startTime,repeat,songLength){
@@ -68,6 +68,15 @@ class Snakes{
     addKeysignatureEvent(e){
 	this.keysignatureEvents.push({t:e.t,key:[e.key0,e.key1]});
     }
+    doneAddingEvents(){
+	let ti=0;
+	let lastNote;
+	for (const e of this.lyricEvents){
+	    for (; ti<this.toneEvents.length&&this.toneEvents[ti].t<=e.t; ti++)
+		lastNote = this.toneEvents[ti].note;
+	    e.note = lastNote;
+	}
+    }
     noteToString(key,note){
 	return [["C","C♯","D","D♯","E","F","F♯","G","G♯","A","A♯","B"],["C","D♭","D","E♭","E","F","G♭","G","A♭","A","B♭","B"]][key[0]<0?1:0][note%12];
     }
@@ -91,8 +100,8 @@ class Snakes{
 	let sb="";
 	for (let note=settings.minNote+1; note<settings.maxNote; note++)
 	    if (this.keyContainsNote(bestKey,note)){
-		const y=(settings.maxNote-note)/(settings.maxNote-settings.minNote)*100;
-		sb += "<span style=position:absolute;left:50%;top:"+y+"%;>"+this.noteToString(bestKey,note)+"</span>"
+		const y=(settings.maxNote-note)/(settings.maxNote-settings.minNote)*80-1;
+		sb += "<span style=position:absolute;left:50%;top:"+y+"vh;>"+this.noteToString(bestKey,note)+"</span>"
 	    }
 	if (this.staticDiv.innerHtml!=sb)
 	    this.staticDiv.innerHTML = sb;
@@ -144,8 +153,10 @@ class Snakes{
 			continue;
 		    if (k.slice(0,1)=="-")
 			k = k.slice(1);
-		    if (k.length!=0)
-			sb += "<span style=position:absolute;left:"+(t-time)*100/settings.snakeTime+"vw;bottom:0>"+k+"</span>"
+		    if (k.length!=0){
+			const y=e.note==undefined?0:(settings.maxNote-e.note)/(settings.maxNote-settings.minNote)*80-2.5;
+			sb += "<span style=position:absolute;left:"+(t-time)*100/settings.snakeTime+"vw;top:"+y+"vh;>"+k+"</span>"
+		    }
 		}
 	    }
 	}

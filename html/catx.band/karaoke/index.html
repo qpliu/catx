@@ -134,6 +134,7 @@
 			    snakes.addToneEvent(last_tone.t,e.t-last_tone.t,last_tone.on+settings.transpose);
 			}
 		    }
+		    snakes.doneAddingEvents();
 		    requestAnimationFrame(animate);
 		}
 		if ("stop" in json)
