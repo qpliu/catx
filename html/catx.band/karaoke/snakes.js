@@ -60,7 +60,7 @@ class Snakes{
 	this.keysignatureEvents.push({t:e.t,key:[e.key0,e.key1]});
     }
     noteToString(key,note){
-	return [["C","C♯","D","D♯","E","F","F♯","G","G♯","A","A♯","B"],["C","D♭","D","E♭","E","F","G♭","G","A♭","A","B♭","B"]][key[1]][note%12];
+	return [["C","C♯","D","D♯","E","F","F♯","G","G♯","A","A♯","B"],["C","D♭","D","E♭","E","F","G♭","G","A♭","A","B♭","B"]][key[0]<0?1:0][note%12];
     }
     keyContainsNote(key,note){
 	note = (note+12-[11,6,1,8,3,10,5,0,7,2,9,4,11,6,1][key[0]+7])%12;
