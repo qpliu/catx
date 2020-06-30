@@ -4,6 +4,8 @@ class Settings{
 	this.settings = [
 	    ["Delay","delay","200",Number,
 		"Delay in milliseconds to synchronize sound with Jamulus.  Increase if the 球球 bounces too early."],
+	    ["Microphone Latency","microphoneLatency","150",Number,
+		"Microphone Latency in milliseconds.  Adjust this to line up times of yellow and purple snakes."],
 	    ["Speaker","speaker","0",Number,
 		"0 turns off speaker.  1 turns on speaker.  Your computer might do echo cancellation on your microphone if your speaker is on.  This will make it hard to control the yellow snakes.  If this is happening, turn off speaker."],
 	    ["Snake Time","snakeTime","6000",Number,

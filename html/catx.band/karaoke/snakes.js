@@ -182,11 +182,13 @@ class Snakes{
     }
     drawFft(canvas,time,now){
 	const context=canvas.getContext("2d");
-	const x0=Math.floor((this.lastFftTime-time)*this.canvasWidth/settings.snakeTime)+this.canvasWidth/2;
-	const x1=Math.floor((now-time)*this.canvasWidth/settings.snakeTime)+this.canvasWidth/2;
+	const xx0=Math.floor((this.lastFftTime-time)*this.canvasWidth/settings.snakeTime)+this.canvasWidth/2;
+	const xx1=Math.floor((now-time)*this.canvasWidth/settings.snakeTime)+this.canvasWidth/2;
 	context.globalCompositeOperation = "difference";
 	context.fillStyle = "#303030";
-	context.fillRect(x0,0,x1-x0,this.canvasHeight);
+	context.fillRect(xx0,0,xx1-xx0,this.canvasHeight);
+	const x0=Math.floor((this.lastFftTime-settings.microphoneLatency-time)*this.canvasWidth/settings.snakeTime)+this.canvasWidth/2;
+	const x1=Math.floor((now-settings.microphoneLatency-time)*this.canvasWidth/settings.snakeTime)+this.canvasWidth/2;
 	context.globalCompositeOperation = "lighten";
 	const i0=Math.floor(Math.exp((settings.minNote-69)/12*Math.log(2))*440*settings.fftSize/audioContext.sampleRate);
 	const i1=Math.floor(Math.exp((settings.maxNote-69)/12*Math.log(2))*440*settings.fftSize/audioContext.sampleRate);
