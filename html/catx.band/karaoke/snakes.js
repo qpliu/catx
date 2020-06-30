@@ -97,18 +97,31 @@ class Snakes{
 	if (this.staticDiv.innerHtml!=sb)
 	    this.staticDiv.innerHTML = sb;
     }
+    drawKeySignature(t,end,key){
+	let sb="";
+	const x0=t*100/settings.snakeTime;
+	const x1=end*100/settings.snakeTime;
+	for (let note=settings.minNote+1; note<settings.maxNote; note++)
+	    if (this.keyContainsNote(key,note)){
+		const y=(settings.maxNote-note)/(settings.maxNote-settings.minNote)*100;
+		sb += "<div style=position:absolute;left:"+x0+"%;width:"+(x1-x0)+"%;top:"+y+"%;height:1px;background-color:#444;></div>"
+	    }
+	return sb;
+    }
     drawDiv(div,time){
 	let sb="";
-	const list=[];
+	let lastT;
+	let lastKey;
 	let r=this.repeat&&time>=this.songLength?Math.floor((time-this.songLength)/this.repeat+1)*this.repeat:0;
 	for (let ki=0; ki<this.keysignatureEvents.length;){
-	    const t=r+this.keysignatureEvents[ki].t;
-	    if (t>=time+settings.snakeTime)
+	    const t=r+this.keysignatureEvents[ki].t-time;
+	    if (t>=settings.snakeTime)
 		break;
 	    if (!r || this.keysignatureEvents[ki].t>=this.songLength-this.repeat){
-		if (list.length!=0)
-		    list[list.length-1].end = t;
-		list.push({t:t,key:this.keysignatureEvents[ki].key});
+		if (lastT!=undefined)
+		    sb += this.drawKeySignature(lastT,t,lastKey);
+		lastT = t;
+		lastKey = this.keysignatureEvents[ki].key;
 	    }
 	    if (ki==this.keysignatureEvents.length-1 && this.repeat){
 		r += this.repeat;
@@ -116,17 +129,8 @@ class Snakes{
 	    }else
 		ki++;
 	}
-	if (list.length!=0)
-	    list[list.length-1].end = time+settings.snakeTime;
-	for (const e of list){
-	    const x0=(e.t-time)*100/settings.snakeTime;
-	    const x1=(e.end-time)*100/settings.snakeTime;
-	    for (let note=settings.minNote+1; note<settings.maxNote; note++)
-		if (this.keyContainsNote(e.key,note)){
-		    const y=(settings.maxNote-note)/(settings.maxNote-settings.minNote)*100;
-		    sb += "<div style=position:absolute;left:"+x0+"%;width:"+(x1-x0)+"%;top:"+y+"%;height:1px;background-color:#444;></div>"
-		}
-	}
+	if (lastT!=undefined)
+	    sb += this.drawKeySignature(lastT,settings.snakeTime,lastKey);
 	for (const e of this.lyricEvents){
 	    const r0=this.repeat?Math.ceil((time-settings.snakeTime-e.t)/this.repeat):0;
 	    const r1=this.repeat?Math.ceil((time+settings.snakeTime-e.t)/this.repeat):1;
