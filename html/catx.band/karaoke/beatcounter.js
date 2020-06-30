@@ -25,11 +25,13 @@ class BeatCounter{
 	    if (t>=now){
 		if (this.lastTime!=undefined)
 		    this.cats.animate((now-this.lastTime)/(t-this.lastTime));
-		break;
+		return;
 	    }
 	    this.lastTime = t;
 	    this.cats.increment();
 	    this.span.innerHTML = this.events[this.index].what;
 	}
+	if (now<this.startTime+this.songLength)
+	    this.cats.animate((now-this.lastTime)/(this.startTime+this.songLength-this.lastTime));
     }
 }
