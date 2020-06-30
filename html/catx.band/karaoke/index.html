@@ -81,6 +81,8 @@
 				    snakes.addLyricEvent(e.t,k);
 				}
 			    }
+			if ("key0" in e)
+			    snakes.addKeysignatureEvent(e);
 			if ("on" in e)
 			    last_tone = e;
 			if ("off" in e && last_tone!=undefined){

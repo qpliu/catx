@@ -10,13 +10,13 @@ class BeatCounter{
 	this.events = [];
 	this.lastTime = undefined;
     }
-    addEvent(time,what){
-	this.events.push({time:time,what:what});
+    addEvent(t,what){
+	this.events.push({t:t,what:what});
     }
     animate(now){
 	while (this.index<this.events.length){
 	    const e=this.events[this.index];
-	    const t=this.startTime+e.time;
+	    const t=this.startTime+e.t;
 	    if (t>=now){
 		if (this.lastTime!=undefined)
 		    this.cats.animate((now-this.lastTime)/(t-this.lastTime));

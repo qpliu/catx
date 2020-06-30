@@ -15,7 +15,7 @@ class Snakes{
 	    where.appendChild(canvas);
 	    this.canvases[i] = canvas;
 	    let div=document.createElement("div");
-	    div.style = "position:absolute;top:95vh;left:0;width:100vw;height:5vh;font-size:1vw;white-space:nowrap;color:#0f0;display:block;z-index:1;";
+	    div.style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;font-size:1vw;white-space:nowrap;color:#0f0;display:block;z-index:1;";
 	    where.appendChild(div);
 	    this.divs[i] = div;
 	}
@@ -37,26 +37,60 @@ class Snakes{
 	this.repeat = repeat;
 	this.toneEvents = [];
 	this.lyricEvents = [];
+	this.keysignatureEvents = [];
 	this.beatEvents = [];
 	this.canvasTime = 0;
 	this.whichCanvas = 0;
     }
-    addToneEvent(time,duration,note){
-	this.toneEvents.push({time:time,duration:duration,note:note});
+    addToneEvent(t,duration,note){
+	this.toneEvents.push({t:t,duration:duration,note:note});
     }
-    addBeatEvent(time,what){
-	this.beatEvents.push({time:time,what:what});
+    addBeatEvent(t,what){
+	this.beatEvents.push({t:t,what:what});
     }
-    addLyricEvent(time,what){
-	this.lyricEvents.push({time:time,what:what});
+    addLyricEvent(t,what){
+	this.lyricEvents.push({t:t,what:what});
+    }
+    addKeysignatureEvent(event){
+	this.keysignatureEvents.push(event);
+    }
+    keyContainsNote(key,note){
+	note = (note+12-[11,6,1,8,3,10,5,0,7,2,9,4,11,6,1][key+7])%12;
+	return note==0 || note==2 || note==4 || note==5 || note==7 || note==9 || note==11;
     }
     drawDiv(div,time){
 	let sb="";
+	const list=[];
+	let r=this.repeat?Math.floor(time/this.repeat)*this.repeat:0;
+	for (let ki=0; ki<this.keysignatureEvents.length;){
+	    const t=r+this.keysignatureEvents[ki].t;
+	    if (t>=time+settings.snakeTime)
+		break;
+	    if (list.length!=0)
+		list[list.length-1].end = t;
+	    list.push({t:t,key0:this.keysignatureEvents[ki].key0});
+	    if (ki==this.keysignatureEvents.length-1 && this.repeat){
+		r += this.repeat;
+		ki = 0;
+	    }else
+		ki++;
+	}
+	if (list.length!=0)
+	    list[list.length-1].end = time+settings.snakeTime;
+	for (const e of list){
+	    const x0=(e.t-time)*100/settings.snakeTime;
+	    const x1=(e.end-time)*100/settings.snakeTime;
+	    for (let note=settings.minNote+1; note<settings.maxNote; note++)
+		if (this.keyContainsNote(e.key0,note)){
+		    const y=(settings.maxNote-note)/(settings.maxNote-settings.minNote)*100;
+		    sb += "<div style=position:absolute;left:"+x0+"%;width:"+(x1-x0)+"%;top:"+y+"%;height:1px;background-color:#888;></div>"
+		}
+	}
 	for (const e of this.lyricEvents){
-	    const r0=this.repeat?Math.ceil((time-settings.snakeTime-e.time)/this.repeat):0;
-	    const r1=this.repeat?Math.ceil((time+settings.snakeTime-e.time)/this.repeat):1;
+	    const r0=this.repeat?Math.ceil((time-settings.snakeTime-e.t)/this.repeat):0;
+	    const r1=this.repeat?Math.ceil((time+settings.snakeTime-e.t)/this.repeat):1;
 	    for (let r=r0; r<r1; r++){
-		const t=e.time+this.repeat*r;
+		const t=e.t+this.repeat*r;
 		if (t>time-settings.snakeTime && t<time+settings.snakeTime){
 		    let k=e.what;
 		    if (k.slice(0,1)==">")
@@ -85,12 +119,12 @@ class Snakes{
 	    }
 	    context.fillStyle = "#404040";
 	    for (const e of this.beatEvents)
-		if (e.time>=t0 && e.time<t1)
+		if (e.t>=t0 && e.t<t1)
 		    context.fillStyle = e.what.slice(-2)==":1"||e.what.slice(-2)=="=1"?"#ff4040":"#4040ff";
 	    context.fillRect(x,0,1,this.canvasHeight);
 	    context.fillStyle = "#ff40ff";
 	    for (const e of this.toneEvents)
-		if (t0>=e.time && t0<e.time+e.duration){
+		if (t0>=e.t && t0<e.t+e.duration){
 		    const y0=(settings.maxNote-e.note-.5)/(settings.maxNote-settings.minNote)*this.canvasHeight;
 		    const y1=(settings.maxNote-e.note+.5)/(settings.maxNote-settings.minNote)*this.canvasHeight;
 		    context.fillRect(x,y0,1,y1-y0);

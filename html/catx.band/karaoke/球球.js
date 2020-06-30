@@ -40,8 +40,8 @@ class 球球{
 	for (const line of this.lines)
 	    line.innerHTML = "";
     }
-    addEvent(time,what){
-	this.lyricEvents.push({time:time,what:what});
+    addEvent(t,what){
+	this.lyricEvents.push({t:t,what:what});
     }
     animate(now){
 	if (this.ball==undefined)
@@ -53,7 +53,7 @@ class 球球{
 	    let sb=""
 	    while (this.lyricIndex<this.lyricEvents.length){
 		const e=this.lyricEvents[this.lyricIndex];
-		const t=this.startTime+e.time;
+		const t=this.startTime+e.t;
 		let k=e.what;
 		if (k.slice(0,1)==">"){
 		    if (this_line_start!=undefined)
@@ -84,7 +84,7 @@ class 球球{
 		this.lineEvents.push([t,"id"+this.id_counter]);
 		this.id_counter++;
 		if (this.repeat && this.lyricIndex==this.lyricEvents.length-1){
-		    this.startTime += Math.max(Math.ceil((now-this.startTime-e.time)/this.repeat),1)*this.repeat;
+		    this.startTime += Math.max(Math.ceil((now-this.startTime-e.t)/this.repeat),1)*this.repeat;
 		    this.lyricIndex = 0;
 		    break;
 		}

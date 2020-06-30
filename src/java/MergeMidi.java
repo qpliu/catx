@@ -241,6 +241,11 @@ final class MergeMidi{
 	    return data[1]&255;
 	}
     }
+    private class KeySignatureEvent extends MetaEvent{
+	KeySignatureEvent(long time,String id,int what,byte[]data){
+	    super(time,id,-1,what,data);
+	}
+    }
     private class ProgramChangeEvent extends Event{
 	final int program;
 	ProgramChangeEvent(long time,String id,int outTrackIndex,int program){
@@ -347,9 +352,9 @@ final class MergeMidi{
 		System.err.println("SMTPE Offset");
 	    else if (what==0x58)
 		metaEvents.add(new TimeSignatureEvent(time,id,what,data));
-	    else if (what==0x59){
-//		System.err.println("Key Signature");
-	    }else if (what==0x7f)
+	    else if (what==0x59)
+		metaEvents.add(new KeySignatureEvent(time,id,what,data));
+	    else if (what==0x7f)
 		System.err.println("Sequencer-Specific Meta-event");
 	    return false;
 	}

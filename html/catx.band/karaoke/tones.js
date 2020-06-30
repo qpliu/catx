@@ -35,13 +35,13 @@ class Tones{
 	this.index = 0;
 	this.events = [];
     }
-    addEvent(time,duration,note){
-	this.events.push({time:time,duration:duration,note:note});
+    addEvent(t,duration,note){
+	this.events.push({t:t,duration:duration,note:note});
     }
     animate(now){
 	while (this.index<this.events.length){
 	    const e=this.events[this.index];
-	    const t=this.startTime+e.time;
+	    const t=this.startTime+e.t;
 	    if (t>=now)
 		break;
 	    if (settings.speaker && t+e.duration>now){
