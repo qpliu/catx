@@ -26,6 +26,7 @@ class Snakes{
 	    const microphone=this.audioContext.createMediaStreamSource(stream);
 	    this.fft = this.audioContext.createAnalyser();
 	    this.fft.fftSize = settings.fftSize;
+	    this.fft.smoothingTimeConstant = 0;
 	    this.fft.minDecibels = -settings.microphoneSensitivity;
 	    this.fft.maxDecibels = this.fft.minDecibels+20;
 	    microphone.connect(this.fft);
