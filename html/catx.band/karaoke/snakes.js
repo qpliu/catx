@@ -21,7 +21,6 @@ class Snakes{
 	this.repeat = repeat;
 	this.songLength = songLength;
 	this.lastFftTime = 0;
-	this.whichCanvas = 0;
 	this.toneEvents = [];
 	this.lyricEvents = [];
 	this.keysignatureEvents = [];
