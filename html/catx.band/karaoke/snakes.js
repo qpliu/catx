@@ -81,7 +81,7 @@ class Snakes{
     }
     keyContainsNoteColor(key,note){
 	note = (note+12-[11,6,1,8,3,10,5,0,7,2,9,4,11,6,1][key[0]+7])%12;
-	if (note==(key[1]?0:9))
+	if (note==(key[1]?9:0))
 	    return "#888";
 	if (note==0 || note==2 || note==4 || note==5 || note==7 || note==9 || note==11)
 	    return "#444";
