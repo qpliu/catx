@@ -19,6 +19,9 @@ class Snakes{
 	    where.appendChild(div);
 	    this.divs[i] = div;
 	}
+	this.staticDiv = document.createElement("div");
+	this.staticDiv.style = "position:absolute;top:19vh;left:0;width:100vw;height:80vh;font-size:2vh;color:#0ff;z-index:2;";
+	where.appendChild(this.staticDiv);
 	navigator.mediaDevices.getUserMedia({audio:{echoCancellation:{ideal:false}}}).then(stream=>{
 	    const microphone=this.audioContext.createMediaStreamSource(stream);
 	    this.fft = this.audioContext.createAnalyser();
@@ -51,12 +54,35 @@ class Snakes{
     addLyricEvent(t,what){
 	this.lyricEvents.push({t:t,what:what});
     }
-    addKeysignatureEvent(event){
-	this.keysignatureEvents.push(event);
+    addKeysignatureEvent(e){
+	this.keysignatureEvents.push({t:e.t,key:[e.key0,e.key1]});
+    }
+    noteToString(key,note){
+	return [["C","C♯","D","D♯","E","F","F♯","G","G♯","A","A♯","B"],["C","D♭","D","E♭","E","F","G♭","G","A♭","A","B♭","B"]][key[1]][note%12];
     }
     keyContainsNote(key,note){
-	note = (note+12-[11,6,1,8,3,10,5,0,7,2,9,4,11,6,1][key+7])%12;
+	note = (note+12-[11,6,1,8,3,10,5,0,7,2,9,4,11,6,1][key[0]+7])%12;
 	return note==0 || note==2 || note==4 || note==5 || note==7 || note==9 || note==11;
+    }
+    drawLetters(time){
+	let bestTime=Infinity;
+	let bestKey;
+	for (const e of this.keysignatureEvents){
+	    let t=time-e.t;
+	    if (this.repeat)
+		t -= Math.floor((time-e.t)/this.repeat)*this.repeat;
+	    if (t>0 && t<bestTime){
+		bestTime = t;
+		bestKey = e.key;
+	    }
+	}
+	let sb="";
+	for (let note=settings.minNote+1; note<settings.maxNote; note++)
+	    if (this.keyContainsNote(bestKey,note)){
+		const y=(settings.maxNote-note)/(settings.maxNote-settings.minNote)*100;
+		sb += "<span style=position:absolute;left:50%;top:"+y+"%;>"+this.noteToString(bestKey,note)+"</span>"
+	    }
+	this.staticDiv.innerHTML = sb;
     }
     drawDiv(div,time){
 	let sb="";
@@ -68,7 +94,7 @@ class Snakes{
 		break;
 	    if (list.length!=0)
 		list[list.length-1].end = t;
-	    list.push({t:t,key0:this.keysignatureEvents[ki].key0});
+	    list.push({t:t,key:this.keysignatureEvents[ki].key});
 	    if (ki==this.keysignatureEvents.length-1 && this.repeat){
 		r += this.repeat;
 		ki = 0;
@@ -81,9 +107,9 @@ class Snakes{
 	    const x0=(e.t-time)*100/settings.snakeTime;
 	    const x1=(e.end-time)*100/settings.snakeTime;
 	    for (let note=settings.minNote+1; note<settings.maxNote; note++)
-		if (this.keyContainsNote(e.key0,note)){
+		if (this.keyContainsNote(e.key,note)){
 		    const y=(settings.maxNote-note)/(settings.maxNote-settings.minNote)*100;
-		    sb += "<div style=position:absolute;left:"+x0+"%;width:"+(x1-x0)+"%;top:"+y+"%;height:1px;background-color:#888;></div>"
+		    sb += "<div style=position:absolute;left:"+x0+"%;width:"+(x1-x0)+"%;top:"+y+"%;height:1px;background-color:#444;></div>"
 		}
 	}
 	for (const e of this.lyricEvents){
@@ -117,12 +143,12 @@ class Snakes{
 		t0 -= tt;
 		t1 -= tt;
 	    }
-	    context.fillStyle = "#404040";
+	    context.fillStyle = "#303030";
 	    for (const e of this.beatEvents)
 		if (e.t>=t0 && e.t<t1)
-		    context.fillStyle = e.what.slice(-2)==":1"||e.what.slice(-2)=="=1"?"#ff4040":"#4040ff";
+		    context.fillStyle = e.what.slice(-2)==":1"||e.what.slice(-2)=="=1"?"#ff3030":"#3030ff";
 	    context.fillRect(x,0,1,this.canvasHeight);
-	    context.fillStyle = "#ff40ff";
+	    context.fillStyle = "#ff30ff";
 	    for (const e of this.toneEvents)
 		if (t0>=e.t && t0<e.t+e.duration){
 		    const y0=(settings.maxNote-e.note-.5)/(settings.maxNote-settings.minNote)*this.canvasHeight;
@@ -140,7 +166,7 @@ class Snakes{
 	const x0=Math.floor((this.lastFftTime-time)*this.canvasWidth/settings.snakeTime)+this.canvasWidth/2;
 	const x1=Math.floor((now-time)*this.canvasWidth/settings.snakeTime)+this.canvasWidth/2;
 	context.globalCompositeOperation = "difference";
-	context.fillStyle = "#404040";
+	context.fillStyle = "#303030";
 	context.fillRect(x0,0,x1-x0,this.canvasHeight);
 	context.globalCompositeOperation = "lighten";
 	const i0=Math.floor(Math.exp((settings.minNote-69)/12*Math.log(2))*440*settings.fftSize/this.audioContext.sampleRate);
@@ -167,6 +193,7 @@ class Snakes{
 	    this.drawCanvasAndDiv(this.whichCanvas,this.canvasTime+settings.snakeTime);
 	    this.whichCanvas ^= 1;
 	}
+	this.drawLetters(now);
 	if (this.fft!=undefined){
 	    this.fft.getByteFrequencyData(this.fft_data);
 	    this.drawFft(this.canvases[this.whichCanvas],this.canvasTime,now);
