@@ -16,8 +16,22 @@ class Snakes{
 	this.staticDiv.style = "position:absolute;top:19vh;left:0;width:100vw;height:80vh;font-size:2vh;color:#0ff;z-index:2;";
 	where.appendChild(this.staticDiv);
     }
+    reset(startTime,repeat,songLength){
+	this.startTime = startTime;
+	this.repeat = repeat;
+	this.songLength = songLength;
+	this.lastFftTime = 0;
+	this.whichCanvas = 0;
+	this.toneEvents = [];
+	this.lyricEvents = [];
+	this.keysignatureEvents = [];
+	this.beatEvents = [];
+	this.canvasTime = 0;
+	this.whichCanvas = 0;
+    }
     setEnabled(enabled){
 	this.enabled = enabled;
+	this.canvasTime = 0;
 	this.canvasWidth = 1024;
 	this.canvasHeight = (settings.maxNote-settings.minNote)*10;
 	const display=enabled?"block":"none";
@@ -41,20 +55,6 @@ class Snakes{
 		this.fft_data = new Uint8Array(this.fft.frequencyBinCount);
 	    },err=>alert(err));
 	}
-    }
-    reset(startTime,repeat,songLength){
-	this.startTime = startTime;
-	this.repeat = repeat;
-	this.songLength = songLength;
-	this.canvasTime = startTime-settings.snakeTime/2;
-	this.lastFftTime = 0;
-	this.whichCanvas = 0;
-	this.toneEvents = [];
-	this.lyricEvents = [];
-	this.keysignatureEvents = [];
-	this.beatEvents = [];
-	this.canvasTime = 0;
-	this.whichCanvas = 0;
     }
     addToneEvent(t,duration,note){
 	this.toneEvents.push({t:t,duration:duration,note:note});
@@ -208,6 +208,7 @@ class Snakes{
 	if (this.canvasTime<now-2*settings.snakeTime){
 	    this.canvasTime = now-settings.snakeTime;
 	    this.drawCanvasAndDiv(this.whichCanvas^1,now);
+	    this.lastFftTime = now;
 	}
 	if (now>=this.canvasTime+settings.snakeTime){
 	    this.canvasTime += settings.snakeTime;
