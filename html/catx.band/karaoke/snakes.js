@@ -28,7 +28,8 @@ class Snakes{
 	    this.divs[i].style.display = display;
 	}
 	this.staticDiv.style.display = display;
-	if (enabled)
+	if (enabled && !this.gotMicrophone){
+	    this.gotMicrophone = true;
 	    navigator.mediaDevices.getUserMedia({audio:{echoCancellation:{ideal:false}}}).then(stream=>{
 		const microphone=audioContext.createMediaStreamSource(stream);
 		this.fft = audioContext.createAnalyser();
@@ -39,6 +40,7 @@ class Snakes{
 		microphone.connect(this.fft);
 		this.fft_data = new Uint8Array(this.fft.frequencyBinCount);
 	    },err=>alert(err));
+	}
     }
     reset(startTime,repeat,songLength){
 	this.startTime = startTime;
