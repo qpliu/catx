@@ -32,12 +32,13 @@ class Snakes{
 	    this.fft_data = new Uint8Array(this.fft.frequencyBinCount);
 	},err=>alert(err));
     }
-    reset(startTime,repeat){
+    reset(startTime,repeat,songLength){
 	this.startTime = startTime;
+	this.repeat = repeat;
+	this.songLength = songLength;
 	this.canvasTime = startTime-settings.snakeTime/2;
 	this.lastFftTime = 0;
 	this.whichCanvas = 0;
-	this.repeat = repeat;
 	this.toneEvents = [];
 	this.lyricEvents = [];
 	this.keysignatureEvents = [];
@@ -66,11 +67,12 @@ class Snakes{
     }
     drawLetters(time){
 	let bestTime=Infinity;
-	let bestKey;
+	let bestKey=[0,0];
 	for (const e of this.keysignatureEvents){
-	    let t=time-e.t;
-	    if (this.repeat)
-		t -= Math.floor((time-e.t)/this.repeat)*this.repeat;
+	    let t=time;
+	    if (this.repeat && t>=this.songLength)
+		t -= Math.floor((t-this.songLength)/this.repeat+1)*this.repeat;
+	    t -= e.t;
 	    if (t>0 && t<bestTime){
 		bestTime = t;
 		bestKey = e.key;
@@ -138,8 +140,8 @@ class Snakes{
 	for (let x=0; x<this.canvasWidth; x++){
 	    let t0=time+x*settings.snakeTime/this.canvasWidth;
 	    let t1=time+(x+1)*settings.snakeTime/this.canvasWidth;
-	    if (this.repeat){
-		const tt=Math.floor(t0/this.repeat)*this.repeat;
+	    if (this.repeat && t0>=this.songLength){
+		const tt=Math.floor((t0-this.songLength)/this.repeat+1)*this.repeat;
 		t0 -= tt;
 		t1 -= tt;
 	    }
@@ -193,7 +195,7 @@ class Snakes{
 	    this.drawCanvasAndDiv(this.whichCanvas,this.canvasTime+settings.snakeTime);
 	    this.whichCanvas ^= 1;
 	}
-	this.drawLetters(now);
+	this.drawLetters(now-this.startTime);
 	if (this.fft!=undefined){
 	    this.fft.getByteFrequencyData(this.fft_data);
 	    this.drawFft(this.canvases[this.whichCanvas],this.canvasTime,now);

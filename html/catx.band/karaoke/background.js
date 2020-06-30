@@ -7,9 +7,10 @@ class Background{
 	this.bgimg.style = "opacity:.25;margin-left:auto;margin-right:auto;height:65vh;display:none;";
 	where.appendChild(this.bgimg);
     }
-    reset(startTime,repeat){
+    reset(startTime,repeat,songLength){
 	this.startTime = startTime;
 	this.repeat = repeat;
+	this.songLength = songLength;
 	this.index = 0;
 	this.events = [];
 	if (this.bgtext!=undefined){
@@ -23,7 +24,11 @@ class Background{
     animate(now){
 	if (this.bgtext==undefined)
 	    return;
-	while (this.index<this.events.length){
+	if (this.repeat && now>=this.startTime+this.songLength){
+	    this.startTime += Math.floor((now-this.startTime)/this.repeat)*this.repeat;
+	    this.index = 0;
+	}
+	for (; this.index<this.events.length; this.index++){
 	    const e=this.events[this.index];
 	    const t=this.startTime+e.t;
 	    if (t>=now)
@@ -39,11 +44,6 @@ class Background{
 		this.bgtext.innerHTML = e.what;
 		this.bgtext.style.display = "block";
 	    }
-	    if (this.repeat && this.index==this.events.length-1){
-		this.startTime += (Math.floor((now-t)/this.repeat)+1)*this.repeat;
-		this.index = 0;
-	    }else
-		this.index++;
 	}
     }
 }

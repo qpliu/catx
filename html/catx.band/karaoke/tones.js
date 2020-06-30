@@ -29,9 +29,10 @@ class Tones{
 	this.speakerOn.style.visibility = settings.speaker?"visible":"hidden";
 	this.speakerOff.style.visibility = settings.speaker?"hidden":"visible";
     }
-    reset(startTime,repeat){
+    reset(startTime,repeat,songLength){
 	this.startTime = startTime;
 	this.repeat = repeat;
+	this.songLength = songLength;
 	this.index = 0;
 	this.events = [];
     }
@@ -39,7 +40,11 @@ class Tones{
 	this.events.push({t:t,duration:duration,note:note});
     }
     animate(now){
-	while (this.index<this.events.length){
+	if (this.repeat && now>=this.startTime+this.songLength){
+	    this.startTime += Math.floor((now-this.startTime)/this.repeat)*this.repeat;
+	    this.index = 0;
+	}
+	for (; this.index<this.events.length; this.index++){
 	    const e=this.events[this.index];
 	    const t=this.startTime+e.t;
 	    if (t>=now)
@@ -51,11 +56,6 @@ class Tones{
 		this.toneGain.gain.setValueAtTime(1,this.audioContext.currentTime+e.duration/1000-Math.min(e.duration/2500,.05));
 		this.toneGain.gain.exponentialRampToValueAtTime(.001,this.audioContext.currentTime+e.duration/1000);
 	    }
-	    if (this.repeat && this.index==this.events.length-1){
-		this.startTime += (Math.floor((now-t)/this.repeat)+1)*this.repeat;
-		this.index = 0;
-	    }else
-		this.index++;
 	}
     }
 }

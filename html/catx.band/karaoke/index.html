@@ -62,10 +62,10 @@
 		    startTime = json.start_time+this.ntp_offset+settings.delay;
 		    const repeat="repeat" in json?json.repeat:0;
 		    cats.reset();
-		    background.reset(startTime,repeat);
-		    tones.reset(startTime,repeat);
-		    beatCounter.reset(startTime,repeat);
-		    snakes.reset(startTime,repeat);
+		    background.reset(startTime,repeat,json.length);
+		    tones.reset(startTime,repeat,json.length);
+		    beatCounter.reset(startTime,repeat,json.length);
+		    snakes.reset(startTime,repeat,json.length);
 		    qiuqius.reset(startTime,repeat);
 		    let last_tone=undefined;
 		    for (const e of json.karaoke){
