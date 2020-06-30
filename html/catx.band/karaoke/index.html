@@ -24,14 +24,14 @@
     }
 </style>
 <body>
-<script src=websocketstuff.js></script>
-<script src=settings.js></script>
-<script src=cats.js></script>
-<script src=background.js></script>
-<script src=tones.js></script>
-<script src=beatcounter.js></script>
-<script src=snakes.js></script>
-<script src=球球.js></script>
+<script src=websocketstuff.js?version=1></script>
+<script src=settings.js?version=1></script>
+<script src=cats.js?version=1></script>
+<script src=background.js?version=1></script>
+<script src=tones.js?version=1></script>
+<script src=beatcounter.js?version=1></script>
+<script src=snakes.js?version=1></script>
+<script src=球球.js?version=1></script>
 <span id=bigSettings style=position:absolute;width:98%;>
     <span style=position:absolute;left:0;width:29%;display:inline-block;>
 	<button type=submit style=font-size:20px; onclick=start(0);>Start 球球!</button>
@@ -111,7 +111,8 @@
 		    beatCounter.reset(startTime,repeat,json.length);
 		    snakes.reset(startTime,repeat,json.length);
 		    qiuqius.reset(startTime,repeat);
-		    let last_tone=undefined;
+		    const noteOn=new Map();
+		    const noteOff=new Map();
 		    for (const e of json.karaoke){
 			if ("k" in e)
 			    for (let k of e.k.split("|")){
@@ -125,14 +126,33 @@
 				    snakes.addLyricEvent(e.t,k);
 				}
 			    }
-			if ("key0" in e)
+			if ("key" in e)
 			    snakes.addKeysignatureEvent(e);
-			if ("on" in e)
-			    last_tone = e;
-			if ("off" in e && last_tone!=undefined){
-			    tones.addEvent(last_tone.t,e.t-last_tone.t,last_tone.on+settings.transpose);
-			    snakes.addToneEvent(last_tone.t,e.t-last_tone.t,last_tone.on+settings.transpose);
+			if ("on" in e && (!noteOff.has(e.on) || !noteOff.get(e.on).delete(e.t))){
+			    if (!noteOn.has(e.on))
+				noteOn.set(e.on,new Set());
+			    noteOn.get(e.on).add(e.t);
 			}
+			if ("off" in e && (!noteOn.has(e.off) || !noteOn.get(e.off).delete(e.t))){
+			    if (!noteOff.has(e.off))
+				noteOff.set(e.off,new Set());
+			    noteOff.get(e.off).add(e.t);
+			}
+		    }
+		    for (const note of noteOff.keys())
+			noteOff.set(note,Array.from(noteOff.get(note)).sort((x,y)=>x-y));
+		    const allNotes=[];
+		    for (const note of noteOn.keys())
+			for (const time of noteOn.get(note)){
+			    let end;
+			    while (noteOff.has(note) && (end=noteOff.get(note).shift())<time);
+			    if (end!=undefined)
+				allNotes.push({t:time,duration:end-time,note:note});
+			}
+		    allNotes.sort((x,y)=>x.t-y.t);
+		    for (const e of allNotes){
+			tones.addEvent(e);
+			snakes.addToneEvent(e);
 		    }
 		    snakes.doneAddingEvents();
 		    requestAnimationFrame(animate);

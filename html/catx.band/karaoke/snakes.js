@@ -55,8 +55,8 @@ class Snakes{
 	    },err=>alert(err));
 	}
     }
-    addToneEvent(t,duration,note){
-	this.toneEvents.push({t:t,duration:duration,note:note});
+    addToneEvent(e){
+	this.toneEvents.push(e);
     }
     addBeatEvent(t,what){
 	this.beatEvents.push({t:t,what:what});
@@ -65,7 +65,7 @@ class Snakes{
 	this.lyricEvents.push({t:t,what:what});
     }
     addKeysignatureEvent(e){
-	this.keysignatureEvents.push({t:e.t,key:[e.key0,e.key1]});
+	this.keysignatureEvents.push({t:e.t,key:e.key});
     }
     doneAddingEvents(){
 	let ti=0;

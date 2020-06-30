@@ -16,8 +16,6 @@ class Settings{
 		"Highest note for snakes.  60 is middle C.  72 is C above middle C, etc.  If the snakes are disappearing off the top, make this number bigger."],
 	    ["Microphone Sensitivity","microphoneSensitivity","60",Number,
 		"Increase this to make microphone more sensitive.  If you have to yell really loud, try making this bigger."],
-	    ["Transpose","transpose","0",Number,
-		"Number of half steps to transpose the music up.  If you can't sing the high notes, try setting this to -12."],
 	    ["fftSize","fftSize","8192",Number,
 		"This must be power of 2 between 32 and 32768.  Bigger fftSize increases frequency resolution and decreases time resolution."],
 	];
