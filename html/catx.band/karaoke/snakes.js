@@ -94,7 +94,8 @@ class Snakes{
 		const y=(settings.maxNote-note)/(settings.maxNote-settings.minNote)*100;
 		sb += "<span style=position:absolute;left:50%;top:"+y+"%;>"+this.noteToString(bestKey,note)+"</span>"
 	    }
-	this.staticDiv.innerHTML = sb;
+	if (this.staticDiv.innerHtml!=sb)
+	    this.staticDiv.innerHTML = sb;
     }
     drawDiv(div,time){
 	let sb="";
