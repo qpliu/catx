@@ -100,14 +100,16 @@ class Snakes{
     drawDiv(div,time){
 	let sb="";
 	const list=[];
-	let r=this.repeat?Math.floor(time/this.repeat)*this.repeat:0;
+	let r=this.repeat&&time>=this.songLength?Math.floor((time-this.songLength)/this.repeat+1)*this.repeat:0;
 	for (let ki=0; ki<this.keysignatureEvents.length;){
 	    const t=r+this.keysignatureEvents[ki].t;
 	    if (t>=time+settings.snakeTime)
 		break;
-	    if (list.length!=0)
-		list[list.length-1].end = t;
-	    list.push({t:t,key:this.keysignatureEvents[ki].key});
+	    if (!r || this.keysignatureEvents[ki].t>=this.songLength-this.repeat){
+		if (list.length!=0)
+		    list[list.length-1].end = t;
+		list.push({t:t,key:this.keysignatureEvents[ki].key});
+	    }
 	    if (ki==this.keysignatureEvents.length-1 && this.repeat){
 		r += this.repeat;
 		ki = 0;
