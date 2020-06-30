@@ -169,14 +169,14 @@ class Snakes{
 	    let t0=time+x*settings.snakeTime/this.canvasWidth;
 	    let t1=time+(x+1)*settings.snakeTime/this.canvasWidth;
 	    if (this.repeat && t0>=this.songLength){
-		const tt=Math.floor((t0-this.songLength)/this.repeat+1)*this.repeat;
+		const tt=Math.ceil((t1-this.songLength)/this.repeat)*this.repeat;
 		t0 -= tt;
 		t1 -= tt;
 	    }
 	    context.fillStyle = "#303030";
 	    for (const e of this.beatEvents)
 		if (e.t>=t0 && e.t<t1)
-		    context.fillStyle = e.what.slice(-2)==":1"||e.what.slice(-2)=="=1"?"#ff3030":"#3030ff";
+		    context.fillStyle = e.what.slice(-2)==":1"||e.what=="1"?"#ff3030":"#3030ff";
 	    context.fillRect(x,0,1,this.canvasHeight);
 	    context.fillStyle = "#ff30ff";
 	    for (const e of this.toneEvents)
