@@ -79,9 +79,12 @@ class Snakes{
     noteToString(key,note){
 	return [["C","C♯","D","D♯","E","F","F♯","G","G♯","A","A♯","B"],["C","D♭","D","E♭","E","F","G♭","G","A♭","A","B♭","B"]][key[0]<0?1:0][note%12];
     }
-    keyContainsNote(key,note){
+    keyContainsNoteColor(key,note){
 	note = (note+12-[11,6,1,8,3,10,5,0,7,2,9,4,11,6,1][key[0]+7])%12;
-	return note==0 || note==2 || note==4 || note==5 || note==7 || note==9 || note==11;
+	if (note==(key[1]?0:9))
+	    return "#888";
+	if (note==0 || note==2 || note==4 || note==5 || note==7 || note==9 || note==11)
+	    return "#444";
     }
     drawLetters(time){
 	let bestTime=Infinity;
@@ -98,7 +101,7 @@ class Snakes{
 	}
 	let sb="";
 	for (let note=settings.minNote+1; note<settings.maxNote; note++)
-	    if (this.keyContainsNote(bestKey,note)){
+	    if (this.keyContainsNoteColor(bestKey,note)){
 		const y=(settings.maxNote-note)/(settings.maxNote-settings.minNote)*80-1;
 		sb += "<span style=position:absolute;left:50%;top:"+y+"vh;>"+this.noteToString(bestKey,note)+"</span>"
 	    }
@@ -109,11 +112,13 @@ class Snakes{
 	let sb="";
 	const x0=t*100/settings.snakeTime;
 	const x1=end*100/settings.snakeTime;
-	for (let note=settings.minNote+1; note<settings.maxNote; note++)
-	    if (this.keyContainsNote(key,note)){
+	for (let note=settings.minNote+1; note<settings.maxNote; note++){
+	    const color=this.keyContainsNoteColor(key,note);
+	    if (color!=undefined){
 		const y=(settings.maxNote-note)/(settings.maxNote-settings.minNote)*100;
-		sb += "<div style=position:absolute;left:"+x0+"%;width:"+(x1-x0)+"%;top:"+y+"%;height:1px;background-color:#444;></div>"
+		sb += "<div style=position:absolute;left:"+x0+"%;width:"+(x1-x0)+"%;top:"+y+"%;height:1px;background-color:"+color+";></div>"
 	    }
+	}
 	return sb;
     }
     drawDiv(div,time){

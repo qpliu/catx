@@ -62,10 +62,10 @@ class Tones{
 	    if (t>=now)
 		break;
 	    if (settings.speaker && t+e.duration>now){
-		this.gains[e.note].gain.setValueAtTime(.001,audioContext.currentTime);
+		this.gains[e.note].gain.setValueAtTime(.00001,audioContext.currentTime);
 		this.gains[e.note].gain.exponentialRampToValueAtTime(.25,audioContext.currentTime+Math.min(e.duration/2500,.05));
 		this.gains[e.note].gain.setValueAtTime(.25,audioContext.currentTime+e.duration/1000-Math.min(e.duration/2500,.05));
-		this.gains[e.note].gain.exponentialRampToValueAtTime(.001,audioContext.currentTime+e.duration/1000);
+		this.gains[e.note].gain.exponentialRampToValueAtTime(.00001,audioContext.currentTime+e.duration/1000);
 	    }
 	}
     }
