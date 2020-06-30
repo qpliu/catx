@@ -4,13 +4,60 @@
 <meta charset=UTF-8>
 <title id=title>Karaoke</title>
 </head>
+<style>
+    .tooltip{
+	position:relative;
+	display:inline-block;
+    }
+    .tooltip .tooltiptext{
+	position:absolute;
+	visibility:hidden;
+	width:50vw;
+	background-color:#000;
+	color:#0f0;
+	z-index:1;
+	top:125%;
+	left:75%;
+    }
+    .tooltip:hover .tooltiptext{
+	visibility:visible;
+    }
+</style>
 <body>
-<span id=span style=position:absolute;left:0;top:0;width:100vw;height:100vh;overflow:hidden;>
+<script src=websocketstuff.js></script>
+<script src=settings.js></script>
+<script src=cats.js></script>
+<script src=background.js></script>
+<script src=tones.js></script>
+<script src=beatcounter.js></script>
+<script src=snakes.js></script>
+<script src=球球.js></script>
+<span id=bigSettings>
+    <button type=submit onclick=start(0);>Start 球球!</button>
+    <button type=submit onclick=start(1);>Start Snakes!</button>
+    <br>
+    <span id=settingsInputs></span>
+    <div class=tooltip>
+	<button type=button onclick=settings.resetToDefault()>Reset</button>
+	<span class=tooltiptext>Click Reset to reset these settings to default.</span>
+    </div>
+    <br>
+    Bookmark this <a id=settingsBookmarkLink>link</a> to save settings.
+    <br><br>
+    Private Chat With Aarin Robo:
+    <br>
+    <div id=chatDiv style=width:100%;height:70vh;overflow-y:scroll;background-color:#ccc;></div>
+    <form id=chatForm style=width:100%;display:table;>
+	<label for=chatInput style=display:table-cell;width:1px;>Chat:</label>
+	<input id=chatInput style=display:table-cell;width:100%; type=text>
+    </form>
+</span>
+<span id=bigSpan style=display:none;position:absolute;left:0;top:0;width:100vw;height:100vh;overflow:hidden;>
     <span id=websocketControls style=visibility:hidden;>
-	<img style=position:absolute;left:0;top:0;width:5vw;z-index:9; onclick=websocketStuff.sendChat("stop") src=../stop.svg></a>
-	<img style=position:absolute;left:6vw;top:0;width:5vw;z-index:9; onclick=websocketStuff.sendChat("play") src=../play.svg></a>
+	<img style=position:absolute;left:0;top:0;width:5vw;z-index:9; onclick=websocketStuff.sendChat("stop"); src=../stop.svg></a>
+	<img style=position:absolute;left:6vw;top:0;width:5vw;z-index:9; onclick=websocketStuff.sendChat("play"); src=../play.svg></a>
     </span>
-    <a id=setup><img style=position:absolute;right:0;top:0;width:5vw;z-index:9;color:#0f0; src=../settings.svg></a>
+    <img style=position:absolute;right:0;top:0;width:5vw;z-index:9;color:#0f0; src=../settings.svg onclick=backToSettings();>
     <div id=cat_div style=position:absolute;left:0;top:10vh;width:100vw;></div>
     <div style=position:absolute;top:0;left:0;width:100vw;height:10vh;text-align:center;>
 	<span id=name style=font-size:3vw;white-space:nowrap;color:#0f0;background-color:#000;></span>
@@ -20,38 +67,32 @@
     </div>
     <div id=bg_div style=position:absolute;left:0;top:35vh;width:100vw;height:65vh;z-index:-9;text-align:center;></div>
 </span>
-<script src=settings.js></script>
-<script src=websocketstuff.js></script>
-<script src=cats.js></script>
-<script src=background.js></script>
-<script src=tones.js></script>
-<script src=beatcounter.js></script>
-<script src=snakes.js></script>
-<script src=球球.js></script>
 <script>
-    const audioContext=new (window.AudioContext||window.webkitAudioContext)();
-    const settings=new Settings(document.getElementById("setup"));
-    const cats=new Cats();
-    const background=new Background();
-    const tones=new Tones(audioContext,document.getElementById("span"));
+    let audioContext;
+    let settingsVisible=true;
+    const settings=new Settings(document.getElementById("settingsBookmarkLink"),document.getElementById("settingsInputs"));
+    const chatDiv=document.getElementById("chatDiv");
+    const chatForm=document.getElementById("chatForm");
+    const cats=new Cats(document.getElementById("cat_div"));
+    const background=new Background(document.getElementById("bg_div"));
+    const tones=new Tones(document.getElementById("bigSpan"));
     const beatCounter=new BeatCounter(cats,document.getElementById("beat_span"));
-    const qiuqius=new 球球();
-    const snakes=new Snakes(audioContext);
+    const qiuqius=new 球球(document.getElementById("bigSpan"));
+    const snakes=new Snakes(document.getElementById("bigSpan"));
     let startTime;
-    if (settings.snakes)
-	snakes.enable(document.getElementById("span"));
-    else{
-	qiuqius.enable(document.getElementById("span"));
-	cats.enable(document.getElementById("cat_div"));
-	background.enable(document.getElementById("bg_div"));
-    }
-    websocketStuff = new class extends WebsocketStuff{
+    const websocketStuff=new class extends WebsocketStuff{
 	onopen(){
 	    super.onopen();
-	    document.getElementById("websocketControls").style.visibility = "visible";
+	    document.getElementById("websocketControls").style.visibility = "inherit";
+	    websocketStuff.sendChat("help");
 	}
 	onmessage(event){
 	    super.onmessage(event);
+	    if (event.data.slice(0,4)=="chat"){
+		let c=event.data.slice(4);
+		chatDiv.innerHTML += c+"<br>";
+		chatDiv.scrollTop = chatDiv.scrollHeight;
+	    }
 	    if (event.data.slice(0,1)=="k" && this.ntp_offset!=undefined){
 		const json=JSON.parse(event.data.slice(1));
 		if ("name" in json){
@@ -95,14 +136,16 @@
 		if ("stop" in json)
 		    startTime = undefined;
 	    }
-	    if (event.data.slice(0,4)=="chat"){
-		let chat=event.data.slice(4).replace(/<[^<>]*>/g,"");
-		chat = chat.replace(/^Aarin Robo /,"");
-		if (chat!="Stop." && chat!="Play song.")
-		    alert("Aarin Robo says:\n"+chat);
-	    }
 	}
     }();
+    chatForm.onsubmit = function(event){
+	const chatInput=document.getElementById("chatInput");
+	chatDiv.innerHTML += "<font color=pink><b>You</b></font> "+chatInput.value+"<br>";
+	chatDiv.scrollTop = chatDiv.scrollHeight;
+	websocketStuff.sendChat(chatInput.value);
+	chatInput.value = "";
+	event.preventDefault();
+    };
     function animate(time){
 	if (startTime==undefined)
 	    return;
@@ -113,6 +156,23 @@
 	tones.animate(now);
 	beatCounter.animate(now);
 	requestAnimationFrame(animate);
+    }
+    function backToSettings(){
+	settingsVisible = true;
+	document.getElementById("bigSettings").style.display = "block";
+	document.getElementById("bigSpan").style.display = "none";
+    }
+    function start(snakeMode){
+	settingsVisible = false;
+	if (audioContext==undefined)
+	    audioContext = new window.AudioContext();
+	document.getElementById("bigSettings").style.display = "none";
+	document.getElementById("bigSpan").style.display = "block";
+	tones.setEnabled(true);
+	snakes.setEnabled(snakeMode);
+	qiuqius.setEnabled(!snakeMode);
+	cats.setEnabled(!snakeMode);
+	background.setEnabled(!snakeMode);
     }
     websocketStuff.start();
 </script>

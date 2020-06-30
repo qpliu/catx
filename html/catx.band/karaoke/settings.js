@@ -1,9 +1,7 @@
 class Settings{
-    constructor(settings_a){
-	this.settings_a = settings_a;
+    constructor(settingsBookmarkLink,where){
+	this.settingsBookmarkLink = settingsBookmarkLink;
 	this.settings = [
-	    ["Snakes","snakes","0",Number,
-		"Use 0 for 球球, 1 for snakes."],
 	    ["Delay","delay","200",Number,
 		"Delay in milliseconds to synchronize sound with Jamulus.  Increase if the 球球 bounces too early."],
 	    ["Speaker","speaker","0",Number,
@@ -25,38 +23,21 @@ class Settings{
 	    let match=location.search.match("[?&]"+s[1]+"=([^?&]*)");
 	    let value=match && match[1] || s[2];
 	    this[s[1]] = s[3](value);
-	}
-	this.makeEverythingAgree();
-    }
-    resetToDefault(){
-	for (const s of this.settings)
-	    this[s[1]] = s[3](s[2]);
-	this.makeEverythingAgree();
-    }
-    makeEverythingAgree(){
-	let sb="setup.html";
-	let sep="?";
-	for (const s of this.settings){
-	    sb += sep+s[1]+"="+this[s[1]];
-	    sep = "&";
-	    if ("input" in s)
-		s.input.value = String(this[s[1]]);
-	}
-	if (this.settings_a!=undefined)
-	    this.settings_a.href = sb;
-    }
-    makeInputs(where){
-	for (const s of this.settings){
 	    const div=document.createElement("div");
 	    div.className = "tooltip";
 	    const label=document.createElement("label");
 	    label.innerHTML = s[0]+": ";
 	    div.appendChild(label);
-	    label.for = s[1];
 	    const input=document.createElement("input");
 	    input.type = "text";
-	    input.name = s[1];
 	    input.value = String(this[s[1]]);
+	    input.onchange = ()=>{
+		const value=s[3](input.value);
+		if (!isNaN(value)){
+		    this[s[1]] = value;
+		    this.makeEverythingAgree();
+		}
+	    };
 	    div.appendChild(input);
 	    const tooltiptext=document.createElement("span");
 	    tooltiptext.innerHTML = s[4];
@@ -66,5 +47,21 @@ class Settings{
 	    where.appendChild(document.createElement("br"));
 	    s.input = input;
 	}
+	this.makeEverythingAgree();
+    }
+    resetToDefault(){
+	for (const s of this.settings)
+	    this[s[1]] = s[3](s[2]);
+	this.makeEverythingAgree();
+    }
+    makeEverythingAgree(){
+	let sb="index.html";
+	let sep="?";
+	for (const s of this.settings){
+	    sb += sep+s[1]+"="+this[s[1]];
+	    sep = "&";
+	    s.input.value = String(this[s[1]]);
+	}
+	this.settingsBookmarkLink.href = sb;
     }
 }

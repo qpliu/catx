@@ -1,11 +1,17 @@
 class Background{
-    enable(where){
+    constructor(where){
 	this.bgtext = document.createElement("span");
 	this.bgtext.style = "font-size:45vh;margin-top:10vh;color:#0f0;opacity:.5;display:none;";
 	where.appendChild(this.bgtext);
 	this.bgimg = document.createElement("img");
 	this.bgimg.style = "opacity:.25;margin-left:auto;margin-right:auto;height:65vh;display:none;";
 	where.appendChild(this.bgimg);
+    }
+    setEnabled(enabled){
+	this.enabled = enabled;
+	const display=enabled?"block":"none";
+	this.bgtext.style.display = display;
+	this.bgimg.style.display = display;
     }
     reset(startTime,repeat,songLength){
 	this.startTime = startTime;
@@ -22,7 +28,7 @@ class Background{
 	this.events.push({t:t,what:what});
     }
     animate(now){
-	if (this.bgtext==undefined)
+	if (!this.enabled)
 	    return;
 	if (this.repeat && now>=this.startTime+this.songLength){
 	    this.startTime += Math.floor((now-this.startTime)/this.repeat)*this.repeat;

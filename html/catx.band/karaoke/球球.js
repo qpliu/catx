@@ -1,19 +1,15 @@
 class 球球{
-    constructor(){
+    constructor(where){
 	this.lines = [];
 	this.lineats = [];
 	this.id_counter = 0;
-    }
-    enable(where){
 	for (let i=0; i<2; i++){
-	    const div=document.createElement("div");
-	    div.style = "position:absolute;top:"+(85-21*i)+"vh;left:"+(20-10*i)+"vw;width:"+(80+10*i)+"vw;font-size:2vw;white-space:nowrap;";
-	    this.lines.push(div);
-	    where.appendChild(div);
-	    const divat=document.createElement("div");
-	    divat.style = "position:absolute;top:"+(85-21*i)+"vh;left:"+(15-10*i)+"vw;width:5vw;font-size:2vw;";
-	    this.lineats.push(divat);
-	    where.appendChild(divat);
+	    this.lines[i] = document.createElement("div");
+	    this.lines[i].style = "position:absolute;top:"+(85-21*i)+"vh;left:"+(20-10*i)+"vw;width:"+(80+10*i)+"vw;font-size:2vw;white-space:nowrap;";
+	    where.appendChild(this.lines[i]);
+	    this.lineats[i] = document.createElement("div");
+	    this.lineats[i].style = "position:absolute;top:"+(85-21*i)+"vh;left:"+(15-10*i)+"vw;width:5vw;font-size:2vw;";
+	    where.appendChild(this.lineats[i]);
 	}
 	this.lineatat = document.createElement("div");
 	this.lineatat.style = "position:absolute;top:100vh;left:97.5vw;height:0;";
@@ -22,6 +18,16 @@ class 球球{
 	this.ball.style = "position:absolute;bottom:100vh;width:5vw;z-index:2;";
 	this.ball.src = "../ball.png";
 	where.appendChild(this.ball);
+    }
+    setEnabled(enabled){
+	this.enabled = enabled;
+	const display=enabled?"block":"none";
+	for (let i=0; i<2; i++){
+	    this.lines[i].style.display = display;
+	    this.lineats[i].style.display = display;
+	}
+	this.lineatat.style.display = display;
+	this.ball.style.display = display;
     }
     reset(startTime,repeat){
 	this.startTime = startTime;
@@ -44,7 +50,7 @@ class 球球{
 	this.lyricEvents.push({t:t,what:what});
     }
     animate(now){
-	if (this.ball==undefined)
+	if (!this.enabled)
 	    return;
 	while (this.nextLineStart<now && this.lyricIndex<this.lyricEvents.length){
 	    this.whichLine ^= 1;

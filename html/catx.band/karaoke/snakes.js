@@ -1,37 +1,44 @@
 class Snakes{
-    constructor(audioContext){
-	this.audioContext = audioContext;
-    }
-    enable(where){
-	this.canvasWidth = 1024;
-	this.canvasHeight = (settings.maxNote-settings.minNote)*10;
+    constructor(where){
 	this.canvases = [];
 	this.divs = [];
 	for (let i=0; i<2; i++){
 	    let canvas=document.createElement("canvas");
-	    canvas.style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;background-color:#000;display:block;";
-	    canvas.width = this.canvasWidth;
-	    canvas.height = this.canvasHeight;
+	    canvas.style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;background-color:#000;";
 	    where.appendChild(canvas);
 	    this.canvases[i] = canvas;
 	    let div=document.createElement("div");
-	    div.style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;font-size:1vw;white-space:nowrap;color:#0f0;display:block;z-index:1;";
+	    div.style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;font-size:1vw;white-space:nowrap;color:#0f0;z-index:1;";
 	    where.appendChild(div);
 	    this.divs[i] = div;
 	}
 	this.staticDiv = document.createElement("div");
 	this.staticDiv.style = "position:absolute;top:19vh;left:0;width:100vw;height:80vh;font-size:2vh;color:#0ff;z-index:2;";
 	where.appendChild(this.staticDiv);
-	navigator.mediaDevices.getUserMedia({audio:{echoCancellation:{ideal:false}}}).then(stream=>{
-	    const microphone=this.audioContext.createMediaStreamSource(stream);
-	    this.fft = this.audioContext.createAnalyser();
-	    this.fft.fftSize = settings.fftSize;
-	    this.fft.smoothingTimeConstant = 0;
-	    this.fft.minDecibels = -settings.microphoneSensitivity;
-	    this.fft.maxDecibels = this.fft.minDecibels+20;
-	    microphone.connect(this.fft);
-	    this.fft_data = new Uint8Array(this.fft.frequencyBinCount);
-	},err=>alert(err));
+    }
+    setEnabled(enabled){
+	this.enabled = enabled;
+	this.canvasWidth = 1024;
+	this.canvasHeight = (settings.maxNote-settings.minNote)*10;
+	const display=enabled?"block":"none";
+	for (let i=0; i<2; i++){
+	    this.canvases[i].width = this.canvasWidth;
+	    this.canvases[i].height = this.canvasHeight;
+	    this.canvases[i].style.display = display;
+	    this.divs[i].style.display = display;
+	}
+	this.staticDiv.style.display = display;
+	if (enabled)
+	    navigator.mediaDevices.getUserMedia({audio:{echoCancellation:{ideal:false}}}).then(stream=>{
+		const microphone=audioContext.createMediaStreamSource(stream);
+		this.fft = audioContext.createAnalyser();
+		this.fft.fftSize = settings.fftSize;
+		this.fft.smoothingTimeConstant = 0;
+		this.fft.minDecibels = -settings.microphoneSensitivity;
+		this.fft.maxDecibels = this.fft.minDecibels+20;
+		microphone.connect(this.fft);
+		this.fft_data = new Uint8Array(this.fft.frequencyBinCount);
+	    },err=>alert(err));
     }
     reset(startTime,repeat,songLength){
 	this.startTime = startTime;
@@ -172,11 +179,11 @@ class Snakes{
 	context.fillStyle = "#303030";
 	context.fillRect(x0,0,x1-x0,this.canvasHeight);
 	context.globalCompositeOperation = "lighten";
-	const i0=Math.floor(Math.exp((settings.minNote-69)/12*Math.log(2))*440*settings.fftSize/this.audioContext.sampleRate);
-	const i1=Math.floor(Math.exp((settings.maxNote-69)/12*Math.log(2))*440*settings.fftSize/this.audioContext.sampleRate);
+	const i0=Math.floor(Math.exp((settings.minNote-69)/12*Math.log(2))*440*settings.fftSize/audioContext.sampleRate);
+	const i1=Math.floor(Math.exp((settings.maxNote-69)/12*Math.log(2))*440*settings.fftSize/audioContext.sampleRate);
 	for (let i=i0; i<i1; i++){
-	    const n0=69+Math.log(i*this.audioContext.sampleRate/settings.fftSize/440)/Math.log(2)*12;
-	    const n1=69+Math.log((i+1)*this.audioContext.sampleRate/settings.fftSize/440)/Math.log(2)*12;
+	    const n0=69+Math.log(i*audioContext.sampleRate/settings.fftSize/440)/Math.log(2)*12;
+	    const n1=69+Math.log((i+1)*audioContext.sampleRate/settings.fftSize/440)/Math.log(2)*12;
 	    const y0=Math.floor((settings.maxNote-n0)/(settings.maxNote-settings.minNote)*this.canvasHeight);
 	    const y1=Math.floor((settings.maxNote-n1)/(settings.maxNote-settings.minNote)*this.canvasHeight);
 	    let d=this.fft_data[i];
@@ -185,7 +192,7 @@ class Snakes{
 	}
     }
     animate(now){
-	if (this.canvases==undefined)
+	if (!this.enabled)
 	    return;
 	if (this.canvasTime<now-2*settings.snakeTime){
 	    this.canvasTime = now-settings.snakeTime;
