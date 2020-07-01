@@ -10,6 +10,7 @@ class BeatCounter{
 	this.index = 0;
 	this.events = [];
 	this.lastTime = undefined;
+	this.span.innerHTML = "";
     }
     addEvent(t,what){
 	this.events.push({t:t,what:what});
