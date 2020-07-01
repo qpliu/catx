@@ -1,22 +1,21 @@
 class Tones{
     constructor(where){
-	this.where = where;
+	this.gains = [];
+	this.speakerOn = document.createElement("img");
+	this.speakerOn.style = "position:absolute;left:0;top:0;width:5vw;z-index:9;"
+	this.speakerOn.onclick = ()=>this.setSpeaker(0);
+	this.speakerOn.src = "../speaker.svg";
+	where.appendChild(this.speakerOn);
+	this.speakerOff = document.createElement("img");
+	this.speakerOff.style = "position:absolute;left:0;top:0;width:5vw;z-index:9;";
+	this.speakerOff.onclick = ()=>this.setSpeaker(1);
+	this.speakerOff.src = "../speaker_off.svg";
+	where.appendChild(this.speakerOff);
+	this.setSpeaker(settings.speaker);
     }
-    setEnabled(enabled){
-	this.enabled = enabled;
-	if (enabled && this.speakerOn==undefined){
+    enable(){
+	if (!this.gains){
 	    audioContext.resume();
-	    this.speakerOn = document.createElement("img");
-	    this.speakerOn.style = "position:absolute;right:6vw;top:0;width:5vw;z-index:9;"
-	    this.speakerOn.onclick = ()=>this.setSpeaker(0);
-	    this.speakerOn.src = "../speaker.svg";
-	    this.where.appendChild(this.speakerOn);
-	    this.speakerOff = document.createElement("img");
-	    this.speakerOff.style = "position:absolute;right:6vw;top:0;width:5vw;z-index:9;";
-	    this.speakerOff.onclick = ()=>this.setSpeaker(1);
-	    this.speakerOff.src = "../speaker_off.svg";
-	    this.where.appendChild(this.speakerOff);
-	    this.gains = [];
 	    for (let i=0; i<128; i++){
 		const oscillator=audioContext.createOscillator();
 		oscillator.frequency.value = Math.exp((i-69)/12*Math.log(2))*440;
@@ -27,17 +26,16 @@ class Tones{
 		oscillator.start();
 	    }
 	}
-	this.setSpeaker(settings.speaker);
     }
     setSpeaker(value){
 	settings.speaker = value;
 	settings.makeEverythingAgree();
-	if (!settings.speaker || !this.enabled)
+	this.speakerOn.style.display = settings.speaker?"block":"none";
+	this.speakerOff.style.display = !settings.speaker?"block":"none";
+	if (!settings.speaker)
 	    for (const gain of this.gains)
 		if (gain!=undefined)
 		    gain.gain.setValueAtTime(0,audioContext.currentTime);
-	this.speakerOn.style.display = this.enabled&&settings.speaker?"block":"none";
-	this.speakerOff.style.display = this.enabled&&!settings.speaker?"block":"none";
     }
     reset(startTime,repeat,songLength){
 	this.startTime = startTime;
@@ -50,8 +48,6 @@ class Tones{
 	this.events.push(e);
     }
     animate(now){
-	if (!this.enabled)
-	    return;
 	if (this.repeat && now>=this.startTime+this.songLength){
 	    this.startTime += Math.floor((now-this.startTime)/this.repeat)*this.repeat;
 	    this.index = 0;
