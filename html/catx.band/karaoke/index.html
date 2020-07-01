@@ -73,6 +73,7 @@
 <script>
     let audioContext;
     let settingsVisible=true;
+    let json;
     const settings=new Settings(document.getElementById("settingsBookmarkLink"),document.getElementById("settingsInputs"));
     const chatDiv=document.getElementById("chatDiv");
     const chatForm=document.getElementById("chatForm");
@@ -97,14 +98,14 @@
 		chatDiv.scrollTop = chatDiv.scrollHeight;
 	    }
 	    if (event.data.slice(0,1)=="k" && this.ntp_offset!=undefined){
-		const json=JSON.parse(event.data.slice(1));
-		if ("name" in json){
+		json = JSON.parse(event.data.slice(1));
+		if (json.name){
 		    document.getElementById("name").innerHTML = json.name;
 		    document.getElementById("title").innerHTML = json.name;
 		}
-		if ("karaoke" in json){
-		    startTime = json.start_time+this.ntp_offset+settings.delay;
-		    const repeat="repeat" in json?json.repeat:0;
+		if (json.karaoke){
+		    startTime = json.start_time && json.start_time+this.ntp_offset+settings.delay;
+		    const repeat=json.repeat||0;
 		    cats.reset();
 		    background.reset(startTime,repeat,json.length);
 		    tones.reset(startTime,repeat,json.length);
@@ -157,13 +158,15 @@
 		    snakes.doneAddingEvents();
 		    requestAnimationFrame(animate);
 		}
-		if ("stop" in json)
+		if (json.stop!=undefined)
 		    startTime = undefined;
 	    }
 	    if (event.data.slice(0,1)=="v")
 		if (event.data!="vAARIN_ROBO_VERSION"){
 		    alert("Aarin Robo says:\nVersion number is wrong.  Aarin Robo will try to fix it.");
-		    location.href = "index.html?version=AARIN_ROBO_VERSION";
+		    settings.version = "AARIN_ROBO_VERSION";
+		    settings.makeEverythingAgree();
+		    location.href = document.getElementById("settingsBookmarkLink").href;
 		}
 	}
     }();

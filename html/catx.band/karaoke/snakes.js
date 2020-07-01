@@ -54,6 +54,11 @@ class Snakes{
 		this.fft_data = new Uint8Array(this.fft.frequencyBinCount);
 	    },err=>alert(err));
 	}
+	if (enabled && this.startTime==undefined){
+	    this.startTime = new Date().getTime();
+	    this.animate(this.startTime);
+	    this.startTime = undefined;
+	}
     }
     addToneEvent(e){
 	this.toneEvents.push(e);
