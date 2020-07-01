@@ -3,8 +3,8 @@ class Snakes{
 	this.canvases = [];
 	for (let i=0; i<2; i++){
 	    this.canvases[i] = document.createElement("canvas");
-	    this.canvases[i].style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;";
-	    where.appendChild(this.canvases[i] );
+	    this.canvases[i].style = "position:absolute;top:20vh;";
+	    where.appendChild(this.canvases[i]);
 	}
 	this.staticDiv = document.createElement("div");
 	this.staticDiv.style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;font-size:2vh;color:#0ff;z-index:2;";
@@ -193,13 +193,15 @@ class Snakes{
     animate(now){
 	if (!this.enabled)
 	    return;
-	const rect=this.canvases[0].getBoundingClientRect();
+	const rect=this.staticDiv.getBoundingClientRect();
 	if (this.canvasWidth!=Math.ceil(rect.width) || this.canvasHeight!=Math.ceil(rect.height)){
 	    this.canvasWidth = Math.ceil(rect.width);
 	    this.canvasHeight = Math.ceil(rect.height);
 	    for (let i=0; i<2; i++){
 		this.canvases[i].width = this.canvasWidth;
 		this.canvases[i].height = this.canvasHeight;
+		this.canvases[i].style.width = this.canvasWidth+"px";
+		this.canvases[i].style.height = this.canvasHeight+"px";
 	    }
 	    this.canvasTime = 0;
 	    this.lastCanvasX = 0;
@@ -223,7 +225,7 @@ class Snakes{
 	}
 	for (const canvasX=Math.ceil((now-this.canvasTime)*this.canvasWidth/settings.snakeTime)+2*this.canvasWidth; this.lastCanvasX<canvasX; this.lastCanvasX++)
 	    this.drawCanvas(this.lastCanvasX);
-	this.canvases[this.whichCanvas].style.left = (this.canvasTime-now)*100/settings.snakeTime+"%";
-	this.canvases[this.whichCanvas^1].style.left = 100+(this.canvasTime-now)*100/settings.snakeTime+"%";
+	this.canvases[this.whichCanvas].style.left = Math.floor((this.canvasTime-now)*this.canvasWidth/settings.snakeTime)+"px";
+	this.canvases[this.whichCanvas^1].style.left = Math.floor((this.canvasTime-now)*this.canvasWidth/settings.snakeTime+this.canvasWidth)+"px";
     }
 }
