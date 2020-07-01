@@ -1,0 +1,163 @@
+guitarThree =
+{
+% url: https://www.songsterr.com/a/wsa/poison-talk-dirty-to-me-tab-s22500t2
+% artist: Poison
+% title: Talk Dirty To Me
+% instrument: Distortion Guitar
+% name: C.C. DeVille - Lead
+% tuning ees, aes, des ges bes ees'
+% scale c des d ees e f ges g aes a bes ces'
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #15
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r4 3-10t8 11t 1-10t r4. |
+    r4 3-10t8 11t 4-12t4. r8 |
+\mymark "Verse 2" #31
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    2-7t2 3-7t |
+\mymark "Chorus 1" #47
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 3" #63
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    2-7t2 3-7t |
+\mymark "Chorus 2" #79
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Solo" #95
+    r1 |
+    r2. r8 3-5.5t~ |
+    3-5.5t8 t 4.3t t 2.1t 0.0t r 5.5t~ |
+    3-5.5t8 t 4.3t t 2.1t 0.0t r 12.12t~ |
+    3-12.12t8 t 11.10t t 9.8t t 7.7t t |
+    3-5.5t8 t 4.3t t 2.1t 0.0t t 5.5t~ |
+    3-5.5t8 t 4.3t t 2.1t 0.0t r 5.5t~ |
+    3-5.5t8 t 4.3t t 2.1t 0.0t t r |
+    \tuplet 3/2 { 3-7.7t8 t t t t t 9.8t t t t t t } |
+    \tuplet 3/2 { 3-11.10t8 t t t t t 12.12t t t t t t } |
+    3-9t8 \bendAfter #6 ^"full" 2-8.8t t 3-9t \bendAfter #6 ^"full" 2-8.8t t 3-9t \bendAfter #6 ^"full" 2-8.8t |
+    3-9t8 \bendAfter #6 ^"full" 2-8.8t t 3-9t \bendAfter #6 ^"full" 2-8.8t t 3-9t \bendAfter #6 ^"full" 2-8.8t |
+    \tuplet 3/2 { 1-3t8 2t 0t 2-3t 2t 0t 3-4t 2t 0t 4-4t 2t 0t } |
+    \tuplet 3/2 { 3-4t8 2t 0t 4-4t 2t 0t 5-3t 2t 0t 6-3t 2t 0t } |
+    4-7t8 t 9t t 10t t 11t t |
+    4-12t8 3-14t4 \bendAfter #6 ^"full" 12t8 14t4 \bendAfter #6 ^"full" 12t8 t~ |
+    3-12t2. r8 1-15t16 t |
+    1-15t2. r8 2-15t16 t |
+    2-15t4 r8 3-12t16 t t4 r8 4-12t16 t |
+    4-12t4 r8 5-10t16 t t2 |
+\mymark "Chorus 3" #115
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    3-17t8 2-15t 1-15t 3-17t 2-15t 1-15t 3-17t4 |
+    3-19t1 |
+\mymark "Outro" #131
+    r1 |
+    r1 |
+    1-17t2 \bendAfter #6 ^"full" \tuplet 3/2 { t8 r t r 15t r } |
+    \tuplet 3/2 { 1-14t8 15t 14t } 2-15t2. \bendAfter #6 ^"full" |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    3-17t8 \tuplet 3/2 { 1-15t16 2-18t 15t } 3-17t8 \tuplet 3/2 { 1-15t16 2-18t 15t } 3-17t8 \tuplet 3/2 { 1-15t16 2-18t 15t } 3-17t8 \tuplet 3/2 { 1-15t16 2-18t 15t } |
+    3-17t8 \tuplet 3/2 { 1-15t16 2-18t 15t } 3-17t8 1-15t16 20t2~ t16 \bendAfter #6 ^"full" |
+    1-17t2 6-15t |
+    6-0t1 |
+    r1 |
+}

@@ -1,0 +1,6 @@
+#!/bin/sh
+java -jar ../../songsterrToLy/1.jar --name guitar1 --output-tabs https://www.songsterr.com/a/wsa/poison-talk-dirty-to-me-tab-s22500t0 > guitar1tabs
+java -jar ../../songsterrToLy/1.jar --name guitar2 --output-tabs https://www.songsterr.com/a/wsa/poison-talk-dirty-to-me-tab-s22500t1 > guitar2tabs
+java -jar ../../songsterrToLy/1.jar --name guitar3 --output-tabs https://www.songsterr.com/a/wsa/poison-talk-dirty-to-me-tab-s22500t2 > guitar3tabs
+java -jar ../../songsterrToLy/1.jar --name bass --output-tabs https://www.songsterr.com/a/wsa/poison-talk-dirty-to-me-bass-tab-s22500t3 > basstabs
+java -jar ../../songsterrToLy/1.jar --name drums https://www.songsterr.com/a/wsa/poison-talk-dirty-to-me-drum-tab-s22500t4 > drums

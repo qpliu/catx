@@ -1,0 +1,115 @@
+vocalssimple = \transpose ees e {
+    s1 s1 s1 s1 s1 s1 s1 s1
+    s1 s1 s1 s1 s1 |
+    r2 r8 des''8 des'' des'' |
+\mymark "Verse 1" #15
+    des''8 des'' r4 r4 r8 des''8 |
+    des''8 des'' des'' des'' ees'' bes'4 des''8~ |
+    des''4 r4 r4 r8 des''8 |
+    des''8 des'' des'' des'' ees'' f''4 des''8~ |
+    des''4 r4 r2 |
+    r2 des''8 des''4 ees''8~ |
+    ees''8 des''4. r2 |
+    r2 r8 des''8 des''4 |
+    ces''2 bes'2 |
+    ges'2 ees'4. ges'8~ |
+    ges'4 r4 r4 r8 ees'8 |
+    ges'4 ees'8 ges'4 bes'4 ges'8~ |
+    ges'4 r4 r2 |
+    r4 r8 des''8 ees''4 des''8 ees''8~ |
+    ees''8 des''4. r4 des''4 |
+    f''8 f''4 des''8~ des''4 r8 des''8 |
+\mymark "Verse 2" #31
+    des''8 des'' r4 r4 r8 des''8 |
+    des''8 des'' des'' des'' ees'' bes'4 des''8~ |
+    des''4 r4 r4 r8 des''8 |
+    des''8 des'' des'' des'' ees'' f''4 des''8~ |
+    des''4 r4 r2 |
+    r2 des''8 des''4 ees''8~ |
+    ees''8 des''4. r2 |
+    r2 r8 des''8 des''4 |
+    ces''2 bes'2 |
+    ges'2 ees'4. ges'8~ |
+    ges'4 r4 r4 r8 ees'8 |
+    ges'4 ees'8 ges'4 bes'4 ges'8~ |
+    ges'4 r4 r2 |
+    r4 r8 des''8 ees''4 des''8 ees''8~ |
+    ees''8 des''4. r4 des''4 |
+    f''4 ees''8 aes''4 f''8~ f''4 |
+\mymark "Chorus 1" #47
+    r2 des''4 des''4 |
+    ees''8( des''4) des''4. r4 |
+    r2 des''4 des''8 ees''8~ |
+    ees''8 ges''4 des''8~ des''4 r4 |
+    r4 r8 ces''8 ges''4 ges'' |
+    des''4. des''8~ des''4 r4 |
+    r4 r8 des''8 des''4 des'' |
+    ees''8 des'' bes' des''~ des''4 r4 |
+    r4 r8 des''8~ des''4 des'' |
+    ees''8( des''4) f''8~ f''4 r4 |
+    r4 ees''4~ ees''8 ees''4. |
+    des''8 ees''4 ges''8~ ges''4 ces'' |
+    bes'8( aes' ges') ges'~ ges'4 r4 |
+    r4 ces''4 bes'8 aes' ges' ges' |
+    r1 |
+    r2 r8 des''8 des'' des'' |
+\mymark "Verse 3" #63
+    des''8 des'' r4 r4 r8 des''8 |
+    des''8 des'' des'' des'' ees'' bes'4 des''8~ |
+    des''4 r4 r4 r8 des''8 |
+    des''8 des'' des'' des'' ees'' f''4 des''8~ |
+    des''4 r4 r2 |
+    r2 des''8 des''8 des''8 ees''8~ |
+    ees''8 des''4. r2 |
+    r2 r8 des''8 des''4 |
+    ces''2 bes'2 |
+    ges'2 ees'4. ges'8~ |
+    ges'4 r4 r4 r8 ees'8 |
+    ges'4 ees'8 ges'4 bes'4 ges'8~ |
+    ges'4 r4 r2 |
+    r4 r8 des''8 ees''4 des''8 ees''8~ |
+    ees''8 des''4. r4 des''4 |
+    f''4 ees''8 aes''4 f''8~ f''4 |
+\mymark "Chorus 2" #79
+    r2 des''4 des''4 |
+    ees''8( des''4) des''4. r4 |
+    r2 des''4 des''8 ees''8~ |
+    ees''8 ges''4 des''8~ des''4 r4 |
+    r4 r8 ces''8 ges''4 ges'' |
+    des''4. des''8~ des''4 r4 |
+    r4 r8 des''8 des''4 des'' |
+    ees''8 des'' bes' des''~ des''4 r4 |
+    r4 r8 des''8~ des''4 des'' |
+    ees''8( des''4) f''8~ f''4 r4 |
+    r4 ees''4~ ees''8 ees''4. |
+    des''8 ees''4 ges''8~ ges''4 ces'' |
+    bes'8( aes' ges') ges'~ ges'4 r4 |
+    r4 ces''4 bes'8 aes' ges' ges' |
+    r1 |
+    r2 r8 \deadNote bes'8 \deadNote bes'4 |
+\mymark "Solo" #95
+    \deadNote bes'8 \deadNote bes'8 \deadNote bes'8 \deadNote bes'8 \deadNote bes'4 \deadNote bes'8 \deadNote bes'8 |
+    r8 \deadNote bes'4 \deadNote bes'8 \deadNote bes'4 \deadNote bes'4 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 |
+    r8 \deadNote bes'4 \deadNote bes'4 \deadNote bes'4 \deadNote bes'8 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    r2 r4 r8 des''8 |
+    ees''4 des''8  aes''8~ aes''8 f''4. |
+\mymark "Chorus 3" #115
+    r2 des''4 des''4 |
+    ees''8( des''4) des''4. r4 |
+    r2 des''4 des''8 ees''8~ |
+    ees''8 ges''4 des''8~ des''4 r4 |
+    r4 r8 ces''8 ges''4 ges'' |
+    des''4. des''8~ des''4 r4 |
+    r4 r8 des''8 des''4 des'' |
+    ees''8 des'' bes' des''~ des''4 r4 |
+    r4 r8 des''8~ des''4 des'' |
+    ees''8( des''4) f''8~ f''4 r4 |
+    r4 ees''4~ ees''8 ees''4. |
+    des''8 ees''4 ges''8~ ges''4 ces'' |
+    bes'8( aes' ges') ges'~ ges'4 r4 |
+    r4 ces''4 bes'8 aes' ges' ges' |
+}
