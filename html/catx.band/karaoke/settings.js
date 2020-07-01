@@ -18,10 +18,12 @@ class Settings{
 		"Increase this to make microphone more sensitive.  If you have to yell really loud, try making this bigger."],
 	    ["fftSize","fftSize","8192",Number,
 		"This must be power of 2 between 32 and 32768.  Bigger fftSize increases frequency resolution and decreases time resolution."],
+	    ["Aarin Robo Version","version","AARIN_ROBO_VERSION",String,
+		"This is version number of Aarin Robo."],
 	];
 	for (const s of this.settings){
 	    let match=location.search.match("[?&]"+s[1]+"=([^?&]*)");
-	    let value=match && match[1] || s[2];
+	    let value=s[1]!="version" && match && match[1] || s[2];
 	    this[s[1]] = s[3](value);
 	    const div=document.createElement("div");
 	    div.className = "tooltip";
@@ -33,7 +35,7 @@ class Settings{
 	    input.value = String(this[s[1]]);
 	    input.onchange = ()=>{
 		const value=s[3](input.value);
-		if (!isNaN(value)){
+		if (s[3]!=Number || !isNaN(value)){
 		    this[s[1]] = value;
 		    this.makeEverythingAgree();
 		}

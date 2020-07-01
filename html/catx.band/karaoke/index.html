@@ -24,14 +24,14 @@
     }
 </style>
 <body>
-<script src=websocketstuff.js?version=2></script>
-<script src=settings.js?version=2></script>
-<script src=cats.js?version=2></script>
-<script src=background.js?version=2></script>
-<script src=tones.js?version=2></script>
-<script src=beatcounter.js?version=2></script>
-<script src=snakes.js?version=2></script>
-<script src=球球.js?version=2></script>
+<script src=websocketstuff.js?version=AARIN_ROBO_VERSION></script>
+<script src=settings.js?version=AARIN_ROBO_VERSION></script>
+<script src=cats.js?version=AARIN_ROBO_VERSION></script>
+<script src=background.js?version=AARIN_ROBO_VERSION></script>
+<script src=tones.js?version=AARIN_ROBO_VERSION></script>
+<script src=beatcounter.js?version=AARIN_ROBO_VERSION></script>
+<script src=snakes.js?version=AARIN_ROBO_VERSION></script>
+<script src=球球.js?version=AARIN_ROBO_VERSION></script>
 <span id=bigSettings style=position:absolute;width:98%;>
     <span style=position:absolute;left:0;width:29%;display:inline-block;>
 	<button type=submit style=font-size:20px; onclick=start(0);>Start 球球!</button>
@@ -160,6 +160,11 @@
 		if ("stop" in json)
 		    startTime = undefined;
 	    }
+	    if (event.data.slice(0,1)=="v")
+		if (event.data!="vAARIN_ROBO_VERSION"){
+		    alert("Aarin Robo says:\nVersion number is wrong.  Aarin Robo will try to fix it.");
+		    location.href = "index.html?version=AARIN_ROBO_VERSION";
+		}
 	}
     }();
     chatForm.onsubmit = function(event){
