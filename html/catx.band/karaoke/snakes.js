@@ -3,7 +3,7 @@ class Snakes{
 	this.canvases = [];
 	for (let i=0; i<2; i++){
 	    this.canvases[i] = document.createElement("canvas");
-	    this.canvases[i].style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;background-color:#000;";
+	    this.canvases[i].style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;";
 	    where.appendChild(this.canvases[i] );
 	}
 	this.staticDiv = document.createElement("div");
@@ -121,8 +121,8 @@ class Snakes{
 	}
 	const context=this.canvases[which].getContext("2d");
 	const context1=this.canvases[which^1].getContext("2d");
-	context1.globalCompositeOperation = "source-over";
 	context.globalCompositeOperation = "source-over";
+	context1.globalCompositeOperation = "source-over";
 	let key=[0,0];
 	for (const e of this.keysignatureEvents){
 	    if (e.t>t0)
@@ -175,9 +175,9 @@ class Snakes{
     }
     drawFft(canvas,time,now){
 	const context=canvas.getContext("2d");
+	context.globalCompositeOperation = "lighten";
 	const x0=Math.floor((this.lastFftTime-settings.microphoneLatency-time)*this.canvasWidth/settings.snakeTime+this.canvasWidth/2);
 	const x1=Math.floor((now-settings.microphoneLatency-time)*this.canvasWidth/settings.snakeTime+this.canvasWidth/2);
-	context.globalCompositeOperation = "lighten";
 	const i0=Math.floor(Math.exp((settings.minNote-69)/12*Math.log(2))*440*settings.fftSize/audioContext.sampleRate);
 	const i1=Math.floor(Math.exp((settings.maxNote-69)/12*Math.log(2))*440*settings.fftSize/audioContext.sampleRate);
 	for (let i=i0; i<i1; i++){
@@ -194,9 +194,9 @@ class Snakes{
 	if (!this.enabled)
 	    return;
 	const rect=this.canvases[0].getBoundingClientRect();
-	if (this.canvasWidth!=rect.width || this.canvasHeight!=rect.height){
-	    this.canvasWidth = rect.width;
-	    this.canvasHeight = rect.height;
+	if (this.canvasWidth!=Math.ceil(rect.width) || this.canvasHeight!=Math.ceil(rect.height)){
+	    this.canvasWidth = Math.ceil(rect.width);
+	    this.canvasHeight = Math.ceil(rect.height);
 	    for (let i=0; i<2; i++){
 		this.canvases[i].width = this.canvasWidth;
 		this.canvases[i].height = this.canvasHeight;
@@ -221,7 +221,7 @@ class Snakes{
 	    this.drawFft(this.canvases[this.whichCanvas^1],this.canvasTime+settings.snakeTime,now);
 	    this.lastFftTime = now;
 	}
-	for (const canvasX=(now-this.canvasTime)*this.canvasWidth/settings.snakeTime+2*this.canvasWidth; this.lastCanvasX<canvasX; this.lastCanvasX++)
+	for (const canvasX=Math.ceil((now-this.canvasTime)*this.canvasWidth/settings.snakeTime)+2*this.canvasWidth; this.lastCanvasX<canvasX; this.lastCanvasX++)
 	    this.drawCanvas(this.lastCanvasX);
 	this.canvases[this.whichCanvas].style.left = (this.canvasTime-now)*100/settings.snakeTime+"%";
 	this.canvases[this.whichCanvas^1].style.left = 100+(this.canvasTime-now)*100/settings.snakeTime+"%";
