@@ -63,7 +63,7 @@
     <img style=position:absolute;right:0;top:0;width:5vw;z-index:9;color:#0f0; src=../settings.svg onclick=backToSettings();>
     <div id=cat_div style=position:absolute;left:0;top:10vh;width:100vw;></div>
     <div style=position:absolute;top:0;left:0;width:100vw;height:10vh;text-align:center;>
-	<span id=name style=font-size:3vw;white-space:nowrap;color:#0f0;background-color:#000;></span>
+	<span id=name style=font-size:3vw;white-space:nowrap;color:#0f0;background-color:#000;>Select a song with Aarin Robo to sing Karaoke!</span>
     </div>
     <div style=position:absolute;top:10vh;left:0;width:100vw;text-align:center;>
 	<span id=beat_span style=font-family:monospace;font-size:8vh;color:#000;background-color:#0f0;></span>
@@ -83,6 +83,7 @@
     const beatCounter=new BeatCounter(cats,document.getElementById("beat_span"));
     const qiuqius=new 球球(document.getElementById("bigSpan"));
     const snakes=new Snakes(document.getElementById("bigSpan"));
+    let isPlaying;
     let startTime;
     const websocketStuff=new class extends WebsocketStuff{
 	onopen(){
@@ -104,7 +105,13 @@
 		    document.getElementById("title").innerHTML = json.name;
 		}
 		if (json.karaoke){
-		    startTime = json.start_time && json.start_time+this.ntp_offset+settings.delay;
+		    if (json.start_time==undefined){
+			isPlaying = 1;
+			startTime = new Date().getTime();
+		    }else{
+			isPlaying = 2;
+			startTime = json.start_time+this.ntp_offset+settings.delay;
+		    }
 		    const repeat=json.repeat||0;
 		    cats.reset();
 		    background.reset(startTime,repeat,json.length);
@@ -159,7 +166,7 @@
 		    requestAnimationFrame(animate);
 		}
 		if (json.stop!=undefined)
-		    startTime = undefined;
+		    isPlaying = 0;
 	    }
 	    if (event.data.slice(0,1)=="v")
 		if (event.data!="vAARIN_ROBO_VERSION"){
@@ -179,14 +186,17 @@
 	event.preventDefault();
     };
     function animate(){
-	if (startTime==undefined)
-	    return;
-	const now=new Date().getTime();
-	snakes.animate(now);
-	qiuqius.animate(now);
-	background.animate(now);
-	tones.animate(now);
-	beatCounter.animate(now);
+	if (isPlaying){
+	    const now=new Date().getTime();
+	    snakes.animate(now);
+	    qiuqius.animate(now);
+	    background.animate(now);
+	    beatCounter.animate(now);
+	    if (isPlaying==2)
+		tones.animate(now);
+	    if (isPlaying==1)
+		isPlaying = 0;
+	}
 	requestAnimationFrame(animate);
     }
     function backToSettings(){
@@ -205,6 +215,10 @@
 	qiuqius.setEnabled(!snakeMode);
 	cats.setEnabled(!snakeMode);
 	background.setEnabled(!snakeMode);
+	if (!isPlaying){
+	    isPlaying = 1;
+	    startTime = new Date().getTime();
+	}
     }
     websocketStuff.start();
 </script>

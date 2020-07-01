@@ -28,11 +28,6 @@ class 球球{
 	}
 	this.lineatat.style.display = display;
 	this.ball.style.display = display;
-	if (enabled && this.startTime==undefined){
-	    this.startTime = new Date().getTime();
-	    this.animate(this.startTime);
-	    this.startTime = undefined;
-	}
     }
     reset(startTime,repeat){
 	this.startTime = startTime;
