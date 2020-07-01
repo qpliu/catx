@@ -188,7 +188,7 @@
     };
     function animate(){
 	if (isPlaying){
-	    const now=new Date().getTime();
+	    const now=isPlaying==1?startTime:new Date().getTime();
 	    snakes.animate(now);
 	    qiuqius.animate(now);
 	    background.animate(now);
@@ -210,10 +210,8 @@
 	qiuqius.setEnabled(mode==1);
 	cats.setEnabled(mode==1);
 	background.setEnabled(mode==1);
-	if (!isPlaying){
+	if (!isPlaying)
 	    isPlaying = 1;
-	    startTime = new Date().getTime();
-	}
     }
     websocketStuff.start();
 </script>

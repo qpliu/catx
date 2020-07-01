@@ -49,7 +49,7 @@ class Cats{
 	if (this.enabled)
 	    for (const cat of this.cats){
 		cat.frames[cat.currentFrame].style.visibility = "hidden";
-		cat.currentFrame = Math.floor((cat.beat+x)*cat.frames.length/cat.beats)%cat.frames.length;
+		cat.currentFrame = (Math.floor((cat.beat+x)*cat.frames.length/cat.beats)%cat.frames.length+cat.frames.length)%cat.frames.length;
 		cat.frames[cat.currentFrame].style.visibility = "visible";
 	    }
     }
