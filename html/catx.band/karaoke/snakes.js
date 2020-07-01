@@ -102,7 +102,7 @@ class Snakes{
 	let sb="";
 	for (let note=settings.minNote+1; note<settings.maxNote; note++)
 	    if (this.keyContainsNoteColor(bestKey,note)){
-		const y=(settings.maxNote-note)/(settings.maxNote-settings.minNote)*80-1;
+		const y=(settings.maxNote-note)/(settings.maxNote-settings.minNote)*80-1.1;
 		sb += "<span style=position:absolute;left:50%;top:"+y+"vh;>"+this.noteToString(bestKey,note)+"</span>"
 	    }
 	if (this.staticDiv.innerHtml!=sb)
