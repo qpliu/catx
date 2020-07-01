@@ -82,9 +82,9 @@ class Snakes{
     keyContainsNoteColor(key,note){
 	note = (note+12-[11,6,1,8,3,10,5,0,7,2,9,4,11,6,1][key[0]+7])%12;
 	if (note==(key[1]?9:0))
-	    return "#888";
+	    return "#c0c0c0";
 	if (note==0 || note==2 || note==4 || note==5 || note==7 || note==9 || note==11)
-	    return "#444";
+	    return "#808080";
     }
     drawLetters(time){
 	let bestTime=Infinity;
@@ -108,42 +108,8 @@ class Snakes{
 	if (this.staticDiv.innerHtml!=sb)
 	    this.staticDiv.innerHTML = sb;
     }
-    drawKeySignature(t,end,key){
-	let sb="";
-	const x0=t*100/settings.snakeTime;
-	const x1=end*100/settings.snakeTime;
-	for (let note=settings.minNote+1; note<settings.maxNote; note++){
-	    const color=this.keyContainsNoteColor(key,note);
-	    if (color!=undefined){
-		const y=(settings.maxNote-note)/(settings.maxNote-settings.minNote)*100;
-		sb += "<div style=position:absolute;left:"+x0+"%;width:"+(x1-x0)+"%;top:"+y+"%;height:1px;background-color:"+color+";></div>"
-	    }
-	}
-	return sb;
-    }
     drawDiv(div,time){
 	let sb="";
-	let lastT;
-	let lastKey;
-	let r=this.repeat&&time>=this.songLength?Math.floor((time-this.songLength)/this.repeat+1)*this.repeat:0;
-	for (let ki=0; ki<this.keysignatureEvents.length;){
-	    const t=r+this.keysignatureEvents[ki].t-time;
-	    if (t>=settings.snakeTime)
-		break;
-	    if (!r || this.keysignatureEvents[ki].t>=this.songLength-this.repeat){
-		if (lastT!=undefined)
-		    sb += this.drawKeySignature(lastT,t,lastKey);
-		lastT = t;
-		lastKey = this.keysignatureEvents[ki].key;
-	    }
-	    if (ki==this.keysignatureEvents.length-1 && this.repeat){
-		r += this.repeat;
-		ki = 0;
-	    }else
-		ki++;
-	}
-	if (lastT!=undefined)
-	    sb += this.drawKeySignature(lastT,settings.snakeTime,lastKey);
 	for (const e of this.lyricEvents){
 	    const r0=this.repeat?Math.ceil((time-settings.snakeTime-e.t)/this.repeat):0;
 	    const r1=this.repeat?Math.ceil((time+settings.snakeTime-e.t)/this.repeat):1;
@@ -177,11 +143,25 @@ class Snakes{
 		t0 -= tt;
 		t1 -= tt;
 	    }
+	    let key=[0,0];
+	    for (const e of this.keysignatureEvents){
+		if (e.t>t0)
+		    break;
+		key = e.key;
+	    }
 	    context.fillStyle = "#303030";
 	    for (const e of this.beatEvents)
 		if (e.t>=t0 && e.t<t1)
 		    context.fillStyle = e.what.slice(-2)==":1"||e.what=="1"?"#ff3030":"#3030ff";
 	    context.fillRect(x,0,1,this.canvasHeight);
+	    for (let note=settings.minNote+1; note<settings.maxNote; note++){
+		const color=this.keyContainsNoteColor(key,note);
+		if (color!=undefined){
+		    context.fillStyle = color;
+		    const y=(settings.maxNote-note)/(settings.maxNote-settings.minNote)*this.canvasHeight;
+		    context.fillRect(x,y,1,1);
+		}
+	    }
 	    context.fillStyle = "#ff30ff";
 	    for (const e of this.toneEvents)
 		if (t0>=e.t && t0<e.t+e.duration){
