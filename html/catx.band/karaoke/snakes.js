@@ -100,12 +100,19 @@ class Snakes{
 	}
     }
     drawCanvas(x){
-	let t0=this.canvasTime-this.startTime-settings.snakeTime/2+x*settings.snakeTime/this.canvasWidth;
-	let t1=this.canvasTime-this.startTime-settings.snakeTime/2+(x+1)*settings.snakeTime/this.canvasWidth;
-	if (this.repeat && t0>=this.songLength){
+	let t0=Math.floor(this.canvasTime-this.startTime-settings.snakeTime/2+x*settings.snakeTime/this.canvasWidth);
+	let t1=Math.floor(this.canvasTime-this.startTime-settings.snakeTime/2+(x+1)*settings.snakeTime/this.canvasWidth);
+	if (this.repeat && t1>=this.songLength){
 	    const tt=Math.ceil((t1-this.songLength)/this.repeat)*this.repeat;
 	    t0 -= tt;
 	    t1 -= tt;
+	}
+	let lt0=Math.floor(this.canvasTime-this.startTime-3*settings.snakeTime/2+x*settings.snakeTime/this.canvasWidth);
+	let lt1=Math.floor(this.canvasTime-this.startTime-3*settings.snakeTime/2+(x+1)*settings.snakeTime/this.canvasWidth);
+	if (this.repeat && lt1>=this.songLength){
+	    const tt=Math.ceil((lt1-this.songLength)/this.repeat)*this.repeat;
+	    lt0 -= tt;
+	    lt1 -= tt;
 	}
 	let which=this.whichCanvas;
 	while (x>=this.canvasWidth){
@@ -145,19 +152,12 @@ class Snakes{
 		context.fillRect(x,0,1,this.canvasHeight);
 		break;
 	    }
-	t0 -= settings.snakeTime;
-	t1 -= settings.snakeTime;
-	if (this.repeat && t1<=0){
-	    const tt=Math.floor(1-t1/this.repeat)*this.repeat;
-	    t0 += tt;
-	    t1 += tt;
-	}
 	context.fillStyle = "#00ff00";
 	context1.fillStyle = "#00ff00";
 	context.font = "bold "+this.canvasHeight/24+"px serif";
 	context1.font = "bold "+this.canvasHeight/24+"px serif";
 	for (const e of this.lyricEvents){
-	    if (e.t>=t0 && e.t<t1){
+	    if (e.t>=lt0 && e.t<lt1){
 		let k=e.what;
 		if (k.slice(0,1)==">")
 		    k = k.slice(1);
