@@ -33,6 +33,9 @@
 <script src=snakes.js?version=AARIN_ROBO_VERSION></script>
 <script src=球球.js?version=AARIN_ROBO_VERSION></script>
 <span id=topStuff>
+    <div style=position:absolute;top:0;left:0;width:100vw;height:10vh;text-align:center;>
+	<span id=name style=font-size:3vw;white-space:nowrap;color:#0f0;background-color:#000;>Select a song with Aarin Robo to sing Karaoke!</span>
+    </div>
     <span id=websocketControls style=visibility:hidden;>
 	<img style=position:absolute;left:6vw;top:0;width:5vw;z-index:9; onclick=gotClick();websocketStuff.sendChat("stop"); src=../stop.svg></a>
 	<img style=position:absolute;left:11vw;top:0;width:5vw;z-index:9; onclick=gotClick();websocketStuff.sendChat("play"); src=../play.svg></a>
@@ -41,8 +44,8 @@
     <img id=qiuqiuImg style=position:absolute;right:6vw;top:0;width:5vw;z-index:9; src=../ball.png onclick=gotClick();setMode(1);>
     <img id=snakesImg style=position:absolute;right:12vw;top:0;width:10vw;z-index:9; src=../snake.png onclick=gotClick();setMode(2);>
 </span>
-<span id=bigSettings style=position:absolute;width:98%;>
-    <span style=position:absolute;top:5vw;left:0;width:29%;display:inline-block;>
+<span id=bigSettings style=position:absolute;width:98%;top:10vh;>
+    <span style=position:absolute;left:0;width:29%;display:inline-block;>
 	<br>
 	<span id=settingsInputs></span>
 	<div class=tooltip>
@@ -55,7 +58,7 @@
     <span style=position:absolute;left:29%;width:69%;display:inline-block;>
 	Private Chat With Aarin Robo:
 	<br>
-	<div id=chatDiv style=width:100%;height:90vh;overflow-y:scroll;background-color:#ccc;></div>
+	<div id=chatDiv style=width:100%;height:80vh;overflow-y:scroll;background-color:#ccc;></div>
 	<form id=chatForm style=width:100%;display:table;>
 	    <label for=chatInput style=display:table-cell;width:0;>Chat:</label>
 	    <input id=chatInput style=display:table-cell;width:100%;font-size:15px; type=text>
@@ -64,9 +67,6 @@
 </span>
 <span id=bigSpan style=display:none;position:absolute;left:0;top:0;width:100vw;height:100vh;overflow:hidden;>
     <div id=cat_div style=position:absolute;left:0;top:10vh;width:100vw;></div>
-    <div style=position:absolute;top:0;left:0;width:100vw;height:10vh;text-align:center;>
-	<span id=name style=font-size:3vw;white-space:nowrap;color:#0f0;background-color:#000;>Select a song with Aarin Robo to sing Karaoke!</span>
-    </div>
     <div style=position:absolute;top:10vh;left:0;width:100vw;text-align:center;>
 	<span id=beat_span style=font-family:monospace;font-size:8vh;color:#000;background-color:#0f0;></span>
     </div>
