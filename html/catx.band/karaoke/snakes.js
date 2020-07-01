@@ -204,7 +204,7 @@ class Snakes{
 	    this.canvasTime = 0;
 	    this.lastCanvasX = 0;
 	}
-	if (this.canvasTime<now-2*settings.snakeTime){
+	if (this.canvasTime<now-2*settings.snakeTime || this.canvasTime>now){
 	    this.canvasTime = now-settings.snakeTime;
 	    this.lastFftTime = now;
 	    this.lastCanvasX = this.canvasWidth;
