@@ -22,18 +22,13 @@ class Snakes{
 	this.canvasTime = 0;
 	this.whichCanvas = 0;
 	this.lastKey = undefined;
+	this.lastCanvasX = 0;
     }
     setEnabled(enabled){
 	this.enabled = enabled;
-	this.canvasTime = 0;
-	this.canvasWidth = 1024;
-	this.canvasHeight = (settings.maxNote-settings.minNote)*10;
 	const display=enabled?"block":"none";
-	for (let i=0; i<2; i++){
-	    this.canvases[i].width = this.canvasWidth;
-	    this.canvases[i].height = this.canvasHeight;
+	for (let i=0; i<2; i++)
 	    this.canvases[i].style.display = display;
-	}
 	this.staticDiv.style.display = display;
 	if (enabled && !this.gotMicrophone){
 	    this.gotMicrophone = true;
@@ -104,74 +99,84 @@ class Snakes{
 	    this.staticDiv.innerHTML = sb;
 	}
     }
-    drawCanvas(which,time){
-	time -= this.startTime+settings.snakeTime/2;
+    drawCanvas(x){
+	let t0=this.canvasTime-this.startTime-settings.snakeTime/2+x*settings.snakeTime/this.canvasWidth;
+	let t1=this.canvasTime-this.startTime-settings.snakeTime/2+(x+1)*settings.snakeTime/this.canvasWidth;
+	if (this.repeat && t0>=this.songLength){
+	    const tt=Math.ceil((t1-this.songLength)/this.repeat)*this.repeat;
+	    t0 -= tt;
+	    t1 -= tt;
+	}
+	let which=this.whichCanvas;
+	while (x>=this.canvasWidth){
+	    x -= this.canvasWidth;
+	    which ^= 1;
+	}
 	const context=this.canvases[which].getContext("2d");
+	const context1=this.canvases[which^1].getContext("2d");
+	context1.globalCompositeOperation = "source-over";
 	context.globalCompositeOperation = "source-over";
-	for (let x=0; x<this.canvasWidth; x++){
-	    let t0=time+x*settings.snakeTime/this.canvasWidth;
-	    let t1=time+(x+1)*settings.snakeTime/this.canvasWidth;
-	    if (this.repeat && t0>=this.songLength){
-		const tt=Math.ceil((t1-this.songLength)/this.repeat)*this.repeat;
-		t0 -= tt;
-		t1 -= tt;
+	let key=[0,0];
+	for (const e of this.keysignatureEvents){
+	    if (e.t>t0)
+		break;
+	    key = e.key;
+	}
+	context.fillStyle = "#000000";
+	context.fillRect(x,0,1,this.canvasHeight);
+	context.fillStyle = "#ff00ff";
+	for (const e of this.toneEvents)
+	    if (t0>=e.t && t0<e.t+e.duration){
+		const y0=(settings.maxNote-e.note-.5)/(settings.maxNote-settings.minNote)*this.canvasHeight;
+		const y1=(settings.maxNote-e.note+.5)/(settings.maxNote-settings.minNote)*this.canvasHeight;
+		context.fillRect(x,y0,1,y1-y0);
 	    }
-	    let key=[0,0];
-	    for (const e of this.keysignatureEvents){
-		if (e.t>t0)
-		    break;
-		key = e.key;
-	    }
-	    context.fillStyle = "#000000";
-	    for (const e of this.beatEvents)
-		if (e.t>=t0 && e.t<t1)
-		    context.fillStyle = e.what.slice(-2)==":1"||e.what=="1"?"#ff0000":"#0000ff";
-	    context.fillRect(x,0,1,this.canvasHeight);
-	    context.fillStyle = "#ff00ff";
-	    for (const e of this.toneEvents)
-		if (t0>=e.t && t0<e.t+e.duration){
-		    const y0=(settings.maxNote-e.note-.5)/(settings.maxNote-settings.minNote)*this.canvasHeight;
-		    const y1=(settings.maxNote-e.note+.5)/(settings.maxNote-settings.minNote)*this.canvasHeight;
-		    context.fillRect(x,y0,1,y1-y0);
-		}
-	    for (let note=settings.minNote+1; note<settings.maxNote; note++){
-		const color=this.keyContainsNoteColor(key,note);
-		if (color!=undefined){
-		    context.fillStyle = color;
-		    const y=(settings.maxNote-note)/(settings.maxNote-settings.minNote)*this.canvasHeight;
-		    context.fillRect(x,y,1,1);
-		}
+	for (let note=settings.minNote+1; note<settings.maxNote; note++){
+	    const color=this.keyContainsNoteColor(key,note);
+	    if (color!=undefined){
+		context.fillStyle = color;
+		const y=(settings.maxNote-note)/(settings.maxNote-settings.minNote)*this.canvasHeight;
+		context.fillRect(x,y,1,1);
 	    }
 	}
+	for (const e of this.beatEvents)
+	    if (e.t>=t0 && e.t<t1){
+		context.fillStyle = e.what.slice(-2)==":1"||e.what=="1"?"#ff0000":"#0000ff";
+		context.fillRect(x,0,1,this.canvasHeight);
+		break;
+	    }
+	t0 -= settings.snakeTime;
+	t1 -= settings.snakeTime;
+	if (this.repeat && t1<=0){
+	    const tt=Math.floor(1-t1/this.repeat)*this.repeat;
+	    t0 += tt;
+	    t1 += tt;
+	}
 	context.fillStyle = "#00ff00";
-	context.font = "bold 16px serif";
+	context1.fillStyle = "#00ff00";
+	context.font = "bold "+this.canvasHeight/24+"px serif";
+	context1.font = "bold "+this.canvasHeight/24+"px serif";
 	for (const e of this.lyricEvents){
-	    const r0=this.repeat?Math.max(Math.ceil((time-settings.snakeTime-e.t)/this.repeat),0):0;
-	    const r1=this.repeat?Math.ceil((time+settings.snakeTime-e.t)/this.repeat):1;
-	    for (let r=r0; r<r1; r++){
-		const t=e.t+this.repeat*r;
-		if (t>time-settings.snakeTime && t<time+settings.snakeTime){
-		    let k=e.what;
-		    if (k.slice(0,1)==">")
-			k = k.slice(1);
-		    if (k=="@" || k=="@@")
-			continue;
-		    if (k.slice(0,1)=="-")
-			k = k.slice(1);
-		    if (k.length!=0){
-			const y=e.note==undefined?0:(settings.maxNote-e.note)/(settings.maxNote-settings.minNote)*this.canvasHeight+5;
-			context.fillText(k,(t-time)*this.canvasWidth/settings.snakeTime,y);
-		    }
+	    if (e.t>=t0 && e.t<t1){
+		let k=e.what;
+		if (k.slice(0,1)==">")
+		    k = k.slice(1);
+		if (k=="@" || k=="@@")
+		    continue;
+		if (k.slice(0,1)=="-")
+		    k = k.slice(1);
+		if (k.length!=0){
+		    const y=e.note==undefined?this.canvasHeight/2:((settings.maxNote-e.note)/(settings.maxNote-settings.minNote)+.35/24)*this.canvasHeight;
+		    context.fillText(k,x-this.canvasWidth,y);
+		    context1.fillText(k,x,y);
 		}
 	    }
 	}
     }
     drawFft(canvas,time,now){
 	const context=canvas.getContext("2d");
-	const xx0=Math.floor((this.lastFftTime-time)*this.canvasWidth/settings.snakeTime)+this.canvasWidth/2;
-	const xx1=Math.floor((now-time)*this.canvasWidth/settings.snakeTime)+this.canvasWidth/2;
-	const x0=Math.floor((this.lastFftTime-settings.microphoneLatency-time)*this.canvasWidth/settings.snakeTime)+this.canvasWidth/2;
-	const x1=Math.floor((now-settings.microphoneLatency-time)*this.canvasWidth/settings.snakeTime)+this.canvasWidth/2;
+	const x0=Math.floor((this.lastFftTime-settings.microphoneLatency-time)*this.canvasWidth/settings.snakeTime+this.canvasWidth/2);
+	const x1=Math.floor((now-settings.microphoneLatency-time)*this.canvasWidth/settings.snakeTime+this.canvasWidth/2);
 	context.globalCompositeOperation = "lighten";
 	const i0=Math.floor(Math.exp((settings.minNote-69)/12*Math.log(2))*440*settings.fftSize/audioContext.sampleRate);
 	const i1=Math.floor(Math.exp((settings.maxNote-69)/12*Math.log(2))*440*settings.fftSize/audioContext.sampleRate);
@@ -188,14 +193,25 @@ class Snakes{
     animate(now){
 	if (!this.enabled)
 	    return;
+	const rect=this.canvases[0].getBoundingClientRect();
+	if (this.canvasWidth!=rect.width || this.canvasHeight!=rect.height){
+	    this.canvasWidth = rect.width;
+	    this.canvasHeight = rect.height;
+	    for (let i=0; i<2; i++){
+		this.canvases[i].width = this.canvasWidth;
+		this.canvases[i].height = this.canvasHeight;
+	    }
+	    this.canvasTime = 0;
+	    this.lastCanvasX = 0;
+	}
 	if (this.canvasTime<now-2*settings.snakeTime){
 	    this.canvasTime = now-settings.snakeTime;
-	    this.drawCanvas(this.whichCanvas^1,now);
 	    this.lastFftTime = now;
+	    this.lastCanvasX = this.canvasWidth;
 	}
 	if (now>=this.canvasTime+settings.snakeTime){
 	    this.canvasTime += settings.snakeTime;
-	    this.drawCanvas(this.whichCanvas,this.canvasTime+settings.snakeTime);
+	    this.lastCanvasX -= this.canvasWidth;
 	    this.whichCanvas ^= 1;
 	}
 	this.drawLetters(now-this.startTime);
@@ -205,6 +221,8 @@ class Snakes{
 	    this.drawFft(this.canvases[this.whichCanvas^1],this.canvasTime+settings.snakeTime,now);
 	    this.lastFftTime = now;
 	}
+	for (const canvasX=(now-this.canvasTime)*this.canvasWidth/settings.snakeTime+2*this.canvasWidth; this.lastCanvasX<canvasX; this.lastCanvasX++)
+	    this.drawCanvas(this.lastCanvasX);
 	this.canvases[this.whichCanvas].style.left = (this.canvasTime-now)*100/settings.snakeTime+"%";
 	this.canvases[this.whichCanvas^1].style.left = 100+(this.canvasTime-now)*100/settings.snakeTime+"%";
     }

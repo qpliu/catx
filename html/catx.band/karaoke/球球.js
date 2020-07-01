@@ -136,9 +136,9 @@ class 球球{
 	    const tt=this.ball_t1-this.ball_t0;
 	    const t=Math.min((now-this.ball_t0)/tt,1);
 	    const r=this.ball.getBoundingClientRect();
-	    this.ball.style.left = (this.ball_x0+t*(this.ball_x1-this.ball_x0)+(r.left-r.right)/2)+"px";
-	    const bounce_height=2*(r.bottom-r.top);
-	    this.ball.style.top = (this.ball_y0+t*(this.ball_y1-this.ball_y0)-r.bottom+r.top-(1-4*(t-.5)*(t-.5))*bounce_height*Math.min(tt/2000,1))+"px";
+	    this.ball.style.left = (this.ball_x0+t*(this.ball_x1-this.ball_x0)-r.width/2)+"px";
+	    const bounce_height=2*r.height;
+	    this.ball.style.top = (this.ball_y0+t*(this.ball_y1-this.ball_y0)-r.height-(1-4*(t-.5)*(t-.5))*bounce_height*Math.min(tt/2000,1))+"px";
 	}
     }
 }
