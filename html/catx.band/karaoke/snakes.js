@@ -131,13 +131,6 @@ class Snakes{
 	}
 	context.fillStyle = "#000000";
 	context.fillRect(x,0,1,this.canvasHeight);
-	context.fillStyle = "#ff00ff";
-	for (const e of this.toneEvents)
-	    if (t0>=e.t && t0<e.t+e.duration){
-		const y0=(settings.maxNote-e.note-.5)/(settings.maxNote-settings.minNote)*this.canvasHeight;
-		const y1=(settings.maxNote-e.note+.5)/(settings.maxNote-settings.minNote)*this.canvasHeight;
-		context.fillRect(x,y0,1,y1-y0);
-	    }
 	for (let note=settings.minNote+1; note<settings.maxNote; note++){
 	    const color=this.keyContainsNoteColor(key,note);
 	    if (color!=undefined){
@@ -151,6 +144,13 @@ class Snakes{
 		context.fillStyle = e.what.slice(-2)==":1"||e.what=="1"?"#ff0000":"#0000ff";
 		context.fillRect(x,0,1,this.canvasHeight);
 		break;
+	    }
+	for (const e of this.toneEvents)
+	    if (t0>=e.t && t0<e.t+e.duration){
+		context.fillStyle = this.keyContainsNoteColor(key,e.note)?"#ff00ff":"#ff00a0";
+		const y0=(settings.maxNote-e.note-.5)/(settings.maxNote-settings.minNote)*this.canvasHeight;
+		const y1=(settings.maxNote-e.note+.5)/(settings.maxNote-settings.minNote)*this.canvasHeight;
+		context.fillRect(x,y0,1,y1-y0);
 	    }
 	context.fillStyle = "#00ff00";
 	context1.fillStyle = "#00ff00";
