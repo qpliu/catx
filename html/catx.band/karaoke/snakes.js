@@ -1,16 +1,10 @@
 class Snakes{
     constructor(where){
 	this.canvases = [];
-	this.divs = [];
 	for (let i=0; i<2; i++){
-	    let canvas=document.createElement("canvas");
-	    canvas.style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;background-color:#000;";
-	    where.appendChild(canvas);
-	    this.canvases[i] = canvas;
-	    let div=document.createElement("div");
-	    div.style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;font-size:4vh;white-space:nowrap;color:#0f0;z-index:1;";
-	    where.appendChild(div);
-	    this.divs[i] = div;
+	    this.canvases[i] = document.createElement("canvas");
+	    this.canvases[i].style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;background-color:#000;";
+	    where.appendChild(this.canvases[i] );
 	}
 	this.staticDiv = document.createElement("div");
 	this.staticDiv.style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;font-size:2vh;color:#0ff;z-index:2;";
@@ -38,7 +32,6 @@ class Snakes{
 	    this.canvases[i].width = this.canvasWidth;
 	    this.canvases[i].height = this.canvasHeight;
 	    this.canvases[i].style.display = display;
-	    this.divs[i].style.display = display;
 	}
 	this.staticDiv.style.display = display;
 	if (enabled && !this.gotMicrophone){
@@ -82,9 +75,9 @@ class Snakes{
     keyContainsNoteColor(key,note){
 	note = (note+12-[11,6,1,8,3,10,5,0,7,2,9,4,11,6,1][key[0]+7])%12;
 	if (note==(key[1]?9:0))
-	    return "#c0c0c0";
-	if (note==0 || note==2 || note==4 || note==5 || note==7 || note==9 || note==11)
 	    return "#808080";
+	if (note==0 || note==2 || note==4 || note==5 || note==7 || note==9 || note==11)
+	    return "#404040";
     }
     drawLetters(time){
 	let bestTime=Infinity;
@@ -105,35 +98,12 @@ class Snakes{
 		const y=(settings.maxNote-note)/(settings.maxNote-settings.minNote)*80-1.1;
 		sb += "<span style=position:absolute;left:50%;top:"+y+"vh;>"+this.noteToString(bestKey,note)+"</span>"
 	    }
-	if (this.staticDiv.innerHtml!=sb)
+	if (this.staticDiv.innerHTML!=sb)
 	    this.staticDiv.innerHTML = sb;
     }
-    drawDiv(div,time){
-	let sb="";
-	for (const e of this.lyricEvents){
-	    const r0=this.repeat?Math.ceil((time-settings.snakeTime-e.t)/this.repeat):0;
-	    const r1=this.repeat?Math.ceil((time+settings.snakeTime-e.t)/this.repeat):1;
-	    for (let r=r0; r<r1; r++){
-		const t=e.t+this.repeat*r;
-		if (t>time-settings.snakeTime && t<time+settings.snakeTime){
-		    let k=e.what;
-		    if (k.slice(0,1)==">")
-			k = k.slice(1);
-		    if (k=="@" || k=="@@")
-			continue;
-		    if (k.slice(0,1)=="-")
-			k = k.slice(1);
-		    if (k.length!=0){
-			const y=e.note==undefined?0:(settings.maxNote-e.note)/(settings.maxNote-settings.minNote)*80-2.5;
-			sb += "<span style=position:absolute;left:"+(t-time)*100/settings.snakeTime+"vw;top:"+y+"vh;>"+k+"</span>"
-		    }
-		}
-	    }
-	}
-	div.innerHTML = sb;
-    }
-    drawCanvas(canvas,time){
-	const context=canvas.getContext("2d");
+    drawCanvas(which,time){
+	time -= this.startTime+settings.snakeTime/2;
+	const context=this.canvases[which].getContext("2d");
 	context.globalCompositeOperation = "source-over";
 	for (let x=0; x<this.canvasWidth; x++){
 	    let t0=time+x*settings.snakeTime/this.canvasWidth;
@@ -149,11 +119,18 @@ class Snakes{
 		    break;
 		key = e.key;
 	    }
-	    context.fillStyle = "#303030";
+	    context.fillStyle = "#000000";
 	    for (const e of this.beatEvents)
 		if (e.t>=t0 && e.t<t1)
-		    context.fillStyle = e.what.slice(-2)==":1"||e.what=="1"?"#ff3030":"#3030ff";
+		    context.fillStyle = e.what.slice(-2)==":1"||e.what=="1"?"#ff0000":"#0000ff";
 	    context.fillRect(x,0,1,this.canvasHeight);
+	    context.fillStyle = "#ff00ff";
+	    for (const e of this.toneEvents)
+		if (t0>=e.t && t0<e.t+e.duration){
+		    const y0=(settings.maxNote-e.note-.5)/(settings.maxNote-settings.minNote)*this.canvasHeight;
+		    const y1=(settings.maxNote-e.note+.5)/(settings.maxNote-settings.minNote)*this.canvasHeight;
+		    context.fillRect(x,y0,1,y1-y0);
+		}
 	    for (let note=settings.minNote+1; note<settings.maxNote; note++){
 		const color=this.keyContainsNoteColor(key,note);
 		if (color!=undefined){
@@ -162,26 +139,34 @@ class Snakes{
 		    context.fillRect(x,y,1,1);
 		}
 	    }
-	    context.fillStyle = "#ff30ff";
-	    for (const e of this.toneEvents)
-		if (t0>=e.t && t0<e.t+e.duration){
-		    const y0=(settings.maxNote-e.note-.5)/(settings.maxNote-settings.minNote)*this.canvasHeight;
-		    const y1=(settings.maxNote-e.note+.5)/(settings.maxNote-settings.minNote)*this.canvasHeight;
-		    context.fillRect(x,y0,1,y1-y0);
-		}
 	}
-    }
-    drawCanvasAndDiv(which,time){
-	this.drawDiv(this.divs[which],time-this.startTime-settings.snakeTime/2);
-	this.drawCanvas(this.canvases[which],time-this.startTime-settings.snakeTime/2);
+	context.fillStyle = "#00ff00";
+	context.font = "bold 16px serif";
+	for (const e of this.lyricEvents){
+	    const r0=this.repeat?Math.max(Math.ceil((time-settings.snakeTime-e.t)/this.repeat),0):0;
+	    const r1=this.repeat?Math.ceil((time+settings.snakeTime-e.t)/this.repeat):1;
+	    for (let r=r0; r<r1; r++){
+		const t=e.t+this.repeat*r;
+		if (t>time-settings.snakeTime && t<time+settings.snakeTime){
+		    let k=e.what;
+		    if (k.slice(0,1)==">")
+			k = k.slice(1);
+		    if (k=="@" || k=="@@")
+			continue;
+		    if (k.slice(0,1)=="-")
+			k = k.slice(1);
+		    if (k.length!=0){
+			const y=e.note==undefined?0:(settings.maxNote-e.note)/(settings.maxNote-settings.minNote)*this.canvasHeight+5;
+			context.fillText(k,(t-time)*this.canvasWidth/settings.snakeTime,y);
+		    }
+		}
+	    }
+	}
     }
     drawFft(canvas,time,now){
 	const context=canvas.getContext("2d");
 	const xx0=Math.floor((this.lastFftTime-time)*this.canvasWidth/settings.snakeTime)+this.canvasWidth/2;
 	const xx1=Math.floor((now-time)*this.canvasWidth/settings.snakeTime)+this.canvasWidth/2;
-	context.globalCompositeOperation = "difference";
-	context.fillStyle = "#303030";
-	context.fillRect(xx0,0,xx1-xx0,this.canvasHeight);
 	const x0=Math.floor((this.lastFftTime-settings.microphoneLatency-time)*this.canvasWidth/settings.snakeTime)+this.canvasWidth/2;
 	const x1=Math.floor((now-settings.microphoneLatency-time)*this.canvasWidth/settings.snakeTime)+this.canvasWidth/2;
 	context.globalCompositeOperation = "lighten";
@@ -202,12 +187,12 @@ class Snakes{
 	    return;
 	if (this.canvasTime<now-2*settings.snakeTime){
 	    this.canvasTime = now-settings.snakeTime;
-	    this.drawCanvasAndDiv(this.whichCanvas^1,now);
+	    this.drawCanvas(this.whichCanvas^1,now);
 	    this.lastFftTime = now;
 	}
 	if (now>=this.canvasTime+settings.snakeTime){
 	    this.canvasTime += settings.snakeTime;
-	    this.drawCanvasAndDiv(this.whichCanvas,this.canvasTime+settings.snakeTime);
+	    this.drawCanvas(this.whichCanvas,this.canvasTime+settings.snakeTime);
 	    this.whichCanvas ^= 1;
 	}
 	this.drawLetters(now-this.startTime);
@@ -219,7 +204,5 @@ class Snakes{
 	}
 	this.canvases[this.whichCanvas].style.left = (this.canvasTime-now)*100/settings.snakeTime+"%";
 	this.canvases[this.whichCanvas^1].style.left = 100+(this.canvasTime-now)*100/settings.snakeTime+"%";
-	this.divs[this.whichCanvas].style.left = (this.canvasTime-now)*100/settings.snakeTime+"%";
-	this.divs[this.whichCanvas^1].style.left = 100+(this.canvasTime-now)*100/settings.snakeTime+"%";
     }
 }
