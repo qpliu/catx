@@ -83,7 +83,7 @@ class Snakes{
 	    if (this.repeat && t>=this.songLength)
 		t -= Math.floor((t-this.songLength)/this.repeat+1)*this.repeat;
 	    t -= e.t;
-	    if (t>0 && t<bestTime){
+	    if (t>=0 && t<bestTime){
 		bestTime = t;
 		bestKey = e.key;
 	    }
