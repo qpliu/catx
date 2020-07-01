@@ -34,12 +34,12 @@
 <script src=球球.js?version=AARIN_ROBO_VERSION></script>
 <span id=topStuff>
     <span id=websocketControls style=visibility:hidden;>
-	<img style=position:absolute;left:6vw;top:0;width:5vw;z-index:9; onclick=websocketStuff.sendChat("stop"); src=../stop.svg></a>
-	<img style=position:absolute;left:11vw;top:0;width:5vw;z-index:9; onclick=websocketStuff.sendChat("play"); src=../play.svg></a>
+	<img style=position:absolute;left:6vw;top:0;width:5vw;z-index:9; onclick=gotClick();websocketStuff.sendChat("stop"); src=../stop.svg></a>
+	<img style=position:absolute;left:11vw;top:0;width:5vw;z-index:9; onclick=gotClick();websocketStuff.sendChat("play"); src=../play.svg></a>
     </span>
-    <img id=settingsImg style=position:absolute;right:0;top:0;width:5vw;z-index:9;color:#0f0; src=../settings.svg onclick=setMode(0);>
-    <img id=qiuqiuImg style=position:absolute;right:6vw;top:0;width:5vw;z-index:9; src=../ball.png onclick=setMode(1);>
-    <img id=snakesImg style=position:absolute;right:12vw;top:0;width:10vw;z-index:9; src=../snake.png onclick=setMode(2);>
+    <img id=settingsImg style=position:absolute;right:0;top:0;width:5vw;z-index:9;color:#0f0; src=../settings.svg onclick=gotClick();setMode(0);>
+    <img id=qiuqiuImg style=position:absolute;right:6vw;top:0;width:5vw;z-index:9; src=../ball.png onclick=gotClick();setMode(1);>
+    <img id=snakesImg style=position:absolute;right:12vw;top:0;width:10vw;z-index:9; src=../snake.png onclick=gotClick();setMode(2);>
 </span>
 <span id=bigSettings style=position:absolute;width:98%;>
     <span style=position:absolute;top:5vw;left:0;width:29%;display:inline-block;>
@@ -200,12 +200,15 @@
 	}
 	requestAnimationFrame(animate);
     }
-    function setMode(mode){
-	if (audioContext==undefined)
+    function gotClick(){
+	if (audioContext==undefined){
 	    audioContext = new (window.AudioContext||window.webkitAudioContext)();
+	    tones.enable();
+	}
+    }
+    function setMode(mode){
 	document.getElementById("bigSettings").style.display = mode==0?"block":"none";
 	document.getElementById("bigSpan").style.display = mode==0?"none":"block";
-	tones.enable();
 	snakes.setEnabled(mode==2);
 	qiuqius.setEnabled(mode==1);
 	cats.setEnabled(mode==1);

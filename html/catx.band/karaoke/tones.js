@@ -3,28 +3,25 @@ class Tones{
 	this.gains = [];
 	this.speakerOn = document.createElement("img");
 	this.speakerOn.style = "position:absolute;left:0;top:0;width:5vw;z-index:9;"
-	this.speakerOn.onclick = ()=>this.setSpeaker(0);
+	this.speakerOn.onclick = ()=>{gotClick();this.setSpeaker(0);};
 	this.speakerOn.src = "../speaker.svg";
 	where.appendChild(this.speakerOn);
 	this.speakerOff = document.createElement("img");
 	this.speakerOff.style = "position:absolute;left:0;top:0;width:5vw;z-index:9;";
-	this.speakerOff.onclick = ()=>this.setSpeaker(1);
+	this.speakerOff.onclick = ()=>{gotClick();this.setSpeaker(1);};
 	this.speakerOff.src = "../speaker_off.svg";
 	where.appendChild(this.speakerOff);
 	this.setSpeaker(settings.speaker);
     }
     enable(){
-	if (!this.gains){
-	    audioContext.resume();
-	    for (let i=0; i<128; i++){
-		const oscillator=audioContext.createOscillator();
-		oscillator.frequency.value = Math.exp((i-69)/12*Math.log(2))*440;
-		this.gains[i] = audioContext.createGain();
-		this.gains[i].gain.value = 0;
-		this.gains[i].connect(audioContext.destination);
-		oscillator.connect(this.gains[i]);
-		oscillator.start();
-	    }
+	for (let i=0; i<128; i++){
+	    const oscillator=audioContext.createOscillator();
+	    oscillator.frequency.value = Math.exp((i-69)/12*Math.log(2))*440;
+	    this.gains[i] = audioContext.createGain();
+	    this.gains[i].gain.value = 0;
+	    this.gains[i].connect(audioContext.destination);
+	    oscillator.connect(this.gains[i]);
+	    oscillator.start();
 	}
     }
     setSpeaker(value){
@@ -57,7 +54,7 @@ class Tones{
 	    const t=this.startTime+e.t;
 	    if (t>=now)
 		break;
-	    if (settings.speaker && t+e.duration>now){
+	    if (settings.speaker && t+e.duration>now && this.gains[e.note]){
 		this.gains[e.note].gain.setValueAtTime(.00001,audioContext.currentTime);
 		this.gains[e.note].gain.exponentialRampToValueAtTime(.25,audioContext.currentTime+Math.min(e.duration/2500,.05));
 		this.gains[e.note].gain.setValueAtTime(.25,audioContext.currentTime+e.duration/1000-Math.min(e.duration/2500,.05));
