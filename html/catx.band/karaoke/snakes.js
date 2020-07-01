@@ -51,7 +51,7 @@ class Snakes{
 	this.beatEvents.push({t:t,what:what});
     }
     addLyricEvent(t,what){
-	this.lyricEvents.push({t:t,what:what});
+	this.lyricEvents.push({t:t,what:what.replace(/<[^<>]*>/g,"")});
     }
     addKeysignatureEvent(e){
 	this.keysignatureEvents.push({t:e.t,key:e.key});
