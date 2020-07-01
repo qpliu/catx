@@ -21,6 +21,7 @@ class Snakes{
 	this.beatEvents = [];
 	this.canvasTime = 0;
 	this.whichCanvas = 0;
+	this.lastKey = undefined;
     }
     setEnabled(enabled){
 	this.enabled = enabled;
@@ -92,14 +93,16 @@ class Snakes{
 		bestKey = e.key;
 	    }
 	}
-	let sb="";
-	for (let note=settings.minNote+1; note<settings.maxNote; note++)
-	    if (this.keyContainsNoteColor(bestKey,note)){
-		const y=(settings.maxNote-note)/(settings.maxNote-settings.minNote)*80-1.1;
-		sb += "<span style=position:absolute;left:50%;top:"+y+"vh;>"+this.noteToString(bestKey,note)+"</span>"
-	    }
-	if (this.staticDiv.innerHTML!=sb)
+	if (bestKey!=this.lastKey){
+	    this.lastKey = bestKey;
+	    let sb="";
+	    for (let note=settings.minNote+1; note<settings.maxNote; note++)
+		if (this.keyContainsNoteColor(bestKey,note)){
+		    const y=(settings.maxNote-note)/(settings.maxNote-settings.minNote)*80-1.1;
+		    sb += "<span style=position:absolute;left:50%;top:"+y+"vh;>"+this.noteToString(bestKey,note)+"</span>"
+		}
 	    this.staticDiv.innerHTML = sb;
+	}
     }
     drawCanvas(which,time){
 	time -= this.startTime+settings.snakeTime/2;
