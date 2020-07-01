@@ -102,5 +102,8 @@ midimusic = <<
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
-    \tag #'(midiKaraoke) \karaokePart
+    \tag #'(midiKaraoke) <<
+	\karaokePart
+	\simplevoPart
+    >>
 >>

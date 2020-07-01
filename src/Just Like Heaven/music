@@ -121,5 +121,8 @@ midimusic = <<
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \egTwoPart
-    \tag #'(midiKaraoke) \karaokeLyrics
+    \tag #'(midiKaraoke) <<
+	\karaokeLyrics
+	\voPart
+    >>
 >>

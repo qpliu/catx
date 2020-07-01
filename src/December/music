@@ -107,5 +107,6 @@ midimusic = <<
     } \cuePart
     \tag #'(midiKaraoke) <<
 	\karaokeLyrics
+	\voPart
     >>
 >>
