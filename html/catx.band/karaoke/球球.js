@@ -77,17 +77,16 @@ class 球球{
 		    k = k.slice(1);
 		else if (sb.length!=0)
 		    sb += "&nbsp;";
-		sb += "<span style=position:relative;>";
-		sb += "<span style=color:#000;>"+k+"</span>";
-		sb += "<span id=id"+this.id_counter+" style=overflow:hidden;position:absolute;left:0;width:0;z-index:1;color:#f00;>"+k+"</span>";
+		sb += "<span id=ida"+this.id_counter+" style=position:relative;z-index:1;>"+k;
+		sb += "<span id=idb"+this.id_counter+" style=overflow:hidden;position:absolute;top:0;height:100%;left:0;width:0;z-index:-1;background-color:#ccc;></span>";
 		sb += "</span>";
 		if (k.length!=0){
 		    this_line_end = t;
 		    if (this_line_start==undefined)
 			this_line_start = t;
-		    this.ballEvents.push([t,undefined,"id"+this.id_counter]);
+		    this.ballEvents.push([t,undefined,"ida"+this.id_counter]);
 		}
-		this.lineEvents.push([t,"id"+this.id_counter]);
+		this.lineEvents.push([t,"idb"+this.id_counter]);
 		this.id_counter++;
 		if (this.repeat && this.lyricIndex==this.lyricEvents.length-1){
 		    this.startTime += Math.max(Math.ceil((now-this.startTime-e.t)/this.repeat),1)*this.repeat;
@@ -104,7 +103,7 @@ class 球球{
 	}
 	for (; this.lineEvents.length!=0&&this.lineEvents[0][0]<now; this.lineEvents=this.lineEvents.slice(1)){
 	    if (this.wordElement!=null)
-		this.wordElement.style.overflow = "visible";
+		this.wordElement.style.width = "100%";
 	    this.wordElement = document.getElementById(this.lineEvents[0][1]);
 	    if (this.wordElement!=null){
 		this.word_t0 = this.lineEvents[0][0];
@@ -113,11 +112,6 @@ class 球球{
 	}
 	if (this.wordElement!=null)
 	    this.wordElement.style.width = (now-this.word_t0)/(this.word_t1-this.word_t0)*100+"%";
-	for (; this.lineEvents.length!=0&&this.lineEvents[0][0]<now; this.lineEvents=this.lineEvents.slice(1)){
-	    const element=document.getElementById(this.lineEvents[0][1]);
-	    if (element!=null)
-		element.style.color = '#f00';
-	}
 	for (; this.ball_t1<now&&this.ballEvents.length!=0; this.ballEvents=this.ballEvents.slice(1)){
 	    if (this.ballEvents[0][1]==undefined)
 		this.ballEvents[0][1] = document.getElementById(this.ballEvents[0][2]);

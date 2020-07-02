@@ -779,11 +779,16 @@ final class MergeMidi{
 	    if (e instanceof NoteEvent && e.outTrackIndex==outTrackIndex)
 		if (e.time<=lastStop)
 		    lastStop = Math.max(((NoteEvent)e).stop,lastStop);
-		else
+		else{
+		    if (lastStop!=-1)
+			list.add(new Event(lastStop,0,null,0));
+		    lastStop = -1;
 		    list.add(e);
-	list.add(new Event(maxTime+DIVISION,0,null,0));
+		}
+	if (lastStop!=-1)
+	    list.add(new Event(lastStop,0,null,0));
 	Collections.sort(list);
-	String lastLyric=null;
+	String lastLyric="-";
 	long lastTime=0;
 	int time_n=4;
 	int time_d=4;
@@ -802,12 +807,8 @@ final class MergeMidi{
 		int timed=1;
 		while (4*DIVISION/timed>delta)
 		    timed <<= 1;
-		if (lastLyric==null)
-		    ps.print("\\skip");
-		else{
-		    ps.print('"'+lastLyric+'"');
-		    lastLyric = null;
-		}
+		ps.print(lastLyric);
+		lastLyric = "\\skip";
 		ps.print(timed);
 		delta -= 4*DIVISION/timed;
 		if (2*DIVISION/timed==delta){
@@ -825,14 +826,13 @@ final class MergeMidi{
 		    measureStart = measureEnd;
 		}
 	    }
-	    if (e instanceof NoteEvent){
-		lastLyric = lyrics.pollFirst();
-		if (lastLyric==null)
-		    ps.println("% Ran out of lyrics.");
-	    }else if (e instanceof TimeSignatureEvent){
+	    if (e instanceof NoteEvent)
+		lastLyric = '"'+lyrics.pollFirst()+'"';
+	    else if (e instanceof TimeSignatureEvent){
 		time_n = ((TimeSignatureEvent)e).getNumerator();
 		time_d = 1<<((TimeSignatureEvent)e).getLogDenominator();
-	    }
+	    }else
+		lastLyric = "-";
 	}
 	if (lyrics.size()!=0)
 	    ps.println("% Got "+lyrics.size()+" extra lyrics.");
