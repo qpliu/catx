@@ -8,6 +8,8 @@ final class MergeMidi{
     private static final int DRUMS_CHANNEL=10-1;
     private static final int BEND_MAX_SIZE=128;
     private static final double BEND_RANGE=24;
+// WTF?  Lilypond adds an extra "r32" rest after each Lyric meta event?  But sometimes it is "r16."?
+    private static int fudgeLyrics=48;
     private final Map<String,List<TextEvent>>textEvents=new HashMap<String,List<TextEvent>>();
     private final List<MetaEvent>metaEvents=new ArrayList<MetaEvent>();
     private final List<Event>events=new ArrayList<Event>();
@@ -336,8 +338,7 @@ final class MergeMidi{
 //		System.err.println("instrument name="+new String(data));
 	    }else if (what==5){
 		metaEvents.add(new LyricEvent(time+lyricEventTimeFudge,id,outTrackIndex,what,data));
-// WTF?  Lilypond adds an extra 1/8th beat after each Lyric meta event?
-		lyricEventTimeFudge -= DIVISION/8;
+		lyricEventTimeFudge -= fudgeLyrics;
 	    }else if (what==6){
 		System.err.println("marker="+new String(data));
 	    }else if (what==7){
@@ -742,19 +743,56 @@ final class MergeMidi{
 		System.err.println("Unused "+te);
 	}
     }
+// How to use printLyrics:
+//
+// Make lilypond file that outputs lyrics and notes to same MIDI channel.
+// Output the lyrics as 128th notes or something like that, so that they all fit.
+// Run this program.  The file "mergedlyrics" is result.
+//
+// Be sure to unroll repeats in the lyrics!
+//
+// Why we have this:
+//
+// Lilypond outputs screwed up lyrics in MIDI.
+// If I ask it to align with vocals, it outputs them with weird extra delays between each lyric.
+// This pushes some lyrics off the end of the song and Lilypond drops them.
+// When give lilypond lyrics with manual timing, it adds predictable 1/32th note delay after each
+// lyric.  If we make each lyric short enough, hopefully they don't get pushed off the end of the song.
+// If they still get pushed off the end, just pad the song.
+// This program then reads the notes and lyrics.  It ignores the timing of lyrics and aligns the lyrics
+// with the notes.
     private void printLyrics(PrintStream ps,long maxTime){
+	int outTrackIndex=-1;
+	Deque<String>lyrics=new ArrayDeque<String>();
+	List<Event>list=new ArrayList<Event>();
+	for (MetaEvent me:metaEvents){
+	    if (me instanceof LyricEvent){
+		if (outTrackIndex!=-1 && outTrackIndex!=me.outTrackIndex)
+		    ps.println("% Got lyrics in more than one track.");
+		outTrackIndex = me.outTrackIndex;
+		lyrics.add(new String(me.data));
+	    }else if (me instanceof TimeSignatureEvent)
+		list.add(me);
+	}
+	long lastStop=-1;
+	for (Event e:events)
+	    if (e instanceof NoteEvent && e.outTrackIndex==outTrackIndex)
+		if (e.time<=lastStop)
+		    lastStop = Math.max(((NoteEvent)e).stop,lastStop);
+		else
+		    list.add(e);
+	list.add(new Event(maxTime+DIVISION,0,null,0));
+	Collections.sort(list);
 	String lastLyric=null;
 	long lastTime=0;
 	int time_n=4;
 	int time_d=4;
 	long measureStart=0;
 	int measureNumber=1;
-	for (int i=0; ; i++){
-	    MetaEvent me=i<metaEvents.size()?metaEvents.get(i):null;
-	    long time=me==null?maxTime+DIVISION:me.time;
-	    while (lastTime<time){
+	for (Event e:list){
+	    while (lastTime<e.time){
 		long measureEnd=measureStart+DIVISION*4*time_n/time_d;
-		long delta=Math.min(time,measureEnd)-lastTime;
+		long delta=Math.min(e.time,measureEnd)-lastTime;
 		lastTime += delta;
 		boolean tuplet=delta%3!=0;
 		if (tuplet){
@@ -783,19 +821,21 @@ final class MergeMidi{
 		}
 		lastTime -= delta;
 		if (lastTime==measureEnd){
-		    ps.println(" | % measure "+measureNumber++);
+		    ps.println("| % measure "+measureNumber++);
 		    measureStart = measureEnd;
 		}
 	    }
-	    if (me==null)
-		break;
-	    if (me instanceof LyricEvent)
-		lastLyric = new String(me.data);
-	    else if (me instanceof TimeSignatureEvent){
-		time_n = ((TimeSignatureEvent)me).getNumerator();
-		time_d = 1<<((TimeSignatureEvent)me).getLogDenominator();
+	    if (e instanceof NoteEvent){
+		lastLyric = lyrics.pollFirst();
+		if (lastLyric==null)
+		    ps.println("% Ran out of lyrics.");
+	    }else if (e instanceof TimeSignatureEvent){
+		time_n = ((TimeSignatureEvent)e).getNumerator();
+		time_d = 1<<((TimeSignatureEvent)e).getLogDenominator();
 	    }
 	}
+	if (lyrics.size()!=0)
+	    ps.println("% Got "+lyrics.size()+" extra lyrics.");
     }
     private void makeOutputEvents()throws IOException{
 	Collections.sort(metaEvents);
@@ -873,10 +913,16 @@ final class MergeMidi{
 	}
     }
     public static void main(String[]argv)throws Exception{
+	int j;
+	for (j=0; j<argv.length; j++)
+	    if (argv[j].equals("--fudge-lyrics"))
+		fudgeLyrics = Integer.parseInt(argv[++j]);
+	    else
+		break;
 	MergeMidi mm=new MergeMidi();
-	for (int i=0; i<argv.length; i++)
+	for (int i=j; i<argv.length; i++)
 	    try (DataInputStream dis=new DataInputStream(new FileInputStream(argv[i]))){
-		mm.read(dis,argv[i],i);
+		mm.read(dis,argv[i],i-j);
 	    }
 	mm.makeOutputEvents();
 	try (DataOutputStream dos=new DataOutputStream(System.out)){

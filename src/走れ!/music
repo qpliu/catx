@@ -1,5 +1,6 @@
 % PARTS midi
 % BIN midi system1 system2
+% MIDIMERGE --fudge-lyrics 144
 
 \header {
     title = "走れ!"
@@ -55,6 +56,7 @@ midiDrumPitches.cym = dis % 51
 \include "vo"
 \include "cho"
 \include "lyrics"
+\include "karaoke"
 \include "key1"
 \include "key1text_lyrics"
 \include "key1text_midi"
@@ -264,4 +266,8 @@ midimusic = <<
     } \keySevenPart
     \tag #'(midiThree) \new Staff = "key8text" \midikeyEightText
     \tag #'(midiThree) \new Staff = "key8" \keyEightPart
+    \tag #'(midiKaraoke) <<
+	\voPart
+	\karaokeLyrics
+    >>
 >>
