@@ -1,34 +1,56 @@
 class Snakes{
     constructor(where){
 	this.canvases = [];
-	for (let i=0; i<2; i++){
+	for (let i=0; i<100; i++){
 	    this.canvases[i] = document.createElement("canvas");
-	    this.canvases[i].style = "position:absolute;top:20vh;";
+	    this.canvases[i].style = "position:absolute;top:20vh;display:none;";
 	    where.appendChild(this.canvases[i]);
 	}
 	this.staticDiv = document.createElement("div");
-	this.staticDiv.style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;font-size:2vh;color:#0ff;z-index:2;";
+	this.staticDiv.style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;font-size:2vh;color:#0ff;z-index:2;user-select:none;";
+	this.staticDiv.onmousemove = (event)=>this.onmousemove(event);
+	this.staticDiv.onmousedown = (event)=>this.onmousedown(event);
+	this.staticDiv.onmouseup = (event)=>this.onmouseup(event);
+	this.staticDiv.onmouseleave = (event)=>this.onmouseup(event);
 	where.appendChild(this.staticDiv);
     }
     reset(startTime,repeat,songLength){
 	this.startTime = startTime;
 	this.repeat = repeat;
 	this.songLength = songLength;
-	this.lastFftTime = 0;
 	this.toneEvents = [];
 	this.lyricEvents = [];
 	this.keysignatureEvents = [];
 	this.beatEvents = [];
 	this.canvasTime = 0;
-	this.whichCanvas = 0;
 	this.lastKey = undefined;
-	this.lastCanvasX = 0;
+	this.lastX = 0;
+	this.lastFftX = 0;
+	this.scroll = 0;
+	for (const canvas of this.canvases)
+	    canvas.style.display = "none";
+    }
+    onmousemove(e){
+	if (this.mouseDown!=undefined){
+	    if (!isPlaying){
+		this.scroll += this.mouseDown[0]-e.clientX;
+		this.scroll = Math.min(this.scroll,this.lastX);
+		this.scroll = Math.max(this.scroll,this.lastX-(this.canvases.length-2)*this.canvasWidth);
+		this.scroll = Math.max(this.scroll,0);
+		this.scrollTo();
+	    }
+	    this.mouseDown = [e.clientX,e.clientY];
+	}
+    }
+    onmousedown(e){
+	this.mouseDown = [e.clientX,e.clientY];
+    }
+    onmouseup(e){
+	this.mouseDown = undefined;
     }
     setEnabled(enabled){
 	this.enabled = enabled;
 	const display=enabled?"block":"none";
-	for (let i=0; i<2; i++)
-	    this.canvases[i].style.display = display;
 	this.staticDiv.style.display = display;
 	if (enabled && !this.gotMicrophone){
 	    this.gotMicrophone = true;
@@ -114,13 +136,10 @@ class Snakes{
 	    lt0 -= tt;
 	    lt1 -= tt;
 	}
-	let which=this.whichCanvas;
-	while (x>=this.canvasWidth){
-	    x -= this.canvasWidth;
-	    which ^= 1;
-	}
-	const context=this.canvases[which].getContext("2d");
-	const context1=this.canvases[which^1].getContext("2d");
+	const which=Math.floor(x/this.canvasWidth);
+	x -= which*this.canvasWidth;
+	const context=this.canvases[which%this.canvases.length].getContext("2d");
+	const context1=this.canvases[(which+this.canvases.length-1)%this.canvases.length].getContext("2d");
 	context.globalCompositeOperation = "source-over";
 	context1.globalCompositeOperation = "source-over";
 	let key=[0,0];
@@ -173,11 +192,12 @@ class Snakes{
 	    }
 	}
     }
-    drawFft(canvas,time,now){
-	const context=canvas.getContext("2d");
+    drawFft(x,width,which){
+	x += Math.floor(this.canvasWidth/2-settings.microphoneLatency*this.canvasWidth/settings.snakeTime);
+	which += Math.floor(x/this.canvasWidth);
+	x -= which*this.canvasWidth;
+	const context=this.canvases[which%this.canvases.length].getContext("2d");
 	context.globalCompositeOperation = "lighten";
-	const x0=Math.floor((this.lastFftTime-settings.microphoneLatency-time)*this.canvasWidth/settings.snakeTime+this.canvasWidth/2);
-	const x1=Math.floor((now-settings.microphoneLatency-time)*this.canvasWidth/settings.snakeTime+this.canvasWidth/2);
 	const i0=Math.floor(Math.exp((settings.minNote-69)/12*Math.log(2))*440*settings.fftSize/audioContext.sampleRate);
 	const i1=Math.floor(Math.exp((settings.maxNote-69)/12*Math.log(2))*440*settings.fftSize/audioContext.sampleRate);
 	for (let i=i0; i<i1; i++){
@@ -187,45 +207,46 @@ class Snakes{
 	    const y1=Math.floor((settings.maxNote-n1)/(settings.maxNote-settings.minNote)*this.canvasHeight);
 	    let d=this.fft_data[i];
 	    context.fillStyle = "rgb("+d+","+d+","+0+")";
-	    context.fillRect(x0,y0,x1-x0,y1-y0);
+	    context.fillRect(x,y0,width,y1-y0);
 	}
+    }
+    scrollTo(){
+	this.drawLetters(Math.floor((this.scroll-2*this.canvasWidth)*settings.snakeTime/this.canvasWidth+this.canvasTime-startTime));
+	const which=Math.floor(this.scroll/this.canvasWidth)-2;
+	for (let i=0; i<this.canvases.length; i++)
+	    this.canvases[(which+i)%this.canvases.length].style.display = i<2?"block":"none";
+	this.canvases[which%this.canvases.length].style.left = (which+2)*this.canvasWidth-this.scroll+"px";
+	this.canvases[(which+1)%this.canvases.length].style.left = (which+3)*this.canvasWidth-this.scroll+"px";
     }
     animate(now){
 	if (!this.enabled)
 	    return;
+	this.scroll = 0;
+	this.mouseDown = undefined;
 	const rect=this.staticDiv.getBoundingClientRect();
-	if (this.canvasWidth!=Math.ceil(rect.width) || this.canvasHeight!=Math.ceil(rect.height)){
+	if (this.canvasWidth!=Math.ceil(rect.width) || this.canvasHeight!=Math.ceil(rect.height) || !this.canvasTime){
 	    this.canvasWidth = Math.ceil(rect.width);
 	    this.canvasHeight = Math.ceil(rect.height);
-	    for (let i=0; i<2; i++){
-		this.canvases[i].width = this.canvasWidth;
-		this.canvases[i].height = this.canvasHeight;
-		this.canvases[i].style.width = this.canvasWidth+"px";
-		this.canvases[i].style.height = this.canvasHeight+"px";
+	    for (const canvas of this.canvases){
+		canvas.width = this.canvasWidth;
+		canvas.height = this.canvasHeight;
+		canvas.style.width = this.canvasWidth+"px";
+		canvas.style.height = this.canvasHeight+"px";
 	    }
-	    this.canvasTime = 0;
-	    this.lastCanvasX = 0;
+	    this.canvasTime = now;
+	    this.lastX = 0;
+	    this.lastFftX = 0;
 	}
-	if (this.canvasTime<now-2*settings.snakeTime || now<this.lastFftTime){
-	    this.canvasTime = now-settings.snakeTime;
-	    this.lastFftTime = now;
-	    this.lastCanvasX = this.canvasWidth;
-	}
-	if (now>=this.canvasTime+settings.snakeTime){
-	    this.canvasTime += settings.snakeTime;
-	    this.lastCanvasX -= this.canvasWidth;
-	    this.whichCanvas ^= 1;
-	}
-	this.drawLetters(now-this.startTime);
+	const maxX=Math.floor((now-this.canvasTime)*this.canvasWidth/settings.snakeTime)+2*this.canvasWidth;
+	for (this.lastX=Math.max(this.lastX,maxX-2*this.canvasWidth); this.lastX<maxX; this.lastX++)
+	    this.drawCanvas(this.lastX);
 	if (this.fft!=undefined){
 	    this.fft.getByteFrequencyData(this.fft_data);
-	    this.drawFft(this.canvases[this.whichCanvas],this.canvasTime,now);
-	    this.drawFft(this.canvases[this.whichCanvas^1],this.canvasTime+settings.snakeTime,now);
-	    this.lastFftTime = now;
+	    this.drawFft(this.lastFftX,maxX-2*this.canvasWidth-this.lastFftX,0);
+	    this.drawFft(this.lastFftX,maxX-2*this.canvasWidth-this.lastFftX,1);
+	    this.lastFftX = maxX-2*this.canvasWidth;
 	}
-	for (const canvasX=Math.ceil((now-this.canvasTime)*this.canvasWidth/settings.snakeTime)+2*this.canvasWidth; this.lastCanvasX<canvasX; this.lastCanvasX++)
-	    this.drawCanvas(this.lastCanvasX);
-	this.canvases[this.whichCanvas].style.left = Math.floor((this.canvasTime-now)*this.canvasWidth/settings.snakeTime)+"px";
-	this.canvases[this.whichCanvas^1].style.left = Math.floor((this.canvasTime-now)*this.canvasWidth/settings.snakeTime+this.canvasWidth)+"px";
+	this.scroll = this.lastX;
+	this.scrollTo();
     }
 }
