@@ -6,6 +6,8 @@ class Settings{
 		"Delay in milliseconds to synchronize sound with Jamulus.  Increase if the 球球 bounces too early."],
 	    ["Microphone Latency","microphoneLatency","150",Number,
 		"Microphone Latency in milliseconds.  Adjust this to line up times of yellow and purple snakes."],
+	    ["Vocal Part","vocalPart","1",Number,
+		"Vocal part.  Use 1 for first vocal part.  Use 2 for second vocal part.  You have to restart song after you change this."],
 	    ["Speaker","speaker","0",Number,
 		"0 turns off speaker.  1 turns on speaker.  Your computer might do echo cancellation on your microphone if your speaker is on.  This will make it hard to control the yellow snakes.  If this is happening, turn off speaker."],
 	    ["Snake Time","snakeTime","6000",Number,

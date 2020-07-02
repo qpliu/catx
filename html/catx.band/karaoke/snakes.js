@@ -223,7 +223,6 @@ class Snakes{
     animate(now){
 	if (!this.enabled)
 	    return;
-	this.scroll = 0;
 	this.mouseDown = undefined;
 	const rect=this.staticDiv.getBoundingClientRect();
 	if (this.canvasWidth!=Math.ceil(rect.width) || this.canvasHeight!=Math.ceil(rect.height) || !this.canvasTime){

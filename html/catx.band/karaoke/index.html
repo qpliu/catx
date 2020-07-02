@@ -123,6 +123,8 @@
 		    const noteOn=new Map();
 		    const noteOff=new Map();
 		    for (const e of json.karaoke){
+			if ("p" in e && !(e.p&1<<settings.vocalPart-1))
+			    continue;
 			if ("k" in e)
 			    for (let k of e.k.split("|")){
 				if (k.slice(0,6)=="!beat="){
