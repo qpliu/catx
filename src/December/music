@@ -1,4 +1,4 @@
-% PARTS gg
+% PARTS midi
 % BIN midi all gg susan kav peter
 
 \header {
@@ -17,6 +17,7 @@
 \include "vo2"
 \include "lyrics2"
 \include "karaoke"
+\include "karaoke2"
 
 voTwoAligner = \new NullVoice = "vo2" \voTwoPart
 
@@ -30,8 +31,8 @@ layoutmusic = <<
 	\voLyrics
     >>
     \tag #'(allPart kavPart susanPart) \new Staff \with {
-	instrumentName = \markup { \rotate #90 "Vocals" }
-	shortInstrumentName = \markup { \rotate #90 "Vo" }
+	instrumentName = \markup { \rotate #90 "Vocals 2" }
+	shortInstrumentName = \markup { \rotate #90 "Vo2" }
     } <<
 	\markupStuff
 	\voTwoPart
@@ -108,5 +109,9 @@ midimusic = <<
     \tag #'(midiKaraoke) <<
 	\karaokeLyrics
 	\voPart
+    >>
+    \tag #'(midiKaraokeTwo) <<
+	\karaokeTwoLyrics
+	\voTwoPart
     >>
 >>

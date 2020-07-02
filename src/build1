@@ -67,7 +67,7 @@ do
     if test "x$part" = "xmidi"
     then
 	merge="$MIDIMERGE"
-	for midi in midiCue midiGg midiPeter midiKav midiSusan midiKaraoke midiOne midiTwo midiThree midiFour
+	for midi in midiCue midiGg midiPeter midiKav midiSusan midiKaraoke midiKaraokeTwo midiOne midiTwo midiThree midiFour
 	do
 	    cat <<EOF >"$name-$midi.ly"
 \version "2.20.0"
