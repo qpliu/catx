@@ -600,7 +600,6 @@ final class MergeMidi{
 		}
 	}
 	void makeMetaEvents(long[]maxTime)throws IOException{
-	    Collections.sort(metaEvents);
 	    for (MetaEvent me:metaEvents){
 		ByteArrayOutputStream baos=new ByteArrayOutputStream();
 		baos.write(me.what);
@@ -743,21 +742,80 @@ final class MergeMidi{
 		System.err.println("Unused "+te);
 	}
     }
+    private void printLyrics(PrintStream ps,long maxTime){
+	String lastLyric=null;
+	long lastTime=0;
+	int time_n=4;
+	int time_d=4;
+	long measureStart=0;
+	int measureNumber=1;
+	for (int i=0; ; i++){
+	    MetaEvent me=i<metaEvents.size()?metaEvents.get(i):null;
+	    long time=me==null?maxTime+DIVISION:me.time;
+	    while (lastTime<time){
+		long measureEnd=measureStart+DIVISION*4*time_n/time_d;
+		long delta=Math.min(time,measureEnd)-lastTime;
+		lastTime += delta;
+		boolean tuplet=delta%3!=0;
+		if (tuplet){
+		    ps.print("\\tuplet 3/2 { ");
+		    delta = delta*3/2;
+		}
+		int timed=1;
+		while (4*DIVISION/timed>delta)
+		    timed <<= 1;
+		if (lastLyric==null)
+		    ps.print("\\skip");
+		else{
+		    ps.print('"'+lastLyric+'"');
+		    lastLyric = null;
+		}
+		ps.print(timed);
+		delta -= 4*DIVISION/timed;
+		if (2*DIVISION/timed==delta){
+		    ps.print('.');
+		    delta = 0;
+		}
+		ps.print(' ');
+		if (tuplet){
+		    ps.print("} ");
+		    delta = delta*2/3;
+		}
+		lastTime -= delta;
+		if (lastTime==measureEnd){
+		    ps.println(" | % measure "+measureNumber++);
+		    measureStart = measureEnd;
+		}
+	    }
+	    if (me==null)
+		break;
+	    if (me instanceof LyricEvent)
+		lastLyric = new String(me.data);
+	    else if (me instanceof TimeSignatureEvent){
+		time_n = ((TimeSignatureEvent)me).getNumerator();
+		time_d = 1<<((TimeSignatureEvent)me).getLogDenominator();
+	    }
+	}
+    }
     private void makeOutputEvents()throws IOException{
+	Collections.sort(metaEvents);
 	OutputEventMaker oem=new OutputEventMaker();
 	long[]maxTime=new long[1];
 	oem.makeMetaEvents(maxTime);
 	oem.makeEvents(maxTime);
 	outputEvents.add(new OutputEvent(maxTime[0],-1,0xff,(byte)0x2f,(byte)0));
+	Collections.sort(outputEvents);
+	try (PrintStream ps=new PrintStream(new FileOutputStream("mergedlryics"))){
+	    printLyrics(ps,maxTime[0]);
+	}
     }
     private void output(DataOutputStream dos,int outTrackIndex)throws IOException{
-	Collections.sort(outputEvents);
 	ByteArrayOutputStream baos=new ByteArrayOutputStream();
 	long lastTime=0;
 	for (OutputEvent oe:outputEvents){
 	    if (oe.outTrackIndex!=-1 && oe.outTrackIndex!=outTrackIndex)
 		continue;
-	    long delta=(int)(oe.time-lastTime);
+	    long delta=oe.time-lastTime;
 	    lastTime = oe.time;
 	    if (delta<0 || delta>=1<<28)
 		throw new RuntimeException();
