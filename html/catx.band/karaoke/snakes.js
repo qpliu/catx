@@ -8,10 +8,10 @@ class Snakes{
 	}
 	this.staticDiv = document.createElement("div");
 	this.staticDiv.style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;font-size:2vh;color:#0ff;z-index:2;user-select:none;";
-	this.staticDiv.onmousemove = (event)=>this.onmousemove(event);
-	this.staticDiv.onmousedown = (event)=>this.onmousedown(event);
-	this.staticDiv.onmouseup = (event)=>this.onmouseup(event);
-	this.staticDiv.onmouseleave = (event)=>this.onmouseup(event);
+	this.staticDiv.onpointermove = (event)=>this.onpointermove(event);
+	this.staticDiv.onpointerdown = (event)=>this.onpointerdown(event);
+	this.staticDiv.onpointerup = (event)=>this.onpointerup(event);
+	this.staticDiv.onpointerleave = (event)=>this.onpointerup(event);
 	where.appendChild(this.staticDiv);
     }
     reset(startTime,repeat,songLength){
@@ -30,23 +30,23 @@ class Snakes{
 	for (const canvas of this.canvases)
 	    canvas.style.display = "none";
     }
-    onmousemove(e){
-	if (this.mouseDown!=undefined){
+    onpointermove(e){
+	if (this.pointerDown!=undefined){
 	    if (!isPlaying){
-		this.scroll += this.mouseDown[0]-e.clientX;
+		this.scroll += this.pointerDown[0]-e.clientX;
 		this.scroll = Math.min(this.scroll,this.lastX);
 		this.scroll = Math.max(this.scroll,this.lastX-(this.canvases.length-2)*this.canvasWidth);
 		this.scroll = Math.max(this.scroll,0);
 		this.scrollTo();
 	    }
-	    this.mouseDown = [e.clientX,e.clientY];
+	    this.pointerDown = [e.clientX,e.clientY];
 	}
     }
-    onmousedown(e){
-	this.mouseDown = [e.clientX,e.clientY];
+    onpointerdown(e){
+	this.pointerDown = [e.clientX,e.clientY];
     }
-    onmouseup(e){
-	this.mouseDown = undefined;
+    onpointerup(e){
+	this.pointerDown = undefined;
     }
     setEnabled(enabled){
 	this.enabled = enabled;
@@ -223,7 +223,7 @@ class Snakes{
     animate(now){
 	if (!this.enabled)
 	    return;
-	this.mouseDown = undefined;
+	this.pointerDown = undefined;
 	const rect=this.staticDiv.getBoundingClientRect();
 	if (this.canvasWidth!=Math.ceil(rect.width) || this.canvasHeight!=Math.ceil(rect.height) || !this.canvasTime){
 	    this.canvasWidth = Math.ceil(rect.width);

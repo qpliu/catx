@@ -82,5 +82,8 @@ midimusic = <<
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
     } \bassPart
-    \tag #'(midiKaraoke) \karaokeLyrics
+    \tag #'(midiKaraoke) <<
+	\karaokeLyrics
+	\voPart
+    >>
 >>

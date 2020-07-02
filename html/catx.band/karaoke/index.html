@@ -52,8 +52,6 @@
 	    <button type=button style=font-size:16px; onclick=settings.resetToDefault();>Reset</button>
 	    <span class=tooltiptext>Click Reset to reset these settings to default.</span>
 	</div>
-	<br>
-	Bookmark this <a id=settingsBookmarkLink>link</a> to save settings.
     </span>
     <span style=position:absolute;left:29%;width:69%;display:inline-block;>
 	Private Chat With Aarin Robo:
@@ -75,7 +73,7 @@
 <script>
     let audioContext;
     let json;
-    const settings=new Settings(document.getElementById("settingsBookmarkLink"),document.getElementById("settingsInputs"));
+    const settings=new Settings(document.getElementById("settingsInputs"));
     const chatDiv=document.getElementById("chatDiv");
     const chatForm=document.getElementById("chatForm");
     const cats=new Cats(document.getElementById("cat_div"));
@@ -174,9 +172,7 @@
 	    if (event.data.slice(0,1)=="v")
 		if (event.data!="vAARIN_ROBO_VERSION"){
 		    alert("Aarin Robo says:\nVersion number is wrong.  Aarin Robo will try to fix it.");
-		    settings.version = "AARIN_ROBO_VERSION";
-		    settings.makeEverythingAgree();
-		    location.href = document.getElementById("settingsBookmarkLink").href;
+		    location.reload(true);
 		}
 	}
     }();
