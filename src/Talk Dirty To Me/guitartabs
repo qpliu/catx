@@ -1,0 +1,158 @@
+guitar =
+{
+% tuning ees, aes, des ges bes ees'
+% scale c des d ees e f ges g aes a bes ces'
+    r1 |
+    r1 |
+    5-3.5t4 x0.x0t8 3.5t x0.x0t 3.5t t4 |
+    5-5.7t4 x0.x0t8 5.7t x0.x0t 5.7t t4 |
+    5-9.11t8 10.12t t t 9.11t 10.12t t t |
+    5-9.11t8 10.12t t t r t t4 |
+    5-3.5t4 x0.x0t8 3.5t x0.x0t 3.5t t4 |
+    5-5.7t4 x0.x0t8 5.7t x0.x0t 5.7t t4 |
+    5-9.11t8 10.12t t t 9.11t 10.12t t t |
+    5-9.11t8 10.12t t t x0.x0t 10.12t t t |
+    5-10.12t1 |
+    6-24.24t8 23.23t 22.22t 20.20t 19.19t 18.18t 17.17t 16.16t |
+    6-15.15t8 14.14t 13.13t 12.12t 11.11t 10.10t 9.9t 8.8t |
+    6-7.7t8 6.6t 5.5t 4.4t 3.3t 2.2t 1.1t 0.0t |
+\mymark "Verse 1" #15
+    \palmMuteOff 5-10.12t8 \palmMuteOn 10t t t t t t t |
+    5-10t8 t t t t t t t |
+    \palmMuteOff 5-10.12t8 \palmMuteOn 10t t t t t t t |
+    5-10t8 t t t t t t t |
+    \palmMuteOff 5-5.7t8 \palmMuteOn 5t t t t t t t |
+    5-5t8 t t t t t t t |
+    \palmMuteOff 5-5.7t8 \palmMuteOn 5t t t t t t t |
+    5-5t8 t t t t t t t |
+    \palmMuteOff 5-3.5t8 \palmMuteOn 3t t t t t t t |
+    5-3t8 t t t t t t t |
+    \palmMuteOff 5-3.5t8 \palmMuteOn 3t t t t t t t |
+    5-3t8 t t t t t t t |
+    \palmMuteOff 5-10.12t8 \palmMuteOn 10t t t t t t t |
+    5-10t8 t t t t t t t | \palmMuteOff
+    r4 3-10t8 11t 1-10t r4. |
+    r4 3-10t8 11t 4-12t4. r8 |
+\mymark "Verse 2" #31
+    \palmMuteOff 5-10.12t8 \palmMuteOn 10t \palmMuteOff 10.12t \palmMuteOn t t t t t |
+    5-10.12t8 t t t t t t t |
+    5-10.12t8 t t t t t t t |
+    5-10.12t8 t t t t t t t |
+    5-5.7t8 t t t t t t t |
+    5-5.7t8 t t t t t t t |
+    5-5.7t8 t t t t t t t |
+    5-5.7t8 t t t t t t t |
+    5-3.5t8 t t t t t t t |
+    5-3.5t8 t t t t t t t |
+    5-3.5t8 t t t t t t t |
+    5-3.5t8 t t t t t t t |
+    5-10.12t8 t t t t t t t |
+    5-10.12t8 t t t t t t t |
+    5-5.7t8 t t t t t t t | \palmMuteOff
+    \harmonicByFret #7 2-0t2 \harmonicByFret #7 3-0t2 |
+\mymark "Chorus 1" #47
+    5-3.5t4 x0.x0t8 3.5t t t t t |
+    5-5.7t4 x0.x0t8 5.7t t t t t |
+    5-9.11t8 10.12t t t 9.11t 10.12t t t |
+    5-9.11t8 10.12t t t t t t t |
+    5-3.5t4 x0.x0t8 3.5t t t t t |
+    5-5.7t4 x0.x0t8 5.7t t t t t |
+    5-9.11t8 10.12t t t 9.11t 10.12t t t |
+    5-9.11t8 10.12t t t t t t t |
+    5-3.5t4 x0.x0t8 3.5t t t t t |
+    5-5.7t4 x0.x0t8 5.7t t t t t |
+    5-7.9t4 x0.x0t8 7.9t4 t8 t4 |
+    5-3.5t4 x0.x0t8 3.5t4 t8 t4 |
+    6-5.7t4 x0.x0t8 5.7t4 t8 t4 |
+    5-5.7.7t8 r2. r8 |
+    5-9.11t8 10.12t t t 9.11t 10.12t t t |
+    5-9.11t8 10.12t t t 9.11t 10.12t t t |
+\mymark "Verse 3" #63
+    \palmMuteOn 5-10.12t8 t t t t t t t |
+    5-10.12t8 t t t t t t t |
+    5-10.12t8 t t t t t t t |
+    5-10.12t8 t t t t t t t |
+    5-5.7t8 t t t t t t t |
+    5-5.7t8 t t t t t t t |
+    5-5.7t8 t t t t t t t |
+    5-5.7t8 t t t t t t t |
+    5-3.5t8 t t t t t t t |
+    5-3.5t8 t t t t t t t |
+    5-3.5t8 t t t t t t t |
+    5-3.5t8 t t t t t t t |
+    5-10.12t8 t t t t t t t |
+    5-10.12t8 t t t t t t t |
+    5-5.7t8 t t t t t t t | \palmMuteOff
+    \harmonicByFret #7 2-0t2 \harmonicByFret #7 3-0t2 |
+\mymark "Chorus 2" #79
+    5-3.5t4 r8 t t t t t |
+    5-5.7t4 r8 t t t t t |
+    5-9.11t8 10.12t t t 9.11t 10.12t t t |
+    5-9.11t8 10.12t t t t t t t |
+    5-3.5t4 r8 t t t t t |
+    5-5.7t4 r8 t t t t t |
+    5-9.11t8 10.12t t t 9.11t 10.12t t t |
+    5-9.11t8 10.12t t t t t t t |
+    5-3.5t4 r8 t t t t t |
+    5-5.7t4 r8 t t t t t |
+    5-7.9.9.8t1 |
+    5-3.5.5.5t1 |
+    6-5.7t4 r8 t4 t8 t4 |
+    5-5.7.7t8 r2. r8 |
+    5-9.11t8 10.12t t t 9.11t 10.12t t t |
+    5-9.11t8 10.12t t t 9.11t 10.12t t t |
+\mymark "Solo" #95
+    r1 |
+    r2. r8 3-5.5t~ |
+    3-5.5t8 t 4.3t t 2.1t 0.0t r 5.5t~ |
+    3-5.5t8 t 4.3t t 2.1t 0.0t r 12.12t~ |
+    3-12.12t8 t 11.10t t 9.8t t 7.7t t |
+    3-5.5t8 t 4.3t t 2.1t 0.0t t 5.5t~ |
+    3-5.5t8 t 4.3t t 2.1t 0.0t r 5.5t~ |
+    3-5.5t8 t 4.3t t 2.1t 0.0t t r |
+    \tuplet 3/2 { 3-7.7t8 t t t t t 9.8t t t t t t } |
+    \tuplet 3/2 { 3-11.10t8 t t t t t 12.12t t t t t t } |
+    3-10t8 \bendAfter #6 ^"full" 2-8.8t t 3-10t \bendAfter #6 ^"full" 2-8.8t t 3-10t \bendAfter #6 ^"full" 2-8.8t |
+    3-10t8 \bendAfter #6 ^"full" 2-8.8t t 3-10t \bendAfter #6 ^"full" 2-8.8t t 3-10t \bendAfter #6 ^"full" 2-8.8t |
+    \tuplet 3/2 { 1-3t8 2t 0t 2-3t 2t 0t 3-4t 2t 0t 4-4t 2t 0t } |
+    \tuplet 3/2 { 3-4t8 2t 0t 4-4t 2t 0t 5-3t 2t 0t 6-3t 2t 0t } |
+    4-7t8 t 9t t 10t t 11t t |
+    4-12t8 3-14t4 \bendAfter #6 ^"full" 12t8 14t4 \bendAfter #6 ^"full" 12t8 t~ |
+    3-12t2. r8 1-15t16 t |
+    1-15t2. r8 2-15t16 t |
+    2-15t4 r8 3-12t16 t t4 r8 4-12t16 t |
+    4-12t4 r8 5-10t16 t t2 |
+\mymark "Chorus 3" #115
+    5-3.5t4 r8 t t t t t |
+    5-5.7t4 r8 t t t t t |
+    5-9.11t8 10.12t t 9.11t 10.12t t 9.11t 10.12t |
+    5-10.12t8 9.11t 10.12t t 9.11t 10.12t t4 |
+    5-3.5t4 r8 t t t t t |
+    5-5.7t4 r8 t t t t t |
+    5-9.11t8 10.12t t t 9.11t 10.12t t t |
+    5-9.11t8 10.12t t 8.10t4 t t8 |
+    5-3.5t4 r8 t t t t t |
+    5-5.7t4 r8 t t t t t |
+    5-7.9t4 r8 t4 t8 t4 |
+    5-3.5t4 r8 t4 t8 t4 |
+    6-5.7t4 r8 t4 t8 t4 |
+    \palmMuteOn 5-5.7t8 t t t t t t t | \palmMuteOff
+    3-17t8 2-15t 1-15t 3-17t 2-15t 1-15t 3-17t4 |
+    3-19t1 |
+\mymark "Outro" #131
+    5-3.5t4 r8 t4 t8 t4 |
+    5-5.7t4 r8 t4 t8 t4 |
+    1-17t2 \bendAfter #6 ^"full" \tuplet 3/2 { t8 r t r 15t r } |
+    \tuplet 3/2 { 1-14t8 15t 14t } 2-15t2. \bendAfter #6 ^"full" |
+    5-3.5t4 r8 t4 t8 t4 |
+    5-5.7t8 r2. r8 |
+    5-9.11t8 10.12t t t 9.11t 10.12t t t |
+    5-9.11t8 10.12t t t r2 |
+    5-9.11t8 10.12t t t 9.11t 10.12t t t |
+    5-9.11t8 10.12t t t r2 |
+    3-17t8 \tuplet 3/2 { 1-15t16 2-18t 15t } 3-17t8 \tuplet 3/2 { 1-15t16 2-18t 15t } 3-17t8 \tuplet 3/2 { 1-15t16 2-18t 15t } 3-17t8 \tuplet 3/2 { 1-15t16 2-18t 15t } |
+    3-17t8 \tuplet 3/2 { 1-15t16 2-18t 15t } 3-17t8 1-15t16 20t2~ t16 \bendAfter #6 ^"full" |
+    1-17t2 6-15t |
+    3-0t1 |
+    6-3.2.0.0.3.3t1 |
+}

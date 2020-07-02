@@ -1,0 +1,89 @@
+% PARTS
+% BIN midi all kav susan gg peter
+
+\header {
+    title = "Talk Dirty To Me"
+    composer = "Poison"
+}
+
+eflat = \stringTuning <ees, aes, des ges bes ees'>
+eflat-bass = \stringTuning <ees,, aes,, des, ges,>
+
+\include "markup"
+\include "guitar"
+\include "guitar1"
+\include "guitar2"
+\include "guitar3"
+\include "bass"
+\include "drums"
+\include "vocals"
+\include "lyrics"
+\include "markupsimple"
+\include "guitarsimple"
+\include "basssimple"
+\include "drumssimple"
+\include "vocalssimple"
+\include "lyricssimple"
+
+voAligner = \new NullVoice = "vo" \vocals
+vosimpleAligner = \new NullVoice = "vosimple" \vocalssimple
+
+layoutmusic = <<
+    \tag #'(allPart kavPart susanPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vocals" }
+	shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+	\markupsimpleStuff
+	\vocalssimple
+	\vosimpleAligner
+	\vosimpleLyrics
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr" }
+    } <<
+	\markupsimpleStuff
+	\clef "treble_8"
+	\guitarsimple
+    >>
+    \tag #'(peterPart) \new TabStaff \with { stringTunings = #eflat } <<
+	\markupsimpleStuff
+	\guitarsimple
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Bass" }
+	shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } <<
+	\markupsimpleStuff
+	\clef "bass_8"
+	\basssimple
+    >>
+    \tag #'(peterPart) \new TabStaff \with { stringTunings = #eflat-bass } <<
+	\markupsimpleStuff
+	\basssimple
+    >>
+    \tag #'(allPart kavPart ggPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupsimpleStuff
+	\drumsimple
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiGg) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drumsimple
+    \tag #'(midiSusan) \new Staff \with {
+	midiInstrument = #"steel drums"
+    } \vocalssimple
+    \tag #'(midiOne) \new Staff \with {
+	midiInstrument = #"electric bass (pick)"
+    } \basssimple
+    \tag #'(midiPeter) \new Staff \with {
+	midiInstrument = #"distorted guitar"
+    } \guitarsimple
+>>
