@@ -45,7 +45,7 @@ layoutmusic = <<
 	\clef "treble_8"
 	\guitarsimple
     >>
-    \tag #'(peterPart) \new TabStaff \with { stringTunings = #eflat } <<
+    \tag #'(peterPart) \new TabStaff <<
 	\markupsimpleStuff
 	\guitarsimple
     >>
@@ -57,7 +57,7 @@ layoutmusic = <<
 	\clef "bass_8"
 	\basssimple
     >>
-    \tag #'(peterPart) \new TabStaff \with { stringTunings = #eflat-bass } <<
+    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
 	\markupsimpleStuff
 	\basssimple
     >>
