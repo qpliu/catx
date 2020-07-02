@@ -3,7 +3,7 @@ class Snakes{
 	this.canvases = [];
 	for (let i=0; i<100; i++){
 	    this.canvases[i] = document.createElement("canvas");
-	    this.canvases[i].style = "position:absolute;top:20vh;display:none;";
+	    this.canvases[i].style = "position:absolute;top:20vh;";
 	    where.appendChild(this.canvases[i]);
 	}
 	this.staticDiv = document.createElement("div");
@@ -52,6 +52,8 @@ class Snakes{
 	this.enabled = enabled;
 	const display=enabled?"block":"none";
 	this.staticDiv.style.display = display;
+	for (const canvas of this.canvases)
+	    canvas.style.display = "none";
 	if (enabled && !this.gotMicrophone){
 	    this.gotMicrophone = true;
 	    navigator.mediaDevices.getUserMedia({audio:{echoCancellation:{ideal:false}}}).then(stream=>{
