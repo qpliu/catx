@@ -16,7 +16,7 @@ voPart = \relative {
 	s4 \tiny \grace e'8( f4) e8( d) \grace e8( f4) |
 	e8 s8 s2. \normalsize |
     } \new Voice { \voiceTwo
-	e,8( d)~ d2. |
+	e,8( d~ d2.) |
 	r8 a'8 e' e fis4 d~ |
     } >>
     \oneVoice
@@ -38,7 +38,7 @@ voPart = \relative {
 	s4 \tiny \grace e'8( f4) e8( d) \grace e8( f4) |
 	e8 s8 s2. \normalsize |
     } \new Voice { \voiceTwo
-	e,8( d)~ d2. |
+	e,8( d~ d2.) |
 	r8 a'8 e' e fis4 d~ |
     } >>
     \oneVoice
@@ -59,7 +59,7 @@ voPart = \relative {
 	s4 \tiny \grace e'8( f4) e8( d) \grace e8( f4) |
 	e8 s8 s2. \normalsize |
     } \new Voice { \voiceTwo
-	e,8( d)~ d2. |
+	e,8( d~ d2.) |
 	r8 a'8 e' e fis4 d~ |
     } >>
     \oneVoice
