@@ -1,4 +1,5 @@
 voPart = \relative {
+    \context Voice = "vocalb" \voiceTwo
     s1 s1 s1 s1 s1 s1 s1
 \mymark "Verse 1" 8
     r4 a'8 a4 a a8    | a4 e' cis8 a4. |
@@ -11,8 +12,14 @@ voPart = \relative {
     r8 fis4 e8 d8 b4. | g'4 fis d8( b4.) |
 \mymark "Pre-Chorus 1" #24
     r8 fis8 fis fis g4 fis |
-    e8( d) \tiny \grace e'8( f4) e8( d) \grace e8( f4) |
-    e8 \normalsize a,8 e' e fis4 d~ |
+    << { \voiceOne
+	s4 \tiny \grace e'8( f4) e8( d) \grace e8( f4) |
+	e8 s8 s2. \normalsize |
+    } \new Voice { \voiceTwo
+	e,8( d)~ d2. |
+	r8 a'8 e' e fis4 d~ |
+    } >>
+    \oneVoice
     d4 e2~( e8 fis |
 \mymark "Chorus 1" #28
     g8) r4. d8 b4 b8 | b( a4.) r2 |
@@ -27,8 +34,14 @@ voPart = \relative {
     fis4 e d a8 a | fis'4 e d8( b4.) |
 \mymark "Pre-Chorus 2" #45
     r8 fis fis fis g4 fis |
-    e8( d) \tiny \grace e'8( f4) e8( d) \grace e8( f4) |
-    e8 \normalsize a,8 e' e fis4 d~ |
+    << { \voiceOne
+	s4 \tiny \grace e'8( f4) e8( d) \grace e8( f4) |
+	e8 s8 s2. \normalsize |
+    } \new Voice { \voiceTwo
+	e,8( d)~ d2. |
+	r8 a'8 e' e fis4 d~ |
+    } >>
+    \oneVoice
     d4 e2~( e8 fis |
 \mymark "Chorus 2" #49
     g8) r4. d8 b4 b8  | b( a4.) r2 |
@@ -42,8 +55,14 @@ voPart = \relative {
     a'1~ a~ a~ a |
 \mymark "Pre-Chorus 3" #72
     r8 fis, fis fis g4 fis |
-    e8( d) \tiny \grace e'8( f4) e8( d) \grace e8( f4) |
-    e8 \normalsize a,8 e' e fis4 d~ |
+    << { \voiceOne
+	s4 \tiny \grace e'8( f4) e8( d) \grace e8( f4) |
+	e8 s8 s2. \normalsize |
+    } \new Voice { \voiceTwo
+	e,8( d)~ d2. |
+	r8 a'8 e' e fis4 d~ |
+    } >>
+    \oneVoice
     d e2. |
 \mymark "Chorus 3" #76
     s1
