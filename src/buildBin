@@ -2,7 +2,7 @@
 set -e
 if test '!' -f "../buildBin"
 then
-    echo "Wrong directory"
+    echo "Wrong directory.  Run this from one of src/*/ directories."
     exit 1
 fi
 pwd=`pwd`
@@ -11,8 +11,9 @@ PARTS=`grep '^% BIN ' music|cut -c 7-`
 if test -n "$PARTS"
 then
     echo "$name"
-    ../build1 $PARTS
-    cd ..
+    ../../build/build $PARTS
+    cd ../../build
+    mkdir -p ../bin/"$name"
     echo "name=$name" >bin/temp.aarin
     for a in bin/bin/*
     do
@@ -31,21 +32,18 @@ then
 		    ./get_rid_of_id_in_pdf.py <"../bin/$b" >bin/2
 		    if cmp -s bin/1 bin/2
 		    then
-			touch ../bin/"$b"
+			touch ../bin/"$name/$b"
 			continue
 		    fi
 		fi
-		cp "$a" ../bin/
+		cp "$a" ../bin/"$name"
 		;;
 	    *.midi)
 		echo "midi_file=../midi/$b" >>bin/temp.aarin
-		cp "$a" ../bin/
+		cp "$a" ../bin/"$name"
 		;;
 	    *.robot)
 		cat "$a" >>bin/temp.aarin
-		;;
-	    *)
-		cp "$a" ../bin/
 		;;
 	esac
     done

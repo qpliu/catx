@@ -21,11 +21,24 @@ Try something like this
 
 ```
 sudo apt install lilypond python openjdk-11-jdk
-cd src
+cd build
 ./buildAll
+```
+
+or
+
+```
+cd src/ムーンライト伝説
+../build midi all
+```
+
+or
+
+```
+cd src/ムーンライト伝説
+../buildBin
 ```
 
 ### Here is a cat
 
 ![catx cat](http://catx.band/catx.jpg)
-

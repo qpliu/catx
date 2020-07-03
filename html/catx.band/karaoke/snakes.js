@@ -33,7 +33,7 @@ class Snakes{
     onpointermove(e){
 	if (this.pointerDown!=undefined){
 	    if (!isPlaying){
-		this.scroll += this.pointerDown[0]-e.clientX;
+		this.scroll += Math.floor(this.pointerDown[0]-e.clientX);
 		this.scroll = Math.min(this.scroll,this.lastX);
 		this.scroll = Math.max(this.scroll,this.lastX-(this.canvases.length-2)*this.canvasWidth);
 		this.scroll = Math.max(this.scroll,0);
@@ -156,7 +156,7 @@ class Snakes{
 	    const color=this.keyContainsNoteColor(key,note);
 	    if (color!=undefined){
 		context.fillStyle = color;
-		const y=(settings.maxNote-note)/(settings.maxNote-settings.minNote)*this.canvasHeight;
+		const y=Math.floor((settings.maxNote-note)/(settings.maxNote-settings.minNote)*this.canvasHeight);
 		context.fillRect(x,y,1,1);
 	    }
 	}
@@ -169,8 +169,8 @@ class Snakes{
 	for (const e of this.toneEvents)
 	    if (t0>=e.t && t0<e.t+e.duration){
 		context.fillStyle = this.keyContainsNoteColor(key,e.note)?"#ff00ff":"#ff00a0";
-		const y0=(settings.maxNote-e.note-.5)/(settings.maxNote-settings.minNote)*this.canvasHeight;
-		const y1=(settings.maxNote-e.note+.5)/(settings.maxNote-settings.minNote)*this.canvasHeight;
+		const y0=Math.floor((settings.maxNote-e.note-.5)/(settings.maxNote-settings.minNote)*this.canvasHeight);
+		const y1=Math.floor((settings.maxNote-e.note+.5)/(settings.maxNote-settings.minNote)*this.canvasHeight);
 		context.fillRect(x,y0,1,y1-y0);
 	    }
 	context.fillStyle = "#00ff00";
@@ -187,7 +187,7 @@ class Snakes{
 		if (k.slice(0,1)=="-")
 		    k = k.slice(1);
 		if (k.length!=0){
-		    const y=e.note==undefined?this.canvasHeight/2:((settings.maxNote-e.note)/(settings.maxNote-settings.minNote)+.35/24)*this.canvasHeight;
+		    const y=Math.floor(e.note==undefined?this.canvasHeight/2:((settings.maxNote-e.note)/(settings.maxNote-settings.minNote)+.35/24)*this.canvasHeight);
 		    context.fillText(k,x-this.canvasWidth,y);
 		    context1.fillText(k,x,y);
 		}

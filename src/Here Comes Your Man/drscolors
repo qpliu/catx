@@ -1,7 +1,8 @@
 drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     \context DrumVoice = "drsa" \voiceOne
     \context DrumVoice = "drsb" \voiceTwo
-    s1 r2. r8 sidestick |
+    r1 |
+    r2. r8 sidestick |
     << { cymc4 <hh sn>8 hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd8 bd4 bd8 | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd8 bd4 bd8 | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd8 bd4 bd8 | } >>
