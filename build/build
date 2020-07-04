@@ -62,7 +62,7 @@ do
     for a in *-if
     do
 	b=`basename "$a" -if`
-	sed "s/^% IF $part //"  <"$a" >"$b"
+	sed "s/^% IF $part //;s/^% IFNOT $part/% /;s/^% IFNOT [^ 	]*//"  <"$a" >"$b"
     done
     if test "x$part" = "xmidi"
     then
