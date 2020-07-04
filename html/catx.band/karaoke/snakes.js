@@ -6,6 +6,9 @@ class Snakes{
 	    this.canvases[i].style = "position:absolute;top:20vh;";
 	    where.appendChild(this.canvases[i]);
 	}
+	this.grayDiv = document.createElement("div");
+	this.grayDiv.style = "position:absolute;top:0;left:0;width:100vw;height:20vh;background-color:#888;z-index:-1;";
+	where.appendChild(this.grayDiv);
 	this.staticDiv = document.createElement("div");
 	this.staticDiv.style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;font-size:2vh;color:#0ff;z-index:2;user-select:none;";
 	this.staticDiv.onpointermove = (event)=>this.onpointermove(event);
@@ -51,6 +54,7 @@ class Snakes{
     setEnabled(enabled){
 	this.enabled = enabled;
 	const display=enabled?"block":"none";
+	this.grayDiv.style.display = display;
 	this.staticDiv.style.display = display;
 	for (const canvas of this.canvases)
 	    canvas.style.display = "none";

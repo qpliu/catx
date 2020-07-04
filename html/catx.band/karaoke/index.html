@@ -33,7 +33,7 @@
 <script src=snakes.js?version=AARIN_ROBO_VERSION></script>
 <script src=球球.js?version=AARIN_ROBO_VERSION></script>
 <span id=topStuff>
-    <div style=position:absolute;top:0;left:0;width:100vw;height:10vh;text-align:center;>
+    <div style=position:absolute;top:0;left:0;width:100vw;height:3vw;text-align:center;>
 	<span id=name style=font-size:3vw;white-space:nowrap;color:#0f0;background-color:#000;>Select a song with Aarin Robo to sing Karaoke!</span>
     </div>
     <span id=websocketControls style=visibility:hidden;>
@@ -43,8 +43,11 @@
     <img id=settingsImg style=position:absolute;right:0;top:0;width:5vw;z-index:9;color:#0f0; src=../settings.svg onclick=gotClick();setMode(0);>
     <img id=qiuqiuImg style=position:absolute;right:6vw;top:0;width:5vw;z-index:9; src=../ball.png onclick=gotClick();setMode(1);>
     <img id=snakesImg style=position:absolute;right:12vw;top:0;width:10vw;z-index:9; src=../snake.png onclick=gotClick();setMode(2);>
+    <div style=position:absolute;top:4vw;left:0;width:100vw;text-align:center;z-index:1;>
+	<span id=beat_span style=font-family:monospace;font-size:4vw;color:#000;background-color:#0f0;></span>
+    </div>
 </span>
-<span id=bigSettings style=position:absolute;width:98%;top:10vh;>
+<span id=bigSettings style=position:absolute;width:98%;top:4vw;>
     <span style=position:absolute;left:0;width:29%;display:inline-block;>
 	<br>
 	<span id=settingsInputs></span>
@@ -65,9 +68,6 @@
 </span>
 <span id=bigSpan style=display:none;position:absolute;left:0;top:0;width:100vw;height:100vh;overflow:hidden;>
     <div id=cat_div style=position:absolute;left:0;top:10vh;width:100vw;></div>
-    <div style=position:absolute;top:10vh;left:0;width:100vw;text-align:center;>
-	<span id=beat_span style=font-family:monospace;font-size:8vh;color:#000;background-color:#0f0;></span>
-    </div>
     <div id=bg_div style=position:absolute;left:0;top:35vh;width:100vw;height:65vh;z-index:-9;text-align:center;></div>
 </span>
 <script>
