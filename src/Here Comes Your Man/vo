@@ -14,7 +14,7 @@ voPart = \relative {
     r8 fis8 fis fis g4 fis |
     << { \voiceOne
 	s4 \tiny \grace e'8( f4) e8( d) \grace e8( f4) |
-	e8 s8 s2. \normalsize |
+	e4 s2. \normalsize |
     } \new Voice { \voiceTwo
 	e,8( d~ d2.) |
 	r8 a'8 e' e fis4 d~ |
@@ -36,7 +36,7 @@ voPart = \relative {
     r8 fis fis fis g4 fis |
     << { \voiceOne
 	s4 \tiny \grace e'8( f4) e8( d) \grace e8( f4) |
-	e8 s8 s2. \normalsize |
+	e4 s2. \normalsize |
     } \new Voice { \voiceTwo
 	e,8( d~ d2.) |
 	r8 a'8 e' e fis4 d~ |
@@ -57,7 +57,7 @@ voPart = \relative {
     r8 fis, fis fis g4 fis |
     << { \voiceOne
 	s4 \tiny \grace e'8( f4) e8( d) \grace e8( f4) |
-	e8 s8 s2. \normalsize |
+	e4 s2. \normalsize |
     } \new Voice { \voiceTwo
 	e,8( d~ d2.) |
 	r8 a'8 e' e fis4 d~ |
