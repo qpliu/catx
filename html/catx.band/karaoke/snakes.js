@@ -4,17 +4,17 @@ class Snakes{
 	this.canvases = [];
 	for (let i=0; i<100; i++){
 	    this.divs[i] = document.createElement("div");
-	    this.divs[i].style = "position:absolute;top:20vh;color:#0f0;font-size:3vh;z-index:1;";
+	    this.divs[i].style = "position:absolute;top:20vh;color:#0f0;font-size:3vh;z-index:1;touch-action:none;";
 	    where.appendChild(this.divs[i]);
 	    this.canvases[i] = document.createElement("canvas");
-	    this.canvases[i].style = "position:absolute;top:20vh;";
+	    this.canvases[i].style = "position:absolute;top:20vh;touch-action:none;";
 	    where.appendChild(this.canvases[i]);
 	}
 	this.grayDiv = document.createElement("div");
 	this.grayDiv.style = "position:absolute;top:0;left:0;width:100vw;height:20vh;background-color:#888;z-index:-1;";
 	where.appendChild(this.grayDiv);
 	this.staticDiv = document.createElement("div");
-	this.staticDiv.style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;font-size:2vh;color:#0ff;z-index:2;user-select:none;";
+	this.staticDiv.style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;font-size:2vh;color:#0ff;z-index:2;user-select:none;touch-action:none;";
 	this.staticDiv.onpointermove = (event)=>this.onpointermove(event);
 	this.staticDiv.onpointerdown = (event)=>this.onpointerdown(event);
 	this.staticDiv.onpointerup = (event)=>this.onpointerup(event);
@@ -50,12 +50,15 @@ class Snakes{
 	    }
 	    this.pointerDown = [e.clientX,e.clientY];
 	}
+	e.preventDefault();
     }
     onpointerdown(e){
 	this.pointerDown = [e.clientX,e.clientY];
+	e.preventDefault();
     }
     onpointerup(e){
 	this.pointerDown = undefined;
+	e.preventDefault();
     }
     setEnabled(enabled){
 	this.enabled = enabled;
