@@ -1,7 +1,11 @@
 class Snakes{
     constructor(where){
+	this.divs = [];
 	this.canvases = [];
 	for (let i=0; i<100; i++){
+	    this.divs[i] = document.createElement("div");
+	    this.divs[i].style = "position:absolute;top:20vh;color:#0f0;font-size:3vh;z-index:1;";
+	    where.appendChild(this.divs[i]);
 	    this.canvases[i] = document.createElement("canvas");
 	    this.canvases[i].style = "position:absolute;top:20vh;";
 	    where.appendChild(this.canvases[i]);
@@ -32,6 +36,8 @@ class Snakes{
 	this.scroll = 0;
 	for (const canvas of this.canvases)
 	    canvas.style.display = "none";
+	for (const div of this.divs)
+	    div.style.display = "none";
     }
     onpointermove(e){
 	if (this.pointerDown!=undefined){
@@ -58,6 +64,8 @@ class Snakes{
 	this.staticDiv.style.display = display;
 	for (const canvas of this.canvases)
 	    canvas.style.display = "none";
+	for (const div of this.divs)
+	    div.style.display = "none";
 	if (enabled && !this.gotMicrophone){
 	    this.gotMicrophone = true;
 	    navigator.mediaDevices.getUserMedia({audio:{echoCancellation:{ideal:false}}}).then(stream=>{
@@ -79,7 +87,7 @@ class Snakes{
 	this.beatEvents.push({t:t,what:what});
     }
     addLyricEvent(t,what){
-	this.lyricEvents.push({t:t,what:what.replace(/<[^<>]*>/g,"")});
+	this.lyricEvents.push({t:t,what:what});
     }
     addKeysignatureEvent(e){
 	this.keysignatureEvents.push({t:e.t,key:e.key});
@@ -144,10 +152,11 @@ class Snakes{
 	}
 	const which=Math.floor(x/this.canvasWidth);
 	x -= which*this.canvasWidth;
+	const div=[this.divs[which%this.divs.length],this.divs[(which+this.divs.length-1)%this.canvases.length]];
 	const context=this.canvases[which%this.canvases.length].getContext("2d");
-	const context1=this.canvases[(which+this.canvases.length-1)%this.canvases.length].getContext("2d");
 	context.globalCompositeOperation = "source-over";
-	context1.globalCompositeOperation = "source-over";
+	if (x==0)
+	    div[1].innerHTML = "";
 	let key=[0,0];
 	for (const e of this.keysignatureEvents){
 	    if (e.t>t0)
@@ -177,10 +186,6 @@ class Snakes{
 		const y1=Math.floor((settings.maxNote-e.note+.5)/(settings.maxNote-settings.minNote)*this.canvasHeight);
 		context.fillRect(x,y0,1,y1-y0);
 	    }
-	context.fillStyle = "#00ff00";
-	context1.fillStyle = "#00ff00";
-	context.font = "bold "+this.canvasHeight/24+"px serif";
-	context1.font = "bold "+this.canvasHeight/24+"px serif";
 	for (const e of this.lyricEvents){
 	    if (e.t>=lt0 && e.t<lt1){
 		let k=e.what;
@@ -191,9 +196,15 @@ class Snakes{
 		if (k.slice(0,1)=="-")
 		    k = k.slice(1);
 		if (k.length!=0){
-		    const y=Math.floor(e.note==undefined?this.canvasHeight/2:((settings.maxNote-e.note)/(settings.maxNote-settings.minNote)+.35/24)*this.canvasHeight);
-		    context.fillText(k,x-this.canvasWidth,y);
-		    context1.fillText(k,x,y);
+		    const y=Math.floor(e.note==undefined?this.canvasHeight/2:((settings.maxNote-e.note)/(settings.maxNote-settings.minNote)-.021)*this.canvasHeight);
+		    for (let i=0; i<2; i++){
+			const span=document.createElement("span");
+			span.style.position = "absolute";
+			span.style.left = (x-this.canvasWidth+i*this.canvasWidth)+"px";
+			span.style.top = y+"px";
+			span.innerHTML = k;
+			div[i].appendChild(span);
+		    }
 		}
 	    }
 	}
@@ -219,10 +230,14 @@ class Snakes{
     scrollTo(){
 	this.drawLetters(Math.floor((this.scroll-2*this.canvasWidth)*settings.snakeTime/this.canvasWidth+this.canvasTime-startTime));
 	const which=Math.floor(this.scroll/this.canvasWidth)-2;
-	for (let i=0; i<this.canvases.length; i++)
+	for (let i=0; i<this.canvases.length; i++){
 	    this.canvases[(which+i)%this.canvases.length].style.display = i<2?"block":"none";
+	    this.divs[(which+i)%this.divs.length].style.display = i<2?"block":"none";
+	}
 	this.canvases[which%this.canvases.length].style.left = (which+2)*this.canvasWidth-this.scroll+"px";
 	this.canvases[(which+1)%this.canvases.length].style.left = (which+3)*this.canvasWidth-this.scroll+"px";
+	this.divs[which%this.divs.length].style.left = (which+2)*this.canvasWidth-this.scroll+"px";
+	this.divs[(which+1)%this.divs.length].style.left = (which+3)*this.canvasWidth-this.scroll+"px";
     }
     animate(now){
 	if (!this.enabled)
@@ -237,6 +252,10 @@ class Snakes{
 		canvas.height = this.canvasHeight;
 		canvas.style.width = this.canvasWidth+"px";
 		canvas.style.height = this.canvasHeight+"px";
+	    }
+	    for (const div of this.divs){
+		div.style.width = this.canvasWidth+"px";
+		div.style.height = this.canvasHeight+"px";
 	    }
 	    this.canvasTime = now;
 	    this.lastX = 0;
