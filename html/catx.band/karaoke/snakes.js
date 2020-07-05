@@ -4,10 +4,10 @@ class Snakes{
 	this.canvases = [];
 	for (let i=0; i<100; i++){
 	    this.divs[i] = document.createElement("div");
-	    this.divs[i].style = "position:absolute;top:20vh;color:#0f0;font-size:3vh;z-index:1;touch-action:none;";
+	    this.divs[i].style = "position:absolute;top:20vh;color:#0f0;font-size:3vh;z-index:1;";
 	    where.appendChild(this.divs[i]);
 	    this.canvases[i] = document.createElement("canvas");
-	    this.canvases[i].style = "position:absolute;top:20vh;touch-action:none;";
+	    this.canvases[i].style = "position:absolute;top:20vh;";
 	    where.appendChild(this.canvases[i]);
 	}
 	this.grayDiv = document.createElement("div");
@@ -50,15 +50,12 @@ class Snakes{
 	    }
 	    this.pointerDown = [e.clientX,e.clientY];
 	}
-	e.preventDefault();
     }
     onpointerdown(e){
 	this.pointerDown = [e.clientX,e.clientY];
-	e.preventDefault();
     }
     onpointerup(e){
 	this.pointerDown = undefined;
-	e.preventDefault();
     }
     setEnabled(enabled){
 	this.enabled = enabled;
