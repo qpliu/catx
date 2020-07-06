@@ -1,4 +1,5 @@
 % BIN midi system1 system2 system3
+% MIDIMERGE --fudge-lyrics 144
 
 \header {
     title = "MOON PRIDE"
@@ -80,6 +81,8 @@ drumPitchNames.eperc = #'ridebell
 \include "key3"
 \include "key3text_lyrics"
 \include "key3text_midi"
+\include "karaoke1"
+\include "karaoke2"
 
 layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     \tag #'systemOnePart \new ChordNames \mychords
@@ -304,4 +307,12 @@ midimusic = <<
     \tag #'(midiTwo) \new Staff \with {
 	midiInstrument = #"contrabass"
     } \stringsPartStaffThree
+    \tag #'(midiKaraoke) <<
+	\voOnePart
+	\karaokeOneLyrics
+    >>
+    \tag #'(midiKaraokeTwo) <<
+	\voTwoPart
+	\karaokeTwoLyrics
+    >>
 >>

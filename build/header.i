@@ -168,3 +168,5 @@ mybarNumberCheck = #(define-music-function (parser location nn) (number?) #{ \ta
 mymark = #(define-music-function (parser location what nn) (markup? number?) #{ \mybarNumberCheck #nn \mykavtweakcolor #green \mark \markup { \box \bold #what } #})
 
 markpage = #(define-music-function (parser location what) (markup?) #{ \tag #'(pageNumber keep) \mark #what #})
+
+\include "event-listener.ly"

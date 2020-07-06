@@ -1,0 +1,15 @@
+#!/bin/sh
+for a in *-sed
+do
+    b=`basename "$a" -sed`
+    sed <"$a" >"$b" \
+	-e 's/\([>"|]\)B:\(-\?\)\([^"]*\)/\1\2<span style=color:#666;>\3<\/span>/g' \
+	-e 's/\([>"|]\)A:\(-\?\)\([^"]*\)/\1\2<span style=color:#f88;>\3<\/span>/g' \
+	-e 's/\([>"|]\)M:\(-\?\)\([^"]*\)/\1\2<span style=color:#0f0;>\3<\/span>/g' \
+	-e 's/\([>"|]\)K:\(-\?\)\([^"]*\)/\1\2<span style=color:#f00;>\3<\/span>/g' \
+	-e 's/\([>"|]\)S:\(-\?\)\([^"]*\)/\1\2<span style=color:#cc0;>\3<\/span>/g' \
+	-e 's/\([>"|]\)R:\(-\?\)\([^"]*\)/\1\2<span style=color:#c0f;>\3<\/span>/g' \
+	-e 's/\([>"|]\)AS:\(-\?\)\([^"]*\)/\1\2<span style=color:#cc0;position:relative;>\3<span style=color:#f88;position:absolute;left:0;top:0;height:50%;overflow:hidden;z-index:1;>\3<\/span><\/span>/g' \
+	-e 's/\([>"|]\)KS:\(-\?\)\([^"]*\)/\1\2<span style=color:#cc0;position:relative;>\3<span style=color:#f00;position:absolute;left:0;top:0;height:50%;overflow:hidden;z-index:1;>\3<\/span><\/span>/g' \
+	-e 's/\([>"|]\)MR:\(-\?\)\([^"]*\)/\1\2<span style=color:#c0f;position:relative;>\3<span style=color:#0f0;position:absolute;left:0;top:0;height:50%;overflow:hidden;z-index:1;>\3<\/span><\/span>/g'
+done
