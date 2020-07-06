@@ -19,10 +19,14 @@ ln ../java/* .
 javac -Xlint *.java
 cd ..
 ln *.i *.wav timidity_extra_silence.cfg bin
-ln "../src/$name"/* bin
+ln -L "../src/$name"/* bin
 cd bin
 mv music music-if
 mv header.i header.i-if
+if test -x "run_before"
+then
+    ./run_before
+fi
 for a in *tabs
 do
     if test -f "$a"

@@ -1,0 +1,144 @@
+karaokeLyrics = \new Lyrics \lyricmode {
+    ">@"2 \skip4. "B:E"8
+    "B:-ga"4 "B:-o"8 "B:ga"4 "B:to"4 "B:-ma"8
+    \skip8 "B:-ra"8 "B:-na"8 "B:-i!"8 -8 "B:O"8 "B:-do"8 "B:-ru"8
+    "B:ko"4 "B:-ko"8 "B:-ro"4 "B:to"4 "B:-ma"8
+    \skip8 "B:-ra"8 "B:-na"8 "B:-i!"8 -8 ">B:U"8 "B:-go"8 "B:-ki"8
+    -8 "B:-da"8 "B:-su"8 "B:yo"8 -8 "B:ki"8 "B:-mi"8 "B:no"8
+    -8 "B:mo"8 "B:-to"8 "B:he"8 -8 "B:ha"8 "B:-shi"8 "B:-re!"8
+    -8 "B:ha"8 "B:-shi"8 "B:-re!"8 -8 "B:ha"8 "B:-shi"8 "B:-re!"8
+    \skip2. -4
+    ">@"2 "@"2
+    "@"2 "@"2
+    "@"2 "@"2
+    "@"2 "@"2
+    "@"2 "@"2
+    "@"2 "@"2
+    "@|!bg=4"2 "@|!bg=3"2
+    "@|!bg=2"2 "@|!bg=1"2
+    "!bg=|R:Zu"8 "R:-t"4. -8 "R:-to"8 "R:ki"8 "R:-mi"8
+    \skip8 "R:wo"8 -8 "R:o"8 "R:-na"8 "R:-ji"8 "R:de"8 "R:-n"8
+    "R:-sha"4 "R:de"8 "R:mi"4 "R:-ru"8 "R:ta"8 "R:-bi"8
+    \skip8 "R:ni"8 -8 "R:I"8 "R:-tsu"8 "R:ka"8 "R:-ra"8 "R:da"8
+    "R:-rou?"8 -8 ">R:Bo"8 "R:-ku"4 "R:no"8 "R:ko"8 "R:-ko"8
+    \skip8 "R:-ro"8 -8 "R:no"8 "R:na"8 "R:-ka"8 "R:de"8 "R:o"8
+    "R:-o"4 "R:-ki"8 "R:-ku"8 "R:nat"4 "R:-te"8 "R:i"8
+    "R:-ta"8 "R:o"8 "R:-mo"8 "R:-i"8 -2
+    ">A:Ha"2 \skip8 "A:-na"4 "A:-shi"8
+    "A:-ka"4. "A:-ke"4 "A:-ru"4 "A:ko"8
+    "A:-to"8 "A:mo"8 -8 "A:de"8 "A:-ki"8 "A:-na"8 "A:-ku"8 "A:-te"8
+    \skip8 "A:i"8 "A:-tsu"8 "A:-mo"8 -8 ">A:To"8 "A:-mo"8 "A:-da"8
+    "A:-chi"8 "A:to"8 "A:i"8 "A:-s"8 "A:-sho"8 "A:ni"8 "A:sha"8 "A:-bet"8
+    \skip4 -8 "A:-te"8 "A:-ru"8 "A:fu"8 "A:-ri"8 "A:de"8
+    "A:yo"8 "A:-ko"8 "A:-me"8 "A:de"8 "A:mi"8 "A:-te"8 "A:-ta"8 "A:bo"8
+    "A:-ku"8 "A:da"8 "A:-ke"8 "A:-do"4. -4
+    ">K:Ki"16 "K:-zu"16 "K:-i"16 "K:-ta"16 "K:ko"16 "K:-no"16 "K:kan"8 "K:-jou"8 "K:ni"8 -8 "K:mou"8
+    "K:ko"16 "K:-u"16 "K:-kai"8 "K:nan"8 "K:-te"16 "K:shi"16 "K:-ta"16 "K:-ku"16 "K:-nai"8 -8 ">K:Bo"16 "K:-ku"16
+    "K:wa"16 "K:bo"16 "K:-ku"16 "K:ni"16 "K:u"8 "K:-so"8 "K:tsui"8 "K:-te"8 -8 "K:ni"8
+    "K:-ge"8 "K:-ta"8 "K:-ku"8 "K:mo"8 "K:na"8 "K:-i"8 -8 ">K:A"16 "K:-fu"16
+    "K:-re"16 "K:-da"16 "K:-shi"16 "K:-so"16 "K:-u"8 "K:na"16 "K:ki"16 "K:-mo"16 "K:-chi"16 "K:wo"8 -8 "K:hi"8
+    "K:-to"8 "K:-tsu"8 "K:no"8 "K:-ko"8 "K:-ra"8 "K:-zu"8 -8 "K:ko"8
+    "K:-to"4 "K:-ba"8 "K:ni"4 "K:ze"8 "K:-n"8 "K:-bu"8
+    \skip8 -8 "K:tsu"8 "K:-me"4 "K:-ko"8 "K:-mo"8 "K:-u"8
+    "-"2 \skip4. ">B:E"8
+    "B:-ga"4 "B:-o"8 "B:ga"4 "B:to"4 "B:-ma"8
+    \skip8 "B:-ra"8 "B:-na"8 "B:-i!"8 -8 "B:O"8 "B:-do"8 "B:-ru"8
+    "B:ko"4 "B:-ko"8 "B:-ro"4 "B:to"4 "B:-ma"8
+    \skip8 "B:-ra"8 "B:-na"8 "B:-i!"8 -8 ">B:U"8 "B:-go"8 "B:-ki"8
+    -8 "B:-da"8 "B:-su"8 "B:yo"8 -8 "B:ki"8 "B:-mi"8 "B:no"8
+    -8 "B:mo"8 "B:-to"8 "B:he"8 -8 "B:ha"8 "B:-shi"8 "B:-re!"8
+    -8 "B:ha"8 "B:-shi"8 "B:-re!"8 -8 "B:ha"8 "B:-shi"8 "B:-re!"8
+    \skip4 -8 ">B:I"8 "B:-ma"8 "B:wa"8 "B:ma"8 "B:-da"8
+    "B:yu"4 "B:-u"8 "B:-ki"4 "B:ga"4 "B:ta"8
+    \skip8 "B:-ri"8 "B:-na"8 "B:-i!"8 -8 "B:Su"8 "B:-ko"8 "B:-shi"8
+    "B:no"4 "B:kik"4 "B:-ka"8 "-"8 "B:-ke"8 "B:ga"8
+    \skip8 "B:ta"8 "B:-ri"8 "B:-nai!"8 -8 ">B:U"8 "B:-go"8 "B:-ki"8
+    -8 "B:-da"8 "B:-shi"8 "B:-te"8 -8 "B:bo"8 "B:-ku"8 "B:no"8
+    -8 "B:ka"8 "B:-ra"8 "B:-da"8 -8 "B:ha"8 "B:-shi"8 "B:-re!"8
+    -8 "B:ha"8 "B:-shi"8 "B:-re!"8 -8 "B:ha"8 "B:-shi"8 "B:-re!"8
+    \skip2. -4
+    ">@"2 "@"2
+    "@"2 "@"2
+    "@"2 "@"2
+    "@"2 "@"2
+    "@"2 "@"2
+    "@"2 "@"2
+    "@|!bg=4"2 "@|!bg=3"2
+    "@|!bg=2"2 "@|!bg=1"2
+    "!bg=|M:I"16 "M:-tsu"16 "M:-dat"8 "M:-te"8 "M:fu"16 "M:-mi"16 "M:-da"16 "M:-su"16 "M:ma"16 "M:-e"16 "M:ni"8 "M:i"16 "M:-i"16
+    "M:-wa"16 "M:-ke"16 "M:bak"8 "M:-ka"16 "M:-ri"16 "M:ka"16 "M:-n"16 "M:-ga"16 "M:-e"16 "M:-te"8 -8 ">K:Kek"8
+    "K:-kyo"16 "K:-ku"16 "K:na"16 "K:-n"16 "K:ni"16 "K:mo"16 "K:de"16 "K:-ki"16 "K:-na"16 "K:-ku"16 "K:-te"8 -8 "K:ji"8
+    "K:-kan"4 "K:ga"8 "K:su"8 "K:-gi"8 "K:-te"8 -8 ">R:Wa"8
+    "R:-su"4 "R:-re"8 "R:-te"4 "R:i"8 "R:-ku"4
+    "R:ko"8 "R:-to"4 "R:ni"8 "R:na"8 "R:-re"8 "R:-te"8 "R:-ta"8
+    -8 "R:bo"8 "R:-ku"8 "R:no"8 "R:ko"8 "R:-ko"8 "R:-ro"8 "R:ga"8
+    "R:ha"8 "R:-shi"8 "R:-ri"8 "R:-da"8 "R:-shi"8 "R:-ta"4 -8
+    ">S:Ko"4 "S:-n"8 "S:-na"4 "S:ni"4 "S:hi"8
+    "S:-ro"8 "S:-i"8 -8 "S:se"16 "S:-ka"16 "S:-i"16 "S:ka"16 "S:-ra"16 "S:su"16 "S:-re"8 "S:-ba"8
+    \skip8 "S:bo"8 "S:-ku"8 "S:na"8 "S:-n"8 "S:-te"8 "S:chip"4
+    "S:-po"8 "S:-ke"8 "S:da"8 "S:-ro"8 "S:-u"8 "S:na"8 -8 ">A:De"8
+    "A:-mo"4 "A:ki"8 "A:-mi"4 "A:he"8 "A:no"4
+    "A:bo"8 "A:-ku"4 "A:no"8 "A:o"8 "A:-mo"8 "A:-i"8 "A:wa"8
+    -8 "A:ko"8 "A:-no"8 "A:so"8 "A:-ra"8 "A:yo"8 "A:-ri"8 "A:mo"8
+    -8 "A:o"8 "A:-o"8 "A:-ki"4 "A:-i"8 "A:ka"8 "A:-ra"8
+    \skip2. -8 ">B:E"8
+    "B:-ga"4 "B:-o"8 "B:ga"4 "B:to"4 "B:-ma"8
+    \skip8 "B:-ra"8 "B:-na"8 "B:-i!"8 -8 "B:O"8 "B:-do"8 "B:-ru"8
+    "B:ko"4 "B:-ko"8 "B:-ro"4 "B:to"4 "B:-ma"8
+    \skip8 "B:-ra"8 "B:-na"8 "B:-i!"8 -8 ">B:U"8 "B:-go"8 "B:-ki"8
+    -8 "B:-da"8 "B:-su"8 "B:yo"8 -8 "B:ki"8 "B:-mi"8 "B:no"8
+    -8 "B:mo"8 "B:-to"8 "B:he"8 -8 "B:ha"8 "B:-shi"8 "B:-re!"8
+    -8 "B:ha"8 "B:-shi"8 "B:-re!"8 -8 "B:ha"8 "B:-shi"8 "B:-re!"8
+    \skip4 -8 ">B:I"8 "B:-ma"8 "B:wa"8 "B:ma"8 "B:-da"8
+    "B:yu"4 "B:-u"8 "B:-ki"4 "B:ga"4 "B:ta"8
+    \skip8 "B:-ri"8 "B:-na"8 "B:-i!"8 -8 "B:Su"8 "B:-ko"8 "B:-shi"8
+    "B:no"4 "B:kik"4 "B:-ka"8 "-"8 "B:-ke"8 "B:ga"8
+    \skip8 "B:ta"8 "B:-ri"8 "B:-nai!"8 -8 ">B:U"8 "B:-go"8 "B:-ki"8
+    -8 "B:-da"8 "B:-shi"8 "B:-te"8 -8 "B:bo"8 "B:-ku"8 "B:no"8
+    -8 "B:ka"8 "B:-ra"8 "B:-da"8 -8 "B:ha"8 "B:-shi"8 "B:-re!"8
+    -8 "B:ha"8 "B:-shi"8 "B:-re!"8 -8 "B:ha"8 "B:-shi"8 "B:-re!"8
+    \skip2. -4
+    ">M:Mat"8 "M:-te"16 "M:i"16 "M:-te"16 "M:mo"16 "M:ha"16 "M:-ji"16 "M:-man"8 "M:-nai"8 -8 "H:ki"16 "H:-mi"16
+    "H:to"16 "H:ze"16 "H:-n"16 "H:-ryo"16 "H:-ku"16 "H:de"16 "H:mu"16 "H:-ki"16 "H:-ai"8 "H:-tai"8 -8 ">A:O"8
+    "A:-na"16 "A:-ji"16 "A:ko"16 "A:-no"16 "A:ho"16 "A:-shi"16 "A:ni"16 "A:u"16 "A:-ma"16 "A:-re"16 "A:-te"8 -8 ">R:on"8
+    "R:-na"16 "R:-ji"16 "R:ko"16 "R:-no"16 "R:ji"16 "R:-da"16 "R:-i"16 "R:ni"16 "R:u"16 "R:-ma"16 "R:-re"16 "R:-te"16 "R:ko"16 "R:-re"16 "R:-te"8
+    ">S:Gu"16 "S:-u"16 "S:-ze"16 "S:-n"16 "S:na"16 "S:-n"16 "S:-te"16 "S:ka"16 "S:-n"16 "S:-ta"16 "S:-n"16 "S:na"16 "S:ko"16 "S:-to"16 "S:-ba"16 "S:de"16
+    "S:su"16 "S:-re"16 "S:-chi"16 "S:-ga"16 "S:-i"16 "S:ha"16 "S:-na"16 "S:-re"16 "S:-te"16 "S:shi"16 "S:-ma"16 "S:-u"16 "S:nan"8 "S:-te"8
+    ">H:Kan"8 "H:-gae"8 "H:-ru"8 "H:da"8 "H:-ke"8 "H:de"8 "H:mu"8 "H:-ne"8
+    "H:no"8 "H:o"8 "H:-ku"8 "H:ga"8 "H:i"8 "H:-ta"8 "H:-ku"8 "H:-te"8
+    ">M:Jun"8 "M:-sui"8 "M:ni"8 "M:ki"8 "M:-mi"8 "M:to"8 "M:tsu"8 "M:-na"8
+    "M:-gat"8 "M:-te"16 "M:i"16 "M:-ta"8 "M:-i"8 "M:yo"8 "M:i"8 "M:-ma"8 "M:mo"8
+    -8 ">R:nan"8 "R:-nen"8 "R:mo"8 "R:nan"8 "R:-juu"8 "R:-nen"8 "R:mo"8
+    "R:ko"8 "R:-no"8 "R:sa"8 "R:-ki"8 "R:no"8 "R:mi"8 "R:-rai"8 "R:mo"8
+    -8 ">A:I"8 "A:-chi"8 "A:-do"8 "A:-ki"8 "A:-ri"8 "A:no"4
+    "H:ji"8 "H:-n"8 "H:-se"8 "H:-i"4 "H:da"8 "H:-ka"8 "H:-ra"8
+    -8 ">B:Ki"8 "B:-mi"8 "B:no"8 "B:ma"8 "B:-e"8 "B:ja"8 "B:su"8
+    "B:-na"8 "B:-o"8 "B:de"8 "B:i"8 "B:-ta"8 "B:-i"8 "B:n"8 "B:-da"8
+    \skip1
+    \skip4 -8 ">K:So"8 "K:-re"8 "K:-de"8 "K:-mo"8 "K:ko"8
+    "K:-ta"4 "K:-e"8 "K:wa"4 "K:-da"4 "K:-se"8
+    \skip8 "K:-na"8 "K:-i"8 "K:yo"8 -8 "K:su"8 "K:-ko"8 "K:-shi"8
+    "K:no"4 "K:ko"8 "K:-to"4 "K:-ba"8 "K:da"8 "K:-se"8
+    \skip8 "K:-na"8 "K:-i"8 "K:yo"8 -8 ">K:「Ki"8 "K:-mi"8 "K:ga"8
+    -4 "K:su"8 "K:-ki」"8 -8 "K:so"8 "K:-re"8 "K:-da"8
+    \skip8 "K:-ke"8 "K:de"8 "K:se"4 "K:-ka"8 "K:-i"8 "K:wo"8
+    -8 "K:ka"8 "K:-e"8 "K:-ru?"4 "K:ka"8 "K:-wa"8 "K:-ru?"8
+    \skip1
+    -2 \skip4. ">B:E"8
+    "B:-ga"4 "B:-o"8 "B:ga"4 "B:to"4 "B:-ma"8
+    \skip8 "B:-ra"8 "B:-na"8 "B:-i!"8 -8 "B:O"8 "B:-do"8 "B:-ru"8
+    "B:ko"4 "B:-ko"8 "B:-ro"4 "B:to"4 "B:-ma"8
+    \skip8 "B:-ra"8 "B:-na"8 "B:-i!"8 -8 ">B:U"8 "B:-go"8 "B:-ki"8
+    -8 "B:-da"8 "B:-su"8 "B:yo"8 -8 "B:ki"8 "B:-mi"8 "B:no"8
+    -8 "B:mo"8 "B:-to"8 "B:he"8 -8 "B:ha"8 "B:-shi"8 "B:-re!"8
+    -8 "B:ha"8 "B:-shi"8 "B:-re!"8 -8 "B:ha"8 "B:-shi"8 "B:-re!"8
+    \skip4 -8 ">B:I"8 "B:-ma"8 "B:wa"8 "B:ma"8 "B:-da"8
+    "B:yu"4 "B:-u"8 "B:-ki"4 "B:ga"4 "B:ta"8
+    \skip8 "B:-ri"8 "B:-na"8 "B:-i!"8 -8 "B:Su"8 "B:-ko"8 "B:-shi"8
+    "B:no"4 "B:kik"4 "B:-ka"8 "-"8 "B:-ke"8 "B:ga"8
+    \skip8 "B:ta"8 "B:-ri"8 "B:-nai!"8 -8 ">B:U"8 "B:-go"8 "B:-ki"8
+    -8 "B:-da"8 "B:-shi"8 "B:-te"8 -8 "B:bo"8 "B:-ku"8 "B:no"8
+    -8 "B:ka"8 "B:-ra"8 "B:-da"8 -8 "B:ha"8 "B:-shi"8 "B:-re!"8
+    -8 "B:ha"8 "B:-shi"8 "B:-re!"8 -8 "B:ha"8 "B:-shi"8 "B:-re!"8
+    \skip2. -8 "@@"8
+}

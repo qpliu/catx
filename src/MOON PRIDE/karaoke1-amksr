@@ -37,7 +37,7 @@ karaokeOneLyrics = \new Lyrics \lyricmode {
     ">M:So"8 "M:-re"8 "M:wa"8 "M:o"8 "M:-u"8 "M:-ji"8 "M:-sa"8 \skip8 "M:-ma"8
     ">M:ni"8 "M:u"8 \skip8 "M:-n"8 "M:-me"8 "M:-i"8 "M:na"8 "M:-ge"8 "M:-zu"4
     ">B:Mi"4 "B:-zu"8 "B:-ka"8 \skip8 "B:-ra"8 "B:ta"8 "B:-ta"8 "B:-ka"4 "B:-u"4 "B:i"4 "B:-shi"4 -1
-    ">B:Shin"4 "B:-y"8 "B:Make"8 \skip8 "B:Up"4 "B:ka"8 \skip8 "B:-ga"8 "B:-ya"4 "B:-ku"4 "B:yo"4
+    ">B:Shin"4 "B:-y"8 "B:Make"8 \skip8 "B:--Up"4 "B:ka"8 \skip8 "B:-ga"8 "B:-ya"4 "B:-ku"4 "B:yo"4
     ">B:ho"4 "B:-shi"8 "B:-zo"8 "B:-ra"4 "B:wo"8 "B:a"8 \skip8 "B:-tsu"8 "B:-me"4 "B:-te"4
     ">B:Ta"8 "B:-da"8 "B:ma"4 "B:-mo"8 "B:-ra"8 \skip8 "B:-re"4 "B:-ru"8 \skip8 "B:da"8 "B:-ke"4 "B:no"4
     ">B:ka"4 "B:-yo"4 "B:-wa"8 "B:-i"8 "B:so"8 "B:-n"8 "B:-za"8 "B:-i"8 \skip8 "B:ja"8 "B:nai"4 "B:wa"2
@@ -67,7 +67,7 @@ karaokeOneLyrics = \new Lyrics \lyricmode {
     ">S:mu"4 "S:-te"8 "S:-ki"4. "S:no"8 \skip8 "S:bu"8 "S:-ki"8 "S:ga"8 "S:a"4 "S:-ru"4 -8
     ">R:so"8 "R:-re"8 "R:ha"8 "R:yo"8 "R:-wa"8 "R:-sa"8 "R:ni"8 \skip8 "R:yo"8 "R:-ri"8 "R:-so"8 \skip8 "R:-u"8 "R:ma"8 "R:-na"8 "R:-za"8 "R:-shi"8 "R:to"4
     ">B:su"8 "B:-be"8 "B:-te"8 "B:u"8 \skip8 "B:-ke"8 "B:-i"8 "B:-re"8 "B:-ru"4 "B:tsu"4 "B:-yo"4 "B:-sa"4 -1
-    ">B:Shin"4 "B:-y"8 "B:Make"8 \skip8 "B:Up"4 "B:ki"8 \skip8 "B:-ra"8 "B:-me"4 "B:-ku"4 "B:yo"4
+    ">B:Shin"4 "B:-y"8 "B:Make"8 \skip8 "B:--Up"4 "B:ki"8 \skip8 "B:-ra"8 "B:-me"4 "B:-ku"4 "B:yo"4
     ">B:ho"4 "B:-shi"8 "B:-zo"8 "B:-ra"4 "B:ni"8 "B:-da"8 \skip8 "B:-ka"8 "B:-re"4 "B:-te"4
     ">B:To"8 "B:-ki"8 "B:o"4 "B:ko"8 "B:-e"8 \skip8 "B:-ta"4 "B:ki"8 \skip8 "B:-zu"8 "B:-na"4 "B:ga"4
     ">B:wa"4 "B:-ta"4 "B:-shi"8 "B:ni"8 "B:yu"8 "B:-u"8 "B:-ki"8 "B:o"8 \skip8 "B:ku"8 "B:-re"4 "B:-ru"2
@@ -96,11 +96,11 @@ karaokeOneLyrics = \new Lyrics \lyricmode {
     ">K:ko"8 "K:-no"8 "K:hi"8 "K:-ro"8 "K:-i"8 "K:u"4 "K:-chu"8 \skip8 "K:-u"4 "K:de"8 -8
     ">K:na"8 "K:-n"8 "K:-do"8 "K:u"4 "K:-ma"8 "K:-re"8 \skip4 "K:-ka"8 "K:-wa"8 \skip8 "K:-t"4 "K:-te"8 \skip8 "K:mo"4.
     ">K:a"8 "K:-na"8 "K:-ta"8 "K:ni"8 -4 "K:ko"8 "K:-i"8 -8 "K:o"4 "K:su"8 \skip4 "K:-ru"4
-    ">KS:Shin"4 "KS:-y"8 "KS:Make"8 \skip8 "KS:Up"4 "KS:ha"8 \skip8 "KS:-ba"8 "KS:-ta"4 "KS:-ku"4 "KS:yo"4
+    ">KS:Shin"4 "KS:-y"8 "KS:Make"8 \skip8 "KS:--Up"4 "KS:ha"8 \skip8 "KS:-ba"8 "KS:-ta"4 "KS:-ku"4 "KS:yo"4
     ">KS:ho"4 "KS:-shi"8 "KS:so"8 "KS:-ra"4 "KS:-no"8 "KS:-ka"8 \skip8 "KS:-na"8 "KS:-ta"4 "KS:-he"4
     ">B:tsu"8 "B:-mi"8 "B:ga"4 "B:ma"8 "B:-wa"8 \skip8 "B:-ru"8 "B:se"8 "B:-ka"8 \skip8 "B:-i"8
     ">B:de"4 "B:-mo"4 "B:mi"4 "B:-ra"4 "B:-i"8 "B:o"8 "B:shi"4 "B:-n"8 "B:-ji"8 \skip8 "B:ra"8 "B:-re"4 "B:-ru"8 "B:da"8 "B:-ka"8 "B:-ra"8
-    ">B:Shin"4 "B:-y"8 "B:Make"8 \skip8 "B:Up"4 "B:ha"8 \skip8 "B:-ba"8 "B:-ta"4 "B:-ku"4 "B:yo"4
+    ">B:Shin"4 "B:-y"8 "B:Make"8 \skip8 "B:--Up"4 "B:ha"8 \skip8 "B:-ba"8 "B:-ta"4 "B:-ku"4 "B:yo"4
     ">B:ho"4 "B:-shi"8 "B:-zo"8 "B:-ra"4 "B:o"8
     ">B:ma"8 \skip8 "B:-to"8 "B:-t"4 "B:-te"4 "B:a"8 "B:-ta"8 "B:-ra"4 "B:-shi"8 "B:-i"8 \skip8
     ">B:de"4 "B:-n"8 \skip8 "B:-se"8 "B:-tsu"4 "B:ga"4 "B:I"4 "B:-ma"4 "B:ko"8 "B:-ko"8 "B:ka"8 "B:-ra"8 -8
