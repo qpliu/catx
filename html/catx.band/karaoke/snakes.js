@@ -20,6 +20,14 @@ class Snakes{
 	this.staticDiv.onpointerup = (event)=>this.onpointerup(event);
 	this.staticDiv.onpointerleave = (event)=>this.onpointerup(event);
 	where.appendChild(this.staticDiv);
+	this.lt = document.createElement("img");
+	this.lt.style = "position:absolute;top:55vh;left:0;height:10vh;z-index:2;";
+	this.lt.src = "../lt.svg";
+	where.appendChild(this.lt);
+	this.gt = document.createElement("img");
+	this.gt.style = "position:absolute;top:55vh;right:0;height:10vh;z-index:2;";
+	this.gt.src = "../gt.svg";
+	where.appendChild(this.gt);
     }
     reset(startTime,repeat,songLength){
 	this.startTime = startTime;
@@ -43,9 +51,6 @@ class Snakes{
 	if (this.pointerDown!=undefined){
 	    if (!isPlaying){
 		this.scroll += Math.floor(this.pointerDown[0]-e.clientX);
-		this.scroll = Math.min(this.scroll,this.lastX);
-		this.scroll = Math.max(this.scroll,this.lastX-(this.canvases.length-2)*this.canvasWidth);
-		this.scroll = Math.max(this.scroll,0);
 		this.scrollTo();
 	    }
 	    this.pointerDown = [e.clientX,e.clientY];
@@ -62,6 +67,8 @@ class Snakes{
 	const display=enabled?"block":"none";
 	this.grayDiv.style.display = display;
 	this.staticDiv.style.display = display;
+	this.lt.style.display = "none";
+	this.gt.style.display = "none";
 	for (const canvas of this.canvases)
 	    canvas.style.display = "none";
 	for (const div of this.divs)
@@ -227,17 +234,24 @@ class Snakes{
 	    context.fillRect(x,y0,width,y1-y0);
 	}
     }
+    fixScroll(){
+	const minScroll=Math.max(this.lastX-(this.canvases.length-2)*this.canvasWidth,2*this.canvasWidth);
+	this.scroll = Math.max(Math.min(this.scroll,this.lastX),minScroll);
+	this.lt.style.display = this.enabled&&this.scroll!=minScroll&&!isPlaying?"block":"none";
+	this.gt.style.display = this.enabled&&this.scroll!=this.lastX&&!isPlaying?"block":"none";
+    }
     scrollTo(){
+	this.fixScroll();
 	this.drawLetters(Math.floor((this.scroll-2*this.canvasWidth)*settings.snakeTime/this.canvasWidth+this.canvasTime-startTime));
 	const which=Math.floor(this.scroll/this.canvasWidth)-2;
 	for (let i=0; i<this.canvases.length; i++){
-	    this.canvases[(which+i)%this.canvases.length].style.display = i<2?"block":"none";
-	    this.divs[(which+i)%this.divs.length].style.display = i<2?"block":"none";
+	    this.canvases[(which+this.canvases.length+i)%this.canvases.length].style.display = i<2?"block":"none";
+	    this.divs[(which+this.canvases.length+i)%this.divs.length].style.display = i<2?"block":"none";
 	}
-	this.canvases[which%this.canvases.length].style.left = (which+2)*this.canvasWidth-this.scroll+"px";
-	this.canvases[(which+1)%this.canvases.length].style.left = (which+3)*this.canvasWidth-this.scroll+"px";
-	this.divs[which%this.divs.length].style.left = (which+2)*this.canvasWidth-this.scroll+"px";
-	this.divs[(which+1)%this.divs.length].style.left = (which+3)*this.canvasWidth-this.scroll+"px";
+	for (let i=0; i<2; i++){
+	    this.canvases[(which+this.canvases.length+i)%this.canvases.length].style.left = (which+2+i)*this.canvasWidth-this.scroll+"px";
+	    this.divs[(which+this.canvases.length+i)%this.divs.length].style.left = (which+2+i)*this.canvasWidth-this.scroll+"px";
+	}
     }
     animate(now){
 	if (!this.enabled)
