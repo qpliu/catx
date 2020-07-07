@@ -1,38 +1,33 @@
 class BeatCounter{
-    constructor(cats,where){
-	this.cats = cats;
+    constructor(where){
 	this.span = where;
     }
-    reset(startTime,repeat,songLength){
-	this.startTime = startTime;
+    reset(repeat,songLength){
 	this.repeat = repeat;
 	this.songLength = songLength;
-	this.index = 0;
 	this.events = [];
-	this.lastTime = undefined;
-	this.span.innerHTML = "";
     }
     addEvent(t,what){
 	this.events.push({t:t,what:what});
     }
-    animate(now){
-	if (this.repeat && now>=this.startTime+this.songLength){
-	    this.startTime += Math.floor((now-this.startTime)/this.repeat)*this.repeat;
-	    this.index = 0;
-	}
-	for (; this.index<this.events.length; this.index++){
-	    const e=this.events[this.index];
-	    const t=this.startTime+e.t;
-	    if (t>=now){
-		if (this.lastTime!=undefined)
-		    this.cats.animate((now-this.lastTime)/(t-this.lastTime));
-		return;
+    setTime(time){
+	if (this.repeat&&time>=this.songLength)
+	    time -= Math.floor((time-this.songLength)/this.repeat+1)*this.repeat;
+	let what="";
+	let count=0;
+	let lastTime=0;
+	let nextTime=this.songLength;
+	for (const e of this.events){
+	    if (e.t>=time){
+		nextTime = e.t;
+		break;
 	    }
-	    this.lastTime = t;
-	    this.cats.increment();
-	    this.span.innerHTML = this.events[this.index].what;
+	    count++;
+	    what = e.what;
+	    lastTime = e.t;
 	}
-	if (now<this.startTime+this.songLength)
-	    this.cats.animate((now-this.lastTime)/(this.startTime+this.songLength-this.lastTime));
+	this.span.innerHTML = what;
+	if (nextTime>lastTime)
+	    cats.setBeat(count+(time-lastTime)/(nextTime-lastTime));
     }
 }

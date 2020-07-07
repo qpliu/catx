@@ -14,7 +14,7 @@ class Snakes{
 	this.grayDiv.style = "position:absolute;top:0;left:0;width:100vw;height:20vh;background-color:#888;z-index:-1;";
 	where.appendChild(this.grayDiv);
 	this.staticDiv = document.createElement("div");
-	this.staticDiv.style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;font-size:2vh;color:#0ff;z-index:2;user-select:none;touch-action:none;";
+	this.staticDiv.style = "position:absolute;top:20vh;left:0;width:100vw;height:80vh;font-size:2vh;color:#0ff;z-index:2;user-select:none;touch-action:none;display:block;";
 	this.staticDiv.onpointermove = (event)=>this.onpointermove(event);
 	this.staticDiv.onpointerdown = (event)=>this.onpointerdown(event);
 	this.staticDiv.onpointerup = (event)=>this.onpointerup(event);
@@ -51,7 +51,7 @@ class Snakes{
 	if (this.pointerDown!=undefined){
 	    if (!isPlaying){
 		this.scroll += Math.floor(this.pointerDown[0]-e.clientX);
-		this.scrollTo();
+		this.fixScroll();
 	    }
 	    this.pointerDown = [e.clientX,e.clientY];
 	}
@@ -64,9 +64,8 @@ class Snakes{
     }
     setEnabled(enabled){
 	this.enabled = enabled;
-	const display=enabled?"block":"none";
-	this.grayDiv.style.display = display;
-	this.staticDiv.style.display = display;
+	this.grayDiv.style.display = enabled?"block":"none";
+	this.staticDiv.style.visibility = enabled?"visible":"hidden";
 	this.lt.style.display = "none";
 	this.gt.style.display = "none";
 	for (const canvas of this.canvases)
@@ -235,18 +234,19 @@ class Snakes{
 	}
     }
     fixScroll(){
+	if (!this.canvasWidth)
+	    return;
 	const minScroll=Math.max(this.lastX-(this.canvases.length-2)*this.canvasWidth,2*this.canvasWidth);
 	this.scroll = Math.max(Math.min(this.scroll,this.lastX),minScroll);
 	this.lt.style.display = this.enabled&&this.scroll!=minScroll&&!isPlaying?"block":"none";
 	this.gt.style.display = this.enabled&&this.scroll!=this.lastX&&!isPlaying?"block":"none";
-    }
-    scrollTo(){
-	this.fixScroll();
-	this.drawLetters(Math.floor((this.scroll-2*this.canvasWidth)*settings.snakeTime/this.canvasWidth+this.canvasTime-startTime));
+	const time=Math.floor((this.scroll-2*this.canvasWidth)*settings.snakeTime/this.canvasWidth+this.canvasTime-startTime);
+	this.drawLetters(time);
+	beatCounter.setTime(time);
 	const which=Math.floor(this.scroll/this.canvasWidth)-2;
 	for (let i=0; i<this.canvases.length; i++){
-	    this.canvases[(which+this.canvases.length+i)%this.canvases.length].style.display = i<2?"block":"none";
-	    this.divs[(which+this.canvases.length+i)%this.divs.length].style.display = i<2?"block":"none";
+	    this.canvases[(which+this.canvases.length+i)%this.canvases.length].style.display = i<2&&this.enabled?"block":"none";
+	    this.divs[(which+this.canvases.length+i)%this.divs.length].style.display = i<2&&this.enabled?"block":"none";
 	}
 	for (let i=0; i<2; i++){
 	    this.canvases[(which+this.canvases.length+i)%this.canvases.length].style.left = (which+2+i)*this.canvasWidth-this.scroll+"px";
@@ -254,9 +254,6 @@ class Snakes{
 	}
     }
     animate(now){
-	if (!this.enabled)
-	    return;
-	this.pointerDown = undefined;
 	const rect=this.staticDiv.getBoundingClientRect();
 	if (this.canvasWidth!=Math.ceil(rect.width) || this.canvasHeight!=Math.ceil(rect.height) || !this.canvasTime){
 	    this.canvasWidth = Math.ceil(rect.width);
@@ -275,6 +272,7 @@ class Snakes{
 	    this.lastX = 0;
 	    this.lastFftX = 0;
 	}
+	this.pointerDown = undefined;
 	const maxX=Math.floor((now-this.canvasTime)*this.canvasWidth/settings.snakeTime)+2*this.canvasWidth;
 	for (this.lastX=Math.max(this.lastX,maxX-2*this.canvasWidth); this.lastX<maxX; this.lastX++)
 	    this.drawCanvas(this.lastX);
@@ -285,6 +283,6 @@ class Snakes{
 	    this.lastFftX = maxX-2*this.canvasWidth;
 	}
 	this.scroll = this.lastX;
-	this.scrollTo();
+	this.fixScroll();
     }
 }

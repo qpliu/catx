@@ -32,7 +32,7 @@ class Cats{
 	    if (frame!=0)
 		img.style.visibility = "hidden";
 	}
-	this.cats.push({frames:frames,beats:beats,currentFrame:0,beat:0});
+	this.cats.push({frames:frames,beats:beats,currentFrame:0});
     }
     setEnabled(enabled){
 	this.enabled = enabled;
@@ -41,20 +41,12 @@ class Cats{
 	    for (const frame of cat.frames)
 		frame.style.display = display;
     }
-    increment(){
-	for (const cat of this.cats)
-	    cat.beat = (cat.beat+1)%cat.beats;
-    }
-    animate(x){
+    setBeat(beat){
 	if (this.enabled)
 	    for (const cat of this.cats){
 		cat.frames[cat.currentFrame].style.visibility = "hidden";
-		cat.currentFrame = (Math.floor((cat.beat+x)*cat.frames.length/cat.beats)%cat.frames.length+cat.frames.length)%cat.frames.length;
+		cat.currentFrame = (Math.floor(beat*cat.frames.length/cat.beats)%cat.frames.length+cat.frames.length)%cat.frames.length;
 		cat.frames[cat.currentFrame].style.visibility = "visible";
 	    }
-    }
-    reset(){
-	for (const cat of this.cats)
-	    cat.beat = 0;
     }
 }
