@@ -1,0 +1,3 @@
+#!/bin/sh
+WHERE="/share/mirror/songsterr/stuff/d-keep/d-Misc/d-Twinkle Twinkle Little Star-s43590/d-r58486"
+gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --no-string-numbers --name voPart --output-relative - >generated-vo

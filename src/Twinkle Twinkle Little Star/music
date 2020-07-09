@@ -1,0 +1,35 @@
+% BIN midi all
+
+\header {
+    title = "Twinkle Twinkle Little Star"
+}
+
+\include "markup"
+\include "generated-vo"
+\include "karaoke"
+\include "lyrics"
+
+voAligner = \new NullVoice = "vo" \voPart
+
+layoutmusic = <<
+    \tag #'(allPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vocals" }
+	shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+	\markupStuff
+	\voPart
+	\voAligner
+	\voLyrics
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiSusan) \new Staff \with {
+	midiInstrument = #"steel drums"
+    } \voPart
+    \tag #'(midiKaraoke) <<
+	\karaokeLyrics
+	\voPart
+    >>
+>>

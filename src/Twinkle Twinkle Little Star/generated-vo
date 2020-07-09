@@ -1,0 +1,19 @@
+voPart =
+{
+% url: -
+% artist: Misc
+% title: Twinkle Twinkle Little Star
+% instrument: Acoustic Guitar (steel)
+% name: Track 1
+    \time 4/4
+    \tempo 4 = 70
+% tuning e, a, d g b e'
+    \relative {
+        c'8 c g' g a a g4 |
+        f8 f e e d d c4 |
+        g'8 g f f e e d4 |
+        g8 g f f e e d4 |
+        c8 c g' g a a g4 |
+        f8 f e e d d c4 |
+    }
+}
