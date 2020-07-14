@@ -97,8 +97,11 @@ EOF
 	    timidity $TIMIDITY_EXTRA_CFG -OF -o "$name.flac" -A400 "$name.midi"
 	    ffmpeg </dev/null -loglevel 16 -i "$name.flac" "$name.mp3"
 	    cp "$name.midi" bin
-	    test -d /share/music && cp "$name.mp3" /share/music/mp3
-	    test -d /share/music && cp "$name.midi" "/share/music/midi/$name.midi"
+	    if test -d /share/music
+	    then
+		cp "$name.mp3" /share/music/mp3
+		cp "$name.midi" "/share/music/midi/$name.midi"
+	    fi
         fi
     else
 	n="${name}_$part"
@@ -118,6 +121,9 @@ EOF
 EOF
 	lilypond -l WARN -o "$n" "$n.ly"
 	cp "$n.pdf" bin
-	test -d /share/music && cp "$n.pdf" /share/music/pdf
+	if test -d /share/music
+	then
+	    cp "$n.pdf" /share/music/pdf
+	fi
     fi
 done
