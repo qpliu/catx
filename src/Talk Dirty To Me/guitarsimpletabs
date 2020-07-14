@@ -1,7 +1,5 @@
 guitarsimple =
 {
-    r1 |
-    r1 |
     5-3.5t4 x0.x0t8 3.5t x0.x0t 3.5t t4 |
     5-5.7t4 x0.x0t8 5.7t x0.x0t 5.7t t4 |
     5-9.11t8 10.12t t t 9.11t 10.12t t t |
@@ -14,7 +12,7 @@ guitarsimple =
     6-24.24t8 23.23t 22.22t 20.20t 19.19t 18.18t 17.17t 16.16t |
     6-15.15t8 14.14t 13.13t 12.12t 11.11t 10.10t 9.9t 8.8t |
     6-7.7t8 6.6t 5.5t 4.4t 3.3t 2.2t 1.1t 0.0t |
-\mymark "Verse 1" #15
+\mymark "Verse 1" #13
     \palmMuteOff 5-10.12t8 \palmMuteOn 10t t t t t t t |
     5-10t8 t t t t t t t |
     \palmMuteOff 5-10.12t8 \palmMuteOn 10t t t t t t t |
@@ -31,7 +29,7 @@ guitarsimple =
     5-10t8 t t t t t t t | \palmMuteOff
     r4 3-10t8 11t 1-10t r4. |
     r4 3-10t8 11t 4-12t4. r8 |
-\mymark "Verse 2" #31
+\mymark "Verse 2" #29
     \palmMuteOff 5-10.12t8 \palmMuteOn 10t \palmMuteOff 10.12t \palmMuteOn t t t t t |
     5-10.12t8 t t t t t t t |
     5-10.12t8 t t t t t t t |
@@ -48,7 +46,7 @@ guitarsimple =
     5-10.12t8 t t t t t t t |
     5-5.7t8 t t t t t t t | \palmMuteOff
     \harmonicByFret #7 2-0t2 \harmonicByFret #7 3-0t2 |
-\mymark "Chorus 1" #47
+\mymark "Chorus 1" #45
     5-3.5t4 x0.x0t8 3.5t t t t t |
     5-5.7t4 x0.x0t8 5.7t t t t t |
     5-9.11t8 10.12t t t 9.11t 10.12t t t |
@@ -65,7 +63,7 @@ guitarsimple =
     5-5.7.7t8 r2. r8 |
     5-9.11t8 10.12t t t 9.11t 10.12t t t |
     5-9.11t8 10.12t t t 9.11t 10.12t t t |
-\mymark "Verse 3" #63
+\mymark "Verse 3" #61
     \palmMuteOn 5-10.12t8 t t t t t t t |
     5-10.12t8 t t t t t t t |
     5-10.12t8 t t t t t t t |
@@ -82,7 +80,7 @@ guitarsimple =
     5-10.12t8 t t t t t t t |
     5-5.7t8 t t t t t t t | \palmMuteOff
     \harmonicByFret #7 2-0t2 \harmonicByFret #7 3-0t2 |
-\mymark "Chorus 2" #79
+\mymark "Chorus 2" #77
     5-3.5t4 x0.x0t8 3.5t t t t t |
     5-5.7t4 x0.x0t8 5.7t t t t t |
     5-9.11t8 10.12t t t 9.11t 10.12t t t |
@@ -99,7 +97,7 @@ guitarsimple =
     5-5.7.7t8 r2. r8 |
     5-9.11t8 10.12t t t 9.11t 10.12t t t |
     5-9.11t8 10.12t t t 9.11t 10.12t t t |
-\mymark "Solo" #95
+\mymark "Solo" #93
     r1 |
     r2. r8 3-5.5t~ |
     3-5.5t8 t 4.3t t 2.1t 0.0t r 5.5t~ |
@@ -120,7 +118,7 @@ guitarsimple =
     1-15t2. r8 2-15t16 t |
     2-15t4 r8 3-12t16 t t4 r8 4-12t16 t |
     4-12t4 r8 5-10t16 t t2 |
-\mymark "Chorus 3" #115
+\mymark "Chorus 3" #113
     5-3.5t4 x0.x0t8 3.5t t t t t |
     5-5.7t4 x0.x0t8 5.7t t t t t |
     5-9.11t8 10.12t t t 9.11t 10.12t t t |

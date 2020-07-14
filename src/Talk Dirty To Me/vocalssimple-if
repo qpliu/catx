@@ -1,8 +1,8 @@
 vocalssimple = \transpose ees e {
-    r1 r1 r1 r1 r1 r1 r1 r1
+    r1 r1 r1 r1 r1 r1
     r1 r1 r1 r1 r1 |
     r2 r8 des''8 des'' des'' |
-\mymark "Verse 1" #15
+\mymark "Verse 1" #13
     des''8 des'' r4 r4 r8 des''8 |
     des''8 des'' des'' des'' ees'' bes'4 des''8~ |
     des''4 r4 r4 r8 des''8 |
@@ -19,7 +19,7 @@ vocalssimple = \transpose ees e {
     r4 r8 des''8 ees''4 des''8 ees''8~ |
     ees''8 des''4. r4 des''4 |
     f''8 f''4 des''8~ des''4 r8 des''8 |
-\mymark "Verse 2" #31
+\mymark "Verse 2" #29
     des''8 des'' r4 r4 r8 des''8 |
     des''8 des'' des'' des'' ees'' bes'4 des''8~ |
     des''4 r4 r4 r8 des''8 |
@@ -36,7 +36,7 @@ vocalssimple = \transpose ees e {
     r4 r8 des''8 ees''4 des''8 ees''8~ |
     ees''8 des''4. r4 des''4 |
     f''4 ees''8 aes''4 f''8~ f''4 |
-\mymark "Chorus 1" #47
+\mymark "Chorus 1" #45
     r2 des''4 des''4 |
     ees''8( des''4) des''4. r4 |
     r2 des''4 des''8 ees''8~ |
@@ -53,7 +53,7 @@ vocalssimple = \transpose ees e {
     r4 ces''4 bes'8 aes' ges' ges' |
     r1 |
     r2 r8 des''8 des'' des'' |
-\mymark "Verse 3" #63
+\mymark "Verse 3" #61
     des''8 des'' r4 r4 r8 des''8 |
     des''8 des'' des'' des'' ees'' bes'4 des''8~ |
     des''4 r4 r4 r8 des''8 |
@@ -70,7 +70,7 @@ vocalssimple = \transpose ees e {
     r4 r8 des''8 ees''4 des''8 ees''8~ |
     ees''8 des''4. r4 des''4 |
     f''4 ees''8 aes''4 f''8~ f''4 |
-\mymark "Chorus 2" #79
+\mymark "Chorus 2" #77
     r2 des''4 des''4 |
     ees''8( des''4) des''4. r4 |
     r2 des''4 des''8 ees''8~ |
@@ -91,7 +91,7 @@ vocalssimple = \transpose ees e {
     {
 	\deadNote bes'8 \deadNote bes'4 |
     }
-\mymark "Solo" #95
+\mymark "Solo" #93
 % IF midi \new NullVoice
     {
 	\deadNote bes'8 \deadNote bes'8 \deadNote bes'8 \deadNote bes'8 \deadNote bes'4 \deadNote bes'8 \deadNote bes'8 |
@@ -104,7 +104,7 @@ vocalssimple = \transpose ees e {
     r1 r1 r1 r1 |
     r2 r4 r8 des''8 |
     ees''4 des''8  aes''8~ aes''8 f''4. |
-\mymark "Chorus 3" #115
+\mymark "Chorus 3" #113
     r2 des''4 des''4 |
     ees''8( des''4) des''4. r4 |
     r2 des''4 des''8 ees''8~ |

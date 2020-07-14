@@ -3,28 +3,28 @@ markupsimpleStuff = {
     \time 4/4
     \tempo 4 = 145
     \key g \major
-    s1 s1 s1 s1 s1 s1 s1 s1
     s1 s1 s1 s1 s1 s1
-\mymark "Verse 1" #15
+    s1 s1 s1 s1 s1 s1
+\mymark "Verse 1" #13
     s1 s1 s1 s1 s1 s1 s1 s1
     s1 s1 s1 s1 s1 s1 s1 s1
-\mymark "Verse 2" #31
+\mymark "Verse 2" #29
     s1 s1 s1 s1 s1 s1 s1 s1
     s1 s1 s1 s1 s1 s1 s1 s1
-\mymark "Chorus 1" #47
+\mymark "Chorus 1" #45
     s1 s1 s1 s1 s1 s1 s1 s1
     s1 s1 s1 s1 s1 s1 s1 s1
-\mymark "Verse 3" #63
+\mymark "Verse 3" #61
     s1 s1 s1 s1 s1 s1 s1 s1
     s1 s1 s1 s1 s1 s1 s1 s1
-\mymark "Chorus 2" #79
+\mymark "Chorus 2" #77
     s1 s1 s1 s1 s1 s1 s1 s1
     s1 s1 s1 s1 s1 s1 s1 s1
-\mymark "Solo" #95
+\mymark "Solo" #93
     s1 s1 s1 s1 s1 s1 s1 s1
     s1 s1 s1 s1 s1 s1 s1 s1
     s1 s1 s1 s1
-\mymark "Chorus 3" #115
+\mymark "Chorus 3" #113
     s1 s1 s1 s1 s1 s1 s1 s1
     s1 s1 s1 s1 s1 s1
     \bar "|."
