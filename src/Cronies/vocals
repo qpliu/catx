@@ -1,0 +1,15 @@
+vocals = \relative {
+    s1
+\mymark "Chorus" #2
+    f''4 f2 r8 c8 |
+    d8 c16 d8. f4 r4. |
+    f4 f2 r8 d8 |
+    g4 f8 f8 d4 r4 |
+    f4 f2 r4 |
+    d8 d4 f4 r4. |
+    g8 f g f g f g16 f8 a16~ |
+    a4 r2. |
+    s1 s1 s1
+\mymark "Solo" #13
+    s1 s1 s1 s1 s1 s1
+}

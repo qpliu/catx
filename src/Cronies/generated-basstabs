@@ -1,0 +1,141 @@
+bass =
+{
+% url: https://www.songsterr.com/a/wsa/jimi-hendrix-stone-free-bass-tab-s9281t1
+% artist: Jimi Hendrix
+% title: Stone Free
+% instrument: Electric Bass (finger)
+% name: Bass
+    \time 4/4
+    \tempo 4 = 135
+\mymark "Intro" #1
+% tuning e,, a,, d, g,
+    r1 |
+    2-12t16 14t8. 12t16 14t8. 12t16 14t8. 12t4 |
+\mymark "Verse 1" #3
+    4-12t8 t t t t t t t |
+    4-12t8 t t t4 t8 t t |
+    4-12t8 t t t t t t t |
+    4-12t8 t t t4 t8 t t |
+    4-12t8 t t t t t t t |
+    4-12t8 t t t4 t8 t t |
+    4-12t8 t t t t t t t |
+    4-12t8 t t t4 t8 t t |
+    4-12t8 t t t t t t t |
+    4-12t8 t t t4 t8 t t |
+    4-12t8 t t t t t t t |
+    4-12t8 t t t4 t8 t t |
+    3-12t8 t t t t t t t |
+    3-12t8 t t t4 t8 t t |
+    3-12t8 t t t t t t t |
+    3-12t8 t t t4 t8 t t |
+    4-12t8 t t t t t t t |
+    4-12t8 t t t4 t8 t t |
+    4-12t8 t t t t t t t |
+    4-12t8 t t t4 t8 t t |
+\mymark "Pre-Chorus" #23
+    3-10t16 12t8. 10t16 12t8. 10t8 4-12t 3-10t 12t~ |
+    3-12t8 t t 10t4 4-12t8 3-10t t |
+    3-12t4 t t16 10t 4-12t8 3-10t t |
+    3-12t4 10t16 12t8. t16 10t 4-12t8 3-10t4 |
+    3-10t16 12t8. t4 10t8 4-12t 3-10t t32 12t16.~ |
+    3-12t4 t t16 10t 4-12t8 3-10t 12t |
+    3-12t4 10t32 12t16. t8 10t32 12t16. t8 10t32 12t16. t8 |
+    3-10t32 12t16. t8 10t32 12t16. t8 10t32 12t16. 2-12t8 14t 13t |
+\mymark "Chorus 1" #31
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-10t8 3-10t 2-10t 3-10t 2-10t 3-10t 2-10t 12t |
+    3-12t8 2-14t 3-12t 2-14t 3-12t 2-14t 3-12t 2-12t |
+    2-10t8 3-10t 2-10t 3-10t 2-10t 3-10t 2-10t 3-12t~ |
+    3-12t1~ |
+    3-12t1 |
+\mymark "Verse 2" #42
+    4-12t8 t t t t t t t |
+    4-12t8 t t t4 t8 t t |
+    4-12t8 t t t t t t t |
+    4-12t8 t t t 3-11t 12t 13t 14t |
+    4-12t8 t t t t t t t |
+    4-12t8 t t t4 t8 t t |
+    4-12t8 t t t t t t t |
+    4-12t8 t t t4 t8 t t |
+    3-12t8 t 4-12t t t t t t |
+    4-12t8 t t t4 t8 t t |
+    4-12t8 t t t t t t t |
+    4-12t8 t t t4 t8 t t |
+    3-12t8 t t t t t t t |
+    3-12t8 t t t4 t8 t t |
+    3-12t8 t t t t t t t |
+    3-12t8 t t t4 t8 t t |
+    4-12t8 t t t t t t t |
+    4-12t8 t t t4 t8 t t |
+    4-12t8 t t t t t t t |
+    4-12t8 t t t4. 3-9t8 12t |
+\mymark "Pre-Chorus" #62
+    3-12t8 t t4 t16 10t 4-12t8 3-10t 12t~ |
+    3-12t8 t t 4-12t 3-10t4 t8 11t |
+    3-10t16 12t8. t8 t t16 10t 4-12t8 3-10t 12t~ |
+    3-12t8 t t t 10t 4-12t 3-10t 11t |
+    3-10t16 12t8. 10t32 12t16. t8 t16 10t 4-12t8 3-10t 12t~ |
+    3-12t8 t t 10t4 2-12t8 3-10t 11t |
+    3-12t8 t 10t32 12t16. t8 t16 10t 4-12t8 3-10t 11t |
+    3-12t8 10t32 12t16. t8 t t16 t t8 t16 10t 4-12t8 |
+\mymark "Chorus 2" #70
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-10t8 3-10t 2-10t 3-10t 2-10t 3-10t 2-10t 12t |
+    3-12t8 2-14t 3-12t 2-14t 3-12t 2-14t 3-12t 2-12t |
+    2-10t8 3-10t 2-10t 3-10t 2-10t 3-10t 2-10t 3-12t~ |
+    3-12t1~ |
+    3-12t2 4-5t8 t t t |
+\mymark "Guitar Solo" #81
+    3-10t16 12t8. t8 t 10t64 12t32. 10t16 4-12t8 3-10t4 |
+    3-10t8 11t 10t16 12t8. 10t64 12t32. 10t16 4-12t8 3-10t4 |
+    \tuplet 3/2 { 3-10t8 11t 12t } 10t16 12t8. t8 10t 4-12t 3-10t |
+    \tuplet 3/2 { 3-10t8 11t 12t } 10t16 12t8. t8 10t 4-12t 3-10t |
+    3-10t16 12t8. 10t16 12t8. t8 10t 4-12t 3-10t |
+    \tuplet 3/2 { 3-10t8 11t 12t } 10t16 12t8. t8 10t 4-12t 3-10t |
+    3-10t16 12t8. 10t32 12t16. t8 t 10t 4-12t 3-10t |
+    \tuplet 3/2 { 3-10t8 11t 12t } 10t16 12t8. t8 10t 4-12t 3-10t |
+    3-10t16 12t8. 10t16 12t8. t8 10t 4-12t 3-10t |
+    3-10t16 12t8. 10t16 12t8. t8 10t 4-12t 3-10t |
+    3-10t16 12t8. 10t16 12t8. t8 10t 4-12t 3-10t |
+    3-10t16 12t8. 10t16 12t8. t8 10t 4-12t 3-10t |
+    3-10t16 12t8. 10t16 12t8. t8 10t 4-12t 3-10t |
+    \tuplet 3/2 { 3-10t8 11t 12t } 10t16 12t8. t8 10t 4-12t 3-10t |
+    3-12t4 t8 t t t t t |
+    3-12t8 t t4 t8 t 10t 4-12t |
+\mymark "Outro\\Chorus 3" #97
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8 4-2t4 3t 4t 5t8 |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8 4-2t4 3t 4t 5t8 |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8 4-2t4 3t 4t 5t8 |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8 4-2t4 3t 4t 5t8 |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 3-10t |
+    \tempo 4 = 160
+    3-8t4 4-8t8 11t 3-8t t 4-8t 11t |
+    3-8t8 t 4-8t 11t 3-8t t 4-8t 11t |
+    3-8t8 t 4-8t 11t 3-8t t 4-8t 11t |
+    3-8t8 t 4-8t 11t 3-8t t 4-8t 11t |
+    3-8t8 t 4-8t 11t 3-8t t 4-8t 11t |
+}

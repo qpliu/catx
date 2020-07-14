@@ -1,0 +1,12 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \time 4/4
+    \tempo 4 = 110
+    \key g \major
+    s1
+\mymark "Chorus" #2
+    s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1
+\mymark "Solo" #13
+    s1 s1 s1 s1 s1 s1
+    \bar "|."
+}

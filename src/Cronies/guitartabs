@@ -1,0 +1,28 @@
+guitar =
+{
+% url: https://www.songsterr.com/a/wsa/jimi-hendrix-stone-free-tab-s9281t0
+% artist: Jimi Hendrix
+% title: Stone Free
+% instrument: Electric Guitar (clean)
+% name: Guitar
+    r2. 6-15t4 |
+\mymark "Chorus" #2
+    5-5.7.7.7t8. t16 4-7.7.7t8 5.5.5t16 t 7.7.7t8 5.5.5t 7.7.7t 5.5.5t |
+    5-5.7.7.7t8. t16 4-7.7.7t8 5.5.5t 7.7.7t 5.5.5t 7.7.7t 5.5.5t |
+    5-5.7.7.7t8. t16 4-7.7.7t8 5.5.5t 7.7.7t 5.5.5t16 t 7.7.7t8 5.5.5t16 t |
+    4-10t16 12t 10.10.10t8 12t16 10t x0.x0.x0t t t t 10.10.10t8 12.12.12t16 t 5-0t x0t |
+    6-10..12.11.10.10t8. 3-11.10.10t16 12.10t4 \bendAfter #6 ^"full" 4-10.10t8 5-12.12.12t 4-10.10t16 12.11t 10.10t 12.11t |
+    4-12.11.10.10t8 3-11.10t16 t 4-12.11.10t8 10.10t16 5-12t 4-10.10.10t8 10.10t 12.12.12t 5-0t |
+    6-8..10.9.8.8t8 4-10.9.8.8t 10.9.8.10t 10.9.8.8t 10.9.8.10t 10.9.8.8t 6-8..10t 5..7t |
+    6-5..7.6.5.5t8 2-5.5t 4-7.6.5.7t 7.6.5t16 t 7.6.5.7t8 t 6-5..7.6.5t 10t |
+    6-8..10.9.8.8t8 4-10.9.8t 6-8..10.9.8.10t 4-10.9.8.10t 6-8..10.9.8.10t t t 5~..7~.6~.5~.5~t |
+    6-5..7.6.5.5t1~ |
+    6-5..7.6.5.5t1 |
+\mymark "Solo" #13
+    3-7t8 \bendAfter #6 ^"full" t32 5t 4-7t16 3-5t4. t \bendAfter #6 ^"full" |
+    r8 2-8t2~ t8 \bendAfter #6 ^"full" 1-5t 2-8t16 5t |
+    \tuplet 3/2 { 3-7.5t8 \bendAfter #6 ^"full" 1-7t 2-5.5t } 8t8. 5t16 3-7t 5t 4-7t 3-5t 7t8 2-5t16 3-7t |
+    3-5t16 4-7t \tuplet 3/2 { 3-5t 2-5t 3-7t } 2-5t 3-7t 5t 4-7t 3-5t8 7t \bendAfter #6 ^"full" 2-8t \tuplet 3/2 { 3-7t \bendAfter #6 ^"full" 2-8t16 } |
+    3-7t16 \bendAfter #6 ^"full" 2-8t 3-7t \bendAfter #6 ^"full" 2-8t 5.5t8 8t2~ t8~ |
+    2-8t1 \bendAfter #6 ^"full" |
+}

@@ -1,0 +1,29 @@
+bass =
+{
+% url: https://www.songsterr.com/a/wsa/jimi-hendrix-stone-free-bass-tab-s9281t1
+% artist: Jimi Hendrix
+% title: Stone Free
+% instrument: Electric Bass (finger)
+% name: Bass
+% tuning e,, a,, d, g,
+    s1
+\mymark "Chorus" #2
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-12t8. t16 t8 10t 12t 10t 12t 10t |
+    2-10t8 3-10t 2-10t 3-10t 2-10t 3-10t 2-10t 12t |
+    3-12t8 2-14t 3-12t 2-14t 3-12t 2-14t 3-12t 2-12t |
+    2-10t8 3-10t 2-10t 3-10t 2-10t 3-10t 2-10t 3-12t~ |
+    3-12t1~ |
+    3-12t2 4-5t8 t t t |
+\mymark "Solo" #13
+    3-10t16 12t8. t8 t 10t 4-12t8 3-10t4 |
+    3-10t8 11t 10t16 12t8. 10t8 4-12t8 3-10t4 |
+    \tuplet 3/2 { 3-10t8 11t 12t } 10t16 12t8. t8 10t 4-12t 3-10t |
+    \tuplet 3/2 { 3-10t8 11t 12t } 10t16 12t8. t8 10t 4-12t 3-10t |
+    3-10t16 12t8. 10t16 12t8. t8 10t 4-12t 3-10t |
+    3-12t1 |
+}

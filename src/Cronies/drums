@@ -1,0 +1,29 @@
+drum = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+% url: https://www.songsterr.com/a/wsa/jimi-hendrix-stone-free-drum-tab-s9281t2
+% artist: Jimi Hendrix
+% title: Stone Free
+% instrument: Drums
+% name: Drums
+    ss4 ss ss ss |
+\mymark "Chorus" #2
+    << { cymc8 hho <sn hho> r16 sn hho tomfh r8 <sn hho> r | } \context DrumVoice = "drsb" { bd8 r2 bd16 bd r8 bd | } >>
+    << { hho4 <sn hho>8 r16 sn hho tomfh r8 <sn hho> r | } \context DrumVoice = "drsb" { bd8 r2 bd16 bd r8 bd | } >>
+    << { hho4 <sn hho>8 r16 sn hho tomfh r8 <sn hho> r | } \context DrumVoice = "drsb" { bd8 r2 bd16 bd r8 bd | } >>
+    << { hho4 <sn hho>8 r16 sn hho tomfh r8 <sn hho> r | } \context DrumVoice = "drsb" { bd8 r2 bd16 bd r8 bd | } >>
+    << { hho4 <sn hho>8 r16 sn hho tomfh r8 <sn hho> r | } \context DrumVoice = "drsb" { bd8 r2 bd16 bd r8 bd | } >>
+    << { hho4 <sn hho>8 r16 sn hho tomfh r8 <sn hho> r | } \context DrumVoice = "drsb" { bd8 r2 bd16 bd r8 bd | } >>
+    << { hho4 <sn hho>8 r16 sn hho tomfh r8 <sn hho> r | } \context DrumVoice = "drsb" { bd8 r2 bd16 bd r8 bd | } >>
+    << { hho8 hh <sn hho> sn16 \parenthesize sn \parenthesize sn \parenthesize sn tommh \parenthesize tommh \parenthesize tommh tomml \parenthesize tomml \parenthesize tomml | } \context DrumVoice = "drsb" { bd8 r4 bd8 bd bd16 r bd r bd r | } >>
+    << { hho8 hh <sn hho> sn16 \parenthesize sn \parenthesize sn \parenthesize sn tommh \parenthesize tommh tomml \parenthesize tomml sn8 | } \context DrumVoice = "drsb" { bd8 r4 bd8 bd bd16 r bd r bd8 | } >>
+    <\parenthesize tamb \parenthesize cab>4 r <\parenthesize tamb \parenthesize cab> r |
+    << { <\parenthesize tamb \parenthesize cab>4 r <\parenthesize tamb \parenthesize cab> sn32 \parenthesize sn \parenthesize sn \parenthesize sn sn \parenthesize sn \parenthesize sn \parenthesize sn | } \context DrumVoice = "drsb" { r2. bd32 r16. bd32 r16. | } >>
+\mymark "Solo" #13
+    << { cymc8 hh <sn hho> r hho hh <sn hho> hh | } \context DrumVoice = "drsb" { bd8 r4 r16 bd bd8 bd r bd | } >>
+    << { hho8 hh <sn hho> r hho hh <sn hho> \parenthesize sn16 \parenthesize sn | } \context DrumVoice = "drsb" { bd8 r4 r16 bd bd8 bd r4 | } >>
+    << { hho8 hh <sn hho> r hho hh <sn hho> hh | } \context DrumVoice = "drsb" { bd8 r4 r16 bd bd8 bd r bd | } >>
+    << { hho8 hh <sn hho> sn16 \parenthesize sn \parenthesize sn \parenthesize sn tommh \parenthesize tommh \parenthesize tommh tomml \parenthesize tomml \parenthesize tomml | } \context DrumVoice = "drsb" { bd8 r4 bd8 bd bd16 r bd r bd r | } >>
+    << { cymc8 hh <sn hho> r hho hh <sn hho> hh | } \context DrumVoice = "drsb" { bd8 r4 r16 bd bd8 bd r bd | } >>
+    << { cymc1 | } \context DrumVoice = "drsb" { bd1 | } >>
+}

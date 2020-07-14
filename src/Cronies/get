@@ -1,0 +1,4 @@
+#!/bin/sh
+java -jar ../../songsterrToLy/1.jar --name guitar --output-tabs https://www.songsterr.com/a/wsa/jimi-hendrix-stone-free-tab-s9281t0 > generated-guitartabs
+java -jar ../../songsterrToLy/1.jar --name bass --output-tabs https://www.songsterr.com/a/wsa/jimi-hendrix-stone-free-bass-tab-s9281t1 > generated-basstabs
+java -jar ../../songsterrToLy/1.jar --name drums https://www.songsterr.com/a/wsa/jimi-hendrix-stone-free-drum-tab-s9281t2 > generated-drums
