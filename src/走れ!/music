@@ -266,7 +266,7 @@ midimusic = <<
     \tag #'(midiThree) \new Staff = "key8text" \midikeyEightText
     \tag #'(midiThree) \new Staff = "key8" \keyEightPart
     \tag #'(midiKaraoke) <<
-	\voPart
+	\transpose c c, \voPart
 	\karaokeLyrics
     >>
 >>

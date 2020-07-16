@@ -81,6 +81,6 @@ midimusic = <<
     } \egPart
     \tag #'(midiKaraoke) <<
 	\karaokeLyrics
-	\voPart
+	\transpose c c, \voPart
     >>
 >>

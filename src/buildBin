@@ -26,10 +26,10 @@ then
 			;;
 		esac
 		echo "pdf_file=../pdf/$b" >>bin/temp.aarin
-		if test -f "../bin/$b"
+		if test -f "../bin/$name/$b"
 		then
 		    ./get_rid_of_id_in_pdf.py <"$a" >bin/1
-		    ./get_rid_of_id_in_pdf.py <"../bin/$b" >bin/2
+		    ./get_rid_of_id_in_pdf.py <"../bin/$name/$b" >bin/2
 		    if cmp -s bin/1 bin/2
 		    then
 			touch ../bin/"$name/$b"
@@ -47,5 +47,8 @@ then
 		;;
 	esac
     done
-    test -d /share/music && cp bin/temp.aarin "/share/music/aarin/$name.aarin"
+    if test -d /share/music
+    then
+	cp bin/temp.aarin "/share/music/aarin/$name.aarin"
+    fi
 fi

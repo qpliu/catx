@@ -107,10 +107,10 @@ midimusic = <<
     } \cuePart
     \tag #'(midiKaraoke) <<
 	\karaokeLyrics
-	\voPart
+	\transpose c c, \voPart
     >>
     \tag #'(midiKaraokeTwo) <<
 	\karaokeTwoLyrics
-	\voTwoPart
+	\transpose c c, \voTwoPart
     >>
 >>

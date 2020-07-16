@@ -308,11 +308,11 @@ midimusic = <<
 	midiInstrument = #"contrabass"
     } \stringsPartStaffThree
     \tag #'(midiKaraoke) <<
-	\voOnePart
+	\transpose c c, \voOnePart
 	\karaokeOneLyrics
     >>
     \tag #'(midiKaraokeTwo) <<
-	\voTwoPart
+	\transpose c c, \voTwoPart
 	\karaokeTwoLyrics
     >>
 >>
