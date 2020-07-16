@@ -21,18 +21,26 @@ with open(sys.argv[2]) as f:
 	    minusminus = False;
 
 with open(sys.argv[1]) as f:
+    slur = 0
+    tie = False
     for line in f:
 	l = line.split()
 	if l[1]=='rest':
 	    print '-'+l[2]
 	elif l[1]=='note':
-	    if lyrics:
-		print lyrics[0]+l[3]
+	    if slur!=0 or tie:
+		lyric = '\\skip'
+	    elif lyrics:
+		lyric = lyrics[0]
+		lyrics = lyrics[1:]
 	    else:
-		print 'null'+l[3]
-	    lyrics = lyrics[1:]
+		lyric = 'null'
+	    print lyric+l[3]
+	    tie = False
 	elif l[1]=='tie':
-	    lyrics = ['\\skip']+lyrics
+	    tie = True
+	elif l[1]=='slur':
+	    slur += int(l[2])
 
 if lyrics:
     print '% Extra lyrics %s'%repr(lyrics)

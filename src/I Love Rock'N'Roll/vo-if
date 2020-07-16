@@ -27,7 +27,9 @@ voPart = {
 	e16 e e e e8 fis16 fis g fis8 g16~ g fis8 r16 |
 	e4 g e8 d16 e~ e8 r16 d |
 	e16 e e e e8 fis g fis |
-	e4 r r8 \deadNote fis4. |
+	e4 r r8
+% IFNOT midi	\deadNote fis4.
+% IF midi	r4.
 	r2 r4 r8. d16 |
     }
 % Verse
@@ -50,8 +52,10 @@ voPart = {
 	e16 e e e e8 fis16 fis g fis8 g16~ g fis8 r16 |
 	e4 g e8 d16 e~ e8 r16 d |
 	e16 e e e e8 fis g fis |
-	e4 r r8 \deadNote fis4. |
-	r2 r4 r8. d16 |
+	e4 r r8
+% IFNOT midi	\deadNote fis4.
+% IF midi	r4.
+	r1 |
     }
 % Guitar Solo
     \relative {
