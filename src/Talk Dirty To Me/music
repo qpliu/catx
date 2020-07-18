@@ -23,6 +23,7 @@ eflat-bass = \stringTuning <ees,, aes,, des, ges,>
 \include "drumssimple"
 \include "vocalssimple"
 \include "lyricssimple"
+\include "karaoke"
 
 voAligner = \new NullVoice = "vo" \vocals
 vosimpleAligner = \new NullVoice = "vosimple" \vocalssimple
@@ -85,4 +86,8 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"distorted guitar"
     } \guitarsimple
+    \tag #'(midiKaraoke) <<
+	\karaokeLyrics
+	\transpose c c, \vocalssimple
+    >>
 >>
