@@ -19,12 +19,12 @@ class Sheets{
     }
     keypress(e){
 	let nextPage;
-	if (e.keyCode==37)
+	if (e.keyCode==37 || e.keyCode==8 || e.keyCode==33)
 	    if (this.page_l<this.page_r)
 		nextPage = this.page_r-2;
 	    else
 		nextPage = this.page_l-2;
-	if (e.keyCode==39)
+	if (e.keyCode==39 || e.keyCode==32 || e.keyCode==34)
 	    if (this.page_l<this.page_r)
 		nextPage = this.page_l+2;
 	    else
