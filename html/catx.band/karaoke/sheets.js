@@ -2,9 +2,9 @@ class Sheets{
     constructor(where){
 	this.span = document.createElement("span");
 	this.span.onkeydown = (ev)=>this.onkeydown(ev);
-	this.span.style = "position:absolute;left:0;top:0;width:100vw;height:100vh;z-index:-1;";
+	this.span.style = "position:absolute;left:0;top:0;width:100vw;height:100vh;z-index:-1;background-color:#000;";
 	where.appendChild(this.span);
-	this.pages = []
+	this.reset("");
 	document.onkeydown = e=>this.keypress(e);
 	new ResizeObserver(()=>this.updatePages()).observe(this.span);
     }
@@ -15,9 +15,15 @@ class Sheets{
 	    this.pages = []
 	    this.page_l = 0;
 	    this.page_r = 1;
+	    this.old_page_l = 0;
+	    this.old_page_r = 1;
+	    this.animateStart = 0;
+	    this.updatePages();
 	}
     }
     keypress(e){
+	if (!this.enabled)
+	    return;
 	let nextPage;
 	if (e.keyCode==37 || e.keyCode==8 || e.keyCode==33)
 	    if (this.page_l<this.page_r)
@@ -32,11 +38,16 @@ class Sheets{
 	if (nextPage!=undefined && nextPage>=0 && this.pages.length>nextPage && this.pages[nextPage].complete)
 	    if (this.pages[nextPage].naturalWidth==0)
 		this.pages[nextPage].src = this.getPageUrl(nextPage);
-	    else if (nextPage&1)
-		this.page_r = nextPage;
-	    else
-		this.page_l = nextPage;
-	this.updatePages();
+	    else{
+		this.animateStart = new Date().getTime();
+		this.old_page_r = this.page_r;
+		this.old_page_l = this.page_l;
+		if (nextPage&1){
+		    this.page_r = nextPage;
+		}else
+		    this.page_l = nextPage;
+		requestAnimationFrame(()=>this.updatePages());
+	    }
     }
     getPageUrl(page){
 	return encodeURI("/sheet_music/"+this.name+"_"+settings.who+"_"+(page+1)+".svg?t="+new Date().getTime());
@@ -48,9 +59,9 @@ class Sheets{
 	    const page=this.pages.length;
 	    const img=document.createElement("img");
 	    if (page&1)
-		img.style = "display:none;position:absolute;right:0;bottom:0;";
+		img.style = "display:block;position:absolute;right:0;bottom:0;background-color:#fff;";
 	    else
-		img.style = "display:none;position:absolute;left:0;bottom:0;";
+		img.style = "display:block;position:absolute;left:0;bottom:0;background-color:#fff;";
 	    img.src = this.getPageUrl(page);
 	    this.span.appendChild(img);
 	    this.pages[page] = img;
@@ -58,11 +69,17 @@ class Sheets{
 	const rect=this.span.getBoundingClientRect();
 	const height=Math.min(rect.height,rect.width*11/8.5/2);
 	const width=height*8.5/11;
+	const a=Math.min((new Date().getTime()-this.animateStart)/9,55);
+	const la=this.page_l*a+this.old_page_l*(55-a);
+	const ra=this.page_r*a+this.old_page_r*(55-a);
 	for (let page=0; page<this.pages.length; page++){
-	    this.pages[page].style.width = width+"px";
-	    this.pages[page].style.height = height+"px";
-	    this.pages[page].style.display = page==this.page_l||page==this.page_r?"block":"none";
+	    const s=this.pages[page].style;
+	    s.width = width+"px";
+	    s.height = height+"px";
+	    s.bottom = (page&1?ra:la)-page*55+"%";
 	}
+	if (a<55)
+	    requestAnimationFrame(()=>this.updatePages());
     }
     setEnabled(enabled){
 	this.enabled = enabled;
