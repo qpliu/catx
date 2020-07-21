@@ -34,12 +34,14 @@ class Sheets{
 	    return;
 	if (this.repeat&&time>=this.songLength)
 	    time -= Math.floor((time-this.songLength)/this.repeat+1)*this.repeat;
-	let measureNumber=0;
+	let measureNumber;
 	for (const e of this.measureEvents){
 	    if (e.t>=time)
 		break;
 	    measureNumber = e.m;
 	}
+	if (measureNumber==undefined)
+	    return;
 	let page_l=0;
 	let page_r=1;
 	for (const turn of turns)
