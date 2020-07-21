@@ -6,6 +6,7 @@ class Sheets{
 	where.appendChild(this.span);
 	this.pages = []
 	document.onkeydown = e=>this.keypress(e);
+	new ResizeObserver(()=>this.updatePages()).observe(this.span);
     }
     reset(name){
 	if (name!=this.name){
@@ -30,17 +31,17 @@ class Sheets{
 		nextPage = this.page_r+2;
 	if (nextPage!=undefined && nextPage>=0 && this.pages.length>nextPage && this.pages[nextPage].complete)
 	    if (this.pages[nextPage].naturalWidth==0)
-		this.pages[nextPage].src = this.getPageUrl(nextPage,new Date().getTime());
+		this.pages[nextPage].src = this.getPageUrl(nextPage);
 	    else if (nextPage&1)
 		this.page_r = nextPage;
 	    else
 		this.page_l = nextPage;
-	this.animate();
+	this.updatePages();
     }
-    getPageUrl(page,time){
-	return encodeURI("/sheet_music/"+this.name+"/"+this.name+"_"+settings.who+".svg"+"?page="+(page+1)+"&t="+time);
+    getPageUrl(page){
+	return encodeURI("/sheet_music/"+this.name+"/"+this.name+"_"+settings.who+".svg"+"?page="+(page+1)+"&t="+new Date().getTime());
     }
-    animate(){
+    updatePages(){
 	if (!this.enabled)
 	    return;
 	while (this.pages.length<=Math.max(this.page_l,this.page_r)+1){
@@ -50,7 +51,7 @@ class Sheets{
 		img.style = "display:none;position:absolute;right:0;bottom:0;";
 	    else
 		img.style = "display:none;position:absolute;left:0;bottom:0;";
-	    img.src = this.getPageUrl(page,0);
+	    img.src = this.getPageUrl(page);
 	    this.span.appendChild(img);
 	    this.pages[page] = img;
 	}
@@ -74,7 +75,9 @@ class Sheets{
 	document.getElementById("qiuqiusImg").style.opacity = opacity;
 	document.getElementById("snakesImg").style.opacity = opacity;
 	document.getElementById("sheetsImg").style.opacity = opacity;
+	document.getElementById("beat_span").style.opacity = opacity;
 	tones.speakerOn.style.opacity = opacity;
 	tones.speakerOff.style.opacity = opacity;
+	this.updatePages();
     }
 }
