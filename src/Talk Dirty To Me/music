@@ -1,4 +1,5 @@
 % BIN midi all kav susan gg peter
+% ROBOT pageTurns={"kav":[[49,1],[77,1]],"gg":[[80,1]]}
 
 \header {
     title = "Talk Dirty To Me"
@@ -62,13 +63,21 @@ layoutmusic = <<
 	\markupsimpleStuff
 	\basssimple
     >>
-    \tag #'(allPart kavPart ggPart) \new DrumStaff \with {
+    \tag #'(allPart kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupsimpleStuff
 	\drumsimple
+    >>
+    \tag #'(ggPart) \new DrumStaff \with {
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupsimpleStuff
+	\drumsimple
+	\vosimpleAligner
+	\vosimpleLyrics
     >>
 >>
 
