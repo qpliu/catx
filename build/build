@@ -59,7 +59,8 @@ do
 	ffmpeg </dev/null -loglevel 16 -i "$a" "$b".wav
     fi
 done
-sed <music-if -n -e 's/^% ROBOT \(.*\)$/\1/p' >"bin/$name.robot"
+echo "name=$name" >"bin/$name.aarin"
+sed <music-if -n -e 's/^% ROBOT \(.*\)$/\1/p' >>"bin/$name.aarin"
 MIDIMERGE=`sed <music-if -n -e 's/^% MIDIMERGE \(.*\)$/\1/p'`
 for part in $PARTS
 do
@@ -101,6 +102,7 @@ EOF
 	    then
 		cp "$name.mp3" /share/music/mp3
 		cp "$name.midi" "/share/music/midi/$name.midi"
+		echo "midi_file=../midi/$name.midi" >>bin/"$name.aarin"
 	    fi
         fi
     else
@@ -121,9 +123,24 @@ EOF
 EOF
 	lilypond -l WARN -o "$n" "$n.ly"
 	cp "$n.pdf" bin
+	case "$n" in
+	    *_gg)
+		echo "default_pdf_file=../pdf/$n.pdf" >>"bin/$name.aarin"
+		;;
+	esac
+	echo "pdf_file=../pdf/$n.pdf" >>"bin/$name.aarin"
 	if test -d /share/music
 	then
 	    cp "$n.pdf" /share/music/pdf
+	    page=1
+	    while pdf2svg "$n.pdf" /share/music/svg/"${n}_$page.svg" $page
+	    do
+		page=`echo print $page+1|python`
+	    done
 	fi
     fi
 done
+if test -d /share/music
+then
+    cp "bin/$name.aarin" /share/music/aarin
+fi

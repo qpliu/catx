@@ -14,18 +14,11 @@ then
     ../../build/build $PARTS
     cd ../../build
     mkdir -p ../bin/"$name"
-    echo "name=$name" >bin/temp.aarin
     for a in bin/bin/*
     do
 	b=`basename "$a"`
 	case "$a" in
 	    *.pdf)
-		case "$b" in
-		    *_gg.pdf)
-			echo "default_pdf_file=../pdf/$b" >>bin/temp.aarin
-			;;
-		esac
-		echo "pdf_file=../pdf/$b" >>bin/temp.aarin
 		if test -f "../bin/$name/$b"
 		then
 		    ./get_rid_of_id_in_pdf.py <"$a" >bin/1
@@ -39,16 +32,8 @@ then
 		cp "$a" ../bin/"$name"
 		;;
 	    *.midi)
-		echo "midi_file=../midi/$b" >>bin/temp.aarin
 		cp "$a" ../bin/"$name"
-		;;
-	    *.robot)
-		cat "$a" >>bin/temp.aarin
 		;;
 	esac
     done
-    if test -d /share/music
-    then
-	cp bin/temp.aarin "/share/music/aarin/$name.aarin"
-    fi
 fi

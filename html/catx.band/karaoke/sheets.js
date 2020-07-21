@@ -39,7 +39,7 @@ class Sheets{
 	this.updatePages();
     }
     getPageUrl(page){
-	return encodeURI("/sheet_music/"+this.name+"/"+this.name+"_"+settings.who+".svg"+"?page="+(page+1)+"&t="+new Date().getTime());
+	return encodeURI("/sheet_music/"+this.name+"_"+settings.who+"_"+(page+1)+".svg?t="+new Date().getTime());
     }
     updatePages(){
 	if (!this.enabled)
