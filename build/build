@@ -19,8 +19,7 @@ ln ../java/* .
 javac -Xlint *.java
 cd ..
 ln *.i *.wav timidity_extra_silence.cfg bin
-L=-L; touch a$$; ln -L a$$ b$$ 2>/dev/null || L=; rm -f a$$ b$$
-ln $L "../src/$name"/* bin
+cp "../src/$name"/* bin
 cd bin
 mv music music-if
 mv header.i header.i-if

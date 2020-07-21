@@ -35,6 +35,6 @@ midimusic = <<
     } \drsPart
     \tag #'(midiKaraoke) <<
 	\karaokeLyrics
-	\transpose c c, \voPart
+	\voPart
     >>
 >>

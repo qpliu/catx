@@ -3,6 +3,8 @@ class Settings{
 	this.settings = [
 	    ["Delay","delay","200",Number,
 		"Delay in milliseconds to synchronize sound with Jamulus.  Increase if the 球球 bounces too early."],
+	    ["Who","who","kav",String,
+		"Whose sheet music to display.  For example, kav, peter, gg, susan, all."],
 	    ["Microphone Latency","microphoneLatency","150",Number,
 		"Microphone Latency in milliseconds.  Adjust this to line up times of yellow and purple snakes."],
 	    ["Vocal Part","vocalPart","1",Number,

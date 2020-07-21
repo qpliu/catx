@@ -86,6 +86,6 @@ midimusic = <<
     } \bassPart
     \tag #'(midiKaraoke) <<
 	\karaokeLyrics
-	\transpose c c, \snakesPart
+	\snakesPart
     >>
 >>

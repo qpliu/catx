@@ -31,18 +31,20 @@
 <script src=tones.js?version=AARIN_ROBO_VERSION></script>
 <script src=beatcounter.js?version=AARIN_ROBO_VERSION></script>
 <script src=snakes.js?version=AARIN_ROBO_VERSION></script>
+<script src=sheets.js?version=AARIN_ROBO_VERSION></script>
 <script src=球球.js?version=AARIN_ROBO_VERSION></script>
 <span id=topStuff>
     <div style=position:absolute;top:0;left:0;width:100vw;height:3vw;text-align:center;>
 	<span id=name style=font-size:3vw;white-space:nowrap;color:#0f0;background-color:#000;>Select a song with Aarin Robo to sing Karaoke!</span>
     </div>
     <span id=websocketControls style=visibility:hidden;>
-	<img style=position:absolute;left:6vw;top:0;width:5vw;z-index:9; onclick=gotClick();websocketStuff.sendChat("stop"); src=../stop.svg></a>
-	<img style=position:absolute;left:11vw;top:0;width:5vw;z-index:9; onclick=gotClick();websocketStuff.sendChat("play"); src=../play.svg></a>
+	<img id=stopImg style=position:absolute;left:6vw;top:0;width:5vw;z-index:9; onclick=gotClick();websocketStuff.sendChat("stop"); src=../stop.svg></a>
+	<img id=playImg style=position:absolute;left:11vw;top:0;width:5vw;z-index:9; onclick=gotClick();websocketStuff.sendChat("play"); src=../play.svg></a>
     </span>
     <img id=settingsImg style=position:absolute;right:0;top:0;width:5vw;z-index:9;color:#0f0; src=../settings.svg onclick=gotClick();setMode(0);>
-    <img id=qiuqiuImg style=position:absolute;right:6vw;top:0;width:5vw;z-index:9; src=../ball.png onclick=gotClick();setMode(1);>
+    <img id=qiuqiusImg style=position:absolute;right:6vw;top:0;width:5vw;z-index:9; src=../ball.png onclick=gotClick();setMode(1);>
     <img id=snakesImg style=position:absolute;right:12vw;top:0;width:10vw;z-index:9; src=../snake.png onclick=gotClick();setMode(2);>
+    <img id=sheetsImg style=position:absolute;right:0;top:6vw;width:6vw;z-index:9; src=../note.svg onclick=gotClick();setMode(3);>
     <div style=position:absolute;top:4vw;left:0;width:100vw;text-align:center;z-index:1;>
 	<span id=beat_span style=font-family:monospace;font-size:4vw;color:#000;background-color:#0f0;></span>
     </div>
@@ -82,6 +84,7 @@
     const beatCounter=new BeatCounter(document.getElementById("beat_span"));
     const qiuqius=new 球球(document.getElementById("bigSpan"));
     const snakes=new Snakes(document.getElementById("bigSpan"));
+    const sheets=new Sheets(document.getElementById("bigSpan"));
     let isPlaying;
     let startTime;
     const websocketStuff=new class extends WebsocketStuff{
@@ -116,6 +119,7 @@
 		    tones.reset(startTime,repeat,json.length);
 		    beatCounter.reset(repeat,json.length);
 		    snakes.reset(startTime,repeat,json.length);
+		    sheets.reset(json.nam);
 		    qiuqius.reset(startTime,repeat);
 		    const noteOn=new Map();
 		    const noteOff=new Map();
@@ -190,6 +194,7 @@
 	    snakes.animate(now);
 	    qiuqius.animate(now);
 	    background.animate(now);
+	    sheets.animate();
 	    if (isPlaying==2)
 		tones.animate(now);
 	    if (isPlaying==1)
@@ -207,6 +212,7 @@
     function setMode(mode){
 	document.getElementById("settingsStuff").style.display = mode==0?"block":"none";
 	snakes.setEnabled(mode==2);
+	sheets.setEnabled(mode==3);
 	qiuqius.setEnabled(mode==1);
 	cats.setEnabled(mode==1);
 	background.setEnabled(mode==1);
