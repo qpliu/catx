@@ -63,7 +63,7 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh8 hh <hh sn> hh hh hh sn16 sn sn8 | } \context DrumVoice = "drsb" { bd2 bd | } >>
 \mymark "Interlude" #89
     << { cymc1 | } \context DrumVoice = "drsb" { bd1 | } >>
-    R1*5^\markup \with-color #red "Turn Page" |
+    R1*5 |
     r4_"1" r_"2" r_"3" r_"4" |
     r1 |
 \mymark "Prechorus" #97

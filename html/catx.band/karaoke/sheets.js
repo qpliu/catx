@@ -21,17 +21,40 @@ class Sheets{
 	    this.old_page_l = 0;
 	    this.old_page_r = 1;
 	    this.animateStart = 0;
+	    this.measuresInSong = 0;
+	    this.loadPages();
 	}
     }
     addBeatEvent(time,beat){
 	const i=beat.indexOf(":");
 	if (i!=-1)
 	    this.measureEvents.push({t:time,m:Number(beat.slice(0,i))});
+	const j=beat.indexOf("/");
+	if (j!=-1)
+	    this.measuresInSong = Number(beat.slice(j+1));
+    }
+    turnPage(lp,rp,dir){
+	for (; dir<0; dir++)
+	    if (lp<rp){
+		if (rp>1)
+		    rp -= 2;
+	    }else if (lp>1)
+		lp -= 2;
+	for (; dir>0; --dir)
+	    if (lp<rp){
+		if (lp<this.pages.length-2)
+		    lp += 2;
+	    }else if (rp<this.pages.length-2)
+		rp += 2;
+	if (lp!=this.page_l || rp!=this.page_r){
+	    this.old_page_l = this.page_l;
+	    this.old_page_r = this.page_r;
+	    this.page_l = lp;
+	    this.page_r = rp;
+	    this.animateStart = new Date().getTime();
+	}
     }
     gotoPage(time){
-	const turns=this.pageTurns[settings.who];
-	if (!turns)
-	    return;
 	if (this.repeat&&time>=this.songLength)
 	    time -= Math.floor((time-this.songLength)/this.repeat+1)*this.repeat;
 	let measureNumber;
@@ -42,69 +65,48 @@ class Sheets{
 	}
 	if (measureNumber==undefined)
 	    return;
-	let page_l=0;
-	let page_r=1;
-	for (const turn of turns)
-	    if (turn[0]<=measureNumber){
-		for (let t=turn[1]; t>0; --t)
-		    if (page_l<page_r)
-			page_l += 2;
-		    else
-			page_r += 2;
-		for (let t=turn[1]; t<0; t++)
-		    if (page_l<page_r)
-			page_r -= 2;
-		    else
-			page_l -= 2;
-	    }
-	if (page_l!=this.page_l || page_r!=this.page_r){
-	    this.old_page_l = this.page_l;
-	    this.old_page_r = this.page_r;
-	    this.page_l = page_l;
-	    this.page_r = page_r;
-	    this.animateStart = new Date().getTime();
+	let turns=this.pageTurns[settings.who];
+	if (!turns && this.pages.length>2 && this.measuresInSong){
+	    turns = [];
+	    for (let p=1; p<this.pages.length; p++)
+		turns.push([(p+.5)/(this.pages.length-.5)*this.measuresInSong,1]);
+	}
+	if (turns){
+	    let dir=0;
+	    for (const turn of turns)
+		if (turn[0]<=measureNumber)
+		    dir += turn[1];
+	    this.turnPage(0,1,dir);
 	}
     }
     keypress(e){
 	if (!this.enabled || !this.name)
 	    return;
-	let nextPage;
 	if (e.keyCode==37 || e.keyCode==8 || e.keyCode==33)
-	    if (this.page_l<this.page_r)
-		nextPage = this.page_r-2;
-	    else
-		nextPage = this.page_l-2;
+	    this.turnPage(this.page_l,this.page_r,-1);
 	if (e.keyCode==39 || e.keyCode==32 || e.keyCode==34)
-	    if (this.page_l<this.page_r)
-		nextPage = this.page_l+2;
-	    else
-		nextPage = this.page_r+2;
-	if (nextPage!=undefined && nextPage>=0 && this.pages.length>nextPage && this.pages[nextPage].complete && this.pages[nextPage].naturalWidth){
-	    this.animateStart = new Date().getTime();
-	    this.old_page_r = this.page_r;
-	    this.old_page_l = this.page_l;
-	    if (nextPage&1)
-		this.page_r = nextPage;
-	    else
-		this.page_l = nextPage;
-	}
+	    this.turnPage(this.page_l,this.page_r,1);
+    }
+    loaded(){
+	this.pages.push(this.loading);
+	this.loadPages();
+    }
+    loadPages(){
+	const page=this.pages.length;
+	this.loading = document.createElement("img");
+	if (page&1)
+	    this.loading.style = "display:block;position:absolute;right:0;bottom:100%;background-color:#fff;";
+	else
+	    this.loading.style = "display:block;position:absolute;left:0;bottom:100%;background-color:#fff;";
+	this.loading.src = encodeURI("/sheet_music/"+this.name+"_"+settings.who+"_"+(page+1)+".svg?t="+new Date().getTime());
+	this.span.appendChild(this.loading);
+	this.loading.onload = ()=>this.loaded();
     }
     animate(time){
 	if (!this.enabled || !this.name)
 	    return;
 	if (isPlaying)
 	    this.gotoPage(time);
-	while (this.pages.length<=Math.max(this.page_l,this.page_r)+1){
-	    const page=this.pages.length;
-	    const img=document.createElement("img");
-	    if (page&1)
-		img.style = "display:block;position:absolute;right:0;bottom:0;background-color:#fff;";
-	    else
-		img.style = "display:block;position:absolute;left:0;bottom:0;background-color:#fff;";
-	    img.src = encodeURI("/sheet_music/"+this.name+"_"+settings.who+"_"+(page+1)+".svg?t="+new Date().getTime());
-	    this.span.appendChild(img);
-	    this.pages[page] = img;
-	}
 	const rect=this.span.getBoundingClientRect();
 	const height=Math.min(rect.height,rect.width*11/8.5/2);
 	const width=height*8.5/11;
