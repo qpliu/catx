@@ -213,7 +213,7 @@
     function setMode(mode){
 	if (mode!=0)
 	    document.documentElement.requestFullscreen();
-	else
+	else if (document.fullscreenElement)
 	    document.exitFullscreen();
 	document.getElementById("settingsStuff").style.display = mode==0?"block":"none";
 	snakes.setEnabled(mode==2);

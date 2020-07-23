@@ -19,7 +19,7 @@ class Sheets{
 	this.checkWho();
     }
     checkWho(){
-	if (settings.who!=this.who){
+	if (settings.who!=this.who || !this.pages){
 	    this.who = settings.who;
 	    this.span.innerHTML = "";
 	    this.pages = []
