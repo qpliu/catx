@@ -19,7 +19,7 @@ class Sheets{
 	this.checkWho();
     }
     checkWho(){
-	if (settings.who!=this.who || !this.pages){
+	if (settings.who!=this.who){
 	    this.who = settings.who;
 	    this.span.innerHTML = "";
 	    this.pages = []
@@ -29,8 +29,8 @@ class Sheets{
 	    this.old_page_r = 1;
 	    this.animateStart = 0;
 	    this.measuresInSong = 0;
-	    this.loadPages();
 	}
+	this.loadPages();
     }
     addBeatEvent(time,beat){
 	const i=beat.indexOf(":");
@@ -94,20 +94,19 @@ class Sheets{
 	if (e.keyCode==39 || e.keyCode==32 || e.keyCode==34)
 	    this.turnPage(this.page_l,this.page_r,1);
     }
-    loaded(){
-	this.pages.push(this.loading);
-	this.loadPages();
-    }
     loadPages(){
 	const page=this.pages.length;
-	this.loading = document.createElement("img");
+	const loading=document.createElement("img");
 	if (page&1)
-	    this.loading.style = "display:block;position:absolute;right:0;bottom:100%;background-color:#fff;";
+	    loading.style = "display:block;position:absolute;right:0;bottom:100%;background-color:#fff;";
 	else
-	    this.loading.style = "display:block;position:absolute;left:0;bottom:100%;background-color:#fff;";
-	this.loading.src = encodeURI("/sheet_music/"+this.name+"_"+this.who+"_"+(page+1)+".svg?t="+new Date().getTime());
-	this.span.appendChild(this.loading);
-	this.loading.onload = ()=>this.loaded();
+	    loading.style = "display:block;position:absolute;left:0;bottom:100%;background-color:#fff;";
+	loading.src = encodeURI("/sheet_music/"+this.name+"_"+this.who+"_"+(page+1)+".svg?t="+new Date().getTime());
+	loading.onload = ()=>{
+	    this.pages[page] = loading;
+	    this.span.appendChild(loading);
+	    this.loadPages();
+	};
     }
     animate(time){
 	if (!this.enabled || !this.name)
