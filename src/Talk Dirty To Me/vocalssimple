@@ -1,4 +1,5 @@
-vocalssimple = \transpose ees e {
+vocalssimple = \new Voice = "vosimple" { \transpose ees e {
+    \myVocalsStuff
     r1 r1 r1 r1 r1 r1
     r1 r1 r1 r1 r1 |
     r2 r8 des''8 des'' des'' |
@@ -89,16 +90,20 @@ vocalssimple = \transpose ees e {
     r2 r8
 % IF midi \new NullVoice
     {
+	\undomyVocalsStuff
 	\deadNote bes'8 \deadNote bes'4 |
+	\myVocalsStuff
     }
 \mymark "Solo" #93
 % IF midi \new NullVoice
     {
+	\undomyVocalsStuff
 	\deadNote bes'8 \deadNote bes'8 \deadNote bes'8 \deadNote bes'8 \deadNote bes'4 \deadNote bes'8 \deadNote bes'8 |
 	r8 \deadNote bes'4 \deadNote bes'8 \deadNote bes'4 \deadNote bes'4 |
 	r1 r1 r1 r1 |
 	r1 r1 r1 |
 	r8 \deadNote bes'4 \deadNote bes'4 \deadNote bes'4 \deadNote bes'8 |
+	\myVocalsStuff
     }
     r1 r1 r1 r1 |
     r1 r1 r1 r1 |
@@ -119,4 +124,4 @@ vocalssimple = \transpose ees e {
     des''8 ees''4 ges''8~ ges''4 ces'' |
     bes'8( aes' ges') ges'~ ges'4 r4 |
     r4 ces''4 bes'8 aes' ges' ges' |
-}
+} }

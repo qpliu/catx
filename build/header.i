@@ -7,11 +7,12 @@
 #(set! paper-alist (cons '("8x9" . (cons (* 8 in) (* 9 in))) paper-alist))
 
 myVocalsStuff={}
+undomyVocalsStuff={}
 
 % IF kav #(set-global-staff-size 24)
 
-% IF susan #(set-global-staff-size 30)
-% IF susan myVocalsStuff={\easyHeadsOn \huge}
+% IF susan #(set-global-staff-size 40)
+% IF susan myVocalsStuff={\easyHeadsOn \huge} undomyVocalsStuff={\easyHeadsOff \normalsize}
 
 \paper {
 % Default is system-system-spacing = #'((basic-distance . 12) (minimum-distance . 8) (padding . 1) (stretchability . 60))

@@ -1,5 +1,5 @@
 % BIN midi all kav susan gg peter
-% ROBOT pageTurns={"kav":[[26,1],[41,1],[57,1],[71,1],[87,1],[103,1]],"susan":[[42,1],[67,1],[92,1]]}
+% ROBOT pageTurns={"kav":[[26,1],[41,1],[57,1],[71,1],[87,1],[103,1]],"susan":[[26,1],[39,1],[51,1],[62,1],[75,1],[87,1],[103,1]]}
 
 \header {
     title = "Talk Dirty To Me"
@@ -27,7 +27,6 @@ eflat-bass = \stringTuning <ees,, aes,, des, ges,>
 \include "karaoke"
 
 voAligner = \new NullVoice = "vo" \vocals
-vosimpleAligner = \new NullVoice = "vosimple" \vocalssimple
 
 layoutmusic = <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
@@ -35,8 +34,7 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupsimpleStuff
-	{ \myVocalsStuff \vocalssimple }
-	\vosimpleAligner
+	\vocalssimple
 	\vosimpleLyrics
     >>
     \tag #'(allPart peterPart) \new Staff \with {
