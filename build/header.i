@@ -2,8 +2,6 @@
     tagline = ##f
 }
 
-#(set-global-staff-size 20)
-
 #(set! paper-alist (cons '("8x9" . (cons (* 8 in) (* 9 in))) paper-alist))
 
 myVocalsStuff={}

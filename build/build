@@ -137,6 +137,7 @@ EOF
 	if test -d /share/music
 	then
 	    cp "$n-letter.pdf" "/share/music/pdf/$n.pdf"
+	    cp "$n-8x9.pdf" "/share/music/8x9/$n.pdf"
 	    rm -f /share/music/svg/"${n}_"*
 	    page=1
 	    while pdf2svg "$n-8x9.pdf" /share/music/svg/"${n}_$page.svg" $page
