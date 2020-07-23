@@ -23,8 +23,8 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
-	\steelpanPart
-	\voPart
+	{ \myVocalsStuff \steelpanPart }
+	{ \myVocalsStuff \voPart }
 	\voLyrics
     >>
     \tag #'(allPart) \new Staff \with {

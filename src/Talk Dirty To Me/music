@@ -1,5 +1,5 @@
 % BIN midi all kav susan gg peter
-% ROBOT pageTurns={"kav":[[49,1],[77,1]]}
+% ROBOT pageTurns={"kav":[[26,1],[41,1],[57,1],[71,1],[87,1],[103,1]],"susan":[[42,1],[67,1],[92,1]]}
 
 \header {
     title = "Talk Dirty To Me"
@@ -35,7 +35,7 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupsimpleStuff
-	\vocalssimple
+	{ \myVocalsStuff \vocalssimple }
 	\vosimpleAligner
 	\vosimpleLyrics
     >>
@@ -80,7 +80,7 @@ layoutmusic = <<
 >>
 
 midimusic = <<
-    \markupStuff
+    \markupsimpleStuff
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drumsimple

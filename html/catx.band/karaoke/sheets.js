@@ -14,6 +14,13 @@ class Sheets{
 	this.pageTurns = JSON.parse(pageTurns);
 	if (name!=this.name){
 	    this.name = name;
+	    this.who = undefined;
+	}
+	this.checkWho();
+    }
+    checkWho(){
+	if (settings.who!=this.who){
+	    this.who = settings.who;
 	    this.span.innerHTML = "";
 	    this.pages = []
 	    this.page_l = 0;
@@ -65,7 +72,7 @@ class Sheets{
 	}
 	if (measureNumber==undefined)
 	    return;
-	let turns=this.pageTurns[settings.who];
+	let turns=this.pageTurns[this.who];
 	if (!turns && this.pages.length>2 && this.measuresInSong){
 	    turns = [];
 	    for (let p=1; p<this.pages.length; p++)
@@ -98,7 +105,7 @@ class Sheets{
 	    this.loading.style = "display:block;position:absolute;right:0;bottom:100%;background-color:#fff;";
 	else
 	    this.loading.style = "display:block;position:absolute;left:0;bottom:100%;background-color:#fff;";
-	this.loading.src = encodeURI("/sheet_music/"+this.name+"_"+settings.who+"_"+(page+1)+".svg?t="+new Date().getTime());
+	this.loading.src = encodeURI("/sheet_music/"+this.name+"_"+this.who+"_"+(page+1)+".svg?t="+new Date().getTime());
 	this.span.appendChild(this.loading);
 	this.loading.onload = ()=>this.loaded();
     }
@@ -108,8 +115,8 @@ class Sheets{
 	if (isPlaying)
 	    this.gotoPage(time);
 	const rect=this.span.getBoundingClientRect();
-	const height=Math.min(rect.height,rect.width*11/8.5/2);
-	const width=height*8.5/11;
+	const height=Math.min(rect.height,rect.width*9/8/2);
+	const width=height*8/9;
 	const a=Math.min((new Date().getTime()-this.animateStart)/9,55);
 	const la=this.page_l*a+this.old_page_l*(55-a);
 	const ra=this.page_r*a+this.old_page_r*(55-a);
@@ -134,5 +141,6 @@ class Sheets{
 	document.getElementById("beat_span").style.opacity = opacity;
 	tones.speakerOn.style.opacity = opacity;
 	tones.speakerOff.style.opacity = opacity;
+	this.checkWho();
     }
 }

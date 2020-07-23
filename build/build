@@ -14,15 +14,15 @@ cd ../../build/
 PARTS="$*"
 rm -rf bin
 mkdir -p bin/bin
-cd bin
-ln ../java/* .
+mkdir -p bin/src
+mkdir -p bin/java
+cd bin/java
+ln ../../java/* .
 javac -Xlint *.java
-cd ..
-ln *.i *.wav timidity_extra_silence.cfg bin
-cp "../src/$name"/* bin
-cd bin
-mv music music-if
-mv header.i header.i-if
+cd ../..
+ln *.i *.wav timidity_extra_silence.cfg bin/src
+cp "../src/$name"/* bin/src
+cd bin/src
 if test -x "run_before"
 then
     ./run_before
@@ -33,7 +33,7 @@ do
     then
 	echo "$a"
 	aa=`basename "$a" tabs`
-	../tabsToLy.py <"$a" >"$aa"
+	../../tabsToLy.py <"$a" >"$aa"
     fi
 done
 for a in *colors
@@ -41,14 +41,14 @@ do
     if test -f "$a"
     then
 	aa=`basename "$a" colors`
-	../synesthesia.py <"$a" >"$aa"
+	../../synesthesia.py <"$a" >"$aa"
     fi
 done
 for a in *text
 do
     if test -f "$a"
     then
-	../dotext.py <"$a" "${a}_"
+	../../dotext.py <"$a" "${a}_"
     fi
 done
 for a in *.mp3
@@ -59,16 +59,17 @@ do
 	ffmpeg </dev/null -loglevel 16 -i "$a" "$b".wav
     fi
 done
-echo "name=$name" >"bin/$name.aarin"
-sed <music-if -n -e 's/^% ROBOT \(.*\)$/\1/p' >>"bin/$name.aarin"
-MIDIMERGE=`sed <music-if -n -e 's/^% MIDIMERGE \(.*\)$/\1/p'`
+echo "name=$name" >"../bin/$name.aarin"
+sed <music -n -e 's/^% ROBOT \(.*\)$/\1/p' >>"../bin/$name.aarin"
+MIDIMERGE=`sed <music -n -e 's/^% MIDIMERGE \(.*\)$/\1/p'`
 for part in $PARTS
 do
-    for a in *-if
+    mkdir "../src-$part"
+    for a in *
     do
-	b=`basename "$a" -if`
-	sed "s/^%[ 	]*IF[ 	][ 	]*$part[ 	]//;s/^%[ 	]*IFNOT[ 	][ 	]*$part[ 	]/% /;s/^%[ 	]*IFNOT[ 	][ 	]*[^ 	]*//"  <"$a" >"$b"
+	sed "s/^%[ 	]*IF[ 	][ 	]*$part[ 	]//;s/^%[ 	]*IFNOT[ 	][ 	]*$part[ 	]/% /;s/^%[ 	]*IFNOT[ 	][ 	]*[^ 	]*//"  <"$a" >"../src-$part/$a"
     done
+    cd "../src-$part"
     if test "x$part" = "xmidi"
     then
 	merge="$MIDIMERGE"
@@ -87,7 +88,7 @@ EOF
 	    lilypond -l WARN -o "$midi" "$name-$midi.ly"
 	    merge="$merge $midi.midi"
 	done
-	java -cp . MergeMidi $merge >"$name.midi"
+	java -cp ../java MergeMidi $merge >"$name.midi"
         if test "$HAVE_TIMIDITY" = 0 -a "$HAVE_FFMPEG" = 0
 	then
 	    TIMIDITY_EXTRA_CFG="-c timidity_extra_silence.cfg"
@@ -97,20 +98,23 @@ EOF
 	    fi
 	    timidity $TIMIDITY_EXTRA_CFG -OF -o "$name.flac" -A400 "$name.midi"
 	    ffmpeg </dev/null -loglevel 16 -i "$name.flac" "$name.mp3"
-	    cp "$name.midi" bin
+	    cp "$name.midi" ../bin
 	    if test -d /share/music
 	    then
 		cp "$name.mp3" /share/music/mp3
 		cp "$name.midi" "/share/music/midi/$name.midi"
-		echo "midi_file=../midi/$name.midi" >>bin/"$name.aarin"
+		echo "midi_file=../midi/$name.midi" >>../bin/"$name.aarin"
 	    fi
         fi
     else
 	n="${name}_$part"
 	part1=`echo $part|sed 's/1/One/g;s/2/Two/g;s/3/Three/g;s/4/Four/g;s/5/Five/g;s/6/Six/g;s/7/Seven/g;s/8/Eight/g'`
-	cat <<EOF >"$n.ly"
+	for paper in letter 8x9
+	do
+	    cat <<EOF >"$n-$paper.ly"
 \version "2.20.0"
 \include "header.i"
+\paper { #(set-paper-size "$paper") }
 \include "music"
 \score {
 \keepWithTag #'(${part1}Part keep) \layoutmusic
@@ -121,26 +125,30 @@ EOF
 }
 }
 EOF
-	lilypond -l WARN -o "$n" "$n.ly"
-	cp "$n.pdf" bin
+	    lilypond -l WARN -o "$n-$paper" "$n-$paper.ly"
+	done
+	cp "$n-letter.pdf" "../bin/$n.pdf"
 	case "$n" in
 	    *_gg)
-		echo "default_pdf_file=../pdf/$n.pdf" >>"bin/$name.aarin"
+		echo "default_pdf_file=../pdf/$n.pdf" >>"../bin/$name.aarin"
 		;;
 	esac
-	echo "pdf_file=../pdf/$n.pdf" >>"bin/$name.aarin"
+	echo "pdf_file=../pdf/$n.pdf" >>"../bin/$name.aarin"
 	if test -d /share/music
 	then
-	    cp "$n.pdf" /share/music/pdf
+	    cp "$n-letter.pdf" "/share/music/pdf/$n.pdf"
+	    rm -f /share/music/svg/"${n}_"*
 	    page=1
-	    while pdf2svg "$n.pdf" /share/music/svg/"${n}_$page.svg" $page
+	    while pdf2svg "$n-8x9.pdf" /share/music/svg/"${n}_$page.svg" $page
 	    do
+		gzip /share/music/svg/"${n}_$page.svg"
 		page=`echo print $page+1|python`
 	    done
 	fi
     fi
+    cd ../src
 done
 if test -d /share/music
 then
-    cp "bin/$name.aarin" /share/music/aarin
+    cp "../bin/$name.aarin" /share/music/aarin
 fi

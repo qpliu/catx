@@ -21,7 +21,7 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
-	\vocals
+	{ \myVocalsStuff \vocals }
 	\voAligner
 	\voLyrics
     >>

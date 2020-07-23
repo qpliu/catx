@@ -23,7 +23,7 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
-	\clarinetPart
+	{ \myVocalsStuff \clarinetPart }
 	\voAligner
 	\voLyrics
     >>

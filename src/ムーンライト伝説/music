@@ -28,9 +28,9 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
-	\voPart
+	{ \myVocalsStuff \voPart }
 	\voLyrics
-	\steelpanPart
+	{ \myVocalsStuff \steelpanPart }
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Piano" }

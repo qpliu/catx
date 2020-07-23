@@ -26,7 +26,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
-	\vocalsPart
+	{ \myVocalsStuff \vocalsPart }
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Synth" }

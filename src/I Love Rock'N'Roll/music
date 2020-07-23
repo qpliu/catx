@@ -18,7 +18,7 @@ voAligner = \new NullVoice = "vo" \voPart
 layoutmusic = <<
     \tag #'(allPart kavPart susanPart) \new Staff <<
 	\markupStuff
-	\voPart
+	{ \myVocalsStuff \voPart }
 	\voAligner
 	\voLyrics
     >>

@@ -26,7 +26,7 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
-	\voPart
+	{ \myVocalsStuff \voPart }
 	\voLyrics
     >>
     \tag #'(allPart kavPart susanPart) \new Staff \with {
