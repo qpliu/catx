@@ -213,6 +213,8 @@
     function setMode(mode){
 	if (mode!=0)
 	    document.documentElement.requestFullscreen();
+	else
+	    document.exitFullscreen();
 	document.getElementById("settingsStuff").style.display = mode==0?"block":"none";
 	snakes.setEnabled(mode==2);
 	sheets.setEnabled(mode==3);
