@@ -19,7 +19,7 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
-	{ \myVocalsStuff \voPart }
+	\voPart
 	\voLyrics
     >>
     \tag #'(allPart peterPart) <<

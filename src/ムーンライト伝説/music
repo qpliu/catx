@@ -1,5 +1,6 @@
 % BIN midi all kav gg susan peter
 % ROBOT pickup_measures=1
+% ROBOT pageTurns={"kav":[[22,1],[34,1],[47,1],[59,1],[71,1],[87,1]],"susan":[[16,1],[23,1],[32,1],[41,1],[52,1],[60,1],[69,1],[79,1],[90,1]]}
 
 \header {
     title = "ムーンライト伝説"
@@ -20,17 +21,15 @@
 \include "piano"
 \include "karaoke"
 
-voAligner = \new NullVoice = "vo" \voPart
-
 layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vocals" }
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
-	{ \myVocalsStuff \voPart }
+	\voPart
 	\voLyrics
-	{ \myVocalsStuff \steelpanPart }
+	\steelpanPart
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Piano" }
@@ -101,6 +100,6 @@ midimusic = <<
     } \simpledrsPart
     \tag #'(midiKaraoke) <<
 	\karaokeLyrics
-	\transpose c c, \voPart
+	\voPart
     >>
 >>

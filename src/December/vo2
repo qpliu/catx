@@ -1,35 +1,36 @@
-voTwoPart =
-\relative c''
-{
+voTwoPart = \new Voice = "vo2" {
+    \relative c'' {
+	\myVocalsStuff
 \mymark "Intro" #1
-    R1*8 |
+	R1*8 |
 \mymark "Verse 1" #9
-    R1*16 |
+	R1*16 |
 \mymark "Chorus 1" #25
-    R1*16 |
+	R1*16 |
 \mymark "Interlude" #41
-    R1*8 |
+	R1*8 |
 \mymark "Verse 2" #49
-    R1*16 |
+	R1*16 |
 \mymark "Chorus 2" #65
-    R1*16 |
+	R1*16 |
 \mymark "Chorus Lead-out" #81
-    R1*8 |
+	R1*8 |
 \mymark "Interlude" #89
-    R1*8 |
+	R1*8 |
 \mymark "Prechorus" #97
-    R1*8 |
+	R1*8 |
 \mymark "Bridge" #105
-    R1*16 |
-    d4  c8 b g4 bes8 c | d4   c8 b   g2 |
-    d'4 c8 b g4 g8   g | bes4 bes    b2 |
-    d4  c8 b g4 bes8 c | d4   c8 b   g2 |
-    d'4 c8 b g4 g      | bes4 bes8 g b2 |
-    d4  c8 b g4 bes8 c | d4   c8 b   g2 |
-    d'4 c8 b g4 g8   g | bes4 bes    b2 |
-    d4  c8 b g4 bes8 c | d4   c8 b   g2 |
-    d'4 c8 b g4 g      | bes4 bes8 g b2 |
+	R1*16 |
+	d4  c8 b g4 bes8 c | d4   c8 b   g2 |
+	d'4 c8 b g4 g8   g | bes4 bes    b2 |
+	d4  c8 b g4 bes8 c | d4   c8 b   g2 |
+	d'4 c8 b g4 g      | bes4 bes8 g b2 |
+	d4  c8 b g4 bes8 c | d4   c8 b   g2 |
+	d'4 c8 b g4 g8   g | bes4 bes    b2 |
+	d4  c8 b g4 bes8 c | d4   c8 b   g2 |
+	d'4 c8 b g4 g      | bes4 bes8 g b2 |
 \mymark "Outro" #137
-    R1*5 |
+	R1*5 |
 \mybarNumberCheck #142
+    }
 }

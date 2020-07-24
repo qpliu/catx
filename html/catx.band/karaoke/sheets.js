@@ -40,26 +40,26 @@ class Sheets{
 	if (j!=-1)
 	    this.measuresInSong = Number(beat.slice(j+1));
     }
-    turnPage(lp,rp,dir){
-	for (; dir<0; dir++)
-	    if (lp<rp){
-		if (rp>1)
-		    rp -= 2;
-	    }else if (lp>1)
-		lp -= 2;
-	for (; dir>0; --dir)
-	    if (lp<rp){
-		if (lp<this.pages.length-2)
-		    lp += 2;
-	    }else if (rp<this.pages.length-2)
-		rp += 2;
-	if (lp!=this.page_l || rp!=this.page_r){
-	    this.old_page_l = this.page_l;
-	    this.old_page_r = this.page_r;
-	    this.page_l = lp;
-	    this.page_r = rp;
-	    this.animateStart = new Date().getTime();
-	}
+    turnPage(dir){
+	this.old_page_l = this.page_l;
+	this.old_page_r = this.page_r;
+	if (dir<0)
+	    if (this.page_l<this.page_r){
+		if (this.page_l>0)
+		    this.page_r = this.page_l-1;
+	    }else if (this.page_r>0)
+		this.page_l = this.page_r-1;
+	    else{
+		this.page_l = 0;
+		this.page_r = 1;
+	    }
+	if (dir>0)
+	    if (this.page_l<this.page_r){
+		if (this.page_r<this.pages.length-1)
+		    this.page_l = this.page_r+1;
+	    }else if (this.page_l<this.pages.length-1)
+		this.page_r = this.page_l+1;
+	this.animateStart = new Date().getTime();
     }
     gotoPage(time){
 	if (this.repeat&&time>=this.songLength)
@@ -79,29 +79,35 @@ class Sheets{
 		turns.push([(p+.5)/(this.pages.length-.5)*this.measuresInSong,1]);
 	}
 	if (turns){
-	    let dir=0;
+	    let p=[0,1];
+	    let lr=0;
 	    for (const turn of turns)
-		if (turn[0]<=measureNumber)
-		    dir += turn[1];
-	    this.turnPage(0,1,dir);
+		if (turn[0]<=measureNumber){
+		    p[lr] = p[lr^1]+turn[1];
+		    lr ^= 1;
+		}
+	    if (p[0]!=this.page_l || p[1]!=this.page_r){
+		this.old_page_l = this.page_l;
+		this.old_page_r = this.page_r;
+		this.page_l = p[0];
+		this.page_r = p[1];
+		this.animateStart = new Date().getTime();
+	    }
 	}
     }
     keypress(e){
 	if (!this.enabled || !this.name)
 	    return;
 	if (e.keyCode==37 || e.keyCode==8 || e.keyCode==33)
-	    this.turnPage(this.page_l,this.page_r,-1);
+	    this.turnPage(-1);
 	if (e.keyCode==39 || e.keyCode==32 || e.keyCode==34)
-	    this.turnPage(this.page_l,this.page_r,1);
+	    this.turnPage(1);
     }
     loadPages(){
 	const page=this.pages.length;
 	const loading=document.createElement("img");
-	if (page&1)
-	    loading.style = "display:block;position:absolute;right:0;bottom:100%;background-color:#fff;";
-	else
-	    loading.style = "display:block;position:absolute;left:0;bottom:100%;background-color:#fff;";
-	loading.src = encodeURI("/sheet_music/"+this.name+"_"+this.who+"_"+(page+1)+".svg?t="+new Date().getTime());
+	loading.style = "display:none;position:absolute;bottom:100%;background-color:#fff;";
+	loading.src = encodeURI("/sheet_music/"+this.name+"/"+this.who+"/"+(page+1)+".svg?t="+new Date().getTime());
 	loading.onload = ()=>{
 	    this.pages[page] = loading;
 	    this.span.appendChild(loading);
@@ -116,14 +122,28 @@ class Sheets{
 	const rect=this.span.getBoundingClientRect();
 	const height=Math.min(rect.height,rect.width*9/8/2);
 	const width=height*8/9;
-	const a=Math.min((new Date().getTime()-this.animateStart)/9,55);
-	const la=this.page_l*a+this.old_page_l*(55-a);
-	const ra=this.page_r*a+this.old_page_r*(55-a);
+	const a=Math.min((new Date().getTime()-this.animateStart)/5,100);
 	for (let page=0; page<this.pages.length; page++){
 	    const s=this.pages[page].style;
 	    s.width = width+"px";
 	    s.height = height+"px";
-	    s.bottom = (page&1?ra:la)-page*55+"%";
+	    s.left = null;
+	    s.right = null;
+	    s.display = "block";
+	    if (page==this.page_l){
+		s.bottom = Math.sign(this.page_l-this.old_page_l)*(a-100)+"%";
+		s.left = 0;
+	    }else if (page==this.page_r){
+		s.bottom = Math.sign(this.page_r-this.old_page_r)*(a-100)+"%";
+		s.right = 0;
+	    }else if (page==this.old_page_l && a<100){
+		s.bottom = Math.sign(this.page_l-this.old_page_l)*(a+10)+"%";
+		s.left = 0;
+	    }else if (page==this.old_page_r && a<100){
+		s.bottom = Math.sign(this.page_r-this.old_page_r)*(a+10)+"%";
+		s.right = 0;
+	    }else
+		s.display = "none";
 	}
     }
     setEnabled(enabled){

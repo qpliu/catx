@@ -1,4 +1,4 @@
-voPart = {
+voPart = \new Voice = "vo" {
 \mymark "Intro" #1
     r1 r1 r1 r1 |
     r1 r1 r1 r1 |
@@ -12,7 +12,9 @@ voPart = {
 	\deadNote d4 r \deadNote d r |
 	r4 \deadNote d \deadNote d r |
 	\deadNote d4 r \deadNote d r |
-	r4 \deadNote d \deadNote d r8 cis |
+	r4 \deadNote d \deadNote d r8
+	\myVocalsStuff
+	cis |
     }
 \mymark "Verse 1" #25
     \relative {
@@ -94,6 +96,7 @@ voPart = {
 	r1 |
     }
 \mymark "Outro" #89
+    \undomyVocalsStuff
     \relative {
 	\deadNote d''4 r \deadNote d r |
 	r4 \deadNote d \deadNote d r |

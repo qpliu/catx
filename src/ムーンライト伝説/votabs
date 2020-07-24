@@ -1,6 +1,5 @@
-voPart =
-\transpose c c'
-{
+voPart = \new Voice = "vo" { \transpose c c' {
+    \myVocalsStuff
 % tuning b,, e, a, d g b e'
 % scale c des d ees e f fis g aes a bes b
 \mymark "Intro 1" #1
@@ -101,4 +100,4 @@ voPart =
     3-0t4 4-3t 1t8 0t4 5-3t8~ |
     5-3t4 r2. |
     r1 |
-}
+} }

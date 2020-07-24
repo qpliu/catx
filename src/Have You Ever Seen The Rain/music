@@ -1,5 +1,6 @@
 % BIN midi all susan kav gg peter
 % ROBOT pickup_measures=1
+% ROBOT pageTurns={"kav":[[25,1],[41,1],[57,1]],"susan":[[20,1],[32,-2],[38,1],[48,1],[60,1]]}
 
 \header {
     title = "Have You Ever Seen The Rain"
@@ -18,17 +19,13 @@
 \include "simplelyricsunfolded"
 \include "karaoke"
 
-voAligner = \new NullVoice = "vo" \voPart
-simplevoAligner = \new NullVoice = "simplevo" \simplevoPart
-
 layoutmusic = <<
     \tag #'(allPart susanPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vocals" }
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
-	{ \myVocalsStuff \simplevoPart }
-	\simplevoAligner
+	\simplevoPart
 	\simplevoLyrics
     >>
     \tag #'(allPart peterPart) \new Staff \with {
@@ -60,7 +57,7 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\drsPart
-	\simplevoAligner
+	\new NullVoice \simplevoPart
 	\simplevoLyrics
     >>
     \tag #'(kavPart) \removeWithTag #'(removeWithUnfold) \unfoldRepeats \new Staff \with {

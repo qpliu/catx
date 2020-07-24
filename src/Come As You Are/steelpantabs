@@ -1,6 +1,5 @@
-steelpanPart = \new Voice
-%\transpose c c'
-{
+steelpanPart = {
+    \myVocalsStuff
 % tuning e a d' g'
 \mymark "Intro" #1
     r1 r1 r1 r1 |

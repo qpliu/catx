@@ -138,11 +138,12 @@ EOF
 	then
 	    cp "$n-letter.pdf" "/share/music/pdf/$n.pdf"
 	    cp "$n-8x9.pdf" "/share/music/8x9/$n.pdf"
-	    rm -f /share/music/svg/"${n}_"*
+	    rm -rf "/share/music/svg/$name/$part"
+	    mkdir -p "/share/music/svg/$name/$part"
 	    page=1
-	    while pdf2svg "$n-8x9.pdf" /share/music/svg/"${n}_$page.svg" $page
+	    while pdf2svg "$n-8x9.pdf" "temp.svg" $page
 	    do
-		gzip /share/music/svg/"${n}_$page.svg"
+		gzip <temp.svg >"/share/music/svg/$name/$part/$page.svg.gz"
 		page=`echo print $page+1|python`
 	    done
 	fi

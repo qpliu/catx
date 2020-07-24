@@ -9,16 +9,13 @@
 \include "karaoke"
 \include "lyrics"
 
-voAligner = \new NullVoice = "vo" \voPart
-
 layoutmusic = <<
     \tag #'(allPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vocals" }
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
-	\voPart
-	\voAligner
+	\new Voice = "vo" \voPart
 	\voLyrics
     >>
 >>

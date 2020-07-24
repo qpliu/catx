@@ -1,6 +1,5 @@
-voPart =
-\transpose c c'
-{
+voPart = \new Voice = "vo" { \transpose c c' {
+    \myVocalsStuff
 % scale c des d ees e f ges g aes a bes b
     s2 r |
     4-5.3t8 t4 t8 3-2.1t2 |
@@ -39,4 +38,4 @@ voPart =
     4-5.3t8 t4 t8 3-2.1t2 |
     r1 r1 r1 r1 |
 \mybarNumberCheck #54
-}
+} }

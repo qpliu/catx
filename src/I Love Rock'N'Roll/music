@@ -11,28 +11,17 @@
 \include "lyrics"
 \include "karaoke"
 
-voAligner = \new NullVoice = "vo" \voPart
-
 layoutmusic = <<
     \tag #'(allPart kavPart susanPart) \new Staff <<
 	\markupStuff
-	{ \myVocalsStuff \voPart }
-	\voAligner
+	\voPart
 	\voLyrics
     >>
-    \tag #'(allPart kavPart) \new DrumStaff \with {
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\drsPart
-    >>
-    \tag #'(ggPart) \new DrumStaff \with {
-	drumStyleTable = #(alist->hash-table myDrumStyleTable)
-    } <<
-	\markupStuff
-	\drsPart
-	\voAligner
-	\voLyrics
     >>
 >>
 

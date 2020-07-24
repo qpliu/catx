@@ -1,4 +1,5 @@
-vocals = \relative {
+vocals = \new Voice = "vo" { \relative {
+    \myVocalsStuff
     s1
 \mymark "Chorus" #2
     f''4 f2 r8 c8 |
@@ -12,4 +13,4 @@ vocals = \relative {
     s1 s1 s1
 \mymark "Solo" #13
     s1 s1 s1 s1 s1 s1
-}
+} }

@@ -15,16 +15,13 @@
 \include "generated-strings"
 \include "lyrics"
 
-voAligner = \new NullVoice = "vo" \clarinetPart
-
 layoutmusic = <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vocals" }
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
-	{ \myVocalsStuff \clarinetPart }
-	\voAligner
+	\new Voice = "vo" { \myVocalsStuff \clarinetPart }
 	\voLyrics
     >>
     \tag #'(allPart) \new Staff \with {

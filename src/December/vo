@@ -1,6 +1,7 @@
 voPart =
 \relative c''
 {
+    \myVocalsStuff
 \mymark "Intro" #1
     R1*8 |
 \mymark "Verse 1" #9

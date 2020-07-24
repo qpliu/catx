@@ -1,4 +1,5 @@
 voPart = {
+    \myVocalsStuff
     \relative {
 \mymark "Intro" #1
         d8 a' d a' g fis e fis |

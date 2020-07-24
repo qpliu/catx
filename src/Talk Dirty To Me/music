@@ -26,8 +26,6 @@ eflat-bass = \stringTuning <ees,, aes,, des, ges,>
 \include "lyricssimple"
 \include "karaoke"
 
-voAligner = \new NullVoice = "vo" \vocals
-
 layoutmusic = <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vocals" }

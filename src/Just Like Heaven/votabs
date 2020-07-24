@@ -1,6 +1,7 @@
 voPart =
 \transpose c c'
 {
+    \myVocalsStuff
 \mymark "Intro" #1
     r1 r1 r1 r1 r1 r1 r1 r1 |
     s1 s1_\markup { \with-color #(rgb-color 1 .5 .5) "Start Tambourine" } |

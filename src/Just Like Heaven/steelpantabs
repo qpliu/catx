@@ -1,5 +1,6 @@
 steelpanPart = \new Voice
 {
+    \myVocalsStuff
 \mymark "Intro" #1
     s1 s1 s1 s1 s1 s1 s1 s1 |
     r1 r1 r1 r1 r1 |

@@ -1,4 +1,5 @@
-voPart = {
+voPart = \new Voice = "vo" {
+    \myVocalsStuff
 % Intro
 %1
     r1 r1 r1 r1 |

@@ -1,6 +1,7 @@
-steelpanPart = \new Voice
+steelpanPart =
 \transpose c c'
 {
+    \myVocalsStuff
 % tuning b,, e, a, d g b e'
 % scale c des d ees e f fis g aes a bes b
 \mymark "Intro 1" #1
@@ -8,10 +9,10 @@ steelpanPart = \new Voice
     4-4t8 3-0t r2 2-4t8 3t |
     3-3t8 4t 1-4t 3t r 3-0t 2-1t 4t |
 \mymark "Intro 2" #4
-    2-4.3t4 4.3t8 3.1t4 3.1t8 3-5.4t4 |
-    3-4.3t4 2-3.1t r8 4-5.4t 3-4.3t 2-3.1t |
-    2-6.4t4 6.4t8 8.6t4 6.4t8 4.3t 3.1t |
-    3-5.4t4 2-4.3t r8 3-0t 2-1t 4t |
+    1-3t4 3t8 1t4 1t8 2-4t4 |
+    2-3t4 1-1t r8 3-4t 2-3t 1-1t |
+    1-4t4 4t8 6t4 4t8 3t 1t |
+    2-4t4 1-3t r8 3-0t 2-1t 4t |
     1-8t4 r8 t 7t4 r8 t |
     1-6t4 4t r8 1-4t 3t 1t |
     1-3t4 1t 2-4t8 3t4 1t8~ |
@@ -38,8 +39,8 @@ steelpanPart = \new Voice
 \mymark "F" #72
     1-3t8 r 3t 1t r 1t 2-4t r |
     2-3t4 1-1t r8 3-4t 2-3t 1-1t |
-    2-6.4t8 r 6.4t 8.6t r 6.4t 4.3t 3.1t |
-    3-5.4t4 2-4.3t r2 |
+    1-4t8 r 4t 6t r 4t 3t 1t |
+    2-4t4 1-3t r2 |
     r1 |
     r2 r8 1-4t 3t 1t |
     1-3t4 1t 2-4t8 3t r 1t~ |

@@ -1,6 +1,7 @@
 voPart =
 \transpose c c'
 {
+    \myVocalsStuff
 \mymark "Intro" #1
     s1 s1 s1 s1 s1 s1 s1 s1 s1 |
 \mymark "Verse 1" #10
