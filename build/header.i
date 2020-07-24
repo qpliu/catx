@@ -2,14 +2,17 @@
     tagline = ##f
 }
 
-#(set! paper-alist (cons '("8x9" . (cons (* 8 in) (* 9 in))) paper-alist))
+#(set! paper-alist (cons '("10x12" . (cons (* 10 in) (* 12 in))) paper-alist))
+\paper { #(set-paper-size "10x12") }
 
 myVocalsStuff={}
 undomyVocalsStuff={}
 
-% IF kav #(set-global-staff-size 24)
+#(set-global-staff-size 24)
 
-% IF susan #(set-global-staff-size 40)
+% IF kav #(set-global-staff-size 30)
+
+% IF susan #(set-global-staff-size 50)
 % IF susan myVocalsStuff={\easyHeadsOn \huge} undomyVocalsStuff={\easyHeadsOff \normalsize}
 
 \paper {
