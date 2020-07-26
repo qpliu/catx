@@ -1,0 +1,22 @@
+drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+\mymark "Intro" #1
+    <cymc bd>1 |
+    r2 \tuplet 3/2 { r4 sn8 } db4 |
+    <cymc bd>1 |
+    \tuplet 3/2 { sn8 sn sn sn sn sn toml toml tomfl tomfl sn sn } |
+\mymark "Verse" #5
+    <cymc bd>4 <rb sn> <rb bd> <rb sn> |
+    <rb bd>4 <rb sn> <rb bd> <rb sn> |
+    <rb bd>4 <rb sn> <rb bd> <rb sn> |
+    <rb bd>4 <rb sn> \tuplet 3/2 { <rb bd>4 sn8 sn toml db } |
+\mymark "Pre-Chorus" #9
+    <hho sn bd>4 <hho sn bd> <hho sn bd> <hho sn bd> |
+    <hho sn bd>4 <hho sn bd> \tuplet 3/2 { <hho sn bd>4 hho8 <hho sn bd>4 hho8 } |
+    <hho sn bd>4 <hho sn bd> <hho sn bd> <hho sn bd> |
+    <hho sn bd>4 <hho sn bd> \tuplet 3/2 { <hho sn bd>4 sn8 sn toml bd } |
+\mymark "Outro" #13
+    <cymc bd>1 |
+\mybarNumberCheck #14
+}

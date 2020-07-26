@@ -1,0 +1,20 @@
+egPart = {
+\mymark "Intro" #1
+    \tuplet 3/2 { 6-0.14.14t4 t8 } 4-14.14t4 \tuplet 3/2 { 6-0.14.14t4 t8 } 4-12.12t4 |
+    \tuplet 3/2 { 6-0.14.14t4 t8 4-14.14t4 3-12t8~ } t4 \tuplet 3/2 { 4-14t8 13t 12t } |
+    \tuplet 3/2 { 6-0.14.14t4 t8 } 4-14.14t4 \tuplet 3/2 { 6-0.14.14t4 t8 } 4-12.12t4 |
+    \tuplet 3/2 { 6-0.14.14t4 t8 4-14.14t4 3-12t8~ } t4 \tuplet 3/2 { 4-14t8 13t 12t } |
+\mymark "Verse" #5
+    \tuplet 3/2 { 6-0.14.14t4 t8 } 4-14.14t4 \tuplet 3/2 { 6-0.14.14t4 t8 } 4-12.12t4 |
+    \tuplet 3/2 { 6-0.14.14t4 t8 4-14.14t4 3-12t8~ } t4 \tuplet 3/2 { 4-14t8 13t 12t } |
+    \tuplet 3/2 { 6-0.14.14t4 t8 } 4-14.14t4 \tuplet 3/2 { 6-0.14.14t4 t8 } 4-12.12t4 |
+    \tuplet 3/2 { 6-0.14.14t4 t8 4-14.14t4 3-12t8~ } t4 r4 |
+\mymark "Pre-Chorus" #9
+    5-3.5.5t4 t t t |
+    5-3.5.5t4 t \tuplet 3/2 { t4 5-5.7.7t8~ } t4 |
+    5-6.8.8t4 t t t |
+    5-6.8.8t4 t t t |
+\mymark "Outro" #13
+    6-3.5.5t1 |
+\mybarNumberCheck #14
+}
