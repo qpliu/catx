@@ -109,8 +109,10 @@ class Sheets{
 	loading.style = "display:none;position:absolute;bottom:100%;background-color:#fff;";
 	loading.src = encodeURI("/sheet_music/"+this.name+"/"+this.who+"/"+(page+1)+".svg?t="+new Date().getTime());
 	loading.onload = ()=>{
-	    this.pages[page] = loading;
-	    this.span.appendChild(loading);
+	    if (this.pages[page]==undefined){
+		this.pages[page] = loading;
+		this.span.appendChild(loading);
+	    }
 	    this.loadPages();
 	};
     }
