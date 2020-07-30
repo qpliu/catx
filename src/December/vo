@@ -1,92 +1,116 @@
-voPart =
-\relative c''
-{
+voPart = {
     \myVocalsStuff
+    \relative {
 \mymark "Intro" #1
-    R1*8 |
+	R1*8 |
 \mymark "Verse 1" #9
-    r4 b b8 b4 a8( |
-    g4) g a8 b4 a8~( |
-    a8 g4.) r4 bes,8 g'~ |
-    g g g g g, bes(b) g~ |
-    g4 r4 r2 | R1*3 |
-    r4 b' b8 b4 a8( |
-    g4) g a8 b4 a8~( |
-    a g4.) r4 bes,8 g'~ |
-    g4 g8 g a, bes b g~ |
-    g4 r4 r2 | R1*3 |
+	r4 b' b8 b4 a8( |
+	g4) g a8 b4 a8~( |
+	a8 g4.) r4
+    }
+% IF kav \transpose c c'
+    \relative {
+	bes8 g'~ |
+	g g g g g, bes(b) g~ |
+	g4 r4 r2 | R1*3 |
+    }
+    \relative {
+	r4 b' b8 b4 a8( |
+	g4) g a8 b4 a8~( |
+	a g4.) r4
+    }
+% IF kav \transpose c c'
+    \relative {
+	bes8 g'~ |
+	g4 g8 g a, bes b g~ |
+	g4 r4 r2 | R1*3 |
+    }
 \mymark "Chorus 1" #25
-    r4 e'' g,8 g g4 |
-    r4 f' g,8 g g4 |
-    r4 bes8 g bes4 g8 bes~ |
-    bes bes bes4 bes8 b4 b8( |
-    g4) e' g,8 g g4 |
-    r4 f' g,8 g g4 |
-    r4 bes8 g bes4 g8 bes~ |
-    bes bes bes4 bes8 b4 b8( |
-    g4) r4 r2 | R1*7 |
+    \relative {
+	r4 e'' g,8 g g4 |
+	r4 f' g,8 g g4 |
+	r4 bes8 g bes4 g8 bes~ |
+	bes bes bes4 bes8 b4 b8( |
+	g4) e' g,8 g g4 |
+	r4 f' g,8 g g4 |
+	r4 bes8 g bes4 g8 bes~ |
+	bes bes bes4 bes8 b4 b8( |
+	g4) r4 r2 | R1*7 |
 \mymark "Interlude" #41
-    R1*8 |
+	R1*8 |
 \mymark "Verse 2" #49
-    r4 b b8 b4 a8( |
-    g4) g a8 b4 a8~( |
-    a8 g4.) r4. g8~ |
-    g4 g8 g g, bes(b) g~ |
-    g4 r4 r2 | R1*3 |
-    r4 b' b8 b4 a8( |
-    g4) g a8 b4 a8~( |
-    a g4.) r4. g8~ |
-    g4 g8 g a, bes b g~ |
-    g4 r4 r2 | R1*3 |
+	r4 b b8 b4 a8( |
+	g4) g a8 b4 a8~( |
+	a8 g4.) r4.
+    }
+% IF kav \transpose c c'
+    \relative {
+	g'8~ |
+	g4 g8 g g, bes(b) g~ |
+	g4 r4 r2 | R1*3 |
+    }
+    \relative {
+	r4 b' b8 b4 a8( |
+	g4) g a8 b4 a8~( |
+	a g4.) r4.
+    }
+% IF kav \transpose c c'
+    \relative {
+	g'8~ |
+	g4 g8 g a, bes b g~ |
+	g4 r4 r2 | R1*3 |
+    }
 \mymark "Chorus 2" #65
-    r4 e'' g,8 g g4 |
-    r4 f' g,8 g g4 |
-    r4 bes8 g bes4 g8 bes~ |
-    bes bes bes4 bes8 b4 b8( |
-    g4) e' g,8 g g4 |
-    r4 f' g,8 g g4 |
-    r4 bes8 g bes4 g8 bes~ |
-    bes bes bes4 bes8 b4 b8( |
-    g4) e' g,8 g g4 |
-    r4 f' g,8 g g4 |
-    r4 bes8 g bes4 g8 bes~ |
-    bes bes bes4 bes8 b4 b8( |
-    g4) e' g,8 g g4 |
-    r4 f' g,8 g g4 |
-    r4 bes8 g bes4 g8 bes~ |
-    bes bes bes4 bes8 b4 b8( |
+    \relative {
+	r4 e'' g,8 g g4 |
+	r4 f' g,8 g g4 |
+	r4 bes8 g bes4 g8 bes~ |
+	bes bes bes4 bes8 b4 b8( |
+	g4) e' g,8 g g4 |
+	r4 f' g,8 g g4 |
+	r4 bes8 g bes4 g8 bes~ |
+	bes bes bes4 bes8 b4 b8( |
+	g4) e' g,8 g g4 |
+	r4 f' g,8 g g4 |
+	r4 bes8 g bes4 g8 bes~ |
+	bes bes bes4 bes8 b4 b8( |
+	g4) e' g,8 g g4 |
+	r4 f' g,8 g g4 |
+	r4 bes8 g bes4 g8 bes~ |
+	bes bes bes4 bes8 b4 b8( |
 \mymark "Chorus Lead-out" #81
-    g4) r r2 R1*7 |
+	g4) r r2 R1*7 |
 \mymark "Interlude" #89
-    R1*8 |
+	R1*8 |
 \mymark "Prechorus" #97
-    R1*8 |
+	R1*8 |
 \mymark "Bridge" #105
-    d'4 c8 b g4 bes8 c | d4   c8 b   g2 |
-    d'4 c8 b g4 g8   g | bes4 bes    b2 |
-    d4  c8 b g4 bes8 c | d4   c8 b   g2 |
-    d'4 c8 b g4 g      | bes4 bes8 g b2 |
-    d4  c8 b g4 bes8 c | d4   c8 b   g2 |
-    d'4 c8 b g4 g8   g | bes4 bes    b2 |
-    d4  c8 b g4 bes8 c | d4   c8 b   g2 |
-    d'4 c8 b g4 g      | bes4 bes8 g b2 |
-    r4 e g,8 g g4 |
-    r4 f' g,8 g g4 |
-    r4 bes8 g bes4 g8 bes~ |
-    bes bes bes4 bes8 b4 b8( |
-    g4) e' g,8 g g4 |
-    r4 f' g,8 g g4 |
-    r4 bes8 g bes4 g8 bes~ |
-    bes bes bes4 bes8 b4 b8( |
-    g4) e' g,8 g g4 |
-    r4 f' g,8 g g4 |
-    r4 bes8 g bes4 g8 bes~ |
-    bes bes bes4 bes8 b4 b8( |
-    g4) e' g,8 g g4 |
-    r4 f' g,8 g g4 |
-    r4 bes8 g bes4 g8 bes~ |
-    bes bes bes4 bes8 b4 b8( |
+	d'4 c8 b g4 bes8 c | d4   c8 b   g2 |
+	d'4 c8 b g4 g8   g | bes4 bes    b2 |
+	d4  c8 b g4 bes8 c | d4   c8 b   g2 |
+	d'4 c8 b g4 g      | bes4 bes8 g b2 |
+	d4  c8 b g4 bes8 c | d4   c8 b   g2 |
+	d'4 c8 b g4 g8   g | bes4 bes    b2 |
+	d4  c8 b g4 bes8 c | d4   c8 b   g2 |
+	d'4 c8 b g4 g      | bes4 bes8 g b2 |
+	r4 e g,8 g g4 |
+	r4 f' g,8 g g4 |
+	r4 bes8 g bes4 g8 bes~ |
+	bes bes bes4 bes8 b4 b8( |
+	g4) e' g,8 g g4 |
+	r4 f' g,8 g g4 |
+	r4 bes8 g bes4 g8 bes~ |
+	bes bes bes4 bes8 b4 b8( |
+	g4) e' g,8 g g4 |
+	r4 f' g,8 g g4 |
+	r4 bes8 g bes4 g8 bes~ |
+	bes bes bes4 bes8 b4 b8( |
+	g4) e' g,8 g g4 |
+	r4 f' g,8 g g4 |
+	r4 bes8 g bes4 g8 bes~ |
+	bes bes bes4 bes8 b4 b8( |
 \mymark "Outro" #137
-    g4) r4 r2 | R1*4 |
+	g4) r4 r2 | R1*4 |
 \mybarNumberCheck #142
+    }
 }
