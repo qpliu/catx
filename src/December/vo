@@ -8,7 +8,7 @@ voPart = {
 	g4) g a8 b4 a8~( |
 	a8 g4.) r4
     }
-% IF kav|midi \transpose c c'
+% IF kav|midiKaraoke \transpose c c'
     \relative {
 	bes8 g'~ |
 	g g g g g, bes(b) g~ |
@@ -19,7 +19,7 @@ voPart = {
 	g4) g a8 b4 a8~( |
 	a g4.) r4
     }
-% IF kav|midi \transpose c c'
+% IF kav|midiKaraoke \transpose c c'
     \relative {
 	bes8 g'~ |
 	g4 g8 g a, bes b g~ |
@@ -43,7 +43,7 @@ voPart = {
 	g4) g a8 b4 a8~( |
 	a8 g4.) r4.
     }
-% IF kav|midi \transpose c c'
+% IF kav|midiKaraoke \transpose c c'
     \relative {
 	g'8~ |
 	g4 g8 g g, bes(b) g~ |
@@ -54,7 +54,7 @@ voPart = {
 	g4) g a8 b4 a8~( |
 	a g4.) r4.
     }
-% IF kav|midi \transpose c c'
+% IF kav|midiKaraoke \transpose c c'
     \relative {
 	g'8~ |
 	g4 g8 g a, bes b g~ |

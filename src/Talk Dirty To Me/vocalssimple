@@ -88,14 +88,14 @@ vocalssimple = \new Voice = "vosimple" { \transpose ees e {
     r4 ces''4 bes'8 aes' ges' ges' |
     r1 |
     r2 r8
-% IF midi \new NullVoice
+% IF midi.* \new NullVoice
     {
 	\undomyVocalsStuff
 	\deadNote bes'8 \deadNote bes'4 |
 	\myVocalsStuff
     }
 \mymark "Solo" #93
-% IF midi \new NullVoice
+% IF midi.* \new NullVoice
     {
 	\undomyVocalsStuff
 	\deadNote bes'8 \deadNote bes'8 \deadNote bes'8 \deadNote bes'8 \deadNote bes'4 \deadNote bes'8 \deadNote bes'8 |

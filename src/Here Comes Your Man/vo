@@ -15,7 +15,7 @@ voPart = {
 	r8 fis8 fis fis g4 fis |
     }
     << \relative { \voiceOne
-% IF midi \new NullVoice
+% IF midi.* \new NullVoice
 	{ s4 \tiny \grace e''8( f4) e8( d) \grace e8( f4) | e2 \normalsize }
     } \new Voice \relative { \voiceTwo
 	\myVocalsStuff
@@ -42,7 +42,7 @@ voPart = {
 	r8 fis fis fis g4 fis |
     }
     << \relative { \voiceOne
-% IF midi \new NullVoice
+% IF midi.* \new NullVoice
 	{ s4 \tiny \grace e''8( f4) e8( d) \grace e8( f4) | e2 \normalsize }
     } \new Voice \relative { \voiceTwo
 	\myVocalsStuff
@@ -68,7 +68,7 @@ voPart = {
 	r8 fis, fis fis g4 fis |
     }
     << \relative { \voiceOne
-% IF midi \new NullVoice
+% IF midi.* \new NullVoice
 	{ s4 \tiny \grace e''8( f4) e8( d) \grace e8( f4) | e2 \normalsize }
     } \new Voice \relative { \voiceTwo
 	\myVocalsStuff
