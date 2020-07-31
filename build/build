@@ -67,7 +67,7 @@ do
     mkdir "../src-$part"
     for a in *
     do
-	sed "s/^%[ 	]*IF[ 	][ 	]*$part[ 	]//;s/^%[ 	]*IFNOT[ 	][ 	]*$part[ 	]/% /;s/^%[ 	]*IFNOT[ 	][ 	]*[^ 	]*//"  <"$a" >"../src-$part/$a"
+	../../doif.py <"$a" >"../src-$part/$a" "$part"
     done
     cd "../src-$part"
     if test "x$part" = "xmidi"

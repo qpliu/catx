@@ -293,5 +293,12 @@ yestext = <<
 >>
 
 %midimusic = \notext
-midimusic = \yestext
+%midimusic = \yestext
 %midimusic = \drumstuff
+midimusic = \new DrumStaff \drummode {
+    \tempo 4 = 110
+    \repeat unfold 10 {
+	bd4 sn4 bd4 sn4 |
+	bd4 sn4 bd8 sn8 sn sn16 sn |
+    }
+}
