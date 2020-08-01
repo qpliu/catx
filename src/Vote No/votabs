@@ -1,0 +1,17 @@
+voPart = \new Voice = "vo" { \transpose c c' {
+    \myVocalsStuff
+    r8 3-4t 3t 4t r 4t 3t 4t |
+    r8 3-4t 3t 4t 2-3t t t 3-4t |
+    r8 3-4t 3t 4t r 4t 3t 4t |
+    r8 3-4t 3t 4t 2-3t t t 3-4t |
+    r8 2-4t 3t 4t r 4t 3t 4t |
+    r8 2-4t 2t 4t 5t 7t 4t 2t |
+    r8 1-2t 1t 2t r 2t 1t 2t |
+    r8 1-2t 0t 2t 3t t 2t 0t |
+    1-4t2. r8 t |
+    r8 1-4t 2t16( 0t8.) r8 1-4t 2t16( 0t8.) |
+\mymark "Solo" #11
+    s1 s1 s1 s1 s1 s1 |
+\mybarNumberCheck #17
+    s1 \bar "|."
+}}

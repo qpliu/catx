@@ -1,0 +1,10 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \tempo 4 = 76
+    \key cis \minor
+    s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 |
+\mymark "Solo" #11
+    s1 s1 s1 s1 s1 s1 |
+\mybarNumberCheck #17
+    s1 \bar "|."
+}

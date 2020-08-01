@@ -1,0 +1,23 @@
+drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+    <bd cymc>8 <bd cymc> <hho sn> hho <bd hho> <bd hho> <sn hho> hho |
+    <bd hho>8 <bd hho> <hho sn> hho <bd hho> <bd hho> <sn hho> hho |
+    <bd hho>16 bd <bd hho>8 <hho sn> hho <bd hho> <bd hho> <sn hho> hho |
+    <bd hho>8 <bd hho> <hho sn> hho <bd hho> <bd hho> <sn hho> hho |
+    <bd hho>16 bd <bd hho>8 <hho sn> hho <bd hho> <bd hho> <sn hho> hho |
+    <bd hho>8 <bd hho> <hho sn> hho <bd hho> <bd hho> sn16 bd sn bd |
+    <bd cymc>8 <bd cymc> <hho sn> hho <bd cymc>8 <bd cymc> <hho sn> hho |
+    <bd hho>8 <bd hho> <hho sn> hho <bd tomfl sn>16 <bd tomfl sn> <bd tomfl sn> <bd tomfl sn> <bd tomfl sn> <bd tomfl sn> <bd tomfl sn> <bd tomfl sn> |
+    <bd cymc>8 hho <hho sn> <bd cymc> hho <bd hho> <hho sn> hho |
+    <bd hho>8 hho <hho sn> <bd hho> hho <bd hho> <hho sn> hho |
+\mymark "Solo" #11
+    <bd cymc>8 hho16 bd <hho sn>8 <bd hho> hho <bd hho> <hho sn> hho |
+    <bd hho>8 hho16 bd <hho sn>8 <bd hho> hho <bd hho> <hho sn> hho |
+    <bd cymc>8 hho16 bd <hho sn>8 <bd hho> hho <bd hho> <hho sn> hho |
+    <bd hho>8 hho16 bd <hho sn>8 <bd hho> hho <bd hho> <hho sn> hho |
+    <bd cymc>8 <bd cymc>16 bd <cymc sn>8 cymc <bd cymc> <bd cymc>16 bd <cymc sn>8 cymc |
+    <bd cymc>8 <bd cymc>16 bd <cymc sn>8 cymc <bd sn>16 sn sn sn <bd sn> sn sn sn |
+\mybarNumberCheck #17
+    <bd cymc>1 |
+}

@@ -1,0 +1,22 @@
+bassPart = {
+% tuning e,, a,, d, g,
+    4-7t8 t r t 6t t r t |
+    4-0t8 t r t 3t t r t |
+    4-7t8 t r t 6t t r t |
+    4-0t8 t r t 3t t r t |
+    4-7t8 t r t 6t t r t |
+    4-0t8 t r t 3t t r t |
+    4-7t8 t r t 6t t r t |
+    4-0t8 t r t 3t16 t t t t t t t |
+    3-4t4. 4-4t4 t t8 |
+    4-5t4. 0t4 t t8 |
+\mymark "Solo" #11
+    3-4t4. 4-4t4 t t8 |
+    4-5t4. 0t4 t t8 |
+    3-4t4. 4-4t4 t t8 |
+    4-5t4. 0t4 t t8 |
+    3-4t8 t t t 4-4t t t t |
+    4-5t8 t t t4. r4 |
+\mybarNumberCheck #17
+    4-0t1 |
+}
