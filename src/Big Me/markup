@@ -1,25 +1,35 @@
 markupStuff = {
     \override Score.RehearsalMark.self-alignment-X = #LEFT
-    \tempo 4 = 133
-    \mark "Intro"
-    s1 s1 s1 s1
-    \mark "Verse 1"
-    s1 s1 s1 s1
-    \mark "Pre-Chorus"
+    \tempo 4 = 129
+\mymark "Intro" #1
     s1 s1 s1 s1
     s1 s1 s1 s1
-    \mark "Chorus"
+\mymark "Verse 1" #9
     s1 s1 s1 s1
     s1 s1 s1 s1
-    \mark "Verse 2"
-    s1 s1 s1 s1
-    \mark "Pre-Chorus"
+\mymark "Pre-Chorus" #17
     s1 s1 s1 s1
     s1 s1 s1 s1
-    \mark "Chorus"
+\mymark "Chorus" #25
     s1 s1 s1 s1
     s1 s1 s1 s1
-    \mark "Outro-Chorus"
+\mymark "Verse 2" #33
     s1 s1 s1 s1
     s1 s1 s1 s1
+\mymark "Pre-Chorus" #41
+    s1 s1 s1 s1
+    s1 s1 s1 s1
+\mymark "Chorus" #49
+    s1 s1 s1 s1
+    s1 s1 s1 s1
+\mymark "Outro-Chorus" #57
+    s1 s1 s1 s1
+    s1 s1 s1 s1
+    s1
+    \tempo 4 = 109
+    s1
+    \tempo 4 = 89
+    s1
+    s1
+\mybarNumberCheck #69
 }

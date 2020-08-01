@@ -1,0 +1,96 @@
+voPart = {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \relative {
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r2 r8 c' d4 |
+    }
+\mymark "Verse 1" #9
+    \relative {
+        e'8 d4 c a8 r4 |
+        e'8 d4 d4. r4 |
+        e8 d4 c d c8~ |
+        c4 r4. c8 d4 |
+        e8 d4 c a8 r4 |
+        e'8 d4 d4. r4 |
+        e8 d4 c d c8~ |
+        c4 r2. |
+    }
+\mymark "Pre-Chorus" #17
+    \relative {
+        r4 b b4. b8 |
+        c8 d4 c g8 r4 |
+        e'8 d4 c4. g8 e'~ |
+        e4 r2. |
+        r4 b b4. b8 |
+        c8 d4 c g8 r4 |
+        c8 d4 c4. a8 g~ |
+        g4 r4. c8 d4 |
+    }
+\mymark "Chorus" #25
+    \relative {
+        e'8 d4 c a8 r4 |
+        e'8 d4 d4. r4 |
+        e8 d4 c d c8~ |
+        c4 r4. c8 d e~ |
+        e4 r2. |
+        r8 e4 d d c8~ |
+        c4 r2. |
+        r2 r8 c d4 |
+    }
+\mymark "Verse 2" #33
+    \relative {
+        e'8 d4 c a8 r4 |
+        e'8 d4 d4. r4 |
+        e8 d4 c d c8~ |
+        c4 r4. c8 e4 |
+        e8 d4 c a8 r4 |
+        e'8 d4 d4. r4 |
+        e8 d4 c d c8~ |
+        c4 r2. |
+    }
+\mymark "Pre-Chorus" #41
+    \relative {
+        r4 b b4. b8 |
+        c8 d4 c g8 r4 |
+        e'8 d4 c4. g8 e'~ |
+        e4 r2. |
+        r4 b b4. b8 |
+        c8 d4 c g8 r4 |
+        c8 d4 c4. a8 g~ |
+        g4 r4. c8 d4 |
+    }
+\mymark "Chorus" #49
+    \relative {
+        e'8 d4 c a8 r4 |
+        e'8 d4 d4. r4 |
+        e8 d4 c d c8~ |
+        c4 r4. c8 d e~ |
+        e4 r2. |
+        r8 e4 d d c8~ |
+        c4 r2. |
+        r2 r8 c d4 |
+    }
+\mymark "Outro-Chorus" #57
+    \relative {
+        e'8 d4 c g8 r4 |
+        e'8 d4 d4. r4 |
+        d8 e4 c d c8~ |
+        c4 r4. c8 d e~ |
+        e4 r2. |
+        r8 e4 d d c8~ |
+        c4 r2. |
+        r8 e4 d d c8~ |
+        c4 r2. |
+        r8 e4 d c4.~ |
+        c4 c r2 |
+        r1 |
+        r1 |
+    }
+}

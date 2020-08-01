@@ -1,0 +1,90 @@
+bassPart =
+{
+% url: -
+% artist: Foo Fighters
+% title: Big Me
+% instrument: Electric Bass (pick)
+% name: Dave Grohl
+    \time 4/4
+    \tempo 4 = 129
+\mymark "Intro" #1
+% tuning e,, a,, d, g,
+    3-3t4. t4 2-5t8 t 3-3t |
+    4-5t4. 3-7t4 4-5t8 t 4t |
+    4-3t4. t4 5t8 t 3t |
+    4-1t8 t t t t t t 0t |
+    3-3t4. t4 2-5t8 t 3-3t |
+    4-5t4. 3-7t4 4-5t8 t 4t |
+    4-3t4. t4 5t8 t 3t |
+    4-1t8 t t t t t t 0t |
+\mymark "Verse 1" #9
+    3-3t4. t4 2-5t8 t 3-3t |
+    4-5t4. 3-7t4 4-5t8 t 4t |
+    4-3t4. t4 5t8 t 3t |
+    4-1t8 t t t t t t 0t |
+    3-3t4. t4 2-5t8 t 3-3t |
+    4-5t4. 3-7t4 4-5t8 t 4t |
+    4-3t4. t4 5t8 t 3t |
+    4-1t8 t t t t t t 0t |
+\mymark "Pre-Chorus" #17
+    3-7t4 t8 t t t t t |
+    3-8t8 t t t t t t 0t |
+    3-3t4. t4 t8 t t |
+    3-3t8 t t t4 t8 t t |
+    3-7t4 t8 t t t t t |
+    3-8t8 t t t t t t t |
+    3-8t4. t4 t8 t t |
+    3-10t8 t t t t t t 0t |
+\mymark "Chorus" #25
+    3-3t4. t4 2-5t8 t 3-3t |
+    4-5t4. 3-7t4 4-5t8 t 4t |
+    4-3t4. t4 5t8 t 3t |
+    4-1t8 t t t t t t 0t |
+    3-3t4. t4 t8 t 4-0t |
+    4-3t4 t8 0t 1t4 t8 0t |
+    3-3t4. t4 t8 t4 |
+    3-3t8 4-3t t t t t t t |
+\mymark "Verse 2" #33
+    3-3t4. t4 2-5t8 t 3-3t |
+    4-5t4. 3-7t4 4-5t8 t 4t |
+    4-3t4. t4 5t8 t 3t |
+    4-1t8 t t t t t t 0t |
+    3-3t4. t4 2-5t8 t 3-3t |
+    4-5t4. 3-7t4 4-5t8 t 4t |
+    4-3t4. t4 5t8 t 3t |
+    4-1t8 t t t t t t 0t |
+\mymark "Pre-Chorus" #41
+    3-7t4 t8 t t t t t |
+    3-8t8 t t t t t t 0t |
+    3-3t4. t4 t8 t t |
+    3-3t8 t t t4 t8 t t |
+    3-7t4 t8 t t t t t |
+    3-8t8 t t t t t t 7t |
+    3-8t4. t4 t8 t t |
+    3-10t8 t t t t t t 0t |
+\mymark "Chorus" #49
+    3-3t4. t4 2-5t8 t 3-3t |
+    4-5t4. 3-7t4 4-5t8 t 4t |
+    4-3t4. t4 5t8 t 3t |
+    4-1t8 t t t t t t 0t |
+    3-3t4. t4 t8 t 4-0t |
+    4-3t4 t8 0t 1t4 t8 0t |
+    3-3t4. t4 t8 t4 |
+    3-3t8 4-3t t t t t t t |
+\mymark "Outro-Chorus" #57
+    3-3t4. t4 2-5t8 t 3-3t |
+    4-5t4. 3-7t4 4-5t8 t 4t |
+    4-3t4. t4 5t8 t 3t |
+    4-1t8 t t t t t t 0t |
+    3-3t4. t4 t8 t 4-0t |
+    4-3t4 t8 0t 1t4 t8 0t |
+    3-3t4. t4 t8 t 4-0t |
+    4-3t4 t8 0t 1t4 t8 0t |
+    3-3t4. t4 t8 t 4-0t |
+    \tempo 4 = 109
+    4-3t4 t8 0t 1t4 t8 0t |
+    \tempo 4 = 89
+    3-3t1~ |
+    3-3t2 g3t4 g15t~ |
+    3-g15t1 |
+}
