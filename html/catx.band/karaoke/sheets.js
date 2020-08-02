@@ -72,12 +72,14 @@ class Sheets{
 	}
 	if (measureNumber==undefined)
 	    return;
-	let turns=this.pageTurns[this.who];
-	if (!turns && this.pages.length>2 && this.measuresInSong){
+	let turns;
+	if (this.pages.length>2 && this.measuresInSong){
 	    turns = [];
-	    for (let p=1; p<this.pages.length; p++)
-		turns.push([(p+.5)/(this.pages.length-.5)*this.measuresInSong,1]);
+	    for (let p=2; p<this.pages.length; p++)
+		turns.push([Math.floor((p-.5)/(this.pages.length-.5)*this.measuresInSong),1]);
+	    console.log("computed turns="+turns);
 	}
+	turns = this.pageTurns[this.who]||turns;
 	if (turns){
 	    let p=[0,1];
 	    let lr=0;

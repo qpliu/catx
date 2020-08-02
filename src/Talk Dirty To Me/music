@@ -1,5 +1,5 @@
 % BIN midi all kav susan gg peter
-% ROBOT pageTurns={"kav":[[30,1],[45,1],[61,1],[75,1],[91,1],[107,1]],"susan":[[29,1],[44,1],[60,1],[75,1],[87,1],[103,1]]}
+% ROBOT pageTurns={"susan":[[29,1],[44,1],[60,1],[75,1],[87,1],[103,1]]}
 
 \header {
     title = "Talk Dirty To Me"
