@@ -28,7 +28,6 @@ class Sheets{
 	    this.old_page_l = 0;
 	    this.old_page_r = 1;
 	    this.animateStart = 0;
-	    this.measuresInSong = 0;
 	}
 	this.loadPages();
     }
@@ -36,9 +35,6 @@ class Sheets{
 	const i=beat.indexOf(":");
 	if (i!=-1)
 	    this.measureEvents.push({t:time,m:Number(beat.slice(0,i))});
-	const j=beat.indexOf("/");
-	if (j!=-1)
-	    this.measuresInSong = Number(beat.slice(j+1));
     }
     turnPage(dir){
 	this.old_page_l = this.page_l;
@@ -72,14 +68,7 @@ class Sheets{
 	}
 	if (measureNumber==undefined)
 	    return;
-	let turns;
-	if (this.pages.length>2 && this.measuresInSong){
-	    turns = [];
-	    for (let p=2; p<this.pages.length; p++)
-		turns.push([Math.floor((p-.5)/(this.pages.length-.5)*this.measuresInSong),1]);
-	    console.log("computed turns="+turns);
-	}
-	turns = this.pageTurns[this.who]||turns;
+	const turns=this.pageTurns[this.who];
 	if (turns){
 	    let p=[0,1];
 	    let lr=0;

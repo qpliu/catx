@@ -1,6 +1,6 @@
 % BIN midi all susan kav gg peter
 % ROBOT pickup_measures=1
-% ROBOT pageTurns={"susan":[[20,1],[32,-2],[38,1],[48,1],[63,1]]}
+% ROBOT pageTurns={"susan":[[56,1]]}
 
 \header {
     title = "Have You Ever Seen The Rain"

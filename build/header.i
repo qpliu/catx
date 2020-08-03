@@ -12,7 +12,7 @@ undomyVocalsStuff={}
 
 % IF kav #(set-global-staff-size 30)
 
-% IF susan #(set-global-staff-size 50)
+% IF susan #(set-global-staff-size 40)
 % IF susan myVocalsStuff={\easyHeadsOn \huge} undomyVocalsStuff={\easyHeadsOff \normalsize}
 
 \paper {

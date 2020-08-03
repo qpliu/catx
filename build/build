@@ -59,8 +59,8 @@ do
 	ffmpeg </dev/null -loglevel 16 -i "$a" "$b".wav
     fi
 done
-echo "name=$name" >"../bin/$name.aarin"
-sed <music -n -e 's/^% ROBOT \(.*\)$/\1/p' >>"../bin/$name.aarin"
+echo "name=$name" >../bin/out.aarin
+sed <music -n -e 's/^% ROBOT \(.*\)$/\1/p' >>../bin/out.aarin
 MIDIMERGE=`sed <music -n -e 's/^% MIDIMERGE \(.*\)$/\1/p'`
 for part in $PARTS
 do
@@ -75,7 +75,7 @@ do
 		../../doif.py <"$a" >"../src-$midi/$a" "$midi"
 	    done
 	    cd "../src-$midi"
-	    cat <<EOF >"$name-$midi.ly"
+	    cat <<EOF >in.ly
 \version "2.20.0"
 \include "articulate.ly"
 \include "header.i"
@@ -85,11 +85,11 @@ do
 \midi { }
 }
 EOF
-	    lilypond -l WARN -o "$midi" "$name-$midi.ly"
+	    lilypond -l WARN -o out in.ly
 	    cd ../src
-	    merge="$merge ../src-$midi/$midi.midi"
+	    merge="$merge ../src-$midi/out.midi"
 	done
-	java -cp ../java MergeMidi $merge >"$name.midi"
+	java -cp ../java MergeMidi $merge >out.midi
         if test "$HAVE_TIMIDITY" = 0 -a "$HAVE_FFMPEG" = 0
 	then
 	    TIMIDITY_EXTRA_CFG="-c timidity_extra_silence.cfg"
@@ -97,14 +97,14 @@ EOF
 	    then
 		TIMIDITY_EXTRA_CFG="$TIMIDITY_EXTRA_CFG -c timidity_extra.cfg"
 	    fi
-	    timidity $TIMIDITY_EXTRA_CFG -OF -o "$name.flac" -A400 "$name.midi"
-	    ffmpeg </dev/null -loglevel 16 -i "$name.flac" "$name.mp3"
-	    cp "$name.midi" ../bin
+	    timidity $TIMIDITY_EXTRA_CFG -OF -o out.flac -A400 out.midi
+	    ffmpeg </dev/null -loglevel 16 -i out.flac out.mp3
+	    cp out.midi "../bin/$name.midi"
 	    if test -d /share/music
 	    then
-		cp "$name.mp3" /share/music/mp3
-		cp "$name.midi" "/share/music/midi/$name.midi"
-		echo "midi_file=../midi/$name.midi" >>../bin/"$name.aarin"
+		cp out.mp3 "/share/music/mp3/$name.mp3"
+		cp out.midi "/share/music/midi/$name.midi"
+		echo "midi_file=../midi/$name.midi" >>../bin/out.aarin
 	    fi
         fi
     else
@@ -114,9 +114,8 @@ EOF
 	    ../../doif.py <"$a" >"../src-$part/$a" "$part"
 	done
 	cd "../src-$part"
-	n="${name}_$part"
 	part1=`echo $part|sed 's/1/One/g;s/2/Two/g;s/3/Three/g;s/4/Four/g;s/5/Five/g;s/6/Six/g;s/7/Seven/g;s/8/Eight/g'`
-	cat <<EOF >"$n.ly"
+	cat <<EOF >in.ly
 \version "2.20.0"
 \include "header.i"
 \include "music"
@@ -129,21 +128,21 @@ EOF
 }
 }
 EOF
-	lilypond -l WARN -o "$n" "$n.ly"
-	cp "$n.pdf" "../bin/$n.pdf"
+	lilypond -l WARN -o out in.ly
+	cp out.pdf "../bin/${name}_${part}.pdf"
 	if test "$part" = gg
 	then
-	    echo "default_pdf_file=../pdf/$name/$part.pdf" >>"../bin/$name.aarin"
+	    echo "default_pdf_file=../pdf/$name/$part.pdf" >>../bin/out.aarin
 	fi
-	echo "pdf_file=../pdf/$name/$part.pdf" >>"../bin/$name.aarin"
+	echo "pdf_file=../pdf/$name/$part.pdf" >>../bin/out.aarin
 	if test -d /share/music
 	then
 	    mkdir -p "/share/music/pdf/$name"
-	    cp "$n.pdf" "/share/music/pdf/$name/$part.pdf"
+	    cp out.pdf "/share/music/pdf/$name/$part.pdf"
 	    rm -rf "/share/music/svg/$name/$part"
 	    mkdir -p "/share/music/svg/$name/$part"
 	    page=1
-	    while pdf2svg "$n.pdf" "temp.svg" $page
+	    while pdf2svg out.pdf "temp.svg" $page
 	    do
 		gzip <temp.svg >"/share/music/svg/$name/$part/$page.svg.gz"
 		page=`echo print $page+1|python`
@@ -152,7 +151,9 @@ EOF
     fi
     cd ../src
 done
+cd ..
+../makePageTurns >>bin/out.aarin
 if test -d /share/music
 then
-    cp "../bin/$name.aarin" /share/music/aarin
+    cp bin/out.aarin "/share/music/aarin/$name.aarin"
 fi

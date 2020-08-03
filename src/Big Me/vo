@@ -49,7 +49,7 @@ voPart = {
         e'8 d4 c a8 r4 |
         e'8 d4 d4. r4 |
         e8 d4 c d c8~ |
-        c4 r4. c8 e4 |
+        c4 r4. c8 d4 |
         e8 d4 c a8 r4 |
         e'8 d4 d4. r4 |
         e8 d4 c d c8~ |
@@ -81,7 +81,7 @@ voPart = {
     \relative {
         e'8 d4 c g8 r4 |
         e'8 d4 d4. r4 |
-        d8 e4 c d c8~ |
+        e8 d4 c d c8~ |
         c4 r4. c8 d e~ |
         e4 r2. |
         r8 e4 d d c8~ |
