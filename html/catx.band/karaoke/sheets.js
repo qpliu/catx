@@ -19,8 +19,9 @@ class Sheets{
 	this.checkWho();
     }
     checkWho(){
-	if (settings.who!=this.who){
-	    this.who = settings.who;
+	const who=!this.pageTurns||settings.who in this.pageTurns?settings.who:Object.keys(this.pageTurns)[0];
+	if (who!=this.who){
+	    this.who = who;
 	    this.span.innerHTML = "";
 	    this.pages = []
 	    this.page_l = 0;
