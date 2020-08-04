@@ -1,12 +1,4 @@
-bassPart =
-{
-% url: -
-% artist: Foo Fighters
-% title: Big Me
-% instrument: Electric Bass (pick)
-% name: Dave Grohl
-    \time 4/4
-    \tempo 4 = 129
+bassPart = {
 \mymark "Intro" #1
 % tuning e,, a,, d, g,
     3-3t4. t4 2-5t8 t 3-3t |
@@ -81,10 +73,8 @@ bassPart =
     3-3t4. t4 t8 t 4-0t |
     4-3t4 t8 0t 1t4 t8 0t |
     3-3t4. t4 t8 t 4-0t |
-    \tempo 4 = 109
     4-3t4 t8 0t 1t4 t8 0t |
-    \tempo 4 = 89
     3-3t1~ |
-    3-3t2 r |
-    r1 |
+    3-3t2 g3t4 \glissando g15t~ |
+    3-g15t1 |
 }

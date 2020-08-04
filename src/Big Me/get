@@ -3,4 +3,4 @@ WHERE="/share/mirror/songsterr/stuff/d-keep/d-Foo Fighters/d-Big Me-s7725/d-r358
 #gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --no-string-numbers --name voPart --output-relative - >generated-vo
 #gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --no-string-numbers --shift 3/2 --name voLyrics --lyrics - >generated-lyrics
 gzip -d <"$WHERE/z-t2"|java -jar ../../songsterrToLy/1.jar --name guitarPart --output-tabs - >generated-guitartabs
-gzip -d <"$WHERE/z-t3"|java -jar ../../songsterrToLy/1.jar --name bassPart --output-tabs --no-ghost-notes - >generated-basstabs
+#gzip -d <"$WHERE/z-t3"|java -jar ../../songsterrToLy/1.jar --name bassPart --output-tabs - >generated-basstabs

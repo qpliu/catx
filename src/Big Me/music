@@ -7,7 +7,8 @@
 
 \include "markup"
 \include "drs"
-\include "generated-bass"
+\include "bass"
+\include "basstext_midi"
 \include "generated-guitar"
 \include "vo"
 \include "lyrics"
@@ -77,7 +78,8 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
     } \guitarPart
-    \tag #'(midiOne) \new Staff \with {
+    \tag #'(midiOne) \new Staff = "basstext" \midibassText
+    \tag #'(midiOne) \new Staff = "bass" \with {
 	midiInstrument = #"electric bass (pick)"
     } \bassPart
     \tag #'(midiKaraoke) <<
