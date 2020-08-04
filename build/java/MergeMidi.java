@@ -502,7 +502,8 @@ final class MergeMidi{
 	    int lastProgram=-1;
 	    OutputChannel(int number){
 		this.number = number;
-		setRpn(0,0,(int)(BEND_RANGE*128+.5));
+		add(0,-1,0xe0,0,0x40);
+		addSetRpn(0,0,(int)(BEND_RANGE*128+.5));
 	    }
 	    void add(long time,int outTrackIndex,int one,int...bytes){
 		byte[]b=new byte[bytes.length];
@@ -510,7 +511,7 @@ final class MergeMidi{
 		    b[i] = (byte)bytes[i];
 		outputEvents.add(new OutputEvent(time,outTrackIndex,one|number,b));
 	    }
-	    void setRpn(long time,int n,int v){
+	    void addSetRpn(long time,int n,int v){
 		add(time,-1,0xb0,101,n>>7);
 		add(time,-1,0xb0,100,n&127);
 		add(time,-1,0xb0,6,v>>7);
@@ -531,7 +532,7 @@ final class MergeMidi{
 		int bend=(int)(0x2000+.5+(note.key-ikey)*0x2000/BEND_RANGE);
 		int v=Math.min((int)(note.velocity+.5),127);
 		add(note.time,note.outTrackIndex,0x90,ikey,v);
-		if (bend!=0){
+		if (bend!=0x2000){
 		    add(note.time,note.outTrackIndex,0xe0,bend&127,bend>>7);
 		    add(note.stop,note.outTrackIndex,0xe0,0,0x40);
 		}
