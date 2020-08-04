@@ -500,12 +500,15 @@ final class MergeMidi{
 	    String lastId;
 	    long lastEventTime=Integer.MIN_VALUE;
 	    int lastProgram=-1;
+	    private boolean alreadySetBendRange;
 	    OutputChannel(int number){
 		this.number = number;
-		add(0,-1,0xe0,0,0x40);
-		addSetRpn(0,0,(int)(BEND_RANGE*128+.5));
 	    }
 	    void add(long time,int outTrackIndex,int one,int...bytes){
+		if (one==0xe0 && !alreadySetBendRange){
+		    addSetRpn(0,0,(int)(BEND_RANGE*128+.5));
+		    alreadySetBendRange = true;
+		}
 		byte[]b=new byte[bytes.length];
 		for (int i=0; i<bytes.length; i++)
 		    b[i] = (byte)bytes[i];

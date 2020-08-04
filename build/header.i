@@ -180,4 +180,16 @@ mymark = #(define-music-function (parser location what nn) (markup? number?) #{ 
 
 markpage = #(define-music-function (parser location what) (markup?) #{ \tag #'(pageNumber keep) \mark #what #})
 
+
+% IF susan key = #(define-music-function (parser location a b) (scheme? scheme?) #{ #})
+
+
+\layout {
+    \context {
+	\Staff \with {
+% IF susan \accidentalStyle Score.forget
+	}
+    } 
+}
+
 \include "event-listener.ly"
