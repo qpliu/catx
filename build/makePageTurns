@@ -1,27 +1,58 @@
 #!/bin/sh
-type pdfinfo >/dev/null 2>&1||exit 0
-test -f src/measureToTime||exit 0
-out=
+set -e
+out1=
 comma1=
 for a in src-*/out.pdf
 do
     if test -f "$a"
     then
-	part=`dirname "$a"|cut -c 5-`
-	pages=`pdfinfo "$a"|sed -n -e 's/^Pages: *\([0-9]*\)$/\1/p'`
-	measures=`tail -n 1 src/measureToTime|sed -n -e 's/^measure=\([0-9]*\).*$/\1/p'`
-	out="$out$comma1\"$part\":["
-	comma1=,
+	d=`dirname "$a"`
+	part=`echo "$d"|cut -c 5-`
+	out2=
 	comma2=
-	p=2
-	while test "$p" -lt "$pages"
+	p=1
+	last=
+	bad=
+	got=
+	m=0
+	while pdftohtml -f $p -l $p "$a" "$d/html$p" >/dev/null 2>&1
 	do
-	    turn=`echo "print (2*$p-1)*$measures/(2*$pages-1)"|python`
-	    out="$out$comma2[$turn,1]"
-	    comma2=,
+	    sed <"$d/html${p}s.html" >"$d/numbers$p" -n -e 's/^\([1-9][0-9]*\)<br\/>$/\1/p'
+	    mm=
+	    while read -r n
+	    do
+		if test "$m" -lt "$n"
+		then
+		    m="$n"
+		    mm="$mm
+$n"
+		fi
+	    done <"$d/numbers$p"
+	    next=`echo "$mm"|head -n 3|tail -n 1`
+	    if test -z "$next"
+	    then
+		next=undefined
+		if test "$p" -gt 1
+		then
+		    bad=1
+		fi
+	    fi
+	    got="$got $next"
+	    if test "$p" -gt 2
+	    then
+		out2="$out2$comma2[$last,1]"
+		comma2=,
+	    fi
+	    last="$next"
 	    p=`echo "print $p+1"|python`
 	done
-	out="$out]"
+	if test -n "$bad"
+	then
+	    echo "# \"$part\":$got"
+	else
+	    out1="$out1$comma1\"$part\":[$out2]"
+	    comma1=,
+	fi
     fi
 done
-echo "generatedPageTurns={$out}"
+echo "generatedPageTurns={$out1}"

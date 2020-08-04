@@ -5,7 +5,7 @@ HAVE_FFMPEG=`type ffmpeg >/dev/null 2>&1;echo $?`
 set -e
 pwd=`pwd`
 name=`basename "$pwd"`
-if test '!' -f "../buildBin"
+if test '!' -f ../buildBin
 then
     echo "Wrong directory.  Run this from one of src/*/ directories."
     exit 1
@@ -23,7 +23,7 @@ cd ../..
 ln *.i *.wav timidity_extra_silence.cfg bin/src
 cp "../src/$name"/* bin/src
 cd bin/src
-if test -x "run_before"
+if test -x run_before
 then
     ./run_before
 fi
@@ -142,7 +142,7 @@ EOF
 	    rm -rf "/share/music/svg/$name/$part"
 	    mkdir -p "/share/music/svg/$name/$part"
 	    page=1
-	    while pdf2svg out.pdf "temp.svg" $page
+	    while pdf2svg out.pdf temp.svg $page >/dev/null 2>&1
 	    do
 		gzip <temp.svg >"/share/music/svg/$name/$part/$page.svg.gz"
 		page=`echo print $page+1|python`
