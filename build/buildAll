@@ -5,7 +5,8 @@ then
     echo "Wrong directory.  Run this from the build directory."
     exit 1
 fi
-rm -rf /share/music/mp3/*.mp3 /share/music/svg/* /share/music/pdf/* /share/music/midi/*.midi /share/music/aarin/*.aarin
+rm -rf /share/music/mp3/*.mp3 /share/music/svg/* /share/music/pdf/* /share/music/midi/*.midi /share/music/aarin/*.aarin /share/music/setlist/*
+cp ../setlist/* /share/music/setlist
 cd ../src
 for a in */music
 do
