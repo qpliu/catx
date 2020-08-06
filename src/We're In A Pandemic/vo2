@@ -1,0 +1,17 @@
+voTwoPart = \new Voice = "vo2" {
+    s1 |
+\mymark "Intro" #2
+    s1 s1 s1 s1 |
+\mymark "Pre-Chorus" #6
+    r1 |
+    r8 a'4 b'8 b'4 b'4~ |
+    b'8 c''8 c''4 r2 |
+    r8 a'4. b'4. b'8 |
+    b'8 c''8 c''4 r2 |
+    r8 a'8 a'4 b'8 b'4. |
+\mymark "Chorus-Outro" #12
+    b'8 c''8 c''4 r2 |
+    s1 s1 |
+\mybarNumberCheck #15
+    s1 \bar "|."
+}

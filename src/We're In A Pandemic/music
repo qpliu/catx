@@ -1,0 +1,106 @@
+% BIN
+
+\header {
+    title = "We're In A Pandemic"
+    composer = "music by Blue Öyster Cult"
+}
+
+\include "markup"
+\include "drs"
+\include "drs2"
+\include "eg"
+\include "eg2"
+\include "bass"
+\include "vo"
+\include "vo2"
+\include "lyrics"
+\include "lyrics2"
+
+layoutmusic = <<
+    \tag #'(allPart kavPart susanPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vocals" }
+	shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+	\markupStuff
+	\voPart
+	\voLyrics
+    >>
+    \tag #'(allPart kavPart susanPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vocals 2" }
+	shortInstrumentName = \markup { \rotate #90 "Vo2" }
+    } <<
+	\markupStuff
+	\voTwoPart
+	\voTwoLyrics
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\egPart
+    >>
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\egPart
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\egTwoPart
+    >>
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\egTwoPart
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Bass" }
+	shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } <<
+	\markupStuff
+	\clef "bass_8"
+	\bassPart
+    >>
+    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+	\markupStuff
+	\bassPart
+    >>
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drsPart
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiGg) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drsPart
+    \markupStuff
+    \tag #'(midiFour) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drsTwoPart
+    \tag #'(midiSusan) \new Staff \with {
+	midiInstrument = #"steel drums"
+    } \voPart
+    \tag #'(midiOne) \new Staff \with {
+	midiInstrument = #"electric bass (finger)"
+    } \bassPart
+    \tag #'(midiPeter) \new Staff \with {
+	midiInstrument = #"overdriven guitar"
+    } \egPart
+    \tag #'(midiTwo) \new Staff \with {
+	midiInstrument = #"overdriven guitar"
+    } \egTwoPart
+    \tag #'(midiThree) \new Staff \with {
+	midiInstrument = #"steel drums"
+    } \voTwoPart
+>>

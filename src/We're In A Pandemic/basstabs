@@ -1,0 +1,22 @@
+bassPart = {
+% tuning e,, a,, d, g,
+    s1 |
+\mymark "Intro" #2
+    r1 |
+    r1 |
+    4-5t8 t 3-7t 2-7t 4-3t t 3-5t 2-5t |
+    4-1t8 t 3-3t 2-3t 4-3t t 3-2t 3-5t |
+\mymark "Pre-Chorus" #6
+    4-1t8 t 3-3t 2-3t 4-3t t 3-2t 3-5t |
+    4-5t8 t 3-5t 3-7t 4-3t t 3-5t4 |
+    4-1t8 t 3-3t 2-3t 4-3t t 3-2t 3-5t |
+    4-5t8 t 3-5t 3-7t 4-3t t 3-5t4 |
+    4-1t8 t 3-3t 2-3t 4-3t t 3-2t 3-5t |
+    4-5t8 t 3-5t 3-7t 4-3t t 3-5t4 |
+\mymark "Chorus-Outro" #12
+    4-1t8 t 3-3t 2-3t 4-3t t 3-2t 3-5t |
+    4-5t8 t 3-7t 2-7t 4-3t t 3-5t 2-5t |
+    4-1t8 t 3-3t 2-3t 4-3t t 3-2t 3-5t |
+\mybarNumberCheck #15
+    4-5t1 |
+}

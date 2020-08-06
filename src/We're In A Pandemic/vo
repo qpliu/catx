@@ -1,0 +1,16 @@
+voPart = \new Voice = "vo" {
+    s1 |
+\mymark "Intro" #2
+    r1 r1 r1 r1 |
+\mymark "Pre-Chorus" #6
+    a'8 a' a' a' b' b' b'4 |
+    b'8 c''8 c''4 r2 |
+    a'8 a' a' a' b' b' b'4 |
+    b'8 c''8 c''4 r4. e'8 |
+    a'8 a' a' a'4 b'8 b'4 |
+    b'8 c''8 c''4 r2 |
+\mymark "Chorus-Outro" #12
+    r1 r1 r1 |
+\mybarNumberCheck #15
+    r1 \bar "|."
+}

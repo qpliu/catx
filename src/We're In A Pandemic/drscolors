@@ -1,0 +1,23 @@
+drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+    ss4 ss ss ss |
+\mymark "Intro" #2
+    r1 |
+    r2 hhp8 sn16 sn sn8 sn |
+    <bd cymc>8 <bd cymr> <cymr sn> cymr <bd cymr> <bd cymr> <cymr sn> cymr |
+    <bd cymr>8 <bd cymr> <cymr sn> cymr <bd cymr> <bd cymr> <cymr sn> cymr |
+\mymark "Pre-Chorus" #6
+    <bd cyms>8 hhc <hhc sn> hhc <bd hhc> hhc <hhc sn> hhc |
+    <bd hhc>8 hhc <hhc sn> hhc <bd hhc> hhc <hhc sn> hhc |
+    <bd hhc>8 hhc <hhc sn> hhc <bd hhc> hhc <hhc sn> hhc |
+    <bd hhc>8 hhc <hhc sn> hhc <bd hhc> hhc <hhc sn> hhc |
+    <bd hhc>8 hhc <hhc sn> hhc <bd hhc> hhc <hhc sn> hhc |
+    <bd hhc>8 hhc <hhc sn> hhc <bd hhc> hhc <hhc sn> hhc |
+\mymark "Chorus-Outro" #12
+    <bd cymr>8 <bd cymr> <cymr sn> cymr <bd cymr> <bd cymr> <cymr sn> cymr |
+    <bd cymr>8 <bd cymr> <cymr sn> cymr <bd cymr> <bd cymr> <cymr sn> cymr |
+    <bd cymr>8 <bd cymr> <cymr sn> cymr <bd cymr> <bd cymr> <cymr sn> cymr |
+\mybarNumberCheck #15
+    <bd cymc>1 |
+}

@@ -1,0 +1,13 @@
+egTwoPart = {
+    s1 |
+\mymark "Intro" #2
+    s1 s1 s1 s1 |
+\mymark "Pre-Chorus" #6
+    s1 s1 s1 s1 s1 s1 |
+\mymark "Chorus-Outro" #12
+    s1 |
+    r8 1-12t4 2-12t8 2-13t 2-12t4 2-10t8~ |
+    2-10t1~ |
+\mybarNumberCheck #15
+    2-10t1 \bar "|."
+}

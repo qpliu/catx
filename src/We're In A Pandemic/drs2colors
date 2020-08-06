@@ -1,0 +1,23 @@
+drsTwoPart = \new DrumVoice = "drsTwob" \new DrumVoice = "drsTwoa" \drummode {
+    \context DrumVoice = "drsTwoa" \voiceOne
+    \context DrumVoice = "drsTwob" \voiceTwo
+    s1 |
+\mymark "Intro" #2
+    s1 |
+    s1 |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+\mymark "Pre-Chorus" #6
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+\mymark "Chorus-Outro" #12
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+\mybarNumberCheck #15
+    s1 |
+}
