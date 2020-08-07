@@ -11,6 +11,7 @@
 \include "eg"
 \include "bass"
 \include "lyrics"
+\include "karaoke"
 
 layoutmusic = <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
@@ -69,4 +70,8 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"distorted guitar" % 30
     } \egPart
+    \tag #'(midiKaraoke) <<
+	\karaokeLyrics
+	\transpose c c, \voPart
+    >>
 >>

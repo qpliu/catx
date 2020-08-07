@@ -5,17 +5,20 @@ voPart = \new Voice = "vo" {
     r1 r1 r1 r1 |
     r1 r1 r1 r1 |
     \relative {
-	\deadNote d''4 r \deadNote d r |
-	r4 \deadNote d \deadNote d r |
-	\deadNote d4 r \deadNote d r |
-	r4 \deadNote d \deadNote d r |
-	\deadNote d4 r \deadNote d r |
-	r4 \deadNote d \deadNote d r |
-	\deadNote d4 r \deadNote d r |
-	r4 \deadNote d \deadNote d r8
-	\myVocalsStuff
+% IF midi.* \new NullVoice
+	{
+	    \deadNote d''4 r \deadNote d r |
+	    r4 \deadNote d \deadNote d r |
+	    \deadNote d4 r \deadNote d r |
+	    r4 \deadNote d \deadNote d r |
+	    \deadNote d4 r \deadNote d r |
+	    r4 \deadNote d \deadNote d r |
+	    \deadNote d4 r \deadNote d r |
+	    r4 \deadNote d \deadNote d r8
+	}
 	cis |
     }
+    \myVocalsStuff
 \mymark "Verse 1" #25
     \relative {
 	e''8 e e d cis4 e |
@@ -98,14 +101,17 @@ voPart = \new Voice = "vo" {
 \mymark "Outro" #89
     \undomyVocalsStuff
     \relative {
-	\deadNote d''4 r \deadNote d r |
-	r4 \deadNote d \deadNote d r |
-	\deadNote d4 r \deadNote d r |
-	r4 \deadNote d \deadNote d r |
-	\deadNote d4 r \deadNote d r |
-	r4 \deadNote d \deadNote d r |
-	\deadNote d4 r \deadNote d r |
-	r4 \deadNote d \deadNote d r |
+% IF midi.* \new NullVoice
+	{
+	    \deadNote d''4 r \deadNote d r |
+	    r4 \deadNote d \deadNote d r |
+	    \deadNote d4 r \deadNote d r |
+	    r4 \deadNote d \deadNote d r |
+	    \deadNote d4 r \deadNote d r |
+	    r4 \deadNote d \deadNote d r |
+	    \deadNote d4 r \deadNote d r |
+	    r4 \deadNote d \deadNote d r |
+	}
     }
 \mybarNumberCheck #97
 }
