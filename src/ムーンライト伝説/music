@@ -1,5 +1,6 @@
 % BIN midi all kav gg susan peter
 % ROBOT pickup_measures=1
+% ROBOT metronome=1+++
 
 \header {
     title = "ムーンライト伝説"

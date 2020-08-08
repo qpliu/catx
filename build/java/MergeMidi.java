@@ -747,100 +747,6 @@ final class MergeMidi{
 		System.err.println("Unused "+te);
 	}
     }
-// How to use printLyrics:
-//
-// Make lilypond file that outputs lyrics and notes to same MIDI channel.
-// Output the lyrics as 128th notes or something like that, so that they all fit.
-// Run this program.  The file "mergedlyrics" is result.
-//
-// Be sure to unroll repeats in the lyrics!
-//
-// Why we have this:
-//
-// Lilypond outputs screwed up lyrics in MIDI.
-// If I ask it to align with vocals, it outputs them with weird extra delays between each lyric.
-// This pushes some lyrics off the end of the song and Lilypond drops them.
-// When give lilypond lyrics with manual timing, it adds predictable 1/32th note delay after each
-// lyric.  If we make each lyric short enough, hopefully they don't get pushed off the end of the song.
-// If they still get pushed off the end, just pad the song.
-// This program then reads the notes and lyrics.  It ignores the timing of lyrics and aligns the lyrics
-// with the notes.
-    private void printLyrics(PrintStream ps,long maxTime){
-	int outTrackIndex=-1;
-	Deque<String>lyrics=new ArrayDeque<String>();
-	List<Event>list=new ArrayList<Event>();
-	for (MetaEvent me:metaEvents){
-	    if (me instanceof LyricEvent){
-		if (outTrackIndex!=-1 && outTrackIndex!=me.outTrackIndex)
-		    ps.println("% Got lyrics in more than one track.");
-		outTrackIndex = me.outTrackIndex;
-		lyrics.add(new String(me.data));
-	    }else if (me instanceof TimeSignatureEvent)
-		list.add(me);
-	}
-	long lastStop=-1;
-	for (Event e:events)
-	    if (e instanceof NoteEvent && e.outTrackIndex==outTrackIndex)
-		if (e.time<=lastStop)
-		    lastStop = Math.max(((NoteEvent)e).stop,lastStop);
-		else{
-		    if (lastStop!=-1)
-			list.add(new Event(lastStop,0,null,0));
-		    lastStop = -1;
-		    list.add(e);
-		}
-	if (lastStop!=-1)
-	    list.add(new Event(lastStop,0,null,0));
-	Collections.sort(list);
-	String lastLyric="-";
-	long lastTime=0;
-	int time_n=4;
-	int time_d=4;
-	long measureStart=0;
-	int measureNumber=1;
-	for (Event e:list){
-	    while (lastTime<e.time){
-		long measureEnd=measureStart+DIVISION*4*time_n/time_d;
-		long delta=Math.min(e.time,measureEnd)-lastTime;
-		lastTime += delta;
-		boolean tuplet=delta%3!=0;
-		if (tuplet){
-		    ps.print("\\tuplet 3/2 { ");
-		    delta = delta*3/2;
-		}
-		int timed=1;
-		while (4*DIVISION/timed>delta)
-		    timed <<= 1;
-		ps.print(lastLyric);
-		lastLyric = "\\skip";
-		ps.print(timed);
-		delta -= 4*DIVISION/timed;
-		if (2*DIVISION/timed==delta){
-		    ps.print('.');
-		    delta = 0;
-		}
-		ps.print(' ');
-		if (tuplet){
-		    ps.print("} ");
-		    delta = delta*2/3;
-		}
-		lastTime -= delta;
-		if (lastTime==measureEnd){
-		    ps.println("| % measure "+measureNumber++);
-		    measureStart = measureEnd;
-		}
-	    }
-	    if (e instanceof NoteEvent)
-		lastLyric = '"'+lyrics.pollFirst()+'"';
-	    else if (e instanceof TimeSignatureEvent){
-		time_n = ((TimeSignatureEvent)e).getNumerator();
-		time_d = 1<<((TimeSignatureEvent)e).getLogDenominator();
-	    }else
-		lastLyric = "-";
-	}
-	if (lyrics.size()!=0)
-	    ps.println("% Got "+lyrics.size()+" extra lyrics.");
-    }
     private void makeOutputEvents()throws IOException{
 	Collections.sort(metaEvents);
 	OutputEventMaker oem=new OutputEventMaker();
@@ -849,9 +755,6 @@ final class MergeMidi{
 	oem.makeEvents(maxTime);
 	outputEvents.add(new OutputEvent(maxTime[0],-1,0xff,(byte)0x2f,(byte)0));
 	Collections.sort(outputEvents);
-	try (PrintStream ps=new PrintStream(new FileOutputStream("mergedlryics"))){
-	    printLyrics(ps,maxTime[0]);
-	}
     }
     private void output(DataOutputStream dos,int outTrackIndex)throws IOException{
 	ByteArrayOutputStream baos=new ByteArrayOutputStream();
