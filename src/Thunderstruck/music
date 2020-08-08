@@ -1,0 +1,106 @@
+% BIN midi all kav susan gg peter
+
+\header {
+    title = "Thunderstruck"
+    composer = "AC/DC"
+}
+
+\include "markup"
+\include "guitar1"
+\include "guitar2"
+\include "guitar3"
+\include "bass"
+\include "drums"
+\include "vocals"
+\include "vocals2"
+
+layoutmusic = <<
+    \tag #'(allPart kavPart susanPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vocals" }
+	shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+	\markupStuff
+	\vocals
+	% \voLyrics
+    >>
+    \tag #'(allPart kavPart susanPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vocals2" }
+	shortInstrumentName = \markup { \rotate #90 "Vo2" }
+    } <<
+	\markupStuff
+	\vocalsTwo
+	% \voTwoLyrics
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar 1" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr1" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\guitarOne
+    >>
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\guitarOne
+    >>
+    \tag #'(allPart peterPart susanPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar 2" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr2" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\guitarTwo
+    >>
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\guitarTwo
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Bass" }
+	shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } <<
+	\markupStuff
+	\clef "bass_8"
+	\bass
+    >>
+    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+	\markupStuff
+	\bass
+    >>
+    \tag #'(allPart kavPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drum
+    >>
+    \tag #'(ggPart) \new DrumStaff \with {
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drum
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiGg) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drum
+    \tag #'(midiSusan) \new Staff \with {
+	midiInstrument = #"steel drums"
+    } \guitarTwo
+    \tag #'(midiOne) \new Staff \with {
+	midiInstrument = #"electric bass (pick)"
+    } \bass
+    \tag #'(midiPeter) \new Staff \with {
+	midiInstrument = #"distorted guitar"
+    } \guitarOne
+    \tag #'(midiTwo) \new Staff \with {
+	midiInstrument = #"tenor sax"
+    } \vocals
+    \tag #'(midiThree) \new Staff \with {
+	midiInstrument = #"tenor sax"
+    } \vocalsTwo
+>>

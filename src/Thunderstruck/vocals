@@ -1,0 +1,188 @@
+vocals =
+{
+% url: https://www.songsterr.com/a/wsa/ac-dc-thunderstruck-tab-s1352t0
+% artist: AC\u002FDC
+% title: Thunderstruck
+% instrument: Tenor Sax
+% name: Brian Johnson - Vocals
+    \time 1/4
+    \tempo 4 = 136
+\mymark "Intro" #1
+% tuning e, a, d g b e'
+    r4 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Drums Enter" #18
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bass Enters" #22
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Rhythm Guitar Enters" #30
+    <b, b>4 <b, b> r2 |
+    r1 |
+    r1 |
+    r1 |
+    <b, b>4 <b, b> r2 |
+    r1 |
+    r1 |
+    r2 r8 b' b' d''~ |
+\mymark "Verse" #38
+    d''2 r8 b' b' d'' |
+    b'8 b' b' d''4 b' a'8~ |
+    a'8 b'2 r4. |
+    r2 r8 b' b' d''~ |
+    d''2 r8 b' b' d'' |
+    r8 b' b' b'4 b'8. b' |
+    b'2~ b'8 r4. |
+    r2 r8 b'8. b' |
+    d''2 r8 b' b' d'' |
+    r4. d''4 b'8. b' |
+    a'8. b'4~ b'16 r2 |
+    r2 r8 d'' b' d''~ |
+    d''2 r8 b' b' d''~ |
+    d''16 b'4. d''8. b' b' |
+    a'4 b' r2 |
+    r2 b'8. b' b'8 |
+    b'4 r2. |
+    r2 d''8. d'' d''8 |
+    b'4 r2. |
+    r4. b'8 d''8. b'8 b'8. |
+    b'4 r2. |
+    r2 d''8. b' b'8 |
+    b'4 r2. |
+    r1 |
+    r1 |
+    d'8 b r4. d''8. b' |
+    b'2 r |
+    r1 |
+    r1 |
+    r2 b'8. d'' b'8 |
+    fis''8 fis''2 b'8. b' |
+    d''2 d''8. e'' d''8 |
+    fis''4 b' r2 |
+    r2 d''8. d'' b'8 |
+    fis''8 fis''4 r fis''8. fis'' |
+    fis''8 fis''4 e''8 fis''8. e'' d''8 |
+    b'4 r2. |
+    r2 b'8. d'' b'8 |
+    fis''4 r2 r16 b'8. |
+    d''8. e'' d'' e''8 e'' d''8. |
+    fis''4 b' r2 |
+    r2 d''8. e'' d''8 |
+    fis''4 r d''8. e'' d''8 |
+    fis''4 r fis'' fis'' |
+    fis''4 r fis''8. e'' d''8 |
+    b'2 r |
+    r2. b'8 b' |
+    d''8 d'' b' d'' fis''4 r |
+    r2. b'8 b' |
+    d''8. b' b'8 b'4 r |
+    r2. b'8 b' |
+    d''8 d'' b' d'' fis''4 r |
+    r2. d'8 b |
+    r2 r8 d''8. b' |
+\mymark "Chorus" #92
+    b'4 r2. |
+    r2 r8 d''8. b' |
+    b'4 fis'' r2 |
+    e''4 e''8. e'' d'' b' |
+    b'4 r2. |
+    b'4 d'' r8 d''8. b' |
+    b'4 r2. |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2. b'8 b' |
+    d''16 d'' b'4 d''8 fis''4 r |
+    r2. b'8 b' |
+\mymark "Solo" #107
+    d''16 d'' b'4 b'4. r4 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2 r8 b, d b, |
+    d8 d e d e4 \bendAfter #6 ^"full" e8 d |
+    r2 r8 b, d b, |
+    d8 d e d e4 \bendAfter #6 ^"full" e8 d |
+    r2 r8 b, d b, |
+    d8 d e d e4 \bendAfter #6 ^"full" e8 d |
+    r2 r8 b, d b, |
+    d8 d e d e4 \bendAfter #6 ^"full" e8 d |
+    r1 |
+    r2 r8 d''8. b' |
+\mymark "Chorus" #126
+    b'4 r2. |
+    r2 r8 d''8. b' |
+    b'4 fis'' r2 |
+    e''4 e''8. e'' d'' b' |
+    b'4 r2. |
+    b'4 d'' r8 d''8. b' |
+    b'4 r2. |
+    e''4 e'' e'' b' |
+    b'2 r8 d'' cis'' b'~ |
+    b'4 r2. |
+    d''2 r8 d'' cis'' b'~ |
+    b'4 r2. |
+    d''2 r8 d'' cis'' b'~ |
+    b'4 r2. |
+    d''2 r8 d'' cis'' b' |
+    e''4 e''8. e'' d'' b' |
+\mymark "Outro" #142
+    b'4 r2. |
+    r2 r8 <d' d''>8. <b b'> |
+    <b b'>4 fis'' r2 |
+    e''4 e''8. e'' <d' d''> <b b'> |
+    <b b'>4 fis'' r2 |
+    b'4 d'' r8 <d' d''>8. <b b'> |
+    <b b'>4 r2. |
+    e''4 e''8. e'' <d' d''> <b b'> |
+    <b b'>4 r2. |
+    r2 r8 <d' d''>8. <b b'> |
+    <b b'>4 fis'' r2 |
+    e''4 e''8. e'' <d' d''> <b b'> |
+    <b b'>4 fis'' r2 |
+    b'4 d'' r8 <d' d''>8. <b b'> |
+    <b b'>4 r2. |
+    e''4 e''8. e'' <d' d''> <b b'> |
+    \tempo 4 = 126
+    <b b'>2 r |
+    \tempo 4 = 118
+    r1 |
+    \tempo 4 = 108
+    r1 |
+    \tempo 4 = 100
+    r1 |
+    \tempo 4 = 96
+    r1 |
+}

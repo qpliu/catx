@@ -1,0 +1,188 @@
+guitarTwo =
+{
+% url: https://www.songsterr.com/a/wsa/ac-dc-thunderstruck-tab-s1352t3
+% artist: AC\u002FDC
+% title: Thunderstruck
+% instrument: Distortion Guitar
+% name: Angus Young - Lead Guitar
+    \time 1/4
+    \tempo 4 = 136
+\mymark "Intro" #1
+% tuning e, a, d g b e'
+    r8. 2-0t16 |
+    \time 4/4
+    2-4t16 0t 7t 0t 4t 0t 7t 0t 4t 0t 7t 0t 4t 0t 7t 0t |
+    2-4t16 0t 7t 0t 4t 0t 7t 0t 4t 0t 7t 0t 4t 0t 7t 0t |
+    2-5t16 0t 8t 0t 5t 0t 8t 0t 5t 0t 8t 0t 5t 0t 8t 0t |
+    2-5t16 0t 8t 0t 5t 0t 8t 0t 5t 0t 8t 0t 5t 0t 8t 0t |
+    2-4t16 0t 7t 0t 4t 0t 7t 0t 4t 0t 7t 0t 4t 0t 7t 0t |
+    2-4t16 0t 7t 0t 4t 0t 7t 0t 4t 0t 7t 0t 4t 0t 7t 0t |
+    2-5t16 0t 8t 0t 5t 0t 8t 0t 5t 0t 8t 0t 5t 0t 8t 0t |
+    2-5t16 0t 8t 0t 5t 0t 8t 0t 5t 0t 8t 0t 5t 0t 8t 0t |
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+\mymark "Drums Enter" #18
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+\mymark "Bass Enters" #22
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+\mymark "Rhythm Guitar Enters" #30
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+\mymark "Verse" #38
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+    5-2.4t2 0.2t16 6-0.2t8. r4 |
+    r8 5-0.2t8. t 6-0.2t2 |
+    5-2.4t2 0.2t16 6-0.2t8. r4 |
+    r8 5-0.2t8. t 6-0.2t2 |
+    5-2.4t2 0.2t16 6-0.2t8. r4 |
+    r8 5-0.2t8. t 6-0.2t2 |
+    5-2.4t2 0.2t16 6-0.2t8. r4 |
+    r8 5-0.2t8. t 6-0.2t2 |
+    r1 |
+    r1 |
+    5-2.4t1~ |
+    5-2.4t1~ |
+    5-2.4t1~ |
+    5-2.4t1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    5-2.4t1~ |
+    5-2.4t1~ |
+    5-2.4t1~ |
+    5-2.4t1 |
+    5-2.4t1~ |
+    5-2.4t1~ |
+    5-2.4t1~ |
+    5-2.4t1 |
+    5-2.4t1~ |
+    5-2.4t1~ |
+    5-2.4t1~ |
+    5-2.4t1 |
+    5-2.4.4t4 0.2.2t 6-0.2.2t r |
+    r2. 5-0.2.2t4 |
+    5-2.4.4t4 0.2.2t 6-0.2.2t r |
+    r2. 5-0.2.2t4 |
+    5-2.4.4t4 0.2.2t 6-0.2.2t r |
+    r2. 5-0.2.2t4 |
+    5-2.4.4t4 0.2.2t 6-0.2.2t r |
+    r1 |
+\mymark "Chorus" #92
+    5-2.4t4. 0.2t 6-g0.0.0t8 5-2.2t |
+    5-0.2t4. 6-0.2t2~ t8 |
+    5-2.4t4. 0.2t 6-g0.0.0t8 5-2.2t |
+    5-0.2t4. 6-0.2t2~ t8 |
+    5-2.4t4. 0.2t 6-g0.0.0t8 5-2.2t |
+    5-0.2t4. 6-0.2t2~ t8 |
+    5-2.4t4. 0.2t 6-g0.0.0t8 5-2.2t |
+    5-0.2t4. 6-0.2t2~ t8 |
+    5-2.4.4t1~ |
+    5-2.4.4t1 |
+    5-2.4.4t1~ |
+    5-2.4.4t1 |
+    4-4t8 2t r 5-2.4.4t2~ t8~ |
+    5-2.4.4t1 |
+    4-4t8 2t r 5-2.4.4t2~ 2~.4~.4t8 |
+\mymark "Solo" #107
+    5-2.4t4. 6-19.19t32 18.18t 17.17t 16.16t 15.15t 14.14t 13.13t 12.12t 11.11t 10.10t 9.9t 8.8t 7.7t 6.6t 5.5t 4.4t 3.3t 2.2t 1.1t r |
+    4-9.9.9t8 9.9.g9t4 9t4. 5-9t8 4-7t |
+    4-7t4. 5-g7.9.9.9t4 3-9t4. \bendAfter #6 ^"full" |
+    1-7t16 2-10t 7t 3-9t 2-7t 3-7t 4-9t4. 5-9t8 4-7t |
+    4-7t4 5-x0.x0.x0t8 4-9t4. 3-9t4~ |
+    3-9t8 \bendAfter #6 ^"full" 4-9t16 3-7t 9t8 \tuplet 3/2 { 11t16 9t 7t } r8 11t32 9t 7t 4-9t r8 3-11t32 9t 7t 4-9t |
+    3-7t4. \bendAfter #6 ^"full" 4-9t4 6-0t8 x0t 1-17t \bendAfter #6 ^"full" |
+    \tuplet 3/2 { r8 1-17t 14t 2-17t4 \bendAfter #6 ^"½" 15t8 } 17t16 \bendAfter #6 ^"full" 1-14t 17t 14t 2-17t 1-14t 2-17t8 \bendAfter #6 ^"½" |
+    2-15t16 3-16t8. 2-17t8 15t2~ t8 \bendAfter #6 ^"full" |
+    5-2.4t4. 0.2t8 r 4-9t 3-7t 4-9t |
+    3-7t4 9t8 7t 9t4 \bendAfter #6 ^"full" \tuplet 3/2 { t8 \bendAfter #6 ^"full" 7t16 } 4-9t8 |
+    5-2.4t4. 0.2t8 r 4-9t 3-7t 4-9t |
+    3-7t4 9t8 7t 9t4 \bendAfter #6 ^"full" \tuplet 3/2 { t8 \bendAfter #6 ^"full" 7t16 } 4-9t8 |
+    5-2.4t4. 0.2t8 r 4-9t 3-7.g7t 4-9t |
+    3-7.g7t4 9.g9t8 7.g7t 9.9t4 \bendAfter #6 ^"full" \bendAfter #6 ^"½" \tuplet 3/2 { 9t8 \bendAfter #6 ^"full" 7.7t16 } 4-9t8 |
+    5-2.4t4. 0.2t8 r 4-9t 3-7.g7t 4-9t |
+    3-7.g7t4 9.g9t8 7.g7t 9.9t4 \bendAfter #6 ^"full" \bendAfter #6 ^"½" \tuplet 3/2 { 9t8 \bendAfter #6 ^"full" 7.7t16 } 4-9t8~ |
+    4-9t1~ |
+    4-9t1 |
+\mymark "Chorus" #126
+    5-2.4t4. 0.2t 6-g0.0.0t8 5-2.2t |
+    5-0.2t4. 6-0.2t2~ t8 |
+    5-2.4t4. 0.2t 6-g0.0.0t8 5-2.2t |
+    5-0.2t4. 6-0.2t2~ t8 |
+    5-2.4t4. 0.2t 6-g0.0.0t8 5-2.2t |
+    5-0.2t4. 6-0.2t2~ t8 |
+    5-2.4t4. 0.2t 6-g0.0.0t8 5-2.2t |
+    5-0.2t4. 6-0.2t2~ t8 |
+    5-2.4t2~ t8 6-2t 4t 0.2t~ |
+    6-0.2t1 |
+    5-2.4t2~ t8 6-2t 4t 0.2t~ |
+    6-0.2t1 |
+    5-2.4t2~ t8 6-2t 4t 0.2t~ |
+    6-0.2t1 |
+    5-2.4t2~ t8 6-2t 4t 0.2t~ |
+    6-0.2t1 |
+\mymark "Outro" #142
+    r8 2-12t 15t 1-12t 2-15t16 12t4.~ t16~ |
+    2-12t4 r2. |
+    r8 2-15t2 \bendAfter #6 ^"1½" t8 12t 14t~ |
+    2-14t8 \bendAfter #6 ^"½" 12t4 t r4. |
+    r8 \tuplet 3/2 { 1-14t2~ } t8 \bendAfter #6 ^"1½" \tuplet 3/2 { t 13t } 12t 2-15t |
+    1-12t4 t 2-15t2 |
+    r4 2-17t2 \bendAfter #6 ^"full" 1-17t8 2-17t~ |
+    2-17t4 \bendAfter #6 ^"full" t \bendAfter #6 ^"full" r8 t \bendAfter #6 ^"full" t \bendAfter #6 ^"full" 1-17t |
+    \tuplet 3/2 { 2-17t8 \bendAfter #6 ^"full" 1-17t16 2-17t8 \bendAfter #6 ^"full" 1-17t16 2-17t8 \bendAfter #6 ^"full" 1-17t16 2-17t8 \bendAfter #6 ^"full" 1-17t16 2-17t8 \bendAfter #6 ^"full" 1-17t16 2-17t8 \bendAfter #6 ^"full" 1-17t16 } 2-17t \bendAfter #6 ^"full" 1-17t32 2-17t16 \bendAfter #6 ^"full" 1-17t32 2-17t16 \bendAfter #6 ^"full" |
+    2-17t4 \bendAfter #6 ^"full" t16 15t 3-16t4. \tuplet 3/2 { 2-15t8 17t t~ } |
+    2-17t16 \bendAfter #6 ^"½" 15t 3-16t8 \tuplet 3/2 { 2-17t 15t 17t } 15t4 1-12t32 14t16. 17t8 |
+    2-17t8 \bendAfter #6 ^"full" 1-17t16 2-17t8 \bendAfter #6 ^"full" 1-17t16 2-17t8 \bendAfter #6 ^"full" r2 |
+    1-17t8 \bendAfter #6 ^"full" t16 14t 17t8 \bendAfter #6 ^"full" t16 14t 17t8 \bendAfter #6 ^"full" t16 14t 17t8 \bendAfter #6 ^"full" t16 14t |
+    1-17t4 \bendAfter #6 ^"full" t \bendAfter #6 ^"full" t \bendAfter #6 ^"full" 22t~ |
+    1-22t8 \bendAfter #6 ^"full" t \bendAfter #6 ^"½" 19t 17t16 14t 2-17t8 \bendAfter #6 ^"½" t16 15t 3-16t8 2-17t16 3-16t |
+    2-17t4 \bendAfter #6 ^"full" 1-17t8~ 2-17.17t2 \bendAfter #6 ^"full" r8 |
+    \tempo 4 = 126
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    \tempo 4 = 118
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+    \tempo 4 = 108
+    2-12t16 0t 10t 0t 9t 0t 10t 0t 9t 0t 7t 0t 9t 0t 5t 0t |
+    \tempo 4 = 100
+    2-7t16 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t 5t 0t 4t 0t |
+    \tempo 4 = 96
+    2-0t8 r2. r8 |
+}

@@ -1,0 +1,9 @@
+#!/bin/sh
+java -jar ../../songsterrToLy/1.jar --name vocals --no-string-numbers https://www.songsterr.com/a/wsa/ac-dc-thunderstruck-tab-s1352t0 > vocals
+java -jar ../../songsterrToLy/1.jar --name vocals2 --no-string-numbers https://www.songsterr.com/a/wsa/ac-dc-thunderstruck-tab-s1352t1 > vocals2
+java -jar ../../songsterrToLy/1.jar --name guitar1 --output-tabs https://www.songsterr.com/a/wsa/ac-dc-thunderstruck-tab-s1352t2 > guitar1tabs
+java -jar ../../songsterrToLy/1.jar --name guitar2 --output-tabs https://www.songsterr.com/a/wsa/ac-dc-thunderstruck-tab-s1352t3 > guitar2tabs
+java -jar ../../songsterrToLy/1.jar --name guitar3 --output-tabs https://www.songsterr.com/a/wsa/ac-dc-thunderstruck-tab-s1352t4 > guitar3tabs
+java -jar ../../songsterrToLy/1.jar --name bass --output-tabs https://www.songsterr.com/a/wsa/ac-dc-thunderstruck-bass-tab-s1352t5 > basstabs
+java -jar ../../songsterrToLy/1.jar --name drums https://www.songsterr.com/a/wsa/ac-dc-thunderstruck-drum-tab-s1352t6 > drums
+java -jar ../../songsterrToLy/1.jar --name drums2 https://www.songsterr.com/a/wsa/ac-dc-thunderstruck-drum-tab-s1352t7 > drums2
