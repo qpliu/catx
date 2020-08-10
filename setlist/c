@@ -1,1 +1,11 @@
-song "Come As You Are" "Have You Ever Seen The Rain" "ムーンライト伝説 at 120 BPM" "Here Comes Your Man"
+song "Come As You Are"
+wait
+song "Have You Ever Seen The Rain"
+play
+wait
+song "ムーンライト伝説"
+tempo 120
+play
+wait
+song "Here Comes Your Man"
+play

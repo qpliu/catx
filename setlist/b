@@ -1,1 +1,9 @@
-song "Just Like Heaven at 125 BPM" "Talk Dirty To Me at 120 BPM" "Big Me"
+song "Just Like Heaven"
+tempo 120
+wait
+song "Talk Dirty To Me"
+tempo 120
+play
+wait
+song "Big Me"
+play
