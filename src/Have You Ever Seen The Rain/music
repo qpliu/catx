@@ -25,7 +25,7 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
-	\simplevoPart
+	\new Voice = "simplevo" \simplevoPart
 	\simplevoLyrics
     >>
     \tag #'(allPart peterPart) \new Staff \with {
@@ -57,7 +57,7 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\drsPart
-	\new NullVoice \simplevoPart
+	\new NullVoice = "simplevo" \simplevoPart
 	\simplevoLyrics
     >>
     \tag #'(kavPart) \removeWithTag #'(removeWithUnfold) \unfoldRepeats \new Staff \with {
@@ -65,7 +65,7 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
-	\simplevoPart
+	\new Voice = "simplevo" \simplevoPart
 	\simplevoLyricsunfolded
     >>
     \tag #'(kavPart) \removeWithTag #'(removeWithUnfold) \unfoldRepeats \new DrumStaff \with {

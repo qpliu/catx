@@ -1,4 +1,4 @@
-simplevoPart = \new Voice = "simplevo" {
+simplevoPart = {
     \myVocalsStuff
 \mymark "Intro" #1
     s1 |
