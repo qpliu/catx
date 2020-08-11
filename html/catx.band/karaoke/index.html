@@ -60,11 +60,11 @@
 	    </div>
 	</span>
 	<span style=position:absolute;left:29%;width:69%;display:inline-block;>
-	    Private Chat With Aarin Robo:
+	    Chat With Aarin Robo:
 	    <br>
 	    <div id=chatDiv style=width:100%;height:80vh;overflow-y:scroll;background-color:#ccc;></div>
 	    <form id=chatForm style=width:100%;display:table;>
-		<label for=chatInput style=display:table-cell;width:0;>Chat:</label>
+		<label for=chatInput style=display:table-cell;width:0;><span id=chatMe>Chat</span>:</label>
 		<input id=chatInput style=display:table-cell;width:100%;font-size:15px; type=text>
 	    </form>
 	</span>
@@ -91,7 +91,6 @@
 	onopen(){
 	    super.onopen();
 	    document.getElementById("websocketControls").style.visibility = "inherit";
-	    websocketStuff.sendChat("help");
 	}
 	onmessage(event){
 	    super.onmessage(event);
@@ -100,6 +99,8 @@
 		chatDiv.innerHTML += c+"<br>";
 		chatDiv.scrollTop = chatDiv.scrollHeight;
 	    }
+	    if (event.data.slice(0,8)=="yourName")
+		document.getElementById("chatMe").innerHTML = event.data.slice(8);
 	    if (event.data.slice(0,1)=="k" && this.ntp_offset!=undefined){
 		json = JSON.parse(event.data.slice(1));
 		if (json.name){
@@ -182,8 +183,6 @@
     }();
     chatForm.onsubmit = function(event){
 	const chatInput=document.getElementById("chatInput");
-	chatDiv.innerHTML += "<font color=pink><b>You</b></font> "+chatInput.value+"<br>";
-	chatDiv.scrollTop = chatDiv.scrollHeight;
 	websocketStuff.sendChat(chatInput.value);
 	chatInput.value = "";
 	event.preventDefault();
