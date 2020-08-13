@@ -1,0 +1,7 @@
+#!/bin/sh
+java -jar ../../songsterrToLy/1.jar --name guitar --output-tabs https://www.songsterr.com/a/wsa/carlos-santana-black-magic-woman-tab-s357t0 > guitartabs
+java -jar ../../songsterrToLy/1.jar --name guitarTwo --output-tabs https://www.songsterr.com/a/wsa/carlos-santana-black-magic-woman-tab-s357t1 > guitar2tabs
+java -jar ../../songsterrToLy/1.jar --name vocals --no-string-numbers https://www.songsterr.com/a/wsa/carlos-santana-black-magic-woman-tab-s357t2 > vocals
+java -jar ../../songsterrToLy/1.jar --name piano --no-string-numbers https://www.songsterr.com/a/wsa/carlos-santana-black-magic-woman-tab-s357t3 > piano
+java -jar ../../songsterrToLy/1.jar --name bass --output-tabs https://www.songsterr.com/a/wsa/carlos-santana-black-magic-woman-bass-tab-s357t4 > basstabs
+java -jar ../../songsterrToLy/1.jar --name drum https://www.songsterr.com/a/wsa/carlos-santana-black-magic-woman-drum-tab-s357t5 > drum

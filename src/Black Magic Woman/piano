@@ -1,0 +1,177 @@
+piano =
+{
+% url: https://www.songsterr.com/a/wsa/carlos-santana-black-magic-woman-tab-s357t3
+% artist: Carlos Santana
+% title: Black Magic Woman
+% instrument: Electric Piano 2
+% name: Teclado
+    \time 4/4
+    \tempo 4 = 120
+\mymark "Intro" #1
+% tuning e, a, d g b e'
+    c''8 d'' a' c'' d'' a' b' d'' |
+    c''8 d'' a' c'' d''2 |
+    c''8 d'' a' c'' d'' a' b' d'' |
+    c''8 d'' a' c'' d''2 |
+    c''8 d'' a' c'' d'' a' b' d'' |
+    c''8 d'' a' c'' d''2 |
+    c''8 d'' a' c'' d'' a' b' d'' |
+    c''8 d'' a' c'' d''2 |
+    c''8 d'' a' c'' d'' a' b' d'' |
+    c''8 d'' a' c'' d''2 |
+    c''8 d'' a' c'' d'' a' b' d'' |
+    c''8 d'' a' c'' d''2 |
+    c''8 d'' a' c'' d'' a' b' d'' |
+    <g ais d' g'>1~ |
+    <g ais d' g'>1 |
+    <d a c' f'>1~ |
+    <d a c' f'>1 |
+    <g ais d' g'>1~ |
+    <g ais d' g'>1 |
+    <d a c' f'>1 |
+    r1 |
+\mymark "Solo 01" #22
+    <d a c' f'>1~ |
+    <d a c' f'>1 |
+    <e g c' e'>1~ |
+    <e g c' e'>1 |
+    <d a c' f'>1~ |
+    <d a c' f'>1 |
+    <g~ ais~ d'~ g'>1 |
+    <g ais d'>1 |
+    <d a c' f'>1 |
+    <e g c' e'>1 |
+    <d a c' f'>1 |
+    <d a c' f'>1 |
+    r1 |
+%\mymark "Verse 01" #35
+%    <d a c' f'>1~ |
+%    <d a c' f'>1 |
+%    <e g c' e'>1~ |
+%    <e g c' e'>1 |
+%    <d a c' f'>1~ |
+%    <d a c' f'>1 |
+%    <g ais d' g'>1~ |
+%    <g ais d' g'>1 |
+%    <d a c' f'>1 |
+%    <e g c' e'>1 |
+%    <d a c' f'>1 |
+%    <d a c' f'>8 r2. r8 |
+%\mymark "Verse 02" #47
+%    <d a c' f'>1~ |
+%    <d a c' f'>1 |
+%    <e g c' e'>1~ |
+%    <e g c' e'>1 |
+%    <d a c' f'>1~ |
+%    <d a c' f'>1 |
+%    <g ais d' g'>1~ |
+%    <g ais d' g'>1 |
+%    <d a c' f'>1 |
+%    <e g c' e'>1 |
+%    <d a c' f'>1 |
+%    <d a c' f'>8 r2. r8 |
+%\mymark "Solo 02" #59
+%    <d a c' f'>1~ |
+%    <d a c' f'>1 |
+%    <e g c' e'>1~ |
+%    <e g c' e'>1 |
+%    <d a c' f'>1~ |
+%    <d a c' f'>1 |
+%    <g~ ais~ d'~ g'>1 |
+%    <g ais d'>1 |
+%    <d a c' f'>1 |
+%    <e g c' e'>1 |
+%    <d a c' f'>1 |
+%    <d a c' f'>1 |
+%    <d a c' f'>1~ |
+%    <d a c' f'>1 |
+%    <e g c' e'>1~ |
+%    <e g c' e'>1 |
+%    <d a c' f'>1~ |
+%    <d a c' f'>1 |
+%    <g~ ais~ d'~ g'>1 |
+%    <g ais d'>1 |
+%    <d a c' f'>1 |
+%    <e g c' e'>1 |
+%    <d a c' f'>1 |
+%    <d a c' f'>8 r2. r8 |
+%\mymark "Verse 03" #83
+%    <d a c' f'>1~ |
+%    <d a c' f'>1 |
+%    <e g c' e'>1~ |
+%    <e g c' e'>1 |
+%    <d a c' f'>1~ |
+%    <d a c' f'>1 |
+%    <g ais d' g'>1~ |
+%    <g ais d' g'>1 |
+%    <d a c' f'>1 |
+%    <e g c' e'>1 |
+%    <d a c' f'>1 |
+%\mymark "Outtro" #94
+%    c''8 d'' a' c'' d'' a' b' d'' |
+%    c''8 d'' a' c'' d''2 |
+%    c''8 d'' a' c'' d'' a' b' d'' |
+%    c''8 d'' a' c'' d''2 |
+%    c''8 d'' a' c'' d'' a' b' d'' |
+%    c''8 d'' a' c'' d''2 |
+%    c''8 d'' a' c'' d'' a' b' d'' |
+%    c''8 d'' a' c'' d''2 |
+%    r1 |
+%    \tuplet 3/2 { d4 a, d a, d a, } |
+%    \tuplet 3/2 { d4 a, d a, d a, } |
+%    \tempo 4 = 144
+%    <d a d' fis'>1~ |
+%    <d a d' fis'>1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+}

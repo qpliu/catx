@@ -1,0 +1,177 @@
+drum = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+% url: https://www.songsterr.com/a/wsa/carlos-santana-black-magic-woman-drum-tab-s357t5
+% artist: Carlos Santana
+% title: Black Magic Woman
+% instrument: Drums
+% name: Bateria
+    \time 4/4
+    \tempo 4 = 120
+\mymark "Intro" #1
+    r1 |
+    r2 boh8. boh4 r16 |
+    cymrb2 r |
+    r2 boh8. boh4 r16 |
+    <cymr hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho |
+    <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho |
+    <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho |
+    <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho |
+    <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho |
+    <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho |
+    <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho |
+    <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho |
+    <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho |
+    << { <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho | } \context DrumVoice = "drsb" { bd8 r2. bd16 r | } >>
+    << { <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+    << { <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho | } \context DrumVoice = "drsb" { bd8 r2. bd16 r | } >>
+    << { <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+    << { <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho | } \context DrumVoice = "drsb" { bd8 r2. bd16 r | } >>
+    << { <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+    << { <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho | } \context DrumVoice = "drsb" { bd8 r2. bd16 r | } >>
+    << { <cymrb hho boh>8 r2. r8 | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+\mymark "Solo 01" #22
+    << { <cymc hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho | } \context DrumVoice = "drsb" { bd8 r2. bd16 r | } >>
+    << { <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+    << { <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho | } \context DrumVoice = "drsb" { bd8 r2. bd16 r | } >>
+    << { <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+    << { <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho | } \context DrumVoice = "drsb" { bd8 r2. bd16 r | } >>
+    << { <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+    << { <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho | } \context DrumVoice = "drsb" { bd8 r2. bd16 r | } >>
+    << { <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+    << { <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho | } \context DrumVoice = "drsb" { bd8 r2. bd16 r | } >>
+    << { <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+    << { <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho | } \context DrumVoice = "drsb" { bd8 r2. bd16 r | } >>
+    << { hho1 | } \context DrumVoice = "drsb" { bd1 | } >>
+    <cymc boh bd>1 | %    << { <cymr hho boh>8 r boh4 r boh | } \context DrumVoice = "drsb" { bd8 bda r4. bda8 r4 | } >>
+%\mymark "Verse 01" #35
+%    << { <cymcb boh>4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2 r8 bd | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2. | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2 r8 bd | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2. | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2 r8 bd | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2. | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2 r8 bd | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2. | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2 r8 bd | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2. | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2 r8 bd | } >>
+%    << { boh4 r bol boh | } \context DrumVoice = "drsb" { bd4 r2. | } >>
+%\mymark "Verse 02" #47
+%    << { <cymc boh>4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2 r8 bd | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2. | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2 r8 bd | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2. | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2 r8 bd | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2. | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2 r8 bd | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2. | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2 r8 bd | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2. | } >>
+%    << { boh4 boh8 bol boh bol boh \tuplet 3/2 { boh16 boh boh } | } \context DrumVoice = "drsb" { bd4 r2 r8 \tuplet 3/2 { bd16 r8 } | } >>
+%    << { r8 bol boh bol r boh boh bol | } \context DrumVoice = "drsb" { bd8 r4. bd8 r4. | } >>
+%\mymark "Solo 02" #59
+%    << { boh8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. bd8 | } >>
+%    << { boh8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+%    << { boh8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. bd8 | } >>
+%    << { boh8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+%    << { boh8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. bd8 | } >>
+%    << { boh8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+%    << { boh8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. bd8 | } >>
+%    << { boh8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+%    << { boh8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. bd8 | } >>
+%    << { boh8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+%    << { boh8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. bd8 | } >>
+%    << { r4 boh8 bol4 boh8 bol4 | } \context DrumVoice = "drsb" { bd4 r2. | } >>
+%    << { <cymcb boh>8 cymr16 cymr <cymr boh>8 <cymc cymr> <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. bd8 | } >>
+%    << { <cymcb boh>8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+%    << { boh8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. bd8 | } >>
+%    << { boh8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+%    << { boh8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. bd8 | } >>
+%    << { boh8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+%    << { boh8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. bd8 | } >>
+%    << { boh8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+%    << { boh8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. bd8 | } >>
+%    << { boh8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+%    << { boh8 cymr16 cymr <cymr boh>8 cymr <cymr boh> cymr16 cymr <cymr boh>8 cymr | } \context DrumVoice = "drsb" { bd8 r2. bd8 | } >>
+%    << { <cymrb boh>8 r2. r8 | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+%\mymark "Verse 03" #83
+%    << { <cymcb boh>4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2 r8 bd | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2. | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2 r8 bd | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2. | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2 r8 bd | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2. | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2 r8 bd | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2. | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2 r8 bd | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2. | } >>
+%    << { boh4 boh8 bol boh bol boh bol | } \context DrumVoice = "drsb" { bd4 r2. | } >>
+%\mymark "Outtro" #94
+%    <cymr hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho |
+%    <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho |
+%    <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho |
+%    <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho |
+%    <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho |
+%    <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho |
+%    <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho |
+%    <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho <hho boh>8 <hho bol>16 <hho bol> <hho boh>8 hho16 hho |
+%    r1 |
+%    \tuplet 3/2 { hho4 hho hho hho hho hho } |
+%    \tuplet 3/2 { hho4 hho hho hho hho hho } |
+%    \tempo 4 = 144
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    hho16 hho hho hho hho hho hho hho hho hho hho hho hho hho hho hho |
+%    r1 |
+}
