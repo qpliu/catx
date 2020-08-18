@@ -5,6 +5,8 @@
     composer = "AC/DC"
 }
 
+% IF susan #(set-global-staff-size 30)
+
 \include "markup"
 \include "guitar1"
 \include "guitar2"
