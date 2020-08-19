@@ -6,6 +6,8 @@ drum = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
 % title: Talk Dirty To Me
 % instrument: Drums
 % name: Rikki Rockett - Drums
+    \time 4/4
+    \tempo 4 = 156
     r1 |
     r1 |
     r1 |
@@ -105,7 +107,6 @@ drum = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { cymc4 r2. | } \context DrumVoice = "drsb" { bd4 r2. | } >>
     r1 |
     r1 |
-\mymark "Solo" #95
     << { tomfh8 tomfh tomfh tomfh tomfh tomfh tomfh tomfh | } \context DrumVoice = "drsb" { bd8 bd bd bd bd bd bd bd | } >>
     << { <cymc sne>8 cymcb sne tommh16 tomml toml sne tommh tomml toml sne tomfh r | } \context DrumVoice = "drsb" { r8 bd r2. | } >>
     << { cymc8 cymr <cymr sne> <cymr sne> cymr cymr <cymr sne> cymr | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd r4 | } >>
@@ -126,7 +127,6 @@ drum = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { cymcb4 sne4. r8 sne r | } \context DrumVoice = "drsb" { bd4 r4. bd8 r4 | } >>
     << { cymc4 sne cymcb sne | } \context DrumVoice = "drsb" { bd4 r bd r | } >>
     << { r4 sne r sne16 sne sne sne | } \context DrumVoice = "drsb" { bd4 r bd r | } >>
-\mymark "Chorus 3" #115
     << { cymc8 hho <sne hho> hho hho hho <sne hho> hho | } \context DrumVoice = "drsb" { bd8 r4. bd8 r4. | } >>
     << { hho8 hho <sne hho> hho hho hho <sne hho> hho | } \context DrumVoice = "drsb" { bd8 r4. bd8 r4. | } >>
     << { hho8 hho <sne hho> <sne hho> hho hho <sne hho> hho | } \context DrumVoice = "drsb" { bd8 r4. bd8 r4. | } >>
@@ -143,7 +143,6 @@ drum = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { cymc8 cymr <cymr sne> cymr cymr cymr <cymr sne> cymr | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd r4 | } >>
     << { cymc8 cymr <cymr sne> cymr cymr cymr <cymr sne> cymr | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd r4 | } >>
     << { cymcb8 cymr <cymr sne> cymr cymr cymr <cymr sne> cymr | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd r4 | } >>
-\mymark "Outro" #131
     << { cymcb8 cymr <cymr sne> cymr cymr cymr <cymr sne> cymr | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd r4 | } >>
     << { cymc8 cymr <cymr sne> cymr cymr cymr <cymr sne> cymr | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd r4 | } >>
     << { cymc2 \tuplet 3/2 { cymcb8 r cymc r cymcb r } | } \context DrumVoice = "drsb" { bd2 \tuplet 3/2 { bd8 r bd r bd r } | } >>

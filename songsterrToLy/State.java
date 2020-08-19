@@ -3,6 +3,7 @@ final class State{
     String argv_drumMap=null;
     String argv_url;
     boolean argv_lyrics;
+    boolean argv_lyrics_in_voices;
     boolean argv_no_string_numbers;
     boolean argv_output_relative;
     boolean argv_output_text;

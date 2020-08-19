@@ -1,6 +1,0 @@
-#!/bin/sh
-java -jar ../../songsterrToLy/1.jar --name vocals https://www.songsterr.com/a/wsa/pearl-jam-just-breathe-tab-s58904t0 > vocals
-java -jar ../../songsterrToLy/1.jar --name acoustic --output-tabs https://www.songsterr.com/a/wsa/pearl-jam-just-breathe-tab-s58904t1 > acoustictabs
-java -jar ../../songsterrToLy/1.jar --name bass --output-tabs https://www.songsterr.com/a/wsa/pearl-jam-just-breathe-bass-tab-s58904t4 > basstabs
-java -jar ../../songsterrToLy/1.jar --no-string-numbers --output-relative --name organ https://www.songsterr.com/a/wsa/pearl-jam-just-breathe-tab-s58904t5 > organ
-java -jar ../../songsterrToLy/1.jar --name tambourine https://www.songsterr.com/a/wsa/pearl-jam-just-breathe-drum-tab-s58904t8 > tambourine

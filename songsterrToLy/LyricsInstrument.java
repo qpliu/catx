@@ -27,13 +27,27 @@ final class LyricsInstrument extends Instrument{
     }
     @Override void engrave(Json measure){
 	if (state.pass==0){
-	    Json lyrics=state.data.get("lyrics").get(measure.get("index").intValue()-1);
-	    Rational time=state.measureStartTime;
-	    for (Json beat:lyrics.get("beats").list){
-		Rational duration=getDuration(beat.get("duration"));
-		for (Json note:beat.get("lyrics").list)
-		    events.add(new Event(state,time,duration,note,getNote(note)));
-		time = time.add(duration);
+	    if (state.argv_lyrics_in_voices){
+		Json lyrics=state.data.get("part").get("measures").get(measure.get("index").intValue()-1);
+		Rational time=state.measureStartTime;
+		for (Json voices:lyrics.get("voices").list)
+		    for (Json beat:voices.get("beats").list){
+			Rational duration=getDuration(beat.get("duration"));
+			Json text=beat.get("text");
+			if (text!=null)
+			    events.add(new Event(state,time,duration,text,getNote(text)));
+			time = time.add(duration);
+		    }
+
+	    }else{
+		Json lyrics=state.data.get("lyrics").get(measure.get("index").intValue()-1);
+		Rational time=state.measureStartTime;
+		for (Json beat:lyrics.get("beats").list){
+		    Rational duration=getDuration(beat.get("duration"));
+		    for (Json note:beat.get("lyrics").list)
+			events.add(new Event(state,time,duration,note,getNote(note)));
+		    time = time.add(duration);
+		}
 	    }
 	}else
 	    super.engrave(measure);

@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e -o pipefail
 GET="java -jar ../../songsterrToLy/1.jar"
-gzip -d </share/mirror/songsterr/stuff/d-keep/d-roy-orbison-oh-pretty-woman-tab-s15568/z-t4|$GET --name vocalsPart - >generated-vocals
-gzip -d </share/mirror/songsterr/stuff/d-keep/d-roy-orbison-oh-pretty-woman-tab-s15568/z-t4|$GET --name vocalsLyrics --lyrics - >generated-lyrics
+WHERE="/share/mirror/songsterr/stuff/d-keep/d-Roy Orbison/d-Oh, Pretty Woman-s15568/d-r18667"
+gzip -d <"$WHERE/z-t4"|$GET --name vocalsPart - >generated-vocals
+gzip -d <"$WHERE/z-t4"|$GET --name vocalsLyrics --lyrics-in-voices --lyrics - >generated-lyrics

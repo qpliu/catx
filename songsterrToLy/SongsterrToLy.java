@@ -23,6 +23,7 @@ final class SongsterrToLy{
 	System.err.println("options:");
 	System.err.println("[--drumMap map]  Specify drum map.  Something like --drumMap \"49 cymc 0,38 sn 0,36 bd 1\"");
 	System.err.println("[--lyrics]  Extract lyrics instead of notes.");
+	System.err.println("[--lyrics-in-voices]  Extract lyrics from voices instead of lyrics.");
 	System.err.println("[--name partName]  Specify partName.");
 	System.err.println("[--no-ghost-notes]  Don't include ghost notes.");
 	System.err.println("[--no-string-numbers]  Don't include string numbers.");
@@ -38,6 +39,8 @@ final class SongsterrToLy{
 	for (int i=0; i<argv.length; i++)
 	    if (argv[i].equals("--lyrics"))
 		state.argv_lyrics = true;
+	    else if (argv[i].equals("--lyrics-in-voices"))
+		state.argv_lyrics_in_voices = true;
 	    else if (argv[i].equals("--no-string-numbers"))
 		state.argv_no_string_numbers = true;
 	    else if (argv[i].equals("--no-ghost-notes"))
