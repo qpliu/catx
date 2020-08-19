@@ -33,6 +33,7 @@ class Snakes{
 	this.startTime = startTime;
 	this.repeat = repeat;
 	this.songLength = songLength;
+	this.bendEvents = [];
 	this.toneEvents = [];
 	this.lyricEvents = [];
 	this.keysignatureEvents = [];
@@ -42,6 +43,7 @@ class Snakes{
 	this.lastX = 0;
 	this.lastFftX = 0;
 	this.scroll = 0;
+	this.bend = [];
 	for (const canvas of this.canvases)
 	    canvas.style.display = "none";
 	for (const div of this.divs)
@@ -85,6 +87,9 @@ class Snakes{
 		this.fft_data = new Uint8Array(this.fft.frequencyBinCount);
 	    },err=>alert(err));
 	}
+    }
+    addBendEvent(e){
+	this.bendEvents.push(e);
     }
     addToneEvent(e){
 	this.toneEvents.push(e);
@@ -185,11 +190,18 @@ class Snakes{
 		context.fillRect(x,0,1,this.canvasHeight);
 		break;
 	    }
+	for (const e of this.bendEvents)
+	    if (e.t>=t0 && e.t<t1)
+		this.bend[e.ch] = e.bend;
 	for (const e of this.toneEvents)
 	    if (t0>=e.t && t0<e.t+e.duration){
 		context.fillStyle = this.keyContainsNoteColor(key,e.note)?"#ff00ff":"#ff00a0";
-		const y0=Math.floor((settings.maxNote-e.note-.5)/(settings.maxNote-settings.minNote)*this.canvasHeight);
-		const y1=Math.floor((settings.maxNote-e.note+.5)/(settings.maxNote-settings.minNote)*this.canvasHeight);
+		let note=e.note;
+		let bend=this.bend[e.ch];
+		if (bend)
+		    note += bend*24/8191;
+		const y0=Math.floor((settings.maxNote-note-.5)/(settings.maxNote-settings.minNote)*this.canvasHeight);
+		const y1=Math.floor((settings.maxNote-note+.5)/(settings.maxNote-settings.minNote)*this.canvasHeight);
 		context.fillRect(x,y0,1,y1-y0);
 	    }
 	for (const e of this.lyricEvents){

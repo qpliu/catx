@@ -122,8 +122,12 @@
 		    snakes.reset(startTime,repeat,json.length);
 		    sheets.reset(startTime,repeat,json.length,json.nam,json.pageTurns);
 		    qiuqius.reset(startTime,repeat);
-		    const noteOn=new Map();
-		    const noteOff=new Map();
+		    const noteOn=[];
+		    const noteOff=[];
+		    for (let ch=0; ch<16; ch++){
+			noteOn[ch] = new Map();
+			noteOff[ch] = new Map();
+		    }
 		    for (const e of json.karaoke){
 			if ("p" in e && !(e.p&1<<settings.vocalPart-1))
 			    continue;
@@ -142,26 +146,29 @@
 			    }
 			if ("key" in e)
 			    snakes.addKeysignatureEvent(e);
-			if ("on" in e && (!noteOff.has(e.on) || !noteOff.get(e.on).delete(e.t))){
-			    if (!noteOn.has(e.on))
-				noteOn.set(e.on,new Set());
-			    noteOn.get(e.on).add(e.t);
+			if ("bend" in e)
+			    snakes.addBendEvent(e);
+			if ("on" in e && (!noteOff[e.ch].has(e.on) || !noteOff[e.ch].get(e.on).delete(e.t))){
+			    if (!noteOn[e.ch].has(e.on))
+				noteOn[e.ch].set(e.on,new Set());
+			    noteOn[e.ch].get(e.on).add(e.t);
 			}
-			if ("off" in e && (!noteOn.has(e.off) || !noteOn.get(e.off).delete(e.t))){
-			    if (!noteOff.has(e.off))
-				noteOff.set(e.off,new Set());
-			    noteOff.get(e.off).add(e.t);
+			if ("off" in e && (!noteOn[e.ch].has(e.off) || !noteOn[e.ch].get(e.off).delete(e.t))){
+			    if (!noteOff[e.ch].has(e.off))
+				noteOff[e.ch].set(e.off,new Set());
+			    noteOff[e.ch].get(e.off).add(e.t);
 			}
 		    }
-		    for (const note of noteOff.keys())
-			noteOff.set(note,Array.from(noteOff.get(note)).sort((x,y)=>x-y));
 		    const allNotes=[];
-		    for (const note of noteOn.keys())
-			for (const time of noteOn.get(note)){
-			    let end;
-			    while (noteOff.has(note) && (end=noteOff.get(note).shift())<time);
-			    if (end!=undefined)
-				allNotes.push({t:time,duration:end-time,note:note});
+		    for (let ch=0; ch<16; ch++)
+			for (const note of noteOff[ch].keys()){
+			    noteOff[ch].set(note,Array.from(noteOff[ch].get(note)).sort((x,y)=>x-y));
+			    for (const time of noteOn[ch].get(note)){
+				let end;
+				while (noteOff[ch].has(note) && (end=noteOff[ch].get(note).shift())<time);
+				if (end!=undefined)
+				    allNotes.push({t:time,duration:end-time,note:note,ch:ch});
+			    }
 			}
 		    allNotes.sort((x,y)=>x.t-y.t);
 		    for (const e of allNotes){
