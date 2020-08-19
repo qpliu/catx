@@ -13,6 +13,7 @@
 \include "drums"
 \include "vocals"
 \include "vocals2"
+\include "lyrics"
 
 layoutmusic = <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
@@ -21,7 +22,7 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\vocals
-	% \voLyrics
+	\voLyrics
     >>
     \tag #'(allPart kavPart susanPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vocals2" }
