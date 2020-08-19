@@ -1,6 +1,5 @@
 class Tones{
     constructor(where){
-	this.gains = [];
 	this.speakerOn = document.createElement("img");
 	this.speakerOn.style = "position:absolute;left:0;top:0;width:5vw;z-index:9;"
 	this.speakerOn.onclick = ()=>{gotClick();this.setSpeaker(0);};
@@ -13,26 +12,11 @@ class Tones{
 	where.appendChild(this.speakerOff);
 	this.setSpeaker(settings.speaker);
     }
-    enable(){
-	for (let i=0; i<128; i++){
-	    const oscillator=audioContext.createOscillator();
-	    oscillator.frequency.value = Math.exp((i-69)/12*Math.log(2))*440;
-	    this.gains[i] = audioContext.createGain();
-	    this.gains[i].gain.value = 0;
-	    this.gains[i].connect(audioContext.destination);
-	    oscillator.connect(this.gains[i]);
-	    oscillator.start();
-	}
-    }
     setSpeaker(value){
 	settings.speaker = value;
 	settings.makeEverythingAgree();
 	this.speakerOn.style.display = settings.speaker?"block":"none";
 	this.speakerOff.style.display = !settings.speaker?"block":"none";
-	if (!settings.speaker)
-	    for (const gain of this.gains)
-		if (gain!=undefined)
-		    gain.gain.setValueAtTime(0,audioContext.currentTime);
     }
     reset(startTime,repeat,songLength){
 	this.startTime = startTime;
@@ -40,9 +24,29 @@ class Tones{
 	this.songLength = songLength;
 	this.index = 0;
 	this.events = [];
+	this.bendEvents = [];
+	for (let ch=0; ch<16; ch++)
+	    this.bendEvents[ch] = [];
+    }
+    addBendEvent(e){
+	this.bendEvents[e.ch].push(e);
     }
     addEvent(e){
 	this.events.push(e);
+    }
+    makeBeep(buffer,e,now){
+	let a=0;
+	let bend=0;
+	const w=2*Math.PI/buffer.sampleRate*440;
+	const ww=Math.log(2)/12;
+	const array=buffer.getChannelData(0);
+	let bendIndex=binarySearch(this.bendEvents[e.ch],(x)=>x.t>e.t);
+	for (let t=0; t<array.length; t++){
+	    while (bendIndex<this.bendEvents[e.ch].length && (this.bendEvents[e.ch][bendIndex].t-now)*buffer.sampleRate<t*1000)
+		bend = 24/8191*this.bendEvents[e.ch][bendIndex++].bend;
+	    array[t] = Math.min(.25,Math.min(4*t/array.length,2*(array.length-t)/array.length))*Math.sin(a);
+	    a += w*Math.exp((e.note+bend-69)*ww);
+	}
     }
     animate(now){
 	if (this.repeat && now>=this.startTime+this.songLength){
@@ -54,11 +58,13 @@ class Tones{
 	    const t=this.startTime+e.t;
 	    if (t>=now)
 		break;
-	    if (settings.speaker && t+e.duration>now && this.gains[e.note]){
-		this.gains[e.note].gain.setValueAtTime(.00001,audioContext.currentTime);
-		this.gains[e.note].gain.exponentialRampToValueAtTime(.25,audioContext.currentTime+Math.min(e.duration/2500,.05));
-		this.gains[e.note].gain.setValueAtTime(.25,audioContext.currentTime+e.duration/1000-Math.min(e.duration/2500,.05));
-		this.gains[e.note].gain.exponentialRampToValueAtTime(.00001,audioContext.currentTime+e.duration/1000);
+	    if (settings.speaker && t+e.duration>now){
+		const buffer=audioContext.createBuffer(1,audioContext.sampleRate*(t+e.duration-now)/1000,audioContext.sampleRate);
+		this.makeBeep(buffer,e,now-this.startTime);
+		const source=audioContext.createBufferSource();
+		source.buffer = buffer;
+		source.connect(audioContext.destination);
+		source.start();
 	    }
 	}
     }

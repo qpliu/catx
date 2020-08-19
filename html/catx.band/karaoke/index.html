@@ -146,8 +146,10 @@
 			    }
 			if ("key" in e)
 			    snakes.addKeysignatureEvent(e);
-			if ("bend" in e)
+			if ("bend" in e){
 			    snakes.addBendEvent(e);
+			    tones.addBendEvent(e);
+			}
 			if ("on" in e && (!noteOff[e.ch].has(e.on) || !noteOff[e.ch].get(e.on).delete(e.t))){
 			    if (!noteOn[e.ch].has(e.on))
 				noteOn[e.ch].set(e.on,new Set());
@@ -211,10 +213,8 @@
 	requestAnimationFrame(animate);
     }
     function gotClick(){
-	if (audioContext==undefined){
+	if (audioContext==undefined)
 	    audioContext = new (window.AudioContext||window.webkitAudioContext)();
-	    tones.enable();
-	}
     }
     function setMode(mode){
 	if (mode!=0)
@@ -229,6 +229,18 @@
 	background.setEnabled(mode==1);
 	if (!isPlaying)
 	    isPlaying = 1;
+    }
+    function binarySearch(a,f){
+	let low=0;
+	let high=a.length;
+	while (low<high){
+	    const mid=low+high>>1;
+	    if (f(a[mid]))
+		high = mid;
+	    else
+		low = mid+1;
+	}
+	return low;
     }
     setMode(0);
     websocketStuff.start();
