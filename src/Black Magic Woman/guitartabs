@@ -1,0 +1,177 @@
+guitar =
+{
+% url: https://www.songsterr.com/a/wsa/carlos-santana-black-magic-woman-tab-s357t0
+% artist: Carlos Santana
+% title: Black Magic Woman
+% instrument: Distortion Guitar
+% name: Santana - Solo
+    \time 4/4
+    \tempo 4 = 120
+\mymark "Intro" #1
+% tuning e, a, d g b e'
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    1-3t16 1t2.~ t8.~ |
+    1-1t2. r8 2-3t \glissando |
+    2-5t8 \glissando 3t2. r8 |
+    3-0t2. r8. 1-1t32 3t |
+    1-1t1~ |
+    1-1t2. r8 1-3t |
+    2-3t16 \glissando 5t8 \glissando 3t16~ 3t2. |
+    3-0t2. r4 |
+    3-14t8 r4 12t8 r4 10t8 \glissando 9t~ |
+    3-9t2. r4 |
+    3-12t8 r4 10t8 r4 9t8 \glissando 7t~ |
+    3-7t2. r4 |
+    3-14t8 r4 12t8 r4 10t8 \glissando 9t~ |
+    3-9t2. r4 |
+    3-12t8 r4 10t8 r4 9t8 \glissando 7t |
+    r8 6-10t~ 10.12t~ 10.12.12t~ 10.12.12.10t~ 10.12.12.10.10t~ 10.12.12.10.10.10t4 |
+    r4 1-10t16 r 2-13t r t8 \bendAfter #6 ^"full" t 10t 13t~ |
+\mymark "Solo 01" #22
+    2-13t2. \bendAfter #6 ^"full" 10t4 |
+    r8 2-13t4. \bendAfter #6 ^"full" \tuplet 3/2 { 1-10t8 2-13t 10t } 3-12t16 t8 \bendAfter #6 ^"full" 10t16 |
+    3-9t1 |
+    r4 2-10t8 13t 1-12t4 13t8 12t16 r |
+    \tuplet 3/2 { 1-13t8 12t 10t } 2-13t4~ t16 \bendAfter #6 ^"full" t 10t r4 r16 |
+    r8 2-13t4. \bendAfter #6 ^"full" \tuplet 3/2 { 1-10t8 2-13t 10t4~ t16 } 3-12t8~ |
+    3-12t8. \bendAfter #6 ^"full" 10t16 \tuplet 3/2 { r2 12t8 2-11t 1-10t 12t 13t \glissando } |
+    1-15t2 t~ |
+    1-15t8 \bendAfter #6 ^"full" 13t16 2-15t 1-13t2 r4 |
+    r8 1-18t4. \bendAfter #6 ^"1½" 17t4 10t |
+    3-12t8 \bendAfter #6 ^"full" t16 10t 12t8 2-10t 3-12t \tuplet 3/2 { 10t16 12t 10t } 4-12t8 10t |
+    4-12t8 10t 5-12t 11t 10t 8t4. |
+    3-10.10.10t4 r2. |
+%\mymark "Verse 01" #35
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%\mymark "Verse 02" #47
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r8 2-13t4. \bendAfter #6 ^"full" 1-10t8 2-13t4. \bendAfter #6 ^"full" |
+%\mymark "Solo 02" #59
+%    2-13t8 \bendAfter #6 ^"full" t 10t2. |
+%    r4 1-13t16 12t 10t8 \tuplet 3/2 { 2-13t \bendAfter #6 ^"0.25" t 10t } 3-12t \bendAfter #6 ^"full" 10t16 9t~ |
+%    3-9t1 |
+%    r8 3-9t \glissando 10t 2-10t8. 13t8 1-12t4~ t16~ |
+%    1-12t8 13t16 12t 10t 2-13t2~ t8. \bendAfter #6 ^"full" |
+%    r8 1-13t2 \bendAfter #6 ^"full" r4 15t8~ |
+%    1-15t4.~ t16 \bendAfter #6 ^"full" 13t 15t4~ t16 \bendAfter #6 ^"full" 13t8. |
+%    r4. 1-17t \bendAfter #6 ^"1½" r8 12t |
+%    1-13t8. 12t16 10t8 12t 13t8. 12t16 10t8 2-13t~ |
+%    2-13t8 \bendAfter #6 ^"full" 1-10t 2-13t 10t 3-12t8. \bendAfter #6 ^"½" 10t16 4-12t8 3-10.10t~ |
+%    3-10.10t8 4-12t 2-10t 13t 10t 3-12t \bendAfter #6 ^"full" t 10t16 4-12t |
+%    r8 1-8t \glissando 10t r t \glissando 12t r 8t \glissando |
+%    1-10t4 3-12t8 \bendAfter #6 ^"full" t2~ t8 \bendAfter #6 ^"full" |
+%    r8 2-13t4. \bendAfter #6 ^"full" 1-10t16 2-13t 10t 3-12t t8 \bendAfter #6 ^"full" 10t16 9t~ |
+%    3-9t1~ |
+%    3-9t8 t 2-10t 13t t2 \bendAfter #6 ^"full" |
+%    1-10t4 2-13t8. \bendAfter #6 ^"full" \tuplet 3/2 { t8 \bendAfter #6 ^"full" t 10t } r8. 13.13t8~ |
+%    2-13.13t8 \bendAfter #6 ^"full" 3-10.10t 10t2 r8 12t |
+%    2-11t8 \tuplet 3/2 { 1-10t 12t 13t2~ } t8 \bendAfter #6 ^"full" 15t4~ |
+%    1-15t2 \bendAfter #6 ^"full" 18t4 \bendAfter #6 ^"1½" 20t \bendAfter #6 ^"full" |
+%    r4 3-12t \bendAfter #6 ^"full" r8 2-10t 13t 1-10t~ |
+%    1-10t8 2-10t 13t 1-10t 2-10t 13t 1-10t 13t16 10t |
+%    1-13t16 10t 13t 10t 2-13t 10t 13t 10t 3-12t 10t 12t 10t 4-12t8 10t |
+%    r8 5-10t 11t 12t 4-10t 12t 3-9t 10t |
+%\mymark "Verse 03" #83
+%    r1 |
+%    r4. 5-12t8 4-10t 3-9t16 10t r 14t 12t 10t |
+%    3-9t2. r4 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%    r1 |
+%\mymark "Outtro" #94
+%    2-8t16 6t2.~ t8.~ |
+%    2-6t2. r8 3t \glissando |
+%    2-5t8 \glissando 3t2. r8 |
+%    3-0t2. r8. 2-6t32 8t |
+%    2-6t1~ |
+%    2-6t2. r8 1-3t |
+%    2-3t16 \glissando 5t8 \glissando 3t16 r2. |
+%    3-0t2. r4 |
+%    r1 |
+%    \tuplet 3/2 { 4-0t4 5-0t 4-0t 5-0t 4-0t 5-0t } |
+%    \tuplet 3/2 { 4-0t4 5-0t 4-0t 5-0t 4-0t 5-0t } |
+%    \tempo 4 = 144
+%    5-5.7.7.7t1~ |
+%    5-5.7.7.7t1~ |
+%    5-5.7.7.7.0t1~ |
+%    5-5.7.7.7.0t2. 2-7t16 8t 7t8 |
+%    3-7t4. 4-7.7~.7~t8 3-7.7t2~ |
+%    3-7.7.0t1~ |
+%    3-7.7.0t4 2-7t16 8t 7t8 3-7t8. 4-0t 7.7~.7~t8 |
+%    3-7.7t1~ |
+%    3-7.7.0t2. 7t8 2-5t |
+%    2-7t8 \glissando 10t4. r2 |
+%    1-0t2. 2-7t16 8t 7t 5t |
+%    3-7t8 4-7.7~.7~t4. 3-7.7t2~ |
+%    3-7.7.0t1 |
+%    4-7.7.7t8 7t 3-7t 4-7t 3-5t 4-7t 3-5t t |
+%    4-5t8 7t4. r2 |
+%    3-0t4. 4-5t8 t 4t t 5-7t |
+%    5-5t8. 4-7.7~.7~t16 3-7.7t2.~ |
+%    3-7.7.0t2~ t8 1-3t \glissando r8. 10t16 |
+%    r8 1-10t r16 2-13t r8 1-10t r16 2-13t8 \bendAfter #6 ^"full" t16 10t8 |
+%    \tuplet 3/2 { r4 1-10t 2-13t } 1-10t8. 3-12t8 \bendAfter #6 ^"full" t16 10t8 \bendAfter #6 ^"½" |
+%    \tuplet 3/2 { r4 1-10t 2-13t } 1-10t8. 2-13t8 \bendAfter #6 ^"full" t16 10t8 |
+%    \tuplet 3/2 { r4 1-10t8 r 2-13t r } 1-10t 3-12t \bendAfter #6 ^"full" t16 10t t8 |
+%    4-12t8 10t2.~ t8~ |
+%    \tuplet 3/2 { 4-10t1 3-9t4 4-10t } |
+%    4-12t1~ |
+%    4-12t4 r2 r8 1-15t~ |
+%    1-15t1 \bendAfter #6 ^"½" |
+%    r4 1-15t2.~ |
+%    1-15t2. \bendAfter #6 ^"½" \tuplet 3/2 { r8 14t 12t } |
+%    2-15t1 |
+%    r1 |
+%    r8. 1-22t32 t t t t t t t t t t t t t t t t t t t t t t t t t |
+%    1-22t32 t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t |
+%    1-22t32 t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t t |
+%    1-22t32. t t t t16 r2. |
+%    5-5.7.7t1 |
+%    5-5.7.7t1 |
+%    5-5.7.7t1 |
+%    5-3.5.5t4. 2~.4.4~t8 2..4t4 0.2.2t8 5.7~.7~t |
+%    4-7.7t1 |
+%    5-3.5.5t4. 2~.4.4~t8 2..4t4 0.2.2t8 5.7~.7~t |
+%    4-7.7t1 |
+%    5-3.5.5t4. 2~.4.4~t8 2..4t4 0.2.2t8 5.7~.7~t |
+%    4-7.7t2~ 7.7.0.0t8 6-17t 5t16 3t 2t8 |
+%    5-5t8. 6-5t 5-3t8 5t8. 6-5t16 t 5-3t 4-2t8 |
+%    5-5t8 t16 6-5t8 t16 5-3t8 5t t16 6-5t8. 4-2t8 |
+%    5-5t8. 6-5t 5-3t8 5t t16 6-5t8 4-2t16 t8 |
+%    5-5t8. 6-5t 5-3t8 5t t16 6-5t8 5-3t16 4-2t t |
+%    5-5t8. 6-5t 5-3t8 5t t16 6-5t8 5-5t16 4-2t t |
+%    5-5t8. 6-5t 5-3t8 5t t16 6-5t8 5-3t16 4-2t t |
+%    5-5t8. 6-5t 5-3t8 5t t16 6-5t8 5-3t16 4-2t t |
+%    5-5t16 t8 6-5t8. 5-3t16 t 5t4. 6-5t8 |
+%    5-3.5.5t4. 2~.4.4~t8 2..4t4 0.2.2t~ |
+%    5-0.2.2t1 |
+}
