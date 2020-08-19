@@ -1,38 +1,46 @@
-drumsTwo = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
-    \context DrumVoice = "drsa" \voiceOne
-    \context DrumVoice = "drsb" \voiceTwo
-% url: https://www.songsterr.com/a/wsa/ac-dc-thunderstruck-drum-tab-s1352t7
+vocalsTwoText =
+{
+% url: https://www.songsterr.com/a/wsa/ac-dc-thunderstruck-tab-s1352t1
 % artist: AC\u002FDC
 % title: Thunderstruck
-% instrument: Drums
-% name: Additional Drums
-    \time 1/4
-    \tempo 4 = 136
-\mymark "Intro" #1
+% instrument: Tenor Sax
+% name: Band Vocals
+% tuning e, a, d g b e'
     r4 |
-    \time 4/4
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
     r1 |
-\mymark "Drums Enter" #18
     r1 |
     r1 |
     r1 |
     r1 |
-\mymark "Bass Enters" #22
     r1 |
     r1 |
     r1 |
@@ -41,7 +49,6 @@ drumsTwo = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     r1 |
     r1 |
     r1 |
-\mymark "Rhythm Guitar Enters" #30
     r1 |
     r1 |
     r1 |
@@ -50,7 +57,6 @@ drumsTwo = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     r1 |
     r1 |
     r1 |
-\mymark "Verse" #38
     r1 |
     r1 |
     r1 |
@@ -76,7 +82,6 @@ drumsTwo = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     r1 |
     r1 |
     r1 |
-    \tuplet 3/2 { r4 sn toml sn toml sn } |
     r1 |
     r1 |
     r1 |
@@ -105,7 +110,6 @@ drumsTwo = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     r1 |
     r1 |
     r1 |
-\mymark "Chorus" #92
     r1 |
     r1 |
     r1 |
@@ -118,10 +122,13 @@ drumsTwo = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     r1 |
     r1 |
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
-\mymark "Solo" #107
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
     r1 |
     r1 |
@@ -139,9 +146,6 @@ drumsTwo = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     r1 |
     r1 |
     r1 |
-    r2. r8 sn |
-    << { r2. sn16 sn r8 | } \context DrumVoice = "drsb" { r8 bd r bd r bd r bd | } >>
-\mymark "Chorus" #126
     r1 |
     r1 |
     r1 |
@@ -152,37 +156,16 @@ drumsTwo = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     r1 |
     r1 |
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
+    r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
     r1 |
     r1 |
-\mymark "Outro" #142
     r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    \tempo 4 = 126
-    r1 |
-    \tempo 4 = 118
-    r1 |
-    \tempo 4 = 108
-    r1 |
-    \tempo 4 = 100
-    r1 |
-    \tempo 4 = 96
     r1 |
 }
