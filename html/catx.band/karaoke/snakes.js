@@ -42,7 +42,6 @@ class Snakes{
 	this.lastX = 0;
 	this.lastFftX = 0;
 	this.scroll = 0;
-	this.bend = [];
 	for (const canvas of this.canvases)
 	    canvas.style.display = "none";
 	for (const div of this.divs)
@@ -190,7 +189,7 @@ class Snakes{
 	    if (t0>=e.t && t0<e.t+e.duration){
 		context.fillStyle = this.keyContainsNoteColor(key,e.note)?"#ff00ff":"#ff00a0";
 		let note=e.note;
-		const bendIndex=binarySearch(e.bends,(x)=>x.t>t0);
+		const bendIndex=binarySearch(e.bends,(x)=>x.t<=t0);
 		if (bendIndex)
 		    note += e.bends[bendIndex-1].bend*24/8191;
 		const y0=Math.floor((settings.maxNote-note-.5)/(settings.maxNote-settings.minNote)*this.canvasHeight);

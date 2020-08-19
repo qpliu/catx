@@ -169,8 +169,8 @@
 				let end;
 				while (noteOff[ch].has(note) && (end=noteOff[ch].get(note).shift())<time);
 				if (end!=undefined){
-				    const bendLow=binarySearch(bendEvents[ch],(x)=>x.t>time);
-				    const bendHigh=binarySearch(bendEvents[ch],(x)=>x.t>end);
+				    const bendLow=binarySearch(bendEvents[ch],(x)=>x.t<time);
+				    const bendHigh=binarySearch(bendEvents[ch],(x)=>x.t<end);
 				    allNotes.push({t:time,duration:end-time,note:note,ch:ch,bends:bendEvents[ch].slice(bendLow,bendHigh)});
 				}
 			    }
@@ -239,9 +239,9 @@
 	while (low<high){
 	    const mid=low+high>>1;
 	    if (f(a[mid]))
-		high = mid;
-	    else
 		low = mid+1;
+	    else
+		high = mid;
 	}
 	return low;
     }
