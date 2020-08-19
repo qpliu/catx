@@ -41,10 +41,11 @@ class Tones{
 	const ww=Math.log(2)/12;
 	const array=buffer.getChannelData(0);
 	let bendIndex=binarySearch(this.bendEvents[e.ch],(x)=>x.t>e.t);
+	const ad=Math.min(buffer.sampleRate*.05,array.length/8);
 	for (let t=0; t<array.length; t++){
 	    while (bendIndex<this.bendEvents[e.ch].length && (this.bendEvents[e.ch][bendIndex].t-now)*buffer.sampleRate<t*1000)
 		bend = 24/8191*this.bendEvents[e.ch][bendIndex++].bend;
-	    array[t] = Math.min(.25,Math.min(4*t/array.length,2*(array.length-t)/array.length))*Math.sin(a);
+	    array[t] = Math.min(.25,.25*Math.min(2*t,array.length-t)/ad)*Math.sin(a);
 	    a += w*Math.exp((e.note+bend-69)*ww);
 	}
     }
