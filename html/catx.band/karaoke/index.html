@@ -124,9 +124,11 @@
 		    qiuqius.reset(startTime,repeat);
 		    const noteOn=[];
 		    const noteOff=[];
+		    const bendEvents=[];
 		    for (let ch=0; ch<16; ch++){
 			noteOn[ch] = new Map();
 			noteOff[ch] = new Map();
+			bendEvents[ch] = [];
 		    }
 		    for (const e of json.karaoke){
 			if ("p" in e && !(e.p&1<<settings.vocalPart-1))
@@ -146,10 +148,8 @@
 			    }
 			if ("key" in e)
 			    snakes.addKeysignatureEvent(e);
-			if ("bend" in e){
-			    snakes.addBendEvent(e);
-			    tones.addBendEvent(e);
-			}
+			if ("bend" in e)
+			    bendEvents[e.ch].push(e);
 			if ("on" in e && (!noteOff[e.ch].has(e.on) || !noteOff[e.ch].get(e.on).delete(e.t))){
 			    if (!noteOn[e.ch].has(e.on))
 				noteOn[e.ch].set(e.on,new Set());
@@ -168,8 +168,11 @@
 			    for (const time of noteOn[ch].get(note)){
 				let end;
 				while (noteOff[ch].has(note) && (end=noteOff[ch].get(note).shift())<time);
-				if (end!=undefined)
-				    allNotes.push({t:time,duration:end-time,note:note,ch:ch});
+				if (end!=undefined){
+				    const bendLow=binarySearch(bendEvents[ch],(x)=>x.t>time);
+				    const bendHigh=binarySearch(bendEvents[ch],(x)=>x.t>end);
+				    allNotes.push({t:time,duration:end-time,note:note,ch:ch,bends:bendEvents[ch].slice(bendLow,bendHigh)});
+				}
 			    }
 			}
 		    allNotes.sort((x,y)=>x.t-y.t);

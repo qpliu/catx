@@ -24,12 +24,6 @@ class Tones{
 	this.songLength = songLength;
 	this.index = 0;
 	this.events = [];
-	this.bendEvents = [];
-	for (let ch=0; ch<16; ch++)
-	    this.bendEvents[ch] = [];
-    }
-    addBendEvent(e){
-	this.bendEvents[e.ch].push(e);
     }
     addEvent(e){
 	this.events.push(e);
@@ -40,11 +34,11 @@ class Tones{
 	const w=2*Math.PI/buffer.sampleRate*440;
 	const ww=Math.log(2)/12;
 	const array=buffer.getChannelData(0);
-	let bendIndex=binarySearch(this.bendEvents[e.ch],(x)=>x.t>e.t);
+	let bendIndex=0;
 	const ad=Math.max(.02/buffer.sampleRate,8/array.length);
 	for (let t=0; t<array.length; t++){
-	    while (bendIndex<this.bendEvents[e.ch].length && (this.bendEvents[e.ch][bendIndex].t-now)*buffer.sampleRate<t*1000)
-		bend = 24/8191*this.bendEvents[e.ch][bendIndex++].bend;
+	    while (bendIndex<e.bends.length && (e.bends[bendIndex].t-now)*buffer.sampleRate<t*1000)
+		bend = 24/8191*e.bends[bendIndex++].bend;
 	    array[t] = .25*Math.min(1,Math.min(2*t,array.length-t)*ad)*Math.sin(a);
 	    a += w*Math.exp((e.note+bend-69)*ww);
 	}
@@ -59,7 +53,7 @@ class Tones{
 	    const t=this.startTime+e.t;
 	    if (t>=now)
 		break;
-	    if (settings.speaker && t+e.duration>now){
+	    if (settings.speaker && audioContext && t+e.duration>now){
 		const buffer=audioContext.createBuffer(1,audioContext.sampleRate*(t+e.duration-now)/1000,audioContext.sampleRate);
 		this.makeBeep(buffer,e,now-this.startTime);
 		const source=audioContext.createBufferSource();
