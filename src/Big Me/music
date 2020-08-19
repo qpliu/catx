@@ -10,7 +10,8 @@
 \include "bass"
 \include "basstext_midi"
 \include "generated-guitar"
-\include "vo"
+\include "generated-vo"
+\include "generated-votext_midi"
 \include "lyrics"
 \include "karaoke"
 
@@ -82,7 +83,8 @@ midimusic = <<
     \tag #'(midiOne) \new Staff = "bass" \with {
 	midiInstrument = #"electric bass (pick)"
     } \bassPart
-    \tag #'(midiKaraoke) <<
+    \tag #'(midiKaraoke) \new Staff = "generated-votext" \midivoPartText
+    \tag #'(midiKaraoke) \new Staff = "generated-vo" <<
 	\karaokeLyrics
 	\voPart
     >>
