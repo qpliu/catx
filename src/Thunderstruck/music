@@ -102,10 +102,12 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"distorted guitar"
     } \guitarOne
-    \tag #'(midiTwo) \new Staff \with {
+    \tag #'(midiKaraoke) \new Staff = "vocalstext" \midivocalsText
+    \tag #'(midiKaraoke) \new Staff = "vocals" \with {
 	midiInstrument = #"tenor sax"
     } \vocals
-    \tag #'(midiThree) \new Staff \with {
+    \tag #'(midiKaraokeTwo) \new Staff = "vocals2text" \midivocalsTwoText
+    \tag #'(midiKaraokeTwo) \new Staff = "vocals2" \with {
 	midiInstrument = #"tenor sax"
     } \vocalsTwo
 >>

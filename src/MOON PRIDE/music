@@ -284,7 +284,7 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff = "eg3" \egThreePart
     \tag #'(midiPeter) \new Staff = "eg4text" \midiegFourText
     \tag #'(midiPeter) \new Staff = "eg4" \egFourPart
-    \tag #'(midiPeter) \new Staff = "eg5text"  \midiegFiveText
+    \tag #'(midiPeter) \new Staff = "eg5text" \midiegFiveText
     \tag #'(midiPeter) \new Staff = "eg5" \egFivePart
     \tag #'(midiTwo) \new Staff = "ebtext" \midiebText
     \tag #'(midiTwo) \new Staff = "eb" \ebPart
@@ -292,7 +292,7 @@ midimusic = <<
     \tag #'(midiTwo) \new DrumStaff = "perc" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \percPart
-    \tag #'(midiGg) \new Staff = "drstext"  \mididrsText
+    \tag #'(midiGg) \new Staff = "drstext" \mididrsText
     \tag #'(midiGg) \new DrumStaff = "drs" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
