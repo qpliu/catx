@@ -1,0 +1,7 @@
+#!/bin/sh
+java -jar ../../songsterrToLy/1.jar --name guitar --output-tabs https://www.songsterr.com/a/wsa/living-colour-cult-of-personality-tab-s23625t0 > guitartabs
+java -jar ../../songsterrToLy/1.jar --name guitar --output-tabs https://www.songsterr.com/a/wsa/living-colour-cult-of-personality-tab-s23625t1 > solotabs
+java -jar ../../songsterrToLy/1.jar --name bass --output-tabs https://www.songsterr.com/a/wsa/living-colour-cult-of-personality-bass-tab-s23625t2 > basstabs
+java -jar ../../songsterrToLy/1.jar --name vocals --no-string-numbers https://www.songsterr.com/a/wsa/living-colour-cult-of-personality-tab-s23625t3 > vocals
+java -jar ../../songsterrToLy/1.jar --name vocals2 --no-string-numbers https://www.songsterr.com/a/wsa/living-colour-cult-of-personality-tab-s23625t4 > vocals2
+java -jar ../../songsterrToLy/1.jar --name drum https://www.songsterr.com/a/wsa/living-colour-cult-of-personality-drum-tab-s23625t5 > drums

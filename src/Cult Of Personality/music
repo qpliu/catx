@@ -1,0 +1,59 @@
+% BIN
+
+\header {
+    title = "Cult Of Personality"
+    composer = "Living Colour"
+}
+
+\include "markup"
+\include "excerptguitar"
+\include "excerptbass"
+\include "excerptdrums"
+
+layoutmusic = <<
+    \tag #'(allPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\guitar
+    >>
+    \tag #'(allPart) \new TabStaff <<
+	\markupStuff
+	\guitar
+    >>
+    \tag #'(allPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Bass" }
+	shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } <<
+	\markupStuff
+	\clef "bass_8"
+	\bass
+    >>
+    \tag #'(allPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+	\markupStuff
+	\bass
+    >>
+    \tag #'(allPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drum
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiGg) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drum
+    \tag #'(midiOne) \new Staff \with {
+	midiInstrument = #"electric bass (finger)"
+    } \bass
+    \tag #'(midiPeter) \new Staff \with {
+	midiInstrument = #"distorted guitar"
+    } \guitar
+>>
