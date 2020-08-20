@@ -123,7 +123,7 @@ drum = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { cymc8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
 \mymark "Solo" #107
     << { hh8 hh <sn hh> hh hh hh sn16 sn sn8 | } \context DrumVoice = "drsb" { bd2 bd | } >>
-    << { cymc8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+    << { cymc4 <sn hh>8 hh hh hh <sn hh> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
     << { cymc8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
     << { cymc8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
     << { cymc8 hh <sn hh> hh hh hh <sn hh> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
