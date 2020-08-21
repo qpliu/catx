@@ -25,7 +25,7 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
-	\new Voice = "vo" \vocals
+	\new Voice = "vo" { \myVocalsStuff \vocals }
 	\voLyrics
     >>
     \tag #'(allPart kavPart susanPart) \new Staff \with {
@@ -33,7 +33,7 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Vo2" }
     } <<
 	\markupStuff
-	\vocalsTwo
+	{ \myVocalsStuff \vocalsTwo }
 	% \voTwoLyrics
     >>
     \tag #'(allPart peterPart) \new Staff \with {
@@ -54,7 +54,7 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\clef "treble_8"
-	\guitarTwo
+	{ \myVocalsStuff \guitarTwo }
     >>
     \tag #'(peterPart) \new TabStaff <<
 	\markupStuff
