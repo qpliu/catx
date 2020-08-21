@@ -6,8 +6,12 @@ vocalsText =
 % title: Thunderstruck
 % instrument: Tenor Sax
 % name: Brian Johnson - Vocals
+
+
+% \mymark "Intro" #1
 % tuning e, a, d g b e'
     r4 |
+% \time 4/4
     r1 |
     r1 |
     r1 |
@@ -24,10 +28,12 @@ vocalsText =
     r1 |
     r1 |
     r1 |
+% \mymark "Drums Enter" #18
     r1 |
     r1 |
     r1 |
     r1 |
+% \mymark "Bass Enters" #22
     r1 |
     r1 |
     r1 |
@@ -36,6 +42,7 @@ vocalsText =
     r1 |
     r1 |
     r1 |
+% \mymark "Rhythm Guitar Enters" #30
     r1 |
     r1 |
     r1 |
@@ -44,6 +51,7 @@ vocalsText =
     r1 |
     r1 |
     r1 |
+% \mymark "Verse" #38
     r1 |
     r1 |
     r1 |
@@ -98,6 +106,7 @@ vocalsText =
     r1 |
     r1 |
     r1 |
+% \mymark "Chorus" #92
     r1 |
     r1 |
     r1 |
@@ -113,6 +122,7 @@ vocalsText =
     r1 |
     r1 |
     r1 |
+% \mymark "Solo" #107
     r1 |
     r1 |
     r1 |
@@ -132,6 +142,7 @@ vocalsText =
     r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |
     r1 |
+% \mymark "Chorus" #126
     r1 |
     r1 |
     r1 |
@@ -148,6 +159,7 @@ vocalsText =
     r1 |
     r1 |
     r1 |
+% \mymark "Outro" #142
     r1 |
     r1 |
     r1 |
@@ -164,9 +176,14 @@ vocalsText =
     r1 |
     r1 |
     r1 |
+% \tempo 4 = 126
     r1 |
+% \tempo 4 = 118
     r1 |
+% \tempo 4 = 108
     r1 |
+% \tempo 4 = 100
     r1 |
+% \tempo 4 = 96
     r1 |
 }
