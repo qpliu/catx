@@ -33,6 +33,7 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Vo2" }
     } <<
 	\markupStuff
+	\clef "treble_8"
 	{ \myVocalsStuff \vocalsTwo }
 	% \voTwoLyrics
     >>
