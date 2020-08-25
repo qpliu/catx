@@ -15,7 +15,6 @@
 \include "drums"
 \include "vocals"
 \include "vocals2"
-\include "vocalstext_midi"
 \include "vocals2text_midi"
 \include "lyrics"
 
@@ -25,6 +24,7 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
+	\clef "treble_8"
 	\new Voice = "vo" { \myVocalsStuff \vocals }
 	\voLyrics
     >>
@@ -35,7 +35,6 @@ layoutmusic = <<
 	\markupStuff
 	\clef "treble_8"
 	{ \myVocalsStuff \vocalsTwo }
-	% \voTwoLyrics
     >>
     \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Guitar 1" }
@@ -103,8 +102,7 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"distorted guitar"
     } \guitarOne
-    \tag #'(midiKaraoke) \new Staff = "vocalstext" \midivocalsText
-    \tag #'(midiKaraoke) \new Staff = "vocals" \with {
+    \tag #'(midiKaraoke) \new Staff \with {
 	midiInstrument = #"tenor sax"
     } \vocals
     \tag #'(midiKaraokeTwo) \new Staff = "vocals2text" \midivocalsTwoText
