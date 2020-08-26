@@ -1,5 +1,4 @@
 #!/bin/sh
-set -e
 if test '!' -f "../buildBin"
 then
     echo "Wrong directory.  Run this from one of src/*/ directories."
@@ -7,33 +6,37 @@ then
 fi
 pwd=`pwd`
 name=`basename "$pwd"`
+set -e
 PARTS=`grep '^% BIN ' music|cut -c 7-`
 if test -n "$PARTS"
 then
-    echo "$name"
-    ../../build/build $PARTS
-    cd ../../build
-    mkdir -p ../bin/"$name"
-    for a in bin/bin/*
-    do
-	b=`basename "$a"`
-	case "$a" in
-	    *.pdf)
-		if test -f "../bin/$name/$b"
-		then
-		    ./get_rid_of_id_in_pdf.py <"$a" >bin/1
-		    ./get_rid_of_id_in_pdf.py <"../bin/$name/$b" >bin/2
-		    if cmp -s bin/1 bin/2
+    (
+	echo "$name"
+	../../build/build $PARTS
+	cd ../../build
+	mkdir -p ../bin/"$name"
+	for a in bin/bin/*
+	do
+	    b=`basename "$a"`
+	    case "$a" in
+		*.pdf)
+		    if test -f "../bin/$name/$b"
 		    then
-			touch ../bin/"$name/$b"
-			continue
+			./get_rid_of_id_in_pdf.py <"$a" >bin/1
+			./get_rid_of_id_in_pdf.py <"../bin/$name/$b" >bin/2
+			if cmp -s bin/1 bin/2
+			then
+			    touch ../bin/"$name/$b"
+			    continue
+			fi
 		    fi
-		fi
-		cp "$a" ../bin/"$name"
-		;;
-	    *.midi)
-		cp "$a" ../bin/"$name"
-		;;
-	esac
-    done
+		    cp "$a" ../bin/"$name"
+		    ;;
+		*.midi)
+		    cp "$a" ../bin/"$name"
+		    ;;
+	    esac
+	done
+    )2>&1|tee log
+    cp log "../../bin/$name/log"
 fi

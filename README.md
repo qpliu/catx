@@ -5,15 +5,11 @@ PDF and MIDI files are in [bin](bin).
 Lilypond source is in [src](src).
 Web site is in [html/catx.band](html/catx.band).
 
-### Building PDF and MIDI files the easy way
-
-Push your changes and wait for me to build.  Don't worry about minor errors.  As long as I can understand your intent, it is fine.
-
-### Prerequisites to build source the hard way
+### Prerequisites to build PDF and MIDI files
 
 Lilypond, sh, python, java.
 
-### Building PDF and MIDI files the hard way
+### Building PDF and MIDI files
 
 If you have a directory called /share/music, the build scripts will crap all over it.  You can either put up with it, rename your /share/music directory or modify the scripts.
 
