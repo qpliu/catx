@@ -1,0 +1,74 @@
+bass =
+{
+% url: https://www.songsterr.com/a/wsa/john-lennon-gimme-some-truth-bass-tab-s453786t4
+% artist: John Lennon
+% title: Gimme Some Truth
+% instrument: Electric Bass (finger)
+% name: Bass
+    \time 4/4
+    \tempo 4 = 67
+\mymark "Verse 1" #1
+% tuning e,, a,, d, g,
+    2-3t8. t16 t8 t 3-0t16 t t8 t t |
+    3-3t8. t16 t8 t 2-3t16 t 1t8 0t 3-3t |
+    3-1t16 t t8 t t 3t16 t t8 t t |
+    3-1t16 t t8 t t 3t16 t t8 t 2-0t16 2t |
+    2-3t8 t16 t t8 t 3-0t t16 t t8 t |
+    3-3t8 t16 t t8 t 2-3t 1t 0t 3-3t |
+    3-1t8 t t t 3t t t t |
+    3-1t8 t t t 3t t t t |
+\mymark "Chorus 1" #9
+    2-1t8 t16 3-1t 2-1t8 t16 3-1t 2-1t8 t16 3-1t 2-1t8 t16 3-1t |
+    2-1t8 t16 3-1t 2-1t8 t16 3-1t 2-1t8 t16 3-1t 2-1t8 t16 3-1t |
+    3-4t8 t16 4-4t 3-4t8 t16 4-4t 3-4t8 t16 4-4t 3-4t8 t16 2-1t |
+    1-1t8 t16 2-1t 1-1t8 t t t16 2-1t 1-1t8 t |
+    3-1t8 t16 t t8 t t t t t |
+\mymark "Solo" #14
+    2-3t8 t16 t t8 t 3-0t t t t |
+    3-3t8 t t 2-0t16 3-3t 2-3t8 1t 0t16 3-0t 3t8 |
+    3-1t8 t t t 3t t16 t t8 t |
+    3-1t8 t t t 3t t t16 4-3t 3-3t 2-2t |
+    2-3t8 t t t 3-0t16 t t8 t t |
+    3-3t8 t16 t t8 2-0t16 2t 3t 1-0t 2-1t8 0t 3-3t |
+    3-1t8 t t t 3t t t t |
+    3-1t8 t t t 3t t t t |
+\mymark "Chorus 2" #22
+    2-1t8 t16 3-1t 2-1t8 t16 3-1t 2-1t8 t16 3-1t 2-1t8 t16 3-1t |
+    2-1t8 t16 3-1t 2-1t8 t16 3-1t 2-1t8 t16 3-1t 2-1t8 t16 3-1t |
+    3-4t8 t16 4-4t 3-4t8 t16 4-4t 3-4t8 t16 4-4t 3-4t8 t16 2-1t |
+    1-1t8 t16 2-1t 1-1t8 t t t16 2-1t 1-1t8 t |
+    3-1t8 t t t16 t t t t t t8 t16 t |
+\mymark "Verse 2" #27
+    2-3t8. t16 t8 t 3-0t16 t t8 t t |
+    3-3t8. t16 t8 t 2-3t16 t 1t8 0t 3-3t |
+    3-1t16 t t8 t t 3t16 t t8 t t |
+    3-1t16 t t8 t t 3t16 t t8 t 2-0t16 2t |
+    2-3t8 t16 t t8 t 3-0t t16 t t8 t |
+    3-3t8 t16 t t8 t 2-3t 1t 0t 3-3t |
+    3-1t8 t t t 3t t t t |
+    3-1t8 t t t 3t t t t |
+\mymark "Chorus 3" #35
+    2-1t8 t16 3-1t 2-1t8 t16 3-1t 2-1t8 t16 3-1t 2-1t8 t16 3-1t |
+    2-1t8 t16 3-1t 2-1t8 t16 3-1t 2-1t8 t16 3-1t 2-1t8 t16 3-1t |
+    3-4t8 t16 4-4t 3-4t8 t16 4-4t 3-4t8 t16 4-4t 3-4t8 t16 2-1t |
+    1-1t8 t16 2-1t 1-1t8 t t t16 2-1t 1-1t8 t |
+    3-1t8 t16 t t8 t t16 t8 t16 t8 t16 t |
+\mymark "Verse 3" #40
+    2-3t8. t16 t8 t 3-0t16 t t8 t t |
+    3-3t8. t16 t8 t 2-3t16 t 1t8 0t 3-3t |
+    3-1t16 t t8 t t 3t16 t t8 t t |
+    3-1t16 t t8 t t 3t16 t t8 t 2-0t16 2t |
+    2-3t8 t16 t t8 t 3-0t t16 t t8 t |
+    3-3t8 t16 t t8 t 2-3t 1t 0t 3-3t |
+    3-1t8 t t t 3t t t t |
+    3-1t8 t t t 3t t t t |
+\mymark "Outro" #48
+    3-1t8 t t t 3t t t t |
+    3-1t8 t t t 3t t t t |
+    3-1t8 t t t 3t t t t |
+    3-1t8 t t t 3t t t t |
+    3-1t8 t t t 3t t t t |
+    3-1t8 t t t 3t t t t |
+    3-1t8 t t t 3t t t t |
+    3-1t8 t t t 3t t t t |
+}

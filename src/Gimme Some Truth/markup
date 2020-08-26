@@ -1,0 +1,8 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \time 4/4
+    \tempo 4 = 67
+    \key f \major
+\mymark "Solo" #1
+    s1*8 |
+}

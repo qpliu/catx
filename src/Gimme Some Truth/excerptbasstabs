@@ -1,0 +1,14 @@
+bass =
+{
+% tuning e,, a,, d, g,
+% scale c des d ees e f ges g aes a bes b
+\mymark "Solo" #1
+    2-3t8 t16 t t8 t 3-0t t t t |
+    3-3t8 t t 2-0t16 3-3t 2-3t8 1t 0t16 3-0t 3t8 |
+    3-1t8 t t t 3t t16 t t8 t |
+    3-1t8 t t t 3t t t16 4-3t 3-3t 2-2t |
+    2-3t8 t t t 3-0t16 t t8 t t |
+    3-3t8 t16 t t8 2-0t16 2t 3t 1-0t 2-1t8 0t 3-3t |
+    3-1t8 t t t 3t t t t |
+    3-1t8 t t t 3t4 r |
+}

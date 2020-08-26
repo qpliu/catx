@@ -1,0 +1,74 @@
+rguitar =
+{
+% url: https://www.songsterr.com/a/wsa/john-lennon-gimme-some-truth-tab-s453786t1
+% artist: John Lennon
+% title: Gimme Some Truth
+% instrument: Overdriven Guitar
+% name: Rhythm Guitar
+    \time 4/4
+    \tempo 4 = 67
+\mymark "Verse 1" #1
+% tuning e, a, d g b e'
+    5-5t8 4-7t 3-7t 2-7t 6-2t 3-2t 2-2t 1-2t |
+    5-0t8 3-2t 2-1t 1-2t 2-1t 3-2t 4-0t 3-2t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+    5-5t8 4-7t 3-7t 2-7t 6-2t 3-2t 2-2t 1-2t |
+    5-0t8 3-2t 2-1t 1-2t 2-1t 3-2t 4-0t 3-2t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+\mymark "Chorus 1" #9
+    r8 6-8t 5-7t 4-5t 3-5t 2-5t 3-5t 4-5t |
+    5-7t8 6-8t 5-7t 4-5t 6-8t 3-5t 2-5t 3-5t |
+    5-1t8 3-3t 2-3t 1-1t 2-3t 3-3t 4-3t 3-3t |
+    6-1t8 3-2t 2-1t 1-1t 2-1t 3-2t 4-3t 2-1t |
+    6-3t8 3-4t 2-3t 1-3t 2-3t 3-4t 4-5t 3-4t |
+\mymark "Solo" #14
+    5-5t8 4-7t 3-7t 2-7t 6-2t 3-2t 2-2t 1-2t |
+    5-0t8 3-2t 2-1t 1-2t 2-1t 3-2t 4-0t 3-2t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+    5-5t8 4-7t 3-7t 2-7t 6-2t 3-2t 2-2t 1-2t |
+    5-0t8 3-2t 2-1t 1-2t 2-1t 3-2t 4-0t 3-2t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+\mymark "Chorus 2" #22
+    r8 6-8t 5-7t 4-5t 3-5t 2-5t 3-5t 4-5t |
+    5-7t8 6-8t 5-7t 4-5t 6-8t 3-5t 2-5t 3-5t |
+    5-1t8 3-3t 2-3t 1-1t 2-3t 3-3t 4-3t 3-3t |
+    6-1t8 3-2t 2-1t 1-1t 2-1t 3-2t 4-3t 2-1t |
+    6-3t8 3-4t 2-3t 1-3t 2-3t 3-4t 4-5t 5-5t |
+\mymark "Verse 2" #27
+    5-5t8 4-7t 3-7t 2-7t 6-2t 3-2t 2-2t 1-2t |
+    5-0t8 3-2t 2-1t 1-2t 2-1t 3-2t 4-0t 3-2t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+    5-5t8 4-7t 3-7t 2-7t 6-2t 3-2t 2-2t 1-2t |
+    5-0t8 3-2t 2-1t 1-2t 2-1t 3-2t 4-0t 3-2t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+\mymark "Chorus 3" #35
+    r8 6-8t 5-7t 4-5t 3-5t 2-5t 3-5t 4-5t |
+    5-7t8 6-8t 5-7t 4-5t 6-8t 3-5t 2-5t 3-5t |
+    5-1t8 3-3t 2-3t 1-1t 2-3t 3-3t 4-3t 3-3t |
+    6-1t8 3-2t 2-1t 1-1t 2-1t 3-2t 4-3t 2-1t |
+    6-3t8 3-4t 2-3t 1-3t 2-3t 3-4t 4-5t 5-5t |
+\mymark "Verse 3" #40
+    5-5t8 4-7t 3-7t 2-7t 6-2t 3-2t 2-2t 1-2t |
+    5-0t8 3-2t 2-1t 1-2t 2-1t 3-2t 4-0t 3-2t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+    5-5t8 4-7t 3-7t 2-7t 6-2t 3-2t 2-2t 1-2t |
+    5-0t8 3-2t 2-1t 1-2t 2-1t 3-2t 4-0t 3-2t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+\mymark "Outro" #48
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+    6-3t8 3-4t 2-3t 1-3t 6-5t 3-6t 2-5t 1-5t |
+}

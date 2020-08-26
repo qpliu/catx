@@ -1,0 +1,14 @@
+sguitar =
+{
+% tuning e, a, d g b e'
+% scale c des d ees e f ges g aes a bes b
+\mymark "Solo" #1
+    r4. r16 2-10t \glissando 2-13t t t t t32 \glissando 10t16. 13t16 t |
+    2-13t16 \glissando 10t 13t t t 10t 13t 15t16. r32 2-8t16 \glissando 10t 4-10.10t4~ t16 |
+    r8 3-10t16 7t 5t8 7t16 3-13.13t2~ t16 |
+    r16 3-10t8 7t16 5t8 t16 \glissando 3-7t 5t4 r8 3-10.10t \glissando |
+    2-13t16 t t t r 10t8 \glissando 13t16 t t t t r 10t \glissando 13t t |
+    2-13t16 10t 13t t t 15t 3-15t 2-13.13t r 15.15t r 2-13t8 10t 4-10t16 |
+    r16 2-11t16 \glissando 2-9t8. 6t16 9t 2-8.8t4~ t16 r8. 3-5t16 \glissando |
+    3-7t16 2-6t8 3-5t16 \glissando 7t 5t \glissando 7t8 5t4 r4 |
+}

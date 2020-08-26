@@ -1,0 +1,74 @@
+sguitar =
+{
+% url: https://www.songsterr.com/a/wsa/john-lennon-gimme-some-truth-tab-s453786t2
+% artist: John Lennon
+% title: Gimme Some Truth
+% instrument: Distortion Guitar
+% name: Slide Guitar
+    \time 4/4
+    \tempo 4 = 67
+\mymark "Verse 1" #1
+% tuning e, a, d g b e'
+    4-3t2 2t |
+    5-3t2. 4-3t4 |
+    4-3t2 5t |
+    4-3t2 5t |
+    4-3t2 2t |
+    4-3t2 t |
+    4-3t2 5t |
+    4-3t2 5t |
+\mymark "Chorus 1" #9
+    5-6t1 |
+    5-6t1 |
+    5-4t2 4-6t |
+    5-6t2 4-6t |
+    4-3t1 |
+\mymark "Solo" #14
+    r4. r16 1-8t t t t t t32 \glissando 5t16. 8t16 t |
+    1-8t16 \glissando 5t 8t t t 5t 8t 10t16. r32 2-8t16 \glissando 10t 4-10.10t4~ t16 |
+    r8 3-10t16 7t 4-10t8 3-7t16 2-9.8t2~ t16 |
+    r16 3-10t8 7t16 4-10t8 t16 3-7t 5t4 r8 2-10.8t |
+    1-8t16 t t t r 5t8 8t16 t t t t r 5t 8t t |
+    1-8t16 5t 8t t t 10t 2-10t 13.13t r 15.15t r 1-8t8 5t 3-5t16 |
+    3-7t16 r 1-6t8. 2-6t16 1-6t 2-8.8t4~ t16 r8. 3-5t16 |
+    3-7t16 2-6t 3-7t8 t16 \glissando 5t 7t \glissando 5t4~ t16 r4 |
+\mymark "Chorus 2" #22
+    5-6t1 |
+    5-6t1 |
+    5-4t2 4-6t |
+    5-6t2 4-6t |
+    4-3t2 3-3t |
+\mymark "Verse 2" #27
+    4-3t2 2t |
+    5-3t2. 4-3t4 |
+    4-3t2 5t |
+    4-3t2 5t |
+    4-3t2 2t |
+    4-3t2 t |
+    4-3t2 5t |
+    4-3t2 5t |
+\mymark "Chorus 3" #35
+    5-6t1 |
+    5-6t1 |
+    5-4t2 4-6t |
+    5-6t2 4-6t |
+    4-3t2 3-3t |
+\mymark "Verse 3" #40
+    4-3t2 2t |
+    5-3t2. 4-3t4 |
+    4-3t2 5t |
+    4-3t2 5t |
+    4-3t2 2t |
+    4-3t2 t |
+    4-3t2 5t |
+    4-3t2 5t |
+\mymark "Outro" #48
+    4-3t2 5t |
+    4-3t2 5t |
+    4-3t2 5t |
+    4-3t2 5t |
+    4-3t2 5t |
+    4-3t2 5t |
+    4-3t2 5t |
+    4-3t2 5t |
+}

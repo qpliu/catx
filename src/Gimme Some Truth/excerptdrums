@@ -1,0 +1,13 @@
+drum = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+\mymark "Solo" #1
+    << { <sn hh>16 hh hh hh <sn hh> hh hh hh <sn hh> hh hh hh <sn hh> hh hh hh | } \context DrumVoice = "drsb" { bda16 r8 bda16 bda r8. bda16 bda r bda bda r8. | } >>
+    << { <sn hh>16 hh hh hh <sn hh> hh hh hh <sn hh> hh hh hh <sn hh> hh hh hh | } \context DrumVoice = "drsb" { bda16 r8 bda16 bda r8. bda16 bda r bda bda bda r bda | } >>
+    << { <sn hh>16 hh hh hh <sn hh> hh hh hh <sn hh> hh hh hh <sn hh> hh hh hh | } \context DrumVoice = "drsb" { bda16 r8 bda16 bda r8. bda16 bda r bda bda r8. | } >>
+    << { <sn hh>16 hh hh hh <sn hh> hh hh hh <sn hh> hh hh hh <sn hh> hh hh hh | } \context DrumVoice = "drsb" { bda16 r8 bda16 bda r8. bda16 bda r bda bda bda r bda | } >>
+    << { <sn hh>16 hh hh hh <sn hh> hh hh hh <sn hh> hh hh hh <sn hh> hh hh hh | } \context DrumVoice = "drsb" { bda16 r8 bda16 bda r8. bda16 bda r bda bda r8. | } >>
+    << { <sn hh>16 hh hh hh <sn hh> hh hh hh <sn hh> hh hh hh <sn hh> hh hh hh | } \context DrumVoice = "drsb" { bda16 r8 bda16 bda r8. bda16 bda r bda bda bda r bda | } >>
+    << { <sn hh>16 hh hh hh <sn hh> hh hh hh <sn hh> hh hh hh <sn hh> hh hh hh | } \context DrumVoice = "drsb" { bda16 r8 bda16 bda r8. bda16 bda r bda bda r8. | } >>
+    << { <sn hh>16 hh hh hh <sn hh> hh hh hh cymcb4 r4 | } \context DrumVoice = "drsb" { bda16 r8 bda16 bda r8. bda4 r | } >>
+}

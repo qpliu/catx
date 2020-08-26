@@ -1,0 +1,9 @@
+#!/bin/sh
+java -jar ../../songsterrToLy/1.jar --name vocals --no-string-numbers https://www.songsterr.com/a/wsa/john-lennon-gimme-some-truth-tab-s453786t0 > vocals
+java -jar ../../songsterrToLy/1.jar --name rguitar --output-tabs https://www.songsterr.com/a/wsa/john-lennon-gimme-some-truth-tab-s453786t1 > rguitartabs
+java -jar ../../songsterrToLy/1.jar --name sguitar --output-tabs https://www.songsterr.com/a/wsa/john-lennon-gimme-some-truth-tab-s453786t2 > sguitartabs
+java -jar ../../songsterrToLy/1.jar --name aguitar --output-tabs https://www.songsterr.com/a/wsa/john-lennon-gimme-some-truth-tab-s453786t3 > aguitartabs
+java -jar ../../songsterrToLy/1.jar --name bass --output-tabs https://www.songsterr.com/a/wsa/john-lennon-gimme-some-truth-bass-tab-s453786t4 > basstabs
+java -jar ../../songsterrToLy/1.jar --name drum https://www.songsterr.com/a/wsa/john-lennon-gimme-some-truth-drum-tab-s453786t5 > drums
+java -jar ../../songsterrToLy/1.jar --name gpiano --no-string-numbers https://www.songsterr.com/a/wsa/john-lennon-gimme-some-truth-tab-s453786t6 > gpiano
+java -jar ../../songsterrToLy/1.jar --name epiano --no-string-numbers https://www.songsterr.com/a/wsa/john-lennon-gimme-some-truth-tab-s453786t7 > epiano

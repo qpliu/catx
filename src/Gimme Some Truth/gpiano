@@ -1,0 +1,74 @@
+gpiano =
+{
+% url: https://www.songsterr.com/a/wsa/john-lennon-gimme-some-truth-tab-s453786t6
+% artist: John Lennon
+% title: Gimme Some Truth
+% instrument: Acoustic Grand Piano
+% name: Piano
+    \time 4/4
+    \tempo 4 = 67
+\mymark "Verse 1" #1
+% tuning e, a, d g b e'
+    <a c' f'>8 <a c' f'> <a c' f'> <a c' f'> <a c' e'> <a c' e'> <a c' e'> <a c' e'> |
+    <a c' f'>8 <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+    <a c' f'>8 <a c' f'> <a c' f'> <a c' f'> <a c' e'> <a c' e'> <a c' e'> <a c' e'> |
+    <a c' f'>8 <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+\mymark "Chorus 1" #9
+    r8 <ais dis' g'> r <ais dis' g'> r <ais dis' g'> r <ais dis' g'> |
+    r8 <ais dis' g'> r <ais dis' g'> r <ais dis' g'> r <ais dis' g'> |
+    r8 <gis cis' f'> r <gis cis' f'> r <gis cis' f'> r <gis cis' f'> |
+    r8 <gis c' dis'> r <gis c' dis'> r <gis c' dis'> r <gis c' dis'> |
+    r8 <ais d' f'> r <ais d' f'> r <ais d' f'> r <ais d' f'> |
+\mymark "Solo" #14
+    <a c' f'>8 <a c' f'> <a c' f'> <a c' f'> <a c' e'> <a c' e'> <a c' e'> <a c' e'> |
+    <a c' f'>8 <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+    <a c' f'>8 <a c' f'> <a c' f'> <a c' f'> <a c' e'> <a c' e'> <a c' e'> <a c' e'> |
+    <a c' f'>8 <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+\mymark "Chorus 2" #22
+    r8 <ais dis' g'> r <ais dis' g'> r <ais dis' g'> r <ais dis' g'> |
+    r8 <ais dis' g'> r <ais dis' g'> r <ais dis' g'> r <ais dis' g'> |
+    r8 <gis cis' f'> r <gis cis' f'> r <gis cis' f'> r <gis cis' f'> |
+    r8 <gis c' dis'> r <gis c' dis'> r <gis c' dis'> r <gis c' dis'> |
+    r8 <ais d' f'> r <ais d' f'> r <ais d' f'> r <ais d' f'> |
+\mymark "Verse 2" #27
+    <a c' f'>8 <a c' f'> <a c' f'> <a c' f'> <a c' e'> <a c' e'> <a c' e'> <a c' e'> |
+    <a c' f'>8 <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+    <a c' f'>8 <a c' f'> <a c' f'> <a c' f'> <a c' e'> <a c' e'> <a c' e'> <a c' e'> |
+    <a c' f'>8 <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+\mymark "Chorus 3" #35
+    r8 <ais dis' g'> r <ais dis' g'> r <ais dis' g'> r <ais dis' g'> |
+    r8 <ais dis' g'> r <ais dis' g'> r <ais dis' g'> r <ais dis' g'> |
+    r8 <gis cis' f'> r <gis cis' f'> r <gis cis' f'> r <gis cis' f'> |
+    r8 <gis c' dis'> r <gis c' dis'> r <gis c' dis'> r <gis c' dis'> |
+    r8 <ais d' f'> r <ais d' f'> r <ais d' f'> r <ais d' f'> |
+\mymark "Verse 3" #40
+    <a c' f'>8 <a c' f'> <a c' f'> <a c' f'> <a c' e'> <a c' e'> <a c' e'> <a c' e'> |
+    <a c' f'>8 <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+    <a c' f'>8 <a c' f'> <a c' f'> <a c' f'> <a c' e'> <a c' e'> <a c' e'> <a c' e'> |
+    <a c' f'>8 <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> <a c' f'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+\mymark "Outro" #48
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+    <ais d' f'>8 <ais d' f'> <ais d' f'> <ais d' f'> <c' e' g'> <c' e' g'> <c' e' g'> <c' e' g'> |
+}

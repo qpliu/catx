@@ -1,0 +1,74 @@
+epiano =
+{
+% url: https://www.songsterr.com/a/wsa/john-lennon-gimme-some-truth-tab-s453786t7
+% artist: John Lennon
+% title: Gimme Some Truth
+% instrument: Electric Piano 2
+% name: E.piano
+    \time 4/4
+    \tempo 4 = 67
+\mymark "Verse 1" #1
+% tuning e, a, d g b e'
+    <a c' f'>2 <a c' e'> |
+    <a c' f'>2 <a c' f'> |
+    <ais d' f'>2 <c' e' g'> |
+    <ais d' f'>2 <c' e' g'> |
+    <a c' f'>2 <a c' e'> |
+    <a c' f'>2 <a c' f'> |
+    <ais d' f'>2 <c' e' g'> |
+    <ais d' f'>2 <c' e' g'> |
+\mymark "Chorus 1" #9
+    <ais dis' g'>4 <ais dis' g'> <ais dis' g'> <ais dis' g'> |
+    <ais dis' g'>4 <ais dis' g'> <ais dis' g'> <ais dis' g'> |
+    <gis cis' f'>4 <gis cis' f'> <gis cis' f'> <gis cis' f'> |
+    <gis c' dis'>4 <gis c' dis'> <gis c' dis'> <gis c' dis'> |
+    <ais d' f'>4 <ais d' f'> <ais d' f'> <ais d' f'> |
+\mymark "Solo" #14
+    <a c' f'>2 <a c' e'> |
+    <a c' f'>2 <a c' f'> |
+    <ais d' f'>2 <c' e' g'> |
+    <ais d' f'>2 <c' e' g'> |
+    <a c' f'>2 <a c' e'> |
+    <a c' f'>2 <a c' f'> |
+    <ais d' f'>2 <c' e' g'> |
+    <ais d' f'>2 <c' e' g'> |
+\mymark "Chorus 2" #22
+    <ais dis' g'>4 <ais dis' g'> <ais dis' g'> <ais dis' g'> |
+    <ais dis' g'>4 <ais dis' g'> <ais dis' g'> <ais dis' g'> |
+    <gis cis' f'>4 <gis cis' f'> <gis cis' f'> <gis cis' f'> |
+    <gis c' dis'>4 <gis c' dis'> <gis c' dis'> <gis c' dis'> |
+    <ais d' f'>4 <ais d' f'> <ais d' f'> <ais d' f'> |
+\mymark "Verse 2" #27
+    <a c' f'>2 <a c' e'> |
+    <a c' f'>2 <a c' f'> |
+    <ais d' f'>2 <c' e' g'> |
+    <ais d' f'>2 <c' e' g'> |
+    <a c' f'>2 <a c' e'> |
+    <a c' f'>2 <a c' f'> |
+    <ais d' f'>2 <c' e' g'> |
+    <ais d' f'>2 <c' e' g'> |
+\mymark "Chorus 3" #35
+    <ais dis' g'>4 <ais dis' g'> <ais dis' g'> <ais dis' g'> |
+    <ais dis' g'>4 <ais dis' g'> <ais dis' g'> <ais dis' g'> |
+    <gis cis' f'>4 <gis cis' f'> <gis cis' f'> <gis cis' f'> |
+    <gis c' dis'>4 <gis c' dis'> <gis c' dis'> <gis c' dis'> |
+    <ais d' f'>4 <ais d' f'> <ais d' f'> <ais d' f'> |
+\mymark "Verse 3" #40
+    <a c' f'>2 <a c' e'> |
+    <a c' f'>2 <a c' f'> |
+    <ais d' f'>2 <c' e' g'> |
+    <ais d' f'>2 <c' e' g'> |
+    <a c' f'>2 <a c' e'> |
+    <a c' f'>2 <a c' f'> |
+    <ais d' f'>2 <c' e' g'> |
+    <ais d' f'>2 <c' e' g'> |
+\mymark "Outro" #48
+    <ais d' f'>2 <c' e' g'> |
+    <ais d' f'>2 <c' e' g'> |
+    <ais d' f'>2 <c' e' g'> |
+    <ais d' f'>2 <c' e' g'> |
+    <ais d' f'>2 <c' e' g'> |
+    <ais d' f'>2 <c' e' g'> |
+    <ais d' f'>2 <c' e' g'> |
+    <ais d' f'>2 <c' e' g'> |
+}

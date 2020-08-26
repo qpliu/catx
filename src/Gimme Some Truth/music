@@ -1,0 +1,87 @@
+% BIN
+
+\header {
+    title = "Gimme Some Truth"
+    composer = "John Lennon"
+}
+
+\include "markup"
+\include "excerptrguitar"
+\include "excerptsguitar"
+\include "excerptbass"
+\include "excerptdrums"
+\include "excerptpiano"
+
+layoutmusic = <<
+    \tag #'(allPart gitPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\rguitar
+    >>
+    \tag #'(allPart gitPart) \new TabStaff <<
+	\markupStuff
+	\rguitar
+    >>
+    \tag #'(allPart soloPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Solo Guitar" }
+	shortInstrumentName = \markup { \rotate #90 "SGtr" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\sguitar
+    >>
+    \tag #'(allPart soloPart) \new TabStaff <<
+	\markupStuff
+	\sguitar
+    >>
+    \tag #'(allPart bassPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Bass" }
+	shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } <<
+	\markupStuff
+	\clef "bass_8"
+	\bass
+    >>
+    \tag #'(allPart bassPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+	\markupStuff
+	\bass
+    >>
+    \tag #'(allPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drum
+    >>
+    \tag #'(allPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Piano" }
+	shortInstrumentName = \markup { \rotate #90 "P" }
+    } <<
+	\markupStuff
+	\clef "treble"
+	\gpiano
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiGg) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drum
+    \tag #'(midiOne) \new Staff \with {
+	midiInstrument = #"electric bass (finger)"
+    } \bass
+    \tag #'(midiPeter) \new Staff \with {
+	midiInstrument = #"distorted guitar"
+    } \sguitar
+    \tag #'(midiThree) \new Staff \with {
+	midiInstrument = #"overdriven guitar"
+    } \rguitar
+    \tag #'(midiTwo) \new Staff \with {
+	midiInstrument = #"acoustic grand"
+    } \gpiano
+>>
