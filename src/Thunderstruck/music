@@ -15,6 +15,7 @@
 \include "vocals2"
 \include "vocals2text_midi"
 \include "lyrics"
+\include "karaoke"
 
 layoutmusic = <<
     \tag #'(allPart kavPart) \new Staff \with {
@@ -107,4 +108,5 @@ midimusic = <<
     \tag #'(midiKaraokeTwo) \new Staff = "vocals2" \with {
 	midiInstrument = #"tenor sax"
     } \vocalsTwo
+	\karaokeLyrics
 >>
