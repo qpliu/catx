@@ -1,0 +1,20 @@
+% BIN midi all
+% ROBOT metronome=1
+
+\header {
+    title = "Warmup Scale"
+}
+
+\include "vo"
+
+layoutmusic = <<
+    \tag #'(allPart) \new Staff <<
+	\voPart
+    >>
+>>
+
+midimusic = <<
+    \tag #'(midiKaraoke) <<
+	\voPart
+    >>
+>>
