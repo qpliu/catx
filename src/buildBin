@@ -12,9 +12,9 @@ if test -n "$PARTS"
 then
     (
 	echo "$name"
+	mkdir -p ../../bin/"$name"
 	../../build/build $PARTS
 	cd ../../build
-	mkdir -p ../bin/"$name"
 	for a in bin/bin/*
 	do
 	    b=`basename "$a"`
@@ -37,6 +37,5 @@ then
 		    ;;
 	    esac
 	done
-    )2>&1|tee log
-    cp log "../../bin/$name/log"
+    )2>&1|tee "../../bin/$name/log"
 fi
