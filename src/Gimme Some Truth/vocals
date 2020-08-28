@@ -11,18 +11,18 @@ vocals =
 % tuning e, a, d g b e'
     r16 a c' b c'8 c' c'16 a8 c'8. c'8 |
     c'8 c' c' c'16 b c' b c' b c' c' c' b |
-    r8 ais16 a ais a g ais4~ ais16 r4 |
-    r8 ais ais16 a g ais4~ ais16 r4 |
+    r8 bes16 a bes a g bes4~ bes16 r4 |
+    r8 bes bes16 a g bes4~ bes16 r4 |
     r16 a c' b c'8 c' c'16 a8 c'8. c'8 |
     c'8 c'16 b c'8 c'16 b c'8 c'16 b c' b c' a |
-    r8 ais16 a ais a g ais4~ ais16 r4 |
-    r8 ais ais16 a g ais4~ ais16 r8 d' |
+    r8 bes16 a bes a g bes4~ bes16 r4 |
+    r8 bes bes16 a g bes4~ bes16 r8 d' |
 \mymark "Chorus 1" #9
-    dis'8 dis' dis'16 d' dis' d' dis' d' dis' d' dis' d' dis' d' |
-    dis'16 d' dis' d' dis'8 dis' dis'16 d' dis' d' dis' d' dis' c' |
-    cis'4 r2 f'16 f' f' f' \glissando |
-    dis'4 r2 dis'16 dis' dis' dis' \glissando |
-    d'4 r2 g'8 ais16 c'~ |
+    ees'8 ees' ees'16 d' ees' d' ees' d' ees' d' ees' d' ees' d' |
+    ees'16 d' ees' d' ees'8 ees' ees'16 d' ees' d' ees' d' ees' c' |
+    des'4 r2 f'16 f' f' f' \glissando |
+    ees'4 r2 ees'16 ees' ees' ees' \glissando |
+    d'4 r2 g'8 bes16 c'~ |
 \mymark "Solo" #14
     c'8 d' r2. |
     r1 |
@@ -33,42 +33,42 @@ vocals =
     r1 |
     r2. r8 d' |
 \mymark "Chorus 2" #22
-    dis'8 dis' dis'16 d' dis' d' dis' d' dis' d' dis' d' dis' d' |
-    dis'16 d' dis' d' dis'8 dis' dis'16 d' dis' d' dis' d' dis' c' |
-    cis'4 r2 f'16 f' f' f' \glissando |
-    dis'4 r2 dis'16 dis' dis' dis' \glissando |
+    ees'8 ees' ees'16 d' ees' d' ees' d' ees' d' ees' d' ees' d' |
+    ees'16 d' ees' d' ees'8 ees' ees'16 d' ees' d' ees' d' ees' c' |
+    des'4 r2 f'16 f' f' f' \glissando |
+    ees'4 r2 ees'16 ees' ees' ees' \glissando |
     d'4 r2. |
 \mymark "Verse 2" #27
     r16 a c' b c'8 c' c'16 a8 c'8. c'8 |
     c'8 c' c'16 b c' b c' b c' b c' c' c'8 |
-    r8 ais16 a ais a g ais4~ ais16 r4 |
-    r8 ais ais16 a g ais8. g8 r4 |
+    r8 bes16 a bes a g bes4~ bes16 r4 |
+    r8 bes bes16 a g bes8. g8 r4 |
     r16 a c' b c'8 c' c'16 a8 c'8. c'8 |
     c'16 b c' b c' b c' b c' b c' b c' b c' a |
-    r8 ais16 a ais a g ais8 g e4~ e16 |
-    r8 ais ais16 a g ais4~ ais16 r8 d' |
+    r8 bes16 a bes a g bes8 g e4~ e16 |
+    r8 bes bes16 a g bes4~ bes16 r8 d' |
 \mymark "Chorus 3" #35
-    dis'8 dis' dis'16 d' dis' d' dis' d' dis' d' dis' d' dis' d' |
-    dis'16 d' dis' d' dis'8 dis' dis'16 d' dis' d' dis' d' dis' c' |
-    cis'4 r2 f'16 f' f' f' \glissando |
-    dis'4 r2 dis'16 dis' dis' dis' \glissando |
+    ees'8 ees' ees'16 d' ees' d' ees' d' ees' d' ees' d' ees' d' |
+    ees'16 d' ees' d' ees'8 ees' ees'16 d' ees' d' ees' d' ees' c' |
+    des'4 r2 f'16 f' f' f' \glissando |
+    ees'4 r2 ees'16 ees' ees' ees' \glissando |
     d'4 r2 g'4 |
 \mymark "Verse 3" #40
     r16 a c' b c'8 c' c'16 a8 c'8. c'8 |
     c'8 c' c' c'16 b c' b c' b c' c' c' b |
-    r8 ais16 a ais a g ais8. g8 r4 |
-    r8 ais ais16 a g ais8. g8 r4 |
+    r8 bes16 a bes a g bes8. g8 r4 |
+    r8 bes bes16 a g bes8. g8 r4 |
     r16 a c' b c'8 c' c'16 a8 c'8. c'8 |
     c'8 c'16 b c'8 c'16 b c'8 c'16 b c' b c'8 |
-    r8 ais16 a ais a g ais8. g8 r4 |
-    r8 ais ais16 a g ais8. g8 r4 |
+    r8 bes16 a bes a g bes8. g8 r4 |
+    r8 bes bes16 a g bes8. g8 r4 |
 \mymark "Outro" #48
-    r8 ais16 a ais a g ais8. g8 r4 |
-    r8 ais ais16 a g ais8. g8 r4 |
-    r8 d'16 c' d' c' ais c'4~ c'16 r4 |
-    r8 d' d'16 c' ais c'4~ c'16 r4 |
-    r8 d'16 c' d' c' ais c'4~ c'16 r4 |
-    r8 d' d'16 c' ais c'4~ c'16 r4 |
-    r8 d'16 c' d' c' ais c'4~ c'16 r4 |
-    r8 d' d'16 c' ais c'4~ c'16 r4 |
+    r8 bes16 a bes a g bes8. g8 r4 |
+    r8 bes bes16 a g bes8. g8 r4 |
+    r8 d'16 c' d' c' bes c'4~ c'16 r4 |
+    r8 d' d'16 c' bes c'4~ c'16 r4 |
+    r8 d'16 c' d' c' bes c'4~ c'16 r4 |
+    r8 d' d'16 c' bes c'4~ c'16 r4 |
+    r8 d'16 c' d' c' bes c'4~ c'16 r4 |
+    r8 d' d'16 c' bes c'4~ c'16 r4 |
 }

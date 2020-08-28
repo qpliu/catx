@@ -1,4 +1,4 @@
-% BIN
+% BIN midi all kav susan gg peter
 
 \header {
     title = "Gimme Some Truth"
@@ -6,26 +6,36 @@
 }
 
 \include "markup"
-\include "excerptrguitar"
-\include "excerptsguitar"
-\include "excerptbass"
-\include "excerptdrums"
-\include "excerptpiano"
+\include "aguitar"
+\include "rguitar"
+\include "sguitar"
+\include "bass"
+\include "drums"
+\include "epiano"
+\include "gpiano"
+\include "vocals"
+\include "lyrics"
+\include "karaoke"
 
 layoutmusic = <<
-    \tag #'(allPart gitPart) \new Staff \with {
+    \tag #'(allPart kavPart vPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vocals" }
+	shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\new Voice = "vo" { \myVocalsStuff \vocals }
+	\voLyrics
+    >>
+    \tag #'(allPart susanPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Guitar" }
 	shortInstrumentName = \markup { \rotate #90 "Gtr" }
     } <<
 	\markupStuff
 	\clef "treble_8"
-	\rguitar
+	\transpose c ees \rguitar % capo on fret 3
     >>
-    \tag #'(allPart gitPart) \new TabStaff <<
-	\markupStuff
-	\rguitar
-    >>
-    \tag #'(allPart soloPart) \new Staff \with {
+    \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Solo Guitar" }
 	shortInstrumentName = \markup { \rotate #90 "SGtr" }
     } <<
@@ -33,11 +43,11 @@ layoutmusic = <<
 	\clef "treble_8"
 	\sguitar
     >>
-    \tag #'(allPart soloPart) \new TabStaff <<
+    \tag #'(peterPart) \new TabStaff <<
 	\markupStuff
 	\sguitar
     >>
-    \tag #'(allPart bassPart) \new Staff \with {
+    \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }
 	shortInstrumentName = \markup { \rotate #90 "Ba" }
     } <<
@@ -45,11 +55,11 @@ layoutmusic = <<
 	\clef "bass_8"
 	\bass
     >>
-    \tag #'(allPart bassPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
 	\markupStuff
 	\bass
     >>
-    \tag #'(allPart) \new DrumStaff \with {
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
@@ -76,12 +86,16 @@ midimusic = <<
 	midiInstrument = #"electric bass (finger)"
     } \bass
     \tag #'(midiPeter) \new Staff \with {
-	midiInstrument = #"distorted guitar"
-    } \sguitar
-    \tag #'(midiThree) \new Staff \with {
 	midiInstrument = #"overdriven guitar"
-    } \rguitar
+    } \sguitar
+    \tag #'(midiSusan) \new Staff \with {
+	midiInstrument = #"steel drums"
+    } << \transpose c ees \rguitar >>
     \tag #'(midiTwo) \new Staff \with {
 	midiInstrument = #"acoustic grand"
     } \gpiano
+    \tag #'(midiKaraoke) <<
+	\karaokeLyrics
+	\vocals
+    >>
 >>

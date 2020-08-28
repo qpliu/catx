@@ -3,6 +3,21 @@ markupStuff = {
     \time 4/4
     \tempo 4 = 67
     \key f \major
-\mymark "Solo" #1
+\mymark "Verse 1" #1
     s1*8 |
+\mymark "Chorus 1" #9
+    s1*5 |
+\mymark "Solo" #14
+    s1*8 |
+\mymark "Chorus 2" #22
+    s1*5 |
+\mymark "Verse 2" #27
+    s1*8 |
+\mymark "Chorus 3" #35
+    s1*5 |
+\mymark "Verse 3" #40
+    s1*8 |
+\mymark "Outro" #48
+    s1*8 |
+    \bar "|."
 }
