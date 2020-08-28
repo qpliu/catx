@@ -7,7 +7,7 @@ voPart = {
   \key ees \major \relative { ees'4 f g aes | bes c d ees | ees d c bes | aes g f ees | r1 }
   \key e \major \relative { e'4 fis gis a | b cis dis e | e dis cis b | a gis fis e | r1 }
   \key f \major \relative { f'4 g a bes | c d e f | f e d c | bes a g f | r1 }
-  \key fis \major \relative { fis'4 gis ais b | cis dis eis  fis | fis eis dis cis b | ais gis fis | r1 }
+  \key fis \major \relative { fis'4 gis ais b | cis dis eis  fis | fis eis dis cis | b ais gis fis | r1 }
   \key g \major \relative { g'4 a b c | d e fis g | g fis e d | c b a g | r1 }
   \key aes \major \relative { aes'4 bes c des | ees f g aes | aes g f ees | des c bes aes | r1 }
   \key a \major \relative { a'4 b cis d | e fis gis a | a gis fis e | d cis b a | r1 }
