@@ -5,15 +5,19 @@
     title = "Warmup Scale"
 }
 
+\include "markup"
 \include "vo"
 
 layoutmusic = <<
     \tag #'(allPart) \new Staff <<
+	\markupStuff
 	\voPart
     >>
+	\markupStuff
 >>
 
 midimusic = <<
+    \markupStuff
     \tag #'(midiKaraoke) <<
 	\voPart
     >>
