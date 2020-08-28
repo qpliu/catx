@@ -1,0 +1,17 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \time 4/4
+    \tempo 4 = 60
+    s1 s1 s1 s1 s1
+    s1 s1 s1 s1 s1
+    s1 s1 s1 s1 s1
+    s1 s1 s1 s1 s1
+    s1 s1 s1 s1 s1
+    s1 s1 s1 s1 s1
+    s1 s1 s1 s1 s1
+    s1 s1 s1 s1 s1
+    s1 s1 s1 s1 s1
+    s1 s1 s1 s1 s1
+    s1 s1 s1 s1 s1
+    s1 s1 s1 s1 s1
+}
