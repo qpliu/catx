@@ -7,14 +7,26 @@
 
 \include "markup"
 \include "vo"
+\include "lyrics"
+\include "karaoke"
 
 layoutmusic = <<
     \tag #'(allPart) \new Staff <<
 	\markupStuff
 	\voPart
+	\voLyrics
     >>
-	\markupStuff
 >>
+
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiKaraoke) <<
+	\karaokeLyrics
+	\voPart
+    >>
+>>
+
 
 midimusic = <<
     \markupStuff
