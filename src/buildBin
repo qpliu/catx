@@ -10,9 +10,9 @@ set -e
 PARTS=`grep '^% BIN ' music|cut -c 7-`
 if test -n "$PARTS"
 then
+    echo "$name"
+    mkdir -p ../../bin/"$name"
     (
-	echo "$name"
-	mkdir -p ../../bin/"$name"
 	../../build/build $PARTS
 	cd ../../build
 	for a in bin/bin/*
