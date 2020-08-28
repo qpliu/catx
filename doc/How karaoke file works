@@ -1,0 +1,61 @@
+These are instructions to help you make a karaoke file.  These instructions are not complete and not clear.
+You will need to look at an example of a karaoke file to make any sense of these instructions.
+
+
+These are the steps.  We will describe steps in more details later.
+
+1.  Create karaoke file containing timed lyrics.
+2.  Add line breaks to karaoke file.
+3.  Add extra bounces, pictures, HTML markup to karaoke file.
+4.  What to do if timing is screwed up.
+
+
+Step 1.  Create karaoke file with timed lyrics.
+
+We can't use lilypond's feature that automatically aligns lyrics to vocals because lilypond adds some extra time after each lyric.  This extra time pushes some of the lyrics off the end of the song.  If it automatically aligns the lyrics, the lyrics that were pushed off the end of the song do not appear in the MIDI file.  However, if we have timed lyrics, then lilypond doesn't throw away lyrics that were pushed off the end of the song.
+
+Usually lyrics file contains untimed lyrics that lilypond aligns with a vocals part.  First step is to make the lyrics timed.
+You can do this manually or you can use build/alignLyrics.py.
+
+To use alignLyrics.py, do these steps.
+
+1. Use lilypond to build a PDF containing only the vocals part.
+2. Lilypond will generate a file called build/bin/src-*/in-unnamed-staff.notes or something like that.  Call that files "notes".
+3. Copy your lyrics file into a file called "justTheWords".  Get rid of everything in "justTheWords" except lyrics and "--"s.  That is, get rid of stuff that starts with "\", all the "{", "}" and stuff like that.
+4. Run "python alignLyrics.py notes justTheWords >karakoke"
+
+Now the file "karaoke" contains timed lyrics.  It contains things like "-" and \skip.  "-" indicates there is a rest.  Often "-" and \skip are interchangable.
+
+If you use
+"one"4 "-" "two" "-"
+the "one" lasts a quarter note.  Then there is a quarter rest.  Then "two" lasts a quarter note.  Then there is a quarter rest.
+
+If you use
+"one"4 \skip4 "two" \skip4
+the "one" lasts a half note.  The "two" lasts a half note.  In fact, lilypond generates exactly the same MIDI as if you used
+"one"2 "two"
+
+
+Step 2.  Add line breaks to karaoke file.
+
+Karaoke file need to know where to break lines.  Put a ">" in front of the first word of each line.
+
+
+Step 3.  Add extra bounces, pictures, HTML markup to karaoke file.
+
+You can put the special word "@" into your karaoke file.  "@" means the ball should bounce to the left of the current line.
+Put a "@@" as the last word in the file.  "@@" means the song has ended.
+Look at "Here Comes Your Man/karaoke" for example of stretched lyrics.
+Look at "Have You Ever Seen The Rain/karaoke" for example of pictures.
+Look at "走れ!/karaoke-amksr" for example of colored lyrics.
+
+
+Step 4.  What to do if timing is screwed up.
+
+You might be able to fix it like this.
+
+Lilypond adds a strange amount of extra time after each lyric in the MIDI file.  Usually this is an eighth of a beat.  However, sometimes it is some other amount of time.  Don't know why.  So far, for each song, it is a constant amount of time.  If lilypond is adding a different amount of time, add a line like this--
+
+% MERGEMIDI --fudge-lyrics 144
+
+to the "music" file.  This means that lilypond adds 144/384 beats after each lyric.  It tells a program called MergeMidi to get rid of 144/384 beats after each lyric.

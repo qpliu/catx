@@ -61,12 +61,12 @@ do
 done
 echo "name=$name" >../bin/out.aarin
 sed <music -n -e 's/^% ROBOT \(.*\)$/\1/p' >>../bin/out.aarin
-MIDIMERGE=`sed <music -n -e 's/^% MIDIMERGE \(.*\)$/\1/p'`
+MERGEMIDI=`sed <music -n -e 's/^% MERGEMIDI \(.*\)$/\1/p'`
 for part in $PARTS
 do
     if test "x$part" = "xmidi"
     then
-	merge="$MIDIMERGE"
+	merge="$MERGEMIDI"
 # Make sure this list of MIDI tracks agrees with list in aarinrobo/java/VoiceMenu.java and aarinrobo/c/header.h
 	for midi in midiCue midiGg midiPeter midiKav midiSusan midiKaraoke midiKaraokeTwo midiOne midiTwo midiThree midiFour
 	do
