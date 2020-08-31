@@ -103,10 +103,12 @@ midimusic = <<
     } \guitarOne
     \tag #'(midiKaraoke) \new Staff \with {
 	midiInstrument = #"tenor sax"
-    } \vocals
+    } <<
+	\vocals
+	\karaokeLyrics
+    >>
     \tag #'(midiKaraokeTwo) \new Staff = "vocals2text" \midivocalsTwoText
     \tag #'(midiKaraokeTwo) \new Staff = "vocals2" \with {
 	midiInstrument = #"tenor sax"
     } \vocalsTwo
-	\karaokeLyrics
 >>

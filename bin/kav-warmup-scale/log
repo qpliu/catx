@@ -1,20 +1,8 @@
-kav-warmup-scale
-warning: no music found in score
-warning: no music found in score
-warning: no music found in score
-warning: no music found in score
-warning: no music found in score
-vo:10:86: warning: barcheck failed at: 1/4
-  \key fis \major \relative { fis'4 gis ais b | cis dis eis  fis | fis eis dis cis b 
-                                                                                     | ais gis fis | r1 }
-warning: no music found in score
-warning: no music found in score
-warning: no music found in score
-warning: no music found in score
-warning: no music found in score
-Exception in thread "main" java.io.FileNotFoundException: ../src-midiCue/out.midi (No such file or directory)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
-	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
-	at MergeMidi.main(MergeMidi.java:831)
+WorstAge=2147483648
+Playing out.midi
+MIDI file: out.midi
+Format: 1  Tracks: 11  Divisions: 384
+>cdefgabccbagfedc>cisdiseisfisgisaisbisciscisbisaisgisfiseisdiscis>defisgabcisddcisbagfised>eesfgaesbescdeeseesdcbesaesgfees>efisgisabcisdiseediscisbagisfise>fgabescdeffedcbesagf>fisgisaisbcisdiseisfisfiseisdiscisbaisgisfis>gabcdefisggfisedcbag>aesbescdeseesfgaesaesgfeesdescbesaes>abcisdefisgisaagisfisedcisba>bescdeesfgabesbesagfeesdcbes>bcisdisefisgisaisbbaisgisfisediscisbPlaying time: ~239 seconds
+Notes cut: 0
+Notes lost totally: 0
+Wrote 14716726/41961228 bytes(35.0722% compressed)

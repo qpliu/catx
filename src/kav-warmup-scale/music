@@ -18,16 +18,6 @@ layoutmusic = <<
     >>
 >>
 
-
-midimusic = <<
-    \markupStuff
-    \tag #'(midiKaraoke) <<
-	\karaokeLyrics
-	\voPart
-    >>
->>
-
-
 midimusic = <<
     \markupStuff
     \tag #'(midiKaraoke) <<
