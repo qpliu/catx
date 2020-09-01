@@ -1,10 +1,10 @@
 karaokeLyrics = \new Lyrics \lyricmode {
 \mymark "Verse 1" #1
 -16 ">I'm"16 "sick" "and" "tired"8 "of" "hear"16 "-ing"8 "things"8. "from"8
-"up"8 "-tight" "short" "sight"16 "-ed" "nar" "-row" "mind" "-ed" "hy" "-po" "-crites"
+"up"8 "-tight" "short" "sight"16 "-ed" "nar" "-row" "mind" "-ed" "hy" "-po" "-crites" "-"
 -8 ">All"16 "I" "want" "is" "the" "truth,"4 \skip16 -4
 -8 ">Just"8 "gim"16 "-me" "some" "truth"4 \skip16 -4
--16 ">I've"16 "had" "e" "-nough"8 "of" "read"16 "-ing" "things"8. "by"8
+-16 ">I've"16 "had" "e" "-nough"8 "of" "read"16 "-ing"8 "things"8. "by"8
 "neu"8 "-ro"16 "tic" "psy"8 "-cho"16 "-tic" "pig"8 "-head"16 "-ed" "po" "-li" "-ti" "-cians"
 -8 ">All"16 "I" "want" "is" "the" "truth,"4 \skip16 -4
 -8 ">Just" "gim"16 "-me" "some" "truth"4 \skip16 -8 ">No"8
@@ -48,16 +48,16 @@ karaokeLyrics = \new Lyrics \lyricmode {
 \skip4 -2 "Ah"4
 \mymark "Verse 3" #40
 -16 ">I'm" "sick" "to" "death"8 "of" "hear"16 "-ing"8 "things"8. "from"8
-"up"8 "-tight" "short-" "-sight"16 "-ed" "nar" "-row" "mind" "-ed" "hy" "-po" "-crites"8
+"up"8 "-tight" "short-" "-sight"16 "-ed" "nar" "-row" "mind" "-ed" "hy" "-po" "-crites" "-"
 -16 ">All" "I" "want" "is" "the" "truth"8. "now."8 -4
 -8 ">Just" "gim"16 "-me" "some" "truth"8. "now."8 -4
 -16 ">I've" "had" "e" "-nough"8 "of" "read"16 "-ing"8 "things"8. "by"8
 "neu"8 "-ro"16 "-tic" "psy"8 "-cho"16 "-tic" "pig"8 "-head"16 "-ed" "po" "-li" "-ticians"8
 -8 ">All"16 "I" "want" "is" "the" "truth"8. "now."8 -4
--8 ">Just" "gim" "-me" "some" "truth"8. "now."8 -4
+-8 ">Just" "gim"16 "-me" "some" "truth"8. "now."8 -4
 \mymark "Outro" #48
 -8 ">All"16 "I" "want" "is" "the" "truth"8. "now."8 -4
--8 ">Just" "gim" "-me" "some" "truth"8. "now."8 -4
+-8 ">Just" "gim"16 "-me" "some" "truth"8. "now."8 -4
 -8 ">All"16 "I" "want" "is" "the" "truth."4 -16 -4
 -8 ">Just" "gim"16 "-me" "some" "truth."4 -16 -4
 -8 ">All"16 "I" "want" "is" "the" "truth."4 -16 -4
