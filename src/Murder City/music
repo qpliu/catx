@@ -1,0 +1,73 @@
+% BIN
+
+\header {
+    title = "Kenosha"
+    composer = "music by Green Day"
+}
+
+\include "excerptmarkup"
+\include "excerptguitar"
+\include "excerptbass"
+\include "excerptdrums"
+\include "excerptvocals"
+\include "excerptlyrics"
+
+layoutmusic = <<
+    \tag #'(allPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vocals" }
+	shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\new Voice = "vo" { \myVocalsStuff \excerptvocals }
+	\excerptlyrics
+    >>
+    \tag #'(allPart gitPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\excerptguitar
+    >>
+    \tag #'(allPart gitPart) \new TabStaff <<
+	\markupStuff
+	\excerptguitar
+    >>
+    \tag #'(allPart bassPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Bass" }
+	shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } <<
+	\markupStuff
+	\clef "bass_8"
+	\excerptbass
+    >>
+    \tag #'(allPart bassPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+	\markupStuff
+	\excerptbass
+    >>
+    \tag #'(allPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\excerptdrum
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiGg) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \excerptdrum
+    \tag #'(midiOne) \new Staff \with {
+	midiInstrument = #"electric bass (finger)"
+    } \excerptbass
+    \tag #'(midiPeter) \new Staff \with {
+	midiInstrument = #"overdriven guitar"
+    } \excerptguitar
+    \tag #'(midiSusan) \new Staff \with {
+	midiInstrument = #"steel drums"
+    } \excerptvocals
+>>

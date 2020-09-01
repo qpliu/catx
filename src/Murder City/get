@@ -1,0 +1,7 @@
+#!/bin/sh
+java -jar ../../songsterrToLy/1.jar --name drum https://www.songsterr.com/a/wsa/green-day-murder-city-drum-tab-s24096t0 > drums
+java -jar ../../songsterrToLy/1.jar --name basstabs --output-tabs https://www.songsterr.com/a/wsa/green-day-murder-city-bass-tab-s24096t1 > basstabs
+java -jar ../../songsterrToLy/1.jar --name rguitar --output-tabs https://www.songsterr.com/a/wsa/green-day-murder-city-tab-s24096t2 > rguitartabs
+java -jar ../../songsterrToLy/1.jar --name lguitar --output-tabs https://www.songsterr.com/a/wsa/green-day-murder-city-tab-s24096t3 > lguitartabs
+java -jar ../../songsterrToLy/1.jar --name lvocals --no-string-numbers https://www.songsterr.com/a/wsa/green-day-murder-city-tab-s24096t4 > lvocals
+java -jar ../../songsterrToLy/1.jar --name bvocals --no-string-numbers https://www.songsterr.com/a/wsa/green-day-murder-city-tab-s24096t5 > bvocals
