@@ -7,6 +7,7 @@
 
 \include "markup"
 \include "drs"
+\include "extradrs"
 \include "cue"
 \include "vo"
 \include "eg"
@@ -66,12 +67,14 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\drsPart
+	\extradrsPart
     >>
     \tag #'(ggPart) \new DrumStaff \with {
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\drsPart
+	\extradrsPart
 	\voLyrics
     >>
 >>
@@ -80,22 +83,25 @@ midimusic = <<
     \markupStuff
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
-    } \drsPart
+    } <<
+	\drsPart
+	\extradrsPart
+    >>
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \voPart
-    \tag #'(midiOne) \new Staff \with {
+    \tag #'(midiGg) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
     } \bassPart
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
     } \egPart
-    \tag #'(midiTwo) \new Staff \with {
+    \tag #'(midiGg) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
 	midiMinimumVolume = #1
 	midiMaximumVolume = #1
     } \egTwoPart
-    \tag #'(midiCue) \new DrumStaff \with {
+    \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
 	midiMinimumVolume = #1
 	midiMaximumVolume = #1
