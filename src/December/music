@@ -90,18 +90,18 @@ midimusic = <<
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \voPart
-    \tag #'(midiGg) \new Staff \with {
+    \tag #'(midiGone) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
     } \bassPart
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
     } \egPart
-    \tag #'(midiGg) \new Staff \with {
+    \tag #'(midiGone) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
 	midiMinimumVolume = #1
 	midiMaximumVolume = #1
     } \egTwoPart
-    \tag #'(midiGg) \new DrumStaff \with {
+    \tag #'(midiGone) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
 	midiMinimumVolume = #1
 	midiMaximumVolume = #1
