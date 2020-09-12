@@ -1,0 +1,88 @@
+lhpiano =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: https://www.songsterr.com/a/wsa/the-beatles-let-it-be-naked-version-tab-s88062t3
+% artist: The Beatles
+% title: Let It Be (Naked Version)
+% instrument: Bright Acoustic Piano
+% name: Piano Bass (Paul)
+    \time 1/4
+    \tempo 4 = 70
+% tuning e,, a,, d, g,
+    r4 |
+    \time 4/4
+    c,8 c r c16 e, g,8 g,, r g, |
+    a,,8 a, r <g,, g,> <f,, f,> f, r f, |
+    c,8 c r c16 f, g,8 g,, r g, |
+    f,,8 f, r4 c,8 c c c |
+    r8 c r c16 f, g,8 g,, r g, |
+    a,,8 a, r <g,, g,> <f,, f,> f, r c, |
+    c,8 c r c16 f, g,8 g,, r g, |
+    f,,8 f, e, d, c, c r c |
+    r8 c r c16 f, g,8 g,, r g, |
+    a,,8 a, r <g,, g,> <f,, f,> f, r c, |
+    c,8 c r c16 f, g,8 g,, r g, |
+    f,,8 f, e, d, c, c b, <b,, b,> |
+    <a,, a,>8 a, r a, <g,, g,> g, r g, |
+    <f,, f,>8 f, r f, c, c r c |
+    c8 c, r c16 f, g,8 g,, r g, |
+    f,,8 f, e, d, c, c c c |
+    c8 c r c16 f, g,8 g,, r g, |
+    a,,8 a, r <g,, g,> <f,, f,> f, r c, |
+    c8 c, r c16 f, g,8 g,, r <g,, g,> |
+    f,,8 f, e, d, c, c c c |
+    c8 c r c16 f, g,8 g,, r g, |
+    a,8 a,, r <g,, g,> f,,4 c8 c, |
+    c8 c, r c g, g,, r g, |
+    f,4 e,8 d, c, c c b, |
+    <a,, a,>8 a, r a, <g,, g,> g, r g, |
+    <f,, f,>8 f, r f, c, c r c |
+    c8 c, r c16 f, g,8 g,, r g, |
+    f,,8 f, e, d, c, c c b, |
+    <a,, a,>8 a, r a, <g,, g,> g, r g, |
+    <f,, f,>8 f, r f, c, c r c |
+    c8 c, r c16 f, g,8 g,, r g, |
+    f,,8 f, e, d, c, c16 c~ <c, c> c c8~ |
+    \tempo 4 = 65
+    <f, c>4 e,8 d, c,4 ais,,8 a,, |
+    g,,4 f,, c, c, |
+    \tempo 4 = 70
+    f2 c |
+    g,4 f, c8 <c c'> <c c'> <c c'> |
+    c8 c' r c'16 e g8 g, r g |
+    a,8 a r <g, g> <f, f> f r f |
+    c8 c' r c'16 f g8 g, r g |
+    f,8 f e d c c' c' c' |
+    c'8 c r c'16 f g8 g, r g |
+    a8 a, r <g, g> <f, f>4 c'8 c |
+    c'8 c r c' g <g, g> r g |
+    f,8 f, e, d, c, c c b, |
+    <a,, a,>8 a, r a, <g,, g,> g, r g, |
+    <f,, f,>8 f, r f, c, c r c |
+    c8 c, r c16 f, g,8 g,, r g, |
+    f,,8 f, e, d, c, r c r |
+    c8 c r c16 f, g,8 g,, r g, |
+    a,,8 a, r <g,, g,> <f,, f,> f, r c, |
+    c8 c, r c16 f, g,8 g,, r <g,, g,> |
+    f,,8 f, e, d, c, c16 c~ <c, c> c c8 |
+    c8 c r c16 f, g,8 g,, r g, |
+    a,8 a,, r <g,, g,> f,,4 c8 c, |
+    c8 c, r c g, g,, r g, |
+    f,4 e,8 d, c, c c b, |
+    <a,, a,>8 a, r a, <g,, g,> g, r g, |
+    <f,, f,>8 f, r f, c, c16 c c r c8 |
+    c8 c, r c16 f, g,8 g,, r g, |
+    f,4 e,8 d, c, c c b, |
+    <a,, a,>8 a, r a, <g,, g,> g, r g, |
+    <f,, f,>8 f, r f, c, c r c |
+    c8 c, r c16 f, g,8 g,, r g, |
+    f,,8 f, e, d, c, c16 c~ <c, c> c c8 |
+    <a,, a,>8 a, r a, <g,, g,> g, r g, |
+    <f,, f,>8 f, r f, c, c r c |
+    c8 c, r c16 f, g,8 g,, r g, |
+    f,,8 f, e, d, c, c16 c~ <c, c> c c8~ |
+    \tempo 4 = 65
+    <f, c>4 e,8 d, c,4 ais,,8 a,, |
+    \tempo 4 = 60
+    g,,4 f,, c,2 |
+}
