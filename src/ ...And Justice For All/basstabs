@@ -1,0 +1,505 @@
+bass =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: https://www.songsterr.com/a/wsa/metallica-and-justice-for-all-bass-tab-s12102t7
+% artist: Metallica
+% title: ...And Justice For All
+% instrument: Electric Bass (pick)
+% name: Jason Newsted
+    \time 3/4
+    \tempo 4 = 96
+\mymark "Intro" #1
+% tuning b,,, e,, a,, d, g,
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    3-2t8 t t 4-1t 3-2t 4-1t |
+    3-1t8 t t t t 4-1t |
+    3-1t2 r4 |
+    3-1t2. |
+    3-7t8 t t4 t8 \tuplet 3/2 { 4-0t16 t t } |
+    3-5t8 t \tuplet 3/2 { t16 t t } 4-2t8 3-5t 4-1t |
+    3-3t8 t t4 t8 4-1t |
+    3-2t8 t \tuplet 3/2 { t16 t t } 5t8 2t t |
+    3-1t8 t \tuplet 3/2 { t16 t t } 4-1t8 3-1t t |
+    3-1t2. |
+    \time 6/4
+    \tempo 4 = 138
+\mymark "Transition" #26
+    4-6t8 r4. t8 5t r4. 6t8 5t 4t |
+    \time 5/4
+    r4. 4-6t8 5t 4t 3t r4. |
+    \time 4/4
+    \tempo 4 = 165
+    4-6t8 5t 3t 1t 5t 3t 1t 0t |
+    4-3t8 1t 5-5t 3t 6t 5t r4 |
+    \tempo 4 = 175
+    2-3t4 2t 0t 3-3t |
+    2-2t8 0t 3-3t 2t 2-0t 3-3t 4-3t 2t |
+    4-0t1~ |
+    4-0t1~ |
+    4-0t1~ |
+    4-0t1~ |
+    \time 2/4
+    4-0t2~ |
+    \time 4/4
+    4-0t1~ |
+    4-0t1 |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-0t8 3-7t4 t8 5t4 4-7t |
+    \time 2/4
+    4-6t8 t 5t4 |
+    \time 4/4
+    4-0t8 3-7t4 t8 5t4 4-7t |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-0t8 3-7t4 4-0t8 3-7t4 t8 4-0t16 t |
+    \time 2/4
+    4-2t8 3t 0t4 |
+    \time 4/4
+    4-0t8 5t r 0t 5t4 t8 0t16 t |
+    4-2t8 3t 5t 0t16 t 8t8 7t 5t4 |
+    4-8t8 t 7t 0t16 t 3t8 t 0t4 |
+    4-0t8 3-7t4 t8 5t4 4-7t |
+    \time 2/4
+    4-6t8 t 5t4 |
+    \time 4/4
+    4-0t8 3-7t4 t8 5t4 4-7t |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-6t8 t 5t4 3t8 t 2t4 |
+    4-2t8 0t r t t r t4 |
+    \time 2/4
+    4-0t8 t 1t4 |
+    \time 4/4
+    4-2t8 0t r t t r t4 |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-6t8 t 5t4 t8 6t t4 |
+\mymark "Verse 1" #59
+    4-0t8 3-7t 4-0t t 3-7t r t4 |
+    \time 2/4
+    4-0t8 t 1t4 |
+    \time 4/4
+    4-0t8 3-7t 4-0t t 3-7t r t4 |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-0t8 3-7t 4-0t t 3-7t r t4 |
+    \time 2/4
+    4-0t8 t 1t4 |
+    \time 4/4
+    4-0t8 3-7t 4-0t t 3-7t 4-0t 3-7t4 |
+    4-6t8 t 5t4 t8 6t t4 |
+    4-0t8 3-7t 4-0t t 3-7t r t4 |
+    \time 2/4
+    4-0t8 t 1t4 |
+    \time 4/4
+    4-0t8 3-7t 4-0t t 3-7t 4-0t 3-7t4 |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-0t8 3-7t t 4-0t 3-7t r t4 |
+    \time 2/4
+    4-0t8 t 1t4 |
+    \time 4/4
+    4-0t8 3-7t 4-0t t 3-7t r t4 |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-0t8 3-7t t 4-0t t 3-5t t 4-3t |
+    4-2t4 t8 t t t t t |
+\mymark "Pre-Chorus" #77
+    4-3t8 2t 0t 3t4. t4 |
+    4-2t4 t8 t t t t t |
+    4-3t8 2t 0t 3t4. t4 |
+    4-2t4 t8 t t t t t |
+    4-3t8 2t 0t 3t4. 5t4 |
+    4-2t4 t8 t t t t t |
+    2-5t4 3-5t 4-5t 7t |
+    4-2t4 t8 t t t t t |
+    4-3t8 2t 0t 3t4. t4 |
+    4-2t4 t8 t t t t t |
+    4-3t8 2t 0t 3t4. t4 |
+    4-2t4 t8 t t t t t |
+    4-3t8 2t 0t 3t4. 5t4 |
+    4-2t4 t8 t t t t t |
+    4-3t8 r2 r8 5-1..3t4 |
+    5-1..3t8 r2 r8 3-3t4 |
+    4-0t4 t8 t t t t t |
+    4-1t8 0t 2-0t 4-1t4. t4 |
+\mymark "Chorus" #95
+    4-5t4 t8 t t 3t 5t4 |
+    4-7t4. t8 t 5t 7t4 |
+    3-3t4 t8 2t 4-5t 3t 1t4 |
+    4-0t4 t8 t t t t t |
+    4-1t8 0t 2-0t 4-1t4. t4 |
+    4-5t4. t8 t 3t 5t t |
+    4-7t8 5t 7t4 3-3t8 2t 4-1t4 |
+    4-0t4 t8 t t t t t |
+    4-1t8 0t 2-0t 4-1t4. t4 |
+    4-5t4. t8 t 3t 5t4 |
+    4-7t4 t8 t t 8t 7t 5t |
+    4-3t4 t8 t 5t 3t 3-5t4 |
+    3-3t4 t8 t t 4-3t 5t 3t |
+    4-1t1 |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-0t8 3-7t4 t8 5t4 4-7t |
+    \time 2/4
+    4-6t8 t 5t4 |
+    \time 4/4
+    4-0t8 3-7t4 t8 5t4 4-7t |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-6t8 t 5t4 3t8 t 2t4 |
+    4-2t8 0t r t t r t4 |
+    \time 2/4
+    4-0t8 t 1t4 |
+    \time 4/4
+    4-2t8 0t r t t r t4 |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-6t8 t 5t4 t8 6t t4 |
+\mymark "Verse 2" #120
+    4-0t8 3-7t 4-0t t 3-7t r t4 |
+    \time 2/4
+    4-0t8 t 1t4 |
+    \time 4/4
+    4-0t8 3-7t 4-0t t 3-7t r t4 |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-0t8 3-7t 4-0t t 3-7t r t4 |
+    \time 2/4
+    4-0t8 t 1t4 |
+    \time 4/4
+    4-0t8 3-7t 4-0t t 3-7t 4-0t 3-7t4 |
+    4-6t8 t 5t4 t8 6t t4 |
+    4-0t8 3-7t 4-0t t 3-7t r t4 |
+    \time 2/4
+    4-0t8 t 1t4 |
+    \time 4/4
+    4-0t8 3-7t 4-0t t 3-7t 4-0t 3-7t4 |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-0t8 3-7t t 4-0t 3-7t r t4 |
+    \time 2/4
+    4-0t8 t 1t4 |
+    \time 4/4
+    4-0t8 3-7t 4-0t t 3-7t r t4 |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-0t8 3-7t t 4-0t t 3-5t t 4-3t |
+    4-2t4 t8 t t t t t |
+\mymark "Pre-Chorus" #138
+    4-3t8 2t 0t 3t4. t4 |
+    4-2t4 t8 t t t t t |
+    4-3t8 2t 0t 3t4. t4 |
+    4-2t4 t8 t t t t t |
+    4-3t8 2t 0t 3t4. 5t4 |
+    4-2t4 t8 t t t t t |
+    2-5t4 3-5t 4-5t 7t |
+    4-2t4 t8 t t t t t |
+    4-3t8 2t 0t 3t4. t4 |
+    4-2t4 t8 t t t t t |
+    4-3t8 2t 0t 3t4. t4 |
+    4-2t4 t8 t t t t t |
+    4-3t8 2t 0t 3t4. 5t4 |
+    4-2t4 t8 t t t t t |
+    4-3t8 r2 r8 5-1..3t4 |
+    5-1..3t8 r2 r8 3-3t4 |
+    4-0t4 t8 t t t t t |
+    4-1t8 0t 2-0t 4-1t4. t4 |
+\mymark "Chorus" #156
+    4-5t4 t8 t t 3t 5t4 |
+    4-7t4 t8 t t 5t 7t4 |
+    3-3t4 2t8 t 4-5t 3t 1t4 |
+    4-0t4 t8 t t t t t |
+    4-1t8 0t 2-0t 4-1t4. t4 |
+    4-5t4. t8 t 3t 5t4 |
+    3-2t4 3t8 t 2t 0t 4-1t4 |
+    4-0t4 t8 t t t t t |
+    4-1t8 0t 2-0t 4-1t4. t8 x0t |
+    4-5t4 t8 t t 3t 5t4 |
+    4-7t4 t8 t 5t 7t 8t 7t |
+    4-3t4 t8 t 5t 3t 3-5t4 |
+    3-3t4. t8 t 5t 3t 4-3t |
+    4-1t1 |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-0t8 3-7t4 t8 5t4 4-7t |
+    \time 2/4
+    4-6t8 t 5t4 |
+    \time 4/4
+    4-0t8 3-7t4 t8 5t4 4-7t |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    \time 6/4
+    \tempo 4 = 138
+\mymark "Pre-Solo" #175
+    4-6t8 r4. t8 5t r4. 6t8 5t 4t |
+    \time 5/4
+    r4. 4-6t8 5t 4t 3t r4. |
+    \time 4/4
+    \tempo 4 = 165
+    3-1t8 0t 4-3t 1t 3-0t 4-3t 1t 0t |
+    4-3t8 1t 0t 2-0t 4-1t 0t r4 |
+    \tempo 4 = 175
+    2-3t4 2t 0t 3-3t |
+    2-2t8 0t 3-3t 2t 2-0t 3-3t 4-3t 2t |
+    4-0t1 |
+    2-2t8 t 0t 3-3t 2t 0t 4-3t 1t |
+\mymark "Solo" #183
+    4-0t4 t8 t t t t t |
+    4-1t8 0t x0t 1t4. t4 |
+    4-0t4 t8 t t t t t |
+    4-1t8 0t x0t 1t4. t4 |
+    4-0t4 t8 t t t t t |
+    4-1t8 0t x0t 1t4. 3t4 |
+    4-0t4 t8 t t t t t |
+    \tuplet 3/2 { 1-0t8 5t 7t 2-0t 5t 7t 3-0t 5t 7t 0t 2t 3t } |
+    4-0t4 t8 t t t t t |
+    4-1t8 0t x0t 1t4. t4 |
+    4-0t4 t8 t t t t t |
+    4-1t8 0t x0t 1t4. t4 |
+    4-0t4 t8 t t t t t |
+    4-1t8 0t x0t 1t4. 3t4 |
+    4-0t4 t8 t t t t t |
+    \tuplet 3/2 { 1-0t8 5t 7t 2-0t 5t 7t 3-0t 5t 7t 0t 2t 3t } |
+    \tuplet 3/2 { 1-0t8 5t 7t 2-0t 5t 7t 3-0t 5t 7t 0t 2t 3t } |
+    3-3t8 t 2t4 3t8 t 2t4 |
+    4-0t8 2t r 0t 2t r t4 |
+    \time 2/4
+    4-0t8 2t 3t4 |
+    \time 4/4
+    4-0t8 2t r 0t 2t r t 0t |
+    \time 2/4
+    4-0t8 t 3t4 |
+    \time 4/4
+    4-0t8 2t r 0t 2t r t4 |
+    \time 2/4
+    4-0t8 2t 3t4 |
+    \time 4/4
+    4-0t8 2t r 0t 2t r t4 |
+    4-8t8 t 7t4 8t8 t 7t4 |
+    4-0t8 2t r 0t 2t r t4 |
+    \time 2/4
+    4-0t8 2t 3t4 |
+    \time 4/4
+    4-0t8 2t r 0t 2t r t 0t |
+    \time 2/4
+    4-0t8 t 3t4 |
+    \time 4/4
+    4-0t8 2t r 0t 2t r t4 |
+    \time 2/4
+    4-0t8 2t 3t4 |
+    \time 4/4
+    4-0t8 2t r 0t 2t r t4 |
+    4-8t8 t 7t4 8t8 t 7t4 |
+    4-0t8 3-7t t 4-0t t 3-5t t 4-3t |
+    4-0t8 3-7t t 4-0t t 3-5t t 4-3t |
+    4-0t8 3-5t t 4-0t t 3-3t t 4-1t |
+    4-0t8 3-3t t 4-0t t 3-2t t 4-3t |
+    4-0t8 r2. r8 |
+    4-0t8 3-7t 4-0t t 3-7t r t4 |
+    \time 2/4
+    4-0t8 t 1t4 |
+    \time 4/4
+    4-0t8 3-7t 4-0t t 3-7t r t4 |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-0t8 3-7t t 4-0t 3-7t r t4 |
+    \time 2/4
+    4-0t8 t 1t4 |
+    \time 4/4
+    4-0t8 t t t 3-7t r 4-0t4 |
+    4-6t8 t 5t4 t8 t 6t4 |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-5t8 t 3t4 5t8 t 3t4 |
+    \tempo 4 = 140
+    4-3t8 t 2t4 3t8 t 2t4 |
+    \tempo 4 = 120
+    4-2t8 t 2.4t4 2t8 t t4 |
+    \time 3/4
+    \tempo 4 = 96
+    4-1t8 t t t t 0t |
+    3-7t8 4-0t 3-7t4 t8 4-0t |
+    3-5t8 t t 4-5t 3-5t 4-5t |
+    3-3t8 t t4 t8 4-3t |
+    3-2t8 t t 4-2t 3-2t 0t |
+    3-1t8 t t t t 1-3t |
+    3-1t4. t8 t4 |
+    3-7t8 t t4 4-0t8 t |
+    3-5t8 t t 4-5t 3-5t4 |
+    3-3t8 t t4 t8 4-3t |
+    3-2t8 t t 4-2t 3-2t 4-2t |
+    3-1t8 t t 4-1t 3-1t 4-1t |
+    3-1t4. t8 t4 |
+    3-7t8 4-0t 3-7t4 t8 4-0t |
+    3-5t8 t t 4-5t 3-5t 4-5t |
+    3-3t8 t t4 t8 4-3t |
+    3-2t8 t t 4-2t 3-2t 4-2t |
+    3-1t8 t t t t 4-1t |
+    3-1t4. t8 t4 |
+    3-7t4. 4-0t8 3-7t16 4-0t r t |
+    3-5t4. 4-0t8 3-5t16 4-0t8 t16 |
+    3-3t4. t8 4-0t16 3-3t r 4-0t |
+    3-2t4. t8 5t16 2t r 0t |
+    3-1t4. t8 t16 0t8 t16 |
+    3-1t4. t8 t16 4-0t8 t16 |
+    3-7t8 4-0t16 t 3-7t8 4-0t 3-7t 4-0t |
+    3-5t8 4-0t16 t 3-5t8 4-0t 3-5t 4-0t |
+    3-3t8 t16 t t8 4-0t 3-3t 4-0t |
+    3-2t8 t16 t t8 4-0t 3-2t 4-0t |
+    3-1t8 t16 t t8 4-x0t 3-1t 4-x0t |
+    3-1t8 x1t16 t 1t8 4-x0t 3-1t 4-0t |
+    3-7t8 4-0t16 t 3-7t8 4-0t16 t 3-7t8 4-x0t16 t |
+    3-5t8 4-x0t16 t 3-5t8 t t 4-x0t |
+    3-3t8 4-x0t16 t 3-3t8 t t 4-x0t |
+    3-2t8 t16 t t8 t t 0t |
+    3-1t8 t16 t t8 t t r |
+    3-1t8 t16 t t8 t t r |
+    \time 4/4
+    \tempo 4 = 175
+    4-0t1~ |
+    4-0t1~ |
+    4-0t1~ |
+    4-0t1~ |
+    \time 2/4
+    4-0t2~ |
+    \time 4/4
+    4-0t1 |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-0t8 3-7t4 t8 5t4 4-7t |
+    \time 2/4
+    4-6t8 t 5t4 |
+    \time 4/4
+    4-0t8 3-7t4 t8 5t4 4-7t |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-6t8 t 5t4 3t8 t 2t4 |
+\mymark "Verse 3" #283
+    4-2t8 0t r t t r t4 |
+    \time 2/4
+    4-0t8 t 1t4 |
+    \time 4/4
+    4-0t8 3-7t 4-0t t 3-7t 4-0t 3-7t4 |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-0t8 3-7t t 4-0t 3-7t r t4 |
+    \time 2/4
+    4-0t8 t 1t4 |
+    \time 4/4
+    4-0t8 3-7t t 4-0t 3-7t 4-0t 3-7t4 |
+    4-6t8 t 5t4 t8 6t t4 |
+    4-0t8 3-7t t 4-0t 3-7t r t4 |
+    \time 2/4
+    4-0t8 t 1t4 |
+    \time 4/4
+    4-0t8 3-7t t 4-0t 3-7t 4-0t 3-7t4 |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-0t8 3-7t t 4-0t 3-7t r t4 |
+    \time 2/4
+    4-0t8 t 1t4 |
+    \time 4/4
+    4-0t8 3-7t t 4-0t 3-7t 4-0t 3-7t4 |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-0t8 3-7t t 4-0t t 3-5t t 4-3t |
+    4-0t8 3-7t t 4-0t t 3-5t t 4-3t |
+    4-2t4 t8 t t t t t |
+    4-3t8 2t 0t 3t4. t4 |
+    4-2t4 t8 t t t t t |
+    4-3t8 2t 0t 3t4. t4 |
+    4-2t4 t8 t t t t t |
+    4-3t8 2t 0t 3t4. 5t4 |
+    4-2t4 t8 t t t t t |
+    2-5t4 3-5t 4-5t 7t |
+    4-2t4 t8 t t t t t |
+    4-3t8 2t 0t 3t4. t4 |
+    4-2t4 t8 t t t t t |
+    4-3t8 2t 0t 3t4. t4 |
+    4-2t4 t8 t t t t t |
+    4-3t8 2t 0t 3t4. 5t4 |
+    4-2t4 t8 t t t t t |
+    4-3t8 r2 r8 3.3t4 |
+    4-3.3t8 r4 3-2t8 3t t t t |
+    4-0t4 t8 t t t t t |
+    4-1t8 0t 2-0t 4-1t4. t4 |
+    4-5t4. t8 t 3t 5t4 |
+    4-7t4. t8 t 5t 7t4 |
+    3-3t4 2t8 t 4-5t 3t 1t4 |
+    4-0t4 t8 t t t t t |
+    4-1t8 0t 2-0t 4-1t4. t4 |
+    4-5t4. t8 t 3t 5t4 |
+    3-2t4 3t 2t8 0t 4-1t4 |
+    4-0t4 t8 t t t t t |
+    4-1t8 0t 2-0t 4-1t4. t4 |
+    4-5t4. t8 t 3t 5t4 |
+    4-7t2 t8 t 5t4 |
+    4-3t4. t8 5t 3t 3-5t4 |
+    3-3t2 5t8 3t 4-5t 3t |
+    4-1t1 |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-0t8 t4 t8 t t16 t t8 t |
+    \time 2/4
+    4-2t8 3t 0t4 |
+    \time 4/4
+    4-5t8 t4 t8 t t16 t t8 0t16 t |
+    4-2t8 3t 5t 0t16 t 8t8 7t 5t t |
+    4-0t8 t4 t8 3-7t t16 t t8 4-0t |
+    \time 2/4
+    4-2t8 3t 0t t |
+    \time 4/4
+    4-5t8 t16 t t8 t t t t t |
+    4-2t8 3t 5t 0t 8t t 7t4 |
+    4-0t8 3-7t4 4-0t8 3-7t t16 t t8 4-0t |
+    \time 2/4
+    4-0t8 t t4 |
+    \time 4/4
+    4-5t4 t8 t t 3t 5t4 |
+    4-7t4 t8 t 5t 7t 3-3t 2t |
+    4-3t4 t8 t 5t 3t 3-5t4 |
+    3-3t4 t8 t t 5t 3t 4-3t |
+    4-1t1 |
+    4-6t8 t 5t4 6t8 t 5t4 |
+    4-0t8 3-7t4 4-0t8 3-7t t16 t t8 t |
+    \time 2/4
+    3-7t8 4-0t 3t 0t |
+    \time 4/4
+    4-5t4 t8 t16 t t8 t16 t t8 0t |
+    4-2t8 3t 5t 0t 8t 7t 5t 0t |
+    3-7t8 4-0t 3-7t 4-0t 3-7t4 t8 4-0t16 t |
+    \time 2/4
+    4-2t8 3t 0t4 |
+    \time 4/4
+    4-0t8 5t r 0t 5t4 t8 0t16 t |
+    4-2t8 3t 5t 0t 8t 7t 5t4 |
+    4-0t8 3-7t4 4-0t8 3-7t 4-0t16 t t8 3-7t |
+    \time 2/4
+    3-7t8 4-0t 3t 0t |
+    \time 4/4
+    3-5t8 t 2-7t 3-5t16 t t8 2-7t 3-5t t |
+    \time 2/4
+    2-7t8 3-5t 7t 5t |
+    \time 4/4
+    4-7t4 3-9t8 4-7t t 3-9t 4-7t t |
+    \time 2/4
+    3-9t8 4-7t 9t4 |
+    \time 4/4
+    4-5t4 t8 t t t t 0t |
+    \time 2/4
+    4-3t8 t 2t r |
+    \time 4/4
+    4-0t4 3-7t8 4-0t t 3-7t 4-0t t |
+    \time 2/4
+    3-7t8 t 4-0t t |
+    \time 4/4
+    3-5t8 t 2-7t 3-5t16 t t8 2-7t 3-5t t |
+    \time 2/4
+    2-7t8 3-5t 7t 5t |
+    \time 4/4
+    4-7t8 t t t t t t 0t |
+    \time 2/4
+    4-6t8 t 5t r |
+    \time 4/4
+    4-5t4 t8 t t t t 0t |
+    \time 2/4
+    4-3t8 t 2t r |
+    \time 4/4
+    r1 |
+    \time 2/4
+    4-3t8 2t 0t4 |
+    r2 |
+}

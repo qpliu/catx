@@ -1,0 +1,505 @@
+distortedc =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: https://www.songsterr.com/a/wsa/metallica-and-justice-for-all-tab-s12102t6
+% artist: Metallica
+% title: ...And Justice For All
+% instrument: Distortion Guitar
+% name: Harmonies
+    \time 3/4
+    \tempo 4 = 96
+\mymark "Intro" #1
+% tuning e, a, d g b e'
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    5-11t8 4-9t 3-9t4 r8 \tuplet 3/2 { t16 11t 9t } |
+    4-7t8 3-7t t16 t 4-7t8 3-7t 4-7t |
+    5-7t8 4-5t 3-5t4 t8 \tuplet 3/2 { 4-2t16 3t 2t } |
+    4-0t8 2t 3-4t16 t 4-2t8 3-4t 4-2t |
+    4-0t8 2t 3-3t16 t 4-3t8 3-3t 2t |
+    3-3t2. |
+    \time 6/4
+    \tempo 4 = 138
+\mymark "Transition" #26
+    r1. |
+    \time 5/4
+    r1 r4 |
+    \time 4/4
+    \tempo 4 = 165
+    r1 |
+    r1 |
+    \tempo 4 = 175
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r8 3-11t4 \bendAfter #6 ^"½" t8 \bendAfter #6 ^"½" t4 \bendAfter #6 ^"½" 9t |
+    \time 2/4
+    4-10t8 t 9t4 |
+    \time 4/4
+    r8 3-11t4 \bendAfter #6 ^"½" t8 \bendAfter #6 ^"½" t4 \bendAfter #6 ^"½" 9t |
+    4-10t8 t 5-12t4 4-10t8 12t 9t4 |
+    4-10t8 t 9t4 5-8t8 t 7t4 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #59
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #77
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #95
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #120
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #138
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #156
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    \time 6/4
+    \tempo 4 = 138
+\mymark "Pre-Solo" #175
+    r1. |
+    \time 5/4
+    r1 r4 |
+    \time 4/4
+    \tempo 4 = 165
+    r1 |
+    r1 |
+    \tempo 4 = 175
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Solo" #183
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    \tempo 4 = 140
+    r1 |
+    \tempo 4 = 120
+    r1 |
+    \time 3/4
+    \tempo 4 = 96
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    4-9t8 3-9t 11t 13t4 11t8 |
+    4-7t8 3-7t 11t t16 12t 11t4 |
+    4-5t8 3-5t 7t 9t4 7t8 |
+    4-0t8 2t 3-4t 4-2t 3-4t 4-2t |
+    4-0t8 2t 3-3t 4-3t 3-3t 5t |
+    3-7t2. |
+    4-9t8 3-9t 11t 13t4 11t8 |
+    4-7t8 3-7t 11t t16 12t 11t4 |
+    4-5t8 3-5t 7t 9t4 7t8 |
+    4-0t8 2t 3-4t 4-2t 3-4t 4-2t |
+    4-0t8 2t 3-3t 4-3t 3-3t 5t |
+    3-7t2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    \time 4/4
+    \tempo 4 = 175
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 3" #283
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r8 3-11t4 \bendAfter #6 ^"½" t8 \bendAfter #6 ^"½" t4 \bendAfter #6 ^"½" 9t |
+    \time 2/4
+    4-10t8 t 9t4 |
+    \time 4/4
+    r8 3-11t4 \bendAfter #6 ^"½" t8 \bendAfter #6 ^"½" t4 \bendAfter #6 ^"½" 9t |
+    4-10t8 t 5-12t4 4-10t8 12t 9t4 |
+    r8 3-11t4 \bendAfter #6 ^"½" t8 \bendAfter #6 ^"½" t4 \bendAfter #6 ^"½" 9t |
+    \time 2/4
+    4-10t8 t 9t4 |
+    \time 4/4
+    r8 3-11t4 \bendAfter #6 ^"½" t8 \bendAfter #6 ^"½" t4 \bendAfter #6 ^"½" 9t |
+    4-10t8 t 5-12t4 4-10t8 12t 9t4 |
+    r8 3-11t4 \bendAfter #6 ^"½" t8 \bendAfter #6 ^"½" t4 \bendAfter #6 ^"½" 9t |
+    \time 2/4
+    4-10t8 t 9t4~ |
+    \time 4/4
+    4-9t1~ |
+    4-9t1~ |
+    4-9t1~ |
+    4-9t1 |
+    r1 |
+    r1 |
+    r8 5-10t4 t8 9t4 7t |
+    \time 2/4
+    6-8t8 t 7t4 |
+    \time 4/4
+    r8 5-10t4 t8 9t4 7t |
+    6-8t8 7t 5t4 8t8 t 7t4 |
+    r8 5-10t4 t8 9t4 7t |
+    \time 2/4
+    6-8t8 t 7t4 |
+    \time 4/4
+    r8 5-10t4 t8 9t4 7t |
+    6-8t8 7t 5t4 8t8 7t 5t4 |
+    r8 3-11t4 \bendAfter #6 ^"½" t8 \bendAfter #6 ^"½" t4 \bendAfter #6 ^"½" 9t |
+    \time 2/4
+    4-10t8 t 9t4 |
+    \time 4/4
+    r8 3-11t4 \bendAfter #6 ^"½" t8 \bendAfter #6 ^"½" t4 \bendAfter #6 ^"½" 9t |
+    \time 2/4
+    4-10t8 t 5-12t4 |
+    \time 4/4
+    r8 3-11t4 \bendAfter #6 ^"½" t8 \bendAfter #6 ^"½" t4 \bendAfter #6 ^"½" 9t |
+    \time 2/4
+    4-10t8 t 9t4 |
+    \time 4/4
+    r8 3-11t4 \bendAfter #6 ^"½" t8 \bendAfter #6 ^"½" t4 \bendAfter #6 ^"½" 9t |
+    \time 2/4
+    4-10t8 t 9t4 |
+    \time 4/4
+    r8 3-11t4 \bendAfter #6 ^"½" t8 \bendAfter #6 ^"½" t4 \bendAfter #6 ^"½" 9t |
+    \time 2/4
+    4-10t8 t 9t4 |
+    \time 4/4
+    r8 3-11t4 \bendAfter #6 ^"½" t8 \bendAfter #6 ^"½" t4 \bendAfter #6 ^"½" 9t |
+    \time 2/4
+    4-10t8 t 5-12t4 |
+    \time 4/4
+    r8 3-11t4 \bendAfter #6 ^"½" t8 \bendAfter #6 ^"½" t4 \bendAfter #6 ^"½" 9t |
+    \time 2/4
+    4-10t8 t 9t4 |
+    \time 4/4
+    r8 3-11t4 \bendAfter #6 ^"½" t8 \bendAfter #6 ^"½" t4 \bendAfter #6 ^"½" 9t |
+    \time 2/4
+    4-10t8 t 9t4 |
+    \time 4/4
+    r8 3-11t4 \bendAfter #6 ^"½" t8 \bendAfter #6 ^"½" t4 \bendAfter #6 ^"½" 9t |
+    \time 2/4
+    4-10t8 t 9t4 |
+    r2 |
+}

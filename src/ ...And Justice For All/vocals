@@ -1,0 +1,505 @@
+vocals =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: https://www.songsterr.com/a/wsa/metallica-and-justice-for-all-tab-s12102t0
+% artist: Metallica
+% title: ...And Justice For All
+% instrument: Baritone Sax
+% name: James Hetfield (Vocals)
+    \time 3/4
+    \tempo 4 = 96
+\mymark "Intro" #1
+% tuning e, a, d g b e'
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    \time 6/4
+    \tempo 4 = 138
+\mymark "Transition" #26
+    r1. |
+    \time 5/4
+    r1 r4 |
+    \time 4/4
+    \tempo 4 = 165
+    r1 |
+    r1 |
+    \tempo 4 = 175
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #59
+    r8 e'4 d'8 e'4 e' |
+    \time 2/4
+    e'8 e' f'4 |
+    \time 4/4
+    r8 e'4 d'8 e'4 e' |
+    r1 |
+    r8 e'4 d'8 e'4 e'8 e' |
+    \time 2/4
+    e'8 e' f'4 |
+    \time 4/4
+    r8 e'4 d'8 e'4 b |
+    r1 |
+    r8 e'4 d'8 e'4 e' |
+    \time 2/4
+    e'8 e' f'4 |
+    \time 4/4
+    r8 e'4 d'8 e'4 f' |
+    r1 |
+    r8 e'4 d'8 e' e' d'4 |
+    \time 2/4
+    e'8 e' f'4 |
+    \time 4/4
+    r8 e' d'4 e' e' |
+    r1 |
+    r1 |
+    r2. r8 cis' |
+\mymark "Pre-Chorus" #77
+    fis'4 fis'8 fis'4. d'8 cis'~ |
+    cis'8 cis'4 d'8 cis'2 |
+    r1 |
+    r2. r8 cis' |
+    fis'8 fis'4 fis'4. e'8 d'~ |
+    d'4 fis'8 e'2 \bendAfter #6 ^"full" r8 |
+    r1 |
+    r2. r8 cis' |
+    fis'4 fis'8 fis'4. d'8 d'~ |
+    d'8 cis'4 d'2~ d'8 |
+    r1 |
+    r2. r8 cis' |
+    g'4 g'8 g'4. r8 cis' |
+    fis'4 fis'8 fis'4. fis'4 |
+    fis'2 r |
+    r2. e'4 |
+    e'2 r |
+    c'8 b b c'4. c'4 |
+\mymark "Chorus" #95
+    r2 a8 b c'4 |
+    b4 r b8 b b4 |
+    c'4 r c'8 c' c'4 |
+    b4 r2. |
+    r1 |
+    r2 b8 b c'4 |
+    b2 b8 b c'4 |
+    b4 r2. |
+    r1 |
+    r2 b8 b c'4 |
+    b4 r b8 b b4 |
+    b4 r b8 b b4 |
+    c'4 c' e' e' |
+    f'16 e' f'2~ f'8 r4 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #120
+    r8 e'4 d'8 e'4 e' |
+    \time 2/4
+    e'8 e' f'4 |
+    \time 4/4
+    r8 e'4 d'8 e'4 e' |
+    r1 |
+    r8 e'4 d'8 e'4 e'8 e' |
+    \time 2/4
+    e'8 e' f'4 |
+    \time 4/4
+    r8 e'4 d'8 e' ais b4 |
+    r1 |
+    r8 e'4 d'8 e'4 e' |
+    \time 2/4
+    e'4 f' |
+    \time 4/4
+    r8 e'4 d'8 e' e' f'4 |
+    r1 |
+    r8 e'4 d'8 e'4 d' |
+    \time 2/4
+    e'8 e' f'4 |
+    \time 4/4
+    r8 e' e' d'4 e'16 d' e'4 |
+    r1 |
+    r1 |
+    r2. r8 cis' |
+\mymark "Pre-Chorus" #138
+    fis'4 fis'8 fis'4. d'8 cis'~ |
+    cis'8 cis'4 d'8 cis'2 |
+    r1 |
+    r2. r8 cis' |
+    fis'8 fis'4 fis'4. e'8 d'~ |
+    d'4 fis'8 e'2 \bendAfter #6 ^"full" r8 |
+    r1 |
+    r2. r8 cis' |
+    fis'4 fis'8 fis'4. d'8 d'~ |
+    d'8 cis'4 d'2~ d'8 |
+    r1 |
+    r2. r8 cis' |
+    g'4 g'8 g'4. r8 cis' |
+    fis'4 fis'8 fis'4. fis'4 |
+    fis'2 r |
+    r2. e'4 |
+    e'2 r |
+    c'8 b b c'4. c'4 |
+\mymark "Chorus" #156
+    r2 a8 b c'4 |
+    b4 r b8 b b4 |
+    c'4 r c'8 c' c'4 |
+    b4 r2. |
+    r1 |
+    r2 b8 b c'4 |
+    b2 b8 b c'4 |
+    b4 r2. |
+    r1 |
+    r2 b8 b c'4 |
+    b4 r b8 b b4 |
+    b4 r b8 b b4 |
+    c'4 c' e' e' |
+    f'16 e' f'2~ f'8 r4 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    \time 6/4
+    \tempo 4 = 138
+\mymark "Pre-Solo" #175
+    r1. |
+    \time 5/4
+    r1 r4 |
+    \time 4/4
+    \tempo 4 = 165
+    r1 |
+    r1 |
+    \tempo 4 = 175
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Solo" #183
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    \tempo 4 = 140
+    r1 |
+    \tempo 4 = 120
+    r1 |
+    \time 3/4
+    \tempo 4 = 96
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    \time 4/4
+    \tempo 4 = 175
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 3" #283
+    r8 e'4 d'8 e'4 e' |
+    \time 2/4
+    e'8 e' f'4 |
+    \time 4/4
+    r8 e'4 d'8 e' d' e'4 |
+    r1 |
+    r8 e'4 d'8 e'4 e' |
+    \time 2/4
+    e'8 e' f'4 |
+    \time 4/4
+    r8 e'4 d'8 e'4 e' |
+    r1 |
+    r8 e'4 d'8 e'4 e' |
+    \time 2/4
+    e'8 e' f'4 |
+    \time 4/4
+    r8 e'4 d'8 e' f' e'4 |
+    r1 |
+    r8 e'4 d'8 e' e' e'4 |
+    \time 2/4
+    e'8 e' f'4 |
+    \time 4/4
+    r8 e'4 d' e'16 d' e'4 |
+    r1 |
+    r1 |
+    r1 |
+    r2. r8 cis' |
+    fis'4 fis'8 fis'4. d'8 cis'~ |
+    cis'8 cis'4 d'8 cis'2 |
+    r1 |
+    r2. r8 cis' |
+    fis'8 fis'4 fis'4. e'8 d'~ |
+    d'4 fis'8 e'2 \bendAfter #6 ^"full" r8 |
+    r1 |
+    r2. r8 cis' |
+    fis'4 fis'8 fis'4. d'8 d'~ |
+    d'8 cis'4 d'2~ d'8 |
+    r1 |
+    r2. r8 cis' |
+    g'4 g'8 g'4. r8 cis' |
+    fis'4 fis'8 fis'4. fis'4 |
+    fis'2 r |
+    r2. e'4 |
+    e'2 r |
+    c'8 b b c'4. c'4 |
+    r2 a8 b c'4 |
+    b4 r b8 b b4 |
+    c'4 r c'8 c' c'4 |
+    b4 r2. |
+    r1 |
+    r2 b8 b c'4 |
+    b2 b8 b c'4 |
+    b4 r2. |
+    r1 |
+    r2 b8 b c'4 |
+    b4 r b8 b b4 |
+    b4 r b8 b b4 |
+    c'4 c' e' e' |
+    f'16 e' f'2~ f'8 r4 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r2 b8 b c'4 |
+    b4 r b8 b b4 |
+    b4 r b8 b b4 |
+    c'4 c' e' e' |
+    f'16 e' f'2~ f'8 r4 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    \time 2/4
+    r2 |
+    r2 |
+}

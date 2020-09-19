@@ -1,0 +1,16 @@
+excerptdrums = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    << { cymcb8 cymcb cymcb r <sn sn> r | } \context DrumVoice = "drsb" { bd8 bd bd bd r bd | } >>
+    << { cymcb8 cymcb cymcb r <sn sn> r | } \context DrumVoice = "drsb" { bd8 bd bd bd r bd | } >>
+    << { cymcb4 r2 | } \context DrumVoice = "drsb" { bd4 r2 | } >>
+}
