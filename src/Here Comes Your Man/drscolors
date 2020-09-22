@@ -40,7 +40,7 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4 bd8 | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4 bd8 | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
-    << { hh8_"1" hh_"+" <hh sn>_"2" \tuplet 3/2 { tomh16_"+" tomh_"t" tomh_"p" } sn8_"3" tomh_"+" sn_"4" tomh_"+" | } \context DrumVoice = "drsb" { bd8 bd8 r2. | } >>
+    << { hh8_"1" hh_"+" <hh sn>_"2" \tuplet 3/2 { tomh16_"+" tomh_"t" tomh_"p" } sn8_"3" tomml_"+" sn_"4" tomml_"+" | } \context DrumVoice = "drsb" { bd8 bd8 r2. | } >>
 \mymark "Verse 2" #37
     << { cymc4 <hh sn>8 hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4 bd8 | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4 bd8 | } >>
