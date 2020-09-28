@@ -22,7 +22,7 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\clef "treble_8"
-	\voPart
+	{ \myVocalsStuff \voPart }
 	\voLyrics
     >>
     \tag #'(allPart peterPart) <<
