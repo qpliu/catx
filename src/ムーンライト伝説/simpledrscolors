@@ -113,7 +113,7 @@ simpledrsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
     << { cymc8 <sn toml> <sn toml> <sn toml> <sn toml> <sn toml> tomml16 tomml toml toml | } \context DrumVoice = "drsb" { r8 bd bd bd bd bd r4 | } >>
 \mymark "Ending" #96
-    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
     << { cymc8 <sn toml> <sn toml> <sn toml> <sn toml> <sn toml> <sn toml> <sn toml> | } \context DrumVoice = "drsb" { r8 bd bd bd bd bd bd bd | } >>
     << { <sn toml>8 r2. <sn toml>8 | } \context DrumVoice = "drsb" { bd8 r2. bd8 | } >>
     << { r4_"1" <cymc sn>8_"2" r2 tomh16_"+" tomml_"a" | } \context DrumVoice = "drsb" { r4 bd2. | } >>
