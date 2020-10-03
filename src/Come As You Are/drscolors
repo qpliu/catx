@@ -36,7 +36,7 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { cymc4 <cymc sn> cymc <cymc sn> | } \context DrumVoice = "drsb" { bd2 bd8 bd4. | } >>
     << { <cymc cymr>4 sn16 sn sn sn sn sn sn sn sn sn sn sn | } \context DrumVoice = "drsb" { bd1 | } >>
     << { cymc4 <cymc sn> cymc <cymc sn> | } \context DrumVoice = "drsb" { bd2 bd8 bd4. | } >>
-    << { <cymc cymr>4 sn16 sn sn sn toml toml toml toml <sn sn>4 | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { <cymc cymr>4 sn16 sn sn sn tomh tomh tomh tomh sn4 | } \context DrumVoice = "drsb" { bd1 | } >>
 \mymark "Verse 2" #34
     << { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd2 bd8 bd4. | } >>
     << { cymr8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
