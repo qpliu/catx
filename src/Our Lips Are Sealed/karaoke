@@ -16,9 +16,9 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "talk"8
     "a"8
     "-bout"8
-    "us."4
+    "us,"4
     -4.
-    ">Tell"8
+    ">tell"8
     "-ing"8
     "lies."8
     \skip4
@@ -245,10 +245,10 @@ karaokeLyrics = \new Lyrics \lyricmode {
     ">They"8
     "talk"8
     "a"8
-    "bout"8
-    "us."8
+    "-bout"8
+    "us,"8
     -2
-    ">Tell"8
+    ">tell"8
     "-ing"8
     "lies."4
     -4.
@@ -377,5 +377,5 @@ karaokeLyrics = \new Lyrics \lyricmode {
     \skip8
     "-ed."2.
     \skip8
-    -1
+    -2. -8 @@
 }

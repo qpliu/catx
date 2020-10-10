@@ -16,9 +16,9 @@ voLyrics = \new Lyrics \lyricmode {
     "talk"8
     "a"8
     -- "bout"8
-    "us."4
+    "us,"4
     \skip4.
-    "Tell"8
+    "tell"8
     -- "ing"8
     "lies."8
     \skip4
@@ -246,9 +246,9 @@ voLyrics = \new Lyrics \lyricmode {
     "talk"8
     "a"8
     -- "bout"8
-    "us."8
+    "us,"8
     \skip2
-    "Tell"8
+    "tell"8
     -- "ing"8
     "lies."4
     \skip4.
