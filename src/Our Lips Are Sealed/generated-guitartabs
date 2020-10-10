@@ -9,7 +9,6 @@ guitarPart =
     \time 4/4
     \tempo 4 = 125
 % tuning e, a, d g b e'
-    r1 |
     r8 6-4t 4-6t4 t8 5t 5-6t 6-4t |
     6-4t4 3-1t t8 0t 4-1t 6-4t |
     6-4t4 3-1t t8 0t 4-1t 6-4t~ |
@@ -98,4 +97,5 @@ guitarPart =
     4-3.1.2t8 t t t t t t t |
     4-1.1.1t8 t t t t t t t |
     4-1.1.1t8 t t t r2 |
+    r1 |
 }

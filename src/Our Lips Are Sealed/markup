@@ -3,30 +3,30 @@ markupStuff = {
     \tempo 4 = 125
     \key des \major
 \mymark "Intro" #1
-    s1 s1 s1 s1 s1 |
-\mymark "Verse 1" #6
+    s1 s1 s1 s1 |
+\mymark "Verse 1" #5
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
-\mymark "Chorus 1" #18
+\mymark "Chorus 1" #17
     s1 s1 s1 s1 |
-\mymark "Verse 2" #22
+\mymark "Verse 2" #21
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
-\mymark "Chorus 2" #34
+\mymark "Chorus 2" #33
     s1 s1 s1 |
     s1 s1 s1 |
     s1 s1 s1 |
-\mymark "Bridge" #43
+\mymark "Bridge" #42
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
-\mymark "Verse 3" #59
+\mymark "Verse 3" #58
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
-\mymark "Outro" #67
+\mymark "Outro" #66
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |

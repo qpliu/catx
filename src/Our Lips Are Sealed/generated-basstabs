@@ -9,7 +9,6 @@ bassPart =
     \time 4/4
     \tempo 4 = 125
 % tuning e,, a,, d, g,
-    r1 |
     4-4t1 |
     4-4t1 |
     3-3t1 |
@@ -98,4 +97,5 @@ bassPart =
     3-4t8 1-6t 3-4t 1-6t 3-4t 1-6t 3-4t 1-6t |
     4-4t1~ |
     4-4t2 r |
+    r1 |
 }
