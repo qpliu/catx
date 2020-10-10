@@ -1,58 +1,381 @@
-voLyrics = \new Lyrics \lyricsto "vo" {
-    Can you hear them?
-    They talk a -- bout us.
-    Tell -- ing lies.
-    Well, that's no sur -- prise.
-    Can you see them?
-    See right through them?
-    They have no shield,
-    no sec -- rets to re -- veal.
-    It does -- n't mat -- ter
-    what they say
-    in the jea -- lous games
-    peo -- ple play, ay, ay, ay.
-    Our lips are seal -- ed.
-    There's a wea -- pon
-    which we must use
-    in our de -- fense.
-    Si -- lence
-    Spread -- ing ru -- mors
-    so far from true,
-    dragged up from the un -- der -- world,
-    just like some pre -- cious pearl.
-    It does -- n't mat -- ter
-    what they say
-    in the jea -- lous games
-    peo -- ple play, ay, ay, ay.
-    Our lips are seal -- ed.
-    Pay no mind to
-    what they say.
-    It does -- n't mat -- ter
-    A -- ny -- way, hey hey hey.
-    Our lips are seal -- ed.
-    Hush, my dar -- ling.
-    Don't you cry.
-    Cry -- in', an -- gel
-    for -- get their lies.
-    Can you hear them?
-    They talk about us.
-    Tell -- ing lies.
-    Well, that's no sur -- prise.
-    Can you see them?
-    See right through them?
-    They have no shield,
-    No sec -- rets to re -- veal.
-    It does -- n't mat -- ter
-    what they say
-    in the jea -- lous games
-    peo -- ple play, ay, ay, ay.
-    Our lips are seal -- ed.
-    Pay no mind
-    to what they say.
-    It does -- n't mat -- ter
-    a -- ny -- way, ay, ay, ay.
-    Our lips are seal -- ed.
-    Our lips are seal -- ed.
-    Our lips are seal -- ed.
-    Our lips are seal -- ed.
+voLyrics = \new Lyrics \lyricmode {
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip2
+    \skip8
+    "Can"8
+    "you"8
+    "hear"8
+    \skip4
+    "them?"4
+    \skip8
+    \skip4
+    "They"8
+    "talk"8
+    "a"8
+    -- "bout"8
+    "us."4
+    \skip4.
+    "Tell"8
+    -- "ing"8
+    "lies."8
+    \skip4
+    "Well,"4.
+    "that's"8
+    "no"8
+    "sur"8
+    -- "prise."4
+    "Can"8
+    "you"8
+    "see"8
+    \skip8
+    "them?"4
+    "See"8
+    \skip8
+    "right"8
+    "through"4
+    "them?"8
+    \skip8
+    \skip2.
+    \skip4
+    "They"8
+    "have"8
+    "no"8
+    "shield,"4
+    "no"8
+    "sec"8
+    -- "rets"8
+    "to"8
+    "re"8
+    -- "veal."4
+    \skip4
+    \skip4
+    "It"8
+    "does"8
+    -- "n't"8
+    "mat"8
+    -- "ter"8
+    "what"8
+    "they"8
+    "say"4
+    \skip2
+    \skip8
+    \skip8
+    "in"8
+    "the"8
+    "jea"8
+    -- "lous"8
+    "games"8
+    "peo"8
+    -- "ple"8
+    "play,"4.
+    \skip4
+    "ay,"8
+    "ay,"8
+    "ay."8
+    \skip4
+    \skip2.
+    \skip2
+    "Our"8
+    "lips"8
+    "are"8
+    "seal"8 --
+    \skip8
+    "ed."8
+    \skip2.
+    \skip2
+    \skip8
+    "There's"8
+    "a"8
+    "wea"8
+    -- "pon"4
+    \skip2
+    \skip8
+    "which"8
+    "we"8
+    "must"8
+    "use"4
+    \skip4
+    "in"8
+    "our"8
+    "de"8
+    -- "fense."8
+    \skip2
+    \skip8
+    "Si"8 --
+    \skip8
+    "lence"8
+    \skip8
+    \skip4
+    "Spread"8
+    -- "ing"8
+    "ru"8
+    -- "mors"4
+    \skip4
+    \skip4.
+    "so"8
+    "far"8
+    "from"8
+    "true,"4
+    \skip2
+    "dragged"8
+    "up"8
+    "from"4
+    \skip8
+    "the"8
+    "un"8
+    -- "der"8
+    -- "world,"4
+    \skip8
+    "just"8
+    "like"8
+    "some"8
+    "pre"8
+    -- "cious"8
+    "pearl."4
+    "It"8
+    "does"8
+    -- "n't"8
+    "mat"8
+    -- "ter"8
+    "what"8
+    "they"8
+    "say"4
+    \skip2
+    \skip8
+    \skip8
+    "in"8
+    "the"8
+    "jea"8
+    -- "lous"8
+    "games"8
+    "peo"8
+    -- "ple"8
+    "play,"4.
+    \skip4
+    "ay,"8
+    "ay,"8
+    "ay."8
+    \skip4
+    \skip2.
+    \skip2
+    "Our"8
+    "lips"8
+    "are"8
+    "seal"8 --
+    \skip8
+    "ed."8
+    \skip2.
+    \skip4
+    "Pay"8
+    "no"8
+    "mind"4
+    "to"8
+    "what"8
+    "they"8
+    "say."4
+    \skip2
+    \skip8
+    \skip8
+    "It"8
+    "does"8
+    -- "n't"8
+    "mat"8
+    -- "ter"8
+    "a"8
+    -- "ny"8
+    -- "way,"4.
+    \skip4
+    "hey"8
+    "hey"8
+    "hey."8
+    \skip4
+    \skip2.
+    \skip2
+    "Our"8
+    "lips"8
+    "are"8
+    "seal"8 --
+    \skip8
+    "ed."8
+    \skip2.
+    \skip1
+    \skip1
+    \skip1
+    \skip4
+    "Hush,"4
+    \skip8
+    "my"4
+    \skip8
+    "dar"4 --
+    \skip8
+    "ling."4
+    \skip4.
+    \skip4
+    "Don't"4
+    \skip8
+    "you"4
+    \skip8
+    "cry."2
+    \skip2
+    \skip4
+    "Cry"4 --
+    \skip8
+    "in',"4
+    \skip8
+    "an"4 --
+    \skip8
+    "gel"4
+    \skip4.
+    \skip2
+    \skip8
+    "for"8
+    -- "get"8
+    "their"8
+    "lies."4
+    \skip4.
+    "Can"8
+    "you"8
+    "hear"8
+    "them?"4
+    \skip2
+    \skip8
+    "They"8
+    "talk"8
+    "a"8
+    -- "bout"8
+    "us."8
+    \skip2
+    "Tell"8
+    -- "ing"8
+    "lies."4
+    \skip4.
+    "Well,"8
+    "that's"8
+    "no"8
+    "sur"8
+    -- "prise."4
+    "Can"8
+    "you"8
+    "see"8
+    "them?"4
+    \skip4
+    \skip4.
+    "See"8
+    "right"8
+    "through"8
+    "them?"4
+    \skip2
+    \skip2
+    \skip8
+    "They"8
+    "have"8
+    "no"8
+    "shield,"4
+    \skip8
+    "No"8
+    "sec"8
+    -- "rets"8
+    "to"8
+    "re"8
+    -- "veal."4
+    "It"8
+    "does"8
+    -- "n't"8
+    "mat"8
+    -- "ter"8
+    "what"8
+    "they"8
+    "say"4
+    \skip2
+    \skip8
+    \skip8
+    "in"8
+    "the"8
+    "jea"8
+    -- "lous"8
+    "games"8
+    "peo"8
+    -- "ple"8
+    "play,"4.
+    \skip4
+    "ay,"8
+    "ay,"8
+    "ay."8
+    \skip4
+    \skip2.
+    \skip2
+    "Our"8
+    "lips"8
+    "are"8
+    "seal"8 --
+    \skip8
+    "ed."8
+    \skip2.
+    \skip4
+    "Pay"8
+    "no"8
+    "mind"4
+    "to"8
+    "what"8
+    "they"8
+    "say."4
+    \skip2
+    \skip8
+    \skip8
+    "It"8
+    "does"8
+    -- "n't"8
+    "mat"8
+    -- "ter"8
+    "a"8
+    -- "ny"8
+    -- "way,"4
+    \skip4.
+    "ay,"8
+    "ay,"8
+    "ay."8
+    \skip4
+    \skip2.
+    \skip2
+    "Our"8
+    "lips"8
+    "are"8
+    "seal"8 --
+    \skip8
+    "ed."8
+    \skip2.
+    \skip1
+    \skip1
+    \skip2
+    "Our"8
+    "lips"8
+    "are"8
+    "seal"8 --
+    \skip8
+    "ed."8
+    \skip2.
+    \skip1
+    \skip1
+    \skip2
+    "Our"8
+    "lips"8
+    "are"8
+    "seal"8 --
+    \skip8
+    "ed."8
+    \skip2.
+    \skip1
+    \skip1
+    \skip2
+    "Our"8
+    "lips"8
+    "are"8
+    "seal"8 --
+    \skip8
+    "ed."2.
+    \skip8
+    \skip1
 }

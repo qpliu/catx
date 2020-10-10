@@ -1,4 +1,5 @@
-voPart = \new Voice = "vo" {
+voPart = \new Voice {
+    \myVocalsStuff
     r1 |
     r1 |
     r1 |
@@ -61,7 +62,7 @@ voPart = \new Voice = "vo" {
     cis'4 r4. gis'8 ais' c'' |
     gis'4 r2 r8 gis' |
 % 56
-    fis'8 fis' fis'4 r2 |
+    fis'8 fis' fis' gis' r2 |
     gis'8 dis' gis'4 r4. f'8 |
     f'8 f' dis' cis'4 gis'8 gis' ais' |
     c''4( gis') r4. gis'8 |
