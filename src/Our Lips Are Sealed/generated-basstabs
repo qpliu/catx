@@ -1,0 +1,101 @@
+bassPart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: Hilary Duff
+% title: Our Lips Are Sealed
+% instrument: Fretless Bass
+% name: Bass
+    \time 4/4
+    \tempo 4 = 125
+% tuning e,, a,, d, g,
+    r1 |
+    4-4t1 |
+    4-4t1 |
+    3-3t1 |
+    3-4t1 |
+    4-4t4 t t t |
+    4-2t4 t t8 r 4t 3-1t |
+    3-4t4 t t t |
+    3-4t4 t t8 t 3t 1t |
+    4-4t4 t t t |
+    4-2t4 t t t |
+    3-4t4 t t t |
+    3-4t4 t t8 1-1t 2-4t 3t |
+    2-2t4 t t8 r t 1t |
+    3-4t4 t t t8 3t |
+    3-1t8 r t r t r t 3t |
+    2-1t4 t t t |
+    4-4t8 1-1t 4-4t 1-1t 4-4t 1-1t 4-4t 1-1t |
+    3-4t8 1-6t 3-4t 1-6t 3-4t 1-6t 3-4t 1-6t |
+    4-4t8 2-6t 4-4t 2-6t 4-4t 2-6t 4-4t 2-6t |
+    4-4t8 2-6t 4-4t 2-6t 4-4t 2-6t 4-4t 2-6t |
+    4-4t4 t t t |
+    4-2t4 t t8 r 4t 3-1t |
+    3-4t4 t t t |
+    3-4t4 t t8 t 3t 1t |
+    4-4t4 t t t |
+    4-2t4 t t t |
+    3-4t4 t t t |
+    3-4t4 t t8 1-1t 2-4t 3t |
+    2-2t4 t t8 r t 1t |
+    3-4t4 t t t8 3t |
+    3-1t8 r t r t r t 3t |
+    2-1t4 t t t |
+    4-4t8 1-1t 4-4t 1-1t 4-4t 1-1t 4-4t 1-1t |
+    3-4t8 1-6t 3-4t 1-6t 3-4t 1-6t 3-4t 1-6t |
+    4-4t8 2-6t 4-4t 2-6t 4-4t 2-6t 4t 3t |
+    2-2t4 t t8 r t 1t |
+    3-4t4 t t t8 3t |
+    3-1t8 r t r t r t 3t |
+    2-1t4 t t t |
+    4-4t8 1-1t 4-4t 1-1t 4-4t 1-1t 4-4t 1-1t |
+    3-4t8 1-6t 3-4t 1-6t 3-4t 1-6t 3-4t 1-6t |
+    4-4t8 2-6t 4-4t 2-6t 4-4t 2-6t 4-4t 2-6t |
+    4-4t8 2-6t 4-4t 2-6t 4-4t 2-6t 4-4t 2-6t |
+    3-3t8 1-5t 3-3t 1-5t 3-3t 1-5t 3-3t 1-5t |
+    3-4t8 1-6t 3-4t 1-6t 3-4t 1-6t 3-4t 1-6t |
+    4-4t8 2-6t 4-4t 2-6t 4-4t 2-6t 4-4t 2-6t |
+    4-4t8 2-6t 4-4t 2-6t 4-4t 2-6t 4-4t 2-6t |
+    3-3t8 1-5t 3-3t 1-5t 3-3t 1-5t 3-3t 1-5t |
+    3-4t8 1-6t 3-4t 1-6t 3-4t 1-6t 3-4t 1-6t |
+    4-4t8 2-6t 4-4t 2-6t 4-4t 2-6t 4-4t 2-6t |
+    4-4t8 2-6t 4-4t 2-6t 4-4t 2-6t 4-4t 2-6t |
+    3-3t8 1-5t 3-3t 1-5t 3-3t 1-5t 3-3t 1-5t |
+    3-4t8 1-6t 3-4t 1-6t 3-4t 1-6t 3-4t 1-6t |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    4-4t4 t t t |
+    4-2t4 t t t |
+    3-4t4 t t t |
+    3-4t4 t t8 1-1t 2-4t 3t |
+    2-2t4 t t8 r t 1t |
+    3-4t4 t t t8 3t |
+    3-1t8 r t r t r t 3t |
+    2-1t4 t t t |
+    4-4t8 1-1t 4-4t 1-1t 4-4t 1-1t 4-4t 1-1t |
+    3-4t8 1-6t 3-4t 1-6t 3-4t 1-6t 3-4t 1-6t |
+    4-4t8 2-6t 4-4t 2-6t 4-4t 2-6t 4t 3t |
+    2-2t4 t t8 r t 1t |
+    3-4t4 t t t8 3t |
+    3-1t8 r t r t r t 3t |
+    2-1t4 t t t |
+    4-4t8 1-1t 4-4t 1-1t 4-4t 1-1t 4-4t 1-1t |
+    3-4t8 1-6t 3-4t 1-6t 3-4t 1-6t 3-4t 1-6t |
+    4-4t8 2-6t 4-4t 2-6t 4-4t 2-6t 4-4t 2-6t |
+    4-4t8 2-6t 4-4t 2-6t 4-4t 2-6t 4-4t 2-6t |
+    3-3t8 1-5t 3-3t 1-5t 3-3t 1-5t 3-3t 1-5t |
+    3-4t8 1-6t 3-4t 1-6t 3-4t 1-6t 3-4t 1-6t |
+    4-4t8 2-6t 4-4t 2-6t 4-4t 2-6t 4-4t 2-6t |
+    4-4t8 2-6t 4-4t 2-6t 4-4t 2-6t 4-4t 2-6t |
+    3-3t8 1-5t 3-3t 1-5t 3-3t 1-5t 3-3t 1-5t |
+    3-4t8 1-6t 3-4t 1-6t 3-4t 1-6t 3-4t 1-6t |
+    4-4t8 2-6t 4-4t 2-6t 4-4t 2-6t 4-4t 2-6t |
+    4-4t8 2-6t 4-4t 2-6t 4-4t 2-6t 4-4t 2-6t |
+    3-3t8 1-5t 3-3t 1-5t 3-3t 1-5t 3-3t 1-5t |
+    3-4t8 1-6t 3-4t 1-6t 3-4t 1-6t 3-4t 1-6t |
+    4-4t1~ |
+    4-4t2 r |
+}
