@@ -1,10 +1,9 @@
 class Sheets{
     constructor(where){
 	this.span = document.createElement("span");
-	this.span.onkeydown = (ev)=>this.onkeydown(ev);
 	this.span.style = "position:absolute;left:0;top:0;width:100vw;height:100vh;z-index:-1;background-color:#000;";
 	where.appendChild(this.span);
-	document.onkeydown = e=>this.keypress(e);
+	document.onkeydown = e=>this.onkeydown(e);
     }
     reset(startTime,repeat,songLength,name,pageTurns){
 	this.startTime = startTime;
@@ -87,7 +86,7 @@ class Sheets{
 	    }
 	}
     }
-    keypress(e){
+    onkeydown(e){
 	if (!this.enabled || !this.name)
 	    return;
 	if (e.keyCode==37 || e.keyCode==8 || e.keyCode==33)
