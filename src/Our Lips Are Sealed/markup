@@ -2,93 +2,35 @@ markupStuff = {
     \override Score.RehearsalMark.self-alignment-X = #LEFT
     \tempo 4 = 125
     \key des \major
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
-    s1 |
+\mymark "Intro" #1
+    s1 s1 s1 s1 s1 |
+\mymark "Verse 1" #6
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+\mymark "Chorus 1" #18
+    s1 s1 s1 s1 |
+\mymark "Verse 2" #22
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+\mymark "Chorus 2" #34
+    s1 s1 s1 |
+    s1 s1 s1 |
+    s1 s1 s1 |
+\mymark "Bridge" #43
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+\mymark "Verse 3" #59
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+\mymark "Outro" #67
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 |
 }
