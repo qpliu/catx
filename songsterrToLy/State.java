@@ -2,6 +2,7 @@ final class State{
     String argv_partName="partName";
     String argv_drumMap=null;
     String argv_url;
+    String argv_extra_stuff;
     boolean argv_lyrics;
     boolean argv_lyrics_in_voices;
     boolean argv_no_string_numbers;

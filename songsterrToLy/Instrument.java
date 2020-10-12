@@ -7,7 +7,11 @@ abstract class Instrument extends Engraver{
     void printHead(){
 	print(state.argv_partName+" =");
 	indent("{");
+    }
+    void printTwo(){
 	noindent("% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from \"get\" script that generated this.");
+	if (state.argv_extra_stuff!=null)
+	    noindent(state.argv_extra_stuff);
     }
     void printFoot(){
 	unindent("}");

@@ -3,100 +3,100 @@ voPart = \new Voice {
     r1 |
     r1 |
     r1 |
-    r2 r8 f' gis' ais'~ |
-    ais'4 c''( gis'8) r4 gis'8 |
-    fis'8 fis' f' dis'4 r4. |
+    r2 r8 f' aes'' bes'~ |
+    bes'4 c''( aes''8) r4 aes''8 |
+    ges'8 ges' f' ees'4 r4. |
 % 8
-    f'8 f' dis'( f'4) dis'4. |
-    f'8 f' dis' cis'4 f'8 gis' ais'~ |
-    ais'8 c''4 gis'8 r gis' f'4 |
-    fis'8( gis') r2. |
-    r4 gis'8 b' ais' gis'4 gis'8 |
-    gis'8 gis' b' ais' gis'4 r4 |
-    r4 cis'8 fis' fis' fis' fis' f' |
-    dis'8 cis'4 r2 r8 |
+    f'8 f' ees'( f'4) ees'4. |
+    f'8 f' ees' des'4 f'8 aes'' bes'~ |
+    bes'8 c''4 aes''8 r aes'' f'4 |
+    ges'8( aes'') r2. |
+    r4 aes''8 b' bes' aes''4 aes''8 |
+    aes''8 aes'' b' bes' aes''4 r4 |
+    r4 des'8 ges' ges' ges' ges' f' |
+    ees'8 des'4 r2 r8 |
 % 16
-    r8 gis' gis' gis' gis' gis' g' f' |
-    g'4. r4 f'8 g' gis'~ |
-    gis'4 r2. |
+    r8 aes'' aes'' aes'' aes'' aes'' g' f' |
+    g'4. r4 f'8 g' aes''~ |
+    aes''4 r2. |
     r2 f'8 f' f' f'~ |
-    f'8 dis'8 r2. |
-    r2 r8 gis' ais' c'' |
-    gis'4 r2 r8 gis' |
-    fis'8 fis' fis'4 r gis'8 dis' |
+    f'8 ees'8 r2. |
+    r2 r8 aes'' bes' c'' |
+    aes''4 r2 r8 aes'' |
+    ges'8 ges' ges'4 r aes''8 ees' |
 % 24
-    gis'8 dis' r2 r8 f'~ |
-    f'8 f'( dis' cis'4) gis'8 gis' ais' |
-    c''4( gis') r4. gis'8 |
-    fis'8 fis' fis'4 r2 |
-    gis'8 gis' gis'4 r8 gis' b' ais' |
-    gis'4 r8 ais' gis' gis' b' ais' |
-    gis'4 cis'8 fis' fis' fis' fis' f' |
-    dis'8 cis'4 r2 r8 |
+    aes''8 ees' r2 r8 f'~ |
+    f'8 f'( ees' des'4) aes''8 aes'' bes' |
+    c''4( aes'') r4. aes''8 |
+    ges'8 ges' ges'4 r2 |
+    aes''8 aes'' aes''4 r8 aes'' b' bes' |
+    aes''4 r8 bes' aes'' aes'' b' bes' |
+    aes''4 des'8 ges' ges' ges' ges' f' |
+    ees'8 des'4 r2 r8 |
 % 32
-    r8 gis' gis' gis' gis' gis' g' f' |
-    g'4. r4 f'8 g' gis'~ |
-    gis'4 r2. |
+    r8 aes'' aes'' aes'' aes'' aes'' g' f' |
+    g'4. r4 f'8 g' aes''~ |
+    aes''4 r2. |
     r2 f'8 f' f' f'~ |
-    f'8 dis'8 r2. |
-    r4 cis'8 fis' fis'4 fis'8 f' |
-    dis'8 cis'4 r2 r8 |
-    r8 gis' gis' gis' gis' gis' g' f' |
+    f'8 ees'8 r2. |
+    r4 des'8 ges' ges'4 ges'8 f' |
+    ees'8 des'4 r2 r8 |
+    r8 aes'' aes'' aes'' aes'' aes'' g' f' |
 % 40
-    g'4. r4 f'8 g' gis'~ |
-    gis'4 r2. |
+    g'4. r4 f'8 g' aes''~ |
+    aes''4 r2. |
     r2 f'8 f' f' f'~ |
-    f'8 dis'8 r2. |
+    f'8 ees'8 r2. |
     r1 |
     r1 |
     r1 |
-    r4 c'' r8 ais'4 r8 |
+    r4 c'' r8 bes'4 r8 |
 % 48
-    cis''4 r8 c''4 r4. |
-    r4 f' r8 gis'4 r8 |
-    cis'2 r |
-    r4 c'' r8 ais'4 r8 |
-    cis''4 r8 c''4 r4. |
-    r2 r8 f' f' dis' |
-    cis'4 r4. gis'8 ais' c'' |
-    gis'4 r2 r8 gis' |
+    des''4 r8 c''4 r4. |
+    r4 f' r8 aes''4 r8 |
+    des'2 r |
+    r4 c'' r8 bes'4 r8 |
+    des''4 r8 c''4 r4. |
+    r2 r8 f' f' ees' |
+    des'4 r4. aes''8 bes' c'' |
+    aes''4 r2 r8 aes'' |
 % 56
-    fis'8 fis' fis' gis' r2 |
-    gis'8 dis' gis'4 r4. f'8 |
-    f'8 f' dis' cis'4 gis'8 gis' ais' |
-    c''4( gis') r4. gis'8 |
-    fis'8 fis' fis'4 r2 |
-    r2 r8 gis' b' ais' |
-    gis'4 r8 ais' gis' gis' b' ais' |
-    gis'4 cis'8 fis' fis' fis' fis' f' |
+    ges'8 ges' ges' aes'' r2 |
+    aes''8 ees' aes''4 r4. f'8 |
+    f'8 f' ees' des'4 aes''8 aes'' bes' |
+    c''4( aes'') r4. aes''8 |
+    ges'8 ges' ges'4 r2 |
+    r2 r8 aes'' b' bes' |
+    aes''4 r8 bes' aes'' aes'' b' bes' |
+    aes''4 des'8 ges' ges' ges' ges' f' |
 % 64
-    dis'8 cis'4 r2 r8 |
-    r8 gis' gis' gis' gis' gis' g' f' |
-    g'4. r4 f'8 g' gis'~ |
-    gis'4 r2. |
+    ees'8 des'4 r2 r8 |
+    r8 aes'' aes'' aes'' aes'' aes'' g' f' |
+    g'4. r4 f'8 g' aes''~ |
+    aes''4 r2. |
     r2 f'8 f' f' f'~ |
-    f'8 dis'8 r2. |
-    r4 cis'8 fis' fis'4 fis'8 f' |
-    dis'8 cis'4 r2 r8 |
+    f'8 ees'8 r2. |
+    r4 des'8 ges' ges'4 ges'8 f' |
+    ees'8 des'4 r2 r8 |
 % 72
-    r8 gis' gis' gis' gis' gis' g' f' |
-    g'4 r4. f'8 g' gis'~ |
-    gis'4 r2. |
+    r8 aes'' aes'' aes'' aes'' aes'' g' f' |
+    g'4 r4. f'8 g' aes''~ |
+    aes''4 r2. |
     r2 f'8 f' f' f'~ |
-    f'8 dis'8 r2. |
+    f'8 ees'8 r2. |
     r1 |
     r1 |
     r2 f'8 f' f' f'~ |
 % 80
-    f'8 dis'8 r2. |
+    f'8 ees'8 r2. |
     r1 |
     r1 |
     r2 f'8 f' f' f'~ |
-    f'8 dis'8 r2. |
+    f'8 ees'8 r2. |
     r1 |
     r1 |
     r2 f'8 f' f' f'~ |
 % 88
-    f'8 dis'2.~ dis'8 |
+    f'8 ees'2.~ ees'8 |
     r1 |
 }

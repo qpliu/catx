@@ -1,8 +1,8 @@
 #!/bin/sh
 WHERE="/share/mirror/songsterr/stuff/d-keep/d-Hilary Duff/d-Our Lips Are Sealed-s37691/d-r52522"
-gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --name guitarPart --output-tabs --shift -4 - >generated-guitartabs
-gzip -d <"$WHERE/z-t1"|java -jar ../../songsterrToLy/1.jar --name guitarTwoPart --output-tabs --shift -4 - >generated-guitar2tabs
-gzip -d <"$WHERE/z-t2"|java -jar ../../songsterrToLy/1.jar --name bassPart --output-tabs --shift -4 - >generated-basstabs
+gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --name guitarPart --extra-stuff "% scale c des d ees e f ges g aes a bes ces'" --output-tabs --shift -4 - >generated-guitartabs
+gzip -d <"$WHERE/z-t1"|java -jar ../../songsterrToLy/1.jar --name guitarTwoPart --extra-stuff "% scale c des d ees e f ges g aes a bes ces'" --output-tabs --shift -4 - >generated-guitar2tabs
+gzip -d <"$WHERE/z-t2"|java -jar ../../songsterrToLy/1.jar --name bassPart --extra-stuff "% scale c des d ees e f ges g aes a bes ces'" --output-tabs --shift -4 - >generated-basstabs
 #gzip -d <"$WHERE/z-t3"|java -jar ../../songsterrToLy/1.jar --no-string-numbers --name voPart - >generated-vo
 #gzip -d <"$WHERE/z-t4"|java -jar ../../songsterrToLy/1.jar --no-string-numbers --name voTwoPart - >generated-vo2
 #gzip -d <"$WHERE/z-t5"|java -jar ../../songsterrToLy/1.jar --name drumsPart - >generated-drums
