@@ -3,9 +3,8 @@ voPart = \new Voice {
 \mymark "Intro" #1
     r1 r1 r1 r1 |
     r1 r1 r1 r1 |
-    r1 |
-    r1 |
-\mymark "Verse 1" #11
+    r1 r1 r1 r1 |
+\mymark "Verse 1" #13
     a4 a a fis8 a~ |
     a4 r8 a b d' e' d' |
     fis'8 e' d' r r2 |
@@ -22,7 +21,7 @@ voPart = \new Voice {
     a4 b cis'8  a4. |
     d'1 |
     r1 |
-\mymark "Verse 2" #27
+\mymark "Verse 2" #29
     a4 a a fis8 a~ |
     a4 r8 a b d' e' d' |
     fis'8 e' d' r r2 |
@@ -39,7 +38,7 @@ voPart = \new Voice {
     a4 b cis'8 a4. |
     d'1 |
     r1 |
-\mymark "Chorus 1" #43
+\mymark "Chorus 1" #45
     r4 d' fis' a' |
     b'4 a'8 b'4 a'8 fis' e' |
     d'4 d'8 b d'4 r |
@@ -48,7 +47,7 @@ voPart = \new Voice {
     fis'4 e'8 fis'4 e'8 d' e' |
     fis'8 a' fis' e' cis'4 \tuplet 3/2 { b8( cis' b) } |
     a2 r |
-\mymark "Verse 3" #51
+\mymark "Verse 3" #53
     a4 a a fis8 a~ |
     a4 r8 a b d' e' d' |
     fis'8 e' d' r r2 |
@@ -57,7 +56,7 @@ voPart = \new Voice {
     a4 b cis'( a) |
     d'1 |
     r1 |
-\mymark "Interlude" #59
+\mymark "Interlude" #61
     r1 |
     r1 |
     r1 |
@@ -66,7 +65,7 @@ voPart = \new Voice {
     r1 |
     r1 |
     r1 |
-\mymark "Verse 4" #67
+\mymark "Verse 4" #69
     a4 a a fis8 a~ |
     a4 r8 a b d' e' d' |
     fis'8 e' d' r r2 |
@@ -83,7 +82,7 @@ voPart = \new Voice {
     a4 b cis' a |
     d'1 |
     r1 |
-\mymark "Chorus 2" #83
+\mymark "Chorus 2" #85
     r4 d' fis' a' |
     b'4 a'8 b'4 a'8 fis' e' |
     d'4 d'8 b d'4 r |
@@ -92,7 +91,7 @@ voPart = \new Voice {
     fis'4 e'8 fis'4 e'8 d' e' |
     fis'8 a' fis' e' cis'4 \tuplet 3/2 { b8( cis' b) } |
     a2 r |
-\mymark "Outro" #91
+\mymark "Outro" #93
     a4 a a fis8 a~ |
     a4 r8 a b d' e' d' |
     fis'8 e' d' r r2 |
@@ -116,6 +115,6 @@ voPart = \new Voice {
     r1 |
     r1 |
     r1 |
-\mybarNumberCheck #114
+\mybarNumberCheck #116
     r1 |
 }
