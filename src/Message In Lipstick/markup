@@ -4,21 +4,46 @@ markupStuff = {
     \key d \major
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
+    s1 |
+\mybarNumberCheck #10
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
+\mybarNumberCheck #18
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
+\mybarNumberCheck #26
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
+\mybarNumberCheck #34
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
+\mybarNumberCheck #42
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
+\mybarNumberCheck #50
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
+\mybarNumberCheck #58
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
-    s1 s1 |
-    \tempo 4 = 60
-    s1 s1 s1 |
+\mybarNumberCheck #66
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+\mybarNumberCheck #74
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+\mybarNumberCheck #82
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+\mybarNumberCheck #90
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+\mybarNumberCheck #98
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+\mybarNumberCheck #106
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+\mybarNumberCheck #114
+    \bar "|."
 }

@@ -1,14 +1,5 @@
 guitarPart =
 {
-% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
-% scale c des d ees e f ges g aes a bes ces'
-% url: https://www.songsterr.com/a/wsa/kikis-delivery-service-rouge-message-tab-s466434t0
-% artist: Kikis Delivery Service
-% title: Rouge Message
-% instrument: Acoustic Guitar (steel)
-% name: Track 1
-    \time 4/4
-    \tempo 4 = 150
 % tuning d, a, d g b e'
     5-x5t4 t8 gx5t t x5t t gx5t |
     5-x5t4 t t t8 3t \glissando |
@@ -76,7 +67,6 @@ guitarPart =
     5-2t4 4-4.4t8 5-x2t 2t 4-4.4t~ 5-x2.4.4t 3t \glissando |
     5-5t4 4-7.7t8 5-x5t 5t 4-7.7t~ 5-x5.7.7t 3t \glissando |
     5-5t4 4-7.7t8 5-x5t 5t 4-7.7t~ 5-x5.7.7t 0t |
-    \tempo 4 = 60
     5-2t4 4-4.4t8 5-x2t 2t 4-4.4t~ 5-x2.4.4t 0t |
     5-2t4 4-4.4t8 5-2t t 0t 2t 4t |
     6-0.0.0.2.3.2t1 |

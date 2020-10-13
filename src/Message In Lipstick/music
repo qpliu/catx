@@ -6,8 +6,8 @@
 }
 
 \include "markup"
-\include "generated-guitar"
-\include "generated-piano"
+\include "guitar"
+\include "piano"
 \include "vo"
 \include "drums"
 \include "lyrics"
@@ -40,11 +40,14 @@ layoutmusic = <<
 	    \guitarPart
 	>>
     >>
-    \tag #'(peterPart) \new TabStaff <<
+    \tag #'(peterPart) \new TabStaff \with {
+	stringTunings = \stringTuning <d, a, d g b e'>
+	instrumentName = \markup { \rotate #90 "Drop D" }
+    } <<
 	\markupStuff
 	\guitarPart
     >>
-    \tag #'(allPart kavPart) \new DrumStaff \with {
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
@@ -58,18 +61,24 @@ midimusic = <<
     \markupStuff
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.2
     } \drumsPart
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.2
     } \pianoPart
     \tag #'(midiKav) \new Staff \with {
 	midiInstrument = #"flute" % 73
     } \voPart
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.2
     } \guitarPart
-    \tag #'(midiKaraoke) <<
+%    \tag #'(midiKaraoke) <<
 %	\karaokeLyrics
-	\voPart
-    >>
+%	\voPart
+%    >>
 >>

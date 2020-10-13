@@ -1,14 +1,4 @@
-pianoPart =
-{
-% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
-% url: https://www.songsterr.com/a/wsa/kikis-delivery-service-rouge-message-tab-s466434t0
-% artist: Kikis Delivery Service
-% title: Rouge Message
-% instrument: Acoustic Guitar (steel)
-% name: Track 1
-    \time 4/4
-    \tempo 4 = 150
-% tuning d, a, d g b e'
+pianoPart = {
     \deadNote d4 \deadNote d8 \deadNote \parenthesize d \deadNote \parenthesize d \deadNote d \deadNote d \deadNote \parenthesize d |
     \deadNote d4 \deadNote d \deadNote d \deadNote d8 c \glissando |
     d4 <a d'>8 \deadNote d d <a d'>~ <\deadNote d a d'> c \glissando |
@@ -75,7 +65,6 @@ pianoPart =
     b,4 <fis b>8 \deadNote b, b, <fis b>~ <\deadNote b, fis b> c \glissando |
     d4 <a d'>8 \deadNote d d <a d'>~ <\deadNote d a d'> c \glissando |
     d4 <a d'>8 \deadNote d d <a d'>~ <\deadNote d a d'> a, |
-    \tempo 4 = 60
     b,4 <fis b>8 \deadNote b, b, <fis b>~ <\deadNote b, fis b> a, |
     b,4 <fis b>8 b, b, a, b, cis |
     <d, a, d a d' fis'>1 |
