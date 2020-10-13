@@ -7,13 +7,13 @@
 
 \include "markup"
 \include "guitar"
-\include "piano"
 \include "vo"
 \include "drums"
 \include "lyrics"
+\include "karaoke"
 
 layoutmusic = <<
-    \tag #'(allPart kavPart) \new Staff \with {
+    \tag #'(allPart kavPart susanPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vocals" }
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
@@ -21,14 +21,6 @@ layoutmusic = <<
 	\clef treble
 	\voPart
 	\voLyrics
-    >>
-    \tag #'(allPart susanPart) \new Staff \with {
-	instrumentName = \markup { \rotate #90 "Piano" }
-	shortInstrumentName = \markup { \rotate #90 "Pi" }
-    } <<
-	\markupStuff
-	\clef treble
-	\pianoPart
     >>
     \tag #'(allPart peterPart) <<
 	\new Staff \with {
@@ -47,7 +39,7 @@ layoutmusic = <<
 	\markupStuff
 	\guitarPart
     >>
-    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
+    \tag #'(allPart kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
@@ -55,30 +47,28 @@ layoutmusic = <<
 	\markupStuff
 	\drumsPart
     >>
+    \tag #'(ggPart) \new DrumStaff \with {
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drumsPart
+	\voLyrics
+    >>
 >>
 
 midimusic = <<
     \markupStuff
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.2
     } \drumsPart
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.2
-    } \pianoPart
-    \tag #'(midiKav) \new Staff \with {
-	midiInstrument = #"flute" % 73
     } \voPart
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.2
     } \guitarPart
-%    \tag #'(midiKaraoke) <<
-%	\karaokeLyrics
-%	\voPart
-%    >>
+    \tag #'(midiKaraoke) <<
+	\karaokeLyrics
+	\voPart
+    >>
 >>

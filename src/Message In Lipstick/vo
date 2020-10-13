@@ -1,4 +1,5 @@
-voPart = \new Voice = "vo" {
+voPart = \new Voice {
+    \myVocalsStuff
     r1 r1 r1 r1 |
     r1 r1 r1 r1 |
     r1 |
@@ -51,7 +52,7 @@ voPart = \new Voice = "vo" {
     a2 r |
     a4 a a fis8 a~ |
     a4 r8 a b d' e' d' |
-    fis'8 e' d' d' r2 |
+    fis'8 e' d' r r2 |
     r2 \tuplet 3/2 { b4 cis' d' } |
     g4 g a b |
     a4 b cis'( a) |
@@ -96,7 +97,7 @@ voPart = \new Voice = "vo" {
     a2 r |
     a4 a a fis8 a~ |
     a4 r8 a b d' e' d' |
-    fis'8 e' d' d' r2 |
+    fis'8 e' d' r r2 |
     r2 \tuplet 3/2 { b4 cis' d' } |
     g4 g a b |
     a4 b cis'( a) |

@@ -1,44 +1,375 @@
-voLyrics = \new Lyrics \lyricsto "vo" {
-    I have heard e -- nough
-    a -- bout your in -- fi -- de -- li -- ty.
-    So I'm on the train
-    and you are re -- cent hi -- sto -- ry.
-    Did -- n't take long
-    for you to start to play and break all your so -- lemn pro -- mis -- es,
-    the ones you make last week with your "\"I" "do\"."
-
-    You've been be -- in' bad.
-    And boy the ru -- mor tra -- veled fast.
-    You can't change your ways.
-    And I don't think our love can last.
-    Why did you think
-    I'd si -- lent -- ly take all your same sil -- ly im -- ma -- tu -- ri -- ty?
-    I will scream and cry cause it's all true.
-
-    I'm gon -- na tell your mo -- ther
-    cause it hap -- pened a -- gain.
-    I'll tell your bro -- ther too
-    and you'll be oh so sor -- ry then oh yeah.
-
-    May -- be you'll grow up
-    when you go home and read the mir -- ror.
-    I've left a lip -- stick mes -- sage there my dar -- ling.
-
-    Call -- ing you some names
-    is still a pos -- si -- bi -- li -- ty.
-    Mak -- ing up with you
-    for now is not a cer -- tain -- ty.
-    Bet -- ter be -- lieve the things you read when you get home.
-    And come back to re -- a -- li -- ty
-    cause I'm go -- ing home to tell your mom.
-
-    I'm gon -- na tell your mo -- ther
-    cause it hap -- pened a -- gain.
-    I'll tell your bro -- ther too.
-    And you'll be oh so sor -- ry then oh yeah.
-
-    May -- be you'll grow up
-    when you go home and read the mir -- ror.
-    I've left a lip -- stick mes -- sage there my dar -- ling.
-    I've left a lip -- stick mes -- sage there my dar -- ling.
+voLyrics = \new Lyrics \lyricmode {
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    "I"4
+    "have"4
+    "heard"4
+    "e"8 --
+    "nough"8
+    \skip4
+    \skip8
+    "a"8 --
+    "bout"8
+    "your"8
+    "in"8 --
+    "fi"8 --
+    "de"8 --
+    "li"8 --
+    "ty."8
+    \skip8
+    \skip2
+    \skip1
+    "So"4
+    "I'm"4
+    "on"4
+    "the"8
+    "train"8
+    \skip4
+    \skip8
+    "and"8
+    "you"8
+    "are"8
+    "re"8 --
+    "cent"8
+    "hi"8 --
+    "sto"8 --
+    "ry."8
+    \skip8
+    \skip2
+    \skip2
+    "Did"4*2/3 --
+    "n't"4*2/3
+    "take"4*2/3
+    "long"4
+    "for"4
+    "you"4
+    "to"4
+    "start"4
+    "to"4
+    "play"4
+    "and"4
+    "break"2
+    "all"8
+    "your"8
+    "so"8 --
+    "lemn"8
+    "pro"8 --
+    "mis"8 --
+    "es,"8
+    \skip4.
+    "the"4
+    "ones"4
+    "you"4
+    "make"8
+    "last"4.
+    "week"4
+    "with"4
+    "your"8
+    "\"I"4.
+    "do\"."1
+    \skip1
+    "You've"4
+    "been"4
+    "be"4 --
+    "in'"8
+    "bad."8
+    \skip4
+    \skip8
+    "And"8
+    "boy"8
+    "the"8
+    "ru"8 --
+    "mor"8
+    "tra"8 --
+    "veled"8
+    "fast."8
+    \skip8
+    \skip2
+    \skip1
+    "You"4
+    "can't"4
+    "change"4
+    "your"8
+    "ways."8
+    \skip4
+    \skip8
+    "And"8
+    "I"8
+    "don't"8
+    "think"8
+    "our"8
+    "love"8
+    "can"8
+    "last."8
+    \skip8
+    \skip2
+    \skip2
+    "Why"4*2/3
+    "did"4*2/3
+    "you"4*2/3
+    "think"4
+    "I'd"4
+    "si"4 --
+    "lent"4 --
+    "ly"4
+    "take"4
+    "all"4
+    "your"4
+    "same"2
+    "sil"8 --
+    "ly"8
+    "im"8 --
+    "ma"8 --
+    "tu"8 --
+    "ri"8 --
+    "ty?"8
+    \skip8
+    \skip2
+    "I"4
+    "will"4
+    "scream"8
+    "and"4.
+    "cry"4
+    "cause"4
+    "it's"8
+    "all"4.
+    "true."1
+    \skip1
+    \skip4
+    "I'm"4
+    "gon"4 --
+    "na"4
+    "tell"4
+    "your"8
+    "mo"4 --
+    "ther"8
+    "cause"8
+    "it"8
+    "hap"4 --
+    "pened"8
+    "a"8 --
+    "gain."4
+    \skip4
+    \skip1
+    \skip4
+    "I'll"4
+    "tell"4
+    "your"4
+    "bro"4 --
+    "ther"8
+    "too"4
+    "and"8
+    "you'll"8
+    "be"8
+    "oh"8
+    "so"8
+    "sor"8 --
+    "ry"8
+    "then"4
+    "oh"8*2/3
+    \skip8*2/3
+    \skip8*2/3
+    "yeah."2
+    \skip2
+    "May"4 --
+    "be"4
+    "you'll"4
+    "grow"8
+    "up"8
+    \skip4
+    \skip8
+    "when"8
+    "you"8
+    "go"8
+    "home"8
+    "and"8
+    "read"8
+    "the"8
+    "mirror."8 \skip8
+    \skip2
+    \skip2
+    "I've"4*2/3
+    "left"4*2/3
+    "a"4*2/3
+    "lip"4 --
+    "stick"4
+    "mes"4 --
+    "sage"4
+    "there"4
+    "my"4
+    "dar"2 --
+    "ling."1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    "Call"4 --
+    "ing"4
+    "you"4
+    "some"8
+    "names"8
+    \skip4
+    \skip8
+    "is"8
+    "still"8
+    "a"8
+    "pos"8 --
+    "si"8 --
+    "bi"8 --
+    "li"8 --
+    "ty."8
+    \skip8
+    \skip2
+    \skip1
+    "Mak"4 --
+    "ing"4
+    "up"4
+    "with"8
+    "you"8
+    \skip4
+    \skip8
+    "for"8
+    "now"8
+    "is"8
+    "not"8
+    "a"8
+    "cer"8 --
+    "tain"8 --
+    "ty."8
+    \skip8
+    \skip2
+    \skip2
+    "Bet"4*2/3 --
+    "ter"4*2/3
+    "be"4*2/3 --
+    "lieve"4
+    "the"4
+    "things"4
+    "you"4
+    "read"4
+    "when"4
+    "you"4
+    "get"4
+    "home."4.
+    "And"8
+    "come"8
+    "back"8
+    "to"8
+    "re"8 --
+    "a"8 --
+    "li"8 --
+    "ty"8
+    \skip8
+    \skip2
+    "cause"4
+    "I'm"4
+    "go"8 --
+    "ing"4.
+    "home"4
+    "to"4
+    "tell"4
+    "your"4
+    "mom."1
+    \skip1
+    \skip4
+    "I'm"4
+    "gon"4 --
+    "na"4
+    "tell"4
+    "your"8
+    "mo"4 --
+    "ther"8
+    "cause"8
+    "it"8
+    "hap"4 --
+    "pened"8
+    "a"8 --
+    "gain."4
+    \skip4
+    \skip1
+    \skip4
+    "I'll"4
+    "tell"4
+    "your"4
+    "bro"4 --
+    "ther"8
+    "too."4
+    "And"8
+    "you'll"8
+    "be"8
+    "oh"8
+    "so"8
+    "sor"8 --
+    "ry"8
+    "then"4
+    "oh"8*2/3
+    \skip8*2/3
+    \skip8*2/3
+    "yeah."2
+    \skip2
+    "May"4 --
+    "be"4
+    "you'll"4
+    "grow"8
+    "up"8
+    \skip4
+    \skip8
+    "when"8
+    "you"8
+    "go"8
+    "home"8
+    "and"8
+    "read"8
+    "the"8
+    "mirror."8 \skip8
+    \skip2
+    \skip2
+    "I've"4*2/3
+    "left"4*2/3
+    "a"4*2/3
+    "lip"4 --
+    "stick"4
+    "mes"4 --
+    "sage"4
+    "there"4
+    "my"4
+    "dar"2 --
+    "ling."1
+    \skip2
+    "I've"4*2/3
+    "left"4*2/3
+    "a"4*2/3
+    "lip"4 --
+    "stick"4
+    "mes"4 --
+    "sage"4
+    "there"4
+    "my"4
+    "dar"2 --
+    "ling."1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
 }
