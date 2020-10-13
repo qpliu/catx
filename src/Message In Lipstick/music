@@ -9,6 +9,7 @@
 \include "guitar"
 \include "vo"
 \include "drums"
+\include "perc"
 \include "lyrics"
 \include "karaoke"
 
@@ -47,6 +48,14 @@ layoutmusic = <<
 	\markupStuff
 	\drumsPart
     >>
+    \tag #'(allPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Cow Bell" }
+	shortInstrumentName = \markup { \rotate #90 "Cb" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\percPart
+    >>
     \tag #'(ggPart) \new DrumStaff \with {
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
@@ -67,6 +76,9 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
     } \guitarPart
+    \tag #'(midiOne) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \percPart
     \tag #'(midiKaraoke) <<
 	\karaokeLyrics
 	\voPart
