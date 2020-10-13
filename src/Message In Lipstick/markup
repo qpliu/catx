@@ -2,48 +2,45 @@ markupStuff = {
     \override Score.RehearsalMark.self-alignment-X = #LEFT
     \tempo 4 = 150
     \key d \major
+\mymark "Intro" #1
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
-    s1 |
-\mybarNumberCheck #10
+    s1 s1 |
+\mymark "Verse 1" #11
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
-\mybarNumberCheck #18
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
-\mybarNumberCheck #26
+\mymark "Verse 2" #27
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
-\mybarNumberCheck #34
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
-\mybarNumberCheck #42
+\mymark "Chorus 1" #43
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
-\mybarNumberCheck #50
+\mymark "Verse 3" #51
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
-\mybarNumberCheck #58
+\mymark "Interlude" #59
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
-\mybarNumberCheck #66
+\mymark "Verse 4" #67
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
-\mybarNumberCheck #74
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
-\mybarNumberCheck #82
+\mymark "Chorus 2" #83
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
-\mybarNumberCheck #90
+\mymark "Outro" #91
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
-\mybarNumberCheck #98
     s1 s1 s1 s1 |
     s1 s1 s1 s1 |
-\mybarNumberCheck #106
     s1 s1 s1 s1 |
-    s1 s1 s1 s1 |
+    s1 s1 s1 |
 \mybarNumberCheck #114
+    s1 |
     \bar "|."
 }
