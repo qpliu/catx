@@ -33,10 +33,10 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "I'm"4
     "on"4
     "the"8
-    "train"8
+    "train|!bg=img=../train.png"8
     \skip4
     -8
-    "|||and"8
+    "|||and|!bg="8
     "you"8
     "are"8
     "re"8
@@ -179,9 +179,9 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "oh"8*2/3
     \skip8*2/3
     \skip8*2/3
-    "yeah."2
+    "yeah.|!bg=img=../yeah.png"2
     -2
-    ">May"4
+    ">May|!bg="4
     "-be"4
     "you'll"4
     "grow"8
@@ -321,9 +321,9 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "oh"8*2/3
     \skip8*2/3
     \skip8*2/3
-    "yeah."2
+    "yeah.|!bg=img=../yeah.png"2
     -2
-    ">May"4
+    ">May|!bg="4
     "-be"4
     "you'll"4
     "grow"8

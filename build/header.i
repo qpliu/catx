@@ -158,6 +158,7 @@ drumPitchNames.slash = #'slash
     (crashcymbal    cross    #f          6)
     (ridecymbal     cross    #f          5)
     (openhihat      cross    "open"      4)
+    (closedhihat    cross    "stopped"    4)
     (hihat          cross    #f          4)
     (hightom        default  #f          2)
     (snare          default  #f          1)
