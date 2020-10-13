@@ -117,7 +117,6 @@ guitarPart =
     6-5..0.0t4 3-0t8 6-5t 3-2t4 2-0t |
     5-0.2.2t4 2-0t8 5-0t 2-2t4 5-0..2t |
     6-0.3-2.3t4 4-x0.x2.x3t8 0t 5-4..2.3t4 4-x0.x2.x3t8 5-4..2.3t |
-    5-5t4 4-7.7t8 5-x5t 5t 4-7.7t~ 5-x5.7.7t 3t \glissando |
     5-5t4 4-7.7t8 5-x5t 5t 4-7.7t~ 5-x5.7.7t 0t |
     5-2t4 4-4.4t8 5-x2t 2t 4-4.4t~ 5-x2.4.4t 0t |
     5-2t4 4-4.4t8 5-x2t 2t 4-4.4t~ 5-x2.4.4t 3t \glissando |
@@ -125,6 +124,6 @@ guitarPart =
     5-5t4 4-7.7t8 5-x5t 5t 4-7.7t~ 5-x5.7.7t 0t |
     5-2t4 4-4.4t8 5-x2t 2t 4-4.4t~ 5-x2.4.4t 0t |
     5-2t4 4-4.4t8 5-2t t 0t 2t 4t |
-\mybarNumberCheck #116
+\mybarNumberCheck #115
     6-0.0.0.2.3.2t1 |
 }

@@ -100,6 +100,15 @@ percPart = \drummode {
     r1 |
     r1 |
 \mymark "Outro" #93
+    r4 cb8 cb4. cb4 |
+    r4 cb8 cb4. cb4 |
+    r4 cb8 cb4. cb4 |
+    r4 cb8 cb4. cb4 |
+    r4 cb8 cb4. cb4 |
+    r4 cb8 cb4. cb4 |
+    r4 cb8 cb4. cb4 |
+    r4 cb8 cb4. cb4 |
+    r4 cb8 cb4. cb4 |
     r1 |
     r1 |
     r1 |
@@ -113,16 +122,6 @@ percPart = \drummode {
     r1 |
     r1 |
     r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-\mybarNumberCheck #116
+\mybarNumberCheck #115
     r1 |
 }
