@@ -1,0 +1,82 @@
+pianoPart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: https://www.songsterr.com/a/wsa/kikis-delivery-service-rouge-message-tab-s466434t0
+% artist: Kikis Delivery Service
+% title: Rouge Message
+% instrument: Acoustic Guitar (steel)
+% name: Track 1
+    \time 4/4
+    \tempo 4 = 150
+% tuning d, a, d g b e'
+    \deadNote d4 \deadNote d8 \deadNote \parenthesize d \deadNote \parenthesize d \deadNote d \deadNote d \deadNote \parenthesize d |
+    \deadNote d4 \deadNote d \deadNote d \deadNote d8 c \glissando |
+    d4 <a d'>8 \deadNote d d <a d'>~ <\deadNote d a d'> c \glissando |
+    d4 <a d'>8 \deadNote d d <a d'>~ <\deadNote d a d'> a, |
+    b,4 <fis b>8 \deadNote b, b, <fis b>~ <\deadNote b, fis b> a, |
+    b,4 <fis b>8 \deadNote b, b, <fis b>~ <\deadNote b, fis b> c \glissando |
+    d4 <a d'>8 \deadNote d d <a d'>~ <\deadNote d a d'> c \glissando |
+    d4 <a d'>8 \deadNote d d <a d'>~ <\deadNote d a d'> a, |
+    b,4 <fis b>8 \deadNote b, b, <fis b>~ <\deadNote b, fis b> a, |
+    b,4 <fis b>8 \deadNote b, b, <fis b>~ <\deadNote b, fis b> a, |
+    <d, a>4 a8 d, a4 fis8 a~ |
+    <d, a>4 \deadNote d8 <d, a> b d' e' d' |
+    <b, fis'>8 e' d' b,4 <b, d>8 \deadNote d a, |
+    b,4 \deadNote d8 b,4 <b, d>8 \deadNote d a, |
+    <d, a>4 a8 d, a4 fis8 a~ |
+    <d, a>4 \deadNote d8 <d, a> b d' e' d' |
+    <b, fis'>8 e' d' b,4 <b, d>8 \deadNote d a, |
+    b,4 \deadNote d8 b,~ \tuplet 3/2 { <b, b>4 <a, cis'> d' } |
+    <g, d g>4 g8 g, a4 b |
+    <a, e a>4 b8 a, cis'4 <a, a> |
+    <d, a d'>4 \deadNote d8 d, d' cis' b a |
+    <b, fis b>8 a fis b,4 b,8 fis a, |
+    <g, d g>4 g8 g, a b4. |
+    <a, e a>4 b8 a, cis' <a, a~> a4 |
+    <d, d a d'>4 <\deadNote d, \deadNote d \deadNote a \deadNote d'>8 <d, d a d'>4 <d, d a d'>8 <\deadNote d, \deadNote d \deadNote a \deadNote d'> <d, d a d'> |
+    <\deadNote d, \deadNote d \deadNote a \deadNote d'>8 a,4 a,8 a, a,4 a,8 |
+    <d, a>4 a8 d, a4 fis8 a~ |
+    <d, a>4 \deadNote a,8 <d, a> b d' e' d' |
+    <b, fis'>8 e' d' b,4 <b, d>8 \deadNote b, a, |
+    b,4 \deadNote b,8 b,4 <b, d>8 \deadNote b, a, |
+    <d, a>4 a8 d, a4 fis8 a~ |
+    <d, a>4 \deadNote a,8 <d, a> b d' e' d' |
+    <b, fis'>8 e' d' b,4 <b, d>8 \deadNote b, a, |
+    b,4 \deadNote b,8 b,~ \tuplet 3/2 { <b, b>4 <a, cis'> d' } |
+    <g, d g>4 g8 g, a4 b |
+    <a, e a>4 b8 a, cis'4 <a, a> |
+    <d, a d'>4 \deadNote d8 d, d' cis' b a |
+    <b, fis b>8 a fis b,4 b,8 fis a, |
+    <g, d g>4 g8 g, a b4. |
+    <a, e a>4 b8 a, cis' <a, a~> a4 |
+    <d, d a d'>4 <\deadNote d, \deadNote d \deadNote a \deadNote d'>8 d,4 <d a d'>8 <\deadNote d, \deadNote d \deadNote a \deadNote d'> c \glissando |
+    d4 <a d'>8 \deadNote d d <a d'>~ <\deadNote d a d'> a, |
+    <d, a, d>4 d' fis' a' |
+    b'4 a'8 b'4 a'8 fis' e' |
+    <b, fis b d'>4 d'8 b d'4 <\deadNote b, \deadNote fis \deadNote b \deadNote d'>8 a, |
+    b,4 <fis b>8 \deadNote b, b, <fis b> \deadNote b, a, |
+    <g, d g>4 b d' e' |
+    fis'4 e'8 fis'4 e'8 d' e' |
+    <a, cis' fis'>8 a' fis' e' cis'4 \tuplet 3/2 { b8 cis' b } |
+    <a, a>8 a, g, g, fis,4 e,8 e, |
+    <d, a>4 a8 d, a4 fis8 a~ |
+    <d, a>4 \deadNote a,8 <d, a> b d' e' d' |
+    <b, fis'>8 e' d' b,4 <b, d>8 \deadNote b, a, |
+    b,4 \deadNote b,8 b,~ \tuplet 3/2 { <b, b>4 <a, cis'> d' } |
+    <g, d g>4 g8 g, a4 b |
+    <a, e a>4 b8 a, cis'4 <a, a> |
+    <d, a d'>4 <\deadNote d \deadNote a \deadNote d'>8 d <cis a d'>4 <\deadNote d \deadNote a \deadNote d'>8 <cis a d'> |
+    <b, a d'>4 <\deadNote d \deadNote a \deadNote d'>8 b, <a, a d'>4 <\deadNote d \deadNote a \deadNote d'>8 a, |
+    <g, d g>4 g8 g, a b4. |
+    <a, e a>4 b8 a, cis' <a, a~> a c \glissando |
+    d4 <a d'>8 \deadNote d d <a d'>~ <\deadNote d a d'> c \glissando |
+    d4 <a d'>8 \deadNote d d <a d'>~ <\deadNote d a d'> a, |
+    b,4 <fis b>8 \deadNote b, b, <fis b>~ <\deadNote b, fis b> a, |
+    b,4 <fis b>8 \deadNote b, b, <fis b>~ <\deadNote b, fis b> c \glissando |
+    d4 <a d'>8 \deadNote d d <a d'>~ <\deadNote d a d'> c \glissando |
+    d4 <a d'>8 \deadNote d d <a d'>~ <\deadNote d a d'> a, |
+    \tempo 4 = 60
+    b,4 <fis b>8 \deadNote b, b, <fis b>~ <\deadNote b, fis b> a, |
+    b,4 <fis b>8 b, b, a, b, cis |
+    <d, a, d a d' fis'>1 |
+}

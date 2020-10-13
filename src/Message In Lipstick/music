@@ -1,0 +1,75 @@
+% BIN midi all kav susan gg peter
+
+\header {
+    title = "Message In Lipstick"
+    composer = "Kiki's Delivery Service"
+}
+
+\include "markup"
+\include "generated-guitar"
+\include "generated-piano"
+\include "vo"
+\include "drums"
+\include "lyrics"
+
+layoutmusic = <<
+    \tag #'(allPart kavPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vocals" }
+	shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+	\markupStuff
+	\clef treble
+	\voPart
+	\voLyrics
+    >>
+    \tag #'(allPart susanPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Piano" }
+	shortInstrumentName = \markup { \rotate #90 "Pi" }
+    } <<
+	\markupStuff
+	\clef treble
+	\pianoPart
+    >>
+    \tag #'(allPart peterPart) <<
+	\new Staff \with {
+	    instrumentName = \markup { \rotate #90 "Guitar" }
+	    shortInstrumentName = \markup { \rotate #90 "Gtr" }
+	} <<
+	    \markupStuff
+	    \clef "treble_8"
+	    \guitarPart
+	>>
+    >>
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\guitarPart
+    >>
+    \tag #'(allPart kavPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drumsPart
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiGg) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drumsPart
+    \tag #'(midiSusan) \new Staff \with {
+	midiInstrument = #"steel drums"
+    } \pianoPart
+    \tag #'(midiKav) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } \voPart
+    \tag #'(midiPeter) \new Staff \with {
+	midiInstrument = #"electric guitar (clean)" % 27
+    } \guitarPart
+    \tag #'(midiKaraoke) <<
+%	\karaokeLyrics
+	\voPart
+    >>
+>>

@@ -1,0 +1,24 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \tempo 4 = 150
+    \key d \major
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    s1 s1 |
+    \tempo 4 = 60
+    s1 s1 s1 |
+}

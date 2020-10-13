@@ -1,0 +1,83 @@
+guitarPart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% scale c des d ees e f ges g aes a bes ces'
+% url: https://www.songsterr.com/a/wsa/kikis-delivery-service-rouge-message-tab-s466434t0
+% artist: Kikis Delivery Service
+% title: Rouge Message
+% instrument: Acoustic Guitar (steel)
+% name: Track 1
+    \time 4/4
+    \tempo 4 = 150
+% tuning d, a, d g b e'
+    5-x5t4 t8 gx5t t x5t t gx5t |
+    5-x5t4 t t t8 3t \glissando |
+    5-5t4 4-7.7t8 5-x5t 5t 4-7.7t~ 5-x5.7.7t 3t \glissando |
+    5-5t4 4-7.7t8 5-x5t 5t 4-7.7t~ 5-x5.7.7t 0t |
+    5-2t4 4-4.4t8 5-x2t 2t 4-4.4t~ 5-x2.4.4t 0t |
+    5-2t4 4-4.4t8 5-x2t 2t 4-4.4t~ 5-x2.4.4t 3t \glissando |
+    5-5t4 4-7.7t8 5-x5t 5t 4-7.7t~ 5-x5.7.7t 3t \glissando |
+    5-5t4 4-7.7t8 5-x5t 5t 4-7.7t~ 5-x5.7.7t 0t |
+    5-2t4 4-4.4t8 5-x2t 2t 4-4.4t~ 5-x2.4.4t 0t |
+    5-2t4 4-4.4t8 5-x2t 2t 4-4.4t~ 5-x2.4.4t 0t |
+    6-0.3-2t4 3-2t8 6-0t 3-2t4 4-4t8 3-2t~ |
+    6-0.3-2t4 4-x0t8 6-0.3-2t 2-0t 3t 1-0t 2-3t |
+    5-2.1-2t8 1-0t 2-3t 5-2t4 2.0t8 4-x0t 5-0t |
+    5-2t4 4-x0t8 5-2t4 2.0t8 4-x0t 5-0t |
+    6-0.3-2t4 3-2t8 6-0t 3-2t4 4-4t8 3-2t~ |
+    6-0.3-2t4 4-x0t8 6-0.3-2t 2-0t 3t 1-0t 2-3t |
+    5-2.1-2t8 1-0t 2-3t 5-2t4 2.0t8 4-x0t 5-0t |
+    5-2t4 4-x0t8 5-2t~ \tuplet 3/2 { 2.2-0t4 0.2-2t 2-3t } |
+    6-5..0.0t4 3-0t8 6-5t 3-2t4 2-0t |
+    5-0.2.2t4 2-0t8 5-0t 2-2t4 5-0..2t |
+    6-0.3-2.3t4 4-x0t8 6-0t 2-3t 2t 3-4t 2t |
+    5-2.4.4t8 3-2t 4-4t 5-2t4 t8 4-4t 5-0t |
+    6-5..0.0t4 3-0t8 6-5t 3-2t 2-0t4. |
+    5-0.2.2t4 2-0t8 5-0t 2-2t 5-0..2~t 3-2t4 |
+    6-0..0.2.3t4 x0..x0.x2.x3t8 0..0.2.3t4 t8 x0..x0.x2.x3t 0..0.2.3t |
+    6-x0..x0.x2.x3t8 5-0t4 t8 t t4 t8 |
+    6-0.3-2t4 3-2t8 6-0t 3-2t4 4-4t8 3-2t~ |
+    6-0.3-2t4 5-x0t8 6-0.3-2t 2-0t 3t 1-0t 2-3t |
+    5-2.1-2t8 1-0t 2-3t 5-2t4 2.0t8 x2t 0t |
+    5-2t4 x2t8 2t4 2.0t8 x2t 0t |
+    6-0.3-2t4 3-2t8 6-0t 3-2t4 4-4t8 3-2t~ |
+    6-0.3-2t4 5-x0t8 6-0.3-2t 2-0t 3t 1-0t 2-3t |
+    5-2.1-2t8 1-0t 2-3t 5-2t4 2.0t8 x2t 0t |
+    5-2t4 x2t8 2t~ \tuplet 3/2 { 2.2-0t4 0.2-2t 2-3t } |
+    6-5..0.0t4 3-0t8 6-5t 3-2t4 2-0t |
+    5-0.2.2t4 2-0t8 5-0t 2-2t4 5-0..2t |
+    6-0.3-2.3t4 4-x0t8 6-0t 2-3t 2t 3-4t 2t |
+    5-2.4.4t8 3-2t 4-4t 5-2t4 t8 4-4t 5-0t |
+    6-5..0.0t4 3-0t8 6-5t 3-2t 2-0t4. |
+    5-0.2.2t4 2-0t8 5-0t 2-2t 5-0..2~t 3-2t4 |
+    6-0..0.2.3t4 x0..x0.x2.x3t8 0t4 4-0.2.3t8 6-x0..x0.x2.x3t 5-3t \glissando |
+    5-5t4 4-7.7t8 5-x5t 5t 4-7.7t~ 5-x5.7.7t 0t |
+    6-0.0.0t4 3-7t 2-7t 1-5t |
+    1-7t4 5t8 7t4 5t8 2-7t 5t |
+    5-2.4.4.3t4 2-3t8 3-4t 2-3t4 5-x2.x4.x4.x3t8 0t |
+    5-2t4 4-4.4t8 5-x2t 2t 4-4.4t 5-x2t 0t |
+    6-5..0.0t4 2-0t 3t 1-0t |
+    1-2t4 0t8 2t4 0t8 2-3t 1-0t |
+    5-0..6.7t8 1-5t 2-7t 5t 3-6t4 \tuplet 3/2 { 2-0t8 2t 0t } |
+    5-0..2t8 0t 6-5t t 4t4 2t8 t |
+    6-0.3-2t4 3-2t8 6-0t 3-2t4 4-4t8 3-2t~ |
+    6-0.3-2t4 5-x0t8 6-0.3-2t 2-0t 3t 1-0t 2-3t |
+    5-2.1-2t8 1-0t 2-3t 5-2t4 2.0t8 x2t 0t |
+    5-2t4 x2t8 2t~ \tuplet 3/2 { 2.2-0t4 0.2-2t 2-3t } |
+    6-5..0.0t4 3-0t8 6-5t 3-2t4 2-0t |
+    5-0.2.2t4 2-0t8 5-0t 2-2t4 5-0..2t |
+    6-0.3-2.3t4 4-x0.x2.x3t8 0t 5-4..2.3t4 4-x0.x2.x3t8 5-4..2.3t |
+    5-2..2.3t4 4-x0.x2.x3t8 5-2t 0..2.3t4 4-x0.x2.x3t8 5-0t |
+    6-5..0.0t4 3-0t8 6-5t 3-2t 2-0t4. |
+    5-0.2.2t4 2-0t8 5-0t 2-2t 5-0..2~t 3-2t 5-3t \glissando |
+    5-5t4 4-7.7t8 5-x5t 5t 4-7.7t~ 5-x5.7.7t 3t \glissando |
+    5-5t4 4-7.7t8 5-x5t 5t 4-7.7t~ 5-x5.7.7t 0t |
+    5-2t4 4-4.4t8 5-x2t 2t 4-4.4t~ 5-x2.4.4t 0t |
+    5-2t4 4-4.4t8 5-x2t 2t 4-4.4t~ 5-x2.4.4t 3t \glissando |
+    5-5t4 4-7.7t8 5-x5t 5t 4-7.7t~ 5-x5.7.7t 3t \glissando |
+    5-5t4 4-7.7t8 5-x5t 5t 4-7.7t~ 5-x5.7.7t 0t |
+    \tempo 4 = 60
+    5-2t4 4-4.4t8 5-x2t 2t 4-4.4t~ 5-x2.4.4t 0t |
+    5-2t4 4-4.4t8 5-2t t 0t 2t 4t |
+    6-0.0.0.2.3.2t1 |
+}
