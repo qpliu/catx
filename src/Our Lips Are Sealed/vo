@@ -1,57 +1,61 @@
 voPart = \new Voice {
     \myVocalsStuff
+\mymark "Intro" #1
     r1 |
     r1 |
     r1 |
     r2 r8 f' aes' bes'~ |
+\mymark "Verse 1" #5
     bes'4 c''( aes'8) r4 aes'8 |
     ges'8 ges' f' ees'4 r4. |
-% 8
     f'8 f' ees'( f'4) ees'4. |
     f'8 f' ees' des'4 f'8 aes' bes'~ |
     bes'8 c''4 aes'8 r aes' f'4 |
     ges'8( aes') r2. |
     r4 aes'8 b' bes' aes'4 aes'8 |
     aes'8 aes' b' bes' aes'4 r4 |
+\mymark "Pre-Chorus 1" #13
     r4 des'8 ges' ges' ges' ges' f' |
     ees'8 des'4 r2 r8 |
-% 16
     r8 aes' aes' aes' aes' aes' g' f' |
     g'4. r4 f'8 g' aes'~ |
+\mymark "Chorus 1" #17
     aes'4 r2. |
     r2 f'8 f' f' f'~ |
     f'8 ees'8 r2. |
     r2 r8 aes' bes' c'' |
+\mymark "Verse 2" #21
     aes'4 r2 r8 aes' |
     ges'8 ges' ges'4 r aes'8 ees' |
-% 24
     aes'8 ees' r2 r8 f'~ |
     f'8 f'( ees' des'4) aes'8 aes' bes' |
     c''4( aes') r4. aes'8 |
     ges'8 ges' ges'4 r2 |
     aes'8 aes' aes'4 r8 aes' b' bes' |
     aes'4 r8 bes' aes' aes' b' bes' |
+\mymark "Pre-Chorus 2" #29
     aes'4 des'8 ges' ges' ges' ges' f' |
     ees'8 des'4 r2 r8 |
-% 32
     r8 aes' aes' aes' aes' aes' g' f' |
     g'4. r4 f'8 g' aes'~ |
+\mymark "Chorus 2" #33
     aes'4 r2. |
     r2 f'8 f' f' f'~ |
     f'8 ees'8 r2. |
     r4 des'8 ges' ges'4 ges'8 f' |
     ees'8 des'4 r2 r8 |
     r8 aes' aes' aes' aes' aes' g' f' |
-% 40
     g'4. r4 f'8 g' aes'~ |
     aes'4 r2. |
     r2 f'8 f' f' f'~ |
     f'8 ees'8 r2. |
     r1 |
+\mymark "Bridge" #44
+    r1 |
+    r1 |
     r1 |
     r1 |
     r4 c'' r8 bes'4 r8 |
-% 48
     des''4 r8 c''4 r4. |
     r4 f' r8 aes'4 r8 |
     des'2 r |
@@ -60,25 +64,24 @@ voPart = \new Voice {
     r2 r8 f' f' ees' |
     des'4 r4. aes'8 bes' c'' |
     aes'4 r2 r8 aes' |
-% 56
     ges'8 ges' ges' aes' r2 |
     aes'8 ees' aes'4 r4. f'8 |
     f'8 f' ees' des'4 aes'8 aes' bes' |
+\mymark "Verse 3" #60
     c''4( aes') r4. aes'8 |
     ges'8 ges' ges'4 r2 |
     r2 r8 aes' b' bes' |
     aes'4 r8 bes' aes' aes' b' bes' |
     aes'4 des'8 ges' ges' ges' ges' f' |
-% 64
     ees'8 des'4 r2 r8 |
     r8 aes' aes' aes' aes' aes' g' f' |
     g'4. r4 f'8 g' aes'~ |
+\mymark "Outro" #68
     aes'4 r2. |
     r2 f'8 f' f' f'~ |
     f'8 ees'8 r2. |
     r4 des'8 ges' ges'4 ges'8 f' |
     ees'8 des'4 r2 r8 |
-% 72
     r8 aes' aes' aes' aes' aes' g' f' |
     g'4 r4. f'8 g' aes'~ |
     aes'4 r2. |
@@ -87,7 +90,6 @@ voPart = \new Voice {
     r1 |
     r1 |
     r2 f'8 f' f' f'~ |
-% 80
     f'8 ees'8 r2. |
     r1 |
     r1 |
@@ -96,7 +98,6 @@ voPart = \new Voice {
     r1 |
     r1 |
     r2 f'8 f' f' f'~ |
-% 88
     f'8 ees'2.~ ees'8 |
     r1 |
 }

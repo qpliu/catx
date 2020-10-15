@@ -1,19 +1,12 @@
-guitarTwoPart =
-{
-% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+guitarTwoPart = {
 % scale c des d ees e f ges g aes a bes ces'
-% url: -
-% artist: Hilary Duff
-% title: Our Lips Are Sealed
-% instrument: Overdriven Guitar
-% name: Overdriven
-    \time 4/4
-    \tempo 4 = 125
 % tuning e, a, d g b e'
-    6-4.6.6t1 |
-    6-4.6.6t1 |
-    5-3.1.1t1 |
-    5-4.1.1t1 |
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #5
     4-1..1t8 r t r4 t8 t r |
     4-4..2t8 r t r4 t8 t r |
     3-1..1t8 r t r4 t8 t r |
@@ -22,14 +15,17 @@ guitarTwoPart =
     4-4..2t8 r t r4 t8 t r |
     3-1..1t8 r t r4 t8 t r |
     3-1..1t8 r t r4 t8 t r |
+\mymark "Pre-Chorus 1" #13
     r1 |
     r1 |
     r1 |
     r1 |
+\mymark "Chorus 1" #17
     3-1.1t8 r t r4 t8 t r |
     4-3.1t8 r t r4 t8 t r |
     3-1.1t8 r t r4 t8 t r |
     3-1.1t8 r t r4 t8 t r |
+\mymark "Verse 2" #21
     4-1..1t8 r t r4 t8 t r |
     4-4..2t8 r t r4 t8 t r |
     3-1..1t8 r t r4 t8 t r |
@@ -38,43 +34,12 @@ guitarTwoPart =
     4-4..2t8 r t r4 t8 t r |
     3-1..1t8 r t r4 t8 t r |
     3-1..1t8 r t r4 t8 t r |
+\mymark "Pre-Chorus 2" #29
     r1 |
     r1 |
     r1 |
     r1 |
-    3-1.1t8 r t r4 t8 t r |
-    4-3.1t8 r t r4 t8 t r |
-    3-1.1t8 r t r4 t8 t r |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    3-1.1t8 r t r4 t8 t r |
-    2-6.4t8 r t r4 t8 t r |
-    3-1t4 1-4t t8 3t 2-4t 3-1t |
-    3-1t4 1-4t t8 3t 2-4t 3-1t |
-    3-1t4 1-4t t8 3t 2-4t 3-1t |
-    3-1t4 1-4t t8 3t 2-4t 3-1t |
-    3-1t4 1-4t t8 3t 2-4t 3-1t |
-    3-1t4 1-4t t8 3t 2-4t 3-1t |
-    3-1t4 1-4t t8 3t 2-4t 3-1t |
-    3-1t4 1-4t t8 3t 2-4t 3-1t |
-    3-1t4 1-4t t8 3t 2-4t 3-1t |
-    3-1t4 1-4t t8 3t 2-4t 3-1t |
-    3-1t4 1-4t t8 3t 2-4t 3-1t |
-    3-1t4 1-4t t8 3t 2-4t 3-1t |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    4-1..1t8 r t r4 t8 t r |
-    4-4..2t8 r t r4 t8 t r |
-    3-1..1t8 r t r4 t8 t r |
-    3-1..1t8 r t r4 t8 t r |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
+\mymark "Chorus 2" #33
     3-1.1t8 r t r4 t8 t r |
     4-3.1t8 r t r4 t8 t r |
     3-1.1t8 r t r4 t8 t r |
@@ -85,13 +50,50 @@ guitarTwoPart =
     3-1.1t8 r t r4 t8 t r |
     4-3.1t8 r t r4 t8 t r |
     3-1.1t8 r t r4 t8 t r |
+    r1 |
+\mymark "Bridge" #44
+    3-1t4 1-4t t8 3t 2-4t 3-1t |
+    3-1t4 1-4t t8 3t 2-4t 3-1t |
+    3-1t4 1-4t t8 3t 2-4t 3-1t |
+    3-1t4 1-4t t8 3t 2-4t 3-1t |
+    3-1t4 1-4t t8 3t 2-4t 3-1t |
+    3-1t4 1-4t t8 3t 2-4t 3-1t |
+    3-1t4 1-4t t8 3t 2-4t 3-1t |
+    3-1t4 1-4t t8 3t 2-4t 3-1t |
+    3-1t4 1-4t t8 3t 2-4t 3-1t |
+    3-1t4 1-4t t8 3t 2-4t 3-1t |
+    3-1t4 1-4t t8 3t 2-4t 3-1t |
+    3-1t4 1-4t t8 3t 2-4t 3-1t |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 3" #60
+    4-1..1t8 r t r4 t8 t r |
+    4-4..2t8 r t r4 t8 t r |
+    3-1..1t8 r t r4 t8 t r |
+    3-1..1t8 r t r4 t8 t r |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Outro" #68
+    3-1.1t8 r t r4 t8 t r |
+    4-3.1t8 r t r4 t8 t r |
+    3-1.1t8 r t r4 t8 t r |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    3-1.1t8 r t r4 t8 t r |
+    4-3.1t8 r t r4 t8 t r |
+    3-1.1t8 r t r4 t8 t r |
     3-1.1t8 r t r4 t8 t r |
     3-1.1t8 r t r4 t8 t r |
     4-3.1t8 r t r4 t8 t r |
     3-1.1t8 r t r4 t8 t r |
     3-1.1t8 r t r4 t8 t r |
     3-1.1t8 r t r4 t8 t r |
-    r1 |
     r1 |
     r1 |
     r1 |

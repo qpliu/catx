@@ -1,19 +1,12 @@
-guitarPart =
-{
-% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+guitarPart = {
 % scale c des d ees e f ges g aes a bes ces'
-% url: -
-% artist: Hilary Duff
-% title: Our Lips Are Sealed
-% instrument: Distortion Guitar
-% name: Distorsion
-    \time 4/4
-    \tempo 4 = 125
 % tuning e, a, d g b e'
+\mymark "Intro" #1
     r8 6-4t 4-6t4 t8 5t 5-6t 6-4t |
     6-4t4 3-1t t8 0t 4-1t 6-4t |
     6-4t4 3-1t t8 0t 4-1t 6-4t~ |
     6-4t8 1-9t 8t 2-9t 1-9t 8t 2-9t4 |
+\mymark "Verse 1" #5
     r1 |
     r1 |
     r1 |
@@ -22,14 +15,17 @@ guitarPart =
     r1 |
     r1 |
     r1 |
+\mymark "Pre-Chorus 1" #13
     6-0.2.2t1 |
     5-4.6.6t1 |
     5-1.3.3t1 |
     5-6.8.8t1 |
+\mymark "Chorus 1" #17
     4-1.1.1t8 t t t t t t t |
     4-3.1.2t8 t t t t t t t |
     4-1.1.1t8 t t t t t t t |
     r8 1-9t 8t 2-9t 1-9t 8t 2-9t4 |
+\mymark "Verse 2" #21
     r1 |
     r1 |
     r1 |
@@ -38,10 +34,12 @@ guitarPart =
     r1 |
     r1 |
     r1 |
+\mymark "Pre-Chorus 2" #29
     6-0.2.2t1 |
     5-4.6.6t1 |
     5-1.3.3t1 |
     5-6.8.8t1 |
+\mymark "Chorus 2" #33
     4-1.1.1t8 t t t t t t t |
     4-3.1.2t8 t t t t t t t |
     r8 1-9t 8t 2-9t 1-9t 8t 2-9t4 |
@@ -51,6 +49,9 @@ guitarPart =
     5-6.8.8t1 |
     4-1.1.1t8 t t t t t t t |
     4-3.1.2t8 t t t t t t t |
+    r8 1-9t 8t 2-9t 1-9t 8t 2-9t4 |
+    6-0.2.2t1 |
+\mymark "Bridge" #44
     6-4t4 3-1t t8 0t 4-1t 6-4t |
     6-4t4 3-1t t8 0t 4-1t 6-4t |
     6-4t4 3-1t t8 0t 4-1t 6-4t |
@@ -67,6 +68,7 @@ guitarPart =
     r1 |
     r1 |
     r1 |
+\mymark "Verse 3" #60
     r1 |
     r1 |
     r1 |
@@ -75,6 +77,7 @@ guitarPart =
     5-4.6.6t1 |
     5-1.3.3t1 |
     5-6.8.8t1 |
+\mymark "Outro" #68
     4-1.1.1t8 t t t t t t t |
     4-3.1.2t8 t t t t t t t |
     4-1.1.1t8 t t t t t t t |
@@ -98,5 +101,4 @@ guitarPart =
     4-3.1.2t8 t t t t t t t |
     4-1.1.1t8 t t t t t t t |
     4-1.1.1t8 t t t r2 |
-    r1 |
 }
