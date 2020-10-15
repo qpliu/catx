@@ -1,0 +1,6 @@
+#!/bin/sh
+sed <vo >steelpan \
+    -e 's/voPart/steelpanPart/g' \
+    -e 's/aes/gis/g' \
+    -e 's/ges/fis/g' \
+    -e 's/des/cis/g'
