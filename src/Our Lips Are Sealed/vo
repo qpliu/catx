@@ -56,11 +56,11 @@ voPart = \new Voice {
     r1 |
     r1 |
     r4 c'' r8 bes'4 r8 |
-    des''4 r8 c''4 r4. |
+    des''4 r8 aes'4 r4. |
     r4 f' r8 aes'4 r8 |
     des'2 r |
     r4 c'' r8 bes'4 r8 |
-    des''4 r8 c''4 r4. |
+    des''4 r8 aes'4 r4. |
     r2 r8 f' f' ees' |
     des'4 r4. aes'8 bes' c'' |
 \mymark "Verse 3" #56
@@ -88,17 +88,9 @@ voPart = \new Voice {
     aes'4 r2. |
     r2 f'8 f' f' f'~ |
     f'8 ees'8 r2. |
-    r1 |
-    r1 |
     r2 f'8 f' f' f'~ |
     f'8 ees'8 r2. |
-    r1 |
-    r1 |
-    r2 f'8 f' f' f'~ |
-    f'8 ees'8 r2. |
-    r1 |
-    r1 |
-    r2 f'8 f' f' f'~ |
-    f'8 ees'2.~ ees'8 |
+    r2 c''4 bes'8 aes' |
+    aes'1 |
     r1 |
 }

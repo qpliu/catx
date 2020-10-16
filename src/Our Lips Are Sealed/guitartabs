@@ -18,7 +18,7 @@ guitarPart = {
 \mymark "Pre-Chorus 1" #13
     6-0.2.2t1 |
     5-4.6.6t1 |
-    5-1.3.3t1 |
+    5-0.2.2t1 |
     5-6.8.8t1 |
 \mymark "Chorus 1" #17
     4-1.1.1t8 t t t t t t t |
@@ -37,7 +37,7 @@ guitarPart = {
 \mymark "Pre-Chorus 2" #29
     6-0.2.2t1 |
     5-4.6.6t1 |
-    5-1.3.3t1 |
+    5-0.2.2t1 |
     5-6.8.8t1 |
 \mymark "Chorus 2" #33
     4-1.1.1t8 t t t t t t t |
@@ -45,12 +45,12 @@ guitarPart = {
     r8 1-9t 8t 2-9t 1-9t 8t 2-9t4 |
     6-0.2.2t1 |
     5-4.6.6t1 |
-    5-1.3.3t1 |
+    5-0.2.2t1 |
     5-6.8.8t1 |
     4-1.1.1t8 t t t t t t t |
     4-3.1.2t8 t t t t t t t |
     r8 1-9t 8t 2-9t 1-9t 8t 2-9t4 |
-    6-0.2.2t1 |
+    r8 1-9t 8t 2-9t 1-9t 8t 2-9t4 |
 \mymark "Bridge" #44
     6-4t4 3-1t t8 0t 4-1t 6-4t |
     6-4t4 3-1t t8 0t 4-1t 6-4t |
@@ -76,7 +76,7 @@ guitarPart = {
 \mymark "Pre-Chorus 3" #64
     6-0.2.2t1 |
     5-4.6.6t1 |
-    5-1.3.3t1 |
+    5-0.2.2t1 |
     5-6.8.8t1 |
 \mymark "Outro" #68
     4-1.1.1t8 t t t t t t t |
@@ -84,22 +84,14 @@ guitarPart = {
     4-1.1.1t8 t t t t t t t |
     6-0.2.2t1 |
     5-4.6.6t1 |
-    5-1.3.3t1 |
+    5-0.2.2t1 |
     5-6.8.8t1 |
     4-1.1.1t8 t t t t t t t |
     4-3.1.2t8 t t t t t t t |
     4-1.1.1t8 t t t t t t t |
-    4-1.1.1t8 t t t t t t t |
-    4-1.1.1t8 t t t t t t t |
     4-3.1.2t8 t t t t t t t |
     4-1.1.1t8 t t t t t t t |
-    4-1.1.1t8 t t t t t t t |
-    4-1.1.1t8 t t t t t t t |
     4-3.1.2t8 t t t t t t t |
-    4-1.1.1t8 t t t t t t t |
-    4-1.1.1t8 t t t t t t t |
-    4-1.1.1t8 t t t t t t t |
-    4-3.1.2t8 t t t t t t t |
-    4-1.1.1t8 t t t t t t t |
-    4-1.1.1t8 t t t r2 |
+    4-1.1.1t1~ |
+    4-1.1.1t2 r2 |
 }

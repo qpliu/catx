@@ -349,8 +349,6 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "-ed."8
     -4
     ">@"2 "@"
-    "@|!bg=4"2 "@|!bg=3"
-    "@|!bg=2"2 "@|!bg=1"
     "Our|!bg="8
     "lips"8
     "are"8
@@ -359,24 +357,9 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "-ed."8
     -4
     ">@"2 "@"
-    "@|!bg=4"2 "@|!bg=3"
-    "@|!bg=2"2 "@|!bg=1"
-    "Our|!bg="8
+    "Our|!bg="4
     "lips"8
     "are"8
-    "seal"8
-    \skip8
-    "-ed."8
-    -4
-    ">@"2 "@"
-    "@|!bg=4"2 "@|!bg=3"
-    "@|!bg=2"2 "@|!bg=1"
-    "Our|!bg="8
-    "lips"8
-    "are"8
-    "seal"8
-    \skip8
-    "-ed."2.
-    \skip8
+    "sealed."1
     -2. -8 @@
 }
