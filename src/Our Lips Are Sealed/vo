@@ -63,15 +63,16 @@ voPart = \new Voice {
     des''4 r8 c''4 r4. |
     r2 r8 f' f' ees' |
     des'4 r4. aes'8 bes' c'' |
+\mymark "Verse 3" #56
     aes'4 r2 r8 aes' |
     ges'8 ges' ges' aes' r2 |
     aes'8 ees' aes'4 r4. f'8 |
     f'8 f' ees' des'4 aes'8 aes' bes' |
-\mymark "Verse 3" #60
     c''4( aes') r4. aes'8 |
     ges'8 ges' ges'4 r2 |
     r2 r8 aes' b' bes' |
     aes'4 r8 bes' aes' aes' b' bes' |
+\mymark "Pre-Chorus 3" #64
     aes'4 des'8 ges' ges' ges' ges' f' |
     ees'8 des'4 r2 r8 |
     r8 aes' aes' aes' aes' aes' g' f' |
