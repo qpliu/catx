@@ -348,8 +348,6 @@ voLyrics = \new Lyrics \lyricmode {
     \skip8
     "ed."8
     \skip2.
-    \skip1
-    \skip1
     \skip2
     "Our"8
     "lips"8
@@ -358,25 +356,10 @@ voLyrics = \new Lyrics \lyricmode {
     \skip8
     "ed."8
     \skip2.
-    \skip1
-    \skip1
     \skip2
-    "Our"8
+    "Our"4
     "lips"8
     "are"8
-    "seal"8 --
-    \skip8
-    "ed."8
-    \skip2.
-    \skip1
-    \skip1
-    \skip2
-    "Our"8
-    "lips"8
-    "are"8
-    "seal"8 --
-    \skip8
-    "ed."2.
-    \skip8
+    "sealed."1
     \skip1
 }

@@ -87,17 +87,9 @@ voPart = \new Voice {
     aes'4 r2. |
     r2 f'8 f' f' f'~ |
     f'8 ees'8 r2. |
-    r1 |
-    r1 |
     r2 f'8 f' f' f'~ |
     f'8 ees'8 r2. |
-    r1 |
-    r1 |
-    r2 f'8 f' f' f'~ |
-    f'8 ees'8 r2. |
-    r1 |
-    r1 |
-    r2 f'8 f' f' f'~ |
-    f'8 ees'2.~ ees'8 |
+    r2 c''4 bes'8 aes' |
+    aes'1 |
     r1 |
 }
