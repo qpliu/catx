@@ -90,7 +90,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\guitarFourPart
     >>
-    \tag #'(allPart peterPart) \new Staff \with {
+    \tag #'(allPart bassPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }
 	shortInstrumentName = \markup { \rotate #90 "Ba" }
     } <<
@@ -99,7 +99,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\bassPart
 	{ s1_\markup { "Tuning: C F A"\teeny\sharp" D"\teeny\sharp } }
     >>
-    \tag #'(peterPart) \new TabStaff \with { stringTunings = \stringTuning <c,, f,, ais,, dis,> } <<
+    \tag #'(bassPart) \new TabStaff \with { stringTunings = \stringTuning <c,, f,, ais,, dis,> } <<
 	\markupStuff
 	\bassPart
     >>
@@ -125,7 +125,7 @@ midimusic = <<
     \tag #'(midiOne) \new Staff = "generated-synth" \with {
 	midiInstrument = #"lead 2 (sawtooth)" % 81
     } \synthPart
-    \tag #'(midiOne) \new Staff \with {
+    \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
     } \bassPart
     \tag #'(midiPeter) \new Staff \with {

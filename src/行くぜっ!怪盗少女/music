@@ -318,7 +318,7 @@ midimusic = <<
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \choOnePart
-    \tag #'(midiTwo) \new Staff \with {
+    \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.7

@@ -158,8 +158,8 @@ midimusic = <<
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.7
     } \keyboardPart
-    \tag #'(midiOne) \new Staff = "basstext" \midibassText
-    \tag #'(midiOne) \new Staff = "bass" \bassPart
+    \tag #'(midiBass) \new Staff = "basstext" \midibassText
+    \tag #'(midiBass) \new Staff = "bass" \bassPart
     \tag #'(midiGg) \new Staff = "drumstext" \mididrumsText
     \tag #'(midiGg) \new DrumStaff = "drums" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)

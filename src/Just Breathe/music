@@ -41,7 +41,7 @@ layoutmusic = <<
 	\markupStuff
 	\acoustic
     >>
-    \tag #'(allPart peterPart) \new Staff \with {
+    \tag #'(allPart bassPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }
 	shortInstrumentName = \markup { \rotate #90 "Ba" }
     } <<
@@ -49,7 +49,7 @@ layoutmusic = <<
 	\clef "bass_8"
 	\bass
     >>
-    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+    \tag #'(bassPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
 	\markupStuff
 	\bass
     >>
@@ -74,7 +74,7 @@ midimusic = <<
     \tag #'(midiThree) \new Staff \with {
 	midiInstrument = #"rock organ"
     } \organ
-    \tag #'(midiOne) \new Staff \with {
+    \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
     } \bass
     \tag #'(midiPeter) \new Staff \with {

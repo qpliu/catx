@@ -14,7 +14,6 @@ voPart = \new Voice {
     ges'8( aes') r2. |
     r4 aes'8 b' bes' aes'4 aes'8 |
     aes'8 aes' b' bes' aes'4 r4 |
-\mymark "Pre-Chorus 1" #13
     r4 des'8 ges' ges' ges' ges' f' |
     ees'8 des'4 r2 r8 |
     r8 aes' aes' aes' aes' aes' g' f' |
@@ -33,7 +32,6 @@ voPart = \new Voice {
     ges'8 ges' ges'4 r2 |
     aes'8 aes' aes'4 r8 aes' b' bes' |
     aes'4 r8 bes' aes' aes' b' bes' |
-\mymark "Pre-Chorus 2" #29
     aes'4 des'8 ges' ges' ges' ges' f' |
     ees'8 des'4 r2 r8 |
     r8 aes' aes' aes' aes' aes' g' f' |
@@ -72,7 +70,6 @@ voPart = \new Voice {
     ges'8 ges' ges'4 r2 |
     r2 r8 aes' b' bes' |
     aes'4 r8 bes' aes' aes' b' bes' |
-\mymark "Pre-Chorus 3" #64
     aes'4 des'8 ges' ges' ges' ges' f' |
     ees'8 des'4 r2 r8 |
     r8 aes' aes' aes' aes' aes' g' f' |

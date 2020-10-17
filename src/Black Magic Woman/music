@@ -22,7 +22,7 @@ layoutmusic = <<
 	\vocals
 	%\voLyrics
     >>
-    \tag #'(allPart peterPart gitPart) \new Staff \with {
+    \tag #'(allPart peterPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Guitar" }
 	shortInstrumentName = \markup { \rotate #90 "Gtr" }
     } <<
@@ -30,7 +30,7 @@ layoutmusic = <<
 	\clef "treble_8"
 	\guitar
     >>
-    \tag #'(peterPart gitPart) \new TabStaff <<
+    \tag #'(peterPart) \new TabStaff <<
 	\markupStuff
 	\guitar
     >>
@@ -42,7 +42,7 @@ layoutmusic = <<
 	\clef "treble_8"
 	\guitarTwo
     >>
-    \tag #'(allPart peterPart bassPart) \new Staff \with {
+    \tag #'(allPart bassPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }
 	shortInstrumentName = \markup { \rotate #90 "Ba" }
     } <<
@@ -50,7 +50,7 @@ layoutmusic = <<
 	\clef "bass_8"
 	\bass
     >>
-    \tag #'(peterPart bassPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+    \tag #'(bassPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
 	\markupStuff
 	\bass
     >>
@@ -79,7 +79,7 @@ midimusic = <<
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \vocals
-    \tag #'(midiOne) \new Staff \with {
+    \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
     } \bass
     \tag #'(midiPeter) \new Staff \with {

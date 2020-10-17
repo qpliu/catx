@@ -1,4 +1,4 @@
-% BIN midi all susan kav gg peter
+% BIN midi all susan kav gg peter bass
 % ROBOT pickup_measures=1
 % ROBOT metronome=1+++
 
@@ -38,7 +38,7 @@ layoutmusic = <<
 	\markupStuff
 	\egPart
     >>
-    \tag #'(allPart peterPart) \new Staff \with {
+    \tag #'(allPart bassPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass 1" }
 	shortInstrumentName = \markup { \rotate #90 "Ba1" }
     } <<
@@ -46,11 +46,11 @@ layoutmusic = <<
 	\clef bass
 	\ebOnePart
     >>
-    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+    \tag #'(bassPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
 	\markupStuff
 	\ebOnePart
     >>
-    \tag #'(allPart peterPart) \new Staff \with {
+    \tag #'(allPart bassPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass 2" }
 	shortInstrumentName = \markup { \rotate #90 "Ba2" }
     } <<
@@ -58,7 +58,7 @@ layoutmusic = <<
 	\clef "bass^8"
 	\ebTwoPart
     >>
-    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+    \tag #'(bassPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
 	\markupStuff
 	\ebTwoPart
     >>
@@ -104,10 +104,10 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
     } \egPart
-    \tag #'(midiOne) \new Staff \with {
+    \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
     } \ebOnePart
-    \tag #'(midiOne) \new Staff \with {
+    \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"synth bass 2" % 39
     } \ebTwoPart
     \tag #'(midiOne) \new Staff \with {

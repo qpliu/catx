@@ -1,4 +1,4 @@
-% BIN midi all kav gg susan peter
+% BIN midi all kav gg susan peter bass
 % ROBOT pickup_measures=1
 
 \header {
@@ -51,7 +51,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\egPart
     >>
-    \tag #'(allPart peterPart) \new Staff \with {
+    \tag #'(allPart bassPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }
 	shortInstrumentName = \markup { \rotate #90 "Ba" }
     } <<
@@ -59,7 +59,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\clef "bass_8"
 	\bassPart
     >>
-    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+    \tag #'(bassPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
 	\markupStuff
 	\bassPart
     >>
@@ -85,7 +85,7 @@ midimusic = <<
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \voPart
-    \tag #'(midiOne) \new Staff \with {
+    \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
 	midiMinimumVolume = #1
 	midiMaximumVolume = #1

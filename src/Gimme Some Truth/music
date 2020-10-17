@@ -1,4 +1,4 @@
-% BIN midi all kav susan gg peter
+% BIN midi all kav susan gg peter bass
 % ROBOT metronome=1+++
 
 \header {
@@ -48,7 +48,7 @@ layoutmusic = <<
 	\markupStuff
 	\sguitar
     >>
-    \tag #'(allPart peterPart) \new Staff \with {
+    \tag #'(allPart bassPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }
 	shortInstrumentName = \markup { \rotate #90 "Ba" }
     } <<
@@ -56,7 +56,7 @@ layoutmusic = <<
 	\clef "bass_8"
 	\bass
     >>
-    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+    \tag #'(bassPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
 	\markupStuff
 	\bass
     >>
@@ -83,7 +83,7 @@ midimusic = <<
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drum
-    \tag #'(midiOne) \new Staff \with {
+    \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
     } \bass
     \tag #'(midiPeter) \new Staff \with {

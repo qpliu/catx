@@ -240,7 +240,7 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff = "eg1" \egOnePart
     \tag #'(midiPeter) \new Staff = "eg2text" \midiegTwoText
     \tag #'(midiPeter) \new Staff = "eg2" \egTwoPart
-    \tag #'(midiTwo) \new Staff \with {
+    \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1

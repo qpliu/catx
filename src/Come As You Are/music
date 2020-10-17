@@ -1,4 +1,4 @@
-% BIN midi all gg susan kav peter
+% BIN midi all gg susan kav peter bass
 
 \header {
     title = "Come As You Are"
@@ -35,7 +35,7 @@ layoutmusic = <<
 	\markupStuff
 	\egPart
     >>
-    \tag #'(allPart peterPart) \new Staff \with {
+    \tag #'(allPart bassPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }
 	shortInstrumentName = \markup { \rotate #90 "Ba" }
     } <<
@@ -43,7 +43,7 @@ layoutmusic = <<
 	\clef "bass_8"
 	\bassPart
     >>
-    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+    \tag #'(bassPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
 	\markupStuff
 	\bassPart
     >>
@@ -72,7 +72,7 @@ midimusic = <<
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \voPart
-    \tag #'(midiOne) \new Staff \with {
+    \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
     } \bassPart
     \tag #'(midiPeter) \new Staff \with {

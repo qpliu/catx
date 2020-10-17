@@ -1,4 +1,4 @@
-% BIN midi all kav susan gg peter
+% BIN midi all kav susan gg peter bass
 
 \header {
     title = "Big Me"
@@ -39,7 +39,7 @@ layoutmusic = <<
 	\markupStuff
 	\guitarPart
     >>
-    \tag #'(allPart peterPart) \new Staff \with {
+    \tag #'(allPart bassPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }
 	shortInstrumentName = \markup { \rotate #90 "Ba" }
     } <<
@@ -47,7 +47,7 @@ layoutmusic = <<
 	\clef "bass_8"
 	\bassPart
     >>
-    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+    \tag #'(bassPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
 	\markupStuff
 	\bassPart
     >>
@@ -79,8 +79,8 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
     } \guitarPart
-    \tag #'(midiOne) \new Staff = "basstext" \midibassText
-    \tag #'(midiOne) \new Staff = "bass" \with {
+    \tag #'(midiBass) \new Staff = "basstext" \midibassText
+    \tag #'(midiBass) \new Staff = "bass" \with {
 	midiInstrument = #"electric bass (pick)"
     } \bassPart
     \tag #'(midiKaraoke) \new Staff = "generated-votext" \midivoPartText

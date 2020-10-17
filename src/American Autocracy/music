@@ -63,7 +63,7 @@ midimusic = <<
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \voPart
-    \tag #'(midiOne) \new Staff \with {
+    \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
     } \bassPart
     \tag #'(midiPeter) \new Staff \with {

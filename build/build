@@ -68,7 +68,7 @@ do
     then
 	merge="$MERGEMIDI"
 # Make sure this list of MIDI tracks agrees with list in aarinrobo/java/VoiceMenu.java and aarinrobo/c/header.h
-	for midi in midiCue midiGg midiPeter midiKav midiSusan midiKaraoke midiKaraokeTwo midiGone midiOne midiTwo midiThree midiFour
+	for midi in midiCue midiGg midiPeter midiKav midiSusan midiBass midiKaraoke midiKaraokeTwo midiGone midiOne midiTwo midiThree midiFour
 	do
 	    mkdir "../src-$midi"
 	    for a in *

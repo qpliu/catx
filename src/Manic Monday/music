@@ -1,4 +1,4 @@
-% BIN midi all kav susan gg peter
+% BIN midi all kav susan gg peter bass
 
 \header {
     title = "Manic Monday"
@@ -39,7 +39,7 @@ layoutmusic = <<
 	\markupStuff
 	\egPart
     >>
-    \tag #'(allPart peterPart) \new Staff \with {
+    \tag #'(allPart bassPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }
 	shortInstrumentName = \markup { \rotate #90 "Ba" }
     } <<
@@ -47,7 +47,7 @@ layoutmusic = <<
 	\clef "bass_8"
 	\bassPart
     >>
-    \tag #'(peterPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+    \tag #'(bassPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
 	\markupStuff
 	\bassPart
     >>
@@ -79,7 +79,7 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
     } \egPart
-    \tag #'(midiOne) \new Staff \with {
+    \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
     } \bassPart
     \tag #'(midiKaraoke) <<

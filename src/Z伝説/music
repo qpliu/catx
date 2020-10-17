@@ -102,7 +102,7 @@ midimusic = <<
     } \keyboardTwoPart
     \tag #'(midiOne) \new Staff = "keyboard3text" \midikeyboardThreeText
     \tag #'(midiOne) \new Staff = "keyboard3" \keyboardThreePart
-    \tag #'(midiOne) \new Staff \with {
+    \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.6
