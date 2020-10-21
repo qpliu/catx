@@ -1,0 +1,4 @@
+#!/bin/sh
+java -jar ../../songsterrToLy/1.jar --name guitar --output-tabs https://www.songsterr.com/a/wsa/presidents-of-the-united-states-of-america-lump-tab-s59468t0 > guitartabs
+java -jar ../../songsterrToLy/1.jar --name bass --output-tabs https://www.songsterr.com/a/wsa/presidents-of-the-united-states-of-america-lump-bass-tab-s59468t1 > basstabs
+java -jar ../../songsterrToLy/1.jar --name drum https://www.songsterr.com/a/wsa/presidents-of-the-united-states-of-america-lump-drum-tab-s59468t2 > drums

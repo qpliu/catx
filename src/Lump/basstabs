@@ -1,0 +1,98 @@
+bass =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: https://www.songsterr.com/a/wsa/presidents-of-the-united-states-of-america-lump-bass-tab-s59468t1
+% artist: Presidents Of The United States Of America
+% title: Lump
+% instrument: Electric Bass (finger)
+% name: Chris Ballew
+    \time 4/4
+    \tempo 4 = 150
+\mymark "Intro" #1
+% tuning e,, a,, d, g,
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2. r8 4-7t |
+\mymark "Chorus" #9
+    4-9t8 r4 7t8 9t r4 7t8 |
+    4-9t8 r2 r8 t4 |
+    4-0t8 2t t4 t8 t t t~ |
+    4-2t8 \bendAfter #6 ^"1½" t \bendAfter #6 ^"full" t \bendAfter #6 ^"0.75" t \bendAfter #6 ^"½" t \bendAfter #6 ^"0.25" t 0t 7t |
+    4-9t8 r4 7t8 9t r4 7t8 |
+    4-9t8 r2 r8 t4 |
+    4-0t8 2t t4 t8 t t t~ |
+    4-2t8 \bendAfter #6 ^"1½" t \bendAfter #6 ^"full" t \bendAfter #6 ^"0.75" t \bendAfter #6 ^"½" t \bendAfter #6 ^"0.25" t 0t4 |
+\mymark "Verse" #17
+    4-9t8 t t t t t t t |
+    4-9t8 t t t t t t t |
+    4-7t8 t t t t t t t |
+    4-0t8 t t t t t t t |
+    4-9t8 t t t t t t t |
+    4-9t8 t t t t t t t |
+    4-7t8 t t t t t t t |
+    4-0t8 t t t t t t 7t |
+\mymark "Chorus" #25
+    4-9t8 r4 7t8 9t r4 7t8 |
+    4-9t8 r2 r8 t4 |
+    4-0t8 2t t4 t8 t t t~ |
+    4-2t8 \bendAfter #6 ^"1½" t \bendAfter #6 ^"full" t \bendAfter #6 ^"0.75" t \bendAfter #6 ^"½" t \bendAfter #6 ^"0.25" t 0t 7t |
+    4-9t8 r4 7t8 9t r4 7t8 |
+    4-9t8 r2 r8 t4 |
+    4-0t8 2t t4 t8 t t t~ |
+    4-2t8 \bendAfter #6 ^"1½" t \bendAfter #6 ^"full" t \bendAfter #6 ^"0.75" t \bendAfter #6 ^"½" t \bendAfter #6 ^"0.25" t 0t4 |
+\mymark "Bridge" #33
+    4-9t8 t t 7t 9t t t 7t |
+    4-9t8 t t 7t 9t 0t 1t 2t~ |
+    4-2t4 t4. 5t8 6t 7t |
+    r8 4-7t r t 3-7t 9t 7t 9t |
+    4-9t8 t t 7t 9t t t 7t |
+    4-9t8 t t 7t 9t 0t 1t 2t~ |
+    4-2t4 t4. 5t8 6t 3-8t~ |
+    3-8t8 9t 11t 9t 8t 0t 16t4 |
+    4-9t8 t t 7t 9t t t 7t |
+    4-9t8 t t 7t 9t 0t 1t 2t~ |
+    4-2t4 t4. 5t8 6t 7t |
+    r8 4-7t r t 3-7t 9t 7t 9t |
+    4-9t8 t t 7t 9t t t 7t |
+    4-9t8 t t 7t 9t t x0t 7t~ |
+    4-7t8 0t t r t t r 7t |
+    r8 4-7t r 0t t 2t 0t4 |
+\mymark "Verse" #49
+    4-9t8 t t t t t t t |
+    4-9t8 t t t t t t t |
+    2-11t8 t t t t t t t |
+    2-11t8 9t 11t 9t 11t 9t 11t 9t |
+    2-11t8 t t t t t t t |
+    2-11t8 t t t t t t t |
+    2-11t8 \glissando 9t t t t \glissando 6t t t |
+    2-6t8 \glissando 4t t t t \glissando 2t r 4-7t |
+\mymark "Chorus" #57
+    4-9t8 r4 7t8 9t r4 7t8 |
+    4-9t8 r2 r8 t4 |
+    4-0t8 2t t4 t8 t t t~ |
+    4-2t8 \bendAfter #6 ^"1½" t \bendAfter #6 ^"full" t \bendAfter #6 ^"0.75" t \bendAfter #6 ^"½" t \bendAfter #6 ^"0.25" t 0t 7t |
+    4-9t8 r4 7t8 9t r4 7t8 |
+    4-9t8 r2 r8 t4 |
+    4-0t8 2t t4 t8 t t t~ |
+    4-2t8 \bendAfter #6 ^"1½" t \bendAfter #6 ^"full" t \bendAfter #6 ^"0.75" t \bendAfter #6 ^"½" t \bendAfter #6 ^"0.25" t 0t4 |
+\mymark "Outro" #65
+    4-9t8 t t 7t 9t t t 7t |
+    4-9t8 t t 7t 9t 0t 1t 2t~ |
+    4-2t4 t4. 5t8 6t 7t |
+    r8 4-7t r t 3-9t 2-9t 11t4 |
+    4-9t8 t t 7t 9t t t 7t |
+    4-9t8 t t 7t 9t 0t 1t 2t~ |
+    4-2t4 t4. 5t8 6t 7t |
+    r8 4-7t 9t 7t 4t 2t 0t 2t |
+    4-9t8 t t 7t 9t t t 7t |
+    4-9t8 t t 7t 9t 0t 1t 2t~ |
+    4-2t4 t4. 5t8 6t 7t |
+    r8 4-7t r t 3-7t 9t 7t 9t |
+    4-9t8 t t 7t 9t t t 7t |
+    4-9t8 t t 7t 9t t 8t 7t |
+}
