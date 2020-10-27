@@ -99,14 +99,14 @@ voPart = \new Voice {
     g4 g a b |
     a4 b cis'( a) |
     d'1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
     r2 \tuplet 3/2 { b4 cis' d' } |
     g4 g a b |
     a4 b cis'( a) |
     d'1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
     r1 |
     r1 |
     r1 |

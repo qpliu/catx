@@ -13,7 +13,7 @@ drumsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh8 hh <hh sn> <hh sn> hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd8 bd2 | } >>
     << { hh8 hh <hh sn> <hh sn> hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd8 bd2 | } >>
     << { hh8 hh <hh sn> <hh sn> hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd8 bd2 | } >>
-    << { hh8 hh <hh sn> <hh sn> hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd8 bd4. bd8 | } >>
+    << { hh8 hh <hh sn> hh <hh sn>8. sn16 sn8 sn | } \context DrumVoice = "drsb" { bd4. bd8 bd4. bd8 | } >>
 \mymark "Verse 1" #13
     << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd8 bd2 | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd8 bd2 | } >>

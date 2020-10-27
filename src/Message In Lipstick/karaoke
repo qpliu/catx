@@ -353,11 +353,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     \skip4
     "-ling."1
     -2
-    ">@"2 "@"
-    "@"2 "@"
-    "@|!bg=4"2 "@|!bg=3"
-    "@|!bg=2"2 "@|!bg=1"
-    "I've|!bg="4*2/3
+    ">I've"4*2/3
     "left"4*2/3
     "a"4*2/3
     "lip"4
@@ -369,6 +365,10 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "dar"4
     \skip4
     "-ling."1
+    -1
+    -1
+    -1
+    -1
     -1
     -1
     -1

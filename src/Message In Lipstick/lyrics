@@ -351,10 +351,6 @@ voLyrics = \new Lyrics \lyricmode {
     "dar"2 --
     "ling."1
     \skip2
-    \skip1
-    \skip1
-    \skip1
-    \skip1
     "I've"4*2/3
     "left"4*2/3
     "a"4*2/3
@@ -366,6 +362,10 @@ voLyrics = \new Lyrics \lyricmode {
     "my"4
     "dar"2 --
     "ling."1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
     \skip1
     \skip1
     \skip1
