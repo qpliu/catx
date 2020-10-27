@@ -148,12 +148,12 @@ midimusic = <<
     \tag #'(midiTwo) \new Staff \with {
 	midiInstrument = #"voice oohs" % 53
 	midiMinimumVolume = #0
-	midiMaximumVolume = #.2
+	midiMaximumVolume = #.4
     } \backingVocalsPart
     \tag #'(midiTwo) \new Staff \with {
 	midiInstrument = #"voice oohs" % 53
 	midiMinimumVolume = #0
-	midiMaximumVolume = #.2
+	midiMaximumVolume = #.4
     } \oohsPart
     \tag #'(midiKaraoke) <<
 	\karaokeLyrics
