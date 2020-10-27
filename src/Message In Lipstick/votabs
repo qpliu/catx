@@ -16,54 +16,54 @@ voPart = {
     r1 |
     r1 |
 \mymark "Verse 1" #13
-    1-6t8. r16 t8. r16 t8. r16 3t8 6t~ |
-    1-6t8. r t8 8t 11t 13t 11t |
-    1-15t8 13t 11t r2 r8 |
+    1-6t4\staccato t\staccato t\staccato 3t8 6t~ |
+    1-6t8 r4 t8 8t 11t 13t 11t |
+    1-15t8 13t 11t r r2 |
     r1 |
-    1-6t8. r16 t8. r16 t8. r16 3t16. r32 6t8~ |
-    1-6t8. r t8 8t 11t 13t 11t |
-    1-15t8 13t 11t r2 r8 |
+    1-6t4\staccato t\staccato t\staccato 3t8 6t~ |
+    1-6t8 r4 t8 8t 11t 13t 11t |
+    1-15t8 13t 11t r r2 |
     r2 \tuplet 3/2 { 1-8t4 10t 11t } |
-    2-9t8. r16 t8.~ t32 r 1-6t8.~ t32 r 8t8.~ t32 r |
-    1-6t8.~ t32 r 8t8.~ t32 r 10t8.~ t32 r 2-11t8.~ t32 r |
-    1-11t4.~ t32 r16. t8 10t 8t 6t |
+    2-9t4 t 1-6t 8t |
+    1-6t4 8t 10t 2-11t |
+    1-11t2 t8 10t 8t 6t |
     1-8t8 6t 2-8t4 r2 |
-    2-9t8. r16 t8. r16 1-6t8 8t4~ t16. r32 |
-    1-6t4 8t 10t8 2-11t4~ t16. r32 |
+    2-9t4 t 1-6t8 8t4. |
+    1-6t4 8t 10t8 2-11t4. |
     1-11t2. r4 |
     r1 |
 \mymark "Verse 2" #29
-    1-6t8. r16 t8. r16 t8. r16 3t8 6t~ |
-    1-6t8. r t8 8t 11t 13t 11t |
-    1-15t8 13t 11t r2 r8 |
+    1-6t4\staccato t\staccato t\staccato 3t8 6t~ |
+    1-6t8 r4 t8 8t 11t 13t 11t |
+    1-15t8 13t 11t r r2 |
     r1 |
-    1-6t8. r16 t8. r16 t8. r16 3t16. r32 6t8~ |
-    1-6t8.~ t32 r8 r32 t8 8t 11t 13t 11t |
-    1-15t8 13t 11t r2 r8 |
+    1-6t4\staccato t\staccato t\staccato 3t8 6t~ |
+    1-6t8 r4 t8 8t 11t 13t 11t |
+    1-15t8 13t 11t r r2 |
     r2 \tuplet 3/2 { 1-8t4 10t 11t } |
-    2-9t8.~ t32 r t4 1-6t 8t8.~ t32 r |
-    1-6t4 8t 10t8. r16 2-11t4 |
-    1-11t4.~ t16. r32 t8 10t 8t 6t |
+    2-9t4 t 1-6t 8t |
+    1-6t4 8t 10t 2-11t |
+    1-11t2 t8 10t 8t 6t |
     1-8t8 6t 2-8t4 r2 |
-    2-9t8. r16 t8. r16 1-6t8 8t4~ t16. r32 |
-    1-6t4 8t 10t8 2-11t4~ t16. r32 |
+    2-9t4 t 1-6t8 8t4. |
+    1-6t4 8t 10t8 2-11t4. |
     1-11t2. r4 |
     r1 |
 \mymark "Breakdown 1" #45
     r4 1-11t 15t 18t |
     1-20t4 18t8 20t4 18t8 2-20t 18t |
-    3-20t8~ t32 r16. t8 17t 2-16t4.~ t32 r16. |
+    3-20t4 t8 17t 2-16t2 |
     r1 |
     r4 3-17t 2-16t 18t |
     1-15t4 13t8 15t4 13t8 11t 13t |
     1-15t8 18t 15t 13t 2-15t4 13t8 15t16 13t |
-    3-15t2~ t8 r4. |
+    3-15t2. r4 |
 \mymark "Verse 3" #53
-    3-15t8 r t8. r16 t8. r16 12t16. r32 2-11t8~ |
-    2-11t16 r4 r16 t8 1-8t 11t 13t 11t |
-    1-15t8 13t 11t r2 r8 |
+    3-15t4\staccato t\staccato t\staccato 12t8 2-11t~ |
+    2-11t8 r4 t8 1-8t 11t 13t 11t |
+    1-15t8 13t 11t r r2 |
     r2 \tuplet 3/2 { 1-8t4 10t 11t } |
-    2-9t8. r16 t4 1-6t8 8t4 6t8~ |
+    2-9t4 t 1-6t8 8t4 6t8~ |
     1-6t4 8t 10t8 2-11t4. |
     1-11t1 |
     r1 |
@@ -77,42 +77,42 @@ voPart = {
     r1 |
     r1 |
 \mymark "Verse 4" #69
-    1-6t8. r16 t8. r16 t8. r16 3t8 6t~ |
-    1-6t8 r4 t8 8t16. r32 11t16. r32 13t8 11t |
-    1-15t8 13t 11t r2 r8 |
+    1-6t4\staccato t\staccato t\staccato 3t8 6t~ |
+    1-6t8 r4 t8 8t 11t 13t 11t |
+    1-15t8 13t 11t r r2 |
     r1 |
-    1-6t8~ t32 r16. t8. r16 t8. r16 3t16. r32 6t8~ |
-    1-6t8. r t8 8t 11t 13t 11t |
-    1-15t8 13t 11t r2 r8 |
+    1-6t4\staccato t\staccato t\staccato 3t8 6t~ |
+    1-6t8 r4 t8 8t 11t 13t 11t |
+    1-15t8 13t 11t r r2 |
     r2 \tuplet 3/2 { 1-8t4 10t 11t } |
-    2-9t8. r16 t8.~ t32 r 1-6t8.~ t32 r 8t8.~ t32 r |
+    2-9t4 t 1-6t 8t |
     1-6t4 8t 10t 2-11t |
-    1-11t4.~ t32 r16. t8 10t 8t 6t |
+    1-11t2 t8 10t 8t 6t |
     1-8t8 6t 2-8t4 r2 |
-    2-9t8. r16 t8. r16 1-6t8 8t4~ t16. r32 |
-    1-6t8. r16 8t8. r16 10t8 2-11t4~ t16. r32 |
+    2-9t4 t 1-6t8 8t4. |
+    1-6t4 8t 10t8 2-11t4. |
     1-11t2. r4 |
     r1 |
 \mymark "Breakdown 2" #85
     r4 1-11t 15t 18t |
     1-20t4 18t8 20t4 18t8 2-20t 18t |
-    3-20t8~ t32 r16. t8 17t 2-16t4.~ t32 r16. |
+    3-20t4 t8 17t 2-16t2 |
     r1 |
     r4 3-17t 2-16t 18t |
     1-15t4 13t8 15t4 13t8 11t 13t |
     1-15t8 18t 15t 13t 2-15t4 13t8 15t16 13t |
-    3-15t2~ t8 r4. |
+    3-15t2. r4 |
 \mymark "Verse 5" #93
-    3-15t8~ t32 r16. t8. r16 t8. r16 12t16. r32 2-11t8~ |
-    2-11t8. r t8 1-8t 11t 13t 11t |
-    1-15t8 13t 11t r2 r8 |
+    3-15t4\staccato t\staccato t\staccato 12t8 2-11t~ |
+    2-11t8 r4 t8 1-8t 11t 13t 11t |
+    1-15t8 13t 11t r r2 |
     r2 \tuplet 3/2 { 1-8t4 10t 11t } |
     2-9t4 t 1-6t8 8t4 6t8~ |
-    1-6t8 r 8t4 10t8 2-11t4. |
+    1-6t4 8t 10t8 2-11t4. |
     1-11t2. r4 |
     r2 \tuplet 3/2 { 1-8t4 10t 11t } |
     2-9t4 t 1-6t8 8t4 6t8~ |
-    1-6t8 r 8t4 10t8 2-11t4. |
+    1-6t4 8t 10t8 2-11t4. |
 \mymark "Outro" #103
     1-11t1 |
     r1 |
