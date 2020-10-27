@@ -67,8 +67,8 @@ voLyrics = \new Lyrics \lyricmode {
     "mis"8 --
     "es,"8
     \skip4.
-    "the"4
-    "ones"4
+    \skip4
+    "the"16 "ones"8.
     "you"4
     "make"8
     "last"4.
@@ -203,9 +203,9 @@ voLyrics = \new Lyrics \lyricmode {
     "a"4*2/3
     "lip"4 --
     "stick"4
-    "mes"4 --
+    "mes"8 --
     "sage"4
-    "there"4
+    "there"4.
     "my"4
     "dar"2 --
     "ling."1
@@ -265,9 +265,9 @@ voLyrics = \new Lyrics \lyricmode {
     "when"4
     "you"4
     "get"4
-    "home."4.
-    "And"8
-    "come"8
+    "home."2
+    "And"16
+    "come"16
     "back"8
     "to"8
     "re"8 --
@@ -282,8 +282,8 @@ voLyrics = \new Lyrics \lyricmode {
     "ing"4.
     "home"4
     "to"4
-    "tell"4
-    "your"4
+    "tell"8
+    "your"4.
     "mom."1
     \skip1
     \skip4
@@ -344,9 +344,9 @@ voLyrics = \new Lyrics \lyricmode {
     "a"4*2/3
     "lip"4 --
     "stick"4
-    "mes"4 --
+    "mes"8 --
     "sage"4
-    "there"4
+    "there"4.
     "my"4
     "dar"2 --
     "ling."1
@@ -356,9 +356,9 @@ voLyrics = \new Lyrics \lyricmode {
     "a"4*2/3
     "lip"4 --
     "stick"4
-    "mes"4 --
+    "mes"8 --
     "sage"4
-    "there"4
+    "there"4.
     "my"4
     "dar"2 --
     "ling."1
