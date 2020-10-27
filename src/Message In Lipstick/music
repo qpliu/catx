@@ -7,9 +7,14 @@
 
 \include "markup"
 \include "guitar"
+\include "bass"
 \include "vo"
+\include "piano"
+\include "strings"
+\include "strings2"
+\include "backingvocals"
+\include "oohs"
 \include "drums"
-\include "perc"
 \include "lyrics"
 \include "karaoke"
 
@@ -33,12 +38,23 @@ layoutmusic = <<
 	    \guitarPart
 	>>
     >>
-    \tag #'(peterPart) \new TabStaff \with {
-	stringTunings = \stringTuning <d, a, d g b e'>
-	instrumentName = \markup { \rotate #90 "Drop D" }
-    } <<
+    \tag #'(peterPart) \new TabStaff <<
 	\markupStuff
 	\guitarPart
+    >>
+    \tag #'(allPart bassPart) <<
+	\new Staff \with {
+	    instrumentName = \markup { \rotate #90 "Bass" }
+	    shortInstrumentName = \markup { \rotate #90 "Ba" }
+	} <<
+	    \markupStuff
+	    \clef "bass_8"
+	    \bassPart
+	>>
+    >>
+    \tag #'(bassPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+	\markupStuff
+	\bassPart
     >>
     \tag #'(allPart kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
@@ -48,13 +64,50 @@ layoutmusic = <<
 	\markupStuff
 	\drumsPart
     >>
-    \tag #'(allPart) \new DrumStaff \with {
-	instrumentName = \markup { \rotate #90 "Cow Bell" }
-	shortInstrumentName = \markup { \rotate #90 "Cb" }
-	drumStyleTable = #(alist->hash-table myDrumStyleTable)
-    } <<
-	\markupStuff
-	\percPart
+    \tag #'(allPart) <<
+	\new Staff \with {
+	    instrumentName = \markup { \rotate #90 "Piano" }
+	    shortInstrumentName = \markup { \rotate #90 "Pi" }
+	} <<
+	    \markupStuff
+	    \pianoPart
+	>>
+    >>
+    \tag #'(allPart) <<
+	\new Staff \with {
+	    instrumentName = \markup { \rotate #90 "Strings" }
+	    shortInstrumentName = \markup { \rotate #90 "St" }
+	} <<
+	    \markupStuff
+	    \stringsPart
+	>>
+    >>
+    \tag #'(allPart) <<
+	\new Staff \with {
+	    instrumentName = \markup { \rotate #90 "Strings2" }
+	    shortInstrumentName = \markup { \rotate #90 "St2" }
+	} <<
+	    \markupStuff
+	    \stringsTwoPart
+	>>
+    >>
+    \tag #'(allPart) <<
+	\new Staff \with {
+	    instrumentName = \markup { \rotate #90 "Backing Vocals" }
+	    shortInstrumentName = \markup { \rotate #90 "Bv" }
+	} <<
+	    \markupStuff
+	    \backingVocalsPart
+	>>
+    >>
+    \tag #'(allPart) <<
+	\new Staff \with {
+	    instrumentName = \markup { \rotate #90 "Oohs" }
+	    shortInstrumentName = \markup { \rotate #90 "o" }
+	} <<
+	    \markupStuff
+	    \oohsPart
+	>>
     >>
     \tag #'(ggPart) \new DrumStaff \with {
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
@@ -76,9 +129,32 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
     } \guitarPart
-    \tag #'(midiOne) \new DrumStaff \with {
-	drumPitchTable = #(alist->hash-table midiDrumPitches)
-    } \percPart
+    \tag #'(midiBass) \new Staff \with {
+	midiInstrument = #"acoustic bass" % 32
+    } \bassPart
+    \tag #'(midiOne) \new Staff \with {
+	midiInstrument = #"acoustic grand" % 0
+    } \pianoPart
+    \tag #'(midiTwo) \new Staff \with {
+	midiInstrument = #"string ensemble 1" % 48
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.2
+    } \stringsPart
+    \tag #'(midiTwo) \new Staff \with {
+	midiInstrument = #"string ensemble 1" % 48
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.2
+    } \stringsTwoPart
+    \tag #'(midiTwo) \new Staff \with {
+	midiInstrument = #"voice oohs" % 53
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.2
+    } \backingVocalsPart
+    \tag #'(midiTwo) \new Staff \with {
+	midiInstrument = #"voice oohs" % 53
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.2
+    } \oohsPart
     \tag #'(midiKaraoke) <<
 	\karaokeLyrics
 	\voPart

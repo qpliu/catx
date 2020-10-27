@@ -1,0 +1,29 @@
+#!/bin/bash
+set -e -o pipefail
+GET="java -jar ../../songsterrToLy/1.jar"
+WHERE="/share/mirror/songsterr/stuff/d-keep/d-Rouge No Dengon/d-Rouge No Dengon-s466386/d-r405308"
+# gzip -d <"$WHERE/z-t0"|$GET --shift -6 --name pianoPart --no-string-numbers --output-tabs - >generated-piano
+# gzip -d <"$WHERE/z-t1"|$GET --shift -6 --name guitarPart --output-tabs - >generated-guitartabs
+# gzip -d <"$WHERE/z-t2"|$GET --shift -6 --name vocalPart --no-string-numbers --output-tabs - >generated-vocal
+# gzip -d <"$WHERE/z-t3"|$GET --shift -6 --name stringsPart --no-string-numbers --output-tabs - >generated-strings
+# gzip -d <"$WHERE/z-t4"|$GET --shift -6 --name backingVocalsPart --no-string-numbers --output-tabs - >generated-backingvocals
+# gzip -d <"$WHERE/z-t5"|$GET --shift -6 --name stringsTwoPart --no-string-numbers --output-tabs - >generated-strings2
+# gzip -d <"$WHERE/z-t6"|$GET --shift -6 --name oohsPart --no-string-numbers --output-tabs - >generated-oohs
+# gzip -d <"$WHERE/z-t7"|$GET --shift -6 --name drumsPart --no-string-numbers - >generated-drums
+# gzip -d <"$WHERE/z-t8"|$GET --shift -6 --name bassPart --output-tabs - >generated-basstabs
+
+# Usage: java SongsterrToLy [options] url
+# url is something like https://www.songsterr.com/a/wsa/momoiro-clover-z-moon-pride-tab-s456232t0 or - for stdin.
+# options:
+# [--drumMap map]  Specify drum map.  Something like --drumMap "49 cymc 0,38 sn 0,36 bd 1"
+# [--extra-stuff stuff]  Add extra stuff to output.
+# [--lyrics]  Extract lyrics instead of notes.
+# [--lyrics-in-voices]  Extract lyrics from voices instead of lyrics.
+# [--name partName]  Specify partName.
+# [--no-ghost-notes]  Don't include ghost notes.
+# [--no-string-numbers]  Don't include string numbers.
+# [--output-text]  Output text.
+# [--output-relative]  Output \relative notes.
+# [--output-tabs]  Output tabs instead of notes.
+# [--scale scale]  Specify note spelling.  Something like --scale "c des eisis"
+# [--shift n/d]  Shift notes right n/d beats.  Use --shift -21/5 to shift notes left 4 1/5th beat.

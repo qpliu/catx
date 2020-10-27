@@ -1,0 +1,126 @@
+oohsPart = {
+% scale c des d ees e f ges g aes a bes ces'
+% tuning e, a, d g b e'
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Intro" #5
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #13
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #29
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Breakdown 1" #45
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 3" #53
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Solo" #61
+    r4 4-13t 1-11t 10t |
+    1-8t4 6t 8t 10t |
+    1-8t1~ |
+    1-8t2.~ t8.~ t32 r |
+    r4 2-4t 1-11t 10t |
+    1-8t4 6t 8t 10t |
+    2-11t1~ |
+    2-11t2. r4 |
+\mymark "Verse 4" #69
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Breakdown 2" #85
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 5" #93
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Outro" #103
+    r1 |
+    r2 r8 2-4t4. |
+    1-11t1~ |
+    1-11t1~ |
+    1-11t1~ |
+    1-11t1~ |
+    1-11t1~ |
+    1-11t4.~ t16 r t4 10t |
+\mybarNumberCheck #111
+    1-11t1 |
+}

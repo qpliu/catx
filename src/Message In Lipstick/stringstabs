@@ -1,0 +1,126 @@
+stringsPart = {
+% scale c des d ees e f ges g aes a bes ces'
+% tuning e,, a,, d, g, b, e
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Intro" #5
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #13
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2 1-1t16 3t 4t32 5t16 6t32 \tuplet 3/2 { 8t16 10t 11t 13t 15t 16t } |
+\mymark "Verse 2" #29
+    1-18t1~ |
+    1-18t2. r4 |
+    r8 1-20t16 18t 20t r t 18t 20t 18t 20t r4 r16 |
+    r1 |
+    r2 1-15t8 18t4.~ |
+    1-18t2 15t4 18t |
+    r8 1-20t16 18t 20t r t 18t 20t 18t 20t r4 r16 |
+    r8 1-27t16 25t 27t r t 25t 27t 25t 27t r4 r16 |
+    1-28t1 |
+    1-25t2 30t |
+    1-27t1~ |
+    1-27t1 |
+    1-28t2. r8 t16. r32 |
+    1-25t2. r8 t16. r32 |
+    1-23t1~ |
+    1-23t1 |
+\mymark "Breakdown 1" #45
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 3" #53
+    r1 |
+    r1 |
+    r2 1-20t16 \tuplet 3/2 { r8 r32 } 18t16 \tuplet 3/2 { r8 r32 } 23t16 \tuplet 3/2 { r8 r32 } |
+    1-20t16 \tuplet 3/2 { r8 r32 } 18t16 \tuplet 3/2 { r8 r32 } 23t16 \tuplet 3/2 { r8 r32 } 20t16 \tuplet 3/2 { r8 r32 } 18t16 \tuplet 3/2 { r8 r32 } 2-20t16 \tuplet 3/2 { r8 r32 } |
+    2-18t4 3-20t2 1-20t4 |
+    1-18t4 2-20t 18t4. 20t8 |
+    2-18t4. 3-20t2~ t8~ |
+    3-20t1 |
+\mymark "Solo" #61
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2 1-1t16 3t 4t32 5t16 6t32 \tuplet 3/2 { 8t16 10t 11t 13t 15t 16t } |
+\mymark "Verse 4" #69
+    1-18t1~ |
+    1-18t2. r4 |
+    r8 1-20t16 18t 20t r t 18t 20t 18t 20t r4 r16 |
+    r1 |
+    r2 1-18t~ |
+    1-18t2 15t4 18t |
+    r8 1-20t16 18t 20t r t 18t 20t 18t 20t r4 r16 |
+    r8 1-27t16 25t 27t r t 25t 27t 25t 27t r4 r16 |
+    1-28t1 |
+    1-25t2 30t |
+    1-27t1~ |
+    1-27t1 |
+    1-28t1 |
+    1-25t1 |
+    1-23t1~ |
+    1-23t1 |
+\mymark "Breakdown 2" #85
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 5" #93
+    r1 |
+    r1 |
+    r2 1-20t16 \tuplet 3/2 { r8 r32 } 18t16 \tuplet 3/2 { r8 r32 } 23t16 \tuplet 3/2 { r8 r32 } |
+    1-20t16 \tuplet 3/2 { r8 r32 } 18t16 \tuplet 3/2 { r8 r32 } 23t16 \tuplet 3/2 { r8 r32 } 20t16 \tuplet 3/2 { r8 r32 } 18t16 \tuplet 3/2 { r8 r32 } 2-20t16 \tuplet 3/2 { r8 r32 } |
+    2-18t4 3-20t2 1-20t4 |
+    1-18t4 2-20t 18t4. 20t8 |
+    3-20t1 |
+    3-17t1 |
+    2-18t4 16t2 1-20t4 |
+    1-18t4 2-20t 18t2 |
+\mymark "Outro" #103
+    r4 1-20t16 r8 18t16 20t 18t 20t r4 r16 |
+    r4 1-20t16 r8 18t16 20t 18t 20t r4 r16 |
+    r4 2-20t16 r8 18t16 20t 18t 20t r4 r16 |
+    r4 2-20t16 r8 18t16 20t 18t 20t r4 r16 |
+    r4 1-20t16 r8 18t16 20t 18t 20t r4 r16 |
+    r4 1-20t16 r8 18t16 20t 18t 20t r4 r16 |
+    r4 2-20t16 r8 18t16 20t 18t 20t r4 r16 |
+    r4 2-20t16 r8 18t16 20t 18t 20t r4 r16 |
+\mybarNumberCheck #111
+    4-20.20t1 |
+}

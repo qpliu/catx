@@ -1,0 +1,126 @@
+stringsTwoPart = {
+% scale c des d ees e f ges g aes a bes ces'
+% tuning e,, a,, d, g, b, e
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Intro" #5
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #13
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #29
+    r1 |
+    r2. 1-15t8 13t |
+    1-11t8 r2. r8 |
+    r8 2-13t16 11t 13t r t 11t 13t 11t 13t r4 r16 |
+    2-11t1~ |
+    2-11t1 |
+    r1 |
+    r1 |
+    1-16t1 |
+    1-13t2 18t |
+    1-15t1~ |
+    1-15t1 |
+    1-16t2. r8 t16. r32 |
+    1-13t2. r8 t16. r32 |
+    1-11t1~ |
+    1-11t1 |
+\mymark "Breakdown 1" #45
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 3" #53
+    r1 |
+    r1 |
+    r2 1-8t16 \tuplet 3/2 { r8 r32 } 6t16 \tuplet 3/2 { r8 r32 } 11t16 \tuplet 3/2 { r8 r32 } |
+    1-8t16 \tuplet 3/2 { r8 r32 } 6t16 \tuplet 3/2 { r8 r32 } 11t16 \tuplet 3/2 { r8 r32 } 8t16 r4. r16 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Solo" #61
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 4" #69
+    r1 |
+    r2. 1-15t8 13t |
+    1-11t8 r2. r8 |
+    r8 2-13t16 11t 13t r t 11t 13t 11t 13t r4 r16 |
+    2-11t1~ |
+    2-11t1 |
+    r1 |
+    r1 |
+    1-16t1 |
+    1-13t2 18t |
+    1-15t1~ |
+    1-15t1 |
+    1-16t2. r8 t16. r32 |
+    1-13t2. r8 t16. r32 |
+    1-11t1~ |
+    1-11t1 |
+\mymark "Breakdown 2" #85
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 5" #93
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Outro" #103
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mybarNumberCheck #111
+    2-16.15t1 |
+}
