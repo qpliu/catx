@@ -9,6 +9,7 @@
 \include "guitar"
 \include "bass"
 \include "vo"
+\include "steelpan"
 \include "piano"
 \include "strings"
 \include "strings2"
@@ -19,13 +20,22 @@
 \include "karaoke"
 
 layoutmusic = <<
-    \tag #'(allPart kavPart susanPart) \new Staff \with {
+    \tag #'(allPart kavPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vocals" }
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
 	\clef "treble_8"
 	\voPart
+	\voLyrics
+    >>
+    \tag #'(susanPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Steelpan" }
+	shortInstrumentName = \markup { \rotate #90 "Sp" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\steelpanPart
 	\voLyrics
     >>
     \tag #'(allPart peterPart) <<

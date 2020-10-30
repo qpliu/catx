@@ -1,0 +1,4 @@
+#!/bin/sh
+sed <votabs >steelpantabs \
+    -e 's/voPart/steelpanPart/g' \
+    -e 's/^% scale c des d ees e f ges g aes a bes ces/% scale c des d ees e f ges g gis a bes ces/'
