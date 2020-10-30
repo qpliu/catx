@@ -1,0 +1,5 @@
+#!/bin/sh
+WHERE="/share/mirror/songsterr/stuff/d-keep/d-Misc. Children/d-Mary Had A Little Lamb-s43684/d-r58580"
+gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --no-string-numbers --name guitarPart --output-tabs - >generated-guitar
+gzip -d <"$WHERE/z-t1"|java -jar ../../songsterrToLy/1.jar --no-string-numbers --name bassPart --output-tabs - >generated-bass
+gzip -d <"$WHERE/z-t2"|java -jar ../../songsterrToLy/1.jar --name drumsPart - >generated-drums

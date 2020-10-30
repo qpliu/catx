@@ -1,0 +1,7 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \tempo 4 = 120
+    \key d \major
+    s1 s1 s1 s1 s1 s1 s1 s1
+    \bar "|."
+}

@@ -1,0 +1,12 @@
+drumsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+    << { <cymc sn>4 <cymc sn> <cymc sn> <cymc sn> | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    cymc4 cymc cymc r |
+    toml4 toml toml r |
+    toml4 cymc cymc r |
+    << { cymc4 cymc cymc cymc | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    << { cymc4 cymc cymc sn | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    << { cymc4 <cymc sn> sn <cymc sn> | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    << { sn1 | } \context DrumVoice = "drsb" { bd1 | } >>
+}
