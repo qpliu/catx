@@ -202,7 +202,7 @@
 	event.preventDefault();
     };
     function noisyTime(t){
-	return t+.2*(Math.sin(.1*t)+Math.sin(.1*1.41421356237*t));
+	return t+.05*(Math.sin(.1*t)+Math.sin(.1*1.41421356237*t)+Math.sin(.1*1.73205080757*t));
     }
     function animate(){
 	const now=startTime+(isPlaying==1?0:noisyTime((new Date().getTime()-startTime+jsonStartTime)*.001)*1000-jsonStartTime);
