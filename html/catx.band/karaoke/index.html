@@ -87,6 +87,7 @@
     const sheets=new Sheets(document.getElementById("bigSpan"));
     let isPlaying;
     let startTime;
+    let jsonStartTime;
     const websocketStuff=new class extends WebsocketStuff{
 	onopen(){
 	    super.onopen();
@@ -113,7 +114,8 @@
 			startTime = new Date().getTime();
 		    }else{
 			isPlaying = 2;
-			startTime = json.start_time+this.ntp_offset+settings.delay;
+			jsonStartTime = json.start_time;
+			startTime = jsonStartTime+this.ntp_offset+settings.delay;
 		    }
 		    const repeat=json.repeat||0;
 		    background.reset(startTime,repeat,json.length);
@@ -199,8 +201,11 @@
 	chatInput.value = "";
 	event.preventDefault();
     };
+    function noisyTime(t){
+	return t+.2*(Math.sin(.1*t)+Math.sin(.1*1.41421356237*t));
+    }
     function animate(){
-	const now=isPlaying==1?startTime:new Date().getTime();
+	const now=startTime+(isPlaying==1?0:noisyTime((new Date().getTime()-startTime+jsonStartTime)*.001)*1000-jsonStartTime);
 	if (isPlaying){
 	    beatCounter.setTime(now-startTime);
 	    snakes.animate(now);
