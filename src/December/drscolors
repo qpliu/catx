@@ -5,9 +5,10 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
 % IF gg \compressFullBarRests
     \tempo 4 = 120
 \mymark "Intro" #1
-    s1*8 |
+    R1*8 |
 \mymark "Verse 1" #9
-    s1*15 |
+    R1*14 |
+    r4_"1" r_"2" r_"3" r_"4" |
     r2. <sn sn>4 |
 \mymark "Chorus 1" #25
     << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
@@ -28,9 +29,11 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh8 hh <hh sn> hh hh hh sn16 sn sn8 | } \context DrumVoice = "drsb" { bd2 bd | } >>
 \mymark "Interlude" #41
     << { cymc1 | } \context DrumVoice = "drsb" { bd1 | } >>
-    s1*7 |
+    R1*7 |
 \mymark "Verse 2" #49
-    s1*15 |
+    R1*13 |
+    r4_"1" r_"2" r_"3" r_"4" |
+    r1 |
     r4 bd sn16 sn sn8 sn16 sn sn8 |
 \mymark "Chorus 2" #65
     << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
@@ -60,7 +63,9 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh8 hh <hh sn> hh hh hh sn16 sn sn8 | } \context DrumVoice = "drsb" { bd2 bd | } >>
 \mymark "Interlude" #89
     << { cymc1 | } \context DrumVoice = "drsb" { bd1 | } >>
-    s1*7 |
+    R1*5 |
+    r4_"1" r_"2" r_"3" r_"4" |
+    r1 |
 \mymark "Prechorus" #97
     << { hho8 hh hh hh hh hh hh hh | } \context DrumVoice = "drsb" { bd2 r4. bd8 | } >>
     << { hho8 hh hh hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd2 r4. bd8 | } >>
@@ -105,6 +110,6 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh8 hh <hh sn> hh hh hh sn16 sn sn8 | } \context DrumVoice = "drsb" { bd2 bd | } >>
 \mymark "Outro" #137
     << { cymc1 | } \context DrumVoice = "drsb" { bd1 | } >>
-    s1*4 |
+    R1*4 |
 \mybarNumberCheck #142
 }

@@ -7,7 +7,6 @@
 
 \include "markup"
 \include "drs"
-\include "extradrs"
 \include "cue"
 \include "vo"
 \include "eg"
@@ -67,14 +66,12 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\drsPart
-	\extradrsPart
     >>
     \tag #'(ggPart) \new DrumStaff \with {
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\drsPart
-	\extradrsPart
 	\voLyrics
     >>
 >>
@@ -85,7 +82,6 @@ midimusic = <<
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } <<
 	\drsPart
-	\extradrsPart
     >>
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
@@ -101,7 +97,7 @@ midimusic = <<
 	midiMinimumVolume = #1
 	midiMaximumVolume = #1
     } \egTwoPart
-    \tag #'(midiGone) \new DrumStaff \with {
+    \tag #'(midiCue) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
 	midiMinimumVolume = #1
 	midiMaximumVolume = #1
