@@ -3,13 +3,13 @@ WHERE="/share/mirror/songsterr/stuff/d-keep/d-Nirvana/d-Smells Like Teen Spirit-
 SCALE="c des d ees e f ges g aes a bes b"
 
 gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name voPart --output-tabs - >generated-votabs
-gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --name voLyrics --lyrics - >generated-lyrics
+#gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --name voLyrics --lyrics - >generated-lyrics
 gzip -d <"$WHERE/z-t1"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name guitarOnePart --output-tabs - >generated-guitar1tabs
 gzip -d <"$WHERE/z-t2"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name guitarTwoPart --output-tabs - >generated-guitar2tabs
 gzip -d <"$WHERE/z-t3"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name guitarThreePart --output-tabs - >generated-guitar3tabs
 gzip -d <"$WHERE/z-t4"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name guitarFourPart --output-tabs - >generated-guitar4tabs
 gzip -d <"$WHERE/z-t5"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name bassPart --output-tabs - >generated-basstabs
-gzip -d <"$WHERE/z-t6"|java -jar ../../songsterrToLy/1.jar --name drumsPart - >generated-drumscolors
+#gzip -d <"$WHERE/z-t6"|java -jar ../../songsterrToLy/1.jar --name drumsPart - >generated-drumscolors
 
 # Usage: java SongsterrToLy [options] url
 # url is something like https://www.songsterr.com/a/wsa/momoiro-clover-z-moon-pride-tab-s456232t0 or - for stdin.
