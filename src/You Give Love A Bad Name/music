@@ -11,7 +11,7 @@
 \include "gen-strings"
 \include "gen-piano"
 \include "gen-bass"
-\include "gen-drums"
+\include "drums"
 \include "lyrics"
 
 layoutmusic = <<
