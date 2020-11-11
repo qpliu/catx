@@ -1,0 +1,151 @@
+voEchoPart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: Phil Collins
+% title: In The Air Tonight
+% instrument: Clarinet
+% name: Echo voice\u002FViolin
+    \time 4/4
+    \tempo 4 = 94
+% tuning e, a, d g b e'
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 1" #21
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Interlude" #33
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #37
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #45
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 2" #53
+    r1 |
+    r1 |
+    r8 4-g5t g3t g5t g3t r4. |
+    r4 4-g5t8 g7t g5t g7t g5t g7t |
+    r1 |
+    r4 2-g3t8 g1t r2 |
+    r8 4-g5t g3t g5t g3t g5t g3t r |
+    r4 4-g5t8 g7t g5t g7t r4 |
+    r1 |
+    r1 |
+    r8 4-g5t g3t g5t g3t r4. |
+    r4 4-g5t8 g7t g5t g7t g5t g7t |
+    r1 |
+    r4 2-g3t8 g1t r2 |
+    r8 4-g5t g3t g5t g3t g5t g3t r |
+    r4 4-g5t8 g7t g5t g7t r4 |
+\mymark "Interlude" #69
+    r1 |
+    r1 |
+    r1 |
+    2-3t1 |
+\mymark "Verse 3" #73
+    2-3t16 r t r2. r16 |
+    r2. 2-g3t8 g1t |
+    2-g3t8 g1t g3t g1t g3t g1t r4 |
+    r1 |
+    r1 |
+    r1 |
+    r2 3-g2t8 r t r |
+    3-g2t8 r t r t r t r |
+\mymark "Verse 4" #81
+    r1 |
+    r1 |
+    3-g2t8 r t r t r4. |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 3" #89
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r8 3-2t 5t16 r4 r16 2t8 5t16 r8. |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r8 3-2t 5t16 r4 r16 2t8 5t16 r8. |
+\mymark "Chorus 4" #105
+    r1 |
+    r1 |
+    r1 |
+    r8 3-2t 5t16 r4 r16 2t8 5t16 r8. |
+    r1 |
+    r1 |
+    r1 |
+    r8 3-2t 5t16 r4 r16 2t8 5t16 r8. |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "fade out" #121
+    r1 |
+    r1 |
+    r1 |
+    r8 3-2t 5t16 r4 r16 2t8 5t16 r8. |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

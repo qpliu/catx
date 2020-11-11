@@ -1,0 +1,151 @@
+celestaPart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: Phil Collins
+% title: In The Air Tonight
+% instrument: Celesta
+% name: Celesta
+    \time 4/4
+    \tempo 4 = 94
+% tuning d, a, d g b e'
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r8 1-22t4 t8. t16 t8 t t16 t |
+    1-22t8 t8. t t t t8 |
+    1-22t8. t t 3-19t16 t8 t16 1-22t8. |
+    1-22t8. t t t t t16~ |
+\mymark "Chorus 1" #21
+    1-22t8 t4 t8. t16 t8 t t16 t |
+    1-22t8 t8. t t t t8 |
+    1-22t8. t t 3-19t16 t8 t16 1-22t8. |
+    1-22t8. t t t t t16 |
+    r8 1-22t4 t8. t16 t8 t t16 t |
+    1-22t8 t8. t t t t8 |
+    1-22t8. t t 3-19t16 t8 t16 1-22t8. |
+    1-22t8. t t t t t16 |
+    r8 1-22t4 t8. t16 t8 t t16 t |
+    1-22t8 t8. t t t t8 |
+    1-22t8. t t 3-19t16 t8 t16 1-22t8. |
+    1-22t8. t t t t t16 |
+\mymark "Interlude" #33
+    r1 |
+    r1 |
+    r4 1-22t8. t16 20t8 22t8. t |
+    1-22t8. t t t t t16 |
+\mymark "Verse 1" #37
+    1-22t1 |
+    r1 |
+    r1 |
+    r8 1-8t 10t 12t4. 8t4~ |
+    1-8t1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #45
+    1-22t1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 2" #53
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2. 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+\mymark "Interlude" #69
+    1-17t4. 2-15t2~ t8 |
+    r1 |
+    r4. 2-15t4 t t8~ |
+    2-15t2 r |
+\mymark "Verse 3" #73
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r8 2-18t 20t 1-17t4 2-18t 3-19t8~ |
+\mymark "Verse 4" #81
+    3-19t1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 3" #89
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+\mymark "Chorus 4" #105
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+\mymark "fade out" #121
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+    1-17t8. 2-18t 1-22t4. 2-17t8 18t |
+    2-20t4 3-17t2 2-18t8 20t |
+}

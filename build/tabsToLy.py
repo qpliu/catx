@@ -110,10 +110,14 @@ for line in sys.stdin:
 	else:
 	    prev = tab
 	ss = s
+	count = 0
 	for a in split(tab,'.'):
+	    count += 1
 	    i = find(a,'-')
 	    if i!=-1:
-		ss = s = int(a[:i])
+		ss = int(a[:i])
+		if count==1:
+		    s = ss
 		a = a[i+1:]
 	    if a:
 		if a.startswith('g'):

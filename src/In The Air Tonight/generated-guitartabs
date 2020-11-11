@@ -1,0 +1,151 @@
+guitarPart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: Phil Collins
+% title: In The Air Tonight
+% instrument: Distortion Guitar
+% name: Guitar
+    \time 4/4
+    \tempo 4 = 94
+% tuning d, a, d g b e'
+    r1 |
+    r1 |
+    6-0.0.0.2.3t1~ |
+    6-0.0.0.2.3t1~ |
+    6-0.0.0.2.3.g10t1~ |
+    6-0.0.0.2.3.g10t1~ |
+    6-0.0.0.2.3.g10t1~ |
+    6-0.0.0.2.3.g10t1 |
+    r8 1-8t16 t 10t8 8t16 t t8 10t t16 8t 10t8 |
+    r4 1-10t16 t8 t16 8t8 10t 8t16 t8 t16~ |
+    1-8t16 10t2.~ t8.~ |
+    1-10t1 \bendAfter #6 ^"full" |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 1" #21
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Interlude" #33
+    4-7.7t1~ |
+    4-7.7t1~ |
+    4-7.7t1~ |
+    4-7.7t1 |
+\mymark "Verse 1" #37
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    5-3t1~ |
+\mymark "Verse 2" #45
+    5-3t1 |
+    r1 |
+    r1 |
+    r4 3-10t2. \bendAfter #6 ^"full" |
+    3-10t1 |
+    r1 |
+    r1 |
+    2-13t1~ |
+\mymark "Chorus 2" #53
+    2-13t1 \bendAfter #6 ^"full" |
+    r1 |
+    r4. 3-7t2~ t8 \bendAfter #6 ^"1½" |
+    r2 1-13t8 7t32 r8. r32 10t8~ |
+    1-10t1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Interlude" #69
+    4-7.7t1~ |
+    4-7.7t1~ |
+    4-7.7t1~ |
+    4-7.7t1 |
+\mymark "Verse 3" #73
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 4" #81
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 3" #89
+    r2 6-30t64 29t 28t 27t 26t 25t 24t 23t 22t 21t 20t 19t 18t 17t 16t 15t r4 |
+    r1 |
+    r1 |
+    r1 |
+    r2 6-30t64 29t 28t 27t 26t 25t 24t 23t 22t 21t 20t 19t 18t 17t 16t 15t r4 |
+    r1 |
+    r1 |
+    r1 |
+    r2 6-30t64 29t 28t 27t 26t 25t 24t 23t 22t 21t 20t 19t 18t 17t 16t 15t r4 |
+    r1 |
+    r1 |
+    r1 |
+    r2 6-19t64 20t 21t 22t 23t 24t 25t 26t 27t 28t 29t 30t r4 r16 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 4" #105
+    r2 6-30t64 29t 28t 27t 26t 25t 24t 23t 22t 21t 20t 19t 18t 17t 16t 15t r4 |
+    r1 |
+    r1 |
+    r1 |
+    r2 6-30t64 29t 28t 27t 26t 25t 24t 23t 22t 21t 20t 19t 18t 17t 16t 15t r4 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "fade out" #121
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

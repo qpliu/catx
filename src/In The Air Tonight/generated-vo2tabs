@@ -1,0 +1,151 @@
+voTwoPart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: Phil Collins
+% title: In The Air Tonight
+% instrument: Alto Sax
+% name: Voice 2\u002FRecorder
+    \time 4/4
+    \tempo 4 = 94
+% tuning e, a, d g b e'
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 1" #21
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Interlude" #33
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #37
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #45
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 2" #53
+    r4 3-2t8 t t t r 1-1t~ |
+    1-1t8 0t 2-1.0t t t4 r |
+    r2. 3-2t8 0t~ |
+    3-0t8 2t r2. |
+    r8. 3-2t16 t8 t t t 2..1t t |
+    1-1t8 0t r8. 4-2t16 t8. t 0t8~ |
+    4-0t8 r2 r8 3-2t 0t~ |
+    3-0t8 2t r2. |
+    r4 3-2t8 t t t r 1-1t~ |
+    1-1t8 2-1t t t t4 r |
+    r2. 3-2t8 0t~ |
+    3-0t8 2t r2. |
+    r8. 3-2t16 t8 t t t 2..1t t |
+    1-1t8 0t r8. 4-2t16 t8. t 0t8~ |
+    4-0t8 r2 r8 3-2t 0t~ |
+    3-0t8 2t r2. |
+\mymark "Interlude" #69
+    r1 |
+    r1 |
+    r1 |
+    2-3t1 |
+\mymark "Verse 3" #73
+    2-3t16 r t r2. r16 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 4" #81
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    4-3.1-1t8 t t 3..3t4 r 5-1.0t16 t |
+    5-1..0t4 1.3t8 1.0t4. r8 3-0t |
+    3-2t8 2-1t 3-2t 2-1t4 3-2t8 2-3t4 |
+    r1 |
+\mymark "Chorus 3" #89
+    r2. 3-14t16 12t 4-15t 3-14t |
+    3-12t16 r2. r8. |
+    3-10t16 r8. t16 r2 r8. |
+    r1 |
+    r2. 3-14t16 12t 4-15t 3-14t |
+    3-12t16 r2. r8. |
+    3-10t16 r 12t r 14t r2 r8. |
+    r8 3-12t16 r 4-10t r4 r16 3-12t r 4-10t r8. |
+    r2. 3-14t16 12t 4-15t 3-14t |
+    3-12t16 r2. r8. |
+    3-10t16 r 12t r 14t r2 r8. |
+    r8 3-12t16 r 4-10t r4 r16 3-12t r 4-10t r8. |
+    r2. 3-14t16 12t 4-15t 3-14t |
+    3-12t16 r2. r8. |
+    3-10t16 r 12t r 14t r2 r8. |
+    r1 |
+\mymark "Chorus 4" #105
+    r2. 3-14t16 12t 4-15t 3-14t |
+    3-12t16 r2. r8. |
+    3-10t16 r8. t16 r2 r8. |
+    r1 |
+    r2. 3-14t16 12t 4-15t 3-14t |
+    3-12t16 r2. r8. |
+    3-10t16 r 12t r 14t r2 r8. |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "fade out" #121
+    r2. 3-14t16 12t 4-15t 3-14t |
+    3-12t16 r2. r8. |
+    3-10t16 r8. t16 r2 r8. |
+    r1 |
+    r2. 3-14t16 12t 4-15t 3-14t |
+    3-12t16 r2. r8. |
+    3-10t16 r 12t r 14t r2 r8. |
+    r1 |
+}
