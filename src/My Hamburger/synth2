@@ -1,0 +1,45 @@
+synthTwoPart = {
+    \relative {
+        c''16 d e f g r c, r f8 e16 d e r c r |
+        d16 r g, r c8 g16 f e r f r g r g8 |
+        c16 d e f g r c, r f8 e16 f g r c, d |
+        c8 g f g16 f e r g8 c,16 r g'8 |
+        c16 d e f g r c, r f8 e16 d e r c r |
+        d16 r g, r c8 g16 f e r f r g r g8 |
+        c16 d e f g r c, r f8 e16 f g r c, d |
+        c8 g f g16 f e r g8 c,16 r g'8 |
+    }
+\mymark "Vocals" #9
+    \relative {
+        c''16 d e f g r c, r f8 e16 d e r c r |
+        d16 r g, r c8 g16 f e r f r g r g8 |
+        c16 d e f g r c, r f8 e16 f g r c, d |
+        c8 g f g16 f e r g8 c,16 r g'8 |
+        c16 d e f g r c, r f8 e16 d e r c r |
+        d16 r g, r c8 g16 f e r f r g r g8 |
+        c16 d e f g r c, r f8 e16 f g r c, d |
+        c8 g f g16 f e r g8 c,16 r g'8 |
+    }
+\mymark "Riff 2" #17
+    \relative {
+        d''16 e d e c8 g d'16 e d e c8 g |
+        d'16 e f8 e c d g g,4 |
+        d'16 e d e c8 g d'16 e d e c8 g |
+        d'16 e f8 e c d g g, g' |
+        a8 f16 a g e g c f,8 c16 f e d c8 |
+        d8 g,16 d' b c d8 c g16 c g e c8 |
+        a''8 f16 a g e g c f,8 c16 f e d c8 |
+        b16 c d8 d16 e f8 f16 g a8 a16 b c8 |
+    }
+\mymark "Bass" #25
+    \relative {
+        c''16 d e f g r c, r f8 e16 d e r c r |
+        d16 r g, r c8 g16 f e r f r g r g8 |
+        c16 d e f g r c, r f8 e16 f g r c, d |
+        c8 g f g16 f e r g8 c,16 r g'8 |
+        c16 d e f g r c, r f8 e16 d e r c r |
+        d16 r g, r c8 g16 f e r f r g r g8 |
+        c16 d e f g r c, r f8 e16 f g r c, d |
+        c8 g f g16 f e r g8 c,16 r g'8 |
+    }
+}

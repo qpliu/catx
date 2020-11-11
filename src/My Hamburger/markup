@@ -1,0 +1,16 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \tempo 4 = 128
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+\mymark "Vocals" #9
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+\mymark "Riff 2" #17
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+\mymark "Bass" #25
+    s1 s1 s1 s1 |
+    s1 s1 s1 s1 |
+    \bar "|."
+}

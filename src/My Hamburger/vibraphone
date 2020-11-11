@@ -1,0 +1,29 @@
+vibraphonePart = {
+    r1 r1 r1 r1 |
+    r1 r1 r1 r1 |
+\mymark "Vocals" #9
+    \relative {
+        c''16 d e f g r c, r f8 e16 d e r c r |
+        d16 r g, r c8 g16 f e r f r g r g8 |
+        c16 d e f g r c, r f8 e16 f g r c, d |
+        c8 g f g16 f e r g8 c,16 r g'8 |
+        c16 d e f g r c, r f8 e16 d e r c r |
+        d16 r g, r c8 g16 f e r f r g r g8 |
+        c16 d e f g r c, r f8 e16 f g r c, d |
+        c8 g f g16 f e r g8 c,16 r g'8 |
+    }
+\mymark "Riff 2" #17
+    r1 r1 r1 r1 |
+    r1 r1 r1 r1 |
+\mymark "Bass" #25
+    \relative {
+        c''16 d e f g r c, r f8 e16 d e r c r |
+        d16 r g, r c8 g16 f e r f r g r g8 |
+        c16 d e f g r c, r f8 e16 f g r c, d |
+        c8 g f g16 f e r g8 c,16 r g'8 |
+        c16 d e f g r c, r f8 e16 d e r c r |
+        d16 r g, r c8 g16 f e r f r g r g8 |
+        c16 d e f g r c, r f8 e16 f g r c, d |
+        c8 g f g16 f e r g8 c,16 r g'8 |
+    }
+}

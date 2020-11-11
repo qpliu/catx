@@ -1,0 +1,37 @@
+karaokeLyrics = \new Lyrics \lyricmode {
+    ">@"2 @
+    @2 @
+    @2 @
+    @2 @
+    @2 @
+    @2 @
+    "@|!bg=4"2 "@|!bg=3"
+    "@|!bg=2"2 "@|!bg=1"
+\mymark "Vocals" #9
+    "Where's|!bg="4 "my"4 "ham"4 "-bur"8 "-ger?"8
+    \skip2 -2
+    ">I"4 "am"4 "so"4 "hun"8 "-gry."8
+    \skip2 -2
+    ">Num"4 "-bers"4 "all"4 "turn'd"8 "red."8
+    \skip2 -2
+    ">Good"4 "bye"4 "my"4 "laun"8 "-dry."8
+    \skip2 -2
+\mymark "Riff 2" #17
+    ">@"2 @
+    @2 @
+    @2 @
+    @2 @
+    @2 @
+    @2 @
+    "@|!bg=4"2 "@|!bg=3"
+    "@|!bg=2"2 "@|!bg=1"
+\mymark "Bass" #25
+    "E|!bg="4 "-very"4 "thing"4 "is"8 "down."8
+    \skip2 -2
+    ">Ne"4 "-ver"4 "will"4 "be"8 "black."8
+    \skip2 -2
+    ">Got"4 "no"4 "-thing"4 "to"8 "eat."8
+    \skip2 -2
+    ">Want"4 "my"4 "bur"4 "-ger"8 "back."8
+    \skip2 -4 -8 @@
+}
