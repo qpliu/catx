@@ -1,0 +1,161 @@
+bassPart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: Michael Jackson
+% title: Beat It
+% instrument: Slap Bass 1
+% name: Steve Lukather (Bass Guitar)
+    \time 4/4
+    \tempo 4 = 139
+\mymark "Intro" #1
+% tuning dis,, gis,, cis, fis,
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2. r8 4-0t~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r t r4 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r2 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r t r4 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r2 4-0t8 |
+\mymark "Verse 1" #23
+    r8 3-7t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-7t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-3t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-7t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-7t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-7t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-3t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-7t t r t r4 5t8 |
+    3-5t8 r t r2 4-0t8~ |
+\mymark "Chorus" #39
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r t r4 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r2 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r t r4 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r2 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r t r4 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r2 r8 |
+\mymark "Verse 2" #51
+    r8 3-7t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-7t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-3t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-7t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-7t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-7t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-3t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-7t t r t r4 5t8 |
+    3-5t8 r t r2 4-0t8~ |
+\mymark "Chorus" #67
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r t r4 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r2 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r t r4 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r2 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r t r4 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r2 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r t r4 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r2 r8 |
+\mymark "Bridge" #83
+    r8 4-0t t r t r4 t8 |
+    4-0t8 r t r2 r8 |
+    r8 4-0t t r t r4 t8 |
+    4-0t8 r t r2 r8 |
+    r8 4-0t t r t r4 t8 |
+    4-0t8 r t r2 r8 |
+    r8 4-0t t r t r4 t8 |
+    4-0t8 r t r2 r8 |
+    r8 4-0t t r t r4 t8 |
+    4-0t8 r t r2 r8 |
+    r8 4-0t t r t r4 t8 |
+    4-0t8 r t r2 r8 |
+    r8 4-0t t r t r4 t8 |
+    4-0t8 r t r2 r8 |
+    r8 4-0t t r t r4 t8 |
+    4-0t8 r t r2 r8 |
+\mymark "Solo" #99
+    r8 3-7t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-7t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-3t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-7t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-7t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-7t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-3t t r t r4 5t8 |
+    3-5t8 r t r2 r8 |
+    r8 3-7t t r t r4 5t8 |
+    3-5t8 r t r2 4-0t8~ |
+\mymark "Chorus" #115
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r t r4 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r2 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r t r4 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r2 4-0t8~ |
+\mymark "Outro" #123
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r t r4 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r2 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r t r4 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r2 r8 |
+    r8 4-3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r t r4 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r2 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r t r4 4-0t8~ |
+    4-0t8 3t 3-2t 2-5t 2t4. 4t8~ |
+    2-4t8 2t 0t r2 r8 |
+    r8 4-0.2.2t t r t r4 t8 |
+    4-0.2.2t8 r t r2 r8 |
+}

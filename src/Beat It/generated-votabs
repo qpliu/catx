@@ -1,0 +1,161 @@
+voPart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: Michael Jackson
+% title: Beat It
+% instrument: Flute
+% name: Michael Jackson (Vocals)
+    \time 4/4
+    \tempo 4 = 139
+\mymark "Intro" #1
+% tuning e, a, d g b e'
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #23
+    r8 1-6t t t 4t 6t 4t 6t |
+    1-9t8 6t 4t r 6t r4 t8 |
+    1-6t8 t t t t t 4t 2t |
+    1-4t8 2t 6t r2 t8 |
+    1-4t8 2t 2-4t 2t 4t r t t |
+    2-6t8 4t 2t 3-3t 2-2t r 4t r |
+    1-2t8 2-4t r2 t8 r |
+    2-6t8 2t r2. |
+    r8 1-6t t t 4t 6t 4t 6t |
+    1-9t8 6t 4t r 6t r4 t8 |
+    1-6t8 t t t 4t 6t 4t 2t |
+    1-4t8 2t 6t r2 t8 |
+    1-4t8 2t 2-4t r t r t t |
+    2-6t8 4t 2t r t r 4t r |
+    1-2t8 2-4t r2 1-6t8 t |
+    1-9t8 6t 4t r 6t r 4t r |
+\mymark "Chorus" #39
+    1-6t8 t4. 2-4t8 t4. |
+    1-6t8 t4. 2-4t8 t4 1-6t8 |
+    r8 1-6t t t 2t r 6t 2t~ |
+    1-2t8 6t r2 r8 4t~ |
+    1-4t8 2t 4t r 2t 4t 2t 4t~ |
+    1-4t8 2t 4t r 2t r4 4t8~ |
+    1-4t8 2t 4t r 2t 4t r t~ |
+    1-4t8 2t 4t r 2t r 4t r |
+    1-2t8 2-4t r2 t8 r |
+    2-6t8 2t r2 1-6t8 r |
+    1-4t8 2-4t r2 t8 r |
+    2-6t8 2t r2. |
+\mymark "Verse 2" #51
+    r8 1-6t t t 4t 6t 4t 6t |
+    1-9t8 6t 4t r 6t r4 t8 |
+    1-6t8 t t t t t 4t 2-7t |
+    1-4t8 2-7t 1-6t r2 t8 |
+    1-4t8 2t 2-4t 2t 4t r t t |
+    2-6t8 4t 2t r t r 4t r |
+    1-2t8 2-4t r2 t8 r |
+    1-2t8 2-4t r2. |
+    r8 1-6t t t t t 4t 6t |
+    1-9t8 6t 4t r 6t r4 t8 |
+    1-6t8 t t t 4t 6t 4t 2t |
+    1-4t8 2t 6t r2 t8 |
+    1-4t8 2t 2-4t t 1-2t 2-4t t t |
+    2-6t8 4t 2t r t r 4t r |
+    1-2t8 2-4t r2 1-6t8 t |
+    1-9t8 6t 4t r 6t r 4t r |
+\mymark "Chorus" #67
+    1-6t8 t4. 2-4t8 t4. |
+    1-6t8 t4. 2-4t8 t4 1-6t8~ |
+    1-6t8 t t t t r t t |
+    r8 1-6t r2 r8 4t~ |
+    1-4t8 2t 4t r 2t 4t 2t 4t~ |
+    1-4t8 2t 4t r 2t r4 4t8~ |
+    1-4t8 2t 4t r 2t 4t r t~ |
+    1-4t8 2t 4t r 2t r 4t r |
+    1-6t8 t4. 2-4t8 t4. |
+    1-6t8 t4. 2-4t8 t4 1-6t8~ |
+    1-6t8 t t t t r t t |
+    r8 1-6t r2 r8 4t~ |
+    1-4t8 2t 4t r 2t 4t 2t 4t~ |
+    1-4t8 2t 4t r 2t r4 4t8~ |
+    1-4t8 2t 4t r 2t 4t r t~ |
+    1-4t8 2t 4t r 2t r 4t r |
+\mymark "Bridge" #83
+    1-2t8 2-4t 1-2t 2-4t 1-2t 2-4t 1-2t 2-4t |
+    r2 1-2t8 2-4t 1-2t 2-4t |
+    1-2t8 2-4t r2. |
+    r1 |
+    r1 |
+    r2 1-2t8 2-4t 1-2t 2-4t |
+    1-2t8 2-4t 1-2t 2-4t r2 |
+    1-2t8 2-4t 1-2t 2-4t r2 |
+    r1 |
+    r1 |
+    r1 |
+    1-2t8 2-4t 1-2t 2-4t 1-2t 2-4t r4 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Solo" #99
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #115
+    1-6t8 t4. 2-4t8 t4. |
+    1-6t8 t4. 2-4t8 t4 1-6t8~ |
+    1-6t8 t t t t r t t |
+    r8 1-6t r2 r8 4t~ |
+    1-4t8 2t 4t r 2t 4t 2t 4t~ |
+    1-4t8 2t 4t r 2t r4 4t8~ |
+    1-4t8 2t 4t r 2t 4t r t~ |
+    1-4t8 2t 4t r 2t r 4t r |
+\mymark "Outro" #123
+    1-6t8 t4. 2-4t8 t4. |
+    1-6t8 t4. 2-4t8 t4 1-6t8~ |
+    1-6t8 t t t t r t t |
+    r8 1-6t r2 r8 4t~ |
+    1-4t8 2t 4t r 2t 4t 2t 4t~ |
+    1-4t8 2t 4t r 2t r4 4t8~ |
+    1-4t8 2t 4t r 2t 4t r t~ |
+    1-4t8 2t 4t r 2t r 4t r |
+    1-6t8 t4. 2-4t8 t4. |
+    1-6t8 t4. 2-4t8 t4 1-6t8~ |
+    1-6t8 t t t t r t t |
+    r8 1-6t r2 r8 4t~ |
+    1-4t8 2t 4t r 2t 4t 2t 4t~ |
+    1-4t8 2t 4t r 2t r4 4t8~ |
+    1-4t8 2t 4t r 2t 4t r t~ |
+    1-4t8 2t 4t r 2t r 4t r |
+    1-2t8 2-4t 1-2t 2-4t r2 |
+    r1 |
+}

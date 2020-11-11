@@ -1,0 +1,161 @@
+leadguitarPart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: Michael Jackson
+% title: Beat It
+% instrument: Distortion Guitar
+% name: Steve Lukather (Lead)
+    \time 4/4
+    \tempo 4 = 139
+\mymark "Intro" #1
+% tuning dis, gis, cis fis ais dis'
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r8 4-x0.x0t16 t 12.12t8 r16 x0.x0t 12.12t8 5-14.14t4 4-x0.x0t16 t |
+    4-12.12t8 x0.x0t16 t 12.12t8 5-14.14t2 r8 |
+    r8 4-x0.x0t16 t 12.12t8 r16 x0.x0t 12.12t8 5-14.14t4 4-x0.x0t16 t |
+    4-12.12t8 x0.x0t16 t 12.12t8 5-14.14t2 r8 |
+\mymark "Verse 1" #23
+    r8 5-7.9.9t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-7.9.9t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-3.5.5t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-7.9.9t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-7.9.9t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-7.9.9t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-3.5.5t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-7.9.9t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+\mymark "Chorus" #39
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #51
+    r8 5-7.9.9t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-7.9.9t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-3.5.5t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-7.9.9t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-7.9.9t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-7.9.9t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-3.5.5t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-7.9.9t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+\mymark "Chorus" #67
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge" #83
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r8 4-x0.x0t16 t 12.12t8 r16 x0.x0t 12.12t8 5-14.14t4 4-x0.x0t16 t |
+    4-12.12t8 x0.x0t16 t 12.12t8 5-14.14t2 r8 |
+    r8 4-x0.x0t16 t 12.12t8 r16 x0.x0t 12.12t8 5-14.14t4 4-x0.x0t16 t |
+    4-12.12t8 x0.x0t16 t 12.12t8 5-14.14t2 r8 |
+    r8 4-x0.x0t16 t 12.12t8 r16 x0.x0t 12.12t8 5-14.14t4 4-x0.x0t16 t |
+    4-12.12t8 x0.x0t16 t 12.12t8 5-14.14t2 r8 |
+    r8 4-x0.x0t16 t 12.12t8 r16 x0.x0t 12.12t8 5-14.14t4 4-x0.x0t16 t |
+    4-12.12t8 x0.x0t16 t 12.12t8 5-14.14t2 r8 |
+\mymark "Solo" #99
+    r8 5-7.9.9t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-7.9.9t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-3.5.5t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-7.9.9t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-7.9.9t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-7.9.9t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-3.5.5t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+    r8 5-7.9.9t t r t r4 5.7.7t8 |
+    5-5.7.7t8 r t r2 r8 |
+\mymark "Chorus" #115
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Outro" #123
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}
