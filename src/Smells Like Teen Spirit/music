@@ -12,7 +12,7 @@
 \include "generated-guitar2"
 \include "generated-guitar3"
 \include "generated-guitar4"
-\include "generated-lyrics"
+\include "lyrics"
 \include "generated-vo"
 \include "karaoke"
 
@@ -23,7 +23,7 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\clef "treble_8"
-	{ \myVocalsStuff \voPart }
+	\new Voice = "vo" { \myVocalsStuff \voPart }
 	\voLyrics
     >>
     \tag #'(allPart peterPart) <<
@@ -107,7 +107,7 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\drumsPart
-	\voLyrics
+%	\voLyrics
     >>
 >>
 
