@@ -25,7 +25,7 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\clef "treble_8"
-	\new Voice = "vo" { \myVocalsStuff \voPart }
+	{ \myVocalsStuff \voPart }
 	\voLyrics
     >>
     \tag #'(allPart peterPart) <<
@@ -70,7 +70,7 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\drumsPart
-%	\voLyrics
+	\voLyrics
     >>
 >>
 
