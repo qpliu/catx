@@ -8,7 +8,6 @@
 \include "markup"
 \include "generated-bass"
 \include "generated-celesta"
-\include "generated-drums"
 \include "generated-guitar"
 \include "generated-keyboard1"
 \include "generated-keyboard2"
@@ -17,6 +16,7 @@
 \include "generated-vo"
 \include "karaoke"
 \include "lyrics"
+\include "drums"
 
 layoutmusic = <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
@@ -57,20 +57,13 @@ layoutmusic = <<
 	\markupStuff
 	\bassPart
     >>
-    \tag #'(allPart kavPart) \new DrumStaff \with {
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\drumsPart
-    >>
-    \tag #'(ggPart) \new DrumStaff \with {
-	drumStyleTable = #(alist->hash-table myDrumStyleTable)
-    } <<
-	\markupStuff
-	\drumsPart
-	\voLyrics
     >>
 >>
 
@@ -79,42 +72,42 @@ midimusic = <<
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
 	midiMinimumVolume = #0
-	midiMaximumVolume = #.1
+	midiMaximumVolume = #.2
     } \drumsPart
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"pad 2 (warm)" % 89
 	midiMinimumVolume = #0
-	midiMaximumVolume = #.1
+	midiMaximumVolume = #.2
     } \keyboardOnePart
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"pad 2 (warm)" % 89
 	midiMinimumVolume = #0
-	midiMaximumVolume = #.1
+	midiMaximumVolume = #.2
     } \keyboardTwoPart
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"celesta" % 8
 	midiMinimumVolume = #0
-	midiMaximumVolume = #.1
+	midiMaximumVolume = #.2
     } \celestaPart
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"distorted guitar" % 30
 	midiMinimumVolume = #0
-	midiMaximumVolume = #.1
+	midiMaximumVolume = #.2
     } \guitarPart
     \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)" % 33
 	midiMinimumVolume = #0
-	midiMaximumVolume = #.1
+	midiMaximumVolume = #.2
     } \bassPart
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
 	midiMinimumVolume = #0
-	midiMaximumVolume = #.1
+	midiMaximumVolume = #.2
     } \voPart
     \tag #'(midiTwo) \new Staff \with {
 	midiInstrument = #"alto sax" % 65
 	midiMinimumVolume = #0
-	midiMaximumVolume = #.1
+	midiMaximumVolume = #.2
     } \voTwoPart
     \tag #'(midiKaraoke) \new Staff <<
 	\karaokeLyrics

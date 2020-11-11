@@ -9,7 +9,7 @@ gzip -d <"$WHERE/z-t4"|java -jar ../../songsterrToLy/1.jar $SCALE --name bassPar
 gzip -d <"$WHERE/z-t5"|java -jar ../../songsterrToLy/1.jar $SCALE --name voPart --output-tabs - >generated-votabs
 gzip -d <"$WHERE/z-t6"|java -jar ../../songsterrToLy/1.jar $SCALE --name voTwoPart --output-tabs - >generated-vo2tabs
 gzip -d <"$WHERE/z-t7"|java -jar ../../songsterrToLy/1.jar $SCALE --name voEchoPart --output-tabs - >generated-voechotabs
-gzip -d <"$WHERE/z-t8"|java -jar ../../songsterrToLy/1.jar $SCALE --name drumsPart - >generated-drums
+#gzip -d <"$WHERE/z-t8"|java -jar ../../songsterrToLy/1.jar $SCALE --name drumsPart - >generated-drums
 
 # Usage: java SongsterrToLy [options] url
 # url is something like https://www.songsterr.com/a/wsa/momoiro-clover-z-moon-pride-tab-s456232t0 or - for stdin.
