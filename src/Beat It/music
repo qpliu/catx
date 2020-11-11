@@ -94,7 +94,7 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\drumsPart
-	\transpose dis e \voLyrics
+	\voLyrics
     >>
 >>
 
