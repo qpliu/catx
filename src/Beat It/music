@@ -111,18 +111,26 @@ midimusic = <<
     } \transpose dis e, \backupvoPart
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"distorted guitar" % 30
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.3
     } \transpose dis e \sologuitarPart
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"distorted guitar" % 30
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.3
     } \transpose dis e \leadguitarPart
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"distorted guitar" % 30
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.3
     } \transpose dis e \rhythmguitarPart
     \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"slap bass 1" % 36
     } \transpose dis e \bassPart
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"lead 2 (sawtooth)" % 81
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.3
     } \transpose dis e \synthPart
     \tag #'(midiKaraoke) \new Staff <<
 	\karaokeLyrics

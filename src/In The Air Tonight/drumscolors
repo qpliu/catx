@@ -1,7 +1,7 @@
 drumsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     \context DrumVoice = "drsa" \voiceOne
     \context DrumVoice = "drsb" \voiceTwo
-    << { hho8~ <hh tomh> r <hh tomh> r <hh toml> <tomh hho~> hh | } \context DrumVoice = "drsb" { r2 r8 bd4. | } >>
+    << { hho8~\ppppp <hh tomh> r <hh tomh> r <hh toml> <tomh hho~> hh | } \context DrumVoice = "drsb" { r2\ppppp r8 bd4. | } >>
     << { hho8~ <hh tomh> toml <hh tomh> toml <hh toml> <tomh hho~> hh | } \context DrumVoice = "drsb" { r4 bd bd8 bd4. | } >>
     << { hho8~ <hh tomh> r <hh tomh> r <hh toml> <tomh hho~> hh | } \context DrumVoice = "drsb" { r2 r8 bd4. | } >>
     << { hho8~ <hh tomh> toml <hh tomh> toml <hh toml> <tomh hho~> hh | } \context DrumVoice = "drsb" { r4 bd bd8 bd4. | } >>
@@ -96,7 +96,7 @@ drumsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hho8~ <hh tomh> r <hh tomh> r <hh toml> <tomh hho~> hh | } \context DrumVoice = "drsb" { r2 r8 bd4. | } >>
     << { hho8~ <hh tomh> toml <hh tomh> toml <hh toml> <tomh hho~> hh | } \context DrumVoice = "drsb" { r4 bd bd8 bd4. | } >>
     << { hho8~ <hh tomh> r <hh tomh> r <hh toml> <tomh hho~> hh | } \context DrumVoice = "drsb" { r2 r8 bd4. | } >>
-    << { sn16 sn8 <sn tomh>16 <sn tomh>8 <sn toml>16 <sn tomml>8 <sn tomml>16 <sn tomml>8 <sn toml> <sn toml> | } \context DrumVoice = "drsb" { r8 bd8. bd bd bd8 bd8. | } >>
+    << { sn16\fffff sn8 <sn tomh>16 <sn tomh>8 <sn toml>16 <sn tomml>8 <sn tomml>16 <sn tomml>8 <sn toml> <sn toml> | } \context DrumVoice = "drsb" { r8\fffff bd8. bd bd bd8 bd8. | } >>
 \mymark "Chorus 3" #89
     << { r4 <sn sn>2 <sn sn>4 | } \context DrumVoice = "drsb" { bd8. bd bd8 r2 | } >>
     << { r4 <sn sn>2 <sn sn>4 | } \context DrumVoice = "drsb" { bd8. bd16 r2. | } >>
