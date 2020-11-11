@@ -1,0 +1,4 @@
+#!/bin/sh
+java -jar ../../songsterrToLy/1.jar --name guitar --output-tabs https://www.songsterr.com/a/wsa/rage-against-the-machine-killing-in-the-name-tab-s360t0 > guitartabs
+java -jar ../../songsterrToLy/1.jar --name bass --output-tabs https://www.songsterr.com/a/wsa/rage-against-the-machine-killing-in-the-name-bass-tab-s360t1 > basstabs
+java -jar ../../songsterrToLy/1.jar --name drum https://www.songsterr.com/a/wsa/rage-against-the-machine-killing-in-the-name-drum-tab-s360t3 > drums

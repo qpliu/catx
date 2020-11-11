@@ -1,0 +1,10 @@
+#!/bin/sh
+java -jar ../../songsterrToLy/1.jar --no-string-numbers --name vocals https://www.songsterr.com/a/wsa/metallica-and-justice-for-all-tab-s12102t0 > vocals
+java -jar ../../songsterrToLy/1.jar --name cleana --output-tabs https://www.songsterr.com/a/wsa/metallica-and-justice-for-all-tab-s12102t1 > cleanatabs
+java -jar ../../songsterrToLy/1.jar --name cleanb --output-tabs https://www.songsterr.com/a/wsa/metallica-and-justice-for-all-tab-s12102t2 > cleanbtabs
+java -jar ../../songsterrToLy/1.jar --name cleanc --output-tabs https://www.songsterr.com/a/wsa/metallica-and-justice-for-all-tab-s12102t3 > cleanctabs
+java -jar ../../songsterrToLy/1.jar --name distorteda --output-tabs https://www.songsterr.com/a/wsa/metallica-and-justice-for-all-tab-s12102t4 > distortedatabs
+java -jar ../../songsterrToLy/1.jar --name distortedb --output-tabs https://www.songsterr.com/a/wsa/metallica-and-justice-for-all-tab-s12102t5 > distortedbtabs
+java -jar ../../songsterrToLy/1.jar --name distortedc --output-tabs https://www.songsterr.com/a/wsa/metallica-and-justice-for-all-tab-s12102t6 > distortedctabs
+java -jar ../../songsterrToLy/1.jar --name bass --output-tabs https://www.songsterr.com/a/wsa/metallica-and-justice-for-all-bass-tab-s12102t7 > basstabs
+java -jar ../../songsterrToLy/1.jar --name drum https://www.songsterr.com/a/wsa/metallica-and-justice-for-all-drum-tab-s12102t8 > drum

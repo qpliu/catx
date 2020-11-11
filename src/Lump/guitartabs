@@ -1,0 +1,98 @@
+guitar =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: https://www.songsterr.com/a/wsa/presidents-of-the-united-states-of-america-lump-tab-s59468t0
+% artist: Presidents Of The United States Of America
+% title: Lump
+% instrument: Distortion Guitar
+% name: Dave Dederer
+    \time 4/4
+    \tempo 4 = 150
+\mymark "Intro" #1
+% tuning e, a, d g b e'
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2. r8 6-7.9.9t |
+\mymark "Chorus" #9
+    6-9.11.11t8 r4 7.9.9t8 9.11.11t r4 7.9.9t8 |
+    6-9.11.11t8 r2 r8 9t4 |
+    6-0.2.2t8 2.4.4t t t t t t 5-9t~ |
+    5-9t8 \bendAfter #6 ^"½" t \bendAfter #6 ^"½" t \bendAfter #6 ^"0.25" t 7t 4-11t 6-9t 7.9.9t |
+    6-9.11.11t8 r4 7.9.9t8 9.11.11t r4 7.9.9t8 |
+    6-9.11.11t8 r2 r8 9t4 |
+    6-0.2.2t8 2.4.4t t t t t t 5-9t~ |
+    5-9t8 \bendAfter #6 ^"½" t \bendAfter #6 ^"½" t \bendAfter #6 ^"0.25" t 7t 4-11t 6-9t4 |
+\mymark "Verse" #17
+    6-9.11.11t8 t t t t t t t |
+    6-9.11.11t8 t t t t t t t |
+    6-7.9.9t8 t t t t t t t |
+    6-0.2.2t8 t t t t t t t |
+    6-9.11.11t8 t t t t t t t |
+    6-9.11.11t8 t t t t t t t |
+    6-7.9.9t8 t t t t t t t |
+    6-0.2.2t8 t t t t t t 7.9.9t |
+\mymark "Chorus" #25
+    6-9.11.11t8 r4 7.9.9t8 9.11.11t r4 7.9.9t8 |
+    6-9.11.11t8 r2 r8 9t4 |
+    6-0.2.2t8 2.4.4t t t t t t 5-9t~ |
+    5-9t8 \bendAfter #6 ^"½" t \bendAfter #6 ^"½" t \bendAfter #6 ^"0.25" t 7t 4-11t 6-9t 7.9.9t |
+    6-9.11.11t8 r4 7.9.9t8 9.11.11t r4 7.9.9t8 |
+    6-9.11.11t8 r2 r8 9t4 |
+    6-0.2.2t8 2.4.4t t t t t t 5-9t~ |
+    5-9t8 \bendAfter #6 ^"½" t \bendAfter #6 ^"½" t \bendAfter #6 ^"0.25" t 7t 4-11t 6-9t4 |
+\mymark "Bridge" #33
+    6-9.11.11t8 t t 7.9.9t 9.11.11t t t 7.9.9t |
+    6-9.11.11t8 t t 7.9.9t 9.11.11t 0.2.2t 1.3.3t 2.4.4t~ |
+    6-2.4.4t8 t t4 t8 5.7.7t 6.8.8t 7.9.9t |
+    r8 6-7.9.9t r x0.x2.x2t 0.2.2t 2.4.4t 0.2.2t4 |
+    6-9.11.11t8 t t 7.9.9t 9.11.11t t t 7.9.9t |
+    6-9.11.11t8 t t 7.9.9t 9.11.11t 0.2.2t 1.3.3t 2.4.4t |
+    6-2.4.4t8 t t4 t8 5.7.7t 6.8.8t 7.9.9t |
+    r8 6-7.9.9t r x0.x2.x2t 0.2.2t 2.4.4t 0.2.2t4 |
+    6-9.11.11t8 t t t t t t t |
+    6-9.11.11t8 t t t t 0.2.2t 1.3.3t 2.4.4t~ |
+    6-2.4.4t8 t t4 t8 5.7.7t 6.8.8t 7.9.9t |
+    r8 6-7.9.9t r x0.x2.x2t 0.2.2t 2.4.4t 0.2.2t4 |
+    6-9.11.11t8 t t t t t t t |
+    6-9.11.11t8 t t t t t 8.10.10t 7.9.9t |
+    r8 6-x0.x0.x0t t r t t r 7.9.9t |
+    r8 6-7.9.9t r x0.x2.x2t 0.2.2t 2.4.4t 0.2.2t4 |
+\mymark "Verse" #49
+    6-9.11.11t8 t t t t t t t |
+    6-9.11.11t8 t t t t t t t |
+    6-7.9.9t8 t t t t t t t |
+    6-0.2.2t8 t t t t t t t |
+    6-9.11.11t8 t t t t t t t |
+    6-9.11.11t8 t t t t t t t |
+    6-7.9.9t8 t t t t t t t |
+    6-0.2.2t8 t t t t t t 7.9.9t |
+\mymark "Chorus" #57
+    6-9.11.11t8 r4 7.9.9t8 9.11.11t r4 7.9.9t8 |
+    6-9.11.11t8 r2 r8 9t4 |
+    6-0.2.2t8 2.4.4t t t t t t 5-9t~ |
+    5-9t8 \bendAfter #6 ^"½" t \bendAfter #6 ^"½" t \bendAfter #6 ^"0.25" t 7t 4-11t 6-9t 7.9.9t |
+    6-9.11.11t8 r4 7.9.9t8 9.11.11t r4 7.9.9t8 |
+    6-9.11.11t8 r2 r8 9t4 |
+    6-0.2.2t8 2.4.4t t t t t t 5-9t~ |
+    5-9t8 \bendAfter #6 ^"½" t \bendAfter #6 ^"½" t \bendAfter #6 ^"0.25" t 7t 4-11t 6-9t4 |
+\mymark "Outro" #65
+    6-9.11.11t8 t t 7.9.9t 9.11.11t t t 7.9.9t |
+    6-9.11.11t8 t t 7.9.9t 9.11.11t 0.2.2t 1.3.3t 2.4.4t |
+    6-2.4.4t8 t t4 t8 5.7.7t 6.8.8t 7.9.9t |
+    r8 6-7.9.9t r x0.x2.x2t 0.2.2t 2.4.4t 0.2.2t4 |
+    6-9.11.11t8 t t 7.9.9t 9.11.11t t t 7.9.9t |
+    6-9.11.11t8 t t 7.9.9t 9.11.11t 0.2.2t 1.3.3t 2.4.4t |
+    6-2.4.4t8 t t4 t8 5.7.7t 6.8.8t 7.9.9t |
+    r8 6-7.9.9t r x0.x2.x2t 0.2.2t 2.4.4t 0.2.2t4 |
+    6-9.11.11t8 t t 7.9.9t 9.11.11t t t 7.9.9t |
+    6-9.11.11t8 t t 7.9.9t 9.11.11t 0.2.2t 1.3.3t 2.4.4t |
+    6-2.4.4t8 t t4 t8 5.7.7t 6.8.8t 7.9.9t |
+    r8 6-7.9.9t r x0.x2.x2t 0.2.2t 2.4.4t 0.2.2t4 |
+    6-9.11.11t8 t t 7.9.9t 9.11.11t t t 7.9.9t |
+    6-9.11.11t8 t t 7.9.9t 9.11.11t t 8.10.10t 7.9.9t |
+}

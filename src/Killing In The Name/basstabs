@@ -1,0 +1,132 @@
+bass =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: https://www.songsterr.com/a/wsa/rage-against-the-machine-killing-in-the-name-bass-tab-s360t1
+% artist: Rage Against The Machine
+% title: Killing In The Name
+% instrument: Slap Bass 2
+% name: Track 2
+    \time 4/4
+    \tempo 4 = 114
+% tuning d,, a,, d, g,
+    4-0..0t1 |
+    4-0t8 r16 t8 r16 t8 3-6t r16 t8 r16 t8 |
+    4-0t8 r16 t8 r16 t8 3-6t r16 t8 r16 t8 |
+    4-0t8 r16 t8 r16 t8 3-6t r16 t8 r16 t8 |
+    4-0t8 r16 t8 r16 t8 3-6t r16 t8 r16 t8 |
+    4-0t8 r16 t8 r16 t8 3-6t r16 t8 r16 t8 |
+    4-0t8 r16 t8 r16 t8 3-6t r16 t8 r16 t8 |
+    4-0t8 r16 t8 r16 t8 3-6t r16 t8 r16 t8 |
+    4-0t8 r16 t8 r16 t8 3-6t r16 t8 r16 t8 |
+    4-0t8 r16 t8 r16 t8 3-6t r16 t8 r16 t8 |
+    4-0t8 r16 t8 r16 t8 3-6t r16 t8 r16 t8 |
+    4-0t8 r16 t8 r16 t8 3-6t r16 t8 r16 t8 |
+    4-0t8 r16 t8 r16 t8 3-6t r16 t8 r16 t8 |
+    4-0t8 r16 t8 r16 t8 3-6t r16 t8 r16 t8 |
+    4-0t8 r16 t8 r16 t8 3-6t r16 t8 r16 t8 |
+    4-0t8 r16 t8 r16 t8 3-6t r16 t8 r16 t8 |
+    4-0t8 r16 t8 r16 t8 3-6t r4. |
+    \tempo 4 = 82
+    4-0t8 3-3t16 5t 4-x0t t 2-3t 4t 0t8 4-0t 2t16 3t 2t8 |
+    4-0t8 3-3t16 5t 4-x0t t 2-3t 4t 0t8 4-0t 2t16 3t 2t8 |
+    4-0t8 3-3t16 5t 4-x0t t 2-3t 4t 0t8 4-0t 2t16 3t 2t8 |
+    4-0t8 3-3t16 5t 4-x0t t 2-3t 4t 0t8 4-0t 2t16 3t 2t8 |
+\mymark "Verse 1" #22
+    4-0t8 3-3t16 5t 4-x0t t 2-3t 4t 0t8 4-0t 2t16 3t 2t8 |
+    4-0t8 3-3t16 5t 4-x0t t 2-3t 4t 0t8 4-0t 2t16 3t 2t8 |
+    4-0t8 3-3t16 5t 4-x0t t 2-3t 4t 0t8 4-0t 2t16 3t 2t8 |
+    4-0t8 3-3t16 5t 4-x0t t 2-3t 4t 0t8 4-0t 2t16 3t 2t8 |
+    4-0t8 3-3t16 5t 4-x0t t 2-3t 4t 0t8 4-0t 2t16 3t 2t8 |
+    4-0t8 3-3t16 5t 4-x0t t 2-3t 4t 0t8 4-0t 2t16 3t 2t8 |
+    4-0t8 3-3t16 5t 4-x0t t 2-3t 4t 0t8 4-0t 2t16 3t 2t8 |
+    4-0t8 3-3t16 5t 4-x0t t 2-3t 4t 0t8 4-0t 2t16 3t 2t8 |
+\mymark "Pre chorus 1" #30
+    4-0t8 3-3t16 5t x0t t 1-4t8 4-0t 3-3t16 5t x0t t 1-3t8 |
+    4-0t8 3-3t16 5t x0t t 1-2t8 4-0t 2t16 3t 2t 3t 2t8 |
+    4-0t8 3-3t16 5t x0t t 1-4t8 4-0t 3-3t16 5t x0t t 1-3t8 |
+    4-0t8 3-3t16 5t x0t t 1-2t8 3-3t16 t t t t t t t |
+    4-0t16 t r8 t16 r2 r8. |
+\mymark "Chorus 1" #35
+    4-0t16 t r8 t16 r2 r8. |
+    4-0t16 t r8 t16 r2 r8. |
+    4-0t16 t r8 t16 r2 r8. |
+    4-0t16 t r8 t16 r2 r8. |
+    4-0t16 t r8 t16 r2 r8. |
+    4-0t16 t r8 t16 r2 r8. |
+    4-0t16 t r8 t16 r2 r8. |
+    4-0t16 t r8 t16 r8 t16 \tuplet 3/2 { 12t 2-0t t t t t t t t t t t } |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+\mymark "Verse 2" #51
+    4-0t8 3-3t16 5t 4-x0t t 2-3t 4t 0t8 4-0t 2t16 3t 2t8 |
+    4-0t8 3-3t16 5t 4-x0t t 2-3t 4t 0t8 4-0t 2t16 3t 2t8 |
+    4-0t8 3-3t16 5t 4-x0t t 2-3t 4t 0t8 4-0t 2t16 3t 2t8 |
+    4-0t8 3-3t16 5t 4-x0t t 2-3t 4t 5t 6t 7t 1-5t 6t 7t 10t8 |
+    4-0t8 3-3t16 5t 4-x0t t 2-3t 4t 0t8 4-0t 2t16 3t 2t8 |
+    4-0t8 3-3t16 5t 4-x0t t 2-3t 4t 0t8 4-0t 2t16 3t 2t8 |
+    4-0t8 3-3t16 5t 4-x0t t 2-3t 4t 0t8 4-0t 2t16 3t 2t8 |
+    4-0t8 3-3t16 5t 4-x0t t 2-3t 4t 0t8 4-0t 2t16 3t 2t8 |
+\mymark "Pre chorus 2" #59
+    4-0t8 3-3t16 5t x0t t 1-4t8 4-0t 3-3t16 5t x0t t 1-3t8 |
+    4-0t8 3-3t16 5t x0t t 1-2t8 4-0t 2t16 3t 2t 3t 2t8 |
+    4-0t8 3-3t16 5t x0t t 1-4t8 4-0t 3-3t16 5t x0t t 1-3t8 |
+    4-0t8 3-3t16 5t x0t t 1-2t8 3-3t16 t t t t t t t |
+\mymark "Chorus 2" #63
+    4-0t16 t r8 t16 r2 r8. |
+    4-0t16 t r8 t16 r2 r8. |
+    4-0t16 t r8 t16 r2 r8. |
+    4-0t16 t r8 t16 r2 r8. |
+    4-0t16 t r8 t16 r2 r8. |
+    4-0t16 t r8 t16 r2 r8. |
+    4-0t16 t r8 t16 r2 r8. |
+    4-0t16 t r8 t16 r2 r8. |
+    4-0t16 t r8 t16 r8 t16 \tuplet 3/2 { 12t 2-0t t t t t t t t t t t } |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+\mymark "Solo" #80
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    \tuplet 3/2 { 3-5t8 t t t t t t t t t t t } |
+    \tuplet 3/2 { 3-7t8 t t t t t t t t t t t } |
+    \tuplet 3/2 { 3-8t8 t t t t t t t t t t t } |
+    \tuplet 3/2 { 3-10t8 t t t t t t t t t t t } |
+    \tuplet 3/2 { 3-12t8 t t t t t t t t t t t } |
+    \tuplet 3/2 { 3-13t8 t t t t t t t t t t t } |
+    \tuplet 3/2 { 3-15t8 t t t t t t t t t t t } |
+    3-17t16 t x0t t 17t t x0t t 17t t x0t t 17t t x0t t |
+\mymark "Outro" #96
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    3-5t16 t r8 t16 r8 t16 r8 4-3t 5t 3-3t |
+    \tempo 4 = 114
+    \tuplet 3/2 { 2-12t16 t t t t t t t t t t t t t t t t t t t t t t t } |
+    4-0t8 r16 t8 r16 t8 13t r16 t8 r16 t8~ |
+    4-13t8 0t2. r8 |
+}

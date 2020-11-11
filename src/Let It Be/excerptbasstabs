@@ -1,0 +1,31 @@
+excerptbass =
+{
+% tuning e,, a,, d, g,
+\mymark "Intro" #1
+    r1 |
+    r2. r8 1-0t16 r |
+\mymark "Verse" #3
+    1-5t4. r16 3-3t 1-0t2 |
+    1-2t4. 0t8 2-3t4 1-5t |
+    3-3t4. 2-2t8 1-0t2 |
+    2-3t4 2t8 0t 3-3t4 1-5t8 4t |
+\mymark "Chorus" #7
+    1-2t4 2-2t8 1-2t 0t r t r |
+    2-3t4 1-2t8 r16 5t 3-3t8 r 2-2t16 3t 4t 1-0t |
+    3-3t8 r 2-2t 3t16 r 1-0t4 t16 r8. |
+    2-3t4 2t8 0t 3-3t 1-5t4. |
+\mymark "Bridge" #11
+    2-3t4 2t8 0t 3-3t4 1-3t8 2t |
+    1-0t4 2-3t 3-3t2 |
+    2-3t2 2t |
+    2-0t4 3-3t 1-5t2 |
+\mymark "Solo" #15
+    3-3t4 r16 2-2t8 3t16 1-0t4. t8 |
+    1-2t16 t8. t16 r 0t r 2-3t4 t8 1-0t16 r |
+    3-3t4 1-5t8 2-2t16 3t 1-0t4 4-3t8 1-0t |
+    2-3t8. t16 2t8 0t 3-3t16 t 1-5t t t 2-5t 1-2t 2-2t |
+    3-3t4 2-2t8 3t 1-0t t16 t t t t8 |
+    1-2t4 t8 0t 2-3t4 t8 1-5t |
+    3-3t8. 1-5t16 t8 2-2t 1-0t4 4-3t8 1-0t |
+    2-3t8. t16 2t8 0t 3-3t2 |
+}

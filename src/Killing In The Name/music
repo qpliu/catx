@@ -1,0 +1,59 @@
+% BIN
+
+\header {
+    title = "Killing In The Name"
+    composer = "Rage Against The Machine"
+}
+
+\include "excerptmarkup"
+\include "excerptguitar"
+\include "excerptbass"
+\include "excerptdrums"
+
+layoutmusic = <<
+    \tag #'(allPart gitPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\excerptguitar
+    >>
+    \tag #'(allPart gitPart) \new TabStaff \with { stringTunings = #guitar-drop-d-tuning } <<
+	\markupStuff
+	\excerptguitar
+    >>
+    \tag #'(allPart bassPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Bass" }
+	shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } <<
+	\markupStuff
+	\clef "bass_8"
+	\excerptbass
+    >>
+    \tag #'(allPart bassPart) \new TabStaff \with { stringTunings = #bass-drop-d-tuning } <<
+	\markupStuff
+	\excerptbass
+    >>
+    \tag #'(allPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\excerptdrums
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiGg) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \excerptdrums
+    \tag #'(midiOne) \new Staff \with {
+	midiInstrument = #"electric bass (pick)"
+    } \excerptbass
+    \tag #'(midiPeter) \new Staff \with {
+	midiInstrument = #"distorted guitar"
+    } \excerptguitar
+>>

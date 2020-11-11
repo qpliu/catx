@@ -1,0 +1,137 @@
+piano =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: https://www.songsterr.com/a/wsa/bon-jovi-you-give-love-a-bad-name-tab-s23720t5
+% artist: Bon Jovi
+% title: You Give Love A Bad Name
+% instrument: Electric Grand Piano
+% name: Keyboard 2
+    \time 4/4
+    \tempo 4 = 125
+\mymark "Intro" #1
+% tuning e, a, d g b e'
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #17
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #25
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #33
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 r2. |
+    r1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    <c' ees' g'>1 |
+    <bes d' f'>1 |
+    <c' ees' g'>1 |
+    r1 |
+\mymark "Verse 2" #48
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus 2" #56
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 2" #64
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    r1 |
+    r1 |
+\mymark "Solo" #74
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge" #83
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+\mymark "Chorus" #91
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+\mymark "Outro" #99
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''> |
+    <c' c''>4 <c' c''> <c' c''> <c' c''>~ |
+    <c' c''>1 |
+    r1 |
+}

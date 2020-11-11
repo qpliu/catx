@@ -1,0 +1,137 @@
+strings =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: https://www.songsterr.com/a/wsa/bon-jovi-you-give-love-a-bad-name-tab-s23720t4
+% artist: Bon Jovi
+% title: You Give Love A Bad Name
+% instrument: SynthStrings 1
+% name: Keyboard 1
+    \time 4/4
+    \tempo 4 = 125
+\mymark "Intro" #1
+% tuning e, a, d g b e'
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    <g c' ees'>4. <aes c' ees'>2~ <aes c' ees'>8 |
+    <f bes d'>2 <g c' ees'> |
+    <aes c' ees'>4. <bes d' f'>2~ <bes d' f'>8 |
+    <g bes ees'>4 <g c' ees'>2. |
+    <g c' ees'>4. <g c' ees'>2~ <g c' ees'>8 |
+    <f bes d'>2 <g c' ees'> |
+    <aes c' ees'>4. <f bes d'>2~ <f bes d'>8 |
+    r1 |
+    \tuplet 3/2 { c''8 g' bes' f' g' ees' f' d' ees' c' d' bes } |
+    \tuplet 3/2 { c'8 g bes f g ees f d ees } c4 |
+    <ees' g' bes'>1~ |
+    <ees' g' bes'>1 |
+\mymark "Verse 1" #17
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #25
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #33
+    <g c' ees'>4 r8 <aes c' ees'>2~ <aes c' ees'>8 |
+    <f bes d'>2 <g c' ees'> |
+    <aes c' ees'>4 r8 <f bes d'>2~ <f bes d'>8 |
+    <g bes ees'>4 <g c' ees'>2. |
+    <g c' ees'>4 r8 <aes c' ees'>2~ <aes c' ees'>8 |
+    <f bes d'>2 <g c' ees'> |
+    <aes c' ees'>4 r8 <f bes d'>2~ <f bes d'>8 |
+    <g bes ees'>4 <g c' ees'>2. |
+    <aes c' ees'>4. <f bes d'>2~ <f bes d'>8~ |
+    <f bes d'>1 |
+    \time 2/4
+    r2 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #48
+    c''1 |
+    bes'4 c'' ees''2 |
+    <f' c''~>1 |
+    <ees' g' c''>1 |
+    c''1 |
+    bes'1 |
+    c''1 |
+    \tuplet 3/2 { ees''4 d'' c'' } c'' r |
+\mymark "Pre-Chorus 2" #56
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 2" #64
+    <g c' ees'>4 r8 <aes c' ees'>2~ <aes c' ees'>8 |
+    <f bes d'>2 <g c' ees'> |
+    <aes c' ees'>4 r8 <f bes d'>2~ <f bes d'>8 |
+    <g bes ees'>4 <g c' ees'>2. |
+    <g c' ees'>4 r8 <aes c' ees'>2~ <aes c' ees'>8 |
+    <f bes d'>2 <g c' ees'> |
+    <aes c' ees'>4 r8 <f bes d'>2~ <f bes d'>8 |
+    <g bes ees'>4 <g c' ees'>2. |
+    r1 |
+    r1 |
+\mymark "Solo" #74
+    g'1~ |
+    g'4 d'8 ees'2~ ees'8 |
+    c'8 d'4 ees' f' g'8 |
+    bes'4 c'' c''2 |
+    bes'16 g'2.~ g'8.~ |
+    g'2 c''4 r |
+    c''4 r8 ees''4. r4 |
+    c16 bes, g, bes, c ees c bes, c bes, g, bes, c ees f ees |
+    g1 |
+\mymark "Bridge" #83
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #91
+    <g c' ees'>4. <aes c' ees'>2~ <aes c' ees'>8 |
+    <f bes d'>2 <g c' ees'> |
+    <g c' ees'>4. <f bes d'>2~ <f bes d'>8 |
+    <g c' ees'>1 |
+    <g c' ees'>4. <aes c' ees'>2~ <aes c' ees'>8 |
+    <f bes d'>2 <g c' ees'> |
+    <aes c' ees'>4. <f bes d'>2~ <f bes d'>8 |
+    <g c' ees'>1 |
+\mymark "Outro" #99
+    <g c' ees'>4. <g bes d'>2~ <g bes d'>8 |
+    <g c' ees'>1 |
+    <g c' ees'>4. <g bes d'>2~ <g bes d'>8 |
+    <g c' ees'>1 |
+    <g c' ees'>4. <g bes d'>2~ <g bes d'>8 |
+    <g c' ees'>1 |
+    <g c' ees'>4. <g bes d'>2~ <g bes d'>8 |
+    <g c' ees'>1 |
+    <g c' ees'>4. <g bes d'>2~ <g bes d'>8 |
+    <g c' ees'>1 |
+    <g c' ees'>4. <g bes d'>2~ <g bes d'>8 |
+    <g c' ees'>1~ |
+    <g c' ees'>1 |
+    r1 |
+}

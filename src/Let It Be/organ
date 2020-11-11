@@ -1,0 +1,88 @@
+organ =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: https://www.songsterr.com/a/wsa/the-beatles-let-it-be-naked-version-tab-s88062t4
+% artist: The Beatles
+% title: Let It Be (Naked Version)
+% instrument: Drawbar Organ
+% name: Organ (Billy Preston)
+    \time 1/4
+    \tempo 4 = 70
+% tuning e, a, d g b e'
+    r4 |
+    \time 4/4
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    <e'' g'' c'''>2 <d'' g'' b''> |
+    <e'' a'' c'''>4 <e'' a'' c'''>8 <d'' g'' b''> <c'' f'' a''>4 <c'' d'' a''> |
+    <c'' e'' g''>2 <b' d'' g''> |
+    <c'' f'' g''>4 <c'' e'' g''>8 <c'' d'' f''> <c'' e'' g''>2 |
+    <e'' a'' c'''>2 <d'' g'' b''> |
+    <f'' a'' c'''>2 <e'' g'' c'''> |
+    <e'' g'' c'''>2 <d'' g'' b''> |
+    <c'' f'' a''>4 <c'' e'' g''>8 <c'' d'' f''> <c'' e'' g''>2 |
+    <e'' a'' c'''>2 <d'' g'' b''> |
+    <f'' a'' c'''>2 <e'' g'' c'''> |
+    <e'' g'' c'''>2 <d'' g'' b''> |
+    <c'' f'' a''>4 <c'' e'' g''>8 <c'' d'' f''> <c'' e'' g''>2 |
+    \tempo 4 = 65
+    r1 |
+    r1 |
+    \tempo 4 = 70
+    <f f'' a'' c'''>4 <e' e'' g'' c'''>16 g <d' d'' f'' c'''> g <c' e'' g'' c'''>4 <ais d'' f'' ais''>16 f <a f'' a'' c'''> g |
+    <g d'' g'' b''>4 <f f'' a'' c'''> <e'' g'' c'''>2 |
+    <e'' g'' c'''>2 <d'' g'' b''> |
+    <e'' a'' c'''>4 <e'' a'' c'''>8 <d'' g'' b''> <c'' f'' a''>4 <c'' d'' a''> |
+    <c'' e'' g''>2 <b' d'' g''> |
+    <c'' f'' g''>4 <c'' e'' g''>8 <c'' d'' f''> <c'' e'' g''>2 |
+    <e'' g'' c'''>2 <d'' g'' b''> |
+    <e'' a'' c'''>4 <e'' a'' c'''>8 <d'' g'' b''> <c'' f'' a''>4 <c'' d'' a''> |
+    <c'' e'' g''>2 <b' d'' g''> |
+    <c'' f'' g''>4 <c'' e'' g''>8 <c'' d'' f''> <c'' e'' g''>2 |
+    <e' a' c'' e''>2 <g' b' d'' g''> |
+    <f' a' c'' f''>2 <e' g' c'' e''> |
+    <e' g' c''>2 <d' g' b'> |
+    <f' a' c''>4 <e' g' c''>8 <d' a' c''> <c' e' g'>2 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    <e'' a'' c'''>2 <d'' g'' b''> |
+    <f'' a'' c'''>2 <e'' g'' c'''> |
+    <e'' g'' c'''>2 <d'' g'' b''> |
+    <c'' f'' a''>4 <c'' e'' g''>8 <c'' d'' f''> <c'' e'' g''>2 |
+    <e'' a'' c'''>2 <d'' g'' b''> |
+    <f'' a'' c'''>2 <e'' g'' c'''> |
+    <e'' g'' c'''>2 <d'' g'' b''> |
+    <c'' f'' a''>4 <c'' e'' g''>8 <c'' d'' f''> <c'' e'' g''>2 |
+    <e'' a'' c'''>2 <d'' g'' b''> |
+    <f'' a'' c'''>2 <e'' g'' c'''> |
+    <e'' g'' c'''>2 <d'' g'' b''> |
+    <c'' f'' a''>4 <c'' e'' g''>8 <c'' d'' f''> <c'' e'' g''>2 |
+    \tempo 4 = 65
+    <f f' a' c''>4 <e e' g' c''>16 g <d' f' c''> g <e' g' c''>4 <d' f' ais'>16 f <f' a' c''> g |
+    \tempo 4 = 60
+    <g d' g' b'>4 <f f' a' c''> <e' g' c'' e''>2 |
+}

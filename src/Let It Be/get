@@ -1,0 +1,11 @@
+#!/bin/sh
+java -jar ../../songsterrToLy/1.jar --no-string-numbers --name vocals https://www.songsterr.com/a/wsa/the-beatles-let-it-be-naked-version-tab-s88062t0 > vocals
+java -jar ../../songsterrToLy/1.jar --no-string-numbers --name chorus https://www.songsterr.com/a/wsa/the-beatles-let-it-be-naked-version-tab-s88062t1 > chorus
+java -jar ../../songsterrToLy/1.jar --no-string-numbers --name rhpiano https://www.songsterr.com/a/wsa/the-beatles-let-it-be-naked-version-tab-s88062t2 > rhpiano
+java -jar ../../songsterrToLy/1.jar --no-string-numbers --name lhpiano https://www.songsterr.com/a/wsa/the-beatles-let-it-be-naked-version-tab-s88062t3 > lhpiano
+java -jar ../../songsterrToLy/1.jar --no-string-numbers --name organ https://www.songsterr.com/a/wsa/the-beatles-let-it-be-naked-version-tab-s88062t4 > organ
+java -jar ../../songsterrToLy/1.jar --output-tabs --name rguitar https://www.songsterr.com/a/wsa/the-beatles-let-it-be-naked-version-tab-s88062t5 > rguitartabs
+java -jar ../../songsterrToLy/1.jar --output-tabs --name sguitar https://www.songsterr.com/a/wsa/the-beatles-let-it-be-naked-version-tab-s88062t6 > sguitartabs
+java -jar ../../songsterrToLy/1.jar --output-tabs --name fguitar https://www.songsterr.com/a/wsa/the-beatles-let-it-be-naked-version-tab-s88062t7 > fguitartabs
+java -jar ../../songsterrToLy/1.jar --output-tabs --name bass https://www.songsterr.com/a/wsa/the-beatles-let-it-be-naked-version-bass-tab-s88062t8 > basstabs
+java -jar ../../songsterrToLy/1.jar --name drum https://www.songsterr.com/a/wsa/the-beatles-let-it-be-naked-version-drum-tab-s88062t9 > drums

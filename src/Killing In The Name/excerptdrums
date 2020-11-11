@@ -1,0 +1,21 @@
+excerptdrums = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+    << { hho8 hh <sn sn hh> hh16 <sn sn> hh8 hh16 r <sn sn hh>8 hho | } \context DrumVoice = "drsb" { bda8 r4. bda8 bda16 bda r4 | } >>
+    << { hho8 hh <sn sn hh> hh16 <sn sn> hh8 hh16 r <sn sn hh>8 hho | } \context DrumVoice = "drsb" { bda8 r4. bda8 bda16 bda r4 | } >>
+    << { hho8 hh <sn sn hh> hh16 <sn sn> hh8 hh16 r <sn sn hh>8 hho | } \context DrumVoice = "drsb" { bda8 r4. bda8 bda16 bda r4 | } >>
+    << { hho8 hh <sn sn hh> hh16 <sn sn> hh8 hh16 r <sn sn hh>8 hho | } \context DrumVoice = "drsb" { bda8 r4. bda8 bda16 bda r4 | } >>
+    << { <cymc sn>8. <cymc sn> <cymc sn>8 cymcb8. cymcb cymcb8 | } \context DrumVoice = "drsb" { r2 bda8. bda bda8 | } >>
+    <cymc sn>8. <cymcb sn> <cyms sn>8 sn64 sn32. r8. hh4 |
+
+    << { hho8 hho <sn hho> hho hho hho <sn hho> hho | } \context DrumVoice = "drsb" { bda8 r4. bda8 r4. | } >>
+    << { hho8 hho <sn hho> hho hho hho <sn hho> hho | } \context DrumVoice = "drsb" { bda8 r4. bda8 r4. | } >>
+    << { hho8 hho <sn hho> hho hho hho <sn hho> hho | } \context DrumVoice = "drsb" { bda8 r4. bda8 r4. | } >>
+    << { hho8 hho <sn hho> hho hho hho16 r <sn hho>8 sn64 sn32. r16 | } \context DrumVoice = "drsb" { bda8 r4. bda8 bda16 bda r4 | } >>
+\mymark "Pre chorus" #11
+    << { cymcb8 hho <sn hho> hho cymc hho <sn hho> hho | } \context DrumVoice = "drsb" { bda8 r4. bda8 r4. | } >>
+    << { cymc8 hho <sn hho> hho cymcb hho16 r <sn hho>8 sn64 sn32. r16 | } \context DrumVoice = "drsb" { bda8 r4. bda8 bda16 bda r4 | } >>
+    << { cymcb8 hho <sn hho> hho cymc hho <sn hho> hho | } \context DrumVoice = "drsb" { bda8 r4. bda8 r4. | } >>
+    << { hho8 hho <sn hho> hho <sn tomfl>16 <sn tomfl> <sn tomfl> <sn tomfl> <sn tomfl> <sn tomfl> <sn tomfl> <sn tomfl> | } \context DrumVoice = "drsb" { bda8 r4. bda16 bda bda bda bda bda bda bda | } >>
+    << { sn16 sn r8 sn16 r8. r2 | } \context DrumVoice = "drsb" { bda16 bda r8 bda16 r8. r2 | } >>
+}

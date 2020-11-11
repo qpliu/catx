@@ -1,0 +1,17 @@
+excerptvocals = {
+\mymark "Intro" #1
+    s1*4
+\mymark "Chorus" #5
+    b4 b8 b2 r8 |
+    r2 b8 cis'4. |
+    dis'2 ais |
+    r1 |
+    r4 gis b8 gis4 b8~ |
+    b8 gis4 gis b4. |
+    fis'2 e' |
+    b2 cis' |
+\mymark "Solo" #13
+    s1*8
+\mymark "Outro" #21
+    s1
+}
