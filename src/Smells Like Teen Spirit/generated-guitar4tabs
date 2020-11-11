@@ -1,0 +1,165 @@
+guitarFourPart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: Nirvana
+% title: Smells Like Teen Spirit
+% instrument: Overdriven Guitar
+% name: Kurt Cobain - Guitar Overdubs
+% scale c des d ees e f ges g aes a bes b
+    \time 4/4
+    \tempo 4 = 114
+\mymark "Intro" #1
+% tuning e, a, d g b e'
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #8
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #20
+    3-5t4 2-6t 3-5t8 t 2-6t4 |
+    3-5t4 2-6t 3-5t8 t 2-6t4 |
+    3-5t8 t 2-6t4 3-5t8 t 2-6t4 |
+    3-5t8 t 2-6t4 3-5t8 t 2-6t4 |
+    3-5t4 2-6t 3-5t8 t 2-6t4 |
+    3-5t8 t 2-6t4 3-5t8 t 2-6t4 |
+    3-5t8 t 2-6t4 3-5t8 t 2-6t4 |
+    3-5t8 t 2-6t4 3-5t8 t 2-6t4 |
+\mymark "Chorus" #28
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+\mymark "Bridge" #40
+    3-5.6t4 t t8 t r4 |
+    3-5.6t4 t 3.4t8 t t t |
+    3-5.6t4 t 6.7t8 t r4 |
+    3-5.6t4 t 3.4t8 t t t |
+\mymark "Verse 2" #44
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #56
+    3-5t4 2-6t 3-5t8 t 2-6t4 |
+    3-5t4 2-6t 3-5t8 t 2-6t4 |
+    3-5t8 t 2-6t4 3-5t8 t 2-6t4 |
+    3-5t8 t 2-6t4 3-5t8 t 2-6t4 |
+    3-5t4 2-6t 3-5t8 t 2-6t4 |
+    3-5t8 t 2-6t4 3-5t8 t 2-6t4 |
+    3-5t8 t 2-6t4 3-5t8 t 2-6t4 |
+    3-5t8 t 2-6t4 3-5t8 t 2-6t4 |
+\mymark "Chorus" #64
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+\mymark "Bridge" #76
+    3-5.6t4 t t8 t r4 |
+    3-5.6t4 t 3.4t8 t t t |
+    3-5.6t4 t 6.7t8 t r4 |
+    3-5.6t4 t 3.4t8 t t t |
+\mymark "Guitar Solo" #80
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 3" #96
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #108
+    3-5t4 2-6t 3-5t8 t 2-6t4 |
+    3-5t4 2-6t 3-5t8 t 2-6t4 |
+    3-5t8 t 2-6t4 3-5t8 t 2-6t4 |
+    3-5t8 t 2-6t4 3-5t8 t 2-6t4 |
+    3-5t4 2-6t 3-5t8 t 2-6t4 |
+    3-5t8 t 2-6t4 3-5t8 t 2-6t4 |
+    3-5t8 t 2-6t4 3-5t8 t 2-6t4 |
+    3-5t8 t 2-6t4 3-5t8 t 2-6t4 |
+\mymark "Chorus" #116
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+\mymark "Outro" #128
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+    3-5.6t4 t 3.4t8 t t 0t |
+    3-1.2t4 t 1.1t8 1.2t t4 |
+    3-5.6t1~ |
+    3-5.6t1~ |
+    3-5.6t1 |
+}

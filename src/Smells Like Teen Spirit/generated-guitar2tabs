@@ -1,0 +1,165 @@
+guitarTwoPart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: Nirvana
+% title: Smells Like Teen Spirit
+% instrument: Distortion Guitar
+% name: Kurt Cobain - Main Guitar
+% scale c des d ees e f ges g aes a bes b
+    \time 4/4
+    \tempo 4 = 114
+\mymark "Intro" #1
+% tuning e, a, d g b e'
+    r1 |
+    r1 |
+    r1 |
+    r2 r8 5-4.6.6t t16 t 0.0.0t 6-5.0.0.0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t t t t t t |
+\mymark "Verse 1" #8
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #20
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+\mymark "Chorus" #28
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+\mymark "Bridge" #40
+    6-1.3.3t4 0.2.2t8 1.3.3t 2.4.4t t 3-3t4 \bendAfter #6 ^"½" |
+    6-1.3.3t4 0.2.2t8 1.3.3t 6.8.8t t 4.6.6t 0.0t |
+    6-1.3.3t4 0.2.2t8 1.3.3t 2.4.4t t 3-3t4 \bendAfter #6 ^"½" |
+    6-1.3.3t4 0.2.2t8 1.3.3t 6.8.8t t 4.6.6t 0.0t |
+\mymark "Verse 2" #44
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #56
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+\mymark "Chorus" #64
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+\mymark "Bridge" #76
+    6-1.3.3t4 0.2.2t8 1.3.3t 2.4.4t t 3-3t4 \bendAfter #6 ^"½" |
+    6-1.3.3t4 0.2.2t8 1.3.3t 6.8.8t t 4.6.6t 0.0t |
+    6-1.3.3t4 0.2.2t8 1.3.3t 2.4.4t t 3-3t4 \bendAfter #6 ^"½" |
+    6-1.3.3t4 0.2.2t8 1.3.3t 6.8.8t t 4.6.6t 0.0t |
+\mymark "Guitar Solo" #80
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+\mymark "Verse 3" #96
+    6-1.3.3t1~ |
+    6-1.3.3t1~ |
+    6-1.3.3t1~ |
+    6-1.3.3t1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #108
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+    3-5t4 2-6t 3-5t 2-6t |
+\mymark "Chorus" #116
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+\mymark "Outro" #128
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t8. t16 t8 5-x3.x3.x3t16 t t t 1.3.3t8 t 0.0.0t |
+    6-4.6.6t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6t8 t 0.0.0t |
+    6-1.3.3t1~ |
+    6-1.3.3t1~ |
+    6-1.3.3t1 |
+}

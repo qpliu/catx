@@ -1,0 +1,165 @@
+guitarThreePart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: Nirvana
+% title: Smells Like Teen Spirit
+% instrument: Distortion Guitar
+% name: Kurt Cobain - Guitar Solo
+% scale c des d ees e f ges g aes a bes b
+    \time 4/4
+    \tempo 4 = 114
+\mymark "Intro" #1
+% tuning e, a, d g b e'
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #8
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #20
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #28
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge" #40
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #44
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #56
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #64
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge" #76
+    r1 |
+    r1 |
+    r1 |
+    4-10t1~ |
+\mymark "Guitar Solo" #80
+    4-10t4 3-5t8 8t4 10t 4-6t8~ |
+    4-6t4 3-8t8 t4. \bendAfter #6 ^"full" 6t8 5t~ |
+    3-5t4 6t8 5t4 3t 1t8~ |
+    3-1t4 3t8 t4. \bendAfter #6 ^"full" 1t8 0t~ |
+    3-0t4 5t8 8t4 10t 4-6t8~ |
+    4-6t4 3-8t8 t4. \bendAfter #6 ^"full" 6t8 5t~ |
+    3-5t4 6t8 5t4 3t 1t8~ |
+    3-1t4 3t8 t4. \bendAfter #6 ^"full" 1t8 0t~ |
+    3-0t4 1t8 0t4. 1t8 0t~ |
+    3-0t4 1t8 0t4 1t8 0t t |
+    4-3t4 3-1t8 0t4. 1t8 0t~ |
+    3-0t4 1t8 0t4 1t8 0t t |
+    4-3t4 3-1t8 0t4. 1t8 0t~ |
+    3-0t4 1t8 0t4 1t8 0t t |
+    4-3t4 3-1t8 0t4. 1t8 0t~ |
+    3-0t4 1t8 0t4 1t8 0t t |
+\mymark "Verse 3" #96
+    4-3t1~ |
+    4-3t1~ |
+    4-3t1~ |
+    4-3t1~ |
+    4-3t1~ |
+    4-3t1~ |
+    4-3t1~ |
+    4-3t1~ |
+    4-3t1~ |
+    4-3t1~ |
+    4-3t1~ |
+    4-3t1 |
+\mymark "Pre-Chorus" #108
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #116
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Outro" #128
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

@@ -1,7 +1,8 @@
 #!/bin/sh
 java -jar ../../songsterrToLy/1.jar --name vocals > gen-vocals --no-string-numbers --scale 'c des d ees e f ges g aes a bes b' https://www.songsterr.com/a/wsa/bon-jovi-you-give-love-a-bad-name-tab-s23720t0
-(echo '% scale c des d ees e f ges g aes a bes b'; java -jar ../../songsterrToLy/1.jar --name guitar --output-tabs --scale 'c des d ees e f ges g aes a bes b' https://www.songsterr.com/a/wsa/bon-jovi-you-give-love-a-bad-name-tab-s23720t2) > gen-guitartabs
+
+java -jar ../../songsterrToLy/1.jar --name guitar --output-tabs --scale 'c des d ees e f ges g aes a bes b' https://www.songsterr.com/a/wsa/bon-jovi-you-give-love-a-bad-name-tab-s23720t2 > gen-guitartabs
 java -jar ../../songsterrToLy/1.jar --name strings > gen-strings --no-string-numbers --scale 'c des d ees e f ges g aes a bes b' https://www.songsterr.com/a/wsa/bon-jovi-you-give-love-a-bad-name-tab-s23720t4
 java -jar ../../songsterrToLy/1.jar --name piano > gen-piano --no-string-numbers --scale 'c des d ees e f ges g aes a bes b' https://www.songsterr.com/a/wsa/bon-jovi-you-give-love-a-bad-name-tab-s23720t5
-(echo '% scale c des d ees e f ges g aes a bes b'; java -jar ../../songsterrToLy/1.jar --name bass --output-tabs --scale 'c des d ees e f ges g aes a bes b' https://www.songsterr.com/a/wsa/bon-jovi-you-give-love-a-bad-name-bass-tab-s23720t6) > gen-basstabs
+java -jar ../../songsterrToLy/1.jar --name bass --output-tabs --scale 'c des d ees e f ges g aes a bes b' https://www.songsterr.com/a/wsa/bon-jovi-you-give-love-a-bad-name-bass-tab-s23720t6 > gen-basstabs
 #java -jar ../../songsterrToLy/1.jar --name drs > gen-drums https://www.songsterr.com/a/wsa/bon-jovi-you-give-love-a-bad-name-drum-tab-s23720t7

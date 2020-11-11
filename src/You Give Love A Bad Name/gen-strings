@@ -6,6 +6,7 @@ strings =
 % title: You Give Love A Bad Name
 % instrument: SynthStrings 1
 % name: Keyboard 1
+% scale c des d ees e f ges g aes a bes b
     \time 4/4
     \tempo 4 = 125
 \mymark "Intro" #1

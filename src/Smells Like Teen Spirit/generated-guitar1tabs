@@ -1,0 +1,165 @@
+guitarOnePart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: Nirvana
+% title: Smells Like Teen Spirit
+% instrument: Electric Guitar (clean)
+% name: Kurt Cobain - Intro\u002FVerse Guitar
+% scale c des d ees e f ges g aes a bes b
+    \time 4/4
+    \tempo 4 = 114
+\mymark "Intro" #1
+% tuning e, a, d g b e'
+    6-1.3.3.x0t8. t16 t r8 5-x3.x3.x3t16 4-x0.x0.x0t 5-x3.x3.x3t 1.3.3.x0t8 t16 t 6-0.0.0.0.0.0t8 |
+    6-4.6.6.x0t8. t16 t8 5-x6.x6.x6t16 t t t 4.6.6.x0t8 t16 t x4.x4.x6t 4-x0.x0.x0t |
+    6-1.3.3.x0t8. t16 t r8 5-x3.x3.x3t16 4-x0.x0.x0t 5-x3.x3.x3t 1.3.3.x0t8 t16 t 4-x0.x0.x0t8 |
+    6-4.6.6.x6t8. t16 t8 5-x6.x6.x6t16 t t t r4. |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #8
+    r4 3-5t8 2-6t2~ t8~ |
+    2-6t2 r |
+    r4 3-5t8 2-6t2~ t8~ |
+    2-6t2 r |
+    r4 3-5t8 2-6t2~ t8~ |
+    2-6t2 r |
+    r4 3-5t8 2-6t2~ t8~ |
+    2-6t2 r |
+    r4 3-5t8 2-6t2~ t8~ |
+    2-6t2 r |
+    r4 3-5t8 2-6t2~ t8~ |
+    2-6t2 r |
+\mymark "Pre-Chorus" #20
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #28
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge" #40
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #44
+    r4 3-5t8 2-6t2~ t8~ |
+    2-6t2 r |
+    r4 3-5t8 2-6t2~ t8~ |
+    2-6t2 r |
+    r4 3-5t8 2-6t2~ t8~ |
+    2-6t2 r |
+    r4 3-5t8 2-6t2~ t8~ |
+    2-6t2 r |
+    r4 3-5t8 2-6t2~ t8~ |
+    2-6t2 r |
+    r4 3-5t8 2-6t2~ t8~ |
+    2-6t2 r |
+\mymark "Pre-Chorus" #56
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #64
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge" #76
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Guitar Solo" #80
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 3" #96
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #108
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #116
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Outro" #128
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

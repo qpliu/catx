@@ -1,4 +1,3 @@
-% scale c des d ees e f ges g aes a bes b
 bass =
 {
 % THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
@@ -7,6 +6,7 @@ bass =
 % title: You Give Love A Bad Name
 % instrument: Electric Bass (finger)
 % name: Bass
+% scale c des d ees e f ges g aes a bes b
     \time 4/4
     \tempo 4 = 125
 \mymark "Intro" #1

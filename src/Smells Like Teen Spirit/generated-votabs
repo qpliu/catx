@@ -1,0 +1,165 @@
+voPart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: Nirvana
+% title: Smells Like Teen Spirit
+% instrument: Tenor Sax
+% name: Kurt Cobain - Vocals
+% scale c des d ees e f ges g aes a bes b
+    \time 4/4
+    \tempo 4 = 114
+\mymark "Intro" #1
+% tuning e, a, d g b e'
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #8
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r4 2-1t8 4t4 1-1t 3-1t8~ |
+    3-1t4 t8 1-1t4 2-4t8 2t 1t~ |
+    2-1t4 t8 t4. 4-3t8 3-1t~ |
+    3-1t4 3t8 2-1t4 3-3t8 1t 0t~ |
+    3-0t4 2-1t8 4t4 1-1t 3-1t8~ |
+    3-1t4 t8 1-1t4 2-4t8 2t 1t~ |
+    2-1t4 2t8 1t4. 4-3t8 3-1t~ |
+    3-1t4 3t8 2-1t4 3-3t8 1t 0t~ |
+\mymark "Pre-Chorus" #20
+    3-0t4 1t8 0t4. 1t8 0t~ |
+    3-0t4 1t8 0t4 1t8 0t t |
+    4-3t8 r 3-1t 0t4. 1t8 0t~ |
+    3-0t4 1t8 0t4 1t8 0t t |
+    4-3t8 r 3-1t 0t4. 1t8 0t~ |
+    3-0t4 1t8 0t4 1t8 0t t |
+    4-3t8 r 3-1t 0t4. 1t8 0t~ |
+    3-0t4 1t8 0t4 1-4t8 3t t~ |
+\mymark "Chorus" #28
+    1-3t8 1t4. r8 6t t t~ |
+    1-6t8 4t4. r8 2-2t t t~ |
+    2-2t8 1t4. r8 1-6t t t~ |
+    1-6t8 4t4. r8 t 3t t~ |
+    1-3t8 1t4. r8 6t t t~ |
+    1-6t8 4t4. r8 2-2t t t~ |
+    2-2t8 1t4. r8 1-6t t t~ |
+    1-6t8 4t4. r8 t 3t t~ |
+    1-3t8 1t4. r8 6t t t~ |
+    1-6t8 4t4. r8 2-2t t t~ |
+    2-2t8 1t4. r8 1-6t t t~ |
+    1-6t8 4t4. r4 t |
+\mymark "Bridge" #40
+    r2. 3-4t4 |
+    r1 |
+    r2. 3-4t4 |
+    r1 |
+\mymark "Verse 2" #44
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r4 2-1t8 4t4 1-1t 3-1t8~ |
+    3-1t4 r8 1-1t4 2-4t8 2t 1t~ |
+    2-1t4 t8 t4. 4-3t8 3-1t~ |
+    3-1t4 3t8 2-1t4 3-3t8 1t 0t~ |
+    3-0t4 2-1t8 4t4 1-1t 3-1t8~ |
+    3-1t4 t8 1-1t4 2-4t8 2t 1t~ |
+    2-1t4 2t8 1t4. 4-3t8 3-1t~ |
+    3-1t4 3t8 2-1t4 3-3t8 1t 0t~ |
+\mymark "Pre-Chorus" #56
+    3-0t4 1t8 0t4. 1t8 0t~ |
+    3-0t4 1t8 0t4 1t8 0t t |
+    4-3t8 r 3-1t 0t4. 1t8 0t~ |
+    3-0t4 1t8 0t4 1t8 0t t |
+    4-3t8 r 3-1t 0t4. 1t8 0t~ |
+    3-0t4 1t8 0t4 1t8 0t t |
+    4-3t8 r 3-1t 0t4. 1t8 0t~ |
+    3-0t4 1t8 0t4 1-4t8 3t t~ |
+\mymark "Chorus" #64
+    1-3t8 1t4. r8 6t t t~ |
+    1-6t8 4t4. r8 2-2t t t~ |
+    2-2t8 1t4. r8 1-6t t t~ |
+    1-6t8 4t4. r8 t 3t t~ |
+    1-3t8 1t4. r8 6t t t~ |
+    1-6t8 4t4. r8 2-2t t t~ |
+    2-2t8 1t4. r8 1-6t t t~ |
+    1-6t8 4t4. r8 t 3t t~ |
+    1-3t8 1t4. r8 6t t t~ |
+    1-6t8 4t4. r8 2-2t t t~ |
+    2-2t8 1t4. r8 1-6t t t~ |
+    1-6t8 4t4. r4 t |
+\mymark "Bridge" #76
+    r2. 3-4t4 |
+    r1 |
+    r2. 3-4t4 |
+    r1 |
+\mymark "Guitar Solo" #80
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 3" #96
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r4 2-1t8 4t4 1-1t 3-1t8~ |
+    3-1t4 t8 1-1t4 2-4t8 2t 1t~ |
+    2-1t4 t8 t4. 4-3t8 3-1t~ |
+    3-1t4 3t8 2-1t4 3-3t8 1t 0t~ |
+    3-0t4 2-1t8 4t4 1-1t 3-1t8~ |
+    3-1t4 t8 1-1t4 2-4t8 2t 1t~ |
+    2-1t4 2t8 1t4. 4-3t8 3-1t~ |
+    3-1t4 3t8 2-1t4 3-3t8 1t 0t~ |
+\mymark "Pre-Chorus" #108
+    3-0t4 1t8 0t4. 1t8 0t~ |
+    3-0t4 1t8 0t4 1t8 0t t |
+    4-3t8 r 3-1t 0t4. 1t8 0t~ |
+    3-0t4 1t8 0t4 1t8 0t t |
+    4-3t8 r 3-1t 0t4. 1t8 0t~ |
+    3-0t4 1t8 0t4 1t8 0t t |
+    4-3t8 r 3-1t 0t4. 1t8 0t~ |
+    3-0t4 1t8 0t4 1-4t8 3t t~ |
+\mymark "Chorus" #116
+    1-3t8 1t4. r8 6t t t~ |
+    1-6t8 4t4. r8 2-2t t t~ |
+    2-2t8 1t4. r8 1-6t t t~ |
+    1-6t8 4t4. r8 t 3t t~ |
+    1-3t8 1t4. r8 6t t t~ |
+    1-6t8 4t4. r8 2-2t t t~ |
+    2-2t8 1t4. r8 1-6t t t~ |
+    1-6t8 4t4. r8 t 3t t~ |
+    1-3t8 1t4. r8 6t t t~ |
+    1-6t8 4t4. r8 2-2t t t~ |
+    2-2t8 1t4. r8 1-6t t t~ |
+    1-6t8 4t4. r8 t 3t t~ |
+\mymark "Outro" #128
+    1-3t8 1t4. r8 4t 3t t~ |
+    1-3t8 1t4. r8 4t 3t t~ |
+    1-3t8 1t4. r8 4t 3t t~ |
+    1-3t8 1t4. r8 4t 3t t~ |
+    1-3t8 1t4. r8 4t 3t t~ |
+    1-3t8 1t4. r8 4t 3t t~ |
+    1-3t8 1t4. r8 4t 3t t~ |
+    1-3t8 1t4. r8 4t 3t t~ |
+    1-3t8 1t2.~ t8~ |
+    1-1t2. r4 |
+    r1 |
+}

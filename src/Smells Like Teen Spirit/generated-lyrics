@@ -1,0 +1,162 @@
+voLyrics = \new Lyrics \lyricmode {
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: Nirvana
+% title: Smells Like Teen Spirit
+% instrument: Tenor Sax
+% name: Kurt Cobain - Vocals
+    \time 4/4
+    \tempo 4 = 114
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1" #8
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip4 "Load"8 "up"4 "on" "guns,"8 |
+    \skip4 "and"8 "bring"4 ""8 "your" "friends," |
+    \skip4 "it's"8 "fun"4. "to"8 "lose," |
+    \skip4 "and"8 "to"4 ""8 "pre-" "tend." |
+    \skip4 "She's"8 "ov-"4 "er-" "board,"8 |
+    \skip4 "and"8 "self-"4 ""8 "as-" "sured," |
+    \skip4 "oh"8 "no,"4. "I"8 "know" |
+    \skip4 "a"8 "dir-"4 ""8 "ty" "word." |
+\mymark "Pre-Chorus" #20
+    \skip4 "Hel-"8 "lo,"4. "hel-"8 "lo," |
+    \skip4 "hel-"8 "lo,"4 "how"8 "" "low?" |
+    "Hel-"4 "lo,"8 "hel-"4. "lo,"8 "hel-" |
+    \skip4 "lo,"8 "how"4 ""8 "low?" "Hel-" |
+    "lo,"4 "hel-"8 "lo,"4. "hel-"8 "lo," |
+    \skip4 "how"8 ""4 "low?"8 "Hel-" "lo," |
+    "hel-"4 "lo,"8 "hel-"4. "lo."8 "With" |
+    \skip4 "the"8 "lights"4 "out,"8 "it's" "less" |
+\mymark "Chorus" #28
+    \skip8 "dan-"2 "g'rous."8 "Here" "we" |
+    \skip8 "are"2 "now,"8 "ent-" "er-" |
+    \skip8 "tain"2 "us."8 "I" "feel" |
+    \skip8 "stu-"2 "pid,"8 "and" "con-" |
+    \skip8 "ta-"2 "gious."8 "Here" "we" |
+    \skip8 "are"2 "now,"8 "ent-" "er-" |
+    \skip8 "tain"2 "us."8 "A" "mul-" |
+    \skip8 "la-"2 "to,"8 "an" "al-" |
+    \skip8 "bi-"2 "no,"8 "a" "mos-" |
+    \skip8 "qui-"2 "to,"8 "my" "li-" |
+    \skip8 "bi-"2 "do,"8 "yeah." "Hey." |
+    \skip8 "Yay."2 \skip8 "I'm"4 |
+\mymark "Bridge" #40
+    \skip2. "worse"4 |
+    \skip1 |
+    \skip2. "at"4 |
+    \skip1 |
+\mymark "Verse 2" #44
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip4 "what"8 "I"4 "do" ""8 |
+    \skip4. "best,"4 "and"8 "for" "this" |
+    \skip4 "gift"8 "I"4. "feel"8 "" |
+    \skip4 ""8 "best."4 "Our"8 "lit-" "tle" |
+    \skip4 "group"8 "has"4 "al-" "ways"8 |
+    \skip4 ""8 "been,"4 "and"8 "al-" "ways" |
+    \skip4 "will"8 "un-"4. "til"8 "" |
+    \skip4 "the"8 "end."4 "Hel-"8 "lo," "hel-" |
+\mymark "Pre-Chorus" #56
+    \skip4 "lo,"8 "hel-"4. "lo,"8 "how" |
+    \skip4 ""8 "low?"4 "Hel-"8 "lo," "hel-" |
+    "lo,"4 "hel-"8 "lo,"4. "how"8 "" |
+    \skip4 "low?"8 "Hel-"4 "lo,"8 "hel-" "lo," |
+    "hel-"4 "lo,"8 "how"4. ""8 "low?" |
+    \skip4 "Hel-"8 "lo,"4 "hel-"8 "lo," "hel-" |
+    "lo."4 "With"8 "the"4. "lights"8 "out," |
+    \skip4 "it's"8 "less"4 "dan-"8 "g'rous." "Here" |
+\mymark "Chorus" #64
+    \skip8 "we"2 "are"8 "now," "ent-" |
+    \skip8 "er-"2 "tain"8 "us." "I" |
+    \skip8 "feel"2 "stu-"8 "pid," "and" |
+    \skip8 "con-"2 "ta-"8 "gious." "Here" |
+    \skip8 "we"2 "are"8 "now," "ent-" |
+    \skip8 "er-"2 "tain"8 "us." "A" |
+    \skip8 "mul-"2 "la-"8 "to," "an" |
+    \skip8 "al-"2 "bi-"8 "no," "a" |
+    \skip8 "mos-"2 "qui-"8 "to," "my" |
+    \skip8 "li-"2 "bi-"8 "do," "yeah." |
+    \skip8 "Hey."2 "Yay."8 "And" "I" |
+    \skip8 "for-"2 \skip8 "get"4 |
+\mymark "Bridge" #76
+    \skip2. "just"4 |
+    \skip1 |
+    \skip2. "why"4 |
+    \skip1 |
+\mymark "Guitar Solo" #80
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 3" #96
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip4 ""8 "I"4 "taste," "oh"8 |
+    \skip4 "yeah,"8 "I"4 "guess"8 "it" "makes" |
+    \skip4 ""8 "me"4. "smile."8 "I" |
+    \skip4 "found"8 "it"4 "hard,"8 "it's" "hard" |
+    \skip4 ""8 "to"4 "find," "oh"8 |
+    \skip4 "well,"8 "what-"4 "ev-"8 "er," "ne-" |
+    \skip4 ""8 "ver-"4. "mind."8 "Hel-" |
+    \skip4 "lo,"8 "hel-"4 "lo,"8 "hel-" "lo," |
+\mymark "Pre-Chorus" #108
+    \skip4 "how"8 ""4. "low?"8 "Hel-" |
+    \skip4 "lo,"8 "hel-"4 "lo,"8 "hel-" "lo," |
+    "how"4 ""8 "low?"4. "Hel-"8 "lo," |
+    \skip4 "hel-"8 "lo,"4 "hel-"8 "lo," "how" |
+    ""4 "low?"8 "Hel-"4. "lo,"8 "hel-" |
+    \skip4 "lo,"8 "hel-"4 "lo."8 "With" "the" |
+    "lights"4 "out,"8 "it's"4. "less"8 "dan-" |
+    \skip4 "g'rous."8 "Here"4 "we"8 "are" "now," |
+\mymark "Chorus" #116
+    \skip8 "ent-"2 "er-"8 "tain" "us." |
+    \skip8 "I"2 "feel"8 "stu-" "pid," |
+    \skip8 "and"2 "con-"8 "ta-" "gious." |
+    \skip8 "Here"2 "we"8 "are" "now," |
+    \skip8 "ent-"2 "er-"8 "tain" "us." |
+    \skip8 "A"2 "mul-"8 "la-" "to," |
+    \skip8 "an"2 "al-"8 "bi-" "no," |
+    \skip8 "a"2 "mos-"8 "qui-" "to," |
+    \skip8 "my"2 "li-"8 "bi-" "do." |
+    \skip8 "A"2 "de-"8 "ni-" "al," |
+    \skip8 "a"2 "de-"8 "ni-" "al," |
+    \skip8 "a"2 "de-"8 "ni-" "al," |
+\mymark "Outro" #128
+    \skip8 "a"2 "de-"8 "ni-" "al," |
+    \skip8 "a"2 "de-"8 "ni-" "al," |
+    \skip8 "a"2 "de-"8 "ni-" "al," |
+    \skip8 "a"2 "de-"8 "ni-" "al," |
+    \skip8 "a"2 "de-"8 "ni-" "al," |
+    \skip8 "a"2 "de-"8 "ni-" "al." |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}

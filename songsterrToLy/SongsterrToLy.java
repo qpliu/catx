@@ -62,9 +62,10 @@ final class SongsterrToLy{
 		    state.argv_shift = new Rational(Long.parseLong(argv[i].substring(0,j)),Long.parseLong(argv[i].substring(j+1)));
 	    }else if (argv[i].equals("--name"))
 		state.argv_partName = argv[++i];
-	    else if (argv[i].equals("--scale"))
-		Stuff.setScale(argv[++i]);
-	    else if (argv[i].equals("--drumMap"))
+	    else if (argv[i].equals("--scale")){
+		state.argv_scale = argv[++i];
+		Stuff.setScale(state.argv_scale);
+	    }else if (argv[i].equals("--drumMap"))
 		state.argv_drumMap = argv[++i];
 	    else if (state.argv_url!=null)
 		usage();

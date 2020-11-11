@@ -1,15 +1,15 @@
 #!/bin/sh
 WHERE="/share/mirror/songsterr/stuff/d-keep/d-Phil Collins/d-In The Air Tonight-s50420/d-r233370"
-SCALE="--extra-stuff \"% scale c cis d dis e f fis g gis a bes b\""
-gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar $SCALE --name keyboardOnePart --output-tabs - >generated-keyboard1tabs
-gzip -d <"$WHERE/z-t1"|java -jar ../../songsterrToLy/1.jar $SCALE --name keyboardTwoPart --output-tabs - >generated-keyboard2tabs
-gzip -d <"$WHERE/z-t2"|java -jar ../../songsterrToLy/1.jar $SCALE --name celestaPart --output-tabs - >generated-celestatabs
-gzip -d <"$WHERE/z-t3"|java -jar ../../songsterrToLy/1.jar $SCALE --name guitarPart --output-tabs - >generated-guitartabs
-gzip -d <"$WHERE/z-t4"|java -jar ../../songsterrToLy/1.jar $SCALE --name bassPart --output-tabs - >generated-basstabs
-gzip -d <"$WHERE/z-t5"|java -jar ../../songsterrToLy/1.jar $SCALE --name voPart --output-tabs - >generated-votabs
-gzip -d <"$WHERE/z-t6"|java -jar ../../songsterrToLy/1.jar $SCALE --name voTwoPart --output-tabs - >generated-vo2tabs
-gzip -d <"$WHERE/z-t7"|java -jar ../../songsterrToLy/1.jar $SCALE --name voEchoPart --output-tabs - >generated-voechotabs
-#gzip -d <"$WHERE/z-t8"|java -jar ../../songsterrToLy/1.jar $SCALE --name drumsPart - >generated-drums
+SCALE="c cis d dis e f fis g gis a bes b"
+gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name keyboardOnePart --output-tabs - >generated-keyboard1tabs
+gzip -d <"$WHERE/z-t1"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name keyboardTwoPart --output-tabs - >generated-keyboard2tabs
+gzip -d <"$WHERE/z-t2"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name celestaPart --output-tabs - >generated-celestatabs
+gzip -d <"$WHERE/z-t3"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name guitarPart --output-tabs - >generated-guitartabs
+gzip -d <"$WHERE/z-t4"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name bassPart --output-tabs - >generated-basstabs
+gzip -d <"$WHERE/z-t5"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name voPart --output-tabs - >generated-votabs
+gzip -d <"$WHERE/z-t6"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name voTwoPart --output-tabs - >generated-vo2tabs
+gzip -d <"$WHERE/z-t7"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name voEchoPart --output-tabs - >generated-voechotabs
+#gzip -d <"$WHERE/z-t8"|java -jar ../../songsterrToLy/1.jar --name drumsPart - >generated-drums
 
 # Usage: java SongsterrToLy [options] url
 # url is something like https://www.songsterr.com/a/wsa/momoiro-clover-z-moon-pride-tab-s456232t0 or - for stdin.
