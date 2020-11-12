@@ -1,18 +1,6 @@
 basstabs
 Scores: 18 24 108 129 207 258 323 331 420 471 549 552
 Best key: cis minor or e major
-generated-basstabs
-Scores: 12 16 69 83 134 162 189 209 252 280 331 333
-Best key: cis minor or e major
-generated-leadguitartabs
-Scores: 0 6 28 37 60 75 97 99 121 136 153 168
-Best key: fis minor or a major
-generated-rhythmguitartabs
-Scores: 8 37 112 190 204 261 478 530 741 777 814 898
-Best key: fis minor or a major
-generated-votabs
-Scores: 0 2 22 54 56 70 81 119 130 144 146 176
-Best key: fis minor or a major
 leadguitartabs
 Scores: 0 12 42 53 90 112 144 156 188 210 235 258
 Best key: fis minor or a major
@@ -26,11 +14,11 @@ WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
 Format: 1  Tracks: 13  Divisions: 384
-Playing time: ~182 seconds
+Playing time: ~181 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 25528734/31796180 bytes(80.2887% compressed)
-warning: compressing over-full page by 2.3 staff-spaces
-warning: page 8 has been compressed
+Wrote 25518174/31741052 bytes(80.3949% compressed)
 warning: compressing over-full page by 1.7 staff-spaces
 warning: page 2 has been compressed
+warning: compressing over-full page by 2.3 staff-spaces
+warning: page 0 has been compressed
