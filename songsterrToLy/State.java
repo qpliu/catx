@@ -23,6 +23,7 @@ final class State{
     int tempo;
     int time_n,time_d;
     boolean isRelative;
+    boolean last_hp;
     int lastRelative;
     Rational measureStartTime;
     void startPass(int pass){

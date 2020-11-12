@@ -12,8 +12,8 @@ vocals =
 \mymark "Intro" #1
 % tuning e, a, d g b e'
     g'8 g' g' aes'4. r8 f' |
-    f'4 f'8 g' g'4 f'8 ees' |
-    g'8 ges' g' f' ees' c'4 c'8 |
+    f'4 f'8( g') g'4 f'8 ees' |
+    g'8 ges'( g') f' ees' c'4 c'8 |
     ees'4 c' r2 |
     r1 |
     r1 |
@@ -29,10 +29,10 @@ vocals =
     r2. r8 g |
 \mymark "Verse 1" #17
     bes8 c'4 c'4. r8 g |
-    bes4 c' ees' c'8 c' |
+    bes4 c' ees'( c'8) c' |
     \tuplet 3/2 { ees'4 ees' ees'2 c'8 c' c'4 } |
     \tuplet 3/2 { ees'4 d' c'4.~ c'16 } bes8 r4 |
-    bes8 c' bes c'4. \tuplet 3/2 { r8 bes bes } |
+    bes8 c'( bes) c'4. \tuplet 3/2 { r8 bes bes } |
     \tuplet 3/2 { bes4 c' ees' } r ees' |
     \tuplet 3/2 { ees'4 d' ees' ees' c' c' } |
     \tuplet 3/2 { ees'4 d'8 d'4 c'8 } c'4 r |
@@ -47,14 +47,14 @@ vocals =
     \tuplet 3/2 { g'4 g' g' } g' r |
 \mymark "Chorus" #33
     g'8 g' g' aes'4. r8 f' |
-    f'4 f'8 g' g'4 r |
-    g'8 ges' g' ges' ees' c'4 c'8 |
+    f'4 f'8( g') g'4 r |
+    g'8 ges'( g') ges' ees' c'4 c'8 |
     ees'4 c' r4. g'8 |
     g'8 g'4 aes'4. aes'8 aes' |
-    bes'8 f' f' g' g'4 r |
-    g'8 ges' g' ges' ees' c'4 c'8 |
+    bes'8( f') f'( g') g'4 r |
+    g'8 ges'( g') ges' ees' c'4 c'8 |
     ees'4 c' r g' |
-    g'8 f' g' f' g'2 |
+    g'8 f'( g') f'( g'2) |
     r1 |
     \time 2/4
     d'4 c' |
@@ -68,7 +68,7 @@ vocals =
     bes4 c' ees' r |
     \tuplet 3/2 { ees'4 ees' ees'2 c'8 c' c'4 } |
     \tuplet 3/2 { ees'4 d' c'4.~ c'16 } bes8 r4 |
-    bes8 c' bes c'4. \tuplet 3/2 { r8 bes bes } |
+    bes8 c'( bes) c'4. \tuplet 3/2 { r8 bes bes } |
     \tuplet 3/2 { bes4 c' ees' } r ees' |
     \tuplet 3/2 { ees'4 d' ees' ees' c' c' } |
     \tuplet 3/2 { ees'4 d'8 d'4 c'8 } c'4 r |
@@ -83,14 +83,14 @@ vocals =
     \tuplet 3/2 { g'4 g' g' } g' r |
 \mymark "Chorus 2" #64
     g'8 g' g' aes'4. r8 f' |
-    f'4 f'8 g' g'4 r |
-    g'8 ges' g' ges' ees' c'4 c'8 |
+    f'4 f'8( g') g'4 r |
+    g'8 ges'( g') ges' ees' c'4 c'8 |
     ees'4 c' r4. g'8 |
     g'8 g'4 aes'4. aes'8 aes' |
-    bes'8 f' f' g' g'4 r |
-    g'8 ges' g' ges' ees' c'4 c'8 |
+    bes'8( f') f'( g') g'4 r |
+    g'8 ges'( g') ges' ees' c'4 c'8 |
     ees'4 c' r g' |
-    g'8 ges' g' f'2~ f'8~ |
+    g'8 ges'( g') f'2~ f'8~ |
     f'1 |
 \mymark "Solo" #74
     r1 |
@@ -104,34 +104,34 @@ vocals =
     bes'1 |
 \mymark "Bridge" #83
     g'8 g' g' aes'4. r8 f' |
-    f'4 f'8 g' g'4 r |
+    f'4 f'8( g') g'4 r |
     \tuplet 3/2 { g'4 g' f' } ees'8 c'4 c'8 |
     ees'4 c' r4. g'8 |
     g'8 g'4 aes'4. aes'8 aes' |
-    bes'4 f'8 g' g'4 r |
-    g'8 ges' g' f' ees' c'4 c'8 |
+    bes'4 f'8( g') g'4 r |
+    g'8 ges'( g') f' ees' c'4 c'8 |
     ees'4 c' r2 |
 \mymark "Chorus" #91
     g'8 g' g' aes'2 f'8 |
-    f'4 f'8 g' g'4 r |
+    f'4 f'8( g') g'4 r |
     g'8 g'4 f'8 ees' c'4 c'8 |
     ees'4 c' r4. g'8 |
     g'8 g'4 aes'4. aes'8 aes' |
-    bes'4 f'8 g' g'4 r |
-    g'8 ges' g' f' ees' c'4 c'8 |
+    bes'4 f'8( g') g'4 r |
+    g'8 ges'( g') f' ees' c'4 c'8 |
     ees'4 c' r2 |
 \mymark "Outro" #99
-    g'8 ges' g' f' ees' c'4 r8 |
+    g'8 ges'( g') f' ees' c'4 r8 |
     r1 |
-    g'8 ges' g' f' ees' c'4 r8 |
+    g'8 ges'( g') f' ees' c'4 r8 |
     r2 ees'4 c' |
-    g'8 ges' g' f' ees' c'4 r8 |
+    g'8 ges'( g') f' ees' c'4 r8 |
     r1 |
-    g'8 ges' g' f'4. r4 |
+    g'8 ges'( g') f'4. r4 |
     r2 ees'4 c' |
-    g'8 ges' g' f' ees' c'4 r8 |
+    g'8 ges'( g') f' ees' c'4 r8 |
     r1 |
-    g'8 ges' g' f'4. r4 |
+    g'8 ges'( g') f'4. r4 |
     r1 |
     r1 |
     r1 |

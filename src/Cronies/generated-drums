@@ -1,6 +1,7 @@
 drums = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     \context DrumVoice = "drsa" \voiceOne
     \context DrumVoice = "drsb" \voiceTwo
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
 % url: https://www.songsterr.com/a/wsa/jimi-hendrix-stone-free-drum-tab-s9281t2
 % artist: Jimi Hendrix
 % title: Stone Free
@@ -112,7 +113,7 @@ drums = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hho8 hh <sne hho> r sne r sne \parenthesize sne16 \parenthesize sne | } \context DrumVoice = "drsb" { bd8 r4 r16 bd r8 bd r4 | } >>
     << { hho8 hh <sne hho> r hho hh <sne hho> hh | } \context DrumVoice = "drsb" { bd8 r4 r16 bd bd8 bd r bd | } >>
     << { hho8 <sne hh> hho sne hho <sne hh> sne \parenthesize sne16 \parenthesize sne | } \context DrumVoice = "drsb" { bd8 r bd r bd r bd r | } >>
-\mymark "Outro\\Chorus 3" #97
+\mymark "Outro\Chorus 3" #97
     << { cymc8 hho <sne hho> r16 sne hho tomfh r8 <sne hho> r | } \context DrumVoice = "drsb" { bd8 r2 bd16 bd r8 bd | } >>
     << { hho4 <sne hho>8 r16 sne hho tomfh r8 <sne hho> r | } \context DrumVoice = "drsb" { bd8 r2 bd16 bd r8 bd | } >>
     << { hho4 <sne hho>8 r16 sne hho tomfh r8 <sne hho> r | } \context DrumVoice = "drsb" { bd8 r2 bd16 bd r8 bd | } >>

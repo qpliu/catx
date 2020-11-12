@@ -252,7 +252,7 @@ bass =
     4-0t4 t8 t t t t t |
     4-1t8 0t x0t 1t4. 3t4 |
     4-0t4 t8 t t t t t |
-    \tuplet 3/2 { 1-0t8 5t 7t 2-0t 5t 7t 3-0t 5t 7t 0t 2t 3t } |
+    \tuplet 3/2 { 1-0t8( 5t 7t) 2-0t( 5t 7t) 3-0t( 5t 7t) 0t( 2t 3t) } |
     4-0t4 t8 t t t t t |
     4-1t8 0t x0t 1t4. t4 |
     4-0t4 t8 t t t t t |
@@ -260,8 +260,8 @@ bass =
     4-0t4 t8 t t t t t |
     4-1t8 0t x0t 1t4. 3t4 |
     4-0t4 t8 t t t t t |
-    \tuplet 3/2 { 1-0t8 5t 7t 2-0t 5t 7t 3-0t 5t 7t 0t 2t 3t } |
-    \tuplet 3/2 { 1-0t8 5t 7t 2-0t 5t 7t 3-0t 5t 7t 0t 2t 3t } |
+    \tuplet 3/2 { 1-0t8( 5t 7t) 2-0t( 5t 7t) 3-0t( 5t 7t) 0t( 2t 3t) } |
+    \tuplet 3/2 { 1-0t8( 5t 7t) 2-0t( 5t 7t) 3-0t( 5t 7t) 0t( 2t 3t) } |
     3-3t8 t 2t4 3t8 t 2t4 |
     4-0t8 2t r 0t 2t r t4 |
     \time 2/4

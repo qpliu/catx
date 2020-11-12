@@ -57,7 +57,7 @@ abstract class Instrument extends Engraver{
 		    time = time.add(duration);
 		}
 		if (time.compareTo(new Rational(state.time_n))!=0)
-		    throw new RuntimeException(time+" != "+state.time_n);
+		    throw new RuntimeException("sum_of_beats="+time+" time_signature="+state.time_n+" measureStarttime="+state.measureStartTime);
 	    }
 	}else
 	    print(notesToString(getEvents()));

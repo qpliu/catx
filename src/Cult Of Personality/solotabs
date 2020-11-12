@@ -52,9 +52,9 @@ guitar =
     r1 |
     r2. 2-18t4~ |
 \mymark "Solo 1" #35
-    2-18t8 \bendAfter #6 ^"full" 1-15t32 2-17t 15t \tuplet 3/2 { 1-15t8 t t } 2-18t4 \bendAfter #6 ^"full" 1-15t32 2-18t 15t 18t 15t 18t 15t 17t 15t |
+    2-18t8 \bendAfter #6 ^"full" 1-15t32 2-17t 15t \tuplet 3/2 { 1-15t8 t t } 2-18t4 \bendAfter #6 ^"full" 1-15t32 2-18t 15t 18t( 15t) 18t( 15t) 17t( 15t) |
     3-17t16 \bendAfter #6 ^"full" t 15t 12t 15t \bendAfter #6 ^"full" 17t 18t 2-18t 3-19t 18t 17t 15t4~ t16 |
-    3-15t4 r16 19t 2-18t8 \tuplet 3/2 { 3-17t4 \bendAfter #6 ^"½" 1-16t8 } 21t4~ |
+    3-15t4 r16 19t 2-18t8 \tuplet 3/2 { 3-17t4 \bendAfter #6 ^"½" 1-16t8( } 21t4~) |
     1-21t2. r4 |
 \mymark "Verse 2" #39
     4-3.2.3t2. r4 |
@@ -93,28 +93,28 @@ guitar =
     r2 |
     \time 4/4
     r2. r8 2-18t~ |
-    2-18t4 \bendAfter #6 ^"full" 1-15t32 2-18t 15t 3-17t 2-18t 15t 17t 15t 17t 15t 3-17t 15t 17t 2-15t 18t 15t 17t 15t 3-17t 15t 17t 2-15t 18t 15t |
+    2-18t4 \bendAfter #6 ^"full" 1-15t32 2-18t 15t 3-17t 2-18t( 15t 17t) 15t 17t 15t 3-17t 15t 17t 2-15t 18t 15t 17t( 15t) 3-17t 15t 17t 2-15t 18t( 15t) |
 \mymark "Solo 2" #70
     2-17t32 15t 3-17t 15t 17t 2-15t 18t 15t 17t 15t 3-17t 15t 2-15t 3-17t16. \bendAfter #6 ^"full" r32 2-15t 3-17t 15t 17t 2-15t 18t 15t 3-17t 2-15t 3-17t8.~ |
-    3-17t16 \bendAfter #6 ^"½" 18t 17t 15t 2-17t32 15t 3-17t 2-15t 3-17t 15t 4-17t 15t 17t 2-15t 17t 15t 4-17t 15t 17t 2-15t 17t 15t 4-17t 15t 17t 2-15t 17t 15t |
-    3-17t32 4-15t 17t 2-15t 17t 15t 3-17t 2-15t 17t 15t 3-17t 2-17t 15t 3-17t t 2-15t 18t 15t 17t 15t t t 17t 15t 3-17t16 t8.~ |
+    3-17t16 \bendAfter #6 ^"½" 18t 17t 15t 2-17t32( 15t) 3-17t 2-15t 3-17t 15t 4-17t 15t 17t 2-15t 17t 15t 4-17t 15t 17t 2-15t 17t 15t 4-17t 15t 17t 2-15t 17t 15t |
+    3-17t32 4-15t 17t 2-15t 17t 15t 3-17t 2-15t 17t 15t 3-17t 2-17t( 15t) 3-17t t 2-15t 18t 15t 17t 15t t t 17t 15t 3-17t16 t8.~ |
     3-17t4~ t16 \bendAfter #6 ^"½" 0t 3t8 5t16 2-3t 5t 3t 3-5t \bendAfter #6 ^"½" t 3t 4-5t |
     3-3t16 5t8. \bendAfter #6 ^"full" \tuplet 3/2 { 9t16 t 10t 12t t 2-11t } 15t32 13t 11t 3-12t 2-11t t 3-12t 10t 12t t 2-11t 13t 15t 13t 11t 3-12t |
     2-11t32 10t 3-12t 10t 12t 2-10t 3-12t 10t 9t 4-12t 3-9t 10t 9t 4-12t 10t 9t 10t 12t 3-9t 12t 9t 4-10t 11t 13t 3-10t 13t 10t 4-11t 12t 3-9t 11t 14t |
     3-11t32 12t 14t 2-11t 12t 3-11t 12t 13t 2-10t 3-10t 11t 12t 13t 2-10t 3-13t 12t 10t 11t 10t16 2-12t32 13t 14t 0t 15t 14t 13t 12t 3-12t 2-18t 17t 15t |
-    3-18t32 17t 15t 2-18t16 17t32 16t16 18t4 \tuplet 3/2 { t16 17t 15t } 18t 17t 15t 13t 15t8 |
+    3-18t32 17t 15t 2-18t16 17t32 16t16( 18t4) \tuplet 3/2 { t16( 17t) 15t } 18t 17t 15t 13t 15t8 |
     2-13t4. \bendAfter #6 ^"full" 13.12t2 1-17t8~ |
     1-17t4. \bendAfter #6 ^"full" t r8. 2-3t16 |
-    2-12t2 1-5t8. 8t16 5t g5t8 8t32 5t |
-    1-g5t8 8t16 5t g5t 6t 3t 6t 3t 6t 3t 6t 3t4 |
-    1-18t4. \bendAfter #6 ^"full" 15t16 18t32 15t 2-18t 15t 3-17t 2-15t 18t 15t 17t 15t 19t 15t 18t 15t 17t 15t 3-17t 2-15t |
-    2-17t32 15t 3-17t t 2-15t 18t 15t 18t 17t 15t 3-17t t 2-15t 17t 15t 18t 15t t 3-18t 17t 2-15t 3-18t 17t 15t t 17t 2-15t 18t 15t 17t 15t 3-17t |
+    2-12t2 1-5t8. 8t16( 5t) g5t8( 8t32 5t) |
+    1-g5t8( 8t16 5t) g5t( 6t 3t 6t 3t 6t 3t 6t) 3t4 |
+    1-18t4. \bendAfter #6 ^"full" 15t16 18t32( 15t) 2-18t( 15t) 3-17t 2-15t 18t( 15t) 17t( 15t) 19t( 15t) 18t( 15t) 17t( 15t) 3-17t 2-15t |
+    2-17t32( 15t) 3-17t t 2-15t 18t 15t 18t 17t( 15t) 3-17t t 2-15t 17t 15t 18t 15t t 3-18t 17t 2-15t 3-18t 17t 15t t( 17t) 2-15t 18t 15t 17t 15t 3-17t |
     3-15t32 t 17t 15t 17t 2-15t 3-17t 15t 4-17t8 3-17t \bendAfter #6 ^"full" t16 \bendAfter #6 ^"full" t 15t 4-17t 3-15t 17t \bendAfter #6 ^"full" 15t 4-17t |
     3-15t16 17t 15t 4-17t 3-15t 17t \bendAfter #6 ^"full" 15t 4-17t 3-15t 17t \bendAfter #6 ^"full" 15t 17t \bendAfter #6 ^"full" t4 |
-    3-5.5t16 r t 3.3t8. 5.5t16 3.3t 5.5t 3.3t8 3t16 5t \bendAfter #6 ^"full" t 3t 4-5t |
-    3-5.5t16 r t 3.3t8 3t16 5t \bendAfter #6 ^"full" t32 3t 2t8 3t4. |
-    3-g3t8 2-8t4. 6t32 3t 5t 3t 6t 3t 5t 3t 6t 3t 5t 3t 6t 3t 5t 3t |
-    2-6t32 3t 6t 3t 6t 3t 6t 3t 6t 3t 6t 3t16. 6t32 3t2~ t32 |
+    3-5.5t16 r t 3.3t8. 5.5t16( 3.3t) 5.5t 3.3t8 3t16 5t \bendAfter #6 ^"full" t 3t 4-5t |
+    3-5.5t16 r t 3.3t8 3t16 5t \bendAfter #6 ^"full" t32( 3t) 2t8 3t4. |
+    3-g3t8 2-8t4. 6t32( 3t 5t 3t 6t 3t 5t 3t 6t 3t 5t 3t 6t 3t 5t 3t) |
+    2-6t32( 3t 6t 3t 6t 3t 6t 3t 6t 3t 6t 3t16.) 6t32( 3t2~) t32 |
 \mymark "Verse 3" #90
     4-3.2.3t2. r4 |
     r1 |

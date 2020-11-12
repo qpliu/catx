@@ -1,4 +1,11 @@
 #!/bin/sh
+
+echo 'This doesn't work anymore.'
+echo 'Someone changed the tab in Songsterr.  You can avoid this problem by using URL of a particular revision of the song.'
+echo 'The new version has a 2/4 measure with 4 quarter notes in it.  songsterToLy doesn't know what to do what that, so it chucks an Exception.'
+
+
+
 java -jar ../../songsterrToLy/1.jar --name guitar --output-tabs https://www.songsterr.com/a/wsa/rage-against-the-machine-killing-in-the-name-tab-s360t0 > guitartabs
 java -jar ../../songsterrToLy/1.jar --name bass --output-tabs https://www.songsterr.com/a/wsa/rage-against-the-machine-killing-in-the-name-bass-tab-s360t1 > basstabs
 java -jar ../../songsterrToLy/1.jar --name drum https://www.songsterr.com/a/wsa/rage-against-the-machine-killing-in-the-name-drum-tab-s360t3 > drums

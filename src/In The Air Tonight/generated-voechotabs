@@ -5,7 +5,7 @@ voEchoPart =
 % artist: Phil Collins
 % title: In The Air Tonight
 % instrument: Clarinet
-% name: Echo voice\u002FViolin
+% name: Echo voice/Violin
 % scale c cis d dis e f fis g gis a bes b
     \time 4/4
     \tempo 4 = 94
@@ -69,20 +69,20 @@ voEchoPart =
 \mymark "Chorus 2" #53
     r1 |
     r1 |
-    r8 4-g5t g3t g5t g3t r4. |
-    r4 4-g5t8 g7t g5t g7t g5t g7t |
+    r8 4-g5t( g3t) g5t( g3t) r4. |
+    r4 4-g5t8( g7t) g5t( g7t) g5t( g7t) |
     r1 |
-    r4 2-g3t8 g1t r2 |
-    r8 4-g5t g3t g5t g3t g5t g3t r |
-    r4 4-g5t8 g7t g5t g7t r4 |
+    r4 2-g3t8( g1t) r2 |
+    r8 4-g5t( g3t) g5t( g3t) g5t( g3t) r |
+    r4 4-g5t8( g7t) g5t( g7t) r4 |
     r1 |
     r1 |
-    r8 4-g5t g3t g5t g3t r4. |
-    r4 4-g5t8 g7t g5t g7t g5t g7t |
+    r8 4-g5t( g3t) g5t( g3t) r4. |
+    r4 4-g5t8( g7t) g5t( g7t) g5t( g7t) |
     r1 |
-    r4 2-g3t8 g1t r2 |
-    r8 4-g5t g3t g5t g3t g5t g3t r |
-    r4 4-g5t8 g7t g5t g7t r4 |
+    r4 2-g3t8( g1t) r2 |
+    r8 4-g5t( g3t) g5t( g3t) g5t( g3t) r |
+    r4 4-g5t8( g7t) g5t( g7t) r4 |
 \mymark "Interlude" #69
     r1 |
     r1 |
@@ -90,8 +90,8 @@ voEchoPart =
     2-3t1 |
 \mymark "Verse 3" #73
     2-3t16 r t r2. r16 |
-    r2. 2-g3t8 g1t |
-    2-g3t8 g1t g3t g1t g3t g1t r4 |
+    r2. 2-g3t8( g1t) |
+    2-g3t8( g1t) g3t( g1t) g3t( g1t) r4 |
     r1 |
     r1 |
     r1 |

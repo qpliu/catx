@@ -200,15 +200,37 @@ final class Json implements Comparable<Json>{
     }
     String stringValue(){
 	StringBuilder sb=new StringBuilder();
-	boolean escape=false;
 	for (int i=0; i<string.length(); i++){
 	    char c=string.charAt(i);
-	    if (!escape && c=='\\')
-		escape = true;
-	    else{
-		escape = false;
+	    if (c=='\\'){
+		c = string.charAt(++i);
+		if (c=='b')
+		    sb.append('\b');
+		else if (c=='f')
+		    sb.append('\f');
+		else if (c=='n')
+		    sb.append('\n');
+		else if (c=='r')
+		    sb.append('\r');
+		else if (c=='t')
+		    sb.append('\t');
+		else if (c>='0'&&c<='7'){
+		    int o=c-'0';
+		    if (i+1<string.length() && string.charAt(i+1)>='0' && string.charAt(i+1)<='7')
+			o = o*8+string.charAt(++i)-'0';
+		    if (i+1<string.length() && string.charAt(i+1)>='0' && string.charAt(i+1)<='7')
+			o = o*8+string.charAt(++i)-'0';
+		    sb.append((char)o);
+		}else if (c=='x'){
+		    sb.append((char)Integer.parseInt(string.substring(i+1,i+3),16));
+		    i += 2;
+		}else if (c=='u'){
+		    sb.append((char)Integer.parseInt(string.substring(i+1,i+5),16));
+		    i += 4;
+		}else
+		    sb.append(c);
+	    }else
 		sb.append(c);
-	    }
 	}
 	return sb.toString();
     }

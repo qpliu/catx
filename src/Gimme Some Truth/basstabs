@@ -6,6 +6,7 @@ bass =
 % title: Gimme Some Truth
 % instrument: Electric Bass (finger)
 % name: Bass
+% scale c des d ees e f ges g aes a bes b
     \time 4/4
     \tempo 4 = 67
 \mymark "Verse 1" #1

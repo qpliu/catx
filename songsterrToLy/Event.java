@@ -11,8 +11,9 @@ final class Event implements Comparable<Event>{
     final boolean dead;
     final boolean tieLhs;
     final boolean tieRhs;
+    final boolean hpRhs;
     final boolean rest;
-    private Event(Event e,Rational time,Rational duration,boolean tieLhs,boolean tieRhs,Note note){
+    private Event(Event e,Rational time,Rational duration,boolean tieLhs,boolean tieRhs,boolean hpRhs,Note note){
 	state = e.state;
 	this.time = time;
 	this.duration = duration;
@@ -22,6 +23,7 @@ final class Event implements Comparable<Event>{
 	dead = e.dead;
 	this.tieLhs = tieLhs;
 	this.tieRhs = tieRhs;
+	this.hpRhs = hpRhs;
 	rest = e.rest;
     }
     Event(State state,Rational time,Rational duration,Json json,Note note){
@@ -30,6 +32,7 @@ final class Event implements Comparable<Event>{
 	this.duration = duration;
 	this.note = note;
 	Json j;
+	hpRhs = json!=null && (j=json.get("hp"))!=null && j.booleanValue();
 	tieLhs = json!=null && (j=json.get("tie"))!=null && j.booleanValue();
 	tieRhs = false;
 	slide = json!=null&&(j=json.get("slide"))!=null?j.stringValue():null;
@@ -45,7 +48,13 @@ final class Event implements Comparable<Event>{
 	    return i;
 	if ((i=duration.compareTo(e.duration))!=0)
 	    return i;
-	return (tieRhs?8:0)-(e.tieRhs?8:0)+(tieLhs?4:0)-(e.tieLhs?4:0)+(ghost?2:0)-(e.ghost?2:0)+(dead?1:0)-(e.dead?1:0);
+	i = 0;
+	i += i+(hpRhs?1:0)-(e.hpRhs?1:0);
+	i += i+(tieRhs?1:0)-(e.tieRhs?1:0);
+	i += i+(tieLhs?1:0)-(e.tieLhs?1:0);
+	i += i+(ghost?1:0)-(e.ghost?1:0);
+	i += i+(dead?1:0)-(e.dead?1:0);
+	return i;
     }
     void getAdjectives(Set<String>adjectives){
 	if (ghost)
@@ -59,16 +68,16 @@ final class Event implements Comparable<Event>{
 	note.getAfterAdjectives(afterAdjectives);
     }
     Event tie(Event rhs){
-	return new Event(this,time,rhs.time.add(rhs.duration).subtract(time),tieLhs,rhs.tieRhs,note.tie(rhs.note));
+	return new Event(this,time,rhs.time.add(rhs.duration).subtract(time),tieLhs,rhs.tieRhs,rhs.hpRhs,note.tie(rhs.note));
     }
     Event[]split(Rational d){
 	if (duration.compareTo(d)<=0)
 	    return new Event[]{this,null};
 	Note[]n=note.split();
 	if (n[1]==null)
-	    return new Event[]{new Event(this,time,d,tieLhs,false,n[0]),null};
-	Event lhs=new Event(this,time,d,tieLhs,true,n[0]);
-	Event rhs=new Event(this,time.add(d),duration.subtract(d),true,tieRhs,n[1]);
+	    return new Event[]{new Event(this,time,d,tieLhs,false,hpRhs,n[0]),null};
+	Event lhs=new Event(this,time,d,tieLhs,true,false,n[0]);
+	Event rhs=new Event(this,time.add(d),duration.subtract(d),true,tieRhs,hpRhs,n[1]);
 	return new Event[]{lhs,rhs};
     }
     String tieString(){

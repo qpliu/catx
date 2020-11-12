@@ -1,6 +1,7 @@
 drum = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     \context DrumVoice = "drsa" \voiceOne
     \context DrumVoice = "drsb" \voiceTwo
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
 % url: https://www.songsterr.com/a/wsa/poison-talk-dirty-to-me-drum-tab-s22500t4
 % artist: Poison
 % title: Talk Dirty To Me

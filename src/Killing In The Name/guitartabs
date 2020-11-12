@@ -7,103 +7,122 @@ guitar =
 % instrument: Distortion Guitar
 % name: Track 1
     \time 4/4
-    \tempo 4 = 114
+    \tempo 4 = 112
 % tuning d, a, d g b e'
     6-0.0.0.2.3t1 |
+    \tempo 4 = 110
     r1 |
     r1 |
     r1 |
     r1 |
+    \tempo 4 = 124
     6-0t8 r16 t8 r16 t8 4-11t 12t 3-11t 12t |
     6-0t8 r16 t8 r16 t8 4-11t 12t 3-11t 12t |
     6-0t8 r16 t8 r16 t8 4-11t 12t 3-11t 12t |
-    6-0t8 r16 t8 r16 t8 4-11t 12t16 11t 3-12t4 \bendAfter #6 ^"full" |
+    6-0t8 r16 t8 r16 t8 4-11t 12t16( 11t) 3-12t4 \bendAfter #6 ^"full" |
     6-0t8 r16 t8 r16 t8 4-11t 12t 3-11t 12t |
     6-0t8 r16 t8 r16 t8 4-11t 12t 3-11t 12t |
     6-0t8 r16 t8 r16 t8 4-11t 12t 3-11t 12t |
-    6-0t8 r16 t8 r16 t8 4-11t 12t16 11t 3-12t4 \bendAfter #6 ^"full" |
-    6-0t8 r16 t8 r16 t8 5-6t r16 t8 r16 t8 |
-    6-0t8 r16 t8 r16 t8 5-6t r16 t8 r16 t8 |
-    6-0t8 r16 t8 r16 t8 5-6..8t r16 t8 r16 t8 |
-    6-0t8 r16 t8 r16 t8 4-13t4 r |
+    6-0t8 r16 t8 r16 t8 4-11t 12t16( 11t) 3-12t4 \bendAfter #6 ^"full" |
+    \tempo 4 = 116
+    \tuplet 3/2 { 6-0t4 t t 5-6t t t } |
+    \tuplet 3/2 { 6-0t4 t t 5-6t t t } |
+    \tuplet 3/2 { 6-0t4 t t 5-6t t t } |
+    \time 2/4
+    \tuplet 3/2 { 6-0t8 r t r t r } |
     \tempo 4 = 82
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-3t 4t 5-5t8 6-0.0t 2.2t16 3.3t 2.2t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-3t 4t 5-5t8 6-0.0t 2.2t16 3.3t 2.2t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-3t 4t 5-5t8 6-0.0t 2.2t16 3.3t 2.2t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-3t 4t 5-5t8 6-0.0t 2.2t16 3.3t 2.2t8 |
-\mymark "Verse 1" #22
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-3t 4t 5-5t8 6-0.0t 2.2t16 3.3t 2.2t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-3t 4t 5-5t8 6-0.0t 2.2t16 3.3t 2.2t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-3t 4t 5-5t8 6-0.0t 2.2t16 3.3t 2.2t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-3t 4t 5-5t8 6-0.0t 2.2t16 3.3t 2.2t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-3t 4t 5-5t8 6-0.0t 2.2t16 3.3t 2.2t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-3t 4t 5-5t8 6-0.0t 2.2t16 3.3t 2.2t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-3t 4t 5-5t8 6-0.0t 2.2t16 3.3t 2.2t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-3t 4t 5-5t8 6-0.0t 2.2t16 3.3t 2.2t8 |
-\mymark "Pre chorus 1" #30
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-9t8 6-0t 5-3t16 5t 6-x0t 5-x0t 4-8t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-7t8 6-0t 2.2t16 3.3t 2.2t 3.3t 2.2t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-9t8 6-0t 5-3t16 5t 6-x0t 5-x0t 4-8t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-7t8 5-3.5t16 t t t t t t t |
-    5-5..7t16 t r8 t16. r2 r8 r32 |
-\mymark "Chorus 1" #35
-    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t r 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t |
-    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t r 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t |
-    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t r 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t |
-    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t r 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t |
-    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t r 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 5..7t4 |
-    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t r 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 5..7t4 |
-    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t r 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 5..7t4 |
+    \tuplet 3/2 { 4-13t2 r4 } |
+    \time 4/4
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-3t( 4t) 5-5t8 6-0.0t 2.2t16( 3.3t) 2.2t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-3t( 4t) 5-5t8 6-0.0t 2.2t16( 3.3t) 2.2t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-3t( 4t) 5-5t8 6-0.0t 2.2t16( 3.3t) 2.2t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-3t( 4t) 5-5t8 6-0.0t 2.2t16( 3.3t) 2.2t8 |
+\mymark "Verse 1" #23
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-3t( 4t) 5-5t8 6-0.0t 2.2t16( 3.3t) 2.2t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-3t( 4t) 5-5t8 6-0.0t 2.2t16( 3.3t) 2.2t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-3t( 4t) 5-5t8 6-0.0t 2.2t16( 3.3t) 2.2t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-3t( 4t) 5-5t8 6-0.0t 2.2t16( 3.3t) 2.2t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-3t( 4t) 5-5t8 6-0.0t 2.2t16( 3.3t) 2.2t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-3t( 4t) 5-5t8 6-0.0t 2.2t16( 3.3t) 2.2t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-3t( 4t) 5-5t8 6-0.0t 2.2t16( 3.3t) 2.2t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-3t( 4t) 5-5t8 6-0.0t 2.2t16( 3.3t) 2.2t8 |
+    \tempo 4 = 81
+\mymark "Pre chorus 1" #31
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-9t8 6-0t 5-3t16( 5t) 6-x0t 5-x0t 4-8t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-7t8 6-0t 2.2t16( 3.3t) 2.2t( 3.3t) 2.2t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-9t8 6-0t 5-3t16( 5t) 6-x0t 5-x0t 4-8t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-7t8 5-3.5t16 t t t t t t t |
+    \tempo 4 = 91
+    5-5..7t16 t r8 t r2 r8 |
+    \tempo 4 = 90
+    5-5..7t16 t r8 t r2 r8 |
+    \tempo 4 = 93
+\mymark "Chorus 1" #37
+    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t8 4-x0.x0.x0t16 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t |
+    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t8 4-x0.x0.x0t16 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t |
+    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t8 4-x0.x0.x0t16 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t |
+    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t8 4-x0.x0.x0t16 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t |
+    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t8 4-x0.x0.x0t16 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t 5..7t4 |
+    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t8 4-x0.x0.x0t16 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t 5..7t4 |
+    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t8 4-x0.x0.x0t16 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t 5..7t4 |
     5-5..7t16 t r x0.x0.x0t 5..7t4 \tuplet 3/2 { 17..19t16 t t t t t t t t t t t } |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-\mymark "Verse 2" #51
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-3t 4t 5-5t8 6-0.0t 2.2t16 3.3t 2.2t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-3t 4t 5-5t8 6-0.0t 2.2t16 3.3t 2.2t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-3t 4t 5-5t8 6-0.0t 2.2t16 3.3t 2.2t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-3t 4t 5-10t 11t 12t 4-10t 11t 12t 3-10t8 \bendAfter #6 ^"½" |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-3t 4t 5-5t8 6-0.0t 2.2t16 3.3t 2.2t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-3t 4t 5-5t8 6-0.0t 2.2t16 3.3t 2.2t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-3t 4t 5-5t8 6-0.0t 2.2t16 3.3t 2.2t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-3t 4t 5-5t8 6-0.0t 2.2t16 3.3t 2.2t8 |
-\mymark "Pre chorus 2" #59
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-9t8 6-0t 5-3t16 5t 6-x0t 5-x0t 4-8t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-7t8 6-0t 2.2t16 3.3t 2.2t 3.3t 2.2t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-9t8 6-0t 5-3t16 5t 6-x0t 5-x0t 4-8t8 |
-    6-0t8 5-3t16 5t 6-x0t 5-x0t 4-7t8 5-3.5t16 t t t t t t t |
-\mymark "Chorus 2" #63
-    5-5..7t16 t r8 t16. r2 r8 r32 |
-    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t r 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t |
-    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t r 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t |
-    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t r 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t |
-    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t r 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t |
-    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t r 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 5..7t4 |
-    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t r 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 5..7t4 |
-    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t r 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 4-x0.x0.x0t 5-x0.x0.x0t 5..7t4 |
+    \tempo 4 = 88
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    \tempo 4 = 82
+\mymark "Verse 2" #53
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-3t( 4t) 5-5t8 6-0.0t 2.2t16( 3.3t) 2.2t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-3t( 4t) 5-5t8 6-0.0t 2.2t16( 3.3t) 2.2t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-3t( 4t) 5-5t8 6-0.0t 2.2t16( 3.3t) 2.2t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-3t( 4t) 5-10t 11t 12t 4-10t 11t 12t 3-10t8 \bendAfter #6 ^"½" |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-3t( 4t) 5-5t8 6-0.0t 2.2t16( 3.3t) 2.2t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-3t( 4t) 5-5t8 6-0.0t 2.2t16( 3.3t) 2.2t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-3t( 4t) 5-5t8 6-0.0t 2.2t16( 3.3t) 2.2t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-3t( 4t) 5-5t8 6-0.0t 2.2t16( 3.3t) 2.2t8 |
+\mymark "Pre chorus 2" #61
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-9t8 6-0t 5-3t16( 5t) 6-x0t 5-x0t 4-8t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-7t8 6-0t 2.2t16( 3.3t) 2.2t( 3.3t) 2.2t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-9t8 6-0t 5-3t16( 5t) 6-x0t 5-x0t 4-8t8 |
+    6-0t8 5-3t16( 5t) 6-x0t 5-x0t 4-7t8 5-3.5t16 t t t t t t t |
+    \tempo 4 = 90
+\mymark "Chorus 2" #65
+    5-5..7t16 t r8 t r2 r8 |
+    5-5..7t16 t r8 t r2 r8 |
+    \tempo 4 = 92
+    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t8 4-x0.x0.x0t16 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t |
+    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t8 4-x0.x0.x0t16 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t |
+    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t8 4-x0.x0.x0t16 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t |
+    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t8 4-x0.x0.x0t16 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t |
+    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t8 4-x0.x0.x0t16 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t 5..7t4 |
+    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t8 4-x0.x0.x0t16 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t 5..7t4 |
+    5-5..7t16 t r 4-x0.x0.x0t 5-5..7t8 4-x0.x0.x0t16 5-x0.x0.x0t r t 4-x0.x0.x0t 5-x0.x0.x0t 5..7t4 |
     5-5..7t16 t r x0.x0.x0t 5..7t4 \tuplet 3/2 { 17..19t16 t t t t t t t t t t t } |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-\mymark "Solo" #80
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    \tempo 4 = 89
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    \tempo 4 = 88
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    \tempo 4 = 89
+\mymark "Solo" #83
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
     \tuplet 3/2 { 5-5..7t16 t t t t t t t t t t t t t t t t t t t t t t t } |
     \tuplet 3/2 { 5-7..9t16 t t t t t t t t t t t t t t t t t t t t t t t } |
     \tuplet 3/2 { 5-8..10t16 t t t t t t t t t t t t t t t t t t t t t t t } |
@@ -112,21 +131,22 @@ guitar =
     \tuplet 3/2 { 5-13..15t16 t t t t t t t t t t t t t t t t t t t t t t t } |
     \tuplet 3/2 { 5-15..17t16 t t t t t t t t t t t t t t t t t t t t t t t } |
     \tuplet 3/2 { 5-17..19t16 t t } t8 \tuplet 3/2 { t16 t t } t8 \tuplet 3/2 { t16 t t } t8 \tuplet 3/2 { t16 t t } t8 |
-\mymark "Outro" #96
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
-    5-5..7t16 t r x0.x0.x0t 5..7t r x0.x0.x0t 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    \tempo 4 = 91
+\mymark "Outro" #99
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
+    5-5..7t16 t r x0.x0.x0t 5..7t8 x0.x0.x0t16 5..7t r x0.x0.x0t 6-3.3t8 5.5t 5-3t |
     6-15.15.15t16 t r 5-x5.x7.x7t 6-15.15.15t t t t r 5-x5.x7.x7t 6-15.15.15t t t t r 5-x5.x7.x7t |
     6-15.15.15t16 t r 5-x5.x7.x7t 6-15.15.15t t t t r 5-x5.x7.x7t 6-15.15.15t t t t r 5-x5.x7.x7t |
     6-15.15.15t16 t r 5-x5.x7.x7t 6-15.15.15t t t t r 5-x5.x7.x7t 6-15.15.15t t t t r 5-x5.x7.x7t |
     6-15.15.15t16 t r 5-x5.x7.x7t 6-15.15.15t t t t r 5-x5.x7.x7t 6-15.15.15t t t t r 5-x5.x7.x7t |
     \tempo 4 = 114
     \tuplet 3/2 { 5-17..19t16 t t t t t t t t t t t t t t t t t t t t t t t } |
-    6-0t8 r16 t8 r16 t8 5-6t r16 t8 r16 t8~ |
+    \tuplet 3/2 { 6-0t4 t t 5-6t t t~ } |
     5-6t4 r2. |
 }

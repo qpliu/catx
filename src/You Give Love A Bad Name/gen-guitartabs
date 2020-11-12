@@ -97,10 +97,10 @@ guitar =
     3-5t4 t8 2-4t2~ t8 |
     5-3..5t8 5..7t t 6..8t t 8..10t t 10..12t |
     5-13..15t4 t16 15..17t8. t2 |
-    \tuplet 3/2 { 2-8t16 11t 8t 11t 13t8 15t 8t16 11t 13t8 15t 8t16 11t 13t8 15t 8t16 11t 8t 11t } |
-    \tuplet 3/2 { 2-8t16 11t 8t 11t 8t 11t 8t 11t 8t 11t 8t 11t } t2 \bendAfter #6 ^"full" |
+    \tuplet 3/2 { 2-8t16( 11t 8t 11t) 13t8 15t 8t16( 11t) 13t8 15t 8t16( 11t) 13t8 15t 8t16( 11t 8t 11t } |
+    \tuplet 3/2 { 2-8t16 11t 8t 11t 8t 11t 8t 11t 8t 11t 8t 11t) } t2 \bendAfter #6 ^"full" |
     2-11.8t4 \bendAfter #6 ^"full" r8 14.11t2~ t8 \bendAfter #6 ^"full" |
-    5-3t16 1t 6-3t 5-1t 3t 4-1t 5-3t 1t 3t 1t 6-3t 5-1t 3t 4-1t 3t 1t |
+    5-3t16 1t 6-3t 5-1t 3t 4-1t 5-3t 1t 3t 1t 6-3t 5-1t 3t 4-1t 3t( 1t) |
     4-3t1~ |
 \mymark "Bridge" #83
     4-3t1 \bendAfter #6 ^"full" |

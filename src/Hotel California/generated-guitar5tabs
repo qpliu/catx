@@ -62,19 +62,19 @@ guitarFivePart =
     r1 |
     r1 |
 \mymark "Verse 4" #49
-    r4. r16 2-15t 1-14t 13t 14t4. |
-    r4. r16 2-14t 1-14t 13t 14t4. |
-    r4. r16 2-14t 1-12t 11t 12t4. |
-    r4. r16 2-12t 1-12t 11t4.~ t16 |
-    r4. r16 3-16t 2-15.15t 14.14t 15.15t4. |
-    r4. r16 2-10t 1-10t 9t 10t4. |
-    r4. r16 3-12t 2-12t 10t 12t4 14t16. \bendAfter #6 ^"½" 12t32 |
+    r4. r16 2-15t 1-14t( 13t) 14t4. |
+    r4. r16 2-14t 1-14t( 13t) 14t4. |
+    r4. r16 2-14t 1-12t( 11t) 12t4. |
+    r4. r16 2-12t 1-12t( 11t4.~) t16 |
+    r4. r16 3-16t 2-15.15t( 14.14t) 15.15t4. |
+    r4. r16 2-10t 1-10t( 9t) 10t4. |
+    r4. r16 3-12t 2-12t( 10t) 12t4 14t16. \bendAfter #6 ^"½" 12t32 |
     2-14t2. r4 |
 \mymark "Chorus" #57
     r1 |
     r16 4-x10t32 3-x10t 2-x10t 1-x10t 10t16 3-9t8 \bendAfter #6 ^"full" 7t16 r 9t8 \bendAfter #6 ^"full" 2-10t 1-21t \bendAfter #6 ^"½" t~ |
     1-21t4 r2. |
-    5-2t4 4t 5t 4-2t8 4t16 0t |
+    5-2t4 4t 5t 4-2t8 4t16( 0t) |
     4-5t2. r4 |
     r8 2-22t4 \bendAfter #6 ^"full" 1-22t16 t 2-22t8 \bendAfter #6 ^"full" 19t16 x19t 1-24t8 \bendAfter #6 ^"full" t~ |
     1-24t4 r2. |
@@ -89,22 +89,22 @@ guitarFivePart =
     r1 |
     r1 |
 \mymark "Verse 6" #73
-    r4. r16 2-15t 1-14t 13t 14t4. |
-    r4. r16 2-14t 1-14t 13t 14t8 t4 |
-    r4. r16 2-14t 1-12t 11t 12t4. |
-    r4. r16 2-12t 1-12t 11t 12t8 t4 |
-    r4. r16 3-16t 2-15t 14t 15t8 1-15t4 |
-    r4. r16 3-14t 2-15t 14t 15t8 1-14t4 |
-    r4. r16 3-12t 2-12t 11t 12t8 1-12t4 |
+    r4. r16 2-15t 1-14t( 13t) 14t4. |
+    r4. r16 2-14t 1-14t( 13t) 14t8 t4 |
+    r4. r16 2-14t 1-12t( 11t) 12t4. |
+    r4. r16 2-12t 1-12t( 11t) 12t8 t4 |
+    r4. r16 3-16t 2-15t( 14t) 15t8 1-15t4 |
+    r4. r16 3-14t 2-15t( 14t) 15t8 1-14t4 |
+    r4. r16 3-12t 2-12t( 11t) 12t8 1-12t4 |
     r2. 3-g7t16. 11t32 2-10t16 12t~ |
 \mymark "Solo" #81
-    2-12t4. \bendAfter #6 ^"1½" 10t16 12t 3-11t32 9t8.~ t32 7t16 9t 2-7t 3-6t \bendAfter #6 ^"½" |
-    4-8t4 \tuplet 3/2 { 9t16 11t 9t } 7t2 \bendAfter #6 ^"½" x7t16 t32 5-x7t |
-    4-x7.7t16 3-9t 2-7t 3-7t 4-9t 8t 9t8 3-7t16 9t 2-7t 3-7t \bendAfter #6 ^"full" 4-9t 7t 9t 7t |
+    2-12t4. \bendAfter #6 ^"1½" 10t16( 12t) 3-11t32( 9t8.~) t32 7t16( 9t) 2-7t 3-6t \bendAfter #6 ^"½" |
+    4-8t4 \tuplet 3/2 { 9t16( 11t 9t) } 7t2 \bendAfter #6 ^"½" x7t16 t32 5-x7t |
+    4-x7.7t16( 3-9t) 2-7t 3-7t 4-9t( 8t 9t8) 3-7t16( 9t) 2-7t 3-7t \bendAfter #6 ^"full" 4-9t( 7t) 9t( 7t) |
     2-10t8 \bendAfter #6 ^"full" 1-10t16 2-10t8 \bendAfter #6 ^"full" 7t16 10t 8t4~ t16 \bendAfter #6 ^"½" 1-7t 2-7t 1-10t8~ |
     1-10t8 \bendAfter #6 ^"full" t16 x10t32 t 10t8 \bendAfter #6 ^"full" 7t16 2-10t8 \bendAfter #6 ^"full" 1-10t16 2-10t \bendAfter #6 ^"full" t 8t8 10t16 8t |
-    3-9t8 \bendAfter #6 ^"full" 1-10t16 3-9t \bendAfter #6 ^"½" t8 \bendAfter #6 ^"full" 7t16 4-7t 3-7t 6t 4-12t4 0t8 |
-    3-7t16 9t 2-7t16. \bendAfter #6 ^"½" x7t32 7t8 \bendAfter #6 ^"½" 3-9t16 7t 9t 2-7t \bendAfter #6 ^"½" r32 t16. \bendAfter #6 ^"½" t8 \bendAfter #6 ^"½" 3-9t16 7t |
+    3-9t8 \bendAfter #6 ^"full" 1-10t16 3-9t \bendAfter #6 ^"½" t8 \bendAfter #6 ^"full" 7t16 4-7t 3-7t( 6t) 4-12t4 0t8 |
+    3-7t16( 9t) 2-7t16. \bendAfter #6 ^"½" x7t32 7t8 \bendAfter #6 ^"½" 3-9t16( 7t 9t) 2-7t \bendAfter #6 ^"½" r32 t16. \bendAfter #6 ^"½" t8 \bendAfter #6 ^"½" 3-9t16( 7t) |
     3-9t16 \bendAfter #6 ^"full" 2-7t 10t 3-9t \bendAfter #6 ^"full" 2-7t 7.7t 3-9t16. \bendAfter #6 ^"full" 7t32 9t2 \bendAfter #6 ^"full" |
     3-4.3t2. 6.5t16 r t8 \bendAfter #6 ^"full" \bendAfter #6 ^"½" |
     3-3.2t2. 6.5t16 r t8 \bendAfter #6 ^"full" \bendAfter #6 ^"½" |
@@ -114,7 +114,7 @@ guitarFivePart =
     4-4.2t2. 5-5.4t8. t16 |
     5-7.5t2. 4-4.3t4 \bendAfter #6 ^"½" |
     4-4.3t2. 2-14t8 \bendAfter #6 ^"½" 12t32 t16. |
-    2-12t2 \bendAfter #6 ^"1½" 13t16 \bendAfter #6 ^"full" 1-10t 2-13t \bendAfter #6 ^"full" 1-10t 3-11t32 9t 7t 6t 4-9t16 8t |
+    2-12t2 \bendAfter #6 ^"1½" 13t16 \bendAfter #6 ^"full" 1-10t 2-13t \bendAfter #6 ^"full" 1-10t 3-11t32 9t 7t( 6t) 4-9t16 8t |
     2-11t1 |
     r1 |
     r2. r8 3-14t \bendAfter #6 ^"full" |

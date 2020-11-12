@@ -84,13 +84,21 @@ abstract class NotesToString{
 	    String ds=getDuration(dd,false);
 	    duration = duration.subtract(dd[0]);
 	    List<Event>l=new ArrayList<Event>();
+	    boolean this_hp=false;
 	    for (Event f:ll){
 		Event[]lr=f.split(duration);
 		l.add(lr[0]);
+		if (lr[0].hpRhs)
+		    this_hp = true;
 		if (lr[1]!=null)
 		    q.add(lr[1]);
 	    }
 	    notesToString(l,ds);
+	    if (!state.last_hp && this_hp)
+		sb.append('(');
+	    if (state.last_hp && !this_hp)
+		sb.append(')');
+	    state.last_hp = this_hp;
 	    sb.append(' ');
 	    time = e.time.add(duration);
 	}

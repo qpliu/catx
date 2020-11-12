@@ -115,18 +115,18 @@ sologuitarPart =
     r8. 5-x0.x0.x0t16 r4 2t2 |
 \mymark "Solo" #99
     5-12t2 \bendAfter #6 ^"full" r8 3-2t 7t4~ |
-    3-7t8 14t4. g7t8 9t 14t4 |
-    3-g9t8 g16t \tuplet 5/4 { r16 1-15t 10t 14t 15t 14t 12t 10t 14t 15t } \tuplet 3/2 { 14t 12t 10t 14t 15t 14t } |
-    \tuplet 3/2 { 1-12t16 10t 2-14t 15t 14t 12t 10t 14t 15t 14t 12t 10t } 12t8 13t 12t4 |
-    2-g19t16 r8. \tuplet 5/4 { 12t16 15t 19t 1-12t 19t 15t 12t 14t 12t 2-19t 15t 1-15t 12t 14t 2-15t } |
-    \tuplet 7/4 { 2-12t16 15t 1-12t 14t 2-15t 12t 15t } 1-12t 2-12t 3-14t8 \bendAfter #6 ^"full" t16 \bendAfter #6 ^"full" 12t 2-15t4 \bendAfter #6 ^"full" t16 \bendAfter #6 ^"full" 12t |
-    2-15t32 17t 22t16 \tuplet 3/2 { 15t 1-17t 20t } 2-15t 12t 3-14t8. \bendAfter #6 ^"full" t16 \bendAfter #6 ^"full" 12t 0t t8. g0t16~ |
+    3-7t8 14t4.( g7t8) 9t 14t4( |
+    3-g9t8) g16t \tuplet 5/4 { r16 1-15t( 10t 14t 15t 14t 12t 10t 14t 15t } \tuplet 3/2 { 14t 12t 10t 14t 15t 14t } |
+    \tuplet 3/2 { 1-12t16 10t) 2-14t( 15t 14t 12t 10t 14t 15t 14t 12t 10t } 12t8 13t 12t4) |
+    2-g19t16 r8. \tuplet 5/4 { 12t16( 15t 19t 1-12t 19t 15t 12t 14t 12t 2-19t 15t 1-15t 12t 14t 2-15t } |
+    \tuplet 7/4 { 2-12t16 15t 1-12t 14t 2-15t 12t 15t } 1-12t) 2-12t 3-14t8 \bendAfter #6 ^"full" t16 \bendAfter #6 ^"full" 12t 2-15t4 \bendAfter #6 ^"full" t16 \bendAfter #6 ^"full" 12t |
+    2-15t32 17t 22t16 \tuplet 3/2 { 15t 1-17t 20t } 2-15t 12t 3-14t8. \bendAfter #6 ^"full" t16 \bendAfter #6 ^"full" 12t( 0t t8.) g0t16~ |
     3-g0t8 t 5-0..g9t \bendAfter #6 ^"full" 3-9t16 \bendAfter #6 ^"full" 7t 9t8 7t16 t t4~ |
-    5-0..7t8 2-3t \bendAfter #6 ^"full" t16 \bendAfter #6 ^"full" 0t 3t8 \bendAfter #6 ^"full" \tuplet 3/2 { t16 \bendAfter #6 ^"full" t 0t } 3t4. |
-    \tuplet 3/2 { 2-3t16 \bendAfter #6 ^"full" t 0t } 3t8 \bendAfter #6 ^"full" t \bendAfter #6 ^"full" t16 0t 3-2t2 \bendAfter #6 ^"full" |
+    5-0..7t8 2-3t \bendAfter #6 ^"full" t16 \bendAfter #6 ^"full" 0t 3t8 \bendAfter #6 ^"full" \tuplet 3/2 { t16 \bendAfter #6 ^"full" t( 0t) } 3t4. |
+    \tuplet 3/2 { 2-3t16 \bendAfter #6 ^"full" t( 0t) } 3t8 \bendAfter #6 ^"full" t \bendAfter #6 ^"full" t16( 0t) 3-2t2 \bendAfter #6 ^"full" |
     3-x0t16 r 12t8 1-12t 2-15t~ 15~.12t \bendAfter #6 ^"full" 15.15~t \bendAfter #6 ^"full" \tuplet 3/2 { 1-15t4 \bendAfter #6 ^"full" 12t16 2-12t } |
-    6-0~.3-14t8 \bendAfter #6 ^"full" t16 \bendAfter #6 ^"full" 0.3-12t 3-14t2 r16 2-15t 3-14~.8t 14.13t |
-    \tuplet 5/4 { 1-15t16 8t 12t 2-15t 8t } \tuplet 3/2 { 13t 1-15t 8t 12t 2-15t 8t } \tuplet 7/4 { 13t 1-15t 8t 12t 2-15t 8t 13t 1-15t 8t 12t 2-15t g8t 12t 1-17t } |
+    6-0~.3-14t8 \bendAfter #6 ^"full" t16 \bendAfter #6 ^"full" 0.3-12t 3-14t2 r16 2-15t( 3-14~.8t 14.13t |
+    \tuplet 5/4 { 1-15t16 8t 12t 2-15t 8t } \tuplet 3/2 { 13t 1-15t 8t 12t 2-15t 8t } \tuplet 7/4 { 13t 1-15t 8t 12t 2-15t 8t 13t 1-15t 8t 12t 2-15t g8t 12t 1-17t) } |
     \tuplet 3/2 { 1-10t8 17t16 10t8 17t16 } 10t8 8t 3-9t 2-0.0t 15.12t4~ |
     2-15.12t8 \bendAfter #6 ^"full" \tuplet 3/2 { 1-12t16 t t 14t8 t16 t t t 15t t t t t t t t 17t t t t } |
     \tuplet 3/2 { 1-17t16 t t t t t 19t t t t t t t t t 20t t t t t t t t t } |
