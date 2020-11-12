@@ -29,7 +29,6 @@ layoutmusic = <<
 	\clef "treble_8"
 	{ \myVocalsStuff \voPart }
 	\voLyrics
-	\karaokeLyrics
     >>
     \tag #'(allPart peterPart) <<
 	\new Staff \with {

@@ -16,7 +16,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     @2 @
     "@|!bg=4"2 "@|!bg=3"
     "@|!bg=2"2 "@|!bg=1"
-    "On|!bg="16 "a" "dark"8 "de"16 "-sert" "high"8 "way,"16 -4 -16
+    "On|!bg="16 "a" "dark"8 "de"16 "-sert" "high"8 "-way,"16 -4 -16
     -8 "cool"8 \tuplet 3/2 { "wind"8 "in" "my" } "hair,"4 -4
     -8 ">warm"8 "smell" "of"16 "co" "-li"8 "-tas"16 -4 -16
     \tuplet 3/2 { -8 "ris"8 "-ing" "up" "through" "the" } "air."8. \skip16 \skip8 -8
@@ -35,7 +35,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     -16 ">I"16 "thought" "I" "heard"8 "them" "say:"4 -4
 \mymark "Chorus" #33
     -8 ">\"Wel"16 "-come"8 "to"16 "the" "Ho"8 "-tel"8. "Ca"8 "-li"16 "-for"8
-    "-nia,"8 -2 -8 -16 ">such"16 "a"
+    "-nia,\""8 -2 -8 -16 ">such"16 "a"
     "love"8 "-ly"16 "place,"8. "(such"16 "a" "love"8 "-ly"16 "place),"8. ">such"16 "a"
     "love"8 "-ly"16 "face."8. -2 -8
     ">Plen"16 "-ty" "of" "room"8 "at" "the"16 "Ho"8 "-tel" "Ca"8 "-li"16 "-for"8
@@ -47,7 +47,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     -16 ">She"16 "got" "the" "Mer"8 "-ce"16 "-des"8 "bends."8. "(Uh)"8 -8
     -16 ">She"16 "got" "a" "lot" "of" "pret" "-ty," -16 "pret"16 "-ty" "boys" \skip8 -8
     -8. "that"16 "she" "calls"8 "friends." \skip16 \skip8 -4
-    -8 ">How"16 "they" "dance"8 "in"16 "the" "court"8 "yard,"8 -4
+    -8 ">How"16 "they" "dance"8 "in"16 "the" "court"8 "-yard,"8 -4
     \tuplet 3/2 { "sweet"2 "sum"8 "-mer" } "sweat."4 -4
     -8 ">Some"8 "dance" "to"16 "re" "-mem"8 "-ber,"4 -8
     -8 "some"8 "dance" "to"16 "for"8 "-get."8. -4
@@ -55,14 +55,14 @@ karaokeLyrics = \new Lyrics \lyricmode {
     -8 ">So"16 "I" "called"8 "up"16 "the" "cap"8 "-tain,"8 -4
     -16 ">\"Please"8. "bring"8 "me"16 "my"8 "wine.\""16 \skip8 -16 ">He"16 "said" "that"
     -16 "\"We"16 \tuplet 3/2 { "have"8 "-n't"16 } "had"8 "that" "spi"16 "-rit"8 "here"8. "since"8
-    -8 "nine"8 "-teen"16 "six"8 "-ty"16 "nine."4 -4
+    -8 "nine"8 "-teen"16 "six"8 "-ty"16 "nine.\""4 -4
     -8 ">An'"8 "still" "those" "voi"16 "-ces" "are" "call"8 "-ing"16 "from"8
     "far"4. "a"16 "-way."4. \skip16 \skip8
     -8 ">Wake"16 "you" "up"8 "in"16 "the" "mid" "-dle" "of" "the" "night"8 -8
     -8 ">just"16 "to" "hear"8 "them"8 "say:"2
 \mymark "Chorus" #57
     \skip8 ">\"Wel"16 "-come"8 "to"16 "the" "Ho"8 "-tel"8. "Ca"8 "-li"16 "-for"8
-    "-nia,"8 -2 -8 -16 ">such"16 "a"
+    "-nia,\""8 -2 -8 -16 ">such"16 "a"
     "love"8 "-ly"16 "place,"8. "(such"16 "a" "love"8 "-ly"16 "place),"8. ">such"16 "a"
     "love"8 "-ly"16 "face." \skip8 -2 -16 ">They're"16
     "liv"16 "-in'" "it" "up"16 -16 "at"16 -16 "the"16 "Ho"8 "-tel" "Ca"8 "-li"16 "-for"8
