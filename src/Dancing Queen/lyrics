@@ -1,49 +1,374 @@
-voLyrics = \new Lyrics \lyricsto "vo" {
-%    Ooh
-    You can dance
-    You can jive
-    Hav -- ing the time of your life - -
-    Ooh, - - see that girl
-    Watch that scene
-    Dig -- ging the danc -- ing queen
-    Fri -- day night and the lights are low
-    Look -- ing out for a place to go -
-    Where they play the right mu -- sic - -
-    Get -- ting in the swing
-    You come to look for a king
-    A -- ny -- body could be that guy -
-    Night is young and the mu -- sic's high -
-    With a bit of rock mu -- sic - -
-    E -- very -- thing is fine
-    You're in the mood for a dance
-    And when you get the chance - -
-    You are the danc -- ing queen
-    Young and sweet
-    On -- ly se -- ven -- teen
-    Danc -- ing queen
-    Feel the beat from the tam -- bou -- rine, oh yeah -
-    You can dance
-    You can jive -
-    Hav -- ing the time of your life - -
-    Ooh, - - see that girl
-    Watch that scene
-    Dig -- ging the danc -- ing queen
-    You're a teas -- er, you turn 'em on
-    Leave 'em burn -- ing and then you're gone -
-    Look -- ing out for a -- no -- ther - -
-    A -- ny -- one will do
-    You're in the mood for a dance
-    And when you get the chance - -
-    You are the danc -- ing queen
-    Young and sweet
-    On -- ly se -- ven -- teen
-    Danc -- ing queen
-    Feel the beat from the tam -- bou -- rine, oh yeah -
-    You can dance
-    You can jive -
-    Hav -- ing the time of your life - -
-    Ooh, - - see that girl
-    Watch that scene
-    Dig -- ging the danc -- ing queen
-    Dig -- ging the danc -- ing queen
+voLyrics = \new Lyrics \lyricmode {
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    "You"4
+    "can"32
+    \skip16.
+    "dance"4.
+    \skip16.
+    \skip8
+    \skip32
+    "You"8.
+    "can"8.
+    "jive"4.
+    \skip4
+    "Hav"4*2/3
+    -- "ing"4*2/3
+    "the"4*2/3
+    "time"4*2/3
+    "of"4*2/3
+    "your"4*2/3
+    "life"16
+    \skip16
+    \skip4
+    \skip16.
+    \skip32
+    "Ooh,"4*2/3
+    \skip4*2/3
+    \skip4*2/3
+    "see"8
+    \skip32
+    \skip32
+    "that"16
+    \skip8
+    "girl"2
+    \skip32
+    \skip16.
+    "Watch"8
+    \skip32
+    \skip32
+    "that"32
+    \skip8
+    \skip32
+    "scene"4
+    \skip16.
+    \skip32
+    "Dig"32 --
+    \skip32
+    "ging"32
+    \skip16.
+    "the"32
+    \skip32
+    "danc"8.
+    -- "ing"16
+    \skip8
+    "queen"2
+    \skip8
+    \skip2.
+    \skip8
+    \skip32
+    \skip16.
+    \skip1
+    \skip1
+    "Fri"8
+    -- "day"16
+    "night"8
+    "and"8
+    "the"16
+    "lights"8
+    "are"8
+    "low"4
+    \skip1
+    "Look"16
+    -- "ing"8
+    "out"8
+    "for"8
+    "a"16
+    "place"8
+    "to"8
+    "go"8
+    \skip8
+    \skip2.
+    "Where"16
+    \skip16
+    "they"8
+    "play"8
+    "the"16
+    "right"8
+    "mu"16
+    -- "sic"8
+    \skip8
+    \skip8
+    \skip4
+    "Get"8
+    -- "ting"16
+    "in"8
+    "the"16
+    "swing"4.
+    "You"8*2/3
+    "come"8*2/3
+    "to"8*2/3
+    "look"8.
+    "for"16
+    "a"8
+    "king"2
+    \skip8
+    \skip1
+    "A"8
+    -- "ny"16
+    -- "body"8
+    "could"8
+    "be"16
+    "that"8
+    "guy"8
+    \skip4
+    \skip1
+    "Night"16
+    "is"8
+    "young"8
+    "and"8
+    "the"16
+    "mu"8
+    -- "sic's"8
+    "high"8
+    \skip8
+    \skip2.
+    "With"16
+    \skip16
+    "a"8
+    "bit"8
+    "of"16
+    "rock"8
+    "mu"16
+    -- "sic"8
+    \skip8
+    \skip8
+    \skip4
+    "E"8
+    -- "very"16
+    -- "thing"8
+    "is"16
+    "fine"4.
+    "You're"8*2/3
+    "in"8*2/3
+    "the"8*2/3
+    "mood"8.
+    "for"16
+    "a"8
+    "dance"2
+    \skip8
+    \skip2
+    "And"4*2/3
+    "when"4*2/3
+    "you"4*2/3
+    "get"8.
+    "the"8.
+    "chance"8.
+    \skip16
+    \skip4.
+    \skip2
+    "You"4*2/3
+    "are"4*2/3
+    "the"4*2/3
+    "danc"8.
+    -- "ing"8.
+    "queen"2
+    \skip8
+    "Young"8.
+    "and"8.
+    "sweet"4.
+    "On"8
+    -- "ly"8
+    "se"8.
+    -- "ven"8.
+    -- "teen"2
+    \skip8
+    \skip1
+    "Danc"8.
+    -- "ing"8.
+    "queen"2
+    \skip8
+    "Feel"8.
+    "the"8.
+    "beat"4
+    "from"8.
+    "the"8.
+    "tam"8.
+    -- "bou"8.
+    -- "rine,"4.
+    "oh"4
+    "yeah"16
+    \skip16
+    \skip2.
+    \skip8
+    "You"8.
+    "can"8.
+    "dance"2
+    \skip8
+    "You"8.
+    "can"8.
+    "jive"4.
+    \skip4
+    "Hav"4*2/3
+    -- "ing"4*2/3
+    "the"4*2/3
+    "time"4*2/3
+    "of"4*2/3
+    "your"4*2/3
+    "life"16
+    \skip16
+    \skip4.
+    "Ooh,"8.
+    \skip8.
+    \skip8
+    "see"8.
+    "that"8.
+    "girl"2
+    \skip8
+    "Watch"8.
+    "that"8.
+    "scene"4.
+    "Dig"16
+    -- "ging"8
+    "the"16
+    "danc"8.
+    -- "ing"8.
+    "queen"2
+    \skip8
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    "You're"8
+    "a"16
+    "teas"8
+    -- "er,"8
+    "you"16
+    "turn"8
+    "'em"8
+    "on"4
+    \skip1
+    "Leave"16
+    "'em"8
+    "burn"8
+    -- "ing"8
+    "and"16
+    "then"8
+    "you're"8
+    "gone"8
+    \skip8
+    \skip2.
+    "Look"16 --
+    \skip16
+    "ing"8
+    "out"8
+    "for"16
+    "a"8
+    -- "no"16
+    -- "ther"8
+    \skip8
+    \skip8
+    \skip4
+    "A"8
+    -- "ny"16
+    -- "one"8
+    "will"16
+    "do"4.
+    "You're"8*2/3
+    "in"8*2/3
+    "the"8*2/3
+    "mood"8.
+    "for"16
+    "a"8
+    "dance"2
+    \skip8
+    \skip2
+    "And"4*2/3
+    "when"4*2/3
+    "you"4*2/3
+    "get"8.
+    "the"8.
+    "chance"8.
+    \skip16
+    \skip4.
+    \skip2
+    "You"4*2/3
+    "are"4*2/3
+    "the"4*2/3
+    "danc"8.
+    -- "ing"8.
+    "queen"2
+    \skip8
+    "Young"8.
+    "and"8.
+    "sweet"4.
+    "On"8
+    -- "ly"8
+    "se"8.
+    -- "ven"8.
+    -- "teen"2
+    \skip8
+    \skip1
+    "Danc"8.
+    -- "ing"8.
+    "queen"2
+    \skip8
+    "Feel"8.
+    "the"8.
+    "beat"4
+    "from"8.
+    "the"8.
+    "tam"8.
+    -- "bou"8.
+    -- "rine,"4.
+    "oh"4
+    "yeah"16
+    \skip16
+    \skip2.
+    \skip8
+    "You"8.
+    "can"8.
+    "dance"2
+    \skip8
+    "You"8.
+    "can"8.
+    "jive"4.
+    \skip4
+    "Hav"4*2/3
+    -- "ing"4*2/3
+    "the"4*2/3
+    "time"4*2/3
+    "of"4*2/3
+    "your"4*2/3
+    "life"16
+    \skip16
+    \skip4.
+    "Ooh,"8.
+    \skip8.
+    \skip8
+    "see"8.
+    "that"8.
+    "girl"2
+    \skip8
+    "Watch"8.
+    "that"8.
+    "scene"4.
+    "Dig"16
+    -- "ging"8
+    "the"16
+    "danc"8.
+    -- "ing"8.
+    "queen"2
+    \skip8
+    \skip1
+    \skip1
+    \skip2.
+    "Dig"16
+    -- "ging"8
+    "the"16
+    "danc"8.
+    -- "ing"8.
+    "queen"2
+    \skip8
+    \skip1
+    \skip1
+    \skip1
+    \skip1
 }

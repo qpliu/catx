@@ -21,7 +21,7 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\clef "treble_8"
-	\new Voice = "vo" { \myVocalsStuff \voPart }
+	\voPart
 	\voLyrics
     >>
     \tag #'(allPart peterPart) <<
@@ -64,13 +64,20 @@ layoutmusic = <<
 	\markupStuff
 	\bassPart
     >>
-    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
+    \tag #'(allPart kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\drumsPart
+    >>
+    \tag #'(ggPart) \new DrumStaff \with {
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drumsPart
+	\voLyrics
     >>
 >>
 
