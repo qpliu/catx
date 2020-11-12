@@ -1,0 +1,35 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \tempo 4 = 120
+    \key a \major
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+    s1 | s1 |
+\mymark "Verse 1" #19
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+    s1 | s1 |
+\mymark "Chorus" #37
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+\mymark "Verse 2" #57
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+    s1 | s1 |
+\mymark "Outro" #67
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 |
+\mybarNumberCheck #90
+    \bar "|."
+}

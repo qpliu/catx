@@ -1,0 +1,102 @@
+drumsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+\mymark "Verse 1" #19
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+\mymark "Chorus" #37
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. <sn hho>32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+% 8 measures starting at 18
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+\mymark "Verse 2" #57
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+% 20 measures starting at 34
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+\mymark "Outro" #67
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. <sn hho>32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+% repeat previous 4 measures.
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+% 2 measures starting at 54
+    << { hh32 r16. hho32 r16. <sn hh>32 r16. hho32 r16. hh32 r sn r hho r16. <sn hh>32 r16. hho32 r16. | } \context DrumVoice = "drsb" { bda32 r4. r16. bda32 r4. r16. | } >>
+    <sn hh>8 r <sn hh> r <sn hh> r <sn hh> r |
+\mybarNumberCheck #90
+}

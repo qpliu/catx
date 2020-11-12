@@ -1,0 +1,102 @@
+voPart = {
+% scale c cis d dis e f fis g gis a ais b
+% tuning e, a, d g b e'
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    1-9t4 7t32 r16. t4.~ t16. r8 r32 |
+    1-9t8. 7t t4.( 9t4) |
+    \tuplet 3/2 { 2-10t4 1-7t 2-9t 10t 1-7t 2-9t } |
+    2-10t16 9t 7t4~ t16. r32 \tuplet 3/2 { 1-9t4 7t 2-10t } |
+    2-9t8~ t32 r 10t16 r8 t2~ t32 r16. |
+    2-9t8~ t32 r 10t r8 r32 t4~ t16. r32 1-7t r 2-10t r16. t32 r |
+    2-9t8. 10t16 r8 t2~ t8~ |
+    2-10t2.~ t8~ t32 r16. |
+    r1 |
+    r1 |
+\mymark "Verse 1" #19
+    3-6t8 2-5t16 t8 t t16 t8 t 7t4~ |
+    2-7t1 |
+    3-6t16 2-5t8 t t 3-6t16 2-5t8 t 3-4t 6t~ |
+    3-6t2. t16( 4t) 4-7t8 |
+    3-4t8 t16 t8 t16 t8 6t t r4 |
+    3-4t8 t16 t8 t16 6t4. \tuplet 3/2 { 4t8 4-7t 6t } |
+    5-7t8. 4-4t16 t8 t2~ t8 |
+    r1 |
+    3-6t8 2-5t16 t8 t t16 t8 t 7t4~ |
+    2-7t1 |
+    3-6t16 2-5t8 t t 3-6t16 2-5t8 t 3-4t 6t~ |
+    3-6t2. t16( 4t) 4-7t8 |
+    3-4t8 t16 t8 t16 t8 6t t r4 |
+    3-4t8 t16 t8 t16 6t4. \tuplet 3/2 { 4t8 4-7t 6t } |
+    5-7t8. 4-4t16 t8 t2~ t8 |
+    r2 \tuplet 3/2 { 4-7t4 3-4t 6t } |
+    3-6t8. 7t t 6t16 4-9t4. |
+    r2 \tuplet 3/2 { 3-9t4 2-7t 9t } |
+\mymark "Chorus" #37
+    2-9t8. 10t t2~ t8 |
+    2-9t8. 10t t4. 1-7t8 2-10t |
+    2-9t8. 10t t2~ t8 |
+    r1 |
+    2-9t8. 10t t2~ t8 |
+    2-9t8. 10t t4 1-7t8. 2-10t |
+    1-7t8. 9t t4. 7t4 |
+    1-9t16( 7t) 2-10t2.~ t8 |
+    1-9t8. 7t t2~ t8 |
+    1-9t8. 7t t4. 9t4 |
+    \tuplet 3/2 { 2-10t4 1-7t 2-9t 10t 1-7t 2-9t } |
+    2-10t16 9t 7t4. 1-9t8. 7t 2-10t8 |
+    2-9t8. 10t t2~ t8 |
+    2-9t8. 10t t4. 1-7t16 2-10t8 t16 |
+    2-9t8. 10t t2~ t8 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+% 8 measures starting at 18
+    r1 |
+\mymark "Verse 2" #57
+    3-6t8 2-5t16 t8 t t16 t8 t 7t4~ |
+    2-7t1 |
+    3-6t16 2-5t8 t t 3-6t16 2-5t8 t 3-4t 6t~ |
+    3-6t2. t16( 4t) 4-7t8 |
+    3-4t8 t16 t8 t16 t8 6t t r4 |
+    3-4t8 t16 t8 t16 6t4. \tuplet 3/2 { 4t8 4-7t 6t } |
+    5-7t8. 4-4t16 t8 t2~ t8 |
+% 20 measures starting at 34
+    r2 \tuplet 3/2 { 4-7t4 3-4t 6t } |
+    3-6t8. 7t t 6t16 4-9t4. |
+    r2 \tuplet 3/2 { 3-9t4 2-7t 9t } |
+\mymark "Outro" #67
+    2-9t8. 10t t2~ t8 |
+    2-9t8. 10t t4. 1-7t8 2-10t |
+    2-9t8. 10t t2~ t8 |
+    r1 |
+    2-9t8. 10t t2~ t8 |
+    2-9t8. 10t t4 1-7t8. 2-10t |
+    1-7t8. 9t t4. 7t4 |
+    1-9t16( 7t) 2-10t2.~ t8 |
+    1-9t8. 7t t2~ t8 |
+    1-9t8. 7t t4. 9t4 |
+    \tuplet 3/2 { 2-10t4 1-7t 2-9t 10t 1-7t 2-9t } |
+    2-10t16 9t 7t4. 1-9t8. 7t 2-10t8 |
+    2-9t8. 10t t2~ t8 |
+    2-9t8. 10t t4. 1-7t16 2-10t8 t16 |
+    2-9t8. 10t t2~ t8 |
+    r1 |
+    r1 |
+% repeat previous 4 measures.
+    r2. 1-7t16 2-10t8 t16 |
+    2-9t8. 10t t2~ t8 |
+    r1 |
+    r1 |
+% 2 measures starting at 54
+    r1 |
+    r1 |
+\mybarNumberCheck #90
+}

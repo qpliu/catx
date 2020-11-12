@@ -1,0 +1,102 @@
+leadguitarPart = {
+% scale c cis d dis e f fis g gis a ais b
+% tuning e, a, d g b e'
+    3-6t2. 4t4 |
+    3-7t2~ t8. r16 6t 4t32 r16. 4-7t32 r |
+    3-4t8. 6t8 r16 t2~ t8~ |
+    3-6t2. r4 |
+    1-9t2. 7t4 |
+    1-10t2~ t8~ t32 r16. 9t16 7t32 r16. 2-10t32 r |
+    1-7t8. 9t8 r16 t4. 7t4 |
+    2-10t4. 5-0t2 r8 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    2-10t8~ t32 r2. r16. |
+    r1 |
+    r1 |
+\mymark "Verse 1" #19
+    5-0t16 t t t t t t t t t t t t t t t |
+    2-10t32 r 3-11t r t r 2-10t r 3-11t16 t32 r 2-10t r 3-11t r t r 2-10t r 3-11t r t r 2-10t r 3-11t8~ t32 r |
+    1-9t2. r4 |
+    5-5t16 t t t t t t t t t t t t t t t |
+    6-0.2.2.1t8~ t32 r t16 r8 5-0.2.2.2t2~ t16 r |
+    6-0.2.2.1t8~ t32 r t16 r8 5-0.2.2.2t2~ t16 r |
+    6-0t16 t 0.2.2t32 r 2.4.4.2t r8 r32 2~.4~.4~.2t2 2.4.4t16 r |
+    6-0t16 t 0.2.2t32 r 2.4.4.2t r8 r32 2~.4~.4~.2t2 2.4.4t16 r |
+    5-0t16 t t t t t t t t t t t t t t t |
+    2-10t32 r 3-11t r t r 2-10t r 3-11t16 t32 r 2-10t r 3-11t r t r 2-10t r 3-11t r t r 2-10t r 3-11t8~ t32 r |
+    1-9t2. r4 |
+    5-5t16 t t t t t t t t t t t t t t t |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #37
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+% 8 measures starting at 18
+    r1 |
+\mymark "Verse 2" #57
+    5-0t16 t t t t t t t t t t t t t t t |
+    2-10t32 r 3-11t r t r 2-10t r 3-11t16 t32 r 2-10t r 3-11t r t r 2-10t r 3-11t r t r 2-10t r 3-11t8~ t32 r |
+    1-9t2. r4 |
+    5-5t16 t t t t t t t t t t t t t t t |
+    6-0.2.2.1t8~ t32 r t16 r8 5-0.2.2.2t2~ t16 r |
+    6-0.2.2.1t8~ t32 r t16 r8 5-0.2.2.2t2~ t16 r |
+    6-0t16 t 0.2.2t32 r 2.4.4.2t r8 r32 2~.4~.4~.2t2 2.4.4t16 r |
+% 20 measures starting at 34
+    r1 |
+    r1 |
+    r1 |
+\mymark "Outro" #67
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+% repeat previous 4 measures.
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+% 2 measures starting at 54
+    r1 |
+    r1 |
+\mybarNumberCheck #90
+}

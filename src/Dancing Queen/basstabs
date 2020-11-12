@@ -1,0 +1,102 @@
+bassPart = {
+% scale c cis d dis e f fis g gis a ais b
+% tuning e,, a,, d, g,
+    3-0t8 r16 t r8 t r16 t 2-7t t t8. r16 |
+    3-0t8 r16 t r8 t8.~ t32 r 4-0t r 4t16 t8 t |
+    3-0t8 r16 t r8 t r16 t 2-7t t t8. r16 |
+    3-0t8 r16 t r8 t8.~ t32 r 4-0t r 4t16 t8 t |
+    3-0t8 r16 t r8 t r16 t 2-7t t t8. r16 |
+    3-0t8 r16 t r8 t8.~ t32 r 4-0t r 4t16 t8 t |
+    3-0t8 r16 t r8 4-0t~ t32 r 4t r t8 t8. r16 |
+    4-2t8 r16 t r8 0t8. r16 t r 4t t t16. r32 |
+    4-0t8 r16 t r8 t r16 t 3-7t16. r32 t16 t8 t16 |
+    3-4t8 r16 t16. r t8 r16 t( 5t8) 6t16 t t t |
+    2-4t8~ t32 r t16. r t8~ t32 r t16 t r t 2t8~ t32 r |
+    3-6t8 r16 t16. r t8~ t32 r 2-9t16 t r t t8~ t32 r |
+    3-5t8 r16 t r8 t8.~ t32 r t8 r16 4t8~ t32 r |
+    3-2t8 r16 t r8 t~ t32 r16. t8 4-0t 2t16. r32 |
+    3-0t16. r t16 r8 t4 2-7t16 t t8. r16 |
+    3-0t8 r16 t16. r t8 r16 t 4-0t32 r 4t16 t8 t |
+    3-0t8~ t32 r t16 2-7t t t8 r16 3-0t t16. r32 t8~ t32 r16. |
+    3-0t8 r16 t 2-7t t t8 r16 3-0t32 r t16. r32 t8~ t32 r16. |
+\mymark "Verse 1" #19
+    3-0t8 r16 t32 r8 r32 t8. r16 t16. r32 2-7t16 t t16. r32 |
+    3-0t8 r4 t8. 4-0t8~ t32 r 4t8 t |
+    3-0t8~ t32 r t16 r8 t8.~ t32 r t8 2-7t16 t t8 |
+    2-4t8 r16 t32 r8 r32 t4 3-4t16 r 2-4t t t r |
+    4-0t8 r16 t32 r8 r32 4t4 t32 r16. 3-12t16 t t r |
+    4-0t8~ t32 r t16 r8 4t4 t16 r 3-12t t t r |
+    3-7t8 r16 9t r8 t4 7t16 t t t r8 |
+    3-9t8 r16 t r8 t8. r16 t t32 r t16. r32 2-6t8 |
+    3-0t8 r16 t32 r8 r32 t8. r16 t16. r32 2-7t16 t t16. r32 |
+    3-0t8 r4 t8. 4-0t8~ t32 r 4t8 t |
+    3-0t8 r16 t32 r8 r32 t8.~ t32 r t8 2-7t16 t t8 |
+    2-4t8 r16 t32 r8 r32 t4 3-4t16 r 2-4t t t r |
+    4-0t8 r16 t32 r8 r32 4t4 t32 r16. 3-12t16 t t r |
+    4-0t8~ t32 r t16 r8 4t4 t16 r 3-12t t t r |
+    3-7t8 r16 9t r8 t4 7t16 t t t r8 |
+    3-9t8 r16 t r8 t8. r16 t t32 r t16. r32 2-6t8 |
+    3-2t8 r16 t r8 t~ t32 r t r t r t r t8 4-2t |
+    4-0t8 r16 t r8 t8. r16 t 4t t8 t |
+\mymark "Chorus" #37
+    3-0t8 r16 t r8 t r16 t 2-7t t t8. r16 |
+    3-0t8 r16 t r8 t8.~ t32 r t r 4-4t16 t8 t |
+    3-0t8 r16 t r8 t r16 t 2-7t t t8. r16 |
+    3-0t8 r16 t r8 t8.~ t32 r t r 4-4t16 t8 t |
+    3-0t8 r16 t r8 t r16 t 2-7t t t8. r16 |
+    3-0t8 r16 t r8 t8.~ t32 r t r 4-4t16 t8 t |
+    3-0t8 r16 t r8 4-0t~ t32 r 4t r t8 t8. r16 |
+    4-2t8 r16 t r8 0t8. r16 t r 4t t t16. r32 |
+    4-0t8 r16 t r8 t r16 t 3-7t16. r32 t16 t8 t16 |
+    3-4t8 r16 t16. r t8 r16 t( 5t8) 6t16 t t t |
+    2-4t8~ t32 r t16. r t8~ t32 r t16 t r t 2t8~ t32 r |
+    3-6t8 r16 t16. r t8~ t32 r 2-9t16 t r t t8~ t32 r |
+    3-5t8 r16 t r8 t8.~ t32 r t8 r16 4t8~ t32 r |
+    3-2t8 r16 t r8 t~ t32 r16. t8 4-0t 2t16. r32 |
+    3-0t16. r t16 r8 t4 2-7t16 t t8. r16 |
+    3-0t8 r16 t16. r t8 r16 t 4-0t32 r 4t16 t8 t |
+    3-0t8~ t32 r t16 2-7t t t8 r16 3-0t t16. r32 t8~ t32 r16. |
+    3-0t8 r16 t r8 t~ t32 r t r t8 t4~ |
+    3-0t8~ t32 r t16 2-7t t t8 r16 3-0t t16. r32 t8~ t32 r16. |
+% 8 measures starting at 18
+    3-0t8 r16 t 2-7t t t8 r16 3-0t32 r t16. r32 t8~ t32 r16. |
+\mymark "Verse 2" #57
+    3-0t8 r16 t32 r8 r32 t8. r16 t16. r32 2-7t16 t t16. r32 |
+    3-0t8 r4 t8. 4-0t8~ t32 r 4t8 t |
+    3-0t8~ t32 r t16 r8 t8.~ t32 r t8 2-7t16 t t8 |
+    2-4t8 r16 t32 r8 r32 t4 3-4t16 r 2-4t t t r |
+    4-0t8 r16 t32 r8 r32 4t4 t32 r16. 3-12t16 t t r |
+    4-0t8~ t32 r t16 r8 4t4 t16 r 3-12t t t r |
+    3-7t8 r16 9t r8 t4 7t16 t t t r8 |
+% 20 measures starting at 34
+    3-9t8 r16 t r8 t8. r16 t t32 r t16. r32 2-6t8 |
+    3-2t8 r16 t r8 t~ t32 r t r t r t r t8 4-2t |
+    4-0t8 r16 t r8 t8. r16 t 4t t8 t |
+\mymark "Outro" #67
+    3-0t8 r16 t r8 t r16 t 2-7t t t8. r16 |
+    3-0t8 r16 t r8 t8.~ t32 r t r 4-4t16 t8 t |
+    3-0t8 r16 t r8 t r16 t 2-7t t t8. r16 |
+    3-0t8 r16 t r8 t8.~ t32 r t r 4-4t16 t8 t |
+    3-0t8 r16 t r8 t r16 t 2-7t t t8. r16 |
+    3-0t8 r16 t r8 t8.~ t32 r t r 4-4t16 t8 t |
+    3-0t8 r16 t r8 4-0t~ t32 r 4t r t8 t8. r16 |
+    4-2t8 r16 t r8 0t8. r16 t r 4t t t16. r32 |
+    4-0t8 r16 t r8 t r16 t 3-7t16. r32 t16 t8 t16 |
+    3-4t8 r16 t16. r t8 r16 t( 5t8) 6t16 t t t |
+    2-4t8~ t32 r t16. r t8~ t32 r t16 t r t 2t8~ t32 r |
+    3-6t8 r16 t16. r t8~ t32 r 2-9t16 t r t t8~ t32 r |
+    3-5t8 r16 t r8 t8.~ t32 r t8 r16 4t8~ t32 r |
+    3-2t8 r16 t r8 t~ t32 r16. t8 4-0t 2t16. r32 |
+    3-0t16. r t16 r8 t4 2-7t16 t t8. r16 |
+    3-0t8 r16 t16. r t8 r16 t 4-0t32 r 4t16 t8 t |
+    3-0t8~ t32 r t16 2-7t t t8 r16 3-0t t16. r32 t8~ t32 r16. |
+% repeat previous 4 measures.
+    3-2t8 r16 t r8 t~ t32 r16. t8 4-0t 2t16. r32 |
+    3-0t16. r t16 r8 t4 2-7t16 t t8. r16 |
+    3-0t8 r16 t16. r t8 r16 t 4-0t32 r 4t16 t8 t |
+    3-0t8~ t32 r t16 2-7t t t8 r16 3-0t t16. r32 t8~ t32 r16. |
+% 2 measures starting at 54
+    3-0t8 r16 t r8 t~ t32 r t r t8 t4~ |
+    3-0t1 |
+\mybarNumberCheck #90
+}

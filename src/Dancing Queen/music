@@ -1,0 +1,98 @@
+% BIN midi all kav susan gg peter bass
+
+\header {
+    title = "Dancing Queen"
+    composer = "Abba"
+}
+
+\include "markup"
+\include "bass"
+\include "drums"
+\include "leadguitar"
+\include "rhythmguitar"
+\include "vo"
+\include "karaoke"
+\include "lyrics"
+
+layoutmusic = <<
+    \tag #'(allPart kavPart susanPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vocals" }
+	shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\new Voice = "vo" { \myVocalsStuff \voPart }
+	\voLyrics
+    >>
+    \tag #'(allPart peterPart) <<
+	\new Staff \with {
+	    instrumentName = \markup { \rotate #90 "Rhythm Guitar" }
+	    shortInstrumentName = \markup { \rotate #90 "R.Gtr" }
+	} <<
+	    \markupStuff
+	    \clef "treble_8"
+	    \rhythmguitarPart
+	>>
+    >>
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\rhythmguitarPart
+    >>
+    \tag #'(allPart peterPart) <<
+	\new Staff \with {
+	    instrumentName = \markup { \rotate #90 "Lead Guitar" }
+	    shortInstrumentName = \markup { \rotate #90 "L.Gtr" }
+	} <<
+	    \markupStuff
+	    \clef "treble_8"
+	    \leadguitarPart
+	>>
+    >>
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\leadguitarPart
+    >>
+    \tag #'(allPart bassPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Bass" }
+	shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } <<
+	\markupStuff
+	\clef "bass_8"
+	\bassPart
+    >>
+    \tag #'(bassPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+	\markupStuff
+	\bassPart
+    >>
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drumsPart
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiGg) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drumsPart
+    \tag #'(midiPeter) \new Staff \with {
+	midiInstrument = #"distorted guitar" % 30
+    } \leadguitarPart
+    \tag #'(midiPeter) \new Staff \with {
+	midiInstrument = #"distorted guitar" % 30
+    } \rhythmguitarPart
+    \tag #'(midiBass) \new Staff \with {
+	midiInstrument = #"electric bass (finger)" % 33
+    } \bassPart
+    \tag #'(midiSusan) \new Staff \with {
+	midiInstrument = #"steel drums"
+    } \voPart
+    \tag #'(midiKaraoke) \new Staff <<
+	\karaokeLyrics
+	\voPart
+    >>
+>>
