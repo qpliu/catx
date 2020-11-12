@@ -1,0 +1,142 @@
+guitarSixPart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: The Eagles
+% title: Hotel California
+% instrument: Distortion Guitar
+% name: Guitar Solo 2 (Walsh-8)
+    \time 4/4
+    \tempo 4 = 74
+% tuning e, a, d g b e'
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #17
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #25
+    3-4.3t1 |
+    3-3.2t1 |
+    3-2.2t1 |
+    4-6.4t1 |
+    4-5.4t1 |
+    4-4.2t2. 5-5.4t4 |
+    5-7.5t2. 4-4.3t4 \bendAfter #6 ^"½" |
+    4-4.3t2. 6-2t16 5-1t 2t 4t |
+\mymark "Chorus" #33
+    5-5t1 |
+    r8 3-11.10t16 t r 12.12t r 11.10t 12.12t 14.14t 12.12t8 11.10t8. r16 |
+    r1 |
+    5-2t4 4t 5t 4-2t16 r 4t r |
+    4-5t1 |
+    r16 3-14t32 16.15t16. 14t32 16.15t16. 14.15t8 4-16t16 7t 3-7.7.5t 4-x7.x7.x7t 3-12.12t 11t4 |
+    r1 |
+    r1 |
+\mymark "Verse 3" #41
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 4" #49
+    r4. r16 3-16t 2-15t 14t 15t8 t4 |
+    r4. r16 3-15t 2-14t 13t 14t8 t4 |
+    r4. r16 3-14t 2-14t 13t 14t8 t4 |
+    r4. r16 3-13t 2-12t 11t 3-13.12t4. |
+    r4. r16 4-17t 3-16t 15t 16t4. |
+    r4. r16 3-11t 2-10t 9t 10t4. |
+    r4. r16 4-14t 3-12t 11t 12t4 14t16. \bendAfter #6 ^"½" 12t32 |
+    3-15t2. r4 |
+\mymark "Chorus" #57
+    r1 |
+    r1 |
+    r1 |
+    5-2t4 4t 5t 4-2t16 r 4t r |
+    4-5t2. r4 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 5" #65
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 6" #73
+    r4. r16 3-16t 2-15t 14t 15t8 t4 |
+    r4. r16 3-15t 2-14t 13t 14t8 t4 |
+    r4. r16 3-14t 2-14t 13t 14t8 t4 |
+    r4. r16 3-13t 2-12t 11t 3-13.12t4. |
+    r4. r16 4-17t 3-16t 15t 16t4. |
+    r4. r16 3-11t 2-10t 9t 10t4. |
+    r4. r16 4-14t 3-12t 11t 12t4 r8 |
+    r1 |
+\mymark "Solo" #81
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    3-9t16 \bendAfter #6 ^"full" 2-7t 10t 3-9t \bendAfter #6 ^"full" 2-7t 7.7t 3-9t \bendAfter #6 ^"full" 2-7.7t t 3-9t \bendAfter #6 ^"full" 2-7.7t t 3-9t16. \bendAfter #6 ^"full" 7t32 9t16 7t |
+    3-9t2. \bendAfter #6 ^"full" r8. r32 5-x11t64 4-x11t |
+    3-11t4 \bendAfter #6 ^"1½" 9t16 11t 7t8 4-9t 2-10t \bendAfter #6 ^"full" 1-7t 2-10t16 7t |
+    2-10t16 12t 1-10t 2-10t 12.12t 11t 10.12t 9t4~ t16 r8 3-14t~ |
+    3-14t8 \bendAfter #6 ^"full" 16t 2-15t \bendAfter #6 ^"½" 17t16 15t 17t8 \bendAfter #6 ^"full" 1-17t16 2-17t8 \bendAfter #6 ^"full" 15t16 17t 15t |
+    2-17t16 \bendAfter #6 ^"full" 1-15t 16t 17t t \bendAfter #6 ^"full" 2-17t8. \bendAfter #6 ^"full" 15t4 17t8 r16 t32 15t |
+    2-17t8. \bendAfter #6 ^"full" 1-17t8 t16 2-17t8 \bendAfter #6 ^"full" t4 \bendAfter #6 ^"full" t8 \bendAfter #6 ^"full" 15t |
+    2-17t8. \bendAfter #6 ^"full" 17.17t8 \bendAfter #6 ^"full" 1-17t16 2-17t8 \bendAfter #6 ^"full" t4 \bendAfter #6 ^"full" t8 \bendAfter #6 ^"full" 15t32 t16. |
+    1-17t1 \bendAfter #6 ^"full" |
+    r2. r8. 3-x12t32 2-x12t |
+    1-12t8. \bendAfter #6 ^"full" t16 \bendAfter #6 ^"½" t \bendAfter #6 ^"½" t \bendAfter #6 ^"½" t \bendAfter #6 ^"½" t \bendAfter #6 ^"½" t t t t t32 10t 2-12t16 1-12t 10t \bendAfter #6 ^"½" |
+    2-12t4 10t16 3-11t 9t 7t 9t 11t 2-10t8. 3-7t16 9t8 \bendAfter #6 ^"full" |
+    1-7t16 2-7t 10t 4-7t 2-7t 3-7t 9t 4-9t 3-7t 5-9t 4-7t 5-9t 7t 5t 7t 9t |
+    4-7t8 1-7t16 2-7t 10t 7t 3-9t8 \bendAfter #6 ^"full" 7t4. t8 |
+    2-5t4. t8 7t4 8t |
+    2-7t4 r8 1-6t 7t4 9t |
+    1-10t16 2-12t 3-11t 1-10t 2-12t 3-11t 1-10t 2-12t 3-11t 1-10t 2-12t 3-11t 1-10t 2-12t 3-11t8 |
+    1-9t16 2-11t 3-11t 1-9t 2-11t 3-11t 1-9t 2-11t 1-9t32 14t4.~ t16. |
+    1-9t16 2-10t 3-9t 1-9t 2-10t 3-9t 1-9t 2-10t 3-9t 1-9t 2-10t 3-9t 1-9t 2-10t 3-9t8 |
+    1-7t16 2-9t 3-9t 1-7t 2-9t 3-9t 1-7t 2-9t 1-7t32 12t4.~ t16. |
+    1-7t16 2-8t 3-7t 1-7t 2-8t 3-7t 1-7t 2-8t 3-7t 1-7t 2-8t 3-7t 1-7t 2-8t 3-7t8 |
+    1-5t16 2-7t 3-7t 1-5t 2-7t 3-7t 1-5t 2-7t 1-5t32 10t4.~ t16. |
+    1-3t16 2-5t 3-4t 1-3t 2-5t 3-4t 1-3t 2-5t 3-4t 1-3t 2-5t 3-4t 1-3t 2-5t 3-4t8 |
+    1-6t16 2-7t 3-6t 1-6t 2-7t 3-6t 1-6t 2-7t 1-6t32 9t4.~ t16. |
+    1-10t16 2-12t 3-11t 1-10t 2-12t 3-11t 1-10t 2-12t 3-11t 1-10t 2-12t 3-11t 1-10t 2-12t 3-11t8 |
+    1-9t16 2-11t 3-11t 1-9t 2-11t 3-11t 1-9t 2-11t 1-9t32 14t4.~ t16. |
+    1-9t16 2-10t 3-9t 1-9t 2-10t 3-9t 1-9t 2-10t 3-9t 1-9t 2-10t 3-9t 1-9t 2-10t 3-9t8 |
+    1-7t16 2-9t 3-9t 1-7t 2-9t 3-9t 1-7t 2-9t 1-7t32 12t4.~ t16. |
+    1-7t16 2-8t 3-7t 1-7t 2-8t 3-7t 1-7t 2-8t 3-7t 1-7t 2-8t 3-7t 1-7t 2-8t 3-7t8 |
+    1-5t16 2-7t 3-7t 1-5t 2-7t 3-7t 1-5t 2-7t 1-5t32 10t4.~ t16. |
+    1-3t16 2-5t 3-4t 1-3t 2-5t 3-4t 1-3t 2-5t 3-4t 1-3t 2-5t 3-4t 1-3t 2-5t 3-4t8 |
+    1-6t16 2-7t 3-6t 1-6t 2-7t 3-6t 1-6t 2-7t 1-6t32 9t4.~ t16. |
+    3-11.12.10t16 t t t r2. |
+}

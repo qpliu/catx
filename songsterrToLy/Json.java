@@ -199,7 +199,18 @@ final class Json implements Comparable<Json>{
 	this.character = character;
     }
     String stringValue(){
-	return string.toString();
+	StringBuilder sb=new StringBuilder();
+	boolean escape=false;
+	for (int i=0; i<string.length(); i++){
+	    char c=string.charAt(i);
+	    if (!escape && c=='\\')
+		escape = true;
+	    else{
+		escape = false;
+		sb.append(c);
+	    }
+	}
+	return sb.toString();
     }
     boolean booleanValue(){
 	return boolea.booleanValue();

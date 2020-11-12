@@ -1,0 +1,142 @@
+guitarOnePart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: The Eagles
+% title: Hotel California
+% instrument: Electric Guitar (clean)
+% name: 12-String Guitar (Felder, Frey-1)
+    \time 4/4
+    \tempo 4 = 74
+% tuning e, a, d g b e'
+    6-0.2.2.0.0t8 5-2t16 3-0t 4-2t 2-0t 4-2t 3-0t 1-0t4 3-0t8 2.0t |
+    4-1t8 3-2t16 2-0t 5-2t 1-2t 3-2t 2-0t 4-1t2 |
+    4-0t8 3-2t16 1-5t 2-3t 1-0t8 2-3t16 4-0t8 3-2t16 2-3t 5-0t8 3-2t16 2-0t |
+    5-4t8 1-0t16 3-0t 4-2t 2-0t 3-0t t 1-0t2 |
+    5-3t8 1-0t16 3-0t 1-0t 2-1t 4-2t 3-0t 1-0t8 5-3t16 2-1t 4-0t 2t 3-0t8 |
+    4-0t8 3-0t16 2-0t 3-0t 1-3t 4-0t 2-0t 5-2t8 3-0t16 2-0t 6-3t8 4-0t16 2-0t |
+    5-0t8 1-0t16 3-0t 4-2t 2-1t 4-2t 2-1t 1-0t8 4-2t16 3-0t 6-0t8 4-2t16 2-0t |
+    5-2t8 4-1t16 3-2t t 2-0t 4-1t 3-2t 1-2t2 |
+    6-0.2.2.0.0t8 3-0t16 t 1-3t 2-0t t 3-0t 1-0t8 t16 2-0t 3-0t8 2.0t |
+    4-1t8 3-2t16 2-0t 5-2t 1-2t 3-2t 2-0t 4-1t2 |
+    4-0t8 3-2t16 1-5t 2-3t 1-0t8 2-3t16 4-0t8 3-2t16 2-3t 5-0t8 3-2t16 2-0t |
+    5-4t8 1-0t16 3-0t 4-2t 2-0t 3-0t t 1-0t2 |
+    5-3t8 1-0t16 3-0t 1-0t 2-1t 4-2t 3-0t 1-0t8 5-3t16 2-1t 4-0t 2t 3-0t8 |
+    4-0t8 3-0t16 2-0t 3-0t 1-3t 4-0t 2-0t 5-2t8 3-0t16 2-0t 6-3t8 4-0t16 2-0t |
+    5-0t8 1-0t16 3-0t 4-2t 2-1t 4-2t 2-1t 1-0t8 4-2t16 3-0t 6-0t8 4-2t16 2-0t |
+    5-2t8 4-1t16 3-2t t 2-0t 4-1t 3-2t 1-2t2 |
+\mymark "Verse 1" #17
+    4-2t8 2-0t 3-0t16 2-0t 4-2t 3-0t 1-0t8 3-0t16 2-0t 3-0t8 2.0t |
+    4-1t8 3-2t16 2-0t 5-2t 1-2t 3-2t 2-0t 4-1t2 |
+    4-0t8 3-2t16 1-5t 2-3t 1-0t8 2-3t16 4-0t8 3-2t16 2-3t 5-0t8 3-2t16 2-0t |
+    5-4t8 1-0t16 3-0t 4-2t 2-0t 3-0t t 1-0t2 |
+    5-3t8 1-0t16 3-0t 1-0t 2-1t 4-2t 3-0t 1-0t8 5-3t16 2-1t 4-0t 2t 3-0t8 |
+    4-0t8 3-0t16 2-0t 3-0t 1-3t 4-0t 2-0t 5-2t8 3-0t16 2-0t 6-3t8 4-0t16 2-0t |
+    5-0t8 1-0t16 3-0t 4-2t 2-1t 4-2t 2-1t 1-0t8 4-2t16 3-0t 6-0t8 4-2t16 2-0t |
+    5-2t8 4-1t16 3-2t t 2-0t 4-1t 3-2t 1-2t2 |
+\mymark "Verse 2" #25
+    6-0.2.2.0.0.0t4~ t16 t t t t8 t16 t t8 t16 t |
+    5-2.1.2.0.2t8. t16 t t8 t16 t2 |
+    5-0.0.2.3.0t4~ t16 t8 t16 t8 t16 t t8 t |
+    5-4.2.0.0.0t8 t16 t8 t16 t8 t2 |
+    5-3.2.0.1.0t4~ t16 t t t t8 t16 t t8 t16 t |
+    6-3.2.0.0.0.3t4~ t16 t t t t8 t16 t t8 t16 t |
+    5-0.2.0.1.0t8 t16 t t8 t16 t t8 t16 t t8 t16 t |
+    5-2.1.2.0.2t4~ t16 t t t t4. x0.x0.x0t16 t |
+\mymark "Chorus" #33
+    5-3.2.0.1.0t16 t t t8 t16 t t t8 t t t |
+    6-3.2.0.0.0.3t16 t t t8 t t16 t2 |
+    5-2.1.2.0.2t16 t t t8 t t16 t8. t16 t8 t16 t |
+    6-0.2.2.0.0.0t16 t t t8 t16 t t t4 t8 t |
+    5-3.2.0.1.0t16 t t t8 t16 t t t8 t16 t t8 t16 t |
+    6-3.2.0.0.0.3t16 t t t8 t t16 t8. t16 t8 t16 t |
+    5-0.2.2.1t16 t t t8 t16 t t t t t t t8 t16 t |
+    4-1.2.0.2t8 t16 t8 t16 t t t4 t16 t 1.0.0t t |
+\mymark "Verse 3" #41
+    6-0.2.2.0.0.0t8 5-2t16 3-0t 4-2t 2-0t 4-2t 3-0t 1-0t4 3-0t8 2.0t |
+    4-1t8 3-2t16 2-0t 5-2t 1-2t 3-2t 2-0t 4-1t2 |
+    4-0t8 3-2t16 1-5t 2-3t 1-0t8 2-3t16 4-0t8 3-2t16 2-3t 5-0t8 3-2t16 2-0t |
+    5-4t8 1-0t16 3-0t 4-2t 2-0t 3-0t t 1-0t2 |
+    5-3t8 1-0t16 3-0t 1-0t 2-1t 4-2t 3-0t 1-0t8 5-3t16 2-1t 4-0t 2t 3-0t8 |
+    4-0t8 3-0t16 2-0t 3-0t 1-3t 4-0t 2-0t 5-2t8 3-0t16 2-0t 6-3t8 4-0t16 2-0t |
+    5-0t8 1-0t16 3-0t 4-2t 2-1t 4-2t 2-1t 1-0t8 4-2t16 3-0t 6-0t8 4-2t16 2-0t |
+    5-2t8 4-1t16 3-2t t 2-0t 4-1t 3-2t 1-2t4 4-1.2.0.2t |
+\mymark "Verse 4" #49
+    6-0.2.2.0.0.0t8 t16 t t t t t t4 t8 t16 t |
+    5-2.1.2.0.2t8. t16 t t8 t16 t2 |
+    4-0.2.3.0t16 t t t8 t16 t t t4 t8 t16 t |
+    5-4.2.0.0.0t4~ t16 t t t t2 |
+    5-3.2.0.1.0t4~ t16 t t t t8 t16 t t8 t |
+    6-3.2.0.0.0.3t4~ t16 t t t t4 t |
+    5-0.2.0.1.0t8 t16 t t8 t16 t t8 t16 t t8 t16 t |
+    5-2.1.2.0.2t8 t16 t t t t t t4 t16 t t t |
+\mymark "Chorus" #57
+    5-3.2.0.1.0t16 t t t8 t16 t t t8 t t t |
+    6-3.2.0.0.0.3t16 t t t8 t t16 t2 |
+    5-2.1.2.0.2t16 t t t8 t t16 t8. t16 t8 t16 t |
+    6-0.2.2.0.0.0t16 t t t8 t16 t t t4 t8 t |
+    5-3.2.0.1.0t16 t t t8 t16 t t t8 t16 t t8 t16 t |
+    6-3.2.0.0.0.3t16 t t t8 t t16 t8. t16 t8 t16 t |
+    5-0.2.2.1t16 t t t8 t t16 t8 t t t |
+    5-2.1.2.0t1 |
+\mymark "Verse 5" #65
+    6-0.2.2.0.0t8 4-2t16 3-0t 4-2t 2-0t 4-2t 3-0t 1-0t8 2-0t16 1-0t 3-0t8 2.0t |
+    4-1t8 3-2t16 2-0t 3-2t 1-2t 3-2t 2-0t 4-1t4 5-2t8 3-2t16 2-0t |
+    4-0t8 3-2t16 2-3t 3-2t 1-0t 3-2t 2-3t 4-0t8 3-2t16 1-0t 5-0t8 3-2t16 2-0t |
+    5-4t8 4-2t16 3-0t 1-0t 2-0t 4-2t 3-0t 1-0t2 |
+    5-3t8 4-2t16 3-0t 4-2t 5-3t8 3-0t16 1-0t8 5-3t16 3-0t 4-0t 2t 3-0t 2-1t |
+    5-2t8 4-0t16 3-0t 2-3t 0t 3-2t 0t 1-3t2 |
+    5-0t8 4-2t16 3-0t 1-0t 2-1t8 3-0t16 1-0t8 4-2t16 3-0t 6-0t8 g0t16 t |
+    5-2t8 4-1t16 3-2t 4-1t 5-2t 2-0t 3-2t 1-2t2 |
+\mymark "Verse 6" #73
+    6-0.2.2.0.0.0t16 t t8 t16 t t t t8 t16 t t8 t16 t |
+    5-2.1.2.0.2t16 t t t8 t16 t t t8 t16 t t8 t16 t |
+    4-0.2.3.0t4~ t16 t8 t16 t8 t16 t t8 t |
+    5-4.2.0.0.0t8 t16 t8 t16 t8 t2 |
+    5-3.2.0.1.0t4~ t16 t t t t8 t16 t t8 t16 t |
+    6-3.2.0.0.0.3t4~ t16 t t t t8 t16 t t8 t16 t |
+    5-0.2.0.1.0t8 t16 t t8 t16 t t8 t16 t t8 t16 t |
+    5-2.1.2.0.2t4~ t16 t t t t4. x0.x0.x0t16 t |
+\mymark "Solo" #81
+    6-0.2.2.0.0.0t4~ t16 t t t t8 t16 t t8 t16 t |
+    5-2.1.2.0.2t8. t16 t t8 t16 t2 |
+    4-0.2.3.2t4~ t16 t8 t16 t8 t16 t t8 t |
+    5-4.2.0.0.0t8 t16 t8 t16 t8 t2 |
+    5-3.2.0.1.0t4~ t16 t t t t8 t16 t t8 t16 t |
+    6-3.2.0.0.0.3t4~ t16 t t t t8 t16 t t8 t16 t |
+    5-0.2.0.1.0t8 t16 t t8 t16 t t8 t16 t t8 t16 t |
+    5-2.1.2.0.2t4~ t16 t t t t4. x0.x0.x0t16 t |
+    6-0.2.2.0.0.0t4~ t16 t t t t8 t16 t t8 t16 t |
+    5-2.1.2.0.2t8. t16 t t8 t16 t2 |
+    4-0.2.3.2t4~ t16 t8 t16 t8 t16 t t8 t |
+    5-4.2.0.0.0t8 t16 t8 t16 t8 t2 |
+    5-3.2.0.1.0t4~ t16 t t t t8 t16 t t8 t16 t |
+    6-3.2.0.0.0.3t4~ t16 t t t t8 t16 t t8 t16 t |
+    5-0.2.0.1.0t8 t16 t t8 t16 t t8 t16 t t8 t16 t |
+    5-2.1.2.0.2t4~ t16 t t t t4. x0.x0.x0t16 t |
+    6-0.2.2.0.0.0t4~ t16 t t t t8 t16 t t8 t16 t |
+    5-2.1.2.0.2t8. t16 t t8 t16 t2 |
+    4-0.2.3.2t4~ t16 t8 t16 t8 t16 t t8 t |
+    5-4.2.0.0.0t8 t16 t8 t16 t8 t2 |
+    5-3.2.0.1.0t4~ t16 t t t t8 t16 t t8 t16 t |
+    6-3.2.0.0.0.3t4~ t16 t t t t8 t16 t t8 t16 t |
+    5-0.2.0.1.0t8 t16 t t8 t16 t t8 t16 t t8 t16 t |
+    5-2.1.2.0.2t4~ t16 t t t t4. x0.x0.x0t16 t |
+    6-0.2.2.0.0.0t4~ t16 t t t t8 t16 t t8 t16 t |
+    5-2.1.2.0.2t8. t16 t t8 t16 t2 |
+    4-0.2.3.2t4~ t16 t8 t16 t8 t16 t t8 t |
+    5-4.2.0.0.0t8 t16 t8 t16 t8 t2 |
+    5-3.2.0.1.0t4~ t16 t t t t8 t16 t t8 t16 t |
+    6-3.2.0.0.0.3t4~ t16 t t t t8 t16 t t8 t16 t |
+    5-0.2.0.1.0t8 t16 t t8 t16 t t8 t16 t t8 t16 t |
+    5-2.1.2.0.2t4~ t16 t t t t4. x0.x0.x0t16 t |
+    6-0.2.2.0.0.0t4~ t16 t t t t8 t16 t t8 t16 t |
+    5-2.1.2.0.2t8. t16 t t8 t16 t2 |
+    4-0.2.3.2t4~ t16 t8 t16 t8 t16 t t8 t |
+    5-4.2.0.0.0t8 t16 t8 t16 t8 t2 |
+    5-3.2.0.1.0t4~ t16 t t t t8 t16 t t8 t16 t |
+    6-3.2.0.0.0.3t4~ t16 t t t t8 t16 t t8 t16 t |
+    5-0.2.0.1.0t8 t16 t t8 t16 t t8 t16 t t8 t16 t |
+    5-2.1.2.0.2t4~ t16 t t t t4. x0.x0.x0t16 t |
+    6-0.2.2.0.0.0t16 t t t r2. |
+}

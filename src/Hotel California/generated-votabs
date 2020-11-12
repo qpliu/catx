@@ -1,0 +1,142 @@
+voPart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: The Eagles
+% title: Hotel California
+% instrument: Tenor Sax
+% name: Vocals (Henley)
+    \time 4/4
+    \tempo 4 = 74
+% tuning e, a, d g b e'
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #17
+    r8 2-5t16 1-2t t8 2-5t16 t t8 1-0t16 2t r4 |
+    r8 1-0t16 2t \tuplet 3/2 { t8 2-5t t } t4 r |
+    r8 1-0t16 2t t 0t 2-5t t t8 1-0t16 2t r4 |
+    \tuplet 3/2 { r8 1-2t t t 2-5t t } t8. 3t16 0t8 r |
+    r8 1-2t16 3t 2t8 2-5t16 3t 5t8 1-2t r4 |
+    r16 2-3t 5t 1-2t \tuplet 3/2 { t8 2-5t 3t } t4 r |
+    r16 5-3t 2-5t t t t t 3t 5t8 3t16 1-0t 2t8 r |
+    r16 5-5t 1-2t t \tuplet 3/2 { t8 2-5t t } 1-0t16 2t8. r4 |
+\mymark "Verse 2" #25
+    r8 1-2t16 t r 3t 2t t 3t8 2t r4 |
+    r16 5-4t 1-2t t \tuplet 3/2 { t8 2-5t t4~ t16 } r4. |
+    r8. 6-5t16 2-5t t t 3t 5t t8 1-2t t16 t t |
+    \tuplet 3/2 { 1-2t8 t t t 2-5t t r t 3t } 0t r |
+    r8 1-2t16 t \tuplet 3/2 { t8 2-5t 3t } t 1-0t16 2t r4 |
+    r8 3-4t16 2t 1-2t8 2-5t16 3t 3-7t 4t 2t8 r4 |
+    r8 2-5t16 t t t t 3t r 5t 3t 1-0t 2t8 r |
+    r16 2-5t 1-2t 2-5t 1-2t8 5t16 6t 0t4 r |
+\mymark "Chorus" #33
+    r8 3-4.3.3t16 7.8.7t8 t16 t t8 t8. t16 9.10.9t 7.8.7t 7~.8.7t |
+    3-7.7.5t16 t8 r2 r8. 1-2t16 t |
+    1-2t16 0t 2-5t t8. 3-6.7.6t16 t t 6.5.4t t t8. 2-3t16 5t |
+    2-5t16 3t t t8. r2 r8 |
+    3-7.7.5t16 7.8.7t t t8 t t16 t8 t t16 9.10.9t 7.8.7t 7~.8.7t |
+    3-7.7.5t16 t8 r2 r8. 2-5t16 1-2t |
+    1-2t16 0t 2-5t t8. 5.3t16 7.5t t 5.3t t t8. 5t16 1-3t |
+    1-3t16 2t t t8. r2 r8 |
+\mymark "Verse 3" #41
+    r16 1-2t t t \tuplet 3/2 { 3t8 2t t } t 2-5t r4 |
+    r16 1-2t t t t8 2-5t16 t8 1-0t16 2t8 2-3t r |
+    r16 2-5t t t t t 1-2t 2-5t r 1-2t 2-5t 1-0t 2t8 r |
+    r8. 2-3t16 1-2t 2-5t8 t 3t16 0t8 r4 |
+    r8 2-5t16 1-2t t8 2-5t16 3t t8 1-0t16 2t r4 |
+    \tuplet 3/2 { 1-2t2 2-5t8 3t } t4 r |
+    r8 2-5t t t16 3t 1-0t 2t 2-3t 5t8. r8 |
+    r8 1-2t t 2-5t16 t8 1-0t16 2t8 r4 |
+\mymark "Verse 4" #49
+    r8 2-5t16 t 1-2t8 t16 t 3t8 2t r4 |
+    r16 1-2t8. t8 2-5t16 t8 1-0t16 2t8 r16 2-3t 2t 3-2t |
+    r16 2-5t \tuplet 3/2 { t8 t16 } t8 t t16 t8 1-2t8. 2-0t8 |
+    r8 2-3t16 7t 1-2t 2-5t8 t16 t 3t 0t8 r4 |
+    r8 2-5.3t16 7.5t t8 t t16 3.2t t t8 5.3t16 7.5t8 |
+    2-5.3t16 7.5t4 5.3t16 3.2t 3-7.7t4. 4.5t16 2.3t8 |
+    r8 2-2t16 t 5t r t 3t 5t t t 3t 1-0t 2t r8 |
+    r8 1-2t16 2-5t 1-2t8 4t16 7t 0t4 2t |
+\mymark "Chorus" #57
+    r8 3-7.8.7t16 t8 t16 t t8 t8. t16 9.10.9t 7.8.7t 7~.8.7t |
+    3-7.7.5t16 t8 r2 r8. 1-2t16 t |
+    1-2t16 0t 2-5t t8. 3-6.7.6t16 t t 6.5.4t t t8. 2-5t16 t |
+    2-5t16 3t t 3-7t 2t8 r2 r16 4.3.3t |
+    3-7.7.5t16 7.8.7t t t r t r t t8 t t16 9.10.9t 7.8.7t 7~.8.7t |
+    3-7.7.5t16 t8 r2 r8. 2-5t16 1-2t |
+    1-2t16 0t 2-5t t8. 5.3t16 7.5t t 5.3t t t8. 1-2t16 3t |
+    1-3t16 2t t t2~ t16 r4 |
+\mymark "Verse 5" #65
+    r8 1-2t16 t8 3t 2t16 3t8 0t16 2t r4 |
+    r16 4-4t 1-2t \tuplet 3/2 { t8.~ t32 t8 2-5t } 1-0t16 2t r 3-x3t x4t x1t r8 |
+    r8 1-2t16 2-5t t8 t \tuplet 3/2 { 1-2t 2-5t t } 1-0t16 2t r8 |
+    r8 2-5t16 1-2t \tuplet 3/2 { t8 0t 2-3t } t4 r |
+    r16 5-5t 1-2t \tuplet 3/2 { t8.~ t32 t8 0t } 2-3t 1-0t16 2t r4 |
+    \tuplet 3/2 { r8 4-4t 1-2t 2-5t t 3t } t4 r |
+    r16 5-5t8 2-5t16 \tuplet 3/2 { t8 t 3t4 5t8 3t } 1-0t16 2t 2-5t 3t |
+    1-2t8 t8. t8 2-5t16 1-0t 2t8. r4 |
+\mymark "Verse 6" #73
+    r8 1-2t t16 3t8 2t16 3t8 1t16 2t r8 2-3t16 3-4t |
+    r8 1-2t16 t8 t16 2-5t 1-0t 2t4 r |
+    r8. 3-2t16 2-5t t t t \tuplet 3/2 { t8 t 1-2t8.~ t32 } r16 t t |
+    1-2t8 t t16 0t 2-3t 5t8 3t16 0t8 r4 |
+    r8 2-3t16 1-2t8. 2-5t16 3t t8 1-0t16 2t r8 2-3t16 0t |
+    r8 2-3t16 t8 t16 3-4t8 4-14t 2t r4 |
+    r8 2-5t16 t t t t 3t8 5t 3t16 1-0t 2t r8 |
+    r16 1-2t t t8 6t16 2t 1t 2t 1t 2t8 r4 |
+\mymark "Solo" #81
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

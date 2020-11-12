@@ -43,11 +43,12 @@ def setScale(a):
 
 def setTuning(a):
     global tuning
+    a = a.strip()
     tuning = a.split()
     tuning.reverse()
     for i in xrange(1,len(tuning)):
 	if (ly2int(tuning[i])>=ly2int(tuning[i-1])):
-	    raise Exception('Non decreasing tuning '+a)
+	    sys.stderr.write('\nNon decreasing tuning %s\n\n'%a)
 
 def int2ly(a):
     ly = ''

@@ -1,0 +1,142 @@
+guitarTwoPart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: The Eagles
+% title: Hotel California
+% instrument: Electric Guitar (clean)
+% name: Acoustic Guitar (Walsh-2)
+    \time 4/4
+    \tempo 4 = 74
+% tuning e, a, d g b e'
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    4-0t2 2t4 4t |
+    4-2t4. 0t8 5-4t2 |
+    5-4t2 4-0t4 2t |
+    5-2t16 4-4t 0t 3-1t 5-2t 4-0t 3-1t 2-0t 1-0t2 |
+    5-2t2 4t4 4-0t |
+    6-2.0t2 5-0.4.2.3t4 5.4.2t |
+    6-0.2t8 3-0t16 2-0t 1-0t 2-0t 3-0t 2-0t 4-4t 3-2t 2-0t 1-0t 4-5t 3-4t 2-0t 1-0t |
+    6-g2t16 4-4t 3-3t 2-0t 3-3t 4-4t 3-3t 2-0t 1-2t2 |
+\mymark "Verse 1" #17
+    5-2t16 t 4-4t 3-4t r2. |
+    6-2t16 t 5-4t 4-4t r2. |
+    6-5t16 t 5-7t 4-7t r2. |
+    6-0t16 t 5-2t 4-2t r2. |
+    6-3t16 t 5-5t 4-5t r2. |
+    5-5t16 t 4-7t 3-7t r2. |
+    6-0t16 t 5-2t 4-2t r2. |
+    6-2t16 t 5-4t 4-4t r2. |
+\mymark "Verse 2" #25
+    5-2t16 t 4-4t 3-4t r2. |
+    6-2t16 t 5-4t 4-4t r2. |
+    6-5t16 t 5-7t 4-7t r2. |
+    6-0t16 t 5-2t 4-2t r2. |
+    6-3t16 t 5-5t 4-5t r2. |
+    5-5t16 t 4-7t 3-7t r2. |
+    6-0t16 t 5-2t 4-2t r2. |
+    6-2t16 t 5-4t 4-4t r2. |
+\mymark "Chorus" #33
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 3" #41
+    5-2t16 t 4-4t 3-4t r2. |
+    6-2t16 t 5-4t 4-4t r2. |
+    6-5t16 t 5-7t 4-7t r2. |
+    6-0t16 t 5-2t 4-2t r2. |
+    6-3t16 t 5-5t 4-5t r2. |
+    5-5t16 t 4-7t 3-7t r2. |
+    6-0t16 t 5-2t 4-2t r2. |
+    6-2t16 t 5-4t 4-4t r2. |
+\mymark "Verse 4" #49
+    5-2t16 t 4-4t 3-4t r2. |
+    6-2t16 t 5-4t 4-4t r2. |
+    6-5t16 t 5-7t 4-7t r2. |
+    6-0t16 t 5-2t 4-2t r2. |
+    6-3t16 t 5-5t 4-5t r2. |
+    5-5t16 t 4-7t 3-7t r2. |
+    6-0t16 t 5-2t 4-2t r2. |
+    6-2t16 t 5-4t 4-4t r2. |
+\mymark "Chorus" #57
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 5" #65
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 6" #73
+    5-2t16 t 4-4t 3-4t r2. |
+    6-2t16 t 5-4t 4-4t r2. |
+    6-5t16 t 5-7t 4-7t r2. |
+    6-0t16 t 5-2t 4-2t r2. |
+    6-3t16 t 5-5t 4-5t r2. |
+    5-5t16 t 4-7t 3-7t r2. |
+    6-0t16 t 5-2t 4-2t r2. |
+    6-2t16 t 5-4t 4-4t r2. |
+\mymark "Solo" #81
+    5-2t16 t 4-4t 3-4t r2. |
+    6-2t16 t 5-4t 4-4t r2. |
+    6-5t16 t 5-7t 4-7t r2. |
+    6-0t16 t 5-2t 4-2t r2. |
+    6-3t16 t 5-5t 4-5t r2. |
+    5-5t16 t 4-7t 3-7t r2. |
+    6-0t16 t 5-2t 4-2t r2. |
+    6-2t16 t 5-4t 4-4t r2. |
+    5-2t16 t 4-4t 3-4t r2. |
+    6-2t16 t 5-4t 4-4t r2. |
+    6-5t16 t 5-7t 4-7t r2. |
+    6-0t16 t 5-2t 4-2t r2. |
+    6-3t16 t 5-5t 4-5t r2. |
+    5-5t16 t 4-7t 3-7t r2. |
+    6-0t16 t 5-2t 4-2t r2. |
+    6-2t16 t 5-4t 4-4t r2. |
+    5-2t16 t 4-4t 3-4t r2. |
+    6-2t16 t 5-4t 4-4t r2. |
+    6-5t16 t 5-7t 4-7t r2. |
+    6-0t16 t 5-2t 4-2t r2. |
+    6-3t16 t 5-5t 4-5t r2. |
+    5-5t16 t 4-7t 3-7t r2. |
+    6-0t16 t 5-2t 4-2t r2. |
+    6-2t16 t 5-4t 4-4t r2. |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    5-2.4.4.3.2t16 t t t r2. |
+}
