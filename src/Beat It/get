@@ -1,14 +1,14 @@
 #!/bin/sh
 WHERE="/share/mirror/songsterr/stuff/d-keep/d-Michael Jackson/d-Beat It-s10259/d-r399557"
-gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --no-string-numbers --name voPart --output-tabs - >generated-votabs
-gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --no-string-numbers --name voLyrics --lyrics - >generated-lyrics
+gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --name voPart --output-tabs - >generated-votabs
+gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --name voLyrics --lyrics - >generated-lyrics
 gzip -d <"$WHERE/z-t1"|java -jar ../../songsterrToLy/1.jar --name sologuitarPart --output-tabs - >generated-sologuitartabs
 gzip -d <"$WHERE/z-t2"|java -jar ../../songsterrToLy/1.jar --name leadguitarPart --output-tabs - >generated-leadguitartabs
 gzip -d <"$WHERE/z-t3"|java -jar ../../songsterrToLy/1.jar --name rhythmguitarPart --output-tabs - >generated-rhythmguitartabs
 gzip -d <"$WHERE/z-t4"|java -jar ../../songsterrToLy/1.jar --name bassPart --output-tabs - >generated-basstabs
 gzip -d <"$WHERE/z-t5"|java -jar ../../songsterrToLy/1.jar --name synthPart --output-tabs - >generated-synthtabs
 gzip -d <"$WHERE/z-t6"|java -jar ../../songsterrToLy/1.jar --name drumsPart - >generated-drums
-gzip -d <"$WHERE/z-t7"|java -jar ../../songsterrToLy/1.jar --no-string-numbers --name backupvoPart --output-tabs - >generated-backupvotabs
+gzip -d <"$WHERE/z-t7"|java -jar ../../songsterrToLy/1.jar --name backupvoPart --output-tabs - >generated-backupvotabs
 
 # Usage: java SongsterrToLy [options] url
 # url is something like https://www.songsterr.com/a/wsa/momoiro-clover-z-moon-pride-tab-s456232t0 or - for stdin.

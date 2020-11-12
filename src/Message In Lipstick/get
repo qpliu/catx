@@ -2,14 +2,14 @@
 set -e -o pipefail
 GET="java -jar ../../songsterrToLy/1.jar"
 WHERE="/share/mirror/songsterr/stuff/d-keep/d-Rouge No Dengon/d-Rouge No Dengon-s466386/d-r405308"
-# gzip -d <"$WHERE/z-t0"|$GET --shift -6 --name pianoPart --no-string-numbers --output-tabs - >generated-piano
+# gzip -d <"$WHERE/z-t0"|$GET --shift -6 --name pianoPart --output-tabs - >generated-piano
 # gzip -d <"$WHERE/z-t1"|$GET --shift -6 --name guitarPart --output-tabs - >generated-guitartabs
-# gzip -d <"$WHERE/z-t2"|$GET --shift -6 --name vocalPart --no-string-numbers --output-tabs - >generated-vocal
-# gzip -d <"$WHERE/z-t3"|$GET --shift -6 --name stringsPart --no-string-numbers --output-tabs - >generated-strings
-# gzip -d <"$WHERE/z-t4"|$GET --shift -6 --name backingVocalsPart --no-string-numbers --output-tabs - >generated-backingvocals
-# gzip -d <"$WHERE/z-t5"|$GET --shift -6 --name stringsTwoPart --no-string-numbers --output-tabs - >generated-strings2
-# gzip -d <"$WHERE/z-t6"|$GET --shift -6 --name oohsPart --no-string-numbers --output-tabs - >generated-oohs
-# gzip -d <"$WHERE/z-t7"|$GET --shift -6 --name drumsPart --no-string-numbers - >generated-drums
+# gzip -d <"$WHERE/z-t2"|$GET --shift -6 --name vocalPart --output-tabs - >generated-vocal
+# gzip -d <"$WHERE/z-t3"|$GET --shift -6 --name stringsPart --output-tabs - >generated-strings
+# gzip -d <"$WHERE/z-t4"|$GET --shift -6 --name backingVocalsPart --output-tabs - >generated-backingvocals
+# gzip -d <"$WHERE/z-t5"|$GET --shift -6 --name stringsTwoPart --output-tabs - >generated-strings2
+# gzip -d <"$WHERE/z-t6"|$GET --shift -6 --name oohsPart --output-tabs - >generated-oohs
+# gzip -d <"$WHERE/z-t7"|$GET --shift -6 --name drumsPart - >generated-drums
 # gzip -d <"$WHERE/z-t8"|$GET --shift -6 --name bassPart --output-tabs - >generated-basstabs
 
 # Usage: java SongsterrToLy [options] url

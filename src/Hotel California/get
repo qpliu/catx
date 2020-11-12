@@ -1,7 +1,7 @@
 #!/bin/sh
 WHERE="/share/mirror/songsterr/stuff/d-keep/d-The Eagles/d-Hotel California-s447/d-r414164"
 
-gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --no-string-numbers --name voPart --output-tabs - >generated-votabs
+gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --name voPart --output-tabs - >generated-votabs
 gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --name voLyrics --lyrics - >generated-lyrics
 gzip -d <"$WHERE/z-t1"|java -jar ../../songsterrToLy/1.jar --name guitarOnePart --output-tabs - >generated-guitar1tabs
 gzip -d <"$WHERE/z-t2"|java -jar ../../songsterrToLy/1.jar --name guitarTwoPart --output-tabs - >generated-guitar2tabs
