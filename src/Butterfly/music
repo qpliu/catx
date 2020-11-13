@@ -85,6 +85,6 @@ midimusic = <<
     } \stringsPart
     \tag #'(midiKaraoke) \new Staff <<
 	\karaokeLyrics
-	\transpose c c, \voPart
+	\voPart
     >>
 >>

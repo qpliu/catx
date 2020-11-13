@@ -1,9 +1,9 @@
 karaokeLyrics = \new Lyrics \lyricmode {
 -8
-"@>"2 @
+">@"2 @
 @2 @
-"!bg=4"2 "!bg=3"
-"!bg=2"2 "!bg=1"
+"@|!bg=4"2 "@|!bg=3"
+"@|!bg=2"2 "@|!bg=1"
 "Ai|!bg="4
 \skip8
 "yai"8
@@ -29,10 +29,10 @@ karaokeLyrics = \new Lyrics \lyricmode {
 "-mu"8
 "-rai"8
 -8
-"@>"2 @
+">@"2 @
 @2 @
-"!bg=4"2 "!bg=3"
-"!bg=2"2 "!bg=1"
+"@|!bg=4"2 "@|!bg=3"
+"@|!bg=2"2 "@|!bg=1"
 "I've|!bg="8
 "been"8
 "sear"8.
@@ -90,22 +90,22 @@ karaokeLyrics = \new Lyrics \lyricmode {
 "your"8
 "lit"8
 "-tle"8
-"but"8
+"but|!bg=img=../butterfly.png"8
 "-ter"8
 "-fly"4
--4
+"-|!bg="4
 ">Green,"4
 "black"8
 "and"8
 "blue"4
 ">Make"8
 "the"8
-"co"8
+"co|!bg=img=../rainbow.png"8
 "-lors"8
 "in"8
 "the"8
 "sky"4
--4
+"-|!bg="4
 ">Ai,"4
 "ai,"8
 \skip8
@@ -114,25 +114,25 @@ karaokeLyrics = \new Lyrics \lyricmode {
 "your"8
 "lit"8
 "-tle"8
-"but"8
+"but|!bg=img=../butterfly.png"8
 "-ter"8
 "-fly"4
--4
+"-|!bg="4
 ">Green,"4
 "black"8
 "and"8
 "blue"4
 ">Make"8
 "the"8
-"co"8
+"co|!bg=img=../rainbow.png"8
 "-lors"8
 "in"8
 "the"8
 "sky"4
-"@>"2 @
+">@|!bg="2 @
 @2 @
-"!bg=4"2 "!bg=3"
-"!bg=2"2 "!bg=1"
+"@|!bg=4"2 "@|!bg=3"
+"@|!bg=2"2 "@|!bg=1"
 "I've|!bg="8
 "been"8
 "sear"8.
@@ -191,22 +191,22 @@ karaokeLyrics = \new Lyrics \lyricmode {
 "your"8
 "lit"8
 "-tle"8
-"but"8
+"but|!bg=img=../butterfly.png"8
 "-ter"8
 "-fly"4
--4
+"-|!bg="4
 ">Green,"4
 "black"8
 "and"8
 "blue"4
 ">Make"8
 "the"8
-"co"8
+"co|!bg=img=../rainbow.png"8
 "-lors"8
 "in"8
 "the"8
 "sky"4
--4
+"-|!bg="4
 ">Ai,"4
 "ai,"8
 \skip8
@@ -215,22 +215,22 @@ karaokeLyrics = \new Lyrics \lyricmode {
 "your"8
 "lit"8
 "-tle"8
-"but"8
+"but|!bg=img=../butterfly.png"8
 "-ter"8
 "-fly"4
--4
+"-|!bg="4
 ">Green,"4
 "black"8
 "and"8
 "blue"4
 ">Make"8
 "the"8
-"co"8
+"co|!bg=img=../rainbow.png"8
 "-lors"8
 "in"8
 "the"8
 "sky"4
--4
+"-|!bg="4
 -8
 ">Ai"4
 \skip8
@@ -317,22 +317,22 @@ karaokeLyrics = \new Lyrics \lyricmode {
 "your"8
 "lit"8
 "-tle"8
-"but"8
+"but|!bg=img=../butterfly.png"8
 "-ter"8
 "-fly"4
--4
+"-|!bg="4
 ">Green,"4
 "black"8
 "and"8
 "blue"4
 ">Make"8
 "the"8
-"co"8
+"co|!bg=img=../rainbow.png"8
 "-lors"8
 "in"8
 "the"8
 "sky"4
--4
+"-|!bg="4
 ">Ai,"4
 "ai,"8
 \skip8
@@ -341,22 +341,22 @@ karaokeLyrics = \new Lyrics \lyricmode {
 "your"8
 "lit"8
 "-tle"8
-"but"8
+"but|!bg=img=../butterfly.png"8
 "-ter"8
 "-fly"4
--4
+"-|!bg="4
 ">Green,"4
 "black"8
 "and"8
 "blue"4
 ">Make"8
 "the"8
-"co"8
+"co|!bg=img=../rainbow.png"8
 "-lors"8
 "in"8
 "the"8
 "sky"4
--4
+"-|!bg="4
 -8
 ">Ai"4
 \skip8
