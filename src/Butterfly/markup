@@ -1,0 +1,22 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \key b \major
+    \tempo 4 = 135
+\mymark "Intro" #1
+    s1*12 |
+\mymark "Verse 1" #13
+    s1*8 |
+\mymark "Chorus 1" #21
+    s1*12 |
+\mymark "Verse 2" #33
+    s1*8 |
+\mymark "Chorus 2" #41
+    s1*16 |
+\mymark "Bridge" #57
+% copy measures 57,58,59 to after 60
+    s1*8 |
+\mymark "Outro" #65
+    s1*20 |
+\mybarNumberCheck #85
+    \bar "|."
+}

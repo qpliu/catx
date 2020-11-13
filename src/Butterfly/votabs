@@ -1,0 +1,96 @@
+voPart = {
+% tuning e, a, d g b e'
+    \myVocalsStuff
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r8 1-4t4( 5t8) 4t( 2t) 0t r |
+    r8 1-4t4( 5t8) 7t( 4t) 0t r |
+    r8 1-2t4( 4t8) 2t( 2-4t) 0t4 |
+    2-7t8 1-4t 2-7t 1-0t 2-2t r4. |
+    r1 |
+    r1 |
+    r1 |
+    r2. 3-1t8 t |
+\mymark "Verse 1" #13
+    2-2t8. t16 t8 4t 1-0t r4. |
+    1-0t8. t16 t8 2t 4t r4. |
+    1-2t4 t8( 2-4t) 0t4 4t |
+    1-0t8 2t 0t 2-4t 2t4 r |
+    2-2t8. t16 t8 4t 1-0t r4 3-1t8 |
+    1-0t8. t16 t8 2t 4t r4. |
+    1-2t4 t8( 2-4t) 0t4 4t |
+    1-0t8 2t 0t 2-4t 2t r4. |
+\mymark "Chorus 1" #21
+    2-9t4 t8( 1-7t) 9t4 2-9t8 1-7t |
+    1-9t8 12t 9t 7t 2-9t4 r |
+    2-7t4 t8 1-4t 7t4 4t8 0t |
+    1-2t8 4t 2t 0t 2-2t4 r |
+    2-9t4 t8( 1-7t) 9t4 2-9t8 1-7t |
+    1-9t8 12t 9t 7t 2-9t4 r |
+    2-7t4 t8 1-4t 7t4 4t8 0t |
+    1-2t8 4t 2t 0t 2-2t4 r |
+    r1 |
+    r1 |
+    r1 |
+    r2. 3-1t8 t |
+\mymark "Verse 2" #33
+    2-2t8. t16 t8 4t 1-0t r4. |
+    1-0t8. t16 t8 2t 4t r4. |
+    1-2t4 t8( 2-4t) 0t4 4t |
+    1-0t8 2t 0t 2-4t 2t4 r8 3-1t |
+    2-2t8. t16 t8 4t 1-0t r4 3-1t8 |
+    1-0t8. t16 t8 2t 4t r4. |
+    1-2t4 t8( 2-4t) 0t4 4t |
+    1-0t8 2t 0t 2-4t 2t r4. |
+\mymark "Chorus 2" #41
+    2-9t4 t8( 1-7t) 9t4 2-9t8 1-7t |
+    1-9t8 12t 9t 7t 2-9t4 r |
+    2-7t4 t8 1-4t 7t4 4t8 0t |
+    1-2t8 4t 2t 0t 2-2t4 r |
+    2-9t4 t8( 1-7t) 9t4 2-9t8 1-7t |
+    1-9t8 12t 9t 7t 2-9t4 r |
+    2-7t4 t8 1-4t 7t4 4t8 0t |
+    1-2t8 4t 2t 0t 2-2t4 r |
+    r8 1-4t4( 5t8) 4t( 2t) 0t r |
+    r8 1-4t4( 5t8) 7t( 4t) 0t r |
+    r8 1-2t4( 4t8) 2t( 2-4t) 0t4 |
+    2-7t8 1-4t 2-7t 1-0t 2-2t r4. |
+    r8 1-4t4( 5t8) 4t( 2t) 0t r |
+    r8 1-4t4( 5t8) 7t( 4t) 0t r |
+    r8 1-2t4( 4t8) 2t( 2-4t) 0t4 |
+    2-7t8 1-4t 2-7t 1-0t 2-2t r4. |
+\mymark "Bridge" #57
+    2-14t16( 12t 14t2) r4. |
+    r1 |
+    1-14t16( 13t 14t2) r4. |
+    1-12t16( 11t 12t2) r4. |
+    2-14t16( 12t 14t2) r4. |
+    r1 |
+    1-14t16( 13t 14t2) r4. |
+    1-12t16( 11t 12t2) r4. |
+\mymark "Outro" #65
+    2-9t4 t8( 1-7t) 9t4 2-9t8 1-7t |
+    1-9t8 12t 9t 7t 2-9t4 r |
+    2-7t4 t8 1-4t 7t4 4t8 0t |
+    1-2t8 4t 2t 0t 2-2t4 r |
+    2-9t4 t8( 1-7t) 9t4 2-9t8 1-7t |
+    1-9t8 12t 9t 7t 2-9t4 r |
+    2-7t4 t8 1-4t 7t4 4t8 0t |
+    1-2t8 4t 2t 0t 2-2t4 r |
+    r8 1-4t4( 5t8) 4t( 2t) 0t r |
+    r8 1-4t4( 5t8) 7t( 4t) 0t r |
+    r8 1-2t4( 4t8) 2t( 2-4t) 0t4 |
+    2-7t8 1-4t 2-7t 1-0t 2-2t r4. |
+    r8 1-4t4( 5t8) 4t( 2t) 0t r |
+    r8 1-4t4( 5t8) 7t( 4t) 0t r |
+    r8 1-2t4( 4t8) 2t( 2-4t) 0t4 |
+    2-7t8 1-4t 2-7t 1-0t 2-2t r4. |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mybarNumberCheck #85
+}
