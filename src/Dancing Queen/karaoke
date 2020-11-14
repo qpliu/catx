@@ -231,8 +231,8 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "-ing"8.
     "queen"2
     \skip8
+    -1
     ">@"2 @
-    @2 @
     @2 @
     "@|!bg=4"2 "@|!bg=3"
     "@|!bg=2"2 "@|!bg=1"
@@ -368,7 +368,8 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "queen"2
     \skip8
     -1
+    @@8
+    -2 -4 -8
     -1
     -1
-    -2 -4 -8 @@
 }

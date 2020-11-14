@@ -89,19 +89,19 @@ karaokeLyrics = \new Lyrics \lyricmode {
 \mymark "Bridge" #83
     "beat"8 "it," "beat" "it," "beat" "it," "beat" "it."
     -2 ">Beat"8 "it," "beat" "it,"
-    "beat"8 "it." -2 -4
-    ">@"2
-    "@|!bg=4"2 "@|!bg=3"
+    "beat"8 "it." -1 -4
+    ">@|!bg=4"2 "@|!bg=3"
     "@|!bg=2"2 "@|!bg=1"
     "Beat|!bg="8 "it," "beat" "it,"
     "beat"8 "it," "beat" "it." -2
-    "Beat"8 "it," "beat" "it." -2
-    ">@"2 @
+    "Beat"8 "it," "beat" "it."
+    -1
+    ">@"2
     "@|!bg=4"2 "@|!bg=3"
     "@|!bg=2"2 "@|!bg=1"
     "Beat|!bg="8 "it," "beat" "it," "beat" "it." -4
+    -1
     ">@"2 @
-    @2 @
     @2 @
     @2 @
 \mymark "Solo" #99
