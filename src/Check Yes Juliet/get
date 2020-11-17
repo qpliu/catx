@@ -2,4 +2,4 @@
 java -jar ../../songsterrToLy/1.jar --name lguitar > gen-lguitartabs --output-tabs https://www.songsterr.com/a/wsa/we-the-kings-check-yes-juliet-tab-s24151t0
 java -jar ../../songsterrToLy/1.jar --name rguitar > gen-rguitartabs --output-tabs https://www.songsterr.com/a/wsa/we-the-kings-check-yes-juliet-tab-s24151t1
 java -jar ../../songsterrToLy/1.jar --name bass > gen-basstabs --output-tabs https://www.songsterr.com/a/wsa/we-the-kings-check-yes-juliet-bass-tab-s24151t2
-java -jar ../../songsterrToLy/1.jar --name drs > gen-drums https://www.songsterr.com/a/wsa/we-the-kings-check-yes-juliet-drum-tab-s24151t3
+#java -jar ../../songsterrToLy/1.jar --name drs > gen-drums https://www.songsterr.com/a/wsa/we-the-kings-check-yes-juliet-drum-tab-s24151t3
