@@ -78,6 +78,7 @@
     const settings=new Settings(document.getElementById("settingsInputs"));
     const chatDiv=document.getElementById("chatDiv");
     const chatForm=document.getElementById("chatForm");
+    const chatInput=document.getElementById("chatInput");
     const cats=new Cats(document.getElementById("cat_div"));
     const background=new Background(document.getElementById("bg_div"));
     const tones=new Tones(document.getElementById("topStuff"));
@@ -85,6 +86,7 @@
     const qiuqius=new 球球(document.getElementById("bigSpan"));
     const snakes=new Snakes(document.getElementById("bigSpan"));
     const sheets=new Sheets(document.getElementById("bigSpan"));
+    let chatInputEmpty=0;
     let isPlaying;
     let startTime;
     let jsonStartTime;
@@ -195,10 +197,25 @@
 		}
 	}
     }();
+    chatInput.onfocus = function(event){
+	if (chatInputEmpty){
+	    chatInput.value = "";
+	    chatInput.style.color = "#000";
+	    chatInputEmpty = 0;
+	}
+    }
+    chatInput.onblur = function(event){
+	if (chatInput.value==""){
+	    chatInputEmpty = 1;
+	    chatInput.value = "Type help for help.";
+	    chatInput.style.color = "#888";
+	}
+    }
     chatForm.onsubmit = function(event){
-	const chatInput=document.getElementById("chatInput");
-	websocketStuff.sendChat(chatInput.value);
-	chatInput.value = "";
+	if (!chatInputEmpty){
+	    websocketStuff.sendChat(chatInput.value);
+	    chatInput.value = "";
+	}
 	event.preventDefault();
     };
     function noisyTime(t){
@@ -251,6 +268,8 @@
 	return low;
     }
     setMode(0);
+    chatInput.value = "";
+    chatInput.onblur();
     websocketStuff.start();
 </script>
 </html>
