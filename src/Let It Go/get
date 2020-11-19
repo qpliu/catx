@@ -1,0 +1,27 @@
+#!/bin/sh
+WHERE="/share/mirror/songsterr/stuff/d-keep/d-Frozen (Soundtrack)/d-Let It Go (Rock Version)-s388365/d-r244278"
+SCALE="c des d ees e f fis g aes a bes b"
+
+gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --name rpianoPart --scale "$SCALE" --no-string-numbers - >generated-rpiano
+gzip -d <"$WHERE/z-t1"|java -jar ../../songsterrToLy/1.jar --name lpianoPart --scale "$SCALE" --no-string-numbers - >generated-lpiano
+gzip -d <"$WHERE/z-t2"|java -jar ../../songsterrToLy/1.jar --name bassPart --scale "$SCALE" --output-tabs - >generated-basstabs
+gzip -d <"$WHERE/z-t3"|java -jar ../../songsterrToLy/1.jar --name drumsPart - >generated-drumscolors
+gzip -d <"$WHERE/z-t4"|java -jar ../../songsterrToLy/1.jar --name rguitarPart --scale "$SCALE" --output-tabs - >generated-rguitartabs
+gzip -d <"$WHERE/z-t5"|java -jar ../../songsterrToLy/1.jar --name lguitarPart --scale "$SCALE" --output-tabs - >generated-lguitartabs
+gzip -d <"$WHERE/z-t6"|java -jar ../../songsterrToLy/1.jar --name eguitarPart --scale "$SCALE" --output-tabs - >generated-eguitartabs
+
+# Usage: java SongsterrToLy [options] url
+# url is something like https://www.songsterr.com/a/wsa/momoiro-clover-z-moon-pride-tab-s456232t0 or - for stdin.
+# options:
+# [--drumMap map]  Specify drum map.  Something like --drumMap "49 cymc 0,38 sn 0,36 bd 1"
+# [--extra-stuff stuff]  Add extra stuff to output.
+# [--lyrics]  Extract lyrics instead of notes.
+# [--lyrics-in-voices]  Extract lyrics from voices instead of lyrics.
+# [--name partName]  Specify partName.
+# [--no-ghost-notes]  Don't include ghost notes.
+# [--no-string-numbers]  Don't include string numbers.
+# [--output-text]  Output text.
+# [--output-relative]  Output \relative notes.
+# [--output-tabs]  Output tabs instead of notes.
+# [--scale scale]  Specify note spelling.  Something like --scale "c des eisis"
+# [--shift n/d]  Shift notes right n/d beats.  Use --shift -21/5 to shift notes left 4 1/5th beat.

@@ -1,0 +1,81 @@
+drumsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: Frozen (Soundtrack)
+% title: Let It Go (Rock Version)
+% instrument: Drums
+% name: Drums
+    \time 4/4
+    \tempo 4 = 70
+\mymark "Intro" #1
+    r1 |
+    r1 |
+\mymark "Verse 1" #3
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #11
+    hh2 hh |
+    hh2 hh |
+    hh2 hh |
+    hh4 hh hh hh |
+    << { <sne tomfh>8 <sne tomfh> <sne tomfh> <sne tomfh> <sne tomfh> <sne tomfh> <sne tomfh> r | } \context DrumVoice = "drsb" { bd8 bd bd bd bd bd bd r | } >>
+\mymark "Chorus" #16
+    cymrb2 cymrb |
+    cymrb2 cymrb |
+    cymrb2 cymrb |
+    cymrb2 cymrb |
+    <cymcb cymrb>2 cymrb |
+    cymrb2 cymrb |
+    cymrb2 cymrb |
+    cymrb2 r4. r32 cymcb16 r32 |
+    << { cymcb16 hh hh hh <hh ss> hh hh hh hh hh hh hh <hh ss> hh hho8 | } \context DrumVoice = "drsb" { bd16 r bd r4 r16 bd r bd r4 r16 | } >>
+\mymark "Verse 2" #25
+    << { hh16 hh hh hh <sne hh> hh hh hh hh hh hh hh <sne hh> hh hh hh | } \context DrumVoice = "drsb" { bd16 r bd r4 r16 bd r bd r4 r16 | } >>
+    << { hh16 hh hh hh <sne hh> hh hh hh hh hh hh hh <sne hh> hh hho8 | } \context DrumVoice = "drsb" { bd16 r bd r4 r16 bd r bd r4 r16 | } >>
+    << { hh16 hh hh hh <sne hh> hh hh hh hh hh hh hh <sne hh> hh hh hh | } \context DrumVoice = "drsb" { bd16 r bd r4 r16 bd r bd r4 r16 | } >>
+    << { hh16 hh hh hh <sne hh> hh hh hh hh hh hh hh <sne hh> hh hho8 | } \context DrumVoice = "drsb" { bd16 r bd r4 r16 bd r bd r4 r16 | } >>
+\mymark "Pre-Chorus" #29
+    << { cymcb16 hh hh hh <sne hh> hh hh hh hh hh hh hh <sne hh> hh hh hh | } \context DrumVoice = "drsb" { bd16 r bd r4 r16 bd r bd r4 r16 | } >>
+    << { hh16 hh hh hh <sne hh> hh hh hh hh hh hh hh <sne hh> hh hho8 | } \context DrumVoice = "drsb" { bd16 r bd r4 r16 bd r bd r4 r16 | } >>
+    << { cymcb16 hh hh hh <sne hh> hh hh hh hh hh hh hh <sne hh> hh hh hh | } \context DrumVoice = "drsb" { bd16 r bd r4 r16 bd r bd r4 r16 | } >>
+    << { hh16 hh hh hh <sne hh> hh hh hh <sne tomfh hho> <sne tomfh> <sne tomfh> <sne tomfh> <sne tomfh> <sne tomfh> <sne tomfh> <sne tomfh> | } \context DrumVoice = "drsb" { bd16 r bd r4 r16 bd bd bd bd bd bd bd bd | } >>
+    \time 2/4
+    << { <sne tomfh>16 <sne tomfh> <sne tomfh> r <sne sne> r8. | } \context DrumVoice = "drsb" { bd16 bd bd bd r4 | } >>
+    \time 4/4
+\mymark "Chorus" #34
+    << { cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 | } \context DrumVoice = "drsb" { bd16 bd r8 bd16 bd r8 bd16 bd r8 bd16 bd r8 | } >>
+    << { cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 | } \context DrumVoice = "drsb" { bd16 bd r8 bd16 bd r8 bd16 bd r8 bd16 bd r8 | } >>
+    << { cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 | } \context DrumVoice = "drsb" { bd16 bd r8 bd16 bd r8 bd16 bd r8 bd16 bd r8 | } >>
+    << { cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 | } \context DrumVoice = "drsb" { bd16 bd r8 bd16 bd r8 bd16 bd r8 bd16 bd r8 | } >>
+    << { cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 | } \context DrumVoice = "drsb" { bd16 bd r8 bd16 bd r8 bd16 bd r8 bd16 bd r8 | } >>
+    << { cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 | } \context DrumVoice = "drsb" { bd16 bd r8 bd16 bd r8 bd16 bd r8 bd16 bd r8 | } >>
+    << { cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 | } \context DrumVoice = "drsb" { bd16 bd r8 bd16 bd r8 bd16 bd r8 bd16 bd r8 | } >>
+\mymark "Guitar Solo A" #41
+    << { cymcb8 cymrb cymrb cymrb cymrb cymrb cymrb cymrb | } \context DrumVoice = "drsb" { bd8 r2. r8 | } >>
+    cymrb8 cymrb cymrb cymrb cymrb cymrb cymrb cymrb |
+    \time 2/4
+    r2 |
+    \time 4/4
+\mymark "Guitar Solo B" #44
+    << { cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 | } \context DrumVoice = "drsb" { bd16 bd r8 bd16 bd r8 bd16 bd r8 bd16 bd r8 | } >>
+    << { cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 | } \context DrumVoice = "drsb" { bd16 bd r8 bd16 bd r8 bd16 bd r8 bd16 bd r8 | } >>
+    << { cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 | } \context DrumVoice = "drsb" { bd16 bd r8 bd16 bd r8 bd16 bd r8 bd16 bd r8 | } >>
+    << { cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 | } \context DrumVoice = "drsb" { bd16 bd r8 bd16 bd r8 bd16 bd r8 bd16 bd r8 | } >>
+    << { cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 | } \context DrumVoice = "drsb" { bd16 bd r8 bd16 bd r8 bd16 bd r8 bd16 bd r8 | } >>
+    << { cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 | } \context DrumVoice = "drsb" { bd16 bd r8 bd16 bd r8 bd16 bd r8 bd16 bd r8 | } >>
+    << { cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 cymcb16 r <cymcb sne>8 | } \context DrumVoice = "drsb" { bd16 bd r8 bd16 bd r8 bd16 bd r8 bd16 bd r8 | } >>
+    r1 |
+    r1 |
+\mymark "Bridge" #53
+    r1 |
+    r1 |
+    r1 |
+}

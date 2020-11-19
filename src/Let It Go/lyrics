@@ -1,0 +1,32 @@
+voLyrics = \new Lyrics \lyricmode {
+\mymark "Intro" #1
+    ""1 |
+    ""1 |
+\mymark "Verse 1" #3
+    ""1 |
+    ""2 ""4. the8 |
+% 9
+    snow8 glows white on16 the mount -- ain to -- night8. not16 a |
+    foot16 -- print4 to16 be seen \skip4. a8 |
+    king16 -- dom of i8. -- so8 -- la16 tion \skip4 and16 it |
+    looks16 like4 I'm16 the queen \skip2 |
+% 17	
+    ""8 the16 wind8 is how -- ling like this swir16 -- |
+    \skip16 ling8 storm in -- \skip8 side8. \skip4 |
+\mymark "Pre-Chorus" #11
+    ""8 could16 n't keep it8 in16 ""8 heav16 -- en knows8 I8 |
+    \skip8 tried4. ""2 |
+% 25
+    ""8 don't16 let8 them in8. don't16 let8 them8 see16 |
+    \skip8 be16 the good girl8 you16 al -- ways8 have to be16 |
+    \skip8 con16 -- ceal8 don't feel8. don't16 let8 them8 know16 |
+\mymark "Chorus" #16
+    \skip2. ""8 well |
+% 33
+    now8 they know2 \skip16 let16 it go |
+    \skip4 \skip16 let it go \skip4. can't8 |
+    hold16 it back8 an16 -- y8 more16 \skip4 ""16 let it go |
+    \skip4 ""16 let it go8. \skip8. turn16 a -- way |
+% 41
+    \skip8 and16 slam8 the door8. \skip4. |
+}

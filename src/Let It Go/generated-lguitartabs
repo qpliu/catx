@@ -1,0 +1,82 @@
+lguitarPart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: Frozen (Soundtrack)
+% title: Let It Go (Rock Version)
+% instrument: Distortion Guitar
+% name: Lead Guitar
+% scale c des d ees e f fis g aes a bes b
+    \time 4/4
+    \tempo 4 = 70
+\mymark "Intro" #1
+% tuning e, a, d g b e'
+    r1 |
+    r1 |
+\mymark "Verse 1" #3
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #11
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    5-4.6t8 t t t t t 4.6.6t r |
+\mymark "Chorus" #16
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2 1-9t16. t16 11t4~ t16. |
+    5-3t8 4-1t 3-1t16 2-4t 1-4t 6t8 2-4t16 3-3t 2-4t 1-6t 4t 3t 4t~ |
+\mymark "Verse 2" #25
+    1-4t4 r 5-4.6t16 t t t t t t t |
+    5-6.8t16 t t t t t t t 1.3t t t t t t t t |
+    6-1.3t16 t t t t t t t 5-4.6t t t t t t t t |
+    5-6.8t16 t t t t t t t 1.3t t t t t t t t |
+\mymark "Pre-Chorus" #29
+    5-6.8t16 t t t t t t t t t t t t t t t |
+    5-4.6t16 t t t t t t t t t t t t t t t |
+    5-6.8t16 t t t t t t t t t t t t t t t |
+    5-4.6t16 t t t t t t t t t t t t t t t |
+    \time 2/4
+    5-4.6t16 t t t 4.6.6t r8. |
+    \time 4/4
+\mymark "Chorus" #34
+    2-9t16 3-8t 2-9t 3-8t 2-9t 3-8t 2-9t 3-8t 2-8t 3-8t 2-8t 3-8t 2-8t 3-8t 2-8t 3-8t |
+    2-9t16 3-10t 2-9t 3-10t 2-9t 3-10t 2-9t 3-10t 1-9t 3-10t 1-9t 3-10t 1-9t 3-10t 1-9t 3-10t |
+    2-9t16 3-8t 2-9t 3-8t 2-9t 3-8t 2-9t 3-8t 2-8t 3-8t 2-8t 3-8t 2-8t 3-8t 2-8t 3-8t |
+    2-9t16 3-10t 2-9t 3-10t 2-9t 3-10t 2-9t 3-10t 1-9t 3-10t 1-9t 3-10t 1-9t 3-10t 1-9t 3-10t |
+    2-9t16 3-8t 2-9t 3-8t 2-9t 3-8t 2-9t 3-8t 2-8t 3-8t 2-8t 3-8t 2-8t 3-8t 2-8t 3-8t |
+    2-9t16 3-10t 2-9t 3-10t 2-9t 3-10t 2-9t 3-10t 1-9t 3-10t 1-9t 3-10t 1-9t 3-10t 1-9t 3-10t |
+    2-11t16 3-8t 2-11t 3-8t 2-11t 3-8t 2-11t 3-8t r8 3t 4t 5t |
+\mymark "Guitar Solo A" #41
+    3-6t32 r 4-4t r 6t r 4t r 3-4t r 3t r 1t r 4-4t r 2t r 4t r 6t r 3t r 4t r 6t r 5-2t r 3t r |
+    1-9t32 2-7t 9t 7t 1-7t 6t 2-9t 7t 5t 7t 9t 6t 7t 9t 1-7t 8t 9t 2-7t 9t 7t 1-7t 6t 2-9t 7t 5t 7t 9t 6t 7t 9t 1-7t 8t |
+    \time 2/4
+    1-9t4 r16 3-10t 2-8t 9t~ |
+    \time 4/4
+\mymark "Guitar Solo B" #44
+    2-9t4 r16 3-8t t 2-11t4~ t16 r 9t 3-10t t~ |
+    3-10t16 t t t8 2-9t 8t 11t16( 8t8) r16 3-10t 2-8t 9t~ |
+    2-9t4 r16 3-8t 2-13t t( 11t4) r8 9t16 1-8t~ |
+    1-8t16 t8 9t( 8t16) 2-11t( 9t) 11t( 9t8.) r4 |
+    1-11t8. 2-13t 11t4. 9t8 t |
+    1-11t16 8t8 t8. 2-14t16( 13t8) 11t16 9t4 t16 t |
+    2-8t8. 9t 1-11t2~ t8 |
+    r4. r16 4-6t 3-6t8 t16 5t 6t 5t 6t t |
+    3-5t16 4-6t8. r4 3-11t16~ 11~.9t \bendAfter #6 ^"full" 11.9t \bendAfter #6 ^"full" 11t 11.9t4~ |
+\mymark "Bridge" #53
+    3-11.9t2 \bendAfter #6 ^"full" r |
+    r1 |
+    r1 |
+}
