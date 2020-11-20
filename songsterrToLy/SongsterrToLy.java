@@ -22,7 +22,6 @@ final class SongsterrToLy{
 	System.err.println("url is something like https://www.songsterr.com/a/wsa/momoiro-clover-z-moon-pride-tab-s456232t0 or - for stdin.");
 	System.err.println("options:");
 	System.err.println("[--drumMap map]  Specify drum map.  Something like --drumMap \"49 cymc 0,38 sn 0,36 bd 1\"");
-	System.err.println("[--extra-stuff stuff]  Add extra stuff to output.");
 	System.err.println("[--lyrics]  Extract lyrics instead of notes.");
 	System.err.println("[--lyrics-in-voices]  Extract lyrics from voices instead of lyrics.");
 	System.err.println("[--name partName]  Specify partName.");
@@ -40,8 +39,6 @@ final class SongsterrToLy{
 	for (int i=0; i<argv.length; i++)
 	    if (argv[i].equals("--lyrics"))
 		state.argv_lyrics = true;
-	    else if (argv[i].equals("--extra-stuff"))
-		state.argv_extra_stuff = argv[++i];
 	    else if (argv[i].equals("--lyrics-in-voices"))
 		state.argv_lyrics_in_voices = true;
 	    else if (argv[i].equals("--no-string-numbers"))

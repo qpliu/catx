@@ -7,13 +7,14 @@
 
 \include "markup"
 \include "generated-bass"
-\include "generated-drums"
-\include "generated-eguitar"
-\include "generated-lguitar"
-\include "generated-rguitar"
-\include "generated-lpiano"
-\include "generated-rpiano"
-\include "vo"
+\include "drums"
+\include "generated-guitar"
+\include "generated-piano1"
+\include "generated-piano2"
+\include "generated-piano3"
+\include "generated-strings1"
+\include "generated-strings2"
+\include "generated-vo"
 \include "karaoke"
 \include "lyrics"
 
@@ -23,64 +24,29 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
-	\clef treble
-	\voPart
+	{ \clef "treble_8" \myVocalsStuff \voPart }
 	\voLyrics
     >>
-    \tag #'(allPart susanPart) \new PianoStaff \with {
+    \tag #'(allPart susanPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Steelpan" }
 	shortInstrumentName = \markup { \rotate #90 "Sp" }
     } <<
-	\new Staff = "upper" <<
-	    \markupStuff
-	    \clef treble \rpianoPart
-	>>
-	\new Staff = "lower" <<
-	    \clef bass \lpianoPart
-	    \voLyrics
-	>>
+	\markupStuff
+	\pianoOnePart
     >>
     \tag #'(allPart peterPart) <<
 	\new Staff \with {
-	    instrumentName = \markup { \rotate #90 "Lead Guitar" }
-	    shortInstrumentName = \markup { \rotate #90 "L.G." }
+	    instrumentName = \markup { \rotate #90 "Guitar" }
+	    shortInstrumentName = \markup { \rotate #90 "Gtr" }
 	} <<
 	    \markupStuff
 	    \clef "treble_8"
-	    \lguitarPart
+	    \guitarPart
 	>>
     >>
     \tag #'(peterPart) \new TabStaff <<
 	\markupStuff
-	\lguitarPart
-    >>
-    \tag #'(allPart peterPart) <<
-	\new Staff \with {
-	    instrumentName = \markup { \rotate #90 "Rhythm Guitar" }
-	    shortInstrumentName = \markup { \rotate #90 "R.G." }
-	} <<
-	    \markupStuff
-	    \clef "treble_8"
-	    \rguitarPart
-	>>
-    >>
-    \tag #'(peterPart) \new TabStaff <<
-	\markupStuff
-	\rguitarPart
-    >>
-    \tag #'(allPart peterPart) <<
-	\new Staff \with {
-	    instrumentName = \markup { \rotate #90 "Extra Guitar" }
-	    shortInstrumentName = \markup { \rotate #90 "E.G." }
-	} <<
-	    \markupStuff
-	    \clef "treble_8"
-	    \eguitarPart
-	>>
-    >>
-    \tag #'(peterPart) \new TabStaff <<
-	\markupStuff
-	\eguitarPart
+	\guitarPart
     >>
     \tag #'(allPart bassPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Bass" }
@@ -90,7 +56,10 @@ layoutmusic = <<
 	\clef "bass_8"
 	\bassPart
     >>
-    \tag #'(bassPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+    \tag #'(bassPart) \new TabStaff \with {
+	stringTunings = \stringTuning <e,,, a,,, d,, g,, c, f,>
+	instrumentName = \markup { \rotate #90 "eadgcf" }
+    } <<
 	\markupStuff
 	\bassPart
     >>
@@ -118,28 +87,29 @@ midimusic = <<
     } \drumsPart
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
-    } <<
-	\rpianoPart
-	\lpianoPart
-    >>
+    } \pianoOnePart
+    \tag #'(midiOne) \new Staff \with {
+	midiInstrument = #"acoustic grand" % 0
+    } \pianoTwoPart
+    \tag #'(midiOne) \new Staff \with {
+	midiInstrument = #"acoustic grand" % 0
+    } \pianoThreePart
     \tag #'(midiPeter) \new Staff \with {
-	midiInstrument = #"distorted guitar" % 30
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.3
-    } \lguitarPart
-    \tag #'(midiPeter) \new Staff \with {
-	midiInstrument = #"distorted guitar" % 30
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.3
-    } \rguitarPart
-    \tag #'(midiPeter) \new Staff \with {
-	midiInstrument = #"distorted guitar" % 30
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.3
-    } \eguitarPart
+	midiInstrument = #"electric guitar (clean)" % 27
+    } \guitarPart
     \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)" % 33
     } \bassPart
+    \tag #'(midiTwo) \new Staff \with {
+	midiInstrument = #"string ensemble 1" % 48
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.3
+    } \stringsOnePart
+    \tag #'(midiTwo) \new Staff \with {
+	midiInstrument = #"string ensemble 1" % 48
+	midiMinimumVolume = #0
+	midiMaximumVolume = #.3
+    } \stringsTwoPart
     \tag #'(midiKaraoke) \new Staff <<
 	\karaokeLyrics
 	\voPart

@@ -76,7 +76,7 @@ drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh4 <sn hh> hh <sn hh> | } \context DrumVoice = "drsb" { bd4 r4. bd | } >>
     << { hh4 <sn hh> hh <sn hh> | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
     << { hh4 <sn hh> hh <sn hh> | } \context DrumVoice = "drsb" { bd4 r4. bd | } >>
-    << { hh4 <sn hh> hh <sn hh> | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh4 <sn hh> hh <sn hh> | } \context DrumVoice = "drsb" { bd4. bd4 bd bd8 | } >>
 \mymark "Pre-Chorus 2" #69
     << { cymc4 sn2 sn4 | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
     << { r4 sn2 sn4 | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>

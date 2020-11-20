@@ -1,111 +1,111 @@
-volyrics = \new Lyrics \lyricmode {
-    \skip1
-    \skip1
-    \skip1
-    \skip1
-    \skip1
-    \skip1
-    \skip1
-    \skip1
-    \skip1
-    \skip1
-    \skip1
-    \skip1
-    "Check"4
+karaokeLyrics = \new Lyrics \lyricmode {
+    ">@"2 @
+    @2 @
+    @2 @
+    @2 @
+    @2 @
+    @2 @
+    @2 @
+    @2 @
+    @2 @
+    @2 @
+    "@|!bg=4"2 "@|!bg=3"
+    "@|!bg=2"2 "@|!bg=1"
+    "Check|!bg="4
     "yes"4
     "Ju"4
-    -- "li"8
-    -- "et,"8
+    "-li"8
+    "-et,"8
     \skip8
     "are"4
     "you"8
     "with"4
     "me?"4
-    "Rain"4
+    ">Rain"4
     "is"4
     "fall"4
-    -- "ing"8
+    "-ing"8
     "down"8
     \skip8
     "on"4
     "the"8
     "side"4
-    -- "walk."4
-    "I"4
+    "-walk."4
+    ">I"4
     "won't"4
     "go"4.
     "un"8
-    -- "til"8
+    "-til"8
     "you"4
     "come"4.
     "out"4
-    -- "side."2
-    \skip2
-    \skip1
-    "Check"4
+    "-side."2
+    -2
+    -1
+    ">Check"4
     "yes"4
     "Ju"4
-    -- "li"8
-    -- "et,"8
+    "-li"8
+    "-et,"8
     \skip8
     "kill"4
     "the"8
     "lim"4
-    -- "bo."4
-    "I'll"4
+    "-bo."4
+    ">I'll"4
     "keep"4
     "toss"4
-    -- "ing"8
+    "-ing"8
     "rocks"8
     \skip8
     "out"4
     "your"8
     "win"4
-    -- "dow."4
-    "There's"4
+    "-dow."4
+    ">There's"4
     "no"4
     "turn"4
-    -- "ing"8
+    "-ing"8
     "back"8
     \skip4
     "for"8
     "us"4.
     "to"8
-    -- "night."8
+    "-night."8
     \skip2
-    \skip2
-    \skip1
-    "Lace"8
+    -2
+    -1
+    ">Lace"8
     "up"4
     "your"8
     "shoes."4
-    \skip4
-    \skip1
-    "Here's"8
+    -4
+    -1
+    ">Here's"8
     "how"4
     "we"8
     "do."4
-    \skip4
-    \skip4
-    "Run"4
+    -4
+    -4
+    ">Run"4
     "ba"4
-    -- "by"4
+    "-by"4
     "run,"2.
     "don't"4
     "e"4
-    -- "ver"4
+    "-ver"4
     "look"4
     "back."8
     \skip8
     \skip2.
-    "They'll"4
+    ">They'll"4
     "tear"4
     "us"4
     "a"4
-    -- "part"4
+    "-part"4
     \skip4
     "if"4
-    \skip4
+    -4
     "you"4
     "give"4
     "them"4
@@ -113,9 +113,9 @@ volyrics = \new Lyrics \lyricmode {
     "chance."8
     \skip8
     \skip2
-    \skip2
-    \skip4
-    "Don't"4
+    -2
+    -4
+    ">Don't"4
     "sell"4
     "your"4
     "heart,"2
@@ -124,52 +124,52 @@ volyrics = \new Lyrics \lyricmode {
     "we're"4
     \skip4
     "not"4
-    \skip4
+    -4
     "meant"4
     "to"8
     "be."8
     \skip4
-    "Run"4
+    ">Run"4
     "ba"4
-    -- "by"4
+    "-by"4
     "run,"2.
     "for"4
-    -- "e"4
-    -- "ver"4
+    "-e"4
+    "-ver"4
     "we'll"4
     "be"8
     \skip8
     \skip1
-    \skip2
-    "you"8
+    -2
+    "|||you"8
     "and"4
     "me."8
     \skip2
-    \skip2
-    \skip1
-    \skip1
-    \skip1
-    "Check"4
+    -2
+    ">@"2 @
+    "@|!bg=4"2 "@|!bg=3"
+    "@|!bg=2"2 "@|!bg=1"
+    "Check|!bg="4
     "yes"4
     "Ju"4
-    -- "li"8
-    -- "et,"8
+    "-li"8
+    "-et,"8
     \skip8
     "I'll"4
     "be"8
     "wait"4
-    -- "ing."4
-    "Wish"4
-    -- "ing"4
+    "-ing."4
+    ">Wish"4
+    "-ing"4
     "want"4
-    -- "ing"8
+    "-ing"8
     "yours"8
     \skip8
     "for"4
     "the"8
     "tak"4
-    -- "ing."4
-    "Just"4
+    "-ing."4
+    ">Just"4
     "sneak"4
     "out"4.
     "and"8
@@ -178,19 +178,19 @@ volyrics = \new Lyrics \lyricmode {
     "a"8
     "soul"4.
     "good"4
-    -- "bye."2
-    \skip2
-    \skip1
-    "Check"4
+    "-bye."2
+    -2
+    -1
+    ">Check"4
     "yes"4
     "Ju"4
-    -- "li"8
-    -- "et,"8
+    "-li"8
+    "-et,"8
     \skip8
-    "here's"4
+    ">here's"4
     "the"8
     "count"4
-    -- "down:"4
+    "-down:"4
     "three"4
     "two"4
     "one"4
@@ -201,7 +201,7 @@ volyrics = \new Lyrics \lyricmode {
     "my"8
     "arms"4
     "now."4
-    "They"4
+    ">They"4
     "can"4
     "change"4
     "the"8
@@ -214,39 +214,39 @@ volyrics = \new Lyrics \lyricmode {
     "your"8
     "mind."8
     \skip2
-    \skip2
-    \skip1
-    "Lace"8
+    -2
+    -1
+    ">Lace"8
     "up"4
     "your"8
     "shoes."4
-    \skip4
-    \skip1
-    "Here's"8
+    -4
+    -1
+    ">Here's"8
     "how"4
     "we"8
     "do."4
-    \skip4
-    \skip4
-    "Run"4
+    -4
+    -4
+    ">Run"4
     "ba"4
-    -- "by"4
+    "-by"4
     "run,"2.
     "don't"4
     "e"4
-    -- "ver"4
+    "-ver"4
     "look"4
     "back."8
     \skip8
     \skip2.
-    "They'll"4
+    ">They'll"4
     "tear"4
     "us"4
     "a"4
-    -- "part"4
+    "-part"4
     \skip4
     "if"4
-    \skip4
+    -4
     "you"4
     "give"4
     "them"4
@@ -254,9 +254,9 @@ volyrics = \new Lyrics \lyricmode {
     "chance."8
     \skip8
     \skip2
-    \skip2
-    \skip4
-    "Don't"4
+    -2
+    -4
+    ">Don't"4
     "sell"4
     "your"4
     "heart,"2
@@ -265,93 +265,93 @@ volyrics = \new Lyrics \lyricmode {
     "we're"4
     \skip4
     "not"4
-    \skip4
+    -4
     "meant"4
     "to"8
     "be."8
     \skip4
-    "Run"4
+    ">Run"4
     "ba"4
-    -- "by"4
+    "-by"4
     "run,"2.
     "for"4
-    -- "e"4
-    -- "ver"4
+    "-e"4
+    "-ver"4
     "we'll"4
     "be"8
     \skip8
     \skip1
-    \skip2
-    "you"8
+    -2
+    "|||you"8
     "and"4
     "me."8
     \skip8
-    "Fly"8
-    -- "in'"4
+    ">Fly"8
+    "-in'"4
     "through"8
     "the"4
     "night"8
     \skip8
     "we're"8
     "fly"8
-    -- "in'"8
+    "-in'"8
     "through"8
     "the"4
     "night"8
     \skip4
-    \skip4
+    -4
     "way"2
     "up"4
-    \skip4
+    -4
     "high."4
     \skip4
-    \skip4
-    "The"4
+    -4
+    ">The"4
     "view"4
     "from"8
     "here"8
     \skip8
     "is"8
     "get"8
-    -- "ting"8
+    "-ting"8
     "bet"8
-    -- "ter"4
+    "-ter"4
     "with"8
     \skip4
-    \skip4
+    -4
     "you"2
     "by"2
     "my"4
     "side."4
     \skip2
-    \skip2
-    \skip1
-    \skip1
-    \skip1
-    \skip1
-    \skip1
-    \skip1
-    \skip4
-    "Run"4
+    -4
+    -2
+    ">@"2 @
+    @2 @
+    @2 @
+    @2 @
+    "@|!bg=4"2 "@|!bg=3"
+    "@|!bg=2"2 "@|!bg=1"
+    "Run|!bg="4
     "ba"4
-    -- "by"4
+    "-by"4
     "run,"2.
     "don't"4
     "e"4
-    -- "ver"4
+    "-ver"4
     "look"4
     "back."8
     \skip8
     \skip2
-    \skip4
-    "They'll"4
+    -4
+    ">They'll"4
     "tear"4
     "us"4
     "a"4
-    -- "part"4
+    "-part"4
     \skip4
     "if"4
-    \skip4
+    -4
     "you"4
     "give"4
     "them"4
@@ -359,8 +359,8 @@ volyrics = \new Lyrics \lyricmode {
     "chance."8
     \skip8
     \skip1
-    \skip4
-    "Don't"4
+    -4
+    ">Don't"4
     "sell"4
     "your"4
     "heart,"2
@@ -369,42 +369,42 @@ volyrics = \new Lyrics \lyricmode {
     "we're"4
     \skip4
     "not"4
-    \skip4
+    -4
     "meant"4
     "to"8
     "be."8
     \skip4
-    "Run"4
+    ">Run"4
     "ba"4
-    -- "by"4
+    "-by"4
     "run,"2.
     "for"4
-    -- "e"4
-    -- "ver"4
+    "-e"4
+    "-ver"4
     "we'll"4
     "be."8
     \skip8
     \skip1
-    \skip4
-    "Run"4
+    -4
+    ">Run"4
     "ba"4
-    -- "by"4
+    "-by"4
     "run,"2.
     "don't"4
     "e"4
-    -- "ver"4
+    "-ver"4
     "look"4
     "back."8
     \skip8
     \skip2.
-    "They'll"4
+    ">They'll"4
     "tear"4
     "us"4
     "a"4
-    -- "part"4
+    "-part"4
     \skip4
     "if"4
-    \skip4
+    -4
     "you"4
     "give"4
     "them"4
@@ -412,9 +412,9 @@ volyrics = \new Lyrics \lyricmode {
     "chance."8
     \skip8
     \skip2
-    \skip2
-    \skip4
-    "Don't"4
+    -2
+    -4
+    ">Don't"4
     "sell"4
     "your"4
     "heart,"2
@@ -423,36 +423,36 @@ volyrics = \new Lyrics \lyricmode {
     "we're"4
     \skip4
     "not"4
-    \skip4
+    -4
     "meant"4
     "to"8
     "be."8
     \skip4
-    "Run"4
+    ">Run"4
     "ba"4
-    -- "by"4
+    "-by"4
     "run,"2.
     "for"4
-    -- "e"4
-    -- "ver"4
+    "-e"4
+    "-ver"4
     "we'll"4
     "be"8
     \skip8
     \skip1
-    \skip2
-    "you"8
+    -2
+    "|||you"8
     "and"4
     "me."8
     \skip1
-    \skip1
-    \skip1
-    \skip1
-    \skip1
-    \skip1
-    \skip1
-    \skip1
-    \skip1
-    \skip1
-    \skip1
-    \skip1
+    -1
+    @@1
+    -1
+    -1
+    -1
+    -1
+    -1
+    -1
+    -1
+    -1
+    -1
 }

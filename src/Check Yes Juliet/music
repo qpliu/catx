@@ -12,6 +12,7 @@
 \include "drums"
 \include "vocals"
 \include "lyrics"
+\include "karaoke"
 
 layoutmusic = <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
@@ -20,7 +21,7 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\clef treble
-	\new Voice = "vo" { \myVocalsStuff \vocals }
+	{ \myVocalsStuff \vocals }
 	\volyrics
     >>
     \tag #'(allPart peterPart) \new Staff \with {
@@ -47,7 +48,7 @@ layoutmusic = <<
 	\markupStuff
 	\bass
     >>
-    \tag #'(allPart ggPart) \new DrumStaff \with {
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
@@ -74,4 +75,8 @@ midimusic = <<
     \tag #'(midiTwo) \new Staff \with {
 	midiInstrument = #"distorted guitar"
     } \rguitar
+    \tag #'(midiKaraoke) <<
+	\karaokeLyrics
+	\vocals
+    >>
 >>
