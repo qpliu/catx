@@ -24,7 +24,7 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
-	{ \clef "treble_8" \myVocalsStuff \voPart }
+	{ \myVocalsStuff \transpose c c' \voPart }
 	\voLyrics
     >>
     \tag #'(allPart susanPart) \new Staff \with {
@@ -112,6 +112,6 @@ midimusic = <<
     } \stringsTwoPart
     \tag #'(midiKaraoke) \new Staff <<
 	\karaokeLyrics
-	\voPart
+	\transpose c c' \voPart
     >>
 >>
