@@ -32,7 +32,7 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Sp" }
     } <<
 	\markupStuff
-	\pianoOnePart
+	{ \myVocalsStuff \transpose c c' \pianoOnePart }
     >>
     \tag #'(allPart peterPart) <<
 	\new Staff \with {
@@ -87,7 +87,7 @@ midimusic = <<
     } \drumsPart
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
-    } \pianoOnePart
+    } \transpose c c' \pianoOnePart
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"acoustic grand" % 0
     } \pianoTwoPart

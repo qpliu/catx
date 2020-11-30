@@ -1,6 +1,7 @@
 #!/bin/sh
 WHERE="https://www.songsterr.com/a/wsa/lig-lig-drum-tab-s475342"
 SCALE="c des d ees e f fis g aes a bes b"
+SCALE2="c cis d ees e f fis g gis a bes b"
 DRUMMAP="
 	49 cymc 0,
 	51 cymr 0,
@@ -51,7 +52,7 @@ DRUMMAP="
 	81 tri 0"
 
 java -jar ../../songsterrToLy/1.jar --name voPart --scale "$SCALE" --no-string-numbers "${WHERE}t0" >generated-vo
-java -jar ../../songsterrToLy/1.jar --name pianoOnePart --scale "$SCALE" --no-string-numbers "${WHERE}t1" >generated-piano1
+java -jar ../../songsterrToLy/1.jar --name pianoOnePart --scale "$SCALE2" --no-string-numbers "${WHERE}t1" >generated-piano1
 java -jar ../../songsterrToLy/1.jar --name pianoTwoPart --scale "$SCALE" --no-string-numbers "${WHERE}t2" >generated-piano2
 java -jar ../../songsterrToLy/1.jar --name pianoThreePart --scale "$SCALE" --no-string-numbers "${WHERE}t3" >generated-piano3
 java -jar ../../songsterrToLy/1.jar --name guitarPart --scale "$SCALE" --output-tabs "${WHERE}t4" >generated-guitartabs
