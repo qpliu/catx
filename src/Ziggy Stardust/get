@@ -1,0 +1,9 @@
+#!/bin/sh
+s () { P="$1"; shift; java -jar ../../songsterrToLy/1.jar "$@" https://www.songsterr.com/a/wsa/"$P"; }
+#s david-bowie-ziggy-stardust-tab-s366t0 --name vocals --no-string-numbers > gen-vocals
+s david-bowie-ziggy-stardust-tab-s366t1 --name guitari --output-tabs > gen-guitaritabs
+s david-bowie-ziggy-stardust-tab-s366t2 --name guitarii --output-tabs > gen-guitariitabs
+s david-bowie-ziggy-stardust-tab-s366t3 --name guitariii --output-tabs > gen-guitariiitabs
+s david-bowie-ziggy-stardust-tab-s366t4 --name guitariv --output-tabs > gen-guitarivtabs
+s david-bowie-ziggy-stardust-bass-tab-s366t5 --name bass --output-tabs > gen-basstabs
+s david-bowie-ziggy-stardust-drum-tab-s366t6 --name drs > gen-drums
