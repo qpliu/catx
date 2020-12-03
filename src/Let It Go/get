@@ -52,7 +52,7 @@ DRUMMAP="
 	81 tri 0"
 
 java -jar ../../songsterrToLy/1.jar --name voPart --scale "$SCALE" --no-string-numbers "${WHERE}t0" >generated-vo
-java -jar ../../songsterrToLy/1.jar --name pianoOnePart --scale "$SCALE2" --no-string-numbers "${WHERE}t1" >generated-piano1
+#java -jar ../../songsterrToLy/1.jar --name pianoOnePart --scale "$SCALE2" --no-string-numbers "${WHERE}t1" >generated-piano1
 java -jar ../../songsterrToLy/1.jar --name pianoTwoPart --scale "$SCALE" --no-string-numbers "${WHERE}t2" >generated-piano2
 java -jar ../../songsterrToLy/1.jar --name pianoThreePart --scale "$SCALE" --no-string-numbers "${WHERE}t3" >generated-piano3
 java -jar ../../songsterrToLy/1.jar --name guitarPart --scale "$SCALE" --output-tabs "${WHERE}t4" >generated-guitartabs

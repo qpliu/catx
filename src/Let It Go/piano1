@@ -1,15 +1,5 @@
-pianoOnePart =
-{
-% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
-% url: https://www.songsterr.com/a/wsa/lig-lig-drum-tab-s475342t1
-% artist: Lig
-% title: lig
-% instrument: Acoustic Grand Piano
-% name: Piano 1
-% scale c cis d ees e f fis g gis a bes b
-    \time 4/4
-    \tempo 4 = 138
-% tuning b,, e, a, d g b e'
+pianoOnePart = {
+\mymark "Intro" #1
     g'8 gis' c' g'4 gis'4. |
     g'8 gis' c' gis'4 g' bes8 |
     f'8 g' bes f'4 g' bes8 |
@@ -18,6 +8,7 @@ pianoOnePart =
     g'8 gis' c' gis'4 g' bes8 |
     f'8 g' bes f'4 g' bes8 |
     ees'2 <bes d'> |
+\mymark "Verse 1" #9
     g8 gis c g4 gis c8 |
     g8 gis c gis4 g bes,8 |
     f8 g bes, f4 g bes,8 |
@@ -32,28 +23,34 @@ pianoOnePart =
     ees4 ees cis~ <bes, cis> |
     <c gis>2.~ <c gis>8 <bes, g>~ |
     <bes, g>1 |
-    f4~ <bes, f~> <ees f>2 |
-    <d f>4~ <bes, d f> <d bes> bes,8 bes,16 ees |
-    g8 bes,4 bes, ees ees8~ |
-    ees8 bes,4 bes, f gis,16 cis |
-    f8 gis,4 gis, cis <cis f>8~ |
-    <cis f>8 <gis, ees g>4 <gis, f gis> <gis, ees g> bes,16 ees |
-    g8 bes,4 bes, ees ees8~ |
-    ees8 bes,4 bes, f gis,16 cis |
-    f4 <cis f>8 gis, <cis f> gis, <cis f> gis, |
-    <cis f>8 gis, <cis f> gis, <cis f> gis, <cis f> gis, |
-    <cis f>8 gis, <cis f> gis, <cis f> gis, <cis f> gis, |
-    <cis f>8 gis, <cis f> gis, <cis f> r4. |
-    <gis' c'' ees''>8 ees' <gis' c'' ees''> ees' <gis' c'' ees''> ees' <gis' c'' ees''> ees' |
-    <g' bes' ees''>8 ees' <g' bes' ees''> ees' <g' bes' ees''> ees' <g' bes' ees''> ees' |
-    <gis' c''>8 f' <gis' c''> f' <gis' c''> f' <gis' c''> f' |
-    <gis' cis''>8 f' <gis' cis''> f' <gis' cis''> f' <gis' cis''> f' |
-    <gis' c'' ees''>8 ees' <gis' c'' ees''> ees' <gis' c'' ees''> ees' <gis' c'' ees''> ees' |
-    <g' bes' ees''>8 ees' <g' bes' ees''> ees' <g' bes' ees''> ees' <g' bes' ees''> ees' |
-    <gis' c''>8 f' <gis' c''> f' <gis' c''> f' <gis' c''> f' |
-    <gis' cis''>8 f' <gis' cis''> f' <gis' cis''> f' <gis' cis''> f' |
-    <c' ees' gis'>8 gis <c' ees' gis'> gis <c' ees' gis'> gis <c' ees' gis'> gis |
-    <ees' g'>8 bes <ees' g'> bes <ees' g'> bes <ees' g'> bes |
+    \transpose c c' {
+	f4~ <bes, f~> <ees f>2 |
+	<d f>4~ <bes, d f> <d bes> bes,8 bes,16 ees |
+\mymark "Pre-Chorus 1" #25
+	g8 bes,4 bes, ees ees8~ |
+	ees8 bes,4 bes, f gis,16 cis |
+	f8 gis,4 gis, cis <cis f>8~ |
+	<cis f>8 <gis, ees g>4 <gis, f gis> <gis, ees g> bes,16 ees |
+	g8 bes,4 bes, ees ees8~ |
+	ees8 bes,4 bes, f gis,16 cis |
+	f4 <cis f>8 gis, <cis f> gis, <cis f> gis, |
+	<cis f>8 gis, <cis f> gis, <cis f> gis, <cis f> gis, |
+	<cis f>8 gis, <cis f> gis, <cis f> gis, <cis f> gis, |
+\mymark "Chorus 1" #34
+	<cis f>8 gis, <cis f> gis, <cis f> r4. |
+    }
+    \transpose c c, {
+	<gis' c'' ees''>8 ees' <gis' c'' ees''> ees' <gis' c'' ees''> ees' <gis' c'' ees''> ees' |
+	<g' bes' ees''>8 ees' <g' bes' ees''> ees' <g' bes' ees''> ees' <g' bes' ees''> ees' |
+	<gis' c''>8 f' <gis' c''> f' <gis' c''> f' <gis' c''> f' |
+	<gis' cis''>8 f' <gis' cis''> f' <gis' cis''> f' <gis' cis''> f' |
+	<gis' c'' ees''>8 ees' <gis' c'' ees''> ees' <gis' c'' ees''> ees' <gis' c'' ees''> ees' |
+	<g' bes' ees''>8 ees' <g' bes' ees''> ees' <g' bes' ees''> ees' <g' bes' ees''> ees' |
+	<gis' c''>8 f' <gis' c''> f' <gis' c''> f' <gis' c''> f' |
+	<gis' cis''>8 f' <gis' cis''> f' <gis' cis''> f' <gis' cis''> f' |
+	<c' ees' gis'>8 gis <c' ees' gis'> gis <c' ees' gis'> gis <c' ees' gis'> gis |
+	<ees' g'>8 bes <ees' g'> bes <ees' g'> bes <ees' g'> bes |
+    }
     <f gis>8 c <f gis> c <f gis> c <f gis> c |
     <f gis>8 cis <f gis> cis <f gis> cis <f gis> cis |
     <ees g>8 c <ees g> c <ees g> c <ees g> c |
@@ -62,6 +59,7 @@ pianoOnePart =
     <cis f gis>2 <cis' gis'>4 <cis' gis'>8 c' |
     c4 ees gis8 ees' gis' bes'~ |
     bes'8 ees' bes ees' bes' gis' g' gis'~ |
+\mymark "Verse 2" #53
     gis'4 <gis, c f> <gis, c f> <gis, c f> |
     <gis, cis f>4 <gis, cis f> <gis, cis f> <gis, cis f> |
     <bes, ees g>4 <bes, ees g> <bes, ees g> <bes, ees g> |
@@ -70,6 +68,7 @@ pianoOnePart =
     <bes, ees g>4 <bes, ees g> <bes, ees g> <bes, ees g> |
     <f, bes, ees>4. <f, bes, ees>4 f,8 bes, r |
     <f, bes, d>4. <f, bes, d> <f, bes, d>4 |
+\mymark "Pre-Chorus 2" #61
     <bes, ees g>4 bes,8 ees4 bes, <bes, ees g>8~ |
     <bes, ees g>8 bes, ees f4 ees <gis, cis f>8~ |
     <gis, cis f>8 ees cis ees4 cis <gis, cis f>8~ |
@@ -78,6 +77,7 @@ pianoOnePart =
     <bes, ees g>8 bes, ees f4 ees8 bes,4 |
     <gis, cis f>4 <gis, cis f> <gis, cis f> <gis, cis f> |
     <gis, cis f>8 cis gis, cis ees cis ees g |
+\mymark "Chorus 2" #69
     gis8 cis ees g gis r4. |
     <c ees gis~>4 <c ees gis~> <c ees gis>4. <ees g bes>8~ |
     <ees g bes~>4 <ees g bes~> <ees g bes~> <ees g bes> |
@@ -97,6 +97,7 @@ pianoOnePart =
     e8 fis gis f fis gis b, c |
     cis''16 fis' gis' fis' b' bes' gis' fis' e' fis' gis' f' fis' gis' b' c'' |
     cis''16 fis' gis' fis' b' bes' gis' fis' e' fis' gis' f' fis' gis' b' c'' |
+\mymark "Bridge" #88
     cis''8 r <gis, cis> <gis, c>4 <gis, cis> <gis, b,>8~ |
     <gis, b,>8 <gis, cis>4 <gis, c> <gis, cis> <gis, b,>8~ |
     <gis, b,>8 <gis, cis>4 <gis, c> <gis, cis> <gis, b,>8~ |
@@ -113,6 +114,7 @@ pianoOnePart =
     <gis, c f>1 |
     <bes, ees g>4 <bes, ees g> <bes, ees g> <bes, ees g> |
     <f bes cis'>4 <f bes cis'> <f bes cis'> <f bes cis'> |
+\mymark "Chrous 3" #104
     <f gis cis'>8 <f gis cis'> <f gis cis'> <f gis cis'> <f gis cis'> r4. |
     <c ees gis~>4 <c ees gis~> <c ees gis>4. <ees g bes>8~ |
     <ees g bes~>4 <ees g bes~> <ees g bes~> <ees g bes> |
