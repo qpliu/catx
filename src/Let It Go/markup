@@ -15,7 +15,9 @@ markupStuff = {
     s1 | s1 | s1 | s1 |
     s1 |
 \mymark "Chorus 1" #34
-    s1 | s1 | s1 | s1 |
+    s2
+    \key aes \major
+    s2 | s1 | s1 | s1 |
     s1 | s1 | s1 | s1 |
     s1 | s1 | s1 | s1 |
     s1 | s1 | s1 | s1 |

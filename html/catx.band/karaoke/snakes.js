@@ -109,8 +109,7 @@ class Snakes{
     }
     noteToString(key,note){
 	let s=[["C","C♯","D","D♯","E","F","F♯","G","G♯","A","A♯","B"],["C","D♭","D","E♭","E","F","G♭","G","A♭","A","B♭","B"]][key[0]<0?1:0][note%12];
-	const n=(note+12-[11,6,1,8,3,10,5,0,7,2,9,4,11,6,1][key[0]+7])%12;
-	if (n==(key[1]?9:0))
+	if (s[0]=='C')
 	    s += Math.floor(note/12)-1;
 	return s;
     }
