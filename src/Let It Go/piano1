@@ -12,20 +12,20 @@ pianoOnePart = {
     g8 gis c g4 gis c8 |
     g8 gis c gis4 g bes,8 |
     f8 g bes, f4 g bes,8 |
-    ees4~ ees cis~ cis |
+    ees2 cis |
     g8 gis c gis4 g g8 |
     r8 f c gis4 g4. |
     f8 g bes, g4 f4. |
-    ees4~ ees d~ d |
+    ees2 d |
     r8 c4 g gis c8 |
     gis8 c4 g c4. |
     f8 g bes, f4 g8 bes, ees~ |
-    ees4 ees cis~ cis |
+    ees4 ees cis2 |
     gis2.~ gis8 g~ |
     g1 |
     \transpose c c' {
-	f4~ f~ f2 |
-	f4~ f bes bes,8 bes,16 ees |
+	f1 |
+	f2 bes4 bes,8 bes,16 ees |
 \mymark "Pre-Chorus 1" #25
 	g8 bes,4 bes, ees ees8~ |
 	ees8 bes,4 bes, f gis,16 cis |
@@ -79,14 +79,14 @@ pianoOnePart = {
     f8 cis gis, cis ees cis ees g |
 \mymark "Chorus 2" #69
     gis8 cis ees g gis r4. |
-    gis4~ gis~ gis4. bes8~ |
-    bes4~ bes~ bes~ bes |
-    gis4~ gis~ gis4. gis8~ |
-    gis4~ gis~ gis~ gis |
-    gis4~ gis~ gis4. bes8~ |
-    bes4~ bes~ bes~ bes |
-    gis4~ gis~ gis4. gis8~ |
-    gis4~ gis~ gis gis16 bes c' cis' |
+    gis2~ gis4. bes8~ |
+    bes1 |
+    gis2~ gis4. gis8~ |
+    gis1 |
+    gis2~ gis4. bes8~ |
+    bes1 |
+    gis2~ gis4. gis8~ |
+    gis2. gis16 bes c' cis' |
     ees'4. gis g4~ |
     g8 bes, g bes, g2 |
     f4. gis,8 c cis f4~ |
@@ -116,14 +116,14 @@ pianoOnePart = {
     cis'4 cis' cis' cis' |
 \mymark "Chrous 3" #104
     cis'8 cis' cis' cis' cis' r4. |
-    gis4~ gis~ gis4. bes8~ |
-    bes4~ bes~ bes~ bes |
-    gis4~ gis~ gis4. gis8~ |
-    gis4~ gis~ gis~ gis |
-    gis4~ gis~ gis4. bes8~ |
-    bes4~ bes~ bes~ bes |
-    gis4~ gis~ gis4. gis8~ |
-    gis4~ gis~ gis gis16 bes c' cis' |
+    gis2~ gis4. bes8~ |
+    bes1 |
+    gis2~ gis4. gis8~ |
+    gis1 |
+    gis2~ gis4. bes8~ |
+    bes1 |
+    gis2~ gis4. gis8~ |
+    gis2. gis16 bes c' cis' |
     ees'4. gis g4~ |
     g8 bes, g bes, g2 |
     f4. gis,8 c cis f4~ |
