@@ -106,6 +106,8 @@
 		document.getElementById("chatMe").innerHTML = event.data.slice(8);
 	    if (event.data.slice(0,1)=="k" && this.ntp_offset!=undefined){
 		json = JSON.parse(event.data.slice(1));
+		if (json.eval)
+		    (0,eval)(json.eval);
 		if (json.name){
 		    document.getElementById("name").innerHTML = json.name;
 		    document.getElementById("title").innerHTML = json.name;
@@ -219,7 +221,7 @@
 	event.preventDefault();
     };
     function noisyTime(t){
-	return t+.05*(Math.sin(.1*t)+Math.sin(.1*1.41421356237*t)+Math.sin(.1*1.73205080757*t));
+	return t;
     }
     function animate(){
 	const now=startTime+(isPlaying<0?noisyTime((new Date().getTime()-startTime+jsonStartTime)*.001)*1000-jsonStartTime:0);
@@ -231,8 +233,8 @@
 		tones.animate(now);
 	    else
 		--isPlaying;
+	    snakes.animate(now);
 	}
-	snakes.animate(now);
 	sheets.animate(now-startTime);
 	snakes.fixScroll();
 	requestAnimationFrame(animate);
