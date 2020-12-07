@@ -110,7 +110,7 @@ class Snakes{
     noteToString(key,note){
 	let s=[["C","C♯","D","D♯","E","F","F♯","G","G♯","A","A♯","B"],["C","D♭","D","E♭","E","F","G♭","G","A♭","A","B♭","B"]][key[0]<0?1:0][note%12];
 	if (s[0]=='C')
-	    s += Math.floor(note/12)-1;
+	    s += Math.floor(note/12-.5);
 	return s;
     }
     keyContainsNoteColor(key,note){
