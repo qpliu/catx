@@ -1,0 +1,11 @@
+#!/bin/sh
+s () { P="$1"; shift; java -jar ../../songsterrToLy/1.jar "$@" https://www.songsterr.com/a/wsa/"$P"; }
+s foo-fighters-everlong-tab-s86505t0 --name vocalsi --no-string-numbers > gen-vocalsi
+s foo-fighters-everlong-tab-s86505t0 --name vlyrics --lyrics > gen-lyrics
+s foo-fighters-everlong-tab-s86505t1 --name vocalsii --no-string-numbers > gen-vocalsii
+s foo-fighters-everlong-tab-s86505t2 --name guitari --output-tabs > gen-guitaritabs
+s foo-fighters-everlong-tab-s86505t3 --name guitarii --output-tabs > gen-guitariitabs
+s foo-fighters-everlong-tab-s86505t4 --name guitariii --output-tabs > gen-guitariiitabs
+s foo-fighters-everlong-tab-s86505t5 --name guitariv --output-tabs > gen-guitarivtabs
+s foo-fighters-everlong-bass-tab-s86505t6 --name bass --output-tabs > gen-basstabs
+s foo-fighters-everlong-drum-tab-s86505t7 --name drs > gen-drums

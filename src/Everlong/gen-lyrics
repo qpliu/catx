@@ -1,0 +1,185 @@
+vlyrics = \new Lyrics \lyricmode {
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: https://www.songsterr.com/a/wsa/foo-fighters-everlong-tab-s86505t0
+% artist: Foo Fighters
+% title: Everlong
+% instrument: Clarinet
+% name: Vocals
+    \time 4/4
+    \tempo 4 = 158
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1" #22
+    "[VERSE"4. "1]"8 "Hel-"2 |
+    \skip1 |
+    "lo"4 "I've"8 "wai-"4 "ted" "here"8 |
+    \skip1 |
+    \skip2 "for"4. "you"8 |
+    \skip4 "E-"2. |
+    \skip1 |
+    "ver-"4. "long"8 "To-"2 |
+    \skip1 |
+    "night"4 "I" "throw"8 "my-"4 "self"8 |
+    \skip8 "in-"2. \skip8 |
+    \skip4. "to"8 " " "And" "out" "of" |
+    \skip2 "the"8 "red" "out" "of" |
+    \skip8 "her"4 "head"8 "she"2 |
+\mymark "Post-Verse" #36
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 2" #43
+    "sang"4. " "8 "[VERSE"2 |
+    \skip2 \skip8 "2]"4. |
+    "Come"4 ""8 "down"4 "and" "waste"8 |
+    \skip1 |
+    \skip2 "a-"4. "way"8 |
+    \skip4 "with"2. |
+    \skip1 |
+    "me"4. "Down"8 "with"2 |
+    \skip2 \skip8 "me"4. |
+    "Slow"4 ""8 "how"4 "you" "want-"8 |
+    \skip8 "ed"2. \skip8 |
+    \skip4. "it"8 "to" "be" " " "I'm" |
+    \skip2 "o-"8 "ver" "my" "head" |
+    \skip8 "out"4 "of"8 "her"2 |
+\mymark "Pre-Chorus" #57
+    \skip1 |
+    \skip1 |
+    \skip2 \skip8 "head"4 "she"8 |
+    "sang"4. " "4 "[PRE-"4. |
+    \skip1 |
+    \skip4. "CHORUS]"8 "And" "I" "" "won-" |
+    \skip8 "der"4 "When"8 "I"2 |
+    \skip1 |
+\mymark "Chorus" #65
+    \skip8 "sing"8 "a-" "long" "with" "you" " " "[CHORUS]" |
+    "If"8 "ev-"4 "ry-" "thing" "could"8 |
+    \skip8 "e-"2. \skip8 |
+    \skip1 |
+    \skip8 "ver"8 "feel" "this" "real" "for-" "e-" "ver" |
+    "If"8 "an-"4 "y-" "thing"4. |
+    \skip8 "could"2. \skip8 |
+    \skip1 |
+    \skip8 "e-"8 "ver" "be" "this" "good" "a-" "gain" |
+    "The"8 "on-"4 "ly"2 \skip8 |
+    \skip8 "thing"8 "I'll" "e-" "ver" "ask" "of" "you" |
+    "You"4 "got-"8 "ta"4 "pro-"4. |
+    \skip8 "mise"8 "not"2. |
+    \skip4. "to"4 "stop"8 "when"4 |
+\mymark "Post-Chorus" #79
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 3" #86
+    "I"4. "say"8 ""2 |
+    \skip2 \skip8 "when"4. |
+    "She"4 "sang"8 " "4 "[VERSE" "3]"8 |
+    \skip1 |
+    \skip2 "Breathe"4. ""8 |
+    \skip4 "out"2. |
+    \skip1 |
+    "so"4. "I"8 "can"2 |
+    \skip2 \skip8 "breathe"4. |
+    "you"4 "in" "Hold"8 "you"4 "in"8 |
+    "And"8 "" "now"2. |
+    \skip2 "I"8 "know" "you've" "al-" |
+    \skip2 "ways"8 "been" "" "" |
+    \skip8 " "4 "Out"8 "of"2 |
+\mymark "Pre-Chorus" #100
+    \skip1 |
+    \skip1 |
+    \skip2 \skip8 "your"4 "head"8 |
+    "out"4. "of"4 "my"4. |
+    \skip1 |
+    \skip4. "head"8 "I" "sang" " " "[PRE-" |
+    \skip8 "CHORUS]"4 "And"8 "I"2 |
+    \skip1 |
+\mymark "Chorus" #108
+    \skip8 ""8 "won-" "der" "When" "I" "sing" "a-" |
+    "long"8 "with"4 "you" " " "[CHORUS]"8 |
+    \skip8 "If"2. \skip8 |
+    \skip1 |
+    \skip8 "ev-"8 "ry-" "thing" "could" "e-" "ver" "feel" |
+    "this"8 "real"4 "for-" "e-"4. |
+    \skip16 "ver"16 "If"8 "an-"2. |
+    \skip1 |
+    \skip8 "y-"8 "thing" "could" "e-" "ver" "be" "this" |
+    "good"8 "a-"2. \skip8 |
+    \skip8 ""8 "gain" "The" "on-" "ly" "thing" "I'll" |
+    "e-"8 "ver"4 "ask" "of"4. |
+    \skip8 "you"8 "You"2. |
+    \skip4. "got-"4 "ta"8 "pro-"4 |
+\mymark "Bridge" #122
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip4. "mise"4 "not"8 "to"4 |
+    \skip4. "stop"4 "when"4. |
+    \skip1 |
+\mymark "Chorus" #142
+    \skip8 "I"8 "say" "" "when" "She" "sang" " " |
+    "[BRIDGE]"8 "And"4 "I" "" "won-"8 |
+    \skip8 "der"2. \skip8 |
+    \skip1 |
+    \skip8 "[CHORUS]"8 "If" "ev-" "ry-" "thing" "could" "e-" |
+    "ver"8 "feel"4 "this" "real"4. |
+    \skip16 "for-"16 "e-"8 "ver"2. |
+    \skip1 |
+    \skip8 "If"8 "an-" "y-" "thing" "could" "e-" "ver" |
+    "be"8 "this"4 "good"2 \skip8 |
+    \skip8 "a-"4 ""8 "gain" "The" "on-" "ly" |
+    "thing"8 "I'll"4 "e-" "ver"4. |
+    \skip8 "ask"8 "of"2. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}

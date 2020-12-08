@@ -1,0 +1,125 @@
+% BIN
+
+\header {
+    title = "Everlong"
+    composer = "Foo Fighters"
+}
+
+\include "markup"
+\include "gen-vocalsi"
+\include "gen-lyrics"
+\include "gen-vocalsii"
+\include "gen-guitari"
+\include "gen-guitarii"
+\include "gen-guitariii"
+\include "gen-guitariv"
+\include "gen-bass"
+\include "gen-drums"
+
+layoutmusic = <<
+    \tag #'(allPart voxPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vocals" }
+	shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\new Voice = "vo" { \myVocalsStuff \vocalsi }
+	\vlyrics
+    >>
+    \tag #'(allPart gitPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar I" }
+	shortInstrumentName = \markup { \rotate #90 "GtrI" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\guitari
+    >>
+    \tag #'(allPart gitPart) \new TabStaff \with { stringTunings = #guitar-drop-d-tuning } <<
+	\markupStuff
+	\guitari
+    >>
+    \tag #'(allPart gitPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar II" }
+	shortInstrumentName = \markup { \rotate #90 "GtrII" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\guitarii
+    >>
+    \tag #'(allPart gitPart) \new TabStaff \with { stringTunings = #guitar-drop-d-tuning } <<
+	\markupStuff
+	\guitarii
+    >>
+    \tag #'(allPart gitPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar III" }
+	shortInstrumentName = \markup { \rotate #90 "GtrIII" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\guitariii
+    >>
+    \tag #'(allPart gitPart) \new TabStaff \with { stringTunings = #guitar-drop-d-tuning } <<
+	\markupStuff
+	\guitariii
+    >>
+    \tag #'(allPart gitPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar IV" }
+	shortInstrumentName = \markup { \rotate #90 "GtrIV" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\guitariv
+    >>
+    \tag #'(allPart gitPart) \new TabStaff \with { stringTunings = #guitar-drop-d-tuning } <<
+	\markupStuff
+	\guitariv
+    >>
+    \tag #'(allPart bassPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Bass" }
+	shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } <<
+	\markupStuff
+	\clef "bass_8"
+	\bass
+    >>
+    \tag #'(allPart bassPart) \new TabStaff \with { stringTunings = #bass-drop-d-tuning } <<
+	\markupStuff
+	\bass
+    >>
+    \tag #'(allPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drs
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiGg) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drs
+    \tag #'(midiBass) \new Staff \with {
+	midiInstrument = #"electric bass (pick)"
+    } \bass
+    \tag #'(midiPeter) \new Staff \with {
+	midiInstrument = #"overdriven guitar"
+    } \guitari
+    \tag #'(midiSusan) \new Staff \with {
+	midiInstrument = #"steel drums"
+    } \vocalsi
+    \tag #'(midiSusan) \new Staff \with {
+	midiInstrument = #"steel drums"
+    } \vocalsii
+    \tag #'(midiOne) \new Staff \with {
+	midiInstrument = #"overdriven guitar"
+    } \guitarii
+    \tag #'(midiTwo) \new Staff \with {
+	midiInstrument = #"electric guitar (clean)"
+    } \guitariii
+    \tag #'(midiTwo) \new Staff \with {
+	midiInstrument = #"electric guitar (clean)"
+    } \guitariv
+>>
