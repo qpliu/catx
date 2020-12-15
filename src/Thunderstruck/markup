@@ -1,5 +1,6 @@
 markupStuff = {
     \override Score.RehearsalMark.self-alignment-X = #LEFT
+% Fix this aaaaaaaaaaaaaaaaa
     \time 1/4
     \tempo 4 = 136
 \mymark "Intro" #1

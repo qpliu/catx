@@ -1,149 +1,82 @@
 steeldrum = {
+    \myVocalsStuff
     \key c \major
 \mymark "Intro" #1
-    s2.*8
-\mymark "Verse 1" #9
-    ees''4 ees''8 ees''4. |
-    f''4. f''4. |
-    ees''4. ees''4 f''8~ |
-    f''4. f''4 f''8 |
-    g''4. f''4. |
-    cis''4. bes'4. |
-    g'4. r4. |
-    r2. |
-    f''4 f''8 f''4. |
-    g''4. g''4. |
-    f''4. f''4. |
-    g''4. f''4 f''8 |
-    ees''4. e''4. |
-    f''4. dis''4. |
-    c''4. r4. |
-    r2. |
-\mymark "Verse 2" #25
-    ees''4 ees''8 ees''4. |
-    f''4. f''4. |
-    ees''4. ees''4 f''8~ |
-    f''4. f''4 f''8 |
-    g''4. f''4. |
-    cis''4. bes'4. |
-    g'4. r4. |
-    r2. |
-    f''4 f''8 f''4. |
-    g''4. g''4. |
-    f''4. f''4. |
-    g''4. f''4 f''8 |
-    ees''4. e''4. |
-    f''4. g'4. |
-    gis'4. r4. |
-    r2. |
-\mymark "Chorus 1" #41
-    f''4. e''4. |
-    f''4. e''4. |
-    f''4. gis'4. |
-    cis''4 f''8~ f''4 g''8~ |
-    g''4 ees''8~ ees''4. |
-    r4 c''8 ees''4 g''8~ |
-    g''4. r4. |
-    r2. |
-    gis''4. g''4. |
-    gis''4. g''4. |
-    gis''4. f''4. |
-    g''4. gis''4. |
-    bes''4. r4 gis''8 |
-    g''4. f''4. |
-    ees''4. f''4. |
-    g''4. ees''4. |
-\mymark "Verse 3" #57
-    ees''4 ees''8 ees''4. |
-    f''4. f''4. |
-    ees''4. ees''4 f''8~ |
-    f''4. f''4 f''8 |
-    g''4. f''4. |
-    cis''4. bes'4. |
-    g'4. r4. |
-    r2. |
-    f''4 f''8 f''4. |
-    g''4. g''4. |
-    f''4. f''4. |
-    g''4. f''4 f''8 |
-    ees''4. e''4. |
-    f''4. g'4. |
-    gis'4. ees''4 e''8  |
-    f''4 g''8 bes''4. |
-\mymark "Solo 1" #73
-    gis''4. r4. |
-    gis''4. r4. |
-    gis''4 gis''8 gis''4 gis''8 |
-    c'''4 c'''8 bes''4 gis''8 |
-    f''4. g'8 bes'8 cis''8 |
-    g''4. g'8 bes'8 cis''8 |
-    g''4.~ g''4 f''8 |
-    ees''4 bes'8 cis''4 ees''8 |
-    c'''4 c'''8 bes''4 g''8~ |
-    g''4 bes'8 cis''4 ees''8 |
-    g''4 c'''8 bes''4 gis''8~ |
-    gis''4. cis''4 ees''8 |
-    g''4 g''8 f''4 g''16 f''16 |
-    ees''4 f''8 r4 gis''8~ |
-    gis''4. c'''4 bes''8 |
-    gis''4. g''4 bes''8 |
-\mymark "Solo 2" #89
-    gis''4. r4. |
-    c'''4 bes''8 gis''4. |
-    g''4 bes''8 gis''4. |
-    ees''4 gis''8 g''4. |
-    g''4 f''8 g''8 f''8 f''8 |
-    ees''4. bes'4 gis'8 |
-    g'2. |
-    r4. c'''4 bes''8 |
-    g''4. r4. |
-    c'''4 bes''8 g''4. |
-    r4. c'''4 bes''8 |
-    g''4 ees''8 c''4 ees''8 |
-    g''4 g''8 f''4 g''16 f''16 |
-    ees''4 f''8 g''4. |
-    gis''4. r4. |
-    gis''4. r4. |
-\mymark "Chorus 2" #105
-    f''4. e''4. |
-    f''4. e''4. |
-    f''4. gis'4. |
-    cis''4 f''8~ f''4 g''8~ |
-    g''4 ees''8~ ees''4. |
-    r4 c''8 ees''4 g''8~ |
-    g''4. r4. |
-    r2. |
-    gis''4. g''4. |
-    gis''4. g''4. |
-    gis''4. f''4. |
-    g''4. gis''4. |
-    bes''4. r4 gis''8 |
-    g''4. f''4. |
-    ees''4. f''4. |
-    g''4. ees''4. |
-\mymark "Outro" #121
-    ees''4 ees''8 ees''4. |
-    f''4. f''4. |
-    ees''4. ees''4 f''8~ |
-    f''4. f''4 f''8 |
-    g''4. f''4. |
-    des''4. bes'4. |
-    g'4. r4. |
-    r2. |
-    f''4 f''8 f''4. |
-    g''4. g''4. |
-    f''4. f''4. |
-    g''4. f''4 f''8 |
-    ees''4. r4. |
-    e''4. r4. |
-    f''4. r4. |
-    g''4. r4. |
-    r2. |
-    gis''4. r4. |
-    gis''4. r4. |
-    gis''4. r4. |
-    gis''4. r4. |
-    gis''4. r4. |
-    gis''4. r4. |
-    gis''4. r4. |
+    s1*4
+\mymark "Verse 1" #5
+    ees''8 ees'' ees''4 f''4 f''4 |
+    ees''4 ees''8 f''4. f''8 f'' |
+    g''4 f''4 cis''4 bes'4 |
+    g'4 r4 r2 |
+    f''8 f'' f''4 g''4 g''4 |
+    f''4 f''4 g''4 f''8 f'' |
+    ees''4 e''4 f''4 dis''4 |
+    c''4 r4 r2 |
+\mymark "Verse 2" #13
+    ees''8 ees'' ees''4 f''4 f''4 |
+    ees''4 ees''8 f''4. f''8 f'' |
+    g''4 f''4 cis''4 bes'4 |
+    g'4 r4 r2 |
+    f''8 f'' f''4 g''4 g''4 |
+    f''4 f''4 g''4 f''8 f'' |
+    ees''4 e''4 f''4 g'4 |
+    gis'4 r4 r2 |
+\mymark "Chorus 1" #21
+    f''4 e''4 f''4 e''4 |
+    f''4 gis'4 cis''8 f''4 g''8~ |
+    g''8 ees''4. r8 c'' ees'' g''~ |
+    g''4 r4 r2 |
+    gis''4 g''4 gis''4 g''4 |
+    gis''4 f''4 g''4 gis''4 |
+    bes''4 r8 gis'' g''4 f''4 |
+    ees''4 f''4 g''4 ees''4 |
+\mymark "Verse 3" #29
+    ees''8 ees'' ees''4 f''4 f''4 |
+    ees''4 ees''8 f''4. f''8 f'' |
+    g''4 f''4 cis''4 bes'4 |
+    g'4 r4 r2 |
+    f''8 f'' f''4 g''4 g''4 |
+    f''4 f''4 g''4 f''8 f'' |
+    ees''4 e''4 f''4 g'4 |
+    gis'4 ees''8 e'' f''8 g'' bes''4 |
+\mymark "Solo 1" #37
+    gis''4 r4 gis''4 r4 |
+    gis''8 gis'' gis'' gis'' c'''8 c''' bes'' gis'' |
+    f''4 g'16 bes' cis''8 g''4 g'16 bes' cis''8 |
+    g''4. f''8 ees''8 bes' cis'' ees'' |
+    c'''8 c''' bes'' g''4 bes'8 cis'' ees'' |
+    g''8 c''' bes'' gis''4. cis''8 ees'' |
+    g''8 g'' f'' g''16 f'' ees''8 f'' r gis''~ |
+    gis''4 c'''8 bes'' gis''4 g''8 bes'' |
+\mymark "Solo 2" #45
+    gis''4 r4 c'''8 bes'' gis''4 |
+    g''8 bes'' gis''4 ees''8 gis'' g''4 |
+    g''8 f'' g''16 f'' f''8 ees''4 bes'8 gis' |
+    g'2 r4 c'''8 bes'' |
+    g''4 r4 c'''8 bes'' g''4 |
+    r4 c'''8 bes'' g''8 ees'' c'' ees'' |
+    g''8 g'' f'' g''16 f'' ees''8 f'' g''4 |
+    gis''4 r4 gis''4 r4 |
+\mymark "Chorus 2" #53
+    f''4 e''4 f''4 e''4 |
+    f''4 gis'4 cis''8 f''4 g''8~ |
+    g''8 ees''4. r8 c'' ees'' g''~ |
+    g''4 r4 r2 |
+    gis''4 g''4 gis''4 g''4 |
+    gis''4 f''4 g''4 gis''4 |
+    bes''4 r8 gis'' g''4 f''4 |
+    ees''4 f''4 g''4 ees''4 |
+\mymark "Outro" #61
+    ees''8 ees'' ees''4 f''4 f''4 |
+    ees''4 ees''8 f''4. f''8 f'' |
+    g''4 f''4 des''4 bes'4 |
+    g'4 r4 r2 |
+    f''8 f'' f''4 g''4 g''4 |
+    f''4 f''4 g''4 f''8 f'' |
+    ees''4 r4 e''4 r4 |
+    f''4 r4 g''4 r4 |
+    r2 gis''4 r4 |
+    gis''4 r4 gis''4 r4 |
+    gis''4 r4 gis''4 r4 |
+    gis''4 r4 gis''4 r4 |
 }

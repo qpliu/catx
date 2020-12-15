@@ -1,11 +1,11 @@
 % BIN midi all kav susan gg peter bass
-% ROBOT metronome=1
 
 \header {
     title = "Mary Had A Little Lamb"
 }
 
 \include "markup"
+\include "aarinrobo"
 \include "guitar"
 \include "bass"
 \include "drums"
@@ -68,6 +68,7 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
+    \tag #'(midiAarinrobo) \aarinrobo
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drumsPart

@@ -1,53 +1,36 @@
 sax = {
     \key aes \major
 \mymark "Intro" #1
-    s2.*8
-\mymark "Verse 1" #9
-    s2.*16
-\mymark "Verse 2" #25
-    s2.*16
-\mymark "Chorus 1" #41
-    s2.*16
-\mymark "Verse 3" #57
-    s2.*14
-    r4. ees''4 e''8  |
-    f''4 g''8 bes''4. |
-\mymark "Solo 1" #73
-    aes''4. r4. |
-    aes''4. r4. |
-    aes''4 aes''8 aes''4 aes''8 |
-    c'''4 c'''8 bes''4 aes''8 |
-    f''4. g'8 bes'8 des''8 |
-    g''4. g'8 bes'8 des''8 |
-    g''4.~ g''4 f''8 |
-    ees''4 bes'8 des''4 ees''8 |
-    c'''4 c'''8 bes''4 g''8~ |
-    g''4 bes'8 des''4 ees''8 |
-    g''4 c'''8 bes''4 aes''8~ |
-    aes''4. des''4 ees''8 |
-    g''4 g''8 f''4 g''16 f''16 |
-    ees''4 f''8 r4 aes''8~ |
-    aes''4. c'''4 bes''8 |
-    aes''4. g''4 bes''8 |
-\mymark "Solo 2" #89
-    aes''4. r4. |
-    c'''4 bes''8 aes''4. |
-    g''4 bes''8 aes''4. |
-    ees''4 aes''8 g''4. |
-    g''4 f''8 g''8 f''8 f''8 |
-    ees''4. bes'4 aes'8 |
-    g'2. |
-    r4. c'''4 bes''8 |
-    g''4. r4. |
-    c'''4 bes''8 g''4. |
-    r4. c'''4 bes''8 |
-    g''4 ees''8 c''4 ees''8 |
-    g''4 g''8 f''4 g''16 f''16 |
-    ees''4 f''8 g''4. |
-    aes''4. r4. |
-    aes''4. r4. |
-\mymark "Chorus 2" #105
-    s2.*16
-\mymark "Outro" #121
-    s2.*24
+    s1*4
+\mymark "Verse 1" #5
+    s1*8
+\mymark "Verse 2" #13
+    s1*8
+\mymark "Chorus 1" #21
+    s1*8
+\mymark "Verse 3" #29
+    s1*7
+    r4 ees''8 e'' f''8 g'' bes''4 |
+\mymark "Solo 1" #37
+    aes''4 r4 aes''4 r4 |
+    aes''8 aes'' aes'' aes'' c'''8 c''' bes'' aes'' |
+    f''4 g'16 bes' des''8 g''4 g'16 bes' des''8 |
+    g''4. f''8 ees''8 bes' des'' ees'' |
+    c'''8 c''' bes'' g''4 bes'8 des'' ees'' |
+    g''8 c''' bes'' aes''4. des''8 ees'' |
+    g''8 g'' f'' g''16 f'' ees''8 f'' r aes''~ |
+    aes''4 c'''8 bes'' aes''4 g''8 bes'' |
+\mymark "Solo 2" #45
+    aes''4 r4 c'''8 bes'' aes''4 |
+    g''8 bes'' aes''4 ees''8 aes'' g''4 |
+    g''8 f'' g''16 f'' f''8 ees''4 bes'8 aes' |
+    g'2 r4 c'''8 bes'' |
+    g''4 r4 c'''8 bes'' g''4 |
+    r4 c'''8 bes'' g''8 ees'' c'' ees'' |
+    g''8 g'' f'' g''16 f''16 ees''8 f'' g''4 |
+    aes''4 r4 aes''4 r4 |
+\mymark "Chorus 2" #53
+    s1*8
+\mymark "Outro" #61
+    s1*12
 }

@@ -1,5 +1,4 @@
 % BIN midi all kav susan gg peter bass
-% ROBOT metronome=1+++
 
 \header {
     title = "Gimme Some Truth"
@@ -17,6 +16,7 @@
 \include "vocals"
 \include "lyrics"
 \include "karaoke"
+\include "aarinrobo"
 
 layoutmusic = <<
     \tag #'(allPart kavPart vPart) \new Staff \with {
@@ -80,6 +80,7 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
+    \tag #'(midiAarinrobo) \aarinrobo
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drum

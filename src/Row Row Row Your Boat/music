@@ -1,11 +1,11 @@
 % BIN midi all
-% ROBOT metronome=1
 
 \header {
     title = "Row, Row, Row Your Boat"
 }
 
 \include "markup"
+\include "aarinrobo"
 \include "drs"
 \include "vo"
 \include "lyrics"
@@ -27,6 +27,7 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
+    \tag #'(midiAarinrobo) \aarinrobo
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \voPart

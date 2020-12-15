@@ -1,11 +1,11 @@
 % BIN midi all gg susan kav peter bass
-% ROBOT metronome=1
 
 \header {
     title = "Happy Birthday"
 }
 
 \include "markup"
+\include "aarinrobo"
 \include "drs"
 \include "vo"
 \include "eg"
@@ -58,6 +58,7 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
+    \tag #'(midiAarinrobo) \aarinrobo
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart

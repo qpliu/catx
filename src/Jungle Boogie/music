@@ -1,12 +1,12 @@
 % BIN midi all susan kav gg peter bass
 % ROBOT pickup_measures=1
-% ROBOT metronome=1+++
 
 \header {
     title = "Jungle Boogie"
 }
 
 \include "markup"
+\include "aarinrobo"
 \include "drs"
 \include "vo"
 \include "eg"
@@ -95,6 +95,7 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
+    \tag #'(midiAarinrobo) \aarinrobo
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
