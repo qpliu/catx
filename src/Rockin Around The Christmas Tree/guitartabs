@@ -1,6 +1,5 @@
 guitar = {
 % scale c des d ees e f ges g aes a bes b
-    \key aes \major
 \mymark "Intro" #1
     r4 r8 2-18.16t 2-18.16t4 r |
     r4 r8 2-18.16t 2-18.16t4 r |

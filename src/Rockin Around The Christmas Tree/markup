@@ -1,8 +1,9 @@
 markupStuff = {
     \override Score.RehearsalMark.self-alignment-X = #LEFT
     \tempo 4 = 120
+    \key aes \major
 \mymark "Intro" #1
-    s1*4^"Swing"
+    s1*4^\markup { \bold "Swing" }
 \mymark "Verse 1" #5
     s1*8
 \mymark "Verse 2" #13

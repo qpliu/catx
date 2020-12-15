@@ -1,7 +1,6 @@
 bass = {
 % scale c des d ees e f ges g aes a bes b
 % tuning e,, a,, d, g,
-    \key aes \major
 \mymark "Intro" #1
     4-4t4 r 2-6t4 r8 t |
     2-3t4 r 2-3t4 r8 t |
