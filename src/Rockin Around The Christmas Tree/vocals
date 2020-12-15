@@ -1,0 +1,126 @@
+vocals = {
+    \key aes \major
+\mymark "Intro" #1
+    aes'2.~ |
+    aes'2. |
+    f'2.~ |
+    f'2.~ |
+    f'2.~ |
+    f'2. |
+    g'4. r4. |
+    r2. |
+\mymark "Verse 1" #9
+    ees'4 ees'8 ees'4. |
+    f'4. f'4. |
+    ees'4. ees'4 f'8~ |
+    f'4. f'4 f'8 |
+    g'4. f'4. |
+    des'4. bes4. |
+    g4. r4. |
+    r2. |
+    f'4 f'8 f'4. |
+    g'4. g'4. |
+    f'4. f'4. |
+    g'4. f'4 f'8 |
+    ees'4. e'4. |
+    f'4. des'4. |
+    c'4. r4. |
+    r2. |
+\mymark "Verse 2" #25
+    ees'4 ees'8 ees'4. |
+    f'4. f'4. |
+    ees'4. ees'4 f'8~ |
+    f'4. f'4 f'8 |
+    g'4. f'4. |
+    des'4. bes4. |
+    g4. r4. |
+    r2. |
+    f'4 f'8 f'4. |
+    g'4. g'4. |
+    f'4. f'4. |
+    g'4. f'4 f'8 |
+    ees'4. e'4. |
+    f'4. g4. |
+    aes4. r4.  |
+    r2. |
+\mymark "Chorus 1" #41
+    f'4. e'4. |
+    f'4. e'4. |
+    f'4. aes4. |
+    des'4 f'8~ f'4 g'8~ |
+    g'4 ees'8~ ees'4. |
+    r4 c'8 ees'4 g'8~ |
+    g'4. r4. |
+    r2. |
+    aes'4. g'4. |
+    aes'4. g'4. |
+    aes'4. f'4. |
+    g'4. aes'4. |
+    bes'4. r4 aes'8 |
+    g'4. f'4. |
+    ees'4. f'4. |
+    g'4. ees'4. |
+\mymark "Verse 3" #57
+    ees'4 ees'8 ees'4. |
+    f'4. f'4. |
+    ees'4. ees'4 f'8~ |
+    f'4. f'4 f'8 |
+    g'4. f'4. |
+    des'4. bes4. |
+    g4. r4. |
+    r2. |
+    f'4 f'8 f'4. |
+    g'4. g'4. |
+    f'4. f'4. |
+    g'4. f'4 f'8 |
+    ees'4. e'4. |
+    f'4. g4. |
+    aes4. r4.  |
+    r2. |
+\mymark "Solo 1" #73
+    r2.*16
+\mymark "Solo 2" #89
+    r2.*16
+\mymark "Chorus 2" #105
+    f'4. e'4. |
+    f'4. e'4. |
+    f'4. aes4. |
+    des'4 f'8~ f'4 g'8~ |
+    g'4 ees'8~ ees'4. |
+    r4 c'8 ees'4 g'8~ |
+    g'4. r4. |
+    r2. |
+    aes'4. g'4. |
+    aes'4. g'4. |
+    aes'4. f'4. |
+    g'4. aes'4. |
+    bes'4. r4 aes'8 |
+    g'4. f'4. |
+    ees'4. f'4. |
+    g'4. ees'4. |
+\mymark "Outro" #121
+    ees'4 ees'8 ees'4. |
+    f'4. f'4. |
+    ees'4. ees'4 f'8~ |
+    f'4. f'4 f'8 |
+    g'4. f'4. |
+    des'4. bes4. |
+    g4. r4. |
+    r2. |
+    f'4 f'8 f'4. |
+    g'4. g'4. |
+    f'4. f'4. |
+    g'4. f'4 f'8 |
+    ees'4. r4. |
+    e'4. r4. |
+    f'4. r4. |
+    g'4. r4. |
+    bes'4( aes'8~ aes'4.~ |
+    aes'2.~ |
+    aes'2.~ |
+    aes'2.~ |
+    aes'2.~ |
+    aes'2.~ |
+    aes'2.) |
+    r2. |
+}
