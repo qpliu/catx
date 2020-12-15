@@ -9,6 +9,7 @@
 \include "aarinrobo"
 \include "vocals"
 \include "lyrics"
+\include "karaoke"
 \include "guitar"
 \include "bass"
 \include "drums"
@@ -21,7 +22,7 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
-	\new Voice = "vo" { \myVocalsStuff \vocals }
+	\vocals
 	\vlyrics
     >>
     \tag #'(allPart susanPart) \new Staff \with {
@@ -90,4 +91,8 @@ midimusic = <<
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"tenor sax"
     } \transpose c c,, \sax
+    \tag #'(midiKaraoke) <<
+	\klyrics
+	\vocals
+    >>
 >>

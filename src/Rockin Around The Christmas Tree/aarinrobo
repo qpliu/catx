@@ -1,3 +1,5 @@
 aarinrobo = \new Lyrics \lyricmode {
+% Development version of Lilypond has swing.ly.
+% Once stable version of Lilypond has swing.ly, get rid of this stuff and use swing.ly.
     "swing 192 256 384 384 576 640 768 768 960 1024 1152 1152 1344 1408;countin 0+"
 }
