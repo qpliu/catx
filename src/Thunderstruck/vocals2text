@@ -1,12 +1,5 @@
-vocalsTwoText =
-{
-% url: https://www.songsterr.com/a/wsa/ac-dc-thunderstruck-tab-s1352t1
-% artist: AC\u002FDC
-% title: Thunderstruck
-% instrument: Tenor Sax
-% name: Band Vocals
-% tuning e, a, d g b e'
-    r4 |
+vocalsTwoText = {
+    r1 |
     r1 |
     r2 `.(e)bendSongsterr0:0:60:100`4 r |
     r1 |

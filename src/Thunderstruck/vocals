@@ -1,17 +1,8 @@
-vocals = \transpose c c,
-{
-% based off of the songster version
-% url: https://www.songsterr.com/a/wsa/ac-dc-thunderstruck-tab-s1352t0
-% artist: AC\u002FDC
-% title: Thunderstruck
-% instrument: Tenor Sax
-% name: Brian Johnson - Vocals
-    \time 1/4
+vocals = \transpose c c, {
     \tempo 4 = 136
 \mymark "Intro" #1
 % tuning e, a, d g b e'
-    r4 |
-    \time 4/4
+    r1 |
     r1 |
     r1 |
     r1 |

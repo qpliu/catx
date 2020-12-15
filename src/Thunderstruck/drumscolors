@@ -1,16 +1,9 @@
 drum = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     \context DrumVoice = "drsa" \voiceOne
     \context DrumVoice = "drsb" \voiceTwo
-% url: https://www.songsterr.com/a/wsa/ac-dc-thunderstruck-drum-tab-s1352t6
-% artist: AC\u002FDC
-% title: Thunderstruck
-% instrument: Drums
-% name: Chris Slade
-    \time 1/4
     \tempo 4 = 136
 \mymark "Intro" #1
-    hh8 hh |
-    \time 4/4
+    r2. hh8 hh |
     hh8 hh hh hh hh hh hh hh |
     hh8 hh hh hh hh hh hh hh |
     hh8 hh hh hh hh hh hh hh |
