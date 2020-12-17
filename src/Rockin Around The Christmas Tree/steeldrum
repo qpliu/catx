@@ -1,4 +1,4 @@
-steeldrum = {
+steeldrum = \tripletFeel 8 {
     \myVocalsStuff
 \mymark "Intro" #1
     s1*4
@@ -41,20 +41,20 @@ steeldrum = {
 \mymark "Solo 1" #37
     gis''4 r4 gis''4 r4 |
     gis''8 gis'' gis'' gis'' c'''8 c''' bes'' gis'' |
-    f''4 g'16 bes' cis''8 g''4 g'16 bes' cis''8 |
+    f''4 \tuplet 3/2 { g'8 bes' cis'' } g''4 \tuplet 3/2 { g'8 bes' cis'' } |
     g''4. f''8 ees''8 bes' cis'' ees'' |
     c'''8 c''' bes'' g''4 bes'8 cis'' ees'' |
     g''8 c''' bes'' gis''4. cis''8 ees'' |
-    g''8 g'' f'' g''16 f'' ees''8 f'' r gis''~ |
+    g''8 g'' f'' \tuplet 3/2 { g''8 f'' ees'' } f'' r gis''~ |
     gis''4 c'''8 bes'' gis''4 g''8 bes'' |
 \mymark "Solo 2" #45
     gis''4 r4 c'''8 bes'' gis''4 |
     g''8 bes'' gis''4 ees''8 gis'' g''4 |
-    g''8 f'' g''16 f'' f''8 ees''4 bes'8 gis' |
+    g''8 f'' \tuplet 3/2 { g''8 f'' f'' } ees''4 bes'8 gis' |
     g'2 r4 c'''8 bes'' |
     g''4 r4 c'''8 bes'' g''4 |
     r4 c'''8 bes'' g''8 ees'' c'' ees'' |
-    g''8 g'' f'' g''16 f'' ees''8 f'' g''4 |
+    g''8 g'' f'' \tuplet 3/2 { g''8 f'' ees'' } f'' g''4 |
     gis''4 r4 gis''4 r4 |
 \mymark "Chorus 2" #53
     f''4 e''4 f''4 e''4 |

@@ -1,4 +1,4 @@
-vlyrics = \new Lyrics \lyricmode {
+vlyrics = \tripletFeel 8 \new Lyrics \lyricmode {
 \mymark "Intro" #1
     "Ah"2 \skip2 |
     \skip1 |

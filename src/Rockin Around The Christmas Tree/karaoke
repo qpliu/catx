@@ -1,4 +1,4 @@
-klyrics = \new Lyrics \lyricmode {
+klyrics = \tripletFeel 8 \new Lyrics \lyricmode {
 \mymark "Intro" #1
     ">Ah"1
     -2 ">@"

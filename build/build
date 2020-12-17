@@ -1,5 +1,6 @@
 #!/bin/sh
 exec 2>&1
+LILYPOND_VERSION="2.21.82"
 HAVE_TIMIDITY=`type timidity >/dev/null 2>&1;echo $?`
 HAVE_FFMPEG=`type ffmpeg >/dev/null 2>&1;echo $?`
 set -e
@@ -77,12 +78,12 @@ do
 	    done
 	    cd "../src-$midi"
 	    cat <<EOF >in.ly
-\version "2.20.0"
+\version "$LILYPOND_VERSION"
 \include "header.i"
 \include "music"
 \score {
-\unfoldRepeats \articulate \keepWithTag #'($midi keep) \removeWithTag #'(removeWithUnfold) \midimusic
-\midi { }
+    \unfoldRepeats \articulate \keepWithTag #'($midi keep) \removeWithTag #'(removeWithUnfold) \midimusic
+    \midi { }
 }
 EOF
 	    lilypond -l WARN -o out in.ly
@@ -116,16 +117,16 @@ EOF
 	cd "../src-$part"
 	part1=`echo $part|sed 's/1/One/g;s/2/Two/g;s/3/Three/g;s/4/Four/g;s/5/Five/g;s/6/Six/g;s/7/Seven/g;s/8/Eight/g'`
 	cat <<EOF >in.ly
-\version "2.20.0"
+\version "$LILYPOND_VERSION"
 \include "header.i"
 \include "music"
 \score {
-\keepWithTag #'(${part1}Part keep) \layoutmusic
-\layout {
-    indent = 0\cm
-    short-indent = 0\cm
-    ragged-last = ##t
-}
+    \keepWithTag #'(${part1}Part keep) \layoutmusic
+    \layout {
+	indent = 0\cm
+	short-indent = 0\cm
+	ragged-last = ##t
+    }
 }
 EOF
 	lilypond -l WARN -o out in.ly

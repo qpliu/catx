@@ -1,4 +1,4 @@
-guitar = {
+guitar = \tripletFeel 8 {
 % scale c des d ees e f ges g aes a bes b
 \mymark "Intro" #1
     r4 r8 2-18.16t 2-18.16t4 r |

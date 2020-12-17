@@ -1,4 +1,4 @@
-bass = {
+bass = \tripletFeel 8 {
 % scale c des d ees e f ges g aes a bes b
 % tuning e,, a,, d, g,
 \mymark "Intro" #1
@@ -46,8 +46,8 @@ bass = {
     1-1t4 t 1-3t4 1-4t |
     1-5t4 t 1-6t4 1-7t |
     1-8t4 3-6t 2-5t4 2-8t |
-    1-8t8 1-8t16 2-8t 3-6t4 2-8t4 1-8t |
-    1-8t8 1-8t16 2-8t 3-6t4 2-8t4 1-8t8 1-8t16 2-8t |
+    \tuplet 3/2 { 1-8t4 1-8t16 2-8t } 3-6t4 2-8t4 1-8t |
+    \tuplet 3/2 { 1-8t4 1-8t16 2-8t } 3-6t4 2-8t4 \tuplet 3/2 { 1-8t4 1-8t16 2-8t } |
     3-6t4 2-8t 1-8t4 1-6t |
     1-5t4 1-3t 1-0t4 2-1t8 1-0t |
     1-1t4 t 1-3t4 1-4t |
