@@ -1,5 +1,5 @@
 keyThreePart = {
-    \compressFullBarRests
+    \compressEmptyMeasures
     \override Glissando.style = #'zigzag
 % page 20
     r1 |

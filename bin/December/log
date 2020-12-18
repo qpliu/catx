@@ -7,6 +7,20 @@ Best key: d minor or f major
 egtabs
 Scores: 62 126 134 160 293 442 490 942 990 1077 1172 1272
 Best key: d minor or f major
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
@@ -15,5 +29,13 @@ Format: 1  Tracks: 14  Divisions: 384
 Notes cut: 0
 Notes lost totally: 0
 Wrote 30690047/50053580 bytes(61.3144% compressed)
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+warning: compressing over-full page by 0.1 staff-spaces
+warning: page 1 has been compressed
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 1.2 staff-spaces
 warning: page 0 has been compressed
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.

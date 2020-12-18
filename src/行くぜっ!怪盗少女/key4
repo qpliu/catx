@@ -1,6 +1,6 @@
 keyFourPart = \new Voice = "key4b" \new Voice = "key4a" {
     \context Voice = "key4b" \voiceTwo
-    \compressFullBarRests
+    \compressEmptyMeasures
 % page 20
     r1 |
 % A

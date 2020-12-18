@@ -1,5 +1,5 @@
 egThreePart = \transpose c c, {
-    \compressFullBarRests
+    \compressEmptyMeasures
 % page 16 Intro
     \barNumberCheck #1
     R1*4 |

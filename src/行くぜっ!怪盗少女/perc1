@@ -1,5 +1,5 @@
 percOnePart = \new DrumVoice = "perc1b" \with { \consists "Balloon_engraver" } \new DrumVoice = "perc1a" \with { \consists "Balloon_engraver" } \drummode {
-    \compressFullBarRests
+    \compressEmptyMeasures
     \context DrumVoice = "perc1a" \voiceOne
     \context DrumVoice = "perc1b" \voiceTwo
 % page 18

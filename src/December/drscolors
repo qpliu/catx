@@ -2,7 +2,7 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     \override Score.RehearsalMark.self-alignment-X = #LEFT
     \context DrumVoice = "drsa" \voiceOne
     \context DrumVoice = "drsb" \voiceTwo
-% IF gg \compressFullBarRests
+% IF gg \compressEmptyMeasures
     \tempo 4 = 120
 \mymark "Intro" #1
     R1*8 |

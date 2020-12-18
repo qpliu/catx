@@ -1,6 +1,6 @@
 egFiveText =
 {
-    \compressFullBarRests
+    \compressEmptyMeasures
 % page 16 Intro
     \barNumberCheck #1
     \repeat unfold 4 r1 |

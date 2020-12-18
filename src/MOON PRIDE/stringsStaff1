@@ -1,5 +1,5 @@
 stringsPartStaffOne = {
-    \compressFullBarRests
+    \compressEmptyMeasures
 % page 20 Intro
     \barNumberCheck #1
     R1*4 |

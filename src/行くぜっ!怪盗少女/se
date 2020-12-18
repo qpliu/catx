@@ -1,5 +1,5 @@
 sePart = \new DrumVoice = "seb" \with { \consists "Balloon_engraver" } \new DrumVoice = "sea" \with { \consists "Balloon_engraver" } \drummode {
-    \compressFullBarRests
+    \compressEmptyMeasures
     \context DrumVoice = "sea" \voiceOne
     \context DrumVoice = "seb" \voiceTwo
 % page 18

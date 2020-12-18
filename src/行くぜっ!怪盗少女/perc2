@@ -1,5 +1,5 @@
 percTwoPart = {
-    \compressFullBarRests
+    \compressEmptyMeasures
     \clef bass
 % page 18
     r1 |

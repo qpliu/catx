@@ -1,6 +1,6 @@
 keyFivePart = \new Voice = "key5b" \new Voice ="key5a" {
     \context Voice = "key5b" \voiceTwo
-    \compressFullBarRests
+    \compressEmptyMeasures
 % page 19
     r1 |
 % A

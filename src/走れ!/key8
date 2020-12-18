@@ -1,5 +1,5 @@
 keyEightPart = {
-    \compressFullBarRests
+    \compressEmptyMeasures
 % page 19
     \override NoteHead.style = #'cross
     \relative {

@@ -1,5 +1,5 @@
 egFourPart = \transpose c c, {
-    \compressFullBarRests
+    \compressEmptyMeasures
 % page 16
     r1 |
 % A

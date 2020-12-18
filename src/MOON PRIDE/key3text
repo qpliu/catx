@@ -1,6 +1,6 @@
 keyThreeText =
 {
-    \compressFullBarRests
+    \compressEmptyMeasures
 % page 20 Intro
     \barNumberCheck #1
     \repeat unfold 4 r1 |
