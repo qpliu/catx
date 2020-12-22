@@ -1,0 +1,137 @@
+steelpanPart = {
+\mymark "Intro" #1
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+\mymark "Verse 1" #9
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+\mymark "Verse 2" #17
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+\mymark "Guitar Fill" #24
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+\mymark "Verse 3" #33
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+\mymark "Bridge" #41
+    <fis' b' dis''>8 a, a,~ <a, e' a' cis''> a, a, a, a, |
+    <fis' b' dis''>8 a, a,~ <a, gis' b' e''> a, a, a, a, |
+    <fis' b' dis''>8 e, e,~ <e, gis' b' e''> e, e, e, e, |
+    <fis' b' dis''>8 e, e,~ <e, gis' b' e''> e, e, e, e, |
+    <fis' b' dis''>8 a, a,~ <a, e' a' cis''> a, a, a, a, |
+    <fis' b' dis''>8 a, a,~ <a, gis' b' e''> a, a, a, a, |
+    <b dis' fis'>8 e, e,~ <e, b e' gis'> e, e, e, e, |
+    <b, b dis' fis'>8 e, e,~ <e, b e' gis'> r2 |
+    <fis' b' dis''>8 a, a,~ <a, e' a' cis''> a, a, a, a, |
+    <fis' b' dis''>8 a, a,~ <a, gis' b' e''> a, a, a, a, |
+    <fis' b' dis''>8 e, e,~ <e, gis' b' e''> e, e, e, e, |
+    <fis' b' dis''>8 e, e,~ <e, gis' b' e''> e, e, e, e, |
+    <fis' b' dis''>8 a, a,~ <a, e' a' cis''> a, a, a, a, |
+    <fis' b' dis''>8 a, a,~ <a, gis' b' e''> a, a, a, a, |
+    <fis' b' dis''>4 <fis' b' e''>8 <fis' b' e''>2~ <fis' b' e''>8 |
+    <fis' b' dis''>4 <fis' b' e''>8 <e' a' cis''>4. r4 |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+\mymark "Verse 4" #61
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+\mymark "Verse 5" #69
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+\mymark "Bridge" #77
+    <fis' b' dis''>8 a, a,~ <a, e' a' cis''> a, a, a, a, |
+    <fis' b' dis''>8 a, a,~ <a, gis' b' e''> a, a, a, a, |
+    <fis' b' dis''>8 e, e,~ <e, gis' b' e''> e, e, e, e, |
+    <fis' b' dis''>8 e, e,~ <e, gis' b' e''> e, e, e, e, |
+    <fis' b' dis''>8 a, a,~ <a, e' a' cis''> a, a, a, a, |
+    <fis' b' dis''>8 a, a,~ <a, gis' b' e''> a, a, a, a, |
+    <b dis' fis'>8 e, e,~ <e, b e' gis'> e, e, e, e, |
+    <b, b dis' fis'>8 e, e,~ <e, b e' gis'> r2 |
+    <fis' b' dis''>8 a, a,~ <a, e' a' cis''> a, a, a, a, |
+    <fis' b' dis''>8 a, a,~ <a, gis' b' e''> a, a, a, a, |
+    <fis' b' dis''>8 e, e,~ <e, gis' b' e''> e, e, e, e, |
+    <fis' b' dis''>8 e, e,~ <e, gis' b' e''> e, e, e, e, |
+    <fis' b' dis''>8 a, a,~ <a, e' a' cis''> a, a, a, a, |
+    <fis' b' dis''>8 a, a,~ <a, gis' b' e''> a, a, a, a, |
+    <fis' b' dis''>4 <fis' b' e''>8 <fis' b' e''>2~ <fis' b' e''>8 |
+    <fis' b' dis''>4 <fis' b' e''>8 <e' a' cis''>4. r4 |
+\mymark "Guitar Solo" #93
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+\mymark "Chorus" #101
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+}

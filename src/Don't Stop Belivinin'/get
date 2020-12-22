@@ -1,0 +1,10 @@
+#!/bin/sh
+WHERE="/share/mirror/songsterr/stuff/d-keep/d-Journey/d-Don't Stop Believin'-s10681/d-r252847"
+gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --name bassPart --output-tabs - >generated-basstabs
+gzip -d <"$WHERE/z-t1"|java -jar ../../songsterrToLy/1.jar --name rpianoPart --output-tabs - >generated-rpianotabs
+gzip -d <"$WHERE/z-t2"|java -jar ../../songsterrToLy/1.jar --name lpianoPart --output-tabs - >generated-lpianotabs
+#gzip -d <"$WHERE/z-t3"|java -jar ../../songsterrToLy/1.jar --no-string-numbers --name voPart - >generated-vo
+gzip -d <"$WHERE/z-t4"|java -jar ../../songsterrToLy/1.jar --name guitarOnePart --output-tabs - >generated-guitar1tabs
+gzip -d <"$WHERE/z-t5"|java -jar ../../songsterrToLy/1.jar --name guitarTwoPart --output-tabs - >generated-guitar2tabs
+gzip -d <"$WHERE/z-t6"|java -jar ../../songsterrToLy/1.jar --name drumsPart - >generated-drumscolors
+gzip -d <"$WHERE/z-t1"|java -jar ../../songsterrToLy/1.jar --no-string-numbers --name steelpanPart -|sed 's/<[^>]* \([^ >][^ >]*\)>/\1/g' >generated-steelpan

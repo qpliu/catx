@@ -1,0 +1,147 @@
+lpianoPart =
+{
+% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
+% url: -
+% artist: Journey
+% title: Don't Stop Believin'
+% instrument: Acoustic Grand Piano
+% name: Piano Bass (Jonathan Cain)
+    \time 4/4
+    \tempo 4 = 121
+\mymark "Intro" #1
+% tuning e,, a,, d, g,
+    4-0..2t2~ t8 2t 4t 3-2..4t~ |
+    3-2..4t2~ t8 4t 6t 4t~ |
+    3-4t2~ t8 6t 7t 0t~ |
+    3-0t2~ t8 2-1t 2t 4-0t~ |
+    4-0t2~ t8 2t 4t 3-2t~ |
+    3-2t2~ t8 4t 6t 4-4t~ |
+    4-4t2. t8 3-0t~ |
+    3-0t2~ t8 2-1t 2t4 |
+\mymark "Verse 1" #9
+    4-0..2t2~ t8 2t 4t 3-2..4t~ |
+    3-2..4t2~ t8 4t 6t4 |
+    3-4t2~ t8 6t 7t 0t~ |
+    3-0t2~ t8 2-1t 2t4 |
+    4-0t2~ t8 2t 4t 3-2t~ |
+    3-2t2~ t8 4t 6t4 |
+    4-4t2. t8 3-0t~ |
+    3-0t2~ t8 2-1t 2t4 |
+\mymark "Verse 2" #17
+    4-0..2t2~ t8 2t 4t 3-2..4t~ |
+    3-2..4t2~ t8 4t 6t4 |
+    3-4t2~ t8 6t 7t 0t~ |
+    3-0t2~ t8 2-1t 2t4 |
+    4-0t2~ t8 2t 4t 3-2t~ |
+    3-2t2~ t8 4t 6t4 |
+    4-4t2. t8 3-0t~ |
+\mymark "Guitar Fill" #24
+    3-0t2~ t8 2-1t 2t 4-0..2t~ |
+    4-0..2t2~ t8 2t 4t 3-2..4t~ |
+    3-2..4t2~ t8 4t 6t 4t~ |
+    3-4t2~ t8 6t 7t 0t~ |
+    3-0t2~ t8 2-1t 2t 4-0t~ |
+    4-0t2~ t8 2t 4t 3-2t~ |
+    3-2t2~ t8 4t 6t 4-4t~ |
+    4-4t2. t8 3-0t~ |
+    3-0t2~ t8 2-1t 2t4 |
+\mymark "Verse 3" #33
+    4-0..2t2~ t8 2t 4t 3-2..4t~ |
+    3-2..4t2~ t8 4t 6t4 |
+    3-4t2~ t8 6t 7t 0t~ |
+    3-0t2~ t8 2-1t 2t4 |
+    4-0t2~ t8 2t 4t 3-2t~ |
+    3-2t2~ t8 4t 6t4 |
+    4-4t2. t8 3-0t~ |
+    3-0t2~ t8 2-1t 2t4 |
+\mymark "Bridge" #41
+    3-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    4-0t8 t t t t t t t |
+    4-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    4-0t8 t t t t t t t |
+    4-0t8 t t t r2 |
+    3-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    4-0t8 t t t t t t t |
+    4-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    4-7t4 0t8 t2~ t8 |
+    4-7t4 5t8 t2~ t8 |
+    4-0..2t2~ t8 2t 4t 3-2..4t~ |
+    3-2..4t2~ t8 4t 6t 4t~ |
+    3-4t2~ t8 6t 7t 0t~ |
+    3-0t2~ t8 2-1t 2t 4-0t~ |
+\mymark "Verse 4" #61
+    4-0t2~ t8 2t 4t 3-2t~ |
+    3-2t2~ t8 4t 6t 4-4t~ |
+    4-4t2. t8 3-0t~ |
+    3-0t2~ t8 2-1t 2t4 |
+    4-0..2t2~ t8 2t 4t 3-2..4t~ |
+    3-2..4t2~ t8 4t 6t 4t~ |
+    3-4t2~ t8 6t 7t 0t~ |
+    3-0t2~ t8 2-1t 2t 4-0t~ |
+\mymark "Verse 5" #69
+    4-0t2~ t8 2t 4t 3-2t~ |
+    3-2t2~ t8 4t 6t 4-4t~ |
+    4-4t2. t8 3-0t~ |
+    3-0t2~ t8 2-1t 2t4 |
+    4-0..2t2~ t8 2t 4t 3-2..4t~ |
+    3-2..4t2~ t8 4t 6t 4t~ |
+    3-4t2~ t8 6t 7t 0t~ |
+    3-0t2~ t8 2-1t 2t 4-0t |
+\mymark "Bridge" #77
+    3-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    4-0t8 t t t t t t t |
+    4-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    4-0t8 t t t t t t t |
+    4-0t8 t t t r2 |
+    3-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    4-0t8 t t t t t t t |
+    4-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    2-2t4 4-0t8 t2~ t8 |
+    4-7t4 5t8 t2~ t8 |
+\mymark "Guitar Solo" #93
+    4-0..2t2~ t8 2t 4t 3-2..4t~ |
+    3-2..4t2~ t8 4t 6t 4t~ |
+    3-4t2~ t8 6t 7t 0t~ |
+    3-0t2~ t8 2-1t 2t 4-0t~ |
+    4-0t2~ t8 2t 4t 3-2t~ |
+    3-2t2~ t8 4t 6t 4-4t~ |
+    4-4t2. t8 3-0t~ |
+    3-0t2~ t8 2-1t 2t4 |
+\mymark "Chorus" #101
+    4-0..2t2~ t8 2t 4t 3-2..4t~ |
+    3-2..4t2~ t8 4t 6t 4t~ |
+    3-4t2~ t8 6t 7t 0t~ |
+    3-0t2~ t8 2-1t 2t 4-0t~ |
+    4-0t2~ t8 2t 4t 3-2t~ |
+    3-2t2~ t8 4t 6t 4-4t~ |
+    4-4t2. t8 3-0t~ |
+    3-0t2~ t8 2-1t 2t4 |
+    4-0..2t2~ t8 2t 4t 3-2..4t~ |
+    3-2..4t2~ t8 4t 6t 4t~ |
+    3-4t2~ t8 6t 7t 0t~ |
+    3-0t2~ t8 2-1t 2t 4-0t~ |
+    4-0t2~ t8 2t 4t 3-2t~ |
+    3-2t2~ t8 4t 6t 4-4t~ |
+    4-4t2. t8 3-0t~ |
+    3-0t2~ t8 2-1t 2t4 |
+    4-0..2t2~ t8 2t 4t 3-2..4t~ |
+    3-2..4t2~ t8 4t 6t 4t~ |
+    3-4t2~ t8 6t 7t 0t~ |
+    3-0t2~ t8 2-1t 2t 4-0t~ |
+    4-0t2~ t8 2t 4t 3-2t~ |
+    3-2t2~ t8 4t 6t 4-4t~ |
+    4-4t2. t8 3-0t~ |
+    3-0t2~ t8 2-1t 2t4 |
+}
