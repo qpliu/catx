@@ -7,7 +7,7 @@
 
 \include "markup"
 \include "generated-bass"
-\include "generated-drums"
+\include "drums"
 \include "generated-guitar1"
 \include "generated-guitar2"
 \include "generated-lpiano"
@@ -24,7 +24,7 @@ layoutmusic = <<
     } <<
 	\markupStuff
 	\clef "treble_8"
-	\new Voice = "vo" \voPart
+	\voPart
 	\voLyrics
     >>
     \tag #'(allPart susanPart) \new Staff \with {
@@ -60,13 +60,20 @@ layoutmusic = <<
 	\markupStuff
 	\bassPart
     >>
-    \tag #'(allPart kavPart ggPart) \new DrumStaff \with {
+    \tag #'(allPart kavPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\drumsPart
+    >>
+    \tag #'(ggPart) \new DrumStaff \with {
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drumsPart
+	\voLyrics
     >>
 >>
 

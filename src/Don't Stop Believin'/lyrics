@@ -1,41 +1,379 @@
-voLyrics = \new Lyrics \lyricsto "vo" {
-Just a small town girl
-Liv -- in' in a lone -- ly world
-She took the mid -- night train go -- in' a -- ny -- where
-Just a ci -- ty boy
-Born and raised in south Det -- roit
-He took the mid -- night train go -- in' a -- ny -- where
-A sin -- ger in a smo -- ky room
-A smell of wine and cheap per -- fume
-For a smi -- le they can share the night
-It goes on and on, and on, and on
-Stran -- gers wait -- ing
-Up and down the bou -- le -- vard
-Their sha -- dows sear -- ching in the night
-Street -- lights, peop -- le
-Liv -- ing just to find e -- mo -- tion
-Hid -- ing some -- where in the night
-Work -- ing hard to get my fill
-E -- very -- bo -- dy wants a thrill
-Pay -- in' a -- ny -- thing to roll the dice
-Just one more time
-Some will win, some will lose
-Some were born to sing the blues
-Oh, the mo -- vie ne -- ver ends
-It goes on and on, and on, and on
-Stran -- gers wait -- ing
-Up and down the bou -- le -- vard
-Their sha -- dows sear -- ching in the night
-Street -- lights, peop -- le
-Liv -- ing just to find e -- mo -- tion
-Hid -- ing some -- where in the night
-Don't stop be -- liev -- in'
-Hold on to the feel -- in'
-Street -- lights, peop -- le
-Don't stop be -- liev -- in'
-Hold on to the feel -- in'
-Street -- lights, peop -- le
-Don't stop be -- liev -- in'
-Hold on to the feel -- in'
-Street -- lights, peop -- le
+voLyrics = \new Lyrics \lyricmode {
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip2.
+    "Just"8
+    "a"8
+    "small"8
+    "town"4
+    "girl"4.
+    \skip4
+    \skip2
+    "Liv"16 --
+    \skip16
+    "in'"8
+    "in"8
+    "a"8
+    "lone"4 -- "ly"8
+    "world"4
+    \skip4.
+    \skip2
+    \skip8
+    "She"8
+    "took"8
+    "the"8
+    "mid"8 -- "night"4
+    "train"4
+    "go"4 -- "in'"8
+    "a"4. -- "ny"4. -- "where"4
+    \skip4
+    \skip2.
+    \skip2.
+    "Just"8
+    "a"8
+    "ci"8 -- "ty"4
+    "boy"4.
+    \skip4
+    \skip2
+    "Born"8
+    "and"8
+    "raised"8
+    "in"8
+    "south"4
+    "Det"8 -- "roit"4
+    \skip4.
+    \skip2
+    \skip8
+    "He"8
+    "took"8
+    "the"8
+    "mid"8 -- "night"4
+    "train"4
+    "go"4 -- "in'"8
+    "a"4. -- "ny"4. -- "where"4
+    \skip2
+    \skip2
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip4.
+    "A"8
+    "sin"8 -- "ger"8
+    "in"8
+    "a"8
+    "smo"8 -- "ky"4
+    "room"16
+    \skip4
+    \skip16
+    \skip4
+    \skip4.
+    "A"8
+    "smell"16
+    "of"16
+    "wine"4
+    "and"8
+    "cheap"4
+    "per"8 -- "fume"4
+    \skip4.
+    \skip4
+    "For"8
+    "a"8
+    "smi"8 -- "le"8
+    "they"8
+    "can"8
+    "share"4
+    "the"8
+    "night"16
+    \skip16
+    \skip4*2/3
+    "It"4*2/3
+    "goes"4*2/3
+    "on"4
+    "and"8
+    "on,"4.
+    "and"8
+    "on,"8
+    \skip4
+    "and"8
+    "on"16
+    \skip16
+    \skip2
+    "Stran"4. -- "gers"4.
+    \skip4
+    "wait"4. -- "ing"4.
+    \skip4
+    \skip2
+    "Up"8
+    "and"8
+    "down"8
+    "the"8
+    "bou"4 -- "le"8 -- "vard"4.
+    "Their"4
+    "sha"4. -- "dows"4.
+    \skip4
+    "sear"4. -- "ching"4
+    "in"8
+    "the"8
+    "night"8
+    \skip4
+    \skip8
+    \skip2
+    \skip8
+    \skip1
+    "Street"4. -- "lights,"4.
+    \skip4
+    "peop"4. -- "le"4.
+    \skip4
+    \skip2
+    "Liv"8 -- "ing"8
+    "just"8
+    "to"8
+    "find"4
+    "e"8 -- "mo"4. -- "tion"4
+    "Hid"4. -- "ing"4.
+    \skip4
+    "some"4. -- "where"4
+    "in"8
+    "the"8
+    "night"8
+    \skip1
+    \skip2.
+    \skip4
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip4
+    "Work"8 -- "ing"8
+    "hard"8
+    \skip4
+    "to"8
+    "get"8
+    "my"4
+    "fill"8
+    \skip4
+    \skip4
+    \skip2
+    "E"16 -- "very"16 -- "bo"8 -- "dy"4
+    "wants"4
+    "a"8
+    "thrill"8
+    \skip8
+    \skip4.
+    \skip4
+    "Pay"8 -- "in'"8
+    "a"8 -- "ny"8 -- "thing"8
+    "to"8
+    "roll"4
+    "the"8
+    "dice"16
+    \skip4
+    \skip16
+    \skip8
+    "Just"8
+    "one"4.
+    "more"4.
+    "time"4
+    \skip2.
+    \skip4
+    \skip4
+    "Some"8
+    "will"8
+    "win,"8
+    \skip8
+    \skip4
+    \skip4*2/3
+    "some"4*2/3
+    "will"4*2/3
+    "lose"8
+    \skip4
+    \skip8
+    \skip2
+    "Some"16
+    "were"16
+    "born"4
+    "to"8
+    "sing"4
+    "the"8
+    "blues"4
+    \skip4.
+    \skip4
+    "Oh,"8
+    "the"8
+    "mo"8 -- "vie"4
+    "ne"8 --
+    \skip8
+    "ver"4
+    "ends"16
+    \skip4*2/3
+    \skip16
+    "It"4*2/3
+    "goes"4*2/3
+    "on"4
+    "and"8
+    "on,"4.
+    "and"8
+    "on,"8
+    \skip4
+    "and"8
+    "on"16
+    \skip16
+    \skip16
+    \skip8.
+    \skip4
+    "Stran"4. -- "gers"4.
+    \skip4
+    "wait"4. -- "ing"4.
+    \skip4
+    \skip2
+    "Up"8
+    "and"8
+    "down"8
+    "the"8
+    "bou"4 -- "le"8 -- "vard"4.
+    "Their"4
+    "sha"4. -- "dows"4.
+    \skip4
+    "sear"4. -- "ching"4
+    "in"8
+    "the"8
+    "night"8
+    \skip4
+    \skip8
+    \skip2
+    \skip8
+    \skip1
+    "Street"4. -- "lights,"4.
+    \skip4
+    "peop"4. -- "le"4.
+    \skip4
+    \skip2
+    "Liv"8 -- "ing"8
+    "just"8
+    "to"8
+    "find"4
+    "e"8 -- "mo"4. -- "tion"4
+    "Hid"4. -- "ing"4.
+    \skip4
+    "some"4. -- "where"4
+    "in"8
+    "the"8
+    "night"8
+    \skip1
+    \skip2.
+    \skip4
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    "Don't"8
+    \skip4
+    "stop"8
+    \skip4.
+    "be"8 -- "liev"4 --
+    \skip8
+    "in'"4
+    \skip4.
+    \skip2
+    "Hold"8
+    "on"8
+    "to"8
+    "the"8
+    "feel"4 -- "in'"16
+    \skip16
+    \skip4.*2/3
+    \skip16*2/3
+    \skip4*2/3
+    \skip4*2/3
+    "Street"4 --
+    \skip8
+    "lights,"4
+    \skip4.
+    "peop"4 --
+    \skip8
+    "le"8
+    \skip4*2/3
+    \skip4*2/3
+    \skip4*2/3
+    \skip1
+    \skip1
+    "Don't"8
+    \skip4
+    "stop"8
+    \skip4.
+    "be"8 -- "liev"4 --
+    \skip8
+    "in'"4
+    \skip4.
+    \skip8
+    "Hold"16
+    \skip8.
+    "on"8
+    "to"8
+    "the"16
+    \skip16
+    "feel"8 --
+    \skip8
+    "in'"4
+    \skip16
+    \skip16
+    \skip4
+    \skip4.
+    "Street"4 --
+    \skip8
+    "lights,"8
+    \skip2
+    "peop"4 --
+    \skip8
+    "le"8
+    \skip4*2/3
+    \skip4*2/3
+    \skip4*2/3
+    \skip1
+    \skip1
+    "Don't"8
+    \skip4
+    "stop"8
+    \skip4.
+    "be"8 -- "liev"4 --
+    \skip8
+    "in'"4
+    \skip4.
+    \skip8
+    "Hold"4
+    "on"4
+    "to"8
+    "the"8
+    \skip8
+    "feel"8. -- "in'"8.
+    \skip8
+    \skip4
+    \skip4
+    "Street"4 --
+    \skip8
+    "lights,"4
+    \skip4.
+    "peop"4 --
+    \skip8
+    "le"8
+    \skip4*2/3
+    \skip4*2/3
+    \skip4*2/3
+    \skip1
+    \skip1
 }
