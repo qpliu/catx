@@ -1,4 +1,4 @@
-voPart = {
+voPart = \transpose c c, {
 \mymark "Intro" #1
     r1 |
     r1 |
@@ -111,27 +111,27 @@ voPart = {
     r1 |
 \mymark "Chorus" #101
     <cis'' fis'' a'' cis'''>8( <b' e'' gis'' b''>4) <b' e'' gis'' b''>8 r4. <a' cis'' fis'' b''>8 |
-    <cis'' fis'' a'' b''~>4 <b' e'' gis'' b''>8 <b' e'' gis'' b''>4 r4. |
+    <cis'' fis'' a'' b''~>4( <b' e'' gis'' b''>8) <b' e'' gis'' b''>4 r4. |
     r2 a''8 gis'' a'' b'' |
     cis'''4 b''16( cis''' \tuplet 3/2 { gis''4.~ gis''16 fis''4 e'') } |
-    <cis'' fis'' a'' b''~>4 <b' e'' gis'' b''>8 <b' e'' gis'' b''>4 r4. |
-    <cis'' fis'' a'' b''~>4 <b' e'' gis'' b''>8 <b' e'' gis'' b''>( \tuplet 3/2 { gis''4 fis'' e'' } |
+    <cis'' fis'' a'' b''~>4( <b' e'' gis'' b''>8) <b' e'' gis'' b''>4 r4. |
+    <cis'' fis'' a'' b''~>4( <b' e'' gis'' b''>8) <b' e'' gis'' b''>( \tuplet 3/2 { gis''4 fis'' e'' } |
     b''1~ |
     b''1) |
-    <cis'' fis'' a'' b''~>8 <b' e'' gis'' b''>4 <b' e'' gis'' b''>8 r4. <a' cis'' fis'' b''>8 |
-    <cis'' fis'' a'' b''~>4 <b' e'' gis'' b''>8 <b' e'' gis'' b''>4 r4. |
+    <cis'' fis'' a'' b''~>8( <b' e'' gis'' b''>4) <b' e'' gis'' b''>8 r4. <a' cis'' fis'' b''>8 |
+    <cis'' fis'' a'' b''~>4( <b' e'' gis'' b''>8) <b' e'' gis'' b''>4 r4. |
     r8 b''16( cis'''8.) b''8 cis''' b''16( cis''') b''8( cis''') |
     b''4( gis''16 fis'' e''4) r4. |
-    <cis'' fis'' a'' b''~>4 <b' e'' gis'' b''>8 <b' e'' gis'' b''> r2 |
-    <cis'' fis'' a'' b''~>4 <b' e'' gis'' b''>8 <b' e'' gis'' b''>( \tuplet 3/2 { gis''4 fis'' e'' } |
+    <cis'' fis'' a'' b''~>4( <b' e'' gis'' b''>8) <b' e'' gis'' b''> r2 |
+    <cis'' fis'' a'' b''~>4( <b' e'' gis'' b''>8) <b' e'' gis'' b''>( \tuplet 3/2 { gis''4 fis'' e'' } |
     b''1~ |
     b''1) |
-    <cis'' fis'' a'' b''~>8 <b' e'' gis'' b''>4 <b' e'' gis'' b''>8 r4. <a' cis'' fis'' b''>8 |
-    <cis'' fis'' a'' b''~>4 <b' e'' gis'' b''>8 <b' e'' gis'' b''>4 r4. |
+    <cis'' fis'' a'' b''~>8( <b' e'' gis'' b''>4) <b' e'' gis'' b''>8 r4. <a' cis'' fis'' b''>8 |
+    <cis'' fis'' a'' b''~>4( <b' e'' gis'' b''>8) <b' e'' gis'' b''>4 r4. |
     r8 cis'''4 b'' cis'''8 cis''' r |
     cis'''8. b''( cis'''8 b''4) r |
-    <cis'' fis'' a'' b''~>4 <b' e'' gis'' b''>8 <b' e'' gis'' b''>4 r4. |
-    <cis'' fis'' a'' b''~>4 <b' e'' gis'' b''>8 <b' e'' gis'' b''>( \tuplet 3/2 { gis''4 fis'' e'' } |
+    <cis'' fis'' a'' b''~>4( <b' e'' gis'' b''>8) <b' e'' gis'' b''>4 r4. |
+    <cis'' fis'' a'' b''~>4( <b' e'' gis'' b''>8) <b' e'' gis'' b''>( \tuplet 3/2 { gis''4 fis'' e'' } |
     b''1~ |
     b''1) |
 }

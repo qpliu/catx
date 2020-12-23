@@ -1,7 +1,7 @@
 % BIN midi all kav susan gg peter bass
 
 \header {
-    title = "Don't Stop Belivin'"
+    title = "Don't Stop Believin'"
     composer = "Journey"
 }
 
@@ -23,6 +23,7 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
+	\clef "treble_8"
 	\new Voice = "vo" \voPart
 	\voLyrics
     >>
@@ -59,7 +60,7 @@ layoutmusic = <<
 	\markupStuff
 	\bassPart
     >>
-    \tag #'(allPart xkavPart ggPart) \new DrumStaff \with {
+    \tag #'(allPart kavPart ggPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drums" }
 	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
