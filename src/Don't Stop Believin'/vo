@@ -80,7 +80,7 @@ voPart = \transpose c c, {
     r2 e''16 e'' e''4 e''8 |
     b''4 b''8 gis''4( fis''4.) |
     r4 gis''8 b'' cis''' gis''4 gis''8~ |
-    gis''8 fis''4 fis''16( \tuplet 3/2 { e''4~ } e''16) \tuplet 3/2 { e''4 e'' } |
+    gis''8 fis''4 fis''16( e''16~ \tuplet 3/2 { e''4) e''4 e'' } |
     fis''4 gis''8 fis''4. gis''8 fis''~ |
     fis''4 gis''8 fis''16( gis'' fis'' e''8.) r4 |
 \mymark "Bridge" #77
@@ -113,7 +113,7 @@ voPart = \transpose c c, {
     <cis'' fis'' a'' cis'''>8( <b' e'' gis'' b''>4) <b' e'' gis'' b''>8 r4. <a' cis'' fis'' b''>8 |
     <cis'' fis'' a'' b''~>4( <b' e'' gis'' b''>8) <b' e'' gis'' b''>4 r4. |
     r2 a''8 gis'' a'' b'' |
-    cis'''4 b''16( cis''' \tuplet 3/2 { gis''4.~ gis''16 fis''4 e'') } |
+    cis'''4 b''16( cis''' gis''8~ \tuplet 3/2 { gis''4 fis'' e'') } |
     <cis'' fis'' a'' b''~>4( <b' e'' gis'' b''>8) <b' e'' gis'' b''>4 r4. |
     <cis'' fis'' a'' b''~>4( <b' e'' gis'' b''>8) <b' e'' gis'' b''>( \tuplet 3/2 { gis''4 fis'' e'' } |
     b''1~ |
