@@ -1,6 +1,7 @@
 % BIN midi all susan kav gg peter bass
 % ROBOT pickup_measures=1
 % ROBOT pageTurns={"susan":[[52,1]]}
+% AARIN
 
 \header {
     title = "Have You Ever Seen The Rain"
@@ -98,7 +99,9 @@ midimusic = <<
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
-    \tag #'(midiKaraoke) <<
+    \tag #'(midiKaraoke) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
 	\karaokePart
 	\transpose c c, \simplevoPart
     >>

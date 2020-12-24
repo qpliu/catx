@@ -1,4 +1,5 @@
 % BIN midi all kav susan gg peter bass
+% AARIN
 
 \header {
     title = "Don't Stop Believin'"
@@ -90,14 +91,18 @@ midimusic = <<
     } \lpianoPart
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"distorted guitar" % 30
+	midiMaximumVolume = #.5
     } \guitarOnePart
     \tag #'(midiTwo) \new Staff \with {
 	midiInstrument = #"distorted guitar" % 30
+	midiMaximumVolume = #.5
     } \guitarTwoPart
     \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
     } \bassPart
-    \tag #'(midiKaraoke) <<
+    \tag #'(midiKaraoke) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
 	\karaokeLyrics
 	\voPart
     >>

@@ -35,7 +35,9 @@ midimusic = <<
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
-    \tag #'(midiKaraoke) <<
+    \tag #'(midiKaraoke) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
 	\karaokeLyrics
 	\voPart
     >>

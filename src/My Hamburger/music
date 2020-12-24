@@ -99,7 +99,9 @@ midimusic = <<
     \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)" % 33
     } \bassPart
-    \tag #'(midiKaraoke) \new Staff <<
+    \tag #'(midiKaraoke) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
 	\karaokeLyrics
 	\voPart
     >>

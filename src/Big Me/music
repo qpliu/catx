@@ -1,4 +1,5 @@
 % BIN midi all kav susan gg peter bass
+% AARIN
 
 \header {
     title = "Big Me"
@@ -84,7 +85,9 @@ midimusic = <<
 	midiInstrument = #"electric bass (pick)"
     } \bassPart
     \tag #'(midiKaraoke) \new Staff = "generated-votext" \midivoPartText
-    \tag #'(midiKaraoke) \new Staff = "generated-vo" <<
+    \tag #'(midiKaraoke) \new Staff = "generated-vo" \with {
+	midiInstrument = #"flute" % 73
+    } <<
 	\karaokeLyrics
 	\voPart
     >>

@@ -307,11 +307,15 @@ midimusic = <<
     \tag #'(midiTwo) \new Staff \with {
 	midiInstrument = #"contrabass"
     } \stringsPartStaffThree
-    \tag #'(midiKaraoke) <<
+    \tag #'(midiKaraoke) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
 	\transpose c c, \voOnePart
 	\karaokeOneLyrics
     >>
-    \tag #'(midiKaraokeTwo) <<
+    \tag #'(midiKaraokeTwo) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
 	\transpose c c, \voTwoPart
 	\karaokeTwoLyrics
     >>

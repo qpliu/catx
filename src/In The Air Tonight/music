@@ -1,4 +1,5 @@
 % BIN midi all kav susan gg peter bass
+% AARIN
 
 \header {
     title = "In The Air Tonight"
@@ -105,7 +106,9 @@ midimusic = <<
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.4
     } \voTwoPart
-    \tag #'(midiKaraoke) \new Staff <<
+    \tag #'(midiKaraoke) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
 	\karaokeLyrics
 	\voPart
     >>

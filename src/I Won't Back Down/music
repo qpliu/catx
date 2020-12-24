@@ -1,4 +1,5 @@
 % BIN midi all kav susan gg peter bass
+% AARIN
 
 \header {
     title = "I Won't Back Down"
@@ -83,7 +84,9 @@ midimusic = <<
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
-    \tag #'(midiKaraoke) <<
+    \tag #'(midiKaraoke) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
 	\karaokeLyrics
 	\transpose c c, \voPart
     >>

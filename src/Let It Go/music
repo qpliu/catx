@@ -1,4 +1,5 @@
 % BIN midi all kav susan gg peter bass
+% AARIN
 
 \header {
     title = "Let It Go"
@@ -110,7 +111,9 @@ midimusic = <<
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.3
     } \stringsTwoPart
-    \tag #'(midiKaraoke) \new Staff <<
+    \tag #'(midiKaraoke) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
 	\karaokeLyrics
 	\transpose c c' \voPart
     >>

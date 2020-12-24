@@ -1,4 +1,5 @@
 % BIN midi all kav susan gg peter bass
+% AARIN
 
 \header {
     title = "Butterfly"
@@ -83,7 +84,9 @@ midimusic = <<
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"string ensemble 1" % 48
     } \stringsPart
-    \tag #'(midiKaraoke) \new Staff <<
+    \tag #'(midiKaraoke) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
 	\karaokeLyrics
 	\voPart
     >>

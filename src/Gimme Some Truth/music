@@ -1,4 +1,5 @@
 % BIN midi all kav susan gg peter bass
+% AARIN
 
 \header {
     title = "Gimme Some Truth"
@@ -96,7 +97,9 @@ midimusic = <<
     \tag #'(midiTwo) \new Staff \with {
 	midiInstrument = #"acoustic grand"
     } \gpiano
-    \tag #'(midiKaraoke) <<
+    \tag #'(midiKaraoke) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
 	\karaokeLyrics
 	\vocals
     >>

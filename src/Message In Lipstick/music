@@ -1,4 +1,5 @@
 % BIN midi all kav susan gg peter
+% AARIN
 
 \header {
     title = "Message In Lipstick"
@@ -165,7 +166,9 @@ midimusic = <<
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.4
     } \oohsPart
-    \tag #'(midiKaraoke) <<
+    \tag #'(midiKaraoke) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
 	\karaokeLyrics
 	\voPart
     >>

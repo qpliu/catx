@@ -25,7 +25,9 @@ midimusic = <<
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \voPart
-    \tag #'(midiKaraoke) <<
+    \tag #'(midiKaraoke) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
 	\karaokeLyrics
 	\transpose c c, \voPart
     >>

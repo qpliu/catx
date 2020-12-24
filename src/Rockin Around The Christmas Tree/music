@@ -1,4 +1,5 @@
 % BIN midi all kav susan gg peter bass
+% AARIN
 
 \header {
     title = "Rockin Around The Christmas Tree"
@@ -91,7 +92,9 @@ midimusic = <<
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"tenor sax"
     } \transpose c c,, \sax
-    \tag #'(midiKaraoke) <<
+    \tag #'(midiKaraoke) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
 	\klyrics
 	\vocals
     >>

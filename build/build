@@ -63,6 +63,7 @@ done
 echo "name=$name" >../bin/out.aarin
 sed <music -n -e 's/^% ROBOT \(.*\)$/\1/p' >>../bin/out.aarin
 MERGEMIDI=`sed <music -n -e 's/^% MERGEMIDI \(.*\)$/\1/p'`
+AARIN=`grep '^% AARIN' music||true`
 for part in $PARTS
 do
     if test "x$part" = "xmidi"
@@ -154,7 +155,7 @@ EOF
 done
 cd ..
 ../makePageTurns >>bin/out.aarin
-if test -d /share/music
+if test -d /share/music -a -n "$AARIN"
 then
     cp bin/out.aarin "/share/music/aarin/$name.aarin"
 fi

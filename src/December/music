@@ -1,4 +1,5 @@
 % BIN midi all gg susan kav peter bass
+% AARIN
 
 \header {
     title = "December"
@@ -102,11 +103,15 @@ midimusic = <<
 	midiMinimumVolume = #1
 	midiMaximumVolume = #1
     } \cuePart
-    \tag #'(midiKaraoke) <<
+    \tag #'(midiKaraoke) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
 	\karaokeLyrics
 	\transpose c c, \voPart
     >>
-    \tag #'(midiKaraokeTwo) <<
+    \tag #'(midiKaraokeTwo) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
 	\karaokeTwoLyrics
 	\transpose c c, \voTwoPart
     >>

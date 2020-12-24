@@ -1,4 +1,5 @@
 % BIN midi all kav susan gg peter bass
+% AARIN
 
 \header {
     title = "Smells Like Teen Spirit"
@@ -140,7 +141,9 @@ midimusic = <<
     \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"slap bass 1" % 36
     } \bassPart
-    \tag #'(midiKaraoke) \new Staff <<
+    \tag #'(midiKaraoke) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
 	\karaokeLyrics
 	\voPart
     >>

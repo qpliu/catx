@@ -1,5 +1,6 @@
 % BIN midi all kav susan gg peter bass
 % ROBOT pickup_measures=1
+% AARIN
 
 \header {
     title = "Just Like Heaven"
@@ -120,7 +121,9 @@ midimusic = <<
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \egTwoPart
-    \tag #'(midiKaraoke) <<
+    \tag #'(midiKaraoke) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
 	\karaokeLyrics
 	\transpose c c, \voPart
     >>
