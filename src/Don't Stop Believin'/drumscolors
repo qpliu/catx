@@ -99,7 +99,7 @@ drumsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh8 hh <hh sn> hh hh hh <hh tomml> hh | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
     << { <hh rb>8 <hh rb> <hh sn> hh <hh rb> <hh tomml> hh <hh toml> | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
     << { hh8 hh <hh sn> hh hh hh <hh tomml> hh | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
-    << { <hh rb>8 <hh rb> <hh sn> hh <hh rb> <hh toml> <hh tomml> <hh toml> | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    << { <hh rb>8 <hh rb> <hh sn> hh <hh rb> <hh tomml> <hh toml> <hh toml> | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
     << { cymc4. cymc r4 | } \context DrumVoice = "drsb" { bd4. bd r4 | } >>
     << { cymc4 cymc8 cymc4. r4 | } \context DrumVoice = "drsb" { bd4 bd8 bd4. r4 | } >>
 \mymark "Guitar Solo" #93

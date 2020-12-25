@@ -101,9 +101,13 @@ class Snakes{
     doneAddingEvents(){
 	let ti=0;
 	let lastNote;
+	let lastTime=0;
 	for (const e of this.lyricEvents){
 	    for (; ti<this.toneEvents.length&&this.toneEvents[ti].t<=e.t; ti++)
-		lastNote = this.toneEvents[ti].note;
+		if (this.toneEvents[ti].t>lastTime || lastNote>this.toneEvents[ti].note){
+		    lastNote = this.toneEvents[ti].note;
+		    lastTime = this.toneEvents[ti].t;
+		}
 	    e.note = lastNote;
 	}
     }
