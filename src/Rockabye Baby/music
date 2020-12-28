@@ -1,0 +1,85 @@
+% BIN midi all kav susan gg peter bass
+% AARIN
+
+\header {
+    title = "Rockabye Baby"
+}
+
+\include "markup"
+\include "vocals"
+\include "lyrics"
+\include "guitar"
+\include "bass"
+\include "drums"
+\include "steeldrum"
+
+layoutmusic = <<
+    \tag #'(allPart kavPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Vocals" }
+	shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+	\markupStuff
+	\vocals
+	\vlyrics
+    >>
+    \tag #'(allPart susanPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Steel Drums" }
+	shortInstrumentName = \markup { \rotate #90 "SD" }
+    } <<
+	\markupStuff
+        \steeldrum
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Guitar" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\guitar
+    >>
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\guitar
+    >>
+    \tag #'(allPart bassPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Bass" }
+	shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } <<
+	\markupStuff
+	\clef "bass_8"
+	\bass
+    >>
+    \tag #'(bassPart) \new TabStaff \with { stringTunings = #bass-tuning } <<
+	\markupStuff
+	\bass
+    >>
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drs
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiGg) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drs
+    \tag #'(midiBass) \new Staff \with {
+	midiInstrument = #"electric bass (pick)"
+    } \bass
+    \tag #'(midiPeter) \new Staff \with {
+	midiInstrument = #"distorted guitar"
+    } \guitar
+    \tag #'(midiSusan) \new Staff \with {
+	midiInstrument = #"steel drums"
+    } \steeldrum
+    \tag #'(midiKaraoke) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
+	\vocals
+    >>
+>>

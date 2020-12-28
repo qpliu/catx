@@ -1,0 +1,45 @@
+guitar = {
+\mymark "Intro" #1
+    r1*4 |
+\mymark "Verse 1" #5
+    6-0.2t8 t 0.4t 0.2t t t 0.4t 0.2t |
+    6-0.2t8 t 0.4t 0.2t t t 0.4t 0.2t |
+    5-0.2t8 t 0.4t 0.2t t t 0.4t 0.2t |
+    5-0.2t8 t 0.4t 0.2t t t 0.4t 0.2t |
+    5-2.4t8 t 2.6t 2.4t t t 2.6t 2.4t |
+    5-2.4t8 t 2.6t 2.4t t t 2.6t 2.4t |
+    r1*2 |
+\mymark "Chorus 1" #13
+    3-14t8 \bendAfter #6 ^"full" 2-12.12t t 3-14t8 \bendAfter #6 ^"full" 2-12.12t t 3-14t8 \bendAfter #6 ^"full" 2-12.12t |
+    2-12.12t8 3-14t8 \bendAfter #6 ^"full" 2-12.12t t 3-14t8 \bendAfter #6 ^"full" 2-12.12t t t | |
+    3-7t8 \bendAfter #6 ^"full" 2-5.5t t 3-7t8 \bendAfter #6 ^"full" 2-5.5t t 3-7t8 \bendAfter #6 ^"full" 2-5.5t |
+    2-5.5t8 3-7t8 \bendAfter #6 ^"full" 2-5.5t t 3-7t8 \bendAfter #6 ^"full" 2-5.5t t t | |
+    3-9t8 \bendAfter #6 ^"full" 2-7.7t t 3-9t8 \bendAfter #6 ^"full" 2-7.7t t 3-9t8 \bendAfter #6 ^"full" 2-7.7t |
+    2-7.7t8 3-9t8 \bendAfter #6 ^"full" 2-7.7t t 3-9t8 \bendAfter #6 ^"full" 2-7.7t t t | |
+    r1*2 |
+\mymark "Verse 2" #21
+    6-0.2t8 t 0.4t 0.2t t t 0.4t 0.2t |
+    6-0.2t8 t 0.4t 0.2t t t 0.4t 0.2t |
+    5-0.2t8 t 0.4t 0.2t t t 0.4t 0.2t |
+    5-0.2t8 t 0.4t 0.2t t t 0.4t 0.2t |
+    5-2.4t8 t 2.6t 2.4t t t 2.6t 2.4t |
+    5-2.4t8 t 2.6t 2.4t t t 2.6t 2.4t |
+    r1*2 |
+\mymark "Chorus 2" #29
+    3-14t8 \bendAfter #6 ^"full" 2-12.12t t 3-14t8 \bendAfter #6 ^"full" 2-12.12t t 3-14t8 \bendAfter #6 ^"full" 2-12.12t |
+    2-12.12t8 3-14t8 \bendAfter #6 ^"full" 2-12.12t t 3-14t8 \bendAfter #6 ^"full" 2-12.12t t t | |
+    3-7t8 \bendAfter #6 ^"full" 2-5.5t t 3-7t8 \bendAfter #6 ^"full" 2-5.5t t 3-7t8 \bendAfter #6 ^"full" 2-5.5t |
+    2-5.5t8 3-7t8 \bendAfter #6 ^"full" 2-5.5t t 3-7t8 \bendAfter #6 ^"full" 2-5.5t t t | |
+    3-9t8 \bendAfter #6 ^"full" 2-7.7t t 3-9t8 \bendAfter #6 ^"full" 2-7.7t t 3-9t8 \bendAfter #6 ^"full" 2-7.7t |
+    2-7.7t8 3-9t8 \bendAfter #6 ^"full" 2-7.7t t 3-9t8 \bendAfter #6 ^"full" 2-7.7t t t | |
+\mymark "Chorus 3" #35
+    3-14t8 \bendAfter #6 ^"full" 2-12.12t t 3-14t8 \bendAfter #6 ^"full" 2-12.12t t 3-14t8 \bendAfter #6 ^"full" 2-12.12t |
+    2-12.12t8 3-14t8 \bendAfter #6 ^"full" 2-12.12t t 3-14t8 \bendAfter #6 ^"full" 2-12.12t t t | |
+    3-7t8 \bendAfter #6 ^"full" 2-5.5t t 3-7t8 \bendAfter #6 ^"full" 2-5.5t t 3-7t8 \bendAfter #6 ^"full" 2-5.5t |
+    2-5.5t8 3-7t8 \bendAfter #6 ^"full" 2-5.5t t 3-7t8 \bendAfter #6 ^"full" 2-5.5t t t | |
+    3-9t8 \bendAfter #6 ^"full" 2-7.7t t 3-9t8 \bendAfter #6 ^"full" 2-7.7t t 3-9t8 \bendAfter #6 ^"full" 2-7.7t |
+    2-7.7t8 3-9t8 \bendAfter #6 ^"full" 2-7.7t t 3-9t8 \bendAfter #6 ^"full" 2-7.7t t t | |
+    r1*2 |
+\mymark "Outro" #43
+    r1*4
+}

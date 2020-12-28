@@ -1,0 +1,57 @@
+steeldrum = {
+    \myVocalsStuff
+\mymark "Intro" #1
+    gis'4 b' gis'' fis''~ |
+    fis''8 e''4. gis'4 b' |
+    e''4 ees''2. |
+    r1 |
+\mymark "Verse 1" #5
+    e'8 e' e' e' e' e' e' e' |
+    e'8 e' e' e' e' e' e' e' |
+    a'8 a' a' a' a' a' a' a' |
+    a'8 a' a' a' a' a' a' a' |
+    b'8 b' b' b' b' b' b' b' |
+    b'8 b' b' b' b' b' b' b' |
+    e''8 e'' e'' e'' e'' e'' e'' e'' |
+    e''8 e'' e'' e'' e'' r8 r4 |
+\mymark "Chorus 1" #13
+    e'8 e' e' e' e' e' e' e' |
+    e'4 e' e' r |
+    a'8 a' a' a' a' a' a' a' |
+    a'4 a' a' r |
+    b'8 b' b' b' b' b' b' b' |
+    b'4 b' b' r |
+    e''8 e'' e'' e'' e'' e'' e'' e'' |
+    e''8 e'' e'' e'' e'' r8 r4 |
+\mymark "Verse 2" #21
+    e'8 e' e' e' e' e' e' e' |
+    e'8 e' e' e' e' e' e' e' |
+    a'8 a' a' a' a' a' a' a' |
+    a'8 a' a' a' a' a' a' a' |
+    b'8 b' b' b' b' b' b' b' |
+    b'8 b' b' b' b' b' b' b' |
+    e''8 e'' e'' e'' e'' e'' e'' e'' |
+    e''8 e'' e'' e'' e'' r8 r4 |
+\mymark "Chorus 2" #29
+    e'8 e' e' e' e' e' e' e' |
+    e'4 e' e' r |
+    a'8 a' a' a' a' a' a' a' |
+    a'4 a' a' r |
+    b'8 b' b' b' b' b' b' b' |
+    b'4 b' b' r |
+\mymark "Chorus 3" #35
+    e'8 e' e' e' e' e' e' e' |
+    e'4 e' e' r |
+    a'8 a' a' a' a' a' a' a' |
+    a'4 a' a' r |
+    b'8 b' b' b' b' b' b' b' |
+    b'4 b' b' r |
+    e''8 e'' e'' e'' e'' e'' e'' e'' |
+    e''8 e'' e'' e'' e'' r8 r4 |
+\mymark "Outro" #43
+    a'4 b' a'' gis''~ |
+    gis''8 e''4. fis''4 cis'' |
+    ees''4 e''2. |
+    r1 |
+    
+}

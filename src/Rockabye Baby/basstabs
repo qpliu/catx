@@ -1,0 +1,46 @@
+bass = {
+% tuning e,, a,, d, g,
+\mymark "Intro" #1
+    r1*4 |
+\mymark "Verse 1" #5
+    4-0t8 t t t t t t t |
+    4-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    3-2t8 t t t t t t t |
+    3-2t8 t t t t t t t |
+    r1*2 |
+\mymark "Chorus 1" #13
+    4-0t8 t t t t t t t |
+    4-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    3-2t8 t t t t t t t |
+    3-2t8 t t t t t t t |
+    r1*2 |
+\mymark "Verse 2" #21
+    4-0t8 t t t t t t t |
+    4-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    3-2t8 t t t t t t t |
+    3-2t8 t t t t t t t |
+    r1*2 |
+\mymark "Chorus 2" #29
+    4-0t8 t t t t t t t |
+    4-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    3-2t8 t t t t t t t |
+    3-2t8 t t t t t t t |
+\mymark "Chorus 3" #35
+    4-0t8 t t t t t t t |
+    4-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    3-0t8 t t t t t t t |
+    3-2t8 t t t t t t t |
+    3-2t8 t t t t t t t |
+    r1*2 |
+\mymark "Outro" #43
+    r1*4
+}

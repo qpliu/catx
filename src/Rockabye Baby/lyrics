@@ -1,0 +1,55 @@
+vlyrics = \new Lyrics \lyricmode {
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1" #5
+    "Time"8 "to"8 "take"8 "a"8 "nap"4 "now"4 |
+    "time"8 "to"8 "go"8 "to"8 "sleep"4 \skip4 |
+    "Off"8 "to"8 "bed"8 "for"8 "you"4 "now"4 |
+    "not"8 "a"8 -- "no"8 -- "ther"8 "peep"4 \skip4 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus 1" #13
+    "Rock"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4 |
+    "rock"4 "rock"4 "rock"4 \skip4 |
+    "Rock"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4 |
+    "rock"4 "rock"4 "rock"4 \skip4 |
+    "Rock"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4 |
+    "rock"4 "rock"4 "rock"4 \skip4 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 2" #21
+    "Sing"8 "your"8 "bed"8 -- "time"8 "song"4 "now"4 |
+    "sing"8 "it"8 "for"8 "the"8 "crowd"4 \skip4 |
+    "Sing"8 "the"8 "lul"8 -- "la"8 -- "by"4 "now"4 |
+    "sing"8 "it"8 "real"8 -- "ly"8 "loud"4 \skip4 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus 2" #29
+    "Rock"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4 |
+    "rock"4 "rock"4 "rock"4 \skip4 |
+    "Rock"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4 |
+    "rock"4 "rock"4 "rock"4 \skip4 |
+    "Rock"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4 |
+    "rock"4 "rock"4 "rock"4 \skip4 |
+\mymark "Chorus 3" #35
+    "Rock"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4 |
+    "rock"4 "rock"4 "rock"4 \skip4 |
+    "Rock"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4 |
+    "rock"4 "rock"4 "rock"4 \skip4 |
+    "Rock"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4 |
+    "rock"4 "rock"4 "rock"4 \skip4 |
+    \skip1 |
+    \skip1 |
+\mymark "Outro" #43
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}

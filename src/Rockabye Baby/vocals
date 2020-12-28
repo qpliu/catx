@@ -1,0 +1,42 @@
+vocals = {
+    \myVocalsStuff
+\mymark "Intro" #1
+    r1*4
+\mymark "Verse 1" #5
+    g'8 g' fis' e' g'4 e' |
+    g'8 g' fis' e' g'4 r |
+    g'8 g' fis' e' g'4 e' |
+    g'8 g' fis' e' e'4 r |
+    r1*4 |
+\mymark "Chorus 1" #13
+    b'8 b' b'4 cis'' b' |
+    gis'4 gis' gis' r |
+    e'8 e' e'4 fis'4 e' |
+    cis'4 cis' cis' r |
+    fis'8 fis' fis'4 gis' fis' |
+    b'4 b' b' r |
+    r1*2 |
+\mymark "Verse 2" #21
+    g'8 g' fis' e' g'4 e' |
+    g'8 g' fis' e' g'4 r |
+    g'8 g' fis' e' g'4 e' |
+    g'8 g' fis' e' e'4 r |
+    r1*4 |
+\mymark "Chorus 2" #29
+    b'8 b' b'4 cis'' b' |
+    gis'4 gis' gis' r |
+    e'8 e' e'4 fis'4 e' |
+    cis'4 cis' cis' r |
+    fis'8 fis' fis'4 gis' fis' |
+    b'4 b' b' r |
+\mymark "Chorus 3" #35
+    b'8 b' b'4 cis'' b' |
+    gis'4 gis' gis' r |
+    e'8 e' e'4 fis'4 e' |
+    cis'4 cis' cis' r |
+    fis'8 fis' fis'4 gis' fis' |
+    b'4 b' b' r |
+    r1*2 |
+\mymark "Outro" #43
+    r1*4
+}
