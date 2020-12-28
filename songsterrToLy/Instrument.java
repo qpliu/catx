@@ -47,11 +47,22 @@ abstract class Instrument extends Engraver{
 		Rational time=Rational.ZERO;
 		for (Json beat:voice.get("beats").list){
 		    Rational duration=getDuration(beat.get("duration"));
+		    List<Event>l=new ArrayList<Event>();
+		    int lowest=Integer.MAX_VALUE;
+		    int highest=Integer.MIN_VALUE;
 		    for (Json note:beat.get("notes").list){
 			Event e=new Event(state,state.measureStartTime.add(time).add(state.argv_shift),duration,note,getNote(note));
-			if (!e.rest && e.note!=null)
-			    events.add(e);
+			if (!e.rest && e.note!=null){
+			    l.add(e);
+			    if (e.note instanceof MidiNote){
+				lowest = Math.min(lowest,((MidiNote)e.note).note);
+				highest = Math.max(highest,((MidiNote)e.note).note);
+			    }
+			}
 		    }
+		    for (Event e:l)
+			if (!(e.note instanceof MidiNote) || !(state.argv_only_highest_note && ((MidiNote)e.note).note<highest) && !(state.argv_only_lowest_note && ((MidiNote)e.note).note>lowest))
+			    events.add(e);
 		    time = time.add(duration);
 		}
 		if (time.compareTo(new Rational(state.time_n))!=0)

@@ -27,6 +27,9 @@ final class SongsterrToLy{
 	System.err.println("[--name partName]  Specify partName.");
 	System.err.println("[--no-ghost-notes]  Don't include ghost notes.");
 	System.err.println("[--no-string-numbers]  Don't include string numbers.");
+	System.err.println("[--only-highest-note]  Only include highest note of chords.");
+	System.err.println("[--only-lowest-note]  Only include lowest note of chords.");
+	System.err.println("[--ottava middle_note]  Output ottava.");
 	System.err.println("[--output-text]  Output text.");
 	System.err.println("[--output-relative]  Output \\relative notes.");
 	System.err.println("[--output-tabs]  Output tabs instead of notes.");
@@ -45,6 +48,12 @@ final class SongsterrToLy{
 		state.argv_no_string_numbers = true;
 	    else if (argv[i].equals("--no-ghost-notes"))
 		state.argv_no_ghost_notes = true;
+	    else if (argv[i].equals("--only-highest-note"))
+		state.argv_only_highest_note = true;
+	    else if (argv[i].equals("--only-lowest-note"))
+		state.argv_only_lowest_note = true;
+	    else if (argv[i].equals("--ottava"))
+		state.argv_ottava = Integer.parseInt(argv[++i]);
 	    else if (argv[i].equals("--output-tabs"))
 		state.argv_output_tabs = true;
 	    else if (argv[i].equals("--output-text"))

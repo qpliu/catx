@@ -10,6 +10,9 @@ final class State{
     boolean argv_output_text;
     boolean argv_output_tabs;
     boolean argv_no_ghost_notes;
+    boolean argv_only_lowest_note;
+    boolean argv_only_highest_note;
+    int argv_ottava;
     Rational argv_shift=Rational.ZERO;
     Json json;
     Json meta;
@@ -25,6 +28,7 @@ final class State{
     boolean last_hp;
     int lastRelative;
     Rational measureStartTime;
+    int old_ottava;
     void startPass(int pass){
 	this.pass = pass;
 	measureNumber = 0;

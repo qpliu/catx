@@ -7,4 +7,4 @@ gzip -d <"$WHERE/z-t2"|java -jar ../../songsterrToLy/1.jar --name lpianoPart --o
 gzip -d <"$WHERE/z-t4"|java -jar ../../songsterrToLy/1.jar --name guitarOnePart --output-tabs - >generated-guitar1tabs
 gzip -d <"$WHERE/z-t5"|java -jar ../../songsterrToLy/1.jar --name guitarTwoPart --output-tabs - >generated-guitar2tabs
 #gzip -d <"$WHERE/z-t6"|java -jar ../../songsterrToLy/1.jar --name drumsPart - >generated-drumscolors
-gzip -d <"$WHERE/z-t1"|java -jar ../../songsterrToLy/1.jar --no-string-numbers --name steelpanPart -|sed 's/<\([^ >][^ >]*\) [^>]*>/\1/g' >generated-steelpan
+gzip -d <"$WHERE/z-t1"|java -jar ../../songsterrToLy/1.jar --only-lowest-note --ottava 71 --scale 'ees' --no-string-numbers --name steelpanPart - >generated-steelpan

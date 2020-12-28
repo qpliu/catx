@@ -85,13 +85,30 @@ abstract class NotesToString{
 	    duration = duration.subtract(dd[0]);
 	    List<Event>l=new ArrayList<Event>();
 	    boolean this_hp=false;
+	    int highest_note=Integer.MIN_VALUE;
+	    int lowest_note=Integer.MAX_VALUE;
 	    for (Event f:ll){
 		Event[]lr=f.split(duration);
 		l.add(lr[0]);
+		if (lr[0].note instanceof MidiNote){
+		    MidiNote mn=(MidiNote)lr[0].note;
+		    highest_note = Math.max(highest_note,mn.note);
+		    lowest_note = Math.min(lowest_note,mn.note);
+		}
 		if (lr[0].hpRhs)
 		    this_hp = true;
 		if (lr[1]!=null)
 		    q.add(lr[1]);
+	    }
+	    if (highest_note>=lowest_note){
+		int ottava=0;
+		if (state.argv_ottava!=0 && lowest_note-12*ottava>state.argv_ottava+17)
+		    ottava++;
+		if (state.argv_ottava!=0 && highest_note-12*ottava<state.argv_ottava-17)
+		    --ottava;
+		if (ottava!=state.old_ottava)
+		    sb.append("\\ottava #").append(ottava).append(' ');
+		state.old_ottava = ottava;
 	    }
 	    notesToString(l,ds);
 	    if (!state.last_hp && this_hp)

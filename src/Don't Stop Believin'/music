@@ -33,7 +33,7 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Sp" }
     } <<
 	\markupStuff
-	{ \myVocalsStuff \steelpanPart }
+	\transpose c c' { \myVocalsStuff \steelpanPart }
     >>
     \tag #'(allPart peterPart) <<
 	\new Staff \with {
