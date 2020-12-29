@@ -1,13 +1,37 @@
 import java.io.*;
 import java.util.*;
 
-final class TrackFileMaker extends FileMaker{
+class TrackFileMaker extends FileMaker{
+    final String lyname;
     Arg arg;
-    TrackFileMaker(Main main,Arg arg)throws IOException{
-	super(main,arg.partName);
+    static TrackFileMaker newTrackFileMaker(Main main,int index)throws IOException{
+	Arg arg=main.trackarg[index];
+	if (arg.partName==null)
+	    return null;
+	if (false /* check main.gpfile to see if drums */ )
+	    return new DrumTrackFileMaker(main,arg,arg.partName);
+	if (arg.output_tabs)
+	    return new TabsTrackFileMaker(main,arg,arg.partName);
+	return new LyTrackFileMaker(main,arg,arg.partName);
+    }
+    TrackFileMaker(Main main,Arg arg,String name,String suffix)throws IOException{
+	super(main,name,suffix);
 	this.arg = arg;
+	lyname = arg.partName;
     }
     void make()throws IOException{
+	indent(lyname+" = {");
+	makeMeasures();
+	unindent("}");
+    }
+    final void makeMeasures()throws IOException{
+	for (Gpfile.Measure measure:main.gpfile.measures){
+	    if (measure.rehearsalMark!=null)
+		noindent("\\mymark "+Stuff.escape(measure.rehearsalMark)+" #"+measure.number);
+	    makeMeasure(measure);
+	}
+    }
+    void makeMeasure(Gpfile.Measure measure)throws IOException{
     }
 /*
     private static final Instrument[]instruments={

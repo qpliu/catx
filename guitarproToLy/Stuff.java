@@ -65,4 +65,8 @@ final class Stuff{
 	}
 	return sb.append('"').toString();
     }
+    private static final String[]sharpsToLy={"fes","ces","ges","des","aes","ees","bes","f","c","g","d","a","e","b","fis","cis","gis","dis","ais","eis"};
+    static String keyToLy(int key0,int key1){
+	return "\\key "+sharpsToLy[key0+(key1==0?8:11)]+(key1==0?" \\major":" \\minor");
+    }
 }

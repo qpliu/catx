@@ -6,9 +6,12 @@ abstract class FileMaker{
     final PrintStream ps;
     private int indent;
     FileMaker(Main main,String name)throws IOException{
+	this(main,name,"");
+    }
+    FileMaker(Main main,String name,String suffix)throws IOException{
 	this.main = main;
 	this.filename = "generated-"+name;
-	ps = new PrintStream(new FileOutputStream(filename));
+	ps = new PrintStream(new FileOutputStream(filename+suffix));
     }
     final void noindent(String s){
 	ps.println(s);

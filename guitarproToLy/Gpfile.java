@@ -9,6 +9,7 @@ class Gpfile{
     final List<Measure>measures=new ArrayList<Measure>();
     final List<Track>tracks=new ArrayList<Track>();
     static class Measure{
+	int number;
 	String tripletFeel;
 	int tempo;
 	int time_n,time_d;

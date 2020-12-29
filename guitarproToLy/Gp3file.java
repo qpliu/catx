@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 class Gp3file extends Gpfile{
-    String tripletFeel="";
+    String tripletFeel;
     int tempo;
     int key0,key1;
     int time_n,time_d;
@@ -76,6 +76,7 @@ class Gp3file extends Gpfile{
     void readMeasureHeaders(int measureCount)throws IOException{
 	for (int i=0; i<measureCount; i++){
 	    Measure measure=new Measure();
+	    measure.number = i+1;
 	    int bits=is.readUnsignedByte();
 	    if ((bits&1)!=0)
 		time_n = is.readUnsignedByte();

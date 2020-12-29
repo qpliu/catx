@@ -20,8 +20,7 @@ final class Main{
 	karaokeFileMaker = new KaraokeFileMaker(this);
 	trackFileMaker = new TrackFileMaker[trackarg.length];
 	for (int i=0; i<trackarg.length; i++)
-	    if (trackarg[i].partName!=null)
-		trackFileMaker[i] = new TrackFileMaker(this,trackarg[i]);
+	    trackFileMaker[i] = TrackFileMaker.newTrackFileMaker(this,i);
     }
     void make()throws IOException{
 	musicFileMaker.make();

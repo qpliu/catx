@@ -22,7 +22,7 @@ final class MusicFileMaker extends FileMaker{
 	unindent(">>");
 	print();
 	indent("midimusic = <<");
-	print("\\markupStuff");
+	print("\\"+main.markupFileMaker.lyname);
 	unindent(">>");
     }
 }
