@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+./build
+java -jar 1.jar </share/gp/gp3.gp3
