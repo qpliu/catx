@@ -1,12 +1,13 @@
 import java.io.*;
 import java.util.*;
 
-abstract class Gpfile{
+class Gpfile{
     final DataInputStream is;
     final String version;
     String artist;
     String title;
-    List<Measure>measures=new ArrayList<Measure>();
+    final List<Measure>measures=new ArrayList<Measure>();
+    final List<Track>tracks=new ArrayList<Track>();
     static class Measure{
 	String tripletFeel;
 	int tempo;
@@ -17,6 +18,8 @@ abstract class Gpfile{
 	int repeatAlternate;
 	boolean hasDoubleBar;
 	String rehearsalMark;
+    }
+    static class Track{
     }
     static final class Blob{
 	final byte[]b;
@@ -47,5 +50,7 @@ abstract class Gpfile{
 	System.out.println("version="+version);
 	parse();
     }
-    abstract void parse()throws IOException;
+    void parse()throws IOException{
+	throw new IOException("Bad version "+version);
+    }
 }

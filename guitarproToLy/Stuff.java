@@ -1,21 +1,11 @@
 import java.util.*;
 
 final class Stuff{
-    private static String[]scale={"c","cis","d","dis","e","f","fis","g","gis","a","ais","b"};
-    static void setScale(String s){
-	for (StringTokenizer st=new StringTokenizer(s); st.hasMoreTokens();){
-	    String ly=st.nextToken();
-	    scale[ly2midi(ly)%12] = ly;
-	}
-    }
     static String midi2ly(int key){
 	return midi2ly(key,null);
     }
-    static String midi2ly(int key,State state){
-	int last=0;
-	if (state!=null && state.isRelative)
-	    last = state.lastRelative;
-	String ly=scale[key%12];
+    static String midi2ly(int key,Arg arg){
+	String ly=arg.scale[key%12];
 	int next=(ly.charAt(0)-'a'+5)%7-3;
 	if (ly.endsWith("'")){
 	    ly = ly.substring(0,ly.length()-1);
@@ -33,12 +23,11 @@ final class Stuff{
 	    key -= 12;
 	    next += 7;
 	}
+	int last=0;
 	for (; last<next-3; last+=7)
 	    ly += '\'';
 	for (; last>next+3; last-=7)
 	    ly += ',';
-	if (state!=null && state.isRelative)
-	    state.lastRelative = next;
 	return ly;
     }
     static int ly2midi(String ly){
@@ -66,5 +55,14 @@ final class Stuff{
 	else if (!ly.equals("c"))
 	    throw new RuntimeException("Bad note "+ly);
 	return key;
+    }
+    static String escape(String s){
+	StringBuilder sb=new StringBuilder("\"");
+	for (int i=0; i<s.length(); i++){
+	    if (s.charAt(i)=='\\' || s.charAt(i)=='"')
+		sb.append('\\');
+	    sb.append(s.charAt(i));
+	}
+	return sb.append('"').toString();
     }
 }

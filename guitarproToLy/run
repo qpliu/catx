@@ -1,4 +1,8 @@
 #!/bin/sh
 set -e
 ./build
-java -jar 1.jar </share/gp/gp3.gp3
+cd /share/gptest
+rm -f output/*
+mkdir -p output
+cd output
+java -jar ~/catx/guitarproToLy/1.jar <../gp/gp3.gp3

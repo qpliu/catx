@@ -6,24 +6,24 @@ class Gp3file extends Gpfile{
     int tempo;
     int key0,key1;
     int time_n,time_d;
+    MidiChannel[]midiChannels;
     final class MidiChannel{
 	final int index;
 	final int instrument;
-	final float volume;
-	MidiChannel(int index){
+	final double volume;
+	MidiChannel(int index)throws IOException{
 	    this.index = index;
 	    instrument = readInt();
 	    volume = is.readByte()/127.;
-	    float balance=is.readByte()/127.;
-	    float chorus=is.readByte()/127.;
-	    float reverb=is.readByte()/127.;
-	    float phaser=is.readByte()/127.;
-	    float tremolo=is.readByte()/127.;
+	    double balance=is.readByte()/127.;
+	    double chorus=is.readByte()/127.;
+	    double reverb=is.readByte()/127.;
+	    double phaser=is.readByte()/127.;
+	    double tremolo=is.readByte()/127.;
 	    is.readByte();
 	    is.readByte();
 	}
     }
-    MidiChannels[]midiChannels;
     Gp3file(DataInputStream is)throws IOException{
 	super(is);
     }
@@ -51,13 +51,15 @@ class Gp3file extends Gpfile{
 	}
     }
     void readMidiChannels()throws IOException{
-	midiChannels = new MidiChannels[64];
+	midiChannels = new MidiChannel[64];
 	for (int i=0; i<midiChannels.length; i++)
 	    midiChannels[i] = new MidiChannel(i);
     }
     void parse()throws IOException{
-	if (!version.equals("FICHIER GUITAR PRO v3.00"))
-	    throw new IOException("Bad version "+version);
+	if (!version.equals("FICHIER GUITAR PRO v3.00")){
+	    super.parse();
+	    return;
+	}
 	readInfo();
 	if (readBoolean())
 	    tripletFeel = "\\tripletFeel 8 ";

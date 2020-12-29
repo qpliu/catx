@@ -28,7 +28,6 @@ final class NotesToStringLy extends NotesToString{
 	    e.getAfterAdjectives(afterAdjectives);
 	}else{
 	    sb.append(lt);
-	    int lastRelative=0;
 	    for (int i=0; i<l.size(); i++){
 		if (i!=0)
 		    sb.append(between);
@@ -42,10 +41,7 @@ final class NotesToStringLy extends NotesToString{
 		sb.append(e.note.getLySuffix());
 		if (e.tieRhs && !allTies)
 		    sb.append('~');
-		if (i==0)
-		    lastRelative = state.lastRelative;
 	    }
-	    state.lastRelative = lastRelative;
 	    sb.append(gt);
 	    sb.append(duration);
 	}

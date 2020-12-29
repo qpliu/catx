@@ -102,9 +102,9 @@ abstract class NotesToString{
 	    }
 	    if (highest_note>=lowest_note){
 		int ottava=0;
-		if (state.argv_ottava!=0 && lowest_note-12*ottava>state.argv_ottava+17)
+		if (state.argv_ottava_a!=0 && lowest_note-12*ottava>state.argv_ottava_a)
 		    ottava++;
-		if (state.argv_ottava!=0 && highest_note-12*ottava<state.argv_ottava-17)
+		if (state.argv_ottava_b!=0 && highest_note-12*ottava<state.argv_ottava_b)
 		    --ottava;
 		if (ottava!=state.old_ottava)
 		    sb.append("\\ottava #").append(ottava).append(' ');

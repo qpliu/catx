@@ -41,7 +41,6 @@ abstract class Instrument extends Engraver{
 	return q;
     }
     @Override void engrave(Json measure){
-	state.startRelative(this);
 	if (state.pass==0){
 	    for (Json voice:measure.get("voices").list){
 		Rational time=Rational.ZERO;
