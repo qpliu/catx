@@ -3,16 +3,12 @@ final class Arg implements Cloneable{
     String who;
     String drumMap;
     String[]scale={"c","cis","d","dis","e","f","fis","g","gis","a","ais","b"};
-    boolean lyrics;
-    boolean lyrics_in_voices;
     boolean no_string_numbers;
     boolean output_text;
     boolean output_tabs;
     boolean no_ghost_notes;
     boolean only_lowest_note;
     boolean only_highest_note;
-    int ottava_a;
-    int ottava_b;
     Rational shift=Rational.ZERO;
     @Override public Arg clone(){
 	try{

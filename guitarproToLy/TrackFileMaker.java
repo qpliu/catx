@@ -14,10 +14,10 @@ class TrackFileMaker extends FileMaker{
 	    return new TabsTrackFileMaker(main,arg,arg.partName);
 	return new LyTrackFileMaker(main,arg,arg.partName);
     }
-    TrackFileMaker(Main main,Arg arg,String name,String suffix)throws IOException{
+    TrackFileMaker(Main main,Arg arg,String name,String suffix,String lyname)throws IOException{
 	super(main,name,suffix);
 	this.arg = arg;
-	lyname = arg.partName;
+	this.lyname = lyname;
     }
     void make()throws IOException{
 	indent(lyname+" = {");
@@ -25,11 +25,19 @@ class TrackFileMaker extends FileMaker{
 	unindent("}");
     }
     final void makeMeasures()throws IOException{
+	String tripletFeel=null;
 	for (Gpfile.Measure measure:main.gpfile.measures){
 	    if (measure.rehearsalMark!=null)
-		noindent("\\mymark "+Stuff.escape(measure.rehearsalMark)+" #"+measure.number);
+		noindent("\\mymark "+Stuff.escape(measure.rehearsalMark)+" #"+measure.name);
+	    if (tripletFeel!=null && !tripletFeel.equals(measure.tripletFeel))
+		unindent(/*{*/"}");
+	    if (measure.tripletFeel!=null && !measure.tripletFeel.equals(tripletFeel))
+		indent(measure.tripletFeel+" {"/*}*/);
+	    tripletFeel = measure.tripletFeel;
 	    makeMeasure(measure);
 	}
+	if (tripletFeel!=null)
+	    unindent(/*{*/"}");
     }
     void makeMeasure(Gpfile.Measure measure)throws IOException{
     }

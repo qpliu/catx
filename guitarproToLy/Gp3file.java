@@ -8,13 +8,10 @@ class Gp3file extends Gpfile{
     int time_n,time_d;
     MidiChannel[]midiChannels;
     final class MidiChannel{
-	final int index;
 	final int instrument;
-	final double volume;
-	MidiChannel(int index)throws IOException{
-	    this.index = index;
+	MidiChannel()throws IOException{
 	    instrument = readInt();
-	    volume = is.readByte()/127.;
+	    double volume=is.readByte()/127.;
 	    double balance=is.readByte()/127.;
 	    double chorus=is.readByte()/127.;
 	    double reverb=is.readByte()/127.;
@@ -29,31 +26,31 @@ class Gp3file extends Gpfile{
     }
     void readInfo()throws IOException{
 	title = readIntSizeBlob().toByteSizeString();
-	System.out.println("title="+title);
+	Log.info("title=%s",title);
 	String subtitle=readIntSizeBlob().toByteSizeString();
-	System.out.println("subtitle="+subtitle);
+	Log.info("subtitle=%s",subtitle);
 	artist = readIntSizeBlob().toByteSizeString();
-	System.out.println("artist="+artist);
+	Log.info("artist=%s",artist);
 	String album=readIntSizeBlob().toByteSizeString();
-	System.out.println("album="+album);
+	Log.info("album=%s",album);
 	String words=readIntSizeBlob().toByteSizeString();
-	System.out.println("words="+words);
+	Log.info("words=%s",words);
 	String copyright=readIntSizeBlob().toByteSizeString();
-	System.out.println("copyright="+copyright);
+	Log.info("copyright=%s",copyright);
 	String tab=readIntSizeBlob().toByteSizeString();
-	System.out.println("tab="+tab);
+	Log.info("tab=%s",tab);
 	String instructions=readIntSizeBlob().toByteSizeString();
-	System.out.println("instructions="+instructions);
+	Log.info("instructions=%s",instructions);
 	int notesCount=readInt();
 	for (int i=0; i<notesCount; i++){
 	    String note=readIntSizeBlob().toByteSizeString();
-	    System.out.println("note"+i+"="+note);
+	    Log.info("note%d=%s",i,note);
 	}
     }
     void readMidiChannels()throws IOException{
 	midiChannels = new MidiChannel[64];
 	for (int i=0; i<midiChannels.length; i++)
-	    midiChannels[i] = new MidiChannel(i);
+	    midiChannels[i] = new MidiChannel();
     }
     void parse()throws IOException{
 	if (!version.equals("FICHIER GUITAR PRO v3.00")){
@@ -67,47 +64,204 @@ class Gp3file extends Gpfile{
 	key0 = readInt();
 	key1 = 0;
 	readMidiChannels();
-	int measureCount=readInt();
-	int trackCount=readInt();
-	readMeasureHeaders(measureCount);
-	readTracks(trackCount);
-	readMeasures();
-    }
-    void readMeasureHeaders(int measureCount)throws IOException{
-	for (int i=0; i<measureCount; i++){
-	    Measure measure=new Measure();
-	    measure.number = i+1;
-	    int bits=is.readUnsignedByte();
-	    if ((bits&1)!=0)
-		time_n = is.readUnsignedByte();
-	    if ((bits&2)!=0)
-		time_d = is.readUnsignedByte();
-	    if ((bits&4)!=0)
-		measure.repeatStart = true;
-	    if ((bits&8)!=0)
-		measure.repeatEnd = is.readUnsignedByte();
-	    if ((bits&16)!=0)
-		measure.repeatAlternate = is.readUnsignedByte();
-	    if ((bits&32)!=0){
-		measure.rehearsalMark = readIntSizeBlob().toByteSizeString();
-		int color=readInt();
-	    }
-	    if ((bits&64)!=0){
-		key0 = is.readUnsignedByte();
-		key1 = is.readUnsignedByte();
-	    }
-	    if ((bits&128)!=0)
-		measure.hasDoubleBar = true;
-	    measure.tripletFeel = tripletFeel;
-	    measure.tempo = tempo;
-	    measure.time_n = time_n;
-	    measure.time_d = time_d;
-	    measure.key0 = key0;
-	    measure.key1 = key1;
+	measures = new Measure[readInt()];
+	tracks = new Track[readInt()];
+	for (int i=0; i<measures.length; i++)
+	    measures[i] = readMeasure(i);
+	for (int i=0; i<tracks.length; i++)
+	    tracks[i] = readTrack(i);
+	Rational time=Rational.ZERO;
+	for (int i=0; i<measures.length; i++){
+	    for (int j=0; j<tracks.length; j++)
+		readEvents(time,i,j);
+	    time = time.add(measures[i].time_n);
 	}
     }
-    void readTracks(int trackCount)throws IOException{
+    Measure readMeasure(int index)throws IOException{
+	Measure measure=new Measure();
+	measure.name = String.valueOf(index+1);
+	int bits=is.readUnsignedByte();
+	Log.debug("bits=0x%02x",bits);
+	if ((bits&1)!=0)
+	    time_n = is.readUnsignedByte();
+	if ((bits&2)!=0)
+	    time_d = is.readUnsignedByte();
+	if ((bits&4)!=0)
+	    measure.repeatStart = true;
+	if ((bits&8)!=0)
+	    measure.repeatEnd = is.readUnsignedByte();
+	if ((bits&16)!=0)
+	    measure.repeatAlternate = is.readUnsignedByte();
+	if ((bits&32)!=0){
+	    measure.rehearsalMark = readIntSizeBlob().toByteSizeString();
+	    int color=readInt();
+	}
+	if ((bits&64)!=0){
+	    key0 = is.readUnsignedByte();
+	    key1 = is.readUnsignedByte();
+	}
+	if ((bits&128)!=0)
+	    measure.hasDoubleBar = true;
+	measure.tripletFeel = tripletFeel;
+	measure.tempo = tempo;
+	measure.time_n = time_n;
+	measure.time_d = time_d;
+	measure.key0 = key0;
+	measure.key1 = key1;
+	Log.info("%s",measure);
+	return measure;
     }
-    void readMeasures()throws IOException{
+    Track readTrack(int index)throws IOException{
+	Track track=new Track();
+	track.index = index;
+	int bits=is.readUnsignedByte();
+	Log.debug("bits=0x%02x",bits);
+	track.name = readBlob(41).toByteSizeString();
+	if ((bits&1)!=0)
+	    track.isDrums = true;
+	int stringCount=readInt();
+	Log.debug("stringCount=%d",stringCount);
+	track.tuning = new int[7];
+	for (int i=0; i<track.tuning.length; i++)
+	    track.tuning[i] = readInt();
+	int port=readInt();
+	Log.debug("port=%d",port);
+	int notesChannel=readInt();
+	Log.debug("notesChannel=%d",notesChannel);
+	int effectsChannel=readInt();
+	Log.debug("effectsChannel=%d",effectsChannel);
+	track.instrument = midiChannels[notesChannel-1].instrument;
+	int fretCount=readInt();
+	Log.debug("fretCount=%d",fretCount);
+	int offset=readInt();
+	Log.debug("offset=%d",offset);
+	int color=readInt();
+	Log.debug("color=%d",color);
+	Log.info("%s",track);
+	return track;
+    }
+    void readEvents(Rational time,int measure,int track)throws IOException{
+	int nbeats=readInt();
+	Rational measureEnd=time.add(measures[measure].time_n);
+	for (int i=0; i<nbeats; i++){
+	    int bits=is.readUnsignedByte();
+	    Log.debug("measure %d track %d beat %d bits=0x%02x",measure,track,i,bits);
+	    int status=1;
+	    if ((bits&64)!=0){
+		status = is.readUnsignedByte();
+		Log.debug("status=%d",status);
+	    }
+	    Rational duration=new Rational(measures[measure].time_d,1<<is.readByte()+2);
+	    if ((bits&1)!=0)
+		duration = duration.add(duration.divide(2));
+	    if ((bits&32)!=0){
+		int tuplet=readInt();
+		duration = duration.divide(tuplet);
+		for (; tuplet>1; tuplet>>=1)
+		    duration = duration.multiply(2);
+	    }
+	    Log.debug("duration=%s",duration);
+	    if ((bits&2)!=0)
+		events.add(new ChordEvent(time,duration,readBoolean()?readGp4Chord():readGp3Chord()));
+	    if ((bits&4)!=0)
+		events.add(new TextEvent(time,duration,readIntSizeBlob().toByteSizeString()));
+	    if ((bits&8)!=0)
+		readBeatEffects();
+	    if ((bits&16)!=0)
+		readMixTableChange();
+	    int stringBits=is.readUnsignedByte();
+	    for (int j=0; j<7; j++)
+		if ((stringBits&1<<j)!=0){
+		    NoteEvent e=new NoteEvent(time,duration);
+		    int noteBits=is.readUnsignedByte();
+		    if ((noteBits&4)!=0)
+			e.ghost_note = true;
+		    if ((noteBits&32)!=0){
+			int type=is.readUnsignedByte();
+		    }
+		    if ((noteBits&1)!=0){
+			int d=is.readByte();
+			int t=is.readByte();
+		    }
+		    if ((noteBits&16)!=0){
+			int velocity=is.readByte();
+		    }
+		    if ((noteBits&32)!=0){
+			int fret=is.readUnsignedByte();
+		    }
+		    if ((noteBits&128)!=0){
+			int left_hand_finger=is.readUnsignedByte();
+			int right_hand_finger=is.readUnsignedByte();
+		    }
+		    if ((noteBits&8)!=0){
+			int effectBits=is.readUnsignedByte();
+			if ((effectBits&2)!=0){
+			    boolean hammer=true;
+			}
+			if ((effectBits&8)!=0){
+			    boolean let_ring=true;
+			}
+			if ((effectBits&1)!=0)
+			    throw new IOException("readBend not implemented");
+			if ((effectBits&16)!=0)
+			    throw new IOException("readGrace not implemented");
+			if ((effectBits&4)!=0)
+			    throw new IOException("readSlide not implemented");
+		    }
+		    if (status==1)
+			events.add(e);
+		}
+	    if (status!=0)
+		time = time.add(duration);
+	}
+	if (!time.equals(measureEnd))
+	    throw new IOException("Weird measure end got="+time+" want="+measureEnd);
+    }
+    Chord readGp3Chord()throws IOException{
+	Chord chord=new Chord();
+	dumpIs();
+	chord.name = readIntSizeBlob().toByteSizeString();
+	int firstFret=readInt();
+	if (firstFret!=0)
+	    for (int i=0; i<6; i++)
+		readInt();
+	return chord;
+    }
+    Chord readGp4Chord()throws IOException{
+	Chord chord=new Chord();
+	boolean sharp=readBoolean();
+	is.readByte();
+	is.readByte();
+	is.readByte();
+	int root=readInt();
+	int type=readInt();
+	int extension=readInt();
+	int bass=readInt();
+	int tonality=readInt();
+	boolean add=readBoolean();
+	chord.name = readBlob(23).toByteSizeString();
+	int fifth=readInt();
+	int ninth=readInt();
+	int eleventh=readInt();
+	int firstFret=readInt();
+	for (int i=0; i<6; i++)
+	    readInt();
+	int barresCount=readInt();
+	int barreFrets0=readInt();
+	int barreFrets1=readInt();
+	int barreStarts0=readInt();
+	int barreStarts1=readInt();
+	int barreEnds0=readInt();
+	int barreEnds1=readInt();
+	for (int i=0; i<7; i++)
+	    readBoolean();
+	is.readByte();
+	return chord;
+    }
+    void readBeatEffects()throws IOException{
+	throw new IOException("readBeatEffects not implemented");
+    }
+    void readMixTableChange()throws IOException{
+	throw new IOException("readMixTableChange not implemented");
     }
 }

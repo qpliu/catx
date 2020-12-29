@@ -3,7 +3,7 @@ import java.util.*;
 
 final class DrumTrackFileMaker extends TrackFileMaker{
     DrumTrackFileMaker(Main main,Arg arg,String name)throws IOException{
-	super(main,arg,name,"colors");
+	super(main,arg,name,"colors",name);
     }
     void make()throws IOException{
 	indent(lyname+" = \\new DrumVoice = \"drsb\" \\new DrumVoice = \"drsa\" \\drummode {");

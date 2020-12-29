@@ -10,6 +10,7 @@ final class Main{
     final LyricsFileMaker lyricsFileMaker;
     final KaraokeFileMaker karaokeFileMaker;
     final TrackFileMaker[]trackFileMaker;
+    final TextFileMaker[]textFileMaker;
     Main(Gpfile gpfile,Arg globalarg,Arg[]trackarg)throws IOException{
 	this.gpfile = gpfile;
 	this.globalarg = globalarg;
@@ -19,8 +20,11 @@ final class Main{
 	lyricsFileMaker = new LyricsFileMaker(this);
 	karaokeFileMaker = new KaraokeFileMaker(this);
 	trackFileMaker = new TrackFileMaker[trackarg.length];
-	for (int i=0; i<trackarg.length; i++)
+	textFileMaker = new TextFileMaker[trackarg.length];
+	for (int i=0; i<trackarg.length; i++){
 	    trackFileMaker[i] = TrackFileMaker.newTrackFileMaker(this,i);
+	    textFileMaker[i] = TextFileMaker.newTextFileMaker(this,i);
+	}
     }
     void make()throws IOException{
 	musicFileMaker.make();
@@ -28,6 +32,9 @@ final class Main{
 	lyricsFileMaker.make();
 	karaokeFileMaker.make();
 	for (TrackFileMaker tfm:trackFileMaker)
+	    if (tfm!=null)
+		tfm.make();
+	for (TextFileMaker tfm:textFileMaker)
 	    if (tfm!=null)
 		tfm.make();
     }

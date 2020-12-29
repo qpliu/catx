@@ -1,6 +1,6 @@
 import java.io.*;
 
-abstract class FileMaker{
+class FileMaker{
     final String filename;
     final Main main;
     final PrintStream ps;
