@@ -27,6 +27,13 @@ layoutmusic = <<
     \tag #'(allPart peterPart) \new TabStaff \with {
         stringTunings = \stringTuning <e, a, d g b e'>
     } \guitar
+    \tag #'(allPart susanPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Steelpan" }
+        shortInstrumentName = \markup { \rotate #90 "Sp" }
+    } <<
+        \markupStuff
+        \violin
+    >>
     \tag #'(allPart bassPart) \new Staff \with {
         instrumentName = \markup { \rotate #90 "Bass" }
         shortInstrumentName = \markup { \rotate #90 "Ba" }
@@ -54,7 +61,7 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff \with {
         midiInstrument = #"acoustic guitar (steel)"
     } \guitar
-    \tag #'(midiOne) \new Staff \with {
+    \tag #'(midiSusan) \new Staff \with {
         midiInstrument = #"violin"
     } \violin
     \tag #'(midiOne) \new Staff \with {

@@ -12,6 +12,7 @@ final class GuitarproToLy{
 	System.err.println("[layout-tabs]  Layout tabs.");
 	System.err.println("[layout-who who]  Specify who for layout.");
 	System.err.println("[midi-who who]  Specify who for midi.");
+	System.err.println("[music-extra stuff]  Extra stuff for music.");
 	System.err.println("[name partName]  Specify partName.");
 	System.err.println("[no-ghost-notes]  Don't include ghost notes.");
 	System.err.println("[output-chords]  Output chords.");
@@ -40,13 +41,15 @@ final class GuitarproToLy{
 	    else if (argv[i].equals("instrument-short-name"))
 		arg.instrument_short_name = argv[++i];
 	    else if (argv[i].equals("layout-extra"))
-		arg.layout_extra = argv[++i];
+		arg.layout_extra.add(argv[++i]);
 	    else if (argv[i].equals("layout-tabs"))
 		arg.layout_tabs = true;
 	    else if (argv[i].equals("layout-who"))
 		arg.layout_who = argv[++i];
 	    else if (argv[i].equals("midi-who"))
 		arg.midi_who = argv[++i];
+	    else if (argv[i].equals("music-extra"))
+		arg.music_extra.add(argv[++i]);
 	    else if (argv[i].equals("name"))
 		arg.partName = argv[++i];
 	    else if (argv[i].equals("no-ghost-notes"))

@@ -24,7 +24,11 @@ track 0 \
     string-numbers \
 track 2 \
     name violin \
-    midi-who midiOne \
+    layout-who "allPart susanPart" \
+    instrument-name Steelpan \
+    instrument-short-name Sp \
+    music-extra "\\myVocalsStuff" \
+    midi-who midiSusan \
 track 3 \
     name rpiano \
     midi-who midiOne \

@@ -32,6 +32,8 @@ class TrackFileMaker extends FileMaker{
 	unindent("}");
     }
     final void makeMeasures()throws IOException{
+	for (String s:arg.music_extra)
+	    print(s);
 	Collections.sort(track.events);
 	String tripletFeel=null;
 	PriorityQueue<Gpfile.Event>q=new PriorityQueue<Gpfile.Event>(track.events);

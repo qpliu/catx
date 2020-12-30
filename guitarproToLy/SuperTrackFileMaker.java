@@ -9,7 +9,7 @@ class SuperTrackFileMaker extends TrackFileMaker{
 	return "Staff";
     }
     void layoutExtra(MusicFileMaker mfm){}
-    @Override void layout(MusicFileMaker mfm)throws IOException{
+    final @Override void layout(MusicFileMaker mfm)throws IOException{
 	if (arg.layout_who==null)
 	    return;
 	mfm.indent("\\tag #'("+arg.layout_who+") \\new "+getStaffType()+" \\with {");
@@ -20,9 +20,9 @@ class SuperTrackFileMaker extends TrackFileMaker{
 	layoutExtra(mfm);
 	mfm.unindentindent("} <<");
 	mfm.print("\\"+main.markupFileMaker.lyname);
-	if (arg.layout_extra!=null)
-	    mfm.print(arg.layout_extra);
-	    mfm.print('\\'+lyname);
+	for (String s:arg.layout_extra)
+	    mfm.print(s);
+	mfm.print('\\'+lyname);
 	mfm.unindent(">>");
 	if (arg.layout_tabs){
 	    mfm.indent("\\tag #'("+arg.layout_who+") \\new TabStaff \\with {");
