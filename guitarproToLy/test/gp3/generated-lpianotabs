@@ -1,9 +1,92 @@
 lpiano = {
 \mymark "Intro                          TAB by JPGR" #1
+    r1 |
+    r1 |
+    r2 g,,8 r4. |
+    g,,8 r c r g,, r c r |
+    g,,8 r c r g,, r c r |
 \mymark "Verse 1" #6
+    g,,8 r c r g,, r c r |
+    g,,8 r c r g,, r c r |
+    c,8 r g,, r c, r g,, r |
+    c,8 r g,, r c, r g,, r |
+    d,8 r a,, r d, r a,, r |
+    d,8 r a,, r d, r a,, r |
+    c,8 r g,, r c, r g,, r |
+    c,8 r g,, r |
+    g,,8 r c r g,, r c r |
+    g,,8 r c r g,, r c r |
 \mymark "Verse 2" #16
+    g,,8 r c r g,, r c r |
+    g,,8 r c r g,, r c r |
+    c,8 r g,, r c, r g,, r |
+    c,8 r g,, r c, r g,, r |
+    d,8 r a,, r d, r a,, r |
+    d,8 r a,, r d, r a,, r |
+    c,8 r g,, r c, r g,, r |
+    c,8 r g,, r |
+    g,,8 r c r g,, r c r |
+    g,,8 r c r g,, r c r |
 \mymark "Chorus" #26
+    g,,8 r c r g,, r c r |
+    g,,8 r c r g,, r c r |
+    c,8 r g,, r c, r g,, r |
+    c,8 r g,, r c, r g,, r |
+    g,,8 r c r g,, r c r |
+    g,,8 r c r g,, r c r |
+    d,8 r a,, r d, r a,, r |
+    d,8 r a,, r d, r a,, r |
+    c,8 r g,, r c, r g,, r |
+    c,8 r g,, r c, r g,, r |
+    g,,8 r c r g,, r c r |
+    g,,8 r c r g,, r c r |
 \mymark "Verse 3" #38
+    g,,8 r c r g,, r c r |
+    g,,8 r c r g,, r c r |
+    c,8 r g,, r c, r g,, r |
+    c,8 r g,, r c, r g,, r |
+    d,8 r a,, r d, r a,, r |
+    d,8 r a,, r d, r a,, r |
+    c,8 r g,, r c, r g,, r |
+    c,8 r g,, r |
+    g,,8 r c r g,, r c r |
+    g,,8 r c r g,, r c r |
 \mymark "Chorus" #48
+    g,,8 r c r g,, r c r |
+    g,,8 r c r g,, r c r |
+    c,8 r g,, r c, r g,, r |
+    c,8 r g,, r c, r g,, r |
+    g,,8 r c r g,, r c r |
+    g,,8 r c r g,, r c r |
+    d,8 r a,, r d, r a,, r |
+    d,8 r a,, r d, r a,, r |
+    c,8 r g,, r c, r g,, r |
+    c,8 r g,, r c, r g,, r |
 \mymark "Coda" #58
+    g,,8 r c r g,, r c r |
+    g,,8 r c r g,, r c4~ |
+    c1 |
+    r1 |
+    g,,8 r c r g,, r c r |
+    g,,8 r c r g,, r c r |
+    g,,8 r c r g,, r c r |
+    g,,8 r c r g,, r c r |
+    c,8 r g,, r c, r g,, r |
+    c,8 r g,, r c, r g,, r |
+    g,,8 r c r g,, r c r |
+    g,,8 r c r g,, r c r |
+    g,,8 r c r |
+    d,8 r a,, r d, r a,, r |
+    d,8 r a,, r d, r a,, r |
+    c,8 r g,, r c, r g,, r |
+    c,8 r g,, r c, r g,, r |
+    g,,8 r c r g,, r c r |
+    g,,8 r c r g,, r c r |
+    c,8 r g,, r c, r g,, r |
+    d,8 r a,, r d, r a,, r |
+    g,,4 g,, g,,2~ |
+    g,,1 |
+    r1 |
+    r1 |
+    r1 |
 }

@@ -4,7 +4,7 @@
 }
 
 \include "generated-markup"
-\include "generated-lyrics"
+\include "generated-volyrics"
 \include "generated-karaoke"
 \include "generated-guitarOne"
 \include "generated-guitarTwo"
@@ -13,11 +13,26 @@
 \include "generated-organ"
 \include "generated-lpiano"
 \include "generated-bass"
-\include "generated-drums"
+\include "generated-drs"
 
 layoutmusic = <<
+    \markupStuff
+    \tag #'(allPart kavPart) \volyrics
+    \tag #'(allPart kavPart) \karaoke
+    \tag #'(allPart peterPart) \guitarOne
+    \tag #'(allPart bassPart) \bass
+    \tag #'(allPart ggPart) \drs
 >>
 
 midimusic = <<
     \markupStuff
+    \tag #'(midiKaraoke) \karaoke
+    \tag #'(midiPeter) \guitarOne
+    \tag #'(midiOne) \guitarTwo
+    \tag #'(midiOne) \violin
+    \tag #'(midiOne) \rpiano
+    \tag #'(midiOne) \organ
+    \tag #'(midiOne) \lpiano
+    \tag #'(midiBass) \bass
+    \tag #'(midiGg) \drs
 >>

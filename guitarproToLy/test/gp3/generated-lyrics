@@ -1,9 +1,0 @@
-lyrics = \new Lyrics \lyricmode {
-\mymark "Intro                          TAB by JPGR" #1
-\mymark "Verse 1" #6
-\mymark "Verse 2" #16
-\mymark "Chorus" #26
-\mymark "Verse 3" #38
-\mymark "Chorus" #48
-\mymark "Coda" #58
-}

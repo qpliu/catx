@@ -20,11 +20,11 @@ final class Twiddler{
 		Gpfile.NoteEvent n=(Gpfile.NoteEvent)e;
 		if (n.is_tie){
 		    if (a[n.string]==null)
-			Log.error("Strange tie start_time=%s string=%d",n.time,n.string);
+			Log.info("Strange tie track=%d start_time=%s string=%d",track.index,n.time,n.string);
 		    else{
 			Rational end=a[n.string].time.add(a[n.string].duration);
 			if (!end.equals(n.time))
-			    Log.error("Strange tie end_time=%s start_time=%s string=%d",end,n.time,n.string);
+			    Log.info("Strange tie track=%d end_time=%s start_time=%s string=%d",track.index,end,n.time,n.string);
 			else{
 			    a[n.string].duration = a[n.string].duration.add(n.duration);
 			    continue;

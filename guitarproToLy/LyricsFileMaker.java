@@ -7,9 +7,31 @@ final class LyricsFileMaker extends TrackFileMaker{
 	super(main,arg,arg.partName,"",arg.partName);
 	this.karaoke = karaoke;
     }
-    void make()throws IOException{
+    @Override void make()throws IOException{
 	indent(lyname+" = \\new Lyrics \\lyricmode {");
 	makeMeasures();
 	unindent("}");
+    }
+    @Override void makeMeasure(Gpfile.Measure measure,PriorityQueue<Gpfile.Event>events)throws IOException{
+	MeasureMaker mm=new MeasureMaker(measure);
+	while (events.size()!=0){
+	    Gpfile.Event e=events.poll();
+	    if (!e.tie_rhs && e instanceof Gpfile.TextEvent){
+		Gpfile.TextEvent te=(Gpfile.TextEvent)e;
+		if (te.text!=null){
+		    mm.make(te.time,"\"\"",false);
+		    mm.make(te.time.add(te.duration),new MeasureMaker.GetWhatSuffix(){
+			@Override public String getWhat(boolean is_lhs,boolean is_rhs){
+			    return is_lhs?Stuff.escape(te.text):"\\skip";
+			}
+			@Override public String getSuffix(boolean is_lhs,boolean is_rhs){
+			    return "";
+			}
+		    },true);
+		}
+	    }
+	}
+	mm.make(measure.time.add(measure.time_n),"\"\"",false);
+	print(mm.tail());
     }
 }

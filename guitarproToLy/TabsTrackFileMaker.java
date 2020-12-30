@@ -1,8 +1,8 @@
 import java.io.*;
 import java.util.*;
 
-final class TabsTrackFileMaker extends TrackFileMaker{
+final class TabsTrackFileMaker extends LyTrackFileMaker{
     TabsTrackFileMaker(Main main,Arg arg)throws IOException{
-	super(main,arg,arg.partName,"tabs",arg.partName);
+	super(main,"tabs",arg);
     }
 }

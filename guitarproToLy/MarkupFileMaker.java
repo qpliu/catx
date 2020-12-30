@@ -38,8 +38,16 @@ final class MarkupFileMaker extends FileMaker{
 		else
 		    swing = "^\\markup { \bold \"No Swing\" }";
 	    }
+	    final String suffix=swing;
 	    MeasureMaker mm=new MeasureMaker(measure);
-	    mm.make(measure.time.add(measure.time_n),"s",swing,"",false);
+	    mm.make(measure.time.add(measure.time_n),new MeasureMaker.GetWhatSuffix(){
+		@Override public String getWhat(boolean is_lhs,boolean is_rhs){
+		    return "s";
+		}
+		@Override public String getSuffix(boolean is_lhs,boolean is_rhs){
+		    return is_lhs?suffix:"";
+		}
+	    },false);
 	    print(mm.tail());
 	}
 	unindent("}");

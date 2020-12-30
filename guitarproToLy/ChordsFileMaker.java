@@ -5,7 +5,7 @@ final class ChordsFileMaker extends TrackFileMaker{
     ChordsFileMaker(Main main,Arg arg)throws IOException{
 	super(main,arg,arg.partName,"",arg.partName);
     }
-    void make()throws IOException{
+    @Override void make()throws IOException{
 	indent(lyname+" = \\new ChordNames {");
 	makeMeasures();
 	unindent("}");
@@ -18,7 +18,14 @@ final class ChordsFileMaker extends TrackFileMaker{
 		Gpfile.ChordEvent ce=(Gpfile.ChordEvent)e;
 		if (ce.chord.ly!=null){
 		    mm.skip(ce.time);
-		    mm.make(ce.time.add(ce.duration),ce.chord.ly,"","",false);
+		    mm.make(ce.time.add(ce.duration),new MeasureMaker.GetWhatSuffix(){
+			@Override public String getWhat(boolean is_lhs,boolean is_rhs){
+			    return is_lhs?ce.chord.ly:"s";
+			}
+			@Override public String getSuffix(boolean is_lhs,boolean is_rhs){
+			    return "";
+			}
+		    },false);
 		}
 	    }
 	}

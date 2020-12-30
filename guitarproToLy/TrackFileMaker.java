@@ -70,6 +70,11 @@ class TrackFileMaker extends FileMaker{
     void makeMeasure(Gpfile.Measure measure,PriorityQueue<Gpfile.Event>events)throws IOException{
     }
     void layout(MusicFileMaker mfm)throws IOException{
-	mfm.print("\\tag #'("+arg.who+") \\"+lyname);
+	if (arg.layout_who!=null)
+	    mfm.print("\\tag #'("+arg.layout_who+") \\"+lyname);
+    }
+    void midi(MusicFileMaker mfm)throws IOException{
+	if (arg.midi_who!=null)
+	    mfm.print("\\tag #'("+arg.midi_who+") \\"+lyname);
     }
 }

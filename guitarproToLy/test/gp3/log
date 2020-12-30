@@ -10701,47 +10701,7 @@ duration=4
 measure 82 track 7 beat 0 bits=0x40
 status=2
 duration=4
-Strange tie end_time=515/2 start_time=258 string=3
-Strange tie start_time=55/4 string=1
-Strange tie end_time=29/2 start_time=63/4 string=1
-Strange tie end_time=17 start_time=69/4 string=1
-Strange tie end_time=19 start_time=77/4 string=1
-Strange tie end_time=89/2 start_time=45 string=3
-Strange tie end_time=99/2 start_time=201/4 string=4
-Strange tie end_time=201/4 start_time=101/2 string=5
-Strange tie end_time=101/2 start_time=203/4 string=4
-Strange tie end_time=233/4 start_time=235/4 string=3
-Strange tie end_time=289/4 start_time=291/4 string=3
-Strange tie end_time=73 start_time=293/4 string=3
-Strange tie end_time=473/4 start_time=475/4 string=3
-Strange tie end_time=119 start_time=477/4 string=3
-Strange tie end_time=489/4 start_time=495/4 string=2
-Strange tie end_time=127 start_time=509/4 string=3
-Strange tie end_time=257/2 start_time=129 string=3
-Strange tie end_time=273/2 start_time=137 string=3
-Strange tie end_time=577/4 start_time=579/4 string=3
-Strange tie end_time=785/4 start_time=787/4 string=3
-Strange tie end_time=197 start_time=789/4 string=3
-Strange tie end_time=801/4 start_time=803/4 string=3
-Strange tie end_time=201 start_time=805/4 string=3
-Strange tie end_time=817/4 start_time=819/4 string=3
-Strange tie end_time=205 start_time=821/4 string=3
-Strange tie end_time=833/4 start_time=839/4 string=2
-Strange tie end_time=213 start_time=853/4 string=3
-Strange tie end_time=429/2 start_time=215 string=3
-Strange tie end_time=445/2 start_time=223 string=3
-Strange tie end_time=453/2 start_time=227 string=3
-Strange tie end_time=461/2 start_time=471/2 string=2
-Strange tie end_time=461/2 start_time=471/2 string=3
-Strange tie end_time=228 start_time=961/4 string=1
-Strange tie end_time=245 start_time=981/4 string=1
-Strange tie end_time=553/2 start_time=278 string=2
-Strange tie end_time=1113/4 start_time=279 string=3
-Strange tie end_time=1117/4 start_time=1119/4 string=3
-Strange tie end_time=569/2 start_time=285 string=2
-Strange tie end_time=1141/4 start_time=286 string=2
-Strange tie end_time=1145/4 start_time=287 string=2
-Strange tie end_time=288 start_time=577/2 string=5
-Strange tie end_time=577/2 start_time=289 string=3
-Strange tie end_time=291 start_time=1165/4 string=2
-Strange tie end_time=1209/4 start_time=1213/4 string=2
+Strange tie track=2 end_time=975/4 start_time=258 string=1
+Strange tie track=7 end_time=447/2 start_time=895/4 string=1
+Strange tie track=7 end_time=453/2 start_time=907/4 string=1
+Strange tie track=7 end_time=455/2 start_time=911/4 string=1

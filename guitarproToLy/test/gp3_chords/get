@@ -5,6 +5,10 @@ java -jar ../../1.jar <"/share/mirror/songsterr/stuff/d-keep/d-Queen/d-Dreamers 
 scale "" \
 track 0 \
     name mychords \
-    who "allPart peterPart" \
+    layout-who "allPart peterPart" \
     output-chords \
+track 0 \
+    name guitar \
+    layout-who "allPart peterPart" \
+    output-tabs \
 2>&1|tee log

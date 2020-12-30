@@ -172,7 +172,7 @@ class Gp3file extends Gpfile{
 		readMixTableChange();
 	    int stringBits=is.readUnsignedByte();
 	    for (int string=0; string<7; string++)
-		if ((stringBits&1<<string)!=0){
+		if ((stringBits&128>>string)!=0){
 		    NoteEvent e=new NoteEvent(time,duration);
 		    e.string = string;
 		    int noteBits=is.readUnsignedByte();

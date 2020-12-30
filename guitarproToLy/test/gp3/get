@@ -4,42 +4,46 @@ rm -f generated-*
 java -jar ../../1.jar <"/share/mirror/songsterr/stuff/d-keep/d-The Beatles/d-Don't Pass Me By-s61425/d-r77210/application_guitar_pro3-3677427.gp3" \
 scale "" \
 track 0 \
-    name lyrics \
-    who kav \
+    name volyrics \
+    layout-who "allPart kavPart" \
     output-lyrics \
 track 0 \
     name karaoke \
-    who kav \
+    layout-who "allPart kavPart" \
+    midi-who midiKaraoke \
     output-karaoke \
 track 0 \
     name guitarOne \
-    who peter \
-    output-tabs \
+    layout-who "allPart peterPart" \
+    midi-who midiPeter \
+    string-numbers \
 track 1 \
     name guitarTwo \
-    who midiOne \
+    midi-who midiOne \
     output-tabs \
 track 2 \
     name violin \
-    who midiOne \
+    midi-who midiOne \
     output-tabs \
 track 3 \
     name rpiano \
-    who midiOne \
+    midi-who midiOne \
     output-tabs \
 track 4 \
     name organ \
-    who midiOne \
+    midi-who midiOne \
     output-tabs \
 track 5 \
     name lpiano \
-    who midiOne \
+    midi-who midiOne \
     output-tabs \
 track 6 \
     name bass \
-    who bass \
+    layout-who "allPart bassPart" \
+    midi-who midiBass \
     output-tabs \
 track 7 \
-    name drums \
-    who gg \
+    name drs \
+    layout-who "allPart ggPart" \
+    midi-who midiGg \
 2>&1|tee log
