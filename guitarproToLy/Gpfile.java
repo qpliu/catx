@@ -2,10 +2,8 @@ import java.io.*;
 import java.util.*;
 
 class Gpfile{
-    static final int VERSION_CLIPBOARD=1;
     final Arg arg;
     final DataInputStream is;
-    final int version;
     String artist;
     String title;
     Measure[]measures;
@@ -167,13 +165,9 @@ class Gpfile{
     final Blob readIntSizeBlob()throws IOException{
 	return readBlob(readInt());
     }
-    Gpfile(DataInputStream is,Arg arg,int version)throws IOException{
+    Gpfile(DataInputStream is,Arg arg)throws IOException{
 	this.is = is;
 	this.arg = arg;
-	this.version = version;
-    }
-    void parse()throws IOException{
-	throw new IOException("Bad version");
     }
     void dumpIs()throws IOException{
 	StringBuilder sb=new StringBuilder();

@@ -79,7 +79,7 @@ final class GuitarproToLy{
 		Log.level = Integer.parseInt(argv[++i]);
 	    else
 		usage();
-	Gpfile gpfile=GpfileMaker.make(new DataInputStream(System.in),globalarg);
+	Gpfile gpfile=new Gp5file(new DataInputStream(System.in),globalarg);
 	new Main(gpfile,globalarg,trackarg).make();
     }
 }
