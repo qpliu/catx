@@ -19,6 +19,7 @@ final class GuitarproToLy{
 	System.err.println("[output-karaoke]  Output karaoke.");
 	System.err.println("[output-lyrics]  Output lyrics.");
 	System.err.println("[output-text]  Output text.");
+	System.err.println("[preset who]  Use preset settings.");
 	System.err.println("[scale scale]  Specify note spelling.  Something like scale \"c des eisis\"");
 	System.err.println("[shift n/d]  Shift notes right n/d beats.  Use shift -21/5 to shift notes left 4 1/5th beat.");
 	System.err.println("[string-numbers]  Include string numbers.");
@@ -64,6 +65,8 @@ final class GuitarproToLy{
 		arg.output_lyrics = true;
 	    else if (argv[i].equals("output-text"))
 		arg.output_text = true;
+	    else if (argv[i].equals("preset"))
+		arg.setPreset(argv[++i]);
 	    else if (argv[i].equals("scale")){
 		for (StringTokenizer st=new StringTokenizer(argv[++i]); st.hasMoreTokens();){
 		    String ly=st.nextToken();
@@ -79,7 +82,7 @@ final class GuitarproToLy{
 		Log.level = Integer.parseInt(argv[++i]);
 	    else
 		usage();
-	Gpfile gpfile=new Gp5file(new DataInputStream(System.in),globalarg);
+	Gpfile gpfile=GpfileMaker.make(new DataInputStream(System.in),globalarg);
 	new Main(gpfile,globalarg,trackarg).make();
     }
 }

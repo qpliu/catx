@@ -30,4 +30,32 @@ final class Arg implements Cloneable{
 	    throw new RuntimeException(e);
 	}
     }
+    void setPreset(String preset){
+	if (preset.equals("gg")){
+	    partName = "drs";
+	    layout_who = "allPart ggPart";
+	    instrument_name = "Drums";
+	    instrument_short_name = "Drs";
+	    midi_who = "midiGg";
+	}else if (preset.equals("bass")){
+	    partName = "bass";
+	    layout_who = "allPart bassPart";
+	    layout_extra.add("\\clef \"bass_8\"");
+	    instrument_name = "Bass";
+	    instrument_short_name  = "Ba";
+	    midi_who = "midiBass";
+	    layout_tabs = true;
+	    string_numbers  = true;
+	}else if (preset.equals("peter")){
+	    partName = "guitar";
+	    layout_who = "allPart peterPart";
+	    layout_extra.add("\\clef \"treble_8\"");
+	    instrument_name = "Guitar";
+	    instrument_short_name  = "Gtr";
+	    midi_who = "midiPeter";
+	    layout_tabs = true;
+	    string_numbers  = true;
+	}else
+	    throw new RuntimeException();
+    }
 }

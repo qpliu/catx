@@ -14,14 +14,7 @@ track 0 \
     midi-who midiKaraoke \
     output-karaoke \
 track 0 \
-    name guitar \
-    layout-who "allPart peterPart" \
-    instrument-name Guitar \
-    instrument-short-name Gtr \
-    midi-who midiPeter \
-    layout-extra "\\clef \"treble_8\"" \
-    layout-tabs \
-    string-numbers \
+    preset peter \
 track 2 \
     name violin \
     layout-who "allPart susanPart" \
@@ -39,18 +32,7 @@ track 5 \
     name lpiano \
     midi-who midiOne \
 track 6 \
-    name bass \
-    layout-who "allPart bassPart" \
-    layout-extra "\\clef \"bass_8\"" \
-    instrument-name Bass \
-    instrument-short-name Ba \
-    midi-who midiBass \
-    layout-tabs \
-    string-numbers \
+    preset bass \
 track 7 \
-    name drs \
-    layout-who "allPart ggPart" \
-    instrument-name Drums \
-    instrument-short-name Dr \
-    midi-who midiGg \
+    preset gg \
 2>&1|tee log

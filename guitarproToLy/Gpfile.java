@@ -75,12 +75,49 @@ class Gpfile{
 	boolean is_rest;
 	boolean is_tie;
 	boolean is_dead;
-	boolean is_slide;
+	boolean is_hammer;
+	boolean is_let_ring;
+	boolean is_staccato;
+	boolean is_palm_mute;
+	boolean is_vibrato;
 	int string;
 	int fret;
+	int tremoloPicking;
+	Bend bend;
+	BeatEffects beatEffects;
+	GraceNote graceNote;
+	Slide slide;
 	NoteEvent(Rational time,Rational duration){
 	    super(time,duration);
 	}
+    }
+    static class Slide{
+	int type;
+    }
+    static class GraceNote{
+	int fret;
+	int velocity;
+	int duration;
+	int transition;
+    }
+    static class Bend{
+	double[]xy;
+    }
+    static class BeatEffects{
+	boolean vibrato;
+	boolean wideVibrato;
+	boolean fadeIn;
+	int slapEffect;
+	Bend tremoloBar;
+	BeatStroke beatStroke;
+	boolean natrualHarmonic;
+	boolean artificialHarmonic;
+	boolean hasRasgueado;
+	int pickStroke;
+    }
+    static class BeatStroke{
+	int strokeDown;
+	int strokeUp;
     }
     static class Track{
 	int index;
@@ -108,6 +145,9 @@ class Gpfile{
 	String toByteSizeString()throws IOException{
 	    return new String(b,1,b[0]&255);
 	}
+	@Override public String toString(){
+	    return new String(b);
+	}
     }
     final boolean readBoolean()throws IOException{
 	return is.readByte()!=0;
@@ -123,15 +163,13 @@ class Gpfile{
     final Blob readIntSizeBlob()throws IOException{
 	return readBlob(readInt());
     }
-    Gpfile(DataInputStream is,Arg arg)throws IOException{
+    Gpfile(DataInputStream is,Arg arg,String version)throws IOException{
 	this.is = is;
 	this.arg = arg;
-	version = readBlob(31).toByteSizeString();
-	Log.info("version=%s",version);
-	parse();
+	this.version = version;
     }
     void parse()throws IOException{
-	throw new IOException("Bad version "+version);
+	throw new IOException("Bad version");
     }
     void dumpIs()throws IOException{
 	StringBuilder sb=new StringBuilder();

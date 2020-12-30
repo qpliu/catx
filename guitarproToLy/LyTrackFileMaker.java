@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.*;
 
 final class LyTrackFileMaker extends SuperTrackFileMaker{
+    private boolean hammer;
     LyTrackFileMaker(Main main,Arg arg)throws IOException{
 	super(main,"",arg);
     }
@@ -58,8 +59,8 @@ final class LyTrackFileMaker extends SuperTrackFileMaker{
 	    what_notrhs.append(noteEventToLy(ne));
 	    what_rhs.append(noteEventToLy(ne));
 	    if (arg.string_numbers && l.size()!=1){
-		what_rhs.append('\\').append(ne.string);
-		what_notrhs.append('\\').append(ne.string);
+		what_rhs.append('\\').append(ne.string+1);
+		what_notrhs.append('\\').append(ne.string+1);
 	    }
 	    if (!allTied && ne.tie_lhs)
 		what_rhs.append('~');

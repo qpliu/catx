@@ -8,7 +8,5 @@ track 0 \
     layout-who "allPart peterPart" \
     output-chords \
 track 0 \
-    name guitar \
-    layout-who "allPart peterPart" \
-    layout-extra "\\clef \"treble_8\"" \
+    preset peter \
 2>&1|tee log

@@ -1,0 +1,105 @@
+strings = {
+\mymark "Intro" #1
+    r2 a'16 f' d' e'4~ e'16~ |
+    e'1 |
+    r1 |
+    a'16 f' d' e'2.~ e'16 |
+    r1 |
+\mymark "Sliding Riff" #6
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse" #14
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #22
+    c''4. b'2~ b'8 |
+    c''4. d''2~ d''8 |
+    c''4. b'2~ b'8~ |
+    b'8 c''4 d''2~ d''8 |
+    <g' c''>4. <b' g'>2~ <b' g'>8~ |
+    <g' b'>8 <f' c''>4 <fis' d''>2 r8 |
+\mymark "Interlude" #28
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse" #32
+    d''1 |
+    c''4. b'2~ b'8 |
+    c''4. b'2~ b'8~ |
+    b'8 c''4 d''2~ d''8~ |
+    d''1 |
+    c''4. b'2~ b'8 |
+    c''4. b'2~ b'8~ |
+    b'8 c''4 d''2~ d''8 |
+\mymark "Chorus" #40
+    c''4. b'2~ b'8 |
+    c''4. d''2~ d''8 |
+    c''4. b'2~ b'8~ |
+    b'8 c''4 d''2~ d''8 |
+    c''4. b'2~ b'8~ |
+    b'8 c''4 d''2~ d''8 |
+\mymark "Interlude" #46
+    r1 |
+    r1 |
+    c'8 b g a4 f g8 |
+    c8 c b,4. a, |
+\mymark "Solo" #50
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #58
+    r1 |
+    r1 |
+    r1 |
+    r2 |
+    r1 |
+\mymark "Verse" #63
+    d''1~ |
+    d''8 c''4 b'2~ b'8 |
+    c''4. b'2~ b'8~ |
+    b'8 c''4 d''2~ d''8 |
+    d''1~ |
+    d''8 c''4 b'2~ b'8 |
+    c''4. b'2~ b'8~ |
+    b'8 c''4 d''2~ d''8 |
+\mymark "Chorus" #71
+    c''4. b'2~ b'8 |
+    c''4. d''2~ d''8 |
+    c''4. b'2~ b'8~ |
+    b'8 c''4 d''2~ d''8 |
+    c''4. b'2~ b'8 |
+    c''4. d''2~ d''8 |
+    c''4. b'2~ b'8~ |
+    b'8 c''4 d''2~ d''8 |
+    c''4. b'2~ b'8 |
+    c''4. d''2~ d''8 |
+    c''4. b'2~ b'8 |
+    c''4. d''2~ d''8 |
+    c''4. b'2~ b'8 |
+    c''4. d''2~ d''8 |
+    c''4. b'2~ b'8 |
+    c''4. d''2~ d''8 |
+\mymark "Outro" #87
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

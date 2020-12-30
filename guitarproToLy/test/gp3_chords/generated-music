@@ -10,13 +10,21 @@
 layoutmusic = <<
     \tag #'(allPart peterPart) \mychords
     \tag #'(allPart peterPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Guitar" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr" }
     } <<
         \markupStuff
         \clef "treble_8"
         \guitar
     >>
+    \tag #'(allPart peterPart) \new TabStaff \with {
+        stringTunings = \stringTuning <e, a, d g b e'>
+    } \guitar
 >>
 
 midimusic = <<
     \markupStuff
+    \tag #'(midiPeter) \new Staff \with {
+        midiInstrument = #"acoustic guitar (steel)"
+    } \guitar
 >>

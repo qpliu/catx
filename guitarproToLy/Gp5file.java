@@ -2,13 +2,9 @@ import java.io.*;
 import java.util.*;
 
 class Gp5file extends Gp4file{
-    Gp5file(DataInputStream is,Arg arg)throws IOException{
-	super(is,arg);
+    Gp5file(DataInputStream is,Arg arg,String version)throws IOException{
+	super(is,arg,version);
     }
-    void parse()throws IOException{
-	if (!version.equals("FICHIER GUITAR PRO v5.00")){
-	    super.parse();
-	    return;
-	}
+    @Override void parse()throws IOException{
     }
 }

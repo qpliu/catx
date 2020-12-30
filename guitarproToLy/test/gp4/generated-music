@@ -1,0 +1,111 @@
+\header {
+    title = "Wanted Dead or Alive"
+    composer = "Bon Jovi"
+}
+
+\include "generated-markup"
+\include "generated-guitar"
+\include "generated-guitarTwo"
+\include "generated-guitarThree"
+\include "generated-guitarFour"
+\include "generated-strings"
+\include "generated-bass"
+\include "generated-drs"
+
+layoutmusic = <<
+    \tag #'(allPart peterPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Guitar" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr" }
+    } <<
+        \markupStuff
+        \clef "treble_8"
+        \guitar
+    >>
+    \tag #'(allPart peterPart) \new TabStaff \with {
+        stringTunings = \stringTuning <e, a, d g b e'>
+    } \guitar
+    \tag #'(allPart peterPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Guitar2" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr2" }
+    } <<
+        \markupStuff
+        \clef "treble_8"
+        \guitarTwo
+    >>
+    \tag #'(allPart peterPart) \new TabStaff \with {
+        stringTunings = \stringTuning <e, a, d g b e'>
+    } \guitarTwo
+    \tag #'(allPart peterPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Guitar3" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr3" }
+    } <<
+        \markupStuff
+        \clef "treble_8"
+        \guitarThree
+    >>
+    \tag #'(allPart peterPart) \new TabStaff \with {
+        stringTunings = \stringTuning <e, a, d g b e'>
+    } \guitarThree
+    \tag #'(allPart peterPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Guitar4" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr4" }
+    } <<
+        \markupStuff
+        \clef "treble_8"
+        \guitarFour
+    >>
+    \tag #'(allPart peterPart) \new TabStaff \with {
+        stringTunings = \stringTuning <e, a, d g b e'>
+    } \guitarFour
+    \tag #'(allPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Strings" }
+        shortInstrumentName = \markup { \rotate #90 "Str" }
+    } <<
+        \markupStuff
+        \strings
+    >>
+    \tag #'(allPart bassPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Bass" }
+        shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } <<
+        \markupStuff
+        \clef "bass_8"
+        \bass
+    >>
+    \tag #'(allPart bassPart) \new TabStaff \with {
+        stringTunings = \stringTuning <e,, a,, d, g,>
+    } \bass
+    \tag #'(allPart ggPart) \new DrumStaff \with {
+        instrumentName = \markup { \rotate #90 "Drums" }
+        shortInstrumentName = \markup { \rotate #90 "Drs" }
+        drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+        \markupStuff
+        \drs
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiPeter) \new Staff \with {
+        midiInstrument = #"acoustic guitar (steel)"
+    } \guitar
+    \tag #'(midiPeter) \new Staff \with {
+        midiInstrument = #"acoustic guitar (steel)"
+    } \guitarTwo
+    \tag #'(midiPeter) \new Staff \with {
+        midiInstrument = #"overdriven guitar"
+    } \guitarThree
+    \tag #'(midiPeter) \new Staff \with {
+        midiInstrument = #"overdriven guitar"
+    } \guitarFour
+    \tag #'(midiOne) \new Staff \with {
+        midiInstrument = #"string ensemble 2"
+    } \strings
+    \tag #'(midiBass) \new Staff \with {
+        midiInstrument = #"electric bass (finger)"
+    } \bass
+    \tag #'(midiGg) \new DrumStaff \with {
+        drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drs
+>>
