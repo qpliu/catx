@@ -15,29 +15,37 @@
 \include "generated-drs"
 
 layoutmusic = <<
-    \markupStuff
     \tag #'(allPart kavPart) \volyrics
     \tag #'(allPart peterPart) \new Staff \with {
         instrumentName = \markup { \rotate #90 "Guitar" }
         shortInstrumentName = \markup { \rotate #90 "Gtr" }
-    } {
+    } <<
+        \markupStuff
         \clef "treble_8"
         \guitar
-    }
+    >>
     \tag #'(allPart peterPart) \new TabStaff \with {
         stringTunings = \stringTuning <e, a, d g b e'>
     } \guitar
     \tag #'(allPart bassPart) \new Staff \with {
         instrumentName = \markup { \rotate #90 "Bass" }
         shortInstrumentName = \markup { \rotate #90 "Ba" }
-    } {
+    } <<
+        \markupStuff
         \clef "bass_8"
         \bass
-    }
+    >>
     \tag #'(allPart bassPart) \new TabStaff \with {
         stringTunings = \stringTuning <e,, a,, d, g,>
     } \bass
-    \tag #'(allPart ggPart) \drs
+    \tag #'(allPart ggPart) \new DrumStaff \with {
+        instrumentName = \markup { \rotate #90 "Drums" }
+        shortInstrumentName = \markup { \rotate #90 "Dr" }
+        drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+        \markupStuff
+        \drs
+    >>
 >>
 
 midimusic = <<
@@ -61,5 +69,7 @@ midimusic = <<
     \tag #'(midiBass) \new Staff \with {
         midiInstrument = #"electric bass (pick)"
     } \bass
-    \tag #'(midiGg) \drs
+    \tag #'(midiGg) \new DrumStaff \with {
+        drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drs
 >>
