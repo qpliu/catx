@@ -14,8 +14,8 @@ layoutmusic = <<
         shortInstrumentName = \markup { \rotate #90 "Gtr" }
     } <<
         \markupStuff
-        \clef "treble_8"
         \guitar
+        \clef "treble_8"
     >>
     \tag #'(allPart peterPart) \new TabStaff \with {
         stringTunings = \stringTuning <e, a, d g b e'>

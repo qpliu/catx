@@ -1,4 +1,5 @@
-rpiano = {
+vocals = {
+    \myVocalsStuff
 \mymark "Intro                          TAB by JPGR" #1
     \tuplet 3/2 { d''16 c'' d'' } f''8 g'' \tuplet 3/2 { f''16 e'' d'' c''8 a' c'' } g'8 e' |
     \tuplet 3/2 { d'8 c' b } g16 a8 f16 e8 d c4 |

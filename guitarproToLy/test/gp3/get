@@ -3,34 +3,20 @@ set -e
 rm -f generated-*
 java -jar ../../1.jar <"/share/mirror/songsterr/stuff/d-keep/d-The Beatles/d-Don't Pass Me By-s61425/d-r77210/application_guitar_pro3-3677427.gp3" \
 scale "" \
+track 3 \
+    preset kav \
 track 0 \
-    name volyrics \
-    layout-who "allPart kavPart" \
-    instrument-name Vocals \
-    instrument-short-name Vo \
-    output-lyrics \
+    preset lyrics \
 track 0 \
-    name karaoke \
-    midi-who midiKaraoke \
-    output-karaoke \
+    preset karaoke \
 track 0 \
     preset peter \
 track 2 \
-    name violin \
-    layout-who "allPart susanPart" \
-    instrument-name Steelpan \
-    instrument-short-name Sp \
-    music-extra "\\myVocalsStuff" \
-    midi-who midiSusan \
-track 3 \
-    name rpiano \
-    midi-who midiOne \
+    preset susan \
 track 4 \
-    name organ \
-    midi-who midiOne \
+    preset midiOne \
 track 5 \
-    name lpiano \
-    midi-who midiOne \
+    preset midiTwo \
 track 6 \
     preset bass \
 track 7 \

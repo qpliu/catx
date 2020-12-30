@@ -20,9 +20,9 @@ class SuperTrackFileMaker extends TrackFileMaker{
 	layoutExtra(mfm);
 	mfm.unindentindent("} <<");
 	mfm.print("\\"+main.markupFileMaker.lyname);
+	mfm.print('\\'+lyname);
 	for (String s:arg.layout_extra)
 	    mfm.print(s);
-	mfm.print('\\'+lyname);
 	mfm.unindent(">>");
 	if (arg.layout_tabs){
 	    mfm.indent("\\tag #'("+arg.layout_who+") \\new TabStaff \\with {");

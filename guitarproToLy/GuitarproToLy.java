@@ -67,12 +67,9 @@ final class GuitarproToLy{
 		arg.output_text = true;
 	    else if (argv[i].equals("preset"))
 		arg.setPreset(argv[++i]);
-	    else if (argv[i].equals("scale")){
-		for (StringTokenizer st=new StringTokenizer(argv[++i]); st.hasMoreTokens();){
-		    String ly=st.nextToken();
-		    arg.scale[Stuff.ly2midi(ly)%12] = ly;
-		}
-	    }else if (argv[i].equals("shift")){
+	    else if (argv[i].equals("scale"))
+		arg.setScale(argv[++i]);
+	    else if (argv[i].equals("shift")){
 		int j=argv[++i].indexOf('/');
 		if (j==-1)
 		    arg.shift = new Rational(Long.parseLong(argv[i]));

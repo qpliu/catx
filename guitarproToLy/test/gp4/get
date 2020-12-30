@@ -21,11 +21,7 @@ track 3 \
     instrument-name Guitar4 \
     instrument-short-name Gtr4 \
 track 4 \
-    name strings \
-    layout-who "allPart" \
-    instrument-name Strings \
-    instrument-short-name Str \
-    midi-who midiOne \
+    preset midiOne \
 track 5 \
     preset bass \
 track 6 \

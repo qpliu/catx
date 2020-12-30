@@ -30,13 +30,57 @@ final class Arg implements Cloneable{
 	    throw new RuntimeException(e);
 	}
     }
+    void setScale(String s){
+	for (StringTokenizer st=new StringTokenizer(s); st.hasMoreTokens();){
+	    String ly=st.nextToken();
+	    scale[Stuff.ly2midi(ly)%12] = ly;
+	}
+    }
     void setPreset(String preset){
-	if (preset.equals("gg")){
+	if (preset.equals("flats"))
+	    setScale("des ees ges aes bes");
+	else if (preset.equals("gg")){
 	    partName = "drs";
 	    layout_who = "allPart ggPart";
 	    instrument_name = "Drums";
 	    instrument_short_name = "Drs";
 	    midi_who = "midiGg";
+	}else if (preset.equals("kav")){
+	    partName = "vocals";
+	    layout_who = "allPart kavPart";
+	    instrument_name = "Vocals";
+	    instrument_short_name = "Vo";
+	    midi_who = "midiKaraoke";
+	    layout_extra.add("\\vocalsLyrics");
+	    layout_extra.add("\\drs");
+	    music_extra.add("\\myVocalsStuff");
+	}else if (preset.equals("susan")){
+	    setScale("gis fis cis");
+	    partName = "steelpan";
+	    layout_who = "allPart susanPart";
+	    instrument_name = "Steelpan";
+	    instrument_short_name = "Sp";
+	    midi_who = "midiSusan";
+	    music_extra.add("\\myVocalsStuff");
+	}else if (preset.equals("kav")){
+	    partName = "vocals";
+	    layout_who = "allPart kavPart";
+	    instrument_name = "Vocals";
+	    instrument_short_name = "Vo";
+	    midi_who = "midiKav";
+	}else if (preset.equals("karaoke")){
+	    partName = "karaoke";
+	    output_karaoke = true;
+	    midi_who = "midiKaraoke";
+	}else if (preset.equals("midiOne")){
+	    partName = "midiOne";
+	    midi_who = "midiOne";
+	}else if (preset.equals("midiTwo")){
+	    partName = "midiTwo";
+	    midi_who = "midiTwo";
+	}else if (preset.equals("lyrics")){
+	    partName = "vocalsLyrics";
+	    output_lyrics = true;
 	}else if (preset.equals("bass")){
 	    partName = "bass";
 	    layout_who = "allPart bassPart";
