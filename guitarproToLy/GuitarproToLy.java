@@ -6,6 +6,10 @@ final class GuitarproToLy{
 	System.err.println("Usage: java GuitarproToLy [global options] track n1 [track n1 options] track n2 [track n2 options] ... <gpfile");
 	System.err.println("options:");
 	System.err.println("[drumMap map]  Specify drum map.  Something like --drumMap \"49 cymc 0,38 sn 0,36 bd 1\"");
+	System.err.println("[instrument-name name]  Specify instrument name.");
+	System.err.println("[instrument-short-name name]  Specify short instrument name.");
+	System.err.println("[layout-extra stuff]  Extra stuff for layout.");
+	System.err.println("[layout-tabs]  Layout tabs.");
 	System.err.println("[layout-who who]  Specify who for layout.");
 	System.err.println("[midi-who who]  Specify who for midi.");
 	System.err.println("[name partName]  Specify partName.");
@@ -13,7 +17,6 @@ final class GuitarproToLy{
 	System.err.println("[output-chords]  Output chords.");
 	System.err.println("[output-karaoke]  Output karaoke.");
 	System.err.println("[output-lyrics]  Output lyrics.");
-	System.err.println("[output-tabs]  Output tabs instead of notes.");
 	System.err.println("[output-text]  Output text.");
 	System.err.println("[scale scale]  Specify note spelling.  Something like scale \"c des eisis\"");
 	System.err.println("[shift n/d]  Shift notes right n/d beats.  Use shift -21/5 to shift notes left 4 1/5th beat.");
@@ -32,6 +35,14 @@ final class GuitarproToLy{
 		trackarg.add(arg);
 	    }else if (argv[i].equals("drumMap"))
 		arg.drumMap = argv[++i];
+	    else if (argv[i].equals("instrument-name"))
+		arg.instrument_name = argv[++i];
+	    else if (argv[i].equals("instrument-short-name"))
+		arg.instrument_short_name = argv[++i];
+	    else if (argv[i].equals("layout-extra"))
+		arg.layout_extra = argv[++i];
+	    else if (argv[i].equals("layout-tabs"))
+		arg.layout_tabs = true;
 	    else if (argv[i].equals("layout-who"))
 		arg.layout_who = argv[++i];
 	    else if (argv[i].equals("midi-who"))
@@ -48,8 +59,6 @@ final class GuitarproToLy{
 		arg.output_karaoke = true;
 	    else if (argv[i].equals("output-lyrics"))
 		arg.output_lyrics = true;
-	    else if (argv[i].equals("output-tabs"))
-		arg.output_tabs = true;
 	    else if (argv[i].equals("output-text"))
 		arg.output_text = true;
 	    else if (argv[i].equals("scale")){

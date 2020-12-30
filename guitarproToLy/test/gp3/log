@@ -181,7 +181,7 @@ effectsChannel=2
 fretCount=24
 offset=0
 color=255
-Track 0 name=Ringo tuning=[64, 59, 55, 50, 45, 40, -1] instrument=25
+Track 0 name=Ringo tuning=[64, 59, 55, 50, 45, 40] instrument=25
 bits=0x00
 stringCount=6
 port=1
@@ -190,7 +190,7 @@ effectsChannel=13
 fretCount=24
 offset=0
 color=255
-Track 1 name=Ringo tuning=[64, 59, 55, 50, 45, 40, 0] instrument=25
+Track 1 name=Ringo tuning=[64, 59, 55, 50, 45, 40] instrument=25
 bits=0x00
 stringCount=6
 port=1
@@ -199,7 +199,7 @@ effectsChannel=11
 fretCount=24
 offset=0
 color=16711935
-Track 2 name=Fiddle tuning=[64, 59, 55, 50, 45, 40, 0] instrument=40
+Track 2 name=Fiddle tuning=[64, 59, 55, 50, 45, 40] instrument=40
 bits=0x00
 stringCount=6
 port=1
@@ -208,7 +208,7 @@ effectsChannel=8
 fretCount=24
 offset=0
 color=65280
-Track 3 name=John Piano tuning=[64, 59, 55, 50, 45, 40, 0] instrument=3
+Track 3 name=John Piano tuning=[64, 59, 55, 50, 45, 40] instrument=3
 bits=0x00
 stringCount=6
 port=1
@@ -217,7 +217,7 @@ effectsChannel=15
 fretCount=24
 offset=0
 color=65280
-Track 4 name=Organ tuning=[64, 59, 55, 50, 45, 40, 0] instrument=23
+Track 4 name=Organ tuning=[64, 59, 55, 50, 45, 40] instrument=23
 bits=0x00
 stringCount=4
 port=1
@@ -226,7 +226,7 @@ effectsChannel=6
 fretCount=24
 offset=0
 color=65535
-Track 5 name=Piano Bass tuning=[43, 38, 33, 28, 45, 40, 0] instrument=3
+Track 5 name=Piano Bass tuning=[43, 38, 33, 28] instrument=3
 bits=0x00
 stringCount=4
 port=1
@@ -235,7 +235,7 @@ effectsChannel=4
 fretCount=24
 offset=0
 color=65535
-Track 6 name=Paul tuning=[43, 38, 33, 28, 45, 40, 0] instrument=34
+Track 6 name=Paul tuning=[43, 38, 33, 28] instrument=34
 bits=0x01
 stringCount=6
 port=1
@@ -244,7 +244,7 @@ effectsChannel=10
 fretCount=87
 offset=0
 color=16711680
-Track 7 name=Ringo isDrums tuning=[0, 0, 0, 0, 0, 0, 0] instrument=10
+Track 7 name=Ringo isDrums tuning=[0, 0, 0, 0, 0, 0] instrument=10
 measure 0 track 0 beat 0 bits=0x40
 status=2
 duration=4
@@ -10701,7 +10701,7 @@ duration=4
 measure 82 track 7 beat 0 bits=0x40
 status=2
 duration=4
-Strange tie track=2 end_time=975/4 start_time=258 string=1
-Strange tie track=7 end_time=447/2 start_time=895/4 string=1
-Strange tie track=7 end_time=453/2 start_time=907/4 string=1
-Strange tie track=7 end_time=455/2 start_time=911/4 string=1
+Strange tie track=2 end_time=975/4 start_time=258 string=0
+Strange tie track=7 end_time=447/2 start_time=895/4 string=0
+Strange tie track=7 end_time=453/2 start_time=907/4 string=0
+Strange tie track=7 end_time=455/2 start_time=911/4 string=0

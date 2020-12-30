@@ -22,7 +22,7 @@ final class LyricsFileMaker extends TrackFileMaker{
 		    mm.make(te.time,"\"\"",false);
 		    mm.make(te.time.add(te.duration),new MeasureMaker.GetWhatSuffix(){
 			@Override public String getWhat(boolean is_lhs,boolean is_rhs){
-			    return is_lhs?Stuff.escape(te.text):"\\skip";
+			    return is_lhs?Stuff.quote(te.text):"\\skip";
 			}
 			@Override public String getSuffix(boolean is_lhs,boolean is_rhs){
 			    return "";

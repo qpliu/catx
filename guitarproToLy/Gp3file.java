@@ -122,9 +122,12 @@ class Gp3file extends Gpfile{
 	    track.isDrums = true;
 	int stringCount=readInt();
 	Log.debug("stringCount=%d",stringCount);
-	track.tuning = new int[7];
-	for (int i=0; i<track.tuning.length; i++)
-	    track.tuning[i] = readInt();
+	track.tuning = new int[stringCount];
+	for (int i=0; i<7; i++){
+	    int t=readInt();
+	    if (i<stringCount)
+		track.tuning[i] = t;
+	}
 	int port=readInt();
 	Log.debug("port=%d",port);
 	int notesChannel=readInt();
@@ -172,7 +175,7 @@ class Gp3file extends Gpfile{
 		readMixTableChange();
 	    int stringBits=is.readUnsignedByte();
 	    for (int string=0; string<7; string++)
-		if ((stringBits&128>>string)!=0){
+		if ((stringBits&64>>string)!=0){
 		    NoteEvent e=new NoteEvent(time,duration);
 		    e.string = string;
 		    int noteBits=is.readUnsignedByte();

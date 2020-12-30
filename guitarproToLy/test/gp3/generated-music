@@ -6,8 +6,7 @@
 \include "generated-markup"
 \include "generated-volyrics"
 \include "generated-karaoke"
-\include "generated-guitarOne"
-\include "generated-guitarTwo"
+\include "generated-guitar"
 \include "generated-violin"
 \include "generated-rpiano"
 \include "generated-organ"
@@ -18,21 +17,49 @@
 layoutmusic = <<
     \markupStuff
     \tag #'(allPart kavPart) \volyrics
-    \tag #'(allPart kavPart) \karaoke
-    \tag #'(allPart peterPart) \guitarOne
-    \tag #'(allPart bassPart) \bass
+    \tag #'(allPart peterPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Guitar" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr" }
+    } {
+        \clef "treble_8"
+        \guitar
+    }
+    \tag #'(allPart peterPart) \new TabStaff \with {
+        stringTunings = \stringTuning <e, a, d g b e'>
+    } \guitar
+    \tag #'(allPart bassPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Bass" }
+        shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } {
+        \clef "bass_8"
+        \bass
+    }
+    \tag #'(allPart bassPart) \new TabStaff \with {
+        stringTunings = \stringTuning <e,, a,, d, g,>
+    } \bass
     \tag #'(allPart ggPart) \drs
 >>
 
 midimusic = <<
     \markupStuff
     \tag #'(midiKaraoke) \karaoke
-    \tag #'(midiPeter) \guitarOne
-    \tag #'(midiOne) \guitarTwo
-    \tag #'(midiOne) \violin
-    \tag #'(midiOne) \rpiano
-    \tag #'(midiOne) \organ
-    \tag #'(midiOne) \lpiano
-    \tag #'(midiBass) \bass
+    \tag #'(midiPeter) \new Staff \with {
+        midiInstrument = #"acoustic guitar (steel)"
+    } \guitar
+    \tag #'(midiOne) \new Staff \with {
+        midiInstrument = #"violin"
+    } \violin
+    \tag #'(midiOne) \new Staff \with {
+        midiInstrument = #"honky-tonk"
+    } \rpiano
+    \tag #'(midiOne) \new Staff \with {
+        midiInstrument = #"concertina"
+    } \organ
+    \tag #'(midiOne) \new Staff \with {
+        midiInstrument = #"honky-tonk"
+    } \lpiano
+    \tag #'(midiBass) \new Staff \with {
+        midiInstrument = #"electric bass (pick)"
+    } \bass
     \tag #'(midiGg) \drs
 >>

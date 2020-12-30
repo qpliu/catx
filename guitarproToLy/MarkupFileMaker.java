@@ -29,7 +29,7 @@ final class MarkupFileMaker extends FileMaker{
 		print("\\time "+time_n+'/'+time_d);
 	    }
 	    if (measure.rehearsalMark!=null)
-		noindent("\\mymark "+Stuff.escape(measure.rehearsalMark)+" #"+measure.name);
+		noindent("\\mymark "+Stuff.quote(measure.rehearsalMark)+" #"+measure.name);
 	    String swing="";
 	    if (measure.tripletFeel!=null!=tripletFeel){
 		tripletFeel = measure.tripletFeel!=null;

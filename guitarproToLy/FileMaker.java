@@ -35,4 +35,9 @@ class FileMaker{
 	--indent;
 	print(s);
     }
+    final void unindentindent(String s){
+	--indent;
+	print(s);
+	indent++;
+    }
 }

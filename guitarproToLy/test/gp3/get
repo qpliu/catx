@@ -6,44 +6,47 @@ scale "" \
 track 0 \
     name volyrics \
     layout-who "allPart kavPart" \
+    instrument-name Vocals \
+    instrument-short-name Vo \
     output-lyrics \
 track 0 \
     name karaoke \
-    layout-who "allPart kavPart" \
     midi-who midiKaraoke \
     output-karaoke \
 track 0 \
-    name guitarOne \
+    name guitar \
     layout-who "allPart peterPart" \
+    instrument-name Guitar \
+    instrument-short-name Gtr \
     midi-who midiPeter \
+    layout-extra "\\clef \"treble_8\"" \
+    layout-tabs \
     string-numbers \
-track 1 \
-    name guitarTwo \
-    midi-who midiOne \
-    output-tabs \
 track 2 \
     name violin \
     midi-who midiOne \
-    output-tabs \
 track 3 \
     name rpiano \
     midi-who midiOne \
-    output-tabs \
 track 4 \
     name organ \
     midi-who midiOne \
-    output-tabs \
 track 5 \
     name lpiano \
     midi-who midiOne \
-    output-tabs \
 track 6 \
     name bass \
     layout-who "allPart bassPart" \
+    layout-extra "\\clef \"bass_8\"" \
+    instrument-name Bass \
+    instrument-short-name Ba \
     midi-who midiBass \
-    output-tabs \
+    layout-tabs \
+    string-numbers \
 track 7 \
     name drs \
     layout-who "allPart ggPart" \
+    instrument-name Drums \
+    instrument-short-name Dr \
     midi-who midiGg \
 2>&1|tee log

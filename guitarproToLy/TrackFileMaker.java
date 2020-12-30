@@ -18,8 +18,6 @@ class TrackFileMaker extends FileMaker{
 	    return new LyricsFileMaker(main,arg,true);
 	if (main.gpfile.tracks[arg.trackNumber].isDrums)
 	    return new DrumTrackFileMaker(main,arg);
-	if (arg.output_tabs)
-	    return new TabsTrackFileMaker(main,arg);
 	return new LyTrackFileMaker(main,arg);
     }
     TrackFileMaker(Main main,Arg arg,String fn,String suffix,String lyname)throws IOException{
@@ -39,7 +37,7 @@ class TrackFileMaker extends FileMaker{
 	PriorityQueue<Gpfile.Event>q=new PriorityQueue<Gpfile.Event>(track.events);
 	for (Gpfile.Measure measure:main.gpfile.measures){
 	    if (measure.rehearsalMark!=null)
-		noindent("\\mymark "+Stuff.escape(measure.rehearsalMark)+" #"+measure.name);
+		noindent("\\mymark "+Stuff.quote(measure.rehearsalMark)+" #"+measure.name);
 	    if (tripletFeel!=null && !tripletFeel.equals(measure.tripletFeel))
 		unindent(/*{*/"}");
 	    if (measure.tripletFeel!=null && !measure.tripletFeel.equals(tripletFeel))
