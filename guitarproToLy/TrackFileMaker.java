@@ -1,7 +1,8 @@
 import java.io.*;
 import java.util.*;
 
-abstract class TrackFileMaker extends FileMaker{
+class TrackFileMaker extends FileMaker{
+    final Gpfile.Track track;
     final String lyname;
     Arg arg;
     static TrackFileMaker newTrackFileMaker(Main main,Arg arg)throws IOException{
@@ -25,6 +26,7 @@ abstract class TrackFileMaker extends FileMaker{
 	super(main,fn,suffix);
 	this.arg = arg;
 	this.lyname = lyname;
+	track = main.gpfile.tracks[arg.trackNumber];
     }
     void make()throws IOException{
 	indent(lyname+" = {");
@@ -32,7 +34,9 @@ abstract class TrackFileMaker extends FileMaker{
 	unindent("}");
     }
     final void makeMeasures()throws IOException{
+	Collections.sort(track.events);
 	String tripletFeel=null;
+	PriorityQueue<Gpfile.Event>q=new PriorityQueue<Gpfile.Event>(track.events);
 	for (Gpfile.Measure measure:main.gpfile.measures){
 	    if (measure.rehearsalMark!=null)
 		noindent("\\mymark "+Stuff.escape(measure.rehearsalMark)+" #"+measure.name);
@@ -41,10 +45,31 @@ abstract class TrackFileMaker extends FileMaker{
 	    if (measure.tripletFeel!=null && !measure.tripletFeel.equals(tripletFeel))
 		indent(measure.tripletFeel+" {"/*}*/);
 	    tripletFeel = measure.tripletFeel;
-	    makeMeasure(measure);
+	    PriorityQueue<Gpfile.Event>events=new PriorityQueue<Gpfile.Event>();
+	    while (q.size()!=0){
+		Gpfile.Event e=q.poll();
+		if (e.time.compareTo(measure.time)<0){
+		    Gpfile.Event[]cut=Stuff.cutEvent(e,measure.time);
+		    if (cut[1]==null)
+			continue;
+		    e = cut[1];
+		    e.tie_rhs = false;
+		}
+		Gpfile.Event[]cut=Stuff.cutEvent(e,measure.time.add(measure.time_n));
+		if (cut[1]!=null)
+		    q.add(cut[1]);
+		if (cut[0]==null)
+		    break;
+		events.add(cut[0]);
+	    }
+	    makeMeasure(measure,events);
 	}
 	if (tripletFeel!=null)
 	    unindent(/*{*/"}");
     }
-    abstract void makeMeasure(Gpfile.Measure measure)throws IOException;
+    void makeMeasure(Gpfile.Measure measure,PriorityQueue<Gpfile.Event>events)throws IOException{
+    }
+    void layout(MusicFileMaker mfm)throws IOException{
+	mfm.print("\\tag #'("+arg.who+") \\"+lyname);
+    }
 }

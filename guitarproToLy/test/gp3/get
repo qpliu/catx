@@ -1,6 +1,5 @@
 #!/bin/sh
 set -e
-(cd ../..&&./build)
 rm -f generated-*
 java -jar ../../1.jar <"/share/mirror/songsterr/stuff/d-keep/d-The Beatles/d-Don't Pass Me By-s61425/d-r77210/application_guitar_pro3-3677427.gp3" \
 scale "" \

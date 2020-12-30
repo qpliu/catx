@@ -66,16 +66,17 @@ class Gp3file extends Gpfile{
 	readMidiChannels();
 	measures = new Measure[readInt()];
 	tracks = new Track[readInt()];
-	for (int i=0; i<measures.length; i++)
-	    measures[i] = readMeasure(i);
-	for (int i=0; i<tracks.length; i++)
-	    tracks[i] = readTrack(i);
-	Rational time=arg.shift;
+	Rational time=Rational.ZERO;
 	for (int i=0; i<measures.length; i++){
-	    for (int j=0; j<tracks.length; j++)
-		readEvents(time,i,tracks[j]);
+	    measures[i] = readMeasure(i);
+	    measures[i].time = time;
 	    time = time.add(measures[i].time_n);
 	}
+	for (int i=0; i<tracks.length; i++)
+	    tracks[i] = readTrack(i);
+	for (int i=0; i<measures.length; i++)
+	    for (int j=0; j<tracks.length; j++)
+		readEvents(measures[i].time.add(arg.shift),i,tracks[j]);
     }
     Measure readMeasure(int index)throws IOException{
 	Measure measure=new Measure();
@@ -162,7 +163,7 @@ class Gp3file extends Gpfile{
 	    }
 	    Log.debug("duration=%s",duration);
 	    if ((bits&2)!=0)
-		track.events.add(new ChordEvent(time,duration,readBoolean()?readGp4Chord():readGp3Chord()));
+		track.events.add(new ChordEvent(time,duration,readBoolean()?readGp4Chord(track):readGp3Chord(track)));
 	    if ((bits&4)!=0)
 		track.events.add(new TextEvent(time,duration,readIntSizeBlob().toByteSizeString()));
 	    if ((bits&8)!=0)
@@ -236,16 +237,30 @@ class Gp3file extends Gpfile{
 	if (!time.equals(measureEnd))
 	    throw new IOException("Weird measure end got="+time+" want="+measureEnd);
     }
-    Chord readGp3Chord()throws IOException{
-	Chord chord=new Chord();
-	chord.name = readIntSizeBlob().toByteSizeString();
+    private String readChordNotes(Track track)throws IOException{
+	List<Integer>l=new ArrayList<Integer>();
 	int firstFret=readInt();
 	if (firstFret!=0)
-	    for (int i=0; i<6; i++)
-		readInt();
+	    for (int i=0; i<6; i++){
+		int fret=readInt();
+		if (fret>=0)
+		    l.add(track.tuning[i]+fret);
+	    }
+	Collections.sort(l);
+	if (l.size()==0)
+	    return null;
+	StringBuilder sb=new StringBuilder();
+	for (Integer i:l)
+	    sb.append(' ').append(Stuff.midi2ly(i,arg));
+	return "<"+sb.append(">").substring(1);
+    }
+    Chord readGp3Chord(Track track)throws IOException{
+	Chord chord=new Chord();
+	chord.name = readIntSizeBlob().toByteSizeString();
+	chord.ly = readChordNotes(track);
 	return chord;
     }
-    Chord readGp4Chord()throws IOException{
+    Chord readGp4Chord(Track track)throws IOException{
 	Chord chord=new Chord();
 	boolean sharp=readBoolean();
 	is.readByte();
@@ -261,9 +276,7 @@ class Gp3file extends Gpfile{
 	int fifth=readInt();
 	int ninth=readInt();
 	int eleventh=readInt();
-	int firstFret=readInt();
-	for (int i=0; i<6; i++)
-	    readInt();
+	chord.ly = readChordNotes(track);
 	int barresCount=readInt();
 	int barreFrets0=readInt();
 	int barreFrets1=readInt();

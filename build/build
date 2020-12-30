@@ -6,12 +6,9 @@ HAVE_FFMPEG=`type ffmpeg >/dev/null 2>&1;echo $?`
 set -e
 pwd=`pwd`
 name=`basename "$pwd"`
-if test '!' -f ../buildBin
-then
-    echo "Wrong directory.  Run this from one of src/*/ directories."
-    exit 1
-fi
-cd ../../build/
+buildbuild=`readlink -f "$0"`
+build=`dirname "$buildbuild"`
+cd "$build"
 PARTS="$*"
 rm -rf bin
 mkdir -p bin/bin
@@ -22,7 +19,7 @@ ln ../../java/* .
 javac -Xlint *.java
 cd ../..
 ln *.i *.wav timidity_extra_silence.cfg bin/src
-cp "../src/$name"/* bin/src
+cp -r "$pwd"/* bin/src
 cd bin/src
 if test -x run_before
 then

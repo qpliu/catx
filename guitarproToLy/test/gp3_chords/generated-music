@@ -4,10 +4,11 @@
 }
 
 \include "generated-markup"
-\include "generated-chords"
-\include "generated-guitar"
+\include "generated-mychords"
 
 layoutmusic = <<
+    \markupStuff
+    \tag #'(allPart peterPart) \mychords
 >>
 
 midimusic = <<

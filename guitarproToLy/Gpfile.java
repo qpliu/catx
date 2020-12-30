@@ -11,6 +11,7 @@ class Gpfile{
     Track[]tracks;
     static class Measure{
 	String name;
+	Rational time;
 	String tripletFeel;
 	int tempo;
 	int time_n,time_d;
@@ -33,16 +34,26 @@ class Gpfile{
     }
     static class Chord{
 	String name;
+	String ly;
     }
-    static class Event implements Comparable<Event>{
+    static class Event implements Comparable<Event>,Cloneable{
 	Rational time;
 	Rational duration;
+	boolean tie_rhs;
+	boolean tie_lhs;
 	Event(Rational time,Rational duration){
 	    this.time = time; 
 	    this.duration = duration; 
 	}
 	@Override public int compareTo(Event e){
 	    return time.compareTo(e.time);
+	}
+	@Override public Event clone(){
+	    try{
+		return (Event)super.clone();
+	    }catch (CloneNotSupportedException e){
+		throw new RuntimeException(e);
+	    }
 	}
     }
     static class ChordEvent extends Event{

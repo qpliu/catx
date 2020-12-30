@@ -69,4 +69,18 @@ final class Stuff{
     static String keyToLy(int key0,int key1){
 	return "\\key "+sharpsToLy[key0+(key1==0?8:11)]+(key1==0?" \\major":" \\minor");
     }
+    static Gpfile.Event[]cutEvent(Gpfile.Event e,Rational cut){
+	if (e.time.compareTo(cut)>=0)
+	    return new Gpfile.Event[]{null,e};
+	if (e.time.add(e.duration).compareTo(cut)<=0)
+	    return new Gpfile.Event[]{e,null};
+	Gpfile.Event lhs=e.clone();
+	lhs.tie_lhs = true;
+	lhs.duration = cut.subtract(lhs.time);
+	Gpfile.Event rhs=e.clone();
+	rhs.tie_rhs = true;
+	rhs.time = cut;
+	rhs.duration = e.duration.subtract(lhs.duration);
+	return new Gpfile.Event[]{lhs,rhs};
+    }
 }

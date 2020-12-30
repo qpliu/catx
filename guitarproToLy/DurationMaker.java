@@ -12,9 +12,6 @@ final class DurationMaker{
 	duration = duration.add(d);
 	return this;
     }
-    String[]subtractDuration(){
-	return subtractDuration(false);
-    }
     String[]subtractDuration(boolean skip){
 	Rational t=new Rational(duration.d,BigInteger.ONE);
 	while (!t.n.testBit(0))

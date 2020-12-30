@@ -1,15 +1,10 @@
 #!/bin/sh
 set -e
-(cd ../..&&./build)
 rm -f generated-*
 java -jar ../../1.jar <"/share/mirror/songsterr/stuff/d-keep/d-Queen/d-Dreamers Ball-s51134/d-r66121/application_guitar_pro3-3668136.gp3" \
 scale "" \
 track 0 \
-    name chords \
-    who peter \
+    name mychords \
+    who "allPart peterPart" \
     output-chords \
-track 0 \
-    name guitar \
-    who peter \
-    output-tabs \
 2>&1|tee log

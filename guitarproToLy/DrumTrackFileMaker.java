@@ -12,6 +12,4 @@ final class DrumTrackFileMaker extends TrackFileMaker{
 	makeMeasures();
 	unindent("}");
     }
-    @Override void makeMeasure(Gpfile.Measure measure)throws IOException{
-    }
 }

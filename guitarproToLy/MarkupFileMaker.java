@@ -38,18 +38,10 @@ final class MarkupFileMaker extends FileMaker{
 		else
 		    swing = "^\\markup { \bold \"No Swing\" }";
 	    }
-	    DurationMaker dm=new DurationMaker(time_d).addDuration(new Rational(time_n));
-	    StringBuilder sb=new StringBuilder();
-	    while (dm.duration.signum()!=0){
-		String[]ba=dm.subtractDuration();
-		sb.append(ba[0]).append('s').append(ba[1]).append(swing).append(' ');
-		swing = "";
-	    }
-	    sb.append(dm.tail()).append('|');
-	    print(sb.toString());
+	    MeasureMaker mm=new MeasureMaker(measure);
+	    mm.make(measure.time.add(measure.time_n),"s",swing,"",false);
+	    print(mm.tail());
 	}
 	unindent("}");
-    }
-    void makeMeasure(Gpfile.Measure measure)throws IOException{
     }
 }
