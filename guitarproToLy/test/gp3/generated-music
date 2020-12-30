@@ -1,0 +1,23 @@
+\header {
+    title = "Don't Pass Me By"
+    composer = "The Beatles"
+}
+
+\include "generated-markup"
+\include "generated-lyrics"
+\include "generated-karaoke"
+\include "generated-guitarOne"
+\include "generated-guitarTwo"
+\include "generated-violin"
+\include "generated-rpiano"
+\include "generated-organ"
+\include "generated-lpiano"
+\include "generated-bass"
+\include "generated-drums"
+
+layoutmusic = <<
+>>
+
+midimusic = <<
+    \markupStuff
+>>

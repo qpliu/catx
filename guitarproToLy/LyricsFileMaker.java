@@ -1,13 +1,17 @@
 import java.io.*;
 import java.util.*;
 
-final class LyricsFileMaker extends FileMaker{
-    static final String lyname="vocalsLyrics";
-    LyricsFileMaker(Main main)throws IOException{
-	super(main,"lyrics");
+final class LyricsFileMaker extends TrackFileMaker{
+    final boolean karaoke;
+    LyricsFileMaker(Main main,Arg arg,boolean karaoke)throws IOException{
+	super(main,arg,arg.partName,"",arg.partName);
+	this.karaoke = karaoke;
     }
     void make()throws IOException{
 	indent(lyname+" = \\new Lyrics \\lyricmode {");
+	makeMeasures();
 	unindent("}");
+    }
+    @Override void makeMeasure(Gpfile.Measure measure)throws IOException{
     }
 }

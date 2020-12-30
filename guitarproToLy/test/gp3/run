@@ -1,0 +1,46 @@
+#!/bin/sh
+set -e
+(cd ../..&&./build)
+rm -f generated-*
+java -jar ../../1.jar <"/share/mirror/songsterr/stuff/d-keep/d-The Beatles/d-Don't Pass Me By-s61425/d-r77210/application_guitar_pro3-3677427.gp3" \
+scale "" \
+track 0 \
+    name lyrics \
+    who kav \
+    output-lyrics \
+track 0 \
+    name karaoke \
+    who kav \
+    output-karaoke \
+track 0 \
+    name guitarOne \
+    who peter \
+    output-tabs \
+track 1 \
+    name guitarTwo \
+    who midiOne \
+    output-tabs \
+track 2 \
+    name violin \
+    who midiOne \
+    output-tabs \
+track 3 \
+    name rpiano \
+    who midiOne \
+    output-tabs \
+track 4 \
+    name organ \
+    who midiOne \
+    output-tabs \
+track 5 \
+    name lpiano \
+    who midiOne \
+    output-tabs \
+track 6 \
+    name bass \
+    who bass \
+    output-tabs \
+track 7 \
+    name drums \
+    who gg \
+2>&1|tee log

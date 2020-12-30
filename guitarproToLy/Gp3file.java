@@ -21,8 +21,8 @@ class Gp3file extends Gpfile{
 	    is.readByte();
 	}
     }
-    Gp3file(DataInputStream is)throws IOException{
-	super(is);
+    Gp3file(DataInputStream is,Arg arg)throws IOException{
+	super(is,arg);
     }
     void readInfo()throws IOException{
 	title = readIntSizeBlob().toByteSizeString();
@@ -70,10 +70,10 @@ class Gp3file extends Gpfile{
 	    measures[i] = readMeasure(i);
 	for (int i=0; i<tracks.length; i++)
 	    tracks[i] = readTrack(i);
-	Rational time=Rational.ZERO;
+	Rational time=arg.shift;
 	for (int i=0; i<measures.length; i++){
 	    for (int j=0; j<tracks.length; j++)
-		readEvents(time,i,j);
+		readEvents(time,i,tracks[j]);
 	    time = time.add(measures[i].time_n);
 	}
     }
@@ -140,12 +140,12 @@ class Gp3file extends Gpfile{
 	Log.info("%s",track);
 	return track;
     }
-    void readEvents(Rational time,int measure,int track)throws IOException{
+    void readEvents(Rational time,int measure,Track track)throws IOException{
 	int nbeats=readInt();
 	Rational measureEnd=time.add(measures[measure].time_n);
 	for (int i=0; i<nbeats; i++){
 	    int bits=is.readUnsignedByte();
-	    Log.debug("measure %d track %d beat %d bits=0x%02x",measure,track,i,bits);
+	    Log.debug("measure %d track %d beat %d bits=0x%02x",measure,track.index,i,bits);
 	    int status=1;
 	    if ((bits&64)!=0){
 		status = is.readUnsignedByte();
@@ -162,23 +162,31 @@ class Gp3file extends Gpfile{
 	    }
 	    Log.debug("duration=%s",duration);
 	    if ((bits&2)!=0)
-		events.add(new ChordEvent(time,duration,readBoolean()?readGp4Chord():readGp3Chord()));
+		track.events.add(new ChordEvent(time,duration,readBoolean()?readGp4Chord():readGp3Chord()));
 	    if ((bits&4)!=0)
-		events.add(new TextEvent(time,duration,readIntSizeBlob().toByteSizeString()));
+		track.events.add(new TextEvent(time,duration,readIntSizeBlob().toByteSizeString()));
 	    if ((bits&8)!=0)
 		readBeatEffects();
 	    if ((bits&16)!=0)
 		readMixTableChange();
 	    int stringBits=is.readUnsignedByte();
-	    for (int j=0; j<7; j++)
-		if ((stringBits&1<<j)!=0){
+	    for (int string=0; string<7; string++)
+		if ((stringBits&1<<string)!=0){
 		    NoteEvent e=new NoteEvent(time,duration);
+		    e.string = string;
 		    int noteBits=is.readUnsignedByte();
 		    if ((noteBits&4)!=0)
-			e.ghost_note = true;
+			e.is_ghost = true;
 		    if ((noteBits&32)!=0){
 			int type=is.readUnsignedByte();
-		    }
+			if (type==0)
+			    e.is_rest = true;
+			else if (type==2)
+			    e.is_tie = true;
+			else if (type==3)
+			    e.is_dead = true;
+		    }else
+			e.is_rest = true;
 		    if ((noteBits&1)!=0){
 			int d=is.readByte();
 			int t=is.readByte();
@@ -186,9 +194,8 @@ class Gp3file extends Gpfile{
 		    if ((noteBits&16)!=0){
 			int velocity=is.readByte();
 		    }
-		    if ((noteBits&32)!=0){
-			int fret=is.readUnsignedByte();
-		    }
+		    if ((noteBits&32)!=0)
+			e.fret = is.readUnsignedByte();
 		    if ((noteBits&128)!=0){
 			int left_hand_finger=is.readUnsignedByte();
 			int right_hand_finger=is.readUnsignedByte();
@@ -201,15 +208,27 @@ class Gp3file extends Gpfile{
 			if ((effectBits&8)!=0){
 			    boolean let_ring=true;
 			}
-			if ((effectBits&1)!=0)
-			    throw new IOException("readBend not implemented");
-			if ((effectBits&16)!=0)
-			    throw new IOException("readGrace not implemented");
+			if ((effectBits&1)!=0){
+			    int type=is.readByte();
+			    int value=readInt();
+			    int pointCount=readInt();
+			    for (int j=0; j<pointCount; j++){
+				int x=readInt();
+				int y=readInt();
+				boolean vibrato=readBoolean();
+			    }
+			}
+			if ((effectBits&16)!=0){
+			    int fret=is.readByte();
+			    int velocity=is.readByte();
+			    int dur=is.readByte();
+			    int transition=is.readByte();
+			}
 			if ((effectBits&4)!=0)
-			    throw new IOException("readSlide not implemented");
+			    e.is_slide = true;
 		    }
 		    if (status==1)
-			events.add(e);
+			track.events.add(e);
 		}
 	    if (status!=0)
 		time = time.add(duration);
@@ -219,7 +238,6 @@ class Gp3file extends Gpfile{
     }
     Chord readGp3Chord()throws IOException{
 	Chord chord=new Chord();
-	dumpIs();
 	chord.name = readIntSizeBlob().toByteSizeString();
 	int firstFret=readInt();
 	if (firstFret!=0)
@@ -259,9 +277,38 @@ class Gp3file extends Gpfile{
 	return chord;
     }
     void readBeatEffects()throws IOException{
-	throw new IOException("readBeatEffects not implemented");
+	int bits=is.readByte();
+	if ((bits&32)!=0){
+	    int slap=is.readByte();
+	    int tremoloBar=readInt();
+	}
+	if ((bits&64)!=0){
+	    int strokeDown=is.readByte();
+	    int strokeUp=is.readByte();
+	}
     }
     void readMixTableChange()throws IOException{
-	throw new IOException("readMixTableChange not implemented");
+	int instrument=is.readByte();
+        int volume=is.readByte();
+        int balance=is.readByte();
+        int chorus=is.readByte();
+        int reverb=is.readByte();
+        int phaser=is.readByte();
+        int tremolo=is.readByte();
+        int tempo=readInt();
+	if (volume>=0)
+            is.readByte();
+	if (balance>=0)
+            is.readByte();
+	if (chorus>=0)
+            is.readByte();
+	if (reverb>=0)
+            is.readByte();
+	if (phaser>=0)
+            is.readByte();
+	if (tremolo>=0)
+            is.readByte();
+	if (tempo>=0)
+            is.readByte();
     }
 }

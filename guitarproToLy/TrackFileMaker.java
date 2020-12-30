@@ -1,21 +1,28 @@
 import java.io.*;
 import java.util.*;
 
-class TrackFileMaker extends FileMaker{
+abstract class TrackFileMaker extends FileMaker{
     final String lyname;
     Arg arg;
-    static TrackFileMaker newTrackFileMaker(Main main,int index)throws IOException{
-	Arg arg=main.trackarg[index];
+    static TrackFileMaker newTrackFileMaker(Main main,Arg arg)throws IOException{
 	if (arg.partName==null)
 	    return null;
-	if (false /* check main.gpfile to see if drums */ )
-	    return new DrumTrackFileMaker(main,arg,arg.partName);
+	if (arg.output_text)
+	    return new TextFileMaker(main,arg);
+	if (arg.output_chords)
+	    return new ChordsFileMaker(main,arg);
+	if (arg.output_lyrics)
+	    return new LyricsFileMaker(main,arg,false);
+	if (arg.output_karaoke)
+	    return new LyricsFileMaker(main,arg,true);
+	if (main.gpfile.tracks[arg.trackNumber].isDrums)
+	    return new DrumTrackFileMaker(main,arg);
 	if (arg.output_tabs)
-	    return new TabsTrackFileMaker(main,arg,arg.partName);
-	return new LyTrackFileMaker(main,arg,arg.partName);
+	    return new TabsTrackFileMaker(main,arg);
+	return new LyTrackFileMaker(main,arg);
     }
-    TrackFileMaker(Main main,Arg arg,String name,String suffix,String lyname)throws IOException{
-	super(main,name,suffix);
+    TrackFileMaker(Main main,Arg arg,String fn,String suffix,String lyname)throws IOException{
+	super(main,fn,suffix);
 	this.arg = arg;
 	this.lyname = lyname;
     }
@@ -39,50 +46,5 @@ class TrackFileMaker extends FileMaker{
 	if (tripletFeel!=null)
 	    unindent(/*{*/"}");
     }
-    void makeMeasure(Gpfile.Measure measure)throws IOException{
-    }
-/*
-    private static final Instrument[]instruments={
-	new LyricsInstrument(),
-	new DrumsInstrument(),
-	new GuitarInstrument(),
-    };
-    private static Engraver measureNumberEngraver=new MeasureNumberEngraver();
-    private static final Engraver[]engravers={
-	new MetadataEngraver(),
-	measureNumberEngraver,
-	new TimeSignatureEngraver(),
-	new TempoEngraver(),
-	new MarkerEngraver(),
-    };
-	ByteArrayOutputStream baos=new ByteArrayOutputStream();
-	Instrument instrument=null;
-	for (Instrument i:instruments)
-	    if (i.matches(state)){
-		instrument = i;
-		break;
-	    }
-	if (instrument==null)
-	    throw new IOException("No Instrument matches.");
-	for (int pass=0; pass<2; pass++){
-	    state.startPass(pass);
-	    for (Engraver e:engravers)
-		e.setState(state);
-	    instrument.setState(state);
-	    instrument.printHead();
-	    instrument.printTwo();
-	    List<Json>measures=state.part.get("measures").list;
-	    for (int i=0; i<measures.size(); i++){
-		Json measure=measures.get(i);
-		for (Engraver e:engravers)
-		    e.engrave(measure);
-		instrument.engrave(measure);
-	    }
-	    while (pass==1 && instrument.events.size()!=0){
-		measureNumberEngraver.engrave(null);
-		instrument.engrave(null);
-	    }
-	    instrument.printFoot();
-	}
-*/
+    abstract void makeMeasure(Gpfile.Measure measure)throws IOException;
 }

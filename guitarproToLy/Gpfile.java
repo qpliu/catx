@@ -2,13 +2,13 @@ import java.io.*;
 import java.util.*;
 
 class Gpfile{
+    final Arg arg;
     final DataInputStream is;
     final String version;
     String artist;
     String title;
     Measure[]measures;
     Track[]tracks;
-    final List<Event>events=new ArrayList<Event>();
     static class Measure{
 	String name;
 	String tripletFeel;
@@ -34,12 +34,15 @@ class Gpfile{
     static class Chord{
 	String name;
     }
-    static class Event{
-	final Rational time;
-	final Rational duration;
+    static class Event implements Comparable<Event>{
+	Rational time;
+	Rational duration;
 	Event(Rational time,Rational duration){
 	    this.time = time; 
 	    this.duration = duration; 
+	}
+	@Override public int compareTo(Event e){
+	    return time.compareTo(e.time);
 	}
     }
     static class ChordEvent extends Event{
@@ -57,7 +60,13 @@ class Gpfile{
 	}
     }
     static class NoteEvent extends Event{
-	boolean ghost_note;
+	boolean is_ghost;
+	boolean is_rest;
+	boolean is_tie;
+	boolean is_dead;
+	boolean is_slide;
+	int string;
+	int fret;
 	NoteEvent(Rational time,Rational duration){
 	    super(time,duration);
 	}
@@ -68,6 +77,7 @@ class Gpfile{
 	boolean isDrums;
 	int[]tuning;
 	int instrument;
+	final List<Event>events=new ArrayList<Event>();
 	@Override public String toString(){
 	    StringBuilder sb=new StringBuilder();
 	    sb.append(String.format("Track %d",index));
@@ -102,8 +112,9 @@ class Gpfile{
     final Blob readIntSizeBlob()throws IOException{
 	return readBlob(readInt());
     }
-    Gpfile(DataInputStream is)throws IOException{
+    Gpfile(DataInputStream is,Arg arg)throws IOException{
 	this.is = is;
+	this.arg = arg;
 	version = readBlob(31).toByteSizeString();
 	Log.info("version=%s",version);
 	parse();

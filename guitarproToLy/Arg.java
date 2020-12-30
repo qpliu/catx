@@ -1,14 +1,16 @@
 final class Arg implements Cloneable{
+    int trackNumber=-1;
     String partName;
     String who;
     String drumMap;
     String[]scale={"c","cis","d","dis","e","f","fis","g","gis","a","ais","b"};
-    boolean no_string_numbers;
-    boolean output_text;
+    boolean output_chords;
+    boolean output_karaoke;
+    boolean output_lyrics;
     boolean output_tabs;
+    boolean output_text;
     boolean no_ghost_notes;
-    boolean only_lowest_note;
-    boolean only_highest_note;
+    boolean no_string_numbers;
     Rational shift=Rational.ZERO;
     @Override public Arg clone(){
 	try{

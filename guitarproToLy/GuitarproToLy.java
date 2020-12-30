@@ -9,8 +9,9 @@ final class GuitarproToLy{
 	System.err.println("[name partName]  Specify partName.");
 	System.err.println("[no-ghost-notes]  Don't include ghost notes.");
 	System.err.println("[no-string-numbers]  Don't include string numbers.");
-	System.err.println("[only-highest-note]  Only include highest note of chords.");
-	System.err.println("[only-lowest-note]  Only include lowest note of chords.");
+	System.err.println("[output-chords]  Output chords.");
+	System.err.println("[output-karaoke]  Output karaoke.");
+	System.err.println("[output-lyrics]  Output lyrics.");
 	System.err.println("[output-tabs]  Output tabs instead of notes.");
 	System.err.println("[output-text]  Output text.");
 	System.err.println("[scale scale]  Specify note spelling.  Something like scale \"c des eisis\"");
@@ -20,16 +21,14 @@ final class GuitarproToLy{
 	System.exit(1);
     }
     public static void main(String[]argv)throws IOException{
-	Gpfile gpfile=new Gp5file(new DataInputStream(System.in));
-	Arg[]trackarg=new Arg[gpfile.tracks.length];
+	List<Arg>trackarg=new ArrayList<Arg>();
 	Arg globalarg=new Arg();
 	Arg arg=globalarg;
 	for (int i=0; i<argv.length; i++)
 	    if (argv[i].equals("track")){
-		int index=Integer.parseInt(argv[++i]);
-		if (trackarg[index]==null)
-		    trackarg[index] = globalarg.clone();
-		arg = trackarg[index];
+		arg = globalarg.clone();
+		arg.trackNumber = Integer.parseInt(argv[++i]);
+		trackarg.add(arg);
 	    }else if (argv[i].equals("drumMap"))
 		arg.drumMap = argv[++i];
 	    else if (argv[i].equals("name"))
@@ -38,10 +37,12 @@ final class GuitarproToLy{
 		arg.no_ghost_notes = true;
 	    else if (argv[i].equals("no-string-numbers"))
 		arg.no_string_numbers = true;
-	    else if (argv[i].equals("only-highest-note"))
-		arg.only_highest_note = true;
-	    else if (argv[i].equals("only-lowest-note"))
-		arg.only_lowest_note = true;
+	    else if (argv[i].equals("output-chords"))
+		arg.output_chords = true;
+	    else if (argv[i].equals("output-karaoke"))
+		arg.output_karaoke = true;
+	    else if (argv[i].equals("output-lyrics"))
+		arg.output_lyrics = true;
 	    else if (argv[i].equals("output-tabs"))
 		arg.output_tabs = true;
 	    else if (argv[i].equals("output-text"))
@@ -63,9 +64,7 @@ final class GuitarproToLy{
 		arg.who = argv[++i];
 	    else
 		usage();
-	for (int i=0; i<trackarg.length; i++)
-	    if (trackarg[i]==null)
-		trackarg[i] = globalarg.clone();
+	Gpfile gpfile=new Gp5file(new DataInputStream(System.in),globalarg);
 	new Main(gpfile,globalarg,trackarg).make();
     }
 }

@@ -12,15 +12,10 @@ final class MusicFileMaker extends FileMaker{
 	unindent("}");
 	print();
 	print("\\include "+Stuff.escape(main.markupFileMaker.filename));
-	print("\\include "+Stuff.escape(main.lyricsFileMaker.filename));
-	print("\\include "+Stuff.escape(main.karaokeFileMaker.filename));
 	for (int i=0; i<main.trackFileMaker.length; i++){
 	    TrackFileMaker tfm=main.trackFileMaker[i];
 	    if (tfm!=null)
 		print("\\include "+Stuff.escape(tfm.filename));
-	    TextFileMaker xfm=main.textFileMaker[i];
-	    if (xfm!=null)
-		print("\\include "+Stuff.escape(xfm.filename+"_midi"));
 	}
 	print();
 	indent("layoutmusic = <<");

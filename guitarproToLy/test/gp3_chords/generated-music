@@ -1,0 +1,15 @@
+\header {
+    title = "Dreamers Ball"
+    composer = "Queen"
+}
+
+\include "generated-markup"
+\include "generated-chords"
+\include "generated-guitar"
+
+layoutmusic = <<
+>>
+
+midimusic = <<
+    \markupStuff
+>>

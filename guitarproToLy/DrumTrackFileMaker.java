@@ -2,8 +2,8 @@ import java.io.*;
 import java.util.*;
 
 final class DrumTrackFileMaker extends TrackFileMaker{
-    DrumTrackFileMaker(Main main,Arg arg,String name)throws IOException{
-	super(main,arg,name,"colors",name);
+    DrumTrackFileMaker(Main main,Arg arg)throws IOException{
+	super(main,arg,arg.partName,"colors",arg.partName);
     }
     void make()throws IOException{
 	indent(lyname+" = \\new DrumVoice = \"drsb\" \\new DrumVoice = \"drsa\" \\drummode {");
@@ -11,5 +11,7 @@ final class DrumTrackFileMaker extends TrackFileMaker{
 	print("\\context DrumVoice = \"drsb\" \\voiceTwo");
 	makeMeasures();
 	unindent("}");
+    }
+    @Override void makeMeasure(Gpfile.Measure measure)throws IOException{
     }
 }
