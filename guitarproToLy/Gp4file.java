@@ -2,49 +2,8 @@ import java.io.*;
 import java.util.*;
 
 class Gp4file extends Gp3file{
-    Gp4file(DataInputStream is,Arg arg,String version)throws IOException{
+    Gp4file(DataInputStream is,Arg arg,int version)throws IOException{
 	super(is,arg,version);
-    }
-    @Override void parse()throws IOException{
-	readClipboard();
-	readInfo();
-	readTripletFeel();
-	readLyrics();
-	tempo = readInt();
-	key0 = readInt();
-	key1 = 0;
-	int octave=is.readByte();
-	readMidiChannels();
-	measures = new Measure[readInt()];
-	tracks = new Track[readInt()];
-	Rational time=Rational.ZERO;
-	for (int i=0; i<measures.length; i++){
-	    measures[i] = readMeasure(i);
-	    measures[i].time = time;
-	    time = time.add(measures[i].time_n);
-	}
-	for (int i=0; i<tracks.length; i++)
-	    tracks[i] = readTrack(i);
-	for (int i=0; i<measures.length; i++)
-	    for (int j=0; j<tracks.length; j++)
-		readEvents(measures[i].time.add(arg.shift),i,tracks[j]);
-
-    }
-    void readClipboard()throws IOException{
-	if (version.startsWith("CLIPBOARD")){
-	    int startMeasure=readInt();
-	    int stopMeasure=readInt();
-	    int startTrack=readInt();
-	    int stopTrack=readInt();
-	}
-    }
-    void readLyrics()throws IOException{
-	int trackChoice=readInt();
-	for (int i=0; i<5; i++){
-	    int startingMeasure=readInt();
-	    String lyric=readIntSizeBlob().toString();
-	    Log.info("Lyric=%s",lyric);
-	}
     }
     @Override Chord readGp4Chord(Track track)throws IOException{
 	Chord chord=new Chord();
@@ -88,10 +47,6 @@ class Gp4file extends Gp3file{
 	    beatEffects.pickStroke = is.readByte();
 	return beatEffects;
     }
-    @Override void readMixTableChange()throws IOException{
-	super.readMixTableChange();
-	int bits=is.readByte();
-    }
     @Override void readNoteEffects(NoteEvent e)throws IOException{
 	int bits0=is.readUnsignedByte();
 	int bits1=is.readUnsignedByte();
@@ -117,6 +72,12 @@ class Gp4file extends Gp3file{
     }
     void readHarmonic()throws IOException{
 	int type=is.readByte();
+	if (version>=0x50000){
+	    if (type==2)
+		readBlob(2);
+	    if (type==2)
+		is.readByte();
+	}
     }
     @Override Slide readSlide()throws IOException{
 	Slide slide=new Slide();

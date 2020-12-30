@@ -2,9 +2,10 @@ import java.io.*;
 import java.util.*;
 
 class Gpfile{
+    static final int VERSION_CLIPBOARD=1;
     final Arg arg;
     final DataInputStream is;
-    final String version;
+    final int version;
     String artist;
     String title;
     Measure[]measures;
@@ -155,6 +156,9 @@ class Gpfile{
     final int readInt()throws IOException{
 	return Integer.reverseBytes(is.readInt());
     }
+    final int readShort()throws IOException{
+	return Short.reverseBytes(is.readShort());
+    }
     final Blob readBlob(int size)throws IOException{
 	byte[]b=new byte[size];
 	is.readFully(b);
@@ -163,7 +167,7 @@ class Gpfile{
     final Blob readIntSizeBlob()throws IOException{
 	return readBlob(readInt());
     }
-    Gpfile(DataInputStream is,Arg arg,String version)throws IOException{
+    Gpfile(DataInputStream is,Arg arg,int version)throws IOException{
 	this.is = is;
 	this.arg = arg;
 	this.version = version;

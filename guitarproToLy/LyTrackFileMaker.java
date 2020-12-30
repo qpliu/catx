@@ -17,8 +17,15 @@ final class LyTrackFileMaker extends SuperTrackFileMaker{
 	    List<Gpfile.NoteEvent>l=new ArrayList<Gpfile.NoteEvent>();
 	    l.add(ne);
 	    Rational shortest=ne.duration;
-	    while (events.size()!=0 && events.peek().time.equals(ne.time)){
-		Gpfile.Event e2=events.poll();
+	    while (events.size()!=0){
+		Gpfile.Event e2=events.peek();
+		if (!e2.time.equals(ne.time)){
+		    Rational d=e2.time.subtract(ne.time);
+		    if (d.compareTo(shortest)<0)
+			shortest = d;
+		    break;
+		}
+		events.poll();
 		if (!(e2 instanceof Gpfile.NoteEvent))
 		    continue;
 		Gpfile.NoteEvent ne2=(Gpfile.NoteEvent)e2;

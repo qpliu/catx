@@ -1,0 +1,39 @@
+#!/bin/sh
+set -e
+rm -f generated-*
+java -jar ../../1.jar <"/share/mirror/ultimateguitar/stuff/d-keep/d-Momoiro Clover Z/d-Mouretsu Uchuu Koukyoukyoku Dai Nana Gakushou - Mugen No Ai/application_octet_stream-Guitar Pro 1682976 2014-11-24 00:17:16 download" \
+scale "" \
+track 0 \
+    preset lyrics \
+track 0 \
+    preset peter \
+track 1 \
+    preset peter \
+    name guitarTwo \
+    instrument-name Guitar2 \
+    instrument-short-name Gtr2 \
+track 2 \
+    preset peter \
+    name guitarThree \
+    instrument-name Guitar3 \
+    instrument-short-name Gtr3 \
+track 3 \
+    preset peter \
+    name guitarFour \
+    instrument-name Guitar4 \
+    instrument-short-name Gtr4 \
+track 4 \
+    preset bass \
+track 5 \
+    preset gg \
+track 6 \
+    preset kav \
+track 7 \
+    preset midiOne \
+track 8 \
+    preset midiTwo \
+track 9 \
+    preset midiThree \
+track 10 \
+    preset midiFour \
+2>&1|tee log

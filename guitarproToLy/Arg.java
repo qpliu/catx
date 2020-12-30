@@ -72,12 +72,9 @@ final class Arg implements Cloneable{
 	    partName = "karaoke";
 	    output_karaoke = true;
 	    midi_who = "midiKaraoke";
-	}else if (preset.equals("midiOne")){
-	    partName = "midiOne";
-	    midi_who = "midiOne";
-	}else if (preset.equals("midiTwo")){
-	    partName = "midiTwo";
-	    midi_who = "midiTwo";
+	}else if (preset.equals("midiOne") || preset.equals("midiTwo") || preset.equals("midiThree") || preset.equals("midiFour")){
+	    partName = preset;
+	    midi_who = preset;
 	}else if (preset.equals("lyrics")){
 	    partName = "vocalsLyrics";
 	    output_lyrics = true;
