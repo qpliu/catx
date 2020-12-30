@@ -17,10 +17,10 @@ bass = {
     gis,,4\4 gis,,\4 d,\3 g,,\4 |
     c,4\3 g,,\4 c,\3 r |
 \mymark "Verse 1B" #16
-    \tuplet 3/2 { ais,,8\3 c,\3 c,\3 c,\3 c,\3 c,\3 ais,,\3 c,\3 c,\3 c,\3 c,\3 c,\3 } |
-    \tuplet 3/2 { ais,,8\3 c,\3 c,\3 c,\3 c,\3 c,\3 ais,,\3 c,\3 c,\3 c,\3 c,\3 c,\3 } |
-    \tuplet 3/2 { ais,,8\3 c,\3 c,\3 c,\3 c,\3 c,\3 ais,,\3 c,\3 c,\3 c,\3 c,\3 c,\3 } |
-    \tuplet 3/2 { ais,,8\3 c,\3 c,\3 c,\3 c,\3 c,\3 ais,,\3 c,\3 c,\3 c,\3 c,\3 c,\3 } |
+    \tuplet 3/2 { ais,,8\3( c,\3) c,\3 c,\3 c,\3 c,\3 ais,,\3( c,\3) c,\3 c,\3 c,\3 c,\3 } |
+    \tuplet 3/2 { ais,,8\3( c,\3) c,\3 c,\3 c,\3 c,\3 ais,,\3( c,\3) c,\3 c,\3 c,\3 c,\3 } |
+    \tuplet 3/2 { ais,,8\3( c,\3) c,\3 c,\3 c,\3 c,\3 ais,,\3( c,\3) c,\3 c,\3 c,\3 c,\3 } |
+    \tuplet 3/2 { ais,,8\3( c,\3) c,\3 c,\3 c,\3 c,\3 ais,,\3( c,\3) c,\3 c,\3 c,\3 c,\3 } |
     r1 |
     \tuplet 3/2 { c,8\3 c,\3 c,\3 g,\2 c,\3 c,\3 c,\3 c,\3 c,\3 g,\2 c,\3 c,\3 } |
     g,,8\4 r g,,\4 r g,,\4 r g,,\4 r |
@@ -88,10 +88,10 @@ bass = {
     gis,,4\4 gis,,\4 d,\3 g,,\4 |
     c,4\3 g,,\4 c,\3 r |
 \mymark "Verse 2B" #81
-    \tuplet 3/2 { ais,,8\3 c,\3 c,\3 c,\3 c,\3 c,\3 ais,,\3 c,\3 c,\3 c,\3 c,\3 c,\3 } |
-    \tuplet 3/2 { ais,,8\3 c,\3 c,\3 c,\3 c,\3 c,\3 ais,,\3 c,\3 c,\3 c,\3 c,\3 c,\3 } |
-    \tuplet 3/2 { ais,,8\3 c,\3 c,\3 c,\3 c,\3 c,\3 ais,,\3 c,\3 c,\3 c,\3 c,\3 c,\3 } |
-    \tuplet 3/2 { ais,,8\3 c,\3 c,\3 c,\3 c,\3 c,\3 ais,,\3 c,\3 c,\3 c,\3 c,\3 c,\3 } |
+    \tuplet 3/2 { ais,,8\3( c,\3) c,\3 c,\3 c,\3 c,\3 ais,,\3( c,\3) c,\3 c,\3 c,\3 c,\3 } |
+    \tuplet 3/2 { ais,,8\3( c,\3) c,\3 c,\3 c,\3 c,\3 ais,,\3( c,\3) c,\3 c,\3 c,\3 c,\3 } |
+    \tuplet 3/2 { ais,,8\3( c,\3) c,\3 c,\3 c,\3 c,\3 ais,,\3( c,\3) c,\3 c,\3 c,\3 c,\3 } |
+    \tuplet 3/2 { ais,,8\3( c,\3) c,\3 c,\3 c,\3 c,\3 ais,,\3( c,\3) c,\3 c,\3 c,\3 c,\3 } |
     r1 |
     \tuplet 3/2 { c,8\3 c,\3 c,\3 g,\2 c,\3 c,\3 c,\3 c,\3 c,\3 g,\2 c,\3 c,\3 } |
     g,,8\4 r g,,\4 r g,,\4 r g,,\4 r |

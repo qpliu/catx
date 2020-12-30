@@ -21,10 +21,10 @@ midiTwo = {
     <c'' c''' c' g'>8 r <c' c''' g' c''> r <g' c'' c' c'''> r4. |
     r4 <c'' g' c''' c'>8 r <c''' c'' g' c'> r4. |
     <g' c'' c''' c'>8 r <c' c''' c'' g'> r <c'' g' c''' c'> r4. |
-    d''16 r32 g'16 ais' r16. g'16 ais' r16. g'16 ais' r16. g'16 ais' r8 |
+    d''16 r32 g'16 ais' r16. \parenthesize g'16 \parenthesize ais' r16. \parenthesize g'16 \parenthesize ais' r16. \parenthesize g'16 \parenthesize ais' r8 |
     r1 |
-    r2 b4 d'~ |
-    d'4 c'' d''2~ |
+    r2 b4\glissando d'~ |
+    d'4 c''\glissando d''2~ |
 \mymark "Pre-Chorus 1" #24
     d''4 r2 |
     r2. |
@@ -92,10 +92,10 @@ midiTwo = {
     <c'' c''' c' g'>8 r <c' c''' g' c''> r <c''' g' c'' c'> r4. |
     r4 <c'' c''' c' g'>8 r <c''' c' c'' g'> r4. |
     <c'' c''' c' g'>8 r <g' c' c''' c''> r <c'' g' c''' c'> r4. |
-    d''16 r32 g'16 ais' r16. g'16 ais' r16. g'16 ais' r16. g'16 ais' r8 |
+    d''16 r32 g'16 ais' r16. \parenthesize g'16 \parenthesize ais' r16. \parenthesize g'16 \parenthesize ais' r16. \parenthesize g'16 \parenthesize ais' r8 |
     r1 |
-    r2 b4 d'~ |
-    d'4 c'' d''2~ |
+    r2 b4\glissando d'~ |
+    d'4 c''\glissando d''2~ |
 \mymark "Pre-Chorus 2" #89
     d''4 r2 |
     r2. |
@@ -141,16 +141,16 @@ midiTwo = {
     r1 |
     r2 <b e'> |
 \mymark "Bridge" #130
-    fis''''16 r fis'''' cis'''' r <d'''' cis''''> ais''' <d'''' dis'''> <f''' ais'''> dis''' \tuplet 3/2 { <c'''' f'''~>16 <ais'''~ f'''>32 ais''' c''''16 c'''' ais'''32~ <c''~ ais'''> <c'''' c''>16 } ais'16 <c'' gis'> |
-    <g' ais'~>32 <f'~ ais'> <gis' f'>16 <a'~ g'>32 <f'~ a'> f'16 a' r2 r8. |
+    fis''''16 r fis'''' cis'''' r <d'''' cis''''> ais''' <d'''' dis'''> <f''' ais'''> dis''' \tuplet 3/2 { <c'''' f'''~>16 <ais'''~ f'''>32 ais''' c''''16 c'''' ais'''32~ <c''~ ais'''>\glissando <c'''' c''>16\glissando } ais'16\glissando <c'' gis'>\glissando |
+    <g' ais'~>32\glissando <f'~ ais'>\glissando <gis' f'>16 <a'~ g'>32\glissando <f'~ a'> f'16 a' r2 r8. |
     r1 |
     r1 |
-    fis''''16 r fis'''' cis'''' r <d'''' cis''''> ais''' <d'''' dis'''> <ais''' f'''> dis''' \tuplet 3/2 { <c'''' f'''~>16 <ais'''~ f'''>32 ais''' c''''16 c'''' ais'''32~ <c''~ ais'''> <c'''' c''>16 } ais'16 <gis' c''> |
-    <ais'~ g'>32 <f'~ ais'> <gis'~ f'> gis' <a'~ g'> <f'~ a'> f' r a'16 r2 r8. |
-    fis''''16 r fis'''' cis'''' r <d'''' cis''''> ais''' <dis''' d''''> <f''' ais'''> dis''' \tuplet 3/2 { <f'''~ c''''>16 <ais'''~ f'''>32 ais''' c''''16 c'''' ais'''32~ <c''~ ais'''> <c'''' c''>16 } ais'16 <gis' c''> |
-    <ais'~ g'>32 <f'~ ais'> <gis'~ f'> gis' <a'~ g'> <f'~ a'> f' r a'16 r2 r8. |
-    fis''''16 r fis'''' cis'''' r <cis'''' d''''> ais''' <dis''' d''''> <f''' ais'''> dis''' \tuplet 3/2 { <c'''' f'''~>16 <ais'''~ f'''>32 ais''' c''''16 c'''' ais'''32~ <c''~ ais'''> <c'''' c''>16 } ais'16 <c'' gis'> |
-    <g' ais'~>32 <f'~ ais'> <gis'~ f'> gis' <g' a'~> <f'~ a'> f' r a'16 r2 r8. |
+    fis''''16 r fis'''' cis'''' r <d'''' cis''''> ais''' <d'''' dis'''> <ais''' f'''> dis''' \tuplet 3/2 { <c'''' f'''~>16 <ais'''~ f'''>32 ais''' c''''16 c'''' ais'''32~ <c''~ ais'''>\glissando <c'''' c''>16\glissando } ais'16\glissando <gis' c''>\glissando |
+    <ais'~ g'>32\glissando <f'~ ais'>\glissando <gis'~ f'> gis' <a'~ g'>\glissando <f'~ a'> f' r a'16 r2 r8. |
+    fis''''16 r fis'''' cis'''' r <d'''' cis''''> ais''' <dis''' d''''> <f''' ais'''> dis''' \tuplet 3/2 { <f'''~ c''''>16 <ais'''~ f'''>32 ais''' c''''16 c'''' ais'''32~ <c''~ ais'''>\glissando <c'''' c''>16\glissando } ais'16\glissando <gis' c''>\glissando |
+    <ais'~ g'>32\glissando <f'~ ais'>\glissando <gis'~ f'> gis' <a'~ g'>\glissando <f'~ a'> f' r a'16 r2 r8. |
+    fis''''16 r fis'''' cis'''' r <cis'''' d''''> ais''' <dis''' d''''> <f''' ais'''> dis''' \tuplet 3/2 { <c'''' f'''~>16 <ais'''~ f'''>32 ais''' c''''16 c'''' ais'''32~ <c''~ ais'''>\glissando <c'''' c''>16\glissando } ais'16\glissando <c'' gis'>\glissando |
+    <g' ais'~>32\glissando <f'~ ais'>\glissando <gis'~ f'> gis' <g' a'~>\glissando <f'~ a'> f' r a'16 r2 r8. |
 \mymark "Guitar Solo" #140
     <dis' dis''>8 r4 <dis' dis''>8 r <f' f''> <g'' g'> <f' f''> |
     r8 <ais'' ais'> r4 <gis' gis''>8 r <ais' ais''> r |

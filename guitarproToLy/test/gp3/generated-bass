@@ -22,7 +22,7 @@ bass = {
     f,8\2 r c,\3 r f,\2 r c,\3 r |
     f,8\2 r c,\3 r f,\2 r c,\3 f,\2 |
     g,8\2 r d,\3 r g,\2 r d,\3 r |
-    g,8\2 r d,\3 r g,\2 d\1 b,\1 d\1 |
+    g,8\2 r d,\3 r g,\2 d\1\glissando b,\1\glissando d\1 |
     f,8\2 r c,\3 r f,\2 r c,\3 r |
     f,8\2 r f,\2 g,\2 |
     c,8\3 r g,,\4 r c,\3 r g,,\4 c,\3 |
@@ -37,7 +37,7 @@ bass = {
     g,,8\4 r d,\3 r g,,\4 r d,\3 r |
     g,,8\4 r d,\3 r g,,\4 r16 e,,\4 g,,8\4 fis,,\4 |
     f,,8\4 r a,,\3 c,\3 f,,\4 r a,,\3 c,\3 |
-    f,,8\4 r a,,\3 c,\3 f,,\4 r16 g,,\4 a,,8\4 c,\3 |
+    f,,8\4 r a,,\3 c,\3 f,,\4 r16 g,,\4\glissando a,,8\4 c,\3 |
     c,8\3 r g,,\4 r c,\3 r16 g,,\4 g,,8\4 a,,\4 |
     c,8\3 r g,,\4 r c,\3 r g,,\4 c,\3 |
 \mymark "Verse 3" #38
@@ -46,7 +46,7 @@ bass = {
     f,8\2 r c,\3 r f,\2 r c,\3 r |
     f,8\2 r c,\3 r f,\2 r c,\3 f,\2 |
     g,8\2 r d,\3 r g,\2 r d,\3 r |
-    g,8\2 r d,\3 r g,\2 d\1 b,\1 d\1 |
+    g,8\2 r d,\3 r g,\2 d\1\glissando b,\1\glissando d\1 |
     f,8\2 r c,\3 r f,\2 r c,\3 r |
     f,8\2 r f,\2 g,\2 |
     c,8\3 r g,,\4 r c,\3 r g,,16\4 a,,\3 b,,8\3 |

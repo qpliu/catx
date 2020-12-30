@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 final class LyTrackFileMaker extends SuperTrackFileMaker{
-    private boolean hammer;
+    private boolean last_hammer;
     LyTrackFileMaker(Main main,Arg arg)throws IOException{
 	super(main,"",arg);
     }
@@ -47,8 +47,16 @@ final class LyTrackFileMaker extends SuperTrackFileMaker{
     }
     MeasureMaker.GetWhatSuffix chordToGws(List<Gpfile.NoteEvent>l){
 	boolean allTied=true;
-	for (Gpfile.NoteEvent ne:l)
+	boolean is_hammer=false;
+	boolean is_slide=false;
+	Gpfile.Bend bend=null;
+	for (Gpfile.NoteEvent ne:l){
 	    allTied &= ne.tie_lhs;
+	    is_hammer |= ne.is_hammer;
+	    is_slide |= ne.slide!=null;
+	    if (ne.bend!=null)
+		bend = ne.bend;
+	}
 	StringBuilder what_notrhs=new StringBuilder();
 	StringBuilder what_rhs=new StringBuilder();
 	StringBuilder suffix_notrhs=new StringBuilder();
@@ -63,6 +71,14 @@ final class LyTrackFileMaker extends SuperTrackFileMaker{
 		what_rhs.append(' ');
 	    }
 	    Gpfile.NoteEvent ne=l.get(i);
+	    if (ne.is_dead){
+		what_notrhs.append("\\deadNote ");
+		what_rhs.append("\\deadNote ");
+	    }
+	    if (ne.is_ghost){
+		what_notrhs.append("\\parenthesize ");
+		what_rhs.append("\\parenthesize ");
+	    }
 	    what_notrhs.append(noteEventToLy(ne));
 	    what_rhs.append(noteEventToLy(ne));
 	    if (arg.string_numbers && l.size()!=1){
@@ -84,6 +100,27 @@ final class LyTrackFileMaker extends SuperTrackFileMaker{
 	suffix_notrhs.append('~');
 	if (allTied)
 	    suffix_rhs.append('~');
+	if (!last_hammer && is_hammer)
+	    suffix_rhs.append('(');
+	if (last_hammer && !is_hammer)
+	    suffix_rhs.append(')');
+	if (is_slide)
+	    suffix_rhs.append("\\glissando");
+	if (bend!=null){
+	    double peak=0;
+	    for (int i=0; i<bend.y.length; i++)
+		if (Math.abs(bend.y[i])>Math.abs(peak))
+		    peak = bend.y[i];
+	    if (peak>.87)
+		suffix_rhs.append("\\bendAfter #6 ^\"full\"");
+	    else if (peak>.62)
+		suffix_rhs.append("\\bendAfter #6 ^\"¾\"");
+	    else if (peak>.37)
+		suffix_rhs.append("\\bendAfter #6 ^\"½\"");
+	    else if (peak>.12)
+		suffix_rhs.append("\\bendAfter #6 ^\"¼\"");
+	}
+	last_hammer = is_hammer;
 	return new MeasureMaker.GetWhatSuffix(){
 	    @Override public String getWhat(boolean is_lhs,boolean is_rhs){
 		return is_rhs?what_rhs.toString():what_notrhs.toString();

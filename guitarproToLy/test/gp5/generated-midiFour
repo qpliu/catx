@@ -45,7 +45,7 @@ midiFour = {
     <gis' d' d''>2 <c'' g' c'>4. <b f' b'>8 |
     r8 <d'' d'''>4. <d'' d'''>4 <c'' c'''> |
     <b' b''>2 <f'' f'''>4. <dis'' dis'''>8~ |
-    <dis'' dis'''>8 <dis'' dis'''> <ais'' ais'> <ais' ais''> <f'' f'> <dis'' dis'> <c' c''> r |
+    <dis'' dis'''>8 <dis'' dis'''> <\parenthesize ais'' \parenthesize ais'> <ais' ais''> <\parenthesize f'' \parenthesize f'> <dis'' dis'> <c' c''> r |
     <cis' cis''>4 <f f'> <gis' gis> <f f'> |
     <cis' cis''>4 <f f'> <gis' gis> <f f'> |
     r2. r8 <b' b''>~ |
@@ -116,7 +116,7 @@ midiFour = {
     <gis' d' d''>2 <c'' g' c'>4. <b f' b'>8 |
     r8 <d'' d'''>4. <d''' d''>4 <c'' c'''> |
     <b' b''>2 <f'' f'''>4. <dis'' dis'''>8~ |
-    <dis'' dis'''>8 <dis'' dis'''> <ais'' ais'> <ais' ais''> <f'' f'> <dis'' dis'> <c' c''> r |
+    <dis'' dis'''>8 <dis'' dis'''> <\parenthesize ais'' \parenthesize ais'> <ais' ais''> <\parenthesize f'' \parenthesize f'> <dis'' dis'> <c' c''> r |
     <cis' cis''>4 <f f'> <gis' gis> <f f'> |
     <cis' cis''>4 <f f'> <gis' gis> <f f'> |
     r2. r8 <b' b''>~ |
@@ -138,18 +138,18 @@ midiFour = {
     r1 |
     r8 dis'''16 c''' gis''16. dis'''16 c''' gis''16. dis'''16 c''' gis''16. dis'''16 c''' gis''16. |
     r1 |
-    r4. ais8 b r c'4~ |
-    c'1 |
+    r4. ais8 b r c'4~\bendAfter #6 ^"full" |
+    c'1\bendAfter #6 ^"full" |
 \mymark "Bridge" #130
     r1 |
     <g' g>8 <c'' c'> <g'' g'> <c''' c''> <g g'> <c'' c'> <g'' g'> <c''' c''> |
-    <c c'>8 <c c'> <c'' c'> <c' c''> <g' g''> <g'' g'> <c'' c'''> <c''' c''> |
+    <c c'>8 <\parenthesize c \parenthesize c'> <c'' c'> <\parenthesize c' \parenthesize c''> <g' g''> <\parenthesize g'' \parenthesize g'> <c'' c'''> <\parenthesize c''' \parenthesize c''> |
     <d d'>8 <d' d> <a' a> <d' d''> <g' g''> <g'' g'> <g''' g''> d''' |
     r1 |
-    <c c'>8 <c c'> <c' c''> <c' c''> <g'' g'> <g'' g'> <c''' c''> <c'' c'''> |
+    <c c'>8 <\parenthesize c \parenthesize c'> <c' c''> <\parenthesize c' \parenthesize c''> <g'' g'> <\parenthesize g'' \parenthesize g'> <c''' c''> <\parenthesize c'' \parenthesize c'''> |
     r2 <b b,>4 <b, b> |
-    <b, b>4 <b, b> <g' g> <g' g> |
-    <g g'>4 <g' g> <b' b''> <b' b''> |
+    <\parenthesize b, \parenthesize b>4 <\parenthesize b, \parenthesize b> <g' g> <g' g> |
+    <\parenthesize g \parenthesize g'>4 <\parenthesize g' \parenthesize g> <b' b''> <b' b''> |
     <d'' d'''>4 <d''' d''> <d''' d''> <d''' d''> |
 \mymark "Guitar Solo" #140
     r1 |
@@ -191,7 +191,7 @@ midiFour = {
     <gis' d' d''>2 <g' c' c''>4. <b f' b'>8 |
     r8 <d'' d'''>4. <d''' d''>4 <c'' c'''> |
     <b' b''>2 <f'' f'''>4. <dis'' dis'''>8~ |
-    <dis'' dis'''>8 <dis'' dis'''> <ais'' ais'> <ais' ais''> <f' f''> <dis'' dis'> <c' c''> r |
+    <dis'' dis'''>8 <dis'' dis'''> <\parenthesize ais'' \parenthesize ais'> <ais' ais''> <\parenthesize f' \parenthesize f''> <dis'' dis'> <c' c''> r |
     <cis' cis''>4 <f f'> <gis' gis> <f f'> |
     <cis' cis''>4 <f f'> <gis' gis> <f f'> |
     r2. r8 <b'' b'>~ |
@@ -213,10 +213,10 @@ midiFour = {
     r1 |
     r8 dis'''16 c''' gis''16. dis'''16 c''' gis''16. dis'''16 c''' gis''16. dis'''16 c''' gis''16. |
     r1 |
-    r4. ais8 b r c'4~ |
-    c'1~ |
+    r4. ais8 b r c'4~\bendAfter #6 ^"full" |
+    c'1~\bendAfter #6 ^"full" |
 \mymark "Ending" #200
-    c'8 r4. g,8 d g b |
+    c'8\bendAfter #6 ^"full" r4. g,8 d g b |
     c8 g c' dis' g' c'' dis'' c'' |
     d8 ais d' f' ais' d'' f'' d'' |
     dis8 g ais dis' g' ais' dis'' g' |

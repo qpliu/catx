@@ -17,12 +17,12 @@ guitarFour = {
     \tuplet 3/2 { <gis,\6 dis\5>8 <gis,\6 dis\5> <dis\5 gis,\6> } <gis,\6 dis\5>8 r <d\5 a\4>4 <g,\6 d\5> |
     <g\4 c\5>4 <g,\6 d\5> <g\4 c\5> r |
 \mymark "Verse 1B" #16
-    \tuplet 3/2 { ais,8\5 c\5 c\5 c\5 c\5 c\5 dis\5 c\5 c\5 c\5 c\5 c\5 } |
-    \tuplet 3/2 { ais,8\5 c\5 c\5 c\5 c\5 c\5 dis\5 c\5 c\5 c\5 c\5 c\5 } |
-    \tuplet 3/2 { ais,8\5 c\5 c\5 c\5 c\5 c\5 dis\5 c\5 c\5 c\5 c\5 c\5 } |
-    g8.\4 g16\4 g8.\4 g16\4 g8.\4 f16\4 dis8.\5 d16\5 |
+    \tuplet 3/2 { ais,8\5( c\5) c\5 c\5 c\5 c\5 dis\5( c\5) c\5 c\5 c\5 c\5 } |
+    \tuplet 3/2 { ais,8\5( c\5) c\5 c\5 c\5 c\5 dis\5( c\5) c\5 c\5 c\5 c\5 } |
+    \tuplet 3/2 { ais,8\5( c\5) c\5 c\5 c\5 c\5 dis\5( c\5) c\5 c\5 c\5 c\5 } |
+    g8.\4\glissando g16\4 g8.\4 g16\4 g8.\4 f16\4 dis8.\5 d16\5 |
     <dis\4 c\5 c'\2 g\3>2. r4 |
-    \tuplet 3/2 { ais,8\5 c\5 c\5 c\5 c\5 c\5 dis\5 c\5 c\5 c\5 c\5 c\5 } |
+    \tuplet 3/2 { ais,8\5( c\5) c\5 c\5 c\5 c\5 dis\5( c\5) c\5 c\5 c\5 c\5 } |
     g,4\6 g\4 g,\6 g\4 |
     \tuplet 3/2 { g,8\6 g,\6 g,\6 } <g,\6 g\4 d\5>4 \tuplet 3/2 { g,8\6 g,\6 g,\6 } <d\5 g,\6 g\4>4 |
 \mymark "Pre-Chorus 1" #24
@@ -30,16 +30,16 @@ guitarFour = {
     <ais\3 ais'\1>2. |
     <dis'\2 dis\4>2. |
     <gis'\1 gis\3>2. |
-    c'16\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 c'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 |
-    c'16\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 c'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 |
+    c'16\3( cis'\3) cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 c'\3( cis'\3) cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 |
+    c'16\3( cis'\3) cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 c'\3( cis'\3) cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 |
     g4.\4 g'2\2~ g'8\2 |
 \mymark "Chorus 1A" #31
     <g\4 c\5 c'\3>4 <c\5 c'\3 g\4> c8\5 <c\5 c'\3 g\4> c\5 <ais,\5 ais\3 f\4>~ |
     <f\4 ais,\5 ais\3>8 <ais\3 f\4 ais,\5> <f\4 ais,\5 ais\3> <ais,\5 ais\3 f\4> ais,\5 ais,\5 <ais\3 f\4 ais,\5> <ais,\5 f\4 ais\3> |
     <ais\3 dis\4 dis'\2>4 <dis\4 dis'\2 ais\3> dis8\4 <dis\4 dis'\2 ais\3> dis\4 <ais\3 dis\4 dis'\2>~ |
     <dis'\2 ais\3 dis\4>8 dis\4 <dis\4 dis'\2 ais\3> dis\4 <dis\4 dis'\2 ais\3>4 <ais\3 dis\4 dis'\2>8 <dis'\2 ais\3 dis\4> |
-    <g\4 c\5 c'\3>4 <c\5 c'\3 g\4> c8\5 <c\5 c'\3 g\4> c\5 <e\4~ e'\2~ b\3> |
-    <e\4 e'\2>8 <b\3 e\4 e'\2> <e\4 e'\2 b\3> <e'\2 b\3 e\4> \tuplet 3/2 { <e'\2 b\3 e\4>4 <e'\2 b\3 e\4> <e'\2 e\4 b\3> } |
+    <g\4 c\5 c'\3>4 <c\5 c'\3 g\4> c8\5 <c\5 c'\3 g\4> c\5 <e\4~ e'\2~ \deadNote b\3> |
+    <e\4 e'\2>8 <\deadNote b\3 e\4 e'\2> <e\4 e'\2 \deadNote b\3> <e'\2 \deadNote b\3 e\4> \tuplet 3/2 { <e'\2 \deadNote b\3 e\4>4 <e'\2 \deadNote b\3 e\4> <e'\2 e\4 \deadNote b\3> } |
     <c'\3 f\4 f'\2>4 <f\4 c'\3 f'\2> f8\4 <f\4 f'\2 c'\3> f\4 <f\4 f'\2 c'\3>~ |
     <c'\3 f\4 f'\2>8 <f'\2 f\4 c'\3>4. <f\4 c'\3 f'\2>4 <ais\3 dis'\2 dis\4> |
     <d\5 gis\4 d'\3>2 <c'\3 g\4 c\5>4. <b\3 f\4 b,\5>8~ |
@@ -55,8 +55,8 @@ guitarFour = {
     r2 ais\5 |
     <dis\4 ais\3 dis'\2>4 <dis\4 dis'\2 ais\3> dis8\4 <dis\4 dis'\2 ais\3> dis\4 <ais\3 dis\4 dis'\2>~ |
     <dis'\2 ais\3 dis\4>8 dis\4 <dis\4 dis'\2 ais\3> dis\4 <dis\4 dis'\2 ais\3>4 <ais\3 dis\4 dis'\2>8 <dis'\2 ais\3 dis\4> |
-    <g\4 c\5 c'\3>4 <c\5 c'\3 g\4> c8\5 <c\5 c'\3 g\4> c\5 <e\4~ e'\2~ b\3> |
-    <e\4 e'\2>8 <b\3 e'\2 e\4> <e\4 e'\2 b\3> <e'\2 b\3 e\4> \tuplet 3/2 { <e'\2 b\3 e\4>4 <e'\2 b\3 e\4> <e'\2 e\4 b\3> } |
+    <g\4 c\5 c'\3>4 <c\5 c'\3 g\4> c8\5 <c\5 c'\3 g\4> c\5 <e\4~ e'\2~ \deadNote b\3> |
+    <e\4 e'\2>8 <\deadNote b\3 e'\2 e\4> <e\4 e'\2 \deadNote b\3> <e'\2 \deadNote b\3 e\4> \tuplet 3/2 { <e'\2 \deadNote b\3 e\4>4 <e'\2 \deadNote b\3 e\4> <e'\2 e\4 \deadNote b\3> } |
     <c'\3 f\4 f'\2>4 <f\4 f'\2 c'\3> f8\4 <f\4 f'\2 c'\3> f\4 <f\4 f'\2 c'\3>~ |
     <c'\3 f\4 f'\2>8 <f'\2 c'\3 f\4>4. <f\4 c'\3 f'\2>4 <dis'\2 ais\3 dis\4> |
     <gis\4 d\5 d'\3>2 <c'\3 g\4 c\5>4. <b\3 f\4 b,\5>8~ |
@@ -88,12 +88,12 @@ guitarFour = {
     \tuplet 3/2 { <gis,\6 dis\5>8 <gis,\6 dis\5> <dis\5 gis,\6> } <gis,\6 dis\5>8 r <a\4 d\5>4 <d\5 g,\6> |
     <g\4 c\5>4 <d\5 g,\6> <g\4 c\5> r |
 \mymark "Verse 2B" #81
-    \tuplet 3/2 { ais,8\5 c\5 c\5 c\5 c\5 c\5 dis\5 c\5 c\5 c\5 c\5 c\5 } |
-    \tuplet 3/2 { ais,8\5 c\5 c\5 c\5 c\5 c\5 dis\5 c\5 c\5 c\5 c\5 c\5 } |
-    \tuplet 3/2 { ais,8\5 c\5 c\5 c\5 c\5 c\5 dis\5 c\5 c\5 c\5 c\5 c\5 } |
-    g8.\4 g16\4 g8.\4 g16\4 g8.\4 f16\4 dis8.\5 d16\5 |
+    \tuplet 3/2 { ais,8\5( c\5) c\5 c\5 c\5 c\5 dis\5( c\5) c\5 c\5 c\5 c\5 } |
+    \tuplet 3/2 { ais,8\5( c\5) c\5 c\5 c\5 c\5 dis\5( c\5) c\5 c\5 c\5 c\5 } |
+    \tuplet 3/2 { ais,8\5( c\5) c\5 c\5 c\5 c\5 dis\5( c\5) c\5 c\5 c\5 c\5 } |
+    g8.\4\glissando g16\4 g8.\4 g16\4 g8.\4 f16\4 dis8.\5 d16\5 |
     <dis\4 c'\2 g\3 c\5>2. r4 |
-    \tuplet 3/2 { ais,8\5 c\5 c\5 c\5 c\5 c\5 dis\5 c\5 c\5 c\5 c\5 c\5 } |
+    \tuplet 3/2 { ais,8\5( c\5) c\5 c\5 c\5 c\5 dis\5( c\5) c\5 c\5 c\5 c\5 } |
     g,4\6 g\4 g,\6 g\4 |
     \tuplet 3/2 { g,8\6 g,\6 g,\6 } <g,\6 g\4 d\5>4 \tuplet 3/2 { g,8\6 g,\6 g,\6 } <d\5 g,\6 g\4>4 |
 \mymark "Pre-Chorus 2" #89
@@ -101,16 +101,16 @@ guitarFour = {
     <ais'\1 ais\3>2. |
     <dis'\2 dis\4>2. |
     <gis\3 gis'\1>2. |
-    c'16\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 c'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 |
-    c'16\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 c'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 |
-    <d'\4 g'\3>4. <d''\2 g''\1>2~ <d''\2 g''\1>8 |
+    c'16\3( cis'\3) cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 c'\3( cis'\3) cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 |
+    c'16\3( cis'\3) cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 c'\3( cis'\3) cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 |
+    <d'\4 g'\3>4.\glissando <d''\2 g''\1>2~ <d''\2 g''\1>8 |
 \mymark "Chorus 2A" #96
     <g\4 c'\3 c\5>4 <c\5 g\4 c'\3> c8\5 <c\5 c'\3 g\4> c\5 <f\4 ais,\5 ais\3>~ |
     <ais\3 f\4 ais,\5>8 <ais\3 f\4 ais,\5> <f\4 ais,\5 ais\3> <ais\3 ais,\5 f\4> ais,\5 ais,\5 <ais\3 f\4 ais,\5> <ais,\5 ais\3 f\4> |
     <ais\3 dis'\2 dis\4>4 <dis\4 dis'\2 ais\3> dis8\4 <dis\4 dis'\2 ais\3> dis\4 <ais\3 dis\4 dis'\2>~ |
     <dis'\2 ais\3 dis\4>8 dis\4 <dis\4 dis'\2 ais\3> dis\4 <dis\4 dis'\2 ais\3>4 <dis'\2 dis\4 ais\3>8 <dis'\2 ais\3 dis\4> |
-    <g\4 c\5 c'\3>4 <c\5 c'\3 g\4> c8\5 <c\5 c'\3 g\4> c\5 <e\4~ e'\2~ b\3> |
-    <e\4 e'\2>8 <e'\2 b\3 e\4> <e\4 e'\2 b\3> <e'\2 b\3 e\4> \tuplet 3/2 { <e\4 b\3 e'\2>4 <e'\2 e\4 b\3> <e\4 e'\2 b\3> } |
+    <g\4 c\5 c'\3>4 <c\5 c'\3 g\4> c8\5 <c\5 c'\3 g\4> c\5 <e\4~ e'\2~ \deadNote b\3> |
+    <e\4 e'\2>8 <e'\2 \deadNote b\3 e\4> <e\4 e'\2 \deadNote b\3> <e'\2 \deadNote b\3 e\4> \tuplet 3/2 { <e\4 \deadNote b\3 e'\2>4 <e'\2 e\4 \deadNote b\3> <e\4 e'\2 \deadNote b\3> } |
     <c'\3 f\4 f'\2>4 <f\4 f'\2 c'\3> f8\4 <f\4 c'\3 f'\2> f\4 <f\4 f'\2 c'\3>~ |
     <c'\3 f\4 f'\2>8 <f'\2 c'\3 f\4>4. <f\4 c'\3 f'\2>4 <ais\3 dis\4 dis'\2> |
     <d\5 gis\4 d'\3>2 <c\5 g\4 c'\3>4. <b\3 f\4 b,\5>8~ |
@@ -126,8 +126,8 @@ guitarFour = {
     r2 ais\5 |
     <ais\3 dis\4 dis'\2>4 <dis'\2 ais\3 dis\4> dis8\4 <dis\4 dis'\2 ais\3> dis\4 <ais\3 dis\4 dis'\2>~ |
     <dis'\2 ais\3 dis\4>8 dis\4 <dis\4 dis'\2 ais\3> dis\4 <dis'\2 dis\4 ais\3>4 <dis\4 ais\3 dis'\2>8 <dis\4 ais\3 dis'\2> |
-    <g\4 c\5 c'\3>4 <c'\3 c\5 g\4> c8\5 <c'\3 g\4 c\5> c\5 <e\4~ e'\2~ b\3> |
-    <e\4 e'\2>8 <e\4 e'\2 b\3> <b\3 e'\2 e\4> <e'\2 b\3 e\4> \tuplet 3/2 { <e\4 b\3 e'\2>4 <b\3 e\4 e'\2> <e'\2 e\4 b\3> } |
+    <g\4 c\5 c'\3>4 <c'\3 c\5 g\4> c8\5 <c'\3 g\4 c\5> c\5 <e\4~ e'\2~ \deadNote b\3> |
+    <e\4 e'\2>8 <e\4 e'\2 \deadNote b\3> <\deadNote b\3 e'\2 e\4> <e'\2 \deadNote b\3 e\4> \tuplet 3/2 { <e\4 \deadNote b\3 e'\2>4 <\deadNote b\3 e\4 e'\2> <e'\2 e\4 \deadNote b\3> } |
     <c'\3 f\4 f'\2>4 <f\4 f'\2 c'\3> f8\4 <f'\2 c'\3 f\4> f\4 <f\4 f'\2 c'\3>~ |
     <c'\3 f\4 f'\2>8 <c'\3 f\4 f'\2>4. <c'\3 f\4 f'\2>4 <dis'\2 ais\3 dis\4> |
     <gis\4 d'\3 d\5>2 <c'\3 g\4 c\5>4. <b,\5 f\4 b\3>8~ |
@@ -156,8 +156,8 @@ guitarFour = {
     <ais\3 f\4 ais,\5>8 <ais\3 ais,\5 f\4> <f\4 ais,\5 ais\3> <ais\3 ais,\5 f\4> ais,\5 ais,\5 <f\4 ais,\5 ais\3> <ais,\5 ais\3 f\4> |
     <dis'\2 dis\4 ais\3>4 <ais\3 dis\4 dis'\2> dis8\4 <ais\3 dis\4 dis'\2> dis\4 <dis\4 ais\3 dis'\2>~ |
     <dis'\2 dis\4 ais\3>8 dis\4 <dis\4 dis'\2 ais\3> dis\4 <ais\3 dis\4 dis'\2>4 <ais\3 dis'\2 dis\4>8 <dis\4 ais\3 dis'\2> |
-    <c'\3 g\4 c\5>4 <c'\3 c\5 g\4> c8\5 <g\4 c\5 c'\3> c\5 <b\3 e\4~ e'\2~> |
-    <e'\2 e\4>8 <e\4 e'\2 b\3> <e\4 b\3 e'\2> <e\4 b\3 e'\2> \tuplet 3/2 { <e\4 e'\2 b\3>4 <e\4 e'\2 b\3> <e'\2 b\3 e\4> } |
+    <c'\3 g\4 c\5>4 <c'\3 c\5 g\4> c8\5 <g\4 c\5 c'\3> c\5 <\deadNote b\3 e\4~ e'\2~> |
+    <e'\2 e\4>8 <e\4 e'\2 \deadNote b\3> <e\4 \deadNote b\3 e'\2> <e\4 \deadNote b\3 e'\2> \tuplet 3/2 { <e\4 e'\2 \deadNote b\3>4 <e\4 e'\2 \deadNote b\3> <e'\2 \deadNote b\3 e\4> } |
     <c'\3 f'\2 f\4>4 <c'\3 f\4 f'\2> f8\4 <f\4 c'\3 f'\2> f\4 <f'\2 f\4 c'\3>~ |
     <c'\3 f'\2 f\4>8 <c'\3 f\4 f'\2>4. <c'\3 f\4 f'\2>4 <dis'\2 ais\3 dis\4> |
     <d\5 d'\3 gis\4>2 <c'\3 g\4 c\5>4. <b,\5 f\4 b\3>8~ |
@@ -175,17 +175,17 @@ guitarFour = {
     r1 |
     r1 |
     r1 |
-    c'16\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 c'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 |
-    c'16\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 c'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 |
+    c'16\3( cis'\3) cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 c'\3( cis'\3) cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 |
+    c'16\3( cis'\3) cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 c'\3( cis'\3) cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 cis'\3 |
     g8\4 g\4 b\4 b\4 d'\3 d'\3 f'\3 f'\3 |
-    g'4\2 g'8\2 g'4\2 r4. |
+    g'4\2 \deadNote g'8\2 g'4\2 r4. |
 \mymark "Chorus 3A" #166
     <c'\3 g\4 c\5>4 <c\5 c'\3 g\4> c8\5 <c'\3 g\4 c\5> c\5 <ais,\5 f\4 ais\3>~ |
     <ais\3 ais,\5 f\4>8 <ais\3 ais,\5 f\4> <ais\3 ais,\5 f\4> <ais,\5 f\4 ais\3> ais,\5 ais,\5 <f\4 ais,\5 ais\3> <ais\3 f\4 ais,\5> |
     <dis'\2 dis\4 ais\3>4 <dis\4 ais\3 dis'\2> dis8\4 <dis\4 ais\3 dis'\2> dis\4 <dis'\2 dis\4 ais\3>~ |
     <ais\3 dis'\2 dis\4>8 dis\4 <dis'\2 ais\3 dis\4> dis\4 <dis'\2 ais\3 dis\4>4 <dis\4 ais\3 dis'\2>8 <dis'\2 ais\3 dis\4> |
-    <g\4 c\5 c'\3>4 <g\4 c\5 c'\3> c8\5 <g\4 c'\3 c\5> c\5 <e\4~ e'\2~ b\3> |
-    <e\4 e'\2>8 <e'\2 b\3 e\4> <e'\2 e\4 b\3> <e'\2 b\3 e\4> \tuplet 3/2 { <e\4 b\3 e'\2>4 <e'\2 e\4 b\3> <b\3 e'\2 e\4> } |
+    <g\4 c\5 c'\3>4 <g\4 c\5 c'\3> c8\5 <g\4 c'\3 c\5> c\5 <e\4~ e'\2~ \deadNote b\3> |
+    <e\4 e'\2>8 <e'\2 \deadNote b\3 e\4> <e'\2 e\4 \deadNote b\3> <e'\2 \deadNote b\3 e\4> \tuplet 3/2 { <e\4 \deadNote b\3 e'\2>4 <e'\2 e\4 \deadNote b\3> <\deadNote b\3 e'\2 e\4> } |
     <f'\2 c'\3 f\4>4 <c'\3 f'\2 f\4> f8\4 <f'\2 f\4 c'\3> f\4 <c'\3 f'\2 f\4>~ |
     <f\4 c'\3 f'\2>8 <f'\2 f\4 c'\3>4. <c'\3 f'\2 f\4>4 <ais\3 dis\4 dis'\2> |
     <gis\4 d\5 d'\3>2 <g\4 c'\3 c\5>4. <b\3 b,\5 f\4>8~ |
@@ -201,8 +201,8 @@ guitarFour = {
     r2 ais\5 |
     <dis'\2 ais\3 dis\4>4 <ais\3 dis\4 dis'\2> dis8\4 <dis\4 dis'\2 ais\3> dis\4 <dis'\2 ais\3 dis\4>~ |
     <dis\4 dis'\2 ais\3>8 dis\4 <ais\3 dis'\2 dis\4> dis\4 <dis\4 ais\3 dis'\2>4 <dis\4 dis'\2 ais\3>8 <ais\3 dis'\2 dis\4> |
-    <g\4 c'\3 c\5>4 <c\5 g\4 c'\3> c8\5 <c\5 c'\3 g\4> c\5 <b\3 e\4~ e'\2~> |
-    <e'\2 e\4>8 <e'\2 b\3 e\4> <e\4 e'\2 b\3> <e'\2 e\4 b\3> \tuplet 3/2 { <b\3 e'\2 e\4>4 <e'\2 b\3 e\4> <b\3 e\4 e'\2> } |
+    <g\4 c'\3 c\5>4 <c\5 g\4 c'\3> c8\5 <c\5 c'\3 g\4> c\5 <\deadNote b\3 e\4~ e'\2~> |
+    <e'\2 e\4>8 <e'\2 \deadNote b\3 e\4> <e\4 e'\2 \deadNote b\3> <e'\2 e\4 \deadNote b\3> \tuplet 3/2 { <\deadNote b\3 e'\2 e\4>4 <e'\2 \deadNote b\3 e\4> <\deadNote b\3 e\4 e'\2> } |
     <c'\3 f\4 f'\2>4 <f'\2 f\4 c'\3> f8\4 <c'\3 f'\2 f\4> f\4 <f\4 f'\2 c'\3>~ |
     <c'\3 f\4 f'\2>8 <f\4 c'\3 f'\2>4. <f'\2 f\4 c'\3>4 <dis\4 dis'\2 ais\3> |
     <d\5 gis\4 d'\3>2 <c\5 g\4 c'\3>4. <f\4 b\3 b,\5>8~ |

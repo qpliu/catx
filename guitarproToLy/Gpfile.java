@@ -203,7 +203,7 @@ class Gpfile extends Gpinput{
 	    vibrato = new boolean[x.length];
 	    for (int i=0; i<x.length; i++){
 		x[i] = readInt()*12./60;
-		y[i] = readInt()/25.;
+		y[i] = readInt()/100.;
 		vibrato[i] = readBoolean();
 	    }
 	    return this;

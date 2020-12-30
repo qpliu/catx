@@ -47,8 +47,8 @@ midiOne = {
     <b' b b,>2 <f' d f''>4. <dis'' dis' c>8~ |
     <dis'' dis' c>2. r4 |
     <f'' f f, f'>2. r8 <f f, f'' f'>~ |
-    <f' f f'' f,>4 <e, e'' e' e> <f'' f' f, f> r8 <g g' g'' g,>~ |
-    <g' g g'' g,>2. r8 <d''' d d'' d'>~ |
+    <f' f f'' f,>4 <e, e'' e' e> <f'' f' f, f> r8 <g g' \parenthesize g'' g,>~ |
+    <g' g \parenthesize g'' g,>2. r8 <d''' d d'' d'>~ |
     <d'' d' d''' d>8 <d' d d''' d''> <c''' c'' c' c> <b'' b' b b,> <b b'' b' b,> <b, b b'' b'> <e'' e''' e' e> <b b, b'' b'> |
 \mymark "Chorus 1B" #47
     <c'' c''' c c'>8 r2. r8 |
@@ -118,8 +118,8 @@ midiOne = {
     <b' b b,>2 <f' d f''>4. <dis'' dis' c>8~ |
     <dis'' dis' c>2. r4 |
     <f'' f' f, f>2. r8 <f' f f, f''>~ |
-    <f'' f' f, f>4 <e, e'' e' e> <f'' f' f, f> r8 <g' g'' g g,>~ |
-    <g'' g' g g,>2. r8 <d d' d''' d''>~ |
+    <f'' f' f, f>4 <e, e'' e' e> <f'' f' f, f> r8 <g' \parenthesize g'' g g,>~ |
+    <\parenthesize g'' g' g g,>2. r8 <d d' d''' d''>~ |
     <d''' d'' d d'>8 <d' d d''' d''> <c''' c'' c' c> <b'' b' b b,> <b b'' b' b,> <b'' b, b b'> <e'' e''' e' e> <b'' b, b b'> |
 \mymark "Chorus 2B" #112
     <c''' c c' c''>8 r2. r8 |
@@ -193,8 +193,8 @@ midiOne = {
     <b b, b'>2 <d f'' f'>4. <c dis' dis''>8~ |
     <dis' c dis''>2. r4 |
     <f f' f'' f,>2. r8 <f' f, f f''>~ |
-    <f'' f' f f,>4 <e'' e, e e'> <f'' f, f f'> r8 <g, g g'' g'>~ |
-    <g g, g'' g'>2. r8 <d' d d'' d'''>~ |
+    <f'' f' f f,>4 <e'' e, e e'> <f'' f, f f'> r8 <g, g \parenthesize g'' g'>~ |
+    <g g, \parenthesize g'' g'>2. r8 <d' d d'' d'''>~ |
     <d' d''' d d''>8 <d d'' d''' d'> <c'' c c''' c'> <b'' b' b, b> <b'' b' b b,> <b'' b, b b'> <e'' e''' e e'> <b' b b'' b,> |
 \mymark "Chorus 3B" #182
     <c c'' c''' c'>8 r2. r8 |

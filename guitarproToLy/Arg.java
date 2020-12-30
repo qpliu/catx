@@ -12,7 +12,6 @@ final class Arg implements Cloneable{
     boolean output_karaoke;
     boolean output_lyrics;
     boolean output_text;
-    boolean no_ghost_notes;
     boolean string_numbers;
     Rational shift=Rational.ZERO;
     String instrument_name;
