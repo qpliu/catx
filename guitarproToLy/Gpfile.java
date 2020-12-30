@@ -1,9 +1,9 @@
 import java.io.*;
 import java.util.*;
 
-class Gpfile{
+class Gpfile extends Gpinput{
     final Arg arg;
-    final DataInputStream is;
+    int version;
     String artist;
     String title;
     Measure[]measures;
@@ -31,9 +31,83 @@ class Gpfile{
 	    return sb.toString();
 	}
     }
-    static class Chord{
+    class Chord{
 	String name;
 	String ly;
+	Chord read(Track track)throws IOException{
+	    if (!readBoolean())
+		readChord3f(track);
+	    else if (version<400)
+		readChord3t(track);
+	    else
+		readChord4(track);
+	    return this;
+	}
+	private void readChord3f(Track track)throws IOException{
+	    name = readIntSizeBlob().toByteSizeString();
+	    readChordNotes(track,6);
+	}
+	private void readChord3t(Track track)throws IOException{
+	    boolean sharp=readBoolean();
+	    readBlob(3);
+	    int root=readInt();
+	    int type=readInt();
+	    int extension=readInt();
+	    int bass=readInt();
+	    int tonality=readInt();
+	    boolean add=readBoolean();
+	    name = readBlob(23).toByteSizeString();
+	    int fifth=readInt();
+	    int ninth=readInt();
+	    int eleventh=readInt();
+	    readChordNotes(track,6);
+	    int barresCount=readInt();
+	    Blob barreFrets=readBlob(8);
+	    Blob barreStarts=readBlob(8);
+	    Blob barreEnds=readBlob(8);
+	    Blob omissions=readBlob(7);
+	    readByte();
+	}
+	private void readChord4(Track track)throws IOException{
+	    boolean sharp=readBoolean();
+	    readBlob(3);
+	    int root=readByte();
+	    int type=readByte();
+	    int extension=readByte();
+	    int bass=readInt();
+	    int tonality=readInt();
+	    boolean add=readBoolean();
+	    name = readBlob(23).toByteSizeString();
+	    int fifth=readByte();
+	    int ninth=readByte();
+	    int eleventh=readByte();
+	    readChordNotes(track,7);
+	    int barresCount=readByte();
+	    Blob barreFrets=readBlob(5);
+	    Blob barreStarts=readBlob(5);
+	    Blob barreEnds=readBlob(5);
+	    Blob omissions=readBlob(7);
+	    readByte();
+	    Blob fingerings=readBlob(7);
+	    boolean show=readBoolean();
+	}
+	private void readChordNotes(Track track,int stringCount)throws IOException{
+	    List<Integer>l=new ArrayList<Integer>();
+	    int firstFret=readInt();
+	    if (firstFret!=0)
+		for (int i=0; i<stringCount; i++){
+		    int fret=readInt();
+		    if (fret>=0)
+			l.add(track.tuning[i]+fret);
+		}
+	    Collections.sort(l);
+	    if (l.size()==0)
+		return;
+	    StringBuilder sb=new StringBuilder();
+	    for (Integer i:l)
+		sb.append(' ').append(Stuff.midi2ly(i,arg));
+	    ly = "<"+sb.append(">").substring(1);
+	}
     }
     static class Event implements Comparable<Event>,Cloneable{
 	Rational time;
@@ -90,19 +164,59 @@ class Gpfile{
 	    super(time,duration);
 	}
     }
-    static class Slide{
+    class Slide{
 	int type;
+	Slide read()throws IOException{
+	    if (version>=400)
+		type = readByte();
+	    return this;
+	}
     }
-    static class GraceNote{
+    class GraceNote{
 	int fret;
 	int velocity;
 	int duration;
 	int transition;
+	GraceNote read()throws IOException{
+	    fret = readByte();
+	    velocity = readByte();
+	    if (version>=500){
+		transition = readByte();
+		duration = readByte();
+		int bits=readByte();
+	    }else{
+		duration = readByte();
+		transition = readByte();
+	    }
+	    return this;
+	}
     }
-    static class Bend{
-	double[]xy;
+    class Bend{
+	double[]x;
+	double[]y;
+	boolean[]vibrato;
+	Bend read()throws IOException{
+	    int type=readByte();
+	    int value=readInt();
+	    x = new double[readInt()];
+	    y = new double[x.length];
+	    vibrato = new boolean[x.length];
+	    for (int i=0; i<x.length; i++){
+		x[i] = readInt()*12./60;
+		y[i] = readInt()/25.;
+		vibrato[i] = readBoolean();
+	    }
+	    return this;
+	}
+	Bend readTremoloBar()throws IOException{
+	    int value=readInt();
+	    x = new double[]{0,0,.5,-value/25.,1,0};
+	    y = new double[]{0,0,.5,-value/25.,1,0};
+	    vibrato = new boolean[3];
+	    return this;
+	}
     }
-    static class BeatEffects{
+    class BeatEffects{
 	boolean vibrato;
 	boolean wideVibrato;
 	boolean fadeIn;
@@ -113,10 +227,51 @@ class Gpfile{
 	boolean artificialHarmonic;
 	boolean hasRasgueado;
 	int pickStroke;
+	BeatEffects read()throws IOException{
+	    if (version<400)
+		readBeatEffects3();
+	    else
+		readBeatEffects4();
+	    return this;
+	}
+	private void readBeatEffects3()throws IOException{
+	    int bits=readByte();
+	    vibrato = (bits&1)!=0;
+	    wideVibrato = (bits&2)!=0;
+	    fadeIn = (bits&16)!=0;
+	    if ((bits&32)!=0){
+		slapEffect = readByte();
+		tremoloBar = new Bend().readTremoloBar();
+	    }
+	    if ((bits&64)!=0)
+		beatStroke = new BeatStroke().read();
+	    natrualHarmonic = (bits&4)!=0;
+	    artificialHarmonic = (bits&8)!=0;
+	}
+	private void readBeatEffects4()throws IOException{
+	    int bits0=readByte();
+	    int bits1=readByte();
+	    wideVibrato = (bits0&2)!=0;
+	    fadeIn = (bits0&16)!=0;
+	    if ((bits0&32)!=0)
+		slapEffect = readByte();
+	    if ((bits1&4)!=0)
+		tremoloBar = new Bend().read();
+	    if ((bits0&64)!=0)
+		beatStroke = new BeatStroke().read();
+	    hasRasgueado = (bits1&1)!=0;
+	    if ((bits1&2)!=0)
+		pickStroke = readByte();
+	}
     }
-    static class BeatStroke{
+    class BeatStroke{
 	int strokeDown;
 	int strokeUp;
+	BeatStroke read()throws IOException{
+	    strokeDown = readByte();
+	    strokeUp = readByte();
+	    return this;
+	}
     }
     static class Track{
 	int index;
@@ -136,49 +291,8 @@ class Gpfile{
 	    return sb.toString();
 	}
     }
-    static final class Blob{
-	final byte[]b;
-	Blob(byte[]b){
-	    this.b = b;
-	}
-	String toByteSizeString()throws IOException{
-	    return new String(b,1,b[0]&255);
-	}
-	@Override public String toString(){
-	    return new String(b);
-	}
-    }
-    final boolean readBoolean()throws IOException{
-	return is.readByte()!=0;
-    }
-    final int readInt()throws IOException{
-	return Integer.reverseBytes(is.readInt());
-    }
-    final int readShort()throws IOException{
-	return Short.reverseBytes(is.readShort());
-    }
-    final Blob readBlob(int size)throws IOException{
-	byte[]b=new byte[size];
-	is.readFully(b);
-	return new Blob(b);
-    }
-    final Blob readIntSizeBlob()throws IOException{
-	return readBlob(readInt());
-    }
-    Gpfile(DataInputStream is,Arg arg)throws IOException{
-	this.is = is;
+    Gpfile(DataInputStream is,Arg arg){
+	super(is);
 	this.arg = arg;
-    }
-    void dumpIs()throws IOException{
-	StringBuilder sb=new StringBuilder();
-	StringBuilder sba=new StringBuilder();
-	for (int i=0; i<32; i++){
-	    int j=is.read();
-	    if (j==-1)
-		break;
-	    sb.append(String.format(" %02x",j));
-	    sba.append(j>=' ' && j<='~'?(char)j:'.');
-	}
-	Log.error("dumpIs %s %s",sb,sba);
     }
 }
