@@ -8,6 +8,7 @@
 \include "markup"
 \include "vocals"
 \include "lyrics"
+\include "karaoke"
 \include "guitar"
 \include "bass"
 \include "drums"
@@ -81,5 +82,6 @@ midimusic = <<
 	midiInstrument = #"flute" % 73
     } <<
 	\vocals
+        \klyrics
     >>
 >>
