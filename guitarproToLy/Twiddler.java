@@ -11,6 +11,7 @@ final class Twiddler{
 	for (Gpfile.Track track:gpfile.tracks){
 	    joinTies(track);
 	    makeSlide(track);
+	    makeBend(track);
 	}
     }
     private void joinTies(Gpfile.Track track){
@@ -67,5 +68,23 @@ final class Twiddler{
 		}
 		track.events.add(new Gpfile.DotextEvent(ne.time,slideEnd.subtract(ne.time),"slide"+count));
 	    }
+    }
+    private void makeBend(Gpfile.Track track){
+	List<Gpfile.Event>newEvents=new ArrayList<Gpfile.Event>();
+	for (Gpfile.Event e:track.events)
+	    if (e instanceof Gpfile.NoteEvent){
+		Gpfile.NoteEvent ne=(Gpfile.NoteEvent)e;
+		if (ne.bend!=null){
+		    StringBuilder sb=new StringBuilder();
+		    sb.append(".(").append(Stuff.midi2ly(ne.getNote(),arg)).append(")bendSongsterr");
+		    for (int i=0; i<ne.bend.x.length; i++){
+			if (i!=0)
+			    sb.append(':');
+			sb.append(ne.bend.x[i]).append(':').append(ne.bend.y[i]);
+		    }
+		    newEvents.add(new Gpfile.DotextEvent(ne.time,ne.duration,sb.toString()));
+		}
+	    }
+	track.events.addAll(newEvents);
     }
 }

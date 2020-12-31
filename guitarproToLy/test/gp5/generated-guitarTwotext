@@ -31,8 +31,8 @@ guitarTwoText =
     \skip2. |
     \skip2. |
     \skip2. |
-    \skip1 |
-    \skip1 |
+    \skip4 `.(dis'')bendSongsterr0:0:10:0:15:0:27:100:40:0:45:0:60:0`8. \skip2 \skip16 |
+    \skip2 `.(gis')bendSongsterr0:0:15:100:60:100`16 \skip4. \skip16 |
     \skip1 |
 \mymark "Chorus 1A" #31
     \skip1 |
@@ -59,9 +59,9 @@ guitarTwoText =
     \skip1 |
     \skip1 |
     \skip1 |
+    \skip8 `.(ais'')bendSongsterr0:0:5:100:15:100:60:100`4. `.(ais'')bendSongsterr0:100:60:100`4 `.(ais'')bendSongsterr0:0:15:100:30:100:45:0:60:0` |
     \skip1 |
-    \skip1 |
-    \skip1 |
+    \skip8 `.(c''')bendSongsterr0:0:5:100:15:100:60:100`4. `.(c''')bendSongsterr0:100:60:100`4 `.(c''')bendSongsterr0:0:15:100:30:100:45:0:60:0` |
     \skip2 `slide2`4 \skip4 |
     \skip1 |
     \skip1 |
@@ -78,7 +78,7 @@ guitarTwoText =
     \skip1 |
     \skip1 |
     \skip1 |
-    `slide2`8 \skip2. \skip8 |
+    `slide2`8 \skip4. `.(b'')bendSongsterr0:0:10:25:20:0:25:25:40:25:60:25`2 |
 \mymark "Verse 2A" #73
     \skip1 |
     \skip1 |
@@ -102,7 +102,7 @@ guitarTwoText =
     \skip2. |
     `slide2`4. \skip4. |
     \skip2. |
-    \skip1 |
+    \skip4 `.(dis'')bendSongsterr0:0:10:0:15:0:27:100:40:0:45:0:60:0`8. \skip2 \skip16 |
     \skip1 |
     \skip1 |
 \mymark "Chorus 2A" #96
@@ -128,19 +128,19 @@ guitarTwoText =
     \skip1 |
     \skip1 |
     \skip1 |
+    \skip2 `.(e'')bendSongsterr0:0:20:50:45:0:60:0`4 \skip4 |
     \skip1 |
+    \skip8 `.(ais'')bendSongsterr0:0:5:100:15:100:60:100`4. `.(ais'')bendSongsterr0:100:60:100`4 `.(ais'')bendSongsterr0:0:15:100:30:100:45:0:60:0` |
     \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    \skip8 `.(c''')bendSongsterr0:0:5:100:15:100:60:100`4. `.(c''')bendSongsterr0:100:60:100`4 `.(c''')bendSongsterr0:0:15:100:30:100:45:0:60:0` |
     \skip2 `slide2`4 \skip4 |
     \skip1 |
     \skip1 |
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip1 |
-    \skip1 |
+    \skip2. `.(c'')bendSongsterr0:0:5:100:10:0:15:100:60:100`4 |
+    `.(c'')bendSongsterr0:0:5:100:10:0:15:100:60:100`1 |
 \mymark "Bridge" #130
     \skip1 |
     \skip1 |
@@ -214,10 +214,10 @@ guitarTwoText =
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip1 |
-    \skip1 |
+    \skip2. `.(c'')bendSongsterr0:0:5:100:10:0:15:100:60:100`4 |
+    `.(c'')bendSongsterr0:0:5:100:10:0:15:100:60:100`1 |
 \mymark "Ending" #200
-    \skip1 |
+    `.(c'')bendSongsterr0:0:5:100:10:0:15:100:60:100`8 \skip2. \skip8 |
     \skip1 |
     \skip1 |
     \skip1 |

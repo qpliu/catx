@@ -107,18 +107,26 @@ final class LyTrackFileMaker extends SuperTrackFileMaker{
 	if (is_slide)
 	    suffix_rhs.append("\\glissando");
 	if (bend!=null){
-	    double peak=0;
+	    int peak=0;
 	    for (int i=0; i<bend.y.length; i++)
 		if (Math.abs(bend.y[i])>Math.abs(peak))
 		    peak = bend.y[i];
-	    if (peak>.87)
+	    if (peak>87)
 		suffix_rhs.append("\\bendAfter #6 ^\"full\"");
-	    else if (peak>.62)
-		suffix_rhs.append("\\bendAfter #6 ^\"¾\"");
-	    else if (peak>.37)
-		suffix_rhs.append("\\bendAfter #6 ^\"½\"");
-	    else if (peak>.12)
-		suffix_rhs.append("\\bendAfter #6 ^\"¼\"");
+	    else if (peak>62)
+		suffix_rhs.append("\\bendAfter #6 ^\"\u00be\"");
+	    else if (peak>37)
+		suffix_rhs.append("\\bendAfter #6 ^\"\u00bd\"");
+	    else if (peak>12)
+		suffix_rhs.append("\\bendAfter #6 ^\"\u00bc\"");
+	    if (peak<-87)
+		suffix_rhs.append("\\bendAfter #-6 _\"full\"");
+	    else if (peak<-62)
+		suffix_rhs.append("\\bendAfter #-6 _\"\u00be\"");
+	    else if (peak<-37)
+		suffix_rhs.append("\\bendAfter #-6 _\"\u00bd\"");
+	    else if (peak<-12)
+		suffix_rhs.append("\\bendAfter #-6 _\"\u00bc\"");
 	}
 	last_hammer = is_hammer;
 	return new MeasureMaker.GetWhatSuffix(){
@@ -131,6 +139,6 @@ final class LyTrackFileMaker extends SuperTrackFileMaker{
 	};
     }
     String noteEventToLy(Gpfile.NoteEvent ne){
-	return Stuff.midi2ly(track.tuning[ne.string]+ne.fret,arg);
+	return Stuff.midi2ly(ne.getNote(),arg);
     }
 }

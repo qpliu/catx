@@ -302,7 +302,7 @@ final class Gp5file extends Gpfile{
 		int stringBits=readUnsignedByte();
 		for (int string=0; string<7; string++)
 		    if ((stringBits&64>>string)!=0){
-			NoteEvent e=new NoteEvent(time,duration);
+			NoteEvent e=new NoteEvent(track,time,duration);
 			e.string = string;
 			e.beatEffects = beatEffects;
 			readNoteBits(e);

@@ -139,8 +139,8 @@ midiThreeText =
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip1 |
-    \skip1 |
+    \skip2. `.(f')bendSongsterr0:0:5:100:10:0:15:100:60:100`4 |
+    `.(f')bendSongsterr0:0:5:100:10:0:15:100:60:100`1 |
 \mymark "Bridge" #130
     \skip1 |
     \skip1 |
@@ -214,10 +214,10 @@ midiThreeText =
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip1 |
-    \skip1 |
+    \skip2. `.(f')bendSongsterr0:0:5:100:10:0:15:100:60:100`4 |
+    `.(f')bendSongsterr0:0:5:100:10:0:15:100:60:100`1 |
 \mymark "Ending" #200
-    \skip1 |
+    `.(f')bendSongsterr0:0:5:100:10:0:15:100:60:100`8 \skip2. \skip8 |
     \skip1 |
     \skip1 |
     \skip1 |

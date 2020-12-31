@@ -101,7 +101,7 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
 		sb.append('<');
 	    for (int i=0; i<l.size(); i++){
 		Gpfile.NoteEvent ne2=l.get(i);
-		Drum drum=drumMap.get(track.tuning[ne2.string]+ne2.fret);
+		Drum drum=drumMap.get(ne2.getNote());
 		sb.append(i==0?"":" ").append(drum.name);
 	    }
 	    if (l.size()>1)
@@ -132,7 +132,7 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
 	    for (Gpfile.Event e:events)
 		if (e instanceof Gpfile.NoteEvent){
 		    Gpfile.NoteEvent ne=(Gpfile.NoteEvent)e;
-		    Drum drum=drumMap.get(track.tuning[ne.string]+ne.fret);
+		    Drum drum=drumMap.get(ne.getNote());
 		    if (drum!=null && drum.voice==voice)
 			q.add(ne);
 		} 

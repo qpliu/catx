@@ -151,6 +151,7 @@ class Gpfile extends Gpinput{
 	}
     }
     static class NoteEvent extends Event{
+	final Track track;
 	boolean is_ghost;
 	boolean is_rest;
 	boolean is_tie;
@@ -167,8 +168,12 @@ class Gpfile extends Gpinput{
 	BeatEffects beatEffects;
 	GraceNote graceNote;
 	Slide slide;
-	NoteEvent(Rational time,Rational duration){
+	NoteEvent(Track track,Rational time,Rational duration){
 	    super(time,duration);
+	    this.track = track;
+	}
+	final int getNote(){
+	    return track.tuning[string]+fret;
 	}
     }
     class Slide{
@@ -199,26 +204,26 @@ class Gpfile extends Gpinput{
 	}
     }
     class Bend{
-	double[]x;
-	double[]y;
+	int[]x;
+	int[]y;
 	boolean[]vibrato;
 	Bend read()throws IOException{
 	    int type=readByte();
 	    int value=readInt();
-	    x = new double[readInt()];
-	    y = new double[x.length];
+	    x = new int[readInt()];
+	    y = new int[x.length];
 	    vibrato = new boolean[x.length];
 	    for (int i=0; i<x.length; i++){
-		x[i] = readInt()*12./60;
-		y[i] = readInt()/100.;
+		x[i] = readInt();
+		y[i] = readInt();
 		vibrato[i] = readBoolean();
 	    }
 	    return this;
 	}
 	Bend readTremoloBar()throws IOException{
 	    int value=readInt();
-	    x = new double[]{0,0,.5,-value/25.,1,0};
-	    y = new double[]{0,0,.5,-value/25.,1,0};
+	    x = new int[]{0,0,30,-value,60,0};
+	    y = new int[]{0,0,30,-value,60,0};
 	    vibrato = new boolean[3];
 	    return this;
 	}

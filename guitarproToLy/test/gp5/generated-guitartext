@@ -31,7 +31,7 @@ guitarText =
     \skip2. |
     \skip2. |
     \skip2. |
-    \skip1 |
+    \skip2. `.(dis')bendSongsterr0:0:30:0:35:100:60:100`8 \skip8 |
     \skip1 |
     \skip1 |
 \mymark "Chorus 1A" #31
@@ -102,7 +102,7 @@ guitarText =
     \skip2. |
     \skip2. |
     \skip2. |
-    \skip1 |
+    \skip2. `.(dis')bendSongsterr0:0:30:0:35:100:60:100`8 \skip8 |
     \skip1 |
     \skip1 |
 \mymark "Chorus 2A" #96
@@ -125,6 +125,8 @@ guitarText =
 \mymark "Chorus 2B" #112
     \skip1 |
     \skip1 |
+    \skip4. `.(f'')bendSongsterr0:0:3:0:5:100:8:0:11:100:15:100:60:100`2~ `.(f'')bendSongsterr0:0:3:0:5:100:8:0:11:100:15:100:60:100`8 |
+    `.(f'')bendSongsterr0:0:3:0:5:100:8:0:11:100:15:100:60:100`1 |
     \skip1 |
     \skip1 |
     \skip1 |
@@ -137,10 +139,8 @@ guitarText =
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip4. `slide2`4 \skip4. |
-    \skip1 |
+    \skip4. `slide2`4 \skip8 `.(f'')bendSongsterr0:0:5:100:10:0:15:100:20:100:60:100`4 |
+    `.(f'')bendSongsterr0:0:5:100:10:0:15:100:20:100:60:100`1 |
 \mymark "Bridge" #130
     \skip1 |
     \skip1 |
@@ -155,16 +155,16 @@ guitarText =
 \mymark "Guitar Solo" #140
     \skip1 |
     \skip1 |
-    \skip1 |
+    `.(g'')bendSongsterr0:0:15:50:60:50`4. \skip2 \skip8 |
     \skip2. \skip8 `slide2`8 |
     `slide2`8 \skip4 `slide2`4 \skip8 `slide2`4 |
+    \skip2. `.(c''')bendSongsterr0:50:15:50:60:0`4 |
     \skip1 |
     \skip1 |
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip1 |
-    \skip1 |
+    \skip8 `.(b')bendSongsterr0:0:4:0:8:50:15:50:22:0:25:50:30:50:60:50`2. \skip8 |
     \skip1 |
     \skip1 |
     \skip1 |
@@ -183,41 +183,41 @@ guitarText =
 \mymark "Chorus 3A" #166
     `slide2`2.~ `slide2`8 \skip8 |
     \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip2. `slide1`8 \skip8 |
-    \skip1 |
-    \skip2 `slide1`8 \skip4. |
+    `.(gis'')bendSongsterr0:0:15:100:30:100:60:100`1 |
+    `.(ais'')bendSongsterr0:0:15:100:60:100`4 \skip2. |
+    \skip4 `.(ais'')bendSongsterr0:100:7:0:10:0:20:100:30:100:60:100`2. |
+    `.(ais'')bendSongsterr0:100:7:0:10:0:20:100:30:100:60:100`2.~ `.(ais'')bendSongsterr0:100:7:0:10:0:20:100:30:100:60:100`8 \skip8 |
+    `.(g'')bendSongsterr0:0:20:50:30:0:39:50:50:0:60:0`2. \skip4 |
+    `.(c'')bendSongsterr0:0:20:0:30:100:38:0:45:100:52:0:55:100:60:100`2~ `.(c'')bendSongsterr0:0:20:0:30:100:38:0:45:100:52:0:55:100:60:100`8 \skip8 `slide1`8 \skip8 |
+    \skip2. \skip8 `.(d'')bendSongsterr0:0:5:0:15:50:23:0:29:50:35:0:39:50:45:0:50:50:55:0:60:50`8 |
+    `.(d'')bendSongsterr0:0:5:0:15:50:23:0:29:50:35:0:39:50:45:0:50:50:55:0:60:50`4. \skip8 `slide1`8 \skip4. |
     \skip2. `slide3`4 |
     `slide3`2 `slide2`4 `slide2` |
     \skip1 |
     \skip2. \skip8 `slide2`8 |
     `slide2`32 \skip2. \skip8. \skip32 |
-    \tuplet 3/2 { \skip8. \skip64 `slide2`8~ } `slide2`32 \skip4 \skip16. `slide2`16. \skip4 \skip16 |
+    \tuplet 3/2 { \skip8. \skip64 `slide2`8~ } `slide2`32 \skip4 \skip16. `slide2`16. \skip16. `.(ais'')bendSongsterr0:0:15:100:60:100`8.~ `.(ais'')bendSongsterr0:0:15:100:60:100`32 |
 \mymark "Chorus 3B" #182
+    `.(ais'')bendSongsterr0:0:15:100:60:100`2. `.(c''')bendSongsterr0:0:15:100:48:100:60:150`4 |
+    `.(c''')bendSongsterr0:0:15:100:48:100:60:150`1 |
+    `.(c''')bendSongsterr0:150:60:150`1 |
+    `.(c''')bendSongsterr0:150:60:150`2. \skip4 |
     \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    \skip2. \skip8. `.(gis')bendSongsterr0:0:15:100:60:100`16 |
+    `.(gis')bendSongsterr0:0:15:100:60:100`2~ `.(gis')bendSongsterr0:0:15:100:60:100`8 \skip4. |
     \skip2. `slide2`4 |
     \skip1 |
     \skip2 `slide3`4.~ `slide3`16 \skip16 |
     \skip1 |
     \skip1 |
-    \skip1 |
+    `.(a'')bendSongsterr0:50:3:50:10:0:20:50:60:50`4. \skip2 \skip8 |
     \skip4. `slide2`8. \skip4. \skip16 |
     \skip1 |
-    \skip1 |
-    \skip4. `slide2`4 \skip4. |
-    \skip1 |
+    `.(gis')bendSongsterr0:0:15:100:60:100`2 `.(a')bendSongsterr0:0:15:100:60:100`4. `.(ais')bendSongsterr0:0:15:100:60:100`8 |
+    `.(ais')bendSongsterr0:0:15:100:60:100`4 \skip8 `slide2`4 \skip8 `.(f'')bendSongsterr0:0:5:100:10:0:15:100:20:100:60:100`4 |
+    `.(f'')bendSongsterr0:0:5:100:10:0:15:100:20:100:60:100`1 |
 \mymark "Ending" #200
-    \skip1 |
+    `.(f'')bendSongsterr0:0:5:100:10:0:15:100:20:100:60:100`8 \skip2. \skip8 |
     \skip1 |
     \skip1 |
     \skip1 |
