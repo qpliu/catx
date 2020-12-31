@@ -75,9 +75,6 @@ midimusic = <<
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \vocals
-    \tag #'(midiTwo) \new Staff \with {
-	midiInstrument = #"distorted guitar"
-    } \rguitar
     \tag #'(midiKaraoke) \new Staff \with {
 	midiInstrument = #"flute" % 73
     } <<
