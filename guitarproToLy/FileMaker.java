@@ -1,6 +1,8 @@
 import java.io.*;
 
 class FileMaker{
+    static final String GENERATED_PREFIX="generated-";
+    final String original_filename;
     final String filename;
     final Main main;
     final PrintStream ps;
@@ -8,10 +10,16 @@ class FileMaker{
     FileMaker(Main main,String fn)throws IOException{
 	this(main,fn,"");
     }
-    FileMaker(Main main,String fn,String suffix)throws IOException{
+    FileMaker(Main main,String original_filename,String suffix)throws IOException{
 	this.main = main;
-	filename = "generated-"+fn;
-	ps = new PrintStream(new FileOutputStream(filename+suffix));
+	this.original_filename = original_filename;
+	if (main.globalarg.modified_filename.contains(original_filename)){
+	    filename = original_filename;
+	    ps = new PrintStream(OutputStream.nullOutputStream());
+	}else{
+	    filename = GENERATED_PREFIX+original_filename;
+	    ps = new PrintStream(new FileOutputStream(filename+suffix));
+	}
     }
     final void noindent(String s){
 	ps.println(s);

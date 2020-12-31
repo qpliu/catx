@@ -34,7 +34,8 @@ class SuperTrackFileMaker extends ChoppedTrackFileMaker{
     @Override final void midi(MusicFileMaker mfm)throws IOException{
 	if (arg.midi_who==null)
 	    return;
-	mfm.indent("\\tag #'("+arg.midi_who+") \\new "+getStaffType()+" = "+Stuff.quote(filename)+" \\with {");
+	String fn=main.globalarg.modified_filename.contains(original_filename+DotextFileMaker.FILENAME_SUFFIX)?original_filename:GENERATED_PREFIX+original_filename;
+	mfm.indent("\\tag #'("+arg.midi_who+") \\new "+getStaffType()+" = "+Stuff.quote(fn)+" \\with {");
 	if (this instanceof DrumTrackFileMaker)
 	    mfm.print("drumPitchTable = #(alist->hash-table midiDrumPitches)");
 	else{

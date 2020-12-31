@@ -2,12 +2,14 @@ import java.io.*;
 import java.util.*;
 
 final class DotextFileMaker extends ChoppedTrackFileMaker{
+    static final String FILENAME_SUFFIX="_dotext";
     DotextFileMaker(Main main,Arg arg)throws IOException{
-	super(main,arg,arg.name+"_dotext","",arg.name+"Dotext",Gpfile.DotextEvent.class,MeasureMaker.SKIP);
+	super(main,arg,arg.name+FILENAME_SUFFIX,"",arg.name+"Dotext",Gpfile.DotextEvent.class,MeasureMaker.SKIP);
     }
     @Override void midi(MusicFileMaker mfm)throws IOException{
+	String fn=main.globalarg.modified_filename.contains(original_filename)?original_filename:filename;
 	if (arg.midi_who!=null)
-	    mfm.print("\\tag #'("+arg.midi_who+") \\new "+getStaffType()+" = "+Stuff.quote(filename)+" \\"+lyname);
+	    mfm.print("\\tag #'("+arg.midi_who+") \\new "+getStaffType()+" = "+Stuff.quote(fn)+" \\"+lyname);
     }
     @Override void printInclude(FileMaker fm){
 	String done=filename.substring(0,filename.length()-7)+"_donetext";

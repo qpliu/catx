@@ -18,14 +18,16 @@ final class Arg implements Cloneable{
     Rational shift=Rational.ZERO;
     String instrument_name;
     String instrument_short_name;
-    ArrayList<String>layout_extra=new ArrayList<String>();
-    ArrayList<String>music_extra=new ArrayList<String>();
+    List<String>layout_extra=new ArrayList<String>();
+    List<String>music_extra=new ArrayList<String>();
+    Set<String>modified_filename=new HashSet<String>();
     @Override public Arg clone(){
 	try{
 	    Arg a=(Arg)super.clone();
 	    a.scale = a.scale.clone();
 	    a.layout_extra = new ArrayList<String>(a.layout_extra);
 	    a.music_extra = new ArrayList<String>(a.music_extra);
+	    a.modified_filename = new HashSet<String>(a.modified_filename);
 	    return a;
 	}catch (CloneNotSupportedException e){
 	    throw new RuntimeException(e);
