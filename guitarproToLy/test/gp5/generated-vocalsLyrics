@@ -154,7 +154,7 @@ vocalsLyrics = \new Lyrics \lyricmode {
 \mymark "Guitar Solo" #140
     "it's Marty so timing is a bit hard to get perfect"4 ""2. |
     ""2 " just know that he's playing slightly ahead of the"8. ""4 ""16 |
-    ""2 ""8 "beat"8 ""4 |
+    ""2 ""8 "beat" ""4 |
     ""1 |
     ""1 |
     ""1 |
@@ -163,9 +163,9 @@ vocalsLyrics = \new Lyrics \lyricmode {
     ""1 |
     ""1 |
     ""1 |
-    ""2. ""8 "middle harmony (3rds)"8 |
+    ""2. ""8 "middle harmony (3rds)" |
     ""1 |
-    ""2. ""8 "octave pedal"16 ""16 |
+    ""2. ""8 "octave pedal"16 "" |
     ""1 |
     ""1 |
 \mymark "Post Solo/Pre-Chorus 3" #156
@@ -180,7 +180,7 @@ vocalsLyrics = \new Lyrics \lyricmode {
     ""1 |
     "w/ wah"4 ""2. |
 \mymark "Chorus 3A" #166
-    "i tried my best..."2 ""2 |
+    "i tried my best..."2 "" |
     ""1 |
     ""1 |
     ""1 |

@@ -19,7 +19,7 @@ ln ../../java/* .
 javac -Xlint *.java
 cd ../..
 ln *.i *.wav timidity_extra_silence.cfg bin/src
-cp -r "$pwd"/* bin/src
+cp "$pwd"/* bin/src||true
 cd bin/src
 if test -x run_before
 then
@@ -42,11 +42,12 @@ do
 	../../synesthesia.py <"$a" >"$aa"
     fi
 done
-for a in *text
+for a in *_dotext
 do
     if test -f "$a"
     then
-	../../dotext.py <"$a" "${a}_"
+	b=`basename "$a" _dotext`
+	../../dotext.py "$b"
     fi
 done
 for a in *.mp3

@@ -1,8 +1,0 @@
-#!/bin/sh
-WHERE="https://www.songsterr.com/a/wsa/f2e38040f1ef8b3f9e3b137e651bff55-f2e38040f1ef8b3f9e3b137e651bff55-tab-s474965"
-
-java -jar ../../songsterrToLy/1.jar --name guitarPart --output-tabs "${WHERE}t0" >generated-guitartabs
-java -jar ../../songsterrToLy/1.jar --name stringsPart --output-tabs "${WHERE}t1" >generated-stringstabs
-java -jar ../../songsterrToLy/1.jar --name bassPart --output-tabs "${WHERE}t2" >generated-basstabs
-java -jar ../../songsterrToLy/1.jar --name drumsPart "${WHERE}t3" >generated-drumscolors
-java -jar ../../songsterrToLy/1.jar --name voPart --output-tabs "${WHERE}t4" >generated-votabs

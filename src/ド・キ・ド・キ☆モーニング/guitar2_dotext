@@ -1,0 +1,203 @@
+guitarTwoPartDotext = {
+% page 120 A
+    \barNumberCheck #1
+    `>dist=program29;volume.3`1 |
+    r1 | r1 | r1 |
+% page 121
+    r1 | r1 | r1 | r1 |
+% page 121.1 B
+    \barNumberCheck #9
+    r1 | r1 | r1 | r1 |
+% page 122
+    r1 | r1 | r1 |
+    r2 `bend6:90:-1:360`2 |
+% page 122.1 C
+    \barNumberCheck #17
+    {
+	s1 | s1 | s1 | s1 |
+    }
+% page 123
+    {
+	s1 | s1 | s1 | s1 |
+    }
+% page 123.1 D
+    \barNumberCheck #25
+    {
+	s1 | s1 | s1 | s1 |
+    }
+% page 124
+    {
+	s1 | s1 | s1 | s1 |
+    }
+% page 124.1 E
+    \barNumberCheck #33
+    {
+	s1 | s1 | s1 | s1 |
+    }
+% page 125
+    {
+	s1 | s1 | s1 | s1 |
+    }
+% page 125.1 F Stegno
+    \barNumberCheck #41
+    {
+	s1 | s1 | s1 |
+    }
+% page 126
+    {
+	s1 | s1 | s1 |
+    }
+% page 126.1
+    {
+	s1 | s1 |
+    }
+% G
+    \barNumberCheck #49
+    {
+	s1 |
+    }
+% page 127
+    {
+	s1 | s1 | s1 |
+    }
+% page 127.1
+    {
+	s1 | s1 |
+    }
+    r1 | r1 |
+% page 128 H
+    \barNumberCheck #57
+    {
+	s1 | s1 | s1 | s1 |
+    }
+% page 128.1
+    {
+	s1 | s1 | s1 | s1 |
+    }
+% page 129
+    {
+	s1 | s1 | s1 | s1 |
+    }
+% page 129.1
+    {
+	s1 | s1 | s1 |
+    }
+% to Coda
+    {
+	s1 |
+    }
+% page 130 I
+    \barNumberCheck #73
+    {
+	s1 | s1 | s1 | s1 |
+    }
+% page 130.1
+    {
+	s1 | s1 | s1 | s1 |
+    }
+% D.S.
+% page 125.1 F Stegno-2x
+    \barNumberCheck #81
+    {
+	s1 | s1 | s1 |
+    }
+% page 126-2x
+    {
+	s1 | s1 | s1 |
+    }
+% page 126.1-2x
+    {
+	s1 | s1 |
+    }
+% G-2x
+    \barNumberCheck #89
+    {
+	s1 |
+    }
+% page 127-2x
+    {
+	s1 | s1 | s1 |
+    }
+% page 127.1-2x
+    {
+	s1 | s1 |
+    }
+    r1 | r1 |
+% page 128 H-2x
+    \barNumberCheck #97
+    {
+	s1 | s1 | s1 | s1 |
+    }
+% page 128.1-2x
+    {
+	s1 | s1 | s1 | s1 |
+    }
+% page 129-2x
+    {
+	s1 | s1 | s1 | s1 |
+    }
+% page 129.1-2x
+    {
+	s1 | s1 | s1 |
+    }
+% to Coda
+% page 131
+    \barNumberCheck #112
+    {
+	s1 |
+    }
+% J
+    \barNumberCheck #113
+    {
+	s1 | s1 |
+    }
+% page 131.1
+    {
+	s1 | s1 |
+    }
+    r1 |
+% page 132
+    r1 | r1 |
+    r2 `bend6:90:-1:360`2 |
+% page 132.1 K
+    \barNumberCheck #121
+    {
+	s1 | s1 | s1 | s1 |
+    }
+% page 133
+    {
+	s1 | s1 |
+    }
+    r1 | r1 |
+% page 133.1 L
+    \barNumberCheck #129
+    {
+	s1 | s1 | s1 | s1 |
+    }
+% page 134
+    {
+	s1 | s1 | s1 | s1 |
+    }
+% page 134.1 M
+    \barNumberCheck #137
+    {
+	s1 | s1 | s1 | s1 |
+    }
+% page 135
+    {
+	s1 | s1 | s1 |
+    }
+% page 135.1
+    {
+	s1 | s1 | s1 |
+    }
+% page 136
+    {
+	s1 | s1 | s1 |
+    }
+% page 136.1
+    {
+	s1 | s1 | s1 |
+    }
+    \barNumberCheck #153
+}

@@ -47,7 +47,7 @@ final class MarkupFileMaker extends FileMaker{
 		@Override public String getSuffix(boolean is_lhs,boolean is_rhs){
 		    return is_lhs?suffix:"";
 		}
-	    },false);
+	    });
 	    print(mm.tail());
 	}
 	unindent("}");

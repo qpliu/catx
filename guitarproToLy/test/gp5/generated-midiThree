@@ -48,8 +48,8 @@ midiThree = {
     r1 |
     cis'8 gis cis' f' r cis' r gis |
     r8 f' r cis' f' r cis' r |
-    r8 d' b r <d' d''> <b' b> <d'' d'> <g' g''> |
-    r8 <g'' g'> <d'' d'> <b' b> <d'' d'> <b b'> <g' g> <d d'> |
+    r8 d' b r <d' d''> <b b'> <d' d''> <g' g''> |
+    r8 <g' g''> <d' d''> <b b'> <d' d''> <b b'> <g g'> <d d'> |
 \mymark "Chorus 1B" #47
     <c c'>8 r2 r8. <ais, ais>8 r16 |
     r1 |
@@ -69,14 +69,14 @@ midiThree = {
     r1 |
     r1 |
 \mymark "Interlude" #64
-    <c' f' gis>4\glissando r <c''' c''>8 <ais'' ais'> <gis'' gis'> <g' g''> |
-    <f' gis~ c'~ f'' f~>8 <gis'' gis~ c'~ f~ gis'> <c'' c''' gis~ c'~ f~> <f' f'' f~ gis~ c'~>16 <dis'' dis' f gis c'> <f~ gis~ d'' d~ d'>8 <f'' d~ f' f~ gis~> <ais'' gis f d ais'>4 |
-    <ais dis' g>4.~ <d' g~ d'' ais~ dis'~>16 <dis' dis'~ g~ dis'' ais~> <gis' ais~ gis'' dis'~ g~>8 <g' dis'~ g~ ais~ g''> <gis'' ais~ g~ dis'~ gis'> <g'' dis' g ais g'> |
-    <f'~ d f''~>8 <g f'~ f''~> <gis f' f''> <d~ g'' g'>16 <gis'' gis' d> <g, g'~ g''~>8 <f g'' g'> g4 |
+    <gis c' f'>4\glissando r <c'' c'''>8 <ais' ais''> <gis' gis''> <g' g''> |
+    <f' f'' f~ gis~ c'~>8 <gis' gis'' f~ gis~ c'~> <c'' c''' f~ gis~ c'~> <f' f'' f~ gis~ c'~>16 <dis' f dis'' gis c'> <d' d'' d~ f~ gis~>8 <f' f'' d~ f~ gis~> <d f ais' gis ais''>4 |
+    <g ais dis'>4.~ <d' d'' g~ ais~ dis'~>16 <dis' dis'' g~ ais~ dis'~> <gis' gis'' g~ ais~ dis'~>8 <g' g'' g~ ais~ dis'~> <gis' gis'' g~ ais~ dis'~> <g' g ais dis' g''> |
+    <d f'~ f''~>8 <g f'~ f''~> <f' gis f''> <g' g'' d~>16 <gis' d gis''> <g, g'~ g''~>8 <f g' g''> g4 |
     c8 g g c g c g c |
-    <f' gis~ c'~ f'' f~>8 <gis f c'>4~ <f' c'~ f~ f'' gis~>16 <dis'' dis' c' f gis> <gis~ d'' d' d~ f~>8 <f'' f~ f' gis~ d~> <ais' d gis f ais''>4 |
-    <ais g d'>4.~ <d'' d' ais~ g~ d'~>16 <dis' ais g dis'' d'> <gis'' gis~ gis' c'~ dis'~>4 <g'' dis' c' gis g'> |
-    <d' b gis>1 |
+    <f' f'' f~ gis~ c'~>8 <f gis c'>4~ <f' f'' f~ gis~ c'~>16 <dis' f gis c' dis''> <d' d'' d~ f~ gis~>8 <f' f'' d~ f~ gis~> <d f gis ais' ais''>4 |
+    <g ais d'>4.~ <d' d'' g~ ais~ d'~>16 <dis' g ais dis'' d'> <gis' gis'' gis~ c'~ dis'~>4 <g' gis c' dis' g''> |
+    <gis d' b>1 |
     r1 |
 \mymark "Verse 2A" #73
     \tuplet 3/2 { dis'8 dis' dis' } dis'8 r \tuplet 3/2 { f'8 f' f' } f'8 r |
@@ -119,10 +119,10 @@ midiThree = {
     r1 |
     cis'8 gis cis' f' r cis' r gis |
     r8 f' r cis' f' r cis' r |
-    r8 d' b r <d' d''> <b' b> <d'' d'> <g' g''> |
-    r8 <g' g''> <d' d''> <b' b> <d'' d'> <b' b> <g g'> <d d'> |
+    r8 d' b r <d' d''> <b b'> <d' d''> <g' g''> |
+    r8 <g' g''> <d' d''> <b b'> <d' d''> <b b'> <g g'> <d d'> |
 \mymark "Chorus 2B" #112
-    <c c'>8 r2 r8. <ais ais,>8 r16 |
+    <c c'>8 r2 r8. <ais, ais>8 r16 |
     r1 |
     dis'8 g' r ais' r g' r dis' |
     dis'8 r dis' g' ais' r dis' r |
@@ -141,16 +141,16 @@ midiThree = {
     r4. d'8 dis' r f'4~\bendAfter #6 ^"full" |
     f'1\bendAfter #6 ^"full" |
 \mymark "Bridge" #130
-    r16 <gis gis'> <ais ais'> r8 <gis' gis>16 <ais ais'> r8 <\parenthesize gis' gis>16 <\parenthesize ais' ais> r8 <\parenthesize gis' gis>16 <\parenthesize ais' ais> r |
-    <g g'>16 r8 <e' e>16 r <f f' g g'> <g g'> r <e e'> r <f f'> <g' g> r4 |
+    r16 <gis gis'> <ais ais'> r8 <gis gis'>16 <ais ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r |
+    <g g'>16 r8 <e e'>16 r <f g f' g'> <g g'> r <e e'> r <f f'> <g g'> r4 |
     r1 |
     r1 |
-    r16 <gis gis'> <ais' ais> r8 <gis' gis>16 <ais' ais> r8 <\parenthesize gis' gis>16 <ais \parenthesize ais'> r8 <\parenthesize gis' gis>16 <\parenthesize ais' ais> r |
-    <g g'>16 r8 <e' e>16 r <f f' g g'> <g g'> r <e' e> r <f f'> <g' g> r4 |
-    r16 <gis gis'> <ais' ais> r8 <gis' gis>16 <ais' ais> r8 <\parenthesize gis' gis>16 <ais \parenthesize ais'> r8 <\parenthesize gis' gis>16 <ais \parenthesize ais'> r |
-    <g g'>16 r8 <e' e>16 r <f f' g g'> <g' g> r <e e'> r <f f'> <g g'> r4 |
-    r16 <gis gis'> <ais ais'> r8 <gis' gis>16 <ais ais'> r8 <gis \parenthesize gis'>16 <\parenthesize ais' ais> r8 <gis \parenthesize gis'>16 <\parenthesize ais' ais> r |
-    <g' g>16 r8 <e e'>16 r <g f' f g'> <g g'> r <e e'> r <f' f> <g' g> r4 |
+    r16 <gis gis'> <ais ais'> r8 <gis gis'>16 <ais ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r |
+    <g g'>16 r8 <e e'>16 r <f g f' g'> <g g'> r <e e'> r <f f'> <g g'> r4 |
+    r16 <gis gis'> <ais ais'> r8 <gis gis'>16 <ais ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r |
+    <g g'>16 r8 <e e'>16 r <f g f' g'> <g g'> r <e e'> r <f f'> <g g'> r4 |
+    r16 <gis gis'> <ais ais'> r8 <gis gis'>16 <ais ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r |
+    <g g'>16 r8 <e e'>16 r <f g g' f'> <g g'> r <e e'> r <f f'> <g g'> r4 |
 \mymark "Guitar Solo" #140
     c'8 r c' g' r c' r ais |
     r8 ais ais f' r ais r4 |
@@ -169,12 +169,12 @@ midiThree = {
     gis8 r c' dis' r c' r4 |
     ais,16 ais, ais, ais, ais, ais, ais, ais, b, b, b, b, b, b, b, b, |
 \mymark "Post Solo/Pre-Chorus 3" #156
-    <c' gis gis, dis'>8 c f gis <ais f' d'> r4. |
-    <b g, g d'>8 d g ais <g c' dis'> r4. |
-    <gis c' f, f>8 c f gis <d' ais f'> r4. |
-    <dis, g ais>8 ais, f g <ais cis' g> g, ais, dis |
-    <gis, dis' c' gis>8 c f gis <d' ais f'> r4. |
-    <d' b b, f'>8 f gis c' <dis' c' g'> r4. |
+    <gis, gis c' dis'>8 c f gis <ais d' f'> r4. |
+    <g, g b d'>8 d g ais <g c' dis'> r4. |
+    <f, f gis c'>8 c f gis <ais d' f'> r4. |
+    <dis, g ais>8 ais, f g <g ais cis'> g, ais, dis |
+    <gis, gis c' dis'>8 c f gis <ais d' f'> r4. |
+    <b, b d' f'>8 f gis c' <c' dis' g'> r4. |
     r1 |
     r1 |
     r1 |
@@ -194,10 +194,10 @@ midiThree = {
     r1 |
     cis'8 gis cis' f' r cis' r gis |
     r8 f' r cis' f' r cis' r |
-    r8 d' b r <d' d''> <b b'> <d'' d'> <g' g''> |
-    r8 <g' g''> <d'' d'> <b' b> <d' d''> <b' b> <g g'> <d d'> |
+    r8 d' b r <d' d''> <b b'> <d' d''> <g' g''> |
+    r8 <g' g''> <d' d''> <b b'> <d' d''> <b b'> <g g'> <d d'> |
 \mymark "Chorus 3B" #182
-    <c c'>8 r2 r8. <ais ais,>8 r16 |
+    <c c'>8 r2 r8. <ais, ais>8 r16 |
     r1 |
     dis'8 g' r ais' r g' r dis' |
     dis'8 r dis' g' ais' r dis' r |
@@ -217,25 +217,25 @@ midiThree = {
     f'1~\bendAfter #6 ^"full" |
 \mymark "Ending" #200
     f'8\bendAfter #6 ^"full" r2. r8 |
-    <g c c' dis>1 |
-    <f' d f ais>1 |
-    <g' g dis ais>1 |
+    <c dis g c'>1 |
+    <d f ais f'>1 |
+    <dis g ais g'>1 |
     <dis g ais g'>1 |
     <c e g e'>1 |
-    <g~ g' c'~ e~>2 <ais' e c' g> |
-    <gis' c' f f'>1 |
-    <f~ f'~ gis' c'~>2 <gis' c' f' f> |
-    <f' d gis'>2 <g' c dis'> |
+    <g' e~ g~ c'~>2 <e g c' ais'> |
+    <f c' f' gis'>1 |
+    <gis' f~ c'~ f'~>2 <f c' f' gis'> |
+    <d f' gis'>2 <c dis' g'> |
     <b, d' f'>1 |
-    <g' g, b'>2 <f'' b' b,> |
-    <c'' c dis''>1 |
-    <cis'' cis f' gis'>1 |
-    <d' g' g b'>1 |
-    <gis' gis, c' gis>1 |
-    <ais, d' ais' ais>2 <b' b, d' b> |
+    <g, g' b'>2 <b, b' f''> |
+    <c c'' dis''>1 |
+    <cis f' gis' cis''>1 |
+    <g d' g' b'>1 |
+    <gis, gis c' gis'>1 |
+    <ais, ais d' ais'>2 <b, d' b b'> |
     r1 |
-    <c c'' g' e' c'>1~ |
-    <c''~ g'~ c'~ e'~ c>2 <g e'~ c'~ g'~ c''~> |
-    <c'' g' c e' c'>1~ |
-    <g' c' e' c'' c>1 |
+    <c c' e' g' c''>1~ |
+    <c c'~ e'~ g'~ c''~>2 <g c'~ e'~ g'~ c''~> |
+    <c c' e' g' c''>1~ |
+    <c c' e' g' c''>1 |
 }

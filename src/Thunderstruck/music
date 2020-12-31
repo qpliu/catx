@@ -15,7 +15,7 @@
 \include "drums"
 \include "vocals"
 \include "vocals2"
-\include "vocals2text_midi"
+\include "vocals2_donetext"
 \include "lyrics"
 \include "karaoke"
 
@@ -109,7 +109,7 @@ midimusic = <<
 	\vocals
 	\karaokeLyrics
     >>
-    \tag #'(midiKaraokeTwo) \new Staff = "vocals2text" \midivocalsTwoText
+    \tag #'(midiKaraokeTwo) \new Staff = "vocals2_dotext" \vocalsTwoDotext
     \tag #'(midiKaraokeTwo) \new Staff = "vocals2" \with {
 	midiInstrument = #"tenor sax"
     } \vocalsTwo

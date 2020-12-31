@@ -119,7 +119,8 @@ class Gpfile extends Gpinput{
 	    this.duration = duration;
 	}
 	@Override public int compareTo(Event e){
-	    return time.compareTo(e.time);
+	    int i=time.compareTo(e.time);
+	    return i==0?duration.compareTo(e.duration):i;
 	}
 	@Override public Event clone(){
 	    try{
@@ -174,6 +175,10 @@ class Gpfile extends Gpinput{
 	}
 	final int getNote(){
 	    return track.tuning[string]+fret;
+	}
+	@Override public int compareTo(Event e){
+	    int i=super.compareTo(e);
+	    return i==0&&e instanceof NoteEvent?Integer.compare(((NoteEvent)e).string,string):i;
 	}
     }
     class Slide{

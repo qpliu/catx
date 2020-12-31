@@ -57,39 +57,29 @@ midiDrumPitches.cym = dis % 51
 \include "lyrics"
 \include "karaoke"
 \include "key1"
-\include "key1text_lyrics"
-\include "key1text_midi"
+\include "key1_donetext"
 \include "key2"
-\include "key2text_lyrics"
-\include "key2text_midi"
+\include "key2_donetext"
 \include "key3"
-\include "key3text_lyrics"
-\include "key3text_midi"
+\include "key3_donetext"
 \include "key4"
-\include "key4text_lyrics"
-\include "key4text_midi"
+\include "key4_donetext"
 \include "eg1"
-\include "eg1text_lyrics"
-\include "eg1text_midi"
+\include "eg1_donetext"
 \include "eg2"
-\include "eg2text_lyrics"
-\include "eg2text_midi"
+\include "eg2_donetext"
 \include "eb"
 \include "perc"
-\include "perctext_lyrics"
-\include "perctext_midi"
+\include "perc_donetext"
 \include "drs"
 \include "markup2"
 \include "key5"
-\include "key5text_lyrics"
-\include "key5text_midi"
+\include "key5_donetext"
 \include "key6"
-\include "key6text_lyrics"
-\include "key6text_midi"
+\include "key6_donetext"
 \include "key7"
 \include "key8"
-\include "key8text_lyrics"
-\include "key8text_midi"
+\include "key8_donetext"
 
 layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     \tag #'systemOnePart \new ChordNames \mychords
@@ -114,7 +104,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\keyOnePart
-	\lyricskeyOneText
     >>
     \tag #'(systemOnePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Key.2" }
@@ -122,7 +111,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\keyTwoPart
-	\lyricskeyTwoText
     >>
     \tag #'(systemOnePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Key.3" }
@@ -130,7 +118,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\keyThreePart
-	\lyricskeyThreeText
     >>
     \tag #'(systemOnePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Key.4" }
@@ -138,7 +125,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\keyFourPart
-	\lyricskeyFourText
     >>
     \tag #'(systemOnePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "E.G.1" }
@@ -147,7 +133,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\clef "treble_8"
 	\egOnePart
-	\lyricsegOneText
     >>
     \tag #'(systemOnePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "E.G.2" }
@@ -156,7 +141,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\clef "treble_8"
 	\egTwoPart
-	\lyricsegTwoText
     >>
     \tag #'(systemOnePart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "E.B." }
@@ -173,7 +157,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\percPart
-	\lyricspercText
     >>
     \tag #'(systemOnePart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drs." }
@@ -189,7 +172,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupTwoStuff
 	\keyFivePart
-	\lyricskeyFiveText
     >>
     \tag #'(systemTwoPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Key.6" }
@@ -197,7 +179,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupTwoStuff
 	\keySixPart
-	\lyricskeySixText
     >>
     \tag #'(systemTwoPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Key.7" }
@@ -212,7 +193,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupTwoStuff
 	\keyEightPart
-	\lyricskeyEightText
     >>
 >>
 
@@ -228,24 +208,24 @@ midimusic = <<
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \choPart
-    \tag #'(midiOne) \new Staff = "key1text" \midikeyOneText
+    \tag #'(midiOne) \new Staff = "key1_dotext" \keyOnePartDotext
     \tag #'(midiOne) \new Staff = "key1" \keyOnePart
-    \tag #'(midiOne) \new Staff = "key2text" \midikeyTwoText
+    \tag #'(midiOne) \new Staff = "key2_dotext" \keyTwoPartDotext
     \tag #'(midiOne) \new Staff = "key2" \keyTwoPart
-    \tag #'(midiOne) \new Staff = "key3text" \midikeyThreeText
+    \tag #'(midiOne) \new Staff = "key3_dotext" \keyThreePartDotext
     \tag #'(midiOne) \new Staff = "key3" \keyThreePart
-    \tag #'(midiOne) \new Staff = "key4text" \midikeyFourText
+    \tag #'(midiOne) \new Staff = "key4_dotext" \keyFourPartDotext
     \tag #'(midiOne) \new Staff = "key4" \keyFourPart
-    \tag #'(midiPeter) \new Staff = "eg1text" \midiegOneText
+    \tag #'(midiPeter) \new Staff = "eg1_dotext" \egOnePartDotext
     \tag #'(midiPeter) \new Staff = "eg1" \egOnePart
-    \tag #'(midiPeter) \new Staff = "eg2text" \midiegTwoText
+    \tag #'(midiPeter) \new Staff = "eg2_dotext" \egTwoPartDotext
     \tag #'(midiPeter) \new Staff = "eg2" \egTwoPart
     \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #1
     } \ebPart
-    \tag #'(midiTwo) \new Staff = "perctext" \midipercText
+    \tag #'(midiTwo) \new Staff = "perc_dotext" \percPartDotext
     \tag #'(midiTwo) \new DrumStaff = "perc" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     }\percPart
@@ -254,16 +234,16 @@ midimusic = <<
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.7
     } \drsPart
-    \tag #'(midiTwo) \new Staff = "key5text" \midikeyFiveText
+    \tag #'(midiTwo) \new Staff = "key5_dotext" \keyFivePartDotext
     \tag #'(midiTwo) \new Staff = "key5" \keyFivePart
-    \tag #'(midiTwo) \new Staff = "key6text" \midikeySixText
+    \tag #'(midiTwo) \new Staff = "key6_dotext" \keySixPartDotext
     \tag #'(midiTwo) \new Staff = "key6" \keySixPart
     \tag #'(midiTwo) \new Staff \with {
 	midiInstrument = #"lead 1 (square)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.4
     } \keySevenPart
-    \tag #'(midiThree) \new Staff = "key8text" \midikeyEightText
+    \tag #'(midiThree) \new Staff = "key8_dotext" \keyEightPartDotext
     \tag #'(midiThree) \new Staff = "key8" \keyEightPart
     \tag #'(midiKaraoke) \new Staff \with {
 	midiInstrument = #"flute" % 73

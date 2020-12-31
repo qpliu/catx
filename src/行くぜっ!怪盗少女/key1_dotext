@@ -1,0 +1,162 @@
+keyOnePartDotext = {
+% page 2
+    r1 |
+% A
+    \barNumberCheck #2
+    `>polysynthone=program88;volume.2`1 | % Poly Synth.1
+    r1 | r1 |
+% page 3
+    r1 | r1 | r1 | r1 |
+% page 3.1
+    `>stringshit=program55;volume.5`1 | % Strings Hit
+% B
+    \barNumberCheck #10
+    `>polysynthone`1 | % Poly Synth.1
+    r1 | r1 |
+% page 4
+    r1 | r1 | r1 | r1 |
+% page 4.1
+    r1 |
+% C
+    \barNumberCheck #18
+    r1 | r1 | r1 |
+% page 5
+    r1 | r1 | r1 | r1 |
+% page 5.1
+    r1 |
+% D Stegno1
+    \barNumberCheck #26
+    `>stringshit`1 | % Orche.Hit
+    `>pizzicatostrings=program45;volume.3`1 | % Pizzicato Strings
+    r1 |
+% page 6
+    r1 |
+    `>stringshit`1 | % Orche.Hit
+    `>pizzicatostrings`1 | % Pizzicato Strings
+    r1 |
+% page 6.1
+    r1 |
+    `>toypiano=program7;volume.5`1 | % Toy Piano
+% E Stegno2
+    \barNumberCheck #35
+    `>synthstringsone=program50;volume.5`1 | % Synth.Strings 1
+    r1 |
+% page 7
+    r1 | r1 | r1 | r1 |
+% page 7.1
+    r1 | r1 | r1 | r1 |
+% page 8
+    r1 | r1 | r1 | r1 |
+% page 8.1
+    r1 |
+% to Coda1,2
+    r1 |
+% F
+    \barNumberCheck #51
+    `>polysynthone`1 | % Poly Synth.1
+    r1 |
+% page 9
+    r1 | r1 |
+% G
+    \barNumberCheck #55
+    r1 | r1 |
+% page 9.1
+    r1 | r1 | r1 | r1 |
+% page 10
+    r1 | r1 |
+% D.S.1
+% D Stegno1-2x
+    \barNumberCheck #63
+    `>stringshit`1 | % Orche.Hit
+    `>pizzicatostrings`1 | % Pizzicato Strings
+    r1 |
+% page 6-2x
+    r1 |
+    `>stringshit`1 | % Orche.Hit
+    `>pizzicatostrings`1 | % Pizzicato Strings
+    r1 |
+% page 6.1-2x
+    r1 |
+    `>toypiano`1 | % Toy Piano
+% E Stegno2-2x
+    \barNumberCheck #72
+    `>synthstringsone`1 | % Synth.Strings 1
+    r1 |
+% page 7-2x
+    r1 | r1 | r1 | r1 |
+% page 7.1-2x
+    r1 | r1 | r1 | r1 |
+% page 8-2x
+    r1 | r1 | r1 | r1 |
+% page 8.1-2x
+    r1 |
+% to Coda1,2
+% page 10 Coda1
+    \barNumberCheck #87
+    r1 |
+% H
+    \barNumberCheck #88
+    r1 | r1 |
+% page 10.1
+    r1 | r1 |
+% I
+    \barNumberCheck #92
+    `>polysynththree=program90;volume1`1 | % Poly Synth.3
+    r1 |
+% page 11
+    r1 | r1 | r1 | r1 |
+% page 11.1
+    r1 | r1 | r1 | r1 |
+% page 12
+    r1 | r1 | r1 | r1 |
+% page 12.1
+    r1 | r1 |
+% J repeat
+    \barNumberCheck #108
+    r1 |
+% page 13
+    r1 | r1 | r1 |
+% page 13.1
+    r1 | r1 |
+% ending 1
+    r1 |
+% page 14
+    r1 |
+% end repeat
+% J repeat-2x
+    \barNumberCheck #116
+    r1 |
+% page 13-2x
+    r1 | r1 | r1 |
+% page 13.1-2x
+    r1 | r1 |
+% page 14
+    r1 | r1 | r1 |
+% E Stegno2-3x
+    \barNumberCheck #125
+    `>synthstringsone`1 | % Synth.Strings 1
+    r1 |
+% page 7-3x
+    r1 | r1 | r1 | r1 |
+% page 7.1-3x
+    r1 | r1 | r1 | r1 |
+% page 8-3x
+    r1 | r1 | r1 | r1 |
+% page 8.1-3x
+    r1 |
+% to Coda1,2
+% page 14.1 Coda2
+    \barNumberCheck #140
+    r1 |
+% K
+    \barNumberCheck #141
+    `>polysynthone`1 | % Poly Synth.1
+    r1 |
+% page 15
+    r1 | r1 | r1 |
+% page 15.1
+    r1 | r1 |
+    `>stringshit`1 | % Strings Hit
+    r1 |
+    \barNumberCheck #150
+}

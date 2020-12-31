@@ -1,0 +1,218 @@
+midiThree = {
+\mymark "Riff 1" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Riff 2" #25
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #33
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #41
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Riff 1" #57
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Riff 2" #65
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #73
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #81
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Post-Chorus" #97
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Riff 1" #105
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Solo" #121
+    b'16 c'' b' a' gis' a' b' c'' b' a' gis' a' b' c'' b' a' |
+    gis'16 a' b' c'' b' a' gis' a' b' c'' b' a' gis' a' b' c'' |
+    \tuplet 3/2 { b'8 a' g' f' e' d' e' f' e' d' c' b } |
+    a8 f e2~ e8\bendAfter #6 ^"½" r |
+    cis16( d e) f gis( a gis) f gis( a b) c'( b a gis) f |
+    gis16( a b) c' d'( e' d'8) d'16 d' c' b a c' b a |
+    b16( a gis) f g( gis ais) b cis'( dis' cis') b d'( dis' e') f' |
+    g'16( gis' g') f' g'( gis' a') ais' cis''( d'' cis'') ais' cis''( d'' dis'') e'' |
+    b'16( c'' b') a' b'2\bendAfter #6 ^"full" b'16( c'' b') a' |
+    b'4.\bendAfter #6 ^"full" b'8 c'' dis'' dis'' c'' |
+    b'16( c'' b') a' c'' b' a' g' b' a' g' fis' a' g' fis' e' |
+    e'2.~ e'8\bendAfter #6 ^"full" gis'16 a' |
+    b'16 b' b' \tuplet 3/2 { b'8 a' gis' } b'16 b' b' a' gis' b' b' a' gis' |
+    c''16 c'' c'' c'' b' a' c'' c'' c'' b' a' c'' b' a'8. |
+    d'4 e' f' gis'8 a' |
+    b'2\bendAfter #6 ^"¾" b'\bendAfter #6 ^"¾" |
+    ais,16\glissando b2.~ b8\bendAfter #6 ^"full" ais,16\glissando |
+    b2.~ b8.\bendAfter #6 ^"full" ais,16\glissando |
+    b2.~ b8.\bendAfter #6 ^"full" ais,16\glissando |
+    b2.~ b8.\bendAfter #6 ^"full" g16\glissando |
+    b'1\bendAfter #6 ^"full" |
+    b'8\bendAfter #6 ^"¾" b'\bendAfter #6 ^"¾" b'\bendAfter #6 ^"½" b'\bendAfter #6 ^"½" b'\bendAfter #6 ^"¼" b'\bendAfter #6 ^"¼" b'4\glissando |
+    r1 |
+    r1 |
+\mymark "Verse 3" #145
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge" #153
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #169
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Post-Chorus" #185
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Outro" #193
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

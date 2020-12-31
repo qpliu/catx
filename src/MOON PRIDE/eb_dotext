@@ -1,0 +1,139 @@
+ebPartDotext = {
+% page 2 Intro
+    \barNumberCheck #1
+    `>bass=program33;volume.7`1 |
+    r1 | r1 |
+    r4 r8 <`deadNote=vol.5` `bendAfter5`>8 `bendAfter-5`2 |
+    r1 | r1 |
+% page 3 A
+    \barNumberCheck #7
+    r1 | r1 | r1 |
+    r2 r8 <`deadNote` `bendAfter-3`>4. |
+% B
+    \barNumberCheck #11
+    r1 |
+% page 3.1
+    r1 | r1 | r1 | r1 | r1 |
+% page 4
+    r1 |
+    r2 r8 <`deadNote` `bendAfter-3`>4. |
+% C
+    \barNumberCheck #19
+    r1 | r1 |
+% page 4.1
+    r1 | r1 |
+    r4 `deadNote`8 r8 r2 |
+    r1 |
+% page 5
+    r4 `deadNote`8 r8 r2 |
+    r1 |
+% D
+    \barNumberCheck #27
+    r1 | r1 |
+% page 5.1
+    r1 | r1 | r1 | r1 |
+% page 6
+    r1 | r1 |
+% E
+    \barNumberCheck #35
+    r1 | r1 |
+% page 6.1
+    r1 | r1 | r1 | r1 |
+% page 7
+    r1 | r1 | r1 |
+% page 7.1 F
+    \barNumberCheck #44
+    r1 | r1 | r1 | r1 |
+% page 8
+    r1 | r1 | r1 |
+% page 8.1
+    r1 |
+% 1x ending
+    r1 | r1 | r1 |
+% page 9
+    r1 | r1 | r1 | r1 |
+    r2 r8 `bendAfter-3`4. |
+% C-2x
+    \barNumberCheck #60
+    r1 | r1 |
+% page 4.1-2x
+    r1 | r1 |
+    r4 `deadNote`8 r8 r2 |
+    r1 |
+% page 5-2x
+    r1 | r1 |
+% D-2x
+    \barNumberCheck #68
+    r1 | r1 |
+% page 5.1-2x
+    r1 | r1 | r1 | r1 |
+% page 6-2x
+    r1 | r1 |
+% E-2x
+    \barNumberCheck #76
+    r1 | r1 |
+% page 6.1-2x
+    r1 | r1 | r1 | r1 |
+% page 7-2x
+    r1 | r1 | r1 |
+% page 7.1-2x F-2x
+    \barNumberCheck #85
+    r1 | r1 | r1 | r1 |
+% page 8-2x
+    r1 | r1 | r1 |
+% page 8.1-2x
+    r1 |
+% page 9.1
+    r1 | r1 |
+% G
+    \barNumberCheck #95
+    r1 | r1 | r1 |
+% page 10
+    r1 | r1 | r1 | r1 | r1 |
+% page 10.1 H
+    \barNumberCheck #103
+    \repeat unfold 3 {
+        r1 | r1 |
+    }
+    r1 |
+    r2 r4 <`deadNote` `bendAfter-5`>4 |
+% I
+    \barNumberCheck #111
+    r1 |
+% page 11.1
+    r1 | r1 | r1 | r1 | r1 |
+% page 12
+    r1 | r1 |
+% J
+    \barNumberCheck #119
+    r1 | r1 | r1 |
+% page 12.1
+    r1 | r1 |
+    r2 r8 <`deadNote` `bendAfter-5`>4. |
+% K
+    \barNumberCheck #125
+    r1 | r1 |
+% page 13
+    r1 | r1 | r1 | r1 | r1 |
+% page 13.1
+    r1 |
+% L
+    \barNumberCheck #133
+    r1 | r1 | r1 | r1 |
+% page 14
+    r1 | r1 | r1 | r1 |
+    r2 `bendBefore-2`8 r8 r4 |
+% page 14.1
+    r2 `bendBefore-2`8 r8 r4 |
+    r1 |
+    r2 r8 <`deadNote` `bendAfter-5`>4. |
+% M
+    \barNumberCheck #145
+    r1 | r1 |
+% page 15
+    r1 | r1 | r1 | r1 |
+% page 15.1
+    r1 | r1 | r1 | r1 |
+    `bendAfter-5`4 r4 r2 |
+    \barNumberCheck #156
+}

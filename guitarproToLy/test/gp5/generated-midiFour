@@ -34,22 +34,22 @@ midiFour = {
     r1 |
     r4 <f, f>2. |
 \mymark "Chorus 1A" #31
-    <dis'' dis'>4. <dis'' dis'>4 <f' f''>8 <g' g''> <f'' f'>~ |
-    <f' f''>8 <ais' ais''>4. <gis'' gis'>4 <ais' ais''> |
-    <gis' gis''>4 <g' g''>8 <g'' g'>2~ <g'' g'>8 |
+    <dis' dis''>4. <dis' dis''>4 <f' f''>8 <g' g''> <f' f''>~ |
+    <f' f''>8 <ais' ais''>4. <gis' gis''>4 <ais' ais''> |
+    <gis' gis''>4 <g' g''>8 <g' g''>2~ <g' g''>8 |
     r32 c' d' dis' f' g' gis' ais' b' cis'' dis'' e'' fis'' gis'' ais'' b''8~ b''32 ais'' gis'' fis'' e'' dis'' cis'' b' ais' gis' fis' e' dis' |
-    <e' e''>4. <e' e''>4 <e'' e'>8 <f'' f'> <g' g''>~ |
-    <g' g''>4 <c'' c'>8 r \tuplet 3/2 { <c''' c''>4 <ais'' ais'> <g' g''> } |
+    <e' e''>4. <e' e''>4 <e' e''>8 <f' f''> <g' g''>~ |
+    <g' g''>4 <c' c''>8 r \tuplet 3/2 { <c'' c'''>4 <ais' ais''> <g' g''> } |
     <gis' gis''>1 |
-    r8 <f''' f''>4. <f'' f'''>4 <dis'' dis'''> |
-    <gis' d' d''>2 <c'' g' c'>4. <b f' b'>8 |
+    r8 <f'' f'''>4. <f'' f'''>4 <dis'' dis'''> |
+    <d' gis' d''>2 <c' g' c''>4. <b f' b'>8 |
     r8 <d'' d'''>4. <d'' d'''>4 <c'' c'''> |
     <b' b''>2 <f'' f'''>4. <dis'' dis'''>8~ |
-    <dis'' dis'''>8 <dis'' dis'''> <\parenthesize ais'' \parenthesize ais'> <ais' ais''> <\parenthesize f'' \parenthesize f'> <dis'' dis'> <c' c''> r |
-    <cis' cis''>4 <f f'> <gis' gis> <f f'> |
-    <cis' cis''>4 <f f'> <gis' gis> <f f'> |
+    <dis'' dis'''>8 <dis'' dis'''> <\parenthesize ais' \parenthesize ais''> <ais' ais''> <\parenthesize f' \parenthesize f''> <dis' dis''> <c' c''> r |
+    <cis' cis''>4 <f f'> <gis gis'> <f f'> |
+    <cis' cis''>4 <f f'> <gis gis'> <f f'> |
     r2. r8 <b' b''>~ |
-    <b'' b'>8 <g'' g'> <d'' d'> <b' b> <d' d''> <b b'> <g g'> <d d'> |
+    <b' b''>8 <g' g''> <d' d''> <b b'> <d' d''> <b b'> <g g'> <d d'> |
 \mymark "Chorus 1B" #47
     r1 |
     r1 |
@@ -105,22 +105,22 @@ midiFour = {
     r1 |
     r4 <f, f>2. |
 \mymark "Chorus 2A" #96
-    <dis'' dis'>4. <dis'' dis'>4 <f' f''>8 <g' g''> <f'' f'>~ |
-    <f' f''>8 <ais'' ais'>4. <gis'' gis'>4 <ais' ais''> |
-    <gis' gis''>4 <g'' g'>8 <g' g''>2~ <g' g''>8 |
+    <dis' dis''>4. <dis' dis''>4 <f' f''>8 <g' g''> <f' f''>~ |
+    <f' f''>8 <ais' ais''>4. <gis' gis''>4 <ais' ais''> |
+    <gis' gis''>4 <g' g''>8 <g' g''>2~ <g' g''>8 |
     r32 c' d' dis' f' g' gis' ais' b' cis'' dis'' e'' fis'' gis'' ais'' b''8~ b''32 ais'' gis'' fis'' e'' dis'' cis'' b' ais' gis' fis' e' dis' |
-    <e' e''>4. <e' e''>4 <e' e''>8 <f' f''> <g'' g'>~ |
-    <g'' g'>4 <c'' c'>8 r \tuplet 3/2 { <c'' c'''>4 <ais'' ais'> <g' g''> } |
+    <e' e''>4. <e' e''>4 <e' e''>8 <f' f''> <g' g''>~ |
+    <g' g''>4 <c' c''>8 r \tuplet 3/2 { <c'' c'''>4 <ais' ais''> <g' g''> } |
     <gis' gis''>1 |
-    r8 <f''' f''>4. <f'' f'''>4 <dis''' dis''> |
-    <d'' d' gis'>2 <c'' g' c'>4. <b f' b'>8 |
-    r8 <d'' d'''>4. <d''' d''>4 <c'' c'''> |
+    r8 <f'' f'''>4. <f'' f'''>4 <dis'' dis'''> |
+    <d' gis' d''>2 <c' g' c''>4. <b f' b'>8 |
+    r8 <d'' d'''>4. <d'' d'''>4 <c'' c'''> |
     <b' b''>2 <f'' f'''>4. <dis'' dis'''>8~ |
-    <dis'' dis'''>8 <dis'' dis'''> <\parenthesize ais'' \parenthesize ais'> <ais' ais''> <\parenthesize f'' \parenthesize f'> <dis'' dis'> <c' c''> r |
-    <cis' cis''>4 <f f'> <gis' gis> <f f'> |
-    <cis' cis''>4 <f f'> <gis' gis> <f f'> |
+    <dis'' dis'''>8 <dis'' dis'''> <\parenthesize ais' \parenthesize ais''> <ais' ais''> <\parenthesize f' \parenthesize f''> <dis' dis''> <c' c''> r |
+    <cis' cis''>4 <f f'> <gis gis'> <f f'> |
+    <cis' cis''>4 <f f'> <gis gis'> <f f'> |
     r2. r8 <b' b''>~ |
-    <b'' b'>8 <g'' g'> <d' d''> <b' b> <d' d''> <b b'> <g g'> <d d'> |
+    <b' b''>8 <g' g''> <d' d''> <b b'> <d' d''> <b b'> <g g'> <d d'> |
 \mymark "Chorus 2B" #112
     r1 |
     r1 |
@@ -142,15 +142,15 @@ midiFour = {
     c'1\bendAfter #6 ^"full" |
 \mymark "Bridge" #130
     r1 |
-    <g' g>8 <c' c''> <g'' g'> <c''' c''> <g g'> <c'' c'> <g'' g'> <c''' c''> |
-    <c c'>8 <\parenthesize c \parenthesize c'> <c'' c'> <\parenthesize c' \parenthesize c''> <g'' g'> <\parenthesize g'' \parenthesize g'> <c''' c''> <\parenthesize c''' \parenthesize c''> |
-    <d' d>8 <d' d> <a' a> <d' d''> <g'' g'> <g'' g'> <g'' g'''> d''' |
+    <g g'>8 <c' c''> <g' g''> <c'' c'''> <g' g> <c' c''> <g' g''> <c'' c'''> |
+    <c c'>8 <\parenthesize c \parenthesize c'> <c' c''> <\parenthesize c' \parenthesize c''> <g' g''> <\parenthesize g' \parenthesize g''> <c'' c'''> <\parenthesize c'' \parenthesize c'''> |
+    <d' d>8 <d' d> <a a'> <d' d''> <g' g''> <g' g''> <g'' g'''> d''' |
     r1 |
-    <c' c>8 <\parenthesize c \parenthesize c'> <c' c''> <\parenthesize c' \parenthesize c''> <g' g''> <\parenthesize g'' \parenthesize g'> <c'' c'''> <\parenthesize c'' \parenthesize c'''> |
-    r2 <b b,>4 <b, b> |
-    <\parenthesize b, \parenthesize b>4 <\parenthesize b, \parenthesize b> <g' g> <g g'> |
+    <c c'>8 <\parenthesize c \parenthesize c'> <c' c''> <\parenthesize c' \parenthesize c''> <g' g''> <\parenthesize g' \parenthesize g''> <c'' c'''> <\parenthesize c'' \parenthesize c'''> |
+    r2 <b, b>4 <b, b> |
+    <\parenthesize b, \parenthesize b>4 <\parenthesize b, \parenthesize b> <g g'> <g g'> |
     <\parenthesize g \parenthesize g'>4 <\parenthesize g \parenthesize g'> <b' b''> <b' b''> |
-    <d'' d'''>4 <d'' d'''> <d''' d''> <d'' d'''> |
+    <d'' d'''>4 <d'' d'''> <d'' d'''> <d'' d'''> |
 \mymark "Guitar Solo" #140
     r1 |
     r1 |
@@ -169,33 +169,33 @@ midiFour = {
     r1 |
     r1 |
 \mymark "Post Solo/Pre-Chorus 3" #156
-    <gis' gis>2 <ais ais'>4 r |
-    <g' g>2 <c' c''>4 r |
-    <f' f>2 <ais ais'>4 r |
-    <dis dis'>4 <f' f> <g g'> <ais' ais> |
-    <gis' gis>2 <ais' ais>4 r |
+    <gis gis'>2 <ais ais'>4 r |
+    <g g'>2 <c' c''>4 r |
+    <f f'>2 <ais ais'>4 r |
+    <dis dis'>4 <f f'> <g g'> <ais ais'> |
+    <gis gis'>2 <ais ais'>4 r |
     <b b'>2 <c' c''>4 r |
     r1 |
     r1 |
     r1 |
-    r4 <f f,>2. |
+    r4 <f, f>2. |
 \mymark "Chorus 3A" #166
-    <dis' dis''>4. <dis'' dis'>4 <f'' f'>8 <g'' g'> <f''~ f'> |
-    f''8 <ais'' ais'>4. <gis'' gis'>4 <ais'' ais'> |
-    <gis'' gis'>4 <g' g''>8 <g' g''>2~ <g' g''>8 |
+    <dis' dis''>4. <dis' dis''>4 <f' f''>8 <g' g''> <f' f''~> |
+    f''8 <ais' ais''>4. <gis' gis''>4 <ais' ais''> |
+    <gis' gis''>4 <g' g''>8 <g' g''>2~ <g' g''>8 |
     r32 c' d' dis' f' g' gis' ais' b' cis'' dis'' e'' fis'' gis'' ais'' b''8~ b''32 ais'' gis'' fis'' e'' dis'' cis'' b' ais' gis' fis' e' dis' |
-    <e' e''>4. <e' e''>4 <e' e''>8 <f'' f'> <g'' g'>~ |
-    <g'' g'>4 <c'' c'>8 r \tuplet 3/2 { <c'' c'''>4 <ais' ais''> <g'' g'> } |
+    <e' e''>4. <e' e''>4 <e' e''>8 <f' f''> <g' g''>~ |
+    <g' g''>4 <c' c''>8 r \tuplet 3/2 { <c'' c'''>4 <ais' ais''> <g' g''> } |
     <gis' gis''>1 |
-    r8 <f'' f'''>4. <f'' f'''>4 <dis''' dis''> |
-    <d' d'' gis'>2 <c'' g' c'>4. <b f' b'>8 |
-    r8 <d''' d''>4. <d''' d''>4 <c''' c''> |
-    <b'' b'>2 <f''' f''>4. <dis''' dis''>8~ |
-    <dis''' dis''>8 <dis''' dis''> <\parenthesize ais' \parenthesize ais''> <ais'' ais'> <\parenthesize f'' \parenthesize f'> <dis' dis''> <c' c''> r |
-    <cis'' cis'>4 <f' f> <gis gis'> <f' f> |
-    <cis'' cis'>4 <f' f> <gis gis'> <f f'> |
-    r2. r8 <b'' b'>~ |
-    <b' b''>8 <g' g''> <d'' d'> <b b'> <d'' d'> <b b'> <g g'> <d d'> |
+    r8 <f'' f'''>4. <f'' f'''>4 <dis'' dis'''> |
+    <d' gis' d''>2 <c' g' c''>4. <b f' b'>8 |
+    r8 <d'' d'''>4. <d'' d'''>4 <c'' c'''> |
+    <b' b''>2 <f'' f'''>4. <dis'' dis'''>8~ |
+    <dis'' dis'''>8 <dis'' dis'''> <\parenthesize ais' \parenthesize ais''> <ais' ais''> <\parenthesize f' \parenthesize f''> <dis' dis''> <c' c''> r |
+    <cis' cis''>4 <f f'> <gis gis'> <f f'> |
+    <cis' cis''>4 <f f'> <gis gis'> <f f'> |
+    r2. r8 <b' b''>~ |
+    <b' b''>8 <g' g''> <d' d''> <b b'> <d' d''> <b b'> <g g'> <d d'> |
 \mymark "Chorus 3B" #182
     r1 |
     r1 |

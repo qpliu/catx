@@ -1,10 +1,12 @@
 import java.math.*;
 
 final class DurationMaker{
-    final int time_d;
-    Rational tuplet=Rational.ONE;
+    private final int time_d;
+    private Rational tuplet=Rational.ONE;
     Rational duration=Rational.ZERO;
-    String lastDuration;
+    private String lastAfter;
+    private String before;
+    private String after;
     DurationMaker(int time_d){
 	this.time_d = time_d;
     }
@@ -12,20 +14,20 @@ final class DurationMaker{
 	duration = duration.add(d);
 	return this;
     }
-    String[]subtractDuration(boolean skip){
+    boolean subtractDuration(){
 	Rational t=new Rational(duration.d,BigInteger.ONE);
 	while (!t.n.testBit(0))
 	    t = new Rational(t.n.shiftRight(1),BigInteger.ONE);
 	while (t.compareTo(Rational.TWO)>0)
 	    t = t.divide(2);
-	StringBuilder before=new StringBuilder();
+	StringBuilder before_sb=new StringBuilder();
 	if (!t.equals(tuplet) && !tuplet.equals(Rational.ONE)){
-	    before.append(/*{*/"} ");
-	    lastDuration = null;
+	    before_sb.append(/*{*/"} ");
+	    lastAfter = null;
 	}
 	if (!t.equals(tuplet) && !t.equals(Rational.ONE)){
-	    before.append("\\tuplet "+t+" { "); //}
-	    lastDuration = null;
+	    before_sb.append("\\tuplet "+t+" { "); //}
+	    lastAfter = null;
 	}
 	tuplet = t;
 	duration = duration.multiply(tuplet);
@@ -35,21 +37,25 @@ final class DurationMaker{
 	    n = n.shiftLeft(1);
 	    d = d.divide(2);
 	}
-	StringBuilder after=new StringBuilder(n.toString());
+	StringBuilder after_sb=new StringBuilder(n.toString());
 	duration = duration.subtract(d);
 	if (duration.compareTo(d.divide(2))>=0){
-	    after.append('.');
+	    after_sb.append('.');
 	    duration = duration.subtract(d.divide(2));
 	}
 	duration = duration.divide(tuplet);
-	String a=after.toString();
-	if (skip)
-	    lastDuration = null;
-	else if (a.equals(lastDuration))
-	    a = "";
+	before = before_sb.toString();
+	after = after_sb.toString();
+	return duration.signum()==0;
+    }
+    String cat(String what,String suffix){
+	if (what.equals("\\skip"))
+	    lastAfter = null;
+	else if (after.equals(lastAfter))
+	    after = "";
 	else
-	    lastDuration = a;
-	return new String[]{before.toString(),a};
+	    lastAfter = after;
+	return before+what+after+suffix+' ';
     }
     String tail(){
 	return tuplet.equals(Rational.ONE)?"":/*{*/"} ";

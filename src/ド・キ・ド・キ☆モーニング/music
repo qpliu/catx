@@ -26,31 +26,23 @@ midiDrumPitches.noise = a' % 69
 \include "markup"
 \include "chords"
 \include "vocal"
-\include "vocaltext_lyrics"
-\include "vocaltext_midi"
+\include "vocal_donetext"
 \include "chorus"
 \include "vocallyrics"
 \include "choruslyrics"
 \include "guitar1"
-\include "guitar1text_lyrics"
-\include "guitar1text_midi"
+\include "guitar1_donetext"
 \addQuote "guitar1" \guitarOnePart
-\addQuote "lyricsguitar1" \lyricsguitarOneText
-\addQuote "midiguitar1" \midiguitarOneText
 \include "guitar2"
-\include "guitar2text_lyrics"
-\include "guitar2text_midi"
+\include "guitar2_donetext"
 \include "guitar3"
 \include "keyboard"
 \include "bass"
-\include "basstext_lyrics"
-\include "basstext_midi"
+\include "bass_donetext"
 \include "drums"
-\include "drumstext_lyrics"
-\include "drumstext_midi"
+\include "drums_donetext"
 \include "percussion"
-\include "percussiontext_lyrics"
-\include "percussiontext_midi"
+\include "percussion_donetext"
 
 layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     \new ChordNames \mychords
@@ -69,7 +61,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\vocalPart
 	\vocalLyrics
-	\lyricsvocalText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Guitar1"
@@ -78,7 +69,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\clef "treble_8"
 	\guitarOnePart
-	\tag #'(textLyrics keep) \lyricsguitarOneText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Guitar2"
@@ -87,7 +77,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\clef "treble_8"
 	\guitarTwoPart
-	\tag #'(textLyrics keep) \lyricsguitarTwoText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Guitar3"
@@ -111,7 +100,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\clef "bass_8"
 	\bassPart
-	\tag #'(textLyrics keep) \lyricsbassText
     >>
     \tag #'(allPart) \new DrumStaff \with {
 	instrumentName = "Drums"
@@ -120,7 +108,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\drumsPart
-	\tag #'(textLyrics keep) \lyricsdrumsText
     >>
     \tag #'(allPart) \new DrumStaff \with {
 	instrumentName = "Percussion"
@@ -131,7 +118,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\override Staff.BarLine.bar-extent = #'(-1.5 . 1.5)
 	\markupStuff
 	\percussionPart
-	\tag #'(textLyrics keep) \lyricspercussionText
     >>
 >>
 
@@ -142,11 +128,11 @@ midimusic = <<
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.6
     } \chorusPart
-    \tag #'(midiSusan) \new Staff = "vocaltext" \midivocalText
+    \tag #'(midiSusan) \new Staff = "vocal_dotext" \vocalPartDotext
     \tag #'(midiSusan) \new Staff = "vocal" \vocalPart
-    \tag #'(midiPeter) \new Staff = "guitar1text" \midiguitarOneText
+    \tag #'(midiPeter) \new Staff = "guitar1_dotext" \guitarOnePartDotext
     \tag #'(midiPeter) \new Staff = "guitar1" \guitarOnePart
-    \tag #'(midiPeter) \new Staff = "guitar2text" \midiguitarTwoText
+    \tag #'(midiPeter) \new Staff = "guitar2_dotext" \guitarTwoPartDotext
     \tag #'(midiPeter) \new Staff = "guitar2" \guitarTwoPart
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)"
@@ -158,13 +144,13 @@ midimusic = <<
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.7
     } \keyboardPart
-    \tag #'(midiBass) \new Staff = "basstext" \midibassText
+    \tag #'(midiBass) \new Staff = "bass_dotext" \bassPartDotext
     \tag #'(midiBass) \new Staff = "bass" \bassPart
-    \tag #'(midiGg) \new Staff = "drumstext" \mididrumsText
+    \tag #'(midiGg) \new Staff = "drums_dotext" \drumsPartDotext
     \tag #'(midiGg) \new DrumStaff = "drums" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drumsPart
-    \tag #'(midiOne) \new Staff = "percussiontext" \midipercussionText
+    \tag #'(midiOne) \new Staff = "percussion_dotext" \percussionPartDotext
     \tag #'(midiOne) \new DrumStaff = "percussion" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \percussionPart

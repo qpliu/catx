@@ -6,32 +6,24 @@
 \include "generated-markup"
 \include "generated-vocalsLyrics"
 \include "generated-guitar"
-\include "generated-guitartext_midi"
-\include "generated-guitartext_lyrics"
+\include "generated-guitar_donetext"
 \include "generated-guitarTwo"
-\include "generated-guitarTwotext_midi"
-\include "generated-guitarTwotext_lyrics"
+\include "generated-guitarTwo_donetext"
 \include "generated-guitarThree"
-\include "generated-guitarThreetext_midi"
-\include "generated-guitarThreetext_lyrics"
+\include "generated-guitarThree_donetext"
 \include "generated-guitarFour"
-\include "generated-guitarFourtext_midi"
-\include "generated-guitarFourtext_lyrics"
+\include "generated-guitarFour_donetext"
 \include "generated-bass"
 \include "generated-drs"
 \include "generated-vocals"
-\include "generated-vocalstext_midi"
-\include "generated-vocalstext_lyrics"
+\include "generated-vocals_donetext"
 \include "generated-midiOne"
 \include "generated-midiTwo"
-\include "generated-midiTwotext_midi"
-\include "generated-midiTwotext_lyrics"
+\include "generated-midiTwo_donetext"
 \include "generated-midiThree"
-\include "generated-midiThreetext_midi"
-\include "generated-midiThreetext_lyrics"
+\include "generated-midiThree_donetext"
 \include "generated-midiFour"
-\include "generated-midiFourtext_midi"
-\include "generated-midiFourtext_lyrics"
+\include "generated-midiFour_donetext"
 
 layoutmusic = <<
     \tag #'(allPart peterPart) \new Staff \with {
@@ -113,19 +105,19 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff = "generated-guitar" \with {
         midiInstrument = #"overdriven guitar"
     } \guitar
-    \tag #'(midiPeter) \new Staff = "generated-guitartext" \midiguitarText
+    \tag #'(midiPeter) \new Staff = "generated-guitar_dotext" \guitarDotext
     \tag #'(midiPeter) \new Staff = "generated-guitarTwo" \with {
         midiInstrument = #"distorted guitar"
     } \guitarTwo
-    \tag #'(midiPeter) \new Staff = "generated-guitarTwotext" \midiguitarTwoText
+    \tag #'(midiPeter) \new Staff = "generated-guitarTwo_dotext" \guitarTwoDotext
     \tag #'(midiPeter) \new Staff = "generated-guitarThree" \with {
         midiInstrument = #"distorted guitar"
     } \guitarThree
-    \tag #'(midiPeter) \new Staff = "generated-guitarThreetext" \midiguitarThreeText
+    \tag #'(midiPeter) \new Staff = "generated-guitarThree_dotext" \guitarThreeDotext
     \tag #'(midiPeter) \new Staff = "generated-guitarFour" \with {
         midiInstrument = #"overdriven guitar"
     } \guitarFour
-    \tag #'(midiPeter) \new Staff = "generated-guitarFourtext" \midiguitarFourText
+    \tag #'(midiPeter) \new Staff = "generated-guitarFour_dotext" \guitarFourDotext
     \tag #'(midiBass) \new Staff = "generated-bass" \with {
         midiInstrument = #"electric bass (pick)"
     } \bass
@@ -135,20 +127,20 @@ midimusic = <<
     \tag #'(midiKaraoke) \new Staff = "generated-vocals" \with {
         midiInstrument = #"oboe"
     } \vocals
-    \tag #'(midiKaraoke) \new Staff = "generated-vocalstext" \midivocalsText
+    \tag #'(midiKaraoke) \new Staff = "generated-vocals_dotext" \vocalsDotext
     \tag #'(midiOne) \new Staff = "generated-midiOne" \with {
         midiInstrument = #"choir aahs"
     } \midiOne
     \tag #'(midiTwo) \new Staff = "generated-midiTwo" \with {
         midiInstrument = #"acoustic grand"
     } \midiTwo
-    \tag #'(midiTwo) \new Staff = "generated-midiTwotext" \midimidiTwoText
+    \tag #'(midiTwo) \new Staff = "generated-midiTwo_dotext" \midiTwoDotext
     \tag #'(midiThree) \new Staff = "generated-midiThree" \with {
         midiInstrument = #"lead 2 (sawtooth)"
     } \midiThree
-    \tag #'(midiThree) \new Staff = "generated-midiThreetext" \midimidiThreeText
+    \tag #'(midiThree) \new Staff = "generated-midiThree_dotext" \midiThreeDotext
     \tag #'(midiFour) \new Staff = "generated-midiFour" \with {
         midiInstrument = #"orchestral harp"
     } \midiFour
-    \tag #'(midiFour) \new Staff = "generated-midiFourtext" \midimidiFourText
+    \tag #'(midiFour) \new Staff = "generated-midiFour_dotext" \midiFourDotext
 >>

@@ -323,7 +323,7 @@ final class MergeMidi{
 		int i=trackName.indexOf(':');
 		if (i!=-1)
 		    trackName = trackName.substring(0,i);
-		if (trackName.endsWith("text")){
+		if (trackName.endsWith("_dotext")){
 		    isTextTrack = true;
 		    try (FileInputStream fis=new FileInputStream(trackName+"_notemap")){
 			ByteArrayOutputStream baos=new ByteArrayOutputStream();
@@ -332,7 +332,7 @@ final class MergeMidi{
 			for (StringTokenizer st=new StringTokenizer(baos.toString(),"\n"); st.hasMoreTokens();)
 			    textMap.put(textMap.size(),st.nextToken());
 		    }
-		    trackName = trackName.substring(0,trackName.length()-4);
+		    trackName = trackName.substring(0,trackName.length()-7);
 		}
 	    }else if (what==4){
 //		System.err.println("instrument name="+new String(data));

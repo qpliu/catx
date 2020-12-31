@@ -25,26 +25,20 @@ drumPitchNames.fingersnap = #'handclap
 \include "markup"
 \include "chords"
 \include "vocal"
-\include "vocaltext_lyrics"
-\include "vocaltext_midi"
+\include "vocal_donetext"
 \include "chorus"
 \include "lyrics"
 \include "guitar"
-\include "guitartext_lyrics"
-\include "guitartext_midi"
+\include "guitar_donetext"
 \include "keyboard1"
-\include "keyboard1text_lyrics"
-\include "keyboard1text_midi"
+\include "keyboard1_donetext"
 \include "keyboard2"
-\include "keyboard2text_lyrics"
-\include "keyboard2text_midi"
+\include "keyboard2_donetext"
 \include "keyboard3"
-\include "keyboard3text_lyrics"
-\include "keyboard3text_midi"
+\include "keyboard3_donetext"
 \include "bass"
 \include "drums"
-\include "drumstext_lyrics"
-\include "drumstext_midi"
+\include "drums_donetext"
 
 layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     \new ChordNames \mychords
@@ -61,7 +55,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\vocalPart
-	\lyricsvocalText
 	\vocalLyrics
     >>
     \tag #'(allPart) \new Staff \with {
@@ -71,7 +64,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\clef "treble_8"
 	\guitarPart
-	\lyricsguitarText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Keyboard 1"
@@ -79,7 +71,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\keyboardOnePart
-	\lyricskeyboardOneText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Keyboard 2"
@@ -87,7 +78,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\keyboardTwoPart
-	\lyricskeyboardTwoText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Keyboard 3"
@@ -95,7 +85,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\keyboardThreePart
-	\lyricskeyboardThreeText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Bass"
@@ -112,33 +101,32 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\drumsPart
-	\lyricsdrumsText
     >>
 >>
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiSusan) \new Staff = "vocaltext" \midivocalText
+    \tag #'(midiSusan) \new Staff = "vocal_dotext" \vocalPartDotext
     \tag #'(midiSusan) \new Staff = "vocal" \vocalPart
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"choir aahs"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \chorusPart
-    \tag #'(midiPeter) \new Staff = "guitartext" \midiguitarText
+    \tag #'(midiPeter) \new Staff = "guitar_dotext" \guitarPartDotext
     \tag #'(midiPeter) \new Staff = "guitar" \guitarPart
-    \tag #'(midiOne) \new Staff = "keyboard1text" \midikeyboardOneText
+    \tag #'(midiOne) \new Staff = "keyboard1_dotext" \keyboardOnePartDotext
     \tag #'(midiOne) \new Staff = "keyboard1" \keyboardOnePart
-    \tag #'(midiOne) \new Staff = "keyboard2text" \midikeyboardTwoText
+    \tag #'(midiOne) \new Staff = "keyboard2_dotext" \keyboardTwoPartDotext
     \tag #'(midiOne) \new Staff = "keyboard2" \keyboardTwoPart
-    \tag #'(midiOne) \new Staff = "keyboard3text" \midikeyboardThreeText
+    \tag #'(midiOne) \new Staff = "keyboard3_dotext" \keyboardThreePartDotext
     \tag #'(midiOne) \new Staff = "keyboard3" \keyboardThreePart
     \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.7
     } \bassPart
-    \tag #'(midiGg) \new Staff = "drumstext" \mididrumsText
+    \tag #'(midiGg) \new Staff = "drums_dotext" \drumsPartDotext
     \tag #'(midiGg) \new DrumStaff = "drums" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drumsPart

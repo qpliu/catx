@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class TrackFileMaker extends FileMaker{
+abstract class TrackFileMaker extends FileMaker{
     final Gpfile.Track track;
     final String lyname;
     Arg arg;
@@ -34,6 +34,9 @@ class TrackFileMaker extends FileMaker{
     final String getStaffType(){
 	return this instanceof DrumTrackFileMaker?"DrumStaff":"Staff";
     }
+    void printMeasure(String measure){
+	print(measure);
+    }
     final void makeMeasures()throws IOException{
 	for (String s:arg.music_extra)
 	    print(s);
@@ -48,7 +51,7 @@ class TrackFileMaker extends FileMaker{
 	    if (measure.tripletFeel!=null && !measure.tripletFeel.equals(tripletFeel))
 		indent(measure.tripletFeel+" {"/*}*/);
 	    tripletFeel = measure.tripletFeel;
-	    PriorityQueue<Gpfile.Event>events=new PriorityQueue<Gpfile.Event>();
+	    List<Gpfile.Event>events=new ArrayList<Gpfile.Event>();
 	    while (q.size()!=0){
 		Gpfile.Event e=q.poll();
 		if (e.time.compareTo(measure.time)<0){
@@ -65,12 +68,12 @@ class TrackFileMaker extends FileMaker{
 		    break;
 		events.add(cut[0]);
 	    }
-	    makeMeasure(measure,events);
+	    printMeasure(makeMeasure(measure,events));
 	}
 	if (tripletFeel!=null)
 	    unindent(/*{*/"}");
     }
-    void makeMeasure(Gpfile.Measure measure,PriorityQueue<Gpfile.Event>events)throws IOException{}
+    abstract String makeMeasure(Gpfile.Measure measure,List<Gpfile.Event>events)throws IOException;
     void layout(MusicFileMaker mfm)throws IOException{
 	if (arg.layout_who!=null)
 	    mfm.print("\\tag #'("+arg.layout_who+") \\"+lyname);

@@ -10,19 +10,15 @@ mc = \colorLyrics #(rgb-color .5 .5 .5)
 \include "markup"
 \include "chords"
 \include "vocal"
-\include "vocaltext_lyrics"
-\include "vocaltext_midi"
+\include "vocal_donetext"
 \include "lyrics"
 \include "guitar"
-\include "guitartext_lyrics"
-\include "guitartext_midi"
+\include "guitar_donetext"
 \include "keyboard1"
-\include "keyboard1text_lyrics"
-\include "keyboard1text_midi"
+\include "keyboard1_donetext"
 \include "keyboard2"
 \include "keyboard3"
-\include "keyboard3text_lyrics"
-\include "keyboard3text_midi"
+\include "keyboard3_donetext"
 \include "bass"
 \include "drums"
 
@@ -35,7 +31,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\vocalPart
 	\vocalLyrics
-	\lyricsvocalText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Guitar"
@@ -44,7 +39,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\clef "treble_8"
 	\guitarPart
-	\lyricsguitarText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Keyboard 1"
@@ -52,7 +46,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\keyboardOnePart
-	\lyricskeyboardOneText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Keyboard 2"
@@ -67,7 +60,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     } <<
 	\markupStuff
 	\keyboardThreePart
-	\lyricskeyboardThreeText
     >>
     \tag #'(allPart) \new Staff \with {
 	instrumentName = "Bass"
@@ -89,18 +81,18 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiSusan) \new Staff = "vocaltext" \midivocalText
+    \tag #'(midiSusan) \new Staff = "vocal_dotext" \vocalPartDotext
     \tag #'(midiSusan) \new Staff = "vocal" \vocalPart
-    \tag #'(midiPeter) \new Staff = "guitartext" \midiguitarText
+    \tag #'(midiPeter) \new Staff = "guitar_dotext" \guitarPartDotext
     \tag #'(midiPeter) \new Staff = "guitar" \guitarPart
-    \tag #'(midiOne) \new Staff = "keyboard1text" \midikeyboardOneText
+    \tag #'(midiOne) \new Staff = "keyboard1_dotext" \keyboardOnePartDotext
     \tag #'(midiOne) \new Staff = "keyboard1" \keyboardOnePart
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"trumpet"
 	midiMinimumVolume = #0
 	midiMaximumVolume = #.5
     } \keyboardTwoPart
-    \tag #'(midiOne) \new Staff = "keyboard3text" \midikeyboardThreeText
+    \tag #'(midiOne) \new Staff = "keyboard3_dotext" \keyboardThreePartDotext
     \tag #'(midiOne) \new Staff = "keyboard3" \keyboardThreePart
     \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"

@@ -1,15 +1,46 @@
 #!/bin/bash
 set -e -o pipefail
-GET="java -jar ../../songsterrToLy/1.jar"
-DIR="/share/mirror/songsterr/stuff/d-keep/d-Babymetal/d-Gimme Choco-s392595/d-r397111"
-gzip -d <"$DIR"/z-t0|$GET --name guitarOnePart --output-tabs - >generated-guitar1tabs
-gzip -d <"$DIR"/z-t1|$GET --name guitarTwoPart --output-tabs - >generated-guitar2tabs
-gzip -d <"$DIR"/z-t2|$GET --name guitarThreePart --output-tabs - >generated-guitar3tabs
-gzip -d <"$DIR"/z-t2|$GET --no-string-numbers --name guitarThreeText --output-text - >generated-guitar3text
-gzip -d <"$DIR"/z-t3|$GET --name guitarFourPart --output-tabs - >generated-guitar4tabs
-gzip -d <"$DIR"/z-t3|$GET --no-string-numbers --name guitarFourText --output-text - >generated-guitar4text
-gzip -d <"$DIR"/z-t4|$GET --name bassPart --output-tabs - >generated-basstabs
-gzip -d <"$DIR"/z-t5|$GET --name drsPart - >generated-drscolors
-gzip -d <"$DIR"/z-t6|$GET --no-string-numbers --output-relative --no-ghost-notes --name synthPart - >generated-synth
-gzip -d <"$DIR"/z-t6|$GET --no-string-numbers --output-text --name synthText - >generated-synthtext
-gzip -d <"$DIR"/z-t7|$GET --no-string-numbers --output-relative --no-ghost-notes --name vocalsPart - >generated-vocals
+WHERE="/share/mirror/songsterr/stuff/d-keep/d-Babymetal/d-Gimme Choco-s392595/d-r397111/application_guitar_pro5-41439375.gp5"
+SCALE=""
+rm -f generated-*
+java -jar ../../guitarproToLy/1.jar <"$WHERE" \
+scale "$SCALE" \
+track 7 \
+    preset kav \
+track 7 \
+    preset lyrics \
+track 6 \
+    preset midiOne \
+track 6 \
+    name midiOne \
+    midi-who midiOne \
+    output-dotext \
+track 4 \
+    preset bass \
+track 3 \
+    preset midiTwo \
+track 3 \
+    name midiTwo \
+    midi-who midiTwo \
+    output-dotext \
+track 2 \
+    preset midiThree \
+track 2 \
+    name midiThree \
+    midi-who midiThree \
+    output-dotext \
+track 1 \
+    preset midiFour \
+track 1 \
+    name midiFour \
+    midi-who midiThree \
+    output-dotext \
+track 0 \
+    preset peter \
+track 0 \
+    name guitar \
+    midi-who midiPeter \
+    output-dotext \
+track 5 \
+    preset gg \
+2>&1|tee log

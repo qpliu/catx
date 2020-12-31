@@ -3,8 +3,10 @@ import java.util.*;
 
 final class MeasureMaker{
     static interface GetWhatSuffix{
-	String getWhat(boolean is_lhs,boolean is_rhs); 
-	String getSuffix(boolean is_lhs,boolean is_rhs); 
+	String getWhat(boolean is_lhs,boolean is_rhs);
+	default String getSuffix(boolean is_lhs,boolean is_rhs){
+	    return "";
+	}
     }
     final Gpfile.Measure measure;
     Rational time;
@@ -15,33 +17,26 @@ final class MeasureMaker{
 	time = measure.time;
 	dm = new DurationMaker(measure.time_d);
     }
-    void make(Rational t,GetWhatSuffix gws,boolean skip){
+    void make(Rational t,GetWhatSuffix gws){
 	dm.addDuration(t.subtract(time));
 	time = t;
 	boolean is_lhs=true;
 	while (dm.duration.signum()!=0){
-	    String[]ba=dm.subtractDuration(skip);
-	    boolean is_rhs=dm.duration.signum()==0;
-	    sb.append(ba[0]).append(gws.getWhat(is_lhs,is_rhs)).append(ba[1]).append(gws.getSuffix(is_lhs,is_rhs)).append(' ');
+	    boolean is_rhs=dm.subtractDuration();
+	    sb.append(dm.cat(gws.getWhat(is_lhs,is_rhs),gws.getSuffix(is_lhs,is_rhs)));
 	    is_lhs = false;
 	}
     }
-    void make(Rational t,String what,boolean skip){
-	make(t,new GetWhatSuffix(){
-	    @Override public String getWhat(boolean is_lhs,boolean is_rhs){
-		return what;
-	    }
-	    @Override public String getSuffix(boolean is_lhs,boolean is_rhs){
-		return "";
-	    }
-	},skip);
-    }
-    void skip(Rational t){
-	make(t,"\\skip",true);
-    }
-    void rest(Rational t){
-	make(t,"r",false);
-    }
+    static final GetWhatSuffix REST=new GetWhatSuffix(){
+	@Override public String getWhat(boolean is_lhs,boolean is_rhs){
+	    return "r";
+	}
+    };
+    static final GetWhatSuffix SKIP=new GetWhatSuffix(){
+	@Override public String getWhat(boolean is_lhs,boolean is_rhs){
+	    return "\\skip";
+	}
+    };
     String tail(){
 	return sb.append(dm.tail()).append('|').toString();
     }

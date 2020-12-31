@@ -1,0 +1,124 @@
+egFourPartDotext = {
+% page 16
+    r1 |
+% A
+    \barNumberCheck #2
+    \repeat unfold 3 r1 |
+    <`>dist=program30;volume.2` `bendAfter-12`>1 | % Dist
+    \repeat unfold 2 r1 |
+    r1 | r1 |
+% page 16.1 B
+    \barNumberCheck #10
+    r1 | r1 | r1 | r1 |
+    \repeat unfold 2 r1 |
+% page 16.2
+    r1 | r1 |
+% C
+    \barNumberCheck #18
+    \repeat unfold 2 r1 |
+    r1 | r1 |
+% page 16.3
+    r1 | r1 | r1 | r1 |
+% D Stegno1
+    \barNumberCheck #26
+    \repeat unfold 9 r1 |
+% E Stegno2
+    \barNumberCheck #35
+    r1 |
+% page 16.4
+    `bendBefore-2`2 r |
+    r1 |
+    `bendBefore-2`2 r |
+    r1 | r1 |
+    \repeat unfold 2 r1 |
+    r1 |
+% page 17
+    `bendBefore-2`2 r |
+    r1 |
+    `bendBefore-2`2 r |
+    r1 | r1 |
+% page 17.1
+    r1 |
+% to Coda1,2
+    r1 |
+% F
+    \barNumberCheck #51
+    \repeat unfold 4 r1 |
+% G
+    \barNumberCheck #55
+    r1 | r1 |
+% page 17.2
+    r1 | r1 |
+    \repeat unfold 4 r1 |
+% D.S.1
+% D Stegno1-2x
+    \barNumberCheck #63
+    \repeat unfold 9 r1 |
+% E Stegno2-2x
+    \barNumberCheck #72
+    r1 |
+% page 16.4-2x
+    `bendBefore-2`2 r |
+    r1 |
+    `bendBefore-2`2 r |
+    r1 | r1 |
+    \repeat unfold 2 r1 |
+    r1 |
+% page 17-2x
+    `bendBefore-2`2 r |
+    r1 |
+    `bendBefore-2`2 r |
+    r1 | r1 |
+% page 17.1-2x
+    r1 |
+% to Coda1,2
+% page 17.2 Coda1
+    \barNumberCheck #87
+    r1 |
+% H
+    \barNumberCheck #88
+    \repeat unfold 4 r1 |
+% page 17.3 I
+    \barNumberCheck #92
+    \repeat unfold 16 r1 |
+% J repeat
+    \barNumberCheck #108
+    \repeat unfold 6 r1 |
+% ending 1
+    \repeat unfold 2 r1 |
+% end repeat
+% J repeat-2x
+    \barNumberCheck #116
+    \repeat unfold 6 r1 |
+% ending 2
+    \repeat unfold 3 r1 |
+% D.S.2
+% E Stegno2-3x
+    \barNumberCheck #125
+    r1 |
+% page 16.4-3x
+    `bendBefore-2`2 r |
+    r1 |
+    `bendBefore-2`2 r |
+    r1 | r1 |
+    \repeat unfold 2 r1 |
+    r1 |
+% page 17-3x
+    `bendBefore-2`2 r |
+    r1 |
+    `bendBefore-2`2 r |
+    r1 | r1 |
+% page 17.1-3x
+    r1 |
+% to Coda1,2
+% page 17.3 Coda2
+    \barNumberCheck #140
+    r1 |
+% page 17.4 K
+    \barNumberCheck #141
+    \repeat unfold 3 r1 |
+    `bendAfter-12`1 |
+    \repeat unfold 2 r1 |
+    r1 | r1 | r1 |
+    \barNumberCheck #150
+}

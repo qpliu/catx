@@ -17,8 +17,7 @@
 \include "lyricsj"
 \include "bass"
 \include "eg"
-\include "egtext_lyrics"
-\include "egtext_midi"
+\include "eg_donetext"
 \include "piano"
 \include "karaoke"
 
@@ -46,7 +45,6 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\clef "treble_8"
 	\egPart
-	\lyricsegText
     >>
     \tag #'(peterPart) \new TabStaff <<
 	\markupStuff
@@ -94,7 +92,7 @@ midimusic = <<
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"fx 5 (brightness)"
     } \pianoPart
-    \tag #'(midiPeter) \new Staff = "egtext" \midiegText
+    \tag #'(midiPeter) \new Staff = "eg_dotext" \egPartDotext
     \tag #'(midiPeter) \new Staff = "eg" \egPart
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)

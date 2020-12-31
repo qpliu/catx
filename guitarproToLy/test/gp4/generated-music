@@ -5,15 +5,12 @@
 
 \include "generated-markup"
 \include "generated-guitar"
-\include "generated-guitartext_midi"
-\include "generated-guitartext_lyrics"
+\include "generated-guitar_donetext"
 \include "generated-guitarTwo"
 \include "generated-guitarThree"
-\include "generated-guitarThreetext_midi"
-\include "generated-guitarThreetext_lyrics"
+\include "generated-guitarThree_donetext"
 \include "generated-guitarFour"
-\include "generated-guitarFourtext_midi"
-\include "generated-guitarFourtext_lyrics"
+\include "generated-guitarFour_donetext"
 \include "generated-midiOne"
 \include "generated-bass"
 \include "generated-drs"
@@ -89,18 +86,18 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff = "generated-guitar" \with {
         midiInstrument = #"acoustic guitar (steel)"
     } \guitar
-    \tag #'(midiPeter) \new Staff = "generated-guitartext" \midiguitarText
+    \tag #'(midiPeter) \new Staff = "generated-guitar_dotext" \guitarDotext
     \tag #'(midiPeter) \new Staff = "generated-guitarTwo" \with {
         midiInstrument = #"acoustic guitar (steel)"
     } \guitarTwo
     \tag #'(midiPeter) \new Staff = "generated-guitarThree" \with {
         midiInstrument = #"overdriven guitar"
     } \guitarThree
-    \tag #'(midiPeter) \new Staff = "generated-guitarThreetext" \midiguitarThreeText
+    \tag #'(midiPeter) \new Staff = "generated-guitarThree_dotext" \guitarThreeDotext
     \tag #'(midiPeter) \new Staff = "generated-guitarFour" \with {
         midiInstrument = #"overdriven guitar"
     } \guitarFour
-    \tag #'(midiPeter) \new Staff = "generated-guitarFourtext" \midiguitarFourText
+    \tag #'(midiPeter) \new Staff = "generated-guitarFour_dotext" \guitarFourDotext
     \tag #'(midiOne) \new Staff = "generated-midiOne" \with {
         midiInstrument = #"string ensemble 2"
     } \midiOne

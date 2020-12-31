@@ -30,8 +30,8 @@ guitarTwo = {
     r2. |
     r2. |
     r2. |
-    <gis''\1 gis'\3>16( <f'\3 f''\1>) <dis''\2 dis'\4>( <cis''\2 cis'\4>) <dis''\2 dis'\4>8.\bendAfter #6 ^"full" <cis''\2 cis'\4>16 <dis''\2 dis'\4>( <cis''\2 cis'\4>) <ais'\3 ais\5>( <gis'\3 gis\5>) <ais\5 ais'\3> <cis''\2 cis'\4> <ais'\3 ais\5>( <gis\5 gis'\3>) |
-    <ais\5 ais'\3>16 <cis'\4 cis''\2> <f'\3 f\5>32( <dis\5 dis'\3>) <cis'\4 cis\6>16 <f'\3 f\5> <cis'\4 cis\6> <f\5 f'\3> <gis\5 gis'\3> <gis\5 gis'\3>\bendAfter #6 ^"full" <gis'\3 gis\5> <f'\3 f\5> <dis\5 dis'\3> <cis\6 cis'\4>4 |
+    <gis'\3 gis''\1>16( <f'\3 f''\1>) <dis'\4 dis''\2>( <cis'\4 cis''\2>) <dis'\4 dis''\2>8.\bendAfter #6 ^"full" <cis'\4 cis''\2>16 <dis'\4 dis''\2>( <cis'\4 cis''\2>) <ais\5 ais'\3>( <gis\5 gis'\3>) <ais\5 ais'\3> <cis'\4 cis''\2> <ais\5 ais'\3>( <gis\5 gis'\3>) |
+    <ais\5 ais'\3>16 <cis'\4 cis''\2> <f\5 f'\3>32( <dis\5 dis'\3>) <cis\6 cis'\4>16 <f\5 f'\3> <cis\6 cis'\4> <f\5 f'\3> <gis\5 gis'\3> <gis\5 gis'\3>\bendAfter #6 ^"full" <gis\5 gis'\3> <f\5 f'\3> <dis\5 dis'\3> <cis\6 cis'\4>4 |
     r1 |
 \mymark "Chorus 1A" #31
     r1 |
@@ -69,7 +69,7 @@ guitarTwo = {
     ais'2\3 b'4.\3 c''8\3~ |
     c''4.\3 r2 r8 |
 \mymark "Interlude" #64
-    <g'\3 c''\2>16( <cis''\2 gis'\3> <g'\3 c''\2> <cis''\2 gis'\3> \tuplet 3/2 { <c''\2 g'\3>16 <gis'\3 cis''\2> <g'\3 c''\2> } <cis''\2 gis'\3>16 <g'\3 c''\2>) r2 |
+    <g'\3 c''\2>16( <gis'\3 cis''\2> <g'\3 c''\2> <gis'\3 cis''\2> \tuplet 3/2 { <g'\3 c''\2>16 <gis'\3 cis''\2> <g'\3 c''\2> } <gis'\3 cis''\2>16 <g'\3 c''\2>) r2 |
     r1 |
     r1 |
     r1 |
@@ -101,8 +101,8 @@ guitarTwo = {
     f4\4 g\4 gis\4 |
     ais4\4~ ais16\4\glissando gis\4( ais\4 gis\4) g8\4 f\5 |
     dis4\5 f\5 g\4 |
-    <gis'\3 gis''\1>16( <f'\3 f''\1>) <dis''\2 dis'\4>( <cis''\2 cis'\4>) <dis''\2 dis'\4>8.\bendAfter #6 ^"full" <cis''\2 cis'\4>16 <dis''\2 dis'\4>( <cis'\4 cis''\2>) <ais'\3 ais\5>( <gis'\3 gis\5>) <ais\5 ais'\3> <cis'\4 cis''\2> <ais'\3 ais\5>( <gis\5 gis'\3>) |
-    <f'\3 f\5>32( <dis'\3 dis\5>) <cis\6 cis'\4>8 <f'\3 f\5>16 <cis\6 cis'\4> <f\5 f'\3> <gis'\3 gis\5>8. <f\5 f'\3>16 <dis\5 dis'\3> <cis'\4 cis\6> <cis'\4 cis\6>4 |
+    <gis'\3 gis''\1>16( <f'\3 f''\1>) <dis'\4 dis''\2>( <cis'\4 cis''\2>) <dis'\4 dis''\2>8.\bendAfter #6 ^"full" <cis'\4 cis''\2>16 <dis'\4 dis''\2>( <cis'\4 cis''\2>) <ais\5 ais'\3>( <gis\5 gis'\3>) <ais\5 ais'\3> <cis'\4 cis''\2> <ais\5 ais'\3>( <gis\5 gis'\3>) |
+    <f\5 f'\3>32( <dis\5 dis'\3>) <cis\6 cis'\4>8 <f\5 f'\3>16 <cis\6 cis'\4> <f\5 f'\3> <gis\5 gis'\3>8. <f\5 f'\3>16 <dis\5 dis'\3> <cis\6 cis'\4> <cis\6 cis'\4>4 |
     r1 |
 \mymark "Chorus 2A" #96
     r1 |

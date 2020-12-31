@@ -1,0 +1,103 @@
+keyFivePartDotext = {
+% page 19
+    r1 |
+% A
+    \barNumberCheck #2
+    \repeat unfold 6 r1 |
+    r1 | r1 |
+% B
+    \barNumberCheck #10
+    r1 | r1 | r1 | r1 |
+% page 19.1
+    r1 | r1 | r1 | r1 |
+% C
+    \barNumberCheck #18
+    \repeat unfold 8 {
+	`>synthrecorder=program74;volume.2`1 |
+    }
+% D
+    \barNumberCheck #26
+    \repeat unfold 8 {
+	 r1 |
+    }
+    
+% E
+    \barNumberCheck #34
+    r1 | r1 |
+% page 19.4
+    r1 | r1 |
+    `>pianothree=program0;volume.7`1 |
+    r1 | r1 | r1 |
+% page 19.5
+    r1 |
+    \repeat volta 2 {
+% F
+	\mybarNumberCheck #43
+	r1 | r1 | r1 | r1 | r1 |
+% page 20
+	r1 | r1 | r1 |
+% G
+	\mybarNumberCheck #51
+	r1 | r1 | r1 |
+% page 20.1
+	r1 | r1 | r1 | r1 |
+    } \alternative { {
+	r1 |
+% H
+	\mybarNumberCheck #59
+	r1 |
+% page 20.2
+	r1 | r1 | r1 | r1 | r1 | r1 |
+% page 20.3
+	r1 |
+% I
+	\mybarNumberCheck #67
+	r1 |
+	`>synththree=program90;volume.7`1 |
+	r1 | r1 | r1 | r1 |
+% page 20.4
+	r1 | r1 |
+% J
+	\mybarNumberCheck #75
+	r1 | r1 | r1 | r1 |
+	`>pianothree`1 |
+% page 20.5
+	r1 | r1 | r1 | r1 |
+    } {
+	r1 |
+    } }
+% K
+    \mybarNumberCheck #85
+    r1 |
+% page 21
+    r1 | r1 | r1 |
+    `>pianothree`1 |
+    r1 | r1 |
+% page 21.1
+    r1 | r1 | r1 | r1 | r1 | r1 |
+% page 21.2
+    r1 | r1 | r1 | r1 | r1 |
+% L
+    \mybarNumberCheck #103
+    r1 | r1 |
+% page 21.3
+    r1 | r1 | r1 | r1 | r1 | r1 |
+% page 21.4
+    r1 |
+% M
+    \mybarNumberCheck #112
+    r1 | r1 | r1 | r1 | r1 |
+% page 21.5
+    r1 | r1 | r1 |
+% N
+    \mybarNumberCheck #120
+    r1 | r1 | r1 |
+% page 22
+    r1 | r1 | r1 | r1 | r1 |
+% page 22.1 O
+    \mybarNumberCheck #128
+    r1 | r1 | r1 | r1 | r1 |
+% page 22.2
+    r1 | r1 | r1 | r1 | r1 |
+    \mybarNumberCheck #138
+}

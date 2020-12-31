@@ -9,10 +9,10 @@
 \include "markup"
 \include "drs"
 \include "bass"
-\include "basstext_midi"
+\include "bass_donetext"
 \include "generated-guitar"
 \include "generated-vo"
-\include "generated-votext_midi"
+\include "generated-vo_donetext"
 \include "lyrics"
 \include "karaoke"
 
@@ -80,11 +80,11 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
     } \guitarPart
-    \tag #'(midiBass) \new Staff = "basstext" \midibassText
+    \tag #'(midiBass) \new Staff = "bass_dotext" \bassPartDotext
     \tag #'(midiBass) \new Staff = "bass" \with {
 	midiInstrument = #"electric bass (pick)"
     } \bassPart
-    \tag #'(midiKaraoke) \new Staff = "generated-votext" \midivoPartText
+    \tag #'(midiKaraoke) \new Staff = "generated-vo_dotext" \voPartDotext
     \tag #'(midiKaraoke) \new Staff = "generated-vo" \with {
 	midiInstrument = #"flute" % 73
     } <<

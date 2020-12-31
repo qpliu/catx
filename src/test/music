@@ -3,7 +3,7 @@
 }
 
 \include "notes"
-\include "notestext_midi"
+\include "notes_donetext"
 
 zero = c,,,, % 0
 one = cis,,,, % 1
@@ -268,7 +268,7 @@ notext = \tag #'midiOne \new Staff \with {
 } \notesPart
 
 drumstuff = <<
-    \tag #'midiOne \new Staff = "notestext" \midiText
+    \tag #'midiOne \new Staff = "notes_dotext" \notesPartDotext
     \tag #'midiOne \new Staff = "notes" \with {
 	midiInstrument = #"drums"
 %	midiInstrument = #"room drums"
@@ -288,7 +288,7 @@ drumstuff = <<
 >>
 
 yestext = <<
-    \tag #'midiOne \new Staff = "notestext" \midiText
+    \tag #'midiOne \new Staff = "notes_dotext" \notesPartDotext
     \tag #'midiOne \new Staff = "notes" \notesPart
 >>
 

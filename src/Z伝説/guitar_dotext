@@ -1,0 +1,193 @@
+guitarPartDotext = {
+% page 10
+    \barNumberCheck #1
+    `>clean=program27;volume.6`1 |
+    r1 | r1 | r1 |
+% page 11 Intro Segno3
+    \barNumberCheck #5
+    r1 | r1 |
+    r4 `bendAfter-3`4 r2 |
+    r1 |
+% page 11.1
+    r4 `bendAfter-3`4 r2 |
+    r1 | r1 | r1 |
+% page 12
+    r1 | r1 | r1 |
+% to Coda 3
+    r1 |
+% page 12.1 A
+    \barNumberCheck #17
+    `bendAfter-3`4 r4 r2 |
+    r1 | r1 |
+    r4 r2 <`deadNote=vol.3` `bendAfter-3`>4 |
+% page 13
+    r1 | r1 |
+    r2 `bendAfter-4`4 r4 |
+    r1 |
+% page 13.1
+    r1 | r1 | r1 | r1 |
+% page 14
+    r1 | r1 | r1 | r1 |
+% page 14.1 B
+    \barNumberCheck #33
+    r1 | r1 | r1 | r1 |
+% page 15
+    r1 | r1 | r1 | r1 |
+% page 15.1
+    r1 | r1 | r1 | r1 |
+% page 16
+    r1 | r1 | r1 |
+    `bendAfter-4`4  r4 r2 |
+% page 16.1
+    r1 | r1 | r1 | r1 |
+% page 17
+    r1 | r1 | r1 |
+    r2 `bendAfter-4`4 r4 |
+% page 17.1 C Stegno1
+    \barNumberCheck #57
+    r1 | r1 | r1 | r1 |
+% page 18
+    r1 | r1 | r1 | r1 |
+% page 18.1
+    r1 | r1 | r1 |
+% page 19 D Stegno2
+    \barNumberCheck #68
+    r1 | r1 | r1 |
+% page 19.1
+    r1 | r1 | r1 |
+% page 20
+    r1 | r1 | r1 |
+% page 20.1
+    r1 | r1 | r1 |
+% page 21
+    r1 | r1 | r1 | r1 |
+% page 21.1 E
+    \barNumberCheck #84
+    r1 | r1 | r1 | r1 |
+% page 22
+    r1 | r1 | r1 | r1 |
+% page 22.1
+    r1 |
+% to Coda 1,2
+    r1 | r1 | r1 |
+% page 23 F
+    \barNumberCheck #96
+    `glissandoA4.5`1( |
+    `glissandoA6.3`1)( |
+    `glissandoA-6.3`1)( |
+    `glissandoA-4.5`1)( |
+% page 23.1
+    `glissandoA4.5`1)( |
+    `glissandoA6.3`1)( |
+    `glissandoA-6.3`1)( |
+    `bendAfter-8`2) r |
+% page 24
+    `glissandoA4.5`1( |
+    `glissandoA6.3`1)( |
+    `glissandoA-6.3`1)( |
+    `glissandoA-4.5`1)( |
+    `glissandoA4.5`1)( |
+% page 24.1
+    `glissandoA6.3`1) |
+    r1 | r1 | r1 | r1 |
+% page 25 G
+    \barNumberCheck #114
+    r1 | r1 | r1 | r1 |
+% page 25.1
+    r1 | r1 | r1 | r1 | r1 |
+% page 26 H
+    \barNumberCheck #123
+    r1 | r1 | r1 | r1 |
+% page 26.1
+    r1 | r1 | r1 | r1 |
+% page 27
+    r1 | r1 | r1 | r1 |
+% page 27.1
+    r1 | r1 | r1 |
+    r2 `bendAfter-5`4 r4 |
+% D.S.1
+% page 17.1 C Stegno1-2x
+    \barNumberCheck #139
+    r1 | r1 | r1 | r1 |
+% page 18-2x
+    r1 | r1 | r1 | r1 |
+% page 18.1-2x
+    r1 | r1 | r1 |
+% page 19 D Stegno2-2x
+    \barNumberCheck #150
+    r1 | r1 | r1 |
+% page 19.1-2x
+    r1 | r1 | r1 |
+% page 20-2x
+    r1 | r1 | r1 |
+% page 20.1-2x
+    r1 | r1 | r1 |
+% page 21-2x
+    r1 | r1 | r1 | r1 |
+% page 21.1 E-2x
+    \barNumberCheck #166
+    r1 | r1 | r1 | r1 |
+% page 22-2x
+    r1 | r1 | r1 | r1 |
+% page 22.1-2x
+    r1 |
+% page28 Coda 1
+    \barNumberCheck #175
+    r1 |
+% I
+    \barNumberCheck #176
+    r1 | r1 | r1 | r1 |
+% page28.1
+    r1 | r1 | r1 | r1 |
+% page29
+    r1 | r1 | r1 |
+    r4 `bendAfter-4`4 r8 `bendBefore-2`8 r4 |
+% page29.1
+    r1 |
+    r1 |
+    r1 |
+    r2. `bendAfter-4`4  |
+% page30 J
+    \barNumberCheck #192
+    r1 | r1 | r1 | r1 | r1 |
+% page30.1
+    r1 |
+% D.S.2
+% page 19 D Stegno2-3x
+    \barNumberCheck #198
+    r1 | r1 | r1 |
+% page 19.1-3x
+    r1 | r1 | r1 |
+% page 20-3x
+    r1 | r1 | r1 |
+% page 20.1-3x
+    r1 | r1 | r1 |
+% page 21-3x
+    r1 | r1 | r1 | r1 |
+% page 21.1 E-3x
+    \barNumberCheck #214
+    r1 | r1 | r1 | r1 |
+% page 22-3x
+    r1 | r1 | r1 | r1 |
+% page 22.1-3x
+    r1 |
+% to Coda 1,2
+% page30 Coda 2
+    \barNumberCheck #223
+    r1 |
+% D.S.3
+% page 11 Intro Segno3-2x
+    \barNumberCheck #224
+    r1 | r1 | r1 | r1 |
+% page 11.1-2x
+    r4 `bendAfter-3`4 r2 |
+    r1 | r1 | r1 |
+% page 12-2x
+    r1 | r1 | r1 |
+    \barNumberCheck #235
+% to Coda 3
+% page30 Coda 3
+    \barNumberCheck #235
+    r1 | r1 |
+    \barNumberCheck #237
+}

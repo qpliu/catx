@@ -8,14 +8,12 @@
 \include "generated-vocalsLyrics"
 \include "generated-karaoke"
 \include "generated-guitar"
-\include "generated-guitartext_midi"
-\include "generated-guitartext_lyrics"
+\include "generated-guitar_donetext"
 \include "generated-steelpan"
 \include "generated-midiOne"
 \include "generated-midiTwo"
 \include "generated-bass"
-\include "generated-basstext_midi"
-\include "generated-basstext_lyrics"
+\include "generated-bass_donetext"
 \include "generated-drs"
 
 layoutmusic = <<
@@ -76,7 +74,7 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff = "generated-guitar" \with {
         midiInstrument = #"acoustic guitar (steel)"
     } \guitar
-    \tag #'(midiPeter) \new Staff = "generated-guitartext" \midiguitarText
+    \tag #'(midiPeter) \new Staff = "generated-guitar_dotext" \guitarDotext
     \tag #'(midiSusan) \new Staff = "generated-steelpan" \with {
         midiInstrument = #"violin"
     } \steelpan
@@ -89,7 +87,7 @@ midimusic = <<
     \tag #'(midiBass) \new Staff = "generated-bass" \with {
         midiInstrument = #"electric bass (pick)"
     } \bass
-    \tag #'(midiBass) \new Staff = "generated-basstext" \midibassText
+    \tag #'(midiBass) \new Staff = "generated-bass_dotext" \bassDotext
     \tag #'(midiGg) \new DrumStaff = "generated-drs" \with {
         drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drs
