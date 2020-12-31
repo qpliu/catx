@@ -1,4 +1,5 @@
-karaoke = \new Lyrics \lyricmode {
+vocalsKaraoke = \new Lyrics \lyricmode {
+    \myVocalsStuff
 \mymark "Intro                          TAB by JPGR" #1
     ""1
     ""1

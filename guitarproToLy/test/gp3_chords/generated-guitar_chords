@@ -1,4 +1,4 @@
-mychords = \new ChordNames {
+guitarChords = \new ChordNames {
 \mymark "Verse 1 and 2" #1
     <a, e a cis' e'>16. \skip2 \skip8 \skip32 <cis f a cis'>4 |
     \skip2. <a, dis a c'>4 |

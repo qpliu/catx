@@ -7,39 +7,27 @@ java -jar ../../guitarproToLy/1.jar <"$WHERE" \
 scale "$SCALE" \
 track 7 \
     preset kav \
+    output-lilypond \
+    output-lyrics \
+    output-karaoke \
 track 7 \
-    preset lyrics \
-track 6 \
-    preset midiOne \
-track 6 \
-    name midiOne \
-    midi-who midiOne \
+    preset susan \
+track 0 \
+    preset peter \
     output-dotext \
 track 4 \
     preset bass \
+track 6 \
+    preset midiOne \
+    output-dotext \
 track 3 \
     preset midiTwo \
-track 3 \
-    name midiTwo \
-    midi-who midiTwo \
     output-dotext \
 track 2 \
     preset midiThree \
-track 2 \
-    name midiThree \
-    midi-who midiThree \
     output-dotext \
 track 1 \
     preset midiFour \
-track 1 \
-    name midiFour \
-    midi-who midiThree \
-    output-dotext \
-track 0 \
-    preset peter \
-track 0 \
-    name guitar \
-    midi-who midiPeter \
     output-dotext \
 track 5 \
     preset gg \

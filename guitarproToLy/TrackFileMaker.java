@@ -5,20 +5,19 @@ abstract class TrackFileMaker extends FileMaker{
     final Gpfile.Track track;
     final String lyname;
     Arg arg;
-    static TrackFileMaker newTrackFileMaker(Main main,Arg arg)throws IOException{
-	if (arg.partName==null)
-	    return null;
-	if (arg.output_dotext)
-	    return new DotextFileMaker(main,arg);
+    static void addTrackFileMaker(Main main,Arg arg)throws IOException{
 	if (arg.output_chords)
-	    return new ChordsFileMaker(main,arg);
+	    main.trackFileMaker.add(new ChordsFileMaker(main,arg));
+	if (arg.output_dotext)
+	    main.trackFileMaker.add(new DotextFileMaker(main,arg));
+	if (arg.output_drums)
+	    main.trackFileMaker.add(new DrumTrackFileMaker(main,arg));
+	if (arg.output_lilypond)
+	    main.trackFileMaker.add(new LyTrackFileMaker(main,arg));
 	if (arg.output_lyrics)
-	    return new LyricsFileMaker(main,arg,false);
+	    main.trackFileMaker.add(new LyricsFileMaker(main,arg,false));
 	if (arg.output_karaoke)
-	    return new LyricsFileMaker(main,arg,true);
-	if (main.gpfile.tracks[arg.trackNumber].isDrums)
-	    return new DrumTrackFileMaker(main,arg);
-	return new LyTrackFileMaker(main,arg);
+	    main.trackFileMaker.add(new LyricsFileMaker(main,arg,true));
     }
     TrackFileMaker(Main main,Arg arg,String fn,String suffix,String lyname)throws IOException{
 	super(main,fn,suffix);

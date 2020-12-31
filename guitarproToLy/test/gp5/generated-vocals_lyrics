@@ -1,9 +1,14 @@
 vocalsLyrics = \new Lyrics \lyricmode {
-\mymark "Riff 1" #1
+    \myVocalsStuff
+    ""2 |
+\mymark "Intro" #2
     ""1 |
     ""1 |
+    "timing here varies, just make sure the top note"16 ""2. ""8. |
+    "lands on the \"and\" of every beat"16 ""2. ""8. |
     ""1 |
     ""1 |
+\mymark "Verse 1A" #8
     ""1 |
     ""1 |
     ""1 |
@@ -12,6 +17,7 @@ vocalsLyrics = \new Lyrics \lyricmode {
     ""1 |
     ""1 |
     ""1 |
+\mymark "Verse 1B" #16
     ""1 |
     ""1 |
     ""1 |
@@ -20,12 +26,19 @@ vocalsLyrics = \new Lyrics \lyricmode {
     ""1 |
     ""1 |
     ""1 |
+\mymark "Pre-Chorus 1" #24
+    ""2. |
+    ""2. |
+    ""2. |
+    ""2. |
+    "to get the full effect of these licks, mute the"16 ""2 ""8. " vocal track"16 ""8. |
     ""1 |
     ""1 |
+\mymark "Chorus 1A" #31
     ""1 |
     ""1 |
-\mymark "Riff 2" #25
     ""1 |
+    "w/ wah"4 ""2. |
     ""1 |
     ""1 |
     ""1 |
@@ -33,16 +46,15 @@ vocalsLyrics = \new Lyrics \lyricmode {
     ""1 |
     ""1 |
     ""1 |
-\mymark "Verse 1" #33
     ""1 |
     ""1 |
     ""1 |
     ""1 |
     ""1 |
+\mymark "Chorus 1B" #47
     ""1 |
     ""1 |
     ""1 |
-\mymark "Chorus" #41
     ""1 |
     ""1 |
     ""1 |
@@ -57,37 +69,47 @@ vocalsLyrics = \new Lyrics \lyricmode {
     ""1 |
     ""1 |
     ""1 |
+\mymark "Interlude" #64
+    "octave pedal"16 ""2. ""8. |
     ""1 |
     ""1 |
-\mymark "Riff 1" #57
     ""1 |
     ""1 |
+    "the notes in ( ) aren't played by this guitar"8 ""2. ""8 |
+    "but u can add them in if u want"8 ""2. ""8 |
+    \tuplet 3/2 { "delay"8 ""1 } ""4 |
     ""1 |
+\mymark "Verse 2A" #73
     ""1 |
     ""1 |
     ""1 |
     ""1 |
     ""1 |
-\mymark "Riff 2" #65
     ""1 |
     ""1 |
     ""1 |
+\mymark "Verse 2B" #81
     ""1 |
     ""1 |
     ""1 |
     ""1 |
     ""1 |
-\mymark "Verse 2" #73
     ""1 |
     ""1 |
     ""1 |
+\mymark "Pre-Chorus 2" #89
+    ""2. |
+    ""2. |
+    ""2. |
+    ""2. |
     ""1 |
     ""1 |
     ""1 |
+\mymark "Chorus 2A" #96
     ""1 |
     ""1 |
-\mymark "Chorus" #81
     ""1 |
+    "w/ wah"4 ""2. |
     ""1 |
     ""1 |
     ""1 |
@@ -100,10 +122,10 @@ vocalsLyrics = \new Lyrics \lyricmode {
     ""1 |
     ""1 |
     ""1 |
+\mymark "Chorus 2B" #112
     ""1 |
     ""1 |
     ""1 |
-\mymark "Post-Chorus" #97
     ""1 |
     ""1 |
     ""1 |
@@ -112,7 +134,6 @@ vocalsLyrics = \new Lyrics \lyricmode {
     ""1 |
     ""1 |
     ""1 |
-\mymark "Riff 1" #105
     ""1 |
     ""1 |
     ""1 |
@@ -120,6 +141,7 @@ vocalsLyrics = \new Lyrics \lyricmode {
     ""1 |
     ""1 |
     ""1 |
+\mymark "Bridge" #130
     ""1 |
     ""1 |
     ""1 |
@@ -129,8 +151,11 @@ vocalsLyrics = \new Lyrics \lyricmode {
     ""1 |
     ""1 |
     ""1 |
-\mymark "Solo" #121
     ""1 |
+\mymark "Guitar Solo" #140
+    "it's Marty so timing is a bit hard to get perfect"4 ""2. |
+    ""2 " just know that he's playing slightly ahead of the"8. ""4 ""16 |
+    ""2 ""8 "beat" ""4 |
     ""1 |
     ""1 |
     ""1 |
@@ -139,9 +164,12 @@ vocalsLyrics = \new Lyrics \lyricmode {
     ""1 |
     ""1 |
     ""1 |
+    ""2. ""8 "middle harmony (3rds)" |
     ""1 |
+    ""2. ""8 "octave pedal"16 "" |
     ""1 |
     ""1 |
+\mymark "Post Solo/Pre-Chorus 3" #156
     ""1 |
     ""1 |
     ""1 |
@@ -151,10 +179,12 @@ vocalsLyrics = \new Lyrics \lyricmode {
     ""1 |
     ""1 |
     ""1 |
+    "w/ wah"4 ""2. |
+\mymark "Chorus 3A" #166
+    "i tried my best..."2 "" |
     ""1 |
     ""1 |
     ""1 |
-\mymark "Verse 3" #145
     ""1 |
     ""1 |
     ""1 |
@@ -162,10 +192,12 @@ vocalsLyrics = \new Lyrics \lyricmode {
     ""1 |
     ""1 |
     ""1 |
+    ""4 "flutter"8 ""2 ""8 |
     ""1 |
-\mymark "Bridge" #153
     ""1 |
+    "timing is very odd here"32 ""2. ""8. ""32 |
     ""1 |
+\mymark "Chorus 3B" #182
     ""1 |
     ""1 |
     ""1 |
@@ -180,11 +212,11 @@ vocalsLyrics = \new Lyrics \lyricmode {
     ""1 |
     ""1 |
     ""1 |
-\mymark "Chorus" #169
     ""1 |
     ""1 |
     ""1 |
     ""1 |
+\mymark "Ending" #200
     ""1 |
     ""1 |
     ""1 |
@@ -197,16 +229,8 @@ vocalsLyrics = \new Lyrics \lyricmode {
     ""1 |
     ""1 |
     ""1 |
-\mymark "Post-Chorus" #185
     ""1 |
     ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-\mymark "Outro" #193
     ""1 |
     ""1 |
     ""1 |

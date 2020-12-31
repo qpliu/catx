@@ -5,27 +5,22 @@ java -jar ../../1.jar <"/share/mirror/songsterr/stuff/d-keep/d-The Beatles/d-Don
 scale "" \
 track 3 \
     preset kav \
+    output-lilypond \
 track 0 \
-    preset lyrics \
-track 0 \
-    preset karaoke \
-track 0 \
-    preset peter \
-track 0 \
-    name guitar \
-    midi-who midiPeter \
-    output-dotext \
+    preset kav \
+    output-lyrics \
+    output-karaoke \
 track 2 \
     preset susan \
+track 0 \
+    preset peter \
+    output-dotext \
 track 4 \
     preset midiOne \
 track 5 \
     preset midiTwo \
 track 6 \
     preset bass \
-track 6 \
-    name bass \
-    midi-who midiBass \
     output-dotext \
 track 7 \
     preset gg \

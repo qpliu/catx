@@ -9,7 +9,7 @@ final class LyricsFileMaker extends ChoppedTrackFileMaker{
     };
     final boolean karaoke;
     LyricsFileMaker(Main main,Arg arg,boolean karaoke)throws IOException{
-	super(main,arg,arg.partName,"",arg.partName,Gpfile.LyricEvent.class,EMPTYSTRING_GWS);
+	super(main,arg,arg.name+(karaoke?"_karaoke":"_lyrics"),"",arg.name+(karaoke?"Karaoke":"Lyrics"),Gpfile.LyricEvent.class,EMPTYSTRING_GWS);
 	this.karaoke = karaoke;
     }
     @Override void make()throws IOException{
@@ -33,5 +33,13 @@ final class LyricsFileMaker extends ChoppedTrackFileMaker{
 	if (karaoke && measure.endsWith(" |"))
 	    measure = measure.substring(0,measure.length()-2);
 	print(measure);
+    }
+    @Override void layout(MusicFileMaker mfm)throws IOException{
+	if (!karaoke)
+	    super.layout(mfm);
+    }
+    @Override void midi(MusicFileMaker mfm)throws IOException{
+	if (karaoke)
+	    super.midi(mfm);
     }
 }

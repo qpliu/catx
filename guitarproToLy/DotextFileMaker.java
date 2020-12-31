@@ -3,13 +3,7 @@ import java.util.*;
 
 final class DotextFileMaker extends ChoppedTrackFileMaker{
     DotextFileMaker(Main main,Arg arg)throws IOException{
-	super(main,arg,arg.partName+"_dotext","",arg.partName+"Dotext",Gpfile.DotextEvent.class,MeasureMaker.SKIP);
-    }
-    @Override void make()throws IOException{
-	print(lyname+" =");
-	indent("{");
-	makeMeasures();
-	unindent("}");
+	super(main,arg,arg.name+"_dotext","",arg.name+"Dotext",Gpfile.DotextEvent.class,MeasureMaker.SKIP);
     }
     @Override void midi(MusicFileMaker mfm)throws IOException{
 	if (arg.midi_who!=null)
@@ -19,6 +13,7 @@ final class DotextFileMaker extends ChoppedTrackFileMaker{
 	String done=filename.substring(0,filename.length()-7)+"_donetext";
 	fm.print("\\include "+Stuff.quote(done));
     }
+    @Override void layout(MusicFileMaker mfm)throws IOException{}
     @Override MeasureMaker.GetWhatSuffix getGetWhatSuffix(List<Gpfile.Event>list){
 	boolean allTied=true;
 	for (Gpfile.Event e:list)

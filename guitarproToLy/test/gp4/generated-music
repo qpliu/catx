@@ -4,13 +4,13 @@
 }
 
 \include "generated-markup"
-\include "generated-guitar"
 \include "generated-guitar_donetext"
+\include "generated-guitar"
 \include "generated-guitarTwo"
-\include "generated-guitarThree"
 \include "generated-guitarThree_donetext"
-\include "generated-guitarFour"
+\include "generated-guitarThree"
 \include "generated-guitarFour_donetext"
+\include "generated-guitarFour"
 \include "generated-midiOne"
 \include "generated-bass"
 \include "generated-drs"
@@ -71,7 +71,7 @@ layoutmusic = <<
     \tag #'(allPart bassPart) \new TabStaff \with {
         stringTunings = \stringTuning <e,, a,, d, g,>
     } \bass
-    \tag #'(allPart ggPart) \new DrumStaff \with {
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
         instrumentName = \markup { \rotate #90 "Drums" }
         shortInstrumentName = \markup { \rotate #90 "Drs" }
         drumStyleTable = #(alist->hash-table myDrumStyleTable)
@@ -83,21 +83,21 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
+    \tag #'(midiPeter) \new Staff = "generated-guitar_dotext" \guitarDotext
     \tag #'(midiPeter) \new Staff = "generated-guitar" \with {
         midiInstrument = #"acoustic guitar (steel)"
     } \guitar
-    \tag #'(midiPeter) \new Staff = "generated-guitar_dotext" \guitarDotext
     \tag #'(midiPeter) \new Staff = "generated-guitarTwo" \with {
         midiInstrument = #"acoustic guitar (steel)"
     } \guitarTwo
+    \tag #'(midiPeter) \new Staff = "generated-guitarThree_dotext" \guitarThreeDotext
     \tag #'(midiPeter) \new Staff = "generated-guitarThree" \with {
         midiInstrument = #"overdriven guitar"
     } \guitarThree
-    \tag #'(midiPeter) \new Staff = "generated-guitarThree_dotext" \guitarThreeDotext
+    \tag #'(midiPeter) \new Staff = "generated-guitarFour_dotext" \guitarFourDotext
     \tag #'(midiPeter) \new Staff = "generated-guitarFour" \with {
         midiInstrument = #"overdriven guitar"
     } \guitarFour
-    \tag #'(midiPeter) \new Staff = "generated-guitarFour_dotext" \guitarFourDotext
     \tag #'(midiOne) \new Staff = "generated-midiOne" \with {
         midiInstrument = #"string ensemble 2"
     } \midiOne

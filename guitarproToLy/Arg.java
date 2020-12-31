@@ -2,16 +2,18 @@ import java.util.*;
 
 final class Arg implements Cloneable{
     int trackNumber=-1;
-    String partName;
+    String name;
     String layout_who;
     String midi_who;
     String drumMap;
     String[]scale={"c","cis","d","dis","e","f","fis","g","gis","a","ais","b"};
     boolean layout_tabs;
     boolean output_chords;
-    boolean output_karaoke;
-    boolean output_lyrics;
     boolean output_dotext;
+    boolean output_drums;
+    boolean output_karaoke;
+    boolean output_lilypond;
+    boolean output_lyrics;
     boolean string_numbers;
     Rational shift=Rational.ZERO;
     String instrument_name;
@@ -39,62 +41,52 @@ final class Arg implements Cloneable{
 	if (preset.equals("flats"))
 	    setScale("des ees ges aes bes");
 	else if (preset.equals("gg")){
-	    partName = "drs";
-	    layout_who = "allPart ggPart";
+	    name = "drs";
+	    layout_who = "allPart ggPart kavPart";
+	    midi_who = "midiGg";
 	    instrument_name = "Drums";
 	    instrument_short_name = "Drs";
-	    midi_who = "midiGg";
+	    output_drums = true;
 	}else if (preset.equals("kav")){
-	    partName = "vocals";
+	    name = "vocals";
 	    layout_who = "allPart kavPart";
+	    midi_who = "midiKaraoke";
 	    instrument_name = "Vocals";
 	    instrument_short_name = "Vo";
-	    midi_who = "midiKaraoke";
-	    layout_extra.add("\\vocalsLyrics");
-	    layout_extra.add("\\drs");
 	    music_extra.add("\\myVocalsStuff");
 	}else if (preset.equals("susan")){
-	    setScale("gis fis cis");
-	    partName = "steelpan";
+	    name = "steelpan";
 	    layout_who = "allPart susanPart";
+	    midi_who = "midiSusan";
 	    instrument_name = "Steelpan";
 	    instrument_short_name = "Sp";
-	    midi_who = "midiSusan";
 	    music_extra.add("\\myVocalsStuff");
-	}else if (preset.equals("kav")){
-	    partName = "vocals";
-	    layout_who = "allPart kavPart";
-	    instrument_name = "Vocals";
-	    instrument_short_name = "Vo";
-	    midi_who = "midiKav";
-	}else if (preset.equals("karaoke")){
-	    partName = "karaoke";
-	    output_karaoke = true;
-	    midi_who = "midiKaraoke";
+	    setScale("gis fis cis");
+	    output_lilypond = true;
 	}else if (preset.equals("midiOne") || preset.equals("midiTwo") || preset.equals("midiThree") || preset.equals("midiFour")){
-	    partName = preset;
+	    name = preset;
 	    midi_who = preset;
-	}else if (preset.equals("lyrics")){
-	    partName = "vocalsLyrics";
-	    output_lyrics = true;
+	    output_lilypond = true;
 	}else if (preset.equals("bass")){
-	    partName = "bass";
+	    name = "bass";
 	    layout_who = "allPart bassPart";
 	    layout_extra.add("\\clef \"bass_8\"");
+	    layout_tabs = true;
+	    midi_who = "midiBass";
 	    instrument_name = "Bass";
 	    instrument_short_name  = "Ba";
-	    midi_who = "midiBass";
-	    layout_tabs = true;
 	    string_numbers  = true;
+	    output_lilypond = true;
 	}else if (preset.equals("peter")){
-	    partName = "guitar";
+	    name = "guitar";
 	    layout_who = "allPart peterPart";
 	    layout_extra.add("\\clef \"treble_8\"");
+	    layout_tabs = true;
+	    midi_who = "midiPeter";
 	    instrument_name = "Guitar";
 	    instrument_short_name  = "Gtr";
-	    midi_who = "midiPeter";
-	    layout_tabs = true;
 	    string_numbers  = true;
+	    output_lilypond = true;
 	}else
 	    throw new RuntimeException();
     }

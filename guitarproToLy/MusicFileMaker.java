@@ -12,27 +12,18 @@ final class MusicFileMaker extends FileMaker{
 	unindent("}");
 	print();
 	main.markupFileMaker.printInclude(this);
-	for (int i=0; i<main.trackFileMaker.length; i++){
-	    TrackFileMaker tfm=main.trackFileMaker[i];
-	    if (tfm!=null)
-		tfm.printInclude(this);
-	}
+	for (TrackFileMaker tfm:main.trackFileMaker)
+	    tfm.printInclude(this);
 	print();
 	indent("layoutmusic = <<");
-	for (int i=0; i<main.trackFileMaker.length; i++){
-	    TrackFileMaker tfm=main.trackFileMaker[i];
-	    if (tfm!=null)
-		tfm.layout(this);
-	}
+	for (TrackFileMaker tfm:main.trackFileMaker)
+	    tfm.layout(this);
 	unindent(">>");
 	print();
 	indent("midimusic = <<");
 	print("\\"+main.markupFileMaker.lyname);
-	for (int i=0; i<main.trackFileMaker.length; i++){
-	    TrackFileMaker tfm=main.trackFileMaker[i];
-	    if (tfm!=null)
-		tfm.midi(this);
-	}
+	for (TrackFileMaker tfm:main.trackFileMaker)
+	    tfm.midi(this);
 	unindent(">>");
     }
 }

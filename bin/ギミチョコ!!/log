@@ -1,18 +1,3 @@
-generated-basstabs
-Scores: 180 180 198 198 221 221 221 1050 1050 1157 1157 1182
-Best key: cis minor or e major or gis minor or b major
-generated-guitar1tabs
-Scores: 414 420 432 450 510 610 664 1072 1154 1186 1202 1346
-Best key: gis minor or b major
-generated-guitar2tabs
-Scores: 324 342 360 420 420 520 664 1210 1292 1324 1340 1484
-Best key: gis minor or b major
-generated-guitar3tabs
-Scores: 39 47 56 62 66 89 92 94 102 117 122 129
-Best key: c major or a minor
-generated-guitar4tabs
-Scores: 21 28 29 36 39 42 48 48 49 52 58 60
-Best key: c major or a minor
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
@@ -34,13 +19,20 @@ Format: 1  Tracks: 14  Divisions: 384
 Playing time: ~225 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 32304798/39366296 bytes(82.0621% compressed)
+Wrote 32403525/39366296 bytes(82.3129% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+warning: compressing over-full page by 1.5 staff-spaces
+warning: page 2 has been compressed
+warning: compressing over-full page by 2.6 staff-spaces
+warning: page 4 has been compressed
+warning: compressing over-full page by 2.4 staff-spaces
+warning: page 8 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-warning: compressing over-full page by 7.5 staff-spaces
+warning: compressing over-full page by 9.9 staff-spaces
 warning: page 0 has been compressed
-warning: compressing over-full page by 7.2 staff-spaces
+warning: compressing over-full page by 7.1 staff-spaces
 warning: page 1 has been compressed
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

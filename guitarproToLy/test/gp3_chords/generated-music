@@ -4,11 +4,11 @@
 }
 
 \include "generated-markup"
-\include "generated-mychords"
+\include "generated-guitar_chords"
 \include "generated-guitar"
 
 layoutmusic = <<
-    \tag #'(allPart peterPart) \mychords
+    \tag #'(allPart peterPart) \guitarChords
     \tag #'(allPart peterPart) \new Staff \with {
         instrumentName = \markup { \rotate #90 "Guitar" }
         shortInstrumentName = \markup { \rotate #90 "Gtr" }
@@ -24,6 +24,7 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
+    \tag #'(midiPeter) \guitarChords
     \tag #'(midiPeter) \new Staff = "generated-guitar" \with {
         midiInstrument = #"acoustic guitar (steel)"
     } \guitar

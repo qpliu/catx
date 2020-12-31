@@ -13,11 +13,13 @@ final class GuitarproToLy{
 	System.err.println("[layout-who who]  Specify who for layout.");
 	System.err.println("[midi-who who]  Specify who for midi.");
 	System.err.println("[music-extra stuff]  Extra stuff for music.");
-	System.err.println("[name partName]  Specify partName.");
+	System.err.println("[name name]  Specify name.");
 	System.err.println("[output-chords]  Output chords.");
-	System.err.println("[output-karaoke]  Output karaoke.");
-	System.err.println("[output-lyrics]  Output lyrics.");
 	System.err.println("[output-dotext]  Output dotext.");
+	System.err.println("[output-drums]  Output drums.");
+	System.err.println("[output-karaoke]  Output karaoke.");
+	System.err.println("[output-lilypond]  Output lilypond.");
+	System.err.println("[output-lyrics]  Output lyrics.");
 	System.err.println("[preset who]  Use preset settings.");
 	System.err.println("[scale scale]  Specify note spelling.  Something like scale \"c des eisis\"");
 	System.err.println("[shift n/d]  Shift notes right n/d beats.  Use shift -21/5 to shift notes left 4 1/5th beat.");
@@ -26,14 +28,14 @@ final class GuitarproToLy{
 	System.exit(1);
     }
     public static void main(String[]argv)throws IOException{
-	List<Arg>trackarg=new ArrayList<Arg>();
+	List<Arg>trackargs=new ArrayList<Arg>();
 	Arg globalarg=new Arg();
 	Arg arg=globalarg;
 	for (int i=0; i<argv.length; i++)
 	    if (argv[i].equals("track")){
 		arg = globalarg.clone();
 		arg.trackNumber = Integer.parseInt(argv[++i]);
-		trackarg.add(arg);
+		trackargs.add(arg);
 	    }else if (argv[i].equals("drumMap"))
 		arg.drumMap = argv[++i];
 	    else if (argv[i].equals("instrument-name"))
@@ -51,17 +53,19 @@ final class GuitarproToLy{
 	    else if (argv[i].equals("music-extra"))
 		arg.music_extra.add(argv[++i]);
 	    else if (argv[i].equals("name"))
-		arg.partName = argv[++i];
-	    else if (argv[i].equals("string-numbers"))
-		arg.string_numbers = true;
+		arg.name = argv[++i];
 	    else if (argv[i].equals("output-chords"))
 		arg.output_chords = true;
-	    else if (argv[i].equals("output-karaoke"))
-		arg.output_karaoke = true;
-	    else if (argv[i].equals("output-lyrics"))
-		arg.output_lyrics = true;
 	    else if (argv[i].equals("output-dotext"))
 		arg.output_dotext = true;
+	    else if (argv[i].equals("output-drums"))
+		arg.output_drums = true;
+	    else if (argv[i].equals("output-karaoke"))
+		arg.output_karaoke = true;
+	    else if (argv[i].equals("output-lilypond"))
+		arg.output_lilypond = true;
+	    else if (argv[i].equals("output-lyrics"))
+		arg.output_lyrics = true;
 	    else if (argv[i].equals("preset"))
 		arg.setPreset(argv[++i]);
 	    else if (argv[i].equals("scale"))
@@ -72,13 +76,15 @@ final class GuitarproToLy{
 		    arg.shift = new Rational(Long.parseLong(argv[i]));
 		else
 		    arg.shift = new Rational(Long.parseLong(argv[i].substring(0,j)),Long.parseLong(argv[i].substring(j+1)));
-	    }else if (argv[i].equals("verbose"))
+	    }else if (argv[i].equals("string-numbers"))
+		arg.string_numbers = true;
+	    else if (argv[i].equals("verbose"))
 		Log.level = Integer.parseInt(argv[++i]);
 	    else{
 		Log.error("%s is weird",argv[i]);
 		usage();
 	    }
 	Gpfile gpfile=new Gp5file(new DataInputStream(System.in),globalarg);
-	new Main(gpfile,globalarg,trackarg).make();
+	new Main(gpfile,globalarg,trackargs).make();
     }
 }

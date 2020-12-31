@@ -3,7 +3,7 @@ import java.util.*;
 
 class SuperTrackFileMaker extends ChoppedTrackFileMaker{
     SuperTrackFileMaker(Main main,String suffix,Arg arg,Class clazz,MeasureMaker.GetWhatSuffix skip)throws IOException{
-	super(main,arg,arg.partName,suffix,arg.partName,clazz,skip);
+	super(main,arg,arg.name,suffix,arg.name,clazz,skip);
     }
     @Override final void layout(MusicFileMaker mfm)throws IOException{
 	if (arg.layout_who==null)
