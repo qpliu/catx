@@ -8,8 +8,8 @@ class TrackFileMaker extends FileMaker{
     static TrackFileMaker newTrackFileMaker(Main main,Arg arg)throws IOException{
 	if (arg.partName==null)
 	    return null;
-	if (arg.output_text)
-	    return new TextFileMaker(main,arg);
+	if (arg.output_dotext)
+	    return new DotextFileMaker(main,arg);
 	if (arg.output_chords)
 	    return new ChordsFileMaker(main,arg);
 	if (arg.output_lyrics)
@@ -30,6 +30,9 @@ class TrackFileMaker extends FileMaker{
 	indent(lyname+" = {");
 	makeMeasures();
 	unindent("}");
+    }
+    final String getStaffType(){
+	return this instanceof DrumTrackFileMaker?"DrumStaff":"Staff";
     }
     final void makeMeasures()throws IOException{
 	for (String s:arg.music_extra)
@@ -67,8 +70,7 @@ class TrackFileMaker extends FileMaker{
 	if (tripletFeel!=null)
 	    unindent(/*{*/"}");
     }
-    void makeMeasure(Gpfile.Measure measure,PriorityQueue<Gpfile.Event>events)throws IOException{
-    }
+    void makeMeasure(Gpfile.Measure measure,PriorityQueue<Gpfile.Event>events)throws IOException{}
     void layout(MusicFileMaker mfm)throws IOException{
 	if (arg.layout_who!=null)
 	    mfm.print("\\tag #'("+arg.layout_who+") \\"+lyname);

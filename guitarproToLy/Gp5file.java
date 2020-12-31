@@ -293,7 +293,7 @@ final class Gp5file extends Gpfile{
 		if ((bits&2)!=0)
 		    track.events.add(new ChordEvent(time,duration,new Chord().read(track)));
 		if ((bits&4)!=0)
-		    track.events.add(new TextEvent(time,duration,readIntSizeBlob().toByteSizeString()));
+		    track.events.add(new LyricEvent(time,duration,readIntSizeBlob().toByteSizeString()));
 		BeatEffects beatEffects=null;
 		if ((bits&8)!=0)
 		    beatEffects = new BeatEffects().read();

@@ -16,13 +16,13 @@ final class LyricsFileMaker extends TrackFileMaker{
 	MeasureMaker mm=new MeasureMaker(measure);
 	while (events.size()!=0){
 	    Gpfile.Event e=events.poll();
-	    if (!e.tie_rhs && e instanceof Gpfile.TextEvent){
-		Gpfile.TextEvent te=(Gpfile.TextEvent)e;
-		if (te.text!=null){
-		    mm.make(te.time,"\"\"",false);
-		    mm.make(te.time.add(te.duration),new MeasureMaker.GetWhatSuffix(){
+	    if (!e.tie_rhs && e instanceof Gpfile.LyricEvent){
+		Gpfile.LyricEvent le=(Gpfile.LyricEvent)e;
+		if (le.lyric!=null){
+		    mm.make(le.time,"\"\"",false);
+		    mm.make(le.time.add(le.duration),new MeasureMaker.GetWhatSuffix(){
 			@Override public String getWhat(boolean is_lhs,boolean is_rhs){
-			    return is_lhs?Stuff.quote(te.text):"\\skip";
+			    return is_lhs?Stuff.quote(le.lyric):"\\skip";
 			}
 			@Override public String getSuffix(boolean is_lhs,boolean is_rhs){
 			    return "";

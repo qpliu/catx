@@ -8,8 +8,10 @@ final class Twiddler{
 	this.gpfile = gpfile;
     }
     void twiddle(){
-	for (Gpfile.Track track:gpfile.tracks)
+	for (Gpfile.Track track:gpfile.tracks){
 	    joinTies(track);
+	    makeSlide(track);
+	}
     }
     private void joinTies(Gpfile.Track track){
 	Gpfile.NoteEvent[]a=new Gpfile.NoteEvent[track.tuning.length];
@@ -39,5 +41,31 @@ final class Twiddler{
 	for (Gpfile.Event e:a)
 	    if (e!=null)
 		track.events.add(e);
+    }
+    private void makeSlide(Gpfile.Track track){
+	PriorityQueue<Gpfile.NoteEvent>q=new PriorityQueue<Gpfile.NoteEvent>();
+	for (Gpfile.Event e:track.events)
+	    if (e instanceof Gpfile.NoteEvent)
+		q.add((Gpfile.NoteEvent)e);
+	for (Gpfile.NoteEvent ne; (ne=q.poll())!=null;)
+	    if (ne.slide!=null){
+		int count=1;
+		Rational end=ne.time.add(ne.duration);
+		Rational slideEnd=ne.time.add(ne.duration);
+		Rational lastTime=ne.time;
+		while (q.size()!=0 && q.peek().time.compareTo(end)<=0){
+		    Gpfile.NoteEvent e=q.poll();
+		    Rational ee=e.time.add(e.duration);
+		    if (e.slide!=null && ee.compareTo(end)>0)
+			end = ee;
+		    if (ee.compareTo(slideEnd)>0)
+			slideEnd = ee;
+		    if (!e.time.equals(lastTime)){
+			lastTime = e.time;
+			count++;
+		    }
+		}
+		track.events.add(new Gpfile.DotextEvent(ne.time,slideEnd.subtract(ne.time),"slide"+count));
+	    }
     }
 }

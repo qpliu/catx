@@ -570,8 +570,10 @@ final class MergeMidi{
 		index[0]++;
 		return;
 	    }
+	    if (note.time==last.time)
+		return;
 	    long startTime=index[0]==1?last.time:(last.time+last.stop)/2;
-	    long endTime=index[0]==count?note.stop:(note.time+note.stop)/2;
+	    long endTime=index[0]==count-1?note.stop:(note.time+note.stop)/2;
 	    NoteEvent n=new NoteEvent(startTime,last.id,last.outTrackIndex,endTime,last.trackName,last.key,last.velocity,last.percussion);
 	    double y0=0x2000;
 	    double y1=0x2000+0x1fff/BEND_RANGE*(note.key-last.key);
@@ -580,7 +582,7 @@ final class MergeMidi{
 		oc.add(n.time+j*(n.stop-n.time)/(BEND_MAX_SIZE-1),n.outTrackIndex,0xe0,bend&127,bend>>7);
 	    }
 	    oc.addNote(program,n);
-	    if (index[0]==count){
+	    if (++index[0]>=count){
 		index[0] = 0;
 		oc.add(n.stop,n.outTrackIndex,0xe0,0,0x40);
 	    }

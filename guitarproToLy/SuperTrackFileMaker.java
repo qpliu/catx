@@ -5,11 +5,7 @@ class SuperTrackFileMaker extends TrackFileMaker{
     SuperTrackFileMaker(Main main,String suffix,Arg arg)throws IOException{
 	super(main,arg,arg.partName,suffix,arg.partName);
     }
-    String getStaffType(){
-	return "Staff";
-    }
-    void layoutExtra(MusicFileMaker mfm){}
-    final @Override void layout(MusicFileMaker mfm)throws IOException{
+    @Override final void layout(MusicFileMaker mfm)throws IOException{
 	if (arg.layout_who==null)
 	    return;
 	mfm.indent("\\tag #'("+arg.layout_who+") \\new "+getStaffType()+" \\with {");
@@ -17,7 +13,8 @@ class SuperTrackFileMaker extends TrackFileMaker{
 	    mfm.print("instrumentName = \\markup { \\rotate #90 \""+arg.instrument_name+"\" }");
 	if (arg.instrument_short_name!=null)
 	    mfm.print("shortInstrumentName = \\markup { \\rotate #90 \""+arg.instrument_short_name+"\" }");
-	layoutExtra(mfm);
+	if (this instanceof DrumTrackFileMaker)
+	    mfm.print("drumStyleTable = #(alist->hash-table myDrumStyleTable)");
 	mfm.unindentindent("} <<");
 	mfm.print("\\"+main.markupFileMaker.lyname);
 	mfm.print('\\'+lyname);
@@ -34,13 +31,17 @@ class SuperTrackFileMaker extends TrackFileMaker{
 	    mfm.unindent("} \\"+lyname);
 	}
     }
-    @Override void midi(MusicFileMaker mfm)throws IOException{
+    @Override final void midi(MusicFileMaker mfm)throws IOException{
 	if (arg.midi_who==null)
 	    return;
-	mfm.indent("\\tag #'("+arg.midi_who+") \\new Staff \\with {");
-	String instrument=Stuff.midiInstrumentToString(track.instrument);
-	if (instrument!=null)
-	    mfm.print("midiInstrument = #"+Stuff.quote(instrument));
+	mfm.indent("\\tag #'("+arg.midi_who+") \\new "+getStaffType()+" = "+Stuff.quote(filename)+" \\with {");
+	if (this instanceof DrumTrackFileMaker)
+	    mfm.print("drumPitchTable = #(alist->hash-table midiDrumPitches)");
+	else{
+	    String instrument=Stuff.midiInstrumentToString(track.instrument);
+	    if (instrument!=null)
+		mfm.print("midiInstrument = #"+Stuff.quote(instrument));
+	}
 	mfm.unindent("} \\"+lyname);
     }
 }

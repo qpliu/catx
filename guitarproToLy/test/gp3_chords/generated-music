@@ -24,7 +24,7 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiPeter) \new Staff \with {
+    \tag #'(midiPeter) \new Staff = "generated-guitar" \with {
         midiInstrument = #"acoustic guitar (steel)"
     } \guitar
 >>

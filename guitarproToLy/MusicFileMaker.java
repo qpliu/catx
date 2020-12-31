@@ -11,11 +11,11 @@ final class MusicFileMaker extends FileMaker{
 	print("composer = "+Stuff.quote(main.gpfile.artist));
 	unindent("}");
 	print();
-	print("\\include "+Stuff.quote(main.markupFileMaker.filename));
+	main.markupFileMaker.printInclude(this);
 	for (int i=0; i<main.trackFileMaker.length; i++){
 	    TrackFileMaker tfm=main.trackFileMaker[i];
 	    if (tfm!=null)
-		print("\\include "+Stuff.quote(tfm.filename));
+		tfm.printInclude(this);
 	}
 	print();
 	indent("layoutmusic = <<");

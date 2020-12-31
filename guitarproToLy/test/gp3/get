@@ -11,6 +11,10 @@ track 0 \
     preset karaoke \
 track 0 \
     preset peter \
+track 0 \
+    name guitar \
+    midi-who midiPeter \
+    output-dotext \
 track 2 \
     preset susan \
 track 4 \
@@ -19,6 +23,10 @@ track 5 \
     preset midiTwo \
 track 6 \
     preset bass \
+track 6 \
+    name bass \
+    midi-who midiBass \
+    output-dotext \
 track 7 \
     preset gg \
 2>&1|tee log

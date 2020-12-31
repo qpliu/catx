@@ -40,4 +40,7 @@ class FileMaker{
 	print(s);
 	indent++;
     }
+    void printInclude(FileMaker fm){
+	fm.print("\\include "+Stuff.quote(filename));
+    }
 }

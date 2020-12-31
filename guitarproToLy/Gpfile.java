@@ -115,8 +115,8 @@ class Gpfile extends Gpinput{
 	boolean tie_rhs;
 	boolean tie_lhs;
 	Event(Rational time,Rational duration){
-	    this.time = time; 
-	    this.duration = duration; 
+	    this.time = time;
+	    this.duration = duration;
 	}
 	@Override public int compareTo(Event e){
 	    return time.compareTo(e.time);
@@ -133,14 +133,21 @@ class Gpfile extends Gpinput{
 	final Chord chord;
 	ChordEvent(Rational time,Rational duration,Chord chord){
 	    super(time,duration);
-	    this.chord = chord; 
+	    this.chord = chord;
 	}
     }
-    static class TextEvent extends Event{
-	final String text;
-	TextEvent(Rational time,Rational duration,String text){
+    static class LyricEvent extends Event{
+	final String lyric;
+	LyricEvent(Rational time,Rational duration,String lyric){
 	    super(time,duration);
-	    this.text = text; 
+	    this.lyric = lyric;
+	}
+    }
+    static class DotextEvent extends Event{
+	final String dotext;
+	DotextEvent(Rational time,Rational duration,String dotext){
+	    super(time,duration);
+	    this.dotext = dotext;
 	}
     }
     static class NoteEvent extends Event{

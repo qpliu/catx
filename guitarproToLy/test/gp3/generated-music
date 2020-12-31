@@ -8,10 +8,14 @@
 \include "generated-vocalsLyrics"
 \include "generated-karaoke"
 \include "generated-guitar"
+\include "generated-guitartext_midi"
+\include "generated-guitartext_lyrics"
 \include "generated-steelpan"
 \include "generated-midiOne"
 \include "generated-midiTwo"
 \include "generated-bass"
+\include "generated-basstext_midi"
+\include "generated-basstext_lyrics"
 \include "generated-drs"
 
 layoutmusic = <<
@@ -65,26 +69,28 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiKaraoke) \new Staff \with {
+    \tag #'(midiKaraoke) \new Staff = "generated-vocals" \with {
         midiInstrument = #"honky-tonk"
     } \vocals
     \tag #'(midiKaraoke) \karaoke
-    \tag #'(midiPeter) \new Staff \with {
+    \tag #'(midiPeter) \new Staff = "generated-guitar" \with {
         midiInstrument = #"acoustic guitar (steel)"
     } \guitar
-    \tag #'(midiSusan) \new Staff \with {
+    \tag #'(midiPeter) \new Staff = "generated-guitartext" \midiguitarText
+    \tag #'(midiSusan) \new Staff = "generated-steelpan" \with {
         midiInstrument = #"violin"
     } \steelpan
-    \tag #'(midiOne) \new Staff \with {
+    \tag #'(midiOne) \new Staff = "generated-midiOne" \with {
         midiInstrument = #"concertina"
     } \midiOne
-    \tag #'(midiTwo) \new Staff \with {
+    \tag #'(midiTwo) \new Staff = "generated-midiTwo" \with {
         midiInstrument = #"honky-tonk"
     } \midiTwo
-    \tag #'(midiBass) \new Staff \with {
+    \tag #'(midiBass) \new Staff = "generated-bass" \with {
         midiInstrument = #"electric bass (pick)"
     } \bass
-    \tag #'(midiGg) \new DrumStaff \with {
+    \tag #'(midiBass) \new Staff = "generated-basstext" \midibassText
+    \tag #'(midiGg) \new DrumStaff = "generated-drs" \with {
         drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drs
 >>

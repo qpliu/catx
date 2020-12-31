@@ -5,6 +5,10 @@ java -jar ../../1.jar <"/share/mirror/songsterr/stuff/d-keep/d-Bon Jovi/d-Wanted
 scale "" \
 track 0 \
     preset peter \
+track 0 \
+    name guitar \
+    midi-who midiPeter \
+    output-dotext \
 track 1 \
     preset peter \
     name guitarTwo \
@@ -15,11 +19,19 @@ track 2 \
     name guitarThree \
     instrument-name Guitar3 \
     instrument-short-name Gtr3 \
+track 2 \
+    name guitarThree \
+    midi-who midiPeter \
+    output-dotext \
 track 3 \
     preset peter \
     name guitarFour \
     instrument-name Guitar4 \
     instrument-short-name Gtr4 \
+track 3 \
+    name guitarFour \
+    midi-who midiPeter \
+    output-dotext \
 track 4 \
     preset midiOne \
 track 5 \

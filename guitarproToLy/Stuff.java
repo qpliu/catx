@@ -1,9 +1,6 @@
 import java.util.*;
 
 final class Stuff{
-    static String midi2ly(int key){
-	return midi2ly(key,null);
-    }
     static String midi2ly(int key,Arg arg){
 	String ly=arg.scale[key%12];
 	int next=(ly.charAt(0)-'a'+5)%7-3;

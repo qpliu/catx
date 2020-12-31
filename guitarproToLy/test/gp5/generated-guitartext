@@ -1,0 +1,242 @@
+guitarText =
+{
+    \skip2 |
+\mymark "Intro" #2
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1A" #8
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1B" #16
+    \skip2 `slide2`2 |
+    `slide2`4. \skip2 \skip8 |
+    \skip1 |
+    \skip1 |
+    \skip2 `slide2`2 |
+    `slide2`4. \skip2 \skip8 |
+    \skip1 |
+    \skip1 |
+\mymark "Pre-Chorus 1" #24
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus 1A" #31
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus 1B" #47
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Interlude" #64
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    `slide2`4 \skip2. |
+    \skip2. `slide2`4 |
+    \skip1 |
+    \skip1 |
+    `slide2`4 \skip2. |
+\mymark "Verse 2A" #73
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 2B" #81
+    \skip2 `slide2`2 |
+    `slide2`4. \skip2 \skip8 |
+    \skip1 |
+    \skip1 |
+    \skip2 `slide2`2 |
+    `slide2`4. \skip2 \skip8 |
+    \skip1 |
+    \skip1 |
+\mymark "Pre-Chorus 2" #89
+    `slide2`4. \skip4. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus 2A" #96
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus 2B" #112
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip4. `slide2`4 \skip4. |
+    \skip1 |
+\mymark "Bridge" #130
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2 `slide2`2 |
+\mymark "Guitar Solo" #140
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. \skip8 `slide2`8 |
+    `slide2`8 \skip4 `slide2`4 \skip8 `slide2`4 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Post Solo/Pre-Chorus 3" #156
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2 \skip8 `slide2`4. |
+\mymark "Chorus 3A" #166
+    `slide2`2.~ `slide2`8 \skip8 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. `slide1`8 \skip8 |
+    \skip1 |
+    \skip2 `slide1`8 \skip4. |
+    \skip2. `slide3`4 |
+    `slide3`2 `slide2`4 `slide2` |
+    \skip1 |
+    \skip2. \skip8 `slide2`8 |
+    `slide2`32 \skip2. \skip8. \skip32 |
+    \tuplet 3/2 { \skip8. \skip64 `slide2`8~ } `slide2`32 \skip4 \skip16. `slide2`16. \skip4 \skip16 |
+\mymark "Chorus 3B" #182
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. `slide2`4 |
+    \skip1 |
+    \skip2 `slide3`4.~ `slide3`16 \skip16 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip4. `slide2`8. \skip4. \skip16 |
+    \skip1 |
+    \skip1 |
+    \skip4. `slide2`4 \skip4. |
+    \skip1 |
+\mymark "Ending" #200
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}

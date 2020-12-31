@@ -17,7 +17,7 @@ final class GuitarproToLy{
 	System.err.println("[output-chords]  Output chords.");
 	System.err.println("[output-karaoke]  Output karaoke.");
 	System.err.println("[output-lyrics]  Output lyrics.");
-	System.err.println("[output-text]  Output text.");
+	System.err.println("[output-dotext]  Output dotext.");
 	System.err.println("[preset who]  Use preset settings.");
 	System.err.println("[scale scale]  Specify note spelling.  Something like scale \"c des eisis\"");
 	System.err.println("[shift n/d]  Shift notes right n/d beats.  Use shift -21/5 to shift notes left 4 1/5th beat.");
@@ -60,8 +60,8 @@ final class GuitarproToLy{
 		arg.output_karaoke = true;
 	    else if (argv[i].equals("output-lyrics"))
 		arg.output_lyrics = true;
-	    else if (argv[i].equals("output-text"))
-		arg.output_text = true;
+	    else if (argv[i].equals("output-dotext"))
+		arg.output_dotext = true;
 	    else if (argv[i].equals("preset"))
 		arg.setPreset(argv[++i]);
 	    else if (argv[i].equals("scale"))
@@ -74,8 +74,10 @@ final class GuitarproToLy{
 		    arg.shift = new Rational(Long.parseLong(argv[i].substring(0,j)),Long.parseLong(argv[i].substring(j+1)));
 	    }else if (argv[i].equals("verbose"))
 		Log.level = Integer.parseInt(argv[++i]);
-	    else
+	    else{
+		Log.error("%s is weird",argv[i]);
 		usage();
+	    }
 	Gpfile gpfile=new Gp5file(new DataInputStream(System.in),globalarg);
 	new Main(gpfile,globalarg,trackarg).make();
     }

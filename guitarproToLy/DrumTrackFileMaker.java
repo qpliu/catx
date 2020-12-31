@@ -149,17 +149,4 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
 	sb.append(makeVoice(measure,list.get(1)));
 	print(sb.append(" } >>").toString());
     }
-    @Override String getStaffType(){
-	return "DrumStaff";
-    }
-    @Override void layoutExtra(MusicFileMaker mfm){
-	mfm.print("drumStyleTable = #(alist->hash-table myDrumStyleTable)");
-    }
-    @Override void midi(MusicFileMaker mfm)throws IOException{
-	if (arg.midi_who==null)
-	    return;
-	mfm.indent("\\tag #'("+arg.midi_who+") \\new DrumStaff \\with {");
-	mfm.print("drumPitchTable = #(alist->hash-table midiDrumPitches)");
-	mfm.unindent("} \\"+lyname);
-    }
 }
