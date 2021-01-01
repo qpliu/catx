@@ -1,6 +1,6 @@
 % BIN midi all susan kav gg peter bass
 % ROBOT pickup_measures=1
-% ROBOT pageTurns={"susan":[[52,1]]}
+% ROBOT measure_map={"default":"1-35,8","kav":"1"}
 % AARIN
 
 \header {

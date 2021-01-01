@@ -156,4 +156,5 @@ cd ..
 if test -d /share/music -a -n "$AARIN"
 then
     cp bin/out.aarin "/share/music/aarin/$name.aarin"
+    grep '^measure=' bin/out.aarin|cut -f 1 -d ' '|uniq -c
 fi

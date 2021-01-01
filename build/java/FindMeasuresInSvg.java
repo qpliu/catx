@@ -6,6 +6,7 @@ import org.xml.sax.*;
 import org.xml.sax.helpers.*;
 
 final class FindMeasuresInSvg{
+    private static final double CLOSE=1e-4;
     private static final Pattern matrixPattern=Pattern.compile("matrix\\(([-.0-9]+),([-.0-9]+),([-.0-9]+),([-.0-9]+),([-.0-9]+),([-.0-9]+)\\)");
     private static final Pattern linePattern=Pattern.compile("M\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*L\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*");
     private static final Pattern rectanglePattern=Pattern.compile("M\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*L\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*L\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*L\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*Z\\s*M\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*");
@@ -41,9 +42,6 @@ final class FindMeasuresInSvg{
 	@Override public int compareTo(HorizontalLine h){
 	    return Double.compare(y,h.y);
 	}
-	@Override public String toString(){
-	    return "y="+y+" x0="+x0+" x1="+x1;
-	}
     }
     static class VerticalLine implements Comparable<VerticalLine>{
 	final double x,y0,y1;
@@ -56,11 +54,9 @@ final class FindMeasuresInSvg{
 	    return Double.compare(x,v.x);
 	}
     }
-    final Set<String>done=new HashSet<String>();
-    final Queue<HorizontalLine>queue=new PriorityQueue<HorizontalLine>();
-    final Map<String,List<HorizontalLine>>horizontalLines=new HashMap<String,List<HorizontalLine>>();
-    final Map<String,List<VerticalLine>>verticalLines=new HashMap<String,List<VerticalLine>>();
-    final Map<Double,List<double[]>>rectangles=new HashMap<Double,List<double[]>>();
+    final List<HorizontalLine>horizontalLines=new ArrayList<HorizontalLine>();
+    final List<VerticalLine>verticalLines=new ArrayList<VerticalLine>();
+    final List<double[]>rectangles=new ArrayList<double[]>();
     FindMeasuresInSvg(String partpage)throws Exception{
 	this.partpage = partpage;
 	SAXParserFactory.newInstance().newSAXParser().parse(System.in,new DefaultHandler(){
@@ -89,48 +85,45 @@ final class FindMeasuresInSvg{
 	findMeasures();
     }
     void findMeasures(){
-	for (List<HorizontalLine>l:horizontalLines.values()){
-	    Collections.sort(l);
-	    Collections.reverse(l);
-	}
-	for (List<VerticalLine>l:verticalLines.values())
-	    Collections.sort(l);
+	Collections.sort(horizontalLines);
+	Collections.sort(verticalLines);
 	int measureNumber=0;
 	double bigy=Double.NEGATIVE_INFINITY;
-	for (HorizontalLine hl; (hl=queue.poll())!=null;){
-	    List<HorizontalLine>l=horizontalLines.get(hl.x0+" "+hl.x1);
-	    if (hl!=l.get(l.size()-1))
-		throw new RuntimeException();
-	    l.remove(l.size()-1);
-	    if (l.size()>=4 && hl.y>bigy){
-		double s1=0,s2=0;
-		for (int i=1; i<5; i++){
-		    HorizontalLine a=l.get(l.size()-i);
-		    double b=(a.y-hl.y)*4/i;
-		    s1 += b;
-		    s2 += b*b;
-		}
-		double v=4*s2/s1/s1-1;
-		if (v<1e-6){
-		    double y0=hl.y;
-		    double y1=l.get(l.size()-4).y;
-		    List<VerticalLine>m=verticalLines.remove(y0+" "+y1);
-		    if (m!=null){
-			double x0=hl.x0;
-			for (VerticalLine a:m){
-			    double x1=a.x;
-			    if (x1-x0>.5*(y1-y0))
-				System.out.println(partpage+" "+measureNumber+++" "+x0+" "+y0+" "+x1+" "+y1);
-			    x0 = x1;
-			}
-		    }
-		    List<double[]>ll=rectangles.get(hl.y);
-		    if (ll!=null)
-			for (double[]r:ll)
-			    if (r[0]<=hl.x0 && hl.x0<=r[2])
-				bigy = Math.max(bigy,r[3]);
-		}
+	for (int i=0; i<horizontalLines.size(); i++){
+	    HorizontalLine hl=horizontalLines.get(i);
+	    if (hl.y<bigy)
+		continue;
+	    List<HorizontalLine>list=new ArrayList<HorizontalLine>();
+	    for (int j=i+1; j<horizontalLines.size()&&list.size()<4; j++){
+		HorizontalLine hl2=horizontalLines.get(j);
+		if (Math.abs(hl2.x0-hl.x0)<=CLOSE && Math.abs(hl2.x1-hl.x1)<=CLOSE)
+		    list.add(hl2);
 	    }
+	    if (list.size()<4)
+		continue;
+	    double s1=0,s2=0;
+	    for (int j=1; j<5; j++){
+		HorizontalLine a=list.get(j-1);
+		double b=(a.y-hl.y)*4/j;
+		s1 += b;
+		s2 += b*b;
+	    }
+	    double v=4*s2/s1/s1-1;
+	    if (v>CLOSE)
+		continue;
+	    double y0=hl.y;
+	    double y1=list.get(3).y;
+	    double x0=hl.x0;
+	    for (VerticalLine vl:verticalLines)
+		if (Math.abs(vl.y0-y0)<=CLOSE && Math.abs(vl.y1-y1)<=CLOSE){
+		    double x1=vl.x;
+		    if (x1-x0>1.5*(y1-y0))
+			System.out.println(partpage+" "+measureNumber+++" "+x0+" "+y0+" "+x1+" "+y1);
+		    x0 = x1;
+		}
+	    for (double[]r:rectangles)
+		if (Math.abs(r[1]-hl.y)<CLOSE && r[0]<=hl.x0 && hl.x0<=r[2])
+		    bigy = Math.max(bigy,r[3]);
 	}
     }
     void gotRectangle(Matrix matrix,Matcher matcher){
@@ -151,7 +144,9 @@ final class FindMeasuresInSvg{
 		y0 = y1;
 		y1 = t;
 	    }
-	    rectangles.computeIfAbsent(y0,x->new ArrayList<double[]>()).add(new double[]{x0,y0,x1,y1});
+//System.out.println("# R "+x0+" "+y0+" "+x1+" "+y1);
+	    if (x1-x0<.01)
+		rectangles.add(new double[]{x0,y0,x1,y1});
 	}
     }
     void gotLine(Matrix matrix,Matcher matcher){
@@ -169,16 +164,13 @@ final class FindMeasuresInSvg{
 	    y0 = y1;
 	    y1 = t;
 	}
-	if (done.add(x0+" "+y0+" "+x1+" "+y1)){
-	    if (y0==y1 && x0!=x1){
-		HorizontalLine hl=new HorizontalLine(y0,x0,x1);
-		queue.add(hl);
-		horizontalLines.computeIfAbsent(x0+" "+x1,x->new ArrayList<HorizontalLine>()).add(hl);
-	    }
-	    if (x0==x1 && y0!=y1){
-		VerticalLine vl=new VerticalLine(x0,y0,y1);
-		verticalLines.computeIfAbsent(y0+" "+y1,x->new ArrayList<VerticalLine>()).add(vl);
-	    }
+	if (y0==y1 && x0!=x1){
+//System.out.println("# H "+y0+" "+x0+" "+x1);
+	    horizontalLines.add(new HorizontalLine(y0,x0,x1));
+	}
+	if (x0==x1 && y0!=y1){
+//System.out.println("# V "+x0+" "+y0+" "+y1);
+	    verticalLines.add(new VerticalLine(x0,y0,y1));
 	}
     }
     public static void main(String[]argv)throws Exception{
