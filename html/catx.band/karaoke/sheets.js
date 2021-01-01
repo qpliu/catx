@@ -5,20 +5,42 @@ class Sheets{
 	where.appendChild(this.span);
 	document.onkeydown = e=>this.onkeydown(e);
     }
-    reset(startTime,repeat,songLength,name,pageTurns){
+    reset(startTime,repeat,songLength,name,measureMap,measureCoordinates){
 	this.startTime = startTime;
 	this.repeat = repeat;
 	this.songLength = songLength;
 	this.measureEvents = [];
-	this.pageTurns = JSON.parse(pageTurns);
+	this.measureMap = {};
+	for (const [k,v] of Object.entries(JSON.parse(measureMap))){
+	    console.log([k,v]);
+	    const a=[];
+	    for (const x of v.split(',')){
+		const xx=x.split('-');
+		if (xx.length==1)
+		    a.push(xx[0]-1);
+		else
+		    for (let j=xx[0]; j<=xx[1]; j++)
+			a.push(j-1);
+	    }
+	    this.measureMap[k] = a;
+	}
+	this.measureCoordinates = JSON.parse(measureCoordinates);
 	if (name!=this.name){
 	    this.name = name;
 	    this.who = undefined;
 	}
 	this.checkWho();
     }
+    map_measure_number(x){
+	const a=this.measureMap[this.who]||this.measureMap['default'];
+	if (!a || x<0)
+	    return x;
+	if (x>=a.length)
+	    return a[a.length-1]+x+1-a.length;
+	return a[x];
+    }
     checkWho(){
-	const who=!this.pageTurns||settings.who in this.pageTurns?settings.who:Object.keys(this.pageTurns)[0];
+	const who=!this.measureCoordinates||settings.who in this.measureCoordinates?settings.who:Object.keys(this.measureCoordinates)[0];
 	if (who!=this.who){
 	    this.who = who;
 	    this.span.innerHTML = "";
@@ -33,8 +55,11 @@ class Sheets{
     }
     addBeatEvent(time,beat){
 	const i=beat.indexOf(":");
-	if (i!=-1)
-	    this.measureEvents.push({t:time,m:Number(beat.slice(0,i))});
+	if (i!=-1){
+	    const n=Number(beat.slice(0,i));
+	    if (!this.measureEvents.length || n!=this.measureEvents[this.measureEvents.length-1].m)
+		this.measureEvents.push({t:time,m:n});
+	}
     }
     turnPage(dir){
 	this.old_page_l = this.page_l;
@@ -61,27 +86,53 @@ class Sheets{
 	if (this.repeat&&time>=this.songLength)
 	    time -= Math.floor((time-this.songLength)/this.repeat+1)*this.repeat;
 	let measureNumber;
+	let ee;
 	for (const e of this.measureEvents){
-	    if (e.t>=time)
+	    if (e.t>=time && ee!=undefined){
+		measureNumber = Math.max(ee.m+(time-ee.t)/(e.t-ee.t),0);
 		break;
-	    measureNumber = e.m;
+	    }
+	    ee = e;
 	}
-	if (measureNumber==undefined)
-	    return;
-	const turns=this.pageTurns[this.who];
-	if (turns){
-	    let p=[0,1];
-	    let lr=0;
-	    for (const turn of turns)
-		if (turn[0]<=measureNumber){
-		    p[lr] = p[lr^1]+turn[1];
-		    lr ^= 1;
+	const imn=Math.floor(measureNumber);
+	const mc=this.measureCoordinates[this.who];
+	if (mc){
+	    const m=this.map_measure_number(imn);
+	    const measure=mc[Math.max(Math.min(m-1,mc.length-1),0)];
+	    let lp=this.page_l;
+	    let rp=this.page_r;
+	    if (measure[0]&1)
+		lp = measure[0]-1;
+	    else
+		rp = measure[0]-1;
+	    if (measure[1])
+		for (let p=imn;; p++){
+		    const o=this.map_measure_number(p);
+		    if (o<0 || o>=mc.length)
+			break;
+		    const om=mc[o];
+		    if (om[0]!=measure[0]){
+			if (om[0]+measure[0]&1)
+			    if (om[0]&1)
+				lp = om[0]-1;
+			    else
+				rp = om[0]-1;
+			break;
+		    }
 		}
-	    if (p[0]!=this.page_l || p[1]!=this.page_r){
+	    if (rp>=this.pages.length)
+		rp = this.pages.length-2+(rp+this.pages.length&1);
+	    if (rp<0)
+		rp &= 1;
+	    if (lp>=this.pages.length)
+		lp = this.pages.length-2+(lp+this.pages.length&1);
+	    if (lp<0)
+		lp &= 1;
+	    if (lp!=this.page_l || rp!=this.page_r){
 		this.old_page_l = this.page_l;
 		this.old_page_r = this.page_r;
-		this.page_l = p[0];
-		this.page_r = p[1];
+		this.page_l = lp;
+		this.page_r = rp;
 		this.animateStart = new Date().getTime();
 	    }
 	}
