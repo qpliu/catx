@@ -45,3 +45,9 @@ warning: compressing over-full page by 1.9 staff-spaces
 warning: page 0 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+    100 measure=all
+    100 measure=kav
+    100 measure=gg
+    100 measure=susan
+    100 measure=peter
+    100 measure=bass

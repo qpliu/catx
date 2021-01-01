@@ -117,7 +117,7 @@ final class FindMeasuresInSvg{
 	    for (VerticalLine vl:verticalLines)
 		if (Math.abs(vl.y0-y0)<=CLOSE && Math.abs(vl.y1-y1)<=CLOSE){
 		    double x1=vl.x;
-		    if (x1-x0>1.5*(y1-y0))
+		    if (x1-x0>(x0==hl.x0?1.5:0.5)*(y1-y0))
 			System.out.println(partpage+" "+measureNumber+++" "+x0+" "+y0+" "+x1+" "+y1);
 		    x0 = x1;
 		}

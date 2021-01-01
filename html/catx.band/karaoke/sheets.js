@@ -11,8 +11,7 @@ class Sheets{
 	    img.style = "position:absolute;width:5vw;z-index:1;";
 	    where.appendChild(img);
 	    this.frames[frame] = img;
-	    if (frame!=0)
-		img.style.visibility = "hidden";
+	    img.style.visibility = "hidden";
 	}
     }
     reset(startTime,repeat,songLength,name,measureMap,measureCoordinates){
@@ -22,7 +21,6 @@ class Sheets{
 	this.measureEvents = [];
 	this.measureMap = {};
 	for (const [k,v] of Object.entries(JSON.parse(measureMap))){
-	    console.log([k,v]);
 	    const a=[];
 	    for (const x of v.split(',')){
 		const xx=x.split('-');
@@ -66,10 +64,16 @@ class Sheets{
     addBeatEvent(time,beat){
 	const i=beat.indexOf(":");
 	if (i!=-1){
-	    const n=Number(beat.slice(0,i));
-	    if (!this.measureEvents.length || n!=this.measureEvents[this.measureEvents.length-1].m)
-		this.measureEvents.push({t:time,m:n});
+	    const m=Number(beat.slice(0,i));
+	    const b=Number(beat.slice(i+1));
+	    if (b==1)
+		this.measureEvents.push({t:time,n:b,m:m});
+	    else
+		this.measureEvents[this.measureEvents.length-1].n = b;
 	}
+    }
+    doneAddingEvents(){
+	this.measureEvents.push({t:this.songLength});
     }
     turnPage(dir){
 	this.old_page_l = this.page_l;
@@ -107,7 +111,7 @@ class Sheets{
 	const imn=Math.floor(measureNumber);
 	const mc=this.measureCoordinates[this.who];
 	if (mc){
-	    const iim=this.map_measure_number(imn)-1;
+	    const iim=this.map_measure_number(imn-1);
 	    const m=Math.max(Math.min(iim,mc.length-1),0);
 	    const measure=mc[m];
 	    if (measure){
@@ -150,7 +154,7 @@ class Sheets{
 		measureNumber += iim-imn-m;
 		for (const f of this.frames)
 		    f.style.visibility = "hidden";
-		const s=this.frames[((measureNumber*28|0)%7+7)%7].style;
+		const s=this.frames[((measureNumber*7*ee.n|0)%7+7)%7].style;
 		s.visibility = "visible";
 		s.top = (rect.height+(measure[5]+.5*(measure[5]-measure[3])-1)*height)+"px";
 		const x0=(measure[2]+measureNumber*(measure[4]-measure[2]));
