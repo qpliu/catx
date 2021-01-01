@@ -144,6 +144,7 @@ EOF
 	    page=1
 	    while pdf2svg out.pdf temp.svg $page >/dev/null 2>&1
 	    do
+		java -cp ../java FindMeasuresInSvg "measure=$part $page" <temp.svg >>../bin/out.aarin
 		gzip <temp.svg >"/share/music/svg/$name/$part/$page.svg.gz"
 		page=`echo print $page+1|python`
 	    done
@@ -152,7 +153,6 @@ EOF
     cd ../src
 done
 cd ..
-../makePageTurns >>bin/out.aarin
 if test -d /share/music -a -n "$AARIN"
 then
     cp bin/out.aarin "/share/music/aarin/$name.aarin"
