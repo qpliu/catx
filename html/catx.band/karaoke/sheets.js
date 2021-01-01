@@ -4,6 +4,16 @@ class Sheets{
 	this.span.style = "position:absolute;left:0;top:0;width:100vw;height:100vh;z-index:-1;background-color:#000;";
 	where.appendChild(this.span);
 	document.onkeydown = e=>this.onkeydown(e);
+	this.frames = [];
+	for (let frame=0; frame<7; frame++){
+	    const img=document.createElement("img");
+	    img.src = "../cat/run-"+frame+".png";
+	    img.style = "position:absolute;width:5vw;z-index:1;";
+	    where.appendChild(img);
+	    this.frames[frame] = img;
+	    if (frame!=0)
+		img.style.visibility = "hidden";
+	}
     }
     reset(startTime,repeat,songLength,name,measureMap,measureCoordinates){
 	this.startTime = startTime;
@@ -82,7 +92,7 @@ class Sheets{
 		this.page_r = this.page_l+1;
 	this.animateStart = new Date().getTime();
     }
-    gotoPage(time){
+    gotoPage(time,width,height,rect){
 	if (this.repeat&&time>=this.songLength)
 	    time -= Math.floor((time-this.songLength)/this.repeat+1)*this.repeat;
 	let measureNumber;
@@ -97,43 +107,57 @@ class Sheets{
 	const imn=Math.floor(measureNumber);
 	const mc=this.measureCoordinates[this.who];
 	if (mc){
-	    const m=this.map_measure_number(imn);
-	    const measure=mc[Math.max(Math.min(m-1,mc.length-1),0)];
-	    let lp=this.page_l;
-	    let rp=this.page_r;
-	    if (measure[0]&1)
-		lp = measure[0]-1;
-	    else
-		rp = measure[0]-1;
-	    if (measure[1])
-		for (let p=imn;; p++){
-		    const o=this.map_measure_number(p);
-		    if (o<0 || o>=mc.length)
-			break;
-		    const om=mc[o];
-		    if (om[0]!=measure[0]){
-			if (om[0]+measure[0]&1)
-			    if (om[0]&1)
-				lp = om[0]-1;
-			    else
-				rp = om[0]-1;
-			break;
+	    const iim=this.map_measure_number(imn)-1;
+	    const m=Math.max(Math.min(iim,mc.length-1),0);
+	    const measure=mc[m];
+	    if (measure){
+		let lp=this.page_l;
+		let rp=this.page_r;
+		if (measure[0]&1)
+		    lp = measure[0]-1;
+		else
+		    rp = measure[0]-1;
+		if (measure[1])
+		    for (let p=imn;; p++){
+			const o=this.map_measure_number(p);
+			if (o<0 || o>=mc.length)
+			    break;
+			const om=mc[o];
+			if (om[0]!=measure[0]){
+			    if (om[0]+measure[0]&1)
+				if (om[0]&1)
+				    lp = om[0]-1;
+				else
+				    rp = om[0]-1;
+			    break;
+			}
 		    }
+		if (rp>=this.pages.length)
+		    rp = this.pages.length-2+(rp+this.pages.length&1);
+		if (rp<0)
+		    rp &= 1;
+		if (lp>=this.pages.length)
+		    lp = this.pages.length-2+(lp+this.pages.length&1);
+		if (lp<0)
+		    lp &= 1;
+		if (lp!=this.page_l || rp!=this.page_r){
+		    this.old_page_l = this.page_l;
+		    this.old_page_r = this.page_r;
+		    this.page_l = lp;
+		    this.page_r = rp;
+		    this.animateStart = new Date().getTime();
 		}
-	    if (rp>=this.pages.length)
-		rp = this.pages.length-2+(rp+this.pages.length&1);
-	    if (rp<0)
-		rp &= 1;
-	    if (lp>=this.pages.length)
-		lp = this.pages.length-2+(lp+this.pages.length&1);
-	    if (lp<0)
-		lp &= 1;
-	    if (lp!=this.page_l || rp!=this.page_r){
-		this.old_page_l = this.page_l;
-		this.old_page_r = this.page_r;
-		this.page_l = lp;
-		this.page_r = rp;
-		this.animateStart = new Date().getTime();
+		measureNumber += iim-imn-m;
+		for (const f of this.frames)
+		    f.style.visibility = "hidden";
+		const s=this.frames[((measureNumber*28|0)%7+7)%7].style;
+		s.visibility = "visible";
+		s.top = (rect.height+(measure[5]+.5*(measure[5]-measure[3])-1)*height)+"px";
+		const x0=(measure[2]+measureNumber*(measure[4]-measure[2]));
+		if (this.page_l+1==measure[0])
+		    s.right = (rect.width-x0*width)+"px";
+		else if (this.page_r+1==measure[0])
+		    s.right = (1-x0)*width+"px";
 	    }
 	}
     }
@@ -161,11 +185,11 @@ class Sheets{
     animate(time){
 	if (!this.enabled || !this.name)
 	    return;
-	if (isPlaying)
-	    this.gotoPage(time);
 	const rect=this.span.getBoundingClientRect();
 	const height=Math.min(rect.height,rect.width*9/8/2);
 	const width=height*8/9;
+	if (isPlaying)
+	    this.gotoPage(time,width,height,rect);
 	const a=Math.min((new Date().getTime()-this.animateStart)/5,100);
 	for (let page=0; page<this.pages.length; page++){
 	    const s=this.pages[page].style;
@@ -192,7 +216,10 @@ class Sheets{
     }
     setEnabled(enabled){
 	this.enabled = enabled;
-	this.span.style.display = enabled?"block":"none";
+	const display=enabled?"block":"none";
+	this.span.style.display = display;
+	for (const frame of this.frames)
+	    frame.style.display = display;
 	const opacity=enabled?.2:1;
 	document.getElementById("name").style.opacity = opacity;
 	document.getElementById("stopImg").style.opacity = opacity;
