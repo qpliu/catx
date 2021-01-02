@@ -9,6 +9,13 @@ track 6 \
     output-dotext \
     output-lyrics \
     output-karaoke \
+    which-lyrics "0" \
+track 6 \
+    preset kav \
+    name vocalsTwo \
+    output-lyrics \
+    output-karaoke \
+    which-lyrics "1,2" \
 track 0 \
     preset peter \
     output-dotext \

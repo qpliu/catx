@@ -2,8 +2,11 @@ import java.io.*;
 import java.util.*;
 
 class SuperTrackFileMaker extends ChoppedTrackFileMaker{
-    SuperTrackFileMaker(Main main,String suffix,Arg arg,Class clazz,MeasureMaker.GetWhatSuffix skip)throws IOException{
-	super(main,arg,arg.name,suffix,arg.name,clazz,skip);
+    SuperTrackFileMaker(Main main,String suffix,Arg arg,MeasureMaker.GetWhatSuffix skip)throws IOException{
+	super(main,arg,arg.name,suffix,arg.name,skip);
+    }
+    @Override boolean filterEvents(Gpfile.Event event){
+	return event instanceof Gpfile.NoteEvent;
     }
     @Override final void layout(MusicFileMaker mfm)throws IOException{
 	if (arg.layout_who==null)

@@ -16,23 +16,17 @@ WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
 Format: 1  Tracks: 14  Divisions: 384
-Playing time: ~225 seconds
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Playing time: ~225 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 32403525/39366296 bytes(82.3129% compressed)
+Wrote 31804106/39366296 bytes(80.7902% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-warning: compressing over-full page by 1.5 staff-spaces
-warning: page 2 has been compressed
-warning: compressing over-full page by 2.6 staff-spaces
-warning: page 4 has been compressed
-warning: compressing over-full page by 2.4 staff-spaces
+warning: compressing over-full page by 2.8 staff-spaces
 warning: page 8 has been compressed
+warning: compressing over-full page by 2.9 staff-spaces
+warning: page 9 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-warning: compressing over-full page by 9.9 staff-spaces
-warning: page 0 has been compressed
-warning: compressing over-full page by 7.1 staff-spaces
+warning: compressing over-full page by 7.3 staff-spaces
 warning: page 1 has been compressed
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

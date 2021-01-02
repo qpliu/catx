@@ -44,11 +44,11 @@ vocalsLyrics = \new Lyrics \lyricmode {
     "beat"8 "it,"4. "(beat"8 "it),"4. |
     "beat"8 "it,"4. "(beat"8 "it),"4 "no"8 |
     ""8 "one" "wants" "to" "be" "" "de" "fea" |
-    ""8 "ted." ""2 ""8 "Them" |
-    ""8 "him" "how" "" "fun" "ky" "and" "strong" |
-    ""8 "is" "your" "" "fight," ""4 "it"8 |
-    ""8 "does" "n't" "" "mat" "ter" "" "who's" |
-    ""8 "wrong" "or" "" "right," "" "just" "" |
+    \skip8 "ted."8 ""2 ""8 "Show" |
+    \skip8 "him"8 "how" "" "fun" "ky" "and" "strong" |
+    \skip8 "is"8 "your" "" "fight," ""4 "it"8 |
+    \skip8 "does"8 "n't" "" "mat" "ter" "" "who's" |
+    \skip8 "wrong"8 "or" "" "right," "" "just" "" |
     "beat"8 "it," ""2 "just"8 "" |
     "beat"8 "it," ""2 "just"8 "" |
     "beat"8 "it," ""2 "just"8 "" |
@@ -73,20 +73,20 @@ vocalsLyrics = \new Lyrics \lyricmode {
 \mymark "Chorus" #67
     "beat"8 "it,"4. "(beat"8 "it),"4. |
     "beat"8 "it,"4. "(beat"8 "it),"4 "no"8 |
-    ""8 "one" "wants" "to" "be" "" "de" "fea" |
+    \skip8 "one"8 "wants" "to" "be" "" "de" "fea" |
     ""8 "ted." ""2 ""8 "Show" |
-    ""8 "them" "how" "" "fun" "ky" "and" "strong" |
-    ""8 "is" "your" "" "fight," ""4 "it"8 |
-    ""8 "does" "n't" "" "mat" "ter" "" "who's" |
-    ""8 "wrong" "or" "" "right," "" "just" "" |
+    \skip8 "them"8 "how" "" "fun" "ky" "and" "strong" |
+    \skip8 "is"8 "your" "" "fight," ""4 "it"8 |
+    \skip8 "does"8 "n't" "" "mat" "ter" "" "who's" |
+    \skip8 "wrong"8 "or" "" "right," "" "just" "" |
     "beat"8 "it,"4. "(beat"8 "it),"4. |
     "beat"8 "it,"4. "(beat"8 "it),"4 "no"8 |
-    ""8 "one" "wants" "to" "be" "" "de" "fea" |
+    \skip8 "one"8 "wants" "to" "be" "" "de" "fea" |
     ""8 "ted." ""2 ""8 "Show" |
-    ""8 "them" "how" "" "fun" "ky" "and" "strong" |
-    ""8 "is" "your" "" "fight," ""4 "it"8 |
-    ""8 "does" "n't" "" "mat" "ter" "" "who's" |
-    ""8 "wrong" "or" "" "right," "" "just" "" |
+    \skip8 "them"8 "how" "" "fun" "ky" "and" "strong" |
+    \skip8 "is"8 "your" "" "fight," ""4 "it"8 |
+    \skip8 "does"8 "n't" "" "mat" "ter" "" "who's" |
+    \skip8 "wrong"8 "or" "" "right," "" "just" "" |
 \mymark "Bridge" #83
     "beat"8 "it," "beat" "it," "beat" "it," "beat" "it." |
     ""2 "Beat"8 "it," "beat" "it," |
@@ -124,29 +124,29 @@ vocalsLyrics = \new Lyrics \lyricmode {
 \mymark "Chorus" #115
     "Beat"8 "it,"4. "(beat"8 "it),"4. |
     "beat"8 "it,"4. "(beat"8 "it),"4 "no"8 |
-    ""8 "one" "wants" "to" "be" "" "de" "fea" |
+    \skip8 "one"8 "wants" "to" "be" "" "de" "fea" |
     ""8 "ted." ""2 ""8 "Show" |
-    ""8 "them" "how" "" "fun" "ky" "and" "strong" |
-    ""8 "is" "your" "" "fight," ""4 "it"8 |
-    ""8 "does" "n't" "" "mat" "ter" "" "who's" |
-    ""8 "wrong" "or" "" "right," "" "just" "" |
+    \skip8 "them"8 "how" "" "fun" "ky" "and" "strong" |
+    \skip8 "is"8 "your" "" "fight," ""4 "it"8 |
+    \skip8 "does"8 "n't" "" "mat" "ter" "" "who's" |
+    \skip8 "wrong"8 "or" "" "right," "" "just" "" |
 \mymark "Outro" #123
     "beat"8 "it,"4. "(beat"8 "it),"4. |
     "beat"8 "it,"4. "(beat"8 "it),"4 "no"8 |
-    ""8 "one" "wants" "to" "be" "" "de" "fea" |
+    \skip8 "one"8 "wants" "to" "be" "" "de" "fea" |
     ""8 "ted." ""2 ""8 "Show" |
-    ""8 "them" "how" "" "fun" "ky" "and" "strong" |
-    ""8 "is" "your" "" "fight," ""4 "it"8 |
-    ""8 "does" "n't" "" "mat" "ter" "" "who's" |
-    ""8 "wrong" "or" "" "right," "" "just" "" |
+    \skip8 "them"8 "how" "" "fun" "ky" "and" "strong" |
+    \skip8 "is"8 "your" "" "fight," ""4 "it"8 |
+    \skip8 "does"8 "n't" "" "mat" "ter" "" "who's" |
+    \skip8 "wrong"8 "or" "" "right," "" "just" "" |
     "beat"8 "it,"4. "(beat"8 "it),"4. |
     "beat"8 "it,"4. "(beat"8 "it),"4 "no"8 |
-    ""8 "one" "wants" "to" "be" "" "de" "fea" |
+    \skip8 "one"8 "wants" "to" "be" "" "de" "fea" |
     ""8 "ted." ""2 ""8 "Show" |
-    ""8 "them" "how" "" "fun" "ky" "and" "strong" |
-    ""8 "is" "your" "" "fight," ""4 "it"8 |
-    ""8 "does" "n't" "" "mat" "ter" "" "who's" |
-    ""8 "wrong" "or" "" "right," "" "just." "" |
+    \skip8 "them"8 "how" "" "fun" "ky" "and" "strong" |
+    \skip8 "is"8 "your" "" "fight," ""4 "it"8 |
+    \skip8 "does"8 "n't" "" "mat" "ter" "" "who's" |
+    \skip8 "wrong"8 "or" "" "right," "" "just." "" |
     ""1 |
     ""1 |
 }

@@ -4,7 +4,10 @@ import java.util.*;
 final class DotextFileMaker extends ChoppedTrackFileMaker{
     static final String FILENAME_SUFFIX="_dotext";
     DotextFileMaker(Main main,Arg arg)throws IOException{
-	super(main,arg,arg.name+FILENAME_SUFFIX,"",arg.name+"Dotext",Gpfile.DotextEvent.class,MeasureMaker.SKIP);
+	super(main,arg,arg.name+FILENAME_SUFFIX,"",arg.name+"Dotext",MeasureMaker.SKIP);
+    }
+    @Override boolean filterEvents(Gpfile.Event event){
+	return event instanceof Gpfile.DotextEvent;
     }
     @Override void midi(MusicFileMaker mfm)throws IOException{
 	String fn=main.globalarg.modified_filename.contains(original_filename)?original_filename:filename;

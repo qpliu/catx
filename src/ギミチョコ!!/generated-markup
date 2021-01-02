@@ -1,5 +1,6 @@
 markupStuff = {
     \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \key b \major
     \tempo 4 = 220
 \mymark "Riff 1" #1
     s1 |

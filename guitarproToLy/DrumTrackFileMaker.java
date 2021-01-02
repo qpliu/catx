@@ -81,7 +81,7 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
     }
     private final Map<Integer,Drum>drumMap=new HashMap<Integer,Drum>();
     DrumTrackFileMaker(Main main,Arg arg)throws IOException{
-	super(main,"colors",arg,Gpfile.NoteEvent.class,MeasureMaker.REST);
+	super(main,"colors",arg,MeasureMaker.REST);
 	putDrumMap(DEFAULT_DRUM_MAP);
 	if (arg.drumMap!=null)
 	    putDrumMap(arg.drumMap);

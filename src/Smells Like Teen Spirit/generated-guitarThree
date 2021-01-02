@@ -1,0 +1,154 @@
+guitarThree = {
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #8
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #20
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #28
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge" #40
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #44
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #56
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #64
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge" #76
+    r1 |
+    r1 |
+    r1 |
+    c'1\4~ |
+\mymark "Guitar Solo" #80
+    c'4\4 c'8\3 dis'4\3 f'\3 gis8\4~ |
+    gis4\4 dis'8\3 dis'4.\3\bendAfter #6 ^"full" cis'8\3 c'\3~ |
+    c'4\3 cis'8\3 c'4\3 ais\3 gis8\3~ |
+    gis4\3 ais8\3 ais4.\3\bendAfter #6 ^"full" gis8\3 g\3~ |
+    g4\3 c'8\3 dis'4\3 f'\3 gis8\4~ |
+    gis4\4 dis'8\3 dis'4.\3\bendAfter #6 ^"full" cis'8\3 c'\3~ |
+    c'4\3 cis'8\3 c'4\3 ais\3 gis8\3~ |
+    gis4\3 ais8\3 ais4.\3\bendAfter #6 ^"full" gis8\3 g\3~ |
+    g4\3 gis8\3 g4.\3 gis8\3 g\3~ |
+    g4\3 gis8\3 g4\3 gis8\3 g\3 g\3 |
+    f4\4 gis8\3 g4.\3 gis8\3 g\3~ |
+    g4\3 gis8\3 g4\3 gis8\3 g\3 g\3 |
+    f4\4 gis8\3 g4.\3 gis8\3 g\3~ |
+    g4\3 gis8\3 g4\3 gis8\3 g\3 g\3 |
+    f4\4 gis8\3 g4.\3 gis8\3 g\3~ |
+    g4\3 gis8\3 g4\3 gis8\3 g\3 g\3 |
+\mymark "Verse 3" #96
+    f1\4~ |
+    f1\4~ |
+    f1\4~ |
+    f1\4~ |
+    f1\4~ |
+    f1\4~ |
+    f1\4~ |
+    f1\4~ |
+    f1\4~ |
+    f1\4~ |
+    f1\4~ |
+    f1\4 |
+\mymark "Pre-Chorus" #108
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #116
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Outro" #128
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

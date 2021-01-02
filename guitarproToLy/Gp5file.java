@@ -3,16 +3,8 @@ import java.util.*;
 
 final class Gp5file extends Gpfile{
     String tripletFeel;
-    int tempo;
-    int key0,key1;
     int time_n,time_d;
     MidiChannel[]midiChannels;
-    final List<TrackMeasureLyrics>trackMeasureLyrics=new ArrayList<TrackMeasureLyrics>();
-    final class TrackMeasureLyrics{
-	int track;
-	int startingMeasure;
-	final Queue<String>queue=new ArrayDeque<String>();
-    }
     final class MidiChannel{
 	final int instrument;
 	MidiChannel()throws IOException{
@@ -103,15 +95,14 @@ final class Gp5file extends Gpfile{
 	if (version>=500){
 	    String tempoName=readIntSizeBlob().toByteSizeString();
 	}
-	tempo = readInt();
+	global_tempo = readInt();
 	if (version>500){
 	    boolean hideTemp0=readBoolean();
 	}
 	if (version<500)
-	    key0 = readInt();
+	    global_key = new KeySignature(readInt(),0);
 	else
-	    key0 = readByte();
-	key1 = 0;
+	    global_key = new KeySignature(readByte(),0);
 	if (version>=500){
 	    int octave=readInt();
 	}else if (version>=400){
@@ -150,12 +141,11 @@ final class Gp5file extends Gpfile{
 	    int track=readInt();
 	    for (int i=0; i<5; i++){
 		TrackMeasureLyrics tml=new TrackMeasureLyrics();
+		tml.which = String.valueOf(i);
 		tml.track = track-1;
 		tml.startingMeasure = readInt()-1;
-		String lyrics=readIntSizeBlob().toString();
-		Log.info("Lyrics track=%d measure=%d %s",tml.track,tml.startingMeasure,lyrics);
-		for (StringTokenizer st=new StringTokenizer(lyrics); st.hasMoreTokens();)
-		    tml.queue.add(st.nextToken());
+		tml.lyrics = readIntSizeBlob().toString();
+		Log.info("Lyrics which=%d track=%d measure=%d %s",i,tml.track,tml.startingMeasure,tml.lyrics);
 		trackMeasureLyrics.add(tml);
 	    }
 	}
@@ -181,18 +171,13 @@ final class Gp5file extends Gpfile{
 	    measure.rehearsalMark = readIntSizeBlob().toByteSizeString();
 	    int color=readInt();
 	}
-	if ((bits&64)!=0){
-	    key0 = readByte();
-	    key1 = readByte();
-	}
+	if ((bits&64)!=0)
+	    measure.key = new KeySignature(readByte(),readByte());
 	if ((bits&128)!=0)
 	    measure.hasDoubleBar = true;
 	measure.tripletFeel = tripletFeel;
-	measure.tempo = tempo;
 	measure.time_n = time_n;
 	measure.time_d = time_d;
-	measure.key0 = key0;
-	measure.key1 = key1;
 	if (version>=500){
 	    if ((bits&3)!=0){
 		Blob timeSignatureBeams=readBlob(4);
@@ -305,29 +290,23 @@ final class Gp5file extends Gpfile{
 		if ((bits&2)!=0)
 		    track.events.add(new ChordEvent(time,duration,new Chord().read(track)));
 		if ((bits&4)!=0)
-		    track.events.add(new LyricEvent(time,duration,readIntSizeBlob().toByteSizeString()));
+		    track.events.add(new LyricEvent(time,duration,readIntSizeBlob().toByteSizeString(),false,false,"text"));
 		BeatEffects beatEffects=null;
 		if ((bits&8)!=0)
 		    beatEffects = new BeatEffects().read();
 		if ((bits&16)!=0)
-		    readMixTableChange();
+		    readMixTableChange(measure);
 		int stringBits=readUnsignedByte();
-		boolean getLyric=false;
 		for (int string=0; string<7; string++)
 		    if ((stringBits&64>>string)!=0){
 			NoteEvent e=new NoteEvent(track,time,duration);
 			e.string = string;
+			e.voice = voice;
 			e.beatEffects = beatEffects;
 			readNoteBits(e);
-			if (status==1){
+			if (status==1)
 			    track.events.add(e);
-			    getLyric |= !e.is_tie;
-			}
 		    }
-		if (getLyric)
-		    for (TrackMeasureLyrics tml:trackMeasureLyrics)
-			if (tml.track==track.index && tml.startingMeasure<=measure.index && tml.queue.size()!=0)
-			    track.events.add(new LyricEvent(time,duration,tml.queue.poll()));
 		if (version>=500){
 		    int bits1=readShort();
 		    if ((bits1&2048)!=0)
@@ -408,7 +387,7 @@ final class Gp5file extends Gpfile{
 	    int trill_value=readByte();
 	}
     }
-    void readMixTableChange()throws IOException{
+    void readMixTableChange(Measure measure)throws IOException{
 	int instrument=readByte();
 	if (version>=500){
 	    readRSEInstrument();
@@ -424,7 +403,7 @@ final class Gp5file extends Gpfile{
 	if (version>=500){
 	    String temponame=readIntSizeBlob().toByteSizeString();
 	}
-        int tempo=readInt();
+        measure.tempo = readInt();
 	if (volume>=0)
             readByte();
 	if (balance>=0)
@@ -437,7 +416,7 @@ final class Gp5file extends Gpfile{
             readByte();
 	if (tremolo>=0)
             readByte();
-	if (tempo>=0){
+	if (measure.tempo>=0){
             readByte();
 	    if (version>500)
 		readBoolean();

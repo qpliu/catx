@@ -7,10 +7,20 @@ final class LyricsFileMaker extends ChoppedTrackFileMaker{
 	    return "\"\"";
 	}
     };
+    private static final MeasureMaker.GetWhatSuffix HYPHENSTRING_GWS=new MeasureMaker.GetWhatSuffix(){
+	@Override public String getWhat(boolean is_lhs,boolean is_rhs){
+	    return is_lhs?"\"-\"":"\"\"";
+	}
+    };
     final boolean karaoke;
+    final Set<String>which_lyrics=new HashSet<String>();
     LyricsFileMaker(Main main,Arg arg,boolean karaoke)throws IOException{
-	super(main,arg,arg.name+(karaoke?"_karaoke":"_lyrics"),"",arg.name+(karaoke?"Karaoke":"Lyrics"),Gpfile.LyricEvent.class,EMPTYSTRING_GWS);
+	super(main,arg,arg.name+(karaoke?"_karaoke":"_lyrics"),"",arg.name+(karaoke?"Karaoke":"Lyrics"),karaoke?HYPHENSTRING_GWS:EMPTYSTRING_GWS);
 	this.karaoke = karaoke;
+	for (StringTokenizer st=new StringTokenizer(arg.which_lyrics,","); st.hasMoreTokens(); which_lyrics.add(st.nextToken()));
+    }
+    @Override boolean filterEvents(Gpfile.Event event){
+	return event instanceof Gpfile.LyricEvent && (which_lyrics.size()==0 || which_lyrics.contains(((Gpfile.LyricEvent)event).which));
     }
     @Override void make()throws IOException{
 	indent(lyname+" = \\new Lyrics \\lyricmode {");
@@ -18,14 +28,28 @@ final class LyricsFileMaker extends ChoppedTrackFileMaker{
 	unindent("}");
     }
     @Override MeasureMaker.GetWhatSuffix getGetWhatSuffix(List<Gpfile.Event>list){
-	String lyric="\\skip";
+	String lyric=null;
+	String suffix="";
 	for (Gpfile.Event e:list)
-	    if (!e.tie_rhs)
-		lyric = ((Gpfile.LyricEvent)e).lyric;
-	String lyri=Stuff.quote(lyric);
+	    if (!e.tie_rhs){
+		Gpfile.LyricEvent le=(Gpfile.LyricEvent)e;
+		if (lyric==null){
+		    lyric = le.lyric;
+		    if (le.hyphen_lhs && !karaoke)
+			suffix = " --";
+		    if (le.hyphen_rhs && karaoke)
+			lyric = "-"+lyric;
+		}else
+		    Log.info("Junking simultaneous lyric %s",le.lyric);
+	    }
+	String lyri=lyric==null?"\\skip":Stuff.quote(lyric);
+	String suffi=suffix;
 	return new MeasureMaker.GetWhatSuffix(){
 	    @Override public String getWhat(boolean is_lhs,boolean is_rhs){
-		return is_rhs?lyri:"\\skip";
+		return is_lhs?lyri:"\\skip";
+	    }
+	    @Override public String getSuffix(boolean is_lhs,boolean is_rhs){
+		return is_lhs?suffi:"";
 	    }
 	};
     }

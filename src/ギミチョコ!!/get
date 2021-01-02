@@ -4,6 +4,7 @@ WHERE="/share/mirror/songsterr/stuff/d-keep/d-Babymetal/d-Gimme Choco-s392595/d-
 SCALE=""
 rm -f generated-*
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
+markup-extra '\key b \major' \
 scale "$SCALE" \
 track 7 \
     preset kav \

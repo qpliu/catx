@@ -2,17 +2,18 @@ import java.io.*;
 import java.util.*;
 
 class ChoppedTrackFileMaker extends TrackFileMaker{
-    final Class clazz;
     final MeasureMaker.GetWhatSuffix skip;
-    ChoppedTrackFileMaker(Main main,Arg arg,String fn,String suffix,String lyname,Class clazz,MeasureMaker.GetWhatSuffix skip)throws IOException{
+    ChoppedTrackFileMaker(Main main,Arg arg,String fn,String suffix,String lyname,MeasureMaker.GetWhatSuffix skip)throws IOException{
 	super(main,arg,fn,suffix,lyname);
-	this.clazz = clazz;
 	this.skip = skip;
+    }
+    boolean filterEvents(Gpfile.Event event){
+	return true;
     }
     @Override String makeMeasure(Gpfile.Measure measure,List<Gpfile.Event>events)throws IOException{
 	Queue<Gpfile.Event>q=new PriorityQueue<Gpfile.Event>();
 	for (Gpfile.Event e:events)
-	    if (clazz.isInstance(e))
+	    if (filterEvents(e))
 		q.add(e);
 	MeasureMaker mm=new MeasureMaker(measure);
 	for (Gpfile.Event e; (e=q.peek())!=null;){

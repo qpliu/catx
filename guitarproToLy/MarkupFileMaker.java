@@ -12,7 +12,7 @@ final class MarkupFileMaker extends FileMaker{
 	for (String s:main.globalarg.markup_extra)
 	    print(s);
 	int time_n=4,time_d=4;
-	int key0=0,key1=0;
+	Gpfile.KeySignature key=new Gpfile.KeySignature(0,0);
 	int tempo=0;
 	boolean tripletFeel=false;
 	for (Gpfile.Measure measure:main.gpfile.measures){
@@ -20,10 +20,9 @@ final class MarkupFileMaker extends FileMaker{
 		tempo = measure.tempo;
 		print("\\tempo 4 = "+tempo);
 	    }
-	    if (measure.key0!=key0 || measure.key1!=key1){
-		key0 = measure.key0;
-		key1 = measure.key1;
-		print(Stuff.keyToLy(key0,key1));
+	    if (!measure.key.equals(key)){
+		key = measure.key;
+		print(Stuff.keyToLy(key.key0,key.key1));
 	    }
 	    if (measure.time_n!=time_n || measure.time_d!=time_d){
 		time_n = measure.time_n;

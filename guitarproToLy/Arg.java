@@ -18,6 +18,7 @@ final class Arg implements Cloneable{
     Rational shift=Rational.ZERO;
     String instrument_name;
     String instrument_short_name;
+    String which_lyrics="";
     List<String>layout_extra=new ArrayList<String>();
     List<String>music_extra=new ArrayList<String>();
     List<String>markup_extra=new ArrayList<String>();

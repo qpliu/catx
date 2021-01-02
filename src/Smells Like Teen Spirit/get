@@ -1,12 +1,44 @@
 #!/bin/sh
-WHERE="/share/mirror/songsterr/stuff/d-keep/d-Nirvana/d-Smells Like Teen Spirit-s269/d-r413303"
+set -e
+WHERE="/share/mirror/songsterr/stuff/d-keep/d-Nirvana/d-Smells Like Teen Spirit-s269/d-r413303/application_guitar_pro5-42928401.gp5"
+DRUMMAP="44 hh 0,35 bd 1,43 toml 0,"
+rm -f generated-*
 SCALE="c des d ees e f ges g aes a bes b"
-
-gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name voPart --output-tabs - >generated-votabs
-#gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --name voLyrics --lyrics - >generated-lyrics
-gzip -d <"$WHERE/z-t1"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name guitarOnePart --output-tabs - >generated-guitar1tabs
-gzip -d <"$WHERE/z-t2"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name guitarTwoPart --output-tabs - >generated-guitar2tabs
-gzip -d <"$WHERE/z-t3"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name guitarThreePart --output-tabs - >generated-guitar3tabs
-gzip -d <"$WHERE/z-t4"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name guitarFourPart --output-tabs - >generated-guitar4tabs
-gzip -d <"$WHERE/z-t5"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name bassPart --output-tabs - >generated-basstabs
-#gzip -d <"$WHERE/z-t6"|java -jar ../../songsterrToLy/1.jar --name drumsPart - >generated-drumscolors
+java -jar ../../guitarproToLy/1.jar <"$WHERE" \
+drumMap "$DRUMMAP" \
+modified-filename vocals_karaoke \
+modified-filename vocals_lyrics \
+markup-extra '\key f \minor' \
+track 0 \
+    preset kav \
+    output-lilypond \
+    output-lyrics \
+    output-karaoke \
+track 0 \
+    preset susan \
+track 1 \
+    preset peter \
+track 2 \
+    preset peter \
+    name guitarTwo \
+    instrument-name Guitar2 \
+    instrument-short-name Gtr2 \
+    output-dotext \
+track 3 \
+    preset peter \
+    name guitarThree \
+    instrument-name Guitar3 \
+    instrument-short-name Gtr3 \
+    output-dotext \
+track 4 \
+    preset peter \
+    name guitarFour \
+    instrument-name Guitar4 \
+    instrument-short-name Gtr4 \
+    output-dotext \
+track 5 \
+    preset bass \
+    output-dotext \
+track 6 \
+    preset gg \
+2>&1|tee log

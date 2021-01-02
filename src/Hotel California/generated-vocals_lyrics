@@ -27,7 +27,7 @@ vocalsLyrics = \new Lyrics \lyricmode {
     ""16 "I" "had" "to" \tuplet 3/2 { "stop"8 "for" "the" } "night."16 "_"8. ""4 |
 \mymark "Verse 2" #25
     ""8 "There"16 "she" "" "stood" "in" "the" "door"8 "way;" ""4 |
-    ""16 "I" "heard" "the" \tuplet 3/2 { "mis"8 "sion" "bell." } ""2 |
+    ""16 "I" "heard" "the" \tuplet 3/2 { "mis"8 "sion" "bell."4 \skip16 } ""4. |
     ""8. "An'"16 "I" "was" "think" "in'" "to" "my"8 "self," "this"16 "could" "be" |
     \tuplet 3/2 { "heav"8 "en" "or" "this" "could" "be" "" "hell." "_" } "_"8 "" |
     ""8 "Then"16 "she" \tuplet 3/2 { "lit"8 "up" "a" } "can"8 "dle,"16 "_" ""4 |
@@ -49,7 +49,7 @@ vocalsLyrics = \new Lyrics \lyricmode {
     ""16 "She" "got" "a" "lot" "of" "pret" "ty," "" "pret" "ty" "boys" "_"8 "" |
     ""8. "that"16 "she" "calls"8 "friends." "_"16 "_"8 ""4 |
     ""8 "How"16 "they" "dance"8 "in"16 "the" "court"8 "yard,"16 "_" ""4 |
-    "sweet"4 \tuplet 3/2 { ""8 "sum" "mer" } "sweat."4 "" |
+    \tuplet 3/2 { "sweet"2 "sum"8 "mer" } "sweat."4 "" |
     ""8 "Some" "dance" "to"16 "re" "mem" "_" "ber," "_"8. ""8 |
     ""8 "some" "dance" "to"16 "for"8 "get."16 "_"8 ""4 |
 \mymark "Verse 4" #49
@@ -69,20 +69,20 @@ vocalsLyrics = \new Lyrics \lyricmode {
     "liv"16 "in'" "it" "up" "" "at" "" "the" "Ho"8 "tel" "Cal"16 "_" "i" "for" |
     "_"16 "nia."8 ""2 ""8. "What"16 "a" |
     "nice"16 "_" "sur" "prise."8. "(What"16 "a" "nice" "_" "sur" "prise.)"8. "Bring"16 "your" |
-    "al"16 "_" "i" "bis." ""2. |
+    "al"16 "_" "i" "bis."2 \skip16 ""4 |
 \mymark "Verse 5" #65
     ""8 "Mir"16 "rors"8 "on" "the"16 "ceil"8 "ing,"16 "_" ""4 |
-    ""16 "the" "pink" "cham" \tuplet 3/2 { ""8 "pagne" "on" } "ice,"16 "_" "" "An'" "she" "said," ""8 |
+    ""16 "the" "pink" \tuplet 3/2 { "cham"8. \skip32 "pagne"8 "on" } "ice,"16 "_" "" "An'" "she" "said," ""8 |
     ""8 "\"We"16 "are" "all"8 "just" \tuplet 3/2 { "pris"8 "on" "ers" } "here"16 "_" ""8 |
     ""8 "of"16 "our" \tuplet 3/2 { "own"8 "_" "de" } "vice.\""4 "" |
-    ""16 "An'" "in" "the" \tuplet 3/2 { ""8 "mas" "ter's" } "cham"8 "bers"16 "_" ""4 |
+    ""16 "An'" "in" \tuplet 3/2 { "the"8. \skip32 "mas"8 "ter's" } "cham"8 "bers"16 "_" ""4 |
     \tuplet 3/2 { ""8 "they" "gath" "ered" "for" "the" } "feast."4 "" |
     ""16 "They"8 "stab"16 \tuplet 3/2 { "it"8 "with" "their"4 "steel"8 "y" } "knives"16 "_" "but" "they" |
     "just"8 "can't"8. "kill"8 "the"16 "beast." "_"8. ""4 |
 \mymark "Verse 6" #73
     ""8 "Last" "thing"16 "I"8 "re"16 "mem"8 "ber"16 "_" ""8 "I"16 "was" |
     ""8 "run"16 "ning"8 "for"16 "the" "door." "_"4 "" |
-    ""8. "I"16 "had" "to" "find" "the" \tuplet 3/2 { "pas"8 "sage" "back" } ""8 "to"16 "the" |
+    ""8. "I"16 "had" "to" "find" "the" \tuplet 3/2 { "pas"8 "sage" "back"8. \skip32 } ""16 "to" "the" |
     "place"8 "I" "was"16 "_" "be" "fore."8 "_"16 "_"8 ""4 |
     ""8 "\"Re"16 "lax,\""8. "said"16 "the" "night"8 "man,"16 "_" ""8 "\"We"16 "are" |
     ""8 "pro"16 "grammed"8 "to"16 "re"8 "ceive." "_" ""4 |

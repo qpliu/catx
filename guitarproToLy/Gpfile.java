@@ -6,8 +6,30 @@ class Gpfile extends Gpinput{
     int version;
     String artist;
     String title;
+    int global_tempo;
+    KeySignature global_key;
     Measure[]measures;
     Track[]tracks;
+    final List<TrackMeasureLyrics>trackMeasureLyrics=new ArrayList<TrackMeasureLyrics>();
+    final class TrackMeasureLyrics{
+	int track;
+	int startingMeasure;
+	String which;
+	String lyrics;
+    }
+    static class KeySignature{
+	final int key0,key1;
+	KeySignature(int key0,int key1){
+	    this.key0 = key0;
+	    this.key1 = key1;
+	}
+	@Override public String toString(){
+	    return key0+","+key1;
+	}
+	@Override public boolean equals(Object o){
+	    return toString().equals(o.toString());
+	}
+    }
     static class Measure{
 	int index;
 	String name;
@@ -15,7 +37,7 @@ class Gpfile extends Gpinput{
 	String tripletFeel;
 	int tempo;
 	int time_n,time_d;
-	int key0,key1;
+	KeySignature key;
 	boolean repeatStart;
 	int repeatEnd;
 	int repeatAlternate;
@@ -24,11 +46,10 @@ class Gpfile extends Gpinput{
 	@Override public String toString(){
 	    StringBuilder sb=new StringBuilder();
 	    sb.append(String.format("Measure %s",name));
-	    sb.append(String.format(" tempo=%d",tempo));
 	    sb.append(String.format(" tripletFeel=%s",tripletFeel));
 	    sb.append(String.format(" rehearsalMark=%s",rehearsalMark));
 	    sb.append(String.format(" time=%d/%d",time_n,time_d));
-	    sb.append(String.format(" key=%d,%d",key0,key1));
+	    sb.append(String.format(" key=%s",key));
 	    return sb.toString();
 	}
     }
@@ -140,9 +161,15 @@ class Gpfile extends Gpinput{
     }
     static class LyricEvent extends Event{
 	final String lyric;
-	LyricEvent(Rational time,Rational duration,String lyric){
+	final boolean hyphen_lhs;
+	final boolean hyphen_rhs;
+	final String which;
+	LyricEvent(Rational time,Rational duration,String lyric,boolean hyphen_lhs,boolean hyphen_rhs,String which){
 	    super(time,duration);
 	    this.lyric = lyric;
+	    this.hyphen_lhs = hyphen_lhs;
+	    this.hyphen_rhs = hyphen_rhs;
+	    this.which = which;
 	}
     }
     static class DotextEvent extends Event{
@@ -163,6 +190,7 @@ class Gpfile extends Gpinput{
 	boolean is_staccato;
 	boolean is_palm_mute;
 	boolean is_vibrato;
+	int voice;
 	int string;
 	int fret;
 	int tremoloPicking;

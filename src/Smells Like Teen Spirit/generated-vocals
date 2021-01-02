@@ -1,0 +1,155 @@
+vocals = {
+    \myVocalsStuff
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #8
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r4 c'8 dis'4 f' gis8~ |
+    gis4 gis8 f'4 dis'8 cis' c'~ |
+    c'4 c'8 c'4. f8 gis~ |
+    gis4 ais8 c'4 ais8 gis g~ |
+    g4 c'8 dis'4 f' gis8~ |
+    gis4 gis8 f'4 dis'8 cis' c'~ |
+    c'4 cis'8 c'4. f8 gis~ |
+    gis4 ais8 c'4 ais8 gis g~ |
+\mymark "Pre-Chorus" #20
+    g4 gis8 g4. gis8 g~ |
+    g4 gis8 g4 gis8 g g |
+    f8 r gis g4. gis8 g~ |
+    g4 gis8 g4 gis8 g g |
+    f8 r gis g4. gis8 g~ |
+    g4 gis8 g4 gis8 g g |
+    f8 r gis g4. gis8 g~ |
+    g4 gis8 g4 gis'8 g' g'~ |
+\mymark "Chorus" #28
+    g'8 f'4. r8 ais' ais' ais'~ |
+    ais'8 gis'4. r8 cis' cis' cis'~ |
+    cis'8 c'4. r8 ais' ais' ais'~ |
+    ais'8 gis'4. r8 gis' g' g'~ |
+    g'8 f'4. r8 ais' ais' ais'~ |
+    ais'8 gis'4. r8 cis' cis' cis'~ |
+    cis'8 c'4. r8 ais' ais' ais'~ |
+    ais'8 gis'4. r8 gis' g' g'~ |
+    g'8 f'4. r8 ais' ais' ais'~ |
+    ais'8 gis'4. r8 cis' cis' cis'~ |
+    cis'8 c'4. r8 ais' ais' ais'~ |
+    ais'8 gis'4. r4 gis' |
+\mymark "Bridge" #40
+    r2. b4 |
+    r1 |
+    r2. b4 |
+    r1 |
+\mymark "Verse 2" #44
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r4 c'8 dis'4 f' gis8~ |
+    gis4 r8 f'4 dis'8 cis' c'~ |
+    c'4 c'8 c'4. f8 gis~ |
+    gis4 ais8 c'4 ais8 gis g~ |
+    g4 c'8 dis'4 f' gis8~ |
+    gis4 gis8 f'4 dis'8 cis' c'~ |
+    c'4 cis'8 c'4. f8 gis~ |
+    gis4 ais8 c'4 ais8 gis g~ |
+\mymark "Pre-Chorus" #56
+    g4 gis8 g4. gis8 g~ |
+    g4 gis8 g4 gis8 g g |
+    f8 r gis g4. gis8 g~ |
+    g4 gis8 g4 gis8 g g |
+    f8 r gis g4. gis8 g~ |
+    g4 gis8 g4 gis8 g g |
+    f8 r gis g4. gis8 g~ |
+    g4 gis8 g4 gis'8 g' g'~ |
+\mymark "Chorus" #64
+    g'8 f'4. r8 ais' ais' ais'~ |
+    ais'8 gis'4. r8 cis' cis' cis'~ |
+    cis'8 c'4. r8 ais' ais' ais'~ |
+    ais'8 gis'4. r8 gis' g' g'~ |
+    g'8 f'4. r8 ais' ais' ais'~ |
+    ais'8 gis'4. r8 cis' cis' cis'~ |
+    cis'8 c'4. r8 ais' ais' ais'~ |
+    ais'8 gis'4. r8 gis' g' g'~ |
+    g'8 f'4. r8 ais' ais' ais'~ |
+    ais'8 gis'4. r8 cis' cis' cis'~ |
+    cis'8 c'4. r8 ais' ais' ais'~ |
+    ais'8 gis'4. r4 gis' |
+\mymark "Bridge" #76
+    r2. b4 |
+    r1 |
+    r2. b4 |
+    r1 |
+\mymark "Guitar Solo" #80
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 3" #96
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r4 c'8 dis'4 f' gis8~ |
+    gis4 gis8 f'4 dis'8 cis' c'~ |
+    c'4 c'8 c'4. f8 gis~ |
+    gis4 ais8 c'4 ais8 gis g~ |
+    g4 c'8 dis'4 f' gis8~ |
+    gis4 gis8 f'4 dis'8 cis' c'~ |
+    c'4 cis'8 c'4. f8 gis~ |
+    gis4 ais8 c'4 ais8 gis g~ |
+\mymark "Pre-Chorus" #108
+    g4 gis8 g4. gis8 g~ |
+    g4 gis8 g4 gis8 g g |
+    f8 r gis g4. gis8 g~ |
+    g4 gis8 g4 gis8 g g |
+    f8 r gis g4. gis8 g~ |
+    g4 gis8 g4 gis8 g g |
+    f8 r gis g4. gis8 g~ |
+    g4 gis8 g4 gis'8 g' g'~ |
+\mymark "Chorus" #116
+    g'8 f'4. r8 ais' ais' ais'~ |
+    ais'8 gis'4. r8 cis' cis' cis'~ |
+    cis'8 c'4. r8 ais' ais' ais'~ |
+    ais'8 gis'4. r8 gis' g' g'~ |
+    g'8 f'4. r8 ais' ais' ais'~ |
+    ais'8 gis'4. r8 cis' cis' cis'~ |
+    cis'8 c'4. r8 ais' ais' ais'~ |
+    ais'8 gis'4. r8 gis' g' g'~ |
+    g'8 f'4. r8 ais' ais' ais'~ |
+    ais'8 gis'4. r8 cis' cis' cis'~ |
+    cis'8 c'4. r8 ais' ais' ais'~ |
+    ais'8 gis'4. r8 gis' g' g'~ |
+\mymark "Outro" #128
+    g'8 f'4. r8 gis' g' g'~ |
+    g'8 f'4. r8 gis' g' g'~ |
+    g'8 f'4. r8 gis' g' g'~ |
+    g'8 f'4. r8 gis' g' g'~ |
+    g'8 f'4. r8 gis' g' g'~ |
+    g'8 f'4. r8 gis' g' g'~ |
+    g'8 f'4. r8 gis' g' g'~ |
+    g'8 f'4. r8 gis' g' g'~ |
+    g'8 f'2.~ f'8~ |
+    f'2. r4 |
+    r1 |
+}

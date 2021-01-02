@@ -8,6 +8,8 @@
 \include "generated-vocals"
 \include "generated-vocals_lyrics"
 \include "generated-vocals_karaoke"
+\include "generated-vocalsTwo_lyrics"
+\include "generated-vocalsTwo_karaoke"
 \include "generated-guitar_donetext"
 \include "generated-guitar"
 \include "generated-guitarTwo_donetext"
@@ -35,6 +37,7 @@ layoutmusic = <<
         \vocals
     >>
     \tag #'(allPart kavPart) \vocalsLyrics
+    \tag #'(allPart kavPart) \vocalsTwoLyrics
     \tag #'(allPart peterPart) \new Staff \with {
         instrumentName = \markup { \rotate #90 "Guitar" }
         shortInstrumentName = \markup { \rotate #90 "Gtr" }
@@ -107,6 +110,7 @@ midimusic = <<
         midiInstrument = #"oboe"
     } \vocals
     \tag #'(midiKaraoke) \vocalsKaraoke
+    \tag #'(midiKaraoke) \vocalsTwoKaraoke
     \tag #'(midiPeter) \new Staff = "generated-guitar_dotext" \guitarDotext
     \tag #'(midiPeter) \new Staff = "generated-guitar" \with {
         midiInstrument = #"overdriven guitar"

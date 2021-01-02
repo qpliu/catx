@@ -1,0 +1,154 @@
+bassDotext = {
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2 \skip8 `slide3`4.~ |
+    `slide3`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2. \skip16 |
+\mymark "Verse 1" #8
+    \skip2. \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+\mymark "Pre-Chorus" #20
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+\mymark "Chorus" #28
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+\mymark "Bridge" #40
+    `slide2`4 \skip2. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 2" #44
+    \skip2. \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+\mymark "Pre-Chorus" #56
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+\mymark "Chorus" #64
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+\mymark "Bridge" #76
+    `slide2`4 \skip2. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Guitar Solo" #80
+    \skip2. `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+\mymark "Verse 3" #96
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+\mymark "Pre-Chorus" #108
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+    `slide2`4 \skip2 \skip8 `slide2`8 |
+    \skip2. \skip8 `slide2`8~ |
+\mymark "Chorus" #116
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+\mymark "Outro" #128
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`8. \skip2 \skip16 `slide2`4 |
+    \skip2. `slide2`4~ |
+    `slide2`1~ |
+    `slide2`1~ |
+    `slide2`1 |
+}

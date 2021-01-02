@@ -4,11 +4,13 @@ set -e
 rm -f generated-*
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
 modified-filename vocals_karaoke \
+markup-extra '\key dis \minor' \
 track 0 \
     preset kav \
     output-lilypond \
     output-lyrics \
     output-karaoke \
+    which-lyrics "0" \
 track 0 \
     preset susan \
 track 1 \

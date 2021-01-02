@@ -1,0 +1,154 @@
+bass = {
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r2 r8 f,,\4\glissando ais,,4\4\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 |
+\mymark "Verse 1" #8
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+\mymark "Pre-Chorus" #20
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+\mymark "Chorus" #28
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+\mymark "Bridge" #40
+    f,,4\4 f,,8\4 fis,,\4 fis,,\4 fis,,\4 r4 |
+    c,4\4 c,8\4 c,\4 ais,,\4 ais,,\4 a,,\4 gis,,\4 |
+    f,,4\4 f,,8\4 fis,,\4 fis,,\4 fis,,\4 r4 |
+    c,4\4 c,8\4 c,\4 ais,,\4 ais,,\4 a,,\4 gis,,\4 |
+\mymark "Verse 2" #44
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+\mymark "Pre-Chorus" #56
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+\mymark "Chorus" #64
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+\mymark "Bridge" #76
+    f,,4\4 f,,8\4 fis,,\4 fis,,\4 fis,,\4 r4 |
+    c,4\4 c,8\4 c,\4 ais,,\4 ais,,\4 a,,\4 gis,,\4 |
+    f,,4\4 f,,8\4 fis,,\4 fis,,\4 fis,,\4 r4 |
+    c,4\4 c,8\4 c,\4 ais,,\4 ais,,\4 a,,\4 gis,,\4 |
+\mymark "Guitar Solo" #80
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+\mymark "Verse 3" #96
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+\mymark "Pre-Chorus" #108
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
+    gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+\mymark "Chorus" #116
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+\mymark "Outro" #128
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    f,,1\4~ |
+    f,,1\4~ |
+    f,,1\4 |
+}

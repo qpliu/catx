@@ -27,6 +27,7 @@ final class GuitarproToLy{
 	System.err.println("[shift n/d]  Shift notes right n/d beats.  Use shift -21/5 to shift notes left 4 1/5th beat.");
 	System.err.println("[string-numbers]  Include string numbers.");
 	System.err.println("[verbose level]");
+	System.err.println("[which-lyrics which]  Choose which lyrics tracks to use--something like \"text,0,1,4\"");
 	System.exit(1);
     }
     public static void main(String[]argv)throws IOException{
@@ -86,6 +87,8 @@ final class GuitarproToLy{
 		arg.string_numbers = true;
 	    else if (argv[i].equals("verbose"))
 		Log.level = Integer.parseInt(argv[++i]);
+	    else if (argv[i].equals("which-lyrics"))
+		arg.which_lyrics = argv[++i];
 	    else{
 		Log.error("%s is weird",argv[i]);
 		usage();

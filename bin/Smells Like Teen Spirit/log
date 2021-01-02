@@ -1,21 +1,4 @@
-generated-basstabs
-Scores: 4 16 77 267 272 453 453 521 521 706 711 889
-Best key: des major or bes minor
-generated-guitar1tabs
-Scores: 23 36 37 44 59 71 73 100 115 124 130 133
-Best key: f minor or aes major
-generated-guitar2tabs
-Scores: 179 227 393 506 723 930 959 1158 1189 1322 1647 1657
-Best key: f minor or aes major
-generated-guitar3tabs
-Scores: 0 4 28 30 36 38 42 55 59 61 65 67
-Best key: f minor or aes major
-generated-guitar4tabs
-Scores: 4 22 96 198 206 288 313 370 395 477 481 565
-Best key: f minor or aes major
-generated-votabs
-Scores: 4 49 136 167 174 179 221 259 303 305 306 317
-Best key: f minor or aes major
+cp: -r not specified; omitting directory '/home/gwoho/catx/src/Smells Like Teen Spirit/o'
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
@@ -34,19 +17,24 @@ WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
 Format: 1  Tracks: 14  Divisions: 384
->@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Load|!bg=uponguns,bringyourfriends.>It'sfuntoloseandtopre-tend.>She'so-verboardandselfas-sured.>Ohno,Iknowadir-tyword.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo.>Withthelightsout,it'slessdan-gerous.>Herewearenow,en-ter-tainus.>Ifeelstu-pidandcon-ta-gious.>Herewearenow,en-ter-tainus.>Amu-lat-to,anal-bi-no,amos-qui-to,myli-bi-do.->Yeah,->hey-->yay.->@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1I'm|!bg=worseatwhatIdobest.>AndforthisgiftIfeelblessed.>Ourlit-tlegrouphasal-waysbeenandal-wayswillun-tiltheend.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo.>Withthelightsout,it'slessdan-gerous.>Herewearenow,en-ter-tainus.>Ifeelstu-pidandcon-ta-gious.>Herewearenow,en-ter-tainus.>Amu-lat-to,anal-bi-no,amos-qui-to,myli-bi-do.>Yeah,->hey-->yay.->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1And|!bg=Ifor-getjustwhyItaste.>Ohyeah,Iguessitmakesmesmile.>Ifoundithard,it'shardtofind.>Ohwell,what-e-ver,ne-vermind.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo.>Withthelightsout,it'slessdan-gerous.>Herewearenow,en-ter-tainus.>Ifeelstu-pidandcon-ta-gious.>Herewearenow,en-ter-tainus.>Amu-lat-to,anal-bi-no,amos-qui-to,myli-bi-do.>Ade-ni-al,ade-ni-al,ade-ni-al,ade-ni-al,ade-ni-al.>Ade-ni-al,ade-ni-al,ade-ni-al,ade-ni-al.@@Playing time: ~295 seconds
+>@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Load|!bg=uponguns,bringyourfriends.>It'sfuntoloseandtopre-tend.>She'so-verboardandselfas-sured.>Ohno,Iknowadir-tyword.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo.>Withthelightsout,it'slessdan-gerous.>Herewearenow,en-ter-tainus.>Ifeelstu-pidandcon-ta-gious.>Herewearenow,en-ter-tainus.>Amu-lat-to,anal-bi-no,amos-qui-to,myli-bi-do.->Yeah,->hey-->yay.->@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1I'm|!bg=worseatwhatIdobest.>AndforthisgiftIfeelblessed.>Ourlit-tlegrouphasal-waysbeenandal-wayswillun-tiltheend.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo.>Withthelightsout,it'slessdan-gerous.>Herewearenow,en-ter-tainus.>Ifeelstu-pidandcon-ta-gious.>Herewearenow,en-ter-tainus.>Amu-lat-to,anal-bi-no,amos-qui-to,myli-bi-do.>Yeah,->hey-->yay.->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1And|!bg=Ifor-getjustwhyItaste.>Ohyeah,Iguessitmakesmesmile.>Ifoundithard,it'shardtofind.>Ohwell,what-e-ver,ne-vermind.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo.>Withthelightsout,it'slessdan-gerous.>Herewearenow,en-ter-tainus.>Ifeelstu-pidandcon-ta-gious.>Herewearenow,en-ter-tainus.>Amu-lat-to,anal-bi-no,amos-qui-to,myli-bi-do.>Ade-ni-al,ade-ni-al,ade-ni-al,ade-ni-al,ade-ni-al.>Ade-ni-al,ade-niLast 31 MIDI events are ignored
+Playing time: ~341 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 38662793/51819820 bytes(74.61% compressed)
+Wrote 39941235/59879696 bytes(66.7025% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+warning: compressing over-full page by 1.0 staff-spaces
+warning: page 0 has been compressed
+warning: compressing over-full page by 7.0 staff-spaces
+warning: page 1 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
     138 measure=all
     138 measure=kav
-    138 measure=susan
     138 measure=gg
     138 measure=peter
+    138 measure=susan
     138 measure=bass

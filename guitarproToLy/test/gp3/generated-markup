@@ -1,9 +1,10 @@
 markupStuff = {
     \override Score.RehearsalMark.self-alignment-X = #LEFT
-    \tempo 4 = 90
+    \tempo 4 = 75
 \mymark "Intro                          TAB by JPGR" #1
     s1 |
     s1 |
+    \tempo 4 = 90
     s1 |
     s1 |
     s1 |

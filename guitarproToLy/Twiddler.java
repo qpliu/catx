@@ -8,11 +8,24 @@ final class Twiddler{
 	this.gpfile = gpfile;
     }
     void twiddle(){
+	int tempo=gpfile.global_tempo;
+	Gpfile.KeySignature key=gpfile.global_key;
+	for (Gpfile.Measure measure:gpfile.measures){
+	    if (measure.key==null)
+		measure.key = key;
+	    else
+		key = measure.key;
+	    if (measure.tempo<=0)
+		measure.tempo = tempo;
+	    else
+		tempo = measure.tempo;
+	}
 	for (Gpfile.Track track:gpfile.tracks){
 	    joinTies(track);
 	    makeSlide(track);
 	    makeBend(track);
 	}
+	addLyricEvents();
     }
     private void joinTies(Gpfile.Track track){
 	Gpfile.NoteEvent[]a=new Gpfile.NoteEvent[track.tuning.length];
@@ -86,5 +99,40 @@ final class Twiddler{
 		}
 	    }
 	track.events.addAll(newEvents);
+    }
+    private void addLyricEvents(){
+	for (Gpfile.TrackMeasureLyrics tml:gpfile.trackMeasureLyrics)
+	    if (tml.track>=0){
+		final Deque<Gpfile.LyricEvent>lyricq=new ArrayDeque<Gpfile.LyricEvent>();
+		for (StringTokenizer st=new StringTokenizer(tml.lyrics); st.hasMoreTokens();){
+		    String s=st.nextToken();
+		    boolean hyphen=false;
+		    for (;;){
+			int i=s.indexOf('-');
+			if (i==-1){
+			    lyricq.add(new Gpfile.LyricEvent(null,null,s,false,hyphen,tml.which));
+			    break;
+			}
+			lyricq.add(new Gpfile.LyricEvent(null,null,s.substring(0,i),true,hyphen,tml.which));
+			hyphen = true;
+			s = s.substring(i+1);
+		    }
+		}
+		Queue<Gpfile.Event>noteq=new PriorityQueue<Gpfile.Event>();
+		Gpfile.Track track=gpfile.tracks[tml.track];
+		for (Gpfile.Event e:track.events)
+		    if (e instanceof Gpfile.NoteEvent && e.time.compareTo(gpfile.measures[tml.startingMeasure].time)>=0)
+			noteq.add(e);
+		for (Gpfile.Event ne; (ne=noteq.poll())!=null;){
+		    Gpfile.LyricEvent le=lyricq.poll();
+		    if (le==null)
+			break;
+		    le.time = ne.time;
+		    le.duration = ne.duration;
+		    while (noteq.size()!=0 && noteq.peek().time.equals(le.time))
+			le.duration = noteq.poll().duration;
+		    track.events.add(le);
+		}
+	    }
     }
 }

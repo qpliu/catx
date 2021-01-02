@@ -3,7 +3,10 @@ import java.util.*;
 
 final class ChordsFileMaker extends ChoppedTrackFileMaker{
     ChordsFileMaker(Main main,Arg arg)throws IOException{
-	super(main,arg,arg.name+"_chords","",arg.name+"Chords",Gpfile.ChordEvent.class,MeasureMaker.SKIP);
+	super(main,arg,arg.name+"_chords","",arg.name+"Chords",MeasureMaker.SKIP);
+    }
+    @Override boolean filterEvents(Gpfile.Event event){
+	return event instanceof Gpfile.ChordEvent;
     }
     @Override void make()throws IOException{
 	indent(lyname+" = \\new ChordNames {");
