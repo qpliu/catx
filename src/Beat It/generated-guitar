@@ -1,0 +1,151 @@
+guitar = {
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #23
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #39
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #51
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #67
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge" #83
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r8. <\deadNote gis,\5 \deadNote cis\4 \deadNote fis\3>16 r4 ais,2\5 |
+\mymark "Solo" #99
+    gis2\5\bendAfter #6 ^"full" r8 gis\3\glissando cis'4\3~ |
+    cis'8\3 gis'4.\3( \parenthesize cis'8\3)\glissando dis'\3 gis'4\3( |
+    \parenthesize dis'8\3)\glissando \parenthesize ais'\3 \tuplet 5/4 { r16 fis''\1( cis''\1 f''\1 fis''\1 f''\1 dis''\1 cis''\1 f''\1 fis''\1 } \tuplet 3/2 { f''16\1 dis''\1 cis''\1 f''\1 fis''\1 f''\1 } |
+    \tuplet 3/2 { dis''16\1 cis''\1) c''\2( cis''\2 c''\2 ais'\2 gis'\2 c''\2 cis''\2 c''\2 ais'\2 gis'\2 } ais'8\2 b'\2 ais'4\2)\glissando |
+    \parenthesize f''16\2 r8. \tuplet 5/4 { ais'16\2( cis''\2 f''\2 dis''\1 ais''\1 fis''\1 dis''\1 f''\1 dis''\1 f''\2 cis''\2 fis''\1 dis''\1 f''\1 cis''\2 } |
+    \tuplet 7/4 { ais'16\2 cis''\2 dis''\1 f''\1 cis''\2 ais'\2 cis''\2 } dis''16\1) ais'\2 gis'8\3\bendAfter #6 ^"full" gis'16\3\bendAfter #6 ^"full" fis'\3 cis''4\2\bendAfter #6 ^"full" cis''16\2\bendAfter #6 ^"full" ais'\2 |
+    cis''32\2 dis''\2\glissando gis''16\2 \tuplet 3/2 { cis''16\2 gis''\1\glissando b''\1 } cis''16\2 ais'\2 gis'8.\3\bendAfter #6 ^"full" gis'16\3\bendAfter #6 ^"full" fis'\3( fis\3 fis8.\3) \parenthesize fis16\3~ |
+    \parenthesize fis8\3 \parenthesize fis\3 <gis,\5 \parenthesize dis'\3>\bendAfter #6 ^"full" dis'16\3\bendAfter #6 ^"full" cis'\3 dis'8\3 cis'16\3 cis'\3 <gis,\5 cis'\3>4~ |
+    <gis,\5 cis'\3>8 cis'\2\bendAfter #6 ^"full" cis'16\2\bendAfter #6 ^"full" ais\2 cis'8\2\bendAfter #6 ^"full" \tuplet 3/2 { cis'16\2\bendAfter #6 ^"full" cis'\2( ais\2) } cis'4.\2 |
+    \tuplet 3/2 { cis'16\2\bendAfter #6 ^"full" cis'\2( ais\2) } cis'8\2\bendAfter #6 ^"full" cis'\2\bendAfter #6 ^"full" cis'16\2( ais\2) gis2\3\bendAfter #6 ^"full" |
+    \deadNote fis16\3 r fis'8\3 dis''\1 cis''\2~\bendAfter #6 ^"full" <dis''\1 cis''\2~>\bendAfter #6 ^"full" <cis''\2 fis''\1~>\bendAfter #6 ^"full" \tuplet 3/2 { fis''4\1\bendAfter #6 ^"full" dis''16\1 ais'\2 } |
+    <gis'\3 dis,\6~>8\bendAfter #6 ^"full" <gis'\3 dis,\6~>16\bendAfter #6 ^"full" <dis,\6 fis'\3> gis'2\3 r16 <cis''\2 gis'\3~>( <fis'\2 gis'\3~> <gis'\3 b'\2> |
+    \tuplet 5/4 { fis''16\1 b'\1 dis''\1 cis''\2 fis'\2 } \tuplet 3/2 { b'16\2 fis''\1 b'\1 dis''\1 cis''\2 fis'\2 } \tuplet 7/4 { b'16\2 fis''\1 b'\1 dis''\1 cis''\2 fis'\2 b'\2 fis''\1 b'\1 dis''\1 cis''\2 \parenthesize fis'\2 ais'\2 gis''\1) } |
+    \tuplet 3/2 { cis''8\1 gis''16\1 cis''8\1 gis''16\1 } cis''8\1\glissando b'\1 dis'\3 <ais\2 dis'\1> <cis''\2 dis''\1>4~\bendAfter #6 ^"full" |
+    <cis''\2 dis''\1>8\bendAfter #6 ^"full" \tuplet 3/2 { dis''16\1 dis''\1 dis''\1 f''8\1 f''16\1 f''\1 f''\1 f''\1 fis''\1 fis''\1 fis''\1 fis''\1 fis''\1 fis''\1 fis''\1 fis''\1\glissando gis''\1 gis''\1 gis''\1 gis''\1 } |
+    \tuplet 3/2 { gis''16\1 gis''\1 gis''\1 gis''\1 gis''\1 gis''\1 ais''\1 ais''\1 ais''\1 ais''\1 ais''\1 ais''\1 ais''\1 ais''\1 ais''\1 b''\1 b''\1 b''\1 b''\1 b''\1 b''\1 b''\1 b''\1 b''\1 } |
+\mymark "Chorus" #115
+    \tuplet 3/2 { cis'''16\1\bendAfter #6 ^"full" cis'''\1\bendAfter #6 ^"full" cis'''\1\bendAfter #6 ^"full" cis'''\1\bendAfter #6 ^"full" cis'''\1\bendAfter #6 ^"full" cis'''\1\bendAfter #6 ^"full" cis'''\1\bendAfter #6 ^"full" cis'''\1\bendAfter #6 ^"full" cis'''\1\bendAfter #6 ^"full" cis'''\1\bendAfter #6 ^"full" cis'''\1\bendAfter #6 ^"full" cis'''\1\bendAfter #6 ^"full" } dis'''8\1 dis'''\1 dis'''\1 dis'''\1~ |
+    dis'''8\1 ais'2.\2~ ais'8\2 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Outro" #123
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

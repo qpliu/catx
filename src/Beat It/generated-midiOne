@@ -1,22 +1,12 @@
-synthPart =
-{
-% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
-% url: -
-% artist: Michael Jackson
-% title: Beat It
-% instrument: Lead 2 (sawtooth)
-% name: Tom Bahler (Synthesiser)
-    \time 4/4
-    \tempo 4 = 139
+midiOne = {
 \mymark "Intro" #1
-% tuning e, a, d g b e'
-    5-3..5t1 |
-    5-3..5t1 |
-    6-5..7t1 |
-    6-5..7t1 |
-    5-3..5t1 |
-    5-3..5t1 |
-    6-3..5t1 |
+    <c c'>1 |
+    <c c'>1 |
+    <a, a>1 |
+    <a, a>1 |
+    <c c'>1 |
+    <c c'>1 |
+    <g, g>1 |
     r1 |
     r1 |
     r1 |

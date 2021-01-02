@@ -1,24 +1,4 @@
-generated-backupvotabs
-Scores: 0 0 26 46 62 76 124 124 172 186 202 222
-Best key: cis major or dis minor or fis major or ais minor
-generated-basstabs
-Scores: 0 18 60 78 96 195 195 329 329 428 446 446
-Best key: dis minor or fis major
-generated-leadguitartabs
-Scores: 0 0 36 66 120 186 258 330 402 468 522 552
-Best key: dis minor or fis major or gis minor or b major
-generated-rhythmguitartabs
-Scores: 14 24 72 94 203 233 341 448 556 586 681 693
-Best key: dis minor or fis major
-generated-sologuitartabs
-Scores: 4 20 21 52 56 89 118 123 152 181 189 200
-Best key: dis minor or fis major
-generated-synthtabs
-Scores: 0 0 0 0 4 4 6 8 10 10 14 14
-Best key: c major or d minor or e minor or f major or g major or g minor or a minor or ais major
-generated-votabs
-Scores: 0 0 7 94 113 155 233 233 311 353 372 459
-Best key: cis major or dis minor or fis major or ais minor
+cp: -r not specified; omitting directory '/home/gwoho/catx/src/Beat It/o'
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
@@ -34,13 +14,14 @@ Best key: cis major or dis minor or fis major or ais minor
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
+Unused TextEvent start divisions=166464 seconds=187.122009 measure=109.375 stop divisions=167016 seconds=187.742511625 measure=109.734375 whatparam=bendSongsterr:0:0:15:100:60:100 trackName=generated-guitar matchKey=[73.0] matchTimeAndStop=true
 Playing out.midi
 MIDI file: out.midi
 Format: 1  Tracks: 14  Divisions: 384
 ->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1They|!bg=toldhimdon'tyouev-ercomea-roundhere.->Don'twan-naseeyourface,youbet-terdis-ap-pear.->Thefi-re'sintheireyesandtheirwordsarereal-lyclear.>Sobeatit,-justbeatit.--->Youbet-terrun,youbet-terdowhatyoucan.->Don'twan-naseenoblood,don'tbeama-choman.->Youwan-nabetough,bet-terdowhatyoucan.>Sobeatit.->Butyouwan-nabebad.>Justbeatit,beatit,beatit,beatit.>Noonewantstobede-fea-ted.-->Showhimhowfun-kyandstrongisyourfight.->Itdoes-n'tmat-terwho'swrongorright.>Justbeatit,-justbeatit.->Justbeatit,-justbeatit.--->They'reouttogetyou,bet-terleavewhileyoucan.->Don'twan-nabeaboy,youwan-nabeaman.->Youwan-nastaya-live,bet-terdowhatyoucan.>Sobeatit,-justbeatit.--->Youhavetoshowthemthatyou'rereal-lynotscared.->You'replay-in'withyourlifethisain'tnotruthordare.->They'llkickyou,thenthey'llbeatyou,andthey'lltellyouit'sfair.>Sobeatit.->Butyouwan-nabebad.>Justbeatit,beatit,beatit,beatit.>Noonewantstobede-fea-ted.-->Showthemhowfun-kyandstrongisyourfight.->Itdoes-n'tmat-terwho'swrongorright.>Justbeatit,beatit,beatit,beatit.>Noonewantstobede-fea-ted.-->Showthemhowfun-kyandstrongisyourfight.->Itdoes-n'tmat-terwho'swrongorright.>Justbeatit,beatit,beatit,beatit.->Beatit,beatit,beatit.-->@|!bg=4@|!bg=3@|!bg=2@|!bg=1Beat|!bg=it,beatit,beatit,beatit.-Beatit,beatit.->@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Beat|!bg=it,beatit,beatit.-->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Beat|!bg=it,beatit,beatit,beatit.>Noonewantstobede-fea-ted.-->Showthemhowfun-kyandstrongisyourfight.->Itdoes-n'tmat-terwho'swrongorright.>Justbeatit,beatit,beatit,beatit.>Noonewantstobede-fea-ted.-->Showthemhowfun-kyandstrongisyourfight.->Itdoes-n'tmat-terwho'swrongorright.>Justbeatit,beatit,beatit,beatit.>Noonewantstobede-fea-ted.-->Showthemhowfun-kyandstrongisyourfight.->Itdoes-n'tmat-terwho'swrongorright.>Justbeatit,beatit.----@@Playing time: ~247 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 29992233/43308108 bytes(69.2532% compressed)
+Wrote 30577802/43317624 bytes(70.5897% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
@@ -49,7 +30,7 @@ Wrote 29992233/43308108 bytes(69.2532% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
     140 measure=all
     140 measure=kav
-    140 measure=susan
     140 measure=gg
     140 measure=peter
+    140 measure=susan
     140 measure=bass

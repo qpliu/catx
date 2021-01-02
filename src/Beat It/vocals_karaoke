@@ -1,4 +1,4 @@
-karaokeLyrics = \new Lyrics \lyricmode {
+vocalsKaraoke = \new Lyrics \lyricmode {
 \mymark "Intro" #1
     -8
     ">@"2 @
