@@ -1,0 +1,133 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    "Henley is always middle harmony"1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+\mymark "Verse 1" #17
+    ""8 "On"16 "a" "dark"8 "de"16 "sert" "high"8 "way,"16 "_" ""4 |
+    ""8 "cool"16 "_" \tuplet 3/2 { "wind"8 "in" "my" } "hair,"4 "" |
+    ""8 "warm"16 "_" "smell" "_" "of" "co" "li"8 "tas"16 "_" ""4 |
+    \tuplet 3/2 { ""8 "ris" "ing" "up" "through" "the" } "air."8. "_"16 "_"8 "" |
+    ""8 "Up"16 "a" "head"8 "in"16 "the" "dis"8 "tance" ""4 |
+    ""16 "I" "saw" "a" \tuplet 3/2 { "shim"8 "mer" "ing" } "light."4 "" |
+    ""16 "My" "head" "grew" "heav" "y" "and" "my" "sight"8 "grew"16 "dim," "_"8 "" |
+    ""16 "I" "had" "to" \tuplet 3/2 { "stop"8 "for" "the" } "night."16 "_"8. ""4 |
+\mymark "Verse 2" #25
+    ""8 "There"16 "she" "" "stood" "in" "the" "door"8 "way;" ""4 |
+    ""16 "I" "heard" "the" \tuplet 3/2 { "mis"8 "sion" "bell." } ""2 |
+    ""8. "An'"16 "I" "was" "think" "in'" "to" "my"8 "self," "this"16 "could" "be" |
+    \tuplet 3/2 { "heav"8 "en" "or" "this" "could" "be" "" "hell." "_" } "_"8 "" |
+    ""8 "Then"16 "she" \tuplet 3/2 { "lit"8 "up" "a" } "can"8 "dle,"16 "_" ""4 |
+    ""8 "an'"16 "she" "showed"8 "me"16 "the" "way." "_" "_"8 ""4 |
+    ""8 "There"16 "were" "voic" "es" "down" "the" "" "cor" "ri" "dor," "_"8 "" |
+    ""16 "I" "thought" "I" "heard"8 "them"16 "_" "say:"4 "" |
+\mymark "Chorus" #33
+    ""8 "\"Wel"16 "come"8 "to"16 "the" "Ho"8 "tel"8. "Cal"16 "_" "i" "for" |
+    "_"16 "nia,"8 ""2 ""8. "such"16 "a" |
+    "love"16 "_" "ly" "place,"8. "(such"16 "a" "love" "_" "ly" "place),"8. "such"16 "a" |
+    "love"16 "_" "ly" "face."8. ""2 ""8 |
+    "Plen"16 "ty" "of" "room"8 "at" "the"16 "Ho"8 "tel" "Cal"16 "_" "i" "for" |
+    "_"16 "nia."8 ""2 ""8. "An"16 "y" |
+    "time"16 "_" "of" "year,"8. "(an"16 "y" "time" "_" "of" "year),"8. "you"16 "can" |
+    "find"16 "_" "it" "here."8. ""2 ""8 |
+\mymark "Verse 3" #41
+    ""16 "Her" "mind" "is" \tuplet 3/2 { "Tif"8 "fa" "ny" } "twist"8 "ed." ""4 |
+    ""16 "She" "got" "the" "Mer"8 "ce"16 "des"8 "bends."16 "_"8 "(Uh)" "" |
+    ""16 "She" "got" "a" "lot" "of" "pret" "ty," "" "pret" "ty" "boys" "_"8 "" |
+    ""8. "that"16 "she" "calls"8 "friends." "_"16 "_"8 ""4 |
+    ""8 "How"16 "they" "dance"8 "in"16 "the" "court"8 "yard,"16 "_" ""4 |
+    "sweet"4 \tuplet 3/2 { ""8 "sum" "mer" } "sweat."4 "" |
+    ""8 "Some" "dance" "to"16 "re" "mem" "_" "ber," "_"8. ""8 |
+    ""8 "some" "dance" "to"16 "for"8 "get."16 "_"8 ""4 |
+\mymark "Verse 4" #49
+    ""8 "So"16 "I" "called"8 "up"16 "the" "cap"8 "tain," ""4 |
+    ""16 "\"Please"8. "bring"8 "me"16 "my"8 "wine.\""16 "_"8 ""16 "He" "said" "that" |
+    ""16 "\"We" \tuplet 3/2 { "have"8 "n't"16 } "had"8 "that" "spir"16 "it"8 "here"8. "since"8 |
+    ""8 "nine"16 "_" "teen" "six"8 "ty"16 "nine." "_" "_"8 ""4 |
+    ""8 "An'"16 "_" "still"8 "those" "voic"16 "es" "are" "call"8 "ing"16 "from"8 |
+    "far"16 "_"4 "_"16 "a" "way."4. "_"16 "_"8 |
+    ""8 "Wake"16 "you" "up" "" "in" "the" "mid" "dle" "of" "the" "night" "_" ""8 |
+    ""8 "just"16 "to" "hear"8 "them"16 "_" "say:"4 "_" |
+\mymark "Chorus" #57
+    ""8 "\"Wel"16 "come"8 "to"16 "the" "Ho"8 "tel"8. "Cal"16 "_" "i" "for" |
+    "_"16 "nia,"8 ""2 ""8. "such"16 "a" |
+    "love"16 "_" "ly" "place,"8. "(such"16 "a" "love" "_" "ly" "place),"8. "such"16 "a" |
+    "love"16 "_" "ly" "face." "_"8 ""2 ""16 "They're" |
+    "liv"16 "in'" "it" "up" "" "at" "" "the" "Ho"8 "tel" "Cal"16 "_" "i" "for" |
+    "_"16 "nia."8 ""2 ""8. "What"16 "a" |
+    "nice"16 "_" "sur" "prise."8. "(What"16 "a" "nice" "_" "sur" "prise.)"8. "Bring"16 "your" |
+    "al"16 "_" "i" "bis." ""2. |
+\mymark "Verse 5" #65
+    ""8 "Mir"16 "rors"8 "on" "the"16 "ceil"8 "ing,"16 "_" ""4 |
+    ""16 "the" "pink" "cham" \tuplet 3/2 { ""8 "pagne" "on" } "ice,"16 "_" "" "An'" "she" "said," ""8 |
+    ""8 "\"We"16 "are" "all"8 "just" \tuplet 3/2 { "pris"8 "on" "ers" } "here"16 "_" ""8 |
+    ""8 "of"16 "our" \tuplet 3/2 { "own"8 "_" "de" } "vice.\""4 "" |
+    ""16 "An'" "in" "the" \tuplet 3/2 { ""8 "mas" "ter's" } "cham"8 "bers"16 "_" ""4 |
+    \tuplet 3/2 { ""8 "they" "gath" "ered" "for" "the" } "feast."4 "" |
+    ""16 "They"8 "stab"16 \tuplet 3/2 { "it"8 "with" "their"4 "steel"8 "y" } "knives"16 "_" "but" "they" |
+    "just"8 "can't"8. "kill"8 "the"16 "beast." "_"8. ""4 |
+\mymark "Verse 6" #73
+    ""8 "Last" "thing"16 "I"8 "re"16 "mem"8 "ber"16 "_" ""8 "I"16 "was" |
+    ""8 "run"16 "ning"8 "for"16 "the" "door." "_"4 "" |
+    ""8. "I"16 "had" "to" "find" "the" \tuplet 3/2 { "pas"8 "sage" "back" } ""8 "to"16 "the" |
+    "place"8 "I" "was"16 "_" "be" "fore."8 "_"16 "_"8 ""4 |
+    ""8 "\"Re"16 "lax,\""8. "said"16 "the" "night"8 "man,"16 "_" ""8 "\"We"16 "are" |
+    ""8 "pro"16 "grammed"8 "to"16 "re"8 "ceive." "_" ""4 |
+    ""8 "You"16 "can" "check" "out" "an" "y"8 "time" "you"16 "like," "_" ""8 |
+    ""16 "but" "you" "can"8 "nev"16 "er" "_" "leave.\"" "_" "_"8 ""4 |
+\mymark "Solo" #81
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+}

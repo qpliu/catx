@@ -1,148 +1,138 @@
-steelpanPart =
-{
-% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
-% url: -
-% artist: Journey
-% title: Don't Stop Believin'
-% instrument: Acoustic Grand Piano
-% name: Piano Treble (Jonathan Cain)
-% scale ees
-    \time 4/4
-    \tempo 4 = 121
+steelpan = {
+    \myVocalsStuff
 \mymark "Intro" #1
-% tuning e, a, d g b e'
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    e'8 b e' b e' b e' b |
-    cis'8 a cis' a cis' a cis' a |
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    ees'8 b ees' b ees' b ees' b |
-    cis'8 a cis' a cis' a cis' a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
 \mymark "Verse 1" #9
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    e'8 b e' b e' b e' b |
-    cis'8 a cis' a cis' a cis' a |
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    ees'8 b ees' b ees' b ees' b |
-    cis'8 a cis' a cis' a cis' a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
 \mymark "Verse 2" #17
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    e'8 b e' b e' b e' b |
-    cis'8 a cis' a cis' a cis' a |
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    ees'8 b ees' b ees' b ees' b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
 \mymark "Guitar Fill" #24
-    cis'8 a cis' a cis' a cis' a |
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    e'8 b e' b e' b e' b |
-    cis'8 a cis' a cis' a cis' a |
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    ees'8 b ees' b ees' b ees' b |
-    cis'8 a cis' a cis' a cis' a |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
 \mymark "Verse 3" #33
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    e'8 b e' b e' b e' b |
-    cis'8 a cis' a cis' a cis' a |
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    ees'8 b ees' b ees' b ees' b |
-    cis'8 a cis' a cis' a cis' a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
 \mymark "Bridge" #41
-    fis'8 \ottava #-1 a, a,4 a,8 a, a, a, |
-    \ottava #0 fis'8 \ottava #-1 a, a,4 a,8 a, a, a, |
-    \ottava #0 fis'8 \ottava #-1 e, e,4 e,8 e, e, e, |
-    \ottava #0 fis'8 \ottava #-1 e, e,4 e,8 e, e, e, |
-    \ottava #0 fis'8 \ottava #-1 a, a,4 a,8 a, a, a, |
-    \ottava #0 fis'8 \ottava #-1 a, a,4 a,8 a, a, a, |
-    \ottava #0 b8 \ottava #-1 e, e,4 e,8 e, e, e, |
-    b,8 e, e,4 r2 |
-    \ottava #0 fis'8 \ottava #-1 a, a,4 a,8 a, a, a, |
-    \ottava #0 fis'8 \ottava #-1 a, a,4 a,8 a, a, a, |
-    \ottava #0 fis'8 \ottava #-1 e, e,4 e,8 e, e, e, |
-    \ottava #0 fis'8 \ottava #-1 e, e,4 e,8 e, e, e, |
-    \ottava #0 fis'8 \ottava #-1 a, a,4 a,8 a, a, a, |
-    \ottava #0 fis'8 \ottava #-1 a, a,4 a,8 a, a, a, |
-    \ottava #0 fis'4 fis'8 fis'2~ fis'8 |
-    fis'4 fis'8 e'4. r4 |
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    e'8 b e' b e' b e' b |
-    cis'8 a cis' a cis' a cis' a |
+    <fis' b' dis''>8 a, a,~ <a, e' a' cis''> a, a, a, a, |
+    <fis' b' dis''>8 a, a,~ <a, gis' b' e''> a, a, a, a, |
+    <fis' b' dis''>8 e, e,~ <e, gis' b' e''> e, e, e, e, |
+    <fis' b' dis''>8 e, e,~ <e, gis' b' e''> e, e, e, e, |
+    <fis' b' dis''>8 a, a,~ <a, e' a' cis''> a, a, a, a, |
+    <fis' b' dis''>8 a, a,~ <a, gis' b' e''> a, a, a, a, |
+    <b dis' fis'>8 e, e,~ <e, b e' gis'> e, e, e, e, |
+    <b, b dis' fis'>8 e, e,~ <e, b e' gis'> r2 |
+    <fis' b' dis''>8 a, a,~ <a, e' a' cis''> a, a, a, a, |
+    <fis' b' dis''>8 a, a,~ <a, gis' b' e''> a, a, a, a, |
+    <fis' b' dis''>8 e, e,~ <e, gis' b' e''> e, e, e, e, |
+    <fis' b' dis''>8 e, e,~ <e, gis' b' e''> e, e, e, e, |
+    <fis' b' dis''>8 a, a,~ <a, e' a' cis''> a, a, a, a, |
+    <fis' b' dis''>8 a, a,~ <a, gis' b' e''> a, a, a, a, |
+    <fis' b' dis''>4 <fis' b' e''>8 <fis' b' e''>2~ <fis' b' e''>8 |
+    <fis' b' dis''>4 <fis' b' e''>8 <e' a' cis''>4. r4 |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
 \mymark "Verse 4" #61
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    ees'8 b ees' b ees' b ees' b |
-    cis'8 a cis' a cis' a cis' a |
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    e'8 b e' b e' b e' b |
-    cis'8 a cis' a cis' a cis' a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
 \mymark "Verse 5" #69
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    ees'8 b ees' b ees' b ees' b |
-    cis'8 a cis' a cis' a cis' a |
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    e'8 b e' b e' b e' b |
-    cis'8 a cis' a cis' a cis' a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
 \mymark "Bridge" #77
-    fis'8 \ottava #-1 a, a,4 a,8 a, a, a, |
-    \ottava #0 fis'8 \ottava #-1 a, a,4 a,8 a, a, a, |
-    \ottava #0 fis'8 \ottava #-1 e, e,4 e,8 e, e, e, |
-    \ottava #0 fis'8 \ottava #-1 e, e,4 e,8 e, e, e, |
-    \ottava #0 fis'8 \ottava #-1 a, a,4 a,8 a, a, a, |
-    \ottava #0 fis'8 \ottava #-1 a, a,4 a,8 a, a, a, |
-    \ottava #0 b8 \ottava #-1 e, e,4 e,8 e, e, e, |
-    b,8 e, e,4 r2 |
-    \ottava #0 fis'8 \ottava #-1 a, a,4 a,8 a, a, a, |
-    \ottava #0 fis'8 \ottava #-1 a, a,4 a,8 a, a, a, |
-    \ottava #0 fis'8 \ottava #-1 e, e,4 e,8 e, e, e, |
-    \ottava #0 fis'8 \ottava #-1 e, e,4 e,8 e, e, e, |
-    \ottava #0 fis'8 \ottava #-1 a, a,4 a,8 a, a, a, |
-    \ottava #0 fis'8 \ottava #-1 a, a,4 a,8 a, a, a, |
-    \ottava #0 fis'4 fis'8 fis'2~ fis'8 |
-    fis'4 fis'8 e'4. r4 |
+    <fis' b' dis''>8 a, a,~ <a, e' a' cis''> a, a, a, a, |
+    <fis' b' dis''>8 a, a,~ <a, gis' b' e''> a, a, a, a, |
+    <fis' b' dis''>8 e, e,~ <e, gis' b' e''> e, e, e, e, |
+    <fis' b' dis''>8 e, e,~ <e, gis' b' e''> e, e, e, e, |
+    <fis' b' dis''>8 a, a,~ <a, e' a' cis''> a, a, a, a, |
+    <fis' b' dis''>8 a, a,~ <a, gis' b' e''> a, a, a, a, |
+    <b dis' fis'>8 e, e,~ <e, b e' gis'> e, e, e, e, |
+    <b, b dis' fis'>8 e, e,~ <e, b e' gis'> r2 |
+    <fis' b' dis''>8 a, a,~ <a, e' a' cis''> a, a, a, a, |
+    <fis' b' dis''>8 a, a,~ <a, gis' b' e''> a, a, a, a, |
+    <fis' b' dis''>8 e, e,~ <e, gis' b' e''> e, e, e, e, |
+    <fis' b' dis''>8 e, e,~ <e, gis' b' e''> e, e, e, e, |
+    <fis' b' dis''>8 a, a,~ <a, e' a' cis''> a, a, a, a, |
+    <fis' b' dis''>8 a, a,~ <a, gis' b' e''> a, a, a, a, |
+    <fis' b' dis''>4 <fis' b' e''>8 <fis' b' e''>2~ <fis' b' e''>8 |
+    <fis' b' dis''>4 <fis' b' e''>8 <e' a' cis''>4. r4 |
 \mymark "Guitar Solo" #93
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    e'8 b e' b e' b e' b |
-    cis'8 a cis' a cis' a cis' a |
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    ees'8 b ees' b ees' b ees' b |
-    cis'8 a cis' a cis' a cis' a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
 \mymark "Chorus" #101
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    e'8 b e' b e' b e' b |
-    cis'8 a cis' a cis' a cis' a |
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    ees'8 b ees' b ees' b ees' b |
-    cis'8 a cis' a cis' a cis' a |
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    e'8 b e' b e' b e' b |
-    cis'8 a cis' a cis' a cis' a |
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    ees'8 b ees' b ees' b ees' b |
-    cis'8 a cis' a cis' a cis' a |
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    e'8 b e' b e' b e' b |
-    cis'8 a cis' a cis' a cis' a |
-    e'8 b e' b e' b e' b |
-    fis'8 b fis' b fis' b fis' b |
-    ees'8 b ees' b ees' b ees' b |
-    cis'8 a cis' a cis' a cis' a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
+    <e' b'>8 b <e' b'> b <e' b'> b <e' b'> b |
+    <fis' b'>8 b <fis' b'> b <fis' b'> b <fis' b'> b |
+    <dis' b'>8 b <dis' b'> b <dis' b'> b <dis' b'> b |
+    <cis' a'>8 a <cis' a'> a <cis' a'> a <cis' a'> a |
 }

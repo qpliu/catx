@@ -82,12 +82,18 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
     private final Map<Integer,Drum>drumMap=new HashMap<Integer,Drum>();
     DrumTrackFileMaker(Main main,Arg arg)throws IOException{
 	super(main,"colors",arg,Gpfile.NoteEvent.class,MeasureMaker.REST);
-	for (StringTokenizer st=new StringTokenizer(arg.drumMap==null?DEFAULT_DRUM_MAP:arg.drumMap,","); st.hasMoreTokens();){
+	putDrumMap(DEFAULT_DRUM_MAP);
+	if (arg.drumMap!=null)
+	    putDrumMap(arg.drumMap);
+    }
+    private void putDrumMap(String map){
+	for (StringTokenizer st=new StringTokenizer(map,","); st.hasMoreTokens();){
 	    StringTokenizer st2=new StringTokenizer(st.nextToken());
 	    int key=Integer.parseInt(st2.nextToken());
 	    String name=st2.nextToken();
 	    int voice=Integer.parseInt(st2.nextToken());
-	    drumMap.put(key,new Drum(key,name,voice,drumMap.size()));
+	    Drum old=drumMap.get(key);
+	    drumMap.put(key,new Drum(key,name,voice,old==null?drumMap.size():old.sort));
 	}
     }
     @Override void make()throws IOException{
@@ -135,7 +141,10 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
 	    list.add(q);
 	    for (Gpfile.Event e:events)
 		if (!e.tie_rhs && e instanceof Gpfile.NoteEvent){
-		    Drum drum=drumMap.get(((Gpfile.NoteEvent)e).getNote());
+		    int k=((Gpfile.NoteEvent)e).getNote();
+		    Drum drum=drumMap.get(k);
+		    if (drum==null)
+			Log.info("Drum %d not in drumMap",k);
 		    if (drum!=null && drum.voice==voice)
 			q.add(new TimeAndDrum(e.time,drum));
 		}

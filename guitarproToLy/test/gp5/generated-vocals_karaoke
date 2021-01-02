@@ -1,116 +1,112 @@
 vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
-    ""2
+    "Quick note regarding vocals (press F5)"2
 \mymark "Intro" #2
     ""1
+    "Vocal part:"4 "" "All"8 "wao!" "U-chu-u" ""
     ""1
-    "timing here varies, just make sure the top note"16 ""2. ""8.
-    "lands on the \"and\" of every beat"16 ""2. ""8.
+    ""1
     ""1
     ""1
 \mymark "Verse 1A" #8
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
+    "no"4 "ha-te" "no" "ha-te"
+    "de-mo"4 "KI-MI" "no" "ko-to"8 "o-mo-u"
+    "I-ku-ta"4 "no" \tuplet 3/2 { "na-ga-re-boshi"8 "ni" "ne-ga-i" } "wo"8 "ma-ki-chi-ra-su"
+    "Too-ku-te"4 "ai-ta-ku-te" "To-doki-sou" ""
+    "Momoka"4 "i-tsu-dat-te" "na-mi-da" "me"
+    \tuplet 3/2 { "Da-re"8 "dat-te" "hoshi" } "to"4 "na-ri" "Un-mei?"8 "Shuku-mei?"
+    "Da-re"4 "no" \tuplet 3/2 { "se-i?"8 "BO-KU" "no" } "su-be-te"4
+    "sa-sa-ge-ru"2 ""
 \mymark "Verse 1B" #16
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
+    "Shiori"4 "Ho-shi-ku-zu"8 "no" ""2
+    "KU-ZU"8. "no"16 "na-ri-te"8 "KI-MI" ""2
+    "ni"16 "ko-i-shi"8. "tsu-dzu-ke-you"8 "O-mo-i" ""2
+    "wa"8. "mo-e-te-ru"16 "A-ka-ku"8. "a-ka-ku"16 "hi-ka-ru"8. "A-N-TA-RE-SU"16 "no"8. "yo-u"16
+    "ni"8. "Na-n-oku"16 "ko-u-nen"8. "sa-ki"16 ""2
+    "da-t-te"8. "Ka-ma-wa-na-i!"16 "Sou"8 "su-ki" ""2
+    "da-ka-ra"4 "Ne-ga-i" "wa" "ke-i-na-i"
+    "All"8. "no"16 "ko-do-mo"8 "ga"16 "KI-MI" ""2
 \mymark "Pre-Chorus 1" #24
-    ""2.
-    ""2.
-    ""2.
-    ""2.
-    "to get the full effect of these licks, mute the"16 ""2 ""8. " vocal track"16 ""8.
-    ""1
-    ""1
+    "Ayaka"2 "ma-mo-ri"8 "tsu-dzu-ke-ru"
+    "you!"4 "Mo-re-tsu!" "Zen-in!"
+    "Seeretsu!!"2 "O!!"8 "Aishi-taishi"
+    "aishi-te-ru"4 "" "Ai"
+    "ni"8 "Sa-ku-retsu!" "Kyou-retsu!" "\\skip" "wo" "ko-no" "mu-ne"16 ""8.
+    "Reni"16 "" "Ai"8 "ai"16 "sa!"8 "Zen-bu"16 "Shiori" "" "ai"8 "no" ""
+    "All"4. "no" ""4
 \mymark "Chorus 1A" #31
+    "All"4. "ni!"4 "Ai"8 "ai" "sa!"
+    ""8 "Ai-shi" ""4 "ai-sa-re-te"8 "" "i-ma" ""
+    "ga"4 "a-ru!"8 "To-ma-ra-na-i" ""2
     ""1
-    ""1
-    ""1
-    "w/ wah"4 ""2.
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
+    "susun-de-ku"4. "Ka-soku"4 "su-ru"8 "to-ki-do-ki" "DO-KI-DO-KI"
+    ""4 "Ki-ra" \tuplet 3/2 { "ki-ra"4 "to" "kira" }
+    "ma-kun"1
+    ""8 "da"4. "Is-shun"4 "is-shun"
+    "FU-RU"1
+    ""8 "PA-WAA-"4. "I-tsu"4 "no"
+    "hi"1
+    ""8 "Kanako" "ka" "ku-da-ke-chit-te" "mo" "Ko-no" "u-chu-u" "do-ko"
+    "ni"4 "i-te"8 "mo"4 "Ki-mi" "wo"8
+    ""4 "sa-ga-shi-da-su" "ka-ra" "Ku-ra-ya-mi"8 "te-ra-su"
+    ""8 "yo" "Kii-ro-ku"4 ""2
     ""1
 \mymark "Chorus 1B" #47
+    "All"4 ""8 "ken-ta-u-ro-su" "" "no" "ka-ga-ya-ki" "de"
+    ""8 "Gen-ga-ke-i" ""4 "no" "ha-ru-ka"
+    "ka-na-ta"4 "Ko-no"8 "ki-se-ki" ""2
     ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
+    "hi-tsu-ze-n"4. "da"4 "yo"8 "Do-n-na" "ni"
+    ""4 "too-ku-te" \tuplet 3/2 { "mo"4 "Bo-ku" "wa" }
+    "ki-mi"4. "no"8 ""2
+    ""8 "ko-to" ""4 "wo" "o-mo-i-tsu-dzu-ke-ru"
+    "da-rou"2 ""
+    ""8 "Mo-re-tsu!" ""4 "Bo-ku" "no"
+    "ko-to"2 ""
+    "Momoka"8 "ki-ra-i" "de-su" "ka?" "Ko-e" "wa" "to-do-ki-ma-sen" "ka?"
+    "De-mo"4 "ko-no"8 "a-i" "" "wo" "" "Ki-mi"
+    ""4 "ni" "sa-sa-ge-yo-u!" "Ge-ki-retsu!"8 "Sa-ku-retsu!"
+    ""8 "Kyou-retsu!" "Ha-re-tsu!"4 ""2
+    "All"2 "Ooooooo"4. "MO-RETSU!"8
     ""1
 \mymark "Interlude" #64
-    "octave pedal"16 ""2. ""8.
     ""1
     ""1
     ""1
     ""1
-    "the notes in ( ) aren't played by this guitar"8 ""2. ""8
-    "but u can add them in if u want"8 ""2. ""8
-    \tuplet 3/2 { "delay"8 ""1 } ""4
     ""1
+    ""1
+    ""1
+    "Ho-shi-ku-zu"2 "no"
+    "KU-ZU"2 "All"
 \mymark "Verse 2A" #73
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
+    "na-ri-te"4 "KI-MI" "ni" "ko-i-shi"8 "tsu-dzu-ke-you"
+    "All"4 "wa" "mo-e-te-ru" "A-ka-ku"8 "a-ka-ku"
+    \tuplet 3/2 { "hi-ka-ru"8 "A-N-TA-RE-SU" "no" } "yo-u"8 "ni" \tuplet 3/2 { "Na-n-oku"8 "ko-u-nen" "sa-ki" } "da-t-te"8 "Ka-ma-wa-na-i!"
+    "Sou"4 "su-ki" "da-ka-ra" "Ne-ga-i"8. "wa"16
+    "ke-i-na-i"8. "Ho-shi"16 "no"8 "ko-do-mo" \tuplet 3/2 { "ga"8 "KI-MI" "wo" } "ma-mo-ri"8 "tsu-dzu-ke-ru"
+    "All"4 "Mo-re-tsu!" "" "Shiori"8. ""16
     ""1
     ""1
 \mymark "Verse 2B" #81
+    "Kanako"16 ""2. ""8.
     ""1
     ""1
     ""1
+    "Momoka"16 ""2. ""8.
     ""1
     ""1
-    ""1
-    ""1
-    ""1
+    "All"8. ""2. ""16
 \mymark "Pre-Chorus 2" #89
+    "Ayaka"2 ""4
     ""2.
     ""2.
     ""2.
-    ""2.
-    ""1
-    ""1
-    ""1
+    "Kanako"8 "Sa-ku-retsu!" "Kyou-retsu!" "" "Ha-re-tsu!" "Ba-ku-retsu!" "MO-RETSU!"16 ""8.
+    "Reni"16 ""8. "Ayaka"16 ""8. "Shiori"16 ""4. ""16
+    "All"4. ""2 ""8
 \mymark "Chorus 2A" #96
-    ""1
-    ""1
-    ""1
-    "w/ wah"4 ""2.
-    ""1
+    "All"4. ""2 ""8
     ""1
     ""1
     ""1
@@ -118,11 +114,16 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     ""1
     ""1
     ""1
+    ""1
+    ""1
+    ""1
+    ""8 "Shiori" ""2.
     ""1
     ""1
     ""1
     ""1
 \mymark "Chorus 2B" #112
+    "All"4 ""2.
     ""1
     ""1
     ""1
@@ -133,12 +134,11 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     ""1
     ""1
     ""1
+    "Ayaka"8 ""2. ""8
     ""1
     ""1
     ""1
-    ""1
-    ""1
-    ""1
+    "All"2 ""
     ""1
     ""1
 \mymark "Bridge" #130
@@ -153,9 +153,6 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     ""1
     ""1
 \mymark "Guitar Solo" #140
-    "it's Marty so timing is a bit hard to get perfect"4 ""2.
-    ""2 " just know that he's playing slightly ahead of the"8. ""4 ""16
-    ""2 ""8 "beat" ""4
     ""1
     ""1
     ""1
@@ -164,24 +161,27 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     ""1
     ""1
     ""1
-    ""2. ""8 "middle harmony (3rds)"
     ""1
-    ""2. ""8 "octave pedal"16 ""
+    ""1
+    ""1
+    "guitar overdub"4 ""2 ""8 "right speaker harmony"
+    ""1
+    ""1
     ""1
     ""1
 \mymark "Post Solo/Pre-Chorus 3" #156
+    "Kanako"8 ""2. ""8
+    ""2. "Momoka"8 ""
     ""1
+    ""2. "Shiori"8 ""
+    ""2 ""8 "Ayaka" ""4
     ""1
+    "Kanako"8 ""4. "Momoka"8 ""4.
+    "Reni"16 ""8. "Ayaka"16 ""8. "Shiori"16 ""4. ""16
     ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    ""1
-    "w/ wah"4 ""2.
+    "All"4. ""2 ""8
 \mymark "Chorus 3A" #166
-    "i tried my best..."2 ""
+    "All"4. ""2 ""8
     ""1
     ""1
     ""1
@@ -192,12 +192,13 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     ""1
     ""1
     ""1
-    ""4 "flutter"8 ""2 ""8
+    ""8 "Kanako" ""2.
     ""1
     ""1
-    "timing is very odd here"32 ""2. ""8. ""32
+    ""1
     ""1
 \mymark "Chorus 3B" #182
+    "All"4 ""2.
     ""1
     ""1
     ""1
@@ -208,12 +209,11 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     ""1
     ""1
     ""1
+    "Momoka"8 ""2. ""8
     ""1
     ""1
     ""1
-    ""1
-    ""1
-    ""1
+    "All"2 ""
     ""1
     ""1
 \mymark "Ending" #200

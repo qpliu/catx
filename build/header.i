@@ -157,6 +157,7 @@ drumPitchNames.slash = #'slash
 #(define myDrumStyleTable '(
     (slash          slash    #f          6)
     (crashcymbal    cross    #f          6)
+    (crashcymbalb   cross    #f          7)
     (splashcymbal   harmonic #f          6)
     (ridecymbal     cross    #f          5)
     (ridebell       harmonic #f          5)

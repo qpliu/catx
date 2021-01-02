@@ -11,6 +11,7 @@ final class GuitarproToLy{
 	System.err.println("[layout-extra stuff]  Extra stuff for layout.");
 	System.err.println("[layout-tabs]  Layout tabs.");
 	System.err.println("[layout-who who]  Specify who for layout.");
+	System.err.println("[markup-extra stuff]  Extra stuff for markup.");
 	System.err.println("[midi-who who]  Specify who for midi.");
 	System.err.println("[modified-filename filename]  Don't generate generated-filename.");
 	System.err.println("[music-extra stuff]  Extra stuff for music.");
@@ -49,6 +50,8 @@ final class GuitarproToLy{
 		arg.layout_tabs = true;
 	    else if (argv[i].equals("layout-who"))
 		arg.layout_who = argv[++i];
+	    else if (argv[i].equals("markup-extra"))
+		arg.markup_extra.add(argv[++i]);
 	    else if (argv[i].equals("midi-who"))
 		arg.midi_who = argv[++i];
 	    else if (argv[i].equals("modified-filename"))

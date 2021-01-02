@@ -13,7 +13,7 @@ note1=playback issues and I got errors left and right but all
 note2=core components are written out.
 note3=
 note4=Non modal "idol" vocal parts were left out.
-Lyric=U- wao!
+Lyrics track=6 measure=2 U- wao!
 
 U-chu-u no ha-te no ha-te de-mo KI-MI no ko-to o-mo-u
 I-ku-ta no na-ga-re-boshi ni ne-ga-i wo ma-ki-chi-ra-su
@@ -83,13 +83,13 @@ Ka-ma-wa-na-i! Sou su-ki da-ka-ra
 Ne-ga-i wa ke-i-na-i
 Ho-shi no ko-do-mo ga KI-MI wo ma-mo-ri tsu-dzu-ke-ru you!
 Mo-re-tsu!
-Lyric=Ge-ki-retsu! Sa-ku-retsu! Kyou-retsu! Ha-re-tsu! Ba-ku-retsu!
+Lyrics track=6 measure=27 Ge-ki-retsu! Sa-ku-retsu! Kyou-retsu! Ha-re-tsu! Ba-ku-retsu!
 MO-RETSU!
 
-Lyric=Ge-ki-retsu! Sa-ku-retsu! Kyou-retsu! Ha-re-tsu! Ba-ku-retsu!
+Lyrics track=6 measure=92 Ge-ki-retsu! Sa-ku-retsu! Kyou-retsu! Ha-re-tsu! Ba-ku-retsu!
 MO-RETSU!
-Lyric=
-Lyric=
+Lyrics track=6 measure=0 
+Lyrics track=6 measure=0 
 Measure 1 tempo=86 tripletFeel=null rehearsalMark=null time=2/4 key=0,0
 Measure 2 tempo=86 tripletFeel=null rehearsalMark=Intro time=4/4 key=-3,0
 Measure 3 tempo=86 tripletFeel=null rehearsalMark=null time=4/4 key=-3,0
@@ -15320,3 +15320,11 @@ measure 221 track 9 voice 0 beat 0 bits=0x10
 measure 221 track 9 voice 1 beat 0 bits=0x40
 measure 221 track 10 voice 0 beat 0 bits=0x40
 measure 221 track 10 voice 1 beat 0 bits=0x40
+Drum 28 not in drumMap
+Drum 28 not in drumMap
+Drum 28 not in drumMap
+Drum 28 not in drumMap
+Drum 28 not in drumMap
+Drum 28 not in drumMap
+Drum 28 not in drumMap
+Drum 28 not in drumMap

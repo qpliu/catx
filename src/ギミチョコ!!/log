@@ -8,11 +8,11 @@ music=
 copyright=
 tab=
 instructions=
-Lyric=
-Lyric=
-Lyric=
-Lyric=
-Lyric=
+Lyrics track=-1 measure=0 
+Lyrics track=-1 measure=0 
+Lyrics track=-1 measure=0 
+Lyrics track=-1 measure=0 
+Lyrics track=-1 measure=0 
 Measure 1 tempo=220 tripletFeel=null rehearsalMark=Riff 1 time=4/4 key=0,0
 Measure 2 tempo=220 tripletFeel=null rehearsalMark=null time=4/4 key=0,0
 Measure 3 tempo=220 tripletFeel=null rehearsalMark=null time=4/4 key=0,0
@@ -9266,3 +9266,5 @@ measure 200 track 7 voice 0 beat 5 bits=0x00
 measure 200 track 7 voice 0 beat 6 bits=0x00
 measure 200 track 7 voice 0 beat 7 bits=0x00
 measure 200 track 7 voice 1 beat 0 bits=0x40
+Drum 84 not in drumMap
+Drum 84 not in drumMap

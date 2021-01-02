@@ -7,6 +7,12 @@ final class Gp5file extends Gpfile{
     int key0,key1;
     int time_n,time_d;
     MidiChannel[]midiChannels;
+    final List<TrackMeasureLyrics>trackMeasureLyrics=new ArrayList<TrackMeasureLyrics>();
+    final class TrackMeasureLyrics{
+	int track;
+	int startingMeasure;
+	final Queue<String>queue=new ArrayDeque<String>();
+    }
     final class MidiChannel{
 	final int instrument;
 	MidiChannel()throws IOException{
@@ -141,11 +147,16 @@ final class Gp5file extends Gpfile{
     }
     void readLyrics()throws IOException{
 	if (version>=400){
-	    int trackChoice=readInt();
+	    int track=readInt();
 	    for (int i=0; i<5; i++){
-		int startingMeasure=readInt();
-		String lyric=readIntSizeBlob().toString();
-		Log.info("Lyric=%s",lyric);
+		TrackMeasureLyrics tml=new TrackMeasureLyrics();
+		tml.track = track-1;
+		tml.startingMeasure = readInt()-1;
+		String lyrics=readIntSizeBlob().toString();
+		Log.info("Lyrics track=%d measure=%d %s",tml.track,tml.startingMeasure,lyrics);
+		for (StringTokenizer st=new StringTokenizer(lyrics); st.hasMoreTokens();)
+		    tml.queue.add(st.nextToken());
+		trackMeasureLyrics.add(tml);
 	    }
 	}
     }
@@ -153,6 +164,7 @@ final class Gp5file extends Gpfile{
 	if (version>=500 && index!=0)
 	    readByte();
 	Measure measure=new Measure();
+	measure.index = index;
 	measure.name = String.valueOf(index+1);
 	int bits=readUnsignedByte();
 	if ((bits&1)!=0)
@@ -300,15 +312,22 @@ final class Gp5file extends Gpfile{
 		if ((bits&16)!=0)
 		    readMixTableChange();
 		int stringBits=readUnsignedByte();
+		boolean getLyric=false;
 		for (int string=0; string<7; string++)
 		    if ((stringBits&64>>string)!=0){
 			NoteEvent e=new NoteEvent(track,time,duration);
 			e.string = string;
 			e.beatEffects = beatEffects;
 			readNoteBits(e);
-			if (status==1)
+			if (status==1){
 			    track.events.add(e);
+			    getLyric |= !e.is_tie;
+			}
 		    }
+		if (getLyric)
+		    for (TrackMeasureLyrics tml:trackMeasureLyrics)
+			if (tml.track==track.index && tml.startingMeasure<=measure.index && tml.queue.size()!=0)
+			    track.events.add(new LyricEvent(time,duration,tml.queue.poll()));
 		if (version>=500){
 		    int bits1=readShort();
 		    if ((bits1&2048)!=0)

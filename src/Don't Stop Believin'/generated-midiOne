@@ -1,0 +1,137 @@
+midiOne = {
+\mymark "Intro" #1
+    <e,, e,>2~ <e,, e,>8 fis,, gis,, <b,, b,>~ |
+    <b,, b,>2~ <b,, b,>8 cis, dis, cis,~ |
+    cis,2~ cis,8 dis, e, a,,~ |
+    a,,2~ a,,8 dis, e, e,,~ |
+    e,,2~ e,,8 fis,, gis,, b,,~ |
+    b,,2~ b,,8 cis, dis, gis,,~ |
+    gis,,2. gis,,8 a,,~ |
+    a,,2~ a,,8 dis, e,4 |
+\mymark "Verse 1" #9
+    <e,, e,>2~ <e,, e,>8 fis,, gis,, <b,, b,>~ |
+    <b,, b,>2~ <b,, b,>8 cis, dis,4 |
+    cis,2~ cis,8 dis, e, a,,~ |
+    a,,2~ a,,8 dis, e,4 |
+    e,,2~ e,,8 fis,, gis,, b,,~ |
+    b,,2~ b,,8 cis, dis,4 |
+    gis,,2. gis,,8 a,,~ |
+    a,,2~ a,,8 dis, e,4 |
+\mymark "Verse 2" #17
+    <e,, e,>2~ <e,, e,>8 fis,, gis,, <b,, b,>~ |
+    <b,, b,>2~ <b,, b,>8 cis, dis,4 |
+    cis,2~ cis,8 dis, e, a,,~ |
+    a,,2~ a,,8 dis, e,4 |
+    e,,2~ e,,8 fis,, gis,, b,,~ |
+    b,,2~ b,,8 cis, dis,4 |
+    gis,,2. gis,,8 a,,~ |
+\mymark "Guitar Fill" #24
+    a,,2~ a,,8 dis, e, <e,, e,>~ |
+    <e,, e,>2~ <e,, e,>8 fis,, gis,, <b,, b,>~ |
+    <b,, b,>2~ <b,, b,>8 cis, dis, cis,~ |
+    cis,2~ cis,8 dis, e, a,,~ |
+    a,,2~ a,,8 dis, e, e,,~ |
+    e,,2~ e,,8 fis,, gis,, b,,~ |
+    b,,2~ b,,8 cis, dis, gis,,~ |
+    gis,,2. gis,,8 a,,~ |
+    a,,2~ a,,8 dis, e,4 |
+\mymark "Verse 3" #33
+    <e,, e,>2~ <e,, e,>8 fis,, gis,, <b,, b,>~ |
+    <b,, b,>2~ <b,, b,>8 cis, dis,4 |
+    cis,2~ cis,8 dis, e, a,,~ |
+    a,,2~ a,,8 dis, e,4 |
+    e,,2~ e,,8 fis,, gis,, b,,~ |
+    b,,2~ b,,8 cis, dis,4 |
+    gis,,2. gis,,8 a,,~ |
+    a,,2~ a,,8 dis, e,4 |
+\mymark "Bridge" #41
+    a,,8 a,, a,, a,, a,, a,, a,, a,, |
+    a,,8 a,, a,, a,, a,, a,, a,, a,, |
+    e,,8 e,, e,, e,, e,, e,, e,, e,, |
+    e,,8 e,, e,, e,, e,, e,, e,, e,, |
+    a,,8 a,, a,, a,, a,, a,, a,, a,, |
+    a,,8 a,, a,, a,, a,, a,, a,, a,, |
+    e,,8 e,, e,, e,, e,, e,, e,, e,, |
+    e,,8 e,, e,, e,, r2 |
+    a,,8 a,, a,, a,, a,, a,, a,, a,, |
+    a,,8 a,, a,, a,, a,, a,, a,, a,, |
+    e,,8 e,, e,, e,, e,, e,, e,, e,, |
+    e,,8 e,, e,, e,, e,, e,, e,, e,, |
+    a,,8 a,, a,, a,, a,, a,, a,, a,, |
+    a,,8 a,, a,, a,, a,, a,, a,, a,, |
+    b,,4 e,,8 e,,2~ e,,8 |
+    b,,4 a,,8 a,,2~ a,,8 |
+    <e,, e,>2~ <e,, e,>8 fis,, gis,, <b,, b,>~ |
+    <b,, b,>2~ <b,, b,>8 cis, dis, cis,~ |
+    cis,2~ cis,8 dis, e, a,,~ |
+    a,,2~ a,,8 dis, e, e,,~ |
+\mymark "Verse 4" #61
+    e,,2~ e,,8 fis,, gis,, b,,~ |
+    b,,2~ b,,8 cis, dis, gis,,~ |
+    gis,,2. gis,,8 a,,~ |
+    a,,2~ a,,8 dis, e,4 |
+    <e,, e,>2~ <e,, e,>8 fis,, gis,, <b,, b,>~ |
+    <b,, b,>2~ <b,, b,>8 cis, dis, cis,~ |
+    cis,2~ cis,8 dis, e, a,,~ |
+    a,,2~ a,,8 dis, e, e,,~ |
+\mymark "Verse 5" #69
+    e,,2~ e,,8 fis,, gis,, b,,~ |
+    b,,2~ b,,8 cis, dis, gis,,~ |
+    gis,,2. gis,,8 a,,~ |
+    a,,2~ a,,8 dis, e,4 |
+    <e,, e,>2~ <e,, e,>8 fis,, gis,, <b,, b,>~ |
+    <b,, b,>2~ <b,, b,>8 cis, dis, cis,~ |
+    cis,2~ cis,8 dis, e, a,,~ |
+    a,,2~ a,,8 dis, e, e,, |
+\mymark "Bridge" #77
+    a,,8 a,, a,, a,, a,, a,, a,, a,, |
+    a,,8 a,, a,, a,, a,, a,, a,, a,, |
+    e,,8 e,, e,, e,, e,, e,, e,, e,, |
+    e,,8 e,, e,, e,, e,, e,, e,, e,, |
+    a,,8 a,, a,, a,, a,, a,, a,, a,, |
+    a,,8 a,, a,, a,, a,, a,, a,, a,, |
+    e,,8 e,, e,, e,, e,, e,, e,, e,, |
+    e,,8 e,, e,, e,, r2 |
+    a,,8 a,, a,, a,, a,, a,, a,, a,, |
+    a,,8 a,, a,, a,, a,, a,, a,, a,, |
+    e,,8 e,, e,, e,, e,, e,, e,, e,, |
+    e,,8 e,, e,, e,, e,, e,, e,, e,, |
+    a,,8 a,, a,, a,, a,, a,, a,, a,, |
+    a,,8 a,, a,, a,, a,, a,, a,, a,, |
+    e,4 e,,8 e,,2~ e,,8 |
+    b,,4 a,,8 a,,2~ a,,8 |
+\mymark "Guitar Solo" #93
+    <e,, e,>2~ <e,, e,>8 fis,, gis,, <b,, b,>~ |
+    <b,, b,>2~ <b,, b,>8 cis, dis, cis,~ |
+    cis,2~ cis,8 dis, e, a,,~ |
+    a,,2~ a,,8 dis, e, e,,~ |
+    e,,2~ e,,8 fis,, gis,, b,,~ |
+    b,,2~ b,,8 cis, dis, gis,,~ |
+    gis,,2. gis,,8 a,,~ |
+    a,,2~ a,,8 dis, e,4 |
+\mymark "Chorus" #101
+    <e,, e,>2~ <e,, e,>8 fis,, gis,, <b,, b,>~ |
+    <b,, b,>2~ <b,, b,>8 cis, dis, cis,~ |
+    cis,2~ cis,8 dis, e, a,,~ |
+    a,,2~ a,,8 dis, e, e,,~ |
+    e,,2~ e,,8 fis,, gis,, b,,~ |
+    b,,2~ b,,8 cis, dis, gis,,~ |
+    gis,,2. gis,,8 a,,~ |
+    a,,2~ a,,8 dis, e,4 |
+    <e,, e,>2~ <e,, e,>8 fis,, gis,, <b,, b,>~ |
+    <b,, b,>2~ <b,, b,>8 cis, dis, cis,~ |
+    cis,2~ cis,8 dis, e, a,,~ |
+    a,,2~ a,,8 dis, e, e,,~ |
+    e,,2~ e,,8 fis,, gis,, b,,~ |
+    b,,2~ b,,8 cis, dis, gis,,~ |
+    gis,,2. gis,,8 a,,~ |
+    a,,2~ a,,8 dis, e,4 |
+    <e,, e,>2~ <e,, e,>8 fis,, gis,, <b,, b,>~ |
+    <b,, b,>2~ <b,, b,>8 cis, dis, cis,~ |
+    cis,2~ cis,8 dis, e, a,,~ |
+    a,,2~ a,,8 dis, e, e,,~ |
+    e,,2~ e,,8 fis,, gis,, b,,~ |
+    b,,2~ b,,8 cis, dis, gis,,~ |
+    gis,,2. gis,,8 a,,~ |
+    a,,2~ a,,8 dis, e,4 |
+}

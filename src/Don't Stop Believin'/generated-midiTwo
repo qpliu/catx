@@ -1,0 +1,137 @@
+midiTwo = {
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #9
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #17
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Guitar Fill" #24
+    r2. r8 a'~ |
+    a'1 |
+    r1 |
+    r1 |
+    r1 |
+    b'1~ |
+    b'1 |
+    r1 |
+    r1 |
+\mymark "Verse 3" #33
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge" #41
+    r8 a, a, r a, a, a, a, |
+    r8 a, a, r a, a, a, a, |
+    r8 e, e, r e, e, e, e, |
+    r8 e, e, r e, e, e, e, |
+    r8 a, a, r a, a, a, a, |
+    r8 a, a, r a, a, a, a, |
+    <e, b,>8 e, e, r e, e, e, e, |
+    b,8 e, e, <e b e'>2~ <e b e'>8 |
+    r8 a, a, r a, a, a, a, |
+    r8 a, a, r a, a, a, a, |
+    r8 e, e, r e, e, e, e, |
+    r8 e, e, r e, e, e, e, |
+    r8 a, a, r a, a, a, a, |
+    r8 a, a, r a, a, a, a, |
+    b,4. <e, b,>2~ <e, b,>8 |
+    b,4 <a, a>8 <a, a>4. a4 |
+    e,4 <b e'> e,8 fis, gis, b,~ |
+    b,2 b,8 cis dis cis~ |
+    cis2~ cis8 dis e a,~ |
+    a,2~ a,8 dis e e,~ |
+\mymark "Verse 4" #61
+    e,4 <b e'> e,8 fis, gis, b,~ |
+    b,2 b,8 cis dis cis~ |
+    cis2~ cis8 dis e a,~ |
+    a,2~ a,8 dis e e,~ |
+    e,4 <b e'> e,8 fis, gis, b,~ |
+    b,2~ b,8 cis dis <gis,~ dis> |
+    gis,2. <gis, dis>8 <a, e>~ |
+    <a, e>2~ <a, e>8 dis e e,~ |
+\mymark "Verse 5" #69
+    e,4 <b e'> e,8 fis, gis, b,~ |
+    b,2 b,8 cis dis cis~ |
+    cis2~ cis8 dis e a,~ |
+    a,2~ a,8 dis e e,~ |
+    e,4 <b e'> e,8 fis, gis, b,~ |
+    b,2~ b,8 cis dis <gis,~ dis> |
+    gis,2. <gis, dis>8 <a, e>~ |
+    <a, e>2~ <a, e>8 dis e e, |
+\mymark "Bridge" #77
+    r8 a, a, r a, a, a, a, |
+    r8 a, a, r a, a, a, a, |
+    r8 e, e, r e, e, e, e, |
+    r8 e, e, r e, e, e, e, |
+    r8 a, a, r a, a, a, a, |
+    r8 a, a, r a, a, a, a, |
+    <e, b,>8 e, e, r e, e, e, e, |
+    b,8 e, e, <b e'>2~ <b e'>8 |
+    r8 a, a, r a, a, a, a, |
+    r8 a, a, r a, a, a, a, |
+    r8 e, e, r e, e, e, e, |
+    r8 e, e, r e, e, e, e, |
+    r8 a, a, r a, a, a, a, |
+    r8 a, a, r a, a, a, a, |
+    b,4. <e, b,>2~ <e, b,>8 |
+    b,4 <a, a>8 <a, a>4. a4 |
+\mymark "Guitar Solo" #93
+    e,4 <b e'> e,8 fis, gis, b,~ |
+    b,2 b,8 cis dis cis~ |
+    cis2~ cis8 dis e a,~ |
+    a,2~ a,8 dis e e,~ |
+    e,4 <b e'> e,8 fis, gis, b,~ |
+    b,2 <b, cis'''~>8\bendAfter #6 ^"full" <cis cis'''~>\bendAfter #6 ^"full" <dis cis'''~>\bendAfter #6 ^"full" <gis,~ dis~ cis'''>\bendAfter #6 ^"full" |
+    <cis''' gis,~ dis~>4\bendAfter #6 ^"full" <gis, dis d'''~>2\bendAfter #6 ^"full" <gis, dis d'''~>8\bendAfter #6 ^"full" <a, e d'''>~\bendAfter #6 ^"full" |
+    <a, e d'''~>2\bendAfter #6 ^"full" <a, d'''~>8\bendAfter #6 ^"full" <dis d'''~>\bendAfter #6 ^"full" <e d'''~>\bendAfter #6 ^"full" <e,~ d'''>\bendAfter #6 ^"full" |
+\mymark "Chorus" #101
+    e,4 <b e'> e,8 fis, gis, b,~ |
+    b,2 b,8 cis dis cis~ |
+    cis2~ cis8 dis e a,~ |
+    a,2~ a,8 dis e e,~ |
+    e,4 <b e'> e,8 fis, gis, b,~ |
+    b,2~ b,8 cis dis <gis, dis>~ |
+    <gis, dis>2. <gis, dis>8 <a, e>~ |
+    <a, e>2~ <a, e>8 dis e e,~ |
+    e,4 <b e'> e,8 fis, gis, b,~ |
+    b,2 b,8 cis dis cis~ |
+    cis2~ cis8 dis e a,~ |
+    a,2~ a,8 dis e e,~ |
+    e,4 <b e'> e,8 fis, gis, b,~ |
+    b,2~ b,8 cis dis <gis, dis>~ |
+    <gis, dis>2. <gis, dis>8 <a, e>~ |
+    <a, e>2~ <a, e>8 dis e e,~ |
+    e,4 <b e'> e,8 fis, gis, b,~ |
+    b,2 b,8 cis dis cis~ |
+    cis2~ cis8 dis e a,~ |
+    a,2~ a,8 dis e e,~ |
+    e,4 <b e'> e,8 fis, gis, b,~ |
+    b,2~ b,8 cis dis <gis, dis>~ |
+    <gis, dis>2. <gis, dis>8 <a, e>~ |
+    <a, e>2~ <a, e>8 dis e e, |
+}

@@ -9,6 +9,7 @@ class Gpfile extends Gpinput{
     Measure[]measures;
     Track[]tracks;
     static class Measure{
+	int index;
 	String name;
 	Rational time;
 	String tripletFeel;

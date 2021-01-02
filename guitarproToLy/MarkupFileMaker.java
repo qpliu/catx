@@ -9,6 +9,8 @@ final class MarkupFileMaker extends FileMaker{
     void make()throws IOException{
 	indent(lyname+" = {");
 	print("\\override Score.RehearsalMark.self-alignment-X = #LEFT");
+	for (String s:main.globalarg.markup_extra)
+	    print(s);
 	int time_n=4,time_d=4;
 	int key0=0,key1=0;
 	int tempo=0;

@@ -1,0 +1,137 @@
+guitar = {
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #9
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #17
+    b'1\1~ |
+    b'1\1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Guitar Fill" #24
+    r1 |
+    \deadNote e''16\1 \deadNote b'\2 \deadNote g'\3 \deadNote d'8.\4 r8 \deadNote e''16\1 \deadNote b'\2 \deadNote g'\3 \deadNote d'8.\4 r8 |
+    e''16\2 dis''\2 cis''\3 b'\3 e''\2 dis''\2 cis''\3 b'\3 e''\2 dis''\2 cis''\3 b'\3 e''\2 dis''\2 cis''\3 b'\3 |
+    e''16\2 dis''\2 cis''\3 b'\3 e''\2 dis''\2 cis''\3 b'\3 e''\2 dis''\2 cis''\3 b'\3 e''\2 dis''\2 cis''\3 b'\3 |
+    e''16\2 dis''\2 cis''\3 b'\3 e''\2 dis''\2 cis''\3 b'\3 e''\2 dis''\2 cis''\3 b'\3 e''\2 dis''\2 cis''\3 b'\3 |
+    e''16\2 dis''\2 cis''\3 b'\3 e''\2 dis''\2 cis''\3 b'\3 e''\2 dis''\2 cis''\3 b'\3 e''\2 dis''\2 cis''\3 b'\3 |
+    e''16\2 dis''\2 cis''\3 b'\3 e''32\2 dis''16\2 cis''32\3 b'16\3 e''32\2 dis''16\2 cis''32\3 b'16\3 e''32\2 dis''16\2 cis''32\3 b'16\3 e''32\2 dis''16\2 cis''32\3 b'16\3 |
+    \tuplet 3/2 { e''16\2 dis''\2 cis''\3 b'\3 e''\2 dis''\2 cis''\3 b'\3 e''\2 dis''\2 cis''\3 b'\3 e''\2 dis''\2 cis''\3 b'\3 e''\2 dis''\2 cis''\3 b'\3 e''\2 dis''\2 cis''\3 b'\3 } |
+    \tuplet 3/2 { e''16\2 dis''\2 cis''\3 b'\3 e''\2 dis''\2 cis''\3 b'\3 e''\2 dis''\2 cis''\3 b'\3 } <fis''\2 b''\1>4\bendAfter #6 ^"½" <\parenthesize fis''\2 \parenthesize b''\1> |
+\mymark "Verse 3" #33
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge" #41
+    <fis'\4 b'\3 dis''\2>8 a,\5 a,\5~ <a,\5 e'\4 a'\3 cis''\2> a,\5 a,\5 a,\5 a,\5 |
+    <fis'\4 b'\3 dis''\2>8 a,\5 a,\5~ <a,\5 gis'\4 b'\3 e''\2> a,\5 a,\5 a,\5 a,\5 |
+    <fis'\4 b'\3 dis''\2>8 e,\6 e,\6~ <e,\6 gis'\4 b'\3 e''\2> e,\6 e,\6 e,\6 e,\6 |
+    <fis'\4 b'\3 dis''\2>8 e,\6 e,\6~ <e,\6 gis'\4 b'\3 e''\2> e,\6 e,\6 e,\6 e,\6 |
+    <fis'\4 b'\3 dis''\2>8 a,\5 a,\5~ <a,\5 e'\4 a'\3 cis''\2> a,\5 a,\5 a,\5 a,\5 |
+    <fis'\4 b'\3 dis''\2>8 a,\5 a,\5~ <a,\5 gis'\4 b'\3 e''\2> a,\5 a,\5 a,\5 a,\5 |
+    <b\4 dis'\3 fis'\2>8 e,\6 e,\6~ <e,\6 b\4 e'\3 gis'\2> e,\6 e,\6 e,\6 e,\6 |
+    <b,\6 b\4 dis'\3 fis'\2>8 e,\6 e,\6~ <e,\6 b\4 e'\3 gis'\2> r2 |
+    <fis'\4 b'\3 dis''\2>8 a,\5 a,\5~ <a,\5 e'\4 a'\3 cis''\2> a,\5 a,\5 a,\5 a,\5 |
+    <fis'\4 b'\3 dis''\2>8 a,\5 a,\5~ <a,\5 gis'\4 b'\3 e''\2> a,\5 a,\5 a,\5 a,\5 |
+    <fis'\4 b'\3 dis''\2>8 e,\6 e,\6~ <e,\6 gis'\4 b'\3 e''\2> e,\6 e,\6 e,\6 e,\6 |
+    <fis'\4 b'\3 dis''\2>8 e,\6 e,\6~ <e,\6 gis'\4 b'\3 e''\2> e,\6 e,\6 e,\6 e,\6 |
+    <fis'\4 b'\3 dis''\2>8 a,\5 a,\5~ <a,\5 e'\4 a'\3 cis''\2> a,\5 a,\5 a,\5 a,\5 |
+    <fis'\4 b'\3 dis''\2>8 a,\5 a,\5~ <a,\5 gis'\4 b'\3 e''\2> a,\5 a,\5 a,\5 a,\5 |
+    <fis'\4 b'\3 dis''\2>4 <fis'\4 b'\3 e''\2>8 <fis'\4 b'\3 e''\2>2~ <fis'\4 b'\3 e''\2>8 |
+    <fis'\4 b'\3 dis''\2>4 <fis'\4 b'\3 e''\2>8 <e'\4 a'\3 cis''\2>2 <e\4 b\3 e'\2>8 |
+    <e,\6 b,\5>8 <e,\6 b,\5> <e,\6 cis\5> <e,\6 cis\5> <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> <b,\5 fis\4> |
+    <b,\5 fis\4>8 <b,\5 fis\4> <b,\5 gis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <cis\5 gis\4 cis'\3> |
+    <cis\5 gis\4>8 <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <a,\5 e\4 a\3> |
+    <a,\5 e\4>8 <a,\5 e\4> <a,\5 fis\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <e\4 b\3 e'\2> |
+\mymark "Verse 4" #61
+    <e,\6 b,\5>8 <e,\6 b,\5> <e,\6 cis\5> <e,\6 cis\5> <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> <b,\5 fis\4> |
+    <b,\5 fis\4>8 <b,\5 fis\4> <b,\5 gis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <cis\5 gis\4 cis'\3> |
+    <cis\5 gis\4>8 <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <a,\5 e\4 a\3> |
+    <a,\5 e\4>8 <a,\5 e\4> <a,\5 fis\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <e\4 b\3 e'\2> |
+    <e,\6 b,\5>8 <e,\6 b,\5> <e,\6 cis\5> <e,\6 cis\5> <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> <b,\5 fis\4> |
+    <b,\5 fis\4>8 <b,\5 fis\4> <b,\5 gis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <cis\5 gis\4 cis'\3> |
+    <cis\5 gis\4>8 <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <a,\5 e\4 a\3> |
+    <a,\5 e\4>8 <a,\5 e\4> <a,\5 fis\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <e\4 b\3 e'\2> |
+\mymark "Verse 5" #69
+    <e,\6 b,\5>8 <e,\6 b,\5> <e,\6 cis\5> <e,\6 cis\5> <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> <b,\5 fis\4> |
+    <b,\5 fis\4>8 <b,\5 fis\4> <b,\5 gis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <cis\5 gis\4 cis'\3> |
+    <cis\5 gis\4>8 <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <a,\5 e\4 a\3> |
+    <a,\5 e\4>8 <a,\5 e\4> <a,\5 fis\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <e\4 b\3 e'\2> |
+    <e,\6 b,\5>8 <e,\6 b,\5> <e,\6 cis\5> <e,\6 cis\5> <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> <b,\5 fis\4> |
+    <b,\5 fis\4>8 <b,\5 fis\4> <b,\5 gis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <cis\5 gis\4 cis'\3> |
+    <cis\5 gis\4>8 <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <a,\5 e\4 a\3> |
+    <a,\5 e\4>8 <a,\5 e\4> <a,\5 fis\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <e\4 b\3 e'\2> |
+\mymark "Bridge" #77
+    <fis'\4 b'\3 dis''\2>8 a,\5 a,\5~ <a,\5 e'\4 a'\3 cis''\2> a,\5 a,\5 a,\5 a,\5 |
+    <fis'\4 b'\3 dis''\2>8 a,\5 a,\5~ <a,\5 gis'\4 b'\3 e''\2> a,\5 a,\5 a,\5 a,\5 |
+    <fis'\4 b'\3 dis''\2>8 e,\6 e,\6~ <e,\6 gis'\4 b'\3 e''\2> e,\6 e,\6 e,\6 e,\6 |
+    <fis'\4 b'\3 dis''\2>8 e,\6 e,\6~ <e,\6 gis'\4 b'\3 e''\2> e,\6 e,\6 e,\6 e,\6 |
+    <fis'\4 b'\3 dis''\2>8 a,\5 a,\5~ <a,\5 e'\4 a'\3 cis''\2> a,\5 a,\5 a,\5 a,\5 |
+    <fis'\4 b'\3 dis''\2>8 a,\5 a,\5~ <a,\5 gis'\4 b'\3 e''\2> a,\5 a,\5 a,\5 a,\5 |
+    <b\4 dis'\3 fis'\2>8 e,\6 e,\6~ <e,\6 b\4 e'\3 gis'\2> e,\6 e,\6 e,\6 e,\6 |
+    <b,\6 b\4 dis'\3 fis'\2>8 e,\6 e,\6~ <e,\6 b\4 e'\3 gis'\2> r2 |
+    <fis'\4 b'\3 dis''\2>8 a,\5 a,\5~ <a,\5 e'\4 a'\3 cis''\2> a,\5 a,\5 a,\5 a,\5 |
+    <fis'\4 b'\3 dis''\2>8 a,\5 a,\5~ <a,\5 gis'\4 b'\3 e''\2> a,\5 a,\5 a,\5 a,\5 |
+    <fis'\4 b'\3 dis''\2>8 e,\6 e,\6~ <e,\6 gis'\4 b'\3 e''\2> e,\6 e,\6 e,\6 e,\6 |
+    <fis'\4 b'\3 dis''\2>8 e,\6 e,\6~ <e,\6 gis'\4 b'\3 e''\2> e,\6 e,\6 e,\6 e,\6 |
+    <fis'\4 b'\3 dis''\2>8 a,\5 a,\5~ <a,\5 e'\4 a'\3 cis''\2> a,\5 a,\5 a,\5 a,\5 |
+    <fis'\4 b'\3 dis''\2>8 a,\5 a,\5~ <a,\5 gis'\4 b'\3 e''\2> a,\5 a,\5 a,\5 a,\5 |
+    <fis'\4 b'\3 dis''\2>4 <fis'\4 b'\3 e''\2>8 <fis'\4 b'\3 e''\2>2~ <fis'\4 b'\3 e''\2>8 |
+    <fis'\4 b'\3 dis''\2>4 <fis'\4 b'\3 e''\2>8 <e'\4 a'\3 cis''\2>4. \tuplet 7/4 { gis'16\3( a'\3 b'\3) cis''\2( dis''\2 e''\2) fis''\1 } |
+\mymark "Guitar Solo" #93
+    gis''4.\1\bendAfter #6 ^"½" gis''2\1 fis''8\1 |
+    gis''4.\1\bendAfter #6 ^"½" gis''2\1~ gis''8\1~ |
+    gis''4.\1 gis''8\1 gis''4\1\bendAfter #6 ^"½" fis''8\1 e''\2 |
+    dis''4\2 e''8\2 cis''4.\2 b'8\3 a'\3 |
+    gis''4.\1\bendAfter #6 ^"½" gis''2\1 fis''8\1 |
+    gis''4.\1\bendAfter #6 ^"½" gis''8\1 gis''\1 fis''\1 e''\2 a''\1~\bendAfter #6 ^"full" |
+    a''1\1~\bendAfter #6 ^"full" |
+    a''1\1\bendAfter #6 ^"full" |
+\mymark "Chorus" #101
+    <e,\6 b,\5>8 <e,\6 b,\5> <e,\6 cis\5> <e,\6 cis\5> <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> <b,\5 fis\4> |
+    <b,\5 fis\4>8 <b,\5 fis\4> <b,\5 gis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <cis\5 gis\4 cis'\3> |
+    <cis\5 gis\4>8 <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <a,\5 e\4 a\3> |
+    <a,\5 e\4>8 <a,\5 e\4> <a,\5 fis\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <e\4 b\3 e'\2> |
+    <e,\6 b,\5>8 <e,\6 b,\5> <e,\6 cis\5> <e,\6 cis\5> <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> <b,\5 fis\4> |
+    <b,\5 fis\4>8 <b,\5 fis\4> <b,\5 gis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <cis\5 gis\4 cis'\3> |
+    <cis\5 gis\4>8 <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <a,\5 e\4 a\3> |
+    <a,\5 e\4>8 <a,\5 e\4> <a,\5 fis\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <e\4 b\3 e'\2> |
+    <e,\6 b,\5>8 <e,\6 b,\5> <e,\6 cis\5> <e,\6 cis\5> <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> <b,\5 fis\4> |
+    <b,\5 fis\4>8 <b,\5 fis\4> <b,\5 gis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <cis\5 gis\4 cis'\3> |
+    <cis\5 gis\4>8 <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <a,\5 e\4 a\3> |
+    <a,\5 e\4>8 <a,\5 e\4> <a,\5 fis\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <e\4 b\3 e'\2> |
+    <e,\6 b,\5>8 <e,\6 b,\5> <e,\6 cis\5> <e,\6 cis\5> <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> <b,\5 fis\4> |
+    <b,\5 fis\4>8 <b,\5 fis\4> <b,\5 gis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <cis\5 gis\4 cis'\3> |
+    <cis\5 gis\4>8 <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <a,\5 e\4 a\3> |
+    <a,\5 e\4>8 <a,\5 e\4> <a,\5 fis\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <e\4 b\3 e'\2> |
+    <e,\6 b,\5>8 <e,\6 b,\5> <e,\6 cis\5> <e,\6 cis\5> <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> <b,\5 fis\4> |
+    <b,\5 fis\4>8 <b,\5 fis\4> <b,\5 gis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <cis\5 gis\4 cis'\3> |
+    <cis\5 gis\4>8 <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <a,\5 e\4 a\3> |
+    <a,\5 e\4>8 <a,\5 e\4> <a,\5 fis\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <e\4 b\3 e'\2> |
+    <e,\6 b,\5>8 <e,\6 b,\5> <e,\6 cis\5> <e,\6 cis\5> <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> <b,\5 fis\4> |
+    <b,\5 fis\4>8 <b,\5 fis\4> <b,\5 gis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <b,\5 fis\4> <cis\5 gis\4 cis'\3> |
+    <cis\5 gis\4>8 <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <cis\5 gis\4> <a,\5 e\4 a\3> |
+    <a,\5 e\4>8 <a,\5 e\4> <a,\5 fis\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <a,\5 e\4> <e\4 b\3 e'\2> |
+}

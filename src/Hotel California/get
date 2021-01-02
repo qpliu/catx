@@ -1,14 +1,56 @@
 #!/bin/sh
-WHERE="/share/mirror/songsterr/stuff/d-keep/d-The Eagles/d-Hotel California-s447/d-r414164"
-
-gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --name voPart --output-tabs - >generated-votabs
-gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --name voLyrics --lyrics - >generated-lyrics
-gzip -d <"$WHERE/z-t1"|java -jar ../../songsterrToLy/1.jar --name guitarOnePart --output-tabs - >generated-guitar1tabs
-gzip -d <"$WHERE/z-t2"|java -jar ../../songsterrToLy/1.jar --name guitarTwoPart --output-tabs - >generated-guitar2tabs
-gzip -d <"$WHERE/z-t3"|java -jar ../../songsterrToLy/1.jar --name guitarThreePart --output-tabs - >generated-guitar3tabs
-gzip -d <"$WHERE/z-t4"|java -jar ../../songsterrToLy/1.jar --name guitarFourPart --output-tabs - >generated-guitar4tabs
-gzip -d <"$WHERE/z-t5"|java -jar ../../songsterrToLy/1.jar --name guitarFivePart --output-tabs - >generated-guitar5tabs
-gzip -d <"$WHERE/z-t6"|java -jar ../../songsterrToLy/1.jar --name guitarSixPart --output-tabs - >generated-guitar6tabs
-gzip -d <"$WHERE/z-t7"|java -jar ../../songsterrToLy/1.jar --name bassPart --output-tabs - >generated-basstabs
-#gzip -d <"$WHERE/z-t8"|java -jar ../../songsterrToLy/1.jar --name drumsPart - >generated-drumscolors
-gzip -d <"$WHERE/z-t9"|java -jar ../../songsterrToLy/1.jar --name guitarSevenPart --output-tabs - >generated-guitar7tabs
+set -e
+WHERE="/share/mirror/songsterr/stuff/d-keep/d-The Eagles/d-Hotel California-s447/d-r414164/application_guitar_pro5-43011967.gp5"
+DRUMMAP="35 bd 1,48 tomh 0,43 toml 0,41 toml 0,"
+rm -f generated-*
+java -jar ../../guitarproToLy/1.jar <"$WHERE" \
+markup-extra '\key e \major' \
+modified-filename vocals_karaoke \
+drumMap "$DRUMMAP" \
+track 0 \
+    preset kav \
+    output-lilypond \
+    output-lyrics \
+    output-karaoke \
+track 0 \
+    preset susan \
+track 1 \
+    preset peter \
+track 2 \
+    preset peter \
+    name guitarTwo \
+    instrument-name Guitar2 \
+    instrument-short-name Gtr2 \
+track 3 \
+    preset peter \
+    name guitarThree \
+    instrument-name Guitar3 \
+    instrument-short-name Gtr3 \
+track 4 \
+    preset peter \
+    name guitarFour \
+    instrument-name Guitar4 \
+    instrument-short-name Gtr4 \
+    output-dotext \
+track 5 \
+    preset peter \
+    name guitarFive \
+    instrument-name Guitar5 \
+    instrument-short-name Gtr5 \
+    output-dotext \
+track 6 \
+    preset peter \
+    name guitarSix \
+    instrument-name Guitar6 \
+    instrument-short-name Gtr6 \
+    output-dotext \
+track 9 \
+    preset peter \
+    name guitarSeven \
+    instrument-name Guitar7 \
+    instrument-short-name Gtr7 \
+track 7 \
+    preset bass \
+track 8 \
+    preset gg \
+2>&1|tee log

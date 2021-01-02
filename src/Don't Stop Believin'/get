@@ -1,10 +1,32 @@
 #!/bin/sh
-WHERE="/share/mirror/songsterr/stuff/d-keep/d-Journey/d-Don't Stop Believin'-s10681/d-r252847"
-gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --name bassPart --output-tabs - >generated-basstabs
-gzip -d <"$WHERE/z-t1"|java -jar ../../songsterrToLy/1.jar --name rpianoPart --output-tabs - >generated-rpianotabs
-gzip -d <"$WHERE/z-t2"|java -jar ../../songsterrToLy/1.jar --name lpianoPart --output-tabs - >generated-lpianotabs
-#gzip -d <"$WHERE/z-t3"|java -jar ../../songsterrToLy/1.jar --no-string-numbers --name voPart - >generated-vo
-gzip -d <"$WHERE/z-t4"|java -jar ../../songsterrToLy/1.jar --name guitarOnePart --output-tabs - >generated-guitar1tabs
-gzip -d <"$WHERE/z-t5"|java -jar ../../songsterrToLy/1.jar --name guitarTwoPart --output-tabs - >generated-guitar2tabs
-#gzip -d <"$WHERE/z-t6"|java -jar ../../songsterrToLy/1.jar --name drumsPart - >generated-drumscolors
-gzip -d <"$WHERE/z-t1"|java -jar ../../songsterrToLy/1.jar --only-lowest-note --ottava 71 --scale 'ees' --no-string-numbers --name steelpanPart - >generated-steelpan
+WHERE="/share/mirror/songsterr/stuff/d-keep/d-Journey/d-Don't Stop Believin'-s10681/d-r252847/application_guitar_pro5-16160530.gp5"
+set -e
+rm -f generated-*
+java -jar ../../guitarproToLy/1.jar <"$WHERE" \
+markup-extra '\key e \major' \
+modified-filename drs \
+modified-filename vocals \
+modified-filename vocals_karaoke \
+modified-filename vocals_lyrics \
+track 3 \
+    preset kav \
+    output-lilypond \
+    output-lyrics \
+    output-karaoke \
+    output-dotext \
+track 1 \
+    preset susan \
+track 2 \
+    preset midiOne \
+track 5 \
+    preset midiTwo \
+    output-dotext \
+track 4 \
+    preset peter \
+    output-dotext \
+track 0 \
+    preset bass \
+    output-dotext \
+track 6 \
+    preset gg \
+2>&1|tee log

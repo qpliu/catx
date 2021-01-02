@@ -1,18 +1,3 @@
-generated-basstabs
-Scores: 0 73 150 168 204 235 308 361 428 434 465 519
-Best key: cis minor or e major
-generated-guitar1tabs
-Scores: 4 66 197 230 360 495 558 750 813 946 1014 1107
-Best key: cis minor or e major
-generated-guitar2tabs
-Scores: 8 50 82 121 134 155 204 319 320 390 403 434
-Best key: cis minor or e major
-generated-lpianotabs
-Scores: 0 58 111 167 190 203 298 414 451 522 545 601
-Best key: cis minor or e major
-generated-rpianotabs
-Scores: 0 76 96 198 306 330 560 944 1122 1174 1306 1408
-Best key: cis minor or e major
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
@@ -28,26 +13,27 @@ Best key: cis minor or e major
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
+Unused TextEvent start divisions=150912 seconds=194.87573099999997 measure=99.25 stop divisions=153408 seconds=198.09886649999999 measure=100.875 whatparam=bendSongsterr:0:100:60:100 trackName=generated-midiTwo matchKey=[86.0] matchTimeAndStop=true
+Unused TextEvent start divisions=149760 seconds=193.38813 measure=98.5 stop divisions=150432 seconds=194.25589724999998 measure=98.9375 whatparam=bendSongsterr:0:0:15:100:60:100 trackName=generated-midiTwo matchKey=[85.0] matchTimeAndStop=true
 Playing out.midi
 MIDI file: out.midi
 Format: 1  Tracks: 14  Divisions: 384
-->@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Just|!bg=asmalltowngirl-->Liv-in'inalone-lyworld-->Shetookthemid-nighttraingo-in'a-ny-where-->Justaci-tyboy-->BornandraisedinsouthDet-roit-->Hetookthemid-nighttraingo-in'a-ny-where-->@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1A|!bg=sin-gerinasmo-kyroom-->Asmellofwineandcheapper-fume->Forasmi-letheycansharethenight->Itgoesonandon,andon,andon>Stran-gers-|||wait-ing-->Upanddownthebou-le-vard>Theirsha-dows-|||sear-chinginthenight->Street-lights,-|||peop-le-->Liv-ingjusttofinde-mo-tion>Hid-ing-some-whereinthenight-->@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Work|!bg=-inghardtogetmyfill-->E-very-bo-dywantsathrill->Pay-in'a-ny-thingtorollthedice->Justonemoretime-->Somewillwin,--somewilllose-->Somewereborntosingtheblues->Oh,themo-viene-verends>Itgoesonandon,andon,andon->Stran-gers-|||wait-ing-->Upanddownthebou-le-vard>Theirsha-dows-|||sear-chinginthenight->Street-lights,-|||peop-le-->Liv-ingjusttofinde-mo-tion>Hid-ing-some-whereinthenight->@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Don't|!bg=stop-|||be-liev-in'-->Holdontothefeel-in'>Street-lights,-|||peop-le>Don'tstop-|||be-liev-in'-->Holdontothefeel-in'->Street-lights,-|||peop-le>Don'tstop-|||be-liev-in'-->Holdontothe-feel-in'->Street-lights,-|||peop-le@@Playing time: ~251 seconds
+->@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Just|!bg=asmalltowngirl-->Liv-in'inalone-lyworld-->Shetookthemid-nighttraingo-in'a-ny-where-->Justaci-tyboy-->BornandraisedinsouthDet-roit-->Hetookthemid-nighttraingo-in'a-ny-where-->@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1A|!bg=sin-gerinasmo-kyroom-->Asmellofwineandcheapper-fume->Forasmi-letheycansharethenight->Itgoesonandon,andon,andon>Stran-gers-|||wait-ing-->Upanddownthebou-le-vard>Theirsha-dows-|||sear-chinginthenight->Street-lights,-|||peop-le-->Liv-ingjusttofinde-mo-tion>Hid-ing-some-whereinthenight-->@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Work|!bg=-inghardtogetmyfill-->E-very-bo-dywantsathrill->Pay-in'a-ny-thingtorollthedice->Justonemoretime-->Somewillwin,--somewilllose-->Somewereborntosingtheblues->Oh,themo-viene-verends>Itgoesonandon,andon,andon->Stran-gers-|||wait-ing-->Upanddownthebou-le-vard>Theirsha-dows-|||sear-chinginthenight->Street-lights,-|||peop-le-->Liv-ingjusttofinde-mo-tion>Hid-ing-some-whereinthenight->@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Don't|!bg=stop-|||be-liev-in'-->Holdontothefeel-in'>Street-lights,-|||peop-le>Don'tstop-|||be-liev-in'-->Holdontothefeel-in'->Street-lights,-|||peop-le>Don'tstop-|||be-liev-in'-->HoldonLast 31 MIDI events are ignored
+Playing time: ~306 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 29425240/43997592 bytes(66.8792% compressed)
+Wrote 30272188/53711120 bytes(56.3611% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-warning: compressing over-full page by 1.8 staff-spaces
-warning: page 0 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-warning: compressing over-full page by 2.1 staff-spaces
-warning: page 0 has been compressed
+warning: compressing over-full page by 1.0 staff-spaces
+warning: page 5 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
     124 measure=all
     124 measure=kav
-    124 measure=susan
     124 measure=gg
     124 measure=peter
+    124 measure=susan
     124 measure=bass

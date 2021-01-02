@@ -20,6 +20,7 @@ final class Arg implements Cloneable{
     String instrument_short_name;
     List<String>layout_extra=new ArrayList<String>();
     List<String>music_extra=new ArrayList<String>();
+    List<String>markup_extra=new ArrayList<String>();
     Set<String>modified_filename=new HashSet<String>();
     @Override public Arg clone(){
 	try{
