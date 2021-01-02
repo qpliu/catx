@@ -43,8 +43,7 @@ abstract class TrackFileMaker extends FileMaker{
 	String tripletFeel=null;
 	PriorityQueue<Gpfile.Event>q=new PriorityQueue<Gpfile.Event>(track.events);
 	for (Gpfile.Measure measure:main.gpfile.measures){
-	    if (measure.rehearsalMark!=null)
-		noindent("\\mymark "+Stuff.quote(measure.rehearsalMark)+" #"+measure.name);
+	    printMeasureStuff(measure);
 	    if (tripletFeel!=null && !tripletFeel.equals(measure.tripletFeel))
 		unindent(/*{*/"}");
 	    if (measure.tripletFeel!=null && !measure.tripletFeel.equals(tripletFeel))
@@ -68,6 +67,7 @@ abstract class TrackFileMaker extends FileMaker{
 		events.add(cut[0]);
 	    }
 	    printMeasure(makeMeasure(measure,events));
+	    printMeasureStuffEnd(measure);
 	}
 	if (tripletFeel!=null)
 	    unindent(/*{*/"}");

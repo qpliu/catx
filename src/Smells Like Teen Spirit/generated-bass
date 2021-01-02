@@ -4,9 +4,13 @@ bass = {
     r1 |
     r1 |
     r2 r8 f,,\4\glissando ais,,4\4\glissando |
-    f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
-    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
-    gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 |
+    \repeat volta 4 {
+        f,,8.\4 f,,16\4 f,,4\4 r16 ais,,\3 ais,,\3 ais,,\3 ais,,8\3\glissando c,\3 |
+    } \alternative { {
+        gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,4\3\glissando |
+    } {
+        gis,,8.\4 gis,,16\4 gis,,4\4 r16 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 |
+    } }
 \mymark "Verse 1" #8
     f,,4\4 f,,8\4 f,,\4 ais,,\3 ais,,\3 ais,,\3 ais,,16\3\glissando c,\3 |
     gis,,4\4 gis,,8\4 gis,,\4 cis,\3 cis,\3 cis,\3 cis,\3\glissando |

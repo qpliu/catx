@@ -4,9 +4,13 @@ guitarThree = {
     r1 |
     r1 |
     r1 |
-    r1 |
-    r1 |
-    r1 |
+    \repeat volta 4 {
+        r1 |
+    } \alternative { {
+        r1 |
+    } {
+        r1 |
+    } }
 \mymark "Verse 1" #8
     r1 |
     r1 |

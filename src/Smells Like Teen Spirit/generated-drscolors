@@ -6,9 +6,13 @@ drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     r1 |
     r1 |
     << { sn32 sn16. hho8 sn32 sn16. hho8 sn32 sn16. hho8 sn32 sn8. r32 | } \context DrumVoice = "drsb" { r16 bd8 bd bd bd bd bd8. bd8 | } >>
-    << { cymcb4 <hho sn>8. sn16 hho sn8. <hho sn>4 | } \context DrumVoice = "drsb" { bd8. bd4 r16 bd8 bd16 bd8. bd8 | } >>
-    << { cymcb4 <hho sn>8. sn16 hho sn8. <hho sn>4 | } \context DrumVoice = "drsb" { bd8. bd4 r16 bd8 bd16 bd8. bd8 | } >>
-    << { cymcb4 <hho sn> hho8 sn16 sn sn sn sn sn | } \context DrumVoice = "drsb" { bd8. bd bd8 bd2 | } >>
+    \repeat volta 4 {
+        << { cymcb4 <hho sn>8. sn16 hho sn8. <hho sn>4 | } \context DrumVoice = "drsb" { bd8. bd4 r16 bd8 bd16 bd8. bd8 | } >>
+    } \alternative { {
+        << { cymcb4 <hho sn>8. sn16 hho sn8. <hho sn>4 | } \context DrumVoice = "drsb" { bd8. bd4 r16 bd8 bd16 bd8. bd8 | } >>
+    } {
+        << { cymcb4 <hho sn> hho8 sn16 sn sn sn sn sn | } \context DrumVoice = "drsb" { bd8. bd bd8 bd2 | } >>
+    } }
 \mymark "Verse 1" #8
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd4. bd8 bd4. | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hho | } \context DrumVoice = "drsb" { bd8 bd4. bd8 bd4. | } >>

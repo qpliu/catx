@@ -161,12 +161,18 @@ final class Gp5file extends Gpfile{
 	    time_n = readUnsignedByte();
 	if ((bits&2)!=0)
 	    time_d = readUnsignedByte();
-	if ((bits&4)!=0)
+	if ((bits&4)!=0){
 	    measure.repeatStart = true;
-	if ((bits&8)!=0)
+	    Log.info("Repeat start");
+	}
+	if ((bits&8)!=0){
 	    measure.repeatEnd = readUnsignedByte();
-	if ((bits&16)!=0)
+	    Log.info("Repeat end %d",measure.repeatEnd);
+	}
+	if ((bits&16)!=0){
 	    measure.repeatAlternate = readUnsignedByte();
+	    Log.info("Repeat alternate %d",measure.repeatAlternate);
+	}
 	if ((bits&32)!=0){
 	    measure.rehearsalMark = readIntSizeBlob().toByteSizeString();
 	    int color=readInt();

@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+rm -f generated-*
+WHERE="/share/mirror/songsterr/stuff/d-keep/d-Akb48/d-Bingo!-s83414/d-r102730/application_guitar_pro5-10364820.gp5"
+java -jar ../../1.jar <"$WHERE" 2>&1|tee log

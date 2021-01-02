@@ -29,8 +29,7 @@ final class MarkupFileMaker extends FileMaker{
 		time_d = measure.time_d;
 		print("\\time "+time_n+'/'+time_d);
 	    }
-	    if (measure.rehearsalMark!=null)
-		noindent("\\mymark "+Stuff.quote(measure.rehearsalMark)+" #"+measure.name);
+	    printMeasureStuff(measure);
 	    String swing="";
 	    if (measure.tripletFeel!=null!=tripletFeel){
 		tripletFeel = measure.tripletFeel!=null;
@@ -50,6 +49,7 @@ final class MarkupFileMaker extends FileMaker{
 		}
 	    });
 	    print(mm.tail());
+	    printMeasureStuffEnd(measure);
 	}
 	unindent("}");
     }

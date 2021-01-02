@@ -4,9 +4,13 @@ guitarTwo = {
     r1 |
     r1 |
     r2 r8 <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3>16 <cis\5 gis\4 cis'\3> <a,\5 d\4 g\3> <a,\6 a,\5 d\4 g\3 b\2 e'\1> |
-    <f,\6 c\5 f\4>8. <f,\6 c\5 f\4>16 <f,\6 c\5 f\4>8 <\deadNote c\5 \deadNote f\4 \deadNote ais\3>16 <\deadNote c\5 \deadNote f\4 \deadNote ais\3> <\deadNote c\5 \deadNote f\4 \deadNote ais\3> <\deadNote c\5 \deadNote f\4 \deadNote ais\3> <ais,\5 f\4 ais\3>8 <ais,\5 f\4 ais\3> <a,\5 d\4 g\3> |
-    <gis,\6 dis\5 gis\4>8. <gis,\6 dis\5 gis\4>16 <gis,\6 dis\5 gis\4>8 <\deadNote dis\5 \deadNote gis\4 \deadNote cis'\3>16 <\deadNote dis\5 \deadNote gis\4 \deadNote cis'\3> <\deadNote dis\5 \deadNote gis\4 \deadNote cis'\3> <\deadNote dis\5 \deadNote gis\4 \deadNote cis'\3> <cis\5 gis\4 cis'\3>8 <cis\5 gis\4 cis'\3> <a,\5 d\4 g\3> |
-    <gis,\6 dis\5 gis\4>8. <gis,\6 dis\5 gis\4>16 <gis,\6 dis\5 gis\4>8 <\deadNote dis\5 \deadNote gis\4 \deadNote cis'\3>16 <\deadNote dis\5 \deadNote gis\4 \deadNote cis'\3> <\deadNote dis\5 \deadNote gis\4 \deadNote cis'\3> <\deadNote dis\5 \deadNote gis\4 \deadNote cis'\3> <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> |
+    \repeat volta 4 {
+        <f,\6 c\5 f\4>8. <f,\6 c\5 f\4>16 <f,\6 c\5 f\4>8 <\deadNote c\5 \deadNote f\4 \deadNote ais\3>16 <\deadNote c\5 \deadNote f\4 \deadNote ais\3> <\deadNote c\5 \deadNote f\4 \deadNote ais\3> <\deadNote c\5 \deadNote f\4 \deadNote ais\3> <ais,\5 f\4 ais\3>8 <ais,\5 f\4 ais\3> <a,\5 d\4 g\3> |
+    } \alternative { {
+        <gis,\6 dis\5 gis\4>8. <gis,\6 dis\5 gis\4>16 <gis,\6 dis\5 gis\4>8 <\deadNote dis\5 \deadNote gis\4 \deadNote cis'\3>16 <\deadNote dis\5 \deadNote gis\4 \deadNote cis'\3> <\deadNote dis\5 \deadNote gis\4 \deadNote cis'\3> <\deadNote dis\5 \deadNote gis\4 \deadNote cis'\3> <cis\5 gis\4 cis'\3>8 <cis\5 gis\4 cis'\3> <a,\5 d\4 g\3> |
+    } {
+        <gis,\6 dis\5 gis\4>8. <gis,\6 dis\5 gis\4>16 <gis,\6 dis\5 gis\4>8 <\deadNote dis\5 \deadNote gis\4 \deadNote cis'\3>16 <\deadNote dis\5 \deadNote gis\4 \deadNote cis'\3> <\deadNote dis\5 \deadNote gis\4 \deadNote cis'\3> <\deadNote dis\5 \deadNote gis\4 \deadNote cis'\3> <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> |
+    } }
 \mymark "Verse 1" #8
     r1 |
     r1 |
