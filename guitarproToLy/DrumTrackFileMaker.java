@@ -85,6 +85,8 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
 	putDrumMap(DEFAULT_DRUM_MAP);
 	if (arg.drumMap!=null)
 	    putDrumMap(arg.drumMap);
+	arg.music_extra.add("\\context DrumVoice = \"drsa\" \\voiceOne");
+	arg.music_extra.add("\\context DrumVoice = \"drsb\" \\voiceTwo");
     }
     private void putDrumMap(String map){
 	for (StringTokenizer st=new StringTokenizer(map,","); st.hasMoreTokens();){
@@ -96,12 +98,8 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
 	    drumMap.put(key,new Drum(key,name,voice,old==null?drumMap.size():old.sort));
 	}
     }
-    @Override void make()throws IOException{
-	indent(lyname+" = \\new DrumVoice = \"drsb\" \\new DrumVoice = \"drsa\" \\drummode {");
-	print("\\context DrumVoice = \"drsa\" \\voiceOne");
-	print("\\context DrumVoice = \"drsb\" \\voiceTwo");
-	makeMeasures();
-	unindent("}");
+    @Override String getStuff(){
+	return super.getStuff()+"\\new DrumVoice = \"drsb\" \\new DrumVoice = \"drsa\" \\drummode ";
     }
     private String makeVoice(Gpfile.Measure measure,Queue<TimeAndDrum>events)throws IOException{
 	MeasureMaker mm=new MeasureMaker(measure);

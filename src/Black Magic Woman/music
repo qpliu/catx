@@ -85,7 +85,7 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"overdriven guitar"
     } \guitar
-    \tag #'(midiTwo) \new Staff \with {
+    \tag #'(midiKeyboards) \new Staff \with {
 	midiInstrument = #"electric piano 1"
     } \piano
 >>

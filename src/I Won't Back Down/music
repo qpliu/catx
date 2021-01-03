@@ -68,18 +68,12 @@ midimusic = <<
     \markupStuff
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #1
     } \voPart
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
-	midiMinimumVolume = #0
-	midiMaximumVolume = #1
     } \egOnePart
     \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.5
     } \bassPart
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)

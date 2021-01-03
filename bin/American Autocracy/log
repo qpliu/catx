@@ -11,23 +11,17 @@ Best key: des major or f minor or aes major or bes minor
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 14  Divisions: 384
+Format: 1  Tracks: 4  Divisions: 384
+Sequence: midiGg
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
 Playing time: ~48 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 6026325/8197904 bytes(73.5106% compressed)
+Wrote 4862393/8197904 bytes(59.3126% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
      32 measure=all

@@ -25,10 +25,18 @@ abstract class TrackFileMaker extends FileMaker{
 	this.lyname = lyname;
 	track = main.gpfile.tracks[arg.trackNumber];
     }
-    void make()throws IOException{
-	indent(lyname+" = {");
+    String getStuff(){
+	return "";
+    }
+    final void make()throws IOException{
+	String stuff=getStuff();
+	indent(lyname+" = "+stuff+"{");
 	makeMeasures();
-	unindent("}");
+	StringBuilder sb=new StringBuilder("}");
+	for (int i=0; i<stuff.length(); i++)
+	    if (stuff.charAt(i)=='{')
+		sb.append(" }");
+	unindent(sb.toString());
     }
     final String getStaffType(){
 	return this instanceof DrumTrackFileMaker?"DrumStaff":"Staff";

@@ -10,22 +10,20 @@ Best key: c major or d minor or e minor or f major or g major or g minor or a mi
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147484416
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 14  Divisions: 384
+Format: 1  Tracks: 6  Divisions: 384
+Sequence: midiAarinrobo
+Track name: midiGg
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
+Track name: midiKaraoke
 metronome 0>Hap-pybirth-daytoyou!Hap-pybirth-daytoyou!>Hap-pybirth-daydearKi-ki!Hap-pybirth-daytoyou!@@Playing time: ~22 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 1975294/3528080 bytes(55.9878% compressed)
+Wrote 1555604/3528080 bytes(44.0921% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

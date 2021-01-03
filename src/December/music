@@ -86,16 +86,14 @@ midimusic = <<
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \voPart
-    \tag #'(midiGone) \new Staff \with {
+    \tag #'(midiMuted) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
     } \bassPart
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
     } \egPart
-    \tag #'(midiGone) \new Staff \with {
+    \tag #'(midiMuted) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)" % 27
-	midiMinimumVolume = #1
-	midiMaximumVolume = #1
     } \egTwoPart
     \tag #'(midiKaraoke) \new Staff \with {
 	midiInstrument = #"flute" % 73

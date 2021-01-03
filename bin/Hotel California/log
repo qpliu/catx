@@ -3,187 +3,221 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 16  Divisions: 384
+Format: 1  Tracks: 5  Divisions: 384
+Sequence: midiGg
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
+Track name: midiKaraoke
 >@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1On|!bg=adarkde-serthigh-way,---coolwindinmyhair,-->warmsmellofco-li-tas---ris-ingupthroughtheair.-->Upa-headinthedis-tance-->Isawashim-mer-inglight.-->Myheadgrewheav-yandmysightgrewdim,-->Ihadtostopforthenight.-->Thereshestoodinthedoorway;-->Iheardthemis-sionbell.--->An'Iwasthink-in'tomyself,thiscouldbeheav-enorthiscouldbe-hell.-->Thenshelitupacan-dle,--an'sheshowedmetheway.-->Therewerevoi-cesdownthe-cor-ri-dor,-->IthoughtIheardthemsay:-->"Wel-cometotheHo-telCa-li-for-nia,"--->suchalove-lyplace,(suchalove-lyplace),>suchalove-lyface.-->Plen-tyofroomattheHo-telCa-li-for-nia.--->A-nytimeofyear,(a-nytimeofyear),>youcanfindithere.--->HermindisTif-fa-nytwist-ed.-->ShegottheMer-ce-desbends.(Uh)-->Shegotalotofpret-ty,-pret-tyboys--thatshecallsfriends.-->Howtheydanceinthecourt-yard,-sweetsum-mersweat.-->Somedancetore-mem-ber,--somedancetofor-get.-->SoIcalledupthecap-tain,-->"Pleasebringmemywine."->Hesaidthat-"Wehave-n'thadthatspi-ritheresince-nine-teensix-tynine."-->An'stillthosevoi-cesarecall-ingfromfara-way.->Wakeyouupinthemid-dleofthenight-->justtohearthemsay:>"Wel-cometotheHo-telCa-li-for-nia,"--->suchalove-lyplace,(suchalove-lyplace),>suchalove-lyface.-->They'reliv-in'itup-at-theHo-telCa-li-for-nia.--->Whatanicesur-prise.(Whatanicesur-prise.)>Bringyoura-li-bis.-->Mir-rorsontheceil-ing,--thepinkcham-pagneonice,->An'shesaid,--"Wearealljustpri-son-ershere--ofourownde-vice."-->An'inthemas-ter'scham-bers--theyga-theredforthefeast.-->Theystabitwiththeirstee-lyknivesbuttheyjustcan'tkillthebeast.-->LastthingIre-mem-ber->Iwas-run-ningforthedoor.-->Ihadtofindthepas-sageback-totheplaceIwasbe-fore.-->"Re-lax,"saidthenightman,-"Weare-pro-grammedtore-ceive.-->Youcancheckouta-nytimeyoulike,--butyoucanne-verleave."-@@Playing time: ~398 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 48147822/70017692 bytes(68.7652% compressed)
-warning: compressing over-full page by 41.6 staff-spaces
+Wrote 38015920/70017692 bytes(54.2947% compressed)
+warning: compressing over-full page by 43.0 staff-spaces
 warning: page 0 has been compressed
-warning: compressing over-full page by 31.2 staff-spaces
-warning: page 1 has been compressed
-warning: compressing over-full page by 30.9 staff-spaces
-warning: page 2 has been compressed
 warning: compressing over-full page by 32.1 staff-spaces
-warning: page 3 has been compressed
+warning: page 1 has been compressed
+warning: compressing over-full page by 32.7 staff-spaces
+warning: page 2 has been compressed
 warning: compressing over-full page by 33.5 staff-spaces
+warning: page 3 has been compressed
+warning: compressing over-full page by 36.5 staff-spaces
 warning: page 4 has been compressed
-warning: compressing over-full page by 36.9 staff-spaces
+warning: compressing over-full page by 37.0 staff-spaces
 warning: page 5 has been compressed
-warning: compressing over-full page by 39.7 staff-spaces
-warning: page 6 has been compressed
 warning: compressing over-full page by 41.4 staff-spaces
+warning: page 6 has been compressed
+warning: compressing over-full page by 42.7 staff-spaces
 warning: page 7 has been compressed
-warning: compressing over-full page by 51.6 staff-spaces
+warning: compressing over-full page by 54.5 staff-spaces
 warning: page 8 has been compressed
-warning: compressing over-full page by 48.2 staff-spaces
+warning: compressing over-full page by 53.0 staff-spaces
 warning: page 9 has been compressed
-warning: compressing over-full page by 51.9 staff-spaces
+warning: compressing over-full page by 55.4 staff-spaces
 warning: page 10 has been compressed
-warning: compressing over-full page by 43.4 staff-spaces
+warning: compressing over-full page by 43.9 staff-spaces
 warning: page 11 has been compressed
 warning: compressing over-full page by 44.6 staff-spaces
 warning: page 12 has been compressed
-warning: compressing over-full page by 42.8 staff-spaces
+warning: compressing over-full page by 43.7 staff-spaces
 warning: page 13 has been compressed
-warning: compressing over-full page by 40.6 staff-spaces
+warning: compressing over-full page by 42.5 staff-spaces
 warning: page 14 has been compressed
-warning: compressing over-full page by 47.2 staff-spaces
+warning: compressing over-full page by 49.8 staff-spaces
 warning: page 15 has been compressed
-warning: compressing over-full page by 43.8 staff-spaces
+warning: compressing over-full page by 46.1 staff-spaces
 warning: page 16 has been compressed
-warning: compressing over-full page by 46.7 staff-spaces
+warning: compressing over-full page by 49.3 staff-spaces
 warning: page 17 has been compressed
-warning: compressing over-full page by 39.3 staff-spaces
+warning: compressing over-full page by 42.7 staff-spaces
 warning: page 18 has been compressed
-warning: compressing over-full page by 45.1 staff-spaces
+warning: compressing over-full page by 47.8 staff-spaces
 warning: page 19 has been compressed
-warning: compressing over-full page by 41.9 staff-spaces
+warning: compressing over-full page by 42.9 staff-spaces
 warning: page 20 has been compressed
 warning: compressing over-full page by 45.5 staff-spaces
 warning: page 21 has been compressed
-warning: compressing over-full page by 41.1 staff-spaces
+warning: compressing over-full page by 42.5 staff-spaces
 warning: page 22 has been compressed
-warning: compressing over-full page by 50.7 staff-spaces
+warning: compressing over-full page by 53.6 staff-spaces
 warning: page 23 has been compressed
-warning: compressing over-full page by 46.1 staff-spaces
+warning: compressing over-full page by 48.6 staff-spaces
 warning: page 24 has been compressed
-warning: compressing over-full page by 51.3 staff-spaces
+warning: compressing over-full page by 52.4 staff-spaces
 warning: page 25 has been compressed
-warning: compressing over-full page by 48.8 staff-spaces
+warning: compressing over-full page by 51.6 staff-spaces
 warning: page 26 has been compressed
-warning: compressing over-full page by 52.0 staff-spaces
+warning: compressing over-full page by 54.6 staff-spaces
 warning: page 27 has been compressed
-warning: compressing over-full page by 48.6 staff-spaces
+warning: compressing over-full page by 50.9 staff-spaces
 warning: page 28 has been compressed
-warning: compressing over-full page by 50.7 staff-spaces
+warning: compressing over-full page by 53.2 staff-spaces
 warning: page 29 has been compressed
-warning: compressing over-full page by 40.6 staff-spaces
+warning: compressing over-full page by 43.5 staff-spaces
 warning: page 30 has been compressed
-warning: compressing over-full page by 39.9 staff-spaces
+warning: compressing over-full page by 43.2 staff-spaces
 warning: page 31 has been compressed
-warning: compressing over-full page by 34.0 staff-spaces
+warning: compressing over-full page by 34.3 staff-spaces
 warning: page 32 has been compressed
-warning: compressing over-full page by 40.1 staff-spaces
+warning: compressing over-full page by 43.0 staff-spaces
 warning: page 33 has been compressed
-warning: compressing over-full page by 41.6 staff-spaces
+warning: compressing over-full page by 45.5 staff-spaces
 warning: page 34 has been compressed
-warning: compressing over-full page by 48.6 staff-spaces
+warning: compressing over-full page by 49.5 staff-spaces
 warning: page 35 has been compressed
-warning: compressing over-full page by 44.5 staff-spaces
+warning: compressing over-full page by 45.7 staff-spaces
 warning: page 36 has been compressed
-warning: compressing over-full page by 44.2 staff-spaces
+warning: compressing over-full page by 45.5 staff-spaces
 warning: page 37 has been compressed
-warning: compressing over-full page by 47.1 staff-spaces
+warning: compressing over-full page by 49.6 staff-spaces
 warning: page 38 has been compressed
 warning: compressing over-full page by 48.7 staff-spaces
 warning: page 39 has been compressed
-warning: compressing over-full page by 42.6 staff-spaces
+warning: compressing over-full page by 43.5 staff-spaces
 warning: page 40 has been compressed
-warning: compressing over-full page by 48.2 staff-spaces
+warning: compressing over-full page by 49.7 staff-spaces
 warning: page 41 has been compressed
-warning: compressing over-full page by 40.0 staff-spaces
+warning: compressing over-full page by 42.6 staff-spaces
 warning: page 42 has been compressed
-warning: compressing over-full page by 42.3 staff-spaces
+warning: compressing over-full page by 44.7 staff-spaces
 warning: page 43 has been compressed
-warning: compressing over-full page by 45.5 staff-spaces
+warning: compressing over-full page by 47.4 staff-spaces
 warning: page 44 has been compressed
-warning: compressing over-full page by 44.1 staff-spaces
+warning: compressing over-full page by 46.2 staff-spaces
 warning: page 45 has been compressed
-warning: compressing over-full page by 40.8 staff-spaces
-warning: page 46 has been compressed
-warning: compressing over-full page by 42.7 staff-spaces
-warning: page 47 has been compressed
-warning: compressing over-full page by 53.0 staff-spaces
-warning: page 48 has been compressed
-warning: compressing over-full page by 49.6 staff-spaces
-warning: page 49 has been compressed
-warning: compressing over-full page by 42.9 staff-spaces
-warning: page 50 has been compressed
-warning: compressing over-full page by 40.5 staff-spaces
-warning: page 51 has been compressed
-warning: compressing over-full page by 45.2 staff-spaces
-warning: page 52 has been compressed
-warning: compressing over-full page by 44.8 staff-spaces
-warning: page 53 has been compressed
-warning: compressing over-full page by 40.9 staff-spaces
-warning: page 54 has been compressed
-warning: compressing over-full page by 40.3 staff-spaces
-warning: page 55 has been compressed
-warning: compressing over-full page by 41.9 staff-spaces
-warning: page 56 has been compressed
-warning: compressing over-full page by 44.2 staff-spaces
-warning: page 57 has been compressed
 warning: compressing over-full page by 43.4 staff-spaces
-warning: page 58 has been compressed
+warning: page 46 has been compressed
+warning: compressing over-full page by 45.2 staff-spaces
+warning: page 47 has been compressed
+warning: compressing over-full page by 54.9 staff-spaces
+warning: page 48 has been compressed
+warning: compressing over-full page by 52.1 staff-spaces
+warning: page 49 has been compressed
+warning: compressing over-full page by 45.4 staff-spaces
+warning: page 50 has been compressed
+warning: compressing over-full page by 42.9 staff-spaces
+warning: page 51 has been compressed
+warning: compressing over-full page by 47.1 staff-spaces
+warning: page 52 has been compressed
+warning: compressing over-full page by 47.0 staff-spaces
+warning: page 53 has been compressed
+warning: compressing over-full page by 43.4 staff-spaces
+warning: page 54 has been compressed
 warning: compressing over-full page by 42.7 staff-spaces
+warning: page 55 has been compressed
+warning: compressing over-full page by 43.9 staff-spaces
+warning: page 56 has been compressed
+warning: compressing over-full page by 46.3 staff-spaces
+warning: page 57 has been compressed
+warning: compressing over-full page by 45.9 staff-spaces
+warning: page 58 has been compressed
+warning: compressing over-full page by 45.1 staff-spaces
 warning: page 59 has been compressed
-warning: compressing over-full page by 44.1 staff-spaces
+warning: compressing over-full page by 46.0 staff-spaces
 warning: page 60 has been compressed
-warning: compressing over-full page by 45.7 staff-spaces
+warning: compressing over-full page by 47.4 staff-spaces
 warning: page 61 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-warning: compressing over-full page by 0.6 staff-spaces
+warning: compressing over-full page by 4.6 staff-spaces
 warning: page 0 has been compressed
-warning: compressing over-full page by 0.5 staff-spaces
+warning: compressing over-full page by 4.6 staff-spaces
 warning: page 7 has been compressed
-warning: compressing over-full page by 5.8 staff-spaces
+warning: compressing over-full page by 0.8 staff-spaces
+warning: page 9 has been compressed
+warning: compressing over-full page by 2.5 staff-spaces
+warning: page 10 has been compressed
+warning: compressing over-full page by 3.2 staff-spaces
+warning: page 11 has been compressed
+warning: compressing over-full page by 0.3 staff-spaces
+warning: page 12 has been compressed
+warning: compressing over-full page by 1.0 staff-spaces
+warning: page 13 has been compressed
+warning: compressing over-full page by 3.0 staff-spaces
+warning: page 14 has been compressed
+warning: compressing over-full page by 0.5 staff-spaces
+warning: page 16 has been compressed
+warning: compressing over-full page by 9.2 staff-spaces
 warning: page 17 has been compressed
-warning: compressing over-full page by 4.4 staff-spaces
+warning: compressing over-full page by 1.5 staff-spaces
+warning: page 18 has been compressed
+warning: compressing over-full page by 1.6 staff-spaces
+warning: page 19 has been compressed
+warning: compressing over-full page by 6.8 staff-spaces
 warning: page 20 has been compressed
-warning: compressing over-full page by 1.9 staff-spaces
+warning: compressing over-full page by 2.2 staff-spaces
+warning: page 21 has been compressed
+warning: compressing over-full page by 5.0 staff-spaces
 warning: page 22 has been compressed
-warning: compressing over-full page by 2.1 staff-spaces
+warning: compressing over-full page by 5.5 staff-spaces
 warning: page 24 has been compressed
-warning: compressing over-full page by 3.9 staff-spaces
+warning: compressing over-full page by 7.3 staff-spaces
 warning: page 27 has been compressed
-warning: compressing over-full page by 2.2 staff-spaces
-warning: page 30 has been compressed
-warning: compressing over-full page by 3.5 staff-spaces
-warning: page 31 has been compressed
 warning: compressing over-full page by 1.9 staff-spaces
-warning: page 34 has been compressed
+warning: page 28 has been compressed
 warning: compressing over-full page by 1.7 staff-spaces
+warning: page 29 has been compressed
+warning: compressing over-full page by 4.6 staff-spaces
+warning: page 30 has been compressed
+warning: compressing over-full page by 7.3 staff-spaces
+warning: page 31 has been compressed
+warning: compressing over-full page by 1.1 staff-spaces
+warning: page 33 has been compressed
+warning: compressing over-full page by 4.3 staff-spaces
+warning: page 34 has been compressed
+warning: compressing over-full page by 4.3 staff-spaces
 warning: page 35 has been compressed
-warning: compressing over-full page by 8.3 staff-spaces
+warning: compressing over-full page by 1.6 staff-spaces
+warning: page 37 has been compressed
+warning: compressing over-full page by 10.8 staff-spaces
 warning: page 38 has been compressed
-warning: compressing over-full page by 7.9 staff-spaces
+warning: compressing over-full page by 10.5 staff-spaces
 warning: page 39 has been compressed
-warning: compressing over-full page by 2.2 staff-spaces
+warning: compressing over-full page by 1.7 staff-spaces
+warning: page 40 has been compressed
+warning: compressing over-full page by 4.6 staff-spaces
 warning: page 42 has been compressed
-warning: compressing over-full page by 2.8 staff-spaces
+warning: compressing over-full page by 5.4 staff-spaces
 warning: page 43 has been compressed
-warning: compressing over-full page by 0.9 staff-spaces
+warning: compressing over-full page by 2.2 staff-spaces
+warning: page 44 has been compressed
+warning: compressing over-full page by 1.5 staff-spaces
+warning: page 45 has been compressed
+warning: compressing over-full page by 3.3 staff-spaces
 warning: page 46 has been compressed
-warning: compressing over-full page by 1.4 staff-spaces
+warning: compressing over-full page by 4.1 staff-spaces
 warning: page 47 has been compressed
-warning: compressing over-full page by 0.9 staff-spaces
+warning: compressing over-full page by 2.3 staff-spaces
+warning: page 48 has been compressed
+warning: compressing over-full page by 1.5 staff-spaces
+warning: page 49 has been compressed
+warning: compressing over-full page by 3.3 staff-spaces
 warning: page 50 has been compressed
-warning: compressing over-full page by 3.1 staff-spaces
+warning: compressing over-full page by 5.4 staff-spaces
 warning: page 51 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

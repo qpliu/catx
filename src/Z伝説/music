@@ -89,19 +89,13 @@ midimusic = <<
     \tag #'(midiOne) \new Staff = "keyboard1" \keyboardOnePart
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"trumpet"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.5
     } \keyboardTwoPart
     \tag #'(midiOne) \new Staff = "keyboard3_dotext" \keyboardThreePartDotext
     \tag #'(midiOne) \new Staff = "keyboard3" \keyboardThreePart
     \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.6
     } \bassPart
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
-	midiMinimumVolume = #0
-	midiMaximumVolume = #1
     } \drumsPart
 >>

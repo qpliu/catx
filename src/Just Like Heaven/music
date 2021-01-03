@@ -93,33 +93,21 @@ midimusic = <<
     } \drsPart
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #1
     } \voPart
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"synthstrings 1"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.5
     } \synthPart
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"electric grand"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.5
     } \pianoPart
     \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.5
     } \bassPart
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"overdriven guitar"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #1
     } \egOnePart
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #1
     } \egTwoPart
     \tag #'(midiKaraoke) \new Staff \with {
 	midiInstrument = #"flute" % 73

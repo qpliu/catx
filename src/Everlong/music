@@ -116,10 +116,10 @@ midimusic = <<
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"overdriven guitar"
     } \guitarii
-    \tag #'(midiTwo) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)"
     } \guitariii
-    \tag #'(midiTwo) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)"
     } \guitariv
 >>

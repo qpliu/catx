@@ -10,7 +10,8 @@ final class MergeMidi{
     private static final double BEND_RANGE=24;
 // WTF?  Lilypond adds an extra 48 divisions after each Lyric meta event?  But sometimes it is 144?
 // Sometimes it is 192.  Sometimes 24.
-    private static int fudgeLyrics=48;
+    private static int DEFAULT_FUDGE_LYRICS=48;
+    private static StringTokenizer fudgeLyricsStringTokenizer=new StringTokenizer("");
     private final Map<String,List<TextEvent>>textEvents=new HashMap<String,List<TextEvent>>();
     private final List<MetaEvent>metaEvents=new ArrayList<MetaEvent>();
     private final List<Event>events=new ArrayList<Event>();
@@ -160,15 +161,15 @@ final class MergeMidi{
 	final String[]param;
 	final String trackName;
 	final Set<Double>matchKey;
-	final boolean matchTimeAndStop;
+	final boolean matchStartTime;
 	boolean done;
 	final Map<String,Object>map=new HashMap<String,Object>();
-	TextEvent(TextEvent parent,long start,String id,int outTrackIndex,long stop,String trackName,boolean matchTimeAndStop,Set<Double>matchKey,String what,String[]param)throws IOException{
+	TextEvent(TextEvent parent,long start,String id,int outTrackIndex,long stop,String trackName,boolean matchStartTime,Set<Double>matchKey,String what,String[]param)throws IOException{
 	    super(start,0,id,outTrackIndex);
 	    this.parent = parent==null?this:parent;
 	    this.stop = stop;
 	    this.trackName = trackName;
-	    this.matchTimeAndStop = matchTimeAndStop;
+	    this.matchStartTime = matchStartTime;
 	    this.matchKey = matchKey;
 	    this.what = what;
 	    this.param = param;
@@ -180,15 +181,15 @@ final class MergeMidi{
 		return false;
 	    if (time>=note.stop)
 		return false;
-	    if (matchTimeAndStop && (time!=note.time || stop!=note.stop))
+	    if (matchStartTime && time!=note.time)
 		return false;
 	    if (matchKey!=null && !matchKey.contains(note.key))
 		return false;
 	    return true;
 	}
 	boolean narrowerThan(TextEvent a){
-	    if (matchTimeAndStop!=a.matchTimeAndStop)
-		return matchTimeAndStop;
+	    if (matchStartTime!=a.matchStartTime)
+		return matchStartTime;
 	    if (time!=a.time)
 		return time>a.time;
 	    if (stop!=a.stop)
@@ -206,7 +207,7 @@ final class MergeMidi{
 		sb.append(':').append(p);
 	    sb.append(" trackName=").append(trackName);
 	    sb.append(" matchKey=").append(matchKey);
-	    sb.append(" matchTimeAndStop=").append(matchTimeAndStop);
+	    sb.append(" matchStartTime=").append(matchStartTime);
 	    return sb.toString();
 	}
     }
@@ -296,6 +297,7 @@ final class MergeMidi{
 	private final long[]keyTime=new long[128];
 	private final int[]keyVelocity=new int[128];
 	private Map<Integer,String>textMap;
+	private int fudgeLyrics;
 	private int lyricEventTimeFudge=0;
 	TrackReader(DataInputStream dis,String id,int outTrackIndex){
 	    this.dis = dis;
@@ -339,6 +341,8 @@ final class MergeMidi{
 //		System.err.println("instrument name="+new String(data));
 	    }else if (what==5){
 		metaEvents.add(new LyricEvent(time+lyricEventTimeFudge,id,outTrackIndex,what,data));
+		if (fudgeLyrics==0)
+		    fudgeLyrics = fudgeLyricsStringTokenizer.hasMoreTokens()?Integer.parseInt(fudgeLyricsStringTokenizer.nextToken()):DEFAULT_FUDGE_LYRICS;
 		lyricEventTimeFudge -= fudgeLyrics;
 	    }else if (what==6){
 		System.err.println("marker="+new String(data));
@@ -367,7 +371,7 @@ final class MergeMidi{
 		    Matcher m=whatParamPattern.matcher(st.nextToken());
 		    if (!m.matches())
 			throw new IOException("Bad whatparam "+m);
-		    expandTextEvent(parent,equalsMap,new TextEvent(parent,te.time,te.id,outTrackIndex,te.stop,te.trackName,te.matchTimeAndStop,te.matchKey,m.group(1),makeParam(m.group(2))));
+		    expandTextEvent(parent,equalsMap,new TextEvent(parent,te.time,te.id,outTrackIndex,te.stop,te.trackName,te.matchStartTime,te.matchKey,m.group(1),makeParam(m.group(2))));
 		}
 	    else
 		textEvents.computeIfAbsent(te.trackName,x->new ArrayList<TextEvent>()).add(te);
@@ -422,7 +426,7 @@ final class MergeMidi{
 				throw new IOException("Bad text="+text);
 			    String what=m.group(1);
 			    String[]param=makeParam(m.group(2));
-			    boolean matchTimeAndStop=scope.indexOf('.')!=-1;
+			    boolean matchStartTime=scope.indexOf('.')!=-1;
 			    Set<Double>matchKey;
 			    if (keys!=null){
 				matchKey = new HashSet<Double>();
@@ -437,13 +441,13 @@ final class MergeMidi{
 				    TextEvent te=noend.get(--i);
 				    if (te.what.equals(what)){
 					noend.remove(i);
-					te = new TextEvent(null,te.time,te.id,outTrackIndex,start,te.trackName,te.matchTimeAndStop,te.matchKey,te.what,te.param);
+					te = new TextEvent(null,te.time,te.id,outTrackIndex,start,te.trackName,te.matchStartTime,te.matchKey,te.what,te.param);
 					expandTextEvent(te,equalsMap,te);
 					break;
 				    }
 				}
 			    else{
-				TextEvent te=new TextEvent(null,start,idc,outTrackIndex,stop,trackName,matchTimeAndStop,matchKey,what,param);
+				TextEvent te=new TextEvent(null,start,idc,outTrackIndex,stop,trackName,matchStartTime,matchKey,what,param);
 				if (scope.indexOf(">")!=-1)
 				    noend.add(te);
 				else
@@ -487,7 +491,7 @@ final class MergeMidi{
 		if (keyTime[i]!=-1)
 		    throw new IOException("Missing note stop");
 	    for (TextEvent te:noend){
-		te = new TextEvent(null,te.time,te.id,outTrackIndex,Long.MAX_VALUE,te.trackName,te.matchTimeAndStop,te.matchKey,te.what,te.param);
+		te = new TextEvent(null,te.time,te.id,outTrackIndex,Long.MAX_VALUE,te.trackName,te.matchStartTime,te.matchKey,te.what,te.param);
 		expandTextEvent(te,equalsMap,te);
 	    }
 	}
@@ -759,8 +763,13 @@ final class MergeMidi{
 	outputEvents.add(new OutputEvent(maxTime[0],-1,0xff,(byte)0x2f,(byte)0));
 	Collections.sort(outputEvents);
     }
-    private void output(DataOutputStream dos,int outTrackIndex)throws IOException{
+    private void output(DataOutputStream dos,int outTrackIndex,byte[]trackName)throws IOException{
 	ByteArrayOutputStream baos=new ByteArrayOutputStream();
+	baos.write(0);
+	baos.write(255);
+	baos.write(3);
+	baos.write(trackName.length);
+	baos.write(trackName);
 	long lastTime=0;
 	for (OutputEvent oe:outputEvents){
 	    if (oe.outTrackIndex!=-1 && oe.outTrackIndex!=outTrackIndex)
@@ -826,23 +835,23 @@ final class MergeMidi{
 	int j;
 	for (j=0; j<argv.length; j++)
 	    if (argv[j].equals("--fudge-lyrics"))
-		fudgeLyrics = Integer.parseInt(argv[++j]);
+		fudgeLyricsStringTokenizer = new StringTokenizer(argv[++j],",");
 	    else
 		break;
 	MergeMidi mm=new MergeMidi();
-	for (int i=j; i<argv.length; i++)
-	    try (DataInputStream dis=new DataInputStream(new FileInputStream(argv[i]))){
-		mm.read(dis,argv[i],i-j);
+	for (int i=j; i<argv.length; i+=2)
+	    try (DataInputStream dis=new DataInputStream(new FileInputStream(argv[i+1]))){
+		mm.read(dis,argv[i+1],i-j);
 	    }
 	mm.makeOutputEvents();
 	try (DataOutputStream dos=new DataOutputStream(System.out)){
 	    dos.write("MThd".getBytes());
 	    dos.writeInt(6);
 	    dos.writeShort(1);
-	    dos.writeShort(argv.length);
+	    dos.writeShort((argv.length-j)/2);
 	    dos.writeShort(DIVISION);
-	    for (int i=0; i<argv.length; i++)
-		mm.output(dos,i);
+	    for (int i=j; i<argv.length; i+=2)
+		mm.output(dos,i-j,argv[i].getBytes());
 	}
     }
     private static class PrintInputStream extends FilterInputStream{

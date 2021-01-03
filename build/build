@@ -66,8 +66,8 @@ do
     if test "x$part" = "xmidi"
     then
 	merge="$MERGEMIDI"
-# Make sure this list of MIDI tracks agrees with list in aarinrobo/java/VoiceMenu.java and aarinrobo/c/header.h
-	for midi in midiAarinrobo midiCue midiGg midiPeter midiKav midiSusan midiBass midiKaraoke midiKaraokeTwo midiGone midiOne midiTwo midiThree midiFour
+# Make sure this list of MIDI tracks agrees with list in aarinrobo/java/VoiceMenu.java and aarinrobo/c/header.h and aarinrobo/c/midi.c
+	for midi in midiAarinrobo midiCue midiGg midiPeter midiKav midiSusan midiBass midiKaraoke midiKaraokeTwo midiMuted midiOne midiTwo
 	do
 	    mkdir "../src-$midi"
 	    for a in *
@@ -75,7 +75,9 @@ do
 		../../doif.py <"$a" >"../src-$midi/$a" "$midi"
 	    done
 	    cd "../src-$midi"
-	    cat <<EOF >in.ly
+	    if grep -q "$midi" *
+	    then
+		cat <<EOF >in.ly
 \version "$LILYPOND_VERSION"
 \include "header.i"
 \include "music"
@@ -84,9 +86,10 @@ do
     \midi { }
 }
 EOF
-	    lilypond -l WARN -o out in.ly
-	    cd ../src
-	    merge="$merge ../src-$midi/out.midi"
+		lilypond -l WARN -o out in.ly
+		cd ../src
+		merge="$merge $midi ../src-$midi/out.midi"
+	    fi
 	done
 	java -cp ../java MergeMidi $merge >out.midi
         if test "$HAVE_TIMIDITY" = 0 -a "$HAVE_FFMPEG" = 0
@@ -96,7 +99,7 @@ EOF
 	    then
 		TIMIDITY_EXTRA_CFG="$TIMIDITY_EXTRA_CFG -c timidity_extra.cfg"
 	    fi
-	    timidity $TIMIDITY_EXTRA_CFG -OF -o out.flac -A400 out.midi
+	    timidity $TIMIDITY_EXTRA_CFG -OF -o out.flac out.midi
 	    ffmpeg </dev/null -loglevel 16 -i out.flac out.mp3
 	    cp out.midi "../bin/$name.midi"
 	    if test -d /share/music

@@ -89,13 +89,9 @@ midimusic = <<
     } \drumsPart
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"distorted guitar" % 30
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.3
     } \leadguitarPart
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"distorted guitar" % 30
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.3
     } \rhythmguitarPart
     \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)" % 33

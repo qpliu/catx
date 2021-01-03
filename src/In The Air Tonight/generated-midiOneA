@@ -1,0 +1,141 @@
+midiOneA = {
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    <d, d>4 <d, d> <d, d> <d, d> |
+    <d, d>4 <d, d> <d, d> <d, d> |
+    <d, d>4 <d, d> <d, d> <d, d> |
+    <d, d>4 <d, d> <d, d> <d, d> |
+    r16 <d d' f' a'>2.~ <d d' f' a'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <bes, bes d' f'>2.~ <bes, bes d' f'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <d d' f' a'>2.~ <d d' f' a'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <bes, bes d' f'>2.~ <bes, bes d' f'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+\mymark "Chorus 1" #21
+    r16 <d d' f' a'>2.~ <d d' f' a'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <bes, bes d' f'>2.~ <bes, bes d' f'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <d d' f' a'>2.~ <d d' f' a'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <bes, bes d' f'>2.~ <bes, bes d' f'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <d d' f' a'>2.~ <d d' f' a'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <bes, bes d' f'>2.~ <bes, bes d' f'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+\mymark "Interlude" #33
+    r16 <d d' f' a'>2.~ <d d' f' a'>8.~ |
+    <d d' f' a'>1~ |
+    <d d' f' a'>1~ |
+    <d d' f' a'>1~ |
+\mymark "Verse 1" #37
+    <d d' f' a'>16 <d d' f' a'>2.~ <d d' f' a'>8.~ |
+    <d d' f' a'>1 |
+    r16 <a, a c'>2.~ <a, a c'>8.~ |
+    <a, a c'>1 |
+    r16 <bes, bes d'>2.~ <bes, bes d'>8.~ |
+    <bes, bes d'>1 |
+    r16 <a, a c'>2.~ <a, a c'>8.~ |
+    <a, a c'>1 |
+\mymark "Verse 2" #45
+    r16 <d d' f' a'>2.~ <d d' f' a'>8.~ |
+    <d d' f' a'>1 |
+    r16 <a, a c'>2.~ <a, a c'>8.~ |
+    <a, a c'>1 |
+    r16 <bes, bes d'>2.~ <bes, bes d'>8.~ |
+    <bes, bes d'>1 |
+    r16 <a, a c'>2.~ <a, a c'>8.~ |
+    <a, a c'>1 |
+\mymark "Chorus 2" #53
+    r16 <d d' f' a'>2.~ <d d' f' a'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <bes, bes d' f'>2.~ <bes, bes d' f'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <d d' f' a'>2.~ <d d' f' a'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <bes, bes d' f'>2.~ <bes, bes d' f'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <d d' f' a'>2.~ <d d' f' a'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <bes, bes d' f'>2.~ <bes, bes d' f'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <d d' f' a'>2.~ <d d' f' a'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <bes, bes d' f'>2.~ <bes, bes d' f'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+\mymark "Interlude" #69
+    r16 <d d' f' a'>2.~ <d d' f' a'>8.~ |
+    <d d' f' a'>1~ |
+    <d d' f' a'>1~ |
+    <d d' f' a'>1~ |
+\mymark "Verse 3" #73
+    <d d' f' a'>16 <d d' f' a'>2.~ <d d' f' a'>8.~ |
+    <d d' f' a'>1 |
+    r16 <a, a c'>2.~ <a, a c'>8.~ |
+    <a, a c'>1 |
+    r16 <bes, bes d'>2.~ <bes, bes d'>8.~ |
+    <bes, bes d'>1 |
+    r16 <a, a c'>2.~ <a, a c'>8.~ |
+    <a, a c'>1 |
+\mymark "Verse 4" #81
+    r16 <d d' f' a'>2.~ <d d' f' a'>8.~ |
+    <d d' f' a'>1 |
+    r16 <a, a c'>2.~ <a, a c'>8.~ |
+    <a, a c'>1 |
+    r16 <bes, bes d'>2.~ <bes, bes d'>8.~ |
+    <bes, bes d'>1 |
+    r16 <a, a c'>2.~ <a, a c'>8.~ |
+    <a, a c'>1 |
+\mymark "Chorus 3" #89
+    r16 <d d' f' a'>2.~ <d d' f' a'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <bes, bes d' f'>2.~ <bes, bes d' f'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <d d' f' a'>2.~ <d d' f' a'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <bes, bes d' f'>2.~ <bes, bes d' f'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <d d' f' a'>2.~ <d d' f' a'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <bes, bes d' f'>2.~ <bes, bes d' f'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <d d' f' a'>2.~ <d d' f' a'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <bes, bes d' f'>2.~ <bes, bes d' f'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+\mymark "Chorus 4" #105
+    r16 <d d' f' a'>2.~ <d d' f' a'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <bes, bes d' f'>2.~ <bes, bes d' f'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <d d' f' a'>2.~ <d d' f' a'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <bes, bes d' f'>2.~ <bes, bes d' f'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <d d' f' a'>2.~ <d d' f' a'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <bes, bes d' f'>2.~ <bes, bes d' f'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <d d' f' a'>2.~ <d d' f' a'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <bes, bes d' f'>2.~ <bes, bes d' f'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+\mymark "fade out" #121
+    r16 <d d' f' a'>2.~ <d d' f' a'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <bes, bes d' f'>2.~ <bes, bes d' f'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <d d' f' a'>2.~ <d d' f' a'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+    r16 <bes, bes d' f'>2.~ <bes, bes d' f'>8. |
+    r16 <c c' e' g'>2.~ <c c' e' g'>8. |
+}

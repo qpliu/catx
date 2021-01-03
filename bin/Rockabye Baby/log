@@ -8,9 +8,6 @@ Best key: fis minor or a major
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 karaoke:3:10: warning: barcheck failed at: 1/16
     @2 @ 
          |
@@ -129,20 +126,19 @@ karaoke:51:9: warning: barcheck failed at: 21/32
     @@1 
         |
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 14  Divisions: 384
+Format: 1  Tracks: 5  Divisions: 384
+Sequence: midiGg
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
+Track name: midiKaraoke
 @@@@@@@@>Timetotakeanapnowtimetogotosleep>Offtobedforyounownotanotherpeep@@@@@@@@>Rockabyebabyrockrockrock>Rockabyebabyrockrockrock>Rockabyebabyrockrockrock@@@@>Singyourbedtimesongnowsingitforthecrowd>Singthelullabynowsingitreallyloud@@@@@@@@>Rockabyebabyrockrockrock>Rockabyebabyrockrockrock>Rockabyebabyrockrockrock>Rockabyebabyrockrockrock>Rockabyebabyrockrockrock>Rockabyebabyrockrockrock@@@@@@Playing time: ~82 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 10391786/14285312 bytes(72.7446% compressed)
+Wrote 8389346/14285312 bytes(58.7271% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

@@ -1,0 +1,241 @@
+guitarA = {
+    r2 |
+\mymark "Intro" #2
+    \tuplet 3/2 { gis'16\3 g'\3 f'\3 dis'\4 d'\4 c'\4 b\5 c'\4 d'8\4 dis'16\4 f'\3 g'\3 f'\3 dis'\4 d'\4 c'\4 ais\5 gis\5 ais\5 c'\4 c'\4 d'\4 dis'\4 } |
+    \tuplet 3/2 { f'16\3 dis'\4 d'\4 c'\4 b\5 c'\4 c'\4( d'\4 dis'\4) f'\3( g'\3 gis'\3) } g'2\3 |
+    r1 |
+    a16\3 dis'\2 a'8\1 ais16\3 e'\2 ais'8\1 b16\3 f'\2 b'8\1 c'16\3 fis'\2 c''8\1 |
+    cis'16\3 g'\2 cis''8\1 d'16\3 gis'\2 d''8\1 dis'16\3 a'\2 dis''8\1 e'16\3 ais'\2 e''8\1 |
+    f'16\3 b'\2 f''8\1 fis'16\3 c''\2 fis''8\1 g''2\1 |
+\mymark "Verse 1A" #8
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1B" #16
+    r2 c'\3\glissando |
+    ais'4.\1 a'\1 gis'4\1 |
+    g'2.\1~ g'8\1 r |
+    r1 |
+    r2 c'\3\glissando |
+    ais'4.\1 a'\1 gis'4\1 |
+    g'1\1~ |
+    g'1\1 |
+\mymark "Pre-Chorus 1" #24
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    <gis'\3 gis''\1>16( <f'\3 f''\1>) <dis'\4 dis''\2>( <cis'\4 cis''\2>) <dis'\4 dis''\2>8.\bendAfter #6 ^"full" <cis'\4 cis''\2>16 <dis'\4 dis''\2>( <cis'\4 cis''\2>) <ais\5 ais'\3>( <gis\5 gis'\3>) <ais\5 ais'\3> <cis'\4 cis''\2> <ais\5 ais'\3>( <gis\5 gis'\3>) |
+    <ais\5 ais'\3>16 <cis'\4 cis''\2> <f\5 f'\3>32( <dis\5 dis'\3>) <cis\6 cis'\4>16 <f\5 f'\3> <cis\6 cis'\4> <f\5 f'\3> <gis\5 gis'\3> <gis\5 gis'\3>\bendAfter #6 ^"full" <gis\5 gis'\3> <f\5 f'\3> <dis\5 dis'\3> <cis\6 cis'\4>4 |
+    r1 |
+\mymark "Chorus 1A" #31
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 1B" #47
+    r1 |
+    r1 |
+    f''4.\2 dis''2\2~ dis''8\2~ |
+    dis''1\2 |
+    r1 |
+    r1 |
+    r1 |
+    r8 ais''4.\1\bendAfter #6 ^"full" ais''4\1\bendAfter #6 ^"full" ais''\1\bendAfter #6 ^"full" |
+    gis''1\1 |
+    r8 c'''4.\1\bendAfter #6 ^"full" c'''4\1\bendAfter #6 ^"full" c'''\1\bendAfter #6 ^"full" |
+    b''4.\1 gis''8\1 gis''\1\glissando g''\1 f''\1 dis''\2~ |
+    dis''1\2 |
+    r1 |
+    r1 |
+    r8 gis''\1 g''\1 f''32\1( g''\1 f''16\1) dis''8\2 f''\1 dis''\2 d''\2 |
+    ais'2\3 b'4.\3 c''8\3~ |
+    c''4.\3 r2 r8 |
+\mymark "Interlude" #64
+    <g'\3 c''\2>16( <gis'\3 cis''\2> <g'\3 c''\2> <gis'\3 cis''\2> \tuplet 3/2 { <g'\3 c''\2>16 <gis'\3 cis''\2> <g'\3 c''\2> } <gis'\3 cis''\2>16 <g'\3 c''\2>) r2 |
+    r1 |
+    r1 |
+    r1 |
+    r2. g4\4 |
+    gis4\4 dis'\3 f'\2 d'\3 |
+    ais4\4 d'\3 gis'2\2 |
+    \tuplet 3/2 { fis8\4 b\4 c'\3 f'\3 gis'16\2 } b'8\2 \tuplet 3/2 { f'8\3 gis'\2 b'\2 } d''16\2 f''\1 gis''8\1 |
+    b''16\1\glissando c'''\1 b''8\1( c'''16\1 b''8.\1) b''2\1\bendAfter #6 ^"¼" |
+\mymark "Verse 2A" #73
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2B" #81
+    r2 c'\3\glissando |
+    ais'4.\1 a'\1 gis'4\1 |
+    g'2.\1~ g'8\1 r |
+    r1 |
+    r2 c'\3\glissando |
+    ais'4.\1 a'\1 gis'4\1 |
+    g'1\1~ |
+    g'1\1 |
+\mymark "Pre-Chorus 2" #89
+    c'4\3~ c'16\3\glissando ais\3( c'\3 ais\3) gis8\4 g\4 |
+    f4\4 g\4 gis\4 |
+    ais4\4~ ais16\4\glissando gis\4( ais\4 gis\4) g8\4 f\5 |
+    dis4\5 f\5 g\4 |
+    <gis'\3 gis''\1>16( <f'\3 f''\1>) <dis'\4 dis''\2>( <cis'\4 cis''\2>) <dis'\4 dis''\2>8.\bendAfter #6 ^"full" <cis'\4 cis''\2>16 <dis'\4 dis''\2>( <cis'\4 cis''\2>) <ais\5 ais'\3>( <gis\5 gis'\3>) <ais\5 ais'\3> <cis'\4 cis''\2> <ais\5 ais'\3>( <gis\5 gis'\3>) |
+    <f\5 f'\3>32( <dis\5 dis'\3>) <cis\6 cis'\4>8 <f\5 f'\3>16 <cis\6 cis'\4> <f\5 f'\3> <gis\5 gis'\3>8. <f\5 f'\3>16 <dis\5 dis'\3> <cis\6 cis'\4> <cis\6 cis'\4>4 |
+    r1 |
+\mymark "Chorus 2A" #96
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 2B" #112
+    r1 |
+    r1 |
+    gis''4.\1 ais''2\1~ ais''8\1~ |
+    ais''1\1 |
+    g''1\1 |
+    e''2\1 e''4\1\bendAfter #6 ^"½" d''8\1 e''\1 |
+    f''1\1 |
+    r8 ais''4.\1\bendAfter #6 ^"full" ais''4\1\bendAfter #6 ^"full" ais''\1\bendAfter #6 ^"full" |
+    gis''1\1 |
+    r8 c'''4.\1\bendAfter #6 ^"full" c'''4\1\bendAfter #6 ^"full" c'''\1\bendAfter #6 ^"full" |
+    b''4.\1 gis''8\1 gis''\1\glissando g''\1 f''\1 dis''\2~ |
+    dis''1\2 |
+    r1 |
+    r1 |
+    r8 gis''\1 g''\1 f''32\1( g''\1 f''16\1) dis''8\2 f''\1 dis''\2 d''\2 |
+    ais'2\3 b'4.\3 c''8\3~ |
+    c''4\3 r8 ais'\2 b'\2 r c''4\2~\bendAfter #6 ^"full" |
+    c''1\2\bendAfter #6 ^"full" |
+\mymark "Bridge" #130
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Guitar Solo" #140
+    r1 |
+    r1 |
+    r1 |
+    r4. dis'\3 gis8\4 g\4 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2. r8 g'\2 |
+    gis'8\2 e'\2 f'\2 cis'2\3 cis'8\3 |
+    d'8\3 cis'\3 d'\3 d'2\3 r8 |
+    r1 |
+    \tuplet 3/2 { a'8\2 gis'\2 g'\2 fis'\2 gis'\2 a'\2 ais'\2 g'\2 e'\3 cis'\4 e'\3 g'\2 } |
+\mymark "Post Solo/Pre-Chorus 3" #156
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 3A" #166
+    r1 |
+    r1 |
+    r4. dis'\3 gis8\4 g\4 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 3B" #182
+    r1 |
+    r1 |
+    r1 |
+    r4. dis'\3 gis8\4 g\4 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r4. ais'8\2 b'\2 r c''4\2~\bendAfter #6 ^"full" |
+    c''1\2~\bendAfter #6 ^"full" |
+\mymark "Ending" #200
+    c''8\2\bendAfter #6 ^"full" r2. r8 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

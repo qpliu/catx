@@ -1,25 +1,13 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=9223372036854775807
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 14  Divisions: 384
+Format: 1  Tracks: 1  Divisions: 384
+Sequence: midiGg
 No pre-resampling cache hit
 Playing time: ~99 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 10847409/17130904 bytes(63.3207% compressed)
+Wrote 8375831/17130904 bytes(48.8931% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
      43 measure=all

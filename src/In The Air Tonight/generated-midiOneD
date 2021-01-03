@@ -1,0 +1,141 @@
+midiOneD = {
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 1" #21
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Interlude" #33
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #37
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #45
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 2" #53
+    r1 |
+    r1 |
+    r8 \parenthesize g( \parenthesize f) \parenthesize g( \parenthesize f) r4. |
+    r4 \parenthesize g8( \parenthesize a) \parenthesize g( \parenthesize a) \parenthesize g( \parenthesize a) |
+    r1 |
+    r4 \parenthesize d'8( \parenthesize c') r2 |
+    r8 \parenthesize g( \parenthesize f) \parenthesize g( \parenthesize f) \parenthesize g( \parenthesize f) r |
+    r4 \parenthesize g8( \parenthesize a) \parenthesize g( \parenthesize a) r4 |
+    r1 |
+    r1 |
+    r8 \parenthesize g( \parenthesize f) \parenthesize g( \parenthesize f) r4. |
+    r4 \parenthesize g8( \parenthesize a) \parenthesize g( \parenthesize a) \parenthesize g( \parenthesize a) |
+    r1 |
+    r4 \parenthesize d'8( \parenthesize c') r2 |
+    r8 \parenthesize g( \parenthesize f) \parenthesize g( \parenthesize f) \parenthesize g( \parenthesize f) r |
+    r4 \parenthesize g8( \parenthesize a) \parenthesize g( \parenthesize a) r4 |
+\mymark "Interlude" #69
+    r1 |
+    r1 |
+    r1 |
+    d'1 |
+\mymark "Verse 3" #73
+    d'16 r d' r2. r16 |
+    r2. \parenthesize d'8( \parenthesize c') |
+    \parenthesize d'8( \parenthesize c') \parenthesize d'( \parenthesize c') \parenthesize d'( \parenthesize c') r4 |
+    r1 |
+    r1 |
+    r1 |
+    r2 \parenthesize a8 r \parenthesize a r |
+    \parenthesize a8 r \parenthesize a r \parenthesize a r \parenthesize a r |
+\mymark "Verse 4" #81
+    r1 |
+    r1 |
+    \parenthesize a8 r \parenthesize a r \parenthesize a r4. |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 3" #89
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r8 a c'16 r4 r16 a8 c'16 r8. |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r8 a c'16 r4 r16 a8 c'16 r8. |
+\mymark "Chorus 4" #105
+    r1 |
+    r1 |
+    r1 |
+    r8 a c'16 r4 r16 a8 c'16 r8. |
+    r1 |
+    r1 |
+    r1 |
+    r8 a c'16 r4 r16 a8 c'16 r8. |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "fade out" #121
+    r1 |
+    r1 |
+    r1 |
+    r8 a c'16 r4 r16 a8 c'16 r8. |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

@@ -9,23 +9,19 @@ Best key: c major or a minor
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147484992
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 14  Divisions: 384
+Format: 1  Tracks: 5  Divisions: 384
+Sequence: midiGg
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
+Track name: midiKaraoke
 >@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Some|!bg=-onetoldmelonga-go.-->There'sacalmbe-forethestorm.|!bg=img=../storm.svg-|!bg=Iknow.->It'sbeencom-in'forsometime.--->Whenit'so-ver,sotheysay.-->It'-llrain|!bg=img=../umbrella.svgasun|!bg=img=../sun.svg-nyday,|!bg=-Iknow,->shin-in'downlikewat-er.---->Iwanttoknow,-haveyouev-erseentherain?|!bg=img=../umbrella.svg-|!bg=>Iwanttoknow,-haveyouev-erseentherain|!bg=img=../umbrella.svg-|!bg=>com-in'downonasun|!bg=img=../sun.svg-nyday?|!bg=--->Yes-ter-day,anddaysbe-fore,-->sun|!bg=img=../sun.svgiscoldandrain|!bg=img=../umbrella.svgis|!bg=hard.-Iknow,->beenthatwayforallmytime.--->'Tillfor-ev-er,onitgoes.-->Throughthecir-cle,fastandslow,-Iknow,->Itcan'tstop.Iwon-der.---->Iwanttoknow,-haveyouev-erseentherain?|!bg=img=../umbrella.svg-|!bg=>Iwanttoknow,-haveyouev-erseentherain|!bg=img=../umbrella.svg-|!bg=>com-in'downonasun|!bg=img=../sun.svg-nyday?|!bg=||||Yeah!|!bg=img=../yeah.png-|!bg=->Iwanttoknow,-haveyouev-erseentherain?|!bg=img=../umbrella.svg-|!bg=>Iwanttoknow,-haveyouev-erseentherain|!bg=img=../umbrella.svg-|!bg=>com-in'downonasun|!bg=img=../sun.svg-nyday?|!bg=-@@Playing time: ~160 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 20431430/28020508 bytes(72.916% compressed)
+Wrote 16510511/28020508 bytes(58.923% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

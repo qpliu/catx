@@ -85,7 +85,7 @@ midimusic = <<
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
     \markupStuff
-    \tag #'(midiFour) \new DrumStaff \with {
+    \tag #'(midiOne) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsTwoPart
     \tag #'(midiSusan) \new Staff \with {
@@ -97,10 +97,10 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"overdriven guitar"
     } \egPart
-    \tag #'(midiTwo) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"overdriven guitar"
     } \egTwoPart
-    \tag #'(midiThree) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \voTwoPart
 >>

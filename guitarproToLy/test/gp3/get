@@ -12,16 +12,22 @@ track 0 \
     output-karaoke \
 track 2 \
     preset susan \
+    output-lilypond \
 track 0 \
     preset peter \
+    output-lilypond \
     output-dotext \
 track 4 \
     preset midiOne \
+    output-lilypond \
 track 5 \
-    preset midiTwo \
+    preset midiOne \
+    output-lilypond \
 track 6 \
     preset bass \
+    output-lilypond \
     output-dotext \
 track 7 \
     preset gg \
+    output-drums \
 2>&1|tee log

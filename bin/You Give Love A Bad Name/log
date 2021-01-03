@@ -9,23 +9,19 @@ Best key: c minor or ees major
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 14  Divisions: 384
-Playing time: ~217 seconds
+Format: 1  Tracks: 5  Divisions: 384
+Sequence: midiGg
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
+Track name: midiOne
+Playing time: ~216 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 25283883/38000168 bytes(66.5362% compressed)
+Wrote 20011495/37911968 bytes(52.7841% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 0.2 staff-spaces
 warning: page 0 has been compressed

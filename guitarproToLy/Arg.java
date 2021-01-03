@@ -7,6 +7,7 @@ final class Arg implements Cloneable{
     String midi_who;
     String drumMap;
     String[]scale={"c","cis","d","dis","e","f","fis","g","gis","a","ais","b"};
+    boolean generate_lyrics;
     boolean layout_tabs;
     boolean output_chords;
     boolean output_dotext;
@@ -19,6 +20,7 @@ final class Arg implements Cloneable{
     String instrument_name;
     String instrument_short_name;
     String which_lyrics="";
+    String transpose="";
     List<String>layout_extra=new ArrayList<String>();
     List<String>music_extra=new ArrayList<String>();
     List<String>markup_extra=new ArrayList<String>();
@@ -50,7 +52,6 @@ final class Arg implements Cloneable{
 	    midi_who = "midiGg";
 	    instrument_name = "Drums";
 	    instrument_short_name = "Drs";
-	    output_drums = true;
 	}else if (preset.equals("kav")){
 	    name = "vocals";
 	    layout_who = "allPart kavPart";
@@ -66,11 +67,9 @@ final class Arg implements Cloneable{
 	    instrument_short_name = "Sp";
 	    music_extra.add("\\myVocalsStuff");
 	    setScale("gis fis cis");
-	    output_lilypond = true;
-	}else if (preset.equals("midiOne") || preset.equals("midiTwo") || preset.equals("midiThree") || preset.equals("midiFour")){
+	}else if (preset.equals("midiMuted") || preset.equals("midiOne") || preset.equals("midiTwo")){
 	    name = preset;
 	    midi_who = preset;
-	    output_lilypond = true;
 	}else if (preset.equals("bass")){
 	    name = "bass";
 	    layout_who = "allPart bassPart";
@@ -80,7 +79,6 @@ final class Arg implements Cloneable{
 	    instrument_name = "Bass";
 	    instrument_short_name  = "Ba";
 	    string_numbers  = true;
-	    output_lilypond = true;
 	}else if (preset.equals("peter")){
 	    name = "guitar";
 	    layout_who = "allPart peterPart";
@@ -90,7 +88,6 @@ final class Arg implements Cloneable{
 	    instrument_name = "Guitar";
 	    instrument_short_name  = "Gtr";
 	    string_numbers  = true;
-	    output_lilypond = true;
 	}else
 	    throw new RuntimeException();
     }

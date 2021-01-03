@@ -218,6 +218,7 @@ measure 1 track 0 voice 1 beat 1 bits=0x40
 measure 1 track 0 voice 1 beat 2 bits=0x40
 measure 1 track 0 voice 1 beat 3 bits=0x40
 measure 1 track 1 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 1 track 1 voice 0 beat 1 bits=0x08
 measure 1 track 1 voice 0 beat 2 bits=0x08
 measure 1 track 1 voice 0 beat 3 bits=0x40
@@ -226,6 +227,7 @@ measure 1 track 1 voice 0 beat 5 bits=0x08
 measure 1 track 1 voice 0 beat 6 bits=0x08
 measure 1 track 1 voice 0 beat 7 bits=0x08
 measure 1 track 1 voice 0 beat 8 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 1 track 1 voice 0 beat 9 bits=0x08
 measure 1 track 1 voice 0 beat 10 bits=0x08
 measure 1 track 1 voice 0 beat 11 bits=0x08
@@ -264,6 +266,7 @@ measure 2 track 0 voice 1 beat 1 bits=0x40
 measure 2 track 0 voice 1 beat 2 bits=0x40
 measure 2 track 0 voice 1 beat 3 bits=0x40
 measure 2 track 1 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 2 track 1 voice 0 beat 1 bits=0x08
 measure 2 track 1 voice 0 beat 2 bits=0x08
 measure 2 track 1 voice 0 beat 3 bits=0x08
@@ -271,6 +274,7 @@ measure 2 track 1 voice 0 beat 4 bits=0x08
 measure 2 track 1 voice 0 beat 5 bits=0x08
 measure 2 track 1 voice 0 beat 6 bits=0x08
 measure 2 track 1 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 2 track 1 voice 0 beat 8 bits=0x08
 measure 2 track 1 voice 0 beat 9 bits=0x08
 measure 2 track 1 voice 0 beat 10 bits=0x08
@@ -310,6 +314,7 @@ measure 3 track 0 voice 1 beat 1 bits=0x40
 measure 3 track 0 voice 1 beat 2 bits=0x40
 measure 3 track 0 voice 1 beat 3 bits=0x40
 measure 3 track 1 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 3 track 1 voice 0 beat 1 bits=0x08
 measure 3 track 1 voice 0 beat 2 bits=0x08
 measure 3 track 1 voice 0 beat 3 bits=0x40
@@ -318,6 +323,7 @@ measure 3 track 1 voice 0 beat 5 bits=0x08
 measure 3 track 1 voice 0 beat 6 bits=0x08
 measure 3 track 1 voice 0 beat 7 bits=0x08
 measure 3 track 1 voice 0 beat 8 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 3 track 1 voice 0 beat 9 bits=0x08
 measure 3 track 1 voice 0 beat 10 bits=0x08
 measure 3 track 1 voice 0 beat 11 bits=0x08
@@ -356,6 +362,7 @@ measure 4 track 0 voice 1 beat 1 bits=0x40
 measure 4 track 0 voice 1 beat 2 bits=0x40
 measure 4 track 0 voice 1 beat 3 bits=0x40
 measure 4 track 1 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 4 track 1 voice 0 beat 1 bits=0x08
 measure 4 track 1 voice 0 beat 2 bits=0x08
 measure 4 track 1 voice 0 beat 3 bits=0x08
@@ -429,6 +436,7 @@ measure 5 track 1 voice 1 beat 1 bits=0x40
 measure 5 track 1 voice 1 beat 2 bits=0x40
 measure 5 track 1 voice 1 beat 3 bits=0x40
 measure 5 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 5 track 2 voice 0 beat 1 bits=0x08
 measure 5 track 2 voice 0 beat 2 bits=0x08
 measure 5 track 2 voice 0 beat 3 bits=0x08
@@ -436,6 +444,7 @@ measure 5 track 2 voice 0 beat 4 bits=0x08
 measure 5 track 2 voice 0 beat 5 bits=0x08
 measure 5 track 2 voice 0 beat 6 bits=0x08
 measure 5 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 5 track 2 voice 0 beat 8 bits=0x08
 measure 5 track 2 voice 0 beat 9 bits=0x08
 measure 5 track 2 voice 1 beat 0 bits=0x40
@@ -490,6 +499,7 @@ measure 6 track 1 voice 1 beat 1 bits=0x40
 measure 6 track 1 voice 1 beat 2 bits=0x40
 measure 6 track 1 voice 1 beat 3 bits=0x40
 measure 6 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 6 track 2 voice 0 beat 1 bits=0x08
 measure 6 track 2 voice 0 beat 2 bits=0x08
 measure 6 track 2 voice 0 beat 3 bits=0x08
@@ -497,6 +507,7 @@ measure 6 track 2 voice 0 beat 4 bits=0x08
 measure 6 track 2 voice 0 beat 5 bits=0x08
 measure 6 track 2 voice 0 beat 6 bits=0x08
 measure 6 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 6 track 2 voice 0 beat 8 bits=0x08
 measure 6 track 2 voice 0 beat 9 bits=0x08
 measure 6 track 2 voice 1 beat 0 bits=0x40
@@ -550,6 +561,7 @@ measure 7 track 1 voice 1 beat 1 bits=0x40
 measure 7 track 1 voice 1 beat 2 bits=0x40
 measure 7 track 1 voice 1 beat 3 bits=0x40
 measure 7 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 7 track 2 voice 0 beat 1 bits=0x08
 measure 7 track 2 voice 0 beat 2 bits=0x08
 measure 7 track 2 voice 0 beat 3 bits=0x08
@@ -557,6 +569,7 @@ measure 7 track 2 voice 0 beat 4 bits=0x08
 measure 7 track 2 voice 0 beat 5 bits=0x08
 measure 7 track 2 voice 0 beat 6 bits=0x08
 measure 7 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 7 track 2 voice 0 beat 8 bits=0x08
 measure 7 track 2 voice 0 beat 9 bits=0x08
 measure 7 track 2 voice 0 beat 10 bits=0x08
@@ -1772,6 +1785,7 @@ measure 28 track 1 voice 1 beat 1 bits=0x40
 measure 28 track 1 voice 1 beat 2 bits=0x40
 measure 28 track 1 voice 1 beat 3 bits=0x40
 measure 28 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 28 track 2 voice 0 beat 1 bits=0x08
 measure 28 track 2 voice 0 beat 2 bits=0x08
 measure 28 track 2 voice 0 beat 3 bits=0x08
@@ -1779,6 +1793,7 @@ measure 28 track 2 voice 0 beat 4 bits=0x08
 measure 28 track 2 voice 0 beat 5 bits=0x08
 measure 28 track 2 voice 0 beat 6 bits=0x08
 measure 28 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 28 track 2 voice 0 beat 8 bits=0x08
 measure 28 track 2 voice 0 beat 9 bits=0x08
 measure 28 track 2 voice 1 beat 0 bits=0x40
@@ -1844,6 +1859,7 @@ measure 29 track 1 voice 1 beat 1 bits=0x40
 measure 29 track 1 voice 1 beat 2 bits=0x40
 measure 29 track 1 voice 1 beat 3 bits=0x40
 measure 29 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 29 track 2 voice 0 beat 1 bits=0x08
 measure 29 track 2 voice 0 beat 2 bits=0x08
 measure 29 track 2 voice 0 beat 3 bits=0x08
@@ -1851,6 +1867,7 @@ measure 29 track 2 voice 0 beat 4 bits=0x08
 measure 29 track 2 voice 0 beat 5 bits=0x08
 measure 29 track 2 voice 0 beat 6 bits=0x08
 measure 29 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 29 track 2 voice 0 beat 8 bits=0x08
 measure 29 track 2 voice 0 beat 9 bits=0x08
 measure 29 track 2 voice 1 beat 0 bits=0x40
@@ -1914,6 +1931,7 @@ measure 30 track 1 voice 1 beat 1 bits=0x40
 measure 30 track 1 voice 1 beat 2 bits=0x40
 measure 30 track 1 voice 1 beat 3 bits=0x40
 measure 30 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 30 track 2 voice 0 beat 1 bits=0x08
 measure 30 track 2 voice 0 beat 2 bits=0x08
 measure 30 track 2 voice 0 beat 3 bits=0x08
@@ -1921,6 +1939,7 @@ measure 30 track 2 voice 0 beat 4 bits=0x08
 measure 30 track 2 voice 0 beat 5 bits=0x08
 measure 30 track 2 voice 0 beat 6 bits=0x08
 measure 30 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 30 track 2 voice 0 beat 8 bits=0x08
 measure 30 track 2 voice 0 beat 9 bits=0x08
 measure 30 track 2 voice 1 beat 0 bits=0x40
@@ -1986,6 +2005,7 @@ measure 31 track 1 voice 1 beat 1 bits=0x40
 measure 31 track 1 voice 1 beat 2 bits=0x40
 measure 31 track 1 voice 1 beat 3 bits=0x40
 measure 31 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 31 track 2 voice 0 beat 1 bits=0x08
 measure 31 track 2 voice 0 beat 2 bits=0x08
 measure 31 track 2 voice 0 beat 3 bits=0x08
@@ -1993,6 +2013,7 @@ measure 31 track 2 voice 0 beat 4 bits=0x08
 measure 31 track 2 voice 0 beat 5 bits=0x08
 measure 31 track 2 voice 0 beat 6 bits=0x08
 measure 31 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 31 track 2 voice 0 beat 8 bits=0x08
 measure 31 track 2 voice 0 beat 9 bits=0x08
 measure 31 track 2 voice 1 beat 0 bits=0x40
@@ -2056,6 +2077,7 @@ measure 32 track 1 voice 1 beat 1 bits=0x40
 measure 32 track 1 voice 1 beat 2 bits=0x40
 measure 32 track 1 voice 1 beat 3 bits=0x40
 measure 32 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 32 track 2 voice 0 beat 1 bits=0x08
 measure 32 track 2 voice 0 beat 2 bits=0x08
 measure 32 track 2 voice 0 beat 3 bits=0x08
@@ -2063,6 +2085,7 @@ measure 32 track 2 voice 0 beat 4 bits=0x08
 measure 32 track 2 voice 0 beat 5 bits=0x08
 measure 32 track 2 voice 0 beat 6 bits=0x08
 measure 32 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 32 track 2 voice 0 beat 8 bits=0x08
 measure 32 track 2 voice 0 beat 9 bits=0x08
 measure 32 track 2 voice 1 beat 0 bits=0x40
@@ -2128,6 +2151,7 @@ measure 33 track 1 voice 1 beat 1 bits=0x40
 measure 33 track 1 voice 1 beat 2 bits=0x40
 measure 33 track 1 voice 1 beat 3 bits=0x40
 measure 33 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 33 track 2 voice 0 beat 1 bits=0x08
 measure 33 track 2 voice 0 beat 2 bits=0x08
 measure 33 track 2 voice 0 beat 3 bits=0x08
@@ -2135,6 +2159,7 @@ measure 33 track 2 voice 0 beat 4 bits=0x08
 measure 33 track 2 voice 0 beat 5 bits=0x08
 measure 33 track 2 voice 0 beat 6 bits=0x08
 measure 33 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 33 track 2 voice 0 beat 8 bits=0x08
 measure 33 track 2 voice 0 beat 9 bits=0x08
 measure 33 track 2 voice 1 beat 0 bits=0x40
@@ -2198,6 +2223,7 @@ measure 34 track 1 voice 1 beat 1 bits=0x40
 measure 34 track 1 voice 1 beat 2 bits=0x40
 measure 34 track 1 voice 1 beat 3 bits=0x40
 measure 34 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 34 track 2 voice 0 beat 1 bits=0x08
 measure 34 track 2 voice 0 beat 2 bits=0x08
 measure 34 track 2 voice 0 beat 3 bits=0x08
@@ -2205,6 +2231,7 @@ measure 34 track 2 voice 0 beat 4 bits=0x08
 measure 34 track 2 voice 0 beat 5 bits=0x08
 measure 34 track 2 voice 0 beat 6 bits=0x08
 measure 34 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 34 track 2 voice 0 beat 8 bits=0x08
 measure 34 track 2 voice 0 beat 9 bits=0x08
 measure 34 track 2 voice 1 beat 0 bits=0x40
@@ -2270,6 +2297,7 @@ measure 35 track 1 voice 1 beat 1 bits=0x40
 measure 35 track 1 voice 1 beat 2 bits=0x40
 measure 35 track 1 voice 1 beat 3 bits=0x40
 measure 35 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 35 track 2 voice 0 beat 1 bits=0x08
 measure 35 track 2 voice 0 beat 2 bits=0x08
 measure 35 track 2 voice 0 beat 3 bits=0x08
@@ -2277,6 +2305,7 @@ measure 35 track 2 voice 0 beat 4 bits=0x08
 measure 35 track 2 voice 0 beat 5 bits=0x08
 measure 35 track 2 voice 0 beat 6 bits=0x08
 measure 35 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 35 track 2 voice 0 beat 8 bits=0x08
 measure 35 track 2 voice 0 beat 9 bits=0x08
 measure 35 track 2 voice 1 beat 0 bits=0x40
@@ -2340,6 +2369,7 @@ measure 36 track 1 voice 1 beat 1 bits=0x40
 measure 36 track 1 voice 1 beat 2 bits=0x40
 measure 36 track 1 voice 1 beat 3 bits=0x40
 measure 36 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 36 track 2 voice 0 beat 1 bits=0x08
 measure 36 track 2 voice 0 beat 2 bits=0x08
 measure 36 track 2 voice 0 beat 3 bits=0x08
@@ -2347,6 +2377,7 @@ measure 36 track 2 voice 0 beat 4 bits=0x08
 measure 36 track 2 voice 0 beat 5 bits=0x08
 measure 36 track 2 voice 0 beat 6 bits=0x08
 measure 36 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 36 track 2 voice 0 beat 8 bits=0x08
 measure 36 track 2 voice 0 beat 9 bits=0x08
 measure 36 track 2 voice 1 beat 0 bits=0x40
@@ -2412,6 +2443,7 @@ measure 37 track 1 voice 1 beat 1 bits=0x40
 measure 37 track 1 voice 1 beat 2 bits=0x40
 measure 37 track 1 voice 1 beat 3 bits=0x40
 measure 37 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 37 track 2 voice 0 beat 1 bits=0x08
 measure 37 track 2 voice 0 beat 2 bits=0x08
 measure 37 track 2 voice 0 beat 3 bits=0x08
@@ -2419,6 +2451,7 @@ measure 37 track 2 voice 0 beat 4 bits=0x08
 measure 37 track 2 voice 0 beat 5 bits=0x08
 measure 37 track 2 voice 0 beat 6 bits=0x08
 measure 37 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 37 track 2 voice 0 beat 8 bits=0x08
 measure 37 track 2 voice 0 beat 9 bits=0x08
 measure 37 track 2 voice 1 beat 0 bits=0x40
@@ -2482,6 +2515,7 @@ measure 38 track 1 voice 1 beat 1 bits=0x40
 measure 38 track 1 voice 1 beat 2 bits=0x40
 measure 38 track 1 voice 1 beat 3 bits=0x40
 measure 38 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 38 track 2 voice 0 beat 1 bits=0x08
 measure 38 track 2 voice 0 beat 2 bits=0x08
 measure 38 track 2 voice 0 beat 3 bits=0x08
@@ -2489,6 +2523,7 @@ measure 38 track 2 voice 0 beat 4 bits=0x08
 measure 38 track 2 voice 0 beat 5 bits=0x08
 measure 38 track 2 voice 0 beat 6 bits=0x08
 measure 38 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 38 track 2 voice 0 beat 8 bits=0x08
 measure 38 track 2 voice 0 beat 9 bits=0x08
 measure 38 track 2 voice 1 beat 0 bits=0x40
@@ -2552,6 +2587,7 @@ measure 39 track 1 voice 1 beat 1 bits=0x40
 measure 39 track 1 voice 1 beat 2 bits=0x40
 measure 39 track 1 voice 1 beat 3 bits=0x40
 measure 39 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 39 track 2 voice 0 beat 1 bits=0x08
 measure 39 track 2 voice 0 beat 2 bits=0x08
 measure 39 track 2 voice 0 beat 3 bits=0x08
@@ -2559,6 +2595,7 @@ measure 39 track 2 voice 0 beat 4 bits=0x08
 measure 39 track 2 voice 0 beat 5 bits=0x08
 measure 39 track 2 voice 0 beat 6 bits=0x08
 measure 39 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 39 track 2 voice 0 beat 8 bits=0x08
 measure 39 track 2 voice 0 beat 9 bits=0x08
 measure 39 track 2 voice 1 beat 0 bits=0x40
@@ -2618,9 +2655,13 @@ measure 40 track 1 voice 1 beat 1 bits=0x40
 measure 40 track 1 voice 1 beat 2 bits=0x40
 measure 40 track 1 voice 1 beat 3 bits=0x40
 measure 40 track 2 voice 0 beat 0 bits=0x02
+Got chord F5 <f, c f>
 measure 40 track 2 voice 0 beat 1 bits=0x02
+Got chord E5 <e, b, e>
 measure 40 track 2 voice 0 beat 2 bits=0x02
+Got chord F5 <f, c f>
 measure 40 track 2 voice 0 beat 3 bits=0x02
+Got chord Gb5 <fis, cis fis>
 measure 40 track 2 voice 0 beat 4 bits=0x00
 measure 40 track 2 voice 0 beat 5 bits=0x00
 measure 40 track 2 voice 1 beat 0 bits=0x40
@@ -2675,11 +2716,16 @@ measure 41 track 1 voice 1 beat 1 bits=0x40
 measure 41 track 1 voice 1 beat 2 bits=0x40
 measure 41 track 1 voice 1 beat 3 bits=0x40
 measure 41 track 2 voice 0 beat 0 bits=0x02
+Got chord F5 <f, c f>
 measure 41 track 2 voice 0 beat 1 bits=0x02
+Got chord E5 <e, b, e>
 measure 41 track 2 voice 0 beat 2 bits=0x02
+Got chord F5 <f, c f>
 measure 41 track 2 voice 0 beat 3 bits=0x02
+Got chord Bb5 <ais, f ais>
 measure 41 track 2 voice 0 beat 4 bits=0x00
 measure 41 track 2 voice 0 beat 5 bits=0x02
+Got chord Ab5 <gis, dis gis>
 measure 41 track 2 voice 0 beat 6 bits=0x00
 measure 41 track 2 voice 1 beat 0 bits=0x40
 measure 41 track 2 voice 1 beat 1 bits=0x40
@@ -2741,9 +2787,13 @@ measure 42 track 1 voice 1 beat 1 bits=0x40
 measure 42 track 1 voice 1 beat 2 bits=0x40
 measure 42 track 1 voice 1 beat 3 bits=0x40
 measure 42 track 2 voice 0 beat 0 bits=0x02
+Got chord F5 <f, c f>
 measure 42 track 2 voice 0 beat 1 bits=0x02
+Got chord E5 <e, b, e>
 measure 42 track 2 voice 0 beat 2 bits=0x02
+Got chord F5 <f, c f>
 measure 42 track 2 voice 0 beat 3 bits=0x02
+Got chord Gb5 <fis, cis fis>
 measure 42 track 2 voice 0 beat 4 bits=0x00
 measure 42 track 2 voice 0 beat 5 bits=0x00
 measure 42 track 2 voice 1 beat 0 bits=0x40
@@ -2798,11 +2848,16 @@ measure 43 track 1 voice 1 beat 1 bits=0x40
 measure 43 track 1 voice 1 beat 2 bits=0x40
 measure 43 track 1 voice 1 beat 3 bits=0x40
 measure 43 track 2 voice 0 beat 0 bits=0x02
+Got chord F5 <f, c f>
 measure 43 track 2 voice 0 beat 1 bits=0x02
+Got chord E5 <e, b, e>
 measure 43 track 2 voice 0 beat 2 bits=0x02
+Got chord F5 <f, c f>
 measure 43 track 2 voice 0 beat 3 bits=0x02
+Got chord Bb5 <ais, f ais>
 measure 43 track 2 voice 0 beat 4 bits=0x00
 measure 43 track 2 voice 0 beat 5 bits=0x02
+Got chord Ab5 <gis, dis gis>
 measure 43 track 2 voice 0 beat 6 bits=0x00
 measure 43 track 2 voice 1 beat 0 bits=0x40
 measure 43 track 2 voice 1 beat 1 bits=0x40
@@ -4015,6 +4070,7 @@ measure 64 track 1 voice 1 beat 1 bits=0x40
 measure 64 track 1 voice 1 beat 2 bits=0x40
 measure 64 track 1 voice 1 beat 3 bits=0x40
 measure 64 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 64 track 2 voice 0 beat 1 bits=0x08
 measure 64 track 2 voice 0 beat 2 bits=0x08
 measure 64 track 2 voice 0 beat 3 bits=0x08
@@ -4022,6 +4078,7 @@ measure 64 track 2 voice 0 beat 4 bits=0x08
 measure 64 track 2 voice 0 beat 5 bits=0x08
 measure 64 track 2 voice 0 beat 6 bits=0x08
 measure 64 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 64 track 2 voice 0 beat 8 bits=0x08
 measure 64 track 2 voice 0 beat 9 bits=0x08
 measure 64 track 2 voice 1 beat 0 bits=0x40
@@ -4087,6 +4144,7 @@ measure 65 track 1 voice 1 beat 1 bits=0x40
 measure 65 track 1 voice 1 beat 2 bits=0x40
 measure 65 track 1 voice 1 beat 3 bits=0x40
 measure 65 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 65 track 2 voice 0 beat 1 bits=0x08
 measure 65 track 2 voice 0 beat 2 bits=0x08
 measure 65 track 2 voice 0 beat 3 bits=0x08
@@ -4094,6 +4152,7 @@ measure 65 track 2 voice 0 beat 4 bits=0x08
 measure 65 track 2 voice 0 beat 5 bits=0x08
 measure 65 track 2 voice 0 beat 6 bits=0x08
 measure 65 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 65 track 2 voice 0 beat 8 bits=0x08
 measure 65 track 2 voice 0 beat 9 bits=0x08
 measure 65 track 2 voice 1 beat 0 bits=0x40
@@ -4157,6 +4216,7 @@ measure 66 track 1 voice 1 beat 1 bits=0x40
 measure 66 track 1 voice 1 beat 2 bits=0x40
 measure 66 track 1 voice 1 beat 3 bits=0x40
 measure 66 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 66 track 2 voice 0 beat 1 bits=0x08
 measure 66 track 2 voice 0 beat 2 bits=0x08
 measure 66 track 2 voice 0 beat 3 bits=0x08
@@ -4164,6 +4224,7 @@ measure 66 track 2 voice 0 beat 4 bits=0x08
 measure 66 track 2 voice 0 beat 5 bits=0x08
 measure 66 track 2 voice 0 beat 6 bits=0x08
 measure 66 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 66 track 2 voice 0 beat 8 bits=0x08
 measure 66 track 2 voice 0 beat 9 bits=0x08
 measure 66 track 2 voice 1 beat 0 bits=0x40
@@ -4229,6 +4290,7 @@ measure 67 track 1 voice 1 beat 1 bits=0x40
 measure 67 track 1 voice 1 beat 2 bits=0x40
 measure 67 track 1 voice 1 beat 3 bits=0x40
 measure 67 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 67 track 2 voice 0 beat 1 bits=0x08
 measure 67 track 2 voice 0 beat 2 bits=0x08
 measure 67 track 2 voice 0 beat 3 bits=0x08
@@ -4236,6 +4298,7 @@ measure 67 track 2 voice 0 beat 4 bits=0x08
 measure 67 track 2 voice 0 beat 5 bits=0x08
 measure 67 track 2 voice 0 beat 6 bits=0x08
 measure 67 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 67 track 2 voice 0 beat 8 bits=0x08
 measure 67 track 2 voice 0 beat 9 bits=0x08
 measure 67 track 2 voice 1 beat 0 bits=0x40
@@ -4299,6 +4362,7 @@ measure 68 track 1 voice 1 beat 1 bits=0x40
 measure 68 track 1 voice 1 beat 2 bits=0x40
 measure 68 track 1 voice 1 beat 3 bits=0x40
 measure 68 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 68 track 2 voice 0 beat 1 bits=0x08
 measure 68 track 2 voice 0 beat 2 bits=0x08
 measure 68 track 2 voice 0 beat 3 bits=0x08
@@ -4306,6 +4370,7 @@ measure 68 track 2 voice 0 beat 4 bits=0x08
 measure 68 track 2 voice 0 beat 5 bits=0x08
 measure 68 track 2 voice 0 beat 6 bits=0x08
 measure 68 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 68 track 2 voice 0 beat 8 bits=0x08
 measure 68 track 2 voice 0 beat 9 bits=0x08
 measure 68 track 2 voice 1 beat 0 bits=0x40
@@ -4371,6 +4436,7 @@ measure 69 track 1 voice 1 beat 1 bits=0x40
 measure 69 track 1 voice 1 beat 2 bits=0x40
 measure 69 track 1 voice 1 beat 3 bits=0x40
 measure 69 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 69 track 2 voice 0 beat 1 bits=0x08
 measure 69 track 2 voice 0 beat 2 bits=0x08
 measure 69 track 2 voice 0 beat 3 bits=0x08
@@ -4378,6 +4444,7 @@ measure 69 track 2 voice 0 beat 4 bits=0x08
 measure 69 track 2 voice 0 beat 5 bits=0x08
 measure 69 track 2 voice 0 beat 6 bits=0x08
 measure 69 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 69 track 2 voice 0 beat 8 bits=0x08
 measure 69 track 2 voice 0 beat 9 bits=0x08
 measure 69 track 2 voice 1 beat 0 bits=0x40
@@ -4441,6 +4508,7 @@ measure 70 track 1 voice 1 beat 1 bits=0x40
 measure 70 track 1 voice 1 beat 2 bits=0x40
 measure 70 track 1 voice 1 beat 3 bits=0x40
 measure 70 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 70 track 2 voice 0 beat 1 bits=0x08
 measure 70 track 2 voice 0 beat 2 bits=0x08
 measure 70 track 2 voice 0 beat 3 bits=0x08
@@ -4448,6 +4516,7 @@ measure 70 track 2 voice 0 beat 4 bits=0x08
 measure 70 track 2 voice 0 beat 5 bits=0x08
 measure 70 track 2 voice 0 beat 6 bits=0x08
 measure 70 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 70 track 2 voice 0 beat 8 bits=0x08
 measure 70 track 2 voice 0 beat 9 bits=0x08
 measure 70 track 2 voice 1 beat 0 bits=0x40
@@ -4513,6 +4582,7 @@ measure 71 track 1 voice 1 beat 1 bits=0x40
 measure 71 track 1 voice 1 beat 2 bits=0x40
 measure 71 track 1 voice 1 beat 3 bits=0x40
 measure 71 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 71 track 2 voice 0 beat 1 bits=0x08
 measure 71 track 2 voice 0 beat 2 bits=0x08
 measure 71 track 2 voice 0 beat 3 bits=0x08
@@ -4520,6 +4590,7 @@ measure 71 track 2 voice 0 beat 4 bits=0x08
 measure 71 track 2 voice 0 beat 5 bits=0x08
 measure 71 track 2 voice 0 beat 6 bits=0x08
 measure 71 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 71 track 2 voice 0 beat 8 bits=0x08
 measure 71 track 2 voice 0 beat 9 bits=0x08
 measure 71 track 2 voice 1 beat 0 bits=0x40
@@ -4583,6 +4654,7 @@ measure 72 track 1 voice 1 beat 1 bits=0x40
 measure 72 track 1 voice 1 beat 2 bits=0x40
 measure 72 track 1 voice 1 beat 3 bits=0x40
 measure 72 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 72 track 2 voice 0 beat 1 bits=0x08
 measure 72 track 2 voice 0 beat 2 bits=0x08
 measure 72 track 2 voice 0 beat 3 bits=0x08
@@ -4590,6 +4662,7 @@ measure 72 track 2 voice 0 beat 4 bits=0x08
 measure 72 track 2 voice 0 beat 5 bits=0x08
 measure 72 track 2 voice 0 beat 6 bits=0x08
 measure 72 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 72 track 2 voice 0 beat 8 bits=0x08
 measure 72 track 2 voice 0 beat 9 bits=0x08
 measure 72 track 2 voice 1 beat 0 bits=0x40
@@ -4655,6 +4728,7 @@ measure 73 track 1 voice 1 beat 1 bits=0x40
 measure 73 track 1 voice 1 beat 2 bits=0x40
 measure 73 track 1 voice 1 beat 3 bits=0x40
 measure 73 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 73 track 2 voice 0 beat 1 bits=0x08
 measure 73 track 2 voice 0 beat 2 bits=0x08
 measure 73 track 2 voice 0 beat 3 bits=0x08
@@ -4662,6 +4736,7 @@ measure 73 track 2 voice 0 beat 4 bits=0x08
 measure 73 track 2 voice 0 beat 5 bits=0x08
 measure 73 track 2 voice 0 beat 6 bits=0x08
 measure 73 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 73 track 2 voice 0 beat 8 bits=0x08
 measure 73 track 2 voice 0 beat 9 bits=0x08
 measure 73 track 2 voice 1 beat 0 bits=0x40
@@ -4725,6 +4800,7 @@ measure 74 track 1 voice 1 beat 1 bits=0x40
 measure 74 track 1 voice 1 beat 2 bits=0x40
 measure 74 track 1 voice 1 beat 3 bits=0x40
 measure 74 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 74 track 2 voice 0 beat 1 bits=0x08
 measure 74 track 2 voice 0 beat 2 bits=0x08
 measure 74 track 2 voice 0 beat 3 bits=0x08
@@ -4732,6 +4808,7 @@ measure 74 track 2 voice 0 beat 4 bits=0x08
 measure 74 track 2 voice 0 beat 5 bits=0x08
 measure 74 track 2 voice 0 beat 6 bits=0x08
 measure 74 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 74 track 2 voice 0 beat 8 bits=0x08
 measure 74 track 2 voice 0 beat 9 bits=0x08
 measure 74 track 2 voice 1 beat 0 bits=0x40
@@ -4795,6 +4872,7 @@ measure 75 track 1 voice 1 beat 1 bits=0x40
 measure 75 track 1 voice 1 beat 2 bits=0x40
 measure 75 track 1 voice 1 beat 3 bits=0x40
 measure 75 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 75 track 2 voice 0 beat 1 bits=0x08
 measure 75 track 2 voice 0 beat 2 bits=0x08
 measure 75 track 2 voice 0 beat 3 bits=0x08
@@ -4802,6 +4880,7 @@ measure 75 track 2 voice 0 beat 4 bits=0x08
 measure 75 track 2 voice 0 beat 5 bits=0x08
 measure 75 track 2 voice 0 beat 6 bits=0x08
 measure 75 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 75 track 2 voice 0 beat 8 bits=0x08
 measure 75 track 2 voice 0 beat 9 bits=0x08
 measure 75 track 2 voice 1 beat 0 bits=0x40
@@ -4861,9 +4940,13 @@ measure 76 track 1 voice 1 beat 1 bits=0x40
 measure 76 track 1 voice 1 beat 2 bits=0x40
 measure 76 track 1 voice 1 beat 3 bits=0x40
 measure 76 track 2 voice 0 beat 0 bits=0x02
+Got chord F5 <f, c f>
 measure 76 track 2 voice 0 beat 1 bits=0x02
+Got chord E5 <e, b, e>
 measure 76 track 2 voice 0 beat 2 bits=0x02
+Got chord F5 <f, c f>
 measure 76 track 2 voice 0 beat 3 bits=0x02
+Got chord Gb5 <fis, cis fis>
 measure 76 track 2 voice 0 beat 4 bits=0x00
 measure 76 track 2 voice 0 beat 5 bits=0x00
 measure 76 track 2 voice 1 beat 0 bits=0x40
@@ -4918,11 +5001,16 @@ measure 77 track 1 voice 1 beat 1 bits=0x40
 measure 77 track 1 voice 1 beat 2 bits=0x40
 measure 77 track 1 voice 1 beat 3 bits=0x40
 measure 77 track 2 voice 0 beat 0 bits=0x02
+Got chord F5 <f, c f>
 measure 77 track 2 voice 0 beat 1 bits=0x02
+Got chord E5 <e, b, e>
 measure 77 track 2 voice 0 beat 2 bits=0x02
+Got chord F5 <f, c f>
 measure 77 track 2 voice 0 beat 3 bits=0x02
+Got chord Bb5 <ais, f ais>
 measure 77 track 2 voice 0 beat 4 bits=0x00
 measure 77 track 2 voice 0 beat 5 bits=0x02
+Got chord Ab5 <gis, dis gis>
 measure 77 track 2 voice 0 beat 6 bits=0x00
 measure 77 track 2 voice 1 beat 0 bits=0x40
 measure 77 track 2 voice 1 beat 1 bits=0x40
@@ -4984,9 +5072,13 @@ measure 78 track 1 voice 1 beat 1 bits=0x40
 measure 78 track 1 voice 1 beat 2 bits=0x40
 measure 78 track 1 voice 1 beat 3 bits=0x40
 measure 78 track 2 voice 0 beat 0 bits=0x02
+Got chord F5 <f, c f>
 measure 78 track 2 voice 0 beat 1 bits=0x02
+Got chord E5 <e, b, e>
 measure 78 track 2 voice 0 beat 2 bits=0x02
+Got chord F5 <f, c f>
 measure 78 track 2 voice 0 beat 3 bits=0x02
+Got chord Gb5 <fis, cis fis>
 measure 78 track 2 voice 0 beat 4 bits=0x00
 measure 78 track 2 voice 0 beat 5 bits=0x00
 measure 78 track 2 voice 1 beat 0 bits=0x40
@@ -5041,11 +5133,16 @@ measure 79 track 1 voice 1 beat 1 bits=0x40
 measure 79 track 1 voice 1 beat 2 bits=0x40
 measure 79 track 1 voice 1 beat 3 bits=0x40
 measure 79 track 2 voice 0 beat 0 bits=0x02
+Got chord F5 <f, c f>
 measure 79 track 2 voice 0 beat 1 bits=0x02
+Got chord E5 <e, b, e>
 measure 79 track 2 voice 0 beat 2 bits=0x02
+Got chord F5 <f, c f>
 measure 79 track 2 voice 0 beat 3 bits=0x02
+Got chord Bb5 <ais, f ais>
 measure 79 track 2 voice 0 beat 4 bits=0x00
 measure 79 track 2 voice 0 beat 5 bits=0x02
+Got chord Ab5 <gis, dis gis>
 measure 79 track 2 voice 0 beat 6 bits=0x00
 measure 79 track 2 voice 1 beat 0 bits=0x40
 measure 79 track 2 voice 1 beat 1 bits=0x40
@@ -5103,6 +5200,7 @@ measure 80 track 1 voice 1 beat 1 bits=0x40
 measure 80 track 1 voice 1 beat 2 bits=0x40
 measure 80 track 1 voice 1 beat 3 bits=0x40
 measure 80 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 80 track 2 voice 0 beat 1 bits=0x08
 measure 80 track 2 voice 0 beat 2 bits=0x08
 measure 80 track 2 voice 0 beat 3 bits=0x08
@@ -5110,6 +5208,7 @@ measure 80 track 2 voice 0 beat 4 bits=0x08
 measure 80 track 2 voice 0 beat 5 bits=0x08
 measure 80 track 2 voice 0 beat 6 bits=0x08
 measure 80 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 80 track 2 voice 0 beat 8 bits=0x08
 measure 80 track 2 voice 0 beat 9 bits=0x08
 measure 80 track 2 voice 1 beat 0 bits=0x40
@@ -5170,6 +5269,7 @@ measure 81 track 1 voice 1 beat 1 bits=0x40
 measure 81 track 1 voice 1 beat 2 bits=0x40
 measure 81 track 1 voice 1 beat 3 bits=0x40
 measure 81 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 81 track 2 voice 0 beat 1 bits=0x08
 measure 81 track 2 voice 0 beat 2 bits=0x08
 measure 81 track 2 voice 0 beat 3 bits=0x08
@@ -5177,6 +5277,7 @@ measure 81 track 2 voice 0 beat 4 bits=0x08
 measure 81 track 2 voice 0 beat 5 bits=0x08
 measure 81 track 2 voice 0 beat 6 bits=0x08
 measure 81 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 81 track 2 voice 0 beat 8 bits=0x08
 measure 81 track 2 voice 0 beat 9 bits=0x08
 measure 81 track 2 voice 1 beat 0 bits=0x40
@@ -5235,6 +5336,7 @@ measure 82 track 1 voice 1 beat 1 bits=0x40
 measure 82 track 1 voice 1 beat 2 bits=0x40
 measure 82 track 1 voice 1 beat 3 bits=0x40
 measure 82 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 82 track 2 voice 0 beat 1 bits=0x08
 measure 82 track 2 voice 0 beat 2 bits=0x08
 measure 82 track 2 voice 0 beat 3 bits=0x08
@@ -5242,6 +5344,7 @@ measure 82 track 2 voice 0 beat 4 bits=0x08
 measure 82 track 2 voice 0 beat 5 bits=0x08
 measure 82 track 2 voice 0 beat 6 bits=0x08
 measure 82 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 82 track 2 voice 0 beat 8 bits=0x08
 measure 82 track 2 voice 0 beat 9 bits=0x08
 measure 82 track 2 voice 1 beat 0 bits=0x40
@@ -5302,6 +5405,7 @@ measure 83 track 1 voice 1 beat 1 bits=0x40
 measure 83 track 1 voice 1 beat 2 bits=0x40
 measure 83 track 1 voice 1 beat 3 bits=0x40
 measure 83 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 83 track 2 voice 0 beat 1 bits=0x08
 measure 83 track 2 voice 0 beat 2 bits=0x08
 measure 83 track 2 voice 0 beat 3 bits=0x08
@@ -5309,6 +5413,7 @@ measure 83 track 2 voice 0 beat 4 bits=0x08
 measure 83 track 2 voice 0 beat 5 bits=0x08
 measure 83 track 2 voice 0 beat 6 bits=0x08
 measure 83 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 83 track 2 voice 0 beat 8 bits=0x08
 measure 83 track 2 voice 0 beat 9 bits=0x08
 measure 83 track 2 voice 1 beat 0 bits=0x40
@@ -5367,6 +5472,7 @@ measure 84 track 1 voice 1 beat 1 bits=0x40
 measure 84 track 1 voice 1 beat 2 bits=0x40
 measure 84 track 1 voice 1 beat 3 bits=0x40
 measure 84 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 84 track 2 voice 0 beat 1 bits=0x08
 measure 84 track 2 voice 0 beat 2 bits=0x08
 measure 84 track 2 voice 0 beat 3 bits=0x08
@@ -5374,6 +5480,7 @@ measure 84 track 2 voice 0 beat 4 bits=0x08
 measure 84 track 2 voice 0 beat 5 bits=0x08
 measure 84 track 2 voice 0 beat 6 bits=0x08
 measure 84 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 84 track 2 voice 0 beat 8 bits=0x08
 measure 84 track 2 voice 0 beat 9 bits=0x08
 measure 84 track 2 voice 1 beat 0 bits=0x40
@@ -5434,6 +5541,7 @@ measure 85 track 1 voice 1 beat 1 bits=0x40
 measure 85 track 1 voice 1 beat 2 bits=0x40
 measure 85 track 1 voice 1 beat 3 bits=0x40
 measure 85 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 85 track 2 voice 0 beat 1 bits=0x08
 measure 85 track 2 voice 0 beat 2 bits=0x08
 measure 85 track 2 voice 0 beat 3 bits=0x08
@@ -5441,6 +5549,7 @@ measure 85 track 2 voice 0 beat 4 bits=0x08
 measure 85 track 2 voice 0 beat 5 bits=0x08
 measure 85 track 2 voice 0 beat 6 bits=0x08
 measure 85 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 85 track 2 voice 0 beat 8 bits=0x08
 measure 85 track 2 voice 0 beat 9 bits=0x08
 measure 85 track 2 voice 1 beat 0 bits=0x40
@@ -5499,6 +5608,7 @@ measure 86 track 1 voice 1 beat 1 bits=0x40
 measure 86 track 1 voice 1 beat 2 bits=0x40
 measure 86 track 1 voice 1 beat 3 bits=0x40
 measure 86 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 86 track 2 voice 0 beat 1 bits=0x08
 measure 86 track 2 voice 0 beat 2 bits=0x08
 measure 86 track 2 voice 0 beat 3 bits=0x08
@@ -5506,6 +5616,7 @@ measure 86 track 2 voice 0 beat 4 bits=0x08
 measure 86 track 2 voice 0 beat 5 bits=0x08
 measure 86 track 2 voice 0 beat 6 bits=0x08
 measure 86 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 86 track 2 voice 0 beat 8 bits=0x08
 measure 86 track 2 voice 0 beat 9 bits=0x08
 measure 86 track 2 voice 1 beat 0 bits=0x40
@@ -5566,6 +5677,7 @@ measure 87 track 1 voice 1 beat 1 bits=0x40
 measure 87 track 1 voice 1 beat 2 bits=0x40
 measure 87 track 1 voice 1 beat 3 bits=0x40
 measure 87 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 87 track 2 voice 0 beat 1 bits=0x08
 measure 87 track 2 voice 0 beat 2 bits=0x08
 measure 87 track 2 voice 0 beat 3 bits=0x08
@@ -5573,6 +5685,7 @@ measure 87 track 2 voice 0 beat 4 bits=0x08
 measure 87 track 2 voice 0 beat 5 bits=0x08
 measure 87 track 2 voice 0 beat 6 bits=0x08
 measure 87 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 87 track 2 voice 0 beat 8 bits=0x08
 measure 87 track 2 voice 0 beat 9 bits=0x08
 measure 87 track 2 voice 1 beat 0 bits=0x40
@@ -5631,6 +5744,7 @@ measure 88 track 1 voice 1 beat 1 bits=0x40
 measure 88 track 1 voice 1 beat 2 bits=0x40
 measure 88 track 1 voice 1 beat 3 bits=0x40
 measure 88 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 88 track 2 voice 0 beat 1 bits=0x08
 measure 88 track 2 voice 0 beat 2 bits=0x08
 measure 88 track 2 voice 0 beat 3 bits=0x08
@@ -5638,6 +5752,7 @@ measure 88 track 2 voice 0 beat 4 bits=0x08
 measure 88 track 2 voice 0 beat 5 bits=0x08
 measure 88 track 2 voice 0 beat 6 bits=0x08
 measure 88 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 88 track 2 voice 0 beat 8 bits=0x08
 measure 88 track 2 voice 0 beat 9 bits=0x08
 measure 88 track 2 voice 1 beat 0 bits=0x40
@@ -5697,6 +5812,7 @@ measure 89 track 1 voice 1 beat 1 bits=0x40
 measure 89 track 1 voice 1 beat 2 bits=0x40
 measure 89 track 1 voice 1 beat 3 bits=0x40
 measure 89 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 89 track 2 voice 0 beat 1 bits=0x08
 measure 89 track 2 voice 0 beat 2 bits=0x08
 measure 89 track 2 voice 0 beat 3 bits=0x08
@@ -5704,6 +5820,7 @@ measure 89 track 2 voice 0 beat 4 bits=0x08
 measure 89 track 2 voice 0 beat 5 bits=0x08
 measure 89 track 2 voice 0 beat 6 bits=0x08
 measure 89 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 89 track 2 voice 0 beat 8 bits=0x08
 measure 89 track 2 voice 0 beat 9 bits=0x08
 measure 89 track 2 voice 1 beat 0 bits=0x40
@@ -5763,6 +5880,7 @@ measure 90 track 1 voice 1 beat 1 bits=0x40
 measure 90 track 1 voice 1 beat 2 bits=0x40
 measure 90 track 1 voice 1 beat 3 bits=0x40
 measure 90 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 90 track 2 voice 0 beat 1 bits=0x08
 measure 90 track 2 voice 0 beat 2 bits=0x08
 measure 90 track 2 voice 0 beat 3 bits=0x08
@@ -5770,6 +5888,7 @@ measure 90 track 2 voice 0 beat 4 bits=0x08
 measure 90 track 2 voice 0 beat 5 bits=0x08
 measure 90 track 2 voice 0 beat 6 bits=0x08
 measure 90 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 90 track 2 voice 0 beat 8 bits=0x08
 measure 90 track 2 voice 0 beat 9 bits=0x08
 measure 90 track 2 voice 1 beat 0 bits=0x40
@@ -5829,6 +5948,7 @@ measure 91 track 1 voice 1 beat 1 bits=0x40
 measure 91 track 1 voice 1 beat 2 bits=0x40
 measure 91 track 1 voice 1 beat 3 bits=0x40
 measure 91 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 91 track 2 voice 0 beat 1 bits=0x08
 measure 91 track 2 voice 0 beat 2 bits=0x08
 measure 91 track 2 voice 0 beat 3 bits=0x08
@@ -5836,6 +5956,7 @@ measure 91 track 2 voice 0 beat 4 bits=0x08
 measure 91 track 2 voice 0 beat 5 bits=0x08
 measure 91 track 2 voice 0 beat 6 bits=0x08
 measure 91 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 91 track 2 voice 0 beat 8 bits=0x08
 measure 91 track 2 voice 0 beat 9 bits=0x08
 measure 91 track 2 voice 1 beat 0 bits=0x40
@@ -5895,6 +6016,7 @@ measure 92 track 1 voice 1 beat 1 bits=0x40
 measure 92 track 1 voice 1 beat 2 bits=0x40
 measure 92 track 1 voice 1 beat 3 bits=0x40
 measure 92 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 92 track 2 voice 0 beat 1 bits=0x08
 measure 92 track 2 voice 0 beat 2 bits=0x08
 measure 92 track 2 voice 0 beat 3 bits=0x08
@@ -5902,6 +6024,7 @@ measure 92 track 2 voice 0 beat 4 bits=0x08
 measure 92 track 2 voice 0 beat 5 bits=0x08
 measure 92 track 2 voice 0 beat 6 bits=0x08
 measure 92 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 92 track 2 voice 0 beat 8 bits=0x08
 measure 92 track 2 voice 0 beat 9 bits=0x08
 measure 92 track 2 voice 1 beat 0 bits=0x40
@@ -5961,6 +6084,7 @@ measure 93 track 1 voice 1 beat 1 bits=0x40
 measure 93 track 1 voice 1 beat 2 bits=0x40
 measure 93 track 1 voice 1 beat 3 bits=0x40
 measure 93 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 93 track 2 voice 0 beat 1 bits=0x08
 measure 93 track 2 voice 0 beat 2 bits=0x08
 measure 93 track 2 voice 0 beat 3 bits=0x08
@@ -5968,6 +6092,7 @@ measure 93 track 2 voice 0 beat 4 bits=0x08
 measure 93 track 2 voice 0 beat 5 bits=0x08
 measure 93 track 2 voice 0 beat 6 bits=0x08
 measure 93 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 93 track 2 voice 0 beat 8 bits=0x08
 measure 93 track 2 voice 0 beat 9 bits=0x08
 measure 93 track 2 voice 1 beat 0 bits=0x40
@@ -6027,6 +6152,7 @@ measure 94 track 1 voice 1 beat 1 bits=0x40
 measure 94 track 1 voice 1 beat 2 bits=0x40
 measure 94 track 1 voice 1 beat 3 bits=0x40
 measure 94 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 94 track 2 voice 0 beat 1 bits=0x08
 measure 94 track 2 voice 0 beat 2 bits=0x08
 measure 94 track 2 voice 0 beat 3 bits=0x08
@@ -6034,6 +6160,7 @@ measure 94 track 2 voice 0 beat 4 bits=0x08
 measure 94 track 2 voice 0 beat 5 bits=0x08
 measure 94 track 2 voice 0 beat 6 bits=0x08
 measure 94 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 94 track 2 voice 0 beat 8 bits=0x08
 measure 94 track 2 voice 0 beat 9 bits=0x08
 measure 94 track 2 voice 1 beat 0 bits=0x40
@@ -6093,6 +6220,7 @@ measure 95 track 1 voice 1 beat 1 bits=0x40
 measure 95 track 1 voice 1 beat 2 bits=0x40
 measure 95 track 1 voice 1 beat 3 bits=0x40
 measure 95 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 95 track 2 voice 0 beat 1 bits=0x08
 measure 95 track 2 voice 0 beat 2 bits=0x08
 measure 95 track 2 voice 0 beat 3 bits=0x08
@@ -6100,6 +6228,7 @@ measure 95 track 2 voice 0 beat 4 bits=0x08
 measure 95 track 2 voice 0 beat 5 bits=0x08
 measure 95 track 2 voice 0 beat 6 bits=0x08
 measure 95 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 95 track 2 voice 0 beat 8 bits=0x08
 measure 95 track 2 voice 0 beat 9 bits=0x08
 measure 95 track 2 voice 1 beat 0 bits=0x40
@@ -6161,6 +6290,7 @@ measure 96 track 1 voice 1 beat 1 bits=0x40
 measure 96 track 1 voice 1 beat 2 bits=0x40
 measure 96 track 1 voice 1 beat 3 bits=0x40
 measure 96 track 2 voice 0 beat 0 bits=0x02
+Got chord F5 <f, c f>
 measure 96 track 2 voice 1 beat 0 bits=0x40
 measure 96 track 2 voice 1 beat 1 bits=0x40
 measure 96 track 2 voice 1 beat 2 bits=0x40
@@ -7292,6 +7422,7 @@ measure 116 track 1 voice 1 beat 1 bits=0x40
 measure 116 track 1 voice 1 beat 2 bits=0x40
 measure 116 track 1 voice 1 beat 3 bits=0x40
 measure 116 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 116 track 2 voice 0 beat 1 bits=0x08
 measure 116 track 2 voice 0 beat 2 bits=0x08
 measure 116 track 2 voice 0 beat 3 bits=0x08
@@ -7299,6 +7430,7 @@ measure 116 track 2 voice 0 beat 4 bits=0x08
 measure 116 track 2 voice 0 beat 5 bits=0x08
 measure 116 track 2 voice 0 beat 6 bits=0x08
 measure 116 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 116 track 2 voice 0 beat 8 bits=0x08
 measure 116 track 2 voice 0 beat 9 bits=0x08
 measure 116 track 2 voice 1 beat 0 bits=0x40
@@ -7364,6 +7496,7 @@ measure 117 track 1 voice 1 beat 1 bits=0x40
 measure 117 track 1 voice 1 beat 2 bits=0x40
 measure 117 track 1 voice 1 beat 3 bits=0x40
 measure 117 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 117 track 2 voice 0 beat 1 bits=0x08
 measure 117 track 2 voice 0 beat 2 bits=0x08
 measure 117 track 2 voice 0 beat 3 bits=0x08
@@ -7371,6 +7504,7 @@ measure 117 track 2 voice 0 beat 4 bits=0x08
 measure 117 track 2 voice 0 beat 5 bits=0x08
 measure 117 track 2 voice 0 beat 6 bits=0x08
 measure 117 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 117 track 2 voice 0 beat 8 bits=0x08
 measure 117 track 2 voice 0 beat 9 bits=0x08
 measure 117 track 2 voice 1 beat 0 bits=0x40
@@ -7434,6 +7568,7 @@ measure 118 track 1 voice 1 beat 1 bits=0x40
 measure 118 track 1 voice 1 beat 2 bits=0x40
 measure 118 track 1 voice 1 beat 3 bits=0x40
 measure 118 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 118 track 2 voice 0 beat 1 bits=0x08
 measure 118 track 2 voice 0 beat 2 bits=0x08
 measure 118 track 2 voice 0 beat 3 bits=0x08
@@ -7441,6 +7576,7 @@ measure 118 track 2 voice 0 beat 4 bits=0x08
 measure 118 track 2 voice 0 beat 5 bits=0x08
 measure 118 track 2 voice 0 beat 6 bits=0x08
 measure 118 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 118 track 2 voice 0 beat 8 bits=0x08
 measure 118 track 2 voice 0 beat 9 bits=0x08
 measure 118 track 2 voice 1 beat 0 bits=0x40
@@ -7506,6 +7642,7 @@ measure 119 track 1 voice 1 beat 1 bits=0x40
 measure 119 track 1 voice 1 beat 2 bits=0x40
 measure 119 track 1 voice 1 beat 3 bits=0x40
 measure 119 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 119 track 2 voice 0 beat 1 bits=0x08
 measure 119 track 2 voice 0 beat 2 bits=0x08
 measure 119 track 2 voice 0 beat 3 bits=0x08
@@ -7513,6 +7650,7 @@ measure 119 track 2 voice 0 beat 4 bits=0x08
 measure 119 track 2 voice 0 beat 5 bits=0x08
 measure 119 track 2 voice 0 beat 6 bits=0x08
 measure 119 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 119 track 2 voice 0 beat 8 bits=0x08
 measure 119 track 2 voice 0 beat 9 bits=0x08
 measure 119 track 2 voice 1 beat 0 bits=0x40
@@ -7576,6 +7714,7 @@ measure 120 track 1 voice 1 beat 1 bits=0x40
 measure 120 track 1 voice 1 beat 2 bits=0x40
 measure 120 track 1 voice 1 beat 3 bits=0x40
 measure 120 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 120 track 2 voice 0 beat 1 bits=0x08
 measure 120 track 2 voice 0 beat 2 bits=0x08
 measure 120 track 2 voice 0 beat 3 bits=0x08
@@ -7583,6 +7722,7 @@ measure 120 track 2 voice 0 beat 4 bits=0x08
 measure 120 track 2 voice 0 beat 5 bits=0x08
 measure 120 track 2 voice 0 beat 6 bits=0x08
 measure 120 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 120 track 2 voice 0 beat 8 bits=0x08
 measure 120 track 2 voice 0 beat 9 bits=0x08
 measure 120 track 2 voice 1 beat 0 bits=0x40
@@ -7648,6 +7788,7 @@ measure 121 track 1 voice 1 beat 1 bits=0x40
 measure 121 track 1 voice 1 beat 2 bits=0x40
 measure 121 track 1 voice 1 beat 3 bits=0x40
 measure 121 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 121 track 2 voice 0 beat 1 bits=0x08
 measure 121 track 2 voice 0 beat 2 bits=0x08
 measure 121 track 2 voice 0 beat 3 bits=0x08
@@ -7655,6 +7796,7 @@ measure 121 track 2 voice 0 beat 4 bits=0x08
 measure 121 track 2 voice 0 beat 5 bits=0x08
 measure 121 track 2 voice 0 beat 6 bits=0x08
 measure 121 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 121 track 2 voice 0 beat 8 bits=0x08
 measure 121 track 2 voice 0 beat 9 bits=0x08
 measure 121 track 2 voice 1 beat 0 bits=0x40
@@ -7718,6 +7860,7 @@ measure 122 track 1 voice 1 beat 1 bits=0x40
 measure 122 track 1 voice 1 beat 2 bits=0x40
 measure 122 track 1 voice 1 beat 3 bits=0x40
 measure 122 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 122 track 2 voice 0 beat 1 bits=0x08
 measure 122 track 2 voice 0 beat 2 bits=0x08
 measure 122 track 2 voice 0 beat 3 bits=0x08
@@ -7725,6 +7868,7 @@ measure 122 track 2 voice 0 beat 4 bits=0x08
 measure 122 track 2 voice 0 beat 5 bits=0x08
 measure 122 track 2 voice 0 beat 6 bits=0x08
 measure 122 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 122 track 2 voice 0 beat 8 bits=0x08
 measure 122 track 2 voice 0 beat 9 bits=0x08
 measure 122 track 2 voice 1 beat 0 bits=0x40
@@ -7790,6 +7934,7 @@ measure 123 track 1 voice 1 beat 1 bits=0x40
 measure 123 track 1 voice 1 beat 2 bits=0x40
 measure 123 track 1 voice 1 beat 3 bits=0x40
 measure 123 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 123 track 2 voice 0 beat 1 bits=0x08
 measure 123 track 2 voice 0 beat 2 bits=0x08
 measure 123 track 2 voice 0 beat 3 bits=0x08
@@ -7797,6 +7942,7 @@ measure 123 track 2 voice 0 beat 4 bits=0x08
 measure 123 track 2 voice 0 beat 5 bits=0x08
 measure 123 track 2 voice 0 beat 6 bits=0x08
 measure 123 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 123 track 2 voice 0 beat 8 bits=0x08
 measure 123 track 2 voice 0 beat 9 bits=0x08
 measure 123 track 2 voice 1 beat 0 bits=0x40
@@ -7860,6 +8006,7 @@ measure 124 track 1 voice 1 beat 1 bits=0x40
 measure 124 track 1 voice 1 beat 2 bits=0x40
 measure 124 track 1 voice 1 beat 3 bits=0x40
 measure 124 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 124 track 2 voice 0 beat 1 bits=0x08
 measure 124 track 2 voice 0 beat 2 bits=0x08
 measure 124 track 2 voice 0 beat 3 bits=0x08
@@ -7867,6 +8014,7 @@ measure 124 track 2 voice 0 beat 4 bits=0x08
 measure 124 track 2 voice 0 beat 5 bits=0x08
 measure 124 track 2 voice 0 beat 6 bits=0x08
 measure 124 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 124 track 2 voice 0 beat 8 bits=0x08
 measure 124 track 2 voice 0 beat 9 bits=0x08
 measure 124 track 2 voice 1 beat 0 bits=0x40
@@ -7932,6 +8080,7 @@ measure 125 track 1 voice 1 beat 1 bits=0x40
 measure 125 track 1 voice 1 beat 2 bits=0x40
 measure 125 track 1 voice 1 beat 3 bits=0x40
 measure 125 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 125 track 2 voice 0 beat 1 bits=0x08
 measure 125 track 2 voice 0 beat 2 bits=0x08
 measure 125 track 2 voice 0 beat 3 bits=0x08
@@ -7939,6 +8088,7 @@ measure 125 track 2 voice 0 beat 4 bits=0x08
 measure 125 track 2 voice 0 beat 5 bits=0x08
 measure 125 track 2 voice 0 beat 6 bits=0x08
 measure 125 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 125 track 2 voice 0 beat 8 bits=0x08
 measure 125 track 2 voice 0 beat 9 bits=0x08
 measure 125 track 2 voice 1 beat 0 bits=0x40
@@ -8002,6 +8152,7 @@ measure 126 track 1 voice 1 beat 1 bits=0x40
 measure 126 track 1 voice 1 beat 2 bits=0x40
 measure 126 track 1 voice 1 beat 3 bits=0x40
 measure 126 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 126 track 2 voice 0 beat 1 bits=0x08
 measure 126 track 2 voice 0 beat 2 bits=0x08
 measure 126 track 2 voice 0 beat 3 bits=0x08
@@ -8009,6 +8160,7 @@ measure 126 track 2 voice 0 beat 4 bits=0x08
 measure 126 track 2 voice 0 beat 5 bits=0x08
 measure 126 track 2 voice 0 beat 6 bits=0x08
 measure 126 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 126 track 2 voice 0 beat 8 bits=0x08
 measure 126 track 2 voice 0 beat 9 bits=0x08
 measure 126 track 2 voice 1 beat 0 bits=0x40
@@ -8074,6 +8226,7 @@ measure 127 track 1 voice 1 beat 1 bits=0x40
 measure 127 track 1 voice 1 beat 2 bits=0x40
 measure 127 track 1 voice 1 beat 3 bits=0x40
 measure 127 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 127 track 2 voice 0 beat 1 bits=0x08
 measure 127 track 2 voice 0 beat 2 bits=0x08
 measure 127 track 2 voice 0 beat 3 bits=0x08
@@ -8081,6 +8234,7 @@ measure 127 track 2 voice 0 beat 4 bits=0x08
 measure 127 track 2 voice 0 beat 5 bits=0x08
 measure 127 track 2 voice 0 beat 6 bits=0x08
 measure 127 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 127 track 2 voice 0 beat 8 bits=0x08
 measure 127 track 2 voice 0 beat 9 bits=0x08
 measure 127 track 2 voice 1 beat 0 bits=0x40
@@ -8145,6 +8299,7 @@ measure 128 track 1 voice 1 beat 1 bits=0x40
 measure 128 track 1 voice 1 beat 2 bits=0x40
 measure 128 track 1 voice 1 beat 3 bits=0x40
 measure 128 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 128 track 2 voice 0 beat 1 bits=0x08
 measure 128 track 2 voice 0 beat 2 bits=0x08
 measure 128 track 2 voice 0 beat 3 bits=0x08
@@ -8152,6 +8307,7 @@ measure 128 track 2 voice 0 beat 4 bits=0x08
 measure 128 track 2 voice 0 beat 5 bits=0x08
 measure 128 track 2 voice 0 beat 6 bits=0x08
 measure 128 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 128 track 2 voice 0 beat 8 bits=0x08
 measure 128 track 2 voice 0 beat 9 bits=0x08
 measure 128 track 2 voice 1 beat 0 bits=0x40
@@ -8219,6 +8375,7 @@ measure 129 track 1 voice 1 beat 1 bits=0x40
 measure 129 track 1 voice 1 beat 2 bits=0x40
 measure 129 track 1 voice 1 beat 3 bits=0x40
 measure 129 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 129 track 2 voice 0 beat 1 bits=0x08
 measure 129 track 2 voice 0 beat 2 bits=0x08
 measure 129 track 2 voice 0 beat 3 bits=0x08
@@ -8226,6 +8383,7 @@ measure 129 track 2 voice 0 beat 4 bits=0x08
 measure 129 track 2 voice 0 beat 5 bits=0x08
 measure 129 track 2 voice 0 beat 6 bits=0x08
 measure 129 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 129 track 2 voice 0 beat 8 bits=0x08
 measure 129 track 2 voice 0 beat 9 bits=0x08
 measure 129 track 2 voice 1 beat 0 bits=0x40
@@ -8291,6 +8449,7 @@ measure 130 track 1 voice 1 beat 1 bits=0x40
 measure 130 track 1 voice 1 beat 2 bits=0x40
 measure 130 track 1 voice 1 beat 3 bits=0x40
 measure 130 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 130 track 2 voice 0 beat 1 bits=0x08
 measure 130 track 2 voice 0 beat 2 bits=0x08
 measure 130 track 2 voice 0 beat 3 bits=0x08
@@ -8298,6 +8457,7 @@ measure 130 track 2 voice 0 beat 4 bits=0x08
 measure 130 track 2 voice 0 beat 5 bits=0x08
 measure 130 track 2 voice 0 beat 6 bits=0x08
 measure 130 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 130 track 2 voice 0 beat 8 bits=0x08
 measure 130 track 2 voice 0 beat 9 bits=0x08
 measure 130 track 2 voice 1 beat 0 bits=0x40
@@ -8365,6 +8525,7 @@ measure 131 track 1 voice 1 beat 1 bits=0x40
 measure 131 track 1 voice 1 beat 2 bits=0x40
 measure 131 track 1 voice 1 beat 3 bits=0x40
 measure 131 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 131 track 2 voice 0 beat 1 bits=0x08
 measure 131 track 2 voice 0 beat 2 bits=0x08
 measure 131 track 2 voice 0 beat 3 bits=0x08
@@ -8372,6 +8533,7 @@ measure 131 track 2 voice 0 beat 4 bits=0x08
 measure 131 track 2 voice 0 beat 5 bits=0x08
 measure 131 track 2 voice 0 beat 6 bits=0x08
 measure 131 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 131 track 2 voice 0 beat 8 bits=0x08
 measure 131 track 2 voice 0 beat 9 bits=0x08
 measure 131 track 2 voice 1 beat 0 bits=0x40
@@ -8437,6 +8599,7 @@ measure 132 track 1 voice 1 beat 1 bits=0x40
 measure 132 track 1 voice 1 beat 2 bits=0x40
 measure 132 track 1 voice 1 beat 3 bits=0x40
 measure 132 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 132 track 2 voice 0 beat 1 bits=0x08
 measure 132 track 2 voice 0 beat 2 bits=0x08
 measure 132 track 2 voice 0 beat 3 bits=0x08
@@ -8444,6 +8607,7 @@ measure 132 track 2 voice 0 beat 4 bits=0x08
 measure 132 track 2 voice 0 beat 5 bits=0x08
 measure 132 track 2 voice 0 beat 6 bits=0x08
 measure 132 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 132 track 2 voice 0 beat 8 bits=0x08
 measure 132 track 2 voice 0 beat 9 bits=0x08
 measure 132 track 2 voice 1 beat 0 bits=0x40
@@ -8511,6 +8675,7 @@ measure 133 track 1 voice 1 beat 1 bits=0x40
 measure 133 track 1 voice 1 beat 2 bits=0x40
 measure 133 track 1 voice 1 beat 3 bits=0x40
 measure 133 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 133 track 2 voice 0 beat 1 bits=0x08
 measure 133 track 2 voice 0 beat 2 bits=0x08
 measure 133 track 2 voice 0 beat 3 bits=0x08
@@ -8518,6 +8683,7 @@ measure 133 track 2 voice 0 beat 4 bits=0x08
 measure 133 track 2 voice 0 beat 5 bits=0x08
 measure 133 track 2 voice 0 beat 6 bits=0x08
 measure 133 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 133 track 2 voice 0 beat 8 bits=0x08
 measure 133 track 2 voice 0 beat 9 bits=0x08
 measure 133 track 2 voice 1 beat 0 bits=0x40
@@ -8583,6 +8749,7 @@ measure 134 track 1 voice 1 beat 1 bits=0x40
 measure 134 track 1 voice 1 beat 2 bits=0x40
 measure 134 track 1 voice 1 beat 3 bits=0x40
 measure 134 track 2 voice 0 beat 0 bits=0x0b
+Got chord F5 <f, c f>
 measure 134 track 2 voice 0 beat 1 bits=0x08
 measure 134 track 2 voice 0 beat 2 bits=0x08
 measure 134 track 2 voice 0 beat 3 bits=0x08
@@ -8590,6 +8757,7 @@ measure 134 track 2 voice 0 beat 4 bits=0x08
 measure 134 track 2 voice 0 beat 5 bits=0x08
 measure 134 track 2 voice 0 beat 6 bits=0x08
 measure 134 track 2 voice 0 beat 7 bits=0x0a
+Got chord Bb5 <ais, f ais>
 measure 134 track 2 voice 0 beat 8 bits=0x08
 measure 134 track 2 voice 0 beat 9 bits=0x08
 measure 134 track 2 voice 1 beat 0 bits=0x40
@@ -8657,6 +8825,7 @@ measure 135 track 1 voice 1 beat 1 bits=0x40
 measure 135 track 1 voice 1 beat 2 bits=0x40
 measure 135 track 1 voice 1 beat 3 bits=0x40
 measure 135 track 2 voice 0 beat 0 bits=0x0b
+Got chord Ab5 <gis, dis gis>
 measure 135 track 2 voice 0 beat 1 bits=0x08
 measure 135 track 2 voice 0 beat 2 bits=0x08
 measure 135 track 2 voice 0 beat 3 bits=0x08
@@ -8664,6 +8833,7 @@ measure 135 track 2 voice 0 beat 4 bits=0x08
 measure 135 track 2 voice 0 beat 5 bits=0x08
 measure 135 track 2 voice 0 beat 6 bits=0x08
 measure 135 track 2 voice 0 beat 7 bits=0x0a
+Got chord Db5 <cis gis cis'>
 measure 135 track 2 voice 0 beat 8 bits=0x08
 measure 135 track 2 voice 0 beat 9 bits=0x08
 measure 135 track 2 voice 1 beat 0 bits=0x40
@@ -8723,6 +8893,7 @@ measure 136 track 1 voice 1 beat 1 bits=0x40
 measure 136 track 1 voice 1 beat 2 bits=0x40
 measure 136 track 1 voice 1 beat 3 bits=0x40
 measure 136 track 2 voice 0 beat 0 bits=0x02
+Got chord F5 <f, c f>
 measure 136 track 2 voice 1 beat 0 bits=0x40
 measure 136 track 2 voice 1 beat 1 bits=0x40
 measure 136 track 2 voice 1 beat 2 bits=0x40

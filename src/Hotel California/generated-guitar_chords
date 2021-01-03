@@ -1,0 +1,132 @@
+guitarChords = \new ChordNames {
+    <e, b, e g b e'>8 \skip2. \skip8 |
+    <b, dis a b fis'>8 \skip2. \skip8 |
+    <d a d' e'>8 \skip2. \skip8 |
+    <a, cis e g b e'>8 \skip2. \skip8 |
+    <c e g c' e'>8 \skip2. \skip8 |
+    <g, b, d g b g'>8 \skip2. \skip8 |
+    <a, e g c' e'>8 \skip2. \skip8 |
+    <b, dis a b fis'>8 \skip2. \skip8 |
+    <e, b, e g b>8 \skip2. \skip8 |
+    <b, dis a b fis'>8 \skip2. \skip8 |
+    <d a d' e'>8 \skip2. \skip8 |
+    <a, cis e g b e'>8 \skip2. \skip8 |
+    <c e g c' e'>8 \skip2. \skip8 |
+    <g, b, d g b g'>8 \skip2. \skip8 |
+    <a, e g c' e'>8 \skip2. \skip8 |
+    <b, dis a b fis'>8 \skip2. \skip8 |
+\mymark "Verse 1" #17
+    <e g b e'>8 \skip2. \skip8 |
+    <b, dis a b fis'>8 \skip2. \skip8 |
+    <d a d' e'>8 \skip2. \skip8 |
+    <a, cis e g b e'>8 \skip2. \skip8 |
+    <c e g c' e'>8 \skip2. \skip8 |
+    <g, b, d g b g'>8 \skip2. \skip8 |
+    <a, e g c' e'>8 \skip2. \skip8 |
+    <b, dis a b fis'>8 \skip2. \skip8 |
+\mymark "Verse 2" #25
+    <e, b, e g b e'>4 \skip2. |
+    <b, dis a b fis'>8. \skip2. \skip16 |
+    <a, d a d' e'>4 \skip2. |
+    <a, cis e g b e'>8 \skip2. \skip8 |
+    <c e g c' e'>4 \skip2. |
+    <g, b, d g b g'>4 \skip2. |
+    <a, e g c' e'>8 \skip2. \skip8 |
+    <b, dis a b fis'>4 \skip2. |
+\mymark "Chorus" #33
+    <c e g c' e'>16 \skip2. \skip8. |
+    <g, b, d g b g'>16 \skip2. \skip8. |
+    <b, dis a b fis'>16 \skip2. \skip8. |
+    <e, b, e g b e'>16 \skip2. \skip8. |
+    <c e g c' e'>16 \skip2. \skip8. |
+    <g, b, d g b g'>16 \skip2. \skip8. |
+    <a, e a c'>16 \skip2. \skip8. |
+    <b, dis a b fis'>8 \skip2. \skip8 |
+\mymark "Verse 3" #41
+    <e, b, e g b e'>8 \skip2. \skip8 |
+    <b, dis a b fis'>8 \skip2. \skip8 |
+    <d a d' e'>8 \skip2. \skip8 |
+    <a, cis e g b e'>8 \skip2. \skip8 |
+    <c e g c' e'>8 \skip2. \skip8 |
+    <g, b, d g b g'>8 \skip2. \skip8 |
+    <a, e g c' e'>8 \skip2. \skip8 |
+    <b, dis a b fis'>8 \skip2. \skip8 |
+\mymark "Verse 4" #49
+    <e, b, e g b e'>8 \skip2. \skip8 |
+    <b, dis a b fis'>8. \skip2. \skip16 |
+    <d a d' e'>16 \skip2. \skip8. |
+    <a, cis e g b e'>4 \skip2. |
+    <c e g c' e'>4 \skip2. |
+    <g, b, d g b g'>4 \skip2. |
+    <a, e g c' e'>8 \skip2. \skip8 |
+    <b, dis a b fis'>8 \skip2. \skip8 |
+\mymark "Chorus" #57
+    <c e g c' e'>16 \skip2. \skip8. |
+    <g, b, d g b g'>16 \skip2. \skip8. |
+    <b, dis a b fis'>16 \skip2. \skip8. |
+    <e, b, e g b e'>16 \skip2. \skip8. |
+    <c e g c' e'>16 \skip2. \skip8. |
+    <g, b, d g b g'>16 \skip2. \skip8. |
+    <a, e a c'>16 \skip2. \skip8. |
+    <b, dis a b>1 |
+\mymark "Verse 5" #65
+    <e, b, e g b>8 \skip2. \skip8 |
+    <b, dis a b fis'>8 \skip2. \skip8 |
+    <d a d' e'>8 \skip2. \skip8 |
+    <a, cis g b e'>8 \skip2. \skip8 |
+    <c e g c' e'>8 \skip2. \skip8 |
+    <g, b, d d' g'>8 \skip2. \skip8 |
+    <a, e g c' e'>8 \skip2. \skip8 |
+    <b, dis a b fis'>8 \skip2. \skip8 |
+\mymark "Verse 6" #73
+    <e, b, e g b e'>16 \skip2. \skip8. |
+    <b, dis a b fis'>16 \skip2. \skip8. |
+    <d a d' e'>4 \skip2. |
+    <a, cis e g b e'>8 \skip2. \skip8 |
+    <c e g c' e'>4 \skip2. |
+    <g, b, d g b g'>4 \skip2. |
+    <a, e g c' e'>8 \skip2. \skip8 |
+    <b, dis a b fis'>4 \skip2. |
+\mymark "Solo" #81
+    <e, b, e g b e'>4 \skip2. |
+    <b, dis a b fis'>8. \skip2. \skip16 |
+    <d a d' fis'>4 \skip2. |
+    <a, cis e g b e'>8 \skip2. \skip8 |
+    <c e g c' e'>4 \skip2. |
+    <g, b, d g b g'>4 \skip2. |
+    <a, e g c' e'>8 \skip2. \skip8 |
+    <b, dis a b fis'>4 \skip2. |
+    <e, b, e g b e'>4 \skip2. |
+    <b, dis a b fis'>8. \skip2. \skip16 |
+    <d a d' fis'>4 \skip2. |
+    <a, cis e g b e'>8 \skip2. \skip8 |
+    <c e g c' e'>4 \skip2. |
+    <g, b, d g b g'>4 \skip2. |
+    <a, e g c' e'>8 \skip2. \skip8 |
+    <b, dis a b fis'>4 \skip2. |
+    <e, b, e g b e'>4 \skip2. |
+    <b, dis a b fis'>8. \skip2. \skip16 |
+    <d a d' fis'>4 \skip2. |
+    <a, cis e g b e'>8 \skip2. \skip8 |
+    <c e g c' e'>4 \skip2. |
+    <g, b, d g b g'>4 \skip2. |
+    <a, e g c' e'>8 \skip2. \skip8 |
+    <b, dis a b fis'>4 \skip2. |
+    <e, b, e g b e'>4 \skip2. |
+    <b, dis a b fis'>8. \skip2. \skip16 |
+    <d a d' fis'>4 \skip2. |
+    <a, cis e g b e'>8 \skip2. \skip8 |
+    <c e g c' e'>4 \skip2. |
+    <g, b, d g b g'>4 \skip2. |
+    <a, e g c' e'>8 \skip2. \skip8 |
+    <b, dis a b fis'>4 \skip2. |
+    <e, b, e g b e'>4 \skip2. |
+    <b, dis a b fis'>8. \skip2. \skip16 |
+    <d a d' fis'>4 \skip2. |
+    <a, cis e g b e'>8 \skip2. \skip8 |
+    <c e g c' e'>4 \skip2. |
+    <g, b, d g b g'>4 \skip2. |
+    <a, e g c' e'>8 \skip2. \skip8 |
+    <b, dis a b fis'>4 \skip2. |
+    \skip1 |
+}

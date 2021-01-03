@@ -3,23 +3,19 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 16  Divisions: 384
+Format: 1  Tracks: 5  Divisions: 384
+Sequence: midiGg
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
+Track name: midiKaraoke
 >@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Load|!bg=uponguns,bringyourfriends.>It'sfuntoloseandtopre-tend.>She'so-verboardandselfas-sured.>Ohno,Iknowadir-tyword.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo.>Withthelightsout,it'slessdan-gerous.>Herewearenow,en-ter-tainus.>Ifeelstu-pidandcon-ta-gious.>Herewearenow,en-ter-tainus.>Amu-lat-to,anal-bi-no,amos-qui-to,myli-bi-do.->Yeah,->hey-->yay.->@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1I'm|!bg=worseatwhatIdobest.>AndforthisgiftIfeelblessed.>Ourlit-tlegrouphasal-waysbeenandal-wayswillun-tiltheend.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo.>Withthelightsout,it'slessdan-gerous.>Herewearenow,en-ter-tainus.>Ifeelstu-pidandcon-ta-gious.>Herewearenow,en-ter-tainus.>Amu-lat-to,anal-bi-no,amos-qui-to,myli-bi-do.>Yeah,->hey-->yay.->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1And|!bg=Ifor-getjustwhyItaste.>Ohyeah,Iguessitmakesmesmile.>Ifoundithard,it'shardtofind.>Ohwell,what-e-ver,ne-vermind.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo,howlow.>Hel-lo,hel-lo,hel-lo.>Withthelightsout,it'slessdan-gerous.>Herewearenow,en-ter-tainus.>Ifeelstu-pidandcon-ta-gious.>Herewearenow,en-ter-tainus.>Amu-lat-to,anal-bi-no,amos-qui-to,myli-bi-do.>Ade-ni-al,ade-ni-al,ade-ni-al,ade-ni-al,ade-ni-al.>Ade-ni-al,ade-ni-al,ade-ni-al,ade-ni-al.@@Playing time: ~305 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 40510929/53500260 bytes(75.721% compressed)
+Wrote 32497752/53500260 bytes(60.7432% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 2.8 staff-spaces

@@ -1,0 +1,142 @@
+steelpan = {
+    \myVocalsStuff
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 1" #21
+    r4 d'8 d' d' d'4 d'8~ |
+    d'8 c' c' a c'4 d'8 g |
+    f4 r2 a8 g~ |
+    g8 a4 r2 r8 |
+    r8. d'16 d'8 d' d' d' d' d' |
+    d'8 c' r8. a16 c'4 d'8 g |
+    f4 r2 a8 g~ |
+    g8 a4 r2 r8 |
+    r4 d'8 d' d' d'4 d'8~ |
+    d'8 c' c' a c'4 d'8 g |
+    f4 r2 a8 g~ |
+    g8 a4 r4. a8 g~ |
+\mymark "Interlude" #33
+    g16 f d4 r2 r8 |
+    r1 |
+    r1 |
+    r2. a8 c' |
+\mymark "Verse 1" #37
+    d'8 d'4 d' r8 d' c' |
+    d'8 d'4 r2 g8 |
+    g8 g4 g f8 a4 |
+    r2. r8 g |
+    g8 g4 g f8 a g~ |
+    g8 g4 r f8 f f |
+    a8 c' c' c'4 a8 c' c'~ |
+    c'4 r2 r8 a |
+\mymark "Verse 2" #45
+    d'8 d'4 d' d'8 c' d'~ |
+    d'8 c' c' c'4 r g8 |
+    g8 a a f g4 f8 a~ |
+    a4 r4. r16 f f8 f |
+    a8 g f f4 r g8 |
+    a8 g f f4 r f8 |
+    a8 c' c' c' a16 c'4.~ c'16 |
+    r1 |
+\mymark "Chorus 2" #53
+    r8 a d' d' d' d'4 d'8~ |
+    d'8 c' c' a c'4 d'8 g( |
+    f8) r2 r8 a g~ |
+    g8 a4 r2 r8 |
+    r8. d'16 d'8 d' d' d' d' d' |
+    d'8 c' r8. a16 c'8. d' g8( |
+    f8) r2 r8 a g~ |
+    g8 a4 r2 r8 |
+    r4 d'8 d' d' d'4 d'8~ |
+    d'8 c' c' a c'4 d'8 g( |
+    f8) r2 r8 a g~ |
+    g8 a4 r2 r8 |
+    r8. d'16 d'8 d' d' d' d' d' |
+    d'8 c' r8. a16 c'8. d' g8( |
+    f8) r2 r8 a g~ |
+    g8 a4 r4. a8 g~ |
+\mymark "Interlude" #69
+    g16 f d4 r2 r8 |
+    r1 |
+    r1 |
+    r2 r8 <a a> <a a> <c' c'> |
+\mymark "Verse 3" #73
+    <d' d'>8 <d' d'> r2 r8 a |
+    c'8 d' d' d' d' c' r4 |
+    r2 r8 a a c'~ |
+    c'8 a a f a4 g8 f |
+    a4 g8( f) r2 |
+    r8 f a4 g8( f4) f8 |
+    a8 c' a r2 r8 |
+    r2 r8 f'( e') d'~( |
+\mymark "Verse 4" #81
+    d'8 c') c' c' c' c'( a) d'~ |
+    d'8 d' d' d' d' c' a r |
+    r2 r8 g g f |
+    g8 a4. r f16 f |
+    a8 g f a4 r d16 d |
+    g4 f8 g4( d8) r g |
+    a8 c' a c'4 a8 d'4 |
+    r1 |
+\mymark "Chorus 3" #89
+    r4 d'8 d' d' d'4 d'8~ |
+    d'8 c' c' a c'4 d'8 g( |
+    f4) r2 a8 g~ |
+    g8 a4 r2 r8 |
+    r8. d'16 d'8 d' d' d' d' d' |
+    d'8 c' r8. a16 c'8. d' g8( |
+    f8) r2 r8 a g~ |
+    g8 a4 r2 r8 |
+    r4 d'8 d' d' d' r d'16 d' |
+    d'8( c') c' c'4 d' g8( |
+    f8) r2 r8 g g~ |
+    g8 a4 r2 r8 |
+    r8. d'16 d'8 d' d' d' d' d' |
+    d'8 c' r8. a16 c'8. d' g8( |
+    f8) r2 r8 a g~ |
+    g8 a4 r2 r8 |
+\mymark "Chorus 4" #105
+    r4 d'8 d' d' d' r d'~ |
+    d'8 c' c' c' g'4 g'8 d'( |
+    c'8) r2 r8 a c'~ |
+    c'8 d'4 r2 r8 |
+    r8. d'16 d'8 d' d' d' d' d' |
+    d'8 c' r8. d'16 g'8( d') d' g'~( |
+    g'8 d'16 c' f'8) r4. g'8 g'~( |
+    g'8 e'16 c'8.) r2 r8 |
+    r4 a'8 f' f' g' g' g' |
+    g'4 g'8 g'4. f'8 g'~( |
+    g'8 f'16 e' d'4) r8 a' c''( a') |
+    g'8 g'( f'16.~ f'64) r f'8 g'( d') r4 |
+    r8. d'16 a'8 g' f' g' g' g' |
+    g'8 g' r8. a'16 c''8 g' g' g'~ |
+    g'8 f'16( d' f' g') r4. a'8 c''~\glissando |
+    c''8\glissando f' g' g'4.\glissando c'8 r |
+\mymark "fade out" #121
+    r4 d'8 d' d' d' r d'16 d' |
+    d'8( c') c' g'4. f'8 g'~( |
+    g'16 f' d'8) r2 a'8 c''~\glissando |
+    c''8\glissando f' g' g'4\glissando c'8 r4 |
+    r8. d'16 a'8 g' f' g' f' f' |
+    g'8 g' r8. a'16 c''4 g'8 g'~ |
+    g'8 f'16( d' f' g') r4. a'8 c''~\glissando |
+    c''8\glissando f' g' g'4\glissando c'8 r4 |
+}

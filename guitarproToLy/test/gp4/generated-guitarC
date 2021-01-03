@@ -1,0 +1,105 @@
+guitarC = {
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Sliding Riff" #6
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse" #14
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #22
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Interlude" #28
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse" #32
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #40
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Interlude" #46
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Solo" #50
+    <d\5 a\4>4. <d\5 a\4>2~ <d\5 a\4>8 |
+    <c\5 g\4>4. <g,\6 d\5>2~ <g,\6 d\5>8 |
+    <c\5 g\4>4. <g,\6 d\5>2~ <g,\6 d\5>8 |
+    <g,\6 d\5>8 <f,\6 c\5>4 <d\5 a\4>2~ <d\5 a\4>8 |
+    <d\5 a\4>4. <d\5 a\4>2~ <d\5 a\4>8 |
+    <c\5 g\4>4. <g,\6 d\5>2~ <g,\6 d\5>8 |
+    <c\5 g\4>4. <g,\6 d\5>2~ <g,\6 d\5>8 |
+    <g,\6 d\5>8 <f,\6 c\5>4 <d\5 a\4>2~ <d\5 a\4>8 |
+\mymark "Chorus" #58
+    <c\5 g\4>4 r8 <g,\6 d\4 g\3>2~ <g,\6 d\4 g\3>8 |
+    <f,\6 c\5>4 r8 <d\5 a\4>2 a,16\5 b,\5 |
+    <c\5 g\4>4 r8 <g,\6 b,\5 d\4 g\3>2~ <g,\6 b,\5 d\4 g\3>8 |
+    c8\5\bendAfter #6 ^"¼" d\4 f\4\bendAfter #6 ^"¼" d\4 |
+    <d\4 a\3>16 <d\4 a\3> <d\4 a\3> <d\4 a\3> <d\4 a\3> <d\4 a\3> <d\4 a\3> <d\4 a\3> <d\4 a\3> <d\4 a\3> <d\4 a\3> <d\4 a\3> <d\4 a\3> <d\4 a\3> <d\4 a\3> <d\4 a\3> |
+\mymark "Verse" #63
+    <d\5 a\4 d'\3>4 r8 <d\5 a\4 d'\3>2~ <d\5 a\4 d'\3>8 |
+    <c\5 g\4 c'\3>4 r8 <g,\6 d\5 g\4>2~ <g,\6 d\5 g\4>8 |
+    <c\5 f\4 c'\3>4 r8 <g,\6 d\5 g\4>2~ <g,\6 d\5 g\4>8 |
+    <f,\6 c\5 f\4>8 <f,\6 c\5 f\4>4 <a\3 d'\2>2~ <a\3 d'\2>8 |
+    <d\5 a\4 d'\3>4 r8 <d\5 a\4 d'\3>2~ <d\5 a\4 d'\3>8 |
+    <c\5 g\4 c'\3>4 r8 <g,\6 d\5 g\4>2~ <g,\6 d\5 g\4>8 |
+    <c\5 f\4 c'\3>4 r8 <g,\6 d\5 g\4>2~ <g,\6 d\5 g\4>8 |
+    <f,\6 c\5 f\4>8 <f,\6 c\5 f\4>4 <a\3 d'\2>2~ <a\3 d'\2>8 |
+\mymark "Chorus" #71
+    <c\5 f\4 c'\3>4 r8 <g,\6 d\5 g\4>2~ <g,\6 d\5 g\4>8 |
+    <f,\6 c\5 f\4>8 <f,\6 c\5 f\4>4 <a\3 d'\2>2~ <a\3 d'\2>8 |
+    <c\5 f\4 c'\3>4 r8 <g,\6 d\5 g\4>2~ <g,\6 d\5 g\4>8 |
+    <c\5 f\4 c'\3>8 <d\5 a\4 d'\3> <f\5 c'\4 f'\3> <d\5 a\4 d'\3>2~ <d\5 a\4 d'\3>8 |
+    <c\5 g\4>4 r8 <g,\6 d\4 g\3>2~ <g,\6 d\4 g\3>8 |
+    <f,\6 c\5>4 r8 <a,\5 d\4 a\3>2~ <a,\5 d\4 a\3>8 |
+    <c\5 g\4>4 r8 <g,\6 d\4 g\3>2~ <g,\6 d\4 g\3>8 |
+    c8\5\bendAfter #6 ^"¼" d\4 f\4\bendAfter #6 ^"¼" <a,\5 d\4 a\3>2~ <a,\5 d\4 a\3>8 |
+    <c\5 g\4>4 r8 <g,\6 d\4 g\3>2~ <g,\6 d\4 g\3>8 |
+    c8\5\bendAfter #6 ^"¼" d\4 f\4\bendAfter #6 ^"¼" <d\4 a\3>2~ <d\4 a\3>8 |
+    <c\5 g\4>4 r8 <g,\6 d\4 g\3>2~ <g,\6 d\4 g\3>8 |
+    c8\5\bendAfter #6 ^"¼" d\4 f\4\bendAfter #6 ^"¼" <d\4 a\3>2~ <d\4 a\3>8 |
+    c8\5\bendAfter #6 ^"¼" d\4 f\4\bendAfter #6 ^"¼" <g,\6 d\4 g\3 d'\2>4 g,16\6 g,\6 <g,\6 d\4 g\3 d'\2>4 |
+    c8\5\bendAfter #6 ^"¼" d\4 f\4\bendAfter #6 ^"¼" <d\4 a\3>2~ <d\4 a\3>8 |
+    c8\5\bendAfter #6 ^"¼" d\4 f\4\bendAfter #6 ^"¼" <g,\6 d\4 g\3 d'\2>2~ <g,\6 d\4 g\3 d'\2>8 |
+    c8\5\bendAfter #6 ^"¼" d\4 f\4\bendAfter #6 ^"¼" <d\4 a\3>2~ <d\4 a\3>8 |
+\mymark "Outro" #87
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

@@ -24,32 +24,18 @@ class FileMaker{
     void printMeasureStuff(Gpfile.Measure measure){
 	if (measure.rehearsalMark!=null)
 	    noindent("\\mymark "+Stuff.quote(measure.rehearsalMark)+" #"+measure.name);
-	if (measure.repeatStart){
-	    int i;
-	    for (i=measure.index; main.gpfile.measures[i].repeatEnd==0; i++);
-	    indent("\\repeat volta "+main.gpfile.measures[i].repeatEnd+" {"); // }
-	}
-	if (measure.repeatAlternate>0){
-	    for (int i=measure.index-1;;--i)
-		if (main.gpfile.measures[i].repeatStart){
-		    /*{*/unindentindent("} \\alternative { {");//}}
-		    break;
-		}else if (main.gpfile.measures[i].repeatEnd>0)
-		    break;
-		else if (main.gpfile.measures[i].repeatAlternate>0){
-		    /*{*/unindentindent("} {");//}
-		    break;
-		}
-	}
+	if (measure.twiddledRepeatStart!=0)
+	    indent("\\repeat volta "+measure.twiddledRepeatStart+" {"); // }
+	if (measure.twiddledRepeatAlternate==1)
+	    /*{*/unindentindent("} \\alternative { {");//}}
+	if (measure.twiddledRepeatAlternate>1)
+	    /*{*/unindentindent("} {");//}
     }
     void printMeasureStuffEnd(Gpfile.Measure measure){
-	if (measure.repeatAlternate>0 && main.gpfile.measures[measure.index-1].repeatEnd>0)
+	if (measure.twiddledRepeatEnd==1)
+	    /*{*/unindent("}");
+	if (measure.twiddledRepeatEnd>1)
 	    /*{{*/unindent("} }");
-	if (measure.repeatEnd>0)
-	    if (main.gpfile.measures[measure.index+1].repeatAlternate>0)
-		/*{*/unindentindent("} {");//}
-	    else
-		/*{*/unindent("}");
     }
     final void noindent(String s){
 	ps.println(s);

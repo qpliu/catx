@@ -94,7 +94,7 @@ midimusic = <<
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
     } << \transpose c ees \rguitar >>
-    \tag #'(midiTwo) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"acoustic grand"
     } \gpiano
     \tag #'(midiKaraoke) \new Staff \with {

@@ -13,12 +13,12 @@
 \include "generated-bass"
 \include "generated-midiOne_donetext"
 \include "generated-midiOne"
-\include "generated-midiTwo_donetext"
-\include "generated-midiTwo"
-\include "generated-midiThree_donetext"
-\include "generated-midiThree"
-\include "generated-midiFour_donetext"
-\include "generated-midiFour"
+\include "generated-midiOneA_donetext"
+\include "generated-midiOneA"
+\include "generated-midiOneB_donetext"
+\include "generated-midiOneB"
+\include "generated-midiOneC_donetext"
+\include "generated-midiOneC"
 \include "generated-drs"
 
 layoutmusic = <<
@@ -89,18 +89,18 @@ midimusic = <<
     \tag #'(midiOne) \new Staff = "generated-midiOne" \with {
         midiInstrument = #"lead 2 (sawtooth)"
     } \midiOne
-    \tag #'(midiTwo) \new Staff = "generated-midiTwo_dotext" \midiTwoDotext
-    \tag #'(midiTwo) \new Staff = "generated-midiTwo" \with {
+    \tag #'(midiOne) \new Staff = "generated-midiOneA_dotext" \midiOneADotext
+    \tag #'(midiOne) \new Staff = "generated-midiOneA" \with {
         midiInstrument = #"overdriven guitar"
-    } \midiTwo
-    \tag #'(midiThree) \new Staff = "generated-midiThree_dotext" \midiThreeDotext
-    \tag #'(midiThree) \new Staff = "generated-midiThree" \with {
+    } \midiOneA
+    \tag #'(midiOne) \new Staff = "generated-midiOneB_dotext" \midiOneBDotext
+    \tag #'(midiOne) \new Staff = "generated-midiOneB" \with {
         midiInstrument = #"distorted guitar"
-    } \midiThree
-    \tag #'(midiFour) \new Staff = "generated-midiFour_dotext" \midiFourDotext
-    \tag #'(midiFour) \new Staff = "generated-midiFour" \with {
+    } \midiOneB
+    \tag #'(midiOne) \new Staff = "generated-midiOneC_dotext" \midiOneCDotext
+    \tag #'(midiOne) \new Staff = "generated-midiOneC" \with {
         midiInstrument = #"overdriven guitar"
-    } \midiFour
+    } \midiOneC
     \tag #'(midiGg) \new DrumStaff = "generated-drs" \with {
         drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drs

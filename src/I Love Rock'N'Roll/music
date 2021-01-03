@@ -29,8 +29,6 @@ midimusic = <<
     \markupStuff
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #1
     } \voPart
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)

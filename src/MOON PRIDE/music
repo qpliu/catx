@@ -224,25 +224,17 @@ midimusic = <<
     \markupStuff
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"synth voice"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #1
     } \voOnePart
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"synth voice"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #1
     } \voTwoPart
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"choir aahs"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #1
     } \choOnePart
     \tag #'(midiOne) \new Staff = "pianoStaff1_dotext" \pianoPartStaffOneDotext
     \tag #'(midiOne) \new Staff = "pianoStaff1" \pianoPartStaffOne
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"acoustic grand"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #1
     } \pianoPartStaffTwo
     \tag #'(midiOne) \new Staff = "key1_dotext" \keyOnePartDotext
     \tag #'(midiOne) \new Staff = "key1" \keyOnePart
@@ -262,18 +254,16 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff = "eg5" \egFivePart
     \tag #'(midiBass) \new Staff = "eb_dotext" \ebPartDotext
     \tag #'(midiBass) \new Staff = "eb" \ebPart
-    \tag #'(midiTwo) \new Staff = "perc_dotext" \percPartDotext
-    \tag #'(midiTwo) \new DrumStaff = "perc" \with {
+    \tag #'(midiOne) \new Staff = "perc_dotext" \percPartDotext
+    \tag #'(midiOne) \new DrumStaff = "perc" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \percPart
     \tag #'(midiGg) \new Staff = "drs_dotext" \drsPartDotext
     \tag #'(midiGg) \new DrumStaff = "drs" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drsPart
-    \tag #'(midiTwo) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"violin"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.7
     } \stringsPartStaffOne
     \tag #'(midiTwo) \new Staff \with {
 	midiInstrument = #"cello"

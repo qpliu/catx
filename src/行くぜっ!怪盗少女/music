@@ -285,18 +285,12 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff = "eg5" \egFivePart
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"choir aahs"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.5
     } \choOnePart
     \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.7
     } \ebPart
-    \tag #'(midiTwo) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"timpani"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.8
     } \percTwoPart
     \tag #'(midiGg) \new Staff = "drs_dotext" \drsPartDotext
     \tag #'(midiGg) \new DrumStaff = "drs" \with {

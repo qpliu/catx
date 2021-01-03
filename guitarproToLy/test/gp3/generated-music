@@ -5,13 +5,13 @@
 
 \include "generated-markup"
 \include "generated-vocals"
-\include "generated-vocals_lyrics"
-\include "generated-vocals_karaoke"
+\include "generated-vocalsA_lyrics"
+\include "generated-vocalsA_karaoke"
 \include "generated-steelpan"
 \include "generated-guitar_donetext"
 \include "generated-guitar"
 \include "generated-midiOne"
-\include "generated-midiTwo"
+\include "generated-midiOneA"
 \include "generated-bass_donetext"
 \include "generated-bass"
 \include "generated-drs"
@@ -24,7 +24,7 @@ layoutmusic = <<
         \markupStuff
         \vocals
     >>
-    \tag #'(allPart kavPart) \vocalsLyrics
+    \tag #'(allPart kavPart) \vocalsALyrics
     \tag #'(allPart susanPart) \new Staff \with {
         instrumentName = \markup { \rotate #90 "Steelpan" }
         shortInstrumentName = \markup { \rotate #90 "Sp" }
@@ -69,7 +69,7 @@ midimusic = <<
     \tag #'(midiKaraoke) \new Staff = "generated-vocals" \with {
         midiInstrument = #"honky-tonk"
     } \vocals
-    \tag #'(midiKaraoke) \vocalsKaraoke
+    \tag #'(midiKaraoke) \vocalsAKaraoke
     \tag #'(midiSusan) \new Staff = "generated-steelpan" \with {
         midiInstrument = #"violin"
     } \steelpan
@@ -80,9 +80,9 @@ midimusic = <<
     \tag #'(midiOne) \new Staff = "generated-midiOne" \with {
         midiInstrument = #"concertina"
     } \midiOne
-    \tag #'(midiTwo) \new Staff = "generated-midiTwo" \with {
+    \tag #'(midiOne) \new Staff = "generated-midiOneA" \with {
         midiInstrument = #"honky-tonk"
-    } \midiTwo
+    } \midiOneA
     \tag #'(midiBass) \new Staff = "generated-bass_dotext" \bassDotext
     \tag #'(midiBass) \new Staff = "generated-bass" \with {
         midiInstrument = #"electric bass (pick)"

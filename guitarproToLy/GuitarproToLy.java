@@ -6,6 +6,7 @@ final class GuitarproToLy{
 	System.err.println("Usage: java GuitarproToLy [global options] track n1 [track n1 options] track n2 [track n2 options] ... <gpfile");
 	System.err.println("options:");
 	System.err.println("[drumMap map]  Specify drum map.  Something like --drumMap \"49 cymc 0,38 sn 0,36 bd 1\"");
+	System.err.println("[generate-lyrics]  Generate lyrics.");
 	System.err.println("[instrument-name name]  Specify instrument name.");
 	System.err.println("[instrument-short-name name]  Specify short instrument name.");
 	System.err.println("[layout-extra stuff]  Extra stuff for layout.");
@@ -26,6 +27,7 @@ final class GuitarproToLy{
 	System.err.println("[scale scale]  Specify note spelling.  Something like scale \"c des eisis\"");
 	System.err.println("[shift n/d]  Shift notes right n/d beats.  Use shift -21/5 to shift notes left 4 1/5th beat.");
 	System.err.println("[string-numbers]  Include string numbers.");
+	System.err.println("[transpose transpose-string]  Specify transpose.  Something like transpose \"\\transpose c c'\"");
 	System.err.println("[verbose level]");
 	System.err.println("[which-lyrics which]  Choose which lyrics tracks to use--something like \"text,0,1,4\"");
 	System.exit(1);
@@ -41,6 +43,8 @@ final class GuitarproToLy{
 		trackargs.add(arg);
 	    }else if (argv[i].equals("drumMap"))
 		arg.drumMap = argv[++i];
+	    else if (argv[i].equals("generate-lyrics"))
+		arg.generate_lyrics = true;
 	    else if (argv[i].equals("instrument-name"))
 		arg.instrument_name = argv[++i];
 	    else if (argv[i].equals("instrument-short-name"))
@@ -85,6 +89,8 @@ final class GuitarproToLy{
 		    arg.shift = new Rational(Long.parseLong(argv[i].substring(0,j)),Long.parseLong(argv[i].substring(j+1)));
 	    }else if (argv[i].equals("string-numbers"))
 		arg.string_numbers = true;
+	    else if (argv[i].equals("transpose"))
+		arg.transpose = argv[++i];
 	    else if (argv[i].equals("verbose"))
 		Log.level = Integer.parseInt(argv[++i]);
 	    else if (argv[i].equals("which-lyrics"))
@@ -93,6 +99,15 @@ final class GuitarproToLy{
 		Log.error("%s is weird",argv[i]);
 		usage();
 	    }
+	Set<String>usedNames=new HashSet<String>();
+	for (Arg a:trackargs)
+	    if (!usedNames.add(a.name))
+		for (char c='A';; c++)
+		    if (usedNames.add(a.name+c)){
+			a.name += c;
+			break;
+		    }else if (c=='Z')
+			throw new RuntimeException();
 	Gpfile gpfile=new Gp5file(new DataInputStream(System.in),globalarg);
 	new Main(gpfile,globalarg,trackargs).make();
     }

@@ -7,6 +7,7 @@ words=Brian May
 copyright=
 tab=Rhye... (danielcastro142@hotmail.com) 
 instructions=
+Repeat start
 Measure 1 tripletFeel=null rehearsalMark=Verse 1 and 2 time=4/4 key=null
 Measure 2 tripletFeel=null rehearsalMark=null time=4/4 key=null
 Measure 3 tripletFeel=null rehearsalMark=null time=4/4 key=null
@@ -18,6 +19,7 @@ Measure 8 tripletFeel=null rehearsalMark=null time=4/4 key=null
 Measure 9 tripletFeel=null rehearsalMark=null time=4/4 key=null
 Measure 10 tripletFeel=null rehearsalMark=null time=4/4 key=null
 Measure 11 tripletFeel=null rehearsalMark=null time=4/4 key=null
+Repeat end 1
 Measure 12 tripletFeel=null rehearsalMark=null time=4/4 key=null
 Measure 13 tripletFeel=null rehearsalMark=Chorus time=4/4 key=null
 Measure 14 tripletFeel=null rehearsalMark=null time=4/4 key=null
@@ -66,6 +68,7 @@ offset=0
 color=32896
 Track 0 name=Brian - Acoustic tuning=[64, 59, 55, 50, 45, 40] instrument=25
 measure 1 track 0 voice 0 beat 0 bits=0x03
+Got chord A <a, e a cis' e'>
 measure 1 track 0 voice 0 beat 1 bits=0x40
 measure 1 track 0 voice 0 beat 2 bits=0x01
 measure 1 track 0 voice 0 beat 3 bits=0x01
@@ -75,6 +78,7 @@ measure 1 track 0 voice 0 beat 6 bits=0x01
 measure 1 track 0 voice 0 beat 7 bits=0x40
 measure 1 track 0 voice 0 beat 8 bits=0x01
 measure 1 track 0 voice 0 beat 9 bits=0x02
+Got chord Aaug <cis f a cis'>
 measure 2 track 0 voice 0 beat 0 bits=0x01
 measure 2 track 0 voice 0 beat 1 bits=0x40
 measure 2 track 0 voice 0 beat 2 bits=0x40
@@ -85,6 +89,7 @@ measure 2 track 0 voice 0 beat 6 bits=0x01
 measure 2 track 0 voice 0 beat 7 bits=0x40
 measure 2 track 0 voice 0 beat 8 bits=0x40
 measure 2 track 0 voice 0 beat 9 bits=0x02
+Got chord D#6/5- <a, dis a c'>
 measure 3 track 0 voice 0 beat 0 bits=0x01
 measure 3 track 0 voice 0 beat 1 bits=0x40
 measure 3 track 0 voice 0 beat 2 bits=0x40
@@ -92,10 +97,13 @@ measure 3 track 0 voice 0 beat 3 bits=0x01
 measure 3 track 0 voice 0 beat 4 bits=0x40
 measure 3 track 0 voice 0 beat 5 bits=0x01
 measure 3 track 0 voice 0 beat 6 bits=0x03
+Got chord E9 <e gis d' fis'>
 measure 3 track 0 voice 0 beat 7 bits=0x40
 measure 3 track 0 voice 0 beat 8 bits=0x02
+Got chord E7 <e gis d' e'>
 measure 3 track 0 voice 0 beat 9 bits=0x01
 measure 4 track 0 voice 0 beat 0 bits=0x03
+Got chord A <a, e a cis'>
 measure 4 track 0 voice 0 beat 1 bits=0x40
 measure 4 track 0 voice 0 beat 2 bits=0x40
 measure 4 track 0 voice 0 beat 3 bits=0x01
@@ -105,7 +113,9 @@ measure 4 track 0 voice 0 beat 6 bits=0x01
 measure 4 track 0 voice 0 beat 7 bits=0x40
 measure 4 track 0 voice 0 beat 8 bits=0x40
 measure 4 track 0 voice 0 beat 9 bits=0x02
+Got chord Aaug <cis f a cis'>
 measure 5 track 0 voice 0 beat 0 bits=0x03
+Got chord D <d a d' fis'>
 measure 5 track 0 voice 0 beat 1 bits=0x40
 measure 5 track 0 voice 0 beat 2 bits=0x01
 measure 5 track 0 voice 0 beat 3 bits=0x01
@@ -115,6 +125,7 @@ measure 5 track 0 voice 0 beat 6 bits=0x01
 measure 5 track 0 voice 0 beat 7 bits=0x40
 measure 5 track 0 voice 0 beat 8 bits=0x40
 measure 5 track 0 voice 0 beat 9 bits=0x02
+Got chord Dm/5- <d gis d' f'>
 measure 6 track 0 voice 0 beat 0 bits=0x01
 measure 6 track 0 voice 0 beat 1 bits=0x40
 measure 6 track 0 voice 0 beat 2 bits=0x40
@@ -125,23 +136,29 @@ measure 6 track 0 voice 0 beat 6 bits=0x01
 measure 6 track 0 voice 0 beat 7 bits=0x40
 measure 6 track 0 voice 0 beat 8 bits=0x40
 measure 6 track 0 voice 0 beat 9 bits=0x02
+Got chord D#6/5- <a, dis a c'>
 measure 7 track 0 voice 0 beat 0 bits=0x03
+Got chord  <a, e a cis' e'>
 measure 7 track 0 voice 0 beat 1 bits=0x40
 measure 7 track 0 voice 0 beat 2 bits=0x40
 measure 7 track 0 voice 0 beat 3 bits=0x01
 measure 7 track 0 voice 0 beat 4 bits=0x40
 measure 7 track 0 voice 0 beat 5 bits=0x40
 measure 7 track 0 voice 0 beat 6 bits=0x03
+Got chord E9 <e gis d' fis'>
 measure 7 track 0 voice 0 beat 7 bits=0x40
 measure 7 track 0 voice 0 beat 8 bits=0x03
+Got chord E7 <e gis d' e'>
 measure 7 track 0 voice 0 beat 9 bits=0x00
 measure 8 track 0 voice 0 beat 0 bits=0x03
+Got chord A <a, e a cis'>
 measure 8 track 0 voice 0 beat 1 bits=0x40
 measure 8 track 0 voice 0 beat 2 bits=0x40
 measure 8 track 0 voice 0 beat 3 bits=0x01
 measure 8 track 0 voice 0 beat 4 bits=0x40
 measure 8 track 0 voice 0 beat 5 bits=0x40
 measure 8 track 0 voice 0 beat 6 bits=0x03
+Got chord G6/5- <g, cis e>
 measure 8 track 0 voice 0 beat 7 bits=0x40
 measure 8 track 0 voice 0 beat 8 bits=0x40
 measure 8 track 0 voice 0 beat 9 bits=0x01
@@ -160,30 +177,37 @@ measure 9 track 0 voice 0 beat 9 bits=0x01
 measure 9 track 0 voice 0 beat 10 bits=0x40
 measure 9 track 0 voice 0 beat 11 bits=0x01
 measure 10 track 0 voice 0 beat 0 bits=0x02
+Got chord D <fis, d a d' fis'>
 measure 10 track 0 voice 0 beat 1 bits=0x00
 measure 10 track 0 voice 0 beat 2 bits=0x01
 measure 10 track 0 voice 0 beat 3 bits=0x01
 measure 10 track 0 voice 0 beat 4 bits=0x40
 measure 10 track 0 voice 0 beat 5 bits=0x40
 measure 10 track 0 voice 0 beat 6 bits=0x03
+Got chord F7 <f, c dis a dis'>
 measure 10 track 0 voice 0 beat 7 bits=0x40
 measure 10 track 0 voice 0 beat 8 bits=0x40
 measure 10 track 0 voice 0 beat 9 bits=0x03
+Got chord E7sus4 <e, b, d a d'>
 measure 10 track 0 voice 0 beat 10 bits=0x00
 measure 10 track 0 voice 0 beat 11 bits=0x40
 measure 11 track 0 voice 0 beat 0 bits=0x03
+Got chord A <a, e a cis'>
 measure 11 track 0 voice 0 beat 1 bits=0x40
 measure 11 track 0 voice 0 beat 2 bits=0x01
 measure 11 track 0 voice 0 beat 3 bits=0x00
 measure 11 track 0 voice 0 beat 4 bits=0x00
 measure 11 track 0 voice 0 beat 5 bits=0x41
 measure 11 track 0 voice 0 beat 6 bits=0x03
+Got chord Bm <d fis b>
 measure 11 track 0 voice 0 beat 7 bits=0x40
 measure 11 track 0 voice 0 beat 8 bits=0x40
 measure 11 track 0 voice 0 beat 9 bits=0x03
+Got chord Am/5- <dis a c' dis'>
 measure 11 track 0 voice 0 beat 10 bits=0x40
 measure 11 track 0 voice 0 beat 11 bits=0x40
 measure 12 track 0 voice 0 beat 0 bits=0x03
+Got chord E7 <e gis d' e'>
 measure 12 track 0 voice 0 beat 1 bits=0x40
 measure 12 track 0 voice 0 beat 2 bits=0x40
 measure 12 track 0 voice 0 beat 3 bits=0x00
@@ -192,6 +216,7 @@ measure 12 track 0 voice 0 beat 5 bits=0x40
 measure 12 track 0 voice 0 beat 6 bits=0x00
 measure 12 track 0 voice 0 beat 7 bits=0x01
 measure 13 track 0 voice 0 beat 0 bits=0x03
+Got chord A <a, e a cis' e' a'>
 measure 13 track 0 voice 0 beat 1 bits=0x40
 measure 13 track 0 voice 0 beat 2 bits=0x40
 measure 13 track 0 voice 0 beat 3 bits=0x01
@@ -204,18 +229,21 @@ measure 13 track 0 voice 0 beat 9 bits=0x01
 measure 13 track 0 voice 0 beat 10 bits=0x40
 measure 13 track 0 voice 0 beat 11 bits=0x40
 measure 14 track 0 voice 0 beat 0 bits=0x03
+Got chord G#m6add9-/C# <cis gis b f' a'>
 measure 14 track 0 voice 0 beat 1 bits=0x40
 measure 14 track 0 voice 0 beat 2 bits=0x40
 measure 14 track 0 voice 0 beat 3 bits=0x01
 measure 14 track 0 voice 0 beat 4 bits=0x40
 measure 14 track 0 voice 0 beat 5 bits=0x40
 measure 14 track 0 voice 0 beat 6 bits=0x03
+Got chord G#m6add11 <cis gis b f' gis'>
 measure 14 track 0 voice 0 beat 7 bits=0x40
 measure 14 track 0 voice 0 beat 8 bits=0x40
 measure 14 track 0 voice 0 beat 9 bits=0x01
 measure 14 track 0 voice 0 beat 10 bits=0x40
 measure 14 track 0 voice 0 beat 11 bits=0x40
 measure 15 track 0 voice 0 beat 0 bits=0x03
+Got chord F#m <fis, cis fis a cis' fis'>
 measure 15 track 0 voice 0 beat 1 bits=0x40
 measure 15 track 0 voice 0 beat 2 bits=0x40
 measure 15 track 0 voice 0 beat 3 bits=0x01
@@ -228,42 +256,51 @@ measure 15 track 0 voice 0 beat 9 bits=0x01
 measure 15 track 0 voice 0 beat 10 bits=0x40
 measure 15 track 0 voice 0 beat 11 bits=0x40
 measure 16 track 0 voice 0 beat 0 bits=0x03
+Got chord A <a, e a cis' e'>
 measure 16 track 0 voice 0 beat 1 bits=0x40
 measure 16 track 0 voice 0 beat 2 bits=0x40
 measure 16 track 0 voice 0 beat 3 bits=0x03
+Got chord Bm7 <b, d a d'>
 measure 16 track 0 voice 0 beat 4 bits=0x40
 measure 16 track 0 voice 0 beat 5 bits=0x40
 measure 16 track 0 voice 0 beat 6 bits=0x03
+Got chord F7 <f, c dis a dis'>
 measure 16 track 0 voice 0 beat 7 bits=0x40
 measure 16 track 0 voice 0 beat 8 bits=0x40
 measure 16 track 0 voice 0 beat 9 bits=0x03
+Got chord A6 <cis e a cis' fis'>
 measure 16 track 0 voice 0 beat 10 bits=0x40
 measure 16 track 0 voice 0 beat 11 bits=0x40
 measure 17 track 0 voice 0 beat 0 bits=0x03
+Got chord D <d a d' fis'>
 measure 17 track 0 voice 0 beat 1 bits=0x40
 measure 17 track 0 voice 0 beat 2 bits=0x40
 measure 17 track 0 voice 0 beat 3 bits=0x01
 measure 17 track 0 voice 0 beat 4 bits=0x40
 measure 17 track 0 voice 0 beat 5 bits=0x40
 measure 17 track 0 voice 0 beat 6 bits=0x03
+Got chord A <a, e a cis'>
 measure 17 track 0 voice 0 beat 7 bits=0x40
 measure 17 track 0 voice 0 beat 8 bits=0x40
 measure 17 track 0 voice 0 beat 9 bits=0x01
 measure 17 track 0 voice 0 beat 10 bits=0x40
 measure 17 track 0 voice 0 beat 11 bits=0x40
 measure 18 track 0 voice 0 beat 0 bits=0x03
+Got chord D <d a d' fis'>
 measure 18 track 0 voice 0 beat 1 bits=0x40
 measure 18 track 0 voice 0 beat 2 bits=0x40
 measure 18 track 0 voice 0 beat 3 bits=0x01
 measure 18 track 0 voice 0 beat 4 bits=0x40
 measure 18 track 0 voice 0 beat 5 bits=0x40
 measure 18 track 0 voice 0 beat 6 bits=0x03
+Got chord A <a, e a cis'>
 measure 18 track 0 voice 0 beat 7 bits=0x40
 measure 18 track 0 voice 0 beat 8 bits=0x40
 measure 18 track 0 voice 0 beat 9 bits=0x01
 measure 18 track 0 voice 0 beat 10 bits=0x40
 measure 18 track 0 voice 0 beat 11 bits=0x40
 measure 19 track 0 voice 0 beat 0 bits=0x03
+Got chord D#m/5- <a dis' fis' a'>
 measure 19 track 0 voice 0 beat 1 bits=0x40
 measure 19 track 0 voice 0 beat 2 bits=0x40
 measure 19 track 0 voice 0 beat 3 bits=0x01
@@ -276,6 +313,7 @@ measure 19 track 0 voice 0 beat 9 bits=0x01
 measure 19 track 0 voice 0 beat 10 bits=0x40
 measure 19 track 0 voice 0 beat 11 bits=0x40
 measure 20 track 0 voice 0 beat 0 bits=0x03
+Got chord  <e, b, e gis b e'>
 measure 20 track 0 voice 0 beat 1 bits=0x40
 measure 20 track 0 voice 0 beat 2 bits=0x01
 measure 20 track 0 voice 0 beat 3 bits=0x40
@@ -286,24 +324,28 @@ measure 20 track 0 voice 0 beat 7 bits=0x40
 measure 20 track 0 voice 0 beat 8 bits=0x08
 measure 20 track 0 voice 0 beat 9 bits=0x01
 measure 21 track 0 voice 0 beat 0 bits=0x03
+Got chord A <a, e a cis'>
 measure 21 track 0 voice 0 beat 1 bits=0x40
 measure 21 track 0 voice 0 beat 2 bits=0x40
 measure 21 track 0 voice 0 beat 3 bits=0x01
 measure 21 track 0 voice 0 beat 4 bits=0x40
 measure 21 track 0 voice 0 beat 5 bits=0x40
 measure 21 track 0 voice 0 beat 6 bits=0x03
+Got chord C#7 <cis gis b f' gis'>
 measure 21 track 0 voice 0 beat 7 bits=0x40
 measure 21 track 0 voice 0 beat 8 bits=0x40
 measure 21 track 0 voice 0 beat 9 bits=0x01
 measure 21 track 0 voice 0 beat 10 bits=0x40
 measure 21 track 0 voice 0 beat 11 bits=0x40
 measure 22 track 0 voice 0 beat 0 bits=0x03
+Got chord D <d a d' fis'>
 measure 22 track 0 voice 0 beat 1 bits=0x40
 measure 22 track 0 voice 0 beat 2 bits=0x40
 measure 22 track 0 voice 0 beat 3 bits=0x01
 measure 22 track 0 voice 0 beat 4 bits=0x40
 measure 22 track 0 voice 0 beat 5 bits=0x40
 measure 22 track 0 voice 0 beat 6 bits=0x03
+Got chord Adim <dis a c' fis'>
 measure 22 track 0 voice 0 beat 7 bits=0x40
 measure 22 track 0 voice 0 beat 8 bits=0x01
 measure 22 track 0 voice 0 beat 9 bits=0x01
@@ -316,12 +358,15 @@ measure 23 track 0 voice 0 beat 3 bits=0x01
 measure 23 track 0 voice 0 beat 4 bits=0x40
 measure 23 track 0 voice 0 beat 5 bits=0x40
 measure 23 track 0 voice 0 beat 6 bits=0x03
+Got chord F7 <f, c dis a dis'>
 measure 23 track 0 voice 0 beat 7 bits=0x40
 measure 23 track 0 voice 0 beat 8 bits=0x40
 measure 23 track 0 voice 0 beat 9 bits=0x03
+Got chord E7 <e, b, e gis d'>
 measure 23 track 0 voice 0 beat 10 bits=0x40
 measure 23 track 0 voice 0 beat 11 bits=0x40
 measure 24 track 0 voice 0 beat 0 bits=0x03
+Got chord A <a, e a cis'>
 measure 24 track 0 voice 0 beat 1 bits=0x40
 measure 24 track 0 voice 0 beat 2 bits=0x40
 measure 24 track 0 voice 0 beat 3 bits=0x01
@@ -332,6 +377,7 @@ measure 24 track 0 voice 0 beat 7 bits=0x00
 measure 24 track 0 voice 0 beat 8 bits=0x01
 measure 24 track 0 voice 0 beat 9 bits=0x00
 measure 25 track 0 voice 0 beat 0 bits=0x03
+Got chord A <a, e a cis' e'>
 measure 25 track 0 voice 0 beat 1 bits=0x40
 measure 25 track 0 voice 0 beat 2 bits=0x01
 measure 25 track 0 voice 0 beat 3 bits=0x01
@@ -341,6 +387,7 @@ measure 25 track 0 voice 0 beat 6 bits=0x01
 measure 25 track 0 voice 0 beat 7 bits=0x40
 measure 25 track 0 voice 0 beat 8 bits=0x01
 measure 25 track 0 voice 0 beat 9 bits=0x02
+Got chord Aaug <cis f a cis'>
 measure 26 track 0 voice 0 beat 0 bits=0x01
 measure 26 track 0 voice 0 beat 1 bits=0x40
 measure 26 track 0 voice 0 beat 2 bits=0x40
@@ -351,6 +398,7 @@ measure 26 track 0 voice 0 beat 6 bits=0x01
 measure 26 track 0 voice 0 beat 7 bits=0x40
 measure 26 track 0 voice 0 beat 8 bits=0x40
 measure 26 track 0 voice 0 beat 9 bits=0x02
+Got chord D#6/5- <a, dis a c'>
 measure 27 track 0 voice 0 beat 0 bits=0x01
 measure 27 track 0 voice 0 beat 1 bits=0x40
 measure 27 track 0 voice 0 beat 2 bits=0x40
@@ -358,10 +406,13 @@ measure 27 track 0 voice 0 beat 3 bits=0x01
 measure 27 track 0 voice 0 beat 4 bits=0x40
 measure 27 track 0 voice 0 beat 5 bits=0x01
 measure 27 track 0 voice 0 beat 6 bits=0x03
+Got chord E9 <e gis d' fis'>
 measure 27 track 0 voice 0 beat 7 bits=0x40
 measure 27 track 0 voice 0 beat 8 bits=0x02
+Got chord E7 <e gis d' e'>
 measure 27 track 0 voice 0 beat 9 bits=0x01
 measure 28 track 0 voice 0 beat 0 bits=0x03
+Got chord A <a, e a cis'>
 measure 28 track 0 voice 0 beat 1 bits=0x40
 measure 28 track 0 voice 0 beat 2 bits=0x40
 measure 28 track 0 voice 0 beat 3 bits=0x01
@@ -371,7 +422,9 @@ measure 28 track 0 voice 0 beat 6 bits=0x01
 measure 28 track 0 voice 0 beat 7 bits=0x40
 measure 28 track 0 voice 0 beat 8 bits=0x40
 measure 28 track 0 voice 0 beat 9 bits=0x02
+Got chord Aaug <cis f a cis'>
 measure 29 track 0 voice 0 beat 0 bits=0x03
+Got chord D <d a d' fis'>
 measure 29 track 0 voice 0 beat 1 bits=0x40
 measure 29 track 0 voice 0 beat 2 bits=0x01
 measure 29 track 0 voice 0 beat 3 bits=0x01
@@ -381,6 +434,7 @@ measure 29 track 0 voice 0 beat 6 bits=0x01
 measure 29 track 0 voice 0 beat 7 bits=0x40
 measure 29 track 0 voice 0 beat 8 bits=0x40
 measure 29 track 0 voice 0 beat 9 bits=0x02
+Got chord Dm/5- <d gis d' f'>
 measure 30 track 0 voice 0 beat 0 bits=0x01
 measure 30 track 0 voice 0 beat 1 bits=0x40
 measure 30 track 0 voice 0 beat 2 bits=0x40
@@ -391,29 +445,36 @@ measure 30 track 0 voice 0 beat 6 bits=0x01
 measure 30 track 0 voice 0 beat 7 bits=0x40
 measure 30 track 0 voice 0 beat 8 bits=0x40
 measure 30 track 0 voice 0 beat 9 bits=0x02
+Got chord D#6/5- <a, dis a c'>
 measure 31 track 0 voice 0 beat 0 bits=0x03
+Got chord  <a, e a cis' e'>
 measure 31 track 0 voice 0 beat 1 bits=0x40
 measure 31 track 0 voice 0 beat 2 bits=0x40
 measure 31 track 0 voice 0 beat 3 bits=0x01
 measure 31 track 0 voice 0 beat 4 bits=0x40
 measure 31 track 0 voice 0 beat 5 bits=0x40
 measure 31 track 0 voice 0 beat 6 bits=0x03
+Got chord E9 <e gis d' fis'>
 measure 31 track 0 voice 0 beat 7 bits=0x40
 measure 31 track 0 voice 0 beat 8 bits=0x03
+Got chord E7 <e gis d' e'>
 measure 31 track 0 voice 0 beat 9 bits=0x00
 measure 32 track 0 voice 0 beat 0 bits=0x03
+Got chord A <a, e a cis'>
 measure 32 track 0 voice 0 beat 1 bits=0x40
 measure 32 track 0 voice 0 beat 2 bits=0x40
 measure 32 track 0 voice 0 beat 3 bits=0x01
 measure 32 track 0 voice 0 beat 4 bits=0x40
 measure 32 track 0 voice 0 beat 5 bits=0x40
 measure 32 track 0 voice 0 beat 6 bits=0x03
+Got chord G6/5- <g, cis e>
 measure 32 track 0 voice 0 beat 7 bits=0x40
 measure 32 track 0 voice 0 beat 8 bits=0x40
 measure 32 track 0 voice 0 beat 9 bits=0x01
 measure 32 track 0 voice 0 beat 10 bits=0x40
 measure 32 track 0 voice 0 beat 11 bits=0x40
 measure 33 track 0 voice 0 beat 0 bits=0x03
+Got chord E7 <e, b, e gis d' e'>
 measure 33 track 0 voice 0 beat 1 bits=0x40
 measure 33 track 0 voice 0 beat 2 bits=0x40
 measure 33 track 0 voice 0 beat 3 bits=0x01
@@ -426,30 +487,37 @@ measure 33 track 0 voice 0 beat 9 bits=0x00
 measure 33 track 0 voice 0 beat 10 bits=0x00
 measure 33 track 0 voice 0 beat 11 bits=0x01
 measure 34 track 0 voice 0 beat 0 bits=0x02
+Got chord D <fis, d a d' fis'>
 measure 34 track 0 voice 0 beat 1 bits=0x00
 measure 34 track 0 voice 0 beat 2 bits=0x01
 measure 34 track 0 voice 0 beat 3 bits=0x01
 measure 34 track 0 voice 0 beat 4 bits=0x40
 measure 34 track 0 voice 0 beat 5 bits=0x40
 measure 34 track 0 voice 0 beat 6 bits=0x03
+Got chord F7 <f, c dis a dis'>
 measure 34 track 0 voice 0 beat 7 bits=0x40
 measure 34 track 0 voice 0 beat 8 bits=0x40
 measure 34 track 0 voice 0 beat 9 bits=0x03
+Got chord E7sus4 <e, b, d a d'>
 measure 34 track 0 voice 0 beat 10 bits=0x00
 measure 34 track 0 voice 0 beat 11 bits=0x40
 measure 35 track 0 voice 0 beat 0 bits=0x03
+Got chord A <a, e a cis'>
 measure 35 track 0 voice 0 beat 1 bits=0x40
 measure 35 track 0 voice 0 beat 2 bits=0x01
 measure 35 track 0 voice 0 beat 3 bits=0x00
 measure 35 track 0 voice 0 beat 4 bits=0x00
 measure 35 track 0 voice 0 beat 5 bits=0x41
 measure 35 track 0 voice 0 beat 6 bits=0x03
+Got chord Bm <d fis b>
 measure 35 track 0 voice 0 beat 7 bits=0x40
 measure 35 track 0 voice 0 beat 8 bits=0x40
 measure 35 track 0 voice 0 beat 9 bits=0x03
+Got chord Am/5- <dis a c' dis'>
 measure 35 track 0 voice 0 beat 10 bits=0x40
 measure 35 track 0 voice 0 beat 11 bits=0x40
 measure 36 track 0 voice 0 beat 0 bits=0x03
+Got chord E7 <e gis d' e'>
 measure 36 track 0 voice 0 beat 1 bits=0x40
 measure 36 track 0 voice 0 beat 2 bits=0x40
 measure 36 track 0 voice 0 beat 3 bits=0x00
@@ -458,6 +526,7 @@ measure 36 track 0 voice 0 beat 5 bits=0x40
 measure 36 track 0 voice 0 beat 6 bits=0x00
 measure 36 track 0 voice 0 beat 7 bits=0x01
 measure 37 track 0 voice 0 beat 0 bits=0x03
+Got chord A <a, e a cis' e' a'>
 measure 37 track 0 voice 0 beat 1 bits=0x40
 measure 37 track 0 voice 0 beat 2 bits=0x40
 measure 37 track 0 voice 0 beat 3 bits=0x01
@@ -470,18 +539,21 @@ measure 37 track 0 voice 0 beat 9 bits=0x01
 measure 37 track 0 voice 0 beat 10 bits=0x40
 measure 37 track 0 voice 0 beat 11 bits=0x40
 measure 38 track 0 voice 0 beat 0 bits=0x03
+Got chord G#m6add9-/C# <cis gis b f' a'>
 measure 38 track 0 voice 0 beat 1 bits=0x40
 measure 38 track 0 voice 0 beat 2 bits=0x40
 measure 38 track 0 voice 0 beat 3 bits=0x01
 measure 38 track 0 voice 0 beat 4 bits=0x40
 measure 38 track 0 voice 0 beat 5 bits=0x40
 measure 38 track 0 voice 0 beat 6 bits=0x03
+Got chord G#m6add11 <cis gis b f' gis'>
 measure 38 track 0 voice 0 beat 7 bits=0x40
 measure 38 track 0 voice 0 beat 8 bits=0x40
 measure 38 track 0 voice 0 beat 9 bits=0x01
 measure 38 track 0 voice 0 beat 10 bits=0x40
 measure 38 track 0 voice 0 beat 11 bits=0x40
 measure 39 track 0 voice 0 beat 0 bits=0x03
+Got chord F#m <fis, cis fis a cis' fis'>
 measure 39 track 0 voice 0 beat 1 bits=0x40
 measure 39 track 0 voice 0 beat 2 bits=0x40
 measure 39 track 0 voice 0 beat 3 bits=0x01
@@ -494,42 +566,51 @@ measure 39 track 0 voice 0 beat 9 bits=0x01
 measure 39 track 0 voice 0 beat 10 bits=0x40
 measure 39 track 0 voice 0 beat 11 bits=0x40
 measure 40 track 0 voice 0 beat 0 bits=0x03
+Got chord A <a, e a cis' e'>
 measure 40 track 0 voice 0 beat 1 bits=0x40
 measure 40 track 0 voice 0 beat 2 bits=0x40
 measure 40 track 0 voice 0 beat 3 bits=0x03
+Got chord Bm7 <b, d a d'>
 measure 40 track 0 voice 0 beat 4 bits=0x40
 measure 40 track 0 voice 0 beat 5 bits=0x40
 measure 40 track 0 voice 0 beat 6 bits=0x03
+Got chord F7 <f, c dis a dis'>
 measure 40 track 0 voice 0 beat 7 bits=0x40
 measure 40 track 0 voice 0 beat 8 bits=0x40
 measure 40 track 0 voice 0 beat 9 bits=0x03
+Got chord A6 <cis e a cis' fis'>
 measure 40 track 0 voice 0 beat 10 bits=0x40
 measure 40 track 0 voice 0 beat 11 bits=0x40
 measure 41 track 0 voice 0 beat 0 bits=0x03
+Got chord D <d a d' fis'>
 measure 41 track 0 voice 0 beat 1 bits=0x40
 measure 41 track 0 voice 0 beat 2 bits=0x40
 measure 41 track 0 voice 0 beat 3 bits=0x01
 measure 41 track 0 voice 0 beat 4 bits=0x40
 measure 41 track 0 voice 0 beat 5 bits=0x40
 measure 41 track 0 voice 0 beat 6 bits=0x03
+Got chord A <a, e a cis'>
 measure 41 track 0 voice 0 beat 7 bits=0x40
 measure 41 track 0 voice 0 beat 8 bits=0x40
 measure 41 track 0 voice 0 beat 9 bits=0x01
 measure 41 track 0 voice 0 beat 10 bits=0x40
 measure 41 track 0 voice 0 beat 11 bits=0x40
 measure 42 track 0 voice 0 beat 0 bits=0x03
+Got chord D <d a d' fis'>
 measure 42 track 0 voice 0 beat 1 bits=0x40
 measure 42 track 0 voice 0 beat 2 bits=0x40
 measure 42 track 0 voice 0 beat 3 bits=0x01
 measure 42 track 0 voice 0 beat 4 bits=0x40
 measure 42 track 0 voice 0 beat 5 bits=0x40
 measure 42 track 0 voice 0 beat 6 bits=0x03
+Got chord A <a, e a cis'>
 measure 42 track 0 voice 0 beat 7 bits=0x40
 measure 42 track 0 voice 0 beat 8 bits=0x40
 measure 42 track 0 voice 0 beat 9 bits=0x01
 measure 42 track 0 voice 0 beat 10 bits=0x40
 measure 42 track 0 voice 0 beat 11 bits=0x40
 measure 43 track 0 voice 0 beat 0 bits=0x03
+Got chord D#m/5- <a dis' fis' a'>
 measure 43 track 0 voice 0 beat 1 bits=0x40
 measure 43 track 0 voice 0 beat 2 bits=0x40
 measure 43 track 0 voice 0 beat 3 bits=0x01
@@ -542,6 +623,7 @@ measure 43 track 0 voice 0 beat 9 bits=0x01
 measure 43 track 0 voice 0 beat 10 bits=0x40
 measure 43 track 0 voice 0 beat 11 bits=0x40
 measure 44 track 0 voice 0 beat 0 bits=0x03
+Got chord  <e, b, e gis b e'>
 measure 44 track 0 voice 0 beat 1 bits=0x40
 measure 44 track 0 voice 0 beat 2 bits=0x01
 measure 44 track 0 voice 0 beat 3 bits=0x40
@@ -552,24 +634,28 @@ measure 44 track 0 voice 0 beat 7 bits=0x40
 measure 44 track 0 voice 0 beat 8 bits=0x08
 measure 44 track 0 voice 0 beat 9 bits=0x01
 measure 45 track 0 voice 0 beat 0 bits=0x03
+Got chord A <a, e a cis'>
 measure 45 track 0 voice 0 beat 1 bits=0x40
 measure 45 track 0 voice 0 beat 2 bits=0x40
 measure 45 track 0 voice 0 beat 3 bits=0x01
 measure 45 track 0 voice 0 beat 4 bits=0x40
 measure 45 track 0 voice 0 beat 5 bits=0x40
 measure 45 track 0 voice 0 beat 6 bits=0x03
+Got chord C#7 <cis gis b f' gis'>
 measure 45 track 0 voice 0 beat 7 bits=0x40
 measure 45 track 0 voice 0 beat 8 bits=0x40
 measure 45 track 0 voice 0 beat 9 bits=0x01
 measure 45 track 0 voice 0 beat 10 bits=0x40
 measure 45 track 0 voice 0 beat 11 bits=0x40
 measure 46 track 0 voice 0 beat 0 bits=0x03
+Got chord D <d a d' fis'>
 measure 46 track 0 voice 0 beat 1 bits=0x40
 measure 46 track 0 voice 0 beat 2 bits=0x40
 measure 46 track 0 voice 0 beat 3 bits=0x01
 measure 46 track 0 voice 0 beat 4 bits=0x40
 measure 46 track 0 voice 0 beat 5 bits=0x40
 measure 46 track 0 voice 0 beat 6 bits=0x03
+Got chord Adim <dis a c' fis'>
 measure 46 track 0 voice 0 beat 7 bits=0x40
 measure 46 track 0 voice 0 beat 8 bits=0x01
 measure 46 track 0 voice 0 beat 9 bits=0x01
@@ -582,12 +668,15 @@ measure 47 track 0 voice 0 beat 3 bits=0x01
 measure 47 track 0 voice 0 beat 4 bits=0x40
 measure 47 track 0 voice 0 beat 5 bits=0x40
 measure 47 track 0 voice 0 beat 6 bits=0x03
+Got chord F7 <f, c dis a dis'>
 measure 47 track 0 voice 0 beat 7 bits=0x40
 measure 47 track 0 voice 0 beat 8 bits=0x40
 measure 47 track 0 voice 0 beat 9 bits=0x03
+Got chord E7 <e, b, e gis d'>
 measure 47 track 0 voice 0 beat 10 bits=0x40
 measure 47 track 0 voice 0 beat 11 bits=0x40
 measure 48 track 0 voice 0 beat 0 bits=0x02
+Got chord A <a, e a cis' e'>
 measure 48 track 0 voice 0 beat 1 bits=0x40
 measure 48 track 0 voice 0 beat 2 bits=0x01
 measure 48 track 0 voice 0 beat 3 bits=0x01
@@ -596,10 +685,13 @@ measure 48 track 0 voice 0 beat 5 bits=0x01
 measure 48 track 0 voice 0 beat 6 bits=0x01
 measure 48 track 0 voice 0 beat 7 bits=0x40
 measure 48 track 0 voice 0 beat 8 bits=0x02
+Got chord Adim <a, dis a c' fis'>
 measure 48 track 0 voice 0 beat 9 bits=0x01
 measure 49 track 0 voice 0 beat 0 bits=0x02
+Got chord A <a, e a cis' e'>
 measure 49 track 0 voice 0 beat 1 bits=0x41
 measure 49 track 0 voice 0 beat 2 bits=0x0a
+Got chord E7 <e d' e'>
 measure 49 track 0 voice 0 beat 3 bits=0x00
 measure 50 track 0 voice 0 beat 0 bits=0x40
 measure 50 track 0 voice 0 beat 1 bits=0x00

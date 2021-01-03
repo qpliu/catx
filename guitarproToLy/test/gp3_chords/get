@@ -6,4 +6,5 @@ scale "" \
 track 0 \
     preset peter \
     output-chords \
+    output-lilypond \
 2>&1|tee log

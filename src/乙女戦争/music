@@ -110,8 +110,6 @@ midimusic = <<
     \tag #'(midiSusan) \new Staff = "vocal" \vocalPart
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"choir aahs"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.5
     } \chorusPart
     \tag #'(midiPeter) \new Staff = "guitar_dotext" \guitarPartDotext
     \tag #'(midiPeter) \new Staff = "guitar" \guitarPart
@@ -123,8 +121,6 @@ midimusic = <<
     \tag #'(midiOne) \new Staff = "keyboard3" \keyboardThreePart
     \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.7
     } \bassPart
     \tag #'(midiGg) \new Staff = "drums_dotext" \drumsPartDotext
     \tag #'(midiGg) \new DrumStaff = "drums" \with {

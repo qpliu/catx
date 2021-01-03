@@ -18,14 +18,25 @@ final class LyricsFileMaker extends ChoppedTrackFileMaker{
 	super(main,arg,arg.name+(karaoke?"_karaoke":"_lyrics"),"",arg.name+(karaoke?"Karaoke":"Lyrics"),karaoke?HYPHENSTRING_GWS:EMPTYSTRING_GWS);
 	this.karaoke = karaoke;
 	for (StringTokenizer st=new StringTokenizer(arg.which_lyrics,","); st.hasMoreTokens(); which_lyrics.add(st.nextToken()));
+	if (arg.generate_lyrics)
+	    generate_lyrics();
     }
     @Override boolean filterEvents(Gpfile.Event event){
 	return event instanceof Gpfile.LyricEvent && (which_lyrics.size()==0 || which_lyrics.contains(((Gpfile.LyricEvent)event).which));
     }
-    @Override void make()throws IOException{
-	indent(lyname+" = \\new Lyrics \\lyricmode {");
-	makeMeasures();
-	unindent("}");
+    private void generate_lyrics(){
+	Queue<Gpfile.NoteEvent>queue=new PriorityQueue<Gpfile.NoteEvent>();
+	for (Gpfile.Event e:track.events)
+	    if (e instanceof Gpfile.NoteEvent)
+		queue.add((Gpfile.NoteEvent)e);
+	for (Gpfile.NoteEvent ne; (ne=queue.poll())!=null;){
+	    while (queue.size()!=0 && queue.peek().time==ne.time)
+		ne = queue.poll();
+	    track.events.add(new Gpfile.LyricEvent(ne.time,ne.duration,Stuff.midi2ly(ne.getNote(),arg),false,false,"generated"));
+	}
+    }
+    @Override String getStuff(){
+	return super.getStuff()+"\\new Lyrics \\lyricmode ";
     }
     @Override MeasureMaker.GetWhatSuffix getGetWhatSuffix(List<Gpfile.Event>list){
 	String lyric=null;

@@ -9,23 +9,19 @@ Best key: d major or b minor
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 14  Divisions: 384
+Format: 1  Tracks: 5  Divisions: 384
+Sequence: midiGg
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
+Track name: midiKaraoke
 >@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Six|!bg=o'-clockal-rea-dyIwasjustinthemid-dleofadream.-->@Iwaskiss-in'Va-len-ti-nobyacrys-talblueI-ta-li-anstream.->@ButIcan'tbelate'CausethenIguessIjustwon'tgetpaid.-->@@Thesearethedayswhenyouwishyourbedwasal-rea-dymade.->It'sjusta-no-therma-nicMon-day.-->WishitwasSun-day.-->'Causethat'smyfunday.-->MyIdon'thavetorunday.->It'sjusta-no-therma-nicMon-day.>Havetocatchanear-lytrain.|!bg=img=../train.pngGot|!bg=tobetoworkbynine.-->@-AndifIhadanae-ro-planeIstillcould-n'tmakeitontime.->@'Causeittakesmesolongjusttofi-gureoutwhatI'mgon-nawear.-->@Blameitonthetrain.|!bg=img=../train.pngBut|!bg=thebossisal-rea-dythere.->It'sjusta-no-therma-nicMon-day.-->WishitwasSun-day.-->'Causethat'smyfunday.-->MyIdon'thavetorunday.->It'sjusta-no-therma-nicMon-day.>Allofmynightswhydidmylo-verhavetopicklastnighttogetdown?-->Does-n'titmat-terthatIhavetofeedthebothofus?Em-ploy-ment'sdown.--->Hetellsmeinhisbed-roomvoice.>C'-monho-ney,-let'sgomakesomenoise.-->Timeitgoessofast.-->It'sjusta-no-therma-nicMon-day.-->WishitwasSun-day.-->'Causethat'smyfunday.-->MyIdon'thavetorunday.->It'sjusta-no-therma-nicMon-day.-->WishitwasSun-day.-->'Causethat'smyfunday.->It'sjusta-no-therma-nicMon-day.-@@Playing time: ~190 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 22861637/33318360 bytes(68.6157% compressed)
+Wrote 17965528/33318360 bytes(53.9208% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

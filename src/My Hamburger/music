@@ -84,13 +84,13 @@ midimusic = <<
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \steelpanPart
-    \tag #'(midiTwo) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"synthstrings 1" % 50
     } \synthOnePart
-    \tag #'(midiTwo) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"lead 1 (square)" % 80
     } \synthTwoPart
-    \tag #'(midiTwo) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"vibraphone" % 11
     } \vibraphonePart
     \tag #'(midiPeter) \new Staff \with {

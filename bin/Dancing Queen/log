@@ -15,23 +15,19 @@ Best key: fis minor or a major
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 14  Divisions: 384
+Format: 1  Tracks: 5  Divisions: 384
+Sequence: midiGg
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
+Track name: midiKaraoke
 >@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1You|!bg=can-dance-->Youcanjive>Hav-ingthetimeofyourlife--->Ooh,--see-that-girl->Watch-that--scene->Dig--ging-the-danc-ing-queen--->Fri-daynightandthelightsarelow>Look-ingoutforaplacetogo->Wheretheyplaytherightmu-sic--->Get-tingintheswing>Youcometolookforaking->A-ny-bodycouldbethatguy->Nightisyoungandthemu-sic'shigh->Withabitofrockmu-sic--->E-very-thingisfine>You'reinthemoodforadance->Andwhenyougetthechance--->Youarethedanc-ingqueen>Youngandsweet>On-lyse-ven-teen->Danc-ingqueen>Feelthebeatfromthetam-bou-rine,ohyeah->Youcandance>Youcanjive->Hav-ingthetimeofyourlife-->Ooh,--seethatgirl>Watchthatscene>Dig-gingthedanc-ingqueen->@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1You're|!bg=ateas-er,youturn'emon>Leave'emburn-ingandthenyou'regone->Look-ingoutfora-no-ther--->A-ny-onewilldo>You'reinthemoodforadance->Andwhenyougetthechance--->Youarethedanc-ingqueen>Youngandsweet>On-lyse-ven-teen->Danc-ingqueen>Feelthebeatfromthetam-bou-rine,ohyeah->Youcandance>Youcanjive->Hav-ingthetimeofyourlife-->Ooh,--seethatgirl>Watchthatscene>Dig-gingthedanc-ingqueen--->Dig-gingthedanc-ingqueen-@@-----Playing time: ~181 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 22206380/31746564 bytes(69.9489% compressed)
+Wrote 18376536/31746564 bytes(57.8851% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 2.4 staff-spaces

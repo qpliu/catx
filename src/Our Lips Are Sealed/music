@@ -105,8 +105,6 @@ midimusic = <<
     } \guitarPart
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"distorted guitar" % 30
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.3
     } \guitarTwoPart
     \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (pick)"

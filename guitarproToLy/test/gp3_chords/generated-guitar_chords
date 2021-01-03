@@ -1,17 +1,19 @@
 guitarChords = \new ChordNames {
 \mymark "Verse 1 and 2" #1
-    <a, e a cis' e'>16. \skip2 \skip8 \skip32 <cis f a cis'>4 |
-    \skip2. <a, dis a c'>4 |
-    \skip2 <e gis d' fis'>16. \skip16 <e gis d' e'>4 \skip16. |
-    <a, e a cis'>16. \skip2 \skip8 \skip32 <cis f a cis'>4 |
-    <d a d' fis'>16. \skip2 \skip8 \skip32 <d gis d' f'>4 |
-    \skip2. <a, dis a c'>4 |
-    <a, e a cis' e'>16. \skip4. \skip32 <e gis d' fis'>16. \skip16 <e gis d' e'>16. \skip4 |
-    <a, e a cis'>16. \skip4. \skip32 <g, cis e>16. \skip4. \skip32 |
-    \skip1 |
-    <fis, d a d' fis'>8 \skip4. <f, c dis a dis'>16. \skip8 \skip32 <e, b, d a d'>8. \skip16 |
-    <a, e a cis'>16. \skip4. \skip32 <d fis b>16. \skip8 \skip32 <dis a c' dis'>16. \skip8 \skip32 |
-    <e gis d' e'>16. \skip2. \skip8 \skip32 |
+    \repeat volta 1 {
+        <a, e a cis' e'>16. \skip2 \skip8 \skip32 <cis f a cis'>4 |
+        \skip2. <a, dis a c'>4 |
+        \skip2 <e gis d' fis'>16. \skip16 <e gis d' e'>4 \skip16. |
+        <a, e a cis'>16. \skip2 \skip8 \skip32 <cis f a cis'>4 |
+        <d a d' fis'>16. \skip2 \skip8 \skip32 <d gis d' f'>4 |
+        \skip2. <a, dis a c'>4 |
+        <a, e a cis' e'>16. \skip4. \skip32 <e gis d' fis'>16. \skip16 <e gis d' e'>16. \skip4 |
+        <a, e a cis'>16. \skip4. \skip32 <g, cis e>16. \skip4. \skip32 |
+        \skip1 |
+        <fis, d a d' fis'>8 \skip4. <f, c dis a dis'>16. \skip8 \skip32 <e, b, d a d'>8. \skip16 |
+        <a, e a cis'>16. \skip4. \skip32 <d fis b>16. \skip8 \skip32 <dis a c' dis'>16. \skip8 \skip32 |
+        <e gis d' e'>16. \skip2. \skip8 \skip32 |
+    }
 \mymark "Chorus" #13
     <a, e a cis' e' a'>16. \skip2. \skip8 \skip32 |
     <cis gis b f' a'>16. \skip4. \skip32 <cis gis b f' gis'>16. \skip4. \skip32 |

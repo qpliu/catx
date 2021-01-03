@@ -26,6 +26,26 @@ final class Twiddler{
 	    makeBend(track);
 	}
 	addLyricEvents();
+	twiddleRepeats();
+    }
+    private void twiddleRepeats(){
+	for (int i=0; i<gpfile.measures.length; i++)
+	    if (gpfile.measures[i].repeatStart){
+		int start=i;
+		for (; i<gpfile.measures.length; i++)
+		    if (gpfile.measures[i].repeatEnd>0){
+			int end=i;
+			gpfile.measures[start].twiddledRepeatStart = gpfile.measures[end].repeatEnd;
+			int alternateCount=0;
+			for (int j=start+1; j<=end; j++)
+			    if (gpfile.measures[j].repeatAlternate>0)
+				gpfile.measures[j].twiddledRepeatAlternate = ++alternateCount;
+			if (gpfile.measures[end+1].repeatAlternate>0)
+			    gpfile.measures[++end].twiddledRepeatAlternate = ++alternateCount;
+			gpfile.measures[end].twiddledRepeatEnd = ++alternateCount;
+			break;
+		    }
+	    }
     }
     private void joinTies(Gpfile.Track track){
 	Gpfile.NoteEvent[]a=new Gpfile.NoteEvent[track.tuning.length];

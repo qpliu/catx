@@ -4,29 +4,33 @@ rm -f generated-*
 java -jar ../../1.jar <"/share/mirror/songsterr/stuff/d-keep/d-Bon Jovi/d-Wanted Dead Or Alive-s54/d-r331965/application_guitar_pro4-25940548.gp4" \
 scale "" \
 track 0 \
+    preset kav \
+    generate-lyrics \
+    output-lyrics \
+    output-lilypond \
+track 0 \
     preset peter \
+    output-chords \
     output-dotext \
+    output-lilypond \
 track 1 \
     preset peter \
-    name guitarTwo \
-    instrument-name Guitar2 \
-    instrument-short-name Gtr2 \
+    output-lilypond \
 track 2 \
     preset peter \
-    name guitarThree \
-    instrument-name Guitar3 \
-    instrument-short-name Gtr3 \
     output-dotext \
+    output-lilypond \
 track 3 \
     preset peter \
-    name guitarFour \
-    instrument-name Guitar4 \
-    instrument-short-name Gtr4 \
     output-dotext \
+    output-lilypond \
 track 4 \
     preset midiOne \
+    output-lilypond \
 track 5 \
     preset bass \
+    output-lilypond \
 track 6 \
     preset gg \
+    output-drums \
 2>&1|tee log

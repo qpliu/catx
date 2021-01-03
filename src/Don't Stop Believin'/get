@@ -16,17 +16,23 @@ track 3 \
     output-dotext \
 track 1 \
     preset susan \
+    output-lilypond \
 track 2 \
     preset midiOne \
+    output-lilypond \
 track 5 \
-    preset midiTwo \
+    preset midiOne \
     output-dotext \
+    output-lilypond \
 track 4 \
     preset peter \
     output-dotext \
+    output-lilypond \
 track 0 \
     preset bass \
     output-dotext \
+    output-lilypond \
 track 6 \
     preset gg \
+    output-drums \
 2>&1|tee log

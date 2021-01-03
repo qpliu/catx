@@ -1,17 +1,19 @@
 guitar = {
 \mymark "Verse 1 and 2" #1
-    <a,\5 e\4 a\3>16. r16 b,16.\5 c\5 r16 cis16.\5 <a,\5 e\4 a\3 cis'\2> r16 a,16.\5 <cis\5 f\4 a\3 cis'\2>4 |
-    <d\4 a\3 d'\2 fis'\1>16. r8 r32 <d\4 a\3 d'\2 fis'\1>16. r8 r32 <d\4 a\3 d'\2 fis'\1>16. r8 r32 <a,\5 dis\4 a\3 c'\2>4 |
-    <a,\5 e\4 a\3 cis'\2>16. r8 r32 <a,\5 e\4 a\3 cis'\2>16. r16 e,16.\6 <e\4 gis\3 d'\2 fis'\1> r16 <e'\1 e\4~ gis\3~ d'\2~>4 <e\4 gis\3 d'\2>16. |
-    <a,\5 e\4 a\3 cis'\2>16. r8 r32 <a,\5 e\4 gis\3 cis'\2>16. r8 r32 <a,\5 e\4 g\3 cis'\2>16. r8 r32 <cis\5 f\4 a\3 cis'\2>4 |
-    <d\4 a\3 d'\2 fis'\1>16. r16 e16.\4 <f\4 a\3 d'\2> r16 fis16.\4 <d\4 a\3 d'\2 fis'\1> r8 r32 <d\4 gis\3 d'\2 f'\1>4 |
-    <d\4 a\3 d'\2 fis'\1>16. r8 r32 <d\4 a\3 d'\2 fis'\1>16. r8 r32 <d\4 a\3 d'\2 fis'\1>16. r8 r32 <a,\5 dis\4 a\3 c'\2>4 |
-    <a,\5 e\4 a\3 cis'\2>16. r8 r32 <a,\5 e\4 a\3 cis'\2>16. r8 r32 <e\4 gis\3 d'\2 fis'\1>16. r16 <e\4 gis\3 d'\2 e'\1>16. <e\4 gis\3 d'\2 e'\1>4 |
-    <a,\5 e\4 a\3 cis'\2>16. r8 r32 <a,\5 e\4 a\3 cis'\2>16. r8 r32 <g,\6 cis\5 e\4>16. r8 r32 <g,\6 cis\5 e\4>16. r8 r32 |
-    gis,8\6~ gis,32\6 cis16.\5 fis,8\6 e'16\1 f,\6 e,16.\6 r16 e'16.\1 e,\6 r16 f,16.\6 |
-    fis,8\6~ fis,32\6 <d\4 a\3 d'\2>16. fis,\6 r8 r32 <f,\6 c\5 dis\4 a\3 dis'\2>16. r8 r32 <e,\6 b,\5 d\4 a\3 d'\2>8.~ <e,\6 b,\5 d\4 a\3 d'\2>32 r |
-    <a,\5 e\4 a\3 cis'\2>16. r16 a,16.\5 cis8\5~ cis32\5 r16. <d\5 fis\4 b\3 d'\2> r8 r32 <dis\5 a\4 c'\3 dis'\2>16. r8 r32 |
-    <e\5 gis\4 d'\3 e'\2>16. r8 r32 <e,\6 e\5 gis\4 d'\3 e'\2 e'\1>4 <e,\6 e\5 gis\4 d'\3 e'\2 e'\1>16. r16 <e,\6 e\5 gis\4 d'\3 e'\2 e'\1>4~ <e,\6 e\5 gis\4 d'\3 e'\2 e'\1>16. |
+    \repeat volta 1 {
+        <a,\5 e\4 a\3>16. r16 b,16.\5 c\5 r16 cis16.\5 <a,\5 e\4 a\3 cis'\2> r16 a,16.\5 <cis\5 f\4 a\3 cis'\2>4 |
+        <d\4 a\3 d'\2 fis'\1>16. r8 r32 <d\4 a\3 d'\2 fis'\1>16. r8 r32 <d\4 a\3 d'\2 fis'\1>16. r8 r32 <a,\5 dis\4 a\3 c'\2>4 |
+        <a,\5 e\4 a\3 cis'\2>16. r8 r32 <a,\5 e\4 a\3 cis'\2>16. r16 e,16.\6 <e\4 gis\3 d'\2 fis'\1> r16 <e'\1 e\4~ gis\3~ d'\2~>4 <e\4 gis\3 d'\2>16. |
+        <a,\5 e\4 a\3 cis'\2>16. r8 r32 <a,\5 e\4 gis\3 cis'\2>16. r8 r32 <a,\5 e\4 g\3 cis'\2>16. r8 r32 <cis\5 f\4 a\3 cis'\2>4 |
+        <d\4 a\3 d'\2 fis'\1>16. r16 e16.\4 <f\4 a\3 d'\2> r16 fis16.\4 <d\4 a\3 d'\2 fis'\1> r8 r32 <d\4 gis\3 d'\2 f'\1>4 |
+        <d\4 a\3 d'\2 fis'\1>16. r8 r32 <d\4 a\3 d'\2 fis'\1>16. r8 r32 <d\4 a\3 d'\2 fis'\1>16. r8 r32 <a,\5 dis\4 a\3 c'\2>4 |
+        <a,\5 e\4 a\3 cis'\2>16. r8 r32 <a,\5 e\4 a\3 cis'\2>16. r8 r32 <e\4 gis\3 d'\2 fis'\1>16. r16 <e\4 gis\3 d'\2 e'\1>16. <e\4 gis\3 d'\2 e'\1>4 |
+        <a,\5 e\4 a\3 cis'\2>16. r8 r32 <a,\5 e\4 a\3 cis'\2>16. r8 r32 <g,\6 cis\5 e\4>16. r8 r32 <g,\6 cis\5 e\4>16. r8 r32 |
+        gis,8\6~ gis,32\6 cis16.\5 fis,8\6 e'16\1 f,\6 e,16.\6 r16 e'16.\1 e,\6 r16 f,16.\6 |
+        fis,8\6~ fis,32\6 <d\4 a\3 d'\2>16. fis,\6 r8 r32 <f,\6 c\5 dis\4 a\3 dis'\2>16. r8 r32 <e,\6 b,\5 d\4 a\3 d'\2>8.~ <e,\6 b,\5 d\4 a\3 d'\2>32 r |
+        <a,\5 e\4 a\3 cis'\2>16. r16 a,16.\5 cis8\5~ cis32\5 r16. <d\5 fis\4 b\3 d'\2> r8 r32 <dis\5 a\4 c'\3 dis'\2>16. r8 r32 |
+        <e\5 gis\4 d'\3 e'\2>16. r8 r32 <e,\6 e\5 gis\4 d'\3 e'\2 e'\1>4 <e,\6 e\5 gis\4 d'\3 e'\2 e'\1>16. r16 <e,\6 e\5 gis\4 d'\3 e'\2 e'\1>4~ <e,\6 e\5 gis\4 d'\3 e'\2 e'\1>16. |
+    }
 \mymark "Chorus" #13
     <a,\6 e\5 a\4 cis'\3 e'\2 a'\1>16. r8 r32 <a,\6 e\5 a\4 cis'\3 e'\2 a'\1>16. r8 r32 <a,\6 e\5 a\4 cis'\3 e'\2 a'\1>16. r8 r32 <a,\6 e\5 a\4 cis'\3 e'\2 a'\1>16. r8 r32 |
     <cis\5 gis\4 b\3 f'\2 a'\1>16. r8 r32 <cis\5 gis\4 b\3 f'\2 a'\1>16. r8 r32 <cis\5 gis\4 b\3 f'\2 gis'\1>16. r8 r32 <cis\5 gis\4 b\3 f'\2 gis'\1>16. r8 r32 |

@@ -10,8 +10,8 @@
 \include "vocals_karaoke"
 \include "generated-steelpan"
 \include "generated-midiOne"
-\include "generated-midiTwo_donetext"
-\include "generated-midiTwo"
+\include "generated-midiOneA_donetext"
+\include "generated-midiOneA"
 \include "generated-guitar_donetext"
 \include "generated-guitar"
 \include "generated-bass_donetext"
@@ -79,10 +79,10 @@ midimusic = <<
     \tag #'(midiOne) \new Staff = "generated-midiOne" \with {
         midiInstrument = #"acoustic grand"
     } \midiOne
-    \tag #'(midiTwo) \new Staff = "generated-midiTwo_dotext" \midiTwoDotext
-    \tag #'(midiTwo) \new Staff = "generated-midiTwo" \with {
+    \tag #'(midiOne) \new Staff = "generated-midiOneA_dotext" \midiOneADotext
+    \tag #'(midiOne) \new Staff = "generated-midiOneA" \with {
         midiInstrument = #"distorted guitar"
-    } \midiTwo
+    } \midiOneA
     \tag #'(midiPeter) \new Staff = "generated-guitar_dotext" \guitarDotext
     \tag #'(midiPeter) \new Staff = "generated-guitar" \with {
         midiInstrument = #"distorted guitar"

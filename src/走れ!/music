@@ -200,13 +200,9 @@ midimusic = <<
     \markupStuff
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"synth voice"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #1
     } \voPart
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"choir aahs"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.5
     } \choPart
     \tag #'(midiOne) \new Staff = "key1_dotext" \keyOnePartDotext
     \tag #'(midiOne) \new Staff = "key1" \keyOnePart
@@ -222,29 +218,24 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff = "eg2" \egTwoPart
     \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #1
     } \ebPart
-    \tag #'(midiTwo) \new Staff = "perc_dotext" \percPartDotext
-    \tag #'(midiTwo) \new DrumStaff = "perc" \with {
+    \tag #'(midiOne) \new Staff = "perc_dotext" \percPartDotext
+    \tag #'(midiOne) \new DrumStaff = "perc" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     }\percPart
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.7
     } \drsPart
-    \tag #'(midiTwo) \new Staff = "key5_dotext" \keyFivePartDotext
-    \tag #'(midiTwo) \new Staff = "key5" \keyFivePart
+    \tag #'(midiOne) \new Staff = "key5_dotext" \keyFivePartDotext
+    \tag #'(midiOne) \new Staff = "key5" \keyFivePart
     \tag #'(midiTwo) \new Staff = "key6_dotext" \keySixPartDotext
     \tag #'(midiTwo) \new Staff = "key6" \keySixPart
+    \tag #'(midiTwo) \new Staff = "key7" \keySevenPart
     \tag #'(midiTwo) \new Staff \with {
 	midiInstrument = #"lead 1 (square)"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.4
     } \keySevenPart
-    \tag #'(midiThree) \new Staff = "key8_dotext" \keyEightPartDotext
-    \tag #'(midiThree) \new Staff = "key8" \keyEightPart
+    \tag #'(midiTwo) \new Staff = "key8_dotext" \keyEightPartDotext
+    \tag #'(midiTwo) \new Staff = "key8" \keyEightPart
     \tag #'(midiKaraoke) \new Staff \with {
 	midiInstrument = #"flute" % 73
     } <<

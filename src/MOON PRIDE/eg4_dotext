@@ -9,7 +9,7 @@ egFourPartDotext = {
     \repeat unfold 4 r1 |
 % B
     \barNumberCheck #11
-    `>dist=program30;volume.4`8 r8 r4 r2 | % <Dist.>
+    `>dist=program30;volume1`8 r8 r4 r2 | % <Dist.>
     r1 |
 % page 16.1
     r1 | r1 | r1 |

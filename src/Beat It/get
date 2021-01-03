@@ -13,25 +13,27 @@ track 0 \
     which-lyrics "0" \
 track 0 \
     preset susan \
+    output-lilypond \
 track 1 \
     preset peter \
     output-dotext \
+    output-lilypond \
 track 2 \
     preset peter \
-    name guitarTwo \
-    instrument-name Guitar2 \
-    instrument-short-name Gtr2 \
+    output-lilypond \
 track 3 \
     preset peter \
-    name guitarThree \
-    instrument-name Guitar3 \
-    instrument-short-name Gtr3 \
+    output-lilypond \
 track 4 \
     preset bass \
+    output-lilypond \
 track 5 \
     preset midiOne \
+    output-lilypond \
 track 7 \
-    preset midiTwo \
+    preset midiOne \
+    output-lilypond \
 track 6 \
     preset gg \
+    output-drums \
 2>&1|tee log

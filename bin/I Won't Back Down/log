@@ -9,23 +9,19 @@ Best key: e minor or g major
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 14  Divisions: 384
+Format: 1  Tracks: 5  Divisions: 384
+Sequence: midiGg
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
+Track name: midiKaraoke
 >@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Well,|!bg=I-won'tbackdown.No,I-won'tbackdown.>Youcanstandmeupatthegatesofhell.ButI-won'tbackdown.>No,I'll-standmyground.Won'tbe-turneda-round.>AndI'llkeepthisworldfromdrag-gin'medown.Gon-na-standmyground.>AndI-won'tbackdown.->Hey,ba-by.--Thereain'tnoea-sywayout.-->Hey,I--willstand-my-ground.AndIwon't-back-down.>Well,I-knowwhat'sright.Igot-justonelife.>Inaworldthatkeepsonpush-in'mea-roundbutI'll-standmyground.>AndI-won'tbackdown.->Hey,ba-by.--Thereain'tnoea-sywayout.-->Hey,I--willstand-my-ground.AndIwon't-backdown.-->@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Hey,|!bg=ba-by.--Thereain'tnoea-sywayout.-->Hey,I-won't-back-down.->Hey,ba-by.--Thereain'tnoea-sywayout.-->Hey,I--willstand-my-ground.>AndIwon't-backdown.-No,Iwon't-back-down.-@@Playing time: ~179 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 21684689/31301604 bytes(69.2766% compressed)
+Wrote 17089616/31301604 bytes(54.5966% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 2.2 staff-spaces
 warning: page 3 has been compressed

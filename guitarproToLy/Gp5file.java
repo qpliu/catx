@@ -284,7 +284,8 @@ final class Gp5file extends Gpfile{
 		int status=1;
 		if ((bits&64)!=0)
 		    status = readUnsignedByte();
-		Rational duration=new Rational(measure.time_d,1<<readByte()+2);
+		int logDuration=readByte();
+		Rational duration=new Rational(measure.time_d,1<<logDuration+2);
 		if ((bits&1)!=0)
 		    duration = duration.add(duration.divide(2));
 		if ((bits&32)!=0){
@@ -322,7 +323,7 @@ final class Gp5file extends Gpfile{
 		    time = time.add(duration);
 	    }
 	    if (!time.equals(measureStartTime.add(measure.time_n)) && !time.equals(measureStartTime))
-		throw new IOException("Weird measure end got="+time+" mst="+measureStartTime+" time_n="+measure.time_n);
+		throw new IOException("Weird measure end time="+time+" measureStartTime="+measureStartTime+" time_n="+measure.time_n);
 	}
     }
     void readNoteBits(NoteEvent e)throws IOException{

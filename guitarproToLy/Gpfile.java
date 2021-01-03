@@ -38,6 +38,9 @@ class Gpfile extends Gpinput{
 	int tempo;
 	int time_n,time_d;
 	KeySignature key;
+	int twiddledRepeatStart;
+	int twiddledRepeatAlternate;
+	int twiddledRepeatEnd;
 	boolean repeatStart;
 	int repeatEnd;
 	int repeatAlternate;
@@ -63,11 +66,12 @@ class Gpfile extends Gpinput{
 		readChord3t(track);
 	    else
 		readChord4(track);
+	    Log.info("Got chord %s %s",name,ly);
 	    return this;
 	}
 	private void readChord3f(Track track)throws IOException{
 	    name = readIntSizeBlob().toByteSizeString();
-	    readChordNotes(track,6);
+	    readChordNotes(track,6,false);
 	}
 	private void readChord3t(Track track)throws IOException{
 	    boolean sharp=readBoolean();
@@ -82,7 +86,7 @@ class Gpfile extends Gpinput{
 	    int fifth=readInt();
 	    int ninth=readInt();
 	    int eleventh=readInt();
-	    readChordNotes(track,6);
+	    readChordNotes(track,6,true);
 	    int barresCount=readInt();
 	    Blob barreFrets=readBlob(8);
 	    Blob barreStarts=readBlob(8);
@@ -103,7 +107,7 @@ class Gpfile extends Gpinput{
 	    int fifth=readByte();
 	    int ninth=readByte();
 	    int eleventh=readByte();
-	    readChordNotes(track,7);
+	    readChordNotes(track,7,true);
 	    int barresCount=readByte();
 	    Blob barreFrets=readBlob(5);
 	    Blob barreStarts=readBlob(5);
@@ -113,10 +117,10 @@ class Gpfile extends Gpinput{
 	    Blob fingerings=readBlob(7);
 	    boolean show=readBoolean();
 	}
-	private void readChordNotes(Track track,int stringCount)throws IOException{
+	private void readChordNotes(Track track,int stringCount,boolean alwaysReadStrings)throws IOException{
 	    List<Integer>l=new ArrayList<Integer>();
 	    int firstFret=readInt();
-	    if (firstFret!=0)
+	    if (firstFret!=0 || alwaysReadStrings)
 		for (int i=0; i<stringCount; i++){
 		    int fret=readInt();
 		    if (fret>=0)

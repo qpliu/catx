@@ -1,0 +1,141 @@
+guitar = {
+    r1 |
+    r1 |
+    <d,\6 a,\5 d\4 a\3 d'\2>1~ |
+    <d,\6 a,\5 d\4 a\3 d'\2>1~ |
+    <d,\6 a,\5 d\4 a\3 d'\2 \parenthesize d''\1>1~ |
+    <d,\6 a,\5 d\4 a\3 d'\2 \parenthesize d''\1>1~ |
+    <d,\6 a,\5 d\4 a\3 d'\2 \parenthesize d''\1>1~ |
+    <d,\6 a,\5 d\4 a\3 d'\2 \parenthesize d''\1>1 |
+    r8 c''16\1 c''\1 d''8\1 c''16\1 c''\1 c''8\1 d''\1 d''16\1 c''\1 d''8\1 |
+    r4 d''16\1 d''8\1 d''16\1 c''8\1 d''\1 c''16\1 c''8\1 c''16\1~ |
+    c''16\1 d''2.\1~ d''8.\1~\bendAfter #6 ^"full" |
+    d''1\1\bendAfter #6 ^"full" |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 1" #21
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Interlude" #33
+    <a\4 d'\3>1~ |
+    <a\4 d'\3>1~ |
+    <a\4 d'\3>1~ |
+    <a\4 d'\3>1 |
+\mymark "Verse 1" #37
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    c1\5~ |
+\mymark "Verse 2" #45
+    c1\5 |
+    r1 |
+    r1 |
+    r4 f'2.\3\bendAfter #6 ^"full" |
+    f'1\3 |
+    r1 |
+    r1 |
+    c''1\2~\bendAfter #6 ^"full" |
+\mymark "Chorus 2" #53
+    c''1\2\bendAfter #6 ^"full" |
+    r1 |
+    r4. d'2\3~ d'8\3\bendAfter #6 ^"full" |
+    r2 f''8\1\glissando b'32\1 r8. r32 d''8\1~ |
+    d''1\1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Interlude" #69
+    <a\4 d'\3>1~ |
+    <a\4 d'\3>1~ |
+    <a\4 d'\3>1~ |
+    <a\4 d'\3>1 |
+\mymark "Verse 3" #73
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 4" #81
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 3" #89
+    r2 gis'64\6 g'\6 fis'\6 f'\6 e'\6 dis'\6 d'\6 cis'\6 c'\6 b\6 bes\6 a\6 gis\6 g\6 fis\6 f\6 r4 |
+    r1 |
+    r1 |
+    r1 |
+    r2 gis'64\6 g'\6 fis'\6 f'\6 e'\6 dis'\6 d'\6 cis'\6 c'\6 b\6 bes\6 a\6 gis\6 g\6 fis\6 f\6 r4 |
+    r1 |
+    r1 |
+    r1 |
+    r2 gis'64\6 g'\6 fis'\6 f'\6 e'\6 dis'\6 d'\6 cis'\6 c'\6 b\6 bes\6 a\6 gis\6 g\6 fis\6 f\6 r4 |
+    r1 |
+    r1 |
+    r1 |
+    r2 a64\6 bes\6 b\6 c'\6 cis'\6 d'\6 dis'\6 e'\6 f'\6 fis'\6 g'\6 gis'\6 r4 r16 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 4" #105
+    r2 gis'64\6 g'\6 fis'\6 f'\6 e'\6 dis'\6 d'\6 cis'\6 c'\6 b\6 bes\6 a\6 gis\6 g\6 fis\6 f\6 r4 |
+    r1 |
+    r1 |
+    r1 |
+    r2 gis'64\6 g'\6 fis'\6 f'\6 e'\6 dis'\6 d'\6 cis'\6 c'\6 b\6 bes\6 a\6 gis\6 g\6 fis\6 f\6 r4 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "fade out" #121
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

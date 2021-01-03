@@ -8,13 +8,15 @@
 \include "vocals_lyrics"
 \include "vocals_karaoke"
 \include "generated-steelpan"
+\include "generated-guitar_chords"
 \include "generated-guitar"
-\include "generated-guitarTwo_donetext"
-\include "generated-guitarTwo"
-\include "generated-guitarThree_donetext"
-\include "generated-guitarThree"
-\include "generated-guitarFour_donetext"
-\include "generated-guitarFour"
+\include "generated-guitarA_chords"
+\include "generated-guitarA_donetext"
+\include "generated-guitarA"
+\include "generated-guitarB_donetext"
+\include "generated-guitarB"
+\include "generated-guitarC_donetext"
+\include "generated-guitarC"
 \include "generated-bass_donetext"
 \include "generated-bass"
 \include "generated-drs"
@@ -35,6 +37,7 @@ layoutmusic = <<
         \markupStuff
         \steelpan
     >>
+    \tag #'(allPart peterPart) \guitarChords
     \tag #'(allPart peterPart) \new Staff \with {
         instrumentName = \markup { \rotate #90 "Guitar" }
         shortInstrumentName = \markup { \rotate #90 "Gtr" }
@@ -46,39 +49,40 @@ layoutmusic = <<
     \tag #'(allPart peterPart) \new TabStaff \with {
         stringTunings = \stringTuning <e, a, d g b e'>
     } \guitar
+    \tag #'(allPart peterPart) \guitarAChords
     \tag #'(allPart peterPart) \new Staff \with {
-        instrumentName = \markup { \rotate #90 "Guitar2" }
-        shortInstrumentName = \markup { \rotate #90 "Gtr2" }
+        instrumentName = \markup { \rotate #90 "Guitar" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr" }
     } <<
         \markupStuff
-        \guitarTwo
+        \guitarA
         \clef "treble_8"
     >>
     \tag #'(allPart peterPart) \new TabStaff \with {
         stringTunings = \stringTuning <e, a, d g b e'>
-    } \guitarTwo
+    } \guitarA
     \tag #'(allPart peterPart) \new Staff \with {
-        instrumentName = \markup { \rotate #90 "Guitar3" }
-        shortInstrumentName = \markup { \rotate #90 "Gtr3" }
+        instrumentName = \markup { \rotate #90 "Guitar" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr" }
     } <<
         \markupStuff
-        \guitarThree
+        \guitarB
         \clef "treble_8"
     >>
     \tag #'(allPart peterPart) \new TabStaff \with {
         stringTunings = \stringTuning <e, a, d g b e'>
-    } \guitarThree
+    } \guitarB
     \tag #'(allPart peterPart) \new Staff \with {
-        instrumentName = \markup { \rotate #90 "Guitar4" }
-        shortInstrumentName = \markup { \rotate #90 "Gtr4" }
+        instrumentName = \markup { \rotate #90 "Guitar" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr" }
     } <<
         \markupStuff
-        \guitarFour
+        \guitarC
         \clef "treble_8"
     >>
     \tag #'(allPart peterPart) \new TabStaff \with {
         stringTunings = \stringTuning <e, a, d g b e'>
-    } \guitarFour
+    } \guitarC
     \tag #'(allPart bassPart) \new Staff \with {
         instrumentName = \markup { \rotate #90 "Bass" }
         shortInstrumentName = \markup { \rotate #90 "Ba" }
@@ -109,21 +113,23 @@ midimusic = <<
     \tag #'(midiSusan) \new Staff = "generated-steelpan" \with {
         midiInstrument = #"tenor sax"
     } \steelpan
+    \tag #'(midiPeter) \guitarChords
     \tag #'(midiPeter) \new Staff = "generated-guitar" \with {
         midiInstrument = #"electric guitar (clean)"
     } \guitar
-    \tag #'(midiPeter) \new Staff = "generated-guitarTwo_dotext" \guitarTwoDotext
-    \tag #'(midiPeter) \new Staff = "generated-guitarTwo" \with {
+    \tag #'(midiPeter) \guitarAChords
+    \tag #'(midiPeter) \new Staff = "generated-guitarA_dotext" \guitarADotext
+    \tag #'(midiPeter) \new Staff = "generated-guitarA" \with {
         midiInstrument = #"distorted guitar"
-    } \guitarTwo
-    \tag #'(midiPeter) \new Staff = "generated-guitarThree_dotext" \guitarThreeDotext
-    \tag #'(midiPeter) \new Staff = "generated-guitarThree" \with {
+    } \guitarA
+    \tag #'(midiPeter) \new Staff = "generated-guitarB_dotext" \guitarBDotext
+    \tag #'(midiPeter) \new Staff = "generated-guitarB" \with {
         midiInstrument = #"distorted guitar"
-    } \guitarThree
-    \tag #'(midiPeter) \new Staff = "generated-guitarFour_dotext" \guitarFourDotext
-    \tag #'(midiPeter) \new Staff = "generated-guitarFour" \with {
+    } \guitarB
+    \tag #'(midiPeter) \new Staff = "generated-guitarC_dotext" \guitarCDotext
+    \tag #'(midiPeter) \new Staff = "generated-guitarC" \with {
         midiInstrument = #"overdriven guitar"
-    } \guitarFour
+    } \guitarC
     \tag #'(midiBass) \new Staff = "generated-bass_dotext" \bassDotext
     \tag #'(midiBass) \new Staff = "generated-bass" \with {
         midiInstrument = #"electric bass (pick)"

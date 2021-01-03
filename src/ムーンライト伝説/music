@@ -86,8 +86,6 @@ midimusic = <<
     } \voPart
     \tag #'(midiBass) \new Staff \with {
 	midiInstrument = #"electric bass (finger)"
-	midiMinimumVolume = #1
-	midiMaximumVolume = #1
     } \bassPart
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"fx 5 (brightness)"

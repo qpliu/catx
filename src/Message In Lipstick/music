@@ -146,25 +146,17 @@ midimusic = <<
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"acoustic grand" % 0
     } \pianoPart
-    \tag #'(midiTwo) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"string ensemble 1" % 48
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.2
     } \stringsPart
-    \tag #'(midiTwo) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"string ensemble 1" % 48
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.2
     } \stringsTwoPart
-    \tag #'(midiTwo) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"voice oohs" % 53
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.4
     } \backingVocalsPart
-    \tag #'(midiTwo) \new Staff \with {
+    \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"voice oohs" % 53
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.4
     } \oohsPart
     \tag #'(midiKaraoke) \new Staff \with {
 	midiInstrument = #"flute" % 73

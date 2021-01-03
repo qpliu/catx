@@ -19,9 +19,9 @@
 # [scope] determines scope of command like this:
 # -> means scope is from the end of this note until the next `!name` or the end of the song.
 # > means the scope is from the start of this note until the next `!name` or the end of the song.
-# . means TextEvent only matches notes with the same start and end.
+# . means TextEvent only matches notes with the same start time.
 
-# A note matches the time of a TextEvent with . in scope if start and end times of note exactly match start and end times of TextEvent.
+# A note matches the time of a TextEvent with . in scope if start time of note exactly match start time of TextEvent.
 # Otherwise, it matches the time of the TextEvent as long as it has positive overlap in time.
 
 # A note matches the keys of a TextEvent if [keys] is empty or if the note is one of the notes in [keys].

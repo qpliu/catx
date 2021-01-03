@@ -42,15 +42,20 @@ class Gpinput{
 	return readBlob(readInt());
     }
     final void dumpIs()throws IOException{
-	StringBuilder sb=new StringBuilder();
-	StringBuilder sba=new StringBuilder();
-	for (int i=0; i<32; i++){
-	    int j=is.read();
+	for (;;){
+	    StringBuilder sb=new StringBuilder();
+	    StringBuilder sba=new StringBuilder();
+	    int j=0;
+	    for (int i=0; i<32; i++){
+		j = is.read();
+		if (j==-1)
+		    break;
+		sb.append(String.format(" %02x",j));
+		sba.append(j>=' ' && j<='~'?(char)j:'.');
+	    }
+	    Log.error("dumpIs %s %s",sb,sba);
 	    if (j==-1)
-		break;
-	    sb.append(String.format(" %02x",j));
-	    sba.append(j>=' ' && j<='~'?(char)j:'.');
+		System.exit(1);
 	}
-	Log.error("dumpIs %s %s",sb,sba);
     }
 }

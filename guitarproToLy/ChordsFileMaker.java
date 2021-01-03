@@ -8,10 +8,8 @@ final class ChordsFileMaker extends ChoppedTrackFileMaker{
     @Override boolean filterEvents(Gpfile.Event event){
 	return event instanceof Gpfile.ChordEvent;
     }
-    @Override void make()throws IOException{
-	indent(lyname+" = \\new ChordNames {");
-	makeMeasures();
-	unindent("}");
+    @Override String getStuff(){
+	return super.getStuff()+"\\new ChordNames "+arg.transpose;
     }
     @Override MeasureMaker.GetWhatSuffix getGetWhatSuffix(List<Gpfile.Event>list){
 	return new MeasureMaker.GetWhatSuffix(){

@@ -4,23 +4,20 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
-Unused TextEvent start divisions=166464 seconds=187.122009 measure=109.375 stop divisions=167016 seconds=187.742511625 measure=109.734375 whatparam=bendSongsterr:0:0:15:100:60:100 trackName=generated-guitar matchKey=[73.0] matchTimeAndStop=true
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 14  Divisions: 384
+Format: 1  Tracks: 6  Divisions: 384
+Sequence: midiGg
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
+Track name: midiKaraoke
+Track name: midiOne
 ->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1They|!bg=toldhimdon'tyouev-ercomea-roundhere.->Don'twan-naseeyourface,youbet-terdis-ap-pear.->Thefi-re'sintheireyesandtheirwordsarereal-lyclear.>Sobeatit,-justbeatit.--->Youbet-terrun,youbet-terdowhatyoucan.->Don'twan-naseenoblood,don'tbeama-choman.->Youwan-nabetough,bet-terdowhatyoucan.>Sobeatit.->Butyouwan-nabebad.>Justbeatit,beatit,beatit,beatit.>Noonewantstobede-fea-ted.-->Showhimhowfun-kyandstrongisyourfight.->Itdoes-n'tmat-terwho'swrongorright.>Justbeatit,-justbeatit.->Justbeatit,-justbeatit.--->They'reouttogetyou,bet-terleavewhileyoucan.->Don'twan-nabeaboy,youwan-nabeaman.->Youwan-nastaya-live,bet-terdowhatyoucan.>Sobeatit,-justbeatit.--->Youhavetoshowthemthatyou'rereal-lynotscared.->You'replay-in'withyourlifethisain'tnotruthordare.->They'llkickyou,thenthey'llbeatyou,andthey'lltellyouit'sfair.>Sobeatit.->Butyouwan-nabebad.>Justbeatit,beatit,beatit,beatit.>Noonewantstobede-fea-ted.-->Showthemhowfun-kyandstrongisyourfight.->Itdoes-n'tmat-terwho'swrongorright.>Justbeatit,beatit,beatit,beatit.>Noonewantstobede-fea-ted.-->Showthemhowfun-kyandstrongisyourfight.->Itdoes-n'tmat-terwho'swrongorright.>Justbeatit,beatit,beatit,beatit.->Beatit,beatit,beatit.-->@|!bg=4@|!bg=3@|!bg=2@|!bg=1Beat|!bg=it,beatit,beatit,beatit.-Beatit,beatit.->@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Beat|!bg=it,beatit,beatit.-->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Beat|!bg=it,beatit,beatit,beatit.>Noonewantstobede-fea-ted.-->Showthemhowfun-kyandstrongisyourfight.->Itdoes-n'tmat-terwho'swrongorright.>Justbeatit,beatit,beatit,beatit.>Noonewantstobede-fea-ted.-->Showthemhowfun-kyandstrongisyourfight.->Itdoes-n'tmat-terwho'swrongorright.>Justbeatit,beatit,beatit,beatit.>Noonewantstobede-fea-ted.-->Showthemhowfun-kyandstrongisyourfight.->Itdoes-n'tmat-terwho'swrongorright.>Justbeatit,beatit.----@@Playing time: ~247 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 30577802/43317624 bytes(70.5897% compressed)
+Wrote 24566896/43317624 bytes(56.7134% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

@@ -1,62 +1,45 @@
 #!/bin/sh
-WHERE="https://www.songsterr.com/a/wsa/lig-lig-drum-tab-s475342"
+WHERE="/share/mirror/songsterr/stuff/d-keep/d-Lig/d-lig-s475342/d-r423582/application_guitar_pro5-43886298.gp5"
+DRUMMAP="42 hho 0,44 hh 0,51 cymc 0,37 sn 0,"
+set -e
+rm -f generated-*
 SCALE="c des d ees e f fis g aes a bes b"
 SCALE2="c cis d ees e f fis g gis a bes b"
-DRUMMAP="
-	49 cymc 0,
-	51 cymr 0,
-	52 cymch 0,
-	55 cyms 0,
-	57 cymcb 0,
-	59 cymrb 0,
-	38 sn 0,
-	40 sne 0,
-	50 tomh 0,
-	48 tommh 0,
-	47 tomml 0,
-	45 toml 0,
-	43 tomfh 0,
-	41 tomfl 0,
-	42 hh 0,
-	46 hho 0,
-	35 bda 1,
-	36 bd 1,
-	37 ss 0,
-	39 hc 0,
-	44 hhc 0,
-	53 rb 0,
-	54 tamb 0,
-	56 cb 0,
-	58 vibs 0,
-	60 boh 0,
-	61 bol 0,
-	62 cghm 0,
-	63 cgh 0,
-	64 cgl 0,
-	65 timh 0,
-	66 timl 0,
-	67 agh 0,
-	68 agl 0,
-	69 cab 0,
-	70 mar 0,
-	71 whs 0,
-	72 whl 0,
-	73 guis 0,
-	74 guil 0,
-	75 cl 0,
-	76 wbh 0,
-	77 wbl 0,
-	78 cuim 0,
-	79 cuio 0,
-	80 trim 0,
-	81 tri 0"
-
-java -jar ../../songsterrToLy/1.jar --name voPart --scale "$SCALE" --no-string-numbers "${WHERE}t0" >generated-vo
-#java -jar ../../songsterrToLy/1.jar --name pianoOnePart --scale "$SCALE2" --no-string-numbers "${WHERE}t1" >generated-piano1
-java -jar ../../songsterrToLy/1.jar --name pianoTwoPart --scale "$SCALE" --no-string-numbers "${WHERE}t2" >generated-piano2
-java -jar ../../songsterrToLy/1.jar --name pianoThreePart --scale "$SCALE" --no-string-numbers "${WHERE}t3" >generated-piano3
-java -jar ../../songsterrToLy/1.jar --name guitarPart --scale "$SCALE" --output-tabs "${WHERE}t4" >generated-guitartabs
-java -jar ../../songsterrToLy/1.jar --name bassPart --scale "$SCALE" --output-tabs "${WHERE}t5" >generated-basstabs
-java -jar ../../songsterrToLy/1.jar --name stringsOnePart --scale "$SCALE" --no-string-numbers "${WHERE}t6" >generated-strings1
-java -jar ../../songsterrToLy/1.jar --name stringsTwoPart --scale "$SCALE" --no-string-numbers "${WHERE}t7" >generated-strings2
-#java -jar ../../songsterrToLy/1.jar --name drumsPart --drumMap "$DRUMMAP" "${WHERE}t8" >generated-drumscolors
+java -jar ../../guitarproToLy/1.jar <"$WHERE" \
+modified-filename vocals_karaoke \
+modified-filename vocals_lyrics \
+scale "$SCALE" \
+drumMap "$DRUMMAP" \
+track 0 \
+    preset kav \
+    output-lilypond \
+    output-lyrics \
+    output-karaoke \
+    transpose "\transpose c c' " \
+track 1 \
+    scale "$SCALE2" \
+    preset susan \
+    output-lilypond \
+track 4 \
+    preset peter \
+    output-lilypond \
+track 5 \
+    preset bass \
+    output-dotext \
+    output-lilypond \
+track 2 \
+    preset midiOne \
+    output-lilypond \
+track 3 \
+    preset midiOne \
+    output-lilypond \
+track 6 \
+    preset midiOne \
+    output-lilypond \
+track 7 \
+    preset midiOne \
+    output-lilypond \
+track 8 \
+    preset gg \
+    output-drums \
+2>&1|tee log

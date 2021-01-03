@@ -125,8 +125,6 @@ midimusic = <<
     \markupStuff
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"choir aahs"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.6
     } \chorusPart
     \tag #'(midiSusan) \new Staff = "vocal_dotext" \vocalPartDotext
     \tag #'(midiSusan) \new Staff = "vocal" \vocalPart
@@ -136,13 +134,9 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff = "guitar2" \guitarTwoPart
     \tag #'(midiPeter) \new Staff \with {
 	midiInstrument = #"electric guitar (clean)"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.5
     } \guitarThreePart
     \tag #'(midiOne) \new Staff \with {
 	midiInstrument = #"pad 3 (polysynth)"
-	midiMinimumVolume = #0
-	midiMaximumVolume = #.7
     } \keyboardPart
     \tag #'(midiBass) \new Staff = "bass_dotext" \bassPartDotext
     \tag #'(midiBass) \new Staff = "bass" \bassPart

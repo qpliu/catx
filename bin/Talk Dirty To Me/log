@@ -24,23 +24,19 @@ Best key: ees minor or ges major
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 14  Divisions: 384
+Format: 1  Tracks: 5  Divisions: 384
+Sequence: midiGg
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
+Track name: midiKaraoke
 ->@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1You|!bg=knowIne-ver--->Ine-verseenyoulooksogood.--->Youne-veractthewayyoushould.--->ButIlikeit.--->AndIknowyoulikeittoo.--->ThewaythatIwantyou.---->Igot-tahearyou.->OhyesIdo.-Ine-ver--->Ine-vere-verstayoutlate.--->YouknowthatIcanhard-lywait.--->Justtohearyou.--->AndIknowyoucan-notwait.--->a-waittohearmetoo.---->Igot-tahearyou.->'Causeba-bywe'llbe->Atthedrive--in-->Intheoldman'sFord--->Be-hindthebush-es--->UntilI'mscream-in'formore--->Downthebase-ment-->Lockthecel-lardoorAndba-by-->Talkpur-tytome.--->YouknowIcallyou.--->Icallyouonthetel-e-phone.--->I'mon-lyhop-ingthatyou'rehome.--->SoIcanhearyou.--->Whenyousaythosewordstome.--->Andwhis-persosoft-ly.---->Igot-tahearyou.->'Causeba-bywe'llbe->Atthedrive--in-->Intheoldman'sFord--->Be-hindthebush-es--->UntilI'mscream-in'formore--->Downthebase-ment-->Lockthecel-lardoorAndba-by-->Talkpur-tytome--->C.C.pickupthatgui-tarAnduh-talktomeyeah->@@@@@@@@@@!bg=4|@!bg=3|@!bg=2|@!bg=1|@!bg=|Woowoowoowoo-->@@@@@@@@@@@@@!bg=4|@!bg=3|@!bg=2|@!bg=1|@!bg=|'Causeba-bywe'llbe->Atthedrive--ins-->Intheoldman'sFord--->Be-hindthembush-es--->UntilI'mscream-in'formore--->Downthebase-ment-->Lockthecel-lardoorAndba-by-->Talkpur-tytome--@@Playing time: ~217 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 27884208/37926060 bytes(73.5226% compressed)
+Wrote 22725344/37926060 bytes(59.9201% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

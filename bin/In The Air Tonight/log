@@ -1,35 +1,3 @@
-generated-basstabs
-Scores: 0 0 10 50 60 81 90 101 110 131 141 181
-Best key: c major or d minor or f major or a minor
-generated-celestatabs
-Scores: 0 0 25 51 75 103 153 201 251 279 303 329
-Best key: c major or d minor or f major or a minor
-generated-guitartabs
-Scores: 40 41 41 43 56 58 58 101 101 103 115 123
-Best key: c major or a minor
-generated-keyboard1tabs
-Scores: 0 38 54 105 110 202 210 240 248 340 345 358
-Best key: d minor or f major
-generated-keyboard2tabs
-Scores: 0 76 100 186 200 376 392 452 468 644 658 668
-Best key: d minor or f major
-generated-vo2tabs
-Scores: 0 5 12 42 55 66 78 90 102 113 126 151
-Best key: d minor or f major
-generated-voechotabs
-Scores: 0 0 0 10 26 29 38 46 55 58 74 84
-Best key: c major or d minor or f major or g minor or a minor or bes major
-generated-votabs
-Scores: 0 0 3 61 84 144 240 256 352 412 435 493
-Best key: c major or d minor or f major or a minor
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
@@ -39,24 +7,32 @@ Best key: c major or d minor or f major or a minor
 WorstAge=2147486720
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 14  Divisions: 384
+Format: 1  Tracks: 6  Divisions: 384
+Sequence: midiGg
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
+Track name: midiKaraoke
+Track name: midiOne
 ->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1I|!bg=canfeelitcom-ingintheairto-night.->Ohlord.--->AndI'vebeenwait-ingforthismo-ment-forallmylife.->Ohlord.--->Canyoufeelitcom-ingintheairto-night?->Ohlord,-|||ohlord.-->@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Well,|!bg=ifyoutoldme-youweredrown|!bg=img=../drown.svg-ing,->I|!bg=wouldnotlendahand.-->I'veseenyourfacebe-fore,myfriend.->ButIdon'tknowifyouknowwhoIam.-->Well,IwasthereandIsawwhatyoudid.->Isawitwithmyowntwoeyes.-->Soyoucanwipeoffthatgrin.->Iknowwhereyou'vebeen.->It'sallbeenapackoflies.->@@AndIcanfeelitcom-ingintheairto-night.-->Ohlord.--->Well,I'vebeenwait-ingforthismo-ment-forallmylife.-->Ohlord.--->Icanfeelitcom-ingintheairto-night.-->Ohlord.--->Well,I'vebeenwait-ingforthismo-ment-forallmylife.-->Ohlord,-|||ohlord.-->@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Well,|!bg=Ire-mem-ber.-->Ire-mem-ber,don'twor-ry.--->HowcouldIe-verfor-get?>It'sthefirsttime,-->thelasttimewee-vermet.-->@@ButIknowtherea-sonwhyyoukeepyoursi-lenceup.--->No,youdon'tfoolme.->Well,thehurtdoes-n'tshow.->Butthepainstillgrows.>It's-nostran-gertoyouandme.-->Icanfeelitcom-ingintheairto-night.->Ohlord.--->Well,I'vebeenwait-ingforthismo-ment-forallmylife.-->Ohlord.--->Icanfeelit-intheairto-night.>Ohlord,--|||ohlord.--->Well,I'vebeenwait-ingforthismo-ment-forallmylife.-->Ohlord.--->Icanfeelit-com-ingintheairto-night.-->Ohlord.--->AndI'vebeenwait-ingforthismo-ment-forallmylife.->Ohlord.--->Icanfeelitintheairto-night.>Ohlord,-|||ohlord,|||oh-lord.-->Well,I'vebeenwait-ingforthismo-ment-allmylife.->Ohlord,|||ohlord.-->Icanfeelit-intheairto-night.>Ohlord,-|||ohlord,|||ohlord.-->Well,I'vebeenwait-ingforthismo-ment-allmylife.->Ohlord,|||ohlord.-@@Playing time: ~332 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 32553316/58347576 bytes(55.7921% compressed)
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+Wrote 26982867/58259376 bytes(46.3151% compressed)
+warning: compressing over-full page by 1.1 staff-spaces
+warning: page 11 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 11.9 staff-spaces
 warning: page 0 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-warning: compressing over-full page by 3.0 staff-spaces
+warning: compressing over-full page by 3.1 staff-spaces
 warning: page 0 has been compressed
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
     128 measure=all
     128 measure=kav
-    128 measure=susan
     128 measure=gg
     128 measure=peter
+    128 measure=susan
     128 measure=bass

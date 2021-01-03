@@ -16,29 +16,29 @@ track 0 \
     output-karaoke \
 track 0 \
     preset susan \
+    output-lilypond \
 track 1 \
     preset peter \
+    output-lilypond \
+    output-chords \
 track 2 \
     preset peter \
-    name guitarTwo \
-    instrument-name Guitar2 \
-    instrument-short-name Gtr2 \
+    output-lilypond \
     output-dotext \
+    output-chords \
 track 3 \
     preset peter \
-    name guitarThree \
-    instrument-name Guitar3 \
-    instrument-short-name Gtr3 \
+    output-lilypond \
     output-dotext \
 track 4 \
     preset peter \
-    name guitarFour \
-    instrument-name Guitar4 \
-    instrument-short-name Gtr4 \
+    output-lilypond \
     output-dotext \
 track 5 \
     preset bass \
+    output-lilypond \
     output-dotext \
 track 6 \
     preset gg \
+    output-drums \
 2>&1|tee log

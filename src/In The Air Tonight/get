@@ -1,12 +1,49 @@
 #!/bin/sh
-WHERE="/share/mirror/songsterr/stuff/d-keep/d-Phil Collins/d-In The Air Tonight-s50420/d-r233370"
+WHERE="/share/mirror/songsterr/stuff/d-keep/d-Phil Collins/d-In The Air Tonight-s50420/d-r233370/application_guitar_pro3-15156060.gp3"
+DRUMMAP="44 hh 0,48 tomh 0,47 tomml 0,41 toml 0,43 toml 0,40 sn 0,"
+set -e
+rm -f generated-*
 SCALE="c cis d dis e f fis g gis a bes b"
-gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name keyboardOnePart --output-tabs - >generated-keyboard1tabs
-gzip -d <"$WHERE/z-t1"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name keyboardTwoPart --output-tabs - >generated-keyboard2tabs
-gzip -d <"$WHERE/z-t2"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name celestaPart --output-tabs - >generated-celestatabs
-gzip -d <"$WHERE/z-t3"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name guitarPart --output-tabs - >generated-guitartabs
-gzip -d <"$WHERE/z-t4"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name bassPart --output-tabs - >generated-basstabs
-gzip -d <"$WHERE/z-t5"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name voPart --output-tabs - >generated-votabs
-gzip -d <"$WHERE/z-t6"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name voTwoPart --output-tabs - >generated-vo2tabs
-gzip -d <"$WHERE/z-t7"|java -jar ../../songsterrToLy/1.jar --scale "$SCALE" --name voEchoPart --output-tabs - >generated-voechotabs
-#gzip -d <"$WHERE/z-t8"|java -jar ../../songsterrToLy/1.jar --name drumsPart - >generated-drums
+java -jar ../../guitarproToLy/1.jar <"$WHERE" \
+modified-filename drs \
+modified-filename vocals_karaoke \
+modified-filename vocals_lyrics \
+markup-extra '\key d \minor' \
+scale "$SCALE" \
+drumMap "$DRUMMAP" \
+track 5 \
+    preset kav \
+    output-lilypond \
+    output-lyrics \
+    output-karaoke \
+    output-dotext \
+track 5 \
+    preset susan \
+    output-lilypond \
+    output-dotext \
+track 3 \
+    preset peter \
+    output-lilypond \
+    output-dotext \
+track 4 \
+    preset bass \
+    output-lilypond \
+track 0 \
+    preset midiOne \
+    output-lilypond \
+track 1 \
+    preset midiOne \
+    output-lilypond \
+track 2 \
+    preset midiOne \
+    output-lilypond \
+track 6 \
+    preset midiOne \
+    output-lilypond \
+track 7 \
+    preset midiOne \
+    output-lilypond \
+track 8 \
+    preset gg \
+    output-drums \
+2>&1|tee log

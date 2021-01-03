@@ -1,0 +1,107 @@
+\header {
+    title = "In the Air Tonight"
+    composer = "Phil Collins"
+}
+
+\include "generated-markup"
+\include "generated-vocals_donetext"
+\include "generated-vocals"
+\include "vocals_lyrics"
+\include "vocals_karaoke"
+\include "generated-steelpan_donetext"
+\include "generated-steelpan"
+\include "generated-guitar_donetext"
+\include "generated-guitar"
+\include "generated-bass"
+\include "generated-midiOne"
+\include "generated-midiOneA"
+\include "generated-midiOneB"
+\include "generated-midiOneC"
+\include "generated-midiOneD"
+\include "drs"
+
+layoutmusic = <<
+    \tag #'(allPart kavPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Vocals" }
+        shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+        \markupStuff
+        \vocals
+    >>
+    \tag #'(allPart kavPart) \vocalsLyrics
+    \tag #'(allPart susanPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Steelpan" }
+        shortInstrumentName = \markup { \rotate #90 "Sp" }
+    } <<
+        \markupStuff
+        \steelpan
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Guitar" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr" }
+    } <<
+        \markupStuff
+        \guitar
+        \clef "treble_8"
+    >>
+    \tag #'(allPart peterPart) \new TabStaff \with {
+        stringTunings = \stringTuning <d, a, d g b e'>
+    } \guitar
+    \tag #'(allPart bassPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Bass" }
+        shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } <<
+        \markupStuff
+        \bass
+        \clef "bass_8"
+    >>
+    \tag #'(allPart bassPart) \new TabStaff \with {
+        stringTunings = \stringTuning <e,, a,, d, g,>
+    } \bass
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
+        instrumentName = \markup { \rotate #90 "Drums" }
+        shortInstrumentName = \markup { \rotate #90 "Drs" }
+        drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+        \markupStuff
+        \drs
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiKaraoke) \new Staff = "generated-vocals_dotext" \vocalsDotext
+    \tag #'(midiKaraoke) \new Staff = "generated-vocals" \with {
+        midiInstrument = #"clarinet"
+    } \vocals
+    \tag #'(midiKaraoke) \vocalsKaraoke
+    \tag #'(midiSusan) \new Staff = "generated-steelpan_dotext" \steelpanDotext
+    \tag #'(midiSusan) \new Staff = "generated-steelpan" \with {
+        midiInstrument = #"clarinet"
+    } \steelpan
+    \tag #'(midiPeter) \new Staff = "generated-guitar_dotext" \guitarDotext
+    \tag #'(midiPeter) \new Staff = "generated-guitar" \with {
+        midiInstrument = #"distorted guitar"
+    } \guitar
+    \tag #'(midiBass) \new Staff = "generated-bass" \with {
+        midiInstrument = #"electric bass (finger)"
+    } \bass
+    \tag #'(midiOne) \new Staff = "generated-midiOne" \with {
+        midiInstrument = #"pad 2 (warm)"
+    } \midiOne
+    \tag #'(midiOne) \new Staff = "generated-midiOneA" \with {
+        midiInstrument = #"pad 2 (warm)"
+    } \midiOneA
+    \tag #'(midiOne) \new Staff = "generated-midiOneB" \with {
+        midiInstrument = #"celesta"
+    } \midiOneB
+    \tag #'(midiOne) \new Staff = "generated-midiOneC" \with {
+        midiInstrument = #"alto sax"
+    } \midiOneC
+    \tag #'(midiOne) \new Staff = "generated-midiOneD" \with {
+        midiInstrument = #"clarinet"
+    } \midiOneD
+    \tag #'(midiGg) \new DrumStaff = "generated-drs" \with {
+        drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drs
+>>
