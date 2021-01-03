@@ -19,8 +19,12 @@ Format: 1  Tracks: 14  Divisions: 384
 Playing time: ~230 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 29712556/40233060 bytes(73.8511% compressed)
+Wrote 29622401/40233060 bytes(73.627% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+    149 measure=system1
+     85 measure=system2
+    137 measure=system3
+    121 measure=system4

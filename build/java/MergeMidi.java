@@ -8,7 +8,8 @@ final class MergeMidi{
     private static final int DRUMS_CHANNEL=10-1;
     private static final int BEND_MAX_SIZE=128;
     private static final double BEND_RANGE=24;
-// WTF?  Lilypond adds an extra "r32" rest after each Lyric meta event?  But sometimes it is "r16."?
+// WTF?  Lilypond adds an extra 48 divisions after each Lyric meta event?  But sometimes it is 144?
+// Sometimes it is 192.  Sometimes 24.
     private static int fudgeLyrics=48;
     private final Map<String,List<TextEvent>>textEvents=new HashMap<String,List<TextEvent>>();
     private final List<MetaEvent>metaEvents=new ArrayList<MetaEvent>();

@@ -1,7 +1,7 @@
 % BIN midi all susan kav gg peter bass
 % ROBOT pickup_measures=1
 % ROBOT measure_map={"default":"1-35,8","kav":"1"}
-% AARIN
+% ROBOT enabled=true
 
 \header {
     title = "Have You Ever Seen The Rain"

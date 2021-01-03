@@ -3,9 +3,13 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip1
     \skip1
     \skip1
-    \skip1
-    \skip1
-    \skip1
+    \repeat volta 4 {
+	\skip1
+    } \alternative { {
+	\skip1
+    } {
+	\skip1
+    } }
     \skip1
     \skip1
     \skip1

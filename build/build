@@ -61,7 +61,6 @@ done
 echo "name=$name" >../bin/out.aarin
 sed <music -n -e 's/^% ROBOT \(.*\)$/\1/p' >>../bin/out.aarin
 MERGEMIDI=`sed <music -n -e 's/^% MERGEMIDI \(.*\)$/\1/p'`
-AARIN=`grep '^% AARIN' music||true`
 for part in $PARTS
 do
     if test "x$part" = "xmidi"
@@ -153,7 +152,7 @@ EOF
     cd ../src
 done
 cd ..
-if test -d /share/music -a -n "$AARIN"
+if test -d /share/music
 then
     cp bin/out.aarin "/share/music/aarin/$name.aarin"
     grep '^measure=' bin/out.aarin|cut -f 1 -d ' '|uniq -c

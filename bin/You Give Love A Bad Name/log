@@ -25,7 +25,7 @@ Format: 1  Tracks: 14  Divisions: 384
 Playing time: ~217 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 26698981/38000168 bytes(70.2602% compressed)
+Wrote 25283883/38000168 bytes(66.5362% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 0.2 staff-spaces
 warning: page 0 has been compressed
@@ -36,3 +36,9 @@ warning: page 2 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+    112 measure=all
+    112 measure=kav
+    112 measure=susan
+    112 measure=gg
+    112 measure=peter
+    112 measure=bass
