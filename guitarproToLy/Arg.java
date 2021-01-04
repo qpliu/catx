@@ -81,8 +81,8 @@ final class Arg implements Cloneable{
 	    layout_tabs = true;
 	    midi_who = "midiBass";
 	    instrument_name = "Bass";
-	    instrument_short_name  = "Ba";
-	    string_numbers  = true;
+	    instrument_short_name = "Ba";
+	    string_numbers = true;
 	}else if (preset.equals("peter")){
 	    name = "guitar";
 	    layout_who = "allPart peterPart";
@@ -90,8 +90,8 @@ final class Arg implements Cloneable{
 	    layout_tabs = true;
 	    midi_who = "midiPeter";
 	    instrument_name = "Guitar";
-	    instrument_short_name  = "Gtr";
-	    string_numbers  = true;
+	    instrument_short_name = "Gtr";
+	    string_numbers = true;
 	}else
 	    throw new RuntimeException();
     }

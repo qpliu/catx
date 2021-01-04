@@ -50,8 +50,8 @@ layoutmusic = <<
         stringTunings = \stringTuning <e, a, d g b e'>
     } \guitar
     \tag #'(allPart peterPart) \new Staff \with {
-        instrumentName = \markup { \rotate #90 "Guitar" }
-        shortInstrumentName = \markup { \rotate #90 "Gtr" }
+        instrumentName = \markup { \rotate #90 "Guitar2" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr2" }
     } <<
         \markupStuff
         \guitarA
@@ -61,8 +61,8 @@ layoutmusic = <<
         stringTunings = \stringTuning <e, a, d g b e'>
     } \guitarA
     \tag #'(allPart peterPart) \new Staff \with {
-        instrumentName = \markup { \rotate #90 "Guitar" }
-        shortInstrumentName = \markup { \rotate #90 "Gtr" }
+        instrumentName = \markup { \rotate #90 "Guitar3" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr3" }
     } <<
         \markupStuff
         \guitarB
@@ -72,8 +72,8 @@ layoutmusic = <<
         stringTunings = \stringTuning <e, a, d g b e'>
     } \guitarB
     \tag #'(allPart peterPart) \new Staff \with {
-        instrumentName = \markup { \rotate #90 "Guitar" }
-        shortInstrumentName = \markup { \rotate #90 "Gtr" }
+        instrumentName = \markup { \rotate #90 "Guitar4" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr4" }
     } <<
         \markupStuff
         \guitarC

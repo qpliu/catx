@@ -51,8 +51,8 @@ layoutmusic = <<
         stringTunings = \stringTuning <e, a, d g b e'>
     } \guitar
     \tag #'(allPart peterPart) \new Staff \with {
-        instrumentName = \markup { \rotate #90 "Guitar" }
-        shortInstrumentName = \markup { \rotate #90 "Gtr" }
+        instrumentName = \markup { \rotate #90 "Guitar2" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr2" }
     } <<
         \markupStuff
         \guitarA
@@ -62,8 +62,8 @@ layoutmusic = <<
         stringTunings = \stringTuning <e, a, d g b e'>
     } \guitarA
     \tag #'(allPart peterPart) \new Staff \with {
-        instrumentName = \markup { \rotate #90 "Guitar" }
-        shortInstrumentName = \markup { \rotate #90 "Gtr" }
+        instrumentName = \markup { \rotate #90 "Guitar3" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr3" }
     } <<
         \markupStuff
         \guitarB
@@ -73,8 +73,8 @@ layoutmusic = <<
         stringTunings = \stringTuning <e, a, d g b e'>
     } \guitarB
     \tag #'(allPart peterPart) \new Staff \with {
-        instrumentName = \markup { \rotate #90 "Guitar" }
-        shortInstrumentName = \markup { \rotate #90 "Gtr" }
+        instrumentName = \markup { \rotate #90 "Guitar4" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr4" }
     } <<
         \markupStuff
         \guitarC
@@ -84,8 +84,8 @@ layoutmusic = <<
         stringTunings = \stringTuning <e, a, d g b e'>
     } \guitarC
     \tag #'(allPart peterPart) \new Staff \with {
-        instrumentName = \markup { \rotate #90 "Guitar" }
-        shortInstrumentName = \markup { \rotate #90 "Gtr" }
+        instrumentName = \markup { \rotate #90 "Guitar5" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr5" }
     } <<
         \markupStuff
         \guitarD
@@ -95,8 +95,8 @@ layoutmusic = <<
         stringTunings = \stringTuning <e, a, d g b e'>
     } \guitarD
     \tag #'(allPart peterPart) \new Staff \with {
-        instrumentName = \markup { \rotate #90 "Guitar" }
-        shortInstrumentName = \markup { \rotate #90 "Gtr" }
+        instrumentName = \markup { \rotate #90 "Guitar6" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr6" }
     } <<
         \markupStuff
         \guitarE
@@ -106,8 +106,8 @@ layoutmusic = <<
         stringTunings = \stringTuning <e, a, d g b e'>
     } \guitarE
     \tag #'(allPart peterPart) \new Staff \with {
-        instrumentName = \markup { \rotate #90 "Guitar" }
-        shortInstrumentName = \markup { \rotate #90 "Gtr" }
+        instrumentName = \markup { \rotate #90 "Guitar7" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr7" }
     } <<
         \markupStuff
         \guitarF
