@@ -1,0 +1,142 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+\mymark "Chorus 1" #21
+    ""4 "I"8 "can" "feel" "it"4 "com"8 -- |
+    \skip8 "ing"8 "in" "the" "air"4 "to"8 -- "night," |
+    \skip4 ""2 "oh"8 "lord." |
+    \skip4. ""2 ""8 |
+    ""8. "And"16 "I've"8 "been" "wait" -- "ing" "for" "this" |
+    "mo"8 -- "ment" ""8. "for"16 "all"4 "my"8 "life," |
+    \skip4 ""2 "oh"8 "lord." |
+    \skip4. ""2 ""8 |
+    ""4 "Can"8 "you" "feel" "it"4 "com"8 -- |
+    \skip8 "ing"8 "in" "the" "air"4 "to"8 -- "night?" |
+    \skip4 ""2 "Oh"8 "lord," |
+    \skip4. ""4. "oh"8 "lord." |
+\mymark "Interlude" #33
+    \skip4. ""2 ""8 |
+    ""1 |
+    ""1 |
+    ""2. "Well,"8 "if" |
+\mymark "Verse 1" #37
+    "you"8 "told"4 "me" ""8 "you" "were" |
+    "drown"8 -- "ing,"4 ""2 "I"8 |
+    "would"8 "not"4 "lend" "a"8 "hand."4 |
+    ""2. ""8 "I've" |
+    "seen"8 "your"4 "face" "be"8 -- "fore," "my" |
+    \skip8 "friend,"4 "" "but"8 "I" "don't" |
+    "know"8 "if" "you" "know"4 "who"8 "I" "am." |
+    \skip4 ""2 ""8 "Well," |
+\mymark "Verse 2" #45
+    "I"8 "was"4 "there" "and"8 "I" "saw" |
+    \skip8 "what"8 "you" "did,"4 "" "I"8 |
+    "saw"8 "it" "with" "my" "own"4 "two"8 "eyes." |
+    \skip4 ""4. ""16 "So" "you"8 "can" |
+    "wipe"8 "off" "that" "grin,"4 "" "I"8 |
+    "know"8 "where" "you've" "been."4 "" "It's"8 |
+    "all"8 "been" "a" "pack" "of"16 "lies."4. \skip16 |
+    ""1 |
+\mymark "Chorus 2" #53
+    ""8 "And" "I" "can" "feel" "it"4 "com"8 -- |
+    \skip8 "ing"8 "in" "the" "air"4 "to"8 -- "night," |
+    \skip8 ""2 ""8 "oh" "lord." |
+    \skip4. ""2 ""8 |
+    ""8. "Well,"16 "I've"8 "been" "wait" -- "ing" "for" "this" |
+    "mo"8 -- "ment" ""8. "for"16 "all"8. "my" "life,"8 |
+    \skip8 ""2 ""8 "oh" "lord." |
+    \skip4. ""2 ""8 |
+    ""4 "I"8 "can" "feel" "it"4 "com"8 -- |
+    \skip8 "ing"8 "in" "the" "air"4 "to"8 -- "night," |
+    \skip8 ""2 ""8 "oh" "lord." |
+    \skip4. ""2 ""8 |
+    ""8. "Well,"16 "I've"8 "been" "wait" -- "ing" "for" "this" |
+    "mo"8 -- "ment" ""8. "for"16 "all"8. "my" "life,"8 |
+    \skip8 ""2 ""8 "oh" "lord," |
+    \skip4. ""4. "oh"8 "lord." |
+\mymark "Interlude" #69
+    \skip4. ""2 ""8 |
+    ""1 |
+    ""1 |
+    ""2 ""8 "Well," "I" "re" -- |
+\mymark "Verse 3" #73
+    "mem"8 -- "ber," ""2 ""8 "I" |
+    "re"8 -- "mem" -- "ber," "don't" "wor" -- "ry," ""4 |
+    ""2 ""8 "how" "could" "I" |
+    \skip8 "e"8 -- "ver" "for" -- "get?"4 "It's"8 "the" |
+    "first"4 "time," ""2 |
+    ""8 "the" "last"4 "time"4. "we"8 |
+    "e"8 -- "ver" "met." ""2 ""8 |
+    ""2 ""8 "But"4 "I"8 |
+\mymark "Verse 4" #81
+    \skip8 "know"4. "the"8 "rea" -- "son" "why" |
+    \skip8 "you"8 "keep" "your" "si" -- "lence" "up." "" |
+    ""2 ""8 "no," "you" "don't" |
+    "fool"8 "me."4. "" "Well,"16 "the" |
+    "hurt"8 "does" -- "n't" "show,"4 "" "but"16 "the" |
+    "pain"4 "still"8 "grows."4 "It's"8 "" "no" |
+    "stran"8 -- "ger" "to" "you"4 "and"8 "me."4 |
+    ""1 |
+\mymark "Chorus 3" #89
+    ""4 "I"8 "can" "feel" "it"4 "com"8 -- |
+    \skip8 "ing"8 "in" "the" "air"4 "to"8 -- "night," |
+    \skip4 ""2 "oh"8 "lord." |
+    \skip4. ""2 ""8 |
+    ""8. "Well,"16 "I've"8 "been" "wait" -- "ing" "for" "this" |
+    "mo"8 -- "ment" ""8. "for"16 "all"8. "my" "life,"8 |
+    \skip8 ""2 ""8 "oh" "lord." |
+    \skip4. ""2 ""8 |
+    ""4 "I"8 "can" "feel" "it" "" "in"16 "the" |
+    "air"4 "to"8 -- "night,"4 "oh" "lord,"8 |
+    \skip8 ""2 ""8 "oh" "lord." |
+    \skip4. ""2 ""8 |
+    ""8. "Well,"16 "I've"8 "been" "wait" -- "ing" "for" "this" |
+    "mo"8 -- "ment" ""8. "for"16 "all"8. "my" "life,"8 |
+    \skip8 ""2 ""8 "oh" "lord." |
+    \skip4. ""2 ""8 |
+\mymark "Chorus 4" #105
+    ""4 "I"8 "can" "feel" "it" "" "com" -- |
+    \skip8 "ing"8 "in" "the" "air"4 "to"8 -- "night," |
+    \skip8 ""2 ""8 "oh" "lord." |
+    \skip4. ""2 ""8 |
+    ""8. "And"16 "I've"8 "been" "wait" -- "ing" "for" "this" |
+    "mo"8 -- "ment" ""8. "for"16 "all"4 "my"8 "life," |
+    \skip4. ""4. "oh"8 "lord." |
+    \skip4. ""2 ""8 |
+    ""4 "I"8 "can" "feel" "it" "in" "the" |
+    "air"4 "to"8 -- "night,"4. "oh"8 "lord," |
+    \skip2 ""8 "oh" "lord,"4 |
+    \skip4 \skip16. \skip64 ""64 "oh"8 "lord."4 "" |
+    ""8. "Well,"16 "I've"8 "been" "wait" -- "ing" "for" "this" |
+    "mo"8 -- "ment" ""8. "all"4 \skip16 "my"8 "life," |
+    \skip4. ""4. "oh"8 "lord," |
+    \skip4 "oh"8 "lord."2 ""8 |
+\mymark "fade out" #121
+    ""4 "I"8 "can" "feel" "it" "" "in"16 "the" |
+    "air"4 "to"8 -- "night,"4. "oh"8 "lord," |
+    \skip4 ""2 "oh"8 "lord," |
+    \skip4 "oh"8 "lord."4. ""4 |
+    ""8. "Well,"16 "I've"8 "been" "wait" -- "ing" "for" "this" |
+    "mo"8 -- "ment" ""8. "all"4 \skip16 "my"8 "life," |
+    \skip4. ""4. "oh"8 "lord," |
+    \skip4 "oh"8 "lord."4. ""4 |
+}

@@ -31,11 +31,11 @@ vocalsALyrics = \new Lyrics \lyricmode {
     ""2. |
     ""2. |
     ""2. |
-    "Ge"8 -- "ki" -- "retsu!"8. \skip16 "Sa"8 -- "ku" -- "retsu!"8. ""16 |
-    "Kyou"8 -- "retsu!" "Ha"16 -- "re"8 -- "tsu!"16 "Ba"8 -- "ku" -- "retsu!"4 |
-    "MO"4. -- "RETSU!"2 ""8 |
+    "Ge"8 -- "ki" -- "retsu!"8. ""16 "Sa"8 -- "ku" -- "retsu!"8. ""16 |
+    "Kyou"8 -- "retsu!" "Ha"16 -- "re"8 -- "tsu!"8. "Ba"8 -- "ku"4 -- |
+    "retsu!"4. "MO"2 -- ""8 |
 \mymark "Chorus 1A" #31
-    ""1 |
+    "RETSU!"4. ""2 ""8 |
     ""1 |
     ""1 |
     ""1 |
@@ -102,11 +102,11 @@ vocalsALyrics = \new Lyrics \lyricmode {
     ""2. |
     ""2. |
     ""2. |
-    "Ge"8 -- "ki" -- "retsu!"8. \skip16 "Sa"8 -- "ku" -- "retsu!"8. ""16 |
-    "Kyou"8 -- "retsu!" "Ha"16 -- "re"8 -- "tsu!"16 "Ba"8 -- "ku" -- "retsu!"4 |
-    "MO"4. -- "RETSU!"2 ""8 |
+    "Ge"8 -- "ki" -- "retsu!"8. ""16 "Sa"8 -- "ku" -- "retsu!"8. ""16 |
+    "Kyou"8 -- "retsu!" "Ha"16 -- "re"8 -- "tsu!"8. "Ba"8 -- "ku"4 -- |
+    "retsu!"4. "MO"2 -- ""8 |
 \mymark "Chorus 2A" #96
-    ""1 |
+    "RETSU!"4. ""2 ""8 |
     ""1 |
     ""1 |
     ""1 |

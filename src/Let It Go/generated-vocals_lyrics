@@ -1,0 +1,127 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""2. ""8 "The" |
+    "snow"4 "glows" "white" "on"8 "the" |
+    "moun"8 -- "tain" "to" -- "night,"4. "Not"8 "a" |
+    "foot"8 -- "print"2 "to"8 "be" "seen." |
+    \skip4 ""2 ""8 "A" |
+    "king"8 -- "dom" "of" "i"4. -- "so"8 -- "la" -- |
+    \skip8 "tion"4. ""4 "And"8 "it" |
+    "looks"8 "like"4. ""8 "I'm" "the" "queen." |
+    \skip8 ""2. ""8 |
+    ""4 "The"8 "wind"4 "is" "howl"8 -- |
+    \skip8 "ing"4 "like" "this"4. |
+    "swirl"8 -- "ing"4 "storm" "in" -- "side."8 |
+    \skip1 |
+    ""4 "Could"8 -- "n't" "keep" "it"4 "in,"8 |
+    \skip8 ""8 "hea" -- "ven" "knows"4 "I've" |
+    "tried."1 |
+    \skip4 ""2. |
+    ""4 "Don't"8 "let"4 "them" "in,"8 |
+    \skip8 "don't"4 "let" "them" "see."8 |
+    \skip8 ""8 "Be" "the" "good" "girl"4 "you"8 |
+    "al"8 -- "ways"4 "have" "to" "be."8 |
+    \skip8 ""8 "Con" -- "ceal,"4 "don't" "feel,"8 |
+    \skip8 ""8 "don't" "let"4 "them" "know."8 |
+    \skip1 |
+    \skip2 ""4 "Well,"8 "now" |
+    \skip8 "they"4. "know."2 |
+    \skip4 ""4. "Let"8 "it" "go," |
+    \skip2 ""8 "let" "it" "go." |
+    \skip2 ""4 "Can't" |
+    "hold"8 "it" "back"4 "a"8 -- "ny"4 -- "more."8 |
+    \skip2 ""8 "Let" "it" "go," |
+    \skip2 ""8 "let" "it" "go." |
+    \skip2 ""8 "Turn" "a" -- "way" |
+    \skip8 "and"4 "slam"4. "the"4 |
+    "door."2 "" |
+    "I"4. "don't" "care"4 |
+    \skip4 ""4 "what" "they're" |
+    "go"8 -- "ing"4 "to"4. "say."4 |
+    \skip4 ""2 "Let"8 "the" |
+    "storm"4. "rage" "on."4 |
+    \skip2. ""8 "The" |
+    "cold"4 "ne"8 -- "ver" "bo" -- "thered" "me" "a" -- |
+    "ny"8 -- "way."4 ""2 ""8 |
+    ""1 |
+    ""1 |
+    ""8 "It's" "fun" -- "ny" "how" "some"4 "dis"8 -- |
+    \skip8 "tance"4. ""4 "makes" |
+    "e"4 -- "very"8 -- "thing"4 "seem" "small."8 |
+    \skip2 ""4 "And"8 "the" |
+    "fears"4 "that"8 "once"4 "con" -- "troll"8 -- |
+    \skip8 "ed"8 "me"4 "" "can't" |
+    "get"4 "to"8 "me"4 "at" "all."8 |
+    \skip1 |
+    ""4 "It's"8 "time"4 "to" "see"8 |
+    \skip8 "what"4 "I" "can" "do."8 |
+    \skip8 ""8 "To" "test"4 "the" "li"8 -- |
+    \skip8 "mits"4 "and" "break" "through."8 |
+    \skip8 ""8 "No" "right,"4 "no" "wrong,"8 |
+    \skip8 "no"4 "rules" "for"8 "me."4 |
+    \skip2 ""8 "I'm"4 "free."8 |
+    \skip1 |
+    \skip2 ""8 "Let" "it" "go," |
+    \skip2 ""8 "let" "it" "go." |
+    \skip2 ""8 "I" "am" "one" |
+    \skip8 "with"8 "the" "wind"4 "and" "sky."8 |
+    \skip2 ""8 "Let" "it" "go," |
+    \skip2 ""8 "let" "it" "go." |
+    \skip2 ""4 "You'll"8 "ne" -- |
+    \skip8 "ver"4 "see"4. "me"4 |
+    "cry."2. ""4 |
+    "Here"4. "I" "stand"4 |
+    \skip2. "and"4 |
+    "here"4. "I" "stay."4 |
+    \skip2 ""4 "Let"8 "the" |
+    "storm"4. "rage" "on."4 |
+    \skip1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""4 "My"8 "po"4 -- "wer" "flur"8 -- |
+    \skip8 "ries"4 "through" "the" "air"8 |
+    \skip4 "in"8 -- "to"4 "the" "ground."8 |
+    \skip1 |
+    ""4 "My"8 "soul"4 "is" "spi"8 -- |
+    \skip8 "ral"4 -- "ing" "in" "fro"8 -- |
+    \skip4 "zen"8 "frac"4 -- "tals" "all"8 |
+    \skip8 "a"4 -- "round."2 \skip8 |
+    ""4 "And"8 "one"4 "thought" "crys"8 -- |
+    \skip8 "tal"4 -- "liz" -- "es" "like"8 |
+    \skip4 "an"8 "i"4 -- "cy" "blast."8 |
+    \skip1 |
+    ""4 "I'm"8 "ne"4 -- "ver" "go"8 -- |
+    \skip8 "ing"4 "back,"4. ""8 "the" |
+    "past"4 "is"8 "in"4 "the" "past."8 |
+    \skip1 |
+    \skip2 ""8 "Let" "it" "go," |
+    \skip2 ""8 "let" "it" "go." |
+    \skip2 ""8 "And" "I'll" "rise" |
+    \skip8 "like"8 "the" "break"4 "of" "dawn."8 |
+    \skip2 ""8 "Let" "it" "go," |
+    \skip2 ""8 "let" "it" "go." |
+    \skip2 ""4 "That"8 "per" -- |
+    \skip8 "fect"4 "girl"4. "is"4 |
+    "gone."2. ""4 |
+    "Here"4. "I" "stand"4 |
+    \skip2 "in"4 "the" |
+    "light"4. "of" "day."4 |
+    \skip1 |
+    \skip2 ""4 "Let"8 "the" |
+    "storm"4. "rage" "on."4 |
+    \skip1 |
+    \skip2. ""8 "Cold" |
+    "ne"4 -- "ver"8 "bo" -- "ther" -- "ed" "me" "a" -- |
+    "ny"8 -- "way."4 ""2 ""8 |
+    ""1 |
+    ""1 |
+}

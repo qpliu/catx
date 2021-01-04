@@ -5,9 +5,18 @@ final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
     private final Rational bounce_time;
     private final int threshold_to_add_count;
     private final int threshold_to_add_bounce;
-    private final double short_length;
-    private final double long_length;
     private final double maximum_length;
+    private final Map<String,String>pictures=new HashMap<String,String>();{
+	pictures.put("butterfly","butterfly.png");
+	pictures.put("drown","drown.svg");
+	pictures.put("frog","frog.png");
+	pictures.put("rainbow","rainbow.png");
+	pictures.put("storm","storm.svg");
+	pictures.put("sun","sun.svg");
+	pictures.put("train","train.png");
+	pictures.put("umbrella","umbrella.svg");
+	pictures.put("yeah","yeah.png");
+    }
     private static final MeasureMaker.GetWhatSuffix HYPHENSTRING_GWS=new MeasureMaker.GetWhatSuffix(){
 	@Override public String getWhat(boolean is_lhs,boolean is_rhs){
 	    return is_lhs?"\"-\"":"\"\"";
@@ -18,9 +27,8 @@ final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
 	bounce_time = Rational.parseRational(arg.karaoke_lyrics_parameter.getOrDefault("bounce_time","2"));
 	threshold_to_add_bounce = Integer.parseInt(arg.karaoke_lyrics_parameter.getOrDefault("threshold_to_add_bounce","4"));
 	threshold_to_add_count = Integer.parseInt(arg.karaoke_lyrics_parameter.getOrDefault("threshold_to_add_count","8"));
-	short_length = Double.parseDouble(arg.karaoke_lyrics_parameter.getOrDefault("short_length","20"));
-	long_length = Double.parseDouble(arg.karaoke_lyrics_parameter.getOrDefault("long_length","40"));
-	maximum_length = Double.parseDouble(arg.karaoke_lyrics_parameter.getOrDefault("maximum_length","50"));
+	maximum_length = Double.parseDouble(arg.karaoke_lyrics_parameter.getOrDefault("maximum_length","60"));
+	addPictures();
 	addBounces();
 	addLineBreaks();
 	addEnd();
@@ -31,6 +39,30 @@ final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
 	if (measure.endsWith(" |"))
 	    measure = measure.substring(0,measure.length()-2);
 	super.printMeasure(measure);
+    }
+    void addPictures(){
+	boolean clearPicture=false;
+	for (Queue<Gpfile.Event>queue=getFilteredEvents(trackEvents); queue.size()!=0;){
+	    Gpfile.LyricEvent le=(Gpfile.LyricEvent)queue.poll();
+	    StringBuilder sb=new StringBuilder();
+	    Gpfile.LyricEvent ll=le;
+	    for (;;){
+		for (int i=0; i<ll.lyric.length(); i++)
+		    if (Character.isAlphabetic(ll.lyric.charAt(i)))
+			sb.append(ll.lyric.charAt(i));
+		if (!ll.hyphen_lhs || queue.size()==0)
+		    break;
+		ll = (Gpfile.LyricEvent)queue.poll();
+	    }
+	    String pic=pictures.get(sb.toString().toLowerCase());
+	    if (pic!=null){
+		le.lyric += "|!bg=img="+pic;
+		clearPicture = true;
+	    }else if (clearPicture){
+		le.lyric += "|!bg=";
+		clearPicture = false;
+	    }
+	}
     }
     void addBounces(){
 	Rational lastTime=Rational.ZERO;
@@ -46,7 +78,7 @@ final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
 		    String lyric="@";
 		    if (bounces>=threshold_to_add_count && bounces-i<=4){
 			lyric = "@|!bg="+(bounces-i);
-			if (i==bounces-1)
+			if (i==bounces-1 && le.lyric.indexOf("|!bg=")==-1)
 			    le.lyric += "|!bg=";
 		    }
 		    trackEvents.add(new Gpfile.LyricEvent(lastTime.add(bounce_time.multiply(i)),bounce_time,lyric,false,false,le.which));
@@ -58,10 +90,10 @@ final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
 	}
     }
     double breakScore(Gpfile.LyricEvent previous,Gpfile.LyricEvent next){
-	double score=-50;
+	double score=-30;
 	char p=previous.lyric.charAt(previous.lyric.length()-1);
 	char n=next.lyric.charAt(0);
-	if (p=='.')
+	if (p=='.' || p=='?' || p=='!')
 	    score += 10;
 	if (p==',')
 	    score += 5;
@@ -71,13 +103,7 @@ final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
 	return score;
     }
     double stringLengthScore(double len){
-	if (len<short_length)
-	    return len-short_length;
-	if (len>long_length)
-	    return long_length-len;
-	if (len>maximum_length)
-	    return Double.NEGATIVE_INFINITY;
-	return 0;
+	return len>maximum_length?Double.NEGATIVE_INFINITY:0;
     }
     static double stringLength(Gpfile.LyricEvent le){
 	String s=le.lyric;
@@ -141,8 +167,7 @@ final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
     }
     void addEnd(){
 	Gpfile.Measure lastMeasure=main.gpfile.measures[main.gpfile.measures.length-1];
-	Rational duration=new Rational(1,8);
-	Rational songEnd=lastMeasure.time.add(lastMeasure.time_n).subtract(duration);
+	Rational songEnd=lastMeasure.time.add(lastMeasure.time_n);
 	Rational lastTime=Rational.ZERO;
 	String which=null;
 	for (Gpfile.Event e:getFilteredEvents(trackEvents)){
@@ -154,6 +179,6 @@ final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
 	lastTime = lastTime.add(bounce_time.multiply(2));
 	if (lastTime.compareTo(songEnd)>0)
 	    lastTime = songEnd;
-	trackEvents.add(new Gpfile.LyricEvent(lastTime,duration,"@@",false,false,which));
+	trackEvents.add(new Gpfile.LyricEvent(lastTime,new Rational(1,8),"@@",false,false,which));
     }
 }

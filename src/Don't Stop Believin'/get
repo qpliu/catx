@@ -2,12 +2,11 @@
 WHERE="/share/mirror/songsterr/stuff/d-keep/d-Journey/d-Don't Stop Believin'-s10681/d-r252847/application_guitar_pro5-16160530.gp5"
 set -e
 rm -f generated-*
+LYRICS=`cat lyrics`
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
+add-lyrics 3 1 "$LYRICS" \
 markup-extra '\key e \major' \
 modified-filename drs \
-modified-filename vocals \
-modified-filename vocals_karaoke \
-modified-filename vocals_lyrics \
 track 3 \
     preset kav \
     output-lilypond \

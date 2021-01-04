@@ -1,4 +1,4 @@
-midiOneA = {
+guitarA = {
 \mymark "Riff 1" #1
     r1 |
     r1 |
@@ -136,16 +136,16 @@ midiOneA = {
     r1 |
     r1 |
     r1 |
-    b16( a gis) f gis( a b) c' d'( e' d') c' dis'( e' f') fis' |
-    gis'16( a' gis') fis' gis'( a' ais') b' d''( dis'' d'') b' d''( dis'' e'') f'' |
-    e''16( f'' e'') d'' e''2\bendAfter #6 ^"full" e''16( f'' e'') d'' |
-    e''4.\bendAfter #6 ^"full" e''8 f'' gis'' gis'' f'' |
-    e''16( f'' e'') d'' f'' dis'' d'' c'' e'' d'' c'' b' d'' c'' b' a' |
-    gis'2.~ gis'8\bendAfter #6 ^"full" gis'16 a' |
-    b'16 b' b' \tuplet 3/2 { b'8 a' gis' } b'16 b' b' a' gis' b' b' a' gis' |
-    c''16 c'' c'' c'' b' a' c'' c'' c'' b' a' c'' b' a'8. |
-    d''4 e'' f'' gis''8 a'' |
-    b''2\bendAfter #6 ^"¾" r |
+    b16\4( a\4 gis\4) f\5 gis\4( a\4 b\4) c'\4 d'\3( e'\3 d'\3) c'\4 dis'\3( e'\3 f'\3) fis'\3 |
+    gis'16\2( a'\2 gis'\2) fis'\3 gis'\2( a'\2 ais'\2) b'\2 d''\1( dis''\1 d''\1) b'\2 d''\1( dis''\1 e''\1) f''\1 |
+    e''16\1( f''\1 e''\1) d''\2 e''2\1\bendAfter #6 ^"full" e''16\1( f''\1 e''\1) d''\2 |
+    e''4.\1\bendAfter #6 ^"full" e''8\1 f''\1 gis''\1 gis''\1 f''\1 |
+    e''16\1( f''\1 e''\1) d''\2 f''\1 dis''\1 d''\2 c''\2 e''\1 d''\2 c''\2 b'\2 d''\2 c''\2 b'\2 a'\3 |
+    gis'2.\3~ gis'8\3\bendAfter #6 ^"full" gis'16\3 a'\3 |
+    b'16\3 b'\3 b'\3 \tuplet 3/2 { b'8\3 a'\3 gis'\3 } b'16\3 b'\3 b'\3 a'\3 gis'\3 b'\3 b'\3 a'\3 gis'\3 |
+    c''16\3 c''\3 c''\3 c''\3 b'\3 a'\3 c''\3 c''\3 c''\3 b'\3 a'\3 c''\3 b'\3 a'8.\3 |
+    d''4\2 e''\2 f''\2 gis''8\1 a''\1 |
+    b''2\1\bendAfter #6 ^"¾" r |
     r1 |
     r1 |
     r1 |

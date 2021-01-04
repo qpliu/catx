@@ -1,0 +1,219 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Riff 1" #1
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+\mymark "Riff 2" #25
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+\mymark "Verse 1" #33
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+\mymark "Chorus" #41
+    ""2 "Check"8 "it" "out," "cho" -- |
+    \skip8 "c'late"4 "Can" "I" "have"8 |
+    \skip8 "a"4 "lit" -- "tle" "bit"8 |
+    \skip8 "of"8 "" "cho" -- "c'late," "please?"4. |
+    \skip4 ""4 "I’d"8 "bet" -- "ter" "watch" |
+    \skip8 "my"4 "weight," "though" "I"8 |
+    \skip8 "can’t"4 "gain" "too" "much,"8 |
+    \skip8 "I’m"8 "" "get" -- "ting" "wor" -- "ried"4 |
+    \skip4 ""4 "I"8 "don’t" "care," "cho" -- |
+    \skip8 "c'late"4 "Can" "I" "have"8 |
+    \skip8 "a"4 "lit" -- "tle" "bit"8 |
+    \skip8 "of"8 "" "cho" -- "c'late," "please?"4. |
+    \skip4 ""4 "I’ve"8 "got" -- "ta" "wait," |
+    \skip8 "though."4 "Wait" "a" "whi"8 -- |
+    \skip8 "le,"4 "come" "on" "Wait,"8 |
+    \skip8 "wait,"8 "" "wait"4 ""4. |
+\mymark "Riff 1" #57
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+\mymark "Riff 2" #65
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+\mymark "Verse 2" #73
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+\mymark "Chorus" #81
+    ""2 "Check"8 "it" "out," "cho" -- |
+    \skip8 "c'late"4 "Can" "I" "have"8 |
+    \skip8 "a"4 "lit" -- "tle" "bit"8 |
+    \skip8 "of"8 "" "cho" -- "c'late," "please?"4. |
+    \skip4 ""4 "I’d"8 "bet" -- "ter" "watch" |
+    \skip8 "my"4 "weight," "though" "I"8 |
+    \skip8 "can’t"4 "gain" "too" "much,"8 |
+    \skip8 "I’m"8 "" "get" -- "ting" "wor" -- "ried"4 |
+    \skip4 ""4 "I"8 "don’t" "care," "cho" -- |
+    \skip8 "c'late"4 "Can" "I" "have"8 |
+    \skip8 "a"4 "lit" -- "tle" "bit"8 |
+    \skip8 "of"8 "" "cho" -- "c'late," "please?"4. |
+    \skip4 ""4 "I’ve"8 "got" -- "ta" "wait," |
+    \skip8 "though."4 "Wait" "a" "whi"8 -- |
+    \skip8 "le,"4 "come" "on" "Wait,"8 |
+    \skip8 "wait,"8 "" "wait"4 ""4. |
+\mymark "Post-Chorus" #97
+    "Pa"8 -- "ra" -- "" "pa" -- "" "pa" -- "" "pa" -- |
+    \skip8 "ra"8 "" "pa" -- "" "pa" -- "" "pa" -- |
+    \skip8 "ra"8 "" "pa" -- "" "pa" -- "" "pa" |
+    \skip8 ""8 "pa" "" "pa" -- "pa" -- "pa" -- "pa." |
+    \skip8 ""4 "Too,"8 "" "too" "" "late." |
+    \skip8 ""4 "Too,"8 "" "too" "" "late." |
+    \skip8 ""4 "Too,"8 "" "too." "" "P!" |
+    \skip8 ""8 "P!" "" "P!" "" "Come" "on!" |
+\mymark "Riff 1" #105
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+\mymark "Solo" #121
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+\mymark "Verse 3" #145
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+    ""1 |
+\mymark "Bridge" #153
+    ""2 "I"8 "real" -- "ly" "tried" |
+    \skip8 "my"4 "hard" -- "est," "did"8 |
+    \skip8 "my"4 "best," "But" "it"8 |
+    \skip8 "just"4. "was"8 -- "n’t" "e" -- "nough" |
+    \skip4 ""4 "Ask"8 -- "ing" "with" "all" |
+    \skip8 "my"4 "heart," "please" "please"8 |
+    \skip8 "just"4 "give" "me" "One"8 |
+    \skip8 "lit"8 -- "" "tle" "bit" "of" "it," "please" |
+    \skip4 ""4 "I"8 "need" "it," "cho" -- |
+    \skip8 "c'late"4 "Hur" -- "ry" "up,"8 |
+    \skip8 "come"4 "on," "give" "me"8 |
+    \skip8 "cho"8 -- "" "c'late!" "" "Pret" -- "ty" "please?" |
+    \skip4 ""4 "I"8 "need" "that" "cho" -- |
+    \skip8 "c'late"4 "now" "Just" "pass"8 |
+    \skip8 "it"4 "to" "me," "please!!"8 |
+    \skip1 |
+\mymark "Chorus" #169
+    ""2 "Check"8 "it" "out," "cho" -- |
+    \skip8 "c'late"4 "Can" "I" "have"8 |
+    \skip8 "a"4 "lit" -- "tle" "bit"8 |
+    \skip8 "of"8 "" "cho" -- "c'late," "please?"4. |
+    \skip4 ""4 "You"8 "know" "it’s" "so" |
+    \skip8 "good,"4 "I’ll" "be" "so"8 |
+    \skip8 "hap"4 -- "py" "I’ll" "work"8 |
+    \skip8 "hard,"8 "" "just" "you" "wait" "and" "see" |
+    \skip4 ""4 "How"8 "'bout" "that" "cho" -- |
+    \skip8 "c'late?"4 "Can" "I" "have"8 |
+    \skip8 "a"4 "lit" -- "tle" "bit"8 |
+    \skip8 "of"8 "" "cho" -- "c'late," "please?"4. |
+    \skip4 ""4 "Cho"8 -- "c'late" "is" "so" |
+    \skip8 "good,"4 "and" "I" "need"8 |
+    \skip8 "it"4 "Just" "a" "lit"8 -- |
+    \skip8 "tle"8 "" "bit!"4 ""4. |
+\mymark "Post-Chorus" #185
+    "Pa"8 -- "ra" -- "" "pa" -- "" "pa" -- "" "pa" -- |
+    \skip8 "ra"8 "" "pa" -- "" "pa" -- "" "pa" -- |
+    \skip8 "ra"8 "" "pa" -- "" "pa" -- "" "pa" |
+    \skip8 ""8 "pa" "" "pa" -- "pa" -- "pa" -- "pa." |
+    \skip8 ""4 "Too,"8 "" "too" "" "late." |
+    \skip8 ""4 "Too,"8 "" "too" "" "late." |
+    \skip8 ""4 "Too,"8 "" "too." "" "P!" |
+    \skip8 ""8 "P!" "" "P!" "" "Come" "on!" |
+\mymark "Outro" #193
+    "Pa"8 -- "ra" -- "" "pa" -- "" "pa" -- "" "pa" -- |
+    \skip8 "ra"8 "" "pa" -- "" "pa" -- "" "pa" -- |
+    \skip8 "ra"8 "" "pa" -- "" "pa" -- "" "pa" |
+    \skip8 ""8 "pa" "" "pa" -- "pa" -- "pa" -- "pa." |
+    \skip8 ""4 "Pa"8 -- "" "pa" -- "" "pa" |
+    \skip8 ""4 "pa"8 -- "" "pa" -- "" "pa" |
+    \skip8 ""4 "pa"8 -- "" "pa" -- "" "pa" |
+    \skip8 ""8 "pa" "" "pa" -- "pa" -- "pa" -- "pa!" |
+}

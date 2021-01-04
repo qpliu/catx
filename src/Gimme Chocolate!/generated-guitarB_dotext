@@ -1,4 +1,4 @@
-midiOneCDotext = {
+guitarBDotext = {
 \mymark "Riff 1" #1
     \skip1 |
     \skip1 |
@@ -133,25 +133,25 @@ midiOneCDotext = {
     \skip1 |
     \skip1 |
     \skip1 |
+    \skip4 `.(e)bendSongsterr0:0:10:50:20:0:30:50:40:0:50:50:60:0`2~ `.(e)bendSongsterr0:0:10:50:20:0:30:50:40:0:50:50:60:0`8 \skip8 |
     \skip1 |
     \skip1 |
     \skip1 |
     \skip1 |
+    \skip4 `.(b')bendSongsterr0:0:10:0:15:100:20:0:30:0:60:0`2 \skip4 |
+    `.(b')bendSongsterr0:0:10:0:15:100:20:0:30:0:60:0`4. \skip2 \skip8 |
+    \skip1 |
+    `.(e')bendSongsterr0:0:9:125:15:0:23:125:30:0:35:125:40:0:45:125:50:0:55:125:60:25`2.~ `.(e')bendSongsterr0:0:9:125:15:0:23:125:30:0:35:125:40:0:45:125:50:0:55:125:60:25`8 \skip8 |
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    `.(b')bendSongsterr0:0:15:0:25:75:30:0:37:75:45:0:60:0`2 `.(b')bendSongsterr0:0:10:75:20:75:60:0` |
+    `slide2`16~ <`.(b)bendSongsterr0:0:15:100:60:100` `slide2`>2.~ <`.(b)bendSongsterr0:0:15:100:60:100` `slide2`>8 `slide2`16~ |
+    <`slide2` `.(b)bendSongsterr0:0:15:100:60:100`>2.~ <`slide2` `.(b)bendSongsterr0:0:15:100:60:100`>8. `slide2`16~ |
+    <`.(b)bendSongsterr0:0:15:100:60:100` `slide2`>2.~ <`.(b)bendSongsterr0:0:15:100:60:100` `slide2`>8. `slide2`16~ |
+    <`.(b)bendSongsterr0:0:15:100:60:100` `slide2`>2.~ <`.(b)bendSongsterr0:0:15:100:60:100` `slide2`>8. `slide2`16~ |
+    <`slide2` `.(b')bendSongsterr0:0:15:100:60:100`>1 |
+    `.(b')bendSongsterr0:0:15:75:60:75`8 `.(b')bendSongsterr0:0:15:75:60:75` `.(b')bendSongsterr0:0:15:50:60:50` `.(b')bendSongsterr0:0:15:50:60:50` `.(b')bendSongsterr0:0:15:25:60:25` `.(b')bendSongsterr0:0:15:25:60:25` `slide1`4 |
     \skip1 |
     \skip1 |
 \mymark "Verse 3" #145

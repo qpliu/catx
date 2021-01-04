@@ -3,7 +3,6 @@ WHERE="/share/mirror/songsterr/stuff/d-keep/d-Michael Jackson/d-Beat It-s10259/d
 set -e
 rm -f generated-*
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
-modified-filename vocals_karaoke \
 markup-extra '\key dis \minor' \
 track 0 \
     preset kav \

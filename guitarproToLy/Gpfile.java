@@ -165,8 +165,8 @@ class Gpfile extends Gpinput{
     }
     static class LyricEvent extends Event{
 	String lyric;
-	final boolean hyphen_lhs;
-	final boolean hyphen_rhs;
+	boolean hyphen_lhs;
+	boolean hyphen_rhs;
 	final String which;
 	LyricEvent(Rational time,Rational duration,String lyric,boolean hyphen_lhs,boolean hyphen_rhs,String which){
 	    super(time,duration);

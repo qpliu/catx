@@ -1,86 +1,86 @@
 vocalsAKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Intro                          TAB by JPGR" #1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"2. ""8. "I"16
+    "-"4. ""16 ">@"2 "@"16
+    \skip4. \skip16 "@"2 "@"16
+    \skip4. \skip16 "@"2 "@|!bg=4"16
+    \skip4. \skip16 "@|!bg=3"2 "@|!bg=2"16
+    \skip4. \skip16 "@|!bg=1"2 "I|!bg="16
 \mymark "Verse 1" #6
     "listen"8 "-" "for your" "-"16 " footsteps"8. "-"4.
     "coming"16 "-"8. "up"8 "the drive"16 "-"2 ""16
-    "listen"8 "-" "for" "your foot -"16 "-"8. "steps"4 "-"8
+    ">listen"8 "-" "for" "your foot -"16 "-"8. "steps"4 "-"8
     "but"8 "they" " don't" "  arrive"16 "-"2 ""16
-    "Waiting"8 "-" "for" "your knock"16 "-"8. "   dear"8 "-"4
-    "on"8 "my" "old" "front" "  door" "-" "I don't"16 "-"8.
-    "hear it"8 "-"4. "does it"16 "-"8 "mean"16 "-" "  you don't" "-"8
+    ">Waiting"8 "-" "for" "your knock"16 "-"8. "   dear"8 "-"4
+    "on"8 "my" "old" "front" "  door" "-" ">I don't"16 "-"8.
+    "hear it"8 "-"4. ">does it"16 "-"8 "mean"16 "-" "  you don't" "-"8
     "love me"8 "-" "an -" "y"
     "more -----."8 "-"2. ""8
-    "-"2. ""8. "I"16
+    "-"2. ""8. ">I"16
 \mymark "Verse 2" #16
     "hear the"8 "-" "clock a -" "-"16 "  ticking"8. "-"4.
     "on the"16 "-"8. "mantel shelf"8 "-"2 ""8
-    "See the"8 "-" "hands" "    a-mov -"16 "-"8. "ing"4 "-"8
-    "but I'm"8. "-"16 "by"8 "myself"16 "-"2 "I"16
-    "wonder"8 "-" "where" "     you are"16 "-"8. "  tonight"16 "-"4 "And"16
+    ">See the"8 "-" "hands" "    a-mov -"16 "-"8. "ing"4 "-"8
+    "but I'm"8. "-"16 "by"8 "myself"16 "-"2 ">I"16
+    "wonder"8 "-" "where" "     you are"16 "-"8. "  tonight"16 "-"4 ">And"16
     "why"8 "I'm" "by" "my -" "self" "-" "I don't"16 "-"8.
-    "see you"8 "-"4. "does it mean"16 "-"4 "  you don't"16 "-"8
+    "see you"8 "-"4. ">does it mean"16 "-"4 "  you don't"16 "-"8
     "love me"8 "-" "an -" "y -"
     "more ----."8 "-"2. ""8
-    "-"2 "    Don't"8 " " "pass me by" "-"
+    "-"2 ">    Don't"8 " " "pass me by" "-"
 \mymark "Chorus" #26
-    "-"8 "don't" "  make me cry" "-"4 "don't make me blue"8 "-"4
-    "-"2 ""8 "'Cause you know" "-"4
-    "darling"8 "-"4 "I"8 "love"4 "on -"8 "ly"
+    "-"8 "don't" "  make me cry" "-"4 ">don't make me blue"8 "-"4
+    "-"2 ""8 ">'Cause you know" "-"4
+    "darling"8 "-"4 ">I"8 "love"4 "on -"8 "ly"
     "you"4 "-"4. "you'll never"8 "-"4
-    "know it"8 "-" "hurt" "  me so"16 "-"4. ""16 "How I" "-"
+    "know it"8 "-" "hurt" "  me so"16 "-"4. ""16 ">How I" "-"
     "hate to"8 "-" "see" "you go"16 "-"8. "Don't pass me by ------"8 "-"4
     "-"1
-    "-"2 ""8 "Don't make me" "-"4
-    "cry -----------"8 "-"2. ""8
-    "-"1
-    "-"1
-    "-"2. ""8. "I'm"16
+    "-"2 ""8 ">Don't make me" "-"4
+    "cry -----------"8 "-"2. ""16 ">@"
+    \skip4. \skip16 "@"2 "@"16
+    \skip4. \skip16 "@"2 "@"16
+    \skip4. \skip16 "@"2 "I'm"16
 \mymark "Verse 3" #38
     "sorry"16 "-"8. "that"8 "I"16 "doubt -"8. "  ed you"16 "-"4 ""16
     "I"8 "was" "so" "unfair"16 "-"2 ""16
-    "You"8 "were" "in" "a"16 "car" "-"8 "crash"4 "-"8
-    "and"8 "you" "lost" "your hair"16 "-"2 "You"16
-    "said"8 "-" "that" "you would"16 "-"8. "be late"16 "-"4 "a -"16
-    "bout"8 "an" "hour" "or"16 "two -------" " "8 "-" "I"16 "said"8.
-    "that's"8 "-" "al -" "right" "  I'm"16 "   waiting"8 "-" "here just"16 "-"8
+    ">You"8 "were" "in" "a"16 "car" "-"8 "crash"4 "-"8
+    "and"8 "you" "lost" "your hair"16 "-"2 ">You"16
+    "said"8 "-" "that" "you would"16 "-"8. "be late"16 "-"4 ">a -"16
+    "bout"8 "an" "hour" "or"16 "two -------" " "8 "-" ">I"16 "said"8.
+    "that's"8 "-" "al -" "right" "  I'm"16 "   waiting"8 "-" ">here just"16 "-"8
     "waiting"16 "-"8 "to"16 "hear from"8 " "
     "you. --------"8 "-"2. ""8
-    "-"2 "    Don't"8 " " "pass me by" "-"
+    "-"2 ">    Don't"8 " " "pass me by" "-"
 \mymark "Chorus" #48
-    "-"8 "don't" "  make me cry" "-"4 "don't make me blue"8 "-"4
-    "-"2 ""8 "'Cause you know" "-"4
-    "darling"8 "-"4 "I"8 "love"4 "on -"8 "ly"
+    "-"8 "don't" "  make me cry" "-"4 ">don't make me blue"8 "-"4
+    "-"2 ""8 ">'Cause you know" "-"4
+    "darling"8 "-"4 ">I"8 "love"4 "on -"8 "ly"
     "you"4 "-"4. "you'll never"8 "-"4
-    "know it"8 "-" "hurt" "  me so"16 "-"4. ""16 "How I" "-"
+    "know it"8 "-" "hurt" "  me so"16 "-"4. ""16 ">How I" "-"
     "hate to"8 "-" "see" "you go"16 "-"8. "Don't pass me by ------"8 "-"4
     "-"1
-    "-"2 ""8 "Don't make me" "-"4
+    "-"2 ""8 ">Don't make me" "-"4
     "cry -----------"8 "-"2. ""8
     "-"1
 \mymark "Coda" #58
-    "One"4 "two" "three" "  four"
+    ">One"4 "two" "three" "  four"
     "five"4 "six" "seven" "   eight"
     "-"1
-    "-"4 "Whoo" " "2
+    "-"4 ">Whoo" " "2
     "-"1
-    "-"2 "    Don't"8 " " "pass me by" "-"
-    "-"8 "don't" "  make me cry" "-"4 "don't make me blue"8 "-"4
-    "-"2 ""8 "'Cause you know" "-"4
-    "darling"8 "-"4 "I"8 "love"4 "on -"8 "ly"
+    "-"2 ">    Don't"8 " " "pass me by" "-"
+    "-"8 "don't" "  make me cry" "-"4 ">don't make me blue"8 "-"4
+    "-"2 ""8 ">'Cause you know" "-"4
+    "darling"8 "-"4 ">I"8 "love"4 "on -"8 "ly"
     "you"4 "-"4. "you'll never"8 "-"4
-    "know it"8 "-" "hurt" "  me so"16 "-"4. ""16 "How I" "-"
+    "know it"8 "-" "hurt" "  me so"16 "-"4. ""16 ">How I" "-"
     "hate"8 "  to" "see" "  you go"16 "-"2 ""16
-    "-"8 "Don't pass me by" "-"4
+    "-"8 ">Don't pass me by" "-"4
     "-"1
-    "-"2 ""8 "Don't make me" "-"4
+    "-"2 ""8 ">Don't make me" "-"4
     "cry -----------"8 "-"2. ""8
-    "-"1
+    "-"8 "@@"32 "-"2. ""16.
     "-"1
     "-"1
     "-"1

@@ -176,15 +176,24 @@ final class Twiddler{
 		}
 		Queue<Gpfile.Event>noteq=new PriorityQueue<Gpfile.Event>();
 		Gpfile.Track track=main.gpfile.tracks[tml.track];
+		Rational lastTime=main.gpfile.measures[tml.startingMeasure].time;
+		Collections.sort(track.events);
 		for (Gpfile.Event e:track.events)
-		    if (e instanceof Gpfile.NoteEvent && e.time.compareTo(main.gpfile.measures[tml.startingMeasure].time)>=0)
+		    if (e instanceof Gpfile.NoteEvent && e.time.compareTo(lastTime)>=0){
 			noteq.add(e);
+			lastTime = e.time.add(e.duration);
+		    }
 		for (Gpfile.Event ne; (ne=noteq.poll())!=null;){
 		    Gpfile.LyricEvent le=lyricq.poll();
 		    if (le==null)
 			break;
 		    le.time = ne.time;
 		    le.duration = ne.duration;
+		    while (le.hyphen_lhs && lyricq.size()!=0 && lyricq.peek().lyric.length()==0 && noteq.size()!=0){
+			Gpfile.Event ee=noteq.poll();
+			le.duration = ee.time.add(ee.duration).subtract(le.time);
+			le.hyphen_lhs = lyricq.poll().hyphen_lhs;
+		    }
 		    while (noteq.size()!=0 && noteq.peek().time.equals(le.time))
 			le.duration = noteq.poll().duration;
 		    track.events.add(le);

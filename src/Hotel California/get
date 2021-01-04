@@ -5,13 +5,13 @@ DRUMMAP="35 bd 1,48 tomh 0,43 toml 0,41 toml 0,"
 rm -f generated-*
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
 markup-extra '\key e \major' \
-modified-filename vocals_karaoke \
 drumMap "$DRUMMAP" \
 track 0 \
     preset kav \
     output-lilypond \
     output-lyrics \
     output-karaoke \
+    which-lyrics 0 \
 track 0 \
     preset susan \
     output-lilypond \

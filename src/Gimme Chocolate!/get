@@ -3,8 +3,10 @@ set -e -o pipefail
 WHERE="/share/mirror/songsterr/stuff/d-keep/d-Babymetal/d-Gimme Choco-s392595/d-r397111/application_guitar_pro5-41439375.gp5"
 SCALE=""
 rm -f generated-*
+LYRICS=`cat lyrics`
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
 markup-extra '\key b \major' \
+add-lyrics 7 1 "$LYRICS" \
 scale "$SCALE" \
 track 7 \
     preset kav \
@@ -18,22 +20,22 @@ track 0 \
     preset peter \
     output-dotext \
     output-lilypond \
+track 3 \
+    preset peter \
+    output-dotext \
+    output-lilypond \
+track 2 \
+    preset peter \
+    output-dotext \
+    output-lilypond \
+track 1 \
+    preset peter \
+    output-dotext \
+    output-lilypond \
 track 4 \
     preset bass \
     output-lilypond \
 track 6 \
-    preset midiOne \
-    output-dotext \
-    output-lilypond \
-track 3 \
-    preset midiOne \
-    output-dotext \
-    output-lilypond \
-track 2 \
-    preset midiOne \
-    output-dotext \
-    output-lilypond \
-track 1 \
     preset midiOne \
     output-dotext \
     output-lilypond \

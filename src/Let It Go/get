@@ -3,11 +3,11 @@ WHERE="/share/mirror/songsterr/stuff/d-keep/d-Lig/d-lig-s475342/d-r423582/applic
 DRUMMAP="42 hho 0,44 hh 0,51 cymc 0,37 sn 0,"
 set -e
 rm -f generated-*
+LYRICS=`cat lyrics`
 SCALE="c des d ees e f fis g aes a bes b"
 SCALE2="c cis d ees e f fis g gis a bes b"
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
-modified-filename vocals_karaoke \
-modified-filename vocals_lyrics \
+add-lyrics 0 1 "$LYRICS" \
 scale "$SCALE" \
 drumMap "$DRUMMAP" \
 track 0 \

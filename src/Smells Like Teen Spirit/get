@@ -3,17 +3,18 @@ set -e
 WHERE="/share/mirror/songsterr/stuff/d-keep/d-Nirvana/d-Smells Like Teen Spirit-s269/d-r413303/application_guitar_pro5-42928401.gp5"
 DRUMMAP="44 hh 0,35 bd 1,43 toml 0,"
 rm -f generated-*
+LYRICS=`cat lyrics`
 SCALE="c des d ees e f ges g aes a bes b"
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
+add-lyrics 0 1 "$LYRICS" \
 drumMap "$DRUMMAP" \
-modified-filename vocals_karaoke \
-modified-filename vocals_lyrics \
 markup-extra '\key f \minor' \
 track 0 \
     preset kav \
     output-lilypond \
     output-lyrics \
     output-karaoke \
+    which-lyrics arg \
 track 0 \
     preset susan \
     output-lilypond \

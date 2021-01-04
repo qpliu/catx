@@ -3,11 +3,11 @@ WHERE="/share/mirror/songsterr/stuff/d-keep/d-Phil Collins/d-In The Air Tonight-
 DRUMMAP="44 hh 0,48 tomh 0,47 tomml 0,41 toml 0,43 toml 0,40 sn 0,"
 set -e
 rm -f generated-*
+LYRICS=`cat lyrics`
 SCALE="c cis d dis e f fis g gis a bes b"
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
+add-lyrics 5 1 "$LYRICS" \
 modified-filename drs \
-modified-filename vocals_karaoke \
-modified-filename vocals_lyrics \
 markup-extra '\key d \minor' \
 scale "$SCALE" \
 drumMap "$DRUMMAP" \
@@ -17,6 +17,7 @@ track 5 \
     output-lyrics \
     output-karaoke \
     output-dotext \
+    which-lyrics arg \
 track 5 \
     preset susan \
     output-lilypond \
