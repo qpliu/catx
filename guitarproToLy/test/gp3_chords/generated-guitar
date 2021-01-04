@@ -3,7 +3,7 @@ guitar = {
     \repeat volta 1 {
         <a,\5 e\4 a\3>16. r16 b,16.\5 c\5 r16 cis16.\5 <a,\5 e\4 a\3 cis'\2> r16 a,16.\5 <cis\5 f\4 a\3 cis'\2>4 |
         <d\4 a\3 d'\2 fis'\1>16. r8 r32 <d\4 a\3 d'\2 fis'\1>16. r8 r32 <d\4 a\3 d'\2 fis'\1>16. r8 r32 <a,\5 dis\4 a\3 c'\2>4 |
-        <a,\5 e\4 a\3 cis'\2>16. r8 r32 <a,\5 e\4 a\3 cis'\2>16. r16 e,16.\6 <e\4 gis\3 d'\2 fis'\1> r16 <e'\1 e\4~ gis\3~ d'\2~>4 <e\4 gis\3 d'\2>16. |
+        <a,\5 e\4 a\3 cis'\2>16. r8 r32 <a,\5 e\4 a\3 cis'\2>16. r16 e,16.\6 <e\4 gis\3 d'\2 fis'\1> r16 <e\4~ gis\3~ d'\2~ e'\1>4 <e\4 gis\3 d'\2>16. |
         <a,\5 e\4 a\3 cis'\2>16. r8 r32 <a,\5 e\4 gis\3 cis'\2>16. r8 r32 <a,\5 e\4 g\3 cis'\2>16. r8 r32 <cis\5 f\4 a\3 cis'\2>4 |
         <d\4 a\3 d'\2 fis'\1>16. r16 e16.\4 <f\4 a\3 d'\2> r16 fis16.\4 <d\4 a\3 d'\2 fis'\1> r8 r32 <d\4 gis\3 d'\2 f'\1>4 |
         <d\4 a\3 d'\2 fis'\1>16. r8 r32 <d\4 a\3 d'\2 fis'\1>16. r8 r32 <d\4 a\3 d'\2 fis'\1>16. r8 r32 <a,\5 dis\4 a\3 c'\2>4 |
@@ -30,7 +30,7 @@ guitar = {
 \mymark "Verse 3" #25
     <a,\5 e\4 a\3>16. r16 b,16.\5 c\5 r16 cis16.\5 <a,\5 e\4 a\3 cis'\2> r16 a,16.\5 <cis\5 f\4 a\3 cis'\2>4 |
     <d\4 a\3 d'\2 fis'\1>16. r8 r32 <d\4 a\3 d'\2 fis'\1>16. r8 r32 <d\4 a\3 d'\2 fis'\1>16. r8 r32 <a,\5 dis\4 a\3 c'\2>4 |
-    <a,\5 e\4 a\3 cis'\2>16. r8 r32 <a,\5 e\4 a\3 cis'\2>16. r16 e,16.\6 <e\4 gis\3 d'\2 fis'\1> r16 <e'\1 e\4~ gis\3~ d'\2~>4 <e\4 gis\3 d'\2>16. |
+    <a,\5 e\4 a\3 cis'\2>16. r8 r32 <a,\5 e\4 a\3 cis'\2>16. r16 e,16.\6 <e\4 gis\3 d'\2 fis'\1> r16 <e\4~ gis\3~ d'\2~ e'\1>4 <e\4 gis\3 d'\2>16. |
     <a,\5 e\4 a\3 cis'\2>16. r8 r32 <a,\5 e\4 gis\3 cis'\2>16. r8 r32 <a,\5 e\4 g\3 cis'\2>16. r8 r32 <cis\5 f\4 a\3 cis'\2>4 |
     <d\4 a\3 d'\2 fis'\1>16. r16 e16.\4 <f\4 a\3 d'\2> r16 fis16.\4 <d\4 a\3 d'\2 fis'\1> r8 r32 <d\4 gis\3 d'\2 f'\1>4 |
     <d\4 a\3 d'\2 fis'\1>16. r8 r32 <d\4 a\3 d'\2 fis'\1>16. r8 r32 <d\4 a\3 d'\2 fis'\1>16. r8 r32 <a,\5 dis\4 a\3 c'\2>4 |
@@ -55,5 +55,5 @@ guitar = {
 \mymark "Outro" #48
     <a,\5 e\4 a\3>8 r32 b,16.\5 c\5 r16 cis16.\5 d\5 r16 <a,\5 dis\4 a\3 c'\2 fis'\1>4~ <a,\5 dis\4 a\3 c'\2 fis'\1>16. |
     <a,\5 e\4 a\3 cis'\2 e'\1>8 r4. <e\4 d'\2 e'\1>2 |
-    r4 <dis\4 a\3 c'\2>8 r32 <cis'\2 e\4~ a\3~>2 <e\4 a\3>16. |
+    r4 <dis\4 a\3 c'\2>8 r32 <e\4~ a\3~ cis'\2>2 <e\4 a\3>16. |
 }

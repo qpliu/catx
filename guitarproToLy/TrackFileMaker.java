@@ -3,6 +3,7 @@ import java.util.*;
 
 abstract class TrackFileMaker extends FileMaker{
     final Gpfile.Track track;
+    final List<Gpfile.Event>trackEvents=new ArrayList<Gpfile.Event>();
     final String lyname;
     Arg arg;
     static void addTrackFileMaker(Main main,Arg arg)throws IOException{
@@ -24,6 +25,8 @@ abstract class TrackFileMaker extends FileMaker{
 	this.arg = arg;
 	this.lyname = lyname;
 	track = main.gpfile.tracks[arg.trackNumber];
+	for (Gpfile.Event e:track.events)
+	    trackEvents.add(e.clone());
     }
     String getStuff(){
 	return "";
@@ -47,9 +50,8 @@ abstract class TrackFileMaker extends FileMaker{
     final void makeMeasures()throws IOException{
 	for (String s:arg.music_extra)
 	    print(s);
-	Collections.sort(track.events);
 	String tripletFeel=null;
-	PriorityQueue<Gpfile.Event>q=new PriorityQueue<Gpfile.Event>(track.events);
+	PriorityQueue<Gpfile.Event>q=new PriorityQueue<Gpfile.Event>(trackEvents);
 	for (Gpfile.Measure measure:main.gpfile.measures){
 	    printMeasureStuff(measure);
 	    if (tripletFeel!=null && !tripletFeel.equals(measure.tripletFeel))
@@ -57,7 +59,7 @@ abstract class TrackFileMaker extends FileMaker{
 	    if (measure.tripletFeel!=null && !measure.tripletFeel.equals(tripletFeel))
 		indent(measure.tripletFeel+" {"/*}*/);
 	    tripletFeel = measure.tripletFeel;
-	    List<Gpfile.Event>events=new ArrayList<Gpfile.Event>();
+	    List<Gpfile.Event>measureEvents=new ArrayList<Gpfile.Event>();
 	    while (q.size()!=0){
 		Gpfile.Event e=q.poll();
 		if (e.time.compareTo(measure.time)<0){
@@ -72,15 +74,15 @@ abstract class TrackFileMaker extends FileMaker{
 		    q.add(cut[1]);
 		if (cut[0]==null)
 		    break;
-		events.add(cut[0]);
+		measureEvents.add(cut[0]);
 	    }
-	    printMeasure(makeMeasure(measure,events));
+	    printMeasure(makeMeasure(measure,measureEvents));
 	    printMeasureStuffEnd(measure);
 	}
 	if (tripletFeel!=null)
 	    unindent(/*{*/"}");
     }
-    abstract String makeMeasure(Gpfile.Measure measure,List<Gpfile.Event>events)throws IOException;
+    abstract String makeMeasure(Gpfile.Measure measure,List<Gpfile.Event>measureEvents)throws IOException;
     void layout(MusicFileMaker mfm)throws IOException{
 	if (arg.layout_who!=null)
 	    mfm.print("\\tag #'("+arg.layout_who+") \\"+lyname);

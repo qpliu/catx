@@ -1,0 +1,79 @@
+guitarChords = \new ChordNames {
+\mymark "Intro" #1
+    <c e g c'>4 \skip2. |
+    <a, e a c'>4 \skip2. |
+    <g, b, d g c'>4 \skip2. |
+    <c f a>8 \skip2. \skip8 |
+    <c e g c'>4 \skip2. |
+    <a, e a c'>4 \skip2. |
+    <g, b, d g c'>4 \skip2. |
+    <c f a>8 \skip2. \skip8 |
+\mymark "Verse 1" #9
+    <c e g c'>4 \skip2. |
+    <a, e a c'>4 \skip2. |
+    <g, b, d g c'>4 \skip2. |
+    <c f a>8 \skip2. \skip8 |
+    <c e g c'>4 \skip2. |
+    <a, e a c'>4 \skip2. |
+    <g, b, d g c'>4 \skip2. |
+    <c f a>8 \skip2. \skip8 |
+\mymark "Pre-Chorus" #17
+    <e, b, e gis b e'>8 \skip2. \skip8 |
+    <f, c f a c' f'>8 \skip2. \skip8 |
+    <c e g c'>4 \skip2. |
+    <c e ais c' e'>8 \skip2. \skip8 |
+    <e, b, e gis b e'>4 \skip2. |
+    <f, c f a c' f'>8 \skip2. \skip8 |
+    \skip1 |
+    <g, b, d g d' g'>8 \skip2. \skip8 |
+\mymark "Chorus" #25
+    <c e g c'>4 \skip2. |
+    <a, e a c'>4 \skip2. |
+    <g, b, d g c'>4 \skip2. |
+    <c f a>8 \skip2. \skip8 |
+    <c e g c'>4 \skip2. |
+    <g,>4 \skip4 <f,>4 \skip4 |
+    <c e g c'>4 \skip2. |
+    \skip8 <g, b, d g d' g'>8 \skip2. |
+\mymark "Verse 2" #33
+    <c e g c'>4 \skip2. |
+    <a, e a c'>4 \skip2. |
+    <g, b, d g c'>4 \skip2. |
+    <c f a>8 \skip2. \skip8 |
+    <c e g c'>4 \skip2. |
+    <a, e a c'>4 \skip2. |
+    <g, b, d g c'>4 \skip2. |
+    <c f a>8 \skip2. \skip8 |
+\mymark "Pre-Chorus" #41
+    <e, b, e gis b e'>8 \skip2. \skip8 |
+    <f, c f a c' f'>8 \skip2. \skip8 |
+    <c e g c'>4 \skip2. |
+    <c e ais c' e'>8 \skip2. \skip8 |
+    <e, b, e gis b e'>4 \skip2. |
+    <f, c f a c' f'>8 \skip2. \skip8 |
+    \skip1 |
+    <g, b, d g d' g'>8 \skip2. \skip8 |
+\mymark "Chorus" #49
+    <c e g c'>4 \skip2. |
+    <a, e a c'>4 \skip2. |
+    <g, b, d g c'>4 \skip2. |
+    <c f a>8 \skip2. \skip8 |
+    <c e g c'>4 \skip2. |
+    <g,>4 \skip4 <f,>4 \skip4 |
+    <c e g c'>4 \skip2. |
+    \skip8 <g, b, d g d' g'>8 \skip2. |
+\mymark "Outro-Chorus" #57
+    <c e g c'>4 \skip2. |
+    <a, e a c'>4 \skip2. |
+    <g, b, d g c'>4 \skip2. |
+    <c f a>8 \skip2. \skip8 |
+    <c e g c'>4 \skip2. |
+    <g,>4 \skip4 <f,>4 \skip4 |
+    <c e g c'>4 \skip2. |
+    <g,>4 \skip4 <f,>4 \skip4 |
+    <c e g c'>4 \skip2. |
+    <g,>4 \skip4 <f,>4 \skip4 |
+    <c e g c' e'>2 <c e ais c'> |
+    \skip1 |
+    \skip1 |
+}

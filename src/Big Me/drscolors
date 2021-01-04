@@ -1,4 +1,4 @@
-drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     \context DrumVoice = "drsa" \voiceOne
     \context DrumVoice = "drsb" \voiceTwo
 \mymark "Intro" #1

@@ -101,15 +101,15 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
     @Override String getStuff(){
 	return super.getStuff()+"\\new DrumVoice = \"drsb\" \\new DrumVoice = \"drsa\" \\drummode ";
     }
-    private String makeVoice(Gpfile.Measure measure,Queue<TimeAndDrum>events)throws IOException{
+    private String makeVoice(Gpfile.Measure measure,Queue<TimeAndDrum>voiceEvents)throws IOException{
 	MeasureMaker mm=new MeasureMaker(measure);
-	while (events.size()!=0){
-	    TimeAndDrum tad=events.poll();
+	while (voiceEvents.size()!=0){
+	    TimeAndDrum tad=voiceEvents.poll();
 	    mm.make(tad.time,MeasureMaker.REST);
 	    List<TimeAndDrum>l=new ArrayList<TimeAndDrum>();
 	    l.add(tad);
-	    while (events.size()!=0 && events.peek().time.equals(tad.time))
-		l.add(events.poll());
+	    while (voiceEvents.size()!=0 && voiceEvents.peek().time.equals(tad.time))
+		l.add(voiceEvents.poll());
 	    StringBuilder sb=new StringBuilder();
 	    if (l.size()>1)
 		sb.append('<');
@@ -118,10 +118,10 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
 	    if (l.size()>1)
 		sb.append('>');
 	    Rational next;
-	    if (events.size()==0)
+	    if (voiceEvents.size()==0)
 		next = measure.time.add(measure.time_n);
 	    else
-		next = events.peek().time;
+		next = voiceEvents.peek().time;
 	    mm.make(next,new MeasureMaker.GetWhatSuffix(){
 		@Override public String getWhat(boolean is_lhs,boolean is_rhs){
 		    return is_lhs?sb.toString():"r";
@@ -131,13 +131,13 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
 	mm.make(measure.time.add(measure.time_n),MeasureMaker.REST);
 	return mm.tail();
     }
-    @Override String makeMeasure(Gpfile.Measure measure,List<Gpfile.Event>events)throws IOException{
+    @Override String makeMeasure(Gpfile.Measure measure,List<Gpfile.Event>measureEvents)throws IOException{
 	List<Queue<TimeAndDrum>>list=new ArrayList<Queue<TimeAndDrum>>();
 	int nonEmptyCount=0;
 	for (int voice=0; voice<VOICES; voice++){
 	    Queue<TimeAndDrum>q=new PriorityQueue<TimeAndDrum>();
 	    list.add(q);
-	    for (Gpfile.Event e:events)
+	    for (Gpfile.Event e:measureEvents)
 		if (!e.tie_rhs && e instanceof Gpfile.NoteEvent){
 		    int k=((Gpfile.NoteEvent)e).getNote();
 		    Drum drum=drumMap.get(k);

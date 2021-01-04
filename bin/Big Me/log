@@ -1,9 +1,4 @@
-basstabs
-Scores: 9 9 71 111 111 121 194 207 280 281 281 330
-Best key: c major or d minor or f major or a minor
-generated-guitartabs
-Scores: 39 116 203 263 388 533 583 971 997 1142 1259 1276
-Best key: c major or a minor
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
@@ -12,31 +7,30 @@ Best key: c major or a minor
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 5  Divisions: 384
+Format: 1  Tracks: 6  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
+Track name: midiOne
 ->@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1When|!bg=Italka-boutit,-|||car-rieson,-|||rea-sonson-lynew.->WhenItalka-boutit,-|||A-riesor-|||trea-sonsallre-new.-->Bigmetotalka-boutit-|||Icouldstandtoprove.-->Ifwecangeta-roundit,-|||Iknowthatit'strue.->Well,Italkeda-boutit,-|||car-riedon,-|||rea-sonson-lynew.->Butit'syou--|||Ifellin-to.--->WhenItalkeda-boutit,-|||car-rieson,-|||rea-sonson-lynew.->WhenItalkeda-boutit,-|||A-riesor-|||trea-sonsallre-new.-->Bigmetotalka-boutit,-|||Icouldstandtoprove.-->Ifwecangeta-roundit,-||Iknowthatit'strue.->Well,Italkeda-boutit.-|||Putiton.-|||Ne-verwasittrue.->Butit'syou--|||Ifellin-to.--->Well,Italkeda-boutit.-|||Putiton.-|||Ne-verwasittrue.->Butit'syou--|||Ifellin-to.-->Ifellin-to.--|||Ifellin-to.--@@Playing time: ~134 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 12777416/23440956 bytes(54.5089% compressed)
+Wrote 12883795/23440956 bytes(54.9628% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-warning: compressing over-full page by 5.6 staff-spaces
-warning: page 1 has been compressed
-warning: compressing over-full page by 3.2 staff-spaces
-warning: page 2 has been compressed
+warning: compressing over-full page by 13.4 staff-spaces
+warning: page 0 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-warning: compressing over-full page by 6.7 staff-spaces
+warning: compressing over-full page by 3.3 staff-spaces
 warning: page 0 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
      69 measure=all
      69 measure=kav
-     69 measure=susan
      69 measure=gg
      69 measure=peter
+     69 measure=susan
      69 measure=bass

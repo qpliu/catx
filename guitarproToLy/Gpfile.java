@@ -11,7 +11,7 @@ class Gpfile extends Gpinput{
     Measure[]measures;
     Track[]tracks;
     final List<TrackMeasureLyrics>trackMeasureLyrics=new ArrayList<TrackMeasureLyrics>();
-    final class TrackMeasureLyrics{
+    final static class TrackMeasureLyrics{
 	int track;
 	int startingMeasure;
 	String which;
@@ -344,5 +344,6 @@ class Gpfile extends Gpinput{
     Gpfile(DataInputStream is,Arg arg){
 	super(is);
 	this.arg = arg;
+	trackMeasureLyrics.addAll(arg.add_lyrics);
     }
 }

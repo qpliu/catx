@@ -10,9 +10,9 @@ class ChoppedTrackFileMaker extends TrackFileMaker{
     boolean filterEvents(Gpfile.Event event){
 	return true;
     }
-    @Override String makeMeasure(Gpfile.Measure measure,List<Gpfile.Event>events)throws IOException{
+    @Override String makeMeasure(Gpfile.Measure measure,List<Gpfile.Event>measureEvents)throws IOException{
 	Queue<Gpfile.Event>q=new PriorityQueue<Gpfile.Event>();
-	for (Gpfile.Event e:events)
+	for (Gpfile.Event e:measureEvents)
 	    if (filterEvents(e))
 		q.add(e);
 	MeasureMaker mm=new MeasureMaker(measure);
@@ -34,6 +34,7 @@ class ChoppedTrackFileMaker extends TrackFileMaker{
 		    q.add(ee[1]);
 		l.set(i,ee[0]);
 	    }
+	    Collections.sort(l);
 	    mm.make(e.time,skip);
 	    mm.make(end,getGetWhatSuffix(l));
 	}

@@ -10,6 +10,8 @@ final class Arg implements Cloneable{
     boolean generate_lyrics;
     boolean layout_tabs;
     boolean output_chords;
+    boolean use_bend_end;
+    boolean use_bend_start;
     boolean output_dotext;
     boolean output_drums;
     boolean output_karaoke;
@@ -21,6 +23,7 @@ final class Arg implements Cloneable{
     String instrument_short_name;
     String which_lyrics="";
     String transpose="";
+    List<Gpfile.TrackMeasureLyrics>add_lyrics=new ArrayList<Gpfile.TrackMeasureLyrics>();
     List<String>layout_extra=new ArrayList<String>();
     List<String>music_extra=new ArrayList<String>();
     List<String>markup_extra=new ArrayList<String>();

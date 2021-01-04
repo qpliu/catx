@@ -1,7 +1,34 @@
 #!/bin/sh
-WHERE="/share/mirror/songsterr/stuff/d-keep/d-Foo Fighters/d-Big Me-s7725/d-r358016"
-gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --no-string-numbers --name voPart --output-relative - >generated-vo
-gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --output-text --name voPartText - >generated-votext
-#gzip -d <"$WHERE/z-t0"|java -jar ../../songsterrToLy/1.jar --no-string-numbers --shift 3/2 --name voLyrics --lyrics - >generated-lyrics
-gzip -d <"$WHERE/z-t2"|java -jar ../../songsterrToLy/1.jar --name guitarPart --output-tabs - >generated-guitartabs
-#gzip -d <"$WHERE/z-t3"|java -jar ../../songsterrToLy/1.jar --name bassPart --output-tabs - >generated-basstabs
+WHERE="/share/mirror/songsterr/stuff/d-keep/d-Foo Fighters/d-Big Me-s7725/d-r358016/application_guitar_pro5-37697380.gp5"
+set -e
+rm -f generated-*
+java -jar ../../guitarproToLy/1.jar <"$WHERE" \
+modified-filename drs \
+modified-filename vocals_karaoke \
+modified-filename vocals_lyrics \
+track 0 \
+    preset kav \
+    output-lilypond \
+    output-dotext \
+    output-lyrics \
+    output-karaoke \
+track 0 \
+    preset susan \
+    use-bend-end \
+    output-lilypond \
+track 2 \
+    preset peter \
+    output-chords \
+    output-lilypond \
+track 3 \
+    preset bass \
+    output-lilypond \
+    output-dotext \
+track 1 \
+    preset midiOne \
+    output-lilypond \
+    output-dotext \
+track 3 \
+    preset gg \
+    output-drums \
+2>&1|tee log

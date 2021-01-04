@@ -10,11 +10,14 @@ final class Main{
     Main(Gpfile gpfile,Arg globalarg,List<Arg>trackargs)throws IOException{
 	this.gpfile = gpfile;
 	this.globalarg = globalarg;
-	new Twiddler(globalarg,gpfile).twiddle();
+	Twiddler twiddler=new Twiddler(this);
+	twiddler.twiddle();
 	musicFileMaker = new MusicFileMaker(this);
 	markupFileMaker = new MarkupFileMaker(this);
 	for (Arg arg:trackargs)
 	    TrackFileMaker.addTrackFileMaker(this,arg);
+	for (TrackFileMaker tfm:trackFileMaker)
+	    twiddler.twiddleTrack(tfm);
     }
     void make()throws IOException{
 	musicFileMaker.make();

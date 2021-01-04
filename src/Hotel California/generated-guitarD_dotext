@@ -31,7 +31,7 @@ guitarDDotext = {
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip2. <`.(ais)bendSongsterr0:0:15:50:30:50:45:0:60:0` `.(fis)bendSongsterr0:0:15:50:30:50:45:0:60:0`>4 |
+    \skip2. `.(fis)bendSongsterr0:0:15:50:30:50:45:0:60:0`4 |
     \skip1 |
 \mymark "Chorus" #33
     \skip1 |
@@ -96,13 +96,13 @@ guitarDDotext = {
     `.(e')bendSongsterr0:0:30:100:60:100`8 \skip16 `.(e')bendSongsterr0:0:30:50:60:50`16 `.(e')bendSongsterr0:0:15:100:30:100:45:0:60:0`8 \skip4 `slide2`4. |
     \skip8 `.(fis')bendSongsterr0:0:30:50:60:50`16. \skip32 `.(fis')bendSongsterr0:0:15:50:30:50:45:0:60:0`8 \skip8. `.(fis')bendSongsterr0:0:30:50:60:50`16 \skip32 `.(fis')bendSongsterr0:0:30:50:60:50`16. `.(fis')bendSongsterr0:0:15:50:30:50:45:0:60:0`8 \skip8 |
     `.(e')bendSongsterr0:0:30:100:60:100`16 \skip8 `.(e')bendSongsterr0:0:30:100:60:100`16 \skip8 `.(e')bendSongsterr0:0:15:100:30:100:45:0:60:0`16. \skip32 `.(e')bendSongsterr0:0:30:100:60:100`2 |
-    \skip2. \skip8 <`.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0` `.(e')bendSongsterr0:0:15:100:30:100:45:0:60:0`>8 |
-    \skip2. \skip8 <`.(e')bendSongsterr0:0:15:100:30:100:45:0:60:0` `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`>8 |
-    \skip2. <`.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0` `.(e')bendSongsterr0:0:15:100:30:100:45:0:60:0`>4 |
+    \skip2. \skip8 `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`8 |
+    \skip2. \skip8 `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`8 |
+    \skip2. `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`4 |
     \skip1 |
-    \skip2. \skip8 <`.(e')bendSongsterr0:0:15:100:30:100:45:0:60:0` `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`>8 |
+    \skip2. \skip8 `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`8 |
     \skip1 |
-    \skip2. <`.(ais)bendSongsterr0:0:15:50:30:50:45:0:60:0` `.(fis)bendSongsterr0:0:15:50:30:50:45:0:60:0`>4 |
+    \skip2. `.(fis)bendSongsterr0:0:15:50:30:50:45:0:60:0`4 |
     \skip2. `.(cis'')bendSongsterr0:0:15:50:30:50:45:0:60:0`8 \skip8 |
     `.(b')bendSongsterr0:0:30:150:60:150`2 `.(c'')bendSongsterr0:0:30:100:60:100`16 \skip16 `.(c'')bendSongsterr0:0:30:100:60:100`16 \skip4 \skip16 |
     \skip1 |

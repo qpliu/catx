@@ -1,0 +1,79 @@
+midiOne = {
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #9
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #17
+    r4 e' e'4. e'8 |
+    f'8 g'4 f' c'8\glissando r4 |
+    g'8 f'4 e'4. c'8 fis'~\bendAfter #6 ^"½" |
+    fis'4\bendAfter #6 ^"½" r2. |
+    r4 e' e'4. e'8 |
+    f'8 g'4 f' c'8\glissando r4 |
+    f'8 g'4 f'4. e'8 d'~\bendAfter #6 ^"full" |
+    d'4\bendAfter #6 ^"full" r2. |
+\mymark "Chorus" #25
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #33
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #41
+    r4 e' e'4. e'8 |
+    f'8 g'4 f' c'8\glissando r4 |
+    g'8 f'4 e'4. c'8 fis'~\bendAfter #6 ^"½" |
+    fis'4\bendAfter #6 ^"½" r2. |
+    r4 e' e'4. e'8 |
+    f'8 g'4 f' c'8\glissando r4 |
+    f'8 g'4 f'4. e'8 d'~\bendAfter #6 ^"full" |
+    d'4\bendAfter #6 ^"full" r2. |
+\mymark "Chorus" #49
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r8 f'4\bendAfter #6 ^"full" e'\bendAfter #6 ^"½" e'\bendAfter #6 ^"½" e'8~ |
+    e'4 r2. |
+    r2 r8 e' f'4 |
+\mymark "Outro-Chorus" #57
+    f'8\bendAfter #6 ^"full" f'4 e' c'8\glissando r4 |
+    f'8\bendAfter #6 ^"full" f'4 e'4.\bendAfter #6 ^"½" r4 |
+    f'8\bendAfter #6 ^"full" f'4 e' e'\bendAfter #6 ^"½" e'8~\bendAfter #6 ^"½" |
+    e'4\bendAfter #6 ^"½" r4. e'8 f' fis'~\bendAfter #6 ^"½" |
+    fis'4\bendAfter #6 ^"½" r2. |
+    r8 f'4\bendAfter #6 ^"full" e'\bendAfter #6 ^"½" e'\bendAfter #6 ^"½" e'8~ |
+    e'4 r2. |
+    r8 f'4\bendAfter #6 ^"full" e'\bendAfter #6 ^"½" e'\bendAfter #6 ^"½" e'8~ |
+    e'4 r2. |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

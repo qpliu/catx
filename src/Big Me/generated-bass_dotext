@@ -1,21 +1,20 @@
-bassPartDotext = {
+bassDotext = {
 \mymark "Intro" #1
-% tuning e,, a,, d, g,
+    \skip2 \skip8 `slide2`4 \skip8 |
+    \skip4. `slide2`4. \skip4 |
     \skip1 |
     \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    \skip2 \skip8 `slide2`4 \skip8 |
+    \skip4. `slide2`4. \skip4 |
     \skip1 |
     \skip1 |
 \mymark "Verse 1" #9
+    \skip2 \skip8 `slide2`4 \skip8 |
+    \skip4. `slide2`4. \skip4 |
     \skip1 |
     \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    \skip2 \skip8 `slide2`4 \skip8 |
+    \skip4. `slide2`4. \skip4 |
     \skip1 |
     \skip1 |
 \mymark "Pre-Chorus" #17
@@ -28,8 +27,8 @@ bassPartDotext = {
     \skip1 |
     \skip1 |
 \mymark "Chorus" #25
-    \skip1 |
-    \skip1 |
+    \skip2 \skip8 `slide2`4 \skip8 |
+    \skip4. `slide2`4. \skip4 |
     \skip1 |
     \skip1 |
     \skip1 |
@@ -37,12 +36,12 @@ bassPartDotext = {
     \skip1 |
     \skip1 |
 \mymark "Verse 2" #33
+    \skip2 \skip8 `slide2`4 \skip8 |
+    \skip4. `slide2`4. \skip4 |
     \skip1 |
     \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    \skip2 \skip8 `slide2`4 \skip8 |
+    \skip4. `slide2`4. \skip4 |
     \skip1 |
     \skip1 |
 \mymark "Pre-Chorus" #41
@@ -55,8 +54,8 @@ bassPartDotext = {
     \skip1 |
     \skip1 |
 \mymark "Chorus" #49
-    \skip1 |
-    \skip1 |
+    \skip2 \skip8 `slide2`4 \skip8 |
+    \skip4. `slide2`4. \skip4 |
     \skip1 |
     \skip1 |
     \skip1 |
@@ -64,6 +63,8 @@ bassPartDotext = {
     \skip1 |
     \skip1 |
 \mymark "Outro-Chorus" #57
+    \skip2 \skip8 `slide2`4 \skip8 |
+    \skip4. `slide2`4. \skip4 |
     \skip1 |
     \skip1 |
     \skip1 |
@@ -73,8 +74,6 @@ bassPartDotext = {
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip2 `slide`2~ |
-    `slide`1 |
+    \skip2 `slide2`2~ |
+    `slide2`1 |
 }

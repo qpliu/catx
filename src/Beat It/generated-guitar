@@ -114,8 +114,8 @@ guitar = {
     \parenthesize fis8\3 \parenthesize fis\3 <gis,\5 \parenthesize dis'\3>\bendAfter #6 ^"full" dis'16\3\bendAfter #6 ^"full" cis'\3 dis'8\3 cis'16\3 cis'\3 <gis,\5 cis'\3>4~ |
     <gis,\5 cis'\3>8 cis'\2\bendAfter #6 ^"full" cis'16\2\bendAfter #6 ^"full" ais\2 cis'8\2\bendAfter #6 ^"full" \tuplet 3/2 { cis'16\2\bendAfter #6 ^"full" cis'\2( ais\2) } cis'4.\2 |
     \tuplet 3/2 { cis'16\2\bendAfter #6 ^"full" cis'\2( ais\2) } cis'8\2\bendAfter #6 ^"full" cis'\2\bendAfter #6 ^"full" cis'16\2( ais\2) gis2\3\bendAfter #6 ^"full" |
-    \deadNote fis16\3 r fis'8\3 dis''\1 cis''\2~\bendAfter #6 ^"full" <dis''\1 cis''\2~>\bendAfter #6 ^"full" <cis''\2 fis''\1~>\bendAfter #6 ^"full" \tuplet 3/2 { fis''4\1\bendAfter #6 ^"full" dis''16\1 ais'\2 } |
-    <gis'\3 dis,\6~>8\bendAfter #6 ^"full" <gis'\3 dis,\6~>16\bendAfter #6 ^"full" <dis,\6 fis'\3> gis'2\3 r16 <cis''\2 gis'\3~>( <fis'\2 gis'\3~> <gis'\3 b'\2> |
+    \deadNote fis16\3 r fis'8\3 dis''\1 cis''\2~\bendAfter #6 ^"full" <cis''\2~ dis''\1>\bendAfter #6 ^"full" <cis''\2 fis''\1~>\bendAfter #6 ^"full" \tuplet 3/2 { fis''4\1\bendAfter #6 ^"full" dis''16\1 ais'\2 } |
+    <dis,\6~ gis'\3>8\bendAfter #6 ^"full" <dis,\6~ gis'\3>16\bendAfter #6 ^"full" <dis,\6 fis'\3> gis'2\3 r16 <gis'\3~ cis''\2>( <gis'\3~ fis'\2> <gis'\3 b'\2> |
     \tuplet 5/4 { fis''16\1 b'\1 dis''\1 cis''\2 fis'\2 } \tuplet 3/2 { b'16\2 fis''\1 b'\1 dis''\1 cis''\2 fis'\2 } \tuplet 7/4 { b'16\2 fis''\1 b'\1 dis''\1 cis''\2 fis'\2 b'\2 fis''\1 b'\1 dis''\1 cis''\2 \parenthesize fis'\2 ais'\2 gis''\1) } |
     \tuplet 3/2 { cis''8\1 gis''16\1 cis''8\1 gis''16\1 } cis''8\1\glissando b'\1 dis'\3 <ais\2 dis'\1> <cis''\2 dis''\1>4~\bendAfter #6 ^"full" |
     <cis''\2 dis''\1>8\bendAfter #6 ^"full" \tuplet 3/2 { dis''16\1 dis''\1 dis''\1 f''8\1 f''16\1 f''\1 f''\1 f''\1 fis''\1 fis''\1 fis''\1 fis''\1 fis''\1 fis''\1 fis''\1 fis''\1\glissando gis''\1 gis''\1 gis''\1 gis''\1 } |
