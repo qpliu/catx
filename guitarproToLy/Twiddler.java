@@ -141,20 +141,35 @@ final class Twiddler{
 	    }
 	tfm.trackEvents.addAll(newEvents);
     }
+    private static String fix(String s){
+	if (s.equals("+") || s.equals("_"))
+	    return "";
+	return s;
+    }
     private void addLyricEvents(){
 	for (Gpfile.TrackMeasureLyrics tml:main.gpfile.trackMeasureLyrics)
 	    if (tml.track>=0){
 		final Deque<Gpfile.LyricEvent>lyricq=new ArrayDeque<Gpfile.LyricEvent>();
-		for (StringTokenizer st=new StringTokenizer(tml.lyrics); st.hasMoreTokens();){
+		StringBuilder sb=new StringBuilder();
+		int nest=0;
+		for (int i=0; i<tml.lyrics.length(); i++){
+		    char c=tml.lyrics.charAt(i);
+		    if (c=='[')
+			nest++;
+		    sb.append(nest==0?c:' ');
+		    if (c==']')
+			--nest;
+		}
+		for (StringTokenizer st=new StringTokenizer(sb.toString()); st.hasMoreTokens();){
 		    String s=st.nextToken();
 		    boolean hyphen=false;
 		    for (;;){
 			int i=s.indexOf('-');
 			if (i==-1){
-			    lyricq.add(new Gpfile.LyricEvent(null,null,s,false,hyphen,tml.which));
+			    lyricq.add(new Gpfile.LyricEvent(null,null,fix(s),false,hyphen,tml.which));
 			    break;
 			}
-			lyricq.add(new Gpfile.LyricEvent(null,null,s.substring(0,i),true,hyphen,tml.which));
+			lyricq.add(new Gpfile.LyricEvent(null,null,fix(s.substring(0,i)),true,hyphen,tml.which));
 			hyphen = true;
 			s = s.substring(i+1);
 		    }

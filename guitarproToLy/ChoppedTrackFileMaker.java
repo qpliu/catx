@@ -7,14 +7,18 @@ class ChoppedTrackFileMaker extends TrackFileMaker{
 	super(main,arg,fn,suffix,lyname);
 	this.skip = skip;
     }
+    final Queue<Gpfile.Event>getFilteredEvents(Collection<Gpfile.Event>events){
+	Queue<Gpfile.Event>q=new PriorityQueue<Gpfile.Event>();
+	for (Gpfile.Event e:events)
+	    if (filterEvents(e))
+		q.add(e);
+	return q;
+    }
     boolean filterEvents(Gpfile.Event event){
 	return true;
     }
     @Override String makeMeasure(Gpfile.Measure measure,List<Gpfile.Event>measureEvents)throws IOException{
-	Queue<Gpfile.Event>q=new PriorityQueue<Gpfile.Event>();
-	for (Gpfile.Event e:measureEvents)
-	    if (filterEvents(e))
-		q.add(e);
+	Queue<Gpfile.Event>q=getFilteredEvents(measureEvents);
 	MeasureMaker mm=new MeasureMaker(measure);
 	for (Gpfile.Event e; (e=q.peek())!=null;){
 	    Rational end=e.time.add(e.duration);

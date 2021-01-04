@@ -19,6 +19,7 @@ final class Arg implements Cloneable{
     boolean output_lyrics;
     boolean string_numbers;
     Rational shift=Rational.ZERO;
+    final Map<String,String>karaoke_lyrics_parameter=new HashMap<String,String>();
     String instrument_name;
     String instrument_short_name;
     String which_lyrics="";

@@ -16,9 +16,9 @@ abstract class TrackFileMaker extends FileMaker{
 	if (arg.output_lilypond)
 	    main.trackFileMaker.add(new LyTrackFileMaker(main,arg));
 	if (arg.output_lyrics)
-	    main.trackFileMaker.add(new LyricsFileMaker(main,arg,false));
+	    main.trackFileMaker.add(new LyricsFileMaker(main,arg));
 	if (arg.output_karaoke)
-	    main.trackFileMaker.add(new LyricsFileMaker(main,arg,true));
+	    main.trackFileMaker.add(new KaraokeFileMaker(main,arg));
     }
     TrackFileMaker(Main main,Arg arg,String fn,String suffix,String lyname)throws IOException{
 	super(main,fn,suffix);

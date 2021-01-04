@@ -10,6 +10,7 @@ final class GuitarproToLy{
 	System.err.println("[generate-lyrics]  Generate lyrics.");
 	System.err.println("[instrument-name name]  Specify instrument name.");
 	System.err.println("[instrument-short-name name]  Specify short instrument name.");
+	System.err.println("[karaoke-lyrics-parameter key value]  Specify parameters for generating karaoke lyrics.");
 	System.err.println("[layout-extra stuff]  Extra stuff for layout.");
 	System.err.println("[layout-tabs]  Layout tabs.");
 	System.err.println("[layout-who who]  Specify who for layout.");
@@ -59,6 +60,8 @@ final class GuitarproToLy{
 		arg.instrument_name = argv[++i];
 	    else if (argv[i].equals("instrument-short-name"))
 		arg.instrument_short_name = argv[++i];
+	    else if (argv[i].equals("karaoke-lyrics-parameter"))
+		arg.karaoke_lyrics_parameter.put(argv[++i],argv[++i]);
 	    else if (argv[i].equals("layout-extra"))
 		arg.layout_extra.add(argv[++i]);
 	    else if (argv[i].equals("layout-tabs"))
@@ -91,13 +94,9 @@ final class GuitarproToLy{
 		arg.setPreset(argv[++i]);
 	    else if (argv[i].equals("scale"))
 		arg.setScale(argv[++i]);
-	    else if (argv[i].equals("shift")){
-		int j=argv[++i].indexOf('/');
-		if (j==-1)
-		    arg.shift = new Rational(Long.parseLong(argv[i]));
-		else
-		    arg.shift = new Rational(Long.parseLong(argv[i].substring(0,j)),Long.parseLong(argv[i].substring(j+1)));
-	    }else if (argv[i].equals("string-numbers"))
+	    else if (argv[i].equals("shift"))
+		arg.shift = Rational.parseRational(argv[++i]);
+	    else if (argv[i].equals("string-numbers"))
 		arg.string_numbers = true;
 	    else if (argv[i].equals("transpose"))
 		arg.transpose = argv[++i];

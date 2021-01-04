@@ -8,6 +8,12 @@ final class Rational implements Comparable<Rational>{
     Rational(long n){
 	this(n,1);
     }
+    static Rational parseRational(String s){
+	int i=s.indexOf('/');
+	if (i==-1)
+	    return new Rational(Long.parseLong(s));
+	return new Rational(Long.parseLong(s.substring(0,i)),Long.parseLong(s.substring(i+1)));
+    }
     Rational(long n,long d){
 	this(BigInteger.valueOf(n),BigInteger.valueOf(d));
     }
@@ -45,6 +51,9 @@ final class Rational implements Comparable<Rational>{
     }
     int signum(){
 	return n.signum();
+    }
+    double doubleValue(){
+	return n.doubleValue()/d.doubleValue();
     }
     @Override public int compareTo(Rational r){
 	return subtract(r).signum();
