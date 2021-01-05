@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-WHERE="/share/mirror/songsterr/stuff/d-keep/d-The Eagles/d-Hotel California-s447/d-r414164/application_guitar_pro5-43011967.gp5"
+WHERE="application_guitar_pro5-43011967.gp5"
 DRUMMAP="35 bd 1,48 tomh 0,43 toml 0,41 toml 0,"
 rm -f generated-*
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \

@@ -1,5 +1,5 @@
 #!/bin/sh
-WHERE="/share/mirror/songsterr/stuff/d-keep/d-Lig/d-lig-s475342/d-r423582/application_guitar_pro5-43886298.gp5"
+WHERE="application_guitar_pro5-43886298.gp5"
 DRUMMAP="42 hho 0,44 hh 0,51 cymc 0,37 sn 0,"
 set -e
 rm -f generated-*

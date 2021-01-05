@@ -1,5 +1,5 @@
 #!/bin/sh
-WHERE="/share/mirror/songsterr/stuff/d-keep/d-Michael Jackson/d-Beat It-s10259/d-r399557/application_guitar_pro5-41656752.gp5"
+WHERE="application_guitar_pro5-41656752.gp5"
 set -e
 rm -f generated-*
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \

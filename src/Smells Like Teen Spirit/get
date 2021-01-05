@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-WHERE="/share/mirror/songsterr/stuff/d-keep/d-Nirvana/d-Smells Like Teen Spirit-s269/d-r413303/application_guitar_pro5-42928401.gp5"
+WHERE="application_guitar_pro5-42928401.gp5"
 DRUMMAP="44 hh 0,35 bd 1,43 toml 0,"
 rm -f generated-*
 LYRICS=`cat lyrics`

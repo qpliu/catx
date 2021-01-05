@@ -1,5 +1,5 @@
 #!/bin/sh
-WHERE="/share/mirror/songsterr/stuff/d-keep/d-Journey/d-Don't Stop Believin'-s10681/d-r252847/application_guitar_pro5-16160530.gp5"
+WHERE="application_guitar_pro5-16160530.gp5"
 set -e
 rm -f generated-*
 LYRICS=`cat lyrics`

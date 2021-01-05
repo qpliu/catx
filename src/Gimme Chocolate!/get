@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e -o pipefail
-WHERE="/share/mirror/songsterr/stuff/d-keep/d-Babymetal/d-Gimme Choco-s392595/d-r397111/application_guitar_pro5-41439375.gp5"
+WHERE="application_guitar_pro5-41439375.gp5"
 SCALE=""
 rm -f generated-*
 LYRICS=`cat lyrics`

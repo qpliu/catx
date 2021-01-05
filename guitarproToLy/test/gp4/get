@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 rm -f generated-*
-java -jar ../../1.jar <"/share/mirror/songsterr/stuff/d-keep/d-Bon Jovi/d-Wanted Dead Or Alive-s54/d-r331965/application_guitar_pro4-25940548.gp4" \
+java -jar ../../1.jar <application_guitar_pro4-25940548.gp4 \
 verbose 2 \
 scale "" \
 track 0 \

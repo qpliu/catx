@@ -1,5 +1,5 @@
 #!/bin/sh
-WHERE="/share/mirror/songsterr/stuff/d-keep/d-Phil Collins/d-In The Air Tonight-s50420/d-r233370/application_guitar_pro3-15156060.gp3"
+WHERE="application_guitar_pro3-15156060.gp3"
 DRUMMAP="44 hh 0,48 tomh 0,47 tomml 0,41 toml 0,43 toml 0,40 sn 0,"
 set -e
 rm -f generated-*
