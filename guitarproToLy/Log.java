@@ -1,10 +1,10 @@
 final class Log{
-    static final int LEVEL_DEBUG=-1;
+    static final int LEVEL_DEBUG=1;
     static final int LEVEL_INFO=0;
-    static final int LEVEL_ERROR=1;
+    static final int LEVEL_ERROR=-1;
     static int level;
     static void log(int l,String fmt,Object...va){
-	if (l>=level)
+	if (l<=level)
 	    System.out.println(String.format(fmt,va));
     }
     static void debug(String fmt,Object...va){
