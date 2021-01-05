@@ -1,7 +1,9 @@
 #!/bin/sh
 set -e
 rm -f generated-*
-java -jar ../../1.jar <"/share/mirror/ultimateguitar/stuff/d-keep/d-Momoiro Clover Z/d-Mouretsu Uchuu Koukyoukyoku Dai Nana Gakushou - Mugen No Ai/application_octet_stream-Guitar Pro 1682976 2014-11-24 00:17:16 download" \
+WHERE="/share/mirror/ultimateguitar/stuff/d-keep/d-Momoiro Clover Z/d-Mouretsu Uchuu Koukyoukyoku Dai Nana Gakushou - Mugen No Ai/application_octet_stream-Guitar Pro 1682976 2014-11-24 00:17:16 download"
+java -jar ../../1.jar <"$WHERE" \
+verbose -2 \
 scale "" \
 track 6 \
     preset kav \

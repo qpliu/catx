@@ -10,16 +10,6 @@ final class Main{
     Main(Gpfile gpfile,Arg globalarg,List<Arg>trackargs)throws IOException{
 	this.gpfile = gpfile;
 	this.globalarg = globalarg;
-	Set<String>used=new HashSet<String>();
-	for (Arg arg:trackargs)
-	    if (arg.instrument_name!=null && !used.add(arg.instrument_name))
-		for (int i=2;; i++)
-		    if (used.add(arg.instrument_name+i)){
-			arg.instrument_name += i;
-			if (arg.instrument_short_name!=null)
-			    arg.instrument_short_name += i;
-			break;
-		    }
 	Twiddler twiddler=new Twiddler(this);
 	twiddler.twiddle();
 	musicFileMaker = new MusicFileMaker(this);

@@ -2,6 +2,7 @@
 set -e
 rm -f generated-*
 java -jar ../../1.jar <"/share/mirror/songsterr/stuff/d-keep/d-Queen/d-Dreamers Ball-s51134/d-r66121/application_guitar_pro3-3668136.gp3" \
+verbose -2 \
 scale "" \
 track 0 \
     preset peter \

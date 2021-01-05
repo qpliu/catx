@@ -163,15 +163,15 @@ final class Gp5file extends Gpfile{
 	    time_d = readUnsignedByte();
 	if ((bits&4)!=0){
 	    measure.repeatStart = true;
-	    Log.info("Repeat start");
+	    Log.debug("Repeat start");
 	}
 	if ((bits&8)!=0){
 	    measure.repeatEnd = readUnsignedByte();
-	    Log.info("Repeat end %d",measure.repeatEnd);
+	    Log.debug("Repeat end %d",measure.repeatEnd);
 	}
 	if ((bits&16)!=0){
 	    measure.repeatAlternate = readUnsignedByte();
-	    Log.info("Repeat alternate %d",measure.repeatAlternate);
+	    Log.debug("Repeat alternate %d",measure.repeatAlternate);
 	}
 	if ((bits&32)!=0){
 	    measure.rehearsalMark = readIntSizeBlob().toByteSizeString();
@@ -198,7 +198,7 @@ final class Gp5file extends Gpfile{
 	    else
 		measure.tripletFeel = null;
 	}
-	Log.info("%s",measure);
+	Log.debug("%s",measure);
 	return measure;
     }
     Track readTrack(int index)throws IOException{
@@ -246,7 +246,7 @@ final class Gp5file extends Gpfile{
 		readRSEInstrumentEffect();
 	    }
 	}
-	Log.info("%s",track);
+	Log.debug("%s",track);
 	return track;
     }
     void readRSEInstrument()throws IOException{

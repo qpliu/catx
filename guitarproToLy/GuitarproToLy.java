@@ -113,7 +113,8 @@ final class GuitarproToLy{
 		usage();
 	    }
 	Set<String>usedNames=new HashSet<String>();
-	for (Arg a:trackargs)
+	Set<String>usedInstrumentNames=new HashSet<String>();
+	for (Arg a:trackargs){
 	    if (!usedNames.add(a.name))
 		for (char c='A';; c++)
 		    if (usedNames.add(a.name+c)){
@@ -121,6 +122,15 @@ final class GuitarproToLy{
 			break;
 		    }else if (c=='Z')
 			throw new RuntimeException();
+	    if (a.instrument_name!=null && !usedInstrumentNames.add(a.instrument_name))
+		for (int i=2;; i++)
+		    if (usedInstrumentNames.add(a.instrument_name+i)){
+			a.instrument_name += i;
+			if (a.instrument_short_name!=null)
+			    a.instrument_short_name += i;
+			break;
+		    }
+	}
 	Gpfile gpfile=new Gp5file(new DataInputStream(System.in),globalarg);
 	new Main(gpfile,globalarg,trackargs).make();
     }
