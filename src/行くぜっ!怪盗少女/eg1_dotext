@@ -1,6 +1,6 @@
 egOnePartDotext = {
 % page 2
-    `>dist=program30;volume.2`2 r4 <`deadNote=vol.3` `bendAfter-2`>4 |
+    `>dist=program30;volume.2`2 r4 <`deadNote=vol.3` `bend0:0:60:-100`>4 |
 % A
     \barNumberCheck #2
     r1 | r1 | r1 |
@@ -18,7 +18,7 @@ egOnePartDotext = {
 % C
     \barNumberCheck #18
     r2 \tuplet 3/2 { r4 `deadNote`8 } \tuplet 3/2 { `deadNote` `deadNote`4 } |
-    `bendBefore-2`2. r4 |
+    `bend0:-100:60:0`2. r4 |
     r1 |
 % page 5
     r1 | r1 | r1 | r1 |
@@ -103,7 +103,7 @@ egOnePartDotext = {
     \barNumberCheck #88
     r1 | r1 |
 % page 10.1
-    r2 r4 <`deadNote` `bendAfter-2`>4 |
+    r2 r4 <`deadNote` `bend0:0:60:-100`>4 |
     r1 |
 % I
     \barNumberCheck #92

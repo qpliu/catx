@@ -104,24 +104,24 @@ guitarDotext = {
     \skip1 |
     \skip1 |
 \mymark "Solo" #99
-    `.(gis)bendSongsterr0:0:30:100:60:100`2 \skip8 `slide2`4.~ |
+    `.(gis)bend0:0:30:100:60:100`2 \skip8 `slide2`4.~ |
     `slide2`8 \skip4. `slide2`4 \skip4 |
     `slide2`4 \skip2. |
     \skip2. `slide2`4~ |
     `slide2`16 \skip2. \skip8. |
-    \skip4. `.(gis')bendSongsterr0:0:15:100:60:100`8 `.(gis')bendSongsterr0:0:10:100:20:100:30:0:60:0`16 \skip16 `.(cis'')bendSongsterr0:0:15:100:60:100`4 `.(cis'')bendSongsterr0:0:10:100:20:100:30:0:60:0`16 \skip16 |
-    \skip32 `slide2`16. \tuplet 3/2 { \skip16 `slide2`8 } \skip8 `.(gis')bendSongsterr0:0:15:100:60:100`8. `.(gis')bendSongsterr0:0:10:100:20:100:30:0:60:0`16 \skip4. |
-    \skip4 `.(dis')bendSongsterr0:0:15:100:60:100`8 `.(dis')bendSongsterr0:0:10:100:20:100:30:0:60:0`16 \skip2 \skip16 |
-    \skip8 `.(cis')bendSongsterr0:0:15:100:60:100`8 `.(cis')bendSongsterr0:0:10:100:20:100:30:0:60:0`16 \skip16 `.(cis')bendSongsterr0:0:15:100:60:100`8 \tuplet 3/2 { `.(cis')bendSongsterr0:0:10:100:20:100:30:0:60:0`16 \skip2 } \skip8 |
-    \tuplet 3/2 { `.(cis')bendSongsterr0:0:10:100:20:100:30:0:60:0`16 \skip8 } `.(cis')bendSongsterr0:0:15:100:60:100`8 `.(cis')bendSongsterr0:0:10:100:20:100:30:0:60:0` \skip8 `.(gis)bendSongsterr0:0:15:100:60:100`2 |
-    \skip4. `.(cis'')bendSongsterr0:0:15:100:60:100`4. \skip4 |
-    `.(gis')bendSongsterr0:0:15:100:60:100`8 `.(gis')bendSongsterr0:0:10:100:20:100:30:0:60:0`16 \skip2. \skip16 |
+    \skip4. `.(gis')bend0:0:15:100:60:100`8 `.(gis')bend0:0:10:100:20:100:30:0:60:0`16 \skip16 `.(cis'')bend0:0:15:100:60:100`4 `.(cis'')bend0:0:10:100:20:100:30:0:60:0`16 \skip16 |
+    \skip32 `slide2`16. \tuplet 3/2 { \skip16 `slide2`8 } \skip8 `.(gis')bend0:0:15:100:60:100`8. `.(gis')bend0:0:10:100:20:100:30:0:60:0`16 \skip4. |
+    \skip4 `.(dis')bend0:0:15:100:60:100`8 `.(dis')bend0:0:10:100:20:100:30:0:60:0`16 \skip2 \skip16 |
+    \skip8 `.(cis')bend0:0:15:100:60:100`8 `.(cis')bend0:0:10:100:20:100:30:0:60:0`16 \skip16 `.(cis')bend0:0:15:100:60:100`8 \tuplet 3/2 { `.(cis')bend0:0:10:100:20:100:30:0:60:0`16 \skip2 } \skip8 |
+    \tuplet 3/2 { `.(cis')bend0:0:10:100:20:100:30:0:60:0`16 \skip8 } `.(cis')bend0:0:15:100:60:100`8 `.(cis')bend0:0:10:100:20:100:30:0:60:0` \skip8 `.(gis)bend0:0:15:100:60:100`2 |
+    \skip4. `.(cis'')bend0:0:15:100:60:100`4. \skip4 |
+    `.(gis')bend0:0:15:100:60:100`8 `.(gis')bend0:0:10:100:20:100:30:0:60:0`16 \skip2. \skip16 |
     \skip1 |
-    \skip4 `slide2`4 \skip4 `.(cis'')bendSongsterr0:0:15:100:60:100`4~ |
-    `.(cis'')bendSongsterr0:0:15:100:60:100`8 \tuplet 3/2 { \skip1 `slide2`8 } \skip8 |
+    \skip4 `slide2`4 \skip4 `.(cis'')bend0:0:15:100:60:100`4~ |
+    `.(cis'')bend0:0:15:100:60:100`8 \tuplet 3/2 { \skip1 `slide2`8 } \skip8 |
     \skip1 |
 \mymark "Chorus" #115
-    \tuplet 3/2 { `.(cis''')bendSongsterr0:0:15:100:60:100`16 `.(cis''')bendSongsterr0:0:15:100:60:100` `.(cis''')bendSongsterr0:0:15:100:60:100` `.(cis''')bendSongsterr0:0:15:100:60:100` `.(cis''')bendSongsterr0:0:15:100:60:100` `.(cis''')bendSongsterr0:0:15:100:60:100` `.(cis''')bendSongsterr0:0:15:100:60:100` `.(cis''')bendSongsterr0:0:15:100:60:100` `.(cis''')bendSongsterr0:0:15:100:60:100` `.(cis''')bendSongsterr0:0:15:100:60:100` `.(cis''')bendSongsterr0:0:15:100:60:100` `.(cis''')bendSongsterr0:0:15:100:60:100` } \skip2 |
+    \tuplet 3/2 { `.(cis''')bend0:0:15:100:60:100`16 `.(cis''')bend0:0:15:100:60:100` `.(cis''')bend0:0:15:100:60:100` `.(cis''')bend0:0:15:100:60:100` `.(cis''')bend0:0:15:100:60:100` `.(cis''')bend0:0:15:100:60:100` `.(cis''')bend0:0:15:100:60:100` `.(cis''')bend0:0:15:100:60:100` `.(cis''')bend0:0:15:100:60:100` `.(cis''')bend0:0:15:100:60:100` `.(cis''')bend0:0:15:100:60:100` `.(cis''')bend0:0:15:100:60:100` } \skip2 |
     \skip1 |
     \skip1 |
     \skip1 |

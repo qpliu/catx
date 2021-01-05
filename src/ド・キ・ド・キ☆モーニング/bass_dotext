@@ -59,7 +59,7 @@ bassPartDotext = {
 % page 130 I
     \barNumberCheck #73
     r1 | r1 | r1 |
-    r2 `bendAfter-2`4 r4 |
+    r2 `bend0:0:60:-100`4 r4 |
 % page 130.1
     r1 | r1 | r1 | r1 |
 % D.S.

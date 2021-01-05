@@ -34,7 +34,7 @@ guitarDotext = {
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip2 `.(fis'')bendSongsterr0:0:15:100:60:100`4 \skip4 |
+    \skip2 `.(fis'')bend0:0:15:100:60:100`4 \skip4 |
 \mymark "Verse 3" #33
     \skip1 |
     \skip1 |
@@ -101,14 +101,14 @@ guitarDotext = {
     \skip1 |
     \skip1 |
 \mymark "Guitar Solo" #93
-    `.(gis'')bendSongsterr0:0:15:50:60:50`4. \skip2 \skip8 |
-    `.(gis'')bendSongsterr0:0:15:50:60:50`4. \skip2 \skip8 |
-    \skip2 `.(gis'')bendSongsterr0:50:15:50:30:0:60:0`4 \skip4 |
+    `.(gis'')bend0:0:15:50:60:50`4. \skip2 \skip8 |
+    `.(gis'')bend0:0:15:50:60:50`4. \skip2 \skip8 |
+    \skip2 `.(gis'')bend0:50:15:50:30:0:60:0`4 \skip4 |
     \skip1 |
-    `.(gis'')bendSongsterr0:0:15:50:30:50:45:0:60:0`4. \skip2 \skip8 |
-    `.(gis'')bendSongsterr0:0:15:50:60:50`4. \skip2 `.(a'')bendSongsterr0:0:15:100:60:100`8~ |
-    `.(a'')bendSongsterr0:0:15:100:60:100`1~ |
-    `.(a'')bendSongsterr0:0:15:100:60:100`1 |
+    `.(gis'')bend0:0:15:50:30:50:45:0:60:0`4. \skip2 \skip8 |
+    `.(gis'')bend0:0:15:50:60:50`4. \skip2 `.(a'')bend0:0:15:100:60:100`8~ |
+    `.(a'')bend0:0:15:100:60:100`1~ |
+    `.(a'')bend0:0:15:100:60:100`1 |
 \mymark "Chorus" #101
     \skip1 |
     \skip1 |

@@ -106,9 +106,9 @@ midiOneADotext = {
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip2 `.(cis''')bendSongsterr0:0:15:100:60:100`2 |
-    `.(cis''')bendSongsterr0:0:15:100:60:100`4 `.(d''')bendSongsterr0:100:60:100`2.~ |
-    `.(d''')bendSongsterr0:100:60:100`1 |
+    \skip2 `.(cis''')bend0:0:15:100:60:100`2 |
+    `.(cis''')bend0:0:15:100:60:100`4 `.(d''')bend0:100:60:100`2.~ |
+    `.(d''')bend0:100:60:100`1 |
 \mymark "Chorus" #101
     \skip1 |
     \skip1 |

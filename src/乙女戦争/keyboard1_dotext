@@ -42,7 +42,7 @@ keyboardOnePartDotext = {
 % page 88 E
     \barNumberCheck #53
     r1 |
-    r4 `bendAfter-2`4 r2 |
+    r4 `bend0:0:60:-100`4 r2 |
     r1 | r1 |
 % page 88.1
     r1 | r1 | r1 |
@@ -96,7 +96,7 @@ keyboardOnePartDotext = {
 % page 88 E-2x
     \barNumberCheck #126
     r1 |
-    r4 `bendAfter-2`4 r2 |
+    r4 `bend0:0:60:-100`4 r2 |
     r1 | r1 |
 % page 88.1-2x
     r1 | r1 | r1 |

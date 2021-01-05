@@ -138,8 +138,8 @@ midiOneCDotext = {
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip2. `.(c')bendSongsterr0:0:5:100:10:0:15:100:60:100`4~ |
-    `.(c')bendSongsterr0:0:5:100:10:0:15:100:60:100`1 |
+    \skip2. `.(c')bend0:0:5:100:10:0:15:100:60:100`4~ |
+    `.(c')bend0:0:5:100:10:0:15:100:60:100`1 |
 \mymark "Bridge" #130
     \skip1 |
     \skip1 |
@@ -213,10 +213,10 @@ midiOneCDotext = {
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip2. `.(c')bendSongsterr0:0:5:100:10:0:15:100:60:100`4~ |
-    `.(c')bendSongsterr0:0:5:100:10:0:15:100:60:100`1~ |
+    \skip2. `.(c')bend0:0:5:100:10:0:15:100:60:100`4~ |
+    `.(c')bend0:0:5:100:10:0:15:100:60:100`1~ |
 \mymark "Ending" #200
-    `.(c')bendSongsterr0:0:5:100:10:0:15:100:60:100`8 \skip2. \skip8 |
+    `.(c')bend0:0:5:100:10:0:15:100:60:100`8 \skip2. \skip8 |
     \skip1 |
     \skip1 |
     \skip1 |

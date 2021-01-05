@@ -10,9 +10,9 @@ guitarDotext = {
     `slide2`16 \skip8 `slide2`8 \skip8. `slide2`8 \skip4. |
     \skip8. `slide2`8 \skip8 `slide2`8 \skip8 `slide2`8 \skip8 `slide2`16~ |
     `slide2`16 \skip8 `slide2`8 \skip8. `slide2`8 \skip4. |
-    `.(c)bendSongsterr0:0:30:25:60:25`8 \skip8 `.(f)bendSongsterr0:0:30:25:60:25`8 \skip2 \skip8 |
-    `.(c)bendSongsterr0:0:30:25:60:25`8 \skip8 `.(f)bendSongsterr0:0:30:25:60:25`8 \skip2 \skip8 |
-    `.(c)bendSongsterr0:0:30:25:60:25`8 \skip8 `.(f)bendSongsterr0:0:30:25:60:25`8 \skip2 \skip8 |
+    `.(c)bend0:0:30:25:60:25`8 \skip8 `.(f)bend0:0:30:25:60:25`8 \skip2 \skip8 |
+    `.(c)bend0:0:30:25:60:25`8 \skip8 `.(f)bend0:0:30:25:60:25`8 \skip2 \skip8 |
+    `.(c)bend0:0:30:25:60:25`8 \skip8 `.(f)bend0:0:30:25:60:25`8 \skip2 \skip8 |
     \skip4 `slide2`8 \skip2 \skip8 |
 \mymark "Verse" #14
     \skip1 |
@@ -27,9 +27,9 @@ guitarDotext = {
     \skip1 |
     \skip1 |
     \skip1 |
-    `.(c)bendSongsterr0:0:30:25:60:25`8 \skip8 `.(f)bendSongsterr0:0:30:25:60:25`8 \skip2 \skip8 |
+    `.(c)bend0:0:30:25:60:25`8 \skip8 `.(f)bend0:0:30:25:60:25`8 \skip2 \skip8 |
     \skip1 |
-    `.(c)bendSongsterr0:0:30:25:60:25`8 \skip8 `.(f)bendSongsterr0:0:30:25:60:25`8 \skip2 \skip8 |
+    `.(c)bend0:0:30:25:60:25`8 \skip8 `.(f)bend0:0:30:25:60:25`8 \skip2 \skip8 |
 \mymark "Interlude" #28
     \skip8. `slide2`8 \skip8 `slide2`8 \skip8 `slide2`8 \skip8 `slide2`16~ |
     `slide2`16 \skip8 `slide2`8 \skip8. `slide2`8 \skip4. |
@@ -48,9 +48,9 @@ guitarDotext = {
     \skip1 |
     \skip1 |
     \skip1 |
-    `.(c)bendSongsterr0:0:30:25:60:25`8 \skip8 `.(f)bendSongsterr0:0:30:25:60:25`8 \skip2 \skip8 |
+    `.(c)bend0:0:30:25:60:25`8 \skip8 `.(f)bend0:0:30:25:60:25`8 \skip2 \skip8 |
     \skip1 |
-    `.(c)bendSongsterr0:0:30:25:60:25`8 \skip8 `.(f)bendSongsterr0:0:30:25:60:25`8 \skip2 \skip8 |
+    `.(c)bend0:0:30:25:60:25`8 \skip8 `.(f)bend0:0:30:25:60:25`8 \skip2 \skip8 |
 \mymark "Interlude" #46
     \skip8. `slide2`8 \skip8 `slide2`8 \skip8 `slide2`8 \skip8 `slide2`16~ |
     `slide2`16 \skip8 `slide2`8 \skip8. `slide2`8 \skip4. |
@@ -69,7 +69,7 @@ guitarDotext = {
     \skip1 |
     \skip1 |
     \skip1 |
-    `.(c)bendSongsterr0:0:30:25:60:25`8 \skip8 `.(f)bendSongsterr0:0:30:25:60:25`8 \skip8 |
+    `.(c)bend0:0:30:25:60:25`8 \skip8 `.(f)bend0:0:30:25:60:25`8 \skip8 |
     \skip1 |
 \mymark "Verse" #63
     \skip1 |
@@ -84,19 +84,19 @@ guitarDotext = {
     \skip1 |
     \skip1 |
     \skip1 |
-    `.(c)bendSongsterr0:0:30:25:60:25`8 \skip8 `.(f)bendSongsterr0:0:30:25:60:25`8 \skip2 \skip8 |
+    `.(c)bend0:0:30:25:60:25`8 \skip8 `.(f)bend0:0:30:25:60:25`8 \skip2 \skip8 |
     \skip1 |
     \skip1 |
     \skip1 |
-    `.(c)bendSongsterr0:0:30:25:60:25`8 \skip8 `.(f)bendSongsterr0:0:30:25:60:25`8 \skip2 \skip8 |
+    `.(c)bend0:0:30:25:60:25`8 \skip8 `.(f)bend0:0:30:25:60:25`8 \skip2 \skip8 |
     \skip1 |
-    `.(c)bendSongsterr0:0:30:25:60:25`8 \skip8 `.(f)bendSongsterr0:0:30:25:60:25`8 \skip2 \skip8 |
+    `.(c)bend0:0:30:25:60:25`8 \skip8 `.(f)bend0:0:30:25:60:25`8 \skip2 \skip8 |
     \skip1 |
-    `.(c)bendSongsterr0:0:30:25:60:25`8 \skip8 `.(f)bendSongsterr0:0:30:25:60:25`8 \skip2 \skip8 |
+    `.(c)bend0:0:30:25:60:25`8 \skip8 `.(f)bend0:0:30:25:60:25`8 \skip2 \skip8 |
     \skip1 |
-    `.(c)bendSongsterr0:0:30:25:60:25`8 \skip8 `.(f)bendSongsterr0:0:30:25:60:25`8 \skip2 \skip8 |
-    `.(c)bendSongsterr0:0:30:25:60:25`8 \skip8 `.(f)bendSongsterr0:0:30:25:60:25`8 \skip2 \skip8 |
-    `.(c)bendSongsterr0:0:30:25:60:25`8 \skip8 `.(f)bendSongsterr0:0:30:25:60:25`8 \skip2 \skip8 |
+    `.(c)bend0:0:30:25:60:25`8 \skip8 `.(f)bend0:0:30:25:60:25`8 \skip2 \skip8 |
+    `.(c)bend0:0:30:25:60:25`8 \skip8 `.(f)bend0:0:30:25:60:25`8 \skip2 \skip8 |
+    `.(c)bend0:0:30:25:60:25`8 \skip8 `.(f)bend0:0:30:25:60:25`8 \skip2 \skip8 |
 \mymark "Outro" #87
     \skip8. `slide2`8 \skip8 `slide2`8 \skip8 `slide2`8 \skip8 `slide2`16~ |
     `slide2`16 \skip8 `slide2`8 \skip8. `slide2`8 \skip4. |

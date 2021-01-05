@@ -66,7 +66,7 @@ class Gpfile extends Gpinput{
 		readChord3t(track);
 	    else
 		readChord4(track);
-	    Log.info("Got chord %s %s",name,ly);
+	    Log.debug("Got chord %s %s",name,ly);
 	    return this;
 	}
 	private void readChord3f(Track track)throws IOException{

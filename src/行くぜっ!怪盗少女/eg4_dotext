@@ -4,7 +4,7 @@ egFourPartDotext = {
 % A
     \barNumberCheck #2
     \repeat unfold 3 r1 |
-    <`>dist=program30;volume.2` `bendAfter-12`>1 | % Dist
+    <`>dist=program30;volume.2` `bend0:0:60:-100`>1 | % Dist
     \repeat unfold 2 r1 |
     r1 | r1 |
 % page 16.1 B
@@ -26,16 +26,16 @@ egFourPartDotext = {
     \barNumberCheck #35
     r1 |
 % page 16.4
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 |
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 | r1 |
     \repeat unfold 2 r1 |
     r1 |
 % page 17
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 |
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 | r1 |
 % page 17.1
     r1 |
@@ -58,16 +58,16 @@ egFourPartDotext = {
     \barNumberCheck #72
     r1 |
 % page 16.4-2x
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 |
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 | r1 |
     \repeat unfold 2 r1 |
     r1 |
 % page 17-2x
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 |
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 | r1 |
 % page 17.1-2x
     r1 |
@@ -97,16 +97,16 @@ egFourPartDotext = {
     \barNumberCheck #125
     r1 |
 % page 16.4-3x
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 |
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 | r1 |
     \repeat unfold 2 r1 |
     r1 |
 % page 17-3x
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 |
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 | r1 |
 % page 17.1-3x
     r1 |
@@ -117,7 +117,7 @@ egFourPartDotext = {
 % page 17.4 K
     \barNumberCheck #141
     \repeat unfold 3 r1 |
-    `bendAfter-12`1 |
+    `bend0:0:60:-100`1 |
     \repeat unfold 2 r1 |
     r1 | r1 | r1 |
     \barNumberCheck #150

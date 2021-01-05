@@ -6,10 +6,10 @@ guitarPartDotext = {
 % page 11 Intro Segno3
     \barNumberCheck #5
     r1 | r1 |
-    r4 `bendAfter-3`4 r2 |
+    r4 `bend0:0:60:-100`4 r2 |
     r1 |
 % page 11.1
-    r4 `bendAfter-3`4 r2 |
+    r4 `bend0:0:60:-100`4 r2 |
     r1 | r1 | r1 |
 % page 12
     r1 | r1 | r1 |
@@ -17,12 +17,12 @@ guitarPartDotext = {
     r1 |
 % page 12.1 A
     \barNumberCheck #17
-    `bendAfter-3`4 r4 r2 |
+    `bend0:0:60:-100`4 r4 r2 |
     r1 | r1 |
-    r4 r2 <`deadNote=vol.3` `bendAfter-3`>4 |
+    r4 r2 <`deadNote=vol.3` `bend0:0:60:-100`>4 |
 % page 13
     r1 | r1 |
-    r2 `bendAfter-4`4 r4 |
+    r2 `bend0:0:60:-100`4 r4 |
     r1 |
 % page 13.1
     r1 | r1 | r1 | r1 |
@@ -37,12 +37,12 @@ guitarPartDotext = {
     r1 | r1 | r1 | r1 |
 % page 16
     r1 | r1 | r1 |
-    `bendAfter-4`4  r4 r2 |
+    `bend0:0:60:-100`4  r4 r2 |
 % page 16.1
     r1 | r1 | r1 | r1 |
 % page 17
     r1 | r1 | r1 |
-    r2 `bendAfter-4`4 r4 |
+    r2 `bend0:0:60:-100`4 r4 |
 % page 17.1 C Stegno1
     \barNumberCheck #57
     r1 | r1 | r1 | r1 |
@@ -80,7 +80,7 @@ guitarPartDotext = {
     `glissandoA4.5`1)( |
     `glissandoA6.3`1)( |
     `glissandoA-6.3`1)( |
-    `bendAfter-8`2) r |
+    `bend0:0:60:-100`2) r |
 % page 24
     `glissandoA4.5`1( |
     `glissandoA6.3`1)( |
@@ -104,7 +104,7 @@ guitarPartDotext = {
     r1 | r1 | r1 | r1 |
 % page 27.1
     r1 | r1 | r1 |
-    r2 `bendAfter-5`4 r4 |
+    r2 `bend0:0:60:-100`4 r4 |
 % D.S.1
 % page 17.1 C Stegno1-2x
     \barNumberCheck #139
@@ -141,12 +141,12 @@ guitarPartDotext = {
     r1 | r1 | r1 | r1 |
 % page29
     r1 | r1 | r1 |
-    r4 `bendAfter-4`4 r8 `bendBefore-2`8 r4 |
+    r4 `bend0:0:60:-100`4 r8 `bend0:-100:60:0`8 r4 |
 % page29.1
     r1 |
     r1 |
     r1 |
-    r2. `bendAfter-4`4  |
+    r2. `bend0:0:60:-100`4  |
 % page30 J
     \barNumberCheck #192
     r1 | r1 | r1 | r1 | r1 |
@@ -180,7 +180,7 @@ guitarPartDotext = {
     \barNumberCheck #224
     r1 | r1 | r1 | r1 |
 % page 11.1-2x
-    r4 `bendAfter-3`4 r2 |
+    r4 `bend0:0:60:-100`4 r2 |
     r1 | r1 | r1 |
 % page 12-2x
     r1 | r1 | r1 |

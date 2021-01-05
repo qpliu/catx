@@ -8,21 +8,21 @@ midiOneDotext = {
     \skip1 |
     \skip1 |
     \skip1 |
-    `.(e')bendSongsterr0:300:30:0:60:0`1~ |
-    `.(e')bendSongsterr0:300:30:0:60:0`2~ `.(e')bendSongsterr0:300:30:0:60:0`8 \skip4. |
-    `.(e')bendSongsterr0:300:60:0`4. \skip2 \skip8 |
+    `.(e')bend0:300:30:0:60:0`1~ |
+    `.(e')bend0:300:30:0:60:0`2~ `.(e')bend0:300:30:0:60:0`8 \skip4. |
+    `.(e')bend0:300:60:0`4. \skip2 \skip8 |
     \skip1 |
-    `.(e')bendSongsterr0:300:30:0:60:0`1~ |
-    `.(e')bendSongsterr0:300:30:0:60:0`2~ `.(e')bendSongsterr0:300:30:0:60:0`8 \skip4. |
-    `.(e')bendSongsterr0:300:60:0`4. \skip2 \skip8 |
+    `.(e')bend0:300:30:0:60:0`1~ |
+    `.(e')bend0:300:30:0:60:0`2~ `.(e')bend0:300:30:0:60:0`8 \skip4. |
+    `.(e')bend0:300:60:0`4. \skip2 \skip8 |
     \skip1 |
-    `.(e')bendSongsterr0:300:30:0:60:0`1~ |
-    `.(e')bendSongsterr0:300:30:0:60:0`2~ `.(e')bendSongsterr0:300:30:0:60:0`8 \skip4. |
-    `.(e')bendSongsterr0:300:60:0`4. \skip2 \skip8 |
+    `.(e')bend0:300:30:0:60:0`1~ |
+    `.(e')bend0:300:30:0:60:0`2~ `.(e')bend0:300:30:0:60:0`8 \skip4. |
+    `.(e')bend0:300:60:0`4. \skip2 \skip8 |
     \skip1 |
-    `.(e')bendSongsterr0:300:30:0:60:0`1~ |
-    `.(e')bendSongsterr0:300:30:0:60:0`2~ `.(e')bendSongsterr0:300:30:0:60:0`8 \skip4. |
-    `.(e')bendSongsterr0:300:60:0`4. \skip2 \skip8 |
+    `.(e')bend0:300:30:0:60:0`1~ |
+    `.(e')bend0:300:30:0:60:0`2~ `.(e')bend0:300:30:0:60:0`8 \skip4. |
+    `.(e')bend0:300:60:0`4. \skip2 \skip8 |
     \skip1 |
 \mymark "Riff 2" #25
     \skip1 |
@@ -113,21 +113,21 @@ midiOneDotext = {
     \skip1 |
     \skip1 |
 \mymark "Riff 1" #105
-    `.(e')bendSongsterr0:300:30:0:60:0`1~ |
-    `.(e')bendSongsterr0:300:30:0:60:0`2~ `.(e')bendSongsterr0:300:30:0:60:0`8 \skip4. |
-    `.(e')bendSongsterr0:300:60:0`4. \skip2 \skip8 |
+    `.(e')bend0:300:30:0:60:0`1~ |
+    `.(e')bend0:300:30:0:60:0`2~ `.(e')bend0:300:30:0:60:0`8 \skip4. |
+    `.(e')bend0:300:60:0`4. \skip2 \skip8 |
     \skip1 |
-    `.(e')bendSongsterr0:300:30:0:60:0`1~ |
-    `.(e')bendSongsterr0:300:30:0:60:0`2~ `.(e')bendSongsterr0:300:30:0:60:0`8 \skip4. |
-    `.(e')bendSongsterr0:300:60:0`4. \skip2 \skip8 |
+    `.(e')bend0:300:30:0:60:0`1~ |
+    `.(e')bend0:300:30:0:60:0`2~ `.(e')bend0:300:30:0:60:0`8 \skip4. |
+    `.(e')bend0:300:60:0`4. \skip2 \skip8 |
     \skip1 |
-    `.(e')bendSongsterr0:300:30:0:60:0`1~ |
-    `.(e')bendSongsterr0:300:30:0:60:0`2~ `.(e')bendSongsterr0:300:30:0:60:0`8 \skip4. |
-    `.(e')bendSongsterr0:300:60:0`4. \skip2 \skip8 |
+    `.(e')bend0:300:30:0:60:0`1~ |
+    `.(e')bend0:300:30:0:60:0`2~ `.(e')bend0:300:30:0:60:0`8 \skip4. |
+    `.(e')bend0:300:60:0`4. \skip2 \skip8 |
     \skip1 |
-    `.(e')bendSongsterr0:300:30:0:60:0`1~ |
-    `.(e')bendSongsterr0:300:30:0:60:0`2~ `.(e')bendSongsterr0:300:30:0:60:0`8 \skip4. |
-    `.(e')bendSongsterr0:300:60:0`4. \skip2 \skip8 |
+    `.(e')bend0:300:30:0:60:0`1~ |
+    `.(e')bend0:300:30:0:60:0`2~ `.(e')bend0:300:30:0:60:0`8 \skip4. |
+    `.(e')bend0:300:60:0`4. \skip2 \skip8 |
     \skip1 |
 \mymark "Solo" #121
     \skip1 |

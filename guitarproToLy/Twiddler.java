@@ -125,7 +125,7 @@ final class Twiddler{
 		if (ne.bend!=null && ne.time.compareTo(lastEnd)>=0)
 		    if (!tfm.arg.use_bend_end && !tfm.arg.use_bend_start){
 			StringBuilder sb=new StringBuilder();
-			sb.append(".(").append(Stuff.midi2ly(ne.getNote(),main.globalarg)).append(")bendSongsterr");
+			sb.append(".(").append(Stuff.midi2ly(ne.getNote(),main.globalarg)).append(")bend");
 			for (int i=0; i<ne.bend.x.length; i++){
 			    if (i!=0)
 				sb.append(':');

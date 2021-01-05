@@ -37,7 +37,7 @@ vocalPartDotext = {
     r1 | r1 | r1 |
 % page 16
     r1 |
-    `bendAfter-4`4 r4 r2 |
+    `bend0:0:60:-100`4 r4 r2 |
     r1 | r1 |
 % page 16.1
     `deadNote`4 `deadNote`8 r8 r4 r8 r8 |
@@ -191,6 +191,6 @@ vocalPartDotext = {
 % page30 Coda 3
     \barNumberCheck #235
     r2 r8 `deadNote`4.~ |
-    <`deadNote` `bendAfter-4`>2 r2 |
+    <`deadNote` `bend0:0:60:-100`>2 r2 |
     \barNumberCheck #237
 }

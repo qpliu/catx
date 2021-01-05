@@ -34,16 +34,16 @@ egFivePartDotext = {
     \barNumberCheck #35
     `>dist=program30;volume.2`1 | % Dist
 % page 16.4
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 |
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 | r1 |
     \repeat unfold 2 r1 |
     r1 |
 % page 17
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 |
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 | r1 |
 % page 17.1
     r1 |
@@ -68,16 +68,16 @@ egFivePartDotext = {
     \barNumberCheck #72
     `>dist`1 | % Dist
 % page 16.4-2x
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 |
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 | r1 |
     \repeat unfold 2 r1 |
     r1 |
 % page 17-2x
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 |
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 | r1 |
 % page 17.1-2x
     r1 |
@@ -107,16 +107,16 @@ egFivePartDotext = {
     \barNumberCheck #125
     `>dist`1 | % Dist
 % page 16.4-3x
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 |
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 | r1 |
     \repeat unfold 2 r1 |
     r1 |
 % page 17-3x
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 |
-    `bendBefore-2`2 r |
+    `bend0:-100:60:0`2 r |
     r1 | r1 |
 % page 17.1-3x
     r1 |

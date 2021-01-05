@@ -10,7 +10,7 @@ guitarTwoPartDotext = {
     r1 | r1 | r1 | r1 |
 % page 122
     r1 | r1 | r1 |
-    r2 `bend6:90:-1:360`2 |
+    r2 `bend0:0:30:-100:60:0`2 |
 % page 122.1 C
     \barNumberCheck #17
     {
@@ -158,7 +158,7 @@ guitarTwoPartDotext = {
     r1 |
 % page 132
     r1 | r1 |
-    r2 `bend6:90:-1:360`2 |
+    r2 `bend0:0:30:-100:60:0`2 |
 % page 132.1 K
     \barNumberCheck #121
     {

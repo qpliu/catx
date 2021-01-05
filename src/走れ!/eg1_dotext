@@ -28,7 +28,7 @@ egOnePartDotext = {
     r1 | r1 | r1 | r1 | r1 |
 % page 6
     r1 |
-    r2 r8 <`deadNote=vol.5` `bendAfter-12`>4. |
+    r2 r8 <`deadNote=vol.5` `bend0:0:60:-100`>4. |
 % E
     \barNumberCheck #34
     r1 |
@@ -80,7 +80,7 @@ egOnePartDotext = {
 	r1 | r1 | r1 | r1 |
 % page 11
 	r1 | r1 |
-	r2 r4 <`deadNote` `bendAfter4`> |
+	r2 r4 <`deadNote` `bend0:0:60:100`> |
 % J
 	\mybarNumberCheck #75
 	r1 | r1 |

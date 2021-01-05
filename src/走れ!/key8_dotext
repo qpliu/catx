@@ -1,6 +1,6 @@
 keyEightPartDotext = {
 % page 19
-    `seone=program119;volume2;changeNote50;bendPL0:0:.4:0:.7:1:1:-2`2. r4 |
+    `seone=program119;volume2;changeNote50;bend0:0:20:0:40:100:60:-200`2. r4 |
 % A
     \barNumberCheck #2
     \repeat unfold 6 r1 |
@@ -82,9 +82,9 @@ keyEightPartDotext = {
     r1 | r1 | r1 | r1 | r1 | r1 |
 % page 21.2
     r1 | r1 |
-    r2 r4 r8 `sefour=program119;volume2;bendPL0:0:1:-24`~ |
-    `sefour=program119;volume2;bendPL0:0:1:-24`1~ |
-    `sefour=program119;volume2;bendPL0:0:1:-24`1 |
+    r2 r4 r8 `sefour=program119;volume2;bend0:0:60:-2400`~ |
+    `sefour=program119;volume2;bend0:0:60:-2400`1~ |
+    `sefour=program119;volume2;bend0:0:60:-2400`1 |
 % L
     \mybarNumberCheck #103
     r1 | r1 |

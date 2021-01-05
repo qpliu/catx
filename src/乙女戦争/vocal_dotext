@@ -42,7 +42,7 @@ vocalPartDotext = {
     r1 | r1 | r1 | r1 |
 % page 87.1
     r1 | r1 | r1 |
-    <`deadNote` `bendAfter6`>2. r4 |
+    <`deadNote` `bend0:0:60:100`>2. r4 |
 % page 88 E
     \barNumberCheck #53
     r1 | r1 | r1 | r1 |
@@ -93,7 +93,7 @@ vocalPartDotext = {
     r1 | r1 | r1 | r1 |
 % page 87.1-2x
     r1 | r1 | r1 |
-    <`deadNote` `bendAfter6`>2. r4 |
+    <`deadNote` `bend0:0:60:100`>2. r4 |
 % page 88 E-2x
     \barNumberCheck #126
     r1 | r1 | r1 | r1 |

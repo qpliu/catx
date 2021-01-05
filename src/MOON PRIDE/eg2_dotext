@@ -25,9 +25,9 @@ egTwoPartDotext = {
 % D
     \barNumberCheck #27
     `>clean=program27;volume.4`4 r4 r2 | % <Clean>
-    `bendBefore-2`4 r4 r2 |
+    `bend0:-100:60:0`4 r4 r2 |
 % page 5.1
-    `bendBefore-2`4 r4 r4 `bendAfter-2`4 |
+    `bend0:-100:60:0`4 r4 r4 `bend0:0:60:-100`4 |
     r1 | r1 | r1 |
 % page 6
     <`>dist=program30;volume.4` `M=program28`>8 `M`8 `M`8 `M`8 `M`8 `M`8 `M`8 `M`8 | % <Dist>

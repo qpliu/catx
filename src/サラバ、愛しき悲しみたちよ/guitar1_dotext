@@ -42,12 +42,12 @@ guitarOnePartDotext = {
     r1 |
     r4 `M=program28`8 `M` `M` `M` r4 |
     r4 `deadNote`8 r r `deadNote` r4 |
-    <`bendBefore-2` `collottava-12`>8 `collottava-12` `collottava-12` `collottava-12`~ `collottava-12` `collottava-12` `collottava-12` `collottava-12` |
+    <`bend0:-100:60:0` `collottava-12`>8 `collottava-12` `collottava-12` `collottava-12`~ `collottava-12` `collottava-12` `collottava-12` `collottava-12` |
 % page 110.1
     r1 |
     r4 `M`8 r r `M` r4 |
     r4 `M`8 `M` `M` `M` r4 |
-    <`bendBefore-2` `collottava-12`>4 r8 `collottava-12` r `collottava-12`4. |
+    <`bend0:-100:60:0` `collottava-12`>4 r8 `collottava-12` r `collottava-12`4. |
 % page 111
     r2. `M`8 `M`16 `M` |
     r1 |
@@ -59,7 +59,7 @@ guitarOnePartDotext = {
         \repeat unfold 3 {
 	    r1 |
         }
-        r2 r4 `bendAfter-4` |
+        r2 r4 `bend0:0:60:-100` |
     }
 % page 112.1 D
     \barNumberCheck #61
@@ -87,7 +87,7 @@ guitarOnePartDotext = {
     \repeat unfold 2 { r8 r `deadNote` r } |
     r8 r \repeat unfold 2 { `deadNote` r } r4 |
 % to Coda1
-    `bendAfter-4`4 r4 r2 |
+    `bend0:0:60:-100`4 r4 r2 |
 % page 115 E
     \barNumberCheck #81
     r1 | r1 | r1 | r1 |
@@ -113,16 +113,16 @@ guitarOnePartDotext = {
     `collottava-12`1~ |
     `collottava-12`1~ |
     `collottava-12`1~ |
-    `collottava-12`4 <`bendAfter-4` `collottava-12`> `collottava-12`2 |
+    `collottava-12`4 <`bend0:0:60:-100` `collottava-12`> `collottava-12`2 |
 % page 119
     `collottava-12`1~ |
     `collottava-12`1~ |
     `collottava-12`1~ |
-    `collottava-12`2 <`collottava-12` `bendAfter-6`> |
+    `collottava-12`2 <`collottava-12` `bend0:0:60:-100`> |
 % page 119.1
     r1 | r1 | r1 |
 % page 120
-    r2 `bendAfter-2`4 r |
+    r2 `bend0:0:60:-100`4 r |
     r1 | r1 |
 % page 120.1
     r1 | r1 |
@@ -141,20 +141,20 @@ guitarOnePartDotext = {
 % page 123+2
     r1 | r1 |
 % page 123.1
-    `>clean`8 r8 r4 r4 `bendAfter-6`4 | % S.E.
-    r8 `bendAfter-6`4 r8 r4 `bendAfter-6`4 |
+    `>clean`8 r8 r4 r4 `bend0:0:60:-100`4 | % S.E.
+    r8 `bend0:0:60:-100`4 r8 r4 `bend0:0:60:-100`4 |
 % D.S.1
 % page 110 B Stegno1-2x
     \barNumberCheck #147
     `>clean`1 | % clean
     r4 `M`8 `M` `M` `M` r4 |
     r1 |
-    <`collottava-12` `bendBefore-2`>8 `collottava-12` `collottava-12` `collottava-12`~ `collottava-12` `collottava-12` `collottava-12` `collottava-12` |
+    <`collottava-12` `bend0:-100:60:0`>8 `collottava-12` `collottava-12` `collottava-12`~ `collottava-12` `collottava-12` `collottava-12` `collottava-12` |
 % page 110.1-2x
     r1 |
     r4 `M`8 r r `M` r4 |
     r4 `M`8 `M` `M` `M` r4 |
-    <`collottava-12` `bendBefore-2`>4 r8 `collottava-12` r `collottava-12`4. |
+    <`collottava-12` `bend0:-100:60:0`>4 r8 `collottava-12` r `collottava-12`4. |
 % page 111-2x
     r2. `M`8 `M`16 `M` |
     r1 |
@@ -166,7 +166,7 @@ guitarOnePartDotext = {
         \repeat unfold 3 {
             r1 |
         }
-        r2 r4 `bendAfter-4` |
+        r2 r4 `bend0:0:60:-100` |
     }
 % page 112.1 D-2x
     \barNumberCheck #167
@@ -196,7 +196,7 @@ guitarOnePartDotext = {
 % to Coda1
 % page 123 Coda1
     \barNumberCheck #186
-    `bendAfter-4`4 r4 r2 |
+    `bend0:0:60:-100`4 r4 r2 |
 % D.S.2
 % page 107.1 Intro.2 Stegno2 Stegno3 begin repeat-3x
     \barNumberCheck #187

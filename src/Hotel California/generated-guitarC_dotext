@@ -43,13 +43,13 @@ guitarCDotext = {
     \skip1 |
     \skip1 |
 \mymark "Verse 3" #41
-    \skip2. \skip8 `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`8 |
+    \skip2. \skip8 `.(cis')bend0:0:15:50:30:50:45:0:60:0`8 |
     \skip1 |
     \skip1 |
-    \skip2. \skip8 `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`8 |
+    \skip2. \skip8 `.(cis')bend0:0:15:50:30:50:45:0:60:0`8 |
     \skip1 |
     \skip1 |
-    \skip2. `.(fis)bendSongsterr0:0:30:50:60:50`4 |
+    \skip2. `.(fis)bend0:0:30:50:60:50`4 |
     \skip1 |
 \mymark "Verse 4" #49
     \skip1 |
@@ -58,7 +58,7 @@ guitarCDotext = {
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip2. `.(fis)bendSongsterr0:0:30:50:60:50`4 |
+    \skip2. `.(fis)bend0:0:30:50:60:50`4 |
     \skip1 |
 \mymark "Chorus" #57
     \skip1 |
@@ -79,13 +79,13 @@ guitarCDotext = {
     \skip1 |
     \skip1 |
 \mymark "Verse 6" #73
-    \skip2. \skip8 `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`8 |
+    \skip2. \skip8 `.(cis')bend0:0:15:50:30:50:45:0:60:0`8 |
     \skip1 |
     \skip1 |
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip2. `.(fis)bendSongsterr0:0:30:50:60:50`4 |
+    \skip2. `.(fis)bend0:0:30:50:60:50`4 |
     \skip1 |
 \mymark "Solo" #81
     \skip1 |
@@ -94,39 +94,39 @@ guitarCDotext = {
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip2. `.(fis)bendSongsterr0:0:30:50:60:50`4 |
+    \skip2. `.(fis)bend0:0:30:50:60:50`4 |
     \skip1 |
-    \skip2. \skip8 `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`8 |
-    \skip2. \skip8 `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`8 |
-    \skip2. `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`4 |
+    \skip2. \skip8 `.(cis')bend0:0:15:50:30:50:45:0:60:0`8 |
+    \skip2. \skip8 `.(cis')bend0:0:15:50:30:50:45:0:60:0`8 |
+    \skip2. `.(cis')bend0:0:15:50:30:50:45:0:60:0`4 |
     \skip1 |
-    \skip2. \skip8 `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`8 |
+    \skip2. \skip8 `.(cis')bend0:0:15:50:30:50:45:0:60:0`8 |
     \skip1 |
-    \skip2. `.(fis)bendSongsterr0:0:15:50:30:50:45:0:60:0`4 |
-    \skip1 |
-    \skip1 |
+    \skip2. `.(fis)bend0:0:15:50:30:50:45:0:60:0`4 |
     \skip1 |
     \skip1 |
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip2. `.(fis)bendSongsterr0:0:15:50:30:50:45:0:60:0`4 |
     \skip1 |
-    \skip2. \skip8 `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`8 |
-    \skip2. \skip8 `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`8 |
-    \skip2. \skip8 `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`8 |
     \skip1 |
-    \skip2. \skip8 `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`8 |
+    \skip2. `.(fis)bend0:0:15:50:30:50:45:0:60:0`4 |
     \skip1 |
-    \skip2. \skip8 `.(fis)bendSongsterr0:0:30:50:60:50`8 |
+    \skip2. \skip8 `.(cis')bend0:0:15:50:30:50:45:0:60:0`8 |
+    \skip2. \skip8 `.(cis')bend0:0:15:50:30:50:45:0:60:0`8 |
+    \skip2. \skip8 `.(cis')bend0:0:15:50:30:50:45:0:60:0`8 |
     \skip1 |
-    \skip2. \skip8 `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`8 |
-    \skip2. \skip8 `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`8 |
-    \skip2. \skip8 `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`8 |
+    \skip2. \skip8 `.(cis')bend0:0:15:50:30:50:45:0:60:0`8 |
     \skip1 |
-    \skip2. \skip8 `.(cis')bendSongsterr0:0:15:50:30:50:45:0:60:0`8 |
+    \skip2. \skip8 `.(fis)bend0:0:30:50:60:50`8 |
     \skip1 |
-    \skip2. \skip8 `.(fis)bendSongsterr0:0:30:50:60:50`8 |
+    \skip2. \skip8 `.(cis')bend0:0:15:50:30:50:45:0:60:0`8 |
+    \skip2. \skip8 `.(cis')bend0:0:15:50:30:50:45:0:60:0`8 |
+    \skip2. \skip8 `.(cis')bend0:0:15:50:30:50:45:0:60:0`8 |
+    \skip1 |
+    \skip2. \skip8 `.(cis')bend0:0:15:50:30:50:45:0:60:0`8 |
+    \skip1 |
+    \skip2. \skip8 `.(fis)bend0:0:30:50:60:50`8 |
     \skip1 |
     \skip1 |
 }

@@ -20,12 +20,12 @@ midiOneDotext = {
 \mymark "Pre-Chorus" #17
     \skip1 |
     \skip2 \skip8 `slide1`8 \skip4 |
-    \skip2. \skip8 `.(fis')bendSongsterr0:0:20:0:25:50:60:50`8~ |
-    `.(fis')bendSongsterr0:0:20:0:25:50:60:50`4 \skip2. |
+    \skip2. \skip8 `.(fis')bend0:0:20:0:25:50:60:50`8~ |
+    `.(fis')bend0:0:20:0:25:50:60:50`4 \skip2. |
     \skip1 |
     \skip2 \skip8 `slide1`8 \skip4 |
-    \skip2. \skip8 `.(d')bendSongsterr0:100:20:100:25:0:60:0`8~ |
-    `.(d')bendSongsterr0:100:20:100:25:0:60:0`4 \skip2. |
+    \skip2. \skip8 `.(d')bend0:100:20:100:25:0:60:0`8~ |
+    `.(d')bend0:100:20:100:25:0:60:0`4 \skip2. |
 \mymark "Chorus" #25
     \skip1 |
     \skip1 |
@@ -47,30 +47,30 @@ midiOneDotext = {
 \mymark "Pre-Chorus" #41
     \skip1 |
     \skip2 \skip8 `slide1`8 \skip4 |
-    \skip2. \skip8 `.(fis')bendSongsterr0:0:20:0:25:50:60:50`8~ |
-    `.(fis')bendSongsterr0:0:20:0:25:50:60:50`4 \skip2. |
+    \skip2. \skip8 `.(fis')bend0:0:20:0:25:50:60:50`8~ |
+    `.(fis')bend0:0:20:0:25:50:60:50`4 \skip2. |
     \skip1 |
     \skip2 \skip8 `slide1`8 \skip4 |
-    \skip2. \skip8 `.(d')bendSongsterr0:100:20:100:25:0:60:0`8~ |
-    `.(d')bendSongsterr0:100:20:100:25:0:60:0`4 \skip2. |
+    \skip2. \skip8 `.(d')bend0:100:20:100:25:0:60:0`8~ |
+    `.(d')bend0:100:20:100:25:0:60:0`4 \skip2. |
 \mymark "Chorus" #49
     \skip1 |
     \skip1 |
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip8 `.(f')bendSongsterr0:0:15:100:60:100`4 `.(e')bendSongsterr0:50:25:50:30:0:60:0` `.(e')bendSongsterr0:0:10:50:60:50` \skip8 |
+    \skip8 `.(f')bend0:0:15:100:60:100`4 `.(e')bend0:50:25:50:30:0:60:0` `.(e')bend0:0:10:50:60:50` \skip8 |
     \skip1 |
     \skip1 |
 \mymark "Outro-Chorus" #57
-    `.(f')bendSongsterr0:0:15:100:60:100`8 \skip2 `slide1`8 \skip4 |
-    `.(f')bendSongsterr0:0:15:100:60:100`8 \skip4 `.(e')bendSongsterr0:0:10:50:60:50`4. \skip4 |
-    `.(f')bendSongsterr0:0:15:100:60:100`8 \skip2 `.(e')bendSongsterr0:0:15:50:60:50`4 `.(e')bendSongsterr0:0:10:50:60:50`8~ |
-    `.(e')bendSongsterr0:0:10:50:60:50`4 \skip2 \skip8 `.(fis')bendSongsterr0:0:20:0:25:50:60:50`8~ |
-    `.(fis')bendSongsterr0:0:20:0:25:50:60:50`4 \skip2. |
-    \skip8 `.(f')bendSongsterr0:0:15:100:60:100`4 `.(e')bendSongsterr0:50:25:50:30:0:60:0` `.(e')bendSongsterr0:0:10:50:60:50` \skip8 |
+    `.(f')bend0:0:15:100:60:100`8 \skip2 `slide1`8 \skip4 |
+    `.(f')bend0:0:15:100:60:100`8 \skip4 `.(e')bend0:0:10:50:60:50`4. \skip4 |
+    `.(f')bend0:0:15:100:60:100`8 \skip2 `.(e')bend0:0:15:50:60:50`4 `.(e')bend0:0:10:50:60:50`8~ |
+    `.(e')bend0:0:10:50:60:50`4 \skip2 \skip8 `.(fis')bend0:0:20:0:25:50:60:50`8~ |
+    `.(fis')bend0:0:20:0:25:50:60:50`4 \skip2. |
+    \skip8 `.(f')bend0:0:15:100:60:100`4 `.(e')bend0:50:25:50:30:0:60:0` `.(e')bend0:0:10:50:60:50` \skip8 |
     \skip1 |
-    \skip8 `.(f')bendSongsterr0:0:15:100:60:100`4 `.(e')bendSongsterr0:50:25:50:30:0:60:0` `.(e')bendSongsterr0:0:10:50:60:50` \skip8 |
+    \skip8 `.(f')bend0:0:15:100:60:100`4 `.(e')bend0:50:25:50:30:0:60:0` `.(e')bend0:0:10:50:60:50` \skip8 |
     \skip1 |
     \skip1 |
     \skip1 |

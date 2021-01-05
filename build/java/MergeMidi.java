@@ -593,17 +593,6 @@ final class MergeMidi{
 	    }
 	    te.map.put("note",note);
 	}
-	private void addBend(OutputChannel oc,NoteEvent note,double amplitude,double phase,double offset,double wl,long start,long stop){
-	    phase *= Math.PI/180;
-	    wl *= Math.PI/180;
-	    amplitude *= 0x1fff;
-	    int size=Math.min(BEND_MAX_SIZE,(int)(stop-start));
-	    for (int i=1; i<size; i++){
-		int bend=(int)(0x2000+.5+(Math.sin(phase+wl*i/(size-1))+offset)*amplitude);
-		oc.add(start+i*(stop-start)/size,note.outTrackIndex,0xe0,bend&127,bend>>7);
-	    }
-	    oc.add(stop,note.outTrackIndex,0xe0,0,0x40);
-	}
 	private void sendToOc(String id,long time,int outTrackIndex,int one,int...bytes){
 	    for (OutputChannel oc:outputChannels)
 		if (oc.lastId.equals(id)){
@@ -661,51 +650,16 @@ final class MergeMidi{
 		    if ((te=temap.remove("melodic"))!=null)
 			note.percussion = false;
 		    OutputChannel oc=getOutputChannel(note);
-		    if ((te=temap.remove("bendBefore"))!=null && !te.done){
-			double n=Double.parseDouble(te.param[0]);
-			addBend(oc,note,n/BEND_RANGE,180,1,90,te.time,te.stop);
-			te.done = true;
-		    }
-		    if ((te=temap.remove("bendAfter"))!=null && !te.done){
-			double n=Double.parseDouble(te.param[0]);
-			addBend(oc,note,n/BEND_RANGE,270,1,90,te.time,te.stop);
-			te.done = true;
-		    }
-		    if ((te=temap.remove("bend"))!=null && !te.done){
-			double amplitude=Double.parseDouble(te.param[0]);
-			double phase=Double.parseDouble(te.param[1]);
-			double offset=Double.parseDouble(te.param[2]);
-			double wl=Double.parseDouble(te.param[3]);
-			addBend(oc,note,amplitude/BEND_RANGE,phase,offset,wl,te.time,te.stop);
-			te.done = true;
-		    }
 		    if ((te=temap.remove("slide"))!=null){
 			addSlide(te,oc,note,program);
 			continue;
 		    }
-		    if ((te=temap.remove("bendSongsterr"))!=null && !te.done){
+		    if ((te=temap.remove("bend"))!=null && !te.done){
 			long x0=te.time;
 			double y0=0x2000;
 			for (int i=0; i<te.param.length; i+=2){
 			    long x1=te.time+(long)(Double.parseDouble(te.param[i])/60*(te.stop-te.time)+.5);
 			    double y1=0x2000+0x1fff/BEND_RANGE*Double.parseDouble(te.param[i+1])/50;
-			    int size=Math.min(BEND_MAX_SIZE,(int)(x1-x0));
-			    for (int j=0; j<size; j++){
-				int bend=(int)(y0+j*(y1-y0)/size+.5);
-				oc.add(x0+j*(x1-x0)/size,note.outTrackIndex,0xe0,bend&127,bend>>7);
-			    }
-			    x0 = x1;
-			    y0 = y1;
-			}
-			oc.add(te.stop,note.outTrackIndex,0xe0,0,0x40);
-			te.done = true;
-		    }
-		    if ((te=temap.remove("bendPL"))!=null && !te.done){
-			long x0=te.time;
-			double y0=0x2000;
-			for (int i=0; i<te.param.length; i+=2){
-			    long x1=te.time+(long)(Double.parseDouble(te.param[i])*(te.stop-te.time)+.5);
-			    double y1=0x2000+0x1fff/BEND_RANGE*Double.parseDouble(te.param[i+1]);
 			    int size=Math.min(BEND_MAX_SIZE,(int)(x1-x0));
 			    for (int j=0; j<size; j++){
 				int bend=(int)(y0+j*(y1-y0)/size+.5);
