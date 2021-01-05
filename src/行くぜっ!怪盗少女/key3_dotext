@@ -13,7 +13,7 @@ keyThreePartDotext = {
 % C
     \barNumberCheck #18
     \repeat unfold 7 r1 |
-    <`>harp=program46;volume.4` `glissando24`>1 | % Harp
+    <`>harp=program46;volume.4` `slide2:1`>1 | % Harp
 % D Stegno1
     \barNumberCheck #26
     r1 | r1 | r1 | r1 |
@@ -34,14 +34,14 @@ keyThreePartDotext = {
 % page 21
     r1 | r1 | r1 |
 % to Coda1,2
-    r8 <`>harp` `glissando12`>4. `glissando12`2 | % Harp
+    <`>harp` `slide3:1`>1 | % Harp
 % page 21.1 F
     \barNumberCheck #51
     \repeat unfold 4 r1 |
 % G
     \barNumberCheck #55
     \repeat unfold 7 r1 |
-    `glissando24`1 |
+    `slide2:1`1 |
 % D.S.1
 % D Stegno1-2x
     \barNumberCheck #63
@@ -65,7 +65,7 @@ keyThreePartDotext = {
 % to Coda1,2
 % page 21.1 Coda1
     \barNumberCheck #87
-    r8 <`>harp` `glissando12`>4. `glissando12`2 | % Harp
+    <`>harp` `slide3:1`>1 | % Harp
 % H
     \barNumberCheck #88
     \repeat unfold 3 r1 |
@@ -122,7 +122,7 @@ keyThreePartDotext = {
 % to Coda1,2
 % page 14.1 Coda2
     \barNumberCheck #140
-    r8 <`>harp` `glissando12`>4. `glissando12`2 | % Harp
+    <`>harp` `slide3:1`>1 | % Harp
 % K
     \barNumberCheck #141
     \repeat unfold 3 r1 |
@@ -131,6 +131,6 @@ keyThreePartDotext = {
     r1 | r1 |
     `>brasssect`1 | % Brass Sect.2
     r1 |
-    `glissando-4`4 r4 r2 |
+    `slide2:1`2. r4 |
     \barNumberCheck #150
 }

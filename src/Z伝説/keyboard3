@@ -4,7 +4,7 @@ keyboardThreePart = \new Voice = "key3b" \new Voice = "key3a" {
     \barNumberCheck #1
     r1 | r1 | r1 |
     \relative {
-	r2\startInstrument "Piano" \afterGrace { \deadNote ees'\glissando } { \hideNotes f'128 \unHideNotes } |
+	r2\startInstrument "Piano" \deadNote ees'4\glissando \deadNote f' |
     }
 % page 11 Intro Segno3
     \barNumberCheck #5
@@ -37,14 +37,14 @@ keyboardThreePart = \new Voice = "key3b" \new Voice = "key3a" {
 	<bes' ees g>4. <bes ees g>8~ <bes ees g>4 <bes ees g>4 |
 	<c f a>4. <d g b>8~ <d g b>4 <d g b>4 |
 	<bes ees g>4. <bes ees g>8~ <bes ees g>4 <bes ees g>4 |
-	r4 <c f a>4\staccato \afterGrace <d g b>4\glissando { \hideNotes <e, a c>128 \unHideNotes } r4 |
+	r4 <c f a>4\staccato <d g b>8\glissando <e, a c> r4 |
     }
 % page 13.1
     \relative {
 	<c'' ees g>4\staccato r4 r2 |
 	r1 |
 	<ees g c>4\staccato r4 r2 |
-	\ottava #1 <ees' g c>4\staccato <ees g c>4\staccato <ees g c>4\staccato \afterGrace \deadNote ees4\glissando { \hideNotes e,128 \unHideNotes } \ottava #0 |
+	\ottava #1 <ees' g c>4\staccato <ees g c>4\staccato <ees g c>4\staccato \deadNote ees8\glissando e, \ottava #0 |
     }
 % page 14
     \relative {

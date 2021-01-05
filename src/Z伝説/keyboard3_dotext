@@ -2,7 +2,7 @@ keyboardThreePartDotext = {
 % page 10
     \barNumberCheck #1
     r1 | r1 | r1 |
-    `>piano=program0;volume.7`2 `glissando8` | % Piano
+    `>piano=program0;volume.7`2 `slide2:1` | % Piano
 % page 11 Intro Segno3
     \barNumberCheck #5
     r1 | r1 | r1 | r1 |
@@ -17,10 +17,10 @@ keyboardThreePartDotext = {
     r1 | r1 | r1 | r1 |
 % page 13
     r1 | r1 | r1 |
-    r2 `glissando-6`4 r4 |
+    r2 `slide2:1`4 r4 |
 % page 13.1
     r1 | r1 | r1 |
-    r2 r4 `glissando-8`4 |
+    r2 r4 `slide2:1`4 |
 % page 14
     r1 | r1 | r1 | r1 |
 % page 14.1 B
@@ -72,8 +72,8 @@ keyboardThreePartDotext = {
     r1 | r1 | r1 | r1 | r1 |
 % page 24.1
     r1 | r1 |
-    r2 `glissando8`2 |
-    r1 | r1 |
+    r2 `slide2:1`2~ |
+    `slide2:1`8 r8 r2. | r1 |
 % page 25 G
     \barNumberCheck #114
     r1 | r1 | r1 | r1 |

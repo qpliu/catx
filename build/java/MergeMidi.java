@@ -6,7 +6,6 @@ import java.util.regex.*;
 final class MergeMidi{
     private static final int DIVISION=384;
     private static final int DRUMS_CHANNEL=10-1;
-    private static final int BEND_MAX_SIZE=128;
     private static final double BEND_RANGE=24;
 // WTF?  Lilypond adds an extra 48 divisions after each Lyric meta event?  But sometimes it is 144?
 // Sometimes it is 192.  Sometimes 24.
@@ -496,6 +495,9 @@ final class MergeMidi{
 	    }
 	}
     }
+    static class SlideData{
+	Map<Long,List<NoteEvent>>map=new TreeMap<Long,List<NoteEvent>>();
+    }
     private class OutputEventMaker{
 	private final OutputChannel[]outputChannels=new OutputChannel[16];
 	private final Map<String,Integer>idToProgram=new HashMap<String,Integer>();
@@ -568,30 +570,48 @@ final class MergeMidi{
 	}
 	private void addSlide(TextEvent te,OutputChannel oc,NoteEvent note,int program)throws IOException{
 	    int count=te.param.length>=1?Integer.parseInt(te.param[0]):2;
-	    int[]index=(int[])te.map.computeIfAbsent("index",x->new int[1]);
-	    NoteEvent last=(NoteEvent)te.map.get("note");
-	    if (index[0]==0){
-		te.map.put("note",note);
-		index[0]++;
+	    double step=te.param.length>=2?Double.parseDouble(te.param[1]):0;
+	    SlideData sd=(SlideData)te.map.computeIfAbsent("slideData",x->new SlideData());
+	    sd.map.computeIfAbsent(note.time,x->new ArrayList<NoteEvent>()).add(note);
+	    List<List<NoteEvent>>list=new ArrayList<List<NoteEvent>>(sd.map.values());
+	    if (sd.map.size()<count || sd.map.size()==count && list.get(list.size()-1).size()<list.get(0).size())
 		return;
+	    for (int i=0; i<count; i++){
+		sd.map.remove(list.get(i).get(0).time);
+		Collections.sort(list.get(i),(x,y)->Double.compare(x.key,y.key));
 	    }
-	    if (note.time==last.time)
-		return;
-	    long startTime=index[0]==1?last.time:(last.time+last.stop)/2;
-	    long endTime=index[0]==count-1?note.stop:(note.time+note.stop)/2;
-	    NoteEvent n=new NoteEvent(startTime,last.id,last.outTrackIndex,endTime,last.trackName,last.key,last.velocity,last.percussion);
-	    double y0=0x2000;
-	    double y1=0x2000+0x1fff/BEND_RANGE*(note.key-last.key);
-	    for (int j=0; j<BEND_MAX_SIZE; j++){
-		int bend=(int)(y0+j*(y1-y0)/(BEND_MAX_SIZE-1)+.5);
-		oc.add(n.time+j*(n.stop-n.time)/(BEND_MAX_SIZE-1),n.outTrackIndex,0xe0,bend&127,bend>>7);
-	    }
-	    oc.addNote(program,n);
-	    if (++index[0]>=count){
-		index[0] = 0;
-		oc.add(n.stop,n.outTrackIndex,0xe0,0,0x40);
-	    }
-	    te.map.put("note",note);
+	    if (step==0){
+		long stop=list.get(list.size()-1).get(0).stop;
+		for (NoteEvent n:list.get(0))
+		    oc.addNote(program,new NoteEvent(n.time,n.id,n.outTrackIndex,stop,n.trackName,n.key,n.velocity,n.percussion));
+		int lastBend=0x2000;
+		NoteEvent n00=list.get(0).get(0);
+		for (int i=1; i<list.size(); i++){
+		    NoteEvent n0=list.get(i-1).get(0);
+		    NoteEvent n1=list.get(i).get(0);
+		    long time1=i==list.size()-1?n1.stop:n1.time;
+		    for (long j=n0.time; j<time1; j++){
+			int bend=(int)(0x2000+0x1fff/BEND_RANGE*(j-n0.time)*(n1.key-n0.key)/(time1-n0.time));
+			if (bend!=lastBend)
+			    oc.add(j,n00.outTrackIndex,0xe0,bend&127,bend>>7);
+			lastBend = bend;
+		    }
+		}
+		oc.add(n00.stop,n00.outTrackIndex,0xe0,0,0x40);
+	    }else
+		for (int i=1; i<list.size(); i++){
+		    NoteEvent n0=list.get(i-1).get(0);
+		    NoteEvent n1=list.get(i).get(0);
+		    long time1=i==list.size()-1?n1.stop:n1.time;
+		    int steps=(int)Math.ceil(Math.abs(n1.key-n0.key)/step)+1;
+		    for (int j=0; j<steps; j++){
+			long t=n0.time+(time1-n0.time)*j/steps;
+			long s=n0.time+(time1-n0.time)*(j+1)/steps;
+			double k=j*(n1.key>n0.key?step:-step);
+			for (NoteEvent n:list.get(i-1))
+			    oc.addNote(program,new NoteEvent(t,n.id,n.outTrackIndex,s,n.trackName,n.key+k,n.velocity,n.percussion));
+		    }
+		}
 	}
 	private void sendToOc(String id,long time,int outTrackIndex,int one,int...bytes){
 	    for (OutputChannel oc:outputChannels)
@@ -657,13 +677,15 @@ final class MergeMidi{
 		    if ((te=temap.remove("bend"))!=null && !te.done){
 			long x0=te.time;
 			double y0=0x2000;
+			int lastBend=0x2000;
 			for (int i=0; i<te.param.length; i+=2){
 			    long x1=te.time+(long)(Double.parseDouble(te.param[i])/60*(te.stop-te.time)+.5);
 			    double y1=0x2000+0x1fff/BEND_RANGE*Double.parseDouble(te.param[i+1])/50;
-			    int size=Math.min(BEND_MAX_SIZE,(int)(x1-x0));
-			    for (int j=0; j<size; j++){
-				int bend=(int)(y0+j*(y1-y0)/size+.5);
-				oc.add(x0+j*(x1-x0)/size,note.outTrackIndex,0xe0,bend&127,bend>>7);
+			    for (long j=x0; j<x1; j++){
+				int bend=(int)(y0+(j-x0)*(y1-y0)/(x1-x0));
+				if (bend!=lastBend)
+				    oc.add(j,note.outTrackIndex,0xe0,bend&127,bend>>7);
+				lastBend = bend;
 			    }
 			    x0 = x1;
 			    y0 = y1;
@@ -675,21 +697,6 @@ final class MergeMidi{
 			double shift=Double.parseDouble(te.param[0]);
 			oc.addNote(program,new NoteEvent(note.time,note.id,note.outTrackIndex,note.stop,note.trackName,note.key+shift,note.velocity,note.percussion));
 		    }
-		    if ((te=temap.remove("glissando"))!=null){
-			int n=Integer.parseInt(te.param[0]);
-			int m=te.param.length>1?Integer.parseInt(te.param[1]):Math.abs(n);
-			for (int i=0; i<m; i++){
-			    long t0=note.time+i*(note.stop-note.time)/m;
-			    long t1=note.time+(i+1)*(note.stop-note.time)/m;
-			    NoteEvent a=new NoteEvent(t0,note.id,note.outTrackIndex,t1,note.trackName,note.key+(double)i*n/m,note.velocity,note.percussion);
-			    if (i==m-1)
-				note = a;
-			    else
-				oc.addNote(program,a);
-			}
-		    }
-		    if ((te=temap.remove("glissandoA"))!=null)
-			note.key += (note.time-te.time)*Double.parseDouble(te.param[0])/(te.stop-te.time);
 		    if ((te=temap.remove("crescendo"))!=null){
 			double v0=Double.parseDouble(te.param[0]);
 			double v1=Double.parseDouble(te.param[1]);

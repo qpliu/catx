@@ -108,13 +108,13 @@ pianoPartStaffOneDotext = {
 % page 13
     r1 | r1 | r1 | r1 | r1 |
 % page 13.1
-    r2 r8 `glissando-29`4. |
+    r2 r8 `slide2:1`4. |
 % L
     \barNumberCheck #133
     r1 | r1 | r1 | r1 |
 % page 14
     r1 | r1 | r1 |
-    r2 r8 `glissando-31`4. |
+    r2 r8 `slide2:1`4. |
     r1 |
 % page 14.1
     r1 | r1 | r1 |

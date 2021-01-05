@@ -72,23 +72,23 @@ guitarPartDotext = {
     r1 | r1 | r1 |
 % page 23 F
     \barNumberCheck #96
-    `glissandoA4.5`1( |
-    `glissandoA6.3`1)( |
-    `glissandoA-6.3`1)( |
-    `glissandoA-4.5`1)( |
+    `slide9:1`1~ |
+    `slide9:1`1~ |
+    `slide9:1`1~ |
+    `slide9:1`1~ |
 % page 23.1
-    `glissandoA4.5`1)( |
-    `glissandoA6.3`1)( |
-    `glissandoA-6.3`1)( |
-    `bend0:0:60:-100`2) r |
+    `slide9:1`1~ |
+    `slide9:1`1~ |
+    `slide9:1`1~ |
+    `slide9:1`2 r |
 % page 24
-    `glissandoA4.5`1( |
-    `glissandoA6.3`1)( |
-    `glissandoA-6.3`1)( |
-    `glissandoA-4.5`1)( |
-    `glissandoA4.5`1)( |
+    `slide7:1`1~ |
+    `slide7:1`1~ |
+    `slide7:1`1~ |
+    `slide7:1`1~ |
+    `slide7:1`1~ |
 % page 24.1
-    `glissandoA6.3`1) |
+    `slide7:1`1 |
     r1 | r1 | r1 | r1 |
 % page 25 G
     \barNumberCheck #114

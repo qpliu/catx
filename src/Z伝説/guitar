@@ -156,29 +156,29 @@ guitarPart = \transpose c c, {
 % page 23 F
     \barNumberCheck #96
     \relative {
-	c''1:32(\glissando |
-	\deadNote f1:32)(\glissando |
-	c'1:32)(\glissando |
-	\deadNote f,1:32)(\glissando |
+	c''1\glissando |
+	\deadNote f1\glissando |
+	c'1\glissando |
+	\deadNote f,1\glissando |
     }
 % page 23.1
     \relative {
-	c''1:32)(\glissando |
-	\deadNote f1:32)(\glissando |
-	c'1:32)(\glissando |
-	\deadNote f,2)\bendAfterG #-8 r2 |
+	c''1\glissando |
+	\deadNote f1\glissando |
+	c'1\glissando |
+	\deadNote f,4\glissando \deadNote dis r2 |
     }
 % page 24
     \relative {
-	\ottava #1 c'''1:32(\glissando |
-	\deadNote f1:32)(\glissando |
-	c'1:32)(\glissando |
-	\deadNote f,1:32)(\glissando |
-	c1:32)(\glissando |
+	\ottava #1 c'''1\glissando |
+	\deadNote f1\glissando |
+	c'1\glissando |
+	\deadNote f,1\glissando |
+	c1\glissando |
     }
 % page 24.1
     \relative {
-	\deadNote f'''1:32) |
+	\deadNote f'''2 \deadNote c' |
     }
     r1 | r1 |
     \relative {

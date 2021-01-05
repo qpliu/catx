@@ -221,7 +221,7 @@ pianoPartStaffOne = {
 	<e g c>4 <e g>4 <f a>4 <e g>4 |
 	<d f bes>2 <e g c>4. <g a d>8~ |
 % page 13.1
-	<g a d>8 <g a d>8 <g a d>4 <fis a d>8 \afterGrace { \deadNote e''4.\glissando } { \hideNotes c,,128 \unHideNotes } |
+	<g a d>8 <g a d>8 <g a d>4 <fis a d>8 \deadNote e''8.\glissando \deadNote c,, |
 % L
 	\barNumberCheck #133
 	<g' b d>4. <e g a c>8~ <e g a c>4. d'8~ |
@@ -234,7 +234,7 @@ pianoPartStaffOne = {
 	<g' b d>4 <g b d>4 <e g a c>4. <fis a d>8~ |
 	<fis a d>8 <fis a d>8 c'4 <g b>4 d'4 |
 	<e, g c>4 <e g c>4 <a d a'>4 <a a'>8 <a a'>8~ |
-	<a a'>8 <b b'>8 <b e a>4 <b e gis>8 \afterGrace { \deadNote fis''4.\glissando } { \hideNotes c,,128 \unHideNotes} |
+	<a a'>8 <b b'>8 <b e a>4 <b e gis>8 \deadNote fis''8.\glissando \deadNote c,, |
 	\ottava #1 <c' fis a>4 r16 a''16 f16 c16 a'16 f16 c16 a16 f'16 c16 a8 |
 % page 14.1
 	<d, g b>4 r16 b''16 g16 d16 b'16 g16 d16 b16 g'16 d16 b16 g16 \ottava #0 |

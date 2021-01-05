@@ -111,7 +111,9 @@ final class Twiddler{
 			count++;
 		    }
 		}
-		tfm.trackEvents.add(new Gpfile.DotextEvent(ne.time,slideEnd.subtract(ne.time),"slide"+count));
+		boolean continuousSlide=Stuff.canDoContinuousSlide(tfm.track.instrument);
+		if (count>1)
+		    tfm.trackEvents.add(new Gpfile.DotextEvent(ne.time,slideEnd.subtract(ne.time),"slide"+count+(continuousSlide?"":":1")));
 		lastEnd = ne.time.add(ne.duration);
 	    }
     }

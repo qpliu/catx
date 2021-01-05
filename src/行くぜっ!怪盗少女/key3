@@ -20,7 +20,7 @@ keyThreePart = {
     \barNumberCheck #18
     R1*7 |
     \relative {
-	\afterGrace f1_"<Harp>"\glissando { \hideNotes cis'''128 \unHideNotes } |
+	f2_"<Harp>"\glissando cis''' |
     }
 % D Stegno1
     \barNumberCheck #26
@@ -75,7 +75,7 @@ keyThreePart = {
     }
 % to Coda1,2
     \relative {
-	r8 \deadNote aes4._"<Harp>"\glissando( \afterGrace { \deadNote aes'2)\glissando } { \hideNotes cis'128 \unHideNotes } |
+	r8 \deadNote aes4._"<Harp>"\glissando \deadNote aes'4\glissando cis' |
     }
 % page 21.1 F
     \barNumberCheck #51
@@ -84,7 +84,7 @@ keyThreePart = {
     \barNumberCheck #55
     R1*7 |
     \relative {
-	\afterGrace f1_"<Harp>"\glissando { \hideNotes cis'''128 \unHideNotes } |
+	f2_"<Harp>"\glissando cis''' |
     }
 % D.S.1
 % D Stegno1-2x
@@ -142,7 +142,7 @@ keyThreePart = {
 % page 21.1 Coda1
     \barNumberCheck #87
     \relative {
-	r8 \deadNote aes4._"<Harp>"\glissando( \afterGrace { \deadNote aes'2)\glissando } { \hideNotes cis'128 \unHideNotes } |
+	r8 \deadNote aes4._"<Harp>"\glissando \deadNote aes'4\glissando cis' |
     }
 % H
     \barNumberCheck #88
@@ -263,7 +263,7 @@ keyThreePart = {
 % page 14.1 Coda2
     \barNumberCheck #140
     \relative {
-	r8 \deadNote aes4._"<Harp>"\glissando( \afterGrace { \deadNote aes'2)\glissando } { \hideNotes cis'128 \unHideNotes } |
+	r8 \deadNote aes4._"<Harp>"\glissando \deadNote aes'4\glissando cis' |
     }
 % K
     \barNumberCheck #141
