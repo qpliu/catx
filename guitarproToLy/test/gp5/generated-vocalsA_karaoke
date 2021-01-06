@@ -35,7 +35,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "Kyou"8 "-retsu!" "Ha"16 "-re"8 "-tsu!"8. "Ba"8 "-ku"4
     "-retsu!"4. ">MO"2 "-"8
 \mymark "Chorus 1A" #31
-    "-RETSU!"4. "-"2 ""8
+    "-RETSU!"4. "-"2 \skip8
     ">@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -106,8 +106,8 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "Kyou"8 "-retsu!" "Ha"16 "-re"8 "-tsu!"8. "Ba"8 "-ku"4
     "-retsu!"4. ">MO"2 "-"8
 \mymark "Chorus 2A" #96
-    "-RETSU!"4. "-"2 ""8
-    "-"4. "@@"32 "-"2 ""16.
+    "-RETSU!"4. "-"2 \skip8
+    "-"4. "@@"32 "-"2 \skip16.
     "-"1
     "-"1
     "-"1

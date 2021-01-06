@@ -1,12 +1,4 @@
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-WorstAge=2147483648
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 1  Divisions: 384
-Sequence: midiKaraoke
->cdefgabccbagfedc>cisdiseisfisgisaisbisciscisbisaisgisfiseisdiscis>defisgabcisddcisbagfised>eesfgaesbescdeeseesdcbesaesgfees>efisgisabcisdiseediscisbagisfise>fgabescdeffedcbesagf>fisgisaisbcisdiseisfisfiseisdiscisbaisgisfis>gabcdefisggfisedcbag>aesbescdeseesfgaesaesgfeesdescbesaes>abcisdefisgisaagisfisedcisba>bescdeesfgabesbesagfeesdcbes>bcisdisefisgisaisbbaisgisfisediscisbPlaying time: ~239 seconds
-Notes cut: 0
-Notes lost totally: 0
-Wrote 13103056/41961228 bytes(31.2266% compressed)
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-     60 measure=all
+MergeMidi.java:726: error: ';' expected
+	    for (List<TextEvent>list=textEvents.values())
+	                                                ^
+1 error

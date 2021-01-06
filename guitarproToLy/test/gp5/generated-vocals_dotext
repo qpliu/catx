@@ -3,7 +3,7 @@ vocalsDotext = {
     \skip2 |
 \mymark "Intro" #2
     \skip1 |
-    \skip2 `slide2:1`4 `slide1:1`8. \skip16 |
+    \skip2 `slide`4 \skip4 |
     \skip1 |
     \skip1 |
     \skip1 |
@@ -25,15 +25,15 @@ vocalsDotext = {
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip4. `slide2:1`4. \skip4 |
+    \skip4. `slide`4. \skip4 |
 \mymark "Pre-Chorus 1" #24
     \skip2. |
     \skip2. |
     \skip2. |
     \skip2. |
     \skip1 |
-    `slide2:1`4 `slide2:1`8. \skip2 \skip16 |
-    `slide2:1`2.~ `slide2:1`8 \skip8 |
+    `slide`4 `slide`8. \skip2 \skip16 |
+    `slide`2.~ `slide`8 \skip8 |
 \mymark "Chorus 1A" #31
     \skip1 |
     \skip1 |
@@ -77,12 +77,12 @@ vocalsDotext = {
     \skip1 |
     \skip1 |
     \skip1 |
-    `slide4:1`1~ |
-    `slide4:1`1 |
+    `slide`1~ |
+    `slide`1 |
 \mymark "Verse 2A" #73
     \skip1 |
     \skip1 |
-    \skip2. `slide2:1`4 |
+    \skip2. `slide`4 |
     \skip1 |
     \skip1 |
     \skip1 |
@@ -96,15 +96,15 @@ vocalsDotext = {
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip4. `slide2:1`4. \skip4 |
+    \skip4. `slide`4. \skip4 |
 \mymark "Pre-Chorus 2" #89
     \skip2. |
     \skip2. |
     \skip2. |
     \skip2. |
     \skip1 |
-    `slide2:1`4 `slide2:1`8. \skip2 \skip16 |
-    `slide2:1`2.~ `slide2:1`8 \skip8 |
+    `slide`4 `slide`8. \skip2 \skip16 |
+    `slide`2.~ `slide`8 \skip8 |
 \mymark "Chorus 2A" #96
     \skip1 |
     \skip1 |
@@ -171,15 +171,15 @@ vocalsDotext = {
     \skip1 |
 \mymark "Post Solo/Pre-Chorus 3" #156
     \skip1 |
-    `slide2:1`4 \skip2 `slide2:1`4 |
+    `slide`4 \skip2 `slide`4 |
     \skip1 |
     \skip1 |
     \skip1 |
     \skip1 |
     \skip1 |
-    `slide2:1`4 `slide2:1`8. \skip2 \skip16 |
-    `slide3:1`1~ |
-    `slide3:1`2.~ `slide3:1`8 \skip8 |
+    `slide`4 `slide`8. \skip2 \skip16 |
+    `slide`1~ |
+    `slide`2.~ `slide`8 \skip8 |
 \mymark "Chorus 3A" #166
     \skip1 |
     \skip1 |

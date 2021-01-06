@@ -47,21 +47,21 @@ guitarBDotext = {
 \mymark "Chorus" #40
     \skip4. `.(f'')bend0:0:15:100:30:100:45:0:60:0`2~ `.(f'')bend0:0:15:100:30:100:45:0:60:0`8 |
     \skip2 \skip8. `.(g')bend0:0:15:100:30:100:45:0:60:0`16 \skip4 |
-    \skip2. \skip8 `slide2`8~ |
-    <`slide2` `.(c)bend0:0:30:25:60:25`>8 \skip8 `.(f)bend0:0:30:25:60:25`8 \skip2 \skip8 |
+    \skip2. \skip8 `slide`8~ |
+    <`slide` `.(c)bend0:0:30:25:60:25`>8 \skip8 `.(f)bend0:0:30:25:60:25`8 \skip2 \skip8 |
     \skip1 |
     `.(c)bend0:0:30:25:60:25`8 \skip8 `.(f)bend0:0:30:25:60:25`8 \skip2 \skip8 |
 \mymark "Interlude" #46
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip2 \skip16 `slide3`4.~ `slide3`16~ |
+    \skip2 \skip16 `slide`4.~ `slide`16~ |
 \mymark "Solo" #50
-    `slide3`8 `slide2` \skip2. |
+    `slide`8 `slide` \skip2. |
     \tuplet 3/2 { `.(g)bend0:0:30:100:60:100`8 `.(g)bend0:100:60:100` `.(g)bend0:100:60:100` `.(g)bend0:0:30:100:60:100`16 `.(g)bend0:100:60:100` `.(g)bend0:100:20:100:40:0:60:0` } \skip2 \skip8 |
     `.(g'')bend0:0:30:100:60:100`4 \skip8 `.(g'')bend0:0:30:100:60:100`4.~ `.(g'')bend0:0:30:100:60:100`16 \skip8. |
-    \skip4. `slide2`2 `slide2`8~ |
-    `slide2`16 \skip16 `.(f)bend0:0:30:25:60:25`8 \skip4. `.(g)bend0:0:15:100:30:100:45:0:60:0`16 \skip4 \skip16 |
+    \skip4. `slide`2 `slide`8~ |
+    `slide`16 \skip16 `.(f)bend0:0:30:25:60:25`8 \skip4. `.(g)bend0:0:15:100:30:100:45:0:60:0`16 \skip4 \skip16 |
     \skip4. `.(g)bend0:0:15:100:30:100:45:0:60:0`16 \skip2 \skip16 |
     `.(g')bend0:0:30:100:60:100`8 \skip16 `.(g')bend0:0:30:100:60:100`8 \skip16 `.(g')bend0:0:30:100:60:100`8 \skip16 `.(g')bend0:0:15:100:30:100:45:0:60:0`16 \skip4. |
     \skip1 |

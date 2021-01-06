@@ -1,137 +1,137 @@
 vocalsLyrics = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Intro" #1
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
 \mymark "Verse 1" #9
-    ""2. "Just"8 "a" |
-    "small"8 "town"4 "girl"4. ""4 |
-    ""2 "Liv"8 -- "in'" "in" "a" |
+    \skip2. "Just"8 "a" |
+    "small"8 "town"4 "girl"4. \skip4 |
+    \skip2 "Liv"8 -- "in'" "in" "a" |
     "lone"4 -- "ly"8 "world."2 \skip8 |
-    ""2 ""8 "She" "took" "the" |
+    \skip2 \skip8 "She"8 "took" "the" |
     "mid"8 -- "night"4 "train" "go" -- "in'"8 |
     "a"4. -- "ny" -- "where."4 |
-    \skip4 ""2. |
+    \skip4 \skip2. |
 \mymark "Verse 2" #17
-    ""2. "Just"8 "a" |
-    "ci"8 -- "ty"4 "boy"4. ""4 |
-    ""2 "born"8 "and" "raised" "in" |
+    \skip2. "Just"8 "a" |
+    "ci"8 -- "ty"4 "boy"4. \skip4 |
+    \skip2 "born"8 "and" "raised" "in" |
     "South"4 "Det"8 -- "roit."2 \skip8 |
-    ""2 ""8 "He" "took" "the" |
+    \skip2 \skip8 "He"8 "took" "the" |
     "mid"8 -- "night"4 "train" "go" -- "in'"8 |
     "a"4. -- "ny" -- "where."4 |
 \mymark "Guitar Fill" #24
-    \skip2 ""2 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
+    \skip2 \skip2 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
 \mymark "Verse 3" #33
-    ""4. "A"8 "sin" -- "ger" "in" "a" |
-    "smo"8 -- "ky"4 "room"4. ""4 |
-    ""4. "A"8 "smell"16 "of" "wine"4 "and"8 |
+    \skip4. "A"8 "sin" -- "ger" "in" "a" |
+    "smo"8 -- "ky"4 "room"4. \skip4 |
+    \skip4. "A"8 "smell"16 "of" "wine"4 "and"8 |
     "cheap"4 "per"8 -- "fume"2 \skip8 |
-    ""4 "For"8 "a" "smi" -- "le" "they" "can" |
-    "share"4 "the"8 "night." \tuplet 3/2 { ""4 "It" "goes" } |
+    \skip4 "For"8 "a" "smi" -- "le" "they" "can" |
+    "share"4 "the"8 "night." \tuplet 3/2 { \skip4 "It"4 "goes" } |
     "on"4 "and"8 "on,"4. "and"8 "on," |
     \skip4 "and"8 "on."2 \skip8 |
 \mymark "Bridge" #41
-    "Stran"4. -- "gers" ""4 |
-    "wait"4. -- "ing" ""4 |
-    ""2 "Up"8 "and" "down" "the" |
+    "Stran"4. -- "gers" \skip4 |
+    "wait"4. -- "ing" \skip4 |
+    \skip2 "Up"8 "and" "down" "the" |
     "bou"4 -- "le"8 -- "vard."4. "Their"4 |
-    "sha"4. -- "dows" ""4 |
+    "sha"4. -- "dows" \skip4 |
     "sear"4. -- "ching"4 "in"8 "the" "night." |
     \skip1 |
-    ""1 |
-    "Street"4. -- "lights," ""4 |
-    "peop"4. -- "le" ""4 |
-    ""2 "Liv"8 -- "ing" "just" "to" |
+    \skip1 |
+    "Street"4. -- "lights," \skip4 |
+    "peop"4. -- "le" \skip4 |
+    \skip2 "Liv"8 -- "ing" "just" "to" |
     "find"4 "e"8 -- "mo"4. -- "tion."4 |
-    "Hid"4. -- "ing" ""4 |
+    "Hid"4. -- "ing" \skip4 |
     "some"4. -- "where"8 "in" "the" "night,"4 |
     \skip1 |
-    \skip2. ""4 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
+    \skip2. \skip4 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
 \mymark "Verse 4" #61
-    ""4 "Work"8 -- "ing" "hard"4. "to"8 |
-    "get"8 "my"4 "fill,"4. ""4 |
-    ""2 "E"16 -- "very" -- "bo"8 -- "dy"4 |
+    \skip4 "Work"8 -- "ing" "hard"4. "to"8 |
+    "get"8 "my"4 "fill,"4. \skip4 |
+    \skip2 "E"16 -- "very" -- "bo"8 -- "dy"4 |
     "wants"4 "a"8 "thrill,"2 \skip8 |
-    ""4 "Pay"8 -- "in'" "a" -- "ny" -- "thing" "to" |
-    "roll"4 "the"8 "dice"4. ""8 "Just" |
+    \skip4 "Pay"8 -- "in'" "a" -- "ny" -- "thing" "to" |
+    "roll"4 "the"8 "dice"4. \skip8 "Just"8 |
     "one"4. "more" "time."4 |
-    \skip2. ""4 |
+    \skip2. \skip4 |
 \mymark "Verse 5" #69
-    ""4 "Some"8 "will" "win,"4 "" |
-    \tuplet 3/2 { ""4 "some" "will" } "lose."4. ""8 |
-    ""2 "Some"16 "were" "born"4 "to"8 |
+    \skip4 "Some"8 "will" "win,"4 \skip4 |
+    \tuplet 3/2 { \skip4 "some"4 "will" } "lose."4. \skip8 |
+    \skip2 "Some"16 "were" "born"4 "to"8 |
     "sing"4 "the"8 "blues."2 \skip8 |
-    ""4 "Oh,"8 "the" "mo" -- "vie"4 "ne"8 -- |
+    \skip4 "Oh,"8 "the" "mo" -- "vie"4 "ne"8 -- |
     \skip8 "ver"4 \tuplet 3/2 { "ends."4. \skip16 "It"4 "goes" } |
     "on"4 "and"8 "on,"4. "and"8 "on," |
-    \skip4 "and"8 "on."4. ""4 |
+    \skip4 "and"8 "on."4. \skip4 |
 \mymark "Bridge" #77
-    "Stran"4. -- "gers" ""4 |
-    "wait"4. -- "ing" ""4 |
-    ""2 "Up"8 "and" "down" "the" |
+    "Stran"4. -- "gers" \skip4 |
+    "wait"4. -- "ing" \skip4 |
+    \skip2 "Up"8 "and" "down" "the" |
     "bou"4 -- "le"8 -- "vard."4. "Their"4 |
-    "sha"4. -- "dows" ""4 |
+    "sha"4. -- "dows" \skip4 |
     "sear"4. -- "ching"4 "in"8 "the" "night." |
     \skip1 |
-    ""1 |
-    "Street"4. -- "lights," ""4 |
-    "peop"4. -- "le" ""4 |
-    ""2 "Liv"8 -- "ing" "just" "to" |
+    \skip1 |
+    "Street"4. -- "lights," \skip4 |
+    "peop"4. -- "le" \skip4 |
+    \skip2 "Liv"8 -- "ing" "just" "to" |
     "find"4 "e"8 -- "mo"4. -- "tion."4 |
-    "Hid"4. -- "ing" ""4 |
+    "Hid"4. -- "ing" \skip4 |
     "some"4. -- "where"4 "in"8 "the" "night," |
     \skip1 |
-    \skip2. ""4 |
+    \skip2. \skip4 |
 \mymark "Guitar Solo" #93
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
 \mymark "Chorus" #101
-    "Don't"4. "stop"8 ""4. "be"8 -- |
-    "liev"4. -- "in'"4 ""4. |
-    ""2 "Hold"8 "on" "to" "the" |
+    "Don't"4. "stop"8 \skip4. "be"8 -- |
+    "liev"4. -- "in'"4 \skip4. |
+    \skip2 "Hold"8 "on" "to" "the" |
     "feel"4 -- "in'"2. |
-    "Street"4. -- "lights,"4 ""4. |
+    "Street"4. -- "lights,"4 \skip4. |
     "peop"4. -- "le"2 \skip8 |
     \skip1 |
     \skip1 |
-    "Don't"4. "stop"8 ""4. "be"8 -- |
-    "liev"4. -- "in'"4 ""4. |
-    ""8 "Hold"4 "on"8 "to" "the" "feel"4 -- |
-    "in'"2 \skip8 ""4. |
-    "Street"4. -- "lights,"8 ""2 |
+    "Don't"4. "stop"8 \skip4. "be"8 -- |
+    "liev"4. -- "in'"4 \skip4. |
+    \skip8 "Hold"4 "on"8 "to" "the" "feel"4 -- |
+    "in'"2 \skip8 \skip4. |
+    "Street"4. -- "lights,"8 \skip2 |
     "peop"4. -- "le"2 \skip8 |
     \skip1 |
     \skip1 |
-    "Don't"4. "stop"8 ""4. "be"8 -- |
-    "liev"4. -- "in'"4 ""4. |
-    ""8 "Hold"4 "on" "to"8 "the" "" |
-    "feel"8. -- "in'"2 \skip16 ""4 |
-    "Street"4. -- "lights,"4 ""4. |
+    "Don't"4. "stop"8 \skip4. "be"8 -- |
+    "liev"4. -- "in'"4 \skip4. |
+    \skip8 "Hold"4 "on" "to"8 "the" \skip8 |
+    "feel"8. -- "in'"2 \skip16 \skip4 |
+    "Street"4. -- "lights,"4 \skip4. |
     "peop"4. -- "le"2 \skip8 |
     \skip1 |
     \skip1 |

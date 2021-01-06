@@ -44,7 +44,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "beat"8 "it,"4. "(beat"8 "it),"4.
     "beat"8 "it,"4. ">(beat"8 "it),"4 "no"8
     "-"8 "one" "wants" "to" "be" "-" "de" "fea"
-    \skip8 "ted."8 "-"2 ""8 ">Show"
+    \skip8 "ted."8 "-"2 \skip8 ">Show"8
     \skip8 "him"8 "how" "-" "fun" "ky" "and" "strong"
     \skip8 "is"8 "your" "-" "fight," "-"4 ">it"8
     \skip8 "does"8 "n't" "-" "mat" "ter" "-" "who's"
@@ -74,7 +74,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "beat"8 "it,"4. "(beat"8 "it),"4.
     "beat"8 "it,"4. ">(beat"8 "it),"4 "no"8
     \skip8 "one"8 "wants" "to" "be" "-" "de" "fea"
-    "-"8 "ted." "-"2 ""8 ">Show"
+    "-"8 "ted." "-"2 \skip8 ">Show"8
     \skip8 "them"8 "how" "-" "fun" "ky" "and" "strong"
     \skip8 "is"8 "your" "-" "fight," "-"4 ">it"8
     \skip8 "does"8 "n't" "-" "mat" "ter" "-" "who's"
@@ -82,7 +82,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "beat"8 "it,"4. "(beat"8 "it),"4.
     "beat"8 "it,"4. ">(beat"8 "it),"4 "no"8
     \skip8 "one"8 "wants" "to" "be" "-" "de" "fea"
-    "-"8 "ted." "-"2 ""8 ">Show"
+    "-"8 "ted." "-"2 \skip8 ">Show"8
     \skip8 "them"8 "how" "-" "fun" "ky" "and" "strong"
     \skip8 "is"8 "your" "-" "fight," "-"4 ">it"8
     \skip8 "does"8 "n't" "-" "mat" "ter" "-" "who's"
@@ -125,7 +125,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "Beat|!bg="8 "it,"4. "(beat"8 "it),"4.
     "beat"8 "it,"4. ">(beat"8 "it),"4 "no"8
     \skip8 "one"8 "wants" "to" "be" "-" "de" "fea"
-    "-"8 "ted." "-"2 ""8 ">Show"
+    "-"8 "ted." "-"2 \skip8 ">Show"8
     \skip8 "them"8 "how" "-" "fun" "ky" "and" "strong"
     \skip8 "is"8 "your" "-" "fight," "-"4 ">it"8
     \skip8 "does"8 "n't" "-" "mat" "ter" "-" "who's"
@@ -134,7 +134,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "beat"8 "it,"4. "(beat"8 "it),"4.
     "beat"8 "it,"4. ">(beat"8 "it),"4 "no"8
     \skip8 "one"8 "wants" "to" "be" "-" "de" "fea"
-    "-"8 "ted." "-"2 ""8 ">Show"
+    "-"8 "ted." "-"2 \skip8 ">Show"8
     \skip8 "them"8 "how" "-" "fun" "ky" "and" "strong"
     \skip8 "is"8 "your" "-" "fight," "-"4 ">it"8
     \skip8 "does"8 "n't" "-" "mat" "ter" "-" "who's"
@@ -142,11 +142,11 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "beat"8 "it,"4. "(beat"8 "it),"4.
     "beat"8 "it,"4. ">(beat"8 "it),"4 "no"8
     \skip8 "one"8 "wants" "to" "be" "-" "de" "fea"
-    "-"8 "ted." "-"2 ""8 ">Show"
+    "-"8 "ted." "-"2 \skip8 ">Show"8
     \skip8 "them"8 "how" "-" "fun" "ky" "and" "strong"
     \skip8 "is"8 "your" "-" "fight," "-"4 ">it"8
     \skip8 "does"8 "n't" "-" "mat" "ter" "-" "who's"
     \skip8 "wrong"8 "or" "-" "right," "-" "just." "-"
-    "-"2. ""8 "@@"32 "-"16.
+    "-"2. \skip8 "@@"32 "-"16.
     "-"1
 }

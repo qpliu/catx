@@ -495,13 +495,15 @@ final class MergeMidi{
 	    }
 	}
     }
-    static class SlideData{
-	Map<Long,List<NoteEvent>>map=new TreeMap<Long,List<NoteEvent>>();
-    }
     private class OutputEventMaker{
 	private final OutputChannel[]outputChannels=new OutputChannel[16];
 	private final Map<String,Integer>idToProgram=new HashMap<String,Integer>();
 	private long worstAge=Long.MAX_VALUE;
+	class SlideData{
+	    Map<Long,List<NoteEvent>>map=new TreeMap<Long,List<NoteEvent>>();
+	    int program;
+	    OutputChannel oc;
+	}
 	private class OutputChannel{
 	    final int number;
 	    String lastId;
@@ -569,21 +571,39 @@ final class MergeMidi{
 	    return p;
 	}
 	private void addSlide(TextEvent te,OutputChannel oc,NoteEvent note,int program)throws IOException{
-	    int count=te.param.length>=1?Integer.parseInt(te.param[0]):2;
-	    double step=te.param.length>=2?Double.parseDouble(te.param[1]):0;
 	    SlideData sd=(SlideData)te.map.computeIfAbsent("slideData",x->new SlideData());
+	    sd.program = program;
+	    sd.oc = oc;
 	    sd.map.computeIfAbsent(note.time,x->new ArrayList<NoteEvent>()).add(note);
-	    List<List<NoteEvent>>list=new ArrayList<List<NoteEvent>>(sd.map.values());
-	    if (sd.map.size()<count || sd.map.size()==count && list.get(list.size()-1).size()<list.get(0).size())
+	}
+	private void finishSlide(TextEvent te)throws IOException{
+	    SlideData sd=(SlideData)te.map.get("slideData");
+	    if (sd==null)
 		return;
-	    for (int i=0; i<count; i++){
-		sd.map.remove(list.get(i).get(0).time);
+	    double step=te.param.length>=1?Double.parseDouble(te.param[0]):0;
+	    List<List<NoteEvent>>list=new ArrayList<List<NoteEvent>>(sd.map.values());
+	    for (int i=0; i<list.size(); i++)
 		Collections.sort(list.get(i),(x,y)->Double.compare(x.key,y.key));
+	    boolean bad=false;
+	    List<NoteEvent>l0=list.get(0);
+	    for (int i=1; i<list.size(); i++){
+		List<NoteEvent>li=list.get(i);
+		if (li.size()!=l0.size())
+		    bad = true;
+		else if (step==0)
+		    for (int j=0; j<l0.size(); j++)
+			bad |= l0.get(j).key-l0.get(0).key!=li.get(j).key-li.get(0).key;
+	    }
+	    if (bad){
+		for (List<NoteEvent>i:list)
+		    for (NoteEvent j:i)
+			sd.oc.addNote(sd.program,j);
+		return;
 	    }
 	    if (step==0){
 		long stop=list.get(list.size()-1).get(0).stop;
 		for (NoteEvent n:list.get(0))
-		    oc.addNote(program,new NoteEvent(n.time,n.id,n.outTrackIndex,stop,n.trackName,n.key,n.velocity,n.percussion));
+		    sd.oc.addNote(sd.program,new NoteEvent(n.time,n.id,n.outTrackIndex,stop,n.trackName,n.key,n.velocity,n.percussion));
 		int lastBend=0x2000;
 		NoteEvent n00=list.get(0).get(0);
 		for (int i=1; i<list.size(); i++){
@@ -593,25 +613,25 @@ final class MergeMidi{
 		    for (long j=n0.time; j<time1; j++){
 			int bend=(int)(0x2000+0x1fff/BEND_RANGE*(j-n0.time)*(n1.key-n0.key)/(time1-n0.time));
 			if (bend!=lastBend)
-			    oc.add(j,n00.outTrackIndex,0xe0,bend&127,bend>>7);
+			    sd.oc.add(j,n00.outTrackIndex,0xe0,bend&127,bend>>7);
 			lastBend = bend;
 		    }
 		}
-		oc.add(n00.stop,n00.outTrackIndex,0xe0,0,0x40);
+		sd.oc.add(n00.stop,n00.outTrackIndex,0xe0,0,0x40);
 	    }else
-		for (int i=1; i<list.size(); i++){
-		    NoteEvent n0=list.get(i-1).get(0);
-		    NoteEvent n1=list.get(i).get(0);
-		    long time1=i==list.size()-1?n1.stop:n1.time;
-		    int steps=(int)Math.ceil(Math.abs(n1.key-n0.key)/step)+1;
-		    for (int j=0; j<steps; j++){
-			long t=n0.time+(time1-n0.time)*j/steps;
-			long s=n0.time+(time1-n0.time)*(j+1)/steps;
-			double k=j*(n1.key>n0.key?step:-step);
-			for (NoteEvent n:list.get(i-1))
-			    oc.addNote(program,new NoteEvent(t,n.id,n.outTrackIndex,s,n.trackName,n.key+k,n.velocity,n.percussion));
+		for (int i=1; i<list.size(); i++)
+		    for (int j=0; j<list.get(0).size(); j++){
+			NoteEvent n0=list.get(i-1).get(j);
+			NoteEvent n1=list.get(i).get(j);
+			long time1=i==list.size()-1?n1.stop:n1.time;
+			int steps=(int)Math.ceil(Math.abs(n1.key-n0.key)/step)+1;
+			for (int k=0; k<steps; k++){
+			    long t=n0.time+(time1-n0.time)*k/steps;
+			    long s=n0.time+(time1-n0.time)*(k+1)/steps;
+			    double key=n0.key+k*(n1.key>n0.key?step:-step);
+			    sd.oc.addNote(sd.program,new NoteEvent(t,n0.id,n0.outTrackIndex,s,n0.trackName,key,n0.velocity,n0.percussion));
+			}
 		    }
-		}
 	}
 	private void sendToOc(String id,long time,int outTrackIndex,int one,int...bytes){
 	    for (OutputChannel oc:outputChannels)
@@ -707,6 +727,10 @@ final class MergeMidi{
 		    oc.addNote(program,note);
 		}
 	    }
+	    for (List<TextEvent>list:textEvents.values())
+		for (TextEvent te:list)
+		    if (te.what.equals("slide"))
+			finishSlide(te);
 	    try (PrintStream ps=new PrintStream(new FileOutputStream("measureToTime"))){
 		printMeasureToTime(ps,maxTime[0]);
 	    }

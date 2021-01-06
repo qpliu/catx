@@ -1,39 +1,4 @@
-generated-basstabs
-Scores: 0 0 32 59 124 218 227 366 375 469 534 561
-Best key: d major or e minor or g major or b minor
-generated-guitar1tabs
-Scores: 0 240 490 600 935 1169 1728 1896 2455 2689 2784 3134
-Best key: d major or b minor
-generated-guitar2tabs
-Scores: 9 37 37 57 126 183 207 227 251 302 360 374
-Best key: d major or b minor
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-WorstAge=2147483648
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 5  Divisions: 384
-Sequence: midiGg
-Track name: midiPeter
-Track name: midiSusan
-Track name: midiBass
-Track name: midiOne
-Playing time: ~252 seconds
-Notes cut: 0
-Notes lost totally: 0
-Wrote 25375156/44235720 bytes(57.3635% compressed)
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-     80 measure=all
-     80 measure=gg
-     80 measure=susan
-     80 measure=kav
-     80 measure=peter
-     80 measure=bass
+MergeMidi.java:726: error: ';' expected
+	    for (List<TextEvent>list=textEvents.values())
+	                                                ^
+1 error

@@ -24,7 +24,7 @@ midiOneBDotext = {
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip4 `slide2`2. |
+    \skip4 `slide`2. |
 \mymark "Pre-Chorus 1" #24
     \skip2. |
     \skip2. |
@@ -69,7 +69,7 @@ midiOneBDotext = {
     \skip1 |
     \skip1 |
 \mymark "Interlude" #64
-    `slide1`4 \skip2. |
+    \skip1 |
     \skip1 |
     \skip1 |
     \skip1 |
@@ -95,7 +95,7 @@ midiOneBDotext = {
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip4 `slide2`2. |
+    \skip4 `slide`2. |
 \mymark "Pre-Chorus 2" #89
     \skip2. |
     \skip2. |

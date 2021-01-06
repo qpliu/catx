@@ -23,10 +23,10 @@ midiOneADotext = {
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip2 `slide2:1`2~ |
-    `slide2:1`4 `slide2:1`2.~ |
+    \skip2 `slide1`2~ |
+    `slide1`4 `slide1`2.~ |
 \mymark "Pre-Chorus 1" #24
-    `slide2:1`4 \skip2 |
+    `slide1`4 \skip2 |
     \skip2. |
     \skip2. |
     \skip2. |
@@ -94,10 +94,10 @@ midiOneADotext = {
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip2 `slide2:1`2~ |
-    `slide2:1`4 `slide2:1`2.~ |
+    \skip2 `slide1`2~ |
+    `slide1`4 `slide1`2.~ |
 \mymark "Pre-Chorus 2" #89
-    `slide2:1`4 \skip2 |
+    `slide1`4 \skip2 |
     \skip2. |
     \skip2. |
     \skip2. |
@@ -141,16 +141,16 @@ midiOneADotext = {
     \skip1 |
     \skip1 |
 \mymark "Bridge" #130
-    \skip2. \skip16 `slide7:1`8.~ |
-    `slide7:1`8 `slide2:1` \skip2. |
+    \skip2. \skip16 `slide1`8.~ |
+    `slide1`8 `slide1` \skip2. |
     \skip1 |
     \skip1 |
-    \skip2. \skip16 `slide7:1`8.~ |
-    `slide7:1`8 `slide2:1`16. \skip2. \skip32 |
-    \skip2. \skip16 `slide7:1`8.~ |
-    `slide7:1`8 `slide2:1`16. \skip2. \skip32 |
-    \skip2. \skip16 `slide7:1`8.~ |
-    `slide7:1`8 `slide2:1`16. \skip2. \skip32 |
+    \skip2. \skip16 `slide1`8.~ |
+    `slide1`8 `slide1`16. \skip2. \skip32 |
+    \skip2. \skip16 `slide1`8.~ |
+    `slide1`8 `slide1`16. \skip2. \skip32 |
+    \skip2. \skip16 `slide1`8.~ |
+    `slide1`8 `slide1`16. \skip2. \skip32 |
 \mymark "Guitar Solo" #140
     \skip1 |
     \skip1 |

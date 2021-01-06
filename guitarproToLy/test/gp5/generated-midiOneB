@@ -142,15 +142,15 @@ midiOneB = {
     f'1\bendAfter #6 ^"full" |
 \mymark "Bridge" #130
     r16 <gis gis'> <ais ais'> r8 <gis gis'>16 <ais ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r |
-    <g g'>16 r8 <e e'>16 r <f g f' g'> <g g'> r <e e'> r <f f'> <g g'> r4 |
+    <g g'>16 r8 <e e'>16 r <f g g' f'> <g g'> r <e e'> r <f f'> <g g'> r4 |
     r1 |
     r1 |
-    r16 <gis gis'> <ais ais'> r8 <gis gis'>16 <ais ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r |
-    <g g'>16 r8 <e e'>16 r <f g f' g'> <g g'> r <e e'> r <f f'> <g g'> r4 |
-    r16 <gis gis'> <ais ais'> r8 <gis gis'>16 <ais ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r |
-    <g g'>16 r8 <e e'>16 r <f g f' g'> <g g'> r <e e'> r <f f'> <g g'> r4 |
     r16 <gis gis'> <ais ais'> r8 <gis gis'>16 <ais ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r |
     <g g'>16 r8 <e e'>16 r <f g g' f'> <g g'> r <e e'> r <f f'> <g g'> r4 |
+    r16 <gis gis'> <ais ais'> r8 <gis gis'>16 <ais ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r |
+    <g g'>16 r8 <e e'>16 r <f g g' f'> <g g'> r <e e'> r <f f'> <g g'> r4 |
+    r16 <gis gis'> <ais ais'> r8 <gis gis'>16 <ais ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r |
+    <g g'>16 r8 <e e'>16 r <f g f' g'> <g g'> r <e e'> r <f f'> <g g'> r4 |
 \mymark "Guitar Solo" #140
     c'8 r c' g' r c' r ais |
     r8 ais ais f' r ais r4 |

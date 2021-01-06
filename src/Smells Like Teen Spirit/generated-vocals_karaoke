@@ -26,13 +26,13 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip4 "oh"8 "no,"4. ">I"8 "know"
     \skip4 "a"8 "dir"4. "-ty"8 "word."
 \mymark "Pre-Chorus" #20
-    \skip4 ">Hel"8 "-lo,"4. "hel"8 "-lo,"
-    \skip4 "hel"8 "-lo,"4 "how" "low?"8
-    \skip8 "-"8 "Hel" "-lo,"4. "hel"8 "-lo,"
+    \skip4 "Hel"8 "-lo,"4. "hel"8 "-lo,"
     \skip4 "hel"8 "-lo,"4 "how" "low?"8
     \skip8 "-"8 ">Hel" "-lo,"4. "hel"8 "-lo,"
     \skip4 "hel"8 "-lo,"4 "how" "low?"8
     \skip8 "-"8 "Hel" "-lo,"4. "hel"8 "-lo,"
+    \skip4 "hel"8 "-lo,"4 "how" "low?"8
+    \skip8 "-"8 ">Hel" "-lo,"4. "hel"8 "-lo,"
     \skip4 "hel"8 "-lo."4 ">With"8 "the" "lights"
 \mymark "Chorus" #28
     \skip8 "out,"4. "-"8 "it's" "less" "dan"
@@ -46,7 +46,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "-to,"4. "-"8 "an" "al" "-bi"
     \skip8 "-no,"4. "-"8 "a" "mos" "-qui"
     \skip8 "-to,"4. "-"8 "my" "li" "-bi"
-    \skip8 "-do,"4. "-"4 ">yeah.|!bg=img=yeah.png"
+    \skip8 "-do,"4. "-"4 ">yeah.|!bg=img=../yeah.png"
 \mymark "Bridge" #40
     "-"2. ">Hey.|!bg="4
     "-"1
@@ -86,7 +86,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "-to,"4. "-"8 "an" "al" "-bi"
     \skip8 "-no,"4. "-"8 "a" "mos" "-qui"
     \skip8 "-to,"4. "-"8 "my" "li" "-bi"
-    \skip8 "-do,"4. "-"4 ">yeah.|!bg=img=yeah.png"
+    \skip8 "-do,"4. "-"4 ">yeah.|!bg=img=../yeah.png"
 \mymark "Bridge" #76
     "-"2. ">Hey.|!bg="4
     "-"1
@@ -116,20 +116,20 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip4 "@|!bg=2"2 "@|!bg=1"4
     \skip4 "And|!bg="8 "I"4 "for" "-get"8
     \skip4 "just"8 "why"4 "-"8 "I" "taste,"
-    \skip4 "oh"8 "yeah,|!bg=img=yeah.png"4. ">I|!bg="8 "guess"
+    \skip4 "oh"8 "yeah,|!bg=img=../yeah.png"4. ">I|!bg="8 "guess"
     \skip4 "it"8 "makes"4 "-"8 "me" "smile."
     \skip4 ">I"8 "found"4 "it" "hard,"8
     \skip4 "it's"8 "hard"4 "-"8 "to" "find,"
     \skip4 "oh"8 "well,"4. ">what"8 "-ev"
     \skip4 "-er,"8 "ne"4. "-ver"8 "-mind."
 \mymark "Pre-Chorus" #108
-    \skip4 ">Hel"8 "-lo,"4. "hel"8 "-lo,"
-    \skip4 "hel"8 "-lo,"4 "how" "low?"8
-    \skip8 "-"8 "Hel" "-lo,"4. "hel"8 "-lo,"
+    \skip4 "Hel"8 "-lo,"4. "hel"8 "-lo,"
     \skip4 "hel"8 "-lo,"4 "how" "low?"8
     \skip8 "-"8 ">Hel" "-lo,"4. "hel"8 "-lo,"
     \skip4 "hel"8 "-lo,"4 "how" "low?"8
     \skip8 "-"8 "Hel" "-lo,"4. "hel"8 "-lo,"
+    \skip4 "hel"8 "-lo,"4 "how" "low?"8
+    \skip8 "-"8 ">Hel" "-lo,"4. "hel"8 "-lo,"
     \skip4 "hel"8 "-lo."4 ">With"8 "the" "lights"
 \mymark "Chorus" #116
     \skip8 "out,"4. "-"8 "it's" "less" "dan"
@@ -155,5 +155,5 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "-al,"4. "-"8 "a" "de" "-ni"
     \skip8 "-al."2. \skip8
     \skip2. "-"4
-    "-"2. "@@"32 "-"8. ""32
+    "-"2. "@@"32 "-"8. \skip32
 }

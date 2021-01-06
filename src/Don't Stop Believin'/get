@@ -17,6 +17,13 @@ track 1 \
     preset susan \
     output-lilypond \
 track 2 \
+    name lpiano \
+    instrument-name Piano \
+    instrument-short-name Pi \
+    layout-who 'allPart susanPart' \
+    layout-extra '\clef bass' \
+    output-lilypond \
+track 2 \
     preset midiOne \
     output-lilypond \
 track 5 \

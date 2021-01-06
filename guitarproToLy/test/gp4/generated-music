@@ -96,7 +96,7 @@ layoutmusic = <<
 midimusic = <<
     \markupStuff
     \tag #'(midiKaraoke) \new Staff = "generated-vocals" \with {
-        midiInstrument = #"acoustic guitar (steel)"
+        midiInstrument = #"synth voice"
     } \vocals
     \tag #'(midiPeter) \guitarChords
     \tag #'(midiPeter) \new Staff = "generated-guitar_dotext" \guitarDotext

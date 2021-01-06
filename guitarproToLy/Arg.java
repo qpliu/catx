@@ -5,6 +5,7 @@ final class Arg implements Cloneable{
     String name;
     String layout_who;
     String midi_who;
+    int midi_instrument=-1;
     String drumMap;
     String[]scale={"c","cis","d","dis","e","f","fis","g","gis","a","ais","b"};
     boolean generate_lyrics;
@@ -59,6 +60,7 @@ final class Arg implements Cloneable{
 	}else if (preset.equals("kav")){
 	    name = "vocals";
 	    layout_who = "allPart kavPart";
+	    midi_instrument = 54;
 	    midi_who = "midiKaraoke";
 	    instrument_name = "Vocals";
 	    instrument_short_name = "Vo";

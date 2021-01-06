@@ -1,17 +1,14 @@
 class Background{
     constructor(where){
+	this.bg_div = where;
 	this.bgtext = document.createElement("span");
-	this.bgtext.style = "font-size:45vh;margin-top:10vh;color:#0f0;opacity:.5;display:none;";
+	this.bgtext.style = "font-size:45vh;color:#0f0;opacity:.5;";
 	where.appendChild(this.bgtext);
-	this.bgimg = document.createElement("img");
-	this.bgimg.style = "opacity:.25;margin-left:auto;margin-right:auto;height:65vh;display:none;";
-	where.appendChild(this.bgimg);
+	this.images = [];
     }
     setEnabled(enabled){
 	this.enabled = enabled;
-	const display=enabled?"block":"none";
-	this.bgtext.style.display = display;
-	this.bgimg.style.display = display;
+	this.bg_div.style.display = enabled?"flex":"none";
     }
     reset(startTime,repeat,songLength){
 	this.startTime = startTime;
@@ -19,13 +16,24 @@ class Background{
 	this.songLength = songLength;
 	this.index = 0;
 	this.events = [];
-	if (this.bgtext!=undefined){
-	    this.bgimg.style.display = "none";
-	    this.bgtext.style.display = "none";
-	}
+	this.imgindex = 0;
+	this.bgtext.style.display = "none";
+	for (const img of this.images)
+	    img.style.display = "none";
     }
     addEvent(t,what){
-	this.events.push({t:t,what:what});
+	if (what.slice(0,4)=="img="){
+	    if (this.images.length==this.imgindex){
+		const img=document.createElement("img");
+		img.style = "opacity:.25;height:55vh;display:none;";
+		this.images.push(img);
+		this.bg_div.appendChild(img);
+	    }
+	    const img=this.images[this.imgindex++];
+	    img.src = what.slice(4);
+	    this.events.push({t:t,img:img});
+	}else
+	    this.events.push({t:t,what:what});
     }
     animate(now){
 	if (!this.enabled)
@@ -39,14 +47,13 @@ class Background{
 	    const t=this.startTime+e.t;
 	    if (t>=now)
 		break;
-	    this.bgimg.style.display = "none";
-	    this.bgtext.style.display = "none";
-	    this.bgimg.src = "";
 	    this.bgtext.innerHTML = "";
-	    if (e.what.slice(0,4)=="img="){
-		this.bgimg.src = e.what.slice(4);
-		this.bgimg.style.display = "block";
-	    }else{
+	    this.bgtext.style.display = "none";
+	    for (const img of this.images)
+		img.style.display = "none";
+	    if (e.img)
+		e.img.style.display = "block";
+	    else{
 		this.bgtext.innerHTML = e.what;
 		this.bgtext.style.display = "block";
 	    }

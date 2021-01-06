@@ -42,7 +42,7 @@ class SuperTrackFileMaker extends ChoppedTrackFileMaker{
 	if (this instanceof DrumTrackFileMaker)
 	    mfm.print("drumPitchTable = #(alist->hash-table midiDrumPitches)");
 	else{
-	    String instrument=Stuff.midiInstrumentToString(track.instrument);
+	    String instrument=Stuff.midiInstrumentToString(arg.midi_instrument);
 	    if (instrument!=null)
 		mfm.print("midiInstrument = #"+Stuff.quote(instrument));
 	}

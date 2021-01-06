@@ -7,19 +7,19 @@ final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
     private final int threshold_to_add_bounce;
     private final double maximum_length;
     private final Map<String,String>pictures=new HashMap<String,String>();{
-	pictures.put("butterfly","butterfly.png");
-	pictures.put("drown","drown.svg");
-	pictures.put("frog","frog.png");
-	pictures.put("rainbow","rainbow.png");
-	pictures.put("storm","storm.svg");
-	pictures.put("sun","sun.svg");
-	pictures.put("train","train.png");
-	pictures.put("umbrella","umbrella.svg");
-	pictures.put("yeah","yeah.png");
+	pictures.put("butterfly","../butterfly.png");
+	pictures.put("drown","../drown.svg");
+	pictures.put("frog","../frog.png");
+	pictures.put("rainbow","../rainbow.png");
+	pictures.put("storm","../storm.svg");
+	pictures.put("sun","../sun.svg");
+	pictures.put("train","../train.png");
+	pictures.put("umbrella","../umbrella.svg");
+	pictures.put("yeah","../yeah.png");
     }
     private static final MeasureMaker.GetWhatSuffix HYPHENSTRING_GWS=new MeasureMaker.GetWhatSuffix(){
 	@Override public String getWhat(boolean is_lhs,boolean is_rhs){
-	    return is_lhs?"\"-\"":"\"\"";
+	    return is_lhs?"\"-\"":"\\skip";
 	}
     };
     KaraokeFileMaker(Main main,Arg arg)throws IOException{
@@ -124,7 +124,7 @@ final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
 	    for (; end<list.size()&&!list.get(end).lyric.startsWith("@"); end++);
 	    boolean[]lineBreak=new boolean[end-start-1];
 	    for (int i=0; i<lineBreak.length; i++)
-		lineBreak[i] = !list.get(i).hyphen_lhs;
+		lineBreak[i] = !list.get(start+i).hyphen_lhs;
 	    double bestScore=getScore(list,start,lineBreak);
 	    for (;;){
 		int bestJ=-1;

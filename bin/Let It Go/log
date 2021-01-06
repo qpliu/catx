@@ -1,32 +1,4 @@
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-WorstAge=2147483648
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 6  Divisions: 384
-Sequence: midiGg
-Track name: midiPeter
-Track name: midiSusan
-Track name: midiBass
-Track name: midiKaraoke
-Track name: midiOne
-->@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1The|!bg=snowglowswhiteonthemoun-tainto-night,>Notafoot-printtobeseen.->Aking-domofi-so-la-tion-Anditlookslike-I'mthequeen.-->Thewindishowl-inglikethisswirl-ing>storm|!bg=img=storm.svgin|!bg=-side.->Could-n'tkeepitin,-hea-venknowsI'vetried.-->Don'tletthemin,don'tletthemsee.->Bethegoodgirlyoual-wayshavetobe.->Con-ceal,don'tfeel,-don'tletthemknow.->Well,nowtheyknow.->Letitgo,-letitgo.->Can'tholditbacka-ny-more.->Letitgo,-letitgo.->Turna-wayandslamthedoor.-Idon'tcare->whatthey'rego-ingtosay.->Letthestorm|!bg=img=storm.svgrage|!bg=on.->Thecoldne-verbo-theredmea-ny-way.-->@@@@It'sfun-nyhowsomedis-tance-makese-very-thingseemsmall.->Andthefearsthatoncecon-troll-edme-can'tgettomeat>all.-It'stimetoseewhatIcando.->Totesttheli-mitsandbreakthrough.->Noright,nowrong,norulesforme.->I'mfree.->Letitgo,-letitgo.-Iamonewiththewindandsky.->Letitgo,-letitgo.->You'llne-verseemecry.->HereIstandandhereIstay.->Letthestorm|!bg=img=storm.svgrage|!bg=on.->@@@@@@@Mypo-werflur-riesthroughtheairin-totheground.->Mysoulisspi-ral-inginfro-zenfrac-talsalla-round.->Andonethoughtcrys-tal-liz-eslikeani-cyblast.-I'mne-ver>go-ingback,-thepastisinthepast.->Letitgo,-letitgo.->AndI'llriselikethebreakofdawn.->Letitgo,-letitgo.->Thatper-fectgirlisgone.->HereIstandinthelightofday.->Letthestorm|!bg=img=storm.svgrage|!bg=on.->Coldne-verbo-ther-edmea-ny-way.--@@--Playing time: ~218 seconds
-Notes cut: 0
-Notes lost totally: 0
-Wrote 20729384/38135016 bytes(54.3579% compressed)
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-    124 measure=all
-    124 measure=kav
-    124 measure=gg
-    124 measure=peter
-    124 measure=susan
-    124 measure=bass
+MergeMidi.java:726: error: ';' expected
+	    for (List<TextEvent>list=textEvents.values())
+	                                                ^
+1 error

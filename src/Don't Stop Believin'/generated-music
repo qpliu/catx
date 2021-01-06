@@ -9,6 +9,7 @@
 \include "generated-vocals_lyrics"
 \include "generated-vocals_karaoke"
 \include "generated-steelpan"
+\include "generated-lpiano"
 \include "generated-midiOne"
 \include "generated-midiOneA_donetext"
 \include "generated-midiOneA"
@@ -33,6 +34,14 @@ layoutmusic = <<
     } <<
         \markupStuff
         \steelpan
+    >>
+    \tag #'(allPart susanPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Piano" }
+        shortInstrumentName = \markup { \rotate #90 "Pi" }
+    } <<
+        \markupStuff
+        \lpiano
+        \clef bass
     >>
     \tag #'(allPart peterPart) \new Staff \with {
         instrumentName = \markup { \rotate #90 "Guitar" }
@@ -70,7 +79,7 @@ midimusic = <<
     \markupStuff
     \tag #'(midiKaraoke) \new Staff = "generated-vocals_dotext" \vocalsDotext
     \tag #'(midiKaraoke) \new Staff = "generated-vocals" \with {
-        midiInstrument = #"piccolo"
+        midiInstrument = #"synth voice"
     } \vocals
     \tag #'(midiKaraoke) \vocalsKaraoke
     \tag #'(midiSusan) \new Staff = "generated-steelpan" \with {

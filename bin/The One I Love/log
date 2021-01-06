@@ -1,13 +1,4 @@
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-WorstAge=9223372036854775807
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 1  Divisions: 384
-Sequence: midiGg
-No pre-resampling cache hit
-Playing time: ~186 seconds
-Notes cut: 0
-Notes lost totally: 0
-Wrote 17901441/32543836 bytes(55.0072% compressed)
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-    100 measure=all
+MergeMidi.java:726: error: ';' expected
+	    for (List<TextEvent>list=textEvents.values())
+	                                                ^
+1 error

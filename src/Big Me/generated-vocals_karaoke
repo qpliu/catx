@@ -35,14 +35,14 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip4 "-"2.
     "-"8 ">I"4 "fell" "in" "-to."8
     \skip4 "-"2.
-    "-"2 ""8 ">When" "I"4
+    "-"2 \skip8 ">When"8 "I"4
 \mymark "Verse 2" #33
     "talked"8 "a"4 "-bout" "it,"8 "-"4
     "car"8 "-ries"4 "on,"4. "-"4
-    ">rea"8 "-sons"4 "on" "-ly" "new."8
-    \skip4 "-"4. "When"8 "I"4
+    "rea"8 "-sons"4 "on" "-ly" "new."8
+    \skip4 "-"4. ">When"8 "I"4
     "talked"8 "a"4 "-bout" "it,"8 "-"4
-    ">A"8 "-ries"4 "or"4. "-"4
+    "A"8 "-ries"4 "or"4. "-"4
     "trea"8 "-sons"4 "all" "re" "-new."8
     \skip4 "-"2.
 \mymark "Pre-Chorus" #41
@@ -62,19 +62,19 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip4 "-"2.
     "-"8 ">I"4 "fell" "in" "-to."8
     \skip4 "-"2.
-    "-"2 ""8 ">Well," "I"4
+    "-"2 \skip8 ">Well,"8 "I"4
 \mymark "Outro-Chorus" #57
     "talked"8 "a"4 "-bout" "it."8 "-"4
     ">Put"8 "it"4 "on."4. "-"4
     ">Ne"8 "-ver"4 "was" "it" "true."8
-    \skip4 "-"4. "But"8 "it's" "you"
+    \skip4 "-"4. ">But"8 "it's" "you"
     \skip4 "-"2.
     "-"8 ">I"4 "fell" "in" "-to."8
     \skip4 "-"2.
     "-"8 ">I"4 "fell" "in" "-to."8
     \skip4 "-"2.
-    "-"8 "I"4 "fell" "in"4.
+    "-"8 ">I"4 "fell" "in"4.
     \skip4 "-to."4 "-"2
-    "-"2 "@@"32 "-"4. ""16.
+    "-"2 "@@"32 "-"4. \skip16.
     "-"1
 }

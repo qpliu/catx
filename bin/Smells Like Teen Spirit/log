@@ -1,34 +1,4 @@
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-WorstAge=2147483648
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 5  Divisions: 384
-Sequence: midiGg
-Track name: midiPeter
-Track name: midiSusan
-Track name: midiBass
-Track name: midiKaraoke
-->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Load|!bg=uponguns,andbring-yourfriends,it'sfuntolose,>andto-pre-tend.She'so-ver-board,andselfas-sured,ohno,>Iknowadir-tyword.>Hel-lo,hel-lo,hel-lo,howlow?-Hel-lo,hel-lo,hel-lo,howlow?->Hel-lo,hel-lo,hel-lo,howlow?-Hel-lo,hel-lo,hel-lo.>Withthelightsout,-it'slessdan-g'rous.->Herewearenow,-en-ter-tainus.->Ifeelstu-pid,-andcon-ta-gious.->Herewearenow,-en-ter-tainus.->Amu-la-to,-anal-bi-no,-amos-qui-to,-myli-bi-do,->yeah.|!bg=img=yeah.png->Hey.|!bg=-->Yay.->@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1I'm|!bg=worseatwhat-Ido-best,andforthisgiftIfeel-best.>Ourlit-tlegrouphasal-ways-been,>andal-wayswillun-til-theend.>Hel-lo,hel-lo,hel-lo,howlow?-Hel-lo,hel-lo,hel-lo,howlow?->Hel-lo,hel-lo,hel-lo,howlow?-Hel-lo,hel-lo,hel-lo.>Withthelightsout,-it'slessdan-g'rous.->Herewearenow,-ent-er-tainus.->Ifeelstu-pid,-andcon-ta-gious.->Herewearenow,-ent-er-tainus.->Amu-la-to,-anal-bi-no,-amos-qui-to,-myli-bi-do,->yeah.|!bg=img=yeah.png->Hey.|!bg=-->Yay.->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1And|!bg=Ifor-getjustwhy-Itaste,ohyeah,|!bg=img=yeah.png>I|!bg=guessitmakes-mesmile.>Ifoundithard,it'shard-tofind,ohwell,>what-ev-er,ne-ver-mind.>Hel-lo,hel-lo,hel-lo,howlow?-Hel-lo,hel-lo,hel-lo,howlow?->Hel-lo,hel-lo,hel-lo,howlow?-Hel-lo,hel-lo,hel-lo.>Withthelightsout,-it'slessdan-g'rous.->Herewearenow,-ent-er-tainus.->Ifeelstu-pid,-andcon-ta-gious.->Herewearenow,-ent-er-tainus.->Amu-la-to,-anal-bi-no,-amos-qui-to,-myli-bi-do.->Ade-ni-al,-ade-ni-al,-ade-ni-al,-ade-ni-al,-ade-ni-al,-ade-ni-al,->ade-ni-al,-ade-ni-al,-ade-ni-al.--@@-Playing time: ~305 seconds
-Notes cut: 0
-Notes lost totally: 0
-Wrote 32497752/53500260 bytes(60.7432% compressed)
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-warning: compressing over-full page by 2.8 staff-spaces
-warning: page 0 has been compressed
-warning: compressing over-full page by 7.0 staff-spaces
-warning: page 1 has been compressed
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-    138 measure=all
-    138 measure=kav
-    138 measure=gg
-    138 measure=peter
-    138 measure=susan
-    138 measure=bass
+MergeMidi.java:726: error: ';' expected
+	    for (List<TextEvent>list=textEvents.values())
+	                                                ^
+1 error

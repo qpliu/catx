@@ -1,44 +1,4 @@
-basstabs
-Scores: 0 0 4 4 28 111 267 741 897 980 1004 1004
-Best key: cis minor or e major or fis minor or a major
-guitar1tabs
-Scores: 0 0 4 4 94 277 333 925 981 1164 1254 1254
-Best key: cis minor or e major or fis minor or a major
-guitar2tabs
-Scores: 84 146 212 214 221 365 495 988 1119 1151 1206 1254
-Best key: cis minor or e major
-guitar3tabs
-Scores: 8 88 152 249 272 272 351 913 984 992 1015 1024
-Best key: cis minor or e major
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-WorstAge=2147485088
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 6  Divisions: 384
-Sequence: midiGg
-Track name: midiPeter
-Track name: midiSusan
-Track name: midiBass
-Track name: midiKaraoke
-Track name: midiKaraokeTwo
->Thunderthunder>Thunderthunderthunderthunder>Thunderthunderthunderthunder>Iwascaught>Inthemid-dleofarail-roadtrack>Ilookedround>AndIknewtherewasnoturn-ingback>Mymindraced>AndIthoughtwhatcouldIdo>AndIknew>Therewasnohelpnohelpfromyou>Soundofthedrums>Beatinginmyheart>Thethun-derofguns>Toremea-part>You'vebeen>Thun-derstruck>Rodedownthehigh-way>Brokethelimitwehitthetown>WentthroughtoTex-as,ye-ahTex-as,andwehadsomefun>Wemetsomegirls>Somedan-cerswhogaveagoodtime>Brokealltherules>Playedallthefools>Yeahthey,they,theyblewourminds>AndIwasshakingattheknees>CouldIcomea-gainplease>Yeahthemla-diesweretookind>You'vebeen>Thun-derstruck>thun-derstruck>yeahyeahyeahthun-derstruck>You'vebeenthun-derstruck>Iwassha-kingattheknees>CouldIcomea-gainplease>Thun-derstruckthun-derstruck>Yeahyeahyeahthun-derstruck>You'vebeenthun-derstruck>Yeahyeahyeah>yeahIt'sal-right>we'redo-in'fine>YeahIt'sal-right>we'redo-in'fine,finefinefine,>Thun-derstruckthun-derstruck>yeahyeahyeahThun-derstruck>You'vebeenThun-derstruck>yeah,yeahyeahThun-derstruck>Thun-derstruck>yeahyeahyeahThun-derstruck>you'vebeenThun-derstruck>yeahyeahyeahThun-derstruck@@Playing time: ~293 seconds
-Notes cut: 0
-Notes lost totally: 0
-Wrote 29380769/51417744 bytes(57.1413% compressed)
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-    162 measure=all
-    162 measure=kav
-    161 measure=susan
-    162 measure=gg
-    162 measure=peter
-    162 measure=bass
+MergeMidi.java:726: error: ';' expected
+	    for (List<TextEvent>list=textEvents.values())
+	                                                ^
+1 error

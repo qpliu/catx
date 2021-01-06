@@ -1,42 +1,4 @@
-basstabs
-Scores: 41 51 57 78 92 113 114 137 154 169 174 175
-Best key: c minor or ees major
-guitartabs
-Scores: 19 53 65 109 140 147 156 203 215 219 255 259
-Best key: f minor or aes major
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-WorstAge=2147483648
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 7  Divisions: 384
-Sequence: midiAarinrobo
-Track name: midiGg
-Track name: midiPeter
-Track name: midiSusan
-Track name: midiBass
-Track name: midiKaraoke
-Track name: midiOne
-countin 0_+;metronome 0_+>Ah->@@@@@Rock-in'a-roundtheChrist-mastree,>attheChrist-maspar-tyhop.-->Mis-tle-toehungwhereyoucansee;ev'-rycou-plewantstostop.-->Rock-in'a-roundtheChrist-mastree,>lettheChrist-masspi-ritring.-->La-terwe'llhavesomepump-kinpie,andwe'lldosomeca-ro-ling.-->Youwillgetasen-ti-men-talfee-ling,whenyouhear;-->voi-cessing-ing,let'sbejol-lydeckthehallswithboughsofhol-ly.>Rock-in'a-roundtheChrist-mastree,>haveahap-pyho-li-day.-->Ev'-ry-onedan-cingmer-ri-ly,inthenewoldfa-shionedway.-->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1You|!bg=willgetasen-ti-men-talfee-ling,whenyouhear;-->voi-cessing-ing,let'sbejol-lydeckthehallswithboughsofhol-ly.>Rock-in'a-roundtheChrist-mastree,haveahap-pyho-li-day.-->Ev'-ry-onedan-cingmer-ri-ly,inthenewoldfa-shionedway-@@Playing time: ~126 seconds
-Notes cut: 0
-Notes lost totally: 0
-Wrote 11413960/22031664 bytes(51.8071% compressed)
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-warning: compressing over-full page by 11.2 staff-spaces
-warning: page 0 has been compressed
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-     69 measure=all
-     72 measure=kav
-     72 measure=susan
-     72 measure=gg
-     72 measure=peter
-     72 measure=bass
+MergeMidi.java:726: error: ';' expected
+	    for (List<TextEvent>list=textEvents.values())
+	                                                ^
+1 error

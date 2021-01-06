@@ -187,8 +187,8 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "a"4 "lit" "-tle" "bit"8
     \skip8 "of"8 "-" "cho" "-c'late," "please?"4.
     \skip4 "-"4 ">You"8 "know" "it’s" "so"
-    \skip8 "good,"4 "I’ll" "be" "so"8
-    \skip8 "hap"4 "-py" ">I’ll" "work"8
+    \skip8 "good,"4 ">I’ll" "be" "so"8
+    \skip8 "hap"4 "-py" "I’ll" "work"8
     \skip8 "hard,"8 "-" "just" "you" "wait" "and" "see."
     \skip4 "-"4 ">How"8 "'bout" "that" "cho"
     \skip8 "-c'late?"4 ">Can" "I" "have"8
@@ -196,13 +196,13 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "of"8 "-" "cho" "-c'late," "please?"4.
     \skip4 "-"4 ">Cho"8 "-c'late" "is" "so"
     \skip8 "good,"4 "and" "I" "need"8
-    \skip8 "it"4 ">Just" "a" "lit"8
+    \skip8 "it"4 "Just" "a" "lit"8
     \skip8 "-tle"8 "-" "bit!"4 "-"4.
 \mymark "Post-Chorus" #185
-    "Pa"8 "-ra" "-" "-pa" "-" "-pa" "-" "-pa"
+    ">Pa"8 "-ra" "-" "-pa" "-" "-pa" "-" "-pa"
     \skip8 "-ra"8 "-" "pa" "-" "-pa" "-" "-pa"
     \skip8 "-ra"8 "-" "pa" "-" "-pa" "-" "-pa"
-    \skip8 "-"8 ">pa" "-" "pa" "-pa" "-pa" "-pa."
+    \skip8 "-"8 "pa" "-" "pa" "-pa" "-pa" "-pa."
     \skip8 "-"4 ">Too,"8 "-" "too" "-" "late."
     \skip8 "-"4 ">Too,"8 "-" "too" "-" "late."
     \skip8 "-"4 ">Too,"8 "-" "too." "-" "P!"

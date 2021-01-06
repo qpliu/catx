@@ -14,18 +14,18 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "small"8 "town"4 "girl"4. "-"4
     "-"2 ">Liv"8 "-in'" "in" "a"
     "lone"4 "-ly"8 "world."2 \skip8
-    "-"2 ""8 ">She" "took" "the"
-    "mid"8 "-night"4 "train|!bg=img=train.png" "go|!bg=" "-in'"8
-    "a"4. "-ny" "->where."4
+    "-"2 \skip8 ">She"8 "took" "the"
+    "mid"8 "-night"4 "train|!bg=img=../train.png" ">go|!bg=" "-in'"8
+    "a"4. "-ny" "-where."4
     \skip4 "-"2.
 \mymark "Verse 2" #17
-    "-"2. "Just"8 "a"
+    "-"2. ">Just"8 "a"
     "ci"8 "-ty"4 "boy"4. "-"4
     "-"2 ">born"8 "and" "raised" "in"
     "South"4 "Det"8 "-roit."2 \skip8
-    "-"2 ""8 ">He" "took" "the"
-    "mid"8 "-night"4 "train|!bg=img=train.png" "go|!bg=" "-in'"8
-    "a"4. "-ny" "->where."4
+    "-"2 \skip8 ">He"8 "took" "the"
+    "mid"8 "-night"4 "train|!bg=img=../train.png" ">go|!bg=" "-in'"8
+    "a"4. "-ny" "-where."4
 \mymark "Guitar Fill" #24
     \skip2 "-"2
     "-"4. ">@"2 "@"8
@@ -48,7 +48,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
 \mymark "Bridge" #41
     ">Stran"4. "-gers" "-"4
     "wait"4. "-ing" "-"4
-    "-"2 "Up"8 "and" "down" "the"
+    "-"2 ">Up"8 "and" "down" "the"
     "bou"4 "-le"8 "-vard."4. ">Their"4
     "sha"4. "-dows" "-"4
     "sear"4. "-ching"4 "in"8 "the" "night."
@@ -73,19 +73,19 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "wants"4 "a"8 "thrill,"2 \skip8
     "-"4 ">Pay"8 "-in'" "a" "-ny" "-thing" "to"
     "roll"4 "the"8 "dice"4. "-"8 "Just"
-    "one"4. "more" ">time."4
+    "one"4. "more" "time."4
     \skip2. "-"4
 \mymark "Verse 5" #69
-    "-"4 "Some"8 "will" "win,"4 "-"
-    \tuplet 3/2 { "-"4 ">some" "will" } "lose."4. "-"8
-    "-"2 "Some"16 "were" "born"4 "to"8
+    "-"4 ">Some"8 "will" "win,"4 "-"
+    \tuplet 3/2 { "-"4 "some" "will" } "lose."4. "-"8
+    "-"2 ">Some"16 "were" "born"4 "to"8
     "sing"4 "the"8 "blues."2 \skip8
     "-"4 ">Oh,"8 "the" "mo" "-vie"4 "ne"8
     \skip8 "-ver"4 \tuplet 3/2 { "ends."4. \skip16 ">It"4 "goes" }
     "on"4 "and"8 "on,"4. "and"8 "on,"
     \skip4 "and"8 "on."4. "-"4
 \mymark "Bridge" #77
-    "Stran"4. "-gers" "-"4
+    ">Stran"4. "-gers" "-"4
     "wait"4. "-ing" "-"4
     "-"2 ">Up"8 "and" "down" "the"
     "bou"4 "-le"8 "-vard."4. ">Their"4

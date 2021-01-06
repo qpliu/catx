@@ -25,6 +25,8 @@ abstract class TrackFileMaker extends FileMaker{
 	this.arg = arg;
 	this.lyname = lyname;
 	track = main.gpfile.tracks[arg.trackNumber];
+	if (arg.midi_instrument==-1)
+	    arg.midi_instrument = track.instrument;
 	for (Gpfile.Event e:track.events)
 	    trackEvents.add(e.clone());
     }

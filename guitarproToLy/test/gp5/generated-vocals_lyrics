@@ -1,82 +1,82 @@
 vocalsLyrics = \new Lyrics \lyricmode {
     \myVocalsStuff
-    ""2 |
+    \skip2 |
 \mymark "Intro" #2
-    ""1 |
-    ""2 "U"4 "wao!"8. ""16 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
+    \skip1 |
+    \skip2 "U"4 "wao!"8. \skip16 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
 \mymark "Verse 1A" #8
     "U"4 -- "chu" -- "u" "no" |
     "ha"4 -- "te" "no" "ha"8 -- "te" |
     "de"4 -- "mo" \tuplet 3/2 { "KI"8 -- "MI" "no" } "ko"8 -- "to" |
-    "o"4 -- "mo" -- "u" "" |
+    "o"4 -- "mo" -- "u" \skip4 |
     "I"4 -- "ku" -- "ta" "no" |
     \tuplet 3/2 { "na"8 -- "ga" -- "re" -- } "boshi"4 "ni" "ne"8 -- "ga" -- |
     "i"4 "wo" \tuplet 3/2 { "ma"8 -- "ki" -- "chi" -- } "ra"4 -- |
-    "su"2 "" |
+    "su"2 \skip2 |
 \mymark "Verse 1B" #16
-    "Too"4 -- "ku"8 -- "te"4. ""4 |
-    "ai"8. -- "ta"16 -- "ku"8 -- "te"4. ""4 |
-    "To"16 -- "doki"8. -- "sou"8 "de"4. ""4 |
+    "Too"4 -- "ku"8 -- "te"4. \skip4 |
+    "ai"8. -- "ta"16 -- "ku"8 -- "te"4. \skip4 |
+    "To"16 -- "doki"8. -- "sou"8 "de"4. \skip4 |
     "i"8. -- "tsu"16 -- "dat"8. -- "te"16 "na"8. -- "mi"16 -- "da"8. "me"16 |
-    "Da"8. -- "re"16 "dat"8. -- "te"4 \skip16 ""4 |
-    "hoshi"8. "to"16 "na"8 -- "ri"4. ""4 |
+    "Da"8. -- "re"16 "dat"8. -- "te"4 \skip16 \skip4 |
+    "hoshi"8. "to"16 "na"8 -- "ri"4. \skip4 |
     "Un"4 -- "mei?" "Shuku" -- "mei?" |
-    "Da"8. -- "re"16 "no"8 "se"16 -- "i?"4 \skip16 ""4 |
+    "Da"8. -- "re"16 "no"8 "se"16 -- "i?"4 \skip16 \skip4 |
 \mymark "Pre-Chorus 1" #24
     "BO"2 -- "KU"8 "no" |
     "su"4 -- "be" -- "te" |
     "sa"2 -- "sa"8 -- "ge" -- |
-    "ru"4. ""8 "ka"4 -- |
-    "ra"8 "Ho" -- "shi"8. -- ""16 "ku"8 -- "zu" "no"8. ""16 |
+    "ru"4. \skip8 "ka"4 -- |
+    "ra"8 "Ho" -- "shi"8. -- \skip16 "ku"8 -- "zu" "no"8. \skip16 |
     "KU"8 -- "ZU" "no"16 "na"8 -- "ri"8. -- "te"8 "KI"4 -- |
-    "MI"4. "ni"2 ""8 |
+    "MI"4. "ni"2 \skip8 |
 \mymark "Chorus 1A" #31
     "ko"4. -- "i"4 -- "shi"8 "tsu" -- "dzu" -- |
     \skip8 "ke"4. -- "you"4 "O" -- |
     "mo"4 -- "i"8 "wa"2 \skip8 |
-    \skip2 ""2 |
+    \skip2 \skip2 |
     "mo"4. -- "e"4 -- "te"8 -- "ru" "A" -- |
     \skip4 "ka"4 -- \tuplet 3/2 { "ku"4 "a" -- "ka" -- } |
     "ku"1 |
-    ""8 "hi"4. -- "ka"4 -- "ru" |
+    \skip8 "hi"4. -- "ka"4 -- "ru" |
     "A"1 -- |
-    ""8 "N"4. -- "TA"4 -- "RE" -- |
+    \skip8 "N"4. -- "TA"4 -- "RE" -- |
     "SU"1 |
-    ""8 "no" "yo" -- "u" "ni" "Na" -- "n" -- "oku" |
+    \skip8 "no"8 "yo" -- "u" "ni" "Na" -- "n" -- "oku" |
     "ko"4 -- "u"8 -- "nen"4 "sa" -- "ki"8 |
     \skip4 "da"4 -- "t" -- "te"8 "Ka" -- |
-    \skip8 "ma"8 -- "wa"2 -- ""4 |
-    ""1 |
+    \skip8 "ma"8 -- "wa"2 -- \skip4 |
+    \skip1 |
 \mymark "Chorus 1B" #47
     "na"4. -- "i!"4 "Sou"8 "su" -- "ki" |
     \skip8 "da"4. -- "ka"4 -- "ra" |
     "Ne"4 -- "ga"8 -- "i"2 \skip8 |
-    \skip2 \skip8 ""4. |
+    \skip2 \skip8 \skip4. |
     "wa"4. "ke"4 -- "i"8 -- "na" -- "i" |
     \skip4 "Ho"4 -- \tuplet 3/2 { "shi"4 "no" "ko" -- } |
-    "do"4. -- "mo"2 ""8 |
-    ""8 "ga"4. "KI"4 -- "MI" |
-    "wo"2. \skip8 ""8 |
-    ""8 "ma"4. -- "mo"4 -- "ri" |
-    "tsu"2. -- \skip8 ""8 |
-    ""8 "dzu" -- "ke" -- "ru" "you!" "Mo" -- "re" -- "tsu!" |
+    "do"4. -- "mo"2 \skip8 |
+    \skip8 "ga"4. "KI"4 -- "MI" |
+    "wo"2. \skip8 \skip8 |
+    \skip8 "ma"4. -- "mo"4 -- "ri" |
+    "tsu"2. -- \skip8 \skip8 |
+    \skip8 "dzu"8 -- "ke" -- "ru" "you!" "Mo" -- "re" -- "tsu!" |
     "Zen"4 -- "in!"8 "Seeretsu!!"4 "O!!" "Aishi"8 -- |
     \skip4 "taishi"4 "aishi" -- "te"8 -- "ru" |
-    \skip8 "Ai"8 "ai"2 ""4 |
+    \skip8 "Ai"8 "ai"2 \skip4 |
     "sa!"2 "Ai"4. "wo"8 |
-    \skip8 ""2. ""8 |
+    \skip8 \skip2. \skip8 |
 \mymark "Interlude" #64
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
     "ko"2 -- "no" |
     "mu"2 -- "ne" |
 \mymark "Verse 2A" #73
@@ -87,156 +87,156 @@ vocalsLyrics = \new Lyrics \lyricmode {
     "ai"8. -- "sa"16 -- "re"8 -- "te" \tuplet 3/2 { "i"8 -- "ma" "ga" } "a"8 -- "ru!" |
     "To"4 -- "ma" -- "ra" -- "na"8. -- "i"16 |
     "susun"8 -- "de" -- "ku" "Ka" -- \tuplet 3/2 { "soku"8 "su" -- "ru" } "to"8 -- "ki" -- |
-    ""1 |
+    \skip1 |
 \mymark "Verse 2B" #81
-    "do"16 -- "ki"8 "DO"16 -- "KI"8 -- "DO"4. -- ""4 |
-    "KI"4 "Ki"8 -- "ra"4. ""4 |
-    "ki"16 -- "ra"8. "to"8 "kira"4. ""4 |
+    "do"16 -- "ki"8 "DO"16 -- "KI"8 -- "DO"4. -- \skip4 |
+    "KI"4 "Ki"8 -- "ra"4. \skip4 |
+    "ki"16 -- "ra"8. "to"8 "kira"4. \skip4 |
     "ma"8. -- "kun"16 "da"8. "Is"16 -- "shun"8. "is"16 -- "shun"8. "FU"16 -- |
-    "RU"16 "PA"8. -- "WAA"4 "I" -- "" |
-    "tsu"8. "no"16 "hi"8 "ni"4. ""4 |
+    "RU"16 "PA"8. -- "WAA"4 "I" -- \skip4 |
+    "tsu"8. "no"16 "hi"8 "ni"4. \skip4 |
     "ka"4 "ku" -- "da" -- "ke" -- |
-    "chit"8. -- "te"16 "mo"8 "Ko"16 -- "no"4 \skip16 ""4 |
+    "chit"8. -- "te"16 "mo"8 "Ko"16 -- "no"4 \skip16 \skip4 |
 \mymark "Pre-Chorus 2" #89
     "u"2 -- "chu"8 -- "u" |
     "do"4 -- "ko" "ni" |
     "i"2 -- "te"8 "mo" |
-    "Ki"4. -- ""8 "mi"4 |
-    "wo"8 "sa" -- "ga"8. -- ""16 "shi"8 -- "da" -- "su"8. ""16 |
+    "Ki"4. -- \skip8 "mi"4 |
+    "wo"8 "sa" -- "ga"8. -- \skip16 "shi"8 -- "da" -- "su"8. \skip16 |
     "ka"8 -- "ra" "Ku"16 -- "ra"8 -- "ya"8. -- "mi"8 "te"4 -- |
-    "ra"4. -- "su"2 ""8 |
+    "ra"4. -- "su"2 \skip8 |
 \mymark "Chorus 2A" #96
     "yo"4. "Kii"4 -- "ro"8 -- "ku" "hi" -- |
     \skip8 "ka"4. -- "ru"4 "ken" -- |
     "ta"4 -- "u"8 -- "ro"2 -- \skip8 |
-    \skip2 ""2 |
+    \skip2 \skip2 |
     "su"4. "no"4 "ka"8 -- "ga" -- "ya" -- |
     \skip4 "ki"4 \tuplet 3/2 { "de"4 "Gen" -- "ga" -- } |
     "ke"1 -- |
-    ""8 "i"4. "no"4 "ha" -- |
+    \skip8 "i"4. "no"4 "ha" -- |
     "ru"1 -- |
-    ""8 "ka"4. "ka"4 -- "na" -- |
+    \skip8 "ka"4. "ka"4 -- "na" -- |
     "ta"1 |
-    ""8 "Ko"4 -- "no"8 "ki" -- "se" -- "ki" "hi" -- |
+    \skip8 "Ko"4 -- "no"8 "ki" -- "se" -- "ki" "hi" -- |
     "tsu"4 -- "ze"8 -- "n"4 "da" "yo"8 |
     \skip4 "Do"4 -- "n" -- "na"8 "ni" |
-    \skip8 "too"8 -- "ku"2 -- ""4 |
-    ""1 |
+    \skip8 "too"8 -- "ku"2 -- \skip4 |
+    \skip1 |
 \mymark "Chorus 2B" #112
     "te"4. "mo"4 "Bo"8 -- "ku" "wa" |
     \skip8 "ki"4. -- "mi"4 "no" |
     "ko"4 -- "to"8 "wo"2 \skip8 |
-    \skip2 \skip8 ""4. |
+    \skip2 \skip8 \skip4. |
     "o"4. -- "mo"4 -- "i"8 -- "tsu" -- "dzu" -- |
     \skip4 "ke"4 -- \tuplet 3/2 { "ru"4 "da" -- "rou" } |
-    "Mo"4. -- "re"2 -- ""8 |
-    ""8 "tsu!"4. "Bo"4 -- "ku" |
-    "no"2. \skip8 ""8 |
-    ""8 "ko"4. -- "to"4 "ki" -- |
-    "ra"2. -- \skip8 ""8 |
-    ""8 "i" "de" -- "su" "ka?" "Ko" -- "e" "wa" |
+    "Mo"4. -- "re"2 -- \skip8 |
+    \skip8 "tsu!"4. "Bo"4 -- "ku" |
+    "no"2. \skip8 \skip8 |
+    \skip8 "ko"4. -- "to"4 "ki" -- |
+    "ra"2. -- \skip8 \skip8 |
+    \skip8 "i"8 "de" -- "su" "ka?" "Ko" -- "e" "wa" |
     "to"4 -- "do"8 -- "ki"4 -- "ma" -- "sen"8 |
     \skip4 "ka?"4 "De" -- "mo"8 "ko" -- |
-    \skip8 "no"8 "a"2 -- ""4 |
+    \skip8 "no"8 "a"2 -- \skip4 |
     "i"2 "wo"4. "Ki"8 -- |
-    \skip8 ""2. ""8 |
-    ""1 |
+    \skip8 \skip2. \skip8 |
+    \skip1 |
 \mymark "Bridge" #130
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
 \mymark "Guitar Solo" #140
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""2. ""8 "mi" |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. \skip8 "mi"8 |
     "ni"8 "sa" -- "sa" -- "ge"2 -- "yo"8 -- |
-    "u!"8 "Ge" -- "ki" -- "retsu!"2 ""8 |
-    ""1 |
-    ""1 |
+    "u!"8 "Ge" -- "ki" -- "retsu!"2 \skip8 |
+    \skip1 |
+    \skip1 |
 \mymark "Post Solo/Pre-Chorus 3" #156
-    "Sa"8 -- "ku" -- "retsu!" "Kyou" -- "retsu!" ""4 "Ha"8 -- |
-    "re"8 -- "tsu!" "Ba" -- "ku" -- "retsu!" "" "Ooooooo" "MO" -- |
+    "Sa"8 -- "ku" -- "retsu!" "Kyou" -- "retsu!" \skip4 "Ha"8 -- |
+    "re"8 -- "tsu!" "Ba" -- "ku" -- "retsu!" \skip8 "Ooooooo"8 "MO" -- |
     "RETSU!"8 "Ho" -- "shi" -- "ku" -- "zu"4 "no" |
-    "KU"2 -- ""4 "ZU"8 "no" |
+    "KU"2 -- \skip4 "ZU"8 "no" |
     "na"8 -- "ri" -- "te" "KI" -- "MI" "ni" "ko" -- "i" -- |
-    "shi"8 "tsu" -- "dzu" -- "ke" -- "you" ""4. |
-    "O"8 -- "mo" -- "i"8. ""16 "wa"8 "mo" -- "e"8. -- ""16 |
+    "shi"8 "tsu" -- "dzu" -- "ke" -- "you" \skip4. |
+    "O"8 -- "mo" -- "i"8. \skip16 "wa"8 "mo" -- "e"8. -- \skip16 |
     "te"8 -- "ru" "A"16 -- "ka"8 -- "ku"8. "a"8 -- "ka"4 -- |
     "ku"1 |
-    "hi"4. -- "ka"2 -- ""8 |
+    "hi"4. -- "ka"2 -- \skip8 |
 \mymark "Chorus 3A" #166
     "ru"4. "A"4 -- "N"8 -- "TA" -- "RE" -- |
     \skip8 "SU"4. "no"4 "yo" -- |
     "u"4 "ni"8 "Na"2 -- \skip8 |
-    \skip2 ""2 |
+    \skip2 \skip2 |
     "n"4. -- "oku"4 "ko"8 -- "u" -- "nen" |
     \skip4 "sa"4 -- \tuplet 3/2 { "ki"4 "da" -- "t" -- } |
     "te"1 |
-    ""8 "Ka"4. -- "ma"4 -- "wa" -- |
+    \skip8 "Ka"4. -- "ma"4 -- "wa" -- |
     "na"1 -- |
-    ""8 "i!"4. "Sou"4 "su" -- |
+    \skip8 "i!"4. "Sou"4 "su" -- |
     "ki"1 |
-    ""8 "da" -- "ka" -- "ra" "Ne" -- "ga" -- "i" "wa" |
+    \skip8 "da"8 -- "ka" -- "ra" "Ne" -- "ga" -- "i" "wa" |
     "ke"4 -- "i"8 -- "na"4 -- "i" "Ho"8 -- |
     \skip4 "shi"4 "no" "ko"8 -- "do" -- |
-    \skip8 "mo"8 "ga"2 ""4 |
-    ""1 |
+    \skip8 "mo"8 "ga"2 \skip4 |
+    \skip1 |
 \mymark "Chorus 3B" #182
     "KI"4. -- "MI"4 "wo"8 "ma" -- "mo" -- |
     \skip8 "ri"4. "tsu"4 -- "dzu" -- |
     "ke"4 -- "ru"8 "you!"2 \skip8 |
-    \skip2 \skip8 ""4. |
-    "Mo"4. -- "re"4 -- "tsu!"8 ""4 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
+    \skip2 \skip8 \skip4. |
+    "Mo"4. -- "re"4 -- "tsu!"8 \skip4 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
 \mymark "Ending" #200
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
-    ""1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
 }
