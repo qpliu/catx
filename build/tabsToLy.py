@@ -175,5 +175,5 @@ for i in xrange(12):
     checkKey(i,False)
     majorScores.append(sumhistogram-checkKey(i,True))
 
-sys.stderr.write('Scores: %s\n'%' '.join(map(lambda x:'%d'%x,sorted(majorScores))))
-sys.stderr.write('Best key: %s\n'%' or '.join(bestKeyName))
+#sys.stderr.write('Scores: %s\n'%' '.join(map(lambda x:'%d'%x,sorted(majorScores))))
+#sys.stderr.write('Best key: %s\n'%' or '.join(bestKeyName))

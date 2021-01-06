@@ -501,7 +501,6 @@ final class MergeMidi{
 	private long worstAge=Long.MAX_VALUE;
 	class SlideData{
 	    Map<Long,List<NoteEvent>>map=new TreeMap<Long,List<NoteEvent>>();
-	    int program;
 	    OutputChannel oc;
 	}
 	private class OutputChannel{
@@ -532,6 +531,10 @@ final class MergeMidi{
 		add(time,-1,0xb0,100,127);
 	    }
 	    void addNote(int program,NoteEvent note)throws IOException{
+		addNotePart1(program,note);
+		addNotePart2(note);
+	    }
+	    void addNotePart1(int program,NoteEvent note)throws IOException{
 		lastId = note.id;
 		lastEventTime = note.stop;
 		if (program!=lastProgram){
@@ -540,6 +543,8 @@ final class MergeMidi{
 		    add(note.time,note.outTrackIndex,0xb0,32,program>>7&127);
 		    add(note.time,note.outTrackIndex,0xc0,program&127);
 		}
+	    }
+	    void addNotePart2(NoteEvent note)throws IOException{
 		int ikey=(int)(note.key+.5);
 		int bend=(int)(0x2000+.5+(note.key-ikey)*0x2000/BEND_RANGE);
 		int v=Math.min((int)(note.velocity+.5),127);
@@ -571,8 +576,8 @@ final class MergeMidi{
 	    return p;
 	}
 	private void addSlide(TextEvent te,OutputChannel oc,NoteEvent note,int program)throws IOException{
+	    oc.addNotePart1(program,note);
 	    SlideData sd=(SlideData)te.map.computeIfAbsent("slideData",x->new SlideData());
-	    sd.program = program;
 	    sd.oc = oc;
 	    sd.map.computeIfAbsent(note.time,x->new ArrayList<NoteEvent>()).add(note);
 	}
@@ -597,13 +602,13 @@ final class MergeMidi{
 	    if (bad){
 		for (List<NoteEvent>i:list)
 		    for (NoteEvent j:i)
-			sd.oc.addNote(sd.program,j);
+			sd.oc.addNotePart2(j);
 		return;
 	    }
 	    if (step==0){
 		long stop=list.get(list.size()-1).get(0).stop;
 		for (NoteEvent n:list.get(0))
-		    sd.oc.addNote(sd.program,new NoteEvent(n.time,n.id,n.outTrackIndex,stop,n.trackName,n.key,n.velocity,n.percussion));
+		    sd.oc.addNotePart2(new NoteEvent(n.time,n.id,n.outTrackIndex,stop,n.trackName,n.key,n.velocity,n.percussion));
 		int lastBend=0x2000;
 		NoteEvent n00=list.get(0).get(0);
 		for (int i=1; i<list.size(); i++){
@@ -629,7 +634,7 @@ final class MergeMidi{
 			    long t=n0.time+(time1-n0.time)*k/steps;
 			    long s=n0.time+(time1-n0.time)*(k+1)/steps;
 			    double key=n0.key+k*(n1.key>n0.key?step:-step);
-			    sd.oc.addNote(sd.program,new NoteEvent(t,n0.id,n0.outTrackIndex,s,n0.trackName,key,n0.velocity,n0.percussion));
+			    sd.oc.addNotePart2(new NoteEvent(t,n0.id,n0.outTrackIndex,s,n0.trackName,key,n0.velocity,n0.percussion));
 			}
 		    }
 	}

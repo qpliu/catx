@@ -1,4 +1,32 @@
-MergeMidi.java:726: error: ';' expected
-	    for (List<TextEvent>list=textEvents.values())
-	                                                ^
-1 error
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+WorstAge=2147483648
+Playing out.midi
+MIDI file: out.midi
+Format: 1  Tracks: 6  Divisions: 384
+Sequence: midiAarinrobo
+Track name: midiGg
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
+Track name: midiKaraoke
+metronome 0>Ma-ryhadalit-tlelamblit-tlelamb,lit-tlelamb.>Ma-ryhadalit-tlelamb.Itsfleecewaswhiteassnow.@@Playing time: ~22 seconds
+Notes cut: 0
+Notes lost totally: 0
+Wrote 1825358/3660380 bytes(49.868% compressed)
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+      8 measure=all
+      8 measure=kav
+      8 measure=susan
+      8 measure=gg
+      8 measure=peter
+      8 measure=bass

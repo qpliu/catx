@@ -1,4 +1,32 @@
-MergeMidi.java:726: error: ';' expected
-	    for (List<TextEvent>list=textEvents.values())
-	                                                ^
-1 error
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+WorstAge=2147483648
+Playing out.midi
+MIDI file: out.midi
+Format: 1  Tracks: 5  Divisions: 384
+Sequence: midiGg
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
+Track name: midiKaraoke
+->@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1You|!bg=knowIne-ver--->Ine-verseenyoulooksogood.--->Youne-veractthewayyoushould.--->ButIlikeit.--->AndIknowyoulikeittoo.--->ThewaythatIwantyou.---->Igot-tahearyou.->OhyesIdo.-Ine-ver--->Ine-vere-verstayoutlate.--->YouknowthatIcanhard-lywait.--->Justtohearyou.--->AndIknowyoucan-notwait.--->a-waittohearmetoo.---->Igot-tahearyou.->'Causeba-bywe'llbe->Atthedrive--in-->Intheoldman'sFord--->Be-hindthebush-es--->UntilI'mscream-in'formore--->Downthebase-ment-->Lockthecel-lardoorAndba-by-->Talkpur-tytome.--->YouknowIcallyou.--->Icallyouonthetel-e-phone.--->I'mon-lyhop-ingthatyou'rehome.--->SoIcanhearyou.--->Whenyousaythosewordstome.--->Andwhis-persosoft-ly.---->Igot-tahearyou.->'Causeba-bywe'llbe->Atthedrive--in-->Intheoldman'sFord--->Be-hindthebush-es--->UntilI'mscream-in'formore--->Downthebase-ment-->Lockthecel-lardoorAndba-by-->Talkpur-tytome--->C.C.pickupthatgui-tarAnduh-talktomeyeah->@@@@@@@@@@!bg=4|@!bg=3|@!bg=2|@!bg=1|@!bg=|Woowoowoowoo-->@@@@@@@@@@@@@!bg=4|@!bg=3|@!bg=2|@!bg=1|@!bg=|'Causeba-bywe'llbe->Atthedrive--ins-->Intheoldman'sFord--->Be-hindthembush-es--->UntilI'mscream-in'formore--->Downthebase-ment-->Lockthecel-lardoorAndba-by-->Talkpur-tytome--@@Playing time: ~217 seconds
+Notes cut: 0
+Notes lost totally: 0
+Wrote 22661444/37926060 bytes(59.7516% compressed)
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+warning: compressing over-full page by 0.3 staff-spaces
+warning: page 2 has been compressed
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+    126 measure=all
+    126 measure=kav
+    126 measure=susan
+    126 measure=gg
+    126 measure=peter
+    126 measure=bass

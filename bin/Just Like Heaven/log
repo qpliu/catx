@@ -1,24 +1,3 @@
-basstabs
-Scores: 0 0 30 42 160 251 342 409 500 591 709 721
-Best key: d major or e minor or g major or b minor
-eg1tabs
-Scores: 0 18 54 56 88 101 119 145 163 176 192 208
-Best key: fis minor or a major
-eg2tabs
-Scores: 42 200 355 385 536 536 536 812 861 861 861 1000
-Best key: fis minor or a major
-pianotabs
-Scores: 0 0 18 22 24 50 56 68 74 100 102 106
-Best key: d major or fis minor or a major or b minor
-steelpantabs
-Scores: 0 7 21 21 28 30 48 52 65 70 79 79
-Best key: fis minor or a major
-synthtabs
-Scores: 4 13 29 35 39 51 68 82 86 111 115 117
-Best key: fis minor or a major
-votabs
-Scores: 0 4 51 72 92 103 133 135 165 176 196 213
-Best key: fis minor or a major
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

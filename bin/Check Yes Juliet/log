@@ -1,12 +1,3 @@
-gen-basstabs
-Scores: 0 0 0 192 198 216 314 641 739 757 763 955
-Best key: c major or d major or e minor or g major or a minor or b minor
-gen-lguitartabs
-Scores: 0 54 242 336 570 761 1023 1223 1485 1676 1856 2004
-Best key: d major or b minor
-gen-rguitartabs
-Scores: 0 10 224 432 600 791 1119 1332 1660 1851 2009 2227
-Best key: d major or b minor
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

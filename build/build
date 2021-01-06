@@ -29,7 +29,6 @@ for a in *tabs
 do
     if test -f "$a"
     then
-	echo "$a"
 	aa=`basename "$a" tabs`
 	../../tabsToLy.py <"$a" >"$aa"
     fi

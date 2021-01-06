@@ -1,4 +1,21 @@
-MergeMidi.java:726: error: ';' expected
-	    for (List<TextEvent>list=textEvents.values())
-	                                                ^
-1 error
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+WorstAge=2147483648
+Playing out.midi
+MIDI file: out.midi
+Format: 1  Tracks: 5  Divisions: 384
+Sequence: midiGg
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
+Track name: midiOne
+Drum set 56 is undefined
+Playing time: ~228 seconds
+Notes cut: 0
+Notes lost totally: 0
+Wrote 24377562/39882460 bytes(61.1235% compressed)
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+    150 measure=all
