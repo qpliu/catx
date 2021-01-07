@@ -26,6 +26,7 @@ layoutmusic = <<
     } <<
         \markupStuff
         \vocals
+        \clef "treble_8"
     >>
     \tag #'(allPart kavPart) \vocalsLyrics
     \tag #'(allPart susanPart) \new Staff \with {

@@ -4,11 +4,13 @@ class Sheets{
 	this.span.style = "position:absolute;left:0;top:0;width:100vw;height:100vh;z-index:-1;background-color:#000;";
 	where.appendChild(this.span);
 	document.onkeydown = e=>this.onkeydown(e);
+	this.pages = []
+	this.backgrounds = []
 	this.frames = [];
 	for (let frame=0; frame<7; frame++){
 	    const img=document.createElement("img");
 	    img.src = "../cat/run-"+frame+".png";
-	    img.style = "position:absolute;width:5vw;z-index:1;";
+	    img.style = "position:absolute;width:5vw;z-index:-1;opacity:.5;";
 	    where.appendChild(img);
 	    this.frames[frame] = img;
 	    img.style.visibility = "hidden";
@@ -52,7 +54,8 @@ class Sheets{
 	if (who!=this.who){
 	    this.who = who;
 	    this.span.innerHTML = "";
-	    this.pages = []
+	    while (this.pages.length)
+		this.span.removeChild(this.pages.pop());
 	    this.page_l = 0;
 	    this.page_r = 1;
 	    this.old_page_l = 0;
@@ -154,9 +157,11 @@ class Sheets{
 		measureNumber += iim-imn-m;
 		for (const f of this.frames)
 		    f.style.visibility = "hidden";
-		const s=this.frames[((measureNumber*7*ee.n|0)%7+7)%7].style;
+		const frame=this.frames[((measureNumber*7*ee.n|0)%7+7)%7];
+		const s=frame.style;
+		const r=frame.getBoundingClientRect();
 		s.visibility = "visible";
-		s.top = (rect.height+(measure[5]+.5*(measure[5]-measure[3])-1)*height)+"px";
+		s.top = (rect.height-.5*r.height+(.5*(measure[3]+measure[5])-1)*height)+"px";
 		const x0=(measure[2]+measureNumber*(measure[4]-measure[2]));
 		if (this.page_l+1==measure[0])
 		    s.right = (rect.width-x0*width)+"px";
@@ -176,12 +181,18 @@ class Sheets{
     loadPages(){
 	const page=this.pages.length;
 	const loading=document.createElement("img");
-	loading.style = "display:none;position:absolute;bottom:100%;background-color:#fff;";
+	loading.style = "display:none;position:absolute;bottom:100%;";
 	loading.src = encodeURI("/sheet_music/"+this.name+"/"+this.who+"/"+(page+1)+".svg?t="+new Date().getTime());
 	loading.onload = ()=>{
 	    if (this.pages[page]==undefined){
 		this.pages[page] = loading;
 		this.span.appendChild(loading);
+		while (this.backgrounds.length<=page){
+		    const background=document.createElement("div");
+		    background.style = "display:none;position:absolute;bottom:100%;background-color:#fff;z-index:-2;";
+		    this.backgrounds[page] = background;
+		    this.span.appendChild(background);
+		}
 	    }
 	    this.loadPages();
 	};
@@ -197,25 +208,26 @@ class Sheets{
 	const a=Math.min((new Date().getTime()-this.animateStart)/5,100);
 	for (let page=0; page<this.pages.length; page++){
 	    const s=this.pages[page].style;
-	    s.width = width+"px";
-	    s.height = height+"px";
-	    s.left = null;
-	    s.right = null;
-	    s.display = "block";
+	    const b=this.backgrounds[page].style;
+	    b.width = s.width = width+"px";
+	    b.height = s.height = height+"px";
+	    b.left = s.left = null;
+	    b.right = s.right = null;
+	    b.display = s.display = "block";
 	    if (page==this.page_l){
-		s.bottom = Math.sign(this.page_l-this.old_page_l)*(a-100)+"%";
-		s.left = 0;
+		b.bottom = s.bottom = Math.sign(this.page_l-this.old_page_l)*(a-100)+"%";
+		b.left = s.left = 0;
 	    }else if (page==this.page_r){
-		s.bottom = Math.sign(this.page_r-this.old_page_r)*(a-100)+"%";
-		s.right = 0;
+		b.bottom = s.bottom = Math.sign(this.page_r-this.old_page_r)*(a-100)+"%";
+		b.right = s.right = 0;
 	    }else if (page==this.old_page_l && a<100){
-		s.bottom = Math.sign(this.page_l-this.old_page_l)*(a+10)+"%";
-		s.left = 0;
+		b.bottom = s.bottom = Math.sign(this.page_l-this.old_page_l)*(a+10)+"%";
+		b.left = s.left = 0;
 	    }else if (page==this.old_page_r && a<100){
-		s.bottom = Math.sign(this.page_r-this.old_page_r)*(a+10)+"%";
-		s.right = 0;
+		b.bottom = s.bottom = Math.sign(this.page_r-this.old_page_r)*(a+10)+"%";
+		b.right = s.right = 0;
 	    }else
-		s.display = "none";
+		b.display = s.display = "none";
 	}
     }
     setEnabled(enabled){
