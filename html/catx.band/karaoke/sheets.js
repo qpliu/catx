@@ -5,15 +5,6 @@ class Sheets{
 	where.appendChild(this.span);
 	document.onkeydown = e=>this.onkeydown(e);
 	this.pages = []
-	this.backgrounds = []
-	this.frames = [];
-	for (let frame=0; frame<7; frame++){
-	    const img=document.createElement("img");
-	    img.src = "../cat/run-"+frame+".png";
-	    img.style = "position:absolute;width:5vw;display:block;visibility:hidden;z-index:1;opacity:.5;";
-	    this.span.appendChild(img);
-	    this.frames[frame] = img;
-	}
     }
     reset(startTime,repeat,songLength,name,measureMap,measureCoordinates){
 	this.startTime = startTime;
@@ -52,8 +43,8 @@ class Sheets{
 	const who=!this.measureCoordinates||settings.who in this.measureCoordinates?settings.who:Object.keys(this.measureCoordinates)[0];
 	if (who!=this.who){
 	    this.who = who;
-	    while (this.pages.length)
-		this.span.removeChild(this.pages.pop());
+	    this.span.innerHTML = '';
+	    this.pages = [];
 	    this.page_l = 0;
 	    this.page_r = 1;
 	    this.old_page_l = 0;
@@ -153,18 +144,16 @@ class Sheets{
 		    this.animateStart = new Date().getTime();
 		}
 		measureNumber += iim-imn-m;
-		for (const f of this.frames)
-		    f.style.visibility = "hidden";
-		const frame=this.frames[((measureNumber*7*ee.n|0)%7+7)%7];
-		const s=frame.style;
-		const r=frame.getBoundingClientRect();
-		s.visibility = "visible";
-		s.bottom = ((1-.5*(measure[3]+measure[5]))*height-.5*r.height)+"px";
-		const x0=(measure[2]+measureNumber*(measure[4]-measure[2]));
-		if (this.page_l+1==measure[0])
-		    s.right = (rect.width-x0*width)+"px";
-		else if (this.page_r+1==measure[0])
-		    s.right = (1-x0)*width+"px";
+		for (const page of this.pages){
+		    for (const cat of page.my_cats)
+			cat.style.visibility = "hidden";
+		    if (page.my_page+1==measure[0]){
+			const cat=page.my_cats[((measureNumber*7*ee.n|0)%7+7)%7];
+			cat.style.visibility = "visible";
+			cat.style.top = .5*((measure[3]+measure[5])*page.getBoundingClientRect().height-cat.getBoundingClientRect().height)+"px";
+			cat.style.right = 100*(1-measure[2]-measureNumber*(measure[4]-measure[2]))+"%";
+		    }
+		}
 	    }
 	}
     }
@@ -180,19 +169,25 @@ class Sheets{
 	if (this.name && this.who){
 	    const page=this.pages.length;
 	    const loading=document.createElement("img");
-	    loading.style = "display:none;position:absolute;bottom:100%;z-index:2;";
+	    loading.style = "display:block;position:absolute;left:0;top:0;width:100%;height:100%;z-index:1;";
 	    loading.src = encodeURI("/sheet_music/"+this.name+"/"+this.who+"/"+(page+1)+".svg?t="+new Date().getTime());
 	    loading.my_name = this.name;
 	    loading.my_who = this.who;
 	    loading.onload = ()=>{
 		if (this.pages[page]==undefined && this.name==loading.my_name && this.who==loading.my_who){
-		    this.pages[page] = loading;
-		    this.span.appendChild(loading);
-		    while (this.backgrounds.length<=page){
-			const background=document.createElement("div");
-			background.style = "display:none;position:absolute;bottom:100%;background-color:#fff;";
-			this.backgrounds[page] = background;
-			this.span.appendChild(background);
+		    const background=document.createElement("div");
+		    this.pages[page] = background;
+		    this.span.appendChild(background);
+		    background.style = "display:none;position:absolute;background-color:#fff;";
+		    background.my_page = page;
+		    background.appendChild(loading);
+		    background.my_cats = [];
+		    for (let cat=0; cat<7; cat++){
+			const img=document.createElement("img");
+			img.src = "../cat/run-"+cat+".png";
+			img.style = "position:absolute;width:5vw;display:block;visibility:hidden;";
+			background.appendChild(img);
+			background.my_cats.push(img);
 		    }
 		}
 		this.loadPages();
@@ -208,28 +203,26 @@ class Sheets{
 	if (isPlaying)
 	    this.gotoPage(time,width,height,rect);
 	const a=Math.min((new Date().getTime()-this.animateStart)/5,100);
-	for (let page=0; page<this.pages.length; page++){
-	    const s=this.pages[page].style;
-	    const b=this.backgrounds[page].style;
-	    b.width = s.width = width+"px";
-	    b.height = s.height = height+"px";
-	    b.left = s.left = null;
-	    b.right = s.right = null;
-	    b.display = s.display = "block";
-	    if (page==this.page_l){
-		b.bottom = s.bottom = Math.sign(this.page_l-this.old_page_l)*(a-100)+"%";
-		b.left = s.left = 0;
-	    }else if (page==this.page_r){
-		b.bottom = s.bottom = Math.sign(this.page_r-this.old_page_r)*(a-100)+"%";
-		b.right = s.right = 0;
-	    }else if (page==this.old_page_l && a<100){
-		b.bottom = s.bottom = Math.sign(this.page_l-this.old_page_l)*(a+10)+"%";
-		b.left = s.left = 0;
-	    }else if (page==this.old_page_r && a<100){
-		b.bottom = s.bottom = Math.sign(this.page_r-this.old_page_r)*(a+10)+"%";
-		b.right = s.right = 0;
+	for (const page of this.pages){
+	    page.style.width = width+"px";
+	    page.style.height = height+"px";
+	    page.style.left = null;
+	    page.style.right = null;
+	    page.style.display = "block";
+	    if (page.my_page==this.page_l){
+		page.style.bottom = Math.sign(this.page_l-this.old_page_l)*(a-100)+"%";
+		page.style.left = 0;
+	    }else if (page.my_page==this.page_r){
+		page.style.bottom = Math.sign(this.page_r-this.old_page_r)*(a-100)+"%";
+		page.style.right = 0;
+	    }else if (page.my_page==this.old_page_l && a<100){
+		page.style.bottom = Math.sign(this.page_l-this.old_page_l)*(a+10)+"%";
+		page.style.left = 0;
+	    }else if (page.my_page==this.old_page_r && a<100){
+		page.style.bottom = Math.sign(this.page_r-this.old_page_r)*(a+10)+"%";
+		page.style.right = 0;
 	    }else
-		b.display = s.display = "none";
+		page.style.display = "none";
 	}
     }
     setEnabled(enabled){
