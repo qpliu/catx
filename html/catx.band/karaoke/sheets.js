@@ -10,10 +10,9 @@ class Sheets{
 	for (let frame=0; frame<7; frame++){
 	    const img=document.createElement("img");
 	    img.src = "../cat/run-"+frame+".png";
-	    img.style = "position:absolute;width:5vw;z-index:-1;opacity:.5;";
-	    where.appendChild(img);
+	    img.style = "position:absolute;width:5vw;display:block;visibility:hidden;z-index:1;opacity:.5;";
+	    this.span.appendChild(img);
 	    this.frames[frame] = img;
-	    img.style.visibility = "hidden";
 	}
     }
     reset(startTime,repeat,songLength,name,measureMap,measureCoordinates){
@@ -53,7 +52,6 @@ class Sheets{
 	const who=!this.measureCoordinates||settings.who in this.measureCoordinates?settings.who:Object.keys(this.measureCoordinates)[0];
 	if (who!=this.who){
 	    this.who = who;
-	    this.span.innerHTML = "";
 	    while (this.pages.length)
 		this.span.removeChild(this.pages.pop());
 	    this.page_l = 0;
@@ -161,7 +159,7 @@ class Sheets{
 		const s=frame.style;
 		const r=frame.getBoundingClientRect();
 		s.visibility = "visible";
-		s.top = (rect.height-.5*r.height+(.5*(measure[3]+measure[5])-1)*height)+"px";
+		s.bottom = ((1-.5*(measure[3]+measure[5]))*height-.5*r.height)+"px";
 		const x0=(measure[2]+measureNumber*(measure[4]-measure[2]));
 		if (this.page_l+1==measure[0])
 		    s.right = (rect.width-x0*width)+"px";
@@ -181,7 +179,7 @@ class Sheets{
     loadPages(){
 	const page=this.pages.length;
 	const loading=document.createElement("img");
-	loading.style = "display:none;position:absolute;bottom:100%;";
+	loading.style = "display:none;position:absolute;bottom:100%;z-index:2;";
 	loading.src = encodeURI("/sheet_music/"+this.name+"/"+this.who+"/"+(page+1)+".svg?t="+new Date().getTime());
 	loading.onload = ()=>{
 	    if (this.pages[page]==undefined){
@@ -189,7 +187,7 @@ class Sheets{
 		this.span.appendChild(loading);
 		while (this.backgrounds.length<=page){
 		    const background=document.createElement("div");
-		    background.style = "display:none;position:absolute;bottom:100%;background-color:#fff;z-index:-2;";
+		    background.style = "display:none;position:absolute;bottom:100%;background-color:#fff;";
 		    this.backgrounds[page] = background;
 		    this.span.appendChild(background);
 		}
@@ -234,8 +232,6 @@ class Sheets{
 	this.enabled = enabled;
 	const display=enabled?"block":"none";
 	this.span.style.display = display;
-	for (const frame of this.frames)
-	    frame.style.display = display;
 	const opacity=enabled?.2:1;
 	document.getElementById("name").style.opacity = opacity;
 	document.getElementById("stopImg").style.opacity = opacity;
