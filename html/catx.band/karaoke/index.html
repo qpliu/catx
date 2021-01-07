@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset=UTF-8>
+<meta http-equiv="Cache-control" content="no-store">
 <title id=title>Karaoke</title>
 </head>
 <style>
@@ -245,6 +246,8 @@
     function setMode(mode){
 	if (mode!=0)
 	    document.documentElement.requestFullscreen && document.documentElement.requestFullscreen();
+	else if (location.search)
+	    location.search = '';
 	else if (document.fullscreenElement)
 	    document.exitFullscreen && document.exitFullscreen();
 	document.getElementById("settingsStuff").style.display = mode==0?"block":"none";
@@ -268,7 +271,6 @@
 	}
 	return low;
     }
-    setMode(0);
     chatInput.value = "";
     chatInput.onblur();
     websocketStuff.start();
@@ -285,10 +287,12 @@
 	const page=usp.get("page");
 	if (page=="frog")
 	    setMode(3);
-	if (page=="qiuqiu")
+	else if (page=="qiuqiu")
 	    setMode(1);
-	if (page=="snake")
+	else if (page=="snake")
 	    setMode(2);
+	else
+	    setMode(0);
     }
     doQueryAndHash();
 </script>
