@@ -1,4 +1,7 @@
 class WebsocketStuff{
+    constructor(){
+	this.chatQueue = [];
+    }
     do_ntp(){
 	if (--this.timeout_count<0)
 	    this.start();
@@ -20,6 +23,8 @@ class WebsocketStuff{
 		this.ntp_offset = (new Date().getTime()+this.ntp_t0)/2-parseInt(event.data.slice(1));
 	    }
 	    this.timeout_count = 4;
+	    while (this.chatQueue.length)
+		this.sendChat(this.chatQueue.pop());
 	}
     }
     start(){

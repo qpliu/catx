@@ -194,10 +194,8 @@
 		    isPlaying = 0;
 	    }
 	    if (event.data.slice(0,1)=="v")
-		if (event.data!="vAARIN_ROBO_VERSION"){
-		    alert("Aarin Robo says:\nVersion number is wrong.  Aarin Robo will try to fix it.");
+		if (event.data!="vAARIN_ROBO_VERSION")
 		    location.reload(true);
-		}
 	}
     }();
     chatInput.onfocus = function(event){
@@ -274,5 +272,24 @@
     chatInput.value = "";
     chatInput.onblur();
     websocketStuff.start();
+    function doQueryAndHash(){
+	const usp=new URLSearchParams(location.search);
+	const who=usp.get("who");
+	if (who){
+	    settings.who = who;
+	    settings.makeEverythingAgree();
+	}
+	const song=usp.get("song");
+	if (song)
+	    websocketStuff.chatQueue.push('song "'+song+'"');
+	const page=usp.get("page");
+	if (page=="frog")
+	    setMode(3);
+	if (page=="qiuqiu")
+	    setMode(1);
+	if (page=="snake")
+	    setMode(2);
+    }
+    doQueryAndHash();
 </script>
 </html>

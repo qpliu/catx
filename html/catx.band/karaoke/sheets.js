@@ -177,23 +177,27 @@ class Sheets{
 	    this.turnPage(1);
     }
     loadPages(){
-	const page=this.pages.length;
-	const loading=document.createElement("img");
-	loading.style = "display:none;position:absolute;bottom:100%;z-index:2;";
-	loading.src = encodeURI("/sheet_music/"+this.name+"/"+this.who+"/"+(page+1)+".svg?t="+new Date().getTime());
-	loading.onload = ()=>{
-	    if (this.pages[page]==undefined){
-		this.pages[page] = loading;
-		this.span.appendChild(loading);
-		while (this.backgrounds.length<=page){
-		    const background=document.createElement("div");
-		    background.style = "display:none;position:absolute;bottom:100%;background-color:#fff;";
-		    this.backgrounds[page] = background;
-		    this.span.appendChild(background);
+	if (this.name && this.who){
+	    const page=this.pages.length;
+	    const loading=document.createElement("img");
+	    loading.style = "display:none;position:absolute;bottom:100%;z-index:2;";
+	    loading.src = encodeURI("/sheet_music/"+this.name+"/"+this.who+"/"+(page+1)+".svg?t="+new Date().getTime());
+	    loading.my_name = this.name;
+	    loading.my_who = this.who;
+	    loading.onload = ()=>{
+		if (this.pages[page]==undefined && this.name==loading.my_name && this.who==loading.my_who){
+		    this.pages[page] = loading;
+		    this.span.appendChild(loading);
+		    while (this.backgrounds.length<=page){
+			const background=document.createElement("div");
+			background.style = "display:none;position:absolute;bottom:100%;background-color:#fff;";
+			this.backgrounds[page] = background;
+			this.span.appendChild(background);
+		    }
 		}
-	    }
-	    this.loadPages();
-	};
+		this.loadPages();
+	    };
+	}
     }
     animate(time){
 	if (!this.enabled || !this.name)
