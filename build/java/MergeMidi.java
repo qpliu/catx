@@ -21,17 +21,22 @@ final class MergeMidi{
     private static final Pattern lyNotePattern=Pattern.compile("([a-g])((?:es|is)*)([',]*)");
     private class OutputEvent implements Comparable<OutputEvent>{
 	final long time;
+	final int sort;
 	final int outTrackIndex;
 	final int one;
 	final byte[]bytes;
-	OutputEvent(long time,int outTrackIndex,int one,byte...bytes){
+	OutputEvent(long time,int sort,int outTrackIndex,int one,byte...bytes){
 	    this.time = time;
+	    this.sort = sort;
 	    this.outTrackIndex = outTrackIndex;
 	    this.one = one;
 	    this.bytes = bytes.clone();
 	}
 	@Override public int compareTo(OutputEvent e){
-	    return Long.compare(time,e.time);
+	    int i;
+	    if ((i=Long.compare(time,e.time))!=0)
+		return i;
+	    return Integer.compare(sort,e.sort);
 	}
     }
     private class Event implements Comparable<Event>{
@@ -226,16 +231,16 @@ final class MergeMidi{
 	}
     }
     private class TempoEvent extends MetaEvent{
-	TempoEvent(long time,String id,int what,byte[]data){
-	    super(time,id,-1,what,data);
+	TempoEvent(long time,int outTrackIndex,String id,int what,byte[]data){
+	    super(time,id,outTrackIndex,what,data);
 	}
 	int getMicrosecondsPerQuarterNote(){
 	    return (data[0]&255)<<16|(data[1]&255)<<8|data[2]&255;
 	}
     }
     private class TimeSignatureEvent extends MetaEvent{
-	TimeSignatureEvent(long time,String id,int what,byte[]data){
-	    super(time,id,-1,what,data);
+	TimeSignatureEvent(long time,int outTrackIndex,String id,int what,byte[]data){
+	    super(time,id,outTrackIndex,what,data);
 	}
 	int getNumerator(){
 	    return data[0]&255;
@@ -245,8 +250,8 @@ final class MergeMidi{
 	}
     }
     private class KeySignatureEvent extends MetaEvent{
-	KeySignatureEvent(long time,String id,int what,byte[]data){
-	    super(time,id,-1,what,data);
+	KeySignatureEvent(long time,int outTrackIndex,String id,int what,byte[]data){
+	    super(time,id,outTrackIndex,what,data);
 	}
     }
     private class ProgramChangeEvent extends Event{
@@ -352,13 +357,13 @@ final class MergeMidi{
 	    }else if (what==0x2f)
 		return true;
 	    else if (what==0x51)
-		metaEvents.add(new TempoEvent(time,id,what,data));
+		metaEvents.add(new TempoEvent(time,outTrackIndex,id,what,data));
 	    else if (what==0x54)
 		System.err.println("SMTPE Offset");
 	    else if (what==0x58)
-		metaEvents.add(new TimeSignatureEvent(time,id,what,data));
+		metaEvents.add(new TimeSignatureEvent(time,outTrackIndex,id,what,data));
 	    else if (what==0x59)
-		metaEvents.add(new KeySignatureEvent(time,id,what,data));
+		metaEvents.add(new KeySignatureEvent(time,outTrackIndex,id,what,data));
 	    else if (what==0x7f)
 		System.err.println("Sequencer-Specific Meta-event");
 	    return false;
@@ -508,27 +513,25 @@ final class MergeMidi{
 	    String lastId;
 	    long lastEventTime=Integer.MIN_VALUE;
 	    int lastProgram=-1;
-	    private boolean alreadySetBendRange;
+	    private Set<Integer>alreadySetBendRange=new HashSet<Integer>();
 	    OutputChannel(int number){
 		this.number = number;
 	    }
-	    void add(long time,int outTrackIndex,int one,int...bytes){
-		if (one==0xe0 && !alreadySetBendRange){
-		    addSetRpn(0,0,(int)(BEND_RANGE*128+.5));
-		    alreadySetBendRange = true;
-		}
+	    void add(long time,int sort,int outTrackIndex,int one,int...bytes){
+		if (one==0xe0 && alreadySetBendRange.add(outTrackIndex))
+		    addSetRpn(0,outTrackIndex,0,(int)(BEND_RANGE*128+.5));
 		byte[]b=new byte[bytes.length];
 		for (int i=0; i<bytes.length; i++)
 		    b[i] = (byte)bytes[i];
-		outputEvents.add(new OutputEvent(time,outTrackIndex,one|number,b));
+		outputEvents.add(new OutputEvent(time,sort,outTrackIndex,one|number,b));
 	    }
-	    void addSetRpn(long time,int n,int v){
-		add(time,-1,0xb0,101,n>>7);
-		add(time,-1,0xb0,100,n&127);
-		add(time,-1,0xb0,6,v>>7);
-		add(time,-1,0xb0,38,v&127);
-		add(time,-1,0xb0,101,127);
-		add(time,-1,0xb0,100,127);
+	    void addSetRpn(long time,int outTrackIndex,int n,int v){
+		add(time,-100,outTrackIndex,0xb0,101,n>>7);
+		add(time,-100,outTrackIndex,0xb0,100,n&127);
+		add(time,-100,outTrackIndex,0xb0,6,v>>7);
+		add(time,-100,outTrackIndex,0xb0,38,v&127);
+		add(time,-100,outTrackIndex,0xb0,101,127);
+		add(time,-100,outTrackIndex,0xb0,100,127);
 	    }
 	    void addNote(int program,NoteEvent note)throws IOException{
 		addNotePart1(program,note);
@@ -539,21 +542,21 @@ final class MergeMidi{
 		lastEventTime = note.stop;
 		if (program!=lastProgram){
 		    lastProgram = program;
-		    add(note.time,note.outTrackIndex,0xb0,0,program>>14);
-		    add(note.time,note.outTrackIndex,0xb0,32,program>>7&127);
-		    add(note.time,note.outTrackIndex,0xc0,program&127);
+		    add(note.time,-100,note.outTrackIndex,0xb0,0,program>>14);
+		    add(note.time,-100,note.outTrackIndex,0xb0,32,program>>7&127);
+		    add(note.time,-100,note.outTrackIndex,0xc0,program&127);
 		}
 	    }
 	    void addNotePart2(NoteEvent note)throws IOException{
 		int ikey=(int)(note.key+.5);
 		int bend=(int)(0x2000+.5+(note.key-ikey)*0x2000/BEND_RANGE);
 		int v=Math.min((int)(note.velocity+.5),127);
-		add(note.time,note.outTrackIndex,0x90,ikey,v);
+		add(note.time,0,note.outTrackIndex,0x90,ikey,v);
 		if (bend!=0x2000){
-		    add(note.time,note.outTrackIndex,0xe0,bend&127,bend>>7);
-		    add(note.stop,note.outTrackIndex,0xe0,0,0x40);
+		    add(note.time,-10,note.outTrackIndex,0xe0,bend&127,bend>>7);
+		    add(note.stop,-20,note.outTrackIndex,0xe0,0,0x40);
 		}
-		add(note.stop,note.outTrackIndex,0x90,ikey,0);
+		add(note.stop,-30,note.outTrackIndex,0x90,ikey,0);
 	    }
 	}
 	private OutputChannel getOutputChannel(NoteEvent note){
@@ -606,7 +609,9 @@ final class MergeMidi{
 		return;
 	    }
 	    if (step==0){
-		long stop=list.get(list.size()-1).get(0).stop;
+		long stop=0;
+		for (List<NoteEvent>l:list)
+		    stop = Math.max(stop,l.get(0).stop);
 		for (NoteEvent n:list.get(0))
 		    sd.oc.addNotePart2(new NoteEvent(n.time,n.id,n.outTrackIndex,stop,n.trackName,n.key,n.velocity,n.percussion));
 		int lastBend=0x2000;
@@ -614,15 +619,15 @@ final class MergeMidi{
 		for (int i=1; i<list.size(); i++){
 		    NoteEvent n0=list.get(i-1).get(0);
 		    NoteEvent n1=list.get(i).get(0);
-		    long time1=i==list.size()-1?n1.stop:n1.time;
+		    long time1=i==list.size()-1?stop:n1.time;
 		    for (long j=n0.time; j<time1; j++){
 			int bend=(int)(0x2000+0x1fff/BEND_RANGE*(j-n0.time)*(n1.key-n0.key)/(time1-n0.time));
 			if (bend!=lastBend)
-			    sd.oc.add(j,n00.outTrackIndex,0xe0,bend&127,bend>>7);
+			    sd.oc.add(j,-20,n00.outTrackIndex,0xe0,bend&127,bend>>7);
 			lastBend = bend;
 		    }
 		}
-		sd.oc.add(n00.stop,n00.outTrackIndex,0xe0,0,0x40);
+		sd.oc.add(stop,-20,n00.outTrackIndex,0xe0,0,0x40);
 	    }else
 		for (int i=1; i<list.size(); i++)
 		    for (int j=0; j<list.get(0).size(); j++){
@@ -638,10 +643,10 @@ final class MergeMidi{
 			}
 		    }
 	}
-	private void sendToOc(String id,long time,int outTrackIndex,int one,int...bytes){
+	private void sendToOc(String id,long time,int sort,int outTrackIndex,int one,int...bytes){
 	    for (OutputChannel oc:outputChannels)
 		if (oc.lastId.equals(id)){
-		    oc.add(time,outTrackIndex,one,bytes);
+		    oc.add(time,sort,outTrackIndex,one,bytes);
 		    break;
 		}
 	}
@@ -651,7 +656,7 @@ final class MergeMidi{
 		baos.write(me.what);
 		writeVlen(baos,me.data.length);
 		baos.write(me.data);
-		outputEvents.add(new OutputEvent(me.time,me.outTrackIndex,0xff,baos.toByteArray()));
+		outputEvents.add(new OutputEvent(me.time,-100,me.outTrackIndex,0xff,baos.toByteArray()));
 		maxTime[0] = Math.max(maxTime[0],me.time);
 	    }
 	}
@@ -665,7 +670,7 @@ final class MergeMidi{
 		    idToProgram.put(e.id,((ProgramChangeEvent)e).program);
 		else if (e instanceof BendEvent){
 		    int amount=((BendEvent)e).amount;
-		    sendToOc(e.id,e.time,e.outTrackIndex,0xe0,amount&127,amount>>7);
+		    sendToOc(e.id,e.time,-20,e.outTrackIndex,0xe0,amount&127,amount>>7);
 		}else{
 		    NoteEvent note=(NoteEvent)e;
 		    maxTime[0] = Math.max(maxTime[0],note.stop);
@@ -709,13 +714,13 @@ final class MergeMidi{
 			    for (long j=x0; j<x1; j++){
 				int bend=(int)(y0+(j-x0)*(y1-y0)/(x1-x0));
 				if (bend!=lastBend)
-				    oc.add(j,note.outTrackIndex,0xe0,bend&127,bend>>7);
+				    oc.add(j,-20,note.outTrackIndex,0xe0,bend&127,bend>>7);
 				lastBend = bend;
 			    }
 			    x0 = x1;
 			    y0 = y1;
 			}
-			oc.add(te.stop,note.outTrackIndex,0xe0,0,0x40);
+			oc.add(te.stop,-20,note.outTrackIndex,0xe0,0,0x40);
 			te.done = true;
 		    }
 		    if ((te=temap.remove("collottava"))!=null){
@@ -750,7 +755,7 @@ final class MergeMidi{
 	long[]maxTime=new long[1];
 	oem.makeMetaEvents(maxTime);
 	oem.makeEvents(maxTime);
-	outputEvents.add(new OutputEvent(maxTime[0],-1,0xff,(byte)0x2f,(byte)0));
+	outputEvents.add(new OutputEvent(maxTime[0],100,-1,0xff,(byte)0x2f,(byte)0));
 	Collections.sort(outputEvents);
     }
     private void output(DataOutputStream dos,int outTrackIndex,byte[]trackName)throws IOException{
@@ -831,7 +836,7 @@ final class MergeMidi{
 	MergeMidi mm=new MergeMidi();
 	for (int i=j; i<argv.length; i+=2)
 	    try (DataInputStream dis=new DataInputStream(new FileInputStream(argv[i+1]))){
-		mm.read(dis,argv[i+1],i-j);
+		mm.read(dis,argv[i+1],(i-j)/2);
 	    }
 	mm.makeOutputEvents();
 	try (DataOutputStream dos=new DataOutputStream(System.out)){
@@ -841,7 +846,7 @@ final class MergeMidi{
 	    dos.writeShort((argv.length-j)/2);
 	    dos.writeShort(DIVISION);
 	    for (int i=j; i<argv.length; i+=2)
-		mm.output(dos,i-j,argv[i].getBytes());
+		mm.output(dos,(i-j)/2,argv[i].getBytes());
 	}
     }
     private static class PrintInputStream extends FilterInputStream{

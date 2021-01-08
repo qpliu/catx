@@ -11,7 +11,6 @@ undomyVocalsStuff={}
 #(set-global-staff-size 24)
 
 % IF kav #(set-global-staff-size 30)
-% IF kav myVocalsStuff={\override Score.BarNumber.break-visibility = ##(#t #t #t)}
 
 % IF susan #(set-global-staff-size 40)
 % IF susan myVocalsStuff={\easyHeadsOn \huge} undomyVocalsStuff={\easyHeadsOff \normalsize}

@@ -88,7 +88,7 @@ class Sheets{
 		this.page_r = this.page_l+1;
 	this.animateStart = new Date().getTime();
     }
-    gotoPage(time,width,height,rect){
+    gotoPage(time){
 	if (this.repeat&&time>=this.songLength)
 	    time -= Math.floor((time-this.songLength)/this.repeat+1)*this.repeat;
 	let measureNumber;
@@ -184,7 +184,7 @@ class Sheets{
 		    background.my_cats = [];
 		    for (let cat=0; cat<7; cat++){
 			const img=document.createElement("img");
-			img.src = "../cat/run-"+cat+".png";
+			img.src = "../cat/run-"+cat+".png?version=AARIN_ROBO_VERSION";
 			img.style = "position:absolute;width:5vw;display:block;visibility:hidden;";
 			background.appendChild(img);
 			background.my_cats.push(img);
@@ -201,7 +201,7 @@ class Sheets{
 	const height=Math.min(rect.height,rect.width*9/8/2);
 	const width=height*8/9;
 	if (isPlaying)
-	    this.gotoPage(time,width,height,rect);
+	    this.gotoPage(time);
 	const a=Math.min((new Date().getTime()-this.animateStart)/5,100);
 	for (const page of this.pages){
 	    page.style.width = width+"px";
