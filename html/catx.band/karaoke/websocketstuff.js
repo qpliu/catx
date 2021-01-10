@@ -24,7 +24,7 @@ class WebsocketStuff{
 	    }
 	    this.timeout_count = 4;
 	    while (this.chatQueue.length)
-		this.sendChat(this.chatQueue.pop());
+		this.sendChat(this.chatQueue.shift());
 	}
     }
     start(){

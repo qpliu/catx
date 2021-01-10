@@ -281,9 +281,7 @@
 	    settings.who = who;
 	    settings.makeEverythingAgree();
 	}
-	const song=usp.get("song");
-	if (song)
-	    websocketStuff.chatQueue.push('song "'+song+'"');
+	websocketStuff.chatQueue.push(...usp.getAll("chat"));
 	const page=usp.get("page");
 	if (page=="frog")
 	    setMode(3);
