@@ -1,0 +1,192 @@
+guitarDotext = {
+\mymark "Intro" #1
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+\mymark "1st Verse" #5
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+\mymark "Bridge" #21
+    \skip1 |
+    \skip4. `slide`4 \skip4. |
+    \skip1 |
+    \skip4. `slide`4 \skip4. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus" #31
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    `.(fis')bend0:0:15:100:60:100`2~ `.(fis')bend0:0:15:100:60:100`8 \skip4 `.(fis')bend0:0:15:100:60:100`8~ |
+    `.(fis')bend0:0:15:100:60:100`2. \skip4 |
+    \skip1 |
+    \skip1 |
+\mymark "2nd Verse" #39
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+\mymark "Bridge" #55
+    \skip1 |
+    \skip4. `slide`4 \skip4. |
+    \skip1 |
+    \skip4. `slide`4 \skip4. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus" #65
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    `.(fis')bend0:0:15:100:60:100`2~ `.(fis')bend0:0:15:100:60:100`8 \skip4 `.(fis')bend0:0:15:100:60:100`8~ |
+    `.(fis')bend0:0:15:100:60:100`2. \skip4 |
+    \skip1 |
+    \skip1 |
+    \tuplet 3/2 { \skip1 \skip4 `.(fis')bend0:0:15:100:60:100`4 } |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip4 `.(fis')bend0:0:15:100:60:100`2 \skip4 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "3rd Verse" #83
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+\mymark "Bridge" #99
+    \skip1 |
+    \skip4. `slide`4 \skip4. |
+    \skip1 |
+    \skip4. `slide`4 \skip4. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus" #109
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2 `.(fis')bend0:0:15:100:60:100`4 \skip4 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip4 `.(fis')bend0:0:15:100:60:100`2~ `.(fis')bend0:0:15:100:60:100`8 `.(fis')bend0:100:60:100`~ |
+    `.(fis')bend0:100:60:100`2 \skip8 `.(fis')bend0:0:15:100:60:100`4.~ |
+    `.(fis')bend0:0:15:100:60:100`1 |
+\mymark "Outro" #125
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip4 `.(fis'')bend0:100:15:100:30:0:60:0`2~ `.(fis'')bend0:100:15:100:30:0:60:0`8 `.(fis'')bend0:100:60:100`~ |
+    `.(fis'')bend0:100:60:100`4 \skip2. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    `.(ais)bend0:0:15:50:30:50:45:0:60:0`4 \skip8 `.(ais)bend0:0:15:50:30:50:45:0:60:0`4 \skip8 `.(ais)bend0:0:15:50:30:50:45:0:60:0`4 |
+    \skip8 `.(ais)bend0:0:15:50:30:50:45:0:60:0`4 \skip2 \skip8 |
+    \skip1 |
+    \skip1 |
+    \skip2 `.(a'')bend0:0:15:100:60:100`2 |
+    \skip4 `.(a'')bend0:0:15:100:60:100`4. \skip4. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    `.(fis'')bend0:0:15:100:60:100`4. \skip2 \skip8 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip4 `.(fis'')bend0:100:15:100:30:0:60:0`4. `.(fis'')bend0:100:15:100:30:0:60:0` |
+    `.(fis'')bend0:100:15:100:30:0:60:0`4 \skip2. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip1 |
+}

@@ -1,12 +1,11 @@
 #!/bin/sh
 SONG=https://www.songsterr.com/a/wsa/the-police-message-in-a-bottle-tab-s3706t1
-
-curl -s $(curl -s https://www.songsterr.com/api/meta/$(echo "$SONG" | sed -ne 's/^.*s\([0-9]*\)t[0-9]*$/\1/p')/revisions | sed -e 's/"source":"\([^"]*\)"/\
-\1\
-/g' | sed -ne 2p) | java -jar ../../guitarproToLy/1.jar \
+DRUMMAP="44 hh 0,57 cymc 0,48 tomh 0,43 toml 0,41 toml 0,"
+java <application_guitar_pro5-41910045.gp5 -jar ../../guitarproToLy/1.jar \
 markup-extra '\key cis \minor' \
-track 0 preset kav output-lilypond output-lyrics \
-track 1 preset peter output-lilypond \
+drumMap "$DRUMMAP" \
+track 0 preset kav output-lilypond output-lyrics output-karaoke \
+track 1 preset peter output-lilypond output-dotext \
 track 3 preset bass output-lilypond \
 track 4 preset gg output-drums
 

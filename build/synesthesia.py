@@ -6,7 +6,7 @@ a = sys.stdin.read()
 
 a = re.sub(r'\b(sn)(?=[^a-z]|\b)',r'\\mykavtweakcolor #red \1',a)
 # a = re.sub(r'\b(hh|hho|hhho|hhc)(?=[^a-z]|\b)',r"\\mykavtweakcolor #(x11-color 'yellow2) \1",a)
-a = re.sub(r'\b(tomh)(?=[^a-z]|\b)',r"\\mykavtweakcolor #(x11-color 'darkyellow) \1",a)
+a = re.sub(r'\b(tomh)(?=[^a-z]|\b)',r"\\mykavtweakcolor #(x11-color 'yellow3) \1",a)
 a = re.sub(r'\b(tomml)(?=[^a-z]|\b)',r'\\mykavtweakcolor #blue \1',a)
 a = re.sub(r'\b(cymr)(?=[^a-z]|\b)',r'\\mykavtweakcolor #blue \1',a)
 a = re.sub(r'\b(toml)(?=[^a-z]|\b)',r'\\mykavtweakcolor #green \1',a)

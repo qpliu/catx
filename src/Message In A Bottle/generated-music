@@ -6,6 +6,8 @@
 \include "generated-markup"
 \include "generated-vocals"
 \include "generated-vocals_lyrics"
+\include "generated-vocals_karaoke"
+\include "generated-guitar_donetext"
 \include "generated-guitar"
 \include "generated-bass"
 \include "generated-drs"
@@ -56,6 +58,8 @@ midimusic = <<
     \tag #'(midiKaraoke) \new Staff = "generated-vocals" \with {
         midiInstrument = #"synth voice"
     } \vocals
+    \tag #'(midiKaraoke) \vocalsKaraoke
+    \tag #'(midiPeter) \new Staff = "generated-guitar_dotext" \guitarDotext
     \tag #'(midiPeter) \new Staff = "generated-guitar" \with {
         midiInstrument = #"electric guitar (jazz)"
     } \guitar

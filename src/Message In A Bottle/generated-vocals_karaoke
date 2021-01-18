@@ -1,0 +1,193 @@
+vocalsKaraoke = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    "-"8 ">@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@|!bg=4"4.
+    \skip8 "@|!bg=3"2 "@|!bg=2"4.
+\mymark "1st Verse" #5
+    \skip8 "@|!bg=1"2 "Just|!bg="8 "a" "cast"
+    \skip4 "-a"8 "-way,"4. "-"8 "an"
+    "is"8 "-land"4 "lost" "at" "sea,"8
+    \skip4. "oh"4. "-"4
+    "-"4. ">An"8 "-oth" "-er"4 "lone"8
+    \skip4 "-ly"8 "day,"4. "-"4
+    "no"8 "one"4 "here" "but" "me,"8
+    \skip4. "oh"4. "-"4
+    "-"2 ">More"
+    "lone"4 "-li"8 "-ness"4. "-"8 "than"
+    "an"8 "-y"4 "man" "could" "bear"8
+    \skip4. ">Res"4. "-"4
+    "-"4. "-cue"4 "me" "be"8
+    \skip8 "-fore"4 "I" "fall" "in"8
+    \skip8 "-to"4 "des" "-pair," "oh"8
+    \skip4. "I'll"4. "-"4
+\mymark "Bridge" #21
+    "-"8 "send"4 "an" "S." "O."8
+    \skip8 "-"8 ">S." "to"4 "the"8 "world" "I'll"
+    \skip8 "send"4 "an" "S." "O."8
+    \skip8 "-"8 ">S." "to"4 "the"8 "world" "I"
+    \skip8 "hope"4 "that" "some" "-one"8
+    \skip8 "gets"4 "my" "I"8 "-"4
+    "-"8 ">hope"4 "that" "some" "-one"8
+    \skip8 "gets"4 "my" "I"8 "-"4
+    "-"8 "hope"4 "that" "some" "-one"8
+    \skip8 "gets"4 "my" ">Mes"4.
+\mymark "Chorus" #31
+    "-sage"8 "in"4 "a" "bot" "-tle,"8
+    \skip4. "yeah|!bg=img=../yeah.png"4. ">Mes|!bg="4
+    "-"1
+    "-"1
+    "-sage"8 "in"4 "a" "bot" "-tle,"8
+    \skip4. "yeah|!bg=img=../yeah.png"4. "A|!bg="4
+    "-"2. ">@"4
+    \skip4 "@"2 "@"4
+\mymark "2nd Verse" #39
+    \skip4 "@"2 "year"8 "has"
+    \skip4 "passed"8 "since"4. "-"8 "I"
+    "wrote"8 "my"4 "note" "-"4.
+    "-"1
+    "-"4. ">But"8 "I" "should"4 "have"8
+    "known"4 "this"8 "right" "from"4 "the"
+    "start"4. "-"2 \skip8
+    "-"1
+    "-"2 ">Only"4 "hope"
+    "can"4 "keep"8 "me"4. "-"8 "to"
+    "-geth"8 "-er"4 "Love" "-"4.
+    "-"1
+    "-"4. ">can"4 "mend" "your"8
+    \skip8 "life"4 "but" "Love" "can"8
+    \skip8 "break"4 "your" "heart" "I'll"8
+    \skip4. "-"2 \skip8
+\mymark "Bridge" #55
+    "-"8 ">send"4 "an" "S." "O."8
+    \skip8 "-"8 "S." "to"4 "the"8 "world" "I'll"
+    \skip8 "send"4 "an" "S." "O."8
+    \skip8 "-"8 ">S." "to"4 "the"8 "world" "I"
+    \skip8 "hope"4 "that" "some" "-one"8
+    \skip8 "gets"4 "my" "I"8 "-"4
+    "-"8 ">hope"4 "that" "some" "-one"8
+    \skip8 "gets"4 "my" "I"8 "-"4
+    "-"8 "hope"4 "that" "some" "-one"8
+    \skip8 "gets"4 "my" ">Mes"4.
+\mymark "Chorus" #65
+    "-sage"8 "in"4 "a" "bot" "-tle,"8
+    \skip4. "yeah|!bg=img=../yeah.png"4. ">Mes|!bg="4
+    "-"1
+    "-"1
+    "-sage"8 "in"4 "a" "bot" "-tle,"8
+    \skip4. "yeah|!bg=img=../yeah.png"4. ">Mes|!bg="4
+    "-"1
+    "-"1
+    "-sage"8 "in"4 "a" "bot" "-tle,"8
+    \skip4. "yeah|!bg=img=../yeah.png"4. ">Mes|!bg="4
+    "-"1
+    "-"1
+    "-sage"8 "in"4 "a" "bot" "-tle,"8
+    \skip4. "yeah|!bg=img=../yeah.png"4. "Walked|!bg="4
+    "-"2 \skip8 ">@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@|!bg=4"4.
+    \skip8 "@|!bg=3"2 "@|!bg=2"4.
+\mymark "3rd Verse" #83
+    \skip8 "@|!bg=1"2 "out|!bg="8 "this" "morn"
+    \skip4 "-ing,"8 "don't"4. "-"8 "be"
+    "-lieve"8 "what"4 "I" "saw" "A"8
+    \skip4. "-"2 \skip8
+    "-"4. ">hun"8 "-dred" "bil"4 "-lion"8
+    "bot"4 "-tles"8 "washed"4. "-"4
+    "up"8 "on"4 "the" "shore" "Seems"8
+    \skip4. "-"2 \skip8
+    "-"2 ">like"4 ">I'm"8 "not"
+    "alone"4 "in"8 "being" "a"4 "-"8 "-lone"
+    "A"8 "hun"4 "-"2 \skip8
+    "-"2. \skip8 "-dred"8
+    \skip8 "bil"8 "-lion" "cast"4 "-a" "-ways,"8
+    \skip8 "-"4 ">look" "-ing" "for"8
+    \skip8 "a"4 "home" "I'll" "send"8
+    \skip4. "-"2 \skip8
+\mymark "Bridge" #99
+    "-"8 ">an"4 "S." "O." "-"8
+    "-"8 ">S." "to" "the"4 "world"8 "I'll" "send"
+    \skip8 "an"4 "S." "O." "-"8
+    "-"8 ">S." "to" "the"4 "world"8 "I" "hope"
+    \skip8 "that"4 "some" "-one" "gets"8
+    \skip8 "my"4 "I" "hope"8 "-"4
+    "-"8 ">that"4 "some" "-one" "gets"8
+    \skip8 "my"4 "I" "hope"8 "-"4
+    "-"8 "that"4 "some" "-one" "gets"8
+    \skip8 "my"4 ">Mes" "-sage"4.
+\mymark "Chorus" #109
+    "in"8 "a"4 "bot" "-tle," "yeah|!bg=img=../yeah.png"8
+    \skip4. "Mes|!bg="4. "-sage"4
+    "-"1
+    "-"1
+    ">in"8 "a"4 "bot" "-tle," "yeah|!bg=img=../yeah.png"8
+    \skip4. "Mes|!bg="4. "-sage"4
+    "-"1
+    "-"1
+    ">in"8 "a"4 "bot" "-tle," "yeah|!bg=img=../yeah.png"8
+    \skip4. "Mes|!bg="4. "-sage"4
+    "-"1
+    "-"1
+    ">in"8 "a"4 "bot" "-tle," "yeah|!bg=img=../yeah.png"8
+    \skip4. "I'm|!bg="4. "send"4
+    "-"1
+    "-"1
+\mymark "Outro" #125
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"2. \skip8 "-ing"8
+    "out"4 "an"8 "S."4 ">O." "-"8
+    "-"8 ">S." "I'm" "send"4. "-"8 "-ing"
+    "out"4 "an"8 "S."4 "O." "-"8
+    "-"8 ">S." "I'm" "send"4. "-"8 "-ing"
+    "out"4 "an"8 "S."4 "O." "-"8
+    "-"8 ">S." "I'm" "send"4. "-"8 "-ing"
+    "out"4 "an"8 "S."4 "O." "-"8
+    "-"8 ">S." "-"2 ">repeat ad lib."4
+    "-"1
+    "@@"32 "-"2. \skip8. \skip32
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+}
