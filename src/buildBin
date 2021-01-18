@@ -13,27 +13,29 @@ then
     echo "$name"
     mkdir -p ../../bin/"$name"
     (
-	../../build/build $PARTS
-	cd ../../build
-	for a in bin/bin/*
+	../build $PARTS &
+	baby="$!"
+	wait "$baby"
+	BINDIR="../../build/bin/$baby/bin"
+	for a in "$BINDIR"/*
 	do
 	    b=`basename "$a"`
 	    case "$a" in
 		*.pdf)
-		    if test -f "../bin/$name/$b"
+		    if test -f "../../bin/$name/$b"
 		    then
-			./get_rid_of_id_in_pdf.py <"$a" >bin/1
-			./get_rid_of_id_in_pdf.py <"../bin/$name/$b" >bin/2
-			if cmp -s bin/1 bin/2
+			../../build/get_rid_of_id_in_pdf.py <"$a" >"$BINDIR"/1
+			../../build/get_rid_of_id_in_pdf.py <"../../bin/$name/$b" >"$BINDIR"/2
+			if cmp -s "$BINDIR"/1 "$BINDIR"/2
 			then
-			    touch ../bin/"$name/$b"
+			    touch ../../bin/"$name/$b"
 			    continue
 			fi
 		    fi
-		    cp "$a" ../bin/"$name"
+		    cp "$a" ../../bin/"$name"
 		    ;;
 		*.midi)
-		    cp "$a" ../bin/"$name"
+		    cp "$a" ../../bin/"$name"
 		    ;;
 	    esac
 	done

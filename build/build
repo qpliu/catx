@@ -9,18 +9,19 @@ name=`basename "$pwd"`
 buildbuild=`dirname "$0"`/`readlink "$0"`
 build=`dirname "$buildbuild"`
 cd "$build"
+build=`pwd`
 PARTS="$*"
-rm -rf bin
-mkdir -p bin/bin
-mkdir -p bin/src
-mkdir -p bin/java
-cd bin/java
-ln ../../java/* .
+find "$build/bin" -mindepth 1 -maxdepth 1 -type d -mtime +1 -exec rm -r '{}' ';'
+BINDIR="$build/bin/$$"
+rm -rf "$BINDIR"
+mkdir -p "$BINDIR"/bin "$BINDIR"/src "$BINDIR"/java
+cd "$BINDIR"/java
+ln "$build"/java/* .
 javac -Xlint *.java
-cd ../..
-ln *.i *.wav timidity_extra_silence.cfg bin/src
-cp "$pwd"/* bin/src||true
-cd bin/src
+cd "$build"
+ln swing.ly *.i *.wav timidity_extra_silence.cfg "$BINDIR"/src
+cp "$pwd"/* "$BINDIR"/src||true
+cd "$BINDIR"/src
 if test -x run_before
 then
     ./run_before
@@ -30,7 +31,7 @@ do
     if test -f "$a"
     then
 	aa=`basename "$a" tabs`
-	../../tabsToLy.py <"$a" >"$aa"
+	"$build/tabsToLy.py" <"$a" >"$aa"
     fi
 done
 for a in *colors
@@ -38,7 +39,7 @@ do
     if test -f "$a"
     then
 	aa=`basename "$a" colors`
-	../../synesthesia.py <"$a" >"$aa"
+	"$build/synesthesia.py" <"$a" >"$aa"
     fi
 done
 for a in *_dotext
@@ -46,7 +47,7 @@ do
     if test -f "$a"
     then
 	b=`basename "$a" _dotext`
-	../../dotext.py "$b"
+	"$build/dotext.py" "$b"
     fi
 done
 for a in *.mp3
@@ -71,7 +72,7 @@ do
 	    mkdir "../src-$midi"
 	    for a in *
 	    do
-		../../doif.py <"$a" >"../src-$midi/$a" "$midi"
+		"$build/doif.py" <"$a" >"../src-$midi/$a" "$midi"
 	    done
 	    cd "../src-$midi"
 	    if grep -q "$midi" *
@@ -112,7 +113,7 @@ EOF
 	mkdir "../src-$part"
 	for a in *
 	do
-	    ../../doif.py <"$a" >"../src-$part/$a" "$part"
+	    "$build/doif.py" <"$a" >"../src-$part/$a" "$part"
 	done
 	cd "../src-$part"
 	part1=`echo $part|sed 's/1/One/g;s/2/Two/g;s/3/Three/g;s/4/Four/g;s/5/Five/g;s/6/Six/g;s/7/Seven/g;s/8/Eight/g'`

@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 if test '!' -f "buildAll"
 then
@@ -8,10 +8,18 @@ fi
 rm -rf /share/music/mp3/*.mp3 /share/music/svg/* /share/music/pdf/* /share/music/midi/*.midi /share/music/aarin/*.aarin /share/music/setlist/*
 cp ../setlist/* /share/music/setlist
 cd ../src
+BABYCOUNT=0
 for a in */music
 do
     name=`dirname "$a"`
     cd "$name"
-    ../buildBin
+    if test "$BABYCOUNT" = 32
+    then
+	wait -n
+    else
+	BABYCOUNT=`echo "print $BABYCOUNT+1"|python`
+    fi
+    ../buildBin &
     cd ..
 done
+wait

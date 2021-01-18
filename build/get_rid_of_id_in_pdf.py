@@ -12,5 +12,7 @@ a = re.sub(r'<xmp:ModifyDate>[^<>]*</xmp:ModifyDate>',r'',a)
 a = re.sub(r'/URI\([^()]*\)',r'',a)
 a = re.sub(r"rdf:about='[^']*'",r'',a)
 a = re.sub(r"xapMM:DocumentID='[^']*'",r'',a)
+a = re.sub(r"(?sm)^xref\s+[0-9]+ [0-9]+(?:\s+[0-9]+ [0-9]+ [nf])*",r'',a)
+a = re.sub(r"(?sm)^startxref\s+[0-9]+",r'',a)
 
 sys.stdout.write(a)
