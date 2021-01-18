@@ -1,0 +1,192 @@
+bass = {
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r2. r8 cis,\4 |
+\mymark "1st Verse" #5
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,\3 r4 |
+\mymark "Bridge" #21
+    a,,8\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 |
+    d,8\3 d,\3 d,\3 e,\3 e,\3 e,\3 e,\3 e,\3 |
+    a,,8\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 |
+    d,8\3 d,\3 d,\3 e,\3 e,\3 e,\3 e,\3 e,\3 |
+    fis,8\2 fis,\2 fis,\2 fis,\2 fis,\2 fis,\2 fis,\2 a,\2 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 a,\2 |
+    fis,8\2 fis,\2 fis,\2 fis,\2 fis,\2 fis,\2 fis,\2 a,\2 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 a,\2 |
+    fis,8\2 fis,\2 fis,\2 fis,\2 fis,\2 fis,\2 fis,\2 a,\2 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 fis,4\2 |
+\mymark "Chorus" #31
+    cis,4\3 cis,\3 cis,4.\3 cis,8\3 |
+    \tuplet 3/2 { a,,4\4 a,,\4 a,,\4 } gis,,4.\4 a,,8\4 |
+    cis,4\3 cis,\3 cis,4.\3 cis,8\3 |
+    \tuplet 3/2 { a,,4\4 a,,\4 a,,\4 } gis,,4.\4 a,,8\4 |
+    cis,4\3 cis,\3 cis,4.\3 cis,8\3 |
+    \tuplet 3/2 { a,,4\4 a,,\4 a,,\4 } gis,,4.\4 a,,8\4 |
+    fis,,1\4~ |
+    fis,,1\4 |
+\mymark "2nd Verse" #39
+    r1 |
+    r1 |
+    r1 |
+    r2. r8 cis,\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,\3 r4 |
+\mymark "Bridge" #55
+    a,,8\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 |
+    d,8\3 d,\3 d,\3 e,\3 e,\3 e,\3 e,\3 e,\3 |
+    a,,8\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 |
+    d,8\3 d,\3 d,\3 e,\3 e,\3 e,\3 e,\3 e,\3 |
+    fis,8\2 fis,\2 fis,\2 fis,\2 fis,\2 fis,\2 fis,\2 a,\2 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 a,\2 |
+    fis,8\2 fis,\2 fis,\2 fis,\2 fis,\2 fis,\2 fis,\2 a,\2 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 a,\2 |
+    fis,8\2 fis,\2 fis,\2 fis,\2 fis,\2 fis,\2 fis,\2 a,\2 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 fis,4\2 |
+\mymark "Chorus" #65
+    cis,4\3 cis,\3 cis,4.\3 cis,8\3 |
+    \tuplet 3/2 { a,,4\4 a,,\4 a,,\4 } gis,,4.\4 a,,8\4 |
+    cis,4\3 cis,\3 cis,4.\3 cis,8\3 |
+    \tuplet 3/2 { a,,4\4 a,,\4 a,,\4 } gis,,4.\4 a,,8\4 |
+    cis,4\3 cis,\3 cis,4.\3 cis,8\3 |
+    \tuplet 3/2 { a,,4\4 a,,\4 a,,\4 } gis,,4.\4 a,,8\4 |
+    cis,4\3 cis,\3 cis,4.\3 cis,8\3 |
+    \tuplet 3/2 { a,,4\4 a,,\4 a,,\4 } gis,,4.\4 a,,8\4 |
+    cis,4\3 cis,\3 cis,4.\3 cis,8\3 |
+    \tuplet 3/2 { a,,4\4 a,,\4 a,,\4 } gis,,4.\4 a,,8\4 |
+    cis,4\3 cis,\3 cis,4.\3 cis,8\3 |
+    \tuplet 3/2 { a,,4\4 a,,\4 a,,\4 } gis,,4.\4 a,,8\4 |
+    cis,4\3 cis,\3 cis,4.\3 cis,8\3 |
+    \tuplet 3/2 { a,,4\4 a,,\4 a,,\4 } gis,,4.\4 a,,8\4 |
+    fis,,1\4~ |
+    fis,,1\4 |
+    fis,,1\4~ |
+    fis,,2\4 r8 g,,\4 b,,\4 cis,\4 |
+\mymark "3rd Verse" #83
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,\3 r4 |
+\mymark "Bridge" #99
+    a,,8\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 |
+    d,8\3 d,\3 d,\3 e,\3 e,\3 e,\3 e,\3 e,\3 |
+    a,,8\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 |
+    d,8\3 d,\3 d,\3 e,\3 e,\3 e,\3 e,\3 e,\3 |
+    fis,8\2 fis,\2 fis,\2 fis,\2 fis,\2 fis,\2 fis,\2 a,\2 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 a,\2 |
+    fis,8\2 fis,\2 fis,\2 fis,\2 fis,\2 fis,\2 fis,\2 a,\2 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 a,\2 |
+    fis,8\2 fis,\2 fis,\2 fis,\2 fis,\2 fis,\2 fis,\2 a,\2 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 fis,4\2 |
+\mymark "Chorus" #109
+    cis,4\3 cis,\3 cis,4.\3 cis,8\3 |
+    \tuplet 3/2 { a,,4\4 a,,\4 a,,\4 } gis,,4.\4 a,,8\4 |
+    cis,4\3 cis,\3 cis,4.\3 cis,8\3 |
+    \tuplet 3/2 { a,,4\4 a,,\4 a,,\4 } gis,,4.\4 a,,8\4 |
+    cis,4\3 cis,\3 cis,4.\3 cis,8\3 |
+    \tuplet 3/2 { a,,4\4 a,,\4 a,,\4 } gis,,4.\4 a,,8\4 |
+    cis,4\3 cis,\3 cis,4.\3 cis,8\3 |
+    \tuplet 3/2 { a,,4\4 a,,\4 a,,\4 } gis,,4.\4 a,,8\4 |
+    cis,4\3 cis,\3 cis,4.\3 cis,8\3 |
+    \tuplet 3/2 { a,,4\4 a,,\4 a,,\4 } gis,,4.\4 a,,8\4 |
+    cis,4\3 cis,\3 cis,4.\3 cis,8\3 |
+    \tuplet 3/2 { a,,4\4 a,,\4 a,,\4 } gis,,4.\4 a,,8\4 |
+    cis,4\3 cis,\3 cis,4.\3 cis,8\3 |
+    \tuplet 3/2 { a,,4\4 a,,\4 a,,\4 } gis,,4.\4 a,,8\4 |
+    fis,,1\4~ |
+    fis,,2.\4 r4 |
+\mymark "Outro" #125
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2. r8 cis,\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    cis,4.\4 a,,2\4 b,,8\4 |
+    b,,4.\4 fis,2\3 cis,8\4 |
+    r1 |
+}
