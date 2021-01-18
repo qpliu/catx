@@ -1,17 +1,12 @@
 #!/bin/sh
 exec 2>&1
-LILYPOND_VERSION="2.21.82"
+LILYPOND_VERSION="2.20.0"
 HAVE_TIMIDITY=`type timidity >/dev/null 2>&1;echo $?`
 HAVE_FFMPEG=`type ffmpeg >/dev/null 2>&1;echo $?`
 set -e
 pwd=`pwd`
 name=`basename "$pwd"`
-if [ $(uname) != Darwin ]; then
-buildbuild=`readlink -f "$0"`
-else
-LILYPOND_VERSION="2.20.0"
 buildbuild=`dirname "$0"`/`readlink "$0"`
-fi
 build=`dirname "$buildbuild"`
 cd "$build"
 PARTS="$*"
@@ -26,10 +21,6 @@ cd ../..
 ln *.i *.wav timidity_extra_silence.cfg bin/src
 cp "$pwd"/* bin/src||true
 cd bin/src
-if [ $(uname) = Darwin ]; then
-    mv header.i header.i.orig
-    sed -e '/swing.ly/d' < header.i.orig > header.i
-fi
 if test -x run_before
 then
     ./run_before
