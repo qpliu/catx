@@ -1,0 +1,193 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "1st Verse" #5
+    \skip2 \skip8 "Just"8 "a" "cast" -- |
+    \skip4 "a"8 -- "way,"4. \skip8 "an"8 |
+    "is"8 -- "land"4 "lost" "at" "sea,"8 |
+    \skip4. "oh"4. \skip4 |
+    \skip4. "An"8 -- "oth" -- "er"4 "lone"8 -- |
+    \skip4 "ly"8 "day,"4. \skip4 |
+    "no"8 "one"4 "here" "but" "me,"8 |
+    \skip4. "oh"4. \skip4 |
+    \skip2 "More"2 |
+    "lone"4 -- "li"8 -- "ness"4. \skip8 "than"8 |
+    "an"8 -- "y"4 "man" "could" "bear"8 |
+    \skip4. "Res"4. -- \skip4 |
+    \skip4. "cue"4 "me" "be"8 -- |
+    \skip8 "fore"4 "I" "fall" "in"8 -- |
+    \skip8 "to"4 "des" -- "pair," "oh"8 |
+    \skip4. "I'll"4. \skip4 |
+\mymark "Bridge" #21
+    \skip8 "send"4 "an" "S." "O."8 |
+    \skip8 \skip8 "S."8 "to"4 "the"8 "world" "I'll" |
+    \skip8 "send"4 "an" "S." "O."8 |
+    \skip8 \skip8 "S."8 "to"4 "the"8 "world" "I" |
+    \skip8 "hope"4 "that" "some" -- "one"8 |
+    \skip8 "gets"4 "my" "I"8 \skip4 |
+    \skip8 "hope"4 "that" "some" -- "one"8 |
+    \skip8 "gets"4 "my" "I"8 \skip4 |
+    \skip8 "hope"4 "that" "some" -- "one"8 |
+    \skip8 "gets"4 "my" "Mes"4. -- |
+\mymark "Chorus" #31
+    "sage"8 "in"4 "a" "bot" -- "tle,"8 |
+    \skip4. "yeah"4. "Mes"4 -- |
+    \skip1 |
+    \skip1 |
+    "sage"8 "in"4 "a" "bot" -- "tle,"8 |
+    \skip4. "yeah"4. "A"4 |
+    \skip1 |
+    \skip1 |
+\mymark "2nd Verse" #39
+    \skip2. "year"8 "has" |
+    \skip4 "passed"8 "since"4. \skip8 "I"8 |
+    "wrote"8 "my"4 "note" \skip4. |
+    \skip1 |
+    \skip4. "But"8 "I" "should"4 "have"8 |
+    "known"4 "this"8 "right" "from"4 "the" |
+    "start"4. \skip2 \skip8 |
+    \skip1 |
+    \skip2 "Only"4 "hope" |
+    "can"4 "keep"8 "me"4. \skip8 "to"8 -- |
+    "geth"8 -- "er"4 "Love" \skip4. |
+    \skip1 |
+    \skip4. "can"4 "mend" "your"8 |
+    \skip8 "life"4 "but" "Love" "can"8 |
+    \skip8 "break"4 "your" "heart" "I'll"8 |
+    \skip4. \skip2 \skip8 |
+\mymark "Bridge" #55
+    \skip8 "send"4 "an" "S." "O."8 |
+    \skip8 \skip8 "S."8 "to"4 "the"8 "world" "I'll" |
+    \skip8 "send"4 "an" "S." "O."8 |
+    \skip8 \skip8 "S."8 "to"4 "the"8 "world" "I" |
+    \skip8 "hope"4 "that" "some" -- "one"8 |
+    \skip8 "gets"4 "my" "I"8 \skip4 |
+    \skip8 "hope"4 "that" "some" -- "one"8 |
+    \skip8 "gets"4 "my" "I"8 \skip4 |
+    \skip8 "hope"4 "that" "some" -- "one"8 |
+    \skip8 "gets"4 "my" "Mes"4. -- |
+\mymark "Chorus" #65
+    "sage"8 "in"4 "a" "bot" -- "tle,"8 |
+    \skip4. "yeah"4. "Mes"4 -- |
+    \skip1 |
+    \skip1 |
+    "sage"8 "in"4 "a" "bot" -- "tle,"8 |
+    \skip4. "yeah"4. "Mes"4 -- |
+    \skip1 |
+    \skip1 |
+    "sage"8 "in"4 "a" "bot" -- "tle,"8 |
+    \skip4. "yeah"4. "Mes"4 -- |
+    \skip1 |
+    \skip1 |
+    "sage"8 "in"4 "a" "bot" -- "tle,"8 |
+    \skip4. "yeah"4. "Walked"4 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "3rd Verse" #83
+    \skip2 \skip8 "out"8 "this" "morn" -- |
+    \skip4 "ing,"8 "don't"4. \skip8 "be"8 -- |
+    "lieve"8 "what"4 "I" "saw" "A"8 |
+    \skip4. \skip2 \skip8 |
+    \skip4. "hun"8 -- "dred" "bil"4 -- "lion"8 |
+    "bot"4 -- "tles"8 "washed"4. \skip4 |
+    "up"8 "on"4 "the" "shore" "Seems"8 |
+    \skip4. \skip2 \skip8 |
+    \skip2 "like"4 "I'm"8 "not" |
+    "alone"4 "in"8 "being" "a"4 -- \skip8 "lone"8 |
+    "A"8 "hun"4 -- \skip2 \skip8 |
+    \skip2. \skip8 "dred"8 |
+    \skip8 "bil"8 -- "lion" "cast"4 -- "a" -- "ways,"8 |
+    \skip8 \skip4 "look"4 -- "ing" "for"8 |
+    \skip8 "a"4 "home" "I'll" "send"8 |
+    \skip4. \skip2 \skip8 |
+\mymark "Bridge" #99
+    \skip8 "an"4 "S." "O." \skip8 |
+    \skip8 "S."8 "to" "the"4 "world"8 "I'll" "send" |
+    \skip8 "an"4 "S." "O." \skip8 |
+    \skip8 "S."8 "to" "the"4 "world"8 "I" "hope" |
+    \skip8 "that"4 "some" -- "one" "gets"8 |
+    \skip8 "my"4 "I" "hope"8 \skip4 |
+    \skip8 "that"4 "some" -- "one" "gets"8 |
+    \skip8 "my"4 "I" "hope"8 \skip4 |
+    \skip8 "that"4 "some" -- "one" "gets"8 |
+    \skip8 "my"4 "Mes" -- "sage"4. |
+\mymark "Chorus" #109
+    "in"8 "a"4 "bot" -- "tle," "yeah"8 |
+    \skip4. "Mes"4. -- "sage"4 |
+    \skip1 |
+    \skip1 |
+    "in"8 "a"4 "bot" -- "tle," "yeah"8 |
+    \skip4. "Mes"4. -- "sage"4 |
+    \skip1 |
+    \skip1 |
+    "in"8 "a"4 "bot" -- "tle," "yeah"8 |
+    \skip4. "Mes"4. -- "sage"4 |
+    \skip1 |
+    \skip1 |
+    "in"8 "a"4 "bot" -- "tle," "yeah"8 |
+    \skip4. "I'm"4. "send"4 -- |
+    \skip1 |
+    \skip1 |
+\mymark "Outro" #125
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. \skip8 "ing"8 |
+    "out"4 "an"8 "S."4 "O." \skip8 |
+    \skip8 "S."8 "I'm" "send"4. -- \skip8 "ing"8 |
+    "out"4 "an"8 "S."4 "O." \skip8 |
+    \skip8 "S."8 "I'm" "send"4. -- \skip8 "ing"8 |
+    "out"4 "an"8 "S."4 "O." \skip8 |
+    \skip8 "S."8 "I'm" "send"4. -- \skip8 "ing"8 |
+    "out"4 "an"8 "S."4 "O." \skip8 |
+    \skip8 "S."8 \skip2 "repeat ad lib."4 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}
