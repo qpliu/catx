@@ -65,7 +65,7 @@ do
     if test "x$part" = "xmidi"
     then
 	merge="$MERGEMIDI"
-# Make sure this list of MIDI tracks agrees with list in aarinrobo/java/VoiceMenu.java and aarinrobo/c/header.h and aarinrobo/c/midi.c
+# Make sure these names of midi tracks agree with aarinrobo/c/midi.c
 	for midi in midiAarinrobo midiCue midiGg midiPeter midiKav midiSusan midiBass midiKaraoke midiKaraokeTwo midiMuted midiOne midiTwo
 	do
 	    mkdir "../src-$midi"
