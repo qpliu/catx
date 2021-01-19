@@ -172,15 +172,16 @@
 		    for (let ch=0; ch<16; ch++)
 			for (const note of noteOff[ch].keys()){
 			    noteOff[ch].set(note,Array.from(noteOff[ch].get(note)).sort((x,y)=>x-y));
-			    for (const time of noteOn[ch].get(note)){
-				let end;
-				while (noteOff[ch].has(note) && (end=noteOff[ch].get(note).shift())<time);
-				if (end!=undefined){
-				    const bendLow=binarySearch(bendEvents[ch],(x)=>x.t<time);
-				    const bendHigh=binarySearch(bendEvents[ch],(x)=>x.t<end);
-				    allNotes.push({t:time,duration:end-time,note:note,ch:ch,bends:bendEvents[ch].slice(bendLow,bendHigh)});
+			    if (noteOn[ch].has(note))
+				for (const time of noteOn[ch].get(note)){
+				    let end;
+				    while (noteOff[ch].has(note) && (end=noteOff[ch].get(note).shift())<time);
+				    if (end!=undefined){
+					const bendLow=binarySearch(bendEvents[ch],(x)=>x.t<time);
+					const bendHigh=binarySearch(bendEvents[ch],(x)=>x.t<end);
+					allNotes.push({t:time,duration:end-time,note:note,ch:ch,bends:bendEvents[ch].slice(bendLow,bendHigh)});
+				    }
 				}
-			    }
 			}
 		    allNotes.sort((x,y)=>x.t-y.t);
 		    for (const e of allNotes){
