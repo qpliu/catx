@@ -1,10 +1,11 @@
 #!/bin/sh
-SONG=https://www.songsterr.com/a/wsa/the-police-message-in-a-bottle-tab-s3706t1
+set -e
 DRUMMAP="44 hh 0,57 cymc 0,48 tomh 0,43 toml 0,41 toml 0,"
+rm -f generated-*
 java <application_guitar_pro5-41910045.gp5 -jar ../../guitarproToLy/1.jar \
 markup-extra 0 '\key cis \minor' \
 drumMap "$DRUMMAP" \
-track 0 preset kav output-lilypond output-lyrics output-karaoke \
+track 0 preset kav output-lilypond output-lyrics output-karaoke which-lyrics 0 \
 track 1 preset peter output-lilypond output-dotext \
 track 3 preset bass output-lilypond \
 track 4 preset gg output-drums

@@ -150,9 +150,9 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "out"4 "an"8 "S."4 "O." "-"8
     "-"8 ">S." "I'm" "send"4. "-"8 "-ing"
     "out"4 "an"8 "S."4 "O." "-"8
-    "-"8 ">S." "-"2 ">repeat ad lib."4
+    "-"8 ">S." "-"2.
+    "-"4 "@@"32 "-"2 \skip8. \skip32
     "-"1
-    "@@"32 "-"2. \skip8. \skip32
     "-"1
     "-"1
     "-"1
