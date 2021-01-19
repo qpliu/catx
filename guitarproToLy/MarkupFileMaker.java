@@ -9,13 +9,13 @@ final class MarkupFileMaker extends FileMaker{
     void make()throws IOException{
 	indent(lyname+" = {");
 	print("\\override Score.RehearsalMark.self-alignment-X = #LEFT");
-	for (String s:main.globalarg.markup_extra)
-	    print(s);
 	int time_n=4,time_d=4;
 	Gpfile.KeySignature key=new Gpfile.KeySignature(0,0);
 	int tempo=0;
 	boolean tripletFeel=false;
 	for (Gpfile.Measure measure:main.gpfile.measures){
+	    for (String s:main.globalarg.markup_extra.getOrDefault(measure.index,Collections.emptyList()))
+		print(s);
 	    if (measure.tempo!=tempo){
 		tempo = measure.tempo;
 		print("\\tempo 4 = "+tempo);

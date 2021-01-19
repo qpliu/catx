@@ -4,7 +4,7 @@ WHERE="application_guitar_pro5-43011967.gp5"
 DRUMMAP="35 bd 1,48 tomh 0,43 toml 0,41 toml 0,"
 rm -f generated-*
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
-markup-extra '\key e \major' \
+markup-extra 0 '\key e \major' \
 drumMap "$DRUMMAP" \
 track 0 \
     preset kav \

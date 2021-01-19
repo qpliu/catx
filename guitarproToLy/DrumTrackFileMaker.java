@@ -85,8 +85,8 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
 	putDrumMap(DEFAULT_DRUM_MAP);
 	if (arg.drumMap!=null)
 	    putDrumMap(arg.drumMap);
-	arg.music_extra.add("\\context DrumVoice = \"drsa\" \\voiceOne");
-	arg.music_extra.add("\\context DrumVoice = \"drsb\" \\voiceTwo");
+	Stuff.add(arg.music_extra,0,"\\context DrumVoice = \"drsa\" \\voiceOne");
+	Stuff.add(arg.music_extra,0,"\\context DrumVoice = \"drsb\" \\voiceTwo");
     }
     private void putDrumMap(String map){
 	for (StringTokenizer st=new StringTokenizer(map,","); st.hasMoreTokens();){

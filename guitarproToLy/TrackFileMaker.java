@@ -50,11 +50,11 @@ abstract class TrackFileMaker extends FileMaker{
 	print(measure);
     }
     final void makeMeasures()throws IOException{
-	for (String s:arg.music_extra)
-	    print(s);
 	String tripletFeel=null;
 	PriorityQueue<Gpfile.Event>q=new PriorityQueue<Gpfile.Event>(trackEvents);
 	for (Gpfile.Measure measure:main.gpfile.measures){
+	    for (String s:arg.music_extra.getOrDefault(measure.index,Collections.emptyList()))
+		print(s);
 	    printMeasureStuff(measure);
 	    if (tripletFeel!=null && !tripletFeel.equals(measure.tripletFeel))
 		unindent(/*{*/"}");

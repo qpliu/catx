@@ -1,3 +1,4 @@
+import java.io.*;
 import java.util.*;
 
 final class Stuff{
@@ -223,5 +224,15 @@ final class Stuff{
     }
     static String midiInstrumentToString(int p){
 	return p>=0&&p<midiInstrumentNames.length?midiInstrumentNames[p].name:null;
+    }
+    static Object deserializeserialize(Serializable o)throws Exception{
+	ByteArrayOutputStream baos=new ByteArrayOutputStream();
+	try (ObjectOutputStream oos=new ObjectOutputStream(baos)){
+	    oos.writeObject(o);
+	}
+	return new ObjectInputStream(new ByteArrayInputStream(baos.toByteArray())).readObject();
+    }
+    static<E,F>void add(Map<E,List<F>>m,E e,F f){
+	m.computeIfAbsent(e,x->new ArrayList<F>()).add(f);
     }
 }

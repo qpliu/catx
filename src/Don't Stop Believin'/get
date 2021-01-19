@@ -5,7 +5,7 @@ rm -f generated-*
 LYRICS=`cat lyrics`
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
 add-lyrics 3 1 "$LYRICS" \
-markup-extra '\key e \major' \
+markup-extra 0 '\key e \major' \
 modified-filename drs \
 track 3 \
     preset kav \

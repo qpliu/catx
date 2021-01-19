@@ -11,7 +11,7 @@ class Gpfile extends Gpinput{
     Measure[]measures;
     Track[]tracks;
     final List<TrackMeasureLyrics>trackMeasureLyrics=new ArrayList<TrackMeasureLyrics>();
-    final static class TrackMeasureLyrics{
+    final static class TrackMeasureLyrics implements Serializable{
 	int track;
 	int startingMeasure;
 	String which;

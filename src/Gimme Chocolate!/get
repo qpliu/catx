@@ -5,7 +5,7 @@ SCALE=""
 rm -f generated-*
 LYRICS=`cat lyrics`
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
-markup-extra '\key b \major' \
+markup-extra 0 '\key b \major' \
 add-lyrics 7 1 "$LYRICS" \
 scale "$SCALE" \
 track 7 \

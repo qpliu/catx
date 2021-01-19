@@ -8,7 +8,7 @@ SCALE="c cis d dis e f fis g gis a bes b"
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
 add-lyrics 5 1 "$LYRICS" \
 modified-filename drs \
-markup-extra '\key d \minor' \
+markup-extra 0 '\key d \minor' \
 scale "$SCALE" \
 drumMap "$DRUMMAP" \
 track 5 \

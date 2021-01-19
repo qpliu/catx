@@ -1,6 +1,7 @@
+import java.io.*;
 import java.math.*;
 
-final class Rational implements Comparable<Rational>{
+final class Rational implements Comparable<Rational>,Serializable{
     static final Rational ZERO=new Rational(0);
     static final Rational ONE=new Rational(1);
     static final Rational TWO=new Rational(2);
