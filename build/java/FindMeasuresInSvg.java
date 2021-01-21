@@ -7,6 +7,8 @@ import org.xml.sax.helpers.*;
 
 final class FindMeasuresInSvg{
     private static final double CLOSE=1e-4;
+    private static final double LEFT_SPACE=1.1;
+    private static final double SHORTEST_MEAUSRE=1;
     private static final Pattern matrixPattern=Pattern.compile("matrix\\(([-.0-9]+),([-.0-9]+),([-.0-9]+),([-.0-9]+),([-.0-9]+),([-.0-9]+)\\)");
     private static final Pattern linePattern=Pattern.compile("M\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*L\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*");
     private static final Pattern rectanglePattern=Pattern.compile("M\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*L\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*L\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*L\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*Z\\s*M\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*");
@@ -113,14 +115,16 @@ final class FindMeasuresInSvg{
 		continue;
 	    double y0=hl.y;
 	    double y1=list.get(3).y;
-	    double x0=hl.x0;
+	    double x0=hl.x0+LEFT_SPACE*(y1-y0);
 	    for (VerticalLine vl:verticalLines)
 		if (Math.abs(vl.y0-y0)<=CLOSE && Math.abs(vl.y1-y1)<=CLOSE){
 		    double x1=vl.x;
-		    if (x1-x0>(x0==hl.x0?1.5:0.5)*(y1-y0))
+		    if (x1-x0>SHORTEST_MEAUSRE*(y1-y0))
 			System.out.println(partpage+" "+measureNumber+++" "+x0+" "+y0+" "+x1+" "+y1);
 		    x0 = x1;
 		}
+	    if (hl.x1>=1-CLOSE && hl.x1-x0>SHORTEST_MEAUSRE*(y1-y0))
+		System.out.println(partpage+" "+measureNumber+++" "+x0+" "+y0+" "+hl.x1+" "+y1);
 	    for (double[]r:rectangles)
 		if (Math.abs(r[1]-hl.y)<CLOSE && r[0]<=hl.x0 && hl.x0<=r[2])
 		    bigy = Math.max(bigy,r[3]);
