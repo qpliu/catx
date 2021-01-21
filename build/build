@@ -11,10 +11,11 @@ build=`dirname "$buildbuild"`
 cd "$build"
 build=`pwd`
 PARTS="$*"
-find "$build/bin" -mindepth 1 -maxdepth 1 -type d -mtime +1 -exec rm -rf '{}' ';'
 BINDIR="$build/bin/$$"
 rm -rf "$BINDIR"
-mkdir -p "$BINDIR"/bin "$BINDIR"/src "$BINDIR"/java
+mkdir -p "$BINDIR/junk" "$BINDIR"/bin "$BINDIR"/src "$BINDIR"/java
+find "$build/bin" -mindepth 1 -maxdepth 1 -type d -mtime +1 -exec mv '{}' "$BINDIR/junk" ';'
+rm -rf "$BINDIR/junk"
 cd "$BINDIR"/java
 ln "$build"/java/* .
 javac -Xlint *.java
