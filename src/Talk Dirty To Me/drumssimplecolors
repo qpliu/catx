@@ -68,7 +68,7 @@ drumsimple = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd r4 | } >>
     << { cymc4 r2. | } \context DrumVoice = "drsb" { bd4 r2. | } >>
     << { cymc8 hho <sn hho> hho hho hho <sn hho> hho | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd r4 | } >>
-    << { hho8 hho sn tomh tomml toml r sn | } \context DrumVoice = "drsb" { bd8 r2 r8 bd r | } >>
+    << { hho8 hho sn_"L" tomh tomml toml r sn | } \context DrumVoice = "drsb" { bd8 r2 r8 bd r | } >>
 \mymark "Verse 3" #61
     << { cymc8 hho <sn hho> hho hho hho <sn hho> hho | } \context DrumVoice = "drsb" { bd8 r4. bd8 r4. | } >>
     << { hho8 hho <sn hho> hho hho hho <sn hho> hho | } \context DrumVoice = "drsb" { bd8 r4. bd8 r4. | } >>
@@ -105,8 +105,7 @@ drumsimple = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     r1 |
 \mymark "Solo" #93
     << { toml8 toml toml toml toml toml toml toml | } \context DrumVoice = "drsb" { bd8 bd bd bd bd bd bd bd | } >>
-%    << { toml8 toml toml toml toml toml toml toml | } \context DrumVoice = "drsb" { bd8 bd bd bd bd bd bd bd | } >> %96 simplified
-    << { <cymc sn>8 cymc sn tomh16 tomml toml sn tomh tomml toml sn toml r | } \context DrumVoice = "drsb" { r8 bd r2. | } >> %96
+    << { <cymc sn>8 cymc sn_"L" tomh16 tomml toml sn tomh tomml toml sn toml r | } \context DrumVoice = "drsb" { r8 bd r2. | } >>
     << { cymc8 cymr <cymr sn> <cymr sn> cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd r4 | } >>
     << { cymr8 cymr <cymr sn> <cymr sn> cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd r4 | } >>
     << { cymc8 cymr <cymr sn> <cymr sn> cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd r4 | } >>
@@ -114,8 +113,8 @@ drumsimple = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { cymr8 cymr <cymr sn> <cymr sn> cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd r4 | } >>
     << { cymc8 cymr <cymr sn> <cymr sn> cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd r4 | } >>
     << { cymc8 cymr <cymr sn> <cymr sn> cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd r4 | } >>
-    << { cymc8 cymr <cymr sn> <cymr sn> cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd r4 | } >> %104 simplified
-%    << { cymr8 cymr sn16 sn sn cymc r cymc tomh tomh tomml tomml toml toml | } \context DrumVoice = "drsb" { bd8 r4 r16 bd r bd r4. | } >> %104
+    << { cymc8 cymr <cymr sn> <cymr sn> cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd r4 | } >> %102 simplified
+%    << { cymr8 cymr sn16 sn sn cymc r cymc tomh tomh tomml tomml toml toml | } \context DrumVoice = "drsb" { bd8 r4 r16 bd r bd r4. | } >> %102
     << { cymc8 cymr <cymr sn> <cymr sn> cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd r4 | } >>
     << { cymc8 cymr <cymr sn> <cymr sn> cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd r4 | } >>
     << { cymc8 cymr <cymr sn> <cymr sn> cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 r4. bd8 bd r4 | } >>
