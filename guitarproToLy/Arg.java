@@ -25,7 +25,7 @@ final class Arg implements Serializable{
     String instrument_name;
     String instrument_short_name;
     String which_lyrics="";
-    String transpose="";
+    int transpose;
     final List<Gpfile.TrackMeasureLyrics>add_lyrics=new ArrayList<Gpfile.TrackMeasureLyrics>();
     final List<String>layout_extra=new ArrayList<String>();
     final Map<Integer,List<String>>music_extra=new HashMap<Integer,List<String>>();
@@ -114,7 +114,7 @@ final class Arg implements Serializable{
 	System.err.println("[scale scale]  Specify note spelling.  Something like scale \"c des eisis\"");
 	System.err.println("[shift n/d]  Shift notes right n/d beats.  Use shift -21/5 to shift notes left 4 1/5th beat.");
 	System.err.println("[string-numbers]  Include string numbers.");
-	System.err.println("[transpose transpose-string]  Specify transpose.  Something like transpose \"\\transpose c c'\"");
+	System.err.println("[transpose half_steps]  Specify transpose.  Something like transpose 1");
 	System.err.println("[use-bend-end Replace bent notes with end of note]");
 	System.err.println("[use-bend-start Replace bent notes with start of note]");
 	System.err.println("[verbose level]");
@@ -185,7 +185,7 @@ final class Arg implements Serializable{
 	    else if (argv[i].equals("string-numbers"))
 		arg.string_numbers = true;
 	    else if (argv[i].equals("transpose"))
-		arg.transpose = argv[++i];
+		arg.transpose = Integer.parseInt(argv[++i]);
 	    else if (argv[i].equals("use-bend-end"))
 		arg.use_bend_end = true;
 	    else if (argv[i].equals("use-bend-start"))

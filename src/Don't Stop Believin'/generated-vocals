@@ -1,4 +1,4 @@
-vocals = \transpose c c, {
+vocals = {
     \myVocalsStuff
 \mymark "Intro" #1
     r1 |
@@ -10,24 +10,24 @@ vocals = \transpose c c, {
     r1 |
     r1 |
 \mymark "Verse 1" #9
-    r2. gis''8 e'' |
-    fis''8 fis''4 fis''4. r4 |
-    r2 cis''16 dis'' e''8 e'' e'' |
-    b''4 b''8 gis''4 fis''4. |
-    r2 r8 b' gis'' e'' |
-    fis''8 fis''4 gis'' fis'' e''8 |
-    fis''4. gis'' e''4~ |
-    e''4 r2. |
+    r2. gis'8 e' |
+    fis'8 fis'4 fis'4. r4 |
+    r2 cis'16 dis' e'8 e' e' |
+    b'4 b'8 gis'4 fis'4. |
+    r2 r8 b gis' e' |
+    fis'8 fis'4 gis' fis' e'8 |
+    fis'4. gis' e'4~ |
+    e'4 r2. |
 \mymark "Verse 2" #17
-    r2. gis''8 e'' |
-    fis''8 fis''4 fis''4. r4 |
-    r2 cis''8 e'' e'' e'' |
-    b''4 b''8 gis''4 fis''4. |
-    r2 r8 b' gis'' e'' |
-    fis''8 fis''4 gis'' fis'' e''8 |
-    fis''4. gis'' e''4~ |
+    r2. gis'8 e' |
+    fis'8 fis'4 fis'4. r4 |
+    r2 cis'8 e' e' e' |
+    b'4 b'8 gis'4 fis'4. |
+    r2 r8 b gis' e' |
+    fis'8 fis'4 gis' fis' e'8 |
+    fis'4. gis' e'4~ |
 \mymark "Guitar Fill" #24
-    e''2 r |
+    e'2 r |
     r1 |
     r1 |
     r1 |
@@ -37,70 +37,70 @@ vocals = \transpose c c, {
     r1 |
     r1 |
 \mymark "Verse 3" #33
-    r4. b'8 gis'' fis'' gis'' e'' |
-    fis''8 fis''4 fis''16 gis''4~ gis''16 r4 |
-    r4. e'8 e''16 e'' e''4 e''8 |
-    b''4 b''8 gis''4 fis''4. |
-    r4 gis''8 fis'' gis'' fis'' gis'' e'' |
-    fis''4 fis''8 fis''16 gis'' \tuplet 3/2 { r4 fis'' e'' } |
-    fis''4 gis''8 fis''4. gis''8 fis''~ |
-    fis''4 gis''8 gis''16 fis'' e''2 |
+    r4. b8 gis' fis' gis' e' |
+    fis'8 fis'4 fis'16 gis'4~ gis'16 r4 |
+    r4. e8 e'16 e' e'4 e'8 |
+    b'4 b'8 gis'4 fis'4. |
+    r4 gis'8 fis' gis' fis' gis' e' |
+    fis'4 fis'8 fis'16 gis' \tuplet 3/2 { r4 fis' e' } |
+    fis'4 gis'8 fis'4. gis'8 fis'~ |
+    fis'4 gis'8 gis'16 fis' e'2 |
 \mymark "Bridge" #41
-    <b' dis'' fis''>4. <a' cis'' e''> r4 |
-    <b' dis'' fis''>4. <b' e'' gis''> r4 |
-    r2 e''8 e'' e'' e'' |
-    b''4 a''8 gis''4. fis''4 |
-    <b' dis'' fis''>4. <a' cis'' e''> r4 |
-    <b' dis'' fis''>4. <b' e'' gis''>8 gis'' fis'' e'' fis''~ |
-    fis''4 gis''8 e''2~ e''8 |
+    <b dis' fis'>4. <a cis' e'> r4 |
+    <b dis' fis'>4. <b e' gis'> r4 |
+    r2 e'8 e' e' e' |
+    b'4 a'8 gis'4. fis'4 |
+    <b dis' fis'>4. <a cis' e'> r4 |
+    <b dis' fis'>4. <b e' gis'>8 gis' fis' e' fis'~ |
+    fis'4 gis'8 e'2~ e'8 |
     r1 |
-    <b' dis'' fis''>4. <a' cis'' e''> r4 |
-    <b' dis'' fis''>4. <b' e'' gis''> r4 |
-    r2 e''8 e'' e'' e'' |
-    b''4 a''8 gis''4. fis''4 |
-    <b' dis'' fis''>4. <a' cis'' e''> r4 |
-    <b' dis'' fis''>4. <b' e'' gis''>8 gis'' fis'' e'' fis'' |
-    b''1~ |
-    b''2. r4 |
+    <b dis' fis'>4. <a cis' e'> r4 |
+    <b dis' fis'>4. <b e' gis'> r4 |
+    r2 e'8 e' e' e' |
+    b'4 a'8 gis'4. fis'4 |
+    <b dis' fis'>4. <a cis' e'> r4 |
+    <b dis' fis'>4. <b e' gis'>8 gis' fis' e' fis' |
+    b'1~ |
+    b'2. r4 |
     r1 |
     r1 |
     r1 |
     r1 |
 \mymark "Verse 4" #61
-    r4 gis''8 fis'' gis'' fis''4 e''8 |
-    fis''8 fis''4 fis''8 gis''4 r |
-    r2 e''16 e'' e''8 e''4 |
-    b''4 b''8 gis'' gis'' fis''4. |
-    r4 gis''8 fis'' gis'' fis'' fis'' e'' |
-    fis''4 fis''8 fis''16 gis''4~ gis''16 r8 e'' |
-    fis''4. gis'' e''4~ |
-    e''2. r4 |
+    r4 gis'8 fis' gis' fis'4 e'8 |
+    fis'8 fis'4 fis'8 gis'4 r |
+    r2 e'16 e' e'8 e'4 |
+    b'4 b'8 gis' gis' fis'4. |
+    r4 gis'8 fis' gis' fis' fis' e' |
+    fis'4 fis'8 fis'16 gis'4~ gis'16 r8 e' |
+    fis'4. gis' e'4~ |
+    e'2. r4 |
 \mymark "Verse 5" #69
-    r4 gis''8 fis'' gis'' fis'' r4 |
-    \tuplet 3/2 { r4 fis'' gis'' } fis''8 e''4 r8 |
-    r2 e''16 e'' e''4 e''8 |
-    b''4 b''8 gis''4 fis''4. |
-    r4 gis''8 b'' cis''' gis''4 gis''8~ |
-    gis''8 fis''4 fis''16 \tuplet 3/2 { e''4~ } e''16 \tuplet 3/2 { e''4 e'' } |
-    fis''4 gis''8 fis''4. gis''8 fis''~ |
-    fis''4 gis''8 fis''16 gis'' fis'' e''8. r4 |
+    r4 gis'8 fis' gis' fis' r4 |
+    \tuplet 3/2 { r4 fis' gis' } fis'8 e'4 r8 |
+    r2 e'16 e' e'4 e'8 |
+    b'4 b'8 gis'4 fis'4. |
+    r4 gis'8 b' cis'' gis'4 gis'8~ |
+    gis'8 fis'4 fis'16 \tuplet 3/2 { e'4~ } e'16 \tuplet 3/2 { e'4 e' } |
+    fis'4 gis'8 fis'4. gis'8 fis'~ |
+    fis'4 gis'8 fis'16 gis' fis' e'8. r4 |
 \mymark "Bridge" #77
-    <b' dis'' fis''>4. <a' cis'' e''> r4 |
-    <b' dis'' fis''>4. <b' e'' gis''> r4 |
-    r2 e''8 e'' e'' e'' |
-    b''4 a''8 gis''4. fis''4 |
-    <b' dis'' fis''>4. <a' cis'' e''> r4 |
-    <b' dis'' fis''>4. <b' e'' gis''>8 gis'' fis'' e'' fis''~ |
-    fis''4 gis''8 e''2~ e''8 |
+    <b dis' fis'>4. <a cis' e'> r4 |
+    <b dis' fis'>4. <b e' gis'> r4 |
+    r2 e'8 e' e' e' |
+    b'4 a'8 gis'4. fis'4 |
+    <b dis' fis'>4. <a cis' e'> r4 |
+    <b dis' fis'>4. <b e' gis'>8 gis' fis' e' fis'~ |
+    fis'4 gis'8 e'2~ e'8 |
     r1 |
-    <b' dis'' fis''>4. <a' cis'' e''> r4 |
-    <b' dis'' fis''>4. <b' e'' gis''> r4 |
-    r2 e''8 e'' e'' e'' |
-    b''4 a''8 gis''4. fis''4 |
-    <b' dis'' fis''>4. <a' cis'' e''> r4 |
-    <b' dis'' fis''>4. <b' e'' gis''>8 gis'' fis'' e'' fis'' |
-    b''1~ |
-    b''2. r4 |
+    <b dis' fis'>4. <a cis' e'> r4 |
+    <b dis' fis'>4. <b e' gis'> r4 |
+    r2 e'8 e' e' e' |
+    b'4 a'8 gis'4. fis'4 |
+    <b dis' fis'>4. <a cis' e'> r4 |
+    <b dis' fis'>4. <b e' gis'>8 gis' fis' e' fis' |
+    b'1~ |
+    b'2. r4 |
 \mymark "Guitar Solo" #93
     r1 |
     r1 |
@@ -111,28 +111,28 @@ vocals = \transpose c c, {
     r1 |
     r1 |
 \mymark "Chorus" #101
-    <cis'' fis'' a'' cis'''>8 <b' e'' gis'' b''>4 <b' e'' gis'' b''>8 r4. <a' cis'' fis'' b''>8 |
-    <cis'' fis'' a'' b''~>4\glissando <b' e'' gis'' b''>8 <b' e'' gis'' b''>4 r4. |
-    r2 a''8 gis'' a'' b'' |
-    cis'''4 b''16 cis''' \tuplet 3/2 { gis''4.~ gis''16 fis''4 e'' } |
-    <cis'' fis'' a'' b''~>4\glissando <b' e'' gis'' b''>8 <b' e'' gis'' b''>4 r4. |
-    <cis'' fis'' a'' b''~>4\glissando <b' e'' gis'' b''>8 <b' e'' gis'' b''> \tuplet 3/2 { gis''4 fis'' e'' } |
-    b''1~ |
-    b''1 |
-    <cis'' fis'' a'' b''~>8 <b' e'' gis'' b''>4 <b' e'' gis'' b''>8 r4. <a' cis'' fis'' b''>8 |
-    <cis'' fis'' a'' b''~>4\glissando <b' e'' gis'' b''>8 <b' e'' gis'' b''>4 r4. |
-    r8 b''16 cis'''8. b''8 cis''' b''16 cis''' b''8 cis''' |
-    b''4 gis''16 fis'' e''4 r4. |
-    <cis'' fis'' a'' b''~>4\glissando <b' e'' gis'' b''>8 <b' e'' gis'' b''> r2 |
-    <cis'' fis'' a'' b''~>4\glissando <b' e'' gis'' b''>8 <b' e'' gis'' b''> \tuplet 3/2 { gis''4 fis'' e'' } |
-    b''1~ |
-    b''1 |
-    <cis'' fis'' a'' b''~>8 <b' e'' gis'' b''>4 <b' e'' gis'' b''>8 r4. <a' cis'' fis'' b''>8 |
-    <cis'' fis'' a'' b''~>4\glissando <b' e'' gis'' b''>8 <b' e'' gis'' b''>4 r4. |
-    r8 cis'''4 b'' cis'''8 cis''' r |
-    cis'''8. b'' cis'''8 b''4 r |
-    <cis'' fis'' a'' b''~>4\glissando <b' e'' gis'' b''>8 <b' e'' gis'' b''>4 r4. |
-    <cis'' fis'' a'' b''~>4\glissando <b' e'' gis'' b''>8 <b' e'' gis'' b''> \tuplet 3/2 { gis''4 fis'' e'' } |
-    b''1~ |
-    b''1 |
+    <cis' fis' a' cis''>8 <b e' gis' b'>4 <b e' gis' b'>8 r4. <a cis' fis' b'>8 |
+    <cis' fis' a' b'~>4\glissando <b e' gis' b'>8 <b e' gis' b'>4 r4. |
+    r2 a'8 gis' a' b' |
+    cis''4 b'16 cis'' \tuplet 3/2 { gis'4.~ gis'16 fis'4 e' } |
+    <cis' fis' a' b'~>4\glissando <b e' gis' b'>8 <b e' gis' b'>4 r4. |
+    <cis' fis' a' b'~>4\glissando <b e' gis' b'>8 <b e' gis' b'> \tuplet 3/2 { gis'4 fis' e' } |
+    b'1~ |
+    b'1 |
+    <cis' fis' a' b'~>8 <b e' gis' b'>4 <b e' gis' b'>8 r4. <a cis' fis' b'>8 |
+    <cis' fis' a' b'~>4\glissando <b e' gis' b'>8 <b e' gis' b'>4 r4. |
+    r8 b'16 cis''8. b'8 cis'' b'16 cis'' b'8 cis'' |
+    b'4 gis'16 fis' e'4 r4. |
+    <cis' fis' a' b'~>4\glissando <b e' gis' b'>8 <b e' gis' b'> r2 |
+    <cis' fis' a' b'~>4\glissando <b e' gis' b'>8 <b e' gis' b'> \tuplet 3/2 { gis'4 fis' e' } |
+    b'1~ |
+    b'1 |
+    <cis' fis' a' b'~>8 <b e' gis' b'>4 <b e' gis' b'>8 r4. <a cis' fis' b'>8 |
+    <cis' fis' a' b'~>4\glissando <b e' gis' b'>8 <b e' gis' b'>4 r4. |
+    r8 cis''4 b' cis''8 cis'' r |
+    cis''8. b' cis''8 b'4 r |
+    <cis' fis' a' b'~>4\glissando <b e' gis' b'>8 <b e' gis' b'>4 r4. |
+    <cis' fis' a' b'~>4\glissando <b e' gis' b'>8 <b e' gis' b'> \tuplet 3/2 { gis'4 fis' e' } |
+    b'1~ |
+    b'1 |
 }

@@ -17,7 +17,7 @@ track 0 \
     output-lilypond \
     output-lyrics \
     output-karaoke \
-    transpose "\transpose c c' " \
+    transpose 12 \
 track 1 \
     scale "$SCALE2" \
     preset susan \

@@ -9,7 +9,7 @@ final class ChordsFileMaker extends ChoppedTrackFileMaker{
 	return event instanceof Gpfile.ChordEvent;
     }
     @Override String getStuff(){
-	return super.getStuff()+"\\new ChordNames "+arg.transpose;
+	return super.getStuff()+"\\new ChordNames ";
     }
     @Override MeasureMaker.GetWhatSuffix getGetWhatSuffix(List<Gpfile.Event>list){
 	return new MeasureMaker.GetWhatSuffix(){

@@ -3,6 +3,7 @@ import java.util.*;
 
 final class Stuff{
     static String midi2ly(int key,Arg arg){
+	key += arg.transpose;
 	String ly=arg.scale[key%12];
 	int next=(ly.charAt(0)-'a'+5)%7-3;
 	if (ly.endsWith("'")){
@@ -64,8 +65,8 @@ final class Stuff{
 	return sb.append('"').toString();
     }
     private static final String[]sharpsToLy={"fes","ces","ges","des","aes","ees","bes","f","c","g","d","a","e","b","fis","cis","gis","dis","ais","eis"};
-    static String keyToLy(int key0,int key1){
-	return "\\key "+sharpsToLy[key0+(key1==0?8:11)]+(key1==0?" \\major":" \\minor");
+    static String keyToLy(Arg arg,int key0,int key1){
+	return "\\key "+sharpsToLy[(key0+arg.transpose)+(key1==0?8:11)]+(key1==0?" \\major":" \\minor");
     }
     static Gpfile.Event[]cutEvent(Gpfile.Event e,Rational cut){
 	if (e.time.compareTo(cut)>=0)

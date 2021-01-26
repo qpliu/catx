@@ -40,18 +40,18 @@ midiOneA = {
     r1 |
     r1 |
 \mymark "Chorus" #39
-    ais'8 ais'4. fis'8 fis'4. |
-    ais'8 ais'4. f'8 f'4 ais'8 |
-    r8 ais' ais' ais' cis'' r ais' cis''~ |
-    cis''8 ais' r2 r8 f'~ |
-    f'8 dis' f' r dis' f' dis' f'~ |
-    f'8 dis' f' r dis' r4 gis'8~ |
-    gis'8 dis' f' r dis' f' r f'~ |
-    f'8 dis' f' r dis' r f' r |
-    fis'8 dis' r4 fis'8 dis' dis' r |
-    f'8 cis' gis' f' r4 ais'8 r |
-    fis'8 dis' r4 fis'8 dis' dis' r |
-    f'8 cis' gis' f' r4 \deadNote ais'8 r |
+    b'8 b'4. g'8 g'4. |
+    b'8 b'4. fis'8 fis'4 b'8 |
+    r8 b' b' b' d'' r b' d''~ |
+    d''8 b' r2 r8 fis'~ |
+    fis'8 e' fis' r e' fis' e' fis'~ |
+    fis'8 e' fis' r e' r4 a'8~ |
+    a'8 e' fis' r e' fis' r fis'~ |
+    fis'8 e' fis' r e' r fis' r |
+    g'8 e' r4 g'8 e' e' r |
+    fis'8 d' a' fis' r4 b'8 r |
+    g'8 e' r4 g'8 e' e' r |
+    fis'8 d' a' fis' r4 \deadNote b'8 r |
 \mymark "Verse 2" #51
     r1 |
     r1 |
@@ -70,18 +70,18 @@ midiOneA = {
     r1 |
     r1 |
 \mymark "Chorus" #67
-    ais'8 ais'4. fis'8 fis'4. |
-    ais'8 ais'4. f'8 f'4 ais'8 |
-    r8 ais' ais' ais' cis'' r ais' cis''~ |
-    cis''8 ais' r2 r8 f'~ |
-    f'8 dis' f' r dis' f' dis' f'~ |
-    f'8 dis' f' r dis' r4 gis'8~ |
-    gis'8 dis' f' r dis' f' r f'~ |
-    f'8 dis' f' r dis' r f' r |
-    fis'8 dis' r4 fis'8 dis' dis' r |
-    f'8 cis' gis' f' r4 ais'8 r |
-    fis'8 dis' r4 fis'8 dis' dis' r |
-    f'8 cis' gis' f' r4 \deadNote ais'8 r |
+    b'8 b'4. g'8 g'4. |
+    b'8 b'4. fis'8 fis'4 b'8 |
+    r8 b' b' b' d'' r b' d''~ |
+    d''8 b' r2 r8 fis'~ |
+    fis'8 e' fis' r e' fis' e' fis'~ |
+    fis'8 e' fis' r e' r4 a'8~ |
+    a'8 e' fis' r e' fis' r fis'~ |
+    fis'8 e' fis' r e' r fis' r |
+    g'8 e' r4 g'8 e' e' r |
+    fis'8 d' a' fis' r4 b'8 r |
+    g'8 e' r4 g'8 e' e' r |
+    fis'8 d' a' fis' r4 \deadNote b'8 r |
     r1 |
     r1 |
     r1 |
@@ -121,31 +121,31 @@ midiOneA = {
     r1 |
     r1 |
 \mymark "Chorus" #115
-    ais'8 ais'4. fis'8 fis'4. |
-    ais'8 ais'4. f'8 f'4 ais'8 |
-    r8 ais' ais' ais' cis'' r ais' cis''~ |
-    cis''8 ais' r2 r8 f'~ |
-    f'8 dis' f' r dis' f' dis' f'~ |
-    f'8 dis' f' r dis' r4 gis'8~ |
-    gis'8 dis' f' r dis' f' r f'~ |
-    f'8 dis' f' r dis' r f' r |
+    b'8 b'4. g'8 g'4. |
+    b'8 b'4. fis'8 fis'4 b'8 |
+    r8 b' b' b' d'' r b' d''~ |
+    d''8 b' r2 r8 fis'~ |
+    fis'8 e' fis' r e' fis' e' fis'~ |
+    fis'8 e' fis' r e' r4 a'8~ |
+    a'8 e' fis' r e' fis' r fis'~ |
+    fis'8 e' fis' r e' r fis' r |
 \mymark "Outro" #123
-    fis'8 dis' r4 fis'8 dis' dis' r |
-    f'8 cis' gis' f' r4 ais'8 r |
-    fis'8 dis' r4 fis'8 dis' dis' r |
-    f'8 cis' gis' f' r4 \deadNote ais'8 r |
-    ais'8 ais'4. fis'8 fis'4. |
-    ais'8 ais'4. f'8 f'4 ais'8 |
-    r8 ais' ais' ais' cis'' r ais' cis''~ |
-    cis''8 ais' r2 r8 f'~ |
-    f'8 dis' f' r dis' f' dis' f'~ |
-    f'8 dis' f' r dis' r4 gis'8~ |
-    gis'8 dis' f' r dis' f' r f'~ |
-    f'8 dis' f' r dis' r f' r |
-    fis'8 dis' r4 fis'8 dis' dis' r |
-    f'8 cis' gis' f' r4 ais'8 r |
-    fis'8 dis' r4 fis'8 dis' dis' r |
-    f'8 cis' gis' f' r4 \deadNote ais'8 r |
-    fis'8 dis' fis' dis' r2 |
+    g'8 e' r4 g'8 e' e' r |
+    fis'8 d' a' fis' r4 b'8 r |
+    g'8 e' r4 g'8 e' e' r |
+    fis'8 d' a' fis' r4 \deadNote b'8 r |
+    b'8 b'4. g'8 g'4. |
+    b'8 b'4. fis'8 fis'4 b'8 |
+    r8 b' b' b' d'' r b' d''~ |
+    d''8 b' r2 r8 fis'~ |
+    fis'8 e' fis' r e' fis' e' fis'~ |
+    fis'8 e' fis' r e' r4 a'8~ |
+    a'8 e' fis' r e' fis' r fis'~ |
+    fis'8 e' fis' r e' r fis' r |
+    g'8 e' r4 g'8 e' e' r |
+    fis'8 d' a' fis' r4 b'8 r |
+    g'8 e' r4 g'8 e' e' r |
+    fis'8 d' a' fis' r4 \deadNote b'8 r |
+    g'8 e' g' e' r2 |
     r1 |
 }

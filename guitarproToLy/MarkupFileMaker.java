@@ -22,7 +22,7 @@ final class MarkupFileMaker extends FileMaker{
 	    }
 	    if (!measure.key.equals(key)){
 		key = measure.key;
-		print(Stuff.keyToLy(key.key0,key.key1));
+		print(Stuff.keyToLy(main.globalarg,key.key0,key.key1));
 	    }
 	    if (measure.time_n!=time_n || measure.time_d!=time_d){
 		time_n = measure.time_n;

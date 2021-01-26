@@ -6,9 +6,6 @@ final class LyTrackFileMaker extends SuperTrackFileMaker{
     LyTrackFileMaker(Main main,Arg arg)throws IOException{
 	super(main,"",arg,MeasureMaker.REST);
     }
-    @Override String getStuff(){
-	return arg.transpose;
-    }
     @Override MeasureMaker.GetWhatSuffix getGetWhatSuffix(List<Gpfile.Event>list){
 	boolean allTied=true;
 	boolean is_hammer=false;

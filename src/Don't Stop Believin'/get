@@ -13,7 +13,7 @@ track 3 \
     output-lyrics \
     output-karaoke \
     output-dotext \
-    transpose "\transpose c c, " \
+    transpose -12 \
     layout-extra '\clef "treble_8"' \
 track 1 \
     preset susan \
