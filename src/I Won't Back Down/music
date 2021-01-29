@@ -20,7 +20,8 @@ layoutmusic = <<
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
-	\voPart
+	\clef "treble_8"
+	\transpose c c, \voPart
 	\voLyrics
     >>
     \tag #'(allPart peterPart) \new Staff \with {
