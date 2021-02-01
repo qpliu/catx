@@ -2,6 +2,7 @@ voPart = \new Voice = "vo" { \transpose c c' {
     \myVocalsStuff
 % tuning b,, e, a, d g b e'
 % scale c des d ees e f fis g aes a bes b
+% IF susan % scale c des d ees e f fis g gis a bes b
 \mymark "Intro 1" #1
     s1 s1 s1 |
 \mymark "Intro 2" #4

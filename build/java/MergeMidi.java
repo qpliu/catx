@@ -294,6 +294,7 @@ final class MergeMidi{
     private class TrackReader{
 	private final DataInputStream dis;
 	private final String id;
+	private final String midiFilename;
 	private final int outTrackIndex;
 	private boolean isTextTrack;
 	private String trackName;
@@ -303,9 +304,10 @@ final class MergeMidi{
 	private Map<Integer,String>textMap;
 	private int fudgeLyrics;
 	private int lyricEventTimeFudge=0;
-	TrackReader(DataInputStream dis,String id,int outTrackIndex){
+	TrackReader(DataInputStream dis,String id,int outTrackIndex,String midiFilename){
 	    this.dis = dis;
 	    this.id = id;
+	    this.midiFilename = midiFilename;
 	    this.outTrackIndex = outTrackIndex;
 	    Arrays.fill(keyTime,-1);
 	}
@@ -332,7 +334,7 @@ final class MergeMidi{
 		    trackName = trackName.substring(0,i);
 		if (trackName.endsWith("_dotext")){
 		    isTextTrack = true;
-		    try (FileInputStream fis=new FileInputStream(trackName+"_notemap")){
+		    try (FileInputStream fis=new FileInputStream(new File(midiFilename).getParent()+'/'+trackName+"_notemap")){
 			ByteArrayOutputStream baos=new ByteArrayOutputStream();
 			for (int j; (j=fis.read())!=-1; baos.write(j));
 			textMap = new HashMap<Integer,String>();
@@ -800,7 +802,7 @@ final class MergeMidi{
 	if (division!=DIVISION)
 	    throw new IOException("Bad division="+division);
     }
-    private void read(DataInputStream dis,String id,int outTrackIndex)throws IOException{
+    private void read(DataInputStream dis,String id,int outTrackIndex,String midiFilename)throws IOException{
 	byte[]b=new byte[4];
 	int trackNumber=0;
 	for (;;){
@@ -820,7 +822,7 @@ final class MergeMidi{
 		}
 	    else if (type.equals("MTrk"))
 		try (DataInputStream d=new DataInputStream(new ByteArrayInputStream(c))){
-		    new TrackReader(d,id+','+trackNumber++,outTrackIndex).read();
+		    new TrackReader(d,id+','+trackNumber++,outTrackIndex,midiFilename).read();
 		}
 	    else
 		System.err.println("type="+type);
@@ -836,7 +838,7 @@ final class MergeMidi{
 	MergeMidi mm=new MergeMidi();
 	for (int i=j; i<argv.length; i+=2)
 	    try (DataInputStream dis=new DataInputStream(new FileInputStream(argv[i+1]))){
-		mm.read(dis,argv[i+1],(i-j)/2);
+		mm.read(dis,argv[i+1],(i-j)/2,argv[i+1]);
 	    }
 	mm.makeOutputEvents();
 	try (DataOutputStream dos=new DataOutputStream(System.out)){
