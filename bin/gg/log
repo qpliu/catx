@@ -1,0 +1,13 @@
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+WorstAge=9223372036854775807
+Playing out.midi
+MIDI file: out.midi
+Format: 1  Tracks: 1  Divisions: 384
+Sequence: midiOne
+No pre-resampling cache hit
+Playing time: ~13713 seconds
+Notes cut: 0
+Notes lost totally: 0
+Wrote 763282212/2418791364 bytes(31.5563% compressed)
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+   6856 measure=gg

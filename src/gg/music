@@ -1,0 +1,20 @@
+% BIN midi gg
+% ROBOT enabled=true
+
+\header {
+    title = "Gg Random"
+}
+
+\include "generated-random"
+
+layoutmusic = <<
+    \tag #'(ggPart) \new DrumStaff \with {
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } \randomPart
+>>
+
+midimusic = <<
+    \tag #'(midiOne) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \randomPart
+>>
