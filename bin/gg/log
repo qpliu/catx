@@ -5,9 +5,9 @@ MIDI file: out.midi
 Format: 1  Tracks: 1  Divisions: 384
 Sequence: midiOne
 No pre-resampling cache hit
-Playing time: ~13713 seconds
+Playing time: ~9135 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 763282212/2418791364 bytes(31.5563% compressed)
+Wrote 638511436/1611232164 bytes(39.6288% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-   6856 measure=gg
+   4566 measure=gg

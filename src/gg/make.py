@@ -100,11 +100,10 @@ for filename in all_drum_filenames:
 	for line in f:
 	    i = line.find('%')
 	    if i!=-1:
-		i = line[:i]
+		line = line[:i]
 	    if line.find('|')!=-1:
 		measures.append(line.strip())
 
-random.seed(0)
 random.shuffle(measures)
 
 def getLength(s):
@@ -145,6 +144,5 @@ with open('generated-randomcolors','w') as fd:
 	if l!=384*4:
 	    continue
 	fd.write(measure+'\n')
-	fd.write('    r1 |\n')
 	fd.write('    r1 |\n')
     fd.write('}\n')
