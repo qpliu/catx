@@ -2,11 +2,11 @@ drsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     \context DrumVoice = "drsa" \voiceOne
     \context DrumVoice = "drsb" \voiceTwo
 \mymark "Intro" #1
-    << { hh4 hh hh hh | } \context DrumVoice = "drsb" { r1 | } >>
-    << { hh4 hh hh hh | } \context DrumVoice = "drsb" { r1 | } >>
-    << { hh4 hh hh hh | } \context DrumVoice = "drsb" { r1 | } >>
-    << { hh4 hh hh hh | } \context DrumVoice = "drsb" { r1 | } >>
-    << { hh4 hh r8 tomh tomml toml | } \context DrumVoice = "drsb" { r1 | } >>
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    << { r2 r8 tomh tomml toml | } \context DrumVoice = "drsb" { r1 | } >>
     << { cymc8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd2 bd8 bd4 bd8 | } >>
     << { cymr8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd8 bd4 bd4 bd4 bd8 | } >>
     << { cymr8 cymr <cymr sn> cymr cymr cymr <cymr sn> cymr | } \context DrumVoice = "drsb" { bd2 bd8 bd4 bd8 | } >>

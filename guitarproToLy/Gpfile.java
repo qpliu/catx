@@ -123,7 +123,7 @@ class Gpfile extends Gpinput{
 	    if (firstFret!=0 || alwaysReadStrings)
 		for (int i=0; i<stringCount; i++){
 		    int fret=readInt();
-		    if (fret>=0)
+		    if (fret>=0 && i<track.tuning.length)
 			l.add(track.tuning[i]+fret);
 		}
 	    Collections.sort(l);
@@ -238,6 +238,7 @@ class Gpfile extends Gpinput{
 		duration = readByte();
 		transition = readByte();
 	    }
+	    Log.debug("GraceNote fret=%d velocity=%d duration=%d transition=%d",fret,velocity,duration,transition);
 	    return this;
 	}
     }

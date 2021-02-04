@@ -1,0 +1,125 @@
+midiOne = {
+\mymark "Intro" #1
+    r8 g2.~ g8 |
+    f,2. g,4 |
+    r8 g2.~ g8 |
+    f,4. g,2~ g,8 |
+    f,4 f,2. |
+    e,4. d, g,4 |
+\mymark "Verse 1" #7
+    <c, c>1 |
+    f,2 g, |
+    c1 |
+    f,2 g, |
+    f,1 |
+    e,4. d,4 g,4. |
+\mymark "Verse 2" #13
+    <c, c>1 |
+    f,2 g, |
+    c1 |
+    f,2 g, |
+    f,1 |
+    e,4. d,4 g,4. |
+\mymark "Interlude" #19
+    c,8 c, c, c, c, c, c, c, |
+    c,8 c, c, c, c, c, c, c, |
+    c,8 c, c, c, c, c, c, c, |
+    c,8 c, c, c, c, c, c, c, |
+\mymark "Chorus 1" #23
+    c,8 c, r4 c,8 c, r4 |
+    f,8 f, r4 f,8 f, r4 |
+    c,8 c, r4 c,8 c, r4 |
+    f,8 f, r4 ais,, ais,, |
+    c,8 c, r4 c,8 c, r4 |
+    f,8 f, r4 f,8 f, r4 |
+    ais,,2.~ ais,,8 g,16 a, |
+    ais,4. a, g,4 |
+\mymark "Verse 3" #31
+    <c, c>1 |
+    f,2 g, |
+    c1 |
+    f,2 g, |
+    f,1 |
+    e,4. d,4 g,4. |
+\mymark "Verse 4" #37
+    <c, c>1 |
+    f,2 g, |
+    c1 |
+    f,2 g, |
+    f,1 |
+    e,4. d,4 g,4. |
+    c,8 c, c, c, c, c, c, c, |
+    c,8 c, c, c, c, c, c, c, |
+    c,8 c, c, c, c, c, c, c, |
+    c,8 c, c, c, c, c, c, c, |
+\mymark "Chorus 2" #47
+    c,8 c, r4 c,8 c, r4 |
+    f,8 f, r4 f,8 f, r4 |
+    c,8 c, r4 c,8 c, r4 |
+    f,8 f, r4 ais,, ais,, |
+    c,8 c, r4 c,8 c, r4 |
+    f,8 f, r4 f,8 f, r4 |
+    ais,,1 |
+    a,8 ais, ais, a, ais, ais, a, ais, |
+\mymark "Chorus 3" #55
+    r4. c, c,4 |
+    f,8 f, r4 f,8 f, r4 |
+    c,8 c, r4 c,8 c, r4 |
+    f,8 f, r4 ais,, ais,, |
+    c,8 c, r4 c,8 c, r4 |
+    f,8 f, r4 f,8 f, r4 |
+    ais,,2.~ ais,,8 g,16 a, |
+\mymark "Solo" #62
+    ais,4. a, g,4 |
+    f,1 |
+    f,1 |
+    f,1 |
+    f,1 |
+    f,1 |
+    f,1 |
+    f,1 |
+    f,1 |
+    e,1 |
+    dis,1 |
+    d,1 |
+    g,8 g, g, g, g, g, g, g, |
+    g,8 g, g, g, g, g, g, g, |
+\mymark "Chorus 4" #76
+    r4. c, c,4 |
+    f,8 f, r4 f,8 f, r4 |
+    c,8 c, r4 c,8 c, r4 |
+    f,8 f, r4 ais,, ais,, |
+    c,8 c, r4 c,8 c, r4 |
+    f,8 f, r4 f,8 f, r4 |
+    ais,,1 |
+    a,8 ais, ais, a, ais, ais, a, ais, |
+\mymark "Chorus 5" #84
+    c,8 c, r4 c,8 c, r4 |
+    f,8 f, r4 f,8 f, r4 |
+    c,8 c, r4 c,8 c, r4 |
+    f,8 f, r4 ais,, ais,, |
+    c,8 c, r4 c,8 c, r4 |
+    f,8 f, r4 f,8 f, r4 |
+    ais,,2.~ ais,,8 g,16 a, |
+    ais,4. a, g,4 |
+\mymark "Break Down" #92
+    c,1~ |
+    c,1 |
+    c,1~ |
+    c,1 |
+\mymark "Outro" #96
+    <c, c>1 |
+    f,2 g, |
+    c1 |
+    f,2 g, |
+    f,1 |
+    e,4. d, g,4 |
+\mymark "Last Bit" #102
+    <c, c>4. <c, c>8 <c, c>2 |
+    <c, c>4. <c, c>8 <c, c>2 |
+    <c, c>4. <c, c>8 <c, c>2 |
+    <c, c>4. <c, c>8 <c, c>2 |
+    <c, c>4. <c, c>8 <c, c>2 |
+    f,2 g,2. |
+    r1 |
+}

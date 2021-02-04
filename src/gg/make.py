@@ -5,6 +5,8 @@ import random,re
 
 DIVISION=384
 
+N_MEASURES=100
+
 all_drum_filenames=(
 # ls ../*/*drs* ../*/*drum*|sort|sed -e 's/^\(.*\)$/    "\1",/'
 #    "../ ...And Justice For All/drum",
@@ -139,10 +141,14 @@ with open('generated-randomcolors','w') as fd:
     fd.write('    \\time 4/4\n')
     fd.write('    \\context DrumVoice = "drsa" \\voiceOne\n')
     fd.write('    \\context DrumVoice = "drsb" \\voiceTwo\n')
+    count = 0
     for measure in measures:
 	l = getLength(measure)
 	if l!=384*4:
 	    continue
 	fd.write(measure+'\n')
 	fd.write('    r1 |\n')
+	count += 1
+	if count==N_MEASURES:
+	    break
     fd.write('}\n')

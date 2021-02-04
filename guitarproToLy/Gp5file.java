@@ -280,7 +280,6 @@ final class Gp5file extends Gpfile{
 	    int nbeats=readInt();
 	    for (int i=0; i<nbeats; i++){
 		int bits=readUnsignedByte();
-		Log.debug("measure %s track %d voice %d beat %d bits=0x%02x",measure.name,track.index,voice,i,bits);
 		int status=1;
 		if ((bits&64)!=0)
 		    status = readUnsignedByte();
@@ -294,6 +293,7 @@ final class Gp5file extends Gpfile{
 		    for (; tuplet>1; tuplet>>=1)
 			duration = duration.multiply(2);
 		}
+		Log.debug("measure %s track %d voice %d beat %d bits=0x%02x duration=%s status=%d",measure.name,track.index,voice,i,bits,duration,status);
 		if ((bits&2)!=0)
 		    track.events.add(new ChordEvent(time,duration,new Chord().read(track)));
 		if ((bits&4)!=0)
@@ -304,12 +304,14 @@ final class Gp5file extends Gpfile{
 		if ((bits&16)!=0)
 		    readMixTableChange(measure);
 		int stringBits=readUnsignedByte();
+		boolean gotGrace=false;
 		for (int string=0; string<7; string++)
 		    if ((stringBits&64>>string)!=0){
 			NoteEvent e=new NoteEvent(track,time,duration);
 			e.string = string;
 			e.voice = voice;
 			e.beatEffects = beatEffects;
+			gotGrace |= e.graceNote!=null;
 			readNoteBits(e);
 			if (status==1)
 			    track.events.add(e);
@@ -319,18 +321,18 @@ final class Gp5file extends Gpfile{
 		    if ((bits1&2048)!=0)
 			readByte();
 		}
-		if (status!=0)
+		if (status!=0 && !gotGrace)
 		    time = time.add(duration);
 	    }
-	    if (!time.equals(measureStartTime.add(measure.time_n)) && !time.equals(measureStartTime))
-		throw new IOException("Weird measure end time="+time+" measureStartTime="+measureStartTime+" time_n="+measure.time_n);
 	}
     }
     void readNoteBits(NoteEvent e)throws IOException{
 	int bits=readUnsignedByte();
+	Log.debug("    string=%d bits=0x%02x",e.string,bits);
 	e.is_ghost = (bits&4)!=0;
 	if ((bits&32)!=0){
 	    int type=readUnsignedByte();
+	    Log.debug("\ttype=%d",type);
 	    e.is_rest = type==0;
 	    e.is_tie = type==2;
 	    e.is_dead = type==3;
@@ -339,20 +341,26 @@ final class Gp5file extends Gpfile{
 	if (version<500 && (bits&1)!=0){
 	    int duration=readByte();
 	    int tuplet=readByte();
+	    Log.debug("\tduration=%d tuplet=%d",duration,tuplet);
 	}
 	if ((bits&16)!=0){
 	    int velocity=readByte();
+	    Log.debug("\tvelocity=%d",velocity);
 	}
-	if ((bits&32)!=0)
+	if ((bits&32)!=0){
 	    e.fret = readUnsignedByte();
+	    Log.debug("\tfret=%d",e.fret);
+	}
 	if ((bits&128)!=0){
 	    int left_hand_finger=readUnsignedByte();
 	    int right_hand_finger=readUnsignedByte();
+	    Log.debug("\tleft_hand_finger=%d right_hand_finger",left_hand_finger,right_hand_finger);
 	}
 	if (version>=500){
 	    if ((bits&1)!=0)
 		readBlob(8);
 	    int bits1=readByte();
+	    Log.debug("\tbits1=0x%02x",bits1);
 	}
 	if ((bits&8)!=0)
 	    if (version<400)

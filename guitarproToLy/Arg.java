@@ -134,7 +134,7 @@ final class Arg implements Serializable{
 	    else if (argv[i].equals("add-lyrics")){
 		Gpfile.TrackMeasureLyrics tml=new Gpfile.TrackMeasureLyrics();
 		tml.track = Integer.parseInt(argv[++i]);
-		tml.startingMeasure = Integer.parseInt(argv[++i])+1;
+		tml.startingMeasure = Integer.parseInt(argv[++i]);
 		tml.which = "arg";
 		tml.lyrics = argv[++i];
 		arg.add_lyrics.add(tml);

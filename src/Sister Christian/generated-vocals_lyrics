@@ -1,0 +1,126 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1" #7
+    \skip4 "Sis"8 -- "ter" "Chris" -- "tian," "oh" "the" |
+    "time"4 "has"8 "come."4. \skip4 |
+    \skip4 "And"8 "you" "know" "that" "you're" "the" |
+    "on"4 -- "ly"8 "one"4. "to"8 "say," |
+    \skip4. \skip4. "O"8 -- "K." |
+    \skip8 \skip2. \skip8 |
+\mymark "Verse 2" #13
+    \skip4 "Where"8 "you" "go" -- "ing?" "What" "you" |
+    "look"8 -- "ing"4 "for?"4. \skip4 |
+    \skip8 "You"8 "know" "those" "boys" "don't" "want" "to" |
+    "play"4 "no" "more" "with"8 "you." |
+    \skip4. \skip4. "It's"8 "true." |
+    \skip8 \skip2. \skip8 |
+\mymark "Interlude" #19
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. \skip8 "You're"8 |
+\mymark "Chorus 1" #23
+    "mo"8 -- "tor" -- "ing!"4 \skip2 |
+    "What's"4 "your" "price" "for"8 "flight?" |
+    \skip4 \skip2 \skip8 "In"8 |
+    "find"4 -- "ing" "mis" -- "ter"8 "right?" |
+    \skip4 \skip2 \skip8 "You'll"8 |
+    "be"4 "al" -- "right" "to"8 -- "night." |
+    \skip4 \skip2. |
+    \skip1 |
+\mymark "Verse 3" #31
+    \skip4 "Babe"8 "you" "know" "you're" "grow" -- "ing" |
+    "up"8 "so"4 "fast."4. \skip4 |
+    \skip8 "And"8 "ma" -- "ma's" "wor" -- "ry" -- "ing" "that" |
+    "you"4 "won't" "last" "to"8 "say." |
+    \skip4. \skip4. "Let's"8 "play." |
+    \skip8 \skip2. \skip8 |
+\mymark "Verse 4" #37
+    \skip4 "Sis"8 -- "ter" "Chris" -- "tian" "there's" "so" |
+    "much"4 "in"8 "life."4. \skip4 |
+    \skip4 "Don't"8 "you" "give" "it" "up" "be" -- |
+    "fore"4 "your" "time" "is"8 "due." |
+    \skip4. \skip4. "It's"8 "true." |
+    \skip8 \skip2. \skip8 |
+    \skip2. "It's"8 "true!" |
+    \skip1 |
+    \skip1 |
+    \skip2 \skip2 |
+\mymark "Chorus 2" #47
+    "Mo"8 -- "tor" -- "ing!"4 \skip2 |
+    "What's"4 "your" "price" "for"8 "flight?" |
+    \skip4 \skip2 \skip8 "You've"8 |
+    "got"4 "him" "in" "your"8. "sight."16 |
+    \skip4 \skip2 \skip8 "And"8 |
+    "driv"4 -- "ing" "through" "the"8 "night." |
+    \skip4 \skip2. |
+    \skip1 |
+\mymark "Chorus 3" #55
+    "Mo"8 -- "tor" -- "ing!"4 \skip2 |
+    "What's"4 "your" "price" "for"8 "flight?" |
+    \skip4 \skip2 \skip8 "In"8 |
+    "find"4 -- "ing" "mis" -- "ter"8 "right?" |
+    \skip4 \skip2 \skip8 "You'll"8 |
+    "be"4 "al" -- "right" "to"8 "night." |
+    \skip4 \skip2. |
+\mymark "Solo" #62
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus 4" #76
+    "Mo"8 -- "tor" -- "ing!"4 \skip2 |
+    "What's"4 "your" "price" "for"8 "flight?" |
+    \skip4 \skip2 \skip8 "In"8 |
+    "find"4 -- "ing" "mis" -- "ter"8 "right?" |
+    \skip4 \skip2 \skip8 "You'll"8 |
+    "be"4 "al" -- "right" "to"8 "night." |
+    \skip4 \skip2. |
+    \skip2. \skip8 "You're"8 |
+\mymark "Chorus 5" #84
+    "mo"8 -- "tor" -- "ing!"4 \skip2 |
+    "What's"4 "your" "price" "for"8 "flight?" |
+    \skip4 \skip2 \skip8 "In"8 |
+    "find"4 -- "ing" "mis" -- "ter"8 "right?" |
+    \skip4 \skip2 \skip8 "You'll"8 |
+    "be"4 "al" -- "right" \skip4 |
+    \skip8 "to"8 "night."4 \skip16 \skip4. \skip16 |
+    \skip1 |
+\mymark "Break Down" #92
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Outro" #96
+    \skip4 "Sis"8 -- "ter" "Chris" -- "tian," "oh" "the" |
+    "time"4 "has"8 "come."4. \skip4 |
+    \skip4 "And"8 "you" "know" "that" "you're" "the" |
+    "on"4 -- "ly"8 "one"4. "to"8 "say." |
+    \skip4. \skip2 \skip8 |
+    \skip8 "O"8 -- "K."4 \skip2 |
+\mymark "Last Bit" #102
+    \skip2 \skip8 "But"16 "you're" "mo"8 -- "tor" -- |
+    "ing."4 \skip2 \skip8 "Yeah!"8 |
+    \skip1 |
+    \skip2 "Mo"4 -- "tor" -- |
+    "ing."4. \skip2 \skip8 |
+    \skip1 \skip4 |
+    \skip1 |
+}

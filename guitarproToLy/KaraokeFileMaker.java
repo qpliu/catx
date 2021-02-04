@@ -10,9 +10,11 @@ final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
 	pictures.put("butterfly","../butterfly.png");
 	pictures.put("drown","../drown.svg");
 	pictures.put("frog","../frog.png");
+	pictures.put("night","../night.png");
 	pictures.put("rainbow","../rainbow.png");
 	pictures.put("storm","../storm.svg");
 	pictures.put("sun","../sun.svg");
+	pictures.put("tonight","../night.png");
 	pictures.put("train","../train.png");
 	pictures.put("umbrella","../umbrella.svg");
 	pictures.put("yeah","../yeah.png");
