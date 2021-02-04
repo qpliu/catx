@@ -1,0 +1,125 @@
+guitarBDotext = {
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1" #7
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 2" #13
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Interlude" #19
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus 1" #23
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 3" #31
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 4" #37
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus 2" #47
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus 3" #55
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Solo" #62
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \tuplet 3/2 { `.(e)bend0:0:15:150:30:150:45:0:60:0`1~ `.(e)bend0:0:15:150:30:150:45:0:60:0`4 \skip4 } |
+    \skip1 |
+    \skip2. \tuplet 3/2 { `slide`4 \skip8 } |
+    \skip1 |
+    \skip2 \skip8 `slide`8~ <`.(d'')bend0:0:15:100:30:100:45:0:60:0` `slide`>8. \skip16 |
+    `.(d'')bend0:0:15:100:60:100`4. \skip4 `.(d'')bend0:100:60:100`4~ `.(d'')bend0:100:60:100`16 \skip16 |
+    \tuplet 3/2 { `.(d'')bend0:0:15:50:60:50`2 \skip2 \skip8 } `.(d'')bend0:100:60:100`8. \skip16 |
+    `slide`4. \skip16. `slide`4.~ `slide`32 \skip8 |
+    \skip1 |
+    \skip4. `.(b'')bend0:0:15:25:60:25`8 \skip2 |
+\mymark "Chorus 4" #76
+    `.(d''')bend0:0:15:100:60:100`2. `slide`4~ |
+    `slide`4. \skip8 `slide`8 \skip4. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus 5" #84
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Break Down" #92
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Outro" #96
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Last Bit" #102
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 \skip4 |
+    \skip1 |
+}

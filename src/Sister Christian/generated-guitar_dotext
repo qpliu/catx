@@ -1,0 +1,125 @@
+guitarDotext = {
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1" #7
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 2" #13
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Interlude" #19
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus 1" #23
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 3" #31
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 4" #37
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus 2" #47
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip2 `slide`8 \skip4. |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus 3" #55
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. `slide`4 |
+    \skip2 `slide`8 \skip4. |
+    \skip1 |
+\mymark "Solo" #62
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus 4" #76
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus 5" #84
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Break Down" #92
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Outro" #96
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Last Bit" #102
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 \skip4 |
+    \skip1 |
+}

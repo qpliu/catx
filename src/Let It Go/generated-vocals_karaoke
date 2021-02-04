@@ -8,8 +8,8 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip4. "@"2 "@|!bg=4"8
     \skip4. "@|!bg=3"2 "@|!bg=2"8
     \skip4. "@|!bg=1"2 "The|!bg="8
-    "snow"4 "glows" "white" "on"8 "the"
-    "moun"8 "-tain" "to" "-night,"4. ">Not"8 "a"
+    "snow"4 "glows" "white" ">on"8 "the"
+    "moun"8 "-tain" "to|!bg=img=../night.png" "-night,"4. ">Not|!bg="8 "a"
     "foot"8 "-print"2 "to"8 "be" "seen."
     \skip4 "-"2 \skip8 ">A"8
     "king"8 "-dom" "of" "i"4. "-so"8 "-la"

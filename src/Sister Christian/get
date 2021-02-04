@@ -26,12 +26,14 @@ track 4 \
     output-lilypond \
 track 5 \
     preset peter \
+    output-dotext \
     output-lilypond \
 track 6 \
     preset peter \
     output-lilypond \
 track 7 \
     preset peter \
+    output-dotext \
     output-lilypond \
 track 8 \
     preset bass \

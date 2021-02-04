@@ -24,9 +24,9 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"8 ">Up"16 "a" "head"8 "in"16 "the" "dis"8 "tance" "-"4
     "-"16 "I" "saw" "a" \tuplet 3/2 { "shim"8 "mer" "ing" } "light."4 "-"
     "-"16 ">My" "head" "grew" "heav" "y" "and" "my" "sight"8 "grew"16 "dim," "-"4
-    "-"16 ">I" "had" "to" \tuplet 3/2 { "stop"8 "for" "the" } "night."16 "-"4. \skip16
+    "-"16 ">I" "had" "to" \tuplet 3/2 { "stop"8 "for" "the" } "night.|!bg=img=../night.png"16 "-"4. \skip16
 \mymark "Verse 2" #25
-    "-"8 ">There"16 "she" "-" "stood" "in" "the" "door"8 "way;" "-"4
+    "-"8 ">There|!bg="16 "she" "-" "stood" "in" "the" "door"8 "way;" "-"4
     "-"16 "I" "heard" "the" \tuplet 3/2 { "mis"8 "sion" "bell."4 \skip16 } "-"4.
     "-"8. ">An'"16 "I" "was" "think" "in'" "to" "my"8 "self," ">this"16 "could" "be"
     \tuplet 3/2 { "heav"8 "en" "or" "this" "could" "be" "-" "hell." "-"2 }
@@ -59,8 +59,8 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"8 ">nine"16 "-" "teen" "six"8 "ty"16 "nine." "-"4. \skip16
     "-"8 ">An'"16 "-" "still"8 "those" "voic"16 "es" "are" "call"8 "ing"16 "from"8
     "far"16 "-"4 \skip16 "a"16 "way."4. "-"8.
-    "-"8 ">Wake"16 "you" "up" "-" "in" "the" "mid" "dle" "of" "the" "night" "-"8.
-    "-"8 ">just"16 "to" "hear"8 "them"16 "-" "say:"4 "-"
+    "-"8 ">Wake"16 "you" "up" "-" ">in" "the" "mid" "dle" "of" "the" "night|!bg=img=../night.png" "-"8.
+    "-"8 ">just|!bg="16 "to" "hear"8 "them"16 "-" "say:"4 "-"
 \mymark "Chorus" #57
     "-"8 ">\"Wel"16 "come"8 "to"16 "the" "Ho"8 "tel"8. "Cal"16 "-" "i" "for"
     "-"16 "nia,"8 "-"2 \skip8. ">such"16 "a"
@@ -84,7 +84,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"8 "run"16 "ning"8 "for"16 "the" "door." "-"2
     "-"8. ">I"16 "had" "to" "find" "the" \tuplet 3/2 { "pas"8 "sage" "back"8. \skip32 } "-"16 "to" "the"
     "place"8 "I" "was"16 "-" "be" "fore."8 "-"4. \skip16
-    "-"8 ">\"Re"16 "lax,\""8. "said"16 "the" "night"8 "man,"16 "-"8. ">\"We"16 "are"
+    "-"8 ">\"Re"16 "lax,\""8. "said"16 "the" "night|!bg=img=../night.png"8 "man,|!bg="16 "-"8. ">\"We"16 "are"
     "-"8 "pro"16 "grammed"8 "to"16 "re"8 "ceive." "-"4.
     "-"8 ">You"16 "can" "check" "out" "an" "y"8 "time" "you"16 "like," "-"8.
     "-"16 ">but" "you" "can"8 "nev"16 "er" "-" "leave.\"" "-"4. \skip16

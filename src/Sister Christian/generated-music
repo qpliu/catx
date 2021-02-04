@@ -11,8 +11,10 @@
 \include "generated-midiOne"
 \include "generated-midiOneA"
 \include "generated-midiOneB"
+\include "generated-guitar_donetext"
 \include "generated-guitar"
 \include "generated-guitarA"
+\include "generated-guitarB_donetext"
 \include "generated-guitarB"
 \include "generated-bass"
 \include "drs"
@@ -105,12 +107,14 @@ midimusic = <<
     \tag #'(midiOne) \new Staff = "generated-midiOneB" \with {
         midiInstrument = #"rock organ"
     } \midiOneB
+    \tag #'(midiPeter) \new Staff = "generated-guitar_dotext" \guitarDotext
     \tag #'(midiPeter) \new Staff = "generated-guitar" \with {
         midiInstrument = #"overdriven guitar"
     } \guitar
     \tag #'(midiPeter) \new Staff = "generated-guitarA" \with {
         midiInstrument = #"overdriven guitar"
     } \guitarA
+    \tag #'(midiPeter) \new Staff = "generated-guitarB_dotext" \guitarBDotext
     \tag #'(midiPeter) \new Staff = "generated-guitarB" \with {
         midiInstrument = #"overdriven guitar"
     } \guitarB

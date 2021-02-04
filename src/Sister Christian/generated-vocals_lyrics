@@ -68,7 +68,7 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip4 \skip2 \skip8 "In"8 |
     "find"4 -- "ing" "mis" -- "ter"8 "right?" |
     \skip4 \skip2 \skip8 "You'll"8 |
-    "be"4 "al" -- "right" "to"8 "night." |
+    "be"4 "al" -- "right" "to"8 -- "night." |
     \skip4 \skip2. |
 \mymark "Solo" #62
     \skip1 |
@@ -91,7 +91,7 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip4 \skip2 \skip8 "In"8 |
     "find"4 -- "ing" "mis" -- "ter"8 "right?" |
     \skip4 \skip2 \skip8 "You'll"8 |
-    "be"4 "al" -- "right" "to"8 "night." |
+    "be"4 "al" -- "right" "to"8 -- "night." |
     \skip4 \skip2. |
     \skip2. \skip8 "You're"8 |
 \mymark "Chorus 5" #84
@@ -101,7 +101,7 @@ vocalsLyrics = \new Lyrics \lyricmode {
     "find"4 -- "ing" "mis" -- "ter"8 "right?" |
     \skip4 \skip2 \skip8 "You'll"8 |
     "be"4 "al" -- "right" \skip4 |
-    \skip8 "to"8 "night."4 \skip16 \skip4. \skip16 |
+    \skip8 "to"8 -- "night."4 \skip16 \skip4. \skip16 |
     \skip1 |
 \mymark "Break Down" #92
     \skip1 |

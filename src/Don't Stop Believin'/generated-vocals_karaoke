@@ -42,7 +42,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"4. ">A"8 "smell"16 "of" "wine"4 "and"8
     "cheap"4 "per"8 "-fume"2 \skip8
     "-"4 ">For"8 "a" "smi" "-le" "they" "can"
-    "share"4 "the"8 "night." \tuplet 3/2 { "-"4 ">It" "goes" }
+    "share"4 "the"8 "night.|!bg=img=../night.png" \tuplet 3/2 { "-"4 ">It|!bg=" "goes" }
     "on"4 "and"8 "on,"4. "and"8 "on,"
     \skip4 "and"8 "on."2 \skip8
 \mymark "Bridge" #41
@@ -51,15 +51,15 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"2 ">Up"8 "and" "down" "the"
     "bou"4 "-le"8 "-vard."4. ">Their"4
     "sha"4. "-dows" "-"4
-    "sear"4. "-ching"4 "in"8 "the" "night."
+    "sear"4. "-ching"4 "in"8 "the" "night.|!bg=img=../night.png"
     \skip1
     "-"1
-    ">Street"4. "-lights," "-"4
+    ">Street|!bg="4. "-lights," "-"4
     "peop"4. "-le" "-"4
     "-"2 ">Liv"8 "-ing" "just" "to"
     "find"4 "e"8 "-mo"4. "-tion."4
-    "Hid"4. "-ing" "-"4
-    "some"4. "-where"8 "in" "the" "night,"4
+    ">Hid"4. "-ing" "-"4
+    "some"4. "-where"8 "in" "the" "night,|!bg=img=../night.png"4
     \skip1
     \skip2. "-"4
     "-"4 ">@"2 "@"4
@@ -90,15 +90,15 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"2 ">Up"8 "and" "down" "the"
     "bou"4 "-le"8 "-vard."4. ">Their"4
     "sha"4. "-dows" "-"4
-    "sear"4. "-ching"4 "in"8 "the" "night."
+    "sear"4. "-ching"4 "in"8 "the" "night.|!bg=img=../night.png"
     \skip1
     "-"1
-    ">Street"4. "-lights," "-"4
+    ">Street|!bg="4. "-lights," "-"4
     "peop"4. "-le" "-"4
     "-"2 ">Liv"8 "-ing" "just" "to"
     "find"4 "e"8 "-mo"4. "-tion."4
-    "Hid"4. "-ing" "-"4
-    "some"4. "-where"4 "in"8 "the" "night,"
+    ">Hid"4. "-ing" "-"4
+    "some"4. "-where"4 "in"8 "the" "night,|!bg=img=../night.png"
     \skip1
     \skip2. "-"4
 \mymark "Guitar Solo" #93
