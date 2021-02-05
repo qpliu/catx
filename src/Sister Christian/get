@@ -8,13 +8,13 @@ add-lyrics 0 6 "$LYRICS" \
 modified-filename drs \
 track 0 \
     preset kav \
-    transpose 12 \
     which-lyrics arg \
     output-lilypond \
     output-lyrics \
     output-karaoke \
 track 1 \
     preset susan \
+    transpose 12 \
     output-lilypond \
 track 2 \
     preset midiOne \
