@@ -2,14 +2,14 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
     "-"2
 \mymark "Intro" #2
-    "-"1
+    "!mark=Intro"1
     "-"2 ">U"4 "wao!"8. "-"16
     "-"2 ">@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
 \mymark "Verse 1A" #8
-    "U"4 "-chu" "-u" "no"
+    "U|!mark=Verse 1A"4 "-chu" "-u" "no"
     "ha"4 "-te" "no" "ha"8 "-te"
     "de"4 "-mo" \tuplet 3/2 { "KI"8 "-MI" "no" } "ko"8 "-to"
     "o"4 "-mo" "-u" "-"
@@ -18,7 +18,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-i"4 "wo" \tuplet 3/2 { "ma"8 "-ki" "-chi" } "-ra"4
     "-su"2 "-"
 \mymark "Verse 1B" #16
-    ">Too"4 "-ku"8 "-te"4. "-"4
+    ">Too|!mark=Verse 1B"4 "-ku"8 "-te"4. \skip4
     "ai"8. "-ta"16 "-ku"8 "-te"4. "-"4
     ">To"16 "-doki"8. "-sou"8 "de"4. "-"4
     "i"8. "-tsu"16 "-dat"8. "-te"16 "na"8. "-mi"16 "-da"8. "me"16
@@ -27,7 +27,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     ">Un"4 "-mei?" "Shuku" "-mei?"
     "Da"8. "-re"16 "no"8 "se"16 "-i?"4 \skip16 "-"4
 \mymark "Pre-Chorus 1" #24
-    ">BO"2 "-KU"8 "no"
+    ">BO|!mark=Pre-Chorus 1"2 "-KU"8 "no"
     "su"4 "-be" "-te"
     "sa"2 "-sa"8 "-ge"
     "-ru"4. "-"8 "ka"4
@@ -35,7 +35,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     ">KU"8 "-ZU" "no"16 "na"8 "-ri"8. "-te"8 "KI"4
     "-MI"4. "ni"2 "-"8
 \mymark "Chorus 1A" #31
-    "ko"4. "-i"4 "-shi"8 "tsu" "-dzu"
+    "ko|!mark=Chorus 1A"4. "-i"4 "-shi"8 "tsu" "-dzu"
     \skip8 "-ke"4. "-you"4 "O"
     "-mo"4 "-i"8 "wa"2 \skip8
     \skip2 "-"2
@@ -52,7 +52,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "-ma"8 "-wa"2 "-"4
     "-"1
 \mymark "Chorus 1B" #47
-    "-na"4. "-i!"4 ">Sou"8 "su" "-ki"
+    "-na|!mark=Chorus 1B"4. "-i!"4 ">Sou"8 "su" "-ki"
     \skip8 "da"4. "-ka"4 "-ra"
     "Ne"4 "-ga"8 "-i"2 \skip8
     \skip2 \skip8 "-"4.
@@ -70,7 +70,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "sa!"2 "Ai"4. "wo"8
     \skip8 "-"2. \skip8
 \mymark "Interlude" #64
-    ">@"2 "@"
+    ">@|!mark=Interlude"2 "@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -80,7 +80,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "ko|!bg="2 "-no"
     "mu"2 "-ne"
 \mymark "Verse 2A" #73
-    "ni"4 "i" "-tsu" "-ma"8 "-de"
+    "ni|!mark=Verse 2A"4 "i" "-tsu" "-ma"8 "-de"
     "-mo!"4 ">Ai" "ai" "sa!"8 "Zen"
     \tuplet 3/2 { "-bu"8 "zen" "-bu" } "ai"8 "no" \tuplet 3/2 { "na"8 "no" "mo" } "-to"8 "ni!"
     "Ai"4 "ai" "sa!" ">Ai"8. "-shi"16
@@ -89,7 +89,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "susun"8 "-de" "-ku" "Ka" \tuplet 3/2 { "-soku"8 "su" "-ru" } "to"8 "-ki"
     "-"1
 \mymark "Verse 2B" #81
-    "-do"16 "-ki"8 "DO"16 "-KI"8 "-DO"4. "-"4
+    "-do|!mark=Verse 2B"16 "-ki"8 "DO"16 "-KI"8 "-DO"4. \skip4
     "-KI"4 "Ki"8 "-ra"4. "-"4
     ">ki"16 "-ra"8. "to"8 "kira"4. "-"4
     ">ma"8. "-kun"16 "da"8. "Is"16 "-shun"8. "is"16 "-shun"8. "FU"16
@@ -98,7 +98,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     ">ka"4 "ku" "-da" "-ke"
     "-chit"8. "-te"16 "mo"8 "Ko"16 "-no"4 \skip16 "-"4
 \mymark "Pre-Chorus 2" #89
-    ">u"2 "-chu"8 "-u"
+    ">u|!mark=Pre-Chorus 2"2 "-chu"8 "-u"
     "do"4 "-ko" "ni"
     "i"2 "-te"8 "mo"
     "Ki"4. "-"8 "-mi"4
@@ -106,7 +106,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "ka"8 "-ra" ">Ku"16 "-ra"8 "-ya"8. "-mi"8 "te"4
     "-ra"4. "-su"2 "-"8
 \mymark "Chorus 2A" #96
-    "yo"4. "Kii"4 "-ro"8 "-ku" "hi"
+    "yo|!mark=Chorus 2A"4. "Kii"4 "-ro"8 "-ku" "hi"
     \skip8 "-ka"4. "-ru"4 "ken"
     "-ta"4 "-u"8 "-ro"2 \skip8
     \skip2 "-"2
@@ -123,7 +123,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "too"8 "-ku"2 "-"4
     "-"1
 \mymark "Chorus 2B" #112
-    "-te"4. "mo"4 "Bo"8 "-ku" "wa"
+    "-te|!mark=Chorus 2B"4. "mo"4 "Bo"8 "-ku" "wa"
     \skip8 "ki"4. "-mi"4 "no"
     "ko"4 "-to"8 "wo"2 \skip8
     \skip2 \skip8 "-"4.
@@ -142,7 +142,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "-"2. \skip8
     "-"1
 \mymark "Bridge" #130
-    "-"1
+    "!mark=Bridge"1
     "-"1
     "-"1
     "-"1
@@ -153,7 +153,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
 \mymark "Guitar Solo" #140
-    "-"1
+    "!mark=Guitar Solo"1
     "-"1
     "-"1
     "-"1
@@ -170,7 +170,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
 \mymark "Post Solo/Pre-Chorus 3" #156
-    ">Sa"8 "-ku" "-retsu!" "Kyou" "-retsu!" "-"4 ">Ha"8
+    ">Sa|!mark=Post Solo/Pre-Chorus 3"8 "-ku" "-retsu!" "Kyou" "-retsu!" \skip4 ">Ha"8
     "-re"8 "-tsu!" "Ba" "-ku" "-retsu!" "-" "Ooooooo" "MO"
     "-RETSU!"8 ">Ho" "-shi" "-ku" "-zu"4 "no"
     "KU"2 "-"4 "-ZU"8 "no"
@@ -181,7 +181,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-ku"1
     "hi"4. "-ka"2 "-"8
 \mymark "Chorus 3A" #166
-    "-ru"4. ">A"4 "-N"8 "-TA" "-RE"
+    "-ru|!mark=Chorus 3A"4. ">A"4 "-N"8 "-TA" "-RE"
     \skip8 "-SU"4. "no"4 "yo"
     "-u"4 "ni"8 "Na"2 \skip8
     \skip2 "-"2
@@ -198,12 +198,12 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "-mo"8 "ga"2 "-"4
     "-"1
 \mymark "Chorus 3B" #182
-    ">KI"4. "-MI"4 "wo"8 "ma" "-mo"
+    ">KI|!mark=Chorus 3B"4. "-MI"4 "wo"8 "ma" "-mo"
     \skip8 "-ri"4. "tsu"4 "-dzu"
     "-ke"4 "-ru"8 "you!"2 \skip8
     \skip2 \skip8 "-"4.
     ">Mo"4. "-re"4 "-tsu!"8 "-"4
-    "-"2. "@@"32 "-"8. \skip32
+    "-"1
     "-"1
     "-"1
     "-"1
@@ -217,9 +217,9 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
 \mymark "Ending" #200
+    "!mark=Ending"1
     "-"1
-    "-"1
-    "-"1
+    "@@"32 "-"2. \skip8. \skip32
     "-"1
     "-"1
     "-"1

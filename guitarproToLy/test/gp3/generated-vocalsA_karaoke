@@ -1,13 +1,13 @@
 vocalsAKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Intro                          TAB by JPGR" #1
-    "-"4. \skip16 ">@"2 "@"16
+    "!mark=Intro                          TAB by JPGR"4. \skip16 ">@"2 "@"16
     \skip4. \skip16 "@"2 "@"16
     \skip4. \skip16 "@"2 "@|!bg=4"16
     \skip4. \skip16 "@|!bg=3"2 "@|!bg=2"16
     \skip4. \skip16 "@|!bg=1"2 "I|!bg="16
 \mymark "Verse 1" #6
-    "listen"8 "-" "for your" "-"16 " footsteps"8. "-"4.
+    "listen|!mark=Verse 1"8 \skip8 "for your"8 \skip16 " footsteps"8. \skip4.
     "coming"16 "-"8. "up"8 "the drive"16 "-"2 \skip16
     ">listen"8 "-" "for" "your foot -"16 "-"8. "steps"4 "-"8
     "but"8 "they" " don't" "  arrive"16 "-"2 \skip16
@@ -18,7 +18,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "more -----."8 "-"2. \skip8
     "-"2. \skip8. ">I"16
 \mymark "Verse 2" #16
-    "hear the"8 "-" "clock a -" "-"16 "  ticking"8. "-"4.
+    "hear the|!mark=Verse 2"8 \skip8 "clock a -"8 \skip16 "  ticking"8. \skip4.
     "on the"16 "-"8. "mantel shelf"8 "-"2 \skip8
     ">See the"8 "-" "hands" "    a-mov -"16 "-"8. "ing"4 "-"8
     "but I'm"8. "-"16 "by"8 "myself"16 "-"2 ">I"16
@@ -29,7 +29,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "more ----."8 "-"2. \skip8
     "-"2 ">    Don't"8 " " "pass me by" "-"
 \mymark "Chorus" #26
-    "-"8 "don't" "  make me cry" "-"4 ">don't make me blue"8 "-"4
+    "!mark=Chorus"8 "don't" "  make me cry" \skip4 ">don't make me blue"8 \skip4
     "-"2 \skip8 ">'Cause you know"8 "-"4
     "darling"8 "-"4 ">I"8 "love"4 "on -"8 "ly"
     "you"4 "-"4. "you'll never"8 "-"4
@@ -42,7 +42,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     \skip4. \skip16 "@"2 "@"16
     \skip4. \skip16 "@"2 "I'm"16
 \mymark "Verse 3" #38
-    "sorry"16 "-"8. "that"8 "I"16 "doubt -"8. "  ed you"16 "-"4 \skip16
+    "sorry|!mark=Verse 3"16 \skip8. "that"8 "I"16 "doubt -"8. "  ed you"16 \skip4 \skip16
     "I"8 "was" "so" "unfair"16 "-"2 \skip16
     ">You"8 "were" "in" "a"16 "car" "-"8 "crash"4 "-"8
     "and"8 "you" "lost" "your hair"16 "-"2 ">You"16
@@ -53,7 +53,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "you. --------"8 "-"2. \skip8
     "-"2 ">    Don't"8 " " "pass me by" "-"
 \mymark "Chorus" #48
-    "-"8 "don't" "  make me cry" "-"4 ">don't make me blue"8 "-"4
+    "!mark=Chorus"8 "don't" "  make me cry" \skip4 ">don't make me blue"8 \skip4
     "-"2 \skip8 ">'Cause you know"8 "-"4
     "darling"8 "-"4 ">I"8 "love"4 "on -"8 "ly"
     "you"4 "-"4. "you'll never"8 "-"4
@@ -64,7 +64,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "cry -----------"8 "-"2. \skip8
     "-"1
 \mymark "Coda" #58
-    ">One"4 "two" "three" "  four"
+    ">One|!mark=Coda"4 "two" "three" "  four"
     "five"4 "six" "seven" "   eight"
     "-"1
     "-"4 ">Whoo" " "2

@@ -29,11 +29,11 @@ midiOneB = {
     r4 <c'' g' e'> r <c'' g' e'> |
     r4 <c'' a' f'> r <c'' a' f'> |
     r4 <c'' g' e'> r <c'' g' e'> |
-    r4 <c'' a' f'> <d' f' ais'> <d' f' ais'> |
+    r4 <c'' a' f'> <d' f' bes'> <d' f' bes'> |
     r4 <c'' g' e'> r <c'' g' e'> |
     r4 <c'' a' f'> r <c'' a' f'> |
-    <d' f' ais'>1 |
-    <ais d' f'>4. <a' c' f'> <ais d' g'>4 |
+    <d' f' bes'>1 |
+    <bes d' f'>4. <a' c' f'> <bes d' g'>4 |
 \mymark "Verse 3" #31
     <g c' e'>1 |
     <a c' f'>2 <d' b g'> |
@@ -56,21 +56,21 @@ midiOneB = {
     r4 <c'' g' e'> r <c'' g' e'> |
     r4 <c'' a' f'> r <c'' a' f'> |
     r4 <c'' g' e'> r <c'' g' e'> |
-    r4 <c'' a' f'> <d' f' ais'> <d' f' ais'> |
+    r4 <c'' a' f'> <d' f' bes'> <d' f' bes'> |
     r4 <c'' g' e'> r <c'' g' e'> |
     r4 <c'' a' f'> r <c'' a' f'> |
-    <d' f' ais'>1 |
-    <a' c' f'>8 <d' f' ais'> <d' f' ais'> <c' f' a'> <ais' d' f'> <ais' d' f'> <c' a' f'> <ais' d' f'> |
+    <d' f' bes'>1 |
+    <a' c' f'>8 <d' f' bes'> <d' f' bes'> <c' f' a'> <bes' d' f'> <bes' d' f'> <c' a' f'> <bes' d' f'> |
 \mymark "Chorus 3" #55
     r4. <c'' g' e'> <c'' g' e'>4 |
     r4 <c'' a' f'> r <c'' a' f'> |
     r4 <c'' g' e'> r <c'' g' e'> |
-    r4 <c'' a' f'> <d' f' ais'> <d' f' ais'> |
+    r4 <c'' a' f'> <d' f' bes'> <d' f' bes'> |
     r4 <c'' g' e'> r <c'' g' e'> |
     r4 <c'' a' f'> r <c'' a' f'> |
-    <d' f' ais'>1 |
+    <d' f' bes'>1 |
 \mymark "Solo" #62
-    <d' f' ais'>4. <c' f' a'> <ais d' g'>4 |
+    <d' f' bes'>4. <c' f' a'> <bes d' g'>4 |
     r1 |
     r1 |
     r1 |
@@ -88,20 +88,20 @@ midiOneB = {
     r4. <c'' g' e'> <c'' g' e'>4 |
     r4 <c'' a' f'> r <c'' a' f'> |
     r4 <c'' g' e'> r <c'' g' e'> |
-    r4 <c'' a' f'> <d' f' ais'> <d' f' ais'> |
+    r4 <c'' a' f'> <d' f' bes'> <d' f' bes'> |
     r4 <c'' g' e'> r <c'' g' e'> |
     r4 <c'' a' f'> r <c'' a' f'> |
-    <d' f' ais'>1 |
-    <a' c' f'>8 <d' f' ais'> <d' f' ais'> <c' f' a'> <ais' d' f'> <ais' d' f'> <c' a' f'> <ais' d' f'> |
+    <d' f' bes'>1 |
+    <a' c' f'>8 <d' f' bes'> <d' f' bes'> <c' f' a'> <bes' d' f'> <bes' d' f'> <c' a' f'> <bes' d' f'> |
 \mymark "Chorus 5" #84
     r4 <c'' g' e'> r <c'' g' e'> |
     r4 <c'' a' f'> r <c'' a' f'> |
     r4 <c'' g' e'> r <c'' g' e'> |
-    r4 <c'' a' f'> <d' f' ais'> <d' f' ais'> |
+    r4 <c'' a' f'> <d' f' bes'> <d' f' bes'> |
     r4 <c'' g' e'> r <c'' g' e'> |
     r4 <c'' a' f'> r <c'' a' f'> |
-    <d' f' ais'>1 |
-    <d' f' ais'>4. <c' f' a'> <ais d' g'>4 |
+    <d' f' bes'>1 |
+    <d' f' bes'>4. <c' f' a'> <bes d' g'>4 |
 \mymark "Break Down" #92
     <g c' e'>1 |
     <a c' f'>1 |

@@ -7,9 +7,5 @@ do
     cd "$b"
     echo "$b"
     ./get
-    if test -e ../buildBin
-    then
-	../buildBin
-    fi
     cd "$pwdpwd"
 done

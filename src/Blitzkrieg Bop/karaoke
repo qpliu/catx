@@ -1,5 +1,5 @@
 karaokeLyrics = \new Lyrics \lyricmode {
-    >@2 @
+    ">@|!mark=Intro"2 @
     @2 @
     @2 @
     @2 @
@@ -48,7 +48,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "go."4
     -8
     ">They're"8
-    "form"8
+    "form|!mark=Verse 1"8
     "-in'"8
     "in"8
     "a"8
@@ -112,7 +112,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "Bop"4
     -2.
     -1
-    ">Hey"4
+    ">Hey|!mark=Chorus 1"4
     -4
     "ho,"4
     -4
@@ -146,7 +146,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "go."4
     -4
     ">They're"8
-    "form"8
+    "form|!mark=Verse 2"8
     "-in'"8
     "in"8
     "a"8
@@ -210,7 +210,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "Bop"4
     -2.
     -1
-    ">Hey"4
+    ">Hey|!mark=Chorus 2"4
     -4
     "ho,"4
     -4
@@ -244,8 +244,8 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "go."4
     -4
     ">They're"8
-    "for"8
-    "-min'"8
+    "form|!mark=Verse 3"8
+    "-in'"8
     "in"8
     "a"8
     "straight"4
@@ -308,7 +308,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "Bop"4
     -2.
     -1
-    ">Hey"4
+    ">Hey|!mark=Outro"4
     -4
     "ho,"4
     -4

@@ -35,6 +35,7 @@ class Snakes{
 	this.songLength = songLength;
 	this.toneEvents = [];
 	this.lyricEvents = [];
+	this.markEvents = [];
 	this.keysignatureEvents = [];
 	this.beatEvents = [];
 	this.canvasTime = 0;
@@ -91,6 +92,9 @@ class Snakes{
     }
     addBeatEvent(t,what){
 	this.beatEvents.push({t:t,what:what});
+    }
+    addMarkEvent(t,what){
+	this.markEvents.push({t:t,what:what});
     }
     addLyricEvent(t,what){
 	this.lyricEvents.push({t:t,what:what});
@@ -222,6 +226,20 @@ class Snakes{
 			span.innerHTML = k;
 			div[i].appendChild(span);
 		    }
+		}
+	    }
+	}
+	for (const e of this.markEvents){
+	    if (e.t>=lt0 && e.t<lt1){
+		for (let i=0; i<2; i++){
+		    const span=document.createElement("span");
+		    span.style.position = "absolute";
+		    span.style.backgroundColor = "#0f0";
+		    span.style.color = "#000";
+		    span.style.left = (x-this.canvasWidth+i*this.canvasWidth)+"px";
+		    span.style.top = "0px";
+		    span.innerHTML = e.what;
+		    div[i].appendChild(span);
 		}
 	    }
 	}

@@ -33,6 +33,7 @@ final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
 	addPictures();
 	addBounces();
 	addLineBreaks();
+	addRehearsalMarks();
 	addEnd();
     }
     @Override void layout(MusicFileMaker mfm)throws IOException{
@@ -65,6 +66,11 @@ final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
 		clearPicture = false;
 	    }
 	}
+    }
+    void addRehearsalMarks(){
+	for (Gpfile.Measure measure:main.gpfile.measures)
+	    if (measure.rehearsalMark!=null)
+		trackEvents.add(new Gpfile.LyricEvent(measure.time,new Rational(measure.time_n),"!mark="+measure.rehearsalMark,false,false,null));
     }
     void addBounces(){
 	Rational lastTime=Rational.ZERO;

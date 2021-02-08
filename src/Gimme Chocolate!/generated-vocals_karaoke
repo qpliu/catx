@@ -1,7 +1,7 @@
 vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Riff 1" #1
-    ">@"2 "@"
+    ">@|!mark=Riff 1"2 "@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -26,7 +26,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "@"2 "@"
     "@"2 "@"
 \mymark "Riff 2" #25
-    "@"2 "@"
+    "@|!mark=Riff 2"2 "@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -35,7 +35,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "@"2 "@"
     "@"2 "@"
 \mymark "Verse 1" #33
-    "@"2 "@"
+    "@|!mark=Verse 1"2 "@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -44,7 +44,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "@"2 "@|!bg=4"
     "@|!bg=3"2 "@|!bg=2"
 \mymark "Chorus" #41
-    "@|!bg=1"2 "Check|!bg="8 "it" "out," "cho"
+    "@|!bg=1|!mark=Chorus"2 "Check|!bg="8 "it" "out," "cho"
     \skip8 "-c'late."4 ">Can" "I" "have"8
     \skip8 "a"4 "lit" "-tle" "bit"8
     \skip8 "of"8 "-" "cho" "-c'late," "please?"4.
@@ -61,7 +61,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "-le,"4 "come" "on." ">Wait,"8
     \skip8 "wait,"8 "-" "wait."4 "-"4.
 \mymark "Riff 1" #57
-    "-"2 ">@"
+    "!mark=Riff 1"2 ">@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -70,7 +70,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "@"2 "@"
     "@"2 "@"
 \mymark "Riff 2" #65
-    "@"2 "@"
+    "@|!mark=Riff 2"2 "@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -79,7 +79,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "@"2 "@"
     "@"2 "@"
 \mymark "Verse 2" #73
-    "@"2 "@"
+    "@|!mark=Verse 2"2 "@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -88,7 +88,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "@"2 "@|!bg=4"
     "@|!bg=3"2 "@|!bg=2"
 \mymark "Chorus" #81
-    "@|!bg=1"2 "Check|!bg="8 "it" "out," "cho"
+    "@|!bg=1|!mark=Chorus"2 "Check|!bg="8 "it" "out," "cho"
     \skip8 "-c'late."4 ">Can" "I" "have"8
     \skip8 "a"4 "lit" "-tle" "bit"8
     \skip8 "of"8 "-" "cho" "-c'late," "please?"4.
@@ -105,7 +105,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "-le,"4 "come" "on." ">Wait,"8
     \skip8 "wait,"8 "-" "wait."4 "-"4.
 \mymark "Post-Chorus" #97
-    ">Pa"8 "-ra" "-" "-pa" "-" "-pa" "-" "-pa"
+    ">Pa|!mark=Post-Chorus"8 "-ra" \skip8 "-pa"8 \skip8 "-pa"8 \skip8 "-pa"8
     \skip8 "-ra"8 "-" "pa" "-" "-pa" "-" "-pa"
     \skip8 "-ra"8 "-" "pa" "-" "-pa" "-" "-pa"
     \skip8 "-"8 "pa" "-" "pa" "-pa" "-pa" "-pa."
@@ -114,7 +114,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "-"4 ">Too,"8 "-" "too." "-" "P!"
     \skip8 "-"8 "P!" "-" "P!" "-" "Come" "on!"
 \mymark "Riff 1" #105
-    "-"2 ">@"
+    "!mark=Riff 1"2 ">@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -131,7 +131,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "@"2 "@"
     "@"2 "@"
 \mymark "Solo" #121
-    "@"2 "@"
+    "@|!mark=Solo"2 "@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -156,7 +156,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "@"2 "@"
     "@"2 "@"
 \mymark "Verse 3" #145
-    "@"2 "@"
+    "@|!mark=Verse 3"2 "@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -165,7 +165,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "@"2 "@|!bg=4"
     "@|!bg=3"2 "@|!bg=2"
 \mymark "Bridge" #153
-    "@|!bg=1"2 "I|!bg="8 "real" "-ly" "tried"
+    "@|!bg=1|!mark=Bridge"2 "I|!bg="8 "real" "-ly" "tried"
     \skip8 "my"4 "hard" "-est," "did"8
     \skip8 "my"4 "best." ">But" "it"8
     \skip8 "just"4. "was"8 "-n’t" "e" "-nough."
@@ -182,7 +182,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "it"4 "to" "me," "please!!"8
     \skip1
 \mymark "Chorus" #169
-    "-"2 ">Check"8 "it" "out," "cho"
+    "!mark=Chorus"2 ">Check"8 "it" "out," "cho"
     \skip8 "-c'late."4 ">Can" "I" "have"8
     \skip8 "a"4 "lit" "-tle" "bit"8
     \skip8 "of"8 "-" "cho" "-c'late," "please?"4.
@@ -199,7 +199,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "it"4 "Just" "a" "lit"8
     \skip8 "-tle"8 "-" "bit!"4 "-"4.
 \mymark "Post-Chorus" #185
-    ">Pa"8 "-ra" "-" "-pa" "-" "-pa" "-" "-pa"
+    ">Pa|!mark=Post-Chorus"8 "-ra" \skip8 "-pa"8 \skip8 "-pa"8 \skip8 "-pa"8
     \skip8 "-ra"8 "-" "pa" "-" "-pa" "-" "-pa"
     \skip8 "-ra"8 "-" "pa" "-" "-pa" "-" "-pa"
     \skip8 "-"8 "pa" "-" "pa" "-pa" "-pa" "-pa."
@@ -208,7 +208,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "-"4 ">Too,"8 "-" "too." "-" "P!"
     \skip8 "-"8 ">P!" "-" "P!" "-" "Come" "on!"
 \mymark "Outro" #193
-    "Pa"8 "-ra" "-" "-pa" "-" "-pa" "-" "-pa"
+    "Pa|!mark=Outro"8 "-ra" \skip8 "-pa"8 \skip8 "-pa"8 \skip8 "-pa"8
     \skip8 "-ra"8 "-" "pa" "-" "-pa" "-" "-pa"
     \skip8 "-ra"8 "-" "pa" "-" "-pa" "-" "-pa"
     \skip8 "-"8 "pa" "-" "pa" "-pa" "-pa" "-pa."

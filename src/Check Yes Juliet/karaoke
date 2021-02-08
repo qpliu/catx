@@ -1,5 +1,5 @@
 karaokeLyrics = \new Lyrics \lyricmode {
-    ">@"2 @
+    ">@|!mark=Intro"2 @
     @2 @
     @2 @
     @2 @
@@ -11,7 +11,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     @2 @
     "@|!bg=4"2 "@|!bg=3"
     "@|!bg=2"2 "@|!bg=1"
-    "Check|!bg="4
+    "Check|!bg=|!mark=Verse 1"4
     "yes"4
     "Ju"4
     "-li"8
@@ -42,7 +42,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "-side."2
     -2
     -1
-    ">Check"4
+    ">Check|!mark=Verse 1A"4
     "yes"4
     "Ju"4
     "-li"8
@@ -75,7 +75,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     \skip2
     -2
     -1
-    ">Lace"8
+    ">Lace|!mark=Pre-Chorus 1"8
     "up"4
     "your"8
     "shoes."4
@@ -90,7 +90,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     ">Run"4
     "ba"4
     "-by"4
-    "run,"2.
+    "run,|!mark=Chorus 1"2.
     "don't"4
     "e"4
     "-ver"4
@@ -144,12 +144,12 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "|||you"8
     "and"4
     "me."8
-    \skip2
+    "!mark=Post-Chorus 1"2
     -2
     ">@"2 @
     "@|!bg=4"2 "@|!bg=3"
     "@|!bg=2"2 "@|!bg=1"
-    "Check|!bg="4
+    "Check|!bg=|!mark=Verse 2"4
     "yes"4
     "Ju"4
     "-li"8
@@ -181,7 +181,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "-bye."2
     -2
     -1
-    ">Check"4
+    ">Check|!mark=Verse 2A"4
     "yes"4
     "Ju"4
     "-li"8
@@ -216,7 +216,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     \skip2
     -2
     -1
-    ">Lace"8
+    ">Lace|!mark=Pre-Chorus 2"8
     "up"4
     "your"8
     "shoes."4
@@ -231,7 +231,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     ">Run"4
     "ba"4
     "-by"4
-    "run,"2.
+    "run,|!mark=Chorus 2"2.
     "don't"4
     "e"4
     "-ver"4
@@ -285,7 +285,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "|||you"8
     "and"4
     "me."8
-    \skip8
+    "!mark=Bridge"8
     ">Fly"8
     "-in'"4
     "through"8
@@ -323,7 +323,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "by"2
     "my"4
     "side."4
-    \skip2
+    "!mark=Hook"2
     -4
     -2
     ">@"2 @
@@ -335,7 +335,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "Run|!bg="4
     "ba"4
     "-by"4
-    "run,"2.
+    "run,|!mark=Break"2.
     "don't"4
     "e"4
     "-ver"4
@@ -363,7 +363,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     ">Don't"4
     "sell"4
     "your"4
-    "heart,"2
+    "heart,|!mark=Chorus 3"2
     "don't"2
     "say"2
     "we're"4
@@ -377,7 +377,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     ">Run"4
     "ba"4
     "-by"4
-    "run,"2.
+    "run,|!mark=Chorus 4"2.
     "for"4
     "-e"4
     "-ver"4
@@ -443,7 +443,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "|||you"8
     "and"4
     "me."8
-    \skip1
+    "!mark=Outro"1
     -1
     @@1
     -1

@@ -11,14 +11,11 @@ class LyricsKaraokeFileMaker extends ChoppedTrackFileMaker{
 	if (!(event instanceof Gpfile.LyricEvent))
 	    return false;
 	Gpfile.LyricEvent le=(Gpfile.LyricEvent)event;
-	if (which_lyrics.size()!=0 && !which_lyrics.contains(le.which))
+	if (le.which!=null && which_lyrics.size()!=0 && !which_lyrics.contains(le.which))
 	    return false;
 	if (le.lyric==null || le.lyric.length()==0 || le.lyric.equals("_") || le.lyric.equals("+"))
 	    return false;
 	return true;
-    }
-    @Override String getStuff(){
-	return super.getStuff()+"\\new Lyrics \\lyricmode ";
     }
     @Override MeasureMaker.GetWhatSuffix getGetWhatSuffix(List<Gpfile.Event>list){
 	String lyric=null;
@@ -26,15 +23,17 @@ class LyricsKaraokeFileMaker extends ChoppedTrackFileMaker{
 	for (Gpfile.Event e:list)
 	    if (!e.tie_rhs){
 		Gpfile.LyricEvent le=(Gpfile.LyricEvent)e;
-		if (lyric==null){
-		    lyric = le.lyric;
-		    if (this instanceof KaraokeFileMaker){
-			if (le.hyphen_rhs)
-			    lyric = "-"+lyric;
-		    }else if (le.hyphen_lhs)
-			suffix = " --";
-		}else
+		if (lyric!=null && this instanceof LyricsFileMaker){
 		    Log.info("Junking simultaneous lyric %s",le.lyric);
+		    continue;
+		}
+		String l=le.lyric;
+		if (this instanceof KaraokeFileMaker){
+		    if (le.hyphen_rhs)
+			l = "-"+l;
+		}else if (le.hyphen_lhs)
+		    suffix = " --";
+		lyric = lyric==null?l:lyric+'|'+l;
 	    }
 	String lyri=lyric==null?"\\skip":Stuff.quote(lyric);
 	String suffi=suffix;
@@ -46,5 +45,8 @@ class LyricsKaraokeFileMaker extends ChoppedTrackFileMaker{
 		return is_lhs?suffi:"";
 	    }
 	};
+    }
+    @Override String getStuff(){
+	return super.getStuff()+"\\new Lyrics \\lyricmode ";
     }
 }

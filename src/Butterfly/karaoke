@@ -1,5 +1,5 @@
 karaokeLyrics = \new Lyrics \lyricmode {
--8
+"!mark=Intro"8
 ">@"2 @
 @2 @
 "@|!bg=4"2 "@|!bg=3"
@@ -35,7 +35,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
 "@|!bg=2"2 "@|!bg=1"
 "I've|!bg="8
 "been"8
-"sear"8.
+"sear|!mark=Verse 1"8.
 "-ching"16
 "for"8
 "a"8
@@ -82,7 +82,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
 "-mu"8
 "-rai"8
 -4.
-">Ai"4
+">Ai|!mark=Chorus 1"4
 "ai"8
 \skip8
 "ai"4
@@ -135,7 +135,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
 "@|!bg=2"2 "@|!bg=1"
 "I've|!bg="8
 "been"8
-"sear"8.
+"sear|!mark=Verse 2"8.
 "-ching"16
 "in"8
 "the"8
@@ -183,7 +183,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
 "-mu"8
 "-rai"8
 -4.
-">Ai"4
+">Ai|!mark=Chorus 2"4
 "ai"8
 \skip8
 "ai"4
@@ -283,7 +283,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
 "-mu"8
 "-rai?"8
 -4.
-">Aah"16
+">Aah|!mark=Bridge"16
 \skip16
 \skip2
 -4.
@@ -309,7 +309,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
 \skip16
 \skip2
 -4.
-">Ai"4
+">Ai|!mark=Outro"4
 "ai"8
 \skip8
 "ai"4

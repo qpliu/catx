@@ -66,7 +66,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     -16.
     -1
     -1
-    ">Fri"8
+    ">Fri|!mark=Verse 1"8
     "-day"16
     "night"8
     "and"8
@@ -166,7 +166,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     ">You"4*2/3
     "are"4*2/3
     "the"4*2/3
-    "danc"8.
+    "danc|!mark=Chorus"8.
     "-ing"8.
     "queen"2
     \skip8
@@ -236,7 +236,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     @2 @
     "@|!bg=4"2 "@|!bg=3"
     "@|!bg=2"2 "@|!bg=1"
-    "You're|!bg="8
+    "You're|!bg=|!mark=Verse 2"8
     "a"16
     "teas"8
     "-er,"8
@@ -292,7 +292,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     ">You"4*2/3
     "are"4*2/3
     "the"4*2/3
-    "danc"8.
+    "danc|!mark=Outro"8.
     "-ing"8.
     "queen"2
     \skip8

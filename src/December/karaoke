@@ -1,12 +1,12 @@
 karaokeLyrics = \new Lyrics \lyricmode {
-\skip4 >@2 @
+"!mark=Intro"4 >@2 @
 @2 @
 @2 @
 @2 @
 @2 @
 @2 @
 "@|!bg=4"2 "@|!bg=3"
-"@|!bg=2"2 "@|!bg=1"
+"@|!bg=2"2 "@|!bg=1"4 "!mark=Verse 1"
 % Verse 1
 "Why|!bg="4 drink8 the4 wa4. -ter4 from8 my4 hand?2 \skip8
 -4 Con8 -ta4 -gious8 as you think I4 am.4.
@@ -19,7 +19,7 @@ Just4 tilt8 my4 sun4. towards4 your8 do4 -main.2 \skip8
 >@2 @
 @2 @
 @2 @
-@2 @
+@2 @4 "!mark=Chorus 1"
 % Chorus 1
 Don't4 scream8 a -bout,4 -4 don't4 think8 a -loud.4
 -4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4.
@@ -32,8 +32,8 @@ Don't4 scream8 a -bout,4 -4 don't4 think8 a -loud.4
 @2 @
 @2 @
 @2 @
-@2 @
-% Verse 2
+@2 @4 "!mark=Interlude"
+% Interlude
 @2 @
 @2 @
 @2 @
@@ -41,7 +41,7 @@ Don't4 scream8 a -bout,4 -4 don't4 think8 a -loud.4
 @2 @
 @2 @
 "@|!bg=4"2 "@|!bg=3"
-"@|!bg=2"2 "@|!bg=1"
+"@|!bg=2"2 "@|!bg=1"4 "!mark=Verse 2"
 "Why|!bg="4 fol8 -low4 me4. to4 high8 -er4 ground?2 \skip8 -4.
 Lost4. as8 you swear I4 am.4.
 >@2 @
@@ -53,7 +53,7 @@ am4. -bi8 -ance and va -ni -ty.4.
 >@2 @
 @2 @
 @2 @
-@2 @
+@2 @4 "!mark=Chorus 2"
 % Chorus 2
 Don't4 scream8 a -bout,4 -4 don't4 think8 a -loud.4
 -4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4.
@@ -62,7 +62,7 @@ Don't4 scream8 a -bout,4 -4 don't4 think8 a -loud.4
 >Don't4 scream8 a -bout,4 -4 don't4 think8 a -loud.4
 -4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4.
 >Don't4 wor8 -ry about,4 -4 don't4 speak8 of doubt.4
--4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4. -2.
+-4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.8 "!mark=Chorus Lead-out"4 -2.
 >@2 @
 @2 @
 @2 @
@@ -70,6 +70,7 @@ Don't4 scream8 a -bout,4 -4 don't4 think8 a -loud.4
 @2 @
 @2 @
 @2 @
+"@|!mark=Interlude"2 @
 @2 @
 @2 @
 @2 @
@@ -77,8 +78,7 @@ Don't4 scream8 a -bout,4 -4 don't4 think8 a -loud.4
 @2 @
 @2 @
 @2 @
-@2 @
-@2 @
+"@|!mark=Prechorus"2 @
 @2 @
 @2 @
 @2 @
@@ -87,7 +87,7 @@ Don't4 scream8 a -bout,4 -4 don't4 think8 a -loud.4
 "@|!bg=4"2 "@|!bg=3"
 "@|!bg=2"2 "@|!bg=1"
 % Bridge
-"De|!bg="4 -cem8 -ber pro4 -mise8 you gave4 un8 -to me.2
+"De|!bg=|!mark=Bridge"4 -cem8 -ber pro4 -mise8 you gave4 un8 -to me.2
 De4 -cem8 -ber whis4 -pers8 of trea4 -che -ry.2
 >De4 -cem8 -ber clouds4 are8 now co4 -ver8 -ing me.2
 De4 -cem8 -ber songs4 no lon4 -ger8 I sing.2
@@ -105,5 +105,5 @@ De4 -cem8 -ber songs4 no lon4 -ger8 I sing.2
 >Don't4 scream8 a -bout,4 -4 don't4 think8 a -loud.4
 -4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4.
 >Don't4 wor8 -ry about,4 -4 don't speak8 of doubt.4
--4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.4. -2 -8 @@8
+-4 >Turn8 your head4 now,8 ba4 -by,8 just4 spit8 me4 out.8 "!mark=Outro"4 -2 -8 @@8
 }

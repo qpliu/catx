@@ -1,7 +1,7 @@
 vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Intro" #1
-    "-"8 ">@"2 "@"4.
+    "!mark=Intro"8 ">@"2 "@"4.
     \skip8 "@"2 "@"4.
     \skip8 "@"2 "@"4.
     \skip8 "@"2 "@"4.
@@ -10,7 +10,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "@|!bg=3"2 "@|!bg=2"4.
     \skip8 "@|!bg=1"2 "When|!bg="8 "I"4
 \mymark "Verse 1" #9
-    "talk"8 "a"4 "-bout" "it,"8 "-"4
+    "talk|!mark=Verse 1"8 "a"4 "-bout" "it,"8 \skip4
     "car"8 "-ries"4 "on,"4. "-"4
     "rea"8 "-sons"4 "on" "-ly" "new."8
     \skip4 "-"4. ">When"8 "I"4
@@ -19,7 +19,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "trea"8 "-sons"4 "all" "re" "-new."8
     \skip4 "-"2.
 \mymark "Pre-Chorus" #17
-    "-"4 ">Big" "me"4. "to"8
+    "!mark=Pre-Chorus"4 ">Big" "me"4. "to"8
     "talk"8 "a"4 "-bout" "it,"8 "-"4
     "I"8 "could"4 "stand"4. "to"8 "prove."
     \skip4 "-"2.
@@ -28,7 +28,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "I"8 "know"4 "that"4. "it's"8 "true."
     \skip4 "-"4. ">Well,"8 "I"4
 \mymark "Chorus" #25
-    "talked"8 "a"4 "-bout" "it,"8 "-"4
+    "talked|!mark=Chorus"8 "a"4 "-bout" "it,"8 \skip4
     "car"8 "-ried"4 "on,"4. "-"4
     "rea"8 "-sons"4 "on" "-ly" "new."8
     \skip4 "-"4. ">But"8 "it's" "you"
@@ -37,7 +37,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip4 "-"2.
     "-"2 \skip8 ">When"8 "I"4
 \mymark "Verse 2" #33
-    "talked"8 "a"4 "-bout" "it,"8 "-"4
+    "talked|!mark=Verse 2"8 "a"4 "-bout" "it,"8 \skip4
     "car"8 "-ries"4 "on,"4. "-"4
     "rea"8 "-sons"4 "on" "-ly" "new."8
     \skip4 "-"4. ">When"8 "I"4
@@ -46,7 +46,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "trea"8 "-sons"4 "all" "re" "-new."8
     \skip4 "-"2.
 \mymark "Pre-Chorus" #41
-    "-"4 ">Big" "me"4. "to"8
+    "!mark=Pre-Chorus"4 ">Big" "me"4. "to"8
     "talk"8 "a"4 "-bout" "it,"8 "-"4
     "I"8 "could"4 "stand"4. "to"8 "prove."
     \skip4 "-"2.
@@ -55,7 +55,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "I"8 "know"4 "that"4. "it's"8 "true."
     \skip4 "-"4. ">Well,"8 "I"4
 \mymark "Chorus" #49
-    "talked"8 "a"4 "-bout" "it."8 "-"4
+    "talked|!mark=Chorus"8 "a"4 "-bout" "it."8 \skip4
     ">Put"8 "it"4 "on."4. "-"4
     ">Ne"8 "-ver"4 "was" "it" "true."8
     \skip4 "-"4. ">But"8 "it's" "you"
@@ -64,7 +64,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip4 "-"2.
     "-"2 \skip8 ">Well,"8 "I"4
 \mymark "Outro-Chorus" #57
-    "talked"8 "a"4 "-bout" "it."8 "-"4
+    "talked|!mark=Outro-Chorus"8 "a"4 "-bout" "it."8 \skip4
     ">Put"8 "it"4 "on."4. "-"4
     ">Ne"8 "-ver"4 "was" "it" "true."8
     \skip4 "-"4. ">But"8 "it's" "you"

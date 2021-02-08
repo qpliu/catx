@@ -2,14 +2,14 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
     ">@"2
 \mymark "Intro" #2
-    "@"2 "@"
+    "@|!mark=Intro"2 "@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
 \mymark "Verse 1A" #8
-    "@"2 "@"
+    "@|!mark=Verse 1A"2 "@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -18,7 +18,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "@"2 "@"
     "@"2 "@"
 \mymark "Verse 1B" #16
-    "@"2 "@"
+    "@|!mark=Verse 1B"2 "@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -27,7 +27,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "@"2 "@"
     "@"2 "@"
 \mymark "Pre-Chorus 1" #24
-    "@"2 "@"4
+    "@|!mark=Pre-Chorus 1"2 "@"4
     \skip4 "@|!bg=4"2
     "@|!bg=3"2 "@|!bg=2"4
     \skip4 "@|!bg=1"2
@@ -35,7 +35,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "Kyou"8 "-retsu!" "Ha"16 "-re"8 "-tsu!"8. "Ba"8 "-ku"4
     "-retsu!"4. ">MO"2 "-"8
 \mymark "Chorus 1A" #31
-    "-RETSU!"4. "-"2 \skip8
+    "-RETSU!|!mark=Chorus 1A"4. \skip2 \skip8
     ">@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -52,7 +52,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "@"2 "@"
     "@"2 "@"
 \mymark "Chorus 1B" #47
-    "@"2 "@"
+    "@|!mark=Chorus 1B"2 "@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -70,7 +70,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "@"2 "@"
     "@"2 "@"
 \mymark "Interlude" #64
-    "@"2 "@"
+    "@|!mark=Interlude"2 "@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -80,7 +80,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "@"2 "@"
     "@"2 "@"
 \mymark "Verse 2A" #73
-    "@"2 "@"
+    "@|!mark=Verse 2A"2 "@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -89,7 +89,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "@"2 "@"
     "@"2 "@"
 \mymark "Verse 2B" #81
-    "@"2 "@"
+    "@|!mark=Verse 2B"2 "@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -98,7 +98,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "@"2 "@"
     "@"2 "@"
 \mymark "Pre-Chorus 2" #89
-    "@"2 "@"4
+    "@|!mark=Pre-Chorus 2"2 "@"4
     \skip4 "@|!bg=4"2
     "@|!bg=3"2 "@|!bg=2"4
     \skip4 "@|!bg=1"2
@@ -106,8 +106,8 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "Kyou"8 "-retsu!" "Ha"16 "-re"8 "-tsu!"8. "Ba"8 "-ku"4
     "-retsu!"4. ">MO"2 "-"8
 \mymark "Chorus 2A" #96
-    "-RETSU!"4. "-"2 \skip8
-    "-"4. "@@"32 "-"2 \skip16.
+    "-RETSU!|!mark=Chorus 2A"4. \skip2 \skip8
+    "-"1
     "-"1
     "-"1
     "-"1
@@ -123,7 +123,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
 \mymark "Chorus 2B" #112
-    "-"1
+    "!mark=Chorus 2B"1
     "-"1
     "-"1
     "-"1
@@ -142,7 +142,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
 \mymark "Bridge" #130
-    "-"1
+    "!mark=Bridge"1
     "-"1
     "-"1
     "-"1
@@ -153,7 +153,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
 \mymark "Guitar Solo" #140
-    "-"1
+    "!mark=Guitar Solo"1
     "-"1
     "-"1
     "-"1
@@ -170,7 +170,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
 \mymark "Post Solo/Pre-Chorus 3" #156
-    "-"1
+    "!mark=Post Solo/Pre-Chorus 3"1
     "-"1
     "-"1
     "-"1
@@ -181,7 +181,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
 \mymark "Chorus 3A" #166
-    "-"1
+    "!mark=Chorus 3A"1
     "-"1
     "-"1
     "-"1
@@ -198,7 +198,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
 \mymark "Chorus 3B" #182
-    "-"1
+    "!mark=Chorus 3B"1
     "-"1
     "-"1
     "-"1
@@ -217,9 +217,9 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
 \mymark "Ending" #200
+    "!mark=Ending"1
     "-"1
-    "-"1
-    "-"1
+    "@@"32 "-"2. \skip8. \skip32
     "-"1
     "-"1
     "-"1
