@@ -4,6 +4,13 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+mark=Intro count=0 fudgeLyrics=48 divisions=0 seconds=0.0 measure=1.0
+mark=Verse 1 count=37 fudgeLyrics=48 divisions=18432 seconds=21.333312 measure=13.0
+mark=Chorus 1 count=82 fudgeLyrics=48 divisions=30720 seconds=35.555519999999994 measure=21.0
+mark=Verse 2 count=136 fudgeLyrics=48 divisions=49152 seconds=56.888831999999994 measure=33.0
+mark=Chorus 2 count=182 fudgeLyrics=48 divisions=61440 seconds=71.11103999999999 measure=41.0
+mark=Bridge count=268 fudgeLyrics=48 divisions=86016 seconds=99.55545599999999 measure=57.0
+mark=Outro count=282 fudgeLyrics=48 divisions=98304 seconds=113.77766399999999 measure=65.0
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi

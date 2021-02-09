@@ -2,7 +2,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
     "-"2
 \mymark "Intro" #2
-    "!mark=Intro"1
+    "!mark=Intro|-"1
     "-"2 ">U"4 "wao!"8. "-"16
     "-"2 ">@"
     "@"2 "@"
@@ -142,7 +142,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "-"2. \skip8
     "-"1
 \mymark "Bridge" #130
-    "!mark=Bridge"1
+    "!mark=Bridge|-"1
     "-"1
     "-"1
     "-"1
@@ -153,7 +153,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
 \mymark "Guitar Solo" #140
-    "!mark=Guitar Solo"1
+    "!mark=Guitar Solo|-"1
     "-"1
     "-"1
     "-"1
@@ -217,7 +217,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
 \mymark "Ending" #200
-    "!mark=Ending"1
+    "!mark=Ending|-"1
     "-"1
     "@@"32 "-"2. \skip8. \skip32
     "-"1

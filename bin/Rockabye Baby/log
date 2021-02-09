@@ -2,124 +2,14 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-karaoke:3:10: warning: barcheck failed at: 1/16
-    @2 @ 
-         |
-karaoke:4:10: warning: barcheck failed at: 1/8
-    @2 @ 
-         |
-karaoke:5:10: warning: barcheck failed at: 3/16
-    @2 @ 
-         |
-karaoke:6:10: warning: barcheck failed at: 1/4
-    @2 @ 
-         |
-karaoke:8:47: warning: barcheck failed at: 7/16
-    ">Time"8 "to"8 "take"8 "a"8 "nap"4 "now"4 
-                                              |
-karaoke:9:47: warning: barcheck failed at: 19/32
-    "time"8 "to"8 "go"8 "to"8 "sleep"4 \skip4 
-                                              |
-karaoke:10:47: warning: barcheck failed at: 25/32
-    ">Off"8 "to"8 "bed"8 "for"8 "you"4 "now"4 
-                                              |
-karaoke:11:52: warning: barcheck failed at: 15/16
-    "not"8 "a"8 -- "no"8 -- "ther"8 "peep"4 \skip4 
-                                                   |
-karaoke:13:10: warning: barcheck failed at: 1/16
-    @2 @ 
-         |
-karaoke:14:10: warning: barcheck failed at: 1/8
-    @2 @ 
-         |
-karaoke:15:10: warning: barcheck failed at: 3/16
-    @2 @ 
-         |
-karaoke:17:47: warning: barcheck failed at: 11/32
-    ">Rock"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4 
-                                              |
-karaoke:18:36: warning: barcheck failed at: 7/16
-    "rock"4 "rock"4 "rock"4 \skip4 
-                                   |
-karaoke:19:47: warning: barcheck failed at: 19/32
-    ">Rock"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4 
-                                              |
-karaoke:20:36: warning: barcheck failed at: 11/16
-    "rock"4 "rock"4 "rock"4 \skip4 
-                                   |
-karaoke:21:47: warning: barcheck failed at: 27/32
-    ">Rock"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4 
-                                              |
-karaoke:22:36: warning: barcheck failed at: 15/16
-    "rock"4 "rock"4 "rock"4 \skip4 
-                                   |
-karaoke:24:10: warning: barcheck failed at: 1/16
-    @2 @ 
-         |
-karaoke:26:55: warning: barcheck failed at: 1/4
-    ">Sing"8 "your"8 "bed"8 -- "time"8 "song"4 "now"4 
-                                                      |
-karaoke:27:49: warning: barcheck failed at: 13/32
-    "sing"8 "it"8 "for"8 "the"8 "crowd"4 \skip4 
-                                                |
-karaoke:28:53: warning: barcheck failed at: 19/32
-    ">Sing"8 "the"8 "lul"8 -- "la"8 -- "by"4 "now"4 
-                                                    |
-karaoke:29:51: warning: barcheck failed at: 3/4
-    "sing"8 "it"8 "real"8 -- "ly"8 "loud"4 \skip4 
-                                                  |
-karaoke:30:10: warning: barcheck failed at: 13/16
-    @2 @ 
-         |
-karaoke:31:10: warning: barcheck failed at: 7/8
-    @2 @ 
-         |
-karaoke:32:10: warning: barcheck failed at: 15/16
-    @2 @ 
-         |
-karaoke:35:47: warning: barcheck failed at: 5/32
-    ">Rock"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4 
-                                              |
-karaoke:36:36: warning: barcheck failed at: 1/4
-    "rock"4 "rock"4 "rock"4 \skip4 
-                                   |
-karaoke:37:47: warning: barcheck failed at: 13/32
-    ">Rock"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4 
-                                              |
-karaoke:38:36: warning: barcheck failed at: 1/2
-    "rock"4 "rock"4 "rock"4 \skip4 
-                                   |
-karaoke:39:47: warning: barcheck failed at: 21/32
-    ">Rock"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4 
-                                              |
-karaoke:40:36: warning: barcheck failed at: 3/4
-    "rock"4 "rock"4 "rock"4 \skip4 
-                                   |
-karaoke:42:47: warning: barcheck failed at: 29/32
-    ">Rock"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4 
-                                              |
-karaoke:44:47: warning: barcheck failed at: 5/32
-    ">Rock"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4 
-                                              |
-karaoke:45:36: warning: barcheck failed at: 1/4
-    "rock"4 "rock"4 "rock"4 \skip4 
-                                   |
-karaoke:46:47: warning: barcheck failed at: 13/32
-    ">Rock"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4 
-                                              |
-karaoke:47:36: warning: barcheck failed at: 1/2
-    "rock"4 "rock"4 "rock"4 \skip4 
-                                   |
-karaoke:48:10: warning: barcheck failed at: 9/16
-    @2 @ 
-         |
-karaoke:49:10: warning: barcheck failed at: 5/8
-    @2 @ 
-         |
-karaoke:51:9: warning: barcheck failed at: 21/32
-    @@1 
-        |
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+mark=Intro count=0 fudgeLyrics=48 divisions=0 seconds=0.0 measure=1.0
+mark=Verse 1 count=8 fudgeLyrics=48 divisions=6144 seconds=6.857136 measure=5.0
+mark=Chorus 1 count=38 fudgeLyrics=48 divisions=18432 seconds=20.571407999999998 measure=13.0
+mark=Verse 2 count=66 fudgeLyrics=48 divisions=30720 seconds=34.28568 measure=21.0
+mark=Chorus 2 count=96 fudgeLyrics=48 divisions=43008 seconds=47.99995199999999 measure=29.0
+mark=Chorus 3 count=120 fudgeLyrics=48 divisions=52224 seconds=58.285655999999996 measure=35.0
+mark=Outro count=148 fudgeLyrics=48 divisions=64512 seconds=71.999928 measure=43.0
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
@@ -129,7 +19,7 @@ Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
-@@@@@@@@>Timetotakeanapnowtimetogotosleep>Offtobedforyounownotanotherpeep@@@@@@@@>Rockabyebabyrockrockrock>Rockabyebabyrockrockrock>Rockabyebabyrockrockrock@@@@>Singyourbedtimesongnowsingitforthecrowd>Singthelullabynowsingitreallyloud@@@@@@@@>Rockabyebabyrockrockrock>Rockabyebabyrockrockrock>Rockabyebabyrockrockrock>Rockabyebabyrockrockrock>Rockabyebabyrockrockrock>Rockabyebabyrockrockrock@@@@@@Playing time: ~82 seconds
+@|!mark=Intro@@@@@@@>Time|!mark=Verse 1totakeanapnowtimetogotosleep>Offtobedforyounownotanotherpeep@@@@@@@@>Rock|!mark=Chorus 1abyebabyrockrockrock>Rockabyebabyrockrockrock>Rockabyebabyrockrockrock@@@@>Sing|!mark=Verse 2yourbedtimesongnowsingitforthecrowd>Singthelullabynowsingitreallyloud@@@@@@@@>Rock|!mark=Chorus 2abyebabyrockrockrock>Rockabyebabyrockrockrock>Rockabyebabyrockrockrock>Rock|!mark=Chorus 3abyebabyrockrockrock>Rockabyebabyrockrockrock>Rockabyebabyrockrockrock@@@@@@|!mark=OutroPlaying time: ~82 seconds
 Notes cut: 0
 Notes lost totally: 0
 Wrote 8402913/14285312 bytes(58.822% compressed)

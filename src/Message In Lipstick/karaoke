@@ -3,7 +3,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
-    "@"2 "@"
+    "@|!mark=Intro"2 "@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -11,7 +11,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "@"2 "@"
     "@|!bg=4"2 "@|!bg=3"
     "@|!bg=2"2 "@|!bg=1"
-    "I|!bg="4
+    "I|!bg=|!mark=Verse 1"4
     "have"4
     "heard"4
     "e"8
@@ -78,7 +78,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "\"I"4.
     "do\"."1
     -1
-    ">You've"4
+    ">You've|!mark=Verse 2"4
     "been"4
     "be"4
     "-in'"8
@@ -144,8 +144,8 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "it's"8
     "all"4.
     "true."1
-    -4
     -1
+    "!mark=Breakdown"4
     ">I'm"4
     "gon"4
     "-na"4
@@ -181,7 +181,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     \skip8*2/3
     "yeah.|!bg=img=../yeah.png"2
     -2
-    ">May|!bg="4
+    ">May|!bg=|!mark=Verse 3"4
     "-be"4
     "you'll"4
     "grow"8
@@ -211,7 +211,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     \skip4
     "-ling."1
     ">@"2 "@"
-    "@"2 "@"
+    "@|!mark=Solo"2 "@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -219,7 +219,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "@"2 "@"
     "@|!bg=4"2 "@|!bg=3"
     "@|!bg=2"2 "@|!bg=1"
-    "Call|!bg="4
+    "Call|!bg=|!mark=Verse 4"4
     "-ing"4
     "you"4
     "some"8
@@ -287,7 +287,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "your"4.
     "mom."1
     -1
-    -4
+    "!mark=Breakdown 2"4
     ">I'm"4
     "gon"4
     "-na"4
@@ -323,7 +323,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     \skip8*2/3
     "yeah.|!bg=img=../yeah.png"2
     -2
-    ">May|!bg="4
+    ">May|!bg=|!mark=Verse 5"4
     "-be"4
     "you'll"4
     "grow"8
@@ -364,12 +364,12 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "my"4
     "dar"4
     \skip4
-    "-ling."1
+    "-ling.|!mark=Outro"1
+    -1
+    @@1
     -1
     -1
     -1
     -1
     -1
-    -1
-    -2 -4 -8 @@
 }

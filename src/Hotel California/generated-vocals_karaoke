@@ -17,7 +17,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "@|!bg=4"2 "@|!bg=3"4.
     \skip8 "@|!bg=2"2 "@|!bg=1"4.
 \mymark "Verse 1" #17
-    "!mark=Verse 1"8 "On|!bg="16 "a" "dark"8 "de"16 "sert" "high"8 "way,"16 \skip4 \skip16
+    "!mark=Verse 1|-"8 "On|!bg="16 "a" "dark"8 "de"16 "sert" "high"8 "way,"16 \skip4 \skip16
     "-"8 "cool"16 "-" \tuplet 3/2 { "wind"8 "in" "my" } "hair,"4 "-"
     "-"8 ">warm"16 "-" "smell" "-" "of" "co" "li"8 "tas"16 "-"4 \skip16
     \tuplet 3/2 { "-"8 "ris" "ing" "up" "through" "the" } "air."8. "-"4 \skip16
@@ -26,7 +26,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"16 ">My" "head" "grew" "heav" "y" "and" "my" "sight"8 "grew"16 "dim," "-"4
     "-"16 ">I" "had" "to" \tuplet 3/2 { "stop"8 "for" "the" } "night.|!bg=img=../night.png"16 "-"4. \skip16
 \mymark "Verse 2" #25
-    "!mark=Verse 2"8 ">There|!bg="16 "she" \skip16 "stood"16 "in" "the" "door"8 "way;" \skip4
+    "!mark=Verse 2|-"8 ">There|!bg="16 "she" \skip16 "stood"16 "in" "the" "door"8 "way;" \skip4
     "-"16 "I" "heard" "the" \tuplet 3/2 { "mis"8 "sion" "bell."4 \skip16 } "-"4.
     "-"8. ">An'"16 "I" "was" "think" "in'" "to" "my"8 "self," ">this"16 "could" "be"
     \tuplet 3/2 { "heav"8 "en" "or" "this" "could" "be" "-" "hell." "-"2 }
@@ -35,7 +35,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"8 ">There"16 "were" "voic" "es" "down" "the" "-" "cor" "ri" "dor," "-"4
     "-"16 ">I" "thought" "I" "heard"8 "them"16 "-" "say:"4 "-"
 \mymark "Chorus" #33
-    "!mark=Chorus"8 ">\"Wel"16 "come"8 "to"16 "the" "Ho"8 "tel"8. "Cal"16 \skip16 "i"16 "for"
+    "!mark=Chorus|-"8 ">\"Wel"16 "come"8 "to"16 "the" "Ho"8 "tel"8. "Cal"16 \skip16 "i"16 "for"
     "-"16 "nia,"8 "-"2 \skip8. ">such"16 "a"
     "love"16 "-" "ly" "place,"8. "(such"16 "a" "love" "-" "ly" "place),"8. ">such"16 "a"
     "love"16 "-" "ly" "face."8. "-"2 \skip8
@@ -44,7 +44,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "time"16 "-" "of" "year,"8. "(an"16 "y" "time" "-" "of" "year),"8. ">you"16 "can"
     "find"16 "-" "it" "here."8. "-"2 \skip8
 \mymark "Verse 3" #41
-    "!mark=Verse 3"16 ">Her" "mind" "is" \tuplet 3/2 { "Tif"8 "fa" "ny" } "twist"8 "ed." \skip4
+    "!mark=Verse 3|-"16 ">Her" "mind" "is" \tuplet 3/2 { "Tif"8 "fa" "ny" } "twist"8 "ed." \skip4
     "-"16 ">She" "got" "the" "Mer"8 "ce"16 "des"8 "bends."16 "-"8 "(Uh)" "-"
     "-"16 ">She" "got" "a" "lot" "of" "pret" "ty," "-" "pret" "ty" "boys" "-"4
     "-"8. ">that"16 "she" "calls"8 "friends." "-"4. \skip16
@@ -53,7 +53,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"8 ">Some" "dance" "to"16 "re" "mem" "-" "ber," "-"4 \skip16
     "-"8 "some" "dance" "to"16 "for"8 "get."16 "-"4.
 \mymark "Verse 4" #49
-    "!mark=Verse 4"8 ">So"16 "I" "called"8 "up"16 "the" "cap"8 "tain," \skip4
+    "!mark=Verse 4|-"8 ">So"16 "I" "called"8 "up"16 "the" "cap"8 "tain," \skip4
     "-"16 "\"Please"8. "bring"8 "me"16 "my"8 "wine.\""16 "-"8. ">He"16 "said" "that"
     "-"16 "\"We" \tuplet 3/2 { "have"8 "n't"16 } "had"8 "that" "spir"16 "it"8 "here"8. "since"8
     "-"8 ">nine"16 "-" "teen" "six"8 "ty"16 "nine." "-"4. \skip16
@@ -62,7 +62,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"8 ">Wake"16 "you" "up" "-" ">in" "the" "mid" "dle" "of" "the" "night|!bg=img=../night.png" "-"8.
     "-"8 ">just|!bg="16 "to" "hear"8 "them"16 "-" "say:"4 "-"
 \mymark "Chorus" #57
-    "!mark=Chorus"8 ">\"Wel"16 "come"8 "to"16 "the" "Ho"8 "tel"8. "Cal"16 \skip16 "i"16 "for"
+    "!mark=Chorus|-"8 ">\"Wel"16 "come"8 "to"16 "the" "Ho"8 "tel"8. "Cal"16 \skip16 "i"16 "for"
     "-"16 "nia,"8 "-"2 \skip8. ">such"16 "a"
     "love"16 "-" "ly" "place,"8. "(such"16 "a" "love" "-" "ly" "place),"8. ">such"16 "a"
     "love"16 "-" "ly" "face." "-"2 \skip8. ">They're"16
@@ -71,7 +71,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "nice"16 "-" "sur" "prise."8. "(What"16 "a" "nice" "-" "sur" "prise.)"8. ">Bring"16 "your"
     "al"16 "-" "i" "bis."2 \skip16 "-"4
 \mymark "Verse 5" #65
-    "!mark=Verse 5"8 ">Mir"16 "rors"8 "on" "the"16 "ceil"8 "ing,"16 \skip4 \skip16
+    "!mark=Verse 5|-"8 ">Mir"16 "rors"8 "on" "the"16 "ceil"8 "ing,"16 \skip4 \skip16
     "-"16 "the" "pink" \tuplet 3/2 { "cham"8. \skip32 "pagne"8 "on" } "ice,"16 "-"8 ">An'"16 "she" "said," "-"8
     "-"8 ">\"We"16 "are" "all"8 "just" \tuplet 3/2 { "pris"8 "on" "ers" } "here"16 "-"8.
     "-"8 "of"16 "our" \tuplet 3/2 { "own"8 "-" "de" } "vice.\""4 "-"
@@ -80,7 +80,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"16 ">They"8 "stab"16 \tuplet 3/2 { "it"8 "with" "their"4 "steel"8 "y" } "knives"16 "-" ">but" "they"
     "just"8 "can't"8. "kill"8 "the"16 "beast." "-"4. \skip16
 \mymark "Verse 6" #73
-    "!mark=Verse 6"8 ">Last" "thing"16 "I"8 "re"16 "mem"8 "ber"16 \skip8. "I"16 "was"
+    "!mark=Verse 6|-"8 ">Last" "thing"16 "I"8 "re"16 "mem"8 "ber"16 \skip8. "I"16 "was"
     "-"8 "run"16 "ning"8 "for"16 "the" "door." "-"2
     "-"8. ">I"16 "had" "to" "find" "the" \tuplet 3/2 { "pas"8 "sage" "back"8. \skip32 } "-"16 "to" "the"
     "place"8 "I" "was"16 "-" "be" "fore."8 "-"4. \skip16
@@ -89,7 +89,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"8 ">You"16 "can" "check" "out" "an" "y"8 "time" "you"16 "like," "-"8.
     "-"16 ">but" "you" "can"8 "nev"16 "er" "-" "leave.\"" "-"4. \skip16
 \mymark "Solo" #81
-    "!mark=Solo"1
+    "!mark=Solo|-"1
     "-"1
     "@@"32 "-"2. \skip8. \skip32
     "-"1

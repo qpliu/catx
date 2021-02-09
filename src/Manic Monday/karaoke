@@ -1,6 +1,6 @@
 karaokeLyrics = \new Lyrics \lyricmode {
 \mymark "Intro" #1
-    ">@"2 "@"
+    ">@|!mark=Intro"2 "@"
     "@"2 "@"
     "@"2 "@"
     "@"2 "@"
@@ -10,7 +10,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "@|!bg=4"2 "@|!bg=3"
     "@|!bg=2"2 "@|!bg=1"
 \mymark "Verse 1" #10
-    "Six|!bg="8 "o'" "-clock" "al" "-rea" "-dy" "I" "was"
+    "Six|!bg=|!mark=Verse 1"8 "o'" "-clock" "al" "-rea" "-dy" "I" "was"
     "just"4 "in"8 "the" "mid"16 "-dle"16 "of"8 "a" "dream."4
     -2. -8
     ">@"2. "I"8 "was"
@@ -26,7 +26,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "wish"8 "your" "bed" "was" "al" "-rea" "-dy" "made."4
     -2. ">It's"8
 \mymark "Chorus 1" #25
-    "just"8 "a" "-no" "-ther" "ma"4 "-nic"
+    "just|!mark=Chorus 1"8 "a" "-no" "-ther" "ma"4 "-nic"
     "Mon"4 "-day." -2
     -2 ">Wish"8 "it" "was"4
     "Sun"4 "-day." -2
@@ -37,7 +37,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "just"8 "a" "-no" "-ther" "ma"4 "-nic"
     "Mon"4 "-day."2.
 \mymark "Verse 2" #35
-    ">Have"8 "to" "catch" "an" "ear" "-ly" "train.|!bg=img=../train.png"4
+    ">Have|!mark=Verse 2"8 "to" "catch" "an" "ear" "-ly" "train.|!bg=img=../train.png"4
     "Got|!bg="8 "to" "be" "to" "work" "by"4 "nine."4
     -2. -8
     ">@"2. -8 "And"8
@@ -53,7 +53,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "boss"8 "is" "al"4 "-rea"8 "-dy"4 "there."4
     -2. ">It's"8
 \mymark "Chorus 2" #50
-    "just"8 "a" "-no" "-ther" "ma"4 "-nic"
+    "just|!mark=Chorus 2"8 "a" "-no" "-ther" "ma"4 "-nic"
     "Mon"4 "-day." -2
     -2 ">Wish"8 "it" "was"4
     "Sun"4 "-day." -2
@@ -64,7 +64,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "just"8 "a" "-no" "-ther" "ma"4 "-nic"
     "Mon"4 "-day."2.
 \mymark "Bridge" #60
-    ">All"8 "of" "my" "nights"4 "why"8 "did" "my"
+    ">All|!mark=Bridge"8 "of" "my" "nights"4 "why"8 "did" "my"
     "lo"8 "-ver" "have" "to" "pick"4 "last"
     "night"8 "to" "get"4 "down?" -4
     -1
@@ -79,7 +79,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     ">Time"4 "it"8 "goes" "so"4 "fast."
     -2. -8 ">It's"8
 \mymark "Outro" #74
-    "just"8 "a" "-no" "-ther" "ma"4 "-nic"
+    "just|!mark=Outro"8 "a" "-no" "-ther" "ma"4 "-nic"
     "Mon"4 "-day." -2
     -2 ">Wish"8 "it" "was"4
     "Sun"4 "-day." -2

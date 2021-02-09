@@ -20,6 +20,7 @@ class LyricsKaraokeFileMaker extends ChoppedTrackFileMaker{
     @Override MeasureMaker.GetWhatSuffix getGetWhatSuffix(List<Gpfile.Event>list){
 	String lyric=null;
 	String suffix="";
+	int addMinus=0;
 	for (Gpfile.Event e:list)
 	    if (!e.tie_rhs){
 		Gpfile.LyricEvent le=(Gpfile.LyricEvent)e;
@@ -29,12 +30,18 @@ class LyricsKaraokeFileMaker extends ChoppedTrackFileMaker{
 		}
 		String l=le.lyric;
 		if (this instanceof KaraokeFileMaker){
+		    if (l.startsWith("!mark="))
+			addMinus++;
+		    else
+			--addMinus;
 		    if (le.hyphen_rhs)
 			l = "-"+l;
 		}else if (le.hyphen_lhs)
 		    suffix = " --";
 		lyric = lyric==null?l:lyric+'|'+l;
 	    }
+	if (addMinus>0)
+		lyric += "|-";
 	String lyri=lyric==null?"\\skip":Stuff.quote(lyric);
 	String suffi=suffix;
 	return new MeasureMaker.GetWhatSuffix(){

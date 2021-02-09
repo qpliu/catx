@@ -1,5 +1,6 @@
 karaokeLyrics = \new Lyrics \lyricmode {
-    -8
+\mymark "Intro" #1
+    "!mark=Intro"8
     ">@"2 @
     @2
     "@|!bg=4"2 "@|!bg=3"
@@ -7,7 +8,8 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "Can|!bg="8
     "you"8
     "hear"8
-    \skip4
+\mymark "Verse 1" #5
+    "!mark=Verse 1"4
     "them?"4
     \skip8
     -4
@@ -74,7 +76,8 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "||ay,"8
     "ay,"8
     "ay."8
-    \skip4
+\mymark "Chorus 1" #17
+    "!mark=Chorus 1"4
     -2.
     -2
     ">Our"8
@@ -89,7 +92,8 @@ karaokeLyrics = \new Lyrics \lyricmode {
     ">There's"8
     "a"8
     "wea"8
-    "-pon"4
+\mymark "Verse 2" #21
+    "-pon|!mark=Verse 2"4
     -2
     -8
     "|||which"8
@@ -157,7 +161,8 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "||ay,"8
     "ay,"8
     "ay."8
-    \skip4
+\mymark "Chorus 2" #33
+    "!mark=Chorus 2"4
     -2.
     -2
     ">Our"8
@@ -201,7 +206,10 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "-ed."8
     -2
     ">@"2
-    @2 @
+    @2
+    @4
+\mymark "Bridge" #44
+    "!mark=Bridge"4
     @2 @
     @2 @
     "@|!bg=4"2 "@|!bg=3"
@@ -240,7 +248,8 @@ karaokeLyrics = \new Lyrics \lyricmode {
     ">Can"8
     "you"8
     "hear"8
-    "them?"4
+\mymark "Verse 3" #56
+    "them?|!mark=Verse 3"4
     -2
     -8
     ">They"8
@@ -305,7 +314,8 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "||ay,"8
     "ay,"8
     "ay."8
-    \skip4
+\mymark "Outro" #68
+    "!mark=Outro"4
     -2.
     -2
     ">Our"8

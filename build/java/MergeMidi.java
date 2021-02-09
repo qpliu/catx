@@ -227,7 +227,6 @@ final class MergeMidi{
     private class LyricEvent extends MetaEvent{
 	LyricEvent(long time,String id,int outTrackIndex,int what,byte[]data){
 	    super(time,id,outTrackIndex,what,data);
-//	    System.err.println(timeToStringAndPrintMap(null,time)+" lyric="+new String(data));
 	}
     }
     private class TempoEvent extends MetaEvent{
@@ -296,6 +295,7 @@ final class MergeMidi{
 	private final String id;
 	private final String midiFilename;
 	private final int outTrackIndex;
+	private final String outTrackName;
 	private boolean isTextTrack;
 	private String trackName;
 	private long time;
@@ -303,12 +303,13 @@ final class MergeMidi{
 	private final int[]keyVelocity=new int[128];
 	private Map<Integer,String>textMap;
 	private int fudgeLyrics;
-	private int lyricEventTimeFudge=0;
-	TrackReader(DataInputStream dis,String id,int outTrackIndex,String midiFilename){
+	private int fudgeLyricsCount;
+	TrackReader(DataInputStream dis,String id,int outTrackIndex,String midiFilename,String outTrackName){
 	    this.dis = dis;
 	    this.id = id;
 	    this.midiFilename = midiFilename;
 	    this.outTrackIndex = outTrackIndex;
+	    this.outTrackName = outTrackName;
 	    Arrays.fill(keyTime,-1);
 	}
 	private int readVlen()throws IOException{
@@ -346,10 +347,17 @@ final class MergeMidi{
 	    }else if (what==4){
 //		System.err.println("instrument name="+new String(data));
 	    }else if (what==5){
-		metaEvents.add(new LyricEvent(time+lyricEventTimeFudge,id,outTrackIndex,what,data));
-		if (fudgeLyrics==0)
+		if (fudgeLyricsCount==0)
 		    fudgeLyrics = fudgeLyricsStringTokenizer.hasMoreTokens()?Integer.parseInt(fudgeLyricsStringTokenizer.nextToken()):DEFAULT_FUDGE_LYRICS;
-		lyricEventTimeFudge -= fudgeLyrics;
+		long t=time-fudgeLyrics*fudgeLyricsCount;
+		if ("midiKaraoke".equals(outTrackName))
+		    for (StringTokenizer st=new StringTokenizer(new String(data),"|"); st.hasMoreTokens();){
+			String l=st.nextToken();
+			if (l.startsWith("!mark="))
+			    System.err.println("mark="+l.substring(6)+" count="+fudgeLyricsCount+" fudgeLyrics="+fudgeLyrics+" "+timeToStringAndPrintMap(null,t));
+		    }
+		metaEvents.add(new LyricEvent(t,id,outTrackIndex,what,data));
+		fudgeLyricsCount++;
 	    }else if (what==6){
 		System.err.println("marker="+new String(data));
 	    }else if (what==7){
@@ -802,7 +810,7 @@ final class MergeMidi{
 	if (division!=DIVISION)
 	    throw new IOException("Bad division="+division);
     }
-    private void read(DataInputStream dis,String id,int outTrackIndex,String midiFilename)throws IOException{
+    private void read(DataInputStream dis,int outTrackIndex,String midiFilename,String outTrackName)throws IOException{
 	byte[]b=new byte[4];
 	int trackNumber=0;
 	for (;;){
@@ -822,7 +830,7 @@ final class MergeMidi{
 		}
 	    else if (type.equals("MTrk"))
 		try (DataInputStream d=new DataInputStream(new ByteArrayInputStream(c))){
-		    new TrackReader(d,id+','+trackNumber++,outTrackIndex,midiFilename).read();
+		    new TrackReader(d,midiFilename+','+trackNumber++,outTrackIndex,midiFilename,outTrackName).read();
 		}
 	    else
 		System.err.println("type="+type);
@@ -838,7 +846,7 @@ final class MergeMidi{
 	MergeMidi mm=new MergeMidi();
 	for (int i=j; i<argv.length; i+=2)
 	    try (DataInputStream dis=new DataInputStream(new FileInputStream(argv[i+1]))){
-		mm.read(dis,argv[i+1],(i-j)/2,argv[i+1]);
+		mm.read(dis,(i-j)/2,argv[i+1],argv[i]);
 	    }
 	mm.makeOutputEvents();
 	try (DataOutputStream dos=new DataOutputStream(System.out)){

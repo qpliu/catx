@@ -1,7 +1,7 @@
 vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Intro" #1
-    "!mark=Intro"8 ">@"2 "@"4.
+    "!mark=Intro|-"8 ">@"2 "@"4.
     \skip8 "@"2 "@"4.
     \skip8 "@"2 "@"4.
     \skip8 "@"2 "@"4.
@@ -24,7 +24,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "@|!bg=4"2 "@|!bg=3"4.
     \skip8 "@|!bg=2"2 "@|!bg=1"4.
 \mymark "Verse 1" #23
-    "!mark=Verse 1"8 "They|!bg=" "told" "him" "don't" "you" "ev" "er"
+    "!mark=Verse 1|-"8 "They|!bg=" "told" "him" "don't" "you" "ev" "er"
     "come"8 "a" "round" "-" "here," "-"4 ">don't"8
     "wan"8 "na" "see" "your" "face," "you" "bet" "ter"
     "dis"8 "ap" "pear." "-"2 ">The"8
@@ -54,7 +54,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "beat"8 "it," "-"2 "just"8 "-"
     "beat"8 "it." "-"2.
 \mymark "Verse 2" #51
-    "!mark=Verse 2"8 ">They're" "out" "to" "get" "you," "bet" "ter"
+    "!mark=Verse 2|-"8 ">They're" "out" "to" "get" "you," "bet" "ter"
     "leave"8 "while" "you" "-" "can," "-"4 ">don't"8
     "wan"8 "na" "be" "a" "boy," "you" "wan" "na"
     "be"8 "a" "man." "-"2 ">You"8

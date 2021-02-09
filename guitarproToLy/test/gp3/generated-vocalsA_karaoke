@@ -1,7 +1,7 @@
 vocalsAKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Intro                          TAB by JPGR" #1
-    "!mark=Intro                          TAB by JPGR"4. \skip16 ">@"2 "@"16
+    "!mark=Intro                          TAB by JPGR|-"4. \skip16 ">@"2 "@"16
     \skip4. \skip16 "@"2 "@"16
     \skip4. \skip16 "@"2 "@|!bg=4"16
     \skip4. \skip16 "@|!bg=3"2 "@|!bg=2"16
@@ -29,7 +29,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "more ----."8 "-"2. \skip8
     "-"2 ">    Don't"8 " " "pass me by" "-"
 \mymark "Chorus" #26
-    "!mark=Chorus"8 "don't" "  make me cry" \skip4 ">don't make me blue"8 \skip4
+    "!mark=Chorus|-"8 "don't" "  make me cry" \skip4 ">don't make me blue"8 \skip4
     "-"2 \skip8 ">'Cause you know"8 "-"4
     "darling"8 "-"4 ">I"8 "love"4 "on -"8 "ly"
     "you"4 "-"4. "you'll never"8 "-"4
@@ -53,7 +53,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "you. --------"8 "-"2. \skip8
     "-"2 ">    Don't"8 " " "pass me by" "-"
 \mymark "Chorus" #48
-    "!mark=Chorus"8 "don't" "  make me cry" \skip4 ">don't make me blue"8 \skip4
+    "!mark=Chorus|-"8 "don't" "  make me cry" \skip4 ">don't make me blue"8 \skip4
     "-"2 \skip8 ">'Cause you know"8 "-"4
     "darling"8 "-"4 ">I"8 "love"4 "on -"8 "ly"
     "you"4 "-"4. "you'll never"8 "-"4

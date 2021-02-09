@@ -4,6 +4,16 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+mark=Intro count=8 fudgeLyrics=48 divisions=6144 seconds=6.3999999999999995 measure=5.0
+mark=Verse 1 count=24 fudgeLyrics=48 divisions=18432 seconds=19.2 measure=13.0
+mark=Verse 2 count=90 fudgeLyrics=48 divisions=43008 seconds=44.8 measure=29.0
+mark=Breakdown count=155 fudgeLyrics=48 divisions=67584 seconds=70.39999999999999 measure=45.0
+mark=Verse 3 count=189 fudgeLyrics=48 divisions=79872 seconds=83.19999999999999 measure=53.0
+mark=Solo count=219 fudgeLyrics=48 divisions=92160 seconds=95.99999999999999 measure=61.0
+mark=Verse 4 count=235 fudgeLyrics=48 divisions=104448 seconds=108.79999999999998 measure=69.0
+mark=Breakdown 2 count=301 fudgeLyrics=48 divisions=129024 seconds=134.39999999999998 measure=85.0
+mark=Verse 5 count=335 fudgeLyrics=48 divisions=141312 seconds=147.2 measure=93.0
+mark=Outro count=374 fudgeLyrics=48 divisions=156672 seconds=163.2 measure=103.0
 WorstAge=2147489600
 Playing out.midi
 MIDI file: out.midi
@@ -14,7 +24,7 @@ Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
 Track name: midiOne
->@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1I|!bg=havehearde-nough-|||a-boutyourin-fi-de-li-ty.--->SoI'monthetrain|!bg=img=../train.png-|||and|!bg=youarere-centhi-sto-ry.--->Did-n'ttakelongforyoutostarttoplayandbreak>allyourso-lemnpro-mis-es,-->theonesyoumakelastweekwithyour"Ido".->You'vebeenbe-in'bad.-|||Andboytheru-mortra-veledfast.--->Youcan'tchangeyourways.-|||AndIdon'tthinkourlovecanlast.--->WhydidyouthinkI'dsi-lent-lytakeallyoursame>sil-lyim-ma-tu-ri-ty?-->Iwillscreamandcrycauseit'salltrue.-->I'mgon-natellyourmo-thercauseithap-peneda-gain.--->I'lltellyourbro-thertooandyou'llbeohsosor-rythenohyeah.|!bg=img=../yeah.png->May|!bg=-beyou'llgrowup-|||whenyougohomeandreadthemirror.--->I'veleftalip-stickmes-sagetheremydar-ling.>@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Call|!bg=-ingyousomenames-|||isstillapos-si-bi-li-ty.--->Mak-ingupwithyou-|||fornowisnotacer-tain-ty.--->Bet-terbe-lievethethingsyoureadwhenyougethome.>Andcomebacktore-a-li-ty-->causeI'mgo-inghometotellyourmom.-->I'mgon-natellyourmo-thercauseithap-peneda-gain.--->I'lltellyourbro-thertoo.>Andyou'llbeohsosor-rythenohyeah.|!bg=img=../yeah.png->May|!bg=-beyou'llgrowup-|||whenyougohomeandreadthemirror.--->I'veleftalip-stickmes-sagetheremydar-ling.->I'veleftalip-stickmes-sagetheremydar-ling.---------@@Playing time: ~184 seconds
+>@@@@@@@@@|!mark=Intro@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1I|!bg=|!mark=Verse 1havehearde-nough-|||a-boutyourin-fi-de-li-ty.--->SoI'monthetrain|!bg=img=../train.png-|||and|!bg=youarere-centhi-sto-ry.--->Did-n'ttakelongforyoutostarttoplayandbreak>allyourso-lemnpro-mis-es,-->theonesyoumakelastweekwithyour"Ido".->You've|!mark=Verse 2beenbe-in'bad.-|||Andboytheru-mortra-veledfast.--->Youcan'tchangeyourways.-|||AndIdon'tthinkourlovecanlast.--->WhydidyouthinkI'dsi-lent-lytakeallyoursame>sil-lyim-ma-tu-ri-ty?-->Iwillscreamandcrycauseit'salltrue.-!mark=Breakdown>I'mgon-natellyourmo-thercauseithap-peneda-gain.--->I'lltellyourbro-thertooandyou'llbeohsosor-rythenohyeah.|!bg=img=../yeah.png->May|!bg=|!mark=Verse 3-beyou'llgrowup-|||whenyougohomeandreadthemirror.--->I'veleftalip-stickmes-sagetheremydar-ling.>@@@|!mark=Solo@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Call|!bg=|!mark=Verse 4-ingyousomenames-|||isstillapos-si-bi-li-ty.--->Mak-ingupwithyou-|||fornowisnotacer-tain-ty.--->Bet-terbe-lievethethingsyoureadwhenyougethome.>Andcomebacktore-a-li-ty-->causeI'mgo-inghometotellyourmom.-!mark=Breakdown 2>I'mgon-natellyourmo-thercauseithap-peneda-gain.--->I'lltellyourbro-thertoo.>Andyou'llbeohsosor-rythenohyeah.|!bg=img=../yeah.png->May|!bg=|!mark=Verse 5-beyou'llgrowup-|||whenyougohomeandreadthemirror.--->I'veleftalip-stickmes-sagetheremydar-ling.->I'veleftalip-stickmes-sagetheremydar-ling.|!mark=Outro-@@-----Playing time: ~184 seconds
 Notes cut: 0
 Notes lost totally: 0
 Wrote 18347693/32175440 bytes(57.0239% compressed)

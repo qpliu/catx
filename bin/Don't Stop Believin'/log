@@ -4,6 +4,17 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+mark=Intro count=0 fudgeLyrics=192 divisions=0 seconds=0.0 measure=1.0
+mark=Verse 1 count=17 fudgeLyrics=192 divisions=12288 seconds=15.867743999999998 measure=9.0
+mark=Verse 2 count=46 fudgeLyrics=192 divisions=24576 seconds=31.735487999999997 measure=17.0
+mark=Guitar Fill count=73 fudgeLyrics=192 divisions=35328 seconds=45.619763999999996 measure=24.0
+mark=Verse 3 count=91 fudgeLyrics=192 divisions=49152 seconds=63.47097599999999 measure=33.0
+mark=Bridge count=130 fudgeLyrics=192 divisions=61440 seconds=79.33872 measure=41.0
+mark=Verse 4 count=186 fudgeLyrics=192 divisions=92160 seconds=119.00807999999999 measure=61.0
+mark=Verse 5 count=219 fudgeLyrics=192 divisions=104448 seconds=134.875824 measure=69.0
+mark=Bridge count=254 fudgeLyrics=192 divisions=116736 seconds=150.74356799999998 measure=77.0
+mark=Guitar Solo count=301 fudgeLyrics=192 divisions=141312 seconds=182.47905599999999 measure=93.0
+mark=Chorus count=317 fudgeLyrics=192 divisions=153600 seconds=198.34679999999997 measure=101.0
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
@@ -14,7 +25,7 @@ Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
 Track name: midiOne
-!mark=Intro>@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2!mark=Verse 1@|!bg=1Just|!bg=asmalltowngirl-->Liv-in'inalone-lyworld.->Shetookthemid-nighttrain|!bg=img=../train.png>go|!bg=-in'a-ny-where.-!mark=Verse 2>Justaci-tyboy-->bornandraisedinSouthDet-roit.->Hetookthemid-nighttrain|!bg=img=../train.png>go|!bg=-in'a-ny-where.!mark=Guitar Fill->@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!mark=Verse 3A|!bg=sin-gerinasmo-kyroom-->Asmellofwineandcheapper-fume->Forasmi-letheycansharethenight.|!bg=img=../night.png->It|!bg=goesonandon,andon,andon.>Stran|!mark=Bridge-gerswait-ing-->Upanddownthebou-le-vard.>Theirsha-dows-sear-chinginthenight.|!bg=img=../night.png->Street|!bg=-lights,-peop-le-->Liv-ingjusttofinde-mo-tion.>Hid-ing-some-whereinthenight,|!bg=img=../night.png-->@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!mark=Verse 4Work|!bg=-inghardtogetmyfill,-->E-very-bo-dywantsathrill,->Pay-in'a-ny-thingtorollthedice-Justonemoretime.-!mark=Verse 5>Somewillwin,-somewilllose.-->Somewereborntosingtheblues.->Oh,themo-viene-verends.>Itgoesonandon,andon,andon.->Stran|!mark=Bridge-gerswait-ing-->Upanddownthebou-le-vard.>Theirsha-dows-sear-chinginthenight.|!bg=img=../night.png->Street|!bg=-lights,-peop-le-->Liv-ingjusttofinde-mo-tion.>Hid-ing-some-whereinthenight,|!bg=img=../night.png-!mark=Guitar Solo>@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Don't|!bg=|!mark=Chorusstopbe-liev-in'-->Holdontothefeel-in'Street-lights,-peop-le>Don'tstop-be-liev-in'-->Holdontothefeel-in'->Street-lights,-peop-le>Don'tstop-be-liev-in'-->Holdontothe-feel-in'-Street-lights,-peop-lePlaying time: ~251 seconds
+!mark=Intro|->@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2!mark=Verse 1|-@|!bg=1Just|!bg=asmalltowngirl-->Liv-in'inalone-lyworld.->Shetookthemid-nighttrain|!bg=img=../train.png>go|!bg=-in'a-ny-where.-!mark=Verse 2|->Justaci-tyboy-->bornandraisedinSouthDet-roit.->Hetookthemid-nighttrain|!bg=img=../train.png>go|!bg=-in'a-ny-where.!mark=Guitar Fill|-->@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!mark=Verse 3|-A|!bg=sin-gerinasmo-kyroom-->Asmellofwineandcheapper-fume->Forasmi-letheycansharethenight.|!bg=img=../night.png->It|!bg=goesonandon,andon,andon.>Stran|!mark=Bridge-gerswait-ing-->Upanddownthebou-le-vard.>Theirsha-dows-sear-chinginthenight.|!bg=img=../night.png->Street|!bg=-lights,-peop-le-->Liv-ingjusttofinde-mo-tion.>Hid-ing-some-whereinthenight,|!bg=img=../night.png-->@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!mark=Verse 4|-Work|!bg=-inghardtogetmyfill,-->E-very-bo-dywantsathrill,->Pay-in'a-ny-thingtorollthedice-Justonemoretime.-!mark=Verse 5|->Somewillwin,-somewilllose.-->Somewereborntosingtheblues.->Oh,themo-viene-verends.>Itgoesonandon,andon,andon.->Stran|!mark=Bridge-gerswait-ing-->Upanddownthebou-le-vard.>Theirsha-dows-sear-chinginthenight.|!bg=img=../night.png->Street|!bg=-lights,-peop-le-->Liv-ingjusttofinde-mo-tion.>Hid-ing-some-whereinthenight,|!bg=img=../night.png-!mark=Guitar Solo|->@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Don't|!bg=|!mark=Chorusstopbe-liev-in'-->Holdontothefeel-in'Street-lights,-peop-le>Don'tstop-be-liev-in'-->Holdontothefeel-in'->Street-lights,-peop-le>Don'tstop-be-liev-in'-->Holdontothe-feel-in'-Street-lights,-peop-lePlaying time: ~251 seconds
 Notes cut: 0
 Notes lost totally: 0
 Wrote 24872183/43997592 bytes(56.5308% compressed)

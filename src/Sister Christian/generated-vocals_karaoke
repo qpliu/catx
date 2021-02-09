@@ -1,28 +1,28 @@
 vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Intro" #1
-    "!mark=Intro"4 ">@"2 "@"4
+    "!mark=Intro|-"4 ">@"2 "@"4
     \skip4 "@"2 "@"4
     \skip4 "@"2 "@"4
     \skip4 "@"2 "@"4
     \skip4 "@|!bg=4"2 "@|!bg=3"4
     \skip4 "@|!bg=2"2 "@|!bg=1"4
 \mymark "Verse 1" #7
-    "!mark=Verse 1"4 "Sis|!bg="8 "-ter" "Chris" "-tian," "oh" "the"
+    "!mark=Verse 1|-"4 "Sis|!bg="8 "-ter" "Chris" "-tian," "oh" "the"
     "time"4 "has"8 "come."4. "-"4
     "-"4 ">And"8 "you" "know" "that" "you're" "the"
     "on"4 "-ly"8 "one"4. "to"8 "say,"
     \skip4. "-"4. ">O"8 "-K."
     \skip8 "-"2. \skip8
 \mymark "Verse 2" #13
-    "!mark=Verse 2"4 ">Where"8 "you" "go" "-ing?" "What" "you"
+    "!mark=Verse 2|-"4 ">Where"8 "you" "go" "-ing?" "What" "you"
     "look"8 "-ing"4 "for?"4. "-"4
     "-"8 ">You" "know" "those" "boys" "don't" "want" "to"
     "play"4 "no" "more" "with"8 "you."
     \skip4. "-"4. ">It's"8 "true."
     \skip8 "-"2. ">@"8
 \mymark "Interlude" #19
-    "!mark=Interlude"4. "@"2 "@"8
+    "!mark=Interlude|-"4. "@"2 "@"8
     \skip4. "@"2 "@|!bg=4"8
     \skip4. "@|!bg=3"2 "@|!bg=2"8
     \skip4. "@|!bg=1"2 "You're|!bg="8
@@ -36,14 +36,14 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip4 "-"2.
     "-"1
 \mymark "Verse 3" #31
-    "!mark=Verse 3"4 ">Babe|!bg="8 "you" "know" "you're" "grow" "-ing"
+    "!mark=Verse 3|-"4 ">Babe|!bg="8 "you" "know" "you're" "grow" "-ing"
     "up"8 "so"4 "fast."4. "-"4
     "-"8 ">And" "ma" "-ma's" "wor" "-ry" "-ing" "that"
     "you"4 "won't" "last" "to"8 "say."
     \skip4. "-"4. ">Let's"8 "play."
     \skip8 "-"2. \skip8
 \mymark "Verse 4" #37
-    "!mark=Verse 4"4 ">Sis"8 "-ter" "Chris" "-tian" "there's" "so"
+    "!mark=Verse 4|-"4 ">Sis"8 "-ter" "Chris" "-tian" "there's" "so"
     "much"4 "in"8 "life."4. "-"4
     "-"4 ">Don't"8 "you" "give" "it" "up" "be"
     "-fore"4 "your" "time" "is"8 "due."
@@ -104,19 +104,19 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"8 "to|!bg=img=../night.png" "-night."4 \skip16 "-"4. \skip16
     "-"4 ">@"2 "@"4
 \mymark "Break Down" #92
-    "!mark=Break Down"4 "@"2 "@"4
+    "!mark=Break Down|-"4 "@"2 "@"4
     \skip4 "@"2 "@"4
     \skip4 "@|!bg=4"2 "@|!bg=3"4
     \skip4 "@|!bg=2"2 "@|!bg=1"4
 \mymark "Outro" #96
-    "!mark=Outro"4 "Sis|!bg="8 "-ter" "Chris" "-tian," "oh" "the"
+    "!mark=Outro|-"4 "Sis|!bg="8 "-ter" "Chris" "-tian," "oh" "the"
     "time"4 "has"8 "come."4. "-"4
     "-"4 ">And"8 "you" "know" "that" "you're" "the"
     "on"4 "-ly"8 "one"4. "to"8 "say."
     \skip4. "-"2 \skip8
     "-"8 ">O" "-K."4 "-"2
 \mymark "Last Bit" #102
-    "!mark=Last Bit"2 \skip8 ">But"16 "you're" "mo"8 "-tor"
+    "!mark=Last Bit|-"2 \skip8 ">But"16 "you're" "mo"8 "-tor"
     "-ing."4 "-"2 \skip8 ">Yeah!|!bg=img=../yeah.png"8
     \skip1
     \skip2 ">Mo|!bg="4 "-tor"

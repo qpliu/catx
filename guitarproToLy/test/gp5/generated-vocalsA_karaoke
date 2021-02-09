@@ -123,7 +123,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
 \mymark "Chorus 2B" #112
-    "!mark=Chorus 2B"1
+    "!mark=Chorus 2B|-"1
     "-"1
     "-"1
     "-"1
@@ -142,7 +142,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
 \mymark "Bridge" #130
-    "!mark=Bridge"1
+    "!mark=Bridge|-"1
     "-"1
     "-"1
     "-"1
@@ -153,7 +153,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
 \mymark "Guitar Solo" #140
-    "!mark=Guitar Solo"1
+    "!mark=Guitar Solo|-"1
     "-"1
     "-"1
     "-"1
@@ -170,7 +170,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
 \mymark "Post Solo/Pre-Chorus 3" #156
-    "!mark=Post Solo/Pre-Chorus 3"1
+    "!mark=Post Solo/Pre-Chorus 3|-"1
     "-"1
     "-"1
     "-"1
@@ -181,7 +181,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
 \mymark "Chorus 3A" #166
-    "!mark=Chorus 3A"1
+    "!mark=Chorus 3A|-"1
     "-"1
     "-"1
     "-"1
@@ -198,7 +198,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
 \mymark "Chorus 3B" #182
-    "!mark=Chorus 3B"1
+    "!mark=Chorus 3B|-"1
     "-"1
     "-"1
     "-"1
@@ -217,7 +217,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
 \mymark "Ending" #200
-    "!mark=Ending"1
+    "!mark=Ending|-"1
     "-"1
     "@@"32 "-"2. \skip8. \skip32
     "-"1

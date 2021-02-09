@@ -1,12 +1,13 @@
 karaokeLyrics = \new Lyrics \lyricmode {
 \mymark "Intro 1" #1
-    \skip8 @2
-    >@ @ @ @ @ @
-%\mymark "Intro 2" #4
-    @ @ @ @ @ @ @ @ @ @ "@|!bg=4" "@|!bg=3" "@|!bg=2" "@|!bg=1"
+    "!mark=Intro 1"8 ">@"2
+    @ @ @ @ @4.
+\mymark "Intro 2" #4
+    "!mark=Intro 2"8
+    @2 @ @ @ @ @ @ @ @ @ @ "@|!bg=4" "@|!bg=3" "@|!bg=2" "@|!bg=1"
     "Why|!bg="8 can't I
 \mymark "A" #12
-    tell4 you8 all4 of8 these4
+    "tell|!mark=A"4 you8 all4 of8 these4
     feel4 -ings?4 -8 >It's8 so much
     ea4 -si8 -er4 when8 I'm4
     dream4 -ing. -8 >I8 think my
@@ -15,7 +16,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     wish4 I8 could find the4 words.4.
     -4. >And8 now I'm
 \mymark "B" #20
-    cry4 -ing8 un4 -der8 the4
+    "cry|!mark=B"4 -ing8 un4 -der8 the4
     moon4 -light. -8 >I8 wan -na
     call4 you8 up, but it's4 mid4.
     -night.4 -8 >What8 should I
@@ -24,7 +25,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     -lei4 -do4 -sco8 -pic4 heart.4.
     -2 >The4
 \mymark "C" #28
-    light2. that8 shines4.
+    "light|!mark=C"2. that8 shines4.
     down4 from8 the4.
     moon4. will8 guide the4 way.2 \skip8
     -4 >And4
@@ -33,19 +34,20 @@ karaokeLyrics = \new Lyrics \lyricmode {
     you.1
     \skip2 -8 >The8 con -stel
 \mymark "D" #36
-    -la4 -tions8 spar4 -kle8 in4
+    "-la|!mark=D"4 -tions8 spar4 -kle8 in4
     my4 dreams. -8 >And8 so I
     won4 -der8 if it's a4 bless4.
     -ing.4 -8 >As8 if by
     fate4 we're8 born4 on8 the same
     pla4 -net. -8 >Just8 like a
     mi4 -ra -cle8 ro4 -mance.4.
-%\mymark "E" #44
-    -2 -4.
+    -2.
+\mymark "E" #44
+    "-|!mark=E"8
     >@2 @ @ "@|!bg=4" "@|!bg=3" "@|!bg=2" "@|!bg=1"
     "So|!bg="8 let us
 \mymark "B-2" #48
-    have4 a8 -no4 -ther8 great4
+    "have|!mark=B-2"4 a8 -no4 -ther8 great4
     week4 -end.4 -8 >And8 I will
     pray4 it8 has4 a8 hap4
     -py4 end.4 -8 >I'll8 still be
@@ -54,7 +56,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     heels4 in love8 with4 you.4.
     -2 >I4
 \mymark "C-2" #56
-    can't2. for8 -get4.
+    "can't|!mark=C-2"2. for8 -get4.
     the4 way8 you4.
     looked4. at8 me that4 day.2 \skip8
     -4 >When4
@@ -63,18 +65,19 @@ karaokeLyrics = \new Lyrics \lyricmode {
     time.1.
     -8 >With8 -in the
 \mymark "D-2" #64
-    sea4 of8 stars4 un8 -der the
+    "sea|!mark=D-2"4 of8 stars4 un8 -der the
     night4 sky -8 >I8 could still
     find4 you8 if I closed4 my4.
     eyes.4 -8 >I8 love the
     way4 the8 world4 gives8 us4
     mo4 -ments -8 that8 we make
     our4 own des8 -ti4 -ny.4.
-% \mymark "F" #72
-    -1 >@2 @ @ @ @ @ @ @ @ @ @ "@|!bg=4" "@|!bg=3" "@|!bg=2" "@|!bg=1"
+    -2.
+\mymark "F" #72
+    "-|!mark=F"4 >@2 @ @ @ @ @ @ @ @ @ @ "@|!bg=4" "@|!bg=3" "@|!bg=2" "@|!bg=1"
     "This|!bg="4
 \mymark "G" #80
-    mi2. -ra8 -cle4.
+    "mi|!mark=G"2. -ra8 -cle4.
     will4 al8 -ways4.
     re4. -main8 a mys4 -tery.2 \skip8
     -4 >Cause4
@@ -83,7 +86,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     you.1.
     -8 >The8 con -stel
 \mymark "D-3" #88
-    -la4 -tions8 spar4 -kle8 in4
+    "-la|!mark=D-3"4 -tions8 spar4 -kle8 in4
     my4 dreams. -8 >And8 so I
     won4 -der8 if it's a4 bless4.
     -ing.4 -8 >As8 if by
@@ -92,7 +95,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     mi4 -ra -cle8 ro4 -mance.2 \skip8
     -4 >She's8 the
 \mymark "Ending" #96
-    one4 named Sai8 -lor4 Moon.4.
+    "one|!mark=Ending"4 named Sai8 -lor4 Moon.4.
     -4. >She8 is the
     one4 named Sai8 -lor4 Moon.4.
     -2 -8 @@8

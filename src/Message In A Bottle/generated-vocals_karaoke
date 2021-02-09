@@ -1,12 +1,12 @@
 vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Intro" #1
-    "!mark=Intro"8 ">@"2 "@"4.
+    "!mark=Intro|-"8 ">@"2 "@"4.
     \skip8 "@"2 "@"4.
     \skip8 "@"2 "@|!bg=4"4.
     \skip8 "@|!bg=3"2 "@|!bg=2"4.
 \mymark "1st Verse" #5
-    "!mark=1st Verse"8 "@|!bg=1"2 "Just|!bg="8 "a" "cast"
+    "!mark=1st Verse|-"8 "@|!bg=1"2 "Just|!bg="8 "a" "cast"
     \skip4 "-a"8 "-way,"4. "-"8 "an"
     "is"8 "-land"4 "lost" "at" "sea,"8
     \skip4. "oh"4. "-"4
@@ -23,7 +23,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "-to"4 "des" "-pair," "oh"8
     \skip4. "I'll"4. "-"4
 \mymark "Bridge" #21
-    "!mark=Bridge"8 "send"4 "an" "S." "O."8
+    "!mark=Bridge|-"8 "send"4 "an" "S." "O."8
     \skip8 "-"8 ">S." "to"4 "the"8 "world" "I'll"
     \skip8 "send"4 "an" "S." "O."8
     \skip8 "-"8 ">S." "to"4 "the"8 "world" "I"
@@ -43,7 +43,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"2. ">@"4
     \skip4 "@"2 "@"4
 \mymark "2nd Verse" #39
-    "!mark=2nd Verse"4 "@"2 "year"8 "has"
+    "!mark=2nd Verse|-"4 "@"2 "year"8 "has"
     \skip4 "passed"8 "since"4. "-"8 "I"
     "wrote"8 "my"4 "note" "-"4.
     "-"1
@@ -60,7 +60,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "break"4 "your" "heart" "I'll"8
     \skip4. "-"2 \skip8
 \mymark "Bridge" #55
-    "!mark=Bridge"8 ">send"4 "an" "S." "O."8
+    "!mark=Bridge|-"8 ">send"4 "an" "S." "O."8
     \skip8 "-"8 "S." "to"4 "the"8 "world" "I'll"
     \skip8 "send"4 "an" "S." "O."8
     \skip8 "-"8 ">S." "to"4 "the"8 "world" "I"
@@ -90,7 +90,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "@"2 "@|!bg=4"4.
     \skip8 "@|!bg=3"2 "@|!bg=2"4.
 \mymark "3rd Verse" #83
-    "!mark=3rd Verse"8 "@|!bg=1"2 "out|!bg="8 "this" "morn"
+    "!mark=3rd Verse|-"8 "@|!bg=1"2 "out|!bg="8 "this" "morn"
     \skip4 "-ing,"8 "don't"4. "-"8 "be"
     "-lieve"8 "what"4 "I" "saw" "A"8
     \skip4. "-"2 \skip8
@@ -107,7 +107,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "a"4 "home" "I'll" "send"8
     \skip4. "-"2 \skip8
 \mymark "Bridge" #99
-    "!mark=Bridge"8 ">an"4 "S." "O." \skip8
+    "!mark=Bridge|-"8 ">an"4 "S." "O." \skip8
     "-"8 ">S." "to" "the"4 "world"8 "I'll" "send"
     \skip8 "an"4 "S." "O." "-"8
     "-"8 ">S." "to" "the"4 "world"8 "I" "hope"
@@ -135,7 +135,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
 \mymark "Outro" #125
-    "!mark=Outro"1
+    "!mark=Outro|-"1
     "-"1
     "-"1
     "-"1

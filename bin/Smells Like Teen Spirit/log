@@ -3,6 +3,20 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+mark=Intro count=0 fudgeLyrics=144 divisions=0 seconds=0.0 measure=1.0
+mark=Verse 1 count=25 fudgeLyrics=144 divisions=18432 seconds=25.263119999999997 measure=13.0
+mark=Pre-Chorus count=68 fudgeLyrics=144 divisions=36864 seconds=50.526239999999994 measure=25.0
+mark=Chorus count=105 fudgeLyrics=144 divisions=49152 seconds=67.36832 measure=33.0
+mark=Bridge count=163 fudgeLyrics=144 divisions=67584 seconds=92.63144 measure=45.0
+mark=Verse 2 count=170 fudgeLyrics=144 divisions=73728 seconds=101.05247999999999 measure=49.0
+mark=Pre-Chorus count=214 fudgeLyrics=144 divisions=92160 seconds=126.31559999999999 measure=61.0
+mark=Chorus count=251 fudgeLyrics=144 divisions=104448 seconds=143.15768 measure=69.0
+mark=Bridge count=309 fudgeLyrics=144 divisions=122880 seconds=168.42079999999999 measure=81.0
+mark=Guitar Solo count=316 fudgeLyrics=144 divisions=129024 seconds=176.84184 measure=85.0
+mark=Verse 3 count=349 fudgeLyrics=144 divisions=153600 seconds=210.52599999999998 measure=101.0
+mark=Pre-Chorus count=393 fudgeLyrics=144 divisions=172032 seconds=235.78911999999997 measure=113.0
+mark=Chorus count=430 fudgeLyrics=144 divisions=184320 seconds=252.63119999999998 measure=121.0
+mark=Outro count=490 fudgeLyrics=144 divisions=202752 seconds=277.89432 measure=133.0
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
@@ -12,7 +26,7 @@ Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
-!mark=Intro>@@@@@@@@@@@@@@@@@@@@@@@@!mark=Verse 1@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Load|!bg=uponguns,andbring-yourfriends,it'sfuntolose,>andto-pre-tend.She'so-ver-board,andselfas-sured,ohno,>Iknowadir-tyword.!mark=Pre-ChorusHel-lo,hel-lo,hel-lo,howlow?->Hel-lo,hel-lo,hel-lo,howlow?-Hel-lo,hel-lo,hel-lo,howlow?->Hel-lo,hel-lo,hel-lo.>Withthelights!mark=Chorusout,it'slessdan-g'rous.->Herewearenow,-en-ter-tainus.->Ifeelstu-pid,-andcon-ta-gious.->Herewearenow,-en-ter-tainus.->Amu-la-to,-anal-bi-no,-amos-qui-to,-myli-bi-do,->yeah.|!bg=img=../yeah.png!mark=Bridge>Hey.|!bg=-->Yay.->@!mark=Verse 2@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1I'm|!bg=worseatwhat-Ido-best,andforthisgiftIfeel-best.>Ourlit-tlegrouphasal-ways-been,>andal-wayswillun-til-theend.!mark=Pre-Chorus>Hel-lo,hel-lo,hel-lo,howlow?-Hel-lo,hel-lo,hel-lo,howlow?->Hel-lo,hel-lo,hel-lo,howlow?-Hel-lo,hel-lo,hel-lo.>Withthelights!mark=Chorusout,it'slessdan-g'rous.->Herewearenow,-ent-er-tainus.->Ifeelstu-pid,-andcon-ta-gious.->Herewearenow,-ent-er-tainus.->Amu-la-to,-anal-bi-no,-amos-qui-to,-myli-bi-do,->yeah.|!bg=img=../yeah.png!mark=Bridge>Hey.|!bg=-->Yay.->@!mark=Guitar Solo@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@!mark=Verse 3@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1And|!bg=Ifor-getjustwhy-Itaste,ohyeah,|!bg=img=../yeah.png>I|!bg=guessitmakes-mesmile.>Ifoundithard,it'shard-tofind,ohwell,>what-ev-er,ne-ver-mind.!mark=Pre-ChorusHel-lo,hel-lo,hel-lo,howlow?->Hel-lo,hel-lo,hel-lo,howlow?-Hel-lo,hel-lo,hel-lo,howlow?->Hel-lo,hel-lo,hel-lo.>Withthelights!mark=Chorusout,it'slessdan-g'rous.->Herewearenow,-ent-er-tainus.->Ifeelstu-pid,-andcon-ta-gious.->Herewearenow,-ent-er-tainus.->Amu-la-to,-anal-bi-no,-amos-qui-to,-myli-bi-do.->Ade-ni!mark=Outro-al,ade-ni-al,-ade-ni-al,-ade-ni-al,-ade-ni-al,-ade-ni-al,->ade-ni-al,-ade-ni-al,-ade-ni-al.--@@-Playing time: ~305 seconds
+!mark=Intro|->@@@@@@@@@@@@@@@@@@@@@@@@!mark=Verse 1|-@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Load|!bg=uponguns,andbring-yourfriends,it'sfuntolose,>andto-pre-tend.She'so-ver-board,andselfas-sured,ohno,>Iknowadir-tyword.!mark=Pre-Chorus|-Hel-lo,hel-lo,hel-lo,howlow?->Hel-lo,hel-lo,hel-lo,howlow?-Hel-lo,hel-lo,hel-lo,howlow?->Hel-lo,hel-lo,hel-lo.>Withthelights!mark=Chorus|-out,it'slessdan-g'rous.->Herewearenow,-en-ter-tainus.->Ifeelstu-pid,-andcon-ta-gious.->Herewearenow,-en-ter-tainus.->Amu-la-to,-anal-bi-no,-amos-qui-to,-myli-bi-do,->yeah.|!bg=img=../yeah.png!mark=Bridge|->Hey.|!bg=-->Yay.->@!mark=Verse 2|-@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1I'm|!bg=worseatwhat-Ido-best,andforthisgiftIfeel-best.>Ourlit-tlegrouphasal-ways-been,>andal-wayswillun-til-theend.!mark=Pre-Chorus|->Hel-lo,hel-lo,hel-lo,howlow?-Hel-lo,hel-lo,hel-lo,howlow?->Hel-lo,hel-lo,hel-lo,howlow?-Hel-lo,hel-lo,hel-lo.>Withthelights!mark=Chorus|-out,it'slessdan-g'rous.->Herewearenow,-ent-er-tainus.->Ifeelstu-pid,-andcon-ta-gious.->Herewearenow,-ent-er-tainus.->Amu-la-to,-anal-bi-no,-amos-qui-to,-myli-bi-do,->yeah.|!bg=img=../yeah.png!mark=Bridge|->Hey.|!bg=-->Yay.->@!mark=Guitar Solo|-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@!mark=Verse 3|-@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1And|!bg=Ifor-getjustwhy-Itaste,ohyeah,|!bg=img=../yeah.png>I|!bg=guessitmakes-mesmile.>Ifoundithard,it'shard-tofind,ohwell,>what-ev-er,ne-ver-mind.!mark=Pre-Chorus|-Hel-lo,hel-lo,hel-lo,howlow?->Hel-lo,hel-lo,hel-lo,howlow?-Hel-lo,hel-lo,hel-lo,howlow?->Hel-lo,hel-lo,hel-lo.>Withthelights!mark=Chorus|-out,it'slessdan-g'rous.->Herewearenow,-ent-er-tainus.->Ifeelstu-pid,-andcon-ta-gious.->Herewearenow,-ent-er-tainus.->Amu-la-to,-anal-bi-no,-amos-qui-to,-myli-bi-do.->Ade-ni!mark=Outro|--al,ade-ni-al,-ade-ni-al,-ade-ni-al,-ade-ni-al,-ade-ni-al,->ade-ni-al,-ade-ni-al,-ade-ni-al.--@@-Playing time: ~305 seconds
 Notes cut: 0
 Notes lost totally: 0
 Wrote 32761071/53500260 bytes(61.2353% compressed)
