@@ -1,0 +1,37 @@
+#!/bin/sh
+WHERE=application_guitar_pro4-43713801.gp4
+set -e
+rm -f generated-*
+java -jar ../../guitarproToLy/1.jar <"$WHERE" \
+markup-extra 0 '\key d \major' \
+modified-filename drs \
+track 0 \
+    preset kav \
+    transpose 12 \
+    output-lilypond \
+    output-lyrics \
+    output-karaoke \
+track 0 \
+    preset susan \
+    transpose 12 \
+    output-lilypond \
+track 1 \
+    preset peter \
+    output-lilypond \
+track 2 \
+    preset peter \
+    output-lilypond \
+track 3 \
+    preset peter \
+    output-dotext \
+    output-lilypond \
+track 4 \
+    preset peter \
+    output-lilypond \
+track 5 \
+    preset bass \
+    output-lilypond \
+track 6 \
+    preset gg \
+    output-drums \
+2>&1|tee log

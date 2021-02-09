@@ -3,17 +3,17 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-mark=Intro count=0 fudgeLyrics=48 divisions=0 seconds=0.0 measure=1.0
-mark=Verse 1 count=18 fudgeLyrics=48 divisions=13824 seconds=18.0 measure=10.0
-mark=Pre-Chorus 1 count=79 fudgeLyrics=48 divisions=38400 seconds=49.99999999999999 measure=26.0
-mark=Verse 2 count=97 fudgeLyrics=48 divisions=50688 seconds=66.0 measure=34.0
-mark=Pre-Chorus 2 count=128 fudgeLyrics=48 divisions=62976 seconds=81.99999999999999 measure=42.0
-mark=Chrous 1 count=146 fudgeLyrics=48 divisions=75264 seconds=97.99999999999999 measure=50.0
-mark=Interlude count=171 fudgeLyrics=48 divisions=87552 seconds=113.99999999999999 measure=58.0
-mark=Guitar Solo count=179 fudgeLyrics=48 divisions=93696 seconds=121.99999999999999 measure=62.0
-mark=Pre-Chorus 3 count=213 fudgeLyrics=48 divisions=118272 seconds=153.99999999999997 measure=78.0
-mark=Chorus 2 count=231 fudgeLyrics=48 divisions=130560 seconds=169.99999999999997 measure=86.0
-mark=Outro count=271 fudgeLyrics=48 divisions=148992 seconds=193.99999999999997 measure=98.0
+mark=Intro count=0 fudgeLyrics=144 divisions=0 seconds=0.0 measure=1.0
+mark=Verse count=18 fudgeLyrics=144 divisions=13824 seconds=18.0 measure=10.0
+mark=Pre-Chorus count=87 fudgeLyrics=144 divisions=38400 seconds=49.99999999999999 measure=26.0
+mark=Verse count=112 fudgeLyrics=144 divisions=50688 seconds=66.0 measure=34.0
+mark=Pre-Chorus count=144 fudgeLyrics=144 divisions=62976 seconds=81.99999999999999 measure=42.0
+mark=Chorus count=169 fudgeLyrics=144 divisions=75264 seconds=97.99999999999999 measure=50.0
+mark=Interlude count=200 fudgeLyrics=144 divisions=87552 seconds=113.99999999999999 measure=58.0
+mark=Solo count=209 fudgeLyrics=144 divisions=93696 seconds=121.99999999999999 measure=62.0
+mark=Pre-Chorus count=242 fudgeLyrics=144 divisions=118272 seconds=153.99999999999997 measure=78.0
+mark=Chorus count=269 fudgeLyrics=144 divisions=130560 seconds=169.99999999999997 measure=86.0
+mark=Outro count=312 fudgeLyrics=144 divisions=148992 seconds=193.99999999999997 measure=98.0
 WorstAge=2147484608
 Playing out.midi
 MIDI file: out.midi
@@ -23,19 +23,29 @@ Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
->@|!mark=Intro@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Come,|!bg=|!mark=Verse 1-asyouare,-asyouwere,-asIwantyoutobe.->Asafriend,-asafriend,-asanolde-ne-my.->Takeyourtime,-hur-ryup.-Choiceisyours,don'tbelate.->Takearest,-asafriend,-asanoldme-mo-ri!mark=Pre-Chorus 1-a.->Me-mo-ri-a.-Me-mo-ri-a.-Me-mo-ri-a.->Come,|!mark=Verse 2-dousedinmud,-soakedinbleach,-asIwantyoutobe.->Asatrend,-asafriend,-asanoldme-mo-ri!mark=Pre-Chorus 2-a.->Me-mo-ri-a.-Me-mo-ri-a.-Me-mo-ri-a.-!mark=Chrous 1>AndIswearthatIdon'thaveagun.-No,Idon'thaveagun.->No,Idon'thaveagun.->@|!mark=Interlude@@@@@@@@|!mark=Guitar Solo@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Me|!bg=-mo-ri!mark=Pre-Chorus 3-a.-Me-mo-ri-a.-Me-mo-ri-a.-Me-mo-ri-a.-!mark=Chorus 2>AndIswearthatIdon'thaveagun.-No,Idon'thaveagun.->No,Idon'thaveagun.-No,Idon'thaveagun.->No,Idon'thaveagun.->@|!bg=4@|!bg=3|!mark=Outro@|!bg=2@|!bg=1Me|!bg=-mo-ri-a.--Me-mo-ri-a.---@@Playing time: ~217 seconds
+>@|!mark=Intro@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Come|!mark=Verse|!bg=asyouare-asyouwere-AsIwant-you-tobe->Asafriend-asafriend-Asaknown-ene-myTake->yourtimehur--ryupThe-choiceisyours-don't-belateTake->arestas-afriendAs-anold-Memo-ri-a!mark=Pre-Chorus|-mem-o-ri-aMem-o-ri-->amem-o-ri-a-Comedousedinmudsoakedin->bleach|!mark=VerseAsIwant-you--tobeAsatrendasafriend-Asanold->Memo--ri-amem-o-ri-a!mark=Pre-Chorus|-Mem-o-ri-amem-o-ri-->aAndIswearthatI-don't-haveagun--!mark=Chorus|->NoIdon't-haveagun-NoIdon't->haveagun-ri-a-mem-o-ri-aMem-o-ri->@!mark=Interlude|-@@@@@@@@!mark=Solo|-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2!mark=Pre-Chorus|-@|!bg=1a|!bg=mem-o--ri-aAndIswear-thatIdon'thaveagun->NoIdon'thaveagun-!mark=Chorus|->NoIdon'thaveagunNoIdon'thavea->gunNoIdon'thaveagunNo->Idon'thaveagunMem-o-ri-amem-o-ri-a--@@---!mark=Outro|----------Playing time: ~219 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 22232073/38014280 bytes(58.4835% compressed)
+Wrote 22622871/38367080 bytes(58.9643% compressed)
+warning: compressing over-full page by 35.4 staff-spaces
+warning: page 5 has been compressed
+warning: compressing over-full page by 33.7 staff-spaces
+warning: page 9 has been compressed
+warning: compressing over-full page by 36.8 staff-spaces
+warning: page 17 has been compressed
+warning: compressing over-full page by 33.7 staff-spaces
+warning: page 18 has been compressed
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+warning: compressing over-full page by 6.2 staff-spaces
+warning: page 0 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-    106 measure=all
-    106 measure=gg
-    106 measure=susan
-    106 measure=kav
-    106 measure=peter
-    106 measure=bass
+    107 measure=all
+    107 measure=kav
+    107 measure=gg
+    107 measure=peter
+    107 measure=susan
+    107 measure=bass

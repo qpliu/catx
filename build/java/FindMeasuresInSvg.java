@@ -7,12 +7,14 @@ import org.xml.sax.helpers.*;
 
 final class FindMeasuresInSvg{
     private static final double CLOSE=1e-4;
-    private static final double LEFT_SPACE=1.1;
+    private static final double LEFT_SPACE=1.7;
     private static final double SHORTEST_MEAUSRE=1;
     private static final Pattern matrixPattern=Pattern.compile("matrix\\(([-.0-9]+),([-.0-9]+),([-.0-9]+),([-.0-9]+),([-.0-9]+),([-.0-9]+)\\)");
     private static final Pattern linePattern=Pattern.compile("M\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*L\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*");
     private static final Pattern rectanglePattern=Pattern.compile("M\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*L\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*L\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*L\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*Z\\s*M\\s*([-.0-9]+)\\s+([-.0-9]+)\\s*");
-    final String partpage;
+    private static final Pattern strokeWidthPattern=Pattern.compile(".*stroke-width:([0-9.]+);.*");
+    String partpage;
+    boolean verbose;
     double viewBoxLeft,viewBoxTop,viewBoxRight,viewBoxBottom;
     static class Matrix{
 	final double m0,m1,m2,m3,m4,m5;
@@ -35,22 +37,24 @@ final class FindMeasuresInSvg{
 	}
     }
     static class HorizontalLine implements Comparable<HorizontalLine>{
-	final double y,x0,x1;
-	HorizontalLine(double y,double x0,double x1){
+	final double y,x0,x1,strokeWidth;
+	HorizontalLine(double y,double x0,double x1,double strokeWidth){
 	    this.y = y;
 	    this.x0 = x0;
 	    this.x1 = x1;
+	    this.strokeWidth = strokeWidth;
 	}
 	@Override public int compareTo(HorizontalLine h){
 	    return Double.compare(y,h.y);
 	}
     }
     static class VerticalLine implements Comparable<VerticalLine>{
-	final double x,y0,y1;
-	VerticalLine(double x,double y0,double y1){
+	final double x,y0,y1,strokeWidth;
+	VerticalLine(double x,double y0,double y1,double strokeWidth){
 	    this.x = x;
 	    this.y0 = y0;
 	    this.y1 = y1;
+	    this.strokeWidth = strokeWidth;
 	}
 	@Override public int compareTo(VerticalLine v){
 	    return Double.compare(x,v.x);
@@ -59,8 +63,12 @@ final class FindMeasuresInSvg{
     final List<HorizontalLine>horizontalLines=new ArrayList<HorizontalLine>();
     final List<VerticalLine>verticalLines=new ArrayList<VerticalLine>();
     final List<double[]>rectangles=new ArrayList<double[]>();
-    FindMeasuresInSvg(String partpage)throws Exception{
-	this.partpage = partpage;
+    FindMeasuresInSvg(String[]argv)throws Exception{
+	for (int i=0; i<argv.length; i++)
+	    if (argv[i].equals("-v"))
+		verbose = true;
+	    else
+		partpage = argv[i];
 	SAXParserFactory.newInstance().newSAXParser().parse(System.in,new DefaultHandler(){
 	    @Override public void startElement(String uri,String localName,String qName,Attributes attributes)throws SAXException{
 		if (qName.equals("svg")){
@@ -71,12 +79,15 @@ final class FindMeasuresInSvg{
 		    viewBoxBottom = Double.parseDouble(st.nextToken());
 		}
 		if (qName.equals("path")){
-		    Matcher m=matrixPattern.matcher(String.valueOf(attributes.getValue("transform")));
-		    if (m.matches()){
+		    double strokeWidth=0;
+		    Matcher m;
+		    if ((m=strokeWidthPattern.matcher(String.valueOf(attributes.getValue("style")))).matches())
+			strokeWidth = Double.parseDouble(m.group(1));
+		    if ((m=matrixPattern.matcher(String.valueOf(attributes.getValue("transform")))).matches()){
 			Matrix matrix=new Matrix(m);
 			m = linePattern.matcher(String.valueOf(attributes.getValue("d")));
 			if (m.matches())
-			    gotLine(matrix,m);
+			    gotLine(matrix,m,strokeWidth);
 			m = rectanglePattern.matcher(String.valueOf(attributes.getValue("d")));
 			if (m.matches())
 			    gotRectangle(matrix,m);
@@ -148,12 +159,13 @@ final class FindMeasuresInSvg{
 		y0 = y1;
 		y1 = t;
 	    }
-//System.out.println("# R "+x0+" "+y0+" "+x1+" "+y1);
+	if (verbose)
+	    System.out.println("# R "+x0+" "+y0+" "+x1+" "+y1+" g="+matcher.group());
 	    if (x1-x0<.01)
 		rectangles.add(new double[]{x0,y0,x1,y1});
 	}
     }
-    void gotLine(Matrix matrix,Matcher matcher){
+    void gotLine(Matrix matrix,Matcher matcher,double strokeWidth){
 	Point p0=new Point(matcher,1,matrix);
 	Point p1=new Point(matcher,3,matrix);
 	double x0=p0.x,y0=p0.y;
@@ -169,15 +181,17 @@ final class FindMeasuresInSvg{
 	    y1 = t;
 	}
 	if (y0==y1 && x0!=x1){
-//System.out.println("# H "+y0+" "+x0+" "+x1);
-	    horizontalLines.add(new HorizontalLine(y0,x0,x1));
+	    if (verbose)
+		System.out.println("# H "+y0+" "+x0+" "+x1+" strokeWidth="+strokeWidth+" g="+matcher.group());
+	    horizontalLines.add(new HorizontalLine(y0,x0,x1,strokeWidth));
 	}
 	if (x0==x1 && y0!=y1){
-//System.out.println("# V "+x0+" "+y0+" "+y1);
-	    verticalLines.add(new VerticalLine(x0,y0,y1));
+	    if (verbose)
+		System.out.println("# V "+x0+" "+y0+" "+y1+" strokeWidth="+strokeWidth+" g="+matcher.group());
+	    verticalLines.add(new VerticalLine(x0,y0,y1,strokeWidth));
 	}
     }
     public static void main(String[]argv)throws Exception{
-	new FindMeasuresInSvg(argv[0]);
+	new FindMeasuresInSvg(argv);
     }
 }

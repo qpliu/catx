@@ -3,6 +3,17 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+mark=Verse count=15 fudgeLyrics=24 divisions=10752 seconds=12.923063999999998 measure=8.0
+mark= count=94 fudgeLyrics=24 divisions=35328 seconds=42.461496 measure=24.0
+mark=Chorus count=109 fudgeLyrics=24 divisions=39936 seconds=47.99995199999999 measure=27.0
+mark=Riff 1 count=127 fudgeLyrics=24 divisions=49152 seconds=59.07686399999999 measure=33.0
+mark=Verse count=135 fudgeLyrics=24 divisions=55296 seconds=66.461472 measure=37.0
+mark= count=170 fudgeLyrics=24 divisions=67584 seconds=81.23068799999999 measure=45.0
+mark=Chorus count=185 fudgeLyrics=24 divisions=72192 seconds=86.769144 measure=48.0
+mark=Riff 2 count=209 fudgeLyrics=24 divisions=84480 seconds=101.53835999999998 measure=56.0
+mark= count=227 fudgeLyrics=24 divisions=96768 seconds=116.30757599999998 measure=64.0
+mark= count=241 fudgeLyrics=24 divisions=109056 seconds=131.07679199999998 measure=72.0
+mark=Chorus count=256 fudgeLyrics=24 divisions=113664 seconds=136.61524799999998 measure=75.0
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
@@ -12,21 +23,213 @@ Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
->@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!bg=|Out-sidethere'sabox-carwait-ing,->out-sidethefam-ilystew,||||outbythefi-rebreath-ing.->Out-sidewewait'tilfaceturnsblue.>Iknowthener-vouswalk-ing.->Iknowthedir-tybeardhangs||||outbythebox-carwait-ing.->Takemewaytono-whereplains.->Thereisawaitsolong->you'llne-verwaitso||||long.->Herecomesyourman.-->Herecomesyourman.-->Herecomesyourman.-->@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!bg=|Bigshakeonthebox-carmov-ing.->Bigshaketothelandthat'sfall-ingdown.>Isawindmakesa!bg=img=../cat/tree-0.png|palm!bg=|stopblow-ing.>Abig,bigstonefallandbreakmycrown.->Thereisawaitsolong->you'llne-verwaitso||||long.->Herecomesyourman.-->Herecomesyourman.-->Herecomesyour<span style='display:inline-block;font-size:400%;transform:scaleY(.25);transform-origin:0 0;margin-bottom:-75%;vertical-align:top;'>man.</span>->Herecomesyourman.->@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!bg=|Ah||||<span style='display:inline-block;font-size:1000%;transform:scaleY(.1);transform-origin:0 0;margin-bottom:-90%;vertical-align:top;'>OHH</span>>Ah||||<span style='display:inline-block;font-size:1000%;transform:scaleY(.1);transform-origin:0 0;margin-bottom:-90%;vertical-align:top;'>OHH</span>->Thereisawaitsolong->you'llne-verwaitso||||long.-->Herecomesyourman.-->Herecomesyourman.-->Herecomesyour<span style='display:inline-block;font-size:400%;transform:scaleY(.25);transform-origin:0 0;margin-bottom:-75%;vertical-align:top;'>man.</span>->Herecomesyourman.-->Herecomesyourman.-->Herecomesyourman.-->Herecomesyour<span style='display:inline-block;font-size:400%;transform:scaleY(.25);transform-origin:0 0;margin-bottom:-75%;vertical-align:top;'>man.</span>->Herecomesyour<span style='display:inline-block;font-size:400%;transform:scaleY(.25);transform-origin:0 0;margin-bottom:-75%;vertical-align:top;'>man.</span>-->Herecomesyourman.-->Herecomesyourman.-->Herecomesyour<span style='display:inline-block;font-size:400%;transform:scaleY(.25);transform-origin:0 0;margin-bottom:-75%;vertical-align:top;'>man.</span>->Herecomesyour<span style='display:inline-block;font-size:400%;transform:scaleY(.25);transform-origin:0 0;margin-bottom:-75%;vertical-align:top;'>man.</span>->Herecomesyourman.--@@Playing time: ~199 seconds
+->@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!mark=Verse|-outside|!bg=there'saboxcarwaiting-->outside-the-fam--ilystew___-->out--by-thefi-rebreathing-->outside-we-wait-tilfaceturnsblue-i-know-thenervous->wal-king--iknow-the-dir--tybeardhangs__->out--by-theboxcarwai-ting_--takeme away->tonowhere plains-!mark=|->there is awaitsolong-solong__-solongwe'll never wait->so!mark=Chorus|-long-herecomes your-man__-->herecomes your-man__-->herecomes your-man__|!mark=Riff 1>@@@@@@@!mark=Verse|-bigshakesonaboxcarmoving-->big shake-totheland       that's falling->downis awind-makes a-palm stop blowing->abigbigstone fall and-break my-crown-!mark=|->there is awaitsolong-solong__-solongwe'll never wait->so!mark=Chorus|-long-herecomes your-man__-->herecomes your-man__-->herecomes your-man_____-->herecomes your-man__|!mark=Riff 2>@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1oh|!bg=y-eah-->ohy-eahahooooh|!mark=->@@@@ahoooh->@@@@@!mark=|-there is awaitsolong-solong__-solongwe'll never wait->so!mark=Chorus|-long-->herecomes your-man__-->herecomes your-man__-->herecomes your-man_____-->herecomes your-man__-->herecomes your-man__-->herecomes your-man__-->herecomes your-man_____-->herecomes your-man_____-->herecomes your-man__-->herecomes your-man__-->herecomes your-man_____-->herecomes your-man_____-->herecomes your-man__--@@--Playing time: ~198 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 18899139/34842480 bytes(54.2417% compressed)
+Wrote 20387453/34710132 bytes(58.7363% compressed)
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-warning: compressing over-full page by 1.8 staff-spaces
+warning: compressing over-full page by 5.1 staff-spaces
 warning: page 0 has been compressed
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-    102 measure=all
-    102 measure=kav
-    102 measure=susan
-    102 measure=gg
-    102 measure=peter
-    102 measure=bass
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+warning: Found infinity or nan in output.  Substituting 0.0
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+    104 measure=all
+    104 measure=kav
+    104 measure=gg
+    104 measure=peter
+    104 measure=susan
+    104 measure=bass

@@ -1,0 +1,86 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \key a \major
+    \tempo 4 = 176
+\mymark "Intro" #1
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+\mymark "Hey, Ho, let's go!" #17
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+\mymark "Verse 1 & 2" #25
+    s1 |
+    \repeat volta 2 {
+        s1 |
+        s1 |
+        s1 |
+        s1 |
+        s1 |
+        s1 |
+        s1 |
+        s1 |
+        s1 |
+        s1 |
+        s1 |
+        s1 |
+        s1 |
+        s1 |
+        s1 |
+\mymark "Chorus 1 & 2" #41
+        s1 |
+        s1 |
+        s1 |
+        s1 |
+        s1 |
+        s1 |
+        s1 |
+        s1 |
+        s1 |
+    }
+\mymark "Verse 3" #50
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+\mymark "Outro" #65
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+}

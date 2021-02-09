@@ -1,0 +1,121 @@
+steelpan = {
+    \myVocalsStuff
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse" #10
+    b'4 r d'' b'8 b'~ |
+    b'8 r4. d''4 b'8 b'~ |
+    b'4 r d''8 e''4 e''8 |
+    fis''4. e''8 d''4 d''8 b'~ |
+    b'8 r4. d''4 e''8 b'~ |
+    b'8 r4. d''4 e''8 b'~ |
+    b'8 r4. d''8 e''4 e''8 |
+    fis''4. e''8 d''4 d''8 b'~ |
+    b'8 r4. d''4 b'8 b'~ |
+    b'8 r4. d''4 b'8 b'~ |
+    b'8 r4 fis'8 d'' e''4 e''8 |
+    fis''4. e''8 d''4 d''8 b'~ |
+    b'8 r4. d''4 b'8 b'~ |
+    b'8 r4. d''4 e''8 b'~ |
+    b'8 r4. d''8 e''4 e''8 |
+    fis''4. e''8 d''4 d''8 b'~ |
+\mymark "Pre-Chorus" #26
+    b'2~ b'8 a' g' g'~ |
+    g'4 r b' d''8 b'~ |
+    b'2~ b'8 a' g' g'~ |
+    g'4 r b' d''8 b'~ |
+    b'2~ b'8 a' g' g'~ |
+    g'4 r b' d''8 b'~ |
+    b'2~ b'8 a' g' g'~ |
+    g'4 r2. |
+\mymark "Verse" #34
+    b'4 r d'' b'8 b'~ |
+    b'8 r4. d''4 b'8 b'~ |
+    b'4 r d''8 e''4 e''8 |
+    fis''4. e''8 d''4 d''8 b'~ |
+    b'8 r4. d''4 b'8 b'~ |
+    b'8 r4. d''4 b'8 b'~ |
+    b'8 r4. d''8 e''4 e''8 |
+    fis''4. e''8 d''4 d''8 b'~ |
+\mymark "Pre-Chorus" #42
+    b'2~ b'8 a' g' g'~ |
+    g'4 r b' d''8 b'~ |
+    b'2~ b'8 a' g' g'~ |
+    g'4 r b' d''8 b'~ |
+    b'2~ b'8 a' g' g'~ |
+    g'4 r b' d''8 b'~ |
+    b'2~ b'8 a' g' g'~ |
+    g'4 r2. |
+\mymark "Chorus" #50
+    r2 a'8 a'4. |
+    c''4. c''4 c''4. |
+    ais'8 a'4 g'8 e' g' e'4 |
+    r2 a'8 a'4 ais'8 |
+    a'4. g'8 e' g' e'4 |
+    r2 a'8 a'4 ais'8 |
+    a'4. g'8 e' g' e'4 |
+    r1 |
+\mymark "Interlude" #58
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Solo" #62
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #78
+    b'2~ b'8 a' g' g'~ |
+    g'4 r b' d''8 b'~ |
+    b'2~ b'8 a' g' g'~ |
+    g'4 r b' d''8 b'~ |
+    b'2~ b'8 a' g' g'~ |
+    g'4 r b' d''8 b'~ |
+    b'2~ b'8 a' g' g'~ |
+    g'2. r4 |
+\mymark "Chorus" #86
+    r2 a'8 a'4. |
+    c''4. c''4 c''4. |
+    ais'8 a'4 g'8 e' g' e'4 |
+    r2 a'8 a'4 ais'8 |
+    a'4. g'8 e' g' e'4 |
+    r2 a'8 a'4 ais'8 |
+    a'4. g'8 e' g' e'4 |
+    r2 a'8 a'4 ais'8 |
+    a'4. g'8 e' g' e'4 |
+    r2 a'8 a'4 ais'8 |
+    a'4. g'8 e' g' e'4 |
+    r1 |
+\mymark "Outro" #98
+    r1 |
+    r2 b'4 d''8 b'~ |
+    b'2~ b'8 a' g' g'~ |
+    g'2. r4 |
+    r1 |
+    r2 b'4 d''8 b'~ |
+    b'2~ b'8 a' g' g'~ |
+    g'2. r4 |
+    r1 |
+    r1 |
+}

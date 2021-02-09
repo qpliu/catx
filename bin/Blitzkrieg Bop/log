@@ -4,12 +4,12 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 mark=Intro count=0 fudgeLyrics=48 divisions=0 seconds=0.0 measure=1.0
-mark=Verse 1 count=65 fudgeLyrics=48 divisions=36864 seconds=32.727264 measure=25.0
-mark=Chorus 1 count=129 fudgeLyrics=48 divisions=61440 seconds=54.54543999999999 measure=41.0
-mark=Verse 2 count=163 fudgeLyrics=48 divisions=73728 seconds=65.454528 measure=49.0
-mark=Chorus 2 count=227 fudgeLyrics=48 divisions=98304 seconds=87.27270399999999 measure=65.0
-mark=Verse 3 count=261 fudgeLyrics=48 divisions=110592 seconds=98.18179199999999 measure=73.0
-mark=Outro count=325 fudgeLyrics=48 divisions=135168 seconds=119.99996799999998 measure=89.0
+mark=Hey, Ho, let's go! count=32 fudgeLyrics=48 divisions=24576 seconds=21.818175999999998 measure=17.0
+mark=Verse 1 & 2 count=63 fudgeLyrics=48 divisions=36864 seconds=32.727264 measure=25.0
+mark=Chorus 1 & 2 count=122 fudgeLyrics=48 divisions=61440 seconds=54.54543999999999 measure=41.0
+mark=Chorus 1 & 2 count=213 fudgeLyrics=48 divisions=98304 seconds=87.27270399999999 measure=65.0
+mark=Verse 3 count=251 fudgeLyrics=48 divisions=112128 seconds=99.54542799999999 measure=74.0
+mark=Outro count=304 fudgeLyrics=48 divisions=135168 seconds=119.99996799999998 measure=89.0
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
@@ -19,23 +19,21 @@ Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
->@|!mark=Intro@@@@@@@@@@@@@@@@@@@@@@@@@@@!bg=4|@!bg=3|@!bg=2|@!bg=1|@!bg=|Hey-ho,--let'sgo.-|||Hey-ho,--let'sgo.->Hey-ho,--let'sgo.-|||Hey-ho,--let'sgo.->They'reform|!mark=Verse 1-in'inastraightline.-->They'rego-in'throughatightwind.-->Thekidsarelo-sin'theirminds.->TheBlitz-kriegBop--->They'repi-lin'inthebackseat.-->They'rege-ne-ra-tingsteamheat.-->Pul-sa-tin'tothebackbeat.->TheBlitz-kriegBop-->Hey|!mark=Chorus 1-ho,--let'sgo.->Shoot'eminthebacknow.->Whattheywant?-|||Idon'tknow.->They'reallrevvedupandrea-dytogo.->They'reform|!mark=Verse 2-in'inastraightline.-->They'rego-in'throughatightwind.-->Thekidsarelo-sin'theirminds.->TheBlitz-kriegBop--->They'repi-lin'inthebackseat.-->They'rege-ne-ra-tingsteamheat.-->Pul-sa-tin'tothebackbeat.->TheBlitz-kriegBop-->Hey|!mark=Chorus 2-ho,--let'sgo.->Shoot'eminthebacknow.->Whattheywant?-|||Idon'tknow.->They'reallrevvedupandrea-dytogo.->They'reform|!mark=Verse 3-in'inastraightline.-->They'rego-in'throughatightwind.-->Thekidsarelo-sin'theirminds.->TheBlitz-kriegBop--->They'repi-lin'inthebackseat.-->They'rege-ne-ra-tingsteamheat.-->Pul-sa-tin'tothebackbeat.->TheBlitz-kriegBop-->Hey|!mark=Outro-ho,--let'sgo.-|||Hey-ho,--let'sgo.->Hey-ho,--let'sgo.-|||Hey-ho,--let'sgo.-@@Playing time: ~134 seconds
+>@|!mark=Intro@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Hey,|!mark=Hey, Ho, let's go!|!bg=Ho,-let'sgo!->Hey,-Ho,--let'sgo!->Hey,-Ho,--let'sgo!->Hey,-Ho,--let'sgo!-They'refor|!mark=Verse 1 & 2-minginastraightline->They'rego-ingthroguhatighwind->Thekidsarelo-singtheirminds-TheBlitz-kriegBop-->They'repi-llinginabackseat->They'rege-ne-ra-tingsteamheat->Pul-saa-tingtothebackbeat-TheBlitz-kriegBop-->Hey,|!mark=Chorus 1 & 2Ho,-let'sgo-Shoot'eminthebacknow->Whattheywant?->Idon'tknow-They'reallrevvedupandrea-dytogo->They'refor-minginastraightline->They'rego-ingthroguhatighwind->Thekidsarelo-singtheirminds-TheBlitz-kriegBop-->They'repi-llinginabackseat->They'rege-ne-ra-tingsteamheat->Pul-saa-tingtothebackbeat-TheBlitz-kriegBop-->Hey,|!mark=Chorus 1 & 2Ho,-let'sgo-Shoot'eminthebacknow->Whattheywant?->Idon'tknow-They'reallrevvedupandrea-dytogo->They'refor-minginastraightline!mark=Verse 3|->They'rego-ingthroguhatighwind->Thekidsarelo-singtheirminds-TheBlitz-kriegBop-->They'repi-llinginabackseat->They'rege-ne-ra-tingsteamheat->Pul-saa-tingtothebackbeat-TheBlitz-kriegBop-->Hey,|!mark=OutroHo,-let'sgo!->Hey,-Ho,--let'sgo!->Hey,-Ho,--let'sgo!->Hey,-Ho,--let'sgo!--@@-Playing time: ~135 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 13732278/23430196 bytes(58.6093% compressed)
+Wrote 14360524/23633156 bytes(60.7643% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-warning: compressing over-full page by 3.8 staff-spaces
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+warning: compressing over-full page by 5.1 staff-spaces
 warning: page 0 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-warning: compressing over-full page by 1.4 staff-spaces
-warning: page 1 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-     96 measure=all
-     96 measure=gg
-     96 measure=susan
-     96 measure=kav
-     96 measure=peter
-     96 measure=bass
+     73 measure=all
+     73 measure=kav
+     73 measure=gg
+     73 measure=peter
+     73 measure=susan
+     73 measure=bass
