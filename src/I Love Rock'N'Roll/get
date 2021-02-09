@@ -1,0 +1,35 @@
+#!/bin/sh
+WHERE=application_guitar_pro4-14887231.gp4
+set -e
+rm -f generated-*
+DRUMMAP="39,57 cymc 0,"
+java -jar ../../guitarproToLy/1.jar <"$WHERE" \
+markup-extra 0 '\key e \major' \
+drumMap "$DRUMMAP" \
+track 3 \
+    preset kav \
+    output-lilypond \
+    output-lyrics \
+    output-karaoke \
+track 3 \
+    preset susan \
+    output-lilypond \
+track 0 \
+    preset peter \
+    output-dotext \
+    output-lilypond \
+track 1 \
+    preset peter \
+    output-dotext \
+    output-lilypond \
+track 2 \
+    preset peter \
+    output-dotext \
+    output-lilypond \
+track 4 \
+    preset bass \
+    output-lilypond \
+track 5 \
+    preset gg \
+    output-drums \
+2>&1|tee log

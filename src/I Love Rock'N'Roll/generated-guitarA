@@ -1,0 +1,78 @@
+guitarA = {
+    r1 |
+\mymark "Intro" #2
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4>16 r8 g,8.\6\bendAfter #6 ^"¼" |
+    <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3>16 r8 g,8.\6\bendAfter #6 ^"¼" |
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r16 g,8.\6\bendAfter #6 ^"¼" |
+    <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 <b,\5 fis\4>8 <e,\6 b,\5>16 r <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> |
+    r2. <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1>16 r |
+\mymark "Strophe" #7
+    r4 \tuplet 3/2 { d''16\1( e''\1 d''\1) } b'8\2 a'16\2 g'8.\3 <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> |
+    r2. <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> |
+    r4 \tuplet 3/2 { d''16\1( e''\1 d''\1) } b'16\2 r a'\2 g'8.\3 <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> |
+    r2. <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> |
+    r4 \tuplet 3/2 { d''16\1( e''\1 d''\1) } b'16\2 r a'\2 g'8.\3 <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> |
+    r4 <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> r4 <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> |
+    r4 <a,\5 e\4 a\3>2.~ |
+    <a,\5 e\4 a\3>1~ |
+    <a,\5 e\4 a\3>4 r2. |
+    r1 |
+    r4 <b,\5 fis\4 b\3>8 <fis\4 b\3> <fis\4 b\3> <fis\4 b\3> <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> |
+\mymark "Refrain" #18
+    <fis\4 b\3>8 <b,\5 fis\4 b\3>16 r <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4>16 r |
+    r16 g,8.\6\bendAfter #6 ^"¼" <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3>16 r |
+    r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> |
+    r16 g,8.\6\bendAfter #6 ^"¼" <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 <b,\5 fis\4>8 <e,\6 b,\5>16 r |
+    <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> r2. |
+    <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1>16 r4 r16 \tuplet 3/2 { d''16\1( e''\1 d''\1) } b'8\2 a'16\2 g'8.\3 |
+\mymark "Strophe" #24
+    <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> r2. |
+    <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> r4 \tuplet 3/2 { d''16\1( e''\1 d''\1) } b'16\2 r a'\2 g'8.\3 |
+    <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> r2. |
+    <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> r4 \tuplet 3/2 { d''16\1( e''\1 d''\1) } b'16\2 r a'\2 g'8.\3 |
+    <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> r4 |
+    <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> r4 <a,\5 e\4 a\3>2~ |
+    <a,\5 e\4 a\3>1~ |
+    <a,\5 e\4 a\3>2 r |
+    r1 |
+    r2 <b,\5 fis\4 b\3>8 <fis\4 b\3> <fis\4 b\3> <fis\4 b\3> |
+\mymark "Refrain" #34
+    <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> <fis\4 b\3> <b,\5 fis\4 b\3>16 r <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 |
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4>16 r8 g,8.\6\bendAfter #6 ^"¼" <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 |
+    <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3>16 r4 r16 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 |
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r16 g,8.\6\bendAfter #6 ^"¼" <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 |
+    <b,\5 fis\4>8 <e,\6 b,\5>16 r <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> r2 |
+    r4 <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1>16 r4 r16 \tuplet 3/2 { d''16\1( e''\1 d''\1) } b'8\2 |
+\mymark "Solo" #40
+    a'16\2 g'8.\3 <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> r2 |
+    r4 <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> r4 \tuplet 3/2 { d''16\1( e''\1 d''\1) } b'16\2 r |
+    a'16\2 g'8.\3 <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> r2 |
+    r4 <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> r4 \tuplet 3/2 { d''16\1( e''\1 d''\1) } b'16\2 r |
+    a'16\2 g'8.\3 <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> |
+    r4 <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> r4 <a,\5 e\4 a\3>~ |
+    <a,\5 e\4 a\3>1~ |
+    <a,\5 e\4 a\3>2. r4 |
+\mymark "Outro" #48
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2. <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> |
+    r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4>16 r8 g,8.\6\bendAfter #6 ^"¼" <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> |
+    r4 <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3>16 r4 r16 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> |
+    r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r16 g,8.\6\bendAfter #6 ^"¼" <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> |
+    r4 <b,\5 fis\4>8 <e,\6 b,\5>16 r <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 |
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4>16 r8 g,8.\6\bendAfter #6 ^"¼" <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 |
+    <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3>16 r4 r16 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 |
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r16 g,8.\6\bendAfter #6 ^"¼" <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 |
+    <b,\5 fis\4>8 <e,\6 b,\5>16 r <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4>16 r |
+    r16 g,8.\6\bendAfter #6 ^"¼" <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3>16 r |
+    r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> |
+    r16 g,8.\6\bendAfter #6 ^"¼" <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 <b,\5 fis\4>8 <e,\6 b,\5>16 r |
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4>16 r8 g,8.\6\bendAfter #6 ^"¼" |
+    <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3>16 r4 r16 |
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r16 g,8.\6\bendAfter #6 ^"¼" |
+    <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 <b,\5 fis\4>8 <e,\6 b,\5>16 r <e\4 \deadNote g\3 b\2 e'\1>8 r |
+}

@@ -92,10 +92,13 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
 	for (StringTokenizer st=new StringTokenizer(map,","); st.hasMoreTokens();){
 	    StringTokenizer st2=new StringTokenizer(st.nextToken());
 	    int key=Integer.parseInt(st2.nextToken());
-	    String name=st2.nextToken();
-	    int voice=Integer.parseInt(st2.nextToken());
-	    Drum old=drumMap.get(key);
-	    drumMap.put(key,new Drum(key,name,voice,old==null?drumMap.size():old.sort));
+	    if (st2.hasMoreTokens()){
+		String name=st2.nextToken();
+		int voice=Integer.parseInt(st2.nextToken());
+		Drum old=drumMap.get(key);
+		drumMap.put(key,new Drum(key,name,voice,old==null?drumMap.size():old.sort));
+	    }else
+		drumMap.remove(key);
 	}
     }
     @Override String getStuff(){

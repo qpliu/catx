@@ -1,0 +1,78 @@
+guitar = {
+    r1 |
+\mymark "Intro" #2
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 |
+    <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> r4 |
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 |
+    <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 <b,\5 fis\4 b\3>8 <e,\6 b,\5 e\4> <e\4 \deadNote g\3 b\2 e'\1> <e\4 \deadNote g\3 b\2 e'\1> |
+    r2. <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> |
+\mymark "Strophe" #7
+    r4 d8\4 b,\5 a,16\5 g,8.\6\bendAfter #6 ^"¼" <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> |
+    r2. <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> |
+    r4 d8\4 b,\5 a,16\5 g,8.\6\bendAfter #6 ^"¼" <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> |
+    r2. <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3>16 r |
+    r4 d8\4 b,\5 a,16\5 g,8.\6\bendAfter #6 ^"¼" <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> |
+    r4 <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> r4 <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> |
+    r4 <a,\5 e\4 a\3>2.~ |
+    <a,\5 e\4 a\3>1~ |
+    <a,\5 e\4 a\3>2 r |
+    r1 |
+    r4 <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> |
+\mymark "Refrain" #18
+    <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> |
+    r4 <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> |
+    r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> |
+    r4 <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 <b,\5 fis\4 b\3>8 <e,\6 b,\5 e\4>16 r |
+    <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> r2. |
+    <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1>16 r4 r16 d8\4 b,16\5 r a,\5 g,8.\6\bendAfter #6 ^"¼" |
+\mymark "Strophe" #24
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r2. |
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 d8\4 b,\5 a,16\5 g,8.\6\bendAfter #6 ^"¼" |
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r2. |
+    <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3>16 r4 r16 d8\4 b,\5 a,16\5 g,8.\6\bendAfter #6 ^"¼" |
+    <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> r4 |
+    <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> r4 <a,\5 e\4 a\3>2~ |
+    <a,\5 e\4 a\3>1~ |
+    <a,\5 e\4 a\3>2 r |
+    r1 |
+    r2 <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> |
+\mymark "Refrain" #34
+    <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> r4 |
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 |
+    <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 |
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 |
+    <b,\5 fis\4 b\3>8 <e,\6 b,\5 e\4>16 r <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> r2 |
+    r4 <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1>16 r4 r16 d8\4 b,16\5 r |
+\mymark "Solo" #40
+    a,16\5 g,8.\6\bendAfter #6 ^"¼" <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r2 |
+    r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 d8\4 b,\5 |
+    a,16\5 g,8.\6\bendAfter #6 ^"¼" <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r2 |
+    r4 <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3>16 r4 r16 d8\4 b,\5 |
+    a,16\5 g,8.\6\bendAfter #6 ^"¼" <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> |
+    r4 <e\4 \deadNote g\3 b\2 e'\1>8 <e\4 \deadNote g\3 b\2 e'\1> r4 <a,\5 e\4 a\3>~ |
+    <a,\5 e\4 a\3>1~ |
+    <a,\5 e\4 a\3>2. r4 |
+\mymark "Outro" #48
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2. <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> |
+    r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> |
+    r4 <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> |
+    r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> |
+    r4 <b,\5 fis\4 b\3>8 <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> r4 |
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 |
+    <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 |
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 |
+    <b,\5 fis\4 b\3>8 <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> |
+    r4 <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> |
+    r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> |
+    r4 <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 <b,\5 fis\4 b\3>8 <e,\6 b,\5 e\4> |
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 |
+    <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> r4 |
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> r4 |
+    <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> r4 <b,\5 fis\4 b\3>8 <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> r |
+}

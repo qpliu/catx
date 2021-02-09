@@ -1,42 +1,5 @@
-% BIN midi all kav gg susan
+% BIN midi all kav gg peter susan bass
+% MERGEMIDI --fudge-lyrics 24
+% ROBOT enabled=true
 
-\header {
-    title = "I Love Rock 'N Roll"
-    composer = "Joan Jett & the Blackhearts"
-}
-
-\include "markup"
-\include "drs"
-\include "vo"
-\include "lyrics"
-\include "karaoke"
-
-layoutmusic = <<
-    \tag #'(allPart kavPart susanPart) \new Staff <<
-	\markupStuff
-	\voPart
-	\voLyrics
-    >>
-    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
-	drumStyleTable = #(alist->hash-table myDrumStyleTable)
-    } <<
-	\markupStuff
-	\drsPart
-    >>
->>
-
-midimusic = <<
-    \markupStuff
-    \tag #'(midiSusan) \new Staff \with {
-	midiInstrument = #"steel drums"
-    } \voPart
-    \tag #'(midiGg) \new DrumStaff \with {
-	drumPitchTable = #(alist->hash-table midiDrumPitches)
-    } \drsPart
-    \tag #'(midiKaraoke) \new Staff \with {
-	midiInstrument = #"flute" % 73
-    } <<
-	\karaokeLyrics
-	\voPart
-    >>
->>
+\include "generated-music"

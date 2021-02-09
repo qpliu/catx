@@ -1,0 +1,79 @@
+vocalsKaraoke = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    "-"8. ">@"2 "@"4 \skip16
+\mymark "Intro" #2
+    "!mark=Intro|-"8. "@"2 "@"4 \skip16
+    \skip8. "@"2 "@"4 \skip16
+    \skip8. "@"2 "@"4 \skip16
+    \skip8. "@"2 "@|!bg=4"4 \skip16
+    \skip8. "@|!bg=3"2 "@|!bg=2"4 \skip16
+\mymark "Strophe" #7
+    "!mark=Strophe|-"8. "@|!bg=1"2 "I|!bg="16 "saw"8 "him"
+    "dan"8 "-cin'"16 "there"8 "-"16 "by" "the" "re" "-cord" "ma" "-" "-chine"4
+    \skip8 "-"2 \skip16 ">I"16 "knew"8 "he"16 "-"
+    "must"16 "-" "have" "been" "-" "a" "-bout"8 "se"16 "-ven"8 "-"16 "-teen"4
+    \skip8 "-"2 \skip16 ">The"16 "beat"8 "was"16 "go"
+    \skip16 "-in'"16 "strong"4 "-"4. "Play"16 "-in'" "my"8
+    "favo"8 "-rite" "song"2.
+    "-"16 ">An'" "I" "could" "tell"8 "it" "would"16 "-n't" "be" "long"8 "-" ">Till"16
+    "he"16 "was" "with" "-" "me,"8. "-"16 "yeah|!bg=img=../yeah.png"4 "me|!bg="8. \skip16
+    "-"16 ">And" "I" "could" "tell"8 "it" "would"16 "-n't" "be" "long"8. "-"16 ">Till"
+    "he"16 "was" "with"8 "me,"4 "yeah|!bg=img=../yeah.png" "me,|!bg="8. \skip16
+\mymark "Refrain" #18
+    "sing|!mark=Refrain"16 "-in'"8. "I"4 "love"8. \skip16 "rock"8 "n'"16 "roll"
+    \skip16 "-"8. ">So"16 "put" "a" "-nother" "dime" "-" "in" "the" "juke"8 "-box,"16 "ba"
+    \skip16 "-by"16 "-"8 ">I"4 "love"8. "-"16 "rock"8 "n'"16 "roll"
+    \skip16 "-"8 ">So"16 "come" "an'" "take" "your" "time"8 "an'"16 "-" "dance" "-" "with"8
+    "me"8. "-"2. \skip16
+    "-"2. \skip8 ">He"8
+\mymark "Strophe" #24
+    "smiled|!mark=Strophe"8 "so" "I" "got"16 "up"8 \skip8 "and"16 "asked" "for"8 "his"16
+    "name"8. "-"2. \skip16
+    ">That"8 "don't" "mat"16 "-ter," "he"8 "said,"16 "-" "'Cause" "it's" "all"8 "the"
+    "same"8. "-"2. ">Said"16
+    "can"16 "-" "I"8 "take" "you"16 "home"4 \skip16 "-"8 "where"16 "-"
+    "we"8 "can" "be" "a" "-lone"4. \skip16 "-"16
+    "-"4. \skip16 ">An'"16 "next"8 "we"16 "were" "mo"8 "-vin'"16 "on"
+    \skip8 "-"8 "He"16 "was" "with"8 "me," "-" "yeah|!bg=img=../yeah.png"4
+    "me|!bg="8. \skip16 "-"4 ">Next"16 "-" "we" "were" "mo" "-" "-vin'" "on"
+    \skip8. "-"16 ">He" "was" "with"8 "me,"8. "-"16 "yeah|!bg=img=../yeah.png"4
+\mymark "Refrain" #34
+    "me,|!mark=Refrain|!bg="8. \skip16 "sing"16 "-in'"8 \skip16 "I"4 "love"8. \skip16
+    "rock"8 "n'"16 "roll"8 "-" ">So"16 "put" "a" "-no" "-ther" "dime"8 "in"16 "the"
+    "juke"8 "-box,"16 "ba"8 "-by"16 "-"8 ">I"4 "love"8. "-"16
+    "rock"8 "n'"16 "roll"8 "-" ">So"16 "come" "an'" "take" "your" "time"8 "an'"16 "-"
+    "dance"16 "-" "with"8 "me"8. "-"2 \skip16
+    "-"8. ">@"2 "@"4 \skip16
+\mymark "Solo" #40
+    "!mark=Solo|-"8. "@"2 "@"4 \skip16
+    \skip8. "@"2 "@"4 \skip16
+    \skip8. "@|!bg=4"2 "@|!bg=3"4 \skip16
+    \skip8. "@|!bg=2"2 "@|!bg=1"4 \skip16
+    \skip8. "Said|!bg="16 "can" "-" "I"8 "take" "you"16 "home"4 \skip16
+    "-"8 "where"16 "-" "we"8 "can" "be" "a" "-lone"4
+    \skip8. "-"2 ">Next"16 "we"8 "were"
+    "mo"8 "-vin'"16 "on"8. "-"8 "He"16 "was" "with"8 "me," "-"
+\mymark "Outro" #48
+    "yeah|!mark=Outro|!bg=img=../yeah.png"4 "me,|!bg="8. \skip16 \skip4 ">An"16 "we'll" "be"8
+    "mo"8 "-vin'"16 "on"8 "sing"16 "-in'" "that" "same"8 "old" "song" "-"
+    ">Yeah|!bg=img=../yeah.png"8 "with"16 "me," "!bg="8. \skip16 "sing"16 "-in'"8 "-"16 "I"4
+    "love"8. "-"16 "rock"8 "n'"16 "roll"8 "-" ">So"16 "put" "a" "-no" "-ther"
+    "dime"8 "in"16 "the" "juke"8 "-box,"16 "ba"8 "-by" "-"16 ">I"4
+    "love"8. "-"16 "rock"8 "n'"16 "roll"8 "-" ">So"16 "come" "an'" "take" "your"
+    "time"8 "an'"16 "-" "dance" "-" "with"8 "me" "-" ">I"4
+    "love"8. "-"16 "rock"8 "n'"16 "roll"8 "-" ">So"16 "put" "a" "-no" "-ther"
+    "dime"16 "-" "in" "the" "juke"8 "-box,"16 "ba"8 "-by" "-"16 ">I"4
+    "love"8. "-"16 "rock"8 "n'"16 "roll"8 "-" ">So"16 "come" "an'" "take" "your"
+    "time"8 "an'"16 "-" "dance" "-" "with"8 ">I"4 "love"8. "-"16
+    "rock"8 "n'"16 "roll"8 "-" ">So"16 "put" "a" "-no" "-ther" "dime" "-" "in" "the"
+    "juke"8 "-box,"16 "ba"8 "-by" "-"16 ">I"4 "love"8. "-"16
+    "rock"8 "n'"16 "roll"8 "-" ">So"16 "come" "an'" "take" "your" "time"8 "an'"16 "-"
+    "dance"16 "-" "with"8 ">I"4 "love"8. "-"16 "rock"8 "n'"16 "roll"
+    \skip16 "-"8 ">So"16 "put" "a" "-no" "-ther" "dime" "-" "in" "the" "juke"8 "-box,"16 "ba"
+    \skip16 "-by"8 "-"16 ">I"4 "love"8. "-"16 "rock"8 "n'"16 "roll"
+    \skip16 "-"8 ">So"16 "come" "an'" "take" "your" "time"8 "an'"16 "-" "dance" "-" "with"8
+    ">I"4 "love"8. "-"16 "rock"8 "n'"16 "roll"8 "-" ">So"16
+    "put"16 "a" "-no" "-ther" "dime" "-" "in" "the" "juke"8 "-box,"16 "ba"8 "-by" "-"16
+    ">I"4 "love"8. "-"16 "rock"8 "n'"16 "roll"8 "-" ">So"16
+    "come"16 "an'" "take" "your" "time"8 "an'"16 "-" "dance" "-" "with"8 "me" "-"
+}

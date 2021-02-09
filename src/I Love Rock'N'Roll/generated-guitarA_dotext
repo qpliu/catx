@@ -1,0 +1,78 @@
+guitarADotext = {
+    \skip1 |
+\mymark "Intro" #2
+    \skip2. \skip16 `.(g,)bend0:0:30:25:60:25`8. |
+    \skip2. \skip16 `.(g,)bend0:0:30:25:60:25`8. |
+    \skip2. \skip16 `.(g,)bend0:0:30:25:60:25`8. |
+    \skip1 |
+    \skip1 |
+\mymark "Strophe" #7
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Refrain" #18
+    \skip1 |
+    \skip16 `.(g,)bend0:0:30:25:60:25`8. \skip2. |
+    \skip1 |
+    \skip16 `.(g,)bend0:0:30:25:60:25`8. \skip2. |
+    \skip1 |
+    \skip1 |
+\mymark "Strophe" #24
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Refrain" #34
+    \skip1 |
+    \skip4 \skip16 `.(g,)bend0:0:30:25:60:25`8. \skip2 |
+    \skip1 |
+    \skip4 \skip16 `.(g,)bend0:0:30:25:60:25`8. \skip2 |
+    \skip1 |
+    \skip1 |
+\mymark "Solo" #40
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Outro" #48
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2 \skip16 `.(g,)bend0:0:30:25:60:25`8. \skip4 |
+    \skip1 |
+    \skip2 \skip16 `.(g,)bend0:0:30:25:60:25`8. \skip4 |
+    \skip1 |
+    \skip4 \skip16 `.(g,)bend0:0:30:25:60:25`8. \skip2 |
+    \skip1 |
+    \skip4 \skip16 `.(g,)bend0:0:30:25:60:25`8. \skip2 |
+    \skip1 |
+    \skip16 `.(g,)bend0:0:30:25:60:25`8. \skip2. |
+    \skip1 |
+    \skip16 `.(g,)bend0:0:30:25:60:25`8. \skip2. |
+    \skip2. \skip16 `.(g,)bend0:0:30:25:60:25`8. |
+    \skip1 |
+    \skip2. \skip16 `.(g,)bend0:0:30:25:60:25`8. |
+    \skip1 |
+}
