@@ -1,0 +1,198 @@
+midiOne = {
+\mymark "Intro" #1
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+\mymark "Verse" #7
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+\mymark "Riff" #19
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+\mymark "Verse" #25
+    r1 |
+    r1 |
+    r1 |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+\mymark "Riff" #37
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r1 |
+    r1 |
+    r1 |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r1 |
+    r1 r8 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Riff" #65
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    g2.~ g8 r |
+    a16 ais a8 g a ais d' e'16 d' cis' d' |
+    e'2. d'16 cis' d' cis'~ |
+    cis'2 ais16 a a r a8 a16 a |
+    g2 r8 g r4 |
+    a16 ais8 cis'16 d'8 e' cis'16 d' e' f' d' cis' e'8~ |
+    e'4 d'16 cis' a e'4. f'16 d' ais |
+    a4 ais16 g a4 g16 f4 f16 |
+    g2. r8 a16 ais |
+    a8 g a ais g a ais16 cis' d' e' |
+    cis'16 d' e' f' e' d' e' d' cis'4 d'16 cis' ais a~ |
+    a8 ais16 g8. a16 fis8. g16 e8. d16 fis |
+    g2~ g8 r4. |
+    a16 ais a g4~ g16 f' e' d' r cis' d' e'8~ |
+\mymark "Verse" #95
+    e'16 d' cis' d' cis'4 ais16 cis' ais a4~ a16~ |
+    a4 e'16 f' d' e' cis' d' ais cis' a8. a16 |
+    g4. f'16 e' f' e' d'4 cis'16 d'~ |
+    d'8 e'16 f'8. e'16 f'4~ f'16 e' d' e'8~ |
+    e'4 cis' a8. ais16 a4~ |
+    a2 r8 a4. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+\mymark "Riff" #107
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+\mymark "Verse" #113
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+\mymark "Riff" #125
+    r1 |
+    r1 |
+    r1 |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r1 |
+    r1 |
+    r1 |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    g,2.~ g,8 r |
+    g,2 r8 g, b, c |
+    b,4. ais,16 cis d e8. d16 cis d e |
+    fis16 g a4 ais16 g a4 cis'16 d' e'8 |
+    d'2 r4 c16 b, c b, |
+    a,4 a,16 b, c8 cis16 d e8. d16 cis d |
+    e2 fis16 g e8 fis16 g a ais |
+    g16 a4~ a16 g f e8 f16 g a8 a |
+    g,4. a,8 b, c e4 |
+    d4 e f8 g a ais |
+    cis'2 r8 cis' cis'16 d' cis' b |
+    cis'2.~ cis'8 r |
+    g,4. a,8 b, c e4 |
+    d4 e f8 g a ais |
+    cis'2. cis'16 d' cis' b |
+    cis'2.~ cis'8 r |
+    g,4. a,8 b, c e4 |
+    d4 e f8 g a ais |
+    cis'2~ cis'8 r cis'16 d' cis' b |
+    cis'2 r8 cis'4. |
+    g,4. a,8 b, c e4 |
+    d4 e f8 g a ais |
+    cis'2 r8 cis' cis'16 d' cis' b |
+    cis'2.~ cis'8 r |
+    g,4. a,8 b, c e4 |
+    d4 e f8 g a ais |
+    cis'2. cis'16 d' cis' b |
+    cis'2.~ cis'8 r |
+}

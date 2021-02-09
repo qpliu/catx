@@ -1,0 +1,199 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+\mymark "Verse" #7
+    \skip2. |
+    \skip2. |
+    \skip8 "Oh"8 "let" "the"16 "sun"8 "beat" "down"16 |
+    \skip8 "u"16 -- "pon"8 "my" "face," \skip8. |
+    \skip8. "stars"8. "to"8 "fill" "my" |
+    \skip16 "dream"8. \skip2 |
+    \skip8 "I"8 "am" "a"16 "tra"8 -- "veler" "of"16 |
+    \skip16 "both"8 "time" "and" "space," \skip8. |
+    \skip8 "to"16 "be"8 "where" "I"8. "have"8 |
+    "been"4 \skip2 |
+    \skip8. "To"16 "sit" "with"8 "el" -- "ders"8. |
+    "of"8 "the"16 "gen" -- "tle" "race,"8. \skip4 |
+\mymark "Riff" #19
+    \skip8 "this"16 "world"8. "has"8 "sel" -- "dom" |
+    \skip16 "seen"8. \skip2 |
+    \skip8 "They"8 "talk" "of"16 "days"4 "for"16 |
+    "which"8 "they"8. "sit"16 "and"8 "wait" \skip8 |
+    \skip8 "and"16 "all"8. "will"8 "be" "re"16 -- "vealed" |
+    \skip2. |
+\mymark "Verse" #25
+    \skip4 \skip2. |
+    \skip1 |
+    \skip1 |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip4 "Talk"16 "and"8 "song"4 "from"16 |
+    "tongues"8 "of"8. "lilt"16 -- "ing"8 "grace," \skip8 |
+    \skip8 "whose"16 "sounds"8. "ca"16 -- "ress"8 "my"8. |
+    "ear"4 \skip2 |
+    \skip8. "But"16 "not" "a"8 "word" "I" "heard"16 |
+\mymark "Riff" #37
+    \skip8 "could"16 "I"8 "re"16 -- "late,"8 \skip4 |
+    \skip8. "the"16 "sto"8 -- "ry"16 "was"8 "quite"8. |
+    "clear"4 \skip2 |
+    \skip4 "Oh,"2 |
+    \skip4. \skip4. |
+    \skip2. |
+    \skip2. |
+    \skip4 "oh."2 |
+    \skip2 \skip4 |
+    \skip2. |
+    \skip2. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip1 |
+    \skip1 \skip8 |
+    \skip1 |
+    \skip4 "Oh,"2. |
+    \skip2. \skip4 |
+    \skip4. "ba"16 -- "by" \skip4 "I"8. "been"16 |
+    \skip8 "fly"8. "ing..." \skip2 |
+    \skip1 |
+    \skip8 "Oh"2 "yeah"4 \skip8 |
+    \skip2 \skip8 "ma"16 -- "ma," "there" \skip8. |
+\mymark "Riff" #65
+    \skip8 "ain't"8. "no"8 "de"16 -- "ny"4 "in'"8 \skip8 |
+    \skip1 |
+    \skip1 |
+    \skip4 "Oh"8 \skip2 \skip8 |
+    \skip4. "oh"2 \skip8 |
+    \skip2 "yeah"8 \skip4. |
+    "I've"8 \skip8 "been"8 "fly"16 -- "ing,"8. \skip4. |
+    \skip1 |
+    \skip4. "ma"4. "ma"4 |
+    \skip2. \skip8 "ain't"8 |
+    "no"8 "de" -- "ny"4 "in'," \skip16 "no"8 "de"16 -- |
+    \skip16 "ny"4 "in'"4. \skip16 \skip4 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. \skip8 "Oh"8 |
+    \skip2 "All"8. "I" "see"8 |
+    \skip8 \skip2 \skip8 "turns"8. "to"16 |
+    \skip16 "brown,"4 \skip16 \skip2 \skip8 |
+    \skip1 |
+    \skip2 \skip8 "as"4 "the"8 |
+    "sun"4 \skip2 \skip8 "burns"8 |
+    \skip16 "the"16 "ground"4. \skip2 |
+    \skip1 |
+    \skip2 "And"8 "my"4 "eyes"8 |
+    \skip4 \skip2 \skip16 "fill"8 "with"16 |
+    \skip8 "sand,"4. \skip2 |
+    \skip1 |
+    \skip2 \skip8 "as"8. "I" |
+    \skip8 "scan"4 \skip4. "this"8 "wast" |
+\mymark "Verse" #95
+    \skip8 "ed"16 "land"4 \skip16 \skip2 |
+    \skip1 |
+    \skip8 "Trying"16 "to" "find,"4 \skip2 |
+    \skip8 "trying"16 "to" "find"4 \skip8 "where"8 "I've" "been." |
+    \skip1 |
+    \skip1 |
+    \skip2. |
+    \skip8. \skip32 "Oh,"32 "pi"2 -- |
+    \skip4. \skip8 "lot"4 |
+    \skip4 \skip2 |
+    \skip2. |
+    \skip2. |
+\mymark "Riff" #107
+    \skip2. |
+    \skip2. |
+    \skip8 "of"8 "the" "storm"16 "who"8 "leaves" "no"16 |
+    \skip8 "trace,"16 "like"8. "thoughts"8 "in" -- \skip8 |
+    \skip8 "side"8 "a" \tuplet 3/2 { "dream"4 \skip16 "Heed"8 "the" } |
+    "path"8 \skip2 \skip8 |
+\mymark "Verse" #113
+    \skip8. "that"8 "led"16 "me"8 "to"4 |
+    "that"8 "place," "yel" -- "low"16 "de"8 -- \skip8. |
+    \skip8. "sert"8. "stream"4 "My"8 |
+    "Shan"16 -- "gri"8. -- \skip2 |
+    \skip8 "La"8 "be" -- "neath"16 "the"8. "sum"16 -- "mer" |
+    \skip16 "moon,"16 "I"8. "will"8 "re" -- \skip8. |
+    \skip8 "turn"16 "a" -- "gain"8. "Sure"16 "as" "the"8 \skip16 |
+    \skip2. |
+    \skip8 "dust"8 "that" "floats"16 "high"8 "in" "June,"16 |
+    \skip8. "when"8 "mo" -- "vin'" \skip8. |
+    \skip8 "through"8 "Kash" -- "mir."4 "Oh,"8 |
+    \skip16 "fa"16 -- "ther"2 \skip8 |
+\mymark "Riff" #125
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip8 "of"8 "the" "four"16 "winds,"8 "fill" "my"16 |
+    \skip16 "sails,"4 \skip16 "a"16 -- "cross" "the"8 \skip8 |
+    \skip8 "sea"4 "of"8 "years" "With" |
+    \skip16 "no"16 "pro"8 -- \skip2 |
+    \skip8 "vi"8 -- "sion" "but"16 "an"8 "o" -- \skip16 |
+    \skip16 "pen"16 "face," "a"8 -- "long" "the" \skip8. |
+    \skip8 "straits"16 "of"8. "fear" "Ohh." |
+    \skip2. |
+    \skip4. "Oh"4. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip4. "Oh"4. |
+    "Oh"8 "Oh"4 \skip4. |
+    \skip2. |
+    \skip8 "When"2 \skip8 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. |
+    \skip2 \skip8 "I'm"8 |
+    \skip2. |
+    \skip4 \skip8 "on,"4. |
+    \skip1 |
+    \skip2. \skip8 \skip8 |
+    \skip1 |
+    \skip1 |
+    \skip2 "when"16 \skip4 \skip16 "I'm"16 "on" |
+    \skip16 "my"16 \skip2 "way,"16 "yeah" "When" "I" "see," "when" |
+    \skip8 "I"16 \skip2. \skip16 |
+    \skip1 |
+    \skip4. "see"16 "the" "way,"8. \skip4 \skip16 |
+    \skip4. "you"16 "stay" "yeah"2 |
+    "Ooh,"1 |
+    \skip4. "yeah"8. "yeah," \skip4 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip8 "ooh,"4. "yeah"8. "yeah,"8 "when" \skip16 |
+    \skip8 "I'm"8 "down..."4 "Ooh,"8. "yeah" "yeah,"8 |
+    \skip2. \skip8 \skip8 |
+    \skip1 |
+    \skip8 "ooh,"4. "yeah"8. "yeah,"8 "well" \skip16 |
+    \skip8 "I'm"8 "down,"4 "so"8 "down"16 "Ooh,"8 "my"16 "ba"8 |
+    \skip2 \skip8 "by,"8. "oooh," |
+    \skip1 |
+    \tuplet 3/2 { \skip4 "my"8 "ba"4 "by,"8 } \skip2 |
+    "let"8 "me" "take" "you" "there"16 \skip4. \skip16 |
+    \skip1 |
+    \skip1 |
+}

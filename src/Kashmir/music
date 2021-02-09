@@ -1,24 +1,3 @@
-% BIN midi all
+% BIN midi all kav gg peter susan bass
 
-\header {
-    title = "Kashmir"
-}
-
-\include "markup"
-\include "drs"
-
-layoutmusic = <<
-    \tag #'(allPart ggPart) \new DrumStaff \with {
-	drumStyleTable = #(alist->hash-table myDrumStyleTable)
-    } <<
-	\markupStuff
-	\drsPart
-    >>
->>
-
-midimusic = <<
-    \markupStuff
-    \tag #'(midiGg) \new DrumStaff \with {
-	drumPitchTable = #(alist->hash-table midiDrumPitches)
-    } \drsPart
->>
+\include "generated-music"

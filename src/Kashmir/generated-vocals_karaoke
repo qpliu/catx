@@ -1,0 +1,199 @@
+vocalsKaraoke = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    "!mark=Intro|-"8 ">@"2 "@"8
+    \skip4. "@"4.
+    \skip8 "@"2 "@"8
+    \skip4. "@"4.
+    \skip8 "@"2 "@"8
+    \skip4. "@|!bg=4"4.
+\mymark "Verse" #7
+    "!mark=Verse|-"8 "@|!bg=3"2 "@|!bg=2"8
+    \skip4. "@|!bg=1"4.
+    \skip8 "Oh|!bg="8 "let" "the"16 "sun|!bg=img=../sun.svg"8 "beat" "down|!bg="16
+    \skip8 "u"16 "-pon"8 "my" "face," "-"8.
+    "-"8. ">stars" "to"8 "fill" "my"
+    "-"16 "dream"8. "-"2
+    "-"8 ">I" "am" "a"16 "tra"8 "-veler" "of"16
+    \skip16 "both"8 "time" "and" "space," "-"8.
+    "-"8 ">to"16 "be"8 "where" "I"8. "have"8
+    "been"4 "-"2
+    "-"8. ">To"16 "sit" "with"8 "el" "-ders"8.
+    "of"8 "the"16 "gen" "-tle" "race,"8. "-"4
+\mymark "Riff" #19
+    "!mark=Riff|-"8 ">this"16 "world"8. "has"8 "sel" "-dom"
+    \skip16 "seen"8. "-"2
+    "-"8 ">They" "talk" "of"16 "days"4 "for"16
+    "which"8 "they"8. "sit"16 "and"8 "wait" "-"
+    "-"8 ">and"16 "all"8. "will"8 "be" "re"16 "-vealed"
+    \skip2.
+\mymark "Verse" #25
+    "!mark=Verse|-"4 \skip2 ">@"4
+    \skip4 "@"2 "@"4
+    \skip4 "@"2 "@"4
+    \skip4 "@"2
+    "@"2 "@|!bg=4"4
+    \skip4 "@|!bg=3"2
+    "@|!bg=2"2 "@|!bg=1"4
+    \skip4 "Talk|!bg="16 "and"8 "song"4 "from"16
+    "tongues"8 "of"8. "lilt"16 "-ing"8 "grace," "-"
+    "-"8 ">whose"16 "sounds"8. "ca"16 "-ress"8 "my"8.
+    "ear"4 "-"2
+    "-"8. ">But"16 "not" "a"8 "word" "I" "heard"16
+\mymark "Riff" #37
+    "!mark=Riff|-"8 "could"16 "I"8 "re"16 "-late,"8 \skip4
+    "-"8. ">the"16 "sto"8 "-ry"16 "was"8 "quite"8.
+    "clear"4 "-"2
+    "-"4 ">Oh,"2
+    \skip4. "-"4.
+    "-"2.
+    "-"2.
+    "-"4 ">oh."2
+    \skip2 "-"4
+    "-"2 ">@"4
+    \skip4 "@"2
+    "@"2 "@"
+    "@"2 "@"
+    "@"2 "@"
+    "@"2 "@"4
+    \skip4 "@"2
+    "@"2 "@"4
+    \skip4 "@"2
+    "@"2 "@"
+    "@"4 "@" "@" "@|!bg=4" "@|!bg=3"8
+    \skip4 "@|!bg=2"2 "@|!bg=1"4
+    \skip4 "Oh,|!bg="2.
+    \skip2. "-"4
+    "-"4. ">ba"16 "-by" "-"4 "I"8. "been"16
+    \skip8 "fly"8. "ing..." "-"2
+    "-"1
+    "-"8 ">Oh"2 "yeah|!bg=img=../yeah.png"4 "!bg="8
+    \skip8 "-"2 ">ma"16 "-ma," "there" "-"8.
+\mymark "Riff" #65
+    "!mark=Riff|-"8 "ain't"8. "no"8 "de"16 "-ny"4 "in'"8 \skip8
+    "-"1
+    "-"1
+    "-"4 ">Oh"8 "-"2 \skip8
+    "-"4. ">oh"2 \skip8
+    \skip2 "yeah|!bg=img=../yeah.png"8 \skip8 "!bg="4
+    "I've"8 "-" "been" "fly"16 "-ing,"8. "-"4.
+    "-"1
+    "-"4. ">ma" "ma"4
+    "-"2. \skip8 ">ain't"8
+    "no"8 "de" "-ny"4 "in'," \skip16 "no"8 "de"16
+    \skip16 "-ny"4 "in'"4. \skip16 "-"4
+    "-"4. ">@"2 "@"8
+    \skip4. "@"2 "@"8
+    \skip4. "@"2 "@"8
+    \skip4. "@"2 "Oh"8
+    "-"2 ">All"8. "I" "see"8
+    \skip8 "-"2 \skip8 "turns"8. "to"16
+    \skip16 "brown,"4 \skip16 "-"2 \skip8
+    "-"1
+    "-"2 \skip8 ">as"4 "the"8
+    "sun|!bg=img=../sun.svg"4 "!bg=" "-"4. "burns"8
+    \skip16 "the"16 "ground"4. "-"2
+    "-"1
+    "-"2 ">And"8 "my"4 "eyes"8
+    \skip4 "-"2 \skip16 "fill"8 "with"16
+    \skip8 "sand,"4. "-"2
+    "-"1
+    "-"2 \skip8 ">as"8. "I"
+    \skip8 "scan"4 "-"4. "this"8 "wast"
+\mymark "Verse" #95
+    "!mark=Verse|-"8 "ed"16 "land"4 \skip16 \skip2
+    "-"1
+    "-"8 ">Trying"16 "to" "find,"4 "-"2
+    "-"8 ">trying"16 "to" "find"4 "-"8 "where" "I've" "been."
+    \skip1
+    \skip1
+    \skip2.
+    \skip8. \skip32 ">Oh,"32 "pi"2
+    \skip4. "-"8 "-lot"4
+    \skip4 "-"2
+    "-"8 ">@"2 "@"8
+    \skip4. "@"4.
+\mymark "Riff" #107
+    "!mark=Riff|-"8 "@"2 "@"8
+    \skip4. "@"4.
+    \skip8 "of"8 "the" "storm|!bg=img=../storm.svg"16 "who"8 "leaves"16 "!bg=" "no"
+    \skip8 "trace,"16 ">like"8. "thoughts"8 "in" "-"
+    "-"8 "-side" "a" \tuplet 3/2 { "dream"4 \skip16 "Heed"8 "the" }
+    "path"8 "-"2 \skip8
+\mymark "Verse" #113
+    "!mark=Verse|-"8. ">that"8 "led"16 "me"8 "to"4
+    "that"8 "place," "yel" "-low"16 "de"8 "-"8.
+    "-"8. "-sert" "stream"4 ">My"8
+    "Shan"16 "-gri"8. "-"2
+    "-"8 "-La" "be" "-neath"16 "the"8. "sum"16 "-mer"
+    \skip16 "moon,"16 ">I"8. "will"8 "re" "-"8.
+    "-"8 "-turn"16 "a" "-gain"8. "Sure"16 "as" "the"8 "-"16
+    "-"2.
+    "-"8 ">dust" "that" "floats"16 "high"8 "in" "June,"16
+    \skip8. "when"8 "mo" "-vin'" "-"8.
+    "-"8 "through" "Kash" "-mir."4 ">Oh,"8
+    \skip16 "fa"16 "-ther"2 \skip8
+\mymark "Riff" #125
+    "!mark=Riff|-"2 \skip8 ">@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@"8
+    \skip4. "@|!bg=4"4.
+    \skip8 "@|!bg=3"2 "@|!bg=2"8
+    \skip4. "@|!bg=1"4.
+    \skip8 "of|!bg="8 "the" "four"16 "winds,"8 "fill" "my"16
+    \skip16 "sails,"4 \skip16 "a"16 "-cross" "the"8 "-"
+    "-"8 "sea"4 "of"8 "years" ">With"
+    \skip16 "no"16 "pro"8 "-"2
+    "-"8 "-vi" "-sion" "but"16 "an"8 "o" "-"16
+    "-"16 "-pen" "face," "a"8 "-long" "the" "-"8.
+    "-"8 ">straits"16 "of"8. "fear" "Ohh."
+    \skip2.
+    \skip4. ">Oh"4.
+    \skip2.
+    \skip2.
+    \skip2.
+    \skip4. ">Oh"4.
+    "Oh"8 "Oh"4 "-"4.
+    "-"2.
+    "-"8 ">When"2 \skip8
+    "-"2. \skip8 ">@"8
+    \skip4. "@"2 "@"8
+    \skip4. "@"2 "@"8
+    \skip4. "@"4.
+    \skip8 "@"2 "I'm"8
+    \skip2.
+    \skip4 "-"8 "on,"4.
+    \skip1
+    \skip2. \skip8 "-"8
+    "-"2 ">@"
+    "@"2 "@"
+    "@"2 "when"16 "-"4 \skip16 "I'm"16 "on"
+    \skip16 "my"16 "-"2 "way,"16 "yeah|!bg=img=../yeah.png" "When" "I" "see," "when|!bg="
+    \skip8 "I"16 "-"2. \skip16
+    "-"1
+    "-"4. ">see"16 "the" "way,"8. "-"4 \skip16
+    "-"4. ">you"16 "stay" "yeah|!bg=img=../yeah.png"4 "!bg="
+    "Ooh,"1
+    \skip4. "yeah|!bg=img=../yeah.png"8. "yeah,|!bg=img=../yeah.png"16 \skip8 \skip16 "!bg="8.
+    \skip16 "-"2 \skip16 ">@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@|!bg=4"2 "@|!bg=3"4.
+    \skip8 "@|!bg=2"2 "@|!bg=1"4.
+    \skip8 "ooh,|!bg="4. "yeah|!bg=img=../yeah.png"8. "yeah,|!bg=img=../yeah.png"16 \skip16 "when"8 "!bg="16
+    \skip8 "I'm"16 \skip16 "down..."4 "Ooh,"8. "yeah|!bg=img=../yeah.png" "yeah,|!bg=img=../yeah.png"16 \skip16
+    \skip8 "!bg="4 \skip2 "-"8
+    "-"1
+    "-"8 ">ooh,"4. "yeah|!bg=img=../yeah.png"8. "yeah,|!bg=img=../yeah.png"16 \skip16 "well"8 "!bg="16
+    \skip8 "I'm"16 \skip16 "down,"4 "so"8 "down"16 "Ooh,"8 "my"16 "ba"8
+    \skip2 \skip8 "by,"8. "oooh,"
+    \skip1
+    \tuplet 3/2 { \skip4 ">my"8 "ba"4 "by,"8 } "-"2
+    "let"8 "me" "take" "you" "there"16 "-"4. \skip16
+    "-"2 \skip16 "@@"32 "-"4. \skip32
+    "-"1
+}

@@ -1,0 +1,41 @@
+#!/bin/sh
+WHERE=application_guitar_pro5-17566334.gp5
+set -e
+rm -f generated-*
+java -jar ../../guitarproToLy/1.jar <"$WHERE" \
+markup-extra 0 '\key d \major' \
+track 0 \
+    preset kav \
+    output-lilypond \
+    output-dotext \
+    output-lyrics \
+    output-karaoke \
+track 0 \
+    preset susan \
+    output-lilypond \
+track 1 \
+    preset peter \
+    output-lilypond \
+track 2 \
+    preset peter \
+    output-lilypond \
+track 3 \
+    preset peter \
+    output-lilypond \
+track 4 \
+    preset bass \
+    output-lilypond \
+    output-dotext \
+track 5 \
+    preset midiOne \
+    output-lilypond \
+track 6 \
+    preset midiOne \
+    output-lilypond \
+track 7 \
+    preset midiOne \
+    output-lilypond \
+track 8 \
+    preset gg \
+    output-drums \
+2>&1|tee log

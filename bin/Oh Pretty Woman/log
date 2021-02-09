@@ -1,13 +1,30 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-WorstAge=9223372036854775807
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+WorstAge=2147485184
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 1  Divisions: 384
+Format: 1  Tracks: 5  Divisions: 384
 Sequence: midiGg
-No pre-resampling cache hit
-Playing time: ~180 seconds
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
+Track name: midiKaraoke
+->@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Pret-|!bg=-tyWo--man,->walk--in'downthestreet.Pret--tyWom--an->kindI'dliketomeet,Pret--tyWo--man-->Idon'tbe--lieveyou!-you'renotthetruth!->Noonecouldlookasgoodasyou!-->(Mercy!)-->Pret--tyWom--an,->won'tyoupar--donme?Pret--ty,Wo--man,->Icould--n'thelpbutseePret--tyWo--man-->thatyoulooklove--ly-ascanbe.->Areyoulone--lyjustlikeme?-->(Rrrowwrrr!)->@@@@@Pret--tyWo-man,stopa--while-->Pret--tyWo-man,talka--while-->Pret--tyWo-man,giveyour-smile-tome!--->Pret--tyWo-man,Yeah,|!bg=img=../yeah.pngyeah|!bg=img=../yeah.png!bg=yeah!|!bg=img=../yeah.png!bg=->Pret--tyWo-man,lookmy-way.-->Pret--tyWo--man,sayyou'll-staywithmeeee-->-eeee!->'causeIneed-you!-->I'lltreatyouright!-->CometomeBa---by.-->Bemine-to-niiiigh->-iiiigh-->-iiigh-->-iiight->Pret--tyWo-man,-don'twalkonby.>Pretty-Wo-man-don'tmakemecryPret--tyWo-man,-->don'twalka---wa--ay,-Hey!-->O.K.!-->Ifthat'sthewayitmustbe,O.K.!-->IguessI'llgoon-homeit'slate!->There'll be-to-mor--rownight,|!bg=img=../night.pngbut|!bg=wait!->WhatdoIsee?!!->@@@@@@Isshewalk--in'back-tome?-->Yeaahh!->She'swalk--in'back-toME!!-->Oooo-->-ooh,->Pret--tyWo--man-Playing time: ~179 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 16545741/31462064 bytes(52.5895% compressed)
+Wrote 18375909/31322820 bytes(58.6662% compressed)
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
      94 measure=all
+     94 measure=kav
+     94 measure=gg
+     94 measure=peter
+     94 measure=susan
+     94 measure=bass

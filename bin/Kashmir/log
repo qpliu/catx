@@ -1,15 +1,44 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-WorstAge=9223372036854775807
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+mark=Intro count=0 fudgeLyrics=48 divisions=0 seconds=0.0 measure=1.0
+mark=Verse count=10 fudgeLyrics=48 divisions=6912 seconds=13.499999999999998 measure=7.0
+mark=Riff count=65 fudgeLyrics=48 divisions=20736 seconds=40.49999999999999 measure=19.0
+mark=Verse count=92 fudgeLyrics=48 divisions=27648 seconds=53.99999999999999 measure=25.0
+mark=Riff count=129 fudgeLyrics=48 divisions=42624 seconds=83.24999999999999 measure=37.0
+mark=Riff count=195 fudgeLyrics=48 divisions=80064 seconds=156.37499999999997 measure=65.0
+mark=Verse count=278 fudgeLyrics=48 divisions=126144 seconds=246.37499999999997 measure=95.0
+mark=Riff count=304 fudgeLyrics=48 divisions=142272 seconds=277.875 measure=107.0
+mark=Verse count=328 fudgeLyrics=48 divisions=149184 seconds=291.37499999999994 measure=113.0
+mark=Riff count=385 fudgeLyrics=48 divisions=163008 seconds=318.37499999999994 measure=125.0
+WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 1  Divisions: 384
+Format: 1  Tracks: 6  Divisions: 384
 Sequence: midiGg
-No pre-resampling cache hit
-Playing time: ~440 seconds
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
+Track name: midiKaraoke
+Track name: midiOne
+!mark=Intro|->@@@@@@@@@|!bg=4!mark=Verse|-@|!bg=3@|!bg=2@|!bg=1Oh|!bg=letthesun|!bg=img=../sun.svgbeatdown|!bg=u-ponmyface,-->starstofillmy-dream-->Iamatra-velerofbothtimeandspace,-->tobewhereIhavebeen-->Tositwithel-dersofthegen-tlerace,-!mark=Riff|->thisworldhassel-domseen-->Theytalkofdaysforwhichtheysitandwait-->andallwillbere-vealed!mark=Verse|->@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Talk|!bg=andsongfromtonguesoflilt-inggrace,-->whosesoundsca-ressmyear-->ButnotawordIheard!mark=Riff|-couldIre-late,->thesto-rywasquiteclear-->Oh,---->oh.-->@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Oh,|!bg=-->ba-by-Ibeenflying...--->Ohyeah|!bg=img=../yeah.png!bg=->ma-ma,there-!mark=Riff|-ain'tnode-nyin'--->Oh-->ohyeah|!bg=img=../yeah.png!bg=I've-beenfly-ing,--->mama->ain'tnode-nyin',node-nyin'-->@@@@@@@Oh->AllIsee-turnstobrown,--->asthesun|!bg=img=../sun.svg!bg=-burnstheground--->Andmyeyes-fillwithsand,--->asIscan-thiswast!mark=Verse|-edland-->Tryingtofind,-->tryingtofind-whereI'vebeen.>Oh,pi--lot-->@@@!mark=Riff|-@@@ofthestorm|!bg=img=../storm.svgwholeaves!bg=notrace,>likethoughtsin---sideadreamHeedthepath-!mark=Verse|->thatledmetothatplace,yel-lowde---sertstream>MyShan-gri---Labe-neaththesum-mermoon,>Iwillre---turna-gainSureasthe--->dustthatfloatshighinJune,whenmo-vin'--throughKash-mir.>Oh,fa-ther!mark=Riff|->@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1of|!bg=thefourwinds,fillmysails,a-crossthe--seaofyears>Withnopro---vi-sionbutano---penface,a-longthe-->straitsoffearOhh.>Oh>OhOhOh--->When->@@@@@@@I'm-on,-->@@@@when-I'monmy-way,yeah|!bg=img=../yeah.pngWhenIsee,when|!bg=I--->seetheway,-->youstayyeah|!bg=img=../yeah.png!bg=Ooh,yeah|!bg=img=../yeah.pngyeah,|!bg=img=../yeah.png!bg=->@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1ooh,|!bg=yeah|!bg=img=../yeah.pngyeah,|!bg=img=../yeah.pngwhen!bg=I'mdown...Ooh,yeah|!bg=img=../yeah.pngyeah,|!bg=img=../yeah.png!bg=--->ooh,yeah|!bg=img=../yeah.pngyeah,|!bg=img=../yeah.pngwell!bg=I'mdown,sodownOoh,mybaby,oooh,>mybaby,-letmetakeyouthere--@@--Playing time: ~493 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 39175863/77268792 bytes(50.7008% compressed)
-warning: compressing over-full page by 3.0 staff-spaces
+Wrote 49254995/86675872 bytes(56.8267% compressed)
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+warning: compressing over-full page by 6.2 staff-spaces
 warning: page 0 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-     64 measure=all
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+    186 measure=all
+    186 measure=kav
+    186 measure=gg
+    186 measure=peter
+    186 measure=susan
+    186 measure=bass

@@ -1,25 +1,5 @@
-% BIN midi all
+% BIN midi all kav gg peter susan bass
+% MERGEMIDI --fudge-lyrics 24
+% ROBOT enabled=true
 
-\header {
-    title = "Oh Pretty Woman"
-    composer = "Ray Orbison"
-}
-
-\include "markup"
-\include "drs"
-
-layoutmusic = <<
-    \tag #'(allPart ggPart) \new DrumStaff \with {
-	drumStyleTable = #(alist->hash-table myDrumStyleTable)
-    } <<
-	\markupStuff
-	\drsPart
-    >>
->>
-
-midimusic = <<
-    \markupStuff
-    \tag #'(midiGg) \new DrumStaff \with {
-	drumPitchTable = #(alist->hash-table midiDrumPitches)
-    } \drsPart
->>
+\include "generated-music"

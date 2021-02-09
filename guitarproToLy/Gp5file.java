@@ -27,6 +27,8 @@ final class Gp5file extends Gpfile{
 	    this.version = 300;
 	else if (version.equals("FICHIER GUITAR PRO v4.00"))
 	    this.version = 400;
+	else if (version.equals("FICHIER GUITAR PRO v4.06"))
+	    this.version = 406;
 	else if (version.equals("CLIPBOARD GUITAR PRO 4.0 [c6]")){
 	    this.version = 400;
 	    readClipboard();

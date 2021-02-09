@@ -1,7 +1,0 @@
-markupStuff = {
-    \tempo 4 = 120
-    \set Score.currentBarNumber = #-1
-    s1 |
-    s1 |
-    \set Score.barNumberVisibility = #all-bar-numbers-visible
-}

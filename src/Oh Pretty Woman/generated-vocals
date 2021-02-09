@@ -1,112 +1,97 @@
-vocalsPart =
-{
-% THIS FILE IS GENERATED.  DO NOT EDIT.  If you really really want to change stuff in this file and you can't think of any other way to do what you want, get rid of this comment and remove line from "get" script that generated this.
-% url: -
-% artist: Roy Orbison
-% title: Oh, Pretty Woman
-% instrument: Acoustic Grand Piano
-% name: Piano
-    \time 4/4
-    \tempo 4 = 127
-% tuning e, a, d g b e'
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    \time 2/4
-    r2 |
-    \time 4/4
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    \time 2/4
-    r2 |
-    \time 4/4
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    f''4\1 f''8\1 f''\1 f''4\1 e''\1 |
-    e''4\1 d''\2 b'\2 d''\2 |
-    e''4\1 e''8\1 e''\1 e''4\1 d''\2 |
-    d''4\2 c''\2 a'\3 c''\2 |
-    d''4\2 d''8\2 d''\2 d''4\2 c''\2 |
-    b'4\2 g'\3 a'\3 b'\2 |
-    g'8\3 c''\2 e''\1 g''\1 f''\1 e''\1 d''\2 e''\1 |
-    g'8\3 c''\2 e''\1 g''\1 f''\1 e''\1 d''\2 e''\1 |
-    f''4\1 f''8\1 f''\1 f''4\1 e''\1 |
-    e''4\1 d''\2 b'\2 d''\2 |
-    e''4\1 e''8\1 e''\1 e''4\1 d''\2 |
-    d''4\2 c''\2 a'\3 c''\2 |
-    d''4\2 d''8\2 d''\2 d''4\2 c''\2 |
-    b'4\2 g'\3 a'\3 b'\2 |
-    g'8\3 c''\2 e''\1 g''\1 f''\1 e''\1 d''\2 e''\1 |
-    a'8\3 cis''\2 e''\1 a''\1 e''\1 cis''\2 a'\3 cis''\2 |
-    fis'4\3 <a'\2 cis''\1> fis'8\3 a'\2 cis''\1 a'\2 |
-    d'4\3 <fis'\2 a'\1> d'8\3 fis'\2 a'\1 fis'\2 |
-    b4\3 <e'\2 gis'\1> b8\3 e'\2 gis'\1 e'\2 |
-    cis'4\3 <e'\2 a'\1> cis'8\3 e'\2 a'\1 e'\2 |
-    b4\3 <cis'\2 fis'\1> b8\3 cis'\2 fis'\1 cis'\2 |
-    fis4\4 <a\3 d'\2 fis'\1> a8\3 d'\2 fis'\1 d'\2 |
-    gis4\3 <b\2 e'\1> gis8\3 b\2 e'\1 b\2 |
-    <gis\3 b\2 e'\1>4 <e\4 gis\3 b\2> <b,\5 e\4 gis\3> <b,\5 e\4 gis\3> |
-    <e,\6 b,\5 e\4>2. r4 |
-    <e,\6 b,\5 e\4 gis\3 b\2 e'\1>2. r4 |
-    <e,\6 a,\5 e\4 a\3 b\2 e'\1>2 r |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    \time 2/4
-    r2 |
-    \time 4/4
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
+vocals = {
+    \myVocalsStuff
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2. cis'8 cis' |
+    b8 a r2 cis'8 cis' |
+    b4 a cis' b8 cis' |
+    b8 a4. r4 cis'8 cis' |
+    b4 a cis' b8 cis' |
+    b8 a4. r2 |
+    r8 fis' fis' fis' |
+    fis'4 e'4. d'8 b d' |
+    e'2 r8 fis' fis' fis' |
+    fis'4 e' d' b |
+    e'2. r4 |
+    r1 |
+    r1 |
+    r1 |
+    r2. cis'8 cis' |
+    b8 a4. r4 cis'8 cis' |
+    b4 a cis' b8 cis' |
+    b8 a4. r4 cis'8 cis' |
+    b4 a cis' b8 cis' |
+    b8 a4. r2 |
+    r8 fis' fis' fis' |
+    fis'4 e' r d'8 b |
+    e'4 r2 fis'8 e' |
+    fis'4 e' d' b |
+    e'2. r4 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r4 f'8 f' f'4 e' |
+    e'8 d'4. d'2 |
+    r4 e'8 e' e'4 d' |
+    d'8 c'4. c'4 r |
+    r4 d'8 d' d'4 c' |
+    c'8 b4 a2 b8 |
+    c'2 r |
+    r1 |
+    r4 f'8 f' f'4 e' |
+    e'8 d'4. d'2 |
+    r4 e'8 e' e'4 d' |
+    d'8 c'4. c'2 |
+    r4 d'8 d' d'4 c' |
+    c'8 b r4 a b |
+    c'1 |
+    cis'2 r4 cis'8 b |
+    b2 a |
+    r4 a b a |
+    gis1 |
+    r4 cis' b a |
+    gis2 a |
+    r4 a b4. a8 |
+    gis1 |
+    b1 |
+    e'1~ |
+    e'2. cis'8 cis' |
+    b8 a4 r4. cis'4 |
+    b4 a cis' b8 cis' |
+    b8 a4. r4 cis' |
+    b4 a cis' b8 cis' |
+    b8 a4. r2 |
+    r4 fis' |
+    fis'8 e'4. d'8 b4. |
+    e'2. r4 |
+    r2. b4 |
+    e2. r4 |
+    r2 r8 e' e' e' |
+    e'8 e' d'4 b gis |
+    e2. r4 |
+    r2 r8 gis gis gis |
+    gis8 gis4. gis4 a |
+    b2~ b8 e' e' e' |
+    e'4 d' b gis |
+    e4 r4. d'8 b d' |
+    e'1 |
+    r1 |
+    r1 |
+    r2. fis'8 fis' |
+    fis'4 e' d' r8 b |
+    e'1~ |
+    e'2 r |
+    e'2. r8 e' |
+    e'4 d' b r8 a |
+    gis8 e2.~ e8 |
+    r1 |
+    e'1 |
+    d'2 r4 cis'8 cis' |
+    b8 a r2. |
 }

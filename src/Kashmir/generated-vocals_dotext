@@ -1,0 +1,199 @@
+vocalsDotext = {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+\mymark "Verse" #7
+    \skip2. |
+    \skip2. |
+    \skip8 `slide`4 \skip16 `.(fis')bend0:0:15:150:60:150`8 \skip8. |
+    \skip8. `.(d')bend0:100:30:0:60:0`8 \skip4. \skip16 |
+    \skip8. `.(a)bend0:0:25:100:60:100`8. \skip4. |
+    \skip16 `slide`8. \skip2 |
+    \skip2. |
+    \skip8. `.(d')bend0:100:30:0:60:0`8 \skip4. \skip16 |
+    \skip2. |
+    `slide`4 \skip2 |
+    \skip4. \skip16 `.(fis')bend0:0:15:150:60:150`8 \skip8. |
+    \skip2. |
+\mymark "Riff" #19
+    \skip2. |
+    \skip16 `slide`8. \skip2 |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+\mymark "Verse" #25
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip4. \skip16 `.(fis')bend0:0:15:150:60:150`4 \skip16 |
+    \skip2 `slide`8 \skip8 |
+    \skip2. |
+    `slide`4 \skip2 |
+    \skip4. \skip16 `.(fis')bend0:0:30:150:60:150`8 \skip8. |
+\mymark "Riff" #37
+    \skip2. |
+    \skip2. |
+    `slide`4 \skip2 |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip8 `.(e')bend0:0:15:100:60:100`8. \skip4. \skip16 |
+    \skip2. |
+    \skip2. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip1 |
+    \skip1 \skip8 |
+    \skip1 |
+    \skip4 `.(b')bend0:0:5:50:60:50`2 \skip4 |
+    \skip1 |
+    \skip2. `.(c')bend0:0:30:50:60:50`8. \skip16 |
+    \skip8 `slide`8. \skip2 \skip8. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Riff" #65
+    \skip8 `.(b)bend0:0:30:50:60:50`8. `.(b)bend0:0:30:50:60:50`8 \skip16 `slide`4 \skip4 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip4. `slide`4. \skip4 |
+    \skip1 |
+    `.(b)bend0:0:15:100:60:100`8 \skip8 `slide`4 \skip4 \skip16 `.(b)bend0:0:15:100:60:100`8 \skip16 |
+    \skip16 `slide`4 \skip2 \skip8. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip16 `.(a)bend0:0:15:50:30:50:35:0:60:0`4~ `.(a)bend0:0:15:50:30:50:35:0:60:0`16 \skip2 \skip8 |
+    \skip1 |
+    \skip2 \skip8 `slide`4 \skip8 |
+    \skip2. \skip8 `slide`8~ |
+    `slide`16 \skip16 `.(a)bend0:0:15:50:30:50:35:0:60:0`4. \skip2 |
+    \skip1 |
+    \skip1 |
+    \skip2. \skip16 `slide`8 \skip16 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. \skip8 `slide`8~ |
+\mymark "Verse" #95
+    `slide`8 \skip16 `.(a)bend0:0:15:50:30:50:35:0:60:0`4~ `.(a)bend0:0:15:50:30:50:35:0:60:0`16 \skip2 |
+    \skip1 |
+    \skip4 `slide`4 \skip2 |
+    \skip4 `slide`4 \skip4. `slide`8~ |
+    <`slide` `.(gis')bend0:50:35:50:50:0:55:0:60:50`>2.~ <`slide` `.(gis')bend0:50:35:50:50:0:55:0:60:50`>8 \skip8 |
+    \skip1 |
+    \skip2. |
+    \skip4 `.(f')bend0:150:30:150:50:0:60:0`2~ |
+    `.(f')bend0:150:30:150:50:0:60:0`4. \skip4. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+\mymark "Riff" #107
+    \skip2. |
+    \skip2. |
+    \skip8 `slide`4 \skip16 `.(fis')bend0:0:15:150:60:150`8 \skip8. |
+    \skip8. `.(d')bend0:100:30:0:60:0`8. \skip8 `.(d')bend0:0:15:100:60:100`8 \skip8 |
+    \tuplet 3/2 { \skip1 `slide`8~ } |
+    `slide`8 \skip2 \skip8 |
+\mymark "Verse" #113
+    \skip4. `.(fis')bend0:0:15:150:60:150`8 \skip4 |
+    `.(e')bend0:0:15:100:60:100`8 `slide` \skip8 `slide`8. \skip8. |
+    \skip8. `.(a)bend0:0:25:100:60:100`8. \skip4. |
+    `slide`4 \skip2 |
+    \skip4. \skip16 `.(fis')bend0:0:30:150:60:150`8. \skip8 |
+    \skip4. \skip16 `.(d')bend0:0:15:100:60:100`8 \skip8. |
+    \skip2 `slide`8. \skip16 |
+    \skip2. |
+    \skip2. |
+    \skip4. \skip16 `.(d')bend0:0:15:100:60:100`8 \skip8. |
+    \skip2. |
+    \skip16 `slide`2~ `slide`8. |
+\mymark "Riff" #125
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip8 `slide`4 \skip16 `.(fis')bend0:0:15:150:60:150`8 \skip8. |
+    \skip16 `.(e')bend0:0:15:100:60:100`8. `.(d')bend0:100:15:100:30:0:60:0`8 \skip16 `slide`8. \skip8 |
+    \skip2. |
+    \skip16 `slide`8. \skip2 |
+    \skip4. \skip16 `.(fis')bend0:0:15:150:60:150`8 \skip8. |
+    \skip2. |
+    \skip2. |
+    `slide`4 \skip2 |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip8 `.(cis')bend0:0:30:50:60:50`2~ `.(cis')bend0:0:30:50:60:50`8 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. |
+    \skip2 \skip8 `.(b)bend0:0:10:150:60:150`8~ |
+    `.(b)bend0:0:10:150:60:150`2.~ |
+    `.(b)bend0:0:10:150:60:150`4 \skip2 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    `slide`8 \skip2 \skip8 `slide`8 \skip16 `.(g')bend0:0:15:100:60:100`16~ |
+    `.(g')bend0:0:15:100:60:100`8 \skip2. \skip8 |
+    \skip1 |
+    \skip2 `.(g')bend0:100:45:0:60:0`8. \skip4 \skip16 |
+    \skip1 |
+    `.(g')bend0:0:15:100:60:100`2.~ `.(g')bend0:0:15:100:60:100`8 \skip8 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    `.(e')bend0:150:15:250:30:250:45:0:60:0`2.~ `.(e')bend0:150:15:250:30:250:45:0:60:0`8 \skip8 |
+    \skip1 |
+    \skip8 `.(ais')bend0:0:15:125:60:125`8 \skip2. |
+    \skip1 |
+    `.(e')bend0:150:15:250:45:250:60:0`2~ `.(e')bend0:150:15:250:45:250:60:0`8 `.(cis')bend0:150:15:150:30:0:60:0`8. `.(cis')bend0:150:15:150:30:0:45:0:60:150`~ |
+    `.(cis')bend0:150:15:150:30:0:45:0:60:150`4 \skip2. |
+    \skip4 \tuplet 3/2 { `slide`4 \skip2. \skip8 } |
+    `slide`4 \skip8 `slide`8. \skip4. \skip16 |
+    `.(e')bend0:150:10:250:30:250:45:0:60:0`2.~ `.(e')bend0:150:10:250:30:250:45:0:60:0`8 \skip8 |
+    \skip1 |
+}
