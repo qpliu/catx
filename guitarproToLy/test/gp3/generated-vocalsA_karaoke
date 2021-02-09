@@ -22,7 +22,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "on the"16 "-"8. "mantel shelf"8 "-"2 \skip8
     ">See the"8 "-" "hands" "    a-mov -"16 "-"8. "ing"4 "-"8
     "but I'm"8. "-"16 "by"8 "myself"16 "-"2 ">I"16
-    "wonder"8 "-" "where" "     you are"16 "-"8. "  tonight|!bg=img=../night.png"16 "-"4 ">And|!bg="16
+    "wonder"8 "-" "where" "     you are"16 "-"8. "!bg=img=../night.png|  tonight"16 \skip8. "!bg="16 ">And"
     "why"8 "I'm" "by" "my -" "self" "-" "I don't"16 "-"8.
     "see you"8 "-"4. ">does it mean"16 "-"4 "  you don't"16 "-"8
     "love me"8 "-" "an -" "y -"

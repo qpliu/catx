@@ -24,15 +24,11 @@ class LyricsKaraokeFileMaker extends ChoppedTrackFileMaker{
 	for (Gpfile.Event e:list)
 	    if (!e.tie_rhs){
 		Gpfile.LyricEvent le=(Gpfile.LyricEvent)e;
-		if (lyric!=null && this instanceof LyricsFileMaker){
-		    Log.info("Junking simultaneous lyric %s",le.lyric);
-		    continue;
-		}
 		String l=le.lyric;
 		if (this instanceof KaraokeFileMaker){
 		    if (l.startsWith("!mark="))
 			addMinus++;
-		    else
+		    else if (!l.startsWith("!"))
 			--addMinus;
 		    if (le.hyphen_rhs)
 			l = "-"+l;
@@ -41,7 +37,7 @@ class LyricsKaraokeFileMaker extends ChoppedTrackFileMaker{
 		lyric = lyric==null?l:lyric+'|'+l;
 	    }
 	if (addMinus>0)
-		lyric += "|-";
+	    lyric += "|-";
 	String lyri=lyric==null?"\\skip":Stuff.quote(lyric);
 	String suffi=suffix;
 	return new MeasureMaker.GetWhatSuffix(){

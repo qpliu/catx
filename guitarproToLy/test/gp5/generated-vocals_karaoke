@@ -203,7 +203,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-ke"4 "-ru"8 "you!"2 \skip8
     \skip2 \skip8 "-"4.
     ">Mo"4. "-re"4 "-tsu!"8 "-"4
-    "-"1
+    "-"2. "@@"32 "-"8. \skip32
     "-"1
     "-"1
     "-"1
@@ -219,7 +219,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
 \mymark "Ending" #200
     "!mark=Ending|-"1
     "-"1
-    "@@"32 "-"2. \skip8. \skip32
+    "-"1
     "-"1
     "-"1
     "-"1

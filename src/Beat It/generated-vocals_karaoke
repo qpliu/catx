@@ -122,7 +122,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "@|!bg=4"2 "@|!bg=3"
     "@|!bg=2"2 "@|!bg=1"
 \mymark "Chorus" #115
-    "Beat|!bg=|!mark=Chorus"8 "it,"4. "(beat"8 "it),"4.
+    "Beat|!mark=Chorus|!bg="8 "it,"4. "(beat"8 "it),"4.
     "beat"8 "it,"4. ">(beat"8 "it),"4 "no"8
     \skip8 "one"8 "wants" "to" "be" "-" "de" "fea"
     "-"8 "ted." "-"2 \skip8 ">Show"8

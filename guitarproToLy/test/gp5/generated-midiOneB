@@ -70,12 +70,12 @@ midiOneB = {
     r1 |
 \mymark "Interlude" #64
     <gis c' f'>4\glissando r <c'' c'''>8 <ais' ais''> <gis' gis''> <g' g''> |
-    <f' f~ gis~ c'~ f''>8 <gis' f~ gis~ c'~ gis''> <f~ c'' gis~ c'~ c'''> <f' f~ gis~ f'' c'~>16 <dis' f dis'' gis c'> <d' d~ f~ d'' gis~>8 <f' d~ f~ gis~ f''> <d f ais' gis ais''>4 |
-    <g ais dis'>4.~ <d' g~ d'' ais~ dis'~>16 <dis' g~ ais~ dis'' dis'~> <gis' g~ ais~ dis'~ gis''>8 <g' g~ ais~ dis'~ g''> <gis' g~ ais~ dis'~ gis''> <g' g ais dis' g''> |
-    <d f'~ f''~>8 <f'~ g f''~> <f' gis f''> <g' d~ g''>16 <gis' d gis''> <g, g'~ g''~>8 <f g' g''> g4 |
+    <f~ gis~ c'~ f' f''>8 <f~ gis~ c'~ gis' gis''> <f~ gis~ c'~ c'' c'''> <f~ gis~ c'~ f' f''>16 <f gis c' dis' dis''> <d~ f~ gis~ d' d''>8 <d~ f~ gis~ f' f''> <d f gis ais' ais''>4 |
+    <g ais dis'>4.~ <g~ ais~ dis'~ d' d''>16 <g~ ais~ dis'~ dis' dis''> <g~ ais~ dis'~ gis' gis''>8 <g~ ais~ dis'~ g' g''> <g~ ais~ dis'~ gis' gis''> <g ais dis' g' g''> |
+    <d f'~ f''~>8 <g f'~ f''~> <gis f' f''> <d~ g' g''>16 <d gis' gis''> <g, g'~ g''~>8 <f g' g''> g4 |
     c8 g g c g c g c |
-    <f' f~ gis~ c'~ f''>8 <f gis c'>4~ <f' f~ gis~ c'~ f''>16 <dis' f gis c' dis''> <d~ d' f~ gis~ d''>8 <d~ f' f~ gis~ f''> <d f gis ais' ais''>4 |
-    <g ais d'>4.~ <d' g~ ais~ d'' d'~>16 <dis' g ais dis'' d'> <gis' gis~ c'~ dis'~ gis''>4 <g' gis c' dis' g''> |
+    <f~ gis~ c'~ f' f''>8 <f gis c'>4~ <f~ gis~ c'~ f' f''>16 <f gis c' dis' dis''> <d~ f~ gis~ d' d''>8 <d~ f~ gis~ f' f''> <d f gis ais' ais''>4 |
+    <g ais d'>4.~ <g~ ais~ d'~ d' d''>16 <g ais d' dis' dis''> <gis~ c'~ dis'~ gis' gis''>4 <gis c' dis' g' g''> |
     <gis d' b>1 |
     r1 |
 \mymark "Verse 2A" #73
@@ -142,15 +142,15 @@ midiOneB = {
     f'1\bendAfter #6 ^"full" |
 \mymark "Bridge" #130
     r16 <gis gis'> <ais ais'> r8 <gis gis'>16 <ais ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r |
-    <g g'>16 r8 <e e'>16 r <f g g' f'> <g g'> r <e e'> r <f f'> <g g'> r4 |
+    <g g'>16 r8 <e e'>16 r <g g' f f'> <g g'> r <e e'> r <f f'> <g g'> r4 |
     r1 |
     r1 |
     r16 <gis gis'> <ais ais'> r8 <gis gis'>16 <ais ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r |
-    <g g'>16 r8 <e e'>16 r <f g g' f'> <g g'> r <e e'> r <f f'> <g g'> r4 |
+    <g g'>16 r8 <e e'>16 r <g g' f f'> <g g'> r <e e'> r <f f'> <g g'> r4 |
     r16 <gis gis'> <ais ais'> r8 <gis gis'>16 <ais ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r |
-    <g g'>16 r8 <e e'>16 r <f g g' f'> <g g'> r <e e'> r <f f'> <g g'> r4 |
+    <g g'>16 r8 <e e'>16 r <g g' f f'> <g g'> r <e e'> r <f f'> <g g'> r4 |
     r16 <gis gis'> <ais ais'> r8 <gis gis'>16 <ais ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r8 <gis \parenthesize gis'>16 <ais \parenthesize ais'> r |
-    <g g'>16 r8 <e e'>16 r <f g f' g'> <g g'> r <e e'> r <f f'> <g g'> r4 |
+    <g g'>16 r8 <e e'>16 r <g g' f f'> <g g'> r <e e'> r <f f'> <g g'> r4 |
 \mymark "Guitar Solo" #140
     c'8 r c' g' r c' r ais |
     r8 ais ais f' r ais r4 |

@@ -107,7 +107,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
     "-retsu!"4. ">MO"2 "-"8
 \mymark "Chorus 2A" #96
     "-RETSU!|!mark=Chorus 2A"4. \skip2 \skip8
-    "-"1
+    "-"4. "@@"32 "-"2 \skip16.
     "-"1
     "-"1
     "-"1
@@ -219,7 +219,7 @@ vocalsAKaraoke = \new Lyrics \lyricmode {
 \mymark "Ending" #200
     "!mark=Ending|-"1
     "-"1
-    "@@"32 "-"2. \skip8. \skip32
+    "-"1
     "-"1
     "-"1
     "-"1

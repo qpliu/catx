@@ -33,10 +33,10 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "find"4 "-ing" "mis" "-ter"8 "right?"
     \skip4 "-"2 \skip8 ">You'll"8
     "be"4 "al" "-right" "to|!bg=img=../night.png"8 "-night."
-    \skip4 "-"2.
+    "!bg="4 "-"2.
     "-"1
 \mymark "Verse 3" #31
-    "!mark=Verse 3|-"4 ">Babe|!bg="8 "you" "know" "you're" "grow" "-ing"
+    "!mark=Verse 3|-"4 ">Babe"8 "you" "know" "you're" "grow" "-ing"
     "up"8 "so"4 "fast."4. "-"4
     "-"8 ">And" "ma" "-ma's" "wor" "-ry" "-ing" "that"
     "you"4 "won't" "last" "to"8 "say."
@@ -60,16 +60,16 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "got"4 "him" "in" "your"8. "sight."16
     \skip4 "-"2 \skip8 ">And"8
     "driv"4 "-ing" "through" "the"8 "night.|!bg=img=../night.png"
-    \skip4 "-"2.
+    \skip8 "!bg="8 \skip8 "-"2 \skip8
     "-"1
 \mymark "Chorus 3" #55
-    ">Mo|!bg=|!mark=Chorus 3"8 "-tor" "-ing!"4 \skip2
+    ">Mo|!mark=Chorus 3"8 "-tor" "-ing!"4 \skip2
     ">What's"4 "your" "price" "for"8 "flight?"
     \skip4 "-"2 \skip8 ">In"8
     "find"4 "-ing" "mis" "-ter"8 "right?"
     \skip4 "-"2 \skip8 ">You'll"8
     "be"4 "al" "-right" "to|!bg=img=../night.png"8 "-night."
-    \skip4 "-"2.
+    "!bg="4 "-"2.
 \mymark "Solo" #62
     ">@|!mark=Solo"2 "@"
     "@"2 "@"
@@ -86,14 +86,14 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "@|!bg=4"2 "@|!bg=3"
     "@|!bg=2"2 "@|!bg=1"
 \mymark "Chorus 4" #76
-    "Mo|!bg=|!mark=Chorus 4"8 "-tor" "-ing!"4 \skip2
+    "Mo|!mark=Chorus 4|!bg="8 "-tor" "-ing!"4 \skip2
     ">What's"4 "your" "price" "for"8 "flight?"
     \skip4 "-"2 \skip8 ">In"8
     "find"4 "-ing" "mis" "-ter"8 "right?"
     \skip4 "-"2 \skip8 ">You'll"8
     "be"4 "al" "-right" "to|!bg=img=../night.png"8 "-night."
-    \skip4 "-"2.
-    "-"2. \skip8 ">You're|!bg="8
+    "!bg="4 "-"2.
+    "-"2. \skip8 ">You're"8
 \mymark "Chorus 5" #84
     "mo|!mark=Chorus 5"8 "-tor" "-ing!"4 \skip2
     ">What's"4 "your" "price" "for"8 "flight?"
@@ -101,7 +101,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "find"4 "-ing" "mis" "-ter"8 "right?"
     \skip4 "-"2 \skip8 ">You'll"8
     "be"4 "al" "-right" "-"
-    "-"8 "to|!bg=img=../night.png" "-night."4 \skip16 "-"4. \skip16
+    "-"8 "to|!bg=img=../night.png" "-night." "!bg="8. \skip16 "-"4.
     "-"4 ">@"2 "@"4
 \mymark "Break Down" #92
     "!mark=Break Down|-"4 "@"2 "@"4
@@ -118,8 +118,8 @@ vocalsKaraoke = \new Lyrics \lyricmode {
 \mymark "Last Bit" #102
     "!mark=Last Bit|-"2 \skip8 ">But"16 "you're" "mo"8 "-tor"
     "-ing."4 "-"2 \skip8 ">Yeah!|!bg=img=../yeah.png"8
-    \skip1
-    \skip2 ">Mo|!bg="4 "-tor"
+    \skip8 "!bg="4 \skip2 \skip8
+    \skip2 ">Mo"4 "-tor"
     "-ing."4. "-"2 \skip8
     "-"4. "@@"32 "-"2. \skip16.
     "-"1

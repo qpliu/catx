@@ -31,15 +31,15 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "gets"4 "my" "I"8 "-"4
     "-"8 ">hope"4 "that" "some" "-one"8
     \skip8 "gets"4 "my" "I"8 "-"4
-    "-"8 "hope"4 "that" "some" "-one"8
-    \skip8 "gets"4 "my" ">Mes"4.
+    "-"8 ">hope"4 "that" "some" "-one"8
+    \skip8 "gets"4 "my" "Mes"4.
 \mymark "Chorus" #31
     "-sage|!mark=Chorus"8 "in"4 "a" "bot" "-tle,"8
-    \skip4. "yeah|!bg=img=../yeah.png"4. ">Mes|!bg="4
+    \skip4. "yeah|!bg=img=../yeah.png"4 "!bg="8 ">Mes" \skip8
     "-"1
     "-"1
     "-sage"8 "in"4 "a" "bot" "-tle,"8
-    \skip4. "yeah|!bg=img=../yeah.png"4. "A|!bg="4
+    \skip4. "yeah|!bg=img=../yeah.png"4 "!bg="8 "A" \skip8
     "-"2. ">@"4
     \skip4 "@"2 "@"4
 \mymark "2nd Verse" #39
@@ -68,23 +68,23 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "gets"4 "my" "I"8 "-"4
     "-"8 ">hope"4 "that" "some" "-one"8
     \skip8 "gets"4 "my" "I"8 "-"4
-    "-"8 "hope"4 "that" "some" "-one"8
-    \skip8 "gets"4 "my" ">Mes"4.
+    "-"8 ">hope"4 "that" "some" "-one"8
+    \skip8 "gets"4 "my" "Mes"4.
 \mymark "Chorus" #65
     "-sage|!mark=Chorus"8 "in"4 "a" "bot" "-tle,"8
-    \skip4. "yeah|!bg=img=../yeah.png"4. ">Mes|!bg="4
+    \skip4. "yeah|!bg=img=../yeah.png"4 "!bg="8 ">Mes" \skip8
     "-"1
     "-"1
     "-sage"8 "in"4 "a" "bot" "-tle,"8
-    \skip4. "yeah|!bg=img=../yeah.png"4. ">Mes|!bg="4
+    \skip4. "yeah|!bg=img=../yeah.png"4 "!bg="8 "Mes" \skip8
     "-"1
     "-"1
     "-sage"8 "in"4 "a" "bot" "-tle,"8
-    \skip4. "yeah|!bg=img=../yeah.png"4. ">Mes|!bg="4
+    \skip4. "yeah|!bg=img=../yeah.png"4 "!bg="8 ">Mes" \skip8
     "-"1
     "-"1
     "-sage"8 "in"4 "a" "bot" "-tle,"8
-    \skip4. "yeah|!bg=img=../yeah.png"4. "Walked|!bg="4
+    \skip4. "yeah|!bg=img=../yeah.png"4 "!bg="8 "Walked" \skip8
     "-"2 \skip8 ">@"4.
     \skip8 "@"2 "@"4.
     \skip8 "@"2 "@|!bg=4"4.
@@ -115,23 +115,23 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "my"4 "I" "hope"8 "-"4
     "-"8 ">that"4 "some" "-one" "gets"8
     \skip8 "my"4 "I" "hope"8 "-"4
-    "-"8 "that"4 "some" "-one" "gets"8
-    \skip8 "my"4 ">Mes" "-sage"4.
+    "-"8 ">that"4 "some" "-one" "gets"8
+    \skip8 "my"4 "Mes" "-sage"4.
 \mymark "Chorus" #109
     "in|!mark=Chorus"8 "a"4 "bot" "-tle," "yeah|!bg=img=../yeah.png"8
-    \skip4. "Mes|!bg="4. "-sage"4
+    \skip8 "!bg="4 "Mes"4. "-sage"4
     "-"1
     "-"1
     ">in"8 "a"4 "bot" "-tle," "yeah|!bg=img=../yeah.png"8
-    \skip4. "Mes|!bg="4. "-sage"4
+    \skip8 "!bg="4 "Mes"4. "-sage"4
     "-"1
     "-"1
     ">in"8 "a"4 "bot" "-tle," "yeah|!bg=img=../yeah.png"8
-    \skip4. "Mes|!bg="4. "-sage"4
+    \skip8 "!bg="4 "Mes"4. "-sage"4
     "-"1
     "-"1
     ">in"8 "a"4 "bot" "-tle," "yeah|!bg=img=../yeah.png"8
-    \skip4. "I'm|!bg="4. "send"4
+    \skip8 "!bg="4 "I'm"4. "send"4
     "-"1
     "-"1
 \mymark "Outro" #125
@@ -143,7 +143,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "-"1
     "-"1
     "-"2. \skip8 "-ing"8
-    "out"4 "an"8 "S."4 ">O." "-"8
+    "out"4 "an"8 "S."4 "O." "-"8
     "-"8 ">S." "I'm" "send"4. "-"8 "-ing"
     "out"4 "an"8 "S."4 "O." "-"8
     "-"8 ">S." "I'm" "send"4. "-"8 "-ing"

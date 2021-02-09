@@ -136,17 +136,23 @@ class Gpfile extends Gpinput{
 	}
     }
     static class Event implements Comparable<Event>,Cloneable{
+	final String sortString;
 	Rational time;
 	Rational duration;
 	boolean tie_rhs;
 	boolean tie_lhs;
-	Event(Rational time,Rational duration){
+	Event(Rational time,Rational duration,String sortString){
 	    this.time = time;
 	    this.duration = duration;
+	    this.sortString = sortString;
 	}
 	@Override public int compareTo(Event e){
 	    int i=time.compareTo(e.time);
-	    return i==0?duration.compareTo(e.duration):i;
+	    if ((i=time.compareTo(e.time))!=0)
+		return i;
+	    if ((i=duration.compareTo(e.duration))!=0)
+		return i;
+	    return e.sortString.compareTo(sortString);
 	}
 	@Override public Event clone(){
 	    try{
@@ -159,7 +165,7 @@ class Gpfile extends Gpinput{
     static class ChordEvent extends Event{
 	final Chord chord;
 	ChordEvent(Rational time,Rational duration,Chord chord){
-	    super(time,duration);
+	    super(time,duration,chord.name);
 	    this.chord = chord;
 	}
     }
@@ -169,7 +175,7 @@ class Gpfile extends Gpinput{
 	boolean hyphen_rhs;
 	final String which;
 	LyricEvent(Rational time,Rational duration,String lyric,boolean hyphen_lhs,boolean hyphen_rhs,String which){
-	    super(time,duration);
+	    super(time,duration,lyric);
 	    this.lyric = lyric;
 	    this.hyphen_lhs = hyphen_lhs;
 	    this.hyphen_rhs = hyphen_rhs;
@@ -179,7 +185,7 @@ class Gpfile extends Gpinput{
     static class DotextEvent extends Event{
 	final String dotext;
 	DotextEvent(Rational time,Rational duration,String dotext){
-	    super(time,duration);
+	    super(time,duration,dotext);
 	    this.dotext = dotext;
 	}
     }
@@ -202,16 +208,13 @@ class Gpfile extends Gpinput{
 	BeatEffects beatEffects;
 	GraceNote graceNote;
 	Slide slide;
-	NoteEvent(Track track,Rational time,Rational duration){
-	    super(time,duration);
+	NoteEvent(Track track,Rational time,Rational duration,int string,int voice){
+	    super(time,duration,voice+" "+string);
 	    this.track = track;
+	    this.string = string;
 	}
 	final int getNote(){
 	    return track.tuning[string]+fret;
-	}
-	@Override public int compareTo(Event e){
-	    int i=super.compareTo(e);
-	    return i==0&&e instanceof NoteEvent?Integer.compare(((NoteEvent)e).string,string):i;
 	}
     }
     class Slide{

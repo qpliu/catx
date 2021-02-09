@@ -141,16 +141,16 @@ midiOneA = {
     r1 |
     r2 <b e'> |
 \mymark "Bridge" #130
-    fis''''16 r fis'''' cis'''' r <cis'''' d''''> ais''' <dis''' d''''> <f''' ais'''> dis''' \tuplet 3/2 { <f'''~ c''''>16 <f''' ais'''~>32 ais''' c''''16 c'''' ais'''32~ <c''~ ais'''>\glissando <c'' c''''>16\glissando } ais'16\glissando <c'' gis'>\glissando |
-    <g' ais'~>32\glissando <ais' f'~>\glissando <gis' f'>16 <g' a'~>32\glissando <a' f'~> f'16 a' r2 r8. |
+    fis''''16 r fis'''' cis'''' r <cis'''' d''''> ais''' <d'''' dis'''> <ais''' f'''> dis''' \tuplet 3/2 { <f'''~ c''''>16 <f''' ais'''~>32 ais''' c''''16 c'''' ais'''32~ <ais''' c''~>\glissando <c'''' c''>16\glissando } ais'16\glissando <c'' gis'>\glissando |
+    <ais'~ g'>32\glissando <ais' f'~>\glissando <gis' f'>16 <g' a'~>32\glissando <f'~ a'> f'16 a' r2 r8. |
     r1 |
     r1 |
-    fis''''16 r fis'''' cis'''' r <cis'''' d''''> ais''' <dis''' d''''> <f''' ais'''> dis''' \tuplet 3/2 { <f'''~ c''''>16 <f''' ais'''~>32 ais''' c''''16 c'''' ais'''32~ <c''~ ais'''>\glissando <c'' c''''>16\glissando } ais'16\glissando <c'' gis'>\glissando |
-    <g' ais'~>32\glissando <ais' f'~>\glissando <f' gis'~> gis' <g' a'~>\glissando <a' f'~> f' r a'16 r2 r8. |
-    fis''''16 r fis'''' cis'''' r <d'''' cis''''> ais''' <dis''' d''''> <f''' ais'''> dis''' \tuplet 3/2 { <f'''~ c''''>16 <f''' ais'''~>32 ais''' c''''16 c'''' ais'''32~ <c''~ ais'''>\glissando <c'' c''''>16\glissando } ais'16\glissando <gis' c''>\glissando |
-    <g' ais'~>32\glissando <ais' f'~>\glissando <f' gis'~> gis' <g' a'~>\glissando <a' f'~> f' r a'16 r2 r8. |
-    fis''''16 r fis'''' cis'''' r <d'''' cis''''> ais''' <dis''' d''''> <f''' ais'''> dis''' \tuplet 3/2 { <f'''~ c''''>16 <f''' ais'''~>32 ais''' c''''16 c'''' ais'''32~ <c''~ ais'''>\glissando <c'' c''''>16\glissando } ais'16\glissando <gis' c''>\glissando |
-    <g' ais'~>32\glissando <ais' f'~>\glissando <f' gis'~> gis' <g' a'~>\glissando <a' f'~> f' r a'16 r2 r8. |
+    fis''''16 r fis'''' cis'''' r <cis'''' d''''> ais''' <d'''' dis'''> <ais''' f'''> dis''' \tuplet 3/2 { <f'''~ c''''>16 <f''' ais'''~>32 ais''' c''''16 c'''' ais'''32~ <ais''' c''~>\glissando <c'''' c''>16\glissando } ais'16\glissando <c'' gis'>\glissando |
+    <ais'~ g'>32\glissando <ais' f'~>\glissando <gis'~ f'> gis' <g' a'~>\glissando <f'~ a'> f' r a'16 r2 r8. |
+    fis''''16 r fis'''' cis'''' r <cis'''' d''''> ais''' <d'''' dis'''> <ais''' f'''> dis''' \tuplet 3/2 { <f'''~ c''''>16 <f''' ais'''~>32 ais''' c''''16 c'''' ais'''32~ <ais''' c''~>\glissando <c'''' c''>16\glissando } ais'16\glissando <c'' gis'>\glissando |
+    <ais'~ g'>32\glissando <ais' f'~>\glissando <gis'~ f'> gis' <g' a'~>\glissando <f'~ a'> f' r a'16 r2 r8. |
+    fis''''16 r fis'''' cis'''' r <cis'''' d''''> ais''' <d'''' dis'''> <ais''' f'''> dis''' \tuplet 3/2 { <f'''~ c''''>16 <f''' ais'''~>32 ais''' c''''16 c'''' ais'''32~ <ais''' c''~>\glissando <c'''' c''>16\glissando } ais'16\glissando <c'' gis'>\glissando |
+    <ais'~ g'>32\glissando <ais' f'~>\glissando <gis'~ f'> gis' <g' a'~>\glissando <f'~ a'> f' r a'16 r2 r8. |
 \mymark "Guitar Solo" #140
     <dis' dis''>8 r4 <dis' dis''>8 r <f'' f'> <g' g''> <f'' f'> |
     r8 <ais' ais''> r4 <gis' gis''>8 r <ais' ais''> r |

@@ -78,7 +78,7 @@ guitarBDotext = {
     \skip1 |
     \skip2. \tuplet 3/2 { `slide`4 \skip8 } |
     \skip1 |
-    \skip2 \skip8 `slide`8~ <`.(d'')bend0:0:15:100:30:100:45:0:60:0` `slide`>8. \skip16 |
+    \skip2 \skip8 `slide`8~ <`slide` `.(d'')bend0:0:15:100:30:100:45:0:60:0`>8. \skip16 |
     `.(d'')bend0:0:15:100:60:100`4. \skip4 `.(d'')bend0:100:60:100`4~ `.(d'')bend0:100:60:100`16 \skip16 |
     \tuplet 3/2 { `.(d'')bend0:0:15:50:60:50`2 \skip2 \skip8 } `.(d'')bend0:100:60:100`8. \skip16 |
     `slide`4. \skip16. `slide`4.~ `slide`32 \skip8 |

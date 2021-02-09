@@ -69,14 +69,14 @@ guitar = {
     r1 |
     r1 |
 \mymark "Interlude" #64
-    <e'''\1 e''\1>16( <f''\1 f'''\1> <e''\1 e'''\1> <f'''\1 f''\1> \tuplet 3/2 { <e''\1 e'''\1>16 <f''\1 f'''\1> <e''\1 e'''\1> } <f'''\1 f''\1>16 <e''\1 e'''\1>) <c'\3 c''\2 c'''\2>8 <ais\3 ais'\2 ais''\2> <gis\4 gis''\3 gis'\3> <g\4 g'\3 g''\3> |
-    <f\4 f'\3 f''\3>8 <gis\3 gis'\2 gis''\2> <c'\3 c'''\2 c''\2> <f\4 f'\3 f''\3>16( <dis\4 dis'\3 dis''\3>) <d\4 d'\3 d''\3>8 <f\4 f''\2 f'\2> <ais\3 ais''\1 ais'\1> <d\4 d'\3 d''\3> |
-    <dis\5 dis'\3 dis''\3>8 <g\4 g'\2 g''\2> <ais\4 ais'\2 ais''\2> <dis\5 dis'\3 dis''\3>16( <d\5 d'\3 d''\3>) <c\5 c'\3 c''\3>8 <dis\4 dis''\2 dis'\2> <gis\3 gis''\1 gis'\1> <g\3 g'\1 g''\1> |
-    <gis\3 gis'\1 gis''\1>8 \tuplet 3/2 { <g\3 g'\1 g''\1>16( <gis\3 gis'\1 gis''\1> <g\3 g'\1 g''\1>) } <f\4 f''\2 f'\2>8 <dis\4 dis'\2 dis''\2> <d\4 d'\2 d''\2>16( <dis\4 dis'\2 dis''\2> <f\4 f''\2 f'\2> <dis\4 dis''\2 dis'\2>) <d\4 d'\2 d''\2>8 <c\5 c'\3 c''\3> |
-    <b,\5 b\3 b'\3>8\glissando <gis,\6 gis\4 gis'\4> \tuplet 3/2 { <g,\6 g\4 g'\4>16( <gis,\6 gis'\4 gis\4> <g,\6 g'\4 g\4>) } <f,\6 f'\4 f\4>8 <dis'\5 dis\5>2 |
-    <\parenthesize f,\6 \parenthesize f\5 \parenthesize f'\5>8 <gis,\6 gis'\4 gis\4> <c\5 c''\3 c'\3> <f\4 f'\2 f''\2>16( <dis\4 dis''\2 dis'\2>) <\parenthesize d\5 \parenthesize d'\5>8 <ais,\6 ais\4 ais'\4> <d\6 d''\4 d'\4>\glissando <f\5 f''\3 f'\3> |
-    <\parenthesize dis\5 \parenthesize dis'\5>8 <gis,\6 gis\4 gis'\4> <ais,\5 ais'\3 ais\3> <dis\4 dis'\2 dis''\2>16( <d\4 d'\2 d''\2>) <gis,\6 gis\4 gis'\3>8 <c\5 c'\3 c''\2> <dis\4 dis'\2 dis''\1> <c\5 c'\3 c''\2> |
-    \tuplet 3/2 { f8\4 <gis\4 f\4> <gis\4 b\3> <d'\3 b\3> <d'\3 f'\2> <gis'\2 f'\2> <d'\3 gis'\2> <d'\3 f'\2> <gis'\2 f'\2> } <gis'\2~ b'\1>16( \tuplet 3/2 { <gis'\2 d''\1~>32 <d''\1 b'\1~>16 <b'\1 f''\1~>32 } <d''\1 f''\1~>16 \tuplet 3/2 { <f''\1 f''\1>16) } |
+    <e'''\1 e''\1>16( <f'''\1 f''\1> <e'''\1 e''\1> <f'''\1 f''\1> \tuplet 3/2 { <e'''\1 e''\1>16 <f'''\1 f''\1> <e'''\1 e''\1> } <f'''\1 f''\1>16 <e'''\1 e''\1>) <c'\3 c'''\2 c''\2>8 <ais\3 ais''\2 ais'\2> <gis\4 gis''\3 gis'\3> <g\4 g''\3 g'\3> |
+    <f\4 f''\3 f'\3>8 <gis\3 gis''\2 gis'\2> <c'\3 c'''\2 c''\2> <f\4 f''\3 f'\3>16( <dis\4 dis''\3 dis'\3>) <d\4 d''\3 d'\3>8 <f\4 f''\2 f'\2> <ais\3 ais''\1 ais'\1> <d\4 d''\3 d'\3> |
+    <dis\5 dis''\3 dis'\3>8 <g\4 g''\2 g'\2> <ais\4 ais''\2 ais'\2> <dis\5 dis''\3 dis'\3>16( <d\5 d''\3 d'\3>) <c\5 c''\3 c'\3>8 <dis\4 dis''\2 dis'\2> <gis\3 gis''\1 gis'\1> <g\3 g''\1 g'\1> |
+    <gis\3 gis''\1 gis'\1>8 \tuplet 3/2 { <g\3 g''\1 g'\1>16( <gis\3 gis''\1 gis'\1> <g\3 g''\1 g'\1>) } <f\4 f''\2 f'\2>8 <dis\4 dis''\2 dis'\2> <d\4 d''\2 d'\2>16( <dis\4 dis''\2 dis'\2> <f\4 f''\2 f'\2> <dis\4 dis''\2 dis'\2>) <d\4 d''\2 d'\2>8 <c\5 c''\3 c'\3> |
+    <b,\5 b'\3 b\3>8\glissando <gis,\6 gis'\4 gis\4> \tuplet 3/2 { <g,\6 g'\4 g\4>16( <gis,\6 gis'\4 gis\4> <g,\6 g'\4 g\4>) } <f,\6 f'\4 f\4>8 <dis'\5 dis\5>2 |
+    <\parenthesize f,\6 \parenthesize f'\5 \parenthesize f\5>8 <gis,\6 gis'\4 gis\4> <c\5 c''\3 c'\3> <f\4 f''\2 f'\2>16( <dis\4 dis''\2 dis'\2>) <\parenthesize d'\5 \parenthesize d\5>8 <ais,\6 ais'\4 ais\4> <d\6 d''\4 d'\4>\glissando <f\5 f''\3 f'\3> |
+    <\parenthesize dis'\5 \parenthesize dis\5>8 <gis,\6 gis'\4 gis\4> <ais,\5 ais'\3 ais\3> <dis\4 dis''\2 dis'\2>16( <d\4 d''\2 d'\2>) <gis,\6 gis'\3 gis\4>8 <c\5 c''\2 c'\3> <dis\4 dis''\1 dis'\2> <c\5 c''\2 c'\3> |
+    \tuplet 3/2 { f8\4 <f\4 gis\4> <gis\4 b\3> <b\3 d'\3> <d'\3 f'\2> <f'\2 gis'\2> <gis'\2 d'\3> <d'\3 f'\2> <f'\2 gis'\2> } <gis'\2~ b'\1>16( \tuplet 3/2 { <gis'\2 d''\1~>32 <b'\1~ d''\1>16 <b'\1 f''\1~>32 } <d''\1 f''\1~>16 \tuplet 3/2 { <f''\1 f''\1>16) } |
     dis''8\1\glissando d''\1( dis''16\1 d''\1 cis''8\1) d''2\1 |
 \mymark "Verse 2A" #73
     r1 |

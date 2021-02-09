@@ -46,9 +46,9 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "-to,"4. "-"8 "an" "al" "-bi"
     \skip8 "-no,"4. "-"8 "a" "mos" "-qui"
     \skip8 "-to,"4. "-"8 "my" "li" "-bi"
-    \skip8 "-do,"4. "-"4 ">yeah.|!bg=img=../yeah.png"
+    \skip8 "-do,"4. "-"4 "yeah.|!bg=img=../yeah.png"
 \mymark "Bridge" #40
-    "!mark=Bridge|-"2. ">Hey.|!bg="4
+    "!mark=Bridge|!bg=|-"4 \skip2 ">Hey."4
     "-"1
     "-"2. ">Yay."4
     "-"2. ">@"4
@@ -86,9 +86,9 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip8 "-to,"4. "-"8 "an" "al" "-bi"
     \skip8 "-no,"4. "-"8 "a" "mos" "-qui"
     \skip8 "-to,"4. "-"8 "my" "li" "-bi"
-    \skip8 "-do,"4. "-"4 ">yeah.|!bg=img=../yeah.png"
+    \skip8 "-do,"4. "-"4 "yeah.|!bg=img=../yeah.png"
 \mymark "Bridge" #76
-    "!mark=Bridge|-"2. ">Hey.|!bg="4
+    "!mark=Bridge|!bg=|-"4 \skip2 ">Hey."4
     "-"1
     "-"2. ">Yay."4
     "-"2. ">@"4
@@ -116,7 +116,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     \skip4 "@|!bg=2"2 "@|!bg=1"4
     \skip4 "And|!bg="8 "I"4 "for" "-get"8
     \skip4 "just"8 "why"4 "-"8 "I" "taste,"
-    \skip4 "oh"8 "yeah,|!bg=img=../yeah.png"4. ">I|!bg="8 "guess"
+    \skip4 "oh"8 "yeah,|!bg=img=../yeah.png"4 "!bg="8 ">I" "guess"
     \skip4 "it"8 "makes"4 "-"8 "me" "smile."
     \skip4 ">I"8 "found"4 "it" "hard,"8
     \skip4 "it's"8 "hard"4 "-"8 "to" "find,"
