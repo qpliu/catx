@@ -237,7 +237,7 @@ class Snakes{
 		    span.style.backgroundColor = "#0f0";
 		    span.style.color = "#000";
 		    span.style.left = (x-this.canvasWidth+i*this.canvasWidth)+"px";
-		    span.style.top = "0px";
+		    span.style.bottom = "100%";
 		    span.innerHTML = e.what;
 		    div[i].appendChild(span);
 		}
