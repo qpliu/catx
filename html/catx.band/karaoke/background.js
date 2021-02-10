@@ -39,7 +39,7 @@ class Background{
 	if (!this.enabled)
 	    return;
 	if (this.repeat && now>=this.startTime+this.songLength){
-	    this.startTime += Math.floor((now-this.startTime)/this.repeat)*this.repeat;
+	    this.startTime += Math.floor((now-this.songLength-this.startTime)/this.repeat+1)*this.repeat;
 	    this.index = 0;
 	}
 	for (; this.index<this.events.length; this.index++){

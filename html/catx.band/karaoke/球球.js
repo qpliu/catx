@@ -90,7 +90,7 @@ class 球球{
 		this.lineEvents.push([t,"idb"+this.id_counter]);
 		this.id_counter++;
 		if (this.repeat && this.lyricIndex==this.lyricEvents.length-1){
-		    this.repeatTime += Math.max(Math.ceil((now-this.startTime-this.repeatTime-e.t)/this.repeat),1)*this.repeat;
+		    this.repeatTime += Math.max(Math.floor((now-this.startTime-this.repeatTime-e.t)/this.repeat+1),1)*this.repeat;
 		    this.lyricIndex = 0;
 		    break;
 		}

@@ -156,14 +156,14 @@ class Snakes{
 	let t0=Math.floor(this.canvasTime-this.startTime-settings.snakeTime/2+x*settings.snakeTime/this.canvasWidth);
 	let t1=Math.floor(this.canvasTime-this.startTime-settings.snakeTime/2+(x+1)*settings.snakeTime/this.canvasWidth);
 	if (this.repeat && t1>=this.songLength){
-	    const tt=Math.ceil((t1-this.songLength)/this.repeat)*this.repeat;
+	    const tt=Math.floor((t1-this.songLength)/this.repeat+1)*this.repeat;
 	    t0 -= tt;
 	    t1 -= tt;
 	}
 	let lt0=Math.floor(this.canvasTime-this.startTime-3*settings.snakeTime/2+x*settings.snakeTime/this.canvasWidth);
 	let lt1=Math.floor(this.canvasTime-this.startTime-3*settings.snakeTime/2+(x+1)*settings.snakeTime/this.canvasWidth);
 	if (this.repeat && lt1>=this.songLength){
-	    const tt=Math.ceil((lt1-this.songLength)/this.repeat)*this.repeat;
+	    const tt=Math.floor((lt1-this.songLength)/this.repeat+1)*this.repeat;
 	    lt0 -= tt;
 	    lt1 -= tt;
 	}

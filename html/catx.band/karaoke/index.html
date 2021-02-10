@@ -134,8 +134,8 @@
 		    const bendEvents=[];
 		    for (let ch=0; ch<16; ch++){
 			for (let n=0; n<128; n++){
-			    noteOn[ch*128+n] = new Set();
-			    noteOff[ch*128+n] = new Set();
+			    noteOn[ch*128+n] = [];
+			    noteOff[ch*128+n] = [];
 			}
 			bendEvents[ch] = [];
 		    }
@@ -161,19 +161,19 @@
 			    snakes.addKeysignatureEvent(e);
 			if ("bend" in e)
 			    bendEvents[e.ch].push(e);
-			if ("on" in e && !noteOff[e.ch*128+e.on].delete(e.t))
-			    noteOn[e.ch*128+e.on].add(e.t);
-			if ("off" in e && !noteOn[e.ch*128+e.off].delete(e.t))
-			    noteOff[e.ch*128+e.off].add(e.t);
+			if ("on" in e)
+			    noteOn[e.ch*128+e.on].push(e.t);
+			if ("off" in e)
+			    noteOff[e.ch*128+e.off].push(e.t);
 		    }
 		    const allNotes=[];
 		    for (let ch=0; ch<16; ch++)
 			for (let n=0; n<128; n++){
-			    const on=Array.from(noteOn[ch*128+n]).sort((x,y)=>x-y);
-			    const off=Array.from(noteOff[ch*128+n]).sort((x,y)=>x-y);
+			    const on=noteOn[ch*128+n].sort((x,y)=>x-y);
+			    const off=noteOff[ch*128+n].sort((x,y)=>x-y);
 			    while (on.length || off.length){
 				const time=on.length && (!off.length || on[0]<off[0])?on.shift():json.countinLength;
-				const end=off.shift()||json.length
+				const end=off.shift()||json.length;
 				const bendLow=binarySearch(bendEvents[ch],(x)=>x.t<time);
 				const bendHigh=binarySearch(bendEvents[ch],(x)=>x.t<end);
 				allNotes.push({t:time,duration:end-time,note:n,ch:ch,bends:bendEvents[ch].slice(bendLow,bendHigh)});
