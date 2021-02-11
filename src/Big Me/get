@@ -14,6 +14,7 @@ track 0 \
 track 0 \
     preset susan \
     use-bend-end \
+    layout-extra '\clef "treble_8"' \
     output-lilypond \
 track 2 \
     preset peter \
