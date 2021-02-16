@@ -7,13 +7,11 @@ markup-extra 0 '\key d \major' \
 modified-filename drs \
 track 0 \
     preset kav \
-    transpose 12 \
     output-lilypond \
     output-lyrics \
     output-karaoke \
 track 0 \
     preset susan \
-    transpose 12 \
     output-lilypond \
 track 1 \
     preset peter \

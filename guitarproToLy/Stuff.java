@@ -3,6 +3,8 @@ import java.util.*;
 
 final class Stuff{
     static String midi2ly(int key,Arg arg){
+	if (key<0 || key>=128)
+	    throw new RuntimeException("Weird key "+key);
 	key += arg.transpose;
 	String ly=arg.scale[key%12];
 	int next=(ly.charAt(0)-'a'+5)%7-3;
