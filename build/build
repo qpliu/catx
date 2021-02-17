@@ -57,14 +57,6 @@ if test -x run_before
 then
     ./run_before
 fi
-for a in *.mp3
-do
-    if test -f "$a" -a "$HAVE_FFMPEG" = 0
-    then
-	b=`basename "$a" .mp3`
-	ffmpeg </dev/null -loglevel 16 -i "$a" "$b".wav
-    fi
-done
 echo "name=$name" >../bin/out.aarin
 sed <music -n -e 's/^% ROBOT \(.*\)$/\1/p' >>../bin/out.aarin
 MERGEMIDI=`sed <music -n -e 's/^% MERGEMIDI \(.*\)$/\1/p'`
@@ -94,18 +86,16 @@ EOF
 	    cd ../src
 	done
 	java -cp ../java MergeMidi $merge >out.midi
-	MAKE_MP3=0
-	if type timidity ffmpeg >/dev/null 2>&1
+	if type timidity ffmpeg >/dev/null 2>&1 && ! grep -q '^% NO_MP3' music
 	then
-	    if grep -q '^% NO_MP3' music
-	    then
-		:
-	    else
-		MAKE_MP3=1
-	    fi
-	fi
-        if test "$MAKE_MP3" '!=' 0
-	then
+	    for a in *.mp3
+	    do
+		if test -f "$a"
+		then
+		    b=`basename "$a" .mp3`
+		    ffmpeg </dev/null -loglevel 16 -i "$a" "$b".wav
+		fi
+	    done
 	    TIMIDITY_EXTRA_CFG="-c timidity_extra_silence.cfg"
 	    if test -f timidity_extra.cfg
 	    then
@@ -117,7 +107,7 @@ EOF
 	    then
 		cp out.mp3 "/share/music/mp3/$name.mp3"
 	    fi
-        fi
+	fi
 	cp out.midi "../bin/$name.midi"
 	if test -d /share/music
 	then
