@@ -5,7 +5,7 @@ import random,re
 
 DIVISION=384
 
-N_MEASURES=100
+N_MEASURES=1000
 
 all_drum_filenames=(
 # ls ../*/*drs* ../*/*drum*|sort|sed -e 's/^\(.*\)$/    "\1",/'
@@ -16,11 +16,11 @@ all_drum_filenames=(
     "../Beat It/generated-drscolors",
     "../Big Me/drscolors",
 #    "../Black Magic Woman/drum",
-    "../Blitzkrieg Bop/drscolors",
+    "../Blitzkrieg Bop/generated-drscolors",
     "../Buddy Holly/drs",
 #    "../Butterfly/drumscolors",
     "../Check Yes Juliet/drumscolors",
-    "../Come As You Are/drscolors",
+    "../Come As You Are/generated-drscolors",
 #    "../Cronies/drums",
 #    "../Cronies/generated-drums",
 #    "../Cult Of Personality/drums",
@@ -37,7 +37,7 @@ all_drum_filenames=(
     "../Have You Ever Seen The Rain/drscolors",
     "../Here Comes Your Man/drscolors",
 #    "../Hotel California/generated-drscolors",
-    "../I Love Rock'N'Roll/drscolors",
+    "../I Love Rock'N'Roll/generated-drscolors",
     "../I Won't Back Down/drscolors",
 #    "../In The Air Tonight/drscolors",
 #    "../Jungle Boogie/drscolors",
@@ -59,7 +59,7 @@ all_drum_filenames=(
     "../Message In Lipstick/drumscolors",
 #    "../Murder City/drums",
 #    "../Murder City/excerptdrums",
-    "../Oh Pretty Woman/drs",
+    "../Oh Pretty Woman/generated-drscolors",
     "../Our Lips Are Sealed/drumscolors",
     "../Peter's Song/drs",
     "../Rockabye Baby/drumscolors",

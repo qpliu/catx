@@ -1,4 +1,4 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-WorstAge=9223372036854775807
+WorstAge=2147483648
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-   2000 measure=gg
+   1000 measure=kav

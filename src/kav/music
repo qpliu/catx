@@ -1,0 +1,19 @@
+% BIN midi kav
+% ROBOT enabled=true
+% NO_MP3
+
+\header {
+    title = "kav"
+}
+
+\include "generated-random"
+
+layoutmusic = <<
+    \tag #'(kavPart) \new Staff \randomPart
+>>
+
+midimusic = <<
+    \tag #'(midiKaraoke) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } \randomPart
+>>

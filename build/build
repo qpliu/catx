@@ -1,8 +1,6 @@
 #!/bin/sh
 exec 2>&1
 LILYPOND_VERSION="2.20.0"
-HAVE_TIMIDITY=`type timidity >/dev/null 2>&1;echo $?`
-HAVE_FFMPEG=`type ffmpeg >/dev/null 2>&1;echo $?`
 set -e
 pwd=`pwd`
 name=`basename "$pwd"`
@@ -96,7 +94,17 @@ EOF
 	    cd ../src
 	done
 	java -cp ../java MergeMidi $merge >out.midi
-        if test "$HAVE_TIMIDITY" = 0 -a "$HAVE_FFMPEG" = 0
+	MAKE_MP3=0
+	if type timidity ffmpeg >/dev/null 2>&1
+	then
+	    if grep -q '^% NO_MP3' music
+	    then
+		:
+	    else
+		MAKE_MP3=1
+	    fi
+	fi
+        if test "$MAKE_MP3" '!=' 0
 	then
 	    TIMIDITY_EXTRA_CFG="-c timidity_extra_silence.cfg"
 	    if test -f timidity_extra.cfg
@@ -105,14 +113,17 @@ EOF
 	    fi
 	    timidity $TIMIDITY_EXTRA_CFG -OF -o out.flac out.midi
 	    ffmpeg </dev/null -loglevel 16 -i out.flac out.mp3
-	    cp out.midi "../bin/$name.midi"
 	    if test -d /share/music
 	    then
 		cp out.mp3 "/share/music/mp3/$name.mp3"
-		cp out.midi "/share/music/midi/$name.midi"
-		echo "midi_file=../midi/$name.midi" >>../bin/out.aarin
 	    fi
         fi
+	cp out.midi "../bin/$name.midi"
+	if test -d /share/music
+	then
+	    cp out.midi "/share/music/midi/$name.midi"
+	    echo "midi_file=../midi/$name.midi" >>../bin/out.aarin
+	fi
     else
 	doiftabscolorsdotext "$part"
 	part1=`echo $part|sed 's/1/One/g;s/2/Two/g;s/3/Three/g;s/4/Four/g;s/5/Five/g;s/6/Six/g;s/7/Seven/g;s/8/Eight/g'`
