@@ -200,8 +200,8 @@ class Gpfile extends Gpinput{
 	boolean is_staccato;
 	boolean is_palm_mute;
 	boolean is_vibrato;
-	int voice;
-	int string;
+	final int voice;
+	final int string;
 	int fret;
 	int tremoloPicking;
 	Bend bend;
@@ -212,6 +212,7 @@ class Gpfile extends Gpinput{
 	    super(time,duration,voice+" "+string);
 	    this.track = track;
 	    this.string = string;
+	    this.voice = voice;
 	}
 	final int getNote(){
 	    return track.tuning[string]+fret;

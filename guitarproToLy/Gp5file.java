@@ -310,7 +310,6 @@ final class Gp5file extends Gpfile{
 		for (int string=0; string<7; string++)
 		    if ((stringBits&64>>string)!=0){
 			NoteEvent e=new NoteEvent(track,time,duration,string,voice);
-			e.voice = voice;
 			e.beatEffects = beatEffects;
 			gotGrace |= e.graceNote!=null;
 			readNoteBits(e);

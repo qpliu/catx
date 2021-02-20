@@ -1,0 +1,79 @@
+\header {
+}
+
+\include "generated-markup"
+\include "generated-drs"
+\include "generated-vocals"
+\include "generated-bass"
+\include "generated-guitar"
+\include "generated-guitarA"
+
+layoutmusic = <<
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
+        instrumentName = \markup { \rotate #90 "Drums" }
+        shortInstrumentName = \markup { \rotate #90 "Drs" }
+        drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+        \markupStuff
+        \drs
+    >>
+    \tag #'(allPart kavPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Vocals" }
+        shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+        \markupStuff
+        \vocals
+    >>
+    \tag #'(allPart bassPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Bass" }
+        shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } <<
+        \markupStuff
+        \bass
+        \clef "bass_8"
+    >>
+    \tag #'(allPart bassPart) \new TabStaff \with {
+        stringTunings = \stringTuning <e,, a,, d, g,>
+    } \bass
+    \tag #'(allPart peterPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Guitar" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr" }
+    } <<
+        \markupStuff
+        \guitar
+        \clef "treble_8"
+    >>
+    \tag #'(allPart peterPart) \new TabStaff \with {
+        stringTunings = \stringTuning <e, a, d g b e'>
+    } \guitar
+    \tag #'(allPart peterPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Guitar2" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr2" }
+    } <<
+        \markupStuff
+        \guitarA
+        \clef "treble_8"
+    >>
+    \tag #'(allPart peterPart) \new TabStaff \with {
+        stringTunings = \stringTuning <e, a, d g b e'>
+    } \guitarA
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiGg) \new DrumStaff = "generated-drs" \with {
+        drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drs
+    \tag #'(midiKaraoke) \new Staff = "generated-vocals" \with {
+        midiInstrument = #"synth voice"
+    } \vocals
+    \tag #'(midiBass) \new Staff = "generated-bass" \with {
+        midiInstrument = #"acoustic grand"
+    } \bass
+    \tag #'(midiPeter) \new Staff = "generated-guitar" \with {
+        midiInstrument = #"acoustic grand"
+    } \guitar
+    \tag #'(midiPeter) \new Staff = "generated-guitarA" \with {
+        midiInstrument = #"acoustic grand"
+    } \guitarA
+>>

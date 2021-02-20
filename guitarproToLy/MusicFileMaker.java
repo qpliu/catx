@@ -7,8 +7,10 @@ final class MusicFileMaker extends FileMaker{
     }
     void make()throws IOException{
 	indent("\\header {");
-	print("title = "+Stuff.quote(main.gpfile.title));
-	print("composer = "+Stuff.quote(main.gpfile.artist));
+	if (main.gpfile.title!=null)
+	    print("title = "+Stuff.quote(main.gpfile.title));
+	if (main.gpfile.artist!=null)
+	    print("composer = "+Stuff.quote(main.gpfile.artist));
 	unindent("}");
 	print();
 	main.markupFileMaker.printInclude(this);
