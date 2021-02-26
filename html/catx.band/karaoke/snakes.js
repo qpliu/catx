@@ -263,7 +263,7 @@ class Snakes{
 	}
     }
     fixScroll(){
-	if (!this.canvasWidth)
+	if (!this.enabled || !this.canvasWidth)
 	    return;
 	const minScroll=Math.max(this.lastX-(this.canvases.length-2)*this.canvasWidth,2*this.canvasWidth);
 	this.scroll = Math.max(Math.min(this.scroll,this.lastX),minScroll);
@@ -283,6 +283,8 @@ class Snakes{
 	}
     }
     animate(now){
+	if (!this.enabled)
+	    return;
 	const rect=this.staticDiv.getBoundingClientRect();
 	if (this.canvasWidth!=Math.ceil(rect.width) || this.canvasHeight!=Math.ceil(rect.height) || !this.canvasTime){
 	    this.canvasWidth = Math.ceil(rect.width);
