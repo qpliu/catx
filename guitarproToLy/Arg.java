@@ -22,6 +22,7 @@ final class Arg implements Serializable{
     boolean string_numbers;
     Rational shift=Rational.ZERO;
     final Map<String,String>karaoke_lyrics_parameter=new HashMap<String,String>();
+    String prefix="";
     String instrument_name;
     String instrument_short_name;
     String which_lyrics="";
@@ -84,7 +85,7 @@ final class Arg implements Serializable{
 	    instrument_short_name = "Gtr";
 	    string_numbers = true;
 	}else
-	    throw new RuntimeException();
+	    throw new RuntimeException("Bad preset");
     }
     private static void usage(){
 	System.err.println("Usage: java GuitarproToLy [global options] track n1 [track n1 options] track n2 [track n2 options] ... <gpfile");
@@ -110,6 +111,7 @@ final class Arg implements Serializable{
 	System.err.println("[output-karaoke]  Output karaoke.");
 	System.err.println("[output-lilypond]  Output lilypond.");
 	System.err.println("[output-lyrics]  Output lyrics.");
+	System.err.println("[prefix prefix]  Prepend prefix to output filenames.");
 	System.err.println("[preset who]  Use preset settings.");
 	System.err.println("[scale scale]  Specify note spelling.  Something like scale \"c des eisis\"");
 	System.err.println("[shift n/d]  Shift notes right n/d beats.  Use shift -21/5 to shift notes left 4 1/5th beat.");
@@ -176,6 +178,8 @@ final class Arg implements Serializable{
 		arg.output_lilypond = true;
 	    else if (argv[i].equals("output-lyrics"))
 		arg.output_lyrics = true;
+	    else if (argv[i].equals("prefix"))
+		arg.prefix = argv[++i];
 	    else if (argv[i].equals("preset"))
 		arg.setPreset(argv[++i]);
 	    else if (argv[i].equals("scale"))
@@ -207,7 +211,7 @@ final class Arg implements Serializable{
 			a.name += c;
 			break;
 		    }else if (c=='Z')
-			throw new RuntimeException();
+			throw new RuntimeException("Too many "+a.name);
 	    if (a.instrument_name!=null && !usedInstrumentNames.add(a.instrument_name))
 		for (int i=2;; i++)
 		    if (usedInstrumentNames.add(a.instrument_name+i)){

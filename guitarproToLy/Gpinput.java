@@ -8,7 +8,9 @@ class Gpinput{
 	Blob(byte[]b){
 	    this.b = b;
 	}
-	String toByteSizeString()throws IOException{
+	String toByteSizeString(){
+	    if (b.length==0 || b.length<(b[0]&255)+1)
+		throw new RuntimeException("toByteSizeString ArrayIndexOutOfBounds");
 	    return new String(b,1,b[0]&255);
 	}
 	@Override public String toString(){
@@ -34,6 +36,8 @@ class Gpinput{
 	return Short.reverseBytes(is.readShort());
     }
     final Blob readBlob(int size)throws IOException{
+	if (size<0 || size>1024*1024)
+	    throw new RuntimeException("Gpinput Blob bad size");
 	byte[]b=new byte[size];
 	is.readFully(b);
 	return new Blob(b);

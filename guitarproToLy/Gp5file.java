@@ -37,7 +37,7 @@ final class Gp5file extends Gpfile{
 	else if (version.equals("FICHIER GUITAR PRO v5.10"))
 	    this.version = 510;
 	else
-	    throw new IOException("Bad version");
+	    throw new IOException("Bad version "+version);
 	parse();
     }
     void readInfo()throws IOException{
@@ -115,8 +115,14 @@ final class Gp5file extends Gpfile{
 	    Blob directions=readBlob(2*19);
 	    int reverb=readInt();
 	}
-	measures = new Measure[readInt()];
-	tracks = new Track[readInt()];
+	int nmeasures=readInt();
+	int ntracks=readInt();
+	if (nmeasures<0||nmeasures>65536)
+	    throw new RuntimeException("Gp5file Bad number of measures");
+	if (ntracks<0||ntracks>65536)
+	    throw new RuntimeException("Gp5file Bad number of ntracks");
+	measures = new Measure[nmeasures];
+	tracks = new Track[ntracks];
 	Rational time=Rational.ZERO;
 	for (int i=0; i<measures.length; i++){
 	    measures[i] = readMeasure(i);
@@ -291,6 +297,8 @@ final class Gp5file extends Gpfile{
 		    duration = duration.add(duration.divide(2));
 		if ((bits&32)!=0){
 		    int tuplet=readInt();
+		    if (tuplet==0)
+			throw new RuntimeException("Gp5file tuplet==0");
 		    duration = duration.divide(tuplet);
 		    for (; tuplet>1; tuplet>>=1)
 			duration = duration.multiply(2);

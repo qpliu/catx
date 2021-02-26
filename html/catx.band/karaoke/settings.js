@@ -20,6 +20,8 @@ class Settings{
 		"Increase this to make microphone more sensitive.  If you have to yell really loud, try making this bigger."],
 	    ["fftSize","fftSize","8192",Number,
 		"This must be power of 2 between 32 and 32768.  Bigger fftSize increases frequency resolution and decreases time resolution."],
+	    ["Metronome Pattern","metronomePattern","1+",String,"Metronome Pattern"],
+	    ["Metronome Volume","metronomeVolume","0",Number,"Metronome Volume"],
 	];
 	for (const s of this.settings){
 	    let match=document.cookie.match(s[1]+"=([^;]*)");

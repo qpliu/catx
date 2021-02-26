@@ -18,7 +18,7 @@ class FileMaker{
 	    ps = new PrintStream(OutputStream.nullOutputStream());
 	}else{
 	    filename = GENERATED_PREFIX+original_filename;
-	    ps = new PrintStream(new FileOutputStream(filename+suffix));
+	    ps = new PrintStream(new FileOutputStream(main.globalarg.prefix+filename+suffix));
 	}
     }
     void printMeasureStuff(Gpfile.Measure measure){

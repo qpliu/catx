@@ -24,9 +24,32 @@ class Tones{
 	this.songLength = songLength;
 	this.index = 0;
 	this.events = [];
+	this.lastBeat = undefined;
     }
     addEvent(e){
 	this.events.push(e);
+    }
+    addMetronome(now){
+	if (this.lastBeat)
+	    for (let i=0; i<settings.metronomePattern.length; i++){
+		const t=this.lastBeat[0]+(now-this.lastBeat[0])*i/settings.metronomePattern.length;
+		let note;
+		if (settings.metronomePattern[i]=='1')
+		    note = this.lastBeat[1]=='1'?88:86;
+		else if (settings.metronomePattern[i]!='.')
+		    note = 84;
+		else
+		    continue;
+		this.events.push({t:t,duration:30,note:note,bends:[],volume:settings.metronomeVolume});
+	    }
+    }
+    addBeatEvent(time,beat){
+	this.addMetronome(time);
+	this.lastBeat = [time,beat.slice(beat.indexOf(":")+1)];
+    }
+    doneAddingEvents(){
+	this.addMetronome(this.songLength);
+	this.events.sort((a,b)=>a.t-b.t);
     }
     makeBeep(buffer,e,now){
 	let a=0;
@@ -39,7 +62,7 @@ class Tones{
 	for (let t=0; t<array.length; t++){
 	    while (bendIndex<e.bends.length && (e.bends[bendIndex].t-now)*buffer.sampleRate<t*1000)
 		bend = 24/8191*e.bends[bendIndex++].bend;
-	    array[t] = .25*Math.min(1,Math.min(2*t,array.length-t)*ad)*Math.sin(a);
+	    array[t] = e.volume*Math.min(1,Math.min(2*t,array.length-t)*ad)*Math.sin(a);
 	    a += w*Math.exp((e.note+bend-69)*ww);
 	}
     }

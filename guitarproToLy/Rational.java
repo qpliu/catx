@@ -20,7 +20,7 @@ final class Rational implements Comparable<Rational>,Serializable{
     }
     Rational(BigInteger n,BigInteger d){
 	if (d.signum()==0)
-	    throw new RuntimeException();
+	    throw new RuntimeException("Rational/0");
 	if (d.signum()<0){
 	    d = d.negate();
 	    n = n.negate();

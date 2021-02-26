@@ -148,6 +148,7 @@
 				    beatCounter.addEvent(e.t,k.slice(6));
 				    snakes.addBeatEvent(e.t,k.slice(6));
 				    sheets.addBeatEvent(e.t,k.slice(6));
+				    tones.addBeatEvent(e.t,k.slice(6));
 				}else if (k.slice(0,4)=="!bg=")
 				    background.addEvent(e.t,k.slice(4));
 				else if (k.slice(0,6)=="!mark=")
@@ -176,7 +177,7 @@
 				const end=off.shift()||json.length;
 				const bendLow=binarySearch(bendEvents[ch],(x)=>x.t<time);
 				const bendHigh=binarySearch(bendEvents[ch],(x)=>x.t<end);
-				allNotes.push({t:time,duration:end-time,note:n,ch:ch,bends:bendEvents[ch].slice(bendLow,bendHigh)});
+				allNotes.push({t:time,duration:end-time,note:n,ch:ch,bends:bendEvents[ch].slice(bendLow,bendHigh),volume:.25});
 			    }
 			}
 		    allNotes.sort((x,y)=>x.t-y.t);
@@ -184,6 +185,7 @@
 			tones.addEvent(e);
 			snakes.addToneEvent(e);
 		    }
+		    tones.doneAddingEvents();
 		    sheets.doneAddingEvents();
 		    snakes.doneAddingEvents();
 		    requestAnimationFrame(animate);

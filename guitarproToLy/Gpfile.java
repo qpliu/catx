@@ -215,7 +215,7 @@ class Gpfile extends Gpinput{
 	    this.voice = voice;
 	}
 	final int getNote(){
-	    return track.tuning[string]+fret;
+	    return string>=00&&string<track.tuning.length?track.tuning[string]+fret:0;
 	}
     }
     class Slide{
@@ -253,7 +253,10 @@ class Gpfile extends Gpinput{
 	Bend read()throws IOException{
 	    int type=readByte();
 	    int value=readInt();
-	    x = new int[readInt()];
+	    int size=readInt();
+	    if (size<0 || size>1024*1024)
+		throw new RuntimeException("Gpfile Bad bend size");
+	    x = new int[size];
 	    y = new int[x.length];
 	    vibrato = new boolean[x.length];
 	    for (int i=0; i<x.length; i++){
