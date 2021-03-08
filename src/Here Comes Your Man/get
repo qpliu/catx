@@ -12,6 +12,7 @@ track 0 \
     output-karaoke \
 track 0 \
     preset susan \
+    transpose 12 \
     output-lilypond \
 track 1 \
     preset peter \
