@@ -20,6 +20,7 @@ layoutmusic = <<
     } <<
         \markupStuff
         \vocals
+        \clef "treble_8"
     >>
     \tag #'(allPart kavPart) \vocalsLyrics
     \tag #'(allPart susanPart) \new Staff \with {
@@ -28,6 +29,7 @@ layoutmusic = <<
     } <<
         \markupStuff
         \steelpan
+        \clef "treble_8"
     >>
     \tag #'(allPart peterPart) \new Staff \with {
         instrumentName = \markup { \rotate #90 "Guitar" }

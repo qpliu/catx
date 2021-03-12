@@ -28,6 +28,7 @@ layoutmusic = <<
     } <<
         \markupStuff
         \steelpan
+        \clef "treble_8"
     >>
     \tag #'(allPart peterPart) \new Staff \with {
         instrumentName = \markup { \rotate #90 "Guitar" }

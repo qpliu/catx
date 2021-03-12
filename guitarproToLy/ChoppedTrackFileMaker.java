@@ -18,6 +18,7 @@ class ChoppedTrackFileMaker extends TrackFileMaker{
 	return true;
     }
     @Override String makeMeasure(Gpfile.Measure measure,List<Gpfile.Event>measureEvents)throws IOException{
+	Log.debug("ChoppedTrackFileMaker.makeMeasure track=%s measure=%s",track,measure.name);
 	Queue<Gpfile.Event>q=getFilteredEvents(measureEvents);
 	MeasureMaker mm=new MeasureMaker(measure);
 	for (Gpfile.Event e; (e=q.peek())!=null;){

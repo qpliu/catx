@@ -215,7 +215,7 @@ class Gpfile extends Gpinput{
 	    this.voice = voice;
 	}
 	final int getNote(){
-	    return string>=00&&string<track.tuning.length?track.tuning[string]+fret:0;
+	    return string>=00&&string<track.tuning.length?track.tuning[string]+(fret>=0&&fret<100?fret:0):0;
 	}
     }
     class Slide{

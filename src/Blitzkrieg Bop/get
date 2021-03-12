@@ -14,7 +14,7 @@ track 0 \
     output-karaoke \
 track 0 \
     preset susan \
-    transpose 12 \
+    layout-extra '\clef "treble_8"' \
     output-lilypond \
 track 2 \
     preset peter \
