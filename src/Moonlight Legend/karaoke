@@ -30,7 +30,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     moon4. will8 guide the4 way.2 \skip8
     -4 >And4
     once2. a8 -gain,4.
-    -8 it8 leads8. me to8
+    -8 it8 \tuplet 3/2 { leads4 me to }
     you.1
     \skip2 -8 >The8 con -stel
 \mymark "D" #36
@@ -61,7 +61,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     looked4. at8 me that4 day.2 \skip8
     -4 >When4
     I2. met8 you4.
-    -8 the8 ve8. -ry first8
+    -8 the8 \tuplet 3/2 { ve4 -ry first }
     time.1.
     -8 >With8 -in the
 \mymark "D-2" #64
@@ -82,7 +82,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     re4. -main8 a mys4 -tery.2 \skip8
     -4 >Cause4
     once2. a8 -gain,4.
-    -8 it8 leads8. me to8
+    -8 it8 \tuplet 3/2 { leads4 me to }
     you.1.
     -8 >The8 con -stel
 \mymark "D-3" #88

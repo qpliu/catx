@@ -29,7 +29,7 @@ voLyrics = \new Lyrics \lyricmode {
     moon4. will8 guide the4 way.2
     \skip4. And4 |
     once2. a8 -- gain,4.
-    \skip8 it8 leads8. me to8 |
+    \skip8 it8 \tuplet 3/2 { leads4 me to } |
     you.1 |
     \skip2 \skip8 The8 con -- stel -- |
 \mymark "D" #36
@@ -59,7 +59,7 @@ voLyrics = \new Lyrics \lyricmode {
     looked4. at8 me that4 day.2
     \skip4. When4 |
     I2. met8 you4. 
-    \skip8 the8 ve8. -- ry first8 |
+    \skip8 the8 \tuplet 3/2 { ve4 -- ry first } |
     time.1.
     \skip8 With8 -- in the |
 \mymark "D-2" #64
@@ -79,7 +79,7 @@ voLyrics = \new Lyrics \lyricmode {
     re4. -- main8 a mys4 -- tery.2
     \skip4. Cause4 |
     once2. a8 -- gain,4.
-    \skip8 it8 leads8. me to8 |
+    \skip8 it8 \tuplet 3/2 { leads4 me to } |
     you.1.
     \skip8 The8 con -- stel --
 \mymark "D-3" #88

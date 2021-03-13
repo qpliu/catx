@@ -32,7 +32,7 @@ voPart = \new Voice = "vo" { \transpose c c' {
     3-0t4. 4-3t8 1t 3t4 3-0t8~ |
     3-0t2 r4 5-3t |
     3-1t2. 3t8 2-1t~ |
-    2-1t4 r8 1t 1t8. 3-3t 1t8 |
+    2-1t4 r8 1t \tuplet 3/2 { 1t4 3-3t 1t } |
     3-0t1~ |
     3-0t2 r8 6-3t 5-3t 4-1t |
 \mymark "D" #36
@@ -62,7 +62,7 @@ voPart = \new Voice = "vo" { \transpose c c' {
     3-0t4. 4-3t8 1t 3t4 3-0t8~ |
     3-0t2 r4 5-3t |
     3-1t2. 3t8 2-1t~ |
-    2-1t4 r8 1t 1t8. 3-3t 1t8 |
+    2-1t4 r8 1t \tuplet 3/2 { 1t4 3-3t 1t } |
     3-0t1~ |
     3-0t2 r8 6-3t 5-3t 4-1t |
 \mymark "D-2" #64
@@ -83,7 +83,7 @@ voPart = \new Voice = "vo" { \transpose c c' {
     3-0t4. 4-3t8 1t 3t4 3-0t8~ |
     3-0t2 r4 5-3t |
     3-1t2. 3t8 2-1t~ |
-    2-1t4 r8 1t 1t8. 3-3t 1t8 |
+    2-1t4 r8 1t \tuplet 3/2 { 1t4 3-3t 1t } |
     3-0t1~ |
     3-0t2 r8 6-3t 5-3t 4-1t |
 \mymark "D-3" #88
