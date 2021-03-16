@@ -23,7 +23,7 @@ class Settings{
 	    ["Metronome Pattern","metronomePattern","1+",String,"Try something like \"1+\" or \"1.+\" or \"1e+a\"."],
 	    ["Metronome Volume","metronomeVolume","0",Number,"Try something like \".1\"."],
 	    ["Flute Volume","fluteVolume",".25",Number,"Try something like \".25\"."],
-	    ["Cat Opacity","catOpacity",".2",Number,"Use 0 to make cat disappear."],
+	    ["Cat Opacity","catOpacity",".5",Number,"Use 0 to make cat disappear."],
 	];
 	for (const s of this.settings){
 	    let match=document.cookie.match(s[1]+"=([^;]*)");
