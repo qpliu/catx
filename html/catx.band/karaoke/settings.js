@@ -22,6 +22,8 @@ class Settings{
 		"This must be power of 2 between 32 and 32768.  Bigger fftSize increases frequency resolution and decreases time resolution."],
 	    ["Metronome Pattern","metronomePattern","1+",String,"Try something like \"1+\" or \"1.+\" or \"1e+a\"."],
 	    ["Metronome Volume","metronomeVolume","0",Number,"Try something like \".1\"."],
+	    ["Flute Volume","fluteVolume",".25",Number,"Try something like \".25\"."],
+	    ["Cat Opacity","catOpacity",".2",Number,"Use 0 to make cat disappear."],
 	];
 	for (const s of this.settings){
 	    let match=document.cookie.match(s[1]+"=([^;]*)");
