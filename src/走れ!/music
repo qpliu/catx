@@ -1,4 +1,4 @@
-% BIN midi system1 system2
+% BIN midi gg system1 system2
 % MERGEMIDI --fudge-lyrics 144
 
 \header {
@@ -83,7 +83,7 @@ midiDrumPitches.cym = dis % 51
 
 layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     \tag #'systemOnePart \new ChordNames \mychords
-    \tag #'(systemOnePart) \new Staff \with {
+    \tag #'(systemOnePart ggPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vo" }
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
@@ -158,7 +158,7 @@ layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
 	\markupStuff
 	\percPart
     >>
-    \tag #'(systemOnePart) \new DrumStaff \with {
+    \tag #'(systemOnePart ggPart) \new DrumStaff \with {
 	instrumentName = \markup { \rotate #90 "Drs." }
 	shortInstrumentName = \markup { \rotate #90 "Drs." }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
