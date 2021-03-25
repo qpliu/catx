@@ -177,7 +177,7 @@
 				const end=off.shift()||json.length;
 				const bendLow=binarySearch(bendEvents[ch],(x)=>x.t<time);
 				const bendHigh=binarySearch(bendEvents[ch],(x)=>x.t<end);
-				allNotes.push({t:time,duration:end-time,note:n,ch:ch,bends:bendEvents[ch].slice(bendLow,bendHigh),volume:.25});
+				allNotes.push({t:time,duration:end-time,note:n,ch:ch,bends:bendEvents[ch].slice(bendLow,bendHigh),volume:settings.fluteVolume});
 			    }
 			}
 		    allNotes.sort((x,y)=>x.t-y.t);

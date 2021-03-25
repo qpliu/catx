@@ -150,6 +150,7 @@ class Sheets{
 		    if (page.my_page+1==measure[0]){
 			const cat=page.my_cats[((measureNumber*7*ee.n|0)%7+7)%7];
 			cat.style.visibility = "visible";
+			cat.style.opacity = settings.catOpacity;
 			cat.style.top = .5*((measure[3]+measure[5])*page.getBoundingClientRect().height-cat.getBoundingClientRect().height)+"px";
 			cat.style.right = 100*(1-measure[2]-measureNumber*(measure[4]-measure[2]))+"%";
 		    }
