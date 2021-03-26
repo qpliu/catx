@@ -32,7 +32,7 @@ class Snakes{
 	this.playRecording = document.createElement("img");
 	this.playRecording.style = "position:absolute;left:30vw;top:5vw;width:5vw;z-index:9;visibility:hidden;"
 	this.playRecording.onclick = ()=>{this.gotPlayRecording();};
-	this.playRecording.src = "../playRecording.svg";
+	this.playRecording.src = "../diaodiao.png";
 	where.appendChild(this.playRecording);
 	this.isRecording = false;
     }
