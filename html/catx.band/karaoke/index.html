@@ -91,6 +91,7 @@
     let isPlaying;
     let startTime;
     let jsonStartTime;
+    let animateStarted=false;
     const websocketStuff=new class extends WebsocketStuff{
 	onopen(){
 	    super.onopen();
@@ -188,7 +189,10 @@
 		    tones.doneAddingEvents();
 		    sheets.doneAddingEvents();
 		    snakes.doneAddingEvents();
-		    requestAnimationFrame(animate);
+		    if (!animateStarted){
+			animateStarted = true;
+			requestAnimationFrame(animate);
+		    }
 		}
 		if (json.stop)
 		    isPlaying = 0;
@@ -219,11 +223,9 @@
 	}
 	event.preventDefault();
     };
-    function noisyTime(t){
-	return t;
-    }
     function animate(){
-	const now=startTime+(isPlaying<0?noisyTime((new Date().getTime()-startTime+jsonStartTime)*.001)*1000-jsonStartTime:0);
+	const now=isPlaying<0?new Date().getTime():startTime;
+	snakes.animate(now,isPlaying);
 	if (isPlaying){
 	    beatCounter.setTime(now-startTime);
 	    qiuqius.animate(now);
@@ -232,7 +234,6 @@
 		tones.animate(now);
 	    else
 		--isPlaying;
-	    snakes.animate(now);
 	}
 	sheets.animate(now-startTime);
 	snakes.fixScroll();

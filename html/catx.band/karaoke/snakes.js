@@ -28,6 +28,13 @@ class Snakes{
 	this.gt.style = "position:absolute;top:55vh;right:0;height:10vh;z-index:2;";
 	this.gt.src = "../gt.svg";
 	where.appendChild(this.gt);
+	this.isPlaying = false;
+	this.playRecording = document.createElement("img");
+	this.playRecording.style = "position:absolute;left:30vw;top:5vw;width:5vw;z-index:9;visibility:hidden;"
+	this.playRecording.onclick = ()=>{this.gotPlayRecording();};
+	this.playRecording.src = "../playRecording.svg";
+	where.appendChild(this.playRecording);
+	this.isRecording = false;
     }
     reset(startTime,repeat,songLength){
 	this.startTime = startTime;
@@ -47,6 +54,8 @@ class Snakes{
 	    canvas.style.display = "none";
 	for (const div of this.divs)
 	    div.style.display = "none";
+	this.playRecording.style.visibility = "hidden";
+	this.recordedBuffer = undefined;
     }
     onpointermove(e){
 	if (this.pointerDown!=undefined){
@@ -84,6 +93,8 @@ class Snakes{
 		this.fft.maxDecibels = this.fft.minDecibels+20;
 		microphone.connect(this.fft);
 		this.fft_data = new Uint8Array(this.fft.frequencyBinCount);
+		this.mediaRecorder = new MediaRecorder(stream);
+		this.mediaRecorder.ondataavailable = e => e.data.arrayBuffer().then(ab=>audioContext.decodeAudioData(ab,b=>{this.recordedBuffer=b;}));
 	    },err=>alert(err));
 	}
     }
@@ -248,6 +259,9 @@ class Snakes{
 	x += Math.floor(this.canvasWidth/2-settings.microphoneLatency*this.canvasWidth/settings.snakeTime);
 	which += Math.floor(x/this.canvasWidth);
 	x -= which*this.canvasWidth;
+	const canvas=this.canvases[which%this.canvases.length];
+	if (canvas==undefined)
+	    return;
 	const context=this.canvases[which%this.canvases.length].getContext("2d");
 	context.globalCompositeOperation = "lighten";
 	const i0=Math.floor(Math.exp((settings.minNote-69)/12*Math.log(2))*440*settings.fftSize/audioContext.sampleRate);
@@ -282,8 +296,33 @@ class Snakes{
 	    this.divs[(which+this.canvases.length+i)%this.divs.length].style.left = (which+2+i)*this.canvasWidth-this.scroll+"px";
 	}
     }
-    animate(now){
-	if (!this.enabled)
+    gotPlayRecording(){
+	if (this.recordedBuffer!=undefined){
+	    const i0=(this.scroll-this.lastX-this.canvasWidth/2)*settings.snakeTime/this.canvasWidth*this.recordedBuffer.sampleRate/1000;
+	    const i1=(this.scroll-this.lastX+this.canvasWidth/2)*settings.snakeTime/this.canvasWidth*this.recordedBuffer.sampleRate/1000;
+	    const a=this.recordedBuffer.getChannelData(0).slice(Math.max(0,this.recordedBuffer.length+i0),Math.max(0,this.recordedBuffer.length+i1));
+	    const b=audioContext.createBuffer(1,a.length,audioContext.sampleRate);
+	    b.copyToChannel(a,0);
+	    const source=audioContext.createBufferSource();
+	    source.buffer = b;
+	    source.connect(audioContext.destination);
+	    source.start();
+	}
+    }
+    animate(now,isPlaying){
+	if (this.mediaRecorder!=undefined){
+	    if (isPlaying){
+		if (!this.isRecording){
+		    this.isRecording = true;
+		    this.mediaRecorder.start();
+		}
+	    }else if (this.isRecording){
+		this.isRecording = false;
+		this.mediaRecorder.stop();
+		this.playRecording.style.visibility = "visible";
+	    }
+	}
+	if (!this.enabled || !isPlaying)
 	    return;
 	const rect=this.staticDiv.getBoundingClientRect();
 	if (this.canvasWidth!=Math.ceil(rect.width) || this.canvasHeight!=Math.ceil(rect.height) || !this.canvasTime){
