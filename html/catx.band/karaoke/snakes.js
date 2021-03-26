@@ -1,5 +1,6 @@
 class Snakes{
     constructor(where){
+	this.where = where;
 	this.divs = [];
 	this.canvases = [];
 	for (let i=0; i<100; i++){
@@ -29,11 +30,6 @@ class Snakes{
 	this.gt.src = "../gt.svg";
 	where.appendChild(this.gt);
 	this.isPlaying = false;
-	this.playRecording = document.createElement("img");
-	this.playRecording.style = "position:absolute;left:30vw;top:5vw;width:5vw;z-index:9;visibility:hidden;"
-	this.playRecording.onclick = ()=>{this.gotPlayRecording();};
-	this.playRecording.src = "../diaodiao.png";
-	where.appendChild(this.playRecording);
 	this.mediaRecorder0 = undefined;
 	this.mediaRecorder1 = undefined;
 	this.mediaRecorderTime1 = -Infinity;
@@ -56,7 +52,10 @@ class Snakes{
 	    canvas.style.display = "none";
 	for (const div of this.divs)
 	    div.style.display = "none";
-	this.playRecording.style.visibility = "hidden";
+	if (this.playRecording!=undefined){
+	    this.where.removeChild(this.playRecording);
+	    this.playRecording = undefined;
+	}
 	this.recordedBuffer = undefined;
     }
     onpointermove(e){
@@ -298,24 +297,32 @@ class Snakes{
 	}
     }
     gotPlayRecording(){
-	if (this.recordedBuffer!=undefined){
-	    const i0=(this.scroll-this.lastX-this.canvasWidth/2)*settings.snakeTime/this.canvasWidth*this.recordedBuffer.sampleRate/1000;
-	    const i1=(this.scroll-this.lastX+this.canvasWidth/2)*settings.snakeTime/this.canvasWidth*this.recordedBuffer.sampleRate/1000;
-	    const a=this.recordedBuffer.getChannelData(0).slice(Math.max(0,this.recordedBuffer.length+i0),Math.max(0,this.recordedBuffer.length+i1));
-	    const b=audioContext.createBuffer(1,a.length,audioContext.sampleRate);
-	    b.copyToChannel(a,0);
-	    const source=audioContext.createBufferSource();
-	    source.buffer = b;
-	    source.connect(audioContext.destination);
-	    source.start();
-	}
+	const i0=(this.scroll-this.lastX-this.canvasWidth/2)*settings.snakeTime/this.canvasWidth*this.recordedBuffer.sampleRate/1000;
+	const i1=(this.scroll-this.lastX+this.canvasWidth/2)*settings.snakeTime/this.canvasWidth*this.recordedBuffer.sampleRate/1000;
+	const a=this.recordedBuffer.getChannelData(0).slice(Math.max(0,this.recordedBuffer.length+i0),Math.max(0,this.recordedBuffer.length+i1));
+	const b=audioContext.createBuffer(1,a.length,audioContext.sampleRate);
+	b.copyToChannel(a,0);
+	const source=audioContext.createBufferSource();
+	source.buffer = b;
+	source.connect(audioContext.destination);
+	source.start();
     }
     animate(now,isPlaying){
 	if (!isPlaying){
 	    const mr=this.mediaRecorder0||this.mediaRecorder1;
 	    if (mr){
-		mr.ondataavailable = e => e.data.arrayBuffer().then(ab=>audioContext.decodeAudioData(ab,b=>{this.recordedBuffer=b;}));
-		this.playRecording.style.visibility = "visible";
+		if (this.playRecording!=undefined)
+		    this.where.removeChild(this.playRecording);
+		const playRecording=document.createElement("img");
+		this.playRecording = playRecording;
+		playRecording.style = "position:absolute;left:30vw;top:5vw;width:5vw;z-index:9;visibility:hidden;"
+		playRecording.onclick = ()=>{this.gotPlayRecording();};
+		playRecording.src = "../diaodiao.png";
+		this.where.appendChild(playRecording);
+		mr.ondataavailable = e => e.data.arrayBuffer().then(ab=>audioContext.decodeAudioData(ab,b=>{
+		    playRecording.style.visibility = "visible";
+		    this.recordedBuffer = b;
+		}));
 	    }
 	    if (this.mediaRecorder0!=undefined)
 		this.mediaRecorder0.stop();
