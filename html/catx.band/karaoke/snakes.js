@@ -24,10 +24,12 @@ class Snakes{
 	this.lt = document.createElement("img");
 	this.lt.style = "position:absolute;top:55vh;left:0;height:10vh;z-index:2;";
 	this.lt.src = "../lt.svg";
+	this.lt.onclick = ()=>{this.gotOnClickLtGt(-1);};
 	where.appendChild(this.lt);
 	this.gt = document.createElement("img");
 	this.gt.style = "position:absolute;top:55vh;right:0;height:10vh;z-index:2;";
 	this.gt.src = "../gt.svg";
+	this.gt.onclick = ()=>{this.gotOnClickLtGt(1);};
 	where.appendChild(this.gt);
 	this.isPlaying = false;
 	this.mediaRecorder0 = undefined;
@@ -57,6 +59,12 @@ class Snakes{
 	    this.playRecording = undefined;
 	}
 	this.recordedBuffer = undefined;
+    }
+    gotOnClickLtGt(d){
+	if (!isPlaying){
+	    this.scroll += d*this.canvasWidth;
+	    this.fixScroll();
+	}
     }
     onpointermove(e){
 	if (this.pointerDown!=undefined){
