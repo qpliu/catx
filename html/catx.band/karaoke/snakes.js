@@ -34,7 +34,9 @@ class Snakes{
 	this.playRecording.onclick = ()=>{this.gotPlayRecording();};
 	this.playRecording.src = "../diaodiao.png";
 	where.appendChild(this.playRecording);
-	this.isRecording = false;
+	this.mediaRecorder0 = undefined;
+	this.mediaRecorder1 = undefined;
+	this.mediaRecorderTime1 = -Infinity;
     }
     reset(startTime,repeat,songLength){
 	this.startTime = startTime;
@@ -85,6 +87,7 @@ class Snakes{
 	if (enabled && !this.gotMicrophone){
 	    this.gotMicrophone = true;
 	    navigator.mediaDevices.getUserMedia({audio:{echoCancellation:{ideal:false}}}).then(stream=>{
+		this.stream = stream;
 		const microphone=audioContext.createMediaStreamSource(stream);
 		this.fft = audioContext.createAnalyser();
 		this.fft.fftSize = settings.fftSize;
@@ -93,8 +96,6 @@ class Snakes{
 		this.fft.maxDecibels = this.fft.minDecibels+20;
 		microphone.connect(this.fft);
 		this.fft_data = new Uint8Array(this.fft.frequencyBinCount);
-		this.mediaRecorder = new MediaRecorder(stream);
-		this.mediaRecorder.ondataavailable = e => e.data.arrayBuffer().then(ab=>audioContext.decodeAudioData(ab,b=>{this.recordedBuffer=b;}));
 	    },err=>alert(err));
 	}
     }
@@ -310,17 +311,26 @@ class Snakes{
 	}
     }
     animate(now,isPlaying){
-	if (this.mediaRecorder!=undefined){
-	    if (isPlaying){
-		if (!this.isRecording){
-		    this.isRecording = true;
-		    this.mediaRecorder.start();
-		}
-	    }else if (this.isRecording){
-		this.isRecording = false;
-		this.mediaRecorder.stop();
+	if (!isPlaying){
+	    const mr=this.mediaRecorder0||this.mediaRecorder1;
+	    if (mr){
+		mr.ondataavailable = e => e.data.arrayBuffer().then(ab=>audioContext.decodeAudioData(ab,b=>{this.recordedBuffer=b;}));
 		this.playRecording.style.visibility = "visible";
 	    }
+	    if (this.mediaRecorder0!=undefined)
+		this.mediaRecorder0.stop();
+	    if (this.mediaRecorder1!=undefined)
+		this.mediaRecorder1.stop();
+	    this.mediaRecorder0 = undefined;
+	    this.mediaRecorder1 = undefined;
+	    this.mediaRecorderTime1 = -Infinity;
+	}else if (this.mediaRecorderTime1<=now-settings.snakeTime*100 && this.stream!=undefined){
+	    if (this.mediaRecorder0!=undefined)
+		this.mediaRecorder0.stop();
+	    this.mediaRecorder0 = this.mediaRecorder1;
+	    this.mediaRecorderTime1 = now
+	    this.mediaRecorder1 = new MediaRecorder(this.stream);
+	    this.mediaRecorder1.start();
 	}
 	if (!this.enabled || !isPlaying)
 	    return;
