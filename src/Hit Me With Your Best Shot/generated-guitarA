@@ -1,0 +1,97 @@
+guitarA = {
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "1st verse" #9
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "chorus" #18
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "solo (1st part)" #42
+    gis'16\3 b'\2 dis''\1 fis''\1 dis''\1 e''\1 cis''\2 dis''\1 b'\2 cis''\2 b'4.\2 |
+    b'8\2\glissando e'16\2 e'\2 e'\2( dis'\2) dis'\2 dis'\2 dis'\2 cis'\2 <b\2 e'\1>4. |
+    \tuplet 3/2 { b16\2 cis'\2 b\2 b\2 cis'\2 b\2 b\2 cis'\2 b\2 b\2 cis'\2 b\2 b\2 dis'\2 b\2 b\2 dis'\2 b\2 b\2 dis'\2 b\2 b\2 dis'\2 b\2 } |
+    \tuplet 3/2 { b16\2 e'\2 b\2 b\2 e'\2 b\2 b\2 fis'\2 b\2 b\2 fis'\2 b\2 } cis''4\2\glissando r |
+    e'16\2( fis'8.\2) e'16\2( fis'8.\2) e'16\2( fis'8\2) e'16\1 b'\1( e'\1) fis'8\2 |
+    e'16\2( fis'8\2) e'16\1 e'\2( fis'8\2) e'16\1 e'\2( fis'8\2) e'16\1 b'\1( e'\1) fis'\2( \parenthesize b\2) |
+    b'16\2 ais'\2 ais'\2( gis'\2)\glissando gis'4.\2 gis'4\2\glissando a,16\5 a,\5 |
+    cis'4.\3\bendAfter #6 ^"full" cis'16\3 \parenthesize cis'\3 b4\3 \parenthesize b8\3( g'\3)\glissando |
+\mymark "solo(2nd part" #50
+    fis''8\1 b'\2 fis''\1 b'\2 \tuplet 3/2 { fis''8\1 b'\2 fis''\1 } b'8\2 fis''16\1 b'\2 |
+    fis''16\1 b'4\2~ b'16\2 b'8\2 fis'4\3 r8 \parenthesize fis'\3\glissando |
+    r8 a\5\glissando e'4\3\glissando gis8\5\glissando e'4.\3 |
+    fis8\5\glissando <fis\5 e'\3> <fis\5 e'\3> <e\5 e'\3> <e\5 e'\3> <e\5 e'\3>\glissando fis,\6\bendAfter #6 ^"full" fis,\6\bendAfter #6 ^"full" |
+    e,2\6 b\3\bendAfter #6 ^"full" |
+    \parenthesize b4\3 \deadNote b\3 \parenthesize b8.\3 b16\3( a'8\3)\glissando <\deadNote a,\5 \deadNote d\4>16 d''\2\bendAfter #6 ^"full" |
+    d''8\2\bendAfter #6 ^"full" d''4\2\bendAfter #6 ^"full" a8\3\bendAfter #6 ^"full" \parenthesize a\3\bendAfter #6 ^"full" \parenthesize a16\3 \parenthesize a\3( gis'8\3)\glissando b16\4 b\4 |
+    b16\4 b\4 cis'\4 cis'\4 cis'\4 cis'\4 dis'\4 dis'\4 dis'\4 dis'\4 dis'\4 e'\4 e'8\4 \parenthesize e'\4\glissando |
+    r1 |
+    r1 |
+    b4\3\bendAfter #6 ^"full" r2. |
+    r2 r8 cis4\5 dis8\5 |
+    e4\5\glissando r2. |
+    r1 |
+    b2\3\bendAfter #6 ^"full" r |
+    b,8\5\bendAfter #6 ^"full" \parenthesize b,\5\bendAfter #6 ^"full" \parenthesize b,\5 r2 r8 |
+\mymark "Keyboard fills" #66
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    <e,\6 b,\5 e\4 gis\3 d'\2>1 |
+    r1 |
+    r1 |
+}

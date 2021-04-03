@@ -1,0 +1,98 @@
+vocalsKaraoke = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    "-"8 ">@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@|!bg=4"4.
+    \skip8 "@|!bg=3"2 "@|!bg=2"4.
+\mymark "1st verse" #9
+    "!mark=1st verse|-"8 "@|!bg=1"2 "Well|!bg="8 "you're" "a"
+    "real"4 "tough" "coo-"8 "kie" "with" "a"
+    "long"4 "his-"8 "to-" "ry"4 "-"8 ">of"
+    "brea-"8 "king" "lit-" "tle" "hearts"4 "like"8 "the"
+    "one"8 "in" "me"4 "-"2
+    "-"8 ">That's"4 "O."8 "K."4 "let's"8 "see"
+    "-"8 "how" "you" "do"4 "it" "-"8
+    ">Put"8 "up" "your" "dukes"4. "Let's"4
+    "get"8 "down"4 "to" "it"4.
+\mymark "chorus" #18
+    ">Hit|!mark=chorus"8 "me" "with" "your" "best"4 "shot"
+    "-"2 \skip8 ">Why"8 "don't" "you"
+    "hit"16 "me" "with"8 "your" "best"4 "shot"8 "-"4
+    "-"1
+    ">Hit"8 "me" "with" "your" "best"4 "shot"
+    "-"2 ">Fire"8 "-" "a-" "way"
+    "-"1
+    "-"2. \skip8 ">You"8
+    "come"8 "on" "with" "a" "come" "on"4 "you"8
+    "don't"4 "fight" "fair" "-"
+    "-"8 ">but" "that's" "O." "K."4 "-"
+    ">See"16 "if" "I"4 "care"4. "-"4
+    "-"8 ">Knock"4 "me"8 "down"4 "it's"8 "all"
+    "-"8 "in"4 "vain" "-" ">I'll"8
+    "get"8 "right" "back" "on"4. "my"4
+    "feet"8 "a-"4 "gain" "-"4.
+    ">Hit"8 "me" "with" "your" "best"4 "shot"
+    "-"2 \skip8 ">Why"8 "don't" "you"
+    "hit"16 "me" "with"8 "your" "best"4 "shot"8 "-"4
+    "-"1
+    ">Hit"8 "me" "with" "your" "best"4 "shot"
+    "-"2 "fire"8 "-" "a-" "way"
+    "-"2 \skip8 ">@"4.
+    \skip8 "@"2 "@"4.
+\mymark "solo (1st part)" #42
+    "!mark=solo (1st part)|-"8 "@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@"4.
+\mymark "solo(2nd part" #50
+    "!mark=solo(2nd part|-"8 "@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@"4.
+    \skip8 "@"2 "@|!bg=4"4.
+    \skip8 "@|!bg=3"2 "@|!bg=2"4.
+    \skip8 "@|!bg=1"2 "Well|!bg="8 "you're" "a"
+    "real"4 "tough" "coo-"8 "kie" "with" "a"
+    "long"4 "his-"8 "to-" "ry"4 "-"8 ">of"
+    "brea-"8 "king" "lit-" "tle" "hearts"4 "like"8 "the"
+    "one"8 "in" "me"4 "-"8 ">Be-" "fore" "I"
+    "put"16 "a-" "no-" "ther"8. "notch"8 "-"4 "in"8 "my"
+    "lip-"8 "stick"4 "case" "-" ">you"8
+    "bet-"8 "ter" "make"4 "sure"8 "you" "put" "me"
+    "in"8 "my"4 "place" "-"4.
+\mymark "Keyboard fills" #66
+    ">Hit|!mark=Keyboard fills"8 "me" "with" "your" "best"4 "shot"
+    "-"2 \skip8 ">C'mon"4.
+    "hit"16 "me" "with"8 "your" "best"4 "shot"8 "-"4
+    "-"1
+    ">Hit"8 "me" "with" "your" "best"4 "shot"
+    "-"2 ">Fire"8 "-" "a-" "way"
+    "-"1
+    "-"1
+    ">Hit"8 "me" "with" "your" "best"4 "shot"
+    "-"2 \skip8 ">Why"8 "don't" "you"
+    "hit"16 "me" "with"8 "your" "best"4 "shot"8 "-"4
+    "-"1
+    ">Hit"8 "me" "with" "your" "best"4 "shot"
+    "-"2 ">Fire"8 "-" "a-" "way"
+    "-"1
+    "@@"32 "-"2. \skip8. \skip32
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+    "-"1
+}

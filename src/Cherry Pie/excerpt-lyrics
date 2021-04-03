@@ -1,0 +1,15 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus" #4
+"3"4 "point"4 "1"8 "4"16 "1"8. \skip8 | % She's my cherry pie
+"5"8 "9" "2" % Cool drink of water
+"6"8 "5" "3" "5"4 | % such a sweet surprise
+"8"8 "9" "se"16 -- "ven"  % Tastes so good
+"9"8 "3" "2" "3"4 | % make a grown man cry
+"8"8. "4"8 "6"16 "2"4. \skip4 | % Sweet cherry pie
+% 3.1415926535 8979323846 2643383279
+}

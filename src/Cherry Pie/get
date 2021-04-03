@@ -1,0 +1,11 @@
+SONG=https://www.songsterr.com/a/wsa/warrant-cherry-pie-tab-s21278t1
+
+curl -s $(curl -s https://www.songsterr.com/api/meta/$(echo "$SONG" | sed -ne 's/^.*s\([0-9]*\)t[0-9]*$/\1/p')/revisions | sed -e 's/"source":"\([^"]*\)"/\
+\1\
+/g' | sed -ne 2p) | java -jar ../../guitarproToLy/1.jar \
+markup-extra 1 '\key e \major' \
+track 0 preset kav output-lilypond \
+track 1 preset midiMuted output-lilypond \
+track 2 preset peter output-lilypond \
+track 3 preset bass output-lilypond \
+track 4 preset gg output-drums

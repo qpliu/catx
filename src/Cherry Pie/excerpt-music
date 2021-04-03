@@ -1,0 +1,68 @@
+\header {
+    title = ""
+    composer = ""
+}
+
+\include "excerpt-markup"
+\include "excerpt-vocals"
+\include "excerpt-guitar"
+\include "excerpt-bass"
+\include "excerpt-drs"
+\include "excerpt-lyrics"
+
+layoutmusic = <<
+    \tag #'(allPart kavPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Vocals" }
+        shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+        \markupStuff
+        \vocals
+    >>
+    \tag #'(allPart kavPart) \vocalsLyrics
+    \tag #'(allPart peterPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Guitar" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr" }
+    } <<
+        \markupStuff
+        \guitar
+        \clef "treble_8"
+    >>
+    \tag #'(allPart peterPart) \new TabStaff \with {
+        stringTunings = \stringTuning <e, a, d g b e'>
+    } \guitar
+    \tag #'(allPart bassPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Bass" }
+        shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } <<
+        \markupStuff
+        \bass
+        \clef "bass_8"
+    >>
+    \tag #'(allPart bassPart) \new TabStaff \with {
+        stringTunings = \stringTuning <e,, a,, d, g,>
+    } \bass
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
+        instrumentName = \markup { \rotate #90 "Drums" }
+        shortInstrumentName = \markup { \rotate #90 "Drs" }
+        drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+        \markupStuff
+        \drs
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiKaraoke) \new Staff = "excerpt-vocals" \with {
+        midiInstrument = #"synth voice"
+    } \vocals
+    \tag #'(midiPeter) \new Staff = "excerpt-guitar" \with {
+        midiInstrument = #"distorted guitar"
+    } \guitar
+    \tag #'(midiBass) \new Staff = "excerpt-bass" \with {
+        midiInstrument = #"electric bass (finger)"
+    } \bass
+    \tag #'(midiGg) \new DrumStaff = "excerpt-drs" \with {
+        drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drs
+>>

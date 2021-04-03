@@ -1,0 +1,98 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "1st verse" #9
+    \skip2 \skip8 "Well"8 "you're" "a" |
+    "real"4 "tough" "coo-"8 "kie" "with" "a" |
+    "long"4 "his-"8 "to-" "ry"4 \skip8 "of"8 |
+    "brea-"8 "king" "lit-" "tle" "hearts"4 "like"8 "the" |
+    "one"8 "in" "me"4 \skip2 |
+    \skip8 "That's"4 "O."8 "K."4 "let's"8 "see" |
+    \skip8 "how"8 "you" "do"4 "it" \skip8 |
+    "Put"8 "up" "your" "dukes"4. "Let's"4 |
+    "get"8 "down"4 "to" "it"4. |
+\mymark "chorus" #18
+    "Hit"8 "me" "with" "your" "best"4 "shot" |
+    \skip2 \skip8 "Why"8 "don't" "you" |
+    "hit"16 "me" "with"8 "your" "best"4 "shot"8 \skip4 |
+    \skip1 |
+    "Hit"8 "me" "with" "your" "best"4 "shot" |
+    \skip2 "Fire"8 \skip8 "a-"8 "way" |
+    \skip1 |
+    \skip2. \skip8 "You"8 |
+    "come"8 "on" "with" "a" "come" "on"4 "you"8 |
+    "don't"4 "fight" "fair" \skip4 |
+    \skip8 "but"8 "that's" "O." "K."4 \skip4 |
+    "See"16 "if" "I"4 "care"4. \skip4 |
+    \skip8 "Knock"4 "me"8 "down"4 "it's"8 "all" |
+    \skip8 "in"4 "vain" \skip4 "I'll"8 |
+    "get"8 "right" "back" "on"4. "my"4 |
+    "feet"8 "a-"4 "gain" \skip4. |
+    "Hit"8 "me" "with" "your" "best"4 "shot" |
+    \skip2 \skip8 "Why"8 "don't" "you" |
+    "hit"16 "me" "with"8 "your" "best"4 "shot"8 \skip4 |
+    \skip1 |
+    "Hit"8 "me" "with" "your" "best"4 "shot" |
+    \skip2 "fire"8 \skip8 "a-"8 "way" |
+    \skip1 |
+    \skip1 |
+\mymark "solo (1st part)" #42
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "solo(2nd part" #50
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2 \skip8 "Well"8 "you're" "a" |
+    "real"4 "tough" "coo-"8 "kie" "with" "a" |
+    "long"4 "his-"8 "to-" "ry"4 \skip8 "of"8 |
+    "brea-"8 "king" "lit-" "tle" "hearts"4 "like"8 "the" |
+    "one"8 "in" "me"4 \skip8 "Be-"8 "fore" "I" |
+    "put"16 "a-" "no-" "ther"8. "notch"8 \skip4 "in"8 "my" |
+    "lip-"8 "stick"4 "case" \skip4 "you"8 |
+    "bet-"8 "ter" "make"4 "sure"8 "you" "put" "me" |
+    "in"8 "my"4 "place" \skip4. |
+\mymark "Keyboard fills" #66
+    "Hit"8 "me" "with" "your" "best"4 "shot" |
+    \skip2 \skip8 "C'mon"4. |
+    "hit"16 "me" "with"8 "your" "best"4 "shot"8 \skip4 |
+    \skip1 |
+    "Hit"8 "me" "with" "your" "best"4 "shot" |
+    \skip2 "Fire"8 \skip8 "a-"8 "way" |
+    \skip1 |
+    \skip1 |
+    "Hit"8 "me" "with" "your" "best"4 "shot" |
+    \skip2 \skip8 "Why"8 "don't" "you" |
+    "hit"16 "me" "with"8 "your" "best"4 "shot"8 \skip4 |
+    \skip1 |
+    "Hit"8 "me" "with" "your" "best"4 "shot" |
+    \skip2 "Fire"8 \skip8 "a-"8 "way" |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}

@@ -1,0 +1,68 @@
+midiMuted = {
+\mymark "Intro" #1
+    r2. e4\glissando |
+    <a, e a>4 <c g c'> <d a d'> <d a d'>8 e,16 e, |
+    <f, c f>16 <f, c f> <f, c f> <f, c f> r8 <g, d g>16 <g, d g> <g, d g> <g, d g> r e, d cis b, a, |
+\mymark "Chorus" #4
+    <e, b, e>8 <e, b, e> r4 <g, d g>8 <g, d g> r4 |
+    <a, e a>8 <a, e a> r8. <g d'>16 <c g d'>8 <g d'> <d a d'> <g d'> |
+    <e, b, e>8 <e, b, e> r8. <g d'>16 <g, d g>8 <g, d g> e8.~ <e g d'>16 |
+    <g, d g>8 r16 <d a d'>8 r16 <a, e a>2~ <a, e a>8 |
+    e,16 e8 e,16 d8. e,16 cis e, d a,\bendAfter #6 ^"¼" r4 |
+    e,16 e8 e,16 d8. e,16 cis e, d <a, e a> r <g, d g>8. |
+    e,16 e8 e,16 d8. e,16 cis e, d a,\bendAfter #6 ^"¼" r4 |
+    e,16 e8 e,16 d8. e,16 cis e, d <g, d g> r <a, e a>8.\glissando |
+\mymark "Vers" #12
+    <e, b, e>16 <e, b, e> r2. r8 |
+    <e, b, e>16 <e, b, e> r4. <d a d'>4 <a, e a> |
+    <e, b, e>16 <e, b, e> r8 b8.\glissando a,16 b,( a,) e( d) g e8. |
+    <e, b, e>16 <e, b, e> r4. <d a d'>4 <a, e a> |
+    e,16 e8 e,16 d8. e,16 cis e, d a,\bendAfter #6 ^"¼" r4 |
+    e,16 e8 e,16 d8. e,16 cis e, d <g, d g> r <a, e a>8.\glissando |
+\mymark "Vers" #18
+    <e, b, e>16 <e, b, e> r2 r8 <e b e'>4 |
+    <e, b, e>16 <e, b, e> r4. <d a d'>4 <a, e a> |
+    <e, b, e>16 <e, b, e> r8 b8.\glissando a,16 b,( a,) e( d) g e8. |
+    <e, b, e>16 <e, b, e> r4. <d a d'>4 <a, e a> |
+    <a, e a>4 <c g c'> <d a d'> <d a d'>8 e, |
+    <f, c f>8 <f, c f> <f, c f> <f, c f> <g, d g> <g, d g> <g, d g> <g, d g> |
+\mymark "Chorus" #24
+    <e, b, e>8 <e, b, e> r4 <g, d g>8 <g, d g> r4 |
+    <a, e a>8 <a, e a> r <\deadNote a, \deadNote d \deadNote g>16 <\deadNote a, \deadNote d \deadNote g> <c g d'>8 <c g d'> <d a d'> <d a d'> |
+    <e, b, e>8 <e, b, e> r4 <g, d g>8 <g, d g> r <\deadNote e, \deadNote a,>16 <\deadNote e, \deadNote a,> |
+    <g, d g>8 r16 <d a d'>8 r16 <a, e a>4 g16 e c' a8. |
+    <e, b, e>8 <e, b, e> r4 <g, d g>8 <g, d g> r4 |
+    <a, e a>8 <a, e a> r <\deadNote a, \deadNote d \deadNote g>16 <\deadNote a, \deadNote d \deadNote g> <c g d'>8 <c g d'> <d a d'> <d a d'> |
+    <e, b, e>8 <e, b, e> r4 <g, d g>8 <g, d g> r <\deadNote e, \deadNote a,>16 <\deadNote e, \deadNote a,> |
+    <g, d g>8 r16 <d a d'>8 r16 <a, e a>2~ <a, e a>8 |
+    <g, d g>8 r16 <d a d'>8 r16 <a, e a>2~ <a, e a>8~ |
+    <a, e a>2~ |
+    <a, e a>2. a4\glissando |
+\mymark "Guitar Solo" #35
+    <e, b, e>16 <fis, cis fis> <fis, cis fis> <e, b, e> <fis, cis fis>8 <e, b, e>16 <fis, cis fis> r2 |
+    <e, b, e>16 <fis, cis fis> <fis, cis fis> <e, b, e> <fis, cis fis>8 <\deadNote e, \deadNote a, \deadNote d>16 <\deadNote e, \deadNote a, \deadNote d> <a, e a>4 gis, |
+    <e, b, e>16 <fis, cis fis> <fis, cis fis> <e, b, e> <fis, cis fis>8 <e, b, e>16 <fis, cis fis> r2 |
+    <e, b, e>16 <fis, cis fis> <fis, cis fis> <e, b, e> <fis, cis fis>8 <\deadNote e, \deadNote a, \deadNote d>16 <\deadNote e, \deadNote a, \deadNote d> <a, e a>4 gis, |
+    a,16 a a, a, a8. a,16 fis a, g d\bendAfter #6 ^"¼" r4 |
+    a,16 a a, a, g8. a,16 fis a, g <d a d'> <c g c'>8. r16 |
+    a,16 a a, a, a8. a,16 fis a, g d\bendAfter #6 ^"¼" r4 |
+    a,16 a a, a, g8. a,16 fis a, g <c g c'> r <d a d'>8. |
+\mymark "Vers" #43
+    <e, b, e>16 <e, b, e> r2 r8 <e b e'>4 |
+    <e, b, e>16 <e, b, e> r4. <d a d'>4 <a, e a> |
+    <e, b, e>16 <e, b, e> r4 r16 a, b,( a,) e( d) g e8. |
+    <e, e b>4 r2 a4 |
+\mymark "Outro Chorus" #47
+    <a, e a>8 <a, e a> r4 <c g c'>8 <c g c'> r <\deadNote a, \deadNote d>16 <\deadNote a, \deadNote d> |
+    <d a d'>8 <d a d'> r4 <f, c f> <g, d g> |
+    <a, e a>8 <a, e a> r4 <c g c'>8 <c g c'> r <\deadNote a, \deadNote d>16 <\deadNote a, \deadNote d> |
+    <c g c'>8 r16 <g, d g>8. r16 <d a d'>8 a16 <a d' g'>8 <a d' g'>16 <a d' fis'>8. |
+    <a, e a>8 <a, e a> r4 <c g c'>8 <c g c'> r <\deadNote a, \deadNote d>16 <\deadNote a, \deadNote d> |
+    <d a d'>8 <d a d'> r4 <f, c f> <g, d g> |
+    <a, e a>8 <a, e a> r4 <c g c'>8 <c g c'> r <\deadNote a, \deadNote d>16 <\deadNote a, \deadNote d> |
+    <c g c'>8 r16 <g, d g>8. r16 <d a d'>8 a16 <a d' g'>8 <a d' g'>16 <a d' fis'>8. |
+    <c g c'>8 r16 <g, d g>8 r16 <d a d'>2~ <d a d'>8 |
+    <f c'>16 <f c'> <f c'> <f c'> r8 <g d'>16 <g d'> <g d'> <g d'> r4. |
+    <f c'>16 <f c'> <f c'> <f c'> r8 <g d'>16 <g d'> <g d'> <g d'> r8 a4 |
+    e,16 e \deadNote a, e, d8. e,16 cis e, d a, r4 |
+}
