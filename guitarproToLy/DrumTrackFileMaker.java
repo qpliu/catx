@@ -63,16 +63,16 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
 	    this.sort = sort;
 	}
     }
-    private static class TimeAndDrum implements Comparable<TimeAndDrum>{
-	final Rational time;
+    private static class EventAndDrum implements Comparable<EventAndDrum>{
+	final Gpfile.NoteEvent event;
 	final Drum drum;
-	TimeAndDrum(Rational time,Drum drum){
-	    this.time = time;
+	EventAndDrum(Gpfile.NoteEvent event,Drum drum){
+	    this.event = event;
 	    this.drum = drum;
 	}
-	@Override public int compareTo(TimeAndDrum d){
+	@Override public int compareTo(EventAndDrum d){
 	    int i;
-	    if ((i=time.compareTo(d.time))!=0)
+	    if ((i=event.time.compareTo(d.event.time))!=0)
 		return i;
 	    if ((i=Integer.compare(drum.sort,d.drum.sort))!=0)
 		return i;
@@ -104,27 +104,32 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
     @Override String getStuff(){
 	return super.getStuff()+"\\new DrumVoice = \"drsb\" \\new DrumVoice = \"drsa\" \\drummode ";
     }
-    private String makeVoice(Gpfile.Measure measure,Queue<TimeAndDrum>voiceEvents)throws IOException{
+    private String makeVoice(Gpfile.Measure measure,Queue<EventAndDrum>voiceEvents)throws IOException{
 	MeasureMaker mm=new MeasureMaker(measure);
 	while (voiceEvents.size()!=0){
-	    TimeAndDrum tad=voiceEvents.poll();
-	    mm.make(tad.time,MeasureMaker.REST);
-	    List<TimeAndDrum>l=new ArrayList<TimeAndDrum>();
-	    l.add(tad);
-	    while (voiceEvents.size()!=0 && voiceEvents.peek().time.equals(tad.time))
+	    EventAndDrum ead=voiceEvents.poll();
+	    mm.make(ead.event.time,MeasureMaker.REST);
+	    List<EventAndDrum>l=new ArrayList<EventAndDrum>();
+	    l.add(ead);
+	    while (voiceEvents.size()!=0 && voiceEvents.peek().event.time.equals(ead.event.time))
 		l.add(voiceEvents.poll());
 	    StringBuilder sb=new StringBuilder();
 	    if (l.size()>1)
 		sb.append('<');
-	    for (int i=0; i<l.size(); i++)
-		sb.append(i==0?"":" ").append(l.get(i).drum.name);
+	    for (int i=0; i<l.size(); i++){
+		EventAndDrum a=l.get(i);
+		sb.append(i==0?"":" ");
+		if (a.event.is_ghost)
+		    sb.append("\\parenthesize ");
+		sb.append(a.drum.name);
+	    }
 	    if (l.size()>1)
 		sb.append('>');
 	    Rational next;
 	    if (voiceEvents.size()==0)
 		next = measure.time.add(measure.time_n);
 	    else
-		next = voiceEvents.peek().time;
+		next = voiceEvents.peek().event.time;
 	    mm.make(next,new MeasureMaker.GetWhatSuffix(){
 		@Override public String getWhat(boolean is_lhs,boolean is_rhs){
 		    return is_lhs?sb.toString():"r";
@@ -135,10 +140,10 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
 	return mm.tail();
     }
     @Override String makeMeasure(Gpfile.Measure measure,List<Gpfile.Event>measureEvents)throws IOException{
-	List<Queue<TimeAndDrum>>list=new ArrayList<Queue<TimeAndDrum>>();
+	List<Queue<EventAndDrum>>list=new ArrayList<Queue<EventAndDrum>>();
 	int nonEmptyCount=0;
 	for (int voice=0; voice<VOICES; voice++){
-	    Queue<TimeAndDrum>q=new PriorityQueue<TimeAndDrum>();
+	    Queue<EventAndDrum>q=new PriorityQueue<EventAndDrum>();
 	    list.add(q);
 	    for (Gpfile.Event e:measureEvents)
 		if (!e.tie_rhs && e instanceof Gpfile.NoteEvent){
@@ -147,7 +152,7 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
 		    if (drum==null)
 			Log.info("Drum %d not in drumMap",k);
 		    if (drum!=null && drum.voice==voice)
-			q.add(new TimeAndDrum(e.time,drum));
+			q.add(new EventAndDrum((Gpfile.NoteEvent)e,drum));
 		}
 	    if (q.size()!=0)
 		nonEmptyCount++;
