@@ -3,19 +3,19 @@ drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     \context DrumVoice = "drsb" \voiceTwo
 \mymark "Intro" #1
     r1 |
-    << { r4 r16 \parenthesize cymr cymr4. r16 \parenthesize cymr cymr8 | } \context DrumVoice = "drsb" { bd8. \parenthesize bd16 bd4 bd8. \parenthesize bd16 bd4 | } >>
-    << { r4 r16 \parenthesize cymr cymr4. r16 \parenthesize cymr cymr8 | } \context DrumVoice = "drsb" { bd8. \parenthesize bd16 bd4 bd8. \parenthesize bd16 bd4 | } >>
-    << { r4 r16 \parenthesize cymr cymr4. r16 \parenthesize cymr cymr8 | } \context DrumVoice = "drsb" { bd8. \parenthesize bd16 bd4 bd8. \parenthesize bd16 bd4 | } >>
-    << { r4 r16 \parenthesize cymr cymr4. r16 \parenthesize cymr cymr8 | } \context DrumVoice = "drsb" { bd8. \parenthesize bd16 bd4 bd8. \parenthesize bd16 bd4 | } >>
+    << { r4. cymr2 cymr8 | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    << { r4. cymr2 cymr8 | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    << { r4. cymr2 cymr8 | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    << { r4. cymr2 cymr8 | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
 \mymark "Sliding Riff" #6
-    << { r4 r16 \parenthesize cymr cymr4. r16 \parenthesize cymr cymr8 | } \context DrumVoice = "drsb" { bd8. \parenthesize bd16 bd4 bd8. \parenthesize bd16 bd4 | } >>
-    << { r4 r16 \parenthesize cymr cymr4. r16 \parenthesize cymr cymr8 | } \context DrumVoice = "drsb" { bd8. \parenthesize bd16 bd4 bd8. \parenthesize bd16 bd4 | } >>
-    << { r4 r16 \parenthesize cymr cymr4. r16 \parenthesize cymr cymr8 | } \context DrumVoice = "drsb" { bd8. \parenthesize bd16 bd4 bd8. \parenthesize bd16 bd4 | } >>
-    << { r4 r16 \parenthesize cymr cymr4. r16 \parenthesize cymr cymr8 | } \context DrumVoice = "drsb" { bd8. \parenthesize bd16 bd4 bd8. \parenthesize bd16 bd4 | } >>
-    << { r4 r16 \parenthesize cymr cymr4. r16 \parenthesize cymr cymr8 | } \context DrumVoice = "drsb" { bd8. \parenthesize bd16 bd4 bd8. \parenthesize bd16 bd4 | } >>
-    << { r4 r16 \parenthesize cymr cymr4. r16 \parenthesize cymr cymr8 | } \context DrumVoice = "drsb" { bd8. \parenthesize bd16 bd4 bd8. \parenthesize bd16 bd4 | } >>
-    << { r4 r16 \parenthesize cymr cymr4. r16 \parenthesize cymr cymr8 | } \context DrumVoice = "drsb" { bd8. \parenthesize bd16 bd4 bd8. \parenthesize bd16 bd4 | } >>
-    << { r4 r16 \parenthesize cymr cymr8 cyms2 | } \context DrumVoice = "drsb" { bd8. \parenthesize bd16 bd4 bd8. \parenthesize bd16 bd4 | } >>
+    << { r4. cymr2 cymr8 | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    << { r4. cymr2 cymr8 | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    << { r4. cymr2 cymr8 | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    << { r4. cymr2 cymr8 | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    << { r4. cymr2 cymr8 | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    << { r4. cymr2 cymr8 | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    << { r4. cymr2 cymr8 | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    << { r4. cymr8 cyms2 | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
 \mymark "Verse" #14
     r1 |
     r1 |

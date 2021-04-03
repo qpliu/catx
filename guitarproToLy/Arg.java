@@ -19,6 +19,7 @@ final class Arg implements Serializable{
     boolean output_karaoke;
     boolean output_lilypond;
     boolean output_lyrics;
+    boolean no_ghost_notes;
     boolean string_numbers;
     Rational shift=Rational.ZERO;
     final Map<String,String>karaoke_lyrics_parameter=new HashMap<String,String>();
@@ -47,6 +48,7 @@ final class Arg implements Serializable{
 	    midi_who = "midiGg";
 	    instrument_name = "Drums";
 	    instrument_short_name = "Drs";
+	    no_ghost_notes = true;
 	}else if (preset.equals("kav")){
 	    name = "vocals";
 	    layout_who = "allPart kavPart";
@@ -105,6 +107,7 @@ final class Arg implements Serializable{
 	System.err.println("[modified-filename filename]  Don't generate generated-filename.");
 	System.err.println("[music-extra measure stuff]  Extra stuff for music.");
 	System.err.println("[name name]  Specify name.");
+	System.err.println("[no-ghost-notes]  Get rid of ghost notes.");
 	System.err.println("[output-chords]  Output chords.");
 	System.err.println("[output-dotext]  Output dotext.");
 	System.err.println("[output-drums]  Output drums.");
@@ -166,6 +169,8 @@ final class Arg implements Serializable{
 		Stuff.add(arg.music_extra,Math.max(Integer.parseInt(argv[++i])-1,0),argv[++i]);
 	    else if (argv[i].equals("name"))
 		arg.name = argv[++i];
+	    else if (argv[i].equals("no-ghost-notes"))
+		arg.no_ghost_notes = true;
 	    else if (argv[i].equals("output-chords"))
 		arg.output_chords = true;
 	    else if (argv[i].equals("output-dotext"))

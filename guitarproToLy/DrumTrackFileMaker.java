@@ -63,6 +63,9 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
 	    this.sort = sort;
 	}
     }
+    @Override boolean filterEvents(Gpfile.Event event){
+	return !event.tie_rhs && super.filterEvents(event);
+    }
     private static class EventAndDrum implements Comparable<EventAndDrum>{
 	final Gpfile.NoteEvent event;
 	final Drum drum;
@@ -140,20 +143,20 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
 	return mm.tail();
     }
     @Override String makeMeasure(Gpfile.Measure measure,List<Gpfile.Event>measureEvents)throws IOException{
+	Queue<Gpfile.Event>filtered=getFilteredEvents(measureEvents);
 	List<Queue<EventAndDrum>>list=new ArrayList<Queue<EventAndDrum>>();
 	int nonEmptyCount=0;
 	for (int voice=0; voice<VOICES; voice++){
 	    Queue<EventAndDrum>q=new PriorityQueue<EventAndDrum>();
 	    list.add(q);
-	    for (Gpfile.Event e:measureEvents)
-		if (!e.tie_rhs && e instanceof Gpfile.NoteEvent){
-		    int k=((Gpfile.NoteEvent)e).getNote();
-		    Drum drum=drumMap.get(k);
-		    if (drum==null)
-			Log.info("Drum %d not in drumMap",k);
-		    if (drum!=null && drum.voice==voice)
-			q.add(new EventAndDrum((Gpfile.NoteEvent)e,drum));
-		}
+	    for (Gpfile.Event e:filtered){
+		int k=((Gpfile.NoteEvent)e).getNote();
+		Drum drum=drumMap.get(k);
+		if (drum==null)
+		    Log.info("Drum %d not in drumMap",k);
+		if (drum!=null && drum.voice==voice)
+		    q.add(new EventAndDrum((Gpfile.NoteEvent)e,drum));
+	    }
 	    if (q.size()!=0)
 		nonEmptyCount++;
 	}

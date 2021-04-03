@@ -6,7 +6,7 @@ class SuperTrackFileMaker extends ChoppedTrackFileMaker{
 	super(main,arg,arg.name,suffix,arg.name,skip);
     }
     @Override boolean filterEvents(Gpfile.Event event){
-	return event instanceof Gpfile.NoteEvent;
+	return event instanceof Gpfile.NoteEvent && !(arg.no_ghost_notes && ((Gpfile.NoteEvent)event).is_ghost);
     }
     @Override final void layout(MusicFileMaker mfm)throws IOException{
 	if (arg.layout_who==null)
