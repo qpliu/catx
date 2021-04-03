@@ -1,0 +1,39 @@
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+mark=1st verse count=17 fudgeLyrics=192 divisions=12288 seconds=14.999999999999998 measure=9.0
+mark=chorus count=66 fudgeLyrics=192 divisions=26112 seconds=31.874999999999996 measure=18.0
+mark=solo (1st part) count=173 fudgeLyrics=192 divisions=62976 seconds=76.87499999999999 measure=42.0
+mark=solo(2nd part count=190 fudgeLyrics=192 divisions=75264 seconds=91.87499999999999 measure=50.0
+mark=Keyboard fills count=259 fudgeLyrics=192 divisions=99840 seconds=121.87499999999999 measure=66.0
+WorstAge=2147485184
+Playing out.midi
+MIDI file: out.midi
+Format: 1  Tracks: 6  Divisions: 384
+Sequence: midiGg
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
+Track name: midiKaraoke
+Track name: midiOne
+->@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2!mark=1st verse|-@|!bg=1Well|!bg=you'rearealtoughcoo-kiewithalonghis-to-ry->ofbrea-kinglit-tleheartsliketheoneinme-->That'sO.K.let'ssee-howyoudoit->PutupyourdukesLet'sgetdowntoit>Hit|!mark=chorusmewithyourbestshot->Whydon'tyouhitmewithyourbestshot-->Hitmewithyourbestshot->Fire-a-way-->Youcomeonwithacomeonyoudon'tfightfair-->butthat'sO.K.->SeeifIcare-->Knockmedownit'sall-invain->I'llgetrightbackonmyfeeta-gain->Hitmewithyourbestshot->Whydon'tyouhitmewithyourbestshot-->Hitmewithyourbestshot-fire-a-way->@@@!mark=solo (1st part)|-@@@@@@@@@@@@@@@@!mark=solo(2nd part|-@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Well|!bg=you'rearealtoughcoo-kiewithalonghis-to-ry->ofbrea-kinglit-tleheartsliketheoneinme->Be-foreIputa-no-thernotch-inmylip-stickcase->youbet-termakesureyouputmeinmyplace->Hit|!mark=Keyboard fillsmewithyourbestshot->C'monhitmewithyourbestshot-->Hitmewithyourbestshot->Fire-a-way-->Hitmewithyourbestshot->Whydon'tyouhitmewithyourbestshot-->Hitmewithyourbestshot->Fire-a-way-@@----------Playing time: ~170 seconds
+Notes cut: 0
+Notes lost totally: 0
+Wrote 17131559/29717964 bytes(57.6471% compressed)
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+warning: compressing over-full page by 1.2 staff-spaces
+warning: page 4 has been compressed
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+     90 measure=all
+     90 measure=kav
+     90 measure=gg
+     90 measure=peter
+     90 measure=susan
+     90 measure=bass
