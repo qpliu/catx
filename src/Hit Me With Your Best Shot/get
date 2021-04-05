@@ -1,6 +1,8 @@
 #!/bin/sh
+DRUMMAP="57 cymc 0,43 tomml 0,41 toml 0,"
 java -jar ../../guitarproToLy/1.jar < 3611132.gp5 \
 markup-extra 0 '\key e \major' \
+drumMap "$DRUMMAP" \
 track 0 preset peter output-lilypond output-dotext \
 track 1 preset peter output-lilypond output-dotext \
 track 2 preset peter output-lilypond output-dotext \
