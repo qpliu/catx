@@ -1,0 +1,97 @@
+guitarADotext = {
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "1st verse" #9
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "chorus" #18
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "solo (1st part)" #42
+    \skip1 |
+    `slide`8. \skip2. \skip16 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip8. `slide`4.~ `slide`16 `slide`4~ `slide`16 \skip16 |
+    `.(cis')bend0:0:15:100:30:100:45:0:60:0`4. \skip2 `slide`8~ |
+\mymark "solo(2nd part" #50
+    `slide`8 \skip2. \skip8 |
+    \skip1 |
+    \skip8 `slide`2.~ `slide`8 |
+    `slide`4 \skip4. `slide`8~ <`slide` `.(fis,)bend0:0:15:200:30:200:45:0:60:0`> `.(fis,)bend0:0:30:100:60:100` |
+    \skip2 `.(b)bend0:0:30:100:60:100`2 |
+    \skip2. `slide`8. `.(d'')bend0:0:15:100:30:100:45:0:60:0`16 |
+    `.(d'')bend0:0:15:100:30:100:45:0:60:0`8 `.(d'')bend0:0:30:100:60:100`4 `.(a)bend0:0:15:100:30:100:45:0:60:0`8 `.(a)bend0:0:15:100:30:100:45:0:60:0` \skip8 `slide`8. \skip16 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    `.(b)bend0:0:30:100:60:100`4 \skip2. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    `.(b)bend0:0:30:100:60:100`2 \skip2 |
+    `.(b,)bend0:0:15:100:30:100:45:0:60:0`8 `.(b,)bend0:0:15:100:30:100:45:0:60:0` \skip2. |
+\mymark "Keyboard fills" #66
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}

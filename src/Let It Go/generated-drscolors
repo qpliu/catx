@@ -24,103 +24,103 @@ drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     r1 |
     r1 |
     r1 |
+    r2. r8 \parenthesize hho |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh \parenthesize hho \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh \parenthesize hho \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh \parenthesize hho \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh \parenthesize hho \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh \parenthesize hho \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh \parenthesize hho \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh \parenthesize hho \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh \parenthesize hho \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh \parenthesize hho \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh \parenthesize hho2 |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh <\parenthesize hho cymc> \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh <\parenthesize hho cymc> \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh <\parenthesize hho cymc> \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh <\parenthesize hho cymc> \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh <\parenthesize hho cymc> \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh <\parenthesize hho cymc> \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh <\parenthesize hho cymc> \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh <\parenthesize hho cymc> \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh <\parenthesize hho cymc> \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh <\parenthesize hho cymc> \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh <\parenthesize hho cymc> \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh <\parenthesize hho cymc> \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh <\parenthesize hho cymc> \parenthesize hh \parenthesize hho \parenthesize hh |
+    \parenthesize hho8 \parenthesize hh \parenthesize hho \parenthesize hh <\parenthesize hho cymc> \parenthesize hh \parenthesize hho \parenthesize hh |
     r1 |
     r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r2 cymc |
-    r2 cymc |
-    r2 cymc |
-    r2 cymc |
-    r2 cymc |
-    r2 cymc |
-    r2 cymc |
-    r2 cymc |
-    r2 cymc |
-    r2 cymc |
-    r2 cymc |
-    r2 cymc |
-    r2 cymc |
-    r2 cymc |
-    r1 |
-    r1 |
-    << { r4 hho8 hho4. hho4 | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r4 hho8 hho4. hho4 | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r4 hho8 hho4. sn4 | } \context DrumVoice = "drsb" { bd2 bd | } >>
-    << { r4 sn sn sn | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r4 sn sn sn | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r4 sn sn sn | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r2 sn | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r2 sn | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r2 sn | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r2 sn | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r2 sn | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r2 sn | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r2 sn | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r2 sn | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r2 sn | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r2 sn | } \context DrumVoice = "drsb" { bd1 | } >>
-    bd4 bd bd bd |
-    << { hh4 hh hh hh | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
-    << { hh4 hh hh2 | } \context DrumVoice = "drsb" { bd4 bd bd2 | } >>
-    << { cymc2 sn | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
-    << { r8 sn4. sn2 | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
-    << { r2 sn | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
-    << { r8 sn4. sn2 | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
-    << { cymc2 sn | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
-    << { r8 sn4. sn2 | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
-    << { r2 sn | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
-    << { r8 sn4. sn2 | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
-    << { cymc2 sn4 cymc | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
-    << { r8 sn4. sn2 | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
-    << { cymc2 sn4 cymc | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
-    << { r8 sn4. sn2 | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
-    << { cymc2 sn | } \context DrumVoice = "drsb" { bd2. bd4 | } >>
-    << { r2 sn | } \context DrumVoice = "drsb" { r2. r8 bd | } >>
+    << { r4 hho8 hho \parenthesize hh4 hho | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { r4 hho8 hho \parenthesize hh4 hho | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { r4 hho8 hho \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+    << { \parenthesize hh8 \parenthesize hh <sn \parenthesize hh> \parenthesize hh <sn \parenthesize hh> \parenthesize hh <sn \parenthesize hh> \parenthesize hh | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { \parenthesize hh8 \parenthesize hh <sn \parenthesize hh> \parenthesize hh <sn \parenthesize hh> \parenthesize hh <sn \parenthesize hh> \parenthesize hh | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { \parenthesize hh8 \parenthesize hh <sn \parenthesize hh> \parenthesize hh <sn \parenthesize hh> \parenthesize hh <sn \parenthesize hh> \parenthesize hh | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { \parenthesize hh8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { \parenthesize hh8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { \parenthesize hh8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { \parenthesize hh8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { <\parenthesize cymc \parenthesize hh>8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { \parenthesize hh8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { <\parenthesize cymc \parenthesize hh>8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { \parenthesize hh8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { <\parenthesize cymc \parenthesize hh>8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { \parenthesize hh8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { \parenthesize hh8 \parenthesize hh \parenthesize hh \parenthesize hh \parenthesize hh \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    << { hh8 \parenthesize hh hh \parenthesize hh hh \parenthesize hh hh \parenthesize hh | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    << { hh8 \parenthesize hh hh \parenthesize hh hh \parenthesize hh4. | } \context DrumVoice = "drsb" { bd4 bd bd2 | } >>
+    << { <cymc \parenthesize hh>8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
+    << { \parenthesize hh8 <sn \parenthesize hh> \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
+    << { \parenthesize hh8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
+    << { \parenthesize hh8 <sn \parenthesize hh> \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
+    << { <cymc \parenthesize hh>8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
+    << { \parenthesize hh8 <sn \parenthesize hh> \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
+    << { \parenthesize hh8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
+    << { \parenthesize hh8 <sn \parenthesize hh> \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
+    << { <cymc \parenthesize hh>8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh <cymc \parenthesize hh> \parenthesize hh | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
+    << { \parenthesize hh8 <sn \parenthesize hh> \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
+    << { <cymc \parenthesize hh>8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh <cymc \parenthesize hh> \parenthesize hh | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
+    << { \parenthesize hh8 <sn \parenthesize hh> \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
+    << { <cymc \parenthesize hh>8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd2. bd4 | } >>
+    << { \parenthesize hh8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { r2. r8 bd | } >>
     << { <cymc rb>4 rb rb rb | } \context DrumVoice = "drsb" { bd1 | } >>
     rb4 rb rb rb |
     rb4 rb rb rb |
     << { rb4 rb rb rb | } \context DrumVoice = "drsb" { r2. r8 bd | } >>
-    bd2 bd |
-    bd2 bd |
-    bd2 bd |
-    bd2 bd |
-    bd2 bd |
-    bd2 bd |
-    bd2 bd |
-    bd2 bd4. bd8 |
-    bd2 bd |
-    bd2 bd |
-    bd2 bd |
-    bd2 bd |
+    << { \parenthesize hh2 \parenthesize hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+    << { \parenthesize hh2 \parenthesize hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+    << { \parenthesize hh2 \parenthesize hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+    << { \parenthesize hh2 \parenthesize hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+    << { \parenthesize hh2 \parenthesize hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+    << { \parenthesize hh2 \parenthesize hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+    << { \parenthesize hh2 \parenthesize hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+    << { \parenthesize hh2 \parenthesize hh | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>
+    << { \parenthesize hh2 \parenthesize hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+    << { \parenthesize hh2 \parenthesize hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+    << { \parenthesize hh2 \parenthesize hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
+    << { \parenthesize hh2 \parenthesize hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
     cymc1 |
     r1 |
     sn8 hh sn hh sn hh sn hh |
     <sn hh>8 hh <sn hh> hh <sn hh> <sn hh> <sn hh> <sn hh> |
     <sn hh>8 <sn hh> <sn hh> <sn hh> <sn hh>2 |
-    << { cymc2 sn | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
-    << { r8 sn4. sn2 | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
-    << { r2 sn | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
-    << { r8 sn4. sn2 | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
-    << { cymc2 sn | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
-    << { r8 sn4. sn2 | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
-    << { r2 sn | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
-    << { r8 sn4. sn2 | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
-    << { cymc2 sn4 cymc | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
-    << { r8 sn4. sn2 | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
-    << { cymc2 sn4 cymc | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
-    << { r8 sn4. sn2 | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
-    << { cymc2 sn4. sn8 | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { cymc2 sn4 cymc | } \context DrumVoice = "drsb" { bd2. bd4 | } >>
-    r2 sn |
-    sn8 sn sn sn sn sn sn sn |
+    << { <cymc \parenthesize hh>8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
+    << { \parenthesize hh8 <sn \parenthesize hh> \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
+    << { \parenthesize hh8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
+    << { \parenthesize hh8 <sn \parenthesize hh> \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
+    << { <cymc \parenthesize hh>8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
+    << { \parenthesize hh8 <sn \parenthesize hh> \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
+    << { \parenthesize hh8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
+    << { \parenthesize hh8 <sn \parenthesize hh> \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
+    << { <cymc \parenthesize hh>8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh <cymc \parenthesize hh> \parenthesize hh | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
+    << { \parenthesize hh8 <sn \parenthesize hh> \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
+    << { <cymc \parenthesize hh>8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh <cymc \parenthesize hh> \parenthesize hh | } \context DrumVoice = "drsb" { bd2. r8 bd | } >>
+    << { \parenthesize hh8 <sn \parenthesize hh> \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh | } \context DrumVoice = "drsb" { bd4 bd2. | } >>
+    << { <cymc \parenthesize hh>8 \parenthesize sn \parenthesize sn \parenthesize sn sn \parenthesize sn16 \parenthesize sn \parenthesize sn8 sn | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { <cymc \parenthesize hh>8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh <cymc \parenthesize hh> \parenthesize hh | } \context DrumVoice = "drsb" { bd2. bd4 | } >>
+    \parenthesize hh8 \parenthesize hh \parenthesize hh \parenthesize hh <sn \parenthesize hh> \parenthesize hh \parenthesize hh \parenthesize hh |
+    <sn \parenthesize hh>8 <sn \parenthesize hh> <sn \parenthesize hh> <sn \parenthesize hh> <sn \parenthesize hh> <sn \parenthesize hh> <sn \parenthesize hh> <sn \parenthesize hh> |
     r1 |
     r1 |
     r1 |

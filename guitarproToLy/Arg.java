@@ -48,7 +48,6 @@ final class Arg implements Serializable{
 	    midi_who = "midiGg";
 	    instrument_name = "Drums";
 	    instrument_short_name = "Drs";
-	    no_ghost_notes = true;
 	}else if (preset.equals("kav")){
 	    name = "vocals";
 	    layout_who = "allPart kavPart";

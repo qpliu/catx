@@ -1,0 +1,97 @@
+guitarBDotext = {
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    `slide`4 `slide` `slide` `slide`~ |
+    `slide`4 \skip2. |
+    \skip2. `slide`4~ |
+    `slide`4 \skip2. |
+\mymark "1st verse" #9
+    \skip8 `slide`4 `slide` `slide`4.~ |
+    `slide`2 \skip2 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "chorus" #18
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    `slide`4 `slide` `slide` `slide`~ |
+    `slide`4 \skip2. |
+    \skip1 |
+    \skip1 |
+    `slide`4 `slide` `slide` `slide`~ |
+    `slide`2 \skip2 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    `slide`4 `slide` `slide` `slide`~ |
+    `slide`4 \skip2. |
+    \skip1 |
+    \skip1 |
+    `slide`4 `slide` `slide` `slide`~ |
+\mymark "solo (1st part)" #42
+    `slide`16 \skip2. \skip8. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    `.(a')bend0:0:30:100:60:100`16 `.(a')bend0:0:30:50:60:50` `.(a')bend0:0:30:50:60:50` \skip2. \skip16 |
+    `.(cis')bend0:0:30:100:60:100`4. `.(cis')bend0:0:15:100:30:100:45:0:60:0`16 \skip2 \skip16 |
+\mymark "solo(2nd part" #50
+    `slide`4 \skip2. |
+    \skip2 \skip16 `.(fis)bend0:0:15:100:30:100:45:75:50:100:60:0`8. \skip4 |
+    \skip1 |
+    \skip1 |
+    \skip4. `.(b)bend0:0:30:100:60:100`2~ `.(b)bend0:0:30:100:60:100`8~ |
+    `.(b)bend0:0:30:100:60:100`2 \skip4. `.(d'')bend0:0:30:100:60:100`8 |
+    `.(d'')bend0:0:30:100:60:100`4 \skip8 `.(a)bend0:0:30:100:60:100`8 `.(a)bend0:0:30:100:60:100`4 \skip4 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Keyboard fills" #66
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    `slide`4 `slide` `slide` `slide`~ |
+    `slide`4 \skip2. |
+    \skip1 |
+    \skip1 |
+    `slide`4 `slide` `slide` `slide`~ |
+    `slide`4 \skip2. |
+    \skip1 |
+    \skip1 |
+    `slide`4 `slide` `slide` `slide`~ |
+    `slide`4 \skip2. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2 \tuplet 3/2 { `.(g,)bend0:0:30:100:60:100`4 `.(g,)bend0:0:30:100:60:100` `.(g,)bend0:0:30:100:60:100` } |
+    \skip1 |
+    \skip1 |
+}
