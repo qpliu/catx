@@ -9,7 +9,7 @@ SCALE2="c cis d ees e f fis g gis a bes b"
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
 markup-extra 1 '\key f \minor' \
 markup-extra 34 '\key aes \major' \
-add-lyrics 0 1 "$LYRICS" \
+add-lyrics arg 0 1 "$LYRICS" \
 scale "$SCALE" \
 drumMap "$DRUMMAP" \
 track 0 \

@@ -4,17 +4,17 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-mark=Chorus 1 count=41 fudgeLyrics=24 divisions=30720 seconds=51.063759999999995 measure=21.0
-mark=Interlude count=96 fudgeLyrics=24 divisions=49152 seconds=81.70201599999999 measure=33.0
-mark=Verse 1 count=105 fudgeLyrics=24 divisions=55296 seconds=91.914768 measure=37.0
-mark=Verse 2 count=141 fudgeLyrics=24 divisions=67584 seconds=112.34027199999998 measure=45.0
-mark=Chorus 2 count=182 fudgeLyrics=24 divisions=79872 seconds=132.765776 measure=53.0
-mark=Interlude count=257 fudgeLyrics=24 divisions=104448 seconds=173.616784 measure=69.0
-mark=Verse 3 count=267 fudgeLyrics=24 divisions=110592 seconds=183.829536 measure=73.0
-mark=Verse 4 count=302 fudgeLyrics=24 divisions=122880 seconds=204.25503999999998 measure=81.0
-mark=Chorus 3 count=344 fudgeLyrics=24 divisions=135168 seconds=224.68054399999997 measure=89.0
-mark=Chorus 4 count=417 fudgeLyrics=24 divisions=159744 seconds=265.531552 measure=105.0
-mark=fade out count=493 fudgeLyrics=24 divisions=184320 seconds=306.38255999999996 measure=121.0
+mark=Chorus 1 count=41 fudgeLyrics=24 divisions=30720 seconds=51.063759999999995 measure=21.0 track=midiKaraoke
+mark=Interlude count=96 fudgeLyrics=24 divisions=49152 seconds=81.70201599999999 measure=33.0 track=midiKaraoke
+mark=Verse 1 count=105 fudgeLyrics=24 divisions=55296 seconds=91.914768 measure=37.0 track=midiKaraoke
+mark=Verse 2 count=141 fudgeLyrics=24 divisions=67584 seconds=112.34027199999998 measure=45.0 track=midiKaraoke
+mark=Chorus 2 count=182 fudgeLyrics=24 divisions=79872 seconds=132.765776 measure=53.0 track=midiKaraoke
+mark=Interlude count=257 fudgeLyrics=24 divisions=104448 seconds=173.616784 measure=69.0 track=midiKaraoke
+mark=Verse 3 count=267 fudgeLyrics=24 divisions=110592 seconds=183.829536 measure=73.0 track=midiKaraoke
+mark=Verse 4 count=302 fudgeLyrics=24 divisions=122880 seconds=204.25503999999998 measure=81.0 track=midiKaraoke
+mark=Chorus 3 count=344 fudgeLyrics=24 divisions=135168 seconds=224.68054399999997 measure=89.0 track=midiKaraoke
+mark=Chorus 4 count=417 fudgeLyrics=24 divisions=159744 seconds=265.531552 measure=105.0 track=midiKaraoke
+mark=fade out count=493 fudgeLyrics=24 divisions=184320 seconds=306.38255999999996 measure=121.0 track=midiKaraoke
 WorstAge=2147486720
 Playing out.midi
 MIDI file: out.midi

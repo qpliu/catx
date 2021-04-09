@@ -1,0 +1,137 @@
+vocaloidVocaloid = \new Lyrics \lyricmode {
+\mymark "Intro" #1
+    "!mark=Intro"1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+\mymark "Verse 1" #9
+    "!mark=Verse 1"2. "!lang=en|Just"8 "a"
+    "small"8 "town"4 "girl"4. "."4
+    "."2 "Liv"8 "ving" "in" "a"
+    "lone"4 "lee"8 "were"4 "old"4.
+    "."2 "."8 "She" "took" "the"
+    "mid"8 "night"4 "train" "go" "in"8
+    "eh"4. "knee" "where."4
+    \skip4 "."2.
+\mymark "Verse 2" #17
+    "!mark=Verse 2"2. "Just"8 "a"
+    "cih"8 "tee"4 "boy"4. "."4
+    "."2 "born"8 "and" "raised" "in"
+    "South"4 "Dee"8 "troit"2 \skip8
+    "."2 "."8 "He" "took" "the"
+    "mid"8 "night"4 "train" "go" "in"8
+    "eh"4. "knee" "where."4
+\mymark "Guitar Fill" #24
+    "!mark=Guitar Fill"2 \skip2
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+\mymark "Verse 3" #33
+    "!mark=Verse 3"4. "A"8 "see" "guer" "in" "a"
+    "smo"8 "key"4 "room"4. "."4
+    "."4. "A"8 "smell"16 "of" "wine"4 "and"8
+    "cheap"4 "per"8 "few"4 "ume"4.
+    "."4 "For"8 "a" "smi" "le" "they" "can"
+    "share"4 "the"8 "night." \tuplet 3/2 { "."4 "It" "goes" }
+    "on"4 "and"8 "on,"4. "and"8 "on,"
+    \skip4 "and"8 "on."16 "."2 "."16
+\mymark "Bridge" #41
+    "Strain|!mark=Bridge"4. "jers" \skip4
+    "way"4. "ting" "."4
+    "."2 "Up"8 "and" "down" "the"
+    "bou"4 "le"8 "vard."4. "Their"4
+    "sha"4. "dows" "."4
+    "sir"4. "ching"8 "." "in" "the" "night."
+    \skip4 "."2.
+    "."1
+    "Street"4. "lights," "."4
+    "pea"4. "pole" "."4
+    "."2 "Liv"8 "ving" "just" "to"
+    "find"4 "e"8 "mo"4. "shun."4
+    "High"4. "ding" "."4
+    "some"4. "where"8 "in" "the" "night," "."
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+\mymark "Verse 4" #61
+    "!mark=Verse 4"4 "Were"8 "king" "hard" \skip4 "to"8
+    "get"8 "my"4 "fill,"8 "."2
+    "."2 "Eh"16 "very" "bud"8 "dee"4
+    "wants"4 "a"8 "thrill," "."2
+    "."4 "Pay"8 "in" "eh" "knee" "thing" "to"
+    "roll"4 "the"8 "dice"16 "."4. "."16 "Just"8
+    "one"4. "more" "time."4
+    \skip2. "."4
+\mymark "Verse 5" #69
+    "!mark=Verse 5"4 "Some"8 "will" "win," \skip4.
+    \tuplet 3/2 { "."4 "some" "will" } "loo"8 "ooze"4 "."8
+    "."2 "Some"16 "were" "born"4 "to"8
+    "sing"4 "the"8 "blue"4 "ooze"4.
+    "."4 "Oh,"8 "the" "moo" "vee"4 "neh"8
+    \skip8 "ver"4 "ends."16 \tuplet 3/2 { "."4 } "."16 \tuplet 3/2 { "It"4 "goes" }
+    "on"4 "and"8 "on,"4. "and"8 "on,"
+    \skip4 "and"8 "on."16 "."2 "."16
+\mymark "Bridge" #77
+    "Strain|!mark=Bridge"4. "jers" \skip4
+    "way"4. "ting" "."4
+    "."2 "Up"8 "and" "down" "the"
+    "bou"4 "le"8 "vard."4. "Their"4
+    "sha"4. "dows" "."4
+    "sir"4. "ching"8 "." "in" "the" "night."
+    \skip4 "."2.
+    "."1
+    "Street"4. "lights," "."4
+    "pea"4. "pole" "."4
+    "."2 "Liv"8 "ving" "just" "to"
+    "find"4 "e"8 "mo"4. "shun."4
+    "High"4. "ding" "."4
+    "some"4. "where"8 "." "in" "the" "night,"
+    "."1
+    "."1
+\mymark "Guitar Solo" #93
+    "!mark=Guitar Solo"1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+\mymark "Chorus" #101
+    "Doe|!mark=Chorus"8 "ownt"4 "stop"8 \skip4. "be"8
+    "lee"4 "eave"8 "in'"4 "."4.
+    "."2 "Hold"8 "on" "to" "the"
+    "feel"4 "in'"16 "."2 "."8.
+    "Street"4 "."8 "lights,"4 "."4.
+    "pea"4 "ee"8 "pole" "."2
+    "."1
+    "."1
+    "Doe"8 "ownt"4 "stop"8 "."4. "be"8
+    "lee"4 "eave"8 "in'"4 "."4.
+    "."8 "Hold"16 "."8. "on"8 "to" "the"16 "." "fee"8 "eel"
+    "in'"4 "."2.
+    "Street"4 "."8 "lights," "."2
+    "pea"4 "ee"8 "pole" "."2
+    "."1
+    "."1
+    "Doe"8 "ownt"4 "stop"8 "."4. "be"8
+    "lee"4 "eve"8 "in'"4 "."4.
+    "."8 "Hold"4 "on" "to"8 "the" "."
+    "feel"8. "in'" "."2 "."8
+    "Stree"4 "eet"8 "lights,"4 "."4.
+    "pea"4 "ee"8 "pole" "."2
+    "."1
+    "."1
+}

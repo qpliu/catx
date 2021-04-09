@@ -19,6 +19,8 @@ final class Arg implements Serializable{
     boolean output_karaoke;
     boolean output_lilypond;
     boolean output_lyrics;
+    boolean output_vocaloid;
+    boolean no_chords;
     boolean no_ghost_notes;
     boolean string_numbers;
     Rational shift=Rational.ZERO;
@@ -48,6 +50,10 @@ final class Arg implements Serializable{
 	    midi_who = "midiGg";
 	    instrument_name = "Drums";
 	    instrument_short_name = "Drs";
+	}else if (preset.equals("vocaloid")){
+	    name = "vocaloid";
+	    midi_who = "midiVocaloid";
+	    no_chords = true;
 	}else if (preset.equals("kav")){
 	    name = "vocals";
 	    layout_who = "allPart kavPart";
@@ -106,6 +112,7 @@ final class Arg implements Serializable{
 	System.err.println("[modified-filename filename]  Don't generate generated-filename.");
 	System.err.println("[music-extra measure stuff]  Extra stuff for music.");
 	System.err.println("[name name]  Specify name.");
+	System.err.println("[no-chords]  Get rid of chords.");
 	System.err.println("[no-ghost-notes]  Get rid of ghost notes.");
 	System.err.println("[output-chords]  Output chords.");
 	System.err.println("[output-dotext]  Output dotext.");
@@ -113,6 +120,7 @@ final class Arg implements Serializable{
 	System.err.println("[output-karaoke]  Output karaoke.");
 	System.err.println("[output-lilypond]  Output lilypond.");
 	System.err.println("[output-lyrics]  Output lyrics.");
+	System.err.println("[output-vocaloid]  Output vocaloid.");
 	System.err.println("[prefix prefix]  Prepend prefix to output filenames.");
 	System.err.println("[preset who]  Use preset settings.");
 	System.err.println("[scale scale]  Specify note spelling.  Something like scale \"c des eisis\"");
@@ -137,9 +145,9 @@ final class Arg implements Serializable{
 		arg.drumMap = argv[++i];
 	    else if (argv[i].equals("add-lyrics")){
 		Gpfile.TrackMeasureLyrics tml=new Gpfile.TrackMeasureLyrics();
+		tml.which = argv[++i];
 		tml.track = Integer.parseInt(argv[++i]);
 		tml.startingMeasure = Integer.parseInt(argv[++i]);
-		tml.which = "arg";
 		tml.lyrics = argv[++i];
 		arg.add_lyrics.add(tml);
 	    }else if (argv[i].equals("generate-lyrics"))
@@ -168,6 +176,8 @@ final class Arg implements Serializable{
 		Stuff.add(arg.music_extra,Math.max(Integer.parseInt(argv[++i])-1,0),argv[++i]);
 	    else if (argv[i].equals("name"))
 		arg.name = argv[++i];
+	    else if (argv[i].equals("no-chords"))
+		arg.no_chords = true;
 	    else if (argv[i].equals("no-ghost-notes"))
 		arg.no_ghost_notes = true;
 	    else if (argv[i].equals("output-chords"))
@@ -182,6 +192,8 @@ final class Arg implements Serializable{
 		arg.output_lilypond = true;
 	    else if (argv[i].equals("output-lyrics"))
 		arg.output_lyrics = true;
+	    else if (argv[i].equals("output-vocaloid"))
+		arg.output_vocaloid = true;
 	    else if (argv[i].equals("prefix"))
 		arg.prefix = argv[++i];
 	    else if (argv[i].equals("preset"))

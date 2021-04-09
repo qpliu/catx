@@ -4,16 +4,16 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-mark=Intro count=0 fudgeLyrics=48 divisions=0 seconds=0.0 measure=1.0
-mark=Verse count=10 fudgeLyrics=48 divisions=6912 seconds=13.499999999999998 measure=7.0
-mark=Riff count=65 fudgeLyrics=48 divisions=20736 seconds=40.49999999999999 measure=19.0
-mark=Verse count=92 fudgeLyrics=48 divisions=27648 seconds=53.99999999999999 measure=25.0
-mark=Riff count=129 fudgeLyrics=48 divisions=42624 seconds=83.24999999999999 measure=37.0
-mark=Riff count=195 fudgeLyrics=48 divisions=80064 seconds=156.37499999999997 measure=65.0
-mark=Verse count=278 fudgeLyrics=48 divisions=126144 seconds=246.37499999999997 measure=95.0
-mark=Riff count=304 fudgeLyrics=48 divisions=142272 seconds=277.875 measure=107.0
-mark=Verse count=328 fudgeLyrics=48 divisions=149184 seconds=291.37499999999994 measure=113.0
-mark=Riff count=385 fudgeLyrics=48 divisions=163008 seconds=318.37499999999994 measure=125.0
+mark=Intro count=0 fudgeLyrics=48 divisions=0 seconds=0.0 measure=1.0 track=midiKaraoke
+mark=Verse count=10 fudgeLyrics=48 divisions=6912 seconds=13.499999999999998 measure=7.0 track=midiKaraoke
+mark=Riff count=65 fudgeLyrics=48 divisions=20736 seconds=40.49999999999999 measure=19.0 track=midiKaraoke
+mark=Verse count=92 fudgeLyrics=48 divisions=27648 seconds=53.99999999999999 measure=25.0 track=midiKaraoke
+mark=Riff count=129 fudgeLyrics=48 divisions=42624 seconds=83.24999999999999 measure=37.0 track=midiKaraoke
+mark=Riff count=195 fudgeLyrics=48 divisions=80064 seconds=156.37499999999997 measure=65.0 track=midiKaraoke
+mark=Verse count=278 fudgeLyrics=48 divisions=126144 seconds=246.37499999999997 measure=95.0 track=midiKaraoke
+mark=Riff count=304 fudgeLyrics=48 divisions=142272 seconds=277.875 measure=107.0 track=midiKaraoke
+mark=Verse count=328 fudgeLyrics=48 divisions=149184 seconds=291.37499999999994 measure=113.0 track=midiKaraoke
+mark=Riff count=385 fudgeLyrics=48 divisions=163008 seconds=318.37499999999994 measure=125.0 track=midiKaraoke
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi

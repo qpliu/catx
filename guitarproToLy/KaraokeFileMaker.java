@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
+final class KaraokeFileMaker extends VKFileMaker{
     private final Rational bounce_time;
     private final int threshold_to_add_count;
     private final int threshold_to_add_bounce;
@@ -33,17 +33,9 @@ final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
 	addPictures();
 	addBounces();
 	addLineBreaks();
-	addRehearsalMarks();
 	addEnd();
     }
-    @Override void layout(MusicFileMaker mfm)throws IOException{
-    }
-    @Override void printMeasure(String measure){
-	if (measure.endsWith(" |"))
-	    measure = measure.substring(0,measure.length()-2);
-	super.printMeasure(measure);
-    }
-    List<Gpfile.LyricEvent>getNoBang(){
+    private List<Gpfile.LyricEvent>getNoBang(){
 	List<Gpfile.LyricEvent>l=new ArrayList<Gpfile.LyricEvent>();
 	for (Queue<Gpfile.Event>queue=getFilteredEvents(trackEvents); queue.size()!=0;){
 	    Gpfile.LyricEvent le=(Gpfile.LyricEvent)queue.poll();
@@ -53,7 +45,7 @@ final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
 	Collections.sort(l);
 	return l;
     }
-    void addPictures(){
+    private void addPictures(){
 	Gpfile.LyricEvent clearImg=null;
 	for (Iterator<Gpfile.LyricEvent>it=getNoBang().iterator(); it.hasNext();){
 	    Gpfile.LyricEvent le=it.next();
@@ -76,12 +68,7 @@ final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
 	if (clearImg!=null)
 	    trackEvents.add(clearImg);
     }
-    void addRehearsalMarks(){
-	for (Gpfile.Measure measure:main.gpfile.measures)
-	    if (measure.rehearsalMark!=null)
-		trackEvents.add(new Gpfile.LyricEvent(measure.time,new Rational(measure.time_n),"!mark="+measure.rehearsalMark,false,false,null));
-    }
-    void addBounces(){
+    private void addBounces(){
 	Rational lastTime=Rational.ZERO;
 	for (Gpfile.LyricEvent le:getNoBang()){
 	    int bounces;
@@ -106,7 +93,7 @@ final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
 		lastTime = end;
 	}
     }
-    double breakScore(Gpfile.LyricEvent previous,Gpfile.LyricEvent next){
+    private double breakScore(Gpfile.LyricEvent previous,Gpfile.LyricEvent next){
 	double score=-30;
 	char p=previous.lyric.charAt(previous.lyric.length()-1);
 	char n=next.lyric.charAt(0);
@@ -119,16 +106,16 @@ final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
 	score += previous.duration.doubleValue()*4+next.time.subtract(previous.time.add(previous.duration)).doubleValue()*10;
 	return score;
     }
-    double stringLengthScore(double len){
+    private double stringLengthScore(double len){
 	return len>maximum_length?Double.NEGATIVE_INFINITY:0;
     }
-    static double stringLength(Gpfile.LyricEvent le){
+    private static double stringLength(Gpfile.LyricEvent le){
 	String s=le.lyric;
 	if (s.startsWith(">"))
 	    s = s.substring(1);
 	return s.length()+(le.hyphen_rhs?0:1);
     }
-    void addLineBreaks(){
+    private void addLineBreaks(){
 	List<Gpfile.LyricEvent>list=getNoBang();
 	for (int end=0; end<list.size();){
 	    Gpfile.LyricEvent le=list.get(end);
@@ -163,7 +150,7 @@ final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
 		}
 	}
     }
-    double getScore(List<Gpfile.LyricEvent>list,int start,boolean[]lineBreak){
+    private double getScore(List<Gpfile.LyricEvent>list,int start,boolean[]lineBreak){
 	double length=0;
 	double score=0;
 	for (int i=0; i<lineBreak.length; i++){
@@ -179,7 +166,7 @@ final class KaraokeFileMaker extends LyricsKaraokeFileMaker{
 	score += stringLengthScore(length);
 	return score;
     }
-    void addEnd(){
+    private void addEnd(){
 	Gpfile.Measure lastMeasure=main.gpfile.measures[main.gpfile.measures.length-1];
 	Rational songEnd=lastMeasure.time.add(lastMeasure.time_n);
 	Rational lastTime=Rational.ZERO;

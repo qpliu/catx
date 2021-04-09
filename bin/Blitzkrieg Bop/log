@@ -3,13 +3,13 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-mark=Intro count=0 fudgeLyrics=48 divisions=0 seconds=0.0 measure=1.0
-mark=Hey, Ho, let's go! count=32 fudgeLyrics=48 divisions=24576 seconds=21.818175999999998 measure=17.0
-mark=Verse 1 & 2 count=63 fudgeLyrics=48 divisions=36864 seconds=32.727264 measure=25.0
-mark=Chorus 1 & 2 count=122 fudgeLyrics=48 divisions=61440 seconds=54.54543999999999 measure=41.0
-mark=Chorus 1 & 2 count=213 fudgeLyrics=48 divisions=98304 seconds=87.27270399999999 measure=65.0
-mark=Verse 3 count=251 fudgeLyrics=48 divisions=112128 seconds=99.54542799999999 measure=74.0
-mark=Outro count=304 fudgeLyrics=48 divisions=135168 seconds=119.99996799999998 measure=89.0
+mark=Intro count=0 fudgeLyrics=48 divisions=0 seconds=0.0 measure=1.0 track=midiKaraoke
+mark=Hey, Ho, let's go! count=32 fudgeLyrics=48 divisions=24576 seconds=21.818175999999998 measure=17.0 track=midiKaraoke
+mark=Verse 1 & 2 count=63 fudgeLyrics=48 divisions=36864 seconds=32.727264 measure=25.0 track=midiKaraoke
+mark=Chorus 1 & 2 count=122 fudgeLyrics=48 divisions=61440 seconds=54.54543999999999 measure=41.0 track=midiKaraoke
+mark=Chorus 1 & 2 count=213 fudgeLyrics=48 divisions=98304 seconds=87.27270399999999 measure=65.0 track=midiKaraoke
+mark=Verse 3 count=251 fudgeLyrics=48 divisions=112128 seconds=99.54542799999999 measure=74.0 track=midiKaraoke
+mark=Outro count=304 fudgeLyrics=48 divisions=135168 seconds=119.99996799999998 measure=89.0 track=midiKaraoke
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi

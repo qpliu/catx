@@ -1,5 +1,5 @@
 % BIN midi system1 system2 system3
-% MERGEMIDI --fudge-lyrics 144
+% MERGEMIDI --fudge-lyrics midiKaraoke=144
 
 \header {
     title = "MOON PRIDE"

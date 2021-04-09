@@ -32,8 +32,10 @@ class LyricsKaraokeFileMaker extends ChoppedTrackFileMaker{
 			--addMinus;
 		    if (le.hyphen_rhs)
 			l = "-"+l;
-		}else if (le.hyphen_lhs)
-		    suffix = " --";
+		}else if (this instanceof LyricsFileMaker){
+		    if (le.hyphen_lhs)
+			suffix = " --";
+		}
 		lyric = lyric==null?l:lyric+'|'+l;
 	    }
 	if (addMinus>0)

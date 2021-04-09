@@ -3,14 +3,14 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-mark=Intro count=0 fudgeLyrics=48 divisions=0 seconds=0.0 measure=1.0
-mark=Verse 1 count=11 fudgeLyrics=48 divisions=6144 seconds=7.679999999999999 measure=5.0
-mark=Chorus 1 count=74 fudgeLyrics=48 divisions=24576 seconds=30.719999999999995 measure=17.0
-mark=Verse 2 count=88 fudgeLyrics=48 divisions=30720 seconds=38.4 measure=21.0
-mark=Chorus 2 count=152 fudgeLyrics=48 divisions=49152 seconds=61.43999999999999 measure=33.0
-mark=Bridge count=195 fudgeLyrics=48 divisions=66048 seconds=82.55999999999999 measure=44.0
-mark=Verse 3 count=238 fudgeLyrics=48 divisions=84480 seconds=105.6 measure=56.0
-mark=Outro count=302 fudgeLyrics=48 divisions=102912 seconds=128.64 measure=68.0
+mark=Intro count=0 fudgeLyrics=48 divisions=0 seconds=0.0 measure=1.0 track=midiKaraoke
+mark=Verse 1 count=11 fudgeLyrics=48 divisions=6144 seconds=7.679999999999999 measure=5.0 track=midiKaraoke
+mark=Chorus 1 count=74 fudgeLyrics=48 divisions=24576 seconds=30.719999999999995 measure=17.0 track=midiKaraoke
+mark=Verse 2 count=88 fudgeLyrics=48 divisions=30720 seconds=38.4 measure=21.0 track=midiKaraoke
+mark=Chorus 2 count=152 fudgeLyrics=48 divisions=49152 seconds=61.43999999999999 measure=33.0 track=midiKaraoke
+mark=Bridge count=195 fudgeLyrics=48 divisions=66048 seconds=82.55999999999999 measure=44.0 track=midiKaraoke
+mark=Verse 3 count=238 fudgeLyrics=48 divisions=84480 seconds=105.6 measure=56.0 track=midiKaraoke
+mark=Outro count=302 fudgeLyrics=48 divisions=102912 seconds=128.64 measure=68.0 track=midiKaraoke
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi

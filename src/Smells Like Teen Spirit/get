@@ -6,7 +6,7 @@ rm -f generated-*
 LYRICS=`cat lyrics`
 SCALE="c des d ees e f ges g aes a bes b"
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
-add-lyrics 0 1 "$LYRICS" \
+add-lyrics arg 0 1 "$LYRICS" \
 drumMap "$DRUMMAP" \
 markup-extra 0 '\key f \minor' \
 track 0 \

@@ -7,6 +7,8 @@ final class LyTrackFileMaker extends SuperTrackFileMaker{
 	super(main,"",arg,MeasureMaker.REST);
     }
     @Override MeasureMaker.GetWhatSuffix getGetWhatSuffix(List<Gpfile.Event>list){
+	if (arg.no_chords)
+	    list = list.subList(list.size()-1,list.size());
 	boolean allTied=true;
 	boolean is_hammer=false;
 	boolean is_slide=false;

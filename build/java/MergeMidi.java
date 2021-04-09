@@ -10,7 +10,7 @@ final class MergeMidi{
 // WTF?  Lilypond adds an extra 48 divisions after each Lyric meta event?  But sometimes it is 144?
 // Sometimes it is 192.  Sometimes 24.
     private static int DEFAULT_FUDGE_LYRICS=48;
-    private static StringTokenizer fudgeLyricsStringTokenizer=new StringTokenizer("");
+    private static Map<String,Integer>fudgeLyricsMap=new HashMap<String,Integer>();
     private final Map<String,List<TextEvent>>textEvents=new HashMap<String,List<TextEvent>>();
     private final List<MetaEvent>metaEvents=new ArrayList<MetaEvent>();
     private final List<Event>events=new ArrayList<Event>();
@@ -348,13 +348,13 @@ final class MergeMidi{
 //		System.err.println("instrument name="+new String(data));
 	    }else if (what==5){
 		if (fudgeLyricsCount==0)
-		    fudgeLyrics = fudgeLyricsStringTokenizer.hasMoreTokens()?Integer.parseInt(fudgeLyricsStringTokenizer.nextToken()):DEFAULT_FUDGE_LYRICS;
+		    fudgeLyrics = fudgeLyricsMap.getOrDefault(outTrackName,DEFAULT_FUDGE_LYRICS);
 		long t=time-fudgeLyrics*fudgeLyricsCount;
-		if ("midiKaraoke".equals(outTrackName))
+		if ("midiKaraoke".equals(outTrackName) || "midiVocaloid".equals(outTrackName))
 		    for (StringTokenizer st=new StringTokenizer(new String(data),"|"); st.hasMoreTokens();){
 			String l=st.nextToken();
 			if (l.startsWith("!mark="))
-			    System.err.println("mark="+l.substring(6)+" count="+fudgeLyricsCount+" fudgeLyrics="+fudgeLyrics+" "+timeToStringAndPrintMap(null,t));
+			    System.err.println("mark="+l.substring(6)+" count="+fudgeLyricsCount+" fudgeLyrics="+fudgeLyrics+" "+timeToStringAndPrintMap(null,t)+" track="+outTrackName);
 		    }
 		metaEvents.add(new LyricEvent(t,id,outTrackIndex,what,data));
 		fudgeLyricsCount++;
@@ -839,9 +839,13 @@ final class MergeMidi{
     public static void main(String[]argv)throws Exception{
 	int j;
 	for (j=0; j<argv.length; j++)
-	    if (argv[j].equals("--fudge-lyrics"))
-		fudgeLyricsStringTokenizer = new StringTokenizer(argv[++j],",");
-	    else
+	    if (argv[j].equals("--fudge-lyrics")){
+		for (StringTokenizer st=new StringTokenizer(argv[++j],","); st.hasMoreTokens();){
+		    String s=st.nextToken();
+		    int i=s.indexOf("=");
+		    fudgeLyricsMap.put(s.substring(0,i),Integer.parseInt(s.substring(i+1)));
+		}
+	    }else
 		break;
 	MergeMidi mm=new MergeMidi();
 	for (int i=j; i<argv.length; i+=2)

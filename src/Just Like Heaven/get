@@ -6,7 +6,7 @@ LYRICS=`cat lyrics`
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
 modified-filename drs \
 markup-extra 0 '\key a \major' \
-add-lyrics 0 1 "$LYRICS" \
+add-lyrics arg 0 1 "$LYRICS" \
 track 0 \
     preset kav \
     layout-extra '\clef "treble_8"' \

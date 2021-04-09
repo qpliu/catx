@@ -11,3 +11,6 @@ track 4 preset bass output-lilypond \
 track 6 preset kav output-lilypond output-lyrics output-karaoke \
 track 5 preset gg output-drums \
 track 7 preset susan output-lilypond
+mv generated-drscolors generated-drscolors-old
+sed <generated-drscolors-old >generated-drscolors -e 's/cymr/cymrred/g'
+rm generated-drscolors-old

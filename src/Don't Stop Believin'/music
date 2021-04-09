@@ -1,5 +1,5 @@
 % BIN midi all kav gg peter susan bass
-% MERGEMIDI --fudge-lyrics 192
+% MERGEMIDI --fudge-lyrics midiKaraoke=192,midiVocaloid=192
 % ROBOT enabled=true
 
 \include "generated-music"

@@ -5,7 +5,7 @@ rm -f generated-*
 LYRICS=`cat lyrics`
 SCALE="c cis d ees e f fis g gis a bes b"
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
-add-lyrics 0 6 "$LYRICS" \
+add-lyrics arg 0 6 "$LYRICS" \
 scale "$SCALE" \
 modified-filename drs \
 track 0 \

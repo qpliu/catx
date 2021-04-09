@@ -1,5 +1,5 @@
 % BIN midi gg system1 system2
-% MERGEMIDI --fudge-lyrics 144
+% MERGEMIDI --fudge-lyrics midiKaraoke=144
 
 \header {
     title = "走れ!"
