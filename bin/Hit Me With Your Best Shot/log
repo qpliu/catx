@@ -4,25 +4,32 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 mark=1st verse count=17 fudgeLyrics=192 divisions=12288 seconds=14.999999999999998 measure=9.0 track=midiKaraoke
 mark=chorus count=66 fudgeLyrics=192 divisions=26112 seconds=31.874999999999996 measure=18.0 track=midiKaraoke
 mark=solo (1st part) count=173 fudgeLyrics=192 divisions=62976 seconds=76.87499999999999 measure=42.0 track=midiKaraoke
 mark=solo(2nd part count=190 fudgeLyrics=192 divisions=75264 seconds=91.87499999999999 measure=50.0 track=midiKaraoke
 mark=Keyboard fills count=259 fudgeLyrics=192 divisions=99840 seconds=121.87499999999999 measure=66.0 track=midiKaraoke
+mark=1st verse count=8 fudgeLyrics=192 divisions=12288 seconds=14.999999999999998 measure=9.0 track=midiVocaloid
+mark=chorus count=55 fudgeLyrics=192 divisions=26112 seconds=31.874999999999996 measure=18.0 track=midiVocaloid
+mark=solo (1st part) count=162 fudgeLyrics=192 divisions=62976 seconds=76.87499999999999 measure=42.0 track=midiVocaloid
+mark=solo(2nd part count=170 fudgeLyrics=192 divisions=75264 seconds=91.87499999999999 measure=50.0 track=midiVocaloid
+mark=Keyboard fills count=232 fudgeLyrics=192 divisions=99840 seconds=121.87499999999999 measure=66.0 track=midiVocaloid
 WorstAge=2147485184
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 6  Divisions: 384
+Format: 1  Tracks: 7  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
+Track name: midiVocaloid
 Track name: midiOne
-->@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2!mark=1st verse|-@|!bg=1Well|!bg=you'rearealtoughcoo-kiewithalonghis-to-ry->ofbrea-kinglit-tleheartsliketheoneinme-->That'sO.K.let'ssee-howyoudoit->PutupyourdukesLet'sgetdowntoit>Hit|!mark=chorusmewithyourbestshot->Whydon'tyouhitmewithyourbestshot-->Hitmewithyourbestshot->Fire-a-way-->Youcomeonwithacomeonyoudon'tfightfair-->butthat'sO.K.->SeeifIcare-->Knockmedownit'sall-invain->I'llgetrightbackonmyfeeta-gain->Hitmewithyourbestshot->Whydon'tyouhitmewithyourbestshot-->Hitmewithyourbestshot-fire-a-way->@@@!mark=solo (1st part)|-@@@@@@@@@@@@@@@@!mark=solo(2nd part|-@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Well|!bg=you'rearealtoughcoo-kiewithalonghis-to-ry->ofbrea-kinglit-tleheartsliketheoneinme->Be-foreIputa-no-thernotch-inmylip-stickcase->youbet-termakesureyouputmeinmyplace->Hit|!mark=Keyboard fillsmewithyourbestshot->C'monhitmewithyourbestshot-->Hitmewithyourbestshot->Fire-a-way-->Hitmewithyourbestshot->Whydon'tyouhitmewithyourbestshot-->Hitmewithyourbestshot->Fire-a-way-@@----------Playing time: ~172 seconds
+-.>@@.@@.@@.@@.@@.@@.@@|!bg=4.@|!bg=3@|!bg=2!mark=1st verse|-!mark=1st verse@|!bg=1Well|!bg=!lang=en|Wellyou'reyou'reatherealrealtoughtoughcoo-cookkieeewithwithaalonglonghis-hihto-storyree-.>ofOfbrea-braykingkinglit-littletleheartsheartslikelikethetheoneoneininmeme-.-.>That'sThat'sO.ohK.kay,let'slet'sseesee-howhowyouyoudodoitit-.>PutPutupupyouryoudukesdukes,Let'slet'sgetgetdowndowntotoitit>Hit|!mark=chorusHit|!mark=chorusmemewithwithyouryourbestbestshotshot-..>WhyWhydon'tdon'tyouyouhithitmemewithwithyouryourbestbestshotshot--.>HitHitmemewithwithyouryourbestbestshotshot-.>FireFie-era-uhwayway-..-..>YouYoucomecomeononwithwithait,comecomeononyouYoudon'tdon'tfightfightfairfair-.-.>butButthat'sthat'sO.ohK.kay,-.>SeeseeififIIcarecare-.-.>KnockKnockmemedowndown,it'sit'sallall-ininvainvain-.>I'llIgetgetrightrightbackbackononmymyfeetfeeta-uhgaingain-.>HitHitmemewithwithyouryourbestbestshotshot-..>WhyWhydon'tdon'tyouyouhithitmemewithwithyouryourbestbestshotshot--.>HitHitmemewithwithyouryourbestbestshotshot-.fireFie-era-uhwayway-.>@..@@!mark=solo (1st part)|-!mark=solo (1st part)@@.@@.@@.@@.@@.@@.@@.@@!mark=solo(2nd part|-!mark=solo(2nd part@@.@@.@@.@@.@@.@@|!bg=4.@|!bg=3@|!bg=2.@|!bg=1.Well|!bg=Wellyou'reyou'reatherealrealtoughtoughcoo-cookkieeewithwithaalonglonghis-hihto-storyree-.>ofOfbrea-braykingkinglit-littletleheartsheartslikelikethetheoneoneininmeme-.>Be-BeforeforeIIputputa-uhno-nuhtherthernotchnotch-.ininmymylip-lipstickstickcasecase-.>youYoubet-bettertermakemakesuresureyouyouputputmemeininmymyplaceplace-.>Hit|!mark=Keyboard fillsHit|!mark=Keyboard fillsmemewithwithyouryourbestbestshotshot-..>C'monC'mon,hithitmemewithwithyouryourbestbestshotshot--.>HitHitmemewithwithyouryourbestbestshotshot-.>FireFie-era-uhwayway-..-.>HitHitmemewithwithyouryourbestbestshotshot-..>WhyWhydon'tdon'tyouyouhithitmemewithwithyouryourbestbestshotshot--.>HitHitmemewithwithyouryourbestbestshotshot-.>FireFie-era-uhwayway-@@.--.-.-.-.-.-.-.-.-.Playing time: ~172 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 17337774/30070764 bytes(57.6566% compressed)
+Wrote 17375035/30070764 bytes(57.7805% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 3.4 staff-spaces

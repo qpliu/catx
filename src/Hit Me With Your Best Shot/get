@@ -1,6 +1,9 @@
 #!/bin/sh
+rm -f generated-*
 DRUMMAP="57 cymc 0,43 tomml 0,41 toml 0,"
+VLYRICS=`cat vocaloid_lyrics`
 java -jar ../../guitarproToLy/1.jar < 3611132.gp5 \
+add-lyrics vocaloid 6 1 "$VLYRICS" \
 markup-extra 0 '\key e \major' \
 drumMap "$DRUMMAP" \
 track 0 preset peter output-lilypond output-dotext \
@@ -8,7 +11,8 @@ track 1 preset peter output-lilypond output-dotext \
 track 2 preset peter output-lilypond output-dotext \
 track 3 preset midiOne output-lilypond \
 track 4 preset bass output-lilypond \
-track 6 preset kav output-lilypond output-lyrics output-karaoke \
+track 6 preset kav which-lyrics text output-lilypond output-lyrics output-karaoke \
+track 6 preset vocaloid which-lyrics vocaloid output-lilypond output-vocaloid \
 track 5 preset gg output-drums \
 track 7 preset susan output-lilypond
 mv generated-drscolors generated-drscolors-old

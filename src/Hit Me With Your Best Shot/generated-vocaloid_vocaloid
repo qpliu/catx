@@ -1,0 +1,97 @@
+vocaloidVocaloid = \new Lyrics \lyricmode {
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+\mymark "1st verse" #9
+    "!mark=1st verse"2 \skip8 "!lang=en|Well"8 "you're" "the"
+    "real"4 "tough" "cook"8 "ee" "with" "a"
+    "long"4 "hih"8 "sto" "ree"4 "."8 "Of"
+    "bray"8 "king" "lit" "tle" "hearts"4 "like"8 "the"
+    "one"8 "in" "me"4 "."2
+    "."8 "That's"4 "oh"8 "kay,"4 "let's"8 "see"
+    \skip8 "how"8 "you" "do"4 "it" "."8
+    "Put"8 "up" "you" "dukes,"4. "let's"4
+    "get"8 "down"4 "to" "it"4.
+\mymark "chorus" #18
+    "Hit|!mark=chorus"8 "me" "with" "your" "best"4 "shot"
+    "."2 "."8 "Why" "don't" "you"
+    "hit"16 "me" "with"8 "your" "best"4 "shot"4.
+    "."1
+    "Hit"8 "me" "with" "your" "best"4 "shot"
+    "."2 "Fie"8 "er" "uh" "way"
+    \skip8 "."2. "."8
+    "."2. "."8 "You"
+    "come"8 "on" "with" "it," "come" "on"4 "You"8
+    "don't"4 "fight" "fair" "."
+    "."8 "But" "that's" "oh" "kay,"4 "."
+    "see"16 "if" "I"4 "care"4. "."4
+    "."8 "Knock"4 "me"8 "down,"4 "it's"8 "all"
+    \skip8 "in"4 "vain" "." "I"8
+    "get"8 "right" "back" "on"4. "my"4
+    "feet"8 "uh"4 "gain"2 "."8
+    "Hit"8 "me" "with" "your" "best"4 "shot"
+    "."2 "."8 "Why" "don't" "you"
+    "hit"16 "me" "with"8 "your" "best"4 "shot"4.
+    "."1
+    "Hit"8 "me" "with" "your" "best"4 "shot"
+    "."2 "Fie"8 "er" "uh" "way"
+    \skip8 "."2. "."8
+    "."1
+\mymark "solo (1st part)" #42
+    "!mark=solo (1st part)"1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+\mymark "solo(2nd part" #50
+    "!mark=solo(2nd part"1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."2 "."8 "Well" "you're" "the"
+    "real"4 "tough" "cook"8 "ee" "with" "a"
+    "long"4 "hih"8 "sto" "ree"4 "."8 "Of"
+    "bray"8 "king" "lit" "tle" "hearts"4 "like"8 "the"
+    "one"8 "in" "me"4 "."8 "Be" "fore" "I"
+    "put"16 "uh" "nuh" "ther"8. "notch"8 "."4 "in"8 "my"
+    "lip"8 "stick"4 "case" "." "You"8
+    "bet"8 "ter" "make"4 "sure"8 "you" "put" "me"
+    "in"8 "my"4 "place" "."4.
+\mymark "Keyboard fills" #66
+    "Hit|!mark=Keyboard fills"8 "me" "with" "your" "best"4 "shot"
+    "."2 "."8 "C'mon,"4.
+    "hit"16 "me" "with"8 "your" "best"4 "shot"4.
+    "."1
+    "Hit"8 "me" "with" "your" "best"4 "shot"
+    "."2 "Fie"8 "er" "uh" "way"
+    \skip8 "."2. "."8
+    "."1
+    "Hit"8 "me" "with" "your" "best"4 "shot"
+    "."2 "."8 "Why" "don't" "you"
+    "hit"16 "me" "with"8 "your" "best"4 "shot"4.
+    "."1
+    "Hit"8 "me" "with" "your" "best"4 "shot"
+    "."2 "Fie"8 "er" "uh" "way"
+    \skip1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+}
