@@ -75,7 +75,7 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "(w'0n)"4. "(m'o@)" "(t'aIm)"4
     \skip2. "."4
 \mymark "Verse 5" #69
-    "!mark=Verse 5"4 "(s'Vm)"8 "(w'Il)" "(w'I)" "(n)" \skip4
+    "!mark=Verse 5"4 "(s'Vm)"8 "(w'Il)" "(w'I)" "(In)" \skip4
     \tuplet 3/2 { "."4 "(s'Vm)" "(w'Il)" } "(l'u:)"8 "(u:z)"4 "."8
     "."2 "(s'Vm)"16 "(w'3:)" "(b'O@n)"4 "(t'u:)"8
     "(s'IN)"4 "(D'@)"8 "(bl'u:)"4 "(u:z)"4.

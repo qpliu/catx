@@ -8,39 +8,39 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "."1
     "."1
 \mymark "1st verse" #9
-    "!mark=1st verse"2 \skip8 "Well"8 "you're" "the"
-    "real"4 "tough" "cook"8 "ee" "with" "a"
-    "long"4 "hih"8 "sto" "ree"4 "."8 "Of"
-    "bray"8 "king" "lit" "tle" "hearts"4 "like"8 "the"
-    "one"8 "in" "me"4 "."2
-    "."8 "That's"4 "oh"8 "kay,"4 "let's"8 "see"
-    \skip8 "how"8 "you" "do"4 "it" "."8
-    "Put"8 "up" "you" "dukes,"4. "let's"4
-    "get"8 "down"4 "to" "it"4.
+    "!mark=1st verse"2 \skip8 "(w'El)"8 "(j'O@)" "(D'@)"
+    "(r'i@l)"4 "(t'Vf)" "(k'U)"8 "('ki:)" "(w'ID)" "('@)"
+    "(l'0N)"4 "(h'I)"8 "(st'oU)" "(r'i:)"4 "."8 "('0v)"
+    "(br'eI)"8 "(k'IN)" "(l'I)" "(t'@l)" "(h'A@ts)"4 "(l'aIk)"8 "(D'@)"
+    "(w'0n)"8 "('In)" "(m'i:)"4 "."2
+    "."8 "(D'ats)"4 "('oU)"8 "(k'eI)"4 "(l'Ets)"8 "(s'i:)"
+    \skip8 "(h'aU)"8 "(j'u:)" "(d'u:)"4 "('It)" "."8
+    "(p'Ut)"8 "('Vp)" "(j'O@)" "(du:ks)"4. "(l'Ets)"4
+    "(g'Et)"8 "(d'aUn)"4 "(t'u:)" "('It)"4.
 \mymark "chorus" #18
-    "Hit|!mark=chorus"8 "me" "with" "your" "best"4 "shot"
-    "."2 "."8 "Why" "don't" "you"
-    "hit"16 "me" "with"8 "your" "best"4 "shot"4.
+    "(h'It)|!mark=chorus"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
+    "."2 "."8 "(w'aI)" "(d'oUnt)" "(j'u:)"
+    "(h'It)"16 "(m'i:)" "(w'ID)"8 "(j'O@)" "(b'Est)"4 "(S'0)"8 "(0t)"4
     "."1
-    "Hit"8 "me" "with" "your" "best"4 "shot"
-    "."2 "Fie"8 "er" "uh" "way"
-    \skip8 "."2. "."8
-    "."2. "."8 "You"
-    "come"8 "on" "with" "it," "come" "on"4 "You"8
-    "don't"4 "fight" "fair" "."
-    "."8 "But" "that's" "oh" "kay,"4 "."
-    "see"16 "if" "I"4 "care"4. "."4
-    "."8 "Knock"4 "me"8 "down,"4 "it's"8 "all"
-    \skip8 "in"4 "vain" "." "I"8
-    "get"8 "right" "back" "on"4. "my"4
-    "feet"8 "uh"4 "gain"2 "."8
-    "Hit"8 "me" "with" "your" "best"4 "shot"
-    "."2 "."8 "Why" "don't" "you"
-    "hit"16 "me" "with"8 "your" "best"4 "shot"4.
+    "(h'It)"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
+    "."2 "(f'aI)"8 "('3:)" "('V)" "(w'E)"
+    \skip8 "(eI)"2 \skip8 "."4
+    "."2. "."8 "(j'u:)"
+    "(k'Vm)"8 "('0n)" "(w'ID)" "('It)" "(k'Vm)" "('0n)"4 "(j'u:)"8
+    "(d'oUnt)"4 "(f'aIt)" "(f'e@)" "."
+    "."8 "(b'Vt)" "(D'ats)" "('oU)" "(k'eI)"4 "."
+    "(s'i:)"16 "('If)" "('aI)"4 "(k'e@)"4. "."4
+    "."8 "(n'0k)"4 "(m'i:)"8 "(d'aUn)"4 "('Its)"8 "('O:l)"
+    \skip8 "('In)"4 "(v'eIn)" "." "('aI)"8
+    "(g'Et)"8 "(r'aIt)" "(b'ak)" "('0n)"4. "(m'aI)"4
+    "(f'i:t)"8 "('V)"4 "(g'E)" "(En)" "."8
+    "(h'It)"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
+    "."2 "."8 "(w'aI)" "(d'oUnt)" "(j'u:)"
+    "(h'It)"16 "(m'i:)" "(w'ID)"8 "(j'O@)" "(b'Est)"4 "(S'0)"8 "(0t)"4
     "."1
-    "Hit"8 "me" "with" "your" "best"4 "shot"
-    "."2 "Fie"8 "er" "uh" "way"
-    \skip8 "."2. "."8
+    "(h'It)"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
+    "."2 "(f'aI)"8 "('3:)" "('V)" "(w'E)"
+    \skip8 "(eI)"2 \skip8 "."4
     "."1
 \mymark "solo (1st part)" #42
     "!mark=solo (1st part)"1
@@ -59,30 +59,30 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "."1
     "."1
     "."1
-    "."2 "."8 "Well" "you're" "the"
-    "real"4 "tough" "cook"8 "ee" "with" "a"
-    "long"4 "hih"8 "sto" "ree"4 "."8 "Of"
-    "bray"8 "king" "lit" "tle" "hearts"4 "like"8 "the"
-    "one"8 "in" "me"4 "."8 "Be" "fore" "I"
-    "put"16 "uh" "nuh" "ther"8. "notch"8 "."4 "in"8 "my"
-    "lip"8 "stick"4 "case" "." "You"8
-    "bet"8 "ter" "make"4 "sure"8 "you" "put" "me"
-    "in"8 "my"4 "place" "."4.
+    "."2 "."8 "(w'El)" "(j'O@)" "(D'@)"
+    "(r'i:l)"4 "(t'Vf)" "(k'U)"8 "(k'i:)" "(w'ID)" "('@)"
+    "(l'0N)"4 "(h'I)"8 "(st'oU)" "(r'i:)"4 "."8 "('0v)"
+    "(br'eI)"8 "(k'IN)" "(l'I)" "(t'@l)" "(h'A@ts)"4 "(l'aIk)"8 "(D'@)"
+    "(w'0n)"8 "('In)" "(m'i:)"4 "."8 "(b'i:)" "(f'O@)" "('aI)"
+    "(p'Ut)"16 "('V)" "(n'V)" "(D'3)"8. "(n'0tS)"8 "."4 "('In)"8 "(m'aI)"
+    "(l'Ip)"8 "(st'Ik)"4 "(k'eIs)" "." "(j'u:)"8
+    "(b'E)"8 "(t'3:)" "(m'eIk)"4 "(S'U@)"8 "(j'u:)" "(p'Ut)" "(m'i:)"
+    "('In)"8 "(m'aI)"4 "(pl'eIs)" "."4.
 \mymark "Keyboard fills" #66
-    "Hit|!mark=Keyboard fills"8 "me" "with" "your" "best"4 "shot"
-    "."2 "."8 "C'mon,"4.
-    "hit"16 "me" "with"8 "your" "best"4 "shot"4.
+    "(h'It)|!mark=Keyboard fills"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
+    "."2 "."8 "(k@m'0n)"4.
+    "(h'It)"16 "(m'i:)" "(w'ID)"8 "(j'O@)" "(b'Est)"4 "(S'0)"8 "(0t)"4
     "."1
-    "Hit"8 "me" "with" "your" "best"4 "shot"
-    "."2 "Fie"8 "er" "uh" "way"
-    \skip8 "."2. "."8
+    "(h'It)"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
+    "."2 "(f'aI)"8 "('3:)" "('V)" "(w'E)"
+    \skip8 "(eI)"2 \skip8 "."4
     "."1
-    "Hit"8 "me" "with" "your" "best"4 "shot"
-    "."2 "."8 "Why" "don't" "you"
-    "hit"16 "me" "with"8 "your" "best"4 "shot"4.
+    "(h'It)"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
+    "."2 "."8 "(w'aI)" "(d'oUnt)" "(j'u:)"
+    "(h'It)"16 "(m'i:)" "(w'ID)"8 "(j'O@)" "(b'Est)"4 "(S'0)"8 "(0t)"4
     "."1
-    "Hit"8 "me" "with" "your" "best"4 "shot"
-    "."2 "Fie"8 "er" "uh" "way"
+    "(h'It)"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
+    "."2 "(f'aI)"8 "('3:)" "('V)" "(w'eI)"
     \skip1
     "."1
     "."1
