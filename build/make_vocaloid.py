@@ -4,12 +4,20 @@ import re,subprocess,sys
 
 is_ly = False
 
-def run_espeak(word):
-    p = subprocess.Popen(('espeak','-q','-x',word),stdout=subprocess.PIPE)
-    word = '('+p.communicate()[0].strip()+')'
+def run_espeak1(word):
     if is_ly:
-	word = '"'+word+'"'
-    return word
+	if word=='' or word=='.' or word=='*' or word=='/' or word=='{' or word=='}' or word[:1]=='!':
+	    return word
+    p = subprocess.Popen(('espeak','-q','-x',word),stdout=subprocess.PIPE)
+    return '('+p.communicate()[0].strip()+')'
+
+def run_espeak(word):
+    if not is_ly:
+	return run_espeak1(word)
+    sb = []
+    for a in word.split('|'):
+	sb.append(run_espeak1(a))
+    return '"'+'|'.join(sb)+'"'
 
 def convert_word(word):
     prefix = ''
@@ -17,7 +25,7 @@ def convert_word(word):
     if is_ly:
 	if word=='--':
 	    return ''
-	m = re.match(r'([^0-9]+)((?:1|2|4|8|16|32)\.?)$',word)
+	m = re.match(r'([^0-9]*)([0-9]+\.?)$',word)
 	if m:
 	    word = m.group(1)
 	    suffix = m.group(2)
@@ -29,8 +37,6 @@ def convert_word(word):
 	pass
     else:
 	if is_ly and word.startswith('"') and word.endswith('"'):
-	    prefix += '"'
-	    suffix = '"'+suffix
 	    word = word[1:-1]
 	if not re.match(r'[0-9*/{}]*$',word):
 	    word = run_espeak(word)
@@ -41,6 +47,10 @@ def convert_line(line):
     global is_ly
     if line.find(r'\lyric')!=-1:
 	is_ly = True
+	return line
+    if is_ly and line.find(r'\mymark')!=-1:
+	return line
+    if is_ly and line.find(r'\mybar')!=-1:
 	return line
     sb = []
     word = []
@@ -64,7 +74,7 @@ def convert_line(line):
 		word = []
 		sb.append(c)
 	    else:
-		sb.append(c)
+		word.append(c)
 	if quote:
 	    raise Exception('bad quote '+line.strip())
     else:
