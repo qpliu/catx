@@ -14,6 +14,7 @@
 \include "karaoke"
 \include "snakes"
 \include "eg"
+\include "vocaloid"
 
 layoutmusic = <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
@@ -89,4 +90,6 @@ midimusic = <<
 	\karaokeLyrics
 	\snakesPart
     >>
+    \tag #'(midiVocaloid) \new Staff \snakesPart
+    \tag #'(midiVocaloid) \vocaloidLyrics
 >>

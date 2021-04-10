@@ -4,6 +4,7 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 mark=Intro count=8 fudgeLyrics=48 divisions=6144 seconds=6.3999999999999995 measure=5.0 track=midiKaraoke
 mark=Verse 1 count=24 fudgeLyrics=48 divisions=18432 seconds=19.2 measure=13.0 track=midiKaraoke
 mark=Verse 2 count=90 fudgeLyrics=48 divisions=43008 seconds=44.8 measure=29.0 track=midiKaraoke
@@ -14,20 +15,22 @@ mark=Verse 4 count=235 fudgeLyrics=48 divisions=104448 seconds=108.7999999999999
 mark=Breakdown 2 count=301 fudgeLyrics=48 divisions=129024 seconds=134.39999999999998 measure=85.0 track=midiKaraoke
 mark=Verse 5 count=335 fudgeLyrics=48 divisions=141312 seconds=147.2 measure=93.0 track=midiKaraoke
 mark=Outro count=374 fudgeLyrics=48 divisions=156672 seconds=163.2 measure=103.0 track=midiKaraoke
+mark=Outro count=353 fudgeLyrics=192 divisions=156672 seconds=163.2 measure=103.0 track=midiVocaloid
 WorstAge=2147489600
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 6  Divisions: 384
+Format: 1  Tracks: 7  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
+Track name: midiVocaloid
 Track name: midiOne
->@@@@@@@@@|!mark=Intro@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1I|!bg=|!mark=Verse 1havehearde-nough-|||a-boutyourin-fi-de-li-ty.--->SoI'monthetrain|!bg=img=../train.png-|||and|!bg=youarere-centhi-sto-ry.--->Did-n'ttakelongforyoutostarttoplayandbreak>allyourso-lemnpro-mis-es,-->theonesyoumakelastweekwithyour"Ido".->You've|!mark=Verse 2beenbe-in'bad.-|||Andboytheru-mortra-veledfast.--->Youcan'tchangeyourways.-|||AndIdon'tthinkourlovecanlast.--->WhydidyouthinkI'dsi-lent-lytakeallyoursame>sil-lyim-ma-tu-ri-ty?-->Iwillscreamandcrycauseit'salltrue.-!mark=Breakdown>I'mgon-natellyourmo-thercauseithap-peneda-gain.--->I'lltellyourbro-thertooandyou'llbeohsosor-rythenohyeah.|!bg=img=../yeah.png->May|!bg=|!mark=Verse 3-beyou'llgrowup-|||whenyougohomeandreadthemirror.--->I'veleftalip-stickmes-sagetheremydar-ling.>@@@|!mark=Solo@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Call|!bg=|!mark=Verse 4-ingyousomenames-|||isstillapos-si-bi-li-ty.--->Mak-ingupwithyou-|||fornowisnotacer-tain-ty.--->Bet-terbe-lievethethingsyoureadwhenyougethome.>Andcomebacktore-a-li-ty-->causeI'mgo-inghometotellyourmom.-!mark=Breakdown 2>I'mgon-natellyourmo-thercauseithap-peneda-gain.--->I'lltellyourbro-thertoo.>Andyou'llbeohsosor-rythenohyeah.|!bg=img=../yeah.png->May|!bg=|!mark=Verse 5-beyou'llgrowup-|||whenyougohomeandreadthemirror.--->I'veleftalip-stickmes-sagetheremydar-ling.->I'veleftalip-stickmes-sagetheremydar-ling.|!mark=Outro-@@-----Playing time: ~184 seconds
+>@.@@.@@.@@.@@|!mark=Intro.@@.@@.@@.@@.@@.@@|!bg=4.@|!bg=3@|!bg=2.@|!bg=1I|!bg=|!mark=Verse 1Ihavehaveheardheardeee-noughnuf-.|||auh-boutboutyouryourinin-fifih-dedeh-lilih-ty.tee.-.-.-.>SoSoI'mI'mononthethetrain|!bg=img=../train.pngtrain-.|||and|!bg=andyouyouarearereree-centsenthihis-stostore-ry.ree.-.-.-.>DidDid-n'tn'ttaketakelonglongforforyouyoutotostartstarttotoplayplayandandbreakbreak>allallyouryoursosaw-lemnlumpropraw-mismiss-es,is,-.-.>thetheonesonesyouyoumakemakelastlastweekweekwithwithyouryour"IIdo".do.-.>You've|!mark=Verse 2You'vebeenbeenbebe-in'in'bad.bad.-.|||AndAndboyboythetheruroo-mormertratrah-veledveldfast.fast.-.-.-.>YouYoucan'tcan'tchangechangeyouryourways.ways.-.|||AndAndIIdon'tdon'tthinkthinkourourlovelovecancanlast.last.-.-.-.>WhyWhydiddidyouyouthinkthinkI'dI'dsisigh-lentlent-lyleetaketakeallallyouryoursamesame>silsil-lyleeimim-mamuh-tuchur-ririh-ty?tee?-.-.>IIwillwillscreamscreamandandcrycrycausecauseit'sit'sallalltrue.true.-.!mark=Breakdown.>I'mI'mgongo-nanatelltellyouryourmomuh-therthercausecauseitithaphap-penedpennedauh-gain.gain.-.-.-.>I'llI'lltelltellyouryourbrobruh-therthertootooandandyou'llyou'llbebeohohsososorsaw-ryreethenthenohohyeah.|!bg=img=../yeah.pngyeah.-.>May|!bg=|!mark=Verse 3May-bebeyou'llyou'llgrowgrowupup-.|||whenwhenyouyougogohomehomeandandreadreadthethemirror.mirror.-.-.-.>I'veI'veleftleftaaliplip-stickstickmesmess-sagesugetheretheremymydardar-ling.ling.>@.@@|!mark=Solo.@@.@@.@@.@@.@@.@@|!bg=4.@|!bg=3@|!bg=2.@|!bg=1Call|!bg=|!mark=Verse 4Call-ingingyouyousomesomenamesnames-.|||isisstillstillaapospaws-sisih-bibih-lilih-ty.tee.-.-.-.>MakMake-ingingupupwithwithyouyou-.|||forfornownowisisnotnotaacersir-tainton-ty.tee.-.-.-.>BetBet-terterbebee-lieveleavethethethingsthingsyouyoureadreadwhenwhenyouyougetgethome.home.>AndAndcomecomebackbacktotoreree-aeh-lilih-tytee-.-.>causecauseI'mI'mgogo-inginghomehometototelltellyouryourmom.mom.-.!mark=Breakdown 2.>I'mI'mgongon-nanatelltellyouryourmomuh-therthercausecauseitithaphap-penedpennedauh-gain.gain.-.-.-.>I'llI'lltelltellyouryourbrobruh-therthertoo.too.>AndAndyou'llyou'llbebeohohsososorsaw-ryreethenthenohohyeah.|!bg=img=../yeah.pngyeah.-.>May|!bg=|!mark=Verse 5May-bebeyou'llyou'llgrowgrowupup-.|||whenwhenyouyougogohomehomeandandreadreadthethemirror.mirror.-.-.-.>I'veI'veleftleftaaliplip-stickstickmesmess-sagesugetheretheremymydardar-ling.ling.-.>I'veI'veleftleftaaliplip-stickstickmesmess-sagesugetheretheremymydardar-ling.|!mark=Outroling.|!mark=Outro-.@@.-.-.-.-.-.Playing time: ~184 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 18347693/32175440 bytes(57.0239% compressed)
+Wrote 18379259/32175440 bytes(57.122% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

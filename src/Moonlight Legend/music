@@ -18,6 +18,7 @@
 \include "eg_donetext"
 \include "piano"
 \include "karaoke"
+\include "vocaloid"
 
 layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
@@ -99,4 +100,6 @@ midimusic = <<
 	\karaokeLyrics
 	\voPart
     >>
+    \tag #'(midiVocaloid) \new Staff \voPart
+    \tag #'(midiVocaloid) \vocaloidLyrics
 >>

@@ -3,26 +3,29 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 mark=Intro count=0 fudgeLyrics=48 divisions=0 seconds=0.0 measure=1.0 track=midiKaraoke
 mark=Verse 1 count=18 fudgeLyrics=48 divisions=13824 seconds=18.620676 measure=10.0 track=midiKaraoke
-mark=Chorus 1 count=91 fudgeLyrics=48 divisions=36864 seconds=49.65513599999999 measure=25.0 track=midiKaraoke
-mark=Verse 2 count=132 fudgeLyrics=48 divisions=52224 seconds=70.344776 measure=35.0 track=midiKaraoke
-mark=Chorus 2 count=202 fudgeLyrics=48 divisions=75264 seconds=101.37923599999999 measure=50.0 track=midiKaraoke
-mark=Bridge count=243 fudgeLyrics=48 divisions=90624 seconds=122.06887599999999 measure=60.0 track=midiKaraoke
-mark=Outro count=311 fudgeLyrics=48 divisions=112128 seconds=151.034372 measure=74.0 track=midiKaraoke
+mark=Chorus 1 count=92 fudgeLyrics=48 divisions=36864 seconds=49.65513599999999 measure=25.0 track=midiKaraoke
+mark=Verse 2 count=133 fudgeLyrics=48 divisions=52224 seconds=70.344776 measure=35.0 track=midiKaraoke
+mark=Chorus 2 count=204 fudgeLyrics=48 divisions=75264 seconds=101.37923599999999 measure=50.0 track=midiKaraoke
+mark=Bridge count=245 fudgeLyrics=48 divisions=90624 seconds=122.06887599999999 measure=60.0 track=midiKaraoke
+mark=Outro count=313 fudgeLyrics=48 divisions=112128 seconds=151.034372 measure=74.0 track=midiKaraoke
+mark=Outro count=303 fudgeLyrics=48 divisions=112128 seconds=151.034372 measure=74.0 track=midiVocaloid
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 5  Divisions: 384
+Format: 1  Tracks: 6  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
->@|!mark=Intro@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Six|!bg=|!mark=Verse 1o'-clockal-rea-dyIwasjustinthemid-dleofadream.-->@Iwaskiss-in'Va-len-ti-nobyacrys-talblueI-ta-li-anstream.->@ButIcan'tbelate'CausethenIguessIjustwon'tgetpaid.-->@@Thesearethedayswhenyouwishyourbedwasal-rea-dymade.->It'sjust|!mark=Chorus 1a-no-therma-nicMon-day.-->WishitwasSun-day.-->'Causethat'smyfunday.-->MyIdon'thavetorunday.->It'sjusta-no-therma-nicMon-day.>Have|!mark=Verse 2tocatchanear-lytrain.|!bg=img=../train.pngGot|!bg=tobetoworkbynine.-->@-AndifIhadanae-ro-planeIstillcould-n'tmakeitontime.->@'Causeittakesmesolongjusttofi-gureoutwhatI'mgon-nawear.-->@Blameitonthetrain.|!bg=img=../train.pngBut|!bg=thebossisal-rea-dythere.->It'sjust|!mark=Chorus 2a-no-therma-nicMon-day.-->WishitwasSun-day.-->'Causethat'smyfunday.-->MyIdon'thavetorunday.->It'sjusta-no-therma-nicMon-day.>All|!mark=Bridgeofmynightswhydidmylo-verhavetopicklastnighttogetdown?-->Does-n'titmat-terthatIhavetofeedthebothofus?Em-ploy-ment'sdown.--->Hetellsmeinhisbed-roomvoice.>C'-monho-ney,-let'sgomakesomenoise.-->Timeitgoessofast.-->It'sjust|!mark=Outroa-no-therma-nicMon-day.-->WishitwasSun-day.-->'Causethat'smyfunday.-->MyIdon'thavetorunday.->It'sjusta-no-therma-nicMon-day.-->WishitwasSun-day.-->'Causethat'smyfunday.->It'sjusta-no-therma-nicMon-day.-@@Playing time: ~190 seconds
+Track name: midiVocaloid
+>@|!mark=Intro.@@.@@.@@.@@.@@.@@.@@|!bg=4.@|!bg=3@|!bg=2.@|!bg=1Six|!bg=|!mark=Verse 1Sixo'o'-clockclockalall-reared-dydeeIIwaswasjustjustininthethemidmid-dledoleofofaadream.dream-.->@..IIwaswaskisskiss-in'in'VaVah-lenlen-titee-nonobybyaacryscris-taltoleblueblueIIt-tatah-lilee-anunstream.stream-.->@..ButButIIcan'tcan'tbebelatelate'Cause'CausethenthenIIguessguessIIjustjustwon'twon'tgetgetpaid.paid-.-.>@.@TheseThesearearethethedaysdayswhenwhenyouyouwishwishyouryourbedbedwaswasalall-reared-dydeemade.made-.>It'sIt'sjust|!mark=Chorus 1justauh-nonuh-therthermaman-nicnickMonMun-day.day-.-.>WishwishititwaswasSunSun-day.day-.-.>'Cause'Causethat'sthat'smymyfunfunday.day-.-.>MyMyIIdon'tdon'thavehavetotorunrunday.day-.>It'sIt'sjustjustauh-nonuh-therthermaman-nicnicMonMon-day.day.>Have|!mark=Verse 2Havetotocatchcatchananearerr-lyleetrain.|!bg=img=../train.pngtrainGot|!bg=Gottotobebetotoworkworkbybynine.nine-.->@.-AndAndififIIhadhadananaeair-rorow-planeplaneIIstillstillcouldcould-n'tn'tmakemakeititonontime.time-.->@..'Cause'CauseitittakestakesmemesosolonglongjustJusttotofifig-guregureoutoutwhatwhatI'mI'mgongun-nanawear.wear.-->@.BlameBlameititononthethetrain.|!bg=img=../train.pngtrainBut|!bg=Butthethebossbossisisalall-reared-dydeethere.there-.>It'sIt'sjust|!mark=Chorus 2justauh-nonuh-therthermaman-nicnicMonMon-day.day-.-.>WishwishititwaswasSunSun-day.day-.-.>'Cause'Causethat'sthat'smymyfunfunday.day-.-.>MyMyIIdon'tdon'thavehavetotorunrunday.day-.>It'sIt'sjustjustauh-nonuh-therthermaman-nicnicMonMon-day.day.>All|!mark=BridgeAllofofmymynightsnightswhyWhydiddidmymyloluh-ververhavehavetotopickpicklastlastnightnighttotogetgetdown?down?-.-.>DoesDoes-n'tn'tititmatmat-terterthatthatIIhavehavetotofeedfeedthethebothbothofofus?usEmEm-ployploy-ment'sment'sdown.down-.-.-.>HeHetellstellsmemeininhishisbedbed-roomroomvoice.voice.>C'Come-monmonhohun-ney,nee,-.let'slet'sgogomakemakesomesomenoise.noise.-.-.>TimeTimeititgoesgoessosofast.fast-.-.>It'sIt'sjust|!mark=Outrojust|!mark=Outroauh-nonuh-therthermaman-nicnicMonMon-day.day-.-.>WishwishititwaswasSunSun-day.day-.-.>'Cause'Causethat'sthat'smymyfunfunday.day-.-.>MyMyIIdon'tdon'thavehavetotorunrunday.day-.>It'sIt'sjustjustauh-nonuh-therthermaman-nicnicMonMon-day.day-.-.>WishwishititwaswasSunSun-day.day-.-.>'Cause'Causethat'sthat'smymyfunfunday.day-.>It'sIt'sjustjustauh-nonuh-therthermaman-nicnicMonMon-day.day-@@Playing time: ~190 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 17868315/33318360 bytes(53.629% compressed)
+Wrote 17982982/33318360 bytes(53.9732% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

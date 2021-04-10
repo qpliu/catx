@@ -1,5 +1,6 @@
 % BIN midi all kav susan gg peter
 % ROBOT enabled=true
+% MERGEMIDI --fudge-lyrics midiVocaloid=192
 
 \header {
     title = "Message In Lipstick"
@@ -19,6 +20,7 @@
 \include "drums"
 \include "lyrics"
 \include "karaoke"
+\include "vocaloid"
 
 layoutmusic = <<
     \tag #'(allPart kavPart) \new Staff \with {
@@ -164,4 +166,6 @@ midimusic = <<
 	\karaokeLyrics
 	\voPart
     >>
+    \tag #'(midiVocaloid) \new Staff \voPart
+    \tag #'(midiVocaloid) \vocaloidLyrics
 >>

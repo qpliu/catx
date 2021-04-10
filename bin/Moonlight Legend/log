@@ -4,6 +4,7 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 mark=Intro 1 count=0 fudgeLyrics=48 divisions=0 seconds=0.0 measure=1.0 track=midiKaraoke
 mark=Intro 2 count=7 fudgeLyrics=48 divisions=4608 seconds=5.1063719999999995 measure=4.0 track=midiKaraoke
 mark=A count=26 fudgeLyrics=48 divisions=16896 seconds=18.723363999999997 measure=12.0 track=midiKaraoke
@@ -18,20 +19,22 @@ mark=F count=292 fudgeLyrics=48 divisions=109056 seconds=120.85080399999998 meas
 mark=G count=309 fudgeLyrics=48 divisions=121344 seconds=134.467796 measure=80.0 track=midiKaraoke
 mark=D-3 count=335 fudgeLyrics=48 divisions=133632 seconds=148.08478799999997 measure=88.0 track=midiKaraoke
 mark=Ending count=377 fudgeLyrics=48 divisions=145920 seconds=161.70177999999999 measure=96.0 track=midiKaraoke
+mark=Ending count=357 fudgeLyrics=48 divisions=145920 seconds=161.70177999999999 measure=96.0 track=midiVocaloid
 WorstAge=2147484800
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 6  Divisions: 384
+Format: 1  Tracks: 7  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
+Track name: midiVocaloid
 Track name: midiOne
-!mark=Intro 1>@@@@@@!mark=Intro 2@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Why|!bg=can'tItell|!mark=Ayouallofthesefeel-ings?->It'ssomuchea-si-erwhenI'mdream-ing.->Ithinkmybrain'sa-bouttoshortcir-cuit.->Ireal-lywishIcouldfindthewords.->AndnowI'mcry|!mark=B-ingun-derthemoon-light.->Iwan-nacallyouup,butit'smid-night.->WhatshouldIdowithallofthesefeel-ings?->Likeaka-lei-do-sco-picheart.->Thelight|!mark=Cthatshinesdownfromthemoonwillguidetheway.->Andoncea-gain,-itleadsmetoyou.->Thecon-stel-la|!mark=D-tionsspar-kleinmydreams.->AndsoIwon-derifit'sabless-ing.->Asifbyfatewe'rebornonthesamepla-net.->Justlikeami-ra-clero-mance.--|!mark=E>@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1So|!bg=letushave|!mark=B-2a-no-thergreatweek-end.->AndIwillprayithasahap-pyend.->I'llstillbeherepast,pre-sent,andfu-ture.->Heado-verheelsinlovewithyou.->Ican't|!mark=C-2for-getthewayyoulookedatmethatday.->WhenImetyou-theve-ryfirsttime.->With-inthesea|!mark=D-2ofstarsun-derthenightsky->IcouldstillfindyouifIclosedmyeyes.->Ilovethewaytheworldgivesusmo-ments-thatwemakeourowndes-ti-ny.--|!mark=F>@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1This|!bg=mi|!mark=G-ra-clewillal-waysre-mainamys-tery.->Causeoncea-gain,-itleadsmetoyou.->Thecon-stel-la|!mark=D-3-tionsspar-kleinmydreams.->AndsoIwon-derifit'sabless-ing.->Asifbyfatewe'rebornonthesamepla-net.->Justlikeami-ra-clero-mance.->She'stheone|!mark=EndingnamedSai-lorMoon.->SheistheonenamedSai-lorMoon.--@@Playing time: ~175 seconds
+!mark=Intro 1.>@@.@@.@@!mark=Intro 2.@@.@@.@@.@@.@@.@@|!bg=4.@|!bg=3@|!bg=2.@|!bg=1.Why|!bg=Whycan'tcan'tIItell|!mark=Atellyouyouallallofofthesethesefeelfeel-ings?ings?-.>It'sIt'ssosomuchmucheaea-sizee-ererwhenwhenI'mI'mdreamdream-ing.ing.-.>IIthinkthinkmymybrain'sbrain'saa-boutbouttotoshortshortcirsir-cuit.kit.-.>IIrealreal-lyleewishwishIIcouldcouldfindfindthethewords.words.-.>AndAndnownowI'mI'mcry|!mark=Bcry-ingingunun-derderthethemoonmoon-light.light.-.>IIwanwa-nanacallcallyouyouup,up,butbutit'sit'smidmid-night.night.-.>WhatWhatshouldshouldIIdodowithwithallallofofthesethesefeelfeel-ings?ings?-.>LikeLikeaakaKoh-leilie-dodoe-scoska-picpicheart.heart.-.>TheThelight|!mark=Clightthatthatshinesshinesdowndownfromfromthethemoonmoonwillwillguideguidethetheway.way..->AndAndonceonceaa-gain,gain,-.ititleadsleadsmemetotoyou.you..-.>TheTheconcon-stelstel-la|!mark=Dlay-tionsshunssparspar-klecoleininmymydreams.dreams.-.>AndAndsosoIIwonwon-derderififit'sit'saablessbless-ing.ing.-.>AsAsififbybyfatefatewe'rewe'rebornbornononthethesamesameplaplan-net.net.-.>JustJustlikelikeaamimir-rara-clecoleroro-mance.mance-.-|!mark=E.>@@.@@|!bg=4.@|!bg=3@|!bg=2.@|!bg=1.So|!bg=Soletletusushave|!mark=B-2haveaa-nonuh-therthergreatgreatweekweek-end.end.-.>AndAndIIwillwillprayprayitithashasaahaphap-pypeeend.end.-.>I'llI'llstillstillbebehereherepast,past,prepres-sent,sent,andandfufu-ture.ture.-.>HeadHeadoo-ververheelsheelsininlovelovewithwithyou.you.-.>IIcan't|!mark=C-2can'tforfor-getgetthethewaywayyouyoulookedlookedatatmemethatthatday.day..->WhenWhenIImetmetyouyou-.thethevevair-ryreefirstfirsttime.time.-.>WithWith-ininthethesea|!mark=D-2seaofofstarsstarsunun-derderthethenightnightskysky-.>IIcouldcouldstillstillfindfindyouyouififIIclosedclosedmymyeyes.eyes.-.>IIlovelovethethewaywaythetheworldworldgivesgivesususmomo-mentsments-.thatthatwewemakemakeourourownowndesdes-titih-ny.nee.-.-|!mark=F.>@@.@@.@@.@@.@@.@@|!bg=4.@|!bg=3@|!bg=2.@|!bg=1.This|!bg=Thismi|!mark=Gmir-rara-clecolewillwillalall-wayswaysrere-mainmainaamysmiss-tery.tery..->CauseCauseonceonceaa-gain,gain,-.ititleadsleadsmemetotoyou.you.-.>TheTheconcon-stelstel-la|!mark=D-3lay-tionsshunssparspar-klecoleininmymydreams.dreams.-.>AndAndsosoIIwonwon-derderififit'sit'saablessbless-ing.ing.-.>AsAsififbybyfatefatewe'rewe'rebornbornononthethesamesameplaplan-net.net.-.>JustJustlikelikeaamimir-rara-clecoleroro-mance.mance..->She'sShe'sthetheone|!mark=Ending!mark=Ending|onenamednamedSaiSay-lorlerMoon.Moon.-.>SheSheisisthetheoneonenamednamedSaiSay-lorlerMoon.Moon.-.-@@.Playing time: ~175 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 16707869/30654200 bytes(54.5043% compressed)
+Wrote 16793677/30654200 bytes(54.7843% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 3.6 staff-spaces

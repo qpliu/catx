@@ -1,0 +1,100 @@
+vocaloidLyrics = \new Lyrics \lyricmode {
+\mymark "Intro 1" #1
+    "."1 "."1 "."1
+\mymark "Intro 2" #4
+    "."1 "."1 "."1 "."1 "."1 "."1 "."1
+    "."4 "."4.
+    Why8 can't I
+\mymark "A" #12
+    tell4 you8 all4 of8 these4
+    feel4 ings?4 "."8 It's8 so much
+    ea4 zee8 er4 when8 I'm4
+    dream4 ing. "."8 I8 think my
+    brain's4 a8 bout4 to8 short4
+    sir4 kit. "."8 I8 real lee
+    wish4 I8 could find the4 words.4.
+    "."4. And8 now I'm
+\mymark "B" #20
+    cry4 ing8 un4 der8 the4
+    moon4 light. "."8 I8 wa na
+    call4 you8 up, but it's4 mid4.
+    night.4 "."8 What8 should I
+    do4 with8 all4 of8 these4
+    feel4 ings? "."8 Like8 a Koh
+    lie4 doe4 ska8 pic4 heart.4.
+    "."2 The4
+\mymark "C" #28
+    light2. that8 shines4.
+    down4 from8 the4.
+    moon4. will8 guide the4 way.2
+    "."4. And4
+    once2. a8 gain,4.
+    "."8 it8 \tuplet 3/2 { leads4 me to }
+    you.1
+    "."2 "."8 The8 con stel
+\mymark "D" #36
+    lay4 shuns8 spar4 cole8 in4
+    my4 dreams. "."8 And8 so I
+    won4 der8 if it's a4 bless4.
+    ing.4 "."8 As8 if by
+    fate4 we're8 born4 on8 the same
+    plan4 net. "."8 Just8 like a
+    mir4 ra cole8 ro4 mance4.
+    "."2.
+\mymark "E" #44
+    "."1 "."1 "."1
+    "."2 "."8 So8 let us
+\mymark "B-2" #48
+    have4 a8 nuh4 ther8 great4
+    week4 end.4 "."8 And8 I will
+    pray4 it8 has4 a8 hap4
+    pee4 end.4 "."8 I'll8 still be
+    here4 past,8 pres4 sent,8 and4
+    fu4 ture. "."8 Head8 o ver
+    heels4 in love8 with4 you.4.
+    "."2 I4
+\mymark "C-2" #56
+    can't2. for8 get4.
+    the4 way8 you4.
+    looked4. at8 me that4 day.2
+    "."4. When4
+    I2. met8 you4. 
+    "."8 the8 \tuplet 3/2 { vair4 -- ree first }
+    time.1.
+    "."8 With8 in the
+\mymark "D-2" #64
+    sea4 of8 stars4 un8 der the
+    night4 sky "."8 I8 could still
+    find4 you8 if I closed4 my4.
+    eyes.4 "."8 I8 love the
+    way4 the8 world4 gives8 us4
+    mo4 ments "."8 that8 we make
+    our4 own des8 tih4 nee.4. "."2.
+\mymark "F" #72
+    "."1 "."1 "."1 "."1 "."1 "."1 "."1
+    "."4 "."2 This4
+\mymark "G" #80
+    mir2. ra8 cole4.
+    will4 all8 ways4.
+    re4. main8 a miss4 tery.2
+    "."4. Cause4
+    once2. a8 gain,4.
+    "."8 it8 \tuplet 3/2 { leads4 me to }
+    you.1.
+    "."8 The8 con stel
+\mymark "D-3" #88
+    lay4 shuns8 spar4 cole8 in4
+    my4 dreams. "."8 And8 so I
+    won4 der8 if it's a4 bless4.
+    ing.4 "."8 As8 if by
+    fate4 we're8 born4 on8 the same
+    plan4 net. "."8 Just8 like a
+    mir4 ra cole8 ro4 mance.2
+    "."4. She's8 the
+\mymark "Ending" #96
+    "!mark=Ending|one"4 named Say8 ler4 Moon.4.
+    "."4. She8 is the
+    one4 named Say8 ler4 Moon.4.
+    "."2.
+    "."1
+}    
