@@ -13,7 +13,6 @@ track 0 \
     output-karaoke \
 track 0 \
     preset susan \
-    use-bend-end true \
     layout-extra '\clef "treble_8"' \
     output-lilypond \
 track 2 \
