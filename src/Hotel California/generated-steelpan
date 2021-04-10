@@ -35,13 +35,13 @@ steelpan = {
     r8 e'16 e' e' e' e' d' r e' d' e'( fis'8) r |
     r16 e' fis' e' fis'8 a'16( ais') e'4 r |
 \mymark "Chorus" #33
-    r8 <b d' g'>16 <d' g' b'>8 <d' g' b'>16 <d' g' b'> <d' g' b'>8 <d' g' b'>8. <d' g' b'>16( <e' a' cis''>) <d' g' b'> <d'~ g' b'>( |
-    <d' fis' a'>16) <d' fis' a'>8 r2 r8. fis'16 fis' |
-    fis'16( e') e' e'8. <cis' fis' ais'>16 <cis' fis' ais'> <cis' fis' ais'>( <cis' e' gis'>) <cis' e' gis'> <cis' e' gis'>8. d'16 e' |
+    r8 g'16 b'8 b'16 b' b'8 b'8. b'16( cis'') b' b'( |
+    a'16) a'8 r2 r8. fis'16 fis' |
+    fis'16( e') e' e'8. ais'16 ais' ais'( gis') gis' gis'8. d'16 e' |
     e'16( d') d' d'8. r2 r8 |
-    <d' fis' a'>16 <d' g' b'> <d' g' b'> <d' g' b'>8 <d' g' b'> <d' g' b'>16 <d' g' b'>8 <d' g' b'> <d' g' b'>16( <e' a' cis''>) <d' g' b'> <d'~ g' b'>( |
-    <d' fis' a'>16) <d' fis' a'>8 r2 r8. e'16 fis' |
-    fis'16( e') e' e'8. <e' g'>16 <fis' a'> <fis' a'>( <e' g'>) <e' g'> <e' g'>8. e'16 g' |
+    a'16 b' b' b'8 b' b'16 b'8 b' b'16( cis'') b' b'( |
+    a'16) a'8 r2 r8. e'16 fis' |
+    fis'16( e') e' e'8. g'16 a' a'( g') g' g'8. e'16 g' |
     g'16( fis') fis' fis'8. r2 r8 |
 \mymark "Verse 3" #41
     r16 fis' fis' fis' \tuplet 3/2 { g'8 fis' fis' } fis'8 e' r4 |
@@ -57,18 +57,18 @@ steelpan = {
     r16 fis'8. fis'8 e'16 e'8 e'16( fis'8) r16 d' cis' a |
     r16 e' \tuplet 3/2 { e'8 e'16 } e'8 e' e'16 e'8 fis'8. b8 |
     r8 d'16( fis') fis' e'8 e'16 e'( d' b8) r4 |
-    r8 <e' g'>16( <fis' a'>) <fis' a'>8 <fis' a'> <fis' a'>16 <d' fis'> <d' fis'> <d' fis'>8 <e' g'>16 <fis' a'>8 |
-    <e' g'>16( <fis' a'>4 <e' g'>16) <d' fis'> <d' fis'>4.( <b e'>16 <a d'>8) |
+    r8 g'16( a') a'8 a' a'16 fis' fis' fis'8 g'16 a'8 |
+    g'16( a'4 g'16) fis' fis'4.( e'16 d'8) |
     r8 cis'16 cis' e' r e' d' e' e' e' d' e'( fis') r8 |
     r8 fis'16 e' fis'8 gis'16( b') e'4( fis') |
 \mymark "Chorus" #57
-    r8 <d' g' b'>16 <d' g' b'>8 <d' g' b'>16 <d' g' b'> <d' g' b'>8 <d' g' b'>8. <d' g' b'>16( <e' a' cis''>) <d' g' b'> <d'~ g' b'>( |
-    <d' fis' a'>16) <d' fis' a'>8 r2 r8. fis'16 fis' |
-    fis'16( e') e' e'8. <cis' fis' ais'>16 <cis' fis' ais'> <cis' fis' ais'>( <cis' e' gis'>) <cis' e' gis'> <cis' e' gis'>8. e'16 e' |
-    e'16( d') d' d'( a8) r2 r16 <b d' g'> |
-    <d' fis' a'>16 <d' g' b'> <d' g' b'> <d' g' b'> r <d' g' b'> r <d' g' b'> <d' g' b'>8 <d' g' b'> <d' g' b'>16( <e' a' cis''>) <d' g' b'> <d'~ g' b'>( |
-    <d' fis' a'>16) <d' fis' a'>8 r2 r8. e'16 fis' |
-    fis'16( e') e' e'8. <e' g'>16 <fis' a'> <fis' a'>( <e' g'>) <e' g'> <e' g'>8. fis'16 g' |
+    r8 b'16 b'8 b'16 b' b'8 b'8. b'16( cis'') b' b'( |
+    a'16) a'8 r2 r8. fis'16 fis' |
+    fis'16( e') e' e'8. ais'16 ais' ais'( gis') gis' gis'8. e'16 e' |
+    e'16( d') d' d'( a8) r2 r16 g' |
+    a'16 b' b' b' r b' r b' b'8 b' b'16( cis'') b' b'( |
+    a'16) a'8 r2 r8. e'16 fis' |
+    fis'16( e') e' e'8. g'16 a' a'( g') g' g'8. fis'16 g' |
     g'16( fis') fis' fis'2~ fis'16 r4 |
 \mymark "Verse 5" #65
     r8 fis'16 fis'8 g' fis'16 g'8 e'16( fis') r4 |

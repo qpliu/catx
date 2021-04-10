@@ -5,11 +5,6 @@ java -jar ../../1.jar <application_guitar_pro4-25940548.gp4 \
 verbose 2 \
 scale "" \
 track 0 \
-    preset kav \
-    generate-lyrics \
-    output-lyrics \
-    output-lilypond \
-track 0 \
     preset peter \
     output-chords \
     output-dotext \

@@ -9,7 +9,6 @@ final class Arg implements Serializable{
     int midi_instrument=-1;
     String drumMap;
     final String[]scale={"c","cis","d","dis","e","f","fis","g","gis","a","ais","b"};
-    boolean generate_lyrics;
     boolean layout_tabs;
     boolean output_chords;
     boolean use_bend_end;
@@ -70,6 +69,7 @@ final class Arg implements Serializable{
 	    instrument_short_name = "Sp";
 	    Stuff.add(music_extra,0,"\\myVocalsStuff");
 	    setScale("gis fis cis");
+	    no_chords = true;
 	}else if (preset.equals("midiMuted") || preset.equals("midiOne") || preset.equals("midiTwo")){
 	    name = preset;
 	    midi_who = preset;
@@ -99,7 +99,6 @@ final class Arg implements Serializable{
 	System.err.println("options:");
 	System.err.println("[drumMap map]  Specify drum map.  Something like --drumMap \"49 cymc 0,38 sn 0,36 bd 1\"");
 	System.err.println("[add-lyrics track measure lyrics]  Add lyrics.");
-	System.err.println("[generate-lyrics]  Generate lyrics.");
 	System.err.println("[instrument-name name]  Specify instrument name.");
 	System.err.println("[instrument-short-name name]  Specify short instrument name.");
 	System.err.println("[karaoke-lyrics-parameter key value]  Specify parameters for generating karaoke lyrics.");
@@ -112,8 +111,8 @@ final class Arg implements Serializable{
 	System.err.println("[modified-filename filename]  Don't generate generated-filename.");
 	System.err.println("[music-extra measure stuff]  Extra stuff for music.");
 	System.err.println("[name name]  Specify name.");
-	System.err.println("[no-chords]  Get rid of chords.");
-	System.err.println("[no-ghost-notes]  Get rid of ghost notes.");
+	System.err.println("[no-chords true|false]  Get rid of chords.");
+	System.err.println("[no-ghost-notes true|false]  Get rid of ghost notes.");
 	System.err.println("[output-chords]  Output chords.");
 	System.err.println("[output-dotext]  Output dotext.");
 	System.err.println("[output-drums]  Output drums.");
@@ -125,10 +124,10 @@ final class Arg implements Serializable{
 	System.err.println("[preset who]  Use preset settings.");
 	System.err.println("[scale scale]  Specify note spelling.  Something like scale \"c des eisis\"");
 	System.err.println("[shift n/d]  Shift notes right n/d beats.  Use shift -21/5 to shift notes left 4 1/5th beat.");
-	System.err.println("[string-numbers]  Include string numbers.");
+	System.err.println("[string-numbers true|false]  Include string numbers.");
 	System.err.println("[transpose half_steps]  Specify transpose.  Something like transpose 1");
-	System.err.println("[use-bend-end Replace bent notes with end of note]");
-	System.err.println("[use-bend-start Replace bent notes with start of note]");
+	System.err.println("[use-bend-end true|false] Replace bent notes with end of note]");
+	System.err.println("[use-bend-start true|false] Replace bent notes with start of note]");
 	System.err.println("[verbose level]");
 	System.err.println("[which-lyrics which]  Choose which lyrics tracks to use--something like \"text,0,1,4\"");
 	System.exit(1);
@@ -150,9 +149,7 @@ final class Arg implements Serializable{
 		tml.startingMeasure = Integer.parseInt(argv[++i]);
 		tml.lyrics = argv[++i];
 		arg.add_lyrics.add(tml);
-	    }else if (argv[i].equals("generate-lyrics"))
-		arg.generate_lyrics = true;
-	    else if (argv[i].equals("instrument-name"))
+	    }else if (argv[i].equals("instrument-name"))
 		arg.instrument_name = argv[++i];
 	    else if (argv[i].equals("instrument-short-name"))
 		arg.instrument_short_name = argv[++i];
@@ -177,9 +174,9 @@ final class Arg implements Serializable{
 	    else if (argv[i].equals("name"))
 		arg.name = argv[++i];
 	    else if (argv[i].equals("no-chords"))
-		arg.no_chords = true;
+		arg.no_chords = Boolean.valueOf(argv[++i]);
 	    else if (argv[i].equals("no-ghost-notes"))
-		arg.no_ghost_notes = true;
+		arg.no_ghost_notes = Boolean.valueOf(argv[++i]);
 	    else if (argv[i].equals("output-chords"))
 		arg.output_chords = true;
 	    else if (argv[i].equals("output-dotext"))
@@ -203,13 +200,13 @@ final class Arg implements Serializable{
 	    else if (argv[i].equals("shift"))
 		arg.shift = Rational.parseRational(argv[++i]);
 	    else if (argv[i].equals("string-numbers"))
-		arg.string_numbers = true;
+		arg.string_numbers = Boolean.valueOf(argv[++i]);
 	    else if (argv[i].equals("transpose"))
 		arg.transpose = Integer.parseInt(argv[++i]);
 	    else if (argv[i].equals("use-bend-end"))
-		arg.use_bend_end = true;
+		arg.use_bend_end = Boolean.valueOf(argv[++i]);
 	    else if (argv[i].equals("use-bend-start"))
-		arg.use_bend_start = true;
+		arg.use_bend_start = Boolean.valueOf(argv[++i]);
 	    else if (argv[i].equals("verbose"))
 		Log.level = Integer.parseInt(argv[++i]);
 	    else if (argv[i].equals("which-lyrics"))

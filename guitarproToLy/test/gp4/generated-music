@@ -4,8 +4,6 @@
 }
 
 \include "generated-markup"
-\include "generated-vocals"
-\include "generated-vocals_lyrics"
 \include "generated-guitar_chords"
 \include "generated-guitar_donetext"
 \include "generated-guitar"
@@ -19,14 +17,6 @@
 \include "generated-drs"
 
 layoutmusic = <<
-    \tag #'(allPart kavPart) \new Staff \with {
-        instrumentName = \markup { \rotate #90 "Vocals" }
-        shortInstrumentName = \markup { \rotate #90 "Vo" }
-    } <<
-        \markupStuff
-        \vocals
-    >>
-    \tag #'(allPart kavPart) \vocalsLyrics
     \tag #'(allPart peterPart) \guitarChords
     \tag #'(allPart peterPart) \new Staff \with {
         instrumentName = \markup { \rotate #90 "Guitar" }
@@ -95,9 +85,6 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiKaraoke) \new Staff = "generated-vocals" \with {
-        midiInstrument = #"synth voice"
-    } \vocals
     \tag #'(midiPeter) \guitarChords
     \tag #'(midiPeter) \new Staff = "generated-guitar_dotext" \guitarDotext
     \tag #'(midiPeter) \new Staff = "generated-guitar" \with {

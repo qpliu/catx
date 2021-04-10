@@ -26,19 +26,6 @@ final class Twiddler{
     void twiddleTrack(TrackFileMaker tfm){
 	makeSlideDotext(tfm);
 	makeBendDotext(tfm);
-	if (tfm.arg.generate_lyrics)
-	    generate_lyrics(tfm);
-    }
-    private void generate_lyrics(TrackFileMaker tfm){
-	Queue<Gpfile.NoteEvent>queue=new PriorityQueue<Gpfile.NoteEvent>();
-	for (Gpfile.Event e:tfm.trackEvents)
-	    if (e instanceof Gpfile.NoteEvent)
-		queue.add((Gpfile.NoteEvent)e);
-	for (Gpfile.NoteEvent ne; (ne=queue.poll())!=null;){
-	    while (queue.size()!=0 && queue.peek().time==ne.time)
-		ne = queue.poll();
-	    tfm.trackEvents.add(new Gpfile.LyricEvent(ne.time,ne.duration,Stuff.midi2ly(ne.getNote(),tfm.arg),false,false,"generated"));
-	}
     }
     private void twiddleRepeats(){
 	for (int i=0; i<main.gpfile.measures.length; i++)

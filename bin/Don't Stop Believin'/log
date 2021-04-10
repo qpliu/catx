@@ -22,11 +22,11 @@ mark=Verse 2 count=38 fudgeLyrics=192 divisions=24576 seconds=31.735487999999997
 mark=Guitar Fill count=66 fudgeLyrics=192 divisions=35328 seconds=45.619763999999996 measure=24.0 track=midiVocaloid
 mark=Verse 3 count=75 fudgeLyrics=192 divisions=49152 seconds=63.47097599999999 measure=33.0 track=midiVocaloid
 mark=Bridge count=116 fudgeLyrics=192 divisions=61440 seconds=79.33872 measure=41.0 track=midiVocaloid
-mark=Verse 4 count=170 fudgeLyrics=192 divisions=92160 seconds=119.00807999999999 measure=61.0 track=midiVocaloid
-mark=Verse 5 count=204 fudgeLyrics=192 divisions=104448 seconds=134.875824 measure=69.0 track=midiVocaloid
-mark=Bridge count=241 fudgeLyrics=192 divisions=116736 seconds=150.74356799999998 measure=77.0 track=midiVocaloid
-mark=Guitar Solo count=289 fudgeLyrics=192 divisions=141312 seconds=182.47905599999999 measure=93.0 track=midiVocaloid
-mark=Chorus count=297 fudgeLyrics=192 divisions=153600 seconds=198.34679999999997 measure=101.0 track=midiVocaloid
+mark=Verse 4 count=171 fudgeLyrics=192 divisions=92160 seconds=119.00807999999999 measure=61.0 track=midiVocaloid
+mark=Verse 5 count=205 fudgeLyrics=192 divisions=104448 seconds=134.875824 measure=69.0 track=midiVocaloid
+mark=Bridge count=243 fudgeLyrics=192 divisions=116736 seconds=150.74356799999998 measure=77.0 track=midiVocaloid
+mark=Guitar Solo count=292 fudgeLyrics=192 divisions=141312 seconds=182.47905599999999 measure=93.0 track=midiVocaloid
+mark=Chorus count=300 fudgeLyrics=192 divisions=153600 seconds=198.34679999999997 measure=101.0 track=midiVocaloid
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
@@ -38,28 +38,182 @@ Track name: midiBass
 Track name: midiKaraoke
 Track name: midiVocaloid
 Track name: midiOne
-!mark=Intro|-!mark=Intro>@@.@@.@@.@@.@@.@@.@@|!bg=4.@|!bg=3@|!bg=2!mark=Verse 1|-!mark=Verse 1@|!bg=1Just|!bg=Justaasmallsmalltowntowngirlgirl-.-.>LivLiv-in'vingininaalonelone-lyleeworld.wereold-..>SheShetooktookthethemidmid-nightnighttrain|!bg=img=../train.pngtraingo|!bg=go-in'inaeh-nyknee-where.where.-.!mark=Verse 2|-!mark=Verse 2>JustJustaacicih-tyteeboyboy-.-.>bornbornandandraisedraisedininSouthSouthDetDee-roit.troit-..>HeHetooktookthethemidmid-nightnighttrain|!bg=img=../train.pngtraingo|!bg=go-in'inaeh-nyknee-where.where.!mark=Guitar Fill|-!mark=Guitar Fill-.>@@.@@.@@.@@.@@.@@.@|!bg=4@|!bg=3.@|!bg=2@|!bg=1!mark=Verse 3|-!mark=Verse 3A|!bg=Asinsee-gerguerininaasmosmo-kykeyroomroom-.-.>AAsmellsmellofofwinewineandandcheapcheapperper-fumefewume-.>ForForaasmismi-leletheytheycancansharesharethethenight.|!bg=img=../night.pngnight..!bg=>ItItgoesgoesononandandon,on,andandon,on,andandon.on..>Stran|!mark=BridgeStrain|!mark=Bridge-gersjerswaitway-ingting-.-.>UpUpandanddowndownthetheboubou-lele-vard.vard.>TheirTheirshasha-dowsdows-.searsir-chingching.ininthethenight.|!bg=img=../night.pngnight.!bg=.-.>StreetStreet-lights,lights,-.peoppea-lepole-.-.>LivLiv-ingvingjustjusttotofindfindee-momo-tion.shun.HidHigh-ingding-.somesome-wherewhereininthethenight,|!bg=img=../night.pngnight,!bg=..--.>@@.@@.@|!bg=4@|!bg=3.@|!bg=2@|!bg=1!mark=Verse 4|-!mark=Verse 4Work|!bg=Were-ingkinghardhardtotogetgetmymyfill,fill,-.-.>EEh-veryvery-bobud-dydeewantswantsaathrill,thrill,.-.>PayPay-in'inaeh-nyknee-thingthingtotorollrollthethedicedice-.JustJustoneonemoremoretime.time.-.!mark=Verse 5|-!mark=Verse 5>SomeSomewillwillwin,win,-.somesomewillwilllose.looooze-.-.>SomeSomewerewerebornborntotosingsingthetheblues.blueooze-.>Oh,Oh,thethemomoo-vieveeneneh-ververends.ends.>ItItgoesgoesononandandon,on,andandon,on,andandon.on..->Stran|!mark=BridgeStrain|!mark=Bridge-gersjerswaitway-ingting-.-.>UpUpandanddowndownthetheboubou-lele-vard.vard.>TheirTheirshasha-dowsdows-.searsir-chingchingininthethenight.|!bg=img=../night.pngnight.!bg=.-.>StreetStreet-lights,lights,-.peoppea-lepole-.-.>LivLiv-ingvingjustjusttotofindfindee-momo-tion.shun.HidHigh-ingding-.somesome-wherewhereininthethenight,|!bg=img=../night.pngnight,!bg=-.!mark=Guitar Solo|-!mark=Guitar Solo>@@.@@.@@.@@.@@.@@|!bg=4.@|!bg=3@|!bg=2.@|!bg=1Don't|!mark=Chorus|!bg=Doe|!mark=Chorusowntstopstopbebe-lievleeeave-in'in'-.-.>HoldHoldonontotothethefeelfeel-in'in'..StreetStreeeet-lights,lights,-.peoppeaee-lepole...>Don'tDoeowntstopstop-.bebe-lievleeeave-in'in'-.-.>HoldHoldonontotothethefeelfeeeel-in'in'.-.>StreetStreeeet-lights,lights,-.peoppeaee-lepole...>Don'tDoeowntstopstop-.bebe-lievleeeve-in'in'-.-.>HoldHoldonontotothethe-.feelfeel-in'in'.-StreetStreeeet-lights,lights,-.peoppeaee-lepole...Playing time: ~251 seconds
+!mark=Intro|-!mark=Intro>@@.@@.@@.@@.@@.@@.@@|!bg=4.@|!bg=3@|!bg=2!mark=Verse 1|-!mark=Verse 1@|!bg=1Just|!bg=Justaasmallsmalltowntowngirlgirl-.-.>LivLiv-in'vingininaalonelone-lyleeworld.wereold-..>SheShetooktookthethemidmid-nightnighttrain|!bg=img=../train.pngtraingo|!bg=go-in'inaeh-nyknee-where.where.-.!mark=Verse 2|-!mark=Verse 2>JustJustaacicih-tyteeboyboy-.-.>bornbornandandraisedraisedininSouthSouthDetDee-roit.troit-..>HeHetooktookthethemidmid-nightnighttrain|!bg=img=../train.pngtraingo|!bg=go-in'inaeh-nyknee-where.where.!mark=Guitar Fill|-!mark=Guitar Fill-.>@@.@@.@@.@@.@@.@@.@|!bg=4@|!bg=3.@|!bg=2@|!bg=1!mark=Verse 3|-!mark=Verse 3A|!bg=Asinsee-gerguerininaasmosmo-kykeyroomroom-.-.>AAsmellsmellofofwinewineandandcheapcheapperper-fumefewume-.>ForForaasmismie-leoletheytheycancansharesharethethenight.|!bg=img=../night.pngnight..!bg=>ItItgoesgoesononandandon,on,andandon,on,andandon.on..>Stran|!mark=BridgeStrain|!mark=Bridge-gersjerswaitway-ingting-.-.>UpUpandanddowndownthetheboubou-lele-vard.vard.>TheirTheirshasha-dowsdows-.searsir-chingching.ininthethenight.|!bg=img=../night.pngnight.!bg=..-.>StreetStreet-lights,lights,-.peoppea-lepole-.-.>LivLiv-ingvingjustjusttotofindfindee-momo-tion.shun.HidHigh-ingding-.somesome-wherewhereininthethenight,|!bg=img=../night.pngnight,!bg=..--.>@@.@@.@|!bg=4@|!bg=3.@|!bg=2@|!bg=1!mark=Verse 4|-!mark=Verse 4Work|!bg=Were-ingkinghardhardtotogetgetmymyfill,fill,-.-.>EEh-veryvery-bobud-dydeewantswantsaathrill,thrill,.-.>PayPay-in'inaeh-nyknee-thingthingtotorollrollthethedicedice-.JustJustoneonemoremoretime.time.-.!mark=Verse 5|-!mark=Verse 5>SomeSomewillwillwin,win,-.somesomewillwilllose.looooze-.-.>SomeSomewerewerebornborntotosingsingthetheblues.blueooze-.>Oh,Oh,thethemomoo-vieveeneneh-ververends.ends.>ItItgoesgoesononandandon,on,andandon,on,andandon.on..-.>Stran|!mark=BridgeStrain|!mark=Bridge-gersjerswaitway-ingting-.-.>UpUpandanddowndownthetheboubou-lele-vard.vard.>TheirTheirshasha-dowsdows-.searsir-chingchingininthethenight.|!bg=img=../night.pngnight.!bg=..-.>StreetStreet-lights,lights,-.peoppea-lepole-.-.>LivLiv-ingvingjustjusttotofindfindee-momo-tion.shun.HidHigh-ingding-.somesome-wherewhereininthethenight,|!bg=img=../night.pngnight,!bg=-.!mark=Guitar Solo|-!mark=Guitar Solo>@@.@@.@@.@@.@@.@@|!bg=4.@|!bg=3@|!bg=2.@|!bg=1Don't|!mark=Chorus|!bg=Doe|!mark=Chorusowntstopstopbebe-lievleeeave-in'in'-.-.>HoldHoldonontotothethefeelfeel-in'in'.StreetStreeeet-lights,lights,-.peoppeaee-lepole...>Don'tDoeowntstopstop-.bebe-lievleeeave-in'in'-.-.>HoldHoldonontotothethefeelfeeeel-in'in'.-.>StreetStreeeet-lights,lights,-.peoppeaee-lepole...>Don'tDoeowntstopstop-.bebe-lievleeeve-in'in'-.-.>HoldHoldonontotothethe-.feelfeel-in'in'.-StreetStreeeet-lights,lights,-.peoppeaee-lepole...Playing time: ~251 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 24867546/43997592 bytes(56.5202% compressed)
+Wrote 24777628/43997592 bytes(56.3159% compressed)
+generated-steelpan:49:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ cis'' a, a, a, a, |
+generated-steelpan:50:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ e'' a, a, a, a, |
+generated-steelpan:51:17: warning: unterminated tie
+    dis''8 e, e,
+                ~ e'' e, e, e, e, |
+generated-steelpan:52:17: warning: unterminated tie
+    dis''8 e, e,
+                ~ e'' e, e, e, e, |
+generated-steelpan:53:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ cis'' a, a, a, a, |
+generated-steelpan:54:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ e'' a, a, a, a, |
+generated-steelpan:55:16: warning: unterminated tie
+    fis'8 e, e,
+               ~ gis' e, e, e, e, |
+generated-steelpan:56:16: warning: unterminated tie
+    fis'8 e, e,
+               ~ gis' r2 |
+generated-steelpan:57:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ cis'' a, a, a, a, |
+generated-steelpan:58:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ e'' a, a, a, a, |
+generated-steelpan:59:17: warning: unterminated tie
+    dis''8 e, e,
+                ~ e'' e, e, e, e, |
+generated-steelpan:60:17: warning: unterminated tie
+    dis''8 e, e,
+                ~ e'' e, e, e, e, |
+generated-steelpan:61:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ cis'' a, a, a, a, |
+generated-steelpan:62:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ e'' a, a, a, a, |
+generated-steelpan:88:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ cis'' a, a, a, a, |
+generated-steelpan:89:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ e'' a, a, a, a, |
+generated-steelpan:90:17: warning: unterminated tie
+    dis''8 e, e,
+                ~ e'' e, e, e, e, |
+generated-steelpan:91:17: warning: unterminated tie
+    dis''8 e, e,
+                ~ e'' e, e, e, e, |
+generated-steelpan:92:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ cis'' a, a, a, a, |
+generated-steelpan:93:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ e'' a, a, a, a, |
+generated-steelpan:94:16: warning: unterminated tie
+    fis'8 e, e,
+               ~ gis' e, e, e, e, |
+generated-steelpan:95:16: warning: unterminated tie
+    fis'8 e, e,
+               ~ gis' r2 |
+generated-steelpan:96:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ cis'' a, a, a, a, |
+generated-steelpan:97:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ e'' a, a, a, a, |
+generated-steelpan:98:17: warning: unterminated tie
+    dis''8 e, e,
+                ~ e'' e, e, e, e, |
+generated-steelpan:99:17: warning: unterminated tie
+    dis''8 e, e,
+                ~ e'' e, e, e, e, |
+generated-steelpan:100:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ cis'' a, a, a, a, |
+generated-steelpan:101:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ e'' a, a, a, a, |
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-warning: compressing over-full page by 2.1 staff-spaces
-warning: page 1 has been compressed
-warning: compressing over-full page by 1.1 staff-spaces
-warning: page 2 has been compressed
-warning: compressing over-full page by 0.6 staff-spaces
-warning: page 3 has been compressed
-warning: compressing over-full page by 2.1 staff-spaces
-warning: page 4 has been compressed
-warning: compressing over-full page by 0.1 staff-spaces
-warning: page 8 has been compressed
-warning: compressing over-full page by 0.1 staff-spaces
-warning: page 9 has been compressed
-warning: compressing over-full page by 2.0 staff-spaces
-warning: page 14 has been compressed
+generated-steelpan:49:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ cis'' a, a, a, a, |
+generated-steelpan:50:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ e'' a, a, a, a, |
+generated-steelpan:51:17: warning: unterminated tie
+    dis''8 e, e,
+                ~ e'' e, e, e, e, |
+generated-steelpan:52:17: warning: unterminated tie
+    dis''8 e, e,
+                ~ e'' e, e, e, e, |
+generated-steelpan:53:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ cis'' a, a, a, a, |
+generated-steelpan:54:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ e'' a, a, a, a, |
+generated-steelpan:55:16: warning: unterminated tie
+    fis'8 e, e,
+               ~ gis' e, e, e, e, |
+generated-steelpan:56:16: warning: unterminated tie
+    fis'8 e, e,
+               ~ gis' r2 |
+generated-steelpan:57:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ cis'' a, a, a, a, |
+generated-steelpan:58:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ e'' a, a, a, a, |
+generated-steelpan:59:17: warning: unterminated tie
+    dis''8 e, e,
+                ~ e'' e, e, e, e, |
+generated-steelpan:60:17: warning: unterminated tie
+    dis''8 e, e,
+                ~ e'' e, e, e, e, |
+generated-steelpan:61:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ cis'' a, a, a, a, |
+generated-steelpan:62:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ e'' a, a, a, a, |
+generated-steelpan:88:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ cis'' a, a, a, a, |
+generated-steelpan:89:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ e'' a, a, a, a, |
+generated-steelpan:90:17: warning: unterminated tie
+    dis''8 e, e,
+                ~ e'' e, e, e, e, |
+generated-steelpan:91:17: warning: unterminated tie
+    dis''8 e, e,
+                ~ e'' e, e, e, e, |
+generated-steelpan:92:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ cis'' a, a, a, a, |
+generated-steelpan:93:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ e'' a, a, a, a, |
+generated-steelpan:94:16: warning: unterminated tie
+    fis'8 e, e,
+               ~ gis' e, e, e, e, |
+generated-steelpan:95:16: warning: unterminated tie
+    fis'8 e, e,
+               ~ gis' r2 |
+generated-steelpan:96:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ cis'' a, a, a, a, |
+generated-steelpan:97:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ e'' a, a, a, a, |
+generated-steelpan:98:17: warning: unterminated tie
+    dis''8 e, e,
+                ~ e'' e, e, e, e, |
+generated-steelpan:99:17: warning: unterminated tie
+    dis''8 e, e,
+                ~ e'' e, e, e, e, |
+generated-steelpan:100:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ cis'' a, a, a, a, |
+generated-steelpan:101:17: warning: unterminated tie
+    dis''8 a, a,
+                ~ e'' a, a, a, a, |
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
     124 measure=all
