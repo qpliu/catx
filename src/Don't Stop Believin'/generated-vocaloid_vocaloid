@@ -9,22 +9,22 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "."1
     "."1
 \mymark "Verse 1" #9
-    "!mark=Verse 1"2. "Just"8 "a"
-    "small"8 "town"4 "girl"4. "."4
-    "."2 "Liv"8 "ving" "in" "a"
-    "lone"4 "lee"8 "were"4 "old"4.
-    "."2 "."8 "She" "took" "the"
-    "mid"8 "night"4 "train" "go" "in"8
-    "eh"4. "knee" "where."4
+    "!mark=Verse 1"2. "(dZ'Vst)"8 "('@)"
+    "(sm'O:l)"8 "(t'aUn)"4 "(g'3:l)"4. "."4
+    "."2 "(l'Iv)"8 "('In)" "('In)" "('@)"
+    "(l'oUn)"4 "(l'i:)"8 "(w'3:)"4 "(3ld)"4.
+    "."2 "."8 "(S'i:)" "(t'Uk)" "(D'@)"
+    "(m'Id)"8 "(n'aIt)"4 "(tr'eIn)" "(g'oU)" "('In)"8
+    "('E)"4. "(ni:)" "(w'e@)"4
     \skip4 "."2.
 \mymark "Verse 2" #17
-    "!mark=Verse 2"2. "Just"8 "a"
-    "cih"8 "tee"4 "boy"4. "."4
-    "."2 "born"8 "and" "raised" "in"
-    "South"4 "Dee"8 "troit"2 \skip8
-    "."2 "."8 "He" "took" "the"
-    "mid"8 "night"4 "train" "go" "in"8
-    "eh"4. "knee" "where."4
+    "!mark=Verse 2"2. "(dZ'Vst)"8 "('@)"
+    "(s'I)"8 "(t'i:)"4 "(b'OI)"4. "."4
+    "."2 "(b'O@n)"8 "('and)" "(r'eIzd)" "('In)"
+    "(s'aUT)"4 "(d'Et)"8 "(r'O)"4 "(It)"4.
+    "."2 "."8 "(h'i:)" "(t'Uk)" "(D'@)"
+    "(m'Id)"8 "(n'aIt)"4 "(tr'eIn)" "(g'oU)" "('In)"8
+    "('E)"4. "(ni:)" "(w'e@)"4
 \mymark "Guitar Fill" #24
     "!mark=Guitar Fill"2 \skip2
     "."1
@@ -36,69 +36,69 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "."1
     "."1
 \mymark "Verse 3" #33
-    "!mark=Verse 3"4. "A"8 "see" "guer" "in" "a"
-    "smo"8 "key"4 "room"4. "."4
-    "."4. "A"8 "smell"16 "of" "wine"4 "and"8
-    "cheap"4 "per"8 "few"4 "ume"4.
-    "."4 "For"8 "a" "smie" "ole" "they" "can"
-    "share"4 "the"8 "night." \tuplet 3/2 { "."4 "It" "goes" }
-    "on"4 "and"8 "on,"4. "and"8 "on,"
-    \skip4 "and"8 "on." "."2
+    "!mark=Verse 3"4. "('@)"8 "(s'i)" "(N'3:)" "('In)" "('@)"
+    "(sm'oU)"8 "(k'i:)"4 "(r'u:)"16 "(um)"4 \skip16 "."4
+    "."4. "('@)"8 "(sm'El)"16 "('0v)" "(w'aIn)"4 "('and)"8
+    "(tS'i:p)"4 "(p'3:)"8 "(fj'u:)"4 "('um)"4.
+    "."4 "(f'O@)"8 "('@)" "(sm'aI)" "('@l)" "(D'eI)" "(k'an)"
+    "(S'e@)"4 "(D'@)"8 "(n'a)"16 "('aIt)" \tuplet 3/2 { "."4 "('It)" "(g'oUz)" }
+    "('0n)"4 "('and)"8 "('0n)"4. "('and)"8 "('0n)"
+    \skip4 "('and)"8 "('0)"16 "('0)" "('0n)"2
 \mymark "Bridge" #41
-    "Strain|!mark=Bridge"4. "jers" \skip4
-    "way"4. "ting" "."4
-    "."2 "Up"8 "and" "down" "the"
-    "bou"4 "le"8 "vard."4. "Their"4
-    "sha"4. "dows" "."4
-    "sir"4. "ching"8 "." "in" "the" "night."
-    \skip4. "."2 "."8
+    "(str'an)|!mark=Bridge"4. "(dZ'3:z)" \skip4
+    "(w'eIt)"4. "('IN)" "."4
+    "."2 "('Vp)"8 "('and)" "(d'aUn)" "(D'@)"
+    "(b'U)"4 "(l'@)"8 "(v'A@d)"4. "(D'e@)"4
+    "(S'A:)"4. "(d'aUz)" "."4
+    "(s'3:)"4. "(tS'i:)"8 "('i:N)" "('In)" "(D'@)" "(n'a)"
+    \skip4 "('a)"8 "('aIt)"2 \skip8
     "."1
-    "Street"4. "lights," "."4
-    "pea"4. "pole" "."4
-    "."2 "Liv"8 "ving" "just" "to"
-    "find"4 "e"8 "mo"4. "shun."4
-    "High"4. "ding" "."4
-    "some"4. "where"8 "in" "the" "night,"4
-    "."1
-    "."1
+    "(str'i:t)"4. "(l'aIts)" "."4
+    "(p'i:)"4. "(p'@l)" "."4
+    "."2 "(l'Iv)"8 "('IN)" "(dZ'Vst)" "(t'u:)"
+    "(f'aInd)"4 "('i:)"8 "(m'oU)"4. "(S'Vn)"4
+    "(h'aId)"4. "('IN)" "."4
+    "(s'Vm)"4. "(w'e@)"8 "('In)" "(D'@)" "(n'a)" "('a)"
+    "('aIt)"1
+    \skip2. "."4
     "."1
     "."1
     "."1
     "."1
 \mymark "Verse 4" #61
-    "!mark=Verse 4"4 "Were"8 "king" "hard" \skip4 "to"8
-    "get"8 "my"4 "fill,"4. "."4
-    "."2 "Eh"16 "very" "bud"8 "dee"4
-    "wants"4 "a"8 "thrill,"4 "."4.
-    "."4 "Pay"8 "in" "eh" "knee" "thing" "to"
-    "roll"4 "the"8 "dice"4. "."8 "Just"
-    "one"4. "more" "time."4
+    "!mark=Verse 4"4 "(w'3:k)"8 "('IN)" "(h'A@)" "(A@d)"4 "(t'u:)"8
+    "(g'Et)"8 "(m'aI)"4 "(f'I)"8 "(Il)"4 "."
+    "."2 "('E:)"16 "(v'ri:)" "(b'V)"8 "(d'i:)"4
+    "(w'0nts)"4 "('eI)"8 "(Tr'I)" "(I)" "(Il)"4.
+    "."4 "(p'eI)"8 "('In)" "(E)" "(ni:)" "(T'IN)" "(t'u:)"
+    "(r'oUl)"4 "(D'@)"8 "(d'a)"16 "(aIs)"4 \skip16 "."8 "(dZ'Vst)"
+    "(w'0n)"4. "(m'o@)" "(t'aIm)"4
     \skip2. "."4
 \mymark "Verse 5" #69
-    "!mark=Verse 5"4 "Some"8 "will" "win," \skip4.
-    \tuplet 3/2 { "."4 "some" "will" } "loo"8 "ooze"4 "."8
-    "."2 "Some"16 "were" "born"4 "to"8
-    "sing"4 "the"8 "blue"4 "ooze"4.
-    "."4 "Oh,"8 "the" "moo" "vee"4 "neh"8
-    \skip8 "ver"4 \tuplet 3/2 { "ends."4. \skip16 "It"4 "goes" }
-    "on"4 "and"8 "on,"4. "and"8 "on,"
-    \skip4 "and"8 "on."8. "."4. "."16
+    "!mark=Verse 5"4 "(s'Vm)"8 "(w'Il)" "(w'I)" "(n)" \skip4
+    \tuplet 3/2 { "."4 "(s'Vm)" "(w'Il)" } "(l'u:)"8 "(u:z)"4 "."8
+    "."2 "(s'Vm)"16 "(w'3:)" "(b'O@n)"4 "(t'u:)"8
+    "(s'IN)"4 "(D'@)"8 "(bl'u:)"4 "(u:z)"4.
+    "."4 "('oU)"8 "(D'@)" "(m'u:)" "(v'i:)"4 "(n'E)"8
+    \skip8 "(v'3:)"4 "('E)"16 \tuplet 3/2 { "(Endz)"4 } \skip16 \tuplet 3/2 { "('It)"4 "(g'oUz)" }
+    "('0n)"4 "('and)"8 "('0n)"4. "('and)"8 "('0n)"
+    \skip4 "('and)"8 "('0)"16 "(0)" "(0)" "(0n)"8. "."4
 \mymark "Bridge" #77
-    "Strain|!mark=Bridge"4. "jers" \skip4
-    "way"4. "ting" "."4
-    "."2 "Up"8 "and" "down" "the"
-    "bou"4 "le"8 "vard."4. "Their"4
-    "sha"4. "dows" "."4
-    "sir"4. "ching"4 "in"8 "the" "night."
-    \skip4. "."2 "."8
+    "(str'an)|!mark=Bridge"4. "(dZ'3:z)" \skip4
+    "(w'eIt)"4. "('IN)" "."4
+    "."2 "('Vp)"8 "('and)" "(d'aUn)" "(D'@)"
+    "(b'U)"4 "(l'@)"8 "(v'A@d)"4. "(D'e@)"4
+    "(S'A:)"4. "(d'aUz)" "."4
+    "(s'3:)"4. "(tS'i:)"8 "('i:N)" "('In)" "(D'@)" "(n'a)"
+    \skip4 "('a)"8 "('aIt)"2 \skip8
     "."1
-    "Street"4. "lights," "."4
-    "pea"4. "pole" "."4
-    "."2 "Liv"8 "ving" "just" "to"
-    "find"4 "e"8 "mo"4. "shun."4
-    "High"4. "ding" "."4
-    "some"4. "where"4 "in"8 "the" "night,"
-    \skip1
+    "(str'i:t)"4. "(l'aIts)" "."4
+    "(p'i:)"4. "(p'@l)" "."4
+    "."2 "(l'Iv)"8 "('IN)" "(dZ'Vst)" "(t'u:)"
+    "(f'aInd)"4 "('i:)"8 "(m'oU)"4. "(S'Vn)"4
+    "(h'aI)"4. "(d'IN)" "."4
+    "(s'Vm)"4. "(w'e)"8 "(@)" "('In)" "(D'@)" "(n'a)"
+    "(aIt)"1
     \skip2. "."4
 \mymark "Guitar Solo" #93
     "!mark=Guitar Solo"1
@@ -110,28 +110,28 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "."1
     "."1
 \mymark "Chorus" #101
-    "Doe|!mark=Chorus"8 "ownt"4 "stop"8 \skip4. "be"8
-    "lee"4 "eave"8 "in'"4 "."4.
-    "."2 "Hold"8 "on" "to" "the"
-    "feel"4 \tuplet 3/2 { "in'"2 \skip8 "."2 }
-    "Stree"4 "eet"8 "lights,"4 "."4.
-    "pea"4 "ee"8 \tuplet 3/2 { "pole"2 } \skip8 \tuplet 3/2 { "."4 }
-    "."1
-    "."1
-    "Doe"8 "ownt"4 "stop"8 "."4. "be"8
-    "lee"4 "eave"8 "in'"4 "."4.
-    "."8 "Hold"4 "on"8 "to" "the" "fee" "eel"
-    "in'"4. "."2 "."8
-    "Stree"4 "eet"8 "lights," "."2
-    "pea"4 "ee"8 \tuplet 3/2 { "pole"2 } \skip8 \tuplet 3/2 { "."4 }
-    "."1
-    "."1
-    "Doe"8 "ownt"4 "stop"8 "."4. "be"8
-    "lee"4 "eve"8 "in'"4 "."4.
-    "."8 "Hold"4 "on" "to"8 "the" "."
-    "feel"8. "in'"4 \skip16 "."2
-    "Stree"4 "eet"8 "lights,"4 "."4.
-    "pea"4 "ee"8 \tuplet 3/2 { "pole"2 } \skip8 \tuplet 3/2 { "."4 }
-    "."1
-    "."1
+    "(d'oU)|!mark=Chorus"8 "(oUnt)"4 "(st'0p)"8 \skip4. "(b'i:)"8
+    "(l'i:)"4 "(i:v)"8 "('In)"4 "."4.
+    "."2 "(h'oUld)"8 "('0n)" "(t'u:)" "(D'@)"
+    "(f'i:)"4 "(i:)"16 "(i:)" \tuplet 3/2 { "(i:)"4. \skip16 "(lI)"4 "('In)" }
+    "(str'i:)"4 "(i:t)"8 "(l'aIts)"4 "."4.
+    "(p'i:)"4 "(i:)"8 "(i:)" \tuplet 3/2 { "(i:)"4 "(i:)" "(p'@)" }
+    "(@l)"1
+    \skip1
+    "(d'oU)"8 "(oUnt)"4 "(st'0p)"8 "."4. "(b'i:)"8
+    "(l'i:)"4 "(i:v)"8 "('In)"4 "."4.
+    "."8 "(h'oU)"16 "(oUld)"8. "('0n)"8 "(t'u:)" "(D'@)"16 "(@)" "(f'i:)"8 "(i:)"
+    "(i:l)"4 "(li:)"16 "(i:)" "(i:N)"4 "."4.
+    "(str'i:)"4 "(i:t)"8 "(l'aIts)" "."2
+    "(p'i:)"4 "(i:)"8 "(i:)" \tuplet 3/2 { "(i:)"4 "(i:)" "(p'@)" }
+    "(@l)"1
+    \skip1
+    "(d'oU)"8 "(oUnt)"4 "(st'0p)"8 "."4. "(b'i:)"8
+    "(l'i:)"4 "(i:v)"8 "('In)"4 "."4.
+    "."8 "(h'oUld)"4 "('0n)" "(t'u:)"8 "(D'@)" "."
+    "(f'i:)"8. "(i:)" "(i:)"8 "(l'i:n)"4 "."
+    "(str'i:)"4 "(i:t)"8 "(l'aIts)"4 "."4.
+    "(p'i:)"4 "(i:)"8 "(i:)" \tuplet 3/2 { "(i:)"4 "(i:)" "(p'@)" }
+    "(@l)"1
+    \skip1
 }

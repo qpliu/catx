@@ -11,6 +11,7 @@
 \include "vo"
 \include "lyrics"
 \include "karaoke"
+\include "vocaloid"
 
 layoutmusic = <<
     \tag #'(allPart) \new Staff <<
@@ -41,4 +42,6 @@ midimusic = <<
 	\karaokeLyrics
 	\voPart
     >>
+    \tag #'(midiVocaloid) \new Staff \voPart
+    \tag #'(midiVocaloid) \vocaloidLyrics
 >>

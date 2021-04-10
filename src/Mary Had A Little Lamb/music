@@ -12,6 +12,7 @@
 \include "drums"
 \include "lyrics"
 \include "karaoke"
+\include "vocaloid"
 
 voPart = \transpose c c'' \bassPart
 
@@ -88,4 +89,6 @@ midimusic = <<
 	\karaokeLyrics
 	\voPart
     >>
+    \tag #'(midiVocaloid) \new Staff \voPart
+    \tag #'(midiVocaloid) \vocaloidLyrics
 >>

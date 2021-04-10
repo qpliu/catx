@@ -4,20 +4,22 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 6  Divisions: 384
+Format: 1  Tracks: 7  Divisions: 384
 Sequence: midiAarinrobo
 Track name: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
-metronome 0>Ma-ryhadalit-tlelamblit-tlelamb,lit-tlelamb.>Ma-ryhadalit-tlelamb.Itsfleecewaswhiteassnow.@@Playing time: ~22 seconds
+Track name: midiVocaloid
+metronome 0>MaMeh-ryreehadhadaalitlit-tletolllamblamb.litlit-tletolelamb,lamb,.litlit-tletolelamb.lamb..>MaMeh-ryreehadhadaalitlit-tletolelamb.lamb.ItsItsfleecefleecewaswaswhitewhiteasassnow.snow.@@Playing time: ~22 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 1825358/3660380 bytes(49.868% compressed)
+Wrote 1821367/3660380 bytes(49.759% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

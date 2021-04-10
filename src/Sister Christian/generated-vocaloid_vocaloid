@@ -1,0 +1,125 @@
+vocaloidVocaloid = \new Lyrics \lyricmode {
+\mymark "Intro" #1
+    "!mark=Intro"1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+\mymark "Verse 1" #7
+    "!mark=Verse 1"1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+\mymark "Verse 2" #13
+    "!mark=Verse 2"1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+\mymark "Interlude" #19
+    "!mark=Interlude"1
+    "."1
+    "."1
+    "."1
+\mymark "Chorus 1" #23
+    "!mark=Chorus 1"1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+\mymark "Verse 3" #31
+    "!mark=Verse 3"1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+\mymark "Verse 4" #37
+    "!mark=Verse 4"1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+\mymark "Chorus 2" #47
+    "!mark=Chorus 2"1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+\mymark "Chorus 3" #55
+    "!mark=Chorus 3"1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+\mymark "Solo" #62
+    "!mark=Solo"1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+\mymark "Chorus 4" #76
+    "!mark=Chorus 4"1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+\mymark "Chorus 5" #84
+    "!mark=Chorus 5"1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+\mymark "Break Down" #92
+    "!mark=Break Down"1
+    "."1
+    "."1
+    "."1
+\mymark "Outro" #96
+    "!mark=Outro"1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+\mymark "Last Bit" #102
+    "!mark=Last Bit"1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1 "."4
+    "."1
+}

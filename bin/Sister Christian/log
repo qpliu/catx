@@ -4,6 +4,7 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 mark=Intro count=0 fudgeLyrics=12 divisions=0 seconds=0.0 measure=1.0 track=midiKaraoke
 mark=Verse 1 count=13 fudgeLyrics=12 divisions=9216 seconds=16.744176 measure=7.0 track=midiKaraoke
 mark=Verse 2 count=40 fudgeLyrics=12 divisions=18432 seconds=33.488352 measure=13.0 track=midiKaraoke
@@ -19,20 +20,36 @@ mark=Chorus 5 count=265 fudgeLyrics=12 divisions=127488 seconds=225.132803999999
 mark=Break Down count=294 fudgeLyrics=12 divisions=139776 seconds=246.70582799999997 measure=92.0 track=midiKaraoke
 mark=Outro count=303 fudgeLyrics=12 divisions=145920 seconds=257.49233999999996 measure=96.0 track=midiKaraoke
 mark=Last Bit count=331 fudgeLyrics=12 divisions=155136 seconds=274.04405999999994 measure=102.0 track=midiKaraoke
+mark=Intro count=0 fudgeLyrics=12 divisions=0 seconds=0.0 measure=1.0 track=midiVocaloid
+mark=Verse 1 count=6 fudgeLyrics=12 divisions=9216 seconds=16.744176 measure=7.0 track=midiVocaloid
+mark=Verse 2 count=12 fudgeLyrics=12 divisions=18432 seconds=33.488352 measure=13.0 track=midiVocaloid
+mark=Interlude count=18 fudgeLyrics=12 divisions=27648 seconds=49.851983999999995 measure=19.0 track=midiVocaloid
+mark=Chorus 1 count=22 fudgeLyrics=12 divisions=33792 seconds=60.638495999999996 measure=23.0 track=midiVocaloid
+mark=Verse 3 count=30 fudgeLyrics=12 divisions=46080 seconds=82.21152 measure=31.0 track=midiVocaloid
+mark=Verse 4 count=36 fudgeLyrics=12 divisions=55296 seconds=98.39128799999999 measure=37.0 track=midiVocaloid
+mark=Chorus 2 count=46 fudgeLyrics=12 divisions=70656 seconds=125.35756799999999 measure=47.0 track=midiVocaloid
+mark=Chorus 3 count=54 fudgeLyrics=12 divisions=82944 seconds=146.930592 measure=55.0 track=midiVocaloid
+mark=Solo count=61 fudgeLyrics=12 divisions=93696 seconds=165.806988 measure=62.0 track=midiVocaloid
+mark=Chorus 4 count=75 fudgeLyrics=12 divisions=115200 seconds=203.55978 measure=76.0 track=midiVocaloid
+mark=Chorus 5 count=83 fudgeLyrics=12 divisions=127488 seconds=225.13280399999996 measure=84.0 track=midiVocaloid
+mark=Break Down count=91 fudgeLyrics=12 divisions=139776 seconds=246.70582799999997 measure=92.0 track=midiVocaloid
+mark=Outro count=95 fudgeLyrics=12 divisions=145920 seconds=257.49233999999996 measure=96.0 track=midiVocaloid
+mark=Last Bit count=101 fudgeLyrics=12 divisions=155136 seconds=274.04405999999994 measure=102.0 track=midiVocaloid
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 6  Divisions: 384
+Format: 1  Tracks: 7  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
+Track name: midiVocaloid
 Track name: midiOne
-!mark=Intro|->@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!mark=Verse 1|-Sis|!bg=-terChris-tian,ohthetimehascome.-->Andyouknowthatyou'retheon-lyonetosay,->O-K.-!mark=Verse 2|->Whereyougo-ing?Whatyoulook-ingfor?-->Youknowthoseboysdon'twanttoplaynomorewithyou.->It'strue.->@!mark=Interlude|-@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1You're|!bg=mo|!mark=Chorus 1-tor-ing!>What'syourpriceforflight?->Infind-ingmis-terright?->You'llbeal-rightto|!bg=img=../night.png-night.!bg=--!mark=Verse 3|->Babeyouknowyou'regrow-ingupsofast.-->Andma-ma'swor-ry-ingthatyouwon'tlasttosay.->Let'splay.-!mark=Verse 4|->Sis-terChris-tianthere'ssomuchinlife.-->Don'tyougiveitupbe-foreyourtimeisdue.->It'strue.-->It'strue!->Mo|!mark=Chorus 2-tor-ing!>What'syourpriceforflight?->You'vegothiminyoursight.->Anddriv-ingthroughthenight.|!bg=img=../night.png!bg=-->Mo|!mark=Chorus 3-tor-ing!>What'syourpriceforflight?->Infind-ingmis-terright?->You'llbeal-rightto|!bg=img=../night.png-night.!bg=->@|!mark=Solo@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Mo|!mark=Chorus 4|!bg=-tor-ing!>What'syourpriceforflight?->Infind-ingmis-terright?->You'llbeal-rightto|!bg=img=../night.png-night.!bg=-->You'remo|!mark=Chorus 5-tor-ing!>What'syourpriceforflight?->Infind-ingmis-terright?->You'llbeal-right--to|!bg=img=../night.png-night.!bg=-->@@!mark=Break Down|-@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!mark=Outro|-Sis|!bg=-terChris-tian,ohthetimehascome.-->Andyouknowthatyou'retheon-lyonetosay.-->O-K.-!mark=Last Bit|->Butyou'remo-tor-ing.->Yeah!|!bg=img=../yeah.png!bg=>Mo-tor-ing.--@@--Playing time: ~300 seconds
+!mark=Intro|-!mark=Intro>@@.@@.@@.@@.@|!bg=4@|!bg=3.@|!bg=2@|!bg=1!mark=Verse 1|-!mark=Verse 1Sis|!bg=-terChris-tian,ohthetime.hascome.--.>Andyouknowthatyou'retheon.-lyonetosay,.->O-K..-!mark=Verse 2|-!mark=Verse 2>Whereyougo-ing?Whatyoulook.-ingfor?--.>Youknowthoseboysdon'twanttoplay.nomorewithyou..->It'strue..->@!mark=Interlude|-!mark=Interlude@@.@@|!bg=4.@|!bg=3@|!bg=2.@|!bg=1You're|!bg=mo|!mark=Chorus 1!mark=Chorus 1-tor-ing!>What's.yourpriceforflight?.->Infind.-ingmis-terright?.->You'llbe.al-rightto|!bg=img=../night.png-night.!bg=.--.!mark=Verse 3|-!mark=Verse 3>Babeyouknowyou'regrow-ingup.sofast.--.>Andma-ma'swor-ry-ingthatyou.won'tlasttosay..->Let'splay..-!mark=Verse 4|-!mark=Verse 4>Sis-terChris-tianthere'ssomuch.inlife.--.>Don'tyougiveitupbe-fore.yourtimeisdue..->It'strue..--.>It'strue!...->Mo|!mark=Chorus 2!mark=Chorus 2-tor-ing!>What's.yourpriceforflight?.->You'vegot.himinyoursight..->Anddriv.-ingthroughthenight.|!bg=img=../night.png.!bg=--.>Mo|!mark=Chorus 3!mark=Chorus 3-tor-ing!>What's.yourpriceforflight?.->Infind.-ingmis-terright?.->You'llbe.al-rightto|!bg=img=../night.png-night.!bg=.->@|!mark=Solo!mark=Solo@@.@@.@@.@@.@@.@@.@@.@@.@@.@@.@@.@@|!bg=4.@|!bg=3@|!bg=2.@|!bg=1Mo|!mark=Chorus 4|!bg=!mark=Chorus 4-tor-ing!>What's.yourpriceforflight?.->Infind.-ingmis-terright?.->You'llbe.al-rightto|!bg=img=../night.png-night.!bg=.--.>You'remo|!mark=Chorus 5!mark=Chorus 5-tor-ing!>What's.yourpriceforflight?.->Infind.-ingmis-terright?.->You'llbe.al-right--.to|!bg=img=../night.png-night.!bg=--.>@@!mark=Break Down|-!mark=Break Down@@.@@.@|!bg=4@|!bg=3.@|!bg=2@|!bg=1!mark=Outro|-!mark=OutroSis|!bg=-terChris-tian,ohthetime.hascome.--.>Andyouknowthatyou'retheon.-lyonetosay..--.>O-K.-!mark=Last Bit|-!mark=Last Bit>Butyou'remo-tor-ing..->Yeah!|!bg=img=../yeah.png.!bg=.>Mo-tor-ing..--.@@-.-.Playing time: ~300 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 27898804/52699780 bytes(52.9391% compressed)
+Wrote 27910303/52699780 bytes(52.9609% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 1.1 staff-spaces
 warning: page 0 has been compressed
