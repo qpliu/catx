@@ -26,11 +26,11 @@ vocaloid = {
     r1 |
     r2. r8 g |
 \mymark "Chorus 1" #23
-    e'8 e' g'4 r2 |
-    f'4 f' g' f'8 e'~ |
-    e'4 r2 r8 e' |
-    f'4 f'8 d' f'4 f'8 e'~ |
-    e'4 r2 r8 c' |
+    <c'' g' e'>8 <c'' g' e'> <c' e' g'>4 r2 |
+    <c'' bes' f'>4 <c'' a' f'> <c'' e' g'> <a' d' f'>8 <c'' g' e'>~ |
+    <c'' g' e'>4 r2 r8 <c' g' e'> |
+    <c'' bes' f'>4 <c''~ a' f'>8 <c'' d'> <bes' d' f'>4 <bes' d' f'>8 <c'' g' e'>~ |
+    <c'' g' e'>4 r2 r8 c' |
     f'4 f'8 e' e'4 c'8 bes~ |
     bes8 c' r2. |
     r1 |
@@ -53,20 +53,20 @@ vocaloid = {
     g'1~ |
     g'16 f' e'4. r2 |
 \mymark "Chorus 2" #47
-    e'8 e' g'4 r2 |
-    f'4 f' g' f'8 e'~ |
-    e'4 r2 r8 e' |
-    f'4 f'8 d' f'4 f'8. e'16~ |
-    e'4 r2 r8 c' |
+    <c'' g' e'>8 <c'' g' e'> <c' e' g'>4 r2 |
+    <c'' bes' f'>4 <c'' a' f'> <c'' e' g'> <a' d' f'>8 <c'' g' e'>~ |
+    <c'' g' e'>4 r2 r8 <c' g' e'> |
+    <c'' bes' f'>4 <c''~ a' f'>8 <c'' d'> <bes' d' f'>4 <bes' d' f'>8. <c'' g' e'>16~ |
+    <c'' g' e'>4 r2 r8 c' |
     f'4 f'8 e' e'4 c'8 bes~ |
     bes8 c' r2. |
     r1 |
 \mymark "Chorus 3" #55
-    e'8 e' g'4 r2 |
-    f'4 f' g' f'8 e'~ |
-    e'4 r2 r8 e' |
-    f'4 f'8 d' f'4 f'8 e'~ |
-    e'4 r2 r8 c' |
+    <c'' g' e'>8 <c'' g' e'> <c' e' g'>4 r2 |
+    <c'' bes' f'>4 <c'' a' f'> <c'' e' g'> <a' d' f'>8 <c'' g' e'>~ |
+    <c'' g' e'>4 r2 r8 <c' g' e'> |
+    <c'' bes' f'>4 <c''~ a' f'>8 <c'' d'> <bes' d' f'>4 <bes' d' f'>8 <c'' g' e'>~ |
+    <c'' g' e'>4 r2 r8 c' |
     f'4 f'8 e' e'4 c'8 bes~ |
     bes8 c' r2. |
 \mymark "Solo" #62
@@ -85,20 +85,20 @@ vocaloid = {
     r1 |
     r1 |
 \mymark "Chorus 4" #76
-    e'8 e' g'4 r2 |
-    f'4 f' g' f'8 e'~ |
-    e'4 r2 r8 e' |
-    f'4 f'8 d' f'4 f'8 e'~ |
-    e'4 r2 r8 c' |
+    <c'' g' e'>8 <c'' g' e'> <c' e' g'>4 r2 |
+    <c'' bes' f'>4 <c'' a' f'> <c'' e' g'> <a' d' f'>8 <c'' g' e'>~ |
+    <c'' g' e'>4 r2 r8 <c' g' e'> |
+    <c'' bes' f'>4 <c''~ a' f'>8 <c'' d'> <bes' d' f'>4 <bes' d' f'>8 <c'' g' e'>~ |
+    <c'' g' e'>4 r2 r8 c' |
     f'4 f'8 e' e'4 c'8 bes~ |
     bes8 c' r2. |
     r2. r8 g |
 \mymark "Chorus 5" #84
-    e'8 e' g'4 r2 |
-    f'4 f' g' f'8 e'~ |
-    e'4 r2 r8 e' |
-    f'4 f'8 d' f'4 f'8 e'~ |
-    e'4 r2 r8 c' |
+    <c'' g' e'>8 <c'' g' e'> <c' e' g'>4 r2 |
+    <c'' bes' f'>4 <c'' a' f'> <c'' e' g'> <a' d' f'>8 <c'' g' e'>~ |
+    <c'' g' e'>4 r2 r8 <c' g' e'> |
+    <c'' bes' f'>4 <c''~ a' f'>8 <c'' d'> <bes' d' f'>4 <bes' d' f'>8 <c'' g' e'>~ |
+    <c'' g' e'>4 r2 r8 c' |
     f'4 f'8 e' e'4 r |
     r8 c' bes4 c'16 r4. r16 |
     r1 |

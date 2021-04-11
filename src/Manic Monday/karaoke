@@ -66,11 +66,11 @@ karaokeLyrics = \new Lyrics \lyricmode {
 \mymark "Bridge" #60
     ">All|!mark=Bridge"8 "of" "my" "nights"4 "why"8 "did" "my"
     "lo"8 "-ver" "have" "to" "pick"4 "last"
-    "night"8 "to" "get"4 "down?" -4
+    "night"8 "to" "get"4 "down?" \skip4
     -1
     ">Does"8 "-n't" "it" "mat"4 "-ter"8 "that" "I"
     "have"8 "to" "feed" "the" "both" "of" "us?" "Em"
-    "-ploy"4 "-ment's"8 "down."4. -4
+    "-ploy"4 "-ment's"8 "down."4. \skip4
     -2. -8 ">He"8
     "tells"8 "me" "in" "his" "bed"4 "-room"
     "voice."2. ">C'"8 "-mon"

@@ -21,6 +21,7 @@
 \include "lyrics"
 \include "karaoke"
 \include "vocaloid"
+\include "vocaloid_notes"
 
 layoutmusic = <<
     \tag #'(allPart kavPart) \new Staff \with {
@@ -166,6 +167,6 @@ midimusic = <<
 	\karaokeLyrics
 	\voPart
     >>
-    \tag #'(midiVocaloid) \new Staff \voPart
+    \tag #'(midiVocaloid) \new Staff \vocaloidPart
     \tag #'(midiVocaloid) \vocaloidLyrics
 >>

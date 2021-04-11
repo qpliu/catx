@@ -7,68 +7,68 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "."1
     "."1
 \mymark "Verse 1" #7
-    "!mark=Verse 1"1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
+    "!mark=Verse 1"4 "(s'Is)"8 "(t'3:)" "(kr'Is)" "(tS'Vn)" "('oU)" "(D'@)"
+    "(t'aIm)"4 "(h'az)"8 "(k'Vm)"4. "."4
+    "."4 "('and)"8 "(j'u:)" "(n'oU)" "(D'at)" "(j'O@)" "(D'@)"
+    "('oUn)"4 "(l'i:)"8 "(w'0n)"4. "(t'u:)"8 "(s'E)"
+    \skip16 "(E)"16 "(eI)"4 "."4. "('oU)"8 "(k'eI)"
+    \skip8 "."2. "."8
 \mymark "Verse 2" #13
-    "!mark=Verse 2"1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
+    "!mark=Verse 2"4 "(w'e@)"8 "(j'u:)" "(g'oU)" "('IN)" "(w'0t)" "(j'u:)"
+    "(l'U)"8 "(k'IN)"4 "(f'O@)"4. "."4
+    "."8 "(j'u:)" "(n'oU)" "(D'oUz)" "(b'OIz)" "(d'oUnt)" "(w'0nt)" "(t'u:)"
+    "(pl'eI)"4 "(n'oU)" "(m'o@)" "(w'ID)"8 "(j'u:)"
+    \skip16 "(u:)"16 "(u:)"4 "."4. "('Its)"8 "(tr'u:)"16 "(u:)"
+    "(u:)"8 "."2. "."8
 \mymark "Interlude" #19
     "!mark=Interlude"1
     "."1
     "."1
-    "."1
+    "."2. "."8 "(j'O@)"
 \mymark "Chorus 1" #23
-    "!mark=Chorus 1"1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
+    "(m'oU)|!mark=Chorus 1"8 "(t'o@)" "(r'IN)"4 \skip2
+    "(w'0ts)"4 "(j'O@)" "(pr'aIs)" "(f'O@)"8 "(fl'aIt)"
+    \skip4 "."2 "."8 "('In)"
+    "(f'aIn)"4 "(d'I)"8 "(IN)" "(m'Is)"4 "(t'3:)"8 "(r'aIt)"
+    \skip4 "."2 "."8 "(j'u:l)"
+    "(b'i:)"4 "('O:)"8 "(O:l)" "(r'aIt)"4 "(t'u:)"8 "(n'00)"
+    \skip8 "(aIt)"8 "."2.
     "."1
 \mymark "Verse 3" #31
-    "!mark=Verse 3"1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
+    "!mark=Verse 3"4 "(b'eIb)"8 "(j'u:)" "(n'oU)" "(j'O@)" "(gr'oU)" "('IN)"
+    "('Vp)"8 "(s'oU)"4 "(f'aast)"4. "."4
+    "."8 "('and)" "(m'A:)" "(m'A:z)" "(w'3:)" "(r'i:)" "('IN)" "(D'at)"
+    "(j'u:)"4 "(w'oUnt)" "(l'aast)" "(t'u:)"8 "(s'E)"
+    \skip16 "(E)"16 "(eI)"4 "."4. "(l'Ets)"8 "(pl'E)"
+    "(eI)"8 "."2. "."8
 \mymark "Verse 4" #37
-    "!mark=Verse 4"1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
+    "!mark=Verse 4"4 "(s'Is)"8 "(t'3:)" "(kr'Is)" "(tS'Vn)" "(D'e@z)" "(s'oU)"
+    "(m'VtS)"4 "('In)"8 "(l'aIf)"4. "."4
+    "."4 "(d'oUnt)"8 "(j'u:)" "(g'Iv)" "('It)" "('Vp)" "(b'i:)"
+    "(f'O@)"4 "(j'O@)" "(t'aIm)" "('Iz)"8 "(dj'u:)"
+    \skip16 "(u:)"16 "(u:)"4 "."4. "('Its)"8 "(tr'u:)"16 "(u:)"
+    "(u:)"8 "."2. "."8
+    "."2. "('Its)"8 "(tr'u:u:u:u:u:u:u:u:u:u:u:u:u:u:u:u:)"
+    \skip1
+    \skip1
+    \skip16 "(u:)"16 "(u:)"4. "."2
 \mymark "Chorus 2" #47
-    "!mark=Chorus 2"1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
+    "(m'oU)|!mark=Chorus 2"8 "(t'o@)" "(r'IN)"4 \skip2
+    "(w'0ts)"4 "(j'O@)" "(pr'aIs)" "(f'O@)"8 "(fl'aIt)"
+    \skip4 "."2 "."8 "(j'u:v)"
+    "(g'0t)"4 "(h'I)"8 "(Im)" "('In)"4 "(j'O@)"8. "(s'aIt)"16
+    \skip4 "."2 "."8 "('and)"
+    "(dr'aI)"4 "(v'I)"8 "(IN)" "(Tr'u:)"4 "(D'@)"8 "(n'00)"
+    \skip8 "(aIt)"8 "."2.
     "."1
 \mymark "Chorus 3" #55
-    "!mark=Chorus 3"1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
+    "(m'oU)|!mark=Chorus 3"8 "(t'o@)" "(r'IN)"4 \skip2
+    "(w'0ts)"4 "(j'O@)" "(pr'aIs)" "(f'O@)"8 "(fl'aIt)"
+    \skip4 "."2 "."8 "('In)"
+    "(f'aInd)"4 "(d'i)"8 "(IN)" "(m'Is)"4 "(t'3:)"8 "(r'aIt)"
+    \skip4 "."2 "."8 "(j'u:l)"
+    "(b'i:)"4 "('O:)"8 "(O:l)" "(r'aIt)"4 "(t'u:)"8 "(n'00)"
+    \skip8 "(aIt)"8 "."2.
 \mymark "Solo" #62
     "!mark=Solo"1
     "."1
@@ -85,22 +85,22 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "."1
     "."1
 \mymark "Chorus 4" #76
-    "!mark=Chorus 4"1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
+    "(m'oU)|!mark=Chorus 4"8 "(t'o@)" "(r'IN)"4 \skip2
+    "(w'0ts)"4 "(j'O@)" "(pr'aIs)" "(f'O@)"8 "(fl'aIt)"
+    \skip4 "."2 "."8 "('In)"
+    "(f'aInd)"4 "(d'i)"8 "(IN)" "(m'Is)"4 "(t'3:)"8 "(r'aIt)"
+    \skip4 "."2 "."8 "(j'u:l)"
+    "(b'i:)"4 "('O:)"8 "(O:l)" "(r'aIt)"4 "(t'u:)"8 "(n'00)"
+    \skip8 "(aIt)"8 "."2.
+    "."2. "."8 "(j'O@)"
 \mymark "Chorus 5" #84
-    "!mark=Chorus 5"1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
+    "(m'oU)|!mark=Chorus 5"8 "(t'o@)" "(r'IN)"4 \skip2
+    "(w'0ts)"4 "(j'O@)" "(pr'aIs)" "(f'O@)"8 "(fl'aIt)"
+    \skip4 "."2 "."8 "('In)"
+    "(f'aInd)"4 "(d'i)"8 "(IN)" "(m'Is)"4 "(t'3:)"8 "(r'aIt)"
+    \skip4 "."2 "."8 "(j'u:l)"
+    "(b'i:)"4 "('O:)"8 "(O:l)" "(r'aIt)"4 "."
+    "."8 "(t'u:)" "(n'00)"4 "(aIt)"16 "."4. "."16
     "."1
 \mymark "Break Down" #92
     "!mark=Break Down"1
@@ -108,18 +108,18 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "."1
     "."1
 \mymark "Outro" #96
-    "!mark=Outro"1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
+    "!mark=Outro"4 "(s'Is)"8 "(t'3:)" "(kr'Is)" "(tS'Vn)" "('oU)" "(D'@)"
+    "(t'aIm)"4 "(h'az)"8 "(k'Vm)"4. "."4
+    "."4 "('and)"8 "(j'u:)" "(n'oU)" "(D'at)" "(j'O@)" "(D'@)"
+    "('oUn)"4 "(l'i:)"8 "(w'0n)"4. "(t'u:)"8 "(s'E)"
+    \skip16 "(E)"16 "(eI)"4 "."2 "."8
+    "."8 "('oU)" "(k'E)" "(eI)" "."2
 \mymark "Last Bit" #102
-    "!mark=Last Bit"1
-    "."1
-    "."1
-    "."1
-    "."1
+    "!mark=Last Bit"2 \skip8 "(b'Vt)"16 "(j'O@)" "(m'oU)"8 "(t'o@)"
+    "(r'I)"16 "(I)" "(IN)"8 "."2 "."8 "(j'E:E:E:)"
+    \skip2. "(E)"16 "(E:E:E:Eh)"8.
+    \skip2 "(m'oU)"4 "(t'o@)"
+    "(r'I)"8 "(IN)"4 "."2 "."8
     "."1 "."4
     "."1
 }

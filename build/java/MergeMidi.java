@@ -353,8 +353,8 @@ final class MergeMidi{
 		if ("midiKaraoke".equals(outTrackName) || "midiVocaloid".equals(outTrackName))
 		    for (StringTokenizer st=new StringTokenizer(new String(data),"|"); st.hasMoreTokens();){
 			String l=st.nextToken();
-			if (l.startsWith("!mark="))
-			    System.err.println("mark="+l.substring(6)+" count="+fudgeLyricsCount+" fudgeLyrics="+fudgeLyrics+" "+timeToStringAndPrintMap(null,t)+" track="+outTrackName);
+			if (l.startsWith("!mark=") || l.startsWith("!check="))
+			    System.err.println(l+" count="+fudgeLyricsCount+" fudgeLyrics="+fudgeLyrics+" "+timeToStringAndPrintMap(null,t)+" track="+outTrackName);
 		    }
 		metaEvents.add(new LyricEvent(t,id,outTrackIndex,what,data));
 		fudgeLyricsCount++;

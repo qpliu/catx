@@ -1,5 +1,6 @@
 % BIN midi all
 % ROBOT enabled=true
+% MERGEMIDI --fudge-lyrics midiVocaloid=144
 
 \header {
     title = "Row, Row, Row Your Boat"

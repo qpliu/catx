@@ -59,17 +59,17 @@ vocaloidLyrics = \new Lyrics \lyricmode {
 \mymark "Bridge" #60
     "('O:l)"8 "('0v)" "(m'aI)" "(n'aIts)"4 "(w'aI)"8 "(d'Id)" "(m'aI)"
     "(l'V)"8 "(v'3:)" "(h'av)" "(t'u:)" "(p'Ik)"4 "(l'aast)"
-    "(n'aIt)"8 "(t'u:)" "(g'Et)"4 "(d'aU)"8. "(aU)"16 "(aUn)"4
+    "(n'aIt)"8 "(t'u:)" "(g'Et)"4 "(d'aU)"4 "(aUn)"4
     "."1
     "(d'Vz)"8 "('Ent)" "('It)" "(m'at)"4 "(t'3:)"8 "(D'at)" "('aI)"
     "(h'av)"8 "(t'u:)" "(f'i:d)" "(D'@)" "(b'oUT)" "('0v)" "('Vs)" "('Em)"
-    "(pl'OI)"4 "(m'Ents)"8 "(d'aU)"4 "(aU)"8 "(aUn)"4
+    "(pl'OI)"4 "(m'Ents)"8 "(d'aU)"4. "(aUn)"4
     "."2. "."8 "(h'i:)"8
     "(t'Elz)"8 "(m'i:)" "('In)" "(h'Iz)" "(b'Ed)"4 "(r'u:m)"
     "(v'OIs)"4 "."2 "(k'Vm)"8 "(m'0n)"
     "(h'Vn)"8 "(n'i:)" "."8 "(l'Ets)" "(g'oU)" "(m'eIk)" "(s'Vm)" "(n'OIz)"4
     "."2. "."8
-    "(t'aIm)"4 "('It)"8 "(g'oUz)" "(s'oU)"4 "(f'aast)"
+    "(t'aIm)"4 "('Itg'oUz)" "(s'oU)" "(f'aast)"
     "."2. "."8 "('Its)"8
 \mymark "Outro" #74
     "(dZ'Vst)|!mark=Outro"8 "('V)" "(n'V)" "(D'3)" "(m'a)"4 "(n'Ik)"
