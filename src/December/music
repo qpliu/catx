@@ -1,5 +1,6 @@
 % BIN midi all gg susan kav peter bass
 % ROBOT enabled=true
+% MERGEMIDI --fudge-lyrics midiVocaloidTwo=96
 
 \header {
     title = "December"
@@ -17,6 +18,8 @@
 \include "lyrics2"
 \include "karaoke"
 \include "karaoke2"
+\include "vocaloid"
+\include "vocaloid2"
 
 layoutmusic = <<
     \tag #'(allPart kavPart susanPart) \new Staff \with {
@@ -107,4 +110,8 @@ midimusic = <<
 	\karaokeTwoLyrics
 	\transpose c c, \voTwoPart
     >>
+    \tag #'(midiVocaloid) \new Staff \transpose c c, \voPart
+    \tag #'(midiVocaloid) \vocaloidLyrics
+    \tag #'(midiVocaloidTwo) \new Staff \transpose c c, \voTwoPart
+    \tag #'(midiVocaloidTwo) \vocaloidTwoLyrics
 >>

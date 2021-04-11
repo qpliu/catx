@@ -350,12 +350,11 @@ final class MergeMidi{
 		if (fudgeLyricsCount==0)
 		    fudgeLyrics = fudgeLyricsMap.getOrDefault(outTrackName,DEFAULT_FUDGE_LYRICS);
 		long t=time-fudgeLyrics*fudgeLyricsCount;
-		if ("midiKaraoke".equals(outTrackName) || "midiVocaloid".equals(outTrackName))
-		    for (StringTokenizer st=new StringTokenizer(new String(data),"|"); st.hasMoreTokens();){
-			String l=st.nextToken();
-			if (l.startsWith("!mark=") || l.startsWith("!check="))
-			    System.err.println(l+" count="+fudgeLyricsCount+" fudgeLyrics="+fudgeLyrics+" "+timeToStringAndPrintMap(null,t)+" track="+outTrackName);
-		    }
+		for (StringTokenizer st=new StringTokenizer(new String(data),"|"); st.hasMoreTokens();){
+		    String l=st.nextToken();
+		    if (l.startsWith("!mark=") || l.startsWith("!check="))
+			System.err.println(l+" count="+fudgeLyricsCount+" fudgeLyrics="+fudgeLyrics+" "+timeToStringAndPrintMap(null,t)+" track="+outTrackName);
+		}
 		metaEvents.add(new LyricEvent(t,id,outTrackIndex,what,data));
 		fudgeLyricsCount++;
 	    }else if (what==6){
