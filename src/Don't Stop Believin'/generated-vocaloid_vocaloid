@@ -11,7 +11,7 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
 \mymark "Verse 1" #9
     "!mark=Verse 1"2. "(dZ'Vst)"8 "('@)"
     "(sm'O:l)"8 "(t'aUn)"4 "(g'3:l)"4. "."4
-    "."2 "(l'Iv)"8 "('In)" "('In)" "('@)"
+    "."2 "(l'I)"8 "(v'In)" "('In)" "('@)"
     "(l'oUn)"4 "(l'i:)"8 "(w'3:)"4 "(3ld)"4.
     "."2 "."8 "(S'i:)" "(t'Uk)" "(D'@)"
     "(m'Id)"8 "(n'aIt)"4 "(tr'eIn)" "(g'oU)" "('In)"8
@@ -21,7 +21,7 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "!mark=Verse 2"2. "(dZ'Vst)"8 "('@)"
     "(s'I)"8 "(t'i:)"4 "(b'OI)"4. "."4
     "."2 "(b'O@n)"8 "('and)" "(r'eIzd)" "('In)"
-    "(s'aUT)"4 "(d'Et)"8 "(r'O)"4 "(It)"4.
+    "(s'aUT)"4 "(d'Et)"8 "(r'OI)"4 "(it)"4.
     "."2 "."8 "(h'i:)" "(t'Uk)" "(D'@)"
     "(m'Id)"8 "(n'aIt)"4 "(tr'eIn)" "(g'oU)" "('In)"8
     "('E)"4. "(ni:)" "(w'e@)"4
@@ -43,33 +43,33 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "."4 "(f'O@)"8 "('@)" "(sm'aI)" "('@l)" "(D'eI)" "(k'an)"
     "(S'e@)"4 "(D'@)"8 "(n'a)"16 "('aIt)" \tuplet 3/2 { "."4 "('It)" "(g'oUz)" }
     "('0n)"4 "('and)"8 "('0n)"4. "('and)"8 "('0n)"
-    \skip4 "('and)"8 "('0)"16 "('0)" "('0n)"2
+    \skip4 "('and)"8 "('0:0:0n)"2 \skip8
 \mymark "Bridge" #41
     "(str'an)|!mark=Bridge"4. "(dZ'3:z)" \skip4
-    "(w'eIt)"4. "('IN)" "."4
+    "(w'eI)"4. "(t'IN)" "."4
     "."2 "('Vp)"8 "('and)" "(d'aUn)" "(D'@)"
     "(b'U)"4 "(l'@)"8 "(v'A@d)"4. "(D'e@)"4
     "(S'A:)"4. "(d'aUz)" "."4
-    "(s'3:)"4. "(tS'i:)"8 "('i:N)" "('In)" "(D'@)" "(n'a)"
-    \skip4 "('a)"8 "('aIt)"2 \skip8
+    "(s'3:)"4. "(tS'i:)"8 "('i:N)" "('In)" "(D'@)" "(n'a:a)"
+    \skip4. "('a:aIt)"2 \skip8
     "."1
     "(str'i:t)"4. "(l'aIts)" "."4
     "(p'i:)"4. "(p'@l)" "."4
-    "."2 "(l'Iv)"8 "('IN)" "(dZ'Vst)" "(t'u:)"
+    "."2 "(l'I)"8 "(v'IN)" "(dZ'Vst)" "(t'u:)"
     "(f'aInd)"4 "('i:)"8 "(m'oU)"4. "(S'Vn)"4
-    "(h'aId)"4. "('IN)" "."4
-    "(s'Vm)"4. "(w'e@)"8 "('In)" "(D'@)" "(n'a)" "('a)"
-    "('aIt)"1
+    "(h'aI)"4. "(d'IN)" "."4
+    "(s'Vm)"4. "(w'e@)"8 "('In)" "(D'@)" "(n'a:a)"4
+    "('a:a:a:aIt)"1
     \skip2. "."4
     "."1
     "."1
     "."1
     "."1
 \mymark "Verse 4" #61
-    "!mark=Verse 4"4 "(w'3:k)"8 "('IN)" "(h'A@)" "(A@d)"4 "(t'u:)"8
-    "(g'Et)"8 "(m'aI)"4 "(f'I)"8 "(Il)"4 "."
+    "!mark=Verse 4"4 "(w'3:)"8 "(k'IN)" "(h'A@)" "(A@d)"4 "(t'u:)"8
+    "(g'Et)"8 "(m'aI)"4 "(f'I:I:l)"4. "."4
     "."2 "('E:)"16 "(v'ri:)" "(b'V)"8 "(d'i:)"4
-    "(w'0nts)"4 "('eI)"8 "(Tr'I)" "(I)" "(Il)"4.
+    "(w'0nts)"4 "('eI)"8 "(Tr'I:I:I:l)"2 \skip8
     "."4 "(p'eI)"8 "('In)" "(E)" "(ni:)" "(T'IN)" "(t'u:)"
     "(r'oUl)"4 "(D'@)"8 "(d'a)"16 "(aIs)"4 \skip16 "."8 "(dZ'Vst)"
     "(w'0n)"4. "(m'o@)" "(t'aIm)"4
@@ -82,23 +82,23 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "."4 "('oU)"8 "(D'@)" "(m'u:)" "(v'i:)"4 "(n'E)"8
     \skip8 "(v'3:)"4 "('E)"16 \tuplet 3/2 { "(Endz)"4 } \skip16 \tuplet 3/2 { "('It)"4 "(g'oUz)" }
     "('0n)"4 "('and)"8 "('0n)"4. "('and)"8 "('0n)"
-    \skip4 "('and)"8 "('0)"16 "(0)" "(0)" "(0n)"8. "."4
+    \skip4 "('and)"8 "('0:0:0:0:n)"4. "."4
 \mymark "Bridge" #77
     "(str'an)|!mark=Bridge"4. "(dZ'3:z)" \skip4
-    "(w'eIt)"4. "('IN)" "."4
+    "(w'eI)"4. "(t'IN)" "."4
     "."2 "('Vp)"8 "('and)" "(d'aUn)" "(D'@)"
     "(b'U)"4 "(l'@)"8 "(v'A@d)"4. "(D'e@)"4
     "(S'A:)"4. "(d'aUz)" "."4
-    "(s'3:)"4. "(tS'i:)"8 "('i:N)" "('In)" "(D'@)" "(n'a)"
-    \skip4 "('a)"8 "('aIt)"2 \skip8
+    "(s'3:)"4. "(tS'i:)"8 "('i:N)" "('In)" "(D'@)" "(n'a:a)"
+    \skip4. "('a:aIt)"2 \skip8
     "."1
     "(str'i:t)"4. "(l'aIts)" "."4
     "(p'i:)"4. "(p'@l)" "."4
-    "."2 "(l'Iv)"8 "('IN)" "(dZ'Vst)" "(t'u:)"
+    "."2 "(l'I)"8 "(v'IN)" "(dZ'Vst)" "(t'u:)"
     "(f'aInd)"4 "('i:)"8 "(m'oU)"4. "(S'Vn)"4
     "(h'aI)"4. "(d'IN)" "."4
     "(s'Vm)"4. "(w'e)"8 "(@)" "('In)" "(D'@)" "(n'a)"
-    "(aIt)"1
+    "(a:aIt)"1
     \skip2. "."4
 \mymark "Guitar Solo" #93
     "!mark=Guitar Solo"1
@@ -111,27 +111,27 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "."1
 \mymark "Chorus" #101
     "(d'oU)|!mark=Chorus"8 "(oUnt)"4 "(st'0p)"8 \skip4. "(b'i:)"8
-    "(l'i:)"4 "(i:v)"8 "('In)"4 "."4.
+    "(l'i:)"4 "(i:)"8 "(v'In)"4 "."4.
     "."2 "(h'oUld)"8 "('0n)" "(t'u:)" "(D'@)"
-    "(f'i:)"4 "(i:)"16 "(i:)" \tuplet 3/2 { "(i:)"4. \skip16 "(lI)"4 "('In)" }
+    \tuplet 3/2 { "(f'i:i:i:i:i:i:)"1 "(lIIn)"2 }
     "(str'i:)"4 "(i:t)"8 "(l'aIts)"4 "."4.
-    "(p'i:)"4 "(i:)"8 "(i:)" \tuplet 3/2 { "(i:)"4 "(i:)" "(p'@)" }
-    "(@l)"1
+    \tuplet 3/2 { "(p'i:i:i:i:i:i:i:i:)"1 \skip4 "(p'@l)"4 }
+    \skip1
     \skip1
     "(d'oU)"8 "(oUnt)"4 "(st'0p)"8 "."4. "(b'i:)"8
-    "(l'i:)"4 "(i:v)"8 "('In)"4 "."4.
-    "."8 "(h'oU)"16 "(oUld)"8. "('0n)"8 "(t'u:)" "(D'@)"16 "(@)" "(f'i:)"8 "(i:)"
-    "(i:l)"4 "(li:)"16 "(i:)" "(i:N)"4 "."4.
+    "(l'i:)"4 "(i:)"8 "(v'In)"4 "."4.
+    "."8 "(h'oU)"16 "(oUld)"8. "('0n)"8 "(t'u:)" "(D'@)"16 "(@)" "(f'i:i:i:)"4
+    \skip4 "(li:i:i:i:i:N)"4. "."
     "(str'i:)"4 "(i:t)"8 "(l'aIts)" "."2
-    "(p'i:)"4 "(i:)"8 "(i:)" \tuplet 3/2 { "(i:)"4 "(i:)" "(p'@)" }
-    "(@l)"1
+    \tuplet 3/2 { "(p'i:i:i:i:i:i:i:i:)"1 \skip4 "(p'@l)"4 }
+    \skip1
     \skip1
     "(d'oU)"8 "(oUnt)"4 "(st'0p)"8 "."4. "(b'i:)"8
-    "(l'i:)"4 "(i:v)"8 "('In)"4 "."4.
+    "(l'i:)"4 "(i:)"8 "(v'In)"4 "."4.
     "."8 "(h'oUld)"4 "('0n)" "(t'u:)"8 "(D'@)" "."
     "(f'i:)"8. "(i:)" "(i:)"8 "(l'i:n)"4 "."
     "(str'i:)"4 "(i:t)"8 "(l'aIts)"4 "."4.
-    "(p'i:)"4 "(i:)"8 "(i:)" \tuplet 3/2 { "(i:)"4 "(i:)" "(p'@)" }
-    "(@l)"1
+    \tuplet 3/2 { "(p'i:i:i:i:i:i:i:i:)"1 \skip4 "(p'@l)"4 }
+    \skip1
     \skip1
 }

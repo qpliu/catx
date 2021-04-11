@@ -5,21 +5,21 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-mark=Intro 1 count=0 fudgeLyrics=48 divisions=0 seconds=0.0 measure=1.0 track=midiKaraoke
-mark=Intro 2 count=7 fudgeLyrics=48 divisions=4608 seconds=5.1063719999999995 measure=4.0 track=midiKaraoke
-mark=A count=26 fudgeLyrics=48 divisions=16896 seconds=18.723363999999997 measure=12.0 track=midiKaraoke
-mark=B count=69 fudgeLyrics=48 divisions=29184 seconds=32.340356 measure=20.0 track=midiKaraoke
-mark=C count=109 fudgeLyrics=48 divisions=41472 seconds=45.957347999999996 measure=28.0 track=midiKaraoke
-mark=D count=135 fudgeLyrics=48 divisions=53760 seconds=59.57433999999999 measure=36.0 track=midiKaraoke
-mark=E count=175 fudgeLyrics=48 divisions=66048 seconds=73.19133199999999 measure=44.0 track=midiKaraoke
-mark=B-2 count=186 fudgeLyrics=48 divisions=72192 seconds=79.999828 measure=48.0 track=midiKaraoke
-mark=C-2 count=226 fudgeLyrics=48 divisions=84480 seconds=93.61681999999999 measure=56.0 track=midiKaraoke
-mark=D-2 count=252 fudgeLyrics=48 divisions=96768 seconds=107.23381199999999 measure=64.0 track=midiKaraoke
-mark=F count=292 fudgeLyrics=48 divisions=109056 seconds=120.85080399999998 measure=72.0 track=midiKaraoke
-mark=G count=309 fudgeLyrics=48 divisions=121344 seconds=134.467796 measure=80.0 track=midiKaraoke
-mark=D-3 count=335 fudgeLyrics=48 divisions=133632 seconds=148.08478799999997 measure=88.0 track=midiKaraoke
-mark=Ending count=377 fudgeLyrics=48 divisions=145920 seconds=161.70177999999999 measure=96.0 track=midiKaraoke
-mark=Ending count=357 fudgeLyrics=48 divisions=145920 seconds=161.70177999999999 measure=96.0 track=midiVocaloid
+!mark=Intro 1 count=0 fudgeLyrics=48 divisions=0 seconds=0.0 measure=1.0 track=midiKaraoke
+!mark=Intro 2 count=7 fudgeLyrics=48 divisions=4608 seconds=5.1063719999999995 measure=4.0 track=midiKaraoke
+!mark=A count=26 fudgeLyrics=48 divisions=16896 seconds=18.723363999999997 measure=12.0 track=midiKaraoke
+!mark=B count=69 fudgeLyrics=48 divisions=29184 seconds=32.340356 measure=20.0 track=midiKaraoke
+!mark=C count=109 fudgeLyrics=48 divisions=41472 seconds=45.957347999999996 measure=28.0 track=midiKaraoke
+!mark=D count=135 fudgeLyrics=48 divisions=53760 seconds=59.57433999999999 measure=36.0 track=midiKaraoke
+!mark=E count=175 fudgeLyrics=48 divisions=66048 seconds=73.19133199999999 measure=44.0 track=midiKaraoke
+!mark=B-2 count=186 fudgeLyrics=48 divisions=72192 seconds=79.999828 measure=48.0 track=midiKaraoke
+!mark=C-2 count=226 fudgeLyrics=48 divisions=84480 seconds=93.61681999999999 measure=56.0 track=midiKaraoke
+!mark=D-2 count=252 fudgeLyrics=48 divisions=96768 seconds=107.23381199999999 measure=64.0 track=midiKaraoke
+!mark=F count=292 fudgeLyrics=48 divisions=109056 seconds=120.85080399999998 measure=72.0 track=midiKaraoke
+!mark=G count=309 fudgeLyrics=48 divisions=121344 seconds=134.467796 measure=80.0 track=midiKaraoke
+!mark=D-3 count=335 fudgeLyrics=48 divisions=133632 seconds=148.08478799999997 measure=88.0 track=midiKaraoke
+!mark=Ending count=377 fudgeLyrics=48 divisions=145920 seconds=161.70177999999999 measure=96.0 track=midiKaraoke
+!mark=Ending count=357 fudgeLyrics=48 divisions=145920 seconds=161.70177999999999 measure=96.0 track=midiVocaloid
 WorstAge=2147484800
 Playing out.midi
 MIDI file: out.midi

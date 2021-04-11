@@ -1,0 +1,79 @@
+vocaloidVocaloid = \new Lyrics \lyricmode {
+\mymark "Intro" #1
+    "!mark=Intro"1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."2 "."8 "(w'En)" "('aI)"4
+\mymark "Verse 1" #9
+    "(t'O:k)|!mark=Verse 1"8 "('@)"4 "(b'aUt)" "('It)"8 \skip4
+    "(k'E)"8 "(r'i:z)"4 "('0n)"4. "."4
+    "(r'i:)"8 "(s'Vnz)"4 "('0n)" "(l'i:)" "(nj'u:)"8
+    \skip4 "."4. "(w'En)"8 "('aI)"4
+    "(t'O:k)"8 "('@)"4 "(b'aUt)" "('It)"8 "."4
+    "('E)"8 "(r'i:z)"4 "('O@)"4. "."4
+    "(tr'i:)"8 "(s'Vnz)"4 "('O:l)" "(r'i:)" "(nj'u:)"8
+    \skip4 "."2.
+\mymark "Pre-Chorus" #17
+    "!mark=Pre-Chorus"4 "(b'Ig)" "(m'i:)"4. "(t'u:)"8
+    "(t'O:k)"8 "('@)"4 "(b'aUt)" "('It)"8 "."4
+    "('aI)"8 "(k'Ud)"4 "(st'and)"4. "(t'u:)"8 "(pr'u:v)"
+    \skip4 "."2.
+    "."4 "('If)" "(w'i:)"4. "(k'an)"8
+    "(g'Et)"8 "('@)"4 "(r'aUnd)" "('It)"8 "."4
+    "('aI)"8 "(n'oU)"4 "(D'at)"4. "('Its)"8 "(tr'u:)"
+    \skip4 "."4. "(w'El)"8 "('aI)"4
+\mymark "Chorus" #25
+    "(t'O:kt)|!mark=Chorus"8 "('@)"4 "(b'aUt)" "('It)"8 \skip4
+    "(k'E)"8 "(r'i:d)"4 "('0n)"4. "."4
+    "(r'i:)"8 "(s'Vnz)"4 "('0n)" "(l'i:)" "(nj'u:)"8
+    \skip4 "."4. "(b'Vt)"8 "('Its)" "(j'u:)"
+    \skip4 "."2.
+    "."8 "('aI)"4 "(f'El)" "('In)" "(t'u:)"8
+    \skip4 "."2.
+    "."2 "."8 "(w'En)" "('aI)"4
+\mymark "Verse 2" #33
+    "(t'O:kt)|!mark=Verse 2"8 "('@)"4 "(b'aUt)" "('It)"8 \skip4
+    "(k'E)"8 "(r'i:z)"4 "('0n)"4. "."4
+    "(r'i:)"8 "(s'Vnz)"4 "('0n)" "(l'i:)" "(nj'u:)"8
+    \skip4 "."4. "(w'En)"8 "('aI)"4
+    "(t'O:kt)"8 "('@)"4 "(b'aUt)" "('It)"8 "."4
+    "('E)"8 "(r'i:z)"4 "('O@)"4. "."4
+    "(tr'i:)"8 "(s'Vnz)"4 "('O:l)" "(r'i:)" "(nj'u:)"8
+    \skip4 "."2.
+\mymark "Pre-Chorus" #41
+    "!mark=Pre-Chorus"4 "(b'Ig)" "(m'i:)"4. "(t'u:)"8
+    "(t'O:k)"8 "('@)"4 "(b'aUt)" "('It)"8 "."4
+    "('aI)"8 "(k'Ud)"4 "(st'and)"4. "(t'u:)"8 "(pr'u:v)"
+    \skip4 "."2.
+    "."4 "('If)" "(w'i:)"4. "(k'an)"8
+    "(g'Et)"8 "('@)"4 "(r'aUnd)" "('It)"8 "."4
+    "('aI)"8 "(n'oU)"4 "(D'at)"4. "('Its)"8 "(tr'u:)"
+    \skip4 "."4. "(w'El)"8 "('aI)"4
+\mymark "Chorus" #49
+    "(t'O:kt)|!mark=Chorus"8 "('@)"4 "(b'aUt)" "('It)"8 \skip4
+    "(p'Ut)"8 "('It)"4 "('0n)"4. "."4
+    "(n'E:)"8 "(v'3:)"4 "(w'0z)" "('It)" "(tr'u:)"8
+    \skip4 "."4. "(b'Vt)"8 "('Its)" "(j'u:)"
+    \skip4 "."2.
+    "."8 "('aI)"4 "(f'El)" "('In)" "(t'u:)"8
+    \skip4 "."2.
+    "."2 "."8 "(w'El)" "('aI)"4
+\mymark "Outro-Chorus" #57
+    "(t'O:kt)|!mark=Outro-Chorus"8 "('@)"4 "(b'aUt)" "('It)"8 \skip4
+    "(p'Ut)"8 "('It)"4 "('0n)"4. "."4
+    "(n'E:)"8 "(v'3:)"4 "(w'0z)" "('It)" "(tr'u:)"8
+    \skip4 "."4. "(b'Vt)"8 "('Its)" "(j'u:)"
+    \skip4 "."2.
+    "."8 "('aI)"4 "(f'El)" "('In)" "(t'u:)"8
+    \skip4 "."2.
+    "."8 "('aI)"4 "(f'El)" "('In)" "(t'u:)"8
+    \skip4 "."2.
+    "."8 "('aI)"4 "(f'El)" "('In)"4.
+    \skip4 "(t'u:)"4 "."2
+    "."1
+    "."1
+}

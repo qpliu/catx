@@ -4,28 +4,38 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-mark=Intro count=0 fudgeLyrics=48 divisions=0 seconds=0.0 measure=1.0 track=midiKaraoke
-mark=Verse 1 count=18 fudgeLyrics=48 divisions=12288 seconds=14.883712 measure=9.0 track=midiKaraoke
-mark=Pre-Chorus count=49 fudgeLyrics=48 divisions=24576 seconds=29.767424 measure=17.0 track=midiKaraoke
-mark=Chorus count=81 fudgeLyrics=48 divisions=36864 seconds=44.651135999999994 measure=25.0 track=midiKaraoke
-mark=Verse 2 count=108 fudgeLyrics=48 divisions=49152 seconds=59.534848 measure=33.0 track=midiKaraoke
-mark=Pre-Chorus count=139 fudgeLyrics=48 divisions=61440 seconds=74.41856 measure=41.0 track=midiKaraoke
-mark=Chorus count=171 fudgeLyrics=48 divisions=73728 seconds=89.30227199999999 measure=49.0 track=midiKaraoke
-mark=Outro-Chorus count=198 fudgeLyrics=48 divisions=86016 seconds=104.18598399999999 measure=57.0 track=midiKaraoke
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+!mark=Intro count=0 fudgeLyrics=48 divisions=0 seconds=0.0 measure=1.0 track=midiKaraoke
+!mark=Verse 1 count=18 fudgeLyrics=48 divisions=12288 seconds=14.883712 measure=9.0 track=midiKaraoke
+!mark=Pre-Chorus count=49 fudgeLyrics=48 divisions=24576 seconds=29.767424 measure=17.0 track=midiKaraoke
+!mark=Chorus count=81 fudgeLyrics=48 divisions=36864 seconds=44.651135999999994 measure=25.0 track=midiKaraoke
+!mark=Verse 2 count=108 fudgeLyrics=48 divisions=49152 seconds=59.534848 measure=33.0 track=midiKaraoke
+!mark=Pre-Chorus count=139 fudgeLyrics=48 divisions=61440 seconds=74.41856 measure=41.0 track=midiKaraoke
+!mark=Chorus count=171 fudgeLyrics=48 divisions=73728 seconds=89.30227199999999 measure=49.0 track=midiKaraoke
+!mark=Outro-Chorus count=198 fudgeLyrics=48 divisions=86016 seconds=104.18598399999999 measure=57.0 track=midiKaraoke
+!mark=Intro count=0 fudgeLyrics=48 divisions=0 seconds=0.0 measure=1.0 track=midiVocaloid
+!mark=Verse 1 count=11 fudgeLyrics=48 divisions=12288 seconds=14.883712 measure=9.0 track=midiVocaloid
+!mark=Pre-Chorus count=42 fudgeLyrics=48 divisions=24576 seconds=29.767424 measure=17.0 track=midiVocaloid
+!mark=Chorus count=74 fudgeLyrics=48 divisions=36864 seconds=44.651135999999994 measure=25.0 track=midiVocaloid
+!mark=Verse 2 count=102 fudgeLyrics=48 divisions=49152 seconds=59.534848 measure=33.0 track=midiVocaloid
+!mark=Pre-Chorus count=133 fudgeLyrics=48 divisions=61440 seconds=74.41856 measure=41.0 track=midiVocaloid
+!mark=Chorus count=165 fudgeLyrics=48 divisions=73728 seconds=89.30227199999999 measure=49.0 track=midiVocaloid
+!mark=Outro-Chorus count=193 fudgeLyrics=48 divisions=86016 seconds=104.18598399999999 measure=57.0 track=midiVocaloid
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 6  Divisions: 384
+Format: 1  Tracks: 7  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
+Track name: midiVocaloid
 Track name: midiOne
-!mark=Intro|->@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1When|!bg=Italk|!mark=Verse 1a-boutit,car-rieson,-rea-sonson-lynew.->WhenItalka-boutit,-A-riesor-trea-sonsallre-new.-!mark=Pre-Chorus|->Bigmetotalka-boutit,-Icouldstandtoprove.-->Ifwecangeta-roundit,-Iknowthatit'strue.->Well,Italked|!mark=Chorusa-boutit,car-riedon,-rea-sonson-lynew.->Butit'syou-->Ifellin-to.-->WhenItalked|!mark=Verse 2a-boutit,car-rieson,-rea-sonson-lynew.->WhenItalkeda-boutit,-A-riesor-trea-sonsallre-new.-!mark=Pre-Chorus|->Bigmetotalka-boutit,-Icouldstandtoprove.-->Ifwecangeta-roundit,-Iknowthatit'strue.->Well,Italked|!mark=Chorusa-boutit.>Putiton.->Ne-verwasittrue.->Butit'syou-->Ifellin-to.-->Well,Italked|!mark=Outro-Chorusa-boutit.>Putiton.->Ne-verwasittrue.->Butit'syou-->Ifellin-to.-->Ifellin-to.-->Ifellin-to.--@@--Playing time: ~134 seconds
+!mark=Intro|-!mark=Intro>@@.@@.@@.@@.@@.@@|!bg=4.@|!bg=3@|!bg=2.@|!bg=1.When|!bg=(w'En)I('aI)talk|!mark=Verse 1(t'O:k)|!mark=Verse 1a('@)-bout(b'aUt)it,('It)car(k'E)-ries(r'i:z)on,('0n)-.rea(r'i:)-sons(s'Vnz)on('0n)-ly(l'i:)new.(nj'u:)-.>When(w'En)I('aI)talk(t'O:k)a('@)-bout(b'aUt)it,('It)-.A('E)-ries(r'i:z)or('O@)-.trea(tr'i:)-sons(s'Vnz)all('O:l)re(r'i:)-new.(nj'u:)-.!mark=Pre-Chorus|-!mark=Pre-Chorus>Big(b'Ig)me(m'i:)to(t'u:)talk(t'O:k)a('@)-bout(b'aUt)it,('It)-.I('aI)could(k'Ud)stand(st'and)to(t'u:)prove.(pr'u:v)-.-.>If('If)we(w'i:)can(k'an)get(g'Et)a('@)-round(r'aUnd)it,('It)-.I('aI)know(n'oU)that(D'at)it's('Its)true.(tr'u:)-.>Well,(w'El)I('aI)talked|!mark=Chorus(t'O:kt)|!mark=Chorusa('@)-bout(b'aUt)it,('It)car(k'E)-ried(r'i:d)on,('0n)-.rea(r'i:)-sons(s'Vnz)on('0n)-ly(l'i:)new.(nj'u:)-.>But(b'Vt)it's('Its)you(j'u:)-.-.>I('aI)fell(f'El)in('In)-to.(t'u:)-.-..>When(w'En)I('aI)talked|!mark=Verse 2(t'O:kt)|!mark=Verse 2a('@)-bout(b'aUt)it,('It)car(k'E)-ries(r'i:z)on,('0n)-.rea(r'i:)-sons(s'Vnz)on('0n)-ly(l'i:)new.(nj'u:)-.>When(w'En)I('aI)talked(t'O:kt)a('@)-bout(b'aUt)it,('It)-.A('E)-ries(r'i:z)or('O@)-.trea(tr'i:)-sons(s'Vnz)all('O:l)re(r'i:)-new.(nj'u:)-.!mark=Pre-Chorus|-!mark=Pre-Chorus>Big(b'Ig)me(m'i:)to(t'u:)talk(t'O:k)a('@)-bout(b'aUt)it,('It)-.I('aI)could(k'Ud)stand(st'and)to(t'u:)prove.(pr'u:v)-.-.>If('If)we(w'i:)can(k'an)get(g'Et)a('@)-round(r'aUnd)it,('It)-.I('aI)know(n'oU)that(D'at)it's('Its)true.(tr'u:)-.>Well,(w'El)I('aI)talked|!mark=Chorus(t'O:kt)|!mark=Chorusa('@)-bout(b'aUt)it.('It)>Put(p'Ut)it('It)on.('0n)-.>Ne(n'E:)-ver(v'3:)was(w'0z)it('It)true.(tr'u:)-.>But(b'Vt)it's('Its)you(j'u:)-.-.>I('aI)fell(f'El)in('In)-to.(t'u:)-.-..>Well,(w'El)I('aI)talked|!mark=Outro-Chorus(t'O:kt)|!mark=Outro-Chorusa('@)-bout(b'aUt)it.('It)>Put(p'Ut)it('It)on.('0n)-.>Ne(n'E:)-ver(v'3:)was(w'0z)it('It)true.(tr'u:)-.>But(b'Vt)it's('Its)you(j'u:)-.-.>I('aI)fell(f'El)in('In)-to.(t'u:)-.-.>I('aI)fell(f'El)in('In)-to.(t'u:)-.-.>I('aI)fell(f'El)in('In)-to.(t'u:)-.-.@@--.Playing time: ~134 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 12967950/23440956 bytes(55.3218% compressed)
+Wrote 13035611/23440956 bytes(55.6104% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 13.4 staff-spaces

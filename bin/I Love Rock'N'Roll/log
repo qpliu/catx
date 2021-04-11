@@ -3,13 +3,13 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-mark=Intro count=3 fudgeLyrics=24 divisions=1536 seconds=2.4 measure=2.0 track=midiKaraoke
-mark=Strophe count=14 fudgeLyrics=24 divisions=9216 seconds=14.399999999999999 measure=7.0 track=midiKaraoke
-mark=Refrain count=98 fudgeLyrics=24 divisions=26112 seconds=40.8 measure=18.0 track=midiKaraoke
-mark=Strophe count=141 fudgeLyrics=24 divisions=35328 seconds=55.199999999999996 measure=24.0 track=midiKaraoke
-mark=Refrain count=213 fudgeLyrics=24 divisions=50688 seconds=79.19999999999999 measure=34.0 track=midiKaraoke
-mark=Solo count=258 fudgeLyrics=24 divisions=59904 seconds=93.6 measure=40.0 track=midiKaraoke
-mark=Outro count=295 fudgeLyrics=24 divisions=72192 seconds=112.79999999999998 measure=48.0 track=midiKaraoke
+!mark=Intro count=3 fudgeLyrics=24 divisions=1536 seconds=2.4 measure=2.0 track=midiKaraoke
+!mark=Strophe count=14 fudgeLyrics=24 divisions=9216 seconds=14.399999999999999 measure=7.0 track=midiKaraoke
+!mark=Refrain count=98 fudgeLyrics=24 divisions=26112 seconds=40.8 measure=18.0 track=midiKaraoke
+!mark=Strophe count=141 fudgeLyrics=24 divisions=35328 seconds=55.199999999999996 measure=24.0 track=midiKaraoke
+!mark=Refrain count=213 fudgeLyrics=24 divisions=50688 seconds=79.19999999999999 measure=34.0 track=midiKaraoke
+!mark=Solo count=258 fudgeLyrics=24 divisions=59904 seconds=93.6 measure=40.0 track=midiKaraoke
+!mark=Outro count=295 fudgeLyrics=24 divisions=72192 seconds=112.79999999999998 measure=48.0 track=midiKaraoke
 WorstAge=2147485184
 Playing out.midi
 MIDI file: out.midi

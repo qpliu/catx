@@ -52,6 +52,7 @@ final class Arg implements Serializable{
 	}else if (preset.equals("vocaloid")){
 	    name = "vocaloid";
 	    midi_who = "midiVocaloid";
+	    use_bend_end = true;
 	}else if (preset.equals("kav")){
 	    name = "vocals";
 	    layout_who = "allPart kavPart";
