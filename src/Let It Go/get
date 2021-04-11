@@ -4,12 +4,14 @@ DRUMMAP="42 hho 0,44 hh 0,51 cymc 0,37 sn 0,"
 set -e
 rm -f generated-*
 LYRICS=`cat lyrics`
+VLYRICS=`cat vocaloid_lyrics`
 SCALE="c des d ees e f fis g aes a bes b"
 SCALE2="c cis d ees e f fis g gis a bes b"
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
 markup-extra 1 '\key f \minor' \
 markup-extra 34 '\key aes \major' \
-add-lyrics arg 0 1 "$LYRICS" \
+add-lyrics lyrics 0 1 "$LYRICS" \
+add-lyrics vocaloid 0 1 "$VLYRICS" \
 scale "$SCALE" \
 drumMap "$DRUMMAP" \
 track 0 \
@@ -17,7 +19,14 @@ track 0 \
     output-lilypond \
     output-lyrics \
     output-karaoke \
+    which-lyrics lyrics \
     transpose 12 \
+track 0 \
+    preset vocaloid \
+    which-lyrics vocaloid \
+    transpose 12 \
+    output-lilypond \
+    output-vocaloid \
 track 1 \
     scale "$SCALE2" \
     preset susan \
@@ -45,3 +54,6 @@ track 8 \
     preset gg \
     output-drums \
 2>&1|tee log
+mv generated-drscolors generated-drscolors-orig
+sed <generated-drscolors-orig >generated-drscolors -e 's/\\parenthesize//g'
+rm generated-drscolors-orig
