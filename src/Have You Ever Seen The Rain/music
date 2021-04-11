@@ -2,6 +2,7 @@
 % ROBOT pickup_measures=1
 % ROBOT measure_map={"default":"1-35,8","kav":"1"}
 % ROBOT enabled=true
+% MERGEMIDI --fudge-lyrics midiVocaloid=96
 
 \header {
     title = "Have You Ever Seen The Rain"
@@ -19,6 +20,7 @@
 \include "simplelyrics"
 \include "simplelyricsunfolded"
 \include "karaoke"
+\include "vocaloid"
 
 layoutmusic = <<
     \tag #'(allPart susanPart) \new Staff \with {
@@ -99,4 +101,6 @@ midimusic = <<
 	\karaokePart
 	\transpose c c, \simplevoPart
     >>
+    \tag #'(midiVocaloid) \new Staff \transpose c c, \simplevoPart
+    \tag #'(midiVocaloid) \vocaloidLyrics
 >>

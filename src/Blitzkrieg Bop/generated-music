@@ -7,6 +7,8 @@
 \include "generated-vocals"
 \include "generated-vocals_lyrics"
 \include "generated-vocals_karaoke"
+\include "generated-vocaloid"
+\include "generated-vocaloid_vocaloid"
 \include "generated-steelpan"
 \include "generated-guitar"
 \include "generated-bass"
@@ -68,6 +70,10 @@ midimusic = <<
         midiInstrument = #"synth voice"
     } \vocals
     \tag #'(midiKaraoke) \vocalsKaraoke
+    \tag #'(midiVocaloid) \new Staff = "generated-vocaloid" \with {
+        midiInstrument = #"alto sax"
+    } \vocaloid
+    \tag #'(midiVocaloid) \vocaloidVocaloid
     \tag #'(midiSusan) \new Staff = "generated-steelpan" \with {
         midiInstrument = #"alto sax"
     } \steelpan

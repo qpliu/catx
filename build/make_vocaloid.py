@@ -8,7 +8,7 @@ def run_espeak1(word):
     if is_ly:
 	if word=='' or word=='.' or word=='*' or word=='/' or word=='{' or word=='}' or word[:1]=='!':
 	    return word
-    p = subprocess.Popen(('espeak','-q','-x',word),stdout=subprocess.PIPE)
+    p = subprocess.Popen(('espeak','-q','-x',' '+word),stdout=subprocess.PIPE)
     return '('+p.communicate()[0].strip()+')'
 
 def run_espeak(word):
@@ -29,9 +29,7 @@ def convert_word(word):
 	if m:
 	    word = m.group(1)
 	    suffix = m.group(2)
-    if word=='\\skip' and is_ly:
-	word = '"."'
-    elif word=='+' and not is_ly:
+    if word=='+' and not is_ly:
 	pass
     elif word[:1]=='\\' and is_ly:
 	pass
@@ -52,6 +50,12 @@ def convert_line(line):
 	return line
     if is_ly and line.find(r'\mybar')!=-1:
 	return line
+    ending = ''
+    if is_ly:
+	i = line.find('%')
+	if i!=-1:
+	    ending = line[i:]
+	    line = line[:i]
     sb = []
     word = []
     if is_ly:
@@ -85,7 +89,7 @@ def convert_line(line):
 		sb.append(c)
 	    else:
 		word.append(c)
-    return ''.join(sb)
+    return ''.join(sb)+ending
 
 for line in sys.stdin:
     sys.stdout.write(convert_line(line))

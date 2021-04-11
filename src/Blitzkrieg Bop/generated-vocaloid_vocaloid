@@ -1,0 +1,83 @@
+vocaloidVocaloid = \new Lyrics \lyricmode {
+\mymark "Intro" #1
+    "!mark=Intro"1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+\mymark "Hey, Ho, let's go!" #17
+    "(h'eI)|!mark=Hey, Ho, let's go!"4 \skip4 "(h'oU)"4 \skip4
+    "."4 "(l'Ets)" "(g'oU)" "."
+    "(h'eI)"4 "." "(h'oU)" "."
+    "."4 "(l'Ets)" "(g'oU)" "."
+    "(h'eI)"4 "." "(h'oU)" "."
+    "."4 "(l'Ets)" "(g'oU)" "."
+    "(h'eI)"4 "." "(h'oU)" "."
+    "."4 "(l'Ets)" "(g'oU)" "."8 "(DeI'3)"
+\mymark "Verse 1 & 2" #25
+    "(f'O@)|!mark=Verse 1 & 2"8 "(m'IN)" "('In)" "('@)" "(str'eIt)"4 "(l'aIn)"
+    \repeat volta 2 {
+        "."2. "."8 "(DeI'3)"
+        "(g'oU)"8 "('IN)" "(Tr'u:)" "('eI)" "(t'aIt)"4 "(w'Ind)"
+        "."2. "."8 "(D'@)"
+        "(k'Idz)"8 "('A@)" "(l'u:)" "(z'IN)" "(D'e@)"4 "(m'aIndz)"
+        "."4. "(D'@)"8 "(bl'Its)"4 "(kr'i:g)"
+        "(b'0p)"4 "."2.
+        "."2. "."8 "(DeI'3)"
+        "(p'aIl)"8 "('IN)" "('In)" "(D'@)" "(b'ak)"4 "(s'i:t)"
+        "."2. "."8 "(DeI'3)"
+        "(dZ'E)"8 "(n'3)" "(r'eI)" "(t'IN)" "(st'i:m)"4 "(h'i:t)"
+        "."2. "."8 "(p'Vl)"
+        "(s'eI)"8 "(t'IN)" "(t'u:)" "(D'@)" "(b'ak)"4 "(b'i:t)"
+        "."4. "(D'@)"8 "(bl'Its)"4 "(kr'i:g)"
+        "(b'0p)"4 "."2.
+        "."1
+\mymark "Chorus 1 & 2" #41
+        "(h'eI)|!mark=Chorus 1 & 2"4 \skip4 "(h'oU)"4 \skip4
+        "."4 "(l'Ets)" "(g'oU)" "."
+        "(S'u:t)"8 "('Em)" "('In)" "(D'@)" "(b'ak)"4 "(n'aU)"
+        "."1
+        "(w'0t)"4 "(D'eI)" "(w'0nt)" "."
+        "('aI)"8 "(d'oUnt)"4 "(n'oU)" "." "(DeI'3)"8
+        "('O:l)"4 "(r'Evd)" "('Vp)" "('and)"
+        "(r'E)"8 "(d'i:)" "(t'u:)" "(g'oU)"4 "." "(DeI'3)"8
+        "(f'O@)"8 "(m'IN)" "('In)" "('@)" "(str'eIt)"4 "(l'aIn)"
+    }
+\mymark "Verse 3" #50
+    "!mark=Verse 3"2. \skip8 "(DeI'3)"8
+    "(g'oU)"8 "('IN)" "(Tr'u:)" "('eI)" "(t'aIt)"4 "(w'Ind)"
+    "."2. "."8 "(D'@)"
+    "(k'Idz)"8 "('A@)" "(l'u:)" "(z'IN)" "(D'e@)"4 "(m'aIndz)"
+    "."4. "(D'@)"8 "(bl'Its)"4 "(kr'i:g)"
+    "(b'0p)"4 "."2.
+    "."2. "."8 "(DeI'3)"
+    "(p'aIl)"8 "('IN)" "('In)" "(D'@)" "(b'ak)"4 "(s'i:t)"
+    "."2. "."8 "(DeI'3)"
+    "(dZ'E)"8 "(n'3)" "(r'eI)" "(t'IN)" "(st'i:m)"4 "(h'i:t)"
+    "."2. "."8 "(p'Vl)"
+    "(s'eI)"8 "(t'IN)" "(t'u:)" "(D'@)" "(b'ak)"4 "(b'i:t)"
+    "."4. "(D'@)"8 "(bl'Its)"4 "(kr'i:g)"
+    "(b'0p)"4 "."2.
+    "."1
+\mymark "Outro" #65
+    "(h'eI)|!mark=Outro"4 \skip4 "(h'oU)"4 \skip4
+    "."4 "(l'Ets)" "(g'oU)" "."
+    "(h'eI)"4 "." "(h'oU)" "."
+    "."4 "(l'Ets)" "(g'oU)" "."
+    "(h'eI)"4 "." "(h'oU)" "."
+    "."4 "(l'Ets)" "(g'oU)" "."
+    "(h'eI)"4 "." "(h'oU)" "."
+    "."4 "(l'Ets)" "(g'oU)" "."
+    "."1
+}

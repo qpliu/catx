@@ -3,25 +3,33 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 !mark=Intro count=0 fudgeLyrics=48 divisions=0 seconds=0.0 measure=1.0 track=midiKaraoke
 !mark=Verse count=15 fudgeLyrics=48 divisions=10752 seconds=14.358959999999998 measure=8.0 track=midiKaraoke
 !mark=Chorus count=75 fudgeLyrics=48 divisions=35328 seconds=47.17943999999999 measure=24.0 track=midiKaraoke
 !mark=Verse count=112 fudgeLyrics=48 divisions=53760 seconds=71.7948 measure=36.0 track=midiKaraoke
 !mark=Chorus count=172 fudgeLyrics=48 divisions=78336 seconds=104.61527999999998 measure=52.0 track=midiKaraoke
 !mark=Outro count=210 fudgeLyrics=48 divisions=96768 seconds=129.23064 measure=64.0 track=midiKaraoke
+!mark=Intro count=0 fudgeLyrics=96 divisions=0 seconds=0.0 measure=1.0 track=midiVocaloid
+!mark=Verse count=15 fudgeLyrics=96 divisions=10752 seconds=14.358959999999998 measure=8.0 track=midiVocaloid
+!mark=Chorus count=75 fudgeLyrics=96 divisions=35328 seconds=47.17943999999999 measure=24.0 track=midiVocaloid
+!mark=Verse count=112 fudgeLyrics=96 divisions=53760 seconds=71.7948 measure=36.0 track=midiVocaloid
+!mark=Chorus count=172 fudgeLyrics=96 divisions=78336 seconds=104.61527999999998 measure=52.0 track=midiVocaloid
+!mark=Outro count=210 fudgeLyrics=96 divisions=96768 seconds=129.23064 measure=64.0 track=midiVocaloid
 WorstAge=2147484992
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 5  Divisions: 384
+Format: 1  Tracks: 6  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
-!mark=Intro>@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!mark=VerseSome|!bg=-onetoldmelonga-go.-->There'sacalmbe-forethestorm.|!bg=img=../storm.svg-|!bg=Iknow.->It'sbeencom-in'forsometime.--->Whenit'so-ver,sotheysay.-->It'-llrain|!bg=img=../umbrella.svgasun|!bg=img=../sun.svg-nyday,|!bg=-Iknow,->shin-in'downlikewat-er.---!mark=Chorus>Iwanttoknow,-haveyouev-erseentherain?|!bg=img=../umbrella.svg-|!bg=>Iwanttoknow,-haveyouev-erseentherain|!bg=img=../umbrella.svg-|!bg=>com-in'downonasun|!bg=img=../sun.svg-nyday?|!bg=--!mark=Verse>Yes-ter-day,anddaysbe-fore,-->sun|!bg=img=../sun.svgiscoldandrain|!bg=img=../umbrella.svgis|!bg=hard.-Iknow,->beenthatwayforallmytime.--->'Tillfor-ev-er,onitgoes.-->Throughthecir-cle,fastandslow,-Iknow,->Itcan'tstop.Iwon-der.---!mark=Chorus>Iwanttoknow,-haveyouev-erseentherain?|!bg=img=../umbrella.svg-|!bg=>Iwanttoknow,-haveyouev-erseentherain|!bg=img=../umbrella.svg-|!bg=>com-in'downonasun|!bg=img=../sun.svg-nyday?|!bg=||||Yeah!|!bg=img=../yeah.png-|!bg=!mark=Outro>Iwanttoknow,-haveyouev-erseentherain?|!bg=img=../umbrella.svg-|!bg=>Iwanttoknow,-haveyouev-erseentherain|!bg=img=../umbrella.svg-|!bg=>com-in'downonasun|!bg=img=../sun.svg-nyday?|!bg=-@@Playing time: ~160 seconds
+Track name: midiVocaloid
+!mark=Intro!mark=Intro>@.@.@.@.@.@.@.@.@.@.@|!bg=4.@|!bg=3.@|!bg=2.@|!bg=1.!mark=Verse!mark=VerseSome|!bg=(s'Vm)-one(w'0n)told(t'oUld)me(m'i:)long(l'0N)a('@)-go.(g'oU)-.-.>There's(D'e@z)a('@)calm(k'A:m)be(b'i:)-fore(f'O@)the(D'@)storm.|!bg=img=../storm.svg(st'o@m)-|!bg=.I('aI)know.(n'oU)-.>It's('Its)been(b'i:n)com(k'0m)-in'('In)for(f'O@)some(s'Vm)time.(t'aIm)-.-.-.>When(w'En)it's('Its)o('oU)-ver,(v'3:)so(s'oU)they(D'eI)say.(s'eI)-.-.>It'('It)-ll(@L)rain|!bg=img=../umbrella.svg(r'eIn)a('@)sun|!bg=img=../sun.svg(s'V:)-ny(ni:)day,|!bg=(d'eI)-.I('aI)know,(n'oU)-.>shin(S'aI)-in'(n'In)down(d'aUn)like(l'aIk)wat(w'O:)-er.(t'3:)-.-.-.!mark=Chorus!mark=Chorus>I('aI)want(w'0nt)to(t'u:)know,(n'oU)-.have(h'av)you(j'u:)ev('Ev)-er('3:)seen(s'i:n)the(D'@)rain?|!bg=img=../umbrella.svg(r'eIi:i:i:n)-|!bg=.>I('aI)want(w'0nt)to(t'u:)know,(n'oU)-.have(h'av)you(j'u:)ev('Ev)-er('3:)seen(s'i:n)the(D'@)rain|!bg=img=../umbrella.svg(r'eIi:i:n)-|!bg=.>com(k'V)-in'(m'In)down(d'aUn)on('0n)a('@)sun|!bg=img=../sun.svg(s'V:)-ny(ni:)day?|!bg=(d'eI)-.-.!mark=Verse!mark=Verse>Yes(j'Es)-ter(t'3:)-day,(d'eI)and('and)days(d'eIz)be(b'i:)-fore,(f'o@)-.-.>sun|!bg=img=../sun.svg(s'Vn)is('Iz)cold(k'oUld)and('and)rain|!bg=img=../umbrella.svg(r'eIn)is|!bg=('Iz)hard.(h'A@d)-.I('aI)know,(n'oU)-.>been(b'i:n)that(D'at)way(w'eI)for(f'O@)all('O:l)my(m'aI)time.(t'aIm)-.-.-.>'Till(t'Il)for(f'O@)-ev('E)-er,(v'3:)on('0n)it('It)goes.(g'oUz)-.-.>Through(Tr'u:)the(D'@)cir(s'3:)-cle,(k@L)fast(f'aast)and('and)slow,(sl'oU)-.I('aI)know,(n'oU)-.>It('It)can't(k'A:nt)stop.(st'0p)I('aI)won(w'Vn)-der.(d'3:)-.-.-.!mark=Chorus!mark=Chorus>I('aI)want(w'0nt)to(t'u:)know,(n'oU)-.have(h'av)you(j'u:)ev('Ev)-er('3:)seen(s'i:n)the(D'@)rain?|!bg=img=../umbrella.svg(r'eIi:i:i:n)-|!bg=.>I('aI)want(w'0nt)to(t'u:)know,(n'oU)-.have(h'av)you(j'u:)ev('Ev)-er('3:)seen(s'i:n)the(D'@)rain|!bg=img=../umbrella.svg(r'eIi:i:i:n)-|!bg=.>com(k'V)-in'(m'In)down(d'aUn)on('0n)a('@)sun|!bg=img=../sun.svg(s'V:)-ny(ni:)day?|!bg=(d'eI)||||.Yeah!|!bg=img=../yeah.png(j'Eh)-|!bg=.!mark=Outro!mark=Outro>I('aI)want(w'0nt)to(t'u:)know,(n'oU)-.have(h'av)you(j'u:)ev('Ev)-er('3:)seen(s'i:n)the(D'@)rain?|!bg=img=../umbrella.svg(r'eIi:i:i:n)-|!bg=.>I('aI)want(w'0nt)to(t'u:)know,(n'oU)-.have(h'av)you(j'u:)ev('Ev)-er('3:)seen(s'i:n)the(D'@)rain|!bg=img=../umbrella.svg(r'eIi:i:i:n)-|!bg=.>com(k'V)-in'(m'In)down(d'aUn)on('0n)a('@)sun|!bg=img=../sun.svg(s'V:)-ny(ni:)day?|!bg=(d'eI)-.@@.Playing time: ~160 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 16465109/28020508 bytes(58.7609% compressed)
+Wrote 16485677/28020508 bytes(58.8343% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

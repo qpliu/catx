@@ -1,5 +1,6 @@
 % BIN midi all kav susan gg peter bass
 % ROBOT enabled=true
+% MERGEMIDI --fudge-lyrics midiVocaloid=192
 
 \header {
     title = "Our Lips Are Sealed"
@@ -15,6 +16,7 @@
 \include "steelpan"
 \include "lyrics"
 \include "karaoke"
+\include "vocaloid"
 
 layoutmusic = <<
     \tag #'(allPart kavPart) \new Staff \with {
@@ -115,4 +117,6 @@ midimusic = <<
 	\karaokeLyrics
 	\voPart
     >>
+    \tag #'(midiVocaloid) \new Staff \voPart
+    \tag #'(midiVocaloid) \vocaloidLyrics
 >>
