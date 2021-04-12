@@ -1,14 +1,88 @@
 #!/usr/bin/python
 
+# use something like "make_vocaloid.py <input >output -v voice_name" to specify espeak parameters.
+
 import re,subprocess,sys
+
+argv = sys.argv[1:]
+
+is_jp = False
+
+if len(argv)>0 and argv[0]=='jp':
+    is_jp = True
+    argv = argv[1:]
 
 is_ly = False
 
+jp_dict = {}
+jp_dict[''] = ''
+jp_dict['k*'] = 'k'
+jp_dict['s*'] = 's'
+jp_dict['shi'] = 'Si:'
+jp_dict['t*'] = 't'
+jp_dict['chi'] = 'tSi:'
+jp_dict['tsu'] = 'tsu:'
+jp_dict['n*'] = 'n'
+jp_dict['h*'] = 'h'
+jp_dict['fu'] = 'hu:'
+jp_dict['m*'] = 'm'
+jp_dict['y*'] = 'j'
+jp_dict['r*'] = 'r'
+jp_dict['w*'] = 'w'
+jp_dict['n'] = 'nnnnnnnnnnnnnnnn'
+jp_dict['g*'] = 'g'
+jp_dict['z*'] = 'z'
+jp_dict['ji'] = 'dZi:'
+jp_dict['d*'] = 'd'
+jp_dict['ji'] = 'dZi:'
+jp_dict['zu'] = 'zu:'
+jp_dict['b*'] = 'b'
+jp_dict['p*'] = 'p'
+jp_dict['ky*'] = 'kj'
+jp_dict['sh*'] = 'S'
+jp_dict['ch*'] = 'tS'
+jp_dict['ny*'] = 'nj'
+jp_dict['hy*'] = 'hj'
+jp_dict['my*'] = 'mj'
+jp_dict['ry*'] = 'rj'
+jp_dict['gy*'] = 'gj'
+jp_dict['j*'] = 'dZ'
+jp_dict['by*'] = 'bj'
+jp_dict['py*'] = 'pj'
+
+def run_jp(word):
+    w = word.lower()
+    if w.endswith('aa') or w.endswith('ii') or w.endswith('uu') or w.endswith('ee') or w.endswith('ou'):
+	w = w[:-1]
+    got = jp_dict.get(w)
+    if got!=None:
+	return '('+got+')'
+    if w.endswith('a'):
+	v = 'A:'
+    elif w.endswith('i'):
+	v = 'i:'
+    elif w.endswith('u'):
+	v = 'u:'
+    elif w.endswith('e'):
+	v = 'E:'
+    elif w.endswith('o'):
+	v = 'o:'
+    else:
+	return word
+    got = jp_dict.get(w[:-1]+'*')
+    if got!=None:
+	return '('+got+v+')'
+    return word
+
 def run_espeak1(word):
+    if word[:1]=='(' and word[-1:]==')':
+	return word
     if is_ly:
 	if word=='' or word=='.' or word=='*' or word=='/' or word=='{' or word=='}' or word[:1]=='!':
 	    return word
-    p = subprocess.Popen(('espeak','-q','-x',' '+word),stdout=subprocess.PIPE)
+    if is_jp:
+	return run_jp(word)
+    p = subprocess.Popen(['espeak','-q','-x']+sys.argv[1:]+[' '+word],stdout=subprocess.PIPE)
     return '('+p.communicate()[0].strip()+')'
 
 def run_espeak(word):

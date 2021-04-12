@@ -120,7 +120,7 @@ karaokeTwoLyrics = \new Lyrics \lyricmode {
     "@"2 "@"2
     "@|!bg=4"2 "@|!bg=3"2
     "@|!bg=2"2 "@|!bg=1"2
-    "!bg=|S:se"4 "S:-tsu"8 "S:-na"8 \skip8 "S:-ku"4 "S:-te"8
+    "!bg=|!check=measure112|S:se"4 "S:-tsu"8 "S:-na"8 \skip8 "S:-ku"4 "S:-te"8
     \skip2
     ">@"2
     "@|!bg=4"2 "@|!bg=3"2

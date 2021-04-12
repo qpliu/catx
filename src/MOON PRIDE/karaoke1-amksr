@@ -96,7 +96,7 @@ karaokeOneLyrics = \new Lyrics \lyricmode {
     ">K:ko"8 "K:-no"8 "K:hi"8 "K:-ro"8 "K:-i"8 "K:u"4 "K:-chu"8 \skip8 "K:-u"4 "K:de"8 -8
     ">K:na"8 "K:-n"8 "K:-do"8 "K:u"4 "K:-ma"8 "K:-re"8 \skip4 "K:-ka"8 "K:-wa"8 \skip8 "K:-t"4 "K:-te"8 \skip8 "K:mo"4.
     ">K:a"8 "K:-na"8 "K:-ta"8 "K:ni"8 -4 "K:ko"8 "K:-i"8 -8 "K:o"4 "K:su"8 \skip4 "K:-ru"4
-    ">KS:Shin"4 "KS:-y"8 "KS:Make"8 \skip8 "KS:--Up"4 "KS:ha"8 \skip8 "KS:-ba"8 "KS:-ta"4 "KS:-ku"4 "KS:yo"4
+    "!check=measure125|>KS:Shin"4 "KS:-y"8 "KS:Make"8 \skip8 "KS:--Up"4 "KS:ha"8 \skip8 "KS:-ba"8 "KS:-ta"4 "KS:-ku"4 "KS:yo"4
     ">KS:ho"4 "KS:-shi"8 "KS:so"8 "KS:-ra"4 "KS:-no"8 "KS:-ka"8 \skip8 "KS:-na"8 "KS:-ta"4 "KS:-he"4
     ">B:tsu"8 "B:-mi"8 "B:ga"4 "B:ma"8 "B:-wa"8 \skip8 "B:-ru"8 "B:se"8 "B:-ka"8 \skip8 "B:-i"8
     ">B:de"4 "B:-mo"4 "B:mi"4 "B:-ra"4 "B:-i"8 "B:o"8 "B:shi"4 "B:-n"8 "B:-ji"8 \skip8 "B:ra"8 "B:-re"4 "B:-ru"8 "B:da"8 "B:-ka"8 "B:-ra"8

@@ -1,5 +1,5 @@
 % BIN midi system1 system2 system3
-% MERGEMIDI --fudge-lyrics midiKaraoke=144
+% MERGEMIDI --fudge-lyrics midiKaraoke=144,midiKaraokeTwo=144,midiVocaloid=144,midiVocaloidTwo=144
 
 \header {
     title = "MOON PRIDE"
@@ -69,6 +69,8 @@ drumPitchNames.eperc = #'ridebell
 \include "key3_donetext"
 \include "karaoke1"
 \include "karaoke2"
+\include "vocaloid1"
+\include "vocaloid2"
 
 layoutmusic = \removeWithTag #'(pageNumber textLyrics) <<
     \tag #'systemOnePart \new ChordNames \mychords
@@ -283,4 +285,8 @@ midimusic = <<
 	\transpose c c, \voTwoPart
 	\karaokeTwoLyrics
     >>
+    \tag #'(midiVocaloid) \new Staff \transpose c c, \voOnePart
+    \tag #'(midiVocaloid) \vocaloidOneLyrics
+    \tag #'(midiVocaloidTwo) \new Staff \transpose c c, \voTwoPart
+    \tag #'(midiVocaloidTwo) \vocaloidTwoLyrics
 >>
