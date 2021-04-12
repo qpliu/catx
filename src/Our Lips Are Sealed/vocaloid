@@ -77,7 +77,7 @@ vocaloidLyrics = \new Lyrics \lyricmode {
     "('eI)"8
     "('eI)"8
 \mymark "Chorus 1" #17
-    "!mark=Chorus 1"4
+    "!mark=Chorus 1|!check=17"4
     "."2.
     "."2
     "('aU@)"8

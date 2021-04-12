@@ -1,152 +1,152 @@
 vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Intro" #1
-    "!mark=Intro|-"8 ">@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@|!bg=4"2 "@|!bg=3"4.
-    \skip8 "@|!bg=2"2 "@|!bg=1"4.
+    "!mark=Intro|!check=1|-"8 ">@"2 "@"4.
+    "!check=2"8 "@"2 "@"4.
+    "!check=3"8 "@"2 "@"4.
+    "!check=4"8 "@"2 "@"4.
+    "!check=5"8 "@"2 "@"4.
+    "!check=6"8 "@"2 "@"4.
+    "!check=7"8 "@"2 "@"4.
+    "!check=8"8 "@"2 "@"4.
+    "!check=9"8 "@"2 "@"4.
+    "!check=10"8 "@"2 "@"4.
+    "!check=11"8 "@"2 "@"4.
+    "!check=12"8 "@"2 "@"4.
+    "!check=13"8 "@"2 "@"4.
+    "!check=14"8 "@"2 "@"4.
+    "!check=15"8 "@"2 "@"4.
+    "!check=16"8 "@"2 "@"4.
+    "!check=17"8 "@"2 "@"4.
+    "!check=18"8 "@"2 "@"4.
+    "!check=19"8 "@"2 "@"4.
+    "!check=20"8 "@"2 "@"4.
+    "!check=21"8 "@|!bg=4"2 "@|!bg=3"4.
+    "!check=22"8 "@|!bg=2"2 "@|!bg=1"4.
 \mymark "Verse 1" #23
-    "!mark=Verse 1|-"8 "They|!bg=" "told" "him" "don't" "you" "ev" "er"
-    "come"8 "a" "round" "-" "here," "-"4 ">don't"8
-    "wan"8 "na" "see" "your" "face," "you" "bet" "ter"
-    "dis"8 "ap" "pear." "-"2 ">The"8
-    "fi"8 "re's" "in" "their" "eyes" "-" ">and" "their"
-    "words"8 "are" "real" "ly" "clear," "-" "so" "-"
-    "beat"8 "it," "-"2 ">just"8 "-"
-    "beat"8 "it." "-"2.
-    "-"8 ">You" "bet" "ter" "run," "you" "bet" "ter"
-    "do"8 "what" "you" "-" "can," "-"4 ">don't"8
-    "wan"8 "na" "see" "no" "blood," "don't" "be" "a"
-    "ma"8 "cho" "man." "-"2 ">You"8
-    "wan"8 "na" "be" "-" "tough," "-" "bet" "ter"
-    "do"8 "what" "you" "-" "can," "-" "so" "-"
-    "beat"8 "it." "-"2 ">But"8 "you"
-    "wan"8 "na" "be" "-" "bad." "-" "Just" "-"
+    "!mark=Verse 1|!check=23|-"8 "They|!bg=" "told" "him" "don't" "you" "ev" "er"
+    "come|!check=24"8 "a" "round" \skip8 "here,"8 \skip4 ">don't"8
+    "wan|!check=25"8 "na" "see" "your" "face," "you" "bet" "ter"
+    "dis|!check=26"8 "ap" "pear." \skip2 ">The"8
+    "fi|!check=27"8 "re's" "in" "their" "eyes" \skip8 ">and"8 "their"
+    "words|!check=28"8 "are" "real" "ly" "clear," \skip8 "so"8 \skip8
+    "beat|!check=29"8 "it," \skip2 ">just"8 \skip8
+    "beat|!check=30"8 "it." \skip2.
+    "!check=31"8 ">You" "bet" "ter" "run," "you" "bet" "ter"
+    "do|!check=32"8 "what" "you" \skip8 "can,"8 \skip4 ">don't"8
+    "wan|!check=33"8 "na" "see" "no" "blood," "don't" "be" "a"
+    "ma|!check=34"8 "cho" "man." \skip2 ">You"8
+    "wan|!check=35"8 "na" "be" \skip8 "tough,"8 \skip8 "bet"8 "ter"
+    "do|!check=36"8 "what" "you" \skip8 "can,"8 \skip8 "so"8 \skip8
+    "beat|!check=37"8 "it." \skip2 ">But"8 "you"
+    "wan|!check=38"8 "na" "be" \skip8 "bad."8 \skip8 "Just"8 \skip8
 \mymark "Chorus" #39
-    "beat|!mark=Chorus"8 "it,"4. "(beat"8 "it),"4.
-    "beat"8 "it,"4. ">(beat"8 "it),"4 "no"8
-    "-"8 "one" "wants" "to" "be" "-" "de" "fea"
-    \skip8 "ted."8 "-"2 \skip8 ">Show"8
-    \skip8 "him"8 "how" "-" "fun" "ky" "and" "strong"
-    \skip8 "is"8 "your" "-" "fight," "-"4 ">it"8
-    \skip8 "does"8 "n't" "-" "mat" "ter" "-" "who's"
-    \skip8 "wrong"8 "or" "-" "right," "-" "just" "-"
-    "beat"8 "it," "-"2 ">just"8 "-"
-    "beat"8 "it," "-"2 "just"8 "-"
-    "beat"8 "it," "-"2 "just"8 "-"
-    "beat"8 "it." "-"2.
+    "beat|!mark=Chorus|!check=39"8 "it,"4. "(beat"8 "it),"4.
+    "beat|!check=40"8 "it,"4. ">(beat"8 "it),"4 "no"8
+    "!check=41"8 "one" "wants" "to" "be" \skip8 "de"8 "fea"
+    "!check=42"8 "ted." \skip2 \skip8 ">Show"8
+    "!check=43"8 "him" "how" \skip8 "fun"8 "ky" "and" "strong"
+    "!check=44"8 "is" "your" \skip8 "fight,"8 \skip4 ">it"8
+    "!check=45"8 "does" "n't" \skip8 "mat"8 "ter" \skip8 "who's"8
+    "!check=46"8 "wrong" "or" \skip8 "right,"8 \skip8 "just"8 \skip8
+    "beat|!check=47"8 "it," \skip2 ">just"8 \skip8
+    "beat|!check=48"8 "it," \skip2 "just"8 \skip8
+    "beat|!check=49"8 "it," \skip2 "just"8 \skip8
+    "beat|!check=50"8 "it." \skip2.
 \mymark "Verse 2" #51
-    "!mark=Verse 2|-"8 ">They're" "out" "to" "get" "you," "bet" "ter"
-    "leave"8 "while" "you" "-" "can," "-"4 ">don't"8
-    "wan"8 "na" "be" "a" "boy," "you" "wan" "na"
-    "be"8 "a" "man." "-"2 ">You"8
-    "wan"8 "na" "stay" "al" "ive," "-" "bet" "ter"
-    "do"8 "what" "you" "-" "can," "-" ">so" "-"
-    "beat"8 "it," "-"2 "just"8 "-"
-    "beat"8 "it." "-"2.
-    "-"8 ">You" "have" "to" "show" "them" "that" "you're"
-    "real"8 "ly" "not" "-" "scared," "-"4 ">you're"8
-    "play"8 "in'" "with" "your" "life" "this" "ain't" "no"
-    "truth"8 "or" "dare." "-"2 ">They'll"8
-    "kick"8 "you," "then" "they'll" "beat" "you," ">and" "they'll"
-    "tell"8 "you" "it's" "-" "fair," "-" "so" "-"
-    "beat"8 "it." "-"2 ">But"8 "you"
-    "wan"8 "na" "be" "-" "bad," "-" "just" "-"
+    "!mark=Verse 2|!check=51|-"8 ">They're" "out" "to" "get" "you," "bet" "ter"
+    "leave|!check=52"8 "while" "you" \skip8 "can,"8 \skip4 ">don't"8
+    "wan|!check=53"8 "na" "be" "a" "boy," "you" "wan" "na"
+    "be|!check=54"8 "a" "man." \skip2 ">You"8
+    "wan|!check=55"8 "na" "stay" "al" "ive," \skip8 "bet"8 "ter"
+    "do|!check=56"8 "what" "you" \skip8 "can,"8 \skip8 ">so"8 \skip8
+    "beat|!check=57"8 "it," \skip2 "just"8 \skip8
+    "beat|!check=58"8 "it." \skip2.
+    "!check=59"8 ">You" "have" "to" "show" "them" "that" "you're"
+    "real|!check=60"8 "ly" "not" \skip8 "scared,"8 \skip4 ">you're"8
+    "play|!check=61"8 "in'" "with" "your" "life" "this" "ain't" "no"
+    "truth|!check=62"8 "or" "dare." \skip2 ">They'll"8
+    "kick|!check=63"8 "you," "then" "they'll" "beat" "you," ">and" "they'll"
+    "tell|!check=64"8 "you" "it's" \skip8 "fair,"8 \skip8 "so"8 \skip8
+    "beat|!check=65"8 "it." \skip2 ">But"8 "you"
+    "wan|!check=66"8 "na" "be" \skip8 "bad,"8 \skip8 "just"8 \skip8
 \mymark "Chorus" #67
-    "beat|!mark=Chorus"8 "it,"4. "(beat"8 "it),"4.
-    "beat"8 "it,"4. ">(beat"8 "it),"4 "no"8
-    \skip8 "one"8 "wants" "to" "be" "-" "de" "fea"
-    "-"8 "ted." "-"2 \skip8 ">Show"8
-    \skip8 "them"8 "how" "-" "fun" "ky" "and" "strong"
-    \skip8 "is"8 "your" "-" "fight," "-"4 ">it"8
-    \skip8 "does"8 "n't" "-" "mat" "ter" "-" "who's"
-    \skip8 "wrong"8 "or" "-" "right," "-" ">just" "-"
-    "beat"8 "it,"4. "(beat"8 "it),"4.
-    "beat"8 "it,"4. ">(beat"8 "it),"4 "no"8
-    \skip8 "one"8 "wants" "to" "be" "-" "de" "fea"
-    "-"8 "ted." "-"2 \skip8 ">Show"8
-    \skip8 "them"8 "how" "-" "fun" "ky" "and" "strong"
-    \skip8 "is"8 "your" "-" "fight," "-"4 ">it"8
-    \skip8 "does"8 "n't" "-" "mat" "ter" "-" "who's"
-    \skip8 "wrong"8 "or" "-" "right," "-" ">just" "-"
+    "beat|!mark=Chorus|!check=67"8 "it,"4. "(beat"8 "it),"4.
+    "beat|!check=68"8 "it,"4. ">(beat"8 "it),"4 "no"8
+    "!check=69"8 "one" "wants" "to" "be" \skip8 "de"8 "fea"
+    "!check=70"8 "ted." \skip2 \skip8 ">Show"8
+    "!check=71"8 "them" "how" \skip8 "fun"8 "ky" "and" "strong"
+    "!check=72"8 "is" "your" \skip8 "fight,"8 \skip4 ">it"8
+    "!check=73"8 "does" "n't" \skip8 "mat"8 "ter" \skip8 "who's"8
+    "!check=74"8 "wrong" "or" \skip8 "right,"8 \skip8 ">just"8 \skip8
+    "beat|!check=75"8 "it,"4. "(beat"8 "it),"4.
+    "beat|!check=76"8 "it,"4. ">(beat"8 "it),"4 "no"8
+    "!check=77"8 "one" "wants" "to" "be" \skip8 "de"8 "fea"
+    "!check=78"8 "ted." \skip2 \skip8 ">Show"8
+    "!check=79"8 "them" "how" \skip8 "fun"8 "ky" "and" "strong"
+    "!check=80"8 "is" "your" \skip8 "fight,"8 \skip4 ">it"8
+    "!check=81"8 "does" "n't" \skip8 "mat"8 "ter" \skip8 "who's"8
+    "!check=82"8 "wrong" "or" \skip8 "right,"8 \skip8 ">just"8 \skip8
 \mymark "Bridge" #83
-    "beat|!mark=Bridge"8 "it," "beat" "it," "beat" "it," "beat" "it."
-    "-"2 ">Beat"8 "it," "beat" "it,"
-    "beat"8 "it." "-"2.
-    ">@"2 "@"
-    "@"2 "@"
-    "@"2 "Beat"8 "it," "beat" "it,"
-    "beat"8 "it," "beat" "it." "-"2
-    ">Beat"8 "it," "beat" "it." "-"2
-    ">@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "Beat"8 "it," "beat" "it," "beat" "it." "-"4
-    "-"2 ">@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
+    "beat|!mark=Bridge|!check=83"8 "it," "beat" "it," "beat" "it," "beat" "it."
+    "!check=84"2 ">Beat"8 "it," "beat" "it,"
+    "beat|!check=85"8 "it." \skip2.
+    ">@|!check=86"2 "@"
+    "@|!check=87"2 "@"
+    "@|!check=88"2 "Beat"8 "it," "beat" "it,"
+    "beat|!check=89"8 "it," "beat" "it." \skip2
+    ">Beat|!check=90"8 "it," "beat" "it." \skip2
+    ">@|!check=91"2 "@"
+    "@|!check=92"2 "@"
+    "@|!check=93"2 "@"
+    "Beat|!check=94"8 "it," "beat" "it," "beat" "it." \skip4
+    "!check=95"2 ">@"
+    "@|!check=96"2 "@"
+    "@|!check=97"2 "@"
+    "@|!check=98"2 "@"
 \mymark "Solo" #99
-    "@|!mark=Solo"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@|!bg=4"2 "@|!bg=3"
-    "@|!bg=2"2 "@|!bg=1"
+    "@|!mark=Solo|!check=99"2 "@"
+    "@|!check=100"2 "@"
+    "@|!check=101"2 "@"
+    "@|!check=102"2 "@"
+    "@|!check=103"2 "@"
+    "@|!check=104"2 "@"
+    "@|!check=105"2 "@"
+    "@|!check=106"2 "@"
+    "@|!check=107"2 "@"
+    "@|!check=108"2 "@"
+    "@|!check=109"2 "@"
+    "@|!check=110"2 "@"
+    "@|!check=111"2 "@"
+    "@|!check=112"2 "@"
+    "@|!check=113|!bg=4"2 "@|!bg=3"
+    "@|!check=114|!bg=2"2 "@|!bg=1"
 \mymark "Chorus" #115
-    "Beat|!mark=Chorus|!bg="8 "it,"4. "(beat"8 "it),"4.
-    "beat"8 "it,"4. ">(beat"8 "it),"4 "no"8
-    \skip8 "one"8 "wants" "to" "be" "-" "de" "fea"
-    "-"8 "ted." "-"2 \skip8 ">Show"8
-    \skip8 "them"8 "how" "-" "fun" "ky" "and" "strong"
-    \skip8 "is"8 "your" "-" "fight," "-"4 ">it"8
-    \skip8 "does"8 "n't" "-" "mat" "ter" "-" "who's"
-    \skip8 "wrong"8 "or" "-" "right," "-" ">just" "-"
+    "Beat|!mark=Chorus|!check=115|!bg="8 "it,"4. "(beat"8 "it),"4.
+    "beat|!check=116"8 "it,"4. ">(beat"8 "it),"4 "no"8
+    "!check=117"8 "one" "wants" "to" "be" \skip8 "de"8 "fea"
+    "!check=118"8 "ted." \skip2 \skip8 ">Show"8
+    "!check=119"8 "them" "how" \skip8 "fun"8 "ky" "and" "strong"
+    "!check=120"8 "is" "your" \skip8 "fight,"8 \skip4 ">it"8
+    "!check=121"8 "does" "n't" \skip8 "mat"8 "ter" \skip8 "who's"8
+    "!check=122"8 "wrong" "or" \skip8 "right,"8 \skip8 ">just"8 \skip8
 \mymark "Outro" #123
-    "beat|!mark=Outro"8 "it,"4. "(beat"8 "it),"4.
-    "beat"8 "it,"4. ">(beat"8 "it),"4 "no"8
-    \skip8 "one"8 "wants" "to" "be" "-" "de" "fea"
-    "-"8 "ted." "-"2 \skip8 ">Show"8
-    \skip8 "them"8 "how" "-" "fun" "ky" "and" "strong"
-    \skip8 "is"8 "your" "-" "fight," "-"4 ">it"8
-    \skip8 "does"8 "n't" "-" "mat" "ter" "-" "who's"
-    \skip8 "wrong"8 "or" "-" "right," "-" ">just" "-"
-    "beat"8 "it,"4. "(beat"8 "it),"4.
-    "beat"8 "it,"4. ">(beat"8 "it),"4 "no"8
-    \skip8 "one"8 "wants" "to" "be" "-" "de" "fea"
-    "-"8 "ted." "-"2 \skip8 ">Show"8
-    \skip8 "them"8 "how" "-" "fun" "ky" "and" "strong"
-    \skip8 "is"8 "your" "-" "fight," "-"4 ">it"8
-    \skip8 "does"8 "n't" "-" "mat" "ter" "-" "who's"
-    \skip8 "wrong"8 "or" "-" "right," "-" "just." "-"
-    "-"2. \skip8 "@@"32 "-"16.
-    "-"1
+    "beat|!mark=Outro|!check=123"8 "it,"4. "(beat"8 "it),"4.
+    "beat|!check=124"8 "it,"4. ">(beat"8 "it),"4 "no"8
+    "!check=125"8 "one" "wants" "to" "be" \skip8 "de"8 "fea"
+    "!check=126"8 "ted." \skip2 \skip8 ">Show"8
+    "!check=127"8 "them" "how" \skip8 "fun"8 "ky" "and" "strong"
+    "!check=128"8 "is" "your" \skip8 "fight,"8 \skip4 ">it"8
+    "!check=129"8 "does" "n't" \skip8 "mat"8 "ter" \skip8 "who's"8
+    "!check=130"8 "wrong" "or" \skip8 "right,"8 \skip8 ">just"8 \skip8
+    "beat|!check=131"8 "it,"4. "(beat"8 "it),"4.
+    "beat|!check=132"8 "it,"4. ">(beat"8 "it),"4 "no"8
+    "!check=133"8 "one" "wants" "to" "be" \skip8 "de"8 "fea"
+    "!check=134"8 "ted." \skip2 \skip8 ">Show"8
+    "!check=135"8 "them" "how" \skip8 "fun"8 "ky" "and" "strong"
+    "!check=136"8 "is" "your" \skip8 "fight,"8 \skip4 ">it"8
+    "!check=137"8 "does" "n't" \skip8 "mat"8 "ter" \skip8 "who's"8
+    "!check=138"8 "wrong" "or" \skip8 "right,"8 \skip8 "just."8 \skip8
+    "!check=139"2. \skip8 "@@"32 \skip16.
+    "!check=140"1
 }

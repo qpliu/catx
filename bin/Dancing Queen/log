@@ -3,10 +3,6 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-!mark=Verse 1 count=64 fudgeLyrics=48 divisions=27648 seconds=36.0 measure=19.0 track=midiKaraoke
-!mark=Chorus count=156 fudgeLyrics=48 divisions=55296 seconds=72.0 measure=37.0 track=midiKaraoke
-!mark=Verse 2 count=222 fudgeLyrics=48 divisions=86016 seconds=111.99999999999999 measure=57.0 track=midiKaraoke
-!mark=Outro count=274 fudgeLyrics=48 divisions=101376 seconds=132.0 measure=67.0 track=midiKaraoke
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi

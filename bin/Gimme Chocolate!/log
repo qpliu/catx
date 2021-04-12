@@ -4,22 +4,6 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-!mark=Riff 1 count=0 fudgeLyrics=24 divisions=0 seconds=0.0 measure=1.0 track=midiKaraoke
-!mark=Riff 2 count=48 fudgeLyrics=24 divisions=36864 seconds=26.181791999999998 measure=25.0 track=midiKaraoke
-!mark=Verse 1 count=64 fudgeLyrics=24 divisions=49152 seconds=34.909056 measure=33.0 track=midiKaraoke
-!mark=Chorus count=80 fudgeLyrics=24 divisions=61440 seconds=43.63632 measure=41.0 track=midiKaraoke
-!mark=Riff 1 count=152 fudgeLyrics=24 divisions=86016 seconds=61.090847999999994 measure=57.0 track=midiKaraoke
-!mark=Riff 2 count=168 fudgeLyrics=24 divisions=98304 seconds=69.818112 measure=65.0 track=midiKaraoke
-!mark=Verse 2 count=184 fudgeLyrics=24 divisions=110592 seconds=78.54537599999999 measure=73.0 track=midiKaraoke
-!mark=Chorus count=200 fudgeLyrics=24 divisions=122880 seconds=87.27264 measure=81.0 track=midiKaraoke
-!mark=Post-Chorus count=272 fudgeLyrics=24 divisions=147456 seconds=104.72716799999999 measure=97.0 track=midiKaraoke
-!mark=Riff 1 count=323 fudgeLyrics=24 divisions=159744 seconds=113.45443199999998 measure=105.0 track=midiKaraoke
-!mark=Solo count=355 fudgeLyrics=24 divisions=184320 seconds=130.90895999999998 measure=121.0 track=midiKaraoke
-!mark=Verse 3 count=403 fudgeLyrics=24 divisions=221184 seconds=157.09075199999998 measure=145.0 track=midiKaraoke
-!mark=Bridge count=419 fudgeLyrics=24 divisions=233472 seconds=165.81801599999997 measure=153.0 track=midiKaraoke
-!mark=Chorus count=490 fudgeLyrics=24 divisions=258048 seconds=183.27254399999998 measure=169.0 track=midiKaraoke
-!mark=Post-Chorus count=563 fudgeLyrics=24 divisions=282624 seconds=200.727072 measure=185.0 track=midiKaraoke
-!mark=Outro count=614 fudgeLyrics=24 divisions=294912 seconds=209.45433599999998 measure=193.0 track=midiKaraoke
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
@@ -30,10 +14,10 @@ Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
 Track name: midiOne
->@|!mark=Riff 1@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!mark=Riff 2@@@@@@@@@@@@@@@@|!mark=Verse 1@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!mark=Chorus|!bg=1Check|!bg=itout,cho-c'late.>CanIhavealit-tlebitof-cho-c'late,please?->I’dbet-terwatchmyweight,thoughIcan’tgaintoomuch,>I’m-get-tingwor-ried.->Idon’tcare,cho-c'late.>CanIhavealit-tlebitof-cho-c'late,please?->I’vegot-tawait,though.Waitawhi-le,comeon.>Wait,wait,-wait.-!mark=Riff 1|->@@@@@@@@@@@@@@@@|!mark=Riff 2@@@@@@@@@@@@@@@@|!mark=Verse 2@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!mark=Chorus|!bg=1Check|!bg=itout,cho-c'late.>CanIhavealit-tlebitof-cho-c'late,please?->I’dbet-terwatchmyweight,thoughIcan’tgaintoomuch,>I’m-get-tingwor-ried.->Idon’tcare,cho-c'late.>CanIhavealit-tlebitof-cho-c'late,please?->I’vegot-tawait,though.Waitawhi-le,comeon.>Wait,wait,-wait.->Pa|!mark=Post-Chorus-ra-pa-pa-pa-ra-pa--pa--pa-ra-pa--pa--pa-pa-pa-pa-pa-pa.->Too,-too-late.->Too,-too-late.->Too,-too.-P!-P!-P!-Comeon!!mark=Riff 1|->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!mark=Solo@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!mark=Verse 3@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!mark=Bridge|!bg=1I|!bg=real-lytriedmyhard-est,didmybest.>Butitjustwas-n’te-nough.->Ask-ingwithallmyheart,pleasepleasejustgiveme>Onelit--tlebitofit,please.->Ineedit,cho-c'late.Hur-ryup,comeon,givemecho--c'late!->Pret-typlease?->Ineedthatcho-c'latenowJustpassittome,please!!!mark=Chorus|->Checkitout,cho-c'late.>CanIhavealit-tlebitof-cho-c'late,please?->Youknowit’ssogood,>I’llbesohap-pyI’llworkhard,-justyouwaitandsee.->How'boutthatcho-c'late?>CanIhavealit-tlebitof-cho-c'late,please?->Cho-c'lateissogood,andIneeditJustalit-tle-bit!->Pa|!mark=Post-Chorus-ra-pa-pa-pa-ra-pa--pa--pa-ra-pa--pa--pa-pa-pa-pa-pa-pa.->Too,-too-late.->Too,-too-late.->Too,-too.-P!->P!-P!-Comeon!Pa|!mark=Outro-ra-pa-pa-pa-ra-pa--pa--pa-ra-pa--pa--pa-pa-pa-pa-pa-pa.->Pa--pa--pa-pa--pa--pa-pa--pa--pa-pa-pa-pa-pa-pa!Playing time: ~225 seconds
+>@|!mark=Riff 1@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!mark=Riff 2@@@@@@@@@@@@@@@@|!mark=Verse 1@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!mark=Chorus|!bg=1Check|!bg=itout,cho-c'late.>CanIhavealit-tlebitofcho-c'late,please?>I’dbet-terwatchmyweight,thoughIcan’tgaintoomuch,>I’mget-tingwor-ried.>Idon’tcare,cho-c'late.>CanIhavealit-tlebitofcho-c'late,please?>I’vegot-tawait,though.Waitawhi-le,comeon.>Wait,wait,wait.!mark=Riff 1|->@@@@@@@@@@@@@@@@|!mark=Riff 2@@@@@@@@@@@@@@@@|!mark=Verse 2@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!mark=Chorus|!bg=1Check|!bg=itout,cho-c'late.>CanIhavealit-tlebitofcho-c'late,please?>I’dbet-terwatchmyweight,thoughIcan’tgaintoomuch,>I’mget-tingwor-ried.>Idon’tcare,cho-c'late.>CanIhavealit-tlebitofcho-c'late,please?>I’vegot-tawait,though.Waitawhi-le,comeon.>Wait,wait,wait.>Pa|!mark=Post-Chorus-ra-pa-pa-pa-rapa-pa-pa-rapa-pa-papapa-pa-pa-pa.>Too,toolate.>Too,toolate.>Too,too.P!P!P!Comeon!!mark=Riff 1|->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!mark=Solo@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!mark=Verse 3@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!mark=Bridge|!bg=1I|!bg=real-lytriedmyhard-est,didmybest.>Butitjustwas-n’te-nough.>Ask-ingwithallmyheart,pleasepleasejustgiveme>Onelit-tlebitofit,please.>Ineedit,cho-c'late.Hur-ryup,comeon,givemecho-c'late!>Pret-typlease?>Ineedthatcho-c'latenowJustpassittome,please!!!mark=Chorus|->Checkitout,cho-c'late.>CanIhavealit-tlebitofcho-c'late,please?>Youknowit’ssogood,>I’llbesohap-pyI’llworkhard,justyouwaitandsee.>How'boutthatcho-c'late?>CanIhavealit-tlebitofcho-c'late,please?>Cho-c'lateissogood,andIneeditJustalit-tlebit!>Pa|!mark=Post-Chorus-ra-pa-pa-pa-rapa-pa-pa-rapa-pa-papapa-pa-pa-pa.>Too,toolate.>Too,toolate.>Too,too.P!>P!P!Comeon!Pa|!mark=Outro-ra-pa-pa-pa-rapa-pa-pa-rapa-pa-papapa-pa-pa-pa.>Pa-pa-papa-pa-papa-pa-papapa-pa-pa-pa!Playing time: ~225 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 26076115/39366296 bytes(66.2397% compressed)
+Wrote 26083368/39366296 bytes(66.2581% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 7.3 staff-spaces

@@ -2,6 +2,6 @@ vocaloidLyrics = \new Lyrics \lyricmode {
     "(m'E)"4 "(r'i:)" "(h'ad)" "('eI)" "(l'I)" "(t'@L)" "(l'am)" "."
     "(l'I)"4 "(t'@L)" "(l'am)" "."
     "(l'I)"4 "(t'@L)" "(l'am)" "."
-    "(m'E)"4 "(r'i:)" "(h'ad)" "('eI)" "(l'I)" "(t'@L)" "(l'am)"
+    "(m'E)|!check=5"4 "(r'i:)" "(h'ad)" "('eI)" "(l'I)" "(t'@L)" "(l'am)"
     "('Its)"4 "(fl'i:s)" "(w'0z)" "(w'aIt)" "('az)" "(sn'oU)"
 }

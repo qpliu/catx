@@ -14,7 +14,7 @@ klyrics = \new Lyrics \lyricmode {
     @2 @
     @2 @
 \mymark "Chorus 1" #13
-    ">Rock|!mark=Chorus 1"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4
+    ">Rock|!mark=Chorus 1|!check=13"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4
     "rock"4 "rock"4 "rock"4 \skip4
     ">Rock"8 -- "a"8 -- "bye"4 "ba"4 -- "by"4
     "rock"4 "rock"4 "rock"4 \skip4

@@ -5,28 +5,6 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-!mark=Intro count=0 fudgeLyrics=192 divisions=0 seconds=0.0 measure=1.0 track=midiKaraoke
-!mark=Verse 1 count=17 fudgeLyrics=192 divisions=12288 seconds=15.867743999999998 measure=9.0 track=midiKaraoke
-!mark=Verse 2 count=46 fudgeLyrics=192 divisions=24576 seconds=31.735487999999997 measure=17.0 track=midiKaraoke
-!mark=Guitar Fill count=73 fudgeLyrics=192 divisions=35328 seconds=45.619763999999996 measure=24.0 track=midiKaraoke
-!mark=Verse 3 count=91 fudgeLyrics=192 divisions=49152 seconds=63.47097599999999 measure=33.0 track=midiKaraoke
-!mark=Bridge count=130 fudgeLyrics=192 divisions=61440 seconds=79.33872 measure=41.0 track=midiKaraoke
-!mark=Verse 4 count=188 fudgeLyrics=192 divisions=92160 seconds=119.00807999999999 measure=61.0 track=midiKaraoke
-!mark=Verse 5 count=221 fudgeLyrics=192 divisions=104448 seconds=134.875824 measure=69.0 track=midiKaraoke
-!mark=Bridge count=256 fudgeLyrics=192 divisions=116736 seconds=150.74356799999998 measure=77.0 track=midiKaraoke
-!mark=Guitar Solo count=305 fudgeLyrics=192 divisions=141312 seconds=182.47905599999999 measure=93.0 track=midiKaraoke
-!mark=Chorus count=321 fudgeLyrics=192 divisions=153600 seconds=198.34679999999997 measure=101.0 track=midiKaraoke
-!mark=Intro count=0 fudgeLyrics=192 divisions=0 seconds=0.0 measure=1.0 track=midiVocaloid
-!mark=Verse 1 count=8 fudgeLyrics=192 divisions=12288 seconds=15.867743999999998 measure=9.0 track=midiVocaloid
-!mark=Verse 2 count=38 fudgeLyrics=192 divisions=24576 seconds=31.735487999999997 measure=17.0 track=midiVocaloid
-!mark=Guitar Fill count=67 fudgeLyrics=192 divisions=35328 seconds=45.619763999999996 measure=24.0 track=midiVocaloid
-!mark=Verse 3 count=76 fudgeLyrics=192 divisions=49152 seconds=63.47097599999999 measure=33.0 track=midiVocaloid
-!mark=Bridge count=120 fudgeLyrics=192 divisions=61440 seconds=79.33872 measure=41.0 track=midiVocaloid
-!mark=Verse 4 count=176 fudgeLyrics=192 divisions=92160 seconds=119.00807999999999 measure=61.0 track=midiVocaloid
-!mark=Verse 5 count=214 fudgeLyrics=192 divisions=104448 seconds=134.875824 measure=69.0 track=midiVocaloid
-!mark=Bridge count=256 fudgeLyrics=192 divisions=116736 seconds=150.74356799999998 measure=77.0 track=midiVocaloid
-!mark=Guitar Solo count=308 fudgeLyrics=192 divisions=141312 seconds=182.47905599999999 measure=93.0 track=midiVocaloid
-!mark=Chorus count=316 fudgeLyrics=192 divisions=153600 seconds=198.34679999999997 measure=101.0 track=midiVocaloid
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
@@ -38,182 +16,28 @@ Track name: midiBass
 Track name: midiKaraoke
 Track name: midiVocaloid
 Track name: midiOne
-!mark=Intro|-!mark=Intro>@@.@@.@@.@@.@@.@@.@@|!bg=4.@|!bg=3@|!bg=2!mark=Verse 1|-!mark=Verse 1@|!bg=1Just|!bg=(dZ'Vst)a('@)small(sm'O:l)town(t'aUn)girl(g'3:l)-.-.>Liv(l'I)-in'(v'In)in('In)a('@)lone(l'oUn)-ly(l'i:)world.(w'3:)(3ld)-..>She(S'i:)took(t'Uk)the(D'@)mid(m'Id)-night(n'aIt)train|!bg=img=../train.png(tr'eIn)go|!bg=(g'oU)-in'('In)a('E)-ny(ni:)-where.(w'e@)-.!mark=Verse 2|-!mark=Verse 2>Just(dZ'Vst)a('@)ci(s'I)-ty(t'i:)boy(b'OI)-.-.>born(b'O@n)and('and)raised(r'eIzd)in('In)South(s'aUT)Det(d'Et)-roit.(r'OI)(it)-..>He(h'i:)took(t'Uk)the(D'@)mid(m'Id)-night(n'aIt)train|!bg=img=../train.png(tr'eIn)go|!bg=(g'oU)-in'('In)a('E)-ny(ni:)-where.(w'e@)!mark=Guitar Fill|-!mark=Guitar Fill-.>@@.@@.@@.@@.@@.@@.@|!bg=4@|!bg=3.@|!bg=2@|!bg=1!mark=Verse 3|-!mark=Verse 3A|!bg=('@)sin(s'i)-ger(N'3:)in('In)a('@)smo(sm'oU)-ky(k'i:)room(r'u:)(um)-.-.>A('@)smell(sm'El)of('0v)wine(w'aIn)and('and)cheap(tS'i:p)per(p'3:)-fume(fj'u:)('um)-.>For(f'O@)a('@)smi(sm'aI)-le('@l)they(D'eI)can(k'an)share(S'e@)the(D'@)night.|!bg=img=../night.png(n'a)('aIt).!bg=>It('It)goes(g'oUz)on('0n)and('and)on,('0n)and('and)on,('0n)and('and)on.('0:)('0:)('0:0:n)>Stran|!mark=Bridge(str'an)|!mark=Bridge-gers(dZ'3:z)wait(w'eI)-ing(t'IN)-.-.>Up('Vp)and('and)down(d'aUn)the(D'@)bou(b'U)-le(l'@)-vard.(v'A@d)>Their(D'e@)sha(S'A:)-dows(d'aUz)-.sear(s'3:)-ching(tS'i:)('i:N)in('In)the(D'@)night.|!bg=img=../night.png(n'a:a:)!bg=(a:)('a:a:a:a:aIt)-.>Street(str'i:t)-lights,(l'aIts)-.peop(p'i:)-le(p'@l)-.-.>Liv(l'I)-ing(v'IN)just(dZ'Vst)to(t'u:)find(f'aInd)e('i:)-mo(m'oU)-tion.(S'Vn)Hid(h'aI)-ing(d'IN)-.some(s'Vm)-where(w'e@)in('In)the(D'@)night,|!bg=img=../night.png(n'a:)(a:)!bg=('a:a:a:a:aIt)-.-.>@@.@@.@|!bg=4@|!bg=3.@|!bg=2@|!bg=1!mark=Verse 4|-!mark=Verse 4Work|!bg=(w'3:)-ing(k'IN)hard(h'A@)(A@d)to(t'u:)get(g'Et)my(m'aI)fill,(f'I)(I:l)-.-.>E('E:)-very(v'ri:)-bo(b'V)-dy(d'i:)wants(w'0nts)a('eI)thrill,(Tr'I:)(I:)(I:I:l)-.>Pay(p'eI)-in'('In)a(E)-ny(ni:)-thing(T'IN)to(t'u:)roll(r'oUl)the(D'@)dice(d'a)(aIs)-.Just(dZ'Vst)one(w'0n)more(m'o@)time.(t'aIm)-.!mark=Verse 5|-!mark=Verse 5>Some(s'Vm)will(w'Il)win,(w'I)(In)-.some(s'Vm)will(w'Il)lose.(l'u:)(u:z)-.-.>Some(s'Vm)were(w'3:)born(b'O@n)to(t'u:)sing(s'IN)the(D'@)blues.(bl'u:)(u:z)-.>Oh,('oU)the(D'@)mo(m'u:)-vie(v'i:)ne(n'E)-ver(v'3:)ends.('E)(Endz)>It('It)goes(g'oUz)on('0n)and('and)on,('0n)and('and)on,('0n)and('and)on.('0:0:)(0:)(0:)(0:0:n)-.>Stran|!mark=Bridge(str'an)|!mark=Bridge-gers(dZ'3:z)wait(w'eI)-ing(t'IN)-.-.>Up('Vp)and('and)down(d'aUn)the(D'@)bou(b'U)-le(l'@)-vard.(v'A@d)>Their(D'e@)sha(S'A:)-dows(d'aUz)-.sear(s'3:)-ching(tS'i:)('i:N)in('In)the(D'@)night.|!bg=img=../night.png(n'a:a:)!bg=(a:)('a:a:a:a:aIt)-.>Street(str'i:t)-lights,(l'aIts)-.peop(p'i:)-le(p'@l)-.-.>Liv(l'I)-ing(v'IN)just(dZ'Vst)to(t'u:)find(f'aInd)e('i:)-mo(m'oU)-tion.(S'Vn)Hid(h'aI)-ing(d'IN)-.some(s'Vm)-where(w'e)(@)in('In)the(D'@)night,|!bg=img=../night.png(n'a)(a:aIt)!bg=-.!mark=Guitar Solo|-!mark=Guitar Solo>@@.@@.@@.@@.@@.@@|!bg=4.@|!bg=3@|!bg=2.@|!bg=1Don't|!mark=Chorus|!bg=(d'oU)|!mark=Chorus(oUnt)stop(st'0p)be(b'i:)-liev(l'i:)(i:)-in'(v'In)-.-.>Hold(h'oUld)on('0n)to(t'u:)the(D'@)feel(f'i:)-in'(li:)(i:i:i:)(i:i:)(i:i:N)Street(str'i:)(i:t)-lights,(l'aIts)-.peop(p'i:)(i:)-le(p'@:)(@:)(@:)(@:)(@:@:@:@:@:@:@:@l)>Don't(d'oU)(oUnt)stop(st'0p)-.be(b'i:)-liev(l'i:)(i:)-in'(v'In)-.-.>Hold(h'oU)(oUld)on('0n)to(t'u:)the(D'@)(@)feel(f'i:)(i:)-in'(li:i:)(i:)(i:)(i:i:N)-.>Street(str'i:)(i:t)-lights,(l'aIts)-.peop(p'i:)(i:)-le(p'@:)(@:)(@:)(@:)(@:@:@:@:@:@:@:@l)>Don't(d'oU)(oUnt)stop(st'0p)-.be(b'i:)-liev(l'i:)(i:)-in'(v'In)-.-.>Hold(h'oUld)on('0n)to(t'u:)the(D'@)-.feel(f'i:)-in'(li:)(i:)('i:N)-.Street(str'i:)(i:t)-lights,(l'aIts)-.peop(p'i:)(i:)-le(p'@:)(@:)(@:)(@:)(@:@:@:@:@:@:@:@l)Playing time: ~251 seconds
+!mark=Intro|-!mark=Intro>@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2!mark=Verse 1|-!mark=Verse 1@|!bg=1Just|!bg=(dZ'Vst)a('@)small(sm'O:l)town(t'aUn)girl(g'3:l)>Liv(l'I)-in'(v'In)in('In)a('@)lone(l'oUn)-ly(l'i:)world.(w'3:)(3ld)>She(S'i:)took(t'Uk)the(D'@)mid(m'Id)-night(n'aIt)train|!bg=img=../train.png(tr'eIn)go|!bg=(g'oU)-in'('In)a('E)-ny(ni:)-where.(w'e@)!mark=Verse 2|-!mark=Verse 2>Just(dZ'Vst)a('@)ci(s'I)-ty(t'i:)boy(b'OI)>born(b'O@n)and('and)raised(r'eIzd)in('In)South(s'aUT)Det(d'Et)-roit.(r'OI)(it)>He(h'i:)took(t'Uk)the(D'@)mid(m'Id)-night(n'aIt)train|!bg=img=../train.png(tr'eIn)go|!bg=(g'oU)-in'('In)a('E)-ny(ni:)-where.(w'e@)!mark=Guitar Fill|-!mark=Guitar Fill>@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!mark=Verse 3|-!mark=Verse 3A|!bg=('@)sin(s'i)-ger(N'3:)in('In)a('@)smo(sm'oU)-ky(k'i:)room(r'u:)(um)>A('@)smell(sm'El)of('0v)wine(w'aIn)and('and)cheap(tS'i:p)per(p'3:)-fume(fj'u:)('um)>For(f'O@)a('@)smi(sm'aI)-le('@l)they(D'eI)can(k'an)share(S'e@)the(D'@)night.|!bg=img=../night.png(n'a)('aIt)!bg=>It('It)goes(g'oUz)on('0n)and('and)on,('0n)and('and)on,('0n)and('and)on.('0:)('0:)('0:0:n)>Stran|!mark=Bridge(str'an)|!mark=Bridge-gers(dZ'3:z)wait(w'eI)-ing(t'IN)>Up('Vp)and('and)down(d'aUn)the(D'@)bou(b'U)-le(l'@)-vard.(v'A@d)>Their(D'e@)sha(S'A:)-dows(d'aUz)sear(s'3:)-ching(tS'i:)('i:N)in('In)the(D'@)night.|!bg=img=../night.png(n'a:a:)!bg=(a:)('a:a:a:a:aIt)>Street(str'i:t)-lights,(l'aIts)peop(p'i:)-le(p'@l)>Liv(l'I)-ing(v'IN)just(dZ'Vst)to(t'u:)find(f'aInd)e('i:)-mo(m'oU)-tion.(S'Vn)Hid(h'aI)-ing(d'IN)some(s'Vm)-where(w'e@)in('In)the(D'@)night,|!bg=img=../night.png(n'a:)(a:)!bg=('a:a:a:a:aIt)>@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!mark=Verse 4|-!mark=Verse 4Work|!bg=(w'3:)-ing(k'IN)hard(h'A@)(A@d)to(t'u:)get(g'Et)my(m'aI)fill,(f'I)(I:l)>E('E:)-very(v'ri:)-bo(b'V)-dy(d'i:)wants(w'0nts)a('eI)thrill,(Tr'I:)(I:)(I:I:l)>Pay(p'eI)-in'('In)a(E)-ny(ni:)-thing(T'IN)to(t'u:)roll(r'oUl)the(D'@)dice(d'a)(aIs)Just(dZ'Vst)one(w'0n)more(m'o@)time.(t'aIm)!mark=Verse 5|-!mark=Verse 5>Some(s'Vm)will(w'Il)win,(w'I)(In)some(s'Vm)will(w'Il)lose.(l'u:)(u:z)>Some(s'Vm)were(w'3:)born(b'O@n)to(t'u:)sing(s'IN)the(D'@)blues.(bl'u:)(u:z)>Oh,('oU)the(D'@)mo(m'u:)-vie(v'i:)ne(n'E)-ver(v'3:)ends.('E)(Endz)>It('It)goes(g'oUz)on('0n)and('and)on,('0n)and('and)on,('0n)and('and)on.('0:0:)(0:)(0:)(0:0:n)>Stran|!mark=Bridge(str'an)|!mark=Bridge-gers(dZ'3:z)wait(w'eI)-ing(t'IN)>Up('Vp)and('and)down(d'aUn)the(D'@)bou(b'U)-le(l'@)-vard.(v'A@d)>Their(D'e@)sha(S'A:)-dows(d'aUz)sear(s'3:)-ching(tS'i:)('i:N)in('In)the(D'@)night.|!bg=img=../night.png(n'a:a:)!bg=(a:)('a:a:a:a:aIt)>Street(str'i:t)-lights,(l'aIts)peop(p'i:)-le(p'@l)>Liv(l'I)-ing(v'IN)just(dZ'Vst)to(t'u:)find(f'aInd)e('i:)-mo(m'oU)-tion.(S'Vn)Hid(h'aI)-ing(d'IN)some(s'Vm)-where(w'e)(@)in('In)the(D'@)night,|!bg=img=../night.png(n'a)(a:aIt)!bg=!mark=Guitar Solo|-!mark=Guitar Solo>@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Don't|!mark=Chorus|!bg=(d'oU)|!mark=Chorus(oUnt)stop(st'0p)be(b'i:)-liev(l'i:)(i:)-in'(v'In)>Hold(h'oUld)on('0n)to(t'u:)the(D'@)feel(f'i:)-in'(li:)(i:i:i:)(i:i:)(i:i:N)Street(str'i:)(i:t)-lights,(l'aIts)peop(p'i:)(i:)-le(p'@:)(@:)(@:)(@:)(@:@:@:@:@:@:@:@l)>Don't(d'oU)(oUnt)stop(st'0p)be(b'i:)-liev(l'i:)(i:)-in'(v'In)>Hold(h'oU)(oUld)on('0n)to(t'u:)the(D'@)(@)feel(f'i:)(i:)-in'(li:i:)(i:)(i:)(i:i:N)>Street(str'i:)(i:t)-lights,(l'aIts)peop(p'i:)(i:)-le(p'@:)(@:)(@:)(@:)(@:@:@:@:@:@:@:@l)>Don't(d'oU)(oUnt)stop(st'0p)be(b'i:)-liev(l'i:)(i:)-in'(v'In)>Hold(h'oUld)on('0n)to(t'u:)the(D'@)feel(f'i:)-in'(li:)(i:)('i:N)Street(str'i:)(i:t)-lights,(l'aIts)peop(p'i:)(i:)-le(p'@:)(@:)(@:)(@:)(@:@:@:@:@:@:@:@l)Playing time: ~251 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 24776365/43997592 bytes(56.313% compressed)
-generated-steelpan:49:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ cis'' a, a, a, a, |
-generated-steelpan:50:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ e'' a, a, a, a, |
-generated-steelpan:51:17: warning: unterminated tie
-    dis''8 e, e,
-                ~ e'' e, e, e, e, |
-generated-steelpan:52:17: warning: unterminated tie
-    dis''8 e, e,
-                ~ e'' e, e, e, e, |
-generated-steelpan:53:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ cis'' a, a, a, a, |
-generated-steelpan:54:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ e'' a, a, a, a, |
-generated-steelpan:55:16: warning: unterminated tie
-    fis'8 e, e,
-               ~ gis' e, e, e, e, |
-generated-steelpan:56:16: warning: unterminated tie
-    fis'8 e, e,
-               ~ gis' r2 |
-generated-steelpan:57:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ cis'' a, a, a, a, |
-generated-steelpan:58:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ e'' a, a, a, a, |
-generated-steelpan:59:17: warning: unterminated tie
-    dis''8 e, e,
-                ~ e'' e, e, e, e, |
-generated-steelpan:60:17: warning: unterminated tie
-    dis''8 e, e,
-                ~ e'' e, e, e, e, |
-generated-steelpan:61:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ cis'' a, a, a, a, |
-generated-steelpan:62:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ e'' a, a, a, a, |
-generated-steelpan:88:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ cis'' a, a, a, a, |
-generated-steelpan:89:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ e'' a, a, a, a, |
-generated-steelpan:90:17: warning: unterminated tie
-    dis''8 e, e,
-                ~ e'' e, e, e, e, |
-generated-steelpan:91:17: warning: unterminated tie
-    dis''8 e, e,
-                ~ e'' e, e, e, e, |
-generated-steelpan:92:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ cis'' a, a, a, a, |
-generated-steelpan:93:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ e'' a, a, a, a, |
-generated-steelpan:94:16: warning: unterminated tie
-    fis'8 e, e,
-               ~ gis' e, e, e, e, |
-generated-steelpan:95:16: warning: unterminated tie
-    fis'8 e, e,
-               ~ gis' r2 |
-generated-steelpan:96:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ cis'' a, a, a, a, |
-generated-steelpan:97:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ e'' a, a, a, a, |
-generated-steelpan:98:17: warning: unterminated tie
-    dis''8 e, e,
-                ~ e'' e, e, e, e, |
-generated-steelpan:99:17: warning: unterminated tie
-    dis''8 e, e,
-                ~ e'' e, e, e, e, |
-generated-steelpan:100:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ cis'' a, a, a, a, |
-generated-steelpan:101:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ e'' a, a, a, a, |
+Wrote 24862412/43997592 bytes(56.5086% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-generated-steelpan:49:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ cis'' a, a, a, a, |
-generated-steelpan:50:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ e'' a, a, a, a, |
-generated-steelpan:51:17: warning: unterminated tie
-    dis''8 e, e,
-                ~ e'' e, e, e, e, |
-generated-steelpan:52:17: warning: unterminated tie
-    dis''8 e, e,
-                ~ e'' e, e, e, e, |
-generated-steelpan:53:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ cis'' a, a, a, a, |
-generated-steelpan:54:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ e'' a, a, a, a, |
-generated-steelpan:55:16: warning: unterminated tie
-    fis'8 e, e,
-               ~ gis' e, e, e, e, |
-generated-steelpan:56:16: warning: unterminated tie
-    fis'8 e, e,
-               ~ gis' r2 |
-generated-steelpan:57:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ cis'' a, a, a, a, |
-generated-steelpan:58:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ e'' a, a, a, a, |
-generated-steelpan:59:17: warning: unterminated tie
-    dis''8 e, e,
-                ~ e'' e, e, e, e, |
-generated-steelpan:60:17: warning: unterminated tie
-    dis''8 e, e,
-                ~ e'' e, e, e, e, |
-generated-steelpan:61:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ cis'' a, a, a, a, |
-generated-steelpan:62:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ e'' a, a, a, a, |
-generated-steelpan:88:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ cis'' a, a, a, a, |
-generated-steelpan:89:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ e'' a, a, a, a, |
-generated-steelpan:90:17: warning: unterminated tie
-    dis''8 e, e,
-                ~ e'' e, e, e, e, |
-generated-steelpan:91:17: warning: unterminated tie
-    dis''8 e, e,
-                ~ e'' e, e, e, e, |
-generated-steelpan:92:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ cis'' a, a, a, a, |
-generated-steelpan:93:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ e'' a, a, a, a, |
-generated-steelpan:94:16: warning: unterminated tie
-    fis'8 e, e,
-               ~ gis' e, e, e, e, |
-generated-steelpan:95:16: warning: unterminated tie
-    fis'8 e, e,
-               ~ gis' r2 |
-generated-steelpan:96:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ cis'' a, a, a, a, |
-generated-steelpan:97:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ e'' a, a, a, a, |
-generated-steelpan:98:17: warning: unterminated tie
-    dis''8 e, e,
-                ~ e'' e, e, e, e, |
-generated-steelpan:99:17: warning: unterminated tie
-    dis''8 e, e,
-                ~ e'' e, e, e, e, |
-generated-steelpan:100:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ cis'' a, a, a, a, |
-generated-steelpan:101:17: warning: unterminated tie
-    dis''8 a, a,
-                ~ e'' a, a, a, a, |
+warning: compressing over-full page by 2.1 staff-spaces
+warning: page 1 has been compressed
+warning: compressing over-full page by 1.1 staff-spaces
+warning: page 2 has been compressed
+warning: compressing over-full page by 0.6 staff-spaces
+warning: page 3 has been compressed
+warning: compressing over-full page by 2.1 staff-spaces
+warning: page 4 has been compressed
+warning: compressing over-full page by 0.1 staff-spaces
+warning: page 8 has been compressed
+warning: compressing over-full page by 0.1 staff-spaces
+warning: page 9 has been compressed
+warning: compressing over-full page by 2.0 staff-spaces
+warning: page 14 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
     124 measure=all

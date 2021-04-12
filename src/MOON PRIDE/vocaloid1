@@ -17,7 +17,7 @@ vocaloidOneLyrics = \new Lyrics \lyricmode {
     "."2 "."2
     "."2 "."2
     "."2 "."2
-    "(nA:)"8 "(mi:)"8 "(dA:)"8 "(wA:)"4 "."8 "(ho:)"8 \skip8 "(ho:)"8 "(o:)"8 "(tsu:)"8 "(tA:)"4 "(i:)"4 "."8
+    "(nA:)"8 "(mi:)"8 "(dA:)"8 "(wA:)|!check=19"4 "."8 "(ho:)"8 \skip8 "(ho:)"8 "(o:)"8 "(tsu:)"8 "(tA:)"4 "(i:)"4 "."8
     "(hi:)"8 "(to:)"8 "(mi:)"8 "(wA:)"4 "."8 "(A:)"8 \skip8 "(kA:)"8 "(ku:)"8 "(mo:)"8 "(E:)"4 "(ru:)"4 "."8
     "(i:)"8 "(nA:)"8 "(zu:)"8 "(mA:)"4 "(no:)"8 "(jo:)"8 \skip8 "(ni:)"8 "(hA:)"8 "(gE:)"8 "(Si:)"4 "(ku:)"4 "."8
     "(dA:)"8 "(rE:)"8 "(kA:)"8 "(gA:)"4 "(A:)"8 "(i:)"8 \skip8 "(o:)"4 "(sA:)"8 "(kE:)"4 "(bu:)"4 "."8
@@ -96,7 +96,7 @@ vocaloidOneLyrics = \new Lyrics \lyricmode {
     "(ko:)"8 "(no:)"8 "(hi:)"8 "(ro:)"8 "(i:)"8 "(u:)"4 "(tSu:)"8 \skip8 "(u:)"4 "(dE:)"8 "."8
     "(nA:)"8 "(nnnnnnnnnnnnnnnn)"8 "(do:)"8 "(u:)"4 "(mA:)"8 "(rE:)"8 \skip4 "(kA:)"8 "(wA:)"8 \skip8 "(t)"4 "(tE:)"8 \skip8 "(mo:)"4.
     "(A:)"8 "(nA:)"8 "(tA:)"8 "(ni:)"8 "."4 "(ko:)"8 "(i:)"8 "."8 "(o:)"4 "(su:)"8 \skip4 "(ru:)"4
-    "(S'aI)|!check=measure125"4 "(ni)"8 "(m'eIk)"8 \skip8 "('Vp)"4 "(hA:)"8 \skip8 "(bA:)"8 "(tA:)"4 "(ku:)"4 "(jo:)"4
+    "(S'aI)"4 "(ni)"8 "(m'eIk)"8 \skip8 "('Vp)"4 "(hA:)"8 \skip8 "(bA:)"8 "(tA:)"4 "(ku:)"4 "(jo:)"4
     "(ho:)"4 "(Si:)"8 "(so:)"8 "(rA:)"4 "(no:)"8 "(kA:)"8 \skip8 "(nA:)"8 "(tA:)"4 "(hE:)"4
     "(tsu:)"8 "(mi:)"8 "(gA:)"4 "(mA:)"8 "(wA:)"8 \skip8 "(ru:)"8 "(sE:)"8 "(kA:)"8 \skip8 "(i:)"8
     "(dE:)"4 "(mo:)"4 "(mi:)"4 "(rA:)"4 "(i:)"8 "(o:)"8 "(Si:)"4 "(nnnnnnnnnnnnnnnn)"8 "(dZi:)"8 \skip8 "(rA:)"8 "(rE:)"4 "(ru:)"8 "(dA:)"8 "(kA:)"8 "(rA:)"8

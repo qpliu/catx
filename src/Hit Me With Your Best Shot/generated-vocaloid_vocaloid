@@ -1,97 +1,97 @@
 vocaloidVocaloid = \new Lyrics \lyricmode {
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
+    "!check=1"1
+    "!check=2"1
+    "!check=3"1
+    "!check=4"1
+    "!check=5"1
+    "!check=6"1
+    "!check=7"1
+    "!check=8"1
 \mymark "1st verse" #9
-    "!mark=1st verse"2 \skip8 "(w'El)"8 "(j'O@)" "(D'@)"
-    "(r'i@l)"4 "(t'Vf)" "(k'U)"8 "('ki:)" "(w'ID)" "('@)"
-    "(l'0N)"4 "(h'I)"8 "(st'oU)" "(r'i:)"4 "."8 "('0v)"
-    "(br'eI)"8 "(k'IN)" "(l'I)" "(t'@l)" "(h'A@ts)"4 "(l'aIk)"8 "(D'@)"
-    "(w'0n)"8 "('In)" "(m'i:)"4 "."2
-    "."8 "(D'ats)"4 "('oU)"8 "(k'eI)"4 "(l'Ets)"8 "(s'i:)"
-    \skip8 "(h'aU)"8 "(j'u:)" "(d'u:)"4 "('It)" "."8
-    "(p'Ut)"8 "('Vp)" "(j'O@)" "(du:ks)"4. "(l'Ets)"4
-    "(g'Et)"8 "(d'aUn)"4 "(t'u:)" "('It)"4.
+    "!mark=1st verse|!check=9"2 \skip8 "(w'El)"8 "(j'O@)" "(D'@)"
+    "(r'i@l)|!check=10"4 "(t'Vf)" "(k'U)"8 "('ki:)" "(w'ID)" "('@)"
+    "(l'0N)|!check=11"4 "(h'I)"8 "(st'oU)" "(r'i:)"4 \skip8 "('0v)"8
+    "(br'eI)|!check=12"8 "(k'IN)" "(l'I)" "(t'@l)" "(h'A@ts)"4 "(l'aIk)"8 "(D'@)"
+    "(w'0n)|!check=13"8 "('In)" "(m'i:)"4 \skip2
+    "!check=14"8 "(D'ats)"4 "('oU)"8 "(k'eI)"4 "(l'Ets)"8 "(s'i:)"
+    "!check=15"8 "(h'aU)" "(j'u:)" "(d'u:)"4 "('It)" \skip8
+    "(p'Ut)|!check=16"8 "('Vp)" "(j'O@)" "(du:ks)"4. "(l'Ets)"4
+    "(g'Et)|!check=17"8 "(d'aUn)"4 "(t'u:)" "('It)"4.
 \mymark "chorus" #18
-    "(h'It)|!mark=chorus"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
-    "."2 "."8 "(w'aI)" "(d'oUnt)" "(j'u:)"
-    "(h'It)"16 "(m'i:)" "(w'ID)"8 "(j'O@)" "(b'Est)"4 "(S'0)"8 "(0t)"4
-    "."1
-    "(h'It)"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
-    "."2 "(f'aI)"8 "('3:)" "('V)" "(w'E)"
-    \skip8 "(eI)"2 \skip8 "."4
-    "."2. "."8 "(j'u:)"
-    "(k'Vm)"8 "('0n)" "(w'ID)" "('It)" "(k'Vm)" "('0n)"4 "(j'u:)"8
-    "(d'oUnt)"4 "(f'aIt)" "(f'e@)" "."
-    "."8 "(b'Vt)" "(D'ats)" "('oU)" "(k'eI)"4 "."
-    "(s'i:)"16 "('If)" "('aI)"4 "(k'e@)"4. "."4
-    "."8 "(n'0k)"4 "(m'i:)"8 "(d'aUn)"4 "('Its)"8 "('O:l)"
-    \skip8 "('In)"4 "(v'eIn)" "." "('aI)"8
-    "(g'Et)"8 "(r'aIt)" "(b'ak)" "('0n)"4. "(m'aI)"4
-    "(f'i:t)"8 "('V)"4 "(g'E)" "(En)" "."8
-    "(h'It)"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
-    "."2 "."8 "(w'aI)" "(d'oUnt)" "(j'u:)"
-    "(h'It)"16 "(m'i:)" "(w'ID)"8 "(j'O@)" "(b'Est)"4 "(S'0)"8 "(0t)"4
-    "."1
-    "(h'It)"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
-    "."2 "(f'aI)"8 "('3:)" "('V)" "(w'E)"
-    \skip8 "(eI)"2 \skip8 "."4
-    "."1
+    "(h'It)|!mark=chorus|!check=18"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
+    "!check=19"2 \skip8 "(w'aI)"8 "(d'oUnt)" "(j'u:)"
+    "(h'It)|!check=20"16 "(m'i:)" "(w'ID)"8 "(j'O@)" "(b'Est)"4 "(S'0)"8 "(0t)"4
+    "!check=21"1
+    "(h'It)|!check=22"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
+    "!check=23"2 "(f'aI)"8 "('3:)" "('V)" "(w'E)"
+    "!check=24"8 "(eI)"2 \skip8 \skip4
+    "!check=25"2. \skip8 "(j'u:)"8
+    "(k'Vm)|!check=26"8 "('0n)" "(w'ID)" "('It)" "(k'Vm)" "('0n)"4 "(j'u:)"8
+    "(d'oUnt)|!check=27"4 "(f'aIt)" "(f'e@)" \skip4
+    "!check=28"8 "(b'Vt)" "(D'ats)" "('oU)" "(k'eI)"4 \skip4
+    "(s'i:)|!check=29"16 "('If)" "('aI)"4 "(k'e@)"4. \skip4
+    "!check=30"8 "(n'0k)"4 "(m'i:)"8 "(d'aUn)"4 "('Its)"8 "('O:l)"
+    "!check=31"8 "('In)"4 "(v'eIn)" \skip4 "('aI)"8
+    "(g'Et)|!check=32"8 "(r'aIt)" "(b'ak)" "('0n)"4. "(m'aI)"4
+    "(f'i:t)|!check=33"8 "('V)"4 "(g'E)" "(En)" \skip8
+    "(h'It)|!check=34"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
+    "!check=35"2 \skip8 "(w'aI)"8 "(d'oUnt)" "(j'u:)"
+    "(h'It)|!check=36"16 "(m'i:)" "(w'ID)"8 "(j'O@)" "(b'Est)"4 "(S'0)"8 "(0t)"4
+    "!check=37"1
+    "(h'It)|!check=38"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
+    "!check=39"2 "(f'aI)"8 "('3:)" "('V)" "(w'E)"
+    "!check=40"8 "(eI)"2 \skip8 \skip4
+    "!check=41"1
 \mymark "solo (1st part)" #42
-    "!mark=solo (1st part)"1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
+    "!mark=solo (1st part)|!check=42"1
+    "!check=43"1
+    "!check=44"1
+    "!check=45"1
+    "!check=46"1
+    "!check=47"1
+    "!check=48"1
+    "!check=49"1
 \mymark "solo(2nd part" #50
-    "!mark=solo(2nd part"1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."2 "."8 "(w'El)" "(j'O@)" "(D'@)"
-    "(r'i:l)"4 "(t'Vf)" "(k'U)"8 "(k'i:)" "(w'ID)" "('@)"
-    "(l'0N)"4 "(h'I)"8 "(st'oU)" "(r'i:)"4 "."8 "('0v)"
-    "(br'eI)"8 "(k'IN)" "(l'I)" "(t'@l)" "(h'A@ts)"4 "(l'aIk)"8 "(D'@)"
-    "(w'0n)"8 "('In)" "(m'i:)"4 "."8 "(b'i:)" "(f'O@)" "('aI)"
-    "(p'Ut)"16 "('V)" "(n'V)" "(D'3)"8. "(n'0tS)"8 "."4 "('In)"8 "(m'aI)"
-    "(l'Ip)"8 "(st'Ik)"4 "(k'eIs)" "." "(j'u:)"8
-    "(b'E)"8 "(t'3:)" "(m'eIk)"4 "(S'U@)"8 "(j'u:)" "(p'Ut)" "(m'i:)"
-    "('In)"8 "(m'aI)"4 "(pl'eIs)" "."4.
+    "!mark=solo(2nd part|!check=50"1
+    "!check=51"1
+    "!check=52"1
+    "!check=53"1
+    "!check=54"1
+    "!check=55"1
+    "!check=56"1
+    "!check=57"2 \skip8 "(w'El)"8 "(j'O@)" "(D'@)"
+    "(r'i:l)|!check=58"4 "(t'Vf)" "(k'U)"8 "(k'i:)" "(w'ID)" "('@)"
+    "(l'0N)|!check=59"4 "(h'I)"8 "(st'oU)" "(r'i:)"4 \skip8 "('0v)"8
+    "(br'eI)|!check=60"8 "(k'IN)" "(l'I)" "(t'@l)" "(h'A@ts)"4 "(l'aIk)"8 "(D'@)"
+    "(w'0n)|!check=61"8 "('In)" "(m'i:)"4 \skip8 "(b'i:)"8 "(f'O@)" "('aI)"
+    "(p'Ut)|!check=62"16 "('V)" "(n'V)" "(D'3)"8. "(n'0tS)"8 \skip4 "('In)"8 "(m'aI)"
+    "(l'Ip)|!check=63"8 "(st'Ik)"4 "(k'eIs)" \skip4 "(j'u:)"8
+    "(b'E)|!check=64"8 "(t'3:)" "(m'eIk)"4 "(S'U@)"8 "(j'u:)" "(p'Ut)" "(m'i:)"
+    "('In)|!check=65"8 "(m'aI)"4 "(pl'eIs)" \skip4.
 \mymark "Keyboard fills" #66
-    "(h'It)|!mark=Keyboard fills"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
-    "."2 "."8 "(k@m'0n)"4.
-    "(h'It)"16 "(m'i:)" "(w'ID)"8 "(j'O@)" "(b'Est)"4 "(S'0)"8 "(0t)"4
-    "."1
-    "(h'It)"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
-    "."2 "(f'aI)"8 "('3:)" "('V)" "(w'E)"
-    \skip8 "(eI)"2 \skip8 "."4
-    "."1
-    "(h'It)"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
-    "."2 "."8 "(w'aI)" "(d'oUnt)" "(j'u:)"
-    "(h'It)"16 "(m'i:)" "(w'ID)"8 "(j'O@)" "(b'Est)"4 "(S'0)"8 "(0t)"4
-    "."1
-    "(h'It)"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
-    "."2 "(f'aI)"8 "('3:)" "('V)" "(w'E:eI)"
-    \skip1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
-    "."1
+    "(h'It)|!mark=Keyboard fills|!check=66"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
+    "!check=67"2 \skip8 "(k@m'0n)"4.
+    "(h'It)|!check=68"16 "(m'i:)" "(w'ID)"8 "(j'O@)" "(b'Est)"4 "(S'0)"8 "(0t)"4
+    "!check=69"1
+    "(h'It)|!check=70"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
+    "!check=71"2 "(f'aI)"8 "('3:)" "('V)" "(w'E)"
+    "!check=72"8 "(eI)"2 \skip8 \skip4
+    "!check=73"1
+    "(h'It)|!check=74"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
+    "!check=75"2 \skip8 "(w'aI)"8 "(d'oUnt)" "(j'u:)"
+    "(h'It)|!check=76"16 "(m'i:)" "(w'ID)"8 "(j'O@)" "(b'Est)"4 "(S'0)"8 "(0t)"4
+    "!check=77"1
+    "(h'It)|!check=78"8 "(m'i:)" "(w'ID)" "(j'O@)" "(b'Est)"4 "(S'0t)"
+    "!check=79"2 "(f'aI)"8 "('3:)" "('V)" "(w'E:eI)"
+    "!check=80"1
+    "!check=81"1
+    "!check=82"1
+    "!check=83"1
+    "!check=84"1
+    "!check=85"1
+    "!check=86"1
+    "!check=87"1
+    "!check=88"1
+    "!check=89"1
+    "!check=90"1
 }

@@ -1,242 +1,242 @@
 vocalsAKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
-    ">@"2
+    ">@|!check=1"2
 \mymark "Intro" #2
-    "@|!mark=Intro"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
+    "@|!mark=Intro|!check=2"2 "@"
+    "@|!check=3"2 "@"
+    "@|!check=4"2 "@"
+    "@|!check=5"2 "@"
+    "@|!check=6"2 "@"
+    "@|!check=7"2 "@"
 \mymark "Verse 1A" #8
-    "@|!mark=Verse 1A"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
+    "@|!mark=Verse 1A|!check=8"2 "@"
+    "@|!check=9"2 "@"
+    "@|!check=10"2 "@"
+    "@|!check=11"2 "@"
+    "@|!check=12"2 "@"
+    "@|!check=13"2 "@"
+    "@|!check=14"2 "@"
+    "@|!check=15"2 "@"
 \mymark "Verse 1B" #16
-    "@|!mark=Verse 1B"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
+    "@|!mark=Verse 1B|!check=16"2 "@"
+    "@|!check=17"2 "@"
+    "@|!check=18"2 "@"
+    "@|!check=19"2 "@"
+    "@|!check=20"2 "@"
+    "@|!check=21"2 "@"
+    "@|!check=22"2 "@"
+    "@|!check=23"2 "@"
 \mymark "Pre-Chorus 1" #24
-    "@|!mark=Pre-Chorus 1"2 "@"4
-    \skip4 "@|!bg=4"2
-    "@|!bg=3"2 "@|!bg=2"4
-    \skip4 "@|!bg=1"2
-    "Ge|!bg="8 "-ki" "-retsu!"8. "-"16 "Sa"8 "-ku" "-retsu!"8. "-"16
-    "Kyou"8 "-retsu!" "Ha"16 "-re"8 "-tsu!"8. "Ba"8 "-ku"4
-    "-retsu!"4. ">MO"2 "-"8
+    "@|!mark=Pre-Chorus 1|!check=24"2 "@"4
+    "!check=25"4 "@|!bg=4"2
+    "@|!check=26|!bg=3"2 "@|!bg=2"4
+    "!check=27"4 "@|!bg=1"2
+    "Ge|!check=28|!bg="8 "-ki" "-retsu!"8. \skip16 "Sa"8 "-ku" "-retsu!"8. \skip16
+    "Kyou|!check=29"8 "-retsu!" "Ha"16 "-re"8 "-tsu!"8. "Ba"8 "-ku"4
+    "-retsu!|!check=30"4. ">MO"2 \skip8
 \mymark "Chorus 1A" #31
-    "-RETSU!|!mark=Chorus 1A"4. \skip2 \skip8
-    ">@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
+    "-RETSU!|!mark=Chorus 1A|!check=31"4. \skip2 \skip8
+    ">@|!check=32"2 "@"
+    "@|!check=33"2 "@"
+    "@|!check=34"2 "@"
+    "@|!check=35"2 "@"
+    "@|!check=36"2 "@"
+    "@|!check=37"2 "@"
+    "@|!check=38"2 "@"
+    "@|!check=39"2 "@"
+    "@|!check=40"2 "@"
+    "@|!check=41"2 "@"
+    "@|!check=42"2 "@"
+    "@|!check=43"2 "@"
+    "@|!check=44"2 "@"
+    "@|!check=45"2 "@"
+    "@|!check=46"2 "@"
 \mymark "Chorus 1B" #47
-    "@|!mark=Chorus 1B"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
+    "@|!mark=Chorus 1B|!check=47"2 "@"
+    "@|!check=48"2 "@"
+    "@|!check=49"2 "@"
+    "@|!check=50"2 "@"
+    "@|!check=51"2 "@"
+    "@|!check=52"2 "@"
+    "@|!check=53"2 "@"
+    "@|!check=54"2 "@"
+    "@|!check=55"2 "@"
+    "@|!check=56"2 "@"
+    "@|!check=57"2 "@"
+    "@|!check=58"2 "@"
+    "@|!check=59"2 "@"
+    "@|!check=60"2 "@"
+    "@|!check=61"2 "@"
+    "@|!check=62"2 "@"
+    "@|!check=63"2 "@"
 \mymark "Interlude" #64
-    "@|!mark=Interlude"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
+    "@|!mark=Interlude|!check=64"2 "@"
+    "@|!check=65"2 "@"
+    "@|!check=66"2 "@"
+    "@|!check=67"2 "@"
+    "@|!check=68"2 "@"
+    "@|!check=69"2 "@"
+    "@|!check=70"2 "@"
+    "@|!check=71"2 "@"
+    "@|!check=72"2 "@"
 \mymark "Verse 2A" #73
-    "@|!mark=Verse 2A"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
+    "@|!mark=Verse 2A|!check=73"2 "@"
+    "@|!check=74"2 "@"
+    "@|!check=75"2 "@"
+    "@|!check=76"2 "@"
+    "@|!check=77"2 "@"
+    "@|!check=78"2 "@"
+    "@|!check=79"2 "@"
+    "@|!check=80"2 "@"
 \mymark "Verse 2B" #81
-    "@|!mark=Verse 2B"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
+    "@|!mark=Verse 2B|!check=81"2 "@"
+    "@|!check=82"2 "@"
+    "@|!check=83"2 "@"
+    "@|!check=84"2 "@"
+    "@|!check=85"2 "@"
+    "@|!check=86"2 "@"
+    "@|!check=87"2 "@"
+    "@|!check=88"2 "@"
 \mymark "Pre-Chorus 2" #89
-    "@|!mark=Pre-Chorus 2"2 "@"4
-    \skip4 "@|!bg=4"2
-    "@|!bg=3"2 "@|!bg=2"4
-    \skip4 "@|!bg=1"2
-    "Ge|!bg="8 "-ki" "-retsu!"8. "-"16 "Sa"8 "-ku" "-retsu!"8. "-"16
-    "Kyou"8 "-retsu!" "Ha"16 "-re"8 "-tsu!"8. "Ba"8 "-ku"4
-    "-retsu!"4. ">MO"2 "-"8
+    "@|!mark=Pre-Chorus 2|!check=89"2 "@"4
+    "!check=90"4 "@|!bg=4"2
+    "@|!check=91|!bg=3"2 "@|!bg=2"4
+    "!check=92"4 "@|!bg=1"2
+    "Ge|!check=93|!bg="8 "-ki" "-retsu!"8. \skip16 "Sa"8 "-ku" "-retsu!"8. \skip16
+    "Kyou|!check=94"8 "-retsu!" "Ha"16 "-re"8 "-tsu!"8. "Ba"8 "-ku"4
+    "-retsu!|!check=95"4. ">MO"2 \skip8
 \mymark "Chorus 2A" #96
-    "-RETSU!|!mark=Chorus 2A"4. \skip2 \skip8
-    "-"4. "@@"32 "-"2 \skip16.
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
+    "-RETSU!|!mark=Chorus 2A|!check=96"4. \skip2 \skip8
+    "!check=97"4. "@@"32 \skip2 \skip16.
+    "!check=98"1
+    "!check=99"1
+    "!check=100"1
+    "!check=101"1
+    "!check=102"1
+    "!check=103"1
+    "!check=104"1
+    "!check=105"1
+    "!check=106"1
+    "!check=107"1
+    "!check=108"1
+    "!check=109"1
+    "!check=110"1
+    "!check=111"1
 \mymark "Chorus 2B" #112
-    "!mark=Chorus 2B|-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
+    "!mark=Chorus 2B|!check=112|-"1
+    "!check=113"1
+    "!check=114"1
+    "!check=115"1
+    "!check=116"1
+    "!check=117"1
+    "!check=118"1
+    "!check=119"1
+    "!check=120"1
+    "!check=121"1
+    "!check=122"1
+    "!check=123"1
+    "!check=124"1
+    "!check=125"1
+    "!check=126"1
+    "!check=127"1
+    "!check=128"1
+    "!check=129"1
 \mymark "Bridge" #130
-    "!mark=Bridge|-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
+    "!mark=Bridge|!check=130|-"1
+    "!check=131"1
+    "!check=132"1
+    "!check=133"1
+    "!check=134"1
+    "!check=135"1
+    "!check=136"1
+    "!check=137"1
+    "!check=138"1
+    "!check=139"1
 \mymark "Guitar Solo" #140
-    "!mark=Guitar Solo|-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
+    "!mark=Guitar Solo|!check=140|-"1
+    "!check=141"1
+    "!check=142"1
+    "!check=143"1
+    "!check=144"1
+    "!check=145"1
+    "!check=146"1
+    "!check=147"1
+    "!check=148"1
+    "!check=149"1
+    "!check=150"1
+    "!check=151"1
+    "!check=152"1
+    "!check=153"1
+    "!check=154"1
+    "!check=155"1
 \mymark "Post Solo/Pre-Chorus 3" #156
-    "!mark=Post Solo/Pre-Chorus 3|-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
+    "!mark=Post Solo/Pre-Chorus 3|!check=156|-"1
+    "!check=157"1
+    "!check=158"1
+    "!check=159"1
+    "!check=160"1
+    "!check=161"1
+    "!check=162"1
+    "!check=163"1
+    "!check=164"1
+    "!check=165"1
 \mymark "Chorus 3A" #166
-    "!mark=Chorus 3A|-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
+    "!mark=Chorus 3A|!check=166|-"1
+    "!check=167"1
+    "!check=168"1
+    "!check=169"1
+    "!check=170"1
+    "!check=171"1
+    "!check=172"1
+    "!check=173"1
+    "!check=174"1
+    "!check=175"1
+    "!check=176"1
+    "!check=177"1
+    "!check=178"1
+    "!check=179"1
+    "!check=180"1
+    "!check=181"1
 \mymark "Chorus 3B" #182
-    "!mark=Chorus 3B|-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
+    "!mark=Chorus 3B|!check=182|-"1
+    "!check=183"1
+    "!check=184"1
+    "!check=185"1
+    "!check=186"1
+    "!check=187"1
+    "!check=188"1
+    "!check=189"1
+    "!check=190"1
+    "!check=191"1
+    "!check=192"1
+    "!check=193"1
+    "!check=194"1
+    "!check=195"1
+    "!check=196"1
+    "!check=197"1
+    "!check=198"1
+    "!check=199"1
 \mymark "Ending" #200
-    "!mark=Ending|-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
+    "!mark=Ending|!check=200|-"1
+    "!check=201"1
+    "!check=202"1
+    "!check=203"1
+    "!check=204"1
+    "!check=205"1
+    "!check=206"1
+    "!check=207"1
+    "!check=208"1
+    "!check=209"1
+    "!check=210"1
+    "!check=211"1
+    "!check=212"1
+    "!check=213"1
+    "!check=214"1
+    "!check=215"1
+    "!check=216"1
+    "!check=217"1
+    "!check=218"1
+    "!check=219"1
+    "!check=220"1
+    "!check=221"1
 }

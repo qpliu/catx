@@ -1,10 +1,10 @@
 vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Intro" #1
-    "!mark=Intro|-"4 ">@"2 "@"4
-    \skip4 "@"2 "@"4
-    \skip4 "@"2 "@"4
-    \skip4 "@"2 "@"4
+    "!mark=Intro|!check=1|-"4 ">@"2 "@"4
+    "!check=2"4 "@"2 "@"4
+    "!check=3"4 "@"2 "@"4
+    "!check=4"4 "@"2 "@"4
     \repeat volta 4 {
         \skip4 "@"2 "@"4
     } \alternative { {

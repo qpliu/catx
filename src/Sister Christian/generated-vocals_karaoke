@@ -1,126 +1,126 @@
 vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Intro" #1
-    "!mark=Intro|-"4 ">@"2 "@"4
-    \skip4 "@"2 "@"4
-    \skip4 "@"2 "@"4
-    \skip4 "@"2 "@"4
-    \skip4 "@|!bg=4"2 "@|!bg=3"4
-    \skip4 "@|!bg=2"2 "@|!bg=1"4
+    "!mark=Intro|!check=1|-"4 ">@"2 "@"4
+    "!check=2"4 "@"2 "@"4
+    "!check=3"4 "@"2 "@"4
+    "!check=4"4 "@"2 "@"4
+    "!check=5"4 "@|!bg=4"2 "@|!bg=3"4
+    "!check=6"4 "@|!bg=2"2 "@|!bg=1"4
 \mymark "Verse 1" #7
-    "!mark=Verse 1|-"4 "Sis|!bg="8 "-ter" "Chris" "-tian," "oh" "the"
-    "time"4 "has"8 "come."4. "-"4
-    "-"4 ">And"8 "you" "know" "that" "you're" "the"
-    "on"4 "-ly"8 "one"4. "to"8 "say,"
-    \skip4. "-"4. ">O"8 "-K."
-    \skip8 "-"2. \skip8
+    "!mark=Verse 1|!check=7|-"4 "Sis|!bg="8 "-ter" "Chris" "-tian," "oh" "the"
+    "time|!check=8"4 "has"8 "come."4. \skip4
+    "!check=9"4 ">And"8 "you" "know" "that" "you're" "the"
+    "on|!check=10"4 "-ly"8 "one"4. "to"8 "say,"
+    "!check=11"4. \skip4. ">O"8 "-K."
+    "!check=12"8 \skip2. \skip8
 \mymark "Verse 2" #13
-    "!mark=Verse 2|-"4 ">Where"8 "you" "go" "-ing?" "What" "you"
-    "look"8 "-ing"4 "for?"4. "-"4
-    "-"8 ">You" "know" "those" "boys" "don't" "want" "to"
-    "play"4 "no" "more" "with"8 "you."
-    \skip4. "-"4. ">It's"8 "true."
-    \skip8 "-"2. ">@"8
+    "!mark=Verse 2|!check=13|-"4 ">Where"8 "you" "go" "-ing?" "What" "you"
+    "look|!check=14"8 "-ing"4 "for?"4. \skip4
+    "!check=15"8 ">You" "know" "those" "boys" "don't" "want" "to"
+    "play|!check=16"4 "no" "more" "with"8 "you."
+    "!check=17"4. \skip4. ">It's"8 "true."
+    "!check=18"8 \skip2. ">@"8
 \mymark "Interlude" #19
-    "!mark=Interlude|-"4. "@"2 "@"8
-    \skip4. "@"2 "@|!bg=4"8
-    \skip4. "@|!bg=3"2 "@|!bg=2"8
-    \skip4. "@|!bg=1"2 "You're|!bg="8
+    "!mark=Interlude|!check=19|-"4. "@"2 "@"8
+    "!check=20"4. "@"2 "@|!bg=4"8
+    "!check=21"4. "@|!bg=3"2 "@|!bg=2"8
+    "!check=22"4. "@|!bg=1"2 "You're|!bg="8
 \mymark "Chorus 1" #23
-    "mo|!mark=Chorus 1"8 "-tor" "-ing!"4 \skip2
-    ">What's"4 "your" "price" "for"8 "flight?"
-    \skip4 "-"2 \skip8 ">In"8
-    "find"4 "-ing" "mis" "-ter"8 "right?"
-    \skip4 "-"2 \skip8 ">You'll"8
-    "be"4 "al" "-right" "to|!bg=img=../night.png"8 "-night."
-    "!bg="4 "-"2.
-    "-"1
+    "mo|!mark=Chorus 1|!check=23"8 "-tor" "-ing!"4 \skip2
+    ">What's|!check=24"4 "your" "price" "for"8 "flight?"
+    "!check=25"4 \skip2 \skip8 ">In"8
+    "find|!check=26"4 "-ing" "mis" "-ter"8 "right?"
+    "!check=27"4 \skip2 \skip8 ">You'll"8
+    "be|!check=28"4 "al" "-right" "to|!bg=img=../night.png"8 "-night."
+    "!check=29|!bg="4 \skip2.
+    "!check=30"1
 \mymark "Verse 3" #31
-    "!mark=Verse 3|-"4 ">Babe"8 "you" "know" "you're" "grow" "-ing"
-    "up"8 "so"4 "fast."4. "-"4
-    "-"8 ">And" "ma" "-ma's" "wor" "-ry" "-ing" "that"
-    "you"4 "won't" "last" "to"8 "say."
-    \skip4. "-"4. ">Let's"8 "play."
-    \skip8 "-"2. \skip8
+    "!mark=Verse 3|!check=31|-"4 ">Babe"8 "you" "know" "you're" "grow" "-ing"
+    "up|!check=32"8 "so"4 "fast."4. \skip4
+    "!check=33"8 ">And" "ma" "-ma's" "wor" "-ry" "-ing" "that"
+    "you|!check=34"4 "won't" "last" "to"8 "say."
+    "!check=35"4. \skip4. ">Let's"8 "play."
+    "!check=36"8 \skip2. \skip8
 \mymark "Verse 4" #37
-    "!mark=Verse 4|-"4 ">Sis"8 "-ter" "Chris" "-tian" "there's" "so"
-    "much"4 "in"8 "life."4. "-"4
-    "-"4 ">Don't"8 "you" "give" "it" "up" "be"
-    "-fore"4 "your" "time" "is"8 "due."
-    \skip4. "-"4. ">It's"8 "true."
-    \skip8 "-"2. \skip8
-    "-"2. ">It's"8 "true!"
-    \skip1
-    \skip1
-    \skip2 "-"2
+    "!mark=Verse 4|!check=37|-"4 ">Sis"8 "-ter" "Chris" "-tian" "there's" "so"
+    "much|!check=38"4 "in"8 "life."4. \skip4
+    "!check=39"4 ">Don't"8 "you" "give" "it" "up" "be"
+    "-fore|!check=40"4 "your" "time" "is"8 "due."
+    "!check=41"4. \skip4. ">It's"8 "true."
+    "!check=42"8 \skip2. \skip8
+    "!check=43"2. ">It's"8 "true!"
+    "!check=44"1
+    "!check=45"1
+    "!check=46"2 \skip2
 \mymark "Chorus 2" #47
-    ">Mo|!mark=Chorus 2"8 "-tor" "-ing!"4 \skip2
-    ">What's"4 "your" "price" "for"8 "flight?"
-    \skip4 "-"2 \skip8 ">You've"8
-    "got"4 "him" "in" "your"8. "sight."16
-    \skip4 "-"2 \skip8 ">And"8
-    "driv"4 "-ing" "through" "the"8 "night.|!bg=img=../night.png"
-    \skip8 "!bg="8 \skip8 "-"2 \skip8
-    "-"1
+    ">Mo|!mark=Chorus 2|!check=47"8 "-tor" "-ing!"4 \skip2
+    ">What's|!check=48"4 "your" "price" "for"8 "flight?"
+    "!check=49"4 \skip2 \skip8 ">You've"8
+    "got|!check=50"4 "him" "in" "your"8. "sight."16
+    "!check=51"4 \skip2 \skip8 ">And"8
+    "driv|!check=52"4 "-ing" "through" "the"8 "night.|!bg=img=../night.png"
+    "!check=53"8 "!bg=" \skip8 \skip2 \skip8
+    "!check=54"1
 \mymark "Chorus 3" #55
-    ">Mo|!mark=Chorus 3"8 "-tor" "-ing!"4 \skip2
-    ">What's"4 "your" "price" "for"8 "flight?"
-    \skip4 "-"2 \skip8 ">In"8
-    "find"4 "-ing" "mis" "-ter"8 "right?"
-    \skip4 "-"2 \skip8 ">You'll"8
-    "be"4 "al" "-right" "to|!bg=img=../night.png"8 "-night."
-    "!bg="4 "-"2.
+    ">Mo|!mark=Chorus 3|!check=55"8 "-tor" "-ing!"4 \skip2
+    ">What's|!check=56"4 "your" "price" "for"8 "flight?"
+    "!check=57"4 \skip2 \skip8 ">In"8
+    "find|!check=58"4 "-ing" "mis" "-ter"8 "right?"
+    "!check=59"4 \skip2 \skip8 ">You'll"8
+    "be|!check=60"4 "al" "-right" "to|!bg=img=../night.png"8 "-night."
+    "!check=61|!bg="4 \skip2.
 \mymark "Solo" #62
-    ">@|!mark=Solo"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@|!bg=4"2 "@|!bg=3"
-    "@|!bg=2"2 "@|!bg=1"
+    ">@|!mark=Solo|!check=62"2 "@"
+    "@|!check=63"2 "@"
+    "@|!check=64"2 "@"
+    "@|!check=65"2 "@"
+    "@|!check=66"2 "@"
+    "@|!check=67"2 "@"
+    "@|!check=68"2 "@"
+    "@|!check=69"2 "@"
+    "@|!check=70"2 "@"
+    "@|!check=71"2 "@"
+    "@|!check=72"2 "@"
+    "@|!check=73"2 "@"
+    "@|!check=74|!bg=4"2 "@|!bg=3"
+    "@|!check=75|!bg=2"2 "@|!bg=1"
 \mymark "Chorus 4" #76
-    "Mo|!mark=Chorus 4|!bg="8 "-tor" "-ing!"4 \skip2
-    ">What's"4 "your" "price" "for"8 "flight?"
-    \skip4 "-"2 \skip8 ">In"8
-    "find"4 "-ing" "mis" "-ter"8 "right?"
-    \skip4 "-"2 \skip8 ">You'll"8
-    "be"4 "al" "-right" "to|!bg=img=../night.png"8 "-night."
-    "!bg="4 "-"2.
-    "-"2. \skip8 ">You're"8
+    "Mo|!mark=Chorus 4|!check=76|!bg="8 "-tor" "-ing!"4 \skip2
+    ">What's|!check=77"4 "your" "price" "for"8 "flight?"
+    "!check=78"4 \skip2 \skip8 ">In"8
+    "find|!check=79"4 "-ing" "mis" "-ter"8 "right?"
+    "!check=80"4 \skip2 \skip8 ">You'll"8
+    "be|!check=81"4 "al" "-right" "to|!bg=img=../night.png"8 "-night."
+    "!check=82|!bg="4 \skip2.
+    "!check=83"2. \skip8 ">You're"8
 \mymark "Chorus 5" #84
-    "mo|!mark=Chorus 5"8 "-tor" "-ing!"4 \skip2
-    ">What's"4 "your" "price" "for"8 "flight?"
-    \skip4 "-"2 \skip8 ">In"8
-    "find"4 "-ing" "mis" "-ter"8 "right?"
-    \skip4 "-"2 \skip8 ">You'll"8
-    "be"4 "al" "-right" "-"
-    "-"8 "to|!bg=img=../night.png" "-night." "!bg="8. \skip16 "-"4.
-    "-"4 ">@"2 "@"4
+    "mo|!mark=Chorus 5|!check=84"8 "-tor" "-ing!"4 \skip2
+    ">What's|!check=85"4 "your" "price" "for"8 "flight?"
+    "!check=86"4 \skip2 \skip8 ">In"8
+    "find|!check=87"4 "-ing" "mis" "-ter"8 "right?"
+    "!check=88"4 \skip2 \skip8 ">You'll"8
+    "be|!check=89"4 "al" "-right" \skip4
+    "!check=90"8 "to|!bg=img=../night.png" "-night." "!bg="8. \skip16 \skip4.
+    "!check=91"4 ">@"2 "@"4
 \mymark "Break Down" #92
-    "!mark=Break Down|-"4 "@"2 "@"4
-    \skip4 "@"2 "@"4
-    \skip4 "@|!bg=4"2 "@|!bg=3"4
-    \skip4 "@|!bg=2"2 "@|!bg=1"4
+    "!mark=Break Down|!check=92|-"4 "@"2 "@"4
+    "!check=93"4 "@"2 "@"4
+    "!check=94"4 "@|!bg=4"2 "@|!bg=3"4
+    "!check=95"4 "@|!bg=2"2 "@|!bg=1"4
 \mymark "Outro" #96
-    "!mark=Outro|-"4 "Sis|!bg="8 "-ter" "Chris" "-tian," "oh" "the"
-    "time"4 "has"8 "come."4. "-"4
-    "-"4 ">And"8 "you" "know" "that" "you're" "the"
-    "on"4 "-ly"8 "one"4. "to"8 "say."
-    \skip4. "-"2 \skip8
-    "-"8 ">O" "-K."4 "-"2
+    "!mark=Outro|!check=96|-"4 "Sis|!bg="8 "-ter" "Chris" "-tian," "oh" "the"
+    "time|!check=97"4 "has"8 "come."4. \skip4
+    "!check=98"4 ">And"8 "you" "know" "that" "you're" "the"
+    "on|!check=99"4 "-ly"8 "one"4. "to"8 "say."
+    "!check=100"4. \skip2 \skip8
+    "!check=101"8 ">O" "-K."4 \skip2
 \mymark "Last Bit" #102
-    "!mark=Last Bit|-"2 \skip8 ">But"16 "you're" "mo"8 "-tor"
-    "-ing."4 "-"2 \skip8 ">Yeah!|!bg=img=../yeah.png"8
-    \skip8 "!bg="4 \skip2 \skip8
-    \skip2 ">Mo"4 "-tor"
-    "-ing."4. "-"2 \skip8
-    "-"4. "@@"32 "-"2. \skip16.
-    "-"1
+    "!mark=Last Bit|!check=102|-"2 \skip8 ">But"16 "you're" "mo"8 "-tor"
+    "-ing.|!check=103"4 \skip2 \skip8 ">Yeah!|!bg=img=../yeah.png"8
+    "!check=104"8 "!bg="4 \skip2 \skip8
+    "!check=105"2 ">Mo"4 "-tor"
+    "-ing.|!check=106"4. \skip2 \skip8
+    "!check=107"4. "@@"32 \skip2. \skip16.
+    "!check=108"1
 }

@@ -54,35 +54,49 @@ final class MergeMidi{
 	    return Long.compare(time,e.time)*2+Integer.compare(sort,e.sort);
 	}
     }
-    private String timeToStringAndPrintMap(PrintStream ps,long time){
+    private long measureToTime(int measure){
+	Collections.sort(metaEvents);
+	int time_n=4;
+	int time_d=4;
+	long time=0;
+	int i=0;
+	while (measure>1){
+	    long t=time+time_n*4*DIVISION/time_d;
+	    if (i==metaEvents.size() || metaEvents.get(i).time>=t){
+		time = t;
+		--measure;
+	    }else{
+		MetaEvent me=metaEvents.get(i++);
+		if (me instanceof TimeSignatureEvent){
+		    if (me.time!=time)
+			throw new RuntimeException("Time Signature Event in the middle of a measure");
+		    time_n = ((TimeSignatureEvent)me).getNumerator();
+		    time_d = 1<<((TimeSignatureEvent)me).getLogDenominator();
+		}
+	    }
+	}
+	return time;
+    }
+    private String timeToString(long time){
+	if (time==Long.MAX_VALUE)
+	    return "Long.MAX_VALUE";
 	int numerator=1;
 	int denominator=1;
-	int microsecondsPerQuarterNote=500000;
-	long seconds=0;
 	long measure=0;
 	Collections.sort(metaEvents);
 	int i=0;
-	int imeasure=0;
 	for (long lastTime=0; lastTime<time;){
-	    if (ps!=null && measure>=imeasure*4*DIVISION*numerator)
-		ps.println(String.format("measure=%d seconds=%.3f divisions=%d",++imeasure,1e-6/DIVISION*seconds,lastTime));
-	    long t=ps==null?time:lastTime+1;
-	    if (i<metaEvents.size()){
-		MetaEvent me=metaEvents.get(i);
-		if (me.time<t)
-		    t = me.time;
-	    }
+	    long t=time;
+	    if (i<metaEvents.size())
+		t = Math.min(t,metaEvents.get(i).time);
 	    long delta=t-lastTime;
 	    lastTime = t;
-	    seconds += delta*microsecondsPerQuarterNote;
 	    measure += delta*denominator;
 	    if (i<metaEvents.size()){
 		MetaEvent me=metaEvents.get(i);
 		if (me.time==t){
 		    i++;
-		    if (me instanceof TempoEvent){
-			microsecondsPerQuarterNote = ((TempoEvent)me).getMicrosecondsPerQuarterNote();
-		    }else if (me instanceof TimeSignatureEvent){
+		    if (me instanceof TimeSignatureEvent){
 			int n=((TimeSignatureEvent)me).getNumerator();
 			int nn=numerator*n/BigInteger.valueOf(numerator).gcd(BigInteger.valueOf(n)).intValue();
 			measure *= nn/numerator;
@@ -92,19 +106,7 @@ final class MergeMidi{
 		}
 	    }
 	}
-	StringBuilder sb=new StringBuilder();
-	sb.append("divisions=").append(time);
-	sb.append(" seconds=").append(1e-6/DIVISION*seconds);
-	sb.append(" measure=").append(1+(double)measure/(4*DIVISION*numerator));
-	return sb.toString();
-    }
-    private void printMeasureToTime(PrintStream ps,long maxTime){
-	timeToStringAndPrintMap(ps,maxTime);
-    }
-    private String timeToString(long time){
-	if (time==Long.MAX_VALUE)
-	    return "Long.MAX_VALUE";
-	return timeToStringAndPrintMap(null,time);
+	return String.valueOf(1+(double)measure/(4*DIVISION*numerator));
     }
     private static double note2Midi(String s)throws IOException{
 	try{
@@ -350,12 +352,17 @@ final class MergeMidi{
 		if (fudgeLyricsCount==0)
 		    fudgeLyrics = fudgeLyricsMap.getOrDefault(outTrackName,DEFAULT_FUDGE_LYRICS);
 		long t=time-fudgeLyrics*fudgeLyricsCount;
+		StringBuilder sb=new StringBuilder();
 		for (StringTokenizer st=new StringTokenizer(new String(data),"|"); st.hasMoreTokens();){
 		    String l=st.nextToken();
-		    if (l.startsWith("!mark=") || l.startsWith("!check="))
-			System.err.println(l+" count="+fudgeLyricsCount+" fudgeLyrics="+fudgeLyrics+" "+timeToStringAndPrintMap(null,t)+" track="+outTrackName);
+		    if (l.startsWith("!check=")){
+			long check=measureToTime(Integer.parseInt(l.substring(7)));
+			if (check!=t)
+			    System.err.println("% MERGEMIDI --fudge-lyrics "+outTrackName+"="+Math.round(fudgeLyrics+(double)(t-check)/fudgeLyricsCount));
+		    }else
+			sb.append(sb.length()==0?"":"|").append(l);
 		}
-		metaEvents.add(new LyricEvent(t,id,outTrackIndex,what,data));
+		metaEvents.add(new LyricEvent(t,id,outTrackIndex,what,sb.toString().getBytes()));
 		fudgeLyricsCount++;
 	    }else if (what==6){
 		System.err.println("marker="+new String(data));
@@ -750,9 +757,6 @@ final class MergeMidi{
 		for (TextEvent te:list)
 		    if (te.what.equals("slide"))
 			finishSlide(te);
-	    try (PrintStream ps=new PrintStream(new FileOutputStream("measureToTime"))){
-		printMeasureToTime(ps,maxTime[0]);
-	    }
 	    System.err.println("WorstAge="+worstAge);
 	    for (TextEvent te:unused)
 		System.err.println("Unused "+te);

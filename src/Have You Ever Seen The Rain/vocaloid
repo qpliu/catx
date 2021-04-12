@@ -17,7 +17,7 @@ vocaloidLyrics = \new Lyrics \lyricmode {
     "('Ev)"8 "('3:)"4. "(s'i:n)" "(D'@)"8 "(r'eIi:i:n)"1
     "."2 "(k'V)"8 "(m'In)"4 "(d'aUn)"4. "('0n)"8 "('@)" "(s'V:)"4 "(ni:)"8 "(d'eI)"2 \skip8 "."2
     "."1
-    "!mark=Verse"4 "(j'Es)"8 "(t'3:)" "(d'eI)"4 "('and)"8 "(d'eIz)"4 "(b'i:)"8 "(f'o@)"4 "."2
+    "!mark=Verse|!check=36"4 "(j'Es)"8 "(t'3:)" "(d'eI)"4 "('and)"8 "(d'eIz)"4 "(b'i:)"8 "(f'o@)"4 "."2
     "."4 "(s'Vn)"8 "('Iz)" "(k'oUld)"4 "('and)"8 "(r'eIn)"4 "('Iz)"8 "(h'A@d)"4 "."4 "('aI)"
     "(n'oU)"4 "."2.
     "(b'i:n)"8 "(D'at)"4 "(w'eI)" "(f'O@)" "('O:l)" "(m'aI)" "(t'aIm)" "."4.

@@ -5,36 +5,6 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-!mark=Intro count=0 fudgeLyrics=12 divisions=0 seconds=0.0 measure=1.0 track=midiKaraoke
-!mark=Verse 1 count=13 fudgeLyrics=12 divisions=9216 seconds=16.744176 measure=7.0 track=midiKaraoke
-!mark=Verse 2 count=40 fudgeLyrics=12 divisions=18432 seconds=33.488352 measure=13.0 track=midiKaraoke
-!mark=Interlude count=69 fudgeLyrics=12 divisions=27648 seconds=49.851983999999995 measure=19.0 track=midiKaraoke
-!mark=Chorus 1 count=78 fudgeLyrics=12 divisions=33792 seconds=60.638495999999996 measure=23.0 track=midiKaraoke
-!mark=Verse 3 count=103 fudgeLyrics=12 divisions=46080 seconds=82.21152 measure=31.0 track=midiKaraoke
-!mark=Verse 4 count=131 fudgeLyrics=12 divisions=55296 seconds=98.39128799999999 measure=37.0 track=midiKaraoke
-!mark=Chorus 2 count=162 fudgeLyrics=12 divisions=70656 seconds=125.35756799999999 measure=47.0 track=midiKaraoke
-!mark=Chorus 3 count=187 fudgeLyrics=12 divisions=82944 seconds=146.930592 measure=55.0 track=midiKaraoke
-!mark=Solo count=211 fudgeLyrics=12 divisions=93696 seconds=165.806988 measure=62.0 track=midiKaraoke
-!mark=Chorus 4 count=239 fudgeLyrics=12 divisions=115200 seconds=203.55978 measure=76.0 track=midiKaraoke
-!mark=Chorus 5 count=265 fudgeLyrics=12 divisions=127488 seconds=225.13280399999996 measure=84.0 track=midiKaraoke
-!mark=Break Down count=294 fudgeLyrics=12 divisions=139776 seconds=246.70582799999997 measure=92.0 track=midiKaraoke
-!mark=Outro count=303 fudgeLyrics=12 divisions=145920 seconds=257.49233999999996 measure=96.0 track=midiKaraoke
-!mark=Last Bit count=331 fudgeLyrics=12 divisions=155136 seconds=274.04405999999994 measure=102.0 track=midiKaraoke
-!mark=Intro count=0 fudgeLyrics=12 divisions=0 seconds=0.0 measure=1.0 track=midiVocaloid
-!mark=Verse 1 count=6 fudgeLyrics=12 divisions=9216 seconds=16.744176 measure=7.0 track=midiVocaloid
-!mark=Verse 2 count=36 fudgeLyrics=12 divisions=18432 seconds=33.488352 measure=13.0 track=midiVocaloid
-!mark=Interlude count=69 fudgeLyrics=12 divisions=27648 seconds=49.851983999999995 measure=19.0 track=midiVocaloid
-!mark=Chorus 1 count=75 fudgeLyrics=12 divisions=33792 seconds=60.638495999999996 measure=23.0 track=midiVocaloid
-!mark=Verse 3 count=104 fudgeLyrics=12 divisions=46080 seconds=82.21152 measure=31.0 track=midiVocaloid
-!mark=Verse 4 count=136 fudgeLyrics=12 divisions=55296 seconds=98.39128799999999 measure=37.0 track=midiVocaloid
-!mark=Chorus 2 count=174 fudgeLyrics=12 divisions=70656 seconds=125.35756799999999 measure=47.0 track=midiVocaloid
-!mark=Chorus 3 count=203 fudgeLyrics=12 divisions=82944 seconds=146.930592 measure=55.0 track=midiVocaloid
-!mark=Solo count=231 fudgeLyrics=12 divisions=93696 seconds=165.806988 measure=62.0 track=midiVocaloid
-!mark=Chorus 4 count=245 fudgeLyrics=12 divisions=115200 seconds=203.55978 measure=76.0 track=midiVocaloid
-!mark=Chorus 5 count=276 fudgeLyrics=12 divisions=127488 seconds=225.13280399999996 measure=84.0 track=midiVocaloid
-!mark=Break Down count=308 fudgeLyrics=12 divisions=139776 seconds=246.70582799999997 measure=92.0 track=midiVocaloid
-!mark=Outro count=312 fudgeLyrics=12 divisions=145920 seconds=257.49233999999996 measure=96.0 track=midiVocaloid
-!mark=Last Bit count=344 fudgeLyrics=12 divisions=155136 seconds=274.04405999999994 measure=102.0 track=midiVocaloid
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
@@ -46,10 +16,10 @@ Track name: midiBass
 Track name: midiKaraoke
 Track name: midiVocaloid
 Track name: midiOne
-!mark=Intro|-!mark=Intro>@@.@@.@@.@@.@|!bg=4@|!bg=3.@|!bg=2@|!bg=1!mark=Verse 1|-!mark=Verse 1Sis|!bg=(s'Is)-ter(t'3:)Chris(kr'Is)-tian,(tS'Vn)oh('oU)the(D'@)time(t'aIm)has(h'az)come.(k'Vm)-.-.>And('and)you(j'u:)know(n'oU)that(D'at)you're(j'O@)the(D'@)on('oUn)-ly(l'i:)one(w'0n)to(t'u:)say,(s'E)(E)(eI)-.>O('oU)-K.(k'eI)-..!mark=Verse 2|-!mark=Verse 2>Where(w'e@)you(j'u:)go(g'oU)-ing?('IN)What(w'0t)you(j'u:)look(l'U)-ing(k'IN)for?(f'O@)-.-.>You(j'u:)know(n'oU)those(D'oUz)boys(b'OIz)don't(d'oUnt)want(w'0nt)to(t'u:)play(pl'eI)no(n'oU)more(m'o@)with(w'ID)you.(j'u:)(u:)(u:)-.>It's('Its)true.(tr'u:)(u:)(u:)-.>@.!mark=Interlude|-!mark=Interlude@@.@@|!bg=4.@|!bg=3@|!bg=2.@|!bg=1.You're|!bg=(j'O@)mo|!mark=Chorus 1(m'oU)|!mark=Chorus 1-tor(t'o@)-ing!(r'IN)>What's(w'0ts)your(j'O@)price(pr'aIs)for(f'O@)flight?(fl'aIt)-..>In('In)find(f'aIn)-ing(d'I)(IN)mis(m'Is)-ter(t'3:)right?(r'aIt)-..>You'll(j'u:l)be(b'i:)al('O:)(O:l)-right(r'aIt)to|!bg=img=../night.png(t'u:)-night.(n'00)!bg=(aIt)-.-.!mark=Verse 3|-!mark=Verse 3>Babe(b'eIb)you(j'u:)know(n'oU)you're(j'O@)grow(gr'oU)-ing('IN)up('Vp)so(s'oU)fast.(f'aast)-.-.>And('and)ma(m'A:)-ma's(m'A:z)wor(w'3:)-ry(r'i:)-ing('IN)that(D'at)you(j'u:)won't(w'oUnt)last(l'aast)to(t'u:)say.(s'E)(E)(eI)-.>Let's(l'Ets)play.(pl'E)(eI)-..!mark=Verse 4|-!mark=Verse 4>Sis(s'Is)-ter(t'3:)Chris(kr'Is)-tian(tS'Vn)there's(D'e@z)so(s'oU)much(m'VtS)in('In)life.(l'aIf)-.-.>Don't(d'oUnt)you(j'u:)give(g'Iv)it('It)up('Vp)be(b'i:)-fore(f'O@)your(j'O@)time(t'aIm)is('Iz)due.(dj'u:)(u:)(u:)-.>It's('Its)true.(tr'u:)(u:)(u:)-..-.>It's('Its)true!(tr'u:u:u:u:u:u:u:u:u:u:u:u:u:u:u:u:)(u:)(u:)-.>Mo|!mark=Chorus 2(m'oU)|!mark=Chorus 2-tor(t'o@)-ing!(r'IN)>What's(w'0ts)your(j'O@)price(pr'aIs)for(f'O@)flight?(fl'aIt)-..>You've(j'u:v)got(g'0t)him(h'I)(Im)in('In)your(j'O@)sight.(s'aIt)-..>And('and)driv(dr'aI)-ing(v'I)(IN)through(Tr'u:)the(D'@)night.|!bg=img=../night.png(n'00)!bg=(aIt).--.>Mo|!mark=Chorus 3(m'oU)|!mark=Chorus 3-tor(t'o@)-ing!(r'IN)>What's(w'0ts)your(j'O@)price(pr'aIs)for(f'O@)flight?(fl'aIt)-..>In('In)find(f'aInd)-ing(d'i)(IN)mis(m'Is)-ter(t'3:)right?(r'aIt)-..>You'll(j'u:l)be(b'i:)al('O:)(O:l)-right(r'aIt)to|!bg=img=../night.png(t'u:)-night.(n'00)!bg=(aIt)-.>@|!mark=Solo!mark=Solo@@.@@.@@.@@.@@.@@.@@.@@.@@.@@.@@.@@|!bg=4.@|!bg=3@|!bg=2.@|!bg=1Mo|!mark=Chorus 4|!bg=(m'oU)|!mark=Chorus 4-tor(t'o@)-ing!(r'IN)>What's(w'0ts)your(j'O@)price(pr'aIs)for(f'O@)flight?(fl'aIt)-..>In('In)find(f'aInd)-ing(d'i)(IN)mis(m'Is)-ter(t'3:)right?(r'aIt)-..>You'll(j'u:l)be(b'i:)al('O:)(O:l)-right(r'aIt)to|!bg=img=../night.png(t'u:)-night.(n'00)!bg=(aIt)-.-..>You're(j'O@)mo|!mark=Chorus 5(m'oU)|!mark=Chorus 5-tor(t'o@)-ing!(r'IN)>What's(w'0ts)your(j'O@)price(pr'aIs)for(f'O@)flight?(fl'aIt)-..>In('In)find(f'aInd)-ing(d'i)(IN)mis(m'Is)-ter(t'3:)right?(r'aIt)-..>You'll(j'u:l)be(b'i:)al('O:)(O:l)-right(r'aIt)-.-.to|!bg=img=../night.png(t'u:)-night.(n'00)!bg=(aIt).-.-.>@@!mark=Break Down|-!mark=Break Down@@.@@.@|!bg=4@|!bg=3.@|!bg=2@|!bg=1!mark=Outro|-!mark=OutroSis|!bg=(s'Is)-ter(t'3:)Chris(kr'Is)-tian,(tS'Vn)oh('oU)the(D'@)time(t'aIm)has(h'az)come.(k'Vm)-.-.>And('and)you(j'u:)know(n'oU)that(D'at)you're(j'O@)the(D'@)on('oUn)-ly(l'i:)one(w'0n)to(t'u:)say.(s'E)(E)(eI)-..-.>O('oU)-K.(k'E)(eI)-.!mark=Last Bit|-!mark=Last Bit>But(b'Vt)you're(j'O@)mo(m'oU)-tor(t'o@)-ing.(r'I)(I)(IN)-..>Yeah!|!bg=img=../yeah.png(j'E:E:E:)!bg=(E)(E:E:E:Eh)>Mo(m'oU)-tor(t'o@)-ing.(r'I)(IN)-..-.@@-.-.Playing time: ~300 seconds
+!mark=Intro|-!mark=Intro>@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!mark=Verse 1|-!mark=Verse 1Sis|!bg=(s'Is)-ter(t'3:)Chris(kr'Is)-tian,(tS'Vn)oh('oU)the(D'@)time(t'aIm)has(h'az)come.(k'Vm)>And('and)you(j'u:)know(n'oU)that(D'at)you're(j'O@)the(D'@)on('oUn)-ly(l'i:)one(w'0n)to(t'u:)say,(s'E)(E)(eI)>O('oU)-K.(k'eI)!mark=Verse 2|-!mark=Verse 2>Where(w'e@)you(j'u:)go(g'oU)-ing?('IN)What(w'0t)you(j'u:)look(l'U)-ing(k'IN)for?(f'O@)>You(j'u:)know(n'oU)those(D'oUz)boys(b'OIz)don't(d'oUnt)want(w'0nt)to(t'u:)play(pl'eI)no(n'oU)more(m'o@)with(w'ID)you.(j'u:)(u:)(u:)>It's('Its)true.(tr'u:)(u:)(u:)>@!mark=Interlude|-!mark=Interlude@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1You're|!bg=(j'O@)mo|!mark=Chorus 1(m'oU)|!mark=Chorus 1-tor(t'o@)-ing!(r'IN)>What's(w'0ts)your(j'O@)price(pr'aIs)for(f'O@)flight?(fl'aIt)>In('In)find(f'aIn)-ing(d'I)(IN)mis(m'Is)-ter(t'3:)right?(r'aIt)>You'll(j'u:l)be(b'i:)al('O:)(O:l)-right(r'aIt)to|!bg=img=../night.png(t'u:)-night.(n'00)!bg=(aIt)!mark=Verse 3|-!mark=Verse 3>Babe(b'eIb)you(j'u:)know(n'oU)you're(j'O@)grow(gr'oU)-ing('IN)up('Vp)so(s'oU)fast.(f'aast)>And('and)ma(m'A:)-ma's(m'A:z)wor(w'3:)-ry(r'i:)-ing('IN)that(D'at)you(j'u:)won't(w'oUnt)last(l'aast)to(t'u:)say.(s'E)(E)(eI)>Let's(l'Ets)play.(pl'E)(eI)!mark=Verse 4|-!mark=Verse 4>Sis(s'Is)-ter(t'3:)Chris(kr'Is)-tian(tS'Vn)there's(D'e@z)so(s'oU)much(m'VtS)in('In)life.(l'aIf)>Don't(d'oUnt)you(j'u:)give(g'Iv)it('It)up('Vp)be(b'i:)-fore(f'O@)your(j'O@)time(t'aIm)is('Iz)due.(dj'u:)(u:)(u:)>It's('Its)true.(tr'u:)(u:)(u:)>It's('Its)true!(tr'u:u:u:u:u:u:u:u:u:u:u:u:u:u:u:u:)(u:)(u:)>Mo|!mark=Chorus 2(m'oU)|!mark=Chorus 2-tor(t'o@)-ing!(r'IN)>What's(w'0ts)your(j'O@)price(pr'aIs)for(f'O@)flight?(fl'aIt)>You've(j'u:v)got(g'0t)him(h'I)(Im)in('In)your(j'O@)sight.(s'aIt)>And('and)driv(dr'aI)-ing(v'I)(IN)through(Tr'u:)the(D'@)night.|!bg=img=../night.png(n'00)!bg=(aIt)>Mo|!mark=Chorus 3(m'oU)|!mark=Chorus 3-tor(t'o@)-ing!(r'IN)>What's(w'0ts)your(j'O@)price(pr'aIs)for(f'O@)flight?(fl'aIt)>In('In)find(f'aInd)-ing(d'i)(IN)mis(m'Is)-ter(t'3:)right?(r'aIt)>You'll(j'u:l)be(b'i:)al('O:)(O:l)-right(r'aIt)to|!bg=img=../night.png(t'u:)-night.(n'00)!bg=(aIt)>@|!mark=Solo!mark=Solo@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Mo|!mark=Chorus 4|!bg=(m'oU)|!mark=Chorus 4-tor(t'o@)-ing!(r'IN)>What's(w'0ts)your(j'O@)price(pr'aIs)for(f'O@)flight?(fl'aIt)>In('In)find(f'aInd)-ing(d'i)(IN)mis(m'Is)-ter(t'3:)right?(r'aIt)>You'll(j'u:l)be(b'i:)al('O:)(O:l)-right(r'aIt)to|!bg=img=../night.png(t'u:)-night.(n'00)!bg=(aIt)>You're(j'O@)mo|!mark=Chorus 5(m'oU)|!mark=Chorus 5-tor(t'o@)-ing!(r'IN)>What's(w'0ts)your(j'O@)price(pr'aIs)for(f'O@)flight?(fl'aIt)>In('In)find(f'aInd)-ing(d'i)(IN)mis(m'Is)-ter(t'3:)right?(r'aIt)>You'll(j'u:l)be(b'i:)al('O:)(O:l)-right(r'aIt)to|!bg=img=../night.png(t'u:)-night.(n'00)!bg=(aIt)>@@!mark=Break Down|-!mark=Break Down@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!mark=Outro|-!mark=OutroSis|!bg=(s'Is)-ter(t'3:)Chris(kr'Is)-tian,(tS'Vn)oh('oU)the(D'@)time(t'aIm)has(h'az)come.(k'Vm)>And('and)you(j'u:)know(n'oU)that(D'at)you're(j'O@)the(D'@)on('oUn)-ly(l'i:)one(w'0n)to(t'u:)say.(s'E)(E)(eI)>O('oU)-K.(k'E)(eI)!mark=Last Bit|-!mark=Last Bit>But(b'Vt)you're(j'O@)mo(m'oU)-tor(t'o@)-ing.(r'I)(I)(IN)>Yeah!|!bg=img=../yeah.png(j'E:E:E:)!bg=(E)(E:E:E:Eh)>Mo(m'oU)-tor(t'o@)-ing.(r'I)(IN)@@Playing time: ~300 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 27917593/52699780 bytes(52.9748% compressed)
+Wrote 28031194/52699780 bytes(53.1903% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 1.1 staff-spaces
 warning: page 0 has been compressed
@@ -58,6 +28,8 @@ warning: compressing over-full page by 16.8 staff-spaces
 warning: page 0 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+warning: compressing over-full page by 1.9 staff-spaces
+warning: page 0 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
     108 measure=all

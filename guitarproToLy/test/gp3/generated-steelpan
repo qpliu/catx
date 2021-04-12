@@ -19,23 +19,23 @@ steelpan = {
     e'16 c' d' e' c'8 g16 a c'8 c'16 d' e' c' d' e' |
 \mymark "Verse 2" #16
     c'8 g c'8. d'16 e'8 r4. |
-    g'16 g' r g' g' r g' g' r g' g' r g' g' r g' |
+    <e' g'>16 <e' g'> r <e' g'> <e' g'> r <e' g'> <e' g'> r <e' g'> <e' g'> r <e' g'> <e' g'> r <e' g'> |
     f'8 r2 f'16 g' a' f' g' a' |
-    f'4 r4. f'16 g' a' a' a'8 |
-    r8 d'' d'' r16 d''8. d''8 r g'16 a' |
-    r8 d'' d'' d'' d'' d'' a'16 g' a' g' |
+    f'4 r4. f'16 g' a' <f' a'> <f' a'>8 |
+    r8 <b' d''> <b' d''> r16 <b' d''>8. <b' d''>8 r g'16 a' |
+    r8 <b' d''> <b' d''> <b' d''> <b' d''> <b' d''> a'16 g' a' g' |
     r8 f' f'8. a' c''16 d'' f'' d'' c'' r |
     r8 f' f' f' |
-    e'8 g'4 c''16 d'' e'' c'' d'' e'' c'' g' a' c'' |
+    e'8 <e' g'>4 c''16 d'' e'' c'' d'' e'' c'' g' a' c'' |
     e'16 f' g' a' g' f' e' c' d' e' c' a g8 a |
 \mymark "Chorus" #26
     e'2~ e'8 g a c' |
     e'8 g' a' g'16 e'8. c'16 d' c' ais a g |
     f8 r4. f'8 a'16 d'' dis''8 f''~ |
     f''16 d'' c'' a' f'8 f'16 g' cis'' f' g' cis'' f'8 f' |
-    e'4 g' r8 c' a c' |
-    g'2 r8 g' f' e' |
-    g'4. g'16 a' b' g' a' b' g'8 e'16 d' |
+    e'4 <e' g'> r8 c' a c' |
+    <e' g'>2 r8 <e' g'> <d' f'> <c' e'> |
+    <d' g'>4. g'16 a' b' g' a' b' g'8 e'16 d' |
     g'8 \tuplet 3/2 { b'16 a' g' b' a' g' e' d' c' } b'8 a'16 g' b' a' g'8 |
     c'8 f' a' b'16 f''4. c''16 d'' c'' |
     f''8 c''16 d'' c'' a' g' f'8. a'16 f' g'8 f' |
@@ -43,23 +43,23 @@ steelpan = {
     c'8 c'16 d' e' g' a' g' c''8 c' a' g' |
 \mymark "Verse 3" #38
     c'8 g c'8. d'16 e'8 r4. |
-    g'16 g' r g' g' r g' g' r g' g' r g' g' r g' |
+    <e' g'>16 <e' g'> r <e' g'> <e' g'> r <e' g'> <e' g'> r <e' g'> <e' g'> r <e' g'> <e' g'> r <e' g'> |
     f'8 r2 f'16 g' a' f' g' a' |
-    f'4 r4. f'16 g' a' a' a'8 |
-    r8 d'' d'' r16 d''8. d''8 r g'16 a' |
-    r8 d'' d'' d'' d'' d'' a'16 g' a' g' |
+    f'4 r4. f'16 g' a' <f' a'> <f' a'>8 |
+    r8 <b' d''> <b' d''> r16 <b' d''>8. <b' d''>8 r g'16 a' |
+    r8 <b' d''> <b' d''> <b' d''> <b' d''> <b' d''> a'16 g' a' g' |
     r8 f' f'8. a' c''16 d'' f'' d'' c'' r |
     r8 f' f' f' |
-    e'8 g'4 c''16 d'' e'' c'' d'' e'' c'' g' a' c'' |
+    e'8 <e' g'>4 c''16 d'' e'' c'' d'' e'' c'' g' a' c'' |
     e'16 f' g' a' g' f' e' c' d' e' c' a g8 a |
 \mymark "Chorus" #48
     e'2~ e'8 g a c' |
     e'8 g' a' g'16 e'8. c'16 d' c' ais a g |
     f8 r4. f'8 a'16 d'' dis''8 f''~ |
     f''16 d'' c'' a' f'8 f'16 g' a' f' g' a' f'8 f' |
-    e'4 g' r8 c' a c' |
-    g'2 r8 g' f' e' |
-    g'4. g'16 a' b' g' a' b' g'8 e'16 d' |
+    e'4 <e' g'> r8 c' a c' |
+    <e' g'>2 r8 <e' g'> <d' f'> <c' e'> |
+    <d' g'>4. g'16 a' b' g' a' b' g'8 e'16 d' |
     g'8 \tuplet 3/2 { b'16 a' g' b' a' g' e' d' c' } b'8 a'16 g' b' a' g'8 |
     c'8 f' a' b'16 f''4. c''16 d'' c'' |
     f''8 c''16 d'' c'' a' g' f'8. a'16 f' g'8 f' |
@@ -70,22 +70,22 @@ steelpan = {
     r1 |
     e'4 e' \tuplet 3/2 { r8 c''16 b' a' g' } a'16 g' \tuplet 3/2 { e'16 d' c' } |
     c''8. d''16 e'' f'' e'' d'' c'' g' \tuplet 3/2 { e'16 d' c' } a8 c' |
-    g'2 r8 g a c' |
-    g'2 r8 c' d' c' |
-    f'2 r8 f'16 g' a' f' g' a' |
-    e'8 f'16 g' a' f' a' c'' f''8 d''16 c'' a'8 f' |
+    <e' g'>2 r8 g a c' |
+    <e' g'>2 r8 c' d' c' |
+    <c' f'>2 r8 f'16 g' a' f' g' a' |
+    <f' e'>8 f'16 g' a' f' a' c'' f''8 d''16 c'' a'8 f' |
     e'4. c''16 d'' c''8. d''16 e'' c'' d'' e'' |
     c''8 c'' c'' g'16 a' c'' g' a' g' f' e' d' c' |
     e'8 e'16 c' \tuplet 3/2 { d'16 e' d' } c'8 |
-    g8. b16 b r b b d' d'8. d'16 d'8 d'16 |
-    d'16 r g'8. a'16 b' g' a'8 \tuplet 3/2 { b'16 a' g' } a'8 \tuplet 3/2 { b'16 a' g' } |
+    g8. b16 b r b b <b d'> <b d'>8. <b d'>16 <b d'>8 <b d'>16 |
+    <b d'>16 r g'8. a'16 b' g' a'8 \tuplet 3/2 { b'16 a' g' } a'8 \tuplet 3/2 { b'16 a' g' } |
     f8. g16 a c' d' c' f'8 a'16 f' g' a' f' g' |
-    a'16 f' g' f' f' g' a' f' g'8 f' e'8. g'16~ |
-    g'16 c' d' e' c'8 c''16 g' a' g' e' a g8 c''16 d'' |
+    a'16 f' g' f' f' g' a' f' g'8 f' e'8. <e' g'>16~ |
+    <e' g'>16 c' d' e' c'8 c''16 g' a' g' e' a g8 c''16 d'' |
     e''16 f'' e'' d'' c'' a' g' f' e' d' c'8 e'16 d' c'8 |
     a16 f8 g16 a f g a f8 c' d'16 r d' r |
     g8. a16 b d' e' g'8. g'16 b' a' g' g'8 |
-    f'4 e' e' c''16 d'' e'' c'' |
+    <c' f'>4 <c' e'> <c' e'> c''16 d'' e'' c'' |
     d''16 e'' c'' g' a' c'' e' f' g' a' g' f' e' c' d' e' |
     c'16 a g8 a e'4. r4 |
     g8 a c' e' g' a' g'16 e'8. |

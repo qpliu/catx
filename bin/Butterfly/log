@@ -4,13 +4,6 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-!mark=Intro count=0 fudgeLyrics=48 divisions=0 seconds=0.0 measure=1.0 track=midiKaraoke
-!mark=Verse 1 count=37 fudgeLyrics=48 divisions=18432 seconds=21.333312 measure=13.0 track=midiKaraoke
-!mark=Chorus 1 count=82 fudgeLyrics=48 divisions=30720 seconds=35.555519999999994 measure=21.0 track=midiKaraoke
-!mark=Verse 2 count=136 fudgeLyrics=48 divisions=49152 seconds=56.888831999999994 measure=33.0 track=midiKaraoke
-!mark=Chorus 2 count=182 fudgeLyrics=48 divisions=61440 seconds=71.11103999999999 measure=41.0 track=midiKaraoke
-!mark=Bridge count=268 fudgeLyrics=48 divisions=86016 seconds=99.55545599999999 measure=57.0 track=midiKaraoke
-!mark=Outro count=282 fudgeLyrics=48 divisions=98304 seconds=113.77766399999999 measure=65.0 track=midiKaraoke
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
@@ -21,7 +14,7 @@ Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
 Track name: midiOne
-!mark=Intro>@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Ai|!bg=yaiyai--|||Aiyaiyai--|||Aiyaiyai|||Where'smysa-mu-rai?-->@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1I've|!bg=beensear|!mark=Verse 1-chingforaman->Alla-crossJa-pan->Justtofind,tofindmysa-mu-rai->Some-onewhoisstrong->Butstillalit-tleshy->YesIneed,Ineedmysa-mu-rai->Ai|!mark=Chorus 1aiai|||I'myourlit-tlebut|!bg=img=../butterfly.png-ter-fly-|!bg=>Green,blackandblue|||Maketheco|!bg=img=../rainbow.png-lorsinthesky-|!bg=>Aiaiai|||I'myourlit-tlebut|!bg=img=../butterfly.png-ter-fly-|!bg=>Green,blackandblue|||Maketheco|!bg=img=../rainbow.png-lorsinthesky-|!bg=>@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1I've|!bg=beensear|!mark=Verse 2-chinginthewoods->Andhighuponthehills->Justtofind,tofindmysa-mu-rai->Some-onewhowon'treg-ret->Tokeepmeinhisnet->YesIneed,Ineedmysa-mu-rai->Ai|!mark=Chorus 2aiai|||I'myourlit-tlebut|!bg=img=../butterfly.png-ter-fly-|!bg=>Green,blackandblue|||Maketheco|!bg=img=../rainbow.png-lorsinthesky-|!bg=>Aiaiai|||I'myourlit-tlebut|!bg=img=../butterfly.png-ter-fly-|!bg=>Green,blackandblue|||Maketheco|!bg=img=../rainbow.png-lorsinthesky-|!bg=->Aiyaiyai--|||Aiyaiyai--|||Aiyaiyai|||Where'smysa-mu-rai?-->Aiyaiyai--|||Aiyaiyai--|||Aiyaiyai|||Where'smysa-mu-rai?->Aah|!mark=Bridge--|||Aah-|||Aah->Aah--|||Aah-|||Aah->Ai|!mark=Outroaiai|||I'myourlit-tlebut|!bg=img=../butterfly.png-ter-fly-|!bg=>Green,blackandblue|||Maketheco|!bg=img=../rainbow.png-lorsinthesky-|!bg=>Aiaiai|||I'myourlit-tlebut|!bg=img=../butterfly.png-ter-fly-|!bg=>Green,blackandblue|||Maketheco|!bg=img=../rainbow.png-lorsinthesky-|!bg=->Aiyaiyai--|||Aiyaiyai--|||Aiyaiyai|||Where'smysa-mu-rai?-->Aiyaiyai--|||Aiyaiyai--|||Aiyaiyai|||Where'smysa-mu-rai?--@@---Playing time: ~156 seconds
+!mark=Intro>@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Ai|!bg=yaiyai--Aiyaiyai--AiyaiyaiWhere'smysa-mu-rai?-->@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1I've|!bg=beensear|!mark=Verse 1-chingforaman->Alla-crossJa-pan->Justtofind,tofindmysa-mu-rai->Some-onewhoisstrong->Butstillalit-tleshy->YesIneed,Ineedmysa-mu-rai->Ai|!mark=Chorus 1aiaiI'myourlit-tlebut|!bg=img=../butterfly.png-ter-fly-|!bg=>Green,blackandblueMaketheco|!bg=img=../rainbow.png-lorsinthesky-|!bg=>AiaiaiI'myourlit-tlebut|!bg=img=../butterfly.png-ter-fly-|!bg=>Green,blackandblueMaketheco|!bg=img=../rainbow.png-lorsinthesky-|!bg=>@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1I've|!bg=beensear|!mark=Verse 2-chinginthewoods->Andhighuponthehills->Justtofind,tofindmysa-mu-rai->Some-onewhowon'treg-ret->Tokeepmeinhisnet->YesIneed,Ineedmysa-mu-rai->Ai|!mark=Chorus 2aiaiI'myourlit-tlebut|!bg=img=../butterfly.png-ter-fly-|!bg=>Green,blackandblueMaketheco|!bg=img=../rainbow.png-lorsinthesky-|!bg=>AiaiaiI'myourlit-tlebut|!bg=img=../butterfly.png-ter-fly-|!bg=>Green,blackandblueMaketheco|!bg=img=../rainbow.png-lorsinthesky-|!bg=->Aiyaiyai--Aiyaiyai--AiyaiyaiWhere'smysa-mu-rai?-->Aiyaiyai--Aiyaiyai--AiyaiyaiWhere'smysa-mu-rai?->Aah|!mark=Bridge--Aah-Aah->Aah--Aah-Aah->Ai|!mark=OutroaiaiI'myourlit-tlebut|!bg=img=../butterfly.png-ter-fly-|!bg=>Green,blackandblueMaketheco|!bg=img=../rainbow.png-lorsinthesky-|!bg=>AiaiaiI'myourlit-tlebut|!bg=img=../butterfly.png-ter-fly-|!bg=>Green,blackandblueMaketheco|!bg=img=../rainbow.png-lorsinthesky-|!bg=->Aiyaiyai--Aiyaiyai--AiyaiyaiWhere'smysa-mu-rai?-->Aiyaiyai--Aiyaiyai--AiyaiyaiWhere'smysa-mu-rai?--@@---Playing time: ~156 seconds
 Notes cut: 0
 Notes lost totally: 0
 Wrote 16929526/27204848 bytes(62.2298% compressed)

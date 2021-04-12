@@ -77,9 +77,9 @@ steelpan = {
     g16 f d4 r2 r8 |
     r1 |
     r1 |
-    r2 r8 a a c' |
+    r2 r8 <a a> <a a> <c' c'> |
 \mymark "Verse 3" #73
-    d'8 d' r2 r8 a |
+    <d' d'>8 <d' d'> r2 r8 a |
     c'8 d' d' d' d' c' r4 |
     r2 r8 a a c'~ |
     c'8 a a f a4 g8 f |

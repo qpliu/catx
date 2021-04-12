@@ -1,121 +1,121 @@
 vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Intro" #1
-    ">@|!mark=Intro"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@|!bg=4"2 "@|!bg=3"
-    "@|!bg=2"2 "@|!bg=1"
+    ">@|!mark=Intro|!check=1"2 "@"
+    "@|!check=2"2 "@"
+    "@|!check=3"2 "@"
+    "@|!check=4"2 "@"
+    "@|!check=5"2 "@"
+    "@|!check=6"2 "@"
+    "@|!check=7"2 "@"
+    "@|!check=8|!bg=4"2 "@|!bg=3"
+    "@|!check=9|!bg=2"2 "@|!bg=1"
 \mymark "Verse" #10
-    "Come|!mark=Verse|!bg="4 \skip4 "as"4 "you"8 "are"
-    \skip8 "-"4. "as"4 "you"8 "were"
-    \skip4 "-"4 "As"8 "I"4 "want"8
-    "-"4. "you"8 "-"4 "to"8 "be"
-    \skip8 "-"4. ">As"4 "a"8 "friend"
-    \skip8 "-"4. "as"4 "a"8 "friend"
-    \skip8 "-"4. "As"8 "a"4 "known"8
-    "-"4. "en"8 "e"4 "-my"8 "Take"
-    \skip8 "-"4. ">your"4 "time"8 "hur"
-    \skip8 "-"4. "-ry"4 "up"8 "The"
-    \skip8 "-"4 "choice"8 "is" "yours"4 "-"8
-    "don't"4. "-"8 "be"4 "late"8 "Take"
-    \skip8 "-"4. ">a"4 "rest"8 "as"
-    \skip8 "-"4. "a"4 "friend"8 "As"
-    \skip8 "-"4. "an"8 "old"4 "-"8
-    "Mem"4. "o"8 "-ri"4 "-"8 "a"
+    "Come|!mark=Verse|!check=10|!bg="4 \skip4 "as"4 "you"8 "are"
+    "!check=11"8 \skip4. "as"4 "you"8 "were"
+    "!check=12"4 \skip4 "As"8 "I"4 "want"8
+    "!check=13"4. "you"8 \skip4 "to"8 "be"
+    "!check=14"8 \skip4. ">As"4 "a"8 "friend"
+    "!check=15"8 \skip4. "as"4 "a"8 "friend"
+    "!check=16"8 \skip4. "As"8 "a"4 "known"8
+    "!check=17"4. "en"8 "e"4 "-my"8 "Take"
+    "!check=18"8 \skip4. ">your"4 "time"8 "hur"
+    "!check=19"8 \skip4. "-ry"4 "up"8 "The"
+    "!check=20"8 \skip4 "choice"8 "is" "yours"4 \skip8
+    "don't|!check=21"4. \skip8 "be"4 "late"8 "Take"
+    "!check=22"8 \skip4. ">a"4 "rest"8 "as"
+    "!check=23"8 \skip4. "a"4 "friend"8 "As"
+    "!check=24"8 \skip4. "an"8 "old"4 \skip8
+    "Mem|!check=25"4. "o"8 "-ri"4 \skip8 "a"8
 \mymark "Pre-Chorus" #26
-    "!mark=Pre-Chorus|-"2 \skip8 "mem"8 "-o" "-ri"
-    \skip4 "-"2 "a"8 "Mem"
-    \skip2 \skip8 "-o"8 "-ri" "-"
-    "-"2 ">a"4 "mem"8 "-o"
-    \skip2 \skip8 "-ri"8 "-" "a"
-    \skip4 "-"4 "Come" "doused"8 "in"
-    \skip2 \skip8 "mud"8 "soaked" "in"
-    \skip4 "-"2.
+    "!mark=Pre-Chorus|!check=26|-"2 \skip8 "mem"8 "-o" "-ri"
+    "!check=27"4 \skip2 "a"8 "Mem"
+    "!check=28"2 \skip8 "-o"8 "-ri" \skip8
+    "!check=29"2 ">a"4 "mem"8 "-o"
+    "!check=30"2 \skip8 "-ri"8 \skip8 "a"8
+    "!check=31"4 \skip4 "Come"4 "doused"8 "in"
+    "!check=32"2 \skip8 "mud"8 "soaked" "in"
+    "!check=33"4 \skip2.
 \mymark "Verse" #34
-    ">bleach|!mark=Verse"4 \skip4 "As"4 "I"8 "want"
-    \skip8 "-"2 \skip8 "you"8 "-"
-    "-"2 "to"8 "be"4 "As"8
-    "a"4. "trend"8 "as"4 "a"8 "friend"
-    \skip8 "-"4. "As"4 "an"8 "old"
-    \skip8 "-"2 \skip8 ">Mem"8 "o"
-    \skip8 "-"4. "-ri"8 "-"4 "a"8
-    "mem"4. "-o"8 "-ri"4 "-"8 "a"
+    ">bleach|!mark=Verse|!check=34"4 \skip4 "As"4 "I"8 "want"
+    "!check=35"8 \skip2 \skip8 "you"8 \skip8
+    "!check=36"2 "to"8 "be"4 "As"8
+    "a|!check=37"4. "trend"8 "as"4 "a"8 "friend"
+    "!check=38"8 \skip4. "As"4 "an"8 "old"
+    "!check=39"8 \skip2 \skip8 ">Mem"8 "o"
+    "!check=40"8 \skip4. "-ri"8 \skip4 "a"8
+    "mem|!check=41"4. "-o"8 "-ri"4 \skip8 "a"8
 \mymark "Pre-Chorus" #42
-    "!mark=Pre-Chorus|-"2 \skip8 "Mem"8 "-o" "-ri"
-    \skip4 "-"2 "a"8 "mem"
-    \skip2 \skip8 "-o"8 "-ri" "-"
-    "-"2 ">a"4 "And"8 "I"
-    \skip2 \skip8 "swear"8 "that" "I"
-    \skip4 "-"4 "don't" "-"8 "have"
-    \skip2 \skip8 "a"8 "gun" "-"
-    "-"1
+    "!mark=Pre-Chorus|!check=42|-"2 \skip8 "Mem"8 "-o" "-ri"
+    "!check=43"4 \skip2 "a"8 "mem"
+    "!check=44"2 \skip8 "-o"8 "-ri" \skip8
+    "!check=45"2 ">a"4 "And"8 "I"
+    "!check=46"2 \skip8 "swear"8 "that" "I"
+    "!check=47"4 \skip4 "don't"4 \skip8 "have"8
+    "!check=48"2 \skip8 "a"8 "gun" \skip8
+    "!check=49"1
 \mymark "Chorus" #50
-    "!mark=Chorus|-"2 ">No"8 "I"4.
-    "don't"4. "-"4 "have"4.
-    "a"8 "gun"4 "-"8 "No" "I" "don't"4
-    "-"2 \skip8 ">have"4 "a"8
-    "gun"4. "-"8 "ri" "-" "a"4
-    "-"2 "mem"8 "-o"4 "-ri"8
-    "-"4. "a"8 "Mem" "-o" "-ri"4
-    "-"2 \skip8 ">@"4.
+    "!mark=Chorus|!check=50|-"2 ">No"8 "I"4.
+    "don't|!check=51"4. \skip4 "have"4.
+    "a|!check=52"8 "gun"4 \skip8 "No"8 "I" "don't"4
+    "!check=53"2 \skip8 ">have"4 "a"8
+    "gun|!check=54"4. \skip8 "ri"8 \skip8 "a"4
+    "!check=55"2 "mem"8 "-o"4 "-ri"8
+    "!check=56"4. "a"8 "Mem" "-o" "-ri"4
+    "!check=57"2 \skip8 ">@"4.
 \mymark "Interlude" #58
-    "!mark=Interlude|-"8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
+    "!mark=Interlude|!check=58|-"8 "@"2 "@"4.
+    "!check=59"8 "@"2 "@"4.
+    "!check=60"8 "@"2 "@"4.
+    "!check=61"8 "@"2 "@"4.
 \mymark "Solo" #62
-    "!mark=Solo|-"8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@"4.
-    \skip8 "@"2 "@|!bg=4"4.
-    \skip8 "@|!bg=3"2 "@|!bg=2"4.
+    "!mark=Solo|!check=62|-"8 "@"2 "@"4.
+    "!check=63"8 "@"2 "@"4.
+    "!check=64"8 "@"2 "@"4.
+    "!check=65"8 "@"2 "@"4.
+    "!check=66"8 "@"2 "@"4.
+    "!check=67"8 "@"2 "@"4.
+    "!check=68"8 "@"2 "@"4.
+    "!check=69"8 "@"2 "@"4.
+    "!check=70"8 "@"2 "@"4.
+    "!check=71"8 "@"2 "@"4.
+    "!check=72"8 "@"2 "@"4.
+    "!check=73"8 "@"2 "@"4.
+    "!check=74"8 "@"2 "@"4.
+    "!check=75"8 "@"2 "@"4.
+    "!check=76"8 "@"2 "@|!bg=4"4.
+    "!check=77"8 "@|!bg=3"2 "@|!bg=2"4.
 \mymark "Pre-Chorus" #78
-    "!mark=Pre-Chorus|-"8 "@|!bg=1"2 "a|!bg="8 "mem" "-o"
-    \skip4 "-"4 "-ri" "-"8 "a"
-    \skip2 \skip8 "And"8 "I" "swear"
-    \skip4 "-"4 "that" "I"8 "don't"
-    \skip2 \skip8 "have"8 "a" "gun"
-    \skip4 "-"4 ">No" "I"8 "don't"
-    \skip2 \skip8 "have"8 "a" "gun"
-    \skip2. "-"4
+    "!mark=Pre-Chorus|!check=78|-"8 "@|!bg=1"2 "a|!bg="8 "mem" "-o"
+    "!check=79"4 \skip4 "-ri"4 \skip8 "a"8
+    "!check=80"2 \skip8 "And"8 "I" "swear"
+    "!check=81"4 \skip4 "that"4 "I"8 "don't"
+    "!check=82"2 \skip8 "have"8 "a" "gun"
+    "!check=83"4 \skip4 ">No"4 "I"8 "don't"
+    "!check=84"2 \skip8 "have"8 "a" "gun"
+    "!check=85"2. \skip4
 \mymark "Chorus" #86
-    "!mark=Chorus|-"2 ">No"8 "I"4.
-    "don't"4. "have"4 "a"4.
-    "gun"8 "No"4 "I"8 "don't" "have" "a"4
-    "-"2 ">gun"8 "No"4 "I"8
-    "don't"4. "have"8 "a" "gun" "No"4
-    "-"2 ">I"8 "don't"4 "have"8
-    "a"4. "gun"8 "Mem" "-o" "-ri"4
-    "-"2 \skip8 "a"4 "mem"8
-    "-o"4. "-ri"8 "-" "a" "-"4
-    "-"2. "@@"32 "-"8. \skip32
-    "-"1
-    "-"1
+    "!mark=Chorus|!check=86|-"2 ">No"8 "I"4.
+    "don't|!check=87"4. "have"4 "a"4.
+    "gun|!check=88"8 "No"4 "I"8 "don't" "have" "a"4
+    "!check=89"2 ">gun"8 "No"4 "I"8
+    "don't|!check=90"4. "have"8 "a" "gun" "No"4
+    "!check=91"2 ">I"8 "don't"4 "have"8
+    "a|!check=92"4. "gun"8 "Mem" "-o" "-ri"4
+    "!check=93"2 \skip8 "a"4 "mem"8
+    "-o|!check=94"4. "-ri"8 \skip8 "a"8 \skip4
+    "!check=95"2. "@@"32 \skip8. \skip32
+    "!check=96"1
+    "!check=97"1
 \mymark "Outro" #98
-    "!mark=Outro|-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
-    "-"1
+    "!mark=Outro|!check=98|-"1
+    "!check=99"1
+    "!check=100"1
+    "!check=101"1
+    "!check=102"1
+    "!check=103"1
+    "!check=104"1
+    "!check=105"1
+    "!check=106"1
+    "!check=107"1
 }

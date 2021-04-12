@@ -27,7 +27,7 @@ karaokeTwoLyrics = \new Lyrics \lyricmode {
     "@"2 "@"2
     "@|!bg=4"2 "@|!bg=3"2
     "@|!bg=2"2 "@|!bg=1"2
-    "!bg=|AS:ku"4 "AS:-ra"4 "AS:-ya"8 "AS:-mi"8 \skip4 "AS:de"4 "AS:-mo"2.
+    "!bg=|AS:ku"4 "AS:-ra|!check=28"4 "AS:-ya"8 "AS:-mi"8 \skip4 "AS:de"4 "AS:-mo"2.
     ">MR:Wa"4 "MR:-ta"4 "MR:-shi"8 "MR:-ta"8 \skip8 "MR:-chi"4.  "MR:wo"2.
     ">@"2 "@"2
     "@"2 "@"2
@@ -120,7 +120,7 @@ karaokeTwoLyrics = \new Lyrics \lyricmode {
     "@"2 "@"2
     "@|!bg=4"2 "@|!bg=3"2
     "@|!bg=2"2 "@|!bg=1"2
-    "!bg=|!check=measure112|S:se"4 "S:-tsu"8 "S:-na"8 \skip8 "S:-ku"4 "S:-te"8
+    "!bg=|S:se"4 "S:-tsu"8 "S:-na"8 \skip8 "S:-ku"4 "S:-te"8
     \skip2
     ">@"2
     "@|!bg=4"2 "@|!bg=3"2

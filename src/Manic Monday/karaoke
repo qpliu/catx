@@ -26,7 +26,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "wish"8 "your" "bed" "was" "al" "-rea" "-dy" "made."4
     -2. ">It's"8
 \mymark "Chorus 1" #25
-    "just|!mark=Chorus 1"8 "a" "-no" "-ther" "ma"4 "-nic"
+    "just|!mark=Chorus 1|!check=25"8 "a" "-no" "-ther" "ma"4 "-nic"
     "Mon"4 "-day." -2
     -2 ">Wish"8 "it" "was"4
     "Sun"4 "-day." -2

@@ -3,8 +3,6 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-!check=measure8 count=26 fudgeLyrics=48 divisions=8064 seconds=16.799999999999997 measure=8.0 track=midiKaraoke
-!check=measure8 count=26 fudgeLyrics=144 divisions=8064 seconds=16.799999999999997 measure=8.0 track=midiVocaloid
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
@@ -14,7 +12,7 @@ Track name: midiGg
 Track name: midiSusan
 Track name: midiKaraoke
 Track name: midiVocaloid
-metronome 0>Row(r'oU)row(r'oU)row(r'oU)your(j'O@)boat(b'oUt)>gent(dZ'Ent)-ly(l'i:)down(d'aUn)the(D'@)stream,(str'i:i:i:i:i:m)>Mer(m'E)-ri(r'I)-ly,(l'i:)mer(m'E)-ri(r'I)-ly,(l'i:)mer(m'E)-ri(r'I)-ly,(l'i:)mer(m'E)-ri(r'I)-ly,(l'i:)>Life(l'aIf)is('Iz)but(b'Vt)a('@)dream.|!check=measure8(dr'i:i:i:i:i:m)|!check=measure8@@Playing time: ~26 seconds
+metronome 0>Row(r'oU)row(r'oU)row(r'oU)your(j'O@)boat(b'oUt)>gent(dZ'Ent)-ly(l'i:)down(d'aUn)the(D'@)stream,(str'i:i:i:i:i:m)>Mer(m'E)-ri(r'I)-ly,(l'i:)mer(m'E)-ri(r'I)-ly,(l'i:)mer(m'E)-ri(r'I)-ly,(l'i:)mer(m'E)-ri(r'I)-ly,(l'i:)>Life(l'aIf)is('Iz)but(b'Vt)a('@)dream.(dr'i:i:i:i:i:m)@@Playing time: ~26 seconds
 Notes cut: 0
 Notes lost totally: 0
 Wrote 1786751/4268960 bytes(41.8545% compressed)

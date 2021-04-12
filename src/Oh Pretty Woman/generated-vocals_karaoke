@@ -1,97 +1,97 @@
 vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
-    "-"4 ">@"2 "@"4
-    \skip4 "@"2 "@"4
-    \skip4 "@"2 "@"4
-    \skip4 "@"2 "@"4
-    \skip4 "@"2 "@"4
-    \skip4 "@"2 "@|!bg=4"4
-    \skip4 "@|!bg=3"2 "@|!bg=2"4
-    \skip4 "@|!bg=1"2 "Pret-|!bg="8 "-ty"
-    "Wo-"8 "-man," "-"2 ">walk-"8 "-in'"
-    "down"4 "the" "street." "Pret-"8 "-ty"
-    "Wom-"8 "-an" "-"2 ">kind"8 "I'd"
-    "like"4 "to" "meet," "Pret-"8 "-ty"
-    "Wo-"8 "-man" "-"2.
-    "-"8 ">I" "don't" "be-"
-    "-lieve"4 "you!" "-"8 "you're" "not" "the"
-    "truth!"4 "-"4. ">No"8 "one" "could"
-    "look"4 "as" "good" "as"
-    "you!"4 "-"2.
-    "-"1
-    ">(Mercy!)"1
-    "-"1
-    "-"2. ">Pret-"8 "-ty"
-    "Wom-"8 "-an," "-"2 ">won't"8 "you"
-    "par-"4 "-don" "me?" "Pret-"8 "-ty,"
-    "Wo-"8 "-man," "-"4. ">I"8 "could-" "-n't"
-    "help"4 "but" "see" "Pret-"8 "-ty"
-    "Wo-"8 "-man" "-"2.
-    "-"8 ">that" "you" "look"
-    "love-"4 "-ly" "-" "as"8 "can"
-    "be."4 "-"2 ">Are"8 "you"
-    "lone-"4 "-ly" "just" "like"
-    "me?"4 "-"2.
-    "-"1
-    ">(Rrrowwrrr!)"4 "-"2 ">@"4
-    \skip4 "@"2 "@"4
-    \skip4 "@"2 "@"4
-    \skip4 "Pret-"8 "-ty" "Wo-"4 "man,"
-    "stop"8 "a-" "-"4 "while" "-"
-    "-"4 ">Pret-"8 "-ty" "Wo-"4 "man,"
-    "talk"8 "a-" "-"4 "while" "-"
-    "-"4 ">Pret-"8 "-ty" "Wo-"4 "man,"
-    "give"8 "your" "-" "smile" "-"4. "to"8
-    "me!"4 "-"2.
-    "-"1
-    "-"4 ">Pret-"8 "-ty" "Wo-"4 "man,"
-    "Yeah,|!bg=img=../yeah.png"8 "yeah|!bg=img=../yeah.png" \skip8 "!bg="8 "yeah!|!bg=img=../yeah.png" \skip8 "!bg="4
-    "-"4 ">Pret-"8 "-ty" "Wo-"4 "man,"
-    "look"8 "my" "-"4 "way." "-"
-    "-"4 ">Pret-"8 "-ty" "Wo-"4 "-man,"
-    "say"8 "you'll" "-"4 "stay" "with"
-    "meeee-"4 "-"2.
-    ">-eeee!"4 "-"2 ">'cause"8 "I"
-    "need"4 "-" "you!"8 "-"4.
-    "-"4 ">I'll" "treat" "you"
-    "right!"4 "-"2.
-    "-"4 ">Come" "to" "me"
-    "Ba-"4 "-" "-by." "-"
-    "-"4 ">Be" "mine" "-"8 "to-"
-    "niiiigh"4 "-"2.
-    ">-iiiigh-"4 "-"2.
-    ">-iiigh-"4 "-"2.
-    ">-iiight"4 "-"2 ">Pret-"8 "-ty"
-    "Wo-"8 "man," "-"2 "don't"4
-    "walk"4 "on" "by." ">Pretty"8 "-"
-    "Wo-"8 "man" "-"2 "don't"4
-    "make"4 "me" "cry" "Pret-"8 "-ty"
-    "Wo-"8 "man," "-"2.
-    "-"4 ">don't"
-    "walk"8 "a-" "-"4 "-wa-"8 "-ay," "-"4
-    "Hey!"4 "-"2.
-    "-"2. ">O."4
-    "K.!"4 "-"2.
-    "-"2 \skip8 ">If"8 "that's" "the"
-    "way"8 "it" "must"4 "be," "O."
-    "K.!"4 "-"2.
-    "-"2 \skip8 ">I"8 "guess" "I'll"
-    "go"8 "on" "-"4 "home" "it's"
-    "late!"4 "-"4. ">There'll be"8 "-" "to-"
-    "mor-"4 "-row" "night,|!bg=img=../night.png" "but|!bg="
-    "wait!"4 "-"4. ">What"8 "do" "I"
-    "see?!!"4 "-"2 ">@"4
-    \skip4 "@"2 "@"4
-    \skip4 "@"2 "@"4
-    \skip4 "@"2 "Is"8 "she"
-    "walk-"4 "-in'" "back" "-"8 "to"
-    "me?"8 "-"2. \skip8
-    "-"1
-    ">Yeaahh!"4 "-"2 \skip8 ">She's"8
-    "walk-"4 "-in'" "back" "-"8 "to"
-    "ME!!"8 "-"2. \skip8
-    "-"1
-    ">Oooo-"4 "-"2.
-    ">-ooh,"4 "-"2 ">Pret-"8 "-ty"
-    "Wo-"8 "-man" "-"2.
+    "!check=1"4 ">@"2 "@"4
+    "!check=2"4 "@"2 "@"4
+    "!check=3"4 "@"2 "@"4
+    "!check=4"4 "@"2 "@"4
+    "!check=5"4 "@"2 "@"4
+    "!check=6"4 "@"2 "@|!bg=4"4
+    "!check=7"4 "@|!bg=3"2 "@|!bg=2"4
+    "!check=8"4 "@|!bg=1"2 "Pret-|!bg="8 "-ty"
+    "Wo-|!check=9"8 "-man," \skip2 ">walk-"8 "-in'"
+    "down|!check=10"4 "the" "street." "Pret-"8 "-ty"
+    "Wom-|!check=11"8 "-an" \skip2 ">kind"8 "I'd"
+    "like|!check=12"4 "to" "meet," "Pret-"8 "-ty"
+    "Wo-|!check=13"8 "-man" \skip2.
+    "!check=14"8 ">I" "don't" "be-"
+    "-lieve|!check=15"4 "you!" \skip8 "you're"8 "not" "the"
+    "truth!|!check=16"4 \skip4. ">No"8 "one" "could"
+    "look|!check=17"4 "as" "good" "as"
+    "you!|!check=18"4 \skip2.
+    "!check=19"1
+    ">(Mercy!)|!check=20"1
+    "!check=21"1
+    "!check=22"2. ">Pret-"8 "-ty"
+    "Wom-|!check=23"8 "-an," \skip2 ">won't"8 "you"
+    "par-|!check=24"4 "-don" "me?" "Pret-"8 "-ty,"
+    "Wo-|!check=25"8 "-man," \skip4. ">I"8 "could-" "-n't"
+    "help|!check=26"4 "but" "see" "Pret-"8 "-ty"
+    "Wo-|!check=27"8 "-man" \skip2.
+    "!check=28"8 ">that" "you" "look"
+    "love-|!check=29"4 "-ly" \skip4 "as"8 "can"
+    "be.|!check=30"4 \skip2 ">Are"8 "you"
+    "lone-|!check=31"4 "-ly" "just" "like"
+    "me?|!check=32"4 \skip2.
+    "!check=33"1
+    ">(Rrrowwrrr!)|!check=34"4 \skip2 ">@"4
+    "!check=35"4 "@"2 "@"4
+    "!check=36"4 "@"2 "@"4
+    "!check=37"4 "Pret-"8 "-ty" "Wo-"4 "man,"
+    "stop|!check=38"8 "a-" \skip4 "while"4 \skip4
+    "!check=39"4 ">Pret-"8 "-ty" "Wo-"4 "man,"
+    "talk|!check=40"8 "a-" \skip4 "while"4 \skip4
+    "!check=41"4 ">Pret-"8 "-ty" "Wo-"4 "man,"
+    "give|!check=42"8 "your" \skip8 "smile"8 \skip4. "to"8
+    "me!|!check=43"4 \skip2.
+    "!check=44"1
+    "!check=45"4 ">Pret-"8 "-ty" "Wo-"4 "man,"
+    "Yeah,|!check=46|!bg=img=../yeah.png"8 "yeah|!bg=img=../yeah.png" \skip8 "!bg="8 "yeah!|!bg=img=../yeah.png" \skip8 "!bg="4
+    "!check=47"4 ">Pret-"8 "-ty" "Wo-"4 "man,"
+    "look|!check=48"8 "my" \skip4 "way."4 \skip4
+    "!check=49"4 ">Pret-"8 "-ty" "Wo-"4 "-man,"
+    "say|!check=50"8 "you'll" \skip4 "stay"4 "with"
+    "meeee-|!check=51"4 \skip2.
+    ">-eeee!|!check=52"4 \skip2 ">'cause"8 "I"
+    "need|!check=53"4 \skip4 "you!"8 \skip4.
+    "!check=54"4 ">I'll" "treat" "you"
+    "right!|!check=55"4 \skip2.
+    "!check=56"4 ">Come" "to" "me"
+    "Ba-|!check=57"4 \skip4 "-by."4 \skip4
+    "!check=58"4 ">Be" "mine" \skip8 "to-"8
+    "niiiigh|!check=59"4 \skip2.
+    ">-iiiigh-|!check=60"4 \skip2.
+    ">-iiigh-|!check=61"4 \skip2.
+    ">-iiight|!check=62"4 \skip2 ">Pret-"8 "-ty"
+    "Wo-|!check=63"8 "man," \skip2 "don't"4
+    "walk|!check=64"4 "on" "by." ">Pretty"8 \skip8
+    "Wo-|!check=65"8 "man" \skip2 "don't"4
+    "make|!check=66"4 "me" "cry" "Pret-"8 "-ty"
+    "Wo-|!check=67"8 "man," \skip2.
+    "!check=68"4 ">don't"
+    "walk|!check=69"8 "a-" \skip4 "-wa-"8 "-ay," \skip4
+    "Hey!|!check=70"4 \skip2.
+    "!check=71"2. ">O."4
+    "K.!|!check=72"4 \skip2.
+    "!check=73"2 \skip8 ">If"8 "that's" "the"
+    "way|!check=74"8 "it" "must"4 "be," "O."
+    "K.!|!check=75"4 \skip2.
+    "!check=76"2 \skip8 ">I"8 "guess" "I'll"
+    "go|!check=77"8 "on" \skip4 "home"4 "it's"
+    "late!|!check=78"4 \skip4. ">There'll be"8 \skip8 "to-"8
+    "mor-|!check=79"4 "-row" "night,|!bg=img=../night.png" "but|!bg="
+    "wait!|!check=80"4 \skip4. ">What"8 "do" "I"
+    "see?!!|!check=81"4 \skip2 ">@"4
+    "!check=82"4 "@"2 "@"4
+    "!check=83"4 "@"2 "@"4
+    "!check=84"4 "@"2 "Is"8 "she"
+    "walk-|!check=85"4 "-in'" "back" \skip8 "to"8
+    "me?|!check=86"8 \skip2. \skip8
+    "!check=87"1
+    ">Yeaahh!|!check=88"4 \skip2 \skip8 ">She's"8
+    "walk-|!check=89"4 "-in'" "back" \skip8 "to"8
+    "ME!!|!check=90"8 \skip2. \skip8
+    "!check=91"1
+    ">Oooo-|!check=92"4 \skip2.
+    ">-ooh,|!check=93"4 \skip2 ">Pret-"8 "-ty"
+    "Wo-|!check=94"8 "-man" \skip2.
 }

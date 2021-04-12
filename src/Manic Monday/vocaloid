@@ -19,7 +19,7 @@ vocaloidLyrics = \new Lyrics \lyricmode {
     "(w'IS)"8 "(j'O@)" "(b'Ed)" "(w'0z)" "('O:l)" "(r'Ed)" "(d'i:)" "(m'eId)"4
     "."2. "('Its)"8
 \mymark "Chorus 1" #25
-    "(dZ'Vst)"8 "('V)" "(n'V)" "(D'3)" "(m'a)"4 "(n'Ik)"
+    "(dZ'Vst)|!check=25"8 "('V)" "(n'V)" "(D'3)" "(m'a)"4 "(n'Ik)"
     "(m'Vn)"4 "(d'eI)" "."2
     "."2 "(w'IS)"8 "('It)" "(w'0z)"4
     "(s'Vn)"4 "(d'eI)" "."2

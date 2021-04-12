@@ -3,17 +3,6 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-!mark=Verse count=15 fudgeLyrics=24 divisions=10752 seconds=12.923063999999998 measure=8.0 track=midiKaraoke
-!mark= count=94 fudgeLyrics=24 divisions=35328 seconds=42.461496 measure=24.0 track=midiKaraoke
-!mark=Chorus count=109 fudgeLyrics=24 divisions=39936 seconds=47.99995199999999 measure=27.0 track=midiKaraoke
-!mark=Riff 1 count=127 fudgeLyrics=24 divisions=49152 seconds=59.07686399999999 measure=33.0 track=midiKaraoke
-!mark=Verse count=135 fudgeLyrics=24 divisions=55296 seconds=66.461472 measure=37.0 track=midiKaraoke
-!mark= count=170 fudgeLyrics=24 divisions=67584 seconds=81.23068799999999 measure=45.0 track=midiKaraoke
-!mark=Chorus count=185 fudgeLyrics=24 divisions=72192 seconds=86.769144 measure=48.0 track=midiKaraoke
-!mark=Riff 2 count=209 fudgeLyrics=24 divisions=84480 seconds=101.53835999999998 measure=56.0 track=midiKaraoke
-!mark= count=227 fudgeLyrics=24 divisions=96768 seconds=116.30757599999998 measure=64.0 track=midiKaraoke
-!mark= count=241 fudgeLyrics=24 divisions=109056 seconds=131.07679199999998 measure=72.0 track=midiKaraoke
-!mark=Chorus count=256 fudgeLyrics=24 divisions=113664 seconds=136.61524799999998 measure=75.0 track=midiKaraoke
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
@@ -23,7 +12,7 @@ Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
-->@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!mark=Verse|-outside|!bg=there'saboxcarwaiting-->outside-the-fam--ilystew___-->out--by-thefi-rebreathing-->outside-we-wait-tilfaceturnsblue-i-know-thenervous->wal-king--iknow-the-dir--tybeardhangs__->out--by-theboxcarwai-ting_--takeme away->tonowhere plains-!mark=|->there is awaitsolong-solong__-solongwe'll never wait->so!mark=Chorus|-long-herecomes your-man__-->herecomes your-man__-->herecomes your-man__|!mark=Riff 1>@@@@@@@!mark=Verse|-bigshakesonaboxcarmoving-->big shake-totheland       that's falling->downis awind-makes a-palm stop blowing->abigbigstone fall and-break my-crown-!mark=|->there is awaitsolong-solong__-solongwe'll never wait->so!mark=Chorus|-long-herecomes your-man__-->herecomes your-man__-->herecomes your-man_____-->herecomes your-man__|!mark=Riff 2>@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1oh|!bg=y-eah-->ohy-eahahooooh|!mark=->@@@@ahoooh->@@@@@!mark=|-there is awaitsolong-solong__-solongwe'll never wait->so!mark=Chorus|-long-->herecomes your-man__-->herecomes your-man__-->herecomes your-man_____-->herecomes your-man__-->herecomes your-man__-->herecomes your-man__-->herecomes your-man_____-->herecomes your-man_____-->herecomes your-man__-->herecomes your-man__-->herecomes your-man_____-->herecomes your-man_____-->herecomes your-man__--@@--Playing time: ~198 seconds
+>@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!mark=Verse|-outside|!bg=there'saboxcarwaiting>outsidethefam-ilystew___>out-bythefi-rebreathing>outsidewewaittilfaceturnsblueiknowthenervous>wal-kingiknowthedir-tybeardhangs__>out-bytheboxcarwai-ting_takeme away>tonowhere plains!mark=|->there is awaitsolongsolong__solongwe'll never wait>so!mark=Chorus|-longherecomes yourman__>herecomes yourman__>herecomes yourman__|!mark=Riff 1>@@@@@@@!mark=Verse|-bigshakesonaboxcarmoving>big shaketotheland       that's falling>downis awindmakes apalm stop blowing>abigbigstone fall andbreak mycrown!mark=|->there is awaitsolongsolong__solongwe'll never wait>so!mark=Chorus|-longherecomes yourman__>herecomes yourman__>herecomes yourman_____>herecomes yourman__|!mark=Riff 2>@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1oh|!bg=y-eah>ohy-eahahooooh|!mark=>@@@@ahoooh>@@@@@!mark=|-there is awaitsolongsolong__solongwe'll never wait>so!mark=Chorus|-long>herecomes yourman__>herecomes yourman__>herecomes yourman_____>herecomes yourman__>herecomes yourman__>herecomes yourman__>herecomes yourman_____>herecomes yourman_____>herecomes yourman__>herecomes yourman__>herecomes yourman_____>herecomes yourman_____>herecomes yourman__@@Playing time: ~198 seconds
 Notes cut: 0
 Notes lost totally: 0
 Wrote 19953104/34710132 bytes(57.485% compressed)

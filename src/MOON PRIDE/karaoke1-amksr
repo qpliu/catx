@@ -17,7 +17,7 @@ karaokeOneLyrics = \new Lyrics \lyricmode {
     "@"2 "@"2
     "@|!bg=4"2 "@|!bg=3"2
     "@|!bg=2"2 "@|!bg=1"2
-    "!bg=|R:Na"8 "R:-mi"8 "R:-da"8 "R:wa"4 -8 "R:ho"8 \skip8 "R:-ho"8 "R:wo"8 "R:tsu"8 "R:-ta"4 "R:-i"4 -8
+    "!bg=|R:Na"8 "R:-mi"8 "R:-da"8 "R:wa|!check=19"4 -8 "R:ho"8 \skip8 "R:-ho"8 "R:wo"8 "R:tsu"8 "R:-ta"4 "R:-i"4 -8
     ">A:hi"8 "A:-to"8 "A:-mi"8 "A:wa"4 -8 "A:a"8 \skip8 "A:-ka"8 "A:-ku"8 "A:mo"8 "A:-e"4 "A:-ru"4 -8
     ">M:I"8 "M:-na"8 "M:-zu"8 "M:-ma"4 "M:no"8 "M:you"8 \skip8 "M:ni"8 "M:ha"8 "M:-ge"8 "M:-shi"4 "M:-ku"4 -8
     ">S:da"8 "S:-re"8 "S:ka"8 "S:ga"4 "S:a"8 "S:-i"8 \skip8 "S:wo"4 "S:sa"8 "S:-ke"4 "S:-bu"4 -8
@@ -96,7 +96,7 @@ karaokeOneLyrics = \new Lyrics \lyricmode {
     ">K:ko"8 "K:-no"8 "K:hi"8 "K:-ro"8 "K:-i"8 "K:u"4 "K:-chu"8 \skip8 "K:-u"4 "K:de"8 -8
     ">K:na"8 "K:-n"8 "K:-do"8 "K:u"4 "K:-ma"8 "K:-re"8 \skip4 "K:-ka"8 "K:-wa"8 \skip8 "K:-t"4 "K:-te"8 \skip8 "K:mo"4.
     ">K:a"8 "K:-na"8 "K:-ta"8 "K:ni"8 -4 "K:ko"8 "K:-i"8 -8 "K:o"4 "K:su"8 \skip4 "K:-ru"4
-    "!check=measure125|>KS:Shin"4 "KS:-y"8 "KS:Make"8 \skip8 "KS:--Up"4 "KS:ha"8 \skip8 "KS:-ba"8 "KS:-ta"4 "KS:-ku"4 "KS:yo"4
+    ">KS:Shin"4 "KS:-y"8 "KS:Make"8 \skip8 "KS:--Up"4 "KS:ha"8 \skip8 "KS:-ba"8 "KS:-ta"4 "KS:-ku"4 "KS:yo"4
     ">KS:ho"4 "KS:-shi"8 "KS:so"8 "KS:-ra"4 "KS:-no"8 "KS:-ka"8 \skip8 "KS:-na"8 "KS:-ta"4 "KS:-he"4
     ">B:tsu"8 "B:-mi"8 "B:ga"4 "B:ma"8 "B:-wa"8 \skip8 "B:-ru"8 "B:se"8 "B:-ka"8 \skip8 "B:-i"8
     ">B:de"4 "B:-mo"4 "B:mi"4 "B:-ra"4 "B:-i"8 "B:o"8 "B:shi"4 "B:-n"8 "B:-ji"8 \skip8 "B:ra"8 "B:-re"4 "B:-ru"8 "B:da"8 "B:-ka"8 "B:-ra"8

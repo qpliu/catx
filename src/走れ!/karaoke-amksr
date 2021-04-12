@@ -16,7 +16,7 @@ karaokeLyrics = \new Lyrics \lyricmode {
     "@"2 "@"2
     "@|!bg=4"2 "@|!bg=3"2
     "@|!bg=2"2 "@|!bg=1"2
-    "!bg=|R:Zu"8 "R:-t"4. -8 "R:-to"8 "R:ki"8 "R:-mi"8
+    "!bg=|R:Zu|!check=18"8 "R:-t"4. -8 "R:-to"8 "R:ki"8 "R:-mi"8
     \skip8 "R:wo"8 -8 "R:o"8 "R:-na"8 "R:-ji"8 "R:de"8 "R:-n"8
     "R:-sha"4 "R:de"8 "R:mi"4 "R:-ru"8 "R:ta"8 "R:-bi"8
     \skip8 "R:ni"8 -8 "R:I"8 "R:-tsu"8 "R:ka"8 "R:-ra"8 "R:da"8

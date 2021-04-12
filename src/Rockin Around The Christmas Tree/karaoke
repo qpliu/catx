@@ -14,7 +14,7 @@ klyrics = \tripletFeel 8 \new Lyrics \lyricmode {
     "cou"4 "-ple" "wants"4 "to"
     "stop."4 -4 -2
 \mymark "Verse 2" #13
-    ">Rock"8 "-in'" "a"4 "-round"4 "the"
+    ">Rock|!check=13"8 "-in'" "a"4 "-round"4 "the"
     "Christ"4 "-mas"8 "tree," \skip4 ">let"8 "the"
     "Christ"4 "-mas" "spi"4 "-rit"
     "ring."4 -4 -2

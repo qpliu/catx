@@ -44,22 +44,22 @@ steelpan = {
     r1 |
     r1 |
 \mymark "Chorus" #41
-    r2 e'8 fis' gis' b'~ |
-    b'8 gis'4 fis' e' c''8~ |
-    c''8 gis'4 fis' e' cis''8~ |
-    cis''8 gis' r gis' fis' e' fis' e'~ |
-    e'4 r e'8 fis' gis' b'~ |
-    b'8 gis'4 fis' e' c''8~ |
-    c''8 gis'4 fis' e' cis''8~ |
-    cis''8 gis' r gis' fis' e' fis' e'~ |
-    e'4 r e'8 fis' gis' b'~ |
-    b'8 gis'4 fis' e' c''8~ |
-    c''8 gis'4 fis' e' cis''8~ |
-    cis''8 gis' r gis' fis' e' fis' e'~ |
-    e'4 r e'8 fis' gis' b'~ |
-    b'8 gis'4 fis' e' c''8~ |
-    c''8 gis'4 fis' e' cis''8~ |
-    cis''8 gis' r gis'4 r4. |
+    r2 <\parenthesize b e'>8 <\parenthesize cis' fis'> <\parenthesize e' gis'> <\parenthesize e' b'>~ |
+    <\parenthesize e' b'>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' c''>8~ |
+    <\parenthesize e' c''>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' cis''>8~ |
+    <\parenthesize e' cis''>8 <\parenthesize e' gis'> r <\parenthesize e' gis'> <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize cis' fis'> <\parenthesize b e'>~ |
+    <\parenthesize b e'>4 r <\parenthesize b e'>8 <\parenthesize cis' fis'> <\parenthesize e' gis'> <\parenthesize e' b'>~ |
+    <\parenthesize e' b'>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' c''>8~ |
+    <\parenthesize e' c''>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' cis''>8~ |
+    <\parenthesize e' cis''>8 <\parenthesize e' gis'> r <\parenthesize e' gis'> <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize cis' fis'> <\parenthesize b e'>~ |
+    <\parenthesize b e'>4 r <\parenthesize b e'>8 <\parenthesize cis' fis'> <\parenthesize e' gis'> <\parenthesize e' b'>~ |
+    <\parenthesize e' b'>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' c''>8~ |
+    <\parenthesize e' c''>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' cis''>8~ |
+    <\parenthesize e' cis''>8 <\parenthesize e' gis'> r <\parenthesize e' gis'> <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize cis' fis'> <\parenthesize b e'>~ |
+    <\parenthesize b e'>4 r <\parenthesize b e'>8 <\parenthesize cis' fis'> <\parenthesize e' gis'> <\parenthesize e' b'>~ |
+    <\parenthesize e' b'>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' c''>8~ |
+    <\parenthesize e' c''>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' cis''>8~ |
+    <\parenthesize e' cis''>8 <\parenthesize e' gis'> r <\parenthesize e' gis'>4 r4. |
 \mymark "Riff 1" #57
     r1 |
     r1 |
@@ -88,31 +88,31 @@ steelpan = {
     r1 |
     r1 |
 \mymark "Chorus" #81
-    r2 e'8 fis' gis' b'~ |
-    b'8 gis'4 fis' e' c''8~ |
-    c''8 gis'4 fis' e' cis''8~ |
-    cis''8 gis' r gis' fis' e' fis' e'~ |
-    e'4 r e'8 fis' gis' b'~ |
-    b'8 gis'4 fis' e' c''8~ |
-    c''8 gis'4 fis' e' cis''8~ |
-    cis''8 gis' r gis' fis' e' fis' e'~ |
-    e'4 r e'8 fis' gis' b'~ |
-    b'8 gis'4 fis' e' c''8~ |
-    c''8 gis'4 fis' e' cis''8~ |
-    cis''8 gis' r gis' fis' e' fis' e'~ |
-    e'4 r e'8 fis' gis' b'~ |
-    b'8 gis'4 fis' e' c''8~ |
-    c''8 gis'4 fis' e' cis''8~ |
-    cis''8 gis' r gis'4 r4. |
+    r2 <\parenthesize b e'>8 <\parenthesize cis' fis'> <\parenthesize e' gis'> <\parenthesize e' b'>~ |
+    <\parenthesize e' b'>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' c''>8~ |
+    <\parenthesize e' c''>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' cis''>8~ |
+    <\parenthesize e' cis''>8 <\parenthesize e' gis'> r <\parenthesize e' gis'> <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize cis' fis'> <\parenthesize b e'>~ |
+    <\parenthesize b e'>4 r <\parenthesize b e'>8 <\parenthesize cis' fis'> <\parenthesize e' gis'> <\parenthesize e' b'>~ |
+    <\parenthesize e' b'>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' c''>8~ |
+    <\parenthesize e' c''>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' cis''>8~ |
+    <\parenthesize e' cis''>8 <\parenthesize e' gis'> r <\parenthesize e' gis'> <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize cis' fis'> <\parenthesize b e'>~ |
+    <\parenthesize b e'>4 r <\parenthesize b e'>8 <\parenthesize cis' fis'> <\parenthesize e' gis'> <\parenthesize e' b'>~ |
+    <\parenthesize e' b'>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' c''>8~ |
+    <\parenthesize e' c''>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' cis''>8~ |
+    <\parenthesize e' cis''>8 <\parenthesize e' gis'> r <\parenthesize e' gis'> <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize cis' fis'> <\parenthesize b e'>~ |
+    <\parenthesize b e'>4 r <\parenthesize b e'>8 <\parenthesize cis' fis'> <\parenthesize e' gis'> <\parenthesize e' b'>~ |
+    <\parenthesize e' b'>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' c''>8~ |
+    <\parenthesize e' c''>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' cis''>8~ |
+    <\parenthesize e' cis''>8 <\parenthesize e' gis'> r <\parenthesize e' gis'>4 r4. |
 \mymark "Post-Chorus" #97
     e'8 b r fis' r e' r e'~ |
     e'8 b r fis' r e' r e'~ |
     e'8 b r fis' r e' r e'~ |
     e'8 r e' r dis' dis' dis' e'~ |
-    e'8 r4 a'8 r gis' r gis'~ |
-    gis'8 r4 a'8 r gis' r gis'~ |
-    gis'8 r4 a'8 r gis' r gis'~ |
-    gis'8 r gis' r fis' r fis' gis' |
+    e'8 r4 <cis' fis' a'>8 r <b e' gis'> r <b e' gis'>~ |
+    <b e' gis'>8 r4 <cis' fis' a'>8 r <b e' gis'> r <b e' gis'>~ |
+    <b e' gis'>8 r4 <cis' fis' a'>8 r <b e' gis'> r <b e' gis'>~ |
+    <b e' gis'>8 r <b e' gis'> r <ais dis' fis'> r <ais dis' fis'> <b e' gis'> |
 \mymark "Riff 1" #105
     r1 |
     r1 |
@@ -165,55 +165,55 @@ steelpan = {
     r1 |
     r1 |
 \mymark "Bridge" #153
-    r2 e'8 fis' gis' b'~ |
-    b'8 gis'4 fis' e' c''8~ |
-    c''8 gis'4 fis' e' cis''8~ |
-    cis''8 gis' r gis' fis' e' fis' e'~ |
-    e'4 r e'8 fis' gis' b'~ |
-    b'8 gis'4 fis' e' c''8~ |
-    c''8 gis'4 fis' e' cis''8~ |
-    cis''8 gis' r gis' fis' e' fis' e'~ |
-    e'4 r e'8 fis' gis' b'~ |
-    b'8 gis'4 fis' e' c''8~ |
-    c''8 gis'4 fis' e' cis''8~ |
-    cis''8 gis' r gis' fis' e' fis' e'~ |
-    e'4 r e'8 fis' gis' b'~ |
-    b'8 gis'4 fis' e' c''8~ |
-    c''8 gis'4 fis' e' cis''8~ |
-    cis''1 |
+    r2 <\parenthesize b e'>8 <\parenthesize cis' fis'> <\parenthesize e' gis'> <\parenthesize e' b'>~ |
+    <\parenthesize e' b'>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' c''>8~ |
+    <\parenthesize e' c''>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' cis''>8~ |
+    <\parenthesize e' cis''>8 <\parenthesize e' gis'> r <\parenthesize e' gis'> <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize cis' fis'> <\parenthesize b e'>~ |
+    <\parenthesize b e'>4 r <\parenthesize b e'>8 <\parenthesize cis' fis'> <\parenthesize e' gis'> <\parenthesize e' b'>~ |
+    <\parenthesize e' b'>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' c''>8~ |
+    <\parenthesize e' c''>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' cis''>8~ |
+    <\parenthesize e' cis''>8 <\parenthesize e' gis'> r <\parenthesize e' gis'> <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize cis' fis'> <\parenthesize b e'>~ |
+    <\parenthesize b e'>4 r <\parenthesize b e'>8 <\parenthesize cis' fis'> <\parenthesize e' gis'> <\parenthesize e' b'>~ |
+    <\parenthesize e' b'>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' c''>8~ |
+    <\parenthesize e' c''>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' cis''>8~ |
+    <\parenthesize e' cis''>8 <\parenthesize e' gis'> r <\parenthesize e' gis'> <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize cis' fis'> <\parenthesize b e'>~ |
+    <\parenthesize b e'>4 r <\parenthesize b e'>8 <\parenthesize cis' fis'> <\parenthesize e' gis'> <\parenthesize e' b'>~ |
+    <\parenthesize e' b'>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' c''>8~ |
+    <\parenthesize e' c''>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' cis''>8~ |
+    <\parenthesize e' cis''>1 |
 \mymark "Chorus" #169
-    r2 e'8 fis' gis' b'~ |
-    b'8 gis'4 fis' e' c''8~ |
-    c''8 gis'4 fis' e' cis''8~ |
-    cis''8 gis' r gis' fis' e' fis' e'~ |
-    e'4 r e'8 fis' gis' b'~ |
-    b'8 gis'4 fis' e' c''8~ |
-    c''8 gis'4 fis' e' cis''8~ |
-    cis''8 gis' r gis' fis' e' fis' e'~ |
-    e'4 r e'8 fis' gis' b'~ |
-    b'8 gis'4 fis' e' c''8~ |
-    c''8 gis'4 fis' e' cis''8~ |
-    cis''8 gis' r gis' fis' e' fis' e'~ |
-    e'4 r e'8 fis' gis' b'~ |
-    b'8 gis'4 fis' e' c''8~ |
-    c''8 gis'4 fis' e' cis''8~ |
-    cis''8 gis' r gis'4 r4. |
+    r2 <\parenthesize b e'>8 <\parenthesize cis' fis'> <\parenthesize e' gis'> <\parenthesize e' b'>~ |
+    <\parenthesize e' b'>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' c''>8~ |
+    <\parenthesize e' c''>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' cis''>8~ |
+    <\parenthesize e' cis''>8 <\parenthesize e' gis'> r <\parenthesize e' gis'> <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize cis' fis'> <\parenthesize b e'>~ |
+    <\parenthesize b e'>4 r <\parenthesize b e'>8 <\parenthesize cis' fis'> <\parenthesize e' gis'> <\parenthesize e' b'>~ |
+    <\parenthesize e' b'>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' c''>8~ |
+    <\parenthesize e' c''>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' cis''>8~ |
+    <\parenthesize e' cis''>8 <\parenthesize e' gis'> r <\parenthesize e' gis'> <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize cis' fis'> <\parenthesize b e'>~ |
+    <\parenthesize b e'>4 r <\parenthesize b e'>8 <\parenthesize cis' fis'> <\parenthesize e' gis'> <\parenthesize e' b'>~ |
+    <\parenthesize e' b'>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' c''>8~ |
+    <\parenthesize e' c''>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' cis''>8~ |
+    <\parenthesize e' cis''>8 <\parenthesize e' gis'> r <\parenthesize e' gis'> <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize cis' fis'> <\parenthesize b e'>~ |
+    <\parenthesize b e'>4 r <\parenthesize b e'>8 <\parenthesize cis' fis'> <\parenthesize e' gis'> <\parenthesize e' b'>~ |
+    <\parenthesize e' b'>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' c''>8~ |
+    <\parenthesize e' c''>8 <\parenthesize e' gis'>4 <\parenthesize cis' fis'> <\parenthesize b e'> <\parenthesize e' cis''>8~ |
+    <\parenthesize e' cis''>8 <\parenthesize e' gis'> r <\parenthesize e' gis'>4 r4. |
 \mymark "Post-Chorus" #185
     e'8 b r fis' r e' r e'~ |
     e'8 b r fis' r e' r e'~ |
     e'8 b r fis' r e' r e'~ |
     e'8 r e' r dis' dis' dis' e'~ |
-    e'8 r4 a'8 r gis' r gis'~ |
-    gis'8 r4 a'8 r gis' r gis'~ |
-    gis'8 r4 a'8 r gis' r gis'~ |
-    gis'8 r gis' r fis' r fis' gis' |
+    e'8 r4 <cis' fis' a'>8 r <b e' gis'> r <b e' gis'>~ |
+    <b e' gis'>8 r4 <cis' fis' a'>8 r <b e' gis'> r <b e' gis'>~ |
+    <b e' gis'>8 r4 <cis' fis' a'>8 r <b e' gis'> r <b e' gis'>~ |
+    <b e' gis'>8 r <b e' gis'> r <ais dis' fis'> r <ais dis' fis'> <b e' gis'> |
 \mymark "Outro" #193
-    gis'8 e' r a' r gis' r gis'~ |
-    gis'8 e' r a' r gis' r gis'~ |
-    gis'8 e' r a' r gis' r gis'~ |
-    gis'8 r gis' r fis' fis' fis' gis'~ |
-    gis'8 r4 a'8 r gis' r gis'~ |
-    gis'8 r4 a'8 r gis' r gis'~ |
-    gis'8 r4 a'8 r gis' r gis'~ |
-    gis'8 r gis' r fis' fis' fis' gis' |
+    <e' gis'>8 <b e'> r <fis' a'> r <e' gis'> r <e' gis'>~ |
+    <e' gis'>8 <b e'> r <fis' a'> r <e' gis'> r <e' gis'>~ |
+    <e' gis'>8 <b e'> r <fis' a'> r <e' gis'> r <e' gis'>~ |
+    <e' gis'>8 r <e' gis'> r <dis' fis'> <dis' fis'> <dis' fis'> <e' gis'>~ |
+    <e' gis'>8 r4 <fis' fis' a'>8 r <e' e' gis'> r <e' e' gis'>~ |
+    <e' e' gis'>8 r4 <fis' fis' a'>8 r <e' e' gis'> r <e' e' gis'>~ |
+    <e' e' gis'>8 r4 <fis' fis' a'>8 r <e' e' gis'> r <e' e' gis'>~ |
+    <e' e' gis'>8 r <e' e' gis'> r <dis' dis' fis'> <dis' dis' fis'> <dis' dis' fis'> <e' e' gis'> |
 }

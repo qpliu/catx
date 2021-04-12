@@ -1,219 +1,219 @@
 vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Riff 1" #1
-    ">@|!mark=Riff 1"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
+    ">@|!mark=Riff 1|!check=1"2 "@"
+    "@|!check=2"2 "@"
+    "@|!check=3"2 "@"
+    "@|!check=4"2 "@"
+    "@|!check=5"2 "@"
+    "@|!check=6"2 "@"
+    "@|!check=7"2 "@"
+    "@|!check=8"2 "@"
+    "@|!check=9"2 "@"
+    "@|!check=10"2 "@"
+    "@|!check=11"2 "@"
+    "@|!check=12"2 "@"
+    "@|!check=13"2 "@"
+    "@|!check=14"2 "@"
+    "@|!check=15"2 "@"
+    "@|!check=16"2 "@"
+    "@|!check=17"2 "@"
+    "@|!check=18"2 "@"
+    "@|!check=19"2 "@"
+    "@|!check=20"2 "@"
+    "@|!check=21"2 "@"
+    "@|!check=22"2 "@"
+    "@|!check=23"2 "@"
+    "@|!check=24"2 "@"
 \mymark "Riff 2" #25
-    "@|!mark=Riff 2"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
+    "@|!mark=Riff 2|!check=25"2 "@"
+    "@|!check=26"2 "@"
+    "@|!check=27"2 "@"
+    "@|!check=28"2 "@"
+    "@|!check=29"2 "@"
+    "@|!check=30"2 "@"
+    "@|!check=31"2 "@"
+    "@|!check=32"2 "@"
 \mymark "Verse 1" #33
-    "@|!mark=Verse 1"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@|!bg=4"
-    "@|!bg=3"2 "@|!bg=2"
+    "@|!mark=Verse 1|!check=33"2 "@"
+    "@|!check=34"2 "@"
+    "@|!check=35"2 "@"
+    "@|!check=36"2 "@"
+    "@|!check=37"2 "@"
+    "@|!check=38"2 "@"
+    "@|!check=39"2 "@|!bg=4"
+    "@|!check=40|!bg=3"2 "@|!bg=2"
 \mymark "Chorus" #41
-    "@|!mark=Chorus|!bg=1"2 "Check|!bg="8 "it" "out," "cho"
-    \skip8 "-c'late."4 ">Can" "I" "have"8
-    \skip8 "a"4 "lit" "-tle" "bit"8
-    \skip8 "of"8 "-" "cho" "-c'late," "please?"4.
-    \skip4 "-"4 ">I’d"8 "bet" "-ter" "watch"
-    \skip8 "my"4 "weight," "though" "I"8
-    \skip8 "can’t"4 "gain" "too" "much,"8
-    \skip8 ">I’m"8 "-" "get" "-ting" "wor" "-ried."4
-    \skip4 "-"4 ">I"8 "don’t" "care," "cho"
-    \skip8 "-c'late."4 ">Can" "I" "have"8
-    \skip8 "a"4 "lit" "-tle" "bit"8
-    \skip8 "of"8 "-" "cho" "-c'late," "please?"4.
-    \skip4 "-"4 ">I’ve"8 "got" "-ta" "wait,"
-    \skip8 "though."4 "Wait" "a" "whi"8
-    \skip8 "-le,"4 "come" "on." ">Wait,"8
-    \skip8 "wait,"8 "-" "wait."4 "-"4.
+    "@|!mark=Chorus|!check=41|!bg=1"2 "Check|!bg="8 "it" "out," "cho"
+    "!check=42"8 "-c'late."4 ">Can" "I" "have"8
+    "!check=43"8 "a"4 "lit" "-tle" "bit"8
+    "!check=44"8 "of" \skip8 "cho"8 "-c'late," "please?"4.
+    "!check=45"4 \skip4 ">I’d"8 "bet" "-ter" "watch"
+    "!check=46"8 "my"4 "weight," "though" "I"8
+    "!check=47"8 "can’t"4 "gain" "too" "much,"8
+    "!check=48"8 ">I’m" \skip8 "get"8 "-ting" "wor" "-ried."4
+    "!check=49"4 \skip4 ">I"8 "don’t" "care," "cho"
+    "!check=50"8 "-c'late."4 ">Can" "I" "have"8
+    "!check=51"8 "a"4 "lit" "-tle" "bit"8
+    "!check=52"8 "of" \skip8 "cho"8 "-c'late," "please?"4.
+    "!check=53"4 \skip4 ">I’ve"8 "got" "-ta" "wait,"
+    "!check=54"8 "though."4 "Wait" "a" "whi"8
+    "!check=55"8 "-le,"4 "come" "on." ">Wait,"8
+    "!check=56"8 "wait," \skip8 "wait."4 \skip4.
 \mymark "Riff 1" #57
-    "!mark=Riff 1|-"2 ">@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
+    "!mark=Riff 1|!check=57|-"2 ">@"
+    "@|!check=58"2 "@"
+    "@|!check=59"2 "@"
+    "@|!check=60"2 "@"
+    "@|!check=61"2 "@"
+    "@|!check=62"2 "@"
+    "@|!check=63"2 "@"
+    "@|!check=64"2 "@"
 \mymark "Riff 2" #65
-    "@|!mark=Riff 2"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
+    "@|!mark=Riff 2|!check=65"2 "@"
+    "@|!check=66"2 "@"
+    "@|!check=67"2 "@"
+    "@|!check=68"2 "@"
+    "@|!check=69"2 "@"
+    "@|!check=70"2 "@"
+    "@|!check=71"2 "@"
+    "@|!check=72"2 "@"
 \mymark "Verse 2" #73
-    "@|!mark=Verse 2"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@|!bg=4"
-    "@|!bg=3"2 "@|!bg=2"
+    "@|!mark=Verse 2|!check=73"2 "@"
+    "@|!check=74"2 "@"
+    "@|!check=75"2 "@"
+    "@|!check=76"2 "@"
+    "@|!check=77"2 "@"
+    "@|!check=78"2 "@"
+    "@|!check=79"2 "@|!bg=4"
+    "@|!check=80|!bg=3"2 "@|!bg=2"
 \mymark "Chorus" #81
-    "@|!mark=Chorus|!bg=1"2 "Check|!bg="8 "it" "out," "cho"
-    \skip8 "-c'late."4 ">Can" "I" "have"8
-    \skip8 "a"4 "lit" "-tle" "bit"8
-    \skip8 "of"8 "-" "cho" "-c'late," "please?"4.
-    \skip4 "-"4 ">I’d"8 "bet" "-ter" "watch"
-    \skip8 "my"4 "weight," "though" "I"8
-    \skip8 "can’t"4 "gain" "too" "much,"8
-    \skip8 ">I’m"8 "-" "get" "-ting" "wor" "-ried."4
-    \skip4 "-"4 ">I"8 "don’t" "care," "cho"
-    \skip8 "-c'late."4 ">Can" "I" "have"8
-    \skip8 "a"4 "lit" "-tle" "bit"8
-    \skip8 "of"8 "-" "cho" "-c'late," "please?"4.
-    \skip4 "-"4 ">I’ve"8 "got" "-ta" "wait,"
-    \skip8 "though."4 "Wait" "a" "whi"8
-    \skip8 "-le,"4 "come" "on." ">Wait,"8
-    \skip8 "wait,"8 "-" "wait."4 "-"4.
+    "@|!mark=Chorus|!check=81|!bg=1"2 "Check|!bg="8 "it" "out," "cho"
+    "!check=82"8 "-c'late."4 ">Can" "I" "have"8
+    "!check=83"8 "a"4 "lit" "-tle" "bit"8
+    "!check=84"8 "of" \skip8 "cho"8 "-c'late," "please?"4.
+    "!check=85"4 \skip4 ">I’d"8 "bet" "-ter" "watch"
+    "!check=86"8 "my"4 "weight," "though" "I"8
+    "!check=87"8 "can’t"4 "gain" "too" "much,"8
+    "!check=88"8 ">I’m" \skip8 "get"8 "-ting" "wor" "-ried."4
+    "!check=89"4 \skip4 ">I"8 "don’t" "care," "cho"
+    "!check=90"8 "-c'late."4 ">Can" "I" "have"8
+    "!check=91"8 "a"4 "lit" "-tle" "bit"8
+    "!check=92"8 "of" \skip8 "cho"8 "-c'late," "please?"4.
+    "!check=93"4 \skip4 ">I’ve"8 "got" "-ta" "wait,"
+    "!check=94"8 "though."4 "Wait" "a" "whi"8
+    "!check=95"8 "-le,"4 "come" "on." ">Wait,"8
+    "!check=96"8 "wait," \skip8 "wait."4 \skip4.
 \mymark "Post-Chorus" #97
-    ">Pa|!mark=Post-Chorus"8 "-ra" \skip8 "-pa"8 \skip8 "-pa"8 \skip8 "-pa"8
-    \skip8 "-ra"8 "-" "pa" "-" "-pa" "-" "-pa"
-    \skip8 "-ra"8 "-" "pa" "-" "-pa" "-" "-pa"
-    \skip8 "-"8 "pa" "-" "pa" "-pa" "-pa" "-pa."
-    \skip8 "-"4 ">Too,"8 "-" "too" "-" "late."
-    \skip8 "-"4 ">Too,"8 "-" "too" "-" "late."
-    \skip8 "-"4 ">Too,"8 "-" "too." "-" "P!"
-    \skip8 "-"8 "P!" "-" "P!" "-" "Come" "on!"
+    ">Pa|!mark=Post-Chorus|!check=97"8 "-ra" \skip8 "-pa"8 \skip8 "-pa"8 \skip8 "-pa"8
+    "!check=98"8 "-ra" \skip8 "pa"8 \skip8 "-pa"8 \skip8 "-pa"8
+    "!check=99"8 "-ra" \skip8 "pa"8 \skip8 "-pa"8 \skip8 "-pa"8
+    "!check=100"8 \skip8 "pa"8 \skip8 "pa"8 "-pa" "-pa" "-pa."
+    "!check=101"8 \skip4 ">Too,"8 \skip8 "too"8 \skip8 "late."8
+    "!check=102"8 \skip4 ">Too,"8 \skip8 "too"8 \skip8 "late."8
+    "!check=103"8 \skip4 ">Too,"8 \skip8 "too."8 \skip8 "P!"8
+    "!check=104"8 \skip8 "P!"8 \skip8 "P!"8 \skip8 "Come"8 "on!"
 \mymark "Riff 1" #105
-    "!mark=Riff 1|-"2 ">@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
+    "!mark=Riff 1|!check=105|-"2 ">@"
+    "@|!check=106"2 "@"
+    "@|!check=107"2 "@"
+    "@|!check=108"2 "@"
+    "@|!check=109"2 "@"
+    "@|!check=110"2 "@"
+    "@|!check=111"2 "@"
+    "@|!check=112"2 "@"
+    "@|!check=113"2 "@"
+    "@|!check=114"2 "@"
+    "@|!check=115"2 "@"
+    "@|!check=116"2 "@"
+    "@|!check=117"2 "@"
+    "@|!check=118"2 "@"
+    "@|!check=119"2 "@"
+    "@|!check=120"2 "@"
 \mymark "Solo" #121
-    "@|!mark=Solo"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
+    "@|!mark=Solo|!check=121"2 "@"
+    "@|!check=122"2 "@"
+    "@|!check=123"2 "@"
+    "@|!check=124"2 "@"
+    "@|!check=125"2 "@"
+    "@|!check=126"2 "@"
+    "@|!check=127"2 "@"
+    "@|!check=128"2 "@"
+    "@|!check=129"2 "@"
+    "@|!check=130"2 "@"
+    "@|!check=131"2 "@"
+    "@|!check=132"2 "@"
+    "@|!check=133"2 "@"
+    "@|!check=134"2 "@"
+    "@|!check=135"2 "@"
+    "@|!check=136"2 "@"
+    "@|!check=137"2 "@"
+    "@|!check=138"2 "@"
+    "@|!check=139"2 "@"
+    "@|!check=140"2 "@"
+    "@|!check=141"2 "@"
+    "@|!check=142"2 "@"
+    "@|!check=143"2 "@"
+    "@|!check=144"2 "@"
 \mymark "Verse 3" #145
-    "@|!mark=Verse 3"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@"
-    "@"2 "@|!bg=4"
-    "@|!bg=3"2 "@|!bg=2"
+    "@|!mark=Verse 3|!check=145"2 "@"
+    "@|!check=146"2 "@"
+    "@|!check=147"2 "@"
+    "@|!check=148"2 "@"
+    "@|!check=149"2 "@"
+    "@|!check=150"2 "@"
+    "@|!check=151"2 "@|!bg=4"
+    "@|!check=152|!bg=3"2 "@|!bg=2"
 \mymark "Bridge" #153
-    "@|!mark=Bridge|!bg=1"2 "I|!bg="8 "real" "-ly" "tried"
-    \skip8 "my"4 "hard" "-est," "did"8
-    \skip8 "my"4 "best." ">But" "it"8
-    \skip8 "just"4. "was"8 "-n’t" "e" "-nough."
-    \skip4 "-"4 ">Ask"8 "-ing" "with" "all"
-    \skip8 "my"4 "heart," "please" "please"8
-    \skip8 "just"4 "give" "me" ">One"8
-    \skip8 "lit"8 "-" "-tle" "bit" "of" "it," "please."
-    \skip4 "-"4 ">I"8 "need" "it," "cho"
-    \skip8 "-c'late."4 "Hur" "-ry" "up,"8
-    \skip8 "come"4 "on," "give" "me"8
-    \skip8 "cho"8 "-" "-c'late!" "-" ">Pret" "-ty" "please?"
-    \skip4 "-"4 ">I"8 "need" "that" "cho"
-    \skip8 "-c'late"4 "now" "Just" "pass"8
-    \skip8 "it"4 "to" "me," "please!!"8
-    \skip1
+    "@|!mark=Bridge|!check=153|!bg=1"2 "I|!bg="8 "real" "-ly" "tried"
+    "!check=154"8 "my"4 "hard" "-est," "did"8
+    "!check=155"8 "my"4 "best." ">But" "it"8
+    "!check=156"8 "just"4. "was"8 "-n’t" "e" "-nough."
+    "!check=157"4 \skip4 ">Ask"8 "-ing" "with" "all"
+    "!check=158"8 "my"4 "heart," "please" "please"8
+    "!check=159"8 "just"4 "give" "me" ">One"8
+    "!check=160"8 "lit" \skip8 "-tle"8 "bit" "of" "it," "please."
+    "!check=161"4 \skip4 ">I"8 "need" "it," "cho"
+    "!check=162"8 "-c'late."4 "Hur" "-ry" "up,"8
+    "!check=163"8 "come"4 "on," "give" "me"8
+    "!check=164"8 "cho" \skip8 "-c'late!"8 \skip8 ">Pret"8 "-ty" "please?"
+    "!check=165"4 \skip4 ">I"8 "need" "that" "cho"
+    "!check=166"8 "-c'late"4 "now" "Just" "pass"8
+    "!check=167"8 "it"4 "to" "me," "please!!"8
+    "!check=168"1
 \mymark "Chorus" #169
-    "!mark=Chorus|-"2 ">Check"8 "it" "out," "cho"
-    \skip8 "-c'late."4 ">Can" "I" "have"8
-    \skip8 "a"4 "lit" "-tle" "bit"8
-    \skip8 "of"8 "-" "cho" "-c'late," "please?"4.
-    \skip4 "-"4 ">You"8 "know" "it’s" "so"
-    \skip8 "good,"4 ">I’ll" "be" "so"8
-    \skip8 "hap"4 "-py" "I’ll" "work"8
-    \skip8 "hard,"8 "-" "just" "you" "wait" "and" "see."
-    \skip4 "-"4 ">How"8 "'bout" "that" "cho"
-    \skip8 "-c'late?"4 ">Can" "I" "have"8
-    \skip8 "a"4 "lit" "-tle" "bit"8
-    \skip8 "of"8 "-" "cho" "-c'late," "please?"4.
-    \skip4 "-"4 ">Cho"8 "-c'late" "is" "so"
-    \skip8 "good,"4 "and" "I" "need"8
-    \skip8 "it"4 "Just" "a" "lit"8
-    \skip8 "-tle"8 "-" "bit!"4 "-"4.
+    "!mark=Chorus|!check=169|-"2 ">Check"8 "it" "out," "cho"
+    "!check=170"8 "-c'late."4 ">Can" "I" "have"8
+    "!check=171"8 "a"4 "lit" "-tle" "bit"8
+    "!check=172"8 "of" \skip8 "cho"8 "-c'late," "please?"4.
+    "!check=173"4 \skip4 ">You"8 "know" "it’s" "so"
+    "!check=174"8 "good,"4 ">I’ll" "be" "so"8
+    "!check=175"8 "hap"4 "-py" "I’ll" "work"8
+    "!check=176"8 "hard," \skip8 "just"8 "you" "wait" "and" "see."
+    "!check=177"4 \skip4 ">How"8 "'bout" "that" "cho"
+    "!check=178"8 "-c'late?"4 ">Can" "I" "have"8
+    "!check=179"8 "a"4 "lit" "-tle" "bit"8
+    "!check=180"8 "of" \skip8 "cho"8 "-c'late," "please?"4.
+    "!check=181"4 \skip4 ">Cho"8 "-c'late" "is" "so"
+    "!check=182"8 "good,"4 "and" "I" "need"8
+    "!check=183"8 "it"4 "Just" "a" "lit"8
+    "!check=184"8 "-tle" \skip8 "bit!"4 \skip4.
 \mymark "Post-Chorus" #185
-    ">Pa|!mark=Post-Chorus"8 "-ra" \skip8 "-pa"8 \skip8 "-pa"8 \skip8 "-pa"8
-    \skip8 "-ra"8 "-" "pa" "-" "-pa" "-" "-pa"
-    \skip8 "-ra"8 "-" "pa" "-" "-pa" "-" "-pa"
-    \skip8 "-"8 "pa" "-" "pa" "-pa" "-pa" "-pa."
-    \skip8 "-"4 ">Too,"8 "-" "too" "-" "late."
-    \skip8 "-"4 ">Too,"8 "-" "too" "-" "late."
-    \skip8 "-"4 ">Too,"8 "-" "too." "-" "P!"
-    \skip8 "-"8 ">P!" "-" "P!" "-" "Come" "on!"
+    ">Pa|!mark=Post-Chorus|!check=185"8 "-ra" \skip8 "-pa"8 \skip8 "-pa"8 \skip8 "-pa"8
+    "!check=186"8 "-ra" \skip8 "pa"8 \skip8 "-pa"8 \skip8 "-pa"8
+    "!check=187"8 "-ra" \skip8 "pa"8 \skip8 "-pa"8 \skip8 "-pa"8
+    "!check=188"8 \skip8 "pa"8 \skip8 "pa"8 "-pa" "-pa" "-pa."
+    "!check=189"8 \skip4 ">Too,"8 \skip8 "too"8 \skip8 "late."8
+    "!check=190"8 \skip4 ">Too,"8 \skip8 "too"8 \skip8 "late."8
+    "!check=191"8 \skip4 ">Too,"8 \skip8 "too."8 \skip8 "P!"8
+    "!check=192"8 \skip8 ">P!"8 \skip8 "P!"8 \skip8 "Come"8 "on!"
 \mymark "Outro" #193
-    "Pa|!mark=Outro"8 "-ra" \skip8 "-pa"8 \skip8 "-pa"8 \skip8 "-pa"8
-    \skip8 "-ra"8 "-" "pa" "-" "-pa" "-" "-pa"
-    \skip8 "-ra"8 "-" "pa" "-" "-pa" "-" "-pa"
-    \skip8 "-"8 "pa" "-" "pa" "-pa" "-pa" "-pa."
-    \skip8 "-"4 ">Pa"8 "-" "-pa" "-" "-pa"
-    \skip8 "-"4 "pa"8 "-" "-pa" "-" "-pa"
-    \skip8 "-"4 "pa"8 "-" "-pa" "-" "-pa"
-    \skip8 "-"8 "pa" "-" "pa" "-pa" "-pa" "-pa!"
+    "Pa|!mark=Outro|!check=193"8 "-ra" \skip8 "-pa"8 \skip8 "-pa"8 \skip8 "-pa"8
+    "!check=194"8 "-ra" \skip8 "pa"8 \skip8 "-pa"8 \skip8 "-pa"8
+    "!check=195"8 "-ra" \skip8 "pa"8 \skip8 "-pa"8 \skip8 "-pa"8
+    "!check=196"8 \skip8 "pa"8 \skip8 "pa"8 "-pa" "-pa" "-pa."
+    "!check=197"8 \skip4 ">Pa"8 \skip8 "-pa"8 \skip8 "-pa"8
+    "!check=198"8 \skip4 "pa"8 \skip8 "-pa"8 \skip8 "-pa"8
+    "!check=199"8 \skip4 "pa"8 \skip8 "-pa"8 \skip8 "-pa"8
+    "!check=200"8 \skip8 "pa"8 \skip8 "pa"8 "-pa" "-pa" "-pa!"
 }

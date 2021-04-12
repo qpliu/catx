@@ -13,8 +13,13 @@ class VKFileMaker extends LyricsKaraokeFileMaker{
 	super.printMeasure(measure);
     }
     private void addRehearsalMarks(){
-	for (Gpfile.Measure measure:main.gpfile.measures)
+	boolean gotRepeat=false;
+	for (Gpfile.Measure measure:main.gpfile.measures){
+	    gotRepeat |= measure.repeatStart;
 	    if (measure.rehearsalMark!=null)
 		trackEvents.add(new Gpfile.LyricEvent(measure.time,new Rational(measure.time_n),"!mark="+measure.rehearsalMark,false,false,null));
+	    if (!gotRepeat)
+		trackEvents.add(new Gpfile.LyricEvent(measure.time,new Rational(measure.time_n),"!check="+measure.name,false,false,null));
+	}
     }
 }

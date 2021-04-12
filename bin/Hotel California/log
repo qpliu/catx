@@ -3,15 +3,6 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-!mark=Verse 1 count=33 fudgeLyrics=24 divisions=24576 seconds=51.891839999999995 measure=17.0 track=midiKaraoke
-!mark=Verse 2 count=106 fudgeLyrics=24 divisions=36864 seconds=77.83775999999999 measure=25.0 track=midiKaraoke
-!mark=Chorus count=181 fudgeLyrics=24 divisions=49152 seconds=103.78367999999999 measure=33.0 track=midiKaraoke
-!mark=Verse 3 count=247 fudgeLyrics=24 divisions=61440 seconds=129.72959999999998 measure=41.0 track=midiKaraoke
-!mark=Verse 4 count=316 fudgeLyrics=24 divisions=73728 seconds=155.67551999999998 measure=49.0 track=midiKaraoke
-!mark=Chorus count=388 fudgeLyrics=24 divisions=86016 seconds=181.62143999999998 measure=57.0 track=midiKaraoke
-!mark=Verse 5 count=457 fudgeLyrics=24 divisions=98304 seconds=207.56735999999998 measure=65.0 track=midiKaraoke
-!mark=Verse 6 count=529 fudgeLyrics=24 divisions=110592 seconds=233.51327999999998 measure=73.0 track=midiKaraoke
-!mark=Solo count=601 fudgeLyrics=24 divisions=122880 seconds=259.45919999999995 measure=81.0 track=midiKaraoke
 WorstAge=2147483648
 Playing out.midi
 MIDI file: out.midi
@@ -21,10 +12,10 @@ Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
-->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!mark=Verse 1|-On|!bg=adarkdeserthighway,-cool-windinmyhair,-->warm-smell-ofcolitas--risingupthroughtheair.-->Upaheadinthedistance--Isawashimmeringlight.-->Myheadgrewheavyandmysightgrewdim,-->Ihadtostopforthenight.|!bg=img=../night.png!bg=!mark=Verse 2|->Thereshestoodinthedoorway;-Iheardthemissionbell.-->An'Iwasthinkin'tomyself,>thiscouldbeheavenorthiscouldbe-hell.-->Thenshelitupacandle,--an'sheshowedmetheway.-->Therewerevoicesdownthe-corridor,-->IthoughtIheardthem-say:-!mark=Chorus|->"WelcometotheHotelCalifor-nia,->suchalove-lyplace,(suchalove-lyplace),>suchalove-lyface.->PlentyofroomattheHotelCal-ifor-nia.->Anytime-ofyear,(anytime-ofyear),>youcanfind-ithere.-!mark=Verse 3|->HermindisTiffanytwisted.->ShegottheMercedesbends.-(Uh)-->Shegotalotofpretty,-prettyboys-->thatshecallsfriends.-->Howtheydanceinthecourtyard,-sweetsummersweat.-->Somedancetoremem-ber,--somedancetoforget.-!mark=Verse 4|->SoIcalledupthecaptain,-"Pleasebringmemywine."->Hesaidthat-"Wehaven'thadthatspiritheresince->nine-teensixtynine.-->An'-stillthosevoicesarecallingfromfar-away.-->Wakeyouup-inthemiddleofthenight|!bg=img=../night.png!bg=>justtohearthem-say:-!mark=Chorus|->"WelcometotheHotelCalifor-nia,->suchalove-lyplace,(suchalove-lyplace),>suchalove-lyface.->They'relivin'itup-at-theHotelCal-ifor-nia.->Whatanice-surprise.(Whatanice-surprise.)>Bringyoural-ibis.-!mark=Verse 5|->Mirrorsontheceiling,-thepinkchampagneonice,->An'shesaid,-->"Wearealljustprisonershere--ofourown-device."-->An'inthemaster'schambers-->theygatheredforthefeast.-->Theystabitwiththeirsteelyknives->buttheyjustcan'tkillthebeast.-!mark=Verse 6|->LastthingIrememberIwas-runningforthedoor.-->Ihadtofindthepassageback-totheplaceIwas-before.-->"Relax,"saidthenight|!bg=img=../night.pngman,!bg=>"Weare-programmedtoreceive.-->Youcancheckoutanytimeyoulike,-->butyoucannever-leave."-!mark=Solo|-@@----------------------------------------Playing time: ~398 seconds
+>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!mark=Verse 1|-On|!bg=adarkdeserthighway,coolwindinmyhair,>warmsmellofcolitasrisingupthroughtheair.>UpaheadinthedistanceIsawashimmeringlight.>Myheadgrewheavyandmysightgrewdim,>Ihadtostopforthenight.|!bg=img=../night.png!bg=!mark=Verse 2|->Thereshestoodinthedoorway;Iheardthemissionbell.>An'Iwasthinkin'tomyself,>thiscouldbeheavenorthiscouldbehell.>Thenshelitupacandle,an'sheshowedmetheway.>Therewerevoicesdownthecorridor,>IthoughtIheardthemsay:!mark=Chorus|->"WelcometotheHotelCalifornia,>suchalovelyplace,(suchalovelyplace),>suchalovelyface.>PlentyofroomattheHotelCalifornia.>Anytimeofyear,(anytimeofyear),>youcanfindithere.!mark=Verse 3|->HermindisTiffanytwisted.>ShegottheMercedesbends.(Uh)>Shegotalotofpretty,prettyboys>thatshecallsfriends.>Howtheydanceinthecourtyard,sweetsummersweat.>Somedancetoremember,somedancetoforget.!mark=Verse 4|->SoIcalledupthecaptain,"Pleasebringmemywine.">Hesaidthat"Wehaven'thadthatspiritheresince>nineteensixtynine.>An'stillthosevoicesarecallingfromfaraway.>Wakeyouupinthemiddleofthenight|!bg=img=../night.png!bg=>justtohearthemsay:!mark=Chorus|->"WelcometotheHotelCalifornia,>suchalovelyplace,(suchalovelyplace),>suchalovelyface.>They'relivin'itupattheHotelCalifornia.>Whatanicesurprise.(Whatanicesurprise.)>Bringyouralibis.!mark=Verse 5|->Mirrorsontheceiling,thepinkchampagneonice,>An'shesaid,>"Wearealljustprisonershereofourowndevice.">An'inthemaster'schambers>theygatheredforthefeast.>Theystabitwiththeirsteelyknives>buttheyjustcan'tkillthebeast.!mark=Verse 6|->LastthingIrememberIwasrunningforthedoor.>IhadtofindthepassagebacktotheplaceIwasbefore.>"Relax,"saidthenight|!bg=img=../night.pngman,!bg=>"Weareprogrammedtoreceive.>Youcancheckoutanytimeyoulike,>butyoucanneverleave."!mark=Solo|-@@-----------------Playing time: ~398 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 39026787/70017692 bytes(55.7385% compressed)
+Wrote 39036348/70017692 bytes(55.7521% compressed)
 warning: compressing over-full page by 39.4 staff-spaces
 warning: page 0 has been compressed
 warning: compressing over-full page by 32.1 staff-spaces
@@ -51,13 +42,13 @@ warning: compressing over-full page by 49.6 staff-spaces
 warning: page 11 has been compressed
 warning: compressing over-full page by 43.7 staff-spaces
 warning: page 12 has been compressed
-warning: compressing over-full page by 48.2 staff-spaces
+warning: compressing over-full page by 49.6 staff-spaces
 warning: page 13 has been compressed
-warning: compressing over-full page by 46.6 staff-spaces
+warning: compressing over-full page by 47.6 staff-spaces
 warning: page 14 has been compressed
 warning: compressing over-full page by 47.7 staff-spaces
 warning: page 15 has been compressed
-warning: compressing over-full page by 47.6 staff-spaces
+warning: compressing over-full page by 48.3 staff-spaces
 warning: page 16 has been compressed
 warning: compressing over-full page by 46.4 staff-spaces
 warning: page 17 has been compressed
@@ -73,15 +64,15 @@ warning: compressing over-full page by 47.7 staff-spaces
 warning: page 22 has been compressed
 warning: compressing over-full page by 48.6 staff-spaces
 warning: page 23 has been compressed
-warning: compressing over-full page by 52.2 staff-spaces
+warning: compressing over-full page by 52.5 staff-spaces
 warning: page 24 has been compressed
-warning: compressing over-full page by 47.1 staff-spaces
+warning: compressing over-full page by 49.9 staff-spaces
 warning: page 25 has been compressed
-warning: compressing over-full page by 51.3 staff-spaces
+warning: compressing over-full page by 52.3 staff-spaces
 warning: page 26 has been compressed
 warning: compressing over-full page by 46.4 staff-spaces
 warning: page 27 has been compressed
-warning: compressing over-full page by 51.4 staff-spaces
+warning: compressing over-full page by 52.1 staff-spaces
 warning: page 28 has been compressed
 warning: compressing over-full page by 43.1 staff-spaces
 warning: page 29 has been compressed

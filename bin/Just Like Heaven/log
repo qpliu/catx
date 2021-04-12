@@ -4,14 +4,6 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-!mark=Intro count=0 fudgeLyrics=192 divisions=0 seconds=0.0 measure=1.0 track=midiKaraoke
-!mark=Verse 1 count=69 fudgeLyrics=192 divisions=50688 seconds=51.76459199999999 measure=34.0 track=midiKaraoke
-!mark=Interlude count=137 fudgeLyrics=192 divisions=75264 seconds=76.86257599999999 measure=50.0 track=midiKaraoke
-!mark=Verse 2 count=153 fudgeLyrics=192 divisions=87552 seconds=89.41156799999999 measure=58.0 track=midiKaraoke
-!mark=Chorus count=214 fudgeLyrics=192 divisions=112128 seconds=114.50955199999999 measure=74.0 track=midiKaraoke
-!mark=Piano Solo count=253 fudgeLyrics=192 divisions=127488 seconds=130.19579199999998 measure=84.0 track=midiKaraoke
-!mark=Verse 3 count=287 fudgeLyrics=192 divisions=152064 seconds=155.29377599999998 measure=100.0 track=midiKaraoke
-!mark=Chorus count=351 fudgeLyrics=192 divisions=176640 seconds=180.39175999999998 measure=116.0 track=midiKaraoke
 WorstAge=2147484992
 Playing out.midi
 MIDI file: out.midi
@@ -22,10 +14,10 @@ Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
 Track name: midiOne
->@|!mark=Intro@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Show|!bg=me,showme,show|!mark=Verse 1mehowyoudothattrick.->Theonethatmakesmescream,shesaid.->Theonethatmakesmelaugh,shesaid.->Andthrewherarmsa-roundmyneck.->Showmehowyoudoit,->andIpro-miseyouIpro-misethatI'llruna-waywithyou.-->I'llruna-waywithyou.-->@@|!mark=Interlude@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Spin|!mark=Verse 2|!bg=-ningonthatdiz-zyedge.->Kissedherfaceandkissedherhead.->Dreamedofallthediffe-rentwaysIhadtomakeherglow.->Whyareyousofara-way?,shesaid.>Whywon'tyoue-verknowthatI'minlovewithyou?-->ThatI'minlovewithyou?-->You,|!mark=Chorus-softandon-ly.You,--lostandlone-ly.You,-->strangeasan-gelsdan-cinginthedeep-esto-ceans>twis-tinginthewa-ter.You'rejustlikeadream.!mark=Piano Solo|-->You'rejustlikeadream.->@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Day|!mark=Verse 3|!bg=-lightlickedmein-toshape.->Imusthavebeena-sleepfordays.>Andmov-inglipstobreathehername.>Io-penedupmyeyes-andfoundmy-selfa-lone,>a-lonea-lonea-bovearag-ingseathatstoletheon-lygirl>Ilovedanddrownedherdeepin-sideofme.->You,|!mark=Chorus-softandon-ly.You,--lostandlone-ly.You,-->justlikehea-ven.-@@--Playing time: ~201 seconds
+>@|!mark=Intro@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Show|!bg=me,showme,show|!mark=Verse 1mehowyoudothattrick.>Theonethatmakesmescream,shesaid.>Theonethatmakesmelaugh,shesaid.>Andthrewherarmsa-roundmyneck.>Showmehowyoudoit,>andIpro-miseyouIpro-misethatI'llruna-waywithyou.>I'llruna-waywithyou.>@@|!mark=Interlude@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Spin|!mark=Verse 2|!bg=-ningonthatdiz-zyedge.>Kissedherfaceandkissedherhead.>Dreamedofallthediffe-rentwaysIhadtomakeherglow.>Whyareyousofara-way?,shesaid.>Whywon'tyoue-verknowthatI'minlovewithyou?>ThatI'minlovewithyou?>You,|!mark=Chorussoftandon-ly.You,lostandlone-ly.You,>strangeasan-gelsdan-cinginthedeep-esto-ceans>twis-tinginthewa-ter.You'rejustlikeadream.!mark=Piano Solo|->You'rejustlikeadream.>@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Day|!mark=Verse 3|!bg=-lightlickedmein-toshape.>Imusthavebeena-sleepfordays.>Andmov-inglipstobreathehername.>Io-penedupmyeyesandfoundmy-selfa-lone,>a-lonea-lonea-bovearag-ingseathatstoletheon-lygirl>Ilovedanddrownedherdeepin-sideofme.>You,|!mark=Chorussoftandon-ly.You,lostandlone-ly.You,>justlikehea-ven.@@Playing time: ~201 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 21287391/35193520 bytes(60.4867% compressed)
+Wrote 21284336/35193520 bytes(60.478% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
