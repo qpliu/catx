@@ -17,7 +17,7 @@
 \include "vocaloid"
 
 layoutmusic = <<
-    \tag #'(allPart kavPart susanPart) \new Staff \with {
+    \tag #'(allPart kavPart) \new Staff \with {
 	instrumentName = \markup { \rotate #90 "Vocals" }
 	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
@@ -25,6 +25,14 @@ layoutmusic = <<
 	\clef "treble_8"
 	\snakesPart
 	\voLyrics
+    >>
+    \tag #'(allPart susanPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Steelpan" }
+	shortInstrumentName = \markup { \rotate #90 "Sp" }
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\voPart
     >>
     \tag #'(allPart peterPart) <<
 	\new ChordNames { \egChords }

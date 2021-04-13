@@ -4,20 +4,22 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147484992
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 6  Divisions: 384
+Format: 1  Tracks: 7  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
+Track name: midiVocaloid
 Track name: midiOne
->@|!mark=Intro@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Show|!bg=me,showme,show|!mark=Verse 1mehowyoudothattrick.>Theonethatmakesmescream,shesaid.>Theonethatmakesmelaugh,shesaid.>Andthrewherarmsa-roundmyneck.>Showmehowyoudoit,>andIpro-miseyouIpro-misethatI'llruna-waywithyou.>I'llruna-waywithyou.>@@|!mark=Interlude@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Spin|!mark=Verse 2|!bg=-ningonthatdiz-zyedge.>Kissedherfaceandkissedherhead.>Dreamedofallthediffe-rentwaysIhadtomakeherglow.>Whyareyousofara-way?,shesaid.>Whywon'tyoue-verknowthatI'minlovewithyou?>ThatI'minlovewithyou?>You,|!mark=Chorussoftandon-ly.You,lostandlone-ly.You,>strangeasan-gelsdan-cinginthedeep-esto-ceans>twis-tinginthewa-ter.You'rejustlikeadream.!mark=Piano Solo|->You'rejustlikeadream.>@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Day|!mark=Verse 3|!bg=-lightlickedmein-toshape.>Imusthavebeena-sleepfordays.>Andmov-inglipstobreathehername.>Io-penedupmyeyesandfoundmy-selfa-lone,>a-lonea-lonea-bovearag-ingseathatstoletheon-lygirl>Ilovedanddrownedherdeepin-sideofme.>You,|!mark=Chorussoftandon-ly.You,lostandlone-ly.You,>justlikehea-ven.@@Playing time: ~201 seconds
+>@|!mark=Intro!mark=Intro@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Show|!bg=(S'oU)me,(m'i:)show(S'oU)me,(m'i:)show|!mark=Verse 1(S'oU)|!mark=Verse 1me(m'i:)how(h'aU)you(j'u:)do(d'u:)that(D'at)trick.(tr'Ik)>The(D'@)one(w'0n)that(D'at)makes(m'eIks)me(m'i:)scream,(skr'i:m)she(S'i:)said.(s'Ed)>The(D'@)one(w'0n)that(D'at)makes(m'eIks)me(m'i:)laugh,(l'aaf)she(S'i:)said.(s'Ed)>And('and)threw(Tr'u:)her(h'3:)arms('A@mz)a('@)-round(r'aUnd)my(m'aI)neck.(n'Ek)>Show(S'oU)me(m'i:)how(h'aU)you(j'u:)do(d'u:)it,('It)>and('and)I('aI)pro(pr'0:)-mise(m'Is)you(j'u:)I('aI)pro(pr'0:)-mise(m'Is)that(D'at)I'll('aIl)run(r'Vn)a('@)-way(w'eI)with(w'ID)you.(j'u:)>I'll('aIl)run(r'Vn)a('@)-way(w'eI)with(w'ID)you.(j'u:)>@@|!mark=Interlude!mark=Interlude@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Spin|!mark=Verse 2|!bg=(sp'I:)|!mark=Verse 2-ning(n'IN)on('0n)that(D'at)diz(d'I:)-zy(z'i:)edge.('EdZ)>Kissed(k'Ist)her(h'3:)face(f'eIs)and('and)kissed(k'Ist)her(h'3:)('3:)head.(h'Ed)>Dreamed(dr'i:)('i:md)of('0v)all('O:l)the(D'@)diffe(d'I)-rent(fr@nt)ways(w'eIz)I('aI)had(h'ad)to(t'u:)make(m'eIk)her(h'3:)glow.(gl'oU)>Why(w'aI)are('A@)you(j'u:)so(s'oU)far(f'A@)a('@)-way?,(w'eI)she(S'i:)said.(s'Ed)>Why(w'aI)won't(w'oUnt)you(j'u:)e('E:)-ver(v'3:)know(n'oU)that(D'at)I'm('aIm)in('In)love(l'Vv)with(w'ID)you?(j'u:)>That(D'at)I'm('aIm)in('In)love(l'Vv)with(w'ID)you?(j'u:)>You,|!mark=Chorus(j'u:)|!mark=Chorus('u:)('u:)soft(s'0ft)and('and)on('oUn)-ly.(l'i:)You,(j'u:)('u:)('u:)lost(l'0st)and('and)lone(l'oUn)-ly.(l'i:)You,(j'u:)('u:)('u:)>strange(str'eIndZ)as('az)an('eIn)-gels(dZ'@lz)dan(d'an)-cing(s'IN)in('In)the(D'@)deep(d'i:)-est(p@st)o('oU)-ceans(S@nz)>twis(tw'I:)-ting(st'IN)in('In)the(D'@)wa(w'O:)-ter.(t'3:)You're(j'O@)just(dZ'Vst)like(l'aIk)a('@)dream.(dr'i:m)!mark=Piano Solo|-!mark=Piano Solo>You're(j'O@)just(dZ'Vst)like(l'aIk)a('@)dream.(dr'i:m)>@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Day|!mark=Verse 3|!bg=(d'eI)|!mark=Verse 3-light(l'aIt)licked(l'Ikt)me(m'i:)in('In)-to(t'u:)shape.(S'eIp)>I('aI)must(m'Vst)have(h'av)been(b'i:n)a('@)-sleep(sl'i:p)for(f'O@)days.(d'eIz)>And('and)mov(m'u:)-ing(v'IN)lips(l'Ips)to(t'u:)breathe(br'i:D)her(h'3:)name.(n'eIm)>I('aI)o('oU)-pened(p'@nd)up('Vp)my(m'aI)eyes('aIz)and('and)found(f'aUnd)my(m'aI)-self(s'Elf)a('@)-lone,(l'oUn)>a('@)-lone(l'oUn)a('@)-lone(l'oUn)a('@)-bove(b'Vv)a('@)rag(r'eI)-ing(dZ'IN)sea(s'i:)that(D'at)stole(st'oUl)the(D'@)on('oU)-ly(nli:)girl(g'3:l)>I('aI)loved(l'Vvd)and('and)drowned(dr'aUnd)her(h'3:)deep(d'i:p)in('In)-side(s'aId)of('0v)me.(m'i:)>You,|!mark=Chorus(j'u:)|!mark=Chorus('u:)('u:)soft(s'0ft)and('and)on('oU)-ly.(nl'i:)You,(j'u:)('u:)('u:)lost(l'0st)and('and)lone(l'oU)-ly.(nl'i:)You,(j'u:)('u:)('u:)>just(dZ'Vst)like(l'aIk)hea(h'E:)-ven.(v'@n)@@Playing time: ~201 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 21284336/35193520 bytes(60.478% compressed)
+Wrote 21326174/35193520 bytes(60.5969% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

@@ -1,0 +1,135 @@
+vocaloidVocaloid = \new Lyrics \lyricmode {
+\mymark "Intro" #1
+    "!mark=Intro|!check=1"1
+    "!check=2"1
+    "!check=3"1
+    "!check=4"1
+    "!check=5"1
+    "!check=6"1
+    "!check=7"1
+    "!check=8"1
+    "!check=9"1
+    "!check=10"1
+    "!check=11"1
+    "!check=12"1
+    "!check=13"1
+    "!check=14"1
+    "!check=15"1
+    "!check=16"1
+    "!check=17"1
+    "!check=18"1
+    "!check=19"1
+    "!check=20"1
+    "!check=21"1
+    "!check=22"1
+    "!check=23"1
+    "!check=24"1
+    "!check=25"1
+    "!check=26"1
+    "!check=27"1
+    "!check=28"1
+    "!check=29"1
+    "!check=30"1
+    "!check=31"1
+    "!check=32"1
+    "!check=33"2 "(S'oU)"8 "(m'i:)" "(S'oU)" "(m'i:)"
+\mymark "Verse 1" #34
+    "(S'oU)|!mark=Verse 1|!check=34"4 "(m'i:)" "(h'aU)" "(j'u:)"8 "(d'u:)"
+    "!check=35"8 "(D'at)"4 "(tr'Ik)"4. \skip8 "(D'@)"8
+    "(w'0n)|!check=36"8 "(D'at)"4 "(m'eIks)" "(m'i:)" "(skr'i:m)"8
+    "!check=37"4 "(S'i:)" "(s'Ed)" \skip8 "(D'@)"8
+    "(w'0n)|!check=38"8 "(D'at)"4 "(m'eIks)" "(m'i:)" "(l'aaf)"8
+    "!check=39"4 "(S'i:)"8 "(s'Ed)"4. \skip8 "('and)"8
+    "(Tr'u:)|!check=40"8 "(h'3:)"4 "('A@mz)"4. "('@)"8 "(r'aUnd)"
+    "!check=41"8 "(m'aI)"4 "(n'Ek)"4. \skip4
+    "(S'oU)|!check=42"4 "(m'i:)" "(h'aU)" "(j'u:)"8 "(d'u:)"
+    "!check=43"8 "('It)"4 \skip4. "('and)"8 "('aI)"
+    "(pr'0:)|!check=44"8 "(m'Is)"4 "(j'u:)"4. "('aI)"4
+    "(pr'0:)|!check=45"8 "(m'Is)"4 "(D'at)" "('aIl)"8 "(r'Vn)" "('@)"
+    "(w'eI)|!check=46"4 "(w'ID)"8 "(j'u:)"2 \skip8
+    "!check=47"2 \skip8 "('aIl)"8 "(r'Vn)" "('@)"
+    "(w'eI)|!check=48"4 "(w'ID)"8 "(j'u:)"2 \skip8
+    "!check=49"1
+\mymark "Interlude" #50
+    "!mark=Interlude|!check=50"1
+    "!check=51"1
+    "!check=52"1
+    "!check=53"1
+    "!check=54"1
+    "!check=55"1
+    "!check=56"1
+    "!check=57"1
+\mymark "Verse 2" #58
+    "(sp'I:)|!mark=Verse 2|!check=58"4 "(n'IN)"8 "('0n)"4 "(D'at)" "(d'I:)"8
+    "!check=59"8 "(z'i:)"4 "('EdZ)"4. \skip8 "(k'Ist)"8
+    "(h'3:)|!check=60"8 "(f'eIs)"4 "('and)" "(k'Ist)" "(h'3:)"8
+    "!check=61"8 "('3:)"4 "(h'Ed)"4. \skip8 "(dr'i:)"8
+    "('i:md)|!check=62"4 "('0v)"8 "('O:l)"4 "(D'@)" "(d'I)"8
+    "!check=63"8 "(fr@nt)"4 "(w'eIz)"2 "('aI)"8
+    "(h'ad)|!check=64"8 "(t'u:)"4 "(m'eIk)" "(h'3:)" "(gl'oU)"8
+    "!check=65"4. \skip2 \skip8
+    "(w'aI)|!check=66"4 "('A@)"8 "(j'u:)"4 "(s'oU)" "(f'A@)"8
+    "!check=67"8 "('@)"4 "(w'eI)"4. "(S'i:)"8 "(s'Ed)"
+    "!check=68"4 "(w'aI)" "(w'oUnt)" "(j'u:)"
+    "('E:)|!check=69"8 "(v'3:)"4 "(n'oU)" "(D'at)"8 "('aIm)" "('In)"
+    "(l'Vv)|!check=70"4. "(w'ID)"4 "(j'u:)" \skip8
+    "!check=71"2 \skip8 "(D'at)"8 "('aIm)" "('In)"
+    "(l'Vv)|!check=72"4 "(w'ID)"8 "(j'u:)"2 \skip8
+    "!check=73"1
+\mymark "Chorus" #74
+    "(j'u:)|!mark=Chorus|!check=74"8 "('u:)"4. "('u:)" \skip8
+    "!check=75"8 "(s'0ft)"4 "('and)"8 "('oUn)"4 "(l'i:)"
+    "(j'u:)|!check=76"8 "('u:)"4. "('u:)" \skip8
+    "!check=77"8 "(l'0st)"4 "('and)"8 "(l'oUn)"4 "(l'i:)"
+    "(j'u:)|!check=78"8 "('u:)"4. "('u:)" \skip8
+    "!check=79"8 "(str'eIndZ)"4 "('az)"8 "('eIn)"4 "(dZ'@lz)"
+    "(d'an)|!check=80"8 "(s'IN)"4 "('In)" "(D'@)" "(d'i:)"8
+    "!check=81"8 "(p@st)"4 "('oU)" "(S@nz)"4.
+    "(tw'I:)|!check=82"8 "(st'IN)"4 "('In)" "(D'@)" "(w'O:)"8
+    "!check=83"8 "(t'3:)" "(j'O@)"4 "(dZ'Vst)"8 "(l'aIk)" "('@)" "(dr'i:m)"
+\mymark "Piano Solo" #84
+    "!mark=Piano Solo|!check=84"4 \skip2.
+    "!check=85"4 "(j'O@)"8 "(dZ'Vst)"4 "(l'aIk)"8 "('@)"4
+    "(dr'i:m)|!check=86"4. \skip2 \skip8
+    "!check=87"1
+    "!check=88"1
+    "!check=89"1
+    "!check=90"1
+    "!check=91"1
+    "!check=92"1
+    "!check=93"1
+    "!check=94"1
+    "!check=95"1
+    "!check=96"1
+    "!check=97"1
+    "!check=98"1
+    "!check=99"1
+\mymark "Verse 3" #100
+    "(d'eI)|!mark=Verse 3|!check=100"8 "(l'aIt)"4 "(l'Ikt)" "(m'i:)" "('In)"8
+    "!check=101"8 "(t'u:)"4 "(S'eIp)"4. \skip8 "('aI)"8
+    "(m'Vst)|!check=102"8 "(h'av)"4 "(b'i:n)" "('@)" "(sl'i:p)"8
+    "!check=103"8 "(f'O@)"4 "(d'eIz)"2 "('and)"8
+    "(m'u:)|!check=104"8 "(v'IN)"4 "(l'Ips)"4. "(t'u:)"8 "(br'i:D)"
+    "!check=105"8 "(h'3:)"4 "(n'eIm)"2 "('aI)"8
+    "('oU)|!check=106"8 "(p'@nd)"4 "('Vp)" "(m'aI)" "('aIz)"8
+    "!check=107"2 \skip4. "('and)"8
+    "(f'aUnd)|!check=108"4 "(m'aI)" "(s'Elf)" "('@)"8 "(l'oUn)"
+    "!check=109"4 "('@)"8 "(l'oUn)"4. "('@)"8 "(l'oUn)"
+    "!check=110"4 "('@)"8 "(b'Vv)"4 "('@)" "(r'eI)"8
+    "!check=111"8 "(dZ'IN)"4 "(s'i:)"2 "(D'at)"8
+    "(st'oUl)|!check=112"4 "(D'@)"8 "('oU)"4 "(nli:)" "(g'3:l)"8
+    "!check=113"8 "('aI)"4 "(l'Vvd)"4. "('and)"4
+    "(dr'aUnd)|!check=114"4 "(h'3:)" "(d'i:p)"8 "('In)"4 "(s'aId)"8
+    "!check=115"8 "('0v)"4 "(m'i:)"2 \skip8
+\mymark "Chorus" #116
+    "(j'u:)|!mark=Chorus|!check=116"8 "('u:)"4. "('u:)" \skip8
+    "!check=117"8 "(s'0ft)"4 "('and)"8 "('oU)"4 "(nl'i:)"
+    "(j'u:)|!check=118"8 "('u:)"4. "('u:)" \skip8
+    "!check=119"8 "(l'0st)"4 "('and)"8 "(l'oU)"4 "(nl'i:)"
+    "(j'u:)|!check=120"8 "('u:)"4. "('u:)" \skip8
+    "!check=121"8 "(dZ'Vst)"4 "(l'aIk)"8 "(h'E:)"4 "(v'@n)"
+    "!check=122"1
+    "!check=123"1
+    "!check=124"1
+    "!check=125"1
+}
