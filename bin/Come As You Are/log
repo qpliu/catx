@@ -3,19 +3,21 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147484608
 Playing out.midi
 MIDI file: out.midi
-Format: 1  Tracks: 5  Divisions: 384
+Format: 1  Tracks: 6  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
 Track name: midiKaraoke
->@|!mark=Intro@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Come|!mark=Verse|!bg=asyouareasyouwereAsIwantyoutobe>AsafriendasafriendAsaknownene-myTake>yourtimehur-ryupThechoiceisyoursdon'tbelateTake>arestasafriendAsanoldMemo-ria!mark=Pre-Chorus|-mem-o-riaMem-o-ri>amem-o-riaComedousedinmudsoakedin>bleach|!mark=VerseAsIwantyoutobeAsatrendasafriendAsanold>Memo-riamem-o-ria!mark=Pre-Chorus|-Mem-o-riamem-o-ri>aAndIswearthatIdon'thaveagun!mark=Chorus|->NoIdon'thaveagunNoIdon't>haveagunriamem-o-riaMem-o-ri>@!mark=Interlude|-@@@@@@@@!mark=Solo|-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2!mark=Pre-Chorus|-@|!bg=1a|!bg=mem-o-riaAndIswearthatIdon'thaveagun>NoIdon'thaveagun!mark=Chorus|->NoIdon'thaveagunNoIdon'thavea>gunNoIdon'thaveagunNo>Idon'thaveagunMem-o-riamem-o-ria@@!mark=Outro|-Playing time: ~219 seconds
+Track name: midiVocaloid
+>@|!mark=Intro!mark=Intro@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Come|!mark=Verse|!bg=(k'Vm)|!mark=Verseas('az)you(j'u:)are('A@)as('az)you(j'u:)were(w'3:)As('az)I('aI)want(w'0)('0nt)you(j'u:)(j'u:)to(t'u:)be(b'i:)>As('az)a('eI)friend(fr'End)as('az)a('eI)friend(fr'End)As('az)a('eI)known(n'oU)('oUn)e('E)-ne('E)-my(n@)(mi)>Take(t'eIk)your(j'O@)time(t'aIm)hur(h'V)-ry(ri)up('Vp)The(D'@)choice(tS'OIs)is('Iz)yours(j'o)('o@z)don't(d'oU)(oUnt)be(b'i:)late(l'eIt)>Take(t'eIk)a('eI)rest(r'Est)as('az)a('eI)friend(fr'End)As('az)an('a#n)old('oU)('oUld)Me(mE)-mo(m'o@)-ri(ri)(i:)!mark=Pre-Chorus|-!mark=Pre-Chorus-a(@)(@)(@)>Me(mE)-mo(m'o@)-ri(ri)(i:)-a(@)(@)Me(mE)-mo(m'o@)-ri(ri)(i:)-a(@)(@)Me(mE)-mo(m'o@)-ri(ri)(i:)-a(@)(@)>Come|!mark=Verse(k'Vm)|!mark=Versedoused(d'aUsd)in('In)mud(m'Vd)soaked(s'oUkt)in('In)bleach(bl'i:tS)As('az)I('aI)want(w'0)('0nt)you(j'u:)(u:)to(t'u:)be(b'i:)>As('az)a('eI)trend(tr'End)as('az)a('eI)friend(fr'End)As('az)an('a#n)old('oU)('oUld)Me(mE)-mo(m'o@)-ri(ri)(i:)!mark=Pre-Chorus|-!mark=Pre-Chorus-a(@)(@)(@)>Me(mE)-mo(m'o@)-ri(ri)(i:)-a(@)(@)Me(mE)-mo(m'o@)-ri(ri)(i:)-a(@)(@)Me(mE)-mo(m'o@)-ri(ri)(i:)-a(@)(@)!mark=Chorus|-!mark=Chorus>And('and)I('aI)swear(sw'e@)that(D'at)I('aI)don't(d'oU)('oUnt)have(h'av)a('eI)gun(g'V)('Vn)>No(n'oU)I('aI)don't(d'oU)('oUnt)have(h'av)a('eI)gun(g'V)('Vn)>No(n'oU)I('aI)don't(d'oU)('oUnt)have(h'av)a('eI)gun(g'V)('Vn)>@@|!mark=Interlude!mark=Interlude@@@@@@@@|!mark=Solo!mark=Solo@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Me|!mark=Pre-Chorus|!bg=(mE)|!mark=Pre-Chorus-mo(m'o@)-ri(ri)-a(@)Me(mE)-mo(m'o@)-ri(ri)(i:)-a(@)(@)Me(mE)-mo(m'o@)-ri(ri)(i:)-a(@)(@)Me(mE)-mo(m'o@)-ri(ri)(i:)-a(@)(@)!mark=Chorus|-!mark=Chorus>And('and)I('aI)swear(sw'e@)that(D'at)I('aI)don't(d'oU)('oUnt)have(h'av)a('eI)gun(g'V)('Vn)>No(n'oU)I('aI)don't(d'oU)('oUnt)have(h'av)a('eI)gun(g'V)('Vn)>No(n'oU)I('aI)don't(d'oU)('oUnt)have(h'av)a('eI)gun(g'V)('Vn)>No(n'oU)I('aI)don't(d'oU)('oUnt)have(h'av)a('eI)gun(g'V)('Vn)>No(n'oU)I('aI)don't(d'oU)('oUnt)have(h'av)a('eI)gun(g'V)('Vn)>@@|!mark=Outro!mark=Outro@@Me(mE)-mo(m'o@)-ri(ri)(i:)-a(@)(@)>Me(mE)-mo(m'o@)-ri(ri)(i:)-a(@)(@)@@Playing time: ~219 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 22609137/38367080 bytes(58.9285% compressed)
+Wrote 22653372/38367080 bytes(59.0438% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 6.2 staff-spaces

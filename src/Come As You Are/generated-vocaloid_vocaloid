@@ -1,0 +1,120 @@
+vocaloidVocaloid = \new Lyrics \lyricmode {
+\mymark "Intro" #1
+    "!mark=Intro|!check=1"1
+    "!check=2"1
+    "!check=3"1
+    "!check=4"1
+    "!check=5"1
+    "!check=6"1
+    "!check=7"1
+    "!check=8"1
+    "!check=9"1
+\mymark "Verse" #10
+    "(k'Vm)|!mark=Verse|!check=10"4 \skip4 "('az)"4 "(j'u:)"8 "('A@)"
+    "!check=11"8 \skip4. "('az)"4 "(j'u:)"8 "(w'3:)"
+    "!check=12"4 \skip4 "('az)"8 "('aI)"4 "(w'0)"8
+    "('0nt)|!check=13"4. "(j'u:)"8 "(j'u:)"4 "(t'u:)"8 "(b'i:)"
+    "!check=14"8 \skip4. "('az)"4 "('eI)"8 "(fr'End)"
+    "!check=15"8 \skip4. "('az)"4 "('eI)"8 "(fr'End)"
+    "!check=16"8 \skip4. "('az)"8 "('eI)"4 "(n'oU)"8
+    "('oUn)|!check=17"4. "('E)"8 "('E)"4 "(n@)"8 "(mi)"
+    "!check=18"8 \skip4. "(t'eIk)"4 "(j'O@)"8 "(t'aIm)"
+    "!check=19"8 \skip4. "(h'V)"4 "(ri)"8 "('Vp)"
+    "!check=20"8 \skip4 "(D'@)"8 "(tS'OIs)" "('Iz)"4 "(j'o)"8
+    "('o@z)|!check=21"4. "(d'oU)"8 "(oUnt)"4 "(b'i:)"8 "(l'eIt)"
+    "!check=22"8 \skip4. "(t'eIk)"4 "('eI)"8 "(r'Est)"
+    "!check=23"8 \skip4. "('az)"4 "('eI)"8 "(fr'End)"
+    "!check=24"8 \skip4. "('az)"8 "('a#n)"4 "('oU)"8
+    "('oUld)|!check=25"4. "(mE)"8 "(m'o@)"4 "(ri)"8 "(i:)"
+\mymark "Pre-Chorus" #26
+    "!mark=Pre-Chorus|!check=26"2 \skip8 "(@)"8 "(@)" "(@)"
+    "!check=27"4 \skip4 "(mE)"4 "(m'o@)"8 "(ri)"
+    "!check=28"2 \skip8 "(i:)"8 "(@)" "(@)"
+    "!check=29"4 \skip4 "(mE)"4 "(m'o@)"8 "(ri)"
+    "!check=30"2 \skip8 "(i:)"8 "(@)" "(@)"
+    "!check=31"4 \skip4 "(mE)"4 "(m'o@)"8 "(ri)"
+    "!check=32"2 \skip8 "(i:)"8 "(@)" "(@)"
+    "!check=33"4 \skip2.
+\mymark "Verse" #34
+    "(k'Vm)|!mark=Verse|!check=34"4 \skip4 "(d'aUsd)"4 "('In)"8 "(m'Vd)"
+    "!check=35"8 \skip4. "(s'oUkt)"4 "('In)"8 "(bl'i:tS)"
+    "!check=36"4 \skip4 "('az)"8 "('aI)"4 "(w'0)"8
+    "('0nt)|!check=37"4. "(j'u:)"8 "(u:)"4 "(t'u:)"8 "(b'i:)"
+    "!check=38"8 \skip4. "('az)"4 "('eI)"8 "(tr'End)"
+    "!check=39"8 \skip4. "('az)"4 "('eI)"8 "(fr'End)"
+    "!check=40"8 \skip4. "('az)"8 "('a#n)"4 "('oU)"8
+    "('oUld)|!check=41"4. "(mE)"8 "(m'o@)"4 "(ri)"8 "(i:)"
+\mymark "Pre-Chorus" #42
+    "!mark=Pre-Chorus|!check=42"2 \skip8 "(@)"8 "(@)" "(@)"
+    "!check=43"4 \skip4 "(mE)"4 "(m'o@)"8 "(ri)"
+    "!check=44"2 \skip8 "(i:)"8 "(@)" "(@)"
+    "!check=45"4 \skip4 "(mE)"4 "(m'o@)"8 "(ri)"
+    "!check=46"2 \skip8 "(i:)"8 "(@)" "(@)"
+    "!check=47"4 \skip4 "(mE)"4 "(m'o@)"8 "(ri)"
+    "!check=48"2 \skip8 "(i:)"8 "(@)" "(@)"
+    "!check=49"4 \skip2.
+\mymark "Chorus" #50
+    "!mark=Chorus|!check=50"2 "('and)"8 "('aI)"4.
+    "(sw'e@)|!check=51"4. "(D'at)"4 "('aI)"4.
+    "(d'oU)|!check=52"8 "('oUnt)"4 "(h'av)"8 "('eI)" "(g'V)" "('Vn)"4
+    "!check=53"2 "(n'oU)"8 "('aI)"4 "(d'oU)"8
+    "('oUnt)|!check=54"4. "(h'av)"8 "('eI)" "(g'V)" "('Vn)"4
+    "!check=55"2 "(n'oU)"8 "('aI)"4 "(d'oU)"8
+    "('oUnt)|!check=56"4. "(h'av)"8 "('eI)" "(g'V)" "('Vn)"4
+    "!check=57"1
+\mymark "Interlude" #58
+    "!mark=Interlude|!check=58"1
+    "!check=59"1
+    "!check=60"1
+    "!check=61"1
+\mymark "Solo" #62
+    "!mark=Solo|!check=62"1
+    "!check=63"1
+    "!check=64"1
+    "!check=65"1
+    "!check=66"1
+    "!check=67"1
+    "!check=68"1
+    "!check=69"1
+    "!check=70"1
+    "!check=71"1
+    "!check=72"1
+    "!check=73"1
+    "!check=74"1
+    "!check=75"1
+    "!check=76"1
+    "!check=77"1
+\mymark "Pre-Chorus" #78
+    "(mE)|!mark=Pre-Chorus|!check=78"2 \skip8 "(m'o@)"8 "(ri)" "(@)"
+    "!check=79"4 \skip4 "(mE)"4 "(m'o@)"8 "(ri)"
+    "!check=80"2 \skip8 "(i:)"8 "(@)" "(@)"
+    "!check=81"4 \skip4 "(mE)"4 "(m'o@)"8 "(ri)"
+    "!check=82"2 \skip8 "(i:)"8 "(@)" "(@)"
+    "!check=83"4 \skip4 "(mE)"4 "(m'o@)"8 "(ri)"
+    "!check=84"2 \skip8 "(i:)"8 "(@)" "(@)"
+    "!check=85"2. \skip4
+\mymark "Chorus" #86
+    "!mark=Chorus|!check=86"2 "('and)"8 "('aI)"4.
+    "(sw'e@)|!check=87"4. "(D'at)"4 "('aI)"4.
+    "(d'oU)|!check=88"8 "('oUnt)"4 "(h'av)"8 "('eI)" "(g'V)" "('Vn)"4
+    "!check=89"2 "(n'oU)"8 "('aI)"4 "(d'oU)"8
+    "('oUnt)|!check=90"4. "(h'av)"8 "('eI)" "(g'V)" "('Vn)"4
+    "!check=91"2 "(n'oU)"8 "('aI)"4 "(d'oU)"8
+    "('oUnt)|!check=92"4. "(h'av)"8 "('eI)" "(g'V)" "('Vn)"4
+    "!check=93"2 "(n'oU)"8 "('aI)"4 "(d'oU)"8
+    "('oUnt)|!check=94"4. "(h'av)"8 "('eI)" "(g'V)" "('Vn)"4
+    "!check=95"2 "(n'oU)"8 "('aI)"4 "(d'oU)"8
+    "('oUnt)|!check=96"4. "(h'av)"8 "('eI)" "(g'V)" "('Vn)"4
+    "!check=97"1
+\mymark "Outro" #98
+    "!mark=Outro|!check=98"1
+    "!check=99"2 "(mE)"4 "(m'o@)"8 "(ri)"
+    "!check=100"2 \skip8 "(i:)"8 "(@)" "(@)"
+    "!check=101"2. \skip4
+    "!check=102"1
+    "!check=103"2 "(mE)"4 "(m'o@)"8 "(ri)"
+    "!check=104"2 \skip8 "(i:)"8 "(@)" "(@)"
+    "!check=105"2. \skip4
+    "!check=106"1
+    "!check=107"1
+}

@@ -14,54 +14,54 @@ vocalsLyrics = \new Lyrics \lyricmode {
     "Come"4 \skip4 "as"4 "you"8 "are" |
     \skip8 \skip4. "as"4 "you"8 "were" |
     \skip4 \skip4 "As"8 "I"4 "want"8 |
-    \skip4. "you"8 \skip4 "to"8 "be" |
+    \skip4. "you"4. "to"8 "be" |
     \skip8 \skip4. "As"4 "a"8 "friend" |
     \skip8 \skip4. "as"4 "a"8 "friend" |
     \skip8 \skip4. "As"8 "a"4 "known"8 |
-    \skip4. "en"8 "e"4 -- "my"8 "Take" |
-    \skip8 \skip4. "your"4 "time"8 "hur" -- |
-    \skip8 \skip4. "ry"4 "up"8 "The" |
-    \skip8 \skip4 "choice"8 "is" "yours"4 \skip8 |
-    "don't"4. \skip8 "be"4 "late"8 "Take" |
-    \skip8 \skip4. "a"4 "rest"8 "as" |
-    \skip8 \skip4. "a"4 "friend"8 "As" |
-    \skip8 \skip4. "an"8 "old"4 \skip8 |
-    "Mem"4. "o"8 -- "ri"4 \skip8 "a"8 |
+    \skip4. "e"8 -- "ne"4 -- "my" |
+    \skip8 \skip4. "Take"4 "your"8 "time" |
+    \skip8 \skip4. "hur"4 -- "ry"8 "up" |
+    \skip8 \skip4 "The"8 "choice" "is"4 "yours"8 |
+    \skip4. "don't"4. "be"8 "late" |
+    \skip8 \skip4. "Take"4 "a"8 "rest" |
+    \skip8 \skip4. "as"4 "a"8 "friend" |
+    \skip8 \skip4. "As"8 "an"4 "old"8 |
+    \skip4. "Me"8 -- "mo"4 -- "ri" -- |
 \mymark "Pre-Chorus" #26
-    \skip2 \skip8 "mem"8 -- "o" -- "ri" |
-    \skip4 \skip2 "a"8 "Mem" -- |
-    \skip2 \skip8 "o"8 -- "ri" \skip8 |
-    \skip2 "a"4 "mem"8 -- "o" -- |
-    \skip2 \skip8 "ri"8 \skip8 "a"8 |
-    \skip4 \skip4 "Come"4 "doused"8 "in" |
-    \skip2 \skip8 "mud"8 "soaked" "in" |
+    \skip2 \skip8 "a"4. |
+    \skip4 \skip4 "Me"4 -- "mo"8 -- "ri" -- |
+    \skip2. "a"4 |
+    \skip4 \skip4 "Me"4 -- "mo"8 -- "ri" -- |
+    \skip2. "a"4 |
+    \skip4 \skip4 "Me"4 -- "mo"8 -- "ri" -- |
+    \skip2. "a"4 |
     \skip4 \skip2. |
 \mymark "Verse" #34
-    "bleach"4 \skip4 "As"4 "I"8 "want" |
-    \skip8 \skip2 \skip8 "you"8 \skip8 |
-    \skip2 "to"8 "be"4 "As"8 |
-    "a"4. "trend"8 "as"4 "a"8 "friend" |
-    \skip8 \skip4. "As"4 "an"8 "old" |
-    \skip8 \skip2 \skip8 "Mem"8 "o" -- |
-    \skip8 \skip4. "ri"8 \skip4 "a"8 |
-    "mem"4. -- "o"8 -- "ri"4 \skip8 "a"8 |
+    "Come"4 \skip4 "doused"4 "in"8 "mud" |
+    \skip8 \skip4. "soaked"4 "in"8 "bleach" |
+    \skip4 \skip4 "As"8 "I"4 "want"8 |
+    \skip4. "you"4. "to"8 "be" |
+    \skip8 \skip4. "As"4 "a"8 "trend" |
+    \skip8 \skip4. "as"4 "a"8 "friend" |
+    \skip8 \skip4. "As"8 "an"4 "old"8 |
+    \skip4. "Me"8 -- "mo"4 -- "ri" -- |
 \mymark "Pre-Chorus" #42
-    \skip2 \skip8 "Mem"8 -- "o" -- "ri" |
-    \skip4 \skip2 "a"8 "mem" -- |
-    \skip2 \skip8 "o"8 -- "ri" \skip8 |
-    \skip2 "a"4 "And"8 "I" |
-    \skip2 \skip8 "swear"8 "that" "I" |
-    \skip4 \skip4 "don't"4 \skip8 "have"8 |
-    \skip2 \skip8 "a"8 "gun" \skip8 |
-    \skip1 |
+    \skip2 \skip8 "a"4. |
+    \skip4 \skip4 "Me"4 -- "mo"8 -- "ri" -- |
+    \skip2. "a"4 |
+    \skip4 \skip4 "Me"4 -- "mo"8 -- "ri" -- |
+    \skip2. "a"4 |
+    \skip4 \skip4 "Me"4 -- "mo"8 -- "ri" -- |
+    \skip2. "a"4 |
+    \skip4 \skip2. |
 \mymark "Chorus" #50
-    \skip2 "No"8 "I"4. |
-    "don't"4. \skip4 "have"4. |
-    "a"8 "gun"4 \skip8 "No"8 "I" "don't"4 |
-    \skip2 \skip8 "have"4 "a"8 |
-    "gun"4. \skip8 "ri"8 \skip8 "a"4 |
-    \skip2 "mem"8 -- "o"4 -- "ri"8 |
-    \skip4. "a"8 "Mem" -- "o" -- "ri"4 |
+    \skip2 "And"8 "I"4. |
+    "swear"4. "that"4 "I"4. |
+    "don't"4. "have"8 "a" "gun"4. |
+    \skip2 "No"8 "I"4 "don't"8 |
+    \skip4. "have"8 "a" "gun"4. |
+    \skip2 "No"8 "I"4 "don't"8 |
+    \skip4. "have"8 "a" "gun"4. |
     \skip1 |
 \mymark "Interlude" #58
     \skip1 |
@@ -86,36 +86,36 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip1 |
     \skip1 |
 \mymark "Pre-Chorus" #78
-    \skip2 \skip8 "a"8 "mem" -- "o" -- |
-    \skip4 \skip4 "ri"4 \skip8 "a"8 |
-    \skip2 \skip8 "And"8 "I" "swear" |
-    \skip4 \skip4 "that"4 "I"8 "don't" |
-    \skip2 \skip8 "have"8 "a" "gun" |
-    \skip4 \skip4 "No"4 "I"8 "don't" |
-    \skip2 \skip8 "have"8 "a" "gun" |
+    "Me"2 -- \skip8 "mo"8 -- "ri" -- "a" |
+    \skip4 \skip4 "Me"4 -- "mo"8 -- "ri" -- |
+    \skip2. "a"4 |
+    \skip4 \skip4 "Me"4 -- "mo"8 -- "ri" -- |
+    \skip2. "a"4 |
+    \skip4 \skip4 "Me"4 -- "mo"8 -- "ri" -- |
+    \skip2. "a"4 |
     \skip2. \skip4 |
 \mymark "Chorus" #86
-    \skip2 "No"8 "I"4. |
-    "don't"4. "have"4 "a"4. |
-    "gun"8 "No"4 "I"8 "don't" "have" "a"4 |
-    \skip2 "gun"8 "No"4 "I"8 |
-    "don't"4. "have"8 "a" "gun" "No"4 |
-    \skip2 "I"8 "don't"4 "have"8 |
-    "a"4. "gun"8 "Mem" -- "o" -- "ri"4 |
-    \skip2 \skip8 "a"4 "mem"8 -- |
-    "o"4. -- "ri"8 \skip8 "a"8 \skip4 |
-    \skip1 |
-    \skip1 |
+    \skip2 "And"8 "I"4. |
+    "swear"4. "that"4 "I"4. |
+    "don't"4. "have"8 "a" "gun"4. |
+    \skip2 "No"8 "I"4 "don't"8 |
+    \skip4. "have"8 "a" "gun"4. |
+    \skip2 "No"8 "I"4 "don't"8 |
+    \skip4. "have"8 "a" "gun"4. |
+    \skip2 "No"8 "I"4 "don't"8 |
+    \skip4. "have"8 "a" "gun"4. |
+    \skip2 "No"8 "I"4 "don't"8 |
+    \skip4. "have"8 "a" "gun"4. |
     \skip1 |
 \mymark "Outro" #98
     \skip1 |
+    \skip2 "Me"4 -- "mo"8 -- "ri" -- |
+    \skip2. "a"4 |
+    \skip2. \skip4 |
     \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    \skip2 "Me"4 -- "mo"8 -- "ri" -- |
+    \skip2. "a"4 |
+    \skip2. \skip4 |
     \skip1 |
     \skip1 |
 }
