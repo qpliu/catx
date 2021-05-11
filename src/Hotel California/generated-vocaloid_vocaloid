@@ -1,0 +1,132 @@
+vocaloidVocaloid = \new Lyrics \lyricmode {
+    "!check=1"1
+    "!check=2"1
+    "!check=3"1
+    "!check=4"1
+    "!check=5"1
+    "!check=6"1
+    "!check=7"1
+    "!check=8"1
+    "!check=9"1
+    "!check=10"1
+    "!check=11"1
+    "!check=12"1
+    "!check=13"1
+    "!check=14"1
+    "!check=15"1
+    "!check=16"1
+\mymark "Verse 1" #17
+    "!mark=Verse 1|!check=17"8 "('0n)"16 "('eI)" "(d'A@k)"8 "(d'E)"16 "(s3t)" "(h'aI)"8 "(w'E)"16 "('eI)" \skip4
+    "!check=18"8 "(k'u:)"16 "('u:l)" \tuplet 3/2 { "(w'Ind)"8 "('In)" "(m'aI)" } "(h'e@)"4 \skip4
+    "!check=19"8 "(w'O)"16 "('O@m)" "(sm'E)" "('El)" "('0v)" "(k'0)" "(lI)"8 "(t@)"16 "(@z)" \skip4
+    \tuplet 3/2 { "!check=20"8 "(r'aI)" "(zIN)" "('Vp)" "(Tr'u:)" "(D'@)" } "('e)"8. "('e)"16 "('e@)"8 \skip8
+    "!check=21"8 "('Vp)"16 "(a#)" "(h'Ed)"8 "('In)"16 "(D'@)" "(d'Is)"8 "(t@ns)" \skip4
+    "!check=22"16 "('aI)" "(s'O:)" "('eI)" \tuplet 3/2 { "(S'I)"8 "(m3)" "(IN)" } "(l'aIt)"4 \skip4
+    "!check=23"16 "(m'aI)" "(h'Ed)" "(gr'u:)" "(h'E)" "(vi)" "('and)" "(m'aI)" "(s'aIt)"8 "(gr'u:)"16 "(d'I)" "('Im)"8 \skip8
+    "!check=24"16 "('aI)" "(h'ad)" "(t'u:)" \tuplet 3/2 { "(st'0p)"8 "(f'O@)" "(D'@)" } "(n'a)"16 "('aIt)"8. \skip4
+\mymark "Verse 2" #25
+    "!mark=Verse 2|!check=25"8 "(D'e@)"16 "(S'i:)" \skip16 "(st'Ud)"16 "('In)" "(D'@)" "(d'o@)"8 "(w'eI)" \skip4
+    "!check=26"16 "('aI)" "(h'3:d)" "(D'@)" \tuplet 3/2 { "(m'I)"8 "(S@n)" "(b'El)"4 \skip16 } \skip4.
+    "!check=27"8. "('a#n)"16 "('aI)" "(w'0z)" "(T'IN)" "(kIn)" "(t'u:)" "(m'aI)"8 "(s'Elf)" "(D'Is)"16 "(k'Ud)" "(b'i:)"
+    \tuplet 3/2 { "(h'E)|!check=28"8 "(v@n)" "('O@)" "(D'Is)" "(k'Ud)" "(b'i:)" \skip8 "(h'E)"8 "('E)" } "('El)"8 \skip8
+    "!check=29"8 "(D'En)"16 "(S'i:)" \tuplet 3/2 { "(l'It)"8 "('Vp)" "('eI)" } "(k'an)"8 "(d@)"16 "(@L)" \skip4
+    "!check=30"8 "('a#n)"16 "(S'i:)" "(S'oUd)"8 "(m'i:)"16 "(D'@)" "(w'E)" "('E)" "('eI)"8 \skip4
+    "!check=31"8 "(D'e@)"16 "(w'3:)" "(v'OI)" "(sI2z)" "(d'aUn)" "(D'@)" \skip16 "(k'0)"16 "(rI)" "(d,o)" "(o@)"8 \skip8
+    "!check=32"16 "('aI)" "(T'O:t)" "('aI)" "(h'3:d)"8 "(D'E)"16 "('Em)" "(s'eI)"4 \skip4
+\mymark "Chorus" #33
+    "!mark=Chorus|!check=33"8 "(w'El)"16 "(kVm)"8 "(t'u:)"16 "(D'@)" "(hoU)"8 "(t'El)"8. "(k,a)"16 "(a)" "(lI)" "(f'o)"
+    "('o@)|!check=34"16 "(ni@)"8 \skip2 \skip8. "(s'VtS)"16 "('eI)"
+    "(l'V)|!check=35"16 "('Vv)" "(li)" "(pl'eIs)"8. "(s'VtS)"16 "('eI)" "(l'V)" "('Vv)" "(li)" "(pl'eIs)"8. "(s'VtS)"16 "('eI)"
+    "(l'V)|!check=36"16 "('Vv)" "(li)" "(f'eIs)"8. \skip2 \skip8
+    "(pl'En)|!check=37"16 "(ti)" "('0v)" "(r'u:m)"8 "('at)" "(D'@)"16 "(hoU)"8 "(t'El)" "(k,a)"16 "(a)" "(lI)" "(f'o)"
+    "('o@)|!check=38"16 "(ni@)"8 \skip2 \skip8. "('E)"16 "(ni)"
+    "(t'a)|!check=39"16 "('aIm)" "('0v)" "(j'i@3)"8. "('E)"16 "(ni)" "(t'a)" "('aIm)" "('0v)" "(j'i@3)"8. "(j'u:)"16 "(k'an)"
+    "(f'a)|!check=40"16 "('aInd)" "('It)" "(h'i@3)"8. \skip2 \skip8
+\mymark "Verse 3" #41
+    "!mark=Verse 3|!check=41"16 "(h'3:)" "(m'aInd)" "('Iz)" \tuplet 3/2 { "(t'I)"8 "(f@)" "(ni)" } "(tw'Is)"8 "(tI2d)" \skip4
+    "!check=42"16 "(S'i:)" "(g'0t)" "(D'@)" "(m3:)"8 "(s'eI)"16 "(di:z)"8 "(b'E)"16 "('Endz)"8 "('V)" \skip8
+    "!check=43"16 "(S'i:)" "(g'0t)" "('eI)" "(l'0t)" "('0v)" "(pr'I)" "(ti)" \skip16 "(pr'I)"16 "(ti)" "(b'O)" "('OIz)"8 \skip8
+    "!check=44"8. "(D'at)"16 "(S'i:)" "(k'O:lz)"8 "(fr'E)" "('E)"16 "('Endz)"8 \skip4
+    "!check=45"8 "(h'aU)"16 "(D'eI)" "(d'aans)"8 "('In)"16 "(D'@)" "(k'o@t)"8 "(j'A)"16 "('A@d)" \skip4
+    \tuplet 3/2 { "(sw'i:t)|!check=46"2 "(s'V)"8 "(m3)" } "(sw'Et)"4 \skip4
+    "!check=47"8 "(s'Vm)" "(d'aans)" "(t'u:)"16 "(rI2)" "(m'E)" "('E)" "('Em)" "(b3)"8. \skip8
+    "!check=48"8 "(s'Vm)" "(d'aans)" "(t'u:)"16 "(f3)"8 "(g'E)"16 "('Et)"8 \skip4
+\mymark "Verse 4" #49
+    "!mark=Verse 4|!check=49"8 "(s'oU)"16 "('aI)" "(k'O:ld)"8 "('Vp)"16 "(D'@)" "(k'ap)"8 "(tIn)" \skip4
+    "!check=50"16 "(pl'i:z)"8. "(br'IN)"8 "(m'i:)"16 "(m'aI)"8 "(w'a)"16 "('aIn)"8 \skip16 "(h'i:)"16 "(s'Ed)" "(D'at)"
+    "!check=51"16 "(w'i:)" \tuplet 3/2 { "(h'a)"8 "(v@nt)"16 } "(h'ad)"8 "(D'at)" "(sp'I)"16 "(rIt)"8 "(h'i@3)"8. "(s'Ins)"8
+    "!check=52"8 "(n'a)"16 "('aIn)" "(t'i:n)" "(s'Iks)"8 "(ti)"16 "(n'a)" "('a)" "('aIn)"8 \skip4
+    "!check=53"8 "('a#)"16 "('a#n)" "(st'Il)"8 "(D'oUz)" "(v'OI)"16 "(sI2z)" "('A@)" "(k'O:lIN)"8 "(k'O:lIN)"16 "(fr'0m)"8
+    "(f'A)|!check=54"16 "('A)"4 "('A@)"16 "(a#)" "(w'E)"4. "('E)"16 "('eI)"8
+    "!check=55"8 "(w'eIk)"16 "(j'u:)" "('Vp)" \skip16 "('In)"16 "(D'@)" "(m'I)" "(d@L)" "('0v)" "(D'@)" "(n'a)" "('aIt)" \skip8
+    "!check=56"8 "(dZ'Vst)"16 "(t'u:)" "(h'i@3)"8 "(D'E)"16 "('Em)" "(s'E)"4 "('eI)"
+\mymark "Chorus" #57
+    "!mark=Chorus|!check=57"8 "(w'El)"16 "(kVm)"8 "(t'u:)"16 "(D'@)" "(hoU)"8 "(t'El)"8. "(k,a)"16 "(a)" "(lI)" "(f'o)"
+    "('o@)|!check=58"16 "(ni@)"8 \skip2 \skip8. "(s'VtS)"16 "('eI)"
+    "(l'V)|!check=59"16 "('Vv)" "(li)" "(pl'eIs)"8. "(s'VtS)"16 "('eI)" "(l'V)" "('Vv)" "(li)" "(pl'eIs)"8. "(s'VtS)"16 "('eI)"
+    "(l'V)|!check=60"16 "('Vv)" "(li)" "(f'E)" "('eIs)"8 \skip2 \skip16 "(DeI'3)"16
+    "(l'I)|!check=61"16 "(vIn)" "('It)" "('Vp)" \skip16 "('at)"16 \skip16 "(D'@)"16 "(hoU)"8 "(t'El)" "(k,a)"16 "(a)" "(lI)" "(f'o)"
+    "('o@)|!check=62"16 "(ni@)"8 \skip2 \skip8. "(w'0t)"16 "('eI)"
+    "(n'a)|!check=63"16 "('aIs)" "(s3)" "(pr'aIz)"8. "(w'0t)"16 "('eI)" "(n'a)" "('aIs)" "(s3)" "(pr'aIz)"8. "(br'IN)"16 "(j'O@)"
+    "('a)|!check=64"16 "('a)" "(l@)" "(b,aIz)"2 \skip16 \skip4
+\mymark "Verse 5" #65
+    "!mark=Verse 5|!check=65"8 "(m'I)"16 "(r3z)"8 "('0n)" "(D'@)"16 "(s'i:)"8 "(lI)"16 "(IN)" \skip4
+    "!check=66"16 "(D'@)" "(p'INk)" \tuplet 3/2 { "(Sam)"8. \skip32 "(p'eIn)"8 "('0n)" } "('a)"16 "('aIs)" \skip16 "('a#n)"16 "(S'i:)" "(s'Ed)" \skip8
+    "!check=67"8 "(w'i:)"16 "('A@)" "('O:l)"8 "(dZ'Vst)" \tuplet 3/2 { "(pr'I)"8 "(z@)" "(n3z)" } "(h'i)"16 "(@3)" \skip8
+    "!check=68"8 "('0v)"16 "('aU@)" \tuplet 3/2 { "('oU)"8 "('oUn)" "(dI2)" } "(v'aIs)"4 \skip4
+    "!check=69"16 "('a#n)" "('In)" \tuplet 3/2 { "(D'@)"8. \skip32 "(m'aas)"8 "(t3z)" } "(tS'eIm)"8 "(b3)"16 "(3z)" \skip4
+    \tuplet 3/2 { "!check=70"8 "(D'eI)" "(g'a)" "(D3d)" "(f'O@)" "(D'@)" } "(f'i:st)"4 \skip4
+    "!check=71"16 "(D'eI)"8 "(st'ab)"16 \tuplet 3/2 { "('It)"8 "(w'ID)" "(D'e@)"4 "(st'i:)"8 "(li)" } "(n'a)"16 "('aIvz)" "(b'Vt)" "(D'eI)"
+    "(dZ'Vst)|!check=72"8 "(k'A:nt)"8. "(k'Il)"8 "(D'@)"16 "(b'i:)" "('i:st)"8. \skip4
+\mymark "Verse 6" #73
+    "!mark=Verse 6|!check=73"8 "(l'aast)" "(T'IN)"16 "('aI)"8 "(rI2)"16 "(m'E)"8 "('Em)"16 "(b3)" \skip8 "('aI)"16 "(w'0z)"
+    "!check=74"8 "(r'V)"16 "(nIN)"8 "(f'O@)"16 "(D'@)" "(d'o)" "('o@)"4 \skip4
+    "!check=75"8. "('aI)"16 "(h'ad)" "(t'u:)" "(f'aInd)" "(D'@)" \tuplet 3/2 { "(p'a)"8 "(sI2dZ)" "(b'ak)"8. \skip32 } \skip16 "(t'u:)"16 "(D'@)"
+    "(pl'eIs)|!check=76"8 "('aI)" "(w'0)"16 "('0z)" "(bI)" "(f'o)"8 "('o)"16 "('o@)"8 \skip4
+    "!check=77"8 "(rI2)"16 "(l'aks)"8. "(s'Ed)"16 "(D'@)" "(n'aIt)"8 "(m'a)"16 "('an)" \skip8 "(w'i:)"16 "('A@)"
+    "!check=78"8 "(pr'oU)"16 "(gramd)"8 "(t'u:)"16 "(rI2)"8 "(s'i:)" "('i:v)" \skip4
+    "!check=79"8 "(j'u:)"16 "(k'an)" "(tS'Ek)" "('aUt)" "('E)" "(ni)"8 "(t'aIm)" "(j'u:)"16 "(l'a)" "('aIk)" \skip8
+    "!check=80"16 "(b'Vt)" "(j'u:)" "(k'an)"8 "(n'E)"16 "(vE)" "(3)" "(l'i:)" "('i:)" "('i:v)"8 \skip4
+\mymark "Solo" #81
+    "!mark=Solo|!check=81"1
+    "!check=82"1
+    "!check=83"1
+    "!check=84"1
+    "!check=85"1
+    "!check=86"1
+    "!check=87"1
+    "!check=88"1
+    "!check=89"1
+    "!check=90"1
+    "!check=91"1
+    "!check=92"1
+    "!check=93"1
+    "!check=94"1
+    "!check=95"1
+    "!check=96"1
+    "!check=97"1
+    "!check=98"1
+    "!check=99"1
+    "!check=100"1
+    "!check=101"1
+    "!check=102"1
+    "!check=103"1
+    "!check=104"1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+    "."1
+}

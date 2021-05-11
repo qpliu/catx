@@ -3,15 +3,23 @@ set -e
 WHERE="application_guitar_pro5-43011967.gp5"
 DRUMMAP="35 bd 1,48 tomh 0,43 toml 0,41 toml 0,"
 rm -f generated-*
+VLYRICS=`cat vocaloid_lyrics`
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
+modified-filename drs \
 markup-extra 0 '\key e \major' \
 drumMap "$DRUMMAP" \
+add-lyrics vocaloid 0 1 "$VLYRICS" \
 track 0 \
     preset kav \
     output-lilypond \
     output-lyrics \
     output-karaoke \
     which-lyrics 0 \
+track 0 \
+    preset vocaloid \
+    which-lyrics vocaloid \
+    output-lilypond \
+    output-vocaloid \
 track 0 \
     preset susan \
     output-lilypond \
