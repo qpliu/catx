@@ -44,6 +44,7 @@ layoutmusic = <<
         \markupStuff
         \guitar
         \clef "treble_8"
+        { s128_"c f ais dis g c" }
     >>
     \tag #'(allPart peterPart) \new TabStaff \with {
         stringTunings = \stringTuning <c, f, ais, dis g c'>
@@ -55,6 +56,7 @@ layoutmusic = <<
         \markupStuff
         \guitarA
         \clef "treble_8"
+        { s128_"c f ais dis g c" }
     >>
     \tag #'(allPart peterPart) \new TabStaff \with {
         stringTunings = \stringTuning <c, f, ais, dis g c'>
@@ -66,6 +68,7 @@ layoutmusic = <<
         \markupStuff
         \guitarB
         \clef "treble_8"
+        { s128_"c f ais dis g c" }
     >>
     \tag #'(allPart peterPart) \new TabStaff \with {
         stringTunings = \stringTuning <c, f, ais, dis g c'>
@@ -77,6 +80,7 @@ layoutmusic = <<
         \markupStuff
         \guitarC
         \clef "treble_8"
+        { s128_"c f ais dis g c" }
     >>
     \tag #'(allPart peterPart) \new TabStaff \with {
         stringTunings = \stringTuning <c, f, ais, dis g c'>
@@ -88,6 +92,7 @@ layoutmusic = <<
         \markupStuff
         \bass
         \clef "bass_8"
+        { s128_"c f ais dis" }
     >>
     \tag #'(allPart bassPart) \new TabStaff \with {
         stringTunings = \stringTuning <c,, f,, ais,, dis,>

@@ -23,13 +23,23 @@ class SuperTrackFileMaker extends ChoppedTrackFileMaker{
 	mfm.print('\\'+lyname);
 	for (String s:arg.layout_extra)
 	    mfm.print(s);
+	if (arg.layout_tabs){
+	    StringBuilder sb=new StringBuilder();
+	    for (int i=track.tuning.length; --i>=0;)
+		if (track.tuning[i]>0)
+		    sb.append(' ').append(Stuff.midi2ly(track.tuning[i],arg).replace(",","").replace("'",""));
+	    if (track.capo!=0)
+		sb.append(" capo fret ").append(track.capo);
+	    if (sb.length()!=0)
+		mfm.print("{ s128_\""+sb.substring(1)+"\" }");
+	}
 	mfm.unindent(">>");
 	if (arg.layout_tabs){
 	    mfm.indent("\\tag #'("+arg.layout_who+") \\new TabStaff \\with {");
 	    StringBuilder sb=new StringBuilder();
 	    for (int i=track.tuning.length; --i>=0;)
 		if (track.tuning[i]>0)
-		    sb.append(' ').append(Stuff.midi2ly(track.tuning[i],arg));
+		    sb.append(' ').append(Stuff.midi2ly(track.tuning[i]+track.capo,arg));
 	    mfm.print("stringTunings = \\stringTuning <"+sb.substring(1)+">");
 	    mfm.unindent("} \\"+lyname);
 	}

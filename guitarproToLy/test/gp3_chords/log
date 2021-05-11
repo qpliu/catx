@@ -64,7 +64,7 @@ port=1
 notesChannel=5
 effectsChannel=5
 fretCount=24
-offset=0
+capo=0
 color=32896
 Track 0 name=Brian - Acoustic tuning=[64, 59, 55, 50, 45, 40] instrument=25
 measure 1 track 0 voice 0 beat 0 bits=0x03 duration=3/8 status=1

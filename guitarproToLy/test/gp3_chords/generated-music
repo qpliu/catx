@@ -16,6 +16,7 @@ layoutmusic = <<
         \markupStuff
         \guitar
         \clef "treble_8"
+        { s128_"e a d g b e" }
     >>
     \tag #'(allPart peterPart) \new TabStaff \with {
         stringTunings = \stringTuning <e, a, d g b e'>

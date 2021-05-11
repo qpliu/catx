@@ -124,7 +124,7 @@ class Gpfile extends Gpinput{
 		for (int i=0; i<stringCount; i++){
 		    int fret=readInt();
 		    if (fret>=0 && i<track.tuning.length)
-			l.add(track.tuning[i]+fret);
+			l.add(track.tuning[i]+track.capo+fret);
 		}
 	    Collections.sort(l);
 	    if (l.size()==0)
@@ -215,7 +215,7 @@ class Gpfile extends Gpinput{
 	    this.voice = voice;
 	}
 	final int getNote(){
-	    return string>=00&&string<track.tuning.length?track.tuning[string]+(fret>=0&&fret<100?fret:0):0;
+	    return string>=00&&string<track.tuning.length?track.tuning[string]+track.capo+(fret>=0&&fret<100?fret:0):0;
 	}
     }
     class Slide{
@@ -336,6 +336,7 @@ class Gpfile extends Gpinput{
 	String name;
 	boolean isDrums;
 	int[]tuning;
+	int capo;
 	int instrument;
 	final List<Event>events=new ArrayList<Event>();
 	@Override public String toString(){

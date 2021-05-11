@@ -316,7 +316,7 @@ port=1
 notesChannel=1
 effectsChannel=1
 fretCount=24
-offset=0
+capo=0
 color=5583860
 Track 0 name=Lead Guitar I tuning=[64, 59, 55, 50, 45, 40] instrument=29
 stringCount=6
@@ -324,7 +324,7 @@ port=1
 notesChannel=2
 effectsChannel=2
 fretCount=24
-offset=0
+capo=0
 color=14718716
 Track 1 name=Lead Guitar II tuning=[64, 59, 55, 50, 45, 40] instrument=30
 stringCount=6
@@ -332,7 +332,7 @@ port=1
 notesChannel=3
 effectsChannel=3
 fretCount=24
-offset=0
+capo=0
 color=16346347
 Track 2 name=Rhythm Guitar tuning=[64, 59, 55, 50, 45, 40] instrument=30
 stringCount=6
@@ -340,7 +340,7 @@ port=1
 notesChannel=4
 effectsChannel=4
 fretCount=24
-offset=0
+capo=0
 color=16080014
 Track 3 name=Rhythm Guitar II tuning=[64, 59, 55, 50, 45, 40] instrument=29
 stringCount=4
@@ -348,7 +348,7 @@ port=1
 notesChannel=5
 effectsChannel=5
 fretCount=24
-offset=0
+capo=0
 color=15693893
 Track 4 name=Bass tuning=[43, 38, 33, 28] instrument=34
 stringCount=6
@@ -356,7 +356,7 @@ port=1
 notesChannel=10
 effectsChannel=10
 fretCount=87
-offset=0
+capo=0
 color=14659861
 Track 5 name=Drums isDrums tuning=[0, 0, 0, 0, 0, 0] instrument=0
 stringCount=6
@@ -364,7 +364,7 @@ port=1
 notesChannel=9
 effectsChannel=9
 fretCount=24
-offset=0
+capo=0
 color=14085460
 Track 6 name=Vocals tuning=[64, 59, 55, 50, 45, 40] instrument=68
 stringCount=7
@@ -372,7 +372,7 @@ port=1
 notesChannel=8
 effectsChannel=8
 fretCount=24
-offset=0
+capo=0
 color=7401852
 Track 7 name=Choir/Chorus tuning=[64, 59, 55, 50, 45, 40, 35] instrument=52
 stringCount=6
@@ -380,7 +380,7 @@ port=1
 notesChannel=6
 effectsChannel=6
 fretCount=30
-offset=0
+capo=0
 color=4782018
 Track 8 name=Misc. tuning=[100, 86, 65, 58, 49, 35] instrument=0
 stringCount=6
@@ -388,7 +388,7 @@ port=1
 notesChannel=7
 effectsChannel=7
 fretCount=24
-offset=0
+capo=0
 color=8253675
 Track 9 name=Misc. II tuning=[64, 59, 55, 50, 45, 38] instrument=81
 stringCount=6
@@ -396,7 +396,7 @@ port=1
 notesChannel=11
 effectsChannel=11
 fretCount=24
-offset=0
+capo=0
 color=5348334
 Track 10 name=Misc. III tuning=[66, 59, 55, 50, 45, 40] instrument=46
 measure 1 track 0 voice 0 beat 0 bits=0x40 duration=1 status=2

@@ -159,7 +159,7 @@ port=1
 notesChannel=3
 effectsChannel=4
 fretCount=24
-offset=0
+capo=0
 color=255
 Track 0 name=Lead Guitar tuning=[64, 59, 55, 50, 45, 40] instrument=29
 stringCount=6
@@ -167,7 +167,7 @@ port=1
 notesChannel=5
 effectsChannel=6
 fretCount=24
-offset=0
+capo=0
 color=255
 Track 1 name=Rythm Guitar tuning=[64, 59, 55, 50, 45, 40] instrument=29
 stringCount=6
@@ -175,7 +175,7 @@ port=1
 notesChannel=7
 effectsChannel=8
 fretCount=24
-offset=0
+capo=0
 color=255
 Track 2 name=A. Guitar tuning=[64, 59, 55, 50, 45, 40] instrument=25
 stringCount=4
@@ -183,7 +183,7 @@ port=1
 notesChannel=1
 effectsChannel=2
 fretCount=24
-offset=0
+capo=0
 color=65535
 Track 3 name=Bass tuning=[43, 38, 33, 28] instrument=33
 stringCount=6
@@ -191,7 +191,7 @@ port=1
 notesChannel=10
 effectsChannel=10
 fretCount=87
-offset=0
+capo=0
 color=16711680
 Track 4 name=Drums isDrums tuning=[0, 0, 0, 0, 0, 0] instrument=0
 measure 1 track 0 voice 0 beat 0 bits=0x40 duration=1 status=0

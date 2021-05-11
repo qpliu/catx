@@ -237,8 +237,8 @@ final class Gp5file extends Gpfile{
 	track.instrument = midiChannels[notesChannel-1].instrument;
 	int fretCount=readInt();
 	Log.debug("fretCount=%d",fretCount);
-	int offset=readInt();
-	Log.debug("offset=%d",offset);
+	track.capo = readInt();
+	Log.debug("capo=%d",track.capo);
 	int color=readInt();
 	Log.debug("color=%d",color);
 	if (version>=500){

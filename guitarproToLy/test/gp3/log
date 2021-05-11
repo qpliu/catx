@@ -95,7 +95,7 @@ port=1
 notesChannel=1
 effectsChannel=2
 fretCount=24
-offset=0
+capo=0
 color=255
 Track 0 name=Ringo tuning=[64, 59, 55, 50, 45, 40] instrument=25
 stringCount=6
@@ -103,7 +103,7 @@ port=1
 notesChannel=12
 effectsChannel=13
 fretCount=24
-offset=0
+capo=0
 color=255
 Track 1 name=Ringo tuning=[64, 59, 55, 50, 45, 40] instrument=25
 stringCount=6
@@ -111,7 +111,7 @@ port=1
 notesChannel=9
 effectsChannel=11
 fretCount=24
-offset=0
+capo=0
 color=16711935
 Track 2 name=Fiddle tuning=[64, 59, 55, 50, 45, 40] instrument=40
 stringCount=6
@@ -119,7 +119,7 @@ port=1
 notesChannel=7
 effectsChannel=8
 fretCount=24
-offset=0
+capo=0
 color=65280
 Track 3 name=John Piano tuning=[64, 59, 55, 50, 45, 40] instrument=3
 stringCount=6
@@ -127,7 +127,7 @@ port=1
 notesChannel=14
 effectsChannel=15
 fretCount=24
-offset=0
+capo=0
 color=65280
 Track 4 name=Organ tuning=[64, 59, 55, 50, 45, 40] instrument=23
 stringCount=4
@@ -135,7 +135,7 @@ port=1
 notesChannel=5
 effectsChannel=6
 fretCount=24
-offset=0
+capo=0
 color=65535
 Track 5 name=Piano Bass tuning=[43, 38, 33, 28] instrument=3
 stringCount=4
@@ -143,7 +143,7 @@ port=1
 notesChannel=3
 effectsChannel=4
 fretCount=24
-offset=0
+capo=0
 color=65535
 Track 6 name=Paul tuning=[43, 38, 33, 28] instrument=34
 stringCount=6
@@ -151,7 +151,7 @@ port=1
 notesChannel=10
 effectsChannel=10
 fretCount=87
-offset=0
+capo=0
 color=16711680
 Track 7 name=Ringo isDrums tuning=[0, 0, 0, 0, 0, 0] instrument=10
 measure 1 track 0 voice 0 beat 0 bits=0x40 duration=4 status=2
