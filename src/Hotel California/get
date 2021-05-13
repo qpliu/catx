@@ -6,7 +6,7 @@ rm -f generated-*
 VLYRICS=`cat vocaloid_lyrics`
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
 modified-filename drs \
-markup-extra 0 '\key e \major' \
+markup-extra 0 '\key b \minor' \
 drumMap "$DRUMMAP" \
 add-lyrics vocaloid 0 1 "$VLYRICS" \
 track 0 \
