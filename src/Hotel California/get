@@ -54,5 +54,4 @@ track 7 \
 track 8 \
     preset gg \
     output-drums \
-# track 10 preset midiOne output-lilypond \
 2>&1|tee log
