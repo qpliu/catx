@@ -20,7 +20,7 @@ track 0 \
     which-lyrics vocaloid \
     output-lilypond \
     output-vocaloid \
-track 0 \
+track 11 \
     preset susan \
     output-lilypond \
 track 1 \
@@ -54,4 +54,5 @@ track 7 \
 track 8 \
     preset gg \
     output-drums \
+# track 10 preset midiOne output-lilypond \
 2>&1|tee log
