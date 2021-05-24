@@ -106,7 +106,7 @@
 	    }
 	    if (event.data.slice(0,8)=="yourName")
 		document.getElementById("chatMe").innerHTML = event.data.slice(8);
-	    if (event.data.slice(0,1)=="k" && this.ntp_offset!=undefined){
+	    if (event.data.slice(0,1)=="k" && this.getNtpOffset()!=undefined){
 		json = JSON.parse(event.data.slice(1));
 		if (json.eval)
 		    (0,eval)(json.eval);
@@ -121,7 +121,7 @@
 		    }else{
 			isPlaying = -1;
 			jsonStartTime = json.start_time;
-			startTime = jsonStartTime+this.ntp_offset+settings.delay;
+			startTime = jsonStartTime+this.getNtpOffset()+settings.delay;
 		    }
 		    const repeat=json.repeat||0;
 		    background.reset(startTime,repeat,json.length);
