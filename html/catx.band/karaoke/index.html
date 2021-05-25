@@ -39,8 +39,8 @@
 	<span id=name style=font-size:3vw;white-space:nowrap;color:#0f0;background-color:#000;>Select a song with Aarin Robo to sing Karaoke!</span>
     </div>
     <span id=websocketControls style=visibility:hidden;>
-	<img id=stopImg style=position:absolute;left:6vw;top:0;width:5vw;z-index:9; onclick=gotClick();websocketStuff.sendChat("stop"); src=../stop.svg></a>
-	<img id=playImg style=position:absolute;left:11vw;top:0;width:5vw;z-index:9; onclick=gotClick();websocketStuff.sendChat("play"); src=../play.svg></a>
+	<img id=stopImg style=position:absolute;left:6vw;top:0;width:5vw;z-index:9; onclick=gotClick();websocketStuff.chat("stop"); src=../stop.svg></a>
+	<img id=playImg style=position:absolute;left:11vw;top:0;width:5vw;z-index:9; onclick=gotClick();websocketStuff.chat("play"); src=../play.svg></a>
     </span>
     <img id=settingsImg style=position:absolute;right:0;top:0;width:5vw;z-index:9;color:#0f0; src=../aarinrobo.png onclick=gotClick();setMode(0);>
     <img id=qiuqiusImg style=position:absolute;right:5vw;top:0;width:5vw;z-index:9; src=../ball.png onclick=gotClick();setMode(1);>
@@ -218,7 +218,7 @@
     }
     chatForm.onsubmit = function(event){
 	if (!chatInputEmpty){
-	    websocketStuff.sendChat(chatInput.value);
+	    websocketStuff.chat(chatInput.value);
 	    chatInput.value = "";
 	}
 	event.preventDefault();
@@ -281,7 +281,8 @@
 	    settings.who = who;
 	    settings.makeEverythingAgree();
 	}
-	websocketStuff.chatQueue.push(...usp.getAll("chat"));
+	for (const a of usp.getAll("chat"))
+	    websocketStuff.chat(a);
 	const page=usp.get("page");
 	if (page=="frog")
 	    setMode(3);

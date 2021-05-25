@@ -7,7 +7,7 @@ class WebsocketStuff{
 	    this.start();
 	else{
 	    this.websocket.send("ntp"+new Date().getTime());
-	    setTimeout(this.do_ntp.bind(this),250);
+	    setTimeout(this.do_ntp.bind(this),1000);
 	}
     }
     onopen(){
@@ -23,7 +23,7 @@ class WebsocketStuff{
 	    this.ntpCount = (this.ntpCount+1)%60;
 	    this.timeout_count = 4;
 	    while (this.chatQueue.length)
-		this.sendChat(this.chatQueue.shift());
+		this.websocket.send("chat"+this.chatQueue.shift());
 	}
     }
     getNtpOffset(){
@@ -37,7 +37,7 @@ class WebsocketStuff{
 	this.websocket.onopen = this.onopen.bind(this);
 	this.websocket.onmessage = this.onmessage.bind(this);
     }
-    sendChat(chat){
-	this.websocket.send("chat"+chat);
+    chat(chat){
+	this.chatQueue.push(chat);
     }
 }
