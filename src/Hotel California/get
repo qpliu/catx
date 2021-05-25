@@ -23,6 +23,10 @@ track 0 \
 track 11 \
     preset susan \
     output-lilypond \
+track 0 \
+    preset susan \
+    output-lyrics \
+    which-lyrics 0 \
 track 1 \
     preset peter \
     output-chords \

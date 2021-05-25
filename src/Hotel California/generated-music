@@ -10,6 +10,7 @@
 \include "generated-vocaloid"
 \include "generated-vocaloid_vocaloid"
 \include "generated-steelpan"
+\include "generated-steelpanA_lyrics"
 \include "generated-guitar_chords"
 \include "generated-guitar"
 \include "generated-guitarA"
@@ -40,6 +41,7 @@ layoutmusic = <<
         \markupStuff
         \steelpan
     >>
+    \tag #'(allPart susanPart) \steelpanALyrics
     \tag #'(allPart peterPart) \guitarChords
     \tag #'(allPart peterPart) \new Staff \with {
         instrumentName = \markup { \rotate #90 "Guitar" }
