@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 rm -f generated-*
-WHERE="application_octet_stream-Guitar Pro 1682976 2014-11-24 00:17:16 download"
+WHERE="application_octet_stream-Guitar Pro 1682976 2014-11-24 001716 download"
 java -jar ../../1.jar <"$WHERE" \
 verbose 2 \
 scale "" \
