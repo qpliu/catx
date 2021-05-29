@@ -65,7 +65,7 @@ class Settings{
     }
     makeEverythingAgree(){
 	for (const s of this.settings){
-	    document.cookie = s[1]+"="+this[s[1]]+";max-age=31536000;SameSite=Strict";
+	    document.cookie = s[1]+"="+this[s[1]]+"; Max-Age=31536000; SameSite=Lax; Path=/";
 	    if (s.input)
 		s.input.value = String(this[s[1]]);
 	}

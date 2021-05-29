@@ -5,7 +5,6 @@ DRUMMAP="35 bd 1,48 tomh 0,43 toml 0,41 toml 0,"
 rm -f generated-*
 VLYRICS=`cat vocaloid_lyrics`
 java -jar ../../guitarproToLy/1.jar <"$WHERE" \
-modified-filename drs \
 markup-extra 0 '\key b \minor' \
 drumMap "$DRUMMAP" \
 add-lyrics vocaloid 0 1 "$VLYRICS" \
@@ -55,7 +54,7 @@ track 9 \
 track 7 \
     preset bass \
     output-lilypond \
-track 8 \
+track 12 \
     preset gg \
     output-drums \
 2>&1|tee log

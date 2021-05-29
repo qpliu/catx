@@ -17,77 +17,77 @@ steelpanALyrics = \new Lyrics \lyricmode {
     \skip1 |
     \skip1 |
 \mymark "Verse 1" #17
-    \skip8 "On"16 "a" "dark"8 "de"16 "sert" "high"8 "way,"16 \skip4 \skip16 |
-    \skip8 "cool"16 \skip16 \tuplet 3/2 { "wind"8 "in" "my" } "hair,"4 \skip4 |
-    \skip8 "warm"16 \skip16 "smell"16 \skip16 "of"16 "co" "li"8 "tas"16 \skip4 \skip16 |
-    \tuplet 3/2 { \skip8 "ris"8 "ing" "up" "through" "the" } "air."8. \skip4 \skip16 |
-    \skip8 "Up"16 "a" "head"8 "in"16 "the" "dis"8 "tance" \skip4 |
-    \skip16 "I"16 "saw" "a" \tuplet 3/2 { "shim"8 "mer" "ing" } "light."4 \skip4 |
-    \skip16 "My"16 "head" "grew" "heav" "y" "and" "my" "sight"8 "grew"16 "dim," \skip4 |
-    \skip16 "I"16 "had" "to" \tuplet 3/2 { "stop"8 "for" "the" } "night."16 \skip4. \skip16 |
+    \skip8 "On"16 "a" "dark"8 "de"16 -- "sert" "high"8 -- "way," \skip4 |
+    \skip8 "cool"8 \tuplet 3/2 { "wind"8 "in" "my" } "hair,"4 \skip4 |
+    \skip8 "warm"8 "smell" "of"16 "co" -- "li"8 -- "tas" \skip4 |
+    \tuplet 3/2 { \skip8 "ris"8 -- "ing" "up" "through" "the" } "air."4. \skip8 |
+    \skip8 "Up"16 "a" -- "head"8 "in"16 "the" "dis"8 -- "tance" \skip4 |
+    \skip16 "I"16 "saw" "a" \tuplet 3/2 { "shim"8 -- "mer" -- "ing" } "light."4 \skip4 |
+    \skip16 "My"16 "head" "grew" "hea" -- "vy" "and" "my" "sight"8 "grew"16 "dim,"8. \skip8 |
+    \skip16 "I"16 "had" "to" \tuplet 3/2 { "stop"8 "for" "the" } "night."4 \skip4 |
 \mymark "Verse 2" #25
     \skip8 "There"16 "she" \skip16 "stood"16 "in" "the" "door"8 "way;" \skip4 |
-    \skip16 "I"16 "heard" "the" \tuplet 3/2 { "mis"8 "sion" "bell."4 \skip16 } \skip4. |
-    \skip8. "An'"16 "I" "was" "think" "in'" "to" "my"8 "self," "this"16 "could" "be" |
-    \tuplet 3/2 { "heav"8 "en" "or" "this" "could" "be" \skip8 "hell."8 \skip2 } |
-    \skip8 "Then"16 "she" \tuplet 3/2 { "lit"8 "up" "a" } "can"8 "dle,"16 \skip4 \skip16 |
-    \skip8 "an'"16 "she" "showed"8 "me"16 "the" "way." \skip4. \skip16 |
-    \skip8 "There"16 "were" "voic" "es" "down" "the" \skip16 "cor"16 "ri" "dor," \skip4 |
-    \skip16 "I"16 "thought" "I" "heard"8 "them"16 \skip16 "say:"4 \skip4 |
+    \skip16 "I"16 "heard" "the" \tuplet 3/2 { "mis"8 -- "sion" "bell."4 \skip16 } \skip4. |
+    \skip8. "An'"16 "I" "was" "think" -- "in'" "to" "my"8 "self," "this"16 "could" "be" |
+    \tuplet 3/2 { "hea"8 -- "ven" "or" "this" "could" "be" \skip8 "hell."4. \skip16 } \skip8 |
+    \skip8 "Then"16 "she" \tuplet 3/2 { "lit"8 "up" "a" } "can"8 -- "dle," \skip4 |
+    \skip8 "an'"16 "she" "showed"8 "me"16 "the" "way."4 \skip4 |
+    \skip8 "There"16 "were" "voic" -- "es" "down" "the" \skip16 "cor"16 -- "ri" -- "dor,"8. \skip8 |
+    \skip16 "I"16 "thought" "I" "heard"8 "them" "say:"4 \skip4 |
 \mymark "Chorus" #33
-    \skip8 "\"Wel"16 "come"8 "to"16 "the" "Ho"8 "tel"8. "Cal"16 \skip16 "i"16 "for" |
+    \skip8 "\"Wel"16 -- "come"8 "to"16 "the" "Ho"8 -- "tel"8. "Cal"8 -- "i"16 -- "for" -- |
     \skip16 "nia,"8 \skip2 \skip8. "such"16 "a" |
-    "love"16 \skip16 "ly"16 "place,"8. "(such"16 "a" "love" \skip16 "ly"16 "place),"8. "such"16 "a" |
-    "love"16 \skip16 "ly"16 "face."8. \skip2 \skip8 |
-    "Plen"16 "ty" "of" "room"8 "at" "the"16 "Ho"8 "tel" "Cal"16 \skip16 "i"16 "for" |
-    \skip16 "nia."8 \skip2 \skip8. "An"16 "y" |
-    "time"16 \skip16 "of"16 "year,"8. "(an"16 "y" "time" \skip16 "of"16 "year),"8. "you"16 "can" |
-    "find"16 \skip16 "it"16 "here."8. \skip2 \skip8 |
+    "love"8 -- "ly"16 "place,"8. "(such"16 "a" "love"8 -- "ly"16 "place),"8. "such"16 "a" |
+    "love"8 -- "ly"16 "face."8. \skip2 \skip8 |
+    "Plen"16 -- "ty" "of" "room"8 "at" "the"16 "Ho"8 -- "tel" "Cal" -- "i"16 -- "for" -- |
+    \skip16 "nia."8 \skip2 \skip8. "An"16 -- "y" |
+    "time"8 "of"16 "year,"8. "(an"16 -- "y" "time"8 "of"16 "year),"8. "you"16 "can" |
+    "find"8 "it"16 "here."8. \skip2 \skip8 |
 \mymark "Verse 3" #41
-    \skip16 "Her"16 "mind" "is" \tuplet 3/2 { "Tif"8 "fa" "ny" } "twist"8 "ed." \skip4 |
-    \skip16 "She"16 "got" "the" "Mer"8 "ce"16 "des"8 "bends."16 \skip8 "(Uh)"8 \skip8 |
-    \skip16 "She"16 "got" "a" "lot" "of" "pret" "ty," \skip16 "pret"16 "ty" "boys" \skip4 |
-    \skip8. "that"16 "she" "calls"8 "friends." \skip4. \skip16 |
-    \skip8 "How"16 "they" "dance"8 "in"16 "the" "court"8 "yard,"16 \skip4 \skip16 |
-    \tuplet 3/2 { "sweet"2 "sum"8 "mer" } "sweat."4 \skip4 |
-    \skip8 "Some"8 "dance" "to"16 "re" "mem" \skip16 "ber,"16 \skip4 \skip16 |
-    \skip8 "some"8 "dance" "to"16 "for"8 "get."16 \skip4. |
+    \skip16 "Her"16 "mind" "is" \tuplet 3/2 { "Tif"8 -- "fa" -- "ny" } "twist"8 -- "ed." \skip4 |
+    \skip16 "She"16 "got" "the" "Mer"8 -- "ce"16 -- "des"8 "bends."8. "(Uh)"8 \skip8 |
+    \skip16 "She"16 "got" "a" "lot" "of" "pret" -- "ty," \skip16 "pret"16 -- "ty" "boys"8. \skip8 |
+    \skip8. "that"16 "she" "calls"8 "friends."4 \skip16 \skip4 |
+    \skip8 "How"16 "they" "dance"8 "in"16 "the" "court"8 -- "yard," \skip4 |
+    \tuplet 3/2 { "sweet"2 "sum"8 -- "mer" } "sweat."4 \skip4 |
+    \skip8 "Some"8 "dance" "to"16 "re" -- "mem"8 -- "ber,"4 \skip8 |
+    \skip8 "some"8 "dance" "to"16 "for"8 -- "get."8. \skip4 |
 \mymark "Verse 4" #49
-    \skip8 "So"16 "I" "called"8 "up"16 "the" "cap"8 "tain," \skip4 |
-    \skip16 "\"Please"8. "bring"8 "me"16 "my"8 "wine.\""16 \skip8. "He"16 "said" "that" |
-    \skip16 "\"We"16 \tuplet 3/2 { "have"8 "n't"16 } "had"8 "that" "spir"16 "it"8 "here"8. "since"8 |
-    \skip8 "nine"16 \skip16 "teen"16 "six"8 "ty"16 "nine." \skip4. \skip16 |
-    \skip8 "An'"16 \skip16 "still"8 "those" "voic"16 "es" "are" "call"8 "ing"16 "from"8 |
-    "far"16 \skip4 \skip16 "a"16 "way."4. \skip8. |
-    \skip8 "Wake"16 "you" "up" \skip16 "in"16 "the" "mid" "dle" "of" "the" "night" \skip8. |
-    \skip8 "just"16 "to" "hear"8 "them"16 \skip16 "say:"4 \skip4 |
+    \skip8 "So"16 "I" "called"8 "up"16 "the" "cap"8 -- "tain," \skip4 |
+    \skip16 "\"Please"8. "bring"8 "me"16 "my"8 "wine.\""8. \skip16 "He"16 "said" "that" |
+    \skip16 "\"We"16 \tuplet 3/2 { "have"8 -- "n't"16 } "had"8 "that" "spir"16 -- "it"8 "here"8. "since"8 |
+    \skip8 "nine"8 -- "teen"16 "six"8 -- "ty"16 "nine."4 \skip4 |
+    \skip8 "An'"8 "still" "those" "voic"16 -- "es" "are" "call"8 -- "ing"16 "from"8 |
+    "far"4. "a"16 -- "way."2 \skip16 |
+    \skip8 "Wake"16 "you" "up" \skip16 "in"16 "the" "mid" -- "dle" "of" "the" "night"8 \skip8 |
+    \skip8 "just"16 "to" "hear"8 "them" "say:"2 |
 \mymark "Chorus" #57
-    \skip8 "\"Wel"16 "come"8 "to"16 "the" "Ho"8 "tel"8. "Cal"16 \skip16 "i"16 "for" |
+    \skip8 "\"Wel"16 -- "come"8 "to"16 "the" "Ho"8 -- "tel"8. "Cal"8 -- "i"16 -- "for" -- |
     \skip16 "nia,"8 \skip2 \skip8. "such"16 "a" |
-    "love"16 \skip16 "ly"16 "place,"8. "(such"16 "a" "love" \skip16 "ly"16 "place),"8. "such"16 "a" |
-    "love"16 \skip16 "ly"16 "face." \skip2 \skip8. "They're"16 |
-    "liv"16 "in'" "it" "up" \skip16 "at"16 \skip16 "the"16 "Ho"8 "tel" "Cal"16 \skip16 "i"16 "for" |
+    "love"8 -- "ly"16 "place,"8. "(such"16 "a" "love"8 -- "ly"16 "place),"8. "such"16 "a" |
+    "love"8 -- "ly"16 "face."8. \skip2 \skip16 "They're"16 |
+    "liv"16 -- "in'" "it" "up" \skip16 "at"16 \skip16 "the"16 "Ho"8 -- "tel" "Cal" -- "i"16 -- "for" -- |
     \skip16 "nia."8 \skip2 \skip8. "What"16 "a" |
-    "nice"16 \skip16 "sur"16 "prise."8. "(What"16 "a" "nice" \skip16 "sur"16 "prise.)"8. "Bring"16 "your" |
-    "al"16 \skip16 "i"16 "bis."2 \skip16 \skip4 |
+    "nice"8 "sur"16 -- "prise."8. "(What"16 "a" "nice"8 "sur"16 -- "prise.)"8. "Bring"16 "your" |
+    "al"8 -- "i"16 -- "bis."2 \skip16 \skip4 |
 \mymark "Verse 5" #65
-    \skip8 "Mir"16 "rors"8 "on" "the"16 "ceil"8 "ing,"16 \skip4 \skip16 |
-    \skip16 "the"16 "pink" \tuplet 3/2 { "cham"8. \skip32 "pagne"8 "on" } "ice,"16 \skip8 "An'"16 "she" "said," \skip8 |
-    \skip8 "\"We"16 "are" "all"8 "just" \tuplet 3/2 { "pris"8 "on" "ers" } "here"16 \skip8. |
-    \skip8 "of"16 "our" \tuplet 3/2 { "own"8 \skip8 "de"8 } "vice.\""4 \skip4 |
-    \skip16 "An'"16 "in" \tuplet 3/2 { "the"8. \skip32 "mas"8 "ter's" } "cham"8 "bers"16 \skip4 \skip16 |
-    \tuplet 3/2 { \skip8 "they"8 "gath" "ered" "for" "the" } "feast."4 \skip4 |
-    \skip16 "They"8 "stab"16 \tuplet 3/2 { "it"8 "with" "their"4 "steel"8 "y" } "knives"16 \skip16 "but"16 "they" |
-    "just"8 "can't"8. "kill"8 "the"16 "beast." \skip4. \skip16 |
+    \skip8 "Mir"16 -- "rors"8 "on" "the"16 "ceil"8 -- "ing," \skip4 |
+    \skip16 "the"16 "pink" \tuplet 3/2 { "cham"8. -- \skip32 "pagne"8 "on" } "ice,"8 \skip16 "An'"16 "she" "said," \skip8 |
+    \skip8 "\"We"16 "are" "all"8 "just" \tuplet 3/2 { "pris"8 -- "on" -- "ers" } "here"8 \skip8 |
+    \skip8 "of"16 "our" \tuplet 3/2 { "own"4 "de"8 -- } "vice.\""4 \skip4 |
+    \skip16 "An'"16 "in" \tuplet 3/2 { "the"8. \skip32 "mas"8 -- "ter's" } "cham"8 -- "bers" \skip4 |
+    \tuplet 3/2 { \skip8 "they"8 "gath" -- "ered" "for" "the" } "feast."4 \skip4 |
+    \skip16 "They"8 "stab"16 \tuplet 3/2 { "it"8 "with" "their"4 "steel"8 -- "y" } "knives"8 "but"16 "they" |
+    "just"8 "can't"8. "kill"8 "the"16 "beast."4 \skip4 |
 \mymark "Verse 6" #73
-    \skip8 "Last"8 "thing"16 "I"8 "re"16 "mem"8 "ber"16 \skip8. "I"16 "was" |
-    \skip8 "run"16 "ning"8 "for"16 "the" "door." \skip2 |
-    \skip8. "I"16 "had" "to" "find" "the" \tuplet 3/2 { "pas"8 "sage" "back"8. \skip32 } \skip16 "to"16 "the" |
-    "place"8 "I" "was"16 \skip16 "be"16 "fore."8 \skip4. \skip16 |
-    \skip8 "\"Re"16 "lax,\""8. "said"16 "the" "night"8 "man,"16 \skip8. "\"We"16 "are" |
-    \skip8 "pro"16 "grammed"8 "to"16 "re"8 "ceive." \skip4. |
-    \skip8 "You"16 "can" "check" "out" "an" "y"8 "time" "you"16 "like," \skip8. |
-    \skip16 "but"16 "you" "can"8 "nev"16 "er" \skip16 "leave.\""16 \skip4. \skip16 |
+    \skip8 "Last"8 "thing"16 "I"8 "re"16 -- "mem"8 -- "ber" \skip8 "I"16 "was" |
+    \skip8 "run"16 -- "ning"8 "for"16 "the" "door."4 \skip16 \skip4 |
+    \skip8. "I"16 "had" "to" "find" "the" \tuplet 3/2 { "pas"8 -- "sage" "back"8. \skip32 } \skip16 "to"16 "the" |
+    "place"8 "I" "was" "be"16 -- "fore."4 \skip16 \skip4 |
+    \skip8 "\"Re"16 -- "lax,\""8. "said"16 "the" "night"8 "man," \skip8 "\"We"16 "are" |
+    \skip8 "pro"16 -- "grammed"8 "to"16 "re"8 -- "ceive."4 \skip4 |
+    \skip8 "You"16 "can" "check" "out" "an" -- "y"8 "time" "you"16 "like,"8 \skip8 |
+    \skip16 "but"16 "you" "can"8 "nev"16 -- "er"8 "leave.\""4 \skip4 |
 \mymark "Solo" #81
     \skip1 |
     \skip1 |
