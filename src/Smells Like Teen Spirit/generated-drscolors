@@ -91,7 +91,7 @@ drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
 \mymark "Bridge" #76
     << { cymcb4 <hho sn>8 sn16 sn cymcb4 hh | } \context DrumVoice = "drsb" { bd8 bd4. bd8 bd4. | } >>
     << { cymcb4 <hho sn> sn8 hho toml hho | } \context DrumVoice = "drsb" { bd8 bd2. r8 | } >>
-    << { cymcb4 <hho sn> cymcb hh | } \context DrumVoice = "drsb" { bd8 bd4 bd16 bd bd8 bd4. | } >>
+    << { cymcb4 <hho sn>8 sn16 sn cymcb4 hh | } \context DrumVoice = "drsb" { bd8 bd4. bd8 bd4. | } >>
     << { cymcb4 <hho sn> hho8 sn16 sn sn sn sn sn | } \context DrumVoice = "drsb" { bd8 bd4 bd8 bd2 | } >>
 \mymark "Guitar Solo" #80
     << { cymcb4 <hho sn>8. sn16 hho sn8. <hho sn>4 | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>

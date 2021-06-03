@@ -17,32 +17,32 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "."1
     "."1
     "."4 "(l'oUd)"8 "('Vp)"4 "('0n)" "(g'Vnz)"8
-    \skip4 "('and)"8 "(br'IN)"4 "."8 "(j'O@)" "(fr'Endz)"
+    \skip4 "('and)"8 "(br'IN)"4. "(j'O@)"8 "(fr'Endz)"
     \skip4 "('Its)"8 "(f'Vn)"4. "(t'u:)"8 "(l'u:z)"
-    \skip4 "('and)"8 "(t'u:)"4 "."8 "(prI)" "(t'End)"
+    \skip4 "('and)"8 "(t'u:)"4. "(prI)"8 "(t'End)"
     \skip4 "(S'i:z)"8 "(,oU)"4 "(v3)" "(b'o@d)"8
-    \skip4 "('and)"8 "(s'E)"4 "(Elf)"8 "(@)" "(Sj'U@d)"
+    \skip4 "('and)"8 "(s'Elf)"4. "(@)"8 "(Sj'U@d)"
     \skip4 "('oU)"8 "(n'oU)"4. "('aI)"8 "(n'oU)"
-    \skip4 "('eI)"8 "(d'3:)"4 "(3:)"8 "(ti)" "(w'3:d)"
+    \skip4 "('eI)"8 "(d'3:)"4. "(ti)"8 "(w'3:d)"
 \mymark "Pre-Chorus" #20
     "!mark=Pre-Chorus"4 "(h@)"8 "(l'oU)"4. "(h@)"8 "(l'oU)"
-    \skip4 "(h@)"8 "(l'oU)"4 "(h'a)"8 "(aU)" "(l'o)"
+    \skip4 "(h@)"8 "(l'oU)"4 "(h'aU)" "(l'o)"8
     "(oU)"8 "." "(h@)" "(l'oU)"4. "(h@)"8 "(l'oU)"
-    \skip4 "(h@)"8 "(l'oU)"4 "(h'a)"8 "(aU)" "(l'o)"
+    \skip4 "(h@)"8 "(l'oU)"4 "(h'aU)" "(l'o)"8
     "(oU)"8 "." "(h@)" "(l'oU)"4. "(h@)"8 "(l'oU)"
-    \skip4 "(h@)"8 "(l'oU)"4 "(h'a)"8 "(aU)" "(l'o)"
+    \skip4 "(h@)"8 "(l'oU)"4 "(h'aU)" "(l'o)"8
     "(oU)"8 "." "(h@)" "(l'oU)"4. "(h@)"8 "(l'oU)"
     \skip4 "(h@)"8 "(l'oU)"4 "(w'ID)"8 "(D'@)" "(l'aIts)"
 \mymark "Chorus" #28
     "!mark=Chorus"8 "('aUt)"4. \skip8 "('Its)"8 "(l'Es)" "(d'eIn)"
     \skip8 "(dZr@s)"4. "."8 "(h'i@3)" "(w'i:)" "('A@)"
     \skip8 "(n'aU)"4. "."8 "(,En)" "(t@)" "(t'eIn)"
-    \skip8 "('Vs)"4. "."8 "('aI)" "(f'i:l)" "(stj'u:)"
+    \skip8 "('Vs)"4. "."8 "('aI)" "(f'i:l)" "(st'u:)"
     \skip8 "(pId)"4. "."8 "('and)" "(k@n)" "(t'eI)"
     \skip8 "(dZ@s)"4. "."8 "(h'i@3)" "(w'i:)" "('A@)"
     \skip8 "(n'aU)"4. "."8 "(,En)" "(t@)" "(t'eIn)"
-    \skip8 "('Vs)"4. "."8 "('eI)" "(mjU)" "(l'A:)"
-    \skip8 "(toU)"4. "."8 "('a#n)" "(al)" "(b'i:)"
+    \skip8 "('Vs)"4. "."8 "('eI)" "(mU)" "(l'A:)"
+    \skip8 "(toU)"4. "."8 "('a#n)" "(al)" "(b'aI)"
     \skip8 "(noU)"4. "."8 "('eI)" "(m@)" "(sk'i:)"
     \skip8 "(toU)"4. "."8 "(m'aI)" "(lI)" "(b'i:)"
     \skip8 "(doU)"4. "."4 "(j'Eh)"
@@ -66,23 +66,23 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     \skip4 "(Vn)"8 "(t'Il)"4 "."8 "(D'@)" "('End)"
 \mymark "Pre-Chorus" #56
     "!mark=Pre-Chorus"4 "(h@)"8 "(l'oU)"4. "(h@)"8 "(l'oU)"
-    \skip4 "(h@)"8 "(l'oU)"4 "(h'a)"8 "(aU)" "(l'o)"
+    \skip4 "(h@)"8 "(l'oU)"4 "(h'aU)" "(l'o)"8
     "(oU)"8 "." "(h@)" "(l'oU)"4. "(h@)"8 "(l'oU)"
-    \skip4 "(h@)"8 "(l'oU)"4 "(h'a)"8 "(aU)" "(l'o)"
+    \skip4 "(h@)"8 "(l'oU)"4 "(h'aU)" "(l'o)"8
     "(oU)"8 "." "(h@)" "(l'oU)"4. "(h@)"8 "(l'oU)"
-    \skip4 "(h@)"8 "(l'oU)"4 "(h'a)"8 "(aU)" "(l'o)"
+    \skip4 "(h@)"8 "(l'oU)"4 "(h'aU)" "(l'o)"8
     "(oU)"8 "." "(h@)" "(l'oU)"4. "(h@)"8 "(l'oU)"
     \skip4 "(h@)"8 "(l'oU)"4 "(w'ID)"8 "(D'@)" "(l'aIts)"
 \mymark "Chorus" #64
     "!mark=Chorus"8 "('aUt)"4. \skip8 "('Its)"8 "(l'Es)" "(d'eIn)"
     \skip8 "(dZr@s)"4. "."8 "(h'i@3)" "(w'i:)" "('A@)"
     \skip8 "(n'aU)"4. "."8 "(,En)" "(t@)" "(t'eIn)"
-    \skip8 "('Vs)"4. "."8 "('aI)" "(f'i:l)" "(stj'u:)"
+    \skip8 "('Vs)"4. "."8 "('aI)" "(f'i:l)" "(st'u:)"
     \skip8 "(pId)"4. "."8 "('and)" "(k@n)" "(t'eI)"
     \skip8 "(dZ@s)"4. "."8 "(h'i@3)" "(w'i:)" "('A@)"
     \skip8 "(n'aU)"4. "."8 "(,En)" "(t@)" "(t'eIn)"
-    \skip8 "('Vs)"4. "."8 "('eI)" "(mjU)" "(l'A:)"
-    \skip8 "(toU)"4. "."8 "('a#n)" "(al)" "(b'i:)"
+    \skip8 "('Vs)"4. "."8 "('eI)" "(mU)" "(l'A:)"
+    \skip8 "(toU)"4. "."8 "('a#n)" "(al)" "(b'aI)"
     \skip8 "(noU)"4. "."8 "('eI)" "(m@s)" "(k'i:)"
     \skip8 "(toU)"4. "."8 "(m'aI)" "(lI)" "(b'i:)"
     \skip8 "(doU)"4. "."4 "(j'Eh)"
@@ -113,7 +113,7 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "."1
     "."1
     "."1
-    "."4 "('and)"8 "('aI)"4 "(f3)" "(g'Et)"8
+    "."4 "('and)"8 "('aI)"4 "(f'O@)" "(g'Et)"8
     \skip4 "(dZ'Vst)"8 "(w'aI)"4 "."8 "('aI)" "(t'eIst)"
     \skip4 "('oU)"8 "(j'Eh)"4. "('aI)"8 "(g'Es)"
     \skip4 "('It)"8 "(m'eIks)"4 "."8 "(m'i:)" "(sm'aIl)"
@@ -123,23 +123,23 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     \skip4 "(v3)"8 "(n'E)"4 "(E)"8 "(v3)" "(m'aInd)"
 \mymark "Pre-Chorus" #108
     "!mark=Pre-Chorus"4 "(h@)"8 "(l'oU)"4. "(h@)"8 "(l'oU)"
-    \skip4 "(h@)"8 "(l'oU)"4 "(h'a)"8 "(aU)" "(l'o)"
+    \skip4 "(h@)"8 "(l'oU)"4 "(h'aU)" "(l'o)"8
     "(oU)"8 "." "(h@)" "(l'oU)"4. "(h@)"8 "(l'oU)"
-    \skip4 "(h@)"8 "(l'oU)"4 "(h'a)"8 "(aU)" "(l'o)"
+    \skip4 "(h@)"8 "(l'oU)"4 "(h'aU)" "(l'o)"8
     "(oU)"8 "." "(h@)" "(l'oU)"4. "(h@)"8 "(l'oU)"
-    \skip4 "(h@)"8 "(l'oU)"4 "(h'a)"8 "(aU)" "(l'o)"
+    \skip4 "(h@)"8 "(l'oU)"4 "(h'aU)" "(l'o)"8
     "(oU)"8 "." "(h@)" "(l'oU)"4. "(h@)"8 "(l'oU)"
     \skip4 "(h@)"8 "(l'oU)"4 "(w'ID)"8 "(D'@)" "(l'aIts)"
 \mymark "Chorus" #116
     "!mark=Chorus"8 "('aUt)"4. \skip8 "('Its)"8 "(l'Es)" "(d'eIn)"
     \skip8 "(dZr@s)"4. "."8 "(h'i@3)" "(w'i:)" "('A@)"
     \skip8 "(n'aU)"4. "."8 "(,En)" "(t@)" "(t'eIn)"
-    \skip8 "('Vs)"4. "."8 "('aI)" "(f'i:l)" "(stj'u:)"
+    \skip8 "('Vs)"4. "."8 "('aI)" "(f'i:l)" "(st'u:)"
     \skip8 "(pId)"4. "."8 "('and)" "(k@n)" "(t'eI)"
     \skip8 "(dZ@s)"4. "."8 "(h'i@3)" "(w'i:)" "('A@)"
     \skip8 "(n'aU)"4. "."8 "(,En)" "(t@)" "(t'eIn)"
-    \skip8 "('Vs)"4. "."8 "('eI)" "(mjU)" "(l'A:)"
-    \skip8 "(toU)"4. "."8 "('a#n)" "(al)" "(b'i:)"
+    \skip8 "('Vs)"4. "."8 "('eI)" "(mU)" "(l'A:)"
+    \skip8 "(toU)"4. "."8 "('a#n)" "(al)" "(b'aI)"
     \skip8 "(noU)"4. "."8 "('eI)" "(m@s)" "(k'i:)"
     \skip8 "(toU)"4. "."8 "(m'aI)" "(lI)" "(b'i:)"
     \skip8 "(doU)"4. "."8 "('eI)" "(dI2)" "(n'aI)"
