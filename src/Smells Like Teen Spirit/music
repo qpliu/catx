@@ -1,6 +1,6 @@
 % BIN midi all kav gg peter susan bass
 % ROBOT measure_map={"default":"1-6,5-6,5-6,5,7"}
-% MERGEMIDI --fudge-lyrics midiKaraoke=144
+% MERGEMIDI --fudge-lyrics midiKaraoke=144,midiVocaloid=144
 % ROBOT enabled=true
 
 \include "generated-music"
