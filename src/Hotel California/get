@@ -8,6 +8,7 @@ java -jar ../../guitarproToLy/1.jar <"$WHERE" \
 markup-extra 0 '\key b \minor' \
 drumMap "$DRUMMAP" \
 add-lyrics vocaloid 0 1 "$VLYRICS" \
+modified-filename drs \
 track 0 \
     preset kav \
     output-lilypond \

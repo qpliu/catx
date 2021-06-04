@@ -23,7 +23,7 @@
 \include "generated-guitarE"
 \include "generated-guitarF"
 \include "generated-bass"
-\include "generated-drs"
+\include "drs"
 
 layoutmusic = <<
     \tag #'(allPart kavPart) \new Staff \with {

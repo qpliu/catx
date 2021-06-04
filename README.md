@@ -24,14 +24,14 @@ cd build
 or
 
 ```
-cd src/ムーンライト伝説
-../build midi all
+cd src/走れ!
+../build midi gg
 ```
 
 or
 
 ```
-cd src/ムーンライト伝説
+cd src/走れ!
 ../buildBin
 ```
 

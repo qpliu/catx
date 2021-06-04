@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 WHERE="application_guitar_pro5-42928401.gp5"
-DRUMMAP="44 hh 0,35 bd 1,43 toml 0,"
+DRUMMAP="44 hh 0,35 bd 1,43 tomml 0,"
 rm -f generated-*
 VLYRICS=`cat vocaloid_lyrics`
 SCALE="c des d ees e f ges g aes a bes b"
