@@ -93,8 +93,8 @@ drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { cymcb8 hh16 hh <hh sn>8 hh hh hh16 hh <hh sn>8 hh | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>
     << { hh8 hh16 hh <hh sn>8 hh8. tomh16_"R" tomh tomh tomh8 <cymcb toml> | } \context DrumVoice = "drsb" { bd1 | } >>
     << { cymc8 hh16 hh <hh sn>8 hh hh hh16 hh <hh sn>8 hh | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>
-    << { cymcb8 hh16 hh <hh sn>8 hh hh toml16 toml8. tomh16_"R" toml | } \context DrumVoice = "drsb" { bd2 bd | } >>
-    << { cymc8 hh16 hh <hh sn>8 hh hh hh16 hh <hh sn>8 hh | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>
+    << { cymcb8 hh16 hh <hh sn>8 hh hh toml16 toml8. tomh16 toml | } \context DrumVoice = "drsb" { bd2 bd | } >>
+    << { cymc8_"L" hh16 hh <hh sn>8 hh hh hh16 hh <hh sn>8 hh | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>
     << { hh8 hh16 hh <hh sn>8 hh hh4 hho16 hho hho8 | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>
     << { cymc8 hh16 hh <hh sn>8 hh hh hh16 hh <hh sn>8 hh | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>
     << { hh8 hh16 hh <hh sn>8 hh toml16 toml toml toml tomh tomh toml toml | } \context DrumVoice = "drsb" { bd1 | } >>
@@ -102,7 +102,7 @@ drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh8 hh16 hh <hh sn>8 hh hh16 hho hh4 cymc8 | } \context DrumVoice = "drsb" { bd1 | } >>
     << { cymcb8 hh16 hh <hh sn>8 hh hh hh16 hh <hh sn>8 hh | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>
     << { hh8 hh16 hh <hh sn>8 hh hh toml16 toml8. tomh16 toml | } \context DrumVoice = "drsb" { bd2 bd | } >>
-    << { cymc8 hh16 hh <hh sn>8 hh hh hh16 hh <hh sn>8 hh | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>
+    << { cymc8_"L" hh16 hh <hh sn>8 hh hh hh16 hh <hh sn>8 hh | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>
     << { hh8 hh16 hh <hh sn>8 hh hh hh16 hh <hh sn>8 <hho cymcb> | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>
     << { cymc8 hh16 hh <hh sn>8 hh hh hh16 hh <hh sn>8 hh | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>
     << { hh8 hh16 hh <hh sn>8 hh toml16 toml toml toml tomh tomh toml toml | } \context DrumVoice = "drsb" { bd1 | } >>
