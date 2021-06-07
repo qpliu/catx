@@ -37,4 +37,4 @@ cd src/走れ!
 
 ### Here is a cat
 
-![catx cat](http://catx.band/catx.jpg)
+![catx cat](https://catx.band/git_cat.jpg)
