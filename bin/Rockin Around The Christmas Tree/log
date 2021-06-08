@@ -6,20 +6,20 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 7  Divisions: 384
+WorstAge=2147483648
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
+Format: 1  Tracks: 6  Divisions: 384
 Sequence: midiAarinrobo
 Track name: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
-Track name: midiKaraoke
 Track name: midiOne
-countin 0_+;metronome 0_+>Ah->@@@@@Rock-in'a-roundtheChrist-mastree,>attheChrist-maspar-tyhop.-->Mis-tle-toehungwhereyoucansee;ev'-rycou-plewantstostop.-->Rock-in'a-roundtheChrist-mastree,>lettheChrist-masspi-ritring.-->La-terwe'llhavesomepump-kinpie,andwe'lldosomeca-ro-ling.-->Youwillgetasen-ti-men-talfee-ling,whenyouhear;-->voi-cessing-ing,let'sbejol-lydeckthehallswithboughsofhol-ly.>Rock-in'a-roundtheChrist-mastree,>haveahap-pyho-li-day.-->Ev'-ry-onedan-cingmer-ri-ly,inthenewoldfa-shionedway.-->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1You|!bg=willgetasen-ti-men-talfee-ling,whenyouhear;-->voi-cessing-ing,let'sbejol-lydeckthehallswithboughsofhol-ly.>Rock-in'a-roundtheChrist-mastree,haveahap-pyho-li-day.-->Ev'-ry-onedan-cingmer-ri-ly,inthenewoldfa-shionedway-@@Playing time: ~126 seconds
+countin 0_+;metronome 0_+Playing time: ~126 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 11310403/22031664 bytes(51.337% compressed)
+Wrote 11226019/22031664 bytes(50.954% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

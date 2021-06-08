@@ -4,18 +4,18 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 5  Divisions: 384
+WorstAge=2147483648
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
+Format: 1  Tracks: 4  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
-Track name: midiKaraoke
->@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1You|!bg=can-dance-->Youcanjive>Hav-ingthetimeofyourlife--->Ooh,--see-that-girl->Watch-that--scene->Dig--ging-the-danc-ing-queen--->Fri|!mark=Verse 1-daynightandthelightsarelow>Look-ingoutforaplacetogo->Wheretheyplaytherightmu-sic--->Get-tingintheswing>Youcometolookforaking->A-ny-bodycouldbethatguy->Nightisyoungandthemu-sic'shigh->Withabitofrockmu-sic--->E-very-thingisfine>You'reinthemoodforadance->Andwhenyougetthechance--->Youarethedanc|!mark=Chorus-ingqueen>Youngandsweet>On-lyse-ven-teen->Danc-ingqueen>Feelthebeatfromthetam-bou-rine,ohyeah->Youcandance>Youcanjive->Hav-ingthetimeofyourlife-->Ooh,--seethatgirl>Watchthatscene>Dig-gingthedanc-ingqueen->@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1You're|!bg=|!mark=Verse 2ateas-er,youturn'emon>Leave'emburn-ingandthenyou'regone->Look-ingoutfora-no-ther--->A-ny-onewilldo>You'reinthemoodforadance->Andwhenyougetthechance--->Youarethedanc|!mark=Outro-ingqueen>Youngandsweet>On-lyse-ven-teen->Danc-ingqueen>Feelthebeatfromthetam-bou-rine,ohyeah->Youcandance>Youcanjive->Hav-ingthetimeofyourlife-->Ooh,--seethatgirl>Watchthatscene>Dig-gingthedanc-ingqueen--->Dig-gingthedanc-ingqueen-@@-----Playing time: ~181 seconds
+Playing time: ~181 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 18491716/31746564 bytes(58.2479% compressed)
+Wrote 18460100/31746564 bytes(58.1483% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 2.2 staff-spaces

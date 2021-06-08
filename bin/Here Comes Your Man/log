@@ -4,18 +4,18 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 5  Divisions: 384
+WorstAge=2147483648
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
+Format: 1  Tracks: 4  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
-Track name: midiKaraoke
->@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!mark=Verse|-outside|!bg=there'saboxcarwaiting>outsidethefam-ilystew___>out-bythefi-rebreathing>outsidewewaittilfaceturnsblueiknowthenervous>wal-kingiknowthedir-tybeardhangs__>out-bytheboxcarwai-ting_takeme away>tonowhere plains!mark=|->there is awaitsolongsolong__solongwe'll never wait>so!mark=Chorus|-longherecomes yourman__>herecomes yourman__>herecomes yourman__|!mark=Riff 1>@@@@@@@!mark=Verse|-bigshakesonaboxcarmoving>big shaketotheland       that's falling>downis awindmakes apalm stop blowing>abigbigstone fall andbreak mycrown!mark=|->there is awaitsolongsolong__solongwe'll never wait>so!mark=Chorus|-longherecomes yourman__>herecomes yourman__>herecomes yourman_____>herecomes yourman__|!mark=Riff 2>@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1oh|!bg=y-eah>ohy-eahahooooh|!mark=>@@@@ahoooh>@@@@@!mark=|-there is awaitsolongsolong__solongwe'll never wait>so!mark=Chorus|-long>herecomes yourman__>herecomes yourman__>herecomes yourman_____>herecomes yourman__>herecomes yourman__>herecomes yourman__>herecomes yourman_____>herecomes yourman_____>herecomes yourman__>herecomes yourman__>herecomes yourman_____>herecomes yourman_____>herecomes yourman__@@Playing time: ~198 seconds
+Playing time: ~198 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 19953104/34710132 bytes(57.485% compressed)
+Wrote 19682004/34710132 bytes(56.7039% compressed)
 warning: Found infinity or nan in output.  Substituting 0.0
 warning: Found infinity or nan in output.  Substituting 0.0
 warning: Found infinity or nan in output.  Substituting 0.0

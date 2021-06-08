@@ -15,9 +15,8 @@ vocaloidLyrics = \new Lyrics \lyricmode {
     "(h'av)"4
     "(h'3:d)"4
     "('i:)"8
-    "(n'Vf)"8
+    "(n'Vf)"4
     "."4
-    "."8
     "('V)"8
     "(b'aUt)"8
     "(j'O@)"8
@@ -33,9 +32,8 @@ vocaloidLyrics = \new Lyrics \lyricmode {
     "('aIm)"4
     "('0n)"4
     "(D'@)"8
-    "(tr'eIn)"8
+    "(tr'eIn)"4
     "."4
-    "."8
     "('and)"8
     "(j'u:)"8
     "('A@)"8
@@ -65,9 +63,8 @@ vocaloidLyrics = \new Lyrics \lyricmode {
     "(l'Vm)"8
     "(pr'O:)"8
     "(m'I)"8
-    "(s'Iz)"8
-    "."4.
-    "."4
+    "(s'Iz)"4
+    "."2
     "(D'@w'0nz)"4
     "(j'u:)"4
     "(m'eIk)"8
@@ -76,15 +73,15 @@ vocaloidLyrics = \new Lyrics \lyricmode {
     "(w'ID)"4
     "(j'O@)"8
     "('aI)"4.
-    "(d'u:)"1
+    "(d'u:)"2.
+    "."4
     "."1
     "(j'u:v)|!check=29"4
     "(b'i:n)"4
     "(b'i:)"4
     "('In)"8
-    "(b'ad)"8
+    "(b'ad)"4
     "."4
-    "."8
     "('and)"8
     "(b'OI)"8
     "(D'@)"8
@@ -100,9 +97,8 @@ vocaloidLyrics = \new Lyrics \lyricmode {
     "(k'Ent)"4
     "(tS'eIndZ)"4
     "(j'O@)"8
-    "(w'eIz)"8
+    "(w'eIz)"4
     "."4
-    "."8
     "('and)"8
     "('aI)"8
     "(d'oUnt)"8
@@ -132,8 +128,7 @@ vocaloidLyrics = \new Lyrics \lyricmode {
     "(m'V)"8
     "(tS'3:)"8
     "(r'I)"8
-    "(t'i:)"8
-    "."8
+    "(t'i:)"4
     "."2
     "('aI)"4
     "(w'Il)"4
@@ -143,7 +138,8 @@ vocaloidLyrics = \new Lyrics \lyricmode {
     "(k'O:z)"4
     "('Its)"8
     "('O:l)"4.
-    "(tr'u:)"1
+    "(tr'u:)"2.
+    "."4
     "."1
     "."4
     "('aIm)"4
@@ -158,8 +154,7 @@ vocaloidLyrics = \new Lyrics \lyricmode {
     "(h'a)"4
     "(p'End)"8
     "('V)"8
-    "(g'En)"4
-    "."4
+    "(g'En)"2
     "."1
     "."4
     "('aIl)"4
@@ -185,9 +180,8 @@ vocaloidLyrics = \new Lyrics \lyricmode {
     "(b'i:)"4
     "(j'u:l)"4
     "(gr'oU)"8
-    "('Vp)"8
+    "('Vp)"4
     "."4
-    "."8
     "(w'En)"8
     "(j'u:)"8
     "(g'oU)"8
@@ -223,9 +217,8 @@ vocaloidLyrics = \new Lyrics \lyricmode {
     "('IN)"4
     "(j'u:)"4
     "(s'Vm)"8
-    "(n'eImz)"8
+    "(n'eImz)"4
     "."4
-    "."8
     "('Iz)"8
     "(st'Il)"8
     "('eI)"8
@@ -241,9 +234,8 @@ vocaloidLyrics = \new Lyrics \lyricmode {
     "('IN)"4
     "('Vp)"4
     "(w'ID)"8
-    "(j'u:)"8
+    "(j'u:)"4
     "."4
-    "."8
     "(f'O@)"8
     "(n'aU)"8
     "('Iz)"8
@@ -274,8 +266,7 @@ vocaloidLyrics = \new Lyrics \lyricmode {
     "(r'i:)"8
     "('a)"8
     "(l'I)"8
-    "(t'i:)"8
-    "."8
+    "(t'i:)"4
     "."2
     "(k'O:z)"4
     "('aIm)"4
@@ -285,7 +276,8 @@ vocaloidLyrics = \new Lyrics \lyricmode {
     "(t'u:)"4
     "(t'El)"8
     "(j'O@)"4.
-    "(m'0m)"1
+    "(m'0m)"2.
+    "."4
     "."1
     "."4
     "('aIm)"4
@@ -300,8 +292,7 @@ vocaloidLyrics = \new Lyrics \lyricmode {
     "(h'a)"4
     "(p'End)"8
     "('V)"8
-    "(g'En)"4
-    "."4
+    "(g'En)"2
     "."1
     "."4
     "('aIl)"4
@@ -321,15 +312,14 @@ vocaloidLyrics = \new Lyrics \lyricmode {
     "('oU)"8*2/3
     "('oU)"8*2/3
     "('oU)"8*2/3
-    "(j'Eh)"2
-    "."2
+    "(j'Eh)"2.
+    "."4
     "(m'eI)"4
     "(b'i:)"4
     "(j'u:l)"4
     "(gr'oU)"8
-    "('Vp)"8
+    "('Vp)"4
     "."4
-    "."8
     "(w'En)"8
     "(j'u:)"8
     "(g'oU)"8
@@ -351,7 +341,8 @@ vocaloidLyrics = \new Lyrics \lyricmode {
     "(m'aI)"4
     "(d'O:)"8
     "(A@)"4.
-    "(l'IN)"1
+    "(l'IN)"2.
+    "."4
     "."2
     "('aIv)"4*2/3
     "(l'Eft)"4*2/3

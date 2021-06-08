@@ -5,19 +5,18 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 6  Divisions: 384
+WorstAge=2147483648
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
+Format: 1  Tracks: 4  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
-Track name: midiKaraoke
-Track name: midiVocaloid
->@|!mark=Intro!mark=Intro@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Hey,|!mark=Hey, Ho, let's go!|!bg=(h'eI)|!mark=Hey, Ho, let's go!Ho,(h'oU)let's(l'Ets)go!(g'oU)>Hey,(h'eI)Ho,(h'oU)let's(l'Ets)go!(g'oU)>Hey,(h'eI)Ho,(h'oU)let's(l'Ets)go!(g'oU)>Hey,(h'eI)Ho,(h'oU)let's(l'Ets)go!(g'oU)They're(DeI'3)for|!mark=Verse 1 & 2(f'O@)|!mark=Verse 1 & 2-ming(m'IN)in('In)a('@)straight(str'eIt)line(l'aIn)-..>They're(DeI'3)go(g'oU)-ing('IN)throguh(Tr'u:)a('eI)tigh(t'aIt)wind(w'Ind)-..>The(D'@)kids(k'Idz)are('A@)lo(l'u:)-sing(z'IN)their(D'e@)minds(m'aIndz)-.The(D'@)Blitz(bl'Its)-krieg(kr'i:g)Bop(b'0p)-.-..>They're(DeI'3)pi(p'aIl)-lling('IN)in('In)a(D'@)back(b'ak)seat(s'i:t)-..>They're(DeI'3)ge(dZ'E)-ne(n'3)-ra(r'eI)-ting(t'IN)steam(st'i:m)heat(h'i:t)-..>Pul(p'Vl)-saa(s'eI)-ting(t'IN)to(t'u:)the(D'@)back(b'ak)beat(b'i:t)-.The(D'@)Blitz(bl'Its)-krieg(kr'i:g)Bop(b'0p)-.-.>Hey,|!mark=Chorus 1 & 2(h'eI)|!mark=Chorus 1 & 2Ho,(h'oU)-.let's(l'Ets)go(g'oU)-.Shoot(S'u:t)'em('Em)in('In)the(D'@)back(b'ak)now(n'aU)-.>What(w'0t)they(D'eI)want?(w'0nt)-.>I('aI)don't(d'oUnt)know(n'oU)-.They're(DeI'3)all('O:l)revved(r'Evd)up('Vp)and('and)rea(r'E)-dy(d'i:)to(t'u:)go(g'oU)-.>They're(DeI'3)for(f'O@)-ming(m'IN)in('In)a('@)straight(str'eIt)line(l'aIn)-..>They're(DeI'3)go(g'oU)-ing('IN)throguh(Tr'u:)a('eI)tigh(t'aIt)wind(w'Ind)-..>The(D'@)kids(k'Idz)are('A@)lo(l'u:)-sing(z'IN)their(D'e@)minds(m'aIndz)-.The(D'@)Blitz(bl'Its)-krieg(kr'i:g)Bop(b'0p)-.-..>They're(DeI'3)pi(p'aIl)-lling('IN)in('In)a(D'@)back(b'ak)seat(s'i:t)-..>They're(DeI'3)ge(dZ'E)-ne(n'3)-ra(r'eI)-ting(t'IN)steam(st'i:m)heat(h'i:t)-..>Pul(p'Vl)-saa(s'eI)-ting(t'IN)to(t'u:)the(D'@)back(b'ak)beat(b'i:t)-.The(D'@)Blitz(bl'Its)-krieg(kr'i:g)Bop(b'0p)-.-.>Hey,|!mark=Chorus 1 & 2(h'eI)|!mark=Chorus 1 & 2Ho,(h'oU)-.let's(l'Ets)go(g'oU)-.Shoot(S'u:t)'em('Em)in('In)the(D'@)back(b'ak)now(n'aU)-.>What(w'0t)they(D'eI)want?(w'0nt)-.>I('aI)don't(d'oUnt)know(n'oU)-.They're(DeI'3)all('O:l)revved(r'Evd)up('Vp)and('and)rea(r'E)-dy(d'i:)to(t'u:)go(g'oU)-.>They're(DeI'3)for(f'O@)-ming(m'IN)in('In)a('@)straight(str'eIt)line(l'aIn)!mark=Verse 3|-!mark=Verse 3>They're(DeI'3)go(g'oU)-ing('IN)throguh(Tr'u:)a('eI)tigh(t'aIt)wind(w'Ind)-..>The(D'@)kids(k'Idz)are('A@)lo(l'u:)-sing(z'IN)their(D'e@)minds(m'aIndz)-.The(D'@)Blitz(bl'Its)-krieg(kr'i:g)Bop(b'0p)-.-..>They're(DeI'3)pi(p'aIl)-lling('IN)in('In)a(D'@)back(b'ak)seat(s'i:t)-..>They're(DeI'3)ge(dZ'E)-ne(n'3)-ra(r'eI)-ting(t'IN)steam(st'i:m)heat(h'i:t)-..>Pul(p'Vl)-saa(s'eI)-ting(t'IN)to(t'u:)the(D'@)back(b'ak)beat(b'i:t)-.The(D'@)Blitz(bl'Its)-krieg(kr'i:g)Bop(b'0p)-.-.>Hey,|!mark=Outro(h'eI)|!mark=OutroHo,(h'oU)-.let's(l'Ets)go!(g'oU)-.>Hey,(h'eI)-.Ho,(h'oU)-.-.let's(l'Ets)go!(g'oU)-.>Hey,(h'eI)-.Ho,(h'oU)-.-.let's(l'Ets)go!(g'oU)-.>Hey,(h'eI)-.Ho,(h'oU)-.-.let's(l'Ets)go!(g'oU)-.-.@@-Playing time: ~135 seconds
+Playing time: ~134 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 14370950/23633156 bytes(60.8084% compressed)
+Wrote 14054104/23430196 bytes(59.9829% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 5.1 staff-spaces

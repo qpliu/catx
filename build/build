@@ -9,10 +9,9 @@ build=`dirname "$buildbuild"`
 cd "$build"
 build=`pwd`
 PARTS="$*"
-BINDIR="$build/bin/$$"
-rm -rf "$BINDIR"
-find "$build/bin" -mindepth 1 -maxdepth 1 -type d -mtime +1 -exec rm -rf '{}' ';' >/dev/null 2>&1||true
-mkdir -p "$BINDIR"/bin "$BINDIR"/src "$BINDIR"/java
+BINDIR="$build/bin/$name"
+rm -rf "$BINDIR"/bin "$BINDIR"/src "$BINDIR"/src-* "$BINDIR"/java
+mkdir -p "$BINDIR"/bin "$BINDIR"/src "$BINDIR"/java "$BINDIR"/ecantorix-cache
 cd "$BINDIR"/java
 ln "$build"/java/* .
 javac -Xlint *.java
@@ -64,6 +63,7 @@ do
     if test "x$part" = "xmidi"
     then
 	merge="$MERGEMIDI"
+	merge_karaoke=""
 # Make sure these names of midi tracks agree with aarinrobo/c/midi.c
 	for midi in midiAarinrobo midiCue midiGg midiPeter midiKav midiSusan midiBass midiKaraoke midiKaraokeTwo midiVocaloid midiVocaloidTwo midiMuted midiOne midiTwo
 	do
@@ -80,11 +80,19 @@ do
 }
 EOF
 		lilypond -l WARN -o out in.ly
-		merge="$merge $midi ../src-$midi/out.midi"
+		case "$midi" in
+		    midiKaraoke*|midiVocaloid*)
+			merge_karaoke="$merge_karaoke $midi ../src-$midi/out.midi"
+			;;
+		    *)
+			merge="$merge $midi ../src-$midi/out.midi"
+			;;
+		esac
 	    fi
 	    cd ../src
 	done
-	java -cp ../java MergeMidi $merge >out.midi
+	java -cp ../java MergeMidi $merge $merge_karaoke >out.midi
+	java -cp ../java MergeMidi $merge >out_no_karaoke.midi
 	if type timidity ffmpeg >/dev/null 2>&1 && ! grep -q '^% NO_MP3' music
 	then
 	    for a in *.mp3
@@ -100,8 +108,18 @@ EOF
 	    then
 		TIMIDITY_EXTRA_CFG="$TIMIDITY_EXTRA_CFG -c timidity_extra.cfg"
 	    fi
-	    timidity $TIMIDITY_EXTRA_CFG -OF -o out.flac out.midi
-	    ffmpeg </dev/null -loglevel 16 -i out.flac out.mp3
+	    timidity $TIMIDITY_EXTRA_CFG -OF -o out.flac out_no_karaoke.midi
+	    for vocaloid in midiVocaloid midiVocaloidTwo
+	    do
+		java -cp ../java MakeVocaloid <out.midi "$vocaloid" >"$vocaloid".log
+		mv MakeVocaloid.mid "$vocaloid".mid
+		mv MakeVocaloid.wav "$vocaloid".wav
+	    done
+	    FILTER="[0:a]volume=2[a0]"
+	    FILTER="$FILTER;[1:a]volume=.4[a1]"
+	    FILTER="$FILTER;[2:a]volume=.4[a2]"
+	    FILTER="$FILTER;[a0][a1][a2]amix=inputs=3:duration=first[out]"
+	    ffmpeg </dev/null -loglevel 16 -i out.flac -i midiVocaloid.wav -i midiVocaloidTwo.wav -filter_complex "$FILTER" -map '[out]' out.mp3
 	    if test -d /share/music
 	    then
 		cp out.mp3 "/share/music/mp3/$name.mp3"

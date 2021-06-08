@@ -4,18 +4,18 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 5  Divisions: 384
+WorstAge=2147483648
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
+Format: 1  Tracks: 4  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
-Track name: midiKaraoke
->@|!mark=Intro@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Check|!bg=|!mark=Verse 1yesJu-li-et,areyouwithme?>Rainisfall-ingdownontheside-walk.>Iwon'tgoun-tilyoucomeout-side.-->Check|!mark=Verse 1AyesJu-li-et,killthelim-bo.>I'llkeeptoss-ingrocksoutyourwin-dow.>There'snoturn-ingbackforusto-night.-->Lace|!mark=Pre-Chorus 1upyourshoes.-->Here'showwedo.-->Runba-byrun,|!mark=Chorus 1don'te-verlookback.>They'lltearusa-partif-yougivethemthechance.-->Don'tsellyourheart,don'tsaywe'renot-meanttobe.>Runba-byrun,for-e-verwe'llbe-youandme.!mark=Post-Chorus 1->@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Check|!bg=|!mark=Verse 2yesJu-li-et,I'llbewait-ing.>Wish-ingwant-ingyoursforthetak-ing.>Justsneakoutanddon'ttellasoulgood-bye.-->Check|!mark=Verse 2AyesJu-li-et,>here'sthecount-down:threetwoonenowfallinmyarmsnow.>Theycanchangethelocks,don'tletthemchangeyourmind.-->Lace|!mark=Pre-Chorus 2upyourshoes.-->Here'showwedo.-->Runba-byrun,|!mark=Chorus 2don'te-verlookback.>They'lltearusa-partif-yougivethemthechance.-->Don'tsellyourheart,don'tsaywe'renot-meanttobe.>Runba-byrun,for-e-verwe'llbe-youandme.!mark=Bridge>Fly-in'throughthenightwe'refly-in'throughthenight-wayup-high.->Theviewfromhereisget-tingbet-terwith-youbymyside.!mark=Hook-->@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Run|!bg=ba-byrun,|!mark=Breakdon'te-verlookback.->They'lltearusa-partif-yougivethemthechance.->Don'tsellyourheart,|!mark=Chorus 3don'tsaywe'renot-meanttobe.>Runba-byrun,|!mark=Chorus 4for-e-verwe'llbe.->Runba-byrun,don'te-verlookback.>They'lltearusa-partif-yougivethemthechance.-->Don'tsellyourheart,don'tsaywe'renot-meanttobe.>Runba-byrun,for-e-verwe'llbe-youandme.!mark=Outro-@@---------Playing time: ~219 seconds
+Playing time: ~219 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 23296425/38397392 bytes(60.6719% compressed)
+Wrote 23273552/38397392 bytes(60.6123% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

@@ -4,17 +4,18 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147486720
-Playing out.midi
-MIDI file: out.midi
+WorstAge=2147486720
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
 Format: 1  Tracks: 5  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
 Track name: midiOne
-Playing time: ~302 seconds
+Playing time: ~304 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 31613009/53001228 bytes(59.6458% compressed)
+Wrote 31636005/53446872 bytes(59.1915% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
     231 measure=all

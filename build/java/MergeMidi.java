@@ -403,14 +403,14 @@ final class MergeMidi{
 	    for (;;){
 		int deltatime=readVlen();
 		time += deltatime;
-		int one=dis.readByte()&255;
+		int one=dis.readUnsignedByte();
 		String idc=id+','+(one&15);
 		if (one==0xf0 || one==0xf7){
 		    byte[]data=new byte[readVlen()];
 		    dis.readFully(data);
 		    throw new IOException(String.format("Sysex event 0x%02x len=%d",one,data.length));
 		}else if (one==0xff){
-		    int two=dis.readByte()&255;
+		    int two=dis.readUnsignedByte();
 		    byte[]data=new byte[readVlen()];
 		    dis.readFully(data);
 		    if (readMeta(two,data))
@@ -419,8 +419,8 @@ final class MergeMidi{
 		    if (channel!=-1 && channel!=(one&15))
 			throw new IOException("More than one channel in track.");
 		    channel = one&15;
-		    int kk=dis.readByte()&255;
-		    int vv=dis.readByte()&255;
+		    int kk=dis.readUnsignedByte();
+		    int vv=dis.readUnsignedByte();
 		    if (keyTime[kk]!=-1){
 			if (isTextTrack){
 			    long start=keyTime[kk];
@@ -482,26 +482,26 @@ final class MergeMidi{
 			keyVelocity[kk] = vv;
 		    }
 		}else if ((one&0xf0)==0xa0){
-		    int kk=dis.readByte()&255;
-		    int ww=dis.readByte()&255;
+		    int kk=dis.readUnsignedByte();
+		    int ww=dis.readUnsignedByte();
 		    throw new IOException(String.format("Aftertouch channel=%d kk=0x%02x ww=0x%02x",one&15,kk,ww));
 		}else if ((one&0xf0)==0xb0){
-		    int cc=dis.readByte()&255;
-		    int nn=dis.readByte()&255;
+		    int cc=dis.readUnsignedByte();
+		    int nn=dis.readUnsignedByte();
 		    if (cc==7 && nn==100)
 			;
 		    else
 			throw new IOException(String.format("MIDI Channel Mode channel=%d cc=0x%02x nn=0x%02x",one&15,cc,nn));
 		}else if ((one&0xf0)==0xc0){
-		    int program=dis.readByte()&255;
+		    int program=dis.readUnsignedByte();
 		    events.add(new ProgramChangeEvent(time,idc,outTrackIndex,program));
 //		    System.err.println("ProgramChange channel="+(one&15)+" program="+program+" time="+time);
 		}else if ((one&0xf0)==0xd0){
-		    int ww=dis.readByte()&255;
+		    int ww=dis.readUnsignedByte();
 		    throw new IOException(String.format("Channel pressure channel=%d %d",one&15,ww));
 		}else if ((one&0xf0)==0xe0){
-		    int lsb=dis.readByte()&255;
-		    int msb=dis.readByte()&255;
+		    int lsb=dis.readUnsignedByte();
+		    int msb=dis.readUnsignedByte();
 		    int value=(int)(((msb<<7|lsb)-0x2000)*2/BEND_RANGE+.5+0x2000);
 		    events.add(new BendEvent(time,idc,outTrackIndex,value));
 		}else
@@ -778,6 +778,12 @@ final class MergeMidi{
 	baos.write(3);
 	baos.write(trackName.length);
 	baos.write(trackName);
+	if (outTrackIndex==0){
+	    baos.write(0);
+	    baos.write(0x90);
+	    baos.write(0);
+	    baos.write(1);
+	}
 	long lastTime=0;
 	for (OutputEvent oe:outputEvents){
 	    if (oe.outTrackIndex!=-1 && oe.outTrackIndex!=outTrackIndex)
@@ -840,6 +846,7 @@ final class MergeMidi{
 	}
     }
     public static void main(String[]argv)throws Exception{
+	MergeMidi mm=new MergeMidi();
 	int j;
 	for (j=0; j<argv.length; j++)
 	    if (argv[j].equals("--fudge-lyrics")){
@@ -850,7 +857,6 @@ final class MergeMidi{
 		}
 	    }else
 		break;
-	MergeMidi mm=new MergeMidi();
 	for (int i=j; i<argv.length; i+=2)
 	    try (DataInputStream dis=new DataInputStream(new FileInputStream(argv[i+1]))){
 		mm.read(dis,(i-j)/2,argv[i+1],argv[i]);

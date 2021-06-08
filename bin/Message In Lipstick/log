@@ -6,20 +6,19 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147489600
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 7  Divisions: 384
+WorstAge=2147489600
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
+Format: 1  Tracks: 5  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
-Track name: midiKaraoke
-Track name: midiVocaloid
 Track name: midiOne
->@.@@.@@.@@.@@|!mark=Intro.@@.@@.@@.@@.@@.@@|!bg=4.@|!bg=3@|!bg=2.@|!bg=1I|!bg=|!mark=Verse 1('aI)have(h'av)heard(h'3:d)e('i:)-nough(n'Vf).-.a('V)-bout(b'aUt)your(j'O@)in('In)-fi(f'I)-de(d'E)-li(l'I)-ty.(t'i:)-.-.-.>So(s'oU)I'm('aIm)on('0n)the(D'@)train|!bg=img=../train.png(tr'eIn).-.and|!bg=('and)you(j'u:)are('A@)re(r'i:)-cent(s'Ent)hi(h'I)-sto(st'o@)-ry.(r'i:)-.-.-.>Did(d'Id)-n't('Ent)take(t'eIk)long(l'0N)for(f'O@)you(j'u:)to(t'u:)start(st'A@t)to(t'u:)play(pl'eI)and('and)break(br'eIk)>all('O:l)your(j'O@)so(s'O:)-lemn(l'Vm)pro(pr'O:)-mis(m'I)-es,(s'Iz)-.-.>the(D'@w'0nz)onesyou(j'u:)make(m'eIk)last(l'aast)week(w'i:k)with(w'ID)your(j'O@)"I('aI)do".(d'u:)-.>You've|!mark=Verse 2(j'u:v)been(b'i:n)be(b'i:)-in'('In)bad.(b'ad).-.And('and)boy(b'OI)the(D'@)ru(r'u:)-mor(m'3:)tra(tr'A:)-veled(v'Eld)fast.(f'aast)-.-.-.>You(j'u:)can't(k'Ent)change(tS'eIndZ)your(j'O@)ways.(w'eIz).-.And('and)I('aI)don't(d'oUnt)think(T'INk)our('aU@)love(l'Vv)can(k'an)last.(l'aast)-.-.-.>Why(w'aI)did(d'Id)you(j'u:)think(T'INk)I'd('aId)si(s'aI)-lent(l'Ent)-ly(l'i:)take(t'eIk)all('O:l)your(j'O@)same(s'eIm)>sil(s'Il)-ly(l'i:)im('I)-ma(m'V)-tu(tS'3:)-ri(r'I)-ty?(t'i:)-.-.>I('aI)will(w'Il)scream(skr'i:m)and('and)cry(kr'aI)cause(k'O:z)it's('Its)all('O:l)true.(tr'u:)-.!mark=Breakdown.>I'm('aIm)gon(g'V)-na(n'V)tell(t'El)your(j'O@)mo(m'V)-ther(D'3)cause(k'O:z)it('It)hap(h'a)-pened(p'End)a('V)-gain.(g'En)-.-.-.>I'll('aIl)tell(t'El)your(j'O@)bro(br'V)-ther(D'3)too(t'u:)and('and)you'll(j'u:l)be(b'i:)oh('oU)so(s'oU)sor(s'O:)-ry(r'i:)then(D'En)oh('oU)('oU)('oU)yeah.|!bg=img=../yeah.png(j'Eh)-.>May|!bg=|!mark=Verse 3(m'eI)-be(b'i:)you'll(j'u:l)grow(gr'oU)up('Vp).-.when(w'En)you(j'u:)go(g'oU)home(h'oUm)and('and)read(r'i:d)the(D'@)mirror.(m'Ir)-(r3)-.-.>I've('aIv)left(l'Eft)a('eI)lip(l'Ip)-stick(st'Ik)mes(m'E)-sage(sI2dZ)there(D'e@)my(m'aI)dar(d'O:)(A@)-ling.(l'IN)>@.@@|!mark=Solo.@@.@@.@@.@@.@@.@@|!bg=4.@|!bg=3@|!bg=2.@|!bg=1Call|!bg=|!mark=Verse 4(k'O:l)-ing('IN)you(j'u:)some(s'Vm)names(n'eImz).-.is('Iz)still(st'Il)a('eI)pos(p'O:z)-si(s'I)-bi(b'I)-li(l'I)-ty.(t'i:)-.-.-.>Mak(m'eIk)-ing('IN)up('Vp)with(w'ID)you(j'u:).-.for(f'O@)now(n'aU)is('Iz)not(n'0t)a('eI)cer(s'3:)-tain(t'Vn)-ty.(t'i:)-.-.-.>Bet(b'E)-ter(t'3:)be(b'i:)-lieve(l'i:v)the(D'@)things(T'INz)you(j'u:)read(r'i:d)when(w'En)you(j'u:)get(g'Et)home.(h'oUm)>And('and)come(k'Vm)back(b'ak)to(t'u:)re(r'i:)-a('a)-li(l'I)-ty(t'i:)-.-.>cause(k'O:z)I'm('aIm)go(g'oU)-ing('IN)home(h'oUm)to(t'u:)tell(t'El)your(j'O@)mom.(m'0m)-.!mark=Breakdown 2.>I'm('aIm)gon(g'V)-na(n'V)tell(t'El)your(j'O@)mo(m'V)-ther(D'3)cause(k'O:z)it('It)hap(h'a)-pened(p'End)a('V)-gain.(g'En)-.-.-.>I'll('aIl)tell(t'El)your(j'O@)bro(br'V)-ther(D'3)too.(t'u:)>And('and)you'll(j'u:l)be(b'i:)oh('oU)so(s'oU)sor(s'O:)-ry(r'i:)then(D'En)oh('oU)('oU)('oU)yeah.|!bg=img=../yeah.png(j'Eh)-.>May|!bg=|!mark=Verse 5(m'eI)-be(b'i:)you'll(j'u:l)grow(gr'oU)up('Vp).-.when(w'En)you(j'u:)go(g'oU)home(h'oUm)and('and)read(r'i:d)the(D'@)mirror.(m'Ir)-(r3)-.-.>I've('aIv)left(l'Eft)a('eI)lip(l'Ip)-stick(st'Ik)mes(m'E)-sage(sI2dZ)there(D'e@)my(m'aI)dar(d'O:)(A@)-ling.(l'IN)-.>I've('aIv)left(l'Eft)a('eI)lip(l'Ip)-stick(st'Ik)mes(m'E)-sage(sI2dZ)there(D'e@)my(m'aI)dar(d'O:)(A@)-ling.|!mark=Outro(l'IN)|!mark=Outro-.@@.-.-.-.-.-.Playing time: ~184 seconds
+Playing time: ~184 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 18378602/32175440 bytes(57.12% compressed)
+Wrote 18340796/32175440 bytes(57.0025% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

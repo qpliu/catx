@@ -5,19 +5,19 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147486720
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 6  Divisions: 384
+WorstAge=2147486720
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
+Format: 1  Tracks: 5  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
-Track name: midiKaraoke
 Track name: midiOne
->@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!mark=Chorus 1|-I|!bg=canfeelitcom-ingintheairto|!bg=img=../night.png-night,!bg=>ohlord.>AndI'vebeenwait-ingforthismo-mentforallmylife,>ohlord.>Canyoufeelitcom-ingintheairto|!bg=img=../night.png-night?!bg=>Ohlord,ohlord.!mark=Interlude|->@@@@@Well,ifyou|!mark=Verse 1toldmeyouweredrown-ing,>Iwouldnotlendahand.>I'veseenyourfacebe-fore,myfriend,>butIdon'tknowifyouknowwhoIam.>Well,I|!mark=Verse 2wasthereandIsawwhatyoudid,>Isawitwithmyowntwoeyes.>Soyoucanwipeoffthatgrin,Iknowwhereyou'vebeen.>It'sallbeenapackoflies.!mark=Chorus 2|->AndIcanfeelitcom-ingintheairto|!bg=img=../night.png-night,!bg=>ohlord.>Well,I'vebeenwait-ingforthismo-mentforallmylife,>ohlord.>Icanfeelitcom-ingintheairto|!bg=img=../night.png-night,!bg=>ohlord.>Well,I'vebeenwait-ingforthismo-mentforallmylife,>ohlord,ohlord.!mark=Interlude|->@@@@@Well,Ire-mem|!mark=Verse 3-ber,>Ire-mem-ber,don'twor-ry,>howcouldIe-verfor-get?It'sthefirsttime,>thelasttimewee-vermet.>ButI!mark=Verse 4|-knowtherea-sonwhyyoukeepyoursi-lenceup.>no,youdon'tfoolme.>Well,thehurtdoes-n'tshow,butthepainstillgrows.>It'snostran-gertoyouandme.!mark=Chorus 3|->Icanfeelitcom-ingintheairto|!bg=img=../night.png-night,!bg=>ohlord.>Well,I'vebeenwait-ingforthismo-mentforallmylife,>ohlord.>Icanfeelitintheairto|!bg=img=../night.png-night,!bg=ohlord,>ohlord.>Well,I'vebeenwait-ingforthismo-mentforallmylife,>ohlord.!mark=Chorus 4|->Icanfeelitcom-ingintheairto|!bg=img=../night.png-night,!bg=>ohlord.>AndI'vebeenwait-ingforthismo-mentforallmylife,>ohlord.>Icanfeelitintheairto|!bg=img=../night.png-night,!bg=ohlord,>ohlord,ohlord.>Well,I'vebeenwait-ingforthismo-mentallmylife,>ohlord,ohlord.!mark=fade out|->Icanfeelitintheairto|!bg=img=../night.png-night,!bg=ohlord,>ohlord,ohlord.>Well,I'vebeenwait-ingforthismo-mentallmylife,>ohlord,ohlord.Playing time: ~332 seconds
+Playing time: ~332 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 28649380/58259376 bytes(49.1756% compressed)
+Wrote 26972673/58259376 bytes(46.2976% compressed)
 warning: compressing over-full page by 1.1 staff-spaces
 warning: page 11 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

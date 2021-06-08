@@ -4,18 +4,18 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 5  Divisions: 384
+WorstAge=2147483648
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
+Format: 1  Tracks: 4  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
-Track name: midiKaraoke
-@|!mark=Intro@@@@@@@>Time|!mark=Verse 1totakeanapnowtimetogotosleep>Offtobedforyounownotanotherpeep@@@@@@@@>Rock|!mark=Chorus 1abyebabyrockrockrock>Rockabyebabyrockrockrock>Rockabyebabyrockrockrock@@@@>Sing|!mark=Verse 2yourbedtimesongnowsingitforthecrowd>Singthelullabynowsingitreallyloud@@@@@@@@>Rock|!mark=Chorus 2abyebabyrockrockrock>Rockabyebabyrockrockrock>Rockabyebabyrockrockrock>Rock|!mark=Chorus 3abyebabyrockrockrock>Rockabyebabyrockrockrock>Rockabyebabyrockrockrock@@@@@@|!mark=OutroPlaying time: ~82 seconds
+Playing time: ~82 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 8402913/14285312 bytes(58.822% compressed)
+Wrote 8401377/14285312 bytes(58.8113% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

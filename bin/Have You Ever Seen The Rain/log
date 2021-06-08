@@ -5,19 +5,18 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147484992
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 6  Divisions: 384
+WorstAge=2147484992
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
+Format: 1  Tracks: 4  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
-Track name: midiKaraoke
-Track name: midiVocaloid
-!mark=Intro!mark=Intro>@.@.@.@.@.@.@.@.@.@.@|!bg=4.@|!bg=3.@|!bg=2.@|!bg=1.!mark=Verse!mark=VerseSome|!bg=(s'Vm)-one(w'0n)told(t'oUld)me(m'i:)long(l'0N)a('@)-go.(g'oU)-.-.>There's(D'e@z)a('@)calm(k'A:m)be(b'i:)-fore(f'O@)the(D'@)storm.|!bg=img=../storm.svg(st'o@m)-|!bg=.I('aI)know.(n'oU)-.>It's('Its)been(b'i:n)com(k'0m)-in'('In)for(f'O@)some(s'Vm)time.(t'aIm)-.-.-.>When(w'En)it's('Its)o('oU)-ver,(v'3:)so(s'oU)they(D'eI)say.(s'eI)-.-.>It'('It)-ll(@L)rain|!bg=img=../umbrella.svg(r'eIn)a('@)sun|!bg=img=../sun.svg(s'V:)-ny(ni:)day,|!bg=(d'eI)-.I('aI)know,(n'oU)-.>shin(S'aI)-in'(n'In)down(d'aUn)like(l'aIk)wat(w'O:)-er.(t'3:)-.-.-.!mark=Chorus!mark=Chorus>I('aI)want(w'0nt)to(t'u:)know,(n'oU)-.have(h'av)you(j'u:)ev('Ev)-er('3:)seen(s'i:n)the(D'@)rain?|!bg=img=../umbrella.svg(r'eIi:i:i:n)-|!bg=.>I('aI)want(w'0nt)to(t'u:)know,(n'oU)-.have(h'av)you(j'u:)ev('Ev)-er('3:)seen(s'i:n)the(D'@)rain|!bg=img=../umbrella.svg(r'eIi:i:n)-|!bg=.>com(k'V)-in'(m'In)down(d'aUn)on('0n)a('@)sun|!bg=img=../sun.svg(s'V:)-ny(ni:)day?|!bg=(d'eI)-.-.!mark=Verse!mark=Verse>Yes(j'Es)-ter(t'3:)-day,(d'eI)and('and)days(d'eIz)be(b'i:)-fore,(f'o@)-.-.>sun|!bg=img=../sun.svg(s'Vn)is('Iz)cold(k'oUld)and('and)rain|!bg=img=../umbrella.svg(r'eIn)is|!bg=('Iz)hard.(h'A@d)-.I('aI)know,(n'oU)-.>been(b'i:n)that(D'at)way(w'eI)for(f'O@)all('O:l)my(m'aI)time.(t'aIm)-.-.-.>'Till(t'Il)for(f'O@)-ev('E)-er,(v'3:)on('0n)it('It)goes.(g'oUz)-.-.>Through(Tr'u:)the(D'@)cir(s'3:)-cle,(k@L)fast(f'aast)and('and)slow,(sl'oU)-.I('aI)know,(n'oU)-.>It('It)can't(k'A:nt)stop.(st'0p)I('aI)won(w'Vn)-der.(d'3:)-.-.-.!mark=Chorus!mark=Chorus>I('aI)want(w'0nt)to(t'u:)know,(n'oU)-.have(h'av)you(j'u:)ev('Ev)-er('3:)seen(s'i:n)the(D'@)rain?|!bg=img=../umbrella.svg(r'eIi:i:i:n)-|!bg=.>I('aI)want(w'0nt)to(t'u:)know,(n'oU)-.have(h'av)you(j'u:)ev('Ev)-er('3:)seen(s'i:n)the(D'@)rain|!bg=img=../umbrella.svg(r'eIi:i:i:n)-|!bg=.>com(k'V)-in'(m'In)down(d'aUn)on('0n)a('@)sun|!bg=img=../sun.svg(s'V:)-ny(ni:)day?|!bg=(d'eI).Yeah!|!bg=img=../yeah.png(j'Eh)-|!bg=.!mark=Outro!mark=Outro>I('aI)want(w'0nt)to(t'u:)know,(n'oU)-.have(h'av)you(j'u:)ev('Ev)-er('3:)seen(s'i:n)the(D'@)rain?|!bg=img=../umbrella.svg(r'eIi:i:i:n)-|!bg=.>I('aI)want(w'0nt)to(t'u:)know,(n'oU)-.have(h'av)you(j'u:)ev('Ev)-er('3:)seen(s'i:n)the(D'@)rain|!bg=img=../umbrella.svg(r'eIi:i:i:n)-|!bg=.>com(k'V)-in'(m'In)down(d'aUn)on('0n)a('@)sun|!bg=img=../sun.svg(s'V:)-ny(ni:)day?|!bg=(d'eI)-.@@.Playing time: ~160 seconds
+Playing time: ~162 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 16485677/28020508 bytes(58.8343% compressed)
+Wrote 16469359/28337124 bytes(58.1194% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

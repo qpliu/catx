@@ -5,19 +5,19 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 6  Divisions: 384
+WorstAge=2147483648
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
+Format: 1  Tracks: 5  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
-Track name: midiKaraoke
 Track name: midiOne
-!mark=Intro>@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Ai|!bg=yaiyai--Aiyaiyai--AiyaiyaiWhere'smysa-mu-rai?-->@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1I've|!bg=beensear|!mark=Verse 1-chingforaman->Alla-crossJa-pan->Justtofind,tofindmysa-mu-rai->Some-onewhoisstrong->Butstillalit-tleshy->YesIneed,Ineedmysa-mu-rai->Ai|!mark=Chorus 1aiaiI'myourlit-tlebut|!bg=img=../butterfly.png-ter-fly-|!bg=>Green,blackandblueMaketheco|!bg=img=../rainbow.png-lorsinthesky-|!bg=>AiaiaiI'myourlit-tlebut|!bg=img=../butterfly.png-ter-fly-|!bg=>Green,blackandblueMaketheco|!bg=img=../rainbow.png-lorsinthesky-|!bg=>@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1I've|!bg=beensear|!mark=Verse 2-chinginthewoods->Andhighuponthehills->Justtofind,tofindmysa-mu-rai->Some-onewhowon'treg-ret->Tokeepmeinhisnet->YesIneed,Ineedmysa-mu-rai->Ai|!mark=Chorus 2aiaiI'myourlit-tlebut|!bg=img=../butterfly.png-ter-fly-|!bg=>Green,blackandblueMaketheco|!bg=img=../rainbow.png-lorsinthesky-|!bg=>AiaiaiI'myourlit-tlebut|!bg=img=../butterfly.png-ter-fly-|!bg=>Green,blackandblueMaketheco|!bg=img=../rainbow.png-lorsinthesky-|!bg=->Aiyaiyai--Aiyaiyai--AiyaiyaiWhere'smysa-mu-rai?-->Aiyaiyai--Aiyaiyai--AiyaiyaiWhere'smysa-mu-rai?->Aah|!mark=Bridge--Aah-Aah->Aah--Aah-Aah->Ai|!mark=OutroaiaiI'myourlit-tlebut|!bg=img=../butterfly.png-ter-fly-|!bg=>Green,blackandblueMaketheco|!bg=img=../rainbow.png-lorsinthesky-|!bg=>AiaiaiI'myourlit-tlebut|!bg=img=../butterfly.png-ter-fly-|!bg=>Green,blackandblueMaketheco|!bg=img=../rainbow.png-lorsinthesky-|!bg=->Aiyaiyai--Aiyaiyai--AiyaiyaiWhere'smysa-mu-rai?-->Aiyaiyai--Aiyaiyai--AiyaiyaiWhere'smysa-mu-rai?--@@---Playing time: ~156 seconds
+Playing time: ~156 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 16929526/27204848 bytes(62.2298% compressed)
+Wrote 16924741/27204848 bytes(62.2122% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

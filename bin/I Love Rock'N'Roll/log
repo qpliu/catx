@@ -4,18 +4,18 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147485184
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 5  Divisions: 384
+WorstAge=2147485184
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
+Format: 1  Tracks: 4  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
-Track name: midiKaraoke
->@@!mark=Intro|-@@@@@@@@|!bg=4@|!bg=3@|!bg=2!mark=Strophe|-@|!bg=1I|!bg=sawhimdan-cin'therebythere-cordma-chine>Iknewhemusthavebeena-boutse-ven-teen>Thebeatwasgo-in'strongPlay-in'myfavo-ritesong>An'Icouldtellitwould-n'tbelong>Tillhewaswithme,yeah|!bg=img=../yeah.pngme|!bg=>AndIcouldtellitwould-n'tbelong>Tillhewaswithme,yeah|!bg=img=../yeah.pngme,|!bg=sing|!mark=Refrain-in'Iloverockn'roll>Soputa-notherdimeinthejuke-box,ba-by>Iloverockn'roll>Socomean'takeyourtimean'dancewithme>Hesmiled|!mark=StrophesoIgotupandaskedforhisname>Thatdon'tmat-ter,hesaid,'Causeit'sallthesame>SaidcanItakeyouhomewherewecanbea-lone>An'nextweweremo-vin'onHewaswithme,yeah|!bg=img=../yeah.pngme|!bg=>Nextweweremo-vin'on>Hewaswithme,yeah|!bg=img=../yeah.pngme,|!mark=Refrain|!bg=sing-in'Iloverockn'roll>Soputa-no-therdimeinthejuke-box,ba-by>Iloverockn'roll>Socomean'takeyourtimean'dancewithme>@@!mark=Solo|-@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Said|!bg=canItakeyouhomewherewecanbea-lone>Nextweweremo-vin'onHewaswithme,yeah|!mark=Outro|!bg=img=../yeah.pngme,|!bg=>Anwe'llbemo-vin'onsing-in'thatsameoldsong>Yeah|!bg=img=../yeah.pngwithme,!bg=sing-in'Iloverockn'roll>Soputa-no-therdimeinthejuke-box,ba-by>Iloverockn'roll>Socomean'takeyourtimean'dancewithme>Iloverockn'roll>Soputa-no-therdimeinthejuke-box,ba-by>Iloverockn'roll>Socomean'takeyourtimean'dancewith>Iloverockn'roll>Soputa-no-therdimeinthejuke-box,ba-by>Iloverockn'roll>Socomean'takeyourtimean'dancewith>Iloverockn'roll>Soputa-no-therdimeinthejuke-box,ba-by>Iloverockn'roll>Socomean'takeyourtimean'dancewith>Iloverockn'roll>Soputa-no-therdimeinthejuke-box,ba-by>Iloverockn'roll>Socomean'takeyourtimean'dancewithmePlaying time: ~169 seconds
+Playing time: ~168 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 16588327/29604408 bytes(56.0333% compressed)
+Wrote 15017428/29375008 bytes(51.1231% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 5.6 staff-spaces

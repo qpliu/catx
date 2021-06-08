@@ -6,20 +6,19 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 7  Divisions: 384
+WorstAge=2147483648
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
+Format: 1  Tracks: 5  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
-Track name: midiKaraoke
-Track name: midiVocaloid
 Track name: midiOne
-!mark=Intro|-!mark=Intro>@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!mark=Verse 1|-!mark=Verse 1Sis|!bg=(s'Is)-ter(t'3:)Chris(kr'Is)-tian,(tS'Vn)oh('oU)the(D'@)time(t'aIm)has(h'az)come.(k'Vm)>And('and)you(j'u:)know(n'oU)that(D'at)you're(j'O@)the(D'@)on('oUn)-ly(l'i:)one(w'0n)to(t'u:)say,(s'E)(E)(eI)>O('oU)-K.(k'eI)!mark=Verse 2|-!mark=Verse 2>Where(w'e@)you(j'u:)go(g'oU)-ing?('IN)What(w'0t)you(j'u:)look(l'U)-ing(k'IN)for?(f'O@)>You(j'u:)know(n'oU)those(D'oUz)boys(b'OIz)don't(d'oUnt)want(w'0nt)to(t'u:)play(pl'eI)no(n'oU)more(m'o@)with(w'ID)you.(j'u:)(u:)(u:)>It's('Its)true.(tr'u:)(u:)(u:)>@!mark=Interlude|-!mark=Interlude@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1You're|!bg=(j'O@)mo|!mark=Chorus 1(m'oU)|!mark=Chorus 1-tor(t'o@)-ing!(r'IN)>What's(w'0ts)your(j'O@)price(pr'aIs)for(f'O@)flight?(fl'aIt)>In('In)find(f'aIn)-ing(d'I)(IN)mis(m'Is)-ter(t'3:)right?(r'aIt)>You'll(j'u:l)be(b'i:)al('O:)(O:l)-right(r'aIt)to|!bg=img=../night.png(t'u:)-night.(n'00)!bg=(aIt)!mark=Verse 3|-!mark=Verse 3>Babe(b'eIb)you(j'u:)know(n'oU)you're(j'O@)grow(gr'oU)-ing('IN)up('Vp)so(s'oU)fast.(f'aast)>And('and)ma(m'A:)-ma's(m'A:z)wor(w'3:)-ry(r'i:)-ing('IN)that(D'at)you(j'u:)won't(w'oUnt)last(l'aast)to(t'u:)say.(s'E)(E)(eI)>Let's(l'Ets)play.(pl'E)(eI)!mark=Verse 4|-!mark=Verse 4>Sis(s'Is)-ter(t'3:)Chris(kr'Is)-tian(tS'Vn)there's(D'e@z)so(s'oU)much(m'VtS)in('In)life.(l'aIf)>Don't(d'oUnt)you(j'u:)give(g'Iv)it('It)up('Vp)be(b'i:)-fore(f'O@)your(j'O@)time(t'aIm)is('Iz)due.(dj'u:)(u:)(u:)>It's('Its)true.(tr'u:)(u:)(u:)>It's('Its)true!(tr'u:u:u:u:u:u:u:u:u:u:u:u:u:u:u:u:)(u:)(u:)>Mo|!mark=Chorus 2(m'oU)|!mark=Chorus 2-tor(t'o@)-ing!(r'IN)>What's(w'0ts)your(j'O@)price(pr'aIs)for(f'O@)flight?(fl'aIt)>You've(j'u:v)got(g'0t)him(h'I)(Im)in('In)your(j'O@)sight.(s'aIt)>And('and)driv(dr'aI)-ing(v'I)(IN)through(Tr'u:)the(D'@)night.|!bg=img=../night.png(n'00)!bg=(aIt)>Mo|!mark=Chorus 3(m'oU)|!mark=Chorus 3-tor(t'o@)-ing!(r'IN)>What's(w'0ts)your(j'O@)price(pr'aIs)for(f'O@)flight?(fl'aIt)>In('In)find(f'aInd)-ing(d'i)(IN)mis(m'Is)-ter(t'3:)right?(r'aIt)>You'll(j'u:l)be(b'i:)al('O:)(O:l)-right(r'aIt)to|!bg=img=../night.png(t'u:)-night.(n'00)!bg=(aIt)>@|!mark=Solo!mark=Solo@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Mo|!mark=Chorus 4|!bg=(m'oU)|!mark=Chorus 4-tor(t'o@)-ing!(r'IN)>What's(w'0ts)your(j'O@)price(pr'aIs)for(f'O@)flight?(fl'aIt)>In('In)find(f'aInd)-ing(d'i)(IN)mis(m'Is)-ter(t'3:)right?(r'aIt)>You'll(j'u:l)be(b'i:)al('O:)(O:l)-right(r'aIt)to|!bg=img=../night.png(t'u:)-night.(n'00)!bg=(aIt)>You're(j'O@)mo|!mark=Chorus 5(m'oU)|!mark=Chorus 5-tor(t'o@)-ing!(r'IN)>What's(w'0ts)your(j'O@)price(pr'aIs)for(f'O@)flight?(fl'aIt)>In('In)find(f'aInd)-ing(d'i)(IN)mis(m'Is)-ter(t'3:)right?(r'aIt)>You'll(j'u:l)be(b'i:)al('O:)(O:l)-right(r'aIt)to|!bg=img=../night.png(t'u:)-night.(n'00)!bg=(aIt)>@@!mark=Break Down|-!mark=Break Down@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1!mark=Outro|-!mark=OutroSis|!bg=(s'Is)-ter(t'3:)Chris(kr'Is)-tian,(tS'Vn)oh('oU)the(D'@)time(t'aIm)has(h'az)come.(k'Vm)>And('and)you(j'u:)know(n'oU)that(D'at)you're(j'O@)the(D'@)on('oUn)-ly(l'i:)one(w'0n)to(t'u:)say.(s'E)(E)(eI)>O('oU)-K.(k'E)(eI)!mark=Last Bit|-!mark=Last Bit>But(b'Vt)you're(j'O@)mo(m'oU)-tor(t'o@)-ing.(r'I)(I)(IN)>Yeah!|!bg=img=../yeah.png(j'E:E:E:)!bg=(E)(E:E:E:Eh)>Mo(m'oU)-tor(t'o@)-ing.(r'I)(IN)@@Playing time: ~300 seconds
+Playing time: ~300 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 28031194/52699780 bytes(53.1903% compressed)
+Wrote 26256173/52699780 bytes(49.8222% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 1.1 staff-spaces
 warning: page 0 has been compressed

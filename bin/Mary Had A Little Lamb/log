@@ -6,20 +6,19 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 7  Divisions: 384
+WorstAge=2147483648
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
+Format: 1  Tracks: 5  Divisions: 384
 Sequence: midiAarinrobo
 Track name: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
-Track name: midiKaraoke
-Track name: midiVocaloid
-metronome 0>Ma(m'E)-ry(r'i:)had(h'ad)a('eI)lit(l'I)-tle(t'@L)lamb(l'am).lit(l'I)-tle(t'@L)lamb,(l'am).lit(l'I)-tle(t'@L)lamb.(l'am).>Ma(m'E)-ry(r'i:)had(h'ad)a('eI)lit(l'I)-tle(t'@L)lamb.(l'am)Its('Its)fleece(fl'i:s)was(w'0z)white(w'aIt)as('az)snow.(sn'oU)@@Playing time: ~22 seconds
+metronome 0Playing time: ~22 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 1821367/3660380 bytes(49.759% compressed)
+Wrote 1818886/3660380 bytes(49.6912% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

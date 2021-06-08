@@ -7,21 +7,18 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 8  Divisions: 384
+WorstAge=2147483648
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
+Format: 1  Tracks: 4  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
-Track name: midiKaraoke
-Track name: midiKaraokeTwo
-Track name: midiVocaloid
-Track name: midiVocaloidTwo
 Track name: midiMuted
-!mark=Intro>@>@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@@|!bg=3@@|!bg=2@@|!bg=1!mark=Verse 1@.Why|!bg=(w'aI)drink@(dr'INk)the(D'@)wa(w'O:)@-ter(t'3:)from@(fr'0m)my(m'aI)hand?(h'and)@.-@Con(k'Vn)-ta(t'eI)@-gious(dZ'@s)as('az)you(j'u:)think@(T'INk)I('aI)am.('am)@>@.@@@@@@@@@@@@@@@.Just(dZ'Vst)tilt@(t'Ilt)my(m'aI)sun(s'Vn)@towards(tUw'O@dz)your@(j'O@)do(d'oU)-main.(m'eIn)@.-@Your(j'O@)cup(k'Vp)@run(r'Vn)-neth(n'ET)o@('oU)-ver(v'3:)a('@)-gain.(g'En)@>@.@@@@@@@@@@@@@@!mark=Chorus 1@.Don't(d'oUnt)scream@(skr'i:m)a('@)-bout,(b'aUt)-@.don't(d'oUnt)think@(T'INk)a('@)-loud.(l'aUd)-@.>Turn(t'3:n)your(j'O@)head@(h'Ed)now,(n'aU)ba(b'eI)@-by,(b'i:)just(dZ'Vst)spit@(sp'It)me(m'i:)out.('aUt)@>Don't(d'oUnt)wor@(w'3:)-ry(r'i:)about,(@b'aUt)-@.don't(d'oUnt)speak@(sp'i:k)of('0v)doubt.(d'aUt)-@.>Turn(t'3:n)your(j'O@)head@(h'Ed)now,(n'aU)ba(b'eI)@-by,(b'i:)just(dZ'Vst)spit@(sp'It)me(m'i:)out.('aUt)@>@.@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@!mark=Interlude@@@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@@|!bg=3@@|!bg=2@@|!bg=1!mark=Verse 2@.Why|!bg=(w'aI)fol@(f'0)-low(l'oU)me(m'i:)@to(t'u:)high@(h'aI)-er('3:)ground?(gr'aUnd)@.-@Lost(l'0st)@as('az)you(j'u:)swear@(sw'e@)I('aI)am.('am)@>@.@@@@@@@@@@@@@@@.Don't(d'oUnt)throw@(Tr'oU)a('@)-way(w'eI)@your(j'O@)ba@(b'eI)-sic(s'Ik)needs(n'i:dz)@.-@am('am)@-bi(b'i:)-ance('@ns)and@('and)va(v'a)-ni(n'I)-ty.(t'i:)@>@.@@@@@@@@@@@@@@!mark=Chorus 2@.Don't(d'oUnt)scream@(skr'i:m)a('@)-bout,(b'aUt)-@.don't(d'oUnt)think@(T'INk)a('@)-loud.(l'aUd)-@.>Turn(t'3:n)your(j'O@)head@(h'Ed)now,(n'aU)ba(b'eI)@-by,(b'i:)just(dZ'Vst)spit@(sp'It)me(m'i:)out.('aUt)@>Don't(d'oUnt)wor@(w'3:)-ry(r'i:)about,(@b'aUt)-@.don't(d'oUnt)speak@(sp'i:k)of('0v)doubt.(d'aUt)-@.>Turn(t'3:n)your(j'O@)head@(h'Ed)now,(n'aU)ba(b'eI)@-by,(b'i:)just(dZ'Vst)spit@(sp'It)me(m'i:)out.('aUt)@>Don't(d'oUnt)scream@(skr'i:m)a('@)-bout,(b'aUt)-@.don't(d'oUnt)think@(T'INk)a('@)-loud.(l'aUd)-@.>Turn(t'3:n)your(j'O@)head@(h'Ed)now,(n'aU)ba(b'eI)@-by,(b'i:)just(dZ'Vst)spit@(sp'It)me(m'i:)out.('aUt)@>Don't(d'oUnt)wor@(w'3:)-ry(r'i:)about,(@b'aUt)-@.don't(d'oUnt)speak@(sp'i:k)of('0v)doubt.(d'aUt)-@.>Turn(t'3:n)your(j'O@)head@(h'Ed)now,(n'aU)ba(b'eI)@-by,(b'i:)just(dZ'Vst)spit@(sp'It)me(m'i:)out.('aUt)!mark=Chorus Lead-out@-.@>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!mark=Interlude@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|!mark=Prechorus@@@@@@@@@@@@@@@@@@@@@@@@|!bg=4@@|!bg=3@@|!bg=2@@|!bg=1@De|!bg=|!mark=Bridge@(d'i:)-cem(s'Em)-ber(b'3:)pro@(pr'0:)-mise(mIs)you(j'u:)gave@(g'eIv)un('Vn)-to(t'u:)me.@(m'i:)De@(d'i:)-cem(s'Em)-ber(b'3:)whis@(w'I)-pers(sp'3:z)of('0v)trea@(tr'E)-che(tS'@)-ry.@(r'i:)>De@(d'i:)-cem(s'Em)-ber(b'3:)clouds@(kl'aUdz)are('A@)now(n'aU)co@(k'V)-ver(v'3:r)-ing('IN)me.@(m'i:)De@(d'i:)-cem(s'Em)-ber(b'3:)songs@(s'0Nz)no(n'oU)lon@(l'0)-ger(Ng3:)I('aI)sing.@(s'IN)>De@(d'i:)-cem(s'Em)-ber(b'3:)pro@(pr'0:)-mise(mIs)you(j'u:)gave@(g'eIv)un('Vn)-to(t'u:)me.@(m'i:)De@(d'i:)-cem(s'Em)-ber(b'3:)whis@(w'I)-pers(sp'3:z)of('0v)trea@(tr'E)-che(tS'@)-ry.@(r'i:)>De@(d'i:)-cem(s'Em)-ber(b'3:)clouds@(kl'aUdz)are('A@)now(n'aU)co@(k'V)-ver(v'3:r)-ing('IN)me.@(m'i:)De@|!bg=4(d'i:)-cem(s'Em)-ber(b'3:)songs@|!bg=3(s'0Nz)no(n'oU)lon@|!bg=2(l'0)-ger(Ng3:)I('aI)sing.@|!bg=1(s'IN)-De|!bg=.(d'i:)>Don't-cem(d'oUnt)(s'Em)-ber(b'3:)screampro(skr'i:m)(pr'0:)a('@)-bout,-mise(b'aUt)(mIs)you(j'u:)-gave.(g'eIv)don'tun(d'oUnt)('Vn)-to(t'u:)thinkme(T'INk)(m'i:)a('@)-loud.(l'aUd)->De.(d'i:)>Turn-cem(t'3:n)(s'Em)your-ber(j'O@)(b'3:)headwhis(h'Ed)(w'I)now,-pers(n'aU)(sp'3:z)baof(b'eI)('0v)trea(tr'E)-by,(b'i:)just-che(dZ'Vst)(tS'@)spit-ry(sp'It)(r'i:)me(m'i:)out.('aUt)>De(d'i:)>Don't-cem(d'oUnt)(s'Em)-ber(b'3:)worclouds(w'3:)(kl'aUdz)-ry(r'i:)about,are(@b'aUt)('A@)now(n'aU)-co.(k'V)don't-ver(d'oUnt)(v'3:r)-ing('IN)speakme(sp'i:k)(m'i:)of('0v)doubt.(d'aUt)->De.(d'i:)>Turn-cem(t'3:n)(s'Em)your-ber(j'O@)(b'3:)headsongs(h'Ed)(s'0Nz)now,no(n'aU)(n'oU)ba(b'eI)lon(l'0)-by,(b'i:)just-ger(dZ'Vst)(Ng3:)I('aI)spitsing(sp'It)(s'IN)me(m'i:)out.('aUt)>De(d'i:)>Don't-cem(d'oUnt)(s'Em)-ber(b'3:)screampro(skr'i:m)(pr'0:)a('@)-bout,-mise(b'aUt)(mIs)you(j'u:)-gave.(g'eIv)don'tun(d'oUnt)('Vn)-to(t'u:)thinkme(T'INk)(m'i:)a('@)-loud.(l'aUd)->De.(d'i:)>Turn-cem(t'3:n)(s'Em)your-ber(j'O@)(b'3:)headwhis(h'Ed)(w'I)now,-pers(n'aU)(sp'3:z)baof(b'eI)('0v)trea(tr'E)-by,(b'i:)just-che(dZ'Vst)(tS'@)spit-ry(sp'It)(r'i:)me(m'i:)out.('aUt)>De(d'i:)>Don't-cem(d'oUnt)(s'Em)-ber(b'3:)worclouds(w'3:)(kl'aUdz)-ry(r'i:)about,are(@b'aUt)('A@)now(n'aU)-co.(k'V)don't-ver(d'oUnt)(v'3:r)-ing('IN)speakme(sp'i:k)(m'i:)of('0v)doubt.(d'aUt)->De.(d'i:)>Turn-cem(t'3:n)(s'Em)your-ber(j'O@)(b'3:)headsongs(h'Ed)(s'0Nz)now,no(n'aU)(n'oU)ba(b'eI)lon(l'0)-by,(b'i:)just-ger(dZ'Vst)(Ng3:)I('aI)spitsing(sp'It)(s'IN)me(m'i:)out.('aUt)!mark=Outro--.-@@@@Playing time: ~285 seconds
+Playing time: ~285 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 23218445/50053580 bytes(46.3872% compressed)
+Wrote 22856360/50053580 bytes(45.6638% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 1.0 staff-spaces
 warning: page 0 has been compressed

@@ -5,19 +5,19 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 6  Divisions: 384
+WorstAge=2147483648
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
+Format: 1  Tracks: 5  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
-Track name: midiKaraoke
 Track name: midiOne
-!mark=Intro|->@@@@@@@@@|!bg=4!mark=Verse|-@|!bg=3@|!bg=2@|!bg=1Oh|!bg=letthesun|!bg=img=../sun.svgbeatdown|!bg=u-ponmyface,>starstofillmydream>Iamatra-velerofbothtimeandspace,>tobewhereIhavebeen>Tositwithel-dersofthegen-tlerace,!mark=Riff|->thisworldhassel-domseen>Theytalkofdaysforwhichtheysitandwait>andallwillbere-vealed!mark=Verse|->@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Talk|!bg=andsongfromtonguesoflilt-inggrace,>whosesoundsca-ressmyear>ButnotawordIheard!mark=Riff|-couldIre-late,>thesto-rywasquiteclear>Oh,>oh.>@@@@@@@@@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1Oh,|!bg=>ba-byIbeenflying...>Ohyeah|!bg=img=../yeah.png!bg=>ma-ma,there!mark=Riff|-ain'tnode-nyin'>Oh>ohyeah|!bg=img=../yeah.png!bg=I'vebeenfly-ing,>mama>ain'tnode-nyin',node-nyin'>@@@@@@@Oh>AllIseeturnstobrown,>asthesun|!bg=img=../sun.svg!bg=burnstheground>Andmyeyesfillwithsand,>asIscanthiswast!mark=Verse|-edland>Tryingtofind,>tryingtofindwhereI'vebeen.>Oh,pi-lot>@@@!mark=Riff|-@@@ofthestorm|!bg=img=../storm.svgwholeaves!bg=notrace,>likethoughtsin-sideadreamHeedthepath!mark=Verse|->thatledmetothatplace,yel-lowde-sertstream>MyShan-gri-Labe-neaththesum-mermoon,>Iwillre-turna-gainSureasthe>dustthatfloatshighinJune,whenmo-vin'throughKash-mir.>Oh,fa-ther!mark=Riff|->@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1of|!bg=thefourwinds,fillmysails,a-crosstheseaofyears>Withnopro-vi-sionbutano-penface,a-longthe>straitsoffearOhh.>Oh>OhOhOh>When>@@@@@@@I'mon,>@@@@whenI'monmyway,yeah|!bg=img=../yeah.pngWhenIsee,when|!bg=I>seetheway,>youstayyeah|!bg=img=../yeah.png!bg=Ooh,yeah|!bg=img=../yeah.pngyeah,|!bg=img=../yeah.png!bg=>@@@@@@@@@@@@|!bg=4@|!bg=3@|!bg=2@|!bg=1ooh,|!bg=yeah|!bg=img=../yeah.pngyeah,|!bg=img=../yeah.pngwhen!bg=I'mdown...Ooh,yeah|!bg=img=../yeah.pngyeah,|!bg=img=../yeah.png!bg=>ooh,yeah|!bg=img=../yeah.pngyeah,|!bg=img=../yeah.pngwell!bg=I'mdown,sodownOoh,mybaby,oooh,>mybaby,letmetakeyouthere@@Playing time: ~493 seconds
+Playing time: ~493 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 49259220/86675872 bytes(56.8315% compressed)
+Wrote 48400393/86675872 bytes(55.8407% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 6.2 staff-spaces

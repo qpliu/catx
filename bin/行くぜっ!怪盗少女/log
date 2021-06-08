@@ -5,8 +5,9 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=22704
-Playing out.midi
-MIDI file: out.midi
+WorstAge=22704
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
 Format: 1  Tracks: 6  Divisions: 384
 Sequence: midiGg
 Track name: midiPeter

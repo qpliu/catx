@@ -6,20 +6,20 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
-Playing out.midi
-MIDI file: out.midi
-Format: 1  Tracks: 7  Divisions: 384
+WorstAge=2147483648
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
+Format: 1  Tracks: 6  Divisions: 384
 Sequence: midiAarinrobo
 Track name: midiGg
 Track name: midiPeter
 Track name: midiSusan
 Track name: midiBass
-Track name: midiKaraoke
 Track name: midiOne
-metronome 0e+a->I'msickandtiredofhear-ingthingsfromup-tightshortsight-ednar-rowmind-edhy-po-crites-->AllIwantisthetruth,-->Justgim-mesometruth-->I'vehade-noughofread-ingthingsbyneu-roticpsy-cho-ticpig-head-edpo-li-ti-cians->AllIwantisthetruth,-->Justgim-mesometruth->Noshort--haired,yel-low--bel-liedsonoftrick-ydick-y'sgon-namo-therhub-bardsoftsoapmewithjustapo-cketfullofhopes.->Mo-neyfordope.->Mo-neyforrope.->Woohoo-->@@@@@@@@@@@@@Noshort--haired,yel-low--bel-lied,sonoftrick-ydick-y'sgon-namo-therhub-bardsoftsoapmewithjustapo-cketfullofhopes.->Mo-neyfordope.->Mo-neyforrope.-->I'msicktodeathofsee-ingthingsfromtight--lippedcon-des-cen-dingma-ma'slit-tlechau-vi-nists->AllIwantisthetruth,-->Justgim-mesometruth-->I'vehade-noughofwat-chingscenesfromschi-zo-phre-nice-go-cen-tricpa-ra-noi-acpri-ma-don-nas->AllIwantisthetruthyeah->Justgim-mesometruth->Noshort--haired,yel-low--bel-liedsonoftrick-ydick-y'sgon-namo-therhub-bardsoftsoapmewithjustapo-cketfullofhopes.->Mo-neyfordope.->Mo-neyforrope.-Ah->I'msicktodeathofhear-ingthingsfromup-tightshort--sight-ednar-rowmind-edhy-po-crites-->AllIwantisthetruthnow.-->Justgim-mesometruthnow.-->I'vehade-noughofread-ingthingsbyneu-ro-ticpsy-cho-ticpig-head-edpo-li-ticians->AllIwantisthetruthnow.-->Justgim-mesometruthnow.-->AllIwantisthetruthnow.-->Justgim-mesometruthnow.-->AllIwantisthetruth.--->Justgim-mesometruth.--->AllIwantisthetruth.--->Justgim-mesometruth.--->AllIwantisthetruth.--->Justgim-mesometruth.--@@Playing time: ~203 seconds
+metronome 0e+aPlaying time: ~203 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 20127462/35630556 bytes(56.4893% compressed)
+Wrote 20098577/35630556 bytes(56.4083% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

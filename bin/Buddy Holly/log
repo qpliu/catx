@@ -1,7 +1,8 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=9223372036854775807
-Playing out.midi
-MIDI file: out.midi
+WorstAge=9223372036854775807
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
 Format: 1  Tracks: 1  Divisions: 384
 Sequence: midiGg
 No pre-resampling cache hit
