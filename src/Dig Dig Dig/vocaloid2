@@ -82,5 +82,5 @@ vocaloidTwoLyrics = \new Lyrics \lyricmode {
 % page 136
     "(d'Ig)"4 "(d'Ig)"4 "(d'Ig)"4 "."8
     "(d'Ig)"8 "."8 "(w'En)"8 "('aI)"4 "(w'eIk)"4 "('Vp)"4
-    "(d'Ig)"4 "(Vn)"4 "(t'Il)"4 "(D'@)"8 "(m'O@)"4 "(nIN)"2. \skip8
+    "(d'Ig)|!check=151"4 "(Vn)"4 "(t'Il)"4 "(D'@)"8 "(m'O@)"4 "(nIN)"2. \skip8
 }    
