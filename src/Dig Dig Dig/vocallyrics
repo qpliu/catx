@@ -1,74 +1,90 @@
-vocalLyrics = \new Lyrics \lyricsto "vocal" {
+vocalLyrics = \new Lyrics \lyricmode {
 % page 120
-    Dig Dig Dig! Dig when I Wake Up.
+    "Dig"4 "Dig"4 "Dig!"4 ""8 "Dig"8 ""8 "when"8 "I"4 "Wake"4 "Up."4
+    ""1 ""1
 % page 121
-    Dig Dig Dig! Dig when I Wake Up. Dig un -- til the mor -- - ning!
-% page 123.1 D
-    Pat tsun pat tsun ma e ga mi pat tsun Cu -- tie Style -- Ya p pa i c cho ku se n na ra it tou shou yo cho - su goi! -- Kyo u no
-% page 124
-    rippu ac -- chi? Koc chi? Soc chi? Doc chi? Which? __ Choc chi? Uoc chi i ma na n ji?
-% page 125.1 F Stegno
-    Shuu gou shuu gou ho u ka go shu u gou Par -- ty Time __ Dat te
-    jo shi ka i sa n ka de ga a ru zu to o ku yo
-% page 126
-    cho ya bai! -- Kyo u no VIP ac -- chi? Koc chi? Soc chi? Doc chi? Which? __
+    "Dig"4 "Dig"4 "Dig!"4 ""8 "Dig"8 ""8 "when"8 "I"4 "Wake"4 "Up."4
+    "Dig"4 "un"4 -- "til"4 "the"8 "mor"4. -- "ning!"2.
+    ""1 ""1 ""1 ""1 ""1 ""1 ""1 ""1
+    ""1 ""1 ""1 ""1 ""1 ""1 ""1 ""1
+    ""1 ""1 ""1 ""1 ""1 ""1 ""1 ""1
+    ""1 ""1 ""1 ""1 ""1 ""1 ""1 ""1
+    ""1 ""1 ""1 ""1 ""1 ""1 ""1 ""1
 % page 126.1
-    Choc chi? Uoc chi i ma na n ji?
-    Neigh -- bors don't care what is be --
-% page 127
-    low their feet!  They don't know be -- cause it is fif -- ty feet deep!  Yo
-% page 127.1
-    -- ji gen go ji gen ki tai! Ki tai! -- te -- n pa -- se no bi shi tai! Shi tai! -- Yo ne?
+    "Neigh"8 -- "bors"8 "don't"4 "care"8 "what"8 "is"8 "be"8 -- "low"4 "their"8 "feet."4. ""8
+    "They"4 "don't"8 "know"8 "be"8 -- "cause"8 "it"8 "is"8 "fif"8 -- "ty"4 "feet"8 "deep."4. ""8
+    "I"4 "have"8 "lots"4 "of"8 "dirt"8 "to"8 "car"8 -- "ry"4 "out"8 -- "side."4. ""8
+    "I"4 "don't"8 "care"4 "if"8 "I"8 "am"8 "bu"8 -- "ried"4 "a"8 -- "live."4
+    "You"8 "too?"4
 % page 128 H
-    Dig Dig Dig! Dig when I Wake Up.  Too much dirt! - So mud -- dy! So mud -- dy! --
+    "Dig"4 "Dig"4 "Dig!"4 ""8
+    "Dig"8 ""8 "when"8 "I"4 "Wake"4 "Up."4
+    "Too"4 "much"4 "dirt!"4 "So"8 "mud"4 -- "dy!"8 "So"8 "mud"4 -- "dy!"4.
 % page 128.1
-    Dig Dig Dig! I have got to Hur -- ry Up Must be done by mor -- - ning!
+    "Dig"4 "Dig"4 "Dig!"4 ""8
+    "I"8 ""8 "have"8 "got"8 "to"8 "Hur"8 -- "ry"8 "Up"4
+    "Must"4 "be"4 "done"4 "by"8 "mor"4. -- "ning!"2.
+    "Dig"4 "Dig"4 "Dig!"4 ""8
 % page 129
-    Dig Dig Dig! Don't have time to Make Up.  Too much dirt! - So mud -- dy! So mud -- dy! --
+    "Don't"8 ""8 "have"8 "time"8 "to"8 "Make"4 "Up."4
+    "Too"4 "much"4 "dirt!"4 "So"8 "mud"4 -- "dy!"8 "So"8 "mud"4 -- "dy!"4.
 % page 129.1
-    Dig Dig Dig! Now my hole is Ver -- sion Up Dig un -- til the mor
-% to Coda
-    -- - ning!
-% page 130.1
-    Su
-% page 125.1 F Stegno-2x
-    p pin sup pin me ga ne ga he a pin Fun -- ny Face __ Bu -- t sa n pyo u ma t te ne so k ko - he n shi n
-% page 126-2x
-    cho ha yai! -- Kyo u no RAP ac -- chi? Koc chi? Soc chi? Doc chi? Which? __
+    "Dig"4 "Dig"4 "Dig!"4 ""8
+    "Now"8 ""8 "my"8 "hole"8 "is"8 "Ver"8 -- "sion"8 "Up"4
+    "Dig"4 "un"4 -- "til"4 "the"8 "mor"4. -- "ning!"2.
+    ""1 ""1 ""1 ""1 ""1 ""1 ""1 ""1
+    ""1 ""1 ""1 ""1 ""1 ""1 ""1 ""1
 % page 126.1-2x
-    Choc chi? Uoc chi i ma na n ji?
-    I have lots of dirt to car --
-% page 127-2x
-    ry out -- side!  Real -- ly don't care if I am bu -- ried a -- live!  Yo
-% page 127.1-2x
-    -- ji gen go ji gen ki tai! Ki tai! -- te -- n pa -- se no bi shi tai! Shi tai! -- Yo ne?
+    "Neigh"8 -- "bors"8 "don't"4 "care"8 "what"8 "is"8 "be"8 -- "low"4 "their"8 "feet."4. ""8
+    "They"4 "don't"8 "know"8 "be"8 -- "cause"8 "it"8 "is"8 "fif"8 -- "ty"4 "feet"8 "deep."4. ""8
+    "I"4 "have"8 "lots"4 "of"8 "dirt"8 "to"8 "car"8 -- "ry"4 "out"8 -- "side."4. ""8
+    "I"4 "don't"8 "care"4 "if"8 "I"8 "am"8 "bu"8 -- "ried"4 "a"8 -- "live!"4
+    "You"8 "too?"4
 % page 128 H-2x
-    Dig Dig Dig! Dig when I Wake Up.  Too much dirt! - So mud -- dy! So mud -- dy! --
-% page 128.1-2x
-    Dig Dig Dig! I have got to Hur -- ry Up Must be done by mor -- - ning!
+    "Dig"4 "Dig"4 "Dig!"4 ""8
+    "Dig"8 ""8 "when"8 "I"4 "Wake"4 "Up."4
+    "Too"4 "much"4 "dirt!"4 "So"8 "mud"4 -- "dy!"8 "So"8 "mud"4 -- "dy!"4.
+    "Dig"4 "Dig"4 "Dig!"4 ""8
+    "I"8 ""8 "have"8 "got"8 "to"8 "Hur"8 -- "ry"8 "Up"4
+    "Must"4 "be"4 "done"4 "by"8 "mor"4. -- "ning!"2.
 % page 129-2x
-    Dig Dig Dig! Don't have time to Make Up.  Too much dirt! - So mud -- dy! So mud -- dy! --
+    "Dig"4 "Dig"4 "Dig!"4 ""8
+    "Don't"8 ""8 "have"8 "time"8 "to"8 "Make"4 "Up."4
+    "Too"4 "much"4 "dirt!"4 "So"8 "mud"4 -- "dy!"8 "So"8 "mud"4 -- "dy!"4.
 % page 129.1-2x
-    Dig Dig Dig! Now my hole is Ver -- sion Up Dig un -- til the mor
-% to Coda
-% page 131 Coda
-    -- - ning!
+    "Dig"4 "Dig"4 "Dig!"4 ""8
+    "Now"8 ""8 "my"8 "hole"8 "is"8 "Ver"8 -- "sion"8 "Up"4
+    "Dig"4 "un"4 -- "til"4 "the"8 "mor"4. -- "ning!"2.
+    ""1 ""1 ""1 ""1 ""1 ""1 ""1 ""1
 % page 132.1 K
-    Dig Dig Dig! Dig when I Wake Up.  Too much dirt! - So mud -- dy! So mud -- dy! --
+    "Dig"4 "Dig"4 "Dig!"4 ""8
+    "Dig"8 ""8 "when"8 "I"4 "Wake"4 "Up."4
+    "Too"4 "much"4 "dirt!"4 "So"8 "mud"4 -- "dy!"8 "So"8 "mud"4 -- "dy!"4.
 % page 133
-    Dig Dig Dig! I have got to Hur -- ry Up Must be done by mor -- - ning!
+    "Dig"4 "Dig"4 "Dig!"4 ""8
+    "I"8 ""8 "have"8 "got"8 "to"8 "Hur"8 -- "ry"8 "Up"4
+    "Must"4 "be"4 "done"4 "by"8 "mor"4. -- "ning!"2.
 % page 133.1 L
-    Dig Dig Dig! Don't have time to Make Up.  Too much dirt! - So mud -- dy! So mud -- dy! --
+    "Dig"4 "Dig"4 "Dig!"4 ""8
+    "Don't"8 ""8 "have"8 "time"8 "to"8 "Make"4 "Up."4
+    "Too"4 "much"4 "dirt!"4 "So"8 "mud"4 -- "dy!"8 "So"8 "mud"4 -- "dy!"4.
 % page 134
-    Dig Dig Dig! Now my hole is Ver -- sion Up Dig un -- til the mor -- - ning!
+    "Dig"4 "Dig"4 "Dig!"4 ""8
+    "Now"8 ""8 "my"8 "hole"8 "is"8 "Ver"8 -- "sion"8 "Up"4
+    "Dig"4 "un"4 -- "til"4 "the"8 "mor"4. -- "ning!"2.
 % page 134.1 M
-    Dig Dig Dig! Dig when I Wake Up.
+    "Dig"4 "Dig"4 "Dig!"4 ""8 "Dig"8 ""8 "when"8 "I"4 "Wake"4 "Up."4
+    ""1 ""1
 % page 135
-    Dig Dig Dig! Dig when I Wake Up.
+    "Dig"4 "Dig"4 "Dig!"4 ""8
+    "Dig"8 ""8 "when"8 "I"4 "Wake"4 "Up."4
+    ""1 ""1
 % page 135.1
-    Dig Dig Dig! Dig when I Wake Up.
+    "Dig"4 "Dig"4 "Dig!"4 ""8
+    "Dig"8 ""8 "when"8 "I"4 "Wake"4 "Up."4
+    ""1 ""1
 % page 136
-    Dig Dig Dig! Dig
-% page 136.1
-    when I Wake Up. Dig un -- til the mor -- - ning!
+    "Dig"4 "Dig"4 "Dig!"4 ""8
+    "Dig"8 ""8 "when"8 "I"4 "Wake"4 "Up."4
+    "Dig"4 "un"4 -- "til"4 "the"8 "mor"4. -- "ning!"2.
 }    

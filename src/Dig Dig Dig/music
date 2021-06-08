@@ -2,6 +2,7 @@
 
 \header {
     title = "Dig Dig Dig"
+    composer = "Lyric:gg Music:のりぞー,村カワ基成"
 }
 
 drumPitchNames.noise = #'noise
@@ -18,6 +19,8 @@ midiDrumPitches.noise = a' % 69
 \include "chorus"
 \include "vocallyrics"
 \include "choruslyrics"
+\include "karaokelyrics"
+\include "karaokechoruslyrics"
 \include "guitar1"
 \include "guitar1_donetext"
 \include "guitar2"
@@ -31,17 +34,17 @@ midiDrumPitches.noise = a' % 69
 \include "percussion_donetext"
 
 layoutmusic = <<
-    \tag #'(allPart) \new Staff \with {
-	instrumentName = "Chorus"
-	shortInstrumentName = "Ch"
+    \tag #'(allPart thisPart) \new Staff \with {
+	instrumentName = \markup { \rotate #90 "Chorus" }
+	shortInstrumentName = \markup { \rotate #90 "Ch" }
     } <<
 	\markupStuff
 	\chorusPart
 	\chorusLyrics
     >>
     \tag #'(allPart kavPart) \new Staff \with {
-	instrumentName = "Vocal"
-	shortInstrumentName = "Vo"
+	instrumentName = \markup { \rotate #90 "Vocals" }
+	shortInstrumentName = \markup { \rotate #90 "Vo" }
     } <<
 	\markupStuff
 	\vocalPart
@@ -49,8 +52,8 @@ layoutmusic = <<
     >>
     \tag #'(allPart peterPart) \new ChordNames \mychords
     \tag #'(allPart peterPart) \new Staff \with {
-	instrumentName = "Guitar1"
-	shortInstrumentName = "Gt.1"
+	instrumentName = \markup { \rotate #90 "Guitar1" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr1" }
     } <<
 	\markupStuff
 	\clef "treble_8"
@@ -61,8 +64,8 @@ layoutmusic = <<
 	\guitarOnePart
     >>
     \tag #'(allPart peterPart) \new Staff \with {
-	instrumentName = "Guitar2"
-	shortInstrumentName = "Gt.2"
+	instrumentName = \markup { \rotate #90 "Guitar2" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr2" }
     } <<
 	\markupStuff
 	\clef "treble_8"
@@ -73,8 +76,8 @@ layoutmusic = <<
 	\guitarTwoPart
     >>
     \tag #'(allPart peterPart) \new Staff \with {
-	instrumentName = "Guitar3"
-	shortInstrumentName = "Gt.3"
+	instrumentName = \markup { \rotate #90 "Guitar3" }
+	shortInstrumentName = \markup { \rotate #90 "Gtr3" }
     } <<
 	\markupStuff
 	\clef "treble_8"
@@ -85,15 +88,15 @@ layoutmusic = <<
 	\guitarThreePart
     >>
     \tag #'(allPart susanPart) \new Staff \with {
-	instrumentName = "Keyboard"
-	shortInstrumentName = "Keyb"
+	instrumentName = \markup { \rotate #90 "Keyboard" }
+	shortInstrumentName = \markup { \rotate #90 "Key" }
     } <<
 	\markupStuff
 	\keyboardPart
     >>
     \tag #'(allPart bassPart) \new Staff \with {
-	instrumentName = "Bass"
-	shortInstrumentName = "Ba"
+	instrumentName = \markup { \rotate #90 "Bass" }
+	shortInstrumentName = \markup { \rotate #90 "Ba" }
     } <<
 	\markupStuff
 	\clef "bass_8"
@@ -104,16 +107,16 @@ layoutmusic = <<
 	\bassPart
     >>
     \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
-	instrumentName = "Drums"
-	shortInstrumentName = "Dr"
+	instrumentName = \markup { \rotate #90 "Drums" }
+	shortInstrumentName = \markup { \rotate #90 "Dr" }
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)
     } <<
 	\markupStuff
 	\drumsPart
     >>
     \tag #'(allPart) \new DrumStaff \with {
-	instrumentName = "Percussion"
-	shortInstrumentName = "Perc"
+	instrumentName = \markup { \rotate #90 "Percussion" }
+	shortInstrumentName = \markup { \rotate #90 "Perc" }
 	drumStyleTable = #(alist->hash-table myPercStyleTable)
     } <<
 	\override Staff.StaffSymbol.line-positions = #'( 0 )
@@ -148,4 +151,16 @@ midimusic = <<
     \tag #'(midiOne) \new DrumStaff = "percussion" \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \percussionPart
+    \tag #'(midiKaraoke) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
+	\karaokeLyrics
+	\vocalPart
+    >>
+    \tag #'(midiKaraokeTwo) \new Staff \with {
+	midiInstrument = #"flute" % 73
+    } <<
+	\karaokechorusLyrics
+	\chorusPart
+    >>
 >>

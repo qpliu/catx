@@ -1,4 +1,4 @@
-chorusPart = \new Voice = "chorus" {
+chorusPart = \new Voice {
 % page 120 A
     \barNumberCheck #1
     r1 | r1 | r1 | r1 |

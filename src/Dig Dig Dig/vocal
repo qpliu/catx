@@ -1,4 +1,4 @@
-vocalPart = \new Voice = "vocal" {
+vocalPart = \new Voice {
 % page 120 A
     \barNumberCheck #1
     \relative {
@@ -26,21 +26,9 @@ vocalPart = \new Voice = "vocal" {
     r1 | r1 | r1 | r1 |
 % page 123.1 D
     \barNumberCheck #25
-    \override NoteHead.style = #'cross
-    \relative {
-	d''8 d8 d8 d8 d16 d16 d16 d16 d8 d8 |
-	d4 d8 d8~ d8 d8 d8 d8 |
-	d16 d16 d16 d16 d16 d16 d16 d16 d8 d8 d8 d8 |
-	d8 d8 d8 d8~ d8 d8 d8 d8 |
-    }
+    r1 | r1 | r1 | r1 |
 % page 124
-    \relative {
-	d''4 r8 d8~ d8 d8 d4 |
-	d8 d4 d8 d4 d8 d8~ |
-	d4 d4 d8 d4 d8 |
-	d8 d8 d8 d8 d4 r4 |
-    }
-    \revert NoteHead.style
+    r1 | r1 | r1 | r1 |
 % page 124.1 E
     \barNumberCheck #33
     r1 | r1 | r1 | r1 |
@@ -48,24 +36,11 @@ vocalPart = \new Voice = "vocal" {
     r1 | r1 | r1 | r1 |
 % page 125.1 F Stegno
     \barNumberCheck #41
-    \override NoteHead.style = #'cross
-    \relative {
-	d''8 d8 d8 d8 d16 d16 d16 d16 d16 d16 d8 |
-	d4 d8 d8~ d8 d4 d8 |
-	\repeat unfold 16 d16 |
-    }
+    r1 | r1 | r1 |
 % page 126
-    \relative {
-	d''4 d8 d8~ d8 d8 d8 d8 |
-	d4 r8 d8~ d8 d8 d4 |
-	d8 d4 d8 d4 d8 d8~ |
-    }
+    r1 | r1 | r1 |
 % page 126.1
-    \relative {
-	d''4 d4 d8 d4 d8 |
-	d8 d8 d8 d8 d4 r4 |
-    }
-    \revert NoteHead.style
+    r1 | r1 |
 % G
     \barNumberCheck #49
     \relative {
@@ -121,32 +96,15 @@ vocalPart = \new Voice = "vocal" {
     r1 | r1 | r1 | r1 |
 % page 130.1
     r1 | r1 | r1 |
-    \override NoteHead.style = #'cross
-    \relative {
-	r2 r4 r8 d''8 |
-    }
-    \revert NoteHead.style
+    r1 |
 % D.S.
 % page 125.1 F Stegno-2x
     \barNumberCheck #81
-    \override NoteHead.style = #'cross
-    \relative {
-	d''8 d8 d8 d8 d16 d16 d16 d16 d16 d16 d8 |
-	d4 d8 d8~ d8 d4 d8 |
-	\repeat unfold 16 d16 |
-    }
+    r1 | r1 | r1 |
 % page 126-2x
-    \relative {
-	d''4 d8 d8~ d8 d8 d8 d8 |
-	d4 r8 d8~ d8 d8 d4 |
-	d8 d4 d8 d4 d8 d8~ |
-    }
+    r1 | r1 | r1 |
 % page 126.1-2x
-    \relative {
-	d''4 d4 d8 d4 d8 |
-	d8 d8 d8 d8 d4 r4 |
-    }
-    \revert NoteHead.style
+    r1 | r1 |
 % G-2x
     \barNumberCheck #89
     \relative {

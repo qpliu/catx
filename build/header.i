@@ -198,3 +198,4 @@ markpage = #(define-music-function (parser location what) (markup?) #{ \tag #'(p
 
 \include "articulate.ly"
 \include "swing.ly"
+\include "event-listener.ly"
