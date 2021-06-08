@@ -63,80 +63,83 @@ final class MakeVocaloid{
 		return v;
 	}
     }
-    private boolean extractTrack(DataInputStream dis)throws IOException{
-	last = 0;
-	time = 0;
-	boolean trackGood=false;
-	int[]chan2note=new int[16];
-	Arrays.fill(chan2note,-1);
-	for (;;){
-	    time += readVlen(dis);
-	    int one=dis.readUnsignedByte();
-	    if (one==0xff){
-		int what=dis.readUnsignedByte();
-		byte[]data=new byte[readVlen(dis)];
-		dis.readFully(data);
-		if (what==3)
-		    trackGood = new String(data).equals(who);
-		else if (what==5){
-		    StringBuilder sb=new StringBuilder();
-		    for (StringTokenizer st=new StringTokenizer(new String(data),"|"); st.hasMoreTokens();){
-			String l=st.nextToken();
-			if (l.startsWith("!lang="))
-			    lang = l.substring(6);
-			else if (!l.startsWith("!")){
-			    if (l.startsWith("(") && l.endsWith(")"))
-				l = "[["+l.substring(1,l.length()-1)+"]]";
-			    data = l.getBytes();
-			    writeTime();
-			    dos.write(one);
-			    dos.write(what);
-			    writeVlen(data.length);
-			    dos.write(data);
+    private boolean extractTrack(byte[]trackData)throws IOException{
+	try (DataInputStream dis=new DataInputStream(new ByteArrayInputStream(trackData))){
+	    last = 0;
+	    time = 0;
+	    boolean trackGood=false;
+	    int[]chan2note=new int[16];
+	    Arrays.fill(chan2note,-1);
+	    for (;;){
+		time += readVlen(dis);
+		int one=dis.readUnsignedByte();
+		if (one==0xff){
+		    int what=dis.readUnsignedByte();
+		    byte[]data=new byte[readVlen(dis)];
+		    dis.readFully(data);
+		    if (what==3){
+			String trackName=new String(data);
+			trackGood = trackName.equals(who);
+		    }else if (what==5){
+			StringBuilder sb=new StringBuilder();
+			for (StringTokenizer st=new StringTokenizer(new String(data),"|"); st.hasMoreTokens();){
+			    String l=st.nextToken();
+			    if (l.startsWith("!lang="))
+				lang = l.substring(6);
+			    else if (!l.startsWith("!")){
+				if (l.startsWith("(") && l.endsWith(")"))
+				    l = "[["+l.substring(1,l.length()-1)+"]]";
+				data = l.getBytes();
+				writeTime();
+				dos.write(one);
+				dos.write(what);
+				writeVlen(data.length);
+				dos.write(data);
+			    }
 			}
+		    }else{
+			writeTime();
+			dos.write(one);
+			dos.write(what);
+			writeVlen(data.length);
+			dos.write(data);
+			if (what==0x2f)
+			    break;
 		    }
-		}else{
-		    writeTime();
-		    dos.write(one);
-		    dos.write(what);
-		    writeVlen(data.length);
-		    dos.write(data);
-		    if (what==0x2f)
-			break;
-		}
-	    }else if ((one&0xe0)==0x80){
-		int kk=dis.readUnsignedByte();
-		int vv=dis.readUnsignedByte();
-		for (int ch=0; ch<16; ch++)
-		    if ((one&0xf0)==0x80 || vv==0){
-			if (chan2note[ch]==kk){
+		}else if ((one&0xe0)==0x80){
+		    int kk=dis.readUnsignedByte();
+		    int vv=dis.readUnsignedByte();
+		    for (int ch=0; ch<16; ch++)
+			if ((one&0xf0)==0x80 || vv==0){
+			    if (chan2note[ch]==kk){
+				writeTime();
+				dos.write(0x80|ch);
+				dos.write(kk);
+				dos.write(0);
+				chan2note[ch] = -1;
+				break;
+			    }
+			}else if (ch!=10 && chan2note[ch]==-1){
+			    chan2note[ch] = kk;
 			    writeTime();
-			    dos.write(0x80|ch);
+			    dos.write(0x90|ch);
 			    dos.write(kk);
-			    dos.write(0);
-			    chan2note[ch] = -1;
+			    dos.write(0x80);
 			    break;
 			}
-		    }else if (ch!=10 && chan2note[ch]==-1){
-			chan2note[ch] = kk;
-			writeTime();
-			dos.write(0x90|ch);
-			dos.write(kk);
-			dos.write(0x80);
-			break;
-		    }
-	    }else if ((one&0xf0)==0xb0){
-		int cc=dis.readUnsignedByte();
-		int nn=dis.readUnsignedByte();
-	    }else if ((one&0xf0)==0xc0){
-		int program=dis.readUnsignedByte();
-	    }else if ((one&0xf0)==0xe0){
-		int lsb=dis.readUnsignedByte();
-		int msb=dis.readUnsignedByte();
-	    }else
-		throw new IOException(String.format("Weird 0x%02x",one));
+		}else if ((one&0xf0)==0xb0){
+		    int cc=dis.readUnsignedByte();
+		    int nn=dis.readUnsignedByte();
+		}else if ((one&0xf0)==0xc0){
+		    int program=dis.readUnsignedByte();
+		}else if ((one&0xf0)==0xe0){
+		    int lsb=dis.readUnsignedByte();
+		    int msb=dis.readUnsignedByte();
+		}else
+		    throw new IOException(String.format("Weird 0x%02x",one));
+	    }
+	    return trackGood;
 	}
-	return trackGood;
     }
     private void extractMidiFile(DataInputStream dis)throws IOException{
 	byte[]b=new byte[4];
@@ -155,13 +158,11 @@ final class MakeVocaloid{
 		try (DataInputStream d=new DataInputStream(new ByteArrayInputStream(c))){
 		    readThd(d);
 		}
-	    else if (type.equals("MTrk"))
-		try (DataInputStream d=new DataInputStream(new ByteArrayInputStream(c))){
-		    if (extractTrack(d))
-			break;
-		    baos.reset();
-		}
-	    else
+	    else if (type.equals("MTrk")){
+		if (extractTrack(c))
+		    break;
+		baos.reset();
+	    }else
 		System.err.println("type="+type);
 	}
     }

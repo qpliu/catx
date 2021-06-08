@@ -1,4 +1,6 @@
 % BIN midi all gg peter kav susan bass
+% MERGEMIDI --fudge-lyrics midiVocaloid=144,midiVocaloidTwo=144
+% ROBOT enabled=true
 
 \header {
     title = "Dig Dig Dig"
@@ -21,6 +23,8 @@ midiDrumPitches.noise = a' % 69
 \include "choruslyrics"
 \include "karaokelyrics"
 \include "karaokechoruslyrics"
+\include "vocaloid"
+\include "vocaloid2"
 \include "guitar1"
 \include "guitar1_donetext"
 \include "guitar2"
@@ -128,10 +132,10 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiVocaloidTwo) \new Staff \chorusPart
-%    \tag #'(midiVocaloidTwo) \vocaloidTwoLyrics
     \tag #'(midiVocaloid) \new Staff \vocalPart
-%    \tag #'(midiVocaloid) \vocaloidLyrics
+    \tag #'(midiVocaloid) \vocaloidLyrics
+    \tag #'(midiVocaloidTwo) \new Staff \chorusPart
+    \tag #'(midiVocaloidTwo) \vocaloidTwoLyrics
     \tag #'(midiPeter) \new Staff = "guitar1_dotext" \guitarOnePartDotext
     \tag #'(midiPeter) \new Staff = "guitar1" \guitarOnePart
     \tag #'(midiPeter) \new Staff = "guitar2_dotext" \guitarTwoPartDotext

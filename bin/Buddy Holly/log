@@ -3,8 +3,9 @@ WorstAge=9223372036854775807
 WorstAge=9223372036854775807
 Playing out_no_karaoke.midi
 MIDI file: out_no_karaoke.midi
-Format: 1  Tracks: 1  Divisions: 384
-Sequence: midiGg
+Format: 1  Tracks: 2  Divisions: 384
+Sequence: sequence
+Track name: midiGg
 No pre-resampling cache hit
 Playing time: ~163 seconds
 Notes cut: 0

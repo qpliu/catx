@@ -7,16 +7,16 @@ chorusLyrics = \new Lyrics \lyricmode {
     ""1 ""1 ""1 ""1 ""1 ""1 ""1 ""1
 % page 126.1
     "Neigh"8  -- "bors"8 "don't"4 "care"8 "what"8 "is"8 "be"8  -- "low"4 "their"8 "feet."4. ""8
-    "They"4 "don't"8 "know"8 "be"8  -- "cause"8 "it"8 "is"8 "fif"8  -- "ty"4 "feet"8 "deep."4. ""8
-    "I"4 "have"8 "lots"4 "of"8 "dirt"8 "to"8 "car"8  -- "ry"4 "out"8  -- "side."4. ""8
-    "I"4 "don't"8 "care"4 "if"8 "I"8 "am"8 "bu"8  -- "ried"4 "a"8  -- "live."4 ""4.
+    "They"4 "don't"8 "know"4 "'cause"8 "it's"8 "fif"4  -- "ty"8 "feet"4 "deep."4. ""8
+    "Got"4 "lots"8 "of"4 "dirt"4 "to"8 "car"4  -- "ry"8 "out"8  -- "side."4. ""8
+    "I"4 "don't"8 "care"4 "if"8 "I"8 "am"8 "bu"4  -- "ried"8 "a"8  -- "live."4 ""4.
 % page 128 H
     "Dig"4 "Dig"4 "Dig!"4 ""8
     "Dig"8 ""8 "when"8 "I"4 "Wake"4 "Up."4
     "Too"4 "much"4 "dirt!"4 "So"8 "mud"4  -- "dy!"8 "So"8 "mud"4  -- "dy!"4.
     "Dig"4 "Dig"4 "Dig!"4 ""8
     "I"8 ""8 "have"8 "got"8 "to"8 "Hur"8  -- "ry"8 "Up"4
-    "Must"4 "be"4 "done"4 "by"8 "mor"4.  -- "ning!"2.
+    "Must"4 "be"4 "done"4 "by"8 "mor"4 -- "ning!"2. \skip8
     "Dig"4 "Dig"4 "Dig!"4 ""8
 % page 129
     "Don't"8 ""8 "have"8 "time"8 "to"8 "Make"4 "Up."4
@@ -24,20 +24,20 @@ chorusLyrics = \new Lyrics \lyricmode {
 % page 129.1
     "Dig"4 "Dig"4 "Dig!"4 ""8
     "Now"8 ""8 "my"8 "hole"8 "is"8 "Ver"8  -- "sion"8 "Up"4
-    "Dig"4 "un"4  -- "til"4 "the"8 "mor"4.  -- "ning!"2.
+    "Dig"4 "un"4  -- "til"4 "the"8 "mor"4 -- "ning!"2. \skip8
     ""1 ""1 ""1 ""1 ""1 ""1 ""1 ""1 ""1 ""1 ""1 ""1 ""1 ""1 ""1 ""1
 % page 126.1-2x
     "Neigh"8  -- "bors"8 "don't"4 "care"8 "what"8 "is"8 "be"8  -- "low"4 "their"8 "feet."4. ""8
-    "They"4 "don't"8 "know"8 "be"8  -- "cause"8 "it"8 "is"8 "fif"8  -- "ty"4 "feet"8 "deep."4. ""8
-    "I"4 "have"8 "lots"4 "of"8 "dirt"8 "to"8 "car"8  -- "ry"4 "out"8  -- "side."4. ""8
-    "I"4 "don't"8 "care"4 "if"8 "I"8 "am"8 "bu"8  -- "ried"4 "a"8  -- "live!"4 ""4.
+    "They"4 "don't"8 "know"4 "'cause"8 "it's"8 "fif"4  -- "ty"8 "feet"4 "deep."4. ""8
+    "Got"4 "lots"8 "of"4 "dirt"4 "to"8 "car"4  -- "ry"8 "out"8  -- "side."4. ""8
+    "I"4 "don't"8 "care"4 "if"8 "I"8 "am"8 "bu"4  -- "ried"8 "a"8  -- "live!"4 ""4.
 % page 128 H-2x
     "Dig"4 "Dig"4 "Dig!"4 ""8
     "Dig"8 ""8 "when"8 "I"4 "Wake"4 "Up."4
     "Too"4 "much"4 "dirt!"4 "So"8 "mud"4  -- "dy!"8 "So"8 "mud"4  -- "dy!"4.
     "Dig"4 "Dig"4 "Dig!"4 ""8
     "I"8 ""8 "have"8 "got"8 "to"8 "Hur"8  -- "ry"8 "Up"4
-    "Must"4 "be"4 "done"4 "by"8 "mor"4.  -- "ning!"2.
+    "Must"4 "be"4 "done"4 "by"8 "mor"4 -- "ning!"2. \skip8
 % page 129-2x
     "Dig"4 "Dig"4 "Dig!"4 ""8
     "Don't"8 ""8 "have"8 "time"8 "to"8 "Make"4 "Up."4
@@ -45,7 +45,7 @@ chorusLyrics = \new Lyrics \lyricmode {
 % page 129.1-2x
     "Dig"4 "Dig"4 "Dig!"4 ""8
     "Now"8 ""8 "my"8 "hole"8 "is"8 "Ver"8  -- "sion"8 "Up"4
-    "Dig"4 "un"4  -- "til"4 "the"8 "mor"4.  -- "ning!"2.
+    "Dig"4 "un"4  -- "til"4 "the"8 "mor"4 -- "ning!"2. \skip8
     ""1 ""1 ""1 ""1 ""1 ""1 ""1 ""1
 % page 132.1 K
     "Dig!"4 "Dig!"4 "Dig!"4 "Dig!"4
@@ -54,7 +54,7 @@ chorusLyrics = \new Lyrics \lyricmode {
     "Dig!"4 "Dig!"4 "Dig!"4 "Dig!"4
     "Dig"4 "Dig"4 "Dig!"4 ""4
     ""1
-    "Must"4 "be"4 "done"4 "by"8 "mor"4. -- "ning!"2.
+    "Must"4 "be"4 "done"4 "by"8 "mor"4 -- "ning!"2. \skip8
 % page 133.1 L
     "Dig"4 "Dig"4 "Dig!"4 ""8
     "Don't"8 ""8 "have"8 "time"8 "to"8 "Make"4 "Up."4
@@ -62,7 +62,7 @@ chorusLyrics = \new Lyrics \lyricmode {
 % page 134
     "Dig"4 "Dig"4 "Dig!"4 ""8
     "Now"8 ""8 "my"8 "hole"8 "is"8 "Ver"8  -- "sion"8 "Up"4
-    "Dig"4 "un"4  -- "til"4 "the"8 "mor"4.  -- "ning!"2.
+    "Dig"4 "un"4  -- "til"4 "the"8 "mor"4 -- "ning!"2. \skip8
 % page 134.1 M
     "Dig"4 "Dig"4 "Dig!"4 ""8 "Dig"8 ""8 "when"8 "I"4 "Wake"4 "Up."4
     ""1 ""1
@@ -77,5 +77,5 @@ chorusLyrics = \new Lyrics \lyricmode {
 % page 136
     "Dig"4 "Dig"4 "Dig!"4 ""8
     "Dig"8 ""8 "when"8 "I"4 "Wake"4 "Up."4
-    "Dig"4 "un"4 -- "til"4 "the"8 "mor"4.  -- "ning!"2.
+    "Dig"4 "un"4 -- "til"4 "the"8 "mor"4 -- "ning!"2. \skip8
 }

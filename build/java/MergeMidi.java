@@ -10,6 +10,9 @@ final class MergeMidi{
 // WTF?  Lilypond adds an extra 48 divisions after each Lyric meta event?  But sometimes it is 144?
 // Sometimes it is 192.  Sometimes 24.
     private static int DEFAULT_FUDGE_LYRICS=48;
+    private static final int IS_SEQUENCE_YES=1;
+    private static final int IS_SEQUENCE_NO=2;
+    private static final int IS_SEQUENCE_BOTH=3;
     private static Map<String,Integer>fudgeLyricsMap=new HashMap<String,Integer>();
     private final Map<String,List<TextEvent>>textEvents=new HashMap<String,List<TextEvent>>();
     private final List<MetaEvent>metaEvents=new ArrayList<MetaEvent>();
@@ -20,12 +23,14 @@ final class MergeMidi{
     private static final Pattern whatParamPattern=Pattern.compile("([a-zA-Z]+)(.*)");
     private static final Pattern lyNotePattern=Pattern.compile("([a-g])((?:es|is)*)([',]*)");
     private class OutputEvent implements Comparable<OutputEvent>{
+	final int is_sequence;
 	final long time;
 	final int sort;
 	final int outTrackIndex;
 	final int one;
 	final byte[]bytes;
-	OutputEvent(long time,int sort,int outTrackIndex,int one,byte...bytes){
+	OutputEvent(int is_sequence,long time,int sort,int outTrackIndex,int one,byte...bytes){
+	    this.is_sequence = is_sequence;
 	    this.time = time;
 	    this.sort = sort;
 	    this.outTrackIndex = outTrackIndex;
@@ -218,22 +223,24 @@ final class MergeMidi{
 	}
     }
     private class MetaEvent extends Event{
+	final int is_sequence;
 	final int what;
 	final byte[]data;
-	MetaEvent(long time,String id,int outTrackIndex,int what,byte[]data){
+	MetaEvent(int is_sequence,long time,String id,int outTrackIndex,int what,byte[]data){
 	    super(time,1,id,outTrackIndex);
+	    this.is_sequence = is_sequence;
 	    this.what = what;
 	    this.data = data.clone();
 	}
     }
     private class LyricEvent extends MetaEvent{
 	LyricEvent(long time,String id,int outTrackIndex,int what,byte[]data){
-	    super(time,id,outTrackIndex,what,data);
+	    super(IS_SEQUENCE_NO,time,id,outTrackIndex,what,data);
 	}
     }
     private class TempoEvent extends MetaEvent{
 	TempoEvent(long time,int outTrackIndex,String id,int what,byte[]data){
-	    super(time,id,outTrackIndex,what,data);
+	    super(IS_SEQUENCE_NO,time,id,outTrackIndex,what,data);
 	}
 	int getMicrosecondsPerQuarterNote(){
 	    return (data[0]&255)<<16|(data[1]&255)<<8|data[2]&255;
@@ -241,7 +248,7 @@ final class MergeMidi{
     }
     private class TimeSignatureEvent extends MetaEvent{
 	TimeSignatureEvent(long time,int outTrackIndex,String id,int what,byte[]data){
-	    super(time,id,outTrackIndex,what,data);
+	    super(IS_SEQUENCE_YES,time,id,outTrackIndex,what,data);
 	}
 	int getNumerator(){
 	    return data[0]&255;
@@ -252,7 +259,7 @@ final class MergeMidi{
     }
     private class KeySignatureEvent extends MetaEvent{
 	KeySignatureEvent(long time,int outTrackIndex,String id,int what,byte[]data){
-	    super(time,id,outTrackIndex,what,data);
+	    super(IS_SEQUENCE_YES,time,id,outTrackIndex,what,data);
 	}
     }
     private class ProgramChangeEvent extends Event{
@@ -539,7 +546,7 @@ final class MergeMidi{
 		byte[]b=new byte[bytes.length];
 		for (int i=0; i<bytes.length; i++)
 		    b[i] = (byte)bytes[i];
-		outputEvents.add(new OutputEvent(time,sort,outTrackIndex,one|number,b));
+		outputEvents.add(new OutputEvent(IS_SEQUENCE_NO,time,sort,outTrackIndex,one|number,b));
 	    }
 	    void addSetRpn(long time,int outTrackIndex,int n,int v){
 		add(time,-100,outTrackIndex,0xb0,101,n>>7);
@@ -672,7 +679,7 @@ final class MergeMidi{
 		baos.write(me.what);
 		writeVlen(baos,me.data.length);
 		baos.write(me.data);
-		outputEvents.add(new OutputEvent(me.time,-100,me.outTrackIndex,0xff,baos.toByteArray()));
+		outputEvents.add(new OutputEvent(me.is_sequence,me.time,-100,me.outTrackIndex,0xff,baos.toByteArray()));
 		maxTime[0] = Math.max(maxTime[0],me.time);
 	    }
 	}
@@ -768,17 +775,18 @@ final class MergeMidi{
 	long[]maxTime=new long[1];
 	oem.makeMetaEvents(maxTime);
 	oem.makeEvents(maxTime);
-	outputEvents.add(new OutputEvent(maxTime[0],100,-1,0xff,(byte)0x2f,(byte)0));
+	outputEvents.add(new OutputEvent(IS_SEQUENCE_BOTH,maxTime[0],100,-1,0xff,(byte)0x2f,(byte)0));
 	Collections.sort(outputEvents);
     }
-    private void output(DataOutputStream dos,int outTrackIndex,byte[]trackName)throws IOException{
+    private void output(DataOutputStream dos,int outTrackIndex,byte[]trackName,int outputSequenceStuff)throws IOException{
 	ByteArrayOutputStream baos=new ByteArrayOutputStream();
 	baos.write(0);
 	baos.write(255);
 	baos.write(3);
 	baos.write(trackName.length);
 	baos.write(trackName);
-	if (outTrackIndex==0){
+	if (outputSequenceStuff==IS_SEQUENCE_YES){
+// Output junk note in beginning to keep timidity from trimming beginning and messing up timing.
 	    baos.write(0);
 	    baos.write(0x90);
 	    baos.write(0);
@@ -787,6 +795,8 @@ final class MergeMidi{
 	long lastTime=0;
 	for (OutputEvent oe:outputEvents){
 	    if (oe.outTrackIndex!=-1 && oe.outTrackIndex!=outTrackIndex)
+		continue;
+	    if ((oe.is_sequence&outputSequenceStuff)==0)
 		continue;
 	    long delta=oe.time-lastTime;
 	    lastTime = oe.time;
@@ -859,17 +869,18 @@ final class MergeMidi{
 		break;
 	for (int i=j; i<argv.length; i+=2)
 	    try (DataInputStream dis=new DataInputStream(new FileInputStream(argv[i+1]))){
-		mm.read(dis,(i-j)/2,argv[i+1],argv[i]);
+		mm.read(dis,1+(i-j)/2,argv[i+1],argv[i]);
 	    }
 	mm.makeOutputEvents();
 	try (DataOutputStream dos=new DataOutputStream(System.out)){
 	    dos.write("MThd".getBytes());
 	    dos.writeInt(6);
 	    dos.writeShort(1);
-	    dos.writeShort((argv.length-j)/2);
+	    dos.writeShort(1+(argv.length-j)/2);
 	    dos.writeShort(DIVISION);
+	    mm.output(dos,0,"sequence".getBytes(),IS_SEQUENCE_YES);
 	    for (int i=j; i<argv.length; i+=2)
-		mm.output(dos,(i-j)/2,argv[i].getBytes());
+		mm.output(dos,1+(i-j)/2,argv[i].getBytes(),IS_SEQUENCE_NO);
 	}
     }
     private static class PrintInputStream extends FilterInputStream{
