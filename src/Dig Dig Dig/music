@@ -1,0 +1,151 @@
+% BIN midi all gg peter kav susan bass
+
+\header {
+    title = "Dig Dig Dig"
+}
+
+drumPitchNames.noise = #'noise
+midiDrumPitches.noise = a' % 69
+
+#(define myPercStyleTable '(
+    (handclap       cross    #f          0)
+    (noise          default  #f          0)
+))
+
+\include "markup"
+\include "chords"
+\include "vocal"
+\include "chorus"
+\include "vocallyrics"
+\include "choruslyrics"
+\include "guitar1"
+\include "guitar1_donetext"
+\include "guitar2"
+\include "guitar2_donetext"
+\include "guitar3"
+\include "keyboard"
+\include "bass"
+\include "bass_donetext"
+\include "drums"
+\include "percussion"
+\include "percussion_donetext"
+
+layoutmusic = <<
+    \tag #'(allPart) \new Staff \with {
+	instrumentName = "Chorus"
+	shortInstrumentName = "Ch"
+    } <<
+	\markupStuff
+	\chorusPart
+	\chorusLyrics
+    >>
+    \tag #'(allPart kavPart) \new Staff \with {
+	instrumentName = "Vocal"
+	shortInstrumentName = "Vo"
+    } <<
+	\markupStuff
+	\vocalPart
+	\vocalLyrics
+    >>
+    \tag #'(allPart peterPart) \new ChordNames \mychords
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = "Guitar1"
+	shortInstrumentName = "Gt.1"
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\guitarOnePart
+    >>
+    \tag #'(peterPart) \new TabStaff \with { stringTunings = \stringTuning <a,,, e,, a,, d, g, b, e> } <<
+	\markupStuff
+	\guitarOnePart
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = "Guitar2"
+	shortInstrumentName = "Gt.2"
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\guitarTwoPart
+    >>
+    \tag #'(peterPart) \new TabStaff \with { stringTunings = \stringTuning <a,,, e,, a,, d, g, b, e> } <<
+	\markupStuff
+	\guitarTwoPart
+    >>
+    \tag #'(allPart peterPart) \new Staff \with {
+	instrumentName = "Guitar3"
+	shortInstrumentName = "Gt.3"
+    } <<
+	\markupStuff
+	\clef "treble_8"
+	\guitarThreePart
+    >>
+    \tag #'(peterPart) \new TabStaff <<
+	\markupStuff
+	\guitarThreePart
+    >>
+    \tag #'(allPart susanPart) \new Staff \with {
+	instrumentName = "Keyboard"
+	shortInstrumentName = "Keyb"
+    } <<
+	\markupStuff
+	\keyboardPart
+    >>
+    \tag #'(allPart bassPart) \new Staff \with {
+	instrumentName = "Bass"
+	shortInstrumentName = "Ba"
+    } <<
+	\markupStuff
+	\clef "bass_8"
+	\bassPart
+    >>
+    \tag #'(bassPart) \new TabStaff \with { stringTunings = \stringTuning <a,,,, e,,, a,,, d,, g,, c,> } <<
+	\markupStuff
+	\bassPart
+    >>
+    \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
+	instrumentName = "Drums"
+	shortInstrumentName = "Dr"
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drumsPart
+    >>
+    \tag #'(allPart) \new DrumStaff \with {
+	instrumentName = "Percussion"
+	shortInstrumentName = "Perc"
+	drumStyleTable = #(alist->hash-table myPercStyleTable)
+    } <<
+	\override Staff.StaffSymbol.line-positions = #'( 0 )
+	\override Staff.BarLine.bar-extent = #'(-1.5 . 1.5)
+	\markupStuff
+	\percussionPart
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiVocaloidTwo) \new Staff \chorusPart
+%    \tag #'(midiVocaloidTwo) \vocaloidTwoLyrics
+    \tag #'(midiVocaloid) \new Staff \vocalPart
+%    \tag #'(midiVocaloid) \vocaloidLyrics
+    \tag #'(midiPeter) \new Staff = "guitar1_dotext" \guitarOnePartDotext
+    \tag #'(midiPeter) \new Staff = "guitar1" \guitarOnePart
+    \tag #'(midiPeter) \new Staff = "guitar2_dotext" \guitarTwoPartDotext
+    \tag #'(midiPeter) \new Staff = "guitar2" \guitarTwoPart
+    \tag #'(midiPeter) \new Staff \with {
+	midiInstrument = #"electric guitar (clean)"
+    } \guitarThreePart
+    \tag #'(midiSusan) \new Staff \with {
+	midiInstrument = #"pad 3 (polysynth)"
+    } \keyboardPart
+    \tag #'(midiBass) \new Staff = "bass_dotext" \bassPartDotext
+    \tag #'(midiBass) \new Staff = "bass" \bassPart
+    \tag #'(midiGg) \new DrumStaff = "drums" \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drumsPart
+    \tag #'(midiOne) \new Staff = "percussion_dotext" \percussionPartDotext
+    \tag #'(midiOne) \new DrumStaff = "percussion" \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \percussionPart
+>>

@@ -1,0 +1,270 @@
+vocalPart = \new Voice = "vocal" {
+% page 120 A
+    \barNumberCheck #1
+    \relative {
+	e'4 a4 a4 r8 fis8 |
+	r8 fis8 fis4 gis4 fis4 |
+	r1 |
+	r1 |
+    }
+% page 121
+    \relative {
+	e'4 a4 a4 r8 fis8 |
+	r8 fis8 fis4 gis4 fis4 |
+	e4 a4 b4 a8 b8~ |
+	b8 a8 a2. |
+    }
+% page 121.1 B
+    \barNumberCheck #9
+    r1 | r1 | r1 | r1 |
+% page 122
+    r1 | r1 | r1 | r1 |
+% page 122.1 C
+    \barNumberCheck #17
+    r1 | r1 | r1 | r1 |
+% page 123
+    r1 | r1 | r1 | r1 |
+% page 123.1 D
+    \barNumberCheck #25
+    \override NoteHead.style = #'cross
+    \relative {
+	d''8 d8 d8 d8 d16 d16 d16 d16 d8 d8 |
+	d4 d8 d8~ d8 d8 d8 d8 |
+	d16 d16 d16 d16 d16 d16 d16 d16 d8 d8 d8 d8 |
+	d8 d8 d8 d8~ d8 d8 d8 d8 |
+    }
+% page 124
+    \relative {
+	d''4 r8 d8~ d8 d8 d4 |
+	d8 d4 d8 d4 d8 d8~ |
+	d4 d4 d8 d4 d8 |
+	d8 d8 d8 d8 d4 r4 |
+    }
+    \revert NoteHead.style
+% page 124.1 E
+    \barNumberCheck #33
+    r1 | r1 | r1 | r1 |
+% page 125
+    r1 | r1 | r1 | r1 |
+% page 125.1 F Stegno
+    \barNumberCheck #41
+    \override NoteHead.style = #'cross
+    \relative {
+	d''8 d8 d8 d8 d16 d16 d16 d16 d16 d16 d8 |
+	d4 d8 d8~ d8 d4 d8 |
+	\repeat unfold 16 d16 |
+    }
+% page 126
+    \relative {
+	d''4 d8 d8~ d8 d8 d8 d8 |
+	d4 r8 d8~ d8 d8 d4 |
+	d8 d4 d8 d4 d8 d8~ |
+    }
+% page 126.1
+    \relative {
+	d''4 d4 d8 d4 d8 |
+	d8 d8 d8 d8 d4 r4 |
+    }
+    \revert NoteHead.style
+% G
+    \barNumberCheck #49
+    \relative {
+	a'8 a8 g4 a8 a8 g8 g8 |
+    }
+% page 127
+    \relative {
+	a'4 g8 a8~ a4 r8 a8~ |
+	a8 a8 g8 g8 a8 a8 g8 g8 |
+	a4 g8 a8~ a4 r8 a8~ |
+    }
+% page 127.1
+    \relative {
+	a'8 a8 g4 a8 a8 g8 g8 |
+	a4 g8 a8~ a4 r8 a8~ |
+	a8 a8 g4 a8 a8 g8 g8 |
+	a4 g8 a8~ a8 \deadNote e8 \deadNote b'4 |
+    }
+% page 128 H
+    \barNumberCheck #57
+    \relative {
+	e'4 a4 a4 r8 fis8 |
+	r8 fis8 fis4 gis4 fis4 |
+	e4 a4 a8 a8 cis8 a8~ |
+	a8 e8 cis'8 b8~ b8 b8( cis4) |
+    }
+% page 128.1
+    \relative {
+	e'4 a4 a4 r8 fis8 |
+	r8 fis8 fis8 fis8 gis8 gis8 fis4 |
+	e4 a4 b4 a8 b8~ |
+	b8 a8 a2. |
+    }
+% page 129
+    \relative {
+	e'4 a4 a4 r8 fis8 |
+	r8 fis8 fis8 fis8 gis4 fis4 |
+	e4 a4 a8 a8 cis8 a8~ |
+	a8 e8 cis'8 b8~ b8 b8( cis4) |
+    }
+% page 129.1
+    \relative {
+	e'4 a4 a4 r8 fis8 |
+	r8 fis8 fis8 fis8 gis8 gis8 fis4 |
+	e4 a4 b4 a8 b8~ |
+    }
+% to Coda
+    \relative {
+	b'8 a8 a2. |
+    }
+% page 130 I
+    \barNumberCheck #73
+    r1 | r1 | r1 | r1 |
+% page 130.1
+    r1 | r1 | r1 |
+    \override NoteHead.style = #'cross
+    \relative {
+	r2 r4 r8 d''8 |
+    }
+    \revert NoteHead.style
+% D.S.
+% page 125.1 F Stegno-2x
+    \barNumberCheck #81
+    \override NoteHead.style = #'cross
+    \relative {
+	d''8 d8 d8 d8 d16 d16 d16 d16 d16 d16 d8 |
+	d4 d8 d8~ d8 d4 d8 |
+	\repeat unfold 16 d16 |
+    }
+% page 126-2x
+    \relative {
+	d''4 d8 d8~ d8 d8 d8 d8 |
+	d4 r8 d8~ d8 d8 d4 |
+	d8 d4 d8 d4 d8 d8~ |
+    }
+% page 126.1-2x
+    \relative {
+	d''4 d4 d8 d4 d8 |
+	d8 d8 d8 d8 d4 r4 |
+    }
+    \revert NoteHead.style
+% G-2x
+    \barNumberCheck #89
+    \relative {
+	a'8 a8 g4 a8 a8 g8 g8 |
+    }
+% page 127-2x
+    \relative {
+	a'4 g8 a8~ a4 r8 a8~ |
+	a8 a8 g8 g8 a8 a8 g8 g8 |
+	a4 g8 a8~ a4 r8 a8~ |
+    }
+% page 127.1-2x
+    \relative {
+	a'8 a8 g4 a8 a8 g8 g8 |
+	a4 g8 a8~ a4 r8 a8~ |
+	a8 a8 g4 a8 a8 g8 g8 |
+	a4 g8 a8~ a8 \deadNote e8 \deadNote b'4 |
+    }
+% page 128 H-2x
+    \barNumberCheck #97
+    \relative {
+	e'4 a4 a4 r8 fis8 |
+	r8 fis8 fis4 gis4 fis4 |
+	e4 a4 a8 a8 cis8 a8~ |
+	a8 e8 cis'8 b8~ b8 b8( cis4) |
+    }
+% page 128.1-2x
+    \relative {
+	e'4 a4 a4 r8 fis8 |
+	r8 fis8 fis8 fis8 gis8 gis8 fis4 |
+	e4 a4 b4 a8 b8~ |
+	b8 a8 a2. |
+    }
+% page 129-2x
+    \relative {
+	e'4 a4 a4 r8 fis8 |
+	r8 fis8 fis8 fis8 gis4 fis4 |
+	e4 a4 a8 a8 cis8 a8~ |
+	a8 e8 cis'8 b8~ b8 b8( cis4) |
+    }
+% page 129.1-2x
+    \relative {
+	e'4 a4 a4 r8 fis8 |
+	r8 fis8 fis8 fis8 gis8 gis8 fis4 |
+	e4 a4 b4 a8 b8~ |
+    }
+% to Coda
+% page 131
+    \barNumberCheck #112
+    \relative {
+	b'8 a8 a2. |
+    }
+% J
+    \barNumberCheck #113
+    r1 | r1 |
+% page 131.1
+    r1 | r1 | r1 |
+% page 132
+    r1 | r1 | r1 |
+% page 132.1 K
+    \barNumberCheck #121
+    \relative {
+	e'4 a4 a4 r8 fis8 |
+	r8 fis8 fis4 gis4 fis4 |
+	e4 a4 a8 a8 cis8 a8~ |
+	a8 e8 cis'8 b8~ b8 b8( cis4) |
+    }
+% page 133
+    \relative {
+	e'4 a4 a4 r8 fis8 |
+	r8 fis8 fis8 fis8 gis8 gis8 fis4 |
+	e4 a4 b4 a8 b8~ |
+	b8 a8 a2.^\markup { \hspace #3 "Slicer" } |
+    }
+% page 133.1 L
+    \barNumberCheck #129
+    \relative {
+	e'4 a4 a4 r8 fis8 |
+	r8 fis8 fis8 fis8 gis4 fis4 |
+	e4 a4 a8 a8 cis8 a8~ |
+	a8 e8 cis'8 b8~ b8 b8( cis4) |
+    }
+% page 134
+    \relative {
+	e'4 a4 a4 r8 fis8 |
+	r8 fis8 fis8 fis8 gis8 gis8 fis4 |
+	e4 a4 b4 a8 b8~ |
+	b8 a8 a2. |
+    }
+% page 134.1 M
+    \barNumberCheck #137
+    \relative {
+	e'4 a4 a4 r8 fis8 |
+	r8 fis8 fis4 gis4 fis4 |
+	r1 | r1 |
+    }
+% page 135
+    \relative {
+	e'4 a4 a4 r8 fis8 |
+	r8 fis8 fis4 gis4 fis4 |
+	r1 |
+    }
+% page 135.1
+    r1 |
+    \relative {
+	e'4 a4 a4 r8 fis8 |
+	r8 fis8 fis4 gis4 fis4 |
+    }
+% page 136
+    r1 | r1 |
+    \relative {
+	e'4 a4 a4 r8 fis8 |
+    }
+% page 136.1
+    \relative {
+	r8 fis'8 fis4 gis4 fis4 |
+	e4 a4 b4 a8 b8~ |
+	b8 a8 a2. |
+    }
+    \barNumberCheck #153
+}

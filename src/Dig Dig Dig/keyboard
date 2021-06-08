@@ -1,0 +1,187 @@
+keyboardPart = {
+% page 120 A
+    \barNumberCheck #1
+    \relative {
+	\repeat percent 3 {
+	    a'4\staccato^"(Synth.)" b8 a8 cis8 a8 r8 a8 |
+	    r8 b8 a8 b8 d16 cis16 b8 a8 b8 |
+	}
+    }
+% page 121+2
+    r1 | r1 |
+% page 121.1 B
+    \barNumberCheck #9
+    r1 | r1 | r1 | r1 |
+% page 122
+    r1 | r1 | r1 | r1 |
+% page 122.1 C
+    \barNumberCheck #17
+    \relative {
+	\repeat percent 3 {
+	    a'16 a16 a'16 a'16 a,,16 a16 a16 a16 a16 a16 a'16 a'16 a,,16 a16 a16 a16 |
+	}
+	a16 a16 a'16 a'16 a,,16 a16 a16 a16 a16 a16 a'16 a'16 r4 |
+    }
+% page 123
+    \relative {
+	\repeat percent 4 {
+	    a'16 a16 a'16 a'16 a,,16 a16 a16 a16 a16 a16 a'16 a'16 a,,16 a16 a16 a16 |
+	}
+    }
+% page 123.1 D
+    \barNumberCheck #25
+    \relative {
+	a16 a'16 a'16 a,16 a'16 a,16 a,16 a'16 a,16 a'16 a'16 a'16 a,,16 a16 a,16 a'16 |
+	a,16 a'16 a'16 a'16 a,,16 a16 a,16 a'16 a,16 a'16 a'16 a'16 a,,16 a16 a,16 a'16 |
+	a,16 a'16 a'16 a,16 a'16 a,16 a,16 a'16 a,16 a'16 a'16 a'16 a,,16 a16 a,16 a'16 |
+	a,16 a'16 a'16 a'16 a,,16 a16 a,16 a'16 a,16 a'16 a'16 a'16 r4 |
+    }
+% page 124
+    \relative {
+	\repeat percent 4 {
+	    a16 a'16 a16 a'16 a16 a'16 a,16 a16 a,,16 a'16 a16 a'16 a16 a'16 a,16 a16 |
+	}
+    }
+% page 124.1 E
+    \barNumberCheck #33
+    \relative {
+	\repeat percent 8 {
+	    a'16 a16 a'16 a'16 a,,16 a16 a16 a16 a16 a16 a'16 a'16 a,,16 a16 a16 a16 |
+	}
+    }
+% page 125.1 F Stegno
+    \barNumberCheck #41
+    \relative {
+	\repeat percent 8 {
+	    a'16 a16 a'16 a'16 a,,16 a16 a16 a16 a16 a16 a'16 a'16 a,,16 a16 a16 a16 |
+	}
+    }
+% G
+    \barNumberCheck #49
+    \relative {
+	e'''2.. c16 d16 |
+    }
+% page 127
+    \relative {
+	c'''2.. g8 |
+	f1 |
+	g1 |
+    }
+% page 127.1
+    \relative {
+	e'''2.. c16 d16 |
+	c2.. g8 |
+	f1 |
+	r1 |
+    }
+% page 128 H
+    \barNumberCheck #57
+    \relative {
+	\repeat percent 8 {
+	    a'4\staccato b8 a8 cis8 a8 r8 a8 |
+	    r8 b8 a8 b8 d16 cis16 b8 a8 b8 |
+	}
+    }
+% to Coda+1
+% page 130 I
+    \barNumberCheck #73
+    \relative {
+	\repeat percent 3 {
+	    a'16 a16 a'16 a'16 a,,16 a16 a16 a16 a16 a16 a'16 a'16 a,,16 a16 a16 a16 |
+	}
+	a16 a16 a'16 a'16 a,,16 a16 a16 a16 a16 a16 a'16 a'16 r4 |
+    }
+% page 130.1
+    \relative {
+	\repeat percent 4 {
+	    a'16 a16 a'16 a'16 a,,16 a16 a16 a16 a16 a16 a'16 a'16 a,,16 a16 a16 a16 |
+	}
+    }
+% D.S.
+% page 125.1 F Stegno-2x
+    \barNumberCheck #81
+    \relative {
+	\repeat percent 8 {
+	    a'16 a16 a'16 a'16 a,,16 a16 a16 a16 a16 a16 a'16 a'16 a,,16 a16 a16 a16 |
+	}
+    }
+% G-2x
+    \barNumberCheck #89
+    \relative {
+	e'''2.. c16 d16 |
+    }
+% page 127-2x
+    \relative {
+	c'''2.. g8 |
+	f1 |
+	g1 |
+    }
+% page 127.1-2x
+    \relative {
+	e'''2.. c16 d16 |
+	c2.. g8 |
+	f1 |
+	r1 |
+    }
+% page 128 H-2x
+    \barNumberCheck #97
+    \relative {
+	\repeat percent 7 {
+	    a'4\staccato b8 a8 cis8 a8 r8 a8 |
+	    r8 b8 a8 b8 d16 cis16 b8 a8 b8 |
+	}
+	a4\staccato b8 a8 cis8 a8 r8 a8 |
+    }
+% to Coda
+% page 131
+    \barNumberCheck #112
+    \relative {
+	r8 b'8 a8 b8 d16 cis16 b8 a8 b8 |
+    }
+% J
+    \barNumberCheck #113
+    \repeat percent 3 {
+	\relative {
+	    a'16 a16 a'16 a'16 a,,16 a16 a16 a16 a16 a16 a'16 a'16 a,,16 a16 a16 a16 |
+	}
+    }
+% page 131.1+1
+    \relative {
+	a'16 a16 a'16 a'16 a,,16 a16 a16 a16 a16 a16 a'16 a'16 c,,,4 |
+    }
+    \repeat percent 4 {
+	\relative {
+	    a'16 a16 a'16 a'16 a,,16 a16 a16 a16 a16 a16 a'16 a'16 a,,16 a16 a16 a16 |
+	}
+    }
+% page 132.1 K
+    \barNumberCheck #121
+    r1 | r1 | r1 | r1 |
+% page 133
+    r1 | r1 | r1 |
+    \relative {
+	r2 r4 e''4 |
+    }
+% page 133.1 L
+    \barNumberCheck #129
+    \repeat percent 4 {
+	\relative {
+	    a'4\staccato b8 a8 cis8 a8 r8 a8 |
+	    r8 b8 a8 b8 d16 cis16 b8 a8 b8 |
+	}
+    }
+% page 134.1 M
+    \barNumberCheck #137
+    \repeat percent 7 {
+	\relative {
+	    a'4\staccato b8 a8 cis8 a8 r8 a8 |
+	    r8 b8 a8 b8 d16 cis16 b8 a8 b8 |
+	}
+    }
+% page 136.1
+    \relative {
+	a'4\staccato b8 a8 cis8 a8 r8 a8 |
+	r1 |
+    }
+    \barNumberCheck #153
+}

@@ -1,0 +1,93 @@
+markupStuff = {
+    \tempo 4 = 165
+\mymark "A" #1
+    \key a \major
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+\mymark "B" #9
+    \bar "||"
+    \key c \major
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+\mymark "C" #17
+    \bar "||"
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+\mymark "D" #25
+    \bar "||"
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+\mymark "E" #33
+    \bar "||"
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+\mymark "F" #41
+    \bar "||"
+    s1 | s1 | s1 |
+    s1 | s1 | s1 |
+    s1 | s1 |
+\mymark "G" #49
+    \bar "||"
+    s1 |
+    s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+\mymark "H" #57
+    \bar "||"
+    \key a \major
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 |
+    s1 |
+\mymark "I" #73
+    \bar "||"
+    \key c \major
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+\mymark "F-2x" #81
+    \bar "||"
+    s1 | s1 | s1 |
+    s1 | s1 | s1 |
+    s1 | s1 |
+\mymark "G-2x" #89
+    \bar "||"
+\barNumberCheck #89
+    s1 |
+    s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+\mymark "H-2x" #97
+    \bar "||"
+    \key a \major
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 |
+\mark \markup { \musicglyph #"scripts.coda"}
+\mybarNumberCheck #112
+    \bar "||"
+    s1 |
+\mymark "J" #113
+    \bar "||"
+    \key c \major
+    s1 | s1 |
+    s1 | s1 | s1 |
+    s1 | s1 | s1 |
+\mymark "K" #121
+    \bar "||"
+    \key a \major
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+\mymark "L" #129
+    \bar "||"
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 | s1 |
+\mymark "M" #137
+    \bar "||"
+    s1 | s1 | s1 | s1 |
+    s1 | s1 | s1 |
+    s1 | s1 | s1 |
+    s1 | s1 | s1 |
+    s1 | s1 | s1 |
+    \bar "|."
+\mybarNumberCheck #153
+}
