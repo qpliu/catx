@@ -10,16 +10,15 @@ WorstAge=2147483648
 WorstAge=2147483648
 Playing out_no_karaoke.midi
 MIDI file: out_no_karaoke.midi
-Format: 1  Tracks: 5  Divisions: 384
+Format: 1  Tracks: 4  Divisions: 384
 Sequence: sequence
 Track name: midiGg
 Track name: midiPeter
 Track name: midiSusan
-Track name: midiMuted
 Playing time: ~285 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 22856360/50053580 bytes(45.6638% compressed)
+Wrote 22210226/50053580 bytes(44.3729% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 1.0 staff-spaces
 warning: page 0 has been compressed

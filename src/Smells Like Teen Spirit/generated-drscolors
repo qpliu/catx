@@ -11,7 +11,7 @@ drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     } \alternative { {
         << { cymcb4 <hho sn>8. sn16 hho sn8. <hho sn>4 | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>
     } {
-        << { cymcb4 <hho sn> hho8 sn16 sn sn sn sn sn | } \context DrumVoice = "drsb" { bd4. bd8 bd2 | } >>
+        << { cymcb4 <hho sn> hho8 sn16 sn sn sn sn sn | } \context DrumVoice = "drsb" { bd8 bd4 bd8 bd2 | } >>
     } }
 \mymark "Verse 1" #8
     << { cymcb8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd4. bd8 bd4. | } >>
@@ -34,7 +34,7 @@ drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { cymcb8 hho <hho sn> hho hho hho <hho sn> hho | } \context DrumVoice = "drsb" { bd8 bd4 bd8 bd bd4 bd8 | } >>
     << { hho8 hho <hho sn> hho hho hho <hho sn> hho | } \context DrumVoice = "drsb" { bd8 bd4 bd8 bd bd4 bd8 | } >>
     << { cymcb8 hho <hho sn> hho hho hho <hho sn> hho | } \context DrumVoice = "drsb" { bd8 bd4 bd8 bd bd4 bd8 | } >>
-    << { sn16 sn sn sn sn sn sn sn sn sn sn sn sn4 | } \context DrumVoice = "drsb" { r2. r8 bd | } >>
+    << { sn16 sn sn sn sn sn sn sn sn sn sn8 <sn sn>4 | } \context DrumVoice = "drsb" { r2. r8 bd | } >>
 \mymark "Chorus" #28
     << { cymcb4 <hho sn>8. sn16 hho sn8. <hho sn>4 | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>
     << { cymcb4 <hho sn>8. sn16 hho sn8. <hho sn>4 | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>
@@ -52,7 +52,7 @@ drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { cymcb4 <hho sn>8 tomml16 tomml cymcb4 hh | } \context DrumVoice = "drsb" { bd8 bd4. bd8 bd4. | } >>
     << { cymcb4 <hho sn> <sn sn>8 hho <tomml tomml> hho | } \context DrumVoice = "drsb" { bd8 bd2. r8 | } >>
     << { cymcb4 <hho sn>8 tomml16 tomml cymcb4 hh | } \context DrumVoice = "drsb" { bd8 bd4. bd8 bd4. | } >>
-    << { cymcb4 <hho sn> hho8 sn16 sn sn sn sn sn | } \context DrumVoice = "drsb" { bd4. bd8 bd2 | } >>
+    << { cymcb4 <hho sn> hho8 sn16 sn sn sn sn sn | } \context DrumVoice = "drsb" { bd8 bd4 bd8 bd2 | } >>
 \mymark "Verse 2" #44
     << { cymcb8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd4. bd8 bd4. | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hho | } \context DrumVoice = "drsb" { bd8 bd4. bd8 bd4. | } >>
@@ -74,7 +74,7 @@ drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { cymcb8 hho <hho sn> hho hho hho <hho sn> hho | } \context DrumVoice = "drsb" { bd8 bd4 bd8 bd bd4 bd8 | } >>
     << { hho8 hho <hho sn> hho hho hho <hho sn> hho | } \context DrumVoice = "drsb" { bd8 bd4 bd8 bd bd4 bd8 | } >>
     << { cymcb8 hho <hho sn> hho hho hho <hho sn> hho | } \context DrumVoice = "drsb" { bd8 bd4 bd8 bd bd4 bd8 | } >>
-    << { sn16 sn sn sn sn sn sn sn sn sn sn sn sn4 | } \context DrumVoice = "drsb" { r2. r8 bd | } >>
+    << { sn16 sn sn sn sn sn sn sn sn sn sn8 <sn sn>4 | } \context DrumVoice = "drsb" { r2. r8 bd | } >>
 \mymark "Chorus" #64
     << { cymcb4 <hho sn>8. sn16 hho sn8. <hho sn>4 | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>
     << { cymcb4 <hho sn>8. sn16 hho sn8. <hho sn>4 | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>
@@ -131,7 +131,7 @@ drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { cymcb8 hho <hho sn> hho hho hho <hho sn> hho | } \context DrumVoice = "drsb" { bd8 bd4 bd8 bd bd4 bd8 | } >>
     << { hho8 hho <hho sn> hho hho hho <hho sn> hho | } \context DrumVoice = "drsb" { bd8 bd4 bd8 bd bd4 bd8 | } >>
     << { cymcb8 hho <hho sn> hho hho hho <hho sn> hho | } \context DrumVoice = "drsb" { bd8 bd4 bd8 bd bd4 bd8 | } >>
-    << { sn16 sn sn sn sn sn sn sn sn sn sn sn sn4 | } \context DrumVoice = "drsb" { r2. r8 bd | } >>
+    << { sn16 sn sn sn sn sn sn sn sn sn sn8 <sn sn>4 | } \context DrumVoice = "drsb" { r2. r8 bd | } >>
 \mymark "Chorus" #116
     << { cymcb4 <hho sn>8. sn16 hho sn8. <hho sn>4 | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>
     << { cymcb4 <hho sn>8. sn16 hho sn8. <hho sn>4 | } \context DrumVoice = "drsb" { bd2 bd4. bd8 | } >>

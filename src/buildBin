@@ -13,10 +13,8 @@ then
     echo "$name"
     mkdir -p ../../bin/"$name"
     (
-	../build $PARTS &
-	baby="$!"
-	wait "$baby"
-	BINDIR="../../build/bin/$baby/bin"
+	../build $PARTS
+	BINDIR="../../build/bin/$name/bin"
 	for a in "$BINDIR"/*
 	do
 	    b=`basename "$a"`

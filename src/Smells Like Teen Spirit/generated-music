@@ -21,6 +21,7 @@
 \include "generated-guitarC"
 \include "generated-bass_donetext"
 \include "generated-bass"
+\include "generated-hardDrums"
 \include "generated-drs"
 
 layoutmusic = <<
@@ -101,6 +102,12 @@ layoutmusic = <<
     \tag #'(allPart bassPart) \new TabStaff \with {
         stringTunings = \stringTuning <e,, a,, d, g,>
     } \bass
+    \tag #'(hardDrumsPart) \new DrumStaff \with {
+        drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+        \markupStuff
+        \hardDrums
+    >>
     \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
         instrumentName = \markup { \rotate #90 "Drums" }
         shortInstrumentName = \markup { \rotate #90 "Drs" }
@@ -145,6 +152,9 @@ midimusic = <<
     \tag #'(midiBass) \new Staff = "generated-bass" \with {
         midiInstrument = #"electric bass (pick)"
     } \bass
+    \tag #'(midiMuted) \new DrumStaff = "generated-hardDrums" \with {
+        drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \hardDrums
     \tag #'(midiGg) \new DrumStaff = "generated-drs" \with {
         drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drs

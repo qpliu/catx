@@ -81,7 +81,7 @@ do
 EOF
 		lilypond -l WARN -o out in.ly
 		case "$midi" in
-		    midiKaraoke*|midiVocaloid*)
+		    midiKaraoke*|midiVocaloid*|midiMuted)
 			merge_karaoke="$merge_karaoke $midi ../src-$midi/out.midi"
 			;;
 		    *)

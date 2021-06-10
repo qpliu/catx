@@ -44,6 +44,11 @@ track 5 \
     preset bass \
     output-lilypond \
     output-dotext \
+track 6 \
+    name hardDrums \
+    layout-who hardDrumsPart \
+    midi-who midiMuted \
+    output-drums \
 track 7 \
     preset gg \
     output-drums \

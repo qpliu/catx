@@ -4,6 +4,7 @@
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
 WorstAge=2147483648
 Playing out_no_karaoke.midi
@@ -17,7 +18,7 @@ Track name: midiBass
 Playing time: ~305 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 32454139/53500260 bytes(60.6616% compressed)
+Wrote 32450641/53500260 bytes(60.6551% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 9.4 staff-spaces
@@ -28,9 +29,15 @@ warning: compressing over-full page by 1.0 staff-spaces
 warning: page 0 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+warning: compressing over-full page by 2.7 staff-spaces
+warning: page 0 has been compressed
+warning: compressing over-full page by 7.5 staff-spaces
+warning: page 1 has been compressed
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
     138 measure=all
     138 measure=kav
     138 measure=gg
     138 measure=peter
     138 measure=susan
     138 measure=bass
+    138 measure=hardDrums
