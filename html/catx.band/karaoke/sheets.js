@@ -12,6 +12,8 @@ class Sheets{
 	this.songLength = songLength;
 	this.measureEvents = [];
 	this.measureMap = {};
+	this.previousMeasure = undefined;
+	this.measureRepeatMap = [];
 	for (const [k,v] of Object.entries(JSON.parse(measureMap))){
 	    const a=[];
 	    for (const x of v.split(',')){
@@ -105,6 +107,11 @@ class Sheets{
 	if (mc){
 	    const iim=this.map_measure_number(imn-1);
 	    const m=Math.max(Math.min(iim,mc.length-1),0);
+	    if (m!=this.previousMeasure){
+		this.previousMeasure = m;
+		this.measureRepeatMap[m] = this.measureRepeatMap[m]==undefined?1:this.measureRepeatMap[m]+1;
+	    }
+	    const repeat=this.measureRepeatMap[m];
 	    const measure=mc[m];
 	    if (measure){
 		let lp=this.page_l;
@@ -147,12 +154,20 @@ class Sheets{
 		for (const page of this.pages){
 		    for (const cat of page.my_cats)
 			cat.style.visibility = "hidden";
+		    page.repeatNumber.style.visibility = "hidden";
 		    if (page.my_page+1==measure[0]){
 			const cat=page.my_cats[((measureNumber*7*ee.n|0)%7+7)%7];
 			cat.style.visibility = "visible";
 			cat.style.opacity = settings.catOpacity;
 			cat.style.top = .5*((measure[3]+measure[5])*page.getBoundingClientRect().height-cat.getBoundingClientRect().height)+"px";
 			cat.style.right = 100*(1-measure[2]-measureNumber*(measure[4]-measure[2]))+"%";
+			if (repeat>1){
+			    page.repeatNumber.style.visibility = "visible";
+			    page.repeatNumber.style.opacity = settings.catOpacity;
+			    page.repeatNumber.innerHTML = repeat;
+			    page.repeatNumber.style.top = cat.style.top;
+			    page.repeatNumber.style.right = 100*(1-measure[2]-measureNumber*(measure[4]-measure[2])-.03)+"%";
+			}
 		    }
 		}
 	    }
@@ -183,6 +198,9 @@ class Sheets{
 		    background.my_page = page;
 		    background.appendChild(loading);
 		    background.my_cats = [];
+		    background.repeatNumber = document.createElement("div");
+		    background.repeatNumber.style = "position:absolute;font-size:2vw;display:block;visibility:hidden;";
+		    background.appendChild(background.repeatNumber);
 		    for (let cat=0; cat<7; cat++){
 			const img=document.createElement("img");
 			img.src = "../cat/run-"+cat+".png?version=AARIN_ROBO_VERSION";
