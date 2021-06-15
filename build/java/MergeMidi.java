@@ -232,6 +232,15 @@ final class MergeMidi{
 	    this.what = what;
 	    this.data = data.clone();
 	}
+	@Override public boolean equals(Object o){
+	    return toString().equals(o.toString());
+	}
+	@Override public int hashCode(){
+	    return toString().hashCode();
+	}
+	@Override public String toString(){
+	    return time+","+what+','+Arrays.toString(data);
+	}
     }
     private class LyricEvent extends MetaEvent{
 	LyricEvent(long time,String id,int outTrackIndex,int what,byte[]data){
@@ -239,16 +248,16 @@ final class MergeMidi{
 	}
     }
     private class TempoEvent extends MetaEvent{
-	TempoEvent(long time,int outTrackIndex,String id,int what,byte[]data){
-	    super(IS_SEQUENCE_NO,time,id,outTrackIndex,what,data);
+	TempoEvent(long time,String id,int what,byte[]data){
+	    super(IS_SEQUENCE_NO,time,id,-1,what,data);
 	}
 	int getMicrosecondsPerQuarterNote(){
 	    return (data[0]&255)<<16|(data[1]&255)<<8|data[2]&255;
 	}
     }
     private class TimeSignatureEvent extends MetaEvent{
-	TimeSignatureEvent(long time,int outTrackIndex,String id,int what,byte[]data){
-	    super(IS_SEQUENCE_YES,time,id,outTrackIndex,what,data);
+	TimeSignatureEvent(long time,String id,int what,byte[]data){
+	    super(IS_SEQUENCE_YES,time,id,-1,what,data);
 	}
 	int getNumerator(){
 	    return data[0]&255;
@@ -258,8 +267,8 @@ final class MergeMidi{
 	}
     }
     private class KeySignatureEvent extends MetaEvent{
-	KeySignatureEvent(long time,int outTrackIndex,String id,int what,byte[]data){
-	    super(IS_SEQUENCE_YES,time,id,outTrackIndex,what,data);
+	KeySignatureEvent(long time,String id,int what,byte[]data){
+	    super(IS_SEQUENCE_YES,time,id,-1,what,data);
 	}
     }
     private class ProgramChangeEvent extends Event{
@@ -380,13 +389,13 @@ final class MergeMidi{
 	    }else if (what==0x2f)
 		return true;
 	    else if (what==0x51)
-		metaEvents.add(new TempoEvent(time,outTrackIndex,id,what,data));
+		metaEvents.add(new TempoEvent(time,id,what,data));
 	    else if (what==0x54)
 		System.err.println("SMTPE Offset");
 	    else if (what==0x58)
-		metaEvents.add(new TimeSignatureEvent(time,outTrackIndex,id,what,data));
+		metaEvents.add(new TimeSignatureEvent(time,id,what,data));
 	    else if (what==0x59)
-		metaEvents.add(new KeySignatureEvent(time,outTrackIndex,id,what,data));
+		metaEvents.add(new KeySignatureEvent(time,id,what,data));
 	    else if (what==0x7f)
 		System.err.println("Sequencer-Specific Meta-event");
 	    return false;
@@ -674,14 +683,16 @@ final class MergeMidi{
 		}
 	}
 	void makeMetaEvents(long[]maxTime)throws IOException{
-	    for (MetaEvent me:metaEvents){
-		ByteArrayOutputStream baos=new ByteArrayOutputStream();
-		baos.write(me.what);
-		writeVlen(baos,me.data.length);
-		baos.write(me.data);
-		outputEvents.add(new OutputEvent(me.is_sequence,me.time,-100,me.outTrackIndex,0xff,baos.toByteArray()));
-		maxTime[0] = Math.max(maxTime[0],me.time);
-	    }
+	    Set<MetaEvent>done=new HashSet<MetaEvent>();
+	    for (MetaEvent me:metaEvents)
+		if (done.add(me)){
+		    ByteArrayOutputStream baos=new ByteArrayOutputStream();
+		    baos.write(me.what);
+		    writeVlen(baos,me.data.length);
+		    baos.write(me.data);
+		    outputEvents.add(new OutputEvent(me.is_sequence,me.time,-100,me.outTrackIndex,0xff,baos.toByteArray()));
+		    maxTime[0] = Math.max(maxTime[0],me.time);
+		}
 	}
 	void makeEvents(long[]maxTime)throws IOException{
 	    Collections.sort(events);
