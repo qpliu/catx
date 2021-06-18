@@ -4,7 +4,7 @@ import java.util.*;
 final class DotextFileMaker extends ChoppedTrackFileMaker{
     static final String FILENAME_SUFFIX="_dotext";
     DotextFileMaker(Main main,Arg arg)throws IOException{
-	super(main,arg,arg.name+FILENAME_SUFFIX,"",arg.name+"Dotext",MeasureMaker.SKIP);
+	super(main,arg,arg.name+FILENAME_SUFFIX,"",arg.name+"Dotext");
     }
     @Override boolean filterEvents(Gpfile.Event event){
 	return event instanceof Gpfile.DotextEvent;
@@ -19,6 +19,9 @@ final class DotextFileMaker extends ChoppedTrackFileMaker{
 	fm.print("\\include "+Stuff.quote(done));
     }
     @Override void layout(MusicFileMaker mfm)throws IOException{}
+    @Override MeasureMaker.GetWhatSuffix getRestGetWhatSuffix(){
+	return MeasureMaker.SKIP;
+    }
     @Override MeasureMaker.GetWhatSuffix getGetWhatSuffix(List<Gpfile.Event>list){
 	boolean allTied=true;
 	for (Gpfile.Event e:list)

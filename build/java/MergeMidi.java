@@ -239,7 +239,7 @@ final class MergeMidi{
 	    return toString().hashCode();
 	}
 	@Override public String toString(){
-	    return time+","+what+','+Arrays.toString(data);
+	    return time+","+outTrackIndex+','+what+','+Arrays.toString(data);
 	}
     }
     private class LyricEvent extends MetaEvent{
@@ -378,7 +378,8 @@ final class MergeMidi{
 		    }else
 			sb.append(sb.length()==0?"":"|").append(l);
 		}
-		metaEvents.add(new LyricEvent(t,id,outTrackIndex,what,sb.toString().getBytes()));
+		if (sb.length()!=0)
+		    metaEvents.add(new LyricEvent(t,id,outTrackIndex,what,sb.toString().getBytes()));
 		fudgeLyricsCount++;
 	    }else if (what==6){
 		System.err.println("marker="+new String(data));

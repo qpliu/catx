@@ -1,9 +1,9 @@
 import java.io.*;
 import java.util.*;
 
-class SuperTrackFileMaker extends ChoppedTrackFileMaker{
-    SuperTrackFileMaker(Main main,String suffix,Arg arg,MeasureMaker.GetWhatSuffix skip)throws IOException{
-	super(main,arg,arg.name,suffix,arg.name,skip);
+abstract class SuperTrackFileMaker extends ChoppedTrackFileMaker{
+    SuperTrackFileMaker(Main main,String suffix,Arg arg)throws IOException{
+	super(main,arg,arg.name,suffix,arg.name);
     }
     @Override boolean filterEvents(Gpfile.Event event){
 	return event instanceof Gpfile.NoteEvent && !(arg.no_ghost_notes && ((Gpfile.NoteEvent)event).is_ghost);
@@ -57,5 +57,8 @@ class SuperTrackFileMaker extends ChoppedTrackFileMaker{
 		mfm.print("midiInstrument = #"+Stuff.quote(instrument));
 	}
 	mfm.unindent("} \\"+lyname);
+    }
+    @Override MeasureMaker.GetWhatSuffix getRestGetWhatSuffix(){
+	return MeasureMaker.REST;
     }
 }

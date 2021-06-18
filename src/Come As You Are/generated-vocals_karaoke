@@ -11,58 +11,58 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "@|!check=8|!bg=4"2 "@|!bg=3"
     "@|!check=9|!bg=2"2 "@|!bg=1"
 \mymark "Verse" #10
-    "Come|!mark=Verse|!check=10|!bg="4 \skip4 "as"4 "you"8 "are"
-    "!check=11"8 \skip4. "as"4 "you"8 "were"
-    "!check=12"4 \skip4 "As"8 "I"4 "want"8
+    "Come|!mark=Verse|!check=10|!bg="4 "-" "as" "you"8 "are"
+    "!check=11"8 "-"4. "as"4 "you"8 "were"
+    "!check=12"4 "-" "As"8 "I"4 "want"8
     "!check=13"4. "you" "to"8 "be"
-    "!check=14"8 \skip4. ">As"4 "a"8 "friend"
-    "!check=15"8 \skip4. "as"4 "a"8 "friend"
-    "!check=16"8 \skip4. "As"8 "a"4 "known"8
+    "!check=14"8 "-"4. ">As"4 "a"8 "friend"
+    "!check=15"8 "-"4. "as"4 "a"8 "friend"
+    "!check=16"8 "-"4. "As"8 "a"4 "known"8
     "!check=17"4. "e"8 "-ne"4 "-my"
-    "!check=18"8 \skip4. ">Take"4 "your"8 "time"
-    "!check=19"8 \skip4. "hur"4 "-ry"8 "up"
-    "!check=20"8 \skip4 "The"8 "choice" "is"4 "yours"8
+    "!check=18"8 "-"4. ">Take"4 "your"8 "time"
+    "!check=19"8 "-"4. "hur"4 "-ry"8 "up"
+    "!check=20"8 "-"4 "The"8 "choice" "is"4 "yours"8
     "!check=21"4. "don't" "be"8 "late"
-    "!check=22"8 \skip4. ">Take"4 "a"8 "rest"
-    "!check=23"8 \skip4. "as"4 "a"8 "friend"
-    "!check=24"8 \skip4. "As"8 "an"4 "old"8
+    "!check=22"8 "-"4. ">Take"4 "a"8 "rest"
+    "!check=23"8 "-"4. "as"4 "a"8 "friend"
+    "!check=24"8 "-"4. "As"8 "an"4 "old"8
     "!check=25"4. "Me"8 "-mo"4 "-ri"
 \mymark "Pre-Chorus" #26
-    "!mark=Pre-Chorus|!check=26|-"2 \skip8 "-a"4.
-    "!check=27"4 \skip4 ">Me"4 "-mo"8 "-ri"
+    "!mark=Pre-Chorus|!check=26"2 \skip8 "-a"4.
+    "!check=27"4 "-" ">Me" "-mo"8 "-ri"
     "!check=28"2. "-a"4
-    "!check=29"4 \skip4 "Me"4 "-mo"8 "-ri"
+    "!check=29"4 "-" "Me" "-mo"8 "-ri"
     "!check=30"2. "-a"4
-    "!check=31"4 \skip4 "Me"4 "-mo"8 "-ri"
+    "!check=31"4 "-" "Me" "-mo"8 "-ri"
     "!check=32"2. "-a"4
-    "!check=33"4 \skip2.
+    "!check=33"4 "-"2.
 \mymark "Verse" #34
-    ">Come|!mark=Verse|!check=34"4 \skip4 "doused"4 "in"8 "mud"
-    "!check=35"8 \skip4. "soaked"4 "in"8 "bleach"
-    "!check=36"4 \skip4 "As"8 "I"4 "want"8
+    ">Come|!mark=Verse|!check=34"4 "-" "doused" "in"8 "mud"
+    "!check=35"8 "-"4. "soaked"4 "in"8 "bleach"
+    "!check=36"4 "-" "As"8 "I"4 "want"8
     "!check=37"4. "you" "to"8 "be"
-    "!check=38"8 \skip4. ">As"4 "a"8 "trend"
-    "!check=39"8 \skip4. "as"4 "a"8 "friend"
-    "!check=40"8 \skip4. "As"8 "an"4 "old"8
+    "!check=38"8 "-"4. ">As"4 "a"8 "trend"
+    "!check=39"8 "-"4. "as"4 "a"8 "friend"
+    "!check=40"8 "-"4. "As"8 "an"4 "old"8
     "!check=41"4. "Me"8 "-mo"4 "-ri"
 \mymark "Pre-Chorus" #42
-    "!mark=Pre-Chorus|!check=42|-"2 \skip8 "-a"4.
-    "!check=43"4 \skip4 ">Me"4 "-mo"8 "-ri"
+    "!mark=Pre-Chorus|!check=42"2 \skip8 "-a"4.
+    "!check=43"4 "-" ">Me" "-mo"8 "-ri"
     "!check=44"2. "-a"4
-    "!check=45"4 \skip4 "Me"4 "-mo"8 "-ri"
+    "!check=45"4 "-" "Me" "-mo"8 "-ri"
     "!check=46"2. "-a"4
-    "!check=47"4 \skip4 "Me"4 "-mo"8 "-ri"
+    "!check=47"4 "-" "Me" "-mo"8 "-ri"
     "!check=48"2. "-a"4
-    "!check=49"4 \skip2.
+    "!check=49"4 "-"2.
 \mymark "Chorus" #50
     "!mark=Chorus|!check=50|-"2 ">And"8 "I"4.
     "swear|!check=51"4. "that"4 "I"4.
     "don't|!check=52"4. "have"8 "a" "gun"4.
-    "!check=53"2 ">No"8 "I"4 "don't"8
+    "!check=53|-"2 ">No"8 "I"4 "don't"8
     "!check=54"4. "have"8 "a" "gun"4.
-    "!check=55"2 ">No"8 "I"4 "don't"8
+    "!check=55|-"2 ">No"8 "I"4 "don't"8
     "!check=56"4. "have"8 "a" "gun"4.
-    "!check=57"2 ">@"
+    "!check=57|-"2 ">@"
 \mymark "Interlude" #58
     "@|!mark=Interlude|!check=58"2 "@"
     "@|!check=59"2 "@"
@@ -87,35 +87,35 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "@|!check=77|!bg=2"2 "@|!bg=1"
 \mymark "Pre-Chorus" #78
     "Me|!mark=Pre-Chorus|!check=78|!bg="2 \skip8 "-mo"8 "-ri" "-a"
-    "!check=79"4 \skip4 "Me"4 "-mo"8 "-ri"
+    "!check=79"4 "-" "Me" "-mo"8 "-ri"
     "!check=80"2. "-a"4
-    "!check=81"4 \skip4 "Me"4 "-mo"8 "-ri"
+    "!check=81"4 "-" "Me" "-mo"8 "-ri"
     "!check=82"2. "-a"4
-    "!check=83"4 \skip4 "Me"4 "-mo"8 "-ri"
+    "!check=83"4 "-" "Me" "-mo"8 "-ri"
     "!check=84"2. "-a"4
-    "!check=85"2. \skip4
+    "!check=85"2. "-"4
 \mymark "Chorus" #86
     "!mark=Chorus|!check=86|-"2 ">And"8 "I"4.
     "swear|!check=87"4. "that"4 "I"4.
     "don't|!check=88"4. "have"8 "a" "gun"4.
-    "!check=89"2 ">No"8 "I"4 "don't"8
+    "!check=89|-"2 ">No"8 "I"4 "don't"8
     "!check=90"4. "have"8 "a" "gun"4.
-    "!check=91"2 ">No"8 "I"4 "don't"8
+    "!check=91|-"2 ">No"8 "I"4 "don't"8
     "!check=92"4. "have"8 "a" "gun"4.
-    "!check=93"2 ">No"8 "I"4 "don't"8
+    "!check=93|-"2 ">No"8 "I"4 "don't"8
     "!check=94"4. "have"8 "a" "gun"4.
-    "!check=95"2 ">No"8 "I"4 "don't"8
+    "!check=95|-"2 ">No"8 "I"4 "don't"8
     "!check=96"4. "have"8 "a" "gun"4.
-    "!check=97"2 ">@"
+    "!check=97|-"2 ">@"
 \mymark "Outro" #98
     "@|!mark=Outro|!check=98"2 "@"
     "@|!check=99"2 "Me"4 "-mo"8 "-ri"
     "!check=100"2. "-a"4
-    "!check=101"2. \skip4
-    "!check=102"1
-    "!check=103"2 ">Me"4 "-mo"8 "-ri"
+    "!check=101"2. "-"4
+    "!check=102|-"1
+    "!check=103|-"2 ">Me"4 "-mo"8 "-ri"
     "!check=104"2. "-a"4
-    "!check=105"2. \skip4
-    "!check=106"2. "@@"32 \skip8. \skip32
-    "!check=107"1
+    "!check=105"2. "-"4
+    "!check=106|-"2. "@@"32 "-"8. \skip32
+    "!check=107|-"1
 }

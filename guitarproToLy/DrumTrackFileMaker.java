@@ -84,7 +84,7 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
     }
     private final Map<Integer,Drum>drumMap=new HashMap<Integer,Drum>();
     DrumTrackFileMaker(Main main,Arg arg)throws IOException{
-	super(main,"colors",arg,MeasureMaker.REST);
+	super(main,"colors",arg);
 	putDrumMap(DEFAULT_DRUM_MAP);
 	if (arg.drumMap!=null)
 	    putDrumMap(arg.drumMap);
@@ -167,5 +167,8 @@ final class DrumTrackFileMaker extends SuperTrackFileMaker{
 	sb.append(" } \\context DrumVoice = \"drsb\" { ");
 	sb.append(makeVoice(measure,list.get(1)));
 	return sb.append(" } >>").toString();
+    }
+    @Override MeasureMaker.GetWhatSuffix getGetWhatSuffix(List<Gpfile.Event>list){
+	throw new RuntimeException();
     }
 }

@@ -1,8 +1,8 @@
 import java.io.*;
 
 class VKFileMaker extends LyricsKaraokeFileMaker{
-    VKFileMaker(Main main,Arg arg,String suffix1,String suffix2,MeasureMaker.GetWhatSuffix gws)throws IOException{
-	super(main,arg,suffix1,suffix2,gws);
+    VKFileMaker(Main main,Arg arg,String suffix1,String suffix2)throws IOException{
+	super(main,arg,suffix1,suffix2);
 	addRehearsalMarks();
     }
     @Override void layout(MusicFileMaker mfm)throws IOException{

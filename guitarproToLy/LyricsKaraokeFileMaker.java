@@ -3,8 +3,8 @@ import java.util.*;
 
 class LyricsKaraokeFileMaker extends ChoppedTrackFileMaker{
     final Set<String>which_lyrics=new HashSet<String>();
-    LyricsKaraokeFileMaker(Main main,Arg arg,String suffix1,String suffix2,MeasureMaker.GetWhatSuffix gws)throws IOException{
-	super(main,arg,arg.name+suffix1,"",arg.name+suffix2,gws);
+    LyricsKaraokeFileMaker(Main main,Arg arg,String suffix1,String suffix2)throws IOException{
+	super(main,arg,arg.name+suffix1,"",arg.name+suffix2);
 	for (StringTokenizer st=new StringTokenizer(arg.which_lyrics,","); st.hasMoreTokens(); which_lyrics.add(st.nextToken()));
     }
     @Override boolean filterEvents(Gpfile.Event event){
@@ -20,16 +20,14 @@ class LyricsKaraokeFileMaker extends ChoppedTrackFileMaker{
     @Override MeasureMaker.GetWhatSuffix getGetWhatSuffix(List<Gpfile.Event>list){
 	String lyric=null;
 	String suffix="";
-	int addMinus=0;
-	for (Gpfile.Event e:list)
-	    if (!e.tie_rhs){
-		Gpfile.LyricEvent le=(Gpfile.LyricEvent)e;
-		String l=le.lyric;
+	boolean got_lyric=false;
+	for (Gpfile.Event e:list){
+	    Gpfile.LyricEvent le=(Gpfile.LyricEvent)e;
+	    String l=le.lyric;
+	    if (!l.startsWith("!"))
+		got_lyric = true;
+	    if (!le.tie_rhs){
 		if (this instanceof KaraokeFileMaker){
-		    if (l.startsWith("!mark="))
-			addMinus++;
-		    else if (!l.startsWith("!"))
-			--addMinus;
 		    if (le.hyphen_rhs)
 			l = "-"+l;
 		}else if (this instanceof LyricsFileMaker){
@@ -38,9 +36,15 @@ class LyricsKaraokeFileMaker extends ChoppedTrackFileMaker{
 		}
 		lyric = lyric==null?l:lyric+'|'+l;
 	    }
-	if (addMinus>0)
-	    lyric += "|-";
-	String lyri=lyric==null?"\\skip":Stuff.quote(lyric);
+	}
+	if (lyric==null)
+	    return got_lyric?MeasureMaker.SKIP:getRestGetWhatSuffix();
+	if (!got_lyric){
+	    String s=getRest();
+	    if (s.length()!=0)
+		lyric += '|'+s;
+	}
+	String lyri=Stuff.quote(lyric);
 	String suffi=suffix;
 	return new MeasureMaker.GetWhatSuffix(){
 	    @Override public String getWhat(boolean is_lhs,boolean is_rhs){
@@ -53,5 +57,18 @@ class LyricsKaraokeFileMaker extends ChoppedTrackFileMaker{
     }
     @Override String getStuff(){
 	return super.getStuff()+"\\new Lyrics \\lyricmode ";
+    }
+    String getRest(){
+	return "";
+    }
+    @Override final MeasureMaker.GetWhatSuffix getRestGetWhatSuffix(){
+	return new MeasureMaker.GetWhatSuffix(){
+	    @Override public String getWhat(boolean is_lhs,boolean is_rhs){
+		String s=getRest();
+		if (s.length()==0 || !is_lhs)
+		    return "\\skip";
+		return Stuff.quote(s);
+	    }
+	};
     }
 }

@@ -6,188 +6,188 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "!check=3"8 "@"2 "@|!bg=4"4.
     "!check=4"8 "@|!bg=3"2 "@|!bg=2"4.
 \mymark "1st Verse" #5
-    "!mark=1st Verse|!check=5|-"8 "@|!bg=1"2 "Just|!bg="8 "a" "cast"
-    "!check=6"4 "-a"8 "-way,"4. \skip8 "an"8
+    "!mark=1st Verse|!check=5"8 "@|!bg=1"2 "Just|!bg="8 "a" "cast"
+    "!check=6"4 "-a"8 "-way,"4. "-"8 "an"
     "is|!check=7"8 "-land"4 "lost" "at" "sea,"8
-    "!check=8"4. "oh" \skip4
-    "!check=9"4. ">An"8 "-oth" "-er"4 "lone"8
-    "!check=10"4 "-ly"8 "day,"4. \skip4
+    "!check=8"4. "oh" "-"4
+    "!check=9|-"4. ">An"8 "-oth" "-er"4 "lone"8
+    "!check=10"4 "-ly"8 "day,"4. "-"4
     "no|!check=11"8 "one"4 "here" "but" "me,"8
-    "!check=12"4. "oh" \skip4
-    "!check=13"2 ">More"
-    "lone|!check=14"4 "-li"8 "-ness"4. \skip8 "than"8
+    "!check=12"4. "oh" "-"4
+    "!check=13|-"2 ">More"
+    "lone|!check=14"4 "-li"8 "-ness"4. "-"8 "than"
     "an|!check=15"8 "-y"4 "man" "could" "bear"8
-    "!check=16"4. ">Res" \skip4
-    "!check=17"4. "-cue"4 "me" "be"8
+    "!check=16"4. ">Res" "-"4
+    "!check=17|-"4. "-cue"4 "me" "be"8
     "!check=18"8 "-fore"4 "I" "fall" "in"8
     "!check=19"8 "-to"4 "des" "-pair," "oh"8
-    "!check=20"4. "I'll" \skip4
+    "!check=20"4. "I'll" "-"4
 \mymark "Bridge" #21
     "!mark=Bridge|!check=21|-"8 "send"4 "an" "S." "O."8
-    "!check=22"8 \skip8 ">S."8 "to"4 "the"8 "world" "I'll"
+    "!check=22"8 "-" ">S." "to"4 "the"8 "world" "I'll"
     "!check=23"8 "send"4 "an" "S." "O."8
-    "!check=24"8 \skip8 ">S."8 "to"4 "the"8 "world" "I"
+    "!check=24"8 "-" ">S." "to"4 "the"8 "world" "I"
     "!check=25"8 "hope"4 "that" "some" "-one"8
-    "!check=26"8 "gets"4 "my" "I"8 \skip4
-    "!check=27"8 ">hope"4 "that" "some" "-one"8
-    "!check=28"8 "gets"4 "my" "I"8 \skip4
-    "!check=29"8 ">hope"4 "that" "some" "-one"8
+    "!check=26"8 "gets"4 "my" "I"8 "-"4
+    "!check=27|-"8 ">hope"4 "that" "some" "-one"8
+    "!check=28"8 "gets"4 "my" "I"8 "-"4
+    "!check=29|-"8 ">hope"4 "that" "some" "-one"8
     "!check=30"8 "gets"4 "my" "Mes"4.
 \mymark "Chorus" #31
     "-sage|!mark=Chorus|!check=31"8 "in"4 "a" "bot" "-tle,"8
     "!check=32"4. "yeah|!bg=img=../yeah.png"4 "!bg="8 ">Mes" \skip8
-    "!check=33"1
-    "!check=34"1
+    "!check=33|-"1
+    "!check=34|-"1
     "-sage|!check=35"8 "in"4 "a" "bot" "-tle,"8
     "!check=36"4. "yeah|!bg=img=../yeah.png"4 "!bg="8 "A" \skip8
-    "!check=37"2. ">@"4
+    "!check=37|-"2. ">@"4
     "!check=38"4 "@"2 "@"4
 \mymark "2nd Verse" #39
-    "!mark=2nd Verse|!check=39|-"4 "@"2 "year"8 "has"
-    "!check=40"4 "passed"8 "since"4. \skip8 "I"8
-    "wrote|!check=41"8 "my"4 "note" \skip4.
-    "!check=42"1
-    "!check=43"4. ">But"8 "I" "should"4 "have"8
+    "!mark=2nd Verse|!check=39"4 "@"2 "year"8 "has"
+    "!check=40"4 "passed"8 "since"4. "-"8 "I"
+    "wrote|!check=41"8 "my"4 "note" "-"4.
+    "!check=42|-"1
+    "!check=43|-"4. ">But"8 "I" "should"4 "have"8
     "known|!check=44"4 "this"8 "right" "from"4 "the"
-    "start|!check=45"4. \skip2 \skip8
-    "!check=46"1
-    "!check=47"2 ">Only"4 "hope"
-    "can|!check=48"4 "keep"8 "me"4. \skip8 "to"8
-    "-geth|!check=49"8 "-er"4 "Love" \skip4.
-    "!check=50"1
-    "!check=51"4. ">can"4 "mend" "your"8
+    "start|!check=45"4. "-"2 \skip8
+    "!check=46|-"1
+    "!check=47|-"2 ">Only"4 "hope"
+    "can|!check=48"4 "keep"8 "me"4. "-"8 "to"
+    "-geth|!check=49"8 "-er"4 "Love" "-"4.
+    "!check=50|-"1
+    "!check=51|-"4. ">can"4 "mend" "your"8
     "!check=52"8 "life"4 "but" "Love" "can"8
     "!check=53"8 "break"4 "your" "heart" "I'll"8
-    "!check=54"4. \skip2 \skip8
+    "!check=54"4. "-"2 \skip8
 \mymark "Bridge" #55
     "!mark=Bridge|!check=55|-"8 ">send"4 "an" "S." "O."8
-    "!check=56"8 \skip8 "S."8 "to"4 "the"8 "world" "I'll"
+    "!check=56"8 "-" "S." "to"4 "the"8 "world" "I'll"
     "!check=57"8 "send"4 "an" "S." "O."8
-    "!check=58"8 \skip8 ">S."8 "to"4 "the"8 "world" "I"
+    "!check=58"8 "-" ">S." "to"4 "the"8 "world" "I"
     "!check=59"8 "hope"4 "that" "some" "-one"8
-    "!check=60"8 "gets"4 "my" "I"8 \skip4
-    "!check=61"8 ">hope"4 "that" "some" "-one"8
-    "!check=62"8 "gets"4 "my" "I"8 \skip4
-    "!check=63"8 ">hope"4 "that" "some" "-one"8
+    "!check=60"8 "gets"4 "my" "I"8 "-"4
+    "!check=61|-"8 ">hope"4 "that" "some" "-one"8
+    "!check=62"8 "gets"4 "my" "I"8 "-"4
+    "!check=63|-"8 ">hope"4 "that" "some" "-one"8
     "!check=64"8 "gets"4 "my" "Mes"4.
 \mymark "Chorus" #65
     "-sage|!mark=Chorus|!check=65"8 "in"4 "a" "bot" "-tle,"8
     "!check=66"4. "yeah|!bg=img=../yeah.png"4 "!bg="8 ">Mes" \skip8
-    "!check=67"1
-    "!check=68"1
+    "!check=67|-"1
+    "!check=68|-"1
     "-sage|!check=69"8 "in"4 "a" "bot" "-tle,"8
     "!check=70"4. "yeah|!bg=img=../yeah.png"4 "!bg="8 "Mes" \skip8
-    "!check=71"1
-    "!check=72"1
+    "!check=71|-"1
+    "!check=72|-"1
     "-sage|!check=73"8 "in"4 "a" "bot" "-tle,"8
     "!check=74"4. "yeah|!bg=img=../yeah.png"4 "!bg="8 ">Mes" \skip8
-    "!check=75"1
-    "!check=76"1
+    "!check=75|-"1
+    "!check=76|-"1
     "-sage|!check=77"8 "in"4 "a" "bot" "-tle,"8
     "!check=78"4. "yeah|!bg=img=../yeah.png"4 "!bg="8 "Walked" \skip8
-    "!check=79"2 \skip8 ">@"4.
+    "!check=79|-"2 \skip8 ">@"4.
     "!check=80"8 "@"2 "@"4.
     "!check=81"8 "@"2 "@|!bg=4"4.
     "!check=82"8 "@|!bg=3"2 "@|!bg=2"4.
 \mymark "3rd Verse" #83
-    "!mark=3rd Verse|!check=83|-"8 "@|!bg=1"2 "out|!bg="8 "this" "morn"
-    "!check=84"4 "-ing,"8 "don't"4. \skip8 "be"8
+    "!mark=3rd Verse|!check=83"8 "@|!bg=1"2 "out|!bg="8 "this" "morn"
+    "!check=84"4 "-ing,"8 "don't"4. "-"8 "be"
     "-lieve|!check=85"8 "what"4 "I" "saw" "A"8
-    "!check=86"4. \skip2 \skip8
-    "!check=87"4. ">hun"8 "-dred" "bil"4 "-lion"8
-    "bot|!check=88"4 "-tles"8 "washed"4. \skip4
+    "!check=86"4. "-"2 \skip8
+    "!check=87|-"4. ">hun"8 "-dred" "bil"4 "-lion"8
+    "bot|!check=88"4 "-tles"8 "washed"4. "-"4
     "up|!check=89"8 "on"4 "the" "shore" "Seems"8
-    "!check=90"4. \skip2 \skip8
-    "!check=91"2 ">like"4 ">I'm"8 "not"
-    "alone|!check=92"4 "in"8 "being" "a"4 \skip8 "-lone"8
-    "A|!check=93"8 "hun"4 \skip2 \skip8
-    "!check=94"2. \skip8 "-dred"8
+    "!check=90"4. "-"2 \skip8
+    "!check=91|-"2 ">like"4 ">I'm"8 "not"
+    "alone|!check=92"4 "in"8 "being" "a"4 "-"8 "-lone"
+    "A|!check=93"8 "hun"4 "-"2 \skip8
+    "!check=94|-"2. \skip8 "-dred"8
     "!check=95"8 "bil" "-lion" "cast"4 "-a" "-ways,"8
-    "!check=96"8 \skip4 ">look"4 "-ing" "for"8
+    "!check=96"8 "-"4 ">look" "-ing" "for"8
     "!check=97"8 "a"4 "home" "I'll" "send"8
-    "!check=98"4. \skip2 \skip8
+    "!check=98"4. "-"2 \skip8
 \mymark "Bridge" #99
-    "!mark=Bridge|!check=99|-"8 ">an"4 "S." "O." \skip8
-    "!check=100"8 ">S." "to" "the"4 "world"8 "I'll" "send"
-    "!check=101"8 "an"4 "S." "O." \skip8
-    "!check=102"8 ">S." "to" "the"4 "world"8 "I" "hope"
+    "!mark=Bridge|!check=99|-"8 ">an"4 "S." "O." "-"8
+    "!check=100|-"8 ">S." "to" "the"4 "world"8 "I'll" "send"
+    "!check=101"8 "an"4 "S." "O." "-"8
+    "!check=102|-"8 ">S." "to" "the"4 "world"8 "I" "hope"
     "!check=103"8 "that"4 "some" "-one" "gets"8
-    "!check=104"8 "my"4 "I" "hope"8 \skip4
-    "!check=105"8 ">that"4 "some" "-one" "gets"8
-    "!check=106"8 "my"4 "I" "hope"8 \skip4
-    "!check=107"8 ">that"4 "some" "-one" "gets"8
+    "!check=104"8 "my"4 "I" "hope"8 "-"4
+    "!check=105|-"8 ">that"4 "some" "-one" "gets"8
+    "!check=106"8 "my"4 "I" "hope"8 "-"4
+    "!check=107|-"8 ">that"4 "some" "-one" "gets"8
     "!check=108"8 "my"4 "Mes" "-sage"4.
 \mymark "Chorus" #109
     "in|!mark=Chorus|!check=109"8 "a"4 "bot" "-tle," "yeah|!bg=img=../yeah.png"8
     "!check=110"8 "!bg="4 "Mes"4. "-sage"4
-    "!check=111"1
-    "!check=112"1
+    "!check=111|-"1
+    "!check=112|-"1
     ">in|!check=113"8 "a"4 "bot" "-tle," "yeah|!bg=img=../yeah.png"8
     "!check=114"8 "!bg="4 "Mes"4. "-sage"4
-    "!check=115"1
-    "!check=116"1
+    "!check=115|-"1
+    "!check=116|-"1
     ">in|!check=117"8 "a"4 "bot" "-tle," "yeah|!bg=img=../yeah.png"8
     "!check=118"8 "!bg="4 "Mes"4. "-sage"4
-    "!check=119"1
-    "!check=120"1
+    "!check=119|-"1
+    "!check=120|-"1
     ">in|!check=121"8 "a"4 "bot" "-tle," "yeah|!bg=img=../yeah.png"8
     "!check=122"8 "!bg="4 "I'm"4. "send"4
-    "!check=123"1
-    "!check=124"1
+    "!check=123|-"1
+    "!check=124|-"1
 \mymark "Outro" #125
     "!mark=Outro|!check=125|-"1
-    "!check=126"1
-    "!check=127"1
-    "!check=128"1
-    "!check=129"1
-    "!check=130"1
-    "!check=131"1
-    "!check=132"2. \skip8 "-ing"8
-    "out|!check=133"4 "an"8 "S."4 "O." \skip8
-    "!check=134"8 ">S." "I'm" "send"4. \skip8 "-ing"8
-    "out|!check=135"4 "an"8 "S."4 "O." \skip8
-    "!check=136"8 ">S." "I'm" "send"4. \skip8 "-ing"8
-    "out|!check=137"4 "an"8 "S."4 "O." \skip8
-    "!check=138"8 ">S." "I'm" "send"4. \skip8 "-ing"8
-    "out|!check=139"4 "an"8 "S."4 "O." \skip8
-    "!check=140"8 ">S." \skip2.
-    "!check=141"4 "@@"32 \skip2 \skip8. \skip32
-    "!check=142"1
-    "!check=143"1
-    "!check=144"1
-    "!check=145"1
-    "!check=146"1
-    "!check=147"1
-    "!check=148"1
-    "!check=149"1
-    "!check=150"1
-    "!check=151"1
-    "!check=152"1
-    "!check=153"1
-    "!check=154"1
-    "!check=155"1
-    "!check=156"1
-    "!check=157"1
-    "!check=158"1
-    "!check=159"1
-    "!check=160"1
-    "!check=161"1
-    "!check=162"1
-    "!check=163"1
-    "!check=164"1
-    "!check=165"1
-    "!check=166"1
-    "!check=167"1
-    "!check=168"1
-    "!check=169"1
-    "!check=170"1
-    "!check=171"1
-    "!check=172"1
-    "!check=173"1
-    "!check=174"1
-    "!check=175"1
-    "!check=176"1
-    "!check=177"1
-    "!check=178"1
-    "!check=179"1
+    "!check=126|-"1
+    "!check=127|-"1
+    "!check=128|-"1
+    "!check=129|-"1
+    "!check=130|-"1
+    "!check=131|-"1
+    "!check=132|-"2. \skip8 "-ing"8
+    "out|!check=133"4 "an"8 "S."4 "O." "-"8
+    "!check=134|-"8 ">S." "I'm" "send"4. "-"8 "-ing"
+    "out|!check=135"4 "an"8 "S."4 "O." "-"8
+    "!check=136|-"8 ">S." "I'm" "send"4. "-"8 "-ing"
+    "out|!check=137"4 "an"8 "S."4 "O." "-"8
+    "!check=138|-"8 ">S." "I'm" "send"4. "-"8 "-ing"
+    "out|!check=139"4 "an"8 "S."4 "O." "-"8
+    "!check=140|-"8 ">S." "-"2.
+    "!check=141|-"4 "@@"32 "-"2 \skip8. \skip32
+    "!check=142|-"1
+    "!check=143|-"1
+    "!check=144|-"1
+    "!check=145|-"1
+    "!check=146|-"1
+    "!check=147|-"1
+    "!check=148|-"1
+    "!check=149|-"1
+    "!check=150|-"1
+    "!check=151|-"1
+    "!check=152|-"1
+    "!check=153|-"1
+    "!check=154|-"1
+    "!check=155|-"1
+    "!check=156|-"1
+    "!check=157|-"1
+    "!check=158|-"1
+    "!check=159|-"1
+    "!check=160|-"1
+    "!check=161|-"1
+    "!check=162|-"1
+    "!check=163|-"1
+    "!check=164|-"1
+    "!check=165|-"1
+    "!check=166|-"1
+    "!check=167|-"1
+    "!check=168|-"1
+    "!check=169|-"1
+    "!check=170|-"1
+    "!check=171|-"1
+    "!check=172|-"1
+    "!check=173|-"1
+    "!check=174|-"1
+    "!check=175|-"1
+    "!check=176|-"1
+    "!check=177|-"1
+    "!check=178|-"1
+    "!check=179|-"1
 }

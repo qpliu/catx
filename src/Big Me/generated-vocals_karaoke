@@ -10,71 +10,71 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "!check=7"8 "@|!bg=3"2 "@|!bg=2"4.
     "!check=8"8 "@|!bg=1"2 "When|!bg="8 "I"4
 \mymark "Verse 1" #9
-    "talk|!mark=Verse 1|!check=9"8 "a"4 "-bout" "it,"8 \skip4
-    "car|!check=10"8 "-ries"4 "on,"4. \skip4
+    "talk|!mark=Verse 1|!check=9"8 "a"4 "-bout" "it,"8 "-"4
+    "car|!check=10"8 "-ries"4 "on,"4. "-"4
     "rea|!check=11"8 "-sons"4 "on" "-ly" "new."8
-    "!check=12"4 \skip4. ">When"8 "I"4
-    "talk|!check=13"8 "a"4 "-bout" "it,"8 \skip4
-    "A|!check=14"8 "-ries"4 "or"4. \skip4
+    "!check=12"4 "-"4. ">When"8 "I"4
+    "talk|!check=13"8 "a"4 "-bout" "it,"8 "-"4
+    "A|!check=14"8 "-ries"4 "or"4. "-"4
     "trea|!check=15"8 "-sons"4 "all" "re" "-new."8
-    "!check=16"4 \skip2.
+    "!check=16"4 "-"2.
 \mymark "Pre-Chorus" #17
     "!mark=Pre-Chorus|!check=17|-"4 ">Big" "me"4. "to"8
-    "talk|!check=18"8 "a"4 "-bout" "it,"8 \skip4
+    "talk|!check=18"8 "a"4 "-bout" "it,"8 "-"4
     "I|!check=19"8 "could"4 "stand"4. "to"8 "prove."
-    "!check=20"4 \skip2.
-    "!check=21"4 ">If" "we"4. "can"8
-    "get|!check=22"8 "a"4 "-round" "it,"8 \skip4
+    "!check=20"4 "-"2.
+    "!check=21|-"4 ">If" "we"4. "can"8
+    "get|!check=22"8 "a"4 "-round" "it,"8 "-"4
     "I|!check=23"8 "know"4 "that"4. "it's"8 "true."
-    "!check=24"4 \skip4. ">Well,"8 "I"4
+    "!check=24"4 "-"4. ">Well,"8 "I"4
 \mymark "Chorus" #25
-    "talked|!mark=Chorus|!check=25"8 "a"4 "-bout" "it,"8 \skip4
-    "car|!check=26"8 "-ried"4 "on,"4. \skip4
+    "talked|!mark=Chorus|!check=25"8 "a"4 "-bout" "it,"8 "-"4
+    "car|!check=26"8 "-ried"4 "on,"4. "-"4
     "rea|!check=27"8 "-sons"4 "on" "-ly" "new."8
-    "!check=28"4 \skip4. ">But"8 "it's" "you"
-    "!check=29"4 \skip2.
-    "!check=30"8 ">I"4 "fell" "in" "-to."8
-    "!check=31"4 \skip2.
-    "!check=32"2 \skip8 ">When"8 "I"4
+    "!check=28"4 "-"4. ">But"8 "it's" "you"
+    "!check=29"4 "-"2.
+    "!check=30|-"8 ">I"4 "fell" "in" "-to."8
+    "!check=31"4 "-"2.
+    "!check=32|-"2 \skip8 ">When"8 "I"4
 \mymark "Verse 2" #33
-    "talked|!mark=Verse 2|!check=33"8 "a"4 "-bout" "it,"8 \skip4
-    "car|!check=34"8 "-ries"4 "on,"4. \skip4
+    "talked|!mark=Verse 2|!check=33"8 "a"4 "-bout" "it,"8 "-"4
+    "car|!check=34"8 "-ries"4 "on,"4. "-"4
     "rea|!check=35"8 "-sons"4 "on" "-ly" "new."8
-    "!check=36"4 \skip4. ">When"8 "I"4
-    "talked|!check=37"8 "a"4 "-bout" "it,"8 \skip4
-    "A|!check=38"8 "-ries"4 "or"4. \skip4
+    "!check=36"4 "-"4. ">When"8 "I"4
+    "talked|!check=37"8 "a"4 "-bout" "it,"8 "-"4
+    "A|!check=38"8 "-ries"4 "or"4. "-"4
     "trea|!check=39"8 "-sons"4 "all" "re" "-new."8
-    "!check=40"4 \skip2.
+    "!check=40"4 "-"2.
 \mymark "Pre-Chorus" #41
     "!mark=Pre-Chorus|!check=41|-"4 ">Big" "me"4. "to"8
-    "talk|!check=42"8 "a"4 "-bout" "it,"8 \skip4
+    "talk|!check=42"8 "a"4 "-bout" "it,"8 "-"4
     "I|!check=43"8 "could"4 "stand"4. "to"8 "prove."
-    "!check=44"4 \skip2.
-    "!check=45"4 ">If" "we"4. "can"8
-    "get|!check=46"8 "a"4 "-round" "it,"8 \skip4
+    "!check=44"4 "-"2.
+    "!check=45|-"4 ">If" "we"4. "can"8
+    "get|!check=46"8 "a"4 "-round" "it,"8 "-"4
     "I|!check=47"8 "know"4 "that"4. "it's"8 "true."
-    "!check=48"4 \skip4. ">Well,"8 "I"4
+    "!check=48"4 "-"4. ">Well,"8 "I"4
 \mymark "Chorus" #49
-    "talked|!mark=Chorus|!check=49"8 "a"4 "-bout" "it."8 \skip4
-    ">Put|!check=50"8 "it"4 "on."4. \skip4
+    "talked|!mark=Chorus|!check=49"8 "a"4 "-bout" "it."8 "-"4
+    ">Put|!check=50"8 "it"4 "on."4. "-"4
     ">Ne|!check=51"8 "-ver"4 "was" "it" "true."8
-    "!check=52"4 \skip4. ">But"8 "it's" "you"
-    "!check=53"4 \skip2.
-    "!check=54"8 ">I"4 "fell" "in" "-to."8
-    "!check=55"4 \skip2.
-    "!check=56"2 \skip8 ">Well,"8 "I"4
+    "!check=52"4 "-"4. ">But"8 "it's" "you"
+    "!check=53"4 "-"2.
+    "!check=54|-"8 ">I"4 "fell" "in" "-to."8
+    "!check=55"4 "-"2.
+    "!check=56|-"2 \skip8 ">Well,"8 "I"4
 \mymark "Outro-Chorus" #57
-    "talked|!mark=Outro-Chorus|!check=57"8 "a"4 "-bout" "it."8 \skip4
-    ">Put|!check=58"8 "it"4 "on."4. \skip4
+    "talked|!mark=Outro-Chorus|!check=57"8 "a"4 "-bout" "it."8 "-"4
+    ">Put|!check=58"8 "it"4 "on."4. "-"4
     ">Ne|!check=59"8 "-ver"4 "was" "it" "true."8
-    "!check=60"4 \skip4. ">But"8 "it's" "you"
-    "!check=61"4 \skip2.
-    "!check=62"8 ">I"4 "fell" "in" "-to."8
-    "!check=63"4 \skip2.
-    "!check=64"8 ">I"4 "fell" "in" "-to."8
-    "!check=65"4 \skip2.
-    "!check=66"8 ">I"4 "fell" "in"4.
-    "!check=67"4 "-to." \skip2
-    "!check=68"2 "@@"32 \skip4. \skip16.
-    "!check=69"1
+    "!check=60"4 "-"4. ">But"8 "it's" "you"
+    "!check=61"4 "-"2.
+    "!check=62|-"8 ">I"4 "fell" "in" "-to."8
+    "!check=63"4 "-"2.
+    "!check=64|-"8 ">I"4 "fell" "in" "-to."8
+    "!check=65"4 "-"2.
+    "!check=66|-"8 ">I"4 "fell" "in"4.
+    "!check=67"4 "-to." "-"2
+    "!check=68|-"2 "@@"32 "-"4. \skip16.
+    "!check=69|-"1
 }

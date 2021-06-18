@@ -1,9 +1,9 @@
 vocaloidVocaloid = \new Lyrics \lyricmode {
 \mymark "Intro" #1
-    "!mark=Intro|!check=1"1
-    "!check=2"1
-    "!check=3"1
-    "!check=4"1
+    "!mark=Intro|!check=1|."1
+    "!check=2|."1
+    "!check=3|."1
+    "!check=4|."1
     \repeat volta 4 {
         "."1
     } \alternative { {
@@ -12,7 +12,7 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
         "."1
     } }
 \mymark "Verse 1" #8
-    "!mark=Verse 1"1
+    "!mark=Verse 1|."1
     "."1
     "."1
     "."1
@@ -34,7 +34,7 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "(oU)"8 "." "(h@)" "(l'oU)"4. "(h@)"8 "(l'oU)"
     \skip4 "(h@)"8 "(l'oU)"4 "(w'ID)"8 "(D'@)" "(l'aIts)"
 \mymark "Chorus" #28
-    "!mark=Chorus"8 "('aUt)"4. \skip8 "('Its)"8 "(l'Es)" "(d'eIn)"
+    "!mark=Chorus"8 "('aUt)"4. "."8 "('Its)" "(l'Es)" "(d'eIn)"
     \skip8 "(dZr@s)"4. "."8 "(h'i@3)" "(w'i:)" "('A@)"
     \skip8 "(n'aU)"4. "."8 "(,En)" "(t@)" "(t'eIn)"
     \skip8 "('Vs)"4. "."8 "('aI)" "(f'i:l)" "(st'u:)"
@@ -47,12 +47,12 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     \skip8 "(toU)"4. "."8 "(m'aI)" "(lI)" "(b'i:)"
     \skip8 "(doU)"4. "."4 "(j'Eh)"
 \mymark "Bridge" #40
-    "!mark=Bridge"2. "(h'eI)"4
+    "!mark=Bridge|."2. "(h'eI)"4
     "."1
     "."2. "(j'eI)"4
     "."1
 \mymark "Verse 2" #44
-    "!mark=Verse 2"1
+    "!mark=Verse 2|."1
     "."1
     "."1
     "."1
@@ -74,7 +74,7 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "(oU)"8 "." "(h@)" "(l'oU)"4. "(h@)"8 "(l'oU)"
     \skip4 "(h@)"8 "(l'oU)"4 "(w'ID)"8 "(D'@)" "(l'aIts)"
 \mymark "Chorus" #64
-    "!mark=Chorus"8 "('aUt)"4. \skip8 "('Its)"8 "(l'Es)" "(d'eIn)"
+    "!mark=Chorus"8 "('aUt)"4. "."8 "('Its)" "(l'Es)" "(d'eIn)"
     \skip8 "(dZr@s)"4. "."8 "(h'i@3)" "(w'i:)" "('A@)"
     \skip8 "(n'aU)"4. "."8 "(,En)" "(t@)" "(t'eIn)"
     \skip8 "('Vs)"4. "."8 "('aI)" "(f'i:l)" "(st'u:)"
@@ -87,12 +87,12 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     \skip8 "(toU)"4. "."8 "(m'aI)" "(lI)" "(b'i:)"
     \skip8 "(doU)"4. "."4 "(j'Eh)"
 \mymark "Bridge" #76
-    "!mark=Bridge"2. "(h'eI)"4
+    "!mark=Bridge|."2. "(h'eI)"4
     "."1
     "."2. "(j'eI)"4
     "."1
 \mymark "Guitar Solo" #80
-    "!mark=Guitar Solo"1
+    "!mark=Guitar Solo|."1
     "."1
     "."1
     "."1
@@ -109,7 +109,7 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "."1
     "."1
 \mymark "Verse 3" #96
-    "!mark=Verse 3"1
+    "!mark=Verse 3|."1
     "."1
     "."1
     "."1
@@ -131,7 +131,7 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "(oU)"8 "." "(h@)" "(l'oU)"4. "(h@)"8 "(l'oU)"
     \skip4 "(h@)"8 "(l'oU)"4 "(w'ID)"8 "(D'@)" "(l'aIts)"
 \mymark "Chorus" #116
-    "!mark=Chorus"8 "('aUt)"4. \skip8 "('Its)"8 "(l'Es)" "(d'eIn)"
+    "!mark=Chorus"8 "('aUt)"4. "."8 "('Its)" "(l'Es)" "(d'eIn)"
     \skip8 "(dZr@s)"4. "."8 "(h'i@3)" "(w'i:)" "('A@)"
     \skip8 "(n'aU)"4. "."8 "(,En)" "(t@)" "(t'eIn)"
     \skip8 "('Vs)"4. "."8 "('aI)" "(f'i:l)" "(st'u:)"
@@ -144,7 +144,7 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     \skip8 "(toU)"4. "."8 "(m'aI)" "(lI)" "(b'i:)"
     \skip8 "(doU)"4. "."8 "('eI)" "(dI2)" "(n'aI)"
 \mymark "Outro" #128
-    "!mark=Outro"8 "(@L)"4. \skip8 "('eI)"8 "(dI2)" "(n'aI)"
+    "!mark=Outro"8 "(@L)"4. "."8 "('eI)" "(dI2)" "(n'aI)"
     \skip8 "(@L)"4. "."8 "('eI)" "(dI2)" "(n'aI)"
     \skip8 "(@L)"4. "."8 "('eI)" "(dI2)" "(n'aI)"
     \skip8 "(@L)"4. "."8 "('eI)" "(dI2)" "(n'aI)"

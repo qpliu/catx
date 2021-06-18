@@ -1,136 +1,136 @@
 vocaloidVocaloid = \new Lyrics \lyricmode {
 \mymark "Intro" #1
-    "!mark=Intro|!check=1"1
-    "!check=2"1
-    "!check=3"1
-    "!check=4"1
-    "!check=5"1
-    "!check=6"1
-    "!check=7"1
-    "!check=8"1
+    "!mark=Intro|!check=1|."1
+    "!check=2|."1
+    "!check=3|."1
+    "!check=4|."1
+    "!check=5|."1
+    "!check=6|."1
+    "!check=7|."1
+    "!check=8|."1
 \mymark "Verse 1" #9
-    "!mark=Verse 1|!check=9"2. "(dZ'Vst)"8 "('@)"
-    "(sm'O:l)|!check=10"8 "(t'aUn)"4 "(g'3:l)"4. \skip4
-    "!check=11"2 "(l'I)"8 "(v'In)" "('In)" "('@)"
+    "!mark=Verse 1|!check=9|."2. "Just"8 "('@)"
+    "small|!check=10"8 "town"4 "girl"4. "."4
+    "!check=11|."2 "(l'I)"8 "(v'In)" "in" "('@)"
     "(l'oUn)|!check=12"4 "(l'i:)"8 "(w'3:)"4 "(3ld)"4.
-    "!check=13"2 \skip8 "(S'i:)"8 "(t'Uk)" "(D'@)"
-    "(m'Id)|!check=14"8 "(n'aIt)"4 "(tr'eIn)" "(g'oU)" "('In)"8
+    "!check=13|."2 \skip8 "She"8 "took" "the"
+    "mid|!check=14"8 "night"4 "train" "(g'oU)" "('In)"8
     "('E)|!check=15"4. "(ni:)" "(w'e@)"4
-    "!check=16"4 \skip2.
+    "!check=16"4 "."2.
 \mymark "Verse 2" #17
-    "!mark=Verse 2|!check=17"2. "(dZ'Vst)"8 "('@)"
-    "(s'I)|!check=18"8 "(t'i:)"4 "(b'OI)"4. \skip4
-    "!check=19"2 "(b'O@n)"8 "('and)" "(r'eIzd)" "('In)"
-    "(s'aUT)|!check=20"4 "(d'Et)"8 "(r'OI)"4 "(it)"4.
-    "!check=21"2 \skip8 "(h'i:)"8 "(t'Uk)" "(D'@)"
-    "(m'Id)|!check=22"8 "(n'aIt)"4 "(tr'eIn)" "(g'oU)" "('In)"8
+    "!mark=Verse 2|!check=17|."2. "Just"8 "('@)"
+    "(s'I)|!check=18"8 "(t'i:)"4 "boy"4. "."4
+    "!check=19|."2 "born"8 "and" "raised" "in"
+    "south|!check=20"4 "(d'Et)"8 "(r'OI)"4 "(it)"4.
+    "!check=21|."2 \skip8 "He"8 "took" "the"
+    "mid|!check=22"8 "night"4 "train" "(g'oU)" "('In)"8
     "('E)|!check=23"4. "(ni:)" "(w'e@)"4
 \mymark "Guitar Fill" #24
-    "!mark=Guitar Fill|!check=24"2 \skip2
-    "!check=25"1
-    "!check=26"1
-    "!check=27"1
-    "!check=28"1
-    "!check=29"1
-    "!check=30"1
-    "!check=31"1
-    "!check=32"1
+    "!mark=Guitar Fill|!check=24"2 "."
+    "!check=25|."1
+    "!check=26|."1
+    "!check=27|."1
+    "!check=28|."1
+    "!check=29|."1
+    "!check=30|."1
+    "!check=31|."1
+    "!check=32|."1
 \mymark "Verse 3" #33
-    "!mark=Verse 3|!check=33"4. "('@)"8 "(s'i)" "(N'3:)" "('In)" "('@)"
-    "(sm'oU)|!check=34"8 "(k'i:)"4 "(r'u:)"16 "(um)"4 \skip16 \skip4
-    "!check=35"4. "('@)"8 "(sm'El)"16 "('0v)" "(w'aIn)"4 "('and)"8
-    "(tS'i:p)|!check=36"4 "(p'3:)"8 "(fj'u:)"4 "('um)"4.
-    "!check=37"4 "(f'O@)"8 "('@)" "(sm'aI)" "('@l)" "(D'eI)" "(k'an)"
-    "(S'e@)|!check=38"4 "(D'@)"8 "(n'a)"16 "('aIt)" \tuplet 3/2 { \skip4 "('It)"4 "(g'oUz)" }
-    "('0n)|!check=39"4 "('and)"8 "('0n)"4. "('and)"8 "('0n)"
-    "!check=40"4 "('and)"8 "('0:)"16 "('0:)" "('0:0:n)"2
+    "!mark=Verse 3|!check=33|."4. "('@)"8 "(s'i)" "(N'3:)" "in" "('@)"
+    "(sm'oU)|!check=34"8 "(k'i:)"4 "(r'u:)"16 "(um)"4 \skip16 "."4
+    "!check=35|."4. "('@)"8 "smell"16 "of" "wine"4 "and"8
+    "cheap|!check=36"4 "(p'3:)"8 "(fj'u:)"4 "('um)"4.
+    "!check=37|."4 "For"8 "('@)" "(sm'aI)" "('@l)" "they" "can"
+    "share|!check=38"4 "the"8 "(n'a)"16 "('aIt)" \tuplet 3/2 { "."4 "It" "goes" }
+    "on|!check=39"4 "and"8 "on"4. "and"8 "on"
+    "!check=40"4 "and"8 "('0:)"16 "('0:)" "('0:0:n)"2
 \mymark "Bridge" #41
-    "(str'an)|!mark=Bridge|!check=41"4. "(dZ'3:z)" \skip4
-    "(w'eI)|!check=42"4. "(t'IN)" \skip4
-    "!check=43"2 "('Vp)"8 "('and)" "(d'aUn)" "(D'@)"
-    "(b'U)|!check=44"4 "(l'@)"8 "(v'A@d)"4. "(D'e@)"4
-    "(S'A:)|!check=45"4. "(d'aUz)" \skip4
-    "(s'3:)|!check=46"4. "(tS'i:)"8 "('i:N)" "('In)" "(D'@)" "(n'a:a:)"
+    "(str'an)|!mark=Bridge|!check=41"4. "(dZ'3:z)" "."4
+    "(w'eI)|!check=42"4. "(t'IN)" "."4
+    "!check=43|."2 "Up"8 "and" "down" "the"
+    "(b'U)|!check=44"4 "(l'@)"8 "(v'A@d)"4. "Their"4
+    "(S'A:)|!check=45"4. "(d'aUz)" "."4
+    "(s'3:)|!check=46"4. "(tS'i:)"8 "('i:N)" "in" "the" "(n'a:a:)"
     "!check=47"4 "(a:)"8 "('a:a:a:a:aIt)"2 \skip8
-    "!check=48"1
-    "(str'i:t)|!check=49"4. "(l'aIts)" \skip4
-    "(p'i:)|!check=50"4. "(p'@l)" \skip4
-    "!check=51"2 "(l'I)"8 "(v'IN)" "(dZ'Vst)" "(t'u:)"
-    "(f'aInd)|!check=52"4 "('i:)"8 "(m'oU)"4. "(S'Vn)"4
-    "(h'aI)|!check=53"4. "(d'IN)" \skip4
-    "(s'Vm)|!check=54"4. "(w'e@)"8 "('In)" "(D'@)" "(n'a:)" "(a:)"
+    "!check=48|."1
+    "Street|!check=49"4. "lights" "."4
+    "(p'i:)|!check=50"4. "(p'@l)" "."4
+    "!check=51|."2 "(l'I)"8 "(v'IN)" "just" "to"
+    "find|!check=52"4 "('i:)"8 "(m'oU)"4. "(S'Vn)"4
+    "(h'aI)|!check=53"4. "(d'IN)" "."4
+    "some|!check=54"4. "where"8 "in" "the" "(n'a:)" "(a:)"
     "('a:a:a:a:aIt)|!check=55"1
-    "!check=56"2. \skip4
-    "!check=57"1
-    "!check=58"1
-    "!check=59"1
-    "!check=60"1
+    "!check=56"2. "."4
+    "!check=57|."1
+    "!check=58|."1
+    "!check=59|."1
+    "!check=60|."1
 \mymark "Verse 4" #61
-    "!mark=Verse 4|!check=61"4 "(w'3:)"8 "(k'IN)" "(h'A@)" "(A@d)"4 "(t'u:)"8
-    "(g'Et)|!check=62"8 "(m'aI)"4 "(f'I)"8 "(I:l)"4 \skip4
-    "!check=63"2 "('E:)"16 "(v'ri:)" "(b'V)"8 "(d'i:)"4
-    "(w'0nts)|!check=64"4 "('eI)"8 "(Tr'I:)" "(I:)" "(I:I:l)"4.
-    "!check=65"4 "(p'eI)"8 "('In)" "(E)" "(ni:)" "(T'IN)" "(t'u:)"
-    "(r'oUl)|!check=66"4 "(D'@)"8 "(d'a)"16 "(aIs)"4 \skip16 \skip8 "(dZ'Vst)"8
-    "(w'0n)|!check=67"4. "(m'o@)" "(t'aIm)"4
-    "!check=68"2. \skip4
+    "!mark=Verse 4|!check=61|."4 "(w'3:)"8 "(k'IN)" "(h'A@)" "(A@d)"4 "to"8
+    "get|!check=62"8 "my"4 "(f'I)"8 "(I:l)"4 "."
+    "!check=63|."2 "('E:)"16 "(v'ri:)" "(b'V)"8 "(d'i:)"4
+    "wants|!check=64"4 "a"8 "(Tr'I:)" "(I:)" "(I:I:l)"4.
+    "!check=65|."4 "(p'eI)"8 "('In)" "(E)" "(ni:)" "(T'IN)" "to"
+    "roll|!check=66"4 "the"8 "(d'a)"16 "(aIs)"4 \skip16 "."8 "Just"
+    "one|!check=67"4. "more" "time"4
+    "!check=68"2. "."4
 \mymark "Verse 5" #69
-    "!mark=Verse 5|!check=69"4 "(s'Vm)"8 "(w'Il)" "(w'I)" "(In)" \skip4
-    \tuplet 3/2 { "!check=70"4 "(s'Vm)" "(w'Il)" } "(l'u:)"8 "(u:z)"4 \skip8
-    "!check=71"2 "(s'Vm)"16 "(w'3:)" "(b'O@n)"4 "(t'u:)"8
-    "(s'IN)|!check=72"4 "(D'@)"8 "(bl'u:)"4 "(u:z)"4.
-    "!check=73"4 "('oU)"8 "(D'@)" "(m'u:)" "(v'i:)"4 "(n'E)"8
-    "!check=74"8 "(v'3:)"4 "('E)"16 \tuplet 3/2 { "(Endz)"4 } \skip16 \tuplet 3/2 { "('It)"4 "(g'oUz)" }
-    "('0n)|!check=75"4 "('and)"8 "('0n)"4. "('and)"8 "('0n)"
-    "!check=76"4 "('and)"8 "('0:0:)"16 "(0:)" "(0:)" "(0:0:n)"8. \skip4
+    "!mark=Verse 5|!check=69|."4 "Some"8 "will" "(w'I)" "(In)" "."4
+    \tuplet 3/2 { "!check=70|."4 "some" "will" } "(l'u:)"8 "(u:z)"4 "."8
+    "!check=71|."2 "Some"16 "were" "born"4 "to"8
+    "sing|!check=72"4 "the"8 "(bl'u:)"4 "(u:z)"4.
+    "!check=73|."4 "Oh"8 "the" "(m'u:)" "(v'i:)"4 "(n'E)"8
+    "!check=74"8 "(v'3:)"4 "('E)"16 \tuplet 3/2 { "(Endz)"4 } \skip16 \tuplet 3/2 { "It"4 "goes" }
+    "on|!check=75"4 "and"8 "on"4. "and"8 "on"
+    "!check=76"4 "and"8 "('0:0:)"16 "(0:)" "(0:)" "(0:0:n)"8. "."4
 \mymark "Bridge" #77
-    "(str'an)|!mark=Bridge|!check=77"4. "(dZ'3:z)" \skip4
-    "(w'eI)|!check=78"4. "(t'IN)" \skip4
-    "!check=79"2 "('Vp)"8 "('and)" "(d'aUn)" "(D'@)"
-    "(b'U)|!check=80"4 "(l'@)"8 "(v'A@d)"4. "(D'e@)"4
-    "(S'A:)|!check=81"4. "(d'aUz)" \skip4
-    "(s'3:)|!check=82"4. "(tS'i:)"8 "('i:N)" "('In)" "(D'@)" "(n'a:a:)"
+    "(str'an)|!mark=Bridge|!check=77"4. "(dZ'3:z)" "."4
+    "(w'eI)|!check=78"4. "(t'IN)" "."4
+    "!check=79|."2 "Up"8 "and" "down" "the"
+    "(b'U)|!check=80"4 "(l'@)"8 "(v'A@d)"4. "Their"4
+    "(S'A:)|!check=81"4. "(d'aUz)" "."4
+    "(s'3:)|!check=82"4. "(tS'i:)"8 "('i:N)" "in" "the" "(n'a:a:)"
     "!check=83"4 "(a:)"8 "('a:a:a:a:aIt)"2 \skip8
-    "!check=84"1
-    "(str'i:t)|!check=85"4. "(l'aIts)" \skip4
-    "(p'i:)|!check=86"4. "(p'@l)" \skip4
-    "!check=87"2 "(l'I)"8 "(v'IN)" "(dZ'Vst)" "(t'u:)"
-    "(f'aInd)|!check=88"4 "('i:)"8 "(m'oU)"4. "(S'Vn)"4
-    "(h'aI)|!check=89"4. "(d'IN)" \skip4
-    "(s'Vm)|!check=90"4. "(w'e)"8 "(@)" "('In)" "(D'@)" "(n'a)"
+    "!check=84|."1
+    "Street|!check=85"4. "lights" "."4
+    "(p'i:)|!check=86"4. "(p'@l)" "."4
+    "!check=87|."2 "(l'I)"8 "(v'IN)" "just" "to"
+    "find|!check=88"4 "('i:)"8 "(m'oU)"4. "(S'Vn)"4
+    "(h'aI)|!check=89"4. "(d'IN)" "."4
+    "some|!check=90"4. "(w'e)"8 "(@)" "in" "the" "(n'a)"
     "(a:aIt)|!check=91"1
-    "!check=92"2. \skip4
+    "!check=92"2. "."4
 \mymark "Guitar Solo" #93
-    "!mark=Guitar Solo|!check=93"1
-    "!check=94"1
-    "!check=95"1
-    "!check=96"1
-    "!check=97"1
-    "!check=98"1
-    "!check=99"1
-    "!check=100"1
+    "!mark=Guitar Solo|!check=93|."1
+    "!check=94|."1
+    "!check=95|."1
+    "!check=96|."1
+    "!check=97|."1
+    "!check=98|."1
+    "!check=99|."1
+    "!check=100|."1
 \mymark "Chorus" #101
-    "(d'oU)|!mark=Chorus|!check=101"8 "(oUnt)"4 "(st'0p)"8 \skip4. "(b'i:)"8
-    "(l'i:)|!check=102"4 "(i:)"8 "(v'In)"4 \skip4.
-    "!check=103"2 "(h'oUld)"8 "('0n)" "(t'u:)" "(D'@)"
+    "(d'oU)|!mark=Chorus|!check=101"8 "(oUnt)"4 "stop"8 "."4. "(b'i:)"8
+    "(l'i:)|!check=102"4 "(i:)"8 "(v'In)"4 "."4.
+    "!check=103|."2 "(h'oUld)"8 "on" "to" "the"
     "(f'i:)|!check=104"4 "(li:)"8 \tuplet 3/2 { "(i:i:i:)"4. \skip16 "(i:i:)"4 "(i:i:N)" }
-    "(str'i:)|!check=105"4 "(i:t)"8 "(l'aIts)"4 \skip4.
+    "(str'i:)|!check=105"4 "(i:t)"8 "lights"4 "."4.
     "(p'i:)|!check=106"4 "(i:)"8 "(p'@:)" \tuplet 3/2 { "(@:)"4 "(@:)" "(@:)" }
     "(@:@:@:@:@:@:@:@l)|!check=107"1
     "!check=108"1
-    "(d'oU)|!check=109"8 "(oUnt)"4 "(st'0p)"8 \skip4. "(b'i:)"8
-    "(l'i:)|!check=110"4 "(i:)"8 "(v'In)"4 \skip4.
-    "!check=111"8 "(h'oU)"16 "(oUld)"8. "('0n)"8 "(t'u:)" "(D'@)"16 "(@)" "(f'i:)"8 "(i:)"
-    "(li:i:)|!check=112"4 "(i:)"16 "(i:)" "(i:i:N)"4 \skip4.
-    "(str'i:)|!check=113"4 "(i:t)"8 "(l'aIts)" \skip2
+    "(d'oU)|!check=109"8 "(oUnt)"4 "stop"8 "."4. "(b'i:)"8
+    "(l'i:)|!check=110"4 "(i:)"8 "(v'In)"4 "."4.
+    "!check=111|."8 "(h'oU)"16 "(oUld)"8. "on"8 "to" "(D'@)"16 "(@)" "(f'i:)"8 "(i:)"
+    "(li:i:)|!check=112"4 "(i:)"16 "(i:)" "(i:i:N)"4 "."4.
+    "(str'i:)|!check=113"4 "(i:t)"8 "lights" "."2
     "(p'i:)|!check=114"4 "(i:)"8 "(p'@:)" \tuplet 3/2 { "(@:)"4 "(@:)" "(@:)" }
     "(@:@:@:@:@:@:@:@l)|!check=115"1
     "!check=116"1
-    "(d'oU)|!check=117"8 "(oUnt)"4 "(st'0p)"8 \skip4. "(b'i:)"8
-    "(l'i:)|!check=118"4 "(i:)"8 "(v'In)"4 \skip4.
-    "!check=119"8 "(h'oUld)"4 "('0n)" "(t'u:)"8 "(D'@)" \skip8
-    "(f'i:)|!check=120"8. "(li:)" "(i:)"8 "('i:N)"4 \skip4
-    "(str'i:)|!check=121"4 "(i:t)"8 "(l'aIts)"4 \skip4.
+    "(d'oU)|!check=117"8 "(oUnt)"4 "stop"8 "."4. "(b'i:)"8
+    "(l'i:)|!check=118"4 "(i:)"8 "(v'In)"4 "."4.
+    "!check=119|."8 "Hold"4 "on" "to"8 "the" "."
+    "(f'i:)|!check=120"8. "(li:)" "(i:)"8 "('i:N)"4 "."
+    "(str'i:)|!check=121"4 "(i:t)"8 "lights"4 "."4.
     "(p'i:)|!check=122"4 "(i:)"8 "(p'@:)" \tuplet 3/2 { "(@:)"4 "(@:)" "(@:)" }
     "(@:@:@:@:@:@:@:@l)|!check=123"1
     "!check=124"1

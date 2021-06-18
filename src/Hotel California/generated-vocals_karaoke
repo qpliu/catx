@@ -1,6 +1,6 @@
 vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
-    "!check=1"8 ">@"2 "@"4.
+    "!check=1|-"8 ">@"2 "@"4.
     "!check=2"8 "@"2 "@"4.
     "!check=3"8 "@"2 "@"4.
     "!check=4"8 "@"2 "@"4.
@@ -17,117 +17,117 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "!check=15"8 "@|!bg=4"2 "@|!bg=3"4.
     "!check=16"8 "@|!bg=2"2 "@|!bg=1"4.
 \mymark "Verse 1" #17
-    "!mark=Verse 1|!check=17|-"8 "On|!bg="16 "a" "dark"8 "de"16 "-sert" "high"8 "-way," \skip4
-    "!check=18"8 "cool" \tuplet 3/2 { "wind"8 "in" "my" } "hair,"4 \skip4
-    "!check=19"8 ">warm" "smell" "of"16 "co" "-li"8 "-tas" \skip4
-    \tuplet 3/2 { "!check=20"8 "ris" "-ing" "up" "through" "the" } "air."4. \skip8
-    "!check=21"8 ">Up"16 "a" "-head"8 "in"16 "the" "dis"8 "-tance" \skip4
-    "!check=22"16 "I" "saw" "a" \tuplet 3/2 { "shim"8 "-mer" "-ing" } "light."4 \skip4
-    "!check=23"16 ">My" "head" "grew" "hea" "-vy" "and" "my" "sight"8 "grew"16 "dim,"8. \skip8
-    "!check=24"16 ">I" "had" "to" \tuplet 3/2 { "stop"8 "for" "the" } "night.|!bg=img=../night.png"4 "!bg="
+    "!mark=Verse 1|!check=17"8 "On|!bg="16 "a" "dark"8 "de"16 "-sert" "high"8 "-way," "-"4
+    "!check=18|-"8 "cool" \tuplet 3/2 { "wind"8 "in" "my" } "hair,"4 "-"
+    "!check=19|-"8 ">warm" "smell" "of"16 "co" "-li"8 "-tas" "-"4
+    \tuplet 3/2 { "!check=20|-"8 "ris" "-ing" "up" "through" "the" } "air."4. "-"8
+    "!check=21|-"8 ">Up"16 "a" "-head"8 "in"16 "the" "dis"8 "-tance" "-"4
+    "!check=22|-"16 "I" "saw" "a" \tuplet 3/2 { "shim"8 "-mer" "-ing" } "light."4 "-"
+    "!check=23|-"16 ">My" "head" "grew" "hea" "-vy" "and" "my" "sight"8 "grew"16 "dim,"8. "-"8
+    "!check=24|-"16 ">I" "had" "to" \tuplet 3/2 { "stop"8 "for" "the" } "night.|!bg=img=../night.png"4 "!bg=|-"
 \mymark "Verse 2" #25
-    "!mark=Verse 2|!check=25|-"8 ">There"16 "she" \skip16 "stood"16 "in" "the" "door"8 "way;" \skip4
-    "!check=26"16 "I" "heard" "the" \tuplet 3/2 { "mis"8 "-sion" "bell."4 \skip16 } \skip4.
-    "!check=27"8. ">An'"16 "I" "was" "think" "-in'" "to" "my"8 "self," ">this"16 "could" "be"
-    \tuplet 3/2 { "hea|!check=28"8 "-ven" "or" "this" "could" "be" \skip8 "hell."4. \skip16 } \skip8
-    "!check=29"8 ">Then"16 "she" \tuplet 3/2 { "lit"8 "up" "a" } "can"8 "-dle," \skip4
-    "!check=30"8 "an'"16 "she" "showed"8 "me"16 "the" "way."4 \skip4
-    "!check=31"8 ">There"16 "were" "voic" "-es" "down" "the" \skip16 "cor"16 "-ri" "-dor,"8. \skip8
-    "!check=32"16 ">I" "thought" "I" "heard"8 "them" "say:"4 \skip4
+    "!mark=Verse 2|!check=25|-"8 ">There"16 "she" "-" "stood" "in" "the" "door"8 "way;" "-"4
+    "!check=26|-"16 "I" "heard" "the" \tuplet 3/2 { "mis"8 "-sion" "bell."4 \skip16 } "-"4.
+    "!check=27|-"8. ">An'"16 "I" "was" "think" "-in'" "to" "my"8 "self," ">this"16 "could" "be"
+    \tuplet 3/2 { "hea|!check=28"8 "-ven" "or" "this" "could" "be" "-" "hell."4. \skip16 } "-"8
+    "!check=29|-"8 ">Then"16 "she" \tuplet 3/2 { "lit"8 "up" "a" } "can"8 "-dle," "-"4
+    "!check=30|-"8 "an'"16 "she" "showed"8 "me"16 "the" "way."4 "-"
+    "!check=31|-"8 ">There"16 "were" "voic" "-es" "down" "the" "-" "cor" "-ri" "-dor,"8. "-"8
+    "!check=32|-"16 ">I" "thought" "I" "heard"8 "them" "say:"4 "-"
 \mymark "Chorus" #33
     "!mark=Chorus|!check=33|-"8 ">\"Wel"16 "-come"8 "to"16 "the" "Ho"8 "-tel"8. "Cal"8 "-i"16 "-for"
-    "!check=34"16 "-nia,"8 \skip2 \skip8. ">such"16 "a"
+    "!check=34"16 "-nia,"8 "-"2 \skip8. ">such"16 "a"
     "love|!check=35"8 "-ly"16 "place,"8. "(such"16 "a" "love"8 "-ly"16 "place),"8. ">such"16 "a"
-    "love|!check=36"8 "-ly"16 "face."8. \skip2 \skip8
+    "love|!check=36"8 "-ly"16 "face."8. "-"2 \skip8
     ">Plen|!check=37"16 "-ty" "of" "room"8 "at" "the"16 "Ho"8 "-tel" "Cal" "-i"16 "-for"
-    "!check=38"16 "-nia."8 \skip2 \skip8. ">An"16 "-y"
+    "!check=38"16 "-nia."8 "-"2 \skip8. ">An"16 "-y"
     "time|!check=39"8 "of"16 "year,"8. "(an"16 "-y" "time"8 "of"16 "year),"8. "you"16 "can"
-    "find|!check=40"8 "it"16 "here."8. \skip2 \skip8
+    "find|!check=40"8 "it"16 "here."8. "-"2 \skip8
 \mymark "Verse 3" #41
-    "!mark=Verse 3|!check=41|-"16 ">Her" "mind" "is" \tuplet 3/2 { "Tif"8 "-fa" "-ny" } "twist"8 "-ed." \skip4
-    "!check=42"16 ">She" "got" "the" "Mer"8 "-ce"16 "-des"8 "bends."8. "(Uh)"8 \skip8
-    "!check=43"16 ">She" "got" "a" "lot" "of" "pret" "-ty," \skip16 "pret"16 "-ty" "boys"8. \skip8
-    "!check=44"8. ">that"16 "she" "calls"8 "friends."4 \skip16 \skip4
-    "!check=45"8 ">How"16 "they" "dance"8 "in"16 "the" "court"8 "-yard," \skip4
-    \tuplet 3/2 { "sweet|!check=46"2 "sum"8 "-mer" } "sweat."4 \skip4
-    "!check=47"8 ">Some" "dance" "to"16 "re" "-mem"8 "-ber,"4 \skip8
-    "!check=48"8 "some" "dance" "to"16 "for"8 "-get."8. \skip4
+    "!mark=Verse 3|!check=41|-"16 ">Her" "mind" "is" \tuplet 3/2 { "Tif"8 "-fa" "-ny" } "twist"8 "-ed." "-"4
+    "!check=42|-"16 ">She" "got" "the" "Mer"8 "-ce"16 "-des"8 "bends."8. "(Uh)"8 "-"
+    "!check=43|-"16 ">She" "got" "a" "lot" "of" "pret" "-ty," "-" "pret" "-ty" "boys"8. "-"8
+    "!check=44|-"8. ">that"16 "she" "calls"8 "friends."4 \skip16 "-"4
+    "!check=45|-"8 ">How"16 "they" "dance"8 "in"16 "the" "court"8 "-yard," "-"4
+    \tuplet 3/2 { "sweet|!check=46"2 "sum"8 "-mer" } "sweat."4 "-"
+    "!check=47|-"8 ">Some" "dance" "to"16 "re" "-mem"8 "-ber,"4 "-"8
+    "!check=48|-"8 "some" "dance" "to"16 "for"8 "-get."8. "-"4
 \mymark "Verse 4" #49
-    "!mark=Verse 4|!check=49|-"8 ">So"16 "I" "called"8 "up"16 "the" "cap"8 "-tain," \skip4
-    "!check=50"16 "\"Please"8. "bring"8 "me"16 "my"8 "wine.\""8. \skip16 ">He"16 "said" "that"
-    "!check=51"16 "\"We" \tuplet 3/2 { "have"8 "-n't"16 } "had"8 "that" "spir"16 "-it"8 "here"8. "since"8
-    "!check=52"8 ">nine" "-teen"16 "six"8 "-ty"16 "nine."4 \skip4
-    "!check=53"8 ">An'" "still" "those" "voic"16 "-es" "are" "call"8 "-ing"16 "from"8
+    "!mark=Verse 4|!check=49|-"8 ">So"16 "I" "called"8 "up"16 "the" "cap"8 "-tain," "-"4
+    "!check=50|-"16 "\"Please"8. "bring"8 "me"16 "my"8 "wine.\""8. "-"16 ">He" "said" "that"
+    "!check=51|-"16 "\"We" \tuplet 3/2 { "have"8 "-n't"16 } "had"8 "that" "spir"16 "-it"8 "here"8. "since"8
+    "!check=52|-"8 ">nine" "-teen"16 "six"8 "-ty"16 "nine."4 "-"
+    "!check=53|-"8 ">An'" "still" "those" "voic"16 "-es" "are" "call"8 "-ing"16 "from"8
     "far|!check=54"4. "a"16 "-way."2 \skip16
-    "!check=55"8 ">Wake"16 "you" "up" \skip16 "in"16 "the" "mid" "-dle" "of" "the" "night|!bg=img=../night.png"8 \skip8
-    "!check=56|!bg="8 ">just"16 "to" "hear"8 "them" "say:"2
+    "!check=55|-"8 ">Wake"16 "you" "up" "-" "in" "the" "mid" "-dle" "of" "the" "night|!bg=img=../night.png"8 "-"
+    "!check=56|!bg=|-"8 ">just"16 "to" "hear"8 "them" "say:"2
 \mymark "Chorus" #57
     "!mark=Chorus|!check=57|-"8 "\"Wel"16 "-come"8 "to"16 "the" "Ho"8 "-tel"8. "Cal"8 "-i"16 "-for"
-    "!check=58"16 "-nia,"8 \skip2 \skip8. ">such"16 "a"
+    "!check=58"16 "-nia,"8 "-"2 \skip8. ">such"16 "a"
     "love|!check=59"8 "-ly"16 "place,"8. "(such"16 "a" "love"8 "-ly"16 "place),"8. ">such"16 "a"
-    "love|!check=60"8 "-ly"16 "face."8. \skip2 \skip16 ">They're"16
-    "liv|!check=61"16 "-in'" "it" "up" \skip16 "at"16 \skip16 "the"16 "Ho"8 "-tel" "Cal" "-i"16 "-for"
-    "!check=62"16 "-nia."8 \skip2 \skip8. ">What"16 "a"
+    "love|!check=60"8 "-ly"16 "face."8. "-"2 \skip16 ">They're"16
+    "liv|!check=61"16 "-in'" "it" "up" "-" "at" "-" "the" "Ho"8 "-tel" "Cal" "-i"16 "-for"
+    "!check=62"16 "-nia."8 "-"2 \skip8. ">What"16 "a"
     "nice|!check=63"8 "sur"16 "-prise."8. "(What"16 "a" "nice"8 "sur"16 "-prise.)"8. ">Bring"16 "your"
-    "al|!check=64"8 "-i"16 "-bis."2 \skip16 \skip4
+    "al|!check=64"8 "-i"16 "-bis."2 \skip16 "-"4
 \mymark "Verse 5" #65
-    "!mark=Verse 5|!check=65|-"8 ">Mir"16 "-rors"8 "on" "the"16 "ceil"8 "-ing," \skip4
-    "!check=66"16 "the" "pink" \tuplet 3/2 { "cham"8. \skip32 "-pagne"8 "on" } "ice,"8 \skip16 ">An'"16 "she" "said," \skip8
-    "!check=67"8 ">\"We"16 "are" "all"8 "just" \tuplet 3/2 { "pris"8 "-on" "-ers" } "here"8 \skip8
-    "!check=68"8 "of"16 "our" \tuplet 3/2 { "own"4 "de"8 } "-vice.\""4 \skip4
-    "!check=69"16 ">An'" "in" \tuplet 3/2 { "the"8. \skip32 "mas"8 "-ter's" } "cham"8 "-bers" \skip4
-    \tuplet 3/2 { "!check=70"8 "they" "gath" "-ered" "for" "the" } "feast."4 \skip4
-    "!check=71"16 ">They"8 "stab"16 \tuplet 3/2 { "it"8 "with" "their"4 "steel"8 "-y" } "knives"8 "but"16 "they"
-    "just|!check=72"8 "can't"8. ">kill"8 "the"16 "beast."4 \skip4
+    "!mark=Verse 5|!check=65|-"8 ">Mir"16 "-rors"8 "on" "the"16 "ceil"8 "-ing," "-"4
+    "!check=66|-"16 "the" "pink" \tuplet 3/2 { "cham"8. \skip32 "-pagne"8 "on" } "ice,"8 "-"16 ">An'" "she" "said," "-"8
+    "!check=67|-"8 ">\"We"16 "are" "all"8 "just" \tuplet 3/2 { "pris"8 "-on" "-ers" } "here"8 "-"
+    "!check=68|-"8 "of"16 "our" \tuplet 3/2 { "own"4 "de"8 } "-vice.\""4 "-"
+    "!check=69|-"16 ">An'" "in" \tuplet 3/2 { "the"8. \skip32 "mas"8 "-ter's" } "cham"8 "-bers" "-"4
+    \tuplet 3/2 { "!check=70|-"8 "they" "gath" "-ered" "for" "the" } "feast."4 "-"
+    "!check=71|-"16 ">They"8 "stab"16 \tuplet 3/2 { "it"8 "with" "their"4 "steel"8 "-y" } "knives"8 "but"16 "they"
+    "just|!check=72"8 "can't"8. ">kill"8 "the"16 "beast."4 "-"
 \mymark "Verse 6" #73
-    "!mark=Verse 6|!check=73|-"8 ">Last" "thing"16 "I"8 "re"16 "-mem"8 "-ber" \skip8 "I"16 "was"
-    "!check=74"8 "run"16 "-ning"8 "for"16 "the" "door."4 \skip16 \skip4
-    "!check=75"8. ">I"16 "had" "to" "find" "the" \tuplet 3/2 { "pas"8 "-sage" "back"8. \skip32 } \skip16 "to"16 "the"
-    "place|!check=76"8 "I" "was" "be"16 "-fore."4 \skip16 \skip4
-    "!check=77"8 ">\"Re"16 "-lax,\""8. "said"16 "the" "night|!bg=img=../night.png"8 "man," "!bg=" "\"We"16 "are"
-    "!check=78"8 "pro"16 "-grammed"8 "to"16 "re"8 "-ceive."4 \skip4
-    "!check=79"8 ">You"16 "can" "check" "out" "an" "-y"8 "time" "you"16 "like,"8 \skip8
-    "!check=80"16 ">but" "you" "can"8 "nev"16 "-er"8 "leave.\""4 \skip4
+    "!mark=Verse 6|!check=73|-"8 ">Last" "thing"16 "I"8 "re"16 "-mem"8 "-ber" "-" "I"16 "was"
+    "!check=74|-"8 "run"16 "-ning"8 "for"16 "the" "door."4 \skip16 "-"4
+    "!check=75|-"8. ">I"16 "had" "to" "find" "the" \tuplet 3/2 { "pas"8 "-sage" "back"8. \skip32 } "-"16 "to" "the"
+    "place|!check=76"8 "I" "was" "be"16 "-fore."4 \skip16 "-"4
+    "!check=77|-"8 ">\"Re"16 "-lax,\""8. "said"16 "the" "night|!bg=img=../night.png"8 "man," "!bg=|-" "\"We"16 "are"
+    "!check=78|-"8 "pro"16 "-grammed"8 "to"16 "re"8 "-ceive."4 "-"
+    "!check=79|-"8 ">You"16 "can" "check" "out" "an" "-y"8 "time" "you"16 "like,"8 "-"
+    "!check=80|-"16 ">but" "you" "can"8 "nev"16 "-er"8 "leave.\""4 "-"
 \mymark "Solo" #81
-    "!mark=Solo|!check=81|-"2. "@@"32 \skip8. \skip32
-    "!check=82"1
-    "!check=83"1
-    "!check=84"1
-    "!check=85"1
-    "!check=86"1
-    "!check=87"1
-    "!check=88"1
-    "!check=89"1
-    "!check=90"1
-    "!check=91"1
-    "!check=92"1
-    "!check=93"1
-    "!check=94"1
-    "!check=95"1
-    "!check=96"1
-    "!check=97"1
-    "!check=98"1
-    "!check=99"1
-    "!check=100"1
-    "!check=101"1
-    "!check=102"1
-    "!check=103"1
-    "!check=104"1
-    "!check=105"1
-    "!check=106"1
-    "!check=107"1
-    "!check=108"1
-    "!check=109"1
-    "!check=110"1
-    "!check=111"1
-    "!check=112"1
-    "!check=113"1
-    "!check=114"1
-    "!check=115"1
-    "!check=116"1
-    "!check=117"1
-    "!check=118"1
-    "!check=119"1
-    "!check=120"1
-    "!check=121"1
+    "!mark=Solo|!check=81|-"2. "@@"32 "-"8. \skip32
+    "!check=82|-"1
+    "!check=83|-"1
+    "!check=84|-"1
+    "!check=85|-"1
+    "!check=86|-"1
+    "!check=87|-"1
+    "!check=88|-"1
+    "!check=89|-"1
+    "!check=90|-"1
+    "!check=91|-"1
+    "!check=92|-"1
+    "!check=93|-"1
+    "!check=94|-"1
+    "!check=95|-"1
+    "!check=96|-"1
+    "!check=97|-"1
+    "!check=98|-"1
+    "!check=99|-"1
+    "!check=100|-"1
+    "!check=101|-"1
+    "!check=102|-"1
+    "!check=103|-"1
+    "!check=104|-"1
+    "!check=105|-"1
+    "!check=106|-"1
+    "!check=107|-"1
+    "!check=108|-"1
+    "!check=109|-"1
+    "!check=110|-"1
+    "!check=111|-"1
+    "!check=112|-"1
+    "!check=113|-"1
+    "!check=114|-"1
+    "!check=115|-"1
+    "!check=116|-"1
+    "!check=117|-"1
+    "!check=118|-"1
+    "!check=119|-"1
+    "!check=120|-"1
+    "!check=121|-"1
 }

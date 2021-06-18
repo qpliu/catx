@@ -1,6 +1,6 @@
 vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
-    "!check=1"4 ">@"2 "@"4
+    "!check=1|-"4 ">@"2 "@"4
     "!check=2"4 "@"2 "@"4
     "!check=3"4 "@"2 "@"4
     "!check=4"4 "@"2 "@"4
@@ -8,111 +8,111 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "!check=6"4 "@|!bg=4"2 "@|!bg=3"4
     "!check=7"4 "@|!bg=2"2 "@|!bg=1"4
 \mymark "Verse" #8
-    "!mark=Verse|!check=8|-"4 "outside|!bg="8 \skip4 "there's"8 \skip8 "a"8
-    "box|!check=9"4 "car" "waiting"8 \skip4.
-    "!check=10"4 ">outside"8 \skip4 "the"8 \skip8 "fam-"8
-    "!check=11"8 "ily"4 "stew___" \skip4.
-    "!check=12"4. ">out"8 \skip8 "-by"8 \skip8 "the"8
-    "fi-|!check=13"4 "re" "breathing"8 \skip4.
-    "!check=14"4 ">outside"8 \skip4 "we"8 \skip8 "wait"8
-    "!check=15"8 "til"4 "face" "turns"4.
-    "blue|!check=16"4 \skip8 "i"8 \skip8 "know"8 \skip8 "the"8
-    "nervous|!check=17"8 \skip4 ">wal-"4 "king" \skip8
-    "!check=18"4 "i"8 "know" \skip8 "the"8 \skip8 "dir-"8
-    "!check=19"8 "ty"4 "beard" "hangs__"4.
-    "!check=20"4. ">out"8 \skip8 "-by"8 \skip8 "the"8
-    "box|!check=21"8 "car"4 "wai-" "ting_"8 \skip4
-    "!check=22"8 "take"4 "me away"8 \skip2
-    ">to|!check=23"4 "nowhere plains" \skip2
+    "!mark=Verse|!check=8"4 "outside|!bg="8 "-"4 "there's"8 "-" "a"
+    "box|!check=9"4 "car" "waiting"8 "-"4.
+    "!check=10|-"4 ">outside"8 "-"4 "the"8 "-" "fam-"
+    "!check=11|-"8 "ily"4 "stew___" "-"4.
+    "!check=12|-"4. ">out"8 "-" "-by" "-" "the"
+    "fi-|!check=13"4 "re" "breathing"8 "-"4.
+    "!check=14|-"4 ">outside"8 "-"4 "we"8 "-" "wait"
+    "!check=15|-"8 "til"4 "face" "turns"4.
+    "blue|!check=16"4 "-"8 "i" "-" "know" "-" "the"
+    "nervous|!check=17"8 "-"4 ">wal-" "king" "-"8
+    "!check=18|-"4 "i"8 "know" "-" "the" "-" "dir-"
+    "!check=19|-"8 "ty"4 "beard" "hangs__"4.
+    "!check=20|-"4. ">out"8 "-" "-by" "-" "the"
+    "box|!check=21"8 "car"4 "wai-" "ting_"8 "-"4
+    "!check=22|-"8 "take"4 "me away"8 "-"2
+    ">to|!check=23"4 "nowhere plains" "-"2
 \mymark "" #24
-    "!mark=|!check=24|-"8 ">there is a" \skip4 "wait"4 "so"
-    "long|!check=25"8 \skip8 "so"4 "long__"8 \skip8 "so"4
-    "long|!check=26"8 "we'll " "never wait" \skip4. ">so"4
+    "!mark=|!check=24|-"8 ">there is a" "-"4 "wait" "so"
+    "long|!check=25"8 "-" "so"4 "long__"8 "-" "so"4
+    "long|!check=26"8 "we'll " "never wait" "-"4. ">so"4
 \mymark "Chorus" #27
     "!mark=Chorus|!check=27|-"4 "long"2.
-    "!check=28"4. "here"4 "comes your" \skip8
-    "man__|!check=29"8 \skip2. \skip8
-    "!check=30"4. ">here"4 "comes your" \skip8
-    "man__|!check=31"8 \skip2. \skip8
-    "!check=32"4. ">here"4 "comes your" \skip8
+    "!check=28|-"4. "here"4 "comes your" "-"8
+    "man__|!check=29"8 "-"2. \skip8
+    "!check=30|-"4. ">here"4 "comes your" "-"8
+    "man__|!check=31"8 "-"2. \skip8
+    "!check=32|-"4. ">here"4 "comes your" "-"8
 \mymark "Riff 1" #33
-    "man__|!mark=Riff 1|!check=33"8 \skip2 \skip8 ">@"4
+    "man__|!mark=Riff 1|!check=33"8 "-"2 \skip8 ">@"4
     "!check=34"4 "@"2 "@"4
     "!check=35"4 "@"2 "@"4
     "!check=36"4 "@"2 "@"4
 \mymark "Verse" #37
-    "!mark=Verse|!check=37|-"4 "big"8 "shakes" \skip8 "on"8 \skip8 "a"8
-    "box|!check=38"4 "car" "moving"8 \skip4.
-    "!check=39"4 ">big shake"8 \skip4 "to"8 "the" "land"
-    "!check=40|       that's falling"4 \skip2.
-    ">down|!check=41"4 "is "8 "a" "wind" \skip8 "makes a"8 \skip8
-    "palm stop blowing|!check=42"4 \skip2 \skip8 ">a"8
-    "big|!check=43"4 "big" "stone fall and" \skip4
-    "break my|!check=44"4 \skip4 "crown"8 \skip4.
+    "!mark=Verse|!check=37"4 "big"8 "shakes" "-" "on" "-" "a"
+    "box|!check=38"4 "car" "moving"8 "-"4.
+    "!check=39|-"4 ">big shake"8 "-"4 "to"8 "the" "land"
+    "!check=40|       that's falling"4 "-"2.
+    ">down|!check=41"4 "is "8 "a" "wind" "-" "makes a" "-"
+    "palm stop blowing|!check=42"4 "-"2 \skip8 ">a"8
+    "big|!check=43"4 "big" "stone fall and" "-"
+    "break my|!check=44"4 "-" "crown"8 "-"4.
 \mymark "" #45
-    "!mark=|!check=45|-"8 ">there is a" \skip4 "wait"4 "so"
-    "long|!check=46"8 \skip8 "so"4 "long__"8 \skip8 "so"4
-    "long|!check=47"8 "we'll " "never wait" \skip4. ">so"4
+    "!mark=|!check=45|-"8 ">there is a" "-"4 "wait" "so"
+    "long|!check=46"8 "-" "so"4 "long__"8 "-" "so"4
+    "long|!check=47"8 "we'll " "never wait" "-"4. ">so"4
 \mymark "Chorus" #48
     "!mark=Chorus|!check=48|-"4 "long"2.
-    "!check=49"4. "here"4 "comes your" \skip8
-    "man__|!check=50"8 \skip2. \skip8
-    "!check=51"4. ">here"4 "comes your" \skip8
-    "man__|!check=52"8 \skip2. \skip8
-    "!check=53"4. ">here"4 "comes your" \skip8
-    "man_____|!check=54"2. \skip4
-    "!check=55"4. ">here"4 "comes your" \skip8
+    "!check=49|-"4. "here"4 "comes your" "-"8
+    "man__|!check=50"8 "-"2. \skip8
+    "!check=51|-"4. ">here"4 "comes your" "-"8
+    "man__|!check=52"8 "-"2. \skip8
+    "!check=53|-"4. ">here"4 "comes your" "-"8
+    "man_____|!check=54"2. "-"4
+    "!check=55|-"4. ">here"4 "comes your" "-"8
 \mymark "Riff 2" #56
-    "man__|!mark=Riff 2|!check=56"8 \skip2 ">@"4.
+    "man__|!mark=Riff 2|!check=56"8 "-"2 ">@"4.
     "!check=57"8 "@"2 "@"4.
     "!check=58"8 "@"2 "@|!bg=4"4.
     "!check=59"8 "@|!bg=3"2 "@|!bg=2"4.
     "!check=60"8 "@|!bg=1"2 "oh|!bg="4 "y-"8
-    "eah|!check=61"2 \skip2
-    "!check=62"2 \skip8 ">oh"4 "y-"8
+    "eah|!check=61"2 "-"
+    "!check=62|-"2 \skip8 ">oh"4 "y-"8
     "eah|!check=63"2. "ah"4
 \mymark "" #64
     "ooooh|!mark=|!check=64"1
-    "!check=65"2. ">@"4
+    "!check=65|-"2. ">@"4
     "!check=66"4 "@"2 "@"4
     "!check=67"4 "@"2 "ah"4
     "oooh|!check=68"1
-    "!check=69"2 \skip8 ">@"4.
+    "!check=69|-"2 \skip8 ">@"4.
     "!check=70"8 "@"2 "@"4.
     "!check=71"8 "@"2 "@"4.
 \mymark "" #72
-    "!mark=|!check=72|-"8 "there is a" \skip4 "wait"4 "so"
-    "long|!check=73"8 \skip8 "so"4 "long__"8 \skip8 "so"4
-    "long|!check=74"8 "we'll " "never wait" \skip4. ">so"4
+    "!mark=|!check=72"8 "there is a" "-"4 "wait" "so"
+    "long|!check=73"8 "-" "so"4 "long__"8 "-" "so"4
+    "long|!check=74"8 "we'll " "never wait" "-"4. ">so"4
 \mymark "Chorus" #75
     "!mark=Chorus|!check=75|-"4 "long"2.
-    "!check=76"1
-    "!check=77"4. ">here"4 "comes your" \skip8
-    "man__|!check=78"8 \skip2. \skip8
-    "!check=79"4. ">here"4 "comes your" \skip8
-    "man__|!check=80"8 \skip2. \skip8
-    "!check=81"4. ">here"4 "comes your" \skip8
-    "man_____|!check=82"2. \skip4
-    "!check=83"4. ">here"4 "comes your" \skip8
-    "man__|!check=84"8 \skip2. \skip8
-    "!check=85"4. ">here"4 "comes your" \skip8
-    "man__|!check=86"8 \skip2. \skip8
-    "!check=87"4. ">here"4 "comes your" \skip8
-    "man__|!check=88"8 \skip2. \skip8
-    "!check=89"4. ">here"4 "comes your" \skip8
-    "man_____|!check=90"2. \skip4
-    "!check=91"4. ">here"4 "comes your" \skip8
-    "man_____|!check=92"2. \skip4
-    "!check=93"4. ">here"4 "comes your" \skip8
-    "man__|!check=94"8 \skip2. \skip8
-    "!check=95"4. ">here"4 "comes your" \skip8
-    "man__|!check=96"8 \skip2. \skip8
-    "!check=97"4. ">here"4 "comes your" \skip8
-    "man_____|!check=98"2. \skip4
-    "!check=99"4. ">here"4 "comes your" \skip8
-    "man_____|!check=100"2. \skip4
-    "!check=101"4. ">here"4 "comes your" \skip8
-    "man__|!check=102"8 \skip2. \skip8
-    "!check=103"8 "@@"32 \skip2. \skip16.
-    "!check=104"1
+    "!check=76|-"1
+    "!check=77|-"4. ">here"4 "comes your" "-"8
+    "man__|!check=78"8 "-"2. \skip8
+    "!check=79|-"4. ">here"4 "comes your" "-"8
+    "man__|!check=80"8 "-"2. \skip8
+    "!check=81|-"4. ">here"4 "comes your" "-"8
+    "man_____|!check=82"2. "-"4
+    "!check=83|-"4. ">here"4 "comes your" "-"8
+    "man__|!check=84"8 "-"2. \skip8
+    "!check=85|-"4. ">here"4 "comes your" "-"8
+    "man__|!check=86"8 "-"2. \skip8
+    "!check=87|-"4. ">here"4 "comes your" "-"8
+    "man__|!check=88"8 "-"2. \skip8
+    "!check=89|-"4. ">here"4 "comes your" "-"8
+    "man_____|!check=90"2. "-"4
+    "!check=91|-"4. ">here"4 "comes your" "-"8
+    "man_____|!check=92"2. "-"4
+    "!check=93|-"4. ">here"4 "comes your" "-"8
+    "man__|!check=94"8 "-"2. \skip8
+    "!check=95|-"4. ">here"4 "comes your" "-"8
+    "man__|!check=96"8 "-"2. \skip8
+    "!check=97|-"4. ">here"4 "comes your" "-"8
+    "man_____|!check=98"2. "-"4
+    "!check=99|-"4. ">here"4 "comes your" "-"8
+    "man_____|!check=100"2. "-"4
+    "!check=101|-"4. ">here"4 "comes your" "-"8
+    "man__|!check=102"8 "-"2. \skip8
+    "!check=103|-"8 "@@"32 "-"2. \skip16.
+    "!check=104|-"1
 }

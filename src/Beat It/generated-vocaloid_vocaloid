@@ -1,151 +1,151 @@
 vocaloidVocaloid = \new Lyrics \lyricmode {
 \mymark "Intro" #1
-    "!mark=Intro|!check=1"1
-    "!check=2"1
-    "!check=3"1
-    "!check=4"1
-    "!check=5"1
-    "!check=6"1
-    "!check=7"1
-    "!check=8"1
-    "!check=9"1
-    "!check=10"1
-    "!check=11"1
-    "!check=12"1
-    "!check=13"1
-    "!check=14"1
-    "!check=15"1
-    "!check=16"1
-    "!check=17"1
-    "!check=18"1
-    "!check=19"1
-    "!check=20"1
-    "!check=21"1
-    "!check=22"1
+    "!mark=Intro|!check=1|."1
+    "!check=2|."1
+    "!check=3|."1
+    "!check=4|."1
+    "!check=5|."1
+    "!check=6|."1
+    "!check=7|."1
+    "!check=8|."1
+    "!check=9|."1
+    "!check=10|."1
+    "!check=11|."1
+    "!check=12|."1
+    "!check=13|."1
+    "!check=14|."1
+    "!check=15|."1
+    "!check=16|."1
+    "!check=17|."1
+    "!check=18|."1
+    "!check=19|."1
+    "!check=20|."1
+    "!check=21|."1
+    "!check=22|."1
 \mymark "Verse 1" #23
-    "!mark=Verse 1|!check=23"8 "(D'eI)" "(t'oUld)" "(h'Im)" "(d'oUnt)" "(j'u:)" "('E)" "(v3)"
-    "(k'Vm)|!check=24"8 "(a#)" "(r'aUnd)" \skip8 "(h'i@3)"8 \skip4 "(d'oUnt)"8
-    "(w'0)|!check=25"8 "(n@)" "(s'i:)" "(j'O@)" "(f'eIs)" "(j'u:)" "(b'E)" "(t3)"
-    "(d,I)|!check=26"8 "(sa#)" "(p'i@3)" \skip2 "(D'@)"8
-    "(f'aI)|!check=27"8 "(@z)" "('In)" "(D'e@)" "('aIz)" \skip8 "('and)"8 "(D'e@)"
-    "(w'3:dz)|!check=28"8 "('A@)" "(r'i@)" "(lI)" "(kl'i@3)" \skip8 "(s'oU)"8 \skip8
-    "(b'i:t)|!check=29"8 "('It)" \skip2 "(dZ'Vst)"8 \skip8
-    "(b'i:t)|!check=30"8 "('It)" \skip2.
-    "!check=31"8 "(j'u:)" "(b'E)" "(t3)" "(r'Vn)" "(j'u:)" "(b'E)" "(t3)"
-    "(d'u:)|!check=32"8 "(w'0t)" "(j'u:)" \skip8 "(k'an)"8 \skip4 "(d'oUnt)"8
-    "(w'0)|!check=33"8 "(n@)" "(s'i:)" "(n'oU)" "(bl'Vd)" "(d'oUnt)" "(b'i:)" "('eI)"
-    "(m'a)|!check=34"8 "(tSoU)" "(m'an)" \skip2 "(j'u:)"8
-    "(w'0)|!check=35"8 "(n@)" "(b'i:)" \skip8 "(t'Vf)"8 \skip8 "(b'E)"8 "(t3)"
-    "(d'u:)|!check=36"8 "(w'0t)" "(j'u:)" \skip8 "(k'an)"8 \skip8 "(s'oU)"8 \skip8
-    "(b'i:t)|!check=37"8 "('It)" \skip2 "(b'Vt)"8 "(j'u:)"
-    "(w'0)|!check=38"8 "(n@)" "(b'i:)" \skip8 "(b'ad)"8 \skip8 "(dZ'Vst)"8 \skip8
+    "!mark=Verse 1|!check=23|."8 "They" "told" "him" "don't" "you" "('E)" "(v3)"
+    "come|!check=24"8 "(a#)" "(r'aUnd)" "." "here" "."4 "Don't"8
+    "(w'0)|!check=25"8 "(n@)" "see" "your" "face" "you" "(b'E)" "(t3)"
+    "(d,I)|!check=26"8 "(sa#)" "(p'i@3)" "."2 "The"8
+    "(f'aI)|!check=27"8 "(@z)" "in" "their" "eyes" "." "and" "their"
+    "words|!check=28"8 "are" "(r'i@)" "(lI)" "clear" "." "So" "."
+    "beat|!check=29"8 "it" "."2 "Just"8 "."
+    "beat|!check=30"8 "it" "."2.
+    "!check=31|."8 "You" "(b'E)" "(t3)" "run" "You" "(b'E)" "(t3)"
+    "do|!check=32"8 "what" "you" "." "can" "."4 "Don't"8
+    "(w'0)|!check=33"8 "(n@)" "see" "no" "blood" "Don't" "be" "a"
+    "(m'a)|!check=34"8 "(tSoU)" "man" "."2 "You"8
+    "(w'0)|!check=35"8 "(n@)" "be" "." "tough" "." "(b'E)" "(t3)"
+    "do|!check=36"8 "what" "you" "." "can" "." "So" "."
+    "beat|!check=37"8 "it" "."2 "But"8 "you"
+    "(w'0)|!check=38"8 "(n@)" "be" "." "bad" "." "Just" "."
 \mymark "Chorus" #39
-    "(b'i:t)|!mark=Chorus|!check=39"8 "('It)"4. "(b'i:t)"8 "('It)"4.
-    "(b'i:t)|!check=40"8 "('It)"4. "(b'i:t)"8 "('It)"4 "(n'oU)"8
-    "!check=41"8 "(w'0n)" "(w'0nts)" "(t'u:)" "(b'i:)" \skip8 "(dI2)"8 "(f'i:)"
-    "!check=42"8 "(tI2d)" \skip2 \skip8 "(S'oU)"8
-    "!check=43"8 "(h'Im)" "(h'aU)" \skip8 "(f'VN)"8 "(ki)" "('and)" "(str'0N)"
-    "!check=44"8 "('Iz)" "(j'O@)" \skip8 "(f'aIt)"8 \skip4 "('It)"8
-    "!check=45"8 "(d'V)" "(z@nt)" \skip8 "(m'a)"8 "(t3)" \skip8 "(h'u:z)"8
-    "!check=46"8 "(r'0N)" "('O@)" \skip8 "(r'aIt)"8 \skip8 "(dZ'Vst)"8 \skip8
-    "(b'i:t)|!check=47"8 "('It)" \skip2 "(dZ'Vst)"8 \skip8
-    "(b'i:t)|!check=48"8 "('It)" \skip2 "(dZ'Vst)"8 \skip8
-    "(b'i:t)|!check=49"8 "('It)" \skip2 "(dZ'Vst)"8 \skip8
-    "(b'i:t)|!check=50"8 "('It)" \skip2.
+    "beat|!mark=Chorus|!check=39"8 "it"4. "beat"8 "it"4.
+    "Beat|!check=40"8 "it"4. "beat"8 "it"4 "No"8
+    "!check=41|."8 "one" "wants" "to" "be" "." "(dI2)" "(f'i:)"
+    "!check=42"8 "(tI2d)" "."2 \skip8 "Show"8
+    "!check=43"8 "him" "how" "." "(f'VN)" "(ki)" "and" "strong"
+    "!check=44"8 "is" "your" "." "fight" "."4 "It"8
+    "!check=45"8 "(d'V)" "(z@nt)" "." "(m'a)" "(t3)" "." "who's"
+    "!check=46"8 "wrong" "or" "." "right" "." "Just" "."
+    "beat|!check=47"8 "it" "."2 "Just"8 "."
+    "beat|!check=48"8 "it" "."2 "Just"8 "."
+    "beat|!check=49"8 "it" "."2 "Just"8 "."
+    "beat|!check=50"8 "it" "."2.
 \mymark "Verse 2" #51
-    "!mark=Verse 2|!check=51"8 "(DeI'3)" "('aUt)" "(t'u:)" "(g'Et)" "(j'u:)" "(b'E)" "(t3)"
-    "(l'i:v)|!check=52"8 "(w'aIl)" "(j'u:)" \skip8 "(k'an)"8 \skip4 "(d'oUnt)"8
-    "(w'0)|!check=53"8 "(n@)" "(b'i:)" "('eI)" "(b'OI)" "(j'u:)" "(w'0)" "(n@)"
-    "(b'i:)|!check=54"8 "('eI)" "(m'an)" \skip2 "(j'u:)"8
-    "(w'0)|!check=55"8 "(n@)" "(st'eI)" "(a#)" "(l'aIv)" \skip8 "(b'E)"8 "(t3)"
-    "(d'u:)|!check=56"8 "(w'0t)" "(j'u:)" \skip8 "(k'an)"8 \skip8 "(s'oU)"8 \skip8
-    "(b'i:t)|!check=57"8 "('It)" \skip2 "(dZ'Vst)"8 \skip8
-    "(b'i:t)|!check=58"8 "('It)" \skip2.
-    "!check=59"8 "(j'u:)" "(h'av)" "(t'u:)" "(S'oU)" "(D'Em)" "(D'at)" "(j'O@)"
-    "(r'i@)|!check=60"8 "(lI)" "(n'0t)" \skip8 "(sk'e@d)"8 \skip4 "(j'O@)"8
-    "(pl'eI)|!check=61"8 "(In)" "(w'ID)" "(j'O@)" "(l'aIf)" "(D'Is)" "('eInt)" "(n'oU)"
-    "(tr'u:T)|!check=62"8 "('O@)" "(d'e@)" \skip2 "(D'eIl)"8
-    "(k'Ik)|!check=63"8 "(j'u:)" "(D'En)" "(D'eIl)" "(b'i:t)" "(j'u:)" "('and)" "(D'eIl)"
-    "(t'El)|!check=64"8 "(j'u:)" "('Its)" \skip8 "(f'e@)"8 \skip8 "(s'oU)"8 \skip8
-    "(b'i:t)|!check=65"8 "('It)" \skip2 "(b'Vt)"8 "(j'u:)"
-    "(w'0)|!check=66"8 "(n@)" "(b'i:)" \skip8 "(b'ad)"8 \skip8 "(dZ'Vst)"8 \skip8
+    "!mark=Verse 2|!check=51|."8 "They're" "out" "to" "get" "you" "(b'E)" "(t3)"
+    "leave|!check=52"8 "while" "you" "." "can" "."4 "Don't"8
+    "(w'0)|!check=53"8 "(n@)" "be" "a" "boy" "you" "(w'0)" "(n@)"
+    "be|!check=54"8 "a" "man" "."2 "You"8
+    "(w'0)|!check=55"8 "(n@)" "stay" "(a#)" "(l'aIv)" "." "(b'E)" "(t3)"
+    "do|!check=56"8 "what" "you" "." "can" "." "So" "."
+    "beat|!check=57"8 "it" "."2 "Just"8 "."
+    "beat|!check=58"8 "it" "."2.
+    "!check=59|."8 "You" "have" "to" "show" "them" "that" "your"
+    "(r'i@)|!check=60"8 "(lI)" "not" "." "scared" "."4 "Your"8
+    "(pl'eI)|!check=61"8 "(In)" "with" "your" "life" "this" "aint" "no"
+    "truth|!check=62"8 "or" "dare" "."2 "They'll"8
+    "kick|!check=63"8 "you" "then" "they'll" "beat" "you" "and" "they'll"
+    "tell|!check=64"8 "you" "it's" "." "fair" "." "So" "."
+    "beat|!check=65"8 "it" "."2 "But"8 "you"
+    "(w'0)|!check=66"8 "(n@)" "be" "." "bad" "." "Just" "."
 \mymark "Chorus" #67
-    "(b'i:t)|!mark=Chorus|!check=67"8 "('It)"4. "(b'i:t)"8 "('It)"4.
-    "(b'i:t)|!check=68"8 "('It)"4. "(b'i:t)"8 "('It)"4 "(n'oU)"8
-    "!check=69"8 "(w'0n)" "(w'0nts)" "(t'u:)" "(b'i:)" \skip8 "(dI2)"8 "(f'i:)"
-    "!check=70"8 "(tI2d)" \skip2 \skip8 "(S'oU)"8
-    "!check=71"8 "(D'Em)" "(h'aU)" \skip8 "(f'VN)"8 "(ki)" "('and)" "(str'0N)"
-    "!check=72"8 "('Iz)" "(j'O@)" \skip8 "(f'aIt)"8 \skip4 "('It)"8
-    "!check=73"8 "(d'V)" "(z@nt)" \skip8 "(m'a)"8 "(t3)" \skip8 "(h'u:z)"8
-    "!check=74"8 "(r'0N)" "('O@)" \skip8 "(r'aIt)"8 \skip8 "(dZ'Vst)"8 \skip8
-    "(b'i:t)|!check=75"8 "('It)"4. "(b'i:t)"8 "('It)"4.
-    "(b'i:t)|!check=76"8 "('It)"4. "(b'i:t)"8 "('It)"4 "(n'oU)"8
-    "!check=77"8 "(w'0n)" "(w'0nts)" "(t'u:)" "(b'i:)" \skip8 "(dI2)"8 "(f'i:)"
-    "!check=78"8 "(tI2d)" \skip2 \skip8 "(S'oU)"8
-    "!check=79"8 "(D'Em)" "(h'aU)" \skip8 "(f'VN)"8 "(ki)" "('and)" "(str'0N)"
-    "!check=80"8 "('Iz)" "(j'O@)" \skip8 "(f'aIt)"8 \skip4 "('It)"8
-    "!check=81"8 "(d'V)" "(z@nt)" \skip8 "(m'a)"8 "(t3)" \skip8 "(h'u:z)"8
-    "!check=82"8 "(r'0N)" "('O@)" \skip8 "(r'aIt)"8 \skip8 "(dZ'Vst)"8 \skip8
+    "beat|!mark=Chorus|!check=67"8 "it"4. "beat"8 "it"4.
+    "Beat|!check=68"8 "it"4. "beat"8 "it"4 "No"8
+    "!check=69"8 "one" "wants" "to" "be" "." "(dI2)" "(f'i:)"
+    "!check=70|."8 "(tI2d)" "."2 \skip8 "Show"8
+    "!check=71"8 "them" "how" "." "(f'VN)" "(ki)" "and" "strong"
+    "!check=72"8 "is" "your" "." "fight" "."4 "It"8
+    "!check=73"8 "(d'V)" "(z@nt)" "." "(m'a)" "(t3)" "." "who's"
+    "!check=74"8 "wrong" "or" "." "right" "." "Just" "."
+    "beat|!check=75"8 "it"4. "beat"8 "it"4.
+    "Beat|!check=76"8 "it"4. "beat"8 "it"4 "No"8
+    "!check=77"8 "one" "wants" "to" "be" "." "(dI2)" "(f'i:)"
+    "!check=78|."8 "(tI2d)" "."2 \skip8 "Show"8
+    "!check=79"8 "them" "how" "." "(f'VN)" "(ki)" "and" "strong"
+    "!check=80"8 "is" "your" "." "fight" "."4 "It"8
+    "!check=81"8 "(d'V)" "(z@nt)" "." "(m'a)" "(t3)" "." "who's"
+    "!check=82"8 "wrong" "or" "." "right" "." "Just" "."
 \mymark "Bridge" #83
-    "(b'i:t)|!mark=Bridge|!check=83"8 "('It)" "(b'i:t)" "('It)" "(b'i:t)" "('It)" "(b'i:t)" "('It)"
-    "!check=84"2 "(b'i:t)"8 "('It)" "(b'i:t)" "('It)"
-    "(b'i:t)|!check=85"8 "('It)" \skip2.
-    "!check=86"1
-    "!check=87"1
-    "!check=88"2 "(b'i:t)"8 "('It)" "(b'i:t)" "('It)"
-    "(b'i:t)|!check=89"8 "('It)" "(b'i:t)" "('It)" \skip2
-    "(b'i:t)|!check=90"8 "('It)" "(b'i:t)" "('It)" \skip2
-    "!check=91"1
-    "!check=92"1
-    "!check=93"1
-    "(b'i:t)|!check=94"8 "('It)" "(b'i:t)" "('It)" "(b'i:t)" "('It)" \skip4
-    "!check=95"1
-    "!check=96"1
-    "!check=97"1
-    "!check=98"1
+    "beat|!mark=Bridge|!check=83"8 "it" "beat" "it" "Beat" "it" "beat" "it"
+    "!check=84|."2 "Beat"8 "it" "beat" "it"
+    "Beat|!check=85"8 "it" "."2.
+    "!check=86|."1
+    "!check=87|."1
+    "!check=88|."2 "beat"8 "it" "Beat" "it"
+    "beat|!check=89"8 "it" "Beat" "it" "."2
+    "beat|!check=90"8 "it" "Beat" "it" "."2
+    "!check=91|."1
+    "!check=92|."1
+    "!check=93|."1
+    "beat|!check=94"8 "it" "Beat" "it" "beat" "it" "."4
+    "!check=95|."1
+    "!check=96|."1
+    "!check=97|."1
+    "!check=98|."1
 \mymark "Solo" #99
-    "!mark=Solo|!check=99"1
-    "!check=100"1
-    "!check=101"1
-    "!check=102"1
-    "!check=103"1
-    "!check=104"1
-    "!check=105"1
-    "!check=106"1
-    "!check=107"1
-    "!check=108"1
-    "!check=109"1
-    "!check=110"1
-    "!check=111"1
-    "!check=112"1
-    "!check=113"1
-    "!check=114"1
+    "!mark=Solo|!check=99|."1
+    "!check=100|."1
+    "!check=101|."1
+    "!check=102|."1
+    "!check=103|."1
+    "!check=104|."1
+    "!check=105|."1
+    "!check=106|."1
+    "!check=107|."1
+    "!check=108|."1
+    "!check=109|."1
+    "!check=110|."1
+    "!check=111|."1
+    "!check=112|."1
+    "!check=113|."1
+    "!check=114|."1
 \mymark "Chorus" #115
-    "(b'i:t)|!mark=Chorus|!check=115"8 "('It)"4. "(b'i:t)"8 "('It)"4.
-    "(b'i:t)|!check=116"8 "('It)"4. "(b'i:t)"8 "('It)"4 "(n'oU)"8
-    "!check=117"8 "(w'0n)" "(w'0nts)" "(t'u:)" "(b'i:)" \skip8 "(dI2)"8 "(f'i:)"
-    "!check=118"8 "(tI2d)" \skip2 \skip8 "(S'oU)"8
-    "!check=119"8 "(D'Em)" "(h'aU)" \skip8 "(f'VN)"8 "(ki)" "('and)" "(str'0N)"
-    "!check=120"8 "('Iz)" "(j'O@)" \skip8 "(f'aIt)"8 \skip4 "('It)"8
-    "!check=121"8 "(d'V)" "(z@nt)" \skip8 "(m'a)"8 "(t3)" \skip8 "(h'u:z)"8
-    "!check=122"8 "(r'0N)" "('O@)" \skip8 "(r'aIt)"8 \skip8 "(dZ'Vst)"8 \skip8
+    "Beat|!mark=Chorus|!check=115"8 "it"4. "beat"8 "it"4.
+    "Beat|!check=116"8 "it"4. "beat"8 "it"4 "No"8
+    "!check=117"8 "one" "wants" "to" "be" "." "(dI2)" "(f'i:)"
+    "!check=118|."8 "(tI2d)" "."2 \skip8 "Show"8
+    "!check=119"8 "them" "how" "." "(f'VN)" "(ki)" "and" "strong"
+    "!check=120"8 "is" "your" "." "fight" "."4 "It"8
+    "!check=121"8 "(d'V)" "(z@nt)" "." "(m'a)" "(t3)" "." "who's"
+    "!check=122"8 "wrong" "or" "." "right" "." "Just" "."
 \mymark "Outro" #123
-    "(b'i:t)|!mark=Outro|!check=123"8 "('It)"4. "(b'i:t)"8 "('It)"4.
-    "(b'i:t)|!check=124"8 "('It)"4. "(b'i:t)"8 "('It)"4 "(n'oU)"8
-    "!check=125"8 "(w'0n)" "(w'0nts)" "(t'u:)" "(b'i:)" \skip8 "(dI2)"8 "(f'i:)"
-    "!check=126"8 "(tI2d)" \skip2 \skip8 "(S'oU)"8
-    "!check=127"8 "(D'Em)" "(h'aU)" \skip8 "(f'VN)"8 "(ki)" "('and)" "(str'0N)"
-    "!check=128"8 "('Iz)" "(j'O@)" \skip8 "(f'aIt)"8 \skip4 "('It)"8
-    "!check=129"8 "(d'V)" "(z@nt)" \skip8 "(m'a)"8 "(t3)" \skip8 "(h'u:z)"8
-    "!check=130"8 "(r'0N)" "('O@)" \skip8 "(r'aIt)"8 \skip8 "(dZ'Vst)"8 \skip8
-    "(b'i:t)|!check=131"8 "('It)"4. "(b'i:t)"8 "('It)"4.
-    "(b'i:t)|!check=132"8 "('It)"4. "(b'i:t)"8 "('It)"4 "(n'oU)"8
-    "!check=133"8 "(w'0n)" "(w'0nts)" "(t'u:)" "(b'i:)" \skip8 "(dI2)"8 "(f'i:)"
-    "!check=134"8 "(tI2d)" \skip2 \skip8 "(S'oU)"8
-    "!check=135"8 "(D'Em)" "(h'aU)" \skip8 "(f'VN)"8 "(ki)" "('and)" "(str'0N)"
-    "!check=136"8 "('Iz)" "(j'O@)" \skip8 "(f'aIt)"8 \skip4 "('It)"8
-    "!check=137"8 "(d'V)" "(z@nt)" \skip8 "(m'a)"8 "(t3)" \skip8 "(h'u:z)"8
-    "!check=138"8 "(r'0N)" "('O@)" \skip8 "(r'aIt)"8 \skip8 "(dZ'Vst)"8 \skip8
-    "!check=139"1
-    "!check=140"1
+    "beat|!mark=Outro|!check=123"8 "it"4. "beat"8 "it"4.
+    "Beat|!check=124"8 "it"4. "beat"8 "it"4 "No"8
+    "!check=125"8 "one" "wants" "to" "be" "." "(dI2)" "(f'i:)"
+    "!check=126|."8 "(tI2d)" "."2 \skip8 "Show"8
+    "!check=127"8 "them" "how" "." "(f'VN)" "(ki)" "and" "strong"
+    "!check=128"8 "is" "your" "." "fight" "."4 "It"8
+    "!check=129"8 "(d'V)" "(z@nt)" "." "(m'a)" "(t3)" "." "who's"
+    "!check=130"8 "wrong" "or" "." "right" "." "Just" "."
+    "beat|!check=131"8 "it"4. "beat"8 "it"4.
+    "Beat|!check=132"8 "it"4. "beat"8 "it"4 "No"8
+    "!check=133"8 "one" "wants" "to" "be" "." "(dI2)" "(f'i:)"
+    "!check=134|."8 "(tI2d)" "."2 \skip8 "Show"8
+    "!check=135"8 "them" "how" "." "(f'VN)" "(ki)" "and" "strong"
+    "!check=136"8 "is" "your" "." "fight" "."4 "It"8
+    "!check=137"8 "(d'V)" "(z@nt)" "." "(m'a)" "(t3)" "." "who's"
+    "!check=138"8 "wrong" "or" "." "right" "." "Just" "."
+    "!check=139|."1
+    "!check=140|."1
 }

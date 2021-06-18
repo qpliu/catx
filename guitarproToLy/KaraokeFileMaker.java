@@ -19,13 +19,8 @@ final class KaraokeFileMaker extends VKFileMaker{
 	pictures.put("umbrella","../umbrella.svg");
 	pictures.put("yeah","../yeah.png");
     }
-    private static final MeasureMaker.GetWhatSuffix HYPHENSTRING_GWS=new MeasureMaker.GetWhatSuffix(){
-	@Override public String getWhat(boolean is_lhs,boolean is_rhs){
-	    return is_lhs?"\"-\"":"\\skip";
-	}
-    };
     KaraokeFileMaker(Main main,Arg arg)throws IOException{
-	super(main,arg,"_karaoke","Karaoke",HYPHENSTRING_GWS);
+	super(main,arg,"_karaoke","Karaoke");
 	bounce_time = Rational.parseRational(arg.karaoke_lyrics_parameter.getOrDefault("bounce_time","2"));
 	threshold_to_add_bounce = Integer.parseInt(arg.karaoke_lyrics_parameter.getOrDefault("threshold_to_add_bounce","4"));
 	threshold_to_add_count = Integer.parseInt(arg.karaoke_lyrics_parameter.getOrDefault("threshold_to_add_count","8"));
@@ -181,5 +176,8 @@ final class KaraokeFileMaker extends VKFileMaker{
 	if (lastTime.compareTo(songEnd)>0)
 	    lastTime = songEnd;
 	trackEvents.add(new Gpfile.LyricEvent(lastTime,new Rational(1,8),"@@",false,false,which));
+    }
+    @Override String getRest(){
+	return "-";
     }
 }

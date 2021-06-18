@@ -1,11 +1,9 @@
 import java.io.*;
 import java.util.*;
 
-class ChoppedTrackFileMaker extends TrackFileMaker{
-    final MeasureMaker.GetWhatSuffix skip;
-    ChoppedTrackFileMaker(Main main,Arg arg,String fn,String suffix,String lyname,MeasureMaker.GetWhatSuffix skip)throws IOException{
+abstract class ChoppedTrackFileMaker extends TrackFileMaker{
+    ChoppedTrackFileMaker(Main main,Arg arg,String fn,String suffix,String lyname)throws IOException{
 	super(main,arg,fn,suffix,lyname);
-	this.skip = skip;
     }
     final Queue<Gpfile.Event>getFilteredEvents(Collection<Gpfile.Event>events){
 	Queue<Gpfile.Event>q=new PriorityQueue<Gpfile.Event>();
@@ -40,13 +38,12 @@ class ChoppedTrackFileMaker extends TrackFileMaker{
 		l.set(i,ee[0]);
 	    }
 	    Collections.sort(l);
-	    mm.make(e.time,skip);
+	    mm.make(e.time,getRestGetWhatSuffix());
 	    mm.make(end,getGetWhatSuffix(l));
 	}
-	mm.make(measure.time.add(measure.time_n),skip);
+	mm.make(measure.time.add(measure.time_n),getRestGetWhatSuffix());
 	return mm.tail();
     }
-    MeasureMaker.GetWhatSuffix getGetWhatSuffix(List<Gpfile.Event>list){
-	return null;
-    }
+    abstract MeasureMaker.GetWhatSuffix getRestGetWhatSuffix();
+    abstract MeasureMaker.GetWhatSuffix getGetWhatSuffix(List<Gpfile.Event>list);
 }

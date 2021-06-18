@@ -4,7 +4,7 @@ import java.util.*;
 final class LyTrackFileMaker extends SuperTrackFileMaker{
     private boolean last_hammer;
     LyTrackFileMaker(Main main,Arg arg)throws IOException{
-	super(main,"",arg,MeasureMaker.REST);
+	super(main,"",arg);
     }
     @Override MeasureMaker.GetWhatSuffix getGetWhatSuffix(List<Gpfile.Event>list){
 	if (arg.no_chords)

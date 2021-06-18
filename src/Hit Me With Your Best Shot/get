@@ -14,7 +14,7 @@ track 4 preset bass output-lilypond \
 track 6 preset kav which-lyrics text output-lilypond output-lyrics output-karaoke \
 track 6 preset vocaloid which-lyrics vocaloid output-lilypond output-vocaloid \
 track 5 preset gg output-drums \
-track 7 preset susan output-lilypond
+track 7 preset susan output-lilypond 2>&1|tee log
 mv generated-drscolors generated-drscolors-old
 sed <generated-drscolors-old >generated-drscolors -e 's/cymr/cymrred/g'
 rm generated-drscolors-old

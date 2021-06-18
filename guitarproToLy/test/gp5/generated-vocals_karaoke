@@ -1,10 +1,10 @@
 vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
-    "!check=1"2
+    "!check=1|-"2
 \mymark "Intro" #2
     "!mark=Intro|!check=2|-"1
-    "!check=3"2 ">U"4 "wao!"8. \skip16
-    "!check=4"2 ">@"
+    "!check=3|-"2 ">U"4 "wao!"8. "-"16
+    "!check=4|-"2 ">@"
     "@|!check=5"2 "@"
     "@|!check=6"2 "@"
     "@|!check=7"2 "@"
@@ -12,63 +12,63 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "U|!mark=Verse 1A|!check=8"4 "-chu" "-u" "no"
     "ha|!check=9"4 "-te" "no" "ha"8 "-te"
     "de|!check=10"4 "-mo" \tuplet 3/2 { "KI"8 "-MI" "no" } "ko"8 "-to"
-    "o|!check=11"4 "-mo" "-u" \skip4
+    "o|!check=11"4 "-mo" "-u" "-"
     ">I|!check=12"4 "-ku" "-ta" "no"
     \tuplet 3/2 { "na|!check=13"8 "-ga" "-re" } "-boshi"4 "ni" "ne"8 "-ga"
     "-i|!check=14"4 "wo" \tuplet 3/2 { "ma"8 "-ki" "-chi" } "-ra"4
-    "-su|!check=15"2 \skip2
+    "-su|!check=15"2 "-"
 \mymark "Verse 1B" #16
-    ">Too|!mark=Verse 1B|!check=16"4 "-ku"8 "-te"4. \skip4
-    "ai|!check=17"8. "-ta"16 "-ku"8 "-te"4. \skip4
-    ">To|!check=18"16 "-doki"8. "-sou"8 "de"4. \skip4
+    ">Too|!mark=Verse 1B|!check=16"4 "-ku"8 "-te"4. "-"4
+    "ai|!check=17"8. "-ta"16 "-ku"8 "-te"4. "-"4
+    ">To|!check=18"16 "-doki"8. "-sou"8 "de"4. "-"4
     "i|!check=19"8. "-tsu"16 "-dat"8. "-te"16 "na"8. "-mi"16 "-da"8. "me"16
-    "Da|!check=20"8. "-re"16 "dat"8. "-te"4 \skip16 \skip4
-    "hoshi|!check=21"8. "to"16 "na"8 "-ri"4. \skip4
+    "Da|!check=20"8. "-re"16 "dat"8. "-te"4 \skip16 "-"4
+    "hoshi|!check=21"8. "to"16 "na"8 "-ri"4. "-"4
     ">Un|!check=22"4 "-mei?" "Shuku" "-mei?"
-    "Da|!check=23"8. "-re"16 "no"8 "se"16 "-i?"4 \skip16 \skip4
+    "Da|!check=23"8. "-re"16 "no"8 "se"16 "-i?"4 \skip16 "-"4
 \mymark "Pre-Chorus 1" #24
     ">BO|!mark=Pre-Chorus 1|!check=24"2 "-KU"8 "no"
     "su|!check=25"4 "-be" "-te"
     "sa|!check=26"2 "-sa"8 "-ge"
-    "-ru|!check=27"4. \skip8 "ka"4
-    "-ra|!check=28"8 "Ho" "-shi"8. \skip16 "-ku"8 "-zu" "no"8. \skip16
+    "-ru|!check=27"4. "-"8 "ka"4
+    "-ra|!check=28"8 "Ho" "-shi"8. "-"16 "-ku"8 "-zu" "no"8. "-"16
     ">KU|!check=29"8 "-ZU" "no"16 "na"8 "-ri"8. "-te"8 "KI"4
-    "-MI|!check=30"4. "ni"2 \skip8
+    "-MI|!check=30"4. "ni"2 "-"8
 \mymark "Chorus 1A" #31
     "ko|!mark=Chorus 1A|!check=31"4. "-i"4 "-shi"8 "tsu" "-dzu"
     "!check=32"8 "-ke"4. "-you"4 "O"
     "-mo|!check=33"4 "-i"8 "wa"2 \skip8
-    "!check=34"2 \skip2
+    "!check=34"2 "-"
     ">mo|!check=35"4. "-e"4 "-te"8 "-ru" "A"
     "!check=36"4 "-ka" \tuplet 3/2 { "-ku"4 "a" "-ka" }
     "-ku|!check=37"1
-    "!check=38"8 "hi"4. "-ka"4 "-ru"
+    "!check=38|-"8 "hi"4. "-ka"4 "-ru"
     "A|!check=39"1
-    "!check=40"8 "-N"4. "-TA"4 "-RE"
+    "!check=40|-"8 "-N"4. "-TA"4 "-RE"
     "-SU|!check=41"1
-    "!check=42"8 ">no" "yo" "-u" "ni" "Na" "-n" "-oku"
+    "!check=42|-"8 ">no" "yo" "-u" "ni" "Na" "-n" "-oku"
     "ko|!check=43"4 "-u"8 "-nen"4 "sa" "-ki"8
     "!check=44"4 "da" "-t" "-te"8 "Ka"
-    "!check=45"8 "-ma" "-wa"2 \skip4
-    "!check=46"1
+    "!check=45"8 "-ma" "-wa"2 "-"4
+    "!check=46|-"1
 \mymark "Chorus 1B" #47
     "-na|!mark=Chorus 1B|!check=47"4. "-i!"4 ">Sou"8 "su" "-ki"
     "!check=48"8 "da"4. "-ka"4 "-ra"
     "Ne|!check=49"4 "-ga"8 "-i"2 \skip8
-    "!check=50"2 \skip8 \skip4.
+    "!check=50"2 \skip8 "-"4.
     ">wa|!check=51"4. "ke"4 "-i"8 "-na" "-i"
     "!check=52"4 "Ho" \tuplet 3/2 { "-shi"4 "no" "ko" }
-    "-do|!check=53"4. "-mo"2 \skip8
-    "!check=54"8 "ga"4. "KI"4 "-MI"
-    "wo|!check=55"2. \skip8 \skip8
-    "!check=56"8 ">ma"4. "-mo"4 "-ri"
-    "tsu|!check=57"2. \skip8 \skip8
-    "!check=58"8 "-dzu" "-ke" "-ru" "you!" "Mo" "-re" "-tsu!"
+    "-do|!check=53"4. "-mo"2 "-"8
+    "!check=54|-"8 "ga"4. "KI"4 "-MI"
+    "wo|!check=55"2. \skip8 "-"8
+    "!check=56|-"8 ">ma"4. "-mo"4 "-ri"
+    "tsu|!check=57"2. \skip8 "-"8
+    "!check=58|-"8 "-dzu" "-ke" "-ru" "you!" "Mo" "-re" "-tsu!"
     "Zen|!check=59"4 "-in!"8 "Seeretsu!!"4 "O!!" ">Aishi"8
     "!check=60"4 "-taishi" "aishi" "-te"8 "-ru"
-    "!check=61"8 "Ai" "ai"2 \skip4
+    "!check=61"8 "Ai" "ai"2 "-"4
     "sa!|!check=62"2 "Ai"4. "wo"8
-    "!check=63"8 \skip2. \skip8
+    "!check=63"8 "-"2. \skip8
 \mymark "Interlude" #64
     ">@|!mark=Interlude|!check=64"2 "@"
     "@|!check=65"2 "@"
@@ -87,156 +87,156 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "ai|!check=77"8. "-sa"16 "-re"8 "-te" \tuplet 3/2 { "i"8 "-ma" "ga" } "a"8 "-ru!"
     ">To|!check=78"4 "-ma" "-ra" "-na"8. "-i"16
     "susun|!check=79"8 "-de" "-ku" "Ka" \tuplet 3/2 { "-soku"8 "su" "-ru" } "to"8 "-ki"
-    "!check=80"1
+    "!check=80|-"1
 \mymark "Verse 2B" #81
-    "-do|!mark=Verse 2B|!check=81"16 "-ki"8 "DO"16 "-KI"8 "-DO"4. \skip4
-    "-KI|!check=82"4 "Ki"8 "-ra"4. \skip4
-    ">ki|!check=83"16 "-ra"8. "to"8 "kira"4. \skip4
+    "-do|!mark=Verse 2B|!check=81"16 "-ki"8 "DO"16 "-KI"8 "-DO"4. "-"4
+    "-KI|!check=82"4 "Ki"8 "-ra"4. "-"4
+    ">ki|!check=83"16 "-ra"8. "to"8 "kira"4. "-"4
     ">ma|!check=84"8. "-kun"16 "da"8. "Is"16 "-shun"8. "is"16 "-shun"8. "FU"16
-    "-RU|!check=85"16 "PA"8. "-WAA"4 "I" \skip4
-    "-tsu|!check=86"8. "no"16 "hi"8 "ni"4. \skip4
+    "-RU|!check=85"16 "PA"8. "-WAA"4 "I" "-"
+    "-tsu|!check=86"8. "no"16 "hi"8 "ni"4. "-"4
     ">ka|!check=87"4 "ku" "-da" "-ke"
-    "-chit|!check=88"8. "-te"16 "mo"8 "Ko"16 "-no"4 \skip16 \skip4
+    "-chit|!check=88"8. "-te"16 "mo"8 "Ko"16 "-no"4 \skip16 "-"4
 \mymark "Pre-Chorus 2" #89
     ">u|!mark=Pre-Chorus 2|!check=89"2 "-chu"8 "-u"
     "do|!check=90"4 "-ko" "ni"
     "i|!check=91"2 "-te"8 "mo"
-    "Ki|!check=92"4. \skip8 "-mi"4
-    "wo|!check=93"8 "sa" "-ga"8. \skip16 "-shi"8 "-da" "-su"8. \skip16
+    "Ki|!check=92"4. "-"8 "-mi"4
+    "wo|!check=93"8 "sa" "-ga"8. "-"16 "-shi"8 "-da" "-su"8. "-"16
     "ka|!check=94"8 "-ra" ">Ku"16 "-ra"8 "-ya"8. "-mi"8 "te"4
-    "-ra|!check=95"4. "-su"2 \skip8
+    "-ra|!check=95"4. "-su"2 "-"8
 \mymark "Chorus 2A" #96
     "yo|!mark=Chorus 2A|!check=96"4. "Kii"4 "-ro"8 "-ku" "hi"
     "!check=97"8 "-ka"4. "-ru"4 "ken"
     "-ta|!check=98"4 "-u"8 "-ro"2 \skip8
-    "!check=99"2 \skip2
+    "!check=99"2 "-"
     "-su|!check=100"4. "no"4 "ka"8 "-ga" "-ya"
     "!check=101"4 "-ki" \tuplet 3/2 { "de"4 ">Gen" "-ga" }
     "-ke|!check=102"1
-    "!check=103"8 "-i"4. "no"4 "ha"
+    "!check=103|-"8 "-i"4. "no"4 "ha"
     "-ru|!check=104"1
-    "!check=105"8 "-ka"4. "ka"4 "-na"
+    "!check=105|-"8 "-ka"4. "ka"4 "-na"
     "-ta|!check=106"1
-    "!check=107"8 ">Ko"4 "-no"8 "ki" "-se" "-ki" "hi"
+    "!check=107|-"8 ">Ko"4 "-no"8 "ki" "-se" "-ki" "hi"
     "-tsu|!check=108"4 "-ze"8 "-n"4 "da" "yo"8
     "!check=109"4 ">Do" "-n" "-na"8 "ni"
-    "!check=110"8 "too" "-ku"2 \skip4
-    "!check=111"1
+    "!check=110"8 "too" "-ku"2 "-"4
+    "!check=111|-"1
 \mymark "Chorus 2B" #112
     "-te|!mark=Chorus 2B|!check=112"4. "mo"4 "Bo"8 "-ku" "wa"
     "!check=113"8 "ki"4. "-mi"4 "no"
     "ko|!check=114"4 "-to"8 "wo"2 \skip8
-    "!check=115"2 \skip8 \skip4.
+    "!check=115"2 \skip8 "-"4.
     ">o|!check=116"4. "-mo"4 "-i"8 "-tsu" "-dzu"
     "!check=117"4 "-ke" \tuplet 3/2 { "-ru"4 "da" "-rou" }
-    "Mo|!check=118"4. "-re"2 \skip8
-    "!check=119"8 "-tsu!"4. ">Bo"4 "-ku"
-    "no|!check=120"2. \skip8 \skip8
-    "!check=121"8 "ko"4. "-to"4 "ki"
-    "-ra|!check=122"2. \skip8 \skip8
-    "!check=123"8 "-i" "de" "-su" "ka?" "Ko" "-e" "wa"
+    "Mo|!check=118"4. "-re"2 "-"8
+    "!check=119|-"8 "-tsu!"4. ">Bo"4 "-ku"
+    "no|!check=120"2. \skip8 "-"8
+    "!check=121|-"8 "ko"4. "-to"4 "ki"
+    "-ra|!check=122"2. \skip8 "-"8
+    "!check=123|-"8 "-i" "de" "-su" "ka?" "Ko" "-e" "wa"
     "to|!check=124"4 "-do"8 "-ki"4 "-ma" "-sen"8
     "!check=125"4 "ka?" ">De" "-mo"8 "ko"
-    "!check=126"8 "-no" "a"2 \skip4
+    "!check=126"8 "-no" "a"2 "-"4
     "-i|!check=127"2 "wo"4. "Ki"8
-    "!check=128"8 \skip2. \skip8
-    "!check=129"1
+    "!check=128"8 "-"2. \skip8
+    "!check=129|-"1
 \mymark "Bridge" #130
     "!mark=Bridge|!check=130|-"1
-    "!check=131"1
-    "!check=132"1
-    "!check=133"1
-    "!check=134"1
-    "!check=135"1
-    "!check=136"1
-    "!check=137"1
-    "!check=138"1
-    "!check=139"1
+    "!check=131|-"1
+    "!check=132|-"1
+    "!check=133|-"1
+    "!check=134|-"1
+    "!check=135|-"1
+    "!check=136|-"1
+    "!check=137|-"1
+    "!check=138|-"1
+    "!check=139|-"1
 \mymark "Guitar Solo" #140
     "!mark=Guitar Solo|!check=140|-"1
-    "!check=141"1
-    "!check=142"1
-    "!check=143"1
-    "!check=144"1
-    "!check=145"1
-    "!check=146"1
-    "!check=147"1
-    "!check=148"1
-    "!check=149"1
-    "!check=150"1
-    "!check=151"2. \skip8 "-mi"8
+    "!check=141|-"1
+    "!check=142|-"1
+    "!check=143|-"1
+    "!check=144|-"1
+    "!check=145|-"1
+    "!check=146|-"1
+    "!check=147|-"1
+    "!check=148|-"1
+    "!check=149|-"1
+    "!check=150|-"1
+    "!check=151|-"2. \skip8 "-mi"8
     "ni|!check=152"8 "sa" "-sa" "-ge"2 "-yo"8
-    "-u!|!check=153"8 "Ge" "-ki" "-retsu!"2 \skip8
-    "!check=154"1
-    "!check=155"1
+    "-u!|!check=153"8 "Ge" "-ki" "-retsu!"2 "-"8
+    "!check=154|-"1
+    "!check=155|-"1
 \mymark "Post Solo/Pre-Chorus 3" #156
-    ">Sa|!mark=Post Solo/Pre-Chorus 3|!check=156"8 "-ku" "-retsu!" "Kyou" "-retsu!" \skip4 ">Ha"8
-    "-re|!check=157"8 "-tsu!" "Ba" "-ku" "-retsu!" \skip8 "Ooooooo"8 "MO"
+    ">Sa|!mark=Post Solo/Pre-Chorus 3|!check=156"8 "-ku" "-retsu!" "Kyou" "-retsu!" "-"4 ">Ha"8
+    "-re|!check=157"8 "-tsu!" "Ba" "-ku" "-retsu!" "-" "Ooooooo" "MO"
     "-RETSU!|!check=158"8 ">Ho" "-shi" "-ku" "-zu"4 "no"
-    "KU|!check=159"2 \skip4 "-ZU"8 "no"
+    "KU|!check=159"2 "-"4 "-ZU"8 "no"
     "na|!check=160"8 "-ri" "-te" "KI" "-MI" "ni" "ko" "-i"
-    "-shi|!check=161"8 "tsu" "-dzu" "-ke" "-you" \skip4.
-    ">O|!check=162"8 "-mo" "-i"8. \skip16 "wa"8 "mo" "-e"8. \skip16
+    "-shi|!check=161"8 "tsu" "-dzu" "-ke" "-you" "-"4.
+    ">O|!check=162"8 "-mo" "-i"8. "-"16 "wa"8 "mo" "-e"8. "-"16
     "-te|!check=163"8 "-ru" "A"16 "-ka"8 "-ku"8. "a"8 "-ka"4
     "-ku|!check=164"1
-    "hi|!check=165"4. "-ka"2 \skip8
+    "hi|!check=165"4. "-ka"2 "-"8
 \mymark "Chorus 3A" #166
     "-ru|!mark=Chorus 3A|!check=166"4. ">A"4 "-N"8 "-TA" "-RE"
     "!check=167"8 "-SU"4. "no"4 "yo"
     "-u|!check=168"4 "ni"8 "Na"2 \skip8
-    "!check=169"2 \skip2
+    "!check=169"2 "-"
     "-n|!check=170"4. "-oku"4 "ko"8 "-u" "-nen"
     "!check=171"4 "sa" \tuplet 3/2 { "-ki"4 "da" "-t" }
     "-te|!check=172"1
-    "!check=173"8 ">Ka"4. "-ma"4 "-wa"
+    "!check=173|-"8 ">Ka"4. "-ma"4 "-wa"
     "-na|!check=174"1
-    "!check=175"8 "-i!"4. ">Sou"4 "su"
+    "!check=175|-"8 "-i!"4. ">Sou"4 "su"
     "-ki|!check=176"1
-    "!check=177"8 "da" "-ka" "-ra" "Ne" "-ga" "-i" "wa"
+    "!check=177|-"8 "da" "-ka" "-ra" "Ne" "-ga" "-i" "wa"
     "ke|!check=178"4 "-i"8 "-na"4 "-i" "Ho"8
     "!check=179"4 "-shi" "no" "ko"8 "-do"
-    "!check=180"8 "-mo" "ga"2 \skip4
-    "!check=181"1
+    "!check=180"8 "-mo" "ga"2 "-"4
+    "!check=181|-"1
 \mymark "Chorus 3B" #182
     ">KI|!mark=Chorus 3B|!check=182"4. "-MI"4 "wo"8 "ma" "-mo"
     "!check=183"8 "-ri"4. "tsu"4 "-dzu"
     "-ke|!check=184"4 "-ru"8 "you!"2 \skip8
-    "!check=185"2 \skip8 \skip4.
-    ">Mo|!check=186"4. "-re"4 "-tsu!"8 \skip4
-    "!check=187"2. "@@"32 \skip8. \skip32
-    "!check=188"1
-    "!check=189"1
-    "!check=190"1
-    "!check=191"1
-    "!check=192"1
-    "!check=193"1
-    "!check=194"1
-    "!check=195"1
-    "!check=196"1
-    "!check=197"1
-    "!check=198"1
-    "!check=199"1
+    "!check=185"2 \skip8 "-"4.
+    ">Mo|!check=186"4. "-re"4 "-tsu!"8 "-"4
+    "!check=187|-"2. "@@"32 "-"8. \skip32
+    "!check=188|-"1
+    "!check=189|-"1
+    "!check=190|-"1
+    "!check=191|-"1
+    "!check=192|-"1
+    "!check=193|-"1
+    "!check=194|-"1
+    "!check=195|-"1
+    "!check=196|-"1
+    "!check=197|-"1
+    "!check=198|-"1
+    "!check=199|-"1
 \mymark "Ending" #200
     "!mark=Ending|!check=200|-"1
-    "!check=201"1
-    "!check=202"1
-    "!check=203"1
-    "!check=204"1
-    "!check=205"1
-    "!check=206"1
-    "!check=207"1
-    "!check=208"1
-    "!check=209"1
-    "!check=210"1
-    "!check=211"1
-    "!check=212"1
-    "!check=213"1
-    "!check=214"1
-    "!check=215"1
-    "!check=216"1
-    "!check=217"1
-    "!check=218"1
-    "!check=219"1
-    "!check=220"1
-    "!check=221"1
+    "!check=201|-"1
+    "!check=202|-"1
+    "!check=203|-"1
+    "!check=204|-"1
+    "!check=205|-"1
+    "!check=206|-"1
+    "!check=207|-"1
+    "!check=208|-"1
+    "!check=209|-"1
+    "!check=210|-"1
+    "!check=211|-"1
+    "!check=212|-"1
+    "!check=213|-"1
+    "!check=214|-"1
+    "!check=215|-"1
+    "!check=216|-"1
+    "!check=217|-"1
+    "!check=218|-"1
+    "!check=219|-"1
+    "!check=220|-"1
+    "!check=221|-"1
 }

@@ -1,6 +1,6 @@
 vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
-    "!check=1"8 ">@"2 "@"4.
+    "!check=1|-"8 ">@"2 "@"4.
     "!check=2"8 "@"2 "@"4.
     "!check=3"8 "@"2 "@"4.
     "!check=4"8 "@"2 "@"4.
@@ -9,42 +9,42 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "!check=7"8 "@"2 "@|!bg=4"4.
     "!check=8"8 "@|!bg=3"2 "@|!bg=2"4.
 \mymark "1st verse" #9
-    "!mark=1st verse|!check=9|-"8 "@|!bg=1"2 "Well|!bg="8 "you're" "a"
+    "!mark=1st verse|!check=9"8 "@|!bg=1"2 "Well|!bg="8 "you're" "a"
     "real|!check=10"4 "tough" "coo-"8 "kie" "with" "a"
-    "long|!check=11"4 "his-"8 "to-" "ry"4 \skip8 ">of"8
+    "long|!check=11"4 "his-"8 "to-" "ry"4 "-"8 ">of"
     "brea-|!check=12"8 "king" "lit-" "tle" "hearts"4 "like"8 "the"
-    "one|!check=13"8 "in" "me"4 \skip2
-    "!check=14"8 ">That's"4 "O."8 "K."4 "let's"8 "see"
-    "!check=15"8 "how" "you" "do"4 "it" \skip8
+    "one|!check=13"8 "in" "me"4 "-"2
+    "!check=14|-"8 ">That's"4 "O."8 "K."4 "let's"8 "see"
+    "!check=15|-"8 "how" "you" "do"4 "it" "-"8
     ">Put|!check=16"8 "up" "your" "dukes"4. "Let's"4
     "get|!check=17"8 "down"4 "to" "it"4.
 \mymark "chorus" #18
     ">Hit|!mark=chorus|!check=18"8 "me" "with" "your" "best"4 "shot"
-    "!check=19"2 \skip8 ">Why"8 "don't" "you"
-    "hit|!check=20"16 "me" "with"8 "your" "best"4 "shot"8 \skip4
-    "!check=21"1
+    "!check=19|-"2 \skip8 ">Why"8 "don't" "you"
+    "hit|!check=20"16 "me" "with"8 "your" "best"4 "shot"8 "-"4
+    "!check=21|-"1
     ">Hit|!check=22"8 "me" "with" "your" "best"4 "shot"
-    "!check=23"2 ">Fire"8 \skip8 "a-"8 "way"
-    "!check=24"1
-    "!check=25"2. \skip8 ">You"8
+    "!check=23|-"2 ">Fire"8 "-" "a-" "way"
+    "!check=24|-"1
+    "!check=25|-"2. \skip8 ">You"8
     "come|!check=26"8 "on" "with" "a" "come" "on"4 "you"8
-    "don't|!check=27"4 "fight" "fair" \skip4
-    "!check=28"8 ">but" "that's" "O." "K."4 \skip4
-    ">See|!check=29"16 "if" "I"4 "care"4. \skip4
-    "!check=30"8 ">Knock"4 "me"8 "down"4 "it's"8 "all"
-    "!check=31"8 "in"4 "vain" \skip4 ">I'll"8
+    "don't|!check=27"4 "fight" "fair" "-"
+    "!check=28|-"8 ">but" "that's" "O." "K."4 "-"
+    ">See|!check=29"16 "if" "I"4 "care"4. "-"4
+    "!check=30|-"8 ">Knock"4 "me"8 "down"4 "it's"8 "all"
+    "!check=31|-"8 "in"4 "vain" "-" ">I'll"8
     "get|!check=32"8 "right" "back" "on"4. "my"4
-    "feet|!check=33"8 "a-"4 "gain" \skip4.
+    "feet|!check=33"8 "a-"4 "gain" "-"4.
     ">Hit|!check=34"8 "me" "with" "your" "best"4 "shot"
-    "!check=35"2 \skip8 ">Why"8 "don't" "you"
-    "hit|!check=36"16 "me" "with"8 "your" "best"4 "shot"8 \skip4
-    "!check=37"1
+    "!check=35|-"2 \skip8 ">Why"8 "don't" "you"
+    "hit|!check=36"16 "me" "with"8 "your" "best"4 "shot"8 "-"4
+    "!check=37|-"1
     ">Hit|!check=38"8 "me" "with" "your" "best"4 "shot"
-    "!check=39"2 "fire"8 \skip8 "a-"8 "way"
-    "!check=40"2 \skip8 ">@"4.
+    "!check=39|-"2 "fire"8 "-" "a-" "way"
+    "!check=40|-"2 \skip8 ">@"4.
     "!check=41"8 "@"2 "@"4.
 \mymark "solo (1st part)" #42
-    "!mark=solo (1st part)|!check=42|-"8 "@"2 "@"4.
+    "!mark=solo (1st part)|!check=42"8 "@"2 "@"4.
     "!check=43"8 "@"2 "@"4.
     "!check=44"8 "@"2 "@"4.
     "!check=45"8 "@"2 "@"4.
@@ -53,7 +53,7 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "!check=48"8 "@"2 "@"4.
     "!check=49"8 "@"2 "@"4.
 \mymark "solo(2nd part" #50
-    "!mark=solo(2nd part|!check=50|-"8 "@"2 "@"4.
+    "!mark=solo(2nd part|!check=50"8 "@"2 "@"4.
     "!check=51"8 "@"2 "@"4.
     "!check=52"8 "@"2 "@"4.
     "!check=53"8 "@"2 "@"4.
@@ -62,37 +62,37 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "!check=56"8 "@|!bg=3"2 "@|!bg=2"4.
     "!check=57"8 "@|!bg=1"2 "Well|!bg="8 "you're" "a"
     "real|!check=58"4 "tough" "coo-"8 "kie" "with" "a"
-    "long|!check=59"4 "his-"8 "to-" "ry"4 \skip8 ">of"8
+    "long|!check=59"4 "his-"8 "to-" "ry"4 "-"8 ">of"
     "brea-|!check=60"8 "king" "lit-" "tle" "hearts"4 "like"8 "the"
-    "one|!check=61"8 "in" "me"4 \skip8 ">Be-"8 "fore" "I"
-    "put|!check=62"16 "a-" "no-" "ther"8. "notch"8 \skip4 "in"8 "my"
-    "lip-|!check=63"8 "stick"4 "case" \skip4 ">you"8
+    "one|!check=61"8 "in" "me"4 "-"8 ">Be-" "fore" "I"
+    "put|!check=62"16 "a-" "no-" "ther"8. "notch"8 "-"4 "in"8 "my"
+    "lip-|!check=63"8 "stick"4 "case" "-" ">you"8
     "bet-|!check=64"8 "ter" "make"4 "sure"8 "you" "put" "me"
-    "in|!check=65"8 "my"4 "place" \skip4.
+    "in|!check=65"8 "my"4 "place" "-"4.
 \mymark "Keyboard fills" #66
     ">Hit|!mark=Keyboard fills|!check=66"8 "me" "with" "your" "best"4 "shot"
-    "!check=67"2 \skip8 ">C'mon"4.
-    "hit|!check=68"16 "me" "with"8 "your" "best"4 "shot"8 \skip4
-    "!check=69"1
+    "!check=67|-"2 \skip8 ">C'mon"4.
+    "hit|!check=68"16 "me" "with"8 "your" "best"4 "shot"8 "-"4
+    "!check=69|-"1
     ">Hit|!check=70"8 "me" "with" "your" "best"4 "shot"
-    "!check=71"2 ">Fire"8 \skip8 "a-"8 "way"
-    "!check=72"1
-    "!check=73"1
+    "!check=71|-"2 ">Fire"8 "-" "a-" "way"
+    "!check=72|-"1
+    "!check=73|-"1
     ">Hit|!check=74"8 "me" "with" "your" "best"4 "shot"
-    "!check=75"2 \skip8 ">Why"8 "don't" "you"
-    "hit|!check=76"16 "me" "with"8 "your" "best"4 "shot"8 \skip4
-    "!check=77"1
+    "!check=75|-"2 \skip8 ">Why"8 "don't" "you"
+    "hit|!check=76"16 "me" "with"8 "your" "best"4 "shot"8 "-"4
+    "!check=77|-"1
     ">Hit|!check=78"8 "me" "with" "your" "best"4 "shot"
-    "!check=79"2 ">Fire"8 \skip8 "a-"8 "way"
-    "!check=80"1
-    "@@|!check=81"32 \skip2. \skip8. \skip32
-    "!check=82"1
-    "!check=83"1
-    "!check=84"1
-    "!check=85"1
-    "!check=86"1
-    "!check=87"1
-    "!check=88"1
-    "!check=89"1
-    "!check=90"1
+    "!check=79|-"2 ">Fire"8 "-" "a-" "way"
+    "!check=80|-"1
+    "@@|!check=81"32 "-"2. \skip8. \skip32
+    "!check=82|-"1
+    "!check=83|-"1
+    "!check=84|-"1
+    "!check=85|-"1
+    "!check=86|-"1
+    "!check=87|-"1
+    "!check=88|-"1
+    "!check=89|-"1
+    "!check=90|-"1
 }

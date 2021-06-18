@@ -1,79 +1,79 @@
 vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
-    "!check=1"8. ">@"2 "@"4 \skip16
+    "!check=1|-"8. ">@"2 "@"4 \skip16
 \mymark "Intro" #2
-    "!mark=Intro|!check=2|-"8. "@"2 "@"4 \skip16
+    "!mark=Intro|!check=2"8. "@"2 "@"4 \skip16
     "!check=3"8. "@"2 "@"4 \skip16
     "!check=4"8. "@"2 "@"4 \skip16
     "!check=5"8. "@"2 "@|!bg=4"4 \skip16
     "!check=6"8. "@|!bg=3"2 "@|!bg=2"4 \skip16
 \mymark "Strophe" #7
-    "!mark=Strophe|!check=7|-"8. "@|!bg=1"2 "I|!bg="16 "saw"8 "him"
-    "dan|!check=8"8 "-cin'"16 "there"8 \skip16 "by"16 "the" "re" "-cord" "ma" \skip16 "-chine"4
-    "!check=9"8 \skip2 \skip16 ">I"16 "knew"8 "he"16 \skip16
-    "must|!check=10"16 \skip16 "have"16 "been" \skip16 "a"16 "-bout"8 "se"16 "-ven"8 \skip16 "-teen"4
-    "!check=11"8 \skip2 \skip16 ">The"16 "beat"8 "was"16 "go"
-    "!check=12"16 "-in'" "strong"4 \skip4. "Play"16 "-in'" "my"8
+    "!mark=Strophe|!check=7"8. "@|!bg=1"2 "I|!bg="16 "saw"8 "him"
+    "dan|!check=8"8 "-cin'"16 "there"8 "-"16 "by" "the" "re" "-cord" "ma" "-" "-chine"4
+    "!check=9"8 "-"2 \skip16 ">I"16 "knew"8 "he"16 "-"
+    "must|!check=10"16 "-" "have" "been" "-" "a" "-bout"8 "se"16 "-ven"8 "-"16 "-teen"4
+    "!check=11"8 "-"2 \skip16 ">The"16 "beat"8 "was"16 "go"
+    "!check=12"16 "-in'" "strong"4 "-"4. "Play"16 "-in'" "my"8
     "favo|!check=13"8 "-rite" "song"2.
-    "!check=14"16 ">An'" "I" "could" "tell"8 "it" "would"16 "-n't" "be" "long"8 \skip8 ">Till"16
-    "he|!check=15"16 "was" "with" \skip16 "me,"8. \skip16 "yeah|!bg=img=../yeah.png"4 "me|!bg="8. \skip16
-    "!check=16"16 ">And" "I" "could" "tell"8 "it" "would"16 "-n't" "be" "long"8. \skip16 ">Till"16
-    "he|!check=17"16 "was" "with"8 "me,"4 "yeah|!bg=img=../yeah.png" "me,|!bg="8. \skip16
+    "!check=14|-"16 ">An'" "I" "could" "tell"8 "it" "would"16 "-n't" "be" "long"8 "-" ">Till"16
+    "he|!check=15"16 "was" "with" "-" "me,"8. "-"16 "yeah|!bg=img=../yeah.png"4 "me|!bg="8. "-"16
+    "!check=16|-"16 ">And" "I" "could" "tell"8 "it" "would"16 "-n't" "be" "long"8. "-"16 ">Till"
+    "he|!check=17"16 "was" "with"8 "me,"4 "yeah|!bg=img=../yeah.png" "me,|!bg="8. "-"16
 \mymark "Refrain" #18
-    "sing|!mark=Refrain|!check=18"16 "-in'"8. "I"4 "love"8. \skip16 "rock"8 "n'"16 "roll"
-    "!check=19"16 \skip8. ">So"16 "put" "a" "-nother" "dime" \skip16 "in"16 "the" "juke"8 "-box,"16 "ba"
-    "!check=20"16 "-by" \skip8 ">I"4 "love"8. \skip16 "rock"8 "n'"16 "roll"
-    "!check=21"16 \skip8 ">So"16 "come" "an'" "take" "your" "time"8 "an'"16 \skip16 "dance"16 \skip16 "with"8
-    "me|!check=22"8. \skip2. \skip16
-    "!check=23"2. \skip8 ">He"8
+    "sing|!mark=Refrain|!check=18"16 "-in'"8. "I"4 "love"8. "-"16 "rock"8 "n'"16 "roll"
+    "!check=19"16 "-"8. ">So"16 "put" "a" "-nother" "dime" "-" "in" "the" "juke"8 "-box,"16 "ba"
+    "!check=20"16 "-by" "-"8 ">I"4 "love"8. "-"16 "rock"8 "n'"16 "roll"
+    "!check=21"16 "-"8 ">So"16 "come" "an'" "take" "your" "time"8 "an'"16 "-" "dance" "-" "with"8
+    "me|!check=22"8. "-"2. \skip16
+    "!check=23|-"2. \skip8 ">He"8
 \mymark "Strophe" #24
-    "smiled|!mark=Strophe|!check=24"8 "so" "I" "got"16 "up"8 \skip8 "and"16 "asked" "for"8 "his"16
-    "name|!check=25"8. \skip2. \skip16
-    ">That|!check=26"8 "don't" "mat"16 "-ter," "he"8 "said,"16 \skip16 "'Cause"16 "it's" "all"8 "the"
-    "same|!check=27"8. \skip2. ">Said"16
-    "can|!check=28"16 \skip16 "I"8 "take" "you"16 "home"4 \skip16 \skip8 "where"16 \skip16
-    "we|!check=29"8 "can" "be" "a" "-lone"4. \skip16 \skip16
-    "!check=30"4. \skip16 ">An'"16 "next"8 "we"16 "were" "mo"8 "-vin'"16 "on"
-    "!check=31"8 \skip8 "He"16 "was" "with"8 "me," \skip8 "yeah|!bg=img=../yeah.png"4
-    "me|!check=32|!bg="8. \skip16 \skip4 ">Next"16 \skip16 "we"16 "were" "mo" \skip16 "-vin'"16 "on"
-    "!check=33"8. \skip16 ">He"16 "was" "with"8 "me,"8. \skip16 "yeah|!bg=img=../yeah.png"4
+    "smiled|!mark=Strophe|!check=24"8 "so" "I" "got"16 "up"8 "-" "and"16 "asked" "for"8 "his"16
+    "name|!check=25"8. "-"2. \skip16
+    ">That|!check=26"8 "don't" "mat"16 "-ter," "he"8 "said,"16 "-" "'Cause" "it's" "all"8 "the"
+    "same|!check=27"8. "-"2. ">Said"16
+    "can|!check=28"16 "-" "I"8 "take" "you"16 "home"4 \skip16 "-"8 "where"16 "-"
+    "we|!check=29"8 "can" "be" "a" "-lone"4. \skip16 "-"16
+    "!check=30|-"4. \skip16 ">An'"16 "next"8 "we"16 "were" "mo"8 "-vin'"16 "on"
+    "!check=31"8 "-" "He"16 "was" "with"8 "me," "-" "yeah|!bg=img=../yeah.png"4
+    "me|!check=32|!bg="8. "-"16 "-"4 ">Next"16 "-" "we" "were" "mo" "-" "-vin'" "on"
+    "!check=33"8. "-"16 ">He" "was" "with"8 "me,"8. "-"16 "yeah|!bg=img=../yeah.png"4
 \mymark "Refrain" #34
-    "me,|!mark=Refrain|!check=34|!bg="8. \skip16 "sing"16 "-in'"8 \skip16 "I"4 "love"8. \skip16
-    "rock|!check=35"8 "n'"16 "roll"8 \skip8 ">So"16 "put" "a" "-no" "-ther" "dime"8 "in"16 "the"
-    "juke|!check=36"8 "-box,"16 "ba"8 "-by"16 \skip8 ">I"4 "love"8. \skip16
-    "rock|!check=37"8 "n'"16 "roll"8 \skip8 ">So"16 "come" "an'" "take" "your" "time"8 "an'"16 \skip16
-    "dance|!check=38"16 \skip16 "with"8 "me"8. \skip2 \skip16
-    "!check=39"8. ">@"2 "@"4 \skip16
+    "me,|!mark=Refrain|!check=34|!bg="8. "-"16 "sing" "-in'"8 "-"16 "I"4 "love"8. "-"16
+    "rock|!check=35"8 "n'"16 "roll"8 "-" ">So"16 "put" "a" "-no" "-ther" "dime"8 "in"16 "the"
+    "juke|!check=36"8 "-box,"16 "ba"8 "-by"16 "-"8 ">I"4 "love"8. "-"16
+    "rock|!check=37"8 "n'"16 "roll"8 "-" ">So"16 "come" "an'" "take" "your" "time"8 "an'"16 "-"
+    "dance|!check=38"16 "-" "with"8 "me"8. "-"2 \skip16
+    "!check=39|-"8. ">@"2 "@"4 \skip16
 \mymark "Solo" #40
-    "!mark=Solo|!check=40|-"8. "@"2 "@"4 \skip16
+    "!mark=Solo|!check=40"8. "@"2 "@"4 \skip16
     "!check=41"8. "@"2 "@"4 \skip16
     "!check=42"8. "@|!bg=4"2 "@|!bg=3"4 \skip16
     "!check=43"8. "@|!bg=2"2 "@|!bg=1"4 \skip16
-    "!check=44"8. "Said|!bg="16 "can" \skip16 "I"8 "take" "you"16 "home"4 \skip16
-    "!check=45"8 "where"16 \skip16 "we"8 "can" "be" "a" "-lone"4
-    "!check=46"8. \skip2 ">Next"16 "we"8 "were"
-    "mo|!check=47"8 "-vin'"16 "on"8. \skip8 "He"16 "was" "with"8 "me," \skip8
+    "!check=44"8. "Said|!bg="16 "can" "-" "I"8 "take" "you"16 "home"4 \skip16
+    "!check=45|-"8 "where"16 "-" "we"8 "can" "be" "a" "-lone"4
+    "!check=46"8. "-"2 ">Next"16 "we"8 "were"
+    "mo|!check=47"8 "-vin'"16 "on"8. "-"8 "He"16 "was" "with"8 "me," "-"
 \mymark "Outro" #48
-    "yeah|!mark=Outro|!check=48|!bg=img=../yeah.png"4 "me,|!bg="8. \skip16 \skip4 ">An"16 "we'll" "be"8
-    "mo|!check=49"8 "-vin'"16 "on"8 "sing"16 "-in'" "that" "same"8 "old" "song" \skip8
-    ">Yeah|!check=50|!bg=img=../yeah.png"8 "with"16 "me," "!bg="8. \skip16 "sing"16 "-in'"8 \skip16 "I"4
-    "love|!check=51"8. \skip16 "rock"8 "n'"16 "roll"8 \skip8 ">So"16 "put" "a" "-no" "-ther"
-    "dime|!check=52"8 "in"16 "the" "juke"8 "-box,"16 "ba"8 "-by" \skip16 ">I"4
-    "love|!check=53"8. \skip16 "rock"8 "n'"16 "roll"8 \skip8 ">So"16 "come" "an'" "take" "your"
-    "time|!check=54"8 "an'"16 \skip16 "dance"16 \skip16 "with"8 "me" \skip8 ">I"4
-    "love|!check=55"8. \skip16 "rock"8 "n'"16 "roll"8 \skip8 ">So"16 "put" "a" "-no" "-ther"
-    "dime|!check=56"16 \skip16 "in"16 "the" "juke"8 "-box,"16 "ba"8 "-by" \skip16 ">I"4
-    "love|!check=57"8. \skip16 "rock"8 "n'"16 "roll"8 \skip8 ">So"16 "come" "an'" "take" "your"
-    "time|!check=58"8 "an'"16 \skip16 "dance"16 \skip16 "with"8 ">I"4 "love"8. \skip16
-    "rock|!check=59"8 "n'"16 "roll"8 \skip8 ">So"16 "put" "a" "-no" "-ther" "dime" \skip16 "in"16 "the"
-    "juke|!check=60"8 "-box,"16 "ba"8 "-by" \skip16 ">I"4 "love"8. \skip16
-    "rock|!check=61"8 "n'"16 "roll"8 \skip8 ">So"16 "come" "an'" "take" "your" "time"8 "an'"16 \skip16
-    "dance|!check=62"16 \skip16 "with"8 ">I"4 "love"8. \skip16 "rock"8 "n'"16 "roll"
-    "!check=63"16 \skip8 ">So"16 "put" "a" "-no" "-ther" "dime" \skip16 "in"16 "the" "juke"8 "-box,"16 "ba"
-    "!check=64"16 "-by"8 \skip16 ">I"4 "love"8. \skip16 "rock"8 "n'"16 "roll"
-    "!check=65"16 \skip8 ">So"16 "come" "an'" "take" "your" "time"8 "an'"16 \skip16 "dance"16 \skip16 "with"8
-    ">I|!check=66"4 "love"8. \skip16 "rock"8 "n'"16 "roll"8 \skip8 ">So"16
-    "put|!check=67"16 "a" "-no" "-ther" "dime" \skip16 "in"16 "the" "juke"8 "-box,"16 "ba"8 "-by" \skip16
-    ">I|!check=68"4 "love"8. \skip16 "rock"8 "n'"16 "roll"8 \skip8 ">So"16
-    "come|!check=69"16 "an'" "take" "your" "time"8 "an'"16 \skip16 "dance"16 \skip16 "with"8 "me" \skip8
+    "yeah|!mark=Outro|!check=48|!bg=img=../yeah.png"4 "me,|!bg="8. "-"16 "-"4 ">An"16 "we'll" "be"8
+    "mo|!check=49"8 "-vin'"16 "on"8 "sing"16 "-in'" "that" "same"8 "old" "song" "-"
+    ">Yeah|!check=50|!bg=img=../yeah.png"8 "with"16 "me," "!bg="8. "-"16 "sing" "-in'"8 "-"16 "I"4
+    "love|!check=51"8. "-"16 "rock"8 "n'"16 "roll"8 "-" ">So"16 "put" "a" "-no" "-ther"
+    "dime|!check=52"8 "in"16 "the" "juke"8 "-box,"16 "ba"8 "-by" "-"16 ">I"4
+    "love|!check=53"8. "-"16 "rock"8 "n'"16 "roll"8 "-" ">So"16 "come" "an'" "take" "your"
+    "time|!check=54"8 "an'"16 "-" "dance" "-" "with"8 "me" "-" ">I"4
+    "love|!check=55"8. "-"16 "rock"8 "n'"16 "roll"8 "-" ">So"16 "put" "a" "-no" "-ther"
+    "dime|!check=56"16 "-" "in" "the" "juke"8 "-box,"16 "ba"8 "-by" "-"16 ">I"4
+    "love|!check=57"8. "-"16 "rock"8 "n'"16 "roll"8 "-" ">So"16 "come" "an'" "take" "your"
+    "time|!check=58"8 "an'"16 "-" "dance" "-" "with"8 ">I"4 "love"8. "-"16
+    "rock|!check=59"8 "n'"16 "roll"8 "-" ">So"16 "put" "a" "-no" "-ther" "dime" "-" "in" "the"
+    "juke|!check=60"8 "-box,"16 "ba"8 "-by" "-"16 ">I"4 "love"8. "-"16
+    "rock|!check=61"8 "n'"16 "roll"8 "-" ">So"16 "come" "an'" "take" "your" "time"8 "an'"16 "-"
+    "dance|!check=62"16 "-" "with"8 ">I"4 "love"8. "-"16 "rock"8 "n'"16 "roll"
+    "!check=63"16 "-"8 ">So"16 "put" "a" "-no" "-ther" "dime" "-" "in" "the" "juke"8 "-box,"16 "ba"
+    "!check=64"16 "-by"8 "-"16 ">I"4 "love"8. "-"16 "rock"8 "n'"16 "roll"
+    "!check=65"16 "-"8 ">So"16 "come" "an'" "take" "your" "time"8 "an'"16 "-" "dance" "-" "with"8
+    ">I|!check=66"4 "love"8. "-"16 "rock"8 "n'"16 "roll"8 "-" ">So"16
+    "put|!check=67"16 "a" "-no" "-ther" "dime" "-" "in" "the" "juke"8 "-box,"16 "ba"8 "-by" "-"16
+    ">I|!check=68"4 "love"8. "-"16 "rock"8 "n'"16 "roll"8 "-" ">So"16
+    "come|!check=69"16 "an'" "take" "your" "time"8 "an'"16 "-" "dance" "-" "with"8 "me" "-"
 }
