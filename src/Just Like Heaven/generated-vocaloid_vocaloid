@@ -32,23 +32,23 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "!check=30|."1
     "!check=31|."1
     "!check=32|."1
-    "!check=33|."2 "(S'oU)"8 "(m'i:)" "(S'oU)" "(m'i:)"
+    "!check=33|."2 "Show"8 "me" "show" "me"
 \mymark "Verse 1" #34
-    "(S'oU)|!mark=Verse 1|!check=34"4 "(m'i:)" "(h'aU)" "(j'u:)"8 "(d'u:)"
-    "!check=35"8 "(D'at)"4 "(tr'Ik)"4. "."8 "(D'@)"
-    "(w'0n)|!check=36"8 "(D'at)"4 "(m'eIks)" "(m'i:)" "(skr'i:m)"8
-    "!check=37"4 "(S'i:)" "(s'Ed)" "."8 "(D'@)"
-    "(w'0n)|!check=38"8 "(D'at)"4 "(m'eIks)" "(m'i:)" "(l'aaf)"8
-    "!check=39"4 "(S'i:)"8 "(s'Ed)"4. "."8 "('and)"
-    "(Tr'u:)|!check=40"8 "(h'3:)"4 "('A@mz)"4. "('@)"8 "(r'aUnd)"
-    "!check=41"8 "(m'aI)"4 "(n'Ek)"4. "."4
-    "(S'oU)|!check=42"4 "(m'i:)" "(h'aU)" "(j'u:)"8 "(d'u:)"
-    "!check=43"8 "('It)"4 "."4. "('and)"8 "('aI)"
-    "(pr'0:)|!check=44"8 "(m'Is)"4 "(j'u:)"4. "('aI)"4
-    "(pr'0:)|!check=45"8 "(m'Is)"4 "(D'at)" "('aIl)"8 "(r'Vn)" "('@)"
-    "(w'eI)|!check=46"4 "(w'ID)"8 "(j'u:)"2 "."8
-    "!check=47|."2 \skip8 "('aIl)"8 "(r'Vn)" "('@)"
-    "(w'eI)|!check=48"4 "(w'ID)"8 "(j'u:)"2 "."8
+    "show|!mark=Verse 1|!check=34"4 "me" "how" "you"8 "do"
+    "!check=35"8 "that"4 "trick"4. "."8 "The"
+    "one|!check=36"8 "that"4 "makes" "me" "scream"8
+    "!check=37"4 "she" "said" "."8 "The"
+    "one|!check=38"8 "that"4 "makes" "me" "(l'aaf)"8
+    "!check=39"4 "she"8 "said"4. "."8 "And"
+    "threw|!check=40"8 "her"4 "arms"4. "('@)"8 "(r'aUnd)"
+    "!check=41"8 "my"4 "neck"4. "."4
+    "show|!check=42"4 "me" "how" "you"8 "do"
+    "!check=43"8 "it"4 "."4. "and"8 "I"
+    "(pr'0:)|!check=44"8 "(m'Is)"4 "you"4. "I"4
+    "(pr'0:)|!check=45"8 "(m'Is)"4 "that" "I'll"8 "run" "('@)"
+    "(w'eI)|!check=46"4 "with"8 "you"2 "."8
+    "!check=47|."2 \skip8 "I'll"8 "run" "('@)"
+    "(w'eI)|!check=48"4 "with"8 "you"2 "."8
     "!check=49|."1
 \mymark "Interlude" #50
     "!mark=Interlude|!check=50|."1
@@ -60,37 +60,37 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "!check=56|."1
     "!check=57|."1
 \mymark "Verse 2" #58
-    "(sp'I:)|!mark=Verse 2|!check=58"4 "(n'IN)"8 "('0n)"4 "(D'at)" "(d'I:)"8
-    "!check=59"8 "(z'i:)"4 "('EdZ)"4. "."8 "(k'Ist)"
-    "(h'3:)|!check=60"8 "(f'eIs)"4 "('and)" "(k'Ist)" "(h'3:)"8
-    "!check=61"8 "('3:)"4 "(h'Ed)"4. "."8 "(dr'i:)"
-    "('i:md)|!check=62"4 "('0v)"8 "('O:l)"4 "(D'@)" "(d'I)"8
-    "!check=63"8 "(fr@nt)"4 "(w'eIz)"2 "('aI)"8
-    "(h'ad)|!check=64"8 "(t'u:)"4 "(m'eIk)" "(h'3:)" "(gl'oU)"8
+    "(sp'I:)|!mark=Verse 2|!check=58"4 "(n'IN)"8 "on"4 "that" "(d'I:)"8
+    "!check=59"8 "(z'i:)"4 "edge"4. "."8 "Kissed"
+    "her|!check=60"8 "face"4 "and" "kissed" "(h'3:)"8
+    "!check=61"8 "('3:)"4 "head"4. "."8 "(dr'i:)"
+    "('i:md)|!check=62"4 "of"8 "all"4 "the" "(d'I)"8
+    "!check=63"8 "(fr@nt)"4 "ways"2 "I"8
+    "had|!check=64"8 "to"4 "make" "her" "glow"8
     "!check=65"4. "."2 \skip8
-    "(w'aI)|!check=66"4 "('A@)"8 "(j'u:)"4 "(s'oU)" "(f'A@)"8
-    "!check=67"8 "('@)"4 "(w'eI)"4. "(S'i:)"8 "(s'Ed)"
-    "!check=68"4 "(w'aI)" "(w'oUnt)" "(j'u:)"
-    "('E:)|!check=69"8 "(v'3:)"4 "(n'oU)" "(D'at)"8 "('aIm)" "('In)"
-    "(l'Vv)|!check=70"4. "(w'ID)"4 "(j'u:)" "."8
-    "!check=71|."2 \skip8 "(D'at)"8 "('aIm)" "('In)"
-    "(l'Vv)|!check=72"4 "(w'ID)"8 "(j'u:)"2 "."8
+    "Why|!check=66"4 "are"8 "you"4 "so" "far"8
+    "!check=67"8 "('@)"4 "(w'eI)"4. "she"8 "said"
+    "!check=68"4 "Why" "won't" "you"
+    "('E:)|!check=69"8 "(v'3:)"4 "know" "that"8 "I'm" "in"
+    "love|!check=70"4. "with"4 "you" "."8
+    "!check=71|."2 \skip8 "that"8 "I'm" "in"
+    "love|!check=72"4 "with"8 "you"2 "."8
     "!check=73|."1
 \mymark "Chorus" #74
     "(j'u:)|!mark=Chorus|!check=74"8 "('u:)"4. "('u:)" "."8
-    "!check=75|."8 "(s'0ft)"4 "('and)"8 "('oUn)"4 "(l'i:)"
+    "!check=75|."8 "soft"4 "and"8 "('oUn)"4 "(l'i:)"
     "(j'u:)|!check=76"8 "('u:)"4. "('u:)" "."8
-    "!check=77|."8 "(l'0st)"4 "('and)"8 "(l'oUn)"4 "(l'i:)"
+    "!check=77|."8 "lost"4 "and"8 "(l'oUn)"4 "(l'i:)"
     "(j'u:)|!check=78"8 "('u:)"4. "('u:)" "."8
-    "!check=79|."8 "(str'eIndZ)"4 "('az)"8 "('eIn)"4 "(dZ'@lz)"
-    "(d'an)|!check=80"8 "(s'IN)"4 "('In)" "(D'@)" "(d'i:)"8
+    "!check=79|."8 "strange"4 "as"8 "('eIn)"4 "(dZ'@lz)"
+    "(d'an)|!check=80"8 "(s'IN)"4 "in" "the" "(d'i:)"8
     "!check=81"8 "(p@st)"4 "('oU)" "(S@nz)"4.
-    "(tw'I:)|!check=82"8 "(st'IN)"4 "('In)" "(D'@)" "(w'O:)"8
-    "!check=83"8 "(t'3:)" "(j'O@)"4 "(dZ'Vst)"8 "(l'aIk)" "('@)" "(dr'i:m)"
+    "(tw'I:)|!check=82"8 "(st'IN)"4 "in" "the" "(w'O:)"8
+    "!check=83"8 "(t'3:)" "You're"4 "just"8 "like" "('@)" "dream"
 \mymark "Piano Solo" #84
     "!mark=Piano Solo|!check=84"4 "."2.
-    "!check=85|."4 "(j'O@)"8 "(dZ'Vst)"4 "(l'aIk)"8 "('@)"4
-    "(dr'i:m)|!check=86"4. "."2 \skip8
+    "!check=85|."4 "You're"8 "just"4 "like"8 "('@)"4
+    "dream|!check=86"4. "."2 \skip8
     "!check=87|."1
     "!check=88|."1
     "!check=89|."1
@@ -105,29 +105,29 @@ vocaloidVocaloid = \new Lyrics \lyricmode {
     "!check=98|."1
     "!check=99|."1
 \mymark "Verse 3" #100
-    "(d'eI)|!mark=Verse 3|!check=100"8 "(l'aIt)"4 "(l'Ikt)" "(m'i:)" "('In)"8
-    "!check=101"8 "(t'u:)"4 "(S'eIp)"4. "."8 "('aI)"
-    "(m'Vst)|!check=102"8 "(h'av)"4 "(b'i:n)" "('@)" "(sl'i:p)"8
-    "!check=103"8 "(f'O@)"4 "(d'eIz)"2 "('and)"8
-    "(m'u:)|!check=104"8 "(v'IN)"4 "(l'Ips)"4. "(t'u:)"8 "(br'i:D)"
-    "!check=105"8 "(h'3:)"4 "(n'eIm)"2 "('aI)"8
-    "('oU)|!check=106"8 "(p'@nd)"4 "('Vp)" "(m'aI)" "('aIz)"8
-    "!check=107"2 "."4. "('and)"8
-    "(f'aUnd)|!check=108"4 "(m'aI)" "(s'Elf)" "('@)"8 "(l'oUn)"
+    "(d'eI)|!mark=Verse 3|!check=100"8 "(l'aIt)"4 "licked" "me" "in"8
+    "!check=101"8 "to"4 "shape"4. "."8 "I"
+    "must|!check=102"8 "have"4 "been" "('@)" "(sl'i:p)"8
+    "!check=103"8 "for"4 "days"2 "And"8
+    "(m'u:)|!check=104"8 "(v'IN)"4 "lips"4. "to"8 "breathe"
+    "!check=105"8 "her"4 "name"2 "I"8
+    "('oU)|!check=106"8 "(p'@nd)"4 "up" "my" "eyes"8
+    "!check=107"2 "."4. "and"8
+    "found|!check=108"4 "my" "self" "('@)"8 "(l'oUn)"
     "!check=109"4 "('@)"8 "(l'oUn)"4. "('@)"8 "(l'oUn)"
     "!check=110"4 "('@)"8 "(b'Vv)"4 "('@)" "(r'eI)"8
-    "!check=111"8 "(dZ'IN)"4 "(s'i:)"2 "(D'at)"8
-    "(st'oUl)|!check=112"4 "(D'@)"8 "('oU)"4 "(nli:)" "(g'3:l)"8
-    "!check=113"8 "('aI)"4 "(l'Vvd)"4. "('and)"4
-    "(dr'aUnd)|!check=114"4 "(h'3:)" "(d'i:p)"8 "('In)"4 "(s'aId)"8
-    "!check=115"8 "('0v)"4 "(m'i:)"2 "."8
+    "!check=111"8 "(dZ'IN)"4 "sea"2 "that"8
+    "stole|!check=112"4 "the"8 "('oU)"4 "(nli:)" "girl"8
+    "!check=113"8 "I"4 "loved"4. "and"4
+    "drowned|!check=114"4 "her" "deep"8 "in"4 "side"8
+    "!check=115"8 "of"4 "me"2 "."8
 \mymark "Chorus" #116
     "(j'u:)|!mark=Chorus|!check=116"8 "('u:)"4. "('u:)" "."8
-    "!check=117|."8 "(s'0ft)"4 "('and)"8 "('oU)"4 "(nl'i:)"
+    "!check=117|."8 "soft"4 "and"8 "('oU)"4 "(nl'i:)"
     "(j'u:)|!check=118"8 "('u:)"4. "('u:)" "."8
-    "!check=119|."8 "(l'0st)"4 "('and)"8 "(l'oU)"4 "(nl'i:)"
+    "!check=119|."8 "lost"4 "and"8 "(l'oU)"4 "(nl'i:)"
     "(j'u:)|!check=120"8 "('u:)"4. "('u:)" "."8
-    "!check=121|."8 "(dZ'Vst)"4 "(l'aIk)"8 "(h'E:)"4 "(v'@n)"
+    "!check=121|."8 "just"4 "like"8 "(h'E:)"4 "(v'@n)"
     "!check=122"1
     "!check=123|."1
     "!check=124|."1
