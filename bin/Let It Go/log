@@ -19,11 +19,17 @@ Track name: midiOne
 Playing time: ~217 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 20121919/38048736 bytes(52.8846% compressed)
+Wrote 20033975/38048736 bytes(52.6535% compressed)
+generated-steelpan:124:9: warning: unterminated tie
+    cis1
+        ~ |
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+generated-steelpan:124:9: warning: unterminated tie
+    cis1
+        ~ |
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
     124 measure=all

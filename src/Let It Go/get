@@ -30,6 +30,7 @@ track 0 \
 track 1 \
     scale "$SCALE2" \
     preset susan \
+    layout-extra '\clef "treble_8"' \
     output-lilypond \
 track 4 \
     preset peter \

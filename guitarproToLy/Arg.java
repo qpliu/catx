@@ -70,6 +70,7 @@ final class Arg implements Serializable{
 	    Stuff.add(music_extra,0,"\\myVocalsStuff");
 	    setScale("gis fis cis");
 	    use_bend_end = true;
+	    no_chords = true;
 	}else if (preset.equals("midiMuted") || preset.equals("midiOne") || preset.equals("midiTwo")){
 	    name = preset;
 	    midi_who = preset;

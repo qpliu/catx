@@ -19,7 +19,7 @@ Track name: midiOne
 Playing time: ~300 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 26256173/52699780 bytes(49.8222% compressed)
+Wrote 26093731/52699780 bytes(49.5139% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 1.1 staff-spaces
 warning: page 0 has been compressed
@@ -28,6 +28,8 @@ warning: compressing over-full page by 16.8 staff-spaces
 warning: page 0 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+warning: compressing over-full page by 3.3 staff-spaces
+warning: page 0 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
     108 measure=all
