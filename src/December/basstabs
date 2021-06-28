@@ -2,10 +2,13 @@ bassPart = {
 % tuning e,, a,, d, g,
 % scale c des d ees e f fis g aes a bes b
 \mymark "Intro" #1
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    4-3t1 4-1t1 3-3t1 3-1t2 r2 |
+    4-3t1 4-1t1 3-3t1 3-1t2 r2 |
 \mymark "Verse 1" #9
-    s1 s1 s1 s1 s1 s1 s1 s1 |
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    4-3t1 4-1t1 3-3t1 3-1t2 r2 |
+    4-3t1 4-1t1 3-3t1 3-1t2 r2 |
+    4-3t1 4-1t1 3-3t1 3-1t2 r2 |
+    4-3t1 4-1t1 3-3t1 3-1t2 r2 |
 \mymark "Chorus 1" #25
     4-3t2 t |
     4-1t2 t |
@@ -24,10 +27,13 @@ bassPart = {
     3-3t8 t t t t t t t |
     3-1t8 t t t t 3-2t t t |
 \mymark "Interlude" #41
-    4-3t1 s1 s1 s1 s1 s1 s1 s1 |
+    4-3t1 4-1t1 3-3t1 3-1t2 r2 |
+    4-3t1 4-1t1 3-3t1 3-1t2 r2 |
 \mymark "Verse 2" #49
-    s1 s1 s1 s1 s1 s1 s1 s1 |
-    s1 s1 s1 s1 s1 s1 s1 s1 |
+    4-3t1 4-1t1 3-3t1 3-1t2 r2 |
+    4-3t1 4-1t1 3-3t1 3-1t2 r2 |
+    4-3t1 4-1t1 3-3t1 3-1t2 r2 |
+    4-3t1 4-1t1 3-3t1 3-1t2 r2 |
 \mymark "Chorus 2" #65
     4-3t2 t |
     4-1t2 t |
