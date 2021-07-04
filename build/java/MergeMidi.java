@@ -373,8 +373,10 @@ final class MergeMidi{
 		    String l=st.nextToken();
 		    if (l.startsWith("!check=")){
 			long check=measureToTime(Integer.parseInt(l.substring(7)));
-			if (check!=t)
+			if (check!=t){
+			    System.err.println(l+" want="+check+" got="+t);
 			    System.err.println("% MERGEMIDI --fudge-lyrics "+outTrackName+"="+Math.round(fudgeLyrics+(double)(t-check)/fudgeLyricsCount));
+			}
 		    }else
 			sb.append(sb.length()==0?"":"|").append(l);
 		}
