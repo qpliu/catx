@@ -1,0 +1,55 @@
+vocals = {
+    \myVocalsStuff
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 1" #6
+    e'4 e' f' f'8 g'~ |
+    g'4 g' f' f' |
+    e'4 e' f' f'8 g'~ |
+    g'4 g' f' f' |
+    e'4 e' f' f'8 g'~ |
+    g'4 r2 f'4 |
+    e'4 e' f' f'8 g'~ |
+    g'8 \deadNote e' \deadNote e' \deadNote e' \deadNote e' \deadNote e' \deadNote e' \deadNote e' |
+    \deadNote e'1 |
+    r1 |
+\mymark "Verse 1" #16
+    b'4 a' c'' b'8 d'' |
+    b'4 a'8. a'16 c'' c'' b'8 b'16 a' b'8 |
+    b'4 a'8. a'16 c''8 c'' b' b' |
+    c''4 c''8. c''16 b'2 |
+    r2 |
+\mymark "Chorus 2" #21
+    e'4 e' f' f'8 g'~ |
+    g'4 g' f' f' |
+    e'4 e' f' f'8 g'~ |
+    g'4 g' f' f' |
+    e'4 e' f' f'8 g'~ |
+    g'4 r f' f' |
+    e'4 e' f' f'8 g'~ |
+    g'8 \deadNote e' \deadNote e' \deadNote e' \deadNote e' \deadNote e' \deadNote e' \deadNote e' |
+    \deadNote e'1 |
+    r1 |
+\mymark "Verse 2" #31
+    b'4 a' c'' b'8 d'' |
+    b'4 a'8. a'16 c'' c'' b'8 b'16 a' b'8 |
+    b'4 a'8. a'16 c''8 c'' b' b' |
+    c''4 c''8. c''16 b'2 |
+\mymark "Bridge" #35
+    r2. \deadNote e'8 \deadNote e' |
+    r2. \deadNote e'8 \deadNote e' |
+    r2. \deadNote e'8 \deadNote e' |
+    r2. \deadNote e'8 \deadNote e' |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Outro" #42
+    e'4 e' f' f'8 a'~ |
+    a'8 a' a' a' g' g' c'' c'' |
+    e'1 |
+    r1 |
+}
