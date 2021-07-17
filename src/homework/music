@@ -1,0 +1,27 @@
+% BIN midi gg
+% ROBOT enabled=true
+
+\header {
+    title = "Homework"
+}
+
+\include "markup"
+\include "aarinrobo"
+\include "drums"
+
+layoutmusic = <<
+    \tag #'(ggPart) \new DrumStaff \with {
+	drumStyleTable = #(alist->hash-table myDrumStyleTable)
+    } <<
+	\markupStuff
+	\drumsPart
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiAarinrobo) \aarinrobo
+    \tag #'(midiGg) \new DrumStaff \with {
+	drumPitchTable = #(alist->hash-table midiDrumPitches)
+    } \drumsPart
+>>
