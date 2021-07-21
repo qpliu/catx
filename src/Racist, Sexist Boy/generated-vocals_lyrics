@@ -7,49 +7,49 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip1 |
     \skip1 |
 \mymark "Chorus 1" #6
-    "Ra-"4 "cist" "sex-" "ist"8 "boy" |
-    \skip4 "you"4 "are" "a" |
-    "ra-"4 "cist" "sex-" "ist"8 "boy" |
+    "Ra"4 -- "cist" "sex" -- "ist"8 "boy." |
+    \skip4 "You"4 "are" "a" |
+    "ra"4 -- "cist" "sex" -- "ist"8 "boy" |
     \skip4 "and"4 "you" "have" |
-    "real-"4 "ly" "dan-" "gerous"8 "toys" |
-    \skip2. "Fake"4 |
-    "dance"4 "shoot" "and" "de-"8 "stroy" |
-    \skip8 "You"8 "are" "a" "ra-" "cist" "sex-" "ist" |
-    "boy"1 |
+    "real"4 -- "ly" "dan" -- "gerous"8 "toys." |
+    \skip4 \skip2 "Fake"4 |
+    "dance"4 "shoot" "and" "de"8 -- "stroy." |
+    \skip8 "You"8 "are" "a" "ra" -- "cist" "sex" -- "ist" |
+    "boy."1 |
     \skip1 |
 \mymark "Verse 1" #16
     "You"4 "say" "mean" "stuff"8 "and" |
-    "you"4 "close"8. "your"16 "mind" "to" "things"8 "you"16 "don't" "like"8 |
-    "you"4 "turn"8. "a-"16 "way"8 "from" "what" "you" |
-    "don't"4 "wan-"8. "na"16 "see"2 |
+    "you"4 "close"8. "your"16 "mind" "to" "things"8 "you"16 "don't" "like."8 |
+    "You"4 "turn"8. "a"16 -- "way"8 "from" "what" "you" |
+    "don't"4 "wan"8. -- "na"16 "see."2 |
     \skip2 |
 \mymark "Chorus 2" #21
-    "Ra-"4 "cist" "sex-" "ist"8 "boy" |
-    \skip4 "you"4 "are" "a" |
-    "ra-"4 "cist" "sex-" "ist"8 "boy" |
+    "Ra"4 -- "cist" "sex" -- "ist"8 "boy." |
+    \skip4 "You"4 "are" "a" |
+    "ra"4 -- "cist" "sex" -- "ist"8 "boy" |
     \skip4 "and"4 "you" "have" |
-    "ra-"4 "cist" "sex-" "ist"8 "joys" |
-    \skip2 "We"4 "re-" |
-    "build"4 "what" "you" "de-"8 "stroy" |
-    \skip8 "you"8 "are" "a" "ra-" "cist" "sex-" "ist" |
-    "boy"1 |
+    "ra"4 -- "cist" "sex" -- "ist"8 "joys." |
+    \skip4 \skip4 "We"4 "re" -- |
+    "buid"4 "what" "you" "de"8 -- "stroy." |
+    \skip8 "You"8 "are" "a" "ra" -- "cist" "sex" -- "ist" |
+    "boy."1 |
     \skip1 |
 \mymark "Verse 2" #31
     "You"4 "say" "mean" "stuff"8 "and" |
-    "you"4 "close"8. "your"16 "mind" "to" "things"8 "you"16 "don't" "like"8 |
-    "you"4 "turn"8. "a-"16 "way"8 "from" "what" "you" |
-    "don't"4 "wan-"8. "na"16 "hear"2 |
+    "you"4 "close"8. "your"16 "mind" "to" "things"8 "you"16 "don't" "like."8 |
+    "You"4 "turn"8. "a"16 -- "way"8 "from" "what" "you" |
+    "don't"4 "wan"8. -- "na"16 "hear."2 |
 \mymark "Bridge" #35
-    \skip2. "Po-"8 "ser" |
-    \skip2. "Block-"8 "head" |
-    \skip2. "Riff-"8 "raff" |
-    \skip2. "Jerk-"8 "face" |
+    \skip2. "Po"8 -- "ser" |
+    \skip2. "Block"8 -- "head" |
+    \skip2. "Riff"8 -- "raff" |
+    \skip2. "Jerk"8 -- "face" |
     \skip1 |
     \skip1 |
     \skip1 |
 \mymark "Outro" #42
-    "Ra-"4 "cist" "sex-" "ist"8 "boy" |
-    \skip8 "you"8 "are" "a" "ra-" "cist" "sex-" "ist" |
-    "boy"1 |
+    "Ra"4 -- "cist" "sex" -- "ist"8 "boy." |
+    \skip8 "You"8 "are" "a" "ra" -- "cist" "sex" -- "ist" |
+    "boy."1 |
     \skip1 |
 }

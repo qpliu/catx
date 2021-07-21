@@ -1,7 +1,6 @@
 drumsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     \context DrumVoice = "drsa" \voiceOne
     \context DrumVoice = "drsb" \voiceTwo
-    r1 |
     sn4_"L" sn_"R" sn_"L" sn_"R" |
     sn4_"L" sn_"R" sn_"L" r |
     sn4_"R" sn_"L" sn_"R" sn_"L" |
