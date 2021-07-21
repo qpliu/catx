@@ -1,0 +1,8 @@
+music:20:5: error: unknown escaped string: `\markupStuff'
+    
+    \markupStuff
+music:20:5: error: string outside of text script or \lyricmode
+    
+    \markupStuff
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+fatal error: failed files: "in.ly"
