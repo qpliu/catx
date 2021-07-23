@@ -1,0 +1,55 @@
+vocalsKaraoke = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    ">@|!mark=Intro|!check=1"2 "@"
+    "@|!check=2"2 "@"
+    "@|!check=3"2 "@"
+    "@|!check=4|!bg=4"2 "@|!bg=3"
+    "@|!check=5|!bg=2"2 "@|!bg=1"
+\mymark "Chorus 1" #6
+    "Ra|!mark=Chorus 1|!check=6|!bg="4 "-cist" "sex" "-ist"8 "boy."
+    "!check=7"4 "You" "are" "a"
+    "ra|!check=8"4 "-cist" "sex" "-ist"8 "boy"
+    "!check=9"4 ">and" "you" "have"
+    "real|!check=10"4 "-ly" "dan" "-gerous"8 "toys."
+    "!check=11"4 "-"2 ">Fake"4
+    "dance|!check=12"4 "shoot" "and" "de"8 "-stroy."
+    "!check=13"8 "You" "are" "a" "ra" "-cist" "sex" "-ist"
+    "boy.|!check=14"1
+    "!check=15|-"1
+\mymark "Verse 1" #16
+    ">You|!mark=Verse 1|!check=16"4 "say" "mean" "stuff"8 "and"
+    "you|!check=17"4 ">close"8. "your"16 "mind" "to" "things"8 "you"16 "don't" "like."8
+    ">You|!check=18"4 "turn"8. "a"16 "-way"8 "from" "what" "you"
+    "don't|!check=19"4 "wan"8. "-na"16 "see."2
+    "!check=20|-"2
+\mymark "Chorus 2" #21
+    ">Ra|!mark=Chorus 2|!check=21"4 "-cist" "sex" "-ist"8 "boy."
+    "!check=22"4 "You" "are" "a"
+    "ra|!check=23"4 "-cist" "sex" "-ist"8 "boy"
+    "!check=24"4 ">and" "you" "have"
+    "ra|!check=25"4 "-cist" "sex" "-ist"8 "joys."
+    "!check=26"4 "-" ">We" "re"
+    "-buid|!check=27"4 "what" "you" "de"8 "-stroy."
+    "!check=28"8 "You" "are" "a" "ra" "-cist" "sex" "-ist"
+    "boy.|!check=29"1
+    "!check=30|-"1
+\mymark "Verse 2" #31
+    ">You|!mark=Verse 2|!check=31"4 "say" "mean" "stuff"8 "and"
+    "you|!check=32"4 ">close"8. "your"16 "mind" "to" "things"8 "you"16 "don't" "like."8
+    ">You|!check=33"4 "turn"8. "a"16 "-way"8 "from" "what" "you"
+    "don't|!check=34"4 "wan"8. "-na"16 "hear."2
+\mymark "Bridge" #35
+    "!mark=Bridge|!check=35|-"2. ">Po"8 "-ser"
+    "!check=36|-"2. ">Block"8 "-head"
+    "!check=37|-"2. ">Riff"8 "-raff"
+    "!check=38|-"2. ">Jerk"8 "-face"
+    "!check=39|-"2 ">@"
+    "@|!check=40"2 "@"
+    "@|!check=41"2 "@"
+\mymark "Outro" #42
+    "Ra|!mark=Outro|!check=42"4 "-cist" "sex" "-ist"8 "boy."
+    "!check=43"8 "You" "are" "a" "ra" "-cist" "sex" "-ist"
+    "boy.|!check=44"1
+    "!check=45|-"1
+}

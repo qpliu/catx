@@ -9,6 +9,7 @@
 \include "generated-bass"
 \include "generated-vocals"
 \include "generated-vocals_lyrics"
+\include "generated-vocals_karaoke"
 \include "generated-steelpan"
 
 layoutmusic = <<
@@ -75,6 +76,7 @@ midimusic = <<
     \tag #'(midiKaraoke) \new Staff = "generated-vocals" \with {
         midiInstrument = #"synth voice"
     } \vocals
+    \tag #'(midiKaraoke) \vocalsKaraoke
     \tag #'(midiSusan) \new Staff = "generated-steelpan" \with {
         midiInstrument = #"steel drums"
     } \steelpan
