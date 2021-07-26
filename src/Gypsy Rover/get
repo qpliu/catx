@@ -1,0 +1,21 @@
+#!/bin/sh
+WHERE="gysyRover.gp5"
+set -e
+rm -f generated-*
+VLYRICS=`cat vocaloid_lyrics`
+java -jar ../../guitarproToLy/1.jar <"$WHERE" \
+add-lyrics vocaloid 0 1 "$VLYRICS" \
+markup-extra 0 '\key c \major' \
+transpose 1 \
+track 0 \
+    preset kav \
+    output-lilypond \
+    output-lyrics \
+    output-karaoke \
+    which-lyrics "0" \
+track 0 \
+    preset vocaloid \
+    which-lyrics vocaloid \
+    output-lilypond \
+    output-vocaloid \
+2>&1|tee log

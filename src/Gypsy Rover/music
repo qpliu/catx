@@ -1,27 +1,5 @@
-% BIN midi all
+% BIN midi all kav
+% MERGEMIDI --fudge-lyrics midiKaraoke=24,midiVocaloid=24
 % ROBOT enabled=true
 
-\header {
-    title = "Gypsy Rover"
-}
-
-\include "vo"
-\include "lyrics"
-\include "karaoke"
-
-layoutmusic = <<
-    \tag #'(allPart) \new Staff <<
-	\voPart
-	\voLyrics
-    >>
->>
-
-midimusic = <<
-    \markupStuff
-    \tag #'(midiKaraoke) \new Staff \with {
-	midiInstrument = #"flute" % 73
-    } <<
-	\karaokeLyrics
-	\voPart
-    >>
->>
+\include "generated-music"
