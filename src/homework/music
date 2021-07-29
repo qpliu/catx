@@ -9,6 +9,10 @@
 \include "aarinrobo"
 \include "drums"
 
+\layout {
+    ragged-right = ##t
+}
+
 layoutmusic = <<
     \tag #'(ggPart) \new DrumStaff \with {
 	drumStyleTable = #(alist->hash-table myDrumStyleTable)

@@ -1,20 +1,24 @@
 drumsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     \context DrumVoice = "drsa" \voiceOne
     \context DrumVoice = "drsb" \voiceTwo
-    sn4_"L" sn_"R" sn_"L" sn_"R" |
-    sn4_"L" sn_"R" sn_"L" r |
-    sn4_"R" sn_"L" sn_"R" sn_"L" |
-    sn4_"R" sn_"L" sn_"R" r |
-    sn4_"L" r sn_"R" r |
-    sn4_"L" r sn_"R" sn_"L" |
-    sn4_"R" sn_"L" r sn_"R" |
-    sn4_"L" sn_"R" sn_"L" sn_"R" |
-    r4 sn_"L" r sn_"R" |
-    sn4_"L" sn_"R" sn_"L" r |
-    r4 sn_"L" r sn_"R" |
-    r4 sn_"L" sn_"R" r |
-    r4 r sn_"L" sn_"R" |
-    sn4_"L" sn_"R" r r |
-    r4 r sn_"L" r |
-    sn4_"R" r r sn_"L" |
+    sn4 sn sn sn |
+    sn8 sn sn sn sn sn sn sn |
+    sn4 sn sn8 sn sn4 |
+    sn4 sn8 sn sn4 sn |
+    sn8 sn sn sn sn4 sn |
+    sn8 sn sn sn sn sn sn4 |
+    sn4 sn8 sn sn4 sn8 sn |
+    sn8 sn sn sn sn sn sn sn |
+    \break s1 s1 |
+    \break << { hh16^"11" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd4. bd8 bd4. bd8 | } >>
+    \break << { hh16^"12" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd4. bd8 r2 | } >>
+    \break << { hh16^"13" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { r8 bd4 bd4 bd4 bd8 | } >>
+    \break << { hh16^"14" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd2 bd8 bd4 bd8 | } >>
+    \break << { hh16^"15" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4 bd8 | } >>
+    \break << { hh16^"16" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8. bd16 r4 bd8. bd16 r4 | } >>
+    \break << { hh16^"17" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8. bd8. bd8 bd2 | } >>
+    \break << { hh16^"18" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8. bd8. bd8 bd8 bd4 bd8 | } >>
+    \break << { hh16^"19" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8. bd4 bd16 bd2 | } >>
+    \break << { hh16^"20" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd16 bd r4. bd16 bd r4. | } >>
+    \break << { hh16^"21" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8 bd16 bd8. bd8 bd bd16 bd8. bd8 | } >>
 }

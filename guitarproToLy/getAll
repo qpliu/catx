@@ -3,9 +3,12 @@ set -e
 pwdpwd=`pwd`
 for a in test/*/get ../src/*/get
 do
-    b=`dirname "$a"`
-    cd "$b"
-    echo "$b"
-    ./get
-    cd "$pwdpwd"
+    if test -x "$a"
+    then
+	b=`dirname "$a"`
+	cd "$b"
+	echo "$b"
+	./get
+	cd "$pwdpwd"
+    fi
 done
