@@ -31,6 +31,11 @@ class Snakes{
 	this.gt.src = "../gt.svg";
 	this.gt.onclick = ()=>{this.gotOnClickLtGt(1);};
 	where.appendChild(this.gt);
+	this.playRecording = document.createElement("img");
+	this.playRecording.style = "position:absolute;left:30vw;top:5vw;width:5vw;z-index:9;display:none;visibility:hidden;"
+	this.playRecording.src = "../diaodiao.png";
+	this.playRecording.onclick = ()=>{this.gotPlayRecording();};
+	where.appendChild(this.playRecording);
 	this.isPlaying = false;
 	this.mediaRecorder0 = undefined;
 	this.mediaRecorder1 = undefined;
@@ -54,10 +59,7 @@ class Snakes{
 	    canvas.style.display = "none";
 	for (const div of this.divs)
 	    div.style.display = "none";
-	if (this.playRecording!=undefined){
-	    this.where.removeChild(this.playRecording);
-	    this.playRecording = undefined;
-	}
+	this.playRecording.style.visibility = "hidden";
 	this.recordedBuffer = undefined;
     }
     gotOnClickLtGt(d){
@@ -85,6 +87,7 @@ class Snakes{
 	this.enabled = enabled;
 	this.grayDiv.style.display = enabled?"block":"none";
 	this.staticDiv.style.visibility = enabled?"visible":"hidden";
+	this.playRecording.style.display = enabled?"block":"none";
 	this.lt.style.display = "none";
 	this.gt.style.display = "none";
 	for (const canvas of this.canvases)
@@ -319,16 +322,8 @@ class Snakes{
 	if (!isPlaying){
 	    const mr=this.mediaRecorder0||this.mediaRecorder1;
 	    if (mr){
-		if (this.playRecording!=undefined)
-		    this.where.removeChild(this.playRecording);
-		const playRecording=document.createElement("img");
-		this.playRecording = playRecording;
-		playRecording.style = "position:absolute;left:30vw;top:5vw;width:5vw;z-index:9;visibility:hidden;"
-		playRecording.onclick = ()=>{this.gotPlayRecording();};
-		playRecording.src = "../diaodiao.png";
-		this.where.appendChild(playRecording);
 		mr.ondataavailable = e => e.data.arrayBuffer().then(ab=>audioContext.decodeAudioData(ab,b=>{
-		    playRecording.style.visibility = "visible";
+		    this.playRecording.style.visibility = "visible";
 		    this.recordedBuffer = b;
 		}));
 	    }
