@@ -1,3 +1,22 @@
 aarinrobo = \new Lyrics \lyricmode {
-    "countin;metronome 0"
+    "countin;metronome 0"1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    \skip1
+    "start_over"1
+    \skip1 \skip1
+    "start_over"1
+    "start_over"1
+    "start_over"1
+    "start_over"1
+    "start_over"1
+    "start_over"1
+    "start_over"1
+    "start_over"1
+    "start_over"1
+    "start_over"1
+    "start_over"1
 }

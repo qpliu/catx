@@ -9,7 +9,7 @@ Sequence: sequence
 Track name: midiAarinrobo
 Track name: midiGg
 No pre-resampling cache hit
-countin;metronome 0metronome 0+metronome 0e+aPlaying time: ~10 seconds
+countin;metronome 0;start_overmetronome 0+;start_overmetronome 0e+a;start_overPlaying time: ~10 seconds
 Notes cut: 0
 Notes lost totally: 0
 Wrote 573339/1496720 bytes(38.3064% compressed)

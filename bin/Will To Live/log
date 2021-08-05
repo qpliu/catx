@@ -1,0 +1,95 @@
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+!check=2 want=1536 got=1632
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=3 want=3072 got=3264
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=4 want=4608 got=4896
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=5 want=6144 got=6528
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=6 want=7680 got=8160
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=7 want=9216 got=9792
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=8 want=10752 got=11424
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=9 want=12288 got=13056
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=10 want=13824 got=14688
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=11 want=15360 got=16320
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=12 want=16896 got=17952
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=13 want=18432 got=19584
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=14 want=19968 got=21312
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=15 want=21504 got=22944
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=16 want=23040 got=24768
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=17 want=24576 got=26400
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=18 want=26112 got=28032
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=19 want=27648 got=29664
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=20 want=29184 got=31296
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=21 want=30720 got=32928
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=22 want=32256 got=34656
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=23 want=33792 got=36288
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=24 want=35328 got=38112
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=25 want=36864 got=39744
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=26 want=38400 got=41424
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=27 want=39936 got=43008
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=28 want=41472 got=44592
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=29 want=43008 got=46176
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=30 want=44544 got=47760
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=31 want=46080 got=49344
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=32 want=47616 got=50928
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+!check=33 want=49152 got=52512
+% MERGEMIDI --fudge-lyrics midiKaraoke=96
+WorstAge=2147483648
+WorstAge=2147483648
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
+Format: 1  Tracks: 5  Divisions: 384
+Sequence: sequence
+Track name: midiGg
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
+Playing time: ~72 seconds
+Notes cut: 0
+Notes lost totally: 0
+Wrote 7520699/12480380 bytes(60.2602% compressed)
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+     33 measure=all
+     33 measure=kav
+     33 measure=gg
+     33 measure=peter
+     33 measure=susan
+     33 measure=bass

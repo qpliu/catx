@@ -1,5 +1,5 @@
 aarinrobo = \new Lyrics \lyricmode {
-    "countin;metronome 0"
-    "metronome 0+"
-    "metronome 0e+a"
+    "countin;metronome 0;start_over"
+    "metronome 0+;start_over"
+    "metronome 0e+a;start_over"
 }
