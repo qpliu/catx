@@ -43,6 +43,7 @@ layoutmusic = <<
     } <<
         \markupStuff
         \vocals
+        \clef "treble_8"
     >>
     \tag #'(allPart kavPart) \vocalsLyrics
     \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
