@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 
 # What I remember about how this works.  Probably I forgot some features.
 # This converts *text files into *tex files.
