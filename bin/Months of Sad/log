@@ -1,0 +1,35 @@
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+WorstAge=2147483648
+WorstAge=2147483648
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
+Format: 1  Tracks: 5  Divisions: 384
+Sequence: sequence
+Track name: midiGg
+Track name: midiPeter
+Track name: midiSusan
+Track name: midiBass
+Playing time: ~88 seconds
+Notes cut: 0
+Notes lost totally: 0
+Wrote 9222754/15302780 bytes(60.2685% compressed)
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+warning: compressing over-full page by 3.1 staff-spaces
+warning: page 0 has been compressed
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+warning: compressing over-full page by 4.8 staff-spaces
+warning: page 0 has been compressed
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+     41 measure=all
+     41 measure=kav
+     41 measure=gg
+     41 measure=peter
+     41 measure=susan
+     41 measure=bass
