@@ -1,0 +1,51 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1" #9
+    \skip4. "I"8 "want" "to" "wear" "plaid" |
+    \skip4. "I"8 "have" "n't" "gone" "mad" |
+    \skip4. "You're"8 "gi" "ving" "me" "months" |
+    \skip8 "of"4 "sad"2 \skip8 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 2" #15
+    \skip4. "I"8 "click" "on" "an" "ad" |
+    \skip4. "I"8 "hope" "that" "you're" "glad" |
+    \skip4. "You're"8 "gi" "ving" "me" "months" |
+    \skip8 "of"4 "sad"2 \skip8 |
+    \skip1 |
+    \skip1 |
+\mymark "Bridge" #21
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Solo" #25
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 3" #31
+    \skip4. "I"8 "fol" "low" "a" "fad" |
+    \skip4. "It"8 "is" "n't" "so" "bad" |
+    \skip4. "You're"8 "gi" "ving" "me" "months" |
+    \skip8 "of"4 "sad"2 \skip8 |
+    \skip1 |
+    \skip1 |
+\mymark "Outro" #37
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}

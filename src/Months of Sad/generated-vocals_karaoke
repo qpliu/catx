@@ -1,0 +1,51 @@
+vocalsKaraoke = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    "!mark=Intro|!check=1|-"4. ">@"2 "@"8
+    "!check=2"4. "@"2 "@"8
+    "!check=3"4. "@"2 "@"8
+    "!check=4"4. "@"2 "@"8
+    "!check=5"4. "@"2 "@"8
+    "!check=6"4. "@"2 "@"8
+    "!check=7"4. "@|!bg=4"2 "@|!bg=3"8
+    "!check=8"4. "@|!bg=2"2 "@|!bg=1"8
+\mymark "Verse 1" #9
+    "!mark=Verse 1|!check=9"4. "I|!bg="8 "want" "to" "wear" "plaid"
+    "!check=10"4. "I"8 "have" "n't" "gone" "mad"
+    "!check=11"4. ">You're"8 "gi" "ving" "me" "months"
+    "!check=12"8 "of"4 "sad"2 \skip8
+    "!check=13|-"1
+    "!check=14|-"1
+\mymark "Verse 2" #15
+    "!mark=Verse 2|!check=15|-"4. ">I"8 "click" "on" "an" "ad"
+    "!check=16"4. "I"8 "hope" "that" "you're" "glad"
+    "!check=17"4. ">You're"8 "gi" "ving" "me" "months"
+    "!check=18"8 "of"4 "sad"2 \skip8
+    "!check=19|-"2. \skip8 ">@"8
+    "!check=20"4. "@"2 "@"8
+\mymark "Bridge" #21
+    "!mark=Bridge|!check=21"4. "@"2 "@"8
+    "!check=22"4. "@"2 "@"8
+    "!check=23"4. "@"2 "@"8
+    "!check=24"4. "@"2 "@"8
+\mymark "Solo" #25
+    "!mark=Solo|!check=25"4. "@"2 "@"8
+    "!check=26"4. "@"2 "@"8
+    "!check=27"4. "@"2 "@"8
+    "!check=28"4. "@"2 "@"8
+    "!check=29"4. "@|!bg=4"2 "@|!bg=3"8
+    "!check=30"4. "@|!bg=2"2 "@|!bg=1"8
+\mymark "Verse 3" #31
+    "!mark=Verse 3|!check=31"4. "I|!bg="8 "fol" "low" "a" "fad"
+    "!check=32"4. "It"8 "is" "n't" "so" "bad"
+    "!check=33"4. ">You're"8 "gi" "ving" "me" "months"
+    "!check=34"8 "of"4 "sad"2 \skip8
+    "!check=35|-"1
+    "@@|!check=36"32 "-"2. \skip8. \skip32
+\mymark "Outro" #37
+    "!mark=Outro|!check=37|-"1
+    "!check=38|-"1
+    "!check=39|-"1
+    "!check=40|-"1
+    "!check=41|-"1
+}

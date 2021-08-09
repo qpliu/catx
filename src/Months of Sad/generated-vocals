@@ -1,0 +1,51 @@
+vocals = {
+    \myVocalsStuff
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #9
+    r4. d'8 fis' d' fis' g'~ |
+    g'4. d'8 g' g' g' fis'~ |
+    fis'4. d'8 a' g' fis' c'~ |
+    c'8 c'4 d'2~ d'8 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #15
+    r4. d'8 fis' d' fis' g'~ |
+    g'4. d'8 g' g' g' fis'~ |
+    fis'4. d'8 a' g' fis' c'~ |
+    c'8 c'4 d'2~ d'8 |
+    r1 |
+    r1 |
+\mymark "Bridge" #21
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Solo" #25
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 3" #31
+    r4. d'8 fis' d' fis' g'~ |
+    g'4. d'8 g' g' g' fis'~ |
+    fis'4. d'8 a' g' fis' c'~ |
+    c'8 c'4 d'2~ d'8 |
+    r1 |
+    r1 |
+\mymark "Outro" #37
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}
