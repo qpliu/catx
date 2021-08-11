@@ -1,3 +1,4 @@
 #!/bin/sh
 java -jar ../../guitarproToLy/1.jar < gypsyRover.gp5 \
 track 0 preset kav output-lilypond \
+ 
