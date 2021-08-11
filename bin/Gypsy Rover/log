@@ -1,8 +1,16 @@
-music:20:5: error: unknown escaped string: `\markupStuff'
-    
-    \markupStuff
-music:20:5: error: string outside of text script or \lyricmode
-    
-    \markupStuff
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-fatal error: failed files: "in.ly"
+WorstAge=2147484992
+WorstAge=9223372036854775807
+Playing out_no_karaoke.midi
+MIDI file: out_no_karaoke.midi
+Format: 1  Tracks: 1  Divisions: 384
+Sequence: sequence
+No pre-resampling cache hit
+Playing time: ~4 seconds
+Notes cut: 0
+Notes lost totally: 0
+Wrote 24565/441080 bytes(5.56928% compressed)
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+     20 measure=all
+     20 measure=kav

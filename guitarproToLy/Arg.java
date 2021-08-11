@@ -30,6 +30,8 @@ final class Arg implements Serializable{
     String which_lyrics="";
     int transpose;
     final List<Gpfile.TrackMeasureLyrics>add_lyrics=new ArrayList<Gpfile.TrackMeasureLyrics>();
+    final List<String>add=new ArrayList<String>();
+    final List<String>add_midi=new ArrayList<String>();
     final List<String>layout_extra=new ArrayList<String>();
     final Map<Integer,List<String>>music_extra=new HashMap<Integer,List<String>>();
     final Map<Integer,List<String>>markup_extra=new HashMap<Integer,List<String>>();
@@ -99,7 +101,9 @@ final class Arg implements Serializable{
 	System.err.println("Usage: java GuitarproToLy [global options] track n1 [track n1 options] track n2 [track n2 options] ... <gpfile");
 	System.err.println("options:");
 	System.err.println("[drumMap map]  Specify drum map.  Something like --drumMap \"49 cymc 0,38 sn 0,36 bd 1\"");
+	System.err.println("[add line]  Add line to music.");
 	System.err.println("[add-lyrics track measure lyrics]  Add lyrics.");
+	System.err.println("[add-midi line]  Add line to midi.");
 	System.err.println("[instrument-name name]  Specify instrument name.");
 	System.err.println("[instrument-short-name name]  Specify short instrument name.");
 	System.err.println("[karaoke-lyrics-parameter key value]  Specify parameters for generating karaoke lyrics.");
@@ -143,6 +147,8 @@ final class Arg implements Serializable{
 		trackargs.add(arg);
 	    }else if (argv[i].equals("drumMap"))
 		arg.drumMap = argv[++i];
+	    else if (argv[i].equals("add"))
+		arg.add.add(argv[++i]);
 	    else if (argv[i].equals("add-lyrics")){
 		Gpfile.TrackMeasureLyrics tml=new Gpfile.TrackMeasureLyrics();
 		tml.which = argv[++i];
@@ -150,7 +156,9 @@ final class Arg implements Serializable{
 		tml.startingMeasure = Integer.parseInt(argv[++i]);
 		tml.lyrics = argv[++i];
 		arg.add_lyrics.add(tml);
-	    }else if (argv[i].equals("instrument-name"))
+	    }else if (argv[i].equals("add-midi"))
+		arg.add_midi.add(argv[++i]);
+	    else if (argv[i].equals("instrument-name"))
 		arg.instrument_name = argv[++i];
 	    else if (argv[i].equals("instrument-short-name"))
 		arg.instrument_short_name = argv[++i];

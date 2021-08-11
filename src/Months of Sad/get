@@ -1,5 +1,7 @@
 #!/bin/sh
 java -jar ../../guitarproToLy/1.jar < song.gp5 \
+add '\include "aarinrobo"' \
+add-midi "\\tag #'(midiAarinrobo) \\aarinrobo" \
 track 0 preset peter output-lilypond \
 track 1 preset bass output-lilypond \
 track 4 preset kav layout-extra '\clef "treble_8"' output-lilypond output-lyrics output-karaoke \

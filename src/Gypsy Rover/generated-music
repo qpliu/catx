@@ -1,0 +1,24 @@
+\header {
+    title = "The Gypsy Rover"
+    composer = ""
+}
+
+\include "generated-markup"
+\include "generated-vocals"
+
+layoutmusic = <<
+    \tag #'(allPart kavPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Vocals" }
+        shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+        \markupStuff
+        \vocals
+    >>
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiKaraoke) \new Staff = "generated-vocals" \with {
+        midiInstrument = #"synth voice"
+    } \vocals
+>>

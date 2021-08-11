@@ -1,0 +1,26 @@
+vocals = {
+    \myVocalsStuff
+    r2. r8 g |
+    \repeat volta 6 {
+        g4 c' d' e'8 d' |
+        c'4 g g e8 f |
+        g4 c' d' e'8 f' |
+        e'2 d'4. g8 |
+        g4 c' d' e'8 f' |
+        g'4 e'8 d' c'4 c'8 d' |
+        e'4 e' d'8 c' a4 |
+        g4 c'2 a4 |
+        g2 r |
+        g4 c' d' e'8 d' |
+        c'4 g g e8 f |
+        g4 c' d' e'8 f' |
+        e'2 d'4. g8 |
+        g4 c' d' e'8 f' |
+        g'4 e'8 d' c'4 c'8 d' |
+        e'4 e' d'8 c' a4 |
+        g4 c'2 a4 |
+    } \alternative { {
+        g2 r4. g8 |
+    } }
+    g2 r |
+}

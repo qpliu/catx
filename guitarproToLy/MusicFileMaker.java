@@ -13,6 +13,8 @@ final class MusicFileMaker extends FileMaker{
 	    print("composer = "+Stuff.quote(main.gpfile.artist));
 	unindent("}");
 	print();
+	for (String s:main.globalarg.add)
+	    print(s);
 	main.markupFileMaker.printInclude(this);
 	for (TrackFileMaker tfm:main.trackFileMaker)
 	    tfm.printInclude(this);
@@ -26,6 +28,8 @@ final class MusicFileMaker extends FileMaker{
 	print("\\"+main.markupFileMaker.lyname);
 	for (TrackFileMaker tfm:main.trackFileMaker)
 	    tfm.midi(this);
+	for (String s:main.globalarg.add_midi)
+	    print(s);
 	unindent(">>");
     }
 }
