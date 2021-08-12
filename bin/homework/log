@@ -9,9 +9,11 @@ Sequence: sequence
 Track name: midiAarinrobo
 Track name: midiGg
 No pre-resampling cache hit
-countin;metronome 0start_overstart_overstart_overstart_overstart_overstart_overstart_overstart_overstart_overstart_overstart_overstart_overPlaying time: ~75 seconds
+countin;metronome 0;start_overPlaying time: ~113 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 5413869/13048940 bytes(41.489% compressed)
+Wrote 8917791/19701732 bytes(45.264% compressed)
+warning: compressing over-full page by 12.5 staff-spaces
+warning: page 1 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-     21 measure=gg
+     32 measure=gg
