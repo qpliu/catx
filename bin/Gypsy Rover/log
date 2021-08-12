@@ -10,7 +10,11 @@ Playing time: ~4 seconds
 Notes cut: 0
 Notes lost totally: 0
 Wrote 24565/441080 bytes(5.56928% compressed)
+programming error: Spanner `VoltaBracket' is not fully contained in parent spanner.  Ignoring orphaned part
+continuing, cross fingers
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
+programming error: Spanner `VoltaBracket' is not fully contained in parent spanner.  Ignoring orphaned part
+continuing, cross fingers
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
      20 measure=all
      20 measure=kav

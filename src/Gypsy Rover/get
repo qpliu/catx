@@ -1,4 +1,5 @@
 #!/bin/sh
+rm -f generated-*
 java -jar ../../guitarproToLy/1.jar < gypsyRover.gp5 \
 track 0 preset kav output-lilypond \
- 
+2>&1|tee log
