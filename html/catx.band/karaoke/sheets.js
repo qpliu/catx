@@ -21,7 +21,7 @@ class Sheets{
 		if (xx.length==1)
 		    a.push(xx[0]-1);
 		else
-		    for (let j=xx[0]; j<=xx[1]; j++)
+		    for (let j=+xx[0]; j<=+xx[1]; j++)
 			a.push(j-1);
 	    }
 	    this.measureMap[k] = a;
