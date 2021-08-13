@@ -2,7 +2,7 @@ markupStuff = {
     \override Score.RehearsalMark.self-alignment-X = #LEFT
     \tempo 4 = 120
     s1 |
-    \repeat volta 6 {
+    \repeat volta 5 {
         s1 |
         s1 |
         s1 |
@@ -22,6 +22,7 @@ markupStuff = {
         s1 |
     } \alternative { {
         s1 |
+    } {
+        s1 |
     } }
-    s1 |
 }

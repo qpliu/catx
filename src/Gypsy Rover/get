@@ -1,5 +1,5 @@
 #!/bin/sh
 rm -f generated-*
 java -jar ../../guitarproToLy/1.jar < gypsyRover.gp5 \
-track 0 preset kav output-lilypond \
+track 0 preset kav layout-extra '\clef "treble_8"' output-lilypond output-lyrics output-karaoke \
 2>&1|tee log

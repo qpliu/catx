@@ -5,6 +5,8 @@
 
 \include "generated-markup"
 \include "generated-vocals"
+\include "generated-vocals_lyrics"
+\include "generated-vocals_karaoke"
 
 layoutmusic = <<
     \tag #'(allPart kavPart) \new Staff \with {
@@ -13,7 +15,9 @@ layoutmusic = <<
     } <<
         \markupStuff
         \vocals
+        \clef "treble_8"
     >>
+    \tag #'(allPart kavPart) \vocalsLyrics
 >>
 
 midimusic = <<
@@ -21,4 +25,5 @@ midimusic = <<
     \tag #'(midiKaraoke) \new Staff = "generated-vocals" \with {
         midiInstrument = #"synth voice"
     } \vocals
+    \tag #'(midiKaraoke) \vocalsKaraoke
 >>

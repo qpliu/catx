@@ -1,0 +1,27 @@
+vocalsKaraoke = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    "!check=1|-"2. \skip8 ">The"8
+    \repeat volta 5 {
+        "Gyp"4 "-sy" "ro" "-ver"8 "came"
+        "o'er"4 "the" "hill" "and"
+        "down"4 "the" ">val" "-ley"8 "so"
+        "sha"2 "-dy,"4. ">he"8
+        "whistled"4 "and" "sang" "til"8 "the"
+        "green"4 "woods" "rang" "and"8 "he"
+        "won"4 ">the" "heart"8 "of" "the"4
+        "la"1
+        "-dy."2 "-"
+        ">Ah"4 "di" "doo," "ah"8 "di"
+        "doo"4 "dah" "day," "Ah"8 "di"
+        "doo,"4 "ah" "de" "day"
+        \skip2 "dee."4. ">He"8
+        "whistled"4 "and" "sang" "til"8 "the"
+        "green"4 "woods" "rang" "and"8 "he"
+        "won"4 ">the" "heart"8 "of" "the"4
+        "la"1
+    } \alternative { {
+        "-dy."2 "-"
+    } {
+        "-"2 "@@"32 "-"4. \skip16.
+    } }
+}

@@ -174,11 +174,20 @@ final class Gp5file extends Gpfile{
 	    Log.debug("Repeat start");
 	}
 	if ((bits&8)!=0){
-	    measure.repeatEnd = readUnsignedByte();
+	    int u=readUnsignedByte();
+// Need these two lines to be compatible with Tuxguitar.
+// Must not have these two lines to be compatible with songs I see in songsterr.
+// Have not checked Guitarpro--but probably must not have these two lines to be compatible with Guitarpro.
+//	    if (version>=500 && u>0)
+//		--u;
+	    measure.repeatEnd = u;
 	    Log.debug("Repeat end %d",measure.repeatEnd);
 	}
 	if ((bits&16)!=0){
-	    measure.repeatAlternate = readUnsignedByte();
+	    int u=readUnsignedByte();
+	    if (version<500)
+		u = 1<<u;
+	    measure.repeatAlternate = u;
 	    Log.debug("Repeat alternate %d",measure.repeatAlternate);
 	}
 	if ((bits&32)!=0){

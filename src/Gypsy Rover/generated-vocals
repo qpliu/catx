@@ -1,7 +1,7 @@
 vocals = {
     \myVocalsStuff
     r2. r8 g |
-    \repeat volta 6 {
+    \repeat volta 5 {
         g4 c' d' e'8 d' |
         c'4 g g e8 f |
         g4 c' d' e'8 f' |
@@ -21,6 +21,7 @@ vocals = {
         g4 c'2 a4 |
     } \alternative { {
         g2 r4. g8 |
+    } {
+        g2 r |
     } }
-    g2 r |
 }
