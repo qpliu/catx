@@ -1,5 +1,6 @@
 % BIN midi all kav
 % MERGEMIDI --fudge-lyrics midiKaraoke=24
+% ROBOT pickup_measures=1
 % ROBOT measure_map={"default":"1-19,2-19,2-19,2-19,2-18,20"}
 % ROBOT enabled=true
 
