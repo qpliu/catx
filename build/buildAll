@@ -17,7 +17,7 @@ do
     then
 	wait -n
     else
-	BABYCOUNT=`echo "print $BABYCOUNT+1"|python`
+	BABYCOUNT=`echo "print $BABYCOUNT+1"|python2.7`
     fi
     ../buildBin &
     cd ..

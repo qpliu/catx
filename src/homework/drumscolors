@@ -1,32 +1,61 @@
 drumsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     \context DrumVoice = "drsa" \voiceOne
     \context DrumVoice = "drsb" \voiceTwo
-    \break sn8^"R"_"23" sn^"R" sn^"L" sn^"L" sn^"R" sn^"R" sn^"L" sn^"L" |
-    \break sn8^"R"_"24" sn^"L" sn^"R" sn^"L" sn^"R" sn^"L" sn^"R" sn^"L" |
-    \break sn8^"R"_"25" sn^"R" sn^"R" sn^"R" sn^"L" sn^"L" sn^"L" sn^"L" |
-    \break sn8^"R"_"26" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"L" sn^"L" sn^"L" sn^"L" sn^"L" sn^"L" sn^"L" sn^"L" |
-    \break sn8^"R"_"27" sn^"L" sn^"R" sn^"L" sn^"R" sn^"L" sn^"R" sn^"L" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" |
-    \break sn8^"R"_"28" sn^"R" sn^"L" sn^"L" sn^"R" sn^"R" sn^"L" sn^"L" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" |
-    \break sn8^"R"_"29" sn^"R" sn^"R" sn^"R" sn^"L" sn^"L" sn^"L" sn^"L" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" |
-    \break s1 |
-    \break << { hh16_"11" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd4. bd8 bd4. bd8 | } >>
-    \break << { hh16_"12" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd4. bd8 r2 | } >>
-    \break << { hh16_"13" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { r8 bd4 bd4 bd4 bd8 | } >>
-    \break << { hh16_"14" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd2 bd8 bd4 bd8 | } >>
-    \break << { hh16_"15" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4 bd8 | } >>
-    \break << { hh16_"16" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8. bd16 r4 bd8. bd16 r4 | } >>
-    \break << { hh16_"17" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8. bd8. bd8 bd2 | } >>
-    \break << { hh16_"18" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8. bd8. bd8 bd8 bd4 bd8 | } >>
-    \break << { hh16_"19" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8. bd4 bd16 bd2 | } >>
-    \break << { hh16_"20" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd16 bd r4. bd16 bd r4. | } >>
-    \break << { hh16_"21" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8 bd16 bd8. bd8 bd bd16 bd8. bd8 | } >>
-    \break << { hh16_"22" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8 bd4. bd16 bd4. bd16 | } >>
-    \break << { hh16_"23" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd4 r16 bd bd bd bd8 bd4. | } >>
-    \break << { hh16_"24" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd16 bd8 bd bd16 bd8 bd4. bd8 | } >>
-    \break << { hh16_"25" hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8. bd16 bd8. bd16 bd8. bd16 bd8. bd16 | } >>
-    \break << { hh8_"26" hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8. bd8. bd8 bd2 | } >>
-    \break << { hh8_"27" hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8. bd8 bd bd bd bd8. bd8 | } >>
-    \break << { hh8_"28" hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd16 bd8 bd8. bd8 bd16 bd8 bd8. bd8 | } >>
-    \break << { hh8_"29" hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd16 bd r4. bd16 bd r4. | } >>
-    \break << { hh8_"30" hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd r8. bd16 bd8 bd r8. bd16 | } >>
+    \bar ""
+    \break \set Score.currentBarNumber = #23
+    sn8^"R" sn^"R" sn^"L" sn^"L" sn^"R" sn^"R" sn^"L" sn^"L" |
+    \break \set Score.currentBarNumber = #24
+    sn8^"R" sn^"L" sn^"R" sn^"L" sn^"R" sn^"L" sn^"R" sn^"L" |
+    \break \set Score.currentBarNumber = #25
+    sn8^"R" sn^"R" sn^"R" sn^"R" sn^"L" sn^"L" sn^"L" sn^"L" |
+    \break \set Score.currentBarNumber = #26
+    sn8^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"L" sn^"L" sn^"L" sn^"L" sn^"L" sn^"L" sn^"L" sn^"L" |
+    \break \set Score.currentBarNumber = #27
+    sn8^"R" sn^"L" sn^"R" sn^"L" sn^"R" sn^"L" sn^"R" sn^"L" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" |
+    \break \set Score.currentBarNumber = #28
+    sn8^"R" sn^"R" sn^"L" sn^"L" sn^"R" sn^"R" sn^"L" sn^"L" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" |
+    \break \set Score.currentBarNumber = #29
+    sn8^"R" sn^"R" sn^"R" sn^"R" sn^"L" sn^"L" sn^"L" sn^"L" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" |
+    \break \set Score.currentBarNumber = #0
+    s1 |
+    \break \set Score.currentBarNumber = #11
+    << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd4. bd8 bd4. bd8 | } >>
+    \break \set Score.currentBarNumber = #12
+    << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd4. bd8 r2 | } >>
+    \break \set Score.currentBarNumber = #13
+    << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { r8 bd4 bd4 bd4 bd8 | } >>
+    \break \set Score.currentBarNumber = #14
+    << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd2 bd8 bd4 bd8 | } >>
+    \break \set Score.currentBarNumber = #15
+    << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4 bd8 | } >>
+    \break \set Score.currentBarNumber = #16
+    << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8. bd16 r4 bd8. bd16 r4 | } >>
+    \break \set Score.currentBarNumber = #17
+    << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8. bd8. bd8 bd2 | } >>
+    \break \set Score.currentBarNumber = #18
+    << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8. bd8. bd8 bd8 bd4 bd8 | } >>
+    \break \set Score.currentBarNumber = #19
+    << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8. bd4 bd16 bd2 | } >>
+    \break \set Score.currentBarNumber = #20
+    << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd16 bd r4. bd16 bd r4. | } >>
+    \break \set Score.currentBarNumber = #21
+    << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8 bd16 bd8. bd8 bd bd16 bd8. bd8 | } >>
+    \break \set Score.currentBarNumber = #22
+    << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8 bd4. bd16 bd4. bd16 | } >>
+    \break \set Score.currentBarNumber = #23
+    << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd4 r16 bd bd bd bd8 bd4. | } >>
+    \break \set Score.currentBarNumber = #24
+    << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd16 bd8 bd bd16 bd8 bd4. bd8 | } >>
+    \break \set Score.currentBarNumber = #25
+    << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8. bd16 bd8. bd16 bd8. bd16 bd8. bd16 | } >>
+    \break \set Score.currentBarNumber = #26
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8. bd8. bd8 bd2 | } >>
+    \break \set Score.currentBarNumber = #27
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8. bd8 bd bd bd bd8. bd8 | } >>
+    \break \set Score.currentBarNumber = #28
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd16 bd8 bd8. bd8 bd16 bd8 bd8. bd8 | } >>
+    \break \set Score.currentBarNumber = #29
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd16 bd r4. bd16 bd r4. | } >>
+    \break \set Score.currentBarNumber = #30
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd r8. bd16 bd8 bd r8. bd16 | } >>
 }

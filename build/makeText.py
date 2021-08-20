@@ -1,9 +1,9 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python2.7
 
 import re,sys
 
 if len(sys.argv)!=1:
-    print 'python %s <input >output'%argv[0]
+    print 'python2.7 %s <input >output'%argv[0]
     sys.exit(1)
 
 braceStack=[]

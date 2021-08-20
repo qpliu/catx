@@ -22,7 +22,7 @@ Notes cut: 0
 Notes lost totally: 0
 Wrote 22468460/50053580 bytes(44.8888% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-warning: compressing over-full page by 1.0 staff-spaces
+warning: compressing over-full page by 0.5 staff-spaces
 warning: page 0 has been compressed
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.

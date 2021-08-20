@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python2.7
 
 # What I remember about how this works.  Probably I forgot some features.
 # This converts *text files into *tex files.
@@ -37,7 +37,7 @@
 import os,re,sys
 
 if len(sys.argv)!=2:
-    print 'python %s filename'%sys.argv[0]
+    print 'python2.7 %s filename'%sys.argv[0]
     sys.exit(1)
 
 noteNames = ('c','cis','d','dis','e','f','fis','g','gis','a','ais','b')

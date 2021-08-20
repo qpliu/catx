@@ -165,7 +165,7 @@ EOF
 	    do
 		java -cp ../java FindMeasuresInSvg "measure=$part $page" <temp.svg >>../bin/out.aarin
 		gzip <temp.svg >"/share/music/svg/$name/$part/$page.svg.gz"
-		page=`echo print $page+1|python`
+		page=`echo print $page+1|python2.7`
 	    done
 	fi
     fi

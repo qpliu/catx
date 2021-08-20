@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python2.7
 
 # use something like "make_vocaloid.py <input >output -v voice_name" to specify espeak parameters.
 
