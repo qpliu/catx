@@ -7,7 +7,6 @@
 }
 
 \include "markup"
-\include "aarinrobo"
 \include "drs"
 \include "vo"
 \include "lyrics"
@@ -30,7 +29,6 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiAarinrobo) \aarinrobo
     \tag #'(midiSusan) \new Staff \with {
 	midiInstrument = #"steel drums"
     } \voPart

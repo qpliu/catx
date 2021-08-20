@@ -3,7 +3,6 @@
     composer = ""
 }
 
-\include "aarinrobo"
 \include "generated-markup"
 \include "generated-guitar"
 \include "generated-bass"
@@ -82,5 +81,4 @@ midimusic = <<
     \tag #'(midiSusan) \new Staff = "generated-steelpan" \with {
         midiInstrument = #"steel drums"
     } \steelpan
-    \tag #'(midiAarinrobo) \aarinrobo
 >>

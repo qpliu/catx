@@ -6,7 +6,6 @@
 }
 
 \include "markup"
-\include "aarinrobo"
 \include "guitar"
 \include "bass"
 \include "drums"
@@ -70,7 +69,6 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiAarinrobo) \aarinrobo
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drumsPart
