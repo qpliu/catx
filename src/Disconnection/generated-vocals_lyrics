@@ -1,0 +1,59 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1" #10
+    \skip8 "In"8 "a" "world" "of" "in" "cor" "rec" |
+    "tion"2 \skip2 |
+    \skip8 "that's"8 "spread" "ing" "a" "big" "in" "fec" |
+    "tion"2 \skip2 |
+    \skip8 "and"8 "sup" "pres" "sing" "the" "in" "jec" |
+    "tion"2 \skip2 |
+    \skip8 "all"8 "I" "feel" "is" "dis" "con" "nec" |
+    "tion"2 \skip2 |
+\mymark "Verse 2" #18
+    \skip8 "When"8 "the" "na" "tion" "al" "e" "lec" |
+    "tion"2 \skip2 |
+    \skip8 "re"8 "sults" "in" "an" "in" "sur" "rec" |
+    "tion"2 \skip2 |
+    \skip8 "and"8 "we" "are" "de" "nied" "pro" "tec" |
+    "tion"2 \skip2 |
+    \skip8 "all"8 "I" "feel" "is" "dis" "con" "nec" |
+    "tion"2 \skip2 |
+\mymark "Solo" #26
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 3" #34
+    \skip8 "Af"8 "ter" "an" "a" "brupt" "re" "jec" |
+    "tion"2 \skip2 |
+    \skip8 "and"8 "a" "sense" "of" "dis" "af" "fec" |
+    "tion"2 \skip2 |
+    \skip8 "made"8 "a" "ware" "of" "im" "per" "fec" |
+    "tion"2 \skip2 |
+    \skip8 "all"8 "I" "feel" "is" "dis" "con" "nec" |
+    "tion"2 \skip2 |
+\mymark "Outro" #42
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}

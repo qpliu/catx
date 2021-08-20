@@ -1,0 +1,60 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \tempo 4 = 110
+\mymark "Intro" #1
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+\mymark "Verse 1" #10
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+\mymark "Verse 2" #18
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+\mymark "Solo" #26
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+\mymark "Verse 3" #34
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+\mymark "Outro" #42
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+}

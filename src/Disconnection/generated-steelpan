@@ -1,0 +1,59 @@
+steelpan = {
+    \myVocalsStuff
+\mymark "Intro" #1
+    r4 f'8 e' d' c' d'4 |
+    c'1 |
+    r4 f'8 e' d' c' d'4 |
+    g'1 |
+    r4 f'8 e' d' c' d'4 |
+    c'1 |
+    r4 f'8 e' d' c' d'4 |
+    g'1 |
+    r4 f'8 e' d' c' d'4 |
+\mymark "Verse 1" #10
+    c'1 |
+    r4 f'8 e' d' c' d'4 |
+    g'1 |
+    r4 f'8 e' d' c' d'4 |
+    e'1 |
+    r4 f'8 e' e' d' e'4 |
+    f'1 |
+    r4 f'8 e' d' c' d'4 |
+\mymark "Verse 2" #18
+    c'1 |
+    r4 f'8 e' d' c' d'4 |
+    g'1 |
+    r4 f'8 e' d' c' d'4 |
+    e'1 |
+    r4 f'8 e' e' d' e'4 |
+    f'1 |
+    r4 f'8 e' d' c' d'4 |
+\mymark "Solo" #26
+    c'1 |
+    r4 f'8 e' d' c' d'4 |
+    g'1 |
+    r4 f'8 e' d' c' d'4 |
+    e'1 |
+    r4 f'8 e' e' d' e'4 |
+    f'1 |
+    r4 f'8 e' d' c' d'4 |
+\mymark "Verse 3" #34
+    c'1 |
+    r4 f'8 e' d' c' d'4 |
+    g'1 |
+    r4 f'8 e' d' c' d'4 |
+    e'1 |
+    r4 f'8 e' e' d' e'4 |
+    f'1 |
+    r4 f'8 e' d' c' d'4 |
+\mymark "Outro" #42
+    c'1 |
+    r4 f'8 e' d' c' d'4 |
+    g'1 |
+    r4 f'8 e' d' c' d'4 |
+    c'1 |
+    r4 f'8 e' d' c' d'4 |
+    g'1 |
+    r4 f'8 e' d' c' d'4 |
+    c'1 |
+}
