@@ -22,7 +22,7 @@ To use alignLyrics.py, do these steps.
 1. Use lilypond to build a PDF containing only the vocals part.
 2. Lilypond will generate a file called build/bin/src-*/in-unnamed-staff.notes or something like that.  Call that files "notes".
 3. Copy your lyrics file into a file called "justTheWords".  Get rid of everything in "justTheWords" except lyrics and "--"s.  That is, get rid of stuff that starts with "\", all the "{", "}" and stuff like that.
-4. Run "python alignLyrics.py notes justTheWords >karakoke"
+4. Run "python2.7 alignLyrics.py notes justTheWords >karakoke"
 
 Now the file "karaoke" contains timed lyrics.  It contains things like "-" and \skip.  "-" indicates there is a rest.  Often "-" and \skip are interchangable.
 

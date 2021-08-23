@@ -7,7 +7,7 @@ Web site is in [html/catx.band](html/catx.band).
 
 ### Prerequisites to build PDF and MIDI files
 
-Lilypond, sh, python, java.
+Lilypond, sh, python2.7, java.
 
 ### Building PDF and MIDI files
 
@@ -16,7 +16,7 @@ If you have a directory called /share/music, the build scripts will crap all ove
 Try something like this
 
 ```
-sudo apt install lilypond python openjdk-11-jdk
+sudo apt install lilypond python2.7 openjdk-11-jdk
 cd build
 ./buildAll
 ```
