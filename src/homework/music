@@ -1,10 +1,6 @@
 % BIN midi gg
 % ROBOT enabled=true
 
-\header {
-    title = "Homework"
-}
-
 \include "markup"
 \include "aarinrobo"
 \include "drums"

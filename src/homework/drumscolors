@@ -1,61 +1,93 @@
 drumsPart = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     \context DrumVoice = "drsa" \voiceOne
     \context DrumVoice = "drsb" \voiceTwo
+    \override Score.BarNumber.break-visibility = ##(#f #t #t)
     \bar ""
     \break \set Score.currentBarNumber = #23
     sn8^"R" sn^"R" sn^"L" sn^"L" sn^"R" sn^"R" sn^"L" sn^"L" |
-    \break \set Score.currentBarNumber = #24
+    \set Score.currentBarNumber = #0 \stopStaff s1 \startStaff |
+    \set Score.currentBarNumber = #24
     sn8^"R" sn^"L" sn^"R" sn^"L" sn^"R" sn^"L" sn^"R" sn^"L" |
     \break \set Score.currentBarNumber = #25
     sn8^"R" sn^"R" sn^"R" sn^"R" sn^"L" sn^"L" sn^"L" sn^"L" |
     \break \set Score.currentBarNumber = #26
-    sn8^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"L" sn^"L" sn^"L" sn^"L" sn^"L" sn^"L" sn^"L" sn^"L" |
+    sn8^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" |
+    \set Score.currentBarNumber = #0
+    sn8^"L" sn^"L" sn^"L" sn^"L" sn^"L" sn^"L" sn^"L" sn^"L" |
     \break \set Score.currentBarNumber = #27
-    sn8^"R" sn^"L" sn^"R" sn^"L" sn^"R" sn^"L" sn^"R" sn^"L" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" |
+    sn8^"R" sn^"L" sn^"R" sn^"L" sn^"R" sn^"L" sn^"R" sn^"L" |
+    \set Score.currentBarNumber = #0
+    sn8^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" |
     \break \set Score.currentBarNumber = #28
-    sn8^"R" sn^"R" sn^"L" sn^"L" sn^"R" sn^"R" sn^"L" sn^"L" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" |
+    sn8^"R" sn^"R" sn^"L" sn^"L" sn^"R" sn^"R" sn^"L" sn^"L" |
+    \set Score.currentBarNumber = #0
+    sn8^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" |
     \break \set Score.currentBarNumber = #29
-    sn8^"R" sn^"R" sn^"R" sn^"R" sn^"L" sn^"L" sn^"L" sn^"L" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" |
-    \break \set Score.currentBarNumber = #0
-    s1 |
+    sn8^"R" sn^"R" sn^"R" sn^"R" sn^"L" sn^"L" sn^"L" sn^"L" |
+    \set Score.currentBarNumber = #0
+    sn8^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" sn^"R" |
     \break \set Score.currentBarNumber = #11
     << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd4. bd8 bd4. bd8 | } >>
-    \break \set Score.currentBarNumber = #12
+    \set Score.currentBarNumber = #0 \stopStaff s1 \startStaff |
+    \set Score.currentBarNumber = #12
     << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd4. bd8 r2 | } >>
     \break \set Score.currentBarNumber = #13
     << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { r8 bd4 bd4 bd4 bd8 | } >>
-    \break \set Score.currentBarNumber = #14
+    \set Score.currentBarNumber = #0 \stopStaff s1 \startStaff |
+    \set Score.currentBarNumber = #14
     << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd2 bd8 bd4 bd8 | } >>
     \break \set Score.currentBarNumber = #15
     << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4 bd8 | } >>
-    \break \set Score.currentBarNumber = #16
+    \set Score.currentBarNumber = #0 \stopStaff s1 \startStaff |
+    \set Score.currentBarNumber = #16
     << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8. bd16 r4 bd8. bd16 r4 | } >>
     \break \set Score.currentBarNumber = #17
     << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8. bd8. bd8 bd2 | } >>
-    \break \set Score.currentBarNumber = #18
+    \set Score.currentBarNumber = #0 \stopStaff s1 \startStaff |
+    \set Score.currentBarNumber = #18
     << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8. bd8. bd8 bd8 bd4 bd8 | } >>
     \break \set Score.currentBarNumber = #19
     << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8. bd4 bd16 bd2 | } >>
-    \break \set Score.currentBarNumber = #20
+    \set Score.currentBarNumber = #0 \stopStaff s1 \startStaff |
+    \set Score.currentBarNumber = #20
     << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd16 bd r4. bd16 bd r4. | } >>
     \break \set Score.currentBarNumber = #21
     << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8 bd16 bd8. bd8 bd bd16 bd8. bd8 | } >>
-    \break \set Score.currentBarNumber = #22
+    \set Score.currentBarNumber = #0 \stopStaff s1 \startStaff |
+    \set Score.currentBarNumber = #22
     << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8 bd4. bd16 bd4. bd16 | } >>
     \break \set Score.currentBarNumber = #23
     << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd4 r16 bd bd bd bd8 bd4. | } >>
-    \break \set Score.currentBarNumber = #24
+    \set Score.currentBarNumber = #0 \stopStaff s1 \startStaff |
+    \set Score.currentBarNumber = #24
     << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd16 bd8 bd bd16 bd8 bd4. bd8 | } >>
     \break \set Score.currentBarNumber = #25
     << { hh16 hh hh hh sn hh hh hh hh hh hh hh sn hh hh hh | } \context DrumVoice = "drsb" { bd8. bd16 bd8. bd16 bd8. bd16 bd8. bd16 | } >>
-    \break \set Score.currentBarNumber = #26
+    \set Score.currentBarNumber = #0 \stopStaff s1 \startStaff |
+    \set Score.currentBarNumber = #26
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8. bd8. bd8 bd2 | } >>
     \break \set Score.currentBarNumber = #27
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8. bd8 bd bd bd bd8. bd8 | } >>
-    \break \set Score.currentBarNumber = #28
+    \set Score.currentBarNumber = #0 \stopStaff s1 \startStaff |
+    \set Score.currentBarNumber = #28
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd16 bd8 bd8. bd8 bd16 bd8 bd8. bd8 | } >>
     \break \set Score.currentBarNumber = #29
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd16 bd r4. bd16 bd r4. | } >>
-    \break \set Score.currentBarNumber = #30
+    \set Score.currentBarNumber = #0 \stopStaff s1 \startStaff |
+    \set Score.currentBarNumber = #30
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd8 bd r8. bd16 bd8 bd r8. bd16 | } >>
+    \break \set Score.currentBarNumber = #0 \stopStaff s1 \startStaff |
+    \break \set Score.currentBarNumber = #30
+    << { sn4^"R" sn4.^"L" sn8^"R" sn4^"L" | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    \set Score.currentBarNumber = #0 \stopStaff s1 \startStaff |
+    \set Score.currentBarNumber = #31
+    << { sn8^"R" sn^"L" sn^"R" sn4^"L" sn8^"R" sn4^"L" | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    \set Score.currentBarNumber = #0 \stopStaff s1 \startStaff |
+    \set Score.currentBarNumber = #32
+    << { sn4.^"R" sn4^"L" sn8^"L" sn^"R" sn^"L" | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    \break \set Score.currentBarNumber = #33
+    << { r8 sn4^"R" sn^"L" sn8^"R" sn4^"L" | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    \set Score.currentBarNumber = #0 \stopStaff s1 \startStaff |
+    \set Score.currentBarNumber = #34
+    << { r8 sn4^"R" sn^"L" sn^"R" sn8^"L" | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
 }

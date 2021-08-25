@@ -9,9 +9,9 @@ Sequence: sequence
 Track name: midiAarinrobo
 Track name: midiGg
 No pre-resampling cache hit
-countin;start_overPlaying time: ~113 seconds
+countin;start_overPlaying time: ~178 seconds
 Notes cut: 0
 Notes lost totally: 0
-Wrote 8917791/19701732 bytes(45.264% compressed)
+Wrote 11452280/31188196 bytes(36.7199% compressed)
 (ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-     32 measure=gg
+     82 measure=gg
