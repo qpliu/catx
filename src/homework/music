@@ -1,8 +1,8 @@
 % BIN midi gg
 % ROBOT enabled=true
+% ROBOT only_metronome=true
 
 \include "markup"
-\include "aarinrobo"
 \include "drums"
 
 \layout {
@@ -20,7 +20,6 @@ layoutmusic = <<
 
 midimusic = <<
     \markupStuff
-    \tag #'(midiAarinrobo) \aarinrobo
     \tag #'(midiGg) \new DrumStaff \with {
 	drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drumsPart

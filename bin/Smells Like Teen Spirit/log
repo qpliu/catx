@@ -1,10 +1,3 @@
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
 WorstAge=2147483648
 Playing out_no_karaoke.midi
@@ -19,21 +12,14 @@ Playing time: ~305 seconds
 Notes cut: 0
 Notes lost totally: 0
 Wrote 32418132/53588460 bytes(60.4946% compressed)
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 9.5 staff-spaces
 warning: page 1 has been compressed
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 1.0 staff-spaces
 warning: page 0 has been compressed
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 2.7 staff-spaces
 warning: page 0 has been compressed
 warning: compressing over-full page by 7.5 staff-spaces
 warning: page 1 has been compressed
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
     138 measure=all
     138 measure=kav
     138 measure=gg

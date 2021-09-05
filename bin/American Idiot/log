@@ -1,7 +1,3 @@
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
 WorstAge=2147483648
 Playing out_no_karaoke.midi
@@ -16,5 +12,4 @@ Playing time: ~175 seconds
 Notes cut: 0
 Notes lost totally: 0
 Wrote 19342316/30677380 bytes(63.0507% compressed)
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
     134 measure=all

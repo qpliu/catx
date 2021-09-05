@@ -1,10 +1,3 @@
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147483648
 WorstAge=2147483648
 Playing out_no_karaoke.midi
@@ -104,10 +97,6 @@ generated-steelpan:100:17: warning: unterminated tie
 generated-steelpan:101:17: warning: unterminated tie
     dis''8 a, a,
                 ~ e'' a, a, a, a, |
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 generated-steelpan:49:17: warning: unterminated tie
     dis''8 a, a,
                 ~ cis'' a, a, a, a, |
@@ -192,8 +181,6 @@ generated-steelpan:100:17: warning: unterminated tie
 generated-steelpan:101:17: warning: unterminated tie
     dis''8 a, a,
                 ~ e'' a, a, a, a, |
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
     124 measure=all
     124 measure=kav
     124 measure=gg

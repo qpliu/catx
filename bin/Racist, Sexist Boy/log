@@ -1,8 +1,3 @@
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 WorstAge=2147485184
 WorstAge=2147485184
 Playing out_no_karaoke.midi
@@ -19,14 +14,8 @@ Notes lost totally: 0
 Wrote 9663122/16537580 bytes(58.4313% compressed)
 warning: compressing over-full page by 1.4 staff-spaces
 warning: page 0 has been compressed
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
 warning: compressing over-full page by 3.7 staff-spaces
 warning: page 0 has been compressed
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
-(ice-9 debug) is deprecated. Use (system vm trace) for tracing.
      45 measure=all
      45 measure=kav
      45 measure=gg
