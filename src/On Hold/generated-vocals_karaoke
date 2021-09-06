@@ -1,0 +1,60 @@
+vocalsKaraoke = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    ">@|!check=1"2 "@"
+    "@|!check=2"2 "@"
+    "@|!check=3"2 "@"
+    "@|!check=4"2 "@"
+    "@|!check=5"2 "@"
+    "@|!check=6"2 "@"
+    "@|!check=7|!bg=4"2 "@|!bg=3"
+    "@|!check=8|!bg=2"2 "@|!bg=1"
+    "Ci|!check=9|!bg="8 "ties" "lock" "ing" "down"2
+    "Clo|!check=10"8 "sing" "all" "the" "stores"2
+    ">No|!check=11"8 "thing" "be" "ing" "sold"2
+    "!check=12|-"1
+    ">Peo|!check=13"8 "ple" "mask" "ing" "up"2
+    "Can|!check=14"8 "cel" "ing" "their" "tours"2
+    ">This|!check=15"8 "is" "get" "ting" "old"2
+    "!check=16|-"1
+    ">I|!check=17"4 "put"2.
+    "my|!check=18"4 "life"2.
+    "on|!check=19"4 "hold"2.
+    "!check=20|-"1
+    ">I|!check=21"4 "put"2.
+    "my|!check=22"4 "life"2.
+    "on|!check=23"4 "hold"2.
+    "!check=24|-"2 ">@"
+    "@|!check=25"2 "@"
+    "@|!check=26"2 "@"
+    "@|!check=27"2 "@"
+    "@|!check=28"2 "@"
+    "@|!check=29"2 "@"
+    "@|!check=30"2 "@"
+    "@|!check=31|!bg=4"2 "@|!bg=3"
+    "@|!check=32|!bg=2"2 "@|!bg=1"
+    "I|!check=33|!bg="8 "stop" "go" "ing" "out"2
+    "Dream|!check=34"8 "of" "dis" "tant" "shores"2
+    ">Air|!check=35"8 "out" "side" "is" "cold"2
+    "!check=36|-"1
+    ">Al|!check=37"8 "ways" "stay" "ing" "in"2
+    "Do|!check=38"8 "ing" "mind" "less" "chores"2
+    ">And|!check=39"8 "I'm" "get" "ting" "old"2
+    "!check=40|-"1
+    ">I|!check=41"4 "put"2.
+    "my|!check=42"4 "life"2.
+    "on|!check=43"4 "hold"2.
+    "!check=44|-"1
+    ">I|!check=45"4 "put"2.
+    "my|!check=46"4 "life"2.
+    "on|!check=47"4 "hold"2.
+    "!check=48|-"1
+    "@@|!check=49"32 "-"2. \skip8. \skip32
+    "!check=50|-"1
+    "!check=51|-"1
+    "!check=52|-"1
+    "!check=53|-"1
+    "!check=54|-"1
+    "!check=55|-"1
+    "!check=56|-"1
+    "!check=57|-"1
+}
