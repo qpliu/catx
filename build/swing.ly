@@ -91,7 +91,7 @@
 %%
 %%   will result in timing corresponding to \times 2/3 { c4 c16 c }.
 
-\version "2.21.0"
+\version "2.20.0"
 
 %%% Helper functions
 

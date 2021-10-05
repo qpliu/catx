@@ -14,6 +14,6 @@ a = re.sub(r'(?:(?<=[<{])\s*|(?<!\\parenthesize)(?<!\s)\s+)(bd)(?=[^a-z]|\b)',r"
 
 a = re.sub(r'(?:(?<=[<{])\s*|(?<!\\parenthesize)(?<!\s)\s+)([a-z]+)(yellow)(?=[^a-z]|\b)',r" \\mytweakcolor #(x11-color '\g<2>3) \1",a)
 a = re.sub(r'(?:(?<=[<{])\s*|(?<!\\parenthesize)(?<!\s)\s+)([a-z]+)(red|green|blue|orange)(?=[^a-z]|\b)',r" \\mytweakcolor #(x11-color '\2) \1",a)
-a = re.sub(r'\\parenthesize\b',r'\\parenthesize\\mytweakcolor "#d0d0d0"',a)
+a = re.sub(r'\\parenthesize\b',r'\\parenthesize\\mytweakcolor #green',a)
 
 sys.stdout.write(a)
