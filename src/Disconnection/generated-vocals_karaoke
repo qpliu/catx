@@ -1,54 +1,54 @@
 vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Intro" #1
-    "!mark=Intro|!check=1|-"8 ">@"2 "@"4.
-    "!check=2"8 "@"2 "@"4.
-    "!check=3"8 "@"2 "@"4.
-    "!check=4"8 "@"2 "@"4.
-    "!check=5"8 "@"2 "@"4.
-    "!check=6"8 "@"2 "@"4.
-    "!check=7"8 "@"2 "@"4.
-    "!check=8"8 "@|!bg=4"2 "@|!bg=3"4.
-    "!check=9"8 "@|!bg=2"2 "@|!bg=1"4.
+    "!mark=Intro|!check=1|-"4 ">@"2 "@"4
+    "!check=2"4 "@"2 "@"4
+    "!check=3"4 "@"2 "@"4
+    "!check=4"4 "@"2 "@"4
+    "!check=5"4 "@"2 "@"4
+    "!check=6"4 "@"2 "@"4
+    "!check=7"4 "@"2 "@"4
+    "!check=8"4 "@|!bg=4"2 "@|!bg=3"4
+    "!check=9"4 "@|!bg=2"2 "@|!bg=1"4
 \mymark "Verse 1" #10
-    "!mark=Verse 1|!check=10"8 "In|!bg=" "a" "world" "of" "in" "cor" "rec"
-    "tion|!check=11"2 "-"
-    "!check=12|-"8 ">that's" "spread" "ing" "a" "big" "in" "fec"
-    "tion|!check=13"2 "-"
-    "!check=14|-"8 ">and" "sup" "pres" "sing" "the" "in" "jec"
-    "tion|!check=15"2 "-"
-    "!check=16|-"8 ">all" "I" "feel" "is" "dis" "con" "nec"
-    "tion|!check=17"2 "-"
+    "!mark=Verse 1|!check=10"4 "In|!bg="8 "a" "world" "of" "in" "-cor"
+    "-rec|!check=11"4 "-tion"2.
+    "!check=12|-"4 "that's"8 "spread" "-ing" "a" "big" "in"
+    "-fec|!check=13"4 "-tion"2.
+    "!check=14|-"4 ">and"8 "sup" "-pres" "-sing" "the" "in"
+    "-jec|!check=15"4 "-tion"2.
+    "!check=16|-"4 "all"8 "I" "feel" "is" "dis" "-con"
+    "-nec|!check=17"4 "-tion"2.
 \mymark "Verse 2" #18
-    "!mark=Verse 2|!check=18|-"8 ">When" "the" "na" "tion" "al" "e" "lec"
-    "tion|!check=19"2 "-"
-    "!check=20|-"8 ">re" "sults" "in" "an" "in" "sur" "rec"
-    "tion|!check=21"2 "-"
-    "!check=22|-"8 ">and" "we" "are" "de" "nied" "pro" "tec"
-    "tion|!check=23"2 "-"
-    "!check=24|-"8 ">all" "I" "feel" "is" "dis" "con" "nec"
-    "tion|!check=25"2 "-"
+    "!mark=Verse 2|!check=18|-"4 ">When"8 "the" "na" "-tion" "-al" "e"
+    "-lec|!check=19"4 "-tion"2.
+    "!check=20|-"4 "re"8 "-sults" "in" "an" "in" "-sur"
+    "-rec|!check=21"4 "-tion"2.
+    "!check=22|-"4 ">and"8 "we" "are" "de" "-nied" "pro"
+    "-tec|!check=23"4 "-tion"2.
+    "!check=24|-"4 "all"8 "I" "feel" "is" "dis" "-con"
+    "-nec|!check=25"4 "-tion"2.
 \mymark "Solo" #26
-    "!mark=Solo|!check=26|-"8 ">@"2 "@"4.
-    "!check=27"8 "@"2 "@"4.
-    "!check=28"8 "@"2 "@"4.
-    "!check=29"8 "@"2 "@"4.
-    "!check=30"8 "@"2 "@"4.
-    "!check=31"8 "@"2 "@"4.
-    "!check=32"8 "@|!bg=4"2 "@|!bg=3"4.
-    "!check=33"8 "@|!bg=2"2 "@|!bg=1"4.
+    "!mark=Solo|!check=26|-"2. ">@"4
+    "!check=27"4 "@"2 "@"4
+    "!check=28"4 "@"2 "@"4
+    "!check=29"4 "@"2 "@"4
+    "!check=30"4 "@"2 "@"4
+    "!check=31"4 "@"2 "@"4
+    "!check=32"4 "@|!bg=4"2 "@|!bg=3"4
+    "!check=33"4 "@|!bg=2"2 "@|!bg=1"4
 \mymark "Verse 3" #34
-    "!mark=Verse 3|!check=34"8 "Af|!bg=" "ter" "an" "a" "brupt" "re" "jec"
-    "tion|!check=35"2 "-"
-    "!check=36|-"8 ">and" "a" "sense" "of" "dis" "af" "fec"
-    "tion|!check=37"2 "-"
-    "!check=38|-"8 ">made" "a" "ware" "of" "im" "per" "fec"
-    "tion|!check=39"2 "-"
-    "!check=40|-"8 ">all" "I" "feel" "is" "dis" "con" "nec"
-    "tion|!check=41"2 "-"
+    "!mark=Verse 3|!check=34"4 "Af|!bg="8 "-ter" "an" "a" "-brupt" "re"
+    "-jec|!check=35"4 "-tion"2.
+    "!check=36|-"4 "and"8 "a" "sense" "of" "dis" "-af"
+    "-fec|!check=37"4 "-tion"2.
+    "!check=38|-"4 ">lea"8 "-ving" "me" "with" "no" "di"
+    "-rec|!check=39"4 "-tion"2.
+    "!check=40|-"4 "all"8 "I" "feel" "is" "dis" "-con"
+    "-nec|!check=41"4 "-tion"2.
 \mymark "Outro" #42
-    "!mark=Outro|!check=42|-"2 "@@"32 "-"4. \skip16.
-    "!check=43|-"1
+    "!mark=Outro|!check=42|-"1
+    "@@|!check=43"32 "-"2. \skip8. \skip32
     "!check=44|-"1
     "!check=45|-"1
     "!check=46|-"1
