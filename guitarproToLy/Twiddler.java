@@ -158,9 +158,14 @@ final class Twiddler{
 			    lyricq.add(new Gpfile.LyricEvent(null,null,fix(s),false,hyphen,tml.which));
 			    break;
 			}
-			lyricq.add(new Gpfile.LyricEvent(null,null,fix(s.substring(0,i)),true,hyphen,tml.which));
+                        if (i > 0) {
+                            lyricq.add(new Gpfile.LyricEvent(null,null,fix(s.substring(0,i)),true,hyphen,tml.which));
+                        }
 			hyphen = true;
 			s = s.substring(i+1);
+                        if (s.length() == 0) {
+                            break;
+                        }
 		    }
 		}
 		Queue<Gpfile.Event>noteq=new PriorityQueue<Gpfile.Event>();
