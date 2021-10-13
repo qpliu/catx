@@ -1,0 +1,76 @@
+midiTwoA = {
+\mymark "Intro" #1
+    <g b d' g' b' g''>4 <\deadNote e \deadNote a \deadNote d' \deadNote g' \deadNote b' \deadNote e''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> |
+    <c' e' g' d'' e''>8. <c' e' g' d'' e''>16 <c' e' g' d'' e''>8 <b d' g' d''> <b d' g' d''>16 <b d' g' d''> <b d' g' d''>8 <a e' a' c'' e''> <a e' g' c'' e''>16 <a e' g' c'' e''> |
+\mymark "Band Enter" #3
+    <g b d' g' b' g''>4 <\deadNote e \deadNote a \deadNote d' \deadNote g' \deadNote b' \deadNote e''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> |
+    <c' e' g' d'' e''>8. <c' e' g' d'' e''>16 <c' e' g' d'' e''>8 <b d' g' d''> <b d' g' d''>16 <b d' g' d''> <b d' g' d''>8 <a e' a' c'' e''> <a e' g' c'' e''>16 <a e' g' c'' e''> |
+    <g b d' g' b' g''>4 <\deadNote e \deadNote a \deadNote d' \deadNote g' \deadNote b' \deadNote e''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> |
+    <c' e' g' d'' e''>8. <c' e' g' d'' e''>16 <c' e' g' d'' e''>8 <b d' g' d''> <b d' g' d''>16 <b d' g' d''> <b d' g' d''>8 <a e' a' c'' e''> <a e' g' c'' e''>16 <a e' g' c'' e''> |
+    <g b d' g' b' g''>4 <\deadNote e \deadNote a \deadNote d' \deadNote g' \deadNote b' \deadNote e''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> |
+    <c' e' g' d'' e''>8. <c' e' g' d'' e''>16 <c' e' g' d'' e''>8 <b d' g' d''> <b d' g' d''>16 <b d' g' d''> <b d' g' d''>8 <a e' a' c'' e''> <a e' g' c'' e''>16 <a e' g' c'' e''> |
+\mymark "Verse 1" #9
+    <g b d' g' b' g''>8 <g b d' g' b' g''> <g b d' g' b' g''> <g b d' g' b' g''>16 <g b d' g' b' g''> <g b d' g' b' g''> <g b d' g' b' g''> <g b d' g' b' g''>8 <g b d' g' b' g''> <g b d' g' b' g''>16 <g b d' g' b' g''> |
+    <b fis' b' d'' fis''>8 <b fis' b' d'' fis''>16 <b fis' b' d'' fis''> <b fis' b' d'' fis''>8 <b fis' b' d'' fis''>16 <b fis' b' d'' fis''> <b fis' b' d'' fis''> <b fis' b' d'' fis''> <b fis' b' d'' fis''>8 <b fis' b' d'' fis''> <b fis' b' d'' fis''>16 <b fis' b' d'' fis''> |
+    <g c' e' g' c'' e''>8 <g c' e' g' c'' e''>16 <g c' e' g' c'' e''> <g c' e' g' c'' e''>8 <g c' e' g' c'' e''>16 <g c' e' g' c'' e''> <g c' e' g' c'' e''>8 <g b d' g' b' g''> <g c' e' g' c'' e''> <a e' g' cis'' e''> |
+    <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> <d' a' d'' fis''> <d' a' d'' fis''> <d' a' d'' fis''>8 <d' a' d'' fis''> <d' a' d'' fis''>16 <d' a' d'' fis''> |
+    <g b d' g' b' g''>8 <g b d' g' b' g''>16 <g b d' g' b' g''> <g b d' g' b' g''>8 <g b d' g' b' g''>16 <g b d' g' b' g''> <g b d' g' b' g''>8 <g b d' g' b' g''> <g b d' g' b' g''>16 <g b d' g' b' g''> <g b d' g' b' g''> <g b d' g' b' g''> |
+    <e b e' g' b' e''>16 <e b e' g' b' e''> <e b e' g' b' e''> <e b e' g' b' e''> <e b e' g' b' e''>8 <e b e' g' b' e''>16 <e b e' g' b' e''> <e b e' g' b' e''> <e b e' g' b' e''> <e b e' g' b' e''>8 <e b e' g' b' e''> <e b e' g' b' e''>16 <e b e' g' b' e''> |
+    <a e' g' cis'' e''>8 <a e' g' cis'' e''>16 <a e' g' cis'' e''> <a e' g' cis'' e''>8 <a e' g' cis'' e''>16 <a e' g' cis'' e''> <a e' g' cis'' e''> <a e' g' cis'' e''> <a e' g' cis'' e''>8 <a e' g' cis'' e''> <a e' g' cis'' e''>16 <a e' g' cis'' e''> |
+    <g c' e' g' c'' e''>8 <g c' e' g' c'' e''>16 <g c' e' g' c'' e''> <g c' e' g' c'' e''>8 <g c' e' g' c'' e''>16 <g c' e' g' c'' e''> <g c' e' g' c'' e''> <g c' e' g' c'' e''> <g b d' g' b' g''> <g b d' g' b' g''> <g c' e' g' c'' e''> <g c' e' g' c'' e''> <a e' g' c'' e''> <a e' g' c'' e''> |
+\mymark "Verse 2" #17
+    <g b d' g' b' g''>8 <g b d' g' b' g''>16 <g b d' g' b' g''> <g b d' g' b' g''>8 <g b d' g' b' g''>16 <g b d' g' b' g''> <g b d' g' b' g''>8 <g b d' g' b' g''>16 <g b d' g' b' g''> <g b d' g' b' g''>8 <g b d' g' b' g''>16 <g b d' g' b' g''> |
+    <b fis' b' d'' fis''>8 <b fis' b' d'' fis''>16 <b fis' b' d'' fis''> <b fis' b' d'' fis''>8 <b fis' b' d'' fis''>16 <b fis' b' d'' fis''> <b fis' b' d'' fis''>8 <b fis' b' d'' fis''>16 <b fis' b' d'' fis''> <b fis' b' d'' fis''>8 <b fis' b' d'' fis''>16 <b fis' b' d'' fis''> |
+    <g c' e' g' c'' e''>8 <g c' e' g' c'' e''>16 <g c' e' g' c'' e''> <g c' e' g' c'' e''>8 <g c' e' g' c'' e''>16 <g c' e' g' c'' e''> <g c' e' g' c'' e''>8 <g b d' g' b' g''> <g c' e' g' c'' e''> <a e' g' cis'' e''> |
+    <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> <d' a' d'' fis''> <d' a' d'' fis''> <d' a' d'' fis''> <d' a' d'' fis''> |
+    <g b d' g' b' g''>8 <g b d' g' b' g''>16 <g b d' g' b' g''> <g b d' g' b' g''>8 <g b d' g' b' g''>16 <g b d' g' b' g''> <g b d' g' b' g''> <g b d' g' b' g''> <g b d' g' b' g''>8 <g b d' g' b' g''> <g b d' g' b' g''>16 <g b d' g' b' g''> |
+    <e b e' g' b' e''>8 <e b e' g' b' e''>16 <e b e' g' b' e''> <e b e' g' b' e''>8 <e b e' g' b' e''>16 <e b e' g' b' e''> <e b e' g' b' e''> <e b e' g' b' e''> <e b e' g' b' e''>8 <e b e' g' b' e''> <e b e' g' b' e''>16 <e b e' g' b' e''> |
+    <a e' g' cis'' e''>8 <a e' g' cis'' e''>16 <a e' g' cis'' e''> <a e' g' cis'' e''>8 <a e' g' cis'' e''>16 <a e' g' cis'' e''> <a e' g' cis'' e''> <a e' g' cis'' e''> <a e' g' cis'' e''>8 <a e' g' cis'' e''> <a e' g' cis'' e''> |
+    <g c' e' g' c'' e''>8 <g c' e' g' c'' e''>16 <g c' e' g' c'' e''> <g c' e' g' c'' e''>8 <g c' e' g' c'' e''>16 <g c' e' g' c'' e''> <g c' e' g' c'' e''> <g c' e' g' c'' e''> <g b d' g' b' g''> <g b d' g' b' g''> <g c' e' g' c'' e''> <g c' e' g' c'' e''> <a e' g' c'' e''> <a e' g' c'' e''> |
+\mymark "Chorus" #25
+    <a e' a' c'' e'' a''>16 <a e' a' c'' e'' a''> <a e' a' c'' e'' a''> <a e' a' c'' e'' a''> <a e' a' c'' e'' a''>8 r <g d' g' b' d'' g''>16 <g d' g' b' d'' g''> <g d' g' b' d'' g''> <g d' g' b' d'' g''> <g d' g' b' d'' g''>8 <g d' g' b' d'' g''> |
+    <f c' f' a' c'' f''>8 <e c' f' a' b' e''> <f c' f' a' c'' f''> <e c' f' a' b' e''> <f c' f' a' c'' f''> <e c' f' a' b' e''> <f c' f' a' c'' f''> <g d' g' b' d'' g''> |
+    <a e' a' c'' e'' a''>16 <a e' a' c'' e'' a''> <a e' a' c'' e'' a''> <a e' a' c'' e'' a''> <a e' a' c'' e'' a''>8 r <g d' g' b' d'' g''>16 <g d' g' b' d'' g''> <g d' g' b' d'' g''> <g d' g' b' d'' g''> <g d' g' b' d'' g''>8 <g d' g' b' d'' g''> |
+    <f c' f' a' c'' f''>8 <e c' f' a' b' e''> <f c' f' a' c'' f''> <e c' f' a' b' e''> <f c' f' a' c'' f''> <e c' f' a' b' e''> <f c' f' a' c'' f''> <g d' g' b' d'' g''> |
+    <a e' a' c'' e'' a''>16 <a e' a' c'' e'' a''> <a e' a' c'' e'' a''> <a e' a' c'' e'' a''> <a e' a' c'' e'' a''>8 r <g d' g' b' d'' g''>16 <g d' g' b' d'' g''> <g d' g' b' d'' g''> <g d' g' b' d'' g''> <g d' g' b' d'' g''>8 <g d' g' b' d'' g''> |
+    <f c' f' a' c'' f''>8 <e c' f' a' b' e''> <f c' f' a' c'' f''> <e c' f' a' b' e''> <f c' f' a' c'' f''> <e c' f' a' b' e''> <f c' f' a' c'' f''> <g d' g' b' d'' g''> |
+    <d' a' d'' fis''>8 <d' a' d'' fis''> <d' a' d'' fis''> <d' a' d'' fis''>16 <d' a' d'' fis''> <d' a' d'' fis''>8 <d' a' d'' fis''> <d' a' d'' fis''> <d' a' d'' fis''>16 <d' a' d'' fis''> |
+    <e b e' gis' b' e''>8 <e b e' gis' b' e''> <e b e' gis' b' e''> <e b e' gis' b' e''>16 <e b e' gis' b' e''> <e b e' gis' b' e''> <e b e' gis' b' e''> <e b e' gis' b' e''>8 <e b e' gis' b' e''> <e b e' gis' b' e''>16 <e b e' gis' b' e''> |
+\mymark "Post-Chorus" #33
+    <g b d' g' b' g''>4 <\deadNote e \deadNote a \deadNote d' \deadNote g' \deadNote b' \deadNote e''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> |
+    <c' e' g' d'' e''>8. <c' e' g' d'' e''>16 <c' e' g' d'' e''>8 <b d' g' d''> <b d' g' d''>16 <b d' g' d''> <b d' g' d''>8 <a e' a' c'' e''> <a e' g' c'' e''>16 <a e' g' c'' e''> |
+    <g b d' g' b' g''>4 <\deadNote e \deadNote a \deadNote d' \deadNote g' \deadNote b' \deadNote e''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> |
+    <c' e' g' d'' e''>8. <c' e' g' d'' e''>16 <c' e' g' d'' e''>8 <b d' g' d''> <b d' g' d''>16 <b d' g' d''> <b d' g' d''>8 <a e' a' c'' e''> <a e' g' c'' e''>16 <a e' g' c'' e''> |
+\mymark "Verse 3" #37
+    <g b d' g' b' g''>8 <g b d' g' b' g''>16 <g b d' g' b' g''> <g b d' g' b' g''>8 <g b d' g' b' g''>16 <g b d' g' b' g''> <g b d' g' b' g''> <g b d' g' b' g''> <g b d' g' b' g''> <g b d' g' b' g''> <g b d' g' b' g''>8 <g b d' g' b' g''>16 <g b d' g' b' g''> |
+    <b fis' b' d'' fis''>8 <b fis' b' d'' fis''>16 <b fis' b' d'' fis''> <b fis' b' d'' fis''>8 <b fis' b' d'' fis''>16 <b fis' b' d'' fis''> <b fis' b' d'' fis''> <b fis' b' d'' fis''> <b fis' b' d'' fis''>8 <b fis' b' d'' fis''> <b fis' b' d'' fis''>16 <b fis' b' d'' fis''> |
+    <g c' e' g' c'' e''>8 <g c' e' g' c'' e''>16 <g c' e' g' c'' e''> <g c' e' g' c'' e''>8 <g c' e' g' c'' e''>16 <g c' e' g' c'' e''> <g c' e' g' c'' e''>8 <g b d' g' b' g''> <g c' e' g' c'' e''> <a e' g' cis'' e''>16 <a e' g' cis'' e''> |
+    <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> <d' a' d'' fis''> <d' a' d'' fis''> <d' a' d'' fis''>8 <d' a' d'' fis''> <d' a' d'' fis''>16 <d' a' d'' fis''> |
+    <g b d' g' b' g''>8 <g b d' g' b' g''>16 <g b d' g' b' g''> <g b d' g' b' g''>8 <g b d' g' b' g''>16 <g b d' g' b' g''> <g b d' g' b' g''>8 <g b d' g' b' g''>16 <g b d' g' b' g''> <g b d' g' b' g''> <g b d' g' b' g''> <g b d' g' b' g''> <g b d' g' b' g''> |
+    <e b e' g' b' e''>8 <e b e' g' b' e''> <e b e' g' b' e''> <e b e' g' b' e''>16 <e b e' g' b' e''> <e b e' g' b' e''> <e b e' g' b' e''> <e b e' g' b' e''>8 <e b e' g' b' e''> <e b e' g' b' e''>16 <e b e' g' b' e''> |
+    <a e' g' cis'' e''>8 <a e' g' cis'' e''>16 <a e' g' cis'' e''> <a e' g' cis'' e''>8 <a e' g' cis'' e''>16 <a e' g' cis'' e''> <a e' g' cis'' e''> <a e' g' cis'' e''> <a e' g' cis'' e''>8 <a e' g' cis'' e''> <a e' g' cis'' e''>16 <a e' g' cis'' e''> |
+    <g c' e' g' c'' e''>8 <g c' e' g' c'' e''>16 <g c' e' g' c'' e''> <g c' e' g' c'' e''>8 <g c' e' g' c'' e''>16 <g c' e' g' c'' e''> <g c' e' g' c'' e''> <g c' e' g' c'' e''> <g c' e' g' c'' e''> <g c' e' g' c'' e''> <g c' e' g' c'' e''> <g c' e' g' c'' e''> <g c' e' g' c'' e''> <g c' e' g' c'' e''> |
+\mymark "Chorus" #45
+    <a e' a' c'' e'' a''>16 <a e' a' c'' e'' a''> <a e' a' c'' e'' a''> <a e' a' c'' e'' a''> <a e' a' c'' e'' a''>8 r <g d' g' b' d'' g''>16 <g d' g' b' d'' g''> <g d' g' b' d'' g''> <g d' g' b' d'' g''> <g d' g' b' d'' g''>8 <g d' g' b' d'' g''> |
+    <f c' f' a' c'' f''>8 <e c' f' a' b' e''> <f c' f' a' c'' f''> <e c' f' a' b' e''> <f c' f' a' c'' f''> <e c' f' a' b' e''> <f c' f' a' c'' f''> <g d' g' b' d'' g''> |
+    <a e' a' c'' e'' a''>16 <a e' a' c'' e'' a''> <a e' a' c'' e'' a''> <a e' a' c'' e'' a''> <a e' a' c'' e'' a''>8 r <g d' g' b' d'' g''>16 <g d' g' b' d'' g''> <g d' g' b' d'' g''> <g d' g' b' d'' g''> <g d' g' b' d'' g''>8 <g d' g' b' d'' g''> |
+    <f c' f' a' c'' f''>8 <e c' f' a' b' e''> <f c' f' a' c'' f''> <e c' f' a' b' e''> <f c' f' a' c'' f''> <e c' f' a' b' e''> <f c' f' a' c'' f''> <g d' g' b' d'' g''> |
+    <a e' a' c'' e'' a''>16 <a e' a' c'' e'' a''> <a e' a' c'' e'' a''> <a e' a' c'' e'' a''> <a e' a' c'' e'' a''>8 r <g d' g' b' d'' g''>16 <g d' g' b' d'' g''> <g d' g' b' d'' g''> <g d' g' b' d'' g''> <g d' g' b' d'' g''>8 <g d' g' b' d'' g''> |
+    <f c' f' a' c'' f''>8 <e c' f' a' b' e''> <f c' f' a' c'' f''> <e c' f' a' b' e''> <f c' f' a' c'' f''> <e c' f' a' b' e''> <f c' f' a' c'' f''> <g d' g' b' d'' g''> |
+    <d' a' d'' fis''>8 <d' a' d'' fis''> <d' a' d'' fis''> <d' a' d'' fis''>16 <d' a' d'' fis''> <d' a' d'' fis''>8 <d' a' d'' fis''> <d' a' d'' fis''> <d' a' d'' fis''>16 <d' a' d'' fis''> |
+    <e b e' gis' b' e''>8 <e b e' gis' b' e''> <e b e' gis' b' e''> <e b e' gis' b' e''>16 <e b e' gis' b' e''> <e b e' gis' b' e''> <e b e' gis' b' e''> <e b e' gis' b' e''>8 <e b e' gis' b' e''> <e b e' gis' b' e''>16 <e b e' gis' b' e''> |
+\mymark "Post-Chorus" #53
+    <g b d' g' b' g''>4 <\deadNote e \deadNote a \deadNote d' \deadNote g' \deadNote b' \deadNote e''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> |
+    <c' e' g' d'' e''>8. <c' e' g' d'' e''>16 <c' e' g' d'' e''>8 <b d' g' d''> <b d' g' d''>16 <b d' g' d''> <b d' g' d''>8 <a e' a' c'' e''> <a e' g' c'' e''>16 <a e' g' c'' e''> |
+    <g b d' g' b' g''>4 <\deadNote e \deadNote a \deadNote d' \deadNote g' \deadNote b' \deadNote e''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> |
+    <c' e' g' d'' e''>8. <c' e' g' d'' e''>16 <c' e' g' d'' e''>8 <b d' g' d''> <b d' g' d''>16 <b d' g' d''> <b d' g' d''>8 <a e' a' c'' e''> <a e' g' c'' e''>16 <a e' g' c'' e''> |
+    <g b d' g' b' g''>4 <\deadNote e \deadNote a \deadNote d' \deadNote g' \deadNote b' \deadNote e''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> |
+    <c' e' g' d'' e''>8 <c' e' g' d'' e''>16 <c' e' g' d'' e''> <c' e' g' d'' e''>8 <b d' g' d''>16 <b d' g' d''> <b d' g' d''> <b d' g' d''> <b d' g' d''>8 <a e' a' c'' e''>16 <a e' a' c'' e''> <a e' g' c'' e''> <a e' g' c'' e''> |
+    <g b d' g' b' g''>4 <\deadNote e \deadNote a \deadNote d' \deadNote g' \deadNote b' \deadNote e''> <d' a' d'' fis''>16 <d' a' d'' fis''> <d' a' d'' fis''> <d' a' d'' fis''> <d' a' d'' fis''>8 <d' a' d'' fis''>16 <d' a' d'' fis''> |
+\mymark "Outro" #60
+    <c' e' g' d'' e''>1 |
+    <g b d' g' b' g''>1~ |
+    <g b d' g' b' g''>1~ |
+    <g b d' g' b' g''>1 |
+    r1 |
+}

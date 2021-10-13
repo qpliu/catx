@@ -1,0 +1,76 @@
+guitar = {
+\mymark "Intro" #1
+    <g,\6 b,\5 d\4 g\3 d'\2 g'\1>4 <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2 \deadNote e'\1>8 <\deadNote \parenthesize e,\6 \deadNote \parenthesize a,\5 \deadNote \parenthesize d\4 \deadNote \parenthesize g\3 \deadNote \parenthesize b\2 \deadNote \parenthesize e'\1> <d\5 a\4 d'\3 fis'\2>16( g'\2 fis'\2 g'\2 fis'8\2) d'16\3\glissando \parenthesize a\3 |
+    <c\5 e\4 g\3 d'\2>4. <b,\5 d\4 g\3 d'\2 g'\1> <a,\5 e\4 g\3 d'\2 g'\1>4 |
+\mymark "Band Enter" #3
+    <g,\6 b,\5 d\4 g\3 d'\2 g'\1>4 <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2 \deadNote e'\1>8 <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2 \deadNote e'\1>16 <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2 \deadNote e'\1> <d\5 a\4 d'\3 fis'\2>( g'\2 fis'\2 g'\2 fis'8\2) d'16\3\glissando \parenthesize a\3 |
+    <c\5 e\4 g\3 d'\2>4. <b,\5 d\4 g\3 d'\2 g'\1> <a,\5 e\4 g\3 d'\2 g'\1>4 |
+    <g,\6 b,\5 d\4 g\3 d'\2 g'\1>4 <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2 \deadNote e'\1>8 <\deadNote \parenthesize e,\6 \deadNote \parenthesize a,\5 \deadNote \parenthesize d\4 \deadNote \parenthesize g\3 \deadNote \parenthesize b\2 \deadNote \parenthesize e'\1> <d\5 a\4 d'\3 fis'\2>16( g'\2 fis'\2 g'\2 fis'8\2) d'16\3\glissando \parenthesize a\3 |
+    <c\5 e\4 g\3 d'\2>4. <b,\5 d\4 g\3 d'\2 g'\1> <a,\5 e\4 g\3 d'\2 g'\1>4 |
+    <g,\6 b,\5 d\4 g\3 d'\2 g'\1>4 <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2 \deadNote e'\1>8 <\deadNote \parenthesize e,\6 \deadNote \parenthesize a,\5 \deadNote \parenthesize d\4 \deadNote \parenthesize g\3 \deadNote \parenthesize b\2 \deadNote \parenthesize e'\1> <d\5 a\4 d'\3 fis'\2>16( g'\2 fis'\2 g'\2 fis'8\2) d'16\3\glissando \parenthesize a\3 |
+    <c\5 e\4 g\3 d'\2>4. <b,\5 d\4 g\3 d'\2 g'\1> <a,\5 e\4 g\3 d'\2 g'\1>4 |
+\mymark "Verse 1" #9
+    r1 |
+    r8 <d'\3 fis'\2>2 <d'\3 fis'\2>16 <cis'\3 e'\2> <d'\3 fis'\2>8 g'\2 |
+    <c'\3 e'\2>2 c8\5 b,\5 c\5 cis\5 |
+    d8.\5~ d32\5 d\5\glissando e8\5 d8.\5~ d32\5 a,\6\glissando b,8\6 a,4\6 |
+    g,2\6 r8 <g,\6 b,\5 d\4 g\3 d'\2 g'\1> <g,\6 b,\5 d\4 g\3 d'\2 g'\1>4 |
+    r4. e''8.\1 b'\1 e''4\1 |
+    a1\3 |
+    c1\5 |
+\mymark "Verse 2" #17
+    <g,\6 b,\5 d\4 g\3>1 |
+    <b,\5 fis\4 b\3 d'\2>1 |
+    c2\5 c8\5 b,\5 c\5 cis\5 |
+    d8.\5~ d32\5 d\5\glissando e8\5 d8.\5~ d32\5 a,\6\glissando b,8\6 a,4\6 |
+    g,2\6 r |
+    e,4.\6 e'8.\1 b4.\2~ b16\2 |
+    a,2.\5~ a,8\5 a,16\5 b,\5 |
+    <c\5 g\4 c'\3>2. <c\5 g\4 c'\3>8 <c\5 g\4 c'\3> |
+\mymark "Chorus" #25
+    <a,\6 e\5 a\4 c'\3>16 <a,\6 e\5 a\4 c'\3> <a,\6 e\5 a\4 c'\3> <a,\6 e\5 a\4 c'\3> <a,\6 e\5 a\4 c'\3>8 r <g,\6 d\5 g\4 b\3>16 <g,\6 d\5 g\4 b\3> <g,\6 d\5 g\4 b\3> <g,\6 d\5 g\4 b\3> <g,\6 d\5 g\4 b\3>8 r |
+    <f,\6 c\5 f\4>8 <e,\6 c\5 f\4> <f,\6 c\5 f\4> <e,\6 c\5 f\4> <f,\6 c\5 f\4> <e,\6 c\5 f\4> <f,\6 c\5 f\4> <g,\6 d\5 g\4> |
+    <a,\6 e\5 a\4 c'\3>16 <a,\6 e\5 a\4 c'\3> <a,\6 e\5 a\4 c'\3> <a,\6 e\5 a\4 c'\3> <a,\6 e\5 a\4 c'\3>8 r <g,\6 d\5 g\4 b\3>16 <g,\6 d\5 g\4 b\3> <g,\6 d\5 g\4 b\3> <g,\6 d\5 g\4 b\3> <g,\6 d\5 g\4 b\3>8 r |
+    <f,\6 c\5 f\4>8 <e,\6 c\5 f\4> <f,\6 c\5 f\4> <e,\6 c\5 f\4> <f,\6 c\5 f\4> <e,\6 c\5 f\4> <f,\6 c\5 f\4> <g,\6 d\5 g\4> |
+    <a,\6 e\5 a\4 c'\3>16 <a,\6 e\5 a\4 c'\3> <a,\6 e\5 a\4 c'\3> <a,\6 e\5 a\4 c'\3> <a,\6 e\5 a\4 c'\3>8 r <g,\6 d\5 g\4 b\3>16 <g,\6 d\5 g\4 b\3> <g,\6 d\5 g\4 b\3> <g,\6 d\5 g\4 b\3> <g,\6 d\5 g\4 b\3>8 r |
+    <f,\6 c\5 f\4>8 <e,\6 c\5 f\4> <f,\6 c\5 f\4> <e,\6 c\5 f\4> <f,\6 c\5 f\4> <e,\6 c\5 f\4> <f,\6 c\5 f\4> <g,\6 d\5 g\4> |
+    <d\5 a\4 d'\3 fis'\2>8 <d\5 a\4 d'\3 fis'\2> <d\5 a\4 d'\3 fis'\2> <\deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2> <d\5 a\4 d'\3 fis'\2>4 <d\5 a\4 d'\3 fis'\2>8 <d\5 a\4 d'\3 fis'\2>16 <d\5 a\4 d'\3 fis'\2> |
+    <e,\6 b,\5 e\4 gis\3 b\2 e'\1>16 <e,\6 b,\5 e\4 gis\3 b\2 e'\1>8 <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2 \deadNote e'\1>16 <e,\6 b,\5 e\4 gis\3 b\2 e'\1>8 <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2 \deadNote e'\1>16 <e,\6 b,\5 e\4 gis\3 b\2 e'\1>8 <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2 \deadNote e'\1>16 <e,\6 b,\5 e\4 gis\3 b\2 e'\1>8 <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2 \deadNote e'\1>16 <e,\6 b,\5 e\4 gis\3 b\2 e'\1> <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote e'\1> <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2 \deadNote e'\1> |
+\mymark "Post-Chorus" #33
+    <g,\6 b,\5 d\4 g\3 d'\2 g'\1>4 <g,\6 b,\5 d\4 g\3 d'\2 g'\1>8 <\deadNote \parenthesize e,\6 \deadNote \parenthesize a,\5 \deadNote \parenthesize d\4 \deadNote \parenthesize g\3 \deadNote \parenthesize b\2 \deadNote \parenthesize e'\1> <d\5 a\4 d'\3 fis'\2>16( g'\2 fis'\2 g'\2 fis'8\2) d'16\3\glissando \parenthesize a\3 |
+    <c\5 e\4 g\3 d'\2>4. <b,\5 d\4 g\3 d'\2 g'\1> <a,\5 e\4 g\3 d'\2 g'\1>4 |
+    <g,\6 b,\5 d\4 g\3 d'\2 g'\1>4 <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2 \deadNote e'\1>8 <\deadNote \parenthesize e,\6 \deadNote \parenthesize a,\5 \deadNote \parenthesize d\4 \deadNote \parenthesize g\3 \deadNote \parenthesize b\2 \deadNote \parenthesize e'\1> <d\5 a\4 d'\3 fis'\2>16( g'\2 fis'\2 g'\2 fis'8\2) d'16\3\glissando \parenthesize a\3 |
+    <c\5 e\4 g\3 d'\2>4. <b,\5 d\4 g\3 d'\2 g'\1> <a,\5 e\4 g\3 d'\2 g'\1>4 |
+\mymark "Verse 3" #37
+    r1 |
+    <d'\3 fis'\2>2. r8 <d'\3 fis'\2> |
+    <c'\3 e'\2>2 c8\5 b,\5 c\5 cis\5 |
+    d8.\5~ d32\5 d\5\glissando e8\5 d8.\5~ d32\5 a,\6\glissando b,8\6 a,4\6 |
+    g,2.\6 fis,4\6 |
+    <e,\6 b,\5>2 <e,\6 b,\5> |
+    <a,\5 e\4>2.~ <a,\5 e\4>8 <\deadNote a,\5 \deadNote d\4>16 <\deadNote a,\5 \deadNote d\4> |
+    <c\5 g\4 c'\3>2 <c\5 g\4 c'\3>16 <c\5 g\4 c'\3> <c\5 g\4 c'\3> <c\5 g\4 c'\3> <c\5 g\4 c'\3>8 <c\5 g\4 c'\3> |
+\mymark "Chorus" #45
+    <a,\6 e\5 a\4 c'\3>16 <a,\6 e\5 a\4 c'\3> <a,\6 e\5 a\4 c'\3> <a,\6 e\5 a\4 c'\3> <a,\6 e\5 a\4 c'\3>8 r <g,\6 d\5 g\4 b\3>16 <g,\6 d\5 g\4 b\3> <g,\6 d\5 g\4 b\3> <g,\6 d\5 g\4 b\3> <g,\6 d\5 g\4 b\3>8 r |
+    <f,\6 c\5 f\4>8 <e,\6 c\5 f\4> <f,\6 c\5 f\4> <e,\6 c\5 f\4> <f,\6 c\5 f\4> <e,\6 c\5 f\4> <f,\6 c\5 f\4> <g,\6 d\5 g\4> |
+    <a,\6 e\5 a\4 c'\3>16 <a,\6 e\5 a\4 c'\3> <a,\6 e\5 a\4 c'\3> <a,\6 e\5 a\4 c'\3> <a,\6 e\5 a\4 c'\3>8 r <g,\6 d\5 g\4 b\3>16 <g,\6 d\5 g\4 b\3> <g,\6 d\5 g\4 b\3> <g,\6 d\5 g\4 b\3> <g,\6 d\5 g\4 b\3>8 r |
+    <f,\6 c\5 f\4>8 <e,\6 c\5 f\4> <f,\6 c\5 f\4> <e,\6 c\5 f\4> <f,\6 c\5 f\4> <e,\6 c\5 f\4> <f,\6 c\5 f\4> <g,\6 d\5 g\4> |
+    <a,\6 e\5 a\4 c'\3>16 <a,\6 e\5 a\4 c'\3> <a,\6 e\5 a\4 c'\3> <a,\6 e\5 a\4 c'\3> <a,\6 e\5 a\4 c'\3>8 r <g,\6 d\5 g\4 b\3>16 <g,\6 d\5 g\4 b\3> <g,\6 d\5 g\4 b\3> <g,\6 d\5 g\4 b\3> <g,\6 d\5 g\4 b\3>8 r |
+    <f,\6 c\5 f\4>8 <e,\6 c\5 f\4> <f,\6 c\5 f\4> <e,\6 c\5 f\4> <f,\6 c\5 f\4> <e,\6 c\5 f\4> <f,\6 c\5 f\4> <g,\6 d\5 g\4> |
+    <d\5 a\4 d'\3 fis'\2>8 <d\5 a\4 d'\3 fis'\2> <d\5 a\4 d'\3 fis'\2> <\deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2> <d\5 a\4 d'\3 fis'\2>4 <d\5 a\4 d'\3 fis'\2>8 <d\5 a\4 d'\3 fis'\2>16 <d\5 a\4 d'\3 fis'\2> |
+    <e,\6 b,\5 e\4 gis\3 b\2 e'\1>16 <e,\6 b,\5 e\4 gis\3 b\2 e'\1>8 <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2 \deadNote e'\1>16 <e,\6 b,\5 e\4 gis\3 b\2 e'\1>8 <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2 \deadNote e'\1>16 <e,\6 b,\5 e\4 gis\3 b\2 e'\1>8 <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2 \deadNote e'\1>16 <e,\6 b,\5 e\4 gis\3 b\2 e'\1>8 <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2 \deadNote e'\1>16 <e,\6 b,\5 e\4 gis\3 b\2 e'\1> <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote e'\1> <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2 \deadNote e'\1> |
+\mymark "Post-Chorus" #53
+    <g,\6 b,\5 d\4 g\3 d'\2 g'\1>4 <g,\6 b,\5 d\4 g\3 d'\2 g'\1>8 <\deadNote \parenthesize e,\6 \deadNote \parenthesize a,\5 \deadNote \parenthesize d\4 \deadNote \parenthesize g\3 \deadNote \parenthesize b\2 \deadNote \parenthesize e'\1> <d\5 a\4 d'\3 fis'\2>16( g'\2 fis'\2 g'\2 fis'8\2) d'16\3\glissando \parenthesize a\3 |
+    <c\5 e\4 g\3 d'\2>4. <b,\5 d\4 g\3 d'\2 g'\1> <a,\5 e\4 g\3 d'\2 g'\1>4 |
+    <g,\6 b,\5 d\4 g\3 d'\2 g'\1>4 <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2 \deadNote e'\1>8 <\deadNote \parenthesize e,\6 \deadNote \parenthesize a,\5 \deadNote \parenthesize d\4 \deadNote \parenthesize g\3 \deadNote \parenthesize b\2 \deadNote \parenthesize e'\1> <d\5 a\4 d'\3 fis'\2>16( g'\2 fis'\2 g'\2 fis'8\2) d'16\3\glissando \parenthesize a\3 |
+    <c\5 e\4 g\3 d'\2>4. <b,\5 d\4 g\3 d'\2 g'\1> <a,\5 e\4 g\3 d'\2 g'\1>4 |
+    <g,\6 b,\5 d\4 g\3 d'\2 g'\1>4 <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2 \deadNote e'\1>8 <\deadNote \parenthesize e,\6 \deadNote \parenthesize a,\5 \deadNote \parenthesize d\4 \deadNote \parenthesize g\3 \deadNote \parenthesize b\2 \deadNote \parenthesize e'\1> <d\5 a\4 d'\3 fis'\2>16( g'\2 fis'\2 g'\2 fis'8\2) d'16\3\glissando \parenthesize a\3 |
+    <c\5 e\4 g\3 d'\2>4. <b,\5 d\4 g\3 d'\2 g'\1> <a,\5 e\4 g\3 d'\2 g'\1>4 |
+    <g,\6 b,\5 d\4 g\3 d'\2 g'\1>4 <\deadNote e,\6 \deadNote a,\5 \deadNote d\4 \deadNote g\3 \deadNote b\2 \deadNote e'\1>8 <\deadNote \parenthesize e,\6 \deadNote \parenthesize a,\5 \deadNote \parenthesize d\4 \deadNote \parenthesize g\3 \deadNote \parenthesize b\2 \deadNote \parenthesize e'\1> <d\5 a\4 d'\3 fis'\2>16( g'\2 fis'\2 g'\2 fis'8\2) d'16\3\glissando \parenthesize a\3 |
+\mymark "Outro" #60
+    <c\5 e\4 g\3 d'\2>1 |
+    <g,\6 b,\5 d\4 g\3>1 |
+    \tuplet 3/2 { d'32\3( b\3 g\3 d'\3 b\3 g\3 d'\3 b\3 g\3 d'\3 b\3 g\3 d'\3 b\3 g\3 d'\3 b\3 g\3 d'\3 b\3 g\3 d'\3 b\3 g\3 d'\3 b\3 g\3 d'\3 b\3 g\3 d'\3 b\3 g\3 d'\3 b\3 g\3 } d'16\3)\glissando a\3 <d\4 g\3 b\2>8~ |
+    <d\4 g\3 b\2>8 b\4 g'4\3 d'\3 c'\3 |
+    r1 |
+}

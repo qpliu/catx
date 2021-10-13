@@ -1,0 +1,77 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+\mymark "Band Enter" #3
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1" #9
+    \skip4 "Zig-"16 "gy"8 "played"16 \skip8 "gui-"16 "tar" \skip4 |
+    \skip4 "Jam-"16 "ming"8 "good"16 \skip8 "with"8 "Weird" "and" |
+    "Gil-"8 "ly" \skip8 "and"16 "the" "Spi-"8 "ders" "from" "Mars" |
+    \skip4. "He"8 "played" "it" "left" "hand" |
+    \skip4. "But"8 "made" "it" "too" "far" |
+    \skip2 \skip8 "Be-"16 "came" \skip8 "the"16 "spe-" |
+    "cial"8 "man" \skip4. "Then"8 "we" "were" |
+    "Zig-"16 "gy's" "band"8 \skip2. |
+\mymark "Verse 2" #17
+    \skip4 "Zig-"16 "gy"8. "real-"8 "ly"16 "sang" \skip4 |
+    "Screwed"8 "up"16 "eyes" \skip8 "and"8 "screwed"4 "down"8 "hair-"16 \skip16 |
+    "do"4 \skip8 "Like"16 "some" "cat"8 "from" "Ja-" "pan" |
+    \skip4. "He"16 "could" "lick" "'em"8. "by"8 "smi-"16 \skip16 |
+    "ling"4 \skip8 "He"16 "could" "leave"8 "them" "to" "hang" |
+    \skip2 \skip16 "He"16 "came"8 "on" "so" |
+    "loaded"8 \skip16 "man"16 \skip4. "Well-"8 "hung" "and" |
+    "snow-"8 "white" "tan" \skip2 \skip8 |
+\mymark "Chorus" #25
+    \skip4. "So"8 "where" "were" "the" "Spi-" |
+    \skip8 "ders"4 \skip2 \skip8 |
+    \skip4 "when"8 "the" "fly" "tried" "to" "break" |
+    \skip8 "our"8 "balls?"16 \skip2 \skip8. |
+    \skip8. "Just"8 \skip16 "the"16 "beer" \skip8 "light"8 "to" "guide" |
+    \skip8 "us"4 \skip4. "So"8 "we" |
+    "bitched"8 "a-"16 "about" \skip8 "his"16 "fans" \skip8 "and"8 "should" "we" |
+    "crush"8 "his" "sweet" "hands?" \skip4. "Oh"8 |
+\mymark "Post-Chorus" #33
+    \skip1 |
+    \skip2. "Oooh"4 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 3" #37
+    \skip4 "Zig-"16 "gy"8 "played"16 \skip8 "for"16 "time" \skip4 |
+    "Ji-"8 "ving"16 "us" \skip8 "that"8 "we"4 "were"8 "Voo-" |
+    "doo"4 \skip8. "The"16 "kids"8 "was" "just" "crass" |
+    \skip2 "He"8 "was" "the" "naz" |
+    \skip4. "with"8 "a" "God-" "given" "ass" |
+    \skip2 \skip8 "He"8 "took"16 "it" \skip8 |
+    "all"16 "too" "far"8 \skip4. "But"16 "boy," \skip8 "could"16 "he" |
+    "play"8 "gui-"16 "tar" \skip2. |
+\mymark "Chorus" #45
+    \skip4 "Ma-"8 "king" "love" "with" "his" "e-" |
+    \skip8 "go"4 \skip2 \skip8 |
+    \skip4 "Zig-"8 "gy" "sucked" "up" "in-" "to" |
+    \skip8 "his"8 "mind" \skip2 \skip8 |
+    \skip8. "Like"8 "a" "le-"16 \skip8 "per"8 "mes-" "si-" |
+    \skip8 "ah"4 \skip4. "When"8 "the" |
+    "kids"8 "had"16 "killed" \skip8 "the"16 "man" \skip8 "I"8 "had" "to" |
+    "break"8 "up" "the" "band" \skip2 |
+\mymark "Post-Chorus" #53
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. \skip16 "Oh"8. |
+    "yeah"16 \skip2. \skip8. |
+    \skip2. "Ooooh"8 \skip8 |
+    \skip1 |
+\mymark "Outro" #60
+    \skip2 "Zig-"16 "gy"8 "played"8. "gui-"8 |
+    "tar"1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}

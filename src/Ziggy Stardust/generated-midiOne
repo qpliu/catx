@@ -1,0 +1,76 @@
+midiOne = {
+\mymark "Intro" #1
+    <g, b, d g d' g'>4 <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'> <d a d' fis'>16( g' fis' g' fis'8) d'16\glissando \parenthesize a |
+    c8 d'16 g d' g b, d' g b, d'8 <a, g>16 d' g8 |
+\mymark "Band Enter" #3
+    <g, b, d g d' g'>4 <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'>16 <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'> <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'> <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'> <d a d' fis'>( g' fis' g' fis'8) d'16\glissando \parenthesize a |
+    c16 d' g c d'8 <b, g>16 d' g b, d'8 <a, g>16 d' g g |
+    <g, b, d g d' g'>4 <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'>16 <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'> <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'> <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'> <d a d' fis'>( g' fis' g' fis'8) d'16\glissando \parenthesize a |
+    c16 d' g c d'8 <b, g>16 d' g b, d'8 <a, g>16 d' g g |
+    <g, b, d g d' g'>4 <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'> <d a d' fis'>16( g' fis' g' fis'8) d'16\glissando \parenthesize a |
+    c16 d' g c d'8 <b, g>16 d' g b, d'8 <a, g>16 d' g g |
+\mymark "Verse 1" #9
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #17
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #25
+    <a, e a c'>16 <a, e a c'> <a, e a c'> <a, e a c'> <a, e a c'>8 r <g, d g b>16 <g, d g b> <g, d g b> <g, d g b> <g, d g b>8 r |
+    <f, c f>8 <e, c f> <f, c f> <e, c f> <f, c f> <e, c f> <f, c f> <g, d g> |
+    <a, e a c'>16 <a, e a c'> <a, e a c'> <a, e a c'> <a, e a c'>8 r <g, d g b>16 <g, d g b> <g, d g b> <g, d g b> <g, d g b>8 r |
+    <f, c f>8 <e, c f> <f, c f> <e, c f> <f, c f> <e, c f> <f, c f> <g, d g> |
+    <a, e a c'>16 <a, e a c'> <a, e a c'> <a, e a c'> <a, e a c'>8 r <g, d g b>16 <g, d g b> <g, d g b> <g, d g b> <g, d g b>8 r |
+    <f, c f>8 <e, c f> <f, c f> <e, c f> <f, c f> <e, c f> <f, c f> <g, d g> |
+    <d a d' fis'>4 <d a d' fis'>8 <\deadNote d \deadNote g \deadNote b \deadNote cis''>16 <\deadNote d \deadNote g \deadNote b \deadNote e'> <\deadNote d \deadNote g \deadNote b \deadNote e'> <d a d' fis'>8. <d a d' fis'>8 <\deadNote d \deadNote g \deadNote b \deadNote e'>16 <\deadNote d \deadNote g \deadNote b \deadNote e'> |
+    <gis b e' gis'>4 <gis b e' gis'>8 <gis b e' gis'>4 <gis b e' gis'>16 <gis b e' gis'> <gis b e' gis'>4 |
+\mymark "Post-Chorus" #33
+    <g, b, d g d' g'>4 <g, b, d g d' g'>8 <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'> <d a d' fis'>16( g' fis' g' fis'8) d'16\glissando \parenthesize a |
+    c16 d' g c d'8 <b, g>16 d' g b, d'8 <a, g>16 d' g g |
+    <g, b, d g d' g'>4 <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'>16 <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'> <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'> <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'> <d a d' fis'>( g' fis' g' fis'8) d'16\glissando \parenthesize a |
+    c16 d' g c d'8 <b, g>16 d' g b, d'8 <a, g>16 d' g g |
+\mymark "Verse 3" #37
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #45
+    <a, e a c'>16 <a, e a c'> <a, e a c'> <a, e a c'> <a, e a c'>8 r <g, d g b>16 <g, d g b> <g, d g b> <g, d g b> <g, d g b>8 r |
+    <f, c f>8 <e, c f> <f, c f> <e, c f> <f, c f> <e, c f> <f, c f> <g, d g> |
+    <a, e a c'>16 <a, e a c'> <a, e a c'> <a, e a c'> <a, e a c'>8 r <g, d g b>16 <g, d g b> <g, d g b> <g, d g b> <g, d g b>8 r |
+    <f, c f>8 <e, c f> <f, c f> <e, c f> <f, c f> <e, c f> <f, c f> <g, d g> |
+    <a, e a c'>16 <a, e a c'> <a, e a c'> <a, e a c'> <a, e a c'>8 r <g, d g b>16 <g, d g b> <g, d g b> <g, d g b> <g, d g b>8 r |
+    <f, c f>8 <e, c f> <f, c f> <e, c f> <f, c f> <e, c f> <f, c f> <g, d g> |
+    <d a d' fis'>4 <d a d' fis'>8 <\deadNote d \deadNote g \deadNote b \deadNote cis''>16 <\deadNote d \deadNote g \deadNote b \deadNote e'> <\deadNote d \deadNote g \deadNote b \deadNote e'> <d a d' fis'>8. <d a d' fis'>8 <\deadNote d \deadNote g \deadNote b \deadNote e'>16 <\deadNote d \deadNote g \deadNote b \deadNote e'> |
+    <gis b e' gis'>4 <gis b e' gis'>8 <gis b e' gis'>4 <gis b e' gis'>16 <gis b e' gis'> <gis b e' gis'>4 |
+\mymark "Post-Chorus" #53
+    <g, b, d g d' g'>4 <g, b, d g d' g'>8 <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'> <d a d' fis'>16( g' fis' g' fis'8) d'16\glissando \parenthesize a |
+    c16 d' g c d'8 <b, g>16 d' g b, d'8 <a, g>16 d' g g |
+    <g, b, d g d' g'>4 <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'>16 <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'> <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'> <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'> <d a d' fis'>( g' fis' g' fis'8) d'16\glissando \parenthesize a |
+    c16 d' g c d'8 <b, g>16 d' g b, d'8 <a, g>16 d' g g |
+    <g, b, d g d' g'>4 <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'>16 <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'> <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'> <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'> <d a d' fis'>( g' fis' g' fis'8) d'16\glissando \parenthesize a |
+    c16 d' g c d'8 <b, g>16 d' g b, d'8 <a, g>16 d' g g |
+    <g, b, d g d' g'>4 <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'>8 <\deadNote e, \deadNote a, \deadNote d \deadNote g \deadNote b \deadNote e'> <d a d' fis'>16( g' fis' g' fis'8) d'16\glissando \parenthesize a |
+\mymark "Outro" #60
+    <c e g d'>1 |
+    <g, b, d g d' g'>1~ |
+    <g, b, d g d' g'>1~ |
+    <g, b, d g d' g'>1 |
+    r1 |
+}
