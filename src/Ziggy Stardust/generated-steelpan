@@ -17,7 +17,7 @@ steelpan = {
     a8 r4 a8 a b c' d'~ |
     d'8 r4 d8 d e fis b |
     g8 r2 b16 b8. c'16 b |
-    g8 a r4. g8 b c' |
+    a8 a r4. g8 b c' |
     b16 a g2~ g8 r4 |
 \mymark "Verse 2" #17
     r4 b16 c'8. b8 g16 g8. r8 |
@@ -27,16 +27,16 @@ steelpan = {
     d'4 r8 d16 d d8 e fis b |
     g4 r r16 a a8 b c' |
     g8 d16 d4~ d16 r8 cis' a a |
-    c'8 d e8. d4~ d16 r4 |
+    c'8 d e d16 d4~ d16 r4 |
 \mymark "Chorus" #25
     r4. c'8 d' c' a c'~ |
     c'8 d'4 r2 r8 |
     r4 c'8 c' d' c' a g'~ |
-    g'8 e' c' a r2 |
+    g'8 e' d'16 c' a8 r2 |
     r8. c' c'16 d'8. c'8 a c'~ |
     c'8 d'4 r4. a8 c' |
     d'8 c'16 d'8. c'16 d'8. c'8 c' a |
-    gis'8 gis' gis' e'4. r8 \deadNote e' |
+    gis'8 gis' gis' e'4. r4 |
 \mymark "Post-Chorus" #33
     g2 r |
     c'4. b a4 |
@@ -48,18 +48,18 @@ steelpan = {
     e'4 r8. e16 e8 fis g a |
     r2 a8 b c' d'~ |
     d'8 r4 d8 d e fis b |
-    g8 r2 a8 b16 b8. |
+    g8 r2 a8 b16 c'8. |
     a16 g a8 r4. g16 g8. b16 c' |
     b8 a16 g4.~ g16 r4. |
 \mymark "Chorus" #45
     r4 c'8 c' d' c' a c'~ |
     c'8 d'4 r2 r8 |
     r4 c'8 c' d' c' a g'~ |
-    g'8 e' c' a r2 |
+    g'8 e' d' a r2 |
     r8. c'8 c' d'8. c'8 a c'~ |
     c'8 d'4 r4. a8 c' |
     d'8 c'16 d'8. c'16 d'8. c'8 c' a |
-    gis'8 gis' gis' e'4. r8 \deadNote e' |
+    gis'8 gis' gis' e'4. r4 |
 \mymark "Post-Chorus" #53
     g2 r |
     c'4. b a4 |
@@ -70,8 +70,8 @@ steelpan = {
     g2 r |
 \mymark "Outro" #60
     r2 e'16 e'8 e'8. e'8 |
-    b1~ |
-    b1~ |
-    b1 |
+    d'1~ |
+    d'1~ |
+    d'1 |
     r1 |
 }
