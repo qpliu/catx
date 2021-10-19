@@ -1,0 +1,130 @@
+steelpan = {
+    \myVocalsStuff
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse I" #18
+    a8 a4 a b a8~ |
+    a8 g4 g4. r4 |
+    a8 a4 a a b8~ |
+    b8 cis'4 a4. r4 |
+    b4 fis b8 a4 a8~ |
+    a8 g4 g fis fis8~ |
+    fis8 d4. d8 d4 e8~ |
+    e2 r |
+    a8 a4 a b a8~ |
+    a8 g4 g4. r4 |
+    a8 a4 a a b8~ |
+    b8 cis'4 a b b8~ |
+    b8 fis4. b8 a4 a8~ |
+    a8 g4 g fis fis8~ |
+    fis8 d4. d8 d4 e8~ |
+    e2 r |
+\mymark "Chorus I" #34
+    d'8 d' d'4. cis'8 b a~ |
+    a4 r2 r8 a |
+    b4 b b8 a4 a8~ |
+    a8 g4 g4. r8 g |
+    a4 a a8 a4 b8~ |
+    b8 cis'4 a4. r4 |
+\mymark "Verse II" #40
+    d'8 d'4 d' cis' cis'8~ |
+    cis'8 b4 b4. r4 |
+    a8 a4 a a b8~ |
+    b8 cis'4 a4. r4 |
+    b4 fis b8 a4 a8~ |
+    a8 g4 g fis fis8~ |
+    fis8 d4. d8 d4 e8~ |
+    e2 r |
+\mymark "Solo" #48
+    fis8 e fis e fis e d e~ |
+    e8 b a a2~ a8 |
+    d'8 d' d' d' e' e'4 a8~ |
+    a8 cis' d' cis' a4 a |
+    r8 b d' b a' d' b g~ |
+    g8 a4 g8 d' a g a |
+    d'8 a d' cis' a a4 cis'8~ |
+    cis'8 cis' d' d' e' e' g' g' |
+\mymark "Verse III" #56
+    d'8 d'4 d' cis' cis'8~ |
+    cis'8 b4 b4. r4 |
+    d'4 a d'8 a4 b8~ |
+    b8 cis'4 a b b8~ |
+    b8 fis4. b4 a8 a~ |
+    a8 a4 a a fis8~ |
+    fis8 d4. d8 d4 e8~ |
+    e4 r2. |
+\mymark "Chorus II" #64
+    d'8 d' d'4. cis'8 b a~ |
+    a4 r2 r8 a |
+    b4 b b8 a4 a8~ |
+    a8 g4 g4. r8 g |
+    a4 a a8 a4 b8~ |
+    b8 cis'4 a4. r4 |
+\mymark "Bridge" #70
+    r4 d' d'8 d' d' d'~ |
+    d'8 b d' d' d'16 d' d'8 d' d'~ |
+    d'8 b4 a8 a a4 b8~ |
+    b8 b a4 b8 a4 fis8~ |
+    fis4 r d'16 d' d'8 e' d'~ |
+    d'8 a a4 d'16 d' d'8 e' d'~ |
+    d'4 r a8 a a a~ |
+    a8 b a b4 a fis8~ |
+    fis4 d'8 d' d' a e' d'~ |
+    d'8 d' d' d' d' e'4 d'8~ |
+    d'4 r8 a b a4 b8~ |
+    b8 b a4 b16 b b8 a fis~ |
+    fis4 b8 b d'16 d' d'8 e' d'~ |
+    d'4 r8 b d' d' e'4 |
+    d'4 a d'8 e'4 fis'8~ |
+    fis'8 g'4 e' e'8 fis'4 |
+\mymark "Verse IV" #86
+    d'8 d'4 d' cis' cis'8~ |
+    cis'8 b4 b4. r4 |
+    d'4 a d'8 a4 b8~ |
+    b8 cis'4 a b b8 |
+    b4 fis b8 a4 a8~ |
+    a8 g4 g fis fis8~ |
+    fis8 d4. d8 d4 e8~ |
+    e2 r |
+    d'4 d' d'8 cis'4 cis'8~ |
+    cis'8 b b2 r4 |
+    d'4 a d'8 a4 b8~ |
+    b8 cis'4 a4. r4 |
+    b4 fis b8 a4 a8~ |
+    a8 g4 g fis fis8~ |
+    fis8 d4. d8 d4 e8~ |
+    e4. r2 r8 |
+\mymark "Outro" #102
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

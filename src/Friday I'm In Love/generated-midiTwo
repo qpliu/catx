@@ -1,0 +1,129 @@
+midiTwo = {
+\mymark "Intro" #1
+    r1 |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <g, b, d g d' g'>8~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'>4 |
+    <b, fis b d' fis'>4 <b, fis b d' fis'> <b, fis b d' fis'>8 <b, fis b d' fis'> <b, fis b d' fis'> <g, b, d g d' g'>~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'>4 |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>4 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <g, b, d g d' g'>8~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'>4 |
+    <b, fis b d' fis'>4 <b, fis b d' fis'> <b, fis b d' fis'>8 <b, fis b d' fis'> <b, fis b d' fis'> <g, b, d g d' g'>~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'>4 |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>4 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> |
+\mymark "Verse I" #18
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <g, b, d g d' g'>8~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'>4 |
+    <b, fis b d' fis'>4 <b, fis b d' fis'> <b, fis b d' fis'>8 <b, fis b d' fis'> <b, fis b d' fis'> <g, b, d g d' g'>~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'>4 |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>4 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <g, b, d g d' g'>8~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'>4 |
+    <b, fis b d' fis'>4 <b, fis b d' fis'> <b, fis b d' fis'>8 <b, fis b d' fis'> <b, fis b d' fis'> <g, b, d g d' g'>~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'>4 |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>4 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> |
+\mymark "Chorus I" #34
+    <g, b, d g d' g'>4 <g, b, d g d' g'> <g, b, d g d' g'>8 <g, b, d g d' g'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>8 <a, e a cis' e'>4 <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> |
+    <b, fis b d' fis'>8 <b, fis b d' fis'> <b, fis b d' fis'>4 <b, fis b d' fis'>8 <b, fis b d' fis'>4 <g, b, d g d' g'>8~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'> <d a d' fis'> <a, e a cis' e'>~ |
+    <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'>4 <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> |
+\mymark "Verse II" #40
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <g, b, d g d' g'>8~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'>4 |
+    <b, fis b d' fis'>4 <b, fis b d' fis'> <b, fis b d' fis'>8 <b, fis b d' fis'> <b, fis b d' fis'> <g, b, d g d' g'>~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'>4 |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>4 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> |
+\mymark "Solo" #48
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <g, b, d g d' g'>8~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'>4 |
+    <b, fis b d' fis'>4 <b, fis b d' fis'> <b, fis b d' fis'>8 <b, fis b d' fis'> <b, fis b d' fis'> <g, b, d g d' g'>~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'>4 |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>4 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> |
+\mymark "Verse III" #56
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <g, b, d g d' g'>8~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'>4 |
+    <b, fis b d' fis'>4 <b, fis b d' fis'> <b, fis b d' fis'>8 <b, fis b d' fis'> <b, fis b d' fis'> <g, b, d g d' g'>~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'>4 |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>4 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> |
+\mymark "Chorus II" #64
+    <g, b, d g d' g'>4 <g, b, d g d' g'> <g, b, d g d' g'>8 <g, b, d g d' g'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>8 <a, e a cis' e'>4 <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> |
+    <b, fis b d' fis'>8 <b, fis b d' fis'> <b, fis b d' fis'>4 <b, fis b d' fis'>8 <b, fis b d' fis'>4 <g, b, d g d' g'>8~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'> <d a d' fis'> <a, e a cis' e'>~ |
+    <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'>4 <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> |
+\mymark "Bridge" #70
+    <b, fis b d' fis'>4 <b, fis b d' fis'> <b, fis b d' fis'>8 <b, fis b d' fis'> <b, fis b d' fis'> <c e g d' g'>~ |
+    <c e g d' g'>8 <c e g d' g'> <c e g d' g'> <c e g d' g'> <c e g d' g'> <c e g d' g'> <c e g d' g'> <c e g d' g'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'> <d a d' fis'> <a, e a cis' e'>~ |
+    <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'>4 |
+    <b, fis b d' fis'>4 <b, fis b d' fis'> <b, fis b d' fis'>8 <b, fis b d' fis'> <b, fis b d' fis'> <c e g d' g'>~ |
+    <c e g d' g'>8 <c e g d' g'> <c e g d' g'> <c e g d' g'> <c e g d' g'> <c e g d' g'> <c e g d' g'> <c e g d' g'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'> <d a d' fis'> <a, e a cis' e'>~ |
+    <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'>4 |
+    <b, fis b d' fis'>4 <b, fis b d' fis'> <b, fis b d' fis'>8 <b, fis b d' fis'> <b, fis b d' fis'> <c e g d' g'>~ |
+    <c e g d' g'>8 <c e g d' g'> <c e g d' g'> <c e g d' g'> <c e g d' g'> <c e g d' g'> <c e g d' g'> <c e g d' g'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'> <d a d' fis'> <a, e a cis' e'>~ |
+    <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'>4 |
+    <b, fis b d' fis'>4 <b, fis b d' fis'> <b, fis b d' fis'>8 <b, fis b d' fis'> <b, fis b d' fis'> <c e g d' g'>~ |
+    <c e g d' g'>8 <c e g d' g'> <c e g d' g'> <c e g d' g'> <c e g d' g'> <c e g d' g'> <c e g d' g'> <c e g d' g'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'> <d a d' fis'> <a, e a cis' e'>~ |
+    <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'>4 |
+\mymark "Verse IV" #86
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <g, b, d g d' g'>8~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'>4 |
+    <b, fis b d' fis'>4 <b, fis b d' fis'> <b, fis b d' fis'>8 <b, fis b d' fis'> <b, fis b d' fis'> <g, b, d g d' g'>~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'>4 |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>4 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <g, b, d g d' g'>8~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'>4 |
+    <b, fis b d' fis'>4 <b, fis b d' fis'> <b, fis b d' fis'>8 <b, fis b d' fis'> <b, fis b d' fis'> <g, b, d g d' g'>~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'>4 |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>4 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> |
+\mymark "Outro" #102
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <g, b, d g d' g'>8~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'>4 |
+    <b, fis b d' fis'>4 <b, fis b d' fis'> <b, fis b d' fis'>8 <b, fis b d' fis'> <b, fis b d' fis'> <g, b, d g d' g'>~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'>4 |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>4 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <g, b, d g d' g'>8~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> |
+    <d a d' fis'>4 <d a d' fis'> <d a d' fis'>8 <d a d' fis'>4 <a, e a cis' e'>8~ |
+    <a, e a cis' e'>8 <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'> <a, e a cis' e'>4 |
+    <b, fis b d' fis'>4 <b, fis b d' fis'> <b, fis b d' fis'>8 <b, fis b d' fis'> <b, fis b d' fis'> <g, b, d g d' g'>~ |
+    <g, b, d g d' g'>8 <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> <g, b, d g d' g'> |
+    <d a d' fis'>8 <d a d' fis'> <d a d' fis'> <d a d' fis'> <d a d' fis'> <d a d' fis'> r <a, e a cis' e'>~ |
+    <a, e a cis' e'>1 |
+}
