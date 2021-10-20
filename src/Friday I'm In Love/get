@@ -4,10 +4,10 @@
 java -jar ../../guitarproToLy/1.jar < song.gp5 \
 markup-extra 0 '\key d \major' \
 track 0 preset kav output-lilypond output-lyrics which-lyrics 0 layout-extra '\clef "treble_8"' \
-track 1 preset midiOne output-lilypond \
+track 1 preset midiMuted output-lilypond \
 track 2 preset midiTwo output-lilypond \
-track 3 preset peter output-lilypond \
+track 3 preset midiOne output-lilypond \
 track 4 preset peter output-lilypond \
 track 5 preset bass output-lilypond \
 track 6 preset gg output-drums \
-track 7 preset susan output-lilypond layout-extra '\clef "treble_8"'
+track 7 preset susan output-lilypond
