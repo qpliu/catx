@@ -6,13 +6,12 @@
 \include "generated-markup"
 \include "generated-vocals"
 \include "generated-vocals_lyrics"
-\include "generated-midiMuted"
-\include "generated-midiTwo"
 \include "generated-midiOne"
-\include "generated-guitar"
+\include "generated-midiTwo"
 \include "generated-bass"
 \include "generated-drs"
 \include "generated-steelpan"
+\include "generated-guitar"
 
 layoutmusic = <<
     \tag #'(allPart kavPart) \new Staff \with {
@@ -24,18 +23,6 @@ layoutmusic = <<
         \clef "treble_8"
     >>
     \tag #'(allPart kavPart) \vocalsLyrics
-    \tag #'(allPart peterPart) \new Staff \with {
-        instrumentName = \markup { \rotate #90 "Guitar" }
-        shortInstrumentName = \markup { \rotate #90 "Gtr" }
-    } <<
-        \markupStuff
-        \guitar
-        \clef "treble_8"
-        { s128_"e a d g b e" }
-    >>
-    \tag #'(allPart peterPart) \new TabStaff \with {
-        stringTunings = \stringTuning <e, a, d g b e'>
-    } \guitar
     \tag #'(allPart bassPart) \new Staff \with {
         instrumentName = \markup { \rotate #90 "Bass" }
         shortInstrumentName = \markup { \rotate #90 "Ba" }
@@ -63,6 +50,18 @@ layoutmusic = <<
         \markupStuff
         \steelpan
     >>
+    \tag #'(allPart peterPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Guitar" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr" }
+    } <<
+        \markupStuff
+        \guitar
+        \clef "treble_8"
+        { s128_"e a d g b e" }
+    >>
+    \tag #'(allPart peterPart) \new TabStaff \with {
+        stringTunings = \stringTuning <e, a, d g b e'>
+    } \guitar
 >>
 
 midimusic = <<
@@ -70,18 +69,12 @@ midimusic = <<
     \tag #'(midiKaraoke) \new Staff = "generated-vocals" \with {
         midiInstrument = #"synth voice"
     } \vocals
-    \tag #'(midiMuted) \new Staff = "generated-midiMuted" \with {
+    \tag #'(midiOne) \new Staff = "generated-midiOne" \with {
         midiInstrument = #"oboe"
-    } \midiMuted
+    } \midiOne
     \tag #'(midiTwo) \new Staff = "generated-midiTwo" \with {
         midiInstrument = #"acoustic guitar (steel)"
     } \midiTwo
-    \tag #'(midiOne) \new Staff = "generated-midiOne" \with {
-        midiInstrument = #"electric guitar (jazz)"
-    } \midiOne
-    \tag #'(midiPeter) \new Staff = "generated-guitar" \with {
-        midiInstrument = #"electric guitar (jazz)"
-    } \guitar
     \tag #'(midiBass) \new Staff = "generated-bass" \with {
         midiInstrument = #"electric bass (finger)"
     } \bass
@@ -91,4 +84,7 @@ midimusic = <<
     \tag #'(midiSusan) \new Staff = "generated-steelpan" \with {
         midiInstrument = #"steel drums"
     } \steelpan
+    \tag #'(midiPeter) \new Staff = "generated-guitar" \with {
+        midiInstrument = #"electric guitar (jazz)"
+    } \guitar
 >>

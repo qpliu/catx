@@ -1,22 +1,22 @@
 midiOne = {
 \mymark "Intro" #1
-    r8 g d' e' fis' e' d' e' |
-    e'4 fis'8 e' fis' fis'4 e'8~ |
-    e'8 fis' fis' e'4 d' d'8 |
-    e'8 fis' fis' e' fis' fis'4 a'8~ |
-    a'8 a' g'4 fis'2 |
-    e'4 fis'8 e' fis' fis'4 e'8~ |
-    e'8 fis' fis' e'4 d' e'8 |
-    d'4 a8 a a b4 a8~ |
-    a8 g cis' e' fis' e' d' e' |
-    e'4 fis'8 e' fis' fis'4 e'8~ |
-    e'8 fis' fis' e'4 d' d'8 |
-    e'8 fis' fis' e' fis' fis'4 a'8~ |
-    a'8 a' g'4 fis'2 |
-    e'4 fis'8 e' fis' fis'4 e'8~ |
-    e'8 fis' fis' e'4 d' e'8 |
-    d'4 a8 a a b4 a8~ |
-    a8 g cis' e' fis' e' d' e' |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
 \mymark "Verse I" #18
     r1 |
     r1 |
@@ -24,106 +24,106 @@ midiOne = {
     r1 |
     r1 |
     r1 |
+    r2 fis'8 fis'4 e'8~ |
+    e'2 r |
     r1 |
-    r8 g cis' e' fis' e' d' e' |
-    e'4 fis'8 e' fis' fis'4 e'8~ |
-    e'8 fis' fis' e'4 d' d'8 |
-    e'8 fis' fis' e' fis' fis'4 a'8~ |
-    a'8 a' g'4 fis'2 |
-    e'4 fis'8 e' fis' fis'4 e'8~ |
-    e'8 fis' fis' e'4 d' e'8 |
-    d'4 a8 a a b4 a8~ |
-    a8 g cis' e' fis' e' d' e' |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2. r8 e'~ |
+    e'8 fis'4. fis'8 fis'4 e'8~ |
+    e'2 r |
 \mymark "Chorus I" #34
-    g'4 g' g'8 fis'4 e'8~ |
-    e'8 e a cis' d' cis' a4 |
-    e4 b d'8 cis' b g~ |
-    g8 d'4 g8 g' fis' e' d' |
-    d4 fis'8 d' fis' e'4 e'8~ |
-    e'8 e a cis' d' cis' d'4 |
+    g'8 g' g'4. fis'8 fis' e'~ |
+    e'4 r2 r8 e' |
+    fis'4 fis' fis'8 g'4 e'8~ |
+    e'8 d'4 d'4. r4 |
+    fis'4 fis' fis'8 fis'4 g'8~ |
+    g'8 g'4 d'4. r4 |
 \mymark "Verse II" #40
-    fis'4 fis' fis'8 e'4 g'8~ |
-    g'8 d'4 g8 g' fis' e' d' |
-    d4 a8 d' fis' e'4 a,8~ |
-    a,8 e a cis' d' cis' a b |
-    b,4 fis8 b d' cis' b g~ |
-    g8 d'4 g8 g' fis' e' d' |
-    d4 a8 d' fis' e'4 a,8~ |
-    a,8 e a cis' d' cis' d'4 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2. r8 e'~ |
+    e'8 fis'4. fis'8 fis'4 e'8~ |
+    e'2 r |
 \mymark "Solo" #48
-    fis'8 e' fis' e' fis' e' d'\glissando e'~ |
-    e'8 b'\glissando a' a'2~ a'8 |
-    <fis' a' d''>8 d'' d'' d'' e'' e''4 <e' a' cis''>8~ |
-    <e' a' cis''>8 cis'' d'' cis'' a'4 a' |
-    r8 b' d'' b' a'' d'' b' g'~ |
-    g'8 a'4 g'8 d'' a' g' a' |
-    <d'' fis''>8 a' <d'' fis''> cis'' <a' d'' a''> <a' d'' a''>4 <a' cis''>8~ |
-    <a' cis''>8 <a' cis''> <b' d''> <b' d''> <cis'' e''> <cis'' e''> <e'' g''> <e'' g''> |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
 \mymark "Verse III" #56
-    fis'4 fis' fis'8 e'4 g'8~ |
-    g'8 d'4 g8 g' fis' e' d' |
-    d4 a8 d' fis' e'4 a,8~ |
-    a,8 e a cis' d' cis' a b |
-    b,4 fis8 b d' cis' b g~ |
-    g8 d'4 g8 g' fis' e' d' |
-    d4 a8 d' fis' e'4 a,8~ |
-    a,8 e a cis' d' cis' d'4 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2. r8 e'~ |
+    e'8 fis'4. fis'8 fis'4 e'8~ |
+    e'4 r2. |
 \mymark "Chorus II" #64
-    g'4 g' g'8 fis'4 e'8~ |
-    e'8 e a cis' d' cis' a4 |
-    e4 b d'8 cis' b g~ |
-    g8 d'4 g8 g' fis' e' d' |
-    d4 fis'8 d' fis' e'4 e'8~ |
-    e'8 e a cis' d' cis' d'4 |
+    g'8 g' g'4. fis'8 fis' e'~ |
+    e'4 r2 r8 e' |
+    fis'4 fis' fis'8 g'4 e'8~ |
+    e'8 d'4 d'4. r4 |
+    fis'4 fis' fis'8 fis'4 g'8~ |
+    g'8 g'4 d'4. r4 |
 \mymark "Bridge" #70
-    r4 b'8 b' b' a' a' a'~ |
-    a'8 g' g' g' g' fis' fis' fis' |
-    fis'2 fis'8 e' d' e' |
-    d'8 cis' a cis' d' cis' a4 |
-    r4 b'8 b' b' a' a' a'~ |
-    a'8 g' g' g' g' fis' fis' fis' |
-    fis'2 fis'8 e' d' d'~ |
-    d'8 g cis' e' fis' e' d' e' |
-    fis'4 fis' fis'8 e'4 e'8~ |
-    e'8 d'4 e' d' d'8 |
-    e'8 fis' e' fis' fis' fis'4 a'8~ |
-    a'8 a' g'4 fis'2 |
-    e'8 fis'4 b'8 fis' fis'4 e'8~ |
-    e'8 d' d' e'4 d'8 d' d' |
-    d'4 a a8 b4 a8~ |
-    a8 g d' e' fis' e' d' e' |
+    r1 |
+    r1 |
+    r4. fis'8 fis' fis'4 fis'8~ |
+    fis'8 fis' e'4 fis'8 e'4 d'8~ |
+    d'4 r fis'16 fis' fis'8 g' fis'~ |
+    fis'8 d' d'4 fis'16 fis' fis'8 g' fis'~ |
+    fis'4 r fis'8 e' d' e'~ |
+    e'8 e' e' fis'4 e' d'8~ |
+    d'4 fis'8 fis' fis' d' g' fis'~ |
+    fis'8 fis' fis' fis' fis' g'4 fis'8~ |
+    fis'4 r8 fis' fis' fis'4 e'8~ |
+    e'8 e' e'4 g'16 g' g'8 e' d'~ |
+    d'4 d'8 d' fis'16 fis' fis'8 g' fis'~ |
+    fis'4 r8 d' fis' fis' g'4 |
+    fis'4 a d'8 e'4 e'8~ |
+    e'8 e'4 a' g'8 fis'4~ |
 \mymark "Verse IV" #86
-    e'4 fis'8 e' fis' fis'4 e'8~ |
-    e'8 fis' fis' e'4 d' d'8 |
-    e'8 fis' fis' e' fis' fis'4 a'8~ |
-    a'8 a' g'4 fis'2 |
-    e'4 fis'8 e' fis' fis'4 e'8~ |
-    e'8 fis' fis' e'4 d' e'8 |
-    d'4 a8 a a b4 a8~ |
-    a8 g cis' e' fis' e' d' e' |
-    e'4 fis'8 e' fis' fis'4 e'8~ |
-    e'8 fis' fis' e'4 d' d'8 |
-    e'8 fis' fis' e' fis' fis'4 a'8~ |
-    a'8 a' g'4 fis'2 |
-    e'4 fis'8 e' fis' fis'4 e'8~ |
-    e'8 fis' fis' e'4 d' e'8 |
-    d'4 a8 a a b4 a8~ |
-    a8 g cis' e' fis' e' d' e' |
-\mymark "Outro" #102
+    fis'8 r2. r8 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2 fis'8 fis'4 e'8~ |
+    e'2 r |
     fis'4 fis' fis'8 e'4 e'8~ |
-    e'8 d'4 e' d' d'8 |
-    e'8 fis' e' fis' fis' fis'4 a'8~ |
-    a'8 a' g'4 fis'2 |
-    e'8 fis'4 b'8 fis' fis'4 e'8~ |
-    e'8 d' d' e'4 d'8 d' d' |
-    d'4 a a8 b4 a8~ |
-    a8 g d' e' fis' e' d' e' |
-    fis'8 e' fis' e' fis' e' d'\glissando e'~ |
-    e'8 b'\glissando a' a'2~ a'8 |
-    <fis' a' d''>4 d'' e''8 e''4 <e' a' cis''>8~ |
-    <e' a' cis''>8 cis'' d'' cis'' a' e' a' cis'' |
-    r8 b' d'' b' a'' d'' b' g'~ |
-    g'8 a'4 g'8 d'' a' g' a' |
-    <a' d'' fis''>4 <a' d'' fis''> <a' d'' a''>8 <a' d'' a''> r <a' cis'' a''>~ |
-    <a' cis'' a''>1 |
+    e'8 d' d'2 r4 |
+    fis'4 d' fis'8 d'4 e'8~ |
+    e'8 fis'4 g'4. r4 |
+    fis'4 fis' fis'8 fis'4 fis'8~ |
+    fis'8 d'4 d' b e'8~ |
+    e'8 fis'4. fis'8 fis'4 e'8~ |
+    e'4. r2 r8 |
+\mymark "Outro" #102
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
 }
