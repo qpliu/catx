@@ -1,0 +1,77 @@
+vocals = {
+    \myVocalsStuff
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #9
+    c''4. b' c''8 b' |
+    a'4. g' a'8 g' |
+    f'4. e'2~ e'8 |
+    r1 |
+    a'4. g' a'8 g' |
+    fis'4. e' fis'8 e' |
+    d'1 |
+    r1 |
+\mymark "Verse 2" #17
+    c''4. b' c''8 b' |
+    a'4. g' a'8 g' |
+    f'4. e'2~ e'8 |
+    r1 |
+    a'4. g' a'8 g' |
+    fis'4. e' fis'8 e' |
+    d'1 |
+    r1 |
+    r1 |
+\mymark "Chorus 1" #26
+    e'4. fis'2~ fis'8 |
+    e'1 |
+    e'4. fis'2~ fis'8 |
+    d'1 |
+    e'4. fis'2~ fis'8 |
+    e'1 |
+    e'4. fis'2~ fis'8 |
+    g'1 |
+\mymark "Verse 3" #34
+    c''4. b' c''8 b' |
+    a'4. g' a'8 g' |
+    f'4. e'2~ e'8 |
+    r1 |
+    a'4. g' a'8 g' |
+    fis'4. e' fis'8 e' |
+    d'1 |
+    r1 |
+\mymark "Solo" #42
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 2" #51
+    e'4. fis'2~ fis'8 |
+    e'1 |
+    e'4. fis'2~ fis'8 |
+    d'1 |
+    e'4. fis'2~ fis'8 |
+    e'1 |
+    e'4. fis'2~ fis'8 |
+    g'1 |
+\mymark "Outro" #59
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

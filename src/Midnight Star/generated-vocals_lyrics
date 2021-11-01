@@ -1,0 +1,77 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1" #9
+    "Sun"4. -- "set" "fal"8 -- "ling" |
+    "dark"4. -- "ness" "cal"8 -- "ling" |
+    "to"4. -- "night"2 \skip8 |
+    \skip1 |
+    "Seek"4. -- "ing" "fear"8 -- "ing" |
+    "dis"4. -- "ap" -- "pear"8 -- "ing" |
+    "light"1 |
+    \skip1 |
+\mymark "Verse 2" #17
+    "Sha"4. -- "dows" "grow"8 -- "ing" |
+    "all"4. "un" -- "know"8 -- "ing" |
+    "in"4. "fright"2 \skip8 |
+    \skip1 |
+    "Black"4. "in" -- "vad"8 -- "ing" |
+    "block"4. -- "ing" "fad"8 -- "ing" |
+    "sight"1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus 1" #26
+    "Mid"4. -- "night"2 \skip8 |
+    "star"1 |
+    "Light"4. "my"2 \skip8 |
+    "way"1 |
+    "From"4. "a"2 -- \skip8 |
+    "far"1 |
+    "Make"4. "it"2 \skip8 |
+    "day"1 |
+\mymark "Verse 3" #34
+    "Lost"4. "un" -- "see"8 -- "ing" |
+    "e"4. -- "ver" "be"8 -- "ing" |
+    "un"4. -- "right"2 \skip8 |
+    \skip1 |
+    "So"4. "un" -- "wil"8 -- "ling" |
+    "in"4. "this" "chil"8 -- "ling" |
+    "plight"1 |
+    \skip1 |
+\mymark "Solo" #42
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus 2" #51
+    "Mid"4. -- "night"2 \skip8 |
+    "star"1 |
+    "Light"4. "my"2 \skip8 |
+    "way"1 |
+    "From"4. "a"2 -- \skip8 |
+    "far"1 |
+    "Make"4. "it"2 \skip8 |
+    "day"1 |
+\mymark "Outro" #59
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}
