@@ -1,0 +1,86 @@
+midiOne = {
+\mymark "Intro" #1
+    \repeat volta 2 {
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+    }
+\mymark "Verse 1" #5
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #13
+    r2 r8 d'16( e') g'4~ |
+    g'2 r8 d'16( e') g'4~ |
+    g'2 r |
+    r1 |
+    r2 r8 d'16( e') g'4~ |
+    g'2 r8 d'16( e') g' d'( e'8) |
+    g'1 |
+    r1 |
+\mymark "Verse 2" #21
+    r1 |
+    e'1 |
+    r1 |
+    r2 a16( b) d' r d'( e') g' r |
+    g'1 |
+    r1 |
+    a'4\bendAfter #6 ^"full" r a'2 |
+    a'4\bendAfter #6 ^"full" d'' a'\bendAfter #6 ^"full" g' |
+\mymark "Chorus" #29
+    g'2 r8 d'16( e') g'4~ |
+    g'2 r8 d'16( e') g'4~ |
+    g'2 r |
+    r1 |
+    r2 r8 d'16( e') g'4~ |
+    g'2 r8 d'16( e') g' d'( e'8) |
+    g'1 |
+    r1 |
+\mymark "Bridge" #37
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 3" #46
+    r1 |
+    r1 |
+    r1 |
+    r2 a16( b) d' r d'( e') g' r |
+    g'1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #54
+    r2 r8 d'16( e') g'4~ |
+    g'2 r8 d'16( e') g'4~ |
+    g'2 r |
+    r1 |
+    r2 r8 d'16( e') g'4~ |
+    g'2 r8 d'16( e') g' d'( e'8) |
+    g'1 |
+    r1 |
+\mymark "Outro" #62
+    r2. d'16( e') g'8~ |
+    g'4 r4. d'16( e') g' d'( e'8) |
+    r1 |
+    r2 r8 d'16( e') g' d'( e'8) |
+    g'2 r8 d'16( e') g' d'( e'8) |
+    g'2 r8 d'16( e') g' d'( e'8) |
+    r1 |
+    d'16( e') g' d'( e') g' d'( e') g' d'( e') g' d'( e') g'8 |
+    d'16( e') g' d'( e') g' d'( e') g' d'( e') g' d'( e') g'8 |
+    d'16( e') g' d'( e') g' d'( e') g' d'( e') g' d'( e') g'8 |
+    d'16( e') g' d'( e') g' d'( e') g' d'( e') g' d'( e') g'8 |
+    d'16( e') g' d'( e') g' d'( e') g' d'( e') g' d'( e') g'8 |
+}

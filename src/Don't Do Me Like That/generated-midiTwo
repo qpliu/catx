@@ -1,0 +1,86 @@
+midiTwo = {
+\mymark "Intro" #1
+    \repeat volta 2 {
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+    }
+\mymark "Verse 1" #5
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #13
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #21
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #29
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge" #37
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 3" #46
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #54
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Outro" #62
+    <g g'>8 <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <\deadNote g \deadNote g'>8 <g g'> <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <g g'>8 <g g'> r |
+    <g g'>8 <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <\deadNote g \deadNote g'>8 <g g'> <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <g g'>8 <g g'> r |
+    <g g'>8 <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <\deadNote g \deadNote g'>8 <g g'> <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <g g'>8 <g g'> r |
+    <g g'>8 <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <\deadNote g \deadNote g'>8 <g g'> <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <g g'>8 <g g'> r |
+    <g g'>8 <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <\deadNote g \deadNote g'>8 <g g'> <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <g g'>8 <g g'> r |
+    <g g'>8 <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <\deadNote g \deadNote g'>8 <g g'> <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <g g'>8 <g g'> r |
+    <g g'>8 <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <\deadNote g \deadNote g'>8 <g g'> <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <g g'>8 <g g'> r |
+    <g g'>8 <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <\deadNote g \deadNote g'>8 <g g'> <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <g g'>8 <g g'> r |
+    <g g'>8 <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <\deadNote g \deadNote g'>8 <g g'> <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <g g'>8 <g g'> r |
+    <g g'>8 <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <\deadNote g \deadNote g'>8 <g g'> <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <g g'>8 <g g'> r |
+    <g g'>8 <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <\deadNote g \deadNote g'>8 <g g'> <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <g g'>8 <g g'> r |
+    <g g'>8 <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <\deadNote g \deadNote g'>8 <g g'> <\deadNote g \deadNote g'>16 <\deadNote g \deadNote g'> <g g'>8 <g g'> r |
+}

@@ -1,0 +1,78 @@
+\header {
+    title = "Don't Do Me Like That"
+    composer = "Tom Petty & The Heartbreakers"
+}
+
+\include "generated-markup"
+\include "generated-vocals"
+\include "generated-vocals_lyrics"
+\include "generated-guitar"
+\include "generated-midiOne"
+\include "generated-midiTwo"
+\include "generated-steelpan"
+\include "generated-bass"
+
+layoutmusic = <<
+    \tag #'(allPart kavPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Vocals" }
+        shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+        \markupStuff
+        \vocals
+        \clef "treble_8"
+    >>
+    \tag #'(allPart kavPart) \vocalsLyrics
+    \tag #'(allPart peterPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Guitar" }
+        shortInstrumentName = \markup { \rotate #90 "Gtr" }
+    } <<
+        \markupStuff
+        \guitar
+        \clef "treble_8"
+        { s128_"e a d g b e" }
+    >>
+    \tag #'(allPart peterPart) \new TabStaff \with {
+        stringTunings = \stringTuning <e, a, d g b e'>
+    } \guitar
+    \tag #'(allPart susanPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Steelpan" }
+        shortInstrumentName = \markup { \rotate #90 "Sp" }
+    } <<
+        \markupStuff
+        \steelpan
+    >>
+    \tag #'(allPart bassPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Bass" }
+        shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } <<
+        \markupStuff
+        \bass
+        \clef "bass_8"
+        { s128_"e a d g" }
+    >>
+    \tag #'(allPart bassPart) \new TabStaff \with {
+        stringTunings = \stringTuning <e,, a,, d, g,>
+    } \bass
+>>
+
+midimusic = <<
+    \markupStuff
+    \tag #'(midiKaraoke) \new Staff = "generated-vocals" \with {
+        midiInstrument = #"synth voice"
+    } \vocals
+    \tag #'(midiPeter) \new Staff = "generated-guitar" \with {
+        midiInstrument = #"electric guitar (jazz)"
+    } \guitar
+    \tag #'(midiOne) \new Staff = "generated-midiOne" \with {
+        midiInstrument = #"electric guitar (jazz)"
+    } \midiOne
+    \tag #'(midiTwo) \new Staff = "generated-midiTwo" \with {
+        midiInstrument = #"electric guitar (jazz)"
+    } \midiTwo
+    \tag #'(midiSusan) \new Staff = "generated-steelpan" \with {
+        midiInstrument = #"muted trumpet"
+    } \steelpan
+    \tag #'(midiBass) \new Staff = "generated-bass" \with {
+        midiInstrument = #"electric bass (pick)"
+    } \bass
+>>

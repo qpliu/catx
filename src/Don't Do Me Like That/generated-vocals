@@ -1,0 +1,87 @@
+vocals = {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \repeat volta 2 {
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+    }
+\mymark "Verse 1" #5
+    r8 d'16 d' d' d' d' d' d'8 d'16 e'4~ e'16 |
+    r8 d'16 d' d' d' d'8 e' b a\glissando g |
+    r4 g16 g g g b8 b a g |
+    r4 b16 b b b b8 c' b4 |
+    r8 d'16 d' d' d' d' d' d'8 d' e'4 |
+    r8 d'16 d' d' d' d'8 e' b a\glissando g |
+    r4 g16 g g g b8 a a4 |
+    r4 b8 c' b c' b4 |
+\mymark "Chorus" #13
+    r8 d' d'16 d' d'8 e'4 r |
+    r8 d' d'16 d' d'8 e'4 r |
+    r4 b16 b b8 e' e' b a16\glissando g |
+    r8 b a16 a g8 g16\glissando a8. r4 |
+    r8 d' d'16 d' d'8 e'4 r |
+    r8 d' d'16 d' d'8 e'4 r |
+    r8 b b16 a a8 a g16 g8. e8 |
+    r8 b a16 g g8 g16\glissando a8. r4 |
+\mymark "Verse 2" #21
+    r8. d'16 d' d' d' d'8 d' e'4~ e'16 |
+    r8. d'16 d' d' d' e'8 b a\glissando g8. |
+    r8 g16 g g g b8 b a4 r8 |
+    r8 b16 b b8 b b c' b4 |
+    r8 d'16 d' d' d' d' d' d'8 d' e'4 |
+    r8 d'16 d' d' d' d'8 e' b a\glissando g |
+    r4 g16 g g g b8 a a4 |
+    r4 b8 c' b c' b4 |
+\mymark "Chorus" #29
+    r8 d' d'16 d' d'8 e'4 r |
+    r8 d' d'16 d' d'8 e'4 r |
+    r4 b16 b b8 e' e' b a16\glissando g |
+    r8 e' r e' r e' r e' |
+    r8 d' d'16 d' d'8 e'4 r |
+    r8 d' d'16 d' d'8 e'4 r |
+    r4 b16 a a8 a g16 g8. e8 |
+    r8 b a16 g g8 g16\glissando a8. r8 e' |
+\mymark "Bridge" #37
+    f'8 f' f' f' f' f'\glissando g'4 |
+    e'8 e' e' d'4 c'8 r4 |
+    f'8 f' f' f'4 d'8\glissando e'4 |
+    d'8\glissando c' r2. |
+    f'8 f' f' f'16 f' f'8 f'\glissando g'4 |
+    e'8 e' e' d'4 c'8 r c' |
+    dis'16 dis' dis'8 dis' dis'4 c'8 dis' d'~ |
+    d'4 r2. |
+    r1 |
+\mymark "Verse 3" #46
+    r8. d'16 d' d' d' d'8 d' e'4~ e'16 |
+    r8. d'16 d' d' d' e'8 b a\glissando g8. |
+    r8 g16 g g g b8 b a4 r8 |
+    r8 b16 b b8 b b c' b4 |
+    r8 d'16 d' d' d' d' d' d'8 d' e'4 |
+    r8 d'16 d' d' d' d'8 e' b a\glissando g |
+    r4 g16 g g g b8 a a4 |
+    r4 b8 c' b c' b4 |
+\mymark "Chorus" #54
+    r8 d' d'16 d' d'8 e'4 r |
+    r8 d' d'16 d' d'8 e'4 r |
+    r4 b16 b b8 e' e' b a16\glissando g |
+    r8 e' r e' r e' r e' |
+    r8 d' d'16 d' d'8 e'4 r |
+    r8 d' d'16 d' d'8 e'4 r |
+    r4 b16 a a8 a g16 g8. e8 |
+    r8 b a16 g g8 g16\glissando a8. r4 |
+\mymark "Outro" #62
+    r8 d' d'16 d' d'8 e'4 r |
+    r8 d' d'16 d' d'8 e'4 r |
+    r4 b8 b e' e' e' e' |
+    r8 e' r e' r e' r e' |
+    r8 d' d'16 d' d'8 e'4 r |
+    r8 d' d'16 d' d'8 e'4 r |
+    r4 b8 b e' e' b b |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}
