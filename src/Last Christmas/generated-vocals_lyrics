@@ -1,0 +1,119 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus x2" #9
+    "Last"4. "Christ"4 -- "mas," "I"8 |
+    "gave"8 "you" "my" "heart"4. "But"8 "the" |
+    "ve"8 -- "ry" "next"4 "day,"4. "you"8 |
+    "gave"8 "it" "a" -- "way"2 \skip8 |
+    "This"4. "year," \skip8 "to"8 |
+    "save"8 "me" "from" "tears"4. \skip8 "I'll"8 |
+    "give"8 "it" "to" "some"4 -- "one" "spe"8 -- |
+    \skip8 "cial"4 "(spe" -- "cial)"4. |
+    "Last"4. "Christ"4 -- "mas," "I"8 |
+    "gave"8 "you" "my" "heart"4. "But"8 "the" |
+    "ve"8 -- "ry" "next"4 "day,"4. "you"8 |
+    "gave"8 "it" "a" -- "way"2 \skip8 |
+    "This"4. "year," \skip8 "to"8 |
+    "save"8 "me" "from" "tears"4. \skip8 "I'll"8 |
+    "give"8 "it" "to" "some"4 -- "one" "spe"8 -- |
+    \skip8 "cial"4 "(spe" -- "cial)"4. |
+\mymark "X-Mas Interlude" #25
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1" #33
+    \skip4 "Once"8 \skip8 "bit"8 -- "ten" \skip8 "and"8 |
+    "twice"4. "shy"4 -- "y"8 -- "y"4 |
+    \skip8 "I"8 "keep" "my" "dis" -- "tance," \skip8 "but"8 |
+    "you"8 "still"4 "catch" "my"8 "eye"4 |
+    \skip4 "Tell"8 "me,"16 "ba"8. -- "by,"4. |
+    "do"8 "you" "re" -- "cog"16 -- "nize"8. "me?"4. |
+    \skip8 "Well,"4 "it's"8 "been"16 "a" "year,"4 "it"8 |
+    "does"8 -- "n't" "sur" -- "prise" "me"2 |
+    \skip4. "\"Mer"16 -- "ry" "Christ"8 -- "mas,\""4 "I"8 |
+    "wrapped"8 "it" "up" "and" "sent" "it"4. |
+    "With"4 "a"8 "note" \skip8 "say"8 -- \skip8 "ing"8 |
+    \skip8 "\"I"8 "love" "you,\"" "I"4 "meant" |
+    "it"8 "Now" "I" "know"4 "what"8 "a" "fool" |
+    \skip8 "I've"8 "been" "But"4 "if"8 "you" "kissed" |
+    "me"4 "now,"8 "I"4 "know"8 "you'd" "fool" |
+    "me"8 -- "e" "a" -- "gain"2 \skip8 |
+\mymark "Chorus x2" #49
+    "Last"4. "Christ"4 -- "mas," "I"8 |
+    "gave"8 "you" "my" "heart"4. "But"8 "the" |
+    "ve"8 -- "ry" "next"4 "day,"4. "you"8 |
+    "gave"8 "it" "a" -- "way"2 \skip8 |
+    "This"4. "year," \skip8 "to"8 |
+    "save"8 "me" "from" "tears"4. \skip8 "I'll"8 |
+    "give"8 "it" "to" "some"4 -- "one" "special"8 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "X-Mas Interlude" #65
+    "Oh"2. \skip4 |
+    \skip2. "Oh,"8 "oh," |
+    \skip8 "ba"2. -- "by"8 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 2" #73
+    \skip4 "A"4. "crowd"8 -- "ed" "room," |
+    \skip8 "friends"8 "with" "tir"4 -- "ed"8 "eyes"4 |
+    \skip8 "I'm"8 "hi"4. -- "ding"8 "from" "you" |
+    \skip8 "and"8 "your" "soul"4 "o"16 -- "f" "ice"4 |
+    \skip8 "My"8 "God," "I" "thought" "you" "were"4 |
+    "some"8 -- "one" "to" "re"16 -- "ly"8. "on"4. |
+    "Me?"4. "I"8 "guess" "I" "was" "a" |
+    "shoul"8 -- "der" "to" "cry" "on"4. "A"8 |
+    "face"4 "on"8 "a" "lo" -- "ver" "with" "a" |
+    "fire"8 "in" "his" "heart"2 "A"8 |
+    "man"4 "un"8 -- "der" "co" -- "ver" "but" "you" |
+    "tore"4. "me"4 "a" -- "pa"8 -- |
+    \skip8 "a"16 -- "a" -- "art"8 \skip2 \skip8 |
+    "Ooh,"4. "ooh," "now"8 "I've" |
+    "found"8 "a" "real" "love"4 "You'll"8 "ne" -- "ver" |
+    "fool"8 "me" "a" -- "gain"2 \skip8 |
+\mymark "Chorus+Fade" #89
+    "Last"4. "Christ"4 -- "mas," "I"8 |
+    "gave"8 "you" "my" "heart"4. "But"8 "the" |
+    "ve"8 -- "ry" "next"4 "day,"4. "you"8 |
+    "gave"8 "it" "a" -- "way"2 \skip8 |
+    "This"4. "year," \skip8 "to"8 |
+    "save"8 "me" "from" "tears"4. \skip8 "I'll"8 |
+    "give"8 "it" "to" "some"4 -- "one" "spe"8 -- |
+    \skip8 "cial"4 "(spe" -- "cial)"4. |
+    "Last"4. "Christ"4 -- "mas," "I"8 |
+    "gave"8 "you" "my" "heart"4. "But"8 "the" |
+    "ve"8 -- "ry" "next"4 "day,"4. "you"8 |
+    "gave"8 "it" "a" -- "way"2 \skip8 |
+    "This"4. "year," \skip8 "to"8 |
+    "save"8 "me" "from" "tears"4. \skip8 "I'll"8 |
+    "give"8 "it" "to" "some"4 -- "one" "spe"8 -- |
+    \skip8 "cial"4 "(spe" -- "cial)"4. |
+    "Last"4. "Christ"4 -- "mas," "I"8 |
+    "gave"8 "you" "my" "heart"4. "But"8 "the" |
+    "ve"8 -- "ry" "next"4 "day,"4. "you"8 |
+    "gave"8 "it" "a" -- "way"2 \skip8 |
+}

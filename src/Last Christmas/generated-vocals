@@ -1,0 +1,119 @@
+vocals = {
+    \myVocalsStuff
+\mymark "Intro" #1
+    r1 |
+    r2. r8 e |
+    fis4 a8 b2 d'8~ |
+    d'4. fis'8. e'16 d'4.~ |
+    d'2. r4 |
+    r2 b'4. a'8~ |
+    a'1 |
+    r1 |
+\mymark "Chorus x2" #9
+    e''4. e''4 d'' a'8 |
+    e''8 e'' fis'' d''4. b'8 b' |
+    e''8 e'' fis''4 d''4. b'8 |
+    cis''8 d'' cis'' b'2 r8 |
+    fis''4. e'' r8 b' |
+    fis''8 g'' fis'' e''4. r8 d'' |
+    cis''8 d'' cis'' cis''4 d'' cis''8~ |
+    cis''8 a'4 cis'' a'4. |
+    e''4. e''4 d'' a'8 |
+    e''8 e'' fis'' d''4. b'8 b' |
+    e''8 e'' fis''4 d''4. b'8 |
+    cis''8 d'' cis'' b'2 r8 |
+    fis''4. e'' r8 b' |
+    fis''8 g'' fis'' e''4. r8 d'' |
+    cis''8 d'' cis'' cis''4 d'' cis''8~ |
+    cis''8 a'4 cis'' a'4. |
+\mymark "X-Mas Interlude" #25
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #33
+    r4 e''8 r e'' d'' r d'' |
+    a''4. fis''4 e''8 d''4 |
+    r8 e'' e'' e'' e'' d'' r d'' |
+    b''8 b''4 fis'' e''8 d''4 |
+    r4 fis''8 b'16 d''8. e''4. |
+    fis''8 fis'' fis'' b'16 d''8. e''4. |
+    r8 d''4 cis''8 d''16 cis'' d''4 cis''8 |
+    d''8 cis'' cis'' b' a'2 |
+    r4. a16 a a8 a4 d''8 |
+    cis''8 d'' cis'' d'' cis'' d''4. |
+    e''4 d''8 cis'' r d'' r cis''~ |
+    cis''8 d'' cis'' d'' cis''4 d'' |
+    fis''8 e'' d'' e''4 e''8 d'' fis''~ |
+    fis''8 e'' d'' e''4 cis''8 cis'' d'' |
+    d''4 cis''8 d''4 cis''8 d'' cis'' |
+    d''8 cis'' d'' a'2 r8 |
+\mymark "Chorus x2" #49
+    e''4. e''4 d'' a'8 |
+    e''8 e'' fis'' d''4. b'8 b' |
+    e''8 e'' fis''4 d''4. b'8 |
+    cis''8 d'' cis'' b'2 r8 |
+    fis''4. e'' r8 b' |
+    fis''8 g'' fis'' e''4. r8 d'' |
+    cis''8 d'' cis'' cis''4 d'' cis''8 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "X-Mas Interlude" #65
+    d''2. r4 |
+    r2. d''8 cis''~ |
+    cis''8 a'2. b'8~ |
+    b'1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #73
+    r4 cis''4. d''8 cis'' cis'' |
+    r8 cis'' d'' a''4 fis''8 d''4 |
+    r8 a' e''4. d''8 cis'' d''~ |
+    d''8 cis'' d'' b''4 a''16 e'' d''4~ |
+    d''8 fis'' fis'' b' d'' d'' e''4 |
+    fis''8 fis'' fis'' b'16 d''8. e''4. |
+    fis''4. d''8 d'' cis'' cis'' d'' |
+    d''8 cis'' cis'' b' a'4. a'8 |
+    e''4 d''8 cis'' cis'' d'' a' a' |
+    e''8 d'' cis'' d''2 a'8 |
+    e''4 d''8 cis'' cis'' d'' a' a' |
+    a''4. fis''4 fis'' e''8~ |
+    e''8 d''16 cis'' b'8 r2 r8 |
+    fis''4. e'' e''8 d'' |
+    fis''8 e'' e'' d''4 cis''8 cis'' d'' |
+    d''8 cis'' d'' a'2 r8 |
+\mymark "Chorus+Fade" #89
+    e''4. e''4 d'' a'8 |
+    e''8 e'' fis'' d''4. b'8 b' |
+    e''8 e'' fis''4 d''4. b'8 |
+    cis''8 d'' cis'' b'2 r8 |
+    fis''4. e'' r8 b' |
+    fis''8 g'' fis'' e''4. r8 d'' |
+    cis''8 d'' cis'' cis''4 d'' cis''8~ |
+    cis''8 a'4 cis'' a'4. |
+    e''4. e''4 d'' a'8 |
+    e''8 e'' fis'' d''4. b'8 b' |
+    e''8 e'' fis''4 d''4. b'8 |
+    cis''8 d'' cis'' b'2 r8 |
+    fis''4. e'' r8 b' |
+    fis''8 g'' fis'' e''4. r8 d'' |
+    cis''8 d'' cis'' cis''4 d'' cis''8~ |
+    cis''8 a'4 cis'' a'4. |
+    e''4. e''4 d'' a'8 |
+    e''8 e'' fis'' d''4. b'8 b' |
+    e''8 e'' fis''4 d''4. b'8 |
+    cis''8 b' cis'' b'2 r8 |
+}

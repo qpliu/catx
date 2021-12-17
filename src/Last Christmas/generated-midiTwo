@@ -1,0 +1,118 @@
+midiTwo = {
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus x2" #9
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "X-Mas Interlude" #25
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #33
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus x2" #49
+    r1 |
+    r1 |
+    r1 |
+    r4. b'8 cis'' d'' cis'' b'~ |
+    b'4. r2 r8 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "X-Mas Interlude" #65
+    a'4 r2. |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #73
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus+Fade" #89
+    r1 |
+    r1 |
+    r1 |
+    r4. b'8 cis'' d'' cis'' b'~ |
+    b'4. r2 r8 |
+    r1 |
+    r1 |
+    r4. cis''4 a'4. |
+    e''4. e''4 d'' a'8 |
+    \tuplet 3/2 { a''4 fis'' fis'' } e''8 fis''16 e'' d''4~ |
+    d''2 r4 a''8 b''~ |
+    b''2 g''4 fis''8 g''~ |
+    g''2 r |
+    r1 |
+    r1 |
+    r2 \tuplet 3/2 { b''4 a'' fis'' } |
+    r1 |
+    r1 |
+    r1 |
+    r4. b'8 cis'' d'' cis'' b' |
+}
