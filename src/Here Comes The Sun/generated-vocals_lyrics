@@ -1,0 +1,127 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro                          " #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus" #9
+    \skip4 "Here comes"8 \skip4 "  the"4 "sun"8 |
+    \skip4 "do"8 "n" "do" "do"4. |
+    \skip4 "here comes"8 \skip4 "the"4 "sun"8 |
+    \skip4 "and I ----"8 \skip4. "say ------"16 \skip8. |
+    \skip8 "It's"4 "al -"8 \skip8 "right."8 \skip4 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1" #16
+    \skip4 "Little"8 \skip8 "darling"8 \skip4. |
+    \skip8 "it's"4 "been"8 \skip8 "a"8 \skip8 "long"8 |
+    \skip8 "cold"8 \skip8 "lonely"8 \skip4 "win -"4 |
+    \skip8 "ter."8 \skip2. |
+    \skip4 "Little"8 \skip8 "darling"8 \skip4. |
+    \skip8 "it"4 "feels"8 \skip8 "like"8 \skip8 "years"8 |
+    \skip4 "since it's"8 \skip4 "been"4 "here"8 |
+    \skip1 |
+\mymark "Chorus" #24
+    \skip4 "Here comes"8 \skip4 "the"4 "sun"8 |
+    \skip4 "do"8 "n" "do" "do"4. |
+    \skip4 "here comes"8 \skip4 "the"4 "sun"8 |
+    \skip4 "and I ----"8 \skip4 "say"4. |
+    \skip8 "It's"4 "al -"8 \skip8 "right."4. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 2" #33
+    \skip4 "Little"8 \skip8 "darling"8 \skip4. |
+    \skip8 "the"4 "smile's"8 \skip8 " "8 "re-" "turn -" |
+    \skip8 "ing"8 \skip8 "to -----"8 \skip8 "the"8 "fac -"4 |
+    \skip8 "es."8 \skip2. |
+    \skip4 "Little"8 \skip8 "darling"8 \skip4. |
+    \skip8 "it"4 "feels"8 \skip8 "like"8 \skip8 "years"8 |
+    \skip4 "since it's"8 \skip4 "been"4 "here"8 |
+    \skip1 |
+    \skip4 "Here comes"8 \skip4 "the"4 "sun"8 |
+    \skip4 "do"8 "n" "do" "do"4. |
+    \skip4 "here comes"8 \skip4 "the"4 "sun"8 |
+    \skip4 "and I ----"8 \skip4 "say"4. |
+    \skip8 "It's"4 "al -"8 \skip8 "right."4. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Lead Break" #49
+    \skip2 |
+    \skip4. |
+    \skip4. |
+    \skip4. |
+    \skip2 \skip8 |
+    \skip1 |
+    \skip2 |
+    \skip4. |
+    "Sun"4 \skip8 |
+    "sun"4 \skip8 |
+    "sun"4. "here it"8 \skip8 |
+    "comes -------"16 \skip2. \skip8. |
+    \skip2 |
+    \skip4. |
+    "Sun"4 \skip8 |
+    "sun"4 \skip8 |
+    "sun"4. "here it"8 \skip8 |
+    "comes -------"16 \skip2. \skip8. |
+    \skip2 |
+    \skip4. |
+    "Sun"4 \skip8 |
+    "sun"4 \skip8 |
+    "sun"4. "here it"8 \skip8 |
+    "comes -------"16 \skip2. \skip8. |
+    \skip2 |
+    \skip4. |
+    "Sun"4 \skip8 |
+    "sun"4 \skip8 |
+    "sun"4. "here it"8 \skip8 |
+    "comes -------"16 \skip2. \skip8. |
+    \skip2 |
+    \skip4. |
+    "Sun"4 \skip8 |
+    "sun"4 \skip8 |
+    "sun"4. "here it"8 \skip8 |
+    "comes -------"16 \skip2. \skip8. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 3" #89
+    \skip4 "Little"8 \skip8 "darling"8 \skip4. |
+    \skip8 "I"4 "feel"8 \skip8 "that"8 " " "ice" |
+    \skip8 "is"8 \skip8 "slow -"8 \skip8 "ly"8 "melt -"4 |
+    \skip8 "ing."8 \skip2. |
+    \skip4 "Little"8 \skip8 "darling"8 \skip4. |
+    \skip8 "it"4 "feels"8 \skip8 "like"8 \skip8 "years"8 |
+    \skip4 "since it's"8 \skip4 "been"4 "clear."8 |
+    \skip1 |
+\mymark "Chorus" #97
+    \skip4 "Here comes"8 \skip4 "the"4 "sun"8 |
+    \skip4 "do"8 "n" "do" "do"4. |
+    \skip4 "here comes"8 \skip4 "the"4 "sun"8 |
+    \skip4 "and I ----"8 \skip4 "say"4. |
+    \skip8 "It's"4 "al -"8 \skip8 "right."4. |
+    \skip1 |
+    \skip1 |
+\mymark "Coda" #104
+    \skip4 "Here comes"8 \skip4 "the"4 "sun"8 |
+    \skip4 "do"8 "n" "do" "do"4. |
+    \skip4 "here comes"8 \skip4 "the"4 "sun"8 |
+    \skip4 " "4 \skip2 |
+    \skip8 "It's"4 "al -"8 \skip8 "right."4. |
+    \skip1 |
+    \skip1 |
+    \skip8 "It's"4 "al -"8 \skip8 "right."4. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}

@@ -1,0 +1,126 @@
+midiOneB = {
+\mymark "Intro                          " #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #9
+    a,1~ |
+    a,1 |
+    d1 |
+    dis1 |
+    e1 |
+    <fis a>4. <e a> <d a>4~ |
+    <d a>8 <e a>4. <e, a>4 <e, gis> |
+\mymark "Verse 1" #16
+    <a, e>1 |
+    <a, a>1 |
+    <d a>1 |
+    e4. <e fis>4 <e g>4. |
+    <a, e>1 |
+    <a, a>1 |
+    <d a>1 |
+    <e~ b>8 <e a> <e b> <e cis'>4 <e~ b> <e a~>8 |
+\mymark "Chorus" #24
+    a1~ |
+    a1 |
+    d1 |
+    dis1 |
+    e1 |
+    <fis a>4. <e a> <d a>4~ |
+    <d a>8 <e a>4. <e, a>4 <e, gis> |
+    <a, e>1 |
+    <e, gis>1 |
+\mymark "Verse 2" #33
+    <a, e>1 |
+    <a, a>1 |
+    <d a>1 |
+    e4. <e fis>4 <e g>4. |
+    <a, e>1 |
+    <a, a>1 |
+    <d a>1 |
+    <e~ b>8 <e a> <e b> <e cis'>4 <e~ b> <e a~>8 |
+    a1~ |
+    a1 |
+    d1 |
+    dis1 |
+    e1 |
+    <fis a>4. <e a> <d a>4~ |
+    <d a>8 <e a>4. <e, a>4 <e, gis> |
+    <a, e>1 |
+\mymark "Lead Break" #49
+    <e, b,>4 <e, b,> |
+    r4. |
+    c4. |
+    g,4. |
+    fis,4. d,8 fis, |
+    <a, e>1 |
+    <e, b,>4 <e, b,> |
+    r4. |
+    c4. |
+    g,4. |
+    fis,4. d,8 fis, |
+    <a, e>1 |
+    <e, b,>4 <e, b,> |
+    r4. |
+    c8 e g |
+    g,8 b, d |
+    fis,8 a, d d, fis, |
+    <a, e>1 |
+    <e, b,>4 <e, b,> |
+    e,8 gis, b, |
+    c8 e g |
+    g,8 b, d |
+    fis,8 a, d d, fis, |
+    <a, e>1 |
+    <e, b,>4 <e, b,> |
+    e,8 gis, b, |
+    c8 e g |
+    g,8 b, d |
+    fis,8 a, d d, fis, |
+    <a, e>1 |
+    <e, b,>4 <e, b,> |
+    e,8 gis, b, |
+    c8 e g |
+    g,8 b, d |
+    fis,8 a, d d, fis, |
+    <a, e>1 |
+    gis2~ gis8 fis gis a~ |
+    a2~ a8 gis a b~ |
+    b2~ b8 a b d'~ |
+    d'2 e,4 e, |
+\mymark "Verse 3" #89
+    <a, e>1 |
+    <a, a>1 |
+    <d a>1 |
+    e4. <e fis>4 <e g>4. |
+    <a, e>1 |
+    <a, a>1 |
+    <d a>1 |
+    <e~ b>8 <e a> <e b> <e cis'>4 <e~ b> <e a~>8 |
+\mymark "Chorus" #97
+    a1~ |
+    a1 |
+    d1 |
+    dis1 |
+    e1 |
+    <fis a>4. <e a> <d a>4~ |
+    <d a>8 <e a>4. <e, a>4 <e, gis> |
+\mymark "Coda" #104
+    a1~ |
+    a1 |
+    d1 |
+    dis1 |
+    e1 |
+    <fis a>4. <e a> <d a>4~ |
+    <d a>8 <e a>4. <e, a>4 <e, gis> |
+    e1 |
+    <fis a>4. <e a> <d a>4~ |
+    <d a>8 <e a>4. <e, a>4 <e, gis> |
+    c1 |
+    r1 |
+}

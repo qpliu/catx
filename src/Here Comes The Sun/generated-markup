@@ -1,0 +1,155 @@
+markupStuff = {
+    \override Score.RehearsalMark.self-alignment-X = #LEFT
+    \key a \major
+    \tempo 4 = 132
+\mymark "Intro                          " #1
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+\mymark "Chorus" #9
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+\mymark "Verse 1" #16
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+\mymark "Chorus" #24
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+\mymark "Verse 2" #33
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    \time 2/4
+\mymark "Lead Break" #49
+    s2 |
+    \time 3/8
+    s4. |
+    s4. |
+    s4. |
+    \time 5/8
+    s2 s8 |
+    \time 4/4
+    s1 |
+    \time 2/4
+    s2 |
+    \time 3/8
+    s4. |
+    s4. |
+    s4. |
+    \time 5/8
+    s2 s8 |
+    \time 4/4
+    s1 |
+    \time 2/4
+    s2 |
+    \time 3/8
+    s4. |
+    s4. |
+    s4. |
+    \time 5/8
+    s2 s8 |
+    \time 4/4
+    s1 |
+    \time 2/4
+    s2 |
+    \time 3/8
+    s4. |
+    s4. |
+    s4. |
+    \time 5/8
+    s2 s8 |
+    \time 4/4
+    s1 |
+    \time 2/4
+    s2 |
+    \time 3/8
+    s4. |
+    s4. |
+    s4. |
+    \time 5/8
+    s2 s8 |
+    \time 4/4
+    s1 |
+    \time 2/4
+    s2 |
+    \time 3/8
+    s4. |
+    s4. |
+    s4. |
+    \time 5/8
+    s2 s8 |
+    \time 4/4
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+\mymark "Verse 3" #89
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+\mymark "Chorus" #97
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+\mymark "Coda" #104
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    s1 |
+    \tempo 4 = 120
+    s1 |
+    \tempo 4 = 105
+    s1 |
+    s1 |
+}

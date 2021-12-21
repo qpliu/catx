@@ -1,0 +1,126 @@
+midiOneA = {
+\mymark "Intro                          " #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #9
+    <cis' e'>1~ |
+    <cis' e'>1 |
+    <d' fis'>1 |
+    <dis' fis'>1 |
+    <cis'~ e'>1 |
+    <cis' d'>4. <cis' cis'> <cis' b>4~ |
+    <cis' b>8 cis'4. b4 gis |
+\mymark "Verse 1" #16
+    cis'1 |
+    <cis' e'>1 |
+    <d' fis'>1 |
+    <e' gis'>4. <d' fis'>4 e'4. |
+    cis'1 |
+    <cis' e'>1 |
+    <d' fis'>1 |
+    gis'8 fis' gis' a'4 gis' e'8~ |
+\mymark "Chorus" #24
+    <cis' e'~>1 |
+    e'1 |
+    <d' fis'>1 |
+    <dis' fis'>1 |
+    <cis' e'>1 |
+    d'4. cis' b4~ |
+    b8 cis'4. b4 gis |
+    <cis' a'>1 |
+    <b e'>1 |
+\mymark "Verse 2" #33
+    cis'1 |
+    <cis' e'>1 |
+    <d' fis'>1 |
+    <e' gis'>4. <d' fis'>4 e'4. |
+    cis'1 |
+    <cis' e'>1 |
+    <d' fis'>1 |
+    gis'8 fis' gis' a'4 gis' e'8~ |
+    <cis' e'~>1 |
+    e'1 |
+    <d' fis'>1 |
+    <dis' fis'>1 |
+    <cis' e'>1 |
+    d'4. cis' b4~ |
+    b8 cis'4. b4 gis |
+    <cis' a'>1 |
+\mymark "Lead Break" #49
+    <b gis'>4 <b gis'> |
+    r4. |
+    <e' g'>4. |
+    <d' g'>4. |
+    <d' fis'>4. <d' fis'>4 |
+    <cis' e'>1 |
+    <b gis'>4 <b gis'> |
+    r4. |
+    <e' g'>4. |
+    <d' g'>4. |
+    <d' fis'>4. <d' fis'>4 |
+    <cis' e'>1 |
+    <b gis'>4 <b gis'> |
+    r4. |
+    <e' g'>4. |
+    <d' g'>4. |
+    <d' fis'>4. <d' fis'>4 |
+    <cis' e'>1 |
+    <b gis'>4 <b gis'> |
+    r4. |
+    <e' g'>4. |
+    <d' g'>4. |
+    <d' fis'>4. <d' fis'>4 |
+    <cis' e'>1 |
+    <b gis'>4 <b gis'> |
+    r4. |
+    <e' g'>4. |
+    <d' g'>4. |
+    <d' fis'>4. <d' fis'>4 |
+    <cis' e'>1 |
+    <b gis'>4 <b gis'> |
+    r4. |
+    <e' g'>4. |
+    <d' g'>4. |
+    <d' fis'>4. <d' fis'>4 |
+    <cis' e'>1 |
+    <b e'>2~ <b e'>8 <b e'> <b e'> <b e'>~ |
+    <b e'>2~ <b e'>8 <b e'> <b e'> <b e'>~ |
+    <b e'>2~ <b e'>8 <b e'> <b e'> <b e'> |
+    <b e'>2 e'4 e' |
+\mymark "Verse 3" #89
+    cis'1 |
+    <cis' e'>1 |
+    <d' fis'>1 |
+    <e' gis'>4. <d' fis'>4 e'4. |
+    cis'1 |
+    <cis' e'>1 |
+    <d' fis'>1 |
+    gis'8 fis' gis' a'4 gis' e'8~ |
+\mymark "Chorus" #97
+    <cis' e'~>1 |
+    e'1 |
+    <d' fis'>1 |
+    <dis' fis'>1 |
+    <cis' e'>1 |
+    d'4. cis' b4~ |
+    b8 cis'4. b4 gis |
+\mymark "Coda" #104
+    <cis' e'>1~ |
+    <cis' e'>1 |
+    <d' fis'>1 |
+    <dis' fis'>1 |
+    <cis' e'>1 |
+    d'4. cis' b4~ |
+    b8 cis'4. b4 gis |
+    <cis' e'>1 |
+    d'4. cis' b4~ |
+    b8 cis'4. b4 gis |
+    a1 |
+    r1 |
+}

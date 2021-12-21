@@ -1,0 +1,126 @@
+midiOne = {
+\mymark "Intro                          " #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r4 cis''8 a' b' cis''4 a'8~ |
+    a'4 cis''8 b'4 a' fis'8~ |
+    fis'8 cis''4 b' a' gis'8 |
+    gis'1\glissando |
+\mymark "Chorus" #9
+    e'1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #16
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #24
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    fis4. e d4~ |
+    d8 e4. e,4 e, |
+    r1 |
+    r1 |
+\mymark "Verse 2" #33
+    r4 cis''8 a' b' cis''4 a'8~ |
+    a'4 cis''8 b'4 a' fis'8~ |
+    fis'8 a'4 b' a' fis'8 |
+    gis'8 fis' gis' a'4 b'4. |
+    a'4 cis''8 a' b' cis''4 a'8~ |
+    a'4 cis''8 b'4 a' fis'8~ |
+    fis'8 cis''4. b'4 a'8 gis'~ |
+    gis'2 r |
+    r1 |
+    r4 <cis' e' a' cis''>8 <cis' e' a'> <cis' e' a' b'> <cis'~ e'~ a'~ cis''>4 <cis' e' a' fis'>8 |
+    <d' fis' a'>1 |
+    <b~ dis'~ a'>4. <b~ dis'~ gis'> <b dis' fis'>4 |
+    e'1 |
+    fis4. e d4~ |
+    d8 e4. e,4 e, |
+    r1 |
+\mymark "Lead Break" #49
+    r2 |
+    r4. |
+    r4. |
+    r4. |
+    r2 r8 |
+    r1 |
+    r2 |
+    r4. |
+    r4. |
+    r4. |
+    r2 r8 |
+    r1 |
+    r2 |
+    e,8 gis, b, |
+    c8 e g |
+    g,8 b, d |
+    fis,8 a, d d fis, |
+    a,1 |
+    r2 |
+    e8 gis b |
+    c'8 e' g' |
+    g8 b d' |
+    fis8 a d' d fis |
+    a1 |
+    r2 |
+    e'8 gis' b' |
+    c''8 e'' g'' |
+    g'8 b' d'' |
+    fis'8 a' d'' d' fis' |
+    a'1 |
+    r2 |
+    e''8 gis'' b'' |
+    c'''8 e''' g''' |
+    g''8 b'' d''' |
+    fis''8 a'' d''' d'' fis'' |
+    a''1 |
+    <e' gis'>2~ <e' gis'>8 <e' fis'> <e' gis'> <e' a'>~ |
+    <e' a'>2~ <e' a'>8 <e' gis'> <e' a'> <e' b'>~ |
+    <e' b'>2~ <e' b'>8 <e' a'> <e' b'> <e' d''>~ |
+    <e' d''>2. r4 |
+\mymark "Verse 3" #89
+    cis''2 b'8 cis''4 e''8~ |
+    e''2~ e''8 fis''4 cis''8~ |
+    cis''2 b'8 a'4 gis'8~ |
+    gis'8 fis' gis' a'4 b' b'8 |
+    cis''2 b'8 cis''4 e''8~ |
+    e''2~ e''8 fis''4 cis''8~ |
+    cis''2 b'8 a'4 gis'8~ |
+    gis'8 fis' gis' a'4 b' a'8~ |
+\mymark "Chorus" #97
+    a'1 |
+    r4 <cis' e' a' cis''>8 <cis' e' a'> <cis' e' a' b'> <cis'~ e'~ a'~ cis''>4 <cis' e' a' fis'>8 |
+    <d' fis' a'>1 |
+    <b~ dis'~ a'>4. <b~ dis'~ gis'> <b dis' fis'>4 |
+    e'1 |
+    fis'4. e' d'4~ |
+    d'8 e'4. b4 e' |
+\mymark "Coda" #104
+    cis''2 b'8 cis''4 e''8~ |
+    e''2~ e''8 fis''4 cis''8~ |
+    cis''2 b'8 cis''4 a'8~ |
+    a'4. gis' fis'4 |
+    e'1 |
+    a'4. gis' fis'4~ |
+    fis'8 e'4. b4 e' |
+    a'1 |
+    a'4. gis' fis'4~ |
+    fis'8 e'4. b4 e' |
+    a1~ |
+    a1 |
+}

@@ -1,0 +1,127 @@
+steelpan = {
+    \myVocalsStuff
+\mymark "Intro                          " #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r4 cis''8 a' b' cis''4 a'8~ |
+    a'4 cis''8 b'4 a' fis'8~ |
+    fis'8 cis''4 b' a' gis'8 |
+    gis'1\glissando |
+\mymark "Chorus" #9
+    e'1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #16
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #24
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    fis'4. e' d'4~ |
+    d'8 e'4. r2 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #33
+    r4 cis''8 a' b' cis''4 a'8~ |
+    a'4 cis''8 b'4 a' fis'8~ |
+    fis'8 a'4 b' a' fis'8 |
+    gis'8 fis' gis' a'4 b'4. |
+    a'4 cis''8 a' b' cis''4 a'8~ |
+    a'4 cis''8 b'4 a' fis'8~ |
+    fis'8 cis''4. b'4 a'8 gis'~ |
+    gis'2 r |
+    r1 |
+    r4 cis''8 a' b' cis''4 r8 |
+    a'1 |
+    a'4. gis' fis'4 |
+    e'1 |
+    fis'4. e' d'4~ |
+    d'8 e'4. r2 |
+    r1 |
+\mymark "Lead Break" #49
+    r2 |
+    r4. |
+    r4. |
+    r4. |
+    r2 r8 |
+    r1 |
+    r2 |
+    r4. |
+    r4. |
+    r4. |
+    r2 r8 |
+    r1 |
+    r2 |
+    e'8 gis' b' |
+    c''8 e'' g'' |
+    g'8 b' d'' |
+    fis'8 a' d'' d' fis' |
+    a'1 |
+    r2 |
+    e'8 gis' b' |
+    c''8 e'' g'' |
+    g'8 b' d'' |
+    fis'8 a' d'' d' fis' |
+    a'1 |
+    r2 |
+    e'8 gis' b' |
+    c''8 e'' g'' |
+    g'8 b' d'' |
+    fis'8 a' d'' d' fis' |
+    a'1 |
+    r2 |
+    e'8 gis' b' |
+    c''8 e'' g'' |
+    g'8 b' d'' |
+    fis'8 a' d'' d' fis' |
+    a'1 |
+    gis'2~ gis'8 fis' gis' a'~ |
+    a'2~ a'8 gis' a' b'~ |
+    b'2~ b'8 a' b' d''~ |
+    d''2. r4 |
+\mymark "Verse 3" #89
+    cis''2 b'8 cis''4 e''8~ |
+    e''2~ e''8 fis''4 cis''8~ |
+    cis''2 b'8 a'4 gis'8~ |
+    gis'8 fis' gis' a'4 b' b'8 |
+    cis''2 b'8 cis''4 e''8~ |
+    e''2~ e''8 fis''4 cis''8~ |
+    cis''2 b'8 a'4 gis'8~ |
+    gis'8 fis' gis' a'4 b' a'8~ |
+\mymark "Chorus" #97
+    a'1 |
+    r4 cis''8 a' b' cis''4 fis'8 |
+    a'1 |
+    a'4. gis' fis'4 |
+    e'1 |
+    fis'4. e' d'4~ |
+    d'8 e'4. b'4 e' |
+\mymark "Coda" #104
+    cis''2 b'8 cis''4 e''8~ |
+    e''2~ e''8 fis''4 cis''8~ |
+    cis''2 b'8 cis''4 a'8~ |
+    a'4. gis' fis'4 |
+    e'1 |
+    a'4. gis' fis'4~ |
+    fis'8 e'4. b'4 e' |
+    a'1 |
+    a'4. gis' fis'4~ |
+    fis'8 e'4. b'4 e' |
+    a'1~ |
+    a'1 |
+}
