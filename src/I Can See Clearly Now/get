@@ -3,7 +3,7 @@
 # https://d12drcwhcokzqv.cloudfront.net/15418362.gp5
 java -jar ../../guitarproToLy/1.jar < song.gp5 \
 markup-extra 0 '\key d \major' \
-track 2 preset kav output-lilypond output-lyrics \
+track 2 preset kav output-lilypond output-lyrics which-lyrics text \
 track 4 preset midiOne output-lilypond \
 track 5 preset bass output-lilypond \
 track 6 preset susan output-lilypond \
