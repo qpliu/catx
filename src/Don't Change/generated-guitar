@@ -1,0 +1,162 @@
+guitar = {
+    r1 |
+    <a\5 a'\3~>1 |
+    a'2.\3 <e\5 e'\3>4\glissando |
+    <fis\5 fis'\3~>1 |
+    fis'2.\3 <cis\5 cis'\3>4\glissando |
+    <e\5 e'\3~>1 |
+    e'2.\3 <b,\5 b\3>4\glissando |
+    <cis\5 cis'\3>1~ |
+    <cis\5 cis'\3>1 |
+    <a\5 a'\3~>1 |
+    a'2.\3 <e\5 e'\3>4\glissando |
+    <fis\5 fis'\3~>1 |
+    fis'2.\3 <cis\5 cis'\3>4\glissando |
+    <e\5 e'\3~>1 |
+    e'2.\3 <b,\5 b\3>4\glissando |
+    <cis\5 cis'\3>1~ |
+    <cis\5 cis'\3>1 |
+    <a,\5 e\4 a\3>1~ |
+    <a,\5 e\4 a\3>1 |
+    <a,\5 e\4 a\3>2.~ <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> |
+    <a,\5 e\4 a\3>2 gis,4.\6 <gis,\6 dis\5 gis\4>8 |
+    <fis,\6 cis\5 fis\4>1~ |
+    <fis,\6 cis\5 fis\4>1~ |
+    <fis,\6 cis\5 fis\4>1 |
+    <fis,\6 cis\5>8 <fis,\6 cis\5> <fis,\6 cis\5> <fis,\6 cis\5> <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> |
+    <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
+    <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
+    <a,\5 e\4 a\3>4. <a,\5 e\4 a\3> <a,\5 e\4 a\3>4 |
+    <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> <a,\5 e\4 a\3> <a,\5 e\4 a\3> <a,\5 e\4 a\3> <a,\5 e\4 a\3> <a,\5 e\4 a\3> <a,\5 e\4 a\3> |
+    <a,\5 e\4 a\3>1~ |
+    <a,\5 e\4 a\3>1 |
+    <a,\5 e\4 a\3>2.~ <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> |
+    <a,\5 e\4 a\3>2 gis,4.\6 <gis,\6 dis\5 gis\4>8 |
+    <fis,\6 cis\5 fis\4>1~ |
+    <fis,\6 cis\5 fis\4>1~ |
+    <fis,\6 cis\5 fis\4>1 |
+    b'8\2 cis''2.\2~ cis''8\2 |
+    <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
+    <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
+    <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
+    <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
+    a'4.\2 cis''\1 e'4\3 |
+    a'4.\2 cis''\1 e'4\3 |
+    <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
+    <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
+    <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
+    <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
+    <a\5 a'\3~>1 |
+    a'2.\3 <e\5 e'\3>4\glissando |
+    <fis\5 fis'\3~>1 |
+    fis'2.\3 <cis\5 cis'\3>4\glissando |
+    <e\5 e'\3~>1 |
+    e'2.\3 <b,\5 b\3>4\glissando |
+    <cis\5 cis'\3>1~ |
+    <cis\5 cis'\3>1 |
+    <a,\5 e\4 a\3>1~ |
+    <a,\5 e\4 a\3>1 |
+    <a,\5 e\4 a\3>2.~ <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> |
+    <a,\5 e\4 a\3>2 gis,4.\6 <gis,\6 dis\5 gis\4>8 |
+    <fis,\6 cis\5 fis\4>1~ |
+    <fis,\6 cis\5 fis\4>1~ |
+    <fis,\6 cis\5 fis\4>1 |
+    b'8\2 cis''2.\2~ cis''8\2 |
+    <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
+    <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
+    <a,\5 e\4 a\3>4. <a,\5 e\4 a\3> <a,\5 e\4 a\3>4 |
+    <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> <a,\5 e\4 a\3> <a,\5 e\4 a\3> <a,\5 e\4 a\3> <a,\5 e\4 a\3> <a,\5 e\4 a\3> <a,\5 e\4 a\3> |
+    <a,\5 e\4 a\3>1~ |
+    <a,\5 e\4 a\3>1 |
+    <a,\5 e\4 a\3>2.~ <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> |
+    <a,\5 e\4 a\3>2 gis,4.\6 <gis,\6 dis\5 gis\4>8 |
+    <fis,\6 cis\5 fis\4>1~ |
+    <fis,\6 cis\5 fis\4>1~ |
+    <fis,\6 cis\5 fis\4>1 |
+    b'8\2 cis''2.\2~ cis''8\2 |
+    <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
+    <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
+    <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
+    <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
+    a'4.\2 cis''\1 e'4\3 |
+    a'4.\2 cis''\1 e'4\3 |
+    <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
+    <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
+    <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
+    <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
+    a'1\3~ |
+    a'2.\3 e'4\3\glissando |
+    fis'1\3~ |
+    fis'2.\3 cis'4\3\glissando |
+    e'1\3~ |
+    e'2.\3 b4\4\glissando |
+    cis'1\4~ |
+    cis'1\4 |
+    <a\5 a'\3~>1 |
+    a'2.\3 <e\5 e'\3>4\glissando |
+    <fis\5 fis'\3~>1 |
+    fis'2.\3 <cis\5 cis'\3>4\glissando |
+    <e\5 e'\3~>1 |
+    e'2.\3 <b,\5 b\3>4\glissando |
+    <cis\5 cis'\3>1~ |
+    <cis\5 cis'\3>1 |
+    <a,\5 e\4 a\3>1~ |
+    <a,\5 e\4 a\3>1 |
+    <a,\5 e\4 a\3>2.~ <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> |
+    <a,\5 e\4 a\3>2 gis,4.\6 <gis,\6 dis\5 gis\4>8 |
+    <fis,\6 cis\5 fis\4>1~ |
+    <fis,\6 cis\5 fis\4>1~ |
+    <fis,\6 cis\5 fis\4>1 |
+    b'8\2 cis''2.\2~ cis''8\2 |
+    <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
+    <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
+    <a,\5 e\4 a\3>4. <a,\5 e\4 a\3> <a,\5 e\4 a\3>4 |
+    <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> <a,\5 e\4 a\3> <a,\5 e\4 a\3> <a,\5 e\4 a\3> <a,\5 e\4 a\3> <a,\5 e\4 a\3> <a,\5 e\4 a\3> |
+    <a,\5 e\4 a\3>1~ |
+    <a,\5 e\4 a\3>1 |
+    <a,\5 e\4 a\3>2.~ <a,\5 e\4 a\3>8 <a,\5 e\4 a\3> |
+    <a,\5 e\4 a\3>2 gis,4.\6 <gis,\6 dis\5 gis\4>8 |
+    <fis,\6 cis\5 fis\4>1~ |
+    <fis,\6 cis\5 fis\4>1~ |
+    <fis,\6 cis\5 fis\4>1 |
+    b'8\2 cis''2.\2~ cis''8\2 |
+    <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
+    <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
+    <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
+    <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
+    a'4.\2 cis''\1 e'4\3 |
+    a'4.\2 cis''\1 e'4\3 |
+    <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
+    <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
+    <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
+    <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
+    a'4.\2 cis''\1 e'4\3 |
+    a'4.\2 cis''\1 e'4\3 |
+    <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
+    <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
+    <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
+    <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
+    <a\5 a'\3~>1 |
+    a'2.\3 <e\5 e'\3>4\glissando |
+    <fis\5 fis'\3~>1 |
+    fis'2.\3 <cis\5 cis'\3>4\glissando |
+    <e\5 e'\3~>1 |
+    e'2.\3 <b,\5 b\3>4\glissando |
+    <cis\5 cis'\3>1~ |
+    <cis\5 cis'\3>1 |
+    <fis\5 cis'\4 fis'\3>8 <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> |
+    <fis\5 cis'\4 fis'\3>8 <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> |
+    <e\5 b\4>8 <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> |
+    <e\5 b\4>8 <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> |
+    <cis\5 gis\4>8\glissando <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> |
+    <cis\5 gis\4>8\glissando <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> |
+    <fis\5 cis'\4 fis'\3>8 <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> |
+    <fis\5 cis'\4 fis'\3>8 <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> |
+    <e\5 b\4>8 <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> |
+    <e\5 b\4>8 <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> |
+    <cis\5 gis\4>8\glissando <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> |
+    <cis\5 gis\4>8\glissando <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> |
+    <cis\5 gis\4>8\glissando <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> |
+    <cis\5 gis\4>8\glissando <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> |
+    <a,\5 e\4 a\3>1 |
+}
