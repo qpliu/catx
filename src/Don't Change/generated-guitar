@@ -40,8 +40,8 @@ guitar = {
     <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
     <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
     <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
-    a'4.\2 cis''\1 e'4\3 |
-    a'4.\2 cis''\1 e'4\3 |
+    a'4.\2 cis''\1 fis'4\3 |
+    a'4.\2 cis''\1 fis'4\3 |
     <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
     <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
     <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
@@ -78,8 +78,8 @@ guitar = {
     <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
     <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
     <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
-    a'4.\2 cis''\1 e'4\3 |
-    a'4.\2 cis''\1 e'4\3 |
+    a'4.\2 cis''\1 fis'4\3 |
+    a'4.\2 cis''\1 fis'4\3 |
     <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
     <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
     <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
@@ -124,14 +124,14 @@ guitar = {
     <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
     <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
     <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
-    a'4.\2 cis''\1 e'4\3 |
-    a'4.\2 cis''\1 e'4\3 |
+    a'4.\2 cis''\1 fis'4\3 |
+    a'4.\2 cis''\1 fis'4\3 |
     <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
     <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
     <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
     <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
-    a'4.\2 cis''\1 e'4\3 |
-    a'4.\2 cis''\1 e'4\3 |
+    a'4.\2 cis''\1 fis'4\3 |
+    a'4.\2 cis''\1 fis'4\3 |
     <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
     <d\5 a\4 d'\3>4. <d\5 a\4 d'\3> <d\5 a\4 d'\3>4 |
     <b,\5 fis\4 b\3>4. <b,\5 fis\4 b\3> <b,\5 fis\4 b\3>4 |
@@ -148,15 +148,15 @@ guitar = {
     <fis\5 cis'\4 fis'\3>8 <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> |
     <e\5 b\4>8 <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> |
     <e\5 b\4>8 <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> |
-    <cis\5 gis\4>8\glissando <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> |
-    <cis\5 gis\4>8\glissando <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> |
+    <d\5 a\4>8 <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> |
+    <d\5 a\4>8 <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> |
     <fis\5 cis'\4 fis'\3>8 <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> |
     <fis\5 cis'\4 fis'\3>8 <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> <fis\5 cis'\4 fis'\3> |
     <e\5 b\4>8 <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> |
     <e\5 b\4>8 <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> <e\5 b\4> |
-    <cis\5 gis\4>8\glissando <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> |
-    <cis\5 gis\4>8\glissando <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> |
-    <cis\5 gis\4>8\glissando <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> |
-    <cis\5 gis\4>8\glissando <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> |
+    <d\5 a\4>8 <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> |
+    <d\5 a\4>8 <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> |
+    <d\5 a\4>8 <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> |
+    <d\5 a\4>8 <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> <d\5 a\4> |
     <a,\5 e\4 a\3>1 |
 }

@@ -6,10 +6,10 @@
 \include "generated-markup"
 \include "generated-vocals"
 \include "generated-vocals_lyrics"
-\include "generated-steelpan"
 \include "generated-guitar"
 \include "generated-bass"
 \include "generated-drs"
+\include "generated-steelpan"
 
 layoutmusic = <<
     \tag #'(allPart kavPart) \new Staff \with {
@@ -20,14 +20,6 @@ layoutmusic = <<
         \vocals
     >>
     \tag #'(allPart kavPart) \vocalsLyrics
-    \tag #'(allPart susanPart) \new Staff \with {
-        instrumentName = \markup { \rotate #90 "Steelpan" }
-        shortInstrumentName = \markup { \rotate #90 "Sp" }
-    } <<
-        \markupStuff
-        \steelpan
-        \clef "treble_8"
-    >>
     \tag #'(allPart peterPart) \new Staff \with {
         instrumentName = \markup { \rotate #90 "Guitar" }
         shortInstrumentName = \markup { \rotate #90 "Gtr" }
@@ -60,6 +52,13 @@ layoutmusic = <<
         \markupStuff
         \drs
     >>
+    \tag #'(allPart susanPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Steelpan" }
+        shortInstrumentName = \markup { \rotate #90 "Sp" }
+    } <<
+        \markupStuff
+        \steelpan
+    >>
 >>
 
 midimusic = <<
@@ -67,9 +66,6 @@ midimusic = <<
     \tag #'(midiKaraoke) \new Staff = "generated-vocals" \with {
         midiInstrument = #"synth voice"
     } \vocals
-    \tag #'(midiSusan) \new Staff = "generated-steelpan" \with {
-        midiInstrument = #"lead 2 (sawtooth)"
-    } \steelpan
     \tag #'(midiPeter) \new Staff = "generated-guitar" \with {
         midiInstrument = #"overdriven guitar"
     } \guitar
@@ -79,4 +75,7 @@ midimusic = <<
     \tag #'(midiGg) \new DrumStaff = "generated-drs" \with {
         drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drs
+    \tag #'(midiSusan) \new Staff = "generated-steelpan" \with {
+        midiInstrument = #"steel drums"
+    } \steelpan
 >>
