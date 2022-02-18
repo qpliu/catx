@@ -1,0 +1,113 @@
+steelpan = {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \tripletFeel 8  {
+        r1 |
+        gis'1 |
+        gis'2 a' |
+        gis'1~ |
+        gis'2 a' |
+        gis'1~ |
+        gis'2 a' |
+        gis'2. a'4 |
+        gis'2 a' |
+\mymark "Verse 1" #10
+        gis'2 fis' |
+        e'1 |
+        gis'2 fis' |
+        e'1 |
+        gis'2 fis' |
+        e'1 |
+        fis'4 gis' fis' gis' |
+        a'4 gis' fis'2 |
+\mymark "Chorus" #18
+        gis'2 fis' |
+        e'1 |
+        gis'2 fis' |
+        e'1 |
+        gis'2 fis' |
+        e'1 |
+        fis'4 gis' fis' gis' |
+        a'4 gis' fis'2 |
+\mymark "Interlude" #26
+        gis'2.~ gis'8 fis' |
+        e'1 |
+        gis'2 fis' |
+        e'1 |
+\mymark "Verse 2" #30
+        gis'2 fis' |
+        e'1 |
+        gis'2 fis' |
+        e'1 |
+        gis'2 fis' |
+        e'1 |
+        fis'4 gis' fis' gis' |
+        a'4 gis' fis'2 |
+\mymark "Chorus" #38
+        gis'2 fis' |
+        e'1 |
+        gis'2 fis' |
+        e'1 |
+        gis'2 fis' |
+        e'1 |
+        fis'4 gis' fis' gis' |
+        a'4 gis' fis'2 |
+\mymark "Pre-solo" #46
+        fis'4 gis' fis' gis' |
+        a'4 gis' fis'2 |
+\mymark "Guitar Solo" #48
+        gis'2 a' |
+        a'1 |
+        gis'2 a' |
+        a'1 |
+        gis'2 a' |
+        a'1 |
+        fis'4 gis' fis' gis' |
+        a'4 gis' fis'2 |
+        fis'4 gis' fis' gis' |
+        a'4 gis' fis'2 |
+\mymark "Verse 3" #58
+        gis'2 fis' |
+        e'1 |
+        gis'2 fis' |
+        e'1 |
+        gis'2 fis' |
+        e'1 |
+        fis'4 gis' fis' gis' |
+        a'4 gis' fis'2 |
+\mymark "Chorus" #66
+        gis'2 fis' |
+        e'1 |
+        gis'2 fis' |
+        e'1 |
+        gis'2 fis' |
+        e'1 |
+        fis'4 gis' fis' gis' |
+        a'4 gis' fis'2 |
+        gis'2 fis' |
+        e'1 |
+        gis'2 fis' |
+        e'1 |
+        gis'2 fis' |
+        e'1 |
+        fis'4 gis' fis' gis' |
+        a'4 gis' fis'2 |
+\mymark "Outro" #82
+        b'2 fis' |
+        a'4 gis' fis' e' |
+        gis'2 fis' |
+        a'1 |
+        b'2 b' |
+        a'2 gis'4 fis' |
+        gis'2 fis' |
+        a'1 |
+        b'2 fis' |
+        a'4 gis' fis' e' |
+        gis'2 fis' |
+        a'1 |
+        b'2 b' |
+        a'2 gis'4 fis' |
+        gis'2 fis' |
+        e'1 |
+    }
+}

@@ -1,0 +1,112 @@
+guitar = {
+\mymark "Intro" #1
+    \tripletFeel 8  {
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r2 \tuplet 3/2 { e8\5 e\5 e\5 e\5 e\5 e\5 } |
+        e1\5~ |
+        e2.\5 g,8\6\bendAfter #6 ^"½" e\5~ |
+\mymark "Verse 1" #10
+        e1\5 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+\mymark "Chorus" #18
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+\mymark "Interlude" #26
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+\mymark "Verse 2" #30
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+\mymark "Chorus" #38
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+\mymark "Pre-solo" #46
+        r1 |
+        r1 |
+\mymark "Guitar Solo" #48
+        r4 \tuplet 3/2 { a'8\2\bendAfter #6 ^"full" g'16\2 } a'8\2 a'4\2\bendAfter #6 ^"full" \tuplet 3/2 { a'8\2 g'\2 e'\3 } |
+        e'2\3~ e'8\3 r4. |
+        r4 \tuplet 3/2 { e'8\3 g'\2 a'\2 a'2\2~ a'8\2\bendAfter #6 ^"full" \deadNote dis'\3 } |
+        e''2\1 \deadNote b8\2 \deadNote b\2 \tuplet 3/2 { d''8\2( e''\2) e''\2 } |
+        e''4\2 e''8\2 d''\2 e''4\2 g''8\1 e''\2 |
+        a''8\1 g''\1 e''4\2 e''\2 \tuplet 3/2 { e''8\2 g''\1 a''\1 } |
+        a''4\1\bendAfter #6 ^"full" a''\1\bendAfter #6 ^"full" a''\1\bendAfter #6 ^"full" a''\1\bendAfter #6 ^"full" |
+        a''4\1\bendAfter #6 ^"full" a''\1\bendAfter #6 ^"full" a''\1\bendAfter #6 ^"full" \tuplet 3/2 { a''8\1\bendAfter #6 ^"full" a''\1\bendAfter #6 ^"full" a''\1\bendAfter #6 ^"full" } |
+        \tuplet 3/2 { a''8\1\bendAfter #6 ^"full" a''\1\bendAfter #6 ^"full" a''\1\bendAfter #6 ^"full" a''\1\bendAfter #6 ^"full" a''\1\bendAfter #6 ^"full" a''\1\bendAfter #6 ^"full" a''\1\bendAfter #6 ^"full" a''\1\bendAfter #6 ^"full" a''\1\bendAfter #6 ^"full" a''\1( gis''\1) a''\1 } |
+        a''8\1( b''\1 \tuplet 3/2 { a''8\1) g''\1 a''\1 } a''8\1\bendAfter #6 ^"full" \tuplet 3/2 { gis''4\1~ gis''16\1 gis''4\1 } |
+\mymark "Verse 3" #58
+        <b'\3 e''\2>4.\glissando <\deadNote c'\3 \deadNote e'\2>8 r2 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+\mymark "Chorus" #66
+        r1 |
+        r1 |
+        r1 |
+        r2 d''\2\bendAfter #6 ^"full" |
+        d''4\2\bendAfter #6 ^"full" r2. |
+        r1 |
+        r1 |
+        r1 |
+        e'8\2 e'\2 e'\2 e'\2 e'\2 e'\2 e'\2 e'\2 |
+        \tuplet 3/2 { b8\3( cis'\3) e'\2 } e'8\2 e'\2 e'4\2 cis'8\3( b\3) |
+        <b\2 e'\1>2. <b\2 e'\1>8 <b\2 e'\1> |
+        <a,\5 a\3>4 <a,\5 a\3> r <a\3 b\2 e'\1>8 <gis\3 b\2 e'\1>~ |
+        <gis\3 b\2 e'\1>2. <gis\3 b\2 e'\1>8 <a\3 b\2 e'\1>~ |
+        <a\3 b\2 e'\1>4 <a\3 b\2 e'\1> <a\3 b\2 e'\1>8 <a\3 b\2 e'\1> <a\3 b\2 e'\1>4 |
+        <b\3 dis'\2>4 <b\3 dis'\2> <b\3 dis'\2>8 <b\3 cis'\2> <b\3 b\2> <b\3 b\2> |
+        <b\3 b\2>4 <b\3 b\2> <b\3 cis'\2> <b\3 dis'\2> |
+\mymark "Outro" #82
+        <b\3 e'\2>4 <b\3 dis'\2> <e\4 a\3> <e\4 a\3>8 <a,\5 e\4> |
+        <a,\5 e\4>4 <a,\5 e\4> <a,\5 e\4> <a,\5 e\4>8 b\3 |
+        <b\3 e'\2 gis'\1>4 <b\3 e'\2 gis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> |
+        <a,\5 e\4 a\3>4 <a,\5 e\4 a\3> <a,\5 e\4 a\3> <a,\5 e\4 a\3> |
+        <b\3 e'\2 gis'\1>4 <b\3 e'\2 gis'\1>8\glissando <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1>4 <a\3 d'\2>8 <a,\5 e\4 a\3>~ |
+        <a,\5 e\4 a\3>1 |
+        <b\3 e'\2 gis'\1>4 <b\3 e'\2 gis'\1>8\glissando <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1>4 <a\3 d'\2>8 <a,\5 e\4 a\3>~ |
+        <a,\5 e\4 a\3>2 cis8\5 e\4 \tuplet 3/2 { fis8\4 e\4 cis\5 } |
+        <b\3 e'\2 gis'\1>4 <b\3 e'\2 gis'\1>8\glissando <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1>4 <a\3 d'\2>8 <a,\5 e\4 a\3>~ |
+        <a,\5 e\4 a\3>4 <a,\5 e\4 a\3 cis'\2 a'\1>2. |
+        <b\3 e'\2 gis'\1>4 <b\3 e'\2 gis'\1>8\glissando <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1>4 <a\3 d'\2>8 <a,\5 e\4 a\3>~ |
+        <a,\5 e\4 a\3>4 <a,\5 e\4 a\3 cis'\2 a'\1>4. <a,\5 e\4 a\3 cis'\2 a'\1>8 <e'\2 a'\1>\glissando <\deadNote b\2 \deadNote e'\1> |
+        <b\3 e'\2 gis'\1>4 <b\3 e'\2 gis'\1>8\glissando <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1>4 <a\3 d'\2>8 <a,\5 e\4 a\3>~ |
+        <a,\5 e\4 a\3>4 <a,\5 e\4 a\3 cis'\2 a'\1>4. <a,\5 e\4 a\3 cis'\2 a'\1>8 <e'\2 a'\1>\glissando <\deadNote b\2 \deadNote e'\1> |
+        <b\3 e'\2 gis'\1>4 <b\3 e'\2 gis'\1>8\glissando <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1>4 <a\3 d'\2>8 <a,\5 e\4 a\3> |
+        <e,\6 b,\5 e\4 gis\3 b\2 e'\1>1 |
+    }
+}

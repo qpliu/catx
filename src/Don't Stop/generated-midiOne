@@ -1,0 +1,112 @@
+midiOne = {
+\mymark "Intro" #1
+    \tripletFeel 8  {
+        r1 |
+        <e, gis b e' gis'>4. <a cis' e'>2~ <b, a cis' e'>8 |
+        <e~ b e' gis'>4. <e cis'~ e'~ a'~>8 <cis' e' a'>~ <e cis' e' a'> \tuplet 3/2 { <cis' e' a'>8 gis' fis' } |
+        <e, gis b e' gis'>4. <a cis' e'>2~ <b, a cis' e'>8 |
+        <e~ b e' gis'>4. <e cis'~ e'~ a'~>8 <cis' e' a'>~ <e cis' e' a'> \tuplet 3/2 { <cis' e' a'>8 gis' fis' } |
+        <e, gis b e' gis'>4. <a cis' e'>2~ <b, a cis' e'>8 |
+        <e~ b e' gis'>4. <e cis'~ e'~ a'~>8 <cis' e' a'>~ <e cis' e' a'> \tuplet 3/2 { <cis' e' a'>8 gis' fis' } |
+        <e, gis b e' gis'>4. <a cis' e'>2~ <b, a cis' e'>8 |
+        <e~ b e' gis'>4. <e cis'~ e'~ a'~>8 <cis' e' a'>~ <e cis' e' a'> \tuplet 3/2 { <cis' e' a'>8 gis' fis' } |
+\mymark "Verse 1" #10
+        <e, gis~ b~ e'~>8 <e, gis~ b~ e'~> \tuplet 3/2 { <e,~ cis~ gis b e'>8 <e, cis b~ e'~ gis'~> <e, cis b e' gis'> } <d a d' fis'>8 d \tuplet 3/2 { d8~ <d a d' fis'> d } |
+        <a, e a cis'>8 <e a cis'> <fis a d'> <fis a d'> <a, e a cis'> <e a cis'> <a, fis a d'> <fis a d'> |
+        <e, gis~ b~ e'~>8 <e, gis~ b~ e'~> \tuplet 3/2 { <e,~ cis~ gis b e'>8 <e, cis b~ e'~ gis'~> <e, cis b e' gis'> } <d a d' fis'>8 d \tuplet 3/2 { d8~ <d a d' fis'> d } |
+        <a, e a cis'>8 <e a cis'> <fis a d'> <fis a d'> <a, e a cis'> <e a cis'> <a, fis a d'> <fis a d'> |
+        <e, gis~ b~ e'~>8 <e, gis~ b~ e'~> \tuplet 3/2 { <e,~ cis~ gis b e'>8 <e, cis b~ e'~ gis'~> <e, cis b e' gis'> } <d a d' fis'>8 d \tuplet 3/2 { d8~ <d a d' fis'> d } |
+        <a, e a cis'>8 <e a cis'> <fis a d'> <fis a d'> <a, e a cis'> <e a cis'> <a, fis a d'> <fis a d'> |
+        <b, e>8 <b, e a dis' fis'> <b, gis b e' gis'>4 <b, a cis' fis' a'> <b, e b e' gis'>8 <b, e~ a~ dis' fis'~> |
+        <b, e a dis' fis'>8 b, <b, b e' gis'> b, <b, b dis' fis'> b, <b, b e' gis'> b, |
+\mymark "Chorus" #18
+        <e, e b~ e'~ gis'~>8 <e, e b e' gis'> <e, e b e' gis'> <e, e a~ d'~ fis'~>4 <e, e a d' fis'>8 <e, e a~ d'~ fis'~> <e, e a d' fis'> |
+        <a, e a~ cis'~ e'>8 <a, e a cis'> <a, fis a d' e'> <a, fis a d' e'> <a, e a cis' e'> <a, e a cis' e'> <a, fis a d' e'> <a, fis a d' e'> |
+        <e, e b~ e'~ gis'~>8 <e, e b e' gis'> <e, e b e' gis'> <e, e a~ d'~ fis'~>4 <e, e a d' fis'>8 <e, e a~ d'~ fis'~> <e, e a d' fis'> |
+        <a, e a~ cis'~ e'>8 <a, e a cis'> <a, fis a d' e'> <a, fis a d' e'> <a, e a cis' e'> <a, e a cis' e'> <a, fis a d' e'> <a, fis a d' e'> |
+        <e, e b~ e'~ gis'~>8 <e, e b e' gis'> <e, e b e' gis'> <e, e a~ d'~ fis'~>4 <e, e a d' fis'>8 <e, e a~ d'~ fis'~> <e, e a d' fis'> |
+        <a, e a~ cis'~ e'>8 <a, e a cis'> <a, fis a d' e'> <a, fis a d' e'> <a, e a cis' e'> <a, e a cis' e'> <a, fis a d' e'> <a, fis a d' e'> |
+        <b, e>8 <b, e a dis' fis'> <b, gis b e' gis'>4 <b, a cis' fis' a'> <b, e b e' gis'>8 <b, e~ a~ dis' fis'~> |
+        <b, e a dis' fis'>8 b, <b, b e' gis'> b, <b, b dis' fis'> b, <b, b e' gis'> b, |
+\mymark "Interlude" #26
+        <e, e b~ e'~ gis'~>8 <e, e b e' gis'> <e, e b e' gis'> <e, e a~ d'~ fis'~>4 <e, e a d' fis'>8 <e, e a~ d'~ fis'~> <e, e a d' fis'> |
+        <a, e a~ cis'~ e'>8 <a, e a cis'> <a, fis a d' e'> <a, fis a d' e'> <a, e a cis' e'> <a, e a cis' e'> <a, fis a d' e'> <a, fis a d' e'> |
+        <e, e b~ e'~ gis'~>8 <e, e b e' gis'> <e, e b e' gis'> <e, e a~ d'~ fis'~>4 <e, e a d' fis'>8 <e, e a~ d'~ fis'~> <e, e a d' fis'> |
+        <a, e a~ cis'~ e'>8 <a, e a cis'> <a, fis a d' e'> <a, fis a d' e'> <a, e a cis' e'> <a, e a cis' e'> <a, fis a d' e'> <a, fis a d' e'> |
+\mymark "Verse 2" #30
+        <e, gis~ b~ e'~>8 <e, gis~ b~ e'~> \tuplet 3/2 { <e,~ cis~ gis b e'>8 <e, cis b~ e'~ gis'~> <e, cis b e' gis'> } <d a d' fis'>8 d \tuplet 3/2 { d8~ <d a d' fis'> d } |
+        <a, e a cis'>8 <e a cis'> <fis a d'> <fis a d'> <a, e a cis'> <e a cis'> <a, fis a d'> <fis a d'> |
+        <e, gis~ b~ e'~>8 <e, gis~ b~ e'~> \tuplet 3/2 { <e,~ cis~ gis b e'>8 <e, cis b~ e'~ gis'~> <e, cis b e' gis'> } <d a d' fis'>8 d \tuplet 3/2 { d8~ <d a d' fis'> d } |
+        <a, e a cis'>8 <e a cis'> <fis a d'> <fis a d'> <a, e a cis'> <e a cis'> <a, fis a d'> <fis a d'> |
+        <e, gis~ b~ e'~>8 <e, gis~ b~ e'~> \tuplet 3/2 { <e,~ cis~ gis b e'>8 <e, cis b~ e'~ gis'~> <e, cis b e' gis'> } <d a d' fis'>8 d \tuplet 3/2 { d8~ <d a d' fis'> d } |
+        <a, e a cis'>8 <e a cis'> <fis a d'> <fis a d'> <a, e a cis'> <e a cis'> <a, fis a d'> <fis a d'> |
+        <b, e>8 <b, e a dis' fis'> <b, gis b e' gis'>4 <b, a cis' fis' a'> <b, e b e' gis'>8 <b, e~ a~ dis' fis'~> |
+        <b, e a dis' fis'>8 b, <b, b e' gis'> b, <b, b dis' fis'> b, <b, b e' gis'> b, |
+\mymark "Chorus" #38
+        <e, e b~ e'~ gis'~>8 <e, e b e' gis'> <e, e b e' gis'> <e, e a~ d'~ fis'~>4 <e, e a d' fis'>8 <e, e a~ d'~ fis'~> <e, e a d' fis'> |
+        <a, e a~ cis'~ e'>8 <a, e a cis'> <a, fis a d' e'> <a, fis a d' e'> <a, e a cis' e'> <a, e a cis' e'> <a, fis a d' e'> <a, fis a d' e'> |
+        <e, e b~ e'~ gis'~>8 <e, e b e' gis'> <e, e b e' gis'> <e, e a~ d'~ fis'~>4 <e, e a d' fis'>8 <e, e a~ d'~ fis'~> <e, e a d' fis'> |
+        <a, e a~ cis'~ e'>8 <a, e a cis'> <a, fis a d' e'> <a, fis a d' e'> <a, e a cis' e'> <a, e a cis' e'> <a, fis a d' e'> <a, fis a d' e'> |
+        <e, e b~ e'~ gis'~>8 <e, e b e' gis'> <e, e b e' gis'> <e, e a~ d'~ fis'~>4 <e, e a d' fis'>8 <e, e a~ d'~ fis'~> <e, e a d' fis'> |
+        <a, e a~ cis'~ e'>8 <a, e a cis'> <a, fis a d' e'> <a, fis a d' e'> <a, e a cis' e'> <a, e a cis' e'> <a, fis a d' e'> <a, fis a d' e'> |
+        <b, e>8 <b, e a dis' fis'> <b, gis b e' gis'>4 <b, a cis' fis' a'> <b, e b e' gis'>8 <b, e~ a~ dis' fis'~> |
+        <b, e a dis' fis'>8 b, <b, b e' gis'> b, <b, b dis' fis'> b, <b, b e' gis'> b, |
+\mymark "Pre-solo" #46
+        <b, b dis' fis'>4 <b, b e' gis'> <b, b fis' a'> <b, b e' gis'>8. <b~ d' fis'~>16 |
+        <b dis' fis'>8 b, <b e' gis'> b, <b dis' fis'> b, <b e' gis'> b, |
+\mymark "Guitar Solo" #48
+        <e, e b~ e'~ gis'~>8 <e, e b e' gis'> <e, e b e' gis'> <e, e a~ d'~ fis'~>4 <e, e a d' fis'>8 <e, e a~ d'~ fis'~> <e, e a d' fis'> |
+        <a, e a~ cis'~ e'>8 <a, e a cis'> <a, fis a d' e'> <a, fis a d' e'> <a, e a cis' e'> <a, e a cis' e'> <a, fis a d' e'> <a, fis a d' e'> |
+        <e, e b~ e'~ gis'~>8 <e, e b e' gis'> <e, e b e' gis'> <e, e a~ d'~ fis'~>4 <e, e a d' fis'>8 <e, e a~ d'~ fis'~> <e, e a d' fis'> |
+        <a, e a~ cis'~ e'>8 <a, e a cis'> <a, fis a d' e'> <a, fis a d' e'> <a, e a cis' e'> <a, e a cis' e'> <a, fis a d' e'> <a, fis a d' e'> |
+        <e, e b~ e'~ gis'~>8 <e, e b e' gis'> <e, e b e' gis'> <e, e a~ d'~ fis'~>4 <e, e a d' fis'>8 <e, e a~ d'~ fis'~> <e, e a d' fis'> |
+        <a, e a~ cis'~ e'>8 <a, e a cis'> <a, fis a d' e'> <a, fis a d' e'> <a, e a cis' e'> <a, e a cis' e'> <a, fis a d' e'> <a, fis a d' e'> |
+        <b, e>8 <b, e a dis' fis'> <b, gis b e' gis'>4 <b, a cis' fis' a'> <b, e b e' gis'>8 <b, e~ a~ dis' fis'~> |
+        <b, e a dis' fis'>8 b, <b, b e' gis'> b, <b, b dis' fis'> b, <b, b e' gis'> b, |
+        <b, b dis' fis'>4 <b, b e' gis'> <b, b fis' a'> <b, b e' gis'>8. <b~ d' fis'~>16 |
+        <b dis' fis'>8 b, <b e' gis'> b, <b dis' fis'> b, <b e' gis'> b, |
+\mymark "Verse 3" #58
+        <e, gis~ b~ e'~>8 <e, gis~ b~ e'~> \tuplet 3/2 { <e,~ cis~ gis b e'>8 <e, cis b~ e'~ gis'~> <e, cis b e' gis'> } <d a d' fis'>8 d \tuplet 3/2 { d8~ <d a d' fis'> d } |
+        <a, e a cis'>8 <e a cis'> <fis a d'> <fis a d'> <a, e a cis'> <e a cis'> <a, fis a d'> <fis a d'> |
+        <e, gis~ b~ e'~>8 <e, gis~ b~ e'~> \tuplet 3/2 { <e,~ cis~ gis b e'>8 <e, cis b~ e'~ gis'~> <e, cis b e' gis'> } <d a d' fis'>8 d \tuplet 3/2 { d8~ <d a d' fis'> d } |
+        <a, e a cis'>8 <e a cis'> <fis a d'> <fis a d'> <a, e a cis'> <e a cis'> <a, fis a d'> <fis a d'> |
+        <e, gis~ b~ e'~>8 <e, gis~ b~ e'~> \tuplet 3/2 { <e,~ cis~ gis b e'>8 <e, cis b~ e'~ gis'~> <e, cis b e' gis'> } <d a d' fis'>8 d \tuplet 3/2 { d8~ <d a d' fis'> d } |
+        <a, e a cis'>8 <e a cis'> <fis a d'> <fis a d'> <a, e a cis'> <e a cis'> <a, fis a d'> <fis a d'> |
+        <b, e>8 <b, e a dis' fis'> <b, gis b e' gis'>4 <b, a cis' fis' a'> <b, e b e' gis'>8 <b, e~ a~ dis' fis'~> |
+        <b, e a dis' fis'>8 b, <b, b e' gis'> b, <b, b dis' fis'> b, <b, b e' gis'> b, |
+\mymark "Chorus" #66
+        <e, e b~ e'~ gis'~>8 <e, e b e' gis'> <e, e b e' gis'> <e, e a~ d'~ fis'~>4 <e, e a d' fis'>8 <e, e a~ d'~ fis'~> <e, e a d' fis'> |
+        <a, e a~ cis'~ e'>8 <a, e a cis'> <a, fis a d' e'> <a, fis a d' e'> <a, e a cis' e'> <a, e a cis' e'> <a, fis a d' e'> <a, fis a d' e'> |
+        <e, e b~ e'~ gis'~>8 <e, e b e' gis'> <e, e b e' gis'> <e, e a~ d'~ fis'~>4 <e, e a d' fis'>8 <e, e a~ d'~ fis'~> <e, e a d' fis'> |
+        <a, e a cis' e'>8 r2. r8 |
+        <e, e b~ e'~ gis'~>8 <e, e b e' gis'> <e, e b e' gis'> <e, e a~ d'~ fis'~>4 <e, e a d' fis'>8 <e, e a~ d'~ fis'~> <e, e a d' fis'> |
+        <a, e a~ cis'~ e'>8 <a, e a cis'> <a, fis a d' e'> <a, fis a d' e'> <a, e a cis' e'> <a, e a cis' e'> <a, fis a d' e'> <a, fis a d' e'> |
+        <b, e>8 <b, e a dis' fis'> <b, gis b e' gis'>4 <b, a cis' fis' a'> <b, e b e' gis'>8 <b, e~ a~ dis' fis'~> |
+        <b, e a dis' fis'>8 b, <b, b e' gis'> b, <b, b dis' fis'> b, <b, b e' gis'> b, |
+        <e, e b~ e'~ gis'~>8 <e, e b e' gis'> <e, e b e' gis'> <e, e a~ d'~ fis'~>4 <e, e a d' fis'>8 <e, e a~ d'~ fis'~> <e, e a d' fis'> |
+        <a, e a~ cis'~ e'>8 <a, e a cis'> <a, fis a d' e'> <a, fis a d' e'> <a, e a cis' e'> <a, e a cis' e'> <a, fis a d' e'> <a, fis a d' e'> |
+        <e, e b~ e'~ gis'~>8 <e, e b e' gis'> <e, e b e' gis'> <e, e a~ d'~ fis'~>4 <e, e a d' fis'>8 <e, e a~ d'~ fis'~> <e, e a d' fis'> |
+        <a, e a~ cis'~ e'>8 <a, e a cis'> <a, fis a d' e'> <a, fis a d' e'> <a, e a cis' e'> <a, e a cis' e'> <a, fis a d' e'> <a, fis a d' e'> |
+        <e, e b~ e'~ gis'~>8 <e, e b e' gis'> <e, e b e' gis'> <e, e a~ d'~ fis'~>4 <e, e a d' fis'>8 <e, e a~ d'~ fis'~> <e, e a d' fis'> |
+        <a, e a~ cis'~ e'>8 <a, e a cis'> <a, fis a d' e'> <a, fis a d' e'> <a, e a cis' e'> <a, e a cis' e'> <a, fis a d' e'> <a, fis a d' e'> |
+        <b, e>8 <b, e a dis' fis'> <b, gis b e' gis'>4 <b, a cis' fis' a'> <b, e b e' gis'>8 <b, e~ a~ dis' fis'~> |
+        <b, e a dis' fis'>8 b, <b, b e' gis'> b, <b, b dis' fis'> b, <b, b e' gis'> b, |
+\mymark "Outro" #82
+        <e b e' gis'>8 r <e b e' gis'>4 <a d' fis'>8 e <a d' fis'> e |
+        <a, e a cis'>8 <e a cis'> <fis a d'> <fis a d'> <a, e a cis'> <e a cis'> <a, fis a d'> <fis a d'> |
+        <e b e' gis'>8 r <e b e' gis'>4 <a d' fis'>8 e <a d' fis'> e |
+        <a, a cis' e'>8 <a cis' e'> <a d' fis'> <a d' fis'> <a, a cis' e'> <a cis' e'> <a, a d' fis'> <a d' fis'> |
+        <e b e' gis'>8 r <e b e' gis'>4 <a d' fis'>8 e <a d' fis'> e |
+        <a, a cis' e'>8 <a cis' e'> <a d' fis'> <a d' fis'> <a, a cis' e'> <a cis' e'> <a, a d' fis'> <a d' fis'> |
+        <e b e' gis'>8 r <e b e' gis'>4 <a d' fis'>8 e <a d' fis'> e |
+        <a, a cis' e'>8 <a cis' e'> <a d' fis'> <a d' fis'> <a, a cis' e'> <a cis' e'> <a, a d' fis'> <a d' fis'> |
+        <e b e' gis'>8 r <e b e' gis'>4 <a d' fis'>8 e <a d' fis'> e |
+        <a, a cis' e'>8 <a cis' e'> <a d' fis'> <a d' fis'> <a, a cis' e'> <a cis' e'> <a, a d' fis'> <a d' fis'> |
+        <e b e' gis'>8 r <e b e' gis'>4 <a d' fis'>8 e <a d' fis'> e |
+        <a, a cis' e'>8 <a cis' e'> <a d' fis'> <a d' fis'> <a, a cis' e'> <a cis' e'> <a, a d' fis'> <a d' fis'> |
+        <e b e' gis'>8 r <e b e' gis'>4 <a d' fis'>8 e <a d' fis'> e |
+        <a, a cis' e'>8 <a cis' e'> <a d' fis'> <a d' fis'> <a, a cis' e'> <a cis' e'> <a, a d' fis'> <a d' fis'> |
+        <e b e' gis'>8 r <e b e' gis'>4 <a d' fis'>8 e <a d' fis'> e |
+        <e b e' gis' b'>1 |
+    }
+}

@@ -1,0 +1,113 @@
+vocals = {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \tripletFeel 8  {
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+\mymark "Verse 1" #10
+        r4 gis'8 e' fis'4 e'8 cis' |
+        e'8 fis' gis' fis' e'4 r |
+        r4 gis'8 gis' fis'4 e'8 cis' |
+        \tuplet 3/2 { e'8 e' b } cis'8 r2 r8 |
+        r4 \tuplet 3/2 { gis'8 fis' e' e' fis'4 } r8 e' |
+        \tuplet 3/2 { e'8 fis' gis' } fis'8 e' r2 |
+        fis'4 fis' fis' gis'8 fis' |
+        a'8 fis' e' e' \tuplet 3/2 { dis'8 b4 } r4 |
+\mymark "Chorus" #18
+        gis'4 r fis' r8 b~ |
+        \tuplet 3/2 { b8 e' e' } e'8 cis' fis'4 e' |
+        gis'4 r fis' r8 b~ |
+        \tuplet 3/2 { b8 e' e' } e'8 fis' \tuplet 3/2 { e'8 cis' b2 } |
+        r8 fis' gis' b' \tuplet 3/2 { gis'16 fis' e'4 } r8 cis'~ |
+        \tuplet 3/2 { cis'8 e' e' cis' e' fis' } r2 |
+        fis'8 fis' \tuplet 3/2 { e'4 fis'2 } r8 a'~ |
+        a'8 fis' \tuplet 3/2 { e'2 e'8 dis' b4 r8 } |
+\mymark "Interlude" #26
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+\mymark "Verse 2" #30
+        r8 \tuplet 3/2 { gis'4~ gis'16 fis'4 } fis'8 e' e'4 |
+        e'4 fis'8 e' cis'4 r |
+        r8 fis' \tuplet 3/2 { fis'8 fis' b' gis' fis' e'4~ e'16 } cis'8 |
+        cis'8 \tuplet 3/2 { fis'4~ fis'16 gis'4 } fis'4 r |
+        r8 \tuplet 3/2 { gis'4~ gis'16 fis'4 } fis'4 e' |
+        e'4 e'8 b cis'4 r |
+        r4 fis' fis' gis'8 fis' |
+        a'8 \tuplet 3/2 { fis'4~ fis'16 e'8 e' dis' b4 } r4 |
+\mymark "Chorus" #38
+        gis'4 r fis' r8 b~ |
+        \tuplet 3/2 { b8 e' e' } e'8 cis' fis'4 e' |
+        gis'4 r fis' r8 b~ |
+        \tuplet 3/2 { b8 e' e' } e'8 fis' \tuplet 3/2 { e'8 cis' b2 } |
+        r8 fis' gis' b' \tuplet 3/2 { gis'16 fis' e'4 } r8 cis'~ |
+        \tuplet 3/2 { cis'8 e' e' cis' e' fis' } r2 |
+        fis'8 fis' \tuplet 3/2 { e'4 fis'2 } r8 a'~ |
+        a'8 fis' \tuplet 3/2 { e'4 e'8 dis' b4 } r4 |
+\mymark "Pre-solo" #46
+        r1 |
+        r1 |
+\mymark "Guitar Solo" #48
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+\mymark "Verse 3" #58
+        r8 \tuplet 3/2 { gis'4~ gis'16 fis'4 e'8 fis'4 } e'8 cis' |
+        e'8 fis' gis' fis' e'4 r |
+        r4 gis'8 fis' \tuplet 3/2 { e'8 fis'4 } e'8 cis' |
+        e'8 e' \tuplet 3/2 { b8 cis'4 } r2 |
+        r8 b gis' fis' fis'4 r8 cis' |
+        e'8 fis' gis' fis' e'4 r |
+        r8 e' fis' e' fis'4 \tuplet 3/2 { gis'4 fis'8 } |
+        a'8 fis' e' \tuplet 3/2 { e'8 dis' b4~ b16 } r4 |
+\mymark "Chorus" #66
+        gis'4 r fis' r8 b~ |
+        \tuplet 3/2 { b8 e' e' } e'8 cis' fis'4 e' |
+        gis'4 r fis' r8 b~ |
+        \tuplet 3/2 { b8 e' e' } e'8 fis' \tuplet 3/2 { e'8 cis' b2 } |
+        r8 fis' gis' b' \tuplet 3/2 { gis'16 fis' e'4 } r8 cis'~ |
+        \tuplet 3/2 { cis'8 e' e' cis' e' fis' } r2 |
+        fis'8 fis' \tuplet 3/2 { e'4 fis'2 } r8 a'~ |
+        a'8 fis' \tuplet 3/2 { e'4 e'8 dis' b4 } r4 |
+        gis'4 r fis' r8 b~ |
+        \tuplet 3/2 { b8 e' e' } e'8 cis' fis'4 e' |
+        gis'4 r fis' r8 b~ |
+        \tuplet 3/2 { b8 e' e' } e'8 fis' \tuplet 3/2 { e'8 cis' b2 } |
+        r8 fis' gis' b' \tuplet 3/2 { gis'16 fis' e'4 } r8 cis'~ |
+        \tuplet 3/2 { cis'8 e' e' cis' e' fis' } r2 |
+        fis'8 fis' \tuplet 3/2 { e'4 fis'2 } r8 a'~ |
+        a'8 fis' \tuplet 3/2 { e'4 e'8 dis' b4 } r4 |
+\mymark "Outro" #82
+        b'1~ |
+        b'2 gis'8 fis' \tuplet 3/2 { e'8 fis'4 } |
+        e'1~ |
+        e'2 r |
+        b'1~ |
+        b'2 gis'8 fis' \tuplet 3/2 { e'8 fis'4 } |
+        e'1~ |
+        e'2 r |
+        b'1~ |
+        b'2 gis'8 fis' \tuplet 3/2 { e'8 fis'4 } |
+        e'1~ |
+        e'2 r |
+        b'1~ |
+        b'2 gis'8 fis' \tuplet 3/2 { e'8 fis'4 } |
+        e'1 |
+        r1 |
+    }
+}
