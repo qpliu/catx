@@ -25,9 +25,9 @@ vocalsLyrics = \new Lyrics \lyricmode {
         \tuplet 3/2 { \skip8 "-ing"8 "a-" } "-bout"8 "to-" "-mor-"4 "-row" |
         "Don't"4 \skip4 "stop"4 \skip8 "it-"8 |
         \tuplet 3/2 { \skip8 "-'ll"8 \skip8 } "soon"8 "be" \tuplet 3/2 { "here"8 \skip2 \skip8 } |
-        \skip8 "It-"8 "-'ll" "be" \tuplet 3/2 { "here"8 \skip2 \skip8 } |
-        "bet-"8 "-ter" "than" "be-" "-fore"2 |
-        "Yes-"8 "-ter-" "-day's" "gone" \skip4 "yes-"8 \skip8 |
+        \skip8 "It-"8 \tuplet 3/2 { "-'ll"8 "be"4 "here"8 \skip2 \skip8 } |
+        \tuplet 3/2 { "bet-"8 "-ter" "than" } \skip8 "be-"8 "-fore"2 |
+        "Yes-"8 "-ter-" "-day's" "gone" \skip4. "yes-"8 |
         \skip8 "-ter-"8 "-day's"4 \tuplet 3/2 { "gone"8 \skip2 \skip8 } |
 \mymark "Interlude" #26
         \skip1 |
@@ -48,8 +48,8 @@ vocalsLyrics = \new Lyrics \lyricmode {
         \tuplet 3/2 { \skip8 "-ing"8 "a-" } "-bout"8 "to-" "-mor-"4 "-row" |
         "Don't"4 \skip4 "stop"4 \skip8 "it-"8 |
         \tuplet 3/2 { \skip8 "-'ll"8 \skip8 } "soon"8 "be" \tuplet 3/2 { "here"8 \skip2 \skip8 } |
-        \skip8 "it-"8 "-'ll" "be" \tuplet 3/2 { "here"8 \skip2 \skip8 } |
-        "bet-"8 "-ter" "than" "be-" "-fore"2 |
+        \skip8 "it-"8 \tuplet 3/2 { "-'ll"8 "be"4 "here"8 \skip2 \skip8 } |
+        \tuplet 3/2 { "bet-"8 "-ter" "than" } \skip8 "be-"8 "-fore"2 |
         "Yes-"8 "-ter-" "-day's" "gone" \skip4. "yes-"8 |
         \skip8 "-ter-"8 "-day's" "gone" \skip2 |
 \mymark "Pre-solo" #46
@@ -80,16 +80,16 @@ vocalsLyrics = \new Lyrics \lyricmode {
         \tuplet 3/2 { \skip8 "-ing"8 "a-" } "-bout"8 "to-" "-mor-"4 "-row" |
         "Don't"4 \skip4 "stop"4 \skip8 "it-"8 |
         \tuplet 3/2 { \skip8 "-'ll"8 \skip8 } "soon"8 "be" \tuplet 3/2 { "here"8 \skip2 \skip8 } |
-        \skip8 "it-"8 "-'ll" "be" \tuplet 3/2 { "here"8 \skip2 \skip8 } |
-        "bet-"8 "-ter" "than" "be-" "-fore"2 |
+        \skip8 "it-"8 \tuplet 3/2 { "-'ll"8 "be"4 "here"8 \skip2 \skip8 } |
+        \tuplet 3/2 { "bet-"8 "-ter" "than" } \skip8 "be-"8 "-fore"2 |
         "Yes-"8 "-ter-" "-day's" "gone" \skip4. "yes-"8 |
         \skip8 "-ter-"8 "-day's" "gone" \skip2 |
         "Don't"4 \skip4 "stop"4 \skip8 "think-"8 |
         \tuplet 3/2 { \skip8 "-ing"8 "a-" } "-bout"8 "to-" "-mor-"4 "-row" |
         "Don't"4 \skip4 "stop"4 \skip8 "it-"8 |
         \tuplet 3/2 { \skip8 "-'ll"8 \skip8 } "soon"8 "be" \tuplet 3/2 { "here"8 \skip2 \skip8 } |
-        \skip8 "it-"8 "-'ll" "be" \tuplet 3/2 { "here"8 \skip2 \skip8 } |
-        "bet-"8 "-ter" "than" "be-" "-fore"2 |
+        \skip8 "it-"8 \tuplet 3/2 { "-'ll"8 "be"4 "here"8 \skip2 \skip8 } |
+        \tuplet 3/2 { "bet-"8 "-ter" "than" } \skip8 "be-"8 "-fore"2 |
         "Yes-"8 "-ter-" "-day's" "gone" \skip4. "yes-"8 |
         \skip8 "-ter-"8 "-day's" "gone" \skip2 |
 \mymark "Outro" #82
