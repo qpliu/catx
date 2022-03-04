@@ -1,0 +1,135 @@
+midiOne = {
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #11
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus 1" #19
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 1" #23
+    r8 <a a'> <c' c''> <a' a''>4 <g' g''> <b b'>8~ |
+    <b b'>4 <e' e''> <c' c''>2 |
+    r8 <a a'> <c' c''> <a' a''>4 <g' g''> <a a'>8~ |
+    <a a'>1 |
+\mymark "Verse 2" #27
+    g'1~ |
+    g'2. a'4\glissando |
+    e'1~ |
+    e'1 |
+    g'1~ |
+    g'2. a'4\glissando |
+    e'1~ |
+    e'1 |
+\mymark "Pre-Chorus 2" #35
+    <a' a''>1 |
+    <b' b''>4. <c'' c'''>2~ <c'' c'''>8 |
+    <c'' c'''>8 <d'' d'''> <e'' e'''>2~ <e'' e'''>8 <g g'>\glissando |
+    <a a'>1 |
+\mymark "Chorus 2" #39
+    r8 <a a'> <c' c''> <a' a''>4 <g' g''> <b b'>8~ |
+    <b b'>4 <e' e''> <c' c''>2 |
+    r8 <a a'> <c' c''> <a' a''>4 <g' g''> <a a'>8~ |
+    <a a'>1 |
+    r8 <a a'> <c' c''> <a' a''>4 <g' g''> <b b'>8~ |
+    <b b'>4 <e' e''> <c' c''>2 |
+    r8 <a a'> <c' c''> <a' a''>4 <g' g''> <a a'>8~ |
+    <a a'>1 |
+\mymark "Pre-Chorus 3" #47
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Build-Up 1" #51
+    r1 |
+\mymark "Solo 1" #52
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    <f'' f'''>4. <e'' e'''> <d'' d'''>4~ |
+    <d'' d'''>8 <c'' c'''>4. <c'' c'''>8 <b' b''> <a' a''>4 |
+    <g' g''>1~ |
+    <g' g''>1 |
+\mymark "Bridge" #64
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Solo 2" #76
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 3" #84
+    <g' g''>1~ |
+    <g' g''>2. <a' a''>4\glissando |
+    <e' e''>1~ |
+    <e' e''>1 |
+    <g' g''>1~ |
+    <g' g''>2. <a' a''>4\glissando |
+    <e' e''>1~ |
+    <e' e''>1 |
+\mymark "Build-Up 2" #92
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 3" #96
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r8 <a a'> <c' c''> <a' a''>4 <g' g''> <b b'>8~ |
+    <b b'>1 |
+    r8 <a a'> <c' c''> <a' a''>4 <g' g''> <a a'>8~ |
+    <a a'>1 |
+    r8 <a a'> <c' c''> <a' a''>4 <g' g''> <b b'>8~ |
+    <b b'>4 <e' e''> <c' c''>2 |
+    r8 <a a'> <c' c''> <a' a''>4 <g' g''> <a a'>8~ |
+    <a a'>1 |
+    r8 <a a'> <c' c''> <a' a''>4 <g' g''> <b b'>8~ |
+    <b b'>4 <e' e''> <c' c''>2 |
+    r8 <a a'> <c' c''> <a' a''>4 <g' g''> <a a'>8~ |
+    <a a'>1 |
+\mymark "Outro" #112
+    <f'' f'''>4. <e'' e'''> <d'' d'''>4~ |
+    <d'' d'''>8 <c'' c'''>4. <c'' c'''>8 <b' b''> <a' a''>4 |
+    <g' g''>1~ |
+    <g' g''>1~ |
+    <g' g''>1~ |
+    <g' g''>1 |
+}

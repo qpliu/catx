@@ -1,0 +1,135 @@
+midiTwo = {
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #11
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus 1" #19
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 1" #23
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #27
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus 2" #35
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 2" #39
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus 3" #47
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Build-Up 1" #51
+    r1 |
+\mymark "Solo 1" #52
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge" #64
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Solo 2" #76
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 3" #84
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Build-Up 2" #92
+    <b b'>8 <g g'> <b b'> <g g'> <c' c''> <a a'> <c' c''> <a a'> |
+    <d' d''>8 <b b'> <d' d''> <b b'> g'' c'' d'' f'' |
+    <e' e''>2. <d' d''>4 |
+    <c' c''>2. <b b'>4 |
+\mymark "Chorus 3" #96
+    <a a'>2 r8 <g g'> <a a'>4 |
+    <b b'>4. <c' c''> <d' d''>4 |
+    <c' c''>1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Outro" #112
+    r1 |
+    r1 |
+    <g d' g' b'>1~ |
+    <g d' g' b'>1~ |
+    <g d' g' b'>1~ |
+    <g d' g' b'>1 |
+}
