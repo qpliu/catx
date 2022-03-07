@@ -35,8 +35,8 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip8 "I"8 "don't"4 "know"4. \skip8 |
     \skip8 "High-"8 "er" "now"4 "than" "e-"8 |
     \skip8 "ver"4 "be-"8 "fore" \skip4. |
-    \skip8 "I"8 "know" "we" "can" "make" "it" "if" |
-    "we"4 "take" "it" "slow"8 \skip8 |
+    \skip8 "I"8 "know" "we" "can" "make" \tuplet 3/2 { "it"8 "if" "we" } |
+    "take"4 "it" "slow" \skip4 |
     \skip8 "Let's"8 "take" "it" "ea-" "sy" \skip8 "Ea-"8 |
     "sy"8 "now" \skip8 "watch"8 "it" "go" \skip8 "We're"8 |
 \mymark "Pre-Chorus 2" #35

@@ -35,10 +35,10 @@ steelpan = {
     r8 d' d'4 e'4. r8 |
     r8 e' e' e'4 c' d'8~ |
     d'8 d'4 e'8 d' c' a4 |
-    r8 c' e' e' e' e' e' c' |
+    r8 c' e' e' e' e' \tuplet 3/2 { e'8 d' c' } |
     d'4 e' d' c'8( a) |
     r1 |
-    r2. e'8 r |
+    r2. r8 e' |
 \mymark "Pre-Chorus 2" #35
     e'8 e' e' e' e'4 e' |
     d'4. e' d'8 c' |

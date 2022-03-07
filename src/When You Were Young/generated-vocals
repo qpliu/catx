@@ -35,7 +35,7 @@ vocals = {
     r8 d' d'4 e'4. r8 |
     r8 e' e' e'4 c' d'8~ |
     d'8 d'4 e'8 d' c' a4 |
-    r8 c' e' e' e' e' e' c' |
+    r8 c' e' e' e' e' \tuplet 3/2 { e'8 d' c' } |
     d'4 e' d' c'8( a) |
     r8 \deadNote e' \deadNote e' \deadNote e' \deadNote e' \deadNote e' r \deadNote e' |
     \deadNote e'8 \deadNote e' r \deadNote e' \deadNote e' \deadNote e' r e' |
