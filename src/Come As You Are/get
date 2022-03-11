@@ -1,5 +1,5 @@
 #!/bin/sh
-WHERE=application_guitar_pro5-44322237.gp5
+WHERE=song.gp5
 DRUMMAP="48 tomh 0,35 bd 1,57 cymr 0,"
 set -e
 rm -f generated-*
