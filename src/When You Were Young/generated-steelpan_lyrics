@@ -1,0 +1,136 @@
+steelpanLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1" #11
+    \skip8 "You"8 "sit" "there"4 "in"8 "your"4 |
+    \skip4 "heart-"4 "ache"4. \skip8 |
+    \skip4 "wait-"8 "ing" "for"4 "some" |
+    \tuplet 3/2 { "beau-"4 "ti-" "ful" } "boy"4 \skip4 |
+    \skip8 "to"8 "save"4 \tuplet 3/2 { "you"4 "from" "your" } |
+    "old"4. "ways"2 \skip8 |
+    \skip8 "You"8 "play" "for-" "give-" "ness" \skip8 "watch"8 |
+    "it"8 "now"4 "here"8 "he" "comes" \skip8 "he"8 |
+\mymark "Pre-Chorus 1" #19
+    "does-"8 "n't" "look" "a" "thing"4 "like" |
+    "Je-"4. "sus" "but"8 "he" |
+    \skip8 "talks"8 "like" "a" "gent-" "le-" "man"4 |
+    \skip8 "like"8 "you" "i-" "ma-" "gined" "when" "you" |
+\mymark "Chorus 1" #23
+    \skip2 \skip8 "were"4 "young"8 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 2" #27
+    \skip8 "Can"8 "we" "climb"4 "this"8 "moun-" "tain?" |
+    \skip8 "I"8 "don't"4 "know"4. \skip8 |
+    \skip8 "high-"8 "er" "now"4 "than" "e-"8 |
+    \skip8 "ver"4 "be-"8 "fore" \skip4. |
+    \skip8 "I"8 "know" "we" "can" "make" \tuplet 3/2 { "it"8 "if" "we" } |
+    "take"4 "it" "slow" \skip4 |
+    \skip8 "Let's"8 "take" "it" "ea-" "sy" \skip8 "Ea-"8 |
+    "sy"8 "now" \skip8 "watch"8 "it" "go" \skip8 "We're"8 |
+\mymark "Pre-Chorus 2" #35
+    "burn-"8 "ing" "down" "the" "high-"4 "way" |
+    "sky-"4. "line" "on"8 "the" |
+    \skip8 "back"8 "of" "a" "hur-" "ri-" "cane"4 |
+    \skip8 "that"8 "start-" "ed" "turn-" "ing" "when" "you" |
+\mymark "Chorus 2" #39
+    \skip2 \skip8 "were"4 "young"8 |
+    \skip1 |
+    \skip1 |
+    \skip2 \skip8 "when"4 "you"8 |
+    \skip2 \skip8 "were"4 "young"8 |
+    \skip1 |
+    \skip1 |
+    \skip2. "And"8 "some-" |
+\mymark "Pre-Chorus 3" #47
+    \skip8 "times"4 "you"8 "close"4 "your"8 "eyes" |
+    \skip4 "and"4 "see" "the"8 "place" |
+    \skip8 "where"4 "you"8 "used"4 "to"8 "live" |
+    \skip2. "when"8 "you" |
+\mymark "Build-Up 1" #51
+    \skip2 \skip8 "were"4 "young"8 |
+\mymark "Solo 1" #52
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2 \skip8 "They"8 "say" "the" |
+\mymark "Bridge" #64
+    "de-"8 "vil's"4 "wa-" "ter"8 "it" "ain't" |
+    \skip8 "so"4 "sweet" \skip4 "you"8 |
+    "don't"8 "have"4 "to"8 "drink"4 "right" |
+    "now"2 \skip2 |
+    \skip8 "but"8 "you" "can" "dip" "your"4 "feet"8 |
+    \skip1 |
+    \skip4 "e-"8 "very" \tuplet 3/2 { "once"4 "in" "a" } |
+    \skip4. "lit-"8 "tle" "while"4. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Solo 2" #76
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 3" #84
+    \skip8 "You"8 "sit" "there"4 "in"8 "your"4 |
+    \skip4 "heart-"4 "ache"4. \skip8 |
+    \skip4 "wait-"8 "ing" "for"4 "some" |
+    \tuplet 3/2 { "beau-"4 "ti-" "ful" } "boy"4 \skip4 |
+    \skip8 "to"8 "save"4 \tuplet 3/2 { "you"4 "from" "your" } |
+    "old"4. "ways"2 \skip8 |
+    \skip8 "You"8 "play" "for-" "give-" "ness" \skip8 "watch"8 |
+    "it"8 "now"4 "here"8 "he" "comes" \skip8 "He"8 |
+\mymark "Build-Up 2" #92
+    "does-"8 "n't" "look" "a" "thing"4 "like" |
+    "Je-"4. "sus" "but"8 "he" |
+    \skip8 "talks"8 "like" "a" "gent-" "le-" "man"4 |
+    \skip8 "like"8 "you" "i-" "ma-" "gined" "when" "you" |
+\mymark "Chorus 3" #96
+    \skip2 \skip8 "were"4 "young"8 |
+    \skip1 |
+    \skip1 |
+    \skip2 \skip8 "when"4 "you"8 |
+    \skip2 \skip8 "were"4 "young"8 |
+    \skip1 |
+    \skip1 |
+    \skip2 \skip8 "I"8 "said" "he" |
+    "does-"8 "n't" "look" "a" "thing"4 "like" |
+    "Je-"4. "sus"2 \skip8 |
+    \skip1 |
+    \skip2. \skip8 "He"8 |
+    "does-"8 "n't" "look" "a" "thing"4 "like" |
+    "Je-"4. "sus"2 \skip8 |
+    \skip1 |
+    \skip4 "but"8 "more"4 "than"8 "you" \skip8 |
+\mymark "Outro" #112
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}
