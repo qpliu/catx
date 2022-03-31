@@ -1,0 +1,111 @@
+steelpanLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1" #4
+    \skip1 |
+    \skip2. \skip8 "Twen-"8 |
+    \skip8 "ty"8 "twen-" "ty" "twen-" "ty" "four"4 |
+    "hours"4 "to"8 "go"4 "oh"8 "oh"4 |
+    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
+    \skip8 "ted"4. \skip2 |
+    "No-"8 "thing" "to" "do"4 "no-" "where"8 |
+    \skip8 "to"8 "go"4 "oh" \skip4 |
+    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
+    \skip8 "ted"4. \skip4. "Just"8 |
+    "get"8 "me" "to" "the" "air-" "port"4 "and"8 |
+    "put"8 "me" "in" "a" "plane"4. \skip8 |
+    "hur-"8 "ry" "hur-" "ry" "hur-" "ry"4 "be-"8 |
+    "fore"8 "I" "go" "in-" "sane"4. "I"8 |
+    "can't"8 "con-" "trol" "my" "fin-" "gers"4 "I"8 |
+    "can't"8 "con-" "trol" "my" "brain"4 "oh" |
+    "no"4 "oh" "oh" "oh" |
+    "oh"1 |
+\mymark "Verse 2" #22
+    \skip1 |
+    \skip2. \skip8 "Twen-"8 |
+    \skip8 "ty"8 "twen-" "ty" "twen-" "ty" "four"4 |
+    "hours"4 "to"8 "go"4 "oh"8 "oh"4 |
+    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
+    \skip8 "ted"8 \skip2. |
+    "No-"8 "thing" "to" "do"4 "no-" "where"8 |
+    \skip8 "to"8 "go"4 "oh" \skip4 |
+    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
+    \skip8 "ted"4. \skip4. "Just"8 |
+    "put"8 "me" "in" "a" "wheel-" "chair"4 "and"8 |
+    "get"8 "me" "on" "a" "plane"4. \skip8 |
+    "hur-"8 "ry" "hur-" "ry" "hur-" "ry"4 "be-"8 |
+    "fore"8 "I" "go" "in-" "sane"4. "I"8 |
+    "can't"8 "con-" "trol" "my" "fing-" "ers"4 "I"8 |
+    "can't"8 "con-" "trol" "my" "brain"4 "oh" |
+    "no"4 "oh" "oh" "oh" |
+    "oh"1 |
+\mymark "Break" #40
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 3" #48
+    \skip1 |
+    \skip2. \skip8 "Twen-"8 |
+    \skip8 "ty"8 "twen-" "ty" "twen-" "ty" "four"4 |
+    "hours"4 "to"8 "go"4 "oh"8 "oh"4 |
+    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
+    \skip8 "ted"4. \skip2 |
+    "No-"8 "thing" "to" "do"4 "No-" "where"8 |
+    \skip8 "to"8 "go"4 "oh" \skip4 |
+    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
+    \skip8 "ted"4. \skip4. "Just"8 |
+    "put"8 "me" "in" "a" "wheel-" "chair"4 "and"8 |
+    "get"8 "me" "to" "the" "show"4. \skip8 |
+    "hur-"8 "ry" "hur-" "ry" "hur-" "ry"4 "be-"8 |
+    "fore"8 "I" "go" "lo-" "co"4. "I"8 |
+    "can't"8 "con-" "trol" "my" "fing-" "ers"4 "I"8 |
+    "can't"8 "con-" "trol" "my" "toes"4 "oh" |
+    "no"4 "oh" "oh" "oh" |
+    "oh"1 |
+\mymark "Verse 4" #66
+    \skip1 |
+    \skip2. \skip8 "Twen-"8 |
+    \skip8 "ty"8 "twen-" "ty" "twen-" "ty" "four"4 |
+    "hours"4 "to"8 "go"4 "oh"8 "oh"4 |
+    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
+    \skip8 "ted"4. \skip2 |
+    "No-"8 "thing" "to" "do"4 "no-" "where"8 |
+    \skip8 "to"8 "go"4 "oh" \skip4 |
+    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
+    \skip8 "ted"4. \skip4. "Just"8 |
+    "put"8 "me" "in" "a" "wheel-" "chair"4 "and"8 |
+    "get"8 "me" "to" "the" "show"4. \skip8 |
+    "hur-"8 "ry" "hur-" "ry" "hur-" "ry"4 "be-"8 |
+    "fore"8 "I" "go" "lo-" "co"4. "I"8 |
+    "can't"8 "con-" "trol" "my" "fing-" "ers"4 "I"8 |
+    "can't"8 "con-" "trol" "my" "toes"4 "oh" |
+    "no"4 "oh" "oh" "oh" |
+    "oh"1 |
+\mymark "Outro" #84
+    "bam"4 "bam" "ba"8 "bam"4 "ba"8 |
+    "bam"4 "bam" "ba"8 "bam"4 \skip8 |
+    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
+    \skip8 "ted"8 \skip2. |
+    "bam"4 "bam" "ba"8 "bam"4 "ba"8 |
+    "bam"4 "bam" "ba"8 "bam"4 \skip8 |
+    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
+    \skip8 "ted"8 \skip2. |
+    "bam"4 "bam" "ba"8 "bam"4 "ba"8 |
+    "bam"4 "bam" "ba"8 "bam"4 \skip8 |
+    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
+    \skip8 "ted"8 \skip2. |
+    "bam"4 "bam" "ba"8 "bam"4 "ba"8 |
+    "bam"4 "bam" "ba"8 "bam"4 \skip8 |
+    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
+    \skip8 "ted"8 \skip2. |
+    \skip1 |
+    \skip1 |
+}
