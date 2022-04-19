@@ -1,4 +1,4 @@
-vocalsLyrics = \new Lyrics \lyricmode {
+steelpanLyrics = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Intro" #1
     \skip1 |

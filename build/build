@@ -22,7 +22,14 @@ doiftabscolorsdotext(){
     mkdir "../src-$1"
     for a in *
     do
-	"$build/doif.py" <"$a" >"../src-$1/$a" "$1"
+	case "$a" in
+	    *.gp5) ;;
+	    *.wav) ;;
+	    *.midi) ;;
+	    *)
+		"$build/doif.py" <"$a" >"../src-$1/$a" "$1"
+		;;
+	esac
     done
     cd "../src-$1"
     for a in *tabs

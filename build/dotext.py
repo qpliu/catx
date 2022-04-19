@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python3
 
 # What I remember about how this works.  Probably I forgot some features.
 # This converts *text files into *tex files.
@@ -37,14 +37,14 @@
 import os,re,sys
 
 if len(sys.argv)!=2:
-    print 'python2.7 %s filename'%sys.argv[0]
+    print('python3 %s filename'%sys.argv[0])
     sys.exit(1)
 
 noteNames = ('c','cis','d','dis','e','f','fis','g','gis','a','ais','b')
 octaveNames = (",,,,",",,,",",,",",","","'","''","'''","''''","'''''","''''''")
 
 def makeNote(i):
-    return noteNames[i%12]+octaveNames[i/12]
+    return noteNames[i%12]+octaveNames[i//12]
 
 filename = sys.argv[1]
 
@@ -53,8 +53,8 @@ notemapfd = open(filename+'_dotext_notemap','w')
 
 def lookup(text):
     if text not in notemap:
-	notemap[text] = makeNote(len(notemap))
-	notemapfd.write(text+'\n')
+        notemap[text] = makeNote(len(notemap))
+        notemapfd.write(text+'\n')
     return notemap[text]
 
 lines = [x for x in open(filename+'_dotext')]
@@ -64,20 +64,20 @@ instruments = set()
 def dotext():
     fd = open(filename+'_donetext','w')
     for line in lines:
-	i = 0
-	while i<len(line):
-	    if line[i]=='%':
-		fd.write(line[i:])
-		break
-	    if line[i]!='`':
-		fd.write(line[i])
-		i += 1
-		continue
-	    j = i+1
-	    i = line.index('`',j)
-	    word = line[j:i]
-	    i += 1
-	    fd.write(lookup(word))
+        i = 0
+        while i<len(line):
+            if line[i]=='%':
+                fd.write(line[i:])
+                break
+            if line[i]!='`':
+                fd.write(line[i])
+                i += 1
+                continue
+            j = i+1
+            i = line.index('`',j)
+            word = line[j:i]
+            i += 1
+            fd.write(lookup(word))
     fd.close()
 
 dotext()

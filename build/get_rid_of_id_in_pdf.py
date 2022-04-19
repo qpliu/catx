@@ -1,18 +1,18 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python3
 
 import re,sys
 
-a = sys.stdin.read()
+a = sys.stdin.buffer.read()
 
-a = re.sub(r'/ID \[[^][]*\]',r'',a)
-a = re.sub(r'/CreationDate\([^()]*\)',r'',a)
-a = re.sub(r'/ModDate\([^()]*\)',r'',a)
-a = re.sub(r'<xmp:CreateDate>[^<>]*</xmp:CreateDate>',r'',a)
-a = re.sub(r'<xmp:ModifyDate>[^<>]*</xmp:ModifyDate>',r'',a)
-a = re.sub(r'/URI\([^()]*\)',r'',a)
-a = re.sub(r"rdf:about='[^']*'",r'',a)
-a = re.sub(r"xapMM:DocumentID='[^']*'",r'',a)
-a = re.sub(r"(?sm)^xref\s+[0-9]+ [0-9]+(?:\s+[0-9]+ [0-9]+ [nf])*",r'',a)
-a = re.sub(r"(?sm)^startxref\s+[0-9]+",r'',a)
+a = re.compile(b'/ID \[[^][]*\]').sub(b'',a)
+a = re.compile(b'/CreationDate\([^()]*\)').sub(b'',a)
+a = re.compile(b'/ModDate\([^()]*\)').sub(b'',a)
+a = re.compile(b'<xmp:CreateDate>[^<>]*</xmp:CreateDate>').sub(b'',a)
+a = re.compile(b'<xmp:ModifyDate>[^<>]*</xmp:ModifyDate>').sub(b'',a)
+a = re.compile(b'/URI\([^()]*\)').sub(b'',a)
+a = re.compile(b"rdf:about='[^']*'").sub(b'',a)
+a = re.compile(b"xapMM:DocumentID='[^']*'").sub(b'',a)
+a = re.compile(b"(?sm)^xref\s+[0-9]+ [0-9]+(?:\s+[0-9]+ [0-9]+ [nf])*").sub(b'',a)
+a = re.compile(b"(?sm)^startxref\s+[0-9]+").sub(b'',a)
 
-sys.stdout.write(a)
+sys.stdout.buffer.write(a)

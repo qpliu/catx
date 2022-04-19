@@ -4,7 +4,7 @@ guitar = {
     b,8\5 fis\4 cis'\3 fis,4\6 cis8\5 gis\4\glissando a\4 |
     cis8\5 gis\4 dis'\3 a,4\6 e8\5 b\4 b,\5~ |
     b,8\5 fis\4 cis'\3 fis,4\6 cis8\5 gis\4\glissando a\4 |
-\mymark "1st Verse" #5
+\mymark "Verse 1" #5
     cis8\5 gis\4 dis'\3 a,4\6 e8\5 b\4 b,\5~ |
     b,8\5 fis\4 cis'\3 fis,4\6 cis8\5 gis\4\glissando a\4 |
     cis8\5 gis\4 dis'\3 a,4\6 e8\5 b\4 b,\5~ |
@@ -21,7 +21,7 @@ guitar = {
     b,8\5 fis\4 cis'\3 fis,4\6 cis8\5 gis\4\glissando a\4 |
     cis8\5 gis\4 dis'\3 a,4\6 e8\5 b\4 b,\5~ |
     b,8\5 fis\4 cis'\3 fis,4\6 cis8\5 gis\4\glissando a\4 |
-\mymark "Bridge" #21
+\mymark "Pre-Chorus 1" #21
     <a,\6 e\5 a\4>8 <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> |
     <d\5 a\4 d'\3>8 <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3>\glissando <e\5 b\4 e'\3> <e\5 b\4 e'\3> <e\5 b\4 e'\3> <e\5 b\4 e'\3> |
     <a,\6 e\5 a\4>8 <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> |
@@ -32,7 +32,7 @@ guitar = {
     <d\5 a\4 d'\3>8 <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> |
     <fis,\6 cis\5 fis\4>8 <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> |
     <d\5 a\4 d'\3>8 <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> |
-\mymark "Chorus" #31
+\mymark "Chorus 1" #31
     <cis\5 gis\4 cis'\3 e'\2 gis'\1>1 |
     <e\5 a\4 cis'\3 e'\2 a'\1>1 |
     <cis\5 gis\4 cis'\3 e'\2 gis'\1>1 |
@@ -41,7 +41,7 @@ guitar = {
     fis'2.\2\bendAfter #6 ^"full" r4 |
     <fis,\6 cis\5 fis\4 a\3 cis'\2 fis'\1>1~ |
     <fis,\6 cis\5 fis\4 a\3 cis'\2 fis'\1>1 |
-\mymark "2nd Verse" #39
+\mymark "Verse 2" #39
     cis8\5 gis\4 dis'\3 a,4\6 e8\5 b\4 b,\5~ |
     b,8\5 fis\4 cis'\3 fis,4\6 cis8\5 gis\4\glissando a\4 |
     cis8\5 gis\4 dis'\3 a,4\6 e8\5 b\4 b,\5~ |
@@ -58,7 +58,7 @@ guitar = {
     b,8\5 fis\4 cis'\3 fis,4\6 cis8\5 gis\4\glissando a\4 |
     cis8\5 gis\4 dis'\3 a,4\6 e8\5 b\4 b,\5~ |
     b,8\5 fis\4 cis'\3 fis,4\6 cis8\5 gis\4\glissando a\4 |
-\mymark "Bridge" #55
+\mymark "Pre-Chorus 2" #55
     <a,\6 e\5 a\4>8 <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> |
     <d\5 a\4 d'\3>8 <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3>\glissando <e\5 b\4 e'\3> <e\5 b\4 e'\3> <e\5 b\4 e'\3> <e\5 b\4 e'\3> |
     <a,\6 e\5 a\4>8 <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> |
@@ -69,7 +69,7 @@ guitar = {
     <d\5 a\4 d'\3>8 <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> |
     <fis,\6 cis\5 fis\4>8 <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> |
     <d\5 a\4 d'\3>8 <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> |
-\mymark "Chorus" #65
+\mymark "Chorus 2" #65
     <cis\5 gis\4 cis'\3 e'\2 gis'\1>1 |
     <e\5 a\4 cis'\3 e'\2 a'\1>1 |
     <cis\5 gis\4 cis'\3 e'\2 gis'\1>1 |
@@ -88,7 +88,7 @@ guitar = {
     cis'1\4 |
     <fis\4 a\3 cis'\2 fis'\1>1~ |
     <fis\4 a\3 cis'\2 fis'\1>1 |
-\mymark "3rd Verse" #83
+\mymark "Verse 3" #83
     cis8\5 gis\4 dis'\3 a,4\6 e8\5 b\4 b,\5~ |
     b,8\5 fis\4 cis'\3 fis,4\6 cis8\5 gis\4\glissando a\4 |
     cis8\5 gis\4 dis'\3 a,4\6 e8\5 b\4 b,\5~ |
@@ -105,7 +105,7 @@ guitar = {
     b,8\5 fis\4 cis'\3 fis,4\6 cis8\5 gis\4\glissando a\4 |
     cis8\5 gis\4 dis'\3 a,4\6 e8\5 b\4 b,\5~ |
     b,8\5 fis\4 cis'\3 fis,4\6 cis8\5 gis\4\glissando a\4 |
-\mymark "Bridge" #99
+\mymark "Pre-Chorus 3" #99
     <a,\6 e\5 a\4>8 <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> |
     <d\5 a\4 d'\3>8 <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3>\glissando <e\5 b\4 e'\3> <e\5 b\4 e'\3> <e\5 b\4 e'\3> <e\5 b\4 e'\3> |
     <a,\6 e\5 a\4>8 <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> |
@@ -116,7 +116,7 @@ guitar = {
     <d\5 a\4 d'\3>8 <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> |
     <fis,\6 cis\5 fis\4>8 <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> <fis,\6 cis\5 fis\4> |
     <d\5 a\4 d'\3>8 <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> <d\5 a\4 d'\3> |
-\mymark "Chorus" #109
+\mymark "Chorus 3" #109
     <cis\5 gis\4 cis'\3 e'\2 gis'\1>1 |
     <e\5 a\4 cis'\3 e'\2 a'\1>1 |
     <cis\5 gis\4 cis'\3 e'\2 gis'\1>1 |

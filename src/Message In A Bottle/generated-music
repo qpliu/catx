@@ -11,6 +11,8 @@
 \include "generated-guitar"
 \include "generated-bass"
 \include "generated-drs"
+\include "generated-steelpan"
+\include "generated-steelpan_lyrics"
 
 layoutmusic = <<
     \tag #'(allPart kavPart) \new Staff \with {
@@ -53,6 +55,14 @@ layoutmusic = <<
         \markupStuff
         \drs
     >>
+    \tag #'(allPart susanPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Steelpan" }
+        shortInstrumentName = \markup { \rotate #90 "Sp" }
+    } <<
+        \markupStuff
+        \steelpan
+    >>
+    \tag #'(allPart susanPart) \steelpanLyrics
 >>
 
 midimusic = <<
@@ -71,4 +81,7 @@ midimusic = <<
     \tag #'(midiGg) \new DrumStaff = "generated-drs" \with {
         drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drs
+    \tag #'(midiSusan) \new Staff = "generated-steelpan" \with {
+        midiInstrument = #"bassoon"
+    } \steelpan
 >>
