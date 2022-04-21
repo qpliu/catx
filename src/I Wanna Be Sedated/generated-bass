@@ -43,16 +43,16 @@ bass = {
     b,4\2 b,8\2 b,\2 b,\2 b,\2 b,\2 b,\2 |
 \mymark "Break" #40
     e,8\3 e,\3 e,\3 e,\3 e,\3 e,\3 e,\3 e,\3 |
-    a,8\2 a,\2 a,\2 a,\2 a,\2 a,\2 a,\2\glissando b,\2 |
+    a,8\2 a,\2 a,\2 a,\2 a,\2 a,\2 a,\2 a,\2 |
     b,8\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 |
     e,8\3 e,\3 e,\3 e,\3 e,\3 e,\3 e,\3 e,\3 |
     e,8\3 e,\3 e,\3 e,\3 e,\3 e,\3 e,\3 e,\3 |
-    a,8\2 a,\2 a,\2 a,\2 a,\2 a,\2 a,\2\glissando b,\2 |
+    a,8\2 a,\2 a,\2 a,\2 a,\2 a,\2 a,\2 a,\2 |
     b,8\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 |
     e,8\3 e,\3 e,\3 e,\3 e,\3 e,\3 e,\3 e,\3 |
 \mymark "Verse 3" #48
-    f,8\3\glissando fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 |
-    fis,8\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 |
+    dis,8\3\glissando e,\3 e,\3 e,\3 e,\3 e,\3 e,\3 e,\3 |
+    e,8\3 e,\3 e,\3 e,\3 e,\3 e,\3 e,\3 e,\3 |
     fis,8\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 |
     fis,8\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 |
     b,8\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 |
@@ -86,23 +86,23 @@ bass = {
     fis,4\3 fis,\3 fis,8\3 fis,\3 fis,\3 fis,\3 |
     cis4\2 cis8\2 cis\2 cis\2 cis\2 cis\2 cis\2 |
     fis,4\3 fis,\3 fis,8\3 fis,\3 fis,\3 fis,\3 |
-    b,8\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2\glissando cis\2 |
+    b,8\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 |
     cis8\2 cis\2 cis\2 cis\2 cis\2 cis\2 cis\2 cis\2 |
 \mymark "Outro" #84
     fis,8\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 |
-    b,8\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2\glissando cis\2 |
+    b,8\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 |
     cis8\2 cis\2 cis\2 cis\2 cis\2 cis\2 cis\2 cis\2 |
     fis,8\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 |
     fis,8\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 |
-    b,8\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2\glissando cis\2 |
+    b,8\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 |
     cis8\2 cis\2 cis\2 cis\2 cis\2 cis\2 cis\2 cis\2 |
     fis,8\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 |
     fis,8\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 |
-    b,8\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2\glissando cis\2 |
+    b,8\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 |
     cis8\2 cis\2 cis\2 cis\2 cis\2 cis\2 cis\2 cis\2 |
     fis,8\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 |
     fis,8\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 fis,\3 |
-    b,8\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2\glissando cis\2 |
+    b,8\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 |
     cis8\2 cis\2 cis\2 cis\2 cis\2 cis\2 cis\2 cis\2 |
     fis1\1~ |
     fis1\1~ |
