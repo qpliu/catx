@@ -24,9 +24,9 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "!check=20|-"4. "oh"8 "-"2
 \mymark "Pre-Chorus 1" #21
     "!mark=Pre-Chorus 1|!check=21|-"8 ">I'll"4 "send"8 "-" "an"4 "S."8
-    "!check=22|-"8 "O." "-" "S." "-" "to" "the" "world"
+    "!check=22|-"8 "O."4 "S."8 "-" "to" "the" "world"
     "!check=23|-"8 "I'll"4 "send"8 "-" "an"4 "S."8
-    "!check=24|-"8 "O." "-" ">S." "-" "to" "the" "world"
+    "!check=24|-"8 ">O."4 "S."8 "-" "to" "the" "world"
     "!check=25|-"8 "I"4 "hope"8 "-" "that"4 "some-"8
     "!check=26|-"8 "one"4 "gets"8 "-" "my" "-"4
     "!check=27|-"8 ">I"4 "hope"8 "-" "that"4 "some-"8
@@ -40,20 +40,20 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "!check=34|-"1
     ">Mes-|!check=35"8 "sage"4 "in"8 "-" "a"4 "bot-"8
     "!check=36|-"4. "tle"8 "-"4 "yeah|!bg=img=../yeah.png"
-    "!check=37|!bg=|-"4 "-"2 ">@"4
-    "!check=38"4 "@"2 "@"4
+    "!check=37|!bg=|-"4 "-"4. ">@"
+    "!check=38"8 "@"2 "@"4.
 \mymark "Verse 2" #39
-    "!mark=Verse 2|!check=39"4 "@"2 "A"8 "year"
-    "!check=40|-"4 "has"8 "passed" "-"4. "since"8
-    "I|!check=41"8 "wrote"4 "my"8 "note" "-"4.
+    "!mark=Verse 2|!check=39"8 "@"2 "A"4 "year"8
+    "!check=40|-"8 "has" "-" "passed" "-"4 "since"8 "I"
+    "wrote|!check=41"4 "my" "note" "-"
     "!check=42|-"1
-    "!check=43|-"4. ">But"8 "I" "should"4 "have"8
-    "known|!check=44"4 "this"8 "right" "from"4 "the"
-    "start|!check=45"8 "-"2. \skip8
+    "!check=43|-"2 \skip8 ">I"4 "should"8
+    "!check=44|-"8 "have" "-" "known" "-" "this" "-"4
+    \tuplet 3/2 { "right|!check=45"4 "from" "the" } "start"4 "-"
     "!check=46|-"1
     "!check=47|-"2 ">On-"4 "ly"
-    "hope|!check=48"4 "can"8 "keep" "-"4. "me"8
-    "to-|!check=49"8 "ge-"4 "ther"8 "-"2
+    "hope|!check=48"4 "can" \tuplet 3/2 { "keep"4 "me" "to-" }
+    "ge-|!check=49"4 "ther" "-"2
     "!check=50|-"1
     "!check=51|-"4. ">Love"8 "-" "can"4 "mend"8
     "!check=52|-"8 "your"4 "life"8 "-" "but"4 "Love"8
@@ -61,9 +61,9 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "!check=54|-"1
 \mymark "Pre-Chorus 2" #55
     "!mark=Pre-Chorus 2|!check=55|-"8 ">I'll"4 "send"8 "-" "an"4 "S."8
-    "!check=56|-"8 "O." "-" "S." "-" "to" "he" "world"
+    "!check=56|-"8 "O."4 "S."8 "-" "to" "he" "world"
     "!check=57|-"8 "I'll"4 "send"8 "-" "an"4 "S."8
-    "!check=58|-"8 "O." "-" ">S." "-" "to" "the" "world"
+    "!check=58|-"8 ">O."4 "S."8 "-" "to" "the" "world"
     "!check=59|-"8 "I"4 "hope"8 "-" "that"4 "some-"8
     "!check=60|-"8 "one"4 "gets"8 "-" "my" "-"4
     "!check=61|-"8 ">I"4 "hope"8 "-" "that"4 "some-"8
@@ -90,27 +90,27 @@ vocalsKaraoke = \new Lyrics \lyricmode {
     "!check=81"8 "@"2 "@|!bg=4"4.
     "!check=82"8 "@|!bg=3"2 "@|!bg=2"4.
 \mymark "Verse 3" #83
-    "!mark=Verse 3|!check=83"8 "@|!bg=1"2 "Walked|!bg="8 "out" "this"
-    "!check=84|-"4 "mor-"8 "ning" "-"4. "don't"8
-    "be-|!check=85"8 "lieve"4 "what"8 "-" "I"4 "saw"8
-    "!check=86|-"1
-    "!check=87|-"4. ">A"8 "hun-" "dred"4 "bil-"8
-    "lion|!check=88"4 "bot-"8 "tles" "-"2
-    "washed|!check=89"8 "up"4 "on"8 "-" "the"4 "shore"8
+    "!mark=Verse 3|!check=83"8 "@|!bg=1"2 "Walked|!bg="4 "out"8
+    "!check=84|-"8 "this" "mor-"4 "ning" "-"8 "don't"
+    "!check=85|-"8 "be-" "lieve"4 "what" "I"
+    "saw|!check=86"4. "-"2 \skip8
+    "!check=87|-"4. ">A"8 \tuplet 3/2 { "hun-"4 "dred" "bil-" }
+    "lion|!check=88"4 "bot-" "tles" "-"8 ">washed"
+    "washed|!check=89"8 "up" "on"4 "the" "shore"
     "!check=90|-"1
-    "!check=91|-"2 ">Seems"4 "like"8 "I'm"
-    "not|!check=92"4 "a-"8 "lone" "in"4 "-"8 "being"
+    "!check=91|-"2 ">Seems"4 "I'm"
+    "not|!check=92"4 "a-"8 "lone"4 "-"8 "be-" "ing"
     "a-|!check=93"8 "lone"4 "-"2 \skip8
-    "!check=94|-"2. \skip8 ">A"8
-    "!check=95|-"8 "hun-" "dred" "bil-" "-" "lion"4 "cast-"8
-    "!check=96|-"8 "a-"4 "ways"8 "-"4. "look-"8
+    "!check=94|-"2. \skip8 ">Hun-"8
+    "!check=95|-"8 "dred" "bil-"4 "lion" "cast-"
+    "a-|!check=96"4 "ways" "-"4. "look-"8
     "!check=97|-"8 "ing"4 "for"8 "-" "a"4 "home"8
     "!check=98|-"1
 \mymark "Pre-Chorus 3" #99
     "!mark=Pre-Chorus 3|!check=99|-"8 ">I'll"4 "send"8 "-" "an"4 "S."8
-    "!check=100|-"8 "O." "-" "S." "-" "to" "the" "world"
+    "!check=100|-"8 "O."4 "S."8 "-" "to" "the" "world"
     "!check=101|-"8 "I'll"4 "send"8 "-" "an"4 "S."8
-    "!check=102|-"8 "O." "-" ">S." "-" "to" "the" "world"
+    "!check=102|-"8 ">O."4 "S."8 "-" "to" "the" "world"
     "!check=103|-"8 "I"4 "hope"8 "-" "that"4 "some-"8
     "!check=104|-"8 "one"4 "gets"8 "-" "my" "-"4
     "!check=105|-"8 ">I"4 "hope"8 "-" "that"4 "some-"8

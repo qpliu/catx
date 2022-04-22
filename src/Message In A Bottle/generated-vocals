@@ -24,9 +24,9 @@ vocals = {
     fis'4. dis' r4 |
 \mymark "Pre-Chorus 1" #21
     r8 a4 a a d'8~ |
-    d'8 cis'( b) b4 cis'8 b a~ |
+    d'8 cis'4 b cis'8 b a~ |
     a8 a4 a a d'8~ |
-    d'8 cis'( b) b4 cis'8 b a~ |
+    d'8 cis'4 b cis'8 b a~ |
     a8 a4 a a a8~ |
     a8 a4 a a8 r4 |
     r8 a4 a a a8~ |
@@ -43,27 +43,27 @@ vocals = {
     r1 |
     r1 |
 \mymark "Verse 2" #39
-    r2. e'8 e'~ |
-    e'4 gis'8 fis'4. r8 e' |
-    gis'8 e'4 e' r4. |
+    r2 r8 gis'4 e'8~ |
+    e'8 gis'4 fis'4. e'8 fis' |
+    gis'4 e' fis' r |
     r1 |
-    r4. e'8 gis' e'4 e'8 |
-    e'4 gis'8 e' e'4 e' |
-    gis'4. r2 r8 |
+    r2 r8 gis'4 e'8~ |
+    e'8 gis'4 fis' e' r8 |
+    \tuplet 3/2 { e'4 fis' gis' } gis'4\glissando r |
     r1 |
-    r2 gis'4 gis' |
-    e'4 gis'8 fis'4. r8 e' |
-    gis'8\glissando e'4 e' r4. |
+    r2 gis'4 e' |
+    e'4 fis' \tuplet 3/2 { a'4 gis' fis' } |
+    gis'4 e' r2 |
     r1 |
     r4. gis'4 e' e'8~ |
-    e'8 gis'4 fis' e' gis'8~ |
-    gis'8 e'4 e' gis' fis'8~ |
-    fis'4. r2 r8 |
+    e'8 gis'4 fis' e' fis'8~ |
+    fis'8 gis'4 e' dis' e'8~ |
+    e'8 cis'4 r2 r8 |
 \mymark "Pre-Chorus 2" #55
     r8 a4 a a d'8~ |
-    d'8 cis'( b) b4 cis'8 b a~ |
+    d'8 cis'4 b cis'8 b a~ |
     a8 a4 a a d'8~ |
-    d'8 cis'( b) b4 cis'8 b a~ |
+    d'8 cis'4 b cis'8 b a~ |
     a8 a4 a a a8~ |
     a8 a4 a a8 r4 |
     r8 a4 a a a8~ |
@@ -90,27 +90,27 @@ vocals = {
     r1 |
     r1 |
 \mymark "Verse 3" #83
-    r2 r8 gis' e' e'~ |
-    e'4 gis'8 fis'4. r8 e' |
-    gis'8 e'4 e' gis' fis'8~ |
+    r2 r8 gis'4 e'8~ |
+    e'8 gis' fis'4 dis' r8 gis'~ |
+    gis'8 a' fis'4 gis' e' |
     fis'4. r2 r8 |
-    r4. e'8 gis' e'4 e'8 |
-    e'4 gis'8 e'4. r4 |
-    gis'8 e'4 e' gis' fis'8~ |
-    fis'4. r2 r8 |
-    r2 gis'4 gis'8 gis' |
-    e'4 gis'8 fis' fis'4 r8 e' |
-    gis'8\glissando e'4 r2 r8 |
+    r4. e'8 \tuplet 3/2 { gis'4 e' gis' } |
+    e'4 fis' dis' r8 gis'~ |
+    gis'8 a' gis'4 fis' dis'\glissando |
+    cis'4. r2 r8 |
+    r2 b'4 a' |
+    gis'4 fis'8 a'4 r8 fis' gis' |
+    a'8 gis'4 r2 r8 |
     r2. r8 e'~ |
-    e'8 gis' fis' gis'4 e' e'8~ |
-    e'8 gis'4 fis' e' gis'8~ |
-    gis'8 e'4 e' gis' fis'8~ |
-    fis'4. r2 r8 |
+    e'8 gis' fis'4 e' dis' |
+    fis'4 e' r4. gis'8~ |
+    gis'8 a'4 fis' e' fis'8~ |
+    fis'8 dis'4 r2 r8 |
 \mymark "Pre-Chorus 3" #99
     r8 a4 a a d'8~ |
-    d'8 cis'( b) b4 cis'8 b a~ |
+    d'8 cis'4 b cis'8 b a~ |
     a8 a4 a a d'8~ |
-    d'8 cis'( b) b4 cis'8 b a~ |
+    d'8 cis'4 b cis'8 b a~ |
     a8 a4 a a a8~ |
     a8 a4 a a8 r4 |
     r8 a4 a a a8~ |
@@ -144,13 +144,13 @@ vocals = {
     r1 |
     r2. r8 a |
     e'4 dis'8 cis'4 b e'8~ |
-    e'8 dis' cis' cis'4. r8 b |
+    e'8 dis'4 cis'4. r8 b |
     e'4 dis'8 cis'4 b e'8~ |
-    e'8 dis' cis' cis'4. r8 b |
+    e'8 dis'4 cis'4. r8 b |
     e'4 dis'8 cis'4 b e'8~ |
-    e'8 dis' cis' cis'4. r8 b |
+    e'8 dis'4 cis'4. r8 b |
     e'4 dis'8 cis'4 b e'8~ |
-    e'8 dis' cis' cis'4. r4 |
+    e'8 dis'4 cis'4. r4 |
     r1 |
     r1 |
     r1 |

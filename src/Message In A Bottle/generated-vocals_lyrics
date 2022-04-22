@@ -24,9 +24,9 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip4. "oh"8 \skip2 |
 \mymark "Pre-Chorus 1" #21
     \skip8 "I'll"4 "send"8 \skip8 "an"4 "S."8 |
-    \skip8 "O."8 \skip8 "S."8 \skip8 "to"8 "the" "world" |
+    \skip8 "O."4 "S."8 \skip8 "to"8 "the" "world" |
     \skip8 "I'll"4 "send"8 \skip8 "an"4 "S."8 |
-    \skip8 "O."8 \skip8 "S."8 \skip8 "to"8 "the" "world" |
+    \skip8 "O."4 "S."8 \skip8 "to"8 "the" "world" |
     \skip8 "I"4 "hope"8 \skip8 "that"4 "some-"8 |
     \skip8 "one"4 "gets"8 \skip8 "my"8 \skip4 |
     \skip8 "I"4 "hope"8 \skip8 "that"4 "some-"8 |
@@ -43,17 +43,17 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip1 |
     \skip1 |
 \mymark "Verse 2" #39
-    \skip2. "A"8 "year" |
-    \skip4 "has"8 "passed" \skip4. "since"8 |
-    "I"8 "wrote"4 "my"8 "note" \skip4. |
+    \skip2 \skip8 "A"4 "year"8 |
+    \skip8 "has"8 \skip8 "passed"8 \skip4 "since"8 "I" |
+    "wrote"4 "my" "note" \skip4 |
     \skip1 |
-    \skip4. "But"8 "I" "should"4 "have"8 |
-    "known"4 "this"8 "right" "from"4 "the" |
-    "start"8 \skip2. \skip8 |
+    \skip2 \skip8 "I"4 "should"8 |
+    \skip8 "have"8 \skip8 "known"8 \skip8 "this"8 \skip4 |
+    \tuplet 3/2 { "right"4 "from" "the" } "start"4 \skip4 |
     \skip1 |
     \skip2 "On-"4 "ly" |
-    "hope"4 "can"8 "keep" \skip4. "me"8 |
-    "to-"8 "ge-"4 "ther"8 \skip2 |
+    "hope"4 "can" \tuplet 3/2 { "keep"4 "me" "to-" } |
+    "ge-"4 "ther" \skip2 |
     \skip1 |
     \skip4. "Love"8 \skip8 "can"4 "mend"8 |
     \skip8 "your"4 "life"8 \skip8 "but"4 "Love"8 |
@@ -61,9 +61,9 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip1 |
 \mymark "Pre-Chorus 2" #55
     \skip8 "I'll"4 "send"8 \skip8 "an"4 "S."8 |
-    \skip8 "O."8 \skip8 "S."8 \skip8 "to"8 "he" "world" |
+    \skip8 "O."4 "S."8 \skip8 "to"8 "he" "world" |
     \skip8 "I'll"4 "send"8 \skip8 "an"4 "S."8 |
-    \skip8 "O."8 \skip8 "S."8 \skip8 "to"8 "the" "world" |
+    \skip8 "O."4 "S."8 \skip8 "to"8 "the" "world" |
     \skip8 "I"4 "hope"8 \skip8 "that"4 "some-"8 |
     \skip8 "one"4 "gets"8 \skip8 "my"8 \skip4 |
     \skip8 "I"4 "hope"8 \skip8 "that"4 "some-"8 |
@@ -90,27 +90,27 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip1 |
     \skip1 |
 \mymark "Verse 3" #83
-    \skip2 \skip8 "Walked"8 "out" "this" |
-    \skip4 "mor-"8 "ning" \skip4. "don't"8 |
-    "be-"8 "lieve"4 "what"8 \skip8 "I"4 "saw"8 |
+    \skip2 \skip8 "Walked"4 "out"8 |
+    \skip8 "this"8 "mor-"4 "ning" \skip8 "don't"8 |
+    \skip8 "be-"8 "lieve"4 "what" "I" |
+    "saw"4. \skip2 \skip8 |
+    \skip4. "A"8 \tuplet 3/2 { "hun-"4 "dred" "bil-" } |
+    "lion"4 "bot-" "tles" \skip8 "washed"8 |
+    "washed"8 "up" "on"4 "the" "shore" |
     \skip1 |
-    \skip4. "A"8 "hun-" "dred"4 "bil-"8 |
-    "lion"4 "bot-"8 "tles" \skip2 |
-    "washed"8 "up"4 "on"8 \skip8 "the"4 "shore"8 |
-    \skip1 |
-    \skip2 "Seems"4 "like"8 "I'm" |
-    "not"4 "a-"8 "lone" "in"4 \skip8 "being"8 |
+    \skip2 "Seems"4 "I'm" |
+    "not"4 "a-"8 "lone"4 \skip8 "be-"8 "ing" |
     "a-"8 "lone"4 \skip2 \skip8 |
-    \skip2. \skip8 "A"8 |
-    \skip8 "hun-"8 "dred" "bil-" \skip8 "lion"4 "cast-"8 |
-    \skip8 "a-"4 "ways"8 \skip4. "look-"8 |
+    \skip2. \skip8 "Hun-"8 |
+    \skip8 "dred"8 "bil-"4 "lion" "cast-" |
+    "a-"4 "ways" \skip4. "look-"8 |
     \skip8 "ing"4 "for"8 \skip8 "a"4 "home"8 |
     \skip1 |
 \mymark "Pre-Chorus 3" #99
     \skip8 "I'll"4 "send"8 \skip8 "an"4 "S."8 |
-    \skip8 "O."8 \skip8 "S."8 \skip8 "to"8 "the" "world" |
+    \skip8 "O."4 "S."8 \skip8 "to"8 "the" "world" |
     \skip8 "I'll"4 "send"8 \skip8 "an"4 "S."8 |
-    \skip8 "O."8 \skip8 "S."8 \skip8 "to"8 "the" "world" |
+    \skip8 "O."4 "S."8 \skip8 "to"8 "the" "world" |
     \skip8 "I"4 "hope"8 \skip8 "that"4 "some-"8 |
     \skip8 "one"4 "gets"8 \skip8 "my"8 \skip4 |
     \skip8 "I"4 "hope"8 \skip8 "that"4 "some-"8 |
