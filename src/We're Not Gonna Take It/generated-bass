@@ -1,0 +1,168 @@
+bass = {
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    e,4.\3 e,8\3 dis,4.\3 dis,8\3 |
+    cis,4.\3 cis,8\3 b,,4.\3 b,,8\3 |
+    e,4.\3 e,8\3 dis,4.\3 dis,8\3 |
+    cis,4.\3 cis,8\3 b,,4.\3 b,,8\3 |
+\mymark "Verse 1" #16
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 b,,\3 a,,\3~ |
+    a,,8\3 a,,\3 a,,\3 b,,\3\glissando cis,\3 e,\2 cis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,4\3 |
+    r8 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 r |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 b,,\3 a,,\3~ |
+    a,,8\3 a,,\3 a,,\3 b,,\3\glissando cis,\3 e,\2 cis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,4\3 |
+    r8 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 r |
+\mymark "Chorus" #32
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 b,,\3 a,,\3~ |
+    a,,8\3 a,,\3 a,,\3 fis,\2\glissando g,\2 fis,\2 e,4\2 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,4.\3 e,8\3 dis,4.\3 dis,8\3 |
+    cis,4.\3 cis,8\3 b,,4.\3 b,,8\3 |
+\mymark "Verse 2" #40
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 b,,\3 a,,\3~ |
+    a,,8\3 a,,\3 a,,\3 b,,\3\glissando cis,\3 e,\2 cis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,4\3 |
+    r8 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 r |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 b,,\3 a,,\3~ |
+    a,,8\3 a,,\3 a,,\3 b,,\3\glissando cis,\3 e,\2 cis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,4.\3 e,8\3 dis,4.\3 dis,8\3 |
+    cis,4.\3 cis,8\3 b,,4.\3 b,,8\3 |
+\mymark "Bridge" #56
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    cis,8\3 cis,\3 cis,\3 cis,\3 b,,\3 b,,\3 b,,\3 b,,\3 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    cis,8\3 cis,\3 cis,\3 cis,\3 b,,\3 b,,\3 b,,\3 b,,\3 |
+    e,,4\4 r8 e,,4.\4 e,,4\4 |
+    f,,4\4 r8 f,,4.\4 f,,4\4 |
+    fis,,4\4 r8 fis,,4.\4 fis,,4\4 |
+    r8 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 |
+    b,,8\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 |
+\mymark "Chorus" #65
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 b,,\3 a,,\3~ |
+    a,,8\3 a,,\3 a,,\3 fis,\2\glissando g,\2 fis,\2 e,4\2 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,4\3 |
+    r8 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 r |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 b,,\3 a,,\3~ |
+    a,,8\3 a,,\3 a,,\3 fis,\2\glissando g,\2 fis,\2 e,4\2 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,4.\3 e,8\3 dis,4.\3 dis,8\3 |
+    cis,4.\3 cis,8\3 b,,4.\3 b,,8\3 |
+\mymark "Solo" #81
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 b,,\3 a,,\3~ |
+    a,,8\3 a,,\3 a,,\3 b,,\3\glissando cis,\3 e,\2 cis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,4\3 |
+    r8 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 r |
+\mymark "Solo 2" #89
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 b,,\3 a,,\3~ |
+    a,,8\3 a,,\3 a,,\3 b,,\3\glissando cis,\3 e,\2 cis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,4.\3 e,8\3 dis,4.\3 dis,8\3 |
+    cis,4.\3 cis,8\3 b,,4.\3 b,,8\3 |
+\mymark "Bridge" #97
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    cis,8\3 cis,\3 cis,\3 cis,\3 b,,\3 b,,\3 b,,\3 b,,\3 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    cis,8\3 cis,\3 cis,\3 cis,\3 b,,\3 b,,\3 b,,\3 b,,\3 |
+    e,,4\4 r8 e,,4.\4 e,,4\4 |
+    f,,4\4 r8 f,,4.\4 f,,4\4 |
+    fis,,4\4 r8 fis,,4.\4 fis,,4\4 |
+    r8 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 |
+    b,,8\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 |
+\mymark "Chorus" #106
+    e,,4\4 r2. |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r8 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 |
+\mymark "Outro" #114
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 b,,\3 a,,\3~ |
+    a,,8\3 a,,\3 a,,\3 fis,\2\glissando g,\2 fis,\2 e,4\2 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,4\3 |
+    r8 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 r |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 b,,\3 a,,\3~ |
+    a,,8\3 a,,\3 a,,\3 fis,\2\glissando g,\2 fis,\2 e,4\2 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,4\3 |
+    r8 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 r |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 b,,\3 a,,\3~ |
+    a,,8\3 a,,\3 a,,\3 fis,\2\glissando g,\2 fis,\2 e,4\2 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,4\3 |
+    r8 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 r |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 b,,\3 a,,\3~ |
+    a,,8\3 a,,\3 a,,\3 fis,\2\glissando g,\2 fis,\2 e,4\2 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,4\3 |
+    r8 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 r |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 b,,\3 a,,\3~ |
+    a,,8\3 a,,\3 a,,\3 fis,\2\glissando g,\2 fis,\2 e,4\2 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,\3 b,,\3~ |
+    b,,8\3 b,,\3 b,,\3 cis,\3\glissando dis,\3 fis,\2 dis,4\3 |
+    e,,4\4 fis,,8\4 e,,\4 gis,,\4 e,,\4 cis,4\3 |
+    r8 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 b,,\3 r |
+    e,,1\4 |
+    r1 |
+}

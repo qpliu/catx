@@ -1,0 +1,169 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    "We're"4 "not" "gon-" "na"8 "take" |
+    \skip8 "it."8 \skip2. |
+    "No,"4 \skip8 "we"8 "ain't" "gon-" "na" "take" |
+    \skip8 "it."8 \skip2. |
+    "We're"4 "not" "gon-" "na"8 "take" |
+    \skip8 "it"8 \skip4 "a-"8 "ny" "more!"4 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1" #16
+    \skip4 "We've"4 "got" "the" |
+    "right"4 "to"8 "choose" \skip8 "and"8 \skip4 |
+    \skip4 "there"4 "ain't" "no" |
+    "way"4 "we'll"8 "lose" \skip8 "it."8 \skip4 |
+    \skip4 "This"4 "is" "our"8 "life," |
+    \skip4. "this"8 "is"4 "our"8 "song!" |
+    "-"1 |
+    \skip1 |
+    \skip4 "We'll"4 "fight" "the" |
+    "po-"8 "wers" "that" "be" \skip8 "just."8 \skip4 |
+    \skip4 "Don't"4 "pick" "our" |
+    "de-"4 "sti-"8 "ny" \skip8 "'cause"8 \skip4 |
+    \skip4 "You"4 "don't" "know"8 "us," |
+    \skip4. "You"8 "don't"4 "be-"8 "long!" |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus" #32
+    "We're"4 "not" "gon-" "na"8 "take" |
+    \skip8 "it!"8 \skip2. |
+    "No,"4 \skip8 "we"8 "ain't" "gon-" "na" "take" |
+    \skip8 "it."8 \skip2. |
+    "We're"4 "not" "gon-" "na"8 "take" |
+    \skip8 "it"8 \skip4 "a-"8 "ny" "more!"4 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 2" #40
+    \skip4 "You're"4 \skip4 "so"4 |
+    "con-"4 "de-"8 "scend-" \skip8 "ing."8 \skip4 |
+    \skip4 "Your"8 \skip8 "gall"4 "is" |
+    "ne-"4 "ver"8 "end-" \skip8 "ing."8 \skip4 |
+    \skip4 "We"4 "don't" "want"8 "no-" |
+    "thin'"4 "not"8 "a" "thing"4 "from"8 "you." |
+    \skip1 |
+    \skip1 |
+    \skip4 "Your"4 "life" "is" |
+    "trite"4 "and"8 "ja-" \skip8 "ded."8 \skip4 |
+    \skip4 "Bo-"4 "ring" "and" |
+    "con-"4 "fis-"8 "ca-" \skip8 "ted."8 \skip4 |
+    \skip4 "If"4 "that's" "your"8 "best," |
+    \skip4. "your"8 "best"4 "won't"8 "do!" |
+    \skip1 |
+    \skip1 |
+\mymark "Bridge" #56
+    \skip2 "Oh,"2 |
+    "oh,"2 "oh." |
+    \skip2 "Oh,"2 |
+    "oh."2 "oh,"4 "We're" |
+    "right!"2. "We're"4 |
+    "free!"2. "We'll"4 |
+    "fight!"2. "You'll"4 |
+    "see!"1 |
+    \skip2 "Oh,"4 "oh." |
+\mymark "Chorus" #65
+    "We're"4 "not" "gon-" "na"8 "take" |
+    \skip8 "it."8 \skip2. |
+    "No,"4 \skip8 "we"8 "ain't" "gon-" "na" "take" |
+    \skip8 "it."8 \skip2. |
+    "We're"4 "not" "gon-" "na"8 "take" |
+    \skip8 "it"8 \skip4 "a-"8 "ny" "more!"4 |
+    "-"2 \skip2 |
+    \skip1 |
+    "We're"4 "not" "gon-" "na"8 "take" |
+    \skip8 "it."8 \skip2. |
+    "No,"4 \skip8 "we"8 "ain't" "gon-" "na" "take" |
+    \skip8 "it."8 \skip2. |
+    "We're"4 "not" "gon-" "na"8 "take" |
+    \skip8 "it"8 \skip4 "a-"8 "ny" "more!"4 |
+    \skip1 |
+    \skip2 \skip8 "No"8 "way!"4 |
+\mymark "Solo" #81
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Solo 2" #89
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Bridge" #97
+    \skip2 "Oh,"2 |
+    "oh,"2 "oh." |
+    \skip2 "Oh,"2 |
+    "oh."2 "oh,"4 "We're" |
+    "right!"2. "We're"4 |
+    "free!"2. "We'll"4 |
+    "fight!"2. "You'll"4 |
+    "see!"1 |
+    \skip1 |
+\mymark "Chorus" #106
+    "We're"4 "not" "gon-" "na"8 "take" |
+    \skip8 "it."8 \skip2. |
+    "No,"4 \skip8 "we"8 "ain't" "gon-" "na" "take" |
+    \skip8 "it."8 \skip2. |
+    "We're"4 "not" "gon-" "na"8 "take" |
+    \skip8 "it"8 \skip4 "a-"8 "ny" "more!"4 |
+    \skip1 |
+    \skip1 |
+\mymark "Outro" #114
+    "We're"4 "not" "gon-" "na"8 "take" |
+    \skip8 "it."8 \skip2. |
+    "No,"4 \skip8 "we"8 "ain't" "gon-" "na" "take" |
+    \skip8 "it."8 \skip2. |
+    "We're"4 "not" "gon-" "na"8 "take" |
+    \skip8 "it"8 \skip4 "a-"8 "ny" "more!"4 |
+    \skip1 |
+    \skip1 |
+    "We're"4 "not" "gon-" "na"8 "take" |
+    \skip8 "it."8 \skip2. |
+    "No,"4 \skip8 "we"8 "ain't" "gon-" "na" "take" |
+    \skip8 "it."8 \skip2. |
+    "We're"4 "not" "gon-" "na"8 "take" |
+    \skip8 "it"8 \skip4 "a-"8 "ny" "more!"4 |
+    \skip1 |
+    \skip1 |
+    "We're"4 "not" "gon-" "na"8 "take" |
+    \skip8 "it."8 \skip2. |
+    "No,"4 \skip8 "we"8 "ain't" "gon-" "na" "take" |
+    \skip8 "it."8 \skip2. |
+    "We're"4 "not" "gon-" "na"8 "take" |
+    \skip8 "it"8 \skip4 "a-"8 "ny" "more!"4 |
+    \skip1 |
+    \skip1 |
+    "We're"4 "not" "gon-" "na"8 "take" |
+    \skip8 "it."8 \skip2. |
+    "No,"4 \skip8 "we"8 "ain't" "gon-" "na" "take" |
+    \skip8 "it."8 \skip2. |
+    "We're"4 "not" "gon-" "na"8 "take" |
+    \skip8 "it"8 \skip4 "a-"8 "ny" "more!"4 |
+    \skip1 |
+    \skip1 |
+    "We're"4 "not" "gon-" "na"8 "take" |
+    \skip8 "it."8 \skip2. |
+    "No,"4 \skip8 "we"8 "ain't" "gon-" "na" "take" |
+    \skip8 "it."8 \skip2. |
+    "We're"4 "not" "gon-" "na"8 "take" |
+    \skip8 "it"8 \skip4 "a-"8 "ny" "more!"4 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}
