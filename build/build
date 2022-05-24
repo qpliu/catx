@@ -24,6 +24,7 @@ doiftabscolorsdotext(){
     do
 	case "$a" in
 	    *.gp5) ;;
+	    *.gp4) ;;
 	    *.wav) ;;
 	    *.midi) ;;
 	    *)

@@ -1,0 +1,134 @@
+midiOne = {
+\mymark "Intro" #1
+    r1 |
+    <a, e b cis'>1~ |
+    <a, e b cis'>1 |
+    <e, b, fis gis>1~ |
+    <e, b, fis gis>2~ <e, b, fis gis>8 <a, d a>4. |
+    <a, e b cis'>1~ |
+    <a, e b cis'>1 |
+    <e, b, fis gis>1~ |
+    <e, b, fis gis>2~ <e, b, fis gis>8 <a, d a>4. |
+    <a, e b cis'>1~ |
+    <a, e b cis'>1 |
+    <e, b, fis gis>1~ |
+    <e, b, fis gis>2~ <e, b, fis gis>8 <a, d a>4. |
+\mymark "Verse 1" #14
+    <a, e a cis'>1 |
+    <fis, cis fis a cis'>1 |
+    <cis gis cis' e'>1~ |
+    <cis gis cis' e'>1 |
+    <a, e a cis'>1 |
+    <fis, cis fis a cis'>1 |
+    <cis gis cis' e'>1~ |
+    <cis gis cis' e'>1 |
+    <a, e a cis'>1 |
+    <fis, cis fis a cis'>1 |
+    <cis gis cis' e'>1~ |
+    <cis gis cis' e'>1 |
+    <a, e a cis'>1 |
+    <fis, cis fis a cis'>1 |
+    <cis gis cis' e'>1~ |
+    <cis gis cis' e'>1 |
+\mymark "Pre-Chorus 1" #30
+    <a d' fis'>1~ |
+    <a d' fis'>1 |
+    <b, e gis b>1~ |
+    <b, e gis b>1 |
+    <a d' fis'>1~ |
+    <a d' fis'>1 |
+    <b, e gis b>1~ |
+    <b, e gis b>1 |
+\mymark "Chorus 1" #38
+    <a, e b cis'>1~ |
+    <a, e b cis'>1 |
+    <e, b, fis gis>1~ |
+    <e, b, fis gis>2~ <e, b, fis gis>8 <a, d a>4. |
+    <a, e b cis'>1~ |
+    <a, e b cis'>1 |
+    <e, b, fis gis>1~ |
+    <e, b, fis gis>2~ <e, b, fis gis>8 <a, d a>4. |
+    <a, e b cis'>1~ |
+    <a, e b cis'>1 |
+    <e, b, fis gis>1~ |
+    <e, b, fis gis>2~ <e, b, fis gis>8 <a, d a>4. |
+    <a, e b cis'>1~ |
+    <a, e b cis'>1 |
+    <e, b, fis gis>1~ |
+    <e, b, fis gis>2~ <e, b, fis gis>8 <a, d a>4. |
+\mymark "Verse 2" #54
+    <a, e a cis'>1 |
+    <fis, cis fis a cis'>1 |
+    <cis gis cis' e'>1~ |
+    <cis gis cis' e'>1 |
+    <a, e a cis'>1 |
+    <fis, cis fis a cis'>1 |
+    <cis gis cis' e'>1~ |
+    <cis gis cis' e'>1 |
+    <a, e a cis'>1 |
+    <fis, cis fis a cis'>1 |
+    <cis gis cis' e'>1~ |
+    <cis gis cis' e'>1 |
+    <a, e a cis'>1 |
+    <fis, cis fis a cis'>1 |
+    <cis gis cis' e'>1~ |
+    <cis gis cis' e'>1 |
+\mymark "Pre-Chorus 2" #70
+    <a d' fis'>1~ |
+    <a d' fis'>1 |
+    <b, e gis b>1~ |
+    <b, e gis b>1 |
+    <a d' fis'>1~ |
+    <a d' fis'>1 |
+    <b, e gis b>1~ |
+    <b, e gis b>1 |
+\mymark "Chorus 2" #78
+    <a, e b cis'>1~ |
+    <a, e b cis'>1 |
+    <e, b, fis gis>1~ |
+    <e, b, fis gis>2~ <e, b, fis gis>8 <a, d a>4. |
+    <a, e b cis'>1~ |
+    <a, e b cis'>1 |
+    <e, b, fis gis>1~ |
+    <e, b, fis gis>2~ <e, b, fis gis>8 <a, d a>4. |
+    <a, e b cis'>1~ |
+    <a, e b cis'>1 |
+    <e, b, fis gis>1~ |
+    <e, b, fis gis>2~ <e, b, fis gis>8 <a, d a>4. |
+    <a, e b cis'>1~ |
+    <a, e b cis'>1 |
+    <e, b, fis gis>1~ |
+    <e, b, fis gis>2~ <e, b, fis gis>8 <a, d a>4. |
+\mymark "Bridge" #94
+    <fis ais dis' fis' b'>1 |
+    <d fis b d' g'>1 |
+    <e gis cis' e' a'>1 |
+    <e, b, e gis b>1 |
+    <fis ais dis' fis' b'>1 |
+    <g, d g b d' g'>1 |
+    <a, e a cis'>1~ |
+    <a, e a cis'>1~ |
+    <a, e a cis'>1~ |
+    <a, e a cis'~>1 |
+    <e,~ b,~ e~ gis~ cis'>1 |
+    <e, b, e gis>1~ |
+    <e, b, e gis>1~ |
+    <e, b, e gis>2~ <e, b, e gis>8 <d a d'>4. |
+\mymark "Outro" #108
+    <a, e b cis'>1~ |
+    <a, e b cis'>1 |
+    <e, b, fis gis>1~ |
+    <e, b, fis gis>2~ <e, b, fis gis>8 <a, d a>4. |
+    <a, e b cis'>1~ |
+    <a, e b cis'>1 |
+    <e, b, fis gis>1~ |
+    <e, b, fis gis>2~ <e, b, fis gis>8 <a, d a>4. |
+    <a, e b cis'>1~ |
+    <a, e b cis'>1 |
+    <e, b, fis gis>1~ |
+    <e, b, fis gis>2~ <e, b, fis gis>8 <a, d a>4. |
+    <a, e b cis'>1~ |
+    <a, e b cis'>1 |
+    <e, b, fis gis>1~ |
+    <e, b, fis gis>2~ <e, b, fis gis>8 <a, d a>4. |
+}

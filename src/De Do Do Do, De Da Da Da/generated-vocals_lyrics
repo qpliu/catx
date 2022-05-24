@@ -1,0 +1,135 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1" #14
+    \skip4. "Don't"8 \skip8 "think"8 \skip8 "me"8 |
+    \skip2 \skip8 "un-"8 \skip8 "kind"8 |
+    \skip1 |
+    \skip1 |
+    \skip4. "Words"8 \skip8 "are"8 \skip8 "hard"8 |
+    \skip2 \skip8 "to"8 \skip8 "find"8 |
+    \skip1 |
+    \skip1 |
+    \skip8 "They're"8 \skip8 "on-"4 "ly" "cheques"8 |
+    \skip8 "I've"4 "left" "un-"4. |
+    \skip8 "signed"4. \skip2 |
+    \skip1 |
+    \skip8 "From"16 \skip16 "the"8 "banks" \skip8 "of"8 \skip8 "cha-"8 |
+    \skip8 "os"4 "in" "my" "mind"8 |
+    \skip1 |
+    \skip1 |
+\mymark "Pre-Chorus 1" #30
+    \skip4. "And"8 "when"16 \skip16 "their"4 "el-"8 |
+    \skip8 "-o-"4 "quen-" "ces" "capes"8 |
+    \skip4 "me"8 \skip2 \skip8 |
+    \skip1 |
+    \skip8 "Their"4 "lo-" "gic" "ties"8 |
+    \skip8 "me"4 "up" "and" "rapes"8 |
+    \skip4 "me"4 \skip2 |
+    \skip2. \skip8 "De"8 |
+\mymark "Chorus 1" #38
+    "Do"4 "Do" "Do" \skip8 "De"8 |
+    "Da"4 "Da" "Da" \skip8 "is"8 |
+    "all"8 "I"4 "want" "to" "say"8 |
+    \skip8 "to"4 "you"8 \skip4. "De"8 |
+    "Do"4 "Do" "Do" \skip8 "De"8 |
+    "Da"4 "Da" "Da" \skip8 "Their"8 |
+    "in-"8 "no-"4 "cence" "will" "pull"8 |
+    \skip8 "me"4 "through"8 \skip4. "De"8 |
+    "Do"4 "Do" "Do" \skip8 "De"8 |
+    "Da"4 "Da" "Da" \skip8 "is"8 |
+    "all"8 "I"4 "want" "to" "say"8 |
+    \skip8 "to"4 "you"8 \skip4. "De"8 |
+    "Do"4 "Do" "Do" \skip8 "De"8 |
+    "Da"4 "Da" "Da" \skip8 "The "8 |
+    "mea-"8 "ning"4 "less" "and" "all"8 |
+    \skip8 "that's"4 "true"8 \skip2 |
+\mymark "Verse 2" #54
+    \skip2. "Po-"8 "ets" |
+    \skip8 "priest"8 \skip8 "and"8 \skip8 "po-"8 \skip8 "li-"8 |
+    "ti-"8 "cians"4 \skip2 \skip8 |
+    \skip1 |
+    \skip8 "Have"8 \skip8 "words"8 \skip8 "to"8 \skip8 "thank"8 |
+    \skip8 "for"8 \skip8 "their"8 \skip8 "po-"8 "si-" "tions" |
+    \skip1 |
+    \skip1 |
+    \skip2. "Words"16 \skip16 "that"8 |
+    \skip8 "scream"8 \skip8 "for"8 \skip8 "you"8 \skip8 "sub-"8 |
+    "mis-"8 "sion"4 \skip2 \skip8 |
+    \skip1 |
+    \skip8 "And"8 "no" "one's"4 "jam-"8 "min'" "their" |
+    \skip8 "trans"8 "mis-" "sion"4. \skip4 |
+    \skip1 |
+    \skip1 |
+\mymark "Pre-Chorus 2" #70
+    \skip4. "Cos'"8 "when"16 \skip16 "their"4 "e-"8 |
+    \skip8 "-loqu-"4 "ence" "es-" "-capes"8 |
+    \skip4 "you"8 \skip2 \skip8 |
+    \skip1 |
+    \skip8 "Their"4 "lo-" "gic" "ties"8 |
+    \skip8 "me"4 "up" "and" "rapes"8 |
+    \skip4 "you"4 \skip2 |
+    \skip2. \skip8 "De"8 |
+\mymark "Chorus 2" #78
+    "Do"4 "Do" "Do" \skip8 "De"8 |
+    "Da"4 "Da" "Da" \skip8 "is"8 |
+    "all"8 "I"4 "want" "to" "say"8 |
+    \skip8 "to"4 "you"8 \skip4. "De"8 |
+    "Do"4 "Do" "Do" \skip8 "De"8 |
+    "Da"4 "Da" "Da" \skip8 "Their"8 |
+    "in-"8 "no-"4 "cence" "will" "pull"8 |
+    \skip8 "me"4 "through"8 \skip4. "De"8 |
+    "Do"4 "Do" "Do" \skip8 "De"8 |
+    "Da"4 "Da" "Da" \skip8 "is"8 |
+    "all"8 "I"4 "want" "to" "say"8 |
+    \skip8 "to"4 "you"8 \skip4. "De"8 |
+    "Do"4 "Do" "Do" \skip8 "De"8 |
+    "Da"4 "Da" "Da" \skip8 "The "8 |
+    "mea-"8 "ning"4 "less" "and" "all"8 |
+    \skip8 "that's"4 "true" \skip4. |
+\mymark "Bridge" #94
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Outro" #108
+    "Do"4 "Do" "Do" \skip8 "De"8 |
+    "Da"4 "Da" "Da" \skip8 "is"8 |
+    "all"8 "I"4 "want" "to" "say"8 |
+    \skip8 "to"4 "you"8 \skip4. "De"8 |
+    "Do"4 "Do" "Do" \skip8 "De"8 |
+    "Da"4 "Da" "Da" \skip8 "Their"8 |
+    "in-"8 "no-"4 "cence" "will" "pull"8 |
+    \skip8 "me"4 "through"8 \skip4. "De"8 |
+    "Do"4 "Do" "Do" \skip8 "De"8 |
+    "Da"4 "Da" "Da" \skip8 "is"8 |
+    "all"8 "I"4 "want" "to" "say"8 |
+    \skip8 "to"4 "you"8 \skip4. "De"8 |
+    "Do"4 "Do" "Do" \skip8 "De"8 |
+    "Da"4 "Da" "Da" \skip8 "The "8 |
+    "mea-"8 "ning"4 "less" "and" "all"8 |
+    \skip8 "that's"4 "true"8 \skip2 |
+}

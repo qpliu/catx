@@ -1,0 +1,11 @@
+#!/bin/sh
+# https://www.songsterr.com/api/meta/16045/revisions
+# https://d12drcwhcokzqv.cloudfront.net/3629580.gp4
+java -jar ../../guitarproToLy/1.jar < song.gp5 \
+markup-extra 0 '\key a \major' \
+track 4 preset kav output-lilypond output-lyrics which-lyrics text \
+track 0 preset peter output-lilypond \
+track 2 preset bass output-lilypond \
+track 5 preset gg output-drums \
+track 3 preset midiOne output-lilypond \
+track 4 preset susan output-lilypond output-lyrics which-lyrics text layout-extra '\clef "treble_8"'
