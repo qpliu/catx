@@ -1,0 +1,69 @@
+midiOne = {
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #6
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 1" #14
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    gis'8 a' b' b'4 r4. |
+    gis'8 a' b' b'4 r4. |
+    gis'8 a' b' b'2~ b'8~ |
+    b'2 r |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #26
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 2" #34
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    gis'8 a' b' b'4 r4. |
+    gis'8 a' b' b'4 r4. |
+    gis'8 a' b' b'2~ b'8~ |
+    b'2 r |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge" #46
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Outro" #50
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    gis'8 a' b' b'4 r4. |
+    gis'8 a' b' b'4 r4. |
+    gis'8 a' b' b'2~ b'8~ |
+    b'2 r |
+    r1 |
+    r1 |
+    r1 |
+}

@@ -1,0 +1,70 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1" #6
+    "War"8 "o-" "ver-" "seas" \skip4. "there's"8 |
+    "ram-"8 "pant" "di-" "sease" \skip4. "and"8 |
+    "shoot-"8 "ers" "a-" "bound" \skip4 "in"8 "our" |
+    "ci-"8 "ties" "and" "towns" \skip2 |
+    "Like"8 "a" "dark" "curse" \skip4. "the"8 |
+    "cli-"8 "mate" "gets" "worse" \skip4 "and"8 "our" |
+    "world"8 "is" "messed" "up" \skip2 |
+    \skip2. "But"8 "it" |
+\mymark "Chorus 1" #14
+    "can't"8 "be" "so" "wrong"4 \skip8 "when"8 "we're" |
+    "sing-"8 "ing" "a" "song"4 \skip4 "so"8 |
+    "come"8 "sing" "a-" "long" \skip2 |
+    \skip2. \skip8 "It"8 |
+    "can't"8 "be" "so" "wrong"4 \skip8 "when"8 "we're" |
+    "sing-"8 "ing" "a" "song"4 \skip4 "so"8 |
+    "come"8 "sing" "a-" "long" \skip2 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 2" #26
+    "Au-"8 "to-" "crats" "rule" \skip4 "'cause"8 "we're" |
+    "act-"8 "ing" "like" "fools" \skip4. "di-"8 |
+    "vi-"8 "ded" "we" "fall" \skip4 "'cause"8 "we're" |
+    "build-"8 "ing" "more" "walls" \skip2 |
+    "Spread-"8 "ing" "fake" "news" \skip4. "in-"8 |
+    "vent-"8 "ed" "by" "Q's" \skip4 "and"8 "our" |
+    "world"8 "is" "messed" "up" \skip2 |
+    \skip2. "But"8 "it" |
+\mymark "Chorus 2" #34
+    "can't"8 "be" "so" "wrong"4 \skip8 "when"8 "we're" |
+    "sing-"8 "ing" "a" "song"4 \skip4 "so"8 |
+    "come"8 "sing" "a-" "long" \skip2 |
+    \skip2. \skip8 "It"8 |
+    "can't"8 "be" "so" "wrong"4 \skip8 "when"8 "we're" |
+    "sing-"8 "ing" "a" "song"4 \skip4 "so"8 |
+    "come"8 "sing" "a-" "long" \skip2 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. \skip8 "I"8 |
+\mymark "Bridge" #46
+    "look"8 "ever-" "y-" "where" \skip4. "and"8 |
+    "see"8 "such" "de-" "spair" \skip2 |
+    \skip1 |
+    \skip2. "But"8 "it" |
+\mymark "Outro" #50
+    "can't"8 "be" "so" "wrong"4 \skip8 "when"8 "we're" |
+    "sing-"8 "ing" "a" "song"4 \skip4 "so"8 |
+    "come"8 "sing" "a-" "long" \skip2 |
+    \skip2. \skip8 "It"8 |
+    "can't"8 "be" "so" "wrong"4 \skip8 "when"8 "we're" |
+    "sing-"8 "ing" "a" "song"4 \skip4 "so"8 |
+    "come"8 "sing" "a-" "long" \skip2 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}
