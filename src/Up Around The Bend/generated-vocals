@@ -1,0 +1,96 @@
+vocals = {
+    \myVocalsStuff
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #9
+    r8 fis' g' a'4 fis'8 g' a'~ |
+    a'8 fis' g' a'4 fis'4. |
+    r8 fis' g' a'4 fis'8 g' a'~ |
+    a'8 fis'4 d'4. r4 |
+    r8 fis' g' a'4 fis'8 g' a'~ |
+    a'8 fis' g' a'4 fis'4. |
+    r8 fis' g' a'4 a' a'8~ |
+    a'8 fis'4 d'4. r4 |
+\mymark "Chorus 1" #17
+    g'8 g'4 g'8 fis'4 fis'8 e'~ |
+    e'2 r4. fis'8 |
+    g'8 g'4 g'8 fis'4 fis'8 e'~ |
+    e'2 r |
+    a'1 |
+\mymark "Verse 2" #22
+    r8 fis' g' a'4 fis'8 g' a'~ |
+    a'8 fis' g' a'4 fis'4. |
+    r8 fis' g' a'4 a' a'8 |
+    a'8 fis'4 d'4. r4 |
+    r8 fis' g' a'4 fis'8 g' a'~ |
+    a'8 a' a' a'4 fis'4. |
+    r8 fis' g' a'4 a'4. |
+    a'4 fis'8 d'4. r4 |
+\mymark "Chorus 2" #30
+    g'8 g'4 g'8 fis'4 fis'8 e'~ |
+    e'2 r4. fis'8 |
+    g'8 g'4 g'8 fis'4 fis'8 e'~ |
+    e'2 r |
+    a'1 |
+\mymark "Verse 3" #35
+    r8 fis' g' a'4 a'8 a' a'~ |
+    a'8 a'4 a' fis'4. |
+    r8 fis' g' a'4 a'8 a' a'~ |
+    a'8 fis'4 d'4. r4 |
+    r8 fis' g' a'4 a'8 a' a'~ |
+    a'8 a' a' a'4 fis'4. |
+    r8 fis' g' a'4 a'4. |
+    a'8 fis'4 d'4. r4 |
+\mymark "Chorus 3" #43
+    g'8 g'4 g'8 fis'4 fis'8 e'~ |
+    e'2 r4. fis'8 |
+    g'8 g'4 g'8 fis'4 fis'8 e'~ |
+    e'2 r |
+    a'1 |
+\mymark "Interlude" #48
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Guitar solo" #56
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    a'1 |
+\mymark "Verse 4" #61
+    r8 fis' g' a'4 a'8 a' a'~ |
+    a'8 a' a' a'4 fis'4. |
+    r8 fis' g' a'4 a' a'8 |
+    a'8 fis'4 d'4. r4 |
+    r8 fis' g' a'4 a'8 a' a'~ |
+    a'8 a' a' a'4 fis'4. |
+    r8 fis' g' a'4 fis'8 g' a'~ |
+    a'8 fis'4 d'4. r4 |
+\mymark "Chorus 4" #69
+    g'8 g'4 g'8 fis'4 fis'8 e'~ |
+    e'2 r4. fis'8 |
+    g'8 g'4 g'8 fis'4 fis'8 e'~ |
+    e'4 r2. |
+    a'1 |
+\mymark "Outro" #74
+    r2. r8 a'~ |
+    a'8 a'4 a' fis'4. |
+    r2. r8 a'~ |
+    a'8 a'4 a' fis'4. |
+    r1 |
+    r8 a'4 a' fis'4. |
+    r2. r8 a'~ |
+    a'8 a'4 a' r4. |
+}
