@@ -155,8 +155,8 @@ vocalsLyrics = \new Lyrics \lyricmode {
         "la"4 "la" "la" "la" |
         "la"8 "la" "la" "la" \skip2 |
         "la"4 "la" "la" "la" |
-        "la"8 "la" "la" "la" \skip2 |
-        \skip1 |
+        "la"8 "la" "la" "la" \skip4. "la"8 |
+        "la"4 \skip2. |
         \skip2. "Sing-"8 "ing" |
         "la"4 "la" "la" "la" |
         "la"8 "la" "la" "la" \skip2 |
