@@ -1,0 +1,92 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \skip1 |
+\mymark "Intro" #2
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1" #6
+    \skip8 "I"8 "hear" "the" "tick-"16 "ing"8. "of"8 "the" |
+    "clock"4 \skip8 "I'm"8 "ly-" "ing" "here" "the" |
+    "room's"8 "pitch" "dark"4 \skip2 |
+    \skip1 |
+    \skip8 "I"8 "won-" "der" "where" "you"16 "are"4 "to-"16 |
+    "night"4 \skip8 "No"8 "an-" "swer" "on" "the" |
+    "te-"16 "le-" "phone"4 \skip2 \skip8 |
+    \skip2. \skip8 "And"16 "the" |
+\mymark "Prechorus 1" #14
+    "night"8 "goes" "by" "so" "ve-"16 "ry"8. "slow"4 |
+    \skip2. "Oh"4 |
+    "I"8 "hope" "that" "it" \tuplet 3/2 { "won't"4 "end" "though" } |
+    \skip2. "a-"8 "lone" |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus" #20
+    \skip4 "Till"8 "now"2 "I"8 |
+    "al-"8 "ways" "got" "by"4 "on"8 "my" "own" |
+    \skip4. "I"8 "real-" "ly" "ne-" "ver" |
+    "cared"8 "un-" "til" "I" "met" "you"4 \skip8 |
+    \skip2 \skip8 "And"8 "now" "it" |
+    "chills"8 "me" "to" "the" "bone"2 |
+    "How"8 "do" "I" "get"4 "you"8 "a-" "lone" |
+    \skip1 |
+    "How"8 "do" "I" "get"4 "you"8 "a-" "lone" |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 2" #31
+    \skip8 "You"8 "don't" "know" "how" "long" "I" "have" |
+    "want-"8 "ed"8. \skip16 "To"8 "touch" "your" "lips" "and" |
+    "hold"8 "you" "tight"4 \skip2 |
+    \skip1 |
+    \skip8 "You"8 "don't" "know" "how" "long" "I" "have" |
+    "wait-"8 "ed" \skip8 "And"8 "I" "was" "going" "to" |
+    "tell"8 "you" "to-" "night"2 \skip8 |
+    \skip2. \skip8 "But"16 "the" |
+\mymark "Prechorus 2" #39
+    "se-"8 "cret" \skip8 "is"8 "still"16 "my"8. "own"4 |
+    \skip2. "And"8 "my" |
+    "love"16 "for"8 "you"8. "is"8 "still"16 "un-"8. "known"4 |
+    \skip2. "a-"8 "lone" |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus" #45
+    \skip1 |
+    \skip1 |
+    \skip4 "a-"2. |
+    "lone"8 \skip2. \skip8 |
+    \skip4 "Till"8 "now"2 "I"8 |
+    "al-"8 "ways" "got" "by"4 "on"8 "my" "own" |
+    \skip4. "I"8 "ne-" "ver" "real-" "ly" |
+    "cared"8 "un-" "til" "I" "met" "you"4 \skip8 |
+    \skip2 \skip8 "And"8 "now" "it" |
+    "chlls"8 "me" "to" "the" "bone"2 |
+    "How"8 "do" "I" "get"4 "you"8 "a-" "lone" |
+    \skip1 |
+    "How"8 "do" "I" "get"4 "you"8 "a-" "lone" |
+    \skip1 |
+\mymark "Solo" #59
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus" #67
+    "How"8 "do" "I" "get"4 "you"8 "a-" "lone" |
+    \skip1 |
+    "How"8 "do" "I" "get"4 "you"8 "a-" "lone" |
+    \skip2. "A-"8 \skip8 |
+    "lone"4 \skip2. |
+    \skip2. "A-"8 \skip8 |
+    "lone"4 \skip2. |
+    \skip1 |
+    \skip1 |
+\mymark "Outro" #76
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}

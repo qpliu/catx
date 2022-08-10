@@ -1,0 +1,92 @@
+vocals = {
+    \myVocalsStuff
+    r1 |
+\mymark "Intro" #2
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #6
+    r8 cis' cis' cis' cis'16 cis'8. cis'8 dis' |
+    c'4 r8 c' c' ais gis fis |
+    f8 ais ais4 r2 |
+    r1 |
+    r8 cis' cis' cis' cis' cis'16 cis'4 dis'16 |
+    c'4 r8 c' c' ais gis fis |
+    f16 ais ais4 r2 r8 |
+    r2. r8 cis'16 cis' |
+\mymark "Prechorus 1" #14
+    cis'8 cis' cis' cis' dis'16 cis'8. cis'4 |
+    r2. f'4\glissando |
+    cis'8 cis' cis' cis' \tuplet 3/2 { dis'4 cis' cis' } |
+    r2. c'8 cis'~ |
+    cis'1 |
+    r1 |
+\mymark "Chorus" #20
+    r4 ais'8 b'2 b'8 |
+    ais'8 b' cis'' cis''4 ais'8 gis' ais'\glissando |
+    fis'4 r8 b' b' b' b' b' |
+    b'8 ais' fis' ais' ais' gis'4 r8 |
+    r2 r8 b' b' b' |
+    ais'8 ais' ais' cis'' cis''2 |
+    cis''8 cis'' cis'' cis''4 b'8 ais' ais'\glissando |
+    gis'1 |
+    cis''8 cis'' cis'' cis''4 b'8 ais' ais'\glissando |
+    gis'1~ |
+    gis'1 |
+\mymark "Verse 2" #31
+    r8 cis' cis' cis' cis' cis' cis' dis' |
+    dis'8 c'8. r16 c'8 c' ais gis fis |
+    f8 ais ais4 r2 |
+    r1 |
+    r8 cis' cis' cis' cis' cis' cis' dis' |
+    dis'8 c' r c' c' ais gis fis |
+    f8 ais ais ais2 r8 |
+    r2. r8 cis'16 cis' |
+\mymark "Prechorus 2" #39
+    cis'8 cis' r cis' dis'16 cis'8. cis'4 |
+    r2. f'8 dis' |
+    cis'16 cis'8 cis'8. cis'8 dis'16 cis'8. cis'4~ |
+    cis'2 r4 c'8 cis'~ |
+    cis'1 |
+    r1 |
+\mymark "Chorus" #45
+    r1 |
+    r1 |
+    r4 fis''2. |
+    dis''8\glissando cis''2.~ cis''8 |
+    r4 ais'8 b'2 b'8 |
+    ais'8 b' cis'' cis''4 ais'8 gis' ais'\glissando |
+    fis'4 r8 b' b' b' b' b' |
+    b'8 ais' fis' ais' ais' gis'4 r8 |
+    r2 r8 b' b' b' |
+    ais'8 ais' ais' cis'' cis''2 |
+    cis''8 cis'' cis'' cis''4 b'8 ais' ais'\glissando |
+    gis'1 |
+    cis''8 cis'' cis'' cis''4 b'8 ais' ais'\glissando |
+    gis'1 |
+\mymark "Solo" #59
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #67
+    cis''8 cis'' cis'' cis''4 b'8 ais' ais'\glissando |
+    gis'1 |
+    cis''8 cis'' cis'' cis''4 b'8 ais' ais'\glissando |
+    gis'2. dis''8\glissando cis'' |
+    dis''4\glissando cis''2.~ |
+    cis''2. dis''8\glissando cis'' |
+    dis''4\glissando cis''2.~ |
+    cis''1~ |
+    cis''1 |
+\mymark "Outro" #76
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

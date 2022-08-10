@@ -1,0 +1,91 @@
+bass = {
+    r1 |
+\mymark "Intro" #2
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #6
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    ais,,2\3 fis,,\4 |
+    gis,,2\4 fis,,\4 |
+    ais,,2\3 fis,,\4 |
+    gis,,2\4 a,,\3 |
+\mymark "Prechorus 1" #14
+    fis,,2\4 f,,\4 |
+    dis,,2\5 cis,,\5 |
+    fis,,2\4 f,,\4 |
+    dis,,2\5 gis,,4\4 c,\3 |
+    <cis,,\5 cis,\3>1~ |
+    <cis,,\5 cis,\3>1 |
+\mymark "Chorus" #20
+    dis,8\3 dis,4\3 b,,\3 b,,\3 b,,8\3 |
+    fis,,4\4 fis,,\4 cis,8\3 cis,4\3 cis,8\3 |
+    dis,8\3 dis,4\3 b,,\3 b,,\3 b,,8\3 |
+    fis,,4\4 fis,,\4 cis,8\3 cis,4\3 cis,8\3 |
+    dis,8\3 dis,4\3 b,,\3 b,,\3 b,,8\3 |
+    fis,,4\4 fis,,\4 cis,8\3 cis,4\3 cis,8\3 |
+    fis,,8\4 fis,,\4 ais,,\3 b,,4\3 b,,\3 b,,8\3 |
+    cis,4\3 cis,\3 cis,8\3 cis,4.\3 |
+    fis,,8\4 fis,,\4 ais,,\3 b,,4\3 b,,\3 b,,8\3 |
+    cis,1\3~ |
+    cis,1\3 |
+\mymark "Verse 2" #31
+    ais,,2\3 fis,,\4 |
+    gis,,2\4 fis,,\4 |
+    ais,,2\3 fis,,\4 |
+    gis,,2\4 a,,\3 |
+    ais,,2\3 fis,,\4 |
+    gis,,2\4 fis,,\4 |
+    ais,,2\3 fis,,\4 |
+    gis,,2\4 a,,\3 |
+\mymark "Prechorus 2" #39
+    fis,,2\4 f,,\4 |
+    dis,,2\5 cis,,\5 |
+    fis,,2\4 f,,\4 |
+    dis,,2\5 gis,,4\4 c,,\5 |
+    cis,,1\5~ |
+    cis,,1\5 |
+\mymark "Chorus" #45
+    dis,8\3 dis,4\3 b,,\3 b,,\3 b,,8\3 |
+    fis,,2\4 cis,8\3 cis,4\3 cis,8\3 |
+    dis,8\3 dis,4\3 b,,\3 b,,\3 b,,8\3 |
+    fis,,4.\4 fis,,8\4 cis,\3 cis,4\3 cis,8\3 |
+    dis,8\3 dis,4\3 b,,\3 b,,\3 b,,8\3 |
+    fis,,2\4 cis,8\3 cis,4\3 cis,8\3 |
+    dis,8\3 dis,4\3 b,,\3 b,,8\3 b,,\3 b,,\3 |
+    fis,,2\4 cis,8\3 cis,4\3 cis,8\3 |
+    dis,8\3 dis,4\3 b,,\3 b,,\3 b,,8\3 |
+    fis,,4.\4 fis,,8\4 cis,\3 cis,4\3 cis,8\3 |
+    ais,,8\3 fis,,\4 ais,,\3 b,,4\3 b,,\3 b,,8\3 |
+    cis,4\3 cis,\3 cis,8\3 cis,4\3 cis,8\3 |
+    fis,,8\4 ais,,\3 fis,,\4 b,,4\3 b,,\3 b,,8\3 |
+    cis,4\3 cis,\3 cis,8\3 cis,4\3 cis,8\3 |
+\mymark "Solo" #59
+    dis,8\3 dis,4\3 b,,\3 b,,\3 b,,8\3 |
+    fis,,2\4 cis,8\3 cis,4\3 cis,8\3 |
+    dis,8\3 dis,4\3 b,,\3 b,,\3 b,,8\3 |
+    fis,,4.\4 fis,,8\4 cis,\3 cis,4\3 cis,8\3 |
+    b,,4.\3 b,,8\3 ais,,4.\3 ais,,8\3 |
+    gis,,4.\4 gis,,8\4 fis,,4.\4 fis,,8\4 |
+    f,,4.\4 f,,8\4 dis,,4.\5 dis,,8\5 |
+    cis,,4.\5 cis,,8\5 c,,4.\5 c,,8\5 |
+\mymark "Chorus" #67
+    fis,,8\4 fis,,\4 ais,,\3 b,,4\3 b,,8\3 b,,4\3 |
+    cis,4\3 cis,\3 cis,8\3 cis,4\3 cis,8\3 |
+    fis,,8\4 fis,,\4 ais,,\3 b,,4\3 b,,\3 b,,8\3 |
+    cis,4\3 cis,\3 cis,8\3 cis,4\3 cis,8\3 |
+    fis,,8\4 fis,,\4 ais,,\3 b,,4\3 b,,8\3 b,,4\3 |
+    cis,4\3 cis,\3 cis,8\3 cis,4\3 cis,8\3 |
+    fis,,8\4 fis,,\4 ais,,\3 b,,4\3 b,,8\3 b,,\3 b,,\3 |
+    cis,1\3~ |
+    cis,2.\3 r4 |
+\mymark "Outro" #76
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

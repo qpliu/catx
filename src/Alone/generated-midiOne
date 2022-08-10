@@ -1,0 +1,91 @@
+midiOne = {
+    r1 |
+\mymark "Intro" #2
+    <ais ais' cis''>8 f' <ais' cis''> f'16 gis <fis gis' ais' cis''>8 fis' <gis' ais' cis''> dis'' |
+    <gis gis' c''>8 dis' <gis' c''> dis' <fis dis' c''> ais' gis' fis' |
+    <ais f'>8 ais' ais'~ <ais ais'>16 gis <fis gis' ais' cis''>8 fis' <gis' ais' cis''> fis' |
+    <gis gis' c''>8 dis' <gis' c''> dis' <a a'> <c' ais'> <dis' c''> f' |
+\mymark "Verse 1" #6
+    <ais ais' cis''>8 f' <ais' cis''> f'16 gis <fis gis' ais' cis''>8 fis' <gis' ais' cis''> dis'' |
+    <gis gis' c''>8 dis' <gis' c''> dis' <fis dis' c''> ais' gis' fis' |
+    <ais f'>8 ais' ais' ais16 gis <fis gis' ais' cis''>8 fis' <gis' ais' cis''> fis' |
+    <gis gis' c''>8 dis' <gis' c''> dis' <a a'> <c' ais'> <dis' c''> f' |
+    <ais ais' cis''>8 f' <ais' cis''> f'16 gis <fis gis' ais' cis''>8 fis' <gis' ais' cis''> dis'' |
+    <gis gis' c''>8 dis' <gis' c''> dis' <fis dis' c''> ais' gis' fis' |
+    <ais f'>8 ais' ais' ais16 gis <fis gis' ais' cis''>8 fis' <gis' ais' cis''> fis' |
+    <gis gis' c''>8 dis' <gis' c''> dis' <a a'> <c' ais'> <dis' c''> f' |
+\mymark "Prechorus 1" #14
+    <fis fis' ais' cis''>8 cis' <fis' ais' cis''> cis' <f f' gis' cis''> cis' <f' gis' cis''> cis' |
+    <dis fis' ais' cis''>8 dis' <fis' ais' cis''> dis' <cis f' gis' cis''> cis' <f' gis' cis''> cis' |
+    <fis fis' ais' cis''>8 cis' <fis' ais' cis''> cis' <f f' gis' cis''> cis' <f' gis' cis''> cis' |
+    <dis fis' ais' cis''>8 dis' <fis' ais' cis''> dis' <gis gis' cis''> dis' <gis gis' c''> dis' |
+    <cis f' gis' cis''>8 gis <cis' gis'> gis <cis' gis'> gis <cis' gis'> gis |
+    <cis cis' gis'>8 gis <cis' gis'> gis <cis' gis'> gis <cis cis' gis'> gis |
+\mymark "Chorus" #20
+    <dis' fis' ais'>4 r8 <b, b dis' fis' b'>2~ <b, b dis' fis' b'>8 |
+    <fis cis' fis' ais'>4~ <b, fis cis' fis' ais'>8 <cis cis' f' gis'>2 r8 |
+    <dis' fis' ais'>4 r8 <b,~ dis' fis' b'>2 b,8 |
+    <fis cis' fis' ais'>4. <cis' f' gis'>2 r8 |
+    <dis' fis' ais'>4. <b,~ dis' fis' b'>2 b,8 |
+    <fis cis' fis' ais'>4. <cis' f' gis'>2~ <cis' f' gis'>8 |
+    <cis' fis' ais' cis''>4 ais,8 <b dis' fis' b'>4. <b dis' fis' b'>8 r |
+    <cis f' gis' cis''>4 <cis f' gis' cis''> <cis f'~ gis'~ cis''~>8 <f' gis' cis''> <f' gis'~ cis''> gis' |
+    <fis' ais' cis''>4 r8 <b, dis' fis' b'>4. <b, dis' fis' b'>8 b, |
+    <cis cis' f' gis' cis''>8 cis' <f' gis' cis''> cis' <f' gis' cis''> cis' <f' gis' cis''> cis' |
+    <gis' cis''>8 cis' <gis' cis''> cis' <gis' cis''> cis' <gis' c''>4 |
+\mymark "Verse 2" #31
+    <ais ais' cis''>8 f' <ais' cis''> f'16 gis <fis gis' ais' cis''>8 fis' <gis' ais' cis''> dis'' |
+    <gis gis' c''>8 dis' <gis' c''> dis' <fis dis' c''> ais' gis' fis' |
+    <ais f'>8 ais' ais' ais16 gis <fis gis' ais' cis''>8 fis' <gis' ais' cis''> fis' |
+    <gis gis' c''>8 dis' <gis' c''> dis' <a a'> <c' ais'> <dis' c''> f' |
+    <ais ais' cis''>8 f' <ais' cis''> f'16 gis <fis gis' ais' cis''>8 fis' <gis' ais' cis''> dis'' |
+    <gis gis' c''>8 dis' <gis' c''> dis' <fis dis' c''> ais' gis' fis' |
+    <ais f'>8 ais' ais' ais16 gis <fis gis' ais' cis''>8 fis' <gis' ais' cis''> fis' |
+    <gis gis' c''>8 dis' <gis' c''> dis' <a a'> <c' ais'> <dis' c''> f' |
+\mymark "Prechorus 2" #39
+    <fis fis' ais' cis''>8 cis' <fis' ais' cis''> cis' <f f' gis' cis''> cis' <f' gis' cis''> cis' |
+    <dis fis' ais' cis''>8 dis' <fis' ais' cis''> dis' <cis f' gis' cis''> cis' <f' gis' cis''> cis' |
+    <fis fis' ais' cis''>8 cis' <fis' ais' cis''> cis' <f f' gis' cis''> cis' <f' gis' cis''> cis' |
+    <dis fis' ais' cis''>8 dis' <fis' ais' cis''> dis' <gis gis' cis''> dis' <gis gis' c''> dis' |
+    <cis f' gis' cis''>8 gis <cis' gis'> gis <cis' gis'> gis <cis' gis'> gis |
+    <cis cis' gis'>8 gis <cis' gis'> gis <cis' gis'> gis <cis cis' gis'> gis |
+\mymark "Chorus" #45
+    <dis' fis' ais'>4 r8 <b,~ b dis' fis' b'>2 b,8 |
+    <fis cis' fis' ais'>4. <cis cis' f' gis'>2 r8 |
+    <dis' fis' ais'>4 r8 <b,~ b dis' fis' b'>2 b,8 |
+    <fis cis' fis' ais'>4~ <b, fis cis' fis' ais'>8 <cis cis' f' gis'>2 r8 |
+    <dis' fis' ais'>4 r8 <b,~ b dis' fis' b'>2 b,8 |
+    <fis cis' fis' ais'>4. <cis cis' f' gis'>2 r8 |
+    <dis' fis' ais'>4 r8 <b,~ b dis' fis' b'>2 b,8 |
+    <fis cis' fis' ais'>4. <cis cis' f' gis'>2 r8 |
+    <dis' fis' ais'>4 r8 <b,~ b dis' fis' b'>2 b,8 |
+    <fis cis'~ fis'~ ais'~>4 <cis' fis' ais'>8 <cis cis' f' gis'>2 r8 |
+    <cis' fis' ais' cis''>8~ <cis cis' fis' ais' cis''> ais, <b, b dis' fis' b'>4. <b, b dis' fis' b'>4 |
+    <cis f' gis' cis''>4 <cis f' gis' cis''> <cis f'~ gis'~ cis''~>8 <f' gis' cis''> <f' gis' cis''>4 |
+    <cis' fis' ais' cis''>4 r8 <b, dis' fis' b'>4. <b, dis' fis' b'>8 b, |
+    <cis cis' f' gis' cis''>4 <cis cis' f' gis' cis''> <cis cis'~ f'~ gis'~ cis''~>8 <cis' f' gis' cis''> <cis f' gis' cis''>4 |
+\mymark "Solo" #59
+    <dis' fis' ais'>4 r8 <b,~ b dis' fis' b'>2 b,8 |
+    <fis cis' fis' ais'>4. <cis cis' f' gis'>2 r8 |
+    <dis' fis' ais'>4 r8 <b,~ b dis' fis' b'>2 b,8 |
+    <fis cis' fis' ais'>4. <cis cis' f' gis'>2 r8 |
+    <b, dis' fis' b'>8 b <dis' fis' b'> b <ais, cis' fis' ais'> ais <cis' fis' ais'> ais, |
+    <gis, b dis' gis'>8 gis <b dis' gis'> gis <fis, ais cis' fis'> fis <ais cis' fis'> fis |
+    <f, gis cis' f'>8 f <gis cis' f'> f <fis b dis'> dis <fis b dis'> dis |
+    <cis' gis' cis''>8 cis <cis' gis' cis''> r <b, b fis' b'>4 <b fis' b'> |
+\mymark "Chorus" #67
+    <cis' fis' ais' cis''>8 cis' <cis' fis' ais' cis''> <b, b dis' fis' b'>4 b8 <b dis' fis' b'> b, |
+    <cis' f' gis' cis''>8 cis <cis' f' gis' cis''>4 <cis' f' gis' cis''> <f' gis' cis''> |
+    <cis' fis' ais' cis''>8 cis' <fis' ais' cis''> <b, b dis' fis' b'>4 b8 <b dis' fis' b'> b, |
+    <cis' f' gis' cis''>8 cis <cis' f' gis' cis''>4 <cis' f' gis' cis''> <f' gis' cis''> |
+    <cis' fis' ais' cis''>8 cis' <ais, fis' ais'> <b, b dis'~ fis'~ b'~>4 <dis' fis' b'>8 <b dis' fis' b'> b, |
+    <cis' f' gis' cis''>8 cis <cis' f' gis' cis''>4 <cis' f' gis' cis''> <f' gis' cis''> |
+    <cis' fis' ais' cis''>8 cis' ais, <b, b dis' fis' b'>4. <b dis' fis' b'>8 b, |
+    <cis' f' gis' cis''>8 cis <cis' f' gis' cis''>4 <cis' f' gis' cis''> <f' gis' cis''> |
+    <f' gis' cis''>8 cis' <gis' cis''> cis' <gis' cis''> cis' <gis' c''>4 |
+\mymark "Outro" #76
+    <ais ais' cis''>8 f' <ais' cis''> f'16 gis <fis gis' ais' cis''>8 fis' <gis' ais' cis''> dis'' |
+    <gis gis' c''>8 dis' <gis' c''> dis' <fis dis' c''> ais' gis' fis' |
+    <ais, ais f'>8 ais' ais'2.~ |
+    ais'1 |
+}
