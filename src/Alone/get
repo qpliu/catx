@@ -3,10 +3,10 @@
 # https://d12drcwhcokzqv.cloudfront.net/3620091.gp4
 java -jar ../../guitarproToLy/1.jar < song.gp5 \
 markup-extra 0 '\key ais \minor' \
-track 5 preset kav output-lilypond output-lyrics which-lyrics text \
+track 5 preset kav output-lilypond output-lyrics which-lyrics text scale 'eis bis,' \
 track 0 preset peter output-lilypond \
 track 6 preset bass output-lilypond \
 track 7 preset gg output-drums \
-track 8 preset susan output-lilypond output-lyrics which-lyrics text \
+track 8 preset susan output-lilypond output-lyrics which-lyrics text scale 'ees bes' \
 track 4 preset midiOne output-lilypond \
 track 1 preset midiTwo output-lilypond
