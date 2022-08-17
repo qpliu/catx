@@ -25,7 +25,7 @@ vocalsLyrics = \new Lyrics \lyricmode {
 \mymark "Chorus" #20
     \skip4 "Till"8 "now"2 "I"8 |
     "al-"8 "ways" "got" "by"4 "on"8 "my" "own" |
-    \skip4. "I"8 "real-" "ly" "ne-" "ver" |
+    \skip4. "I"8 "ne-" "ver" "real-" "ly" |
     "cared"8 "un-" "til" "I" "met" "you"4 \skip8 |
     \skip2 \skip8 "And"8 "now" "it" |
     "chills"8 "me" "to" "the" "bone"2 |
@@ -40,7 +40,7 @@ vocalsLyrics = \new Lyrics \lyricmode {
     "hold"8 "you" "tight"4 \skip2 |
     \skip1 |
     \skip8 "You"8 "don't" "know" "how" "long" "I" "have" |
-    "wait-"8 "ed" \skip8 "And"8 "I" "was" "going" "to" |
+    "wait-"8 "ed" \skip8 "And"8 "I" "was" "gon-" "na" |
     "tell"8 "you" "to-" "night"2 \skip8 |
     \skip2. \skip8 "But"16 "the" |
 \mymark "Prechorus 2" #39
@@ -53,8 +53,8 @@ vocalsLyrics = \new Lyrics \lyricmode {
 \mymark "Chorus" #45
     \skip1 |
     \skip1 |
-    \skip4 "a-"2. |
-    "lone"8 \skip2. \skip8 |
+    \skip4. "Oh"8 \skip2 |
+    \skip1 |
     \skip4 "Till"8 "now"2 "I"8 |
     "al-"8 "ways" "got" "by"4 "on"8 "my" "own" |
     \skip4. "I"8 "ne-" "ver" "real-" "ly" |
