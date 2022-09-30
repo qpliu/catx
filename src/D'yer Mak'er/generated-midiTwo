@@ -1,0 +1,179 @@
+midiTwo = {
+    r1 |
+    r1 |
+    r1 |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+\mymark "Verse 1" #12
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g c'> r2 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g c'> r2 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #44
+    r4 <c e a> r <c e a> |
+    r4 <c e a> r <c e a> |
+    r4 <d g b> r <d g b> |
+    r4 <d g b> r <d g b> |
+    r4 <c e a> r <c e a> |
+    r4 <c e a> r <c e a> |
+    r4 <d g b> r <d g b> |
+    r4 <d g b> r <d g b> |
+    r4 <c e a> r <c e a> |
+    r4 <c e a> r <c e a> |
+    r4 <d g b> r <d g b> |
+    r4 <d g b> r <d g b> |
+    <c f a>1~ |
+    <c f a>1 |
+    <d g b>1~ |
+    <d g b>1 |
+\mymark "Verse 2" #60
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    <c e a>1~ |
+    <c e a>1 |
+    r1 |
+    r1 |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    <c e a>1~ |
+    <c e a>1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #92
+    r4 <c e a> r <c e a> |
+    r4 <c e a> r <c e a> |
+    r4 <d g b> r <d g b> |
+    r4 <d g b> r <d g b> |
+    r4 <c e a> r <c e a> |
+    r4 <c e a> r <c e a> |
+    r4 <d g b> r <d g b> |
+    r4 <d g b> r <d g b> |
+    r4 <c e a> r <c e a> |
+    r4 <c e a> r <c e a> |
+    r4 <d g b> r <d g b> |
+    r4 <d g b> r <d g b> |
+    <c f a>1~ |
+    <c f a>1 |
+    <d g b>1~ |
+    <d g b>1 |
+\mymark "Solo" #108
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    <c e a>1~ |
+    <c e a>1 |
+    r1 |
+    r1 |
+\mymark "Outro" #124
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+    r4 <e g c'> r <e g c'> |
+    r4 <c e a> r <c e a> |
+    r4 <c f a> r <c f a> |
+    r4 <d g b> r <d g b> |
+}

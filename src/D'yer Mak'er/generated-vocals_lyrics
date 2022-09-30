@@ -1,0 +1,180 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1" #12
+    "Oh"4 \skip4 "oh"8 \skip8 "oh"8 \skip8 |
+    "oh"8 \skip8 "oh"4 \skip4 "oh"8 "-" |
+    "-"4 \skip2. |
+    "You"4 "don't" "have" "to"8 "go" |
+    "-"8 "-"4 \skip4. "oh"8 \skip8 |
+    "oh"8 \skip8 "oh"4 \skip4 "oh"8 "-" |
+    "-"4 \skip2. |
+    "You"4 "don't" "have" "to"8 "go" |
+    "-"4 "-" \skip4 "oh"8 \skip8 |
+    "oh"8 \skip4. "oh"4 "oh"8 "-" |
+    "-"4 \skip2. |
+    "You"4 "don't" "have" "to" |
+    "go"2. "-"8 "-" |
+    "-"1 |
+    \skip1 |
+    \skip1 |
+    "Ay"4 \skip4 "ay"8 \skip8 "ay"8 \skip8 |
+    "ay"8 \skip8 "ay"4 \skip4 "ay"8 "-" |
+    "-"4 \skip2. |
+    "All"4 "those" "tears" "I"8 "cried" |
+    "-"8 "-"4 \skip4. "ay"8 \skip8 |
+    "ay"8 \skip8 "ay"4 \skip4 "ay"8 "-" |
+    "-"4 \skip2. |
+    "All"4 "those" "tears" "I"8 "cried" |
+    "-"4 "-" \skip4 "oh"8 \skip8 |
+    "oh"8 \skip4. "ay"4 "ay"8 "-" |
+    "-"4 \skip2. |
+    "Ba-"4 "by" "please"2 |
+    \skip2. "Don't"4 |
+    "go"8. "-"16 "-"4. \skip4. |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus" #44
+    \skip2 \skip8 "When"8 "I"4 |
+    "read"4 "the"8 "let-" "-" "ter"4 "you"8 |
+    "wrote"4. "me"8 "-" "it" "made" "me" |
+    "mad"4 "mad" "mad"8 "-" \skip4 |
+    \skip2 \skip8 "When"8 "I"4 |
+    "read"4 "the" "words" "that"8 "it" |
+    "-"4 "told" "me"8 "it" "made" "me" |
+    "sad"4 "sad" "sad"8 "-" \skip4 |
+    \skip2 \skip8 "But"8 "I" "still" |
+    "-"8 "love"4 "you"8 "so" "-"4. |
+    \skip2 \skip8 "I"8 "can't"4 |
+    "let"8 "you"4 "go"8 "-"2 |
+    \skip2. "I"4 |
+    "love"8 "-"4 "you"8 "-"4 \skip4 |
+    \skip2 "Ooh"4 \skip4 |
+    "ba-"8 "by" "I" "love" "-" "you" "-"4 |
+\mymark "Verse 2" #60
+    "Oh"4 \skip4 "oh"8 \skip8 "oh"8 \skip8 |
+    "oh"4 \skip8 "oh"8 "-"4 "oh" |
+    "-"4 \skip2. |
+    "Every"4 "breath" "I" "I" |
+    "take"8 "-"4 \skip4. "oh"8 \skip8 |
+    "oh"4 \skip4 "oh"4 "oh"8 "-" |
+    "-"4 \skip4 "Ooh"2 |
+    "ev-"4. "ery"8 "-"4 "move" |
+    "I"4 "make"8 "-" "-"4. "-"8 |
+    "-"4 "-"8 "-" "-"4 \skip4 |
+    \skip2 "Oh"2 |
+    "ba-"8 "by"4. "please"2 |
+    \skip2 "Don't"4 "go" |
+    "-"8 "-"4. "-"2 |
+    \skip1 |
+    \skip1 |
+    "Ay"4 \skip4 "ay"8 \skip8 "ay"8 \skip8 |
+    "ay"4 \skip8 "ay"8 "-"4 "ay" |
+    "-"4 \skip2 \skip8 "You"8 |
+    "hurt"4 "me" "to" "my" |
+    "soul"8 "-"4 \skip4. "oh"8 \skip8 |
+    "oh"4 \skip4 "oh"4 "oh"8 "-" |
+    "-"4 \skip4 "You"2 |
+    "hurt"4. "me"8 "-"4 "to" |
+    "my"4 "soul"8 "-" "-"4. "-"8 |
+    "-"4 "-"8 "-" "-"4 \skip4 |
+    \skip2 "Oh"2 |
+    "dar-"8 "lin'"4. "please"2 |
+    \skip2 "Don't"4 "go" |
+    "-"8 "-"4. "-"2 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus" #92
+    \skip2 \skip8 "When"8 "I"4 |
+    "read"4 "the"8 "let-" "-" "ter"4 "you"8 |
+    "sent"4. "me"8 "-" "it" "made" "me" |
+    "mad"4 "mad" "mad"8 "-" \skip4 |
+    \skip2 \skip8 "When"8 "I"4 |
+    "read"4 "the" "words" "that"8 "it" |
+    "-"4 "broke" "-"8 "it" "made" "me" |
+    "sad"4 "sad" "sad"8 "-" \skip4 |
+    \skip2 \skip8 "But"8 "I" "still" |
+    "-"8 "love"4 "you"8 "so" "-"4. |
+    \skip2 \skip8 "I"8 "can't"4 |
+    "let"8 "you"4 "go"8 "-"2 |
+    \skip2. "I"4 |
+    "love"8 "-"4 "you"8 "-"4 \skip4 |
+    \skip2 "Ooh"4 \skip4 |
+    "ba-"8 "by" "I" "love" "-" "you" "-"4 |
+\mymark "Solo" #108
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Outro" #124
+    "Oh"4 \skip4 "oh"8 \skip8 "oh"8 \skip8 |
+    "oh"4 \skip4 "oh"4 "oh"8 "-" |
+    "-"4 \skip2. |
+    "You"4 "don't" "have" "to" |
+    "go-"8 "-"4. \skip4 "oh"4 |
+    "oh"4 \skip4 "oh"4. "oh"8 |
+    "-"2 \skip2 |
+    "You"4 "don't" "have" "to" |
+    "go-"8 "-"4. \skip4 "oh"4 |
+    "oh"4 \skip4 "oh"4. "oh"8 |
+    "-"2 \skip8 "Oh"4. |
+    "-"4 "ba-"16 "-"8. "-"4 "by" |
+    \skip2 "ba-"4 \skip4 |
+    \skip4 "by"4 \skip2 |
+    "please"4 \skip2 "please"4 |
+    \skip2 "please"4 \skip4 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}

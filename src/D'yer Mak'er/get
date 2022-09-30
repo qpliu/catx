@@ -1,0 +1,12 @@
+#!/bin/sh
+# https://www.songsterr.com/api/meta/23204/revisions
+# https://d12drcwhcokzqv.cloudfront.net/41693675.gp5
+java -jar ../../guitarproToLy/1.jar < song.gp5 \
+markup-extra 0 '\key c \major' \
+track 0 preset kav output-lilypond output-lyrics which-lyrics text \
+track 1 preset peter output-lilypond \
+track 3 preset bass output-lilypond \
+track 5 preset gg output-drums \
+track 0 preset susan output-lilypond output-lyrics which-lyrics text no-chords false \
+track 2 preset midiOne output-lilypond \
+track 4 preset midiTwo output-lilypond

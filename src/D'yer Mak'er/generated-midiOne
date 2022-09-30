@@ -1,0 +1,179 @@
+midiOne = {
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #12
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #44
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #60
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #92
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2. r8 b,( |
+\mymark "Solo" #108
+    c4) d'2\bendAfter #6 ^"full" c'4 |
+    f'4\bendAfter #6 ^"full" f' e'8 d' a4~ |
+    a2. d'32\glissando e'8.~ e'32 |
+    a'4\bendAfter #6 ^"full" a'\bendAfter #6 ^"full" a'8 g'4 d''8~\bendAfter #6 ^"full" |
+    d''2\bendAfter #6 ^"full" d''4 c'' |
+    d''4\bendAfter #6 ^"full" d'' c''8 r g'4~\bendAfter #6 ^"full" |
+    g'2.~ g'8\bendAfter #6 ^"full" g'~\bendAfter #6 ^"full" |
+    g'4\bendAfter #6 ^"full" e' d'8\bendAfter #6 ^"full" d' c' a |
+    c'2. d'4~\bendAfter #6 ^"full" |
+    d'2\bendAfter #6 ^"full" c'8 a c' c'~ |
+    c'4. a8 r4 e' |
+    a'4\bendAfter #6 ^"full" a'\bendAfter #6 ^"full" a'8 g'4 d''8~ |
+    d''1~ |
+    d''2. r8 \deadNote b |
+    r1 |
+    r1 |
+\mymark "Outro" #124
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}
