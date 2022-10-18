@@ -1,7 +1,7 @@
 drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     \context DrumVoice = "drsa" \voiceOne
     \context DrumVoice = "drsb" \voiceTwo
-    r2. r8 sn |
+    hh4 hh hh hh8 sn |
     sn8 sn sn2 sn4 |
     r8 \tuplet 3/2 { sn16 sn sn } sn8 sn toml toml tomfl tomfl |
     << { cymc4 <hh cab> <hh sn> <hh sn cab> | } \context DrumVoice = "drsb" { bda4 bda2. | } >>
@@ -178,4 +178,5 @@ drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh4 <hh cab> <hh sn> <hh cab> | } \context DrumVoice = "drsb" { bda4 bda2 bda4 | } >>
     << { hh4 <hh cab> <hh sn> <hh sn cab> | } \context DrumVoice = "drsb" { bda1 | } >>
     << { hh4 <hh cab> <hh sn> <hh cab> | } \context DrumVoice = "drsb" { bda4 bda2 r8 bda | } >>
+    << { cymc1 | } \context DrumVoice = "drsb" { bda1 | } >>
 }
