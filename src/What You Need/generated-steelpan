@@ -1,0 +1,108 @@
+steelpan = {
+    \myVocalsStuff
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1 (0:26)" #10
+    fis'4 r4. dis'8 fis' dis'16 fis'~ |
+    fis'8 dis'4 r2 r16 ais |
+    e'8 fis' fis' dis' fis' dis' fis'8. dis'16 |
+    cis'4 r2. |
+    a'8 gis' fis'16 gis'8. r4 fis'8 e' |
+    fis'8. dis' r2 r8 |
+    dis'8 fis' fis' dis'16 fis'8 dis'16 fis'4 fis'8 |
+    cis'8. r dis'8( fis'4 a'8) fis' |
+    r1 |
+    r2 r8 fis'4 d'8~ |
+    d'8 r2. r8 |
+    r2 r8 fis a4~ |
+    a2 r4. fis'8~ |
+    fis'4 r16 fis'8. b8( ais4) r8 |
+    r2. r8 fis'16 cis' |
+    a'8 gis'16 fis'8 dis'16 fis' dis' <a' cis''>8 <gis' c''>16 <fis' ais'>8 r8. |
+\mymark "Sax Solo (1:02)" #26
+    cis''8. r2 r16 a'8\glissando gis'16. r32 |
+    fis'4 dis'8. r2 r16 |
+    a'4 fis'8 dis' gis' cis' dis'16 fis'8 fis'32 fis' |
+    <cis' fis'>2. r4 |
+    dis2 fis |
+    gis2 ais |
+    dis'2 fis' |
+    gis'2 ais'4 b' |
+\mymark "Verse 2 (1:18)" #34
+    a'4 fis' r8 e' fis' dis'16 fis'~ |
+    fis'8 dis' r2 r8. cis'16 |
+    e'8 fis' fis' dis' fis' dis'16 fis'8. fis'8 |
+    dis'16( cis'8.) r2. |
+    a'8 gis' fis'16( gis'8.) r8 dis' fis' dis'16 fis'~ |
+    fis'8 fis' r2. |
+    fis'16 fis' fis'8 r dis' fis'16 dis'8 fis'8. a'8 |
+    fis'4 r8 dis'( fis'4) dis' |
+    r1 |
+    r2 r8 c'4 fis8~ |
+    fis4 r2. |
+    r2 r8 fis a4~ |
+    a2 r4. fis'8~ |
+    fis'8 fis'4 b8( ais4) r |
+    r2. r8 fis'16 cis' |
+    a'8 gis'16 fis'8 dis'16 fis' dis' <a' cis''>8 <gis' c''>16 <fis' ais'>8 r8. |
+\mymark "Interlude (1:49)" #50
+    r2. r8 fis'16 dis' |
+    <gis' c''>8 cis'16 <fis' ais'>8 dis'16 fis' dis' <gis' c''>8 cis'16 <fis' ais'>8 r8. |
+    r2. r8 fis'16 dis' |
+    <gis' c''>8 cis'16 <fis' ais'>8 dis'16 fis' dis' <gis' c''>8 cis'16 <fis' ais'>8 dis'16 fis' dis' |
+    gis'8 dis'16 fis'8 r2 r8. |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2 r8 fis'4. |
+    r1 |
+    r2 r8 fis' fis4 |
+\mymark "Verse 3 (2:16)" #62
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    e'4 fis' r fis'8 dis'16 fis'~ |
+    fis'16 fis'8.\glissando r2. |
+    e'8 fis' fis' dis' fis'4 fis'8 fis'16 dis'~ |
+    dis'16 cis'8. r2. |
+    a'8 gis' gis'4 r8 dis' fis' dis'16 fis'~ |
+    fis'8 dis'4 r2 cis'8 |
+    dis'8 fis' fis' e' fis'16 e'8 fis' a' fis'16~( |
+    fis'16 dis') cis' r4 r16 fis'4 cis' |
+    r1 |
+    fis8 gis4 ais8 ais b cis'4 |
+    r1 |
+    cis'8 dis'4 fis'4. dis'4 |
+    r1 |
+    dis'8 fis' r4 a'8 gis'16 fis'8 r8. |
+    a'8 gis'16 fis'8 r4 r16 a' a' fis'8 a'16 a' |
+    fis'8 a'16 a' fis'8 e' fis'4 r |
+\mymark "Outro (2:55)" #82
+    r1 |
+    r2. r8 e |
+    a8 fis r e a fis r4 |
+    dis8 fis fis e16 a8. r4. |
+    r1 |
+    r1 |
+    a8 fis r2. |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

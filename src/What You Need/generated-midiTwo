@@ -1,0 +1,107 @@
+midiTwo = {
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2. <cis' fis' b'>4~\bendAfter #6 ^"full" |
+    <cis' fis' b'>1\bendAfter #6 ^"full" |
+    <cis' fis' cis''>8 r <cis' fis' cis''> r2 r8 |
+    gis'16 a'( gis') r8. gis'16 r a' r fis' r gis' r dis' r |
+\mymark "Verse 1 (0:26)" #10
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    fis1 |
+    e8 fis r e fis r4. |
+    ais1 |
+    gis8 ais r gis ais r4. |
+    cis'1 |
+    b8 cis' r b cis' r4. |
+    fis'1 |
+    e'8 fis' r e' fis' r4. |
+\mymark "Sax Solo (1:02)" #26
+    cis''8. r2 r16 gis'8.~ gis'32\bendAfter #6 ^"½" r |
+    fis'4 dis'8. r2 r16 |
+    gis'4\bendAfter #6 ^"¾" fis'16 r dis' r gis' r cis'8 dis'16 fis' r fis'32 fis' |
+    <fis ais cis' fis'>2. r4 |
+    dis2 fis |
+    gis2 ais |
+    dis'2 fis' |
+    gis'2 ais'4 b' |
+\mymark "Verse 2 (1:18)" #34
+    b'1~\bendAfter #6 ^"full" |
+    b'1\bendAfter #6 ^"full" |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    fis1 |
+    e8 fis r e fis r4. |
+    ais1 |
+    gis8 ais r gis ais r4. |
+    cis'1 |
+    b8 cis' r b cis' r4. |
+    fis'1 |
+    e'8 fis' r e' fis' r4. |
+\mymark "Interlude (1:49)" #50
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 3 (2:16)" #62
+    r1 |
+    r1 |
+    <b' cis''>8\bendAfter #6 ^"full" r2. r8 |
+    <dis' gis'>32 r <cis' fis'> r <cis' fis'> r <cis' fis'> r <dis' gis'> r <cis' fis'> r <cis' fis'> r <cis' fis'> r <dis' gis'> r <cis' fis'> r <d' g'> r <cis' fis'> r <cis' fis'>8 r |
+    r1 |
+    r1 |
+    r1 |
+    <cis fis cis' fis'>1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    dis2 fis |
+    gis2 ais |
+    fis2 gis |
+    ais2 b |
+    cis'2 dis' |
+    fis'2 gis' |
+    fis'2 gis' |
+    ais'2 b' |
+\mymark "Outro (2:55)" #82
+    b'1~\bendAfter #6 ^"full" |
+    b'2\bendAfter #6 ^"full" fis'16 gis'4~ gis'16 fis'8 |
+    fis'4 dis'8 cis' cis'8. dis' cis'8~ |
+    cis'4. r8 cis'16 dis'8 fis' gis'16 r cis''~ |
+    cis''8. r16 gis'4\bendAfter #6 ^"full" fis'8 fis' dis' cis' |
+    ais'16 gis' fis' dis' cis'8 dis' fis' gis'4. |
+    ais'8 r2 r8 gis ais~ |
+    ais4 cis'8 dis'4. cis''16 cis'' cis'' cis'' |
+    cis''16 cis'' cis''8. cis'' ais'8 gis' fis'16 dis'8. |
+    fis'8 dis' cis' gis fis4 r |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}
