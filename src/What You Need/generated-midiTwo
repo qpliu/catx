@@ -4,10 +4,10 @@ midiTwo = {
     r1 |
     r1 |
     r1 |
-    r2. <cis' fis' b'>4~\bendAfter #6 ^"full" |
-    <cis' fis' b'>1\bendAfter #6 ^"full" |
-    <cis' fis' cis''>8 r <cis' fis' cis''> r2 r8 |
-    gis'16 a'( gis') r8. gis'16 r a' r fis' r gis' r dis' r |
+    r2. <d' g' c''>4~\bendAfter #6 ^"full" |
+    <d' g' c''>1\bendAfter #6 ^"full" |
+    <d' g' d''>8 r <d' g' d''> r2 r8 |
+    a'16 ais'( a') r8. a'16 r ais' r g' r a' r e' r |
 \mymark "Verse 1 (0:26)" #10
     r1 |
     r1 |
@@ -17,40 +17,40 @@ midiTwo = {
     r1 |
     r1 |
     r1 |
-    fis1 |
-    e8 fis r e fis r4. |
-    ais1 |
-    gis8 ais r gis ais r4. |
-    cis'1 |
-    b8 cis' r b cis' r4. |
-    fis'1 |
-    e'8 fis' r e' fis' r4. |
+    g1 |
+    f8 g r f g r4. |
+    b1 |
+    a8 b r a b r4. |
+    d'1 |
+    c'8 d' r c' d' r4. |
+    g'1 |
+    f'8 g' r f' g' r4. |
 \mymark "Sax Solo (1:02)" #26
-    cis''8. r2 r16 gis'8.~ gis'32\bendAfter #6 ^"½" r |
-    fis'4 dis'8. r2 r16 |
-    gis'4\bendAfter #6 ^"¾" fis'16 r dis' r gis' r cis'8 dis'16 fis' r fis'32 fis' |
-    <fis ais cis' fis'>2. r4 |
-    dis2 fis |
-    gis2 ais |
-    dis'2 fis' |
-    gis'2 ais'4 b' |
+    d''8. r2 r16 a'8.~ a'32\bendAfter #6 ^"½" r |
+    g'4 e'8. r2 r16 |
+    a'4\bendAfter #6 ^"¾" g'16 r e' r a' r d'8 e'16 g' r g'32 g' |
+    <g b d' g'>2. r4 |
+    e2 g |
+    a2 b |
+    e'2 g' |
+    a'2 b'4 c'' |
 \mymark "Verse 2 (1:18)" #34
-    b'1~\bendAfter #6 ^"full" |
-    b'1\bendAfter #6 ^"full" |
+    c''1~\bendAfter #6 ^"full" |
+    c''1\bendAfter #6 ^"full" |
     r1 |
     r1 |
     r1 |
     r1 |
     r1 |
     r1 |
-    fis1 |
-    e8 fis r e fis r4. |
-    ais1 |
-    gis8 ais r gis ais r4. |
-    cis'1 |
-    b8 cis' r b cis' r4. |
-    fis'1 |
-    e'8 fis' r e' fis' r4. |
+    g1 |
+    f8 g r f g r4. |
+    b1 |
+    a8 b r a b r4. |
+    d'1 |
+    c'8 d' r c' d' r4. |
+    g'1 |
+    f'8 g' r f' g' r4. |
 \mymark "Interlude (1:49)" #50
     r1 |
     r1 |
@@ -67,35 +67,35 @@ midiTwo = {
 \mymark "Verse 3 (2:16)" #62
     r1 |
     r1 |
-    <b' cis''>8\bendAfter #6 ^"full" r2. r8 |
-    <dis' gis'>32 r <cis' fis'> r <cis' fis'> r <cis' fis'> r <dis' gis'> r <cis' fis'> r <cis' fis'> r <cis' fis'> r <dis' gis'> r <cis' fis'> r <d' g'> r <cis' fis'> r <cis' fis'>8 r |
+    <c'' d''>8\bendAfter #6 ^"full" r2. r8 |
+    <e' a'>32 r <d' g'> r <d' g'> r <d' g'> r <e' a'> r <d' g'> r <d' g'> r <d' g'> r <e' a'> r <d' g'> r <dis' gis'> r <d' g'> r <d' g'>8 r |
     r1 |
     r1 |
     r1 |
-    <cis fis cis' fis'>1 |
+    <d g d' g'>1 |
     r1 |
     r1 |
     r1 |
     r1 |
-    dis2 fis |
-    gis2 ais |
-    fis2 gis |
-    ais2 b |
-    cis'2 dis' |
-    fis'2 gis' |
-    fis'2 gis' |
-    ais'2 b' |
+    e2 g |
+    a2 b |
+    g2 a |
+    b2 c' |
+    d'2 e' |
+    g'2 a' |
+    g'2 a' |
+    b'2 c'' |
 \mymark "Outro (2:55)" #82
-    b'1~\bendAfter #6 ^"full" |
-    b'2\bendAfter #6 ^"full" fis'16 gis'4~ gis'16 fis'8 |
-    fis'4 dis'8 cis' cis'8. dis' cis'8~ |
-    cis'4. r8 cis'16 dis'8 fis' gis'16 r cis''~ |
-    cis''8. r16 gis'4\bendAfter #6 ^"full" fis'8 fis' dis' cis' |
-    ais'16 gis' fis' dis' cis'8 dis' fis' gis'4. |
-    ais'8 r2 r8 gis ais~ |
-    ais4 cis'8 dis'4. cis''16 cis'' cis'' cis'' |
-    cis''16 cis'' cis''8. cis'' ais'8 gis' fis'16 dis'8. |
-    fis'8 dis' cis' gis fis4 r |
+    c''1~\bendAfter #6 ^"full" |
+    c''2\bendAfter #6 ^"full" g'16 a'4~ a'16 g'8 |
+    g'4 e'8 d' d'8. e' d'8~ |
+    d'4. r8 d'16 e'8 g' a'16 r d''~ |
+    d''8. r16 a'4\bendAfter #6 ^"full" g'8 g' e' d' |
+    b'16 a' g' e' d'8 e' g' a'4. |
+    b'8 r2 r8 a b~ |
+    b4 d'8 e'4. d''16 d'' d'' d'' |
+    d''16 d'' d''8. d'' b'8 a' g'16 e'8. |
+    g'8 e' d' a g4 r |
     r1 |
     r1 |
     r1 |
