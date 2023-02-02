@@ -1,0 +1,76 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \skip2. |
+\mymark "Intro" #2
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+    \skip2. |
+\mymark "Verse" #14
+    "The"8 "clock"4 "by"8 "my" "bed's" |
+    \skip2 \skip8 "not"8 |
+    "right"4 \skip2 |
+    "I"8 "can't"4 "tell"8 "the" "time" |
+    \skip2 \skip8 "to-"8 |
+    "-day"4 \skip2 |
+    "The"8 "sounds"4 "in"8 "my" "walls" |
+    \skip2 \skip8 "at"8 |
+    "night"4 \skip2 |
+    "They"8 "are"4 "keep-"8 "-ing" "me" |
+    \skip2 \skip8 "a-"8 |
+    "-wake"4 \skip2 |
+    \skip2. |
+\mymark "Chorus" #27
+    \skip2 \skip8 "Will"8 |
+    "it"8 "be" "o-" "-kay"4 \skip8 |
+    \skip8 "Will"8 "it" "be" "o-" "-kay" |
+    \skip2. |
+\mymark "Verse" #31
+    "The"8 "space"4 "on"8 "my" "bed" |
+    \skip2 \skip8 "is"8 |
+    "cold"4 \skip2 |
+    "The"8 "hair"4 "in"8 "my" "comb" |
+    \skip2 \skip8 "is"8 |
+    "gray"4 \skip2 |
+    "The"8 "shoes"4 "by"8 "my" "feet" |
+    \skip2 \skip8 "are"8 |
+    "old"4 \skip2 |
+    "The"8 "soles"4 "are"8 "a-" "-bout" |
+    \skip2 \skip8 "to"8 |
+    "break"4 \skip2 |
+    \skip2. |
+\mymark "Chorus" #44
+    \skip2 \skip8 "Will"8 |
+    "it"8 "be" "o-" "-kay"4 \skip8 |
+    \skip8 "Will"8 "it" "be" "o-" "-kay" |
+    \skip2. |
+\mymark "Bridge" #48
+    \skip4. "It"8 "won't" "be" |
+    "o-"8 "-kay"4 \skip4. |
+    \skip2. |
+    \skip4. "It"8 "won't" "be" |
+    "o-"8 "-kay"4 \skip4. |
+    \skip2. |
+\mymark "Verse" #54
+    "But"8 "then"4 "may-"8 "-be" "soon" |
+    \skip2 \skip8 "they"8 |
+    "say"4 \skip2 |
+    "The"8 "sounds"4 "they"8 "will" "go" |
+    \skip2 \skip8 "a-"8 |
+    "-way"4 \skip2 |
+    \skip2. |
+\mymark "Outro" #61
+    \skip2 \skip8 "It"8 |
+    "will"8 "be" "o-" "-kay"4 \skip8 |
+    \skip8 "It"8 "will" "be" "o-" "-kay" |
+    \skip2. |
+    \skip2. |
+}
