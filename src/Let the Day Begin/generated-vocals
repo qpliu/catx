@@ -1,0 +1,123 @@
+vocals = {
+    \myVocalsStuff
+\mymark "intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "verse 1 " #11
+    r4 \tuplet 3/2 { e''8 e'' e'' d'' cis''4 cis''8 a'4 } |
+    \tuplet 3/2 { b'4 a' cis''2~ cis''8 } r4 |
+    r4 \tuplet 3/2 { e''8 e'' e'' d'' cis''4 cis''8 a'4 } |
+    a'4 r2. |
+    r4 \tuplet 3/2 { e''8 e'' e'' d'' cis''4 cis''8 a'4 } |
+    \tuplet 3/2 { b'4 a' cis''2~ cis''8 } r4 |
+    r4 \tuplet 3/2 { e''8 e'' e'' d'' cis''4 cis''8 a'4 } |
+    a'4 r2. |
+    r4 \tuplet 3/2 { e''8 e'' e'' d'' cis''4 cis''8 a'4 } |
+    \tuplet 3/2 { b'4 a' cis''2~ cis''8 } r4 |
+    r4 \tuplet 3/2 { e''8 e'' e'' d'' cis''4 cis''8 a'4 } |
+    a'4 r2. |
+    r4 \tuplet 3/2 { e''8 e'' e'' d'' cis''4 cis''8 a'4 } |
+    \tuplet 3/2 { b'4 a' cis''2~ cis''8 } r4 |
+    r4 \tuplet 3/2 { e''8 e'' e'' d'' cis''4 cis''8 a'4 } |
+    a'4 r e'' cis'' |
+\mymark "chorus 1" #27
+    d''4 \tuplet 3/2 { a'8 a' a' } a'4 r |
+    r1 |
+    \tuplet 3/2 { a'4 a'8 cis''4 a'8 } a'4 r |
+    r2 e''4 cis'' |
+    d''4 \tuplet 3/2 { a'8 a' a' } a'4 \tuplet 3/2 { r4 a'8 } |
+    \tuplet 3/2 { cis''4 a' a'8 a' } a'4 r |
+    \tuplet 3/2 { a'4 a'8 cis''4 a'8 } a'4 r |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "verse 2" #39
+    r4 \tuplet 3/2 { e''8 e'' e'' d'' cis''4 cis''8 a'4 } |
+    \tuplet 3/2 { b'4 a' cis''2~ cis''8 } r4 |
+    r4 \tuplet 3/2 { e''8 e'' e'' d'' cis''4 cis''8 a'4 } |
+    a'4 r2. |
+    r4 \tuplet 3/2 { e''8 e'' e'' d'' cis''4 cis''8 a'4 } |
+    \tuplet 3/2 { b'4 a' cis''2~ cis''8 } r4 |
+    r4 \tuplet 3/2 { e''8 e'' e'' d'' cis''4 cis''8 a'4 } |
+    a'4 r e'' cis'' |
+\mymark "chorus 2" #47
+    d''4 \tuplet 3/2 { a'8 a' a' } a'4 r |
+    r1 |
+    \tuplet 3/2 { a'4 a'8 cis''4 a'8 } a'4 r |
+    r2 e''4 cis'' |
+    d''4 \tuplet 3/2 { a'8 a' a' } a'4 \tuplet 3/2 { r4 a'8 } |
+    \tuplet 3/2 { cis''4 a' a'8 a' } a'4 r |
+    \tuplet 3/2 { a'4 a'8 cis''4 a'8 } a'4 \tuplet 3/2 { cis''4 a'8 } |
+    a'4 \tuplet 3/2 { cis''2~ cis''8 a'2~ } |
+\mymark "solo 2" #55
+    a'1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "break" #71
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "verse 3" #79
+    r4 \tuplet 3/2 { e''8 e'' e'' d'' cis''4 cis''8 a'4 } |
+    \tuplet 3/2 { b'4 a' cis''2~ cis''8 } r4 |
+    r4 \tuplet 3/2 { e''8 e'' e'' d'' cis''4 cis''8 a'4 } |
+    a'4 r2. |
+    r4 \tuplet 3/2 { e''8 e'' e'' d'' cis''4 cis''8 a'4 } |
+    \tuplet 3/2 { b'4 a' cis''2~ cis''8 } r4 |
+    r4 \tuplet 3/2 { e''8 e'' e'' d'' cis''4 cis''8 a'4 } |
+    a'4 r2. |
+    r4 \tuplet 3/2 { e''8 e'' e'' d'' cis''4 cis''8 a'4 } |
+    \tuplet 3/2 { b'4 a' cis''2~ cis''8 } r4 |
+    r4 \tuplet 3/2 { e''8 e'' e'' d'' cis''4 cis''8 a'4 } |
+    a'4 r2. |
+    r4 \tuplet 3/2 { e''8 e'' e'' d'' cis''4 cis''8 a'4 } |
+    \tuplet 3/2 { b'4 a' cis''2~ cis''8 } r4 |
+    r4 \tuplet 3/2 { e''8 e'' e'' d'' cis''4 cis''8 a'4 } |
+    a'4 r e'' cis'' |
+\mymark "chorus 3" #95
+    d''4 \tuplet 3/2 { a'8 a' a' } a'4 r |
+    r1 |
+    \tuplet 3/2 { a'4 a'8 cis''4 a'8 } a'4 r |
+    r2 e''4 cis'' |
+    d''4 \tuplet 3/2 { a'8 a' a' } a'4 r |
+    r1 |
+    \tuplet 3/2 { a'4 a'8 cis''4 a'8 } a'4 r |
+    r2 e''4 cis'' |
+    d''4 \tuplet 3/2 { a'8 a' a' } a'4 r |
+    r1 |
+    \tuplet 3/2 { a'4 a'8 cis''4 a'8 } a'4 r |
+    r2 e''4 cis'' |
+    d''4 \tuplet 3/2 { a'8 a' a' a' a'4 r a'8 } |
+    \tuplet 3/2 { cis''4 a' a'8 a' } a'4 r |
+    \tuplet 3/2 { a'4 a'8 cis''4 a'8 } a'4 r |
+    r1 |
+    r1 |
+}

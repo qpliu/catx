@@ -1,0 +1,123 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "verse 1 " #11
+    \skip4 \tuplet 3/2 { "here's"8 "to" "the" "ba-" "-bies" \skip8 "in"8 "a" \skip8 } |
+    \tuplet 3/2 { "brand"8 \skip8 "new"8 \skip8 "world"8 \skip2. \skip8 } |
+    \skip4 \tuplet 3/2 { "here's"8 "to" "the" "beau-" "-ty" \skip8 "of"8 "the" \skip8 } |
+    \tuplet 3/2 { "stars"8 \skip1 } \skip4 |
+    \skip4 \tuplet 3/2 { "here's"8 "to" "the" "travel-" "-ers" \skip8 "on"8 "the" \skip8 } |
+    \tuplet 3/2 { "o-"8 \skip8 "-pen"8 \skip8 "road"8 \skip2. \skip8 } |
+    \skip4 \tuplet 3/2 { "here's"8 "to" "the" "dream-" "-ers" \skip8 "in"8 "the" \skip8 } |
+    \tuplet 3/2 { "bars "8 \skip1 } \skip4 |
+    \skip4 \tuplet 3/2 { "here's"8 "to" "the" "teach-" "-ers" \skip8 "in"8 "the" \skip8 } |
+    \tuplet 3/2 { "crowd-"8 \skip8 "-ed"8 \skip8 "rooms"8 \skip2. \skip8 } |
+    \skip4 \tuplet 3/2 { "here's"8 "to" "the" "work-" "-ers" \skip8 "in"8 "the" \skip8 } |
+    \tuplet 3/2 { "fields"8 \skip1 } \skip4 |
+    \skip4 \tuplet 3/2 { "here's"8 "to" "the" "preach-" "-ers" \skip8 "of"8 "the" \skip8 } |
+    \tuplet 3/2 { "sa-"8 \skip8 "-cred"8 \skip8 "word"8 \skip2. \skip8 } |
+    \skip4 \tuplet 3/2 { "here's"8 "to" "the" "dri-" "-vers" \skip8 "at"8 "the" \skip8 } |
+    \tuplet 3/2 { "wheels"8 \skip2 \skip8 "here's "8 \skip4 "to"8 \skip4 } |
+\mymark "chorus 1" #27
+    \tuplet 3/2 { "you"8 \skip4 "my"8 "lit-" "-tle" "love" \skip2 \skip8 } |
+    \skip1 |
+    \tuplet 3/2 { "let  "4 "the"8 "day" \skip8 "be-"8 "-gin" \skip2 \skip8 } |
+    \skip2 \tuplet 3/2 { "here's "8 \skip4 "to "8 \skip4 } |
+    \tuplet 3/2 { "you"8 \skip4 "my"8 "lit-" "-tle" "love" \skip2 "with"8 } |
+    \tuplet 3/2 { "bles-"8 \skip8 "-sings"8 \skip8 "from"8 "a-" "-bove" \skip2 \skip8 } |
+    \tuplet 3/2 { "let  "8 \skip8 "the"8 "day" \skip8 "be-"8 "-gin" \skip2 \skip8 } |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "verse 2" #39
+    \skip4 \tuplet 3/2 { "here's"8 "to" "the" "win-" "-ners" \skip8 "of"8 "the" \skip8 } |
+    \tuplet 3/2 { "hu-"8 \skip8 "-man"8 \skip8 "race"8 \skip2. \skip8 } |
+    \skip4 \tuplet 3/2 { "here's"8 "to" "the" "lo-" "-sers" \skip8 "of"8 "the" \skip8 } |
+    \tuplet 3/2 { "game"8 \skip1 } \skip4 |
+    \skip4 \tuplet 3/2 { "here's"8 "to" "the" "sol-" "-diers" \skip8 "of"8 "the" \skip8 } |
+    \tuplet 3/2 { "bit- "8 \skip8 "-ter"8 \skip8 "war"8 \skip2. \skip8 } |
+    \skip4 \tuplet 3/2 { "here's"8 "to" "the" "wall" "that" \skip8 "bear"8 "their" \skip8 } |
+    \tuplet 3/2 { "names"8 \skip2 \skip8 "here's "8 \skip4 "to"8 \skip4 } |
+\mymark "chorus 2" #47
+    \tuplet 3/2 { "you"8 \skip4 "my"8 "lit-" "-tle" "love" \skip2 \skip8 } |
+    \skip1 |
+    \tuplet 3/2 { "let  "8 \skip8 "the"8 "day" \skip8 "be-"8 "-gin" \skip2 \skip8 } |
+    \skip2 \tuplet 3/2 { "here's "8 \skip4 "to "8 \skip4 } |
+    \tuplet 3/2 { "you"8 \skip4 "my"8 "lit-" "-tle" "love" \skip2 "with"8 } |
+    \tuplet 3/2 { "bles-"8 \skip8 "-sings"8 \skip8 "from"8 "a-" "-bove" \skip2 \skip8 } |
+    \tuplet 3/2 { "let  "8 \skip8 "the"8 "day" \skip8 "be-"8 "-gin" \skip4 "day"8 \skip8 "be-"8 } |
+    \tuplet 3/2 { "-gin"8 \skip4 "day"8 \skip2 "start"8 } \skip4 |
+\mymark "solo 2" #55
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "break" #71
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "verse 3" #79
+    \skip4 \tuplet 3/2 { "here's"8 "to" "the" "doc-" "-tors" \skip8 "and their"8 "their" \skip8 } |
+    \tuplet 3/2 { "hea-"8 \skip8 "-ling"8 \skip8 "work"8 \skip2. \skip8 } |
+    \skip4 \tuplet 3/2 { "here's"8 "to" "the" "loved" "ones" \skip8 "in"8 "their" \skip8 } |
+    \tuplet 3/2 { "care"8 \skip1 } \skip4 |
+    \skip4 \tuplet 3/2 { "here's"8 "to" "the" "stran-" "-gers" \skip8 "on"8 "the" \skip8 } |
+    \tuplet 3/2 { "streets"8 \skip8 "to-"8 \skip8 "-night"8 \skip2. \skip8 } |
+    \skip4 \tuplet 3/2 { "here's"8 "to" "the" "lone-" "-ly" \skip8 "e-"8 "-very-" \skip8 } |
+    \tuplet 3/2 { "-where"8 \skip1 } \skip4 |
+    \skip4 \tuplet 3/2 { "here's"8 "to" "the" "wis-" "-dom" \skip8 "from"8 "the" \skip8 } |
+    \tuplet 3/2 { "mouth"8 \skip8 "of"8 \skip8 "babes"8 \skip2. \skip8 } |
+    \skip4 \tuplet 3/2 { "here's"8 "to" "the" "li-" "-ons" \skip8 "in"8 "the" \skip8 } |
+    \tuplet 3/2 { "cage"8 \skip1 } \skip4 |
+    \skip4 \tuplet 3/2 { "here's"8 "to" "the" "strug-" "-gle" \skip8 "of"8 "the" \skip8 } |
+    \tuplet 3/2 { "si-"8 \skip8 "-lent"8 \skip8 "war"8 \skip2. \skip8 } |
+    \skip4 \tuplet 3/2 { "here's"8 "to" "the" "clo-" "-sing" \skip8 "of"8 "the" \skip8 } |
+    \tuplet 3/2 { "age"8 \skip2 \skip8 "here's "8 \skip4 "to"8 \skip4 } |
+\mymark "chorus 3" #95
+    \tuplet 3/2 { "you"8 \skip4 "my"8 "lit-" "-tle" "love" \skip2 \skip8 } |
+    \skip1 |
+    \tuplet 3/2 { "let  "8 \skip8 "the"8 "day" \skip8 "be-"8 "-gin" \skip2 \skip8 } |
+    \skip2 \tuplet 3/2 { "here's "8 \skip4 "to"8 \skip4 } |
+    \tuplet 3/2 { "you"8 \skip4 "my"8 "lit-" "-tle" "love" \skip2 \skip8 } |
+    \skip1 |
+    \tuplet 3/2 { "let  "8 \skip8 "the"8 "day" \skip8 "be-"8 "-gin" \skip2 \skip8 } |
+    \skip2 \tuplet 3/2 { "here's "8 \skip4 "to"8 \skip4 } |
+    \tuplet 3/2 { "you"8 \skip4 "my"8 "lit-" "-tle" "love" \skip2 \skip8 } |
+    \skip1 |
+    \tuplet 3/2 { "let  "8 \skip8 "the"8 "day" \skip8 "be-"8 "-gin" \skip2 \skip8 } |
+    \skip2 \tuplet 3/2 { "here's "8 \skip4 "to "8 \skip4 } |
+    \tuplet 3/2 { "you"8 \skip4 "my"8 "lit-" "-tle" "love" \skip2 "with"8 } |
+    \tuplet 3/2 { "bles-"8 \skip8 "-sings"8 \skip8 "from"8 "a-" "-bove" \skip2 \skip8 } |
+    \tuplet 3/2 { "let  "8 \skip8 "the"8 "day" \skip8 "be-"8 "-gin" \skip2 \skip8 } |
+    \skip1 |
+    \skip1 |
+}

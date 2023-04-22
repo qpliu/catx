@@ -1,0 +1,122 @@
+guitar = {
+\mymark "intro" #1
+    r1 |
+    r1 |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 a,\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } c4\5 a,\5 |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 a,\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } c4\5 a,\5 |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 a,\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } c4\5 a,\5 |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 a,\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } c4\5 a,\5 |
+\mymark "verse 1 " #11
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 a,\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } c4\5 a,\5 |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 a,\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } c4\5 a,\5 |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 a,\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } c4\5 a,\5 |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 a,\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } c4\5 a,\5 |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 a,\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } c4\5 a,\5 |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 a,\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } c4\5 a,\5 |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 a,\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } c4\5 a,\5 |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 a,\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } c4\5 a,\5 |
+\mymark "chorus 1" #27
+    \tuplet 3/2 { <g\3 d'\2 e'\1>8 <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> } |
+    \tuplet 3/2 { <a\3 d'\2 fis'\1>8 <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> } |
+    \tuplet 3/2 { <a\3 cis'\2 e'\1>8 <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> } |
+    \tuplet 3/2 { <a\3 cis'\2 e'\1>8 <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> } |
+    \tuplet 3/2 { <g\3 d'\2 e'\1>8 <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> } |
+    \tuplet 3/2 { <a\3 d'\2 fis'\1>8 <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> } |
+    \tuplet 3/2 { <a\3 cis'\2 e'\1>8 <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> } |
+    \tuplet 3/2 { <a\3 cis'\2 e'\1>8 <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> } |
+    \tuplet 3/2 { r4 a8\3\glissando cis'\3 cis'\3 a\3\glissando cis'\3 cis'\3 a\3\glissando cis'\3 cis'\3 a\3 } |
+    \tuplet 3/2 { e'4\2 a8\3\glissando cis'\3 cis'\3 a\3\glissando cis'\3 cis'\3 cis'\3 } a4\3 |
+    \tuplet 3/2 { r4 a8\3\glissando cis'\3 cis'\3 a\3\glissando cis'\3 cis'\3 a\3\glissando cis'\3 cis'\3 a\3 } |
+    \tuplet 3/2 { e'4\2 a8\3\glissando cis'\3 cis'\3 a\3\glissando cis'\3 cis'\3 cis'\3 } a4\3 |
+\mymark "verse 2" #39
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 a,\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } c4\5 a,\5 |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 a,\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } c4\5 a,\5 |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 a,\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } c4\5 a,\5 |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 a,\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } c4\5 a,\5 |
+\mymark "chorus 2" #47
+    \tuplet 3/2 { <g\3 d'\2 e'\1>8 <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> } |
+    \tuplet 3/2 { <a\3 d'\2 fis'\1>8 <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> } |
+    \tuplet 3/2 { <a\3 cis'\2 e'\1>8 <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> } |
+    \tuplet 3/2 { <a\3 cis'\2 e'\1>8 <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> } |
+    \tuplet 3/2 { <g\3 d'\2 e'\1>8 <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> } |
+    \tuplet 3/2 { <a\3 d'\2 fis'\1>8 <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> } |
+    \tuplet 3/2 { <a\3 cis'\2 e'\1>8 <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> } <a\3 cis'\2 e'\1>2.~ |
+    <a\3 cis'\2 e'\1>1 |
+\mymark "solo 2" #55
+    <g\3 d'\2 g'\1>2 <a\3 d'\2 fis'\1> |
+    <a\3 cis'\2 e'\1>4 \tuplet 3/2 { cis'8\2 cis'16\2\glissando d'\2 cis'8\2 cis'\2 cis'16\2\glissando d'\2 cis'8\2 } a4\3 |
+    <g\3 d'\2 g'\1>2 <a\3 d'\2 fis'\1> |
+    <a\3 cis'\2 e'\1>4 \tuplet 3/2 { cis'8\2 cis'16\2\glissando d'\2 cis'8\2 cis'\2 cis'16\2\glissando d'\2 cis'8\2 } a4\3 |
+    <g\3 d'\2 g'\1>2 <a\3 d'\2 fis'\1> |
+    <a\3 cis'\2 e'\1>4 \tuplet 3/2 { cis'8\2 cis'16\2\glissando d'\2 cis'8\2 cis'\2 cis'16\2\glissando d'\2 cis'8\2 } a4\3 |
+    <g\3 d'\2 g'\1>2 <a\3 d'\2 fis'\1> |
+    <a\3 cis'\2 e'\1>4 \tuplet 3/2 { cis'8\2 cis'16\2\glissando d'\2 cis'8\2 cis'\2 cis'16\2\glissando d'\2 cis'8\2 } a4\3 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "break" #71
+    <g\3 d'\2 g'\1>4 \tuplet 3/2 { <g\3 d'\2 g'\1>8 <g\3 d'\2 g'\1> <g\3 d'\2 g'\1> } <g\3 d'\2 g'\1>4 \tuplet 3/2 { <g\3 d'\2 g'\1>8 <g\3 d'\2 g'\1> <g\3 d'\2 g'\1> } |
+    <g\3 d'\2 g'\1>4 \tuplet 3/2 { <g\3 d'\2 g'\1>8 <g\3 d'\2 g'\1> <g\3 d'\2 g'\1> } <g\3 d'\2 g'\1>4 <a\3 cis'\2 e'\1> |
+    <g\3 d'\2 g'\1>4 \tuplet 3/2 { <g\3 d'\2 g'\1>8 <g\3 d'\2 g'\1> <g\3 d'\2 g'\1> } <g\3 d'\2 g'\1>4 \tuplet 3/2 { <g\3 d'\2 g'\1>8 <g\3 d'\2 g'\1> <g\3 d'\2 g'\1> } |
+    <g\3 d'\2 g'\1>4 \tuplet 3/2 { <g\3 d'\2 g'\1>8 <g\3 d'\2 g'\1> <g\3 d'\2 g'\1> } <g\3 d'\2 g'\1>4 <a\3 cis'\2 e'\1> |
+    <g\3 d'\2 g'\1>4 \tuplet 3/2 { <g\3 d'\2 g'\1>8 <g\3 d'\2 g'\1> <g\3 d'\2 g'\1> } <g\3 d'\2 g'\1>4 \tuplet 3/2 { <g\3 d'\2 g'\1>8 <g\3 d'\2 g'\1> <g\3 d'\2 g'\1> } |
+    <g\3 d'\2 g'\1>4 \tuplet 3/2 { <g\3 d'\2 g'\1>8 <g\3 d'\2 g'\1> <g\3 d'\2 g'\1> } <g\3 d'\2 g'\1>4 <a\3 cis'\2 e'\1> |
+    <g\3 d'\2 g'\1>4 \tuplet 3/2 { <g\3 d'\2 g'\1>8 <g\3 d'\2 g'\1> <g\3 d'\2 g'\1> } <g\3 d'\2 g'\1>4 \tuplet 3/2 { <g\3 d'\2 g'\1>8 <g\3 d'\2 g'\1> <g\3 d'\2 g'\1> } |
+    <g\3 d'\2 g'\1>4 \tuplet 3/2 { <g\3 d'\2 g'\1>8 <g\3 d'\2 g'\1> <g\3 d'\2 g'\1> } <g\3 d'\2 g'\1>4 <a\3 cis'\2 e'\1>~ |
+\mymark "verse 3" #79
+    <a\3 cis'\2 e'\1>1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 a,\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } c4\5 a,\5 |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 a,\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } c4\5 a,\5 |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 a,\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } c4\5 a,\5 |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 a,\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } |
+    \tuplet 3/2 { a,8\5 \parenthesize a,\5 a,\5 fis\4( g\4) g\4 } c4\5 a,\5 |
+\mymark "chorus 3" #95
+    \tuplet 3/2 { <g\3 d'\2 e'\1>8 <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> } |
+    \tuplet 3/2 { <a\3 d'\2 fis'\1>8 <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> } |
+    \tuplet 3/2 { <a\3 cis'\2 e'\1>8 <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> } |
+    \tuplet 3/2 { <a\3 cis'\2 e'\1>8 <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> } |
+    \tuplet 3/2 { <g\3 d'\2 e'\1>8 <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> } |
+    \tuplet 3/2 { <a\3 d'\2 fis'\1>8 <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> } |
+    \tuplet 3/2 { <a\3 cis'\2 e'\1>8 <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> } |
+    \tuplet 3/2 { <a\3 cis'\2 e'\1>8 <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> } |
+    \tuplet 3/2 { <g\3 d'\2 e'\1>8 <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> } |
+    \tuplet 3/2 { <a\3 d'\2 fis'\1>8 <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> } |
+    \tuplet 3/2 { <a\3 cis'\2 e'\1>8 <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> } |
+    \tuplet 3/2 { <a\3 cis'\2 e'\1>8 <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> } |
+    \tuplet 3/2 { <g\3 d'\2 e'\1>8 <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> <g\3 d'\2 e'\1> } |
+    \tuplet 3/2 { <a\3 d'\2 fis'\1>8 <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> <a\3 d'\2 fis'\1> } |
+    \tuplet 3/2 { <a\3 d'\2 e'\1>8 <a\3 cis'\2 e'\1> <a\3 cis'\2 e'\1> } <a\3 cis'\2 e'\1>2. |
+    r1 |
+    r1 |
+}
