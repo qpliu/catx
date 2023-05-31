@@ -1,0 +1,128 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \skip1 |
+\mymark "Intro" #2
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse" #10
+    \skip4 "Can't"4 "seem" "to" |
+    "get"4 "my"8 "mind"4 "off"8 "of"4 |
+    "you"2 \skip2 |
+    \skip1 |
+    \skip4 "Back"4 "here" "at" |
+    "home,"4 "there's"8 "no-"4 "-thin'"8 "to"4 |
+    \skip8 "do"2. \skip8 |
+    \skip1 |
+    \skip4 "Now"4 "that"8 "I'm" "a-" "-way" |
+    \skip1 |
+    \skip4 "I"4 "wish"8 "that" "I'd" "stayed" |
+    \skip1 |
+    \skip4 "To-"4 "-mor-"8 "-row's" "a" "day" |
+    \skip4 "of"4 "mine" "that" |
+    "you"4 "won't" "be" "in" |
+    \skip1 |
+\mymark "Verse" #26
+    \skip4 "When"8 "you" "looked" "at"4 "me"8 |
+    \skip4. "I"4 "should"8 "have"4 |
+    "run"2 \skip2 |
+    \skip1 |
+    \skip4 "But"4 "I" "though" |
+    "it"4 "was" "just" "for" |
+    "fun"2 \skip2 |
+    \skip1 |
+    \skip4 "I"4 "see"8 "I" "was" "wrong" |
+    \skip1 |
+    \skip4 "And"8 "I'm" "not"4 "so" |
+    "strong"4 \skip2. |
+    \skip4 "I"4 "should"8 "have"4 "known"8 |
+    \skip4 "all"8 "a-" "-long"4 "that" |
+    "time"4 "will" "tell"2 |
+    \skip1 |
+\mymark "Prechorus" #42
+    \skip4 "A"4 "week" \skip8 "with-"8 |
+    \skip4 "-out"8 "you"4. \skip4 |
+    \skip4 "Thought"4 "I'd"8 "for-"4 "-get"8 |
+    \skip1 |
+    \skip4 "Two"4 "weeks" "with-"8 "-out" |
+    \skip4 "you"4 "and" "I" |
+    "still"4 "have-"8 "n't" "got-"4 "-ten"8 "o-" |
+    \skip8 "-ver"8 "you"4 "yet" \skip4 |
+    \skip1 |
+\mymark "Chorus" #51
+    \skip4 "Va-"4 "-ca-" "-tion,"8 "all" |
+    \skip8 "I"8 "e-" "-ver" "want-"4 "-ed" |
+    \skip4 "Va-"4 "-ca-" "-tion,"8 "had" |
+    \skip4 "to"8 "get"4 "a-"8 "-way"4 |
+    \skip4 "Va-"4 "-ca-" "-tion,"8 "meant" |
+    \skip8 "to"8 "be"4 "spent"8 "all"4 "a-"8 |
+    \skip8 "-lone"2. \skip8 |
+    \skip1 |
+    \skip4 "Va-"4 "-ca-" "-tion,"8 "all" |
+    \skip8 "I"8 "e-" "-ver" "want-"4 "-ed" |
+    \skip4 "Va-"4 "-ca-" "-tion,"8 "had" |
+    \skip4 "to"8 "get"4 "a-"8 "-way"4 |
+    \skip4 "Va-"4 "-ca-" "-tion,"8 "meant" |
+    \skip8 "to"8 "be"4 "spent"8 "all"4 "a-"8 |
+    \skip8 "-lone"2. \skip8 |
+\mymark "Break" #66
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Bridge" #71
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Prechorus" #80
+    \skip4 "A"4 "week" \skip8 "with-"8 |
+    \skip4 "-out"8 "you"4. \skip4 |
+    \skip4 "Thought"4 "I'd"8 "for-"4 "-get"8 |
+    \skip1 |
+    \skip4 "Two-"4 "week" "with-"8 "-out" |
+    \skip4 "you"4 "and" "I" |
+    "still"4 "have-"8 "-n't" "got-"4 "-ten"8 "o-" |
+    \skip8 "-ver"8 "you"4 "yet" \skip4 |
+    \skip1 |
+\mymark "Chorus" #89
+    \skip4 "Va-"4 "-ca-" "-tion,"8 "all" |
+    \skip8 "I"8 "e-" "-ver" "want-"4 "-ed" |
+    \skip4 "Va-"4 "-ca-" "-tion,"8 "had" |
+    \skip4 "to"8 "get"4 "a-"8 "-way"4 |
+    \skip4 "Va-"4 "-ca-" "-tion,"8 "meant" |
+    \skip8 "to"8 "be"4 "spent"8 "all"4 "a-"8 |
+    \skip8 "-lone"2. \skip8 |
+    \skip1 |
+    \skip4 "Va-"4 "-ca-" "-tion,"8 "all" |
+    \skip8 "I"8 "e-" "-ver" "want-"4 "-ed" |
+    \skip4 "Va-"4 "-ca-" "-tion,"8 "had" |
+    \skip4 "to"8 "get"4 "a-"8 "-way"4 |
+    \skip4 "Va-"4 "-ca-" "-tion,"8 "meant" |
+    \skip8 "to"8 "be"4 "spent"8 "all"4 "a-"8 |
+    \skip8 "-lone"2. \skip8 |
+    \skip1 |
+    \skip4 "Va-"4 "-ca-" "-tion,"8 "all" |
+    \skip8 "I"8 "e-" "-ver" "want-"4 "-ed" |
+    \skip4 "Va-"4 "-ca-" "-tion,"8 "had" |
+    \skip4 "to"8 "get"4 "a-"8 "-way"4 |
+    \skip4 "Va-"4 "-ca-" "-tion,"8 "meant" |
+    \skip8 "to"8 "be"4 "spent"8 "all"4 "a-"8 |
+    \skip8 "-lone"2. \skip8 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}

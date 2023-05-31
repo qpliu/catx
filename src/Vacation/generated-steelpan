@@ -1,0 +1,128 @@
+steelpan = {
+    \myVocalsStuff
+    r1 |
+\mymark "Intro" #2
+    <f' a'>4. <f' bes'> <f' a'>4 |
+    <f' g'>4. <f' a'> <f' bes'>4 |
+    <f' a'>2. <f' a'>4 |
+    <d' f'>4 <d' f'> <g' e'>8 <g' e'>4. |
+    <c' f' a'>4 f'8 f' c' f'4 c'8 |
+    f'4 c'8 f'4 c'8 f'4 |
+    <c' f' a'>4 f'8 c'4 f'8 c'4 |
+    <c' f' a'>4 c'8 f'2~ f'8 |
+\mymark "Verse" #10
+    r1 |
+    <c' f'>4 <c' f'>8 c'4 c'8 c'4 |
+    <c' f' g'>2 <c' e' g'> |
+    <c' d' g'>2 <c' e' g'> |
+    r1 |
+    <c' f'>4 <c' f'>8 c'4 c'8 c'4 |
+    <c' f' g'>2 <c' e' g'> |
+    <c' d' g'>2 <c' e' g'> |
+    r1 |
+    <f' g'>2 <c' e'>4 g' |
+    <bes d' f'>4 r2. |
+    <f' g'>2 <c' e'>4 g' |
+    <bes d' f'>4 r2 r8 c'~ |
+    c'8 r2. r8 |
+    bes2 bes |
+    bes2 c' |
+\mymark "Verse" #26
+    r1 |
+    <c' f'>4. c'4 c'8 c'4 |
+    <c' f' g'>2 <c' e' g'> |
+    <c' d' g'>2 <c' e' g'> |
+    r1 |
+    <c' f'>4 <c' f'> c' c' |
+    <c' f' g'>2 <c' e' g'> |
+    <c' d' g'>2 <c' e' g'> |
+    <bes d'>4 r2. |
+    <c' e'>4 r <c' e'> g' |
+    <bes d' f'>4 r f' f'8 f' |
+    <c' f' g'>2 <c' e'>4 g' |
+    <bes d' f'>4 r2 r8 e'~ |
+    e'4 r2. |
+    f'2 e' |
+    d'2 r |
+\mymark "Prechorus" #42
+    c'2. d'8 r |
+    d'4 d'8 d'4. r4 |
+    d'4 d' c'8 c'4 bes8~ |
+    bes2 r |
+    c'4 c' c' r |
+    r4 d' r2 |
+    d'4 r d' r8 e'~ |
+    e'8 r e'4 c'2~ |
+    c'1 |
+\mymark "Chorus" #51
+    f'4 a' g' f'8 <c' e'>~ |
+    <c' e'>8 e' <c' e'> e' <c' f'>4 <c' e' g'> |
+    <bes d'>4 f' f' f'8 a' |
+    <c' e'>4 g'8 a'4 g'8 f'4 |
+    f'4 a' g' f'8 <c' e'>~ |
+    <c' e'>8 e' <c' e'>4 f'8 g'4 <d' f'>8~ |
+    <d' f'>8 r f'4 f' d'8 f'~ |
+    f'8 d' f' d' f'4 <e' g'> |
+    f'4 a' g' f'8 <c' e'>~ |
+    <c' e'>8 e' <c' e'> e' <c' f'>4 <c' e' g'> |
+    <bes d'>4 f' f' f'8 a' |
+    <c' e'>4 g'8 a'4 g'8 f'4 |
+    f'4 a' g' f'8 <c' e'>~ |
+    <c' e'>8 e' <c' e'>4 f'8 g'4 <d' f'>8~ |
+    <d' f'>8 <d' f' a'>2.~ <d' f' a'>8 |
+\mymark "Break" #66
+    <d' f' a'>1 |
+    <c' f' a'>4 f'8 f' c' f'4 c'8 |
+    f'4 c'8 f'4 c'8 f'4 |
+    <c' f' a'>4 f'8 c'4 f'8 c'4 |
+    <c' f' a'>4 c'8 f'2~ f'8 |
+\mymark "Bridge" #71
+    <f' a'>4. <f' bes'> <f' a'>4 |
+    <f' g'>4. <f' a'> <f' bes'>4 |
+    <f' a'>4. <f' g'> f'4 |
+    d'4. e'2~ e'8 |
+    <f' a'>4. <f' bes'> <f' a'>4 |
+    <f' g'>4. <f' a'> <f' bes'>4 |
+    <f' a'>2. <f' a'>4 |
+    <bes d'>2 <c' e'> |
+    <c' f'>1 |
+\mymark "Prechorus" #80
+    c'2. d'8 r |
+    d'4 d'8 d'4. r4 |
+    d'4 d' c'8 c'4 bes8~ |
+    bes2 r |
+    c'4 c' c' r |
+    r4 d' r2 |
+    d'4 r d' r8 e'~ |
+    e'8 r e'4 c'2~ |
+    c'1 |
+\mymark "Chorus" #89
+    f'4 a' g' f'8 <c' e'>~ |
+    <c' e'>8 e' <c' e'> e' <c' f'>4 <c' e' g'> |
+    <bes d'>4 f' f' f'8 a' |
+    <c' e'>4 g'8 a'4 g'8 f'4 |
+    f'4 a' g' f'8 <c' e'>~ |
+    <c' e'>8 e' <c' e'>4 f'8 g'4 <d' f'>8~ |
+    <d' f'>8 r f'4 f' d'8 f'~ |
+    f'8 d' f' d' f'4 <e' g'> |
+    f'4 a' g' f'8 <c' e'>~ |
+    <c' e'>8 e' <c' e'> e' <c' f'>4 <c' e' g'> |
+    <bes d'>4 f' f' f'8 a' |
+    <c' e'>4 g'8 a'4 g'8 f'4 |
+    f'4 a' g' f'8 <c' e'>~ |
+    <c' e'>8 e' <c' e'>4 f'8 g'4 <d' f'>8 |
+    <d' f'>8 r f' d' f'4 d'8 f'~ |
+    f'8 d' f' d' f'4 <e' g'> |
+    f'4 a' g' f'8 <c' e'>~ |
+    <c' e'>8 e' <c' e'> e' <c' f'>4 <c' e' g'> |
+    <bes d'>4 f' f' f'8 a' |
+    <c' e'>4 g'8 a'4 g'8 f'4 |
+    f'4 a' g' f'8 <c' e'>~ |
+    <c' e'>8 e' <c' e'>4 f'8 g'4 <d' f'>8~ |
+    <d' f'>8 d'2. r8 |
+    r8 <bes d' f'> <bes d' f'>4 r8 <c' e' g'> <c' e' g'>4 |
+    <d' f' a'>8 <d' f' a'> <d' f' a'> <d' f' a'>4 <d' f' a'>8 <d' f' a'>4 |
+    r8 <bes d' f'> <bes d' f'>4 r8 <c' e' g'> <c' e' g'>4 |
+    <a c' f'>1~ |
+    <a c' f'>1 |
+}
