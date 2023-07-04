@@ -1,0 +1,70 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \skip1 |
+\mymark "Intro" #2
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse I" #6
+    \skip8 "I-"8 "-ma-" "-gine" "no"4 "hea-"8 "-ven" |
+    \skip1 |
+    \skip8 "It's"8 "ea-" "-sy" "if"4 "you" |
+    "try"2 \skip2 |
+    \skip8 "No"8 "hell"2 "be-"8 "-low" |
+    \skip1 |
+    \skip8 "A-"8 "-bove" "us"4. "on-"8 "-ly" |
+    "sky"2 \skip2 |
+\mymark "Chorus" #14
+    \skip8 "I-"8 "-ma-" "-gine" "all"4 "the"8 "peo-" |
+    "-ple"2 \skip2 |
+    "Li-"8 "-ving"4. "for"4 "to-"8 "-day" |
+    \skip4. "aah"8 \skip2 |
+\mymark "Verse II" #18
+    \skip8 "I-"8 "-ma-" "-gine" "no"4 "coun-"8 "-tries" |
+    \skip1 |
+    \skip8 "It"8 "is-" "-n't" "hard"4 "to" |
+    "do"2 \skip2 |
+    \skip8 "No-"8 "-thing" "to" "kill"4 "or"8 "die" |
+    "for"4 \skip2. |
+    \skip8 "And"8 "no" "re-" "-li-"4 "-gion" |
+    "too"2 \skip2 |
+\mymark "Chorus" #26
+    \skip8 "I-"8 "-ma-" "-gine" "all"4 "the"8 "peo-" |
+    "-ple"2 \skip2 |
+    "Li-"8 "-ving"4. "in"4 "peace"8 \skip8 |
+    \skip4. "You"8 \skip2 |
+\mymark "Post-Chorus" #30
+    \skip4 "You"16 "may"8. "say"4. "I'm"16 "a" |
+    "dream-"8 "-er"4 \skip2 \skip8 |
+    \skip4 "But"16 "I'm"8. "not" "the"16 "on-"8. "-ly"16 |
+    "one"4 \skip2. |
+    \skip4 "I"8 "hope" "some" "day"16 \skip16 "you"8 "will" |
+    "join"8 "us"4. \skip2 |
+    \skip4. "And"16 "the" "world"8 \skip4 "will"8 |
+    "be"8 "as" "one"4 \skip2 |
+\mymark "Verse III" #38
+    \skip8 "I-"8 "-ma-" "-gine" "no"4 "pos-"8 "-ses-" |
+    "-sions"4 \skip2. |
+    \skip8 "I"8 "won-" "-der" "if"4 "you" |
+    "can"2 \skip2 |
+    \skip8 "No"8 "need" "for" "greed"4 "or"8 "hun-" |
+    "-ger"4 \skip2. |
+    \skip8 "A"8 "bro-" "-ther-" "-hood"4 "of" |
+    "man"2 \skip2 |
+\mymark "Chorus" #46
+    \skip8 "I-"8 "-ma-" "-gine" "all"4 "the"8 "peo-" |
+    "-ple"2 \skip2 |
+    "Sha-"8 "-ring"4. "the"4 "world"8 \skip8 |
+    \skip4. "You"8 \skip2 |
+\mymark "Outro" #50
+    \skip4 "You"16 "may"8. "say"4. "I'm"16 "a" |
+    "dream-"8 "-er"4 \skip2 \skip8 |
+    \skip4 "But"16 "I'm"8. "not" "the"16 "on-"8. "-ly"16 |
+    "one"4 \skip2. |
+    \skip4 "I"8 "hope" "some" "day"16 \skip16 "you"8 "will" |
+    "join"8 "us"4. \skip2 |
+    \skip4. "And"16 "the" "world"8 \skip4 "will"8 |
+    "live"8 "as" "one"4 \skip2 |
+    \skip1 |
+}

@@ -1,0 +1,69 @@
+bass = {
+    r1 |
+\mymark "Intro" #2
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse I" #6
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #14
+    f,2\2 e,\2 |
+    d,2\3 c,\3 |
+    g,,2.\4 g,,4\4\glissando |
+    g,1\4 |
+\mymark "Verse II" #18
+    c,1\3 |
+    f,,1\4 |
+    c,1\3 |
+    f,,1\4 |
+    c,1\3 |
+    f,,1\4 |
+    c,1\3 |
+    f,,1\4 |
+\mymark "Chorus" #26
+    f,2\2 e,\2 |
+    d,2\3 c,\3 |
+    g,,2.\4 g,,4\4\glissando |
+    g,1\4 |
+\mymark "Post-Chorus" #30
+    f,,2\4 g,,\4 |
+    c,2\3 e,,\4 |
+    f,,2\4 g,,\4 |
+    c,2\3 e,,\4 |
+    f,,2\4 g,,\4 |
+    c,2\3 e,,\4 |
+    f,,2\4 g,,\4 |
+    c,1\3 |
+\mymark "Verse III" #38
+    c,1\3 |
+    f,,1\4 |
+    c,1\3 |
+    f,,1\4 |
+    c,1\3 |
+    f,,1\4 |
+    c,1\3 |
+    f,,1\4 |
+\mymark "Chorus" #46
+    f,2\2 e,\2 |
+    d,2\3 c,\3 |
+    g,,2.\4 g,,4\4\glissando |
+    g,1\4 |
+\mymark "Outro" #50
+    f,,2\4 g,,\4 |
+    c,2\3 e,,\4 |
+    f,,2\4 g,,\4 |
+    c,2\3 e,,\4 |
+    f,,2\4 g,,\4 |
+    c,2\3 e,,\4 |
+    f,,2\4 g,,\4 |
+    c,1\3 |
+    r1 |
+}
