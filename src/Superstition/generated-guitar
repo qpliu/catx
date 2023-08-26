@@ -1,0 +1,97 @@
+guitar = {
+    \tripletFeel 16  {
+        r2 |
+        r1 |
+        r1 |
+        r1 |
+        r2 r16 aes,\6 bes,8\6 des\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        ees8\5 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r8 ees16\5 des\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 r8 des\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        ees8\5 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r8 ees16\5 des\5 |
+        ees8\5 bes,\6 des\5 ees\5 des\5 ees\5 ees\5 des\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r8 ees16\5 des\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 r8 des\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r8 ees16\5 des\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 r8 des\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r8 ees16\5 des\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 r8 des\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r8 ees16\5 des\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 r8 des\5 |
+        f2\4 ges\4 |
+        f2\4 ees\4 |
+        ees1\4 |
+        r4 ges'16\1 ges'8.\1 ees'16\2 des'8.\2 aes8\4 ges16\4 <ges\4 aes\3> |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r8 ees16\5 des\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        f2\4 ges\4 |
+        f2\4 ees\4 |
+        ees1\4 |
+        r1 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r8 ees16\5 des\5 |
+        aes,8\6 bes,\6 des\5 ees\5 des\5 ees\5 ees\5 des\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r8 ees16\5 des\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 r8 des\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r8 ees16\5 des\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 r8 des\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r8 ees16\5 des\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 r8 des\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r8 ees16\5 des\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 r8 des\5 |
+        f2\4 ges\4 |
+        f2\4 ees\4 |
+        ees1\4 |
+        r4 des''16\1 bes'8.\1 aes'16\1 aes'8.\1 ges'8\2 ees'16\2 <ges'\2 aes'\1> |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        b,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r8 ees16\5 des\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 r8 des\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r8 ees16\5 des\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 r8 des\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r8 ees16\5 des\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 r8 des\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r8 ees16\5 des\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 r8 des\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 des8\5 ees\5 |
+        ees8\5 ees\5 des\5 ees\5 ges8.\4 des16\5 r bes,\6 des\5 ees\5 |
+        aes,8\6 bes,\6 des\5 ees\5 ges8.\4 bes,16\6 ees4\5 |
+    }
+}

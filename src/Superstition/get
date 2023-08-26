@@ -1,0 +1,15 @@
+#!/bin/sh
+# https://www.songsterr.com/api/meta/29553/revisions
+# https://d12drcwhcokzqv.cloudfront.net/43860895.gp5
+java -jar ../../guitarproToLy/1.jar < song.gp5 \
+markup-extra 0 '\key ees \minor' \
+scale 'des ees ges aes bes' \
+track 0 preset kav output-lilypond output-lyrics which-lyrics text \
+track 5 preset bass output-lilypond \
+track 8 preset gg output-drums \
+track 0 preset susan output-lilypond output-lyrics which-lyrics text \
+track 3 preset peter output-lilypond \
+track 1 preset midiMuted output-lilypond \
+track 2 preset midiMuted output-lilypond \
+track 6 preset midiOne output-lilypond \
+track 7 preset midiTwo output-lilypond

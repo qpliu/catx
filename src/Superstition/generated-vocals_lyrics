@@ -1,0 +1,98 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \tripletFeel 16  {
+        \skip2 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip2 "Ve-"8 "-ry" "su-" "-sti-"16 \skip16 |
+        \skip16 "-tious"8. \skip2. |
+        \skip2 "Wri-"8 "-ting's" "on" "the"16 "wall" |
+        \skip1 |
+        \skip2 "Ve-"8 "-ry" "su-" "-per-"16 "-sti-" |
+        \skip16 "-tious"8. \skip2. |
+        \skip2 "Lad-"16 "-der's"8 "'bout" "to" "fall"16 |
+        \skip1 |
+        \skip2 "Thir-"16 "-teen"8 "month" "old" "ba-"16 |
+        \skip4 "-by"2 \skip4 |
+        \skip4. \skip16 "Broke"8 "the"8. "look-"16 "-ing"8 "glass"16 |
+        \skip1 |
+        \skip2 "Se-"16 "-ven"8 "years" "of" "bad"16 |
+        \skip4 "luck"16 \skip2 \skip8. |
+        \skip4. \skip16 "The"16 "good" "things"8. "in"8 "your"16 "past" |
+        \skip1 |
+        \skip2 \skip8 "When"16 "you" "be-"8 "-lieve" |
+        \skip4 "in"8 "things" \skip4 "That"16 "you" "don't"8 |
+        \skip16 "un-"8. "-der-"16 \skip16 "-stand"8 \skip8 "Then"16 "you" "suf-"8 "-fer" |
+        \skip1 |
+        \skip4 "Su-"16 "-per-"8. "-sti-"16 "-tion"8. "ain't"8 "the"16 "way" |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip2 "Ve-"8 "-ry" "su-" "-per-"16 "-sti-" |
+        \skip16 "-tious"8. \skip2. |
+        \skip2 "Wash"8 "your" "face" "and"16 "hands" |
+        \skip1 |
+        \skip2 "Rid"8 "me" "of" "the"16 "pro-" |
+        \skip16 "-blem"8. \skip2. |
+        \skip2 "Do"16 "all"8 "that" "you" "can"16 |
+        \skip1 |
+        \skip2 "Keep"16 "me"8 "in" "a" "day-"16 |
+        \skip4 "-dream"2 \skip4 |
+        \skip4. \skip16 "Keep"8 "me"8. "go-"16 "-in'"8 "strong"16 |
+        \skip1 |
+        \skip2 "You"16 "don't"8 "want" "to" "save"16 |
+        \skip4 "me"16 \skip2 \skip8. |
+        \skip2 "Sad"16 \skip8. "is"8 "the"16 "soul" |
+        \skip1 |
+        \skip2 \skip8 "When"16 "you" "be-"8 "-lieve" |
+        \skip4 "in"8 "things" \skip4 "That"16 "you" "don't"8 |
+        \skip16 "un-"8. "-der-"16 \skip16 "-stand"8 \skip8 "Then"16 "you" "suf-"8 "-fer" |
+        \skip1 |
+        \skip4 "Su-"16 "-per-"8. "-sti-"16 "-tion"8. "ain't"8 "the"16 "way" |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+    }
+}
