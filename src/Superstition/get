@@ -7,7 +7,7 @@ transpose 1 scale bes \
 track 0 preset kav output-lilypond output-lyrics which-lyrics text \
 track 5 preset bass output-lilypond \
 track 8 preset gg output-drums \
-track 0 preset susan output-lilypond output-lyrics which-lyrics text \
+track 9 preset susan output-lilypond output-lyrics which-lyrics text \
 track 3 preset peter output-lilypond \
 track 1 preset midiMuted output-lilypond \
 track 2 preset midiMuted output-lilypond \
