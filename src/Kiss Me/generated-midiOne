@@ -1,0 +1,96 @@
+midiOne = {
+    r1 |
+\mymark "Intro" #2
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse" #10
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #18
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse" #31
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #39
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Break" #48
+    a''2 g''4 c'''8 a''~ |
+    a''2 g''4 c'''8 a''~ |
+    a''2 g''4 a''8 c''~ |
+    c''2.~ c''8 r |
+    a''2 g''4 c'''8 a''~ |
+    a''2 g''4 c'''8 a''~ |
+    a''2 g''4 a''8 c''~ |
+    c''2.~ c''8 r |
+    r8 <c'' e''>16 <d'' f''> <d'' f''>8 <d'' f''> <c'' e''> <g' c''> <c'' e''>4 |
+    r1 |
+    r8 <c'' e''>16 <d'' f''> <d'' f''>8 <d'' f''> <c'' e''> <g' c''> <c'' e''>4 |
+    f''4 g'' a''2 |
+\mymark "Chorus" #60
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Outro" #69
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    a''2 g''4 c'''8 a''~ |
+    a''2 g''4 c'''8 a''~ |
+    a''2 g''4 a''8 c''~ |
+    c''1 |
+    a''2 g''4 c'''8 a''~ |
+    a''2 g''4 c'''8 a''~ |
+    a''2 g''4 a''8 c''~ |
+    c''1 |
+    c''1~ |
+    c''2 r |
+}

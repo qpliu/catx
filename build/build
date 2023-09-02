@@ -23,6 +23,7 @@ doiftabscolorsdotext(){
     for a in *
     do
 	case "$a" in
+	    *.gp) ;;
 	    *.gp5) ;;
 	    *.gp4) ;;
 	    *.gp3) ;;
