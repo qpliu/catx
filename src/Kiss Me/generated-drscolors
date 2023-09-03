@@ -53,7 +53,7 @@ drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh16 hh hh hh <hh sne> hh hh hh hh hh hh hh <hh sne> hh hh hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
     << { hh16 hh hh hh <hh sne> hh hh hh hh hh hh hh <hh sne> hh hh hh | } \context DrumVoice = "drsb" { bd2 bd | } >>
     bd1 |
-\mymark "Break" #48
+\mymark "Interlude" #48
     << { r4 hh2 hh4 | } \context DrumVoice = "drsb" { bd1 | } >>
     << { r4 hh2 hh4 | } \context DrumVoice = "drsb" { bd1 | } >>
     << { r4 hh2 hh4 | } \context DrumVoice = "drsb" { bd1 | } >>

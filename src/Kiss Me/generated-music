@@ -76,7 +76,7 @@ midimusic = <<
         drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drs
     \tag #'(midiSusan) \new Staff = "generated-steelpan" \with {
-        midiInstrument = #"synthstrings 1"
+        midiInstrument = #"steel drums"
     } \steelpan
     \tag #'(midiPeter) \new Staff = "generated-guitar" \with {
         midiInstrument = #"electric guitar (clean)"
