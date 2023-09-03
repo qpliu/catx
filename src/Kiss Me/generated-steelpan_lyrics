@@ -18,16 +18,16 @@ steelpanLyrics = \new Lyrics \lyricmode {
     \skip4 "Swing"8 \skip8 "swing"2 |
     \skip4 "swing"8 "the" "spin-"16 "-ning"8 "step"16 \skip4 |
     \skip8 "You"8 "wear" "those" "shoes" "and" "I" "will" |
-    \skip8 "wear"8 \skip8 "that"8 \skip8 "dress"8 \skip4 |
+    \skip8 "wear"8 "that" "dress" \skip8 "Oh"8 \skip4 |
 \mymark "Chorus" #18
     \skip8 "Kiss"8 "me" \skip2 \skip8 |
     \skip8 "Be-"8 "-neath" "that"16 "milk-" \skip8 "-y"8 "twi-" "-light" |
     \skip8 "Lead"8 \skip8 "me"2 \skip8 |
     \skip8 "out"8 "on" "the"16 "moon-" \skip8 "-lit"4 "floor"16 \skip16 |
-    "Lift"4 "your"8 "o-" \skip16 "-pen"16 "hand"4. |
-    \skip8 "Strike"8 "up" "the"16 "band" \skip8 "and"16 "make the" "fire-"8 "-flies"16 "dance" |
-    \skip4 "Sil-"4 "-ver"8 "moon's"16 \skip16 "spark-"8 "-ling" |
-    \skip1 |
+    \skip4 "Lift"8 "your" "o-"16 "-pen" "hand"4. |
+    \skip8 "Strike"8 "up" "the"16 "band" \skip8 "and"16 "make"8 \skip16 "the"16 "fire-" |
+    \skip8 "-flies"8 "dance"4 "Sil-"8 "-ver"16 "moon's" \skip8 "spark-"16 \skip16 |
+    \skip8 "-ling"2. \skip8 |
     \skip2 \skip8 "So"8 "kiss"4 |
     "me"1 |
     \skip1 |
@@ -35,22 +35,22 @@ steelpanLyrics = \new Lyrics \lyricmode {
     \skip1 |
 \mymark "Verse" #31
     \skip8 "Kiss"8 \skip8 "me"8 \skip2 |
-    \skip8 "down"8 "by" "the"16 "bro-" \skip8 "-ken"8 "-house" \skip8 |
+    \skip8 "down"8 "by" "the"16 "bro-" \skip8 "-ken"8 "tree-" "-house" |
     \skip8 "Swing"8 \skip8 "me"8 \skip2 |
     \skip8 "up-"8 "-on"16 "its"8 "hang-"16 \skip8 "-ing"4 "tire"8 |
     \skip8 "Bring"8 \skip8 "bring"8 \skip2 |
     \skip4 "bring"8 "your" "flow-"16 "-ered"8 "hat"16 \skip4 |
     \skip8 "We'll"8 "take" "the"16 "trail"8. "marked"8 "on" "your" |
-    \skip8 "fa-"8 "-ther's" \skip4 "map"8 \skip4 |
+    \skip8 "fa-"8 "-ther's" "map" \skip8 "Oh"8 \skip4 |
 \mymark "Chorus" #39
     \skip8 "Kiss"8 \skip8 "me"2 \skip8 |
-    \skip8 "be-"8 "-neath" "the"16 "milk-" \skip8 "-y"4 "twi-"16 \skip16 |
-    "-light"4 "Lead"8 \skip4 "me"4. |
-    \skip8 "out"8 "on" "the"16 "moon-" \skip8. "-lit"16 "floor"8 \skip8 |
-    \skip4 "Lift"4 "your"8 "o-"16 "-pen" \skip8 "hand"8 |
+    \skip8 "be-"8 "-neath" "the"16 "milk-" \skip8 "-y"8 "twi-" "-light" |
+    \skip8 "Lead"8 \skip8 "me"2 \skip8 |
+    \skip8 "out"8 "on" "the"16 "moon-" \skip4 "-lit"8 "floor"16 \skip16 |
+    \skip4 "Lift"8 "your" "o-" "-pen"16 "hand" \skip4 |
     \skip8 "Strike"8 "up" "the"16 "band" \skip8 "and"16 "make" \skip8 "the"16 "fire-" |
-    \skip8 "-flies"8 "dance"4 "Sil-"8 "-ver"16 "moon-s" "spark-"8 "-ling" |
-    \skip1 |
+    \skip8 "-flies"8 "dance"4 "Sil-"8 "-ver"16 "moon's" \skip8 "spark-"16 \skip16 |
+    \skip8 "-ling"2. \skip8 |
     \skip2 \skip8 "So"8 "kiss"4 |
 \mymark "Break" #48
     "me"1 |
@@ -69,11 +69,11 @@ steelpanLyrics = \new Lyrics \lyricmode {
     \skip8 "Kiss"8 \skip8 "me"2 \skip8 |
     \skip8 "be-"8 "-neath" "the"16 "milk-" \skip8 "-y"8 "twi-" "-light" |
     \skip8 "Lead"8 \skip8 "me"2 \skip8 |
-    \skip8 "out"8 "on" "the"16 "moon-" \skip16 "-lit"16 \skip4 "floor"16 \skip16 |
-    "Lift"4 "your"8 "o-"16 "-pen" \skip8 "hand"4. |
-    \skip8 "Strike"8 "up" "the"16 "band" \skip8 "and"16 "make" "the fire-"8 "-flies"16 "dance" |
-    \skip4 "Sil-"4 "-ver"8 "moon's"16 "spark-" \skip8 "-ling"8 |
-    \skip1 |
+    \skip8 "out"8 "on" "the"16 "moon-" \skip4 "-lit"8 "floor"16 \skip16 |
+    \skip4 "Lift"8 "your" "o-"16 "-pen" "hand"4. |
+    \skip8 "Strike"8 "up" "the"16 "band" \skip8 "and"16 "make" \skip8 "the"16 "fire-" |
+    \skip8 "-flies"8 "dance"4 "Sil-"8 "-ver"16 "moon's" \skip8 "spark-"16 \skip16 |
+    \skip8 "-ling"2. \skip8 |
     \skip2 \skip8 "So"8 "kiss"4 |
 \mymark "Outro" #69
     "me"1 |

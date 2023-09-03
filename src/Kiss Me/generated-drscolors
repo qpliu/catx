@@ -3,23 +3,23 @@ drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     \context DrumVoice = "drsb" \voiceTwo
     hh4 hh hh hh |
 \mymark "Intro" #2
-    hh4 hh hh hh |
-    hh4 hh hh hh |
-    hh4 hh hh hh |
-    hh4 hh hh hh |
-    hh4 hh hh hh |
-    hh4 hh hh hh |
-    hh4 hh hh hh |
-    hh4 hh hh hh |
+    hh4 hho hh hh |
+    hh4 hho hh hh |
+    hh4 hho hh hh |
+    hh4 hho hh hh |
+    hh4 hho hh hh |
+    hh4 hho hh hh |
+    hh4 hho hh hh |
+    hh4 hho hh hh |
 \mymark "Verse" #10
-    << { r4 hh hh hh | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r4 hh hh hh | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r4 hh hh hh | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r4 hh hh hh | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r4 hh hh hh | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r4 hh hh hh | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r4 hh hh hh | } \context DrumVoice = "drsb" { bd1 | } >>
-    << { r2. sne8 sne16 sne | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { hh4 <hh hho> hh hh | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { hh4 hho hh hh | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { hh4 hho hh hh | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { hh4 hho hh hh | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { hh4 hho hh hh | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { hh4 hho hh hh | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { hh4 hho hh hh | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { hh4 hho2 sne8 sne16 sne | } \context DrumVoice = "drsb" { bd1 | } >>
 \mymark "Chorus" #18
     << { cymc16 hh hh hh <hh sne> hh hh hh hh hh hh hh <hh sne> hh hh hh | } \context DrumVoice = "drsb" { bd4. r16 bd8 bd16 bd4. | } >>
     << { hh16 hh hh hh <hh sne> hh hh hh hh hh hh hh <hh sne> hh hh hh | } \context DrumVoice = "drsb" { bd4. r16 bd8 bd16 bd4. | } >>
