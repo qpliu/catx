@@ -1,0 +1,123 @@
+midiOne = {
+\mymark "Intro" #1
+    r1 |
+    r2 |
+    e,16 <e e'> <e e'> e, <e e'> <e e'> e, <e e'>8 <e e'>16 <e e'> e, <e e'> <e e'> <e e'> e, |
+    e,16 <e e'> <e e'> e, <e e'> <e e'> e, <e e'>8 <e e'>16 <e e'> e, <e e'> <e e'> <e e'> e, |
+    e,16 <e e'> <e e'> e, <e e'> <e e'> e, <e e'>8 <e e'>16 <e e'> e, <e e'> <e e'> <e e'> e, |
+    e,16 <e e'> <e e'> e, <e e'> <e e'> e, <e e'>8 <e e'>16 <e e'> e, <e e'> <e e'> <e e'> e, |
+    e,16 <e e'> <e e'> e, <e e'> <e e'> e, <e e'>8 <e e'>16 <e e'> e, <e e'> <e e'> <e e'> e, |
+    e,16 <e e'> <e e'> e, <e e'> <e e'> e, <e e'>8 <e e'>16 <e e'> e, <e e'> <e e'> <e e'> e, |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 1" #22
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 1" #32
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Interlude 1" #38
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse 2" #42
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 2" #52
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge" #58
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Interlude 2" #66
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Guitar Solo" #70
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 3" #78
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge 2" #92
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Outro" #100
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

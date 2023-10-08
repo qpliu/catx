@@ -1,0 +1,124 @@
+vocals = {
+    \myVocalsStuff
+\mymark "Intro" #1
+    r1 |
+    r2 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2. fis'4 |
+\mymark "Verse 1" #22
+    gis'8 r2 r8 fis'4 |
+    gis'8 r2 r8 e'16 e'8 fis'16~ |
+    fis'8 e' e'16 fis'8 e'8. r8 cis' b~ |
+    b8 r2 r8 fis'4 |
+    gis'8 r2. e'16 fis'~ |
+    fis'8 e' e'16 fis'8 e'4~ e'16 cis'8 b~ |
+    b8 r2 r16 fis' fis'4 |
+    gis'8 r2 r8 e''16 e''8 fis''16~ |
+    fis''8 e'' e''16 fis''8 e''8. r4. |
+    r8 c'' c''16 c''8 b'16\glissando c'' b'8. r4 |
+\mymark "Chorus 1" #32
+    fis''4.~ fis''16 e''8. r4. |
+    e''4.~ e''16 d''8. r4 r16 e'' |
+    fis''4.~ fis''16 e'' r e'' r8 e'' r |
+    e''4.~ e''16 d''8. r4. |
+    fis'4 a'8. a'16 r4. a'8 |
+    b'1 |
+\mymark "Interlude 1" #38
+    r1 |
+    r2. fis'4 |
+    gis'8 r2 r8 fis'4 |
+    gis'8 r2 r8 fis'4 |
+\mymark "Verse 2" #42
+    gis'8 r2 r8 fis'4 |
+    gis'8 r2 r8 e''16 e''8 fis''16~ |
+    fis''8 e'' e''16 fis''8 e''8. r8 cis'' b' |
+    r4 e''8 e''4 r16 fis' fis'4 |
+    gis'8 r2 r8 e'16 e'8 fis'16~ |
+    fis'8 e' e'16 fis'8 e'8. r8 cis'' b'~ |
+    b'8 r2 r16 fis' fis'4 |
+    gis'8 r2 r8 e''16 e''8 fis''16~ |
+    fis''8 e'' e''16 fis''8 e''8. r4. |
+    r8 c'' c''16 c''8 b'16\glissando c'' b'8. r4 |
+\mymark "Chorus 2" #52
+    fis''4.~ fis''16 e''8. r4. |
+    e''4.~ e''16 d''8. r4 r16 e'' |
+    fis''4.~ fis''16 e'' r e'' r8 e'' r |
+    e''4.~ e''16 d''8. r4. |
+    fis'4 a'8. a'16 r4. a'8 |
+    b'1 |
+\mymark "Bridge" #58
+    b'4 r2 a'8 a' |
+    \parenthesize a'4 r2. |
+    gis'2. a'8 a' |
+    a'4 r2. |
+    gis'2. a'8 a' |
+    a'4 r2. |
+    fis'2. e''8 e''16 r |
+    fis''1 |
+\mymark "Interlude 2" #66
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Guitar Solo" #70
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus 3" #78
+    r4 fis''16 fis''8 fis''4~ fis''16 e''8 e'' |
+    e''4.~ e''16 d''8. r4. |
+    r4 fis''16 fis''8 fis''4~ fis''16 e''8 e'' |
+    e''4.~ e''16 d''8. r8 b' a' |
+    r4 fis''16 fis''8 fis''4~ fis''16 e''8 e'' |
+    e''4.~ e''16 d''8. r4 b'8 |
+    a'8 b' a'16 b'8. a'4 a'8 a' |
+    b'16 b'8 a'16 b' b'8 a'8. r4. |
+    r4 fis''8. e'' r8 e'' r |
+    e''4.~ e''16 d''8. r4 r16 e'' |
+    fis''4.~ fis''16 e'' r e'' r8 e'' r |
+    r4 e''8. d'' r4. |
+    r4 a'8. a'16 r4. a'8 |
+    b'1 |
+\mymark "Bridge 2" #92
+    b'4 r2 a'8 a' |
+    a'4 r2. |
+    gis'2. a'8 a' |
+    a'4 r2. |
+    gis'2. a'8 a' |
+    a'4 r2. |
+    fis'2. fis''8 fis''16 fis''~ |
+    fis''1 |
+\mymark "Outro" #100
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

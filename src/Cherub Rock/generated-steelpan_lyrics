@@ -1,0 +1,124 @@
+steelpanLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \skip1 |
+    \skip2 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. "Freak"4 |
+\mymark "Verse 1" #22
+    "out"8 \skip2 \skip8 "Give"4 |
+    "in"8 \skip2 \skip8 "Does-"16 "-n't"8 "mat-"16 |
+    \skip8 "-ter"8 "what"16 "you"8 "be-"16 \skip4 "-lieve"8 "in" |
+    \skip2. "Stay"4 |
+    "cool"8 \skip2. "And"16 "be" |
+    \skip8 "some-"16 \skip16 "-bo-"32 \skip32 "-dy's"8 "fool"16 \skip4 "this"8 "year" |
+    \skip2 \skip8. "'Cause"32 \skip32 "they"4 |
+    "know"8 \skip2 \skip8 "who"16 "is"8 "right-"16 |
+    \skip8 "-eous"8 "who"16 "is"8 "bold"16 \skip2 |
+    \skip8 "So"8 "I'm"16 "told"8 \skip2 \skip16 |
+\mymark "Chorus 1" #32
+    "Who"4 \skip8. "want"16 \skip2 |
+    "ho-"4 \skip8. "-ney"16 \skip4. \skip16 "As"16 |
+    "long"4 \skip8. "as"16 \skip16 "there's"16 \skip8 "some"8 \skip8 |
+    "mo-"4 \skip8. "-ney"16 \skip2 |
+    "Who"4 "wants"8. "that"16 \skip4. "ho-"8 |
+    "-ney"1 |
+\mymark "Interlude 1" #38
+    \skip1 |
+    \skip2. "Hip-"4 |
+    "-sters"8 \skip2 \skip8 "U-"4 |
+    "-nite"8 \skip2 \skip8 "Come"4 |
+\mymark "Verse 2" #42
+    \skip2. "a-"4 |
+    "-lign"8 \skip2 \skip8 "for"32 \skip32 "the"8 "big"16 |
+    \skip8 "fight"8 "to"16 "rock"8 "for"16 \skip4 "you"8 \skip8 |
+    \skip2 \skip8. "But"32 \skip32 "be-"4 |
+    "-ware"8 \skip2 \skip8 "all"32 \skip32 "those"8 "an-"16 |
+    \skip8 "-gels"8 "with"32 \skip32 "their"8 "wings"16 \skip4 "glued"8 "on" |
+    \skip2 \skip8. "'Cause"32 \skip32 "deep"4 |
+    "down"8 \skip2 \skip8 "we"16 "are"8 "fright-"16 |
+    \skip8 "-ened"8 "and"32 \skip32 "we're"16 \skip16 "scared"16 \skip2 |
+    \skip8 "If"8 "you"16 "don't"8 "stare"16 \skip2 |
+\mymark "Chorus 2" #52
+    "Who"4 \skip8. "wants"16 \skip2 |
+    "ho-"4 \skip8. "-ney"16 \skip4. \skip16 "as"16 |
+    "long"4 \skip8. "as"16 \skip16 "there's"16 \skip8 "some"8 \skip8 |
+    "mo-"4 \skip8. "-ney"16 \skip2 |
+    "Who"4 "wants"8. "that"16 \skip4. "ho-"8 |
+    "-ney"1 |
+\mymark "Bridge" #58
+    \skip2. "Let"8 "me" |
+    "out"4 \skip2. |
+    \skip2. "Let"8 "me" |
+    "out"4 \skip2. |
+    \skip2. "Let"8 "me" |
+    "out"4 \skip2. |
+    \skip2. "Let"8 "me"16 \skip16 |
+    "out"2. \skip4 |
+\mymark "Interlude 2" #66
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Guitar Solo" #70
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus 3" #78
+    \skip4 "Tell"16 "me"8 "all"16 \skip4 "of"8 "your" |
+    "se-"4 \skip8. "-crets"16 \skip2 |
+    \skip4 "Can-"16 "-not"8 "help"16 \skip4 "but"8 "be-" |
+    "-lieve"4 \skip8. "this"16 \skip4 "is"8 "true" |
+    \skip4 "Tell"16 "me"8 "all"16 \skip4 "of"8 "your" |
+    "se-"4 \skip8. "-crets"16 \skip4. "I"8 |
+    "know"8 "I" "know"16 "I"8. "know"4 "should"8 "have" |
+    "lis-"16 "-tened"8 "when"16 "I" "was"8 "told"16 \skip2 |
+    \skip4 "Who"8. "wants"16 \skip2 |
+    "ho-"4 \skip8. "-ney"16 \skip4. \skip16 "as"16 |
+    "long"4 \skip8. "as"16 \skip16 "there's"16 \skip8 "some"8 \skip8 |
+    \skip4 "mo-"8. "-ney"16 \skip2 |
+    \skip4 "Who"8. "wants"16 \skip4. "ho-"8 |
+    "-ney"1 |
+\mymark "Bridge 2" #92
+    \skip2. "Let"8 "me" |
+    "out"4 \skip2. |
+    \skip2. "Let"8 "me" |
+    "out"4 \skip2. |
+    \skip2. "Let"8 "me" |
+    "out"4 \skip2. |
+    \skip2. "Let"8 "me"16 "out" |
+    \skip1 |
+\mymark "Outro" #100
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}
