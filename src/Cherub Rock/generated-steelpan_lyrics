@@ -66,11 +66,11 @@ steelpanLyrics = \new Lyrics \lyricmode {
 \mymark "Bridge" #58
     \skip2. "Let"8 "me" |
     "out"4 \skip2. |
-    \skip2. "Let"8 "me" |
+    "Let"2. "Let"8 "me" |
     "out"4 \skip2. |
-    \skip2. "Let"8 "me" |
+    "Let"2. "Let"8 "me" |
     "out"4 \skip2. |
-    \skip2. "Let"8 "me"16 \skip16 |
+    "Let"2. "Let"8 "me"16 \skip16 |
     "out"2. \skip4 |
 \mymark "Interlude 2" #66
     \skip1 |
@@ -104,11 +104,11 @@ steelpanLyrics = \new Lyrics \lyricmode {
 \mymark "Bridge 2" #92
     \skip2. "Let"8 "me" |
     "out"4 \skip2. |
-    \skip2. "Let"8 "me" |
+    "Let"2. "Let"8 "me" |
     "out"4 \skip2. |
-    \skip2. "Let"8 "me" |
+    "Let"2. "Let"8 "me" |
     "out"4 \skip2. |
-    \skip2. "Let"8 "me"16 "out" |
+    "Let"2. "Let"8 "me"16 "out" |
     \skip1 |
 \mymark "Outro" #100
     \skip1 |
