@@ -1,0 +1,139 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 1" #7
+    \skip2 "Nib-"8 "-blin'" "on" "sponge" |
+    \skip8 "cake"8 \skip2. |
+    \skip2 "Watch-"8 "-in'" "the" "sun" |
+    \skip8 "bake"8 \skip2. |
+    \skip2 "All"8 "of" "these" "tou-" |
+    \skip8 "-rists"4. "co-"8 "-vered" "with" "oil" |
+    \skip1 |
+    \skip1 |
+    \skip2 "Strum-"8 "-min'" "my" "six" |
+    \skip8 "string"8 \skip2. |
+    \skip2 "on"8 "my" "front" "porch" |
+    \skip8 "swing"8 \skip2. |
+    \skip2 "Smell"8 "those"4 "shrimp"8 |
+    \skip8 "they're"4 "be-"8 "-gin-" "-nin'" "to" "boil" |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus" #23
+    \skip2 "Was-"8 "-ted"4 "a-"8 |
+    "-way"4 "a-"8 "-gain" \skip8 "in"8 "Mar-" "-ga-" |
+    "-ri-"8 "-ta-" "-ville"4 \skip2 |
+    \skip1 |
+    \skip4 "Sear-"8 "-chin'" \skip4 "for"8 "my" |
+    \skip4 "lost"4 "sha-"8 "-ker" "of" "salt" |
+    \skip1 |
+    \skip1 |
+    \skip4. "Some"8 \skip8 "peo-"8 "-ple" "claim" |
+    \skip4. "there's"8 \skip8 "a"4. |
+    "wo-"2 "-man"4 "to"8 "blame" |
+    \skip2 \skip8 "But"8 "I" "know" |
+    \skip1 |
+    \skip4 "It's"8 "no-" \skip8 "-bo-"8 "-dy's" "fault" |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 2" #39
+    \skip2 "Don't"8 "know" "the" "rea-" |
+    \skip8 "-son"8 \skip2. |
+    \skip4. "I"8 "stayed" "here" "all" "sea-" |
+    \skip8 "-son"8 \skip2. |
+    \skip4. "With"8 "no-" "-thing" "to" "show" |
+    \skip8 "but"8 "this"4 "brand"8 "new" "tat-" "-too" |
+    \skip1 |
+    \skip1 |
+    \skip4. "But"8 "it's" "a" "real" "beau-" |
+    \skip8 "-ty"8 \skip2. |
+    \skip4. "A"8 "Me-" "-xi-" "-can" "cu-" |
+    \skip8 "-tie"8 \skip2. |
+    \skip2 "How"8 "I"4 "got"8 |
+    \skip8 "it"4 "I"8 "ha-" "-ven't" "a" "clue" |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus" #55
+    \skip2 "Was-"8 "-ted"4 "a-"8 |
+    "-way"4 "a-"8 "-gain" \skip8 "in"8 "Mar-" "-ga-" |
+    "-ri-"8 "-ta-" "-ville"4 \skip2 |
+    \skip1 |
+    \skip4 "Sear-"8 "-chin'" \skip4 "for"8 "my" |
+    \skip4 "lost"4 "sha-"8 "-ker" "of" "salt" |
+    \skip1 |
+    \skip1 |
+    \skip4. "Some"8 \skip8 "peo-"8 "-ple" "claim" |
+    \skip4 "that"8 "there's" \skip8 "a"4. |
+    "wo-"2 "-man"4 "to"8 "blame" |
+    \skip2 \skip8 "Now"8 "I" "think" |
+    \skip1 |
+    \skip8 "Hell"8 "it" "could" \skip8 "be"8 "my" "fault" |
+    \skip1 |
+    \skip1 |
+\mymark "Solo" #71
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse 3" #87
+    \skip4. "I"8 "blew" "out" "my" "flip" |
+    \skip8 "flop"8 \skip2. |
+    \skip2 "Stepped"8 "on" "a" "pop" |
+    \skip8 "top"8 \skip2. |
+    \skip2 "Cut"8 "my" \skip8 "heel"8 |
+    \skip8 "had"8 "to"4 "cruise"8 "on" "back" "home" |
+    \skip1 |
+    \skip1 |
+    \skip4 "But"8 "there's" "booze" "in" "the" "blen-" |
+    \skip8 "-der"8 \skip2. |
+    \skip4. "And"8 "soon" "it" "will" "ren-" |
+    \skip8 "-der"8 \skip2. |
+    \skip4 "That"4 "fro-"8 "-zen"4 "con-"8 |
+    "-coc-"8 "-tion"4 "that"8 "helps" "me" "hang" "on" |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus" #103
+    \skip2 "Was-"8 "-ted"4 "a-"8 |
+    "-way"4 "a-"8 "-gain" \skip8 "in"8 "Mar-" "-ga-" |
+    "-ri-"8 "-ta-" "-ville"4 \skip2 |
+    \skip1 |
+    \skip4 "Sear-"8 "-chin'" \skip4 "for"8 "my" |
+    \skip4 "lost"4 "sha-"8 "-ker" "of" "salt" |
+    \skip1 |
+    \skip1 |
+    \skip4. "Some"8 \skip8 "peo-"8 "-ple" "claim" |
+    \skip4 "that"8 "there's" \skip8 "a"4. |
+    "wo-"2 "-man"4 "to"8 "blame" |
+    \skip2 \skip8 "But"8 "I" "know" |
+    \skip1 |
+    \skip8 "It's"8 "my" "own" \skip8 "damn"4 "fault"8 |
+    \skip1 |
+    \skip2 "Yes"8 "and"4. |
+    \skip4. "some"8 \skip8 "peo-"8 "-ple" "claim" |
+    \skip4 "that"8 "there's"4 "a"4. |
+    "wo-"2 "-man"4 "to"8 "blame" |
+    \skip2 \skip8 "And"8 "I" "know" |
+    \skip1 |
+    \skip8 "It's"8 "my" "own" \skip8 "damn"8 \skip8 "fault"8 |
+    \skip1 |
+\mymark "Outro" #126
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}
