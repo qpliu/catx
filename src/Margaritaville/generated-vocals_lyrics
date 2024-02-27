@@ -1,6 +1,7 @@
 vocalsLyrics = \new Lyrics \lyricmode {
     \myVocalsStuff
     \skip1 |
+\mymark "Intro" #2
     \skip1 |
     \skip1 |
     \skip1 |
@@ -28,12 +29,12 @@ vocalsLyrics = \new Lyrics \lyricmode {
     "-way"4 "a-"8 "-gain" \skip8 "in"8 "Mar-" "-ga-" |
     "-ri-"8 "-ta-" "-ville"4 \skip2 |
     \skip1 |
-    \skip4 "Sear-"8 "-chin'" \skip4 "for"8 "my" |
-    \skip4 "lost"4 "sha-"8 "-ker" "of" "salt" |
+    \skip4 "Sear-"8 "-chin'" "for"4 "my"8 "lost" |
+    \skip2 "sha-"8 "-ker" "of" "salt" |
     \skip1 |
     \skip1 |
     \skip4. "Some"8 \skip8 "peo-"8 "-ple" "claim" |
-    \skip4. "there's"8 \skip8 "a"4. |
+    \skip4 "that"8 "there's" \skip8 "a"4. |
     "wo-"2 "-man"4 "to"8 "blame" |
     \skip2 \skip8 "But"8 "I" "know" |
     \skip1 |
@@ -62,8 +63,8 @@ vocalsLyrics = \new Lyrics \lyricmode {
     "-way"4 "a-"8 "-gain" \skip8 "in"8 "Mar-" "-ga-" |
     "-ri-"8 "-ta-" "-ville"4 \skip2 |
     \skip1 |
-    \skip4 "Sear-"8 "-chin'" \skip4 "for"8 "my" |
-    \skip4 "lost"4 "sha-"8 "-ker" "of" "salt" |
+    \skip4 "Sear-"8 "-chin'" "for"4 "my"8 "lost" |
+    \skip2 "sha-"8 "-ker" "of" "salt" |
     \skip1 |
     \skip1 |
     \skip4. "Some"8 \skip8 "peo-"8 "-ple" "claim" |
@@ -113,8 +114,8 @@ vocalsLyrics = \new Lyrics \lyricmode {
     "-way"4 "a-"8 "-gain" \skip8 "in"8 "Mar-" "-ga-" |
     "-ri-"8 "-ta-" "-ville"4 \skip2 |
     \skip1 |
-    \skip4 "Sear-"8 "-chin'" \skip4 "for"8 "my" |
-    \skip4 "lost"4 "sha-"8 "-ker" "of" "salt" |
+    \skip4 "Sear-"8 "-chin'" "for"4 "my"8 "lost" |
+    \skip2 "sha-"8 "-ker" "of" "salt" |
     \skip1 |
     \skip1 |
     \skip4. "Some"8 \skip8 "peo-"8 "-ple" "claim" |

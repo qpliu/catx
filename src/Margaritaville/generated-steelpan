@@ -1,6 +1,7 @@
 steelpan = {
     \myVocalsStuff
     r1 |
+\mymark "Intro" #2
     <fis' a'>8 <fis' a'> <fis' a'> <e' g'>4 <fis' a'>4. |
     <fis' a'>8 <fis' a'> <fis' a'> <e' g'>4 <fis' a'>4. |
     <g' b'>8 <g' b'>4 <g' b'> <fis' a'>8 <e' g'> <d' fis'> |
@@ -13,30 +14,30 @@ steelpan = {
     <e' g'>8 <d' fis'>4. r2 |
     r2 <fis' a'>8 <fis' a'> <fis' a'> <g' b'>~ |
     <g' b'>8 <fis' a'>4. <fis' a'>8 <e' g'> <d' fis'> <cis' a'>~ |
-    <cis' a'>2. <b d'>8 <b d'>~ |
-    <b d'>8 <cis' e'>4 <cis' e'> <cis' e'>8 <b d'>4 |
-    <a cis'>2 <e' g'>8 <e' g'> <e' g'> <d' fis'>~ |
+    <cis' a'>2. d'8 d'~ |
+    d'8 e'4 e' e'8 d'4 |
+    cis'2 <e' g'>8 <e' g'> <e' g'> <d' fis'>~ |
     <d' fis'>8 <e' g'>4. r2 |
     r2 <e' g'>8 <e' g'> <e' g'> <d' fis'>~ |
     <d' fis'>8 <e' g'>4. r2 |
     r2 <cis'~ a'>8 <cis' a'>4 <cis' b'>8~ |
     <cis'~ b'>8 <cis'~ a'>4 <cis'~ a'>8 <cis'~ a'> <cis' g'> g' g' |
-    g'8 fis' <fis d'>2.~ |
-    <fis d'>4. fis'8 g'4 a' |
+    g'8 fis' d'2.~ |
+    d'4. fis'8 g'4 a' |
 \mymark "Chorus" #23
-    <d' b'>2 <d'~ b'>8 <d'~ b'>4 <d' a'>8 |
-    <cis'~ a'>4 <cis'~ g'>8 <cis'~ g'>4 <cis'~ fis'>8 <cis'~ g'> <cis' fis'> |
-    g'8 fis' <fis d'~>2. |
-    <c'~ d'>4. <c'~ fis'>8 <c'~ g'>4 <c' a'> |
-    <d' b'>4 <d' b'>8 <d' b'> <d' b'>4 <d' b'>8 <cis' a'>~ |
-    <cis'~ a'>4 <cis'~ a'> <cis'~ a'>8 <cis'~ b'> <cis' a'> <d' fis'>~ |
-    <d' fis'>1~ |
-    <d'~ fis'>4. <d'~ fis'>8 <d'~ g'>4 <d' a'> |
-    <d' b'>4. <d' b'>4 <d' b'>8 <d' b'> <e' cis''>~ |
-    <e' cis''>4 <cis' a'>8 <d' b'>4 <e' cis''>4. |
-    d''4 a' fis' <a fis'>8 <d'~ g'> |
-    d'2~ d'8 g' g' a~ |
-    a4 <g' b'>8 <g' b'> <g' b'> <fis' a'>4 <e' g'>8~ |
+    b'2 b'8 b'4 a'8 |
+    a'4 g'8 g'4 fis'8 g' fis' |
+    g'8 fis' d'2.~ |
+    d'4. fis'8 g'4 a' |
+    b'4 b'8 b' b'4 b'8 a'~ |
+    a'4 a' a'8 b' a' fis'~ |
+    fis'1~ |
+    fis'4. fis'8 g'4 a' |
+    b'4. b'4 b'8 b' cis''~ |
+    cis''4 a'8 b'4 cis''4. |
+    d''4 a' fis' fis'8 g' |
+    d'2 r |
+    r4 <g' b'>8 <g' b'> <g' b'> <fis' a'>4 <e' g'>8~ |
     <e' g'>32 e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' r4 |
     r4 <g' b'>8 <g' b'> <g' b'> <fis' a'>4 <e' g'>8 |
     d'32 fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' |
@@ -47,30 +48,30 @@ steelpan = {
     <e' g'>8 <d' fis'>4. r2 |
     r2 <fis' a'>8 <fis' a'> <fis' a'> <g' b'>~ |
     <g' b'>8 <fis' a'>4. <fis' a'>8 <e' g'> <d' fis'> <cis' a'>~ |
-    <cis' a'>2. <b d'>8 <b d'>~ |
-    <b d'>8 <cis' e'>4 <cis' e'> <cis' e'>8 <b d'>4 |
-    <a cis'>2 <e' g'>8 <e' g'> <e' g'> <d' fis'>~ |
+    <cis' a'>2. d'8 d'~ |
+    d'8 e'4 e' e'8 d'4 |
+    cis'2 <e' g'>8 <e' g'> <e' g'> <d' fis'>~ |
     <d' fis'>8 <e' g'>4. r2 |
     r2 <e' g'>8 <e' g'> <e' g'> <d' fis'>~ |
     <d' fis'>8 <e' g'>4. r2 |
     r2 <cis'~ a'>8 <cis' a'>4 <cis' b'>8~ |
     <cis'~ b'>8 <cis'~ a'>4 <cis'~ a'>8 <cis'~ a'> <cis' g'> g' g' |
-    g'8 fis' <fis d'>2.~ |
-    <fis d'>4. fis'8 g'4 a' |
+    g'8 fis' d'2.~ |
+    d'4. fis'8 g'4 a' |
 \mymark "Chorus" #55
-    <d' b'>2 <d'~ b'>8 <d'~ b'>4 <d' a'>8 |
-    <cis'~ a'>4 <cis'~ g'>8 <cis'~ g'>4 <cis'~ fis'>8 <cis'~ g'> <cis' fis'> |
-    g'8 fis' <fis d'~>2. |
-    <c'~ d'>4. <c'~ fis'>8 <c'~ g'>4 <c' a'> |
-    <d' b'>4 <d' b'>8 <d' b'> <d' b'>4 <d' b'>8 <cis' a'>~ |
-    <cis'~ a'>4 <cis'~ a'> <cis'~ a'>8 <cis'~ b'> <cis' a'> <d' fis'>~ |
-    <d' fis'>1~ |
-    <d'~ fis'>4. <d'~ fis'>8 <d'~ g'>4 <d' a'> |
-    <d' b'>4. <d' b'>4 <d' b'>8 <d' b'> <e' cis''>~ |
-    <e' cis''>4 <cis' a'>8 <d' b'>4 <e' cis''>4. |
-    d''4 a' fis' <a fis'>8 <d'~ g'> |
-    d'2~ d'8 g' g' a~ |
-    a4 <g' b'>8 <g' b'> <g' b'> <fis' a'>4 <e' g'>8 |
+    b'2 b'8 b'4 a'8 |
+    a'4 g'8 g'4 fis'8 g' fis' |
+    g'8 fis' d'2.~ |
+    d'4. fis'8 g'4 a' |
+    b'4 b'8 b' b'4 b'8 a'~ |
+    a'4 a' a'8 b' a' fis'~ |
+    fis'1~ |
+    fis'4. fis'8 g'4 a' |
+    b'4. b'4 b'8 b' cis''~ |
+    cis''4 a'8 b'4 cis''4. |
+    d''4 a' fis' fis'8 g' |
+    d'2 r |
+    r4 <g' b'>8 <g' b'> <g' b'> <fis' a'>4 <e' g'>8 |
     e'32 g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' |
     r4 <fis' a'>8 <fis' a'> <fis' a'> <e' g'>4 <d' fis'>8 |
     d'32 fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' r4 |
@@ -106,20 +107,20 @@ steelpan = {
     <d' fis'>8 <e' g'>4. r2 |
     r2 <cis'~ a'>8 <cis' a'>4 <cis' b'>8~ |
     <cis'~ b'>8 <cis'~ a'>4 <cis'~ a'>8 <cis'~ a'> <cis' g'> g' g' |
-    g'8 fis' <fis d'>2.~ |
-    <fis d'>4. fis'8 g'4 a' |
+    g'8 fis' d'2.~ |
+    d'4. fis'8 g'4 a' |
 \mymark "Chorus" #103
-    <d' b'>2 <d'~ b'>8 <d'~ b'>4 <d' a'>8 |
-    <cis'~ a'>4 <cis'~ g'>8 <cis'~ g'>4 <cis'~ fis'>8 <cis'~ g'> <cis' fis'> |
-    g'8 fis' <fis d'~>2. |
-    <c'~ d'>4. <c'~ fis'>8 <c'~ g'>4 <c' a'> |
-    <d' b'>4 <d' b'>8 <d' b'> <d' b'>4 <d' b'>8 <cis' a'>~ |
-    <cis'~ a'>4 <cis'~ a'> <cis'~ a'>8 <cis'~ b'> <cis' a'> <d' fis'>~ |
-    <d' fis'>1~ |
-    <d'~ fis'>4. <d'~ fis'>8 <d'~ g'>4 <d' a'> |
-    <d' b'>4. <d' b'>4 <d' b'>8 <d' b'> <e' cis''>~ |
-    <e' cis''>4 <cis' a'>8 <d' b'>4 <e' cis''>4. |
-    d''4 a' fis' <a fis'>8 <d' g'> |
+    b'2 b'8 b'4 a'8 |
+    a'4 g'8 g'4 fis'8 g' fis' |
+    g'8 fis' d'2.~ |
+    d'4. fis'8 g'4 a' |
+    b'4 b'8 b' b'4 b'8 a'~ |
+    a'4 a' a'8 b' a' fis'~ |
+    fis'1~ |
+    fis'4. fis'8 g'4 a' |
+    b'4. b'4 b'8 b' cis''~ |
+    cis''4 a'8 b'4 cis''4. |
+    d''4 a' fis' fis'8 g' |
     r4. <g' b'>8 <g' b'> <g' b'> <fis' a'> <e' g'>~ |
     <e' g'>8 g'32 e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' r4 |
     r4. <fis' a'>8 <fis' a'> <fis' a'> <e' g'> <d' fis'>~ |
