@@ -132,8 +132,8 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip2 \skip8 "And"8 "I" "know" |
     \skip1 |
     \skip8 "It's"8 "my" "own" \skip8 "damn"8 \skip8 "fault"8 |
+\mymark "Outro" #125
     \skip1 |
-\mymark "Outro" #126
     \skip1 |
     \skip1 |
     \skip1 |

@@ -4,9 +4,9 @@ steelpan = {
 \mymark "Intro" #2
     <fis' a'>8 <fis' a'> <fis' a'> <e' g'>4 <fis' a'>4. |
     <fis' a'>8 <fis' a'> <fis' a'> <e' g'>4 <fis' a'>4. |
-    <g' b'>8 <g' b'>4 <g' b'> <fis' a'>8 <e' g'> <d' fis'> |
-    d'32 fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis'~ |
-    fis'1 |
+    <g' b'>8 <g' b'>4 <g' b'> <fis' a'>8 <e' g'> <d' fis'>~ |
+    <d' fis'>1~ |
+    <d' fis'>1 |
 \mymark "Verse 1" #7
     r2 <fis' a'>8 <fis' a'> <fis' a'> <e' g'>~ |
     <e' g'>8 <fis' a'>4. r2 |
@@ -20,8 +20,8 @@ steelpan = {
     <d' fis'>8 <e' g'>4. r2 |
     r2 <e' g'>8 <e' g'> <e' g'> <d' fis'>~ |
     <d' fis'>8 <e' g'>4. r2 |
-    r2 <cis'~ a'>8 <cis' a'>4 <cis' b'>8~ |
-    <cis'~ b'>8 <cis'~ a'>4 <cis'~ a'>8 <cis'~ a'> <cis' g'> g' g' |
+    r2 a'8 a'4 b'8~ |
+    b'8 a'4 a'8 a' g' g' g' |
     g'8 fis' d'2.~ |
     d'4. fis'8 g'4 a' |
 \mymark "Chorus" #23
@@ -35,12 +35,12 @@ steelpan = {
     fis'4. fis'8 g'4 a' |
     b'4. b'4 b'8 b' cis''~ |
     cis''4 a'8 b'4 cis''4. |
-    d''4 a' fis' fis'8 g' |
-    d'2 r |
+    d''2 a'4 fis'8 g'~ |
+    g'2 r |
     r4 <g' b'>8 <g' b'> <g' b'> <fis' a'>4 <e' g'>8~ |
-    <e' g'>32 e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' r4 |
-    r4 <g' b'>8 <g' b'> <g' b'> <fis' a'>4 <e' g'>8 |
-    d'32 fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' |
+    <e' g'>1 |
+    r4 <fis' a'>8 <fis' a'> <fis' a'> <e' g'>4 <d' fis'>8~ |
+    <d' fis'>1 |
 \mymark "Verse 2" #39
     fis'2 <fis' a'>8 <fis' a'> <fis' a'> <e' g'>~ |
     <e' g'>8 <fis' a'>4. r2 |
@@ -54,8 +54,8 @@ steelpan = {
     <d' fis'>8 <e' g'>4. r2 |
     r2 <e' g'>8 <e' g'> <e' g'> <d' fis'>~ |
     <d' fis'>8 <e' g'>4. r2 |
-    r2 <cis'~ a'>8 <cis' a'>4 <cis' b'>8~ |
-    <cis'~ b'>8 <cis'~ a'>4 <cis'~ a'>8 <cis'~ a'> <cis' g'> g' g' |
+    r2 a'8 a'4 b'8~ |
+    b'8 a'4 a'8 a' g' g' g' |
     g'8 fis' d'2.~ |
     d'4. fis'8 g'4 a' |
 \mymark "Chorus" #55
@@ -69,29 +69,29 @@ steelpan = {
     fis'4. fis'8 g'4 a' |
     b'4. b'4 b'8 b' cis''~ |
     cis''4 a'8 b'4 cis''4. |
-    d''4 a' fis' fis'8 g' |
-    d'2 r |
-    r4 <g' b'>8 <g' b'> <g' b'> <fis' a'>4 <e' g'>8 |
-    e'32 g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' |
-    r4 <fis' a'>8 <fis' a'> <fis' a'> <e' g'>4 <d' fis'>8 |
-    d'32 fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' r4 |
+    d''2 a'4 fis'8 g'~ |
+    g'2 r |
+    r4 <g' b'>8 <g' b'> <g' b'> <fis' a'>4 <e' g'>8~ |
+    <e' g'>1 |
+    r4 <fis' a'>8 <fis' a'> <fis' a'> <e' g'>4 <d' fis'>8~ |
+    <d' fis'>1 |
 \mymark "Solo" #71
     r2 <fis' a'>8 <fis' a'> <fis' a'> <e' g'>~ |
-    <e' g'>8 fis'32 a' fis' a' fis' a' fis' a' fis' a' fis' a' fis' a' fis' a' fis' a' fis' a' r4 |
+    <e' g'>8 <d' fis'>2. r8 |
     r2 <fis' a'>8 <fis' a'> <fis' a'> <e' g'>~ |
-    <e' g'>8 fis'32 d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' r4 |
+    <e' g'>8 <d' fis'>2. r8 |
     r2 <fis' a'>8 <fis' a'> <fis' a'> <g' b'>~ |
     <g' b'>8 <fis' a'>4. <fis' a'>8 <fis' a'> <e' g'> <d' fis'>~ |
-    <d' fis'>8 cis'32 e' cis' e'' cis'' e'' cis'' e'' cis'' e'' cis'' e'' cis'' e'' cis'' e'' cis'' e'' cis'' e'' cis'' e'' cis'' e'' cis'' e'' cis'' e''~ |
-    e''1 |
+    <d' fis'>8 <cis' e'> <cis'' e''>2.~ |
+    <cis'' e''>1 |
     b'8 d' g' b'4 d'8 g' b' |
     cis''8 e' a' cis''4 e'8 a' cis'' |
-    r1 |
-    r1 |
+    d''2 a'4 fis'8 g'~ |
+    g'2 r |
     r4 <g' b'>8 <g' b'> <g' b'> <fis' a'>4 <e' g'>8~ |
-    <e' g'>32 e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' r4 |
-    r4 <fis' a'>8 <fis' a'> <fis' a'> <e' g'>4 <d' fis'>8 |
-    d'32 fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' r4 |
+    <e' g'>1 |
+    r4 <fis' a'>8 <fis' a'> <fis' a'> <e' g'>4 <d' fis'>8~ |
+    <d' fis'>1 |
 \mymark "Verse 3" #87
     r2 <fis' a'>8 <fis' a'> <fis' a'> <e' g'>~ |
     <e' g'>8 <fis' a'>4. r2 |
@@ -99,14 +99,14 @@ steelpan = {
     <e' g'>8 <d' fis'>4. r2 |
     r2 <fis' a'>8 <fis' a'> <fis' a'> <g' b'>~ |
     <g' b'>8 <fis' a'>4. <fis' a'>8 <e' g'> <d' fis'> <cis' a'>~ |
-    <cis' a'>2. <b d'>8 <b d'>~ |
-    <b d'>8 <cis' e'>4 <cis' e'> <cis' e'>8 <b d'>4 |
-    <a cis'>2 <e' g'>8 <e' g'> <e' g'> <d' fis'>~ |
+    <cis' a'>2. d'8 d'~ |
+    d'8 e'4 e' e'8 d'4 |
+    cis'2 <e' g'>8 <e' g'> <e' g'> <d' fis'>~ |
     <d' fis'>8 <e' g'>4. r2 |
     r2 <e' g'>8 <e' g'> <e' g'> <d' fis'>~ |
     <d' fis'>8 <e' g'>4. r2 |
-    r2 <cis'~ a'>8 <cis' a'>4 <cis' b'>8~ |
-    <cis'~ b'>8 <cis'~ a'>4 <cis'~ a'>8 <cis'~ a'> <cis' g'> g' g' |
+    r2 a'8 a'4 b'8~ |
+    b'8 a'4 a'8 a' g' g' g' |
     g'8 fis' d'2.~ |
     d'4. fis'8 g'4 a' |
 \mymark "Chorus" #103
@@ -120,21 +120,21 @@ steelpan = {
     fis'4. fis'8 g'4 a' |
     b'4. b'4 b'8 b' cis''~ |
     cis''4 a'8 b'4 cis''4. |
-    d''4 a' fis' fis'8 g' |
-    r4. <g' b'>8 <g' b'> <g' b'> <fis' a'> <e' g'>~ |
-    <e' g'>8 g'32 e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' g' e' r4 |
-    r4. <fis' a'>8 <fis' a'> <fis' a'> <e' g'> <d' fis'>~ |
-    <d' fis'>8 fis'32 d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' r4 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r2 <g' b'>8 <g' b'> <g' b'> <fis' a'>~ |
-    <fis' a'>8 e'32 g' e' g' e' g' e' g' e' g' e' g' r2 |
+    d''2 a'4 fis'8 g'~ |
+    g'2 r |
+    r4 <g' b'>8 <g' b'> <g' b'> <fis' a'>4 <e' g'>8~ |
+    <e' g'>1 |
+    r4 <fis' a'>8 <fis' a'> <fis' a'> <e' g'>4 <d' fis'>8~ |
+    <d' fis'>1 |
+    b'4. b'4 b'8 b' cis''~ |
+    cis''4 a'8 b'4 cis''4. |
+    d''2 a'4 fis'8 g'~ |
+    g'2 r |
+    r4 <g' b'>8 <g' b'> <g' b'> <fis' a'>4 <e' g'>8~ |
+    <e' g'>1 |
+\mymark "Outro" #125
     <fis' a'>8 <fis' a'> <fis' a'> <e' g'>4 <fis' a'>4. |
     <fis' a'>8 <fis' a'> <fis' a'> <e' g'>4 <fis' a'>4. |
-\mymark "Outro" #126
-    <fis' a'>8 <fis' a'>4 <fis' a'> <e' g'>8 <fis' a'>4 |
-    <g' b'>8 <g' b'>4 <g' b'> <g' b'>8 <fis' a'> <e' g'> |
-    d'32 fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d' fis' d'2 |
+    <g' b'>8 <g' b'>4 <g' b'> <fis' a'>8 <e' g'> <d' fis'>~ |
+    <d' fis'>2 d' |
 }
