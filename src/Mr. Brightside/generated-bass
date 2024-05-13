@@ -1,0 +1,148 @@
+bass = {
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse" #5
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    d8\2 d\2 d\2 d\2 d\2 d\2 d\2 d\2 |
+    cis8\2 cis\2 cis\2 cis\2 cis\2 cis\2 cis\2 cis\2 |
+    g,8\3 g,\3 g,\3 g,\3 g,\3 g,\3 g,\3 g,\3 |
+    g,8\3 g,\3 g,\3 g,\3 g,\3 g,\3 g,\3 g,\3\glissando |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    cis,8\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 |
+    g,,8\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 |
+    g,,8\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    cis,8\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    g,8\3 g,\3 g,\3 g,\3 g,\3 g,\3 g,\3 g,\3 |
+    g,8\3 g,\3 g,\3 g,\3 g,\3 g,\3 g,\3 g,\3 |
+\mymark "Pre-chorus" #21
+    b,,4\3 b,,\3 b,,\3 b,,\3 |
+    fis,4.\2\glissando e,\2 d,4\2 |
+    a,,4\3 a,,\3 a,,\3 a,,\3 |
+    fis,4.\2\glissando e,\2 d,4\2 |
+    g,,4\4 g,,\4 g,,\4 g,,\4 |
+    e,4.\2\glissando d,\2 cis,4\3 |
+    g,,4\4 g,,\4 g,,\4 g,,\4 |
+    b,,4.\3\glissando cis,\3 d,4\2 |
+    b,,4\3 b,,\3 b,,\3 b,,\3 |
+    fis,4.\2\glissando e,\2 d,4\2 |
+    a,,4\3 a,,\3 a,,\3 a,,\3 |
+    fis,4.\2\glissando e,\2 d,4\2 |
+    fis,,8\4\glissando g,,\4 g,,\4 g,,4\4 g,,8\4 g,,\4 g,,\4 |
+    fis,,8\4\glissando g,,\4 g,,\4 g,,4\4 g,,8\4 g,,\4 g,,\4 |
+    fis,,8\4\glissando g,,\4 g,,\4 g,,\4 fis,,\4\glissando g,,\4 g,,\4 g,,\4\glissando |
+    g,8\3\glissando g,\3 g,\3 g,\3 g,\3 g,\3 g,4\3\glissando |
+\mymark "Chorus" #37
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    g,8\2 g,\2 g,\2 g,\2 g,\2 g,\2 g,\2 g,\2 |
+    b,,8\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 |
+    a,,8\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    g,8\2 g,\2 g,\2 g,\2 g,\2 g,\2 g,\2 g,\2 |
+    b,,8\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 |
+    a,,8\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    g,,8\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 |
+    b,,8\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 |
+    a,,8\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3\glissando |
+    g,8\3 g,\3 g,\3 g,\3 g,\3 g,\3 g,\3 g,\3 |
+    b,8\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 |
+    a,8\2 a,\2 a,\2 a,\2 a,\2 a,\2 a,\2 a,\2 |
+\mymark "Interlude" #53
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    g,8\2 g,\2 g,\2 g,\2 g,\2 g,\2 g,\2 g,\2 |
+    b,,8\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 |
+    a,,8\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    g,8\2 g,\2 g,\2 g,\2 g,\2 g,\2 g,\2 g,\2 |
+    b,,8\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 |
+    a,,8\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 |
+\mymark "Verse" #61
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    cis,8\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 |
+    g,,8\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 |
+    g,,8\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    cis,8\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 |
+    g,,4\4 r2. |
+    r1 |
+    d,8\3\glissando d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    cis,8\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 |
+    g,,8\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 |
+    g,,8\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    cis,8\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3 cis,\3\glissando |
+    g,8\3 g,\3 g,\3 g,\3 g,\3 g,\3 g,\3 g,\3 |
+    g,8\3 g,\3 g,\3 g,\3 g,\3 g,\3 g,\3 g,\3 |
+\mymark "Pre-Chorus" #77
+    b,,4\3 b,,\3 b,,\3 b,,\3 |
+    fis,4.\2\glissando e,\2 d,4\2 |
+    a,,4\3 a,,\3 a,,\3 a,,\3 |
+    fis,4.\2\glissando e,\2 d,4\2 |
+    g,,4\4 g,,\4 g,,\4 g,,\4 |
+    e,4.\2\glissando d,\2 cis,4\3 |
+    g,,4\4 g,,\4 g,,\4 g,,\4 |
+    b,,4.\3\glissando cis,\3 d,4\2 |
+    b,,4\3 b,,\3 b,,\3 b,,\3 |
+    fis,4.\2\glissando e,\2 d,4\2 |
+    a,,4\3 a,,\3 a,,\3 a,,\3 |
+    fis,4.\2\glissando e,\2 d,4\2 |
+    fis,,8\4\glissando g,,\4 g,,\4 g,,4\4 g,,8\4 g,,\4 g,,\4 |
+    fis,,8\4\glissando g,,\4 g,,\4 g,,4\4 g,,8\4 g,,\4 g,,\4 |
+    fis,,8\4\glissando g,,\4 g,,\4 g,,\4 fis,,\4\glissando g,,\4 g,,\4 g,,\4\glissando |
+    g,8\3\glissando g,\3 g,\3 g,\3 g,\3 g,\3 g,4\3\glissando |
+\mymark "Chorus" #93
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    g,8\2 g,\2 g,\2 g,\2 g,\2 g,\2 g,\2 g,\2 |
+    b,,8\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 |
+    a,,8\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    g,8\2 g,\2 g,\2 g,\2 g,\2 g,\2 g,\2 g,\2 |
+    b,,8\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 |
+    a,,8\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    g,,8\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 |
+    b,,8\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 |
+    a,,8\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3\glissando |
+    g,8\3 g,\3 g,\3 g,\3 g,\3 g,\3 g,\3 g,\3\glissando |
+    b,8\3 b,\3 b,\3 b,\3 b,\3 b,\3 b,\3 b,\3\glissando |
+    a,8\3 a,\3 a,\3 a,\3 a,\3 a,\3 a,\3 a,\3 |
+\mymark "Interlude" #109
+    <d\2 fis\1>1 |
+    <g,\2 d\1>1 |
+    <b,\2 d\1>1 |
+    <a,\2 cis\1>1 |
+    <d\2 fis\1>1 |
+    <g,\2 d\1>1 |
+    b,8\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 |
+    a,8\3 a,\3 a,\3 a,\3 a,\3 a,\3 a,\3 a,\3\glissando |
+\mymark "Outro" #117
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    g,8\2 g,\2 g,\2 g,\2 g,\2 g,\2 g,\2 g,\2 |
+    b,,8\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 |
+    a,,8\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    g,8\2 g,\2 g,\2 g,\2 g,\2 g,\2 g,\2 g,\2 |
+    b,,8\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 |
+    a,,8\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
+    g,,8\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 g,,\4 |
+    b,,8\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 b,,\4 |
+    a,,8\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 a,,\4 |
+    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3\glissando |
+    g,8\2\glissando g,\2 g,\2 g,\2 g,\2 g,\2 g,\2 g,\2\glissando |
+    b,8\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 b,\2 |
+    a,4\2 e,\3 <a,,\4 e,\3>2~ |
+    <a,,\4 e,\3>1~ |
+    <a,,\4 e,\3>1~ |
+    <a,,\4 e,\3>1~ |
+    <a,,\4 e,\3>1 |
+}

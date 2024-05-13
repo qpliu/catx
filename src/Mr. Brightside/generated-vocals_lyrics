@@ -1,0 +1,149 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse" #5
+    \skip4 "Co-"8 "-min'" "out" "of" "my" "cage" |
+    \skip8 "and"8 "I've" "been" "do-" "-in'" "just"4 |
+    "fine"4 "got"8 "to" "got" "to" "be" "down" |
+    \skip8 "be-"8 "-cause" "I" "want" "it" "all"4 |
+    \skip4 "It"8 "start-" "-ed" "with" "a" "kiss" |
+    \skip8 "How"8 "did" "it" "end" "up" "like"4 |
+    "this"4 "It"8 "was" "on-" "-ly" "a" "kiss" |
+    \skip4 "It"8 "was" "on-" "-ly" "a" "kiss" |
+    \skip4 "Now"8 "I'm" "fall-" "-ing" "a-" "-sleep" |
+    \skip4 "and"8 "she's" "call-" "-ing" "a" "cab" |
+    \skip4 "while"8 "he's" "hav-" "-ing" "a" "smoke" |
+    \skip4 "and"8 "she's" "tak-" "-ing" "a" "drag" |
+    \skip4 "Now"8 "they're" "go-" "-in'" "to" "bed" |
+    \skip4 "and"8 "my" "sto-" "-mach" "is" "sick" |
+    \skip4 "And"8 "it's" "all" "in" "my" "head" |
+    \skip8 "but"4 "she's"8 "touch-" "-ing" "his"4 |
+\mymark "Pre-chorus" #21
+    "chest"2 "now"4 \skip4 |
+    "He"4 "takes" "off" "her" |
+    "dress"2 "now"4 \skip4 |
+    "Let"2 "me" |
+    "go"1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip8 "And"8 "I"4 "just" "can't" |
+    "look"4 \skip4 "It's"2 |
+    "kill-"4 "-ing" "me"2 |
+    \skip2. "They're"4 |
+    "tak-"4. "-ing" "con-"4 |
+    \skip4 "-trol"2. |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus" #37
+    "Jea-"4. "-lou-"8 "-sy"4 \skip4 |
+    "turn-"4 "-ing" "saints" "in" |
+    "to"4. "the"8 "sea"4 \skip4 |
+    "Swim-"4 "-ming" "through" "sick" |
+    "lul-"4. "-la-"8 "-bies"4 \skip4 |
+    "Chok-"4 "-ing" "on" "your" |
+    "a-"4. "-li-"8 "-bis"4 \skip4 |
+    "But"4 "it's" "just" "the" |
+    "price"4. "I"8 "pay"4 \skip4 |
+    "Des-"4 "-ti-" "-ny" "is" |
+    "cal-"4. "-ling"8 "me"4 \skip4 |
+    "O-"4 "-pen" "up" "my" |
+    "ea-"4. "-ger" "eyes"4 |
+    \skip1 |
+    \skip8 "'Cause"8 "I'm"4 "Mis-" "-ter" |
+    "Bright-"2 "-side" |
+\mymark "Interlude" #53
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse" #61
+    \skip4 "Co-"8 "-min'" "out" "of" "my" "cage" |
+    \skip8 "and"8 "I've" "been" "do-" "-in'" "just"4 |
+    "fine"4 "got"8 "to" "got" "to" "be" "down" |
+    \skip8 "be-"8 "-cause" "I" "want" "it" "all"4 |
+    \skip4 "It"8 "start-" "-ed" "with" "a" "kiss" |
+    \skip4 "How"8 "did" "it" "end" "up" "like" |
+    \skip8 "this"4 "It"8 "was" "on-" "-ly" "a" |
+    "kiss"4 "It"8 "was" "on-" "-ly" "a" "kiss" |
+    \skip4 "Now"8 "I'm" "fal-" "-ling" "a-" "-sleep" |
+    \skip4 "and"8 "she's" "cal-" "-ling" "a" "cab" |
+    \skip4 "While"8 "he's" "hav-" "-ing" "a" "smoke" |
+    \skip4 "and"8 "she's" "tak-" "-ing" "a" "drag" |
+    \skip4 "Now"8 "they're" "go-" "-ing" "to" "bed" |
+    \skip4 "and"8 "my" "sto-" "-mach" "is" "sick" |
+    \skip4 "And"8 "it's" "all" "in" "my" "head" |
+    \skip8 "but"4 "she's"8 "touch-" "-ing" "his"4 |
+\mymark "Pre-Chorus" #77
+    "chest"2 "now"4 \skip4 |
+    "He"4 "takes" "off" "her" |
+    "dress"2 "now"4 \skip4 |
+    "Let"2 "me" |
+    "go"1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip8 "'Cause"8 "I"4 "just" "can't" |
+    "look"4 \skip4 "It's"2 |
+    "kill-"4 "-ing" "me"2 |
+    \skip2. "They're"4 |
+    "tak-"4. "-ing" "con-"4 |
+    \skip4 "-trol"2. |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus" #93
+    "Jea-"4. "-lou-"8 "-sy"4 \skip4 |
+    "Turn-"4 "-ing" "saints" "in" |
+    "to"4. "the"8 "sea"4 \skip4 |
+    "Swim-"4 "-ming" "through" "sick" |
+    "lul-"4. "-la-"8 "-bies"4 \skip4 |
+    "Chok-"4 "-ing" "on" "your" |
+    "a-"4. "-li-"8 "-bis"4 \skip4 |
+    "But"4 "it's" "just" "the" |
+    "price"4. "I"8 "pay"4 \skip4 |
+    "Des-"4 "-ti-" "-ny" "is" |
+    "cal-"4. "-ling"8 "me"4 \skip4 |
+    "O-"4 "-pen" "up" "my" |
+    "ea-"4. "-ger" "eyes"4 |
+    \skip1 |
+    \skip8 "'Cause"8 "I'm"4 "Mis-" "-ter" |
+    "Bright-"2 "-side" |
+\mymark "Interlude" #109
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. "I"4 |
+\mymark "Outro" #117
+    "ne-"4. "-ver"2 \skip8 |
+    \skip1 |
+    \skip1 |
+    \skip2. "I"4 |
+    "ne-"4. "-ver"2 \skip8 |
+    \skip1 |
+    \skip1 |
+    \skip2. "I"4 |
+    "ne-"4. "-ver" \skip4 |
+    \skip1 |
+    \skip1 |
+    \skip2. "I"4 |
+    "ne-"4. "-ver" \skip4 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}

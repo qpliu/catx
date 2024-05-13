@@ -1,0 +1,148 @@
+midiOne = {
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse" #5
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-chorus" #21
+    <b,, b,>1~ |
+    <b,, b,>1 |
+    <a,, a,>1~ |
+    <a,, a,>1 |
+    <g, g>8~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ d d' \parenthesize d''> <g, g>~ <g,~ g~ e e' \parenthesize e''> <g, g>~ <g,~ g~ d b \parenthesize b'> |
+    <g, g>8~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ d d' \parenthesize d''> <g, g>~ <g,~ g~ e e' \parenthesize e''> <g, g>~ <g,~ g~ d b \parenthesize b'> |
+    <g, g>8~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ e e' \parenthesize e''> <g, g>~ <g,~ g~ d b \parenthesize b'> |
+    <g, g>8~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ d cis' \parenthesize cis''> <g, g>~ <g,~ g~ d cis' \parenthesize cis''> <g, g>~ <g, g d d' \parenthesize d''> |
+    <b, b>1~ |
+    <b, b>1 |
+    <a, a>1~ |
+    <a, a>1 |
+    <g, g>8~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ d d' \parenthesize d''> <g, g>~ <g,~ g~ e e' \parenthesize e''> <g, g>~ <g,~ g~ d b \parenthesize b'> |
+    <g, g>8~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ d d' \parenthesize d''> <g, g>~ <g,~ g~ e e' \parenthesize e''> <g, g>~ <g,~ g~ d b \parenthesize b'> |
+    <g, g>8~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ e e' \parenthesize e''> <g, g>~ <g,~ g~ d b \parenthesize b'> |
+    <g, g>8~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ e e' \parenthesize e''> <g, g>~ <g, g d b \parenthesize b'> |
+\mymark "Chorus" #37
+    <d, d \parenthesize d'>1 |
+    <g,, g, \parenthesize g'>1 |
+    <b,, b, \parenthesize b>1 |
+    <a,, a, \parenthesize a>1 |
+    <d, d \parenthesize d'>1 |
+    <g,, g, \parenthesize g'>1 |
+    <b,, b, \parenthesize b>1 |
+    <a,, a, \parenthesize a>1 |
+    <d, d \parenthesize d'>1 |
+    <g,, g, \parenthesize g>1 |
+    <b,, b, \parenthesize b>1 |
+    <a,, a, \parenthesize a>1 |
+    <d, d \parenthesize d'>1 |
+    <g,, g, \parenthesize g'>1 |
+    <b,, b, \parenthesize b'>1 |
+    <a,, a, \parenthesize a'>1 |
+\mymark "Interlude" #53
+    <d, d \parenthesize d'>1 |
+    <g,, g, \parenthesize g'>1 |
+    <a,, a, \parenthesize a>1 |
+    <g,, g, \parenthesize g>1 |
+    <d, d \parenthesize d'>1 |
+    <g,, g, \parenthesize g'>1 |
+    <b,, b, \parenthesize b>1 |
+    <a,, a, \parenthesize a>1 |
+\mymark "Verse" #61
+    <d, d~ \parenthesize d'~>1 |
+    <d \parenthesize d'>1~ |
+    <d \parenthesize d'>1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #77
+    <b,, b,>1~ |
+    <b,, b,>1 |
+    <a,, a,>1~ |
+    <a,, a,>1 |
+    <g, g>8~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ d d' \parenthesize d''> <g, g>~ <g,~ g~ e e' \parenthesize e''> <g, g>~ <g,~ g~ d b \parenthesize b'> |
+    <g, g>8~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ d d' \parenthesize d''> <g, g>~ <g,~ g~ e e' \parenthesize e''> <g, g>~ <g,~ g~ d b \parenthesize b'> |
+    <g, g>8~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ e e' \parenthesize e''> <g, g>~ <g,~ g~ d b \parenthesize b'> |
+    <g, g>8~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ d cis' \parenthesize cis''> <g, g>~ <g,~ g~ d cis' \parenthesize cis''> <g, g>~ <g, g d d' \parenthesize d''> |
+    <b, b>1~ |
+    <b, b>1 |
+    <a, a>1~ |
+    <a, a>1 |
+    <g, g>8~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ d d' \parenthesize d''> <g, g>~ <g,~ g~ e e' \parenthesize e''> <g, g>~ <g,~ g~ d b \parenthesize b'> |
+    <g, g>8~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ d d' \parenthesize d''> <g, g>~ <g,~ g~ e e' \parenthesize e''> <g, g>~ <g,~ g~ d b \parenthesize b'> |
+    <g, g>8~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ e e' \parenthesize e''> <g, g>~ <g,~ g~ d b \parenthesize b'> |
+    <g, g>8~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ d b \parenthesize b'> <g, g>~ <g,~ g~ e e' \parenthesize e''> <g, g>~ <g, g d b \parenthesize b'> |
+\mymark "Chorus" #93
+    <d, d \parenthesize d'>1 |
+    <g,, g, \parenthesize g'>1 |
+    <b,, b, \parenthesize b>1 |
+    <a,, a, \parenthesize a>1 |
+    <d, d \parenthesize d'>1 |
+    <g,, g, \parenthesize g'>1 |
+    <b,, b, \parenthesize b>1 |
+    <a,, a, \parenthesize a>1 |
+    <d, d \parenthesize d'>1 |
+    <g,, g, \parenthesize g>1 |
+    <b,, b, \parenthesize b>1 |
+    <a,, a, \parenthesize a>1 |
+    <d, d \parenthesize d'>1 |
+    <g,, g, \parenthesize g'>1 |
+    <b,, b, \parenthesize b'>1 |
+    <a,, a, \parenthesize a'>1 |
+\mymark "Interlude" #109
+    <d, d \parenthesize d'>1 |
+    <g,, g, \parenthesize g'>1 |
+    <a,, a, \parenthesize a'>1 |
+    <a, \parenthesize a \parenthesize a'>1 |
+    <fis,, fis, \parenthesize fis'>1 |
+    <d, d \parenthesize d'>1 |
+    <b,, b, \parenthesize b>1 |
+    <a, \parenthesize a \parenthesize a'>1 |
+\mymark "Outro" #117
+    <d, d \parenthesize d'>1 |
+    <g,, g, \parenthesize g'>1 |
+    <b,, b, \parenthesize b>1 |
+    <a,, a, \parenthesize a>1 |
+    <d, d \parenthesize d'>1 |
+    <g,, g, \parenthesize g'>1 |
+    <b,, b, \parenthesize b>1 |
+    <a,, a, \parenthesize a>1 |
+    <d, d \parenthesize d'>1 |
+    <g,, g, \parenthesize g>1 |
+    <b,, b, \parenthesize b>1 |
+    <a,, a, \parenthesize a>1 |
+    <d, d \parenthesize d'>1 |
+    <g,, g, \parenthesize g'>1 |
+    <b,, b, \parenthesize b'>1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}

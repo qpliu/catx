@@ -1,0 +1,148 @@
+midiOneA = {
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse" #5
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-chorus" #21
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #37
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Interlude" #53
+    <fis fis' fis''>1 |
+    <a a' a''>1 |
+    <d d' d''>1 |
+    <e e' e''>4 <d d' d''> <cis cis' cis''> <d d' d''> |
+    <fis fis' fis''>1 |
+    <a a' a''>1 |
+    <a a' a''>4 <g g' g''>2 <fis fis' fis''>4 |
+    <fis fis' fis''>4 <e e' e''>2 <e e' e''>4 |
+\mymark "Verse" #61
+    <d d' d''>1~ |
+    <d d' d''>1~ |
+    <d d' d''>1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Pre-Chorus" #77
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #93
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Interlude" #109
+    <\parenthesize d \parenthesize d' \parenthesize d''>1~ |
+    <\parenthesize d \parenthesize d' \parenthesize d''>1~ |
+    <\parenthesize d \parenthesize d' \parenthesize d''>1~ |
+    <\parenthesize d \parenthesize d' \parenthesize d''>1~ |
+    <\parenthesize d \parenthesize d' \parenthesize d''>1~ |
+    <\parenthesize d \parenthesize d' \parenthesize d''>1~ |
+    <\parenthesize d \parenthesize d' \parenthesize d''>1~ |
+    <\parenthesize d \parenthesize d' \parenthesize d''>1 |
+\mymark "Outro" #117
+    <fis fis' fis''>1 |
+    <a a' a''>1 |
+    <d d' d''>1 |
+    <fis e' e''>4 <d d' d''> <cis cis' cis''> <d d' d''> |
+    <fis fis' fis''>1 |
+    <a a' a''>1 |
+    <a a' a''>4. <g g' g''> <fis fis' fis''>4 |
+    <fis fis' fis''>4. <e e' e''> <e e' e''>4 |
+    <d d' d''>1~ |
+    <d d' d''>1 |
+    <e e' e''>4. <fis fis' fis''> <g g' g''>4 |
+    <fis fis' fis''>4. <e e' e''> <e e' e''>4 |
+    <d d' d''>1~ |
+    <d d' d''>1 |
+    <e e' e''>4. <fis fis' fis''> <g g' g''>4 |
+    <a, a e' a'>4 <a, a d' fis'> <a, a cis' e'>2~ |
+    <a, a cis' e'>1~ |
+    <a, a cis' e'>1~ |
+    <a, a cis' e'>1~ |
+    <a, a cis' e'>1 |
+}
