@@ -11,7 +11,7 @@
 \include "generated-drs"
 \include "generated-steelpan"
 \include "generated-midiOne"
-\include "generated-midiOneA"
+\include "generated-midiTwo"
 
 layoutmusic = <<
     \tag #'(allPart kavPart) \new Staff \with {
@@ -83,7 +83,7 @@ midimusic = <<
     \tag #'(midiOne) \new Staff = "generated-midiOne" \with {
         midiInstrument = #"lead 2 (sawtooth)"
     } \midiOne
-    \tag #'(midiOne) \new Staff = "generated-midiOneA" \with {
+    \tag #'(midiTwo) \new Staff = "generated-midiTwo" \with {
         midiInstrument = #"pad 2 (warm)"
-    } \midiOneA
+    } \midiTwo
 >>
