@@ -6,144 +6,144 @@ steelpan = {
     r1 |
     r1 |
 \mymark "Verse" #5
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    d'8 d' d' d' d' d' d' d' |
-    cis'8 cis' cis' cis' cis' cis' cis' cis' |
-    g'8 g' g' g' g' g' g' g' |
-    g'8 g' g' g' g' g' g' g' |
-    d'8 d' d' d' d' d' d' d' |
-    cis'8 cis' cis' cis' cis' cis' cis' cis' |
-    g'8 g' g' g' g' g' g' g' |
-    g'8 g' g' g' g' g' g' g' |
+    r4 d'8 d' d' d' d' d'~ |
+    d'8 d' d' d' d' d' d'4 |
+    d'4 d'8 d' d' d' d' d'~ |
+    d'8 d' d' d' d' d' d'4 |
+    r4 d'8 d' d' d' d' d'~ |
+    d'8 d' d' d' d' d' d'4 |
+    d'4 d'8 d' d' d' d' d'~ |
+    d'8 r d' d' d' d' d' d'~ |
+    d'8 r d' d' d' d' d' d'~\glissando |
+    d'8\glissando r d' d' d' d' d' d'~ |
+    d'8 r d' d' d' d' d' d'~ |
+    d'8 r d' d' d' d' d' d'~ |
+    d'8 r d' d' d' d' d' d'~ |
+    d'8 r d' d' d' d' d' d'~ |
+    d'8 r d' d' d' d' d' d'~ |
+    d'8 d'4 d'8 d' d' d'4 |
 \mymark "Pre-chorus" #21
-    g'4 g' g' g' |
-    fis'4. e' d'4 |
-    e'4 e' e' e' |
-    fis'4. e' d'4 |
-    d'4 d' d' d' |
-    e'4. d' cis'4 |
-    d'4 d' d' d' |
-    b4. cis' d'4 |
-    fis'4 fis' fis' fis' |
-    fis'4. e' d'4 |
-    e'4 e' e' e' |
-    fis'4. e' d'4 |
-    cis'8 d' d' d' d' d' d' d' |
-    cis'8 d' d' d' d' d' d' d' |
-    cis'8 d' d' d' cis' d' d' d' |
-    g'8 g' g' g' g' g' g' g' |
-\mymark "Chorus" #37
-    d'8 d' d' d' d' d' d' d' |
-    g'8 g' g' g' g' g' g' g' |
-    b'8 b' b' b' b' b' b' b' |
-    a'8 a' a' a' a' a' a' a' |
-    d'8 d' d' d' d' d' d' d' |
-    g'8 g' g' g' g' g' g' g' |
-    fis'8 fis' fis' fis' fis' fis' fis' fis' |
-    a'8 a' a' a' a' a' a' a' |
-    d'8 d' d' d' d' d' d' d' |
-    g'8 g' g' g' g' g' g' g' |
-    b'8 b' b' b' b' b' b' b' |
-    a'8 a' a' a' a' a' a' a' |
-    d'8 d' d' d' d' d' d' d' |
-    g'8 g' g' g' g' g' g' g' |
-    b'8 b' b' b' b' b' b' b' |
-    a'8 a' a' a' a' a' a' a' |
-\mymark "Interlude" #53
-    d'8 d' d' d' d' d' d' d' |
-    g'8 g' g' g' g' g' g' g' |
-    b'8 b' b' b' b' b' b' b' |
-    a'8 a' a' a' a' a' a' a' |
-    d'8 d' d' d' d' d' d' d' |
-    g'8 g' g' g' g' g' g' g' |
-    b'8 b' b' b' b' b' b' b' |
-    a'8 a' a' a' a' a' a' a' |
-\mymark "Verse" #61
-    d'8 d' d' d' d' d' d' d' |
-    cis'8 cis' cis' cis' cis' cis' cis' cis' |
-    g'8 g' g' g' g' g' g' g' |
-    g'8 g' g' g' g' g' g' g' |
-    d'8 d' d' d' d' d' d' d' |
-    cis'8 cis' cis' cis' cis' cis' cis' cis' |
-    g'4 r2. |
+    d'2 d'4 r |
+    d'4 d' d' cis' |
+    cis'2 d'4 r |
+    d'2 d' |
+    d'1 |
     r1 |
-    d'8 d' d' d' d' d' d' d' |
-    cis'8 cis' cis' cis' cis' cis' cis' cis' |
-    g'8 g' g' g' g' g' g' g' |
-    g'8 g' g' g' g' g' g' g' |
-    d'8 d' d' d' d' d' d' d' |
-    cis'8 cis' cis' cis' cis' cis' cis' cis' |
-    g'8 g' g' g' g' g' g' g' |
-    g'8 g' g' g' g' g' g' g' |
+    r1 |
+    r1 |
+    r8 a fis'4 g' fis' |
+    d'4 r e'2 |
+    e'4 d' fis'2 |
+    r2. a4 |
+    e'4. d' e'4~ |
+    e'4 d'2. |
+    r1 |
+    r1 |
+\mymark "Chorus" #37
+    cis'4. d'8 d'4 r |
+    d'4 d' d' d' |
+    cis'4. d'8 d'4 r |
+    cis'4 d' cis' d' |
+    cis'4. d'8 d'4 r |
+    cis'4 d' cis' d' |
+    cis'4. d'8 d'4 r |
+    d'4 d' d' e' |
+    g'4. fis'8 fis'4 r |
+    g'4 fis' d' a |
+    e'4. d'8 d'4 r |
+    d'4 d' d' e' |
+    g'4. fis' fis'4~ |
+    fis'2. r4 |
+    r8 a fis'4 e' d' |
+    e'2 d' |
+\mymark "Interlude" #53
+    fis'1 |
+    a'1 |
+    d'1 |
+    cis'1 |
+    fis'1 |
+    a'1 |
+    d'1 |
+    cis'1 |
+\mymark "Verse" #61
+    r4 d'8 d' d' d' d' d'~ |
+    d'8 d' d' d' d' d' fis'4 |
+    e'4 d'8 d' d' d' d' d'~ |
+    d'8 d' d' d' d' d' d'4 |
+    r4 d'8 d' d' d' d' d'~ |
+    d'4 d'8 d' d' d' d' d'~ |
+    d'8 d'4 d'8 d' d' d' d' |
+    d'4 d'8 d' e' e' d' e'~ |
+    e'8 r d' d' d' d' d' d'~ |
+    d'8 r d' d' d' d' d' d'~ |
+    d'8 r d' d' d' d' d' d'~ |
+    d'8 r d' d' d' d' d' d'~ |
+    d'8 r d' d' d' d' d' d'~ |
+    d'8 r d' d' d' d' d' d'~ |
+    d'8 r d' d' d' d' d' d'~ |
+    d'8 d'4 d'8 d' d' d'4 |
 \mymark "Pre-Chorus" #77
-    b'4 b' b' b' |
-    fis'4. e' d'4 |
-    a'4 a' a' a' |
-    fis'4. e' d'4 |
-    g'4 g' g' g' |
-    e'4. d' cis'4 |
-    g'4 g' g' g' |
-    b4. cis' d'4 |
-    b'4 b' b' b' |
-    fis'4. e' d'4 |
-    a'4 a' a' a' |
-    fis'4. e' d'4 |
-    cis'8 d' d' d' d' d' d' d' |
-    cis'8 d' d' d' d' d' d' d' |
-    cis'8 d' d' d' cis' d' d' d' |
-    d'8 d' d' d' d' d' d' d' |
+    d'2 d'4 r |
+    d'4 d' d' cis' |
+    cis'2 d'4 r |
+    d'2 d' |
+    d'1 |
+    r1 |
+    r1 |
+    r1 |
+    r8 a fis'4 g' fis' |
+    d'4 r e'2 |
+    e'4 d' fis'2 |
+    r2. a4 |
+    e'4. d' e'4~ |
+    e'4 d'2. |
+    r1 |
+    r1 |
 \mymark "Chorus" #93
-    d'8 d' d' d' d' d' d' d' |
-    g'8 g' g' g' g' g' g' g' |
-    b'8 b' b' b' b' b' b' b' |
-    a'8 a' a' a' a' a' a' a' |
-    d'8 d' d' d' d' d' d' d' |
-    g'8 g' g' g' g' g' g' g' |
-    b'8 b' b' b' b' b' b' b' |
-    a'8 a' a' a' a' a' a' a' |
-    d'8 d' d' d' d' d' d' d' |
-    g'8 g' g' g' g' g' g' g' |
-    b'8 b' b' b' b' b' b' b' |
-    a'8 a' a' a' a' a' a' a' |
-    d'8 d' d' d' d' d' d' d' |
-    g'8 g' g' g' g' g' g' g' |
-    b'8 b' b' b' b' b' b' b' |
-    a'8 a' a' a' a' a' a' a' |
+    cis'4. d'8 d'4 r |
+    d'4 d' d' d' |
+    cis'4. d'8 d'4 r |
+    cis'4 d' cis' d' |
+    cis'4. d'8 d'4 r |
+    cis'4 d' cis' d' |
+    cis'4. d'8 d'4 r |
+    d'4 d' d' e' |
+    g'4. fis'8 fis'4 r |
+    g'4 fis' d' a |
+    e'4. d'8 d'4 r |
+    d'4 d' d' e' |
+    g'4. fis' fis'4~ |
+    fis'2. r4 |
+    r8 a fis'4 e' d' |
+    e'2 d' |
 \mymark "Interlude" #109
-    d'1 |
-    g'1 |
-    b'1 |
+    fis'1 |
     a'1 |
     d'1 |
-    g'1 |
-    b'1 |
+    cis'1 |
+    fis'1 |
     a'1 |
+    d'1 |
+    cis'2. d'4 |
 \mymark "Outro" #117
-    d'8 d' d' d' d' d' d' d' |
-    g'8 g' g' g' g' g' g' g' |
-    b'8 b' b' b' b' b' b' b' |
-    a'8 a' a' a' a' a' a' a' |
-    d'8 d' d' d' d' d' d' d' |
-    g'8 g' g' g' g' g' g' g' |
-    b'8 b' b' b' b' b' b' b' |
-    a'8 a' a' a' a' a' a' a' |
-    d'8 d' d' d' d' d' d' d' |
-    g'8 g' g' g' g' g' g' g' |
-    b'8 b' b' b' b' b' b' b' |
-    a'8 a' a' a' a' a' a' a' |
-    d'8 d' d' d' d' d' d' d' |
-    g'8 g' g' g' g' g' g' g' |
-    b'8 b' b' b' b' b' b' b' |
-    a'4 e' e'2~ |
-    e'1~ |
-    e'1~ |
-    e'1~ |
-    e'1 |
+    cis'4. d'2~ d'8~ |
+    d'2 r |
+    r1 |
+    r2. d'4 |
+    cis'4. d'2~ d'8~ |
+    d'2 r |
+    r1 |
+    r2. g'4 |
+    g'4. fis'2~ fis'8~ |
+    fis'2.~ fis'8 e' |
+    d'1 |
+    r2. g'4 |
+    g'4. fis'2~ fis'8~ |
+    fis'2.~ fis'8 e' |
+    d'1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
 }
