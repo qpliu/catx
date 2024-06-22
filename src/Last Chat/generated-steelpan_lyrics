@@ -1,0 +1,85 @@
+steelpanLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \skip1 |
+\mymark "Intro" #2
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse" #6
+    \skip4. "Re-"8 "-mem-" "-bering" "our" "last" |
+    \skip8 "chat"4 \skip2 \skip8 |
+    \skip4. "The"8 "ques-" "-tions" "left" "half" |
+    \skip8 "asked"4 \skip2 \skip8 |
+    \skip4. "You"8 "put" "on" "my" "plaid" |
+    \skip8 "hat"4 \skip2 \skip8 |
+    \skip4. "I"8 "took" "off" "my" "cap" |
+    \skip1 |
+    \skip4. "You"8 "ci-" "-ted" "those" "past" |
+    \skip8 "stats"4 \skip2 \skip8 |
+    \skip4. "The"8 "ones" "that" "I" "can't" |
+    \skip8 "grasp"4 \skip2 \skip8 |
+    \skip4. "I"8 "stood" "in" "the" "black" |
+    \skip8 "sand"4 \skip2 \skip8 |
+    \skip4. "De-"8 "-ny-" "-ing" "the" "facts" |
+    \skip2. "You"8 "were" |
+\mymark "Chorus" #22
+    "damn"4. "mad" "at"8 "my" |
+    "words"2 \skip4 "and"8 "I'm" |
+    "damn"4. "glad" "I"8 "was" |
+    "wrong"2 \skip4 "You"8 "were" |
+    "damn"4. "mad" "at"8 "the" |
+    "world"2 \skip4 "and"8 "I'm" |
+    "damn"4. "sad" "that"8 "you're" |
+    "gone"2 \skip2 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse" #34
+    \skip4. "Re-"8 "-mem-" "-bering" "our" "last" |
+    \skip8 "spat"4 \skip2 \skip8 |
+    \skip4. "We"8 "went" "to" "the" "dance" |
+    \skip8 "shack"4 \skip2 \skip8 |
+    \skip4. "You"8 "went" "on" "a" "crass" |
+    \skip8 "rant"4 \skip2 \skip8 |
+    \skip4. "And"8 "e-" "-very-" "-one" "gasped" |
+    \skip1 |
+    \skip4. "I"8 "called" "you" "a" "gas" |
+    \skip8 "bag"4 \skip2 \skip8 |
+    \skip4. "Wish"8 "I" "could" "take" "that" |
+    \skip8 "back"4 \skip2 \skip8 |
+    \skip4. "You"8 "told" "me" "to" "stand" |
+    \skip8 "fast"4 \skip2 \skip8 |
+    \skip4. "And"8 "fol-" "-low" "the" "plan" |
+    \skip2. "I"8 "was" |
+\mymark "Chorus" #50
+    "damn"4. "mad" "at"8 "your" |
+    "words"2 \skip4 "and"8 "I'm" |
+    "damn"4. "glad" "you"8 "were" |
+    "wrong"2 \skip4 "You"8 "were" |
+    "damn"4. "mad" "at"8 "the" |
+    "world"2 \skip4 "and"8 "I'm" |
+    "damn"4. "sad" "that"8 "you're" |
+    "gone"2 \skip2 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip2. "We"8 "were" |
+\mymark "Chorus" #62
+    "damn"4. "mad" "at"8 "those" |
+    "words"2 \skip4 "and"8 "I'm" |
+    "damn"4. "glad" "we"8 "were" |
+    "wrong"2 \skip4 "You"8 "were" |
+    "damn"4. "mad" "at"8 "the" |
+    "world"2 \skip4 "and"8 "I'm" |
+    "damn"4. "sad" "that"8 "you're" |
+    "gone"2 \skip2 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}
