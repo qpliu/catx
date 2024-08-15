@@ -1,0 +1,59 @@
+vocals = {
+    \myVocalsStuff
+    r1 |
+\mymark "Intro" #2
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse" #7
+    b'8 c'' b' c''4. r4 |
+    b'8 c'' b' c''4 c'' r8 |
+    b'8 c'' b' c''4. r4 |
+    b'8 c'' b' c''4 c'' r8 |
+    g'1 |
+    b'8 c'' b'16 b' c''4. r4 |
+    b'8 c'' b' c''2 r8 |
+    b'8 c'' b' c''4. r4 |
+    b'8 c'' b' c''4. r4 |
+    r2. r8 d'' |
+\mymark "Chorus" #17
+    e''8 d'' d'' c''4. r4 |
+    r2. r8 d'' |
+    e''8 d'' d'' c''4. r4 |
+    r1 |
+    d''1 |
+\mymark "Verse" #22
+    c''8 c'' b' c''4. b'16 b' b' b' |
+    c''8 c'' b' c''4. r8 b' |
+    c''8 c'' b' c''4. r8 b' |
+    c''8 c'' b' c''4. r4 |
+    g'2. r8 b'16 b' |
+    c''8 c'' b' c''4. r8 b' |
+    c''8 c'' b' c''4. r8 b' |
+    c''8 c'' b' c''4. r8 b'16 b' |
+    c''8 c'' b' c''4. r4 |
+    r2. r8 d'' |
+\mymark "Chorus" #32
+    e''8 d'' d'' c''4. r4 |
+    r2. r8 d'' |
+    e''8 d'' d'' c''4. r4 |
+    r1 |
+    d''1 |
+\mymark "Bridge" #37
+    r1 |
+    d'8 f' d' e'4 e' r8 |
+    r1 |
+    d'8 f' d' e'4 e' r8 |
+    r1 |
+    r2. r8 d'' |
+\mymark "Outro" #43
+    e''8 d'' d'' c''4. r4 |
+    r2. r8 d'' |
+    e''8 d'' d'' c''4. r4 |
+    r1 |
+    d''1 |
+    r1 |
+    r1 |
+}

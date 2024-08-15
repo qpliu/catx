@@ -1,0 +1,59 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \skip1 |
+\mymark "Intro" #2
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse" #7
+    "You"8 "are" "a" "star" \skip2 |
+    "They"8 "let" "you" "do"4 "it" \skip8 |
+    "You"8 "won't" "ad-" "-mit" \skip2 |
+    "you"8 "e-" "-ver" "blew"4 "it" \skip8 |
+    "Mmm"1 |
+    "You"8 "act" "with"16 "su-" "-preme"8 \skip2 |
+    "im-"8 "-pu-" "-ni-" "-ty"4 \skip4. |
+    "and"8 "stoke" "ex-" "-treme" \skip2 |
+    "dis-"8 "-u-" "-ni-" "-ty" \skip2 |
+    \skip2. \skip8 "You're"8 |
+\mymark "Chorus" #17
+    "so"8 "en-" "-ti-" "-tled" \skip2 |
+    \skip2. \skip8 "A"8 |
+    "spoi-"8 "-led" "chi-" "-ld" \skip2 |
+    \skip1 |
+    "Mmm"1 |
+\mymark "Verse" #22
+    "Af-"8 "-ter" "you" "lost" \skip4 "You"16 "made" "ac-" "-cu-" |
+    "-sa-"8 "-tions" "of" "theft" \skip4. "You"8 |
+    "claimed"8 "there" "was" "fraud" \skip4. "You'll"8 |
+    "ne-"8 "-ver" "be" "best" \skip2 |
+    "Mmm"2. \skip8 "When"16 "you" |
+    "don't"8 "get" "your" "way" \skip4. "Your"8 |
+    "law-"8 "-yers" "will" "sue" \skip4. "You"8 |
+    "say"8 "it's" "un-" "-fair" \skip4. "'Cause"16 "it's" |
+    "all"8 "a-" "-bout" "you" \skip2 |
+    \skip2. \skip8 "You're"8 |
+\mymark "Chorus" #32
+    "so"8 "en-" "-ti-" "-tled" \skip2 |
+    \skip2. \skip8 "A"8 |
+    "spoi-"8 "-led" "chi-" "-ld" \skip2 |
+    \skip1 |
+    "Mmm"1 |
+\mymark "Bridge" #37
+    \skip1 |
+    "You"8 "are" "their" "i-"4 "-dol" \skip8 |
+    \skip1 |
+    "They"8 "buy" "your" "bi-"4 "-ble" \skip8 |
+    \skip1 |
+    \skip2. \skip8 "You're"8 |
+\mymark "Outro" #43
+    "so"8 "en-" "-ti-" "-tled" \skip2 |
+    \skip2. \skip8 "A"8 |
+    "spoi-"8 "-led" "chi-" "-ld" \skip2 |
+    \skip1 |
+    "Mmm"1 |
+    \skip1 |
+    \skip1 |
+}

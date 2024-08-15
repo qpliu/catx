@@ -1,0 +1,7 @@
+#!/bin/sh
+java -jar ../../guitarproToLy/1.jar < song.gp5 \
+markup-extra 0 '\key c \major' \
+track 2 preset kav output-lilypond output-lyrics which-lyrics text \
+track 0 preset peter output-lilypond \
+track 1 preset gg output-drums \
+track 3 preset susan output-lilypond

@@ -1,0 +1,60 @@
+drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+    tamb4 tamb tamb tamb |
+\mymark "Intro" #2
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+\mymark "Verse" #7
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb1 |
+\mymark "Chorus" #17
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+\mymark "Verse" #22
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb1 |
+\mymark "Chorus" #32
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+\mymark "Bridge" #37
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb1 |
+\mymark "Outro" #43
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb tamb |
+    tamb4 tamb tamb2 |
+    r2 tamb |
+    r1 |
+}
