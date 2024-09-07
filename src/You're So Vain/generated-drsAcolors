@@ -1,0 +1,123 @@
+drsA = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r2 |
+    r1 |
+    r1 |
+    r1 |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    r1 |
+    r1 |
+    r1 |
+    r2 |
+    r1 |
+    r1 |
+    r1 |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    r1 |
+    r1 |
+    r1 |
+    r2 |
+    r1 |
+    r1 |
+    r1 |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    r1 |
+    r1 |
+    r1 |
+    r2 |
+    r1 |
+    r1 |
+    r1 |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    cb4 cb cb cb |
+    r1 |
+    r1 |
+}
