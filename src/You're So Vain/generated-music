@@ -17,6 +17,7 @@
 \include "generated-midiTwoB"
 \include "generated-midiTwoC"
 \include "generated-steelpan"
+\include "generated-steelpan_lyrics"
 
 layoutmusic = <<
     \tag #'(allPart kavPart) \new Staff \with {
@@ -74,6 +75,7 @@ layoutmusic = <<
         \markupStuff
         \steelpan
     >>
+    \tag #'(allPart susanPart) \steelpanLyrics
 >>
 
 midimusic = <<
