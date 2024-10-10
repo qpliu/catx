@@ -1,0 +1,147 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \skip1 |
+\mymark "Intro" #2
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse" #10
+    "Lying"4. "in" "my"4 |
+    "bed"4. "I"8 "hear"4 "the" |
+    "clock"4. "tick" "and"4 |
+    "think"8 "of"4 "you"4. \skip4 |
+    "Caught"4. "up" "in"4 |
+    "cir-"4. "-cles" "con-"4 |
+    "-fu-"4. "-sion" "is"4 |
+    "no-"8 "-thing"4 "new"4. \skip4 |
+\mymark "Pre-Chorus" #18
+    "flash-"4. "-back" \skip4 |
+    "warm"4. "nights" \skip4 |
+    \skip8 "al-"8 "-most"4 "left" "be-"8 "-hind" |
+    \skip1 |
+    "suit-"4. "-case" \skip8 "of"8 |
+    "mem'-"4. "-ries" \skip4 |
+    \skip4 "time"4 "af-"4. "-ter"8 |
+\mymark "Verse" #25
+    "Some"4. "times" "you"4 |
+    "pic-"4 "-ture"8 "me"4. "I'm"4 |
+    "walk-"4. "-ing" "too"4 |
+    "far"8 \skip8 "a-"8 "-head"4. \skip4 |
+    "You're"4. "call-" "-ing"4 |
+    "to"4. "me" "I"4 |
+    "can't"4. "hear" "what"4 |
+    "you"8 \skip8 "said"2 \skip8 "then"8 |
+\mymark "Pre-Chorus" #33
+    "you"4. "say" \skip4 |
+    "go"4. "slow" \skip4 |
+    \skip4 "and"8 "I"4 "fall" "be-"8 |
+    "-hind"2 \skip2 |
+    \skip4 "the"8 "se-"4 "-cond" "hand"8 |
+    \skip8 "un-"4 "-winds" "If"8 "you're" "lost" |
+\mymark "Chorus" #39
+    \skip8 "you"8 "can" "look"4 "and"8 "you" "will" |
+    \skip8 "find"4 "me" \skip4. |
+    \skip4 "Time"4 "af-" "-ter"8 "time" |
+    \skip2 \skip8 "If"8 "you" "fall" |
+    \skip8 "I"8 "will" "catch"4 "you"8 "I'll" "be" |
+    \skip8 "wait-"4 "-ing" \skip4. |
+    \skip4 "Time"4 "af-" "-ter"8 "time" |
+    \skip2 \skip8 "If"8 "you're" "lost" |
+    \skip8 "you"8 "can" "look"4 "and"8 "you" "will" |
+    \skip8 "find"4 "me" \skip4. |
+    \skip4 "Time"4 "af-" "-ter"8 "time" |
+    \skip2 \skip8 "If"8 "you" "fall" |
+    \skip8 "I"8 "will" "catch"4 "you" "I"8 |
+    \skip8 "will"8 "be" "wait-"4 "-ing" \skip8 |
+    \skip4 "Time"4 "af-" "-ter"8 "time" |
+    \skip1 |
+\mymark "Interlude" #55
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse" #63
+    "Af-"4. "-ter" "my"4 |
+    "pic-"4. "fades"8 \skip4 "and"4 |
+    "dark-"4. "-ness" "has"4 |
+    "turned"8 \skip8 "to"8 "gray"4. \skip4 |
+    "Watch-"4. "-ing" "through"4 |
+    "win-"4. "-dows" "you're"4 |
+    "won-"4. "-dering" "if"4 |
+    "I'm"8 \skip8 "o-"8 "-kay"4. \skip4 |
+\mymark "Pre-Chorus" #71
+    "Se-"4. "-crets" \skip4 |
+    "sto-"4. "-len" \skip4 |
+    \skip4 "from"8 "deep"4 "in-" "-side"8 |
+    \skip1 |
+    \skip4 "the"8 "drum"4 "beats" "out"8 |
+    \skip8 "of"4 "time" "If"8 "you're" "lost" |
+\mymark "Chorus" #77
+    \skip8 "you"8 "can" "look"4 "and"8 "you" "will" |
+    \skip8 "find"4 "me" \skip4. |
+    \skip4 "Time"4 "af-" "-ter"8 "time" |
+    \skip2 \skip8 "If"8 "you" "fall" |
+    \skip8 "I"8 "will" "catch"4 "you"8 "I'll" "be" |
+    \skip8 "wait-"4 "-ing" \skip4. |
+    \skip4 "Time"4 "af-" "-ter"8 "ime" |
+    \skip1 |
+\mymark "Interlude" #85
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Pre-Chorus" #93
+    "You"4. "say" \skip4 |
+    "go"4. "slow" \skip4 |
+    \skip4 "I"8 "fall"4 "be-" "-hind"8 |
+    \skip1 |
+    \skip4 "the"8 "se-"4 "-cond" "hand"8 |
+    \skip8 "un-"4 \skip4 "If"8 "you're" "lost" |
+\mymark "Chorus" #99
+    \skip8 "you"8 "can" "look"4 "and"8 "you" "will" |
+    \skip8 "find"4 "me" \skip4. |
+    \skip4 "Time"4 "af-" "-ter"8 "time" |
+    \skip2 \skip8 "If"8 "you" "fall" |
+    \skip8 "I"8 "will" "catch"4 "you"8 "I'll" "be" |
+    \skip8 "wait-"4 "-ing" \skip4. |
+    \skip4 "Time"4 "af-" "-ter"8 "time" |
+    \skip2 \skip8 "If"8 "you're" "lost" |
+    \skip8 "you"8 "can" "look"4 "and"8 "you" "will" |
+    \skip8 "find"4 "me" \skip4. |
+    \skip4 "Time"4 "af-" "-ter"8 "time" |
+    \skip2 \skip8 "If"8 "you" "fall" |
+    \skip8 "I"8 "will" "catch"4 "you" "I"8 |
+    \skip8 "will"8 "be" "wait-"4 "-ing" \skip8 |
+    \skip4 "Time"4 "af-" "-ter"8 "time" |
+    \skip1 |
+\mymark "Outro" #115
+    \skip4 "Time"4 "af-" "-ter"8 "time" |
+    \skip1 |
+    \skip4 "Time"4 "af-" "-ter"8 "time" |
+    \skip1 |
+    \skip4 "Time"4 "af-" "-ter"8 "time" |
+    \skip1 |
+    \skip4 "Time"4 "af-" "-ter"8 "time" |
+    \skip1 |
+    \skip4 "Time"4 "af-" "-ter"8 "time" |
+    \skip1 |
+    \skip4 "Time"4 "af-" "-ter"8 "time" |
+    \skip1 |
+    \skip4 "Time"4 "af-" "-ter"8 \skip8 |
+    \skip1 |
+    \skip4 "Time"2 \skip4 |
+    \skip1 |
+}

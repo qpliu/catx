@@ -1,0 +1,146 @@
+midiOne = {
+    r1 |
+\mymark "Intro" #2
+    <f a c'>1 |
+    <d' g b>1 |
+    <e g b>1 |
+    <f a c'>1 |
+    <f a c'>1 |
+    <g d' b>1 |
+    <e g b>1 |
+    <f a c'>1 |
+\mymark "Verse" #10
+    <f a d'>4. <e c' g>2~ <e c' g>8 |
+    <f a d'>4. <e c' g>2~ <e c' g>8 |
+    <f a d'>4. <e c' g>2~ <e c' g>8 |
+    <f~ a~ d'>4 <f a e'>8 <c' g e'>2~ <c' g e'>8 |
+    <f a d'>4. <e c' g>2~ <e c' g>8 |
+    <f a d'>4. <e c' g>2~ <e c' g>8 |
+    <f a d'>4. <e c' g>2~ <e c' g>8 |
+    <f~ a~ d'>4 <f a e'>8 <c' g e'>2~ <c' g e'>8 |
+\mymark "Pre-Chorus" #18
+    <f a c'>4. <g d' b~>2 <d' g b>8 |
+    <e g b>4. <f a c'>2~ <f a c'>8 |
+    <f a~ c'>4. <a d' g>2~ <a d' g>8 |
+    <e g b>1 |
+    <f a c'>4. <g d'~ b~>2 <d' g b>8 |
+    <e g b>4. <f a c'>2~ <f a c'>8 |
+    <f~ a c'~>2 <f g c'> |
+\mymark "Verse" #25
+    <f a d'>4. <e c' g>2~ <e c' g>8 |
+    <f a d'>4. <e c' g>2~ <e c' g>8 |
+    <f a d'>4. <e c' g>2~ <e c' g>8 |
+    <f~ a~ d'>4 <f a e'>8 <c' g e'>2~ <c' g e'>8 |
+    <f a d'>4. <e c' g>2~ <e c' g>8 |
+    <f a d'>4. <e c' g>2~ <e c' g>8 |
+    <f a d'>4. <e c' g>2~ <e c' g>8 |
+    <f~ a~ d'>4 <f a e'>8 <c' g e'>2~ <c' g e'>8 |
+\mymark "Pre-Chorus" #33
+    <f a c'>4. <g d' b~>2 <d' g b>8 |
+    <e g b>4. <f a c'>2~ <f a c'>8 |
+    <f a c'>4. <g d'~ b~>2 <d' g b>8 |
+    <e g b>1 |
+    <f a c'>4. <g d'~ b~>2 <d' g b>8 |
+    <e g b>4. <f a c'>2~ <f a c'>8 |
+\mymark "Chorus" #39
+    <d g d' b>1 |
+    <e a c' e'>1 |
+    <f~ a c'~ f'~>2 <f g c'~ f'> |
+    <c e c' g e'>1 |
+    <d' d g b>1 |
+    <e a c' e'>1 |
+    <f~ a c'~ f'~>2 <f g c'~ f'> |
+    <c e c' g e'>1 |
+    <d' d g b>1 |
+    <e a c' e'>1 |
+    <f~ a c'~ f'~>2 <f g c'~ f'> |
+    <c e c' g e'>1 |
+    <d' d g b>1 |
+    <e a c' e'>1 |
+    <f~ a c'~ f'~>2 <f g c'~ f'> |
+    <c e c' g e'>1 |
+\mymark "Interlude" #55
+    <f a c'>1 |
+    <g d' b>1 |
+    <e g b>1 |
+    <f a c'>1 |
+    <f a c'>1 |
+    <g d' b>1 |
+    <e g b>1 |
+    <f a c'>1 |
+\mymark "Verse" #63
+    <f a d'>4. <e c' g>2~ <e c' g>8 |
+    <f a d'>4. <e c' g>2~ <e c' g>8 |
+    <f a d'>4. <e c' g>2~ <e c' g>8 |
+    <f~ a~ d'>4 <f a e'>8 <c' g e'>2~ <c' g e'>8 |
+    <f a d'>4. <e c' g>2~ <e c' g>8 |
+    <f a d'>4. <e c' g>2~ <e c' g>8 |
+    <f a d'>4. <e c' g>2~ <e c' g>8 |
+    <f~ a~ d'>4 <f a e'>8 <c' g e'>2~ <c' g e'>8 |
+\mymark "Pre-Chorus" #71
+    <f a c'>4. <g d' b~>2 <d' g b>8 |
+    <e g b>4. <f a c'>2~ <f a c'>8 |
+    <f a~ c'>4. <a d' g>2~ <a d' g>8 |
+    <e g b>1 |
+    <f a c'>4. <g d'~ b~>2 <d' g b>8 |
+    <e g b>4. <f a c'>2~ <f a c'>8 |
+\mymark "Chorus" #77
+    <d g d' b>1 |
+    <e a c' e'>1 |
+    <f~ a c'~ f'~>2 <f g c'~ f'> |
+    <c e c' g e'>1 |
+    <d' d g b>1 |
+    <e a c' e'>1 |
+    <f~ a c'~ f'~>2 <f g c'~ f'> |
+    <c e c' g e'>1 |
+\mymark "Interlude" #85
+    <d' d g b>1 |
+    <e a c' e'>1 |
+    <f~ a c'~ f'~>2 <f g c'~ f'> |
+    <c e c' g e'>1 |
+    <d' d g b>1 |
+    <e a c' e'>1 |
+    <f~ a c'~ f'~>2 <f g c'~ f'> |
+    <c e c' g e'>1 |
+\mymark "Pre-Chorus" #93
+    <f a c'>4. <g d' b~>2 <d' g b>8 |
+    <e g b>4. <f a c'>2~ <f a c'>8 |
+    <f a~ c'>4. <a d' g>2~ <a d' g>8 |
+    <e g b>1 |
+    <f a c'>4. <g d'~ b~>2 <d' g b>8 |
+    <e g b>4. <f a c'>2~ <f a c'>8 |
+\mymark "Chorus" #99
+    <d g d' b>1 |
+    <e a c' e'>1 |
+    <f~ a c'~ f'~>2 <f g c'~ f'> |
+    <c e c' g e'>1 |
+    <d' d g b>1 |
+    <e a c' e'>1 |
+    <f~ a c'~ f'~>2 <f g c'~ f'> |
+    <c e c' g e'>1 |
+    <d' d g b>1 |
+    <e a c' e'>1 |
+    <f~ a c'~ f'~>2 <f g c'~ f'> |
+    <c e c' g e'>1 |
+    <d' d g b>1 |
+    <e a c' e'>1 |
+    <f~ a c'~ f'~>2 <f g c'~ f'> |
+    <c e c' g e'>1 |
+\mymark "Outro" #115
+    <f~ a c'~>2 <f g c'~> |
+    <c e g c'>1 |
+    <f~ a c'~>2 <f g c'~> |
+    <c e g c'>1 |
+    <f~ a c'~>2 <f g c'~> |
+    <c e g c'>1 |
+    <f~ a c'~>2 <f g c'~> |
+    <c e g c'>1 |
+    <f~ a c'~>2 <f g c'~> |
+    <c e g c'>1 |
+    <f~ a c'~>2 <f g c'~> |
+    <c e g c'>1 |
+    <f~ a c'~>2 <f g c'~> |
+    <c e g c'>1 |
+    <f~ a c'~>2 <f g c'~> |
+    <c e g c'>1 |
+}
