@@ -3,7 +3,7 @@
 # https://gp.songsterr.com/56361813.gp
 java -jar ../../guitarproToLy/1.jar < song.gp5 \
 markup-extra 0 '\key c \major' \
-track 0 preset kav output-lilypond output-lyrics which-lyrics text \
+track 0 preset kav output-lilypond output-lyrics which-lyrics text no-chords true \
 track 4 preset midiOne output-lilypond \
 track 5 preset midiTwo output-lilypond \
 track 1 preset peter output-lilypond \

@@ -11,13 +11,13 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip1 |
     \skip1 |
 \mymark "Verse" #10
-    "Lying"4. "in" "my"4 |
-    "bed"4. "I"8 "hear"4 "the" |
-    "clock"4. "tick" "and"4 |
+    "Ly-"4 "-ing"8 "in"4 "my"4. |
+    "bed"4 "I"8 "hear"4 "the"4. |
+    "clock"4. "tick"4 "and"4. |
     "think"8 "of"4 "you"4. \skip4 |
-    "Caught"4. "up" "in"4 |
-    "cir-"4. "-cles" "con-"4 |
-    "-fu-"4. "-sion" "is"4 |
+    "Caught"4. "up"4 "in"4. |
+    "cir-"4. "-cles"4 "con-"4. |
+    "-fu-"4. "-sion"4 "is"4. |
     "no-"8 "-thing"4 "new"4. \skip4 |
 \mymark "Pre-Chorus" #18
     "flash-"4. "-back" \skip4 |
@@ -25,17 +25,17 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip8 "al-"8 "-most"4 "left" "be-"8 "-hind" |
     \skip1 |
     "suit-"4. "-case" \skip8 "of"8 |
-    "mem'-"4. "-ries" \skip4 |
+    "me-"4 "-mo-"8 "-ries"4. \skip4 |
     \skip4 "time"4 "af-"4. "-ter"8 |
 \mymark "Verse" #25
-    "Some"4. "times" "you"4 |
-    "pic-"4 "-ture"8 "me"4. "I'm"4 |
-    "walk-"4. "-ing" "too"4 |
+    "Some"4. "times"4 "you"4. |
+    "pic-"4 "-ture"8 "me"4 "I'm"4. |
+    "walk-"4. "-ing"4 "too"4. |
     "far"8 \skip8 "a-"8 "-head"4. \skip4 |
-    "You're"4. "call-" "-ing"4 |
-    "to"4. "me" "I"4 |
-    "can't"4. "hear" "what"4 |
-    "you"8 \skip8 "said"2 \skip8 "then"8 |
+    "You're"4. "call-"4 "-ing"4. |
+    "to"4. "me"4 "I"4. |
+    "can't"4. "hear"4 "what"4. |
+    "you"8 "'ve" "said"2 \skip8 "then"8 |
 \mymark "Pre-Chorus" #33
     "you"4. "say" \skip4 |
     "go"4. "slow" \skip4 |
@@ -70,13 +70,13 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip1 |
     \skip1 |
 \mymark "Verse" #63
-    "Af-"4. "-ter" "my"4 |
-    "pic-"4. "fades"8 \skip4 "and"4 |
-    "dark-"4. "-ness" "has"4 |
+    "Af-"4. "-ter"4 "my"4. |
+    "pic-"4 "-ture"8 "fades"4 "and"4. |
+    "dark-"4. "-ness"4 "has"4. |
     "turned"8 \skip8 "to"8 "gray"4. \skip4 |
-    "Watch-"4. "-ing" "through"4 |
-    "win-"4. "-dows" "you're"4 |
-    "won-"4. "-dering" "if"4 |
+    "Watch-"4. "-ing"4 "through"4. |
+    "win-"4. "-dows"4 "you're"4. |
+    "won-"4. "-dering"4 "if"4. |
     "I'm"8 \skip8 "o-"8 "-kay"4. \skip4 |
 \mymark "Pre-Chorus" #71
     "Se-"4. "-crets" \skip4 |
@@ -92,7 +92,7 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip2 \skip8 "If"8 "you" "fall" |
     \skip8 "I"8 "will" "catch"4 "you"8 "I'll" "be" |
     \skip8 "wait-"4 "-ing" \skip4. |
-    \skip4 "Time"4 "af-" "-ter"8 "ime" |
+    \skip4 "Time"4 "af-" "-ter"8 "time" |
     \skip1 |
 \mymark "Interlude" #85
     \skip1 |
