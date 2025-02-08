@@ -1,0 +1,99 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \skip1 |
+\mymark "Intro" #2
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse" #9
+    \skip8 "Dar-"8 "-ling" "you" "got" "to" "let" "me" |
+    "know"4 \skip2. |
+    \skip4 "should"8 "I" "stay" "or" "should" "I" |
+    "go"4 \skip2. |
+    \skip4 "If"8 "you" "say" "that" "you" "are" |
+    "mine"8 \skip2. \skip8 |
+    \skip4 "I'll"8 "be" "here" "'til" "the"16 "end" "of"8 |
+    "time"4 \skip2. |
+    \skip4 "so"8 "you" "got" "to" "let" "me" |
+    "know"8 \skip2. \skip8 |
+    \skip4 "should"8 "I" "stay" "or" "should" "I" |
+    "go"4 \skip2. |
+\mymark "Verse" #21
+    \skip8 "It's"8 "al-" "-ways" "tease"4 "tease" |
+    "tease"4 \skip2. |
+    \skip8 "you're"8 "hap-" "-py" "when" "I'm" "on" "my" |
+    "knees"4 \skip2. |
+    \skip8 "one"8 "day" "it's" "fine" "and" "then" "it's" |
+    "black"8 \skip2. \skip8 |
+    \skip8 "so"8 "if" "you" "want" "me" "off" "your" |
+    "back"4 \skip2. |
+    \skip4 "well"8 "come" "on" "and" "let" "me" |
+    "know"2 \skip2 |
+    \skip4 "should"8 "I" "stay" "or" "should" "I" |
+    "go"8 \skip2. \skip8 |
+\mymark "Chorus" #33
+    \skip4 "Should"8 "I" "stay" "or" "should" "I" |
+    "go"8 "now" \skip2. |
+    \skip4 "should"8 "I" "stay" "or" "should" "I" |
+    "go"8 "now"2 \skip4. |
+    \skip4 "If"8 "I" "go" "there" "will" "be" |
+    "trou-"8 "-ble"2 \skip4. |
+    \skip8 "and"8 "if" "I" "stay" "it" "will" "be" |
+    "dou-"8 "-ble"4. \skip2 |
+    \skip4 "well"8 "come" "on" "and" "let" "me" |
+    "know"2 \skip2 |
+    \skip1 |
+\mymark "Verse" #44
+    \skip8 "This"8 "in-" "-de-" "-ci-" "-sion's" "kil-" "-ling" |
+    "me"4 \skip2. |
+    \skip8 "if"8 "you" "don't" "want" "me" "set" "me" |
+    "free"4 \skip2. |
+    \skip8 "ex-"8 "-act-" "-ly" "whom" "I'm" "sup-" "-posed" |
+    "to"8 "be"4 \skip2 \skip8 |
+    \skip8 "don't"16 "you" "know"8 "what" "clothes" "e-" "-ven" "fit" |
+    "me"4 \skip2. |
+    \skip4. "come"8 "on" "and" "let" "me" |
+    "know"4. \skip2 \skip8 |
+    \skip8 "should"8 "I" "cool" "it" "or" "should" "I" |
+    "go"4 \skip2. |
+\mymark "Break" #56
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Chorus" #68
+    \skip4 "Should"8 "I" "stay" "or" "should" "I" |
+    "go"8 "now" \skip2. |
+    \skip4 "should"8 "I" "stay" "or" "should" "I"16 "go" |
+    \skip8 "now"2 \skip4. |
+    \skip4 "if"8 "I" "go" "there" "will" "be" |
+    "trou-"8 "-ble"2 \skip4. |
+    \skip8 "and"8 "if" "I" "stay" "it" "will" "be" |
+    "dou-"8 "-ble"4. \skip2 |
+    \skip4 "so"8 "you" "got" "to" "let" "me" |
+    "know"2 \skip2 |
+    \skip4 "Should"8 "I" "stay" "or" "should" "I" |
+    "go"8 \skip2. \skip8 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}
