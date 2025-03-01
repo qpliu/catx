@@ -1,0 +1,71 @@
+guitar = {
+    r1 |
+\mymark "Intro" #2
+    d8\5 fis\4 d'\2 a\3 fis'\1 e'\2 d'\2 a\3 |
+    cis8\5 fis\4 d'\2 a\3 fis'\1 e'\2 d'\2 a\3 |
+    b,8\5 fis\4 d'\2 b\3 fis'\1 e'\2 d'\2 a\3 |
+    d8\5 g\4 d'\2 b\3 fis'\1 e'\2 d'\2 a\3 |
+    d8\5 fis\4 d'\2 a\3 fis'\1 e'\2 d'\2 a\3 |
+    cis8\5 e\4 cis'\2 a\3 e'1\2 |
+\mymark "Verse" #8
+    d8\5 fis\4 d'\2 a\3 fis'\1 e'\2 d'\2 a\3 |
+    cis8\5 fis\4 d'\2 a\3 fis'\1 e'\2 d'\2 a\3 |
+    b,8\5 fis\4 d'\2 b\3 fis'\1 e'\2 d'\2 a\3 |
+    d8\5 g\4 d'\2 b\3 fis'\1 e'\2 d'\2 a\3 |
+    d8\5 fis\4 d'\2 a\3 fis'\1 e'\2 d'\2 a\3 |
+    cis8\5 e\4 cis'\2 a\3 fis'\1 e'\2 cis'\2 a\3 |
+    cis8\5 e\4 cis'\2 a\3 fis'\1 e'\2 cis'\2 a\3 |
+    d8\5 fis\4 d'\2 a\3 fis'\1 e'\2 d'\2 a\3 |
+    cis8\5 fis\4 d'\2 a\3 fis'\1 e'\2 d'\2 a\3 |
+    b,8\5 fis\4 d'\2 b\3 fis'\1 e'\2 d'\2 a\3 |
+    d8\5 g\4 d'\2 b\3 fis'\1 e'\2 d'\2 a\3 |
+    d8\5 fis\4 d'\2 a\3 fis'\1 e'\2 d'\2 a\3 |
+    cis8\5 e\4 cis'\2 a\3 e'1\2 |
+\mymark "Chorus" #21
+    <d\5 fis\4 a\3 d'\2>2. <d\5 fis\4 a\3 d'\2>4~ |
+    <d\5 fis\4 a\3 d'\2>1 |
+    <a,\6 e\4 a\3 e'\2 a'\1>1 |
+    <d\5 fis\4 a\3 d'\2>2. <d\5 fis\4 a\3 d'\2>4~ |
+    <d\5 fis\4 a\3 d'\2>1 |
+    <a,\6 e\4 a\3 e'\2 a'\1>1 |
+    <g,\6 d\5 g\4 b\3 d'\2 g'\1>2. <d\5 fis\4 a\3 d'\2>4~ |
+    <d\5 fis\4 a\3 d'\2>1 |
+    <a,\6 e\4 a\3 e'\2 a'\1>1 |
+    r1 |
+    r1 |
+\mymark "Break" #32
+    d8\5 fis\4 d'\2 a\3 fis'\1 e'\2 d'\2 a\3 |
+    cis8\5 fis\4 d'\2 a\3 fis'\1 e'\2 d'\2 a\3 |
+    b,8\5 fis\4 d'\2 b\3 fis'\1 e'\2 d'\2 a\3 |
+    d8\5 g\4 d'\2 b\3 fis'\1 e'\2 d'\2 a\3 |
+    d8\5 fis\4 d'\2 a\3 fis'\1 e'\2 d'\2 a\3 |
+    cis8\5 e\4 cis'\2 a\3 fis'\1 e'\2 cis'\2 a\3 |
+    cis8\5 e\4 cis'\2 a\3 fis'\1 e'\2 cis'\2 a\3 |
+\mymark "Verse" #39
+    d8\5 fis\4 d'\2 a\3 fis'\1 e'\2 d'\2 a\3 |
+    cis8\5 fis\4 d'\2 a\3 fis'\1 e'\2 d'\2 a\3 |
+    b,8\5 fis\4 d'\2 b\3 fis'\1 e'\2 d'\2 a\3 |
+    d8\5 g\4 d'\2 b\3 fis'\1 e'\2 d'\2 a\3 |
+    d8\5 fis\4 d'\2 a\3 fis'\1 e'\2 d'\2 a\3 |
+    cis8\5 e\4 cis'\2 a\3 e'1\2 |
+\mymark "Chorus" #45
+    <d\5 fis\4 a\3 d'\2>2. <d\5 fis\4 a\3 d'\2>4~ |
+    <d\5 fis\4 a\3 d'\2>1 |
+    <a,\6 e\4 a\3 e'\2 a'\1>1 |
+    <d\5 fis\4 a\3 d'\2>2. <d\5 fis\4 a\3 d'\2>4~ |
+    <d\5 fis\4 a\3 d'\2>1 |
+    <a,\6 e\4 a\3 e'\2 a'\1>1 |
+    <g,\6 d\5 g\4 b\3 d'\2 g'\1>2. <d\5 fis\4 a\3 d'\2>4~ |
+    <d\5 fis\4 a\3 d'\2>1 |
+\mymark "Outro" #53
+    <d\5 fis\4 a\3 d'\2>2. <d\5 fis\4 a\3 d'\2>4~ |
+    <d\5 fis\4 a\3 d'\2>1 |
+    <a,\6 e\4 a\3 e'\2 a'\1>1 |
+    <d\5 fis\4 a\3 d'\2>2. <d\5 fis\4 a\3 d'\2>4~ |
+    <d\5 fis\4 a\3 d'\2>1 |
+    <a,\6 e\4 a\3 e'\2 a'\1>1 |
+    <g,\6 d\5 g\4 b\3 d'\2 g'\1>2. <d\5 fis\4 a\3 d'\2>4~ |
+    <d\5 fis\4 a\3 d'\2>1 |
+    <a,\6 e\4 a\3 e'\2 a'\1>1 |
+    r1 |
+}

@@ -1,0 +1,72 @@
+steelpanLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \skip1 |
+\mymark "Intro" #2
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1. |
+\mymark "Verse" #8
+    "I'm"8 "the" "head" "that" "wears" "the" "gold-" "-en" |
+    "crown"4 \skip2. |
+    "Mc-"8 "-In-" "-(s)an-" "-er" "than" "that" "Ron-" "-ald" |
+    "clown"4 \skip2 \skip8 "More"8 |
+    \tuplet 3/2 { "grab-"8 "-by" "than" "Ham-" "-burg-" "-lar" } "with"8 "a" "quar-" "-ter" |
+    "pound"4 \skip2. |
+    \skip2. \skip8 "Our"8 |
+    \tuplet 3/2 { "Kan-"8 "-sas" "Fried" "Chic-" "-ken" "ain't" "spi-" "-cy" "like" } "me"4 |
+    \skip2. \skip8 "I"8 |
+    \tuplet 3/2 { "tell"8 "you" "the" "su-" "-per" "size" "meal" "deal" "is" } "free"4 |
+    \skip2. \skip8 "I"8 |
+    "tell"8 "you" "one" "and" "one"4 "makes" |
+    "three"4 \skip1 \skip4 |
+\mymark "Chorus" #21
+    "Flame"4. "broiled" "whop-"8 "-pers" |
+    \tuplet 3/2 { \skip1 "on"4 "the" } |
+    "tray"1 |
+    "Flame"4. "broiled" "whop-"8 "-pers" |
+    \tuplet 3/2 { \skip1 "e-"4 "-very" } |
+    "day"1 |
+    "Flame"4. "broiled" "whop-"8 "-pers" |
+    \skip2 \tuplet 3/2 { "you'll"4 "have" "it" } |
+    "my"1 |
+    "way"1 |
+    \skip1 |
+\mymark "Break" #32
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse" #39
+    "Like"8 "Carl's" "Ju-" "-nior" "I'm" "the" "hu-" "-gest" |
+    "star"4 \skip2. |
+    \tuplet 3/2 { "Sun-"8 "-flo-" "-wers" "crushed" "by" "the" "boot" "of" "the" } "czar"4 |
+    \skip1 |
+    \tuplet 3/2 { "It's"8 "your" "own" "fault" "it" "has" "got-" "-ten" "this" } "far"4 |
+    \skip1. |
+\mymark "Chorus" #45
+    "Flame"4. "broiled" "whop-"8 "-pers" |
+    \tuplet 3/2 { \skip1 "on"4 "the" } |
+    "tray"1 |
+    "Flame"4. "broiled" "whop-"8 "-pers" |
+    \tuplet 3/2 { \skip1 "e-"4 "-very" } |
+    "day"1 |
+    "Flame"4. "broiled" "whop-"8 "-pers" |
+    \skip1 |
+\mymark "Outro" #53
+    "Flame"4. "broiled" "whop-"8 "-pers" |
+    \tuplet 3/2 { \skip1 "on"4 "the" } |
+    "tray"1 |
+    "Flame"4. "broiled" "whop-"8 "-pers" |
+    \tuplet 3/2 { \skip1 "e-"4 "-very" } |
+    "day"1 |
+    "Flame"4. "broiled" "whop-"8 "-pers" |
+    \skip2 \tuplet 3/2 { "you'll"4 "have" "it" } |
+    "my"1 |
+    "way"1 |
+}
