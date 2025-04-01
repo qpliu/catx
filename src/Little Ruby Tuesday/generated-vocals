@@ -1,0 +1,63 @@
+vocals = {
+    \myVocalsStuff
+    r1 |
+\mymark "Intro" #2
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse" #6
+    r8 d' a' a' d' d' f' d'~ |
+    d'2 r |
+    r8 d'16 d' a' a' a' a' d'8 d' f' d'~ |
+    d'2 r |
+    r8 d' g' g' d' d' f' d'~ |
+    d'2 r |
+    r1 |
+    r1 |
+\mymark "Verse" #14
+    r8 d'16 d' a'8 a' d' d' f' d'~ |
+    d'2 r |
+    r8 d'16 d' a'4 d'8 d' f' d'~ |
+    d'2 r |
+    r8 d' g' g' d' d' f' d'~ |
+    d'2 r |
+    r1 |
+    r1 |
+\mymark "Chorus" #22
+    r2 r8 a' a' a' |
+    f''8 f'' e'' r e'' e'' d''4 |
+    r2. a'8 a' |
+    f''8 f'' e'' r e'' e'' d''4 |
+    r2. c''8 c'' |
+    c''4 c'' c'' c'' |
+    r2. c''4 |
+    d''4 d''2. |
+\mymark "Verse" #30
+    r8 d'16 d' a' a' a'8 d' d' f' d'~ |
+    d'2 r |
+    r8 d' a'16 a' a' a' d'8 d' f' d'~ |
+    d'2 r |
+    r8 d'16 d' g'8 g' d' d'16 d' f'8 d'~ |
+    d'2 r |
+    r1 |
+    r1 |
+\mymark "Chorus" #38
+    r2 r8 a' a' a' |
+    f''8 f'' e'' r e'' e'' d''4 |
+    r2. a'8 a' |
+    f''8 f'' e'' r e'' e'' d''4 |
+    r2. c''8 c'' |
+    c''4 c'' c'' c'' |
+    r2. c''4 |
+    d''4 d''2. |
+\mymark "Outro" #46
+    r2 r8 a' a' a' |
+    f''8 f'' e'' r e'' e'' d''4 |
+    r2. a'8 a' |
+    f''8 f'' e'' r e'' e'' d''4 |
+    r2. c''8 c'' |
+    c''4 c'' c'' c'' |
+    r4 c'' c'' c'' |
+    d''4 d''2. |
+}
