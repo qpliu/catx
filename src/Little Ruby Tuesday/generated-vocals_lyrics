@@ -4,7 +4,7 @@ vocalsLyrics = \new Lyrics \lyricmode {
 \mymark "Intro" #2
     \skip1 |
     \skip1 |
-    \skip1 |
+    \skip2. |
     \skip1 |
 \mymark "Verse" #6
     \skip8 "When"8 "you're" "a" "for-" "-eign" "stu-" "-dent" |
@@ -13,26 +13,26 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip1 |
     \skip8 "you'd"8 "best" "be" "ve-" "-ry" "pru-" "-dent" |
     \skip1 |
-    \skip1 |
+    \skip2. |
     \skip1 |
 \mymark "Verse" #14
-    \skip8 "It's"16 "the" "threat"8 "of" "re-" "-tri-" "-bu-" "-tion" |
+    \skip8 "Ac-"16 "-cu-" "-sa-" "-tions" "of"8 "per-" "-se-" "-cu-" "-tion" |
     \skip1 |
-    \skip8 "flood"16 "the" "zone"4 "with"8 "con-" "-fu-" "-sion" |
+    \skip8 "with"16 "the" "threat"8 "of" "re-" "-tri-" "-bu-" "-tion" |
     \skip1 |
     \skip8 "there's"8 "on-" "-ly" "one" "con-" "-clu-" "-sion" |
     \skip1 |
-    \skip1 |
+    \skip2. |
     \skip1 |
 \mymark "Chorus" #22
     \skip2 \skip8 "It's"8 "the" "A-" |
     "-me-"8 "-ri-" "-can" \skip8 "so-"8 "-lu-" "-tion"4 |
     \skip2. "to"8 "the" |
-    "dis-"8 "-si-" "-dent" \skip8 "in-"8 "-tru-" "-sion"4 |
+    "dis-"8 "-si-" "-dent" \skip8 "in-"8 "-clu-" "-sion"4 |
     \skip2. "of"8 "the" |
     "voi-"4 "-ces" "year-" "-ning" |
-    \skip2. "to"4 |
-    "be"4 "free"2. |
+    \skip2. "to"4 "breathe" |
+    "free"2 \skip2 |
 \mymark "Verse" #30
     \skip8 "It's"16 "a" "cul-" "-tu-" "-ral"8 "re-" "-vo-" "-lu-" "-tion" |
     \skip1 |
@@ -40,24 +40,24 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip1 |
     \skip8 "and"16 "re-" "-turn"8 "to" "Chi-" "-nese"16 "ex-" "-clu-"8 "-sion" |
     \skip1 |
-    \skip1 |
+    \skip2. |
     \skip1 |
 \mymark "Chorus" #38
     \skip2 \skip8 "It's"8 "the" "A-" |
     "-me-"8 "-ri-" "-can" \skip8 "so-"8 "-lu-" "-tion"4 |
     \skip2. "to"8 "the" |
-    "dis-"8 "-si-" "-dent" \skip8 "in-"8 "-tru-" "-sion"4 |
+    "dis-"8 "-si-" "-dent" \skip8 "in-"8 "-clu-" "-sion"4 |
     \skip2. "of"8 "the" |
     "voi-"4 "-ces" "year-" "-ning" |
-    \skip2. "to"4 |
-    "be"4 "free"2. |
+    \skip2. "to"4 "breathe" |
+    "free"2 \skip2 |
 \mymark "Outro" #46
     \skip2 \skip8 "It's"8 "the" "A-" |
     "-me-"8 "-ri-" "-can" \skip8 "so-"8 "-lu-" "-tion"4 |
     \skip2. "to"8 "the" |
-    "dis-"8 "-si-" "-dent" \skip8 "in-"8 "-tru-" "-sion"4 |
+    "im-"8 "-mi-" "-grant" \skip8 "in-"8 "-tru-" "-sion"4 |
     \skip2. "of"8 "the" |
     "voi-"4 "-ces" "year-" "-ning" |
-    \skip4 "then"4 "they" "came" |
-    "for"4 "me"2. |
+    \skip4 "then"4 "they" "came" "for" |
+    "me"2 \skip2 |
 }

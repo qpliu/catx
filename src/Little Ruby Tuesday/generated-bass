@@ -1,62 +1,62 @@
 bass = {
     r1 |
 \mymark "Intro" #2
-    d,8\3 d,\3 d,4\3 d,8\3 d,\3 d,4\3 |
-    d,8\3 d,\3 d,4\3 d,8\3 d,\3 d,4\3 |
-    c,8\3 c,\3 c,4\3 c,8\3 c,\3 c,4\3~ |
-    c,1\3 |
+    c,8\3 c,\3 c,4\3 c,8\3 c,\3 c,4\3 |
+    c,8\3 c,\3 c,4\3 c,8\3 c,\3 c,4\3 |
+    ais,,8\3 ais,,\3 ais,,4\3 ais,,8\3 ais,,\3 |
+    ais,,1\3 |
 \mymark "Verse" #6
-    d,8\3 d,\3 d,4\3 d,8\3 d,\3 d,4\3 |
-    d,8\3 d,\3 d,4\3 d,8\3 d,\3 d,4\3 |
-    d,8\3 d,\3 d,4\3 d,8\3 d,\3 d,4\3 |
-    d,8\3 d,\3 d,4\3 d,8\3 d,\3 d,4\3 |
     c,8\3 c,\3 c,4\3 c,8\3 c,\3 c,4\3 |
     c,8\3 c,\3 c,4\3 c,8\3 c,\3 c,4\3 |
-    c,8\3 c,\3 c,4\3 c,8\3 c,\3 c,4\3~ |
-    c,1\3 |
+    c,8\3 c,\3 c,4\3 c,8\3 c,\3 c,4\3 |
+    c,8\3 c,\3 c,4\3 c,8\3 c,\3 c,4\3 |
+    ais,,8\3 ais,,\3 ais,,4\3 ais,,8\3 ais,,\3 ais,,4\3 |
+    ais,,8\3 ais,,\3 ais,,4\3 ais,,8\3 ais,,\3 ais,,4\3 |
+    ais,,8\3 ais,,\3 ais,,4\3 ais,,8\3 ais,,\3 |
+    ais,,1\3 |
 \mymark "Verse" #14
-    d,8\3 d,\3 d,4\3 d,8\3 d,\3 d,4\3 |
-    d,8\3 d,\3 d,4\3 d,8\3 d,\3 d,4\3 |
-    d,8\3 d,\3 d,4\3 d,8\3 d,\3 d,4\3 |
-    d,8\3 d,\3 d,4\3 d,8\3 d,\3 d,4\3 |
     c,8\3 c,\3 c,4\3 c,8\3 c,\3 c,4\3 |
     c,8\3 c,\3 c,4\3 c,8\3 c,\3 c,4\3 |
-    c,8\3 c,\3 c,4\3 c,8\3 c,\3 c,4\3~ |
-    c,1\3 |
+    c,8\3 c,\3 c,4\3 c,8\3 c,\3 c,4\3 |
+    c,8\3 c,\3 c,4\3 c,8\3 c,\3 c,4\3 |
+    ais,,8\3 ais,,\3 ais,,4\3 ais,,8\3 ais,,\3 ais,,4\3 |
+    ais,,8\3 ais,,\3 ais,,4\3 ais,,8\3 ais,,\3 ais,,4\3 |
+    ais,,8\3 ais,,\3 ais,,4\3 ais,,8\3 ais,,\3 |
+    ais,,1\3 |
 \mymark "Chorus" #22
-    d,2\3 d,8\3 d,\3 d,\3 d,\3 |
-    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
-    c,2.\3 c,8\3 c,\3 |
     c,8\3 c,\3 c,\3 c,\3 c,\3 c,\3 c,\3 c,\3 |
-    c,2\3 c,8\3 c,\3 c,\3 c,\3 |
     c,8\3 c,\3 c,\3 c,\3 c,\3 c,\3 c,\3 c,\3 |
-    c,4\3 c,\3 c,\3 c,\3 |
-    c,4\3 d,2.\3 |
-\mymark "Verse" #30
-    d,8\3 d,\3 d,4\3 d,8\3 d,\3 d,4\3 |
-    d,8\3 d,\3 d,4\3 d,8\3 d,\3 d,4\3 |
-    d,8\3 d,\3 d,4\3 d,8\3 d,\3 d,4\3 |
-    d,8\3 d,\3 d,4\3 d,8\3 d,\3 d,4\3 |
-    c,8\3 c,\3 c,4\3 c,8\3 c,\3 c,4\3 |
-    c,8\3 c,\3 c,4\3 c,8\3 c,\3 c,4\3 |
-    c,8\3 c,\3 c,4\3 c,8\3 c,\3 c,4\3~ |
+    ais,,8\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 |
+    ais,,8\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 |
+    ais,,8\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 |
+    ais,,8\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 |
+    ais,,4\3 ais,,\3 ais,,\3 ais,,\3 c,\3 |
     c,1\3 |
+\mymark "Verse" #30
+    c,8\3 c,\3 c,4\3 c,8\3 c,\3 c,4\3 |
+    c,8\3 c,\3 c,4\3 c,8\3 c,\3 c,4\3 |
+    c,8\3 c,\3 c,4\3 c,8\3 c,\3 c,4\3 |
+    c,8\3 c,\3 c,4\3 c,8\3 c,\3 c,4\3 |
+    ais,,8\3 ais,,\3 ais,,4\3 ais,,8\3 ais,,\3 ais,,4\3 |
+    ais,,8\3 ais,,\3 ais,,4\3 ais,,8\3 ais,,\3 ais,,4\3 |
+    ais,,8\3 ais,,\3 ais,,4\3 ais,,8\3 ais,,\3 |
+    ais,,1\3 |
 \mymark "Chorus" #38
-    d,2\3 d,8\3 d,\3 d,\3 d,\3 |
-    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
-    c,2.\3 c,8\3 c,\3 |
     c,8\3 c,\3 c,\3 c,\3 c,\3 c,\3 c,\3 c,\3 |
-    c,2\3 c,8\3 c,\3 c,\3 c,\3 |
     c,8\3 c,\3 c,\3 c,\3 c,\3 c,\3 c,\3 c,\3 |
-    c,4\3 c,\3 c,\3 c,\3 |
-    c,4\3 d,2.\3 |
+    ais,,8\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 |
+    ais,,8\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 |
+    ais,,8\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 |
+    ais,,8\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 |
+    ais,,4\3 ais,,\3 ais,,\3 ais,,\3 c,\3 |
+    c,1\3 |
 \mymark "Outro" #46
-    d,2\3 d,8\3 d,\3 d,\3 d,\3 |
-    d,8\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 d,\3 |
-    c,2.\3 c,8\3 c,\3 |
     c,8\3 c,\3 c,\3 c,\3 c,\3 c,\3 c,\3 c,\3 |
-    c,2\3 c,8\3 c,\3 c,\3 c,\3 |
     c,8\3 c,\3 c,\3 c,\3 c,\3 c,\3 c,\3 c,\3 |
-    c,4\3 c,\3 c,\3 c,\3 |
-    c,4\3 d,2.\3 |
+    ais,,8\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 |
+    ais,,8\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 |
+    ais,,8\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 |
+    ais,,8\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 ais,,\3 |
+    ais,,4\3 ais,,\3 ais,,\3 ais,,\3 c,\3 |
+    c,2\3 r |
 }

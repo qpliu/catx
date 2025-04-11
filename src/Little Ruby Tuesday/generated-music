@@ -28,10 +28,10 @@ layoutmusic = <<
         \markupStuff
         \guitar
         \clef "treble_8"
-        { s128_"e a d g b e capo fret 3" }
+        { s128_"e a d g b e capo fret 1" }
     >>
     \tag #'(allPart peterPart) \new TabStaff \with {
-        stringTunings = \stringTuning <g, c f ais d' g'>
+        stringTunings = \stringTuning <f, ais, dis gis c' f'>
     } \guitar
     \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
         instrumentName = \markup { \rotate #90 "Drums" }
@@ -48,10 +48,10 @@ layoutmusic = <<
         \markupStuff
         \bass
         \clef "bass_8"
-        { s128_"e a d g capo fret 3" }
+        { s128_"e a d g capo fret 1" }
     >>
     \tag #'(allPart bassPart) \new TabStaff \with {
-        stringTunings = \stringTuning <g,, c, f, ais,>
+        stringTunings = \stringTuning <f,, ais,, dis, gis,>
     } \bass
     \tag #'(allPart susanPart) \new Staff \with {
         instrumentName = \markup { \rotate #90 "Steelpan" }
