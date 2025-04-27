@@ -1,0 +1,65 @@
+drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+    bda4 bda bda bda8 bda |
+\mymark "Intro" #2
+    << { <tomfh mar>8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { <tomfh mar>8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { <tomfh mar>8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+\mymark "Verse" #8
+    << { <tomfh mar>8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+\mymark "Chorus" #16
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar <tomfh mar> mar <tommh mar> mar | } \context DrumVoice = "drsb" { bda4 bda2. | } >>
+    << { mar8 mar mar <tomh tommh mar>16 <tomh tommh> <tomh toml mar>8 <tomh toml mar>16 <tomh toml> <tomfh mar> tomfh <tomfh mar>8 | } \context DrumVoice = "drsb" { bda4 bda2. | } >>
+    << { <tomfh mar>8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+\mymark "Verse" #23
+    << { <tomfh mar>8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar <tomfh mar> mar <tommh mar> mar | } \context DrumVoice = "drsb" { bda4 bda2. | } >>
+    << { mar8 mar mar <tomh tommh mar>16 <tomh tommh> <tomh toml mar>8 <tomh toml mar>16 <tomh toml> <tomfh mar> tomfh <tomfh mar>8 | } \context DrumVoice = "drsb" { bda4 bda2. | } >>
+    << { <tomfh mar>8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { <tomfh mar>8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+\mymark "Verse" #40
+    << { <tomfh mar>8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { mar8 mar mar mar <tomfh mar> mar <tommh mar> mar | } \context DrumVoice = "drsb" { bda4 bda2. | } >>
+    << { mar8 mar mar <tomh tommh mar>16 <tomh tommh> <tomh toml mar>8 <tomh toml mar>16 <tomh toml> <tomfh mar> tomfh <tomfh mar>8 | } \context DrumVoice = "drsb" { bda4 bda2. | } >>
+    << { <tomfh mar>8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { <tomfh mar>8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { <tomfh mar>8 mar mar mar mar mar mar mar mar mar mar mar mar mar | } \context DrumVoice = "drsb" { bda4 bda bda bda bda bda bda8 bda | } >>
+    << { <tomfh mar>1. r4 | } \context DrumVoice = "drsb" { bda1. r4 | } >>
+}

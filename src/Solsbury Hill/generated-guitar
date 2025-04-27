@@ -1,0 +1,63 @@
+guitar = {
+    r2 r8 <e\4 gis\3> <a,\5 a\3> <e\4 b\2> |
+\mymark "Intro" #2
+    <a,\5 cis'\2>16( d'\2) fis\4 d'\2 a,8\5 <e\4 cis'\2> a,\5 <e\4 a\3> <a,\5 d'\2>16 a\3 fis\4 cis'\2 a,8\5 <e\4 gis\3 b\2> a,\5 <e\4 gis\3> <a,\5 a\3> <e\4 b\2> |
+    <a,\5 d'\2>16 a\3 fis\4 e'\1 a,8\5 <e\4 cis'\2> a,\5 <e\4 a\3> <a,\5 d'\2>16 a\3 fis\4 cis'\2 a,8\5 <e\4 gis\3 b\2> a,\5 <e\4 gis\3> <a,\5 a\3> <e\4 b\2> |
+    <a,\5 d'\2>16 a\3 fis\4 e'\1 a,8\5 <e\4 cis'\2> a,\5 <e\4 a\3> <a,\5 d'\2>16 a\3 fis\4 cis'\2 a,8\5 <e\4 gis\3 b\2> a,\5 <e\4 gis\3> <a,\5 a\3> <e\4 b\2> |
+    <a,\5 d'\2>16 a\3 fis\4 e'\1 a,8\5 <e\4 cis'\2> a,\5 <e\4 a\3> <a,\5 d'\2>16 a\3 fis\4 cis'\2 a,8\5 <e\4 gis\3 b\2> a,\5 <e\4 gis\3> <a,\5 a\3> <e\4 b\2> |
+    <a,\5 d'\2>16 a\3 fis\4 e'\1 a,8\5 <e\4 cis'\2> a,\5 <e\4 a\3> <a,\5 d'\2>16 a\3 fis\4 cis'\2 a,8\5 <e\4 gis\3 b\2> a,\5 <e\4 gis\3> <a,\5 a\3> <e\4 b\2> |
+    <a,\5 d'\2>16 a\3 fis\4 e'\1 a,8\5 <e\4 cis'\2> a,\5 <e\4 a\3> <a,\5 d'\2>16 a\3 fis\4 cis'\2 a,8\5 <e\4 gis\3 b\2> a,\5 <e\4 gis\3> <a,\5 a\3> <e\4 b\2> |
+\mymark "Verse" #8
+    <a,\5 a\3 cis'\2>8 e16\4 a\3 a,8\5 <e\4 gis\3 b\2> a,\5 <a\3 cis'\2> <a,\5 a\3 cis'\2> e\4 <a,\5 cis'\2>16 a\3 e\4 cis'\2 a,\5 cis'\2 e\4 a\3 a,\5 cis'\2 e8\4 |
+    <a,\5 a\3 cis'\2>8 e16\4 a\3 a,8\5 <e\4 gis\3 b\2> a,\5 <a\3 cis'\2> <a,\5 a\3 cis'\2> e\4 <a,\5 cis'\2>16 a\3 e\4 cis'\2 a,\5 cis'\2 e\4 a\3 a,\5 cis'\2 e8\4 |
+    <cis\5 cis'\2 fis'\1>8 fis16\4 a\3 cis8\5 <e\4 gis\3 b\2> e,\6 <cis'\2 fis'\1> <cis\5 cis'\2 fis'\1> e\4 <cis\5 fis'\1>16 cis'\2 e\4 fis'\1 cis\5 cis'\2 fis\4 a\3 cis\5 cis'\2 fis8\4 |
+    <cis\5 cis'\2 fis'\1>8 fis16\4 a\3 cis8\5 <e\4 gis\3 b\2> e,\6 <cis'\2 fis'\1> <cis\5 cis'\2 fis'\1> e\4 <cis\5 fis'\1>16 cis'\2 e\4 fis'\1 cis\5 cis'\2 fis\4 a\3 cis\5 cis'\2 fis8\4 |
+    <a,\5 a\3 cis'\2>8 e16\4 a\3 a,8\5 <e\4 gis\3 b\2> a,\5 <a\3 cis'\2> <a,\5 a\3 cis'\2> e\4 <a,\5 cis'\2>16 a\3 e\4 cis'\2 a,\5 cis'\2 e\4 a\3 a,\5 cis'\2 e8\4 |
+    <a,\5 a\3 cis'\2>8 e16\4 a\3 a,8\5 <e\4 gis\3 b\2> a,\5 <a\3 cis'\2> <a,\5 a\3 cis'\2> e\4 <a,\5 cis'\2>16 a\3 e\4 cis'\2 a,\5 cis'\2 e\4 a\3 a,\5 cis'\2 e8\4 |
+    <cis\5 cis'\2 fis'\1>8 fis16\4 a\3 cis8\5 <e\4 gis\3 b\2> e,\6 <cis'\2 fis'\1> <cis\5 cis'\2 fis'\1> e\4 <cis\5 fis'\1>16 cis'\2 e\4 fis'\1 cis\5 cis'\2 fis\4 a\3 cis\5 cis'\2 fis8\4 |
+    <cis\5 cis'\2 fis'\1>8 fis16\4 a\3 cis8\5 <e\4 gis\3 b\2> e,\6 <cis'\2 fis'\1> <cis\5 cis'\2 fis'\1> e\4 <cis\5 fis'\1>16 cis'\2 e\4 fis'\1 cis\5 cis'\2 fis\4 a\3 cis\5 cis'\2 fis8\4 |
+\mymark "Chorus" #16
+    <d\4 cis'\2 fis'\1>8 a16\3 cis'\2 d8\4 <gis\3 b\2 e'\1> d\4 <cis'\2 fis'\1> <d\4 cis'\2 fis'\1> a\3 <d\4 fis'\1>16 cis'\2 a\3 fis'\1 d\4 cis'\2 a\3 fis'\1 d\4 cis'\2 a8\3 |
+    <d\4 cis'\2 fis'\1>8 a16\3 cis'\2 d8\4 <gis\3 b\2 e'\1> d\4 <cis'\2 fis'\1> <d\4 cis'\2 fis'\1> a\3 <d\4 fis'\1>16 cis'\2 a\3 fis'\1 d\4 cis'\2 a\3 fis'\1 d\4 cis'\2 a8\3 |
+    <cis\5 cis'\2 fis'\1>8 fis16\4 a\3 cis8\5 <e\4 gis\3 b\2> d\4 <cis'\2 fis'\1> <d\4 cis'\2 fis'\1> a\3 <d\4 fis'\1>16 cis'\2 a\3 fis'\1 d\4 cis'\2 a\3 fis'\1 d\4 cis'\2 a8\3 |
+    <cis\5 cis'\2 fis'\1>8 fis16\4 a\3 cis8\5 <e\4 gis\3 b\2> e,\6 e\4 <fis,\6 cis'\2 fis'\1>4 |
+    <b,\5 e\4 a\3 d'\2>4 <cis\5 e\4 a\3 cis'\2> <e\4 a\3 b\2> <e\4 gis\3 b\2> |
+    <a,\5 cis'\2>16( d'\2) fis\4 d'\2 a,8\5 <e\4 cis'\2> a,\5 <e\4 a\3> <a,\5 d'\2>16 a\3 fis\4 cis'\2 a,8\5 <e\4 gis\3 b\2> a,\5 <e\4 gis\3> <a,\5 a\3> <e\4 b\2> |
+    <a,\5 d'\2>16 a\3 fis\4 e'\1 a,8\5 <e\4 cis'\2> a,\5 <e\4 a\3> <a,\5 d'\2>16 a\3 fis\4 cis'\2 a,8\5 <e\4 gis\3 b\2> a,\5 <e\4 gis\3> <a,\5 a\3> <e\4 b\2> |
+\mymark "Verse" #23
+    <a,\5 a\3 cis'\2>8 e16\4 a\3 a,8\5 <e\4 gis\3 b\2> a,\5 <a\3 cis'\2> <a,\5 a\3 cis'\2> e\4 <a,\5 cis'\2>16 a\3 e\4 cis'\2 a,\5 cis'\2 e\4 a\3 a,\5 cis'\2 e8\4 |
+    <a,\5 a\3 cis'\2>8 e16\4 a\3 a,8\5 <e\4 gis\3 b\2> a,\5 <a\3 cis'\2> <a,\5 a\3 cis'\2> e\4 <a,\5 cis'\2>16 a\3 e\4 cis'\2 a,\5 cis'\2 e\4 a\3 a,\5 cis'\2 e8\4 |
+    <cis\5 cis'\2 fis'\1>8 fis16\4 a\3 cis8\5 <e\4 gis\3 b\2> e,\6 <cis'\2 fis'\1> <cis\5 cis'\2 fis'\1> e\4 <cis\5 fis'\1>16 cis'\2 e\4 fis'\1 cis\5 cis'\2 fis\4 a\3 cis\5 cis'\2 fis8\4 |
+    <cis\5 cis'\2 fis'\1>8 fis16\4 a\3 cis8\5 <e\4 gis\3 b\2> e,\6 <cis'\2 fis'\1> <cis\5 cis'\2 fis'\1> e\4 <cis\5 fis'\1>16 cis'\2 e\4 fis'\1 cis\5 cis'\2 fis\4 a\3 cis\5 cis'\2 fis8\4 |
+    <a,\5 a\3 cis'\2>8 e16\4 a\3 a,8\5 <e\4 gis\3 b\2> a,\5 <a\3 cis'\2> <a,\5 a\3 cis'\2> e\4 <a,\5 cis'\2>16 a\3 e\4 cis'\2 a,\5 cis'\2 e\4 a\3 a,\5 cis'\2 e8\4 |
+    <a,\5 a\3 cis'\2>8 e16\4 a\3 a,8\5 <e\4 gis\3 b\2> a,\5 <a\3 cis'\2> <a,\5 a\3 cis'\2> e\4 <a,\5 cis'\2>16 a\3 e\4 cis'\2 a,\5 cis'\2 e\4 a\3 a,\5 cis'\2 e8\4 |
+    <cis\5 cis'\2 fis'\1>8 fis16\4 a\3 cis8\5 <e\4 gis\3 b\2> e,\6 <cis'\2 fis'\1> <cis\5 cis'\2 fis'\1> e\4 <cis\5 fis'\1>16 cis'\2 e\4 fis'\1 cis\5 cis'\2 fis\4 a\3 cis\5 cis'\2 fis8\4 |
+    <cis\5 cis'\2 fis'\1>8 fis16\4 a\3 cis8\5 <e\4 gis\3 b\2> e,\6 <cis'\2 fis'\1> <cis\5 cis'\2 fis'\1> e\4 <cis\5 fis'\1>16 cis'\2 e\4 fis'\1 cis\5 cis'\2 fis\4 a\3 cis\5 cis'\2 fis8\4 |
+    <d\4 cis'\2 fis'\1>8 a16\3 cis'\2 d8\4 <gis\3 b\2 e'\1> d\4 <cis'\2 fis'\1> <d\4 cis'\2 fis'\1> a\3 <d\4 fis'\1>16 cis'\2 a\3 fis'\1 d\4 cis'\2 a\3 fis'\1 d\4 cis'\2 a8\3 |
+    <d\4 cis'\2 fis'\1>8 a16\3 cis'\2 d8\4 <gis\3 b\2 e'\1> d\4 <cis'\2 fis'\1> <d\4 cis'\2 fis'\1> a\3 <d\4 fis'\1>16 cis'\2 a\3 fis'\1 d\4 cis'\2 a\3 fis'\1 d\4 cis'\2 a8\3 |
+    <cis\5 cis'\2 fis'\1>8 fis16\4 a\3 cis8\5 <e\4 gis\3 b\2> d\4 <cis'\2 fis'\1> <d\4 cis'\2 fis'\1> a\3 <d\4 fis'\1>16 cis'\2 a\3 fis'\1 d\4 cis'\2 a\3 fis'\1 d\4 cis'\2 a8\3 |
+    <cis\5 cis'\2 fis'\1>8 fis16\4 a\3 cis8\5 <e\4 gis\3 b\2> e,\6 e\4 <fis,\6 cis'\2 fis'\1>4 |
+    <b,\5 e\4 a\3 d'\2>4 <cis\5 e\4 a\3 cis'\2> <e\4 a\3 b\2> <e\4 gis\3 b\2> |
+    <a,\5 cis'\2>16( d'\2) fis\4 d'\2 a,8\5 <e\4 cis'\2> a,\5 <e\4 a\3> <a,\5 d'\2>16 a\3 fis\4 cis'\2 a,8\5 <e\4 gis\3 b\2> a,\5 <e\4 gis\3> <a,\5 a\3> <e\4 b\2> |
+    <a,\5 d'\2>16 a\3 fis\4 e'\1 a,8\5 <e\4 cis'\2> a,\5 <e\4 a\3> <a,\5 d'\2>16 a\3 fis\4 cis'\2 a,8\5 <e\4 gis\3 b\2> a,\5 <e\4 gis\3> <a,\5 a\3> <e\4 b\2> |
+    <a,\5 d'\2>16 a\3 fis\4 e'\1 a,8\5 <e\4 cis'\2> a,\5 <e\4 a\3> <a,\5 d'\2>16 a\3 fis\4 cis'\2 a,8\5 <e\4 gis\3 b\2> a,\5 <e\4 gis\3> <a,\5 a\3> <e\4 b\2> |
+    <a,\5 d'\2>16 a\3 fis\4 e'\1 a,8\5 <e\4 cis'\2> a,\5 <e\4 a\3> <a,\5 d'\2>16 a\3 fis\4 cis'\2 a,8\5 <e\4 gis\3 b\2> a,\5 <e\4 gis\3> <a,\5 a\3> <e\4 b\2> |
+\mymark "Verse" #40
+    <a,\5 a\3 cis'\2>8 e16\4 a\3 a,8\5 <e\4 gis\3 b\2> a,\5 <a\3 cis'\2> <a,\5 a\3 cis'\2> e\4 <a,\5 cis'\2>16 a\3 e\4 cis'\2 a,\5 cis'\2 e\4 a\3 a,\5 cis'\2 e8\4 |
+    <a,\5 a\3 cis'\2>8 e16\4 a\3 a,8\5 <e\4 gis\3 b\2> a,\5 <a\3 cis'\2> <a,\5 a\3 cis'\2> e\4 <a,\5 cis'\2>16 a\3 e\4 cis'\2 a,\5 cis'\2 e\4 a\3 a,\5 cis'\2 e8\4 |
+    <cis\5 cis'\2 fis'\1>8 fis16\4 a\3 cis8\5 <e\4 gis\3 b\2> e,\6 <cis'\2 fis'\1> <cis\5 cis'\2 fis'\1> e\4 <cis\5 fis'\1>16 cis'\2 e\4 fis'\1 cis\5 cis'\2 fis\4 a\3 cis\5 cis'\2 fis8\4 |
+    <cis\5 cis'\2 fis'\1>8 fis16\4 a\3 cis8\5 <e\4 gis\3 b\2> e,\6 <cis'\2 fis'\1> <cis\5 cis'\2 fis'\1> e\4 <cis\5 fis'\1>16 cis'\2 e\4 fis'\1 cis\5 cis'\2 fis\4 a\3 cis\5 cis'\2 fis8\4 |
+    <a,\5 a\3 cis'\2>8 e16\4 a\3 a,8\5 <e\4 gis\3 b\2> a,\5 <a\3 cis'\2> <a,\5 a\3 cis'\2> e\4 <a,\5 cis'\2>16 a\3 e\4 cis'\2 a,\5 cis'\2 e\4 a\3 a,\5 cis'\2 e8\4 |
+    <a,\5 a\3 cis'\2>8 e16\4 a\3 a,8\5 <e\4 gis\3 b\2> a,\5 <a\3 cis'\2> <a,\5 a\3 cis'\2> e\4 <a,\5 cis'\2>16 a\3 e\4 cis'\2 a,\5 cis'\2 e\4 a\3 a,\5 cis'\2 e8\4 |
+    <cis\5 cis'\2 fis'\1>8 fis16\4 a\3 cis8\5 <e\4 gis\3 b\2> e,\6 <cis'\2 fis'\1> <cis\5 cis'\2 fis'\1> e\4 <cis\5 fis'\1>16 cis'\2 e\4 fis'\1 cis\5 cis'\2 fis\4 a\3 cis\5 cis'\2 fis8\4 |
+    <cis\5 cis'\2 fis'\1>8 fis16\4 a\3 cis8\5 <e\4 gis\3 b\2> e,\6 <cis'\2 fis'\1> <cis\5 cis'\2 fis'\1> e\4 <cis\5 fis'\1>16 cis'\2 e\4 fis'\1 cis\5 cis'\2 fis\4 a\3 cis\5 cis'\2 fis8\4 |
+    <d\4 cis'\2 fis'\1>8 a16\3 cis'\2 d8\4 <gis\3 b\2 e'\1> d\4 <cis'\2 fis'\1> <d\4 cis'\2 fis'\1> a\3 <d\4 fis'\1>16 cis'\2 a\3 fis'\1 d\4 cis'\2 a\3 fis'\1 d\4 cis'\2 a8\3 |
+    <d\4 cis'\2 fis'\1>8 a16\3 cis'\2 d8\4 <gis\3 b\2 e'\1> d\4 <cis'\2 fis'\1> <d\4 cis'\2 fis'\1> a\3 <d\4 fis'\1>16 cis'\2 a\3 fis'\1 d\4 cis'\2 a\3 fis'\1 d\4 cis'\2 a8\3 |
+    <cis\5 cis'\2 fis'\1>8 fis16\4 a\3 cis8\5 <e\4 gis\3 b\2> d\4 <cis'\2 fis'\1> <d\4 cis'\2 fis'\1> a\3 <d\4 fis'\1>16 cis'\2 a\3 fis'\1 d\4 cis'\2 a\3 fis'\1 d\4 cis'\2 a8\3 |
+    <cis\5 cis'\2 fis'\1>8 fis16\4 a\3 cis8\5 <e\4 gis\3 b\2> e,\6 e\4 <fis,\6 cis'\2 fis'\1>4 |
+    <b,\5 e\4 a\3 d'\2>4 <cis\5 e\4 a\3 cis'\2> <e\4 a\3 b\2> <e\4 gis\3 b\2> |
+    <a,\5 cis'\2>16( d'\2) fis\4 d'\2 a,8\5 <e\4 cis'\2> a,\5 <e\4 a\3> <a,\5 d'\2>16 a\3 fis\4 cis'\2 a,8\5 <e\4 gis\3 b\2> a,\5 <e\4 gis\3> <a,\5 a\3> <e\4 b\2> |
+    <a,\5 d'\2>16 a\3 fis\4 e'\1 a,8\5 <e\4 cis'\2> a,\5 <e\4 a\3> <a,\5 d'\2>16 a\3 fis\4 cis'\2 a,8\5 <e\4 gis\3 b\2> a,\5 <e\4 gis\3> <a,\5 a\3> <e\4 b\2> |
+    <a,\5 d'\2>16 a\3 fis\4 e'\1 a,8\5 <e\4 cis'\2> a,\5 <e\4 a\3> <a,\5 d'\2>16 a\3 fis\4 cis'\2 a,8\5 <e\4 gis\3 b\2> a,\5 <e\4 gis\3> <a,\5 a\3> <e\4 b\2> |
+    <a,\5 e\4 a\3 cis'\2>2 r1 r4 |
+}

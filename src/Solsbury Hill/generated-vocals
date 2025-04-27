@@ -1,0 +1,64 @@
+vocals = {
+    \myVocalsStuff
+    r1 |
+\mymark "Intro" #2
+    r1. r4 |
+    r1. r4 |
+    r1. r4 |
+    r1. r4 |
+    r1. r4 |
+    r1. r4 |
+\mymark "Verse" #8
+    r1 e'8 e'16 e'8 cis'8. b8 a |
+    cis'4 r2. e'16 fis'8 e' cis'8. b16 a8. |
+    a4 r2. cis'8 cis'16 d'8 cis'8. b8 a |
+    cis'4 r2. cis'16 cis'8 d' cis'8. b8 a |
+    a4 r2. e'16 e'8 e' cis'8. b16 a8. |
+    cis'4 r2. e'16 fis'8 e'8. cis' b16 a8 |
+    a4 r2. cis'8 cis' d' cis' b a |
+    cis'4 r2. cis'8 cis'16 d'8 cis'8. b8 a |
+\mymark "Chorus" #16
+    a4 r8 a b b cis' b4 fis8 fis e fis4 |
+    fis4 r8 a b4 cis'8 a4 fis8 fis e a4 |
+    a4 r8 e fis gis a4 cis'8. cis' cis'4. |
+    cis'4 r8 cis' b a r4 |
+    d'8 fis' e' cis' b b16 b8. gis8 |
+    a4 r1 r8 cis' b gis |
+    a4 r1. |
+\mymark "Verse" #23
+    r2. r8. cis'16 e' e'8 e' cis'8. b8 a |
+    cis'4 r2 r8 cis' e' fis' e' cis'8. b16 a8 |
+    a4 r2. cis'8 cis'16 d'8 cis'8. b8 a |
+    cis'4 r2. cis'16 cis'8 d' cis'8. b8 a |
+    a4 r2. e'16 e'8 e' cis'8. b8 a |
+    cis'4 r2. e'16 fis'8 e' cis'8. b16 a8. |
+    a4 r2. cis'16 cis'8 d' cis'8. b16 a8. |
+    cis'4 r2. cis'8 cis'16 d'8 cis'8. b8 a |
+    a4 r b8 b cis' cis' b4 fis8 e fis e |
+    fis4 r8 a b cis' cis' b4 fis e8 a a |
+    a4 r8 e fis gis a4 cis'8. cis' cis'4. |
+    cis'4 r8 cis' b a r4 |
+    d'8 fis' e' cis' b b16 b8. gis8 |
+    a4 r1 r8 cis' b gis |
+    a4 r1. |
+    r1. r4 |
+    r1. r4 |
+\mymark "Verse" #40
+    r1 e'8 e'16 e'8 cis'8. b8 a |
+    cis'4 r2 r8 e' e'16 fis'8 e' cis'8. b16 a8. |
+    a4 r2 r8 cis' cis' cis'16 d'8 cis'8. b8 a |
+    cis'4 r2. cis'16 cis'8 d' cis'8. b8 a |
+    a4 r2. e'16 e'8 e' cis'8. b16 a8. |
+    cis'4 r2 r8 cis' e'16 fis'8 e'8. cis'8 b a |
+    a4 r2. cis'16 cis'8 d' cis'8. b16 a8. |
+    cis'4 r2. cis'8 cis'16 d'8 cis'8. b8 a |
+    a4 r8 a b b cis' b4. fis8 e fis4 |
+    fis4 r8 a b b cis' cis' b4 fis8 e a4 |
+    a4 r8 e fis gis a4 cis'8. cis' cis'4. |
+    cis'4 r8 cis' b a r a16 a |
+    d'8 fis' e' cis' b b16 b8. gis8 |
+    a4 r1 r8 cis' b gis |
+    a4 r1. |
+    r1 r4. cis'8 b gis |
+    a4 r1. |
+}
