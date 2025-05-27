@@ -1,0 +1,49 @@
+steelpanLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \skip1. \skip4. |
+\mymark "Intro" #2
+    \skip1. \skip4. |
+    \skip1. \skip4. |
+    \skip1. \skip4. |
+    \skip1. \skip4. |
+\mymark "Verse" #6
+    "Deep"8 "down" "in" "Da-" "-ko-" "-ta" "lies"4 "Cri-"8 "cket" "the"4 "dog" \skip8 |
+    "in"8 "a" "ditch" "where" "Kri-" "-sti" "put" "her" "down"4 "with"8 "a" "shot"4 \skip8 |
+    \skip1. \skip4. |
+    \skip1. \skip4. |
+    "One"8 "day" "Kri-" "-sti" "gets" "called" "up" "by" "the" "gold-" "-en"4 "boss" \skip8 |
+    "Now"8 "she's" "head-" "-ed" "to" "the" "ci-" "-ty" "for" "a" "big" "time"4 "job" |
+    \skip1. \skip4. |
+    "He"8 "on-" "-ly" "hired" "her" "cuz" "he" "thinks" "she's"4 "hot" \skip4. |
+\mymark "Pre-Chorus" #14
+    \skip1. \skip4. |
+    \skip1. \skip4. |
+    "But"8 "what"16 "is"8. "ha-"16 "-be-" "-as"8. "cor-"16 "-pus?"4 \skip2. \skip8 |
+\mymark "Chorus" #17
+    \skip1 "No"4 "Kri-"8 "-sti" "no"4 "no"8 |
+    \skip1 "That"8 "is" "in-" "-cor-" "-rect"4 \skip8 |
+    \skip2. \skip8 "You"8 "suck" "up" "to" "your" "boss"4 \skip8 |
+    "like"8 "an" "in-" "-tern's" "stained"4 "dress" \skip2. \skip8 |
+\mymark "Verse" #21
+    "Po-"8 "-sing" "be-" "-fore" "bars" "in" "Te-" "-co-" "-lu-" "-ca" "she's" "all"4 "set" |
+    "fly-"8 "-ing" "in" "a" "fif-" "-ty" "mil-" "-lion"4 "dol-"8 "-lar"4 "jet" \skip8 |
+    \skip1. \skip4. |
+    "It's"8 "small-" "-er" "than" "the" "one" "her" "boss" "will"4 "get" \skip4. |
+\mymark "Solo" #25
+    "Hel-"8 "-lo"4. "Do-"4 "-ha" \skip2. \skip8 |
+    \skip1. \skip4. |
+    \skip1. \skip4. |
+    \skip1. \skip4. |
+\mymark "Pre-Chorus" #29
+    \skip1. \skip4. |
+    \skip1. \skip4. |
+    "But"8 "what"16 "is"8. "ha-"16 "-be-" "-as"8. "cor-"16 "-pus?"4 \skip2. \skip8 |
+\mymark "Chorus" #32
+    \skip1 "No"4 "Kri-"8 "-sti" "no"4 "no"8 |
+    \skip1 "That"8 "is" "in-" "-cor-" "-rect"4 \skip8 |
+    \skip2. \skip8 "You"8 "suck" "up" "to" "your" "boss"4 \skip8 |
+    "like"8 "an" "in-" "-tern's" "stained"4 "dress" \skip2. \skip8 |
+    \skip1 "No"4 "Kri-"8 "-sti" "no"4 "no"8 |
+    \skip1 "That"8 "is" "in-" "-cor-" "-rect"4 \skip8 |
+    \skip1. \skip4. |
+}

@@ -1,0 +1,49 @@
+steelpan = {
+    \myVocalsStuff
+    r1. r4. |
+\mymark "Intro" #2
+    r1. r4. |
+    r1. r4. |
+    r1. r4. |
+    r1. r4. |
+\mymark "Verse" #6
+    e'8 e' e' e' e' e' e'4 e'8 d' cis'4 e' r8 |
+    d'8 d' d' d' d' d' d' d' d'4 cis'8 a a4 r8 |
+    r1. r4. |
+    r1. r4. |
+    e'8 e' e' e' e' e' e' e' e' d' cis'4 e' r8 |
+    d'8 d' d' d' d' d' d' d' d' d' e' cis'4 a |
+    r1. r4. |
+    a8 a a a a a a a a4 a r4. |
+\mymark "Pre-Chorus" #14
+    r1. r4. |
+    r1. r4. |
+    \deadNote a8 \deadNote a16 \deadNote a8. \deadNote a16 \deadNote a \deadNote a8. \deadNote a16 \deadNote a4 r2. r8 |
+\mymark "Chorus" #17
+    r1 e'4 d'8 cis' e'4 e'8 |
+    r1 d'8 d' d' d' d'4 r8 |
+    r2. r8 d' a a a a a4 r8 |
+    a8 a a a a4 a r2. r8 |
+\mymark "Verse" #21
+    e'8 e' e' e' e' e' e' e' e' e' d' cis'4 e' |
+    d'8 d' d' d' d' d' d' d'4 e'8 cis'4 a r8 |
+    r1. r4. |
+    a8 a a a a a a a a4 a r4. |
+\mymark "Solo" #25
+    \deadNote a8 \deadNote a4. \deadNote a4 \deadNote a r2. r8 |
+    r1. r4. |
+    r1. r4. |
+    r1. r4. |
+\mymark "Pre-Chorus" #29
+    r1. r4. |
+    r1. r4. |
+    \deadNote a8 \deadNote a16 \deadNote a8. \deadNote a16 \deadNote a \deadNote a8. \deadNote a16 \deadNote a4 r2. r8 |
+\mymark "Chorus" #32
+    r1 e'4 d'8 cis' e'4 e'8 |
+    r1 d'8 d' d' d' d'4 r8 |
+    r2. r8 d' a a a a a4 r8 |
+    a8 a a a a4 a r2. r8 |
+    r1 e'4 d'8 cis' e'4 e'8 |
+    r1 d'8 d' d' d' d'4 r8 |
+    r1. r4. |
+}
