@@ -1,5 +1,5 @@
 #!/bin/sh
-WHERE="application_guitar_pro5-42273187.gp5"
+WHERE="song.gp5"
 DRUMMAP="41 toml 0,35 bd 1,"
 set -e
 rm -f generated-*
@@ -11,7 +11,7 @@ drumMap "$DRUMMAP" \
 track 0 \
     preset kav \
     layout-extra '\clef "treble_8"' \
-    which-lyrics 0 \
+    which-lyrics text \
     output-lilypond \
     output-lyrics \
     output-karaoke \

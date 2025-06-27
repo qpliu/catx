@@ -24,49 +24,49 @@ vocaloid = {
     e'4 r e' r |
     r4 e' e' r |
     e'4 r e' r |
-    r4 e' e' r8 d' |
+    r4 e' e' r8 cis' |
 \mymark "Verse 1 & 2" #25
-    e'8 e' e' d' d'4 e' |
+    e'8 e' e' d' cis'4 e' |
     \repeat volta 2 {
-        r2. r8 d' |
-        e'8 e' e' d' d'4 e' |
-        r2. r8 d' |
-        e'8 e' e' b b4 a |
+        r2. r8 cis' |
+        e'8 e' e' d' cis'4 e' |
+        r2. r8 cis' |
+        e'8 e' e' d' cis'4 a |
         r4. a8 e'4 e' |
         cis'4 r2. |
-        r2. r8 d' |
-        e'8 e' e' d' d'4 e' |
-        r2. r8 d' |
-        e'8 e' e' d' d'4 e' |
-        r2. r8 d' |
-        e'8 e' e' b b4 a |
+        r2. r8 cis' |
+        e'8 e' e' d' cis'4 e' |
+        r2. r8 cis' |
+        e'8 e' e' d' cis'4 e' |
+        r2. r8 cis' |
+        e'8 e' e' d' cis'4 a |
         r4. a8 e'4 e' |
         cis'4 r2. |
         r1 |
 \mymark "Chorus 1 & 2" #41
         d'4 r d' r |
         r4 d' d' r |
-        e'8 e' e' b b4 a |
+        e'8 e' e' d' cis'4 a |
         r1 |
         d'4 d' d' r |
         d'8 d'4 d' r b8 |
         b4 b b b |
-        d'8 d' d' e'4 r d'8 |
-        e'8 e' e' d' d'4 e' |
+        d'8 d' d' e'4 r cis'8 |
+        e'8 e' e' d' cis'4 e' |
     }
 \mymark "Verse 3" #50
     r2. r8 d' |
-    e'8 e' e' d' d'4 e' |
+    e'8 e' e' d' cis'4 e' |
     r2. r8 d' |
-    e'8 e' e' b b4 a |
+    e'8 e' e' d' cis'4 a |
     r4. a8 e'4 e' |
     cis'4 r2. |
-    r2. r8 d' |
-    e'8 e' e' d' d'4 e' |
-    r2. r8 d' |
-    e'8 e' e' d' d'4 e' |
-    r2. r8 d' |
-    e'8 e' e' b b4 a |
+    r2. r8 cis' |
+    e'8 e' e' d' cis'4 e' |
+    r2. r8 cis' |
+    e'8 e' e' d' cis'4 e' |
+    r2. r8 cis' |
+    e'8 e' e' d' cis'4 a |
     r4. a8 e'4 e' |
     cis'4 r2. |
     r1 |
