@@ -2,144 +2,144 @@ steelpanLyrics = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Intro" #1
     \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
 \mymark "Verse" #10
-    "You"8 "got"16 "a" "fast"8 \skip8 "car"4 \skip4 |
-    "I"8 "want"16 "a" "tick-" "-et"8 "to"16 "an-" "-y-" "-where"8 \skip4 |
-    "May-"16 "-be" "we"8 "make"16 "a" "deal"4 \skip4. |
-    "may-"16 "be"8 "to-"16 "-ge-" "-ther" "we" "can" "get"8 "some-" "-where" \skip8 |
-    "a-"16 "-ny" "place"8 "is" "bet-"16 "-ter" \skip2 |
-    "start-"16 "-ing" "from"8 "ze-"16 "-ro" "got"8 "no-"16 "-thing" "to"8 "lose" \skip8 |
-    "may-"16 "-be" "we'll"8 "make" "some-" "-thing"4 \skip4 |
-    "me"8 "my-" "-self"16 "I" "got"8 "no-"16 "-thing" "to"8 "prove"4 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(D)You"8 "got"16 "a" "fast"8 "(A)" "car"4 \skip4 |
+    "(F#)I"8 "want"16 "a" "tick-" "-et"8 "(E)to"16 "an-" "-y-" "-where"8 \skip4 |
+    "(D)May-"16 "-be" "we"8 "make"16 "a" "(A)deal"4 \skip4. |
+    "(F#)may-"16 "be"8 "to-"16 "-ge-" "-ther" "(E)we" "can" "get"8 "some-" "-where" \skip8 |
+    "(D)a-"16 "-ny" "place"8 "is" "(A)bet-"16 "-ter" \skip2 |
+    "(F#)start-"16 "-ing" "from"8 "ze-"16 "-ro" "(E)got"8 "no-"16 "-thing" "to"8 "lose" \skip8 |
+    "(D)may-"16 "-be" "we'll"8 "make" "(A)some-" "-thing"4 \skip4 |
+    "(F#)me"8 "my-" "-self"16 "I" "(E)got"8 "no-"16 "-thing" "to"8 "prove"4 |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
 \mymark "Verse" #22
-    "You"8 "got"16 "a" "fast"8 \skip8 "car"4 \skip4 |
-    "I"8 "got"16 "a" "plan"8 "to" "get"16 "us" "out" "of" "here"8 \skip8 |
-    "I"16 "been" "work-" "-ing" "at" "the" "con-" "-ve-"8 "-nience" "store" \skip8. |
-    "ma-"16 "-naged" "to" "save"8 "just"16 "a" "lit-" "-tle" "bit" "of" "mo-" "-ney"4 |
-    "won't"8 "have"16 "to" "drive"8 "too" "far"4 \skip4 |
-    "just"8 "'cross"16 "the" "bor-" "-der" "and"8 "in-"16 "-to" "the"8 "ci-" "-ty" |
-    "you"8. "and"16 "I"8. "can"16 "both"8 "get" "jobs"4 |
-    "and"16 "fi-" "-nal-" "-ly" "see"8 "what"16 "it" "means" "to" "be"8 "li-" "-ving" |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip2. \skip16 "you"16 "see"8 |
+    "(D)You"8 "got"16 "a" "fast"8 "(A)" "car"4 \skip4 |
+    "(F#)I"8 "got"16 "a" "plan"8 "(E)to" "get"16 "us" "out" "of" "here"8 \skip8 |
+    "(D)I"16 "been" "work-" "-ing" "at" "the" "(A)con-" "-ve-"8 "-nience" "store" \skip8. |
+    "(F#)ma-"16 "-naged" "to" "save"8 "just"16 "a" "(E)lit-" "-tle" "bit" "of" "mo-" "-ney"4 |
+    "(D)won't"8 "have"16 "to" "drive"8 "(A)too" "far"4 \skip4 |
+    "(F#)just"8 "'cross"16 "the" "bor-" "-der" "(E)and"8 "in-"16 "-to" "the"8 "ci-" "-ty" |
+    "(D)you"8. "and"16 "I"8. "(A)can"16 "both"8 "get" "jobs"4 |
+    "(F#)and"16 "fi-" "-nal-" "-ly" "see"8 "(E)what"16 "it" "means" "to" "be"8 "li-" "-ving" |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip16 "you"16 "see"8 |
 \mymark "Verse" #34
-    "my"16 "old" "man's"8 "got"16 "a" "pro-"8 "-blem" \skip4. |
-    "he"8 "live" "with"16 "the" "bot-" "-tle" "that's" "the" "way" "it" "is"4 |
-    "bo-"16 "-dy's" "too"8 "old" "for" "work-" "-ing" \skip4 |
-    "bo-"16 "-dy's"8 "too" "young" "to"16 "look"8 "like" "this"4 |
-    "ma-"16 "-ma" "went"8 "off" "and" "left" "him" \skip8. "she"16 |
-    "want-"16 "-ed" "more"8 "from" "life" "than"16 "he"8 "could"16 "give"8 "I"16 "said" |
-    "some-"16 "-bo-" "-dy's"8 "got" "to"16 "take" "care"8 "of" "him"4 |
-    "I"8 "quit" "school" "and" "that's" "what"16 "I" "did"4 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(D)my"16 "old" "man's"8 "got"16 "a" "(A)pro-"8 "-blem" \skip4. |
+    "(F#)he"8 "live" "with"16 "the" "(E)bot-" "-tle" "that's" "the" "way" "it" "is"4 |
+    "(D)bo-"16 "-dy's" "too"8 "old" "(A)for" "work-" "-ing" \skip4 |
+    "(F#)bo-"16 "-dy's"8 "too" "young" "(E)to"16 "look"8 "like" "this"4 |
+    "(D)ma-"16 "-ma" "went"8 "off" "(A)and" "left" "him" \skip8. "she"16 |
+    "(F#)want-"16 "-ed" "more"8 "from" "(E)life" "than"16 "he"8 "could"16 "give"8 "I"16 "said" |
+    "(D)some-"16 "-bo-" "-dy's"8 "got" "(A)to"16 "take" "care"8 "of" "him"4 |
+    "(F#)I"8 "quit" "school" "(E)and" "that's" "what"16 "I" "did"4 |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
 \mymark "Verse" #46
-    "you"8 "got"16 "a" "fast"8 \skip8 "car"4 \skip16 "but"16 "is" "it" |
-    "fast"8 "e-"16 "-nough"8 "so"16 "we" "can" "fly"8 "a-" "-way"4 |
-    "we"8 "got"16 "to" "make"8 "a"16 "de-" "-ci-" "-sion"8. \skip4 |
-    "leave"8 "to-"16 "-night"8 "or"16 "live" "and" "die"8 "this" "way"4 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip4 \skip16 "'cause"16 "I" "re-" "-mem-"8 "-ber"16 "when" "we" "were"8. |
+    "(D)you"8 "got"16 "a" "fast"8 "(A)" "car"4 \skip16 "but"16 "is" "it" |
+    "(F#)fast"8 "e-"16 "-nough"8 "so"16 "(E)we" "can" "fly"8 "a-" "-way"4 |
+    "(D)we"8 "got"16 "to" "make"8 "(A)a"16 "de-" "-ci-" "-sion"8. \skip4 |
+    "(F#)leave"8 "to-"16 "-night"8 "or"16 "(E)live" "and" "die"8 "this" "way"4 |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
+    "(D)"4. "(F#)" \skip4 |
+    "(F#)"4 \skip16 "'cause"16 "I" "re-" "-mem-"8 "-ber"16 "when" "we" "were"8. |
 \mymark "Chorus" #54
-    "dri-"8 "-ving" \skip8 "dri-"16 "-ving" "in" "your"8 "car" \skip8 "the"16 |
-    "speed"8 "so"16 "fast"8 "I"16 "felt" "like"8 "I" "was"16 "drunk"4 |
-    \skip8 "ci-"16 "-ty" "lights"8 "lay" "out" "be-"16 "-fore"8 "us"16 "and" "your" |
-    "arm"8 "felt" "nice" "wrapped" "'round" "my" "shoul-"16 "-der" "and"8 |
-    "I"4 \skip8 "I"8 \skip4. "had"16 "a" |
-    "feel-"8 "-ing" "that" "I"8. "be-"16 "-longed"4 \skip8 |
-    "I"4 \skip8 "I"8 \skip4. "had"16 "a" |
-    "feel-"8 "-ing" "I"8. "could"16 "be"8 "some-"16 "-one"4 \skip16 |
-    "be"8 "some-"16 "-one"4 \skip16 "be"8 "some-"16 "-one"4 \skip16 |
+    "(D)dri-"8 "-ving" \skip8 "dri-"16 "-ving" "in" "your"8 "car" \skip8 "the"16 |
+    "(A)speed"8 "so"16 "fast"8 "I"16 "felt" "like"8 "I" "was"16 "drunk"4 |
+    "(F#)"8 "ci-"16 "-ty" "lights"8 "lay" "out" "be-"16 "-fore"8 "us"16 "and" "your" |
+    "(E)arm"8 "felt" "nice" "wrapped" "'round" "my" "shoul-"16 "-der" "and"8 |
+    "(D)I"4 \skip8 "(F#)I"8 \skip4. "had"16 "a" |
+    "(E)feel-"8 "-ing" "that" "I"8. "be-"16 "-longed"4 \skip8 |
+    "(D)I"4 \skip8 "(F#)I"8 \skip4. "had"16 "a" |
+    "(E)feel-"8 "-ing" "I"8. "could"16 "be"8 "some-"16 "-one"4 \skip16 |
+    "(D)be"8 "some-"16 "-one"4 "(E)"16 "be"8 "some-"16 "-one"4 \skip16 |
 \mymark "Interlude" #63
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
 \mymark "Verse" #67
-    "You"8 "got"16 "a" "fast"8 \skip8 "car"4 \skip4 |
-    "we"16 "go"8 "cruis-"16 "-ing" "to" "en-" "-ter-" "-tain" "our-"8 "-selves" \skip8 "you"16 |
-    "still"8 "ain't" "got"16 "a" "job"4 \skip4 "and"16 "I" |
-    "work"8 "in"16 "a" "mar-" "-ket" "as" "a" "check-"8 "-out" "girl"4 |
-    "I"16 "know"8 "things" "will"16 "get"8 "bet-"16 "-ter"8 \skip4 \skip16 |
-    "you'll"8 "find" "work" "and"16 "I'll"8 "get" "pro-"16 "-mot-" "-ed"8 \skip16 |
-    "we'll"8 "move" "out" "of"16 "the" "shel-"8 "-ter" \skip4 |
-    "buy"16 "a" "big"8 "house" "and" "live" "in"16 "the" "sub-"8 "-urbs" |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip4 \skip16 "'cause"16 "I" "re-" "-mem-"8 "-ber"16 "when" "we" "were"8. |
+    "(D)You"8 "got"16 "a" "fast"8 "(A)" "car"4 \skip4 |
+    "(F#)we"16 "go"8 "cruis-"16 "-ing" "to" "(E)en-" "-ter-" "-tain" "our-"8 "-selves" \skip8 "you"16 |
+    "(D)still"8 "ain't" "got"16 "a" "(A)job"4 \skip4 "and"16 "I" |
+    "(F#)work"8 "in"16 "a" "mar-" "-ket" "(E)as" "a" "check-"8 "-out" "girl"4 |
+    "(D)I"16 "know"8 "things" "will"16 "(A)get"8 "bet-"16 "-ter"8 \skip4 \skip16 |
+    "(F#)you'll"8 "find" "work" "and"16 "(E)I'll"8 "get" "pro-"16 "-mot-" "-ed"8 \skip16 |
+    "(D)we'll"8 "move" "out" "(A)of"16 "the" "shel-"8 "-ter" \skip4 |
+    "(F#)buy"16 "a" "big"8 "house" "(E)and" "live" "in"16 "the" "sub-"8 "-urbs" |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4 \skip16 "'cause"16 "I" "re-" "-mem-"8 "-ber"16 "when" "we" "were"8. |
 \mymark "Chorus" #79
-    "dri-"8 "-ving" \skip8 "dri-"16 "-ving" "in" "your"8 "car" \skip8 "the"16 |
-    "speed"8 "so"16 "fast"8 "I"16 "felt" "like"8 "I" "was"16 "drunk"4 |
-    \skip8 "ci-"16 "-ty" "lights"8 "lay" "out" "be-"16 "-fore"8 "us"16 "and" "your" |
-    "arm"8 "felt" "nice" "wrapped" "'round" "my" "shoul-"16 "-der" "and"8 |
-    "I"4 \skip8 "I"8 \skip4. "had"16 "a" |
-    "feel-"8 "-ing" "that" "I"8. "be-"16 "-longed"4 \skip8 |
-    "I"4 \skip8 "I"8 \skip4. "had"16 "a" |
-    "feel-"8 "-ing" "I"8. "could"16 "be"8 "some-"16 "-one"4 \skip16 |
-    "be"8 "some-"16 "-one"4 \skip16 "be"8 "some-"16 "-one"4 \skip16 |
+    "(D)dri-"8 "-ving" \skip8 "dri-"16 "-ving" "in" "your"8 "car" \skip8 "the"16 |
+    "(A)speed"8 "so"16 "fast"8 "I"16 "felt" "like"8 "I" "was"16 "drunk"4 |
+    "(F#)"8 "ci-"16 "-ty" "lights"8 "lay" "out" "be-"16 "-fore"8 "us"16 "and" "your" |
+    "(E)arm"8 "felt" "nice" "wrapped" "'round" "my" "shoul-"16 "-der" "and"8 |
+    "(D)I"4 \skip8 "(F#)I"8 \skip4. "had"16 "a" |
+    "(E)feel-"8 "-ing" "that" "I"8. "be-"16 "-longed"4 \skip8 |
+    "(D)I"4 \skip8 "(F#)I"8 \skip4. "had"16 "a" |
+    "(E)feel-"8 "-ing" "I"8. "could"16 "be"8 "some-"16 "-one"4 \skip16 |
+    "(E)be"8 "some-"16 "-one"4 "(F#)"16 "be"8 "some-"16 "-one"4 \skip16 |
 \mymark "Interlude" #88
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(D)"4. "(F#)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
 \mymark "Verse" #92
-    "You"8 "got"16 "a" "fast"8 \skip8 "car"4 \skip4 |
-    "I"8 "got"16 "a" "job"8 "that" "pays" "all"16 "our" "bills"8. "you"16 |
-    "stay"8 "out" "drink-"16 "-ing" "late" "at" "the" "bar" \skip4 "see"8 |
-    "more"16 "of" "your" "friends"8 "than"16 "you" "do" "of" "your" "kids"8 \skip4 |
-    "I'd"16 "al-" "-ways" "hoped"8 "will"16 "for"8 "bet-"16 "-ter"8 \skip4 \skip16 |
-    "may-"16 "-be" "to-"8 "-ge-"16 "-ther"8 "you"16 "and" "me'd"8 "find" "it" "I"16 |
-    "got"8 "no" "plans" "ain't"16 "go-" "-ing" "no-" "-where"8 \skip4 |
-    "take"16 "your" "fast"8 "car" "and" "keep" "on" "driv-" "-ing" |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip4 \skip16 "'cause"16 "I" "re-" "-mem-"8 "-ber"16 "when" "we" "were"8. |
+    "(D)You"8 "got"16 "a" "fast"8 "(A)" "car"4 \skip4 |
+    "(F#)I"8 "got"16 "a" "job"8 "(E)that" "pays" "all"16 "our" "bills"8. "you"16 |
+    "(D)stay"8 "out" "drink-"16 "-ing" "(A)late" "at" "the" "bar" \skip4 "see"8 |
+    "(F#)more"16 "of" "your" "friends"8 "than"16 "you" "(E)do" "of" "your" "kids"8 \skip4 |
+    "(D)I'd"16 "al-" "-ways" "hoped"8 "will"16 "(A)for"8 "bet-"16 "-ter"8 \skip4 \skip16 |
+    "(F#)may-"16 "-be" "to-"8 "-ge-"16 "-ther"8 "(E)you"16 "and" "me'd"8 "find" "it" "I"16 |
+    "(D)got"8 "no" "plans" "(A)ain't"16 "go-" "-ing" "no-" "-where"8 \skip4 |
+    "(F#)take"16 "your" "fast"8 "car" "(E)and" "keep" "on" "driv-" "-ing" |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4 \skip16 "'cause"16 "I" "re-" "-mem-"8 "-ber"16 "when" "we" "were"8. |
 \mymark "Chorus" #104
-    "dri-"8 "-ving" \skip8 "dri-"16 "-ving" "in" "your"8 "car" \skip8 "the"16 |
-    "speed"8 "so"16 "fast"8 "I"16 "felt" "like"8 "I" "was"16 "drunk"4 |
-    \skip8 "ci-"16 "-ty" "lights"8 "lay" "out" "be-"16 "-fore"8 "us"16 "and" "your" |
-    "arm"8 "felt" "nice" "wrapped" "'round" "my" "shoul-"16 "-der" "and"8 |
-    "I"4 \skip8 "I"8 \skip4. "had"16 "a" |
-    "feel-"8 "-ing" "that" "I"8. "be-"16 "-longed"4 \skip8 |
-    "I"4 \skip8 "I"8 \skip4. "had"16 "a" |
-    "feel-"8 "-ing" "I"8. "could"16 "be"8 "some-"16 "-one"4 \skip16 |
-    "be"8 "some-"16 "-one"4 \skip16 "be"8 "some-"16 "-one"4 \skip16 |
+    "(D)dri-"8 "-ving" \skip8 "dri-"16 "-ving" "in" "your"8 "car" \skip8 "the"16 |
+    "(A)speed"8 "so"16 "fast"8 "I"16 "felt" "like"8 "I" "was"16 "drunk"4 |
+    "(F#)"8 "ci-"16 "-ty" "lights"8 "lay" "out" "be-"16 "-fore"8 "us"16 "and" "your" |
+    "(E)arm"8 "felt" "nice" "wrapped" "'round" "my" "shoul-"16 "-der" "and"8 |
+    "(D)I"4 \skip8 "(F#)I"8 \skip4. "had"16 "a" |
+    "(E)feel-"8 "-ing" "that" "I"8. "be-"16 "-longed"4 \skip8 |
+    "(D)I"4 \skip8 "(F#)I"8 \skip4. "had"16 "a" |
+    "(E)feel-"8 "-ing" "I"8. "could"16 "be"8 "some-"16 "-one"4 \skip16 |
+    "(D)be"8 "some-"16 "-one"4 "(E)"16 "be"8 "some-"16 "-one"4 \skip16 |
 \mymark "Interlude" #113
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
 \mymark "Verse" #117
-    "you"8 "got"16 "a" "fast"8 \skip8 "car"4 \skip8 "is"16 "it" |
-    "fast"8 "e-"16 "-nough"8 "so"16 "you" "can" "fly"8 "a-" "-way"4 |
-    "you"8 "got"16 "to" "make"8 "a"16 "de-" "-ci-" "-sion"8. \skip4 |
-    "leave"8 "to-"16 "-night"8 "or"16 "live" "and" "die"8 "this" "way"4 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(D)you"8 "got"16 "a" "fast"8 "(A)" "car"4 \skip8 "is"16 "it" |
+    "(F#)fast"8 "e-"16 "-nough"8 "so"16 "(E)you" "can" "fly"8 "a-" "-way"4 |
+    "(D)you"8 "got"16 "to" "make"8 "(A)a"16 "de-" "-ci-" "-sion"8. \skip4 |
+    "(F#)leave"8 "to-"16 "-night"8 "or"16 "(E)live" "and" "die"8 "this" "way"4 |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
+    "(D)"4. "(A)" \skip4 |
+    "(F#)"4. "(E)" \skip4 |
+    "(D)"4. "(A)" \skip4 |
     \skip1 |
 }
