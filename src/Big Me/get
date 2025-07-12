@@ -3,7 +3,7 @@ WHERE="application_guitar_pro5-37697380.gp5"
 set -e
 rm -f generated-*
 VLYRICS=`cat vocaloid_lyrics`
-java -jar ../../guitarproToLy/1.jar <"$WHERE" \
+java -jar ../../guitarproToLy/1.jar < song.gp5 \
 add-lyrics vocaloid 0 1 "$VLYRICS" \
 modified-filename drs \
 track 0 \
@@ -11,7 +11,7 @@ track 0 \
     output-lilypond \
     output-dotext \
     output-lyrics \
-    which-lyrics 0 \
+    which-lyrics text \
     output-karaoke \
 track 0 \
     preset vocaloid \
@@ -34,7 +34,7 @@ track 1 \
     preset midiOne \
     output-lilypond \
     output-dotext \
-track 3 \
+track 4 \
     preset gg \
     output-drums \
 2>&1|tee log

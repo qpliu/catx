@@ -3,7 +3,7 @@
 # https://d12drcwhcokzqv.cloudfront.net/41053055.gp5
 java -jar ../../guitarproToLy/1.jar < song.gp5 \
 markup-extra 0 '\key d \major' \
-track 0 preset kav output-lilypond output-lyrics which-lyrics 0 layout-extra '\clef "treble_8"' \
+track 0 preset kav output-lilypond output-lyrics which-lyrics text layout-extra '\clef "treble_8"' \
 track 1 preset midiOne output-lilypond \
 track 2 preset midiTwo output-lilypond \
 track 3 preset bass output-lilypond \

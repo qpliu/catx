@@ -1,80 +1,80 @@
 vocalsLyrics = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Intro" #1
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip2 \skip8 "When"8 "I"4 |
+    "(C)"1 |
+    "(A)"1 |
+    "(G)"1 |
+    "(F)"1 |
+    "(C)"1 |
+    "(A)"1 |
+    "(G)"1 |
+    "(F)"2 \skip8 "When"8 "I"4 |
 \mymark "Verse 1" #9
-    "talk"8 "a"4 -- "bout" "it,"8 \skip4 |
-    "car"8 -- "ries"4 "on,"4. \skip4 |
-    "rea"8 -- "sons"4 "on" -- "ly" "new."8 |
-    \skip4 \skip4. "When"8 "I"4 |
-    "talk"8 "a"4 -- "bout" "it,"8 \skip4 |
-    "A"8 -- "ries"4 "or"4. \skip4 |
-    "trea"8 -- "sons"4 "all" "re" -- "new."8 |
-    \skip4 \skip2. |
+    "(C)talk"8 "a-" \skip8 "-bout"8 \skip8 "it"8 \skip4 |
+    "(A)car-"8 "-ried" "on" \skip2 \skip8 |
+    "(G)rea-"8 "-sons" \skip8 "on-"8 \skip8 "-ly"8 \skip8 "new"8 |
+    "(F)"4 \skip4. "When"8 "I"4 |
+    "(C)talk"8 "a-" \skip8 "-bout"8 \skip8 "it"8 \skip4 |
+    "(A)A-"8 "-ries" \skip8 "or"8 \skip2 |
+    "(G)trea-"8 "-sons" \skip8 "all"8 \skip8 "re-"8 \skip8 "-new"8 |
+    "(F)"4 \skip2. |
 \mymark "Pre-Chorus" #17
-    \skip4 "Big"4 "me"4. "to"8 |
-    "talk"8 "a"4 -- "bout" "it,"8 \skip4 |
-    "I"8 "could"4 "stand"4. "to"8 "prove." |
-    \skip4 \skip2. |
-    \skip4 "If"4 "we"4. "can"8 |
-    "get"8 "a"4 -- "round" "it,"8 \skip4 |
-    "I"8 "know"4 "that"4. "it's"8 "true." |
-    \skip4 \skip4. "Well,"8 "I"4 |
+    "(E)"4 "Big" "me" \skip8 "to"8 |
+    "(F)talk"8 "a-" \skip8 "-bout"8 \skip8 "it"8 \skip4 |
+    "(C)I"8 "could" \skip8 "stand"8 \skip4 "to"8 "prove" |
+    "(C)"4 \skip2. |
+    "(E)"4 "If" "we" \skip8 "can"8 |
+    "(F)get"8 "a-" \skip8 "-roud"8 \skip8 "it"8 \skip4 |
+    "(F)I"8 "know" \skip8 "that"8 \skip4 "it's"8 "true" |
+    "(G)"4 \skip4. "Well"8 "I"4 |
 \mymark "Chorus" #25
-    "talked"8 "a"4 -- "bout" "it,"8 \skip4 |
-    "car"8 -- "ried"4 "on,"4. \skip4 |
-    "rea"8 -- "sons"4 "on" -- "ly" "new."8 |
-    \skip4 \skip4. "But"8 "it's" "you" |
-    \skip4 \skip2. |
-    \skip8 "I"4 "fell" "in" -- "to."8 |
-    \skip4 \skip2. |
-    \skip2 \skip8 "When"8 "I"4 |
+    "(C)talked"8 "a-" \skip8 "-bout"8 \skip8 "it"8 \skip4 |
+    "(A)car-"8 "-ried" \skip8 "on"8 \skip2 |
+    "(F)rea-"8 "-sons" \skip8 "on-"8 \skip8 "-ly"8 \skip8 "new"8 |
+    "(G)"4 \skip4. "But"8 "it's" "you" |
+    "(C)"4 \skip2. |
+    "(G)"8 "I" \skip8 "fell"8 "(F)" "in-" \skip8 "-to"8 |
+    "(C)"4 \skip2. |
+    "(G)"2 \skip8 "Well"8 "I"4 |
 \mymark "Verse 2" #33
-    "talked"8 "a"4 -- "bout" "it,"8 \skip4 |
-    "car"8 -- "ries"4 "on,"4. \skip4 |
-    "rea"8 -- "sons"4 "on" -- "ly" "new."8 |
-    \skip4 \skip4. "When"8 "I"4 |
-    "talked"8 "a"4 -- "bout" "it,"8 \skip4 |
-    "A"8 -- "ries"4 "or"4. \skip4 |
-    "trea"8 -- "sons"4 "all" "re" -- "new."8 |
-    \skip4 \skip2. |
+    "(C)talked"8 "a-" \skip8 "-bout"8 \skip8 "it"8 \skip4 |
+    "(A)car-"8 "-ries" \skip8 "on"8 \skip2 |
+    "(G)rea-"8 "-sons" \skip8 "on-"8 \skip8 "-ly"8 \skip8 "new"8 |
+    "(F)"4 \skip4. "When"8 "I"4 |
+    "(C)talk"8 "a-" \skip8 "-bout"8 \skip8 "it"8 \skip4 |
+    "(A)A-"8 "-ries" \skip8 "or"8 \skip2 |
+    "(G)trea-"8 "-sons" \skip8 "all"8 \skip8 "re-"8 \skip8 "-new"8 |
+    "(F)"4 \skip2. |
 \mymark "Pre-Chorus" #41
-    \skip4 "Big"4 "me"4. "to"8 |
-    "talk"8 "a"4 -- "bout" "it,"8 \skip4 |
-    "I"8 "could"4 "stand"4. "to"8 "prove." |
-    \skip4 \skip2. |
-    \skip4 "If"4 "we"4. "can"8 |
-    "get"8 "a"4 -- "round" "it,"8 \skip4 |
-    "I"8 "know"4 "that"4. "it's"8 "true." |
-    \skip4 \skip4. "Well,"8 "I"4 |
+    "(E)"4 "Big" "me" \skip8 "to"8 |
+    "(F)talk"8 "a-" \skip8 "-bout"8 \skip8 "it"8 \skip4 |
+    "(C)I"8 "could" \skip8 "stand"8 \skip4 "to"8 "prove" |
+    "(C)"4 \skip2. |
+    "(E)"4 "If" "we" \skip8 "can"8 |
+    "(F)get"8 "a-" \skip8 "-round"8 \skip8 "it"8 \skip4 |
+    "(F)I"8 "know" \skip8 "that"8 \skip4 "it's"8 "true" |
+    "(G)"4 \skip4. "Well"8 "I"4 |
 \mymark "Chorus" #49
-    "talked"8 "a"4 -- "bout" "it."8 \skip4 |
-    "Put"8 "it"4 "on."4. \skip4 |
-    "Ne"8 -- "ver"4 "was" "it" "true."8 |
-    \skip4 \skip4. "But"8 "it's" "you" |
-    \skip4 \skip2. |
-    \skip8 "I"4 "fell" "in" -- "to."8 |
-    \skip4 \skip2. |
-    \skip2 \skip8 "Well,"8 "I"4 |
+    "(C)talked"8 "a-" \skip8 "-bout"8 \skip8 "it"8 \skip4 |
+    "(A)put"8 "it" \skip8 "on"8 \skip2 |
+    "(G)Ne-"8 "-ver" \skip8 "was"8 \skip8 "it"8 \skip8 "true"8 |
+    "(F)"4 \skip4. "But"8 "it's" "you" |
+    "(C)"4 \skip2. |
+    "(G)"8 "I" \skip8 "fell"8 "(F)" "in-" \skip8 "-to"8 |
+    "(C)"4 \skip2. |
+    "(G)"2 \skip8 "Well"8 "I"4 |
 \mymark "Outro-Chorus" #57
-    "talked"8 "a"4 -- "bout" "it."8 \skip4 |
-    "Put"8 "it"4 "on."4. \skip4 |
-    "Ne"8 -- "ver"4 "was" "it" "true."8 |
-    \skip4 \skip4. "But"8 "it's" "you" |
-    \skip4 \skip2. |
-    \skip8 "I"4 "fell" "in" -- "to."8 |
-    \skip4 \skip2. |
-    \skip8 "I"4 "fell" "in" -- "to."8 |
-    \skip4 \skip2. |
-    \skip8 "I"4 "fell" "in"4. -- |
-    \skip4 "to."4 \skip2 |
+    "(C)talked"8 "a-" \skip8 "-bout"8 \skip8 "it"8 \skip4 |
+    "(A)car-"8 "-ries" \skip8 "on"8 \skip2 |
+    "(G)rea-"8 "-sons" \skip8 "on-"8 \skip8 "-ly"8 \skip8 "new"8 |
+    "(F)"4 \skip4. "But"8 "it's" "you" |
+    "(C)"4 \skip2. |
+    "(G)"8 "I" \skip8 "fell"8 "(F)" "in-" \skip8 "-to"8 |
+    "(C)"4 \skip2. |
+    "(G)"8 "I" \skip8 "fell"8 "(F)" "in-" \skip8 "-to"8 |
+    "(C)"4 \skip2. |
+    "(G)"8 "I" \skip8 "fell"8 "(F)" "in-" \skip4 |
+    "(C)"4 "-to" \skip2 |
     \skip1 |
     \skip1 |
 }

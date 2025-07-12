@@ -1,135 +1,135 @@
 vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Intro" #1
-    ">@|!mark=Intro|!check=1"2 "@"
-    "@|!check=2"2 "@"
-    "@|!check=3"2 "@"
-    "@|!check=4"2 "@"
-    "@|!check=5"2 "@"
-    "@|!check=6"2 "@"
-    "@|!check=7"2 "@"
-    "@|!check=8"2 "@"
-    "@|!check=9"2 "@"
-    "@|!check=10"2 "@"
-    "@|!check=11"2 "@"
-    "@|!check=12"2 "@"
-    "@|!check=13"2 "@"
-    "@|!check=14"2 "@"
-    "@|!check=15"2 "@"
-    "@|!check=16"2 "@"
-    "@|!check=17"2 "@"
-    "@|!check=18"2 "@"
-    "@|!check=19"2 "@"
-    "@|!check=20"2 "@"
-    "@|!check=21"2 "@"
-    "@|!check=22"2 "@"
-    "@|!check=23"2 "@"
-    "@|!check=24"2 "@"
-    "@|!check=25"2 "@"
-    "@|!check=26"2 "@"
-    "@|!check=27"2 "@"
-    "@|!check=28"2 "@"
-    "@|!check=29"2 "@"
-    "@|!check=30"2 "@"
-    "@|!check=31"2 "@|!bg=4"
-    "@|!check=32|!bg=3"2 "@|!bg=2"
-    "@|!check=33|!bg=1"2 "Show|!bg="8 "me," "show" "me,"
+    "!mark=Intro|!check=1|-"1
+    ">(A)|!check=2"1
+    "(E)|!check=3"1
+    "(B)|!check=4"1
+    "(D)|!check=5"1
+    "(A)|!check=6"1
+    "(E)|!check=7"1
+    "(B)|!check=8"1
+    "(D)|!check=9"1
+    "(A)|!check=10"1
+    "(E)|!check=11"1
+    "(B)|!check=12"1
+    "(D)|!check=13"1
+    "(A)|!check=14"1
+    "(E)|!check=15"1
+    "(B)|!check=16"1
+    ">(D)|!check=17"1
+    "(A)|!check=18"1
+    "(E)|!check=19"1
+    "(B)|!check=20"1
+    "(D)|!check=21"1
+    "(A)|!check=22"1
+    "(E)|!check=23"1
+    "(B)|!check=24"1
+    "(D)|!check=25"1
+    "(A)|!check=26"1
+    "(E)|!check=27"1
+    "(B)|!check=28"1
+    "(D)|!check=29"1
+    "(A)|!check=30"1
+    "(E)|!check=31"1
+    ">(B)|!check=32"1
+    "(D)|!check=33"2 ">Show"8 "me" "show" "me"
 \mymark "Verse 1" #34
-    "show|!mark=Verse 1|!check=34"4 "me" "how" "you"8 "do"
-    "!check=35"8 "that"4 "trick."4. "-"8 ">The"
-    "one|!check=36"8 "that"4 "makes" "me" "scream,"8
-    "!check=37"4 "she" "said." "-"8 ">The"
-    "one|!check=38"8 "that"4 "makes" "me" "laugh,"8
-    "!check=39"4 "she"8 "said."4. "-"8 ">And"
-    "threw|!check=40"8 "her"4 "arms"4. "a"8 "-round"
-    "!check=41"8 "my"4 "neck."4. "-"4
-    ">Show|!check=42"4 "me" "how" "you"8 "do"
-    "!check=43"8 "it,"4 "-"4. ">and"8 "I"
-    "pro|!check=44"8 "-mise"4 "you"4. "I"4
-    "pro|!check=45"8 "-mise"4 "that" "I'll"8 "run" "a"
-    "-way|!check=46"4 "with"8 "you."2 "-"8
-    "!check=47|-"2 \skip8 ">I'll"8 "run" "a"
-    "-way|!check=48"4 "with"8 "you."2 "-"8
-    "!check=49|-"2 ">@"
+    "(A)show|!mark=Verse 1|!check=34"4 "me" "how" "you"8 "do"
+    "(E)|!check=35"8 "that"4 "trick"4. "-"8 ">the"
+    "(B)one|!check=36"8 "that"4 "makes" "me" "scream"8
+    "(D)|!check=37"4 "she" "said" "-"8 ">the"
+    "(A)one|!check=38"8 "that"4 "makes" "me" "laugh"8
+    "(E)|!check=39"4 "she"8 "said"4. "-"8 ">and"
+    "(B)threw|!check=40"8 "her"4 "arms"4. "a-"8 "-round"
+    "(D)|!check=41"8 "my"4 "neck"4. "-"4
+    ">(A)Show|!check=42"4 "me" "how" "you"8 "do"
+    "(E)|!check=43"8 "it"4 "-"4. "and"8 "I"
+    "(B)pro-|!check=44"8 "-mise"4 "you"4. ">I"4
+    "(D)pro-|!check=45"8 "-mise"4 "that" "I'll"8 "run" "a-"
+    "(A)-way|!check=46"4 "with"8 "you"2 "-"8
+    "(E)|!check=47"2 "-"8 ">I'll" "run" "a-"
+    "(B)-way|!check=48"4 "with"8 "you"2 "-"8
+    "(D)|!check=49"1
 \mymark "Interlude" #50
-    "@|!mark=Interlude|!check=50"2 "@"
-    "@|!check=51"2 "@"
-    "@|!check=52"2 "@"
-    "@|!check=53"2 "@"
-    "@|!check=54"2 "@"
-    "@|!check=55"2 "@"
-    "@|!check=56|!bg=4"2 "@|!bg=3"
-    "@|!check=57|!bg=2"2 "@|!bg=1"
+    "(A)|!mark=Interlude|!check=50"1
+    "(E)|!check=51"1
+    "(B)|!check=52"1
+    "(D)|!check=53"1
+    "(A)|!check=54"1
+    "(E)|!check=55"1
+    ">(B)|!check=56"1
+    "(D)|!check=57"1
 \mymark "Verse 2" #58
-    "Spin|!mark=Verse 2|!check=58|!bg="4 "-ning"8 "on"4 "that" "diz"8
-    "!check=59"8 "-zy"4 "edge."4. "-"8 ">Kissed"
-    "her|!check=60"8 "face"4 "and" "kissed" "her"8
-    "!check=61"4. "head." "-"8 ">Dreamed"
-    "!check=62"4 "of"8 "all"4 "the" "diffe"8
-    "!check=63"8 "-rent"4 "ways"2 "I"8
-    "had|!check=64"8 "to"4 "make" "her" "glow."8
-    "!check=65"4. "-"2 \skip8
-    ">Why|!check=66"4 "are"8 "you"4 "so" "far"8
-    "!check=67"8 "a"4 "-way?,"4. "she"8 "said."
-    "!check=68"4 ">Why" "won't" "you"
-    "e|!check=69"8 "-ver"4 "know" "that"8 "I'm" "in"
-    "love|!check=70"4. "with"4 "you?" "-"8
-    "!check=71|-"2 \skip8 ">That"8 "I'm" "in"
-    "love|!check=72"4 "with"8 "you?"2 "-"8
-    "!check=73|-"1
+    "(A)Spin-|!mark=Verse 2|!check=58"4 "-ning"8 "on"4 "that" "diz-"8
+    "(E)|!check=59"8 "-zy"4 "edge"4. "-"8 ">kissed"
+    "(B)her|!check=60"8 "face"4 "and" "kissed" "her"8
+    "(D)|!check=61"8 "-"4 ">head"4. "-"8 "dreamed"
+    "(A)|!check=62"4 "of"8 "all"4 "the" "dif-"8
+    "(E)|!check=63"8 "-ferent"4 "ways"2 ">I"8
+    "(B)had|!check=64"8 "to"4 "make" "her" "glow"8
+    "(D)|!check=65"4. "-"2 \skip8
+    ">(A)Why|!check=66"4 "are"8 "you"4 "so" "far"8
+    "(E)|!check=67"8 "a-"4 "-way"4. "she"8 "said"
+    "(B)|!check=68"4 ">Why" "won't" "you"
+    "(D)e-|!check=69"8 "-ver"4 "know" "that"8 ">I'm" "in"
+    "(A)love|!check=70"4. "with"4 "you" "-"8
+    "(E)|!check=71"2 "-"8 "that" "I'm" "in"
+    "(B)love|!check=72"4 "with"8 "you"2 "-"8
+    ">(D)|!check=73"1
 \mymark "Chorus" #74
-    ">You,|!mark=Chorus|!check=74"2. \skip8 "-"8
-    "!check=75|-"8 "soft"4 "and"8 "on"4 "-ly."
-    "You,|!check=76"2. \skip8 "-"8
-    "!check=77|-"8 "lost"4 "and"8 "lone"4 "-ly."
-    "You,|!check=78"2. \skip8 "-"8
-    "!check=79|-"8 ">strange"4 "as"8 "an"4 "-gels"
-    "dan|!check=80"8 "-cing"4 "in" "the" "deep"8
-    "!check=81"8 "-est"4 "o" "-ceans"4.
-    ">twis|!check=82"8 "-ting"4 "in" "the" "wa"8
-    "!check=83"8 "-ter." "You're"4 "just"8 "like" "a" "dream."
+    "(F#)You|!mark=Chorus|!check=74"8 "-"2. \skip8
+    ">(G)|!check=75"8 "soft"4 "and"8 "on-"4 "-ly"
+    "(F#)you|!check=76"8 "-"2. \skip8
+    ">(G)|!check=77"8 "lost"4 "and"8 "lone-"4 "-ly"
+    "(F#)You|!check=78"8 "-"2. \skip8
+    ">(G)|!check=79"8 "strange"4 "as"8 "an-"4 "-gels"
+    "(D)dan-|!check=80"8 "-cing"4 "in" "the" ">deep-"8
+    "(D)|!check=81"8 "-est"4 "o-" "-ceans"4.
+    ">(D)twist-|!check=82"8 "-ing"4 "in" "he" "wa-"8
+    "(D)|!check=83"8 "-ter" "you're"4 ">just"8 "like" "a" "dream"
 \mymark "Piano Solo" #84
-    "!mark=Piano Solo|!check=84"4 "-"2.
-    "!check=85|-"4 ">You're"8 "just"4 "like"8 "a"4
-    "dream.|!check=86"4. "-"2 \skip8
-    ">@|!check=87"2 "@"
-    "@|!check=88"2 "@"
-    "@|!check=89"2 "@"
-    "@|!check=90"2 "@"
-    "@|!check=91"2 "@"
-    "@|!check=92"2 "@"
-    "@|!check=93"2 "@"
-    "@|!check=94"2 "@"
-    "@|!check=95"2 "@"
-    "@|!check=96"2 "@"
-    "@|!check=97"2 "@"
-    "@|!check=98|!bg=4"2 "@|!bg=3"
-    "@|!check=99|!bg=2"2 "@|!bg=1"
+    "(A)|!mark=Piano Solo|!check=84"4 "-"2.
+    ">(E)|!check=85"4 "you're"8 "just"4 "like"8 "a"4
+    "(B)dream|!check=86"4. "-"2 \skip8
+    ">(D)|!check=87"1
+    "(A)|!check=88"1
+    "(E)|!check=89"1
+    "(B)|!check=90"1
+    "(D)|!check=91"1
+    "(A)|!check=92"1
+    "(E)|!check=93"1
+    "(B)|!check=94"1
+    "(D)|!check=95"1
+    "(A)|!check=96"1
+    "(E)|!check=97"1
+    "(B)|!check=98"1
+    "(D)|!check=99"1
 \mymark "Verse 3" #100
-    "Day|!mark=Verse 3|!check=100|!bg="8 "-light"4 "licked" "me" "in"8
-    "!check=101"8 "-to"4 "shape."4. "-"8 ">I"
-    "must|!check=102"8 "have"4 "been" "a" "-sleep"8
-    "!check=103"8 "for"4 "days."2 ">And"8
-    "mov|!check=104"8 "-ing"4 "lips"4. "to"8 "breathe"
-    "!check=105"8 "her"4 "name."2 ">I"8
-    "o|!check=106"8 "-pened"4 "up" "my" "eyes"8
-    "!check=107"2 "-"4. "and"8
-    "found|!check=108"4 "my" "-self" "a"8 "-lone,"
-    "!check=109"4 ">a"8 "-lone"4. "a"8 "-lone"
-    "!check=110"4 "a"8 "-bove"4 "a" "rag"8
-    "!check=111"8 "-ing"4 "sea"2 "that"8
-    "stole|!check=112"4 "the"8 "on"4 "-ly" "girl"8
-    "!check=113"8 ">I"4 "loved"4. "and"4
-    "drowned|!check=114"4 "her" "deep"8 "in"4 "-side"8
-    "!check=115"8 "of"4 "me."2 "-"8
+    ">(A)Day-|!mark=Verse 3|!check=100"8 "-light"4 "licked" "me" "in-"8
+    "(E)|!check=101"8 "-to"4 "shape"4. "-"8 ">I"
+    "(B)must|!check=102"8 "have"4 "been" "a-" "-sleep"8
+    "(D)|!check=103"8 "for"4 "days"2 ">and"8
+    "(A)mo-|!check=104"8 "-ving"4 "lips"4. "to"8 "breathe"
+    "(E)|!check=105"8 "her"4 "name"2 ">I"8
+    "(B)o-|!check=106"8 "-pened"4 "up" "my" "eyes"8
+    "(D)|!check=107"2 "-"4. ">and"8
+    "(A)found|!check=108"4 "my-" "-self" "a-"8 "-lone"
+    "(E)|!check=109"4 "a-"8 "-lone"4. ">a-"8 "-lone"
+    "(B)|!check=110"4 "a-"8 "-bove"4 "the" "ra-"8
+    "(D)|!check=111"8 "-ging"4 "sea"2 ">that"8
+    "(A)stole|!check=112"4 "the"8 "on-"4 "-ly" "girl"8
+    "(E)|!check=113"8 ">I"4 "loved"4. "and"4
+    "(B)drowned|!check=114"4 "her" "deep"8 "in-"4 "-side"8
+    "(D)|!check=115"8 "of"4 "me"2 "-"8
 \mymark "Chorus" #116
-    ">You,|!mark=Chorus|!check=116"2. \skip8 "-"8
-    "!check=117|-"8 "soft"4 "and"8 "on"4 "-ly."
-    "You,|!check=118"2. \skip8 "-"8
-    "!check=119|-"8 "lost"4 "and"8 "lone"4 "-ly."
-    "You,|!check=120"2. \skip8 "-"8
-    "!check=121|-"8 ">just"4 "like"8 "hea"4 "-ven."
-    "!check=122"1
+    "(F#)You|!mark=Chorus|!check=116"8 "-"2. \skip8
+    ">(G)|!check=117"8 "soft"4 "and"8 "on-"4 "-ly"
+    "(F#)You|!check=118"8 "-"2. \skip8
+    ">(G)|!check=119"8 "lost"4 "and"8 "lone-"4 "-ly"
+    "(F#)You|!check=120"8 "-"2. \skip8
+    ">(G)|!check=121"8 "just"4 "like"8 "hea-"4 "-ven"
+    "(D)|!check=122"1
     "!check=123|-"1
     "@@|!check=124"32 "-"2. \skip8. \skip32
     "!check=125|-"1

@@ -2,129 +2,129 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Intro" #1
     \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(D)"1 |
+    "(G)"1 |
+    "(D)"1 |
+    "(A)"1 |
+    "(B)"1 |
+    "(G)"1 |
+    "(D)"1 |
+    "(A)"1 |
+    "(D)"1 |
+    "(G)"1 |
+    "(D)"1 |
+    "(A)"1 |
+    "(B)"1 |
+    "(G)"1 |
+    "(D)"1 |
+    "(A)"1 |
 \mymark "Verse I" #18
-    "I"8 "don't"4 "care" "if" "Mon"8 -- |
-    \skip8 "day's"4 "blue"4. \skip4 |
-    "Tues"8 -- "day's"4 "grey" "and" "Wednes"8 -- |
-    \skip8 "day"4 "too"4. \skip4 |
-    "Thurs"4 -- "day," "I"8 "don't"4 "care"8 |
-    \skip8 "a"8 -- "bout" "you"4 "It's" "Fri"8 -- |
-    \skip8 "day,"4. "I'm"8 "in"4 "love"8 |
-    \skip2 \skip2 |
-    "Mon"8 -- "day"4 "you" "can" "fall"8 |
-    \skip8 "a"4 -- "part"4. \skip4 |
-    "Tues"8 -- "day,"4 "Wednes" -- "day" "break"8 |
-    \skip8 "my"4 "heart" "Oh," "Thurs"8 -- |
-    \skip8 "day"4. "does"8 -- "n't"4 "e"8 -- |
-    \skip8 "ven"4 "start" "It's" "Fri"8 -- |
-    \skip8 "day,"4. "I'm"8 "in"4 "love"8 |
-    \skip2 \skip2 |
+    "(D)I"8 "don't"4 "care" "if" "Mon-"8 |
+    "(G)"8 "day's"4 "blue"4. \skip4 |
+    "(D)Tues-"8 "day's"4 "grey" "and" "Wednes-"8 |
+    "(A)"8 "day"4 "too"4. \skip4 |
+    "(B)Thurs-"4 "-day" "I"8 "don't"4 "care"8 |
+    "(G)"8 "a-" "-bout" "you"4 "It's" "Fri-"8 |
+    "(D)"8 "-day"4. "I'm"8 "in"4 "love"8 |
+    "(A)"2 \skip2 |
+    "(D)Mon-"8 "-day"4 "you" "can" "fall"8 |
+    "(G)"8 "a-"4 "-part"4. \skip4 |
+    "(D)Tues-"8 "-day"4 "Wednes-" "-day" "break"8 |
+    "(A)"8 "my"4 "heart" "Oh" "Thurs-"8 |
+    "(B)"8 "-day"4. "does-"8 "-n't"4 "e-"8 |
+    "(G)"8 "-ven"4 "start" "It's" "Fri-"8 |
+    "(D)"8 "-day"4. "I'm"8 "in"4 "love"8 |
+    "(A)"2 \skip2 |
 \mymark "Chorus I" #34
-    "Sa"8 -- "tur" -- "day,"4. \skip4 "wait"8 |
-    \skip4 \skip2 \skip8 "And"8 |
-    "Sun"4 -- "day" "al"8 -- "ways"4 "comes"8 |
-    \skip8 "too"4 "late"4. \skip8 "But"8 |
-    "Fri"4 -- "day," "ne"8 -- "ver"4 "he"8 -- |
-    \skip8 "si"4 -- "tate"4. \skip4 |
+    "(G)Sa-"8 "-tur-" "-day"4. \skip4 "wait"8 |
+    "(A)"4 \skip2 \skip8 "And"8 |
+    "(B)Sun-"4 "-day" "al-"8 "-ways"4 "comes"8 |
+    "(G)"8 "too"4 "late"4. \skip8 "But"8 |
+    "(D)Fri-"4 "-day" "ne-"8 "-ver"4 "he-"8 |
+    "(A)"8 "-si-"4 "-tate"4. \skip4 |
 \mymark "Verse II" #40
-    "I"8 "don't"4 "care" "if" "Mon"8 -- |
-    \skip8 "day's"4 "black"4. \skip4 |
-    "Tues"8 -- "day,"4 "Wednes" -- "day," "heart"8 |
-    \skip8 "at"4 -- "tack"4. \skip4 |
-    "Thurs"4 -- "day," "ne"8 -- "ver"4 "look"8 -- |
-    \skip8 "ing"4 "back" "It's" "Fri"8 -- |
-    \skip8 "day,"4. "I'm"8 "in"4 "love"8 |
-    \skip2 \skip2 |
+    "(D)I"8 "don't"4 "care" "if" "Mon-"8 |
+    "(G)"8 "-day's"4 "black"4. \skip4 |
+    "(D)Tues-"8 "-day"4 "Wednes-" "-day" "heart"8 |
+    "(A)"8 "at-"4 "-tack"4. \skip4 |
+    "(B)Thurs-"4 "-day" "ne-"8 "-ver"4 "look-"8 |
+    "(G)"8 "-ing"8. \skip16 "back"4 "It's" "Fri-"8 |
+    "(D)"8 "-day"4. "I'm"8 "in"4 "love"8 |
+    "(A)"2 \skip2 |
 \mymark "Solo" #48
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(D)"1 |
+    "(G)"1 |
+    "(D)"1 |
+    "(A)"1 |
+    "(B)"1 |
+    "(G)"1 |
+    "(D)"1 |
+    "(A)"1 |
 \mymark "Verse III" #56
-    "Mon"8 -- "day"4 "you" "can" "hold"8 |
-    \skip8 "your"4 "head"4. \skip4 |
-    "Tues"4 -- "day," "Wednes"8 -- "day,"4 "stay"8 |
-    \skip8 "in"4 "bed" "Or" "Thurs"8 -- |
-    \skip8 "day"4. "watch"4 "the"8 "walls" |
-    \skip8 "in"4 -- "stead" "It's" "Fri"8 -- |
-    \skip8 "day,"4. "I'm"8 "in"4 "love"8 |
-    \skip4 \skip2. |
+    "(D)Mon-"8 "-day"4 "you" "can" "hold"8 |
+    "(G)"8 "your"4 "head"4. \skip4 |
+    "(D)Tues-"4 "-day" "Wednes-"8 "-day"4 "stay"8 |
+    "(A)"8 "in"4 "bed" "or" "Thurs-"8 |
+    "(B)"8 "-day"4. "watch"4 "the"8 "walls" |
+    "(G)"8 "in-"4 "-stead" "It's" "Fri-"8 |
+    "(D)"8 "-day"4. "I'm"8 "in"4 "love"8 |
+    "(A)"4 \skip2. |
 \mymark "Chorus II" #64
-    "Sa"8 -- "tur" -- "day,"4. \skip4 "wait"8 |
-    \skip4 \skip2 \skip8 "And"8 |
-    "Sun"4 -- "day" "al"8 -- "ways"4 "comes"8 |
-    \skip8 "too"4 "late"4. \skip8 "But"8 |
-    "Fri"4 -- "day," "ne"8 -- "ver"4 "he"8 -- |
-    \skip8 "si"4 -- "tate"4. \skip4 |
+    "(G)Sa-"8 "-tur-" "-day"4. \skip4 "wait"8 |
+    "(A)"4 \skip2 \skip8 "And"8 |
+    "(B)Sun-"4 "-day" "al-"8 "-ways"4 "comes"8 |
+    "(G)"8 "too"4 "late"4. \skip8 "But"8 |
+    "(D)Fri-"4 "-day" "ne-"8 "-ver"4 "he-"8 |
+    "(A)"8 "-si-"4 "-tate"4. \skip4 |
 \mymark "Bridge" #70
-    \skip4 "Dressed"4 "up"8 "to" "the" "eyes" |
-    \skip8 "It's"8 "a" "won" -- "der"16 -- \skip16 "ful"8 "sur" -- "prise" |
-    \skip8 \skip4 "To"8 "see" "your"4 "shoes"8 |
-    \skip8 "and"8 "your"4 "spi"8 -- "rits"4 "rise"8 |
-    \skip4 \skip4 "Throw"16 \skip16 "out"8 "your" "frown" |
-    \skip8 "And"8 "just"4 "smile"16 \skip16 "at"8 "the" "sound" |
-    \skip4 \skip4 "Sleek"8 "as" "a" "shriek," |
-    \skip8 "spin"8 -- "ning" "'round"4 "and" "'round"8 |
-    \skip4 "Al"8 -- "ways" "take" "a" "big" "bite" |
-    \skip8 "It's"8 "such" "a" "gor" -- "geous"4 "sight"8 |
-    \skip4 \skip8 "To"8 "see" "you"4 "eat"8 |
-    \skip8 "in"8 "the"4 "mid"16 -- "dle" "of"8 "the" "night" |
-    \skip4 "You"8 "can" "ne"16 -- "ver" "get"8 "e" -- "nough" |
-    \skip4 \skip8 "E"8 -- "nough" "of" "this"4 |
-    "stuff"4 "\"\"" "It's"8 "Fri"4 -- "day,"8 |
-    \skip8 "\"\""4 "I'm" "in"8 "love"4 |
+    "(B)"4 "Dressed" "up"8 "to" "the" "eyes" |
+    "(C)"8 "it's" "a" "won-" "-der-"16 \skip16 "-ful"8 "sur-" "-prise" |
+    "(D)"8 \skip4 "To"8 "see" "your"4 "shoes"8 |
+    "(A)"8 "and" "your"4 "spi-"8 "-rits"4 "rise"8 |
+    "(B)"4 \skip4 "Throw"16 \skip16 "out"8 "your" "frown" |
+    "(C)"8 "And" "just"4 "smile"16 \skip16 "at"8 "the" "sound" |
+    "(D)"4 \skip4 "Sleek"8 "as" "a" "shriek" |
+    "(A)"8 "spin-" "-ning" "'round"4 "and" "'round"8 |
+    "(B)"4 "Al-"8 "-ways" "take" "a" "big" "bite" |
+    "(C)"8 "it's" "such" "a" "gor-" "-geous"4 "sight"8 |
+    "(D)"4 \skip8 "To"8 "see" "you"4 "eat"8 |
+    "(A)"8 "in" "the"4 "mid-"16 "-dle" "of"8 "the" "night" |
+    "(B)"4 "You"8 "can" "ne-"16 "-ver" "get"8 "e-" "-nough" |
+    "(C)"4 \skip8 "E-"8 "-nough" "of" "this"4 |
+    "(D)stuff"4 "It's" "Fri-"8 "-day"4 "I'm"8 |
+    "(A)"8 "in"4 "love" \skip4. |
 \mymark "Verse IV" #86
-    "I"8 "don't"4 "care" "if" "Mon"8 -- |
-    \skip8 "day's"4 "blue"4. \skip4 |
-    "Tues"4 -- "day's" "grey"8 "and"4 "Wednes"8 -- |
-    \skip8 "day"4 "too" \skip4 "Thurs"8 -- |
-    \skip4 "day,"4 "I"8 "don't"4 "care"8 |
-    "a"8 -- "bout"4 "you" "It's" "Fri"8 -- |
-    \skip8 "day,"4. "I'm"8 "in"4 "love"8 |
-    \skip2 \skip2 |
-    "Mon"4 -- "day" "you"8 "can"4 "fall"8 |
-    \skip8 "a"8 -- "part"2 \skip4 |
-    "Tues"4 -- "day," "Wednes"8 -- "day,"4 "break"8 |
-    \skip8 "my"4 "heart"4. \skip4 |
-    "Thurs"4 -- "day" "does"8 -- "n't"4 "e"8 -- |
-    \skip8 "ven"4 "start" "It's" "Fri"8 -- |
-    \skip8 "day,"4. "I'm"8 "in"4 "love"8 |
-    \skip4. \skip2 \skip8 |
+    "(D)I"8 "don't"4 "care" "if" "Mon-"8 |
+    "(G)"8 "-day's"4 "blue"4. \skip4 |
+    "(D)Tues-"4 "-day's" "grey"8 "and"4 "Wednes-"8 |
+    "(A)"8 "-day"4 "too" \skip4 "Thurs-"8 |
+    "(B)"4 "-day" "I"8 "don't"4 "care"8 |
+    "(G)a-"8 "-bout"4 "you" "It's" "Fri-"8 |
+    "(D)"8 "-day"4. "I'm"8 "in"4 "love"8 |
+    "(A)"2 \skip2 |
+    "(D)Mon-"4 "-day" "you"8 "can"4 "fall"8 |
+    "(G)"8 "a-" "-part"2 \skip4 |
+    "(D)Tues-"4 "-day" "Wednes-"8 "-day"4 "break"8 |
+    "(A)"8 "my"4 "heart"4. \skip4 |
+    "(B)Thurs-"4 "-day" "does-"8 "-n't"4 "e-"8 |
+    "(G)"8 "-ven"4 "start" "It's" "Fri-"8 |
+    "(D)"8 "-day"4. "I'm"8 "in"4 "love"8 |
+    "(A)"4. \skip2 \skip8 |
 \mymark "Outro" #102
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(D)"1 |
+    "(G)"1 |
+    "(D)"1 |
+    "(A)"1 |
+    "(B)"1 |
+    "(G)"1 |
+    "(D)"1 |
+    "(A)"1 |
+    "(D)"1 |
+    "(G)"1 |
+    "(D)"1 |
+    "(A)"1 |
+    "(B)"1 |
+    "(G)"1 |
+    "(D)"1 |
+    "(A)"1 |
 }

@@ -4,7 +4,7 @@ set -e
 rm -f generated-*
 LYRICS=`cat lyrics`
 VLYRICS=`cat vocaloid_lyrics`
-java -jar ../../guitarproToLy/1.jar <"$WHERE" \
+java -jar ../../guitarproToLy/1.jar <"song.gp5" \
 modified-filename drs \
 markup-extra 0 '\key a \major' \
 add-lyrics lyrics 0 1 "$LYRICS" \
@@ -15,7 +15,7 @@ track 0 \
     output-lilypond \
     output-lyrics \
     output-karaoke \
-    which-lyrics lyrics \
+    which-lyrics text \
 track 0 \
     preset vocaloid \
     which-lyrics vocaloid \

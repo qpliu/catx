@@ -1,86 +1,86 @@
 vocalsLyrics = \new Lyrics \lyricmode {
     \myVocalsStuff
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip2 "I"8 "can" "see" "clear-" |
-    \skip4 "-ly"8 "now" \skip4 "the"8 "rain" |
-    \skip4 "is"8 "gone" \skip2 |
-    \skip1 |
-    \skip2 "I"8 "can" "see" "all" |
-    \skip4 "ob-"8 "-sta-" \skip8 "-cles"8 \skip4 |
-    "in"8 "my"4 "way"8 \skip2 |
-    \skip1 |
-    \skip2 "Gone"8 "are" "the" "dark" |
-    \skip4. "clouds"8 \skip4 "that"8 "had" |
-    \skip4 "me"8 "blind" \skip2 |
-    \skip2 \skip8 "Gon-"16 "-na" "be"8 "a" |
-    "bright"2 \skip4. "bright"8 |
-    \skip2 "sun-"8 "-shin-" "-y" "day" |
-    \skip1 |
-    \skip2 \skip8 "Gon-"16 "-na" "be"8 "a" |
-    "bright"2 \skip4. "bright"8 |
-    \skip2 "sun-"8 "-shin-" "-y" "day" |
-    \skip1 |
-    \skip1 |
-    \skip4. "Oh"8 "yes" "I" "can" "make" |
-    \skip4 "it"8 "now" \skip4 "the"8 "pain" |
-    \skip4 "is"8 "gone" \skip2 |
-    \skip1 |
-    \skip2 "All"8 "of" "the" "bad" |
-    \skip4. "feel-"8 \skip8 "-ings"8 "have"4 |
-    "dis-"8 "ap-" \skip8 "-peared"8 \skip2 |
-    \skip1 |
-    \skip2 "Here"8 "is" "that" "rain-" |
-    \skip8 "-bow"8 \skip8 "I've"8 \skip8 "been"8 \skip8 "pray-"8 |
-    \skip8 "-ing"4 "for"8 \skip2 |
-    \skip2 \skip8 "Gon-"16 "-na" "be"8 "a" |
-    "bright"2 \skip4. "bright"8 |
-    \skip2 "sun-"8 "-shin-" "-y" "day" |
-    \skip1 |
-    \skip1 |
-    \skip2 \skip8 "Look"8 "all" "a-" |
-    "-round"2 \skip2 |
-    \skip1 |
-    \skip1 |
-    \skip2 \skip16 "There's"16 "no-"8 "-thing" "but" |
-    "blue"2 \skip2 |
-    "skies"1 |
-    \skip2 "ah"2 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip2 "I"8 "can" "see" "clear-" |
-    \skip4 "-ly"8 "now" \skip4 "the"8 "rain" |
-    \skip4 "is"8 "gone" \skip2 |
-    \skip1 |
-    \skip2 "I"8 "can" "see" "all" |
-    \skip4 "ob-"8 "-sta-" \skip8 "-cles"8 \skip4 |
-    "in"8 "my"4 "way"8 \skip2 |
-    \skip1 |
-    \skip2 "Here"8 "is" "that" "rain-" |
-    \skip4 "-bow"8 "we've" \skip4 "been"8 "pray-" |
-    \skip4 "-ing"8 "for" \skip2 |
-    \skip2 \skip8 "Gon-"16 "-na" "be"8 "a" |
-    "bright"2 \skip4. "bright"8 |
-    \skip2 "sun-"8 "-shin-" "-y" "day" |
-    \skip1 |
-    \skip2 \skip8 "Gon-"16 "-na" "be"8 "a" |
-    "bright"2 \skip4. "bright"8 |
-    \skip2 "sun-"8 "-shin-" "-y" "day" |
-    \skip1 |
-    \skip2 \skip8 "Gon-"16 "-na" "be"8 "a" |
-    "bright"2 \skip4. "bright"8 |
-    \skip2 "sun-"8 "-shin-" "-y" "day" |
-    \skip1 |
-    \skip2 \skip8 "Gon-"16 "-na" "be"8 "a" |
-    "bright"2 \skip4. "bright"8 |
-    \skip2 "sun-"8 "-shin-" "-y" "day" |
-    \skip1 |
+    "(D)"1 |
+    "(D)"1 |
+    "(D)"1 |
+    "(D)"2 "I"8 "can" "see" "clear-" |
+    "(G)"4 "-ly"8 "now" \skip4 "the"8 "rain" |
+    "(D)"4 "is"8 "gone" \skip2 |
+    "(D)"1 |
+    "(D)"2 "I"8 "can" "see" "all" |
+    "(G)"4 "ob-"8 "-sta-" \skip8 "-cles"8 \skip4 |
+    "(A)in"8 "my"4 "way"8 \skip2 |
+    "(A)"1 |
+    "(D)"4 \skip4 "Gone"8 "are" "the" "dark" |
+    "(G)"4 \skip8 "clouds"8 \skip4 "that"8 "had" |
+    "(D)"4 "me"8 "blind" \skip2 |
+    "(D)"2 \skip8 "Gon-"16 "-na" "be"8 "a" |
+    "(C)bright"2 \skip4. "bright"8 |
+    "(G)"8 \skip4. "sun-"8 "-shin-" "-y" "day" |
+    "(D)"2 \skip2 |
+    "(D)"2 \skip8 "Gon-"16 "-na" "be"8 "a" |
+    "(C)bright"2 \skip4. "bright"8 |
+    "(G)"8 \skip4. "sun-"8 "-shin-" "-y" "day" |
+    "(D)"2 \skip2 |
+    "(D)"1 |
+    "(D)"4 \skip8 "Oh"8 "yes" "I" "can" "make" |
+    "(G)"4 "it"8 "now" \skip4 "the"8 "pain" |
+    "(D)"4 "is"8 "gone" \skip2 |
+    "(D)"1 |
+    "(D)"2 "All"8 "of" "the" "bad" |
+    "(G)"4 \skip8 "feel-"8 \skip8 "-ings"8 "have"4 |
+    "(A)dis-"8 "ap-" \skip8 "-peared"8 \skip2 |
+    "(A)"1 |
+    "(D)"2 "Here"8 "is" "that" "rain-" |
+    "(G)"8 "-bow" \skip8 "I've"8 \skip8 "been"8 \skip8 "pray-"8 |
+    "(D)"8 "-ing"4 "for"8 \skip2 |
+    "(D)"2 \skip8 "Gon-"16 "-na" "be"8 "a" |
+    "(C)bright"2 \skip4. "bright"8 |
+    "(G)"8 \skip4. "sun-"8 "-shin-" "-y" "day" |
+    "(D)"2 \skip2 |
+    "(D)"1 |
+    "(F)"2 \skip8 "Look"8 "all" "a-" |
+    "(F)-round"2 \skip2 |
+    "(C)"1 |
+    "(C)"16 \skip2. \skip8. |
+    "(F)"2 \skip16 "There's"16 "no-"8 "-thing" "but" |
+    "(F)blue"2 \skip2 |
+    "(A)skies"1 |
+    "(A)"2 "ah" |
+    "(C#)"1 |
+    "(G)"1 |
+    "(C#)"1 |
+    "(G)"1 |
+    "(C)"1 |
+    "(D)"1 |
+    "(A)"1 |
+    "(A)"1 |
+    "(D)"2 "I"8 "can" "see" "clear-" |
+    "(G)"4 "-ly"8 "now" \skip4 "the"8 "rain" |
+    "(D)"4 "is"8 "gone" \skip2 |
+    "(D)"1 |
+    "(D)"2 "I"8 "can" "see" "all" |
+    "(G)"4 "ob-"8 "-sta-" \skip8 "-cles"8 \skip4 |
+    "(A)in"8 "my"4 "way"8 \skip2 |
+    "(A)"1 |
+    "(D)"2 "Here"8 "is" "that" "rain-" |
+    "(G)"4 "-bow"8 "we've" \skip4 "been"8 "pray-" |
+    "(D)"4 "-ing"8 "for" \skip2 |
+    "(D)"2 \skip8 "Gon-"16 "-na" "be"8 "a" |
+    "(C)bright"2 \skip4. "bright"8 |
+    "(G)"8 \skip4. "sun-"8 "-shin-" "-y" "day" |
+    "(D)"2 \skip2 |
+    "(D)"2 \skip8 "Gon-"16 "-na" "be"8 "a" |
+    "(C)bright"2 \skip4. "bright"8 |
+    "(G)"8 \skip4. "sun-"8 "-shin-" "-y" "day" |
+    "(D)"2 \skip2 |
+    "(D)"2 \skip8 "Gon-"16 "-na" "be"8 "a" |
+    "(C)bright"2 \skip4. "bright"8 |
+    "(G)"8 \skip4. "sun-"8 "-shin-" "-y" "day" |
+    "(D)"2 \skip2 |
+    "(D)"2 \skip8 "Gon-"16 "-na" "be"8 "a" |
+    "(C)bright"2 \skip4. "bright"8 |
+    "(G)"8 \skip4. "sun-"8 "-shin-" "-y" "day" |
+    "(D)"2 \skip2 |
     \skip1 |
 }
