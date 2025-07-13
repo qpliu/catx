@@ -2,63 +2,63 @@ steelpanLyrics = \new Lyrics \lyricmode {
     \myVocalsStuff
     \skip1 |
 \mymark "Intro" #2
-    \skip1. \skip4 |
-    \skip1. \skip4 |
-    \skip1. \skip4 |
-    \skip1. \skip4 |
-    \skip1. \skip4 |
-    \skip1. \skip4 |
+    "(A)"2. \skip1 |
+    "(A)"1. \skip4 |
+    "(A)"2. \skip1 |
+    "(A)"2. \skip1 |
+    "(A)"2. \skip1 |
+    "(A)"2. \skip1 |
 \mymark "Verse" #8
-    \skip1 "climb-"8 "-ing"16 "up"8 "on"8. "Sols-"8 "-bury" |
-    "hill"4 \skip2. "I"16 "could"8 "see" "the"8. "ci-"16 "-ty"8. |
-    "lights"4 \skip2. "wind"8 "was"16 "blow-"8 "-ing"8. "time"8 "stood" |
-    "still"4 \skip2. "ea-"16 "-gle"8 "flew" "out"8. "of"8 "the" |
-    "night"4 \skip2. "he"16 "was"8 "some-" "-thing"8. "to"16 "ob-"8. |
-    "-serve"4 \skip2. "came"16 "in"8 "close"8. "I" "heard"16 "a"8 |
-    "voice"4 \skip2. "stand-"8 "-ing" "stretch-" "-ing" "e-" "-very" |
-    "nerve"4 \skip2. "had"8 "to"16 "lis-"8 "-ten"8. "had"8 "no" |
+    "(A)"2. \skip4 "climb-"8 "-ing"16 "up"8 "on"8. "Sols-"8 "-bury" |
+    "(A)hill"4 \skip2. "I"16 "could"8 "see" "the"8. "ci-"16 "-ty"8. |
+    "(F#)lights"4 \skip2. "wind"8 "was"16 "blow-"8 "-ing"8. "time"8 "stood" |
+    "(F#)still"4 \skip2. "ea-"16 "-gle"8 "flew" "out"8. "of"8 "the" |
+    "(A)night"4 \skip2. "he"16 "was"8 "some-" "-thing"8. "to"16 "ob-"8. |
+    "(A)-serve"4 \skip2. "came"16 "in"8 "close"8. "I" "heard"16 "a"8 |
+    "(F#)voice"4 \skip2. "stand-"8 "-ing" "stretch-" "-ing" "e-" "-very" |
+    "(F#)nerve"4 \skip2. "had"8 "to"16 "lis-"8 "-ten"8. "had"8 "no" |
 \mymark "Chorus" #16
-    "choice"4 \skip8 "I"8 "could" "not" "be-" "-lieve"4 "the"8 "in-" "-for-" "-ma-"4 |
-    "-tion"4 \skip8 "just"8 "had"4 "to"8 "trust"4 "i-"8 "-ma-" "-gi-" "-na-"4 |
-    "-tion"4 \skip8 "my"8 "heart" "go-" "-ing"4 "boom"8. "boom" \skip4. |
-    "son"4 \skip8 "he"8 "said" \skip4. |
-    "grab"8 "your" "things" "I've" "come" "to"16 "take"8. "you"8 |
-    "home"4 \skip1 \skip8 "hey"8 \skip8 "back"8 |
-    "home"4 \skip1. |
+    "(D)choice"4 \skip8 "I"8 "could" "not" "be-" "-lieve"4 "the"8 "in-" "-for-" "-ma-"4 |
+    "(D)-tion"4 \skip8 "just"8 "had"4 "to"8 "trust"4 "i-"8 "-ma-" "-gi-" "-na-"4 |
+    "(D)-tion"4 \skip8 "my"8 "heart" "go-" "-ing"4 "boom"8. "boom" "boom"4. |
+    "(D)son"4 \skip8 "he"8 "said" \skip4. |
+    "(E)grab"8 "your" "things" "I've" "come" "to"16 "take"8. "you"8 |
+    "(A)home"4 \skip1 \skip8 "hey"8 \skip8 "back"8 |
+    "(A)home"4 \skip1. |
 \mymark "Verse" #23
-    \skip2. \skip8. "to"16 "keep" "in"8 "si-" "-lence"8. "I"8 "re-" |
-    "-signed"4 \skip2 \skip8 "my"8 "friends" "would" "think" "I"8. "was"16 "a"8 |
-    "nut"4 \skip2. "wind"8 "was"16 "blow-"8 "-ing"8. "time"8 "stood" |
-    "still"4 \skip2. "o-"16 "-pen"8 "doors" "would"8. "soon"8 "be" |
-    "shut"4 \skip2. "so"16 "I"8 "went" "from"8. "day"8 "to" |
-    "day"4 \skip2. "all"16 "my"8 "life" "was"8. "in"16 "a"8. |
-    "rut"4 \skip2. "'til"16 "I"8 "thought" "of"8. "what"16 "I'd"8. |
-    "say"4 \skip2. "which"8 "con-"16 "-nec-"8 "-tion"8. "I"8 "should" |
-    "cut"4 \skip4 "I"8 "was" "feel-" "-ing" "part"4 "of"8 "the" "sce-" "-ne-" |
-    "-ry"4 \skip8 "I"8 "walked" "right" "out" "of"4 "the" "ma-"8 "-chi-" "-ne-" |
-    "-ry"4 \skip8 "my"8 "heart" "go-" "-ing"4 "boom"8. "boom" \skip4. |
-    "son"4 \skip8 "he"8 "said" \skip4. |
-    "grab"8 "your" "things" "I've" "come" "to"16 "take"8. "you"8 |
-    "home"4 \skip1 \skip8 "hey"8 \skip8 "back"8 |
-    "home"4 \skip1. |
-    \skip1. \skip4 |
-    \skip1. \skip4 |
+    "(A)"2. \skip8. "to"16 "keep" "in"8 "si-" "-lence"8. "I"8 "re-" |
+    "(A)-signed"4 \skip2 \skip8 "my"8 "friends" "would" "think" "I"8. "was"16 "a"8 |
+    "(F#)nut"4 \skip2. "wind"8 "was"16 "blow-"8 "-ing"8. "time"8 "stood" |
+    "(F#)still"4 \skip2. "o-"16 "-pen"8 "doors" "would"8. "soon"8 "be" |
+    "(A)shut"4 \skip2. "so"16 "I"8 "went" "from"8. "day"8 "to" |
+    "(A)day"4 \skip2. "all"16 "my"8 "life" "was"8. "in"16 "a"8. |
+    "(F#)rut"4 \skip2. "'til"16 "I"8 "thought" "of"8. "what"16 "I'd"8. |
+    "(F#)say"4 \skip2. "which"8 "con-"16 "-nec-"8 "-tion"8. "I"8 "should" |
+    "(D)cut"4 \skip4 "I"8 "was" "feel-" "-ing" "part"4 "of"8 "the" "sce-" "-ne-" |
+    "(D)-ry"4 \skip8 "I"8 "walked" "right" "out" "of"4 "the" "ma-"8 "-chi-" "-ne-" |
+    "(D)-ry"4 \skip8 "my"8 "heart" "go-" "-ing"4 "boom"8. "boom" "boom"4. |
+    "(D)son"4 \skip8 "he"8 "said" \skip4. |
+    "(E)grab"8 "your" "things" "I've" "come" "to"16 "take"8. "you"8 |
+    "(A)home"4 \skip1 \skip8 "hey"8 \skip8 "back"8 |
+    "(A)home"4 \skip1. |
+    "(A)"2. \skip1 |
+    "(A)"2. \skip1 |
 \mymark "Verse" #40
-    \skip1 "when"8 "il-"16 "-lu-"8 "-sion"8. "spin"8 "her" |
-    "net"4 \skip2 \skip8 "I'm"8 "ne-"16 "-ver"8 "where" "I"8. "want"16 "to"8. |
-    "be"4 \skip2 \skip8 "and"8 "li-" "-ber-"16 "-ty"8 "she"8. "pi-"8 "-rou-" |
-    "-ette"4 \skip2. "when"16 "I"8 "think" "that"8. "I"8 "am" |
-    "free"4 \skip2. "watched"16 "by"8 "emp-" "-ty"8. "sil-"16 "-hou-"8. |
-    "-ettes"4 \skip2 \skip8 "who"8 "close"16 "their"8 "eyes"8. "but"8 "still" "can" |
-    "see"4 \skip2. "no-"16 "-one"8 "taught" "them"8. "et-"16 "-ti"8. |
-    "-quette"4 \skip2. "I"8 "will"16 "show"8 "a-"8. "-no-"8 "-ther" |
-    "me"4 \skip8 "to-"8 "-day" "I" "don't" "need"4. "a"8 "re-" "-place-"4 |
-    "-ment"4 \skip8 "I'll"8 "tell" "them" "what" "the" "smile"4 "on"8 "my" "face"4 |
-    "meant"4 \skip8 "my"8 "heart" "go-" "-ing"4 "boom"8. "boom" \skip4. |
-    "hey"4 \skip8 "I"8 "said" \skip4 "you"16 "can" |
-    "keep"8 "my" "things" "they've" "come" "to"16 "take"8. "me"8 |
-    "home"4 \skip1 \skip8 "yeah"8 \skip8 "back"8 |
-    "home"4 \skip1. |
-    \skip1 \skip4. "yeah"8 \skip8 "back"8 |
-    "home"4 \skip1. |
+    "(A)"2. \skip4 "when"8 "il-"16 "-lu-"8 "-sion"8. "spin"8 "her" |
+    "(A)net"4 \skip2 \skip8 "I'm"8 "ne-"16 "-ver"8 "where" "I"8. "want"16 "to"8. |
+    "(F#)be"4 \skip2 \skip8 "and"8 "li-" "-ber-"16 "-ty"8 "she"8. "pi-"8 "-rou-" |
+    "(F#)-ette"4 \skip2. "when"16 "I"8 "think" "that"8. "I"8 "am" |
+    "(A)free"4 \skip2. "watched"16 "by"8 "emp-" "-ty"8. "sil-"16 "-hou-"8. |
+    "(A)-ettes"4 \skip2 \skip8 "who"8 "close"16 "their"8 "eyes"8. "but"8 "still" "can" |
+    "(F#)see"4 \skip2. "no-"16 "-one"8 "taught" "them"8. "et-"16 "-ti"8. |
+    "(F#)-quette"4 \skip2. "I"8 "will"16 "show"8 "a-"8. "-no-"8 "-ther" |
+    "(D)me"4 \skip8 "to-"8 "-day" "I" "don't" "need"4. "a"8 "re-" "-place-"4 |
+    "(D)-ment"4 \skip8 "I'll"8 "tell" "them" "what" "the" "smile"4 "on"8 "my" "face"4 |
+    "(D)meant"4 \skip8 "my"8 "heart" "go-" "-ing"4 "boom"8. "boom" "boom"4. |
+    "(D)hey"4 \skip8 "I"8 "said" \skip4 "you"16 "can" |
+    "(E)keep"8 "my" "things" "they've" "come" "to"16 "take"8. "me"8 |
+    "(A)home"4 \skip1 \skip8 "yeah"8 \skip8 "back"8 |
+    "(A)home"4 \skip1. |
+    "(A)"4 \skip1 \skip8 "yeah"8 \skip8 "back"8 |
+    "(A)home"4 \skip1. |
 }

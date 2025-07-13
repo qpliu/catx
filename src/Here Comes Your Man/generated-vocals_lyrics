@@ -3,116 +3,116 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(D)"4 \skip2. |
+    "(G)"4 \skip2. |
+    "(D)"4 \skip2. |
+    "(G)"4 \skip2. |
 \mymark "Verse" #8
-    \skip4 "outside"8 \skip4 "there's"8 \skip8 "a"8 |
-    "box"4 "car" "waiting"8 \skip4. |
-    \skip4 "outside"8 \skip4 "the"8 \skip8 "fam-"8 |
-    \skip8 "ily"4 "stew___" \skip4. |
-    \skip4. "out"8 \skip8 "-by"8 \skip8 "the"8 |
-    "fi-"4 "re" "breathing"8 \skip4. |
-    \skip4 "outside"8 \skip4 "we"8 \skip8 "wait"8 |
-    \skip8 "til"4 "face" "turns"4. |
-    "blue"4 \skip8 "i"8 \skip8 "know"8 \skip8 "the"8 |
-    "nervous"8 \skip4 "wal-"4 "king" \skip8 |
-    \skip4 "i"8 "know" \skip8 "the"8 \skip8 "dir-"8 |
-    \skip8 "ty"4 "beard" "hangs__"4. |
-    \skip4. "out"8 \skip8 "-by"8 \skip8 "the"8 |
-    "box"8 "car"4 "wai-" "ting_"8 \skip4 |
-    \skip8 "take"4 "me away"8 \skip2 |
-    "to"4 "nowhere plains" \skip2 |
+    "(D)"4 "outside"8 \skip4 "there's"8 \skip8 "a"8 |
+    "(A)box"4 "car" "waiting"8 \skip4. |
+    "(E)"4 "outside"8 \skip4 "the"8 \skip8 "fam-"8 |
+    "(G)"8 "ily"4 "stew___" \skip4. |
+    "(D)"4 \skip8 "out"8 \skip8 "-by"8 \skip8 "the"8 |
+    "(A)fi-"4 "re" "breathing"8 \skip4. |
+    "(E)"4 "outside"8 \skip4 "we"8 \skip8 "wait"8 |
+    "(G)"8 "til"4 "face" "turns"4. |
+    "(D)blue"4 \skip8 "i"8 \skip8 "know"8 \skip8 "the"8 |
+    "(A)nervous"8 \skip4 "wal-"4 "king" \skip8 |
+    "(D)"4 "i"8 "know" \skip8 "the"8 \skip8 "dir-"8 |
+    "(G)"8 "ty"4 "beard" "hangs__"4. |
+    "(D)"4 \skip8 "out"8 \skip8 "-by"8 \skip8 "the"8 |
+    "(A)box"8 "car"4 "wai-" "ting_"8 \skip4 |
+    "(E)"8 "take"4 "me away"8 \skip2 |
+    "(G)to"4 "nowhere plains" \skip2 |
 \mymark "" #24
-    \skip8 "there is a"8 \skip4 "wait"4 "so" |
-    "long"8 \skip8 "so"4 "long__"8 \skip8 "so"4 |
-    "long"8 "we'll " "never wait" \skip4. "so"4 |
+    "(B)"8 "there is a" \skip4 "wait"4 "so" |
+    "(G)long"8 \skip8 "so"4 "long__"8 \skip8 "so"4 |
+    "(A)long"8 "we'll " "never wait" \skip4. "so"4 |
 \mymark "Chorus" #27
-    \skip4 "long"2. |
-    \skip4. "here"4 "comes your" \skip8 |
-    "man__"8 \skip2. \skip8 |
-    \skip4. "here"4 "comes your" \skip8 |
-    "man__"8 \skip2. \skip8 |
-    \skip4. "here"4 "comes your" \skip8 |
+    "(D)"4 "long"2. |
+    "(G)"4. "here"4 "comes your" \skip8 |
+    "(D)man__"8 \skip2. \skip8 |
+    "(G)"4. "here"4 "comes your" \skip8 |
+    "(D)man__"8 \skip2. \skip8 |
+    "(G)"4. "here"4 "comes your" \skip8 |
 \mymark "Riff 1" #33
-    "man__"8 \skip2. \skip8 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(D)man__"8 \skip2. \skip8 |
+    "(A)"4 \skip2. |
+    "(E)"4 \skip2. |
+    "(G)"4 \skip2. |
 \mymark "Verse" #37
-    \skip4 "big"8 "shakes" \skip8 "on"8 \skip8 "a"8 |
-    "box"4 "car" "moving"8 \skip4. |
-    \skip4 "big shake"8 \skip4 "to"8 "the" "land" |
-    "       that's falling"4 \skip2. |
-    "down"4 "is "8 "a" "wind" \skip8 "makes a"8 \skip8 |
-    "palm stop blowing"4 \skip2 \skip8 "a"8 |
-    "big"4 "big" "stone fall and" \skip4 |
-    "break my"4 \skip4 "crown"8 \skip4. |
+    "(D)"4 "big"8 "shakes" \skip8 "on"8 \skip8 "a"8 |
+    "(A)box"4 "car" "moving"8 \skip4. |
+    "(E)"4 "big shake"8 \skip4 "to"8 "the" "land" |
+    "(G)       that's falling"4 \skip2. |
+    "(D)down"4 "is "8 "a" "wind" \skip8 "makes a"8 \skip8 |
+    "(A)palm stop blowing"4 \skip2 \skip8 "a"8 |
+    "(E)big"4 "big" "stone fall and" \skip4 |
+    "(G)break my"4 \skip4 "crown"8 \skip4. |
 \mymark "" #45
-    \skip8 "there is a"8 \skip4 "wait"4 "so" |
-    "long"8 \skip8 "so"4 "long__"8 \skip8 "so"4 |
-    "long"8 "we'll " "never wait" \skip4. "so"4 |
+    "(B)"8 "there is a" \skip4 "wait"4 "so" |
+    "(G)long"8 \skip8 "so"4 "long__"8 \skip8 "so"4 |
+    "(A)long"8 "we'll " "never wait" \skip4. "so"4 |
 \mymark "Chorus" #48
-    \skip4 "long"2. |
-    \skip4. "here"4 "comes your" \skip8 |
-    "man__"8 \skip2. \skip8 |
-    \skip4. "here"4 "comes your" \skip8 |
-    "man__"8 \skip2. \skip8 |
-    \skip4. "here"4 "comes your" \skip8 |
-    "man_____"2. \skip4 |
-    \skip4. "here"4 "comes your" \skip8 |
+    "(D)"4 "long"2. |
+    "(G)"4. "here"4 "comes your" \skip8 |
+    "(D)man__"8 \skip2. \skip8 |
+    "(G)"4. "here"4 "comes your" \skip8 |
+    "(D)man__"8 \skip2. \skip8 |
+    "(G)"4. "here"4 "comes your" \skip8 |
+    "(D)man_____"2. \skip4 |
+    "(G)"4. "here"4 "comes your" \skip8 |
 \mymark "Riff 2" #56
-    "man__"8 \skip2. \skip8 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip2 \skip8 "oh"4 "y-"8 |
-    "eah"2 \skip2 |
-    \skip2 \skip8 "oh"4 "y-"8 |
-    "eah"2. "ah"4 |
+    "(D)man__"8 \skip2. \skip8 |
+    "(A)"4 \skip2. |
+    "(E)"4 \skip2. |
+    "(A)"4 \skip2. |
+    "(D)"2 \skip8 "oh"4 "y-"8 |
+    "(A)eah"2 \skip2 |
+    "(E)"2 \skip8 "oh"4 "y-"8 |
+    "(G)eah"2. "ah"4 |
 \mymark "" #64
-    "ooooh"1 |
-    \skip1 |
-    \skip1 |
-    \skip2. "ah"4 |
-    "oooh"1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(D)ooooh"1 |
+    "(A)"1 |
+    "(E)"1 |
+    "(G)"2. "ah"4 |
+    "(D)oooh"1 |
+    "(A)"1 |
+    "(E)"1 |
+    "(G)"1 |
 \mymark "" #72
-    \skip8 "there is a"8 \skip4 "wait"4 "so" |
-    "long"8 \skip8 "so"4 "long__"8 \skip8 "so"4 |
-    "long"8 "we'll " "never wait" \skip4. "so"4 |
+    "(B)"8 "there is a" \skip4 "wait"4 "so" |
+    "(G)long"8 \skip8 "so"4 "long__"8 \skip8 "so"4 |
+    "(A)long"8 "we'll " "never wait" \skip4. "so"4 |
 \mymark "Chorus" #75
-    \skip4 "long"2. |
-    \skip1 |
-    \skip4. "here"4 "comes your" \skip8 |
-    "man__"8 \skip2. \skip8 |
-    \skip4. "here"4 "comes your" \skip8 |
-    "man__"8 \skip2. \skip8 |
-    \skip4. "here"4 "comes your" \skip8 |
-    "man_____"2. \skip4 |
-    \skip4. "here"4 "comes your" \skip8 |
-    "man__"8 \skip2. \skip8 |
-    \skip4. "here"4 "comes your" \skip8 |
-    "man__"8 \skip2. \skip8 |
-    \skip4. "here"4 "comes your" \skip8 |
-    "man__"8 \skip2. \skip8 |
-    \skip4. "here"4 "comes your" \skip8 |
-    "man_____"2. \skip4 |
-    \skip4. "here"4 "comes your" \skip8 |
-    "man_____"2. \skip4 |
-    \skip4. "here"4 "comes your" \skip8 |
-    "man__"8 \skip2. \skip8 |
-    \skip4. "here"4 "comes your" \skip8 |
-    "man__"8 \skip2. \skip8 |
-    \skip4. "here"4 "comes your" \skip8 |
-    "man_____"2. \skip4 |
-    \skip4. "here"4 "comes your" \skip8 |
-    "man_____"2. \skip4 |
-    \skip4. "here"4 "comes your" \skip8 |
-    "man__"8 \skip2. \skip8 |
+    "(D)"4 "long"2. |
+    "(D)"4 \skip2. |
+    "(G)"4. "here"4 "comes your" \skip8 |
+    "(D)man__"8 \skip2. \skip8 |
+    "(G)"4. "here"4 "comes your" \skip8 |
+    "(D)man__"8 \skip2. \skip8 |
+    "(G)"4. "here"4 "comes your" \skip8 |
+    "(D)man_____"2. \skip4 |
+    "(G)"4. "here"4 "comes your" \skip8 |
+    "(D)man__"8 \skip2. \skip8 |
+    "(G)"4. "here"4 "comes your" \skip8 |
+    "(D)man__"8 \skip2. \skip8 |
+    "(G)"4. "here"4 "comes your" \skip8 |
+    "(D)man__"8 \skip2. \skip8 |
+    "(G)"4. "here"4 "comes your" \skip8 |
+    "(D)man_____"2. \skip4 |
+    "(G)"4. "here"4 "comes your" \skip8 |
+    "(D)man_____"2. \skip4 |
+    "(G)"4. "here"4 "comes your" \skip8 |
+    "(D)man__"8 \skip2. \skip8 |
+    "(G)"4. "here"4 "comes your" \skip8 |
+    "(D)man__"8 \skip2. \skip8 |
+    "(G)"4. "here"4 "comes your" \skip8 |
+    "(D)man_____"2. \skip4 |
+    "(G)"4. "here"4 "comes your" \skip8 |
+    "(D)man_____"2. \skip4 |
+    "(G)"4. "here"4 "comes your" \skip8 |
+    "(D)man__"8 \skip2. \skip8 |
     \skip1 |
     \skip1 |
 }

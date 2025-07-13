@@ -2,110 +2,110 @@ steelpanLyrics = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Intro" #1
     \skip1 |
-    \skip1 |
-    \skip1 |
+    "(E)"4 \skip2. |
+    "(E)"4 \skip2. |
 \mymark "Verse 1" #4
-    \skip1 |
-    \skip2. \skip8 "Twen-"8 |
-    \skip8 "ty"8 "twen-" "ty" "twen-" "ty" "four"4 |
+    "(E)"4 \skip2. |
+    "(E)"2. \skip8 "Twen-"8 |
+    "(E)"8 "ty" "twen-" "ty" "twen-" "ty" "four"4 |
     "hours"4 "to"8 "go"4 "oh"8 "oh"4 |
-    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
-    \skip8 "ted"4. \skip2 |
-    "No-"8 "thing" "to" "do"4 "no-" "where"8 |
-    \skip8 "to"8 "go"4 "oh" \skip4 |
-    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
-    \skip8 "ted"4. \skip4. "Just"8 |
-    "get"8 "me" "to" "the" "air-" "port"4 "and"8 |
-    "put"8 "me" "in" "a" "plane"4. \skip8 |
-    "hur-"8 "ry" "hur-" "ry" "hur-" "ry"4 "be-"8 |
-    "fore"8 "I" "go" "in-" "sane"4. "I"8 |
-    "can't"8 "con-" "trol" "my" "fin-" "gers"4 "I"8 |
-    "can't"8 "con-" "trol" "my" "brain"4 "oh" |
-    "no"4 "oh" "oh" "oh" |
-    "oh"1 |
+    "(A)"8 "I" "wan-" "na" "be"4 "se-"8 "da-" |
+    "(E)"8 "ted"4. \skip2 |
+    "(E)No-"8 "thing" "to" "do"4 "no-" "where"8 |
+    "(E)"8 "to" "go"4 "oh" \skip4 |
+    "(A)"8 "I" "wan-" "na" "be"4 "se-"8 "da-" |
+    "(E)"8 "ted"4. \skip4. "Just"8 |
+    "(B)get"8 "me" "to" "the" "air-" "port"4 "and"8 |
+    "(E)put"8 "me" "in" "a" "plane"4. \skip8 |
+    "(B)hur-"8 "ry" "hur-" "ry" "hur-" "ry"4 "be-"8 |
+    "(E)fore"8 "I" "go" "in-" "sane"4. "I"8 |
+    "(B)can't"8 "con-" "trol" "my" "fin-" "gers"4 "I"8 |
+    "(E)can't"8 "con-" "trol" "my" "brain"4 "oh" |
+    "(A)no"4 "oh" "oh" "oh" |
+    "(B)oh"1 |
 \mymark "Verse 2" #22
-    \skip1 |
-    \skip2. \skip8 "Twen-"8 |
-    \skip8 "ty"8 "twen-" "ty" "twen-" "ty" "four"4 |
-    "hours"4 "to"8 "go"4 "oh"8 "oh"4 |
-    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
-    \skip8 "ted"8 \skip2. |
-    "No-"8 "thing" "to" "do"4 "no-" "where"8 |
-    \skip8 "to"8 "go"4 "oh" \skip4 |
-    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
-    \skip8 "ted"4. \skip4. "Just"8 |
-    "put"8 "me" "in" "a" "wheel-" "chair"4 "and"8 |
-    "get"8 "me" "on" "a" "plane"4. \skip8 |
-    "hur-"8 "ry" "hur-" "ry" "hur-" "ry"4 "be-"8 |
-    "fore"8 "I" "go" "in-" "sane"4. "I"8 |
-    "can't"8 "con-" "trol" "my" "fing-" "ers"4 "I"8 |
-    "can't"8 "con-" "trol" "my" "brain"4 "oh" |
-    "no"4 "oh" "oh" "oh" |
-    "oh"1 |
+    "(E)"1 |
+    "(E)"2. \skip8 "Twen-"8 |
+    "(E)"8 "ty" "twen-" "ty" "twen-" "ty" "four"4 |
+    "(E)hours"4 "to"8 "go"4 "oh"8 "oh"4 |
+    "(A)"8 "I" "wan-" "na" "be"4 "se-"8 "da-" |
+    "(E)"8 "ted" \skip2. |
+    "(E)No-"8 "thing" "to" "do"4 "no-" "where"8 |
+    "(E)"8 "to" "go"4 "oh" \skip4 |
+    "(A)"8 "I" "wan-" "na" "be"4 "se-"8 "da-" |
+    "(E)"8 "ted"4. \skip4. "Just"8 |
+    "(B)put"8 "me" "in" "a" "wheel-" "chair"4 "and"8 |
+    "(E)get"8 "me" "on" "a" "plane"4. \skip8 |
+    "(B)hur-"8 "ry" "hur-" "ry" "hur-" "ry"4 "be-"8 |
+    "(E)fore"8 "I" "go" "in-" "sane"4. "I"8 |
+    "(B)can't"8 "con-" "trol" "my" "fing-" "ers"4 "I"8 |
+    "(E)can't"8 "con-" "trol" "my" "brain"4 "oh" |
+    "(A)no"4 "oh" "oh" "oh" |
+    "(B)oh"1 |
 \mymark "Break" #40
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(E)"1 |
+    "(A)"1 |
+    "(B)"1 |
+    "(E)"1 |
+    "(E)"1 |
+    "(A)"1 |
+    "(B)"1 |
+    "(E)"1 |
 \mymark "Verse 3" #48
-    \skip1 |
-    \skip2. \skip8 "Twen-"8 |
-    \skip8 "ty"8 "twen-" "ty" "twen-" "ty" "four"4 |
-    "hours"4 "to"8 "go"4 "oh"8 "oh"4 |
-    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
-    \skip8 "ted"4. \skip2 |
-    "No-"8 "thing" "to" "do"4 "No-" "where"8 |
-    \skip8 "to"8 "go"4 "oh" \skip4 |
-    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
-    \skip8 "ted"4. \skip4. "Just"8 |
-    "put"8 "me" "in" "a" "wheel-" "chair"4 "and"8 |
-    "get"8 "me" "to" "the" "show"4. \skip8 |
-    "hur-"8 "ry" "hur-" "ry" "hur-" "ry"4 "be-"8 |
-    "fore"8 "I" "go" "lo-" "co"4. "I"8 |
-    "can't"8 "con-" "trol" "my" "fing-" "ers"4 "I"8 |
-    "can't"8 "con-" "trol" "my" "toes"4 "oh" |
-    "no"4 "oh" "oh" "oh" |
-    "oh"1 |
+    "(E)"1 |
+    "(E)"2. \skip8 "Twen-"8 |
+    "(F#)"8 "ty" "twen-" "ty" "twen-" "ty" "four"4 |
+    "(F#)hours"4 "to"8 "go"4 "oh"8 "oh"4 |
+    "(B)"8 "I" "wan-" "na" "be"4 "se-"8 "da-" |
+    "(F#)"8 "ted"4. \skip2 |
+    "(F#)No-"8 "thing" "to" "do"4 "No-" "where"8 |
+    "(F#)"8 "to" "go"4 "oh" \skip4 |
+    "(B)"8 "I" "wan-" "na" "be"4 "se-"8 "da-" |
+    "(F#)"8 "ted"4. \skip4. "Just"8 |
+    "(C#)put"8 "me" "in" "a" "wheel-" "chair"4 "and"8 |
+    "(F#)get"8 "me" "to" "the" "show"4. \skip8 |
+    "(C#)hur-"8 "ry" "hur-" "ry" "hur-" "ry"4 "be-"8 |
+    "(F#)fore"8 "I" "go" "lo-" "co"4. "I"8 |
+    "(C#)can't"8 "con-" "trol" "my" "fing-" "ers"4 "I"8 |
+    "(F#)can't"8 "con-" "trol" "my" "toes"4 "oh" |
+    "(B)no"4 "oh" "oh" "oh" |
+    "(C#)oh"1 |
 \mymark "Verse 4" #66
-    \skip1 |
-    \skip2. \skip8 "Twen-"8 |
-    \skip8 "ty"8 "twen-" "ty" "twen-" "ty" "four"4 |
-    "hours"4 "to"8 "go"4 "oh"8 "oh"4 |
-    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
-    \skip8 "ted"4. \skip2 |
-    "No-"8 "thing" "to" "do"4 "no-" "where"8 |
-    \skip8 "to"8 "go"4 "oh" \skip4 |
-    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
-    \skip8 "ted"4. \skip4. "Just"8 |
-    "put"8 "me" "in" "a" "wheel-" "chair"4 "and"8 |
-    "get"8 "me" "to" "the" "show"4. \skip8 |
-    "hur-"8 "ry" "hur-" "ry" "hur-" "ry"4 "be-"8 |
-    "fore"8 "I" "go" "lo-" "co"4. "I"8 |
-    "can't"8 "con-" "trol" "my" "fing-" "ers"4 "I"8 |
-    "can't"8 "con-" "trol" "my" "toes"4 "oh" |
-    "no"4 "oh" "oh" "oh" |
-    "oh"1 |
+    "(F#)"1 |
+    "(F#)"2. \skip8 "Twen-"8 |
+    "(F#)"8 "ty" "twen-" "ty" "twen-" "ty" "four"4 |
+    "(F#)hours"4 "to"8 "go"4 "oh"8 "oh"4 |
+    "(B)"8 "I" "wan-" "na" "be"4 "se-"8 "da-" |
+    "(F#)"8 "ted"4. \skip2 |
+    "(F#)No-"8 "thing" "to" "do"4 "no-" "where"8 |
+    "(F#)"8 "to" "go"4 "oh" \skip4 |
+    "(B)"8 "I" "wan-" "na" "be"4 "se-"8 "da-" |
+    "(F#)"8 "ted"4. \skip4. "Just"8 |
+    "(C#)put"8 "me" "in" "a" "wheel-" "chair"4 "and"8 |
+    "(F#)get"8 "me" "to" "the" "show"4. \skip8 |
+    "(C#)hur-"8 "ry" "hur-" "ry" "hur-" "ry"4 "be-"8 |
+    "(F#)fore"8 "I" "go" "lo-" "co"4. "I"8 |
+    "(C#)can't"8 "con-" "trol" "my" "fing-" "ers"4 "I"8 |
+    "(F#)can't"8 "con-" "trol" "my" "toes"4 "oh" |
+    "(B)no"4 "oh" "oh" "oh" |
+    "(C#)oh"1 |
 \mymark "Outro" #84
-    "bam"4 "bam" "ba"8 "bam"4 "ba"8 |
-    "bam"4 "bam" "ba"8 "bam"4 \skip8 |
-    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
-    \skip8 "ted"8 \skip2. |
-    "bam"4 "bam" "ba"8 "bam"4 "ba"8 |
-    "bam"4 "bam" "ba"8 "bam"4 \skip8 |
-    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
-    \skip8 "ted"8 \skip2. |
-    "bam"4 "bam" "ba"8 "bam"4 "ba"8 |
-    "bam"4 "bam" "ba"8 "bam"4 \skip8 |
-    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
-    \skip8 "ted"8 \skip2. |
-    "bam"4 "bam" "ba"8 "bam"4 "ba"8 |
-    "bam"4 "bam" "ba"8 "bam"4 \skip8 |
-    \skip8 "I"8 "wan-" "na" "be"4 "se-"8 "da-" |
-    \skip8 "ted"8 \skip2. |
+    "(F#)bam"4 "bam" "ba"8 "bam"4 "ba"8 |
+    "(B)bam"4 "bam" "ba"8 "bam"4 \skip8 |
+    "(C#)"8 "I" "wan-" "na" "be"4 "se-"8 "da-" |
+    "(F#)"8 "ted" \skip2. |
+    "(F#)bam"4 "bam" "ba"8 "bam"4 "ba"8 |
+    "(B)bam"4 "bam" "ba"8 "bam"4 \skip8 |
+    "(C#)"8 "I" "wan-" "na" "be"4 "se-"8 "da-" |
+    "(F#)"8 "ted" \skip2. |
+    "(F#)bam"4 "bam" "ba"8 "bam"4 "ba"8 |
+    "(B)bam"4 "bam" "ba"8 "bam"4 \skip8 |
+    "(C#)"8 "I" "wan-" "na" "be"4 "se-"8 "da-" |
+    "(F#)"8 "ted" \skip2. |
+    "(F#)bam"4 "bam" "ba"8 "bam"4 "ba"8 |
+    "(B)bam"4 "bam" "ba"8 "bam"4 \skip8 |
+    "(C#)"8 "I" "wan-" "na" "be"4 "se-"8 "da-" |
+    "(F#)"8 "ted" \skip2. |
     \skip1 |
     \skip1 |
 }

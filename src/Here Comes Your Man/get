@@ -2,11 +2,12 @@
 WHERE=application_guitar_pro4-43713801.gp4
 set -e
 rm -f generated-*
-java -jar ../../guitarproToLy/1.jar <"$WHERE" \
+java -jar ../../guitarproToLy/1.jar <"song.gp5" \
 markup-extra 0 '\key d \major' \
 modified-filename drs \
 track 0 \
     preset kav \
+    layout-extra '\clef "treble_8"' \
     output-lilypond \
     output-lyrics \
     output-karaoke \
