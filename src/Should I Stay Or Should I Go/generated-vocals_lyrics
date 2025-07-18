@@ -6,94 +6,94 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip1 |
     \skip1 |
     \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(D)"2 "(G)" |
+    "(D)"1 |
+    "(D)"2 "(G)" |
 \mymark "Verse" #9
-    \skip8 "Dar-"8 "-ling" "you" "got" "to" "let" "me" |
-    "know"4 \skip2. |
-    \skip4 "should"8 "I" "stay" "or" "should" "I" |
-    "go"4 \skip2. |
-    \skip4 "If"8 "you" "say" "that" "you" "are" |
-    "mine"8 \skip2. \skip8 |
-    \skip4 "I'll"8 "be" "here" "'til" "the"16 "end" "of"8 |
-    "time"4 \skip2. |
-    \skip4 "so"8 "you" "got" "to" "let" "me" |
-    "know"8 \skip2. \skip8 |
-    \skip4 "should"8 "I" "stay" "or" "should" "I" |
-    "go"4 \skip2. |
+    "(D)"8 "Dar-" "-ling" "you" "got" "to" "let" "me" |
+    "(D)know"4 \skip4 "(G)"4 \skip4 |
+    "(D)"4 "should"8 "I" "stay" "or" "should" "I" |
+    "(D)go"4 \skip4 "(G)"4 \skip4 |
+    "(D)"4 "If"8 "you" "say" "that" "you" "are" |
+    "(G)mine"8 \skip4. "(F)"2 |
+    "(G)"4 "I'll"8 "be" "here" "'til" "the"16 "end" "of"8 |
+    "(D)time"4 \skip4 "(G)"4 \skip4 |
+    "(D)"4 "so"8 "you" "got" "to" "let" "me" |
+    "(A)know"8 \skip2. \skip8 |
+    "(A)"4 "should"8 "I" "stay" "or" "should" "I" |
+    "(D)go"4 \skip4 "(G)"4 \skip4 |
 \mymark "Verse" #21
-    \skip8 "It's"8 "al-" "-ways" "tease"4 "tease" |
-    "tease"4 \skip2. |
-    \skip8 "you're"8 "hap-" "-py" "when" "I'm" "on" "my" |
-    "knees"4 \skip2. |
-    \skip8 "one"8 "day" "it's" "fine" "and" "then" "it's" |
-    "black"8 \skip2. \skip8 |
-    \skip8 "so"8 "if" "you" "want" "me" "off" "your" |
-    "back"4 \skip2. |
-    \skip4 "well"8 "come" "on" "and" "let" "me" |
-    "know"2 \skip2 |
-    \skip4 "should"8 "I" "stay" "or" "should" "I" |
-    "go"8 \skip2. \skip8 |
+    "(D)"8 "It's" "al-" "-ways" "tease"4 "tease" |
+    "(D)tease"4 \skip4 "(G)"4 \skip4 |
+    "(D)"8 "you're" "hap-" "-py" "when" "I'm" "on" "my" |
+    "(D)knees"4 \skip4 "(G)"4 \skip4 |
+    "(D)"8 "one" "day" "it's" "fine" "and" "then" "it's" |
+    "(G)black"8 \skip4. "(F)"2 |
+    "(G)"8 "so" "if" "you" "want" "me" "off" "your" |
+    "(D)back"4 \skip4 "(G)"4 \skip4 |
+    "(D)"4 "well"8 "come" "on" "and" "let" "me" |
+    "(A)know"2 \skip2 |
+    "(A)"4 "should"8 "I" "stay" "or" "should" "I" |
+    "(D)go"8 \skip4. "(G)"4 \skip4 |
 \mymark "Chorus" #33
-    \skip4 "Should"8 "I" "stay" "or" "should" "I" |
-    "go"8 "now" \skip2. |
-    \skip4 "should"8 "I" "stay" "or" "should" "I" |
-    "go"8 "now"2 \skip4. |
-    \skip4 "If"8 "I" "go" "there" "will" "be" |
-    "trou-"8 "-ble"2 \skip4. |
-    \skip8 "and"8 "if" "I" "stay" "it" "will" "be" |
-    "dou-"8 "-ble"4. \skip2 |
-    \skip4 "well"8 "come" "on" "and" "let" "me" |
-    "know"2 \skip2 |
-    \skip1 |
+    "(D)"4 "Should"8 "I" "stay" "or" "should" "I" |
+    "(D)go"8 "now" \skip4 "(G)"8 \skip4. |
+    "(D)"4 "should"8 "I" "(G)stay" "or" "should" "I" |
+    "(D)go"8 "now"4. "(G)"2 |
+    "(D)"4 "If"8 "I" "(G)go" "there" "will" "be" |
+    "(G)trou-"8 "-ble"4. "(F)" \skip8 |
+    "(G)"8 "and" "if" "I" "(F)stay" "it" "will" "be" |
+    "(D)dou-"8 "-ble"4. "(G)"16 \skip4. \skip16 |
+    "(D)"4 "well"8 "come" "(G)on" "and" "let" "me" |
+    "(A)know"2 \skip2 |
+    "(A)"4 "(D)" "(G)" \skip4 |
 \mymark "Verse" #44
-    \skip8 "This"8 "in-" "-de-" "-ci-" "-sion's" "kil-" "-ling" |
-    "me"4 \skip2. |
-    \skip8 "if"8 "you" "don't" "want" "me" "set" "me" |
-    "free"4 \skip2. |
-    \skip8 "ex-"8 "-act-" "-ly" "whom" "I'm" "sup-" "-posed" |
-    "to"8 "be"4 \skip2 \skip8 |
-    \skip8 "don't"16 "you" "know"8 "what" "clothes" "e-" "-ven" "fit" |
-    "me"4 \skip2. |
-    \skip4. "come"8 "on" "and" "let" "me" |
-    "know"4. \skip2 \skip8 |
-    \skip8 "should"8 "I" "cool" "it" "or" "should" "I" |
-    "go"4 \skip2. |
+    "(D)"8 "This" "in-" "-de-" "-ci-" "-sion's" "kil-" "-ling" |
+    "(D)me"4 \skip4 "(G)"4 \skip4 |
+    "(D)"8 "if" "you" "don't" "want" "me" "set" "me" |
+    "(D)free"4 \skip4 "(G)"4 \skip4 |
+    "(D)"8 "ex-" "-act-" "-ly" "whom" "I'm" "sup-" "-posed" |
+    "(G)to"8 "be"4. "(F)" \skip8 |
+    "(G)\\"8 "don't"16 "you" "know"8 "what" "clothes" "e-" "-ven" "fit" |
+    "(D)me"4 \skip4 "(G)"4 \skip4 |
+    "(D)"8 \skip4 "come"8 "on" "and" "let" "me" |
+    "(A)know"4. \skip2 \skip8 |
+    "(A)"8 "should" "I" "cool" "it" "or" "should" "I" |
+    "(D)go"4 \skip4 "(G)"4 \skip4 |
 \mymark "Break" #56
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(D)"1 |
+    "(D)"2 "(G)" |
+    "(D)"1 |
+    "(D)"2 "(G)" |
+    "(D)"1 |
+    "(G)"2 "(F)" |
+    "(G)"1 |
+    "(D)"2 "(G)" |
+    "(D)"1 |
+    "(A)"1 |
+    "(A)"1 |
+    "(D)"2 "(G)" |
 \mymark "Chorus" #68
-    \skip4 "Should"8 "I" "stay" "or" "should" "I" |
-    "go"8 "now" \skip2. |
-    \skip4 "should"8 "I" "stay" "or" "should" "I"16 "go" |
-    \skip8 "now"2 \skip4. |
-    \skip4 "if"8 "I" "go" "there" "will" "be" |
-    "trou-"8 "-ble"2 \skip4. |
-    \skip8 "and"8 "if" "I" "stay" "it" "will" "be" |
-    "dou-"8 "-ble"4. \skip2 |
-    \skip4 "so"8 "you" "got" "to" "let" "me" |
-    "know"2 \skip2 |
-    \skip4 "Should"8 "I" "stay" "or" "should" "I" |
-    "go"8 \skip2. \skip8 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(D)"4 "Should"8 "I" "stay" "or" "should" "I" |
+    "(D)go"8 "now" \skip4 "(G)"8 \skip4. |
+    "(D)"4 "should"8 "I" "(G)stay" "or" "should" "I"16 "go" |
+    "(D)"8 "now"4. "(G)" \skip8 |
+    "(D)"4 "if"8 "I" "(G)go" "there" "will" "be" |
+    "(G)trou-"8 "-ble"4. "(F)"8 \skip4. |
+    "(G)"8 "and" "if" "I" "(F)stay" "it" "will" "be" |
+    "(D)dou-"8 "-ble"4. "(G)"16 \skip4. \skip16 |
+    "(D)"4 "so"8 "you" "(G)got" "to" "let" "me" |
+    "(A)know"2 \skip2 |
+    "(D)"8 \skip8 "Should"8 "I" "(G)stay" "or" "should" "I" |
+    "(D)go"8 \skip4. "(G)"4 \skip4 |
+    "(D)"2 "(G)" |
+    "(D)"2 "(G)" |
+    "(D)"2 "(G)" |
+    "(G)"2 "(F)" |
+    "(G)"2 "(F)" |
+    "(D)"2 "(G)" |
+    "(D)"2 "(G)" |
+    "(A)"1 |
+    "(D)"2 "(G)" |
+    "(D)"1 |
 }

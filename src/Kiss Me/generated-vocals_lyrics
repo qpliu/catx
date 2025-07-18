@@ -11,87 +11,87 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip1 |
     \skip1 |
 \mymark "Verse" #10
-    \skip8 "Kiss"8 \skip8 "me"8 \skip2 |
-    \skip8 "out"8 "of" "the"16 "beard-" \skip8 "-ed"8 "bar-" "-ley" |
-    \skip8 "Night-"8 \skip8 "-ly"8 \skip2 |
-    \skip8 "be-"8 "-side" "the"16 "green" \skip8 "green"8 \skip8 "grass"8 |
-    \skip4 "Swing"8 \skip8 "swing"2 |
-    \skip4 "swing"8 "the" "spin-"16 "-ning"8 "step"16 \skip4 |
-    \skip8 "You"8 "wear" "those" "shoes" "and" "I" "will" |
-    \skip8 "wear"8 "that" "dress" \skip8 "Oh"8 \skip4 |
+    "(F)"8 "Kiss" \skip8 "me"8 \skip2 |
+    "(F)"8 "out" "of" "the"16 "beard-" \skip8 "-ed"8 "bar-" "-ley" |
+    "(F)"8 "Night-" \skip8 "-ly"8 \skip2 |
+    "(F)"8 "be-" "-side" "the"16 "green" \skip8 "green"8 \skip8 "grass"8 |
+    "(F)"4 "Swing"8 \skip8 "swing"2 |
+    "(F)"4 "swing"8 "the" "spin-"16 "-ning"8 "step"16 \skip4 |
+    "(F)"8 "You" "wear" "those" "shoes" "and" "I" "will" |
+    "(Bb)"8 "wear" "that" "dress" \skip8 "Oh"8 \skip4 |
 \mymark "Chorus" #18
-    \skip8 "Kiss"8 "me" \skip2 \skip8 |
-    \skip8 "Be-"8 "-neath" "that"16 "milk-" \skip8 "-y"8 "twi-" "-light" |
-    \skip8 "Lead"8 \skip8 "me"2 \skip8 |
-    \skip8 "out"8 "on" "the"16 "moon-" \skip8 "-lit"4 "floor"16 \skip16 |
-    \skip4 "Lift"8 "your" "o-"16 "-pen" "hand"4. |
-    \skip8 "Strike"8 "up" "the"16 "band" \skip8 "and"16 "make"8 \skip16 "the"16 "fire-" |
-    \skip8 "-flies"8 "dance"4 "Sil-"8 "-ver"16 "moon's" \skip8 "spark-"16 \skip16 |
-    \skip8 "-ling"2. \skip8 |
-    \skip2 \skip8 "So"8 "kiss"4 |
-    "me"1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(G)"8 "Kiss" "me" "(C)" \skip2 |
+    "(F)"8 "Be-" "-neath" "(D)that"16 "milk-" \skip8 "-y"8 "twi-" "-light" |
+    "(G)"8 "Lead" \skip8 "(C)me"2 \skip8 |
+    "(F)"8 "out" "on" "the"16 "moon-" \skip8 "-lit"4 "floor"16 \skip16 |
+    "(G)"4 "Lift"8 "(C)your" "o-"16 "-pen" "hand"4. |
+    "(F)"8 "Strike" "up" "the"16 "band" "(E)"8 "and"16 "make"8 \skip16 "the"16 "fire-" |
+    "(D)"8 "-flies" "dance"4 "(C)Sil-"8 "-ver"16 "moon's" \skip8 "spark-"16 \skip16 |
+    "(Bb)"8 "-ling"2. \skip8 |
+    "(C)"2 \skip8 "So"8 "kiss"4 |
+    "(F)me"1 |
+    "(F)"1 |
+    "(F)"1 |
+    "(F)"1 |
 \mymark "Verse" #31
-    \skip8 "Kiss"8 \skip8 "me"8 \skip2 |
-    \skip8 "down"8 "by" "the"16 "bro-" \skip8 "-ken"8 "tree-" "-house" |
-    \skip8 "Swing"8 \skip8 "me"8 \skip2 |
-    \skip8 "up-"8 "-on"16 "its"8 "hang-"16 \skip8 "-ing"4 "tire"8 |
-    \skip8 "Bring"8 \skip8 "bring"8 \skip2 |
-    \skip4 "bring"8 "your" "flow-"16 "-ered"8 "hat"16 \skip4 |
-    \skip8 "We'll"8 "take" "the"16 "trail"8. "marked"8 "on" "your" |
-    \skip8 "fa-"8 "-ther's" "map" \skip8 "Oh"8 \skip4 |
+    "(F)"8 "Kiss" \skip8 "me"8 \skip2 |
+    "(F)"8 "down" "by" "the"16 "bro-" \skip8 "-ken"8 "tree-" "-house" |
+    "(F)"8 "Swing" \skip8 "me"8 \skip2 |
+    "(F)"8 "up-" "-on"16 "its"8 "hang-"16 \skip8 "-ing"4 "tire"8 |
+    "(F)"8 "Bring" \skip8 "bring"8 \skip2 |
+    "(F)"4 "bring"8 "your" "flow-"16 "-ered"8 "hat"16 \skip4 |
+    "(F)"8 "We'll" "take" "the"16 "trail"8. "marked"8 "on" "your" |
+    "(Bb)"8 "fa-" "-ther's" "map" \skip8 "Oh"8 \skip4 |
 \mymark "Chorus" #39
-    \skip8 "Kiss"8 \skip8 "me"2 \skip8 |
-    \skip8 "be-"8 "-neath" "the"16 "milk-" \skip8 "-y"8 "twi-" "-light" |
-    \skip8 "Lead"8 \skip8 "me"2 \skip8 |
-    \skip8 "out"8 "on" "the"16 "moon-" \skip4 "-lit"8 "floor"16 \skip16 |
-    \skip4 "Lift"8 "your" "o-" "-pen"16 "hand" \skip4 |
-    \skip8 "Strike"8 "up" "the"16 "band" \skip8 "and"16 "make" \skip8 "the"16 "fire-" |
-    \skip8 "-flies"8 "dance"4 "Sil-"8 "-ver"16 "moon's" \skip8 "spark-"16 \skip16 |
-    \skip8 "-ling"2. \skip8 |
-    \skip2 \skip8 "So"8 "kiss"4 |
+    "(G)"8 "Kiss" \skip8 "(C)me"2 \skip8 |
+    "(F)"8 "be-" "-neath" "(D)the"16 "milk-" \skip8 "-y"8 "twi-" "-light" |
+    "(G)"8 "Lead" \skip8 "(C)me"2 \skip8 |
+    "(F)"8 "out" "on" "the"16 "moon-" \skip4 "-lit"8 "floor"16 \skip16 |
+    "(G)"4 "Lift"8 "(C)your" "o-" "-pen"16 "hand" \skip4 |
+    "(F)"8 "Strike" "up" "the"16 "band" "(E)"8 "and"16 "make" \skip8 "the"16 "fire-" |
+    "(D)"8 "-flies" "dance"4 "(C)Sil-"8 "-ver"16 "moon's" \skip8 "spark-"16 \skip16 |
+    "(Bb)"8 "-ling"2. \skip8 |
+    "(C)"2 \skip8 "So"8 "kiss"4 |
 \mymark "Interlude" #48
-    "me"1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(F)me"1 |
+    "(F)"1 |
+    "(F)"1 |
+    "(F)"1 |
+    "(F)"1 |
+    "(F)"1 |
+    "(F)"1 |
+    "(F)"1 |
+    "(G)"2 "(C)" |
+    "(F)"2 "(D)" |
+    "(G)"2 "(C)" |
+    "(F)"2 "(D)" |
 \mymark "Chorus" #60
-    \skip8 "Kiss"8 \skip8 "me"2 \skip8 |
-    \skip8 "be-"8 "-neath" "the"16 "milk-" \skip8 "-y"8 "twi-" "-light" |
-    \skip8 "Lead"8 \skip8 "me"2 \skip8 |
-    \skip8 "out"8 "on" "the"16 "moon-" \skip4 "-lit"8 "floor"16 \skip16 |
-    \skip4 "Lift"8 "your" "o-"16 "-pen" "hand"4. |
-    \skip8 "Strike"8 "up" "the"16 "band" \skip8 "and"16 "make" \skip8 "the"16 "fire-" |
-    \skip8 "-flies"8 "dance"4 "Sil-"8 "-ver"16 "moon's" \skip8 "spark-"16 \skip16 |
-    \skip8 "-ling"2. \skip8 |
-    \skip2 \skip8 "So"8 "kiss"4 |
+    "(G)"8 "Kiss" \skip8 "(C)me"2 \skip8 |
+    "(F)"8 "be-" "-neath" "(D)the"16 "milk-" \skip8 "-y"8 "twi-" "-light" |
+    "(G)"8 "Lead" \skip8 "(C)me"2 \skip8 |
+    "(F)"8 "out" "on" "the"16 "moon-" \skip4 "-lit"8 "floor"16 \skip16 |
+    "(G)"4 "Lift"8 "(C)your" "o-"16 "-pen" "hand"4. |
+    "(F)"8 "Strike" "up" "the"16 "band" "(E)"8 "and"16 "make" \skip8 "the"16 "fire-" |
+    "(D)"8 "-flies" "dance"4 "(C)Sil-"8 "-ver"16 "moon's" \skip8 "spark-"16 \skip16 |
+    "(Bb)"8 "-ling"2. \skip8 |
+    "(C)"2 \skip8 "So"8 "kiss"4 |
 \mymark "Outro" #69
-    "me"1 |
-    \skip1 |
-    \skip1 |
-    \skip2 \skip8 "So"8 "kiss"4 |
-    "me"1 |
-    \skip1 |
-    \skip1 |
-    \skip2 \skip8 "So"8 "kiss"4 |
-    "me"1 |
-    \skip1 |
-    \skip1 |
-    \skip2 \skip8 "So"8 "kiss"4 |
-    "me"1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(F)"1 |
+    "(F)"1 |
+    "(F)"1 |
+    "(F)"2 \skip8 "So"8 "kiss"4 |
+    "(F)me"1 |
+    "(F)"1 |
+    "(F)"1 |
+    "(F)"2 \skip8 "So"8 "kiss"4 |
+    "(F)me"1 |
+    "(F)"1 |
+    "(F)"1 |
+    "(F)"2 \skip8 "So"8 "kiss"4 |
+    "(F)me"1 |
+    "(F)"1 |
+    "(F)"1 |
+    "(F)"1 |
+    "(F)"1 |
     \skip1 |
 }

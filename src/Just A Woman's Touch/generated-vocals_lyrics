@@ -8,65 +8,65 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \skip1 |
     \skip1 |
 \mymark "Verse" #7
-    "Once"8 "up-" "-on" "a" "time"4 \skip8 "there"8 |
-    "lived"8 "a" "man" "a-" "-lone"4 \skip4 |
-    \skip1 |
-    \skip1 |
-    "In"8 "a" "ti-" "-ny" "home"4 \skip4 |
-    "In"8 "a" "town" "un-" "-known"4 \skip4 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(A)Once"8 "up-" "-on" "a" "time"4 \skip8 "there"8 |
+    "(A)lived"8 "a" "man" "a-" "-lone"4 \skip4 |
+    "(A)"1 |
+    "(E)"1 |
+    "(A)In"8 "a" "ti-" "-ny" "home"4 \skip4 |
+    "(A)In"8 "a" "town" "un-" "-known"4 \skip4 |
+    "(A)"1 |
+    "(E)"2 "(D)" |
+    "(A)"1 |
     \skip1 |
 \mymark "Verse" #17
-    "In"8 "the" "mor-" "-ning" "sun"4 \skip8 "as"8 |
-    "win-"8 "-ter" "turns" "to" "spring"4 \skip4 |
-    \skip1 |
-    \skip2. \skip8 "He"8 |
-    "looks"8 "a-" "-round" "his" "room"4 \skip8 "it's"8 |
-    "miss-"8 "-ing" "just" "one" "thing"4 \skip4 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(A)In"8 "the" "mor-" "-ning" "sun"4 \skip8 "as"8 |
+    "(A)win-"8 "-ter" "turns" "to" "spring"4 \skip4 |
+    "(A)"1 |
+    "(E)"2 \skip4. "He"8 |
+    "(A)looks"8 "a-" "-round" "his" "room"4 \skip8 "it's"8 |
+    "(A)miss-"8 "-ing" "just" "one" "thing"4 \skip4 |
+    "(A)"1 |
+    "(E)"2 "(D)" |
+    "(A)"1 |
     \skip2. \skip8 "It"8 |
 \mymark "Chorus" #27
-    "does-"8 "-n't" "need" "that" "much"2 |
-    \skip2 "Just"8 "a" "wo-" "-man's" |
-    "touch"2 \skip2 |
-    "Just"8 "a" "wo-" "-man's" "touch"2 |
-    \skip2. \skip8 "He"8 |
+    "does-"8 "-n't" "need" "that" "(E)much"2 |
+    "(E)"2 "Just"8 "a" "wo-" "-man's" |
+    "(E)touch"2 \skip2 |
+    "(E)Just"8 "a" "wo-" "-man's" "touch"2 |
+    "(E)"2 \skip4. "He"8 |
 \mymark "Verse" #32
-    "sets"8 "out" "from" "his" "town"4 \skip8 "He"8 |
-    "lived"8 "there" "all" "his" "life"4 \skip4 |
-    \skip1 |
-    \skip2. \skip8 "He"8 |
-    "does-"8 "-n't" "want" "to" "leave"4 \skip8 "but"8 |
-    "wants"8 "to" "find" "a" "wife"4 \skip4 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(A)sets"8 "out" "from" "his" "town"4 \skip8 "He"8 |
+    "(A)lived"8 "there" "all" "his" "life"4 \skip4 |
+    "(A)"1 |
+    "(E)"2 \skip4. "He"8 |
+    "(A)does-"8 "-n't" "want" "to" "leave"4 \skip8 "but"8 |
+    "(A)wants"8 "to" "find" "a" "wife"4 \skip4 |
+    "(A)"1 |
+    "(E)"2 "(D)" |
+    "(A)"1 |
     \skip2. \skip8 "It"8 |
 \mymark "Chorus" #42
-    "does-"8 "-n't" "need" "that" "much"2 |
-    \skip2 "Just"8 "a" "wo-" "-man's" |
-    "touch"2 \skip2 |
-    "Just"8 "a" "wo-" "-man's" "touch"2 |
-    \skip1 |
+    "does-"8 "-n't" "need" "that" "(E)much"2 |
+    "(E)"2 "Just"8 "a" "wo-" "-man's" |
+    "(E)touch"2 \skip2 |
+    "(E)Just"8 "a" "wo-" "-man's" "touch"2 |
+    "(E)"1 |
 \mymark "Solo" #47
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(A)"1 |
+    "(A)"1 |
+    "(A)"1 |
+    "(E)"2 "(D)" |
+    "(A)"1 |
     \skip2. \skip8 "It"8 |
 \mymark "Chorus" #53
-    "does-"8 "-n't" "need" "that" "much"2 |
-    \skip2 "Just"8 "a" "wo-" "-man's" |
-    "touch"2 \skip2 |
-    "Just"8 "a" "wo-" "-man's" "touch"2 |
-    \skip1 |
-    \skip2 "Just"8 "a" "wo-" "-man's" |
-    "touch"2 \skip2 |
-    "Just"8 "a" "wo-" "-man's" "touch"2 |
-    \skip1 |
+    "does-"8 "-n't" "need" "that" "(E)much"2 |
+    "(E)"2 "Just"8 "a" "wo-" "-man's" |
+    "(E)touch"2 \skip2 |
+    "(E)Just"8 "a" "wo-" "-man's" "touch"2 |
+    "(E)"1 |
+    "(E)"2 "Just"8 "a" "wo-" "-man's" |
+    "(E)touch"2 \skip2 |
+    "(E)Just"8 "a" "wo-" "-man's" "touch"2 |
+    "(E)"1 |
 }

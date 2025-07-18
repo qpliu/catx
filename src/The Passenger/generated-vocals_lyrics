@@ -6,166 +6,166 @@ vocalsLyrics = \new Lyrics \lyricmode {
         \skip1 |
         \skip1 |
         \skip1 |
-        \skip1 |
-        \skip1 |
-        \skip1 |
-        \skip1 |
-        \skip1 |
-        \skip1 |
-        \skip1 |
-        \skip1 |
+        "(A)"2 "(F)" |
+        "(C)"2 "(G)" |
+        "(A)"2 "(F)" |
+        "(C)"2 "(G)" |
+        "(A)"2 "(F)" |
+        "(C)"2 "(G)" |
+        "(A)"2 "(F)" |
+        "(C)"2 "(G)" |
 \mymark "Verse 1" #14
-        \skip8 "I"8 "am" "a" "pas-"4 "sen-"8 "ger" |
-        \skip1 |
-        \skip8 "and"8 "I" "ride" \skip8 "and"8 "I" "ride" |
-        \skip1 |
-        \skip8 "I"8 "ride"4 "through" "the" |
-        "ci-"8 "ty" "back-" "sides" \skip2 |
-        \skip8 "I"8 "see" "the" "stars"4 "come" |
-        "out"8 "of" "the" "sky" \skip2 |
-        \skip4 "Yeah"8 "the" "bright"4 "and" |
-        "hol-"8 "low" \skip8 "sky"8 \skip2 |
-        \skip8 "You"8 "know" "it" "looks"4 "so" |
-        "good"4 "to-"8 "night" \skip2 |
-        \skip1 |
-        \skip1 |
-        \skip1 |
-        \skip1 |
+        "(A)"8 "I" "am" "a" "(F)pas-"4 "sen-"8 "ger" |
+        "(C)"4 \skip4 "(G)"4 \skip4 |
+        "(A)"8 "and" "I" "ride" "(F)" "and" "I" "ride" |
+        "(C)"4 \skip4 "(G)"4 \skip4 |
+        "(A)"8 "I" "ride"4 "(F)through" "the" |
+        "(C)ci-"8 "ty" "back-" "sides" "(G)"4 \skip4 |
+        "(A)"8 "I" "see" "the" "(F)stars"4 "come" |
+        "(C)out"8 "of" "the" "sky" "(G)"4 \skip4 |
+        "(A)"4 "Yeah"8 "the" "(F)bright"4 "and" |
+        "(C)hol-"8 "low" \skip8 "sky"8 "(G)"4 \skip4 |
+        "(A)"8 "You" "know" "it" "(F)looks"4 "so" |
+        "(C)good"4 "to-"8 "night" "(G)"4 \skip4 |
+        "(A)"2 "(F)" |
+        "(C)"2 "(G)" |
+        "(A)"2 "(F)" |
+        "(C)"2 "(G)" |
 \mymark "Verse 2" #30
-        \skip8 "I"8 "am" "the" "pas-"4 "sen-"8 "ger" |
-        \skip1 |
-        \skip8 "I"8 "stay" "un-"4 "der" "glass"8 |
-        \skip1 |
-        \skip8 "I"8 "look"4 "through" "my" |
-        "win-"8 "dow" "so" "bright" \skip2 |
-        \skip8 "I"8 "see" "the" "stars"4 "come" |
-        "out"8 "to-" \skip8 "night"8 \skip2 |
-        \skip8 "I"8 "see" "the" "bright"4 "and" |
-        "hol-"8 "low" \skip8 "sky"8 \skip2 |
-        \skip8 "O-"8 "ver" "the" "ci-"4 "ty's" |
-        "ripped"8 "back-" \skip8 "side"8 \skip2 |
-        \skip4 "E-"8 "very" "thing"4 "looks" |
-        "good"4 "to-"8 "night" \skip2 |
-        \skip1 |
-        \skip2. "Sing-"8 "ing" |
+        "(A)"8 "I" "am" "the" "(F)pas-"4 "sen-"8 "ger" |
+        "(C)"4 \skip4 "(G)"4 \skip4 |
+        "(A)"8 "I" "stay" "(F)un-"4 "der" "glass"8 |
+        "(C)"4 \skip4 "(G)"4 \skip4 |
+        "(A)"8 "I" "look"4 "(F)through" "my" |
+        "(C)win-"8 "dow" "so" "bright" "(G)"4 \skip4 |
+        "(A)"8 "I" "see" "the" "(F)stars"4 "come" |
+        "(C)out"8 "to-" \skip8 "night"8 "(G)"4 \skip4 |
+        "(A)"8 "I" "see" "the" "(F)bright"4 "and" |
+        "(C)hol-"8 "low" \skip8 "sky"8 "(G)"4 \skip4 |
+        "(A)"8 "O-" "ver" "the" "(F)ci-"4 "ty's" |
+        "(C)ripped"8 "back-" \skip8 "side"8 "(G)"4 \skip4 |
+        "(A)"4 "E-"8 "very" "(F)thing"4 "looks" |
+        "(C)good"4 "to-"8 "night" "(G)"4 \skip4 |
+        "(A)"2 "(F)" |
+        "(C)"2 "(G)"4 "Sing-"8 "ing" |
 \mymark "Chorus 1" #46
-        "la"4 "la" "la" "la" |
-        "la"8 "la" "la" "la" \skip2 |
-        "la"4 "la" "la" "la" |
-        "la"8 "la" "la" "la" \skip2 |
-        "la"4 "la" "la" "la" |
-        "la"8 "la" "la" "la" \skip4. "la"8 |
-        "la"4 \skip2. |
-        \skip1 |
-        \skip1 |
-        \skip1 |
+        "(A)la"4 "la" "(F)la" "la" |
+        "(C)la"8 "la" "la" "la" "(G)"4 \skip4 |
+        "(A)la"4 "la" "(F)la" "la" |
+        "(C)la"8 "la" "la" "la" "(G)"4 \skip4 |
+        "(A)la"4 "la" "(F)la" "la" |
+        "(C)la"8 "la" "la" "(G)la" \skip4. "la"8 |
+        "(A)la"4 \skip4 "(F)"4 \skip4 |
+        "(C)"2 "(G)" |
+        "(A)"2 "(F)" |
+        "(C)"2 "(G)" |
 \mymark "Verse 3" #56
-        \skip8 "Get"8 "in"4 "to"8 "the"4 "car"8 |
-        \skip1 |
-        \skip8 "We'll"8 "be" "the" "pas-"4 "sen-"8 "ger" |
-        \skip1 |
-        \skip8 "We'll"8 "ride"4 "through" "the" |
-        "ci-"8 "ty" "to-" "night" \skip2 |
-        \skip8 "We'll"8 "see" "the" "ci-"4 "ty's" |
-        "ripped"8 "back-" \skip8 "side"8 \skip2 |
-        \skip8 "We'll"8 "see" "the" "bright"4 "and" |
-        "hol-"8 "low" \skip8 "sky"8 \skip2 |
-        \skip8 "We'll"8 "see" "the" "stars"4 "that" |
-        "shine"8 "so" \skip8 "bright"8 \skip2 |
-        \skip4 "Oh"8 "the" "stars"4 "made" |
-        "for"8 "us" "to-" "night" \skip2 |
-        \skip1 |
-        \skip1 |
-        \skip1 |
-        \skip1 |
+        "(A)"8 "Get" "in"4 "(F)to"8 "the"4 "car"8 |
+        "(C)"4 \skip4 "(G)"4 \skip4 |
+        "(A)"8 "We'll" "be" "the" "(F)pas-"4 "sen-"8 "ger" |
+        "(C)"4 \skip4 "(G)"4 \skip4 |
+        "(A)"8 "We'll" "ride"4 "(F)through" "the" |
+        "(C)ci-"8 "ty" "to-" "night" "(G)"4 \skip4 |
+        "(A)"8 "We'll" "see" "the" "(F)ci-"4 "ty's" |
+        "(C)ripped"8 "back-" \skip8 "side"8 "(G)"4 \skip4 |
+        "(A)"8 "We'll" "see" "the" "(F)bright"4 "and" |
+        "(C)hol-"8 "low" \skip8 "sky"8 "(G)"4 \skip4 |
+        "(A)"8 "We'll" "see" "the" "(F)stars"4 "that" |
+        "(C)shine"8 "so" \skip8 "bright"8 "(G)"4 \skip4 |
+        "(A)"4 "Oh"8 "the" "(F)stars"4 "made" |
+        "(C)for"8 "us" "to-" "night" "(G)"4 \skip4 |
+        "(A)"2 "(F)" |
+        "(C)"2 "(G)" |
+        "(A)"2 "(F)" |
+        "(C)"2 "(G)" |
 \mymark "Verse 4" #74
-        \skip4 "Oh"8 "the" "pas-"4 "sen-"8 "ger" |
-        \skip1 |
-        \skip4 "How"4 "how" "he"8 "rides" |
-        \skip1 |
-        \skip4 "Oh"8 "the" "pas-"4 "sen-"8 "ger" |
-        \skip1 |
-        \skip8 "He"8 "rides"4 "and"8 "he"4 "rides"8 |
-        \skip1 |
-        \skip8 "He"8 "looks"4 "through"8 "his" "win-" "dow" |
-        \skip1 |
-        \skip4 "What"4 "does"8 "he"4 "see"8 |
-        \skip1 |
-        \skip8 "He"8 "sees" "the" "sign"4 "and" |
-        "hol-"8 "low"4 "sky"8 \skip2 |
-        \skip8 "He"8 "sees" "the" "stars"4 "come" |
-        "out"8 \skip8 "to-"8 "night" \skip2 |
-        \skip8 "He"8 "sees" "the" "ci-"4 "ty's" |
-        "ripped"4 "back-"8 "sides" \skip2 |
-        \skip8 "He"8 "sees" "the" "wind-"4 "ing" |
-        "o-"4 "cean"8 "drive" \skip2 |
-        \skip8 "And"8 "e-" "very" "thing"4 "was"8 "made" |
-        \skip8 "for"8 "you" "and" "me"4 \skip4 |
-        \skip4 "All"8 "of" "it"4 \skip8 "made"8 |
-        \skip8 "for"8 "you" "and" "me"4 \skip4 |
-        \skip4 "'Cause"8 "it" "just"4 "be-"8 "longs" |
-        \skip8 "to"8 "you" "and" "me"4 \skip4 |
-        \skip8 "So"8 "let's" "take" "a" "ride"4 "and"8 |
-        "see"8 "what's"4 "mine"8 \skip2 |
-        \skip1 |
-        \skip1 |
-        \skip1 |
-        \skip2. "Sing-"8 "ing" |
+        "(A)"4 "Oh"8 "the" "(F)pas-"4 "sen-"8 "ger" |
+        "(C)"4 \skip4 "(G)"4 \skip4 |
+        "(A)"4 "How" "(F)how" "he"8 "rides" |
+        "(C)"4 \skip4 "(G)"4 \skip4 |
+        "(A)"4 "Oh"8 "the" "(F)pas-"4 "sen-"8 "ger" |
+        "(C)"4 \skip4 "(G)"4 \skip4 |
+        "(A)"8 "He" "rides"4 "(F)and"8 "he"4 "rides"8 |
+        "(C)"4 \skip4 "(G)"4 \skip4 |
+        "(A)"8 "He" "looks"4 "(F)through"8 "his" "win-" "dow" |
+        "(C)"4 \skip4 "(G)"4 \skip4 |
+        "(A)"4 "What" "(F)does"8 "he"4 "see"8 |
+        "(C)"4 \skip4 "(G)"4 \skip4 |
+        "(A)"8 "He" "sees" "the" "(F)sign"4 "and" |
+        "(C)hol-"8 "low"4 "sky"8 "(G)"4 \skip4 |
+        "(A)"8 "He" "sees" "the" "(F)stars"4 "come" |
+        "(C)out"8 \skip8 "to-"8 "night" "(G)"4 \skip4 |
+        "(A)"8 "He" "sees" "the" "(F)ci-"4 "ty's" |
+        "(C)ripped"4 "back-"8 "sides" "(G)"4 \skip4 |
+        "(A)"8 "He" "sees" "the" "(F)wind-"4 "ing" |
+        "(C)o-"4 "cean"8 "drive" "(G)"4 \skip4 |
+        "(A)"8 "And" "e-" "very" "(F)thing"4 "was"8 "made" |
+        "(C)"8 "for" "you" "and" "(G)me"4 \skip4 |
+        "(A)"4 "All"8 "of" "(F)it"4 \skip8 "made"8 |
+        "(C)"8 "for" "you" "and" "(G)me"4 \skip4 |
+        "(A)"4 "'Cause"8 "it" "(F)just"4 "be-"8 "longs" |
+        "(C)"8 "to" "you" "and" "(G)me"4 \skip4 |
+        "(A)"8 "So" "let's" "take" "(F)a" "ride"4 "and"8 |
+        "(C)see"8 "what's"4 "mine"8 "(G)"4 \skip4 |
+        "(A)"2 "(F)" |
+        "(C)"2 "(G)" |
+        "(A)"2 "(F)" |
+        "(C)"4 \skip4 "(G)"4 "Sing-"8 "ing" |
 \mymark "Chorus 2" #106
-        "la"4 "la" "la" "la" |
-        "la"8 "la" "la" "la" \skip2 |
-        "la"4 "la" "la" "la" |
-        "la"8 "la" "la" "la" \skip2 |
-        "la"4 "la" "la" "la" |
-        "la"8 "la" "la" "la" \skip4. "la"8 |
-        "la"4 \skip2. |
-        \skip1 |
-        \skip1 |
-        \skip1 |
+        "(A)la"4 "la" "(F)la" "la" |
+        "(C)la"8 "la" "la" "la" "(G)"4 \skip4 |
+        "(A)la"4 "la" "(F)la" "la" |
+        "(C)la"8 "la" "la" "la" "(G)"4 \skip4 |
+        "(A)la"4 "la" "(F)la" "la" |
+        "(C)la"8 "la" "la" "la" "(G)"4 \skip8 "la"8 |
+        "(A)la"4 \skip4 "(F)"4 \skip4 |
+        "(C)"2 "(G)" |
+        "(A)"2 "(F)" |
+        "(C)"2 "(G)" |
 \mymark "Verse 5" #116
-        \skip4 "Oh"8 "the" "pas-"4 "sen-"8 "ger" |
-        \skip1 |
-        \skip4 "He"8 "rides"4 "and"8 "he" "rides" |
-        \skip1 |
-        \skip8 "He"8 "sees"4 "things" "from" |
-        "un-"8 "der" \skip8 "glass"8 \skip2 |
-        \skip8 "He"8 "looks"4 "through" "his" |
-        "win-"8 "dow-" \skip8 "-side"8 \skip2 |
-        \skip8 "He"8 "sees" "the" "things"4 "he" |
-        "knows"8 "are" \skip8 "his"8 \skip2 |
-        \skip8 "He"8 "sees" "the" "bright"4 "and" |
-        "hol-"8 "low" \skip8 "sky"8 \skip2 |
-        \skip8 "He"8 "sees" "the" "ci-"4 "ty" |
-        "sleep"8 "at" \skip8 "night"8 \skip2 |
-        \skip8 "He"8 "sees" "the" "stars"4 "are" |
-        "out"8 "to-" \skip8 "night"8 \skip2 |
-        \skip8 "And"8 "all" "of" "it"4 "is" |
-        "yours"8 "and" \skip8 "mine"8 \skip2 |
-        \skip8 "And"8 "all" "of" "it"4 "is" |
-        "yours"8 "and" \skip8 "mine"8 \skip4. "So"8 |
-        "let's"8 "ride"4 "and" "ride" "and"8 |
-        \skip8 "ride"4 "and" "ride"8 \skip4 |
-        \skip1 |
-        \skip1 |
-        \skip1 |
-        \skip2. "Sing-"8 "ing" |
+        "(A)"4 "Oh"8 "the" "(F)pas-"4 "sen-"8 "ger" |
+        "(C)"4 \skip4 "(G)"4 \skip4 |
+        "(A)"4 "He"8 "rides"4 "(F)and"8 "he" "rides" |
+        "(C)"4 \skip4 "(G)"4 \skip4 |
+        "(A)"8 "He" "(F)sees"4 "things" "from" |
+        "(C)un-"8 "der" \skip8 "glass"8 "(G)"4 \skip4 |
+        "(A)"8 "He" "looks"4 "(F)through" "his" |
+        "(C)win-"8 "dow-" \skip8 "-side"8 "(G)"4 \skip4 |
+        "(A)"8 "He" "sees" "the" "(F)things"4 "he" |
+        "(C)knows"8 "are" \skip8 "his"8 "(G)"4 \skip4 |
+        "(A)"8 "He" "sees" "the" "(F)bright"4 "and" |
+        "(C)hol-"8 "low" \skip8 "sky"8 "(G)"4 \skip4 |
+        "(A)"8 "He" "sees" "the" "(F)ci-"4 "ty" |
+        "(C)sleep"8 "at" \skip8 "night"8 "(G)"4 \skip4 |
+        "(A)"8 "He" "sees" "the" "(F)stars"4 "are" |
+        "(C)out"8 "to-" \skip8 "night"8 "(G)"4 \skip4 |
+        "(A)"8 "And" "all" "of" "(F)it"4 "is" |
+        "(C)yours"8 "and" \skip8 "mine"8 "(G)"4 \skip4 |
+        "(A)"8 "And" "all" "of" "(F)it"4 "is" |
+        "(C)yours"8 "and" \skip8 "mine"8 "(G)"4 \skip8 "So"8 |
+        "(A)let's"8 "ride"4 "and" "(F)ride" "and"8 |
+        "(C)"8 "ride"4 "and" "(G)ride"8 \skip4 |
+        "(A)"2 "(F)" |
+        "(C)"2 "(G)" |
+        "(A)"2 "(F)" |
+        "(C)"2 "(G)"4 "Sing-"8 "ing" |
 \mymark "Final Chorus" #142
-        "la"4 "la" "la" "la" |
-        "la"8 "la" "la" "la" \skip2 |
-        "la"4 "la" "la" "la" |
-        "la"8 "la" "la" "la" \skip2 |
-        "la"4 "la" "la" "la" |
-        "la"8 "la" "la" "la" \skip4. "la"8 |
-        "la"4 \skip2. |
-        \skip2. "Sing-"8 "ing" |
-        "la"4 "la" "la" "la" |
-        "la"8 "la" "la" "la" \skip2 |
-        "la"4 "la" "la" "la" |
-        "la"8 "la" "la" "la" \skip2 |
-        "la"4 "la" "la" "la" |
-        "la"8 "la" "la" "la" \skip2 |
-        "la"4 "la" "la" "la" |
-        "la"8 "la" "la" "la" \skip2 |
+        "(A)la"4 "la" "(F)la" "la" |
+        "(C)la"8 "la" "la" "la" "(G)"4 \skip4 |
+        "(A)la"4 "la" "(F)la" "la" |
+        "(C)la"8 "la" "la" "la" "(G)"4 \skip4 |
+        "(A)la"4 "la" "(F)la" "la" |
+        "(C)la"8 "la" "la" "la" "(G)"4 \skip8 "la"8 |
+        "(A)la"4 \skip4 "(F)"4 \skip4 |
+        "(C)"2 "(G)"4 "Sing-"8 "ing" |
+        "(A)la"4 "la" "(F)la" "la" |
+        "(C)la"8 "la" "la" "la" "(G)"4 \skip4 |
+        "(A)la"4 "la" "(F)la" "la" |
+        "(C)la"8 "la" "la" "la" "(G)"4 \skip4 |
+        "(A)la"4 "la" "(F)la" "la" |
+        "(C)la"8 "la" "la" "la" "(G)"4 \skip4 |
+        "(A)la"4 "la" "(F)la" "la" |
+        "(C)la"8 "la" "la" "la" "(G)"4 \skip4 |
         \skip1 |
     }
 }
