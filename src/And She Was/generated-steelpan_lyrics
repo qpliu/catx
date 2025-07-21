@@ -1,0 +1,128 @@
+steelpanLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \skip2. "Hey"4 |
+\mymark "Intro" #2
+    "(E)"2 "(A)" |
+    "(E)"2 "(A)" |
+    "(E)"2 "(A)" |
+    "(E)"2 "(A)" |
+\mymark "Verse" #6
+    "(E)"8 "And" "she" "was" "(A)ly-" "-ing" "in" "the"16 "grass" |
+    "(E)"4 \skip4 "(A)"4 \skip4 |
+    "(E)"8 "And" "she" "could" "(A)hear" "the"16 "high-"8. "-way"8 |
+    "(E)brea-"8 "-thing" \skip4 "(A)"8 \skip4. |
+    "(E)"8 "And" "she" "could" "(A)hear" "a"16 "near-"8. "-by"8 |
+    "(E)fac-"8 "-to-" "-ry" \skip8 "(A)"8 \skip4. |
+    "(E)"8 "She's" "ma-" "-king" "(A)sure" "she" "is" "not"16 "dream-" |
+    "(E)-ing"4 \skip4 "(A)"4 \skip4 |
+\mymark "Pre-Chorus" #14
+    "(Bb)"4 "See"8 "the" "(F)lights" "of" "a" "neigh-" |
+    "(C)"4 "-bor's"8 "house" "(F)"2 |
+    "(Bb)"4 "Now"8 "she's" "(C)start-" "-ing" "to" "rise" |
+    "(F)"2 \skip2 |
+    "(Bb)"4 "Take"8 "a" "(F)mi-" "-nute" "to" "con-" |
+    "(C)"4 "-trate"8 \skip8 "(F)"4 "And"8 "she" |
+    "(Bb)"4 "O-"8 "-pens" "(C)up" "her"4 "eyes"8 |
+    "(C)"2 \skip2 |
+\mymark "Chorus" #22
+    "(E)"8 "The" "world" "was" "(A)mo-" "-ving" "she" "was" |
+    "(D)"8 "right" \skip8 "there"8 "(A)with" "it" "and" "she" |
+    "(E)was"8 \skip4. "(A)"4 \skip4 |
+    "(D)"2 "(A)" |
+    "(E)"8 "The" "world" "was" "(A)mo-" "-ing" "she" "was" |
+    "(D)"8 "float-" "-ing" "a-" "(A)-bove" "it" "and" "she" |
+    "(E)was"8 \skip4. "(A)"4 \skip4 |
+    "(D)"2 "(A)"8 "And" "she" "was" |
+\mymark "Interlude" #30
+    "(E)"4 \skip4 "(A)"4 \skip4 |
+    "(E)"2 "(A)" |
+    "(E)"2 "(A)" |
+    "(E)"2 "(A)" |
+\mymark "Verse" #34
+    "(E)"8 "And" "she" "was" "(A)drift-" "-ing" "through" "the"16 "back" |
+    "(E)"8 "yard" \skip4 "(A)"4 \skip4 |
+    "(E)"8 "And" "she" "was" "(A)ta-" "-king"16 "off"8. "her"8 |
+    "(E)"8 "dress" \skip4 "(A)"4 \skip4 |
+    "(E)"8 "And" "she" "was" "(A)mo-" "-ing"16 "ve-"8. "-ry"8 |
+    "(E)slow-"8 "-ly" \skip4 "(A)"4 \skip4 |
+    "(E)"8 \skip8 "Ri-"8 "-sing" "(A)up"16 "a-" "-bove"4 "the"8 |
+    "(E)earth"4 \skip4 "(A)"4 \skip4 |
+\mymark "Pre-Chorus" #42
+    "(Bb)"4 "Mo-"8 "-ving" "(F)in-" "-to" "the" "u-" |
+    "(C)"4 "-ni-"8 "-verse" "(F)"4 "And"8 "she" |
+    "(Bb)"4 "drift-"8 "-ing" "(C)this" "way" "and" "that" |
+    "(F)"2 \skip2 |
+    "(Bb)"4 "Not" "(F)touch-"8 "-ing" "the" "ground" |
+    "(C)"4 "at"8 "all" "(F)"4 "and"8 "she's" |
+    "(Bb)"4 "up"8 "a-" "(C)-bove" "the"4 "yard"8 |
+    "(C)"2 \skip2 |
+\mymark "Chorus" #50
+    "(E)"8 "The" "world" "was" "(A)mo-" "-ving" "she" "was" |
+    "(D)"8 "right" \skip8 "there"8 "(A)with" "it" "and" "she" |
+    "(E)was"2 "(A)" |
+    "(D)"8 "Hey" \skip8 "Hey"8 "(A)"4 \skip4 |
+    "(E)"8 "The" "world" "was" "(A)mo-" "-ing" "she" "was" |
+    "(D)"8 "float-" "-ing" "a-" "(A)-bove" "it" "and" "she" |
+    "(E)was"8 \skip4. "(A)"4 \skip8 "Hey"8 |
+    "(D)"8 "Hey" \skip8 "Hey"8 "(A)" "And" "she" "was" |
+\mymark "Bridge" #58
+    "(B)"8 "She" "was" "proud"16 "a-" "-bout"4 "it" |
+    "(B)"8 "No" "doubt" "a-" "-bout"4 "it" |
+    "(G)"8 "She" "is-"16 "-n't" "sure"8 "a-"4 "-bout" |
+    "(G)"8 "what"8. "she's" "done"4 \skip4 |
+    "(B)"8 "No" "time" "to"16 "think"8 "a-"16 "-bout"4 \skip8 |
+    "(B)"8 "what"4 "to"8 "tell" \skip8 "him"8 \skip8 |
+    "(G)"8 "No" "time" "to" "talk" "a-" "-bout"4 |
+    "(G)what"4 "she's" "done"8 "And" "she" "was" |
+\mymark "Interlude" #66
+    "(E)"4 \skip4 "(A)"4 \skip4 |
+    "(E)"8 "Hey" \skip8 "Hey"8 "(A)" "Hey" \skip8 "Hey"8 |
+    "(E)"4 \skip4 "(A)"4 \skip4 |
+    "(E)"2 "(A)" |
+\mymark "Verse" #70
+    "(E)"8 "And" "she" "was" "(A)look-"16 "-ing" "at"4 "her-"8 |
+    "(E)self"4 \skip4 "(A)"4 \skip4 |
+    "(E)"8 "And" "things" "were" "(A)look-"16 "-ing" "like"4 "a"8 |
+    "(E)mo-"8 "-vie" \skip4 "(A)"4 \skip4 |
+    "(E)"8 "She" "had" "a" "(A)plea-"16 "-sant" "e-"4 "-le-"8 |
+    "(E)-va-"8 "-tion" \skip4 "(A)"4 \skip4 |
+    "(E)"8 "She's" "mo-" "-ving"16 "out" "(A)"8 "in" "all" "di-" |
+    "(E)-rec-"8 "-tion" "Oh" \skip8 "(A)oh"8 \skip8 "oh"8 \skip8 |
+\mymark "Pre-Chorus" #78
+    "(Bb)"8 \skip8 "Hey"8 \skip8 "(F)Hey"8 \skip8 "Hey"8 \skip8 |
+    "(C)Hey"8 \skip4 "Hey"8 "(F)" \skip8 "Hey"8 \skip8 |
+    "(Bb)Hey"8 \skip8 "Hey"8 \skip8 "(C)Hey"8 "Hey" \skip8 "Hey"8 |
+    "(F)"1 |
+    "(Bb)"8 \skip4. "(F)"8 \skip4. |
+    "(C)Hey"8 "Hey" \skip8 "Hey"8 "(F)" \skip8 "Hey"8 \skip8 |
+    "(Bb)Hey"8 \skip8 "Hey"8 \skip8 "(C)Hey"8 "Hey" \skip8 "Hey"8 |
+    "(C)"1 |
+\mymark "Chorus" #86
+    "(E)"8 "The" "world" "was" "(A)mo-" "-ving" "she" "was" |
+    "(D)"8 "right"4 "there"8 "(A)with" "it" "and" "she" |
+    "(E)was"4. "Hey"8 "(A)"2 |
+    "(D)"2 "(A)" |
+    "(E)"8 "The" "world" "was" "(A)mo-" "-ing" "she" "was" |
+    "(D)"8 "float-" "-ing" "a-" "(A)-bove" "it" "and" "she" |
+    "(E)was"8 \skip4. "(A)"2 |
+    "(D)"8 "Hey" \skip8 "Hey"8 "(A)"2 |
+    "(E)"8 "Join-" "-ing" "the" "(A)world"4 "of" |
+    "(D)"8 "miss-"4 "-ing"8 "(A)per-" "-sons" "and" "she" |
+    "(E)was"4 "Hey"8 \skip8 "(A)Hey"8 \skip8 "Hey"8 \skip8 |
+    "(D)Hey"8 \skip8 "Hey"8 \skip8 "(A)Hey"8 \skip8 "Hey"8 \skip8 |
+    "(E)"8 "Miss-" "-ing" "e-" "(A)-nough"4 "to" |
+    "(D)"8 "feel"4 "all"8 "(A)right" "and" "she" "was" |
+    "(E)"2 "(A)" |
+    "(D)"8 "Hey" \skip8 "Hey"8 "(A)" "and" "she" "was" |
+    "(E)"2 "(A)" |
+    "(D)"2 "(A)"8 "and" "she" "was" |
+    "(E)"2 "(A)" |
+    "(D)"2 "(A)"8 "and" "she" "was" |
+\mymark "Outro" #106
+    "(E)"8 \skip4. "(A)"8 \skip4 "Hey"8 |
+    "(D)"8 "Hey" \skip8 "Hey"8 "(A)" "and" "she" "was" |
+    "(E)"8 \skip4. "(A)"8 \skip4. |
+    "(D)"8 \skip4. "(A)"8 "and" "she" "was" |
+    "(E)"8 \skip4. "(A)"8 \skip8 "Hey"8 \skip8 |
+    "(D)"8 "Hey" \skip8 "Hey"8 "(A)" "and" "she" "was" |
+}
