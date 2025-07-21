@@ -118,7 +118,7 @@ drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd8 bd2 | } >>
     << { hh8 hh hh hh hh hho <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd8 bd4 hhp | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd8 bd2 | } >>
-    << { hh8 hh <hh sn> hh hh hho <hh sn> sn16 sn | } \context DrumVoice = "drsb" { bd4. bd8 bd4 hhp | } >>
+    << { hh8 hh <hh sn> hh sn16 sn sn sn sn sn sn sn | } \context DrumVoice = "drsb" { bd4. bd8 bd4 bd | } >>
 \mymark "Outro" #106
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd8 bd2 | } >>
     << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd8 bd2 | } >>

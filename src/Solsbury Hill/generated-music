@@ -19,7 +19,6 @@ layoutmusic = <<
     } <<
         \markupStuff
         \vocals
-        \clef "treble_8"
     >>
     \tag #'(allPart kavPart) \vocalsLyrics
     \tag #'(allPart peterPart) \new Staff \with {
@@ -60,7 +59,6 @@ layoutmusic = <<
     } <<
         \markupStuff
         \steelpan
-        \clef "treble_8"
     >>
     \tag #'(allPart susanPart) \steelpanLyrics
 >>
