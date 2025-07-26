@@ -1,36 +1,36 @@
 vocalsKaraoke = \new Lyrics \lyricmode {
     \myVocalsStuff
-    ">@|!check=1"2 "@"
-    "@|!check=2"2 "@"
-    "@|!check=3"2 "@"
-    "@|!check=4"2 "@"
-    "@|!check=5"2 "@"
-    "@|!check=6"2 "@"
-    "@|!check=7"2 "@"
-    "@|!check=8"2 "@"
-    "@|!check=9"2 "@"
-    "@|!check=10"2 "@"
-    "@|!check=11|!bg=4"2 "@|!bg=3"
-    "@|!check=12|!bg=2"2 "@|!bg=1"
-    "You|!check=13|!bg="8 "can't"4 "reach" "me"4.
-    "!check=14|-"2. \skip8 ">You"8
-    "les|!check=15"8 "sen" "my" "will"4 "to" "live"8
-    "!check=16"2 "-"
-    ">@|!check=17"2 "@"
-    "@|!check=18"2 "@"
-    "@|!check=19|!bg=4"2 "@|!bg=3"
-    "@|!check=20|!bg=2"2 "@|!bg=1"
-    "You|!check=21|!bg="8 "can't"4 "teach" "me"4.
-    "!check=22|-"2. \skip8 ">a"8
-    "les|!check=23"8 "son" "I" "will"4 "for" "give"8
-    "!check=24"2 "-"
-    "!check=25|-"2 "@@"32 "-"4. \skip16.
-    "!check=26|-"1
-    "!check=27|-"1
-    "!check=28|-"1
-    "!check=29|-"1
-    "!check=30|-"1
-    "!check=31|-"1
-    "!check=32|-"1
-    "!check=33|-"1
+    ">(A)|!check=1"1
+    "(A)|!check=2"1
+    "(G)|!check=3"1
+    "(G)|!check=4"1
+    "(A)|!check=5"1
+    "(A)|!check=6"1
+    "(G)|!check=7"1
+    "(G)|!check=8"1
+    "(A)|!check=9"1
+    "(G)|!check=10"1
+    "(A)|!check=11"1
+    "(G)|!check=12"1
+    ">(A)You|!check=13"8 "can't"4 "reach" "me"4.
+    "(A)|!check=14"2 "-"4. ">You"8
+    "(G)les-|!check=15"8 "-sen" "my" "will"4 "to" "live"8
+    "(A)|!check=16"2 "-"
+    ">(A)|!check=17"1
+    "(A)|!check=18"1
+    "(G)|!check=19"1
+    "(G)|!check=20"1
+    "(A)You|!check=21"8 "can't"4 "teach" "me"4.
+    "(A)|!check=22"2 "-"4. ">a"8
+    "(G)les-|!check=23"8 "-son" "I" "will"4 "for-" "-give"8
+    "(A)|!check=24"2 "-"
+    ">(A)|!check=25"1
+    "(A)|!check=26"1
+    "(G)|!check=27"1
+    "(G)|!check=28"1
+    "(A)|!check=29"1
+    "(A)|!check=30"1
+    "(G)|!check=31"1
+    "(G)|!check=32"1
+    "(A)|!check=33"1
 }

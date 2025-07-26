@@ -1,66 +1,68 @@
 vlyrics = \tripletFeel 8 \new Lyrics \lyricmode {
 \mymark "Intro" #1
-    "Ah"2 \skip2 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(Ab)Ah"2 \skip2 |
+    "(F)"1 |
+    "(Db)"1 |
+    "(Eb)"1 |
 \mymark "Verse 1" #5
-    "Rock"8 -- "in'" "a"4 -- "round"4 "the" |
-    "Christ"4 -- "mas"8 "tree," \skip4 "at"8 "the" |
-    "Christ"4 -- "mas" "par"4 -- "ty" |
-    "hop."4 \skip4 \skip2 |
-    "Mis"8 -- "tle" -- "toe"4 "hung"4 "where" |
-    "you"4 "can" "see;"4 "ev'"8 -- "ry" |
-    "cou"4 -- "ple" "wants"4 "to" |
-    "stop."4 \skip4 \skip2 |
+    "(Ab)Rock"8 -- "in'" "a"4 -- "round"4 "the" |
+    "(Ab)Christ"4 -- "mas"8 "tree," \skip4 "at"8 "the" |
+    "(Eb)Christ"4 -- "mas" "par"4 -- "ty" |
+    "(Eb)hop."4 \skip4 \skip2 |
+    "(Eb)Mis"8 -- "tle" -- "toe"4 "hung"4 "where" |
+    "(Eb)you"4 "can" "see;"4 "ev'"8 -- "ry" |
+    "(Eb)cou"4 -- "ple" "wants"4 "to" |
+    "(Ab)stop."4 \skip4 \skip2 |
 \mymark "Verse 2" #13
-    "Rock"8 -- "in'" "a"4 -- "round"4 "the" |
-    "Christ"4 -- "mas"8 "tree," \skip4 "let"8 "the" |
-    "Christ"4 -- "mas" "spi"4 -- "rit" |
-    "ring."4 \skip4 \skip2 |
-    "La"8 -- "ter" "we'll"4 "have"4 "some" |
-    "pump"4 -- "kin" "pie,"4 "and"8 "we'll" |
-    "do"4 "some" "ca"4 -- "ro" -- |
-    "ling."4 \skip4 \skip2 |
+    "(Ab)Rock"8 -- "in'" "a"4 -- "round"4 "the" |
+    "(Ab)Christ"4 -- "mas"8 "tree," \skip4 "let"8 "the" |
+    "(Eb)Christ"4 -- "mas" "spi"4 -- "rit" |
+    "(Eb)ring."4 \skip4 \skip2 |
+    "(Eb)La"8 -- "ter" "we'll"4 "have"4 "some" |
+    "(Eb)pump"4 -- "kin" "pie,"4 "and"8 "we'll" |
+    "(Eb)do"4 "some" "ca"4 -- "ro" -- |
+    "(Ab)ling."4 \skip4 \skip2 |
 \mymark "Chorus 1" #21
-    "You"4 "will" "get"4 "a" |
-    "sen"4 -- "ti" -- "men"8 -- "tal"4 "fee"4 --
-    "ling,"4. \skip8 "when"8 "you"8 "hear;"4.
-    \skip4 \skip2 |
-    "voi"4 -- "ces" "sing"4 -- "ing," |
-    "let's"4 "be" "jol"4 -- "ly" |
-    "deck"4 \skip8 "the"8 "halls"4 "with" |
+    "(Db)You"4 "will" "get"4 "a" |
+    "(Db)sen"4 -- "ti" -- "men"8 -- "tal"4 "fee"4 --
+    "(C)ling,"4. \skip8 "when"8 "you"8 "hear;"8
+    "(C)"1 |
+    "(F)voi"4 -- "ces" "sing"4 -- "ing," |
+    "(F)let's"4 "be" "jol"4 -- "ly" |
+    "(Bb)deck"4 \skip8 "the"8 "halls"4 "with" |
     "boughs"4 "of" "hol"4 -- "ly." |
 \mymark "Verse 3" #29
-    "Rock"8 -- "in'" "a"4 -- "round"4 "the" |
-    "Christ"4 -- "mas"8 "tree," \skip4 "have"8 "a" |
-    "hap"4 -- "py" "ho"4 -- "li" -- |
-    "day."4 \skip4 \skip2 |
-    "Ev'"8 -- "ry" -- "one"4 "dan"4 -- "cing" |
-    "mer"4 -- "ri" -- "ly,"4 "in"8 "the" |
-    "new"4 "old" "fa"4 -- "shioned" |
-    "way."4 \skip4 \skip2 |
+    "(Ab)Rock"8 -- "in'" "a"4 -- "round"4 "the" |
+    "(Ab)Christ"4 -- "mas"8 "tree," \skip4 "have"8 "a" |
+    "(Eb)hap"4 -- "py" "ho"4 -- "li" -- |
+    "(Eb)day."4 \skip4 \skip2 |
+    "(Eb)Ev'"8 -- "ry" -- "one"4 "dan"4 -- "cing" |
+    "(Eb)mer"4 -- "ri" -- "ly,"4 "in"8 "the" |
+    "(Eb)new"4 "old" "fa"4 -- "shioned" |
+    "(Ab)way."4 \skip4 \skip2 |
 \mymark "Solo 1" #37
-    \skip1*8
+    "(Ab)"1 "(Ab)"1 "(Eb)"1 "(Eb)"1
+    "(Eb)"1 "(Eb)"1 "(Eb)"1 "(Ab)"1
 \mymark "Solo 2" #45
-    \skip1*8
+    "(Ab)"1 "(Ab)"1 "(Eb)"1 "(Eb)"1 
+    "(Eb)"1 "(Eb)"1 "(Eb)"1 "(Ab)"1
 \mymark "Chorus 2" #53
-    "You"4 "will" "get"4 "a" |
-    "sen"4 -- "ti" -- "men"8 -- "tal"4 "fee"4 --
-    "ling,"4. \skip8 "when"8 "you" "hear;"4.
-    \skip4 \skip2 |
-    "voi"4 -- "ces" "sing"4 -- "ing," |
-    "let's"4 "be" "jol"4 -- "ly" |
-    "deck"4 \skip8 "the"8 "halls"4 "with" |
+    "(Db)You"4 "will" "get"4 "a" |
+    "(Db)sen"4 -- "ti" -- "men"8 -- "tal"4 "fee"4 --
+    "(C)ling,"4. \skip8 "when"8 "you" "hear;"8
+    "(C)"1 |
+    "(F)voi"4 -- "ces" "sing"4 -- "ing," |
+    "(F)let's"4 "be" "jol"4 -- "ly" |
+    "(Bb)deck"4 \skip8 "the"8 "halls"4 "with" |
     "boughs"4 "of" "hol"4 -- "ly." |
 \mymark "Outro" #61
-    "Rock"8 -- "in'" "a"4 -- "round"4 "the" |
-    "Christ"4 -- "mas"8 "tree," \skip4 "have"8 "a" |
-    "hap"4 -- "py" "ho"4 -- "li" -- |
-    "day."4 \skip4 \skip2 |
-    "Ev'"8 -- "ry" -- "one"4 "dan"4 -- "cing" |
-    "mer"4 -- "ri" -- "ly,"4 "in"8 "the" |
-    "new"4 \skip4 "old"4 \skip4 |
-    "fa"2 -- "shioned"2 |
-    "way"2
+    "(Ab)Rock"8 -- "in'" "a"4 -- "round"4 "the" |
+    "(Ab)Christ"4 -- "mas"8 "tree," \skip4 "have"8 "a" |
+    "(Eb)hap"4 -- "py" "ho"4 -- "li" -- |
+    "(Eb)day."4 \skip4 \skip2 |
+    "(Eb)Ev'"8 -- "ry" -- "one"4 "dan"4 -- "cing" |
+    "(Eb)mer"4 -- "ri" -- "ly,"4 "in"8 "the" |
+    "(Eb)new"4 \skip4 "(E)old"4 \skip4 |
+    "(F)fa"2 -- "(G)shioned"2 |
+    "(Ab)way"2
 }

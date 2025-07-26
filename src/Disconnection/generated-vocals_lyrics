@@ -2,58 +2,58 @@ vocalsLyrics = \new Lyrics \lyricmode {
     \myVocalsStuff
 \mymark "Intro" #1
     \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(C)"1 |
+    "(C)"1 |
+    "(G)"1 |
+    "(G)"1 |
+    "(C)"1 |
+    "(C)"1 |
+    "(G)"1 |
+    "(G)"1 |
 \mymark "Verse 1" #10
-    \skip4 "In"8 "a" "world" "of" "in" -- "cor" -- |
-    "rec"4 -- "tion"2. |
-    \skip4 "that's"8 "spread" -- "ing" "a" "big" "in" -- |
-    "fec"4 -- "tion"2. |
-    \skip4 "and"8 "sup" -- "pres" -- "sing" "the" "in" -- |
-    "jec"4 -- "tion"2. |
-    \skip4 "all"8 "I" "feel" "is" "dis" -- "con" -- |
-    "nec"4 -- "tion"2. |
+    "(C)"4 "In"8 "a" "world" "of" "in-" "-cor-" |
+    "(C)-rec-"4 "-tion"2. |
+    "(G)"4 "that's"8 "spread-" "-ing" "a" "big" "in-" |
+    "(G)-fec-"4 "-tion"2. |
+    "(A)"4 "and"8 "sup-" "-pres-" "-sing" "the" "in" |
+    "(A)-jec-"4 "-tion"2. |
+    "(F)"4 "all"8 "I" "feel" "is" "dis-" "-con-" |
+    "(F)-nec-"4 "-tion"2. |
 \mymark "Verse 2" #18
-    \skip4 "When"8 "the" "na" -- "tion" -- "al" "e" -- |
-    "lec"4 -- "tion"2. |
-    \skip4 "re"8 -- "sults" "in" "an" "in" -- "sur" -- |
-    "rec"4 -- "tion"2. |
-    \skip4 "and"8 "we" "are" "de" -- "nied" "pro" -- |
-    "tec"4 -- "tion"2. |
-    \skip4 "all"8 "I" "feel" "is" "dis" -- "con" -- |
-    "nec"4 -- "tion"2. |
+    "(C)"4 "When"8 "the" "na-" "-tion-" "-al" "e-" |
+    "(C)-lec-"4 "-tion"2. |
+    "(G)"4 "re-"8 "-sults" "in" "an" "in-" "-sur-" |
+    "(G)-rec-"4 "-tion"2. |
+    "(A)"4 "and"8 "we" "are" "de-" "-nied" "pro-" |
+    "(A)-tec-"4 "-tion"2. |
+    "(F)"4 "all"8 "I" "feel" "is" "dis-" "-con-" |
+    "(F)-nec-"4 "-tion"2. |
 \mymark "Solo" #26
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(C)"1 |
+    "(C)"1 |
+    "(G)"1 |
+    "(G)"1 |
+    "(A)"1 |
+    "(A)"1 |
+    "(F)"1 |
+    "(F)"1 |
 \mymark "Verse 3" #34
-    \skip4 "Af"8 -- "ter" "an" "a" -- "brupt" "re" -- |
-    "jec"4 -- "tion"2. |
-    \skip4 "and"8 "a" "sense" "of" "dis" -- "af" -- |
-    "fec"4 -- "tion"2. |
-    \skip4 "lea"8 -- "ving" "me" "with" "no" "di" -- |
-    "rec"4 -- "tion"2. |
-    \skip4 "all"8 "I" "feel" "is" "dis" -- "con" -- |
-    "nec"4 -- "tion"2. |
+    "(C)"4 "Af-"8 "-ter" "an" "a-" "-brupt" "re-" |
+    "(C)-jec-"4 "-tion"2. |
+    "(G)"4 "and"8 "a" "sense" "of" "dis-" "-af-" |
+    "(G)-fec-"4 "-tion"2. |
+    "(A)"4 "lea-"8 "-ving" "me" "with" "no" "dir-" |
+    "(A)-rec-"4 "-tion"2. |
+    "(F)"4 "all"8 "I" "feel" "is" "dis-" "-con-" |
+    "(F)-nec-"4 "-tion"2. |
 \mymark "Outro" #42
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(C)"1 |
+    "(C)"1 |
+    "(G)"1 |
+    "(G)"1 |
+    "(C)"1 |
+    "(C)"1 |
+    "(G)"1 |
+    "(G)"1 |
+    "(C)"1 |
 }
