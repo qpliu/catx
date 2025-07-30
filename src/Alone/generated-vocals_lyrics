@@ -16,23 +16,23 @@ vocalsLyrics = \new Lyrics \lyricmode {
     "te-"16 "le-" "phone"4 \skip2 \skip8 |
     \skip2. \skip8 "And"16 "the" |
 \mymark "Prechorus 1" #14
-    "night"8 "goes" "by" "so" "ve-"16 "ry"8. "slow"4 |
-    \skip2. "Oh"4 |
-    "I"8 "hope" "that" "it" \tuplet 3/2 { "won't"4 "end" "though" } |
-    \skip2. "a-"8 "lone" |
-    \skip1 |
+    "(Gb)night"8 "goes" "by" "so" "(F)ve-"16 "ry"8. "slow"4 |
+    "(Eb)"2 "(Db)"4 "Oh" |
+    "(Gb)I"8 "hope" "that" "it" \tuplet 3/2 { "(F)won't"4 "end" "though" } |
+    "(Eb)"2 \skip4 "a-"8 "lone" |
+    "(Db)"1 |
     \skip1 |
 \mymark "Chorus" #20
-    \skip4 "Till"8 "now"2 "I"8 |
-    "al-"8 "ways" "got" "by"4 "on"8 "my" "own" |
-    \skip4. "I"8 "ne-" "ver" "real-" "ly" |
-    "cared"8 "un-" "til" "I" "met" "you"4 \skip8 |
-    \skip2 \skip8 "And"8 "now" "it" |
-    "chills"8 "me" "to" "the" "bone"2 |
-    "How"8 "do" "I" "get"4 "you"8 "a-" "lone" |
-    \skip1 |
-    "How"8 "do" "I" "get"4 "you"8 "a-" "lone" |
-    \skip1 |
+    "(Eb)"4 "Till"8 "(Cb)now"2 "I"8 |
+    "(Gb)al-"8 "ways" "got" "(Db)by"4 "on"8 "my" "own" |
+    "(Eb)"4 \skip8 "(Cb)I"8 "ne-" "ver" "real-" "ly" |
+    "(Gb)cared"8 "un-" "til" "(Db)I" "met" "you"4 \skip8 |
+    "(Eb)"2 "(Cb)"8 "And" "now" "it" |
+    "(Gb)chills"8 "me" "to" "(Db)the" "bone"2 |
+    "(Gb)How"8 "do" "I" "(Cb)get"4 "you"8 "a-" "lone" |
+    "(Db)"1 |
+    "(Gb)How"8 "do" "I" "(Cb)get"4 "you"8 "a-" "lone" |
+    "(Db)"1 |
     \skip1 |
 \mymark "Verse 2" #31
     \skip8 "You"8 "don't" "know" "how" "long" "I" "have" |
@@ -44,45 +44,45 @@ vocalsLyrics = \new Lyrics \lyricmode {
     "tell"8 "you" "to-" "night"2 \skip8 |
     \skip2. \skip8 "But"16 "the" |
 \mymark "Prechorus 2" #39
-    "se-"8 "cret" \skip8 "is"8 "still"16 "my"8. "own"4 |
-    \skip2. "And"8 "my" |
-    "love"16 "for"8 "you"8. "is"8 "still"16 "un-"8. "known"4 |
-    \skip2. "a-"8 "lone" |
-    \skip1 |
+    "(Gb)se-"8 "cret" \skip8 "is"8 "(F)still"16 "my"8. "own"4 |
+    "(Eb)"2 "(Db)"4 "And"8 "my" |
+    "(Gb)love"16 "for"8 "you"8. "is"8 "(F)still"16 "un-"8. "known"4 |
+    "(Eb)"2 \skip4 "a-"8 "lone" |
+    "(Db)"1 |
     \skip1 |
 \mymark "Chorus" #45
-    \skip1 |
-    \skip1 |
-    \skip4. "Oh"8 \skip2 |
-    \skip1 |
-    \skip4 "Till"8 "now"2 "I"8 |
-    "al-"8 "ways" "got" "by"4 "on"8 "my" "own" |
-    \skip4. "I"8 "ne-" "ver" "real-" "ly" |
-    "cared"8 "un-" "til" "I" "met" "you"4 \skip8 |
-    \skip2 \skip8 "And"8 "now" "it" |
-    "chlls"8 "me" "to" "the" "bone"2 |
-    "How"8 "do" "I" "get"4 "you"8 "a-" "lone" |
-    \skip1 |
-    "How"8 "do" "I" "get"4 "you"8 "a-" "lone" |
-    \skip1 |
+    "(Eb)"4 "(Cb)"2. |
+    "(Gb)"4 "(Db)"2. |
+    "(Eb)"4 \skip8 "(Cb)Oh"8 \skip2 |
+    "(Gb)"4 \skip8 "(Db)"8 \skip2 |
+    "(Eb)"4 "Till"8 "(Cb)now"2 "I"8 |
+    "(Gb)al-"8 "ways" "got" "(Db)by"4 "on"8 "my" "own" |
+    "(Eb)"4 \skip8 "(Cb)I"8 "ne-" "ver" "real-" "ly" |
+    "(Gb)cared"8 "un-" "til" "(Db)I" "met" "you"4 \skip8 |
+    "(Eb)"2 "(Cb)"8 "And" "now" "it" |
+    "(Gb)chills"8 "me" "to" "(Db)the" "bone"2 |
+    "(Gb)How"8 "do" "I" "(Cb)get"4 "you"8 "a-" "lone" |
+    "(Db)"1 |
+    "(Gb)How"8 "do" "I" "(Cb)get"4 "you"8 "a-" "lone" |
+    "(Db)"1 |
 \mymark "Solo" #59
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
-    \skip1 |
+    "(Eb)"4 "(Cb)"2. |
+    "(Gb)"4 "(Db)"2. |
+    "(Eb)"4 "(Cb)"2. |
+    "(Gb)"4 "(Db)"2. |
+    "(Cb)"4 "(Bb)"2. |
+    "(Ab)"4 "(Gb)"2. |
+    "(F)"4 "(Eb)"2. |
+    "(Db)"4 \skip2. |
 \mymark "Chorus" #67
-    "How"8 "do" "I" "get"4 "you"8 "a-" "lone" |
-    \skip1 |
-    "How"8 "do" "I" "get"4 "you"8 "a-" "lone" |
-    \skip2. "A-"8 \skip8 |
-    "lone"4 \skip2. |
-    \skip2. "A-"8 \skip8 |
-    "lone"4 \skip2. |
-    \skip1 |
+    "(Gb)How"8 "do" "I" "(Cb)get"4 "you"8 "a-" "lone" |
+    "(Db)"1 |
+    "(Gb)How"8 "do" "I" "(Cb)get"4 "you"8 "a-" "lone" |
+    "(Db)"2. "A-"8 \skip8 |
+    "(Gb)lone"4 "(Cb)"2. |
+    "(Db)"2. "A-"8 \skip8 |
+    "(Gb)lone"4 "(Cb)"2. |
+    "(Db)"1 |
     \skip1 |
 \mymark "Outro" #76
     \skip1 |

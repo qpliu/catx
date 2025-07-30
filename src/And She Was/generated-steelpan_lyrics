@@ -93,14 +93,14 @@ steelpanLyrics = \new Lyrics \lyricmode {
     "(C)Hey"8 \skip4 "Hey"8 "(F)" \skip8 "Hey"8 \skip8 |
     "(Bb)Hey"8 \skip8 "Hey"8 \skip8 "(C)Hey"8 "Hey" \skip8 "Hey"8 |
     "(F)"1 |
-    "(Bb)"8 \skip4. "(F)"8 \skip4. |
+    "(Bb)"8 \skip8 "Hey"8 \skip8 "(F)Hey"8 \skip8 "Hey"8 \skip8 |
     "(C)Hey"8 "Hey" \skip8 "Hey"8 "(F)" \skip8 "Hey"8 \skip8 |
     "(Bb)Hey"8 \skip8 "Hey"8 \skip8 "(C)Hey"8 "Hey" \skip8 "Hey"8 |
     "(C)"1 |
 \mymark "Chorus" #86
     "(E)"8 "The" "world" "was" "(A)mo-" "-ving" "she" "was" |
     "(D)"8 "right"4 "there"8 "(A)with" "it" "and" "she" |
-    "(E)was"4. "Hey"8 "(A)"2 |
+    "(E)was"4. "Hey"8 "(A)" \skip4. |
     "(D)"2 "(A)" |
     "(E)"8 "The" "world" "was" "(A)mo-" "-ing" "she" "was" |
     "(D)"8 "float-" "-ing" "a-" "(A)-bove" "it" "and" "she" |
