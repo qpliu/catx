@@ -1,0 +1,165 @@
+steelpanLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \skip2. |
+    \skip2. |
+\mymark "Intro" #3
+    "(D)"2. |
+    "(D)"2. |
+    "(G)"2. |
+    "(G)"2. |
+    "(D)"2. |
+    "(D)"2. |
+    "(G)"2. |
+    "(G)"2. |
+\mymark "Verse" #11
+    "(D)"8 \skip2 "When"16 "the" |
+    "(D)day"8 "is" "long"2 |
+    "(G)"8 \skip4. "and"16 "the" "night"8 |
+    "(G)"4 \skip2 |
+    "(D)"8 \skip2 "the"8 |
+    "(D)night"8 "is" "yours" \skip8 "a-"8 "-lone" |
+    "(G)"4 \skip2 |
+    "(G)"2. |
+    "(D)"2 \skip8 "When"16 "you're" |
+    "(D)sure"8 "you've"4 \skip8 "had"8 "e-" |
+    "(G)-nough"4 \skip2 |
+    "(G)"4 \skip4 "of"16 "this" "life"8 |
+    "(D)life"4 \skip2 |
+    "(D)"2 "well"16 "hang" "on"8 |
+    "(G)"4 \skip2 |
+    "(G)"2. |
+\mymark "Chorus" #27
+    "(E)"4 \skip4. "Don't"8 |
+    "(E)let"8 "your-"4 \skip8 "-self"4 |
+    "(A)go"4 \skip2 |
+    "(A)"2. |
+    "(E)"4 \skip4. "'cause"8 |
+    "(E)e-"8 "-very-"4 \skip8 "-bo-"8 "-dy" |
+    "(A)cries"4 \skip2 |
+    "(A)"2. |
+    "(E)"4 \skip4. "'cause"8 |
+    "(E)e-"8 "-very-"4 \skip8 "-bo-"8 "-dy" |
+    "(A)hurts"4 \skip2 |
+    "(A)"4 \skip4 "some"4 |
+\mymark "Verse" #39
+    "(D)"4 "times"2 |
+    "(D)"2. |
+    "(G)"2. |
+    "(G)"8 "some-" "-times" "e-"16. "-very-" "-thing" "is" |
+    "(D)wrong"4 \skip2 |
+    "(D)"2. |
+    "(G)"2. |
+    "(G)"8 \skip8 "now"16 "it's" "time"16. "to" "sing" "a-" |
+    "(D)-long"4 \skip4. "When"16 "your" |
+    "(D)day"8 "is" \skip8 "night"8 "a-"4 |
+    "(G)-lone"4 \skip2 |
+    "(G)"4 \skip4 "hold"4 |
+    "(D)on"4 \skip4. "If"16 "you" |
+    "(D)feel"8 "like" "let-" \skip8 "-ting"8 "go" |
+    "(G)"4 \skip2 |
+    "(G)"2. |
+    "(D)"4 \skip4. "When"16 "you" |
+    "(D)think"8 "you've"4 \skip8 "had"8 "too" |
+    "(G)much"4 \skip2 |
+    "(G)"4 \skip4 "of"16 "this" "life"8 |
+    "(D)"4 \skip2 |
+    "(D)"4 \skip4 "well"16 "hang" "on"8 |
+    "(G)"4 \skip2 |
+    "(G)"2. |
+\mymark "Chorus" #63
+    "(E)"4 \skip4. "'cause"8 |
+    "(E)e-"8 "-very-"4 \skip8 "-bo-"8 "-dy" |
+    "(A)hurts"4 \skip2 |
+    "(A)"2. |
+    "(E)"4 \skip4. "take"8 |
+    "(E)com-"8 "-fort"4 \skip8 "in"8 "your" |
+    "(A)friends"4 \skip2 |
+    "(A)"2. |
+    "(E)"4 \skip4. "'cause"8 |
+    "(E)e-"8 "-very-"4 \skip8 "-bo-"8 "-dy" |
+    "(A)hurts"4 \skip2 |
+    "(A)"2. |
+\mymark "Bridge" #75
+    "(F#)"4 \skip4 "don't"4 |
+    "(F#)throw"4 \skip4 "your"8 "hand" |
+    "(B)"8 \skip2 \skip8 |
+    "(B)"4 \skip4 "oh"4 |
+    "(F#)"4 \skip2 |
+    "(F#)"2 \skip8 "no"8 |
+    "(B)"4 \skip2 |
+    "(B)"2. |
+    "(F#)"4 \skip4. "don't"8 |
+    "(F#)throw"8 "in"4 \skip8 "your"8 "hand" |
+    "(B)"8 \skip2 \skip8 |
+    "(B)"2. |
+    "(C)"4 \skip4. "if"16 "you" |
+    "(C)feel"8 "like"4 \skip8 "you're"16 "a-" "-lone"8 |
+    "(G)"16 \skip2 \skip8. |
+    "(G)"2. |
+    "(C)no"4. "no" |
+    "(C)no"4 "you're"8 "not" "a-" "-lone" |
+    "(A)"4 \skip2 |
+    "(A)"2. |
+\mymark "Verse" #95
+    "(D)"4 \skip4. "If"16 "you're" |
+    "(D)on"8 "your" "own"4 \skip4 |
+    "(G)"2. |
+    "(G)"4 \skip4 "in"16 "this" "life"8 |
+    "(G)"4 \skip2 |
+    "(D)"4 \skip4. "the"8 |
+    "(D)days"8 "and" "nights" \skip8 "are"8 "long" |
+    "(G)"4 \skip2 |
+    "(G)"2. |
+    "(D)"4 \skip4. "when"16 "you" |
+    "(D)think"8 "you've"4 \skip8 "had"8 "too" |
+    "(G)much"4 \skip2 |
+    "(G)"4 \skip4 "of"16 "this" "life"8 |
+    "(D)"4 \skip2 |
+    "(D)"4 \skip4 "to"16 "hang" "on"8 |
+    "(G)"4 \skip2 |
+\mymark "Chorus" #111
+    "(E)"4 \skip4. "well"8 |
+    "(E)e-"8 "-very-"4 \skip8 "-bo-"8 "-dy" |
+    "(A)hurts"4 \skip2 |
+    "(A)"4 \skip4. "some-"8 |
+    "(E)-times"4 \skip2 |
+    "(E)e-"8 "-very-"4 \skip8 "-bo-"8 "-dy" |
+    "(A)cries"4 \skip2 |
+    "(A)"2. |
+    "(E)"4 \skip4. "and"8 |
+    "(E)e-"8 "-very-"4 \skip8 "-bo-"8 "-dy" |
+    "(A)hurts"4 \skip2 |
+    "(A)"2. |
+    \skip4. "some-"4. |
+\mymark "Interlude" #124
+    "(D)"4 "-times" \skip4 |
+    "(D)"2. |
+    "(G)"4 \skip4. "and"8 |
+    "(G)e-"8 "-very-"4 \skip8 "-bo-"8 "-dy" |
+    "(D)hurts"4 \skip2 |
+    "(D)"4 \skip4 "some-"4 |
+    "(G)"4 "-times" \skip4 |
+    "(G)"2. |
+    \skip2 "so"8 "hold" |
+\mymark "Outro" #133
+    "(D)"8 "on"4 \skip4. |
+    "(D)"4 \skip4 "hold"4 |
+    "(G)"8 \skip2 \skip8 |
+    "(G)"4 \skip4 "hold"4 |
+    "(D)"8 "on"4 \skip4. |
+    "(D)"4 \skip4 "hold"4 |
+    "(G)"8 "on"16 \skip2 \skip16 |
+    "(G)"4 \skip4 "hold"4 |
+    "(D)"8 "on"4 \skip4. |
+    "(D)"4 \skip4 "hold"4 |
+    "(G)"8 \skip2 \skip8 |
+    "(G)"4 \skip4 "hold"4 |
+    "(D)"8 "on"4 \skip4. |
+    "(D)"4 \skip4 "hold"4 |
+    "(G)"8 "on"16 \skip2 \skip16 |
+    "(G)"4 \skip4 "hold"4 |
+    "(D)"8 "on"4 \skip4. |
+    "(D)"4 \skip4 "hold"4 |
+    "(G)"8 "on"4 \skip4. |
+    \skip2. |
+}

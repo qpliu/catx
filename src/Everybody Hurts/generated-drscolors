@@ -1,0 +1,166 @@
+drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+    hh4. hh |
+    hh4. hh |
+\mymark "Intro" #3
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+\mymark "Verse" #11
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+\mymark "Chorus" #27
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh2. |
+\mymark "Verse" #39
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+\mymark "Chorus" #63
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+\mymark "Bridge" #75
+    hh8 hh hh <hh sne> hh hh |
+    hh8 hh hh <hh sne> hh hh |
+    hh8 hh hh <hh sne> hh hh |
+    hh8 hh hh <hh sne> hh hh |
+    hh8 hh hh <hh sne> hh hh |
+    hh8 hh hh <hh sne> hh hh |
+    hh8 hh hh <hh sne> hh hh |
+    hh8 hh hh <hh sne> hh hh |
+    hh8 hh hh <hh sne> hh hh |
+    hh8 hh hh <hh sne> hh hh |
+    hh8 hh hh <hh sne> hh hh |
+    hh8 hh hh <hh sne> hh hh |
+    hh8 hh hh <hh sne> hh hh |
+    hh8 hh hh <hh sne> hh hh |
+    hh8 hh hh <hh sne> hh hh |
+    hh8 hh hh <hh sne> hh hh |
+    hh8 hh hh <hh sne> hh hh |
+    hh8 hh hh <hh sne> hh hh |
+    hh8 hh hh <hh sne> hh hh |
+    hh2. |
+\mymark "Verse" #95
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+\mymark "Chorus" #111
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh2. |
+    r2. |
+\mymark "Interlude" #124
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    hh8 hh hh <hh tomfl> hh hh |
+    r8 <hh sne> <hh sne> <hh sne> <hh sne> <hh sne> |
+\mymark "Outro" #133
+    << { hh8 hh hh <hh sne> hh hh | } \context DrumVoice = "drsb" { bd2 r8 bd | } >>
+    << { hh8 hh hh <hh sne> hh hh | } \context DrumVoice = "drsb" { bd2. | } >>
+    << { hh8 hh hh <hh sne> hh hh | } \context DrumVoice = "drsb" { bd2 r8 bd | } >>
+    << { hh8 hh hh <hh sne> hh hh | } \context DrumVoice = "drsb" { bd2. | } >>
+    << { hh8 hh hh <hh sne> hh hh | } \context DrumVoice = "drsb" { bd2 r8 bd | } >>
+    << { hh8 hh hh <hh sne> hh hh | } \context DrumVoice = "drsb" { bd2. | } >>
+    << { hh8 hh hh <hh sne> hh hh | } \context DrumVoice = "drsb" { bd2 r8 bd | } >>
+    << { hh8 hh hho tomml16 toml tomfh cymc8. | } \context DrumVoice = "drsb" { bd2. | } >>
+    << { hh8 hh hh <hh sne> hh hh | } \context DrumVoice = "drsb" { bd2 r8 bd | } >>
+    << { hh8 hh hh <hh sne> hh hh | } \context DrumVoice = "drsb" { bd2. | } >>
+    << { hh8 hh hh <hh sne> hh hh | } \context DrumVoice = "drsb" { bd2 r8 bd | } >>
+    << { hh8 hh hh <hh sne> hh hh | } \context DrumVoice = "drsb" { bd2. | } >>
+    << { hh8 hh hh <hh sne> hh hh | } \context DrumVoice = "drsb" { bd2 r8 bd | } >>
+    << { hh8 hh hh <hh sne> hh hh | } \context DrumVoice = "drsb" { bd2. | } >>
+    << { hh8 hh hh <hh sne> hh hh | } \context DrumVoice = "drsb" { bd2 r8 bd | } >>
+    << { hh8 hh hho tomml16 toml tomfh cymc8. | } \context DrumVoice = "drsb" { bd2. | } >>
+    << { hh8 hh hh <hh sne> hh hh | } \context DrumVoice = "drsb" { bd2 r8 bd | } >>
+    << { hh8 hh hh <hh sne> hh hh | } \context DrumVoice = "drsb" { bd2 r8 bd | } >>
+    << { hh8 hh hh <hh sne> hh hh | } \context DrumVoice = "drsb" { bd2 r8 bd | } >>
+    << { cymc2. | } \context DrumVoice = "drsb" { bd2. | } >>
+}
