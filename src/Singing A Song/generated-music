@@ -42,7 +42,7 @@ layoutmusic = <<
         \markupStuff
         \drs
     >>
-    \tag #'(allPart bassPart) \new Staff \with {
+    \tag #'(allPart bassPart kavPart) \new Staff \with {
         instrumentName = \markup { \rotate #90 "Bass" }
         shortInstrumentName = \markup { \rotate #90 "Ba" }
     } <<
@@ -51,7 +51,7 @@ layoutmusic = <<
         \clef "bass_8"
         { s128_"e a d g" }
     >>
-    \tag #'(allPart bassPart) \new TabStaff \with {
+    \tag #'(allPart bassPart kavPart) \new TabStaff \with {
         stringTunings = \stringTuning <e,, a,, d, g,>
     } \bass
     \tag #'(allPart susanPart) \new Staff \with {

@@ -5,7 +5,7 @@ java -jar ../../guitarproToLy/1.jar < song.gp5 \
 markup-extra 0 '\key e \minor' \
 transpose 1 scale bes \
 track 0 preset kav output-lilypond output-lyrics which-lyrics text \
-track 5 preset bass output-lilypond \
+track 5 preset bass output-lilypond layout-who "allPart bassPart kavPart" \
 track 8 preset gg output-drums \
 track 9 preset susan output-lilypond output-lyrics which-lyrics text \
 track 3 preset peter output-lilypond \
