@@ -1,0 +1,107 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \skip1 |
+\mymark "Intro" #2
+    "(D)"1 |
+    "(D)"1 |
+    "(C)"1 |
+    "(G)"1 |
+\mymark "Verse" #6
+    "(D)Give"16 "me" "a"8 "word"8. "give"8 "me"16 "a"8 "sign"4 |
+    "(D)show"16 "me" "where" "to" "look"8. "tell"8 "me"16 "what"8 "will" "I" |
+    "(C)find"8 \skip2 \skip16 "what"16 "will"8 "I" |
+    "(G)"8 "find"16 \skip2. \skip16 |
+    "(D)Lay"16 "me" "on" "the" "ground"8 "and"16 "fly"8 "me"16 "in" "the" "sky"4 |
+    "(D)show"16 "me" "where" "to" "look"8. "tell"8 "me"16 "what"8 "will" "I" |
+    "(C)find"8 \skip2 \skip16 "what"16 "will"8 "I" |
+    "(G)"8 "find"16 \skip2. \skip16 |
+\mymark "Pre-Chorus" #14
+    "(D)"4 \skip2 \skip8 "Yeah"8 |
+    "(D)"4 \skip2 \skip8 "Yeah"8 |
+    "(D)"4 \skip2 \skip8 "Yeah"8 |
+    "(D)"1 |
+\mymark "Chorus" #18
+    "(C)Oh"8 \skip4. "(G)"4 "Hea-"16 "-ven" "let" "your" |
+    "(D)light"8 "shine" "down" \skip2 \skip8 |
+    "(C)Oh"8 \skip4. "(G)"4 "Hea-"16 "-ven" "let" "your" |
+    "(D)light"8 "shine" "down" \skip2 \skip8 |
+    "(C)Oh"8 \skip4. "(G)"4 "Hea-"16 "-ven" "let" "your" |
+    "(D)light"8 "shine" "down" \skip2 \skip8 |
+    "(C)Oh"8 \skip4. "(G)"4 "Hea-"16 "-ven" "let" "your" |
+    "(D)light"8 "shine" "down" \skip2 \skip8 |
+\mymark "Interlude" #26
+    "(D)"1 |
+    "(D)"1 |
+    "(C)"1 |
+    "(G)"1 |
+\mymark "Verse" #30
+    "(D)Love"16 "is" "in" "the" "wa-"8 "-ter"16 "love"8 "is"16 "in" "the" "air"4 |
+    "(D)show"16 "me" "where" "to" "look"8. "tell"8 "me"16 "will"8 "love" "be" |
+    "(C)there"8 \skip2 \skip16 "will"16 "love"8 "be" |
+    "(G)"8 "there"16 \skip2. \skip16 |
+    "(D)Teach"16 "me" "how" "to" "speak"8. "teach"8 "me"16 "how" "to" "share"4 |
+    "(D)teach"16 "me" "where" "to" "go"8. "tell"8 "me"16 "will"8 "love" "be" |
+    "(C)there"8 \skip2 \skip16 "will"16 "love"8 "be" |
+    "(G)"8 "there"16 \skip2. \skip16 |
+\mymark "Pre-Chorus" #38
+    "(D)"4 \skip2 \skip8 "Yeah"8 |
+    "(D)"4 \skip2 \skip8 "Yeah"8 |
+    "(D)"4 \skip2 \skip8 "Yeah"8 |
+    "(D)"1 |
+\mymark "Chorus" #42
+    "(C)Oh"8 \skip4. "(G)"4 "Hea-"16 "-ven" "let" "your" |
+    "(D)light"8 "shine" "down" \skip2 \skip8 |
+    "(C)Oh"8 \skip4. "(G)"4 "Hea-"16 "-ven" "let" "your" |
+    "(D)light"8 "shine" "down" \skip2 \skip8 |
+    "(C)Oh"8 \skip4. "(G)"4 "Hea-"16 "-ven" "let" "your" |
+    "(D)light"8 "shine" "down" \skip2 \skip8 |
+    "(C)Oh"8 \skip4. "(G)"4 "Hea-"16 "-ven" "let" "your" |
+    "(D)light"8 "shine" "down" \skip2 \skip8 |
+\mymark "Interlude" #50
+    "(D)"1 |
+    "(D)"1 |
+    "(C)"1 |
+    "(G)"1 |
+\mymark "Solo 1" #54
+    "(D)"1 |
+    "(D)"1 |
+    "(C)"1 |
+    "(G)"1 |
+\mymark "Solo 2" #58
+    "(D)"16 \skip2. \skip8. |
+    "(D)"16 \skip2. \skip8. |
+    "(C)"4 \skip2. |
+    "(G)"4 \skip2. |
+\mymark "Interlude" #62
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Pre-Chorus" #66
+    "(D)"4 \skip2 \skip8 "Yeah"8 |
+    "(D)"4 \skip2 \skip8 "Yeah"8 |
+    "(D)"4 \skip2 \skip8 "Yeah"8 |
+    "(D)"1 |
+\mymark "Chorus" #70
+    "(C)Oh"8 \skip4. "(G)"4 "Hea-"16 "-ven" "let" "your" |
+    "(D)light"8 "shine" "down" \skip2 \skip8 |
+    "(C)Oh"8 \skip4. "(G)"4 "Hea-"16 "-ven" "let" "your" |
+    "(D)light"8 "shine" "down" \skip2 \skip8 |
+    "(C)Oh"8 \skip4. "(G)"4 "Hea-"16 "-ven" "let" "your" |
+    "(D)light"8 "shine" "down" \skip2 \skip8 |
+    "(C)Oh"8 \skip4. "(G)"4 "Hea-"16 "-ven" "let" "your" |
+    "(D)light"8 "shine" "down" \skip4. \skip16 "I'm"16 "gon-" "-na" |
+\mymark "Bridge" #78
+    "(C)let"16 "it"8 "shine" "I'm"16 "gon-" "-na" "(G)let" "it"8 "shine"8. \skip8 |
+    "(D)Hea-"16 "-ven's" "lit-" "-tle" "light"8 "gon-"16 "-na" "shine" "on"8 "me"8. "ah"8 |
+    "(C)Hey"16 \skip8. "yeah"4 "(G)Hey"16 \skip8. "yeah"4 |
+    "(D)Hea-"16 "-ven's" "lit-" "-tle" "light"8 \skip8 "shine"16 "on"8 "me"8. \skip8 |
+    "(C)Shine"2 "(G)"4 \skip16 "shine"16 "on"8 |
+    "(D)me"8 \skip4. "Yeah"16 \skip4. \skip16 |
+    "(C)Shine"2 "(G)"4 \skip16 "come"16 "on" "and" |
+\mymark "Outro" #85
+    "(D)shine"16 \skip2. \skip8. |
+    "(D)"1 |
+    "(D)"1 |
+    "(D)"1 |
+}
