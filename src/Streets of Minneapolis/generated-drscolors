@@ -1,0 +1,132 @@
+drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+    hhp4 hhp hhp hhp |
+    r4 hhp2 hhp4 |
+    r4 hhp2 hhp4 |
+\mymark "Verse" #4
+    r4 hhp2 hhp4 |
+    r4 hhp2 hhp4 |
+    r4 hhp2 hhp4 |
+    r4 hhp2 hhp4 |
+    r4 hhp2 hhp4 |
+    r4 hhp2 hhp4 |
+    r4 hh2 hh4 |
+    r4 hh2 hh4 |
+    r4 hh2 hh4 |
+    r4 hh2 hh4 |
+    r4 hh2 hh4 |
+    r4 hh2 hh4 |
+    r4 hh2 hh4 |
+    r4 hh2 hh4 |
+    r4 hh2 hh4 |
+    r4 hh2 sn4 |
+\mymark "Verse" #20
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd2 r8 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd2 r8 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd2 r8 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd2 r8 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> <hh sn>16 sn | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd2 r8 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd2 r8 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd2 r8 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd2 r8 | } >>
+    << { hh8 hh <hh sn> hh hh hh sn16 sn tomfh sn | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+\mymark "Chorus" #36
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd2 r8 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> sn16 sn | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh sn16 sn tomfh tomfh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { <hh sn>8 sn sn sn sn sn sn sn | } \context DrumVoice = "drsb" { bd1 | } >>
+\mymark "Verse" #53
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd2 r8 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd2 r8 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd2 r8 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd2 r8 | } >>
+    << { hh8 hh <hh sn> hh hh hh sn16 sn tomfh sn | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd2 r8 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd2 r8 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd2 r8 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd2 r8 | } >>
+    << { hh8 hh <hh sn> hh hho hho16 sn sn8 tomfh16 sn | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+\mymark "Chorus" #69
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd2 r8 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> sn16 sn | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> sn16 sn | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { cymc8 hh <hh sn> hh hh hh sn16 sn tomfh sn | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+\mymark "Solo" #77
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+\mymark "Verse" #85
+    <hh sn>8 hh hh hh hh hh hh hh |
+    r4 hhp2 hhp4 |
+    r4 hhp2 hhp4 |
+    r4 hhp2 hhp4 |
+    r4 hhp2 hhp4 |
+    r4 hh2 hh4 |
+    r4 hh2 hh4 |
+    r4 hh2 hh8 hho |
+    << { r4 hh2 hh4 | } \context DrumVoice = "drsb" { r2. r8 bd | } >>
+    << { r4 hh2 hh4 | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { r4 hh2 hh4 | } \context DrumVoice = "drsb" { r2. r8 bd | } >>
+    << { r4 hh2 hh4 | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { r4 hh2 hh4 | } \context DrumVoice = "drsb" { r2. r8 bd | } >>
+    << { r4 hh2 hh4 | } \context DrumVoice = "drsb" { bd1 | } >>
+    << { r4 hh2 hh4 | } \context DrumVoice = "drsb" { r2. r8 bd | } >>
+    << { r8 sn sn sn sn sn sn sn16 sn | } \context DrumVoice = "drsb" { bd1 | } >>
+\mymark "Chorus" #101
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd2 r8 | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> sn16 sn | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh sn16 sn sn sn | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh16 sn sn8 tomfh16 sn sn sn | } \context DrumVoice = "drsb" { bd4. bd2 r8 | } >>
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh sn16 sn tomfh tomfh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { cymc8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { hh8 hh <hh sn> hh hh hh <hh sn> hh | } \context DrumVoice = "drsb" { bd4. bd4 bd4. | } >>
+    << { sn8 sn sn sn sn sn sn sn | } \context DrumVoice = "drsb" { bd4 bd bd bd | } >>
+    << { cymc1 | } \context DrumVoice = "drsb" { bd1 | } >>
+}

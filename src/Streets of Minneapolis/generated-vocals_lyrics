@@ -1,0 +1,131 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \skip1 |
+    "(D)"1 |
+    "(D)"1 |
+\mymark "Verse" #4
+    "(D)Through"8 "the"4 "win-"8 "-ter's"4. "ice"8 |
+    "(D)"8 "and" "cold" \skip2 "down"8 |
+    "(G)Ni-"16 "-col-" "-let"4. "a-"8 "-ve-"4 "-nue"8 |
+    "(D)"4 \skip2 \skip8 "A"8 |
+    "(G)ci-"16 "-ty" "a-"4 "-flame" "fought" "fire"8 |
+    "(D)"8 "and" "ice"4 \skip4 "'neath"8 "an" |
+    "(D)oc-"8 "-cu-"4 "-pi-" "-er's" "boot"8 |
+    "(A)"2 \skip8 "King"8 "Trump's"4 |
+    "(D)pri-"4 "-vate" "ar-" "-my"8 "from" |
+    "(D)"8 "the" "D" "H" "S" \skip8 "Guns"4 |
+    "(G)belt-"8 "-ed"4 "to" "their" "coats"8 |
+    "(D)"2 \skip4 "Came"8 "to" |
+    "(G)Min-"16 "-ne-" "-a-"4 "-polis" "to"8 "en-" "-force" |
+    "(D)"8 "the" "law" \skip2 "Or"8 |
+    "(D)so"8 "their"4. "sto-"4 "-ry"8 "goes" |
+    \skip2. "A-"8 "-gainst" |
+\mymark "Verse" #20
+    "(D)"8 "smoke"4 "and" "rub-"8 "-ber"4 |
+    "(D)bul-"4 "-lets" \skip4. "In"8 |
+    "(G)the"8 "dawn's"4. "ear-"8 "-ly"4 "light"8 |
+    "(D)"4 \skip2. |
+    "(G)Ci-"16 "-ti-" "-zens"4 "stood" "for" "jus-"8 |
+    "(D)"8 "-tice"4 \skip4 "Their"8 "voi-" "-ces" |
+    "(D)ring-"8 "-ing"4. "through"4 "the"8 "night" |
+    "(A)"4 \skip2 \skip8 "And"8 |
+    "(D)there"8 "were"4. "blood-"8 "-y"4 "foot-"8 |
+    "(D)"8 "-prints" \skip2 \skip8 "Where"8 |
+    "(G)mer-"4 "-cy" "should"8 "have"4 "stood"8 |
+    "(D)"4 \skip2 "And"4 |
+    "(G)two"8 "dead"4 "left"8 "to" "die" "on" "snow" |
+    "(D)filled"8 "streets"4 \skip4. "A-"8 "-lex" |
+    "(D)Pret-"16 "-ti" \skip4 "and"8 "(A)Re-" "-nee"4 "Good"8 |
+    "(D)"2 \skip4 "Oh"8 "our" |
+\mymark "Chorus" #36
+    "(G)Min-"16 "-ne-" "-a-"4 "-polis" "I" "hear"8 |
+    "(G)"8 "your"4 "voice" \skip4 "Sing-"8 |
+    "(G)"8 "-ing" "through" "the" "blood-" "-y"4 "mist"8 |
+    "(D)"4 \skip2 \skip8 "We'll"8 |
+    "(G)take"8 "our"4 "stand" \skip4 "for"8 |
+    "(G)"8 "our" "land"4 \skip4 "and"8 "the" |
+    "(G)stran-"4. "-ger"8 "in" "our"4 "midst"8 |
+    "(D)"4 \skip2 \skip8 "Here"8 |
+    "(G)in"8 "our"4 "home" "they" "killed"8 |
+    "(G)"8 "and"4 "roamed" \skip8. "in"16 "the" "win-" |
+    "(G)-ter"4 "of"8 "twen-"4 "-ty" "six"8 |
+    "(D)"4 \skip2 "We'll"8 "re-" |
+    "(D)-mem-"8 "-ber" "the" "names"4. "of"8 "those" |
+    "(D)who"8 "died"4 \skip2 "on"16 "the" |
+    "(A)streets"8 "of"4 "Min-"8 "-ne-" "-a-"4 "-po-"8 |
+    "(D)-lis"2 \skip2 |
+    "(D)"2 \skip4 "Trump's"4 |
+\mymark "Verse" #53
+    "(D)fe-"16 "-de-" "-ral"8 "thugs"4 \skip2 |
+    "(D)beat"8 "up"4 "on" \skip4. |
+    "(G)his"4 "face" "and"8 "his"4 "chest"8 |
+    "(D)"4 \skip2. |
+    "(G)Then"8 "we"4 "heard"4. "the"8 "gun" |
+    "(D)"8 "shots"4 \skip4 "And"8 "A-" "-lex" |
+    "(D)"8 "Pret-" "-ti" "lay" "in" "the" "snow"4 |
+    "(A)dead"4 \skip2 \skip8 "Their"8 |
+    "(D)claim"4 "was"8 "self-"4 "de-" "-fense"8 |
+    "(D)"8 "sir"4 \skip4 "Just"4 "don't"8 |
+    "(G)"8 "be-"4 "-lieve" "your" "eyes"8 |
+    "(D)"8 \skip2 "It's"8 "our"4 |
+    "(G)blood"8 "and"4 "bones" "and" "these"8 |
+    "(D)whis-"16 "-tles" "and"4 "phones" "a-"8 "-gainst"4 |
+    "(D)Mil-"16 "-ler" "and"8 "Noem's"4 "dir-" "-ty"8 "lies" |
+    "(D)"2 \skip4 "Oh"8 "our" |
+\mymark "Chorus" #69
+    "(G)Min-"16 "-ne-" "-a-"4 "-polis" "I" "hear"8 |
+    "(G)"8 "your"4 "voice" \skip4 "Cry-"8 |
+    "(G)"8 "-ing" "through" "the" "blood-" "-y"4 "mist"8 |
+    "(D)"4 \skip2 "We'll"8 "re-" |
+    "(D)-mem-"8 "-ber" "the" "names"4. "of"8 "those" |
+    "(D)who"8 "died"4 \skip2 "on"16 "the" |
+    "(A)streets"8 "of"4 "Min-"8 "-ne-" "-a-"4 "-po-"8 |
+    "-lis"2 \skip2 |
+\mymark "Solo" #77
+    "(G)"16 \skip2. \skip8. |
+    "(G)"8 \skip2. \skip8 |
+    "(G)"8 \skip2. \skip8 |
+    "(D)"4 \skip2. |
+    "(D)"8 \skip2. \skip8 |
+    "(D)"8 \skip2. \skip8 |
+    "(A)"8 \skip2. \skip8 |
+    "(D)"2 \skip4 "Now they"8 \skip8 |
+\mymark "Verse" #85
+    "say"8 "they're"4 "here" "to"8 "up-" "-hold" |
+    \skip8 "the"8 "law"4 \skip4 "But"8 "they" |
+    "tram-"8 "-ple"4 "on" "our" "rights"8 |
+    \skip2. "If"8 "your" |
+    "skin"8 "is"4 "black" "or" "brown"8 |
+    \skip8 "my"8 "friend"4 \skip8 "You"8 "can" "be" |
+    "ques-"8 "-tioned" "or" "de-" "-port-" "-ed"4 "on"8 |
+    \skip8 "sight"4 \skip2 \skip8 |
+    "In"8 "chants"4 "of" "ICE" "OUT"8 |
+    \skip8 "NOW"4 \skip4. "Our"8 "ci-"16 "-ty's" |
+    "heart"8 "and"4 "soul" "per-" "-sists"8 |
+    \skip2. "Through"4 |
+    "bro-"8 "-ken"4 "glass" "and" "blood-"8 |
+    "-y"4 "tears" \skip4. "on"16 "the" |
+    "streets"8 "of"4 "Min-"16 "-ne-" "-a-"4 "-po-"8 "-lis" |
+    \skip1 |
+\mymark "Chorus" #101
+    "(G)Min-"16 "-ne-" "-a-"4 "-polis" "I" "hear"8 |
+    "(G)"8 "your"4 "voice" \skip4 "Sing-"8 |
+    "(G)"8 "-ing" "through" "the" "blood-" "-y"4 "mist"8 |
+    "(D)"4 \skip2 \skip8 "Here"16 "in" |
+    "(G)our"8 "home"4 "they" \skip4 "killed"8 |
+    "(G)"8 "and"4 "roamed" \skip8. "in"16 "the" "win-" |
+    "(G)-ter"4 "of"8 "twen-"4 "-ty" "six"8 |
+    "(D)"4 \skip2 \skip8 "We'll"8 |
+    "(G)take"8 "our"4 "stand" \skip4 "for"8 |
+    "(G)"8 "this"4 "land" "and"8 "the" "stran-" |
+    "(G)"4 \skip8 "-ger"8 "in" "our"4 "midst"8 |
+    "(D)"4 \skip2 "We'll"8 "re-" |
+    "(D)-mem-"8 "-ber" "the" "names"4. "of"8 "those" |
+    "(D)who"8 "died"4 \skip2 "on"16 "the" |
+    "(A)streets"8 "of"4 "Min-"8 "-ne-" "-a-"4 "-po-"8 |
+    "(D)-lis"2 \skip4 "We'll"8 "re-" |
+    "(D)-mem-"8 "-ber" "the" "names"4. "of"8 "those" |
+    "(D)who"8 "died"4 \skip2 "on"16 "the" |
+    "(A)streets"8 "of"4 "Min-"8 "-ne-" "-a-"4 "-po-"8 |
+    "(D)-lis"1 |
+}
