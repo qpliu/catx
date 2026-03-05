@@ -1,0 +1,73 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    "(E only on beat 3 in intro)"2. |
+    "(B)"2. |
+    "(C#)"2. |
+    "(G#)"2. |
+    "(A)"2. |
+    "(E)"2. |
+    "(B)"2. |
+    "(C#)"2. |
+    "(G#)"2. |
+    "(A)"2 \skip8 "I"8 |
+\mymark "Verse" #11
+    "(E)used"8 "to" "have" "the" "an-" "-swer"16 "be-" |
+    "(B)-fore"8 "the" "buz-" "-zer" "sounds"4 |
+    "(C#)"4 \skip8 "and"8 "now" "it's" |
+    "(G#)what's"8 "the" "word" "I" "want?"4 |
+    "(A)What's"8 "the" "word" "I" "want?" "I" |
+    "(E)used"8 "to" "know" "the" "names" "of"16 "who-" |
+    "(B)-e-"8 "-ver" "came" "a-" "-round"4 |
+    "(C#)"4 \skip8 "and"8 "now" "it's" |
+    "(G#)what's"8 "your" "name" "a-" "-gain?"4 |
+    "(A)What's"8 "your" "name" "a-" "-gain?" "My" |
+\mymark "Chorus" #21
+    "(E)mind"4. "is" |
+    "(B)slow-"4. "-ing" |
+    "(C#)down"2. |
+    "(G#)"2. |
+    "(A)"2 \skip8 "My"8 |
+    "(E)mind"4. "is" |
+    "(B)slow-"4. "-ing" |
+    "(C#)down"2. |
+    "(G#)"2. |
+    "(A)"2 \skip8 "I"8 |
+\mymark "Verse" #31
+    "(E)used"8 "to" "get" "the" "cof-" "-fee" |
+    "(B)right"8 "down" "to" "the" "ounce"4 |
+    "(C#)"4 \skip8 "and"8 "now" "it's" |
+    "(G#)what'd"8 "I" "come" "here" "for?"4 |
+    "(A)What'd"8 "I" "come" "here" "for?" "I" |
+    "(E)used"8 "to" "keep" "a" "sche-" "-dule" |
+    "(B)and"8 "I" "made" "it" "count"4 |
+    "(C#)"4 \skip8 "and"8 "now" "it's" |
+    "(G#)what"8 "did" "I" "just" "miss?"4 |
+    "(A)What"8 "did" "I" "just" "miss?" "My" |
+\mymark "Chorus" #41
+    "(E)mind"4. "is" |
+    "(B)slow-"4. "-ing" |
+    "(C#)down"2. |
+    "(G#)"2. |
+    "(A)"2 \skip8 "My"8 |
+    "(E)mind"4. "is" |
+    "(B)slow-"4. "-ing" |
+    "(C#)down"2. |
+    "(G#)"2. |
+    "(A)"2. |
+\mymark "Break" #51
+    "(E)"2. |
+    "(B)"2. |
+    "(C#)"2. |
+    "(G#)"2. |
+    "(A)"2 \skip8 "My"8 |
+\mymark "Outro" #56
+    "(E)mind"4. "is" |
+    "(B)slow-"4. "-ing" |
+    "(C#)down"2. |
+    "(G#)"2. |
+    "(A)"2 \skip8 "My"8 |
+    "(E)mind"4. "is" |
+    "(B)slow-"4. "-ing" |
+    "(C#)down"2. |
+}

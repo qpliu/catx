@@ -1,0 +1,73 @@
+vocals = {
+    \myVocalsStuff
+\mymark "Intro" #1
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2 r8 e' |
+\mymark "Verse" #11
+    gis'8 gis' fis' e' fis' gis'16 gis' |
+    fis'8 fis' fis' gis' fis'4 |
+    r4. gis'8 e' e' |
+    dis'8 dis' dis' dis' dis'4 |
+    e'8 e' e' e' e' e' |
+    gis'8 gis' fis' e' fis' gis'16 gis' |
+    fis'8 fis' fis' gis' fis'4 |
+    r4. e'8 fis' fis' |
+    gis'8 gis' gis' gis' gis'4 |
+    a'8 a' a' a' a' e' |
+\mymark "Chorus" #21
+    gis'4. gis' |
+    fis'4. fis' |
+    e'2. |
+    r2. |
+    r2 r8 e' |
+    gis'4. gis' |
+    fis'4. fis' |
+    e'2. |
+    r2. |
+    r2 r8 e' |
+\mymark "Verse" #31
+    gis'8 gis' fis' e' fis' gis' |
+    fis'8 fis' fis' gis' fis'4 |
+    r4. gis'8 e' e' |
+    dis'8 dis' dis' dis' dis'4 |
+    e'8 e' e' e' e' e' |
+    gis'8 gis' fis' e' fis' gis' |
+    fis'8 fis' fis' gis' fis'4 |
+    r4. e'8 fis' fis' |
+    gis'8 gis' gis' gis' gis'4 |
+    a'8 a' a' a' a' e' |
+\mymark "Chorus" #41
+    gis'4. gis' |
+    fis'4. fis' |
+    e'2. |
+    r2. |
+    r2 r8 e' |
+    gis'4. gis' |
+    fis'4. fis' |
+    e'2. |
+    r2. |
+    r2. |
+\mymark "Break" #51
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2 r8 e' |
+\mymark "Outro" #56
+    gis'4. gis' |
+    fis'4. fis' |
+    e'2. |
+    r2. |
+    r2 r8 e' |
+    gis'4. gis' |
+    fis'4. fis' |
+    e'2. |
+}

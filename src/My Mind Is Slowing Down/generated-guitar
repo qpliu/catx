@@ -1,0 +1,72 @@
+guitar = {
+\mymark "Intro" #1
+    r2 <e,\6 b,\5>8 <e,\6 b,\5> |
+    r2 <b,\5 fis\4>8 <b,\5 fis\4> |
+    r2 <cis\5 gis\4>8 <cis\5 gis\4> |
+    r2 <gis,\6 dis\5>8 <gis,\6 dis\5> |
+    r2 <a,\6 e\5>8 <a,\6 e\5> |
+    fis8\4 gis\4 fis\4 e\4 <e,\6 b,\5> <e,\6 b,\5> |
+    fis8\4 gis\4 fis\4 e\4 <b,\5 fis\4> <b,\5 fis\4> |
+    fis8\4 gis\4 fis\4 e\4 <cis\5 gis\4> <cis\5 gis\4> |
+    fis8\4 gis\4 fis\4 e\4 <gis,\6 dis\5> <gis,\6 dis\5> |
+    fis8\4 gis\4 fis\4 e\4 <a,\5 e\4> <a,\5 e\4> |
+\mymark "Verse" #11
+    <e,\6 b,\5>8 <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> |
+    <fis,\6 b,\5>8 <fis,\6 b,\5> <fis,\6 b,\5> <fis,\6 b,\5> <fis,\6 b,\5> <fis,\6 b,\5> |
+    <gis,\6 cis\5>8 <gis,\6 cis\5> <gis,\6 cis\5> <gis,\6 cis\5> <gis,\6 cis\5> <gis,\6 cis\5> |
+    <gis,\6 dis\5>8 <gis,\6 dis\5> <gis,\6 dis\5> <gis,\6 dis\5> <gis,\6 dis\5> <gis,\6 dis\5> |
+    <a,\6 e\5>8 <a,\6 e\5> <a,\6 e\5> <a,\6 e\5> <a,\6 e\5> <a,\6 e\5> |
+    <e,\6 b,\5>8 <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> |
+    <fis,\6 b,\5>8 <fis,\6 b,\5> <fis,\6 b,\5> <fis,\6 b,\5> <fis,\6 b,\5> <fis,\6 b,\5> |
+    <gis,\6 cis\5>8 <gis,\6 cis\5> <gis,\6 cis\5> <gis,\6 cis\5> <gis,\6 cis\5> <gis,\6 cis\5> |
+    <gis,\6 dis\5>8 <gis,\6 dis\5> <gis,\6 dis\5> <gis,\6 dis\5> <gis,\6 dis\5> <gis,\6 dis\5> |
+    <a,\6 e\5>8 <a,\6 e\5> <a,\6 e\5> <a,\6 e\5> <a,\6 e\5> <a,\6 e\5> |
+\mymark "Chorus" #21
+    <e,\6 b,\5 e\4 gis\3 b\2 e'\1>2. |
+    <b,\5 fis\4 b\3 dis'\2>2. |
+    <cis\5 gis\4 cis'\3 e'\2 gis'\1>2. |
+    <gis,\6 dis\5 gis\4 b\3 dis'\2 gis'\1>2. |
+    <a,\6 e\5 a\4 cis'\3 e'\2 a'\1>2. |
+    <e,\6 b,\5 e\4 gis\3 b\2 e'\1>2. |
+    <b,\5 fis\4 b\3 dis'\2>2. |
+    <cis\5 gis\4 cis'\3 e'\2 gis'\1>2. |
+    <gis,\6 dis\5 gis\4 b\3 dis'\2 gis'\1>2. |
+    <a,\6 e\5 a\4 cis'\3 e'\2 a'\1>2. |
+\mymark "Verse" #31
+    <e,\6 b,\5>8 <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> |
+    <fis,\6 b,\5>8 <fis,\6 b,\5> <fis,\6 b,\5> <fis,\6 b,\5> <fis,\6 b,\5> <fis,\6 b,\5> |
+    <gis,\6 cis\5>8 <gis,\6 cis\5> <gis,\6 cis\5> <gis,\6 cis\5> <gis,\6 cis\5> <gis,\6 cis\5> |
+    <gis,\6 dis\5>8 <gis,\6 dis\5> <gis,\6 dis\5> <gis,\6 dis\5> <gis,\6 dis\5> <gis,\6 dis\5> |
+    <a,\6 e\5>8 <a,\6 e\5> <a,\6 e\5> <a,\6 e\5> <a,\6 e\5> <a,\6 e\5> |
+    <e,\6 b,\5>8 <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> <e,\6 b,\5> |
+    <fis,\6 b,\5>8 <fis,\6 b,\5> <fis,\6 b,\5> <fis,\6 b,\5> <fis,\6 b,\5> <fis,\6 b,\5> |
+    <gis,\6 cis\5>8 <gis,\6 cis\5> <gis,\6 cis\5> <gis,\6 cis\5> <gis,\6 cis\5> <gis,\6 cis\5> |
+    <gis,\6 dis\5>8 <gis,\6 dis\5> <gis,\6 dis\5> <gis,\6 dis\5> <gis,\6 dis\5> <gis,\6 dis\5> |
+    <a,\6 e\5>8 <a,\6 e\5> <a,\6 e\5> <a,\6 e\5> <a,\6 e\5> <a,\6 e\5> |
+\mymark "Chorus" #41
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> |
+    <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> |
+    <cis\5 gis\4 cis'\3>8 <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> |
+    <gis,\6 dis\5 gis\4>8 <gis,\6 dis\5 gis\4> <gis,\6 dis\5 gis\4> <gis,\6 dis\5 gis\4> <gis,\6 dis\5 gis\4> <gis,\6 dis\5 gis\4> |
+    <a,\6 e\5 a\4>8 <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> |
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> |
+    <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> |
+    <cis\5 gis\4 cis'\3>8 <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> |
+    <gis,\6 dis\5 gis\4>8 <gis,\6 dis\5 gis\4> <gis,\6 dis\5 gis\4> <gis,\6 dis\5 gis\4> <gis,\6 dis\5 gis\4> <gis,\6 dis\5 gis\4> |
+    <a,\6 e\5 a\4>8 <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> |
+\mymark "Break" #51
+    fis8\4 gis\4 fis\4 e\4 <e,\6 b,\5> <e,\6 b,\5> |
+    fis8\4 gis\4 fis\4 e\4 <b,\5 fis\4> <b,\5 fis\4> |
+    fis8\4 gis\4 fis\4 e\4 <cis\5 gis\4> <cis\5 gis\4> |
+    fis8\4 gis\4 fis\4 e\4 <gis,\6 dis\5> <gis,\6 dis\5> |
+    fis8\4 gis\4 fis\4 e\4 <a,\5 e\4> <a,\5 e\4> |
+\mymark "Outro" #56
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> |
+    <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> |
+    <cis\5 gis\4 cis'\3>8 <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> <cis\5 gis\4 cis'\3> |
+    <gis,\6 dis\5 gis\4>8 <gis,\6 dis\5 gis\4> <gis,\6 dis\5 gis\4> <gis,\6 dis\5 gis\4> <gis,\6 dis\5 gis\4> <gis,\6 dis\5 gis\4> |
+    <a,\6 e\5 a\4>8 <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> <a,\6 e\5 a\4> |
+    <e,\6 b,\5 e\4>8 <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> <e,\6 b,\5 e\4> |
+    <b,\5 fis\4 b\3>8 <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> <b,\5 fis\4 b\3> |
+    <cis\5 gis\4 cis'\3>2. |
+}

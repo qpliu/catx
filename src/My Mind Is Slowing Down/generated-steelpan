@@ -1,0 +1,73 @@
+steelpan = {
+    \myVocalsStuff
+\mymark "Intro" #1
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2 r8 e' |
+\mymark "Verse" #11
+    gis'8 gis' fis' e' fis' gis' |
+    fis'8 fis' fis' gis' fis'4 |
+    r4. gis'8 e' e' |
+    dis'8 dis' dis' dis' dis'4 |
+    e'8 e' e' e' e' e' |
+    gis'8 gis' fis' e' fis' gis' |
+    fis'8 fis' fis' gis' fis'4 |
+    r4. e'8 fis' fis' |
+    gis'8 gis' gis' gis' gis'4 |
+    a'8 a' a' a' a' e' |
+\mymark "Chorus" #21
+    <b' gis'>4. <b' gis'> |
+    <b' fis'>4. <b' fis'> |
+    <cis'' e'>2. |
+    r2. |
+    r2 r8 e' |
+    <b' gis'>4. <b' gis'> |
+    <b' fis'>4. <b' fis'> |
+    <cis'' e'>2. |
+    r2. |
+    r2 r8 e' |
+\mymark "Verse" #31
+    gis'8 gis' fis' e' fis' gis' |
+    fis'8 fis' fis' gis' fis'4 |
+    r4. gis'8 e' e' |
+    dis'8 dis' dis' dis' dis'4 |
+    e'8 e' e' e' e' e' |
+    gis'8 gis' fis' e' fis' gis' |
+    fis'8 fis' fis' gis' fis'4 |
+    r4. e'8 fis' fis' |
+    gis'8 gis' gis' gis' gis'4 |
+    a'8 a' a' a' a' e' |
+\mymark "Chorus" #41
+    <b' gis'>4. <b' gis'> |
+    <b' fis'>4. <b' fis'> |
+    <cis'' e'>2. |
+    r2. |
+    r2 r8 e' |
+    <b' gis'>4. <b' gis'> |
+    <b' fis'>4. <b' fis'> |
+    <cis'' e'>2. |
+    r2. |
+    r2. |
+\mymark "Break" #51
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+    r2. |
+\mymark "Outro" #56
+    e'8 e'' b' e'' e' e'' |
+    fis'8 fis'' b' fis'' fis' fis'' |
+    e'8 e'' cis'' e'' e' e'' |
+    dis'8 dis'' ais' dis'' dis' dis'' |
+    e'8 e'' a' e'' e' e'' |
+    e'8 e'' b' e'' e' e'' |
+    fis'8 fis'' b' fis'' fis' fis'' |
+    e'2. |
+}
