@@ -1,0 +1,143 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \skip1 |
+\mymark "Intro" #2
+    "(C#)"1 |
+    "(C#)"1 |
+    "(F#)"1 |
+    "(F#)"1 |
+    "(C#)"1 |
+    "(C#)"1 |
+    "(F#)"1 |
+    "(F#)"1 |
+\mymark "Verse" #10
+    "(C#)"8 \skip2. "An"8 |
+    "(C#)old"8 "game"4 "of"8 "hide" "and" "seek"4 |
+    "(G#)"8 \skip2. "Fall-"8 |
+    "(G#)-ing"8 "in"4 "and"8 "out" "of" "trees"4 |
+    "(F#)"8 \skip2. "I"8 |
+    "(F#)guess"8 "that's"4 "how"8 "you" "knew" "me"4 |
+    "(C#)"8 \skip4. "Is"8 "that"4 "how"8 |
+    "(C#)"4 "we"8 "used" \skip4 "to"8 "be" |
+    "(C#)"4 \skip2. |
+    "(C#)Time"8 "could-"4 "-n't"8 "touch" "us" "then"4 |
+    "(G#)"8 \skip2. "Now"8 |
+    "(G#)mem-"8 "-'ries"4 "from"8 "way" "back" "when"4 |
+    "(F#)"8 \skip2. "Seem"8 |
+    "(F#)per-"8 "-fect"4 "with-"8 "-out" "much" "sense"4 |
+    "(C#)"8 \skip4. "A-"8 "-ny-"4 "-way"8 |
+    "(C#)"4 "how"8 "have" \skip4 "you"8 "been-" |
+\mymark "Pre-Chorus" #26
+    "(F#)"8 \skip2 "Whoa-"4 \skip8 |
+    "(G#)"4 \skip4. "Whoa-"4 \skip8 |
+    "(C#)"4 \skip4. "Whoa-"4 \skip8 |
+    "(F#)"4 \skip2. |
+    "(F#)"2 \skip8 "Whoa-"4 \skip8 |
+    "(G#)"4 \skip2. |
+\mymark "Chorus" #32
+    "(C#)"1 |
+    "(C#)Run-"8 "-ning" "was" "a" "game-"4 \skip4 |
+    "(G#)"1 |
+    "(G#)Now"8 "we're" "both-" \skip8 "run-"4 "-ning"8 "a-" |
+    "(F#)-way-"4. \skip2 "Re-"8 |
+    "(F#)-mem-"8 "-ber"4 "in" "those" "days"8 |
+    "(G#)"8 \skip2 "We"4 "thought"8 |
+    "(G#)"8 "no-"4 "-thing" "would" "change"8 |
+    "(C#)"8 \skip2. \skip8 |
+    "(C#)Ne-"8 "-ver" "gon-" "-na" "find"4 "you" |
+    "(G#)"1 |
+    "(G#)E-"8 "-v'ry" "day-" \skip8 "felt"4 "so-"8 \skip8 |
+    "(F#)new-"4. \skip2 "Some-"8 |
+    "(F#)"8 "-thing"4 "'bout" "the"8 "way"4 |
+    "(G#)"1 |
+    "(G#)Hey"4 "Hey" "Hey" "Hey" |
+\mymark "Verse" #48
+    "(C#)"2 \skip4. "And"8 |
+    "(C#)one"8 "time"4 "when"8 "you" "fell" "down"4 |
+    "(G#)"2 \skip4. "I"8 |
+    "(G#)"8 "cried"4 "you"8 "helped" "me" "out"4 |
+    "(F#)"2 \skip4. "And"8 |
+    "(F#)that"8 "seems"4 "so"8 "sil-" "-ly" "now"4 |
+    "(C#)"2 \skip4. "How"8 |
+    "(C#)come"4 "you're"8 "not"4. "a-"8 "-round" |
+    "(C#)"8 \skip2. "We"8 |
+    "(C#)"8 "real-"4 "-ly"8 "tried" "our" "best"4 |
+    "(G#)"2 \skip4. "Grow-"8 |
+    "(G#)"8 "-ing"4 "up's"8 "such" "a" "mess"4 |
+    "(F#)"2 \skip4. "And"8 |
+    "we"8 "swore"4 "not"8 "to" "for-" "-get"4 |
+    "(C#)"2 "But"8 "-how" \skip4 |
+    "(C#)"8 "this" "is"4. "what's"8 "left-"4 |
+\mymark "Pre-Chorus" #64
+    "(F#)"4 \skip4. "Whoa-"4 \skip8 |
+    "(G#)"4 \skip4. "Whoa-"4 \skip8 |
+    "(C#)"4 \skip4. "Whoa-"4 \skip8 |
+    "(F#)"4 \skip2. |
+    "(F#)"2 \skip8 "Whoa-"4 \skip8 |
+    "(G#)"4 \skip2. |
+\mymark "Chorus" #70
+    "(C#)"1 |
+    "(C#)Run-"8 "-ning" "was" "a" "game-"4 \skip4 |
+    "(G#)"1 |
+    "(G#)Now"8 "we're" "both-" \skip8 "run-"4 "-ning"8 "a-" |
+    "(F#)-way-"4. \skip2 "Re-"8 |
+    "(F#)-mem-"8 "-ber"4 "in" "those" "days"8 |
+    "(G#)"8 \skip2 "We"4 "thought"8 |
+    "(G#)"8 "no-"4 "-thing" "would" "change"8 |
+    "(C#)"8 \skip2. \skip8 |
+    "(C#)Ne-"8 "-ver" "gon-" "-na" "find"4 "you" |
+    "(G#)"1 |
+    "(G#)E-"8 "-v'ry" "day-" \skip8 "felt"4 "so-"8 \skip8 |
+    "(F#)new-"4. \skip2 "Some-"8 |
+    "(F#)"8 "-thing"4 "'bout" "the"8 "way"4 |
+    "(G#)"1 |
+    "(G#)Hey"4 "Hey" "Hey" "Hey" |
+\mymark "Interlude" #86
+    "(C#)"1 |
+    "(C#)"1 |
+    "(F#)"1 |
+    "(F#)"1 |
+    "(C#)"1 |
+    "(C#)"1 |
+    "(F#)"1 |
+    "(F#)"1 |
+\mymark "Bridge" #94
+    "(C#)Hide"4 "and" "seek"4. "Who's"8 |
+    "(C#)Who's"8 "gon-"4 "-na"8 "find"4 "you" |
+    "(F#)I"4 "just" "want-" "-ed"8 "some-" |
+    "(F#)"8 "-one"4 "to"8 "talk"4 "to" |
+    "(C#)Duck"4 "duck" "goose"4. "you're"8 |
+    "(C#)"8 "out"4 "of"8 "luck-"4 \skip4 |
+    "(F#)Si-"4 "-mon" "says"4. "ne-"8 |
+    "(F#)"8 "-ver"4 "grow"8 "up-"4 \skip4 |
+    "(C#)Hide"4 "and" "seek"4. "Who's"8 |
+    "(C#)Who's"8 "gon-"4 "-na"8 "find"4 "you" |
+    "(F#)I"4 "just" "want-" "-ed"8 "some-" |
+    "(F#)"8 "-one"4 "to"8 "talk"4 "to" |
+    "(C#)Duck"4 "duck" "goose"4. "you're"8 |
+    "(C#)"8 "out"4 "of"8 "luck-"4 \skip4 |
+    "(F#)Si-"4 "-mon" "says"4. "ne-"8 |
+    "(F#)"8 "-ver"4 "grow"8 "up-"4 \skip4 |
+\mymark "Pre-Chorus" #110
+    "(F#)"8 \skip2 "Whoa-"4 \skip8 |
+    "(G#)"4 \skip4. "Whoa-"4 \skip8 |
+    "(C#)"4 \skip4. "Whoa-"4 \skip8 |
+    "(G#)"4 \skip2. |
+\mymark "Outro" #114
+    "(C#)"1 |
+    "(C#)Run-"8 "-ning" "was" "a" "game-"4 \skip4 |
+    "(G#)"1 |
+    "(G#)Now"8 "we're" "both-" \skip8 "run-"4 "-ning"8 "a-" |
+    "(F#)-way-"4. \skip2 "Re-"8 |
+    "(F#)-mem-"8 "-ber"4 "in" "those" "days"8 |
+    "(G#)"8 \skip2 "We"4 "thought"8 |
+    "(G#)"8 "no-"4 "-thing" "would" "change"8 |
+    "(C#)"8 \skip2. \skip8 |
+    "(C#)Ne-"8 "-ver" "gon-" "-na" "find"4 "you" |
+    "(G#)"1 |
+    "(G#)E-"8 "-v'ry" "day-" \skip8 "felt"4 "so-"8 \skip8 |
+    "(F#)new-"4. \skip2 "Some-"8 |
+    "(F#)"8 "-thing"4 "'bout" "the"8 "way"4 |
+    "(G#)"1 |
+    "(G#)Hey"4 "Hey" "Hey" "Hey" |
+}

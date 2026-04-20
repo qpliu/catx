@@ -1,0 +1,143 @@
+vocals = {
+    \myVocalsStuff
+    r1 |
+\mymark "Intro" #2
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse" #10
+    r2. r8 gis' |
+    ais'8 cis''4 gis'8 ais' cis'' bis'4 |
+    r2. r8 gis' |
+    ais'8 cis''4 gis'8 ais' cis'' bis'4 |
+    r2. r8 gis' |
+    ais'8 cis''4 gis'8 ais' cis'' cis''4 |
+    r2 bis'8 cis''4 bis'8~ |
+    bis'4 cis''8 bis'4. cis''8 gis'~ |
+    gis'4 r2. |
+    bis'8 cis''4 gis'8 ais' cis'' bis'4 |
+    r2. r8 gis' |
+    ais'8 cis''4 gis'8 ais' cis'' bis'4 |
+    r2. r8 gis' |
+    ais'8 cis''4 gis'8 ais' cis'' cis''4 |
+    r2 bis'8 cis''4 bis'8~ |
+    bis'4 cis''8 bis'4. cis''8 dis''~ |
+\mymark "Pre-Chorus" #26
+    dis''8 cis'' r4. cis''4 bis'8~ |
+    bis'4 r4. eis''4 cis''8~ |
+    cis''4 r4. eis''4 bis'8~ |
+    bis'4 r2. |
+    r2 r8 <cis'' eis''>4 <bis' dis''>8~ |
+    <bis' dis''>4 r2. |
+\mymark "Chorus" #32
+    r1 |
+    gis''8 gis'' eis'' ais'' gis''4 eis'' |
+    r1 |
+    gis''8 gis'' eis'' ais'' gis''4 eis''8 dis'' |
+    cis''4. ais'4 r ais'8 |
+    cis''8 dis''4 cis'' bis' bis'8~ |
+    bis'8 r2 <eis'' gis''>4 <eis'' gis''~>8 |
+    gis''8 <eis'' gis''>4 <eis'' gis''> <eis'' gis''> <eis'' gis''>8~ |
+    <eis'' gis''>8 r2. r8 |
+    gis''8 gis'' eis'' ais'' gis''4 eis'' |
+    r1 |
+    gis''8 gis'' eis'' ais'' gis''4 eis''8 dis'' |
+    cis''4. ais'4 r <cis'' eis''>8~ |
+    <cis'' eis''>8 <dis'' fis''>4 <cis'' eis''> <bis' dis''>8 <bis' dis''>4 |
+    r1 |
+    \deadNote cis''4 \deadNote cis'' \deadNote cis'' \deadNote cis'' |
+\mymark "Verse" #48
+    r2. r8 gis' |
+    ais'8 cis''4 gis'8 ais' cis'' bis'4 |
+    r2. r8 bis'~ |
+    bis'8 cis''4 gis'8 ais' cis'' bis'4 |
+    r2. r8 gis' |
+    ais'8 cis''4 gis'8 ais' cis'' cis''4 |
+    r2. r8 cis'' |
+    bis'4 cis''8 bis'4. cis''8 gis'~ |
+    gis'8 r2. bis'8~ |
+    bis'8 cis''4 gis'8 ais' cis'' bis'4 |
+    r2. r8 bis'~ |
+    bis'8 cis''4 gis'8 ais' cis'' bis'4 |
+    r2. r8 gis' |
+    ais'8 cis''4 gis'8 ais' cis'' cis''4 |
+    r2 bis'8 cis'' bis'4~ |
+    bis'8 cis'' bis'4. cis''8 dis''4 |
+\mymark "Pre-Chorus" #64
+    cis''4 r4. cis''4 bis'8~ |
+    bis'4 r4. eis''4 cis''8~ |
+    cis''4 r4. eis''4 bis'8~ |
+    bis'4 r2. |
+    r2 r8 <cis'' eis''>4 <bis' dis''>8~ |
+    <bis' dis''>4 r2. |
+\mymark "Chorus" #70
+    r1 |
+    gis''8 gis'' eis'' ais'' gis''4 eis'' |
+    r1 |
+    gis''8 gis'' eis'' ais'' gis''4 eis''8 dis'' |
+    cis''4. ais'4 r ais'8 |
+    cis''8 dis''4 cis'' bis' bis'8~ |
+    bis'8 r2 <eis'' gis''>4 <eis'' gis''~>8 |
+    gis''8 <eis'' gis''>4 <eis'' gis''> <eis'' gis''> <eis'' gis''>8~ |
+    <eis'' gis''>8 r2. r8 |
+    gis''8 gis'' eis'' ais'' gis''4 eis'' |
+    r1 |
+    gis''8 gis'' eis'' ais'' gis''4 eis''8 dis'' |
+    cis''4. ais'4 r <cis'' eis''>8~ |
+    <cis'' eis''>8 <dis'' fis''>4 <cis'' eis''> <bis' dis''>8 <bis' dis''>4 |
+    r1 |
+    \deadNote cis''4 \deadNote cis'' \deadNote cis'' \deadNote cis'' |
+\mymark "Interlude" #86
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge" #94
+    eis''4 eis'' eis''4. eis''8~ |
+    eis''8 eis''4 eis''8 fis''4 eis'' |
+    eis''4 eis'' eis'' dis''8 eis''~ |
+    eis''8 eis''4 eis''8 dis''4 cis'' |
+    eis''4 eis'' eis''4. eis''8~ |
+    eis''8 eis''4 eis''8 fis''4 eis'' |
+    eis''4 eis'' eis''4. eis''8~ |
+    eis''8 eis''4 dis''8 dis''4 cis'' |
+    eis''4 eis'' eis''4. eis''8~ |
+    eis''8 eis''4 eis''8 fis''4 eis'' |
+    eis''4 eis'' eis'' dis''8 eis''~ |
+    eis''8 eis''4 eis''8 dis''4 cis'' |
+    eis''4 eis'' eis''4. eis''8~ |
+    eis''8 eis''4 eis''8 fis''4 eis'' |
+    eis''4 eis'' eis''4. eis''8~ |
+    eis''8 eis''4 dis''8 dis''4 cis'' |
+\mymark "Pre-Chorus" #110
+    r2 r8 cis''4 bis'8~ |
+    bis'4 r4. eis''4 cis''8~ |
+    cis''4 r4. <cis'' eis''>4 <bis' dis''>8~ |
+    <bis' dis''>4 r2. |
+\mymark "Outro" #114
+    r1 |
+    gis''8 gis'' eis'' ais'' gis''4 eis'' |
+    r1 |
+    gis''8 gis'' eis'' ais'' gis''4 eis''8 dis'' |
+    cis''4. ais'4 r ais'8 |
+    cis''8 dis''4 cis'' bis' bis'8~ |
+    bis'8 r2 <eis'' gis''>4 <eis'' gis''~>8 |
+    gis''8 <eis'' gis''>4 <eis'' gis''> <eis'' gis''> <eis'' gis''>8~ |
+    <eis'' gis''>8 r2. r8 |
+    gis''8 gis'' eis'' ais'' gis''4 eis'' |
+    r1 |
+    gis''8 gis'' eis'' ais'' gis''4 eis''8 dis'' |
+    cis''4. ais'4 r <cis'' eis''>8~ |
+    <cis'' eis''>8 <dis'' fis''>4 <cis'' eis''> <bis' dis''>8 <bis' dis''>4 |
+    r1 |
+    \deadNote cis''4 \deadNote cis'' \deadNote cis'' \deadNote cis'' |
+}

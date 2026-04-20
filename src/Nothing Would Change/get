@@ -1,0 +1,9 @@
+#!/bin/sh
+java -jar ../../guitarproToLy/1.jar < song.gp5 \
+markup-extra 0 '\key cis \major' \
+track 4 preset kav output-lilypond output-lyrics which-lyrics text scale 'ais bis, cis dis eis fis gis' \
+track 0 preset midiOne output-lilypond \
+track 1 preset gg output-drums \
+track 2 preset peter output-lilypond \
+track 3 preset bass output-lilypond \
+track 5 preset susan output-lilypond no-chords false scale 'ais bis, cis dis eis fis gis'
