@@ -1,0 +1,63 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+\mymark "Chorus" #3
+    "(E)Ba-"8 "-by" "i" "chi" "ba-"4 "-by"8 "T-" |
+    "(E)"4 \skip2. |
+    "(B)"1 |
+    "(E)Love"1 |
+\mymark "Verse" #7
+    "(G)We"4 "run" "(D)all"8 "the" "way"4 |
+    "(G)to"8 "the"4 "park"8 "(D)"2 |
+    "(G)By"8 "the" "way"4 "(D)where" "d'you"8 \skip8 |
+    "(C)live"4 "poor" "boy-"8. \skip4 \skip16 |
+    "(C)"1 |
+\mymark "Chorus" #12
+    "(E)Ba-"8 "-by" "i" "chi" "ba-"4 "-by"8 "T-" |
+    "(E)"4 \skip2. |
+    "(B)"1 |
+    "(E)Love"1 |
+\mymark "Verse" #16
+    "(G)We"4 "run" "(D)all"8 "the" "way"4 |
+    "(G)to"8 "the"4 "park"8 "(D)"2 |
+    "(G)By"8 "the" "way"4 "(D)where" "d'you"8 \skip8 |
+    "(C)live"4 "poor" "boy-"8. \skip4 \skip16 |
+    \skip1 |
+\mymark "Bridge" #21
+    "(F)"4 "to"8 "bi" "no" "ra" "re" "te" |
+    "(Bb)rin"4 "go"8 "a"4 "tsu"8 "me"4 |
+    "(G)"8 "The" "heart"4 "is" \skip4 |
+    "(G)on"4 "the"8 "road-"4 \skip4. |
+    "(F)"4 "ta"8 "ma" "go" "no" "ka" "ra" |
+    "(Bb)ya"8 "bu" "ri" "nu"4 "ke"8 "te"4 |
+    "(G)"8 "The" "heart"4 "is" \skip4 |
+    "(G)on"4 "the"8 "road-"4 \skip4. |
+    "(F)"4 "ka"8 "ra"4 "da" "ya"8 |
+    "(Bb)shi"8 "ka" "ke" "nu"4 "shi"8 "ta"4 |
+    "(G)ni"1 |
+    "(G)"1 |
+    "(F)"4 "ko"8 "ru" "te"4 "ku"8 "su" |
+    "(Bb)tao"4 "shi"8 "te"4 "ki"8 "te"4 |
+    "(G)ne"1 |
+    "(G)"1 |
+\mymark "Chorus" #37
+    "(E)Ba-"8 "-by" "i" "chi" "ba-"4 "-by"8 "T-" |
+    "(E)"4 \skip2. |
+    "(E)Ba-"8 "-by" "i" "chi" "ba-"4 "-by"8 "T-" |
+    "(E)"4 \skip2. |
+    "(E)Ba-"8 "-by" "i" "chi" "ba-"4 "-by"8 "T-" |
+    "(E)"4 \skip2. |
+    "(B)"1 |
+    "(E)love"1 |
+\mymark "Verse" #45
+    "(G)We"4 "run" "all"8 "the" "way"4 |
+    "(G)to"8 "the"4 "park"8 \skip2 |
+    "(G)Where"8 "the" "dark"4 "(D)wall" "is" |
+    "(G)ring"8 "of"4 "mine"8 "(D)"2 |
+    "(G)We"4 "run" "(D)all"8 "the" "way"4 |
+    "(G)to"8 "the"4 "park"8 "(D)"2 |
+    "(G)By"8 "the" "way"4 "(D)where" "d'you"8 \skip8 |
+    "(C)live"1 |
+}

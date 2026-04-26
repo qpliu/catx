@@ -1,0 +1,62 @@
+midiOne = {
+\mymark "Intro" #1
+    r1 |
+    r1 |
+\mymark "Chorus" #3
+    e''4 b' gis' b' |
+    e''4 b' gis' b' |
+    e''4 b' gis' b' |
+    e''4 b' gis' r |
+\mymark "Verse" #7
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #12
+    e''4 b' gis' b' |
+    e''4 b' gis' b' |
+    e''4 b' gis' b' |
+    e''4 b' gis' r |
+\mymark "Verse" #16
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge" #21
+    r2. <f' ais'>8 <f' a'> |
+    r2. <ais' dis''>8 <ais' d''> |
+    r2 <g' c''>8 <g' b'> r4 |
+    r2 <g' c''>8 <g' b'> r4 |
+    r2 <f' ais'>8 <f' a'> r4 |
+    r2 <ais' dis''>8 <ais' d''> r4 |
+    r2 <g' c''>8 <g' b'> r4 |
+    r2 <g' c''>8 <g' b'> r4 |
+    <f' a'>4 <f' a'>8 <f' a'> <f' ais'> <f' a'>4. |
+    <ais' d''>4 <ais' d''>8 <ais' d''> <ais' dis''> <ais' d''>4. |
+    <g' b'>4 <g' b'>8 <g' b'> <g' c''> <g' b'>4. |
+    <g' b'>4 <g' b'>8 <g' b'> <g' c''> <g' b'>4. |
+    <f' a'>4 <f' a'>8 <f' a'> <f' ais'> <f' a'>4. |
+    <ais' d''>4 <ais' d''>8 <ais' d''> <ais' dis''> <ais' d''>4. |
+    <g' b'>4 <g' b'>8 <g' b'> <g' c''> <g' b'>4. |
+    <g' b'>4 <g' b'>8 <g' b'> <g' c''> <g' b'>4. |
+\mymark "Chorus" #37
+    e''4 b' gis' b' |
+    e''4 b' gis' b' |
+    e''4 b' gis' b' |
+    e''4 b' gis' b' |
+    e''4 b' gis' b' |
+    e''4 b' gis' b' |
+    e''4 b' gis' b' |
+    e''4 b' gis' r |
+\mymark "Verse" #45
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    g,4 a, b, c |
+    d4 e fis g |
+    a4 b c' d' |
+    <c g e'>1 |
+}

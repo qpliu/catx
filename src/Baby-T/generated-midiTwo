@@ -1,0 +1,62 @@
+midiTwo = {
+\mymark "Intro" #1
+    r1 |
+    r1 |
+\mymark "Chorus" #3
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse" #7
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #12
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse" #16
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Bridge" #21
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    b1 |
+    d'2 b |
+\mymark "Chorus" #37
+    r1 |
+    e'8 e' e' e' fis'4 e'8 e'~ |
+    e'4 gis'2. |
+    e'8 e' e' e' fis'4 e'8 e'~ |
+    e'4 gis'2. |
+    e'8 e' e' e' fis'4 e'8 e'~ |
+    e'4 gis'2. |
+    r1 |
+\mymark "Verse" #45
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}
