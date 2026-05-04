@@ -81,7 +81,7 @@ midimusic = <<
         midiInstrument = #"electric bass (pick)"
     } \bass
     \tag #'(midiSusan) \new Staff = "generated-steelpan" \with {
-        midiInstrument = #"distorted guitar"
+        midiInstrument = #"steel drums"
     } \steelpan
     \tag #'(midiTwo) \new Staff = "generated-midiTwo" \with {
         midiInstrument = #"lead 2 (sawtooth)"

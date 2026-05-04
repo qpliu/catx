@@ -7,39 +7,39 @@ steelpan = {
     e''4 b' gis' b' |
     e''4 b' gis' b' |
     e''4 b' gis' b' |
-    e''4 b' gis' r |
+    e''4 b' gis' b' |
 \mymark "Verse" #7
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
+    <g' b'>8 <g' b'> <g' b'>4 <d' fis'>8 <d' fis'> <d' fis'>4 |
+    <g' b'>8 <g' b'> <g' b'>4 <d' fis'>8 <d' fis'> <d' fis'>4 |
+    <g' b'>8 <g' b'> <g' b'>4 <d' fis'>8 <d' fis'> <d' fis'>4 |
+    <c' e'>1~ |
+    <c' e'>1 |
 \mymark "Chorus" #12
     e''4 b' gis' b' |
     e''4 b' gis' b' |
     e''4 b' gis' b' |
-    e''4 b' gis' r |
+    e''4 b' gis' b' |
 \mymark "Verse" #16
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    r1 |
+    <g' b'>8 <g' b'> <g' b'>4 <d' fis'>8 <d' fis'> <d' fis'>4 |
+    <g' b'>8 <g' b'> <g' b'>4 <d' fis'>8 <d' fis'> <d' fis'>4 |
+    <g' b'>8 <g' b'> <g' b'>4 <d' fis'>8 <d' fis'> <d' fis'>4 |
+    <c' e'>1~ |
+    <c' e'>1 |
 \mymark "Bridge" #21
-    r2. <f' ais'>8 <f' a'> |
-    r2. <ais' dis''>8 <ais' d''> |
+    r2. <f' bes'>8 <f' a'> |
+    r2. <bes' ees''>8 <bes' d''> |
     r2 <g' c''>8 <g' b'> r4 |
     r2 <g' c''>8 <g' b'> r4 |
-    r2 <f' ais'>8 <f' a'> r4 |
-    r2 <ais' dis''>8 <ais' d''> r4 |
+    r2 <f' bes'>8 <f' a'> r4 |
+    r2 <bes' ees''>8 <bes' d''> r4 |
     r2 <g' c''>8 <g' b'> r4 |
     r2 <g' c''>8 <g' b'> r4 |
-    <f' a'>4 <f' a'>8 <f' a'> <f' ais'> <f' a'>4. |
-    <ais' d''>4 <ais' d''>8 <ais' d''> <ais' dis''> <ais' d''>4. |
+    <f' a'>4 <f' a'>8 <f' a'> <f' bes'> <f' a'>4. |
+    <bes' d''>4 <bes' d''>8 <bes' d''> <bes' ees''> <bes' d''>4. |
     <g' b'>4 <g' b'>8 <g' b'> <g' c''> <g' b'>4. |
     <g' b'>4 <g' b'>8 <g' b'> <g' c''> <g' b'>4. |
-    <f' a'>4 <f' a'>8 <f' a'> <f' ais'> <f' a'>4. |
-    <ais' d''>4 <ais' d''>8 <ais' d''> <ais' dis''> <ais' d''>4. |
+    <f' a'>4 <f' a'>8 <f' a'> <f' bes'> <f' a'>4. |
+    <bes' d''>4 <bes' d''>8 <bes' d''> <bes' ees''> <bes' d''>4. |
     <g' b'>4 <g' b'>8 <g' b'> <g' c''> <g' b'>4. |
     <g' b'>4 <g' b'>8 <g' b'> <g' c''> <g' b'>4. |
 \mymark "Chorus" #37
@@ -50,14 +50,14 @@ steelpan = {
     e''4 b' gis' b' |
     e''4 b' gis' b' |
     e''4 b' gis' b' |
-    e''4 b' gis' r |
+    e''4 b' gis' b' |
 \mymark "Verse" #45
-    r1 |
-    r1 |
-    r1 |
-    r1 |
-    g,4 a, b, c |
-    d4 e fis g |
-    a4 b c' d' |
-    <c g e'>1 |
+    <g' b'>8 <g' b'> <g' b'>4 <d' fis'>8 <d' fis'> <d' fis'>4 |
+    <g' b'>8 <g' b'> <g' b'>4 <d' fis'>8 <d' fis'> <d' fis'>4 |
+    <g' b'>8 <g' b'> <g' b'>4 <d' fis'>8 <d' fis'> <d' fis'>4 |
+    <g' b'>8 <g' b'> <g' b'>4 <d' fis'>8 <d' fis'> <d' fis'>4 |
+    <g' b'>8 <g' b'> <g' b'>4 <d' fis'>8 <d' fis'> <d' fis'>4 |
+    <g' b'>8 <g' b'> <g' b'>4 <d' fis'>8 <d' fis'> <d' fis'>4 |
+    <g' b'>8 <g' b'> <g' b'>4 <d' fis'>8 <d' fis'> <d' fis'>4 |
+    <c' e'>1 |
 }
