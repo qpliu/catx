@@ -52,8 +52,8 @@ vocalsLyrics = \new Lyrics \lyricmode {
     "(B)"1 |
     "(E)love"1 |
 \mymark "Verse" #45
-    "(G)We"4 "run" "all"8 "the" "way"4 |
-    "(G)to"8 "the"4 "park"8 \skip2 |
+    "(G)We"4 "run" "(D)all"8 "the" "way"4 |
+    "(G)to"8 "the"4 "park"8 "(D)"2 |
     "(G)Where"8 "the" "dark"4 "(D)wall" "is" |
     "(G)ring"8 "of"4 "mine"8 "(D)"2 |
     "(G)We"4 "run" "(D)all"8 "the" "way"4 |
