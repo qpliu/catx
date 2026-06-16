@@ -2,142 +2,142 @@ steelpan = {
     \myVocalsStuff
     r1 |
 \mymark "Intro" #2
-    cis''4 gis' eis' gis'8 cis''~ |
-    cis''8 gis'4 eis'8 fis'4 eis' |
+    cis''4 gis' f' gis'8 cis''~ |
+    cis''8 gis'4 f'8 fis'4 f' |
     cis''4 gis' fis' gis'8 cis''~ |
     cis''8 gis'4 gis'8 a'4 gis' |
-    cis''4 gis' eis' gis'8 cis''~ |
-    cis''8 gis'4 eis'8 fis'4 eis' |
+    cis''4 gis' f' gis'8 cis''~ |
+    cis''8 gis'4 f'8 fis'4 f' |
     cis''4 gis' fis' gis'8 cis''~ |
     cis''8 gis'4 gis'8 a'4 gis' |
 \mymark "Verse" #10
     r2. r8 gis' |
-    ais'8 cis''4 gis'8 ais' cis'' bis'4 |
+    ais'8 cis''4 gis'8 ais' cis'' c''4 |
     r2. r8 gis' |
-    ais'8 cis''4 gis'8 ais' cis'' bis'4 |
+    ais'8 cis''4 gis'8 ais' cis'' c''4 |
     r2. r8 gis' |
     ais'8 cis''4 gis'8 ais' cis'' cis''4 |
-    r2 bis'8 cis''4 bis'8~ |
-    bis'4 cis''8 bis'4. cis''8 gis'~ |
+    r2 c''8 cis''4 c''8~ |
+    c''4 cis''8 c''4. cis''8 gis'~ |
     gis'4 r2. |
-    bis'8 cis''4 gis'8 ais' cis'' bis'4 |
+    c''8 cis''4 gis'8 ais' cis'' c''4 |
     r2. r8 gis' |
-    ais'8 cis''4 gis'8 ais' cis'' bis'4 |
+    ais'8 cis''4 gis'8 ais' cis'' c''4 |
     r2. r8 gis' |
     ais'8 cis''4 gis'8 ais' cis'' cis''4 |
-    r2 bis'8 cis''4 bis'8~ |
-    bis'4 cis''8 bis'4. cis''8 dis''~ |
+    r2 c''8 cis''4 c''8~ |
+    c''4 cis''8 c''4. cis''8 ees''~ |
 \mymark "Pre-Chorus" #26
-    dis''8 cis'' r4. cis''4 bis'8~ |
-    bis'4 r4. eis''4 cis''8~ |
-    cis''4 r4. eis''4 bis'8~ |
-    bis'4 r2. |
-    r2 r8 <cis'' eis''>4 <bis' dis''>8~ |
-    <bis' dis''>4 r2. |
+    ees''8 cis'' r4. cis''4 c''8~ |
+    c''4 r4. f''4 cis''8~ |
+    cis''4 r4. f''4 c''8~ |
+    c''4 r2. |
+    r2 r8 <cis'' f''>4 <c'' ees''>8~ |
+    <c'' ees''>4 r2. |
 \mymark "Chorus" #32
     r1 |
-    gis''8 gis'' eis'' ais'' gis''4 eis'' |
+    gis''8 gis'' f'' ais'' gis''4 f'' |
     r1 |
-    gis''8 gis'' eis'' ais'' gis''4 eis''8 dis'' |
+    gis''8 gis'' f'' ais'' gis''4 f''8 ees'' |
     cis''4. ais'4 r ais'8 |
-    cis''8 dis''4 cis'' bis' bis'8~ |
-    bis'8 r2 <eis'' gis''>4 <eis'' gis''>8~ |
-    <eis'' gis''>8 <eis'' gis''>4 <eis'' gis''> <dis'' fis''> <eis'' gis''>8~ |
-    <eis'' gis''>8 r2. r8 |
-    gis''8 gis'' eis'' ais'' gis''4 eis'' |
+    cis''8 ees''4 cis'' c'' c''8~ |
+    c''8 r2 <f'' gis''>4 <f'' gis''>8~ |
+    <f'' gis''>8 <f'' gis''>4 <f'' gis''> <ees'' fis''> <f'' gis''>8~ |
+    <f'' gis''>8 r2. r8 |
+    gis''8 gis'' f'' ais'' gis''4 f'' |
     r1 |
-    gis''8 gis'' eis'' ais'' gis''4 eis''8 dis'' |
-    cis''4. ais'4 r <cis'' eis''>8~ |
-    <cis'' eis''>8 <dis'' fis''>4 <cis'' eis''> <bis' dis''>8 <bis' dis''>4 |
+    gis''8 gis'' f'' ais'' gis''4 f''8 ees'' |
+    cis''4. ais'4 r <cis'' f''>8~ |
+    <cis'' f''>8 <ees'' fis''>4 <cis'' f''> <c'' ees''>8 <c'' ees''>4 |
     r1 |
     r1 |
 \mymark "Verse" #48
     r2. r8 gis' |
-    ais'8 cis''4 gis'8 ais' cis'' bis'4 |
-    r2. r8 bis'~ |
-    bis'8 cis''4 gis'8 ais' cis'' bis'4 |
+    ais'8 cis''4 gis'8 ais' cis'' c''4 |
+    r2. r8 c''~ |
+    c''8 cis''4 gis'8 ais' cis'' c''4 |
     r2. r8 gis' |
     ais'8 cis''4 gis'8 ais' cis'' cis''4 |
     r2. r8 cis'' |
-    bis'4 cis''8 bis'4. cis''8 gis'~ |
-    gis'8 r2. bis'8~ |
-    bis'8 cis''4 gis'8 ais' cis'' bis'4 |
-    r2. r8 bis'~ |
-    bis'8 cis''4 gis'8 ais' cis'' bis'4 |
+    c''4 cis''8 c''4. cis''8 gis'~ |
+    gis'8 r2. c''8~ |
+    c''8 cis''4 gis'8 ais' cis'' c''4 |
+    r2. r8 c''~ |
+    c''8 cis''4 gis'8 ais' cis'' c''4 |
     r2. r8 gis' |
     ais'8 cis''4 gis'8 ais' cis'' cis''4 |
-    r2 bis'8 cis'' bis'4~ |
-    bis'8 cis'' bis'4. cis''8 dis''4 |
+    r2 c''8 cis'' c''4~ |
+    c''8 cis'' c''4. cis''8 ees''4 |
 \mymark "Pre-Chorus" #64
-    cis''4 r4. cis''4 bis'8~ |
-    bis'4 r4. eis''4 cis''8~ |
-    cis''4 r4. eis''4 bis'8~ |
-    bis'4 r2. |
-    r2 r8 <cis'' eis''>4 <bis' dis''>8~ |
-    <bis' dis''>4 r2. |
+    cis''4 r4. cis''4 c''8~ |
+    c''4 r4. f''4 cis''8~ |
+    cis''4 r4. f''4 c''8~ |
+    c''4 r2. |
+    r2 r8 <cis'' f''>4 <c'' ees''>8~ |
+    <c'' ees''>4 r2. |
 \mymark "Chorus" #70
     r1 |
-    gis''8 gis'' eis'' ais'' gis''4 eis'' |
+    gis''8 gis'' f'' ais'' gis''4 f'' |
     r1 |
-    gis''8 gis'' eis'' ais'' gis''4 eis''8 dis'' |
+    gis''8 gis'' f'' ais'' gis''4 f''8 ees'' |
     cis''4. ais'4 r ais'8 |
-    cis''8 dis''4 cis'' bis' bis'8~ |
-    bis'8 r2 <eis'' gis''>4 <eis'' gis''>8~ |
-    <eis'' gis''>8 <eis'' gis''>4 <eis'' gis''> <dis'' fis''> <eis'' gis''>8~ |
-    <eis'' gis''>8 r2. r8 |
-    gis''8 gis'' eis'' ais'' gis''4 eis'' |
+    cis''8 ees''4 cis'' c'' c''8~ |
+    c''8 r2 <f'' gis''>4 <f'' gis''>8~ |
+    <f'' gis''>8 <f'' gis''>4 <f'' gis''> <ees'' fis''> <f'' gis''>8~ |
+    <f'' gis''>8 r2. r8 |
+    gis''8 gis'' f'' ais'' gis''4 f'' |
     r1 |
-    gis''8 gis'' eis'' ais'' gis''4 eis''8 dis'' |
-    cis''4. ais'4 r <cis'' eis''>8~ |
-    <cis'' eis''>8 <dis'' fis''>4 <cis'' eis''> <bis' dis''>8 <bis' dis''>4 |
+    gis''8 gis'' f'' ais'' gis''4 f''8 ees'' |
+    cis''4. ais'4 r <cis'' f''>8~ |
+    <cis'' f''>8 <ees'' fis''>4 <cis'' f''> <c'' ees''>8 <c'' ees''>4 |
     r1 |
     r1 |
 \mymark "Interlude" #86
-    cis''4 gis' eis' gis'8 cis''~ |
-    cis''8 gis'4 eis'8 fis'4 eis' |
+    cis''4 gis' f' gis'8 cis''~ |
+    cis''8 gis'4 f'8 fis'4 f' |
     cis''4 gis' fis' gis'8 cis''~ |
     cis''8 gis'4 gis'8 a'4 gis' |
-    cis''4 gis' eis' gis'8 cis''~ |
-    cis''8 gis'4 eis'8 fis'4 eis' |
+    cis''4 gis' f' gis'8 cis''~ |
+    cis''8 gis'4 f'8 fis'4 f' |
     cis''4 gis' fis' gis'8 cis''~ |
     cis''8 gis'4 gis'8 a'4 gis' |
 \mymark "Bridge" #94
-    eis''4 eis'' eis''4. eis''8~ |
-    eis''8 eis''4 eis''8 fis''4 eis'' |
-    eis''4 eis'' eis'' dis''8 eis''~ |
-    eis''8 eis''4 eis''8 dis''4 cis'' |
-    eis''4 eis'' eis''4. eis''8~ |
-    eis''8 eis''4 eis''8 fis''4 eis'' |
-    eis''4 eis'' eis''4. eis''8~ |
-    eis''8 eis''4 dis''8 dis''4 cis'' |
-    eis''4 eis'' eis''4. eis''8~ |
-    eis''8 eis''4 eis''8 fis''4 eis'' |
-    eis''4 eis'' eis'' dis''8 eis''~ |
-    eis''8 eis''4 eis''8 dis''4 cis'' |
-    eis''4 eis'' eis''4. eis''8~ |
-    eis''8 eis''4 eis''8 fis''4 eis'' |
-    eis''4 eis'' eis''4. eis''8~ |
-    eis''8 eis''4 dis''8 dis''4 cis'' |
+    f''4 f'' f''4. f''8~ |
+    f''8 f''4 f''8 fis''4 f'' |
+    f''4 f'' f'' ees''8 f''~ |
+    f''8 f''4 f''8 ees''4 cis'' |
+    f''4 f'' f''4. f''8~ |
+    f''8 f''4 f''8 fis''4 f'' |
+    f''4 f'' f''4. f''8~ |
+    f''8 f''4 ees''8 ees''4 cis'' |
+    f''4 f'' f''4. f''8~ |
+    f''8 f''4 f''8 fis''4 f'' |
+    f''4 f'' f'' ees''8 f''~ |
+    f''8 f''4 f''8 ees''4 cis'' |
+    f''4 f'' f''4. f''8~ |
+    f''8 f''4 f''8 fis''4 f'' |
+    f''4 f'' f''4. f''8~ |
+    f''8 f''4 ees''8 ees''4 cis'' |
 \mymark "Pre-Chorus" #110
-    r2 r8 cis''4 bis'8~ |
-    bis'4 r4. eis''4 cis''8~ |
-    cis''4 r4. <cis'' eis''>4 <bis' dis''>8~ |
-    <bis' dis''>4 r2. |
+    r2 r8 cis''4 c''8~ |
+    c''4 r4. f''4 cis''8~ |
+    cis''4 r4. <cis'' f''>4 <c'' ees''>8~ |
+    <c'' ees''>4 r2. |
 \mymark "Outro" #114
     r1 |
-    gis''8 gis'' eis'' ais'' gis''4 eis'' |
+    gis''8 gis'' f'' ais'' gis''4 f'' |
     r1 |
-    gis''8 gis'' eis'' ais'' gis''4 eis''8 dis'' |
+    gis''8 gis'' f'' ais'' gis''4 f''8 ees'' |
     cis''4. ais'4 r ais'8 |
-    cis''8 dis''4 cis'' bis' bis'8~ |
-    bis'8 r2 <eis'' gis''>4 <eis'' gis''>8~ |
-    <eis'' gis''>8 <eis'' gis''>4 <eis'' gis''> <dis'' fis''> <eis'' gis''>8~ |
-    <eis'' gis''>8 r2. r8 |
-    gis''8 gis'' eis'' ais'' gis''4 eis'' |
+    cis''8 ees''4 cis'' c'' c''8~ |
+    c''8 r2 <f'' gis''>4 <f'' gis''>8~ |
+    <f'' gis''>8 <f'' gis''>4 <f'' gis''> <ees'' fis''> <f'' gis''>8~ |
+    <f'' gis''>8 r2. r8 |
+    gis''8 gis'' f'' ais'' gis''4 f'' |
     r1 |
-    gis''8 gis'' eis'' ais'' gis''4 eis''8 dis'' |
-    cis''4. ais'4 r <cis'' eis''>8~ |
-    <cis'' eis''>8 <dis'' fis''>4 <cis'' eis''> <bis' dis''>8 <bis' dis''>4 |
+    gis''8 gis'' f'' ais'' gis''4 f''8 ees'' |
+    cis''4. ais'4 r <cis'' f''>8~ |
+    <cis'' f''>8 <ees'' fis''>4 <cis'' f''> <c'' ees''>8 <c'' ees''>4 |
     r1 |
     r1 |
 }
