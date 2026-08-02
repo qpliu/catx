@@ -47,8 +47,8 @@ vocalsLyrics = \new Lyrics \lyricmode {
     "(C#)Ne-"8 "-ver" "gon-" "-na" "find"4 "you" |
     "(G#)"1 |
     "(G#)E-"8 "-v'ry" "day-" \skip8 "felt"4 "so-"8 \skip8 |
-    "(F#)new-"4. \skip2 "Some-"8 |
-    "(F#)"8 "-thing"4 "'bout" "the"8 "way"4 |
+    "(F#)new-"4. \skip2 \skip8 |
+    "(F#)Some-"8 "-thing"4 "'bout" "the"8 "way"4 |
     "(G#)"1 |
     "(G#)"8 "Hey" \skip8 "Hey"8 \skip8 "Hey"8 \skip8 "Hey"8 |
 \mymark "Verse" #48
@@ -88,8 +88,8 @@ vocalsLyrics = \new Lyrics \lyricmode {
     "(C#)Ne-"8 "-ver" "gon-" "-na" "find"4 "you" |
     "(G#)"1 |
     "(G#)E-"8 "-v'ry" "day-" \skip8 "felt"4 "so-"8 \skip8 |
-    "(F#)new-"4. \skip2 "Some-"8 |
-    "(F#)"8 "-thing"4 "'bout" "the"8 "way"4 |
+    "(F#)new-"4. \skip2 \skip8 |
+    "(F#)Some-"8 "-thing"4 "'bout" "the"8 "way"4 |
     "(G#)"1 |
     "(G#)"8 "Hey" \skip8 "Hey"8 \skip8 "Hey"8 \skip8 "Hey"8 |
 \mymark "Interlude" #86
@@ -136,8 +136,8 @@ vocalsLyrics = \new Lyrics \lyricmode {
     "(C#)Ne-"8 "-ver" "gon-" "-na" "find"4 "you" |
     "(G#)"1 |
     "(G#)E-"8 "-v'ry" "day-" \skip8 "felt"4 "so-"8 \skip8 |
-    "(F#)new-"4. \skip2 "Some-"8 |
-    "(F#)"8 "-thing"4 "'bout" "the"8 "way"4 |
+    "(F#)new-"4. \skip2 \skip8 |
+    "(F#)Some-"8 "-thing"4 "'bout" "the"8 "way"4 |
     "(G#)"1 |
     "(G#)"8 "Hey" \skip8 "Hey"8 \skip8 "Hey"8 \skip8 "Hey"8 |
 }
