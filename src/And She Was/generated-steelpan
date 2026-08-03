@@ -117,8 +117,12 @@ steelpan = {
     r1 |
     r2 r8 a' cis'' b' |
     r1 |
-    r2 r8 e'' e'' e''~ |
-\mymark "Outro" #106
+    r2 r8 e'' e'' e'' |
+    r8 e'' r e'' r a' cis'' b' |
+    r1 |
+    r2 r8 a' cis'' b' |
+    r1 |
+\mymark "Outro" #110
     e''8 r2. e''8 |
     r8 e'' r e'' r e'' e'' e''~ |
     e''8 r2. r8 |

@@ -118,7 +118,11 @@ vocalsLyrics = \new Lyrics \lyricmode {
     "(D)"2 "(A)"8 "and" "she" "was" |
     "(E)"2 "(A)" |
     "(D)"2 "(A)"8 "and" "she" "was" |
-\mymark "Outro" #106
+    "(D)"8 "Hey" \skip8 "Hey"8 "(A)" "and" "she" "was" |
+    "(E)"2 "(A)" |
+    "(D)"2 "(A)"8 "and" "she" "was" |
+    "(E)"2 "(A)" |
+\mymark "Outro" #110
     "(E)"8 \skip4. "(A)"8 \skip4 "Hey"8 |
     "(D)"8 "Hey" \skip8 "Hey"8 "(A)" "and" "she" "was" |
     "(E)"8 \skip4. "(A)"8 \skip4. |

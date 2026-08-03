@@ -117,7 +117,11 @@ midiOne = {
     r8 <d a d' fis'> r <e, a, e a cis' e'> <e, a, e a cis' e'> r <d a d' fis'> r |
     <e, b, e gis b e'>8 r4 <e, a, e a cis' e'>8 <e, a, e a cis' e'> r4 <d a d' fis'>8 |
     r8 <d a d' fis'> r <e, a, e a cis' e'> <e, a, e a cis' e'> r4. |
-\mymark "Outro" #106
+    r8 <d a d' fis'> r <e, a, e a cis' e'> <e, a, e a cis' e'> r4. |
+    <e, b, e gis b e'>8 r4 <e, a, e a cis' e'>8 <e, a, e a cis' e'> r4 <d a d' fis'>8 |
+    r8 <d a d' fis'> r <e, a, e a cis' e'> <e, a, e a cis' e'> r <d a d' fis'> r |
+    <e, b, e gis b e'>8 r4 <e, a, e a cis' e'>8 <e, a, e a cis' e'> r4 <d a d' fis'>8 |
+\mymark "Outro" #110
     <e, b, e gis b e'>8 r4 <e, a, e a cis' e'>8 <e, a, e a cis' e'> r4 <d a d' fis'>8 |
     r8 <d a d' fis'> r <e, a, e a cis' e'> <e, a, e a cis' e'> r <d a d' fis'> r |
     <e, b, e gis b e'>8 r4 <e, a, e a cis' e'>8 <e, a, e a cis' e'> r4 <d a d' fis'>8 |
