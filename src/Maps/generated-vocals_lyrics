@@ -1,0 +1,110 @@
+vocalsLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+\mymark "Intro" #1
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Drums Enter" #5
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse" #12
+    \skip2. "Pack"8 \skip8 |
+    "up"4 \skip2 "I'm"4 |
+    "straight"4 \skip2 "e-"8 \skip8 |
+    "-nough"4 \skip2 "oh"8 \skip8 |
+    "say"4 "say" "say" "oh"8 \skip8 |
+    "say"4 "say" "say" "oh"8 \skip8 |
+    "say"4 "say" "say" "oh"8 \skip8 |
+    "say"4 "say" "say" "oh"8 \skip8 |
+    "say"4 "say" "say" \skip4 |
+\mymark "Chorus" #21
+    "(C)Wait"2 \skip4 "they"8 "don't" |
+    "(G)love"8 "you" "like" "I" "love" "you"4. |
+    "(E)Wait"2 \skip4 "they"8 "don't" |
+    "(G)love"8 "you" "like" "I" "love" "you"4. |
+    "(C)Ma-"8 "-a-" "-a-"4 \skip8 "-a-"8 "-a-"4 |
+    "(B)"8 "-a-" "-a-"4 \skip8 "-a-"8 "-aps"4 |
+    "(D)Wait"2 \skip4 "they"8 "don't" |
+    "(G)love"8 "you" "like" "I" "love" "you"4. |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Verse" #32
+    \skip2. "Made"8 \skip8 |
+    "off"4 \skip2 "Don't"4 |
+    "stray"4 \skip4. "Well"8 "my"4 |
+    "kind's"4 "your" "kind" "I'll" |
+    "stay"4 "the" "same" "Pack"8 \skip8 |
+    "up"4 \skip2 "Don't"4 |
+    "stray"4 \skip2 "Oh"8 \skip8 |
+    "say"4 "say" "say" "oh"8 \skip8 |
+    "say"4 "say" "say" \skip4 |
+\mymark "Chorus" #41
+    "(C)Wait"2 \skip4 "they"8 "don't" |
+    "(G)love"8 "you" "like" "I" "love" "you"4. |
+    "(E)Wait"2 \skip4 "they"8 "don't" |
+    "(G)love"8 "you" "like" "I" "love" "you"4. |
+    "(C)Ma-"8 "-a-" "-a-"4 \skip8 "-a-"8 "-a-"4 |
+    "(B)"8 "-a-" "-a-"4 \skip8 "-a-"8 "-aps"4 |
+    "(D)Wait"2 \skip4 "they"8 "don't" |
+    "(G)love"8 "you" "like" "I" "love" "you"4. |
+    "(C)Wait"2 \skip4 "they"8 "don't" |
+    "(G)love"8 "you" "like" "I" "love" "you"4. |
+    "(E)Ma-"8 "-a-" "-a-"4 \skip8 "-a-"8 "-a-"4 |
+    "(G)"8 "-a-" "-a-"4 \skip8 "-a-"8 "-aps"4 |
+    "(C)Wait"2 \skip4 "they"8 "don't" |
+    "(B)love"8 "you" "like" "I" "love" "you"4. |
+    "(D)"2 \skip2 |
+    "(G)"8 \skip2. \skip8 |
+\mymark "Bridge" #57
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+\mymark "Interlude" #65
+    "(G)"1 |
+    "(E)"1 |
+    "(D)"1 |
+    "(G)"1 |
+    "(G)"1 |
+    "(E)"1 |
+    "(D)"1 |
+    "(G)"1 |
+\mymark "Chorus" #73
+    "(C)Wait"2 \skip4 "they"8 "don't" |
+    "(G)love"8 "you" "like" "I" "love" "you"4. |
+    "(C)Wait"2 \skip4 "they"8 "don't" |
+    "(E)love"8 "you" "like" "I" "love" "you"4. |
+    "(C)Ma-"8 "-a-" "-a-"4 \skip8 "-a-"8 "-a-"4 |
+    "(B)"8 "-a-" "-a-"4 \skip8 "-a-"8 "-aps"4 |
+    "(D)Wait"2 \skip4 "they"8 "don't" |
+    "(G)love"8 "you" "like" "I" "love" "you"4. |
+    "(C)Wait"2 \skip4 "they"8 "don't" |
+    "(G)love"8 "you" "like" "I" "love" "you"4. |
+    "(E)Ma-"8 "-a-" "-a-"4 \skip8 "-a-"8 "-a-"4 |
+    "(G)"8 "-a-" "-a-"4 \skip8 "-a-"8 "-aps"4 |
+    "(C)Wait"2 \skip4 "they"8 "don't" |
+    "(B)love"8 "you" "like" "I" "love" "you"4. |
+    "(D)"1 |
+    "(G)"1 |
+\mymark "Outro" #89
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+    \skip1 |
+}

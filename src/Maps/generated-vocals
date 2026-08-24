@@ -1,0 +1,110 @@
+vocals = {
+    \myVocalsStuff
+\mymark "Intro" #1
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Drums Enter" #5
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse" #12
+    r2. d'8 b |
+    d'4 r2 d'4 |
+    b4 r2 d'8 b |
+    d'4 r2 d'8 b |
+    d'4 d' d' d'8 b |
+    d'4 d' d' d'8 b |
+    d'4 d' d' d'8 b |
+    d'4 d' d' d'8 b |
+    d'4 d' d' r |
+\mymark "Chorus" #21
+    d'2 r4 d'8 b |
+    b8 a a a a g4. |
+    d'2 r4 d'8 b |
+    b8 a a a a g4. |
+    d'8 b d'4. b8 d'4~ |
+    d'8 b d'4. b8 d'4 |
+    d'2 r4 d'8 b |
+    b8 a a a a g4. |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Verse" #32
+    r2. d'8 b |
+    d'4 r2 d'4 |
+    b4 r4. b8 d'4 |
+    d'4 d' d' g' |
+    g'4 g' g' d'8 b |
+    d'4 r2 d'4 |
+    b4 r2 g'8 e' |
+    g'4 g' g' g'8 e' |
+    g'4 g' g' r |
+\mymark "Chorus" #41
+    g'2 r4 d'8 b |
+    b8 a a a a g4. |
+    g'2 r4 d'8 b |
+    b8 a a a a g4. |
+    d'8 b d'4. b8 d'4~ |
+    d'8 b d'4. b8 d'4 |
+    d'2 r4 b'8 a' |
+    a'8 g' g' g' fis' g'4. |
+    g'2 r4 b'8 a' |
+    a'8 g' g' g' fis' g'4. |
+    g'8 e' g'4. e'8 g'4~ |
+    g'8 e' g'4. e'8 g'4 |
+    g'2 r4 d'8 b |
+    b8 a a a a g4. |
+    r1 |
+    r1 |
+\mymark "Bridge" #57
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Interlude" #65
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+\mymark "Chorus" #73
+    d'2 r4 d'8 b |
+    b8 a a a a g4. |
+    d'2 r4 d'8 b |
+    b8 a a a a g4. |
+    d'8 b d'4. b8 d'4~ |
+    d'8 b d'4. b8 d'4 |
+    d'2 r4 b'8 a' |
+    a'8 g' g' g' fis' g'4. |
+    g'2 r4 b'8 a' |
+    a'8 g' g' g' fis' g'4. |
+    g'8 e' g'4. e'8 g'4~ |
+    g'8 e' g'4. e'8 g'4 |
+    g'2 r4 d'8 b |
+    b8 a a a a g4. |
+    r1 |
+    r1 |
+\mymark "Outro" #89
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+    r1 |
+}
