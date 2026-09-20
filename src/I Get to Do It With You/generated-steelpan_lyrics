@@ -1,0 +1,93 @@
+steelpanLyrics = \new Lyrics \lyricmode {
+    \myVocalsStuff
+    \tripletFeel 8  {
+        \skip1 |
+\mymark "Intro" #2
+        \skip1 |
+        \skip1 |
+        \skip1 |
+        \skip1 |
+\mymark "Verse" #6
+        "(E)How"8 "ma-" "-ny" "words"4 "would" "it"8 |
+        "(A)take"8 "to" "real-" "-ly" "(B)say"4 \skip4 |
+        "(E)How"8 "much" "you" "changed"4 "my"8 "life" "in" |
+        "(A)e-"8 "-very" "sin-" "-gle" "(B)way" "You" "make" "the" |
+        "(C#)good"4 "stuff" "bet-"8 "-ter" "and" "the" |
+        "(F#)bad"4 "stuff" "too" "yeah" |
+        "(E)My"8 "life"4 "is"8 "bet-" "-ter"4 "'cause"8 |
+        "(A)I"4 "get"8 "to" "(B)do" "it" "with"4 |
+        "(E)you"4 \skip4 "(A)"4 \skip4 |
+        "(F#)"2 "(B)" |
+        "(E)If"8 "we're" "ea-" "-ting" "(A)din-" "-ner" "I'll"4 |
+        "(F#)chew"8 "it" "with"4 "(B)you" \skip4 |
+        "(E)If"8 "we're" \tuplet 3/2 { "in"8 "line" "in" } "(A)Eng-"8 "-land" "I'll"4 |
+        "(F#)queue"8 "it" "with"4 "you" "If"8 "we're" |
+        "(C#)watch-"8 "-ing" "Green" "Card"4 "I'll"8 "De-" "-par-" |
+        "(F#)-dieu"8 "it" "with"4 "you" "yeah" |
+        "(E)My"8 "life"4 "is"8 "bet-" "-ter"4 "'cause"8 |
+        "(A)I"4 "get"8 "to" "do" "it" "with"4 |
+        "(E)you"4 \skip2. |
+        "(A)"2 "(B)"4 "If"8 "we've" |
+        "(E)been"8 "there" "be-" "-fore"4 "I'll"8 "de-" "-ja" |
+        "(A)vu"8 "it" "with"4 "(B)you" "If"8 "our" |
+        "(E)ho-"8 "-nor's" "be-" "-smirched"4 "I'll" "kung"8 |
+        "(A)fu"8 "it" "with"4 "(B)you" "If"8 "we" |
+        "(F#)meet"8 "a" "droid"4 "I'll" \tuplet 3/2 { "R"8 "2" "D" } |
+        "(C#)2"8 "it" "with"4 "you" "yeah" |
+        "(E)My"8 "life"4 "is"8 "bet-" "-ter"4 "'cause"8 |
+        "(A)I"4 "get"8 "to" "(B)do" "it" "with"4 |
+        "(E)you"4 \skip4 "(A)"4 \skip4 |
+        "(F#)"2 "(B)" |
+\mymark "Chorus" #36
+        "(A)I"4 "choose" "you" "I" |
+        "(A)choose"4 "for-"8 "-e-"4 "-ver"8 "And" "I" |
+        "(E)know"8 \skip8 "we"8 "can" "(A)make"16 "it" \skip4 "I'm"8 |
+        "(E)gi-"16 "-ving" \skip8 "you"8 "my" "(A)heart" \skip8 "and"8 "I" |
+        "(E)want"8 \skip8 "you"8 "to" "(A)take"16 "it" \skip4. |
+        "(B)yeah"4 \skip2. |
+        \skip2. "If"8 "we" |
+\mymark "Verse" #43
+        "(E)learn"8 "the" "Art" "of" "(A)War"4 "I'll"8 "Sun" |
+        "(F#)Tsu"8 "it" "with"4 "(B)you" \skip4 |
+        "(E)If"8 "we" "want" "to" "(A)dance" "I'll" "pas" "de" |
+        "(F#)deux"8 "it" "with"4 "you" "If"8 "we" |
+        "(C#)get"8 "be-" "-trayed" "by" "Bru-" "-tus" "I'll" "et" |
+        "(F#)tu"8 "it" "with"4 "you" "yeah" |
+        "(E)My"8 "life"4 "is"8 "bet-" "-ter"4 "'cause"8 |
+        "(A)I"4 "get"8 "to" "(B)do" "it" "with"4 |
+        "(E)you"4 \skip4 "(A)"4 \skip4 |
+        "(F#)"2 "(B)"4 "If"8 "we're" |
+        "(E)read-"8 "-ing" "Shakes-"4 "(A)-pear"8 "I'll" "hi-" "-ther-" |
+        "(F#)-to"8 "it" "with"4 "(B)you"8 "If" \tuplet 3/2 { "we"8 "write" "a" } |
+        "(E)Ja-"8 "-pa-" "-nese"4 "(A)poem" "I'll"8 "hai-" |
+        "(F#)-ku"8 "it" "with"4 "(B)you" "If"8 "we're" |
+        "(C#)like"4 "Ri-"8 "-chard" "Marx" "I'll" "be" "right" |
+        "(F#)here"8 "wait-" "-ing" "for" "(B)you"4 "yeah" |
+        "(E)My"8 "life"4 "is"8 "bet-" "-ter"4 "'cause"8 |
+        "(A)I"4 "get"8 "to" "(B)do" "it" "with"4 |
+        "(E)you"4 \skip4 "(A)"4 \skip4 |
+        "(F#)"2 "(B)"4 \skip4 |
+\mymark "Chorus" #63
+        "(A)I"4 "choose" "you" "I" |
+        "(A)choose"4 "for-"8 "-e-"4 "-ver"8 "And" "I" |
+        "(E)know"8 \skip8 "we"8 "can" "(A)make"16 "it" \skip4 "I'm"8 |
+        "(E)gi-"16 "-ving" \skip8 "you"8 "my" "(A)heart" \skip8 "and"8 "I" |
+        "(E)want"8 \skip8 "you"8 "to" "(A)take"16 "it" \skip4. |
+        "(B)yeah"4 \skip2. |
+        \skip2. "E-"8 "-very" |
+\mymark "Outro" #70
+        "(E)dream"8 "I" "have" "is" "(A)sweet-" "-er" \tuplet 3/2 { "'cause"8 "I" "per-" } |
+        "(F#)-sue"8 "it" "with"4 "(B)you" \skip8 "If"8 |
+        "(E)times"4 "get" "(A)tough" "I'll"8 "pull" |
+        "(F#)through"8 \skip8 "with"4 "(B)you" \skip8 "And"8 |
+        \tuplet 3/2 { "(A)when"4 "I" "re-" "-mem-" "-ber" "how" } |
+        \tuplet 3/2 { "(A)luck-"4 "-y" "I" } "am"4 "I"8 "will" |
+        "(E)thank"2 \skip8 "you"8 "it" "for" |
+        "(F#)you"1 |
+        "(E)My"8 "life"4 "is"8 "bet-" "-ter"4 "'cause"8 |
+        "(A)I"4 "get"8 "to" "(B)do" "it" "with"4 |
+        "(E)My"8 "life"4 "is"8 "bet-" "-ter"4 "'cause"8 |
+        "(A)I"4 "get"8 "to" "(B)do" "it" "with"4 |
+        "(E)you"1 |
+    }
+}

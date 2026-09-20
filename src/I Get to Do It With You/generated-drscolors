@@ -1,0 +1,94 @@
+drs = \new DrumVoice = "drsb" \new DrumVoice = "drsa" \drummode {
+    \context DrumVoice = "drsa" \voiceOne
+    \context DrumVoice = "drsb" \voiceTwo
+    \tripletFeel 8  {
+        cab4 cab cab cab |
+\mymark "Intro" #2
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+\mymark "Verse" #6
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+\mymark "Chorus" #36
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+\mymark "Verse" #43
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+\mymark "Chorus" #63
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+\mymark "Outro" #70
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab4 cab cab cab |
+        cab1 |
+    }
+}

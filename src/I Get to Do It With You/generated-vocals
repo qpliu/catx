@@ -1,0 +1,93 @@
+vocals = {
+    \myVocalsStuff
+    \tripletFeel 8  {
+        r1 |
+\mymark "Intro" #2
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+\mymark "Verse" #6
+        gis'8 b' fis'' e''4 gis' gis'8 |
+        cis''8 cis'' cis'' b' cis''4 r |
+        gis'8 b' fis'' e''4 gis'8 gis' gis' |
+        cis''8 cis'' cis'' b' cis'' cis'' cis'' dis'' |
+        e''4 dis'' e''8 dis'' e'' dis'' |
+        e''4 dis'' fis'' e'' |
+        gis''8 gis''4 fis''8 fis'' e''4 b'8 |
+        a''4 a''8 gis'' fis'' e'' dis''4 |
+        e''4 r2. |
+        r1 |
+        gis'8 b' b' fis'' e'' gis' gis'4 |
+        cis''8 cis'' b'4 cis'' r |
+        gis'8 b' \tuplet 3/2 { b'8 b' fis'' } e''8 gis' gis'4 |
+        cis''8 cis'' b'4 cis'' cis''8 dis'' |
+        e''8 dis'' e'' dis''4 dis''8 e'' dis'' |
+        e''8 e'' dis''4 fis'' e'' |
+        gis''8 gis''4 fis''8 fis'' e''4 b'8 |
+        a''4 a''8 gis'' fis'' e'' dis''4 |
+        e''4 r2. |
+        r2. gis'8 gis' |
+        gis'8 b' fis'' e''4 gis'8 gis' gis' |
+        cis''8 cis'' b'4 cis'' gis'8 gis' |
+        gis'8 b' fis'' e''4 gis' gis'8 |
+        cis''8 cis'' b'4 cis'' cis''8 dis'' |
+        e''8 dis'' e''4 dis'' \tuplet 3/2 { e''8 e'' e'' } |
+        e''8 e'' dis''4 fis'' e'' |
+        gis''8 gis''4 fis''8 fis'' e''4 b'8 |
+        a''4 a''8 gis'' fis'' e'' dis''4 |
+        e''4 r2. |
+        r1 |
+\mymark "Chorus" #36
+        e''4 dis'' e'' dis'' |
+        e''4 dis''8 fis''4 e''8 e'' fis'' |
+        gis''8 r b' b' cis''16 e'' r4 fis''8 |
+        gis''16 gis'' r8 b' b' cis'' r e'' fis'' |
+        gis''8 r b' b' cis''16 e'' r4. |
+        fis''4 r2. |
+        r2. gis'8 gis' |
+\mymark "Verse" #43
+        gis'8 b' b' fis'' e''4 gis'8 gis' |
+        cis''8 cis'' b'4 cis'' r |
+        gis'8 b' b' fis'' e'' gis' gis' gis' |
+        cis''8 cis'' b'4 cis'' cis''8 dis'' |
+        e''8 dis'' e'' dis'' e'' dis'' dis'' dis'' |
+        e''8 e'' dis''4 fis'' e'' |
+        gis''8 gis''4 fis''8 fis'' e''4 b'8 |
+        a''4 a''8 gis'' fis'' e'' dis''4 |
+        e''4 r2. |
+        r2. gis'8 gis' |
+        gis'8 b' fis''4 e''8 gis' gis' gis' |
+        cis''8 cis'' b'4 cis''8 gis' \tuplet 3/2 { gis'8 gis' gis' } |
+        gis'8 b' fis''4 e'' gis'8 gis' |
+        cis''8 cis'' b'4 cis'' cis''8 dis'' |
+        e''4 e''8 dis'' e'' dis'' e'' dis'' |
+        e''8 e'' e'' dis'' fis''4 e'' |
+        gis''8 gis''4 fis''8 fis'' e''4 b'8 |
+        a''4 a''8 gis'' fis'' e'' dis''4 |
+        e''4 r2. |
+        r1 |
+\mymark "Chorus" #63
+        e''4 dis'' e'' dis'' |
+        e''4 dis''8 fis''4 e''8 e'' fis'' |
+        gis''8 r b' b' cis''16 e'' r4 fis''8 |
+        gis''16 gis'' r8 b' b' cis'' r e'' fis'' |
+        gis''8 r b' b' cis''16 e'' r4. |
+        dis''4 r2. |
+        r2. gis'8 gis' |
+\mymark "Outro" #70
+        gis'8 b' b' fis'' e'' gis' \tuplet 3/2 { gis'8 gis' gis' } |
+        cis''8 cis'' b'4 cis'' r8 gis' |
+        gis'4 fis'' e'' gis'8 gis' |
+        cis''8 cis'' b'4 cis'' r8 dis'' |
+        \tuplet 3/2 { e''4 e'' dis'' e'' dis'' dis'' } |
+        \tuplet 3/2 { e''4 e'' dis'' } fis''4 e''8 fis'' |
+        gis''2 r8 fis'' e'' dis'' |
+        cis''1 |
+        gis''8 gis''4 fis''8 fis'' e''4 b'8 |
+        a''4 a''8 gis'' fis'' e'' dis''4 |
+        gis''8 gis''4 fis''8 fis'' e''4 b'8 |
+        a''4 b''8 a'' fis'' e'' dis''4 |
+        e''1 |
+    }
+}
