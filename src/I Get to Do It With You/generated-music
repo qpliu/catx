@@ -5,11 +5,11 @@
 
 \include "generated-markup"
 \include "generated-guitar"
+\include "generated-vocals"
+\include "generated-vocals_lyrics"
 \include "generated-drs"
 \include "generated-steelpan"
 \include "generated-steelpan_lyrics"
-\include "generated-vocals"
-\include "generated-vocals_lyrics"
 
 layoutmusic = <<
     \tag #'(allPart peterPart) \new Staff \with {
@@ -24,6 +24,14 @@ layoutmusic = <<
     \tag #'(allPart peterPart) \new TabStaff \with {
         stringTunings = \stringTuning <cis fis b e' gis' cis''>
     } \guitar
+    \tag #'(allPart kavPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Vocals" }
+        shortInstrumentName = \markup { \rotate #90 "Vo" }
+    } <<
+        \markupStuff
+        \vocals
+    >>
+    \tag #'(allPart kavPart) \vocalsLyrics
     \tag #'(allPart ggPart kavPart) \new DrumStaff \with {
         instrumentName = \markup { \rotate #90 "Drums" }
         shortInstrumentName = \markup { \rotate #90 "Drs" }
@@ -40,14 +48,6 @@ layoutmusic = <<
         \steelpan
     >>
     \tag #'(allPart susanPart) \steelpanLyrics
-    \tag #'(allPart kavPart) \new Staff \with {
-        instrumentName = \markup { \rotate #90 "Vocals" }
-        shortInstrumentName = \markup { \rotate #90 "Vo" }
-    } <<
-        \markupStuff
-        \vocals
-    >>
-    \tag #'(allPart kavPart) \vocalsLyrics
 >>
 
 midimusic = <<
@@ -55,13 +55,13 @@ midimusic = <<
     \tag #'(midiPeter) \new Staff = "generated-guitar" \with {
         midiInstrument = #"acoustic guitar (steel)"
     } \guitar
+    \tag #'(midiKaraoke) \new Staff = "generated-vocals" \with {
+        midiInstrument = #"synth voice"
+    } \vocals
     \tag #'(midiGg) \new DrumStaff = "generated-drs" \with {
         drumPitchTable = #(alist->hash-table midiDrumPitches)
     } \drs
     \tag #'(midiSusan) \new Staff = "generated-steelpan" \with {
         midiInstrument = #"steel drums"
     } \steelpan
-    \tag #'(midiKaraoke) \new Staff = "generated-vocals" \with {
-        midiInstrument = #"synth voice"
-    } \vocals
 >>
