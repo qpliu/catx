@@ -10,6 +10,8 @@
 \include "generated-drs"
 \include "generated-steelpan"
 \include "generated-steelpan_lyrics"
+\include "generated-bass"
+\include "generated-midiOne"
 
 layoutmusic = <<
     \tag #'(allPart peterPart) \new Staff \with {
@@ -48,6 +50,18 @@ layoutmusic = <<
         \steelpan
     >>
     \tag #'(allPart susanPart) \steelpanLyrics
+    \tag #'(allPart bassPart) \new Staff \with {
+        instrumentName = \markup { \rotate #90 "Bass" }
+        shortInstrumentName = \markup { \rotate #90 "Ba" }
+    } <<
+        \markupStuff
+        \bass
+        \clef "bass_8"
+        { s128_"e a d g" }
+    >>
+    \tag #'(allPart bassPart) \new TabStaff \with {
+        stringTunings = \stringTuning <e,, a,, d, g,>
+    } \bass
 >>
 
 midimusic = <<
@@ -64,4 +78,10 @@ midimusic = <<
     \tag #'(midiSusan) \new Staff = "generated-steelpan" \with {
         midiInstrument = #"steel drums"
     } \steelpan
+    \tag #'(midiBass) \new Staff = "generated-bass" \with {
+        midiInstrument = #"electric bass (finger)"
+    } \bass
+    \tag #'(midiOne) \new Staff = "generated-midiOne" \with {
+        midiInstrument = #"acoustic grand"
+    } \midiOne
 >>

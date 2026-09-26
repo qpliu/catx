@@ -1,0 +1,92 @@
+midiOne = {
+    \tripletFeel 8  {
+        r1 |
+\mymark "Intro" #2
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+\mymark "Verse" #6
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        r1 |
+        gis'2 r8 gis' gis' gis' |
+        cis''2 b' |
+        gis'2 r |
+        cis''2 dis'' |
+        e''2 r |
+        r2 fis''4 e'' |
+        b'1 |
+        cis''2 dis'' |
+        e''1 |
+        r1 |
+\mymark "Chorus" #36
+        <a' cis'' e''>1 |
+        <a' c'' e''>1 |
+        <gis' b' e''>8 r4. <a' cis'' e''>8 r4. |
+        <gis' b' e''>8 r4. <a' cis'' e''>8 r4. |
+        <gis' b' e''>8 r4. <a' cis'' e''>8 r4. |
+        b'4 b'8 fis'4 fis'8 fis'4 |
+        e''8 dis''4 cis'' b'4. |
+\mymark "Verse" #43
+        gis'1 |
+        cis''2 dis'' |
+        gis'1 |
+        cis''2 dis'' |
+        e''1 |
+        r1 |
+        b'1 |
+        cis''2 dis'' |
+        e''1 |
+        r1 |
+        <gis' b' e''>2 <e' a' cis''> |
+        r2 <fis' b' dis''> |
+        <gis' b' e''>2 <e' a' cis''> |
+        r2 <fis' b' dis''> |
+        <gis' cis'' e''>1 |
+        <fis' ais' cis''>1 |
+        <gis' b' e''>1 |
+        <e' a' cis''>2 <fis' b' dis''> |
+        <gis' b' e''>2 <e' gis' cis''> |
+        <e' a' cis''>2 <fis' b' dis''> |
+\mymark "Chorus" #63
+        <a' cis'' e''>1 |
+        <a' c'' e''>1 |
+        <gis' b' e''>8 r4. <a' cis'' e''>8 r4. |
+        <gis' b' e''>8 r4. <a' cis'' e''>8 r4. |
+        <gis' b' e''>8 r4. <a' cis'' e''>8 r4. |
+        r1 |
+        r1 |
+\mymark "Outro" #70
+        <gis' b' e''>2 <e' gis' cis''> |
+        <e' a' cis''>2 <fis' b' dis''> |
+        <gis' b' e''>2 <e' gis' cis''> |
+        <e' a' cis''>2 <fis' b' dis''> |
+        <a' cis'' e''>1 |
+        <a' c'' e''>1 |
+        <b' e'' gis''>2 r8 fis'' e'' dis'' |
+        cis''1 |
+        <gis' b' e''>1 |
+        <e' a' cis''>2 <fis' b' dis''> |
+        <gis' b' e''>1 |
+        <e' a' cis''>2 <fis' b' dis''> |
+        <gis' b' e''>1 |
+    }
+}
